@@ -1,0 +1,74 @@
+---
+title: "Fremgangsmåde: Oprette indgående dokumentposter | Microsoft Docs"
+description: "Fremgangsmåde: Oprette indgående dokumentposter"
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
+ms.date: 05/12/2016
+ms.author: sgroespe
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
+ms.openlocfilehash: 38ea48e8a948df0fc3894e91d8393d2d14b2fd5a
+ms.contentlocale: da-dk
+ms.lasthandoff: 05/04/2017
+
+
+---
+# <a name="how-to-create-incoming-document-records"></a>Fremgangsmåde: Oprette indgående dokumentposter
+I vinduet **Indkommende dokumenter** kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående dokumentfiler, manuelt eller automatisk, til de relevante købs- og salgsdokumenter eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter.
+
+Når du vil registrere et eksternt dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du først oprette eller fuldføre en indgående dokumentpost. Du kan gøre dette manuelt, eller du kan tage et billede af det eksterne dokument og derefter oprette den indgående dokumentpost med billedfilen vedhæftet.
+
+Før du kan bruge funktionen Indkommende dokumenter, skal du foretage den nødvendige opsætning. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurere indgående dokumenter](across-how-setup-income-documents.md).
+
+## <a name="to-approve-or-reject-an-incoming-document"></a>Sådan godkendes eller afvises et indgående dokument
+Hvis du vil tillade brugere at oprette fakturaer eller finanskladdelinjer fra indgående dokumentposter, medmindre de er godkendt, kan du angive godkendere, der skal godkende posterne, før de kan behandles.
+
+1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Indgående bilag** og derefter vælge det relaterede link.
+2. Marker linjen i det dokument, du vil godkende eller afvise, og vælg derefter handlingen **Godkend** eller **Afvis**.
+
+Hvis du godkender den indgående dokumentpost, markeres afkrydsningsfeltet **Frigivet** på den indgående dokumentlinje. Brugeren, der har ansvaret for at godkende, f.eks, købsfakturaer, kan fortsætte med at behandle posten.
+
+## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Sådan opretter du en indgående dokumentpost ved at tage et billede
+**Bemærk**: Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
+
+1. På applinjen skal du vælge feltet **Opret indgående bilag fra kamera** og derefter gå til trin 4.
+2. Du kan også vælge alternativknappen på applinjen, vælge **Indgående dokumenter** og derefter vælge **Alle**.
+3. I vinduet **Indkommende dokumenter** skal du vælge ellipseknappen og derefter vælge **Opret fra kamera**. Kameraet på tabletten eller telefonen aktiveres.
+4. Tag et billede af et dokument, f.eks en købsleverance, som du vil behandle som et indgående dokument, og vælg derefter knappen **OK**.
+
+Der oprettes en ny indgående dokumentpost med billedet vedhæftet.
+
+## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Sådan vedhæfter du et billede til en indgående dokumentpost ved at tage et billede
+**Bemærk**: Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
+
+1. På applinjen skal du vælge alternativknappen, vælg **Indgående dokumenter** og vælg derefter **Alle**.
+2. Åbn kortet for en eksisterende indgående dokumentpost.
+3. I vinduet **Indkommende dokument** skal du vælge ellipseknappen og derefter vælge **Vedhæft billede fra kamera**. Kameraet på tabletten eller telefonen aktiveres.
+4. Tag et billede af et dokument, f.eks en købsleverance, som du vil behandle som et indgående dokument, og vælg derefter knappen **OK**.
+
+Billedet vedhæftes til den indgående dokumentpost.
+
+## <a name="to-create-an-incoming-document-record-manually"></a>Sådan oprettes en indgående dokumentpost manuelt
+1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Indgående bilag** og derefter vælge det relaterede link.
+2. Vælg handlingen **Opret fra fil**.  
+3. I vinduet **Indsæt fil** skal du vælge en fil og derefter klikke på **Åbn**.
+
+    Filen vedhæftes automatisk.
+4. Du kan også vælge handlingen **Ny**.
+5. Du kan vedhæfte en fil ved at vælge handlingen **Vedhæft fil**.
+6. I vinduet **Indsæt fil** , skal du vælge den fil, der repræsenterer det pågældende indgående dokument og derefter vælge knappen **Åbn**.
+7. I vinduet **Indgående bilag** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="see-also"></a>Se også
+[Behandle indgående bilag](across-process-income-documents.md)  
+[Indgående bilag](across-income-documents.md)  
+[Køb](purchasing-manage-purchasing.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+

@@ -1,0 +1,69 @@
+---
+title: "Fremgangsmåde: Overflytte lagerbeholdning mellem lokationer | Microsoft Docs"
+description: "Beskriver, hvordan du overfører lager fra ét sted eller lagersted til et andet enten med omposteringskladden eller overflytningsordrer."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: move, warehouse
+ms.date: 03/28/2017
+ms.author: SorenGP
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
+ms.openlocfilehash: 43a60a6eb646de13ca9bf1458061f0bbefbeab12
+ms.contentlocale: da-dk
+ms.lasthandoff: 05/04/2017
+
+
+---
+# <a name="how-to-transfer-inventory-between-locations"></a>Fremgangsmåde: Overflytte lagerbeholdning mellem lokationer
+Du kan overføre lagervarer mellem lokationer ved at oprette overflytningsordrer. Du kan også bruge vareomposteringskladden.
+
+Med overflytningsordrer leverer du den udgående overflytning fra én placering og modtager den indgående overflytning på en anden. Dette giver dig mulighed for at administrere de involverede lageraktiviteter og giver større sikkerhed for, at lagerantallet opdateres korrekt.
+
+Med omposteringskladden skal du blot udfylde felterne **Lokationskode** og **Ny lokationskode**. Når du bogfører kladden, justeres vareposterne på de pågældende lokationer. Med denne metode administreres lageraktiviteter ikke.
+
+**Bemærk!** Hvis du har varer, der er registreret i lagerbeholdningen uden en lokationskode, f.eks. fra et tidspunkt, hvor du kun havde ét lagersted, kan du ikke overføre disse varer ved hjælp af overflytningsordrer. I stedet skal du bruge omposteringskladden til at ompostere varerne fra en tom lokationskode til en faktisk lokationskode.  Du kan finde flere oplysninger under trin 3 i afsnittet "Sådan overflyttes varer i vareomposteringskladden".
+
+Hvis du vil overflytte varer, skal lokationer og overflytningsruter oprettes. Du kan finde flere oplysninger i [Fremgangsmåde: Opsætning af lokationer](inventory-how-setup-locations.md).
+
+**Bemærk**: Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger i [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+
+## <a name="to-transfer-items-with-a-transfer-order"></a>Såden overflyttes varer med en overflytningsordre
+1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Overflytningsordrer** og derefter vælge det relaterede link.
+2. I vinduet **Overflytningsordre** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    **Bemærk!** Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservicekode** i vinduet **Overflytningsrutespec.**, når du opretter overflytningsruten, udfyldes de tilsvarende felter på overflytningsordren automatisk.
+
+    Når du udfylder feltet **Speditørservice** beregnes modtagelsesdatoen på den lokation, der overflyttes til, ved at lægge speditørens transporttid til afsendelsesdatoen.
+
+    Fortsæt med at levere varerne som lagermedarbejder på den lokation, der overflyttes fra.
+3. Vælg handlingen **Bogfør**, vælg indstillingen **Lever**, og vælg derefter knappen **OK**.
+
+    Varerne er nu i transit mellem de angivne lokationer i overensstemmelse med den angivne overflytningsrute.
+
+    Fortsæt ved at modtage varerne som lagermedarbejder på den lokation, der overflyttes fra.
+4. Vælg handlingen **Bogfør**, vælg indstillingen **Modtag**, og vælg derefter knappen **OK**.
+
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Sådan overflyttes varer i vareomposteringskladden
+1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Vareomposteringskladder** og derefter vælge det relaterede link.
+2. I vinduet **Vareomposteringskladder** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I feltet **Lokationskode** skal du indtaste den lokation, hvor varerne opbevares i øjeblikket.
+
+    **Bemærk!** For at overflytte varer, der ikke har en lokationskode, skal du lade feltet **Lokationskode** stå tomt.
+4. I feltet **Ny lokationskode** skal du angive den lokation, som du vil overflytte varerne til.
+5. Vælg handlingen **Bogfør**.
+
+## <a name="see-also"></a>Se også
+[Administrere lager](inventory-manage-inventory.md)  
+[Sådan oprettes lokationer](inventory-how-setup-locations.md)  
+[Forsyningskæde](madeira-supply-chain.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)  
+[Generelle forretningsfunktioner](ui-across-business-areas.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]

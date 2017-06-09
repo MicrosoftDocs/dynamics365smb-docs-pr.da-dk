@@ -1,0 +1,42 @@
+---
+title: Oprette og administrere kontakter | Microsoft Docs
+description: Beskriver, hvordan du opretter og administrerer kontakter i Financials
+services: project-madeira
+documentationcenter: 
+author: jswymer
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: relationship, prospect
+ms.date: 03/28/2017
+ms.author: jswymer
+ms.translationtype: Human Translation
+ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
+ms.openlocfilehash: 4042cf76b6be433ad0a9934d0d1651d1df7ee433
+ms.contentlocale: da-dk
+ms.lasthandoff: 05/04/2017
+
+
+---
+# <a name="creating-and-managing-contacts"></a>Oprette og administrere kontakter
+Forskellige grupper i dit firma vil have forretningsrelationer med forskellige andre firmaer. En sælger kan f.eks. regelmæssigt møde mulige kunder og registrere resultaterne af disse besøg ved ugens afslutning.
+
+Alle eksterne enheder, som du har forretningsforhold til (f.eks. kunder, mulige kunder, leverandører, advokater og konsulenter) bør registreres som kontaktpersoner. Hvis disse data registrere på ét centralt sted, kan alle grupper i firmaet få vist oplysningerne og anvende dem effektivt. Kommunikationen med kontaktpersonerne vil være bedre, hvis alle oplysninger er let tilgængelige. Det ville f.eks. være interessant for en marketingmedarbejder at vide, hvilke andre produkter en bestemt kunde har købt, før medarbejderen forsøger at gøre kunden interesseret i et nyt produkt.
+
+Du kan registrere oplysninger baseret på et firma eller en person i det pågældende firma. Du kan også oprette en uafhængig kontaktperson for personer, som ikke arbejder for et bestemt firma, men som arbejder selvstændigt eller freelance.
+
+Tabellen herunder indeholder en serie opgaver, der er knyttet til de emner, hvor de beskrives. Disse opgaver vises i den raækkefølge, som de generelt udføres.
+
+| Hvis du vil | Se |
+| --- | --- |
+| Konfigurer administration af kontaktpersoner før tilføjelse af kontaktpersoner. |[Forberede til oprettelse af kontaktpersoner](marketing-setup-contacts.md) |
+| Oprette et kontaktkort for hver ny virksomhed, du har interaktion med, f.eks. en kunde eller en leverandør. |[Oprette kontaktvirksomheder](marketing-create-contact-companies.md) |
+| Oprette et kontaktkort for hver kontaktperson, som arbejder for de virksomheder, du interagerer med. |[Oprette kontaktpersoner](marketing-create-contact-persons.md) |
+
+## <a name="see-also"></a>Se også
+[Administrere salgsleads](marketing-manage-sales-opportunities.md)  
+[Opsætning af Relationsstyring](marketing-setup-marketing.md)  
+[Arbejde med Financials](ui-work-product.md)  
+
