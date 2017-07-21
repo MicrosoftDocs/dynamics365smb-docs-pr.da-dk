@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Registrere nye kreditorer | Microsoft Docs"
-description: "Få at vide, hvordan du tilføjer kreditorer i Financials."
+title: "Oprette et kreditorkort for at registrere en ny leverandør | Microsoft Docs"
+description: "Lær, hvordan du opretter et kreditorkort for at registrere en ny kreditor eller leverandør."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3420a91200b64ea0672d5757a0104c6806fc607f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Før du kan registrere nye kreditorer, skal du oprette forskellige købskoder, s
 
 Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe produkter fra kreditoren. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md) og [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).
 
-**Bemærk**: Hvis der er kreditorskabeloner til forskellige kreditortyper, vises der automatisk et vindue, når du opretter et nyt kreditorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én kreditorskabelon, bruger nye kreditorkort altid denne skabelon.
+> [!NOTE]  
+>   Hvis der er kreditorskabeloner til forskellige kreditortyper, vises der automatisk et vindue, når du opretter et nyt kreditorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én kreditorskabelon, bruger nye kreditorkort altid denne skabelon.
 
 ## <a name="to-create-a-new-vendor-card"></a>Sådan oprettes et nyt kreditorkort
 1. På startsiden skal du vælge **Kreditorer** for at åbne oversigten over eksisterende kreditorer.  

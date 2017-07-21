@@ -1,6 +1,6 @@
 ---
-title: Sortering | Microsoft Docs
-description: "Få at vide, hvordan sortering fungerer."
+title: "Sortering af data ved hjælp af sorteringsfunktionen | Microsoft Docs"
+description: "Du kan bruge sorteringsfunktionen til at få et overblik over dine data. Du kan f.eks. sortere debitorerne efter valutakode for at få vist et udvalg af bestemte kunder."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 02/07/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 284d03333af17e8c9bcf94cc20e40f87ee063e24
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4f63d34f4dffc0a6e8c6aa7f8e3fe72710d9bce5
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,8 @@ Sorteringsfunktionen gør det nemt og hurtigt for dig at overskue dine oplysning
 
 Vælg en kolonneoverskrift, og brug den lille pil til at sortere stigende eller faldende.  
 
-**Bemærk**: Sortering understøttes ikke af billeder, BLOB-felter, FlowFilters og felter, der ikke tilhører en tabel.
+> [!NOTE]  
+>   Sortering understøttes ikke af billeder, BLOB-felter, FlowFilters og felter, der ikke tilhører en tabel.
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

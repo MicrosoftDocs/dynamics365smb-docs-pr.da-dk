@@ -1,6 +1,6 @@
 ---
 title: Afskrivningsmetoder | Microsoft Docs
-description: "Beskriver de syv metoder, du kan bruge til afskrivning af anlægsaktiver"
+description: "Få mere at vide om de forskellige metoder til at afskrive eller nedskrive anlægsaktiver."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ Der er otte tilgængelige metoder til afskrivning:
 * Brugerdefineret  
 * Manuelt  
 
-  **Bemærk:** Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord. Du skal angive afskrivningen i anlægskassekladden. Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.  
+  > [!NOTE]  
+>   Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord. Du skal angive afskrivningen i anlægskassekladden. Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.  
 * Halvårlig afskrivning  
 
-  **Bemærk:** Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.  
+  > [!NOTE]  
+>    Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.  
 
 ## <a name="straight-line-depreciation"></a>Lineær afskrivning
 Når du bruger den lineære metode, skal du angive en af følgende indstillinger i anlægsafskrivningsprofilen:  
@@ -230,7 +232,7 @@ Denne brugerdefinerede metode kan også bruges til afskrivning baseret på antal
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Sådan konfigureres brugerdefinerede afskrivningsmetoder
 I vinduet **Afskrivningstabel** kan du oprette brugerdefinerede afskrivningsmetoder. For eksempel kan du konfigurere afskrivning baseret på antal enheder.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Afskrivningstabeller** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningstabeller**, og vælg derefter det relaterede link.  
 2. I vinduet **Afskrivningstabeloversigt** skal du vælge handlingen **Ny**.  
 3. I vinduet **Afskrivningstabelkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -282,7 +284,8 @@ Denne afskrivningsmetode kan bruges sammen med følgende afskrivningsmetoder i p
 
 Når du anvender det halvårlige afskrivningsprincip, afskrives et anlægsaktiv i seks måneder i det første regnskabsår, uanset hvad der står i feltet **Afskrivningsstartdato**.  
 
-**Bemærk:** Den anslåede levetid, der er tilbage for anlægsaktivet efter det første regnskabsår, vil altid indeholde et halvår, hvor det halvårlige afskrivningsprincip anvendes. Når således det halvårlige afskrivningsprincip skal anvendes korrekt, skal feltet **Afskrivningsslutdato** i vinduet **Anlægsafskrivningsprofil** altid indeholde en dato, der ligger nøjagtigt seks måneder inden den sidste dag i det regnskabsår, hvor anlægsaktivet bliver helt afskrevet.  
+> [!NOTE]  
+>   Den anslåede levetid, der er tilbage for anlægsaktivet efter det første regnskabsår, vil altid indeholde et halvår, hvor det halvårlige afskrivningsprincip anvendes. Når således det halvårlige afskrivningsprincip skal anvendes korrekt, skal feltet **Afskrivningsslutdato** i vinduet **Anlægsafskrivningsprofil** altid indeholde en dato, der ligger nøjagtigt seks måneder inden den sidste dag i det regnskabsår, hvor anlægsaktivet bliver helt afskrevet.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Eksempel – Half-Year Convention-afskrivning
 Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I **Afskriv fra den** er datoen 01-03-10 angivet. Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-15. Kørslen **Beregn afskrivning** udføres en gang om året. Dette eksempel er baseret på et kalenderregnskabsår.  
@@ -343,9 +346,11 @@ Hvis du har tre afskrivningsprofiler, B1, B2 og B3, og du vil kopiere poster fra
 
 Når du indtaster en post i B1 i anlægskassekladden og markerer afkrydsningsfeltet **Brug kopiliste**, kopieres posten i profil B2 og B3 i anlægskladden, når posten bogføres.  
 
-**Bemærk:** Du kan ikke kopiere i samme kladde, som du kopierer fra. Hvis du bogfører poster i anlægskassekladden, kan du kopiere dem i anlægskladden eller i anlægskassekladden ved at bruge en anden kladde.  
+> [!NOTE]  
+>   Du kan ikke kopiere i samme kladde, som du kopierer fra. Hvis du bogfører poster i anlægskassekladden, kan du kopiere dem i anlægskladden eller i anlægskassekladden ved at bruge en anden kladde.  
 
-**Bemærk:** Du kan ikke bruge samme nummerserie i anlægskassekladden og anlægskladden. Når du bogfører poster i anlægskassekladden, skal feltet **Bilagsnr.** være tomt. Hvis du indtaster et tal i feltet, kopieres tallet i anlægskladden. Du skal manuelt ændre bilagsnummeret, før du kan bogføre kladden.  
+> [!NOTE]  
+>   Du kan ikke bruge samme nummerserie i anlægskassekladden og anlægskladden. Når du bogfører poster i anlægskassekladden, skal feltet **Bilagsnr.** være tomt. Hvis du indtaster et tal i feltet, kopieres tallet i anlægskladden. Du skal manuelt ændre bilagsnummeret, før du kan bogføre kladden.  
 
 ## <a name="see-also"></a>Se også
 [Anlægsaktiver](fa-manage.md)  

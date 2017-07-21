@@ -1,6 +1,6 @@
 ---
-title: Bruge Dynamics 365 for Financials-indholdspakker til Power BI | Microsoft Docs
-description: "Du kan nemt få indsigt i dine Financials-data med Power BI og Financials-indholdspakker."
+title: Dynamics 365 for Financials og indholdspakker til Power BI | Microsoft Docs
+description: "Du kan nemt få indsigt, business intelligence og nøgletal i dine Financials-data med Power BI og Financials-indholdspakker."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70e3e166f344d373750c969bd5816a8e67589e53
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,7 +30,8 @@ Indholdspakkerne er konfigureret til arbejde med salgstal og finansielle data fr
 * Fastgør denne brugerdefinerede visning til dashboardet for fortsat sporing.  
   Dashboardet og de underliggende rapporter opdateres dagligt. Du kan kontrollere opdateringsplanen og ændre hyppigheden på datasættet.  
 
-**Bemærk!** Du kan også oprette dine egne rapporter og dashboards i Power BI baseret på dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Du kan finde flere oplysninger under [Bruge Dynamics 365 for Financials som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+> [!NOTE]  
+>   Du kan også oprette dine egne rapporter og dashboards i Power BI baseret på dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Du kan finde flere oplysninger under [Forbinde dine virksomhedsdata med Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI
 Når du vil have vist dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Power BI, skal du have følgende:  
@@ -74,7 +75,8 @@ Du finder disse oplysninger ved i [!INCLUDE[d365fin](includes/d365fin_md.md)] at
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Bemærk**: Hvis du ændrer navnet på en af disse webtjenester, vises data ikke i Power BI.  
+> [!NOTE]  
+>   Hvis du ændrer navnet på en af disse webtjenester, vises data ikke i Power BI.  
 Hvis du vil tilføje andre data i Power BI, skal du finde tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)], vise dem som webtjenester og derefter føje dem til indholdspakken. Dette er et avanceret scenarie, og det anbefales, at du starter med de data, der allerede findes i Power BI.  
 
 ## <a name="troubleshooting"></a>Fejlfinding
@@ -98,7 +100,8 @@ Hvis fejlmeddelelsen "Logon mislykkedes" vises, når du logger på dashboardet v
     Kontroller din brugerkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], og kontroller, at du har brugt den rigtige webtjenesteadgangsnøgle som adgangskode, og prøv derefter igen.  
 * Den [!INCLUDE[d365fin](includes/d365fin_md.md)]-forekomst, du prøver at oprette forbindelse til, har ikke et gyldigt SSL-certifikat. I dette tilfælde kan du se en mere detaljeret fejlmeddelelse ("kan ikke etablere SSL-tillidsrelation").
 
-    **Bemærk**: Selvsignerede certifikater understøttes ikke.  
+    > [!NOTE]  
+>   Selvsignerede certifikater understøttes ikke.  
 
 **"UPS"**  
 Hvis du får vist en "UPS"-fejlmeddelelse, når du er færdig med godkendelsesdialogboksen, skyldes dette oftest problemer med forbindelsen til dataene til indholdspakken.
@@ -115,7 +118,7 @@ Hvis du får vist en "UPS"-fejlmeddelelse, når du er færdig med godkendelsesdi
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Overføre forretningsdata fra andre økonomisystemer](upload-data.md)  
+[Overføre virksomhedsdata fra andre økonomisystemer](upload-data.md)  
 [Bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som PowerApps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)  

@@ -1,6 +1,6 @@
 ---
-title: "Forberede rapporter før afslutning | Microsoft Docs"
-description: "Giver en oversigt over de rapporter, der kan være nyttige, når du lukker året."
+title: "Oversigt over rapporter før afslutning til bekræftelse af nøjagtigheden af konti | Microsoft Docs"
+description: "Giver en oversigt over de rapporter, du kan bruge til at bekræfte nøjagtigheden af konti, inden du afslutter regnskaberne i slutningen af et år eller en periode."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3673b32320f2fc2b092afff7d0e8ba2c48edb0f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-pre-closing-reports"></a>Forberede rapporter før afslutning
+# <a name="using-pre-closing-reports"></a>Bruge rapporter før afslutning
 Der findes mange standardrapporter, som du kan bruge til at bekræfte nøjagtigheden af kontiene, inden du afslutter regnskaberne i slutningen af et år eller en periode. Du kan f.eks. bruge rapporten **Debitor - balance** til at bekræfte, at balancen for en debitorbogføringsgruppe er lig med balancen for den tilsvarende finanskonto på en bestemt dato.
 
 Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne proces.
@@ -36,7 +36,7 @@ Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne pro
 | Udskrive en råbalancerapport med saldi og bevægelser for finanskonti. |Balance |
 | Udskrive en råbalance for et konsolideret regnskab. |Konsolideret råbalance |
 
-Hvis du vil se en rapport, skal du i øverste højre hjørne vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), skrive navnet, som det vises i tabellen, og derefter vælge det relaterede link.
+Hvis du vil se en rapport, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), skrive navnet, som det vises i tabellen og derefter vælge det relaterede link.
 
 ## <a name="see-also"></a>Se også
 [Afslutning af år og perioder](year-close-years-periods.md)  

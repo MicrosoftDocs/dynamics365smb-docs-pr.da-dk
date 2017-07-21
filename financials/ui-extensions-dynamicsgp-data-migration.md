@@ -1,6 +1,6 @@
 ---
-title: "Overførsel af data med Microsoft Dynamics GP | Microsoft Docs"
-description: "Indeholder oplysninger om udvidelsen Overførsel af data med Dynamics GP"
+title: "Overførsel af data fra Dynamics GP med udvidelsen Dataoverførsel | Microsoft Docs"
+description: "Du kan bruge udvidelsen Dataoverførsel i Dynamics GP til at overføre debitorer, kreditorer, lagervarer og konti fra Dynamics GP til Dynamics 365 for Financials."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a94afbd0ee689f6bd9157d0b441959f252230f08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 31b698aea884da162cc18f16a912ebd57e35aed9
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,5 +34,5 @@ Udvidelsen til overførsel af data til Dynamics GP tilknyttes automatisk de udl�
 
 ## <a name="see-also"></a>Se også
 [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
-[Tilpasning af [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser ](ui-extensions.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser ](ui-extensions.md)  
 

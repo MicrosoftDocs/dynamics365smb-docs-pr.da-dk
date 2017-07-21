@@ -13,10 +13,10 @@ ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 47209e29f8baea497a3a9267d37f270a92950dcb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.
 
 ## <a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Finansgentagelseskladde** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg feltet **Kladdenavn** for at åbne vinduet **Finanskladdenavne**.
 3. Du kan ændre fordelinger for et eksisterende navn på listen eller oprette et nyt navn med fordelinger.
    * Du kan oprette en ny kladde ved at vælge handlingen **Ny** og gå til næste trin.
@@ -39,7 +39,7 @@ Du kan allokere en post i en finanskladde til flere forskellige konti, når du b
 11. Bogfør journalen.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Sådan ændres en fordelingsnøgle, der allerede er oprettet
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Finansgentagelseskladde** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg kladden med allokeringen i vinduet **Finansgentagelseskladde**.
 3. Vælg linjen med fordelingen og vælg derefter handlingen **Fordelinger**.
 4. Rediger de relevante felter, og vælg derefter knappen **OK**.

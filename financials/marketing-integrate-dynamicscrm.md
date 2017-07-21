@@ -1,6 +1,6 @@
 ---
-title: Administrere kunderelationer med Dynamics 365 for Sales fra Dynamics 365 for Financials | Microsoft Docs
-description: "Hvis du bruger Dynamics 365 for Sales til kundeengagementer, kan du bruge Dynamics 365 for Financials til ordrebehandling og økonomi og få problemfri integration i lead-til-kontant-processen"
+title: "Administrere kunder ved hjælp af Dynamics 365 for Sales | Microsoft Docs"
+description: "Du kan bruge Dynamics 365 for Sales fra Dynamics 365 for Financials til at tilknytte data og få gnidningsløs integration og synkronisering i lead-til-kontant-processen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,30 +9,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 03/05/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c0291cc316b49e1f1f4f2196745914daca158f61
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2f182d48a3d2c083507564b553fbe22ad7a2e661
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Administrere kunderelationer med Dynamics 365 for Sales fra Dynamics 365 for Financials
-Hvis du bruger Dynamics 365 for Sales til kundeengagementer, kan du bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] til ordrebehandling og økonomi og få problemfri integration i lead-til-kontant-processen
+Hvis du bruger Dynamics 365 for Sales til kundeengagementer, kan du bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] til ordrebehandling og økonomi og få problemfri integration i lead-til-kontant-processen.
 
 Når programmet er indstillet til integration med Dynamics 365 for Sales, har du adgang til Sales-data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] og omvendt i nogle tilfælde. Integrationen gør det muligt at arbejde med og synkronisere datatyper, der er fælles for begge tjenester, f.eks. debitorer, kontakter og salgsoplysninger, og holde dataene opdaterede på begge lokationer.  
 
-**Bemærk!** I den aktuelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)] omtales Dynamics 365 for Sales som Dynamics CRM. Af hensyn til overskueligheden bruges der resten af denne artikel samme terminologi som i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+>   I den aktuelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)] omtales Dynamics 365 for Sales som Dynamics CRM. Af hensyn til overskueligheden bruges der resten af denne artikel samme terminologi som i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 For eksempel kan sælgeren i Dynamics CRM bruge prislisterne fra [!INCLUDE[d365fin](includes/d365fin_md.md)], når vedkommende opretter en salgsordre. Når sælgeren føjer varen til salgsordrelinjen i Dynamics CRM, kan han eller hun også få vist lagerniveauet (disponering) af varen fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Disse data publiceres som en del af den assisterende opsætningsvejledning **Konfiguration af Dynamics CRM-forbindelse**.  
 
-**Bemærk**: Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger i [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
+> [!NOTE]  
+>   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Indstilling af forbindelsen
 Fra startsiden kan du åbne opsætningsvejledningen **Konfiguration af Dynamics CRM-forbindelse**, der hjælper dig med at oprette forbindelsen. Når det er gjort, får du en problemfri sammenkædning af Dynamics CRM-poster og [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.  
 
-**Bemærk!** I det følgende forklares den assisterende opsætning, men du kan udføre de samme opgaver manuelt i vinduet **Konfiguration af CRM-forbindelse**.
+> [!NOTE]  
+>   I det følgende forklares den assisterende opsætning, men du kan udføre de samme opgaver manuelt i vinduet **Konfiguration af CRM-forbindelse**.
 
 I den assisterende opsætningsvejledning kan du vælge, hvilke data der skal synkroniseres mellem de to tjenester. Du kan også angive, at du vil importere din eksisterende Dynamics CRM-løsning. Hvis du vil det, skal du angive en administratorbrugerkonto.
 
@@ -67,7 +70,8 @@ I visse områder kræver funktionaliteten, at du sammenkæder bestemte datasæt 
 * Priser på varer og ressourcer  
   * Sammenkæd først debitorprisgrupper med Dynamics CRM-priser  
 
-**Bemærk!** Hvis du bruger priser i udenlandsk valuta, skal du sørge for at sammenkæde valutaer med Dynamics CRM-transaktionsvalutaer.
+> [!NOTE]  
+>   Hvis du bruger priser i udenlandsk valuta, skal du sørge for at sammenkæde valutaer med Dynamics CRM-transaktionsvalutaer.
 
 Dynamics CRM-salgsordrer afhænger af ekstra oplysninger, f.eks. kunder, enheder, valutaer, debitorprisgrupper, varer og/eller ressourcer. Hvis Dynamics CRM-salgsordrer skal fungere uden problemer, skal du skal sammenkæde kunder, enheder, valutaer, debitorprisgrupper, varer og/eller ressourcer først.
 

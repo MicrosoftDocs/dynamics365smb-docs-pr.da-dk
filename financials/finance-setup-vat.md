@@ -9,19 +9,19 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, posting, tax, value added tax
+ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bf06b41a87e24af9e7657dd0585d7d13e3cad1b2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ce397b4a492a727211b49d7db2a231bea40d8c43
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 
-# <a name="setting-up-included365finlongincludesd365finlongmdmd-to-calculate-and-post-value-added-tax"></a>Konfigurere [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] til beregning og bogføring af moms
+# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
 Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydelser. Momsbeløbet, der skal betales, kan variere afhængigt af flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] konfigurerer du moms til at angive de satser, der bruges til at beregne momsbeløb baseret på følgende: 
 
 * Hvem du sælger til  
@@ -31,18 +31,21 @@ Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydel
   
 Du kan konfigurere momsberegninger manuelt, men der kan være svært og tidskrævende. For at gøre det nemt for dig har vi lavet en assisteret opsætningsvejledning, **Momsopsætning**, der hjælper dig med fremgangsmåden. Du anbefales at bruge den assisterede opsætningsvejledning, når du konfigurerer moms.
 
-**Bemærk!** Du kan kun bruge vejledningen, hvis du har oprettet Min virksomhed og ikke har bogført transaktioner, der omfatter moms. Ellers kan du nemt komme til at bruge forskellige momssatser utilsigtet og gøre rapporter vedrørende moms unøjagtige.  
+> [!NOTE]  
+>   Du kan kun bruge vejledningen, hvis du har oprettet Min virksomhed og ikke har bogført transaktioner, der omfatter moms. Ellers kan du nemt komme til at bruge forskellige momssatser utilsigtet og gøre rapporter vedrørende moms unøjagtige.  
   
 Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enkelte trin, indeholder i dette emne beskrivelser af de enkelte trin. Du kan læse, hvordan du:  
   
 * Konfigurerer momsvirksomhedsbogføringsgrupper for at definere momssatser for de markeder, du handler med. Du tildeler grupperne til debitorer og kreditorer.  
 * Konfigurerer momsproduktbogføringsgrupper for at definere momssatser for de produkter og tjenesteydelser, du køber eller sælger.  
   
-   **Bemærk!** Begreberne bag momsvirksomheds- og produktbogføringsgrupper er meget lig begreberne for generelle bogføringsgrupper. Du kan finde flere oplysninger under [Opsætning af bogføringsgrupper](finance-posting-groups.md).
+   > [!NOTE]  
+>   Begreberne bag momsvirksomheds- og produktbogføringsgrupper er meget lig begreberne for generelle bogføringsgrupper. Du kan finde flere oplysninger under [Opsætning af bogføringsgrupper](finance-posting-groups.md).
 * Kombinerer momsvirksomheds- og produktbogføringsgruppe for at oprette momsopsætninger, der beregner momsbeløb af køb og salg.  
 * Knytter momsproduktbogføringsgrupper til de finanskonti, du bruger til køb og salg, varer og ressourcer.  
 
-   **Bemærk!** Hvis du vil konfigurere moms for ressourcer, skal du aktivere brugeroplevelsen **Pakke** for virksomheden. Du kan finde flere oplysninger under [Tilpasse din Dynamics 365 for Financials-oplevelse](ui-experiences.md).
+   > [!NOTE]  
+>   Hvis du vil konfigurere moms for ressourcer, skal du aktivere brugeroplevelsen **Pakke** for virksomheden. Du kan finde flere oplysninger under [Tilpasse din Dynamics 365 for Financials-oplevelse](ui-experiences.md).
 * Brug modtagermoms til handel mellem EU-lande/områder  
 * Om momsafrunding for bilag  
 * Opret klausuler for at forklare brugen af ikke-standard momssatser
@@ -52,7 +55,7 @@ Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enke
 Du anbefales at bruge den assisterede momsopsætningsvejledning, når du konfigurerer moms i [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
 
 For at starte vejledningen skal du gøre følgende:
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Assisteret opsætning** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Assisteret opsætning**.  
 2. Vælg **Momsopsætning**.
 
 ## <a name="set-up-vat-business-posting-groups"></a>Konfigurere momsvirksomhedsbogføringsgrupper
@@ -62,18 +65,18 @@ Brug koder, der er lette at huske, og som beskriver virksomhedsbogføringsgruppe
   
 Når du vil oprette en momsvirksomhedsbogføringsgruppe, skal du gøre følgende:
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Momsvirksomhedsbogf.gruppe** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Momsvirksomhedsbogf.gruppe**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
 Du kan oprette standardmomsvirksomhedsbogføringsgrupper ved at linke dem til virksomhedsbogføringsgrupper. [!INCLUDE[d365fin](includes/d365fin_md.md)] tildeler automatisk momsvirksomhedsbogføringsgruppen, når du tildeler virksomhedsbogføringsgruppen til en debitor, kreditor eller finanskonto. 
 
 ## <a name="set-up-vat-product-posting-groups"></a>Konfigurere momsproduktbogføringsgrupper
-Momsproduktbogføringsgrupper repræsenterer de varer eller ressourcer, du køber eller sælger, og bestemmer, hvordan moms beregnes og bogføres i overensstemmelse med den type vare eller ressource, der købes eller sælges.
+Momsproduktbogføringsgrupper repræsenterer de varer eller ressourcer, du køber eller sælger, og bestemmer, hvordan moms beregnes og bogføres i overensstemmelse med den type vare eller ressource, der købes eller sælges.  
 Det anbefales at bruge koder, der er lette at huske, og som beskriver satsen, som f.eks. **FRITAGET** eller **Nul**, **MOMS10** eller **Reduceret** for 10 % moms og **MOMS25** eller **Standard** for 25 % moms.
 
 Når du vil oprette en momsvirksomhedsbogføringsgruppe, skal du gøre følgende:
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Momsproduktbogf.grupper** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Momsproduktbogf.grupper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
 ## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinere momsbogføringsgrupper i momsbogføringsopsætninger
@@ -83,7 +86,7 @@ Du kan definere et ubegrænset antal kombinationer. Hvis du vil gruppere kombina
 
 Hvis du vil kombinere momsbogføringsopsætninger, skal du gøre følgende:
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Opsætning af momsbogføring** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af momsbogføring**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Tildele momsbogføringsgrupper til flere enheder som standard
@@ -98,20 +101,20 @@ Momsvirksomheds- eller produktbogføringsgruppen tildeles, når du vælger en vi
 I følgende afsnit beskrives, hvordan du tildeler momsbogføringsgrupper til individuelle poster.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Sådan tildeles momsbogføringsgrupper til individuelle finanskonti 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **kontoplan** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
 2. Åbn **Finanskonto**-kortet for kontoen.
 3. I oversigtspanelet **Bogføring** i feltet **Bogføringstype** skal du vælge enten **Salg** eller **Køb**.  
 5. Vælg de momsbogføringsgrupper, du vil bruge til salgs- eller købskontoen.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Sådan tildeles momsvirksomhedsbogføringsgrupper til debitorer og kreditorer  
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Debitor** eller **Kreditor** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.  
 2. Udvid oversigtspanelet **Fakturering** på **Debitor**- eller **Kreditor**-kortet.  
 3. Vælg momsvirksomhedsbogføringsgruppen.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Sådan tildeles momsproduktbogføringsgrupper til individuelle varer og ressourcer  
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Vare** eller **Ressource** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vare** eller **Ressource**, og vælg derefter det relaterede link.  
 2. Gør ét af følgende:
-* På kortet **Vare** skal du udvide oversigtspanelet **Pris og bogføring** og derefter vælge **Vis mere** for at vise den.  
+* På kortet **Vare** skal du udvide oversigtspanelet **Pris og bogføring** og derefter vælge **Vis mere** for at se feltet **Momsproduktbogf.gruppe**.  
 * Udvid oversigtspanelet **Fakturering** på **Ressource**-kortet.  
 3. Vælg momsproduktbogføringsgruppen.
 
@@ -121,7 +124,7 @@ Du konfigurerer en momsklausul til at beskrive oplysninger om den moms, der skal
 Hvis det er nødvendigt, kan du også angive, hvordan momsklausuler skal oversættes til andre sprog. Når du derefter opretter og udskriver et salgsdokument, der indeholder et moms-id, vil det udskrevne dokument indeholde den oversatte momsklausul. Den sprogkode, der er angivet på debitorkortet, bestemmer sproget.
   
 ### <a name="to-set-up-vat-clauses"></a>Sådan konfigureres momsklausuler
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Momsklausuler** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Momsklausuler**, og vælg derefter det relaterede link.  
 2. Oprette en ny linje på siden **Momsklausuler**.  
 3. Angiv et id for klausulen i feltet **Kode**. Du bruger koden til at tildele klausulen til momsbogføringsgrupper.  
 4. I feltet **Beskrivelse** skal du angive den tekst, du vil have vist i dokumenter, som kan inkludere moms. I feltet **Beskrivelse 2** skal du angive supplerende tekst, hvis det er nødvendigt. Teksten vises på nye linjer.  
@@ -129,11 +132,11 @@ Hvis det er nødvendigt, kan du også angive, hvordan momsklausuler skal oversæ
 6. Valgfrit: Hvis du vil angive, hvordan momsklausulen skal oversættes, skal du vælge handlingen **Oversættelser**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Sådan tildeles en momsklausul til en momsbogføringsopsætning
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Opsætning af momsbogføring** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af momsbogføring**, og vælg derefter det relaterede link.  
 2. I kolonnen **Momsklausul** skal du vælge den klausul, der skal bruges til hver momsbogføringsopsætning, den gælder for.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Sådan angives oversættelser af momsklausuler
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Momsklausuler** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Momsklausuler**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Oversættelser**.  
 3. I feltet **Sprogkode** skal du vælge det sprog, du vil oversætte til.  
 4. I felterne **Beskrivelse** og **Beskrivelse 2** skal du angive oversættelserne af beskrivelserne. Teksten vises i de oversatte momsrapportdokumenter.  
@@ -142,47 +145,51 @@ Hvis det er nødvendigt, kan du også angive, hvordan momsklausuler skal oversæ
 Du kan bruge funktionen Importmoms, når du skal bogføre et dokument, hvor hele beløbet er moms. Du skal bruge funktionen, hvis du modtager en faktura fra skattemyndighederne for moms på importerede varer.  
   
 Når du vil konfigurere koder for importmoms, skal du gøre følgende:  
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Momsproduktbogf.grupper** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Momsproduktbogf.grupper**, og vælg derefter det relaterede link.  
 2. På siden Momsproduktbogf.grupper. skal du oprette en ny momsproduktbogføringsgruppe for importmoms.  
-3. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Opsætning af momsbogføring** og derefter vælge det relaterede link.  
+3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af momsbogføring**, og vælg derefter det relaterede link.  
 4. På siden Opsætning af momsbogføring skal du oprette en ny linje eller bruge en eksisterende momsvirksomhedsbogføringsgruppe kombineret med den nye momsproduktbogføringsgruppe til importmoms.  
 5. I feltet **Momsberegningstype** skal du vælge **Momskorrektion**.  
 6. Angiv den finanskonto, der skal bruges til bogføring af importmoms, i feltet **Købsmomskonto**. Alle andre konti er valgfrie.  
   
 ## <a name="verify-vat-registration-numbers"></a>Kontrollere SE/CVR-numre
-Det er vigtigt, at de momsregistreringsnumre, du har for debitorer, kreditorer og kontakter, er gyldige. F.eks. ændrer virksomheder nogle gange deres status for skattetilsvar, og i visse lande kan skattemyndighederne måske bede dig om at indsende rapporter, f.eks. rapportering af EU-salg med de momsnumre, du bruger, når du handler.  
+Det er vigtigt, at de momsregistreringsnumre, du har for debitorer, kreditorer og kontakter, er gyldige. F.eks. ændrer virksomheder nogle gange deres status for skattetilsvar, og i visse lande kan skattemyndighederne måske bede dig om at indsende rapporter, f.eks. rapportering af EU-salg med de momsnumre, du bruger, når du handler. 
   
-Kommissionen har VIES-tjenesten til kontrol af momsnumre på deres websted, som er offentlig og gratis. Du skal dog stadig gå til webstedet. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare dig for dette trin, idet du kan bruge VIES-tjenesten til at validere og spore momsnumre for kunder, leverandører og kontakter direkte fra debitor-, kreditor- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] hedder tjenesten til kontrol af SE/CVR-nr. for EU. Den findes på siden **Serviceforbindelser**, og du kan begynde at bruge den blot ved at markere et afkrydsningsfelt. Tjenesten er gratis, og tilmelding er ikke nødvendig.
+Kommissionen har VIES-tjenesten til kontrol af momsnumre på deres websted, som er offentlig og gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare dig for et trin, idet du kan bruge VIES-tjenesten til at validere og spore momsnumre for kunder, leverandører og kontakter direkte fra debitor-, kreditor- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] hedder **Service for validering af SE/CVR-nr. for EU**. Tjenesten findes på siden **Serviceforbindelser**, og du kan begynde at bruge den med det samme. Tjenesteforbindelsen er gratis, og tilmelding er ikke nødvendig.
 
-Når du bruger tjenesten, registrerer vi en oversigt over momsnumre og kontrol for hver debitor, kreditor eller kontaktperson, i **Log over SE/CVR-nr.**, så du nemt kan spore dem. Loggen er specifik for hver debitor. Eksempelvis er loggen nyttig, hvis du vil bevise, at du har kontrolleret, at det aktuelle momsnummer er korrekt. Når du kontrollerer et momsnummer, afspejler kolonnen **Anmodnings-id** i loggen, at du har udført en handling. 
+Når du bruger tjenesteforbindelsen, registrerer vi en oversigt over momsnumre og kontrol for hver debitor, kreditor eller kontaktperson, i **Log over SE/CVR-nr.**, så du nemt kan spore dem. Loggen er specifik for hver debitor. Eksempelvis er loggen nyttig, hvis du vil bevise, at du har kontrolleret, at det aktuelle momsnummer er korrekt. Når du kontrollerer et momsnummer, afspejler kolonnen **Anmodnings-id** i loggen, at du har udført en handling. 
 
 Du kan få vist Log over SE/CVR-nr. på debitor-, kreditor- eller kontaktkort. Vælg oversigtspanelet **Fakturering** og vælg derefter feltet **SE/CVR-nr.** .  
 
-Tjenesten kan også spare dig lidt tid, når du opretter en debitor eller kreditor. Hvis du kender debitorens momsnummer, kan du angive det i feltet **SE/CVR-nr.** på debitor- eller kreditorkortene, så udfylder vi kundenavnet for dig. Nogle lande angiver også virksomhedsadresser i et struktureret format. I disse lande udfylder vi også adressen.  
+Tjenesten kan også spare dig tid, når du opretter en debitor eller kreditor. Hvis du kender debitorens momsnummer, kan du angive det i feltet **SE/CVR-nr.** på debitor- eller kreditorkortene, så udfylder vi kundenavnet for dig. Nogle lande angiver også virksomhedsadresser i et struktureret format. I disse lande udfylder vi også adressen.  
 
-**Bemærk!** Der er et par ting at bemærke om VIES-tjenesten til kontrol af momsnumre:
+> [!NOTE]  
+> Der er et par ting at bemærke om VIES-tjenesten til kontrol af momsnumre:
 
-* Tjenesten bruger HTTP-protokollen, hvilket betyder, at data, der overføres via tjenesten, ikke er krypterede.
+* Tjenesten bruger HTTP-protokollen, hvilket betyder, at data, der overføres via tjenesten, ikke er krypterede.  
 * Du kan opleve nedetid for denne tjeneste, som Microsoft ikke kan holdes ansvarlig for. Tjenesten er en del af et bredt EU-netværk af nationale momsregistre.
 
 ## <a name="using-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Bruge modtagermoms for handel mellem EU-lande eller -områder
-Nogle virksomheder skal bruge modtagermoms, når de handler med andre virksomheder. Denne regel gælder f.eks. for køb fra EU-lande/områder og salg til EU-lande/områder.
-
-**Bemærk!** Reglen gælder, når der handles med de virksomheder, som er registreret som momspligtige i et andet EU-land. Hvis du handler direkte med forbrugere i andre EU-lande/område, skal du kontakte skattemyndighederne for at få oplyst de gældende momsregler.  
-
-**Tip!** Du kan kontrollere, at en virksomhed er registreret som momspligtig i et andet EU-land ved hjælp af tjenesten til kontrol af SE/CVR-nr. for EU. Tjenesten er tilgængelig og gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i afsnittet _Kontrollere SE/CVR-numre_ i dette emne.
+Nogle virksomheder skal bruge modtagermoms, når de handler med andre virksomheder. Denne regel gælder f.eks. for køb fra EU-lande/områder og salg til EU-lande/områder.  
+  
+> [!NOTE]  
+> Reglen gælder, når der handles med de virksomheder, som er registreret som momspligtige i et andet EU-land. Hvis du handler direkte med forbrugere i andre EU-lande/område, skal du kontakte skattemyndighederne for at få oplyst de gældende momsregler.  
+  
+> [!TIP]  
+> Du kan kontrollere, at en virksomhed er registreret som momspligtig i et andet EU-land ved hjælp af tjenesten til kontrol af SE/CVR-nr. for EU. Tjenesten er tilgængelig og gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i afsnittet _Kontrollere SE/CVR-numre_ i dette emne.
 
 ### <a name="sales-to-eu-countries-or-regions"></a>Salg til EU-lande eller -områder
-Moms beregnes ikke på salg til momspligtige virksomheder i andre EU-lande/regioner. Du skal rapportere værdien af disse salg til EU-lande/områder separat på momsangivelsen.
+Moms beregnes ikke på salg til momspligtige virksomheder i andre EU-lande/regioner. Du skal rapportere værdien af disse salg til EU-lande/områder separat på momsangivelsen.  
+
 For at beregne moms på salg til EU-lande/områder korrekt, skal du:  
   
-* Opret linjer for salg med de samme oplysninger for køb. Hvis du allerede har oprettet linjer i vinduet Momsbogf.opsætning for køb fra EU-lande/områder, kan du også bruge disse linjer til salg.  
+* Opret linjer for salg med de samme oplysninger for køb. Hvis du allerede har oprettet linjer på siden Momsbogf.opsætning for køb fra EU-lande/områder, kan du også bruge disse linjer til salg.  
 * Tildele momsvirksomhedsbogføringsgrupperne i feltet **Momsvirksomhedsbogf.gruppe** på oversigtspanelet **Fakturering** på kreditorkort for hver EU-kreditor. Du skal også angive debitorens momsnummer i feltet **SE/CVR-nr.** i oversigtspanelet **Udenrigshandel**.  
 
 Når du bogfører salg til en debitor i et andet EU-land/område, beregnes momsbeløbet, og der oprettes en momspost med oplysningerne om modtagermomsen og momsgrundbeløbet, som er det beløb, der bruges til at beregne momsbeløbet. Der bogføres ingen poster på momskontoen i finansposterne.
 
 ## <a name="understanding-vat-rounding-for-documents"></a>Om momsafrunding for bilag
-Beløb i de bilag, som endnu ikke er blevet bogført, afrundes og vises, så de svarer til de endelige afrundingsbeløb, som bogføres. Moms beregnes for et helt dokument, hvilket betyder, at moms, der beregnes i dokumentet, er baseret på summen af alle linjer med samme moms-id i dokumentet.
+Beløb i de bilag, som endnu ikke er blevet bogført, afrundes og vises, så de svarer til de endelige afrundingsbeløb, som bogføres. Moms beregnes for et helt dokument, hvilket betyder, at moms, der beregnes, er baseret på summen af alle linjer med samme moms-id i dokumentet.
 
 ## <a name="see-also"></a>Se også  
 [Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)

@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Udligne kreditorbetalinger manuelt| Microsoft Docs"
-description: "Fremgangsmåde: Udligne kreditorbetalinger manuelt"
+title: Udligne kreditorbetalinger manuelt | Microsoft Docs
+description: "For at behandle, matche og afstemme kreditorbetalinger og refusioner manuelt kan du udligne beløbet med en eller flere åbne kreditorposter."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 86f59b54f0261f9aa835dc35db6f31cbb55e5d04
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Fremgangsmåde: Udligne kreditorbetalinger manuelt
 Når du sender en betaling eller modtager en fra en kreditor, skal du beslutte, om betalingen skal udlignes eller refunderes på en eller flere åbne poster. Du kan f.eks. angive det nøjagtige beløb, som du vil udligne med betalingen, og dermed kun delvist udligne kreditorposter. Det er vigtigt, at du på et vist tidspunkt lukker (udligner) alle kreditorposter for at få korrekte kreditorstatistikker og rapporter over kontoudtog og finansændringer.
 
-**Bemærk**: Kreditorer kan til tider refundere betalingen i stedet for at udstede en kreditnota, til modregning i fremtidige fakturaer, specielt hvis du returnerer varer, som du allerede har betalt for, eller hvor du har betalt for meget i forhold til en faktura.
+> [!NOTE]  
+>   Kreditorer kan til tider refundere betalingen i stedet for at udstede en kreditnota, til modregning i fremtidige fakturaer, specielt hvis du returnerer varer, som du allerede har betalt for, eller hvor du har betalt for meget i forhold til en faktura.
 
 Du kan udligne kreditorposter på tre forskellige måder:
 
@@ -31,14 +32,15 @@ Du kan udligne kreditorposter på tre forskellige måder:
 * Fra købskreditnotadokumenter.
 * Fra kreditorposter efter at købsdokumenter er bogført, men ikke udlignet.
 
-**Bemærk**: Hvis feltet **Udligningsmetode** på kreditorkortet indeholder **Saldo**, bliver betalinger automatisk udlignet til den ældste åbne kreditpost, hvis du ikke angiver, hvad betalingen skal udlignes til. Hvis udligningsmetoden for en kunde er **Manuel**, skal du udligne posterne manuelt.
+> [!NOTE]  
+>   Hvis feltet **Udligningsmetode** på kreditorkortet indeholder **Saldo**, bliver betalinger automatisk udlignet til den ældste åbne kreditpost, hvis du ikke angiver, hvad betalingen skal udlignes til. Hvis udligningsmetoden for en kunde er **Manuel**, skal du udligne posterne manuelt.
 
 Du kan udligne kreditorbetalinger manuelt på deres relaterede købsdokumenter, når du bogfører betalinger i vinduet **Udbetalingskladde**. Du kan finde oplysninger om udfyldning af udbetalingskladden [Fremgangsmåde: Foretage betalinger](payables-make-payments.md).
 
 Du kan også udligne kreditorbetalinger og debitorbetalinger, når betalinger vises som negative banktransaktioner hos din bank. I vinduet **Betalingsudligningskladde** kan du kan bruge funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Sådan udlignes en betaling med en enkelt eller flere kreditorposter
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Udbetalingskladde** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladde**, og vælg derefter det relaterede link.
 2. Angiv den relevante information om betalingsposten på første kladdelinje i vinduet **Udbetalingskladde**.
 3. Sådan udlignes en enkelt kreditorpost:
    1. I feltet **Udligningsbilagsnr.** skal du vælge feltet for at åbne vinduet **Udlign kred.poster**.
@@ -56,7 +58,7 @@ Du kan også udligne kreditorbetalinger og debitorbetalinger, når betalinger vi
 6. Vælg handlingen **Bogfør** for at bogføre udbetalingskladden.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Sådan udlignes en kreditnota på en eller flere kreditorposter
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Købskreditnota** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købskreditnota**, og vælg derefter det relaterede link.
 2. Åbn den kreditnota du vil udligne.
 3. Angiv de relevante oplysninger i hovedet.
 4. Hvis du vil udligne en enkelt kreditorpost, skal du i oversigtspanelet **Udligning** i feltet **Udligningsbilagsnr.** vælge den post, som skal udlignes, og derefter i feltet **Beløb, der skal udlignes** angive beløbet, posten skal udlignes med.
@@ -73,7 +75,7 @@ Du kan også udligne kreditorbetalinger og debitorbetalinger, når betalinger vi
 7. Vælg knappen **Bogfør** for at bogføre købskreditnotaen.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Sådan udlignes bogførte kreditorposter
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Kreditorer** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn den relevante kreditor med poster, der allerede er blevet bogført.
 3. Vælg handlingen **Poster**, og vælg derefter handlingen **Udlign**.
 4. I vinduet **Udlign kred.poster** kan du se kreditorens åbne poster.
@@ -94,19 +96,20 @@ Hvis du køber varer fra en leverandør i én valuta, men foretager betaling i e
 
 Hvis du udligner en post (post 1) i en valuta med en post (post 2) i en anden valuta, anvendes bogføringsdatoen i post 1 til at finde relevante valutakurser til at konvertere beløb i post 2. Den relevante valutakurs findes i vinduet **Valutakurser**. Når det er tilfældet, skal du aktivere udligning af kreditorposter i forskellige valutaer. Du kan finde flere oplysninger under [Fremgangsmåde: Muliggøre udligning af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Udbetalingskladde** og vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladde**, og vælg derefter det relaterede link.
 2. Åbn den ønskede kladde, og udfyld den første tomme kladdelinje ved hjælp af en valutakode.
 3. Vælg handlingen **Udlign**.
 4. Marker linjen med den post, du vil udligne posten i udbetalingskladden med, vælg handlingen **Sæt udlignings-id**, og vælg derefter den post, du vil udligne posten med.
 5. Vælg knappen **OK** for at vende tilbage til udbetalingskladde.
 6. Bogfør udbetalingskladde.
 
-**Bemærk**: Når du udligner poster i forskellige valutaer med hinanden, konverteres posterne til RV. Selvom valutakursen for to relevante valutaer er fast, f.eks. mellem USD og EUR, kan der være et lille restbeløb, når disse udenlandske valutabeløb konverteres til RV. Disse små restbeløb bogføres som gevinst og tab på den konto, der er angivet i feltet **Realiseret gevinstkonto** eller **Realiseret tabskonto** i vinduet **Valutaer**. Feltet **Beløb (RV)** tilpasses også på relevante kreditorposter.
+> [!IMPORTANT]  
+>   Når du udligner poster i forskellige valutaer med hinanden, konverteres posterne til RV. Selvom valutakursen for to relevante valutaer er fast, f.eks. mellem USD og EUR, kan der være et lille restbeløb, når disse udenlandske valutabeløb konverteres til RV. Disse små restbeløb bogføres som gevinst og tab på den konto, der er angivet i feltet **Realiseret gevinstkonto** eller **Realiseret tabskonto** i vinduet **Valutaer**. Feltet **Beløb (RV)** tilpasses også på relevante kreditorposter.
 
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>Sådan annulleres en udligning af kreditorposter
 Hvis du annullerer en fejlagtig udligning, oprettes og bogføres der automatisk korrigerende poster, der er identiske med den oprindelige post, men med modsat fortegn i beløbsfeltet for alle poster, inklusive alle finansbogføringsposter, der blev afledt af udligningen, f.eks. kontantrabat og kursgevinst/tab. Alle poster, der blev lukket af programmet, genåbnes.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Kreditorer** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn det relevante kreditorkort.
 3. Vælg handlingen **Poster**.
 4. Vælg den relevante finanspost, og vælg derefter handlingen **Annuller udligning**.
@@ -114,7 +117,8 @@ Hvis du annullerer en fejlagtig udligning, oprettes og bogføres der automatisk 
 6. Vælg udligningsposten, og vælg derefter handlingen **Annuller udligning**.
 7. Udfyld felterne i hovedet, og vælg derefter handlingen **Annuller udligning**.
 
-**Bemærk**: Hvis en post er udlignet med mere end en udligningspost, skal du fjerne udligningen af den sidste udligningspost først.
+> [!IMPORTANT]  
+>   Hvis en post er udlignet med mere end en udligningspost, skal du fjerne udligningen af den sidste udligningspost først.
 
 ## <a name="see-also"></a>Se også
 [Gæld](payables-manage-payables.md)  

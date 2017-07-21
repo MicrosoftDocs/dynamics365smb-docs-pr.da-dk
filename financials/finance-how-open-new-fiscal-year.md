@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Åbne et nyt regnskabsår | Microsoft Docs"
-description: "Beskriver, hvordan du åbner regnskabsperioder."
+title: "Åbne et nyt regnskabsår | Microsoft Docs"
+description: "Du skal åbne et regnskabsår og definere regnskabsperioder, før du kan bogføre et regnskabsår."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 02bd101bca987d30730766531687738f8e5f7d81
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c653a43329f95c817560c5888fb282e64b57ba24
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Før du kan bogføre i et regnskabsår, skal du åbne det og angive regnskabsperioder i det.
 
 ## <a name="to-open-a-new-fiscal-year"></a>Sådan åbnes et nyt regnskabsår
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Regnskabsperioder** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.
 2. I vinduet **Regnskabsperioder** skal du vælge handlingen **Nyt år**.
 3. Udfyld felterne for at angive strukturen for regnskabsåret.
 

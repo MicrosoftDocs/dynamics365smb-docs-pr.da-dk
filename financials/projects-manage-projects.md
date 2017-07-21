@@ -16,7 +16,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 06/30/2017
 
 
 ---
@@ -25,7 +25,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du udføre almindelige projekt
 
 Før du kan bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager. Der er flere oplysninger under [Konfigurere projektstyring](projects-setup-projects.md).  
 
-**Bemærk**: Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger i [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+**Bemærk**: Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -44,7 +44,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også
 [Konfigurere projektstyring](projects-setup-projects.md)  
 [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)      
-[Indkøb](purchasing-manage-purchasing.md)         
+[Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)    
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

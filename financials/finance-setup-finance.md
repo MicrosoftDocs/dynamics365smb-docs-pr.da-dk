@@ -1,6 +1,6 @@
 ---
-title: Konfigurere Finans | Microsoft Docs
-description: Konfigurere Finans
+title: Konfigurere finansielle processer | Microsoft Docs
+description: "Få mere at vide om opgaver til konfiguration af finans i din virksomhed, der dækker alle dine regnskabs-, revisions- og bogholderibehov."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 87b4f85333fdf1660493f2a77009f0c763f03d59
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,21 +25,21 @@ For at du kan komme hurtigt i gang, omfatter [!INCLUDE[d365fin_long](includes/d3
 
 Der er dog nogle ting, du selv skal angive. Det kan f.eks. være, hvis du vil bruge dimensioner som udgangspunkt for business intelligence.  
 
-Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
-| Vælge, hvordan du betaler dine kreditorer. |[Betalingsformer](finance-payment-methods.md) |
+| Vælge, hvordan du betaler dine kreditorer. |[Definere betalingsformer](finance-payment-methods.md) |
+| Angiv de bogføringsgrupper, der knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. |[Konfigurere bogføringsgrupper](finance-posting-groups.md)|
 | Konfigurere regnskabsperioder. |[Fremgangsmåde: Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md) |
-| Angive eller opdatere flere valutaer, hvis du driver international handel. |[Fremgangsmåde: Opdatere valutakurser](finance-how-update-currencies.md) |
-| Oprette entydige id-koder. |[Oprette nummerserie](ui-create-number-series.md) |
-| Tilføje dimensioner for mere detaljeret business intelligence. |[Oprette dimensioner](finance-setup-dimensions.md) |
+| Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Fremgangsmåde: Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
+| Konfigurer, hvordan flere valutaer kan opdateres, hvis du driver international handel. |[Fremgangsmåde: Opdatere valutakurser](finance-how-update-currencies.md) |
 | Føje nye konti til den eksisterende kontoplan. |[Konfigurere kontoplanen](finance-setup-chart-accounts.md) |
 | Oprette business intelligence (BI)-diagrammer til at analysere likviditet. |[Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md) |
 
 ## <a name="see-also"></a>Se også
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  
-[Dimensioner](finance-dimensions.md)  
+[Arbejde med dimensioner](finance-dimensions.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

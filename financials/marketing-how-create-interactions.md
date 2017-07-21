@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Oprette interaktioner for kontakter og målgrupper | Microsoft Docs"
-description: "Beskriver, hvordan du opretter interaktioner for kontakter og målgrupper i Financials"
+title: "Oprette interaktioner for kontakter og målgrupper | Microsoft Docs"
+description: "Beskriver, hvordan du kan oprette interaktioner for kommunikation, som du har med kontakter og målgrupper i Financials, f.eks. direct mail."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,27 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b50d332441bee01158559616fff5d5f5ca381a90
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-create-interactions-on-contacts-and-segments"></a>Fremgangsmåde: Oprette interaktioner for kontakter og målgrupper
 Du kan oprette interaktioner for at registrere al interaktion og kommunikation, som du har med kontakter og målgrupper, f.eks. direct mail.
 
-Du kan først oprette interaktioner, når du har defineret interaktionsskabeloner. Du kan finde flere oplysninger i [Definere interaktionsskabeloner](marketing-interactions.md#set-up-interaction-templates).
+Du kan først oprette interaktioner, når du har defineret interaktionsskabeloner. Du kan finde flere oplysninger i [Definere interaktionsskabeloner](marketing-interactions.md).
 
 ## <a name="to-create-an-interaction"></a>Sådan oprettes en interaktion
 1. Åbn kontakt-, sælger- eller interaktionslogposten.
 2. Vælg handlingen **Opret interaktion**.
-3. Udfyld felterne, og tryk på knappen **OK**.
+3. Udfyld felterne, og vælg derefter knappen **OK**.
 
-**Bemærk**: Hvis du vil udføre en anden opgave, før du afslutter interaktionen, kan du vælge **Annuller** og vælge at afslutte interaktionen på et senere tidspunkt. Dette udsætter interaktionen.
+> [!NOTE]  
+>   Hvis du vil udføre en anden opgave, før du afslutter interaktionen, kan du vælge **Annuller** og derefter vælge at afslutte interaktionen på et senere tidspunkt. Dette udsætter interaktionen.
 
 ## <a name="to-finish-and-delete-postponed-interactions"></a>Sådan afsluttes og slettes udsatte interaktioner
 1. Åbn kontakt-, sælger- eller interaktionslogposten.
@@ -38,7 +39,7 @@ Du kan først oprette interaktioner, når du har defineret interaktionsskabelone
 3. Marker den interaktion, som du vil afslutte, og klik derefter på handlingen **Fortsæt**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Sådan oprettes en interaktion for en målgruppe
-1. På startsiden skal du vælge **Aktive målgrupper** eller i øverste højre hjørne vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Målgrupper** og derefter vælge det relaterede link.
+1. På startsiden skal du vælge **Målgrupper** eller vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Målgrupper** og derefter vælge det relaterede link.
 2. Udfyld felterne i sektionen **Interaktion** i vinduet **Målgruppe** for at angive, hvilken interaktion du vil knytte til målgruppen.
 
     Når du har tildelt en interaktion til målgruppe, kan du tilpasse interaktionen til hver kontakt i målgruppen. Du kan f.eks. vælge en anden interaktionsskabelon på linjerne i vinduet **Målgruppe**.  

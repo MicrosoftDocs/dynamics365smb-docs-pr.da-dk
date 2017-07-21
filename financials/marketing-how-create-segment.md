@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Oprette målgrupper | Microsoft Docs"
-description: "Beskriver, hvordan du opretter målgrupper for kontakter i Financials"
+title: "Oprette målgrupper | Microsoft Docs"
+description: "Beskriver, hvordan du opretter en målgruppe for en gruppe kontaktpersoner i Financials, f.eks. for at fokusere på flere kontakter med en direct mail."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2b251406c07881f8df502d67c0184a21d3e1f241
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0175eb12f30ce2e509b743c93b711ef8197549c6
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Du kan oprette målgrupper for at vælge en gruppe kontakter, hvis du f.eks. vil oprette en interaktion, der vedrører flere forskellige kontakter, f.eks. en direct mail.
 
 ## <a name="to-create-a-segment"></a>Sådan oprettes målgrupper
-1. På startsiden skal du vælge **Aktive målgrupper**. Eller i øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Målgrupper** og derefter vælge det relaterede link.
+1. På startsiden skal du vælge **Aktive målgrupper**. Du kan også vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Målgrupper** og derefter vælge det relaterede link.
 2. Vælg handlingen **Ny**.
 3. I sektionen **Generelt** i feltet **Nummer** skal du skrive et nummer på målgruppen.
 

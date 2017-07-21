@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Fakturere salg | Microsoft Docs"
-description: Beskriver, hvordan du bruger salgsfakturaer.
+title: Oprette en salgsfaktura eller salgsordre | Microsoft Docs
+description: "Beskriver, hvordan du opretter en salgsnota, en salgsfaktura eller salgsordre for at registrere en aftale med en kunde om at sælge produkter i henhold til bestemte betingelser."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,21 +8,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e9fbf7b6599c4136a4077f199feb8f2f00d3a959
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-invoice-sales"></a>Fremgangsmåde: Fakturere salg
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.  
 
-**Bemærk!** I nogle situationer skal du bruge en salgsordre i stedet for en salgsfaktura:  
+> [!NOTE]  
+>   I nogle situationer skal du bruge en salgsordre i stedet for en salgsfaktura:  
 
 * Hvis du kun vil levere en del af et ordreantal, f.eks. fordi hele antallet ikke er på lager.  
 * Hvis du sælger varer, som leverandøren leverer direkte til kunden. Det kaldes direkte levering. Du kan finde flere oplysninger i [Fremgangsmåde: Foretage direkte leveringer](sales-how-drop-shipment.md).  
@@ -66,7 +67,8 @@ Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en 
 
 11. I feltet **Antal** skal du angive, hvor mange enheder af produktet, gebyret eller transaktion, som linjen skal registrere for debitoren.  
 
-    **Bemærk!** Hvis varen er af typen **Vare - Service** er **Ressource**, er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen.  
+    > [!NOTE]  
+>   Hvis varen er af typen **Vare - Service** er **Ressource**, er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen.  
 
     Værdien i feltet **Linjebeløb** beregnes som *Enhedspris* x *Antal*.  
 
@@ -91,5 +93,6 @@ De relaterede vare- og debitorposter oprettes nu i systemet, og salgsfakturaen u
 [Konfigurere salg](sales-setup-sales.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md)  
+[Massefakturering fra Microsoft Bookings i Dynamics 365 for Financials](finance-bookings.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

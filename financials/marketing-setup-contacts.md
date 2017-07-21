@@ -1,6 +1,6 @@
 ---
-title: Forberede til oprettelse af kontakter | Microsoft Docs
-description: Beskriver, hvordan du forbereder oprettelse af kontakter i Financials
+title: Angive oplysninger om kontakter | Microsoft Docs
+description: "Beskriver, de opgaver du skal udføre for at angive oplysninger og koder, f.eks. om brancher og forretningsrelationer, før du opretter kontakter."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 399fc41da9ff8168eea8aabd593ffd6123d8d501
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-for-setting-up-contacts"></a>Forberede til oprettelse af kontakter
+# <a name="preparing-to-set-up-contacts"></a>Forberede oprettelse af kontakter
 Når du opretter kontakter, kan du angive specifikke oplysninger, f.eks. den branche som virksomhederne tilhører og dine forretningsmæssige forhold til kontakterne.
 
 Før du opretter kontakter og registrerer oplysninger om forretningsforhold, skal du definere forskellige koder, som skal bruges til at tildele oplysningerne til virksomheder og personer. Der kan defineres koder til mailgrupper, brancher, forretningsforhold, webkilder, kompetenceniveau og ansvarsområder.
@@ -32,11 +32,11 @@ Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer b
 | Hvis du vil | Se |
 | --- | --- |
 | Definere den forretningsrelation, som findes mellem din virksomhed og dine kontakter, f.eks. kundeemne, bank, konsulent eller serviceleverandør. |[Opsætning af forretningsrelationer i kontaktvirksomheder](marketing-business-relations.md) |
-| Definere den branche, som dine kontakter tilhører, f.eks. detailbranchen eller automobilbranchen. |[Konfigurere brancher i kontaktvirksomheder](marketing-industry-groups.md) |
-| Definere de mailgrupper, som du kan bruge til at identificere grupper af kontakter, som skal modtage de samme oplysninger. |[Konfigurere mailgrupper i kontaktvirksomheder](marketing-mailing-groups.md) |
+| Definere den branche, som dine kontakter tilhører, f.eks. detailbranchen eller automobilbranchen. |[Fremgangsmåde: Angive brancher i kontaktvirksomheder](marketing-industry-groups.md) |
+| Definere de mailgrupper, som du kan bruge til at identificere grupper af kontakter, som skal modtage de samme oplysninger. |[Fremgangsmåde: Angive mailgrupper i kontaktvirksomheder](marketing-mailing-groups.md) |
 | Definere dine kontaktpersoners ansvarsområder. |[Oprette ansvarsområder for kontakter](marketing-job-responsibilities.md) |
-| Definere de kompetenceniveauer, som du vil bruge om dine kontaktpersoner. |[Definere kompetenceniveauer i kontakter](marketing-organizational-levels.md) |
-| Definer webkilder (søgemaskiner og websteder), som du kan bruge, når du vil finde oplysninger om kontakterne på internettet. |[Definere webkilder i kontakter](marketing-web-sources.md) |
+| Definere de kompetenceniveauer, som du vil bruge om dine kontaktpersoner. |[Fremgangsmåde: Definere kompetenceniveauer i kontakter](marketing-organizational-levels.md) |
+| Definer webkilder (søgemaskiner og websteder), som du kan bruge, når du vil finde oplysninger om kontakterne på internettet. |[Fremgangsmåde: Definere webkilder i kontakter](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

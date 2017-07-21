@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Afstemme bankkonti separat | Microsoft Docs"
-description: "Fremgangsmåde: Afstemme bankkonti separat"
+title: Afstemme bankkonti separat | Microsoft Docs
+description: "Beskriver, hvordan dine lagerværdier afstemmes med finansmodulet."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 916f655f9dba80f7c227519372633913b11641ea
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Fremgangsmåde: Afstemme bankkonti separat
 For at afstemme bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] med kontoudtog fra banken, skal du først udfylde linjerne i vinduet **Bankkontoafstemning**.
 
-**Bemærk**: Du kan også afstemme bankkonti i vinduet **Betalingsudligningskladde**. Eventuelle åbne bankposter vedrørende de udlignede debitor- eller kreditorposter bliver lukket, når du vælger handlingen **Bogfør betalinger og afstem bankkonti**. Det betyder, at bankkontoen automatisk afstemmes for de betalinger, du bogfører, med kladden. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   Du kan også afstemme bankkonti i vinduet **Betalingsudligningskladde**. Eventuelle åbne bankposter vedrørende de udlignede debitor- eller kreditorposter bliver lukket, når du vælger handlingen **Bogfør betalinger og afstem bankkonti**. Det betyder, at bankkontoen automatisk afstemmes for de betalinger, du bogfører, med kladden. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
 For at gøre det muligt at importere bankkontoudtog som bankfeeds skal du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank Feeds og derefter knytte dine bankkonti til de relaterede onlinebankkonti. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -38,10 +39,11 @@ Du kan udfylde ruden **Bankkontoudtogslinjer** i vinduet **Bankkontoafstemning**
 
 Når værdien i feltet **Total balance** i ruden **Bankkontoudtogslinjer** svarer til værdien i feltet **Saldo til afstemning** i feltet **Bankkontoposter**, kan du vælge handlingen **Bogfør** for at afstemme de udlignede bankkontoposter. Alle ikke-udlignede bankposter forbliver i vinduet. Dette angiver, at betalinger, der er behandlet for bankkontoen, ikke afspejles i det seneste bankudtog eller at nogle betalinger er modtaget på checks.
 
-**Bemærk**: Hvis bankkontoudtogslinjerne vedrører checkposter, kan du ikke bruge afstemningsfunktionerne. I stedet skal du vælge handlingen **Udlign poster** og derefter vælge den relevante checkpost, som bankkontoudtogslinjen skal afstemmes med.
+> [!NOTE]  
+>   Hvis bankkontoudtogslinjerne vedrører checkposter, kan du ikke bruge afstemningsfunktionerne. I stedet skal du vælge handlingen **Udlign poster** og derefter vælge den relevante checkpost, som bankkontoudtogslinjen skal afstemmes med.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Sådan udfyldes bankafstemningslinjer ved at importere et bankkontoudtog
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Bankkontoafstemning** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkontoafstemning**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. I feltet **Bankkontonr.** skal du vælge den relevante bankkonto. Bankkontoposterne, der findes på bankkontoen, vises i ruden **Bankkontoposter**.
 4. Angiv datoen for kontoudtoget fra banken i feltet **Kontoudtogsdato**.

@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Sende dokumenter via mail | Microsoft Docs"
-description: "Fremgangsmåde: Sende dokumenter via mail"
+title: "Oprette dokumentspecifikt indhold og vedhæftede filer til mailmeddelelser | Microsoft Docs"
+description: "Du kan definere indhold, der skal indsættes i brødteksten i en mail, f.eks. et PayPal-link. Du kan også knytte dokumenter til mails."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f6d234e40cf01be46d601c92c680e90c71424be0
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 445982644c7491df2090b56b0a7ce3e7277c4a57
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,7 @@ Hvis feltet **Mail** i vinduet **Send bilag til** indstilles til **Ja (Bed om in
 Følgende procedure beskriver, hvordan du konfigurerer rapporten **Salg - faktura**, så den kan bruges til dokumentspecifik brødtekst i mail, når du sender mails med bogførte salgsfakturaer.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Sådan oprettes dokumentspecifik brødtekst i mail til salgsfakturaer
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Rapportvalg - Salg** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rapportvalg - Salg**, og vælg derefter det relaterede link.
 2. I vinduet **Rapportvalg - salg** skal du vælge **faktura** i feltet **Forbrug**.
 3. På en ny linje i feltet **Rapport-ID** skal du vælge f.eks. standardrapport 1306.
 4. Markér afkrydsningsfeltet **Brug til brødtekst i mail**.
@@ -49,7 +49,7 @@ Nu, når du vælger, f.eks. **Send**-handlingen i vinduet **Bogført salgsfaktur
 Følgende fremgangsmåde beskriver, hvordan du sender en bogført salgsfaktura som mailmeddelelse med dokumentet vedhæftet som en PDF-fil og med dokumentspecifik brødtekst i mail.
 
 ## <a name="to-send-documents-by-email"></a>Sådan sendes dokumenter som mail
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Bogførte salgsfakturaer** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsfakturaer**, og vælg derefter det relaterede link.
 2. Vælg den relevante bogførte salgsfaktura, og vælg derefter handlingen **Send**. Vinduet **Send bilag til** åbnes.
 3. I feltet **Mail** skal du vælge **Ja (Bed om indstillinger)**. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurerer dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
 4. Vælg knappen **OK**. Vinduet **Send mail** åbnes.
@@ -61,7 +61,8 @@ Følgende fremgangsmåde beskriver, hvordan du sender en bogført salgsfaktura s
     Hvis en dokumentspecifik brødtekst i mail er angivet i vinduet **Rapportvalg - salg**, udfyldes **Brødtekst** automatisk. Du kan finde flere oplysninger i afsnittet "Sådan oprettes dokumentspecifik brødtekst i mail til salgsfakturaer" i dette emne.
 9. Vælg knappen **OK** for at sende mailen.
 
-**Bemærk!** Hvis du ikke vil angive mailindstillinger, hver gang du sender en mail med et dokument, kan du vælge indstillingen **Ja (Brug standardindstillinger)** i feltet **Mail** i vinduet **Send bilag til**. I så fald åbnes vinduet **Send mail** ikke. Se trin 4. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurerer dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
+> [!NOTE]  
+>   Hvis du ikke vil angive mailindstillinger, hver gang du sender en mail med et dokument, kan du vælge indstillingen **Ja (Brug standardindstillinger)** i feltet **Mail** i vinduet **Send bilag til**. I så fald åbnes vinduet **Send mail** ikke. Se trin 4. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurerer dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
 
 ## <a name="see-also"></a>Se også
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  

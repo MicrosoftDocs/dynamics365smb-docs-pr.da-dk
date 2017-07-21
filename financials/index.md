@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/27/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0e3d1a290a541cdf9289bd607b70abc21f9c8120
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,7 @@ Du kan finde hurtige og nyttige tip i:
 * [Indstille filtre](ui-enter-criteria-filters.md)  
 * [Sortere data på lister](ui-sorting.md)  
 
-Du kan finde flere oplysninger under [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
+Du kan finde flere oplysninger i [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
 Når du er klar til at gå videre og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](madeira-business-functionality.md). Du kan få et overblik over aktuelle funktioner, og hvad der kommer senere, i vores oversigt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
@@ -42,7 +42,8 @@ På startsider kan du via et rollecentreret design få hurtig adgang til de forr
 
 Hver startside indeholder knappen **Installation og udvidelser**. Her kan du få adgang til en liste over assisteret opsætning, som kan hjælpe dig i gang med at definere markerede områder hurtigt. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningsvinduer, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
-**Bemærk!** Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Pakke**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger i [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
+> [!NOTE]  
+>   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Pakke**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
 
 I vinduet **Assisteret opsætning** kan du finde følgende i **Pakke**-oplevelsen:
 
@@ -72,9 +73,9 @@ Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje 
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finans](finance.md)  
-[Tilpasning af [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som min virksomheds Indbakke i Outlook](madeira-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobilenhed](install-mobile-app.md)  
 [Dokumentation til Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  

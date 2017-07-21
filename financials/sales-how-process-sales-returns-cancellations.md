@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Behandle salgsreturvarer eller annulleringer | Microsoft Docs"
-description: "Fremgangsmåde: Behandle salgsreturvarer eller annulleringer"
+title: Bruge en salgskreditnota til at behandle salgsreturvarer eller annulleringer | Microsoft Docs
+description: Beskriver, hvordan du opretter en salgskreditnota for at behandle en returnering, annullering eller refusion for varer eller tjenester, du har modtaget betaling for.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,29 +10,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2016
+ms.date: 06/21/2016
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf471e0c3a13a954ab7604a8b1d0f715f664722d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f08526054e99f742cedfefe036d8903304e54a56
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Fremgangsmåde: Behandle salgsreturvarer eller annulleringer
 Hvis en debitor ønsker at returnere eller få refunderet varer eller serviceydelser, som du har solgt og modtaget betaling for, skal du oprette og bogføre en salgskreditnota, der angiver den ønskede ændring. For at medtage de korrekte salgsfakturaoplysninger kan du oprette salgskreditnotaen fra den bogførte salgsfaktura eller bruge funktionen Kopier.  
 
-**Bemærk!** Hvis en bogført salgsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte salgsfaktura, så du tilbagefører transaktionerne. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md).
+> [!NOTE]  
+>   Hvis en bogført salgsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte salgsfaktura, så du tilbagefører transaktionerne. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md).
 
 Ud over den oprindelige bogførte salgsfaktura kan du anvende salgskreditnotaen på andre salgsdokumenter, for eksempel en anden bogført salgsfaktura, fordi kunden også returnerer varerne fra denne faktura.
 
 En returnering eller refusion kan vedrøre nogle af varerne eller tjenesteydelserne på den oprindelige salgsfaktura. Det er tilfældet skal du redigere oplysningerne på linjerne i salgskreditnotaen. Når du bogfører salgskreditnotaen, tilbageføres de salgsdokumenter, der berøres af ændringen, og der kan oprettes en refusionsbetaling til debitoren.  
 
-Du kan sende den bogførte salgskreditnota til debitoren for at bekræfte returneringen eller annulleringen og kommunikere, at den tilhørende værdi vil blive refunderet, f.eks. når varerne returneres.  
+Du kan sende den bogførte salgskreditnota til debitoren for at bekræfte returneringen eller annulleringen og kommunikere, at den tilhørende værdi vil blive refunderet, f.eks. når varerne returneres.
+
+Bogføringen af kreditnotaen gendanner også de varegebyrer, der er tildelt til det bogførte dokument, så varens værdiposter er de samme, som før varegebyret blev tildelt.
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Sådan oprettes en salgskreditnota fra en bogført salgsfaktura
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Bogførte salgsfakturaer** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsfakturaer**, og vælg derefter det relaterede link.  
 2. I vinduet **Bogf. salgsfakturaer** skal du vælge den bogførte salgsfaktura, der skal tilbageføres, og derefter vælge handlingen **Opret rettelseskreditnota**.
 
     Salgskreditnotahovedet indeholder nogle oplysninger fra den bogførte salgsfaktura. Du kan redigere disse oplysninger f.eks med nye oplysninger, der afspejler returneringsaftalen.  
@@ -54,7 +57,7 @@ Dialogboksen **Bekræftelse af bogfør og send** åbnes og viser den foretrukne 
 De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, og der kan oprettes en refusionsbetaling til debitoren. Salgskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogførte salgskreditnotaer.
 
 ## <a name="to-create-a-sales-credit-memo-from-scratch"></a>Sådan oprettes en salgskreditnota fra bunden
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Bogførte salgsfakturaer** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgskreditnotaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny** for at åbne en ny tom salgskreditnota.
 3. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 4. Vælg handlingen **Kopier linjer**.

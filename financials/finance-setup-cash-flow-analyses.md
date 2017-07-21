@@ -1,6 +1,6 @@
 ---
 title: "Opsætning af pengestrømsanalyse | Microsoft Docs"
-description: "Beskriver, hvordan du konfigurerer diagrammerne Kassebeholdningsproces, Indtægter og udgifter, Pengestrøm og Pengestrømsprognose til at analysere tidligere og fremtidige bevægelser af pengestrømme til og fra din virksomhed."
+description: "Opret diagrammerne i rollecenteret Konti for at analysere pengestrømmen i virksomheden, herunder udgifter og indtægter, likviditet og indbetalinger minus kontantbetalinger."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -61,7 +61,8 @@ Diagrammet **Pengestrømsprognose** bruger pengestrømskonti, pengestrømsopsæt
 
 Pengestrømsprognoser kan bruge Cortana Intelligence til at medtage dokumenter med forfaldsdato i fremtiden. Resultatet er en mere omfattende forudsigelse. Forbindelsen til Cortana Intelligence er allerede konfigureret for dig. Du skal blot aktivere den. Når du logger på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], vises en meddelelse i en blå linje med et link til standardpengestrømsopsætningen. Meddelelsen vises kun én gang. Hvis du lukker den, men beslutter at aktivere Cortana Intelligence, kan du bruge den assisterende opsætningsvejledning eller en manuel fremgangsmåde.  
 
-**Bemærk!** Du kan også vælge at bruge dine egen prognosewebtjeneste. Du kan finde flere oplysninger i [Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser](#AnchorText).  
+> [!NOTE]  
+>   Du kan også vælge at bruge din egen prognosewebtjeneste. Du kan finde flere oplysninger i [Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser](#AnchorText).  
 
 Sådan bruges den assisterede opsætningsvejledning:  
 
@@ -75,7 +76,8 @@ Sådan bruges en manuel proces:
 2. Udvid oversigtspanelet **Cortana Intelligence**, og marker derefter afkrydsningsfeltet **Cortana Intelligence aktiveret**.  
 3. På startsiden skal du vælge **Pengestrømsprognose** over diagrammet og derefter **Genberegn prognose**.  
 
-**Tip!** Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Cortana Intelligence ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  
+> [!TIP]  
+>   Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Cortana Intelligence ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  
 
 ## <a name="AnchorText"> </a>Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser.
 Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel for Microsoft Dynamics 365 for Financials**. Denne prognosemodel er tilgængelig online i Cortana Intelligence-galleriet. Sådan bruges modellen:  
@@ -85,7 +87,7 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 3. Brug din Microsoft-konto til at tilmelde dig et arbejdsområde og derefter kopiere modellen.  
 4. Kør modellen, og udgiv den som en webtjeneste.  
 5. Notér URL-adressen for API og API-nøglen. Du skal bruge disse legitimationsoplysninger til en pengestrømsopsætning.  
-6. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Pengestrømskonfiguration** og derefter vælge det relaterede link.  
+6. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pengestrømskonfiguration**, og vælg derefter det relaterede link.  
 7. Udvid oversigtspanelet **Cortana Intelligence**, og udfyld derefter felterne.  
 
 ## <a name="see-also"></a>Se også

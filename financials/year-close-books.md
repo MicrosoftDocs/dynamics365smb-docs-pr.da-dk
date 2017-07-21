@@ -1,6 +1,6 @@
 ---
-title: Afslutningsregnskab | Microsoft Docs
-description: "Beskriver de processer, der er involveret i afslutning af regnskaberne for et regnskabsår eller periode."
+title: Oversigt over de opgaver, der afslutter regnskaberne | Microsoft Docs
+description: "Få mere at vide om processen med at afslutte regnskaberne for et regnskabsår eller en -periode, og hvad der sker, når du lukker ved årets afslutning."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,14 +13,14 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a8d379c971d9b21b0eac552f8c7f68926090f037
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 870f1c6a7f93195e0308a646402d642f6cadd219
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-books"></a>Afslutningsregnskab
+# <a name="closing-the-books"></a>Afslutte regnskaberne
 Når du har kontrolleret, at alle dine konti er opdaterede, og når du har allokeret omkostninger og indtægter, så kan du afslutte regnskabet for et regnskabsår eller en regnskabsperiode.
 
 Du behøver ikke at lukke et år, men hvis du gør det, bliver det nemmere at arbejde i systemet, da du vil kunne udnytte de filtreringsfunktioner, der er. Du vil heller ikke skulle bekymre dig om at miste transaktionsoplysninger, når du lukker, fordi alle detaljerne bevares, selv efter at du lukker året.

@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Prioritere kreditorer | Microsoft Docs"
-description: "Fremgangsmåde: Prioritere kreditorer"
+title: Angive et prioritetsniveau for en kreditor | Microsoft Docs
+description: "Du kan tildele numre til kreditorer eller leverandører for at prioritere dem og lette betalingsforslag i Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ae80ae9ecc15838b59999ded775c7fa0063c8a54
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ ms.lasthandoff: 05/04/2017
 Du skal først at prioritere dine kreditorer ved at tildele numre til dem.
 
 ## <a name="to-prioritize-vendors"></a>Sådan prioriterer du kreditorer
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Kreditorer** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den relevante kreditor, og vælg derefter **Rediger**.
 3. Angiv et nummer i feltet **Prioritet**.
 

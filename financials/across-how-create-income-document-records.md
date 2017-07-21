@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Oprette indgående dokumentposter | Microsoft Docs"
-description: "Fremgangsmåde: Oprette indgående dokumentposter"
+title: "Oprette poster for indgående dokumenter | Microsoft Docs"
+description: "Du kan oprette poster for indgående dokumenter, f.eks. e-fakturaer, og administrere OCR-opgaver eCommerce og dokumentudveksling."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 38ea48e8a948df0fc3894e91d8393d2d14b2fd5a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,13 +30,14 @@ Før du kan bruge funktionen Indkommende dokumenter, skal du foretage den nødve
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Sådan godkendes eller afvises et indgående dokument
 Hvis du vil tillade brugere at oprette fakturaer eller finanskladdelinjer fra indgående dokumentposter, medmindre de er godkendt, kan du angive godkendere, der skal godkende posterne, før de kan behandles.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Indgående bilag** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Marker linjen i det dokument, du vil godkende eller afvise, og vælg derefter handlingen **Godkend** eller **Afvis**.
 
 Hvis du godkender den indgående dokumentpost, markeres afkrydsningsfeltet **Frigivet** på den indgående dokumentlinje. Brugeren, der har ansvaret for at godkende, f.eks, købsfakturaer, kan fortsætte med at behandle posten.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Sådan opretter du en indgående dokumentpost ved at tage et billede
-**Bemærk**: Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
+> [!NOTE]  
+>   Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
 
 1. På applinjen skal du vælge feltet **Opret indgående bilag fra kamera** og derefter gå til trin 4.
 2. Du kan også vælge alternativknappen på applinjen, vælge **Indgående dokumenter** og derefter vælge **Alle**.
@@ -46,7 +47,8 @@ Hvis du godkender den indgående dokumentpost, markeres afkrydsningsfeltet **Fri
 Der oprettes en ny indgående dokumentpost med billedet vedhæftet.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Sådan vedhæfter du et billede til en indgående dokumentpost ved at tage et billede
-**Bemærk**: Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
+> [!NOTE]  
+>   Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
 
 1. På applinjen skal du vælge alternativknappen, vælg **Indgående dokumenter** og vælg derefter **Alle**.
 2. Åbn kortet for en eksisterende indgående dokumentpost.
@@ -56,7 +58,7 @@ Der oprettes en ny indgående dokumentpost med billedet vedhæftet.
 Billedet vedhæftes til den indgående dokumentpost.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Sådan oprettes en indgående dokumentpost manuelt
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Indgående bilag** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Opret fra fil**.  
 3. I vinduet **Indsæt fil** skal du vælge en fil og derefter klikke på **Åbn**.
 

@@ -1,6 +1,6 @@
 ---
-title: "Ofte stillede spørgsmål | Microsoft Docs"
-description: "Ofte stillede spørgsmål om tilmelding til og brug af Dynamics 365 for Financials."
+title: "Ofte stillede spørgsmål om brug af Financials | Microsoft Docs"
+description: "Giver svar på almindelige spørgsmål om, hvordan du tilmelder dig til Financials, og hvad du skal gøre for at komme i gang."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 58ba70311a035afd08bc5b4d0193fc34b132a39f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,7 +32,7 @@ Hvis du forsøger at tilmelde dig med en privat mailadresse, får du en meddelel
 Nej. Men hvis du vil opleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fuldt integreret med Office 365, kan du tilmelde dig til en 1-måneds gratis prøveversion af Office 365 [her](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvad indebærer integration med Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er fuldt integreret med Office 365, så du kan flytte frit mellem Office 365-apps og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du f.eks. åbne data i Excel, udskrive rapporter ved hjælp af Word, og du kan f.eks. arbejde med dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Du kan finde flere oplysninger under [Bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er fuldt integreret med Office 365, så du kan flytte frit mellem Office 365-apps og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du f.eks. åbne data i Excel, udskrive rapporter ved hjælp af Word, og du kan f.eks. arbejde med dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan jeg annullere mit abonnement?
 Ja, men afhængigt af hvordan du tilmeldte dig [!INCLUDE[d365fin](includes/d365fin_md.md)], kan dine data blive slettet eller bevaret. Du kan finde flere oplysninger i [Annullere [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
@@ -50,6 +50,6 @@ Dette er en smule kompliceret, men det ser ud til din administrator ikke har æn
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] uden Outlook](madeira-no-outlook.md)  
-Fremgangsmåde: Ændre rollecenteret](change-role.md)  
+[Fremgangsmåde: Ændre rollecentret](change-role.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

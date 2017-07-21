@@ -1,6 +1,6 @@
 ---
-title: PayPal Payments Standard | Microsoft Docs
-description: Indeholder oplysninger om udvidelsen PayPal Payments Standard
+title: Bruge udvidelsen PayPal Payments Standard | Microsoft Docs
+description: "Beskriver, hvordan du bruger udvidelsen til at gøre det muligt for kunder at foretage betalinger med PayPal."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fdd5df534c0ffd1ae325e0959fe01b1d0f00974a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fcbba8ecb2d63ab780a54aa4784a30b7fa5020fa
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,7 +38,7 @@ Tjenesten PayPal Payments Standard giver følgende fordele:
 Du kan finde flere oplysninger i [Fremgangsmåde: Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
-[Tilpasning af [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

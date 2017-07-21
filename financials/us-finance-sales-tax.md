@@ -1,6 +1,6 @@
 ---
-title: Salgsmoms og skattegrupper i USA og Canada | Microsoft Docs
-description: "Få mere at vide om, hvordan moms konfigureres, og hvordan skattegrupper, skatteområder, skatteregioner og skattedetaljer fungerer."
+title: "Konfigurere skattegrupper, områder og skatteregioner i USA og Canada | Microsoft Docs"
+description: "Få mere at vide om, hvordan moms konfigureres, og hvordan skattegrupper, skatteområder (stater, lande, byer og lokaliteter), skatteregioner og skattedetaljer fungerer."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Salgsmoms og skattegrupper i USA og Canada
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Rapportering af moms i USA og Canada
 Når du begynder at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du køre en assisteret opsætningsvejledning for hurtigt og nemt angive oplysninger for din virksomhed, debitorer og kreditorer. I løbet af minutter kan du oprette salgs- og købsdokumenter med korrekt beregnet moms. Det er beskrevet [i vores blogindlæg](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Hvis du flytter til den tomme Min virksomhed, anbefales det, at du starter med hver assisteret opsætningsvejledning, herunder én til moms. Hvis du vil oprette moms selv, kan du i denne artikel læse, hvad der skal tages højde for.  
 

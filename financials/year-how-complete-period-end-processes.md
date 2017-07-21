@@ -1,6 +1,6 @@
 ---
-title: Afslutning af perioder | Microsoft Docs
-description: "Beskriver processerne, der skal udføres for at lukke en periode."
+title: Valgfrie aktiviteter til afslutning af perioder | Microsoft Docs
+description: I dette emne beskriver de valgfrie processer og aktiviteter til afslutning af regnskabsperioder i Financials.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1d0af3dbc94c32447facfbd24747ddc140cc1691
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 678cebc065594ed0ed6fea897676f109ff2c1dce
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-periods"></a>Lukke perioder
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversigt over opgaver til afslutning af regnskabsperioder
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tvinger dig ikke at lukke perioder, men der er mange periodeafslutnings- (månedsafslutning) aktiviteter, du kan udføre. Dette emne indeholder en oversigt over valgfrie processer og aktiviteter til afslutning af perioder.  
 
 ## <a name="general-ledger"></a>Finansposter
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/04/2017
 * Opdater og bogfør gentagelseskladder.  
   <!--* Process Consolidations-->
 * Kør kontoskemaer på følgende måde:  
-  * Åbn vinduet **Kontoskema**, og vælg **Udskriv**-handlingen.  
+  * Åbn vinduet **Kontoskema**, og vælg derefter handlingen **Udskriv**.  
 
 ## <a name="sales-and-receivables"></a>Salg
 * Bogfør alle salgsordrer, fakturaer, kreditnotaer og returvareordrer.  

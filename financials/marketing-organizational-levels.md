@@ -1,6 +1,6 @@
 ---
-title: "Opsætning af kompetenceniveauer for kontaktpersoner | Microsoft Docs"
-description: Beskriver kompetenceniveauer for kontakter i Financials
+title: Konfigurere kompetenceniveauer for kontaktpersoner | Microsoft Docs
+description: Du kan definere et kompetenceniveau og tildele det til din kontakt for at angive vedkommendes stilling i hans eller hendes virksomhed, f.eks. ledelse.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bde26a2d5fcb7ec10dcd70fdd30c74893bcb34d5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-organizational-levels-for-contact-persons"></a>Opsætning af kompetenceniveauer for kontaktpersoner
+# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Fremgangsmåde: Oprette kompetenceniveauer for kontaktpersoner
 Du kan bruge kompetenceniveauer til kontakter, så de selv kan angive den stilling, som de har i virksomheden, f.eks. ledelse. Du kan bruge disse oplysninger, når du angiver oplysninger om dine kontakter.
 
 Brug af kompetenceniveauer til kontakter er en totrinsproces. Først skal du definere koden for kompetenceniveauet. Du behøver kun at udføre dette trin én gang for hvert kompetenceniveau. Når du har et kompetenceniveau, kan du begynde at tildele koden til kontakter.
@@ -28,7 +28,7 @@ Brug af kompetenceniveauer til kontakter er en totrinsproces. Først skal du def
 ## <a name="to-define-an-organizational-level-code"></a>for at definere en kompetenceniveaukode
 Kompetenceniveaukoden definerer kompetenceniveautypen eller -kategorien, f.eks. ADMINDIR eller ØKODIR. Du kan have flere kompetenceniveaukoder. Du definerer kompetenceniveauet fra vinduet **Kompetenceniveauer**.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Kompetenceniveauer** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kompetenceniveauer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**, og indtast en kode og beskrivelse. Du kan bruge op til 11 tegn til koden, som skal være en kombination af tal og bogstaver.
 
 ## <a name="to-assign-organizational-levels-to-a-contact-person"></a>for at tildele kompetenceniveauer til en kontaktperson

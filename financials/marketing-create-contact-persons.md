@@ -1,6 +1,6 @@
 ---
-title: Kontaktpersoner | Microsoft Docs
-description: "Du kan oprette kontaktpersoner ud fra eksisterende virksomheder, eller du kan oprette uafhængige kontaktpersoner i Financials."
+title: Oprette kontaktpersoner | Microsoft Docs
+description: "Beskriver opgaverne i forbindelse med oprettelse af et kontaktkort for en person, f.eks. et kundeemne eller en leverandør, og bidrager til at angive relationen og tilpasse kommunikationen."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bfc992a09bfe3b93d682dd5c38cdab6c7dc1617b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="contact-persons"></a>Kontaktpersoner
+# <a name="creating-contact-persons"></a>Oprette kontaktpersoner
 Du opretter en kontaktperson ved at definere et kontaktkort for personen. Du kan oprette kontaktpersoner ud fra eksisterende virksomheder, eller du kan oprette uafhængige kontaktpersoner.
 
 Når du har haft møde med et firma, som er en mulig kunde, møder du f.eks. indkøberen. Du kan oprette et kontaktkort til denne person, så kommunikationen kan tilpasses bedre.
@@ -35,8 +35,8 @@ Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer b
 | --- | --- |
 | Angive oplysninger om en kontaktperson. |[Fremgangsmåde: Oprette kontaktpersoner](marketing-how-create-contact-persons.md) |
 | Definere en alternativ adresse for en kontakt. |[Fremgangsmåde: Tildele alternative adresser](marketing-how-assign-alternate-address.md) |
-| Beskrive forretningsrelationen til en virksomhedskontakt. |[Oprette ansvarsområder for kontakter](marketing-job-responsibilities.md) |
-| Beskrive kompetenceniveauet for dine kontakter. |[Opsætning af kompetenceniveauer for kontaktpersoner](marketing-organizational-levels.md) |
+| Beskrive forretningsrelationen til en virksomhedskontakt. |[Fremgangsmåde: Oprette ansvarsområder for kontakter](marketing-job-responsibilities.md) |
+| Beskrive kompetenceniveauet for dine kontakter. |[Fremgangsmåde: Oprette kompetenceniveauer for kontaktpersoner](marketing-organizational-levels.md) |
 | Tildele mailgrupper til dine kontakter |[Tildele mailgrupper til en kontakt](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Se også

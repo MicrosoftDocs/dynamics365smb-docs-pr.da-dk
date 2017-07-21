@@ -1,6 +1,6 @@
 ---
-title: Bruge Power BI-rapporter i listevisninger i Dynamics 365 for Financials | Microsoft Docs
-description: "Du kan tilføje Power BI-rapporter, der giver ekstra indsigt i data på lister i Financials."
+title: "Få vist brugerdefinerede Power BI-rapporter | Microsoft Docs"
+description: "Du kan bruge Power BI-rapporter til at få ekstra indsigt i data på lister i Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 02/02/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c58c71a9ebc3df4e55202f50e856a715d64854f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-power-bi-reports-in-your-list-views-in-dynamics-365-for-financials"></a>Bruge Power BI-rapporter i listevisninger i Dynamics 365 for Financials
+# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Vise listedata i Power BI-rapporter i Dynamics 365 for Financials
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder et faktaboks-kontrolelement på en række vigtige sider, der giver ekstra indsigt i oplysningerne på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post. Du kan oprette brugerdefinerede rapporter, der kan vises i kontrolelementet, men du skal følge nogle særlige regler, når du opretter rapporterne, for at sikre, at de giver den ønskede funktionalitet.  
 
-**Bemærk**: Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til Power BI. Desuden skal du hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Du kan finde flere oplysninger under [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde] (across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til Power BI. Desuden skal du hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Rapportdatasæt
 Når du opretter rapporten i Power BI Desktop, skal du angive den kilde- eller datatjeneste, der indeholder de data, der er relateret til den liste, du vil knytte rapporten til. Hvis du f.eks. vil oprette en rapport i tilknytning til salgslisten, skal du sikre, at datasættet indeholder salgsrelaterede oplysninger.  
@@ -49,7 +50,8 @@ Hvis du på samme måde vil have, at baggrunden for rapporten kombineres med bag
 ## <a name="reports-with-multiple-pages"></a>Rapporter med flere sider
 Med Power BI kan du oprette en enkelt rapport med flere sider. Grafik, der skal vises på [!INCLUDE[d365fin](includes/d365fin_md.md)]-oversigtssider, skal findes på den første side i rapporten i Power BI.  
 
-**Bemærk:** Power BI-faktaboksen kan kun indeholde den første side i rapporten. Hvis du vil have vist andre sider, skal du udvide rapporten og bruge fanerne nederst i rapporten til at navigere til andre sider.  
+> [!NOTE]  
+>  Power BI-faktaboksen kan kun indeholde den første side i rapporten. Hvis du vil have vist andre sider, skal du udvide rapporten og bruge fanerne nederst i rapporten til at navigere til andre sider.  
 
 ## <a name="saving-your-report"></a>Gemme rapporten
 

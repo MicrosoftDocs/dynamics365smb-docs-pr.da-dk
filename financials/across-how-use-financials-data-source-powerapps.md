@@ -1,6 +1,6 @@
 ---
-title: Bruge Dynamics 365 for Financials som PowerApps-datakilde | Microsoft Docs
-description: "Du kan gøre dataene i Financials tilgængelige som en datakilde i Power Apps."
+title: Bruge dine data til at oprette en app | Microsoft Docs
+description: "Du kan gøre dine Financials-data tilgængelige som datakilde og angive en OData URL-adresse til dine webtjenester for at oprette en forretningsapp ved hjælp af PowerApps."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 12/02/2016
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cedc95b23481b8cb76da85e8459a97b1880a4218
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e41a704d3a94abfb58d9547648f0eee46a8ed9b4
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="using-dynamics-365-for-financials-as-a-powerapps-data-source"></a>Bruge Dynamics 365 for Financials som PowerApps-datakilde
+# <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Oprette forbindelse til dine Financials-data for at oprette en forretningsapp ved hjælp af PowerApps
 Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige som en datakilde i PowerApps.  
 
-**Bemærk**: Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til PowerApps.  
+> [!NOTE]  
+>   Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til PowerApps.  
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>Sådan tilføjes [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde i PowerApps
 1. Gå til [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) i din webbrowser, og log på.
@@ -48,13 +49,14 @@ Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige
 8. Vælg den tabel, du vil bruge til din PowerApp, og vælg derefter knappen **Opret forbindelse**.
 9. Gentag fremgangsmåden for at føje flere [!INCLUDE[d365fin](includes/d365fin_md.md)]-data til dine Power BI-datamodel.
 
-   **Bemærk**: Når du har oprettet forbindelse til [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du ikke igen spurgt om OData URL-adresse, brugernavn og adgangskode.
+   > [!NOTE]  
+>    Når du har oprettet forbindelse til [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du ikke igen spurgt om OData URL-adresse, brugernavn og adgangskode.
 
 Nu har du oprettet forbindelse til dine Dynamics 365-data og er klar til at opbygge din PowerApp. Du kan finde flere oplysninger i [PowerApps-dokumentationen](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Importere forretningsdata fra andre økonomisystemer] (upload-data.md)  
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
+[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finans](finance.md)  
 

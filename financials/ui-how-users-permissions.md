@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Administrere brugere og rettigheder | Microsoft Docs"
-description: "Administrer rettighedssæt for brugere, når du har oprettet brugere i Office 365."
+title: "Tildele brugertilladelser og oprette eller redigere tilladelsessæt | Microsoft Docs"
+description: "Beskriver, hvordan du kan føje Office 365-brugere til Financials og derefter tildele tilladelser, adgangsrettigheder og sikkerhedsindstillinger."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/29/2017
+ms.date: 06/27/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1a973b864a654e2047c5a89271519da04f55c08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,16 +27,17 @@ Når brugerne er oprettet i Office 365, kan de importeres i vinduet **Brugere** 
 
 Du kan derefter fortsætte med at tildele rettighedssæt til brugerne for at definere, hvilke databaseobjekter, og dermed hvilke elementer i brugergrænsefladen, de skal have adgang til, og i hvilke virksomheder.
 
-**Vigtigt!** Hvis databasen indeholder flere regnskaber, skal mindst én bruger være medlem af superbrugergruppen i alle regnskaber.
-
 Et rettighedssæt er en samling tilladelser til bestemte objekter i databasen. Alle brugere skal være tildelt et eller flere rettighedssæt, før de kan få adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Der findes som standard et antal foruddefinerede rettighedssæt. Du kan bruge disse tilladelsessæt, som allerede er defineret, ændre standardtilladelsessættene eller oprette flere tilladelsessæt.
 
 Du kan føje brugere til brugergrupper. Det gør det nemmere at tildele de samme rettighedssæt til flere brugere.
 
-**Bemærk!** Denne funktion kræver, at oplevelsen er indstillet til Pakke. Du kan finde flere oplysninger i [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+Administratorer kan bruge vinduet **Brugeropsætning** til at definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på.
+
+> [!NOTE]  
+>   Denne funktion kræver, at oplevelsen er indstillet til Pakke. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Sådan tildeles rettigheder til en bruger
-1. I øverste højre hjørne skal du vælge ikonet Søg efter side eller rapport, angive **Brugere** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugere**, og vælg derefter det relaterede link.
 2. Vælg den bruger, du vil tildele rettigheden til.
 Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **Rettighedssæt**.
 3. Vælg handlingen **Rediger** for at åbne vinduet **Brugerkort**.
@@ -45,7 +46,7 @@ Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **
 ## <a name="to-group-users-in-user-groups"></a>Sådan grupperes brugere i brugergrupper
 Du kan oprette brugergrupper, så du bedre kan administrere rettighedssæt for grupper af brugere i virksomheden. Du kan bruge en funktion til at kopiere alle rettighedssæt fra en eksisterende brugergruppe til den nye brugergruppe. Brugergruppemedlemmerne kopieres ikke.
 
-1. I øverste højre hjørne skal du vælge ikonet Søg efter side eller rapport, angive **Brugergrupper** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugere**, og vælg derefter det relaterede link.
 2. Du kan også vælge handlingen **Brugergrupper** i vinduet **Brugere**.
 3. I vinduet **Brugergrupper** skal du vælge en eksisterende gruppe, du vil kopiere, og derefter vælge handlingen **Kopiér brugergruppe**.
 4. I feltet **Ny brugergruppekode** skal du angive navnet på den nye gruppe og derefter vælge knappen **OK**.
@@ -60,7 +61,7 @@ Du kan oprette brugergrupper, så du bedre kan administrere rettighedssæt for g
 Hvis de standardrettighedssæt, der leveres sammen med [!INCLUDE[d365fin](includes/d365fin_md.md)], ikke er tilstrækkelige eller ikke passer til din organisation, kan du oprette nye rettighedssæt. Og hvis de enkelte objekttilladelser, der definerer et rettighedssæt, ikke er tilstrækkelige, kan du ændre et rettighedssæt. Du kan oprette et rettighedssæt manuelt, eller du kan bruge en registreringsfunktion, der registrerer dine handlinger, når du navigerer gennem et scenarie, og derefter opretter de nødvendige rettighedssæt.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Sådan oprettes eller redigeres rettighedssæt manuelt
-1. I øverste højre hjørne skal du vælge ikonet Søg efter side eller rapport, angive **Brugere** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Rettighedssæt** i vinduet **Brugere**.
 3. Vælg handlingen **Ny** i vinduet **Rettighedssæt**.
 4. Udfyld felterne på en ny linje efter behov.
@@ -82,7 +83,7 @@ Hvis de standardrettighedssæt, der leveres sammen med [!INCLUDE[d365fin](includ
 9. Gentag trin 7 og 8 for at føje rettigheder til flere objekter til rettighedssættet.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Sådan opretter eller redigerer du rettigheder ved at registrere dine handlinger
-1. I øverste højre hjørne skal du vælge ikonet Søg efter side eller rapport, angive **Brugere** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Rettighedssæt** i vinduet **Brugere**.
 3. Vælg handlingen **Ny** i vinduet **Rettighedssæt**.
 4. Udfyld felterne på en ny linje efter behov.
@@ -100,6 +101,14 @@ Du kan tildele en indirekte rettighed for kun at bruge et objekt gennem et andet
 En bruger kan f.eks. have rettighed til at køre codeunit 80, **Salgs-post** Codeunit **Salgs-post** udfører mange opgaver, herunder ændring af tabel 37, **Salgslinje**. Når brugeren bogfører et salgsdokument, codeunit **Salgs-post**, kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)], om brugeren har rettighed til at ændre tabellen **Salgslinje**. Hvis ikke, kan codeunit'en ikke udføre sine opgaver, og brugeren får en fejlmeddelelse. I så fald kører codeunit'en korrekt.
 
 Men brugeren behøver ikke at have fuld adgang til tabellen **Salgslinje** for at køre codeunit'en. Hvis brugeren har indirekte rettighed til tabellen **Salgslinje**, kører codeunit'en **Salgs-post** korrekt. Når en bruger har indirekte rettighed, kan brugeren kun redigere tabellen **Salgslinje** ved at køre codeunit'en **salgs-post** eller et andet objekt, der har rettighed til at ændre tabellen **Salgslinje**. Brugeren kan kun redigere tabellen **Salgslinje**, når det sker fra understøttede funktionalitetsområder. Brugeren kan ikke køre funktionen ved et uheld eller skadeligt ved andre metoder.
+
+## <a name="to-set-up-user-time-constraints"></a>Sådan opsættes tidsbegrænsninger for brugere
+Administratorer kan definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på. Administratorer kan også knytte ansvarscentre til brugere.
+
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ressourceopsætning**, og vælg derefter det relaterede link.
+2. Når vinduet **Brugeropsætning** åbnes, skal du vælge handlingen **Ny**.
+3. I feltet **Bruger-ID** skal du angive ID'et for en bruger, eller vælge feltet for at få vist alle aktuelle Windows-brugere i systemet.
+4. Udfyld felterne efter behov.
 
 ## <a name="see-also"></a>Se også
 [Blive klar til at handle](ui-get-ready-business.md)  

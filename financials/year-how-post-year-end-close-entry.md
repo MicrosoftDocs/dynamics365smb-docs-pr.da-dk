@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Bogføre en årsafslutningspost | Microsoft Docs"
-description: "Beskriver, hvordan du bogfører årsafslutningsposten."
+title: "Gennemse og bogføre årsafslutningsposten | Microsoft Docs"
+description: "Beskriver, hvordan du åbner den kladde, du angav i kørslen Nulstil resultatopgørelse, og derefter gennemser og bogfører årsafslutningsposten."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,27 +13,28 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe04f75ed84a959cbacd9e9d4806d43d41186edb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 68017b8b031ee4bd368936b6fb4de157328d7030
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="how-to-post-year-end-closing-entry"></a>Fremgangsmåde: Bogføre en årsafslutningspost
+# <a name="how-to-post-the-year-end-closing-entry"></a>Fremgangsmåde: Bogføre årsafslutningsposten
 Når du har udført kørslen **Nulstil resultatopgørelse** for at oprette årsafslutningens lukkepost eller -poster, skal du åbne den kladde, du angav i kørslen, og derefter gennemse og bogføre posterne.
 
-## <a name="to-post-the-year-end-closing-entry"></a>Sådan bogføres årsafslutningsposten
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Kassekladde** og derefter vælge det relaterede link.
+## <a name="to-post-the-year-end-closing-entry"></a>Sådan bogføre årsafslutningsposten
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladde**, og vælg derefter det relaterede link.
 2. I vinduet **Kassekladde** skal du i feltet **Kladdenavn** vælge den kørsel, der indeholder lukkeposterne.
 3. Gennemse posterne.
 4. Vælg handlingen **Bogfør** for at bogføre kladden.
 
-**Bemærk**: Hvis der opstår en fejl, vises der en fejlmeddelelse. Hvis bogføringen lykkes, fjernes de bogførte poster fra kladden. Når bogføringen er fuldført, bogføres en post til alle resultatopgørelseskonti, så saldoen går i nul, og årsresultatet overføres til balancen.
+> [!NOTE]  
+>   Hvis der opstår en fejl, vises der en fejlmeddelelse. Hvis bogføringen lykkes, fjernes de bogførte poster fra kladden. Når bogføringen er fuldført, bogføres en post til alle resultatopgørelseskonti, så saldoen går i nul, og årsresultatet overføres til balancen.
 
 ## <a name="see-also"></a>Se også
 [Fremgangsmåde: Afslutte regnskabsperioder](year-close-account-periods.md)  
 [Afslutningregnskab](year-close-books.md)  
-[Nulstille resultatopgørelse](year-close-income-statement.md)  
+[Nulstil resultatopgørelse](year-close-income-statement.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

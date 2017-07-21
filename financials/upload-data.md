@@ -1,6 +1,6 @@
 ---
 title: Importere dine eksisterende virksomhedsdata i Financials | Microsoft Docs
-description: Beskriver, hvordan du kan importere dine egne data til Dynamics 365 for Financials.
+description: "Du kan overføre data for debitorer, kreditorer og lageret, f.eks. fra Excel, QuickBooks eller Dynamics GP, til Financials."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 04/27/2017
+ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 001dccf7935f38dd2f409e4fea31598a279472d4
+ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
+ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,16 +31,21 @@ F.eks. hvis filen omfatter debitorer og kreditorer, kan du kun overføre debitor
 
 Den assisterede opsætning omfatter en mulighed for at ændre standardkonfigurationen af overførslen, men det anbefales, at du kun bruger denne avancerede opsætning, hvis du har erfaring med databasetabeller. I de fleste virksomheder overfører standardtilknytningen fra QuickBooks eller Dynamics GP til [!INCLUDE[d365fin](includes/d365fin_md.md)] de ønskede oplysninger.  
 
+Du kan finde flere oplysninger i [Overførsel af QuickBooks-data](ui-extensions-quickbooks-data-migration.md) eller [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
+
 ## <a name="importing-data-from-configuration-packages"></a>Importere data fra konfigurationspakker
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en konfigurationspakke, som du kan eksportere til Excel og konfigurere dataene der. Derefter kan du importere dataene fra Excel igen. Pakken indeholder 27 tabeller, herunder masterdata som debitorer, kreditorer, varer og konti, andre grundlæggende opsætningstabeller f.eks. leveringsmetoder og transaktionstabeller, som f.eks. salgshoved og linjer.  
 
 > [!NOTE]  
->  Arbejde med konfigurationspakker er avanceret funktionalitet, og det anbefales, at du kontakter systemadministratoren. Du kan finde flere oplysninger under [Importere data fra ældre regnskabsprogrammer ved hjælp af en konfigurationspakke](across-import-data-configuration-packages.md).  
+>   Arbejde med konfigurationspakker er avanceret funktionalitet, og det anbefales, at du kontakter systemadministratoren. Du kan finde flere oplysninger under [Importere data fra ældre regnskabsprogrammer ved hjælp af en konfigurationspakke](across-import-data-configuration-packages.md).  
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
 [Importere data fra ældre regnskabsprogrammer ved hjælp af en konfigurationspakke](across-import-data-configuration-packages.md)  
-[Tilpasning af [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)   
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
+[Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)  
+[Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)   
+[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

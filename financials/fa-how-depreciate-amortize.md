@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Afskrive eller amortisere anlægsaktiver | Microsoft Docs"
-description: "Beskriver, hvordan du afskriver eller amortiserer et anlægsaktiv."
+title: "Afskrive eller amortisere anlæg | Microsoft Docs"
+description: "Du skal definere, hvordan du vil nedskrive, afskrive eller amortisere hvert af anlægsaktiverne."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3ea185979c2339a578149259f53aa81c18e5161b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 07e80551ca215eb4c2632faa9f534801a1813680
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -39,18 +39,18 @@ Indeksering anvendes til at justere for ændringer af det generelle prisniveau. 
 ## <a name="to-calculate-depreciation-automatically"></a>Sådan beregnes afskrivning automatisk
 Du kan når som helst, f.eks. en gang om måneden, udføre kørslen **Beregn afskrivning**. Kørslen ignorerer anlæg, der er blevet solgt, er spærret eller er inaktive, eller som bruger den manuelle afskrivningsmetode.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Beregn afskrivninger** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Beregn afskrivninger**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Vælg knappen **OK**.  
 
     Kørslen beregner afskrivningen og opretter linjer i anlægskassekladden.  
-4. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Anlægsfinanskladder** og derefter vælge det relaterede link.  
+4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 
     I feltet **Antal afskrivningsdage** i vinduet **Anlægskassekladde** kan du se, hvor mange afskrivningsdage, der er blevet beregnet.  
 5. Vælg handlingen **Bogfør**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Sådan bogføres afskrivning manuelt fra anlægskassekladden
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Anlægskassekladde** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.  
 3. I feltet **Anlægsbogføringstype** skal du vælge **Afskrivning**.  
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af afskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
@@ -61,7 +61,7 @@ Hvis du har defineret anlægsallokeringsnøgler for at kunne allokere beløb til
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Sådan beregnes allokeringer i anlægskassekladden
 Hvis et anlæg bruges af flere afdelinger, kan periodisk afskrivning allokeres automatisk på disse afdelinger ud fra en brugerdefineret allokeringstabel.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Anlægskassekladde** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
 2. Opret en første linje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Allokering**.  
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af allokering.  
@@ -70,27 +70,30 @@ Hvis et anlæg bruges af flere afdelinger, kan periodisk afskrivning allokeres a
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Bruge kopilister til at forberede bogføring af flere afskrivningsprofiler
 Når du udfylder kladdelinjer, der skal bogføres til en afskrivningsprofil, kan du kopiere linjerne til en særskilt kladde, så du kan bogføre i en anden afskrivningsprofil. Du kan finde flere oplysninger i afsnittet "Sådan bogføres poster til forskellige afskrivningsprofiler".
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Afskrivningsprofiler** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
 2. Åbn afskrivningsprofilen, og markér derefter afkrydsningsfeltet **Del af kopiliste**.  
 
-**Vigtigt:** Hvis du har markeret feltet **Brug kopiliste**, skal du ikke bruge nummerserier i kladden. Det skyldes, at nummerserien til anlægskassekladden ikke bruger nummerserien til anlægskladden.  
+> [!IMPORTANT]  
+>   Hvis du har markeret afkrydsningsfeltet **Brug kopiliste**, skal du ikke bruge nummerserier i kladden. Det skyldes, at nummerserien til anlægskassekladden ikke bruger nummerserien til anlægskladden.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Sådan bogføres poster til forskellige afskrivningsprofiler
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Anlægskassekladde** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
 2. I den kladde, som du vil bogføre afskrivning med, skal du markere afkrydsningsfeltet **Brug kopiliste**.  
 3. Udfyld de resterende felter efter behov.  
 4. Vælg handlingen **Bogfør**.  
-5. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Anlægskladder** og derefter vælge det relaterede link.  
+5. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskladder**, og vælg derefter det relaterede link.  
 
-    **Bemærk:** Vinduet **Anlægskladde** indeholder nye linjer til forskellige afskrivningsprofiler ifølge kopilisten.  
+    > [!NOTE]  
+>   Vinduet **Anlægskladde** indeholder nye linjer til forskellige afskrivningsprofiler ifølge kopilisten.  
 6. Gennemse eller rediger linjerne, og vælg derefter handlingen **Bogfør**.  
 
-    **Bemærk:** En anden måde at kopiere en post til en separat profil er at angive en afskrivningsprofilkode i feltet **Kopiér til afskr.profil**, når du udfylder en kladdelinje.  
+    > [!NOTE]  
+>   En anden måde at kopiere en post til en separat profil er at angive en afskrivningsprofilkode i feltet **Kopier til afskr.profil**, når du udfylder en kladdelinje.  
 
 Du kan kopiere poster fra én afskrivningsprofil til en anden vha. kørslen **Kopier afskrivningsprofil**. Kørslen opretter kladdelinjer i den kladde, du har angivet i vinduet **Anlægskladdeopsætning** for den afskrivningsprofil, du vil kopiere til. Du kan finde flere oplysninger i følgende procedure.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Sådan kopieres anlægsposter mellem afskrivningsprofiler
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Afskrivningsprofiler** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
 2. Åbn det relevante afskrivningsprofilkort, og vælg handlingen **Kopiér afskrivningsprofil**.  
 3. I vinduet **Kopiér afskrivningsprofil** skal du udfylde felterne efter behov.  
 4. Vælg knappen **OK**.  

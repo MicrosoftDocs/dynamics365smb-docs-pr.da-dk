@@ -1,6 +1,6 @@
 ---
 title: Nyheder i Microsoft Dynamics 365 for Financials | Microsoft Docs
-description: Nyheder i Microsoft Dynamics 365 for Financials
+description: Beskriver de seneste nyheder og opdateringer for Dynamics 365 for Financials.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 26fe803ea4d4b503b8123f4a06e3017c1d5f077f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
+
 
 ---
-
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Nyheder i Microsoft Dynamics 365 for Financials
 Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]! Hvis du ikke allerede har tilmeldt dig en prøveversion, kan vi sammen gennemgå de grundlæggende funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)], og så kan du selv prøve programmet i en periode. Når du er klar, kan du åbne et tomt regnskab og konfigurere det.  
 
@@ -54,7 +54,7 @@ Denne opdatering af [!INCLUDE[d365fin](includes/d365fin_md.md)] tilføjede nye f
 ### <a name="more-flexibility-in-your-sales-processes"></a>Større fleksibilitet i dine salgsprocesser
 Denne opdatering tilføjer større fleksibilitet i det, du sælger:
 - Du kan nu oprette katalogvarer - varer, du tilbyder kunderne, men ikke lagerfører. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
-- Du kan nu markere en vare for direkte levering på en salgsordre og straks oprette en købsordre for varen. På denne måde kan du sælger en vare til en kunde, købe den af leverandøren og få den leveret direkte fra leverandøren til kunden. Du kan finde flere oplysninger under [Fremgangsmåde: Købe produkter til et salg](purchasing-how-purchase-products-sale.md).
+- Du kan nu markere en vare for direkte levering på en salgsordre og straks oprette en købsordre for varen. På denne måde kan du sælger en vare til en kunde, købe den af leverandøren og få den leveret direkte fra leverandøren til kunden. Du kan finde flere oplysninger under [Fremgangsmåde: Købe varer til et salg](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Kategorisere varer på lageret
 Med denne opdatering kan du oprette et hierarki af varekategorier og tildele vareattributter til hver varekategori. Du kan finde flere oplysninger under [Fremgangsmåde: Kategorisere varer](inventory-how-categorize-items.md).
@@ -88,17 +88,17 @@ Denne opdatering af [!INCLUDE[d365fin](includes/d365fin_md.md)] tilføjede nye f
 Denne opdatering føjer handlinger til kreditordashboardet i Outlook-tilføjelsesprogrammet, så du kan arbejde direkte med vedhæftede filer til den tilknyttede e-mail. Du kan bruge handlingerne til at sende vedhæftede filer direkte til listen **Indgående dokumenter**, sende dokumenterne til OCR- tjenesten og sende en godkendelsesanmodning for det indgående dokument. Du kan finde flere oplysninger under [Administrere indgående bilag](across-income-documents.md).
 
 ### <a name="create-invoices-in-your-outlook-calendar"></a>Oprette fakturaer i Outlook-kalenderen
-Outlook-tilføjelsesprogrammet er nu udvidet til Outlook-kalenderen. Fra en kalenderaftale kan du åbne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet og få vist en oversigt for den kunde, der er tilknyttet aftalen. Derefter kan du oprette og sende en faktura for de tjenester, der er ydet i mødet - alt sammen i Outlook-kalenderen. Du kan finde flere oplysninger under [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md).  
+Outlook-tilføjelsesprogrammet er nu udvidet til Outlook-kalenderen. Fra en kalenderaftale kan du åbne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet og få vist en oversigt for den kunde, der er tilknyttet aftalen. Derefter kan du oprette og sende en faktura for de tjenester, der er ydet i mødet - alt sammen i Outlook-kalenderen. Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-markedsplads for udvidelser
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser er nu tilgængelige på AppSource-markedspladsen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søge og finde udvidelser på markedspladsen. Du kan få vist oplysninger, herunder marketingmateriale, skærmbilleder, videoer og links til flere oplysninger. Du kan finde flere oplysninger under [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser er nu tilgængelige på AppSource-markedspladsen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søge og finde udvidelser på markedspladsen. Du kan få vist oplysninger, herunder marketingmateriale, skærmbilleder, videoer og links til flere oplysninger. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Speditører og vareattributter
 Du kan føje attributter til dine lagervarer, som gør det nemt at finde netop det produkt, som kunden ønsker. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med vareattributter](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Nye tilgængelige udvidelser
 Med denne opdatering kan du vælge mellem flere udvidelser i vinduet **Udvidelsesstyring**.
-Du kan finde flere oplysninger under [[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md).  
+Du kan finde flere oplysninger i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Administrere dine kundeforhold ved hjælp af Microsoft Dynamics CRM fra [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Vi har tilføjet en ny assisteret opsætningsvejledning til startsiden Virksomhedsleder, der hjælper dig med at oprette forbindelse til Dynamics CRM. Når det er gjort, får du en gnidningsløs sammenkædning af Dynamics CRM-poster og [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Du kan finde flere oplysninger under [Administrere dine kundeforhold ved hjælp af Microsoft Dynamics CRM fra [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
@@ -107,7 +107,7 @@ Vi har tilføjet en ny assisteret opsætningsvejledning til startsiden Virksomhe
 Denne opdatering af [!INCLUDE[d365fin](includes/d365fin_md.md)] tilføjede nye funktioner som [meddelt på bloggen](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
 
 ### <a name="new-extensions-made-available"></a>Nye tilgængelige udvidelser
-Se vinduet **Udvidelsesstyring**: Opdateringen tilføjer nye udvidelser, herunder Sana Commerce for [!INCLUDE[d365fin](includes/d365fin_md.md)], der indeholder B2B Commerce-funktioner og ChargeLogic Payments, som har funktioner til behandling af betaling og kreditkort. Udvidelserne installeres ikke automatisk, men i vinduet **Udvidelsesstyring** kan du få hjælp til at installere de udvidelser, som du vil bruge. Du kan finde flere oplysninger under [[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md).  
+Se vinduet **Udvidelsesstyring**: Opdateringen tilføjer nye udvidelser, herunder Sana Commerce for [!INCLUDE[d365fin](includes/d365fin_md.md)], der indeholder B2B Commerce-funktioner og ChargeLogic Payments, som har funktioner til behandling af betaling og kreditkort. Udvidelserne installeres ikke automatisk, men i vinduet **Udvidelsesstyring** kan du få hjælp til at installere de udvidelser, som du vil bruge. Du kan finde flere oplysninger i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md).  
 
 ### <a name="filter-on-unprocessed-incoming-documents"></a>Filtrere på ikke-behandlede indgående bilag
 Vi har også ændret nogle grundlæggende funktioner i denne måneds opdatering: Oversigten over indgående dokumenter er nu filtreret, så kun de poster, der ikke er brugt til at oprette bogførte dokumenter med, vises. Du kan finde flere oplysninger under [Administrere indgående bilag](across-income-documents.md).  

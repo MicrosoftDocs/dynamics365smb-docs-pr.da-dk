@@ -1,6 +1,6 @@
 ---
-title: "Sådan gør du: Gennemse eller udligne betalinger efter manuel udligning | Microsoft Docs"
-description: "Fremgangsmåde: Gennemse eller udligne betalinger efter manuel udligning"
+title: Kontrollere automatisk udlignede betalinger og udligne betalinger igen manuelt | Microsoft Docs
+description: "Når betalinger udlignes automatisk, kan du gennemse alle poster for en betaling og genanvende dem, der blev udlignet forkert, manuelt."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,30 +13,34 @@ ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1d5515a3814d2fbd4dfb7accc16d9f8ffda44317
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Fremgangsmåde: Gennemse eller udligne betalinger efter manuel udligning
 For hver kladdelinje, der repræsenterer en betaling i vinduet **Betalingsudligningskladde**, kan du åbne vinduet **Betalingsudligning** for at få vist alle åbne kandidatposter for betalingen og se detaljerede oplysninger for hver post om den dataafstemning, som en betalingsudligning er baseret på. Her kan du manuelt udligne betalinger eller udligne betalinger igen, der er udlignet automatisk til en forkert post. Du kan finde flere oplysninger om automatisk udligning i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
-**Vigtigt**: Når den bankkonto, som du afstemmer betalinger for, er sat op til den lokale valuta, viser vinduet **Betalingsudligning** alle åbne poster i den lokale valuta, herunder åbne poster for dokumenter, der oprindeligt blev faktureret i udenlandsk valuta. Betalinger, der er udlignet til poster med de omregnede valutaer, kan derfor blive bogført med andre beløb end i det oprindelige dokument på grund af de potentielt forskellige valutakurser, der bruges af henholdsvis banken og [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> [!IMPORTANT]  
+>   Når den bankkonto, som du afstemmer betalinger for, er sat op til den lokale valuta, viser vinduet **Betalingsudligning** alle åbne poster i den lokale valuta, herunder åbne poster for dokumenter, der oprindeligt blev faktureret i udenlandsk valuta. Betalinger, der er udlignet til poster med de omregnede valutaer, kan derfor blive bogført med andre beløb end i det oprindelige dokument på grund af de potentielt forskellige valutakurser, der bruges af henholdsvis banken og [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Vi anbefaler derfor, at du ser efter udenlandske valutakoder i feltet **Valutakode** i vinduet **Betalingsudligning** for at kontrollere, om udligninger er baseret på omregnede valutaer. Hvis du vil gennemse det oprindelige dokumentbeløb i udenlandsk valuta og se vekselkursen, kan du vælge **Udlign.løbenr.** og derefter vælge knappen Specificer i genvejsmenuen for at åbne vinduet **Debitorposter** eller **Kreditorposter**.
 
 Eventuelle justeringer af gevinster og tab, der kræves på grund af valutaomregninger, behandles ikke automatisk af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-**Bemærk**: Du kan ikke udligne poster med et andet fortegn end tegnet for betalingen. For eksempel skal du for at lukke en kreditnota med negativt fortegn og dens relaterede faktura med positivt fortegn først udligne kreditnotaen med fakturaen og derefter udligne betalingen med fakturaen med reduceret restbeløb.
+> [!NOTE]  
+>   Du kan udligne poster med et andet fortegn end tegnet for betalingen. For eksempel skal du for at lukke en kreditnota med negativt fortegn og dens relaterede faktura med positivt fortegn først udligne kreditnotaen med fakturaen og derefter udligne betalingen med fakturaen med reduceret restbeløb.
 
-**Advarsel**: Hvis du bruger kontantrabatter, og hvis betalingsdatoen ligger før betalingens forfaldsdato, bruges feltet **Restbeløb inkl. rabat** i vinduet **Betalingsudligning** til afstemning. Ellers bruges værdien i feltet **Restbeløb**. Hvis betalingen blev foretaget med et rabatbeløb efter betalingens forfaldsdato, eller det fulde beløb er betalt, men der blev givet en rabat, vil beløbet ikke matche.
+> [!WARNING]  
+>   Hvis du bruger kontantrabatter, og hvis betalingsdatoen ligger før betalingens forfaldsdato, bruges feltet **Restbeløb inkl. rabat** i vinduet **Betalingsudligning** til afstemning. Ellers bruges værdien i feltet **Restbeløb**. Hvis betalingen blev foretaget med et rabatbeløb efter betalingens forfaldsdato, eller det fulde beløb er betalt, men der blev givet en rabat, vil beløbet ikke matche.
 
-**Bemærk**: Du kan kun udligne en betaling på én konto. Hvis du vil fordele udligningen på flere åbne poster, for eksempel for at udligne et fast beløb, skal de åbne poster være for den samme konto. Yderligere oplysninger finder du i trin 7 og 8 i proceduren i dette emne.
+> [!NOTE]  
+>   Du kan kun udligne en betaling på én konto. Hvis du vil fordele udligningen på flere åbne poster, for eksempel for at udligne et fast beløb, skal de åbne poster være for den samme konto. Yderligere oplysninger finder du i trin 7 og 8 i proceduren i dette emne.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Sådan gennemser eller udligner du betalinger efter automatisk udligning
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingsudligningskladder** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsudbetalingskladder**, og vælg derefter det relaterede link.
 2. Åbn kladden for betalingsafstemning for en bankkonto, som du vil afstemme betalinger for. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 3. I vinduet **Betalingsudligningskladde** skal du markere en betaling, du vil gennemse eller udligne manuelt til en eller flere åbne poster og derefter vælge handlingen **Anvend manuelt**.
 4. Markér afkrydsningsfeltet **Udlignet** på linjen for den åbne post, som du vil udligne betalingen på.

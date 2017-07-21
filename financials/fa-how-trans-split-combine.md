@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Overføre, opdele eller kombinere anlægsaktiver | Microsoft Docs"
-description: "Beskriver, hvordan du omposterer et anlægsaktiv for at overføre, opdele eller kombinere det med andre anlægsaktiver."
+title: "Ompostering af anlægsaktiver | Microsoft Docs"
+description: "Du omposterer et anlægsaktiv for at overføre det til en anden afdeling, opdele det eller kombinere det med andre anlægsaktiver."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 50e1a8d7012394b4b3f710991f7d45ae244656c9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,12 +27,12 @@ Du kan overføre et anlægsaktiv til en anden afdeling, når du f.eks. placerer 
 
 1. Definer et nyt anlæg. Angiv den nye afdeling i feltet **Afdelingskode**.
 2. Tildele en anlægsafskrivningsprofil til det nye anlægsaktiv. Du kan finde flere oplysninger i [Fremgangsmåde: Anskaffe anlægsaktiver](fa-how-acquire.md).
-3. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Omposteringskladder** og derefter vælge det relaterede link.
+3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Omposteringskladder**, og vælg derefter det relaterede link.
 4. Opret en omposteringskladde, hvor feltet **Anlægsnr.** indeholder det oprindelige anlægsaktiv, og feltet **nyt Anlægsnr.** indeholder det nye anlægsaktiv, der skal flyttes.  
 5. Vælg handlingen **Ompostér**.
 
     Der oprettes nu to linjer i anlægskassekladden ved hjælp af den type og det navn, du har angivet i vinduet **Anlægskladdeopsætning** for den angivne afskrivningsprofil. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
-6. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Anlægsfinanskladder** og derefter vælge det relaterede link.    
+6. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.    
 7. I vinduet **Anlægskassekladde** skal du vælge handlingen **Bogfør** for at bogføre den ompostering, du har udført i trin 4 og 5.
 
 Hvis du har bogført en anskaffelsespris for ét anlæg, kan du bruge anlægsomposteringskladden til at opdele anskaffelsesprisen på flere anlægsaktiver.  
@@ -42,7 +42,7 @@ Du kan opdele et anlægsaktiv i flere anlægsaktiver, f.eks. når du skal fordel
 
 1. Definer to nye anlægsaktiver. Angiv den nye afdeling i feltet **Afdelingskode**.
 2. Tildele anlægsafskrivningsprofiler til de nye anlægsaktiver. Du kan finde flere oplysninger i [Fremgangsmåde: Anskaffe anlægsaktiver](fa-how-acquire.md).
-3. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Omposteringskladder** og derefter vælge det relaterede link.
+3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Omposteringskladder**, og vælg derefter det relaterede link.
 4. Opret to omposteringskladdelinjer, én for hvert nyt anlægsaktiv.
 5. På første linje skal du angive det andet anlægsaktiv i feltet **Nyt anlægsnr.** og 25 i feltet **Ompost.pct. (anskaffelse)**.
 6. På den anden linje skal du angive det tredje anlægsaktiv i feltet **Nyt anlægsnr.** og 40 i feltet **Ompost.pct. (anskaffelse)**.
@@ -50,24 +50,24 @@ Du kan opdele et anlægsaktiv i flere anlægsaktiver, f.eks. når du skal fordel
 8. Vælg handlingen **Ompostér**.
 
     Der oprettes nu to linjer i anlægskassekladden ved hjælp af den type og det navn, du har angivet i vinduet **Anlægskladdeopsætning** for den angivne afskrivningsprofil. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).    
-9. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Anlægsfinanskladder** og derefter vælge det relaterede link.
+9. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.
 10. I vinduet **Anlægskassekladde** skal du vælge handlingen **Bogfør** for at bogføre den ompostering, du har udført i trin 4-8.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Sådan kombineres to anlægsaktiver til ét
 Du kan kombinere flere anlægsaktiver til ét anlægsaktiv, f.eks. når du skal flytte fordelte anlægsaktiver til en enkelt afdeling. Hvis du har bogført anskaffelsesprisen og afskrivningen for det anlægsaktiv, der skal flyttes, kombineres værdierne i det enkelte anlægsaktiv.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Omposteringskladder** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Omposteringskladder**, og vælg derefter det relaterede link.
 2. Opret en omposteringskladde, hvor feltet **Anlægsnr.** indeholder det anlægsaktiv, der skal flyttes/kombineres, og feltet **Nyt anlægsnr.** indeholder det anlægsaktiv, der skal kombineres med.
 3. Lad feltet **Ompost.pct. (anskaffelse)** være tomt for at flytte/kombinere hele anskaffelsesprisen.    
 4. Markér afkrydsningsfelterne **Omposter anskaffelse** og **Omposter afskrivning**.
 5. På fanen **Handlinger** skal du vælge **Omposter**.
 
     Der oprettes nu to linjer i anlægskassekladden ved hjælp af den type og det navn, du har angivet i vinduet **Anlægskladdeopsætning** for den angivne afskrivningsprofil. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).   
-6. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Anlægsfinanskladder** og derefter vælge det relaterede link.
+6. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.
 7. I vinduet **Anlægskassekladde** skal du vælge handlingen **Bogfør** for at bogføre den ompostering, du har udført i trin 2-5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Sådan får du vist ændrede bogførte afskrivningsværdier på grund af ompostering af anlægsaktiver
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Anlæg - bogført værdi 02** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlæg - bogført værdi 02**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.  
 

@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Overvåge status for og udførelse af en sag | Microsoft Docs"
-description: Beskriver, hvordan du budgetterer for sager.
+title: "Definere en metode for igangværende arbejde og overvåge sagsstatus | Microsoft Docs"
+descrition: Describes how you can create a work in process (WIP) method and calculate WIP to estimate the financial value of jobs while they are ongoing.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fb38a02bbf2dd99ce003d23c4a5f88f0e3cd593a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,33 +40,34 @@ Du kan oprette en sagsmetode for igangværende arbejde, der afspejler behovet i 
 
 **Bemærk**! Når du har brugt en ny metode til at oprette poster for igangværende arbejde, kan du ikke slette metoden eller ændre den.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sags-VIA-metoder** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sags-VIA-metoder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Luk vinduet.   
-4. Du kan gøre denne nye metode til standard ved i øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sagsopsætning** og derefter vælge det relaterede link.  
+4. For at gøre denne nye metode til standard skal du i øverste højre hjørne vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sagsopsætning** og derefter vælge det relaterede link.  
 5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Sådan definere en metode for igangværende arbejde for en sag
 Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arbejde der gælder. I nogle tilfælde er den sagsmetode for igangværende arbejde, der er oprettet for dig, oprettet som standard.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sager** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette sager](projects-how-create-jobs.md).  
 3. I vinduet **Sagskort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
 
 ## <a name="to-calculate-wip"></a>Sådan beregnes VIA
 Du kan fastlægge det beløb for igangværende arbejde, der skal bogføres til balancekonti ved periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Beregn VIA for sag**.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Beregn VIA - finansafstemning** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Beregn VIA - finansafstemning**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Beregn igangværende arbejde**.
 3. I vinduet **Beregn VIA for sag** skal du udfylde felterne efter behov.
 4. Vælg knappen **OK**.  
 
-**Bemærk**: Kørslen beregner kun igangværende arbejde. Det bogføres ikke i finansmodulet. Hvis du vil bogføre, skal du udføre kørslen **Bogfør igangværende arbejde - finansafstemning**, når du har beregnet igangværende arbejde. Du kan finde flere oplysninger i følgende procedure.
+> [!NOTE]  
+>   Kørslen beregner kun igangværende arbejde. Det bogføres ikke i finansmodulet. Hvis du vil bogføre, skal du udføre kørslen **Bogfør igangværende arbejde - finansafstemning**, når du har beregnet igangværende arbejde. Du kan finde flere oplysninger i følgende procedure.
 
 ## <a name="to-post-wip"></a>Sådan bogføres igangværende arbejde
 Når du har beregnet igangværende arbejde, kan du bogføre det til balancekontiene for periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Bogfør VIA for sag**.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Bogfør VIA - finansafstemning** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogfør VIA - finansafstemning**, og vælg derefter det relaterede link.  
 2. I vinduet **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
 3. Vælg knappen **OK**.
 
@@ -75,9 +76,10 @@ Du kan få vist sagsforbruget op til færdiggørelsen af et projekt i ét trin. 
 
 På denne måde kan du holde styr på og sammenligne dine oprindelige estimater med de faktiske resultater og foretage ændringer eller oprette nye poster efter behov. Du kan f.eks. have anslået, at en sag krævede 10 timer, og at den frem til nu har taget 15 timer. Du kan føje de ekstra fem timer til den eksisterende kladdelinje eller oprette en ny kladdelinje for at rapportere disse fem timer som overtid, hvilket er en anden arbejdstype. Den korrekte omkostning og pris beregnes, og du kan derefter bogføre den til kladden.  
 
-**Bemærk**: Vareposter opretter vareposter til finans og reducerer antallet af varer på lager. Kørslen **Bogfør lagerregulering** overfører omkostningen fra lager til finans. Ressourceposter opretter ressourceposter til finans.  
+> [!NOTE]  
+>   Vareposter opretter vareposter til finans og reducerer antallet af varer på lager. Kørslen **Bogfør lagerregulering** overfører omkostningen fra lager til finans. Ressourceposter opretter ressourceposter til finans.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sagskladder** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
 2. Vælg en relevant sagskladde, og vælg derefter handlingen **Beregn resterede forbrug**.  
 3. I vinduet **Beregn resterende forbrug for sag** skal du angive dokumentnummeret og bogføringsdatoen, der skal indsættes i kladden, og derefter vælge knappen **OK**.  
 4. Opdater kladden med eventuelle nødvendige ændringer.  
@@ -86,7 +88,7 @@ På denne måde kan du holde styr på og sammenligne dine oprindelige estimater 
 ## <a name="to-view-job-ledger-entries"></a>Sådan får du vist sagsposter
 Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende nummerering, hvor der startes med 1. Fra sagsjournalen kan du få et overblik over alle sagsposter.    
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sagsjournaler** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsjournaler**, og vælg derefter det relaterede link.
 2. Vælg en relevant journal, og vælg derefter handlingen **Sagsposter**.
 
 I vinduet **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.  

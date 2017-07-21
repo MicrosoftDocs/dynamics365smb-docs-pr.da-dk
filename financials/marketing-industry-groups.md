@@ -1,6 +1,6 @@
 ---
-title: "Opsætning af brancher for kontaktvirksomheder | Microsoft Docs"
-description: Beskriver brug af brancher sammen med kontakter i Financials
+title: Konfigurere brancher for kontaktvirksomheder | Microsoft Docs
+description: Beskriver, hvordan du definerer en branche og knytter den til en kontaktvirksomhed, for eksempel detailbranchen eller automobilbranchen.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,27 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 34b81ec1e92eea67af13c7a2dfe03bdb97c8c59c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7fef570e7e56e348a25ae660fa9248b529d0bfde
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-industry-groups-for-contact-companies"></a>Konfigurere brancher for kontaktvirksomheder
+# <a name="how-to-set-up-industry-groups-for-contact-companies"></a>Fremgangsmåde: Angive brancher for kontaktvirksomheder
 Du bruger brancher til at angive, hvilken branchetype dine kontakter tilhører, f.eks. detailbranchen eller automobilbranchen.
 
 Brug af brancher i kontakter er en totrinsproces. Først skal du definere branchekoden. Du behøver kun at udføre dette trin én gang for hver branche. Når du har en branchekode, kan du begynde at tildele koden til kontaktvirksomheder.
 
-**Bemærk**: Hvis du har planer om at synkronisere kontakter med kreditorer, debitorer eller bankkonti i andre dele af programmet, kan det være en god idé at definere forretningsrelationer for dem.
+> [!NOTE]  
+>   Hvis du har planer om at synkronisere kontakter med kreditorer, debitorer eller bankkonti i andre dele af programmet, kan det være en god idé at definere forretningsrelationer for dem.
 
 ## <a name="to-define-an-industry-group-code"></a>Sådan defineres en branchekode
 Koden for branchen definerer type eller kategori for gruppen, f.eks REKLAME for reklame, eller PRESSE for tv og radio. Du kan have flere branchekoder. Du definerer brancherne fra vinduet **Brancher**.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Brancher** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brancher**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**, og indtast en kode og beskrivelse. Du kan bruge op til 11 tegn til koden, som skal være en kombination af tal og bogstaver.
 
 ## <a name="AssignIndustryGroupContact"></a> Sådan tildeles brancher til en kontakt

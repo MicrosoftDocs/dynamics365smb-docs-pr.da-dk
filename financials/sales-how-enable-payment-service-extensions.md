@@ -1,5 +1,5 @@
 ---
-title: "Fremgangsmåde: Aktivere debitorbetalinger via betalingstjenester | Microsoft Docs"
+title: Aktivere debitorbetalinger via betalingstjenester | Microsoft Docs
 description: "Gør det lettere for kunderne at betale deres fakturaer ved at aktivere betalingstjenester."
 services: project-madeira
 documentationcenter: 
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/24/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 769fd885e5c6070f8a4f6c9082900ea7f5f6ab8d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 49e75c5f43b495bfc053c58b27e06feace62971c
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Når du har aktiveret en betalingstjeneste i [!INCLUDE[d365fin](includes/d365fin
 PayPal Payments Standard- og WorldPay Payments Standard-udvidelserne installeres i [!INCLUDE[d365fin](includes/d365fin_md.md)] og er klar til aktivering.  
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Sådan aktiverer du en betalingstjeneste i [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingstjenester** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingstjenester**, og vælg derefter det relaterede link.  
 2. I vinduet **Betalingstjenester** skal du vælge handlingen **Ny**.  
 3. Vælg betalingstjenesten, og luk derefter vinduet.  
 4. I vinduet **Betalingstjenester** skal du vælge handlingen **Konfigurer**.  
@@ -40,11 +40,12 @@ PayPal Payments Standard- og WorldPay Payments Standard-udvidelserne installeres
 2. Åbn den faktura, du vil betale med betalingstjenesten.  
 3. Vælg betalingstjenesten i feltet **Betalingstjeneste**.  
   
-    **Bemærk!** Feltet **Betalingstjeneste** er kun tilgængeligt, hvis du har aktiveret betalingstjenesten.  
+    > [!NOTE]  
+>   Feltet **Betalingstjeneste** er kun tilgængeligt, hvis du har aktiveret betalingstjenesten.  
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
-[Tilpasning af [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

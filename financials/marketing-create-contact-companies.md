@@ -1,6 +1,6 @@
 ---
 title: Oprette kontaktvirksomheder | Microsoft Docs
-description: Beskriver, hvordan du opretter kontaktvirksomheder i Financials
+ddescription: Outlines the tasks to create contact companies, including assigning relevant data about prospects and defining the business relationships you have with companies.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9f1bd42ec4da43a16e9ba3f2519385bf914c8307
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="create-contact-companies"></a>Oprette kontaktvirksomheder
+# <a name="creating-contact-companies"></a>Oprette kontaktvirksomheder
 Dit firma har regelmæssigt møder med mulige firmakunder, hvilket som regel udvikler sig til forretningsforhold. Oplysninger om en ny kontaktperson skal registreres, så kommunikationen kan fortsættes.
 
 Hvis du tilknytter flest mulige data om et bestemt firma, sikrer du, at kommunikationen bliver effektiv. Hvis du f.eks. tilknytter den relevante branche, sikrer du dig, at specifikke firmaer inkluderes i al relevant kommunikation.
@@ -34,10 +34,10 @@ Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer b
 | Opret en kontakt for en ny virksomhed, enten fra bunden eller fra en debitor, kreditor eller bankkonto. |[Fremgangsmåde: Oprette kontaktvirksomheder](marketing-how-create-contact-companies.md) |
 | Synkronisere oplysninger i kontakter med fælles oplysninger i debitorer, kreditorer og bankkonti |[Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | Beskrive forretningsrelationen til en virksomhedskontakt. |[Opsætning af forretningsrelationer i kontaktvirksomheder](marketing-business-relations.md) |
-| Placere en virksomhed i den relevante branchegruppe, f.eks. detail. |[Konfigurere brancher i kontaktvirksomheder](marketing-industry-groups.md) |
-| Definere de mailgrupper, som du kan bruge til at identificere grupper af kontakter, som skal modtage de samme oplysninger. |[Konfigurere mailgrupper i kontaktvirksomheder](marketing-mailing-groups.md) |
+| Placere en virksomhed i den relevante branchegruppe, f.eks. detail. |[Fremgangsmåde: Angive brancher i kontaktvirksomheder](marketing-industry-groups.md) |
+| Definere de mailgrupper, som du kan bruge til at identificere grupper af kontakter, som skal modtage de samme oplysninger. |[Fremgangsmåde: Angive mailgrupper i kontaktvirksomheder](marketing-mailing-groups.md) |
 | Definere en alternativ adresse for en kontakt. |[Fremgangsmåde: Tildele alternative adresser til en kontakt](marketing-how-assign-alternate-address.md) |
-| Tildele webkilder (søgemaskiner og websteder) til dine kontakter for at angive, hvor på internettet du har tænkt at søge oplysninger om kontakterne. |[Definere webkilder i kontakter](marketing-web-sources.md) |
+| Tildele webkilder (søgemaskiner og websteder) til dine kontakter for at angive, hvor på internettet du har tænkt at søge oplysninger om kontakterne. |[Fremgangsmåde: Definere webkilder i kontakter](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktpersoner](marketing-create-contact-persons.md)   

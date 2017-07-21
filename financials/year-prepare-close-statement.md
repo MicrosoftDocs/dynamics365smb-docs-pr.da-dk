@@ -1,6 +1,6 @@
 ---
-title: "Forberedelse af ultimoopgørelser | Microsoft Docs"
-description: "Giver en oversigt over de rapporter, der kan være nyttige, når du lukker året."
+title: "Oversigt over rapporter som hjælp til forberedelsen af regnskabsafslutning | Microsoft Docs"
+description: "Giver en oversigt over de rapporter, du kan bruge til at samle oplysninger til udarbejdelse af virksomhedens ultimoopgørelser ved regnskabsårets afslutning."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -35,9 +35,10 @@ Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne pro
 | Udskrive et kontoskema for at analysere tal i finanskonti eller sammenligne faktiske finansposter med finansbudgetposter. |Kontoskema |
 | Kontrollere, om debitor- og kreditorposter balancerer med tilsvarende finansposter. |Afstem deb. og kred. konti |
 
-Hvis du vil se en rapport, skal du i øverste højre hjørne vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), skrive navnet, som det vises i tabellen, og derefter vælge det relaterede link.
+Hvis du vil se en rapport, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), skrive navnet, som det vises i tabellen og derefter vælge det relaterede link.
 
 ## <a name="see-also"></a>Se også
 [Afslutning af år og perioder](year-close-years-periods.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Business Intelligence](bi.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata | Microsoft Docs"
-description: "Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata"
+title: Konfigurere konvertering af bankdata | Microsoft Docs
+description: "Du kan oprette bankkonti for at holde styr på transaktioner og importere eller eksportere bankfeeds, f.eks. Yodlee."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 84834fab38217fb161ed16e3215a34978a4c6137
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,13 +31,15 @@ Du kan også bruge tjenesten Envestnet Yodlee Bank Feeds i stedet for at indlæs
 
 Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen bankkonto og dine kreditorers bankkonti. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette bankkonti](bank-how-setup-bank-accounts.md).
 
-**Bemærk**: Tjenesten til konvertering af bankdata kan angive en grænse for antallet af linjer, der kan eksporteres i en fil. Du modtager en fejlmeddelelse, hvis grænsen er overskredet. Det anbefales, at bankkontofiler ikke overstiger 1000 linjer, da behandlingstiden i tjenesten til konvertering af bankdata ellers bliver væsentligt forøget.
+> [!NOTE]  
+>   Tjenesten til konvertering af bankdata kan angive en grænse for antallet af linjer, der kan eksporteres i en fil. Du modtager en fejlmeddelelse, hvis grænsen er overskredet. Det anbefales, at bankkontofiler ikke overstiger 1000 linjer, da behandlingstiden i tjenesten til konvertering af bankdata ellers bliver væsentligt forøget.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Sådan tilmeldes din virksomhed tjenesten til konvertering af bankdata.
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Opsætning af tjeneste til konvertering af bankdata** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af tjeneste til konvertering af bankdata**, og vælg derefter det relaterede link.  
 2. Vinduet **Opsætning af tjeneste til konvertering af bankdata** åbnes med tre felter udfyldt med relevante URL-adresser på udbyderen af tjenesten for omregning af bankdata.
 
-    **Bemærk**: I demodatabasen CRONUS International Ltd. er felterne Brugernavn og Adgangskode udfyldt på forhånd med demonstration af logonoplysninger, som du erstatter med din virksomheds faktiske oplysninger, når du tilmelder dig konverteringstjenesten for bankdata.
+    > [!NOTE]  
+>   I demodatabasen CRONUS International Ltd. er felterne Brugernavn og Adgangskode udfyldt på forhånd med demonstration af logonoplysninger, som du erstatter med din virksomheds faktiske oplysninger, når du tilmelder dig konverteringstjenesten for bankdata.
 3. I feltet **URL-adresse til tilmelding** skal du vælge browserknappen for at åbne serviceudbyderens tilmeldingsside.  
 4. Angiv brugernavnet og adgangskoden til din virksomheds abonnement på tjenesten på tilmeldingssiden af bankens dataserviceudbyder, og fuldfør derefter tilmeldingsprocessen som angivet af serviceudbyderen.
 
@@ -52,13 +54,14 @@ Det anbefales, at du beskytter de logonoplysninger, du angiver i vinduet **Opsæ
 2. Aktiver kryptering af dine data i vinduet **Administration af datakryptering**.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Sådan ser eller opdaterer du listen over aktuelt understøttede bankdataformater
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Opsætning af tjeneste til konvertering af bankdata** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af tjeneste til konvertering af bankdata**, og vælg derefter det relaterede link.
 2. I vinduet **Opsætning af tjeneste til konvertering af bankdata** skal du vælge handlingen **Banknavn - datakonverteringsoversigt** for at åbne listen over banknavne, der repræsenterer bankdataformater, der understøttes af konverteringstjenesten.
 3. På siden **Banknavn - datakonverteringsoversigt** skal du vælge handlingen **Opdater liste over banknavne**.
 
 Listen over bankdataformater, der understøttes af tjenesten til konvertering af bankdata, er nu opdateret. Dette er listen over banknavne, der er filtreret efter det land/område, som du kan vælge i feltet **Banknavn - datakonvertering** i vinduet **Bankkontokort**.
 
-**Bemærk**: Opdatering af understøttede bankdataformater opstår også, når du vælger eller angiver en værdi i feltet **Banknavn - datakonvertering** på bankkontoen.
+> [!NOTE]  
+>   Opdatering af understøttede bankdataformater opstår også, når du vælger eller angiver en værdi i feltet **Banknavn - datakonvertering** på bankkontoen.
 
 Du er nu tilmeldt tjenesten til konvertering af bankdata. Fortsæt med at afspejle tilmeldingsoplysningerne for hver bankkonto, der bruger tjenesten.
 

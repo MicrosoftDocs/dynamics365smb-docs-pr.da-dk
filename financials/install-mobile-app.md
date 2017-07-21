@@ -1,6 +1,6 @@
 ---
-title: "Få Dynamics 365 for Financials på din mobilenhed | Microsoft Docs"
-description: "Få appen til din mobilenhed."
+title: "Bruge Financials på din mobilenhed | Microsoft Docs"
+description: "Du kan se og redigere dine Financials-data på din telefon eller tablet."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8f81f266a796798c79b305896f501d84531d60a7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 

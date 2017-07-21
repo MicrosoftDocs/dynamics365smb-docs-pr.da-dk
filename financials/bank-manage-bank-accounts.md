@@ -1,6 +1,6 @@
 ---
 title: "Håndtere bankkonti | Microsoft Docs"
-description: "Håndtere bankkonti"
+description: Normalt skal du afstemme bankposter i Finans med de relaterede banktransaktioner i dine bankkonti.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 29dc32cd4bc1f745a576c6265bd7264e8108276a
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dcefa921d7e8b901d906085e6bce01d6e0aa6ac4
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

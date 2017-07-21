@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Arbejde med GIFI-koder i Canada | Microsoft Docs"
-description: "Få mere at vide om GIFI-koder"
+title: GIFI-koder i Canada | Microsoft Docs
+Description: "I Canada kan du oprette GIFI-koder (General Index of Financial Information) og knytte dem til bogføringskonti"
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: local
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 03316fe6ad7a63c79a88f540a9c49f61450922f4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: d5211f5c8265e572ff1d1a809b1046ce89f8c1e6
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,32 +32,33 @@ Du kan eksportere saldooplysninger ved hjælp af GIFI-kode og gemme den eksporte
 ## <a name="to-set-up-gifi-codes"></a>Sådan defineres GIFI-koder
 I Dynamics NAV skal du angive GIFI-koder for finanskonti, rapporter, balancer, indtægtsopgørelser og opgørelser over overførte resultater.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **GIFI-koder** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **GIFI-koder**, og vælg derefter det relaterede link.
 2. I vinduet **GIFI-koder** skal du vælge handlingen **Ny**.
 3. Opret GIFI-koder ved at udfylde felterne. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-associate-gifi-codes-with-gl-accounts"></a>Sådan knyttes GIFI-koder til finanskonti
 Hvis du vil rapportere finansielle oplysninger via GIFI-kode, skal hver GIFI-kode være knyttet til de relevante konti i kontoplanen.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **kontoplan** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoplan**, og vælg derefter det relaterede link.
 2. Vælg en relevant finanskonto, og vælg derefter handlingen **Rediger**.
 3. I oversigtspanelet **Omkostningsregnskab** skal du i feltet **GIFI-kode** vælge den relevante GIFI-kode.
 
 ## <a name="to-view-account-balances-using-the-gifi-code-report"></a>Sådan vises kontosaldi ved hjælp af GIFI-koderapporten
 Du kan gennemse dine kontosaldi via GIFI-kode ved hjælp af rapporten **Kontosaldi efter GIFI-kode**.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Kontosaldi efter GIFI-kode** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **GIFI-koder**, og vælg derefter det relaterede link.
 2. Angiv, hvad der skal medtages i rapporten, ved at udfylde felterne. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vælg **Udskriv** eller **Vis udskrift**.
 
 ## <a name="to-export-balance-information-using-gifi-codes"></a>Sådan udlæses saldooplysninger med GIFI-koder
 Du kan eksportere saldooplysninger ved hjælp af GIFI-koder og gemme den eksporterede fil i Excel. Du kan ændre, gemme eller slette filen. Filen kan bruge filen til at overføre oplysninger til dit skattebehandlingsprogram.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Eksporter GIFI-oplysninger til Excel** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **GIFI-koder**, og vælg derefter det relaterede link.
 2. Angiv, hvad der skal udlæses til Excel, ved at udfylde felterne. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vælg knappen **OK**.
 
-**Bemærk:** Excel-filen har følgende egenskaber:
+> [!NOTE]  
+>   Excel-filen har følgende egenskaber:
 
 * Saldoen afrundes til nærmeste procent, men celleværdien vedligeholder samme procentsats som i finansbogholderiet.
 * Negative tal vises som positive tal i parentes. Derfor repræsenteres -123 som (123).

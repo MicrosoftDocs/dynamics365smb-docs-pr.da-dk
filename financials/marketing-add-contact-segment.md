@@ -1,6 +1,6 @@
 ---
-title: "Tilføje kontakter til målgrupper | Microsoft Docs"
-description: "Beskriver, hvordan du føjer kontakter til målgrupper i Financials"
+title: "Angive kontakterne i en målgruppe | Microsoft Docs"
+description: "Når du har oprettet en målgruppe, kan du føje kontakter til målgruppen, f.eks. som en del af en marketingkampagne, der er henvendt til bestemte kunder."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d9e72fc4f6f83534cabd36cfc66cfcf856a8b0d2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne i vinduet **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Sådan tilføjes en kontakt til en målgruppe
-1. På startsiden skal du vælge **Aktive målgrupper**. Eller i øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Målgrupper** og derefter vælge det relaterede link.  
+1. På startsiden skal du vælge **Aktive målgrupper**. Du kan også vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Målgrupper** og derefter vælge det relaterede link.  
 2. Vælg målgruppen, og vælg derefter handlingen **Tilføj kontakter**. Kørselsvinduet **Tilføj kontakter** åbnes.
 3. I sektionen **Kontakt** skal du indstille filtre for at angive de oplysninger, du vil vælge kontakter efter.
 

@@ -1,6 +1,6 @@
 ---
 title: Velkommen | Microsoft Docs
-description: Bliv klar til at handle.
+description: "Beskriver de assisterede opsætningsvejledninger, videoer, Hjælp-emner og sider og vinduer, der hjælper dig i gang med at bruge Dynamics 365 for Financials."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe2a7eb24acf0830a8ebaadafa695e7a34023198
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
@@ -25,7 +25,8 @@ For at blive klar til at handle kan gå til vinduet **Virksomhedshjælp**, hvor 
 
 På startsiden nederst i navigationsruden kan du finde menuen **Installation og udvidelser** menu. Udvid knappen **Start** for at få vist navigationsruden. Her kan du få adgang til en oversigt over assisteret opsætning, der kan hjælpe dig i gang. Når du har overført data som kreditorer, debitorer og varer fra dit eksisterende økonomisystem, er du klar til at begynde. Men afhængigt af dine behov skal du overveje, om den assisterede opsætning kan hjælpe dig. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningsvinduer, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-**Bemærk!** Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Pakke**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger i [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Pakke**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 I vinduet **Assisteret opsætning** kan du finde følgende i **Basis**-oplevelsen:
 

@@ -1,6 +1,6 @@
 ---
 title: "Opsætning af bogføringsgrupper | Microsoft Docs"
-description: "Indeholder en oversigt over bogføringsgrupper"
+description: "Oversigt over de bogføringsgrupper, du kan bruge til at spare tid og undgå fejl, når du bogfører transaktioner."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79018546484ff3bb8965089a3554d69bec219304
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="posting-group-setups"></a>Opsætning af bogføringsgrupper
+# <a name="setting-up-posting-groups"></a>Konfigurere bogføringsgrupper
 Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. De sparer tid, og du undgå nemmere fejl, når du bogfører transaktioner. Transaktionsværdier går til de konti, der er angivet i bogføringsgruppen for den pågældende enhed. Det eneste krav er, at du har en kontoplan. Du kan finde flere oplysninger i [Konfigurere kontoplanen](finance-setup-chart-accounts.md).  
 
 Bogføringsgrupper inddeles i tre hovedgrupper:  

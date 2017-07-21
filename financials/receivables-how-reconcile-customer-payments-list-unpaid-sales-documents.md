@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Udligne debitorbetalinger manuelt på en liste over ubetalte salgsdokumenter | Microsoft Docs"
-description: "Fremgangsmåde: Afstemme debitorbetalinger manuelt på en liste over ubetalte salgsdokumenter"
+title: Udligne betalinger til ubetalte salgsdokumenter | Microsoft Docs
+description: "Du kan udligne beløb, der er betalt af debitorer, til relaterede salgsdokumenter og bogføre betalingen for at opdatere debitor-, finans- og bankposter."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,20 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 03/29/2017
+ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c60b4fd5ef58740e4ac518a2538873353554fd87
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 8ea27f21b2e4acc25b4acc6b5ba15580ca5a1997
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Fremgangsmåde: Afstemme debitorbetalinger manuelt på en liste over ubetalte salgsdokumenter
 Når debitorerne har foretaget betalinger til din elektroniske bankkonto, skal du udligne hvert indbetalte beløb med det relaterede salgsbilag og derefter bogføre betalingen for at opdatere posterne for debitor, finans og bankkonto.
 
-**Bemærk**: Du kan udføre de samme opgaver, herunder kreditorbetalinger, i vinduet **Betalingsudligningskladde** ved hjælp af funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   Du kan udføre de samme opgaver, herunder kreditorbetalinger, i vinduet **Betalingsudligningskladde** ved hjælp af funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
 Vinduet **Betalingsregistrering** er beregnet til at understøtte dig i opgaver, der involverer afstemning af interne konti ved at bruge faktiske tal til at sikre, at betalinger opkræves effektivt fra debitorer. Dette værktøj til betalingsbehandling gør det muligt hurtigt at kontrollere og bogføre individuelle betalinger eller engangsbetalinger, behandle fratrukne betalinger og finde ubetalte bilag, hvortil der udføres betaling.
 
@@ -31,13 +32,13 @@ Betalinger til forskellige debitorer, som har forskellige betalingsdatoer, skal 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Sådan konfigurerer du betalingsregistreringskladden
 Fordi du kan bogføre forskellige typer betaling til forskellige modkonti, skal du vælge en modkonto i vinduet **Opsætning af betalingsregistrering**, før du starte behandlingen af debitorbetalinger. Hvis du altid bogfører på den samme modkonto, kan du angive den pågældende konto som standard og undgå dette trin, hver gang du åbner vinduet **Betalingsregistrering**.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Opsætning af betalingsregistrering** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af betalingsregistrering**, vælg og derefter det relaterede link.
 
     Du kan også vælge handlingen **Godkendere** i vinduet **Betalingsregistrering**.    
 2. Udfyld felterne i vinduet **Opsætning af betalingsregistrering**. Vælg et felt for at læse en kort beskrivelse af det eller et link til relaterede oplysninger.  
 
 ## <a name="to-reconcile-payments-individually"></a>Sådan afstemmes betalinger manuelt
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingsregistrering** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsregistrering**, vælg og derefter det relaterede link.  
 2. Marker afkrydsningsfeltet **Betaling foretaget** på den linje, der repræsenterer det bogførte bilag, hvortil der er foretaget en betaling.
 
     Hvis afkrydsningsfeltet **Udfyld Dato for modtaget automatisk** er markeret i vinduet **Opsætning af betalingsregistrering**, er arbejdsdatoen angivet i feltet **Dato for modtaget**.  
@@ -53,18 +54,21 @@ De angivne betalingsoplysninger bogføres for bilag, der repræsenteres af linje
 Betalingsposter bogføres til finans, bank og debitorkonti. Hver betaling anvendes på det relevante bogførte salgsdokument.  
 
 ## <a name="to-reconcile-lump-payments"></a>Sådan afstemmer du engangsbetalinger
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingsregistrering** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsregistrering**, vælg og derefter det relaterede link.
 2. Marker afkrydsningsfeltet **Betaling foretaget** på de linjer, der repræsenterer de bogførte bilag til den samme debitor, som engangsbeløbet blev betalt til.  
 
-    **Bemærk**: Debitoren i feltet **Navn** skal være den samme i alle linjer, der skal bogføres som engangsbetaling.  
+    > [!NOTE]  
+>   Debitoren i feltet **Navn** skal være den samme i alle linjer, der skal bogføres som engangsbetaling.  
 
     Hvis afkrydsningsfeltet **Udfyld Dato for modtaget automatisk** er markeret i vinduet **Opsætning af betalingsregistrering**, er arbejdsdatoen angivet i feltet **Dato for modtaget**.  
 3. I feltet **Dato for modtaget** kan du indtaste den dato, hvor betalingen blev foretaget. Denne dato kan adskille sig fra arbejdsdatoen.  
 
-    **Bemærk**: Denne dato skal være ens på alle linjer, der skal bogføres som engangsbetaling.  
+    > [!NOTE]  
+>   Denne dato skal være ens på alle linjer, der skal bogføres som engangsbetaling.  
 4. I feltet **Beløb modtaget** kan du indtaste beløb på flere linjer, der i alt er lig med engangsbetalingsbeløbet.  
 
-    **Tip**: Prøv at bogføre så mange fulde betalinger som muligt med engangsbeløbet. Indtast beløb, der er det samme som beløbet i feltet **Restbeløb** på så mange linjer som muligt.  
+    > [!TIP]  
+>   Prøv at bogføre så mange fulde betalinger som muligt med engangsbeløbet. Indtast beløb, der er det samme som beløbet i feltet **Restbeløb** på så mange linjer som muligt.  
 5. Gentag trin 2-4 for andre linjer, der repræsenterer bogførte dokumenter for den samme debitor, hvortil der er foretaget en engangsbetaling.  
 6. Vælg handlingen **Bogfør som engangsbetaling**. De angivne betalingsoplysninger bogføres for bilag, der repræsenteres af linjer, hvor afkrydsningsfeltet **Betaling foretaget** er markeret.  
 
@@ -85,7 +89,7 @@ I følgende fremgangsmåder beskrives fire forskellige måder til at bogføre fr
 * Betalingsbeløbet er højere end det resterende fratrukne beløb. Du bogfører betalingerne, som de er. Kun det resterende beløb bogføres. Det ekstra beløb krediteres til debitoren.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Sådan behandler du et betalingsbeløb, der er lig med det fratrukne beløb, og hvor betalingsdatoen ligger før rabatdatoen
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingsregistrering** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsregistrering**, vælg og derefter det relaterede link.  
 2. Angiv betalingsbeløbet i feltet **Beløb modtaget**. Beløbet er lig med beløbet i feltet **Rest. bel. efter rabat**.
 
     Afkrydsningsfeltet **Betaling foretaget** markeres automatisk, og feltet **Dato for modtaget** udfyldes med arbejdsdatoen.    
@@ -94,13 +98,14 @@ I følgende fremgangsmåder beskrives fire forskellige måder til at bogføre fr
 5. Vælg handlingen **Bogfør betalinger** for at bogføre hele betalingen til finans-, bank- og debitorkonti.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Sådan behandler du et betalingsbeløb, der er lig med det fratrukne beløb, men hvor betalingsdatoen ligger efter rabatdatoen
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingsregistrering** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsregistrering**, vælg og derefter det relaterede link.  
 2. Angiv betalingsbeløbet i feltet **Beløb modtaget**. Beløbet er lig med beløbet i feltet **Rest. bel. efter rabat**.
 
     Afkrydsningsfeltet **Betaling foretaget** markeres automatisk, og feltet **Dato for modtaget** udfyldes med arbejdsdatoen.
 3. I feltet **Dato for modtaget** kan du indtaste en betalingsdato, som ligger efter datoen i feltet **Kont.rabatdato**. Datofelter ændres til rød skrift, og en fejlmeddelelse vises nederst i vinduet.
 
-    **Tip!** Hvis du vil gøre en undtagelse og tildele rabatten, selvom betalingen falder for sent, skal du følge disse trin:
+    > [!TIP]  
+>   Hvis du vil gøre en undtagelse og tildele rabatten, selvom betalingen falder for sent, skal du følge disse trin:
 4. Vælg handlingen **Detaljer**.  
 5. I vinduet **Oplysninger om betalingsregistrering** i feltet **Kont.rabatdato** i oversigtspanelet **Kontantrabat** skal du indtaste en dato, der ligger efter datoen i feltet **Dato for modtaget** i vinduet **Betalingsregistrering**.  
 
@@ -111,7 +116,7 @@ I følgende fremgangsmåder beskrives fire forskellige måder til at bogføre fr
 Det relaterede bilag forbliver åbent.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Sådan behandler du en betaling, der er lavere end det resterende fratrukne beløb
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingsregistrering** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsregistrering**, vælg og derefter det relaterede link.  
 2. Angiv betalingsbeløbet i feltet **Beløb modtaget**. Beløbet er lavere end beløbet i feltet **Rest. bel. efter rabat**.
 
     Afkrydsningsfeltet **Betaling foretaget** markeres automatisk, og feltet **Dato for modtaget** udfyldes med arbejdsdatoen.  
@@ -122,7 +127,7 @@ Det relaterede bilag forbliver åbent.
 Det relaterede bilag forbliver åbent.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Sådan behandler du en betaling, der er højere end det resterende fratrukne beløb
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingsregistrering** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsregistrering**, vælg og derefter det relaterede link.  
 2. Angiv betalingsbeløbet i feltet **Beløb modtaget**. Beløbet er højere end beløbet i feltet **Rest. bel. efter rabat**.  
 
     Afkrydsningsfeltet **Betaling foretaget** markeres automatisk, og feltet **Dato for modtaget** udfyldes med arbejdsdatoen.    
@@ -144,11 +149,12 @@ I vinduet **Dokumentsøgning** kan du søge efter bilag, der ikke er fuldstændi
 
 Den følgende procedure beskriver, hvordan du finder et bestemt dokument ved at bruge begge søgekriterier.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingsregistrering** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsregistrering**, vælg og derefter det relaterede link.
 2. Placer markøren på en linje, og vælg handlingen **Søg i dokumenter**.
 3. I vinduet **Dokumentsøgning** skal du indtaste en værdi i feltet **Dokumentnr.**. .  
 
-    **Bemærk**: Den værdi, du indtaster i dette felt, er omsluttet af skjulte jokertegn. Dette betyder, at funktionen søger efter alle dokumentnumre, der indeholder den angivne værdi.    
+    > [!NOTE]  
+>   Den værdi, du indtaster i dette felt, er omsluttet af skjulte jokertegn. Dette betyder, at funktionen søger efter alle dokumentnumre, der indeholder den angivne værdi.    
 4. I feltet **Beløb** skal du indtaste det specifikke beløb på det bilag, du ønsker at finde.  
 5. I feltet **Tolerancebeløb %** skal du angive en procentværdi for at angive det beløbsinterval, som du vil søge i, for at finde det åbne bilag.  
 
@@ -164,14 +170,14 @@ Hvis en betaling i banken ikke repræsenteres af nogen bilag i [!INCLUDE[d365fin
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Sådan registrerer eller bogfører du en betaling uden et relateret dokument
 Hvis en betaling i banken ikke repræsenteres af nogen bilag i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åbne en finanskladdelinje, som er udfyldt på forhånd, i vinduet **Betalingsregistrering** for at bogføre betalingen direkte på modkontoen uden at knytte betalingen til et bilag. Du kan også registrere betalingen i kladden, indtil den betalingens oprindelse er afklaret.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Betalingsregistrering** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsregistrering**, vælg og derefter det relaterede link.  
 
 Fortsæt ved at registrere en udokumenteret betaling.  
 
 1. Vælg handlingen **Finanskladde**.  
 
     Vinduet **Finanskladde** åbnes med en linje med, der er udfyldt på forhånd med modkontoen for den kladde, der er konfigureret i vinduet **Opsætning af betalingsregistrering**.  
-2. Udfyld resten af felterne på finanskladdelinjen, f.eks. beløbet og debitornummeret eller andre oplysninger fra bankens kontoudtog. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med finanskladder](ui-work-general-journals.md).  
+2. Udfyld resten af felterne på finanskladdelinjen, f.eks. beløbet og debitornummeret eller andre oplysninger fra bankens kontoudtog. Du kan finde flere oplysninger i [Fremgangsmåde: Bogføre transaktioner direkte i finansregnskabet](finance-how-post-transactions-directly.md).  
 
 Du kan bogføre kladdelinjen for at opdatere det samlede beløb på modkontoen. Du kan også lade kladdelinjen ikke-bogført og måske knytte den til en note, om at betalingen skal bruge flere analyser.  
 

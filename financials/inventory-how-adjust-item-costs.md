@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Regulere varepriser manuelt | Microsoft Docs"
-description: "Fremgangsmåde: Regulere varepriser"
+title: Regulere varepriser manuelt | Microsoft Docs
+description: "Du kan regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 00b5ac40bd0d3df346618b57173df67daba6c7fc
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a1f682b60b7b9ae402c27093f13aa3db2368ed5b
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,19 +27,22 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] reguleres varepriser automatisk, h
 
 Du kan også bruge en funktion til at regulere omkostningerne for en eller flere varer manuelt. Dette er nyttigt, når du f.eks. ved, at varepriser er ændret af andre årsager end varetransaktioner.
 
-**Bemærk**: Varekostpriserne reguleres udelukkende af kostmetoden FIFO. Det betyder, at en vares kostpris er den faktiske værdi af alle modtagelser af varen, og lagerværdien vurderes ud fra den forudsætning, at de første varer, der lægges på lager, bliver solgt først.
+Varepriser reguleres efter FIFO eller gennemsnitlig kostmetode, afhængigt af dit valg i den assisterede opsætning **Konfigurer min virksomhed**. Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).  
+
+Hvis du bruger kostmetoden FIFO, er en vares kostpris er den faktiske værdi af alle modtagelser af varen. Lager vurderes ud fra den forudsætning, at de første varer, der lægges på lager, bliver solgt først.
+
+Hvis du bruger kostmetoden Gennemsnit, beregnes en vares kostpris som den gennemsnitlige kostpris på hvert enkelt tidspunkt efter et køb. Lager værdiansættes ud fra den forudsætning, at alle lagerbeholdninger sælges samtidig.
 
 Funktionen til regulering af kostpriser behandler kun de værdiposter, der endnu ikke er reguleret. Hvis der opstår en situation, hvor funktionen skal overføre ændrede indgående omkostninger til tilknyttede udgående poster, oprettes nye justeringsværdiposter, som er baseret på oplysningerne i de oprindelige værdiposter, men som indeholder justeringsbeløbet. Omkostningsreguleringsfunktionen bruger bogføringsdatoen for den oprindelige værdipost i justeringsposten, medmindre den dato er inden for en lukket lagerperiode. Hvis det er tilfældet, bruges startdatoen for den næste åbne lagerperiode. Hvis der ikke anvendes lagerperioder, er det datoen i feltet **Bogf. tilladt fra** i vinduet **Regnskabsopsætning**, der definerer, hvornår reguleringsposten bogføres.
 
-Ændringer i lagerværdien fra handel afstemmes automatisk med dine finansielle regnskaber ved bogføring af varetransaktioner. Du kan finde flere oplysninger under [Avanceret: Lagerafstemning](advanced-inventory-reconciliation.md).
+Ændringer i lagerværdien fra handel afstemmes automatisk med dine finansielle regnskaber ved bogføring af varetransaktioner. Du kan finde flere oplysninger i afsnittet "Lagerafstemning" i [Lagerbeholdning](inventory-manage-inventory.md).
 
 ## <a name="to-adjust-item-costs-manually"></a>Sådan reguleres varekostpriser manuelt
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Reguler kostværdi - vareposter** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Juster kostpris - vareposter**, og vælg derefter det relaterede link.
 2. I vinduet **Reguler kostværdi - vareposter** skal du angive de varer, hvis omkostninger skal reguleres.
 3. Vælg knappen **OK**.
 
 ## <a name="see-also"></a>Se også
-[Avanceret: Lagerafstemning](advanced-inventory-reconciliation.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  

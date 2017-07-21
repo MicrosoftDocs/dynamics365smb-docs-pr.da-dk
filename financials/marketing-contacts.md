@@ -1,6 +1,6 @@
 ---
-title: Oprette og administrere kontakter | Microsoft Docs
-description: Beskriver, hvordan du opretter og administrerer kontakter i Financials
+title: Oprette og administrere virksomhedskontakter | Microsoft Docs
+description: Du kan oprette alle eksterne enheder, du har forretningsforhold til (f.eks. kundeemner, debitorer, kreditorer og konsulenter) som kontaktpersoner.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4042cf76b6be433ad0a9934d0d1651d1df7ee433
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,11 +27,11 @@ Alle eksterne enheder, som du har forretningsforhold til (f.eks. kunder, mulige 
 
 Du kan registrere oplysninger baseret på et firma eller en person i det pågældende firma. Du kan også oprette en uafhængig kontaktperson for personer, som ikke arbejder for et bestemt firma, men som arbejder selvstændigt eller freelance.
 
-Tabellen herunder indeholder en serie opgaver, der er knyttet til de emner, hvor de beskrives. Disse opgaver vises i den raækkefølge, som de generelt udføres.
+Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. Disse opgaver vises i den raækkefølge, som de generelt udføres.
 
 | Hvis du vil | Se |
 | --- | --- |
-| Konfigurer administration af kontaktpersoner før tilføjelse af kontaktpersoner. |[Forberede til oprettelse af kontaktpersoner](marketing-setup-contacts.md) |
+| Konfigurer administration af kontaktpersoner før tilføjelse af kontaktpersoner. |[Forberede oprettelse af kontakter](marketing-setup-contacts.md) |
 | Oprette et kontaktkort for hver ny virksomhed, du har interaktion med, f.eks. en kunde eller en leverandør. |[Oprette kontaktvirksomheder](marketing-create-contact-companies.md) |
 | Oprette et kontaktkort for hver kontaktperson, som arbejder for de virksomheder, du interagerer med. |[Oprette kontaktpersoner](marketing-create-contact-persons.md) |
 

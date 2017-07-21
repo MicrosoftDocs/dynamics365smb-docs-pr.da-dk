@@ -1,6 +1,6 @@
 ---
-title: "Administrere målgrupper | Microsoft Docs"
-description: "Beskriver målgrupper for kontakter i Financials"
+title: "Administrere målgrupper og vælge kontakter, der skal medtages | Microsoft Docs"
+description: "Beskriver de opgaver, du skal udføre for at oprette en målgruppe og vælge en gruppe kontaktpersoner ud fra bestemte kriterier, f.eks. kontaktpersoner i en bestemt branche, du vil målrette din henvendelse til."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 430199404ebab6d72f2f7748bb90e5ed3cd223c4
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,7 +34,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | --- | --- |
 | Oprette målgrupper, som gør det muligt for dig at vælge en gruppe kontakter. F.eks., direct mail. |[Fremgangsmåde: Oprette målgrupper](marketing-how-create-segment.md) |
 | Administrere de kontakter, der er tildelt til målgrupper. |[Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md) |
-| Få mere at vide om brugen af interaktioner og målgrupper, herunder logføring. |[Interaktion og målgrupper](marketing-interaction-segments.md) |
+| Få mere at vide om brugen af interaktioner og målgrupper, herunder logføring. |[Administrere interaktion og målgrupper](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Se også
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  

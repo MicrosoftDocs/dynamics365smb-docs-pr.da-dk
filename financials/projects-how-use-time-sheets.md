@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Bruge timesedler for sager | Microsoft Docs"
-description: Beskriver, hvordan du bruger timesedler til at administrere projekter.
+title: Arbejde med timesedler for sager | Microsoft Docs
+description: "Beskriver, hvordan du opretter en timeseddel for en sag, kopierer planlægningslinjer til den, angive arbejdstyper, udfylde timesedlen og sender den til godkendelse."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1796436b964f5e1e4220f885e97713848d94bdfb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,16 +29,18 @@ Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den rele
 
 Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler. Du kan finde flere oplysninger i [Fremgangsmåde: Angive timesedler](projects-how-setup-time-sheets.md).
 
-**Bemærk**: Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger i [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-create-a-time-sheet"></a>Sådan opretter du en timeseddel
 Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Timesedler** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.
 2. I vinduet **Timeseddeloversigt** skal du vælge handlingen **Opret timesedler**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Bemærk**: Felterne **Brug timeseddel** og **Bruger-id på timeseddelejer** skal udfyldes på kortet for ressourcen for timesedlen.
+> [!NOTE]  
+>   Felterne **Brug timeseddel** og **Bruger-id for timeseddelejer** skal udfyldes på kortet for ressourcen for timesedlen.
 
 1. Vælg knappen **OK**.  
 
@@ -47,14 +49,14 @@ Du kan se de timesedler, du har oprettet, i vinduet **Timeseddeloversigt**.
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Sådan kopieres sagsplanlægningslinjer til en timeseddel
 Følgende procedure beskriver, hvordan du hurtigt føjer sagsplanlægningslinjer til en timeseddel.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Timesedler** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.  
 2. I vinduet **Timeseddeloversigt** skal du vælge en timeseddel for den relevante periode og derefter klikke på handlingen **Rediger timeseddel**.  
 3. Vælg handlingen **Opret linjer fra sagsplanlægning**. Alle sagsplanlægningslinjer i timeseddeltidsperioden kopieres til timesedlen for personen eller maskinen i feltet **Ressourcenr.** på timesedlen.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Sådan definerer du arbejdstyper og tilføjer en til en timeseddel
 Du kan definere arbejdstypen for alle timeseddellinjer for sager. På denne måde kan du tilføje oplysninger, du behøver for at fakturere debitoren for forskellige typer arbejde.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Timesedler** og derefter vælge det relaterede link.   
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.   
 2. Åbn den relevante timeseddel.
 3. Vælg feltet **Beskrivelse**.  
 4. I vinduet **Sagsdetaljer for timeseddellinje** skal du vælge feltet **Arbejdstypekode** og vælge en arbejdstype på listen, f.eks **Miles**.  
@@ -65,7 +67,7 @@ Du kan definere arbejdstypen for alle timeseddellinjer for sager. På denne måd
 ## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Sådan genbruges timeseddellinjer i andre timesedler
 Hvis dine timeseddeloplysninger forbliver de samme fra tidsperiode til tidsperiode, kan du spare tid ved at kopiere linjerne fra den forrige tidsperiode. Derefter skal du kun angive tidsforbruget for den nye periode.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Timesedler** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.  
 2. Åbn timesedlen for en period efter perioden for en eksisterende timeseddel med linjer.  
 3. Vælg handlingen **Kopier linjer fra en tidligere timeseddel**.
 
@@ -74,18 +76,21 @@ Linjerne kopieres, herunder oplysninger som type og beskrivelse. Hvis linjen f.e
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Sådan udfyldes en timeseddels linjer og sendes til godkendelse
 Registrering af timesedler spores i timer, standardbasisenheden for ressourcer. En timeseddel har som standard almindelige arbejdsdage fra mandag til fredag.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Timesedler** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.  
 2. Vælg en timeseddel for den relevante periode, og vælg derefter handlingen **Rediger timeseddel**.  
 3. Udfyld felterne på en linje efter behov. Angiv det antal timer, der bruges af ressourcen på hver ugedag.
 
-    **Tip**: Du kan se summen af timeseddeltimer, du har angivet i faktaboksen **Faktisk/budgetteret oversigt**.  
+    > [!TIP]  
+>   Du kan se summen af timeseddeltimer, du har angivet i faktaboksen **Faktisk/budgetteret oversigt**.  
 4. Gentag trin 3 for andre arbejdstyper, der udføres af ressourcen.
 5. Vælg handlingen **Send**, og vælg derefter handlingen **Alle åbne linjer** for at sende alle linjer eller handlingen **Kun valgte linjer** for kun at sende de linjer, der er valgt i vinduet **Timeseddel**.  
 
-    **Bemærk**: Du kan dog kun sende timeseddellinjer, som du har angivet tidspunkter for.  
+    > [!NOTE]  
+>   Du kan dog kun sende timeseddellinjer, som du har angivet tidspunkter for.  
 6. Hvis du vil ændre oplysningerne på en linje, der er indstillet til **Sendt**, skal du markere linjen og derefter vælge handlingen **Åbn igen**.
 
-    **Bemærk**: En leder kan afvise en timeseddellinje, der er sendt til godkendelse. Hvis en linje har statussen **Afvist**, kan du foretage ændringer i linjen og derefter vælge **Send** igen.  
+    > [!NOTE]  
+>   En leder kan afvise en timeseddellinje, der er sendt til godkendelse. Hvis en linje har statussen **Afvist**, kan du foretage ændringer i linjen og derefter vælge **Send** igen.  
 7. Vælg knappen **OK**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Sådan godkendes eller afvises en timeseddel
@@ -94,28 +99,30 @@ En timeseddel skal sendes til godkendelse, før den kan bruges. Du kan godkende 
 * En timeseddeladministrator kan godkende enhver timeseddel.
 * Den person, der er angivet i feltet **Bruger-id for timeseddelgodkender** på et ressourcekort, kan godkende timesedler for den pågældende ressource. Du kan finde flere oplysninger i [Fremgangsmåde: Angive timesedler](projects-how-setup-time-sheets.md).
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Leders timesedler** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leders timesedler**, og vælg derefter det relaterede link.
 2. Vælg en timeseddel på listen.  
 3. I vinduet **Timeseddel** skal du vælge handlingen **Godkend** og derefter vælge handlingen **Alle sendte linjer** for at godkende alle linjer eller handlingen **Kun valgte linjer** for kun at godkende de linjer, der er valgt i vinduet **Timeseddel**.
 4. Vælg knappen **OK**.  
 5. Du kan også vælge handlingen **Afvis** og følge trin 4 til 5.  
 
-**Tip**: Brug faktaboksene **Timeseddelstatus** og **Faktisk/budgetteret oversigt** for at få et overblik over timeseddeloplysninger.
+> [!TIP]  
+>   Brug faktaboksene **Timeseddelstatus** og **Faktisk/budgetteret oversigt** for at få et overblik over timeseddeloplysninger.
 
 Når du har godkendt eller afvist en timeseddel, kan den ikke redigeres, medmindre den er blevet genåbnet. Følgende fremgangsmåde beskriver, hvordan du genåbner en godkendt eller afvist timeseddel.
 
 ## <a name="to-reopen-a-time-sheet"></a>Sådan genåbnes en timeseddel
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Leders timesedler** eller **Timesedler** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leders timesedler** eller **Timesedler**, og vælg derefter det relaterede link.
 2. Åbn en timeseddel på listen.  
 
-    **Bemærk**: Du kan kun åbne linjer med statussen **Godkend**. Du kan ikke genåbne linjer med statussen **Afvist**. Du kan ikke genåbne en timeseddel, hvis den er blevet bogført.  
+    > [!NOTE]  
+>   Du kan kun åbne linjer med statussen **Godkendt**. Du kan ikke genåbne linjer med statussen **Afvist**. Du kan ikke genåbne en timeseddel, hvis den er blevet bogført.  
 3. I vinduet **Timeseddel** skal du vælge handlingen **Åbn igen** og derefter vælge handlingen **Alle sendte linjer** for at genåbne alle linjer eller handlingen **Kun valgte linjer** for kun at genåbne de linjer, der er valgt i vinduet **Timeseddel**.
 4. Vælg knappen **OK**. Status for timeseddellinjerne er ændringer for **Sendt**.  
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Sådan bogfører du timeseddellinjer i en ressourcekladde
 Når du har godkendt timeseddelposter for en ressource, kan du bogføre dem i den relevante ressourcekladde.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Ressourcekladde** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Foreslå linjer fra timesedler**.  
 3. Udfyld felterne efter behov.  
 4. Vælg knappen **OK**. Der oprettes poster for forbrug i ressourcekladden, hvor du kan ændre oplysningerne efter behov.  
@@ -125,23 +132,25 @@ Når du har godkendt timeseddelposter for en ressource, kan du bogføre dem i de
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Sådan bogfører du timeseddellinjer i en sagskladde
 Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sagskladde** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladde**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Foreslå linjer fra timesedler**.  
 3. Udfyld felterne efter behov.  
 4. Vælg knappen **OK**. Der oprettes poster for forbrug i sagskladden, hvor du kan ændre oplysningerne efter behov.  
 
-    **Bemærk**: Oplysninger om arbejdstype, og om arbejdet er fakturerbart, kopieres fra timeseddellinjen. Du kan om nødvendigt reducere antallet af timer og foretage en delvis bogføring. Hvis du reducerer antallet, sker der følgende: Næste gang, du vælger handlingen **Foreslå linjer fra timesedler**, vil den linje, der oprettes, indeholde den resterende mængde timer.  
+    > [!NOTE]  
+>   Oplysninger om arbejdstype, og om arbejdet er fakturerbart, kopieres fra timeseddellinjen. Du kan om nødvendigt reducere antallet af timer og foretage en delvis bogføring. Hvis du reducerer antallet, sker der følgende: Næste gang, du vælger handlingen **Foreslå linjer fra timesedler**, vil den linje, der oprettes, indeholde den resterende mængde timer.  
 5. Vælg handlingen **Bogfør**.  
 6. Vælg handlingen **Poster** for at bekræfte posteringen. Vinduet **Sagsposter** åbnes og viser resultatet for bogføring af ressourcekladden.
 
 ## <a name="to-archive-time-sheets"></a>Sådan arkiveres timesedler
 Når du har bogført timesedler, kan du arkivere dem til fremtidig reference. Alle linjer på timesedler skal bogføres, før en timeseddel kan arkiveres.
 
-**Bemærk**: Når du arkiverer en timeseddel, fjernes den fra oversigterne i vinduet **Timesedler** og i vinduet **Leders timesedler**.
+> [!NOTE]  
+>   Når du arkiverer en timeseddel, fjernes den fra oversigterne i vinduet **Timesedler** og i vinduet **Leders timesedler**.
 
-1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Flyt timesedler til arkiv** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Flyt timesedler til arkiv**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
-3. Hvis du vil gennemgå arkiverede timesedler skal du i øverste højre hjørne vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Arkiver for timesedler** eller **Arkiver for leders timesedler** og derefter vælge det relaterede link.
+3. Hvis du vil gennemgå arkiverede timesedler, skal du i øverste højre hjørne vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Arkiver for timesedler** eller **Arkiver for leders timesedler** og derefter vælge det relaterede link.
 
 ## <a name="see-also"></a>Se også
 [Projektstyring](projects-manage-projects.md)  

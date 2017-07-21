@@ -1,6 +1,6 @@
 ---
-title: "Opsætning af anlægsaktiver | Microsoft Docs"
-description: "Beskriver, hvordan du konfigurerer funktioner for anlægsaktiver."
+title: "Konfigurere anlægsaktiver | Microsoft Docs"
+description: "Få mere at vide om den række af opgaver, du skal udføre for at oprette anlægsaktiver, f.eks. maskiner eller bygninger."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8cf5df0cb9e555f700e2f578a25e102cefe8baff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,8 @@ Før du kan arbejde med anlægsaktiver, skal du angive et par ting:
 
 Tabellen nedenfor indeholder links til flere oplysninger. Når du konfigureret disse ting, kan du begynde på forskellige aktiviteter. Du kan finde flere oplysninger under [Anlægsaktiver](fa-manage.md).  
 
-**Bemærk**: Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger vinduet **Anlægskassekladde**.  
+> [!NOTE]  
+>   Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger vinduet **Anlægskassekladde**.  
 
 Når du vælger en anlægsaktivitet i afsnittet **Finansintegration** i vinduet **Afskrivningsprofilkort**, bruges vinduet **Anlægsfinanskladde** til at bogføre transaktioner for aktiviteten.
 

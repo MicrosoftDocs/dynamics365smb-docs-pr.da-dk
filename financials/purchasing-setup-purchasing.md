@@ -1,6 +1,6 @@
 ---
-title: "Opsætning af indkøb | Microsoft Docs"
-description: "Opsætning af indkøb"
+title: "Oversigt over opgaver til opsætning af køb | Microsoft Docs"
+description: "Beskriver de opgaver, der definerer virksomhedens indkøbspolitikker, og som du bruger til at oprette dine indkøbsprocesser."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,6 @@ Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes 
 | --- | --- |
 | Opret et kreditorkort for hver debitor, du køber fra. |[Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md) |
 | Angive de forskellige rabatter og specialpriser, som kreditorer yder dig, afhængigt af vare, antal og/eller dato. |[Fremgangsmåde: Registrere købspris, rabat og betalingsaftaler](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Lære, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk optimerer din avance på samhandel, når du registrerer en specialpris/rabataftaler.|[Avanceret: Beregning af bedste pris](advanced-best-price-calculation.md) |
 | Tildel kreditorer prioritet. |[Fremgangsmåde: Prioritere kreditorer](purchasing-how-prioritize-vendors.md) |
 | Opret indkøbere. |[Fremgangsmåde: Oprette indkøbere](purchasing-how-setup-purchasers.md) |
 

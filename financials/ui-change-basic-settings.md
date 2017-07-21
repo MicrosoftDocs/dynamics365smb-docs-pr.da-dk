@@ -1,6 +1,6 @@
 ---
-title: "Ændre grundlæggende indstillinger | Microsoft Docs"
-description: "Få at vide, hvordan du kan ændre nogle af de grundlæggende indstillinger i Financials."
+title: "Vise og redigere grundlæggende indstillinger i Financials | Microsoft Docs"
+description: "Lær, hvordan du kan ændre nogle af de grundlæggende indstillinger i Financials, f.eks. rollecenteret, virksomheden eller arbejdsdatoen."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf910084523c51cd2966335bf3a7c8f81d3d0670
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,20 +37,23 @@ En virksomhed fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d3
 
 Standardfirmaet kaldes CRONUS og indeholder kun demonstrationsdata.
 
-**Tip!** Hvis du vil vise et andet navn til din virksomhed i programmet (f.eks. på startsiden), skal du indstille feltet **Navn** på siden **Virksomhedsoplysninger** eller i feltet **Visningsnavn** på siden **Virksomheder**.  
+> [!TIP]  
+>   Hvis du vil vise et andet navn til din virksomhed i programmet (f.eks. på startsiden), skal du indstille feltet **Navn** på siden **Virksomhedsoplysninger** eller i feltet **Visningsnavn** på siden **Virksomheder**.  
 
 ## <a name="work-date"></a>Arbejdsdato
 Standardarbejdsdatoen er normalt dags dato. Du skal muligvis midlertidigt ændre arbejdsdatoen for at kunne udføre opgaver, f.eks. udføre transaktioner for en dato, der ikke er dags dato.
 
-**Tip**: Hvis du hurtigt vil indtaste arbejdsdatoen i et datofelt, skal du skrive **w**. Hvis du hurtigt vil indtaste dags dato i datofeltet, skal du skrive **t**.
+> [!TIP]  
+>   Hvis du hurtigt vil indtaste arbejdsdatoen i et datofelt, skal du skrive **w**. Hvis du hurtigt vil indtaste dags dato i datofeltet, skal du skrive **t**.
 
-**Vigtigt**: Arbejdsdatoen ændres kun, indtil du lukker virksomheden, eller indtil datoen skifter. Hvis du vælger et andet regnskab eller åbner det samme regnskab næste dag og stadig har brug for at angive en anden arbejdsdato, skal du angive arbejdsdatoen igen.
+> [!IMPORTANT]  
+>   Arbejdsdatoen ændres kun, indtil du lukker virksomheden, eller indtil datoen skifter. Hvis du vælger et andet regnskab eller åbner det samme regnskab næste dag og stadig har brug for at angive en anden arbejdsdato, skal du angive arbejdsdatoen igen.
 
 ## <a name="confirmation-dialogs"></a>Bekræftelsesdialogbokse
 Hvis du vil angive nogle flere kontroller til bogføring af bilag, skal du bruge indstillingerne i denne sektion. Disse indstillinger er markeret som standard, men du kan fjerne markeringen i afkrydsningsfelterne, hvis du vil undgå bestemte advarsler og meddelelser.
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-Fremgangsmåde: Ændre rollecenteret](change-role.md)  
+[Fremgangsmåde: Ændre rollecentret](change-role.md)  
 [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)  
 

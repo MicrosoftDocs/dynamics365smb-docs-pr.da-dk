@@ -1,6 +1,6 @@
 ---
-title: "Fremgangsmåde: Ændre rollecenteret | Microsoft Docs"
-description: "Beskriver, hvordan du kan ændre det aktuelle rollecenter."
+title: "Ændre rollecenteret | Microsoft Docs"
+description: "Du kan vælge en anden profil i Financials for at ændre det, du ser på startsiden."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Profile
-ms.date: 03/23/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70215bcbf8166f84dfa37e722aed3d7d9c7626e6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

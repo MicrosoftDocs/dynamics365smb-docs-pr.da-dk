@@ -1,6 +1,6 @@
 ---
-title: "Indkøb | Microsoft Docs"
-description: "Beskriver, hvordan du administrerer købsaktiviteter."
+title: "Oversigt over opgaver til administration af køb | Microsoft Docs"
+description: "Beskriver opgaver, du kan bruge til at administrere dine indkøb eller indkøbsprocesser, herunder hvordan købsfakturaer og købsordrer fungerer."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ba8ea773fa4024cfcaccd00b80bdbbfe81be8b7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Hvis du vil | Se |
 | --- | --- |
 | Opret en købsfaktura for at registrere din aftale med en kreditor om at købe produkter på bestemte leverings- og betalingsbetingelser. |[Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md) |
-| Opret en købsfaktura for alle eller markerede linjer i en salgsfaktura. |[Fremgangsmåde: Købe produkter til et salg](purchasing-how-purchase-products-sale.md) |
+| Opret en købsfaktura for alle eller markerede linjer i en salgsfaktura. |[Fremgangsmåde: Købe varer til et salg](purchasing-how-purchase-products-sale.md) |
 | Udfør en handling på en ubetalt bogført købsfaktura for automatisk at oprette en kreditnota og enten annullere købsfakturaen eller gendanne den, så du kan foretage rettelser. |[Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Opret en købskreditnota for at tilbageføre en bestemt bogført købsfaktura, så den afspejler, hvilke produkter du returnerer til kreditoren, og hvilke indbetalte beløb der skal opkræves. |[Fremgangsmåde: Behandle købsreturvarer eller annulleringer](purchasing-how-register-new-vendors.md) |
 | Opret et kreditorkort for hver debitor, du køber fra. |[Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md) |
