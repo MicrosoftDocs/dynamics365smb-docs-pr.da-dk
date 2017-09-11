@@ -15,8 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 29b204502281b728889098ae8d88f928e4f46e20
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-without-outlook"></a>Bruge Dynamics 365 for Financials uden Outlook
@@ -29,6 +28,6 @@ Du kan sende dokumenter som f.eks. fakturaer som mail ved hjælp af din virksomh
 ## <a name="see-also"></a>Se også
 [Velkommen til Dynamics 365 for Financials](index.md)  
 [Bruge Financials som din virksomheds Indbakke i Outlook](madeira-outlook.md)  
-[Få finansielle oplysninger på min mobilenhed](install-mobile-app.md)  
+[Få Financials på min mobilenhed](install-mobile-app.md)  
 [Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md)
 

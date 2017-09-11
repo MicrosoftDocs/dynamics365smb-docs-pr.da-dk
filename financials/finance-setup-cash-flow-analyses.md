@@ -16,8 +16,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
@@ -83,7 +82,7 @@ Sådan bruges en manuel proces:
 Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel for Microsoft Dynamics 365 for Financials**. Denne prognosemodel er tilgængelig online i Cortana Intelligence-galleriet. Sådan bruges modellen:  
 
 1. Åbn en webbrowser, og gå til [Cortana Intelligence-galleriet](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Søg efter **Prognosemodel for Microsoft Dynamics 365 til finansielle oplysninger**, og åbn derefter modellen i Azure Machine Learning Studio.  
+2. Søg efter **Prognosemodel for Microsoft Dynamics 365 for Financials**, og åbn derefter modellen i Azure Machine Learning Studio.  
 3. Brug din Microsoft-konto til at tilmelde dig et arbejdsområde og derefter kopiere modellen.  
 4. Kør modellen, og udgiv den som en webtjeneste.  
 5. Notér URL-adressen for API og API-nøglen. Du skal bruge disse legitimationsoplysninger til en pengestrømsopsætning.  
