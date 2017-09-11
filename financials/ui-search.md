@@ -16,23 +16,22 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: c38f22bec1101a8373b7b5dab246942f49412afc
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="searching-for-a-page-or-report"></a>Søge efter en side eller rapport
-Du kan finde sider og rapporter ved at vælge ikonet **Søg efter side eller rapport** i øverste højre hjørne af adresselinjen. Se efter dette ikon:
+# <a name="searching-for-a-page-or-report"></a><span data-ttu-id="76d8c-103">Søge efter en side eller rapport</span><span class="sxs-lookup"><span data-stu-id="76d8c-103">Searching for a Page or Report</span></span>
+<span data-ttu-id="76d8c-104">Du kan finde sider og rapporter ved at vælge ikonet **Søg efter side eller rapport** i øverste højre hjørne af adresselinjen.</span><span class="sxs-lookup"><span data-stu-id="76d8c-104">You can find pages and reports by choosing the **Search for Page or Report** icon in the top right corner of the address bar.</span></span> <span data-ttu-id="76d8c-105">Se efter dette ikon:</span><span class="sxs-lookup"><span data-stu-id="76d8c-105">Look for this icon:</span></span>
 
-![Søg efter side eller rapport](media/ui-search/search.png "Søg efter side eller rapport")
+<span data-ttu-id="76d8c-106">![Søg efter side eller rapport](media/ui-search/search.png "Søg efter side eller rapport")</span><span class="sxs-lookup"><span data-stu-id="76d8c-106">![Search for Page or Report](media/ui-search/search.png "Search for Page or Report")</span></span>
 
-Når du begynder at skrive tegn, viser en rullemenu sidenavne, der indeholder det eller de tegn, du skriver. Rullemenuen ændres, efterhånden som du skriver flere tegn, og du kan vælge den rigtige side på listen, når den vises. Den anden kolonne i rullelisten viser navigationsstierne til de fundne sider. Der findes også et link, som du kan bruge til at søge i hjælpen efter de tegn, du har indtastet.
-
-> [!NOTE]  
->   De tilgængelige sider og rapporter afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Pakke**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_long_md.md)]-oplevelse](ui-experiences.md).
+<span data-ttu-id="76d8c-107">Når du begynder at skrive tegn, viser en rullemenu sidenavne, der indeholder det eller de tegn, du skriver.</span><span class="sxs-lookup"><span data-stu-id="76d8c-107">When you start typing characters, a drop-down list shows page names containing the character(s) you type.</span></span> <span data-ttu-id="76d8c-108">Rullemenuen ændres, efterhånden som du skriver flere tegn, og du kan vælge den rigtige side på listen, når den vises.</span><span class="sxs-lookup"><span data-stu-id="76d8c-108">The drop-down list changes as you type more characters, and you can select the correct page from the list when it is displayed.</span></span> <span data-ttu-id="76d8c-109">Den anden kolonne i rullelisten viser navigationsstierne til de fundne sider.</span><span class="sxs-lookup"><span data-stu-id="76d8c-109">The second column in the drop-down list shows the navigation paths to the found pages.</span></span> <span data-ttu-id="76d8c-110">Der findes også et link, som du kan bruge til at søge i hjælpen efter de tegn, du har indtastet.</span><span class="sxs-lookup"><span data-stu-id="76d8c-110">There is also a link that enables you to search the help for the characters that you typed.</span></span>
 
 > [!NOTE]  
->   Funktionen **Søg efter side eller rapport** søger ikke ved hjælp af data, f.eks debitornavne, adresser eller transaktioner. I stedet kan du søge efter data i oversigtssider ved at klikke på symbolet Forstørrelsesglas i højre hjørne af oversigtshovedet. Søgningen gælder kun for den oversigt, du har åbnet. Du kan finde flere oplysninger under [Indtaste kriterier i filtre](ui-enter-criteria-filters.md).
+>   <span data-ttu-id="76d8c-111">De tilgængelige sider og rapporter afhænger af den brugeroplevelse, du vælger for din virksomhed.</span><span class="sxs-lookup"><span data-stu-id="76d8c-111">The available pages and reports depend on the user experience you choose for your company.</span></span> <span data-ttu-id="76d8c-112">Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Pakke**.</span><span class="sxs-lookup"><span data-stu-id="76d8c-112">The **Basic** experience gives access to fewer than the **Suite** experience does.</span></span> <span data-ttu-id="76d8c-113">Første gang du logger på, bruger du den grundlæggende oplevelse.</span><span class="sxs-lookup"><span data-stu-id="76d8c-113">The first time you sign in, you use the Basic experience.</span></span> <span data-ttu-id="76d8c-114">Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_long_md.md)]-oplevelse](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="76d8c-114">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_long_md.md)] Experience](ui-experiences.md).</span></span>
 
-## <a name="see-also"></a>Se også
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+> [!NOTE]  
+>   <span data-ttu-id="76d8c-115">Funktionen **Søg efter side eller rapport** søger ikke ved hjælp af data, f.eks debitornavne, adresser eller transaktioner.</span><span class="sxs-lookup"><span data-stu-id="76d8c-115">The **Search for Page or Report** function does not search through data, such as customer names, addresses, or transactions.</span></span> <span data-ttu-id="76d8c-116">I stedet kan du søge efter data i oversigtssider ved at klikke på symbolet Forstørrelsesglas i højre hjørne af oversigtshovedet.</span><span class="sxs-lookup"><span data-stu-id="76d8c-116">Instead, you can search for data in list pages by choosing the magnifier symbol in the right corner of the list header.</span></span> <span data-ttu-id="76d8c-117">Søgningen gælder kun for den oversigt, du har åbnet.</span><span class="sxs-lookup"><span data-stu-id="76d8c-117">The search applies only to the list you are viewing.</span></span> <span data-ttu-id="76d8c-118">Du kan finde flere oplysninger under [Indtaste kriterier i filtre](ui-enter-criteria-filters.md).</span><span class="sxs-lookup"><span data-stu-id="76d8c-118">For more information, see [Entering Criteria in Filters](ui-enter-criteria-filters.md).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="76d8c-119">Se også</span><span class="sxs-lookup"><span data-stu-id="76d8c-119">See Also</span></span>
+<span data-ttu-id="76d8c-120">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="76d8c-120">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

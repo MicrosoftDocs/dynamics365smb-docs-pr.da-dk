@@ -16,79 +16,78 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 71210a9acbd196581aa4397264b462728007e5e8
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-maintain-fixed-assets"></a>Fremgangsmåde: Vedligeholde anlægsaktiver
-Reparationsudgifter er periodisk forekommende rutineomkostninger, der afholdes for at bevare anlægsaktivernes værdi. I modsætning til kapitalforbedringer forøges deres værdi ikke.
+# <a name="how-to-maintain-fixed-assets"></a><span data-ttu-id="6a481-103">Fremgangsmåde: Vedligeholde anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="6a481-103">How to: Maintain Fixed Assets</span></span>
+<span data-ttu-id="6a481-104">Reparationsudgifter er periodisk forekommende rutineomkostninger, der afholdes for at bevare anlægsaktivernes værdi.</span><span class="sxs-lookup"><span data-stu-id="6a481-104">Maintenance expenses are routine periodic costs undertaken to preserve the value of fixed assets.</span></span> <span data-ttu-id="6a481-105">I modsætning til kapitalforbedringer forøges deres værdi ikke.</span><span class="sxs-lookup"><span data-stu-id="6a481-105">Unlike capital improvements, they do not increase values.</span></span>
 
-Du kan registrere og vedligeholde en opdateret fil om anlægsreparation og -service, så du har en nemt tilgængelig og fuldstændig fortegnelse over reparation af et anlæg. Hver gang et anlægsaktiv bliver sendt til service, registrerer du alle relevante oplysninger som f.eks. dato, kreditornummer og reparatørens telefonnummer. Der bliver foretaget reparationsregistrering for hvert enkelt anlægsaktiv fra anlægskortet.
+<span data-ttu-id="6a481-106">Du kan registrere og vedligeholde en opdateret fil om anlægsreparation og -service, så du har en nemt tilgængelig og fuldstændig fortegnelse over reparation af et anlæg.</span><span class="sxs-lookup"><span data-stu-id="6a481-106">You can record and maintain an up-to-date file on maintenance and service of your fixed assets to have complete maintenance records on a fixed asset easily accessible.</span></span> <span data-ttu-id="6a481-107">Hver gang et anlægsaktiv bliver sendt til service, registrerer du alle relevante oplysninger som f.eks. dato, kreditornummer og reparatørens telefonnummer.</span><span class="sxs-lookup"><span data-stu-id="6a481-107">Each time a fixed asset is sent to service, you record all relevant information such as date of service, vendor number and service agent's phone number.</span></span> <span data-ttu-id="6a481-108">Der bliver foretaget reparationsregistrering for hvert enkelt anlægsaktiv fra anlægskortet.</span><span class="sxs-lookup"><span data-stu-id="6a481-108">Maintenance registration is recorded for each fixed asset from the relevant fixed asset card.</span></span>
 
-Indeksering anvendes til at justere for ændringer af det generelle prisniveau. Kørslen **Indeksér anlæg** kan bruges til at genberegne reparationsomkostningerne.
+<span data-ttu-id="6a481-109">Indeksering anvendes til at justere for ændringer af det generelle prisniveau.</span><span class="sxs-lookup"><span data-stu-id="6a481-109">Indexation is used to adjust values for general price-level changes.</span></span> <span data-ttu-id="6a481-110">Kørslen **Indeksér anlæg** kan bruges til at genberegne reparationsomkostningerne.</span><span class="sxs-lookup"><span data-stu-id="6a481-110">The **Index Fixed Assets** batch job can be used to recalculate the maintenance costs.</span></span>
 
-## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Sådan registreres reparationsarbejde på et anlægsaktiv
-Hver gang der er udført reparationsopgaver, f.eks. et servicebesøg, kan du registrere det for det pågældende anlægsaktiv i vinduet **Reparationsregistreringer**.  
+## <a name="to-record-maintenance-work-on-a-fixed-asset"></a><span data-ttu-id="6a481-111">Sådan registreres reparationsarbejde på et anlægsaktiv</span><span class="sxs-lookup"><span data-stu-id="6a481-111">To record maintenance work on a fixed asset</span></span>
+<span data-ttu-id="6a481-112">Hver gang der er udført reparationsopgaver, f.eks. et servicebesøg, kan du registrere det for det pågældende anlægsaktiv i vinduet **Reparationsregistreringer**.</span><span class="sxs-lookup"><span data-stu-id="6a481-112">Every time maintenance has been performed, such as a service visit, you can record it for the relevant fixed asset in the **Maintenance Registrations** window.</span></span>  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.  
-2. Vælg det anlægsaktiv, du vil registrere vedligeholdelse for, og vælg derefter handlingen **Reparationsregistrering**.
-3. I vinduet **Reparationsregistrering** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="6a481-113">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="6a481-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6a481-114">Vælg det anlægsaktiv, du vil registrere vedligeholdelse for, og vælg derefter handlingen **Reparationsregistrering**.</span><span class="sxs-lookup"><span data-stu-id="6a481-114">Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.</span></span>
+3. <span data-ttu-id="6a481-115">I vinduet **Reparationsregistrering** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="6a481-115">In the **Maintenance Registration** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Sådan bogføres reparationsomkostninger fra en anlægskassekladde
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.  
-2. Vælg den afskrivningsprofil, der er tildelt anlægsaktivet, og vælg derefter handlingen **Rediger**.
-3. I vinduet **Afskrivningsprofilkort** skal du kontrollere, at afkrydsningsfeltet **Vedligeholdese** ikke er markeret. Dette sikrer, at vedlligeholdelsesomkostninger ikke bogføres i finansregnskabet.
-4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
-5. Opret en første kladdelinje, og udfyld felterne efter behov.
-6. I feltet **Anlægsbogføringstype** skal du vælge **Reparation**.
-7. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af vedligeholdelse.
+## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a><span data-ttu-id="6a481-116">Sådan bogføres reparationsomkostninger fra en anlægskassekladde</span><span class="sxs-lookup"><span data-stu-id="6a481-116">To post maintenance costs from a fixed asset G/L journal</span></span>
+1. <span data-ttu-id="6a481-117">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="6a481-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Book List**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6a481-118">Vælg den afskrivningsprofil, der er tildelt anlægsaktivet, og vælg derefter handlingen **Rediger**.</span><span class="sxs-lookup"><span data-stu-id="6a481-118">Select the depreciation book that is assigned to the fixed asset, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="6a481-119">I vinduet **Afskrivningsprofilkort** skal du kontrollere, at afkrydsningsfeltet **Vedligeholdese** ikke er markeret.</span><span class="sxs-lookup"><span data-stu-id="6a481-119">In the **Depreciation Book Card** window, make sure the **Maintenance** check box is not selected.</span></span> <span data-ttu-id="6a481-120">Dette sikrer, at vedlligeholdelsesomkostninger ikke bogføres i finansregnskabet.</span><span class="sxs-lookup"><span data-stu-id="6a481-120">This ensures that maintenance costs are not posted to the general ledger.</span></span>
+4. <span data-ttu-id="6a481-121">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="6a481-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA G/L Journals**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="6a481-122">Opret en første kladdelinje, og udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="6a481-122">Create an initial journal line and fill in the fields as necessary.</span></span>
+6. <span data-ttu-id="6a481-123">I feltet **Anlægsbogføringstype** skal du vælge **Reparation**.</span><span class="sxs-lookup"><span data-stu-id="6a481-123">In the **FA Posting Type** field, select **Maintenance**.</span></span>
+7. <span data-ttu-id="6a481-124">Vælg handlingen **Indsæt anlægsmodkonto**.</span><span class="sxs-lookup"><span data-stu-id="6a481-124">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="6a481-125">Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af vedligeholdelse.</span><span class="sxs-lookup"><span data-stu-id="6a481-125">A second journal line is created for the balancing account that is set up for maintenance posting.</span></span>
 
     > [!NOTE]  
->   Trin 7 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Reparationskonto** finansdebetkontoen og feltet **Reparationsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
-8. Vælg handlingen **Bogfør**.
+>   <span data-ttu-id="6a481-126">Trin 7 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Reparationskonto** finansdebetkontoen og feltet **Reparationsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning.</span><span class="sxs-lookup"><span data-stu-id="6a481-126">Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="6a481-127">Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="6a481-127">For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
+8. <span data-ttu-id="6a481-128">Vælg handlingen **Bogfør**.</span><span class="sxs-lookup"><span data-stu-id="6a481-128">Choose the **Post** action.</span></span>
 
-## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Sådan følger du op på servicebesøg på anlæg
-Du kan udskrive rapporten **Reparation - næste service** for at se, hvilke anlæg der er planlagt servicebesøg for. Du kan også bruge denne rapport, når du opdaterer feltet **Næste servicedato** på anlægskort.  
+## <a name="to-follow-up-on-fixed-assets-service-visits"></a><span data-ttu-id="6a481-129">Sådan følger du op på servicebesøg på anlæg</span><span class="sxs-lookup"><span data-stu-id="6a481-129">To follow up on fixed assets service visits</span></span>
+<span data-ttu-id="6a481-130">Du kan udskrive rapporten **Reparation - næste service** for at se, hvilke anlæg der er planlagt servicebesøg for.</span><span class="sxs-lookup"><span data-stu-id="6a481-130">You can print the **Maintenance - Next Service** report to see which assets you have scheduled a service visit for.</span></span> <span data-ttu-id="6a481-131">Du kan også bruge denne rapport, når du opdaterer feltet **Næste servicedato** på anlægskort.</span><span class="sxs-lookup"><span data-stu-id="6a481-131">You can also use this report when you are updating the **Next Service Date** field on fixed asset cards.</span></span>  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.  
-2. Udfyld felterne **Startdato** og **Slutdato**  
-3. Vælg knappen **Udskriv** eller **Vis udskrift**.
+1. <span data-ttu-id="6a481-132">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="6a481-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance Next Service**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="6a481-133">Udfyld felterne **Startdato** og **Slutdato**</span><span class="sxs-lookup"><span data-stu-id="6a481-133">Fill in the **Starting Date** and **Ending Date** fields.</span></span>  
+3. <span data-ttu-id="6a481-134">Vælg knappen **Udskriv** eller **Vis udskrift**.</span><span class="sxs-lookup"><span data-stu-id="6a481-134">Choose the **Print** or **Preview** button.</span></span>
 
-## <a name="to-monitor-maintenance-costs"></a>Sådan overvåges reparationsomkostningerne
-Du kan se reparationsomkostningerne i statistikken for et anlægsaktiv.  
+## <a name="to-monitor-maintenance-costs"></a><span data-ttu-id="6a481-135">Sådan overvåges reparationsomkostningerne</span><span class="sxs-lookup"><span data-stu-id="6a481-135">To monitor maintenance costs</span></span>
+<span data-ttu-id="6a481-136">Du kan se reparationsomkostningerne i statistikken for et anlægsaktiv.</span><span class="sxs-lookup"><span data-stu-id="6a481-136">You can view the maintenance costs when you look at the statistics of a fixed asset.</span></span>  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.
-2. Vælg det anlægsaktiv, du vil have vist reparationsomkostninger for, og vælg derefter handlingen **Afskrivningsprofiler**.
-3. I vinduet **Anlægsafskrivningsprofiler** skal du vælge den relevante anlægsafskrivningsprofil og derefter vælge handlingen **Statistik**.
-4. I vinduet **Anlægsstatistik** skal du vælge feltet **Reparation**.
+1. <span data-ttu-id="6a481-137">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="6a481-137">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="6a481-138">Vælg det anlægsaktiv, du vil have vist reparationsomkostninger for, og vælg derefter handlingen **Afskrivningsprofiler**.</span><span class="sxs-lookup"><span data-stu-id="6a481-138">Select the fixed asset you want to view maintenance costs for, and then choose the **Depreciation Books** action.</span></span>
+3. <span data-ttu-id="6a481-139">I vinduet **Anlægsafskrivningsprofiler** skal du vælge den relevante anlægsafskrivningsprofil og derefter vælge handlingen **Statistik**.</span><span class="sxs-lookup"><span data-stu-id="6a481-139">In the **FA Depreciation Books** window, select the relevant fixed asset depreciation book, and then choose the **Statistics** action.</span></span>
+4. <span data-ttu-id="6a481-140">I vinduet **Anlægsstatistik** skal du vælge feltet **Reparation**.</span><span class="sxs-lookup"><span data-stu-id="6a481-140">In the **Fixed Asset Statistics** window, choose the **Maintenance** field.</span></span>
 
-Vinduet **Reparationsposter** åbnes med de poster, som indgår i beløbet i feltet **Reparation**.
+<span data-ttu-id="6a481-141">Vinduet **Reparationsposter** åbnes med de poster, som indgår i beløbet i feltet **Reparation**.</span><span class="sxs-lookup"><span data-stu-id="6a481-141">The **Maintenance Ledger Entries** window opens showing the entries that make up the amount in the **Maintenance** field.</span></span>
 
-## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Sådan får du vist eller udskriver reparationsomkostninger for flere anlægsaktiver
-I rapporten **Reparation - analyse** kan du vælge, om du vil have vist vedligeholdelse ud fra en, to eller tre reparationskoder på en bestemt dato eller i en bestemt periode. Du kan se totalen for alle valgte aktiver eller totalen for hvert enkelt aktiv.
+## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a><span data-ttu-id="6a481-142">Sådan får du vist eller udskriver reparationsomkostninger for flere anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="6a481-142">To view or print maintenance costs for multiple fixed assets</span></span>
+<span data-ttu-id="6a481-143">I rapporten **Reparation - analyse** kan du vælge, om du vil have vist vedligeholdelse ud fra en, to eller tre reparationskoder på en bestemt dato eller i en bestemt periode.</span><span class="sxs-lookup"><span data-stu-id="6a481-143">In the **Maintenance - Analysis** report, you can select to see maintenance based on one, two, or three maintenance codes for a specified date or period.</span></span> <span data-ttu-id="6a481-144">Du kan se totalen for alle valgte aktiver eller totalen for hvert enkelt aktiv.</span><span class="sxs-lookup"><span data-stu-id="6a481-144">You can see the total of all selected assets or a total for each asset.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Reparationsanalyse**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov.
-3. Vælg knappen **Udskriv** eller **Vis udskrift**.
+1. <span data-ttu-id="6a481-145">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Reparationsanalyse**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="6a481-145">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance Analysis**, and then choose the related link.</span></span>
+2. <span data-ttu-id="6a481-146">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="6a481-146">Fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="6a481-147">Vælg knappen **Udskriv** eller **Vis udskrift**.</span><span class="sxs-lookup"><span data-stu-id="6a481-147">Choose the **Print** or **Preview** button.</span></span>
 
-## <a name="to-view-maintenance-ledger-entries"></a>Sådan får du vist reparationsposter
-Du kan også undersøge reparationsomkostningerne ved at se på reparationsposterne.  
+## <a name="to-view-maintenance-ledger-entries"></a><span data-ttu-id="6a481-148">Sådan får du vist reparationsposter</span><span class="sxs-lookup"><span data-stu-id="6a481-148">To view maintenance ledger entries</span></span>
+<span data-ttu-id="6a481-149">Du kan også undersøge reparationsomkostningerne ved at se på reparationsposterne.</span><span class="sxs-lookup"><span data-stu-id="6a481-149">You can also study maintenance costs by viewing the maintenance ledger entries.</span></span>  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.
-2. Vælg det anlægsaktiv, du vil have vist poster for, og vælg derefter handlingen **Afskrivningsprofiler**.
-3. I vinduet **Anlægsafskrivningsprofiler** skal du vælge den relevante anlægsafskrivningsprofil og derefter vælge handlingen **Reparationsposter**.
+1. <span data-ttu-id="6a481-150">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="6a481-150">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="6a481-151">Vælg det anlægsaktiv, du vil have vist poster for, og vælg derefter handlingen **Afskrivningsprofiler**.</span><span class="sxs-lookup"><span data-stu-id="6a481-151">Select the fixed asset that you want to view ledger entries for, and then choose the **Depreciation Books** action.</span></span>
+3. <span data-ttu-id="6a481-152">I vinduet **Anlægsafskrivningsprofiler** skal du vælge den relevante anlægsafskrivningsprofil og derefter vælge handlingen **Reparationsposter**.</span><span class="sxs-lookup"><span data-stu-id="6a481-152">In the **FA Depreciation Books** window, select the relevant fixed asset depreciation book, and then choose the **Maintenance Ledger Entries** action.</span></span>
 
-## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Sådan får du vist eller udskriver reparationsposter for flere anlægsaktiver
-I feltet **Reparationsposter** kan du få vist eller udskrive reparationsposter for et eller flere anlægsaktiver.  
+## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a><span data-ttu-id="6a481-153">Sådan får du vist eller udskriver reparationsposter for flere anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="6a481-153">To view or print maintenance ledger entries for multiple fixed assets</span></span>
+<span data-ttu-id="6a481-154">I feltet **Reparationsposter** kan du få vist eller udskrive reparationsposter for et eller flere anlægsaktiver.</span><span class="sxs-lookup"><span data-stu-id="6a481-154">In the **Maintenance - Details** report, you can view or print maintenance ledger entries for one or many fixed assets.</span></span>  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Reparationsposter**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov.
-3. Vælg knappen **Udskriv** eller **Vis udskrift**.
+1. <span data-ttu-id="6a481-155">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Reparationsposter**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="6a481-155">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Maintenance Details**, and then choose the related link.</span></span>
+2. <span data-ttu-id="6a481-156">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="6a481-156">Fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="6a481-157">Vælg knappen **Udskriv** eller **Vis udskrift**.</span><span class="sxs-lookup"><span data-stu-id="6a481-157">Choose the **Print** or **Preview** button.</span></span>
 
-## <a name="see-also"></a>Se også
-[Anlægsaktiver](fa-manage.md)  
-[Opsætning af anlægsaktiver](fa-setup.md)  
-[Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="6a481-158">Se også</span><span class="sxs-lookup"><span data-stu-id="6a481-158">See Also</span></span>
+[<span data-ttu-id="6a481-159">Anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="6a481-159">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="6a481-160">Opsætning af anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="6a481-160">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="6a481-161">Finans</span><span class="sxs-lookup"><span data-stu-id="6a481-161">Finance</span></span>](finance.md)  
+<span data-ttu-id="6a481-162">[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="6a481-162">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="6a481-163">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="6a481-163">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

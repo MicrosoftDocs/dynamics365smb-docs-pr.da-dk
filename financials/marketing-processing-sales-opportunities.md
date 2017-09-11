@@ -16,76 +16,75 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 78f9235e0115b75c3c479f789c76710b97a216c3
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-process-sales-opportunities"></a>Fremgangsmåde: Behandle salgsleads
-Når du opretter et lead, er der flere funktioner til administration af et lead og til at flytte det til afslutning.
+# <a name="how-to-process-sales-opportunities"></a><span data-ttu-id="ef88a-103">Fremgangsmåde: Behandle salgsleads</span><span class="sxs-lookup"><span data-stu-id="ef88a-103">How to: Process Sales Opportunities</span></span>
+<span data-ttu-id="ef88a-104">Når du opretter et lead, er der flere funktioner til administration af et lead og til at flytte det til afslutning.</span><span class="sxs-lookup"><span data-stu-id="ef88a-104">After you create an opportunity, there are several features for managing the opportunity and moving it through to completion.</span></span>
 
-## <a name="to-view-opportunities"></a>Sådan vises salgsmuligheder
-De eksisterende salgsleads er tilgængelige i vinduet **Leadoversigt**. Der er forskellige måder at få adgang til vinduet for at behandle salgsleads:
+## <a name="to-view-opportunities"></a><span data-ttu-id="ef88a-105">Sådan vises salgsmuligheder</span><span class="sxs-lookup"><span data-stu-id="ef88a-105">To view opportunities</span></span>
+<span data-ttu-id="ef88a-106">De eksisterende salgsleads er tilgængelige i vinduet **Leadoversigt**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-106">The existing sale opportunities are available from the **Opportunity List** window.</span></span> <span data-ttu-id="ef88a-107">Der er forskellige måder at få adgang til vinduet for at behandle salgsleads:</span><span class="sxs-lookup"><span data-stu-id="ef88a-107">There are different ways to access this window for processing sales opportunities:</span></span>
 
-| For at få vist salgsleads for | Så |
+| <span data-ttu-id="ef88a-108">For at få vist salgsleads for</span><span class="sxs-lookup"><span data-stu-id="ef88a-108">To view opportunities for</span></span> | <span data-ttu-id="ef88a-109">Så</span><span class="sxs-lookup"><span data-stu-id="ef88a-109">Then</span></span> |
 | --- | --- |
-| Alle sælgere og kontakter |Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leadoversigt**, og vælg derefter det relaterede link. |
-| En bestemt sælger |Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sælgere**, og vælg derefter det relaterede link. Vælg sælgeren, vælg handlingen **Leads**, og vælg derefter handlingen **Oversigt**. |
-| En bestemt kontakt |Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontakter**, og vælg derefter det relaterede link. Vælg kontakten på listen, og vælg derefter handlingen **Leads**. |
+| <span data-ttu-id="ef88a-110">Alle sælgere og kontakter</span><span class="sxs-lookup"><span data-stu-id="ef88a-110">All salespeople and contacts</span></span> |<span data-ttu-id="ef88a-111">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leadoversigt**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="ef88a-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Opportunity List**, and then choose the related link.</span></span> |
+| <span data-ttu-id="ef88a-112">En bestemt sælger</span><span class="sxs-lookup"><span data-stu-id="ef88a-112">A specific sales person</span></span> |<span data-ttu-id="ef88a-113">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sælgere**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="ef88a-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople**, and then choose the related link.</span></span> <span data-ttu-id="ef88a-114">Vælg sælgeren, vælg handlingen **Leads**, og vælg derefter handlingen **Oversigt**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-114">Select the salesperson, choose the **Opportunities** action, and then choose the **List** action.</span></span> |
+| <span data-ttu-id="ef88a-115">En bestemt kontakt</span><span class="sxs-lookup"><span data-stu-id="ef88a-115">A specific contact</span></span> |<span data-ttu-id="ef88a-116">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontakter**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="ef88a-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Contacts**, and then choose the related link.</span></span> <span data-ttu-id="ef88a-117">Vælg kontakten på listen, og vælg derefter handlingen **Leads**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-117">Select the contact from the list, and then choose the **Opportunities** action.</span></span> |
 
-Hver af disse opgaver åbnes i vinduet **Leadoversigt**.
+<span data-ttu-id="ef88a-118">Hver af disse opgaver åbnes i vinduet **Leadoversigt**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-118">Each of these tasks opens the **Opportunity List** window.</span></span>
 
-## <a name="to-close-opportunities"></a>Sådan lukkes leads
-Når forhandlingerne er afsluttet, kan du lukke leads. Når du lukker et lead, kan du samtidig angive, om det blev vundet eller tabt, og hvorfor det lukkes. For at angive en årsag, skal du have defineret lukkekoder for leads.
+## <a name="to-close-opportunities"></a><span data-ttu-id="ef88a-119">Sådan lukkes leads</span><span class="sxs-lookup"><span data-stu-id="ef88a-119">To close opportunities</span></span>
+<span data-ttu-id="ef88a-120">Når forhandlingerne er afsluttet, kan du lukke leads.</span><span class="sxs-lookup"><span data-stu-id="ef88a-120">You can close opportunities when the negotiations are over.</span></span> <span data-ttu-id="ef88a-121">Når du lukker et lead, kan du samtidig angive, om det blev vundet eller tabt, og hvorfor det lukkes.</span><span class="sxs-lookup"><span data-stu-id="ef88a-121">When closing an opportunity, you can specify whether it was won or lost, and the reasons for closing it.</span></span> <span data-ttu-id="ef88a-122">For at angive en årsag, skal du have defineret lukkekoder for leads.</span><span class="sxs-lookup"><span data-stu-id="ef88a-122">To specify a reason, you must set up closed opportunity codes.</span></span>
 
-1. I vinduet **Leadoversigt** skal du vælge leadet og derefter vælge handlingen **Luk**. Vinduet **Luk lead** åbnes.
-2. Udfyld de relevante felter, og vælg derefter knappen **OK**.
+1. <span data-ttu-id="ef88a-123">I vinduet **Leadoversigt** skal du vælge leadet og derefter vælge handlingen **Luk**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-123">In the **Opportunity List** window, select the opportunity, and the choose the **Close** action.</span></span> <span data-ttu-id="ef88a-124">Vinduet **Luk lead** åbnes.</span><span class="sxs-lookup"><span data-stu-id="ef88a-124">The **Close Opportunity** window opens.</span></span>
+2. <span data-ttu-id="ef88a-125">Udfyld de relevante felter, og vælg derefter knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-125">Fill in the relevant fields, and then choose the **OK** button.</span></span>
 
-   Felterne **Leadlukkekode** og **Lukket den** er obligatoriske og skal udfyldes, før du kan vælge knappen **OK**.
+   <span data-ttu-id="ef88a-126">Felterne **Leadlukkekode** og **Lukket den** er obligatoriske og skal udfyldes, før du kan vælge knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-126">The **Close Opportunity Code** and **Date Closed** fields are required fields and must be filled in before you can choose the **OK** button.</span></span>
 
-   I feltet **Leadlukkekode** kan du vælge en af de eksisterende leadlukkekoder eller tilføje en ny kode. Du kan tilføje en ny kode ved at vælge **Vælg fra komplet liste** på listen og derefter vælge **ny**. På den nye tomme linje skal du udfylde felterne **Kode**, **Type** og **Beskrivelse** og derefter vælge knappen **OK**.
+   <span data-ttu-id="ef88a-127">I feltet **Leadlukkekode** kan du vælge en af de eksisterende leadlukkekoder eller tilføje en ny kode.</span><span class="sxs-lookup"><span data-stu-id="ef88a-127">In the **Close Opportunity Code** field, you can choose from one of the existing close opportunity codes or add a new code.</span></span> <span data-ttu-id="ef88a-128">Du kan tilføje en ny kode ved at vælge **Vælg fra komplet liste** på listen og derefter vælge **ny**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-128">To add a new code, from the drop-down list, choose **Select from full list**, and then choose **new**.</span></span> <span data-ttu-id="ef88a-129">På den nye tomme linje skal du udfylde felterne **Kode**, **Type** og **Beskrivelse** og derefter vælge knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-129">On the new blank line, fill in the **Code**, **Type**, and **Description** fields, and then choose the **OK** button.</span></span>
 
-## <a name="to-create-quotes-for-opportunities"></a>Sådan oprettes tilbud til leads
-Du kan oprette salgstilbud for kontakter, der ikke er registreret som debitorer.
+## <a name="to-create-quotes-for-opportunities"></a><span data-ttu-id="ef88a-130">Sådan oprettes tilbud til leads</span><span class="sxs-lookup"><span data-stu-id="ef88a-130">To create quotes for opportunities</span></span>
+<span data-ttu-id="ef88a-131">Du kan oprette salgstilbud for kontakter, der ikke er registreret som debitorer.</span><span class="sxs-lookup"><span data-stu-id="ef88a-131">You can create sales quotes for contacts that are not recorded as customers.</span></span>
 
-1. I vinduet **Leadoversigt** skal du vælge leadet og derefter vælge handlingen **Tildel salgstilbud**. Vinduet **Salgstilbud** åbnes.
-2. Udfyld de relevante felter.
+1. <span data-ttu-id="ef88a-132">I vinduet **Leadoversigt** skal du vælge leadet og derefter vælge handlingen **Tildel salgstilbud**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-132">In the **Opportunity List** window, select the opportunity, and then choose the **Assign Sales Quote** action.</span></span> <span data-ttu-id="ef88a-133">Vinduet **Salgstilbud** åbnes.</span><span class="sxs-lookup"><span data-stu-id="ef88a-133">The **Sales Quote** window opens.</span></span>
+2. <span data-ttu-id="ef88a-134">Udfyld de relevante felter.</span><span class="sxs-lookup"><span data-stu-id="ef88a-134">Fill in the relevant fields.</span></span>
 
-## <a name="to-create-sales-orders-for-opportunities"></a>Sådan oprettes salgsordrer til leads
-Du kan oprette salgsordrer ud fra de tilbud, som du har oprettet til leads. Før du kan oprette salgsordrer til dine kontaktpersoner, skal du oprette kontaktpersonen som debitor. Du kan finde flere oplysninger under [Oprette en debitor, kreditor eller bankkonto fra en kontakt](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+## <a name="to-create-sales-orders-for-opportunities"></a><span data-ttu-id="ef88a-135">Sådan oprettes salgsordrer til leads</span><span class="sxs-lookup"><span data-stu-id="ef88a-135">To create sales orders for opportunities</span></span>
+<span data-ttu-id="ef88a-136">Du kan oprette salgsordrer ud fra de tilbud, som du har oprettet til leads.</span><span class="sxs-lookup"><span data-stu-id="ef88a-136">You can make sales orders from the sales quotes that you have created for your opportunities.</span></span> <span data-ttu-id="ef88a-137">Før du kan oprette salgsordrer til dine kontaktpersoner, skal du oprette kontaktpersonen som debitor.</span><span class="sxs-lookup"><span data-stu-id="ef88a-137">Before you can create sales orders for your contacts, you must create the contact as a customer.</span></span> <span data-ttu-id="ef88a-138">Du kan finde flere oplysninger under [Oprette en debitor, kreditor eller bankkonto fra en kontakt](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="ef88a-138">For more information, see [Create a Customer, Vendor, or Bank Account From a Contact](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).</span></span>
 
-1. I vinduet **Leadoversigt** skal du finde det lead, du har oprettet et salgstilbud til.
-2. Vælg handlingen **Tildel salgstilbud**. Vinduet **Salgstilbud**, der indeholder det salgstilbud, som du har knyttet til leadet, åbnes.
-3. Udfyld de øvrige felter, og vælg derefter handlingen **Lav ordre**.
+1. <span data-ttu-id="ef88a-139">I vinduet **Leadoversigt** skal du finde det lead, du har oprettet et salgstilbud til.</span><span class="sxs-lookup"><span data-stu-id="ef88a-139">In the **Opportunity List** window, find the opportunity that you have created a sales quote for.</span></span>
+2. <span data-ttu-id="ef88a-140">Vælg handlingen **Tildel salgstilbud**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-140">Choose the **Assign Sales Quote** action.</span></span> <span data-ttu-id="ef88a-141">Vinduet **Salgstilbud**, der indeholder det salgstilbud, som du har knyttet til leadet, åbnes.</span><span class="sxs-lookup"><span data-stu-id="ef88a-141">The **Sales Quote** window opens to show the sales quote that you have assigned to the opportunity.</span></span>
+3. <span data-ttu-id="ef88a-142">Udfyld de øvrige felter, og vælg derefter handlingen **Lav ordre**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-142">Fill in the additional fields, and then choose the **Make Order** action.</span></span>
 
-Når du arbejder med leads, kan det være nødvendigt at afgive tilbud til den kontakt, som leadet vedrører.
+<span data-ttu-id="ef88a-143">Når du arbejder med leads, kan det være nødvendigt at afgive tilbud til den kontakt, som leadet vedrører.</span><span class="sxs-lookup"><span data-stu-id="ef88a-143">When handling sales opportunities, you may need to create a quote for the contact that the opportunity is linked to.</span></span>
 
-## <a name="to-delete-opportunities"></a>Sådan slettes leads
-Du kan slette lead, hvis du f.eks. har afsluttet en handel. Men du kan kun slette lukkede leads. Der er to måder at slette lukkede leads. Du kan slette individuelle lukkede leads fra vinduet **Leadoversigt**, eller du kan starte kørslen **Slet lukkede leads** for at slette flere leads baseret på et angivet kriterium.
+## <a name="to-delete-opportunities"></a><span data-ttu-id="ef88a-144">Sådan slettes leads</span><span class="sxs-lookup"><span data-stu-id="ef88a-144">To delete opportunities</span></span>
+<span data-ttu-id="ef88a-145">Du kan slette lead, hvis du f.eks. har afsluttet en handel.</span><span class="sxs-lookup"><span data-stu-id="ef88a-145">You can delete opportunities, for example, after you have concluded a deal.</span></span> <span data-ttu-id="ef88a-146">Men du kan kun slette lukkede leads.</span><span class="sxs-lookup"><span data-stu-id="ef88a-146">However, you can only delete closed opportunities.</span></span> <span data-ttu-id="ef88a-147">Der er to måder at slette lukkede leads.</span><span class="sxs-lookup"><span data-stu-id="ef88a-147">There are two ways to delete closed opportunities.</span></span> <span data-ttu-id="ef88a-148">Du kan slette individuelle lukkede leads fra vinduet **Leadoversigt**, eller du kan starte kørslen **Slet lukkede leads** for at slette flere leads baseret på et angivet kriterium.</span><span class="sxs-lookup"><span data-stu-id="ef88a-148">You can delete individual closed opportunities from the **Opportunity List** window or you can run the **Delete Closed Opportunities** batch job to delete multiple opportunities based on a specified criteria.</span></span>
 
-Når du vil slette lukkede leads fra vinduet **Leadoversigt**, skal du vælge leadet og derefter vælge handlingen **Slet**.
+<span data-ttu-id="ef88a-149">Når du vil slette lukkede leads fra vinduet **Leadoversigt**, skal du vælge leadet og derefter vælge handlingen **Slet**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-149">To delete closed opportunities from the **Opportunity List** window, select the opportunity, and then choose the **Delete** action.</span></span>
 
-Du sletter lukkede leads med kørslen **Slet lukkede leads** ved at følge disse trin:
+<span data-ttu-id="ef88a-150">Du sletter lukkede leads med kørslen **Slet lukkede leads** ved at følge disse trin:</span><span class="sxs-lookup"><span data-stu-id="ef88a-150">To delete closed opportunities by using the **Delete Closed Opportunities** batch job, follow these steps:</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Slet salgsmuligheder**, og vælg derefter det relaterede link.
-2. I afsnittet **Lead** skal angive filtre, der angiver de lukkede leads, der skal slettes.
-3. Vælg knappen **OK**.
+1. <span data-ttu-id="ef88a-151">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Slet salgsmuligheder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="ef88a-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Opportunities**, and then choose the related link.</span></span>
+2. <span data-ttu-id="ef88a-152">I afsnittet **Lead** skal angive filtre, der angiver de lukkede leads, der skal slettes.</span><span class="sxs-lookup"><span data-stu-id="ef88a-152">In the **Opportunity** section, set up the filters that specify the closed opportunities to delete.</span></span>
+3. <span data-ttu-id="ef88a-153">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-153">Choose the **OK** button.</span></span>
 
-Når du har slettet et lead, fjernes det automatisk fra vinduet **Leadoversigt**.
+<span data-ttu-id="ef88a-154">Når du har slettet et lead, fjernes det automatisk fra vinduet **Leadoversigt**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-154">After you have deleted an opportunity, it is removed it from the **Opportunity List** window.</span></span>
 
-## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Sådan flyttes et lead via salgsprocesfaser
-Hvis et lead følger en salgsproces, kan du flytte det frem eller tilbage i de forskellige faser, f.eks flytte til den næste eller forrige fase og også springe en fase over.
+## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a><span data-ttu-id="ef88a-155">Sådan flyttes et lead via salgsprocesfaser</span><span class="sxs-lookup"><span data-stu-id="ef88a-155">To move an opportunity through sales cycle stages</span></span>
+<span data-ttu-id="ef88a-156">Hvis et lead følger en salgsproces, kan du flytte det frem eller tilbage i de forskellige faser, f.eks flytte til den næste eller forrige fase og også springe en fase over.</span><span class="sxs-lookup"><span data-stu-id="ef88a-156">If an opportunity follows a sales cycle, you can move it forward or back through the different stages, such as moving the next or previous stage, and even skipping a stage.</span></span>
 
-1. Vælg handlingen **Opdater** i vinduet **Leadoversigt**. **Opdater lead** åbnes.
-2. Brug feltet **Handlingstype** til at flytte leadet gennem salgsprocesfaserne:
-   * **Næste** flytter et lead én fase frem.
-   * **Spring over** flytter et lead en eller flere faser frem i salgsprocessen, som du angiver i feltet **Præsentation**. Du kan kun springe faser over, der er indstillet til at tillade overspringning.
-   * **Forrige** flytter et lead én fase tilbage.
-   * **Gå til** flytter et lead en eller flere faser tilbage i salgsprocessen, som du angiver i feltet **Præsentation**.
-   * Med **Opdater** kan du ændre oplysninger (f.eks. for at ændre vurderingen af succespotentialet eller de anslåede værdier) uden at flytte til en anden fase.
-3. Udfyld de øvrige felter efter behov, og vælg derefter knappen **OK**.
+1. <span data-ttu-id="ef88a-157">Vælg handlingen **Opdater** i vinduet **Leadoversigt**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-157">In the **Opportunity List** window, choose the **Update** action.</span></span> <span data-ttu-id="ef88a-158">**Opdater lead** åbnes.</span><span class="sxs-lookup"><span data-stu-id="ef88a-158">The **Update Opportunity** opens,</span></span>
+2. <span data-ttu-id="ef88a-159">Brug feltet **Handlingstype** til at flytte leadet gennem salgsprocesfaserne:</span><span class="sxs-lookup"><span data-stu-id="ef88a-159">Use the **Action Type** field to move the opportunity through the sales cycle stages:</span></span>
+   * <span data-ttu-id="ef88a-160">**Næste** flytter et lead én fase frem.</span><span class="sxs-lookup"><span data-stu-id="ef88a-160">**Next** moves the opportunity forward one stage.</span></span>
+   * <span data-ttu-id="ef88a-161">**Spring over** flytter et lead en eller flere faser frem i salgsprocessen, som du angiver i feltet **Præsentation**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-161">**Skip** moves the opportunity forward one or several stages in the sales cycle, which you specify in the **Presentation** field.</span></span> <span data-ttu-id="ef88a-162">Du kan kun springe faser over, der er indstillet til at tillade overspringning.</span><span class="sxs-lookup"><span data-stu-id="ef88a-162">You can only skip stages that have been set up to allow skipping.</span></span>
+   * <span data-ttu-id="ef88a-163">**Forrige** flytter et lead én fase tilbage.</span><span class="sxs-lookup"><span data-stu-id="ef88a-163">**Previous** moves the opportunity back one stage.</span></span>
+   * <span data-ttu-id="ef88a-164">**Gå til** flytter et lead en eller flere faser tilbage i salgsprocessen, som du angiver i feltet **Præsentation**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-164">**Jump** moves the opportunity back one or several stages in the sales cycle, which you specify in the **Presentation** field.</span></span>
+   * <span data-ttu-id="ef88a-165">Med **Opdater** kan du ændre oplysninger (f.eks. for at ændre vurderingen af succespotentialet eller de anslåede værdier) uden at flytte til en anden fase.</span><span class="sxs-lookup"><span data-stu-id="ef88a-165">**Update** enables you to change information (such as to modify your evaluation of their chances of success and estimated values) without moving to another stage.</span></span>
+3. <span data-ttu-id="ef88a-166">Udfyld de øvrige felter efter behov, og vælg derefter knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="ef88a-166">Fill in the other fields as needed, and then choose the **OK** button.</span></span>
 
-## <a name="see-also"></a>Se også
-[Salg](sales-manage-sales.md)  
-[Oprette og administrere kontakter](marketing-contacts.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="ef88a-167">Se også</span><span class="sxs-lookup"><span data-stu-id="ef88a-167">See Also</span></span>
+[<span data-ttu-id="ef88a-168">Salg</span><span class="sxs-lookup"><span data-stu-id="ef88a-168">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="ef88a-169">Oprette og administrere kontakter</span><span class="sxs-lookup"><span data-stu-id="ef88a-169">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
+<span data-ttu-id="ef88a-170">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="ef88a-170">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

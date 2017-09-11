@@ -16,36 +16,35 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Fremgangsmåde: Definere dine kontaktpersoners ansvarsområder
-Du kan tilføje oplysninger om ansvarsområder for kontaktpersoner for at angive, hvad kontaktpersonen er ansvarlig for i virksomheden, f.eks. IT, administration eller produktion. Du kan bruge disse oplysninger, når du angiver oplysninger om dine kontakter.
+# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a><span data-ttu-id="7c5d8-103">Fremgangsmåde: Definere dine kontaktpersoners ansvarsområder</span><span class="sxs-lookup"><span data-stu-id="7c5d8-103">How to: Set Up Job Responsibilities for Contact Persons</span></span>
+<span data-ttu-id="7c5d8-104">Du kan tilføje oplysninger om ansvarsområder for kontaktpersoner for at angive, hvad kontaktpersonen er ansvarlig for i virksomheden, f.eks. IT, administration eller produktion.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-104">You can add information about the job responsibilities of contact persons to indicate what the contact person is responsible for within their company, for example, IT, management, or production.</span></span> <span data-ttu-id="7c5d8-105">Du kan bruge disse oplysninger, når du angiver oplysninger om dine kontakter.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-105">You can use this information when entering information about your contacts.</span></span>
 
-Brug af ansvarsområder for kontakter er en totrinsproces. Først skal du definere koden for ansvarsområdet. Du behøver kun at udføre dette trin én gang for hvert ansvarsområde. Når du har et ansvarsområde, kan du begynde at tildele koden til kontakter.
+<span data-ttu-id="7c5d8-106">Brug af ansvarsområder for kontakter er en totrinsproces.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-106">Using job responsibilities on contacts is a two-step process.</span></span> <span data-ttu-id="7c5d8-107">Først skal du definere koden for ansvarsområdet.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-107">First, you define the job responsibility code.</span></span> <span data-ttu-id="7c5d8-108">Du behøver kun at udføre dette trin én gang for hvert ansvarsområde.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-108">You only have to perform this step one time for each job responsibility.</span></span> <span data-ttu-id="7c5d8-109">Når du har et ansvarsområde, kan du begynde at tildele koden til kontakter.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-109">Once you have a job responsibility code, you can start to assign the code to contact persons.</span></span>
 
-## <a name="to-define-a-job-responsibility-code"></a>for at definere en ansvarsområdekode
-Ansvarsområdekoden definerer jobtypen eller -kategorien, f.eks. MARKETING eller INDKØB. Du kan have flere ansvarsområdekoder. Du definerer ansvarsområdet fra vinduet **Ansvarsområder**.
+## <a name="to-define-a-job-responsibility-code"></a><span data-ttu-id="7c5d8-110">for at definere en ansvarsområdekode</span><span class="sxs-lookup"><span data-stu-id="7c5d8-110">to define a job responsibility code</span></span>
+<span data-ttu-id="7c5d8-111">Ansvarsområdekoden definerer jobtypen eller -kategorien, f.eks. MARKETING eller INDKØB.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-111">The job responsibility code defines the type or category of the job, such a MARKETING or PURCHASE.</span></span> <span data-ttu-id="7c5d8-112">Du kan have flere ansvarsområdekoder.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-112">You can have several job responsibility codes.</span></span> <span data-ttu-id="7c5d8-113">Du definerer ansvarsområdet fra vinduet **Ansvarsområder**.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-113">To define the job responsibility, you use the **Job Responsibilities** window.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ansvarsområder**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Ny**, og indtast en kode og beskrivelse. Du kan bruge op til 11 tegn til koden, som skal være en kombination af tal og bogstaver.
+1. <span data-ttu-id="7c5d8-114">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ansvarsområder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Responsibilities**, and then choose the related link.</span></span>
+2. <span data-ttu-id="7c5d8-115">Vælg handlingen **Ny**, og indtast en kode og beskrivelse.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-115">Choose the **New** action, and fill in a code and description.</span></span> <span data-ttu-id="7c5d8-116">Du kan bruge op til 11 tegn til koden, som skal være en kombination af tal og bogstaver.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-116">The code can be a maximum of 11 characters, and can be any combination of numbers and letters.</span></span>
 
-## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>for at tildele ansvarsområder til en kontaktperson
-Du kan ikke tildele ansvarsområder til kontaktvirksomheder.
+## <a name="to-assign-job-responsibilities-to-a-contact-person"></a><span data-ttu-id="7c5d8-117">for at tildele ansvarsområder til en kontaktperson</span><span class="sxs-lookup"><span data-stu-id="7c5d8-117">to assign job responsibilities to a contact person</span></span>
+<span data-ttu-id="7c5d8-118">Du kan ikke tildele ansvarsområder til kontaktvirksomheder.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-118">You cannot assign job responsibilities to contact companies.</span></span>
 
-1. Åbn kontaktpersonen.
-2. Vælg handlingen **Person**, og vælg derefter handlingen **Ansvarsområder**. Vinduet **Kontakts ansvarsområder** åbnes.
-3. I feltet **Ansvarsområdekode** skal du vælge det ansvarsområde, du vil tildele.
+1. <span data-ttu-id="7c5d8-119">Åbn kontaktpersonen.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-119">Open the contact person.</span></span>
+2. <span data-ttu-id="7c5d8-120">Vælg handlingen **Person**, og vælg derefter handlingen **Ansvarsområder**.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-120">Choose the **Person** action, and then choose the **Job Responsibilities** action.</span></span> <span data-ttu-id="7c5d8-121">Vinduet **Kontakts ansvarsområder** åbnes.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-121">The **Contact Job Responsibilities** window opens.</span></span>
+3. <span data-ttu-id="7c5d8-122">I feltet **Ansvarsområdekode** skal du vælge det ansvarsområde, du vil tildele.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-122">In the **Job Responsibility Code** field, select the job responsibility that you want to assign.</span></span>
 
-Gentag disse trin for hver ansvarsområde, du vil tildele. Du kan også tildele ansvarsområder fra kontaktoversigten ved at udføre samme procedure.
+<span data-ttu-id="7c5d8-123">Gentag disse trin for hver ansvarsområde, du vil tildele.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-123">Repeat these steps to assign as many job responsibilities as you want.</span></span> <span data-ttu-id="7c5d8-124">Du kan også tildele ansvarsområder fra kontaktoversigten ved at udføre samme procedure.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-124">You can also assign job responsibilities from the contact list by following the same procedure.</span></span>
 
-Det antal ansvarsområder, du har tildelt til kontakten, vises i feltet **Antal ansvarsområder** i sektionen **Segmentering** i vinduet **Kontakt**.
+<span data-ttu-id="7c5d8-125">Det antal ansvarsområder, du har tildelt til kontakten, vises i feltet **Antal ansvarsområder** i sektionen **Segmentering** i vinduet **Kontakt**.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-125">The number of job responsibilities you have assigned to the contact is displayed in the **No. of Job Responsibilities** field in the **Segmentation** section in the **Contact** window.</span></span>
 
-Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
+<span data-ttu-id="7c5d8-126">Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper.</span><span class="sxs-lookup"><span data-stu-id="7c5d8-126">After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments.</span></span> <span data-ttu-id="7c5d8-127">Du kan finde flere oplysninger i [Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).</span><span class="sxs-lookup"><span data-stu-id="7c5d8-127">For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).</span></span>
 
-## <a name="see-also"></a>Se også
-[Oprette kontaktpersoner](marketing-create-contact-persons.md)  
-[Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  
-[Arbejde med Financials](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="7c5d8-128">Se også</span><span class="sxs-lookup"><span data-stu-id="7c5d8-128">See Also</span></span>
+[<span data-ttu-id="7c5d8-129">Oprette kontaktpersoner</span><span class="sxs-lookup"><span data-stu-id="7c5d8-129">Creating Contact Persons</span></span>](marketing-create-contact-persons.md)  
+[<span data-ttu-id="7c5d8-130">Oprette kontaktvirksomheder</span><span class="sxs-lookup"><span data-stu-id="7c5d8-130">Creating Contact Companies</span></span>](marketing-create-contact-companies.md)  
+[<span data-ttu-id="7c5d8-131">Arbejde med Financials</span><span class="sxs-lookup"><span data-stu-id="7c5d8-131">Working with Financials</span></span>](ui-work-product.md)
 

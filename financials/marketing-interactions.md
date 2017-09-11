@@ -16,45 +16,44 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="managing-interactions-with-contacts"></a>Administration af interaktioner med kontakter
-I [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, fax, mail, telefon, møder osv.
+# <a name="managing-interactions-with-contacts"></a><span data-ttu-id="5427f-103">Administration af interaktioner med kontakter</span><span class="sxs-lookup"><span data-stu-id="5427f-103">Managing Interactions With Contacts</span></span>
+<span data-ttu-id="5427f-104">I [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter.</span><span class="sxs-lookup"><span data-stu-id="5427f-104">In [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], interactions are all types of communications between your company and your contacts.</span></span> <span data-ttu-id="5427f-105">F.eks. kan kommunikation foregå via brev, fax, mail, telefon, møder osv.</span><span class="sxs-lookup"><span data-stu-id="5427f-105">For example, communications can be by letter, fax, email, telephone, meetings, and so on.</span></span>
 
-I relationsstyringsområdet kan du registrere alle de interaktioner, du har med kontakter. Det sætter dig i stand til at holde styr på de salgs- og marketingstiltag, du har iværksat i forbindelse med kontakterne, og til at forbedre de fremtidige forretningsinteraktioner med dem. Konfiguration af programmet til at registrere interaktioner består af disse opgaver:
+<span data-ttu-id="5427f-106">I relationsstyringsområdet kan du registrere alle de interaktioner, du har med kontakter. Det sætter dig i stand til at holde styr på de salgs- og marketingstiltag, du har iværksat i forbindelse med kontakterne, og til at forbedre de fremtidige forretningsinteraktioner med dem.</span><span class="sxs-lookup"><span data-stu-id="5427f-106">The relationship management area enables you to record all the interactions you have with your contacts in order to keep track of the sales and marketing efforts you have directed at your contacts and to improve your future business interactions with them.</span></span> <span data-ttu-id="5427f-107">Konfiguration af programmet til at registrere interaktioner består af disse opgaver:</span><span class="sxs-lookup"><span data-stu-id="5427f-107">Setting up your application to record interactions consists of these tasks:</span></span>
 
-* Konfiguration af interaktionsskabeloner  
-* Oprettelse af interaktioner i kontakter eller målgrupper  
-* Få vist og administrere registrerede interaktioner  
+* <span data-ttu-id="5427f-108">Konfiguration af interaktionsskabeloner</span><span class="sxs-lookup"><span data-stu-id="5427f-108">Setting up interaction templates</span></span>  
+* <span data-ttu-id="5427f-109">Oprettelse af interaktioner i kontakter eller målgrupper</span><span class="sxs-lookup"><span data-stu-id="5427f-109">Creating interactions on contacts or segments</span></span>  
+* <span data-ttu-id="5427f-110">Få vist og administrere registrerede interaktioner</span><span class="sxs-lookup"><span data-stu-id="5427f-110">View and manage recorded interactions</span></span>  
 
-##  <a name="setting-up-interaction-templates"></a>Konfiguration af interaktionsskabeloner
-Du skal konfigurere interaktionsskabeloner, før du kan oprette og registrere interaktioner. Når du skal oprette interaktioner, skal du angive de skabeloner, som interaktionerne er baseret på. En interaktionsskabelon en model, der definerer grundlæggende karakteristika for en interaktion.
-Du konfigurerer en interaktionsskabelon i vinduet **Interaktionsskabeloner**.  
+##  <a name="setting-up-interaction-templates"></a><span data-ttu-id="5427f-111">Konfiguration af interaktionsskabeloner</span><span class="sxs-lookup"><span data-stu-id="5427f-111">Setting up Interaction Templates</span></span>
+<span data-ttu-id="5427f-112">Du skal konfigurere interaktionsskabeloner, før du kan oprette og registrere interaktioner.</span><span class="sxs-lookup"><span data-stu-id="5427f-112">Before you can create and record interactions, you must set up interaction templates.</span></span> <span data-ttu-id="5427f-113">Når du skal oprette interaktioner, skal du angive de skabeloner, som interaktionerne er baseret på.</span><span class="sxs-lookup"><span data-stu-id="5427f-113">When creating interactions, you must specify the interaction templates they are based on.</span></span> <span data-ttu-id="5427f-114">En interaktionsskabelon en model, der definerer grundlæggende karakteristika for en interaktion.</span><span class="sxs-lookup"><span data-stu-id="5427f-114">An interaction template is a model that defines the basic characteristics of an interaction.</span></span>
+<span data-ttu-id="5427f-115">Du konfigurerer en interaktionsskabelon i vinduet **Interaktionsskabeloner**.</span><span class="sxs-lookup"><span data-stu-id="5427f-115">You set up an interaction template in the **Interaction Templates** window.</span></span>  
 
-## <a name="creating-interactions"></a>Oprette interaktioner
-Interaktioner kan registreres på to måder:
+## <a name="creating-interactions"></a><span data-ttu-id="5427f-116">Oprette interaktioner</span><span class="sxs-lookup"><span data-stu-id="5427f-116">Creating Interactions</span></span>
+<span data-ttu-id="5427f-117">Interaktioner kan registreres på to måder:</span><span class="sxs-lookup"><span data-stu-id="5427f-117">There are two ways of recording interactions:</span></span>
 
-* Du kan oprette interaktioner manuelt, der er knyttet til en enkelt kontakt eller en målgruppe. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette interaktioner for kontakter og målgrupper](marketing-how-create-interactions.md).  
-* Du kan automatisk registrere interaktioner, når du udfører handlinger i programmet, f.eks. når du udskriver en faktura eller et tilbud. Du kan finde flere oplysninger i [Automatisk registrere interaktioner med kontakter](marketing-auto-record-interactions.md).
+* <span data-ttu-id="5427f-118">Du kan oprette interaktioner manuelt, der er knyttet til en enkelt kontakt eller en målgruppe.</span><span class="sxs-lookup"><span data-stu-id="5427f-118">You can manually create interactions that are linked to a single contact or to a segment.</span></span> <span data-ttu-id="5427f-119">Du kan finde flere oplysninger i [Fremgangsmåde: Oprette interaktioner for kontakter og målgrupper](marketing-how-create-interactions.md).</span><span class="sxs-lookup"><span data-stu-id="5427f-119">For more information, see [How to: Create Interactions on Contacts and Segments](marketing-how-create-interactions.md).</span></span>  
+* <span data-ttu-id="5427f-120">Du kan automatisk registrere interaktioner, når du udfører handlinger i programmet, f.eks. når du udskriver en faktura eller et tilbud.</span><span class="sxs-lookup"><span data-stu-id="5427f-120">You can automatically record interactions when you perform actions in the application, for example, when you print an invoice, or quote.</span></span> <span data-ttu-id="5427f-121">Du kan finde flere oplysninger i [Automatisk registrere interaktioner med kontakter](marketing-auto-record-interactions.md).</span><span class="sxs-lookup"><span data-stu-id="5427f-121">For more information, see [Automatically Record Interactions with Contacts](marketing-auto-record-interactions.md).</span></span>
 
-## <a name="viewing-and-managing-recorded-interactions"></a>Visning og administration af registrerede interaktioner
-Brug vinduet **Interaktionslogposter** til at se alle de registrerede interaktioner, som ikke er blevet slettet. Du kan åbne vinduet ved at:
+## <a name="viewing-and-managing-recorded-interactions"></a><span data-ttu-id="5427f-122">Visning og administration af registrerede interaktioner</span><span class="sxs-lookup"><span data-stu-id="5427f-122">Viewing and managing Recorded Interactions</span></span>
+<span data-ttu-id="5427f-123">Brug vinduet **Interaktionslogposter** til at se alle de registrerede interaktioner, som ikke er blevet slettet.</span><span class="sxs-lookup"><span data-stu-id="5427f-123">You can view all the recorded interactions that have not been deleted in the **Interaction Log Entries** window.</span></span> <span data-ttu-id="5427f-124">Du kan åbne vinduet ved at:</span><span class="sxs-lookup"><span data-stu-id="5427f-124">You can open this window by:</span></span>
 
-* Bruge ikonet **Søg efter side eller rapport** til at søge på **Interaktionslogposter**.
-* Vælge handlingen **Interaktionslogposter** i en kontakt eller en målgruppe.
-  Vinduet **Interaktionslogpost** indeholder både de interaktioner, du opretter manuelt, og dem, som registreres automatisk af programmet.
+* <span data-ttu-id="5427f-125">Bruge ikonet **Søg efter side eller rapport** til at søge på **Interaktionslogposter**.</span><span class="sxs-lookup"><span data-stu-id="5427f-125">Using the **Search for Page or Report** icon to search on **Interaction Log Entries**.</span></span>
+* <span data-ttu-id="5427f-126">Vælge handlingen **Interaktionslogposter** i en kontakt eller en målgruppe.</span><span class="sxs-lookup"><span data-stu-id="5427f-126">Choosing the **Interaction Log Entries** action on a contact or segment.</span></span>
+  <span data-ttu-id="5427f-127">Vinduet **Interaktionslogpost** indeholder både de interaktioner, du opretter manuelt, og dem, som registreres automatisk af programmet.</span><span class="sxs-lookup"><span data-stu-id="5427f-127">The **Interaction Log Entry** window contains the interactions you create manually and the interactions that the application records automatically.</span></span>
 
-I dette vindue kan du:
+<span data-ttu-id="5427f-128">I dette vindue kan du:</span><span class="sxs-lookup"><span data-stu-id="5427f-128">In this window, you can:</span></span>
 
-* Få vist status for interaktioner.
-* Markere interaktioner som annulleret.
+* <span data-ttu-id="5427f-129">Få vist status for interaktioner.</span><span class="sxs-lookup"><span data-stu-id="5427f-129">View the status of interactions.</span></span>
+* <span data-ttu-id="5427f-130">Markere interaktioner som annulleret.</span><span class="sxs-lookup"><span data-stu-id="5427f-130">Mark interactions as canceled.</span></span>
 
-Du kan slette interaktionslogposter, der er blevet annulleret. For at slette interaktionslogposter skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Slet annullerede interaktionslogposter** og derefter vælge det relaterede link og angive oplysningerne.
+<span data-ttu-id="5427f-131">Du kan slette interaktionslogposter, der er blevet annulleret.</span><span class="sxs-lookup"><span data-stu-id="5427f-131">You can delete interaction log entries that have been canceled.</span></span> <span data-ttu-id="5427f-132">For at slette interaktionslogposter skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Slet annullerede interaktionslogposter** og derefter vælge det relaterede link og angive oplysningerne.</span><span class="sxs-lookup"><span data-stu-id="5427f-132">To delete interaction log entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Delete Canceled Interaction Log Entries**, and then choose the related link, and then fill in the information.</span></span>
 
-## <a name="see-also"></a>Se også
-[Administrere kontakter](marketing-contacts.md)  
-[Administrere salgsleads](marketing-manage-sales-opportunities.md)  
-[Arbejde med Financials](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="5427f-133">Se også</span><span class="sxs-lookup"><span data-stu-id="5427f-133">See Also</span></span>
+[<span data-ttu-id="5427f-134">Administrere kontakter</span><span class="sxs-lookup"><span data-stu-id="5427f-134">Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="5427f-135">Administrere salgsleads</span><span class="sxs-lookup"><span data-stu-id="5427f-135">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="5427f-136">Arbejde med Financials</span><span class="sxs-lookup"><span data-stu-id="5427f-136">Working with Financials</span></span>](ui-work-product.md)  
 

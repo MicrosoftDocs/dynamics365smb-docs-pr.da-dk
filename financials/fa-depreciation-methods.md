@@ -16,346 +16,346 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="depreciation-methods"></a>Afskrivningsmetoder
-Der er otte tilgængelige metoder til afskrivning:  
+# <a name="depreciation-methods"></a><span data-ttu-id="af888-103">Afskrivningsmetoder</span><span class="sxs-lookup"><span data-stu-id="af888-103">Depreciation Methods</span></span>
+<span data-ttu-id="af888-104">Der er otte tilgængelige metoder til afskrivning:</span><span class="sxs-lookup"><span data-stu-id="af888-104">There are eight methods of depreciation available:</span></span>  
 
-* Lineær  
-* Saldo 1  
-* Saldo 2  
-* Saldo 1/Lineær  
-* Saldo 2/Lineær  
-* Brugerdefineret  
-* Manuelt  
-
-  > [!NOTE]  
->   Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord. Du skal angive afskrivningen i anlægskassekladden. Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.  
-* Halvårlig afskrivning  
+* <span data-ttu-id="af888-105">Lineær</span><span class="sxs-lookup"><span data-stu-id="af888-105">Straight-Line</span></span>  
+* <span data-ttu-id="af888-106">Saldo 1</span><span class="sxs-lookup"><span data-stu-id="af888-106">Declining-Balance 1</span></span>  
+* <span data-ttu-id="af888-107">Saldo 2</span><span class="sxs-lookup"><span data-stu-id="af888-107">Declining-Balance 2</span></span>  
+* <span data-ttu-id="af888-108">Saldo 1/Lineær</span><span class="sxs-lookup"><span data-stu-id="af888-108">DB1/SL</span></span>  
+* <span data-ttu-id="af888-109">Saldo 2/Lineær</span><span class="sxs-lookup"><span data-stu-id="af888-109">DB2/SL</span></span>  
+* <span data-ttu-id="af888-110">Brugerdefineret</span><span class="sxs-lookup"><span data-stu-id="af888-110">User-defined</span></span>  
+* <span data-ttu-id="af888-111">Manuelt</span><span class="sxs-lookup"><span data-stu-id="af888-111">Manual</span></span>  
 
   > [!NOTE]  
->    Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.  
+>   <span data-ttu-id="af888-112">Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord.</span><span class="sxs-lookup"><span data-stu-id="af888-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="af888-113">Du skal angive afskrivningen i anlægskassekladden.</span><span class="sxs-lookup"><span data-stu-id="af888-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="af888-114">Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.</span><span class="sxs-lookup"><span data-stu-id="af888-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+* <span data-ttu-id="af888-115">Halvårlig afskrivning</span><span class="sxs-lookup"><span data-stu-id="af888-115">Half-Year Convention</span></span>  
 
-## <a name="straight-line-depreciation"></a>Lineær afskrivning
-Når du bruger den lineære metode, skal du angive en af følgende indstillinger i anlægsafskrivningsprofilen:  
+  > [!NOTE]  
+>    <span data-ttu-id="af888-116">Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.</span><span class="sxs-lookup"><span data-stu-id="af888-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
-* Afskrivningsperioden (år eller måneder) eller en afskrivningsslutdato  
-* En fast årlig procent  
-* Et fast årligt beløb  
-* Afskrivningsperiode  
+## <a name="straight-line-depreciation"></a><span data-ttu-id="af888-117">Lineær afskrivning</span><span class="sxs-lookup"><span data-stu-id="af888-117">Straight-Line Depreciation</span></span>
+<span data-ttu-id="af888-118">Når du bruger den lineære metode, skal du angive en af følgende indstillinger i anlægsafskrivningsprofilen:</span><span class="sxs-lookup"><span data-stu-id="af888-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
 
-### <a name="depreciation-period"></a>Afskrivningsperiode
-Hvis du angiver afskrivningsperioden (antal afskrivningsår, antal afskrivningsmåneder eller afskrivningsslutdatoen), beregner følgende formel afskrivningsbeløbet:  
+* <span data-ttu-id="af888-119">Afskrivningsperioden (år eller måneder) eller en afskrivningsslutdato</span><span class="sxs-lookup"><span data-stu-id="af888-119">The depreciation period (years or months) or a depreciation ending date</span></span>  
+* <span data-ttu-id="af888-120">En fast årlig procent</span><span class="sxs-lookup"><span data-stu-id="af888-120">A fixed yearly percentage</span></span>  
+* <span data-ttu-id="af888-121">Et fast årligt beløb</span><span class="sxs-lookup"><span data-stu-id="af888-121">A fixed yearly amount</span></span>  
+* <span data-ttu-id="af888-122">Afskrivningsperiode</span><span class="sxs-lookup"><span data-stu-id="af888-122">Depreciation period</span></span>  
 
-*Afskrivningsbeløb = ((Bogført værdi - Skrapværdi) x Antal afskrivningsdage) / Resterende afskrivningsdage*  
+### <a name="depreciation-period"></a><span data-ttu-id="af888-123">Afskrivningsperiode</span><span class="sxs-lookup"><span data-stu-id="af888-123">Depreciation Period</span></span>
+<span data-ttu-id="af888-124">Hvis du angiver afskrivningsperioden (antal afskrivningsår, antal afskrivningsmåneder eller afskrivningsslutdatoen), beregner følgende formel afskrivningsbeløbet:</span><span class="sxs-lookup"><span data-stu-id="af888-124">If you enter the depreciation period (the number of depreciation years, the number of depreciation months, or the depreciation ending date), the following formula calculates the depreciation amount:</span></span>  
 
-De resterende afskrivningsdage beregnes som antallet af afskrivningsdage minus antallet af dage mellem afskrivningens startdato og datoen for den sidste anlægspost.  
+<span data-ttu-id="af888-125">*Afskrivningsbeløb = ((Bogført værdi - Skrapværdi) x Antal afskrivningsdage) / Resterende afskrivningsdage*</span><span class="sxs-lookup"><span data-stu-id="af888-125">*Depreciation Amount = ((Book value - Salvage Value) x Number of Depreciation Days) / Remaining Depreciation Days*</span></span>  
 
-Den bogførte værdi kan reduceres med beløb for bogført afskrivning, nedskrivning, bruger 1 og bruger 2, afhængigt af om feltet **Del af afskrivningsberegning** er deaktiveret, og om feltet **Del af bogført værdi** i vinduet **Anlægsbogf.typeopsætning** er aktiveret. Med denne beregning sikres det, at anlægsaktivet et fuldstændigt afskrevet ved slutdatoen for afskrivningen.  
+<span data-ttu-id="af888-126">De resterende afskrivningsdage beregnes som antallet af afskrivningsdage minus antallet af dage mellem afskrivningens startdato og datoen for den sidste anlægspost.</span><span class="sxs-lookup"><span data-stu-id="af888-126">Remaining depreciation days are calculated as the number of depreciation days minus the number of days between the depreciation starting date and the last fixed asset entry date.</span></span>  
 
-### <a name="fixed-yearly-percentage"></a>Fast årlig procent
-Hvis du har angivet en fast årlig procent, bruges følgende formel til at beregne afskrivningsbeløbet:  
+<span data-ttu-id="af888-127">Den bogførte værdi kan reduceres med beløb for bogført afskrivning, nedskrivning, bruger 1 og bruger 2, afhængigt af om feltet **Del af afskrivningsberegning** er deaktiveret, og om feltet **Del af bogført værdi** i vinduet **Anlægsbogf.typeopsætning** er aktiveret.</span><span class="sxs-lookup"><span data-stu-id="af888-127">Book value may be reduced by posted appreciation, write-down, custom 1 or custom 2 amounts, depending on whether the **Include in Depr. Calculation** field is deactivated and whether the **Part of Book Value** field is activated in the **FA Posting Type Setup** window.</span></span> <span data-ttu-id="af888-128">Med denne beregning sikres det, at anlægsaktivet et fuldstændigt afskrevet ved slutdatoen for afskrivningen.</span><span class="sxs-lookup"><span data-stu-id="af888-128">This calculation ensures that the fixed asset is fully depreciated at the depreciation ending date.</span></span>  
 
-Afskrivningsbeløb = (Lineær pct. x Afskrivningsgrundlag x Antal afskrivnings- dage) / (100 x 360)  
+### <a name="fixed-yearly-percentage"></a><span data-ttu-id="af888-129">Fast årlig procent</span><span class="sxs-lookup"><span data-stu-id="af888-129">Fixed Yearly Percentage</span></span>
+<span data-ttu-id="af888-130">Hvis du har angivet en fast årlig procent, bruges følgende formel til at beregne afskrivningsbeløbet:</span><span class="sxs-lookup"><span data-stu-id="af888-130">If you enter a fixed yearly percentage, the program uses the following formula to calculate the depreciation amount:</span></span>  
 
-### <a name="fixed-yearly-amount"></a>Fast årligt beløb
-Hvis du angiver et fast årligt beløb, bruges denne formel til at beregne afskrivningsbeløbet:  
+<span data-ttu-id="af888-131">Afskrivningsbeløb = (Lineær pct. x Afskrivningsgrundlag x Antal afskrivnings-</span><span class="sxs-lookup"><span data-stu-id="af888-131">Depreciation Amount = (Straight-Line % x Depreciable Basis x Number of Depr.</span></span> <span data-ttu-id="af888-132">dage) / (100 x 360)</span><span class="sxs-lookup"><span data-stu-id="af888-132">Days) / (100 x 360)</span></span>  
 
-Afskrivningsbeløb = (Fast afskrivningsbeløb x Antal afskrivningsdage) / 360  
+### <a name="fixed-yearly-amount"></a><span data-ttu-id="af888-133">Fast årligt beløb</span><span class="sxs-lookup"><span data-stu-id="af888-133">Fixed Yearly Amount</span></span>
+<span data-ttu-id="af888-134">Hvis du angiver et fast årligt beløb, bruges denne formel til at beregne afskrivningsbeløbet:</span><span class="sxs-lookup"><span data-stu-id="af888-134">If you enter a fixed yearly amount, the program uses this formula to calculate the depreciation amount:</span></span>  
 
-### <a name="example---straight-line-depreciation"></a>Eksempel – Lineær afskrivnings
-Et anlægsaktiv har en anskaffelsespris på DKK 100.000. Den anslåede levetid er otte år. Kørslen **Beregn afskrivninger** køres to gange om året.  
+<span data-ttu-id="af888-135">Afskrivningsbeløb = (Fast afskrivningsbeløb x Antal afskrivningsdage) / 360</span><span class="sxs-lookup"><span data-stu-id="af888-135">Depreciation Amount = (Fixed Depreciation Amount x Number of Depreciation Days) / 360</span></span>  
 
-I dette eksempel ser anlægsposten sådan ud:  
+### <a name="example---straight-line-depreciation"></a><span data-ttu-id="af888-136">Eksempel – Lineær afskrivnings</span><span class="sxs-lookup"><span data-stu-id="af888-136">Example - Straight-Line Depreciation</span></span>
+<span data-ttu-id="af888-137">Et anlægsaktiv har en anskaffelsespris på DKK 100.000.</span><span class="sxs-lookup"><span data-stu-id="af888-137">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="af888-138">Den anslåede levetid er otte år.</span><span class="sxs-lookup"><span data-stu-id="af888-138">The estimated life is eight years.</span></span> <span data-ttu-id="af888-139">Kørslen **Beregn afskrivninger** køres to gange om året.</span><span class="sxs-lookup"><span data-stu-id="af888-139">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
+<span data-ttu-id="af888-140">I dette eksempel ser anlægsposten sådan ud:</span><span class="sxs-lookup"><span data-stu-id="af888-140">For this example, the fixed asset ledger entry looks like this:</span></span>  
+
+| <span data-ttu-id="af888-141">Dato</span><span class="sxs-lookup"><span data-stu-id="af888-141">Date</span></span> | <span data-ttu-id="af888-142">Anlægsbogføringstype</span><span class="sxs-lookup"><span data-stu-id="af888-142">FA Posting Type</span></span> | <span data-ttu-id="af888-143">Dage</span><span class="sxs-lookup"><span data-stu-id="af888-143">Days</span></span> | <span data-ttu-id="af888-144">Beløb</span><span class="sxs-lookup"><span data-stu-id="af888-144">Amount</span></span> | <span data-ttu-id="af888-145">Bogført værdi</span><span class="sxs-lookup"><span data-stu-id="af888-145">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01-01-10 |Anskaffelse |* |100,000.00 |100,000.00 |
-| 30-06-10 |Afskrivninger |180 |-6.250,00 |93,750.00 |
-| 31-12-10 |Afskrivninger |180 |-6.250,00 |87,500.00 |
-| 30-06-11 |Afskrivninger |180 |-6.250,00 |81,250.00 |
-| 31-12-11 |Afskrivninger |180 |-6.250,00 |75,000.00 |
-| 30-06-17 |Afskrivninger |180 |-6.250,00 |6,250.00 |
-| 31-12-17 |Afskrivninger |180 |-6.250,00 |0 |
+| <span data-ttu-id="af888-146">01-01-10</span><span class="sxs-lookup"><span data-stu-id="af888-146">01/01/10</span></span> |<span data-ttu-id="af888-147">Anskaffelse</span><span class="sxs-lookup"><span data-stu-id="af888-147">Acquisition Cost</span></span> |* |<span data-ttu-id="af888-148">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-148">100,000.00</span></span> |<span data-ttu-id="af888-149">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-149">100,000.00</span></span> |
+| <span data-ttu-id="af888-150">30-06-10</span><span class="sxs-lookup"><span data-stu-id="af888-150">06/30/10</span></span> |<span data-ttu-id="af888-151">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-151">Depreciation</span></span> |<span data-ttu-id="af888-152">180</span><span class="sxs-lookup"><span data-stu-id="af888-152">180</span></span> |<span data-ttu-id="af888-153">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="af888-153">-6,250.00</span></span> |<span data-ttu-id="af888-154">93,750.00</span><span class="sxs-lookup"><span data-stu-id="af888-154">93,750.00</span></span> |
+| <span data-ttu-id="af888-155">31-12-10</span><span class="sxs-lookup"><span data-stu-id="af888-155">12/31/10</span></span> |<span data-ttu-id="af888-156">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-156">Depreciation</span></span> |<span data-ttu-id="af888-157">180</span><span class="sxs-lookup"><span data-stu-id="af888-157">180</span></span> |<span data-ttu-id="af888-158">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="af888-158">-6,250.00</span></span> |<span data-ttu-id="af888-159">87,500.00</span><span class="sxs-lookup"><span data-stu-id="af888-159">87,500.00</span></span> |
+| <span data-ttu-id="af888-160">30-06-11</span><span class="sxs-lookup"><span data-stu-id="af888-160">06/30/11</span></span> |<span data-ttu-id="af888-161">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-161">Depreciation</span></span> |<span data-ttu-id="af888-162">180</span><span class="sxs-lookup"><span data-stu-id="af888-162">180</span></span> |<span data-ttu-id="af888-163">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="af888-163">-6,250.00</span></span> |<span data-ttu-id="af888-164">81,250.00</span><span class="sxs-lookup"><span data-stu-id="af888-164">81,250.00</span></span> |
+| <span data-ttu-id="af888-165">31-12-11</span><span class="sxs-lookup"><span data-stu-id="af888-165">12/31/11</span></span> |<span data-ttu-id="af888-166">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-166">Depreciation</span></span> |<span data-ttu-id="af888-167">180</span><span class="sxs-lookup"><span data-stu-id="af888-167">180</span></span> |<span data-ttu-id="af888-168">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="af888-168">-6,250.00</span></span> |<span data-ttu-id="af888-169">75,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-169">75,000.00</span></span> |
+| <span data-ttu-id="af888-170">30-06-17</span><span class="sxs-lookup"><span data-stu-id="af888-170">06/30/17</span></span> |<span data-ttu-id="af888-171">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-171">Depreciation</span></span> |<span data-ttu-id="af888-172">180</span><span class="sxs-lookup"><span data-stu-id="af888-172">180</span></span> |<span data-ttu-id="af888-173">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="af888-173">-6,250.00</span></span> |<span data-ttu-id="af888-174">6,250.00</span><span class="sxs-lookup"><span data-stu-id="af888-174">6,250.00</span></span> |
+| <span data-ttu-id="af888-175">31-12-17</span><span class="sxs-lookup"><span data-stu-id="af888-175">12/31/17</span></span> |<span data-ttu-id="af888-176">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-176">Depreciation</span></span> |<span data-ttu-id="af888-177">180</span><span class="sxs-lookup"><span data-stu-id="af888-177">180</span></span> |<span data-ttu-id="af888-178">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="af888-178">-6,250.00</span></span> |<span data-ttu-id="af888-179">0</span><span class="sxs-lookup"><span data-stu-id="af888-179">0</span></span> |
 
-* Afskrivningens startdato  
+* <span data-ttu-id="af888-180">Afskrivningens startdato</span><span class="sxs-lookup"><span data-stu-id="af888-180">Depreciation starting date</span></span>  
 
-## <a name="declining-balance-1-depreciation"></a>Saldo 1-afskrivning
-Denne hurtige afskrivningsmetode allokerer den største del af omkostningerne ved et anlægsaktiv til de første år af anlæggets nyttige levetid. Hvis du bruger denne metode, skal du angive en fast årlig procent.  
+## <a name="declining-balance-1-depreciation"></a><span data-ttu-id="af888-181">Saldo 1-afskrivning</span><span class="sxs-lookup"><span data-stu-id="af888-181">Declining-Balance 1 Depreciation</span></span>
+<span data-ttu-id="af888-182">Denne hurtige afskrivningsmetode allokerer den største del af omkostningerne ved et anlægsaktiv til de første år af anlæggets nyttige levetid.</span><span class="sxs-lookup"><span data-stu-id="af888-182">This accelerated depreciation method allocates the largest portion of the cost of an asset to the early years of its useful lifetime.</span></span> <span data-ttu-id="af888-183">Hvis du bruger denne metode, skal du angive en fast årlig procent.</span><span class="sxs-lookup"><span data-stu-id="af888-183">If you use this method, you must enter a fixed yearly percentage.</span></span>  
 
-Følgende formel beregner afskrivningsbeløb:  
+<span data-ttu-id="af888-184">Følgende formel beregner afskrivningsbeløb:</span><span class="sxs-lookup"><span data-stu-id="af888-184">The following formula calculates depreciation amounts:</span></span>  
 
-*Afskrivningsbeløb = (Saldoprocent x Antal afskrivningsdage x Afskrivningsgrundlag) / (100 x 360)*  
+<span data-ttu-id="af888-185">*Afskrivningsbeløb = (Saldoprocent x Antal afskrivningsdage x Afskrivningsgrundlag) / (100 x 360)*</span><span class="sxs-lookup"><span data-stu-id="af888-185">*Depreciation Amount = (Declining-Bal. % x Number of Depreciation Days x Depr. Basis) / (100 x 360)*</span></span>  
 
-Afskrivningsgrundlaget beregnes som den bogførte værdi minus bogført afskrivning efter startdatoen på det aktuelle regnskabsår.  
+<span data-ttu-id="af888-186">Afskrivningsgrundlaget beregnes som den bogførte værdi minus bogført afskrivning efter startdatoen på det aktuelle regnskabsår.</span><span class="sxs-lookup"><span data-stu-id="af888-186">The depreciable basis is calculated as the book value less posted depreciation since the starting date of the current fiscal year.</span></span>  
 
-Det bogførte afskrivningsbeløb kan indeholde poster med forskellige bogføringstyper (nedskrivning, bruger1 og bruger2) efter startdatoen på det aktuelle regnskabsår. Disse bogføringstyper er inkluderet i det bogførte afskrivningsbeløb, hvis afkrydsningsfelterne **Afskrivningstype** og **Del af bogført værdi** er markeret i vinduet **Anlægsbogf.typeopsætning**.  
+<span data-ttu-id="af888-187">Det bogførte afskrivningsbeløb kan indeholde poster med forskellige bogføringstyper (nedskrivning, bruger1 og bruger2) efter startdatoen på det aktuelle regnskabsår.</span><span class="sxs-lookup"><span data-stu-id="af888-187">The posted depreciation amount can contain entries with various posting types (write-down, custom1, and custom2) posted since the starting date of the current fiscal year.</span></span> <span data-ttu-id="af888-188">Disse bogføringstyper er inkluderet i det bogførte afskrivningsbeløb, hvis afkrydsningsfelterne **Afskrivningstype** og **Del af bogført værdi** er markeret i vinduet **Anlægsbogf.typeopsætning**.</span><span class="sxs-lookup"><span data-stu-id="af888-188">These posting types are included in the posted depreciation amount if there are check marks in the **Depreciation Type** and the **Part of Book Value** fields in the **FA Posting Type Setup** window.</span></span>  
 
-### <a name="example---declining-balance-1-depreciation"></a>Eksempel – Saldo 1 afskrivning
-Et anlægsaktiv har en anskaffelsespris på DKK 100.000. Feltet **Saldopct.** er angivet til 25. Kørslen **Beregn afskrivninger** køres to gange om året.  
+### <a name="example---declining-balance-1-depreciation"></a><span data-ttu-id="af888-189">Eksempel – Saldo 1 afskrivning</span><span class="sxs-lookup"><span data-stu-id="af888-189">Example - Declining-Balance 1 Depreciation</span></span>
+<span data-ttu-id="af888-190">Et anlægsaktiv har en anskaffelsespris på DKK 100.000.</span><span class="sxs-lookup"><span data-stu-id="af888-190">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="af888-191">Feltet **Saldopct.** er angivet til 25.</span><span class="sxs-lookup"><span data-stu-id="af888-191">The **Declining-Balance %** field is 25.</span></span> <span data-ttu-id="af888-192">Kørslen **Beregn afskrivninger** køres to gange om året.</span><span class="sxs-lookup"><span data-stu-id="af888-192">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-Følgende tabel viser, hvordan de tilhørende anlægsposter ser ud.  
+<span data-ttu-id="af888-193">Følgende tabel viser, hvordan de tilhørende anlægsposter ser ud.</span><span class="sxs-lookup"><span data-stu-id="af888-193">The following table shows how the fixed asset ledger entries look.</span></span>  
 
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
+| <span data-ttu-id="af888-194">Dato</span><span class="sxs-lookup"><span data-stu-id="af888-194">Date</span></span> | <span data-ttu-id="af888-195">Anlægsbogføringstype</span><span class="sxs-lookup"><span data-stu-id="af888-195">FA Posting Type</span></span> | <span data-ttu-id="af888-196">Dage</span><span class="sxs-lookup"><span data-stu-id="af888-196">Days</span></span> | <span data-ttu-id="af888-197">Beløb</span><span class="sxs-lookup"><span data-stu-id="af888-197">Amount</span></span> | <span data-ttu-id="af888-198">Bogført værdi</span><span class="sxs-lookup"><span data-stu-id="af888-198">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01-01-10 |Anskaffelser |* |100,000.00 |100,000.00 |
-| 30-06-10 |Afskrivninger |180 |-12.500,00 |87,500.00 |
-| 31-12-10 |Afskrivninger |180 |-12.500,00 |75,000.00 |
-| 30-06-11 |Afskrivninger |180 |-9.375,00 |65,625.00 |
-| 31-12-11 |Afskrivninger |180 |-9.375,00 |56,250.00 |
-| 30-06-12 |Afskrivninger |180 |-7.031,25 |49,218.75 |
-| 31-12-12 |Afskrivninger |180 |-7.031,25 |42,187.50 |
-| 30-06-13 |Afskrivninger |180 |-5.273,44 |36,914.06 |
-| 31-12-13 |Afskrivninger |180 |-5.273,44 |31,640.62 |
-| 30-06-14 |Afskrivninger |180 |-3.955,08 |27,685.54 |
-| 31-12-14 |Afskrivninger |180 |-3.955,08 |23,730.46 |
+| <span data-ttu-id="af888-199">01-01-10</span><span class="sxs-lookup"><span data-stu-id="af888-199">01/01/10</span></span> |<span data-ttu-id="af888-200">Anskaffelser</span><span class="sxs-lookup"><span data-stu-id="af888-200">Acquisition Costs</span></span> |* |<span data-ttu-id="af888-201">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-201">100,000.00</span></span> |<span data-ttu-id="af888-202">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-202">100,000.00</span></span> |
+| <span data-ttu-id="af888-203">30-06-10</span><span class="sxs-lookup"><span data-stu-id="af888-203">06/30/10</span></span> |<span data-ttu-id="af888-204">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-204">Depreciation</span></span> |<span data-ttu-id="af888-205">180</span><span class="sxs-lookup"><span data-stu-id="af888-205">180</span></span> |<span data-ttu-id="af888-206">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="af888-206">-12,500.00</span></span> |<span data-ttu-id="af888-207">87,500.00</span><span class="sxs-lookup"><span data-stu-id="af888-207">87,500.00</span></span> |
+| <span data-ttu-id="af888-208">31-12-10</span><span class="sxs-lookup"><span data-stu-id="af888-208">12/31/10</span></span> |<span data-ttu-id="af888-209">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-209">Depreciation</span></span> |<span data-ttu-id="af888-210">180</span><span class="sxs-lookup"><span data-stu-id="af888-210">180</span></span> |<span data-ttu-id="af888-211">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="af888-211">-12,500.00</span></span> |<span data-ttu-id="af888-212">75,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-212">75,000.00</span></span> |
+| <span data-ttu-id="af888-213">30-06-11</span><span class="sxs-lookup"><span data-stu-id="af888-213">06/30/11</span></span> |<span data-ttu-id="af888-214">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-214">Depreciation</span></span> |<span data-ttu-id="af888-215">180</span><span class="sxs-lookup"><span data-stu-id="af888-215">180</span></span> |<span data-ttu-id="af888-216">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="af888-216">-9,375.00</span></span> |<span data-ttu-id="af888-217">65,625.00</span><span class="sxs-lookup"><span data-stu-id="af888-217">65,625.00</span></span> |
+| <span data-ttu-id="af888-218">31-12-11</span><span class="sxs-lookup"><span data-stu-id="af888-218">12/31/11</span></span> |<span data-ttu-id="af888-219">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-219">Depreciation</span></span> |<span data-ttu-id="af888-220">180</span><span class="sxs-lookup"><span data-stu-id="af888-220">180</span></span> |<span data-ttu-id="af888-221">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="af888-221">-9,375.00</span></span> |<span data-ttu-id="af888-222">56,250.00</span><span class="sxs-lookup"><span data-stu-id="af888-222">56,250.00</span></span> |
+| <span data-ttu-id="af888-223">30-06-12</span><span class="sxs-lookup"><span data-stu-id="af888-223">06/30/12</span></span> |<span data-ttu-id="af888-224">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-224">Depreciation</span></span> |<span data-ttu-id="af888-225">180</span><span class="sxs-lookup"><span data-stu-id="af888-225">180</span></span> |<span data-ttu-id="af888-226">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="af888-226">-7,031.25</span></span> |<span data-ttu-id="af888-227">49,218.75</span><span class="sxs-lookup"><span data-stu-id="af888-227">49,218.75</span></span> |
+| <span data-ttu-id="af888-228">31-12-12</span><span class="sxs-lookup"><span data-stu-id="af888-228">12/31/12</span></span> |<span data-ttu-id="af888-229">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-229">Depreciation</span></span> |<span data-ttu-id="af888-230">180</span><span class="sxs-lookup"><span data-stu-id="af888-230">180</span></span> |<span data-ttu-id="af888-231">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="af888-231">-7,031.25</span></span> |<span data-ttu-id="af888-232">42,187.50</span><span class="sxs-lookup"><span data-stu-id="af888-232">42,187.50</span></span> |
+| <span data-ttu-id="af888-233">30-06-13</span><span class="sxs-lookup"><span data-stu-id="af888-233">06/30/13</span></span> |<span data-ttu-id="af888-234">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-234">Depreciation</span></span> |<span data-ttu-id="af888-235">180</span><span class="sxs-lookup"><span data-stu-id="af888-235">180</span></span> |<span data-ttu-id="af888-236">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="af888-236">-5,273.44</span></span> |<span data-ttu-id="af888-237">36,914.06</span><span class="sxs-lookup"><span data-stu-id="af888-237">36,914.06</span></span> |
+| <span data-ttu-id="af888-238">31-12-13</span><span class="sxs-lookup"><span data-stu-id="af888-238">12/31/13</span></span> |<span data-ttu-id="af888-239">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-239">Depreciation</span></span> |<span data-ttu-id="af888-240">180</span><span class="sxs-lookup"><span data-stu-id="af888-240">180</span></span> |<span data-ttu-id="af888-241">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="af888-241">-5,273.44</span></span> |<span data-ttu-id="af888-242">31,640.62</span><span class="sxs-lookup"><span data-stu-id="af888-242">31,640.62</span></span> |
+| <span data-ttu-id="af888-243">30-06-14</span><span class="sxs-lookup"><span data-stu-id="af888-243">06/30/14</span></span> |<span data-ttu-id="af888-244">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-244">Depreciation</span></span> |<span data-ttu-id="af888-245">180</span><span class="sxs-lookup"><span data-stu-id="af888-245">180</span></span> |<span data-ttu-id="af888-246">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="af888-246">-3,955.08</span></span> |<span data-ttu-id="af888-247">27,685.54</span><span class="sxs-lookup"><span data-stu-id="af888-247">27,685.54</span></span> |
+| <span data-ttu-id="af888-248">31-12-14</span><span class="sxs-lookup"><span data-stu-id="af888-248">12/31/14</span></span> |<span data-ttu-id="af888-249">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-249">Depreciation</span></span> |<span data-ttu-id="af888-250">180</span><span class="sxs-lookup"><span data-stu-id="af888-250">180</span></span> |<span data-ttu-id="af888-251">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="af888-251">-3,955.08</span></span> |<span data-ttu-id="af888-252">23,730.46</span><span class="sxs-lookup"><span data-stu-id="af888-252">23,730.46</span></span> |
 
-* Afskrivningens startdato  
+* <span data-ttu-id="af888-253">Afskrivningens startdato</span><span class="sxs-lookup"><span data-stu-id="af888-253">Depreciation starting date</span></span>  
 
-    Beregningsmetode:  
+    <span data-ttu-id="af888-254">Beregningsmetode:</span><span class="sxs-lookup"><span data-stu-id="af888-254">Calculation Method:</span></span>  
 
-    *Første år: 25 % af 100.000 = 25.000 = 12.500 +12.500*
+    <span data-ttu-id="af888-255">*Første år: 25 % af 100.000 = 25.000 = 12.500 +12.500*</span><span class="sxs-lookup"><span data-stu-id="af888-255">*1st Year: 25% of 100,000 = 25,000 = 12,500 + 12,500*</span></span>
 
-    *Andet år: 25 % af 75.000 = 18.750 = 9.375 + 9.375*
+    <span data-ttu-id="af888-256">*Andet år: 25 % af 75.000 = 18.750 = 9.375 + 9.375*</span><span class="sxs-lookup"><span data-stu-id="af888-256">*2nd Year: 25% of 75,000 = 18,750 = 9,375 + 9,375*</span></span>
 
-    *Tredje år: 25 % af 56.250 = 14.062,50 = 7.031,25 + 7.031,25*
+    <span data-ttu-id="af888-257">*Tredje år: 25 % af 56.250 = 14.062,50 = 7.031,25 + 7.031,25*</span><span class="sxs-lookup"><span data-stu-id="af888-257">*3rd Year: 25% of 56,250 = 14,062.50 = 7,031.25 + 7,031.25*</span></span>
 
-    Beregningen fortsætter, indtil den bogførte værdi er lig med det endelige afrundingsbeløb eller den skrapværdi, du har angivet.   
+    <span data-ttu-id="af888-258">Beregningen fortsætter, indtil den bogførte værdi er lig med det endelige afrundingsbeløb eller den skrapværdi, du har angivet.</span><span class="sxs-lookup"><span data-stu-id="af888-258">The calculation continues until the book value equals the final rounding amount or the salvage value that you entered.</span></span>   
 
-## <a name="declining-balance-2-depreciation"></a>Saldo 2-afskrivning
-Med Saldo 1- og Saldo 2-metoderne beregnes det samme totale afskrivningsbeløb for hvert år. Men hvis du udfører kørslen **Beregn afskrivning** mere end én gang om året, vil Saldo 1-metoden resultere i lige store afskrivningsbeløb for hver afskrivningsperiode. Med Saldo 2-metoden bliver resultatet derimod afskrivningsbeløb, der bliver mindre og mindre for hver periode.  
+## <a name="declining-balance-2-depreciation"></a><span data-ttu-id="af888-259">Saldo 2-afskrivning</span><span class="sxs-lookup"><span data-stu-id="af888-259">Declining-Balance 2 Depreciation</span></span>
+<span data-ttu-id="af888-260">Med Saldo 1- og Saldo 2-metoderne beregnes det samme totale afskrivningsbeløb for hvert år.</span><span class="sxs-lookup"><span data-stu-id="af888-260">The Declining-Balance 1 and Declining-Balance 2 methods calculate the same total depreciation amount for each year.</span></span> <span data-ttu-id="af888-261">Men hvis du udfører kørslen **Beregn afskrivning** mere end én gang om året, vil Saldo 1-metoden resultere i lige store afskrivningsbeløb for hver afskrivningsperiode.</span><span class="sxs-lookup"><span data-stu-id="af888-261">However, if you run the **Calculate Depreciation** batch job more than once a year, the Declining-Balance 1 method will result in equal depreciation amounts for each depreciation period.</span></span> <span data-ttu-id="af888-262">Med Saldo 2-metoden bliver resultatet derimod afskrivningsbeløb, der bliver mindre og mindre for hver periode.</span><span class="sxs-lookup"><span data-stu-id="af888-262">The Declining-Balance 2 method, on the other hand, will result in depreciation amounts that decline for each period.</span></span>  
 
-### <a name="example---declining-balance-2-depreciation"></a>Eksempel – Saldo 2 afskrivning
-Et anlægsaktiv har en anskaffelsespris på DKK 100.000. Feltet **Saldopct.** er angivet til 25. Kørslen **Beregn afskrivninger** køres to gange om året. Anlægsposterne ser sådan ud:  
+### <a name="example---declining-balance-2-depreciation"></a><span data-ttu-id="af888-263">Eksempel – Saldo 2 afskrivning</span><span class="sxs-lookup"><span data-stu-id="af888-263">Example - Declining-Balance 2 Depreciation</span></span>
+<span data-ttu-id="af888-264">Et anlægsaktiv har en anskaffelsespris på DKK 100.000.</span><span class="sxs-lookup"><span data-stu-id="af888-264">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="af888-265">Feltet **Saldopct.** er angivet til 25.</span><span class="sxs-lookup"><span data-stu-id="af888-265">The **Declining-Balance %** field is 25.</span></span> <span data-ttu-id="af888-266">Kørslen **Beregn afskrivninger** køres to gange om året.</span><span class="sxs-lookup"><span data-stu-id="af888-266">The **Calculate Depreciation** batch job is run biannually.</span></span> <span data-ttu-id="af888-267">Anlægsposterne ser sådan ud:</span><span class="sxs-lookup"><span data-stu-id="af888-267">The fixed asset ledger entries look like this:</span></span>  
 
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
+| <span data-ttu-id="af888-268">Dato</span><span class="sxs-lookup"><span data-stu-id="af888-268">Date</span></span> | <span data-ttu-id="af888-269">Anlægsbogføringstype</span><span class="sxs-lookup"><span data-stu-id="af888-269">FA Posting Type</span></span> | <span data-ttu-id="af888-270">Dage</span><span class="sxs-lookup"><span data-stu-id="af888-270">Days</span></span> | <span data-ttu-id="af888-271">Beløb</span><span class="sxs-lookup"><span data-stu-id="af888-271">Amount</span></span> | <span data-ttu-id="af888-272">Bogført værdi</span><span class="sxs-lookup"><span data-stu-id="af888-272">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01-01-10 |Anskaffelser |* |100,000.00 |100,000.00 |
-| 30-06-10 |Afskrivninger |180 |-13.397,46 |86,602.54 |
-| 31-12-10 |Afskrivninger |180 |-11.602,54 |75,000.00 |
-| 30-06-11 |Afskrivninger |180 |-10.048,09 |64,951.91 |
-| 31-12-11 |Afskrivninger |180 |-8.701,91 |56,250.00 |
+| <span data-ttu-id="af888-273">01-01-10</span><span class="sxs-lookup"><span data-stu-id="af888-273">01/01/10</span></span> |<span data-ttu-id="af888-274">Anskaffelser</span><span class="sxs-lookup"><span data-stu-id="af888-274">Acquisition Costs</span></span> |* |<span data-ttu-id="af888-275">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-275">100,000.00</span></span> |<span data-ttu-id="af888-276">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-276">100,000.00</span></span> |
+| <span data-ttu-id="af888-277">30-06-10</span><span class="sxs-lookup"><span data-stu-id="af888-277">06/30/10</span></span> |<span data-ttu-id="af888-278">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-278">Depreciation</span></span> |<span data-ttu-id="af888-279">180</span><span class="sxs-lookup"><span data-stu-id="af888-279">180</span></span> |<span data-ttu-id="af888-280">-13.397,46</span><span class="sxs-lookup"><span data-stu-id="af888-280">-13,397.46</span></span> |<span data-ttu-id="af888-281">86,602.54</span><span class="sxs-lookup"><span data-stu-id="af888-281">86,602.54</span></span> |
+| <span data-ttu-id="af888-282">31-12-10</span><span class="sxs-lookup"><span data-stu-id="af888-282">12/31/10</span></span> |<span data-ttu-id="af888-283">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-283">Depreciation</span></span> |<span data-ttu-id="af888-284">180</span><span class="sxs-lookup"><span data-stu-id="af888-284">180</span></span> |<span data-ttu-id="af888-285">-11.602,54</span><span class="sxs-lookup"><span data-stu-id="af888-285">-11,602.54</span></span> |<span data-ttu-id="af888-286">75,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-286">75,000.00</span></span> |
+| <span data-ttu-id="af888-287">30-06-11</span><span class="sxs-lookup"><span data-stu-id="af888-287">06/30/11</span></span> |<span data-ttu-id="af888-288">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-288">Depreciation</span></span> |<span data-ttu-id="af888-289">180</span><span class="sxs-lookup"><span data-stu-id="af888-289">180</span></span> |<span data-ttu-id="af888-290">-10.048,09</span><span class="sxs-lookup"><span data-stu-id="af888-290">-10,048.09</span></span> |<span data-ttu-id="af888-291">64,951.91</span><span class="sxs-lookup"><span data-stu-id="af888-291">64,951.91</span></span> |
+| <span data-ttu-id="af888-292">31-12-11</span><span class="sxs-lookup"><span data-stu-id="af888-292">12/31/11</span></span> |<span data-ttu-id="af888-293">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-293">Depreciation</span></span> |<span data-ttu-id="af888-294">180</span><span class="sxs-lookup"><span data-stu-id="af888-294">180</span></span> |<span data-ttu-id="af888-295">-8.701,91</span><span class="sxs-lookup"><span data-stu-id="af888-295">-8,701.91</span></span> |<span data-ttu-id="af888-296">56,250.00</span><span class="sxs-lookup"><span data-stu-id="af888-296">56,250.00</span></span> |
 
-* Afskrivningens startdato  
+* <span data-ttu-id="af888-297">Afskrivningens startdato</span><span class="sxs-lookup"><span data-stu-id="af888-297">Depreciation starting date</span></span>  
 
-Beregningsmetode:  
+<span data-ttu-id="af888-298">Beregningsmetode:</span><span class="sxs-lookup"><span data-stu-id="af888-298">Calculation Method:</span></span>  
 
-* BV = Bogført værdi  
-* AD = Antal afskrivningsdage  
-* DBP = Saldopct.  
-* P = DBP/100  
-* D = ND/360  
+* <span data-ttu-id="af888-299">BV = Bogført værdi</span><span class="sxs-lookup"><span data-stu-id="af888-299">BV = Book value</span></span>  
+* <span data-ttu-id="af888-300">AD = Antal afskrivningsdage</span><span class="sxs-lookup"><span data-stu-id="af888-300">ND = Number of depreciation days</span></span>  
+* <span data-ttu-id="af888-301">DBP = Saldopct.</span><span class="sxs-lookup"><span data-stu-id="af888-301">DBP = Declining-balance percent</span></span>  
+* <span data-ttu-id="af888-302">P = DBP/100</span><span class="sxs-lookup"><span data-stu-id="af888-302">P = DBP/100</span></span>  
+* <span data-ttu-id="af888-303">D = ND/360</span><span class="sxs-lookup"><span data-stu-id="af888-303">D = ND/360</span></span>  
 
-Formlen for beregning af afskrivningsbeløbet er:  
+<span data-ttu-id="af888-304">Formlen for beregning af afskrivningsbeløbet er:</span><span class="sxs-lookup"><span data-stu-id="af888-304">The formula for calculating the depreciation amounts is:</span></span>  
 
-*AB = BV x (1 – (1 –P)<sup>D<sup>*  
+<span data-ttu-id="af888-305">*AB = BV x (1 – (1 –P)<sup>D<sup>*</span><span class="sxs-lookup"><span data-stu-id="af888-305">*DA = BV x (1 – (1 –P)<sup>D<sup>*</span></span>  
 
-Afskrivningsværdierne er:  
+<span data-ttu-id="af888-306">Afskrivningsværdierne er:</span><span class="sxs-lookup"><span data-stu-id="af888-306">The depreciation values are:</span></span>  
 
-| Dato | Beregning |
+| <span data-ttu-id="af888-307">Dato</span><span class="sxs-lookup"><span data-stu-id="af888-307">Date</span></span> | <span data-ttu-id="af888-308">Beregning</span><span class="sxs-lookup"><span data-stu-id="af888-308">Calculation</span></span> |
 | --- | --- |
-| 30-06-10 |AB = 100.000,00 x (1-(1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
-| 31-12-10 |AB = 86.602,54 x (1-(1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
-| 30-06-11 |AB = 75.000,00 x (1-(1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
-| 31-12-11 |AB = 64.951,91 x (1-(1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
+| <span data-ttu-id="af888-309">30-06-10</span><span class="sxs-lookup"><span data-stu-id="af888-309">06/30/10</span></span> |<span data-ttu-id="af888-310">AB = 100.000,00 x (1-(1 - 0,25)<sup>0,5<sup>) = 13.397,46</span><span class="sxs-lookup"><span data-stu-id="af888-310">DA = 100,000.00 x (1 -(1 - 0.25)<sup>0.5<sup>) = 13,397.46</span></span> |
+| <span data-ttu-id="af888-311">31-12-10</span><span class="sxs-lookup"><span data-stu-id="af888-311">12/31/10</span></span> |<span data-ttu-id="af888-312">AB = 86.602,54 x (1-(1 - 0,25)<sup>0,5<sup>) = 11.602,54</span><span class="sxs-lookup"><span data-stu-id="af888-312">DA = 86,602.54 x (1 - (1 - 0.25)<sup>0.5<sup>) = 11,602.54</span></span> |
+| <span data-ttu-id="af888-313">30-06-11</span><span class="sxs-lookup"><span data-stu-id="af888-313">06/30/11</span></span> |<span data-ttu-id="af888-314">AB = 75.000,00 x (1-(1 - 0,25)<sup>0,5<sup>) = 10.048,09</span><span class="sxs-lookup"><span data-stu-id="af888-314">DA = 75,000.00 x (1 - (1 - 0.25)<sup>0.5<sup>) = 10,048.09</span></span> |
+| <span data-ttu-id="af888-315">31-12-11</span><span class="sxs-lookup"><span data-stu-id="af888-315">12/31/11</span></span> |<span data-ttu-id="af888-316">AB = 64.951,91 x (1-(1 - 0,25)<sup>0,5<sup>) = 8.701,91</span><span class="sxs-lookup"><span data-stu-id="af888-316">DA = 64,951.91 x (1 - (1 - 0.25)<sup>0.5<sup>) = 8,701.91</span></span> |
 
-## <a name="db1sl-depreciation"></a>Afskrivning med Saldo 1/Lineær
-Saldo1/Lin. er et forkortet udtryk for Saldo 1 og Lineær. Beregningen fortsætter, indtil den bogførte værdi er lig med det endelige afrundingsbeløb eller den skrapværdi, du har angivet.  
+## <a name="db1sl-depreciation"></a><span data-ttu-id="af888-317">Afskrivning med Saldo 1/Lineær</span><span class="sxs-lookup"><span data-stu-id="af888-317">DB1/SL Depreciation</span></span>
+<span data-ttu-id="af888-318">Saldo1/Lin. er et forkortet udtryk for Saldo 1 og Lineær.</span><span class="sxs-lookup"><span data-stu-id="af888-318">DB1/SL is an abbreviated combination of Declining-Balance 1 and Straight-Line.</span></span> <span data-ttu-id="af888-319">Beregningen fortsætter, indtil den bogførte værdi er lig med det endelige afrundingsbeløb eller den skrapværdi, du har angivet.</span><span class="sxs-lookup"><span data-stu-id="af888-319">The calculation continues until the book value equals the final rounding amount, or the salvage value that you entered.</span></span>  
 
-Ved kørslen **Beregn afskrivning** beregnes et lineært beløb og et saldobeløb, men kun det største af de to overføres til kladden.  
+<span data-ttu-id="af888-320">Ved kørslen **Beregn afskrivning** beregnes et lineært beløb og et saldobeløb, men kun det største af de to overføres til kladden.</span><span class="sxs-lookup"><span data-stu-id="af888-320">The **Calculate Depreciation** batch job calculates a straight-line amount and a declining balance amount, but only the greater of the two amounts is transferred to the journal.</span></span>  
 
-Du kan bruge forskellige procentsatser til saldoberegninger.  
+<span data-ttu-id="af888-321">Du kan bruge forskellige procentsatser til saldoberegninger.</span><span class="sxs-lookup"><span data-stu-id="af888-321">You can use various percentages to calculate declining-balance.</span></span>  
 
-Hvis du bruger denne metode, skal du angive den anslåede levetid og en saldoprocent i vinduet **Anlægsafskrivningsprofiler**.  
+<span data-ttu-id="af888-322">Hvis du bruger denne metode, skal du angive den anslåede levetid og en saldoprocent i vinduet **Anlægsafskrivningsprofiler**.</span><span class="sxs-lookup"><span data-stu-id="af888-322">If you use this method, you must enter the estimated useful lifetime and a declining balance percentage in the **FA Depreciation Books** window.</span></span>  
 
-### <a name="example---db1-sl-depreciation"></a>Eksempel – Afskrivning med Saldo 1/Lineær
-Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I vinduet **Anlægsafskrivningsprofiler** er der angivet 25 i feltet **Saldopct.** og 8 i feltet **Antal afskrivningsår**. Kørslen **Beregn afskrivninger** køres to gange om året.  
+### <a name="example---db1-sl-depreciation"></a><span data-ttu-id="af888-323">Eksempel – Afskrivning med Saldo 1/Lineær</span><span class="sxs-lookup"><span data-stu-id="af888-323">Example - DB1-SL Depreciation</span></span>
+<span data-ttu-id="af888-324">Et anlægsaktiv har en anskaffelsespris på DKK 100.000.</span><span class="sxs-lookup"><span data-stu-id="af888-324">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="af888-325">I vinduet **Anlægsafskrivningsprofiler** er der angivet 25 i feltet **Saldopct.** og 8 i feltet **Antal afskrivningsår**.</span><span class="sxs-lookup"><span data-stu-id="af888-325">In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 25 and the **No. of Depreciation Years** field contains 8.</span></span> <span data-ttu-id="af888-326">Kørslen **Beregn afskrivninger** køres to gange om året.</span><span class="sxs-lookup"><span data-stu-id="af888-326">The **Calculate Depreciation** batch job is run biannually.</span></span>  
 
-Anlægsposterne ser sådan ud:  
+<span data-ttu-id="af888-327">Anlægsposterne ser sådan ud:</span><span class="sxs-lookup"><span data-stu-id="af888-327">The fixed asset ledger entries look like this:</span></span>  
 
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
+| <span data-ttu-id="af888-328">Dato</span><span class="sxs-lookup"><span data-stu-id="af888-328">Date</span></span> | <span data-ttu-id="af888-329">Anlægsbogføringstype</span><span class="sxs-lookup"><span data-stu-id="af888-329">FA Posting Type</span></span> | <span data-ttu-id="af888-330">Dage</span><span class="sxs-lookup"><span data-stu-id="af888-330">Days</span></span> | <span data-ttu-id="af888-331">Beløb</span><span class="sxs-lookup"><span data-stu-id="af888-331">Amount</span></span> | <span data-ttu-id="af888-332">Bogført værdi</span><span class="sxs-lookup"><span data-stu-id="af888-332">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01-01-10 |Anskaffelser |* |100,000.00 |100,000.00 |
-| 30-06-10 |Afskrivninger |180 |-12.500,00 |87,500.00 |
-| 31-12-10 |Afskrivninger |180 |-12.500,00 |75,000.00 |
-| 30-06-11 |Afskrivninger |180 |-9.375,00 |65,625.00 |
-| 31-12-11 |Afskrivninger |180 |-9.375,00 |56,250.00 |
-| 30-06-12 |Afskrivninger |180 |-7.031,25 |49,218.75 |
-| 31-12-12 |Afskrivninger |180 |-7.031,25 |42,187.50 |
-| 30-06-13 |Afskrivninger |180 |-5.273,44 |36,914.06 |
-| 31-12-13 |Afskrivninger |180 |-5.273,44 |31,640.62 |
-| 30-06-14 |Afskrivninger |180 |-3.955,08 |27,685.54 |
-| 31-12-14 |Afskrivninger |180 |-3.955,08 |23,730.46 |
-| 30-06-15 |Afskrivninger |180 |-3.955,08 |19.775,38 Lin. |
-| 31-12-15 |Afskrivninger |180 |-3.955,08 |15.820,30 Lin. |
-| 30-06-16 |Afskrivninger |180 |-3.955,08 |11.865,22 Lin. |
-| 31-12-16 |Afskrivninger |180 |-3.955,07 |7.910,15 Lin. |
-| 30-06-17 |Afskrivninger |180 |-3.955,08 |3.955,07 Lin. |
-| 31-12-17 |Afskrivninger |180 |-3.955,07 |0,00 Lin. |
+| <span data-ttu-id="af888-333">01-01-10</span><span class="sxs-lookup"><span data-stu-id="af888-333">01/01/10</span></span> |<span data-ttu-id="af888-334">Anskaffelser</span><span class="sxs-lookup"><span data-stu-id="af888-334">Acquisition Costs</span></span> |* |<span data-ttu-id="af888-335">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-335">100,000.00</span></span> |<span data-ttu-id="af888-336">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-336">100,000.00</span></span> |
+| <span data-ttu-id="af888-337">30-06-10</span><span class="sxs-lookup"><span data-stu-id="af888-337">06/30/10</span></span> |<span data-ttu-id="af888-338">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-338">Depreciation</span></span> |<span data-ttu-id="af888-339">180</span><span class="sxs-lookup"><span data-stu-id="af888-339">180</span></span> |<span data-ttu-id="af888-340">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="af888-340">-12,500.00</span></span> |<span data-ttu-id="af888-341">87,500.00</span><span class="sxs-lookup"><span data-stu-id="af888-341">87,500.00</span></span> |
+| <span data-ttu-id="af888-342">31-12-10</span><span class="sxs-lookup"><span data-stu-id="af888-342">12/31/10</span></span> |<span data-ttu-id="af888-343">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-343">Depreciation</span></span> |<span data-ttu-id="af888-344">180</span><span class="sxs-lookup"><span data-stu-id="af888-344">180</span></span> |<span data-ttu-id="af888-345">-12.500,00</span><span class="sxs-lookup"><span data-stu-id="af888-345">-12,500.00</span></span> |<span data-ttu-id="af888-346">75,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-346">75,000.00</span></span> |
+| <span data-ttu-id="af888-347">30-06-11</span><span class="sxs-lookup"><span data-stu-id="af888-347">06/30/11</span></span> |<span data-ttu-id="af888-348">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-348">Depreciation</span></span> |<span data-ttu-id="af888-349">180</span><span class="sxs-lookup"><span data-stu-id="af888-349">180</span></span> |<span data-ttu-id="af888-350">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="af888-350">-9,375.00</span></span> |<span data-ttu-id="af888-351">65,625.00</span><span class="sxs-lookup"><span data-stu-id="af888-351">65,625.00</span></span> |
+| <span data-ttu-id="af888-352">31-12-11</span><span class="sxs-lookup"><span data-stu-id="af888-352">12/31/11</span></span> |<span data-ttu-id="af888-353">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-353">Depreciation</span></span> |<span data-ttu-id="af888-354">180</span><span class="sxs-lookup"><span data-stu-id="af888-354">180</span></span> |<span data-ttu-id="af888-355">-9.375,00</span><span class="sxs-lookup"><span data-stu-id="af888-355">-9,375.00</span></span> |<span data-ttu-id="af888-356">56,250.00</span><span class="sxs-lookup"><span data-stu-id="af888-356">56,250.00</span></span> |
+| <span data-ttu-id="af888-357">30-06-12</span><span class="sxs-lookup"><span data-stu-id="af888-357">06/30/12</span></span> |<span data-ttu-id="af888-358">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-358">Depreciation</span></span> |<span data-ttu-id="af888-359">180</span><span class="sxs-lookup"><span data-stu-id="af888-359">180</span></span> |<span data-ttu-id="af888-360">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="af888-360">-7,031.25</span></span> |<span data-ttu-id="af888-361">49,218.75</span><span class="sxs-lookup"><span data-stu-id="af888-361">49,218.75</span></span> |
+| <span data-ttu-id="af888-362">31-12-12</span><span class="sxs-lookup"><span data-stu-id="af888-362">12/31/12</span></span> |<span data-ttu-id="af888-363">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-363">Depreciation</span></span> |<span data-ttu-id="af888-364">180</span><span class="sxs-lookup"><span data-stu-id="af888-364">180</span></span> |<span data-ttu-id="af888-365">-7.031,25</span><span class="sxs-lookup"><span data-stu-id="af888-365">-7,031.25</span></span> |<span data-ttu-id="af888-366">42,187.50</span><span class="sxs-lookup"><span data-stu-id="af888-366">42,187.50</span></span> |
+| <span data-ttu-id="af888-367">30-06-13</span><span class="sxs-lookup"><span data-stu-id="af888-367">06/30/13</span></span> |<span data-ttu-id="af888-368">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-368">Depreciation</span></span> |<span data-ttu-id="af888-369">180</span><span class="sxs-lookup"><span data-stu-id="af888-369">180</span></span> |<span data-ttu-id="af888-370">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="af888-370">-5,273.44</span></span> |<span data-ttu-id="af888-371">36,914.06</span><span class="sxs-lookup"><span data-stu-id="af888-371">36,914.06</span></span> |
+| <span data-ttu-id="af888-372">31-12-13</span><span class="sxs-lookup"><span data-stu-id="af888-372">12/31/13</span></span> |<span data-ttu-id="af888-373">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-373">Depreciation</span></span> |<span data-ttu-id="af888-374">180</span><span class="sxs-lookup"><span data-stu-id="af888-374">180</span></span> |<span data-ttu-id="af888-375">-5.273,44</span><span class="sxs-lookup"><span data-stu-id="af888-375">-5,273.44</span></span> |<span data-ttu-id="af888-376">31,640.62</span><span class="sxs-lookup"><span data-stu-id="af888-376">31,640.62</span></span> |
+| <span data-ttu-id="af888-377">30-06-14</span><span class="sxs-lookup"><span data-stu-id="af888-377">06/30/14</span></span> |<span data-ttu-id="af888-378">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-378">Depreciation</span></span> |<span data-ttu-id="af888-379">180</span><span class="sxs-lookup"><span data-stu-id="af888-379">180</span></span> |<span data-ttu-id="af888-380">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="af888-380">-3,955.08</span></span> |<span data-ttu-id="af888-381">27,685.54</span><span class="sxs-lookup"><span data-stu-id="af888-381">27,685.54</span></span> |
+| <span data-ttu-id="af888-382">31-12-14</span><span class="sxs-lookup"><span data-stu-id="af888-382">12/31/14</span></span> |<span data-ttu-id="af888-383">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-383">Depreciation</span></span> |<span data-ttu-id="af888-384">180</span><span class="sxs-lookup"><span data-stu-id="af888-384">180</span></span> |<span data-ttu-id="af888-385">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="af888-385">-3,955.08</span></span> |<span data-ttu-id="af888-386">23,730.46</span><span class="sxs-lookup"><span data-stu-id="af888-386">23,730.46</span></span> |
+| <span data-ttu-id="af888-387">30-06-15</span><span class="sxs-lookup"><span data-stu-id="af888-387">06/30/15</span></span> |<span data-ttu-id="af888-388">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-388">Depreciation</span></span> |<span data-ttu-id="af888-389">180</span><span class="sxs-lookup"><span data-stu-id="af888-389">180</span></span> |<span data-ttu-id="af888-390">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="af888-390">-3,955.08</span></span> |<span data-ttu-id="af888-391">19.775,38 Lin.</span><span class="sxs-lookup"><span data-stu-id="af888-391">19,775.38 SL</span></span> |
+| <span data-ttu-id="af888-392">31-12-15</span><span class="sxs-lookup"><span data-stu-id="af888-392">12/31/15</span></span> |<span data-ttu-id="af888-393">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-393">Depreciation</span></span> |<span data-ttu-id="af888-394">180</span><span class="sxs-lookup"><span data-stu-id="af888-394">180</span></span> |<span data-ttu-id="af888-395">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="af888-395">-3,955.08</span></span> |<span data-ttu-id="af888-396">15.820,30 Lin.</span><span class="sxs-lookup"><span data-stu-id="af888-396">15,820.30 SL</span></span> |
+| <span data-ttu-id="af888-397">30-06-16</span><span class="sxs-lookup"><span data-stu-id="af888-397">06/30/16</span></span> |<span data-ttu-id="af888-398">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-398">Depreciation</span></span> |<span data-ttu-id="af888-399">180</span><span class="sxs-lookup"><span data-stu-id="af888-399">180</span></span> |<span data-ttu-id="af888-400">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="af888-400">-3,955.08</span></span> |<span data-ttu-id="af888-401">11.865,22 Lin.</span><span class="sxs-lookup"><span data-stu-id="af888-401">11,865.22 SL</span></span> |
+| <span data-ttu-id="af888-402">31-12-16</span><span class="sxs-lookup"><span data-stu-id="af888-402">12/31/16</span></span> |<span data-ttu-id="af888-403">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-403">Depreciation</span></span> |<span data-ttu-id="af888-404">180</span><span class="sxs-lookup"><span data-stu-id="af888-404">180</span></span> |<span data-ttu-id="af888-405">-3.955,07</span><span class="sxs-lookup"><span data-stu-id="af888-405">-3,955.07</span></span> |<span data-ttu-id="af888-406">7.910,15 Lin.</span><span class="sxs-lookup"><span data-stu-id="af888-406">7,910.15 SL</span></span> |
+| <span data-ttu-id="af888-407">30-06-17</span><span class="sxs-lookup"><span data-stu-id="af888-407">06/30/17</span></span> |<span data-ttu-id="af888-408">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-408">Depreciation</span></span> |<span data-ttu-id="af888-409">180</span><span class="sxs-lookup"><span data-stu-id="af888-409">180</span></span> |<span data-ttu-id="af888-410">-3.955,08</span><span class="sxs-lookup"><span data-stu-id="af888-410">-3,955.08</span></span> |<span data-ttu-id="af888-411">3.955,07 Lin.</span><span class="sxs-lookup"><span data-stu-id="af888-411">3,955.07 SL</span></span> |
+| <span data-ttu-id="af888-412">31-12-17</span><span class="sxs-lookup"><span data-stu-id="af888-412">12/31/17</span></span> |<span data-ttu-id="af888-413">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-413">Depreciation</span></span> |<span data-ttu-id="af888-414">180</span><span class="sxs-lookup"><span data-stu-id="af888-414">180</span></span> |<span data-ttu-id="af888-415">-3.955,07</span><span class="sxs-lookup"><span data-stu-id="af888-415">-3,955.07</span></span> |<span data-ttu-id="af888-416">0,00 Lin.</span><span class="sxs-lookup"><span data-stu-id="af888-416">0.00 SL</span></span> |
 
-* Afskrivningens startdato  
+* <span data-ttu-id="af888-417">Afskrivningens startdato</span><span class="sxs-lookup"><span data-stu-id="af888-417">Depreciation starting date</span></span>  
 
-Hvis der står "Lineær" efter den bogførte værdi, er den lineære metode blevet brugt.  
+<span data-ttu-id="af888-418">Hvis der står "Lineær" efter den bogførte værdi, er den lineære metode blevet brugt.</span><span class="sxs-lookup"><span data-stu-id="af888-418">"SL" after the book value means that the straight-line method has been used.</span></span>  
 
-Beregningsmetode:  
+<span data-ttu-id="af888-419">Beregningsmetode:</span><span class="sxs-lookup"><span data-stu-id="af888-419">Calculation method:</span></span>  
 
-Første år:  
+<span data-ttu-id="af888-420">Første år:</span><span class="sxs-lookup"><span data-stu-id="af888-420">1st year:</span></span>  
 
-*Saldobeløb: 25% af 100.000 = 25.000=12.500+12.500*  
+<span data-ttu-id="af888-421">*Saldobeløb: 25% af 100.000 = 25.000=12.500+12.500*</span><span class="sxs-lookup"><span data-stu-id="af888-421">*Declining-balance amount: 25% of 100,000 = 25,000 = 12,500 + 12,500*</span></span>  
 
-*Lineært beløb = 100.000/8=12.500=6.250+6.250*  
+<span data-ttu-id="af888-422">*Lineært beløb = 100.000/8=12.500=6.250+6.250*</span><span class="sxs-lookup"><span data-stu-id="af888-422">*Straight-line amount = 100,000 / 8 = 12,500 = 6,250 + 6,250*</span></span>  
 
-Saldobeløbet anvendes, fordi det er det største beløb af de to.  
+<span data-ttu-id="af888-423">Saldobeløbet anvendes, fordi det er det største beløb af de to.</span><span class="sxs-lookup"><span data-stu-id="af888-423">The declining-balance amount is used because it is the greater amount.</span></span>  
 
-Sjette år (2015):  
+<span data-ttu-id="af888-424">Sjette år (2015):</span><span class="sxs-lookup"><span data-stu-id="af888-424">6th year (2015):</span></span>  
 
-*Saldobeløb: 25% af 23,730.46 = 4,943.85=2,471.92+2,471.92*  
+<span data-ttu-id="af888-425">*Saldobeløb: 25% af 23,730.46 = 4,943.85=2,471.92+2,471.92*</span><span class="sxs-lookup"><span data-stu-id="af888-425">*Declining-balance amount: 25% of 23,730.46 = 4,943.85= 2,471.92 + 2,471.92*</span></span>  
 
-*Lineært beløb = 23.730,46/3 = 7.910,15 = 3.995,07 + 3.995,08*  
+<span data-ttu-id="af888-426">*Lineært beløb = 23.730,46/3 = 7.910,15 = 3.995,07 + 3.995,08*</span><span class="sxs-lookup"><span data-stu-id="af888-426">*Straight-line amount = 23,730.46/3 = 7,910.15 = 3,995.07 + 3,995.08*</span></span>  
 
-Det lineære beløb anvendes, fordi det er det største af de to.  
+<span data-ttu-id="af888-427">Det lineære beløb anvendes, fordi det er det største af de to.</span><span class="sxs-lookup"><span data-stu-id="af888-427">The straight-line amount is used because it is the greater amount.</span></span>  
 
-## <a name="user-defined-depreciation"></a>Brugerdefineret afskrivning
-Programmet indeholder en funktion, som gør det muligt for dig at konfigurere brugerdefinerede afskrivningsmetoder.  
+## <a name="user-defined-depreciation"></a><span data-ttu-id="af888-428">Brugerdefineret afskrivning</span><span class="sxs-lookup"><span data-stu-id="af888-428">User-defined Depreciation</span></span>
+<span data-ttu-id="af888-429">Programmet indeholder en funktion, som gør det muligt for dig at konfigurere brugerdefinerede afskrivningsmetoder.</span><span class="sxs-lookup"><span data-stu-id="af888-429">The program has a facility that allows you to set up user-defined depreciation methods.</span></span>  
 
-Med en brugerdefineret metode skal du bruge vinduet **Afskrivningstabeller**, hvor du skal angive en afskrivningsprocent for hver periode (måned, kvartal, år eller regnskabsperiode).  
+<span data-ttu-id="af888-430">Med en brugerdefineret metode skal du bruge vinduet **Afskrivningstabeller**, hvor du skal angive en afskrivningsprocent for hver periode (måned, kvartal, år eller regnskabsperiode).</span><span class="sxs-lookup"><span data-stu-id="af888-430">With a user-defined method, you use the **Depreciation Tables** window, where you must enter a depreciation percentage for each period (month, quarter, year, or accounting period).</span></span>  
 
-Formlen for beregning af afskrivningsbeløbet er:  
+<span data-ttu-id="af888-431">Formlen for beregning af afskrivningsbeløbet er:</span><span class="sxs-lookup"><span data-stu-id="af888-431">The formula for calculating the depreciation amounts is:</span></span>  
 
-Afskrivningsbeløb = (Afskrivningsprocent x Antal afskrivningsdage x Afskrivnings- grundlag) / (100 x 360)  
+<span data-ttu-id="af888-432">Afskrivningsbeløb = (Afskrivningsprocent x Antal afskrivningsdage x Afskrivnings-</span><span class="sxs-lookup"><span data-stu-id="af888-432">Depreciation Amount = (Depreciation % x Number of Depreciation Days x Depr.</span></span> <span data-ttu-id="af888-433">grundlag) / (100 x 360)</span><span class="sxs-lookup"><span data-stu-id="af888-433">Basis) / (100 x 360)</span></span>  
 
-### <a name="depreciation-based-on-number-of-units"></a>Afskrivning baseret på antal enheder
-Denne brugerdefinerede metode kan også bruges til afskrivning baseret på antal enheder, f.eks. i forbindelse med produktionsmaskiner med fastlagt levetidskapacitet. I vinduet **Afskrivningstabeller** kan du angive antallet af enheder, der kan produceres i hver enkelt periode (måned, kvartal, år eller regnskabsperiode).  
+### <a name="depreciation-based-on-number-of-units"></a><span data-ttu-id="af888-434">Afskrivning baseret på antal enheder</span><span class="sxs-lookup"><span data-stu-id="af888-434">Depreciation Based on Number of Units</span></span>
+<span data-ttu-id="af888-435">Denne brugerdefinerede metode kan også bruges til afskrivning baseret på antal enheder, f.eks. i forbindelse med produktionsmaskiner med fastlagt levetidskapacitet.</span><span class="sxs-lookup"><span data-stu-id="af888-435">This user-defined method can also be used to depreciate based on number of units, for example, in the case of production machines with an established lifetime capacity.</span></span> <span data-ttu-id="af888-436">I vinduet **Afskrivningstabeller** kan du angive antallet af enheder, der kan produceres i hver enkelt periode (måned, kvartal, år eller regnskabsperiode).</span><span class="sxs-lookup"><span data-stu-id="af888-436">In the **Depreciation Tables** window, you can enter the number of units that can be produced in each period (month, quarter, year,or accounting period).</span></span>  
 
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Sådan konfigureres brugerdefinerede afskrivningsmetoder
-I vinduet **Afskrivningstabel** kan du oprette brugerdefinerede afskrivningsmetoder. For eksempel kan du konfigurere afskrivning baseret på antal enheder.  
+### <a name="to-set-up-user-defined-depreciation-methods"></a><span data-ttu-id="af888-437">Sådan konfigureres brugerdefinerede afskrivningsmetoder</span><span class="sxs-lookup"><span data-stu-id="af888-437">To set up user-defined depreciation methods</span></span>
+<span data-ttu-id="af888-438">I vinduet **Afskrivningstabel** kan du oprette brugerdefinerede afskrivningsmetoder.</span><span class="sxs-lookup"><span data-stu-id="af888-438">In the **Depreciation Table** window, you can set up user-defined depreciation methods.</span></span> <span data-ttu-id="af888-439">For eksempel kan du konfigurere afskrivning baseret på antal enheder.</span><span class="sxs-lookup"><span data-stu-id="af888-439">For example, you can set up depreciation based on number of units.</span></span>  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningstabeller**, og vælg derefter det relaterede link.  
-2. I vinduet **Afskrivningstabeloversigt** skal du vælge handlingen **Ny**.  
-3. I vinduet **Afskrivningstabelkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="af888-440">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningstabeller**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="af888-440">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="af888-441">I vinduet **Afskrivningstabeloversigt** skal du vælge handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="af888-441">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
+3. <span data-ttu-id="af888-442">I vinduet **Afskrivningstabelkort** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="af888-442">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="example---user-defined-depreciation"></a>Eksempel - Brugerdefineret afskrivning
-Du bruger en afskrivningsmetode, der gør det muligt at afskrive aktiver hurtigere af skattemæssige årsager.  
+### <a name="example---user-defined-depreciation"></a><span data-ttu-id="af888-443">Eksempel - Brugerdefineret afskrivning</span><span class="sxs-lookup"><span data-stu-id="af888-443">Example - User-defined Depreciation</span></span>
+<span data-ttu-id="af888-444">Du bruger en afskrivningsmetode, der gør det muligt at afskrive aktiver hurtigere af skattemæssige årsager.</span><span class="sxs-lookup"><span data-stu-id="af888-444">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  
 
-Til et anlægsaktiv med en levetid på tre år ville du af skattemæssige årsager anvende følgende afskrivningssatser:  
+<span data-ttu-id="af888-445">Til et anlægsaktiv med en levetid på tre år ville du af skattemæssige årsager anvende følgende afskrivningssatser:</span><span class="sxs-lookup"><span data-stu-id="af888-445">You would use the following depreciation rates for a fixed asset with a three-year lifetime for tax purposes:</span></span>  
 
-* År 1: 25%  
-* År 2: 38%  
-* År 3: 37%  
+* <span data-ttu-id="af888-446">År 1: 25%</span><span class="sxs-lookup"><span data-stu-id="af888-446">year 1: 25%</span></span>  
+* <span data-ttu-id="af888-447">År 2: 38%</span><span class="sxs-lookup"><span data-stu-id="af888-447">year 2: 38%</span></span>  
+* <span data-ttu-id="af888-448">År 3: 37%</span><span class="sxs-lookup"><span data-stu-id="af888-448">year 3: 37%</span></span>  
 
-Anskaffelsesprisen er RV 100.000, og afskrivningslevetiden er fem år. Afskrivningen beregnes en gang om året.  
+<span data-ttu-id="af888-449">Anskaffelsesprisen er RV 100.000, og afskrivningslevetiden er fem år.</span><span class="sxs-lookup"><span data-stu-id="af888-449">The acquisition cost is LCY 100,000, and the depreciable lifetime is five years.</span></span> <span data-ttu-id="af888-450">Afskrivningen beregnes en gang om året.</span><span class="sxs-lookup"><span data-stu-id="af888-450">Depreciation is calculated annually.</span></span>  
 
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
+| <span data-ttu-id="af888-451">Dato</span><span class="sxs-lookup"><span data-stu-id="af888-451">Date</span></span> | <span data-ttu-id="af888-452">Anlægsbogføringstype</span><span class="sxs-lookup"><span data-stu-id="af888-452">FA Posting Type</span></span> | <span data-ttu-id="af888-453">Dage</span><span class="sxs-lookup"><span data-stu-id="af888-453">Days</span></span> | <span data-ttu-id="af888-454">Beløb</span><span class="sxs-lookup"><span data-stu-id="af888-454">Amount</span></span> | <span data-ttu-id="af888-455">Bogført værdi</span><span class="sxs-lookup"><span data-stu-id="af888-455">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01-01-10 |Anskaffelse |* |100,000.00 |100,000.00 |
-| 31-12-10 |Afskrivninger |360 |-25.000,00 |75,000.00 |
-| 31-12-11 |Afskrivninger |360 |-38.000,00 |37,000.00 |
-| 31-12-12 |Afskrivninger |360 |-37.000,00 |0 |
-| 31-12-13 |Afskrivninger |Ingen |Ingen |0 |
-| 31-12-14 |Afskrivninger |Ingen |Ingen |0 |
+| <span data-ttu-id="af888-456">01-01-10</span><span class="sxs-lookup"><span data-stu-id="af888-456">01/01/10</span></span> |<span data-ttu-id="af888-457">Anskaffelse</span><span class="sxs-lookup"><span data-stu-id="af888-457">Acquisition Cost</span></span> |* |<span data-ttu-id="af888-458">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-458">100,000.00</span></span> |<span data-ttu-id="af888-459">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-459">100,000.00</span></span> |
+| <span data-ttu-id="af888-460">31-12-10</span><span class="sxs-lookup"><span data-stu-id="af888-460">12/31/10</span></span> |<span data-ttu-id="af888-461">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-461">Depreciation</span></span> |<span data-ttu-id="af888-462">360</span><span class="sxs-lookup"><span data-stu-id="af888-462">360</span></span> |<span data-ttu-id="af888-463">-25.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-463">-25,000.00</span></span> |<span data-ttu-id="af888-464">75,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-464">75,000.00</span></span> |
+| <span data-ttu-id="af888-465">31-12-11</span><span class="sxs-lookup"><span data-stu-id="af888-465">12/31/11</span></span> |<span data-ttu-id="af888-466">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-466">Depreciation</span></span> |<span data-ttu-id="af888-467">360</span><span class="sxs-lookup"><span data-stu-id="af888-467">360</span></span> |<span data-ttu-id="af888-468">-38.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-468">-38,000.00</span></span> |<span data-ttu-id="af888-469">37,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-469">37,000.00</span></span> |
+| <span data-ttu-id="af888-470">31-12-12</span><span class="sxs-lookup"><span data-stu-id="af888-470">12/31/12</span></span> |<span data-ttu-id="af888-471">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-471">Depreciation</span></span> |<span data-ttu-id="af888-472">360</span><span class="sxs-lookup"><span data-stu-id="af888-472">360</span></span> |<span data-ttu-id="af888-473">-37.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-473">-37,000.00</span></span> |<span data-ttu-id="af888-474">0</span><span class="sxs-lookup"><span data-stu-id="af888-474">0</span></span> |
+| <span data-ttu-id="af888-475">31-12-13</span><span class="sxs-lookup"><span data-stu-id="af888-475">12/31/13</span></span> |<span data-ttu-id="af888-476">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-476">Depreciation</span></span> |<span data-ttu-id="af888-477">Ingen</span><span class="sxs-lookup"><span data-stu-id="af888-477">None</span></span> |<span data-ttu-id="af888-478">Ingen</span><span class="sxs-lookup"><span data-stu-id="af888-478">None</span></span> |<span data-ttu-id="af888-479">0</span><span class="sxs-lookup"><span data-stu-id="af888-479">0</span></span> |
+| <span data-ttu-id="af888-480">31-12-14</span><span class="sxs-lookup"><span data-stu-id="af888-480">12/31/14</span></span> |<span data-ttu-id="af888-481">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-481">Depreciation</span></span> |<span data-ttu-id="af888-482">Ingen</span><span class="sxs-lookup"><span data-stu-id="af888-482">None</span></span> |<span data-ttu-id="af888-483">Ingen</span><span class="sxs-lookup"><span data-stu-id="af888-483">None</span></span> |<span data-ttu-id="af888-484">0</span><span class="sxs-lookup"><span data-stu-id="af888-484">0</span></span> |
 
-* Afskrivningens startdato  
+* <span data-ttu-id="af888-485">Afskrivningens startdato</span><span class="sxs-lookup"><span data-stu-id="af888-485">Depreciation starting date</span></span>  
 
-Hvis du bruger en brugerdefineret metode, skal felterne **Første brugerdef. dato** og **Afskriv fra** udfyldes i vinduet **Anlægsafskrivningsprofiler**. Feltet **Første brugerdef. afskr.dato** og indholdet i feltet **Periodelængde** i vinduet **Afskrivningstabeller** bruges til at fastsætte tidsintervallerne til afskrivningsberegninger. Dermed sikres, at den angivne procentdel begynder at blive anvendt på samme dato for alle aktiver. Feltet **Afskriv fra den** bruges til at beregne antallet af afskrivningsdage.  
+<span data-ttu-id="af888-486">Hvis du bruger en brugerdefineret metode, skal felterne **Første brugerdef. dato** og **Afskriv fra** udfyldes i vinduet **Anlægsafskrivningsprofiler**.</span><span class="sxs-lookup"><span data-stu-id="af888-486">If you use a user-defined method, the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields must be filled in in the **FA Depreciation Books** window.</span></span> <span data-ttu-id="af888-487">Feltet **Første brugerdef. afskr.dato** og indholdet i feltet **Periodelængde** i vinduet **Afskrivningstabeller** bruges til at fastsætte tidsintervallerne til afskrivningsberegninger.</span><span class="sxs-lookup"><span data-stu-id="af888-487">The **First User-Defined Depr. Date** field and the contents in the **Period Length** field in the **Depreciation Tables** window are used to determine the time intervals to be used for depreciation calculations.</span></span> <span data-ttu-id="af888-488">Dermed sikres, at den angivne procentdel begynder at blive anvendt på samme dato for alle aktiver.</span><span class="sxs-lookup"><span data-stu-id="af888-488">This ensures that the program will start using the specified percentage on the same day for all assets.</span></span> <span data-ttu-id="af888-489">Feltet **Afskriv fra den** bruges til at beregne antallet af afskrivningsdage.</span><span class="sxs-lookup"><span data-stu-id="af888-489">The **Depreciation Starting Date** field is used to calculate the number of depreciation days.</span></span>  
 
-I det forrige eksempel indeholder både felterne **Første brugerdef. dato** og **Afskriv fra** 01-01-01. Hvis feltet **Første brugerdef. afskr.dato** imidlertid indeholdte 01/01/10, og feltet **Afskriv fra den** indeholdte 04/01/11, ville resultatet være:  
+<span data-ttu-id="af888-490">I det forrige eksempel indeholder både felterne **Første brugerdef. dato** og **Afskriv fra** 01-01-01.</span><span class="sxs-lookup"><span data-stu-id="af888-490">In the previous example, both the **First User-Defined Depr. Date** and **Depreciation Starting Date** fields contain 01/01/01.</span></span> <span data-ttu-id="af888-491">Hvis feltet **Første brugerdef. afskr.dato** imidlertid indeholdte 01/01/10, og feltet **Afskriv fra den** indeholdte 04/01/11, ville resultatet være:</span><span class="sxs-lookup"><span data-stu-id="af888-491">If, however, the **First User-Defined Depr. Date** field contained 01/01/10 and the **Depreciation Starting Date** field contained 04/01/11, the result would be:</span></span>  
 
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
+| <span data-ttu-id="af888-492">Dato</span><span class="sxs-lookup"><span data-stu-id="af888-492">Date</span></span> | <span data-ttu-id="af888-493">Anlægsbogføringstype</span><span class="sxs-lookup"><span data-stu-id="af888-493">FA Posting Type</span></span> | <span data-ttu-id="af888-494">Dage</span><span class="sxs-lookup"><span data-stu-id="af888-494">Days</span></span> | <span data-ttu-id="af888-495">Beløb</span><span class="sxs-lookup"><span data-stu-id="af888-495">Amount</span></span> | <span data-ttu-id="af888-496">Bogført værdi</span><span class="sxs-lookup"><span data-stu-id="af888-496">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01-01-10 |Anskaffelse |* |100,000.00 |100,000.00 |
-| 31-12-10 |Afskrivninger |270 |-18.750,00 |81,250.00 |
-| 31-12-11 |Afskrivninger |360 |-38.000,00 |42,250.00 |
-| 31-12-12 |Afskrivninger |360 |-37.000,00 |6,250.00 |
-| 31-12-13 |Afskrivninger |90 |-6.250,00 |0 |
-| 31-12-14 |Afskrivninger |Ingen |Ingen |0 |
+| <span data-ttu-id="af888-497">01-01-10</span><span class="sxs-lookup"><span data-stu-id="af888-497">01/01/10</span></span> |<span data-ttu-id="af888-498">Anskaffelse</span><span class="sxs-lookup"><span data-stu-id="af888-498">Acquisition Cost</span></span> |* |<span data-ttu-id="af888-499">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-499">100,000.00</span></span> |<span data-ttu-id="af888-500">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-500">100,000.00</span></span> |
+| <span data-ttu-id="af888-501">31-12-10</span><span class="sxs-lookup"><span data-stu-id="af888-501">12/31/10</span></span> |<span data-ttu-id="af888-502">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-502">Depreciation</span></span> |<span data-ttu-id="af888-503">270</span><span class="sxs-lookup"><span data-stu-id="af888-503">270</span></span> |<span data-ttu-id="af888-504">-18.750,00</span><span class="sxs-lookup"><span data-stu-id="af888-504">-18,750.00</span></span> |<span data-ttu-id="af888-505">81,250.00</span><span class="sxs-lookup"><span data-stu-id="af888-505">81,250.00</span></span> |
+| <span data-ttu-id="af888-506">31-12-11</span><span class="sxs-lookup"><span data-stu-id="af888-506">12/31/11</span></span> |<span data-ttu-id="af888-507">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-507">Depreciation</span></span> |<span data-ttu-id="af888-508">360</span><span class="sxs-lookup"><span data-stu-id="af888-508">360</span></span> |<span data-ttu-id="af888-509">-38.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-509">-38,000.00</span></span> |<span data-ttu-id="af888-510">42,250.00</span><span class="sxs-lookup"><span data-stu-id="af888-510">42,250.00</span></span> |
+| <span data-ttu-id="af888-511">31-12-12</span><span class="sxs-lookup"><span data-stu-id="af888-511">12/31/12</span></span> |<span data-ttu-id="af888-512">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-512">Depreciation</span></span> |<span data-ttu-id="af888-513">360</span><span class="sxs-lookup"><span data-stu-id="af888-513">360</span></span> |<span data-ttu-id="af888-514">-37.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-514">-37,000.00</span></span> |<span data-ttu-id="af888-515">6,250.00</span><span class="sxs-lookup"><span data-stu-id="af888-515">6,250.00</span></span> |
+| <span data-ttu-id="af888-516">31-12-13</span><span class="sxs-lookup"><span data-stu-id="af888-516">12/31/13</span></span> |<span data-ttu-id="af888-517">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-517">Depreciation</span></span> |<span data-ttu-id="af888-518">90</span><span class="sxs-lookup"><span data-stu-id="af888-518">90</span></span> |<span data-ttu-id="af888-519">-6.250,00</span><span class="sxs-lookup"><span data-stu-id="af888-519">-6,250.00</span></span> |<span data-ttu-id="af888-520">0</span><span class="sxs-lookup"><span data-stu-id="af888-520">0</span></span> |
+| <span data-ttu-id="af888-521">31-12-14</span><span class="sxs-lookup"><span data-stu-id="af888-521">12/31/14</span></span> |<span data-ttu-id="af888-522">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-522">Depreciation</span></span> |<span data-ttu-id="af888-523">Ingen</span><span class="sxs-lookup"><span data-stu-id="af888-523">None</span></span> |<span data-ttu-id="af888-524">Ingen</span><span class="sxs-lookup"><span data-stu-id="af888-524">None</span></span> |<span data-ttu-id="af888-525">0</span><span class="sxs-lookup"><span data-stu-id="af888-525">0</span></span> |
 
-* Afskrivningens startdato  
+* <span data-ttu-id="af888-526">Afskrivningens startdato</span><span class="sxs-lookup"><span data-stu-id="af888-526">Depreciation starting date</span></span>  
 
-## <a name="half-year-convention-depreciation"></a>Half-Year Convention-afskrivning (US)
-Metoden med det halvårlige afskrivningsprincip bliver kun anvendt, hvis du har markeret afkrydsningsfeltet **Brug Half-Year Convention (US)** i vinduet **Anlægsafskrivningsprofil**.  
+## <a name="half-year-convention-depreciation"></a><span data-ttu-id="af888-527">Half-Year Convention-afskrivning (US)</span><span class="sxs-lookup"><span data-stu-id="af888-527">Half-Year Convention Depreciation</span></span>
+<span data-ttu-id="af888-528">Metoden med det halvårlige afskrivningsprincip bliver kun anvendt, hvis du har markeret afkrydsningsfeltet **Brug Half-Year Convention (US)** i vinduet **Anlægsafskrivningsprofil**.</span><span class="sxs-lookup"><span data-stu-id="af888-528">The Half-Year Convention method will only be applied if you have placed a check mark in the **Use Half-Year Convention** field in the fixed **FA Depreciation Book** window.</span></span>  
 
-Denne afskrivningsmetode kan bruges sammen med følgende afskrivningsmetoder i programmet:  
+<span data-ttu-id="af888-529">Denne afskrivningsmetode kan bruges sammen med følgende afskrivningsmetoder i programmet:</span><span class="sxs-lookup"><span data-stu-id="af888-529">This depreciation method can be used in conjunction with the following depreciation methods in the program:</span></span>  
 
-* Lineær  
-* Saldo 1  
-* Saldo 1/Lineær  
+* <span data-ttu-id="af888-530">Lineær</span><span class="sxs-lookup"><span data-stu-id="af888-530">Straight-Line</span></span>  
+* <span data-ttu-id="af888-531">Saldo 1</span><span class="sxs-lookup"><span data-stu-id="af888-531">Declining-Balance 1</span></span>  
+* <span data-ttu-id="af888-532">Saldo 1/Lineær</span><span class="sxs-lookup"><span data-stu-id="af888-532">DB1/SL</span></span>  
 
-Når du anvender det halvårlige afskrivningsprincip, afskrives et anlægsaktiv i seks måneder i det første regnskabsår, uanset hvad der står i feltet **Afskrivningsstartdato**.  
+<span data-ttu-id="af888-533">Når du anvender det halvårlige afskrivningsprincip, afskrives et anlægsaktiv i seks måneder i det første regnskabsår, uanset hvad der står i feltet **Afskrivningsstartdato**.</span><span class="sxs-lookup"><span data-stu-id="af888-533">When you apply the Half-Year Convention, a fixed asset has six months of depreciation in the first fiscal year, regardless of the contents of the **Depreciation Starting Date** field.</span></span>  
 
 > [!NOTE]  
->   Den anslåede levetid, der er tilbage for anlægsaktivet efter det første regnskabsår, vil altid indeholde et halvår, hvor det halvårlige afskrivningsprincip anvendes. Når således det halvårlige afskrivningsprincip skal anvendes korrekt, skal feltet **Afskrivningsslutdato** i vinduet **Anlægsafskrivningsprofil** altid indeholde en dato, der ligger nøjagtigt seks måneder inden den sidste dag i det regnskabsår, hvor anlægsaktivet bliver helt afskrevet.  
+>   <span data-ttu-id="af888-534">Den anslåede levetid, der er tilbage for anlægsaktivet efter det første regnskabsår, vil altid indeholde et halvår, hvor det halvårlige afskrivningsprincip anvendes.</span><span class="sxs-lookup"><span data-stu-id="af888-534">The estimated life of the fixed asset that is remaining after the first fiscal year will always contain a half-year using the Half-Year Convention Method.</span></span> <span data-ttu-id="af888-535">Når således det halvårlige afskrivningsprincip skal anvendes korrekt, skal feltet **Afskrivningsslutdato** i vinduet **Anlægsafskrivningsprofil** altid indeholde en dato, der ligger nøjagtigt seks måneder inden den sidste dag i det regnskabsår, hvor anlægsaktivet bliver helt afskrevet.</span><span class="sxs-lookup"><span data-stu-id="af888-535">Thus, for the Half-Year Convention method to be applied correctly, the **Depreciation Ending Date** field in the **FA Depreciation Book** window must always contain a date which is exactly six months before the final date of the fiscal year in which the fixed asset will fully depreciate.</span></span>  
 
-### <a name="example---half-year-convention-depreciation"></a>Eksempel – Half-Year Convention-afskrivning
-Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I **Afskriv fra den** er datoen 01-03-10 angivet. Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-15. Kørslen **Beregn afskrivning** udføres en gang om året. Dette eksempel er baseret på et kalenderregnskabsår.  
+### <a name="example---half-year-convention-depreciation"></a><span data-ttu-id="af888-536">Eksempel – Half-Year Convention-afskrivning</span><span class="sxs-lookup"><span data-stu-id="af888-536">Example - Half-Year Convention Depreciation</span></span>
+<span data-ttu-id="af888-537">Et anlægsaktiv har en anskaffelsespris på DKK 100.000.</span><span class="sxs-lookup"><span data-stu-id="af888-537">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="af888-538">I **Afskriv fra den** er datoen 01-03-10 angivet.</span><span class="sxs-lookup"><span data-stu-id="af888-538">The **Depreciation Starting Date** is 03/01/10.</span></span> <span data-ttu-id="af888-539">Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-15.</span><span class="sxs-lookup"><span data-stu-id="af888-539">The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15.</span></span> <span data-ttu-id="af888-540">Kørslen **Beregn afskrivning** udføres en gang om året.</span><span class="sxs-lookup"><span data-stu-id="af888-540">The **Calculate Depreciation** batch job is run annually.</span></span> <span data-ttu-id="af888-541">Dette eksempel er baseret på et kalenderregnskabsår.</span><span class="sxs-lookup"><span data-stu-id="af888-541">This example is based on a calendar fiscal year.</span></span>  
 
-Anlægsposterne ser sådan ud:  
+<span data-ttu-id="af888-542">Anlægsposterne ser sådan ud:</span><span class="sxs-lookup"><span data-stu-id="af888-542">The fixed asset ledger entries look like this:</span></span>  
 
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
+| <span data-ttu-id="af888-543">Dato</span><span class="sxs-lookup"><span data-stu-id="af888-543">Date</span></span> | <span data-ttu-id="af888-544">Anlægsbogføringstype</span><span class="sxs-lookup"><span data-stu-id="af888-544">FA Posting Type</span></span> | <span data-ttu-id="af888-545">Dage</span><span class="sxs-lookup"><span data-stu-id="af888-545">Days</span></span> | <span data-ttu-id="af888-546">Beløb</span><span class="sxs-lookup"><span data-stu-id="af888-546">Amount</span></span> | <span data-ttu-id="af888-547">Bogført værdi</span><span class="sxs-lookup"><span data-stu-id="af888-547">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01-03-10 |Anskaffelse |* |100,000.00 |100,000.00 |
-| 31-12-10 |Afskrivninger |270 |-10.000,00 |90,000.00 |
-| 31-12-11 |Afskrivninger |360 |-20.000,00 |70,000.00 |
-| 31-12-12 |Afskrivninger |360 |-20.000,00 |50,000.00 |
-| 31-12-13 |Afskrivninger |360 |-20.000,00 |30,000.00 |
-| 31-12-14 |Afskrivninger |360 |-20.000,00 |10,000.00 |
-| 31-12-15 |Afskrivninger |180 |-10.000,00 |0.00 |
+| <span data-ttu-id="af888-548">01-03-10</span><span class="sxs-lookup"><span data-stu-id="af888-548">03/01/10</span></span> |<span data-ttu-id="af888-549">Anskaffelse</span><span class="sxs-lookup"><span data-stu-id="af888-549">Acquisition Cost</span></span> |* |<span data-ttu-id="af888-550">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-550">100,000.00</span></span> |<span data-ttu-id="af888-551">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-551">100,000.00</span></span> |
+| <span data-ttu-id="af888-552">31-12-10</span><span class="sxs-lookup"><span data-stu-id="af888-552">12/31/10</span></span> |<span data-ttu-id="af888-553">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-553">Depreciation</span></span> |<span data-ttu-id="af888-554">270</span><span class="sxs-lookup"><span data-stu-id="af888-554">270</span></span> |<span data-ttu-id="af888-555">-10.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-555">-10,000.00</span></span> |<span data-ttu-id="af888-556">90,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-556">90,000.00</span></span> |
+| <span data-ttu-id="af888-557">31-12-11</span><span class="sxs-lookup"><span data-stu-id="af888-557">12/31/11</span></span> |<span data-ttu-id="af888-558">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-558">Depreciation</span></span> |<span data-ttu-id="af888-559">360</span><span class="sxs-lookup"><span data-stu-id="af888-559">360</span></span> |<span data-ttu-id="af888-560">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-560">-20,000.00</span></span> |<span data-ttu-id="af888-561">70,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-561">70,000.00</span></span> |
+| <span data-ttu-id="af888-562">31-12-12</span><span class="sxs-lookup"><span data-stu-id="af888-562">12/31/12</span></span> |<span data-ttu-id="af888-563">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-563">Depreciation</span></span> |<span data-ttu-id="af888-564">360</span><span class="sxs-lookup"><span data-stu-id="af888-564">360</span></span> |<span data-ttu-id="af888-565">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-565">-20,000.00</span></span> |<span data-ttu-id="af888-566">50,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-566">50,000.00</span></span> |
+| <span data-ttu-id="af888-567">31-12-13</span><span class="sxs-lookup"><span data-stu-id="af888-567">12/31/13</span></span> |<span data-ttu-id="af888-568">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-568">Depreciation</span></span> |<span data-ttu-id="af888-569">360</span><span class="sxs-lookup"><span data-stu-id="af888-569">360</span></span> |<span data-ttu-id="af888-570">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-570">-20,000.00</span></span> |<span data-ttu-id="af888-571">30,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-571">30,000.00</span></span> |
+| <span data-ttu-id="af888-572">31-12-14</span><span class="sxs-lookup"><span data-stu-id="af888-572">12/31/14</span></span> |<span data-ttu-id="af888-573">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-573">Depreciation</span></span> |<span data-ttu-id="af888-574">360</span><span class="sxs-lookup"><span data-stu-id="af888-574">360</span></span> |<span data-ttu-id="af888-575">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-575">-20,000.00</span></span> |<span data-ttu-id="af888-576">10,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-576">10,000.00</span></span> |
+| <span data-ttu-id="af888-577">31-12-15</span><span class="sxs-lookup"><span data-stu-id="af888-577">12/31/15</span></span> |<span data-ttu-id="af888-578">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-578">Depreciation</span></span> |<span data-ttu-id="af888-579">180</span><span class="sxs-lookup"><span data-stu-id="af888-579">180</span></span> |<span data-ttu-id="af888-580">-10.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-580">-10,000.00</span></span> |<span data-ttu-id="af888-581">0.00</span><span class="sxs-lookup"><span data-stu-id="af888-581">0.00</span></span> |
 
-* Afskrivningens startdato  
+* <span data-ttu-id="af888-582">Afskrivningens startdato</span><span class="sxs-lookup"><span data-stu-id="af888-582">Depreciation starting date</span></span>  
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Eksempel: Saldo1/Lineær afskrivning efter halvårsprincippet
-Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I **Afskriv fra den** er datoen 01-11-10 angivet. Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-15. I vinduet **Anlægsafskrivningsprofiler** er der angivet 40 i feltet **Saldopct**. Kørslen **Beregn afskrivning** udføres en gang om året. Dette eksempel er baseret på et kalenderregnskabsår.  
+## <a name="example---db1sl-depreciation-using-half-year-convention"></a><span data-ttu-id="af888-583">Eksempel: Saldo1/Lineær afskrivning efter halvårsprincippet</span><span class="sxs-lookup"><span data-stu-id="af888-583">Example - DB1/SL Depreciation Using Half-Year Convention</span></span>
+<span data-ttu-id="af888-584">Et anlægsaktiv har en anskaffelsespris på DKK 100.000.</span><span class="sxs-lookup"><span data-stu-id="af888-584">A fixed asset has an acquisition cost of LCY 100,000.</span></span> <span data-ttu-id="af888-585">I **Afskriv fra den** er datoen 01-11-10 angivet.</span><span class="sxs-lookup"><span data-stu-id="af888-585">The **Depreciation Starting Date** is 11/01/10.</span></span> <span data-ttu-id="af888-586">Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-15.</span><span class="sxs-lookup"><span data-stu-id="af888-586">The estimated life is five years, so the **Depreciation Ending Date** must be 06/30/15.</span></span> <span data-ttu-id="af888-587">I vinduet **Anlægsafskrivningsprofiler** er der angivet 40 i feltet **Saldopct**.</span><span class="sxs-lookup"><span data-stu-id="af888-587">In the **FA Depreciation Books** window, the **Declining-Balance %** field contains 40.</span></span> <span data-ttu-id="af888-588">Kørslen **Beregn afskrivning** udføres en gang om året.</span><span class="sxs-lookup"><span data-stu-id="af888-588">The **Calculate Depreciation** batch job is run annually.</span></span> <span data-ttu-id="af888-589">Dette eksempel er baseret på et kalenderregnskabsår.</span><span class="sxs-lookup"><span data-stu-id="af888-589">This example is based on a calendar fiscal year.</span></span>  
 
-Anlægsposterne ser sådan ud:  
+<span data-ttu-id="af888-590">Anlægsposterne ser sådan ud:</span><span class="sxs-lookup"><span data-stu-id="af888-590">The fixed asset ledger entries look like this:</span></span>  
 
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
+| <span data-ttu-id="af888-591">Dato</span><span class="sxs-lookup"><span data-stu-id="af888-591">Date</span></span> | <span data-ttu-id="af888-592">Anlægsbogføringstype</span><span class="sxs-lookup"><span data-stu-id="af888-592">FA Posting Type</span></span> | <span data-ttu-id="af888-593">Dage</span><span class="sxs-lookup"><span data-stu-id="af888-593">Days</span></span> | <span data-ttu-id="af888-594">Beløb</span><span class="sxs-lookup"><span data-stu-id="af888-594">Amount</span></span> | <span data-ttu-id="af888-595">Bogført værdi</span><span class="sxs-lookup"><span data-stu-id="af888-595">Book Value</span></span> |
 | --- | --- | --- | --- | --- |
-| 01-11-10 |Anskaffelse |* |100,000.00 |100,000.00 |
-| 31-12-10 |Afskrivninger |60 |-20.000,00 |80,000.00 |
-| 31-12-11 |Afskrivninger |360 |-32.000,00 |48,000.00 |
-| 31-12-12 |Afskrivninger |360 |-19.200,00 |28,800.00 |
-| 31-12-13 |Afskrivninger |360 |-11.520,00 |17,280.00 |
-| 31-12-14 |Afskrivninger |360 |-11.520,00 |5.760,00 Lin. |
-| 31-12-15 |Afskrivninger |180 |-5.760,00 |0,00 Lin. |
+| <span data-ttu-id="af888-596">01-11-10</span><span class="sxs-lookup"><span data-stu-id="af888-596">11/01/10</span></span> |<span data-ttu-id="af888-597">Anskaffelse</span><span class="sxs-lookup"><span data-stu-id="af888-597">Acquisition Cost</span></span> |* |<span data-ttu-id="af888-598">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-598">100,000.00</span></span> |<span data-ttu-id="af888-599">100,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-599">100,000.00</span></span> |
+| <span data-ttu-id="af888-600">31-12-10</span><span class="sxs-lookup"><span data-stu-id="af888-600">12/31/10</span></span> |<span data-ttu-id="af888-601">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-601">Depreciation</span></span> |<span data-ttu-id="af888-602">60</span><span class="sxs-lookup"><span data-stu-id="af888-602">60</span></span> |<span data-ttu-id="af888-603">-20.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-603">-20,000.00</span></span> |<span data-ttu-id="af888-604">80,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-604">80,000.00</span></span> |
+| <span data-ttu-id="af888-605">31-12-11</span><span class="sxs-lookup"><span data-stu-id="af888-605">12/31/11</span></span> |<span data-ttu-id="af888-606">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-606">Depreciation</span></span> |<span data-ttu-id="af888-607">360</span><span class="sxs-lookup"><span data-stu-id="af888-607">360</span></span> |<span data-ttu-id="af888-608">-32.000,00</span><span class="sxs-lookup"><span data-stu-id="af888-608">-32,000.00</span></span> |<span data-ttu-id="af888-609">48,000.00</span><span class="sxs-lookup"><span data-stu-id="af888-609">48,000.00</span></span> |
+| <span data-ttu-id="af888-610">31-12-12</span><span class="sxs-lookup"><span data-stu-id="af888-610">12/31/12</span></span> |<span data-ttu-id="af888-611">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-611">Depreciation</span></span> |<span data-ttu-id="af888-612">360</span><span class="sxs-lookup"><span data-stu-id="af888-612">360</span></span> |<span data-ttu-id="af888-613">-19.200,00</span><span class="sxs-lookup"><span data-stu-id="af888-613">-19,200.00</span></span> |<span data-ttu-id="af888-614">28,800.00</span><span class="sxs-lookup"><span data-stu-id="af888-614">28,800.00</span></span> |
+| <span data-ttu-id="af888-615">31-12-13</span><span class="sxs-lookup"><span data-stu-id="af888-615">12/31/13</span></span> |<span data-ttu-id="af888-616">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-616">Depreciation</span></span> |<span data-ttu-id="af888-617">360</span><span class="sxs-lookup"><span data-stu-id="af888-617">360</span></span> |<span data-ttu-id="af888-618">-11.520,00</span><span class="sxs-lookup"><span data-stu-id="af888-618">-11,520.00</span></span> |<span data-ttu-id="af888-619">17,280.00</span><span class="sxs-lookup"><span data-stu-id="af888-619">17,280.00</span></span> |
+| <span data-ttu-id="af888-620">31-12-14</span><span class="sxs-lookup"><span data-stu-id="af888-620">12/31/14</span></span> |<span data-ttu-id="af888-621">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-621">Depreciation</span></span> |<span data-ttu-id="af888-622">360</span><span class="sxs-lookup"><span data-stu-id="af888-622">360</span></span> |<span data-ttu-id="af888-623">-11.520,00</span><span class="sxs-lookup"><span data-stu-id="af888-623">-11,520.00</span></span> |<span data-ttu-id="af888-624">5.760,00 Lin.</span><span class="sxs-lookup"><span data-stu-id="af888-624">5,760.00 SL</span></span> |
+| <span data-ttu-id="af888-625">31-12-15</span><span class="sxs-lookup"><span data-stu-id="af888-625">12/31/15</span></span> |<span data-ttu-id="af888-626">Afskrivninger</span><span class="sxs-lookup"><span data-stu-id="af888-626">Depreciation</span></span> |<span data-ttu-id="af888-627">180</span><span class="sxs-lookup"><span data-stu-id="af888-627">180</span></span> |<span data-ttu-id="af888-628">-5.760,00</span><span class="sxs-lookup"><span data-stu-id="af888-628">-5,760.00</span></span> |<span data-ttu-id="af888-629">0,00 Lin.</span><span class="sxs-lookup"><span data-stu-id="af888-629">0.00 SL</span></span> |
 
-* Afskrivningens startdato  
+* <span data-ttu-id="af888-630">Afskrivningens startdato</span><span class="sxs-lookup"><span data-stu-id="af888-630">Depreciation starting date</span></span>  
 
-Hvis der står "Lineær" efter den bogførte værdi, er den lineære metode blevet brugt.  
+<span data-ttu-id="af888-631">Hvis der står "Lineær" efter den bogførte værdi, er den lineære metode blevet brugt.</span><span class="sxs-lookup"><span data-stu-id="af888-631">"SL" after the book value means that the straight-line method has been used.</span></span>  
 
-Beregningsmetode:  
+<span data-ttu-id="af888-632">Beregningsmetode:</span><span class="sxs-lookup"><span data-stu-id="af888-632">Calculation method:</span></span>  
 
-Første år:  
+<span data-ttu-id="af888-633">Første år:</span><span class="sxs-lookup"><span data-stu-id="af888-633">1st year:</span></span>  
 
-*Saldobeløb = Beløb for hele året = 40% af 100.000 = 40.000. For et halvt år således 40.000 / 2 = 20.000*  
+<span data-ttu-id="af888-634">*Saldobeløb = Beløb for hele året = 40% af 100.000 = 40.000. For et halvt år således 40.000 / 2 = 20.000*</span><span class="sxs-lookup"><span data-stu-id="af888-634">*Declining-balance amount = Full year amount = 40% of 100,000 = 40,000. Thus, for half a year 40,000 / 2 = 20,000*</span></span>  
 
-*Lineært beløb = Beløb for hele året = 100,000 / 5 = 20.000. For et halvt år således = 20.000 / 2 = 10.000*  
+<span data-ttu-id="af888-635">*Lineært beløb = Beløb for hele året = 100,000 / 5 = 20.000. For et halvt år således = 20.000 / 2 = 10.000*</span><span class="sxs-lookup"><span data-stu-id="af888-635">*Straight-line amount = Full year amount = 100,000 / 5 = 20,000. Thus, for half a year = 20,000 / 2 = 10,000*</span></span>  
 
-Saldobeløbet anvendes, fordi det er det største beløb af de to.  
+<span data-ttu-id="af888-636">Saldobeløbet anvendes, fordi det er det største beløb af de to.</span><span class="sxs-lookup"><span data-stu-id="af888-636">The declining-balance amount is used because it is the greater amount.</span></span>  
 
-Femte år (2004):  
+<span data-ttu-id="af888-637">Femte år (2004):</span><span class="sxs-lookup"><span data-stu-id="af888-637">5th year (2004):</span></span>  
 
-*Saldobeløb = 40 % af 17.280,00 = 6.912,00*  
+<span data-ttu-id="af888-638">*Saldobeløb = 40 % af 17.280,00 = 6.912,00*</span><span class="sxs-lookup"><span data-stu-id="af888-638">*Declining-balance amount = 40% of 17,280.00 = 6,912.00*</span></span>  
 
-*Lineært beløb = 28.800 / 1,5 = 11.520,00*  
+<span data-ttu-id="af888-639">*Lineært beløb = 28.800 / 1,5 = 11.520,00*</span><span class="sxs-lookup"><span data-stu-id="af888-639">*Straight-line amount = 28,800 / 1.5 = 11,520.00*</span></span>  
 
-Det lineære beløb anvendes, fordi det er det største af de to.  
+<span data-ttu-id="af888-640">Det lineære beløb anvendes, fordi det er det største af de to.</span><span class="sxs-lookup"><span data-stu-id="af888-640">The straight-line amount is used because it is the greater amount.</span></span>  
 
-## <a name="duplicating-entries-to-more-depreciation-books"></a>Kopiering af poster til andre afskrivningsprofiler
-Hvis du har tre afskrivningsprofiler, B1, B2 og B3, og du vil kopiere poster fra B1 til B2 og B3, kan du markere afkrydsningsfeltet **Del af kopiliste** på afskrivningsprofilkortene for B2 og B3. Det kan være nyttigt, hvis afskrivningsprofil B1 er integreret med finansposterne og anvender anlægskassekladden, og afskrivningsprofil B2 og B3 ikke er integreret med finansposterne og anvender anlægskladden.  
+## <a name="duplicating-entries-to-more-depreciation-books"></a><span data-ttu-id="af888-641">Kopiering af poster til andre afskrivningsprofiler</span><span class="sxs-lookup"><span data-stu-id="af888-641">Duplicating Entries to More Depreciation Books</span></span>
+<span data-ttu-id="af888-642">Hvis du har tre afskrivningsprofiler, B1, B2 og B3, og du vil kopiere poster fra B1 til B2 og B3, kan du markere afkrydsningsfeltet **Del af kopiliste** på afskrivningsprofilkortene for B2 og B3.</span><span class="sxs-lookup"><span data-stu-id="af888-642">If you have three depreciation books, B1, B2 and B3, and you want to duplicate entries from B1 to B2 and B3, you can place a check mark in the **Part of Duplication List** field on the depreciation book cards for B2 and B3.</span></span> <span data-ttu-id="af888-643">Det kan være nyttigt, hvis afskrivningsprofil B1 er integreret med finansposterne og anvender anlægskassekladden, og afskrivningsprofil B2 og B3 ikke er integreret med finansposterne og anvender anlægskladden.</span><span class="sxs-lookup"><span data-stu-id="af888-643">This can be useful if depreciation book B1 is integrated with the general ledger and uses the fixed asset G/L journal, and depreciation books B2 and B3 are not integrated with the general ledger and use the fixed asset journal.</span></span>  
 
-Når du indtaster en post i B1 i anlægskassekladden og markerer afkrydsningsfeltet **Brug kopiliste**, kopieres posten i profil B2 og B3 i anlægskladden, når posten bogføres.  
+<span data-ttu-id="af888-644">Når du indtaster en post i B1 i anlægskassekladden og markerer afkrydsningsfeltet **Brug kopiliste**, kopieres posten i profil B2 og B3 i anlægskladden, når posten bogføres.</span><span class="sxs-lookup"><span data-stu-id="af888-644">When you enter an entry in B1 in the fixed asset G/L journal and place a check mark in the **Use Duplication List** field, the program will duplicate the entry in book B2 and B3 in the fixed asset journal when the entry is posted.</span></span>  
 
 > [!NOTE]  
->   Du kan ikke kopiere i samme kladde, som du kopierer fra. Hvis du bogfører poster i anlægskassekladden, kan du kopiere dem i anlægskladden eller i anlægskassekladden ved at bruge en anden kladde.  
+>   <span data-ttu-id="af888-645">Du kan ikke kopiere i samme kladde, som du kopierer fra.</span><span class="sxs-lookup"><span data-stu-id="af888-645">You cannot duplicate in the same journal and journal batch as you are duplicating from.</span></span> <span data-ttu-id="af888-646">Hvis du bogfører poster i anlægskassekladden, kan du kopiere dem i anlægskladden eller i anlægskassekladden ved at bruge en anden kladde.</span><span class="sxs-lookup"><span data-stu-id="af888-646">If you post entries in the fixed asset G/L journal, you can duplicate them in the fixed asset journal or in the fixed asset G/L journal using another batch.</span></span>  
 
 > [!NOTE]  
->   Du kan ikke bruge samme nummerserie i anlægskassekladden og anlægskladden. Når du bogfører poster i anlægskassekladden, skal feltet **Bilagsnr.** være tomt. Hvis du indtaster et tal i feltet, kopieres tallet i anlægskladden. Du skal manuelt ændre bilagsnummeret, før du kan bogføre kladden.  
+>   <span data-ttu-id="af888-647">Du kan ikke bruge samme nummerserie i anlægskassekladden og anlægskladden.</span><span class="sxs-lookup"><span data-stu-id="af888-647">You cannot use the same number series in the fixed asset G/L journal and the fixed asset journal.</span></span> <span data-ttu-id="af888-648">Når du bogfører poster i anlægskassekladden, skal feltet **Bilagsnr.**</span><span class="sxs-lookup"><span data-stu-id="af888-648">When you post entries in the fixed asset G/L journal, you must leave the **Document No.**</span></span> <span data-ttu-id="af888-649">være tomt.</span><span class="sxs-lookup"><span data-stu-id="af888-649">field empty.</span></span> <span data-ttu-id="af888-650">Hvis du indtaster et tal i feltet, kopieres tallet i anlægskladden.</span><span class="sxs-lookup"><span data-stu-id="af888-650">If you enter a number in the field, the the number is duplicated in the fixed asset journal.</span></span> <span data-ttu-id="af888-651">Du skal manuelt ændre bilagsnummeret, før du kan bogføre kladden.</span><span class="sxs-lookup"><span data-stu-id="af888-651">You'll have to manually change the document number before you can post the journal.</span></span>  
 
-## <a name="see-also"></a>Se også
-[Anlægsaktiver](fa-manage.md)  
-[Opsætning af anlægsaktiver](fa-setup.md)  
-[Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="af888-652">Se også</span><span class="sxs-lookup"><span data-stu-id="af888-652">See Also</span></span>
+[<span data-ttu-id="af888-653">Anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="af888-653">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="af888-654">Opsætning af anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="af888-654">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="af888-655">Finans</span><span class="sxs-lookup"><span data-stu-id="af888-655">Finance</span></span>](finance.md)  
+<span data-ttu-id="af888-656">[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="af888-656">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
+<span data-ttu-id="af888-657">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="af888-657">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

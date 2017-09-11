@@ -3,7 +3,7 @@
 ## [Ofte stillede spørgsmål](across-faq.md)
 ## [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
 ## [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)
-## [Få finansielle oplysninger på din mobilenhed](install-mobile-app.md)
+## [Få Financials på din mobilenhed](install-mobile-app.md)
 ## [Bruge Financials som din virksomheds Indbakke i Outlook](madeira-outlook.md)
 ## [Bruge Financials uden Outlook](madeira-no-outlook.md)
 ## [Aktivere virksomhedens data til Power BI](madeira-powerbi.md)

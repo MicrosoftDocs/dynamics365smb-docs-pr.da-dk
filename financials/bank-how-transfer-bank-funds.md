@@ -16,46 +16,46 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 20661cce60bc9007adb9767388bf5af6f9c3acb9
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-transfer-bank-funds"></a>Fremgangsmåde: Overføre bankbeløb
-Undertiden kan du have brug for at overføre et beløb fra én bankkonto til en anden. Hvis du vil gøre dette, skal du bogføre på en transaktion i finanskladden. Opgaven afhænger af, om bankkontiene bruger samme valuta eller forskellige valutaer.
+# <a name="how-to-transfer-bank-funds"></a><span data-ttu-id="275d2-103">Fremgangsmåde: Overføre bankbeløb</span><span class="sxs-lookup"><span data-stu-id="275d2-103">How to: Transfer Bank Funds</span></span>
+<span data-ttu-id="275d2-104">Undertiden kan du have brug for at overføre et beløb fra én bankkonto til en anden.</span><span class="sxs-lookup"><span data-stu-id="275d2-104">You may sometimes need to transfer an amount from one bank account to another.</span></span> <span data-ttu-id="275d2-105">Hvis du vil gøre dette, skal du bogføre på en transaktion i finanskladden.</span><span class="sxs-lookup"><span data-stu-id="275d2-105">To do this, you must post the a transaction in the general journal.</span></span> <span data-ttu-id="275d2-106">Opgaven afhænger af, om bankkontiene bruger samme valuta eller forskellige valutaer.</span><span class="sxs-lookup"><span data-stu-id="275d2-106">The task varies depending on whether the bank accounts use the same currency or different currencies.</span></span>
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Sådan bogføres overførsler mellem bankkonti med samme valutakode
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladde**, og vælg derefter det relaterede link.
-2. Udfyld **Bogføringsdato** og **Bilagsnr.** på en kladdelinje. .
-3. Klik på feltet **Kontotype**, og vælg **Bankkonto**.
-4. I feltet **Kontonr.** skal du vælge den bank, du vil overføre beløbet fra.
-5. Angiv det beløb, der skal overføres, i feltet **Beløb**.
-6. I feltet **Modkontotype** skal du vælge **Bankkonto**.
-7. I feltet **Modkonto** skal du vælge den bankkonto, du vil overføre beløbet til.
-8. Bogfør journalen.
+## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a><span data-ttu-id="275d2-107">Sådan bogføres overførsler mellem bankkonti med samme valutakode</span><span class="sxs-lookup"><span data-stu-id="275d2-107">To post a transfer between bank accounts with the same currency code</span></span>
+1. <span data-ttu-id="275d2-108">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladde**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="275d2-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="275d2-109">Udfyld **Bogføringsdato** og **Bilagsnr.** på en kladdelinje.</span><span class="sxs-lookup"><span data-stu-id="275d2-109">On a journal line, fill in the **Posting Date** and **Document No.**</span></span> <span data-ttu-id="275d2-110">.</span><span class="sxs-lookup"><span data-stu-id="275d2-110">fields.</span></span>
+3. <span data-ttu-id="275d2-111">Klik på feltet **Kontotype**, og vælg **Bankkonto**.</span><span class="sxs-lookup"><span data-stu-id="275d2-111">In the **Account Type** field, select **Bank Account**.</span></span>
+4. <span data-ttu-id="275d2-112">I feltet **Kontonr.**</span><span class="sxs-lookup"><span data-stu-id="275d2-112">In the **Account No.**</span></span> <span data-ttu-id="275d2-113">skal du vælge den bank, du vil overføre beløbet fra.</span><span class="sxs-lookup"><span data-stu-id="275d2-113">field, select the bank from which you want to transfer the funds.</span></span>
+5. <span data-ttu-id="275d2-114">Angiv det beløb, der skal overføres, i feltet **Beløb**.</span><span class="sxs-lookup"><span data-stu-id="275d2-114">In the **Amount** field, enter the amount to be transferred.</span></span>
+6. <span data-ttu-id="275d2-115">I feltet **Modkontotype** skal du vælge **Bankkonto**.</span><span class="sxs-lookup"><span data-stu-id="275d2-115">In the **Bal. Account Type** field, select **Bank Account**.</span></span>
+7. <span data-ttu-id="275d2-116">I feltet **Modkonto**</span><span class="sxs-lookup"><span data-stu-id="275d2-116">In the **Bal. Account No.**</span></span> <span data-ttu-id="275d2-117">skal du vælge den bankkonto, du vil overføre beløbet til.</span><span class="sxs-lookup"><span data-stu-id="275d2-117">field, select the bank account to which you want to transfer the funds.</span></span>
+8. <span data-ttu-id="275d2-118">Bogfør journalen.</span><span class="sxs-lookup"><span data-stu-id="275d2-118">Post the journal.</span></span>
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Sådan bogføres overførsler mellem bankkonti med forskellige valutakoder
-Hvis du vil overføre beløb mellem bankkonti, der bruger forskellige valutaer, skal du bogføre to finanskladdelinjer.
+## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a><span data-ttu-id="275d2-119">Sådan bogføres overførsler mellem bankkonti med forskellige valutakoder</span><span class="sxs-lookup"><span data-stu-id="275d2-119">To post a transfer between bank accounts with different currency codes</span></span>
+<span data-ttu-id="275d2-120">Hvis du vil overføre beløb mellem bankkonti, der bruger forskellige valutaer, skal du bogføre to finanskladdelinjer.</span><span class="sxs-lookup"><span data-stu-id="275d2-120">To transfer funds between bank accounts that use different currencies, you must post two general journal lines.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladde**, og vælg derefter det relaterede link.
-2. Opret to kladdelinjer, og udfyld **Bogføringsdato** og **Bilagsnr.** .
-3. På den første kladdelinje skal du vælge **Bankkonto** i feltet **Type**.
-4. I feltet **Kontonr.** skal du vælge den bankkonto, du vil overføre beløbet fra.
-5. I feltet **Beløb** skal du indtaste beløbet i valutaen for bankkontoen. Angiv kreditbeløb med et minus-tegn. Angiv debetbeløb uden et minus-tegn.
-6. I feltet **Modkontotype** skal du vælge **Bankkonto**.
-7. I feltet **Modkonto** skal du vælge den bankkonto, du vil overføre beløbet til.
-8. På den anden kladdelinje skal du vælge **Bankkonto** i feltet **Type**.
-9. I feltet **Kontonr.** skal du vælge den bankkonto, du vil overføre beløbet til.
-10. I feltet **Beløb** skal du indtaste beløbet i valutaen for bankkontoen. Angiv kreditbeløb med et minus-tegn. Angiv debetbeløb uden et minus-tegn.
-11. I feltet **Modkontotype** skal du vælge **Bankkonto**.  
-12. I feltet **Modkonto** skal du vælge den bankkonto, du vil overføre beløbet fra.
+1. <span data-ttu-id="275d2-121">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladde**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="275d2-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="275d2-122">Opret to kladdelinjer, og udfyld **Bogføringsdato** og **Bilagsnr.**</span><span class="sxs-lookup"><span data-stu-id="275d2-122">Create two journal lines, and fill in the **Posting Date** and **Document No.**</span></span> <span data-ttu-id="275d2-123">.</span><span class="sxs-lookup"><span data-stu-id="275d2-123">fields.</span></span>
+3. <span data-ttu-id="275d2-124">På den første kladdelinje skal du vælge **Bankkonto** i feltet **Type**.</span><span class="sxs-lookup"><span data-stu-id="275d2-124">On the first journal line, in the **Type** field, select **Bank Account**.</span></span>
+4. <span data-ttu-id="275d2-125">I feltet **Kontonr.**</span><span class="sxs-lookup"><span data-stu-id="275d2-125">In the **Account No.**</span></span> <span data-ttu-id="275d2-126">skal du vælge den bankkonto, du vil overføre beløbet fra.</span><span class="sxs-lookup"><span data-stu-id="275d2-126">field, select the bank account from which you want to transfer the funds.</span></span>
+5. <span data-ttu-id="275d2-127">I feltet **Beløb** skal du indtaste beløbet i valutaen for bankkontoen.</span><span class="sxs-lookup"><span data-stu-id="275d2-127">In the **Amount** field, enter the amount in the currency of the bank account.</span></span> <span data-ttu-id="275d2-128">Angiv kreditbeløb med et minus-tegn.</span><span class="sxs-lookup"><span data-stu-id="275d2-128">Enter credit amounts with a minus sign.</span></span> <span data-ttu-id="275d2-129">Angiv debetbeløb uden et minus-tegn.</span><span class="sxs-lookup"><span data-stu-id="275d2-129">Enter debit amounts without a minus sign.</span></span>
+6. <span data-ttu-id="275d2-130">I feltet **Modkontotype** skal du vælge **Bankkonto**.</span><span class="sxs-lookup"><span data-stu-id="275d2-130">In the **Bal. Account Type** field, select **Bank Account**.</span></span>
+7. <span data-ttu-id="275d2-131">I feltet **Modkonto**</span><span class="sxs-lookup"><span data-stu-id="275d2-131">In the **Bal. Account No.**</span></span> <span data-ttu-id="275d2-132">skal du vælge den bankkonto, du vil overføre beløbet til.</span><span class="sxs-lookup"><span data-stu-id="275d2-132">field, select the bank account to which you want to transfer the funds.</span></span>
+8. <span data-ttu-id="275d2-133">På den anden kladdelinje skal du vælge **Bankkonto** i feltet **Type**.</span><span class="sxs-lookup"><span data-stu-id="275d2-133">On the second journal line, in the **Type** field, select **Bank Account**.</span></span>
+9. <span data-ttu-id="275d2-134">I feltet **Kontonr.**</span><span class="sxs-lookup"><span data-stu-id="275d2-134">In the **Account No.**</span></span> <span data-ttu-id="275d2-135">skal du vælge den bankkonto, du vil overføre beløbet til.</span><span class="sxs-lookup"><span data-stu-id="275d2-135">field, select the bank account to which you want to transfer the funds.</span></span>
+10. <span data-ttu-id="275d2-136">I feltet **Beløb** skal du indtaste beløbet i valutaen for bankkontoen.</span><span class="sxs-lookup"><span data-stu-id="275d2-136">In the **Amount** field, enter the amount in the currency of the bank account.</span></span> <span data-ttu-id="275d2-137">Angiv kreditbeløb med et minus-tegn.</span><span class="sxs-lookup"><span data-stu-id="275d2-137">Enter credit amounts with a minus sign.</span></span> <span data-ttu-id="275d2-138">Angiv debetbeløb uden et minus-tegn.</span><span class="sxs-lookup"><span data-stu-id="275d2-138">Enter debit amounts without a minus sign.</span></span>
+11. <span data-ttu-id="275d2-139">I feltet **Modkontotype** skal du vælge **Bankkonto**.</span><span class="sxs-lookup"><span data-stu-id="275d2-139">In the **Bal. Account Type** field, select **Bank Account**.</span></span>  
+12. <span data-ttu-id="275d2-140">I feltet **Modkonto**</span><span class="sxs-lookup"><span data-stu-id="275d2-140">In the **Bal. Account No.**</span></span> <span data-ttu-id="275d2-141">skal du vælge den bankkonto, du vil overføre beløbet fra.</span><span class="sxs-lookup"><span data-stu-id="275d2-141">field, select the bank account from which you want to transfer the funds.</span></span>
 
     > [!NOTE]  
->   Hvis den anvendte valutakurs i kladden er en anden en kursen i vinduet **Valutakurser**, skal du oprette en tredje linje til kurstab og -gevinster. Indtast **Finanskonto** i feltet **Kontotype**. Angiv finanskontonummeret for kurstab og -gevinster i feltet **Kontonummer** . Angiv kurstab eller -tab i feltet **Beløb** henholdsvis med og uden et minustegn foran kredit og debet.
-13. Bogfør journalen.
+>   <span data-ttu-id="275d2-142">Hvis den anvendte valutakurs i kladden er en anden en kursen i vinduet **Valutakurser**, skal du oprette en tredje linje til kurstab og -gevinster.</span><span class="sxs-lookup"><span data-stu-id="275d2-142">If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss.</span></span> <span data-ttu-id="275d2-143">Indtast **Finanskonto** i feltet **Kontotype**.</span><span class="sxs-lookup"><span data-stu-id="275d2-143">Enter **G/L Account** in the **Account Type** field.</span></span> <span data-ttu-id="275d2-144">Angiv finanskontonummeret for kurstab og -gevinster i feltet **Kontonummer**</span><span class="sxs-lookup"><span data-stu-id="275d2-144">Enter the G/L account number for exchange rate gain or loss in the **Account No.**</span></span> <span data-ttu-id="275d2-145">.</span><span class="sxs-lookup"><span data-stu-id="275d2-145">field.</span></span> <span data-ttu-id="275d2-146">Angiv kurstab eller -tab i feltet **Beløb** henholdsvis med og uden et minustegn foran kredit og debet.</span><span class="sxs-lookup"><span data-stu-id="275d2-146">Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.</span></span>
+13. <span data-ttu-id="275d2-147">Bogfør journalen.</span><span class="sxs-lookup"><span data-stu-id="275d2-147">Post the journal.</span></span>
 
-## <a name="see-also"></a>Se også
-[Håndtere bankkonti](bank-manage-bank-accounts.md)  
-[Konfigurere banktransaktioner](bank-setup-banking.md)  
-[Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="275d2-148">Se også</span><span class="sxs-lookup"><span data-stu-id="275d2-148">See Also</span></span>
+[<span data-ttu-id="275d2-149">Håndtere bankkonti</span><span class="sxs-lookup"><span data-stu-id="275d2-149">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="275d2-150">Konfigurere banktransaktioner</span><span class="sxs-lookup"><span data-stu-id="275d2-150">Setting Up Banking</span></span>](bank-setup-banking.md)  
+[<span data-ttu-id="275d2-151">Arbejde med finanskladder</span><span class="sxs-lookup"><span data-stu-id="275d2-151">Working with General Journals</span></span>](ui-work-general-journals.md)  
+<span data-ttu-id="275d2-152">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="275d2-152">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

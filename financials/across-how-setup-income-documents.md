@@ -16,48 +16,47 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 69cb1037da2f3873ecb9a3f498ce5fadfeabac1d
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-incoming-documents"></a>Fremgangsmåde: Konfigurere indgående dokumenter
-Hvis du opretter finanskladdelinjer fra indgående dokumentposter, skal du i vinduet **Konfiguration af indkommende dokumenter** angive hvilken kladdetype og hvilket kladdenavn der skal bruges.
+# <a name="how-to-set-up-incoming-documents"></a><span data-ttu-id="d1f4a-103">Fremgangsmåde: Konfigurere indgående dokumenter</span><span class="sxs-lookup"><span data-stu-id="d1f4a-103">How to: Set Up Incoming Documents</span></span>
+<span data-ttu-id="d1f4a-104">Hvis du opretter finanskladdelinjer fra indgående dokumentposter, skal du i vinduet **Konfiguration af indkommende dokumenter** angive hvilken kladdetype og hvilket kladdenavn der skal bruges.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-104">If you create general journal lines from incoming document records, you must specify in the **Incoming Documents Setup** window which journal template and batch to use.</span></span>
 
-Hvis du ikke ønsker, at brugere kan oprette fakturaer eller finanskladdelinjer fra indgående dokumentposter, medmindre dokumenterne godkendes, skal du konfigurere godkendere i vinduet **Konfiguration af indkommende dokumenter**.
+<span data-ttu-id="d1f4a-105">Hvis du ikke ønsker, at brugere kan oprette fakturaer eller finanskladdelinjer fra indgående dokumentposter, medmindre dokumenterne godkendes, skal du konfigurere godkendere i vinduet **Konfiguration af indkommende dokumenter**.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-105">If you do not want users to create invoices or general journal lines from incoming document records unless the documents are first approved, you must set up approvers in the **Incoming Document Approvers** window.</span></span>
 
-Hvis du vil aktivere PDF-og billedfiler til elektroniske dokumenter, som du kan konvertere til f.eks. købsfakturaer, skal du først definere OCR-funktionen og aktivere tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+<span data-ttu-id="d1f4a-106">Hvis du vil aktivere PDF-og billedfiler til elektroniske dokumenter, som du kan konvertere til f.eks. købsfakturaer, skal du først definere OCR-funktionen og aktivere tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="d1f4a-106">To turn PDF and image files into electronic documents that you can convert to, for example, purchase invoices inside [!INCLUDE[d365fin](includes/d365fin_md.md)], you must first set up the OCR feature and enable the service.</span></span>
 
-Når funktionen Indkommende dokumenter er konfigureret, kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående dokumentfiler, manuelt eller automatisk, til de relevante købs- og salgsdokumenter eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter. Du kan finde flere oplysninger i [Behandle indgående bilag](across-process-income-documents.md).
+<span data-ttu-id="d1f4a-107">Når funktionen Indkommende dokumenter er konfigureret, kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående dokumentfiler, manuelt eller automatisk, til de relevante købs- og salgsdokumenter eller kladdelinjer.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-107">When the Incoming Documents feature is set up, you can use different functions to review expense receipts, manage OCR tasks, and convert incoming document files, manually or automatically, to the relevant documents or journal lines.</span></span> <span data-ttu-id="d1f4a-108">Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-108">The external files can be attached at any process stage, including to posted documents and to the resulting vendor, customer, and general ledger entries.</span></span> <span data-ttu-id="d1f4a-109">Du kan finde flere oplysninger i [Behandle indgående bilag](across-process-income-documents.md).</span><span class="sxs-lookup"><span data-stu-id="d1f4a-109">For more information, see [Processing Incoming Documents](across-process-income-documents.md).</span></span>
 
-## <a name="to-set-up-the-incoming-documents-feature"></a>Sådan konfigureres funktionen for indgående dokumenter
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af indgående bilag**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-the-incoming-documents-feature"></a><span data-ttu-id="d1f4a-110">Sådan konfigureres funktionen for indgående dokumenter</span><span class="sxs-lookup"><span data-stu-id="d1f4a-110">To set up the Incoming Documents feature</span></span>
+1. <span data-ttu-id="d1f4a-111">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af indgående bilag**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Document Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d1f4a-112">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-112">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-approvers-of-incoming-document-records"></a>Sådan konfigureres godkendere af indgående dokumentposter
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af indgående bilag**, og vælg derefter det relaterede link.  
-2. I vinduet **Konfiguration af indkommende dokumenter** skal du vælge handlingen **Godkendere**.
+## <a name="to-set-up-approvers-of-incoming-document-records"></a><span data-ttu-id="d1f4a-113">Sådan konfigureres godkendere af indgående dokumentposter</span><span class="sxs-lookup"><span data-stu-id="d1f4a-113">To set up approvers of incoming document records</span></span>
+1. <span data-ttu-id="d1f4a-114">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af indgående bilag**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Incoming Document Setup**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="d1f4a-115">I vinduet **Konfiguration af indkommende dokumenter** skal du vælge handlingen **Godkendere**.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-115">In the **Incoming Documents Setup** window, choose the **Approvers** action.</span></span>
 
-    Vinduet **Godkendere af indgående bilag** viser alle brugere, der er angivet i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-3. Vælg en eller flere brugere, der kan godkende et indgående dokument, før et relateret dokument eller en kladdelinje kan oprettes.
+    <span data-ttu-id="d1f4a-116">Vinduet **Godkendere af indgående bilag** viser alle brugere, der er angivet i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="d1f4a-116">The **Incoming Document Approvers** window shows all users that are set up in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+3. <span data-ttu-id="d1f4a-117">Vælg en eller flere brugere, der kan godkende et indgående dokument, før et relateret dokument eller en kladdelinje kan oprettes.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-117">Select one or more users that can approve an incoming document before a related document or journal line can be created.</span></span>
 
-Når godkendere er konfigureret i vinduet **Godkendere af indgående dokumenter**, så er det kun disse brugere, der kan godkende et indgående dokument, hvis afkrydsningsfeltet **Kræv godkendelse for at oprette** er markeret i vinduet **Konfiguration af indkommende dokumenter**.
+<span data-ttu-id="d1f4a-118">Når godkendere er konfigureret i vinduet **Godkendere af indgående dokumenter**, så er det kun disse brugere, der kan godkende et indgående dokument, hvis afkrydsningsfeltet **Kræv godkendelse for at oprette** er markeret i vinduet **Konfiguration af indkommende dokumenter**.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-118">When approvers have been set up in the **Incoming Document Approvers** window, only those users can approve an incoming document if the **Require Approval To Create** check box in the **Incoming Documents Setup** window is selected.</span></span>
 
 > [!NOTE]  
->   Denne godkenderopsætning er ikke relateret til godkendelsesworkflows. Du kan finde flere oplysninger under [Fremgangsmåde: Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).
+>   <span data-ttu-id="d1f4a-119">Denne godkenderopsætning er ikke relateret til godkendelsesworkflows.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-119">This approval setup is not related to approval workflows.</span></span> <span data-ttu-id="d1f4a-120">Du kan finde flere oplysninger under [Fremgangsmåde: Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="d1f4a-120">For more information, see [How to: Use Approval Workflows](across-how-use-approval-workflows.md).</span></span>
 
-## <a name="to-set-up-an-ocr-service"></a>Sådan konfigureres en OCR-tjeneste
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af indgående bilag**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+## <a name="to-set-up-an-ocr-service"></a><span data-ttu-id="d1f4a-121">Sådan konfigureres en OCR-tjeneste</span><span class="sxs-lookup"><span data-stu-id="d1f4a-121">To set up an OCR service</span></span>
+1. <span data-ttu-id="d1f4a-122">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af indgående bilag**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **OCR Service Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="d1f4a-123">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-123">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-encrypt-your-login-information"></a>Sådan krypterer du logonoplysningerne
-Det anbefales, at du beskytter de logonoplysninger, du angiver i vinduet **Opsætning af OCR-tjeneste**. Du kan kryptere data på serveren ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på den serverforekomst, som opretter forbindelse til databasen.
+## <a name="to-encrypt-your-login-information"></a><span data-ttu-id="d1f4a-124">Sådan krypterer du logonoplysningerne</span><span class="sxs-lookup"><span data-stu-id="d1f4a-124">To encrypt your login information</span></span>
+<span data-ttu-id="d1f4a-125">Det anbefales, at du beskytter de logonoplysninger, du angiver i vinduet **Opsætning af OCR-tjeneste**.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-125">It is recommended that you protect the logon information that you enter in the **OCR Service Setup** window.</span></span> <span data-ttu-id="d1f4a-126">Du kan kryptere data på serveren ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på den serverforekomst, som opretter forbindelse til databasen.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-126">You can encrypt data on the server by generating new or importing existing encryption keys that you enable on the server instance that connects to the database.</span></span>
 
-1. I vinduet **Opsætning af OCR-tjeneste** skal du vælge handlingen **Administration af kryptering**.
-2. Aktiver kryptering af dine data i vinduet **Administration af datakryptering**.
+1. <span data-ttu-id="d1f4a-127">I vinduet **Opsætning af OCR-tjeneste** skal du vælge handlingen **Administration af kryptering**.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-127">In the **OCR Service Setup** window, choose the **Encryption Management** action.</span></span>
+2. <span data-ttu-id="d1f4a-128">Aktiver kryptering af dine data i vinduet **Administration af datakryptering**.</span><span class="sxs-lookup"><span data-stu-id="d1f4a-128">In the **Data Encryption Management** window, enable encryption of your data.</span></span>
 
-## <a name="see-also"></a>Se også
-[Behandle indgående bilag](across-process-income-documents.md)  
-[Indgående bilag](across-income-documents.md)  
-[Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="d1f4a-129">Se også</span><span class="sxs-lookup"><span data-stu-id="d1f4a-129">See Also</span></span>
+[<span data-ttu-id="d1f4a-130">Behandle indgående bilag</span><span class="sxs-lookup"><span data-stu-id="d1f4a-130">Process Incoming Documents</span></span>](across-process-income-documents.md)  
+[<span data-ttu-id="d1f4a-131">Indgående bilag</span><span class="sxs-lookup"><span data-stu-id="d1f4a-131">Incoming Documents</span></span>](across-income-documents.md)  
+[<span data-ttu-id="d1f4a-132">Køb</span><span class="sxs-lookup"><span data-stu-id="d1f4a-132">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="d1f4a-133">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d1f4a-133">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

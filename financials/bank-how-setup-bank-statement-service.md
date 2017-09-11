@@ -16,106 +16,106 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds
-Du kan importere elektroniske bankkontoudtog fra din bank, så du hurtigt kan udfylde vinduet **Betalingsudligningskladde** og kan udligne betalinger og afstemme bankkontoen. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a><span data-ttu-id="43236-103">Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds</span><span class="sxs-lookup"><span data-stu-id="43236-103">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>
+<span data-ttu-id="43236-104">Du kan importere elektroniske bankkontoudtog fra din bank, så du hurtigt kan udfylde vinduet **Betalingsudligningskladde** og kan udligne betalinger og afstemme bankkontoen.</span><span class="sxs-lookup"><span data-stu-id="43236-104">You can import electronic bank statements from your bank to quickly fill in the **Payment Reconciliation Journal** window so you can apply payments and reconcile the bank account.</span></span> <span data-ttu-id="43236-105">Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="43236-105">For more information, see [Apply Payments Automatically and Reconcile Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span></span>
 
-Tjenesten Envestnet Yodlee Bank Feeds er installeret som en udvidelse af [!INCLUDE[d365fin](includes/d365fin_md.md)] og er klar til at blive aktiveret. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).
+<span data-ttu-id="43236-106">Tjenesten Envestnet Yodlee Bank Feeds er installeret som en udvidelse af [!INCLUDE[d365fin](includes/d365fin_md.md)] og er klar til at blive aktiveret.</span><span class="sxs-lookup"><span data-stu-id="43236-106">The Envestnet Yodlee Bank Feeds service is installed as an extension to [!INCLUDE[d365fin](includes/d365fin_md.md)] and is ready to be enabled.</span></span> <span data-ttu-id="43236-107">Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="43236-107">For more information, see [Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md).</span></span>
 
-Når du har aktiveret bankfeedtjenesten, skal du knytte en bankkonto til onlinebankkontoen, som feedet kommer fra. Du kan knytte bankkonti til online bankkonti i forskellige følgende scenarier:
+<span data-ttu-id="43236-108">Når du har aktiveret bankfeedtjenesten, skal du knytte en bankkonto til onlinebankkontoen, som feedet kommer fra.</span><span class="sxs-lookup"><span data-stu-id="43236-108">After you enable the bank feed service, you must link a bank account to the online bank account that the feed will come from.</span></span> <span data-ttu-id="43236-109">Du kan knytte bankkonti til online bankkonti i forskellige følgende scenarier:</span><span class="sxs-lookup"><span data-stu-id="43236-109">You link bank accounts to online bank accounts in the following different scenarios:</span></span>
 
-* Der findes ikke en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] for din onlinebankkonto. Derfor skal du oprette bankkontoen ved at tilknytte den fra onlinebankkontoen.
-* Der findes en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du kan tilknytte en onlinebankkonto.
-* Tilknytningen skal fjernes fra en tilknyttet bankkonto, fordi du ikke længere vil bruge bankfeedtjenesten for kontoen.
-* Onlinebankkonti er ændret, og du kan opdatere oplysninger om bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* <span data-ttu-id="43236-110">Der findes ikke en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] for din onlinebankkonto.</span><span class="sxs-lookup"><span data-stu-id="43236-110">A bank account does not exist in [!INCLUDE[d365fin](includes/d365fin_md.md)] for your online bank account.</span></span> <span data-ttu-id="43236-111">Derfor skal du oprette bankkontoen ved at tilknytte den fra onlinebankkontoen.</span><span class="sxs-lookup"><span data-stu-id="43236-111">Therefore, you create the bank account by linking from the online bank account.</span></span>
+* <span data-ttu-id="43236-112">Der findes en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du kan tilknytte en onlinebankkonto.</span><span class="sxs-lookup"><span data-stu-id="43236-112">A bank account exists in [!INCLUDE[d365fin](includes/d365fin_md.md)], which you want to link to an online bank account.</span></span>
+* <span data-ttu-id="43236-113">Tilknytningen skal fjernes fra en tilknyttet bankkonto, fordi du ikke længere vil bruge bankfeedtjenesten for kontoen.</span><span class="sxs-lookup"><span data-stu-id="43236-113">A linked bank account must be unlinked because you want to stop using the bank feed service for the account.</span></span>
+* <span data-ttu-id="43236-114">Onlinebankkonti er ændret, og du kan opdatere oplysninger om bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="43236-114">Online bank accounts have changed and you want to update the information on bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-Når bankfeedtjenesten er aktiveret, kan du indstille en bankkonto til automatisk at importere nye kontoudtog fra banken til vinduet **Betalingsudligningskladde** hver anden time. Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt i vinduet **Betalingsudligningskladde** importeres ikke. Du kan finde flere oplysninger i afsnittet “Sådan aktiveres automatisk import af kontoudtog fra banken”.
-
-> [!NOTE]  
->   Hvis du bruger den angive opsætning af Konfigurer virksomhed, udføres nogle af trinnene i følgende procedurer automatisk, når du kommer til opsætning af virksomhedens bankkonto. Du kan finde flere oplysninger under [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
-
-## <a name="to-enable-the-bank-feed-service"></a>Sådan aktiveres bankfeedtjenesten
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
-2. Åbn den bankkonto, som du vil bruge til bankfeedtjenesten.
-3. I vinduet **Bankkonto** skal du i feltet **Format til import af bankkontoudtog** , vælge YODLEEBANKFEED.  
-
-Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede onlinebankkonto. Se den næste fremgangsmåde.  
-
-## <a name="to-create-a-new-linked-bank-account"></a>Sådan oprettes en ny tilknyttet bankkonto
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
-2. Vælg den relevante bankkonto, og vælg derefter **Opret ny tilknyttet bankkonto**. Vinduet **Tilknytning af bankkonto** åbnes efter et kort øjeblik.
-
-    > [!NOTE]  
->   I dette vindue vises den faktiske webside for tjenesten Envestnet Yodlee Bank Feeds. Terminologi og funktioner i vinduet stemmer muligvis ikke overens med de instruktioner, der er angivet i dette emne.  
-3. I vinduet **Tilknytning af online bankkonto** i ruden **Tilknyt konto** skal du bruge søgefunktionen til at finde den bank, hvor du har en eller flere online bankkonti.
-4. Vælg bankens navn. Ruden **Log på** åbnes.
-5. Angiv det brugernavn og den adgangskode, som du bruger til at logge på onlinebanken, og vælg derefter knappen **Næste**.  
-6. Bankfeedtjenesten forbereder at knytte den første onlinebankkonto i den angivne bank til en ny bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-    > [!NOTE]  
->   Hvis du har mere end én onlinebankkonto i banken, skal du oprette flere bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] for kontiene. Se trin 8 til 10.  
-
-    Når processen er fuldført, vises bankens navn i ruden **Mine konti** under fanen **Tilknyttet**. Tallet i parentes angiver, hvor mange onlinebankkonti der blev tilknyttet.  
-7. Vælg knappen **OK**.
-
-    Hvis du kun sammenkæder én onlinebankkonto, åbnes vinduet **Bankkontokort** og viser navnet på onlinebankkontoen. Hvis det er tilfældet, er processen med at tilknytte bankkontoen fuldført. Nu mangler du kun at konfigurere bankkontoen. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette bankkonti](bank-how-setup-bank-accounts.md).
-
-    Hvis du tilknytter mere end én onlinebankkonto, åbnes vinduet **Tilknytning af bankkonto** og viser de onlinebankkonti, der endnu ikke er knyttet til bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I dette tilfælde skal du følge det næste trin.  
-8. I vinduet **Tilknytning af bankkonto** skal du vælge linjen for en onlinebankkonto og derefter vælge handlingen **Sammenkæd med ny bankkonto**.  
-
-    Vinduet **Bankkontokort** for en ny bankkonto åbnes og viser navnet på onlinebankkontoen.
-
-    Hvis der findes allerede en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du vil knytte den ekstra onlinebankkonto til, skal du følge næste trin.  
-9. I vinduet **Tilknytning af bankkonto** skal du vælge linjen for en onlinebankkonto og derefter vælge handlingen **Sammenkæd med eksisterende bankkonto**.
-10. Brug vinduet **Bankkontooversigt** til at vælge den bankkonto, som du vil oprette en tilknytning til, og vælg derefter knappen **OK**.
-
-## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Sådan knyttes en bankkonto til en onlinebankkonto
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
-2. Vælg linjen for en bankkonto, der ikke er knyttet til en onlinebankkonto, og vælg derefter handlingen **Tilknyt til onlinebankkonto**. Vinduet **Tilknytning af online bankkonto** åbnes med navnet på banken angivet i ruden **Tilknyt konto**.
-3. Vælg bankens navn. Ruden **Log på** åbnes.
-4. Angiv det brugernavn og den adgangskode, som du bruger til at logge på onlinebanken, og vælg derefter knappen **Næste**.  
-
-    Bankfeedtjenesten forbereder at knytte din bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] til den relaterede onlinebankkonto.  
-
-    Når processen er fuldført, vises bankens navn i ruden **Mine konti** under fanen **Tilknyttet**. Hvis banken har mere end en bankkonto, tilknyttes kun den bankkonto, som du valgte i trin 2.  
-5. Vælg knappen **OK**.
-
-I vinduet **Bankkontooversigt** er afkrydsningsfeltet **Tilknyttet** markeret.
-
-## <a name="to-unlink-a-bank-account"></a>Sådan fjernes tilknytningen til en bankkonto
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.  
-2. Vælg linjen for en tilknyttet bankkonto, som du vil fjerne tilknytningen for til den relaterede onlinebankkonto, og vælg derefter handlingen **Fjern tilknytning til onlinebankkonto**.
+<span data-ttu-id="43236-115">Når bankfeedtjenesten er aktiveret, kan du indstille en bankkonto til automatisk at importere nye kontoudtog fra banken til vinduet **Betalingsudligningskladde** hver anden time.</span><span class="sxs-lookup"><span data-stu-id="43236-115">When the bank feed service is enabled, you can set a bank account up to automatically import new bank statements into the **Payment Reconciliation Journal** window every two hour.</span></span> <span data-ttu-id="43236-116">Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt i vinduet **Betalingsudligningskladde** importeres ikke.</span><span class="sxs-lookup"><span data-stu-id="43236-116">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span></span> <span data-ttu-id="43236-117">Du kan finde flere oplysninger i afsnittet “Sådan aktiveres automatisk import af kontoudtog fra banken”.</span><span class="sxs-lookup"><span data-stu-id="43236-117">For more information, see the “To enable automatic import of bank statements” section.</span></span>
 
 > [!NOTE]  
->   Hvis du vælger **Ja** i bekræftelsesdialogboksen, fjernes tilknytningen til onlinebankkontoen og logondetaljer ryddes. Hvis du vil knytte bankkontoen til onlinebankkontoen igen, skal du logge på banken igen. Du kan finde flere oplysninger i afsnittet “Sådan knyttes en bankkonto til en onlinebankkonto“.
+>   <span data-ttu-id="43236-118">Hvis du bruger den angive opsætning af Konfigurer virksomhed, udføres nogle af trinnene i følgende procedurer automatisk, når du kommer til opsætning af virksomhedens bankkonto.</span><span class="sxs-lookup"><span data-stu-id="43236-118">If you use the Set Up Company assisted setup, some of the steps in the following procedures happen automatically when you get to the company bank account setup.</span></span> <span data-ttu-id="43236-119">Du kan finde flere oplysninger under [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).</span><span class="sxs-lookup"><span data-stu-id="43236-119">For more information, see [Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).</span></span>
 
-## <a name="to-update-bank-account-linking"></a>Sådan opdateres tilknytning af bankkonto
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
-2. Vælg den relevante bankkonto, og vælg derefter handlingen **Opdater tilknytning af bankkonto**.
+## <a name="to-enable-the-bank-feed-service"></a><span data-ttu-id="43236-120">Sådan aktiveres bankfeedtjenesten</span><span class="sxs-lookup"><span data-stu-id="43236-120">To enable the bank feed service</span></span>
+1. <span data-ttu-id="43236-121">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="43236-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="43236-122">Åbn den bankkonto, som du vil bruge til bankfeedtjenesten.</span><span class="sxs-lookup"><span data-stu-id="43236-122">Open the bank account that you will use for the bank feed service.</span></span>
+3. <span data-ttu-id="43236-123">I vinduet **Bankkonto** skal du i feltet **Format til import af bankkontoudtog** , vælge YODLEEBANKFEED.</span><span class="sxs-lookup"><span data-stu-id="43236-123">In the **Bank Account** window, in the **Bank Statement Import Format** field, select YODLEEBANKFEED.</span></span>  
 
-Hvis der er problemer med nogen af de tilknyttede bankkonti i vinduet **Bankkontooversigt**, åbnes vinduet **Tilknytning af bankkonto** og angiver, hvilke konti der er problemer med. Problemer kan bedst løses ved at fjerne tilknytningen af onlinebankkontoen og derefter at oprette tilknytningen igen. Du kan finde flere oplysninger i afsnittet “Sådan knyttes en bankkonto til en onlinebankkonto“.
+<span data-ttu-id="43236-124">Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede onlinebankkonto.</span><span class="sxs-lookup"><span data-stu-id="43236-124">The bank feed service will be enabled when you link a bank account to its related online bank account.</span></span> <span data-ttu-id="43236-125">Se den næste fremgangsmåde.</span><span class="sxs-lookup"><span data-stu-id="43236-125">See the next procedure.</span></span>  
 
-## <a name="to-enable-automatic-import-of-bank-statements"></a>Sådan aktiveres automatisk import af kontoudtog fra banken
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
-2. Vælg linjen for en tilknyttet bankkonto og vælg derefter handlingen **Opsætning af automatisk import af bankkontoudtog**.
-3. I vinduet **Opsætning af automatisk import af bankkontoudtog** skal du i feltet **Antal dage inkluderet** angive, hvor langt tilbage i tiden, der skal hentes nye banktransaktioner.
+## <a name="to-create-a-new-linked-bank-account"></a><span data-ttu-id="43236-126">Sådan oprettes en ny tilknyttet bankkonto</span><span class="sxs-lookup"><span data-stu-id="43236-126">To create a new linked bank account</span></span>
+1. <span data-ttu-id="43236-127">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="43236-127">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="43236-128">Vælg den relevante bankkonto, og vælg derefter **Opret ny tilknyttet bankkonto**.</span><span class="sxs-lookup"><span data-stu-id="43236-128">Select the relevant bank account, and then choose the **Create New Linked Bank Account**.</span></span> <span data-ttu-id="43236-129">Vinduet **Tilknytning af bankkonto** åbnes efter et kort øjeblik.</span><span class="sxs-lookup"><span data-stu-id="43236-129">The **Bank Account Linking** window opens after a few moments.</span></span>
 
     > [!NOTE]  
->   Det anbefales, at du angiver denne værdi til 7 dage eller derover.  
-4. Marker afkrydsningsfeltet **Aktiveret**.  
+>   <span data-ttu-id="43236-130">I dette vindue vises den faktiske webside for tjenesten Envestnet Yodlee Bank Feeds.</span><span class="sxs-lookup"><span data-stu-id="43236-130">This window shows the actual web page of the Envestnet Yodlee Bank Feeds service.</span></span> <span data-ttu-id="43236-131">Terminologi og funktioner i vinduet stemmer muligvis ikke overens med de instruktioner, der er angivet i dette emne.</span><span class="sxs-lookup"><span data-stu-id="43236-131">Terminology and functionality in the window may not match instructions provided in this topic.</span></span>  
+3. <span data-ttu-id="43236-132">I vinduet **Tilknytning af online bankkonto** i ruden **Tilknyt konto** skal du bruge søgefunktionen til at finde den bank, hvor du har en eller flere online bankkonti.</span><span class="sxs-lookup"><span data-stu-id="43236-132">In the **Online Bank Account Linking** window, in the **Link Account** pane, use the Search function to find the bank where you have one or more online bank accounts.</span></span>
+4. <span data-ttu-id="43236-133">Vælg bankens navn.</span><span class="sxs-lookup"><span data-stu-id="43236-133">Choose the bank name.</span></span> <span data-ttu-id="43236-134">Ruden **Log på** åbnes.</span><span class="sxs-lookup"><span data-stu-id="43236-134">The **Log In** pane opens.</span></span>
+5. <span data-ttu-id="43236-135">Angiv det brugernavn og den adgangskode, som du bruger til at logge på onlinebanken, og vælg derefter knappen **Næste**.</span><span class="sxs-lookup"><span data-stu-id="43236-135">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span></span>  
+6. <span data-ttu-id="43236-136">Bankfeedtjenesten forbereder at knytte den første onlinebankkonto i den angivne bank til en ny bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="43236-136">The bank feed service prepares to link the first online bank account at the specified bank to a new bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
 
-Hver time viser vinduet **Betalingsudligningskladde** nye betalinger, der foretages på onlinebankkontoen.
+    > [!NOTE]  
+>   <span data-ttu-id="43236-137">Hvis du har mere end én onlinebankkonto i banken, skal du oprette flere bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] for kontiene.</span><span class="sxs-lookup"><span data-stu-id="43236-137">If you have more than one online bank account at the bank, you must create additional bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)] for them.</span></span> <span data-ttu-id="43236-138">Se trin 8 til 10.</span><span class="sxs-lookup"><span data-stu-id="43236-138">See steps 8 through 10.</span></span>  
+
+    <span data-ttu-id="43236-139">Når processen er fuldført, vises bankens navn i ruden **Mine konti** under fanen **Tilknyttet**.</span><span class="sxs-lookup"><span data-stu-id="43236-139">After the process completes, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span></span> <span data-ttu-id="43236-140">Tallet i parentes angiver, hvor mange onlinebankkonti der blev tilknyttet.</span><span class="sxs-lookup"><span data-stu-id="43236-140">The number in brackets indicates how many online bank accounts were linked.</span></span>  
+7. <span data-ttu-id="43236-141">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="43236-141">Choose the **OK** button.</span></span>
+
+    <span data-ttu-id="43236-142">Hvis du kun sammenkæder én onlinebankkonto, åbnes vinduet **Bankkontokort** og viser navnet på onlinebankkontoen.</span><span class="sxs-lookup"><span data-stu-id="43236-142">If you're only linking one online bank account, the **Bank Account Card** window opens and displays the name of the online bank account.</span></span> <span data-ttu-id="43236-143">Hvis det er tilfældet, er processen med at tilknytte bankkontoen fuldført.</span><span class="sxs-lookup"><span data-stu-id="43236-143">In this case, the bank account linking task is completed.</span></span> <span data-ttu-id="43236-144">Nu mangler du kun at konfigurere bankkontoen.</span><span class="sxs-lookup"><span data-stu-id="43236-144">All that's left to do is to set up the bank account.</span></span> <span data-ttu-id="43236-145">Du kan finde flere oplysninger i [Fremgangsmåde: Oprette bankkonti](bank-how-setup-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="43236-145">For more information, see [How to: Set Up Bank Accounts](bank-how-setup-bank-accounts.md).</span></span>
+
+    <span data-ttu-id="43236-146">Hvis du tilknytter mere end én onlinebankkonto, åbnes vinduet **Tilknytning af bankkonto** og viser de onlinebankkonti, der endnu ikke er knyttet til bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="43236-146">If you're linking more than one online bank accounts, the **Bank Account Linking** window opens and lists the online bank accounts that are not yet linked to bank accounts in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="43236-147">I dette tilfælde skal du følge det næste trin.</span><span class="sxs-lookup"><span data-stu-id="43236-147">In that case, follow the next step.</span></span>  
+8. <span data-ttu-id="43236-148">I vinduet **Tilknytning af bankkonto** skal du vælge linjen for en onlinebankkonto og derefter vælge handlingen **Sammenkæd med ny bankkonto**.</span><span class="sxs-lookup"><span data-stu-id="43236-148">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to New Bank Account** action.</span></span>  
+
+    <span data-ttu-id="43236-149">Vinduet **Bankkontokort** for en ny bankkonto åbnes og viser navnet på onlinebankkontoen.</span><span class="sxs-lookup"><span data-stu-id="43236-149">The **Bank Account Card** window for a new bank account opens and displays the name of the online bank account.</span></span>
+
+    <span data-ttu-id="43236-150">Hvis der findes allerede en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du vil knytte den ekstra onlinebankkonto til, skal du følge næste trin.</span><span class="sxs-lookup"><span data-stu-id="43236-150">If a bank account already exists in [!INCLUDE[d365fin](includes/d365fin_md.md)] that you want to link the additional online bank account to, follow the next step.</span></span>  
+9. <span data-ttu-id="43236-151">I vinduet **Tilknytning af bankkonto** skal du vælge linjen for en onlinebankkonto og derefter vælge handlingen **Sammenkæd med eksisterende bankkonto**.</span><span class="sxs-lookup"><span data-stu-id="43236-151">In the **Bank Account Linking** window, select the line for an online bank account, and then choose the **Link to Existing Bank Account** action.</span></span>
+10. <span data-ttu-id="43236-152">Brug vinduet **Bankkontooversigt** til at vælge den bankkonto, som du vil oprette en tilknytning til, og vælg derefter knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="43236-152">In the **Bank Account List** window, select the bank account that you want to link to, and then choose the **OK** button.</span></span>
+
+## <a name="to-link-a-bank-account-to-an-online-bank-account"></a><span data-ttu-id="43236-153">Sådan knyttes en bankkonto til en onlinebankkonto</span><span class="sxs-lookup"><span data-stu-id="43236-153">To link a bank account to an online bank account</span></span>
+1. <span data-ttu-id="43236-154">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="43236-154">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="43236-155">Vælg linjen for en bankkonto, der ikke er knyttet til en onlinebankkonto, og vælg derefter handlingen **Tilknyt til onlinebankkonto**.</span><span class="sxs-lookup"><span data-stu-id="43236-155">Select the line for a bank account that is not linked to an online bank account, and then choose the **Link to Online Bank Account** action.</span></span> <span data-ttu-id="43236-156">Vinduet **Tilknytning af online bankkonto** åbnes med navnet på banken angivet i ruden **Tilknyt konto**.</span><span class="sxs-lookup"><span data-stu-id="43236-156">The **Online Bank Account Linking** window opens with the name of the bank prefilled in the **Link Account** pane.</span></span>
+3. <span data-ttu-id="43236-157">Vælg bankens navn.</span><span class="sxs-lookup"><span data-stu-id="43236-157">Choose the bank name.</span></span> <span data-ttu-id="43236-158">Ruden **Log på** åbnes.</span><span class="sxs-lookup"><span data-stu-id="43236-158">The **Log In** pane opens.</span></span>
+4. <span data-ttu-id="43236-159">Angiv det brugernavn og den adgangskode, som du bruger til at logge på onlinebanken, og vælg derefter knappen **Næste**.</span><span class="sxs-lookup"><span data-stu-id="43236-159">Enter the username and password that you use to log on to the online bank, and then choose the **Next** button.</span></span>  
+
+    <span data-ttu-id="43236-160">Bankfeedtjenesten forbereder at knytte din bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] til den relaterede onlinebankkonto.</span><span class="sxs-lookup"><span data-stu-id="43236-160">The bank feed service prepares to link your bank account in [!INCLUDE[d365fin](includes/d365fin_md.md)] to the related online bank account.</span></span>  
+
+    <span data-ttu-id="43236-161">Når processen er fuldført, vises bankens navn i ruden **Mine konti** under fanen **Tilknyttet**.</span><span class="sxs-lookup"><span data-stu-id="43236-161">When the process has completed successfully, the bank name will appear in the **My Accounts** pane on the **Linked** tab.</span></span> <span data-ttu-id="43236-162">Hvis banken har mere end en bankkonto, tilknyttes kun den bankkonto, som du valgte i trin 2.</span><span class="sxs-lookup"><span data-stu-id="43236-162">If the bank has more than one bank account, only the bank account that you selected in step 2 is linked.</span></span>  
+5. <span data-ttu-id="43236-163">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="43236-163">Choose the **OK** button.</span></span>
+
+<span data-ttu-id="43236-164">I vinduet **Bankkontooversigt** er afkrydsningsfeltet **Tilknyttet** markeret.</span><span class="sxs-lookup"><span data-stu-id="43236-164">In the **Bank Account List** window, the **Linked** check box is selected.</span></span>
+
+## <a name="to-unlink-a-bank-account"></a><span data-ttu-id="43236-165">Sådan fjernes tilknytningen til en bankkonto</span><span class="sxs-lookup"><span data-stu-id="43236-165">To unlink a bank account</span></span>
+1. <span data-ttu-id="43236-166">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="43236-166">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="43236-167">Vælg linjen for en tilknyttet bankkonto, som du vil fjerne tilknytningen for til den relaterede onlinebankkonto, og vælg derefter handlingen **Fjern tilknytning til onlinebankkonto**.</span><span class="sxs-lookup"><span data-stu-id="43236-167">Select the line for a linked bank account that you want to unlink from its related online bank account, and the choose the **Unlink Online Bank Account** action.</span></span>
 
 > [!NOTE]  
->   Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt i vinduet **Betalingsudligningskladde** importeres ikke.
+>   <span data-ttu-id="43236-168">Hvis du vælger **Ja** i bekræftelsesdialogboksen, fjernes tilknytningen til onlinebankkontoen og logondetaljer ryddes.</span><span class="sxs-lookup"><span data-stu-id="43236-168">If you choose **Yes** on the confirmation dialog, the link to the online bank account is removed, and the log-in details are cleared.</span></span> <span data-ttu-id="43236-169">Hvis du vil knytte bankkontoen til onlinebankkontoen igen, skal du logge på banken igen.</span><span class="sxs-lookup"><span data-stu-id="43236-169">To link the bank account to the online bank account again, you must log on to the bank again.</span></span> <span data-ttu-id="43236-170">Du kan finde flere oplysninger i afsnittet “Sådan knyttes en bankkonto til en onlinebankkonto“.</span><span class="sxs-lookup"><span data-stu-id="43236-170">For more information, see the “To link a bank account to an online bank account“ section.</span></span>
 
-## <a name="see-also"></a>Se også
-[Konfigurere banktransaktioner](bank-setup-banking.md)  
-[Håndtere bankkonti](bank-manage-bank-accounts.md)  
-[Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser ](ui-extensions.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="to-update-bank-account-linking"></a><span data-ttu-id="43236-171">Sådan opdateres tilknytning af bankkonto</span><span class="sxs-lookup"><span data-stu-id="43236-171">To update bank account linking</span></span>
+1. <span data-ttu-id="43236-172">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="43236-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="43236-173">Vælg den relevante bankkonto, og vælg derefter handlingen **Opdater tilknytning af bankkonto**.</span><span class="sxs-lookup"><span data-stu-id="43236-173">Select the relevant bank account, and then choose the **Update Bank Account Linking** action.</span></span>
+
+<span data-ttu-id="43236-174">Hvis der er problemer med nogen af de tilknyttede bankkonti i vinduet **Bankkontooversigt**, åbnes vinduet **Tilknytning af bankkonto** og angiver, hvilke konti der er problemer med.</span><span class="sxs-lookup"><span data-stu-id="43236-174">If issues exist for any of the linked bank accounts in the **Bank Account List** window, the **Bank Account Linking** window opens specifying which bank accounts have issues.</span></span> <span data-ttu-id="43236-175">Problemer kan bedst løses ved at fjerne tilknytningen af onlinebankkontoen og derefter at oprette tilknytningen igen.</span><span class="sxs-lookup"><span data-stu-id="43236-175">Issues can best be resolved by unlinking the online bank account and then re-creating the link.</span></span> <span data-ttu-id="43236-176">Du kan finde flere oplysninger i afsnittet “Sådan knyttes en bankkonto til en onlinebankkonto“.</span><span class="sxs-lookup"><span data-stu-id="43236-176">For more information, see the “To link a bank account to an online bank account“ section.</span></span>
+
+## <a name="to-enable-automatic-import-of-bank-statements"></a><span data-ttu-id="43236-177">Sådan aktiveres automatisk import af kontoudtog fra banken</span><span class="sxs-lookup"><span data-stu-id="43236-177">To enable automatic import of bank statements</span></span>
+1. <span data-ttu-id="43236-178">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="43236-178">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Bank Accounts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="43236-179">Vælg linjen for en tilknyttet bankkonto og vælg derefter handlingen **Opsætning af automatisk import af bankkontoudtog**.</span><span class="sxs-lookup"><span data-stu-id="43236-179">Select the line for a linked bank account, and then choose the **Automatic Bank Statement Import Setup** action.</span></span>
+3. <span data-ttu-id="43236-180">I vinduet **Opsætning af automatisk import af bankkontoudtog** skal du i feltet **Antal dage inkluderet** angive, hvor langt tilbage i tiden, der skal hentes nye banktransaktioner.</span><span class="sxs-lookup"><span data-stu-id="43236-180">In the **Automatic Bank Statement Import Setup** window, in the **Number of Days Included** field, specify how far back in time to get new bank transactions for.</span></span>
+
+    > [!NOTE]  
+>   <span data-ttu-id="43236-181">Det anbefales, at du angiver denne værdi til 7 dage eller derover.</span><span class="sxs-lookup"><span data-stu-id="43236-181">It is recommended that you set this value to 7 days or more.</span></span>  
+4. <span data-ttu-id="43236-182">Marker afkrydsningsfeltet **Aktiveret**.</span><span class="sxs-lookup"><span data-stu-id="43236-182">Select the **Enabled** check box.</span></span>  
+
+<span data-ttu-id="43236-183">Hver time viser vinduet **Betalingsudligningskladde** nye betalinger, der foretages på onlinebankkontoen.</span><span class="sxs-lookup"><span data-stu-id="43236-183">Every hour, the **Payment Reconciliation Journal** window will display new payments that are made on the online bank account.</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="43236-184">Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt i vinduet **Betalingsudligningskladde** importeres ikke.</span><span class="sxs-lookup"><span data-stu-id="43236-184">Transactions for payments that have already been posted as applied and/or reconciled in the **Payment Reconciliation Journal** window will not be imported.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="43236-185">Se også</span><span class="sxs-lookup"><span data-stu-id="43236-185">See Also</span></span>
+[<span data-ttu-id="43236-186">Konfigurere banktransaktioner</span><span class="sxs-lookup"><span data-stu-id="43236-186">Setting Up Banking</span></span>](bank-setup-banking.md)  
+[<span data-ttu-id="43236-187">Håndtere bankkonti</span><span class="sxs-lookup"><span data-stu-id="43236-187">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="43236-188">Udligne betalinger automatisk og afstemme bankkonti</span><span class="sxs-lookup"><span data-stu-id="43236-188">Apply Payments Automatically and Reconcile Bank Accounts</span></span>](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+<span data-ttu-id="43236-189">[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser ](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="43236-189">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions ](ui-extensions.md)</span></span>  
+<span data-ttu-id="43236-190">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="43236-190">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

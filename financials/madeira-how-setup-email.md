@@ -15,30 +15,29 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: aedd27545da932155d453bf6aa476a4e9f898fc6
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Fremgangsmåde: Konfigurere e-mail manuelt eller ved hjælp af den assisterede opsætning
-Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne i vinduet **SMTP-mailopsætning**.
+# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a><span data-ttu-id="7d384-103">Fremgangsmåde: Konfigurere e-mail manuelt eller ved hjælp af den assisterede opsætning</span><span class="sxs-lookup"><span data-stu-id="7d384-103">How to: Set Up Email Manually or Using the Assisted Setup</span></span>
+<span data-ttu-id="7d384-104">Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne i vinduet **SMTP-mailopsætning**.</span><span class="sxs-lookup"><span data-stu-id="7d384-104">To send and receive emails from within [!INCLUDE[d365fin](includes/d365fin_md.md)], you must fill in the fields in the **SMTP Mail Setup** window.</span></span>
 
 > [!NOTE]  
->   I stedet for at angive detaljer om SMTP-serveren kan du bruge en funktion, der bruger oplysninger fra dit abonnement på Office 365.
+>   <span data-ttu-id="7d384-105">I stedet for at angive detaljer om SMTP-serveren kan du bruge en funktion, der bruger oplysninger fra dit abonnement på Office 365.</span><span class="sxs-lookup"><span data-stu-id="7d384-105">Instead of entering the SMTP server details, you can use a function to enter them with information from your Office 365 subscription.</span></span>
 
-Du kan enten oprette mail manuelt, eller du kan få hjælp af den assisterede opsætningsvejledning **Mailopsætning**. Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).  
+<span data-ttu-id="7d384-106">Du kan enten oprette mail manuelt, eller du kan få hjælp af den assisterede opsætningsvejledning **Mailopsætning**.</span><span class="sxs-lookup"><span data-stu-id="7d384-106">You can either set email up manually or you can get help by using the **Email Setup** assisted setup.</span></span> <span data-ttu-id="7d384-107">Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).</span><span class="sxs-lookup"><span data-stu-id="7d384-107">For more information, see [Getting Ready for Doing Business](ui-get-ready-business.md).</span></span>  
 
-## <a name="to-set-up-email"></a>Sådan konfigurer du mail
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **SMTP-mailopsætning**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Du kan også vælge handlingen **Anvend Office 365 Server-indstillinger** for at indsætte de oplysninger, der er allerede defineret til Office 365-abonnement.
-4. Når alle felter er udfyldt korrekt, kan du vælge handlingen **Test mailopsætning**.
-5. Når testen er gennemført, skal du lukke vinduet.
+## <a name="to-set-up-email"></a><span data-ttu-id="7d384-108">Sådan konfigurer du mail</span><span class="sxs-lookup"><span data-stu-id="7d384-108">To set up email</span></span>
+1. <span data-ttu-id="7d384-109">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **SMTP-mailopsætning**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="7d384-109">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **SMTP Email Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="7d384-110">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="7d384-110">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="7d384-111">Du kan også vælge handlingen **Anvend Office 365 Server-indstillinger** for at indsætte de oplysninger, der er allerede defineret til Office 365-abonnement.</span><span class="sxs-lookup"><span data-stu-id="7d384-111">Alternatively, choose the **Apply Office 365 Server Settings** action to insert any information that is already defined for your Office 365 subscription.</span></span>
+4. <span data-ttu-id="7d384-112">Når alle felter er udfyldt korrekt, kan du vælge handlingen **Test mailopsætning**.</span><span class="sxs-lookup"><span data-stu-id="7d384-112">When all the fields are correctly filled in, choose the **Test Email Setup** action.</span></span>
+5. <span data-ttu-id="7d384-113">Når testen er gennemført, skal du lukke vinduet.</span><span class="sxs-lookup"><span data-stu-id="7d384-113">When the test succeeds, close the window.</span></span>
 
-## <a name="see-also"></a>Se også  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md)  
-[Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på min mobilenhed](install-mobile-app.md)
+## <a name="see-also"></a><span data-ttu-id="7d384-114">Se også</span><span class="sxs-lookup"><span data-stu-id="7d384-114">See Also</span></span>  
+<span data-ttu-id="7d384-115">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7d384-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+<span data-ttu-id="7d384-116">[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span><span class="sxs-lookup"><span data-stu-id="7d384-116">[Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)</span></span>  
+[<span data-ttu-id="7d384-117">Fremgangsmåde: Sende dokumenter via mail</span><span class="sxs-lookup"><span data-stu-id="7d384-117">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+<span data-ttu-id="7d384-118">[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)</span><span class="sxs-lookup"><span data-stu-id="7d384-118">[Customizing [!INCLUDE[d365fin](includes/d365fin_md.md)] Using Extensions](ui-extensions.md)</span></span>  
+<span data-ttu-id="7d384-119">[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md)</span><span class="sxs-lookup"><span data-stu-id="7d384-119">[Using [!INCLUDE[d365fin](includes/d365fin_md.md)] as Your Business Inbox in Outlook](madeira-outlook.md)</span></span>  
+<span data-ttu-id="7d384-120">[Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på min mobilenhed](install-mobile-app.md)</span><span class="sxs-lookup"><span data-stu-id="7d384-120">[Getting [!INCLUDE[d365fin](includes/d365fin_md.md)] on My Mobile Device](install-mobile-app.md)</span></span>
 

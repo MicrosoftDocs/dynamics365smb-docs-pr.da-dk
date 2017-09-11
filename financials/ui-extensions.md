@@ -15,63 +15,63 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Tilpasse Dynamics 365 for Financials ved hjælp af udvidelser
-Du kan ændre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.
-Når du starter [!INCLUDE[d365fin](includes/d365fin_md.md)] første gang, er der allerede installeret nogle udvidelser for dig. Med tiden gøres flere udvidelser tilgængelige for dig, og du kan derefter vælge, om du vil bruge udvidelsen eller ej.
+# <a name="customizing-dynamics-365-for-financials-using-extensions"></a><span data-ttu-id="9a5ec-103">Tilpasse Dynamics 365 for Financials ved hjælp af udvidelser</span><span class="sxs-lookup"><span data-stu-id="9a5ec-103">Customizing Dynamics 365 for Financials Using Extensions</span></span>
+<span data-ttu-id="9a5ec-104">Du kan ændre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-104">You can change [!INCLUDE[d365fin](includes/d365fin_md.md)] by installing extensions that add functionality, changes behavior, or gives you access to new online services, for example.</span></span>
+<span data-ttu-id="9a5ec-105">Når du starter [!INCLUDE[d365fin](includes/d365fin_md.md)] første gang, er der allerede installeret nogle udvidelser for dig.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-105">When you first launch [!INCLUDE[d365fin](includes/d365fin_md.md)], some extensions are already installed for you.</span></span> <span data-ttu-id="9a5ec-106">Med tiden gøres flere udvidelser tilgængelige for dig, og du kan derefter vælge, om du vil bruge udvidelsen eller ej.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-106">Over time, more extensions will be made available to you, and you can then choose if you want to use the extension or not.</span></span>
 
-Microsoft leverer f.eks. en udvidelse, der giver integration med PayPal Payments Standard. Denne udvidelse er installeret som standard.
-Men hvis en anden udvidelse, som tilbyder integration med en anden betalingstjeneste, stilles til rådighed, kan du installere nye udvidelse og derefter vælge, hvilken af to de tjenester du vil bruge.  
+<span data-ttu-id="9a5ec-107">Microsoft leverer f.eks. en udvidelse, der giver integration med PayPal Payments Standard.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-107">For example, Microsoft provides an extension that provides integration with PayPal Payments Standard.</span></span> <span data-ttu-id="9a5ec-108">Denne udvidelse er installeret som standard.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-108">This extension is installed by default.</span></span>
+<span data-ttu-id="9a5ec-109">Men hvis en anden udvidelse, som tilbyder integration med en anden betalingstjeneste, stilles til rådighed, kan du installere nye udvidelse og derefter vælge, hvilken af to de tjenester du vil bruge.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-109">But if another extension is made available that offers integration with another payment service, you can install the new extension and then choose which of the two services to use.</span></span>  
 
-Du kan administrere udvidelserne i vinduet **Udvidelsesstyring**. Du kan åbne vinduet fra Start. Du kan også vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") i det øverste højre hjørne, angive **Udvidelser** og derefter vælge det relaterede link.  
-
-> [!NOTE]  
->   Hvis du mener, at du skal have adgang til en udvidelse, men ikke kan finde de relevante funktioner, skal du vælge vinduet **Udvidelsesstyring** – hvis filtypen ikke er angivet der, kan du installere den som beskrevet i følgende afsnit.  
-
-## <a name="installing-an-extension"></a>Installation af en udvidelse
-Du kan få nye udvidelser fra markedspladsen på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Her kan du se alle tilgængelige udvidelser for [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan få apps, udvidelser og indholdspakker til andre Microsoft-produkter. Angiv de relevante filtre, kig på oplysningerne om hver udvidelse og hent en udvidelse til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-> [!NOTE]  
->   Log på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved hjælp af den mailkonto, du bruger til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Brug den samme mailkonto til andre tjenester og produkter for at opnå en ensartet oplevelse.  
-
-Du kan også få adgang til markedspladsen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I vinduet **Udvidelsesstyring** kan du se de udvidelser, der er installeret, og du kan åbne siden **Markedsplads for udvidelse** for at se de udvidelser til [!INCLUDE[d365fin](includes/d365fin_md.md)], der er tilgængelige i AppSource. Hvis du vælger linket *Flere apps*, åbnes [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
-
-Hvis du vælger en udvidelse, du kan finde oplysninger om, hvad den gør, og du kan få adgang til hjælp for at få mere at vide om udvidelsen. Når du vælger at hente en udvidelse, skal du acceptere vilkårene for anvendelse. Hvis du henter udvidelsen fra AppSource-webstedet, logges du på [!INCLUDE[d365fin](includes/d365fin_md.md)] for at fuldføre installationen.  
-
-Når du installerer en udvidelse, kan det være nødvendigt at konfigurere den, f.eks. angive en konto til brug sammen med udvidelsen **PayPal Payments Standard til [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
-Andre udvidelser føjer simpelthen felter til en eksisterende side, eller de tilføjer en ny side f.eks.   
-
-Hvis du fjerner en udvidelse, og du senere skifter mening, kan du installere den igen. Når du fjerner en udvidelse, som du har brugt, bevares dataene, så de stadig tilgængelige, hvis du installerer udvidelsen igen.  
-
-Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af [andre virksomheder](ui-extensions-other.md). Alle udvidelser testes, før de bliver tilgængelige for dig, men det anbefales, at du bruger de links, der følger med hver udvidelse, for at få mere at vide om udvidelsen, før du vælger at installere den.  
-
-Microsoft tilbyder følgende udvidelser:  
-
-* [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)  
-* [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)  
-* [Ceridian løn](ui-extensions-ceridian-payroll.md)  
-* [Import af Quickbooks-lønfiler](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [Britiske GetAddress.io-postnumre](ui-extensions-getaddressio.md)
-* [Overførsel af QuickBooks Online-data](ui-extensions-quickbooks-online-data-migration.md)
-* [Revisorportal](ui-extensions-accountant-portal.md)  
-* [Billedanalyse](ui-extensions-image-analyzer.md)
+<span data-ttu-id="9a5ec-110">Du kan administrere udvidelserne i vinduet **Udvidelsesstyring**.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-110">You manage the extensions in the **Extension Management** window.</span></span> <span data-ttu-id="9a5ec-111">Du kan åbne vinduet fra Start.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-111">You can access this window from Home.</span></span> <span data-ttu-id="9a5ec-112">Du kan også vælge ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") i det øverste højre hjørne, angive **Udvidelser** og derefter vælge det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-112">Alternatively, choose the **Search for Page or Report** icon ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") in the top right corner, enter **Extension**, and then choose the related link.</span></span>  
 
 > [!NOTE]  
->  Der findes ingen nye udvidelser i AppSource umiddelbart efter, at vi har oplyst om en opdatering. Du kan holde øje med udvidelser på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
+>   <span data-ttu-id="9a5ec-113">Hvis du mener, at du skal have adgang til en udvidelse, men ikke kan finde de relevante funktioner, skal du vælge vinduet **Udvidelsesstyring** – hvis filtypen ikke er angivet der, kan du installere den som beskrevet i følgende afsnit.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-113">If you think you should have access to an extension but you cannot find its functionality, check the **Extension Management** window - if the extension is not listed there, you can install it as described in the following section.</span></span>  
 
-## <a name="see-also"></a>Se også
-[Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
-[Fremgangsmåde: Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md)  
-[Overføre virksomhedsdata fra andre økonomisystemer](upload-data.md)  
-[Konfigurere den britiske GetAddress.io-postnummerudvidelse](uk-setup-postal-code-service.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+## <a name="installing-an-extension"></a><span data-ttu-id="9a5ec-114">Installation af en udvidelse</span><span class="sxs-lookup"><span data-stu-id="9a5ec-114">Installing an Extension</span></span>
+<span data-ttu-id="9a5ec-115">Du kan få nye udvidelser fra markedspladsen på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="9a5ec-115">You can get new extensions from the marketplace at [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span> <span data-ttu-id="9a5ec-116">Her kan du se alle tilgængelige udvidelser for [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan få apps, udvidelser og indholdspakker til andre Microsoft-produkter.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-116">Here, you can see all available extensions for [!INCLUDE[d365fin](includes/d365fin_md.md)], and you can get apps, extensions, and content packs for other Microsoft products.</span></span> <span data-ttu-id="9a5ec-117">Angiv de relevante filtre, kig på oplysningerne om hver udvidelse og hent en udvidelse til [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="9a5ec-117">Set the relevant filters, take a look at the information for each extension, and get an extension for your [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>  
+> [!NOTE]  
+>   <span data-ttu-id="9a5ec-118">Log på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved hjælp af den mailkonto, du bruger til [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="9a5ec-118">Sign in to [AppSource.microsoft.com](https://appsource.microsoft.com/) using the email account that you use for [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="9a5ec-119">Brug den samme mailkonto til andre tjenester og produkter for at opnå en ensartet oplevelse.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-119">Use the same email account for other services and products for a smooth experience.</span></span>  
+
+<span data-ttu-id="9a5ec-120">Du kan også få adgang til markedspladsen i [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="9a5ec-120">You can also get to the marketplace from inside [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="9a5ec-121">I vinduet **Udvidelsesstyring** kan du se de udvidelser, der er installeret, og du kan åbne siden **Markedsplads for udvidelse** for at se de udvidelser til [!INCLUDE[d365fin](includes/d365fin_md.md)], der er tilgængelige i AppSource.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-121">In the **Extension Management** window, you can see the extensions that are currently installed, and you can open the **Extension Marketplace** page that shows the [!INCLUDE[d365fin](includes/d365fin_md.md)] extensions that are currently available in AppSource.</span></span> <span data-ttu-id="9a5ec-122">Hvis du vælger linket *Flere apps*, åbnes [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="9a5ec-122">If you choose the *More apps* link, you are taken to [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span>  
+
+<span data-ttu-id="9a5ec-123">Hvis du vælger en udvidelse, du kan finde oplysninger om, hvad den gør, og du kan få adgang til hjælp for at få mere at vide om udvidelsen.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-123">If you choose an extension, you can read about what the extension does, and you can access Help for the extension to learn more.</span></span> <span data-ttu-id="9a5ec-124">Når du vælger at hente en udvidelse, skal du acceptere vilkårene for anvendelse.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-124">When you choose to get an extension, you must agree to the terms of use.</span></span> <span data-ttu-id="9a5ec-125">Hvis du henter udvidelsen fra AppSource-webstedet, logges du på [!INCLUDE[d365fin](includes/d365fin_md.md)] for at fuldføre installationen.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-125">If you get the extension from the AppSource website, you will be signed in to [!INCLUDE[d365fin](includes/d365fin_md.md)] to complete the installation.</span></span>  
+
+<span data-ttu-id="9a5ec-126">Når du installerer en udvidelse, kan det være nødvendigt at konfigurere den, f.eks. angive en konto til brug sammen med udvidelsen **PayPal Payments Standard til [!INCLUDE[d365fin](includes/d365fin_md.md)]**.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-126">When you install an extension, you might have to set it up, such as specifying an account for use with the **PayPal Payments Standard for [!INCLUDE[d365fin](includes/d365fin_md.md)]** extension.</span></span>
+<span data-ttu-id="9a5ec-127">Andre udvidelser føjer simpelthen felter til en eksisterende side, eller de tilføjer en ny side f.eks.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-127">Other extensions simply add fields to an existing page, or they add a new page, for example.</span></span>   
+
+<span data-ttu-id="9a5ec-128">Hvis du fjerner en udvidelse, og du senere skifter mening, kan du installere den igen.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-128">If you uninstall an extension, and you then change your mind, you can install it again.</span></span> <span data-ttu-id="9a5ec-129">Når du fjerner en udvidelse, som du har brugt, bevares dataene, så de stadig tilgængelige, hvis du installerer udvidelsen igen.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-129">When you uninstall an extension that you have been using, the data is preserved so that if you install the extension again, your data is still available.</span></span>  
+
+<span data-ttu-id="9a5ec-130">Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af [andre virksomheder](ui-extensions-other.md).</span><span class="sxs-lookup"><span data-stu-id="9a5ec-130">Some extensions are provided by Microsoft, and other extensions are provided by [other companies](ui-extensions-other.md).</span></span> <span data-ttu-id="9a5ec-131">Alle udvidelser testes, før de bliver tilgængelige for dig, men det anbefales, at du bruger de links, der følger med hver udvidelse, for at få mere at vide om udvidelsen, før du vælger at installere den.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-131">All extensions are tested before they are made available to you, but we recommend that you access the links that are provided with each extension to learn more about the extension before you choose to install it.</span></span>  
+
+<span data-ttu-id="9a5ec-132">Microsoft tilbyder følgende udvidelser:</span><span class="sxs-lookup"><span data-stu-id="9a5ec-132">Microsoft provides the following extensions:</span></span>  
+
+* [<span data-ttu-id="9a5ec-133">Overførsel af data med Dynamics GP</span><span class="sxs-lookup"><span data-stu-id="9a5ec-133">Dynamics GP Data Migration</span></span>](ui-extensions-dynamicsgp-data-migration.md)  
+* [<span data-ttu-id="9a5ec-134">Envestnet Yodlee Bank Feeds</span><span class="sxs-lookup"><span data-stu-id="9a5ec-134">Envestnet Yodlee Bank Feeds</span></span>](ui-extensions-yodlee-bank-feeds.md)  
+* [<span data-ttu-id="9a5ec-135">PayPal Payments Standard</span><span class="sxs-lookup"><span data-stu-id="9a5ec-135">PayPal Payments Standard</span></span>](ui-extensions-paypal-payments-standard.md)  
+* [<span data-ttu-id="9a5ec-136">Overflytning af QuickBooks Data</span><span class="sxs-lookup"><span data-stu-id="9a5ec-136">QuickBooks Data Migration</span></span>](ui-extensions-quickbooks-data-migration.md)  
+* [<span data-ttu-id="9a5ec-137">Salgs- og lagerprognose</span><span class="sxs-lookup"><span data-stu-id="9a5ec-137">Sales and Inventory Forecast</span></span>](ui-extensions-sales-forecast.md)  
+* [<span data-ttu-id="9a5ec-138">Ceridian løn</span><span class="sxs-lookup"><span data-stu-id="9a5ec-138">Ceridian Payroll</span></span>](ui-extensions-ceridian-payroll.md)  
+* [<span data-ttu-id="9a5ec-139">Import af Quickbooks-lønfiler</span><span class="sxs-lookup"><span data-stu-id="9a5ec-139">Quickbooks Payroll File Import</span></span>](ui-extensions-quickbooks-payroll.md)  
+* [<span data-ttu-id="9a5ec-140">WorldPay Payments Standard</span><span class="sxs-lookup"><span data-stu-id="9a5ec-140">WorldPay Payments Standard</span></span>](ui-extensions-worldpay-payments-standard.md)
+* [<span data-ttu-id="9a5ec-141">Britiske GetAddress.io-postnumre</span><span class="sxs-lookup"><span data-stu-id="9a5ec-141">GetAddress.io UK Postcodes</span></span>](ui-extensions-getaddressio.md)
+* [<span data-ttu-id="9a5ec-142">Overførsel af QuickBooks Online-data</span><span class="sxs-lookup"><span data-stu-id="9a5ec-142">QuickBooks Online Data Migration</span></span>](ui-extensions-quickbooks-online-data-migration.md)
+* [<span data-ttu-id="9a5ec-143">Revisorportal</span><span class="sxs-lookup"><span data-stu-id="9a5ec-143">Accountant Portal</span></span>](ui-extensions-accountant-portal.md)  
+* [<span data-ttu-id="9a5ec-144">Billedanalyse</span><span class="sxs-lookup"><span data-stu-id="9a5ec-144">Image Analyzer</span></span>](ui-extensions-image-analyzer.md)
+
+> [!NOTE]  
+>  <span data-ttu-id="9a5ec-145">Der findes ingen nye udvidelser i AppSource umiddelbart efter, at vi har oplyst om en opdatering.</span><span class="sxs-lookup"><span data-stu-id="9a5ec-145">New extensions are not available in AppSource immediately after we announce an update.</span></span> <span data-ttu-id="9a5ec-146">Du kan holde øje med udvidelser på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span><span class="sxs-lookup"><span data-stu-id="9a5ec-146">You can keep an eye out for the extensions at  [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="9a5ec-147">Se også</span><span class="sxs-lookup"><span data-stu-id="9a5ec-147">See Also</span></span>
+[<span data-ttu-id="9a5ec-148">Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds</span><span class="sxs-lookup"><span data-stu-id="9a5ec-148">How to: Set Up the Envestnet Yodlee Bank Feeds Service</span></span>](bank-how-setup-bank-statement-service.md)  
+[<span data-ttu-id="9a5ec-149">Fremgangsmåde: Aktivere debitorbetaling via PayPal</span><span class="sxs-lookup"><span data-stu-id="9a5ec-149">How to: Enable Customer Payment Through PayPal</span></span>](sales-how-enable-payment-service-extensions.md)  
+[<span data-ttu-id="9a5ec-150">Overføre virksomhedsdata fra andre økonomisystemer</span><span class="sxs-lookup"><span data-stu-id="9a5ec-150">Migrate Business Data from Other Finance Systems</span></span>](upload-data.md)  
+[<span data-ttu-id="9a5ec-151">Konfigurere den britiske GetAddress.io-postnummerudvidelse</span><span class="sxs-lookup"><span data-stu-id="9a5ec-151">Set up the GetAddress.io UK Postal Code extension</span></span>](uk-setup-postal-code-service.md)  
+<span data-ttu-id="9a5ec-152">[[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md)</span><span class="sxs-lookup"><span data-stu-id="9a5ec-152">[[!INCLUDE[d365fin](includes/d365fin_md.md)] Extensions by Other Providers](ui-extensions-other.md)</span></span>  
+<span data-ttu-id="9a5ec-153">[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span><span class="sxs-lookup"><span data-stu-id="9a5ec-153">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

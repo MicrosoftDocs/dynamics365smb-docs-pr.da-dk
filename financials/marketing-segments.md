@@ -16,28 +16,27 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="managing-segments"></a>Administrere målgrupper
-Du opretter målgrupper for at vælge en gruppe kontaktpersoner i overensstemmelse med bestemte kriterier. F.eks. kan en målgruppe være den branche, som kontaktpersonerne arbejder i, eller dine forretningsmæssige relationer med kontaktpersonerne. Du kan oprette en målgruppe for at vælge de kontaktpersoner, som er målet med en kampagne.
+# <a name="managing-segments"></a><span data-ttu-id="5b3df-103">Administrere målgrupper</span><span class="sxs-lookup"><span data-stu-id="5b3df-103">Managing Segments</span></span>
+<span data-ttu-id="5b3df-104">Du opretter målgrupper for at vælge en gruppe kontaktpersoner i overensstemmelse med bestemte kriterier.</span><span class="sxs-lookup"><span data-stu-id="5b3df-104">You create segments to select a group of contacts according to specific criteria.</span></span> <span data-ttu-id="5b3df-105">F.eks. kan en målgruppe være den branche, som kontaktpersonerne arbejder i, eller dine forretningsmæssige relationer med kontaktpersonerne.</span><span class="sxs-lookup"><span data-stu-id="5b3df-105">For example, a segment could be the industry that the contacts belong to or your business relationship with the contacts.</span></span> <span data-ttu-id="5b3df-106">Du kan oprette en målgruppe for at vælge de kontaktpersoner, som er målet med en kampagne.</span><span class="sxs-lookup"><span data-stu-id="5b3df-106">You can create a segment to select the contacts you want to target with a campaign.</span></span>
 
-Der er to hovedopgaver i oprettelse af en målgruppe:
+<span data-ttu-id="5b3df-107">Der er to hovedopgaver i oprettelse af en målgruppe:</span><span class="sxs-lookup"><span data-stu-id="5b3df-107">There are two main tasks in creating a segment:</span></span>
 
-* Angiv generelle oplysninger om målgruppen. Du skal oprette målgruppen, før du kan vælge kontaktpersoner i gruppen.
-* Vælg de kontaktpersoner, der skal inkluderes i målgruppen.
+* <span data-ttu-id="5b3df-108">Angiv generelle oplysninger om målgruppen.</span><span class="sxs-lookup"><span data-stu-id="5b3df-108">Enter general information about the segment.</span></span> <span data-ttu-id="5b3df-109">Du skal oprette målgruppen, før du kan vælge kontaktpersoner i gruppen.</span><span class="sxs-lookup"><span data-stu-id="5b3df-109">Before you can select the contacts within the segment, you must first create the segment.</span></span>
+* <span data-ttu-id="5b3df-110">Vælg de kontaktpersoner, der skal inkluderes i målgruppen.</span><span class="sxs-lookup"><span data-stu-id="5b3df-110">Select the contacts to be included within the segment.</span></span>
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. Disse opgaver er angivet i den rækkefølge, de almindeligvis udføres i.
+<span data-ttu-id="5b3df-111">Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.</span><span class="sxs-lookup"><span data-stu-id="5b3df-111">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span> <span data-ttu-id="5b3df-112">Disse opgaver er angivet i den rækkefølge, de almindeligvis udføres i.</span><span class="sxs-lookup"><span data-stu-id="5b3df-112">These tasks are listed in the order in which they are generally performed.</span></span>
 
-| Hvis du vil | Se |
+| <span data-ttu-id="5b3df-113">Hvis du vil</span><span class="sxs-lookup"><span data-stu-id="5b3df-113">To</span></span> | <span data-ttu-id="5b3df-114">Se</span><span class="sxs-lookup"><span data-stu-id="5b3df-114">See</span></span> |
 | --- | --- |
-| Oprette målgrupper, som gør det muligt for dig at vælge en gruppe kontakter. F.eks., direct mail. |[Fremgangsmåde: Oprette målgrupper](marketing-how-create-segment.md) |
-| Administrere de kontakter, der er tildelt til målgrupper. |[Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md) |
-| Få mere at vide om brugen af interaktioner og målgrupper, herunder logføring. |[Administrere interaktion og målgrupper](marketing-interaction-segments.md) |
+| <span data-ttu-id="5b3df-115">Oprette målgrupper, som gør det muligt for dig at vælge en gruppe kontakter.</span><span class="sxs-lookup"><span data-stu-id="5b3df-115">Create segments which allow you to select a group of contacts.</span></span> <span data-ttu-id="5b3df-116">F.eks., direct mail.</span><span class="sxs-lookup"><span data-stu-id="5b3df-116">For example, direct mail.</span></span> |[<span data-ttu-id="5b3df-117">Fremgangsmåde: Oprette målgrupper</span><span class="sxs-lookup"><span data-stu-id="5b3df-117">How to: Create Segments</span></span>](marketing-how-create-segment.md) |
+| <span data-ttu-id="5b3df-118">Administrere de kontakter, der er tildelt til målgrupper.</span><span class="sxs-lookup"><span data-stu-id="5b3df-118">Manage the contacts that are assigned to segments.</span></span> |[<span data-ttu-id="5b3df-119">Fremgangsmåde: Tilføje kontakter til målgrupper</span><span class="sxs-lookup"><span data-stu-id="5b3df-119">How to: Add Contacts to Segments</span></span>](marketing-add-contact-segment.md) |
+| <span data-ttu-id="5b3df-120">Få mere at vide om brugen af interaktioner og målgrupper, herunder logføring.</span><span class="sxs-lookup"><span data-stu-id="5b3df-120">Learn about using interactions and segments, including logging.</span></span> |[<span data-ttu-id="5b3df-121">Administrere interaktion og målgrupper</span><span class="sxs-lookup"><span data-stu-id="5b3df-121">Managing Interaction and Segments</span></span>](marketing-interaction-segments.md) |
 
-## <a name="see-also"></a>Se også
-[Administrere salgsleads](marketing-manage-sales-opportunities.md)  
-[Administrere kontakter](marketing-contacts.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="5b3df-122">Se også</span><span class="sxs-lookup"><span data-stu-id="5b3df-122">See Also</span></span>
+[<span data-ttu-id="5b3df-123">Administrere salgsleads</span><span class="sxs-lookup"><span data-stu-id="5b3df-123">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
+[<span data-ttu-id="5b3df-124">Administrere kontakter</span><span class="sxs-lookup"><span data-stu-id="5b3df-124">Managing Contacts</span></span>](marketing-contacts.md)  
+<span data-ttu-id="5b3df-125">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="5b3df-125">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

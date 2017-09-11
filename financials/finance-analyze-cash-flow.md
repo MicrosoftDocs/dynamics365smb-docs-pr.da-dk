@@ -16,43 +16,42 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysere pengestrømme i din virksomhed
-Penge styrer, som man siger. Diagrammer i rollecenteret Regnskabsmedarbejder giver indsigt, som kan hjælpe dig med at træffe beslutninger vedrørende dine pengestrømme.  
+# <a name="analyzing-cash-flow-in-your-company"></a><span data-ttu-id="73dd9-103">Analysere pengestrømme i din virksomhed</span><span class="sxs-lookup"><span data-stu-id="73dd9-103">Analyzing Cash Flow in Your Company</span></span>
+<span data-ttu-id="73dd9-104">Penge styrer, som man siger.</span><span class="sxs-lookup"><span data-stu-id="73dd9-104">As they say, cash is king.</span></span> <span data-ttu-id="73dd9-105">Diagrammer i rollecenteret Regnskabsmedarbejder giver indsigt, som kan hjælpe dig med at træffe beslutninger vedrørende dine pengestrømme.</span><span class="sxs-lookup"><span data-stu-id="73dd9-105">The charts on the Accountant Role Center provide insight that can help you make solid decisions about what to do with your cash.</span></span>  
 
-| For at besvare spørgsmål som de følgende | Skal du bruge dette diagram |
+| <span data-ttu-id="73dd9-106">For at besvare spørgsmål som de følgende</span><span class="sxs-lookup"><span data-stu-id="73dd9-106">To answer questions like these</span></span> | <span data-ttu-id="73dd9-107">Skal du bruge dette diagram</span><span class="sxs-lookup"><span data-stu-id="73dd9-107">Use this chart</span></span> |
 | --- | --- |
-| Hvor længe lægger salgsprocessen beslag på mine kontanter?</br> Skal jeg øge eller mindske lagerniveauer? |Kassebeholdningsproces |
-| Hvornår er et pengebeløb ankommet til og har forladt min virksomhed?</br> Er nogle perioder bedre end andre? |Pengestrøm |
-| Ser tallene negative ud for en periode?</br> Skal jeg undersøge det? |Indtægter og udgifter |
-| Hvornår kan jeg forvente kontante overskud eller underskud?</br> Skal jeg nedbringe gæld eller låne for at imødegå kommende udgifter? |Pengestrømsprognoser |
+| <span data-ttu-id="73dd9-108">Hvor længe lægger salgsprocessen beslag på mine kontanter?</span><span class="sxs-lookup"><span data-stu-id="73dd9-108">How long does the sales process tie up my cash?</span></span></br> <span data-ttu-id="73dd9-109">Skal jeg øge eller mindske lagerniveauer?</span><span class="sxs-lookup"><span data-stu-id="73dd9-109">Should I increase or reduce inventory levels?</span></span> |<span data-ttu-id="73dd9-110">Kassebeholdningsproces</span><span class="sxs-lookup"><span data-stu-id="73dd9-110">Cash Cycle</span></span> |
+| <span data-ttu-id="73dd9-111">Hvornår er et pengebeløb ankommet til og har forladt min virksomhed?</span><span class="sxs-lookup"><span data-stu-id="73dd9-111">When did cash move in and out of my company?</span></span></br> <span data-ttu-id="73dd9-112">Er nogle perioder bedre end andre?</span><span class="sxs-lookup"><span data-stu-id="73dd9-112">Are some periods better than others?</span></span> |<span data-ttu-id="73dd9-113">Pengestrøm</span><span class="sxs-lookup"><span data-stu-id="73dd9-113">Cash Flow</span></span> |
+| <span data-ttu-id="73dd9-114">Ser tallene negative ud for en periode?</span><span class="sxs-lookup"><span data-stu-id="73dd9-114">Do the numbers seem off for a period?</span></span></br> <span data-ttu-id="73dd9-115">Skal jeg undersøge det?</span><span class="sxs-lookup"><span data-stu-id="73dd9-115">Should I investigate?</span></span> |<span data-ttu-id="73dd9-116">Indtægter og udgifter</span><span class="sxs-lookup"><span data-stu-id="73dd9-116">Income & Expense</span></span> |
+| <span data-ttu-id="73dd9-117">Hvornår kan jeg forvente kontante overskud eller underskud?</span><span class="sxs-lookup"><span data-stu-id="73dd9-117">When might a cash surplus or deficit happen?</span></span></br> <span data-ttu-id="73dd9-118">Skal jeg nedbringe gæld eller låne for at imødegå kommende udgifter?</span><span class="sxs-lookup"><span data-stu-id="73dd9-118">Should I pay down debt, or borrow to meet upcoming expenses?</span></span> |<span data-ttu-id="73dd9-119">Pengestrømsprognoser</span><span class="sxs-lookup"><span data-stu-id="73dd9-119">Cash Flow Forecasts</span></span> |
 
-## <a name="dig-into-the-numbers"></a>Se nærmere på tallene
-I rollecentret Regnskabsmedarbejder under **Finansydeevne** giver diagrammerne **Kassebeholdningsproces**, **Pengestrøm** og **Indtægter og udgifter** dig måder at analysere pengestrømme på:  
+## <a name="dig-into-the-numbers"></a><span data-ttu-id="73dd9-120">Se nærmere på tallene</span><span class="sxs-lookup"><span data-stu-id="73dd9-120">Dig into the numbers</span></span>
+<span data-ttu-id="73dd9-121">I rollecentret Regnskabsmedarbejder under **Finansydeevne** giver diagrammerne **Kassebeholdningsproces**, **Pengestrøm** og **Indtægter og udgifter** dig måder at analysere pengestrømme på:</span><span class="sxs-lookup"><span data-stu-id="73dd9-121">On the Accountant Role Center, under **Finance Performance**, the **Cash Cycle**, **Cash Flow**, and **Income & Expense** charts offer ways to analyze cash flow:</span></span>  
 
-* Få vist tallene i en periode ved hjælp af tidslinjeskyderen.  
-* Filtrer diagrammet ved at vælge kilden i forklaringen.  
-* Skift tidsrum, eller gå til forrige eller næste periode ved at vælge indstillinger i rullemenuen **Finansydeevne**.  
-* Få vist posterne ved at vælge et punkt i diagrammet. F.eks. et punkt på tidslinjen eller en målgruppe i en kolonne. Hvis tallene afviger fra det forventede, er det her, du kan foretage ændringer.  
+* <span data-ttu-id="73dd9-122">Få vist tallene i en periode ved hjælp af tidslinjeskyderen.</span><span class="sxs-lookup"><span data-stu-id="73dd9-122">See figures for a period by using the timeline slider.</span></span>  
+* <span data-ttu-id="73dd9-123">Filtrer diagrammet ved at vælge kilden i forklaringen.</span><span class="sxs-lookup"><span data-stu-id="73dd9-123">Filter the chart by choosing the source in the legend.</span></span>  
+* <span data-ttu-id="73dd9-124">Skift tidsrum, eller gå til forrige eller næste periode ved at vælge indstillinger i rullemenuen **Finansydeevne**.</span><span class="sxs-lookup"><span data-stu-id="73dd9-124">Change the length of the period, or go to the previous or next period, by choosing options on the **Finance Performance** drop down.</span></span>  
+* <span data-ttu-id="73dd9-125">Få vist posterne ved at vælge et punkt i diagrammet.</span><span class="sxs-lookup"><span data-stu-id="73dd9-125">View the entries by choosing a point in the chart.</span></span> <span data-ttu-id="73dd9-126">F.eks. et punkt på tidslinjen eller en målgruppe i en kolonne.</span><span class="sxs-lookup"><span data-stu-id="73dd9-126">For example, a point on the timeline or a column segment.</span></span> <span data-ttu-id="73dd9-127">Hvis tallene afviger fra det forventede, er det her, du kan foretage ændringer.</span><span class="sxs-lookup"><span data-stu-id="73dd9-127">If the numbers seem off, this is where you can make adjustments.</span></span>  
 
-Selvom **Pengestrømsprognose** er adskilt fra de andre diagrammer, minder det om dem. Du kan få vist detaljer, filtrere resultaterne og ændre det viste på samme måde. Hvis du ændrer en indstilling, kan du opdatere prognosen ved at vælge **Pengestrømsprognose** og derefter **Genberegn prognose**.
+<span data-ttu-id="73dd9-128">Selvom **Pengestrømsprognose** er adskilt fra de andre diagrammer, minder det om dem.</span><span class="sxs-lookup"><span data-stu-id="73dd9-128">Although it's separate, the **Cash Flow Forecast** chart is similar.</span></span> <span data-ttu-id="73dd9-129">Du kan få vist detaljer, filtrere resultaterne og ændre det viste på samme måde.</span><span class="sxs-lookup"><span data-stu-id="73dd9-129">You view details, filter results, and change what's displayed in the same ways.</span></span> <span data-ttu-id="73dd9-130">Hvis du ændrer en indstilling, kan du opdatere prognosen ved at vælge **Pengestrømsprognose** og derefter **Genberegn prognose**.</span><span class="sxs-lookup"><span data-stu-id="73dd9-130">If you change a setting, you can refresh the forecast by choosing **Cash Flow Forecast**, and then **Recalculate Forecast**.</span></span>
 
-Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengestrømskladden. Du kan f.eks. se, hvordan prognosen:
+<span data-ttu-id="73dd9-131">Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengestrømskladden.</span><span class="sxs-lookup"><span data-stu-id="73dd9-131">If you want to examine the forecast, in addition to forecast entries, you can also look at the cash flow worksheet.</span></span> <span data-ttu-id="73dd9-132">Du kan f.eks. se, hvordan prognosen:</span><span class="sxs-lookup"><span data-stu-id="73dd9-132">For example, you can see how the forecast:</span></span>
 
-* Håndterer bekræftede salg og køb.  
-* Fratrækker skyldige beløb og tilføjer tilgodehavender.  
-* Springer dubletter af salgsordrer og købsordrer over.  
+* <span data-ttu-id="73dd9-133">Håndterer bekræftede salg og køb.</span><span class="sxs-lookup"><span data-stu-id="73dd9-133">Handles confirmed sales and purchases.</span></span>  
+* <span data-ttu-id="73dd9-134">Fratrækker skyldige beløb og tilføjer tilgodehavender.</span><span class="sxs-lookup"><span data-stu-id="73dd9-134">Subtracts payables and adds receivables.</span></span>  
+* <span data-ttu-id="73dd9-135">Springer dubletter af salgsordrer og købsordrer over.</span><span class="sxs-lookup"><span data-stu-id="73dd9-135">Skips duplicate sales orders and purchase orders.</span></span>  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Sådan vises en pengestrømskladde
-1. Søg efter **Pengestrømsprognoser**, og vælg derefter det relaterede link.  
-2. Vælg en pengestrømsprognose, og vælg derefter handlingen **Pengestrømskladde**.  
-3. På siden **Pengestrømskladde** skal du vælge handlingen **Foreslå kladdelinjer**.  
+### <a name="to-view-a-cash-flow-worksheet"></a><span data-ttu-id="73dd9-136">Sådan vises en pengestrømskladde</span><span class="sxs-lookup"><span data-stu-id="73dd9-136">To view a cash flow worksheet</span></span>
+1. <span data-ttu-id="73dd9-137">Søg efter **Pengestrømsprognoser**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="73dd9-137">Search for **Cash Flow Forecasts**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="73dd9-138">Vælg en pengestrømsprognose, og vælg derefter handlingen **Pengestrømskladde**.</span><span class="sxs-lookup"><span data-stu-id="73dd9-138">Choose a cash flow forecast, and then choose the **Cash Flow Worksheet** action.</span></span>  
+3. <span data-ttu-id="73dd9-139">På siden **Pengestrømskladde** skal du vælge handlingen **Foreslå kladdelinjer**.</span><span class="sxs-lookup"><span data-stu-id="73dd9-139">On the **Cash Flow Worksheet** page, choose the **Suggest Worksheet Lines** action.</span></span>  
 
-## <a name="see-also"></a>Se også
-[Konfigurere Finans](finance-setup-finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)  
+## <a name="see-also"></a><span data-ttu-id="73dd9-140">Se også</span><span class="sxs-lookup"><span data-stu-id="73dd9-140">See Also</span></span>
+[<span data-ttu-id="73dd9-141">Konfigurere Finans</span><span class="sxs-lookup"><span data-stu-id="73dd9-141">Setting Up Finance</span></span>](finance-setup-finance.md)  
+<span data-ttu-id="73dd9-142">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="73dd9-142">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="73dd9-143">Opsætning af pengestrømsanalyse</span><span class="sxs-lookup"><span data-stu-id="73dd9-143">Setting Up Cash Flow Analysis</span></span>](finance-setup-cash-flow-analyses.md)  
 

@@ -16,29 +16,29 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="preparing-closing-statements"></a>Forberedelse af ultimoopgørelser
-Der findes en række standardrapporter, som du kan bruge til at samle de oplysninger, der er nødvendige ved forberedelsen af regnskabets ultimoopgørelser.
+# <a name="preparing-closing-statements"></a><span data-ttu-id="0d5cf-103">Forberedelse af ultimoopgørelser</span><span class="sxs-lookup"><span data-stu-id="0d5cf-103">Preparing Closing Statements</span></span>
+<span data-ttu-id="0d5cf-104">Der findes en række standardrapporter, som du kan bruge til at samle de oplysninger, der er nødvendige ved forberedelsen af regnskabets ultimoopgørelser.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-104">There are a number of standard reports that you can use to gather the information that you need to prepare your company's closing statements.</span></span>
 
-Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne proces, med links til de emner, der rummer beskrivelser af rapporterne.
+<span data-ttu-id="0d5cf-105">Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne proces, med links til de emner, der rummer beskrivelser af rapporterne.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-105">The following table describes a number of reports that may be useful in this process, with links to the topics that describe them.</span></span>
 
-| Hvis du vil | Se denne rapport |
+| <span data-ttu-id="0d5cf-106">Hvis du vil</span><span class="sxs-lookup"><span data-stu-id="0d5cf-106">To</span></span> | <span data-ttu-id="0d5cf-107">Se denne rapport</span><span class="sxs-lookup"><span data-stu-id="0d5cf-107">See this report</span></span> |
 | --- | --- |
-| Udskrive en råbalancerapport med saldi og bevægelser for finanskonti. |Balance |
-| Hente en oversigt over tilgodehavender, hvor alderen på tilgodehavenderne er beregnet fra forfaldsdatoen, bogføringsdatoen eller dokumentdatoen. |Aldersfordelte tilgodehavender |
-| Have et overblik over gæld, med gældens alder beregnet fra forfaldsdatoen, bogføringsdatoen eller dokumentdatoen. |Aldersfordelt gæld |
-| Sammenligne råbalancen med et budget. |Balance/budget |
-| Udskrive en råbalancerapport med saldi og bevægelser for finanskonti, beregnet for en række perioder. |Råbalance efter periode |
-| Udskrive et kontoskema for at analysere tal i finanskonti eller sammenligne faktiske finansposter med finansbudgetposter. |Kontoskema |
-| Kontrollere, om debitor- og kreditorposter balancerer med tilsvarende finansposter. |Afstem deb. og kred. konti |
+| <span data-ttu-id="0d5cf-108">Udskrive en råbalancerapport med saldi og bevægelser for finanskonti.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-108">Print a trial balance report with balances and net changes for general ledger accounts.</span></span> |<span data-ttu-id="0d5cf-109">Balance</span><span class="sxs-lookup"><span data-stu-id="0d5cf-109">Trial Balance</span></span> |
+| <span data-ttu-id="0d5cf-110">Hente en oversigt over tilgodehavender, hvor alderen på tilgodehavenderne er beregnet fra forfaldsdatoen, bogføringsdatoen eller dokumentdatoen.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-110">Get an overview of accounts receivable, with the age of amounts receivable calculated from the due date, posting date, or document date.</span></span> |<span data-ttu-id="0d5cf-111">Aldersfordelte tilgodehavender</span><span class="sxs-lookup"><span data-stu-id="0d5cf-111">Aged Accounts Receivable</span></span> |
+| <span data-ttu-id="0d5cf-112">Have et overblik over gæld, med gældens alder beregnet fra forfaldsdatoen, bogføringsdatoen eller dokumentdatoen.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-112">Get an overview of accounts payable, with the age of amounts payable calculated from the due date, posting date or document date.</span></span> |<span data-ttu-id="0d5cf-113">Aldersfordelt gæld</span><span class="sxs-lookup"><span data-stu-id="0d5cf-113">Aged Accounts Payable</span></span> |
+| <span data-ttu-id="0d5cf-114">Sammenligne råbalancen med et budget.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-114">Compare the trial balance with a budget.</span></span> |<span data-ttu-id="0d5cf-115">Balance/budget</span><span class="sxs-lookup"><span data-stu-id="0d5cf-115">Trial Balance/Budget</span></span> |
+| <span data-ttu-id="0d5cf-116">Udskrive en råbalancerapport med saldi og bevægelser for finanskonti, beregnet for en række perioder.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-116">Print a trial balance report with balances and net changes for general ledger accounts calculated for a series of periods.</span></span> |<span data-ttu-id="0d5cf-117">Råbalance efter periode</span><span class="sxs-lookup"><span data-stu-id="0d5cf-117">Trial Balance by Period</span></span> |
+| <span data-ttu-id="0d5cf-118">Udskrive et kontoskema for at analysere tal i finanskonti eller sammenligne faktiske finansposter med finansbudgetposter.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-118">Print an account schedule to analyze figures in general ledger accounts or compare actual general ledger entries with general ledger budget entries.</span></span> |<span data-ttu-id="0d5cf-119">Kontoskema</span><span class="sxs-lookup"><span data-stu-id="0d5cf-119">Account Schedule</span></span> |
+| <span data-ttu-id="0d5cf-120">Kontrollere, om debitor- og kreditorposter balancerer med tilsvarende finansposter.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-120">Check whether customer and vendor ledger entries balance with corresponding general ledger entries.</span></span> |<span data-ttu-id="0d5cf-121">Afstem</span><span class="sxs-lookup"><span data-stu-id="0d5cf-121">Reconcile Cust.</span></span> <span data-ttu-id="0d5cf-122">deb. og kred.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-122">and Vend.</span></span> <span data-ttu-id="0d5cf-123">konti</span><span class="sxs-lookup"><span data-stu-id="0d5cf-123">Accs</span></span> |
 
-Hvis du vil se en rapport, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), skrive navnet, som det vises i tabellen og derefter vælge det relaterede link.
+<span data-ttu-id="0d5cf-124">Hvis du vil se en rapport, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), skrive navnet, som det vises i tabellen og derefter vælge det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="0d5cf-124">To see a report, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, type the name as it appears in the table, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Se også
-[Afslutning af år og perioder](year-close-years-periods.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Business Intelligence](bi.md)
+## <a name="see-also"></a><span data-ttu-id="0d5cf-125">Se også</span><span class="sxs-lookup"><span data-stu-id="0d5cf-125">See Also</span></span>
+[<span data-ttu-id="0d5cf-126">Afslutning af år og perioder</span><span class="sxs-lookup"><span data-stu-id="0d5cf-126">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+<span data-ttu-id="0d5cf-127">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0d5cf-127">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="0d5cf-128">Business Intelligence</span><span class="sxs-lookup"><span data-stu-id="0d5cf-128">Business Intelligence</span></span>](bi.md)
 

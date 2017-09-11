@@ -16,32 +16,31 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
-Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
-Men du kan ændre standardkontiene, og du kan tilføje nye konti.  
+# <a name="setting-up-or-changing-the-chart-of-accounts"></a><span data-ttu-id="32d86-103">Konfigurere eller ændre kontoplanen</span><span class="sxs-lookup"><span data-stu-id="32d86-103">Setting Up or Changing the Chart of Accounts</span></span>
+<span data-ttu-id="32d86-104">Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt.</span><span class="sxs-lookup"><span data-stu-id="32d86-104">The chart of accounts shows the ledger accounts that store your financial data.</span></span> [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]<span data-ttu-id="32d86-105"> indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.</span><span class="sxs-lookup"><span data-stu-id="32d86-105"> includes a standard chart of accounts that is ready to support your business.</span></span>
+<span data-ttu-id="32d86-106">Men du kan ændre standardkontiene, og du kan tilføje nye konti.</span><span class="sxs-lookup"><span data-stu-id="32d86-106">However, you can change the default accounts, and you can add new accounts.</span></span>  
 
-## <a name="adding-or-changing-accounts"></a>Tilføjelse eller ændring af konti
-Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstillinger for hver konto.
+## <a name="adding-or-changing-accounts"></a><span data-ttu-id="32d86-107">Tilføjelse eller ændring af konti</span><span class="sxs-lookup"><span data-stu-id="32d86-107">Adding or Changing Accounts</span></span>
+<span data-ttu-id="32d86-108">Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstillinger for hver konto.</span><span class="sxs-lookup"><span data-stu-id="32d86-108">From the chart of accounts, you can open each G/L account and add or change settings.</span></span>
 
 > [!NOTE]  
->   Du kan slette en finanskonto. Men før du sletter den, skal følgende være opfyldt:  
+>   <span data-ttu-id="32d86-109">Du kan slette en finanskonto.</span><span class="sxs-lookup"><span data-stu-id="32d86-109">You can delete a general ledger account.</span></span> <span data-ttu-id="32d86-110">Men før du sletter den, skal følgende være opfyldt:</span><span class="sxs-lookup"><span data-stu-id="32d86-110">However, before you delete it, the following must be true:</span></span>  
 
-* Saldoen på kontoen skal være nul.  
-* Feltet **Tillad sletning af finanskonti før** skal være indstillet i vinduet **Regnskabsopsætning**, og der må ikke bogføres poster på kontoen på eller efter den pågældende dato.  
-* Hvis feltet **Kontroller brug af finanskonto** i vinduet **Regnskabsopsætning** er markeret, må kontoen ikke bruges i nogen bogføringsgrupper eller bogføringsopsætning.  
+* <span data-ttu-id="32d86-111">Saldoen på kontoen skal være nul.</span><span class="sxs-lookup"><span data-stu-id="32d86-111">The balance on the account must be zero.</span></span>  
+* <span data-ttu-id="32d86-112">Feltet **Tillad sletning af finanskonti før** skal være indstillet i vinduet **Regnskabsopsætning**, og der må ikke bogføres poster på kontoen på eller efter den pågældende dato.</span><span class="sxs-lookup"><span data-stu-id="32d86-112">The **Allow G/L Acc. Deletion Before** field must be set in the **General Ledger Setup** window, and the account must not have ledger entries on or after that date.</span></span>  
+* <span data-ttu-id="32d86-113">Hvis feltet **Kontroller brug af finanskonto** i vinduet **Regnskabsopsætning** er markeret, må kontoen ikke bruges i nogen bogføringsgrupper eller bogføringsopsætning.</span><span class="sxs-lookup"><span data-stu-id="32d86-113">If the **Check G/L Account Usage** field in the **General Ledger Setup** window is selected, then the account must not be used in any posting groups or posting setup.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] forhindrer, at du kan slette en finanskonto, der indeholder data, der skal bruges i kontoplanen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="32d86-114"> forhindrer, at du kan slette en finanskonto, der indeholder data, der skal bruges i kontoplanen.</span><span class="sxs-lookup"><span data-stu-id="32d86-114"> will prevent you from deleting a general ledger account that stores data that is needed in the chart of accounts.</span></span>  
 
-## <a name="see-also"></a>Se også
-[Finans- og kontoplanen](finance-general-ledger.md)  
-[Håndtere bankkonti](bank-manage-bank-accounts.md)  
-[Arbejde med dimensioner](finance-dimensions.md)  
-[Importere fra andre økonomisystemer](upload-data.md)  
-[Fremgangsmåde: Arbejde med GIFI-koder i Canada](ca-finance-work-gifi-codes.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="32d86-115">Se også</span><span class="sxs-lookup"><span data-stu-id="32d86-115">See Also</span></span>
+[<span data-ttu-id="32d86-116">Finans- og kontoplanen</span><span class="sxs-lookup"><span data-stu-id="32d86-116">The General Ledger and the Chart of Accounts</span></span>](finance-general-ledger.md)  
+[<span data-ttu-id="32d86-117">Håndtere bankkonti</span><span class="sxs-lookup"><span data-stu-id="32d86-117">Managing Bank Accounts</span></span>](bank-manage-bank-accounts.md)  
+[<span data-ttu-id="32d86-118">Arbejde med dimensioner</span><span class="sxs-lookup"><span data-stu-id="32d86-118">Working with Dimensions</span></span>](finance-dimensions.md)  
+[<span data-ttu-id="32d86-119">Importere fra andre økonomisystemer</span><span class="sxs-lookup"><span data-stu-id="32d86-119">Importing from Other Finance Systems</span></span>](upload-data.md)  
+[<span data-ttu-id="32d86-120">Fremgangsmåde: Arbejde med GIFI-koder i Canada</span><span class="sxs-lookup"><span data-stu-id="32d86-120">How to: Work With GIFI Codes in Canada</span></span>](ca-finance-work-gifi-codes.md)  
+<span data-ttu-id="32d86-121">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="32d86-121">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

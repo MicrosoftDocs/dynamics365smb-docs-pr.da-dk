@@ -15,25 +15,24 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: bf6d659eacf12903af128f77956de5c47ba038c2
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-view-test-reports-before-posting"></a>Fremgangsmåde: Vise testrapporter inden bogføring
-Når du er klar til at bogføre et dokument, f.eks en ordre, faktura eller en kreditnota, kan du teste dokumentet for at sikre, at der ingen problemer findes, der vil blokere for bogføringen.
+# <a name="how-to-view-test-reports-before-posting"></a><span data-ttu-id="be26a-103">Fremgangsmåde: Vise testrapporter inden bogføring</span><span class="sxs-lookup"><span data-stu-id="be26a-103">How to: View Test Reports Before Posting</span></span>
+<span data-ttu-id="be26a-104">Når du er klar til at bogføre et dokument, f.eks en ordre, faktura eller en kreditnota, kan du teste dokumentet for at sikre, at der ingen problemer findes, der vil blokere for bogføringen.</span><span class="sxs-lookup"><span data-stu-id="be26a-104">When you are ready to post a document, such as an order, invoice, or a credit memo, you can test the document to ensure that no issues exist that will block the posting.</span></span>
 
 > [!NOTE]  
->   Nedenstående fremgangsmåde drejer sig om kontrol, før du bogfører et købsdokument. Funktionen fungerer på samme måde for salgsdokumenter.
+>   <span data-ttu-id="be26a-105">Nedenstående fremgangsmåde drejer sig om kontrol, før du bogfører et købsdokument.</span><span class="sxs-lookup"><span data-stu-id="be26a-105">The following procedure is about testing before posting a purchase document.</span></span> <span data-ttu-id="be26a-106">Funktionen fungerer på samme måde for salgsdokumenter.</span><span class="sxs-lookup"><span data-stu-id="be26a-106">The functionality works in the same way for sales documents.</span></span>
 
-## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Sådan udskrives en kontrolrapport før bogføringen af en købsfaktura
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
-2. Åbn den købsfaktura, som du vil teste.
-3. Vælg handlingen **Testrapport**.  
+## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a><span data-ttu-id="be26a-107">Sådan udskrives en kontrolrapport før bogføringen af en købsfaktura</span><span class="sxs-lookup"><span data-stu-id="be26a-107">To print a test report before posting a purchase invoice</span></span>
+1. <span data-ttu-id="be26a-108">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="be26a-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Purchase Invoices**, and then select the related link.</span></span>
+2. <span data-ttu-id="be26a-109">Åbn den købsfaktura, som du vil teste.</span><span class="sxs-lookup"><span data-stu-id="be26a-109">Open the purchase invoice that you want to test.</span></span>
+3. <span data-ttu-id="be26a-110">Vælg handlingen **Testrapport**.</span><span class="sxs-lookup"><span data-stu-id="be26a-110">Choose the **Test Report** action.</span></span>  
 
-Alle dele af købsfakturaen testes og resultatet vises i en rapport. Hvis rapporten angiver fejl eller manglende oplysninger, skal du løse problemerne, før købsfakturaen bogføres.
+<span data-ttu-id="be26a-111">Alle dele af købsfakturaen testes og resultatet vises i en rapport.</span><span class="sxs-lookup"><span data-stu-id="be26a-111">All parts of the purchase invoice are tested, and the result is presented in a report.</span></span> <span data-ttu-id="be26a-112">Hvis rapporten angiver fejl eller manglende oplysninger, skal du løse problemerne, før købsfakturaen bogføres.</span><span class="sxs-lookup"><span data-stu-id="be26a-112">If the report indicates any errors or missing information, then you must correct the problem before posting the purchase invoice.</span></span>
 
-## <a name="see-also"></a>Se også
-[Bogføre dokumenter og kladder](ui-post-documents-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="be26a-113">Se også</span><span class="sxs-lookup"><span data-stu-id="be26a-113">See Also</span></span>
+[<span data-ttu-id="be26a-114">Bogføre dokumenter og kladder</span><span class="sxs-lookup"><span data-stu-id="be26a-114">Post Documents and Journals</span></span>](ui-post-documents-journals.md)  
+<span data-ttu-id="be26a-115">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="be26a-115">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
 

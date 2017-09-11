@@ -16,147 +16,147 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-use-time-sheets-for-jobs"></a>Fremgangsmåde: Bruge timesedler for sager
-Du bruger kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Du skal have tilladelser for at kunne oprette timesedler.
+# <a name="how-to-use-time-sheets-for-jobs"></a><span data-ttu-id="20408-103">Fremgangsmåde: Bruge timesedler for sager</span><span class="sxs-lookup"><span data-stu-id="20408-103">How to: Use Time Sheets for Jobs</span></span>
+<span data-ttu-id="20408-104">Du bruger kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger.</span><span class="sxs-lookup"><span data-stu-id="20408-104">You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="20408-105">Du skal have tilladelser for at kunne oprette timesedler.</span><span class="sxs-lookup"><span data-stu-id="20408-105">You must have permissions to be able to create time sheets.</span></span>
 
-Du kan kopiere og bruge dine sagsplanlægningslinjer i en timeseddel. På denne måde må du kun indtaste oplysninger på ét sted, og linjeoplysningerne vil altid være korrekte.
+<span data-ttu-id="20408-106">Du kan kopiere og bruge dine sagsplanlægningslinjer i en timeseddel.</span><span class="sxs-lookup"><span data-stu-id="20408-106">You can copy and use your job planning lines in a time sheet.</span></span> <span data-ttu-id="20408-107">På denne måde må du kun indtaste oplysninger på ét sted, og linjeoplysningerne vil altid være korrekte.</span><span class="sxs-lookup"><span data-stu-id="20408-107">In that way, you must only enter the information in one place and the line information is always correct.</span></span>
 
-Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde eller ressourcekladde.
+<span data-ttu-id="20408-108">Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde eller ressourcekladde.</span><span class="sxs-lookup"><span data-stu-id="20408-108">After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal.</span></span>
 
-Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler. Du kan finde flere oplysninger i [Fremgangsmåde: Angive timesedler](projects-how-setup-time-sheets.md).
-
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
-
-## <a name="to-create-a-time-sheet"></a>Sådan opretter du en timeseddel
-Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave.
-
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.
-2. I vinduet **Timeseddeloversigt** skal du vælge handlingen **Opret timesedler**.
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+<span data-ttu-id="20408-109">Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler.</span><span class="sxs-lookup"><span data-stu-id="20408-109">Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets.</span></span> <span data-ttu-id="20408-110">Du kan finde flere oplysninger i [Fremgangsmåde: Angive timesedler](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="20408-110">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
 > [!NOTE]  
->   Felterne **Brug timeseddel** og **Bruger-id for timeseddelejer** skal udfyldes på kortet for ressourcen for timesedlen.
+>   <span data-ttu-id="20408-111">Denne funktion kræver, at oplevelsen er indstillet til **Pakke**.</span><span class="sxs-lookup"><span data-stu-id="20408-111">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="20408-112">Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="20408-112">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-1. Vælg knappen **OK**.  
+## <a name="to-create-a-time-sheet"></a><span data-ttu-id="20408-113">Sådan opretter du en timeseddel</span><span class="sxs-lookup"><span data-stu-id="20408-113">To create a time sheet</span></span>
+<span data-ttu-id="20408-114">Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger.</span><span class="sxs-lookup"><span data-stu-id="20408-114">You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="20408-115">Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave.</span><span class="sxs-lookup"><span data-stu-id="20408-115">Then, the time sheet owner can open it and record time that has been spent on a task.</span></span>
 
-Du kan se de timesedler, du har oprettet, i vinduet **Timeseddeloversigt**.
+1. <span data-ttu-id="20408-116">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="20408-117">I vinduet **Timeseddeloversigt** skal du vælge handlingen **Opret timesedler**.</span><span class="sxs-lookup"><span data-stu-id="20408-117">In the **Time Sheet List** window, choose the **Create Time Sheets** action.</span></span>
+3. <span data-ttu-id="20408-118">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="20408-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Sådan kopieres sagsplanlægningslinjer til en timeseddel
-Følgende procedure beskriver, hvordan du hurtigt føjer sagsplanlægningslinjer til en timeseddel.
+> [!NOTE]  
+>   <span data-ttu-id="20408-119">Felterne **Brug timeseddel** og **Bruger-id for timeseddelejer** skal udfyldes på kortet for ressourcen for timesedlen.</span><span class="sxs-lookup"><span data-stu-id="20408-119">The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.  
-2. I vinduet **Timeseddeloversigt** skal du vælge en timeseddel for den relevante periode og derefter klikke på handlingen **Rediger timeseddel**.  
-3. Vælg handlingen **Opret linjer fra sagsplanlægning**. Alle sagsplanlægningslinjer i timeseddeltidsperioden kopieres til timesedlen for personen eller maskinen i feltet **Ressourcenr.** på timesedlen.
+1. <span data-ttu-id="20408-120">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="20408-120">Choose the **OK** button.</span></span>  
 
-## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Sådan definerer du arbejdstyper og tilføjer en til en timeseddel
-Du kan definere arbejdstypen for alle timeseddellinjer for sager. På denne måde kan du tilføje oplysninger, du behøver for at fakturere debitoren for forskellige typer arbejde.
+<span data-ttu-id="20408-121">Du kan se de timesedler, du har oprettet, i vinduet **Timeseddeloversigt**.</span><span class="sxs-lookup"><span data-stu-id="20408-121">You can view the time sheets that you have created in the **Time Sheet list** window.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.   
-2. Åbn den relevante timeseddel.
-3. Vælg feltet **Beskrivelse**.  
-4. I vinduet **Sagsdetaljer for timeseddellinje** skal du vælge feltet **Arbejdstypekode** og vælge en arbejdstype på listen, f.eks **Miles**.  
-5. Hvis der ikke findes nogen arbejdstyper, skal du vælge handlingen **Ny**.
-6. I vinduet **Arbejdstyper** skal du udfylde felterne efter behov.
-7. Gentag trin 4 for at tildele den nye arbejdstype til timesedlen.
+## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a><span data-ttu-id="20408-122">Sådan kopieres sagsplanlægningslinjer til en timeseddel</span><span class="sxs-lookup"><span data-stu-id="20408-122">To copy job planning lines to a time sheet</span></span>
+<span data-ttu-id="20408-123">Følgende procedure beskriver, hvordan du hurtigt føjer sagsplanlægningslinjer til en timeseddel.</span><span class="sxs-lookup"><span data-stu-id="20408-123">The following procedure describes how to quickly add job planning lines to a time sheet.</span></span>
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Sådan genbruges timeseddellinjer i andre timesedler
-Hvis dine timeseddeloplysninger forbliver de samme fra tidsperiode til tidsperiode, kan du spare tid ved at kopiere linjerne fra den forrige tidsperiode. Derefter skal du kun angive tidsforbruget for den nye periode.
+1. <span data-ttu-id="20408-124">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="20408-125">I vinduet **Timeseddeloversigt** skal du vælge en timeseddel for den relevante periode og derefter klikke på handlingen **Rediger timeseddel**.</span><span class="sxs-lookup"><span data-stu-id="20408-125">In the **Time Sheet List** window, select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="20408-126">Vælg handlingen **Opret linjer fra sagsplanlægning**.</span><span class="sxs-lookup"><span data-stu-id="20408-126">Choose the **Create lines from job planning** action.</span></span> <span data-ttu-id="20408-127">Alle sagsplanlægningslinjer i timeseddeltidsperioden kopieres til timesedlen for personen eller maskinen i feltet **Ressourcenr.**</span><span class="sxs-lookup"><span data-stu-id="20408-127">Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.**</span></span> <span data-ttu-id="20408-128">på timesedlen.</span><span class="sxs-lookup"><span data-stu-id="20408-128">field on the time sheet.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.  
-2. Åbn timesedlen for en period efter perioden for en eksisterende timeseddel med linjer.  
-3. Vælg handlingen **Kopier linjer fra en tidligere timeseddel**.
+## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a><span data-ttu-id="20408-129">Sådan definerer du arbejdstyper og tilføjer en til en timeseddel</span><span class="sxs-lookup"><span data-stu-id="20408-129">To define work types and add one to a time sheet</span></span>
+<span data-ttu-id="20408-130">Du kan definere arbejdstypen for alle timeseddellinjer for sager.</span><span class="sxs-lookup"><span data-stu-id="20408-130">You can define the work type for all time sheet lines for jobs.</span></span> <span data-ttu-id="20408-131">På denne måde kan du tilføje oplysninger, du behøver for at fakturere debitoren for forskellige typer arbejde.</span><span class="sxs-lookup"><span data-stu-id="20408-131">In this way, you can add information that you need to bill the customer for different types of work.</span></span>
 
-Linjerne kopieres, herunder oplysninger som type og beskrivelse. Hvis linjen f.eks. er knyttet til en sag, kopieres **Sagsnr.** . Alle kopierede linjer har statussen **Åben**. Du kan nu redigere linjerne efter behov.
+1. <span data-ttu-id="20408-132">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>   
+2. <span data-ttu-id="20408-133">Åbn den relevante timeseddel.</span><span class="sxs-lookup"><span data-stu-id="20408-133">Open the relevant time sheet.</span></span>
+3. <span data-ttu-id="20408-134">Vælg feltet **Beskrivelse**.</span><span class="sxs-lookup"><span data-stu-id="20408-134">Choose the **Description** field.</span></span>  
+4. <span data-ttu-id="20408-135">I vinduet **Sagsdetaljer for timeseddellinje** skal du vælge feltet **Arbejdstypekode** og vælge en arbejdstype på listen, f.eks **Miles**.</span><span class="sxs-lookup"><span data-stu-id="20408-135">In the **Time Sheet Line Job Detail** window, choose the **Work Type Code** field, and select a work type from the list, such as **Miles**.</span></span>  
+5. <span data-ttu-id="20408-136">Hvis der ikke findes nogen arbejdstyper, skal du vælge handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="20408-136">If no work types exist, chose the **New** action.</span></span>
+6. <span data-ttu-id="20408-137">I vinduet **Arbejdstyper** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="20408-137">In the **Work Types** window, fill in the fields as necessary.</span></span>
+7. <span data-ttu-id="20408-138">Gentag trin 4 for at tildele den nye arbejdstype til timesedlen.</span><span class="sxs-lookup"><span data-stu-id="20408-138">Repeat step 4 to assign the new work type to the time sheet.</span></span>
 
-## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Sådan udfyldes en timeseddels linjer og sendes til godkendelse
-Registrering af timesedler spores i timer, standardbasisenheden for ressourcer. En timeseddel har som standard almindelige arbejdsdage fra mandag til fredag.
+## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a><span data-ttu-id="20408-139">Sådan genbruges timeseddellinjer i andre timesedler</span><span class="sxs-lookup"><span data-stu-id="20408-139">To reuse time sheet lines in other time sheets</span></span>
+<span data-ttu-id="20408-140">Hvis dine timeseddeloplysninger forbliver de samme fra tidsperiode til tidsperiode, kan du spare tid ved at kopiere linjerne fra den forrige tidsperiode.</span><span class="sxs-lookup"><span data-stu-id="20408-140">If your time sheet information remains the same from time period to time period, you can save time by copying the lines from the previous time period.</span></span> <span data-ttu-id="20408-141">Derefter skal du kun angive tidsforbruget for den nye periode.</span><span class="sxs-lookup"><span data-stu-id="20408-141">Then, you just enter your time usage for the new period.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.  
-2. Vælg en timeseddel for den relevante periode, og vælg derefter handlingen **Rediger timeseddel**.  
-3. Udfyld felterne på en linje efter behov. Angiv det antal timer, der bruges af ressourcen på hver ugedag.
+1. <span data-ttu-id="20408-142">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-142">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="20408-143">Åbn timesedlen for en period efter perioden for en eksisterende timeseddel med linjer.</span><span class="sxs-lookup"><span data-stu-id="20408-143">Open the time sheet for a period later than the period for an existing time sheet with lines.</span></span>  
+3. <span data-ttu-id="20408-144">Vælg handlingen **Kopier linjer fra en tidligere timeseddel**.</span><span class="sxs-lookup"><span data-stu-id="20408-144">Choose the **Copy Lines from Previous Time Sheet** action.</span></span>
+
+<span data-ttu-id="20408-145">Linjerne kopieres, herunder oplysninger som type og beskrivelse.</span><span class="sxs-lookup"><span data-stu-id="20408-145">The lines are copied, including details such as type and description.</span></span> <span data-ttu-id="20408-146">Hvis linjen f.eks. er knyttet til en sag, kopieres **Sagsnr.**</span><span class="sxs-lookup"><span data-stu-id="20408-146">For example, if the line is related to a job, the **Job No.**</span></span> <span data-ttu-id="20408-147">.</span><span class="sxs-lookup"><span data-stu-id="20408-147">is copied.</span></span> <span data-ttu-id="20408-148">Alle kopierede linjer har statussen **Åben**.</span><span class="sxs-lookup"><span data-stu-id="20408-148">All copied lines have the status **Open**.</span></span> <span data-ttu-id="20408-149">Du kan nu redigere linjerne efter behov.</span><span class="sxs-lookup"><span data-stu-id="20408-149">You can now modify the lines as needed.</span></span>
+
+## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a><span data-ttu-id="20408-150">Sådan udfyldes en timeseddels linjer og sendes til godkendelse</span><span class="sxs-lookup"><span data-stu-id="20408-150">To fill in a time sheet lines and submit for approval</span></span>
+<span data-ttu-id="20408-151">Registrering af timesedler spores i timer, standardbasisenheden for ressourcer.</span><span class="sxs-lookup"><span data-stu-id="20408-151">Time sheet registration is tracked in hours, the standard base unit of measure for resources.</span></span> <span data-ttu-id="20408-152">En timeseddel har som standard almindelige arbejdsdage fra mandag til fredag.</span><span class="sxs-lookup"><span data-stu-id="20408-152">By default, a time sheet shows the common work days of Monday through Friday.</span></span>
+
+1. <span data-ttu-id="20408-153">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-153">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="20408-154">Vælg en timeseddel for den relevante periode, og vælg derefter handlingen **Rediger timeseddel**.</span><span class="sxs-lookup"><span data-stu-id="20408-154">Select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="20408-155">Udfyld felterne på en linje efter behov.</span><span class="sxs-lookup"><span data-stu-id="20408-155">Fill in the fields on a line as necessary.</span></span> <span data-ttu-id="20408-156">Angiv det antal timer, der bruges af ressourcen på hver ugedag.</span><span class="sxs-lookup"><span data-stu-id="20408-156">Enter the number of hours used by the resource on each day of the week.</span></span>
 
     > [!TIP]  
->   Du kan se summen af timeseddeltimer, du har angivet i faktaboksen **Faktisk/budgetteret oversigt**.  
-4. Gentag trin 3 for andre arbejdstyper, der udføres af ressourcen.
-5. Vælg handlingen **Send**, og vælg derefter handlingen **Alle åbne linjer** for at sende alle linjer eller handlingen **Kun valgte linjer** for kun at sende de linjer, der er valgt i vinduet **Timeseddel**.  
+>   <span data-ttu-id="20408-157">Du kan se summen af timeseddeltimer, du har angivet i faktaboksen **Faktisk/budgetteret oversigt**.</span><span class="sxs-lookup"><span data-stu-id="20408-157">You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.</span></span>  
+4. <span data-ttu-id="20408-158">Gentag trin 3 for andre arbejdstyper, der udføres af ressourcen.</span><span class="sxs-lookup"><span data-stu-id="20408-158">Repeat step 3 for other work types that the resource performs.</span></span>
+5. <span data-ttu-id="20408-159">Vælg handlingen **Send**, og vælg derefter handlingen **Alle åbne linjer** for at sende alle linjer eller handlingen **Kun valgte linjer** for kun at sende de linjer, der er valgt i vinduet **Timeseddel**.</span><span class="sxs-lookup"><span data-stu-id="20408-159">Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected in the **Time Sheet** window.</span></span>  
 
     > [!NOTE]  
->   Du kan dog kun sende timeseddellinjer, som du har angivet tidspunkter for.  
-6. Hvis du vil ændre oplysningerne på en linje, der er indstillet til **Sendt**, skal du markere linjen og derefter vælge handlingen **Åbn igen**.
+>   <span data-ttu-id="20408-160">Du kan dog kun sende timeseddellinjer, som du har angivet tidspunkter for.</span><span class="sxs-lookup"><span data-stu-id="20408-160">You can only submit time sheet lines for which you have entered time.</span></span>  
+6. <span data-ttu-id="20408-161">Hvis du vil ændre oplysningerne på en linje, der er indstillet til **Sendt**, skal du markere linjen og derefter vælge handlingen **Åbn igen**.</span><span class="sxs-lookup"><span data-stu-id="20408-161">To modify information on a line that has been set to **Submitted**, select the line, and then choose the **Reopen** action.</span></span>
 
     > [!NOTE]  
->   En leder kan afvise en timeseddellinje, der er sendt til godkendelse. Hvis en linje har statussen **Afvist**, kan du foretage ændringer i linjen og derefter vælge **Send** igen.  
-7. Vælg knappen **OK**.
+>   <span data-ttu-id="20408-162">En leder kan afvise en timeseddellinje, der er sendt til godkendelse.</span><span class="sxs-lookup"><span data-stu-id="20408-162">A manager may reject a time sheet line that is submitted for approval.</span></span> <span data-ttu-id="20408-163">Hvis en linje har statussen **Afvist**, kan du foretage ændringer i linjen og derefter vælge **Send** igen.</span><span class="sxs-lookup"><span data-stu-id="20408-163">If a line has a status of **Rejected**, you can make changes to the line, and then choose **Submit** again.</span></span>  
+7. <span data-ttu-id="20408-164">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="20408-164">Choose the **OK** button.</span></span>
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Sådan godkendes eller afvises en timeseddel
-En timeseddel skal sendes til godkendelse, før den kan bruges. Du kan godkende og afvise individuelle linjer på en timeseddel eller sende dem tilbage til afsenderen til yderligere behandling. En timeseddel kan godkendes på to måder:
+## <a name="to-approve-or-reject-a-time-sheet"></a><span data-ttu-id="20408-165">Sådan godkendes eller afvises en timeseddel</span><span class="sxs-lookup"><span data-stu-id="20408-165">To approve or reject a time sheet</span></span>
+<span data-ttu-id="20408-166">En timeseddel skal sendes til godkendelse, før den kan bruges.</span><span class="sxs-lookup"><span data-stu-id="20408-166">A time sheet must be submitted for approval before it can be used.</span></span> <span data-ttu-id="20408-167">Du kan godkende og afvise individuelle linjer på en timeseddel eller sende dem tilbage til afsenderen til yderligere behandling.</span><span class="sxs-lookup"><span data-stu-id="20408-167">You can approve and reject individual lines on a time sheet or send them back to the submitter for additional action.</span></span> <span data-ttu-id="20408-168">En timeseddel kan godkendes på to måder:</span><span class="sxs-lookup"><span data-stu-id="20408-168">A time sheet can be approved in two ways:</span></span>
 
-* En timeseddeladministrator kan godkende enhver timeseddel.
-* Den person, der er angivet i feltet **Bruger-id for timeseddelgodkender** på et ressourcekort, kan godkende timesedler for den pågældende ressource. Du kan finde flere oplysninger i [Fremgangsmåde: Angive timesedler](projects-how-setup-time-sheets.md).
+* <span data-ttu-id="20408-169">En timeseddeladministrator kan godkende enhver timeseddel.</span><span class="sxs-lookup"><span data-stu-id="20408-169">A time sheet administrator can approve any time sheet.</span></span>
+* <span data-ttu-id="20408-170">Den person, der er angivet i feltet **Bruger-id for timeseddelgodkender** på et ressourcekort, kan godkende timesedler for den pågældende ressource.</span><span class="sxs-lookup"><span data-stu-id="20408-170">The person who is specified in the **Time Sheet Approver User ID** field on a resource card can approve that resource's time sheets.</span></span> <span data-ttu-id="20408-171">Du kan finde flere oplysninger i [Fremgangsmåde: Angive timesedler](projects-how-setup-time-sheets.md).</span><span class="sxs-lookup"><span data-stu-id="20408-171">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leders timesedler**, og vælg derefter det relaterede link.
-2. Vælg en timeseddel på listen.  
-3. I vinduet **Timeseddel** skal du vælge handlingen **Godkend** og derefter vælge handlingen **Alle sendte linjer** for at godkende alle linjer eller handlingen **Kun valgte linjer** for kun at godkende de linjer, der er valgt i vinduet **Timeseddel**.
-4. Vælg knappen **OK**.  
-5. Du kan også vælge handlingen **Afvis** og følge trin 4 til 5.  
+1. <span data-ttu-id="20408-172">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leders timesedler**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manager Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="20408-173">Vælg en timeseddel på listen.</span><span class="sxs-lookup"><span data-stu-id="20408-173">Select a time sheet from the list.</span></span>  
+3. <span data-ttu-id="20408-174">I vinduet **Timeseddel** skal du vælge handlingen **Godkend** og derefter vælge handlingen **Alle sendte linjer** for at godkende alle linjer eller handlingen **Kun valgte linjer** for kun at godkende de linjer, der er valgt i vinduet **Timeseddel**.</span><span class="sxs-lookup"><span data-stu-id="20408-174">In the **Time Sheet** window, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="20408-175">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="20408-175">Choose the **OK** button.</span></span>  
+5. <span data-ttu-id="20408-176">Du kan også vælge handlingen **Afvis** og følge trin 4 til 5.</span><span class="sxs-lookup"><span data-stu-id="20408-176">Alternatively, choose the **Reject** action and follow steps 4 through 5.</span></span>  
 
 > [!TIP]  
->   Brug faktaboksene **Timeseddelstatus** og **Faktisk/budgetteret oversigt** for at få et overblik over timeseddeloplysninger.
+>   <span data-ttu-id="20408-177">Brug faktaboksene **Timeseddelstatus** og **Faktisk/budgetteret oversigt** for at få et overblik over timeseddeloplysninger.</span><span class="sxs-lookup"><span data-stu-id="20408-177">Use the **Time Sheet Status** and **Actual/Budgeted Summary** FactBoxes to get an overview of time sheet information.</span></span>
 
-Når du har godkendt eller afvist en timeseddel, kan den ikke redigeres, medmindre den er blevet genåbnet. Følgende fremgangsmåde beskriver, hvordan du genåbner en godkendt eller afvist timeseddel.
+<span data-ttu-id="20408-178">Når du har godkendt eller afvist en timeseddel, kan den ikke redigeres, medmindre den er blevet genåbnet.</span><span class="sxs-lookup"><span data-stu-id="20408-178">After you have approved or rejected a time sheet, it cannot be modified unless it is first reopened.</span></span> <span data-ttu-id="20408-179">Følgende fremgangsmåde beskriver, hvordan du genåbner en godkendt eller afvist timeseddel.</span><span class="sxs-lookup"><span data-stu-id="20408-179">The following procedure explains how to reopen an approved or rejected time sheet.</span></span>
 
-## <a name="to-reopen-a-time-sheet"></a>Sådan genåbnes en timeseddel
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leders timesedler** eller **Timesedler**, og vælg derefter det relaterede link.
-2. Åbn en timeseddel på listen.  
-
-    > [!NOTE]  
->   Du kan kun åbne linjer med statussen **Godkendt**. Du kan ikke genåbne linjer med statussen **Afvist**. Du kan ikke genåbne en timeseddel, hvis den er blevet bogført.  
-3. I vinduet **Timeseddel** skal du vælge handlingen **Åbn igen** og derefter vælge handlingen **Alle sendte linjer** for at genåbne alle linjer eller handlingen **Kun valgte linjer** for kun at genåbne de linjer, der er valgt i vinduet **Timeseddel**.
-4. Vælg knappen **OK**. Status for timeseddellinjerne er ændringer for **Sendt**.  
-
-## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Sådan bogfører du timeseddellinjer i en ressourcekladde
-Når du har godkendt timeseddelposter for en ressource, kan du bogføre dem i den relevante ressourcekladde.
-
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Foreslå linjer fra timesedler**.  
-3. Udfyld felterne efter behov.  
-4. Vælg knappen **OK**. Der oprettes poster for forbrug i ressourcekladden, hvor du kan ændre oplysningerne efter behov.  
-5. Vælg handlingen **Bogfør**.  
-6. Vælg handlingen **Poster** for at bekræfte posteringen. Vinduet **Ressourceposter** åbnes og viser resultatet for bogføring af ressourcekladden.
-
-## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Sådan bogfører du timeseddellinjer i en sagskladde
-Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde.
-
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladde**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Foreslå linjer fra timesedler**.  
-3. Udfyld felterne efter behov.  
-4. Vælg knappen **OK**. Der oprettes poster for forbrug i sagskladden, hvor du kan ændre oplysningerne efter behov.  
+## <a name="to-reopen-a-time-sheet"></a><span data-ttu-id="20408-180">Sådan genåbnes en timeseddel</span><span class="sxs-lookup"><span data-stu-id="20408-180">To reopen a time sheet</span></span>
+1. <span data-ttu-id="20408-181">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leders timesedler** eller **Timesedler**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-181">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="20408-182">Åbn en timeseddel på listen.</span><span class="sxs-lookup"><span data-stu-id="20408-182">Open a time sheet from the list.</span></span>  
 
     > [!NOTE]  
->   Oplysninger om arbejdstype, og om arbejdet er fakturerbart, kopieres fra timeseddellinjen. Du kan om nødvendigt reducere antallet af timer og foretage en delvis bogføring. Hvis du reducerer antallet, sker der følgende: Næste gang, du vælger handlingen **Foreslå linjer fra timesedler**, vil den linje, der oprettes, indeholde den resterende mængde timer.  
-5. Vælg handlingen **Bogfør**.  
-6. Vælg handlingen **Poster** for at bekræfte posteringen. Vinduet **Sagsposter** åbnes og viser resultatet for bogføring af ressourcekladden.
+>   <span data-ttu-id="20408-183">Du kan kun åbne linjer med statussen **Godkendt**.</span><span class="sxs-lookup"><span data-stu-id="20408-183">You can only reopen lines that have the status **Approved**.</span></span> <span data-ttu-id="20408-184">Du kan ikke genåbne linjer med statussen **Afvist**.</span><span class="sxs-lookup"><span data-stu-id="20408-184">You cannot reopen lines that have the status **Rejected**.</span></span> <span data-ttu-id="20408-185">Du kan ikke genåbne en timeseddel, hvis den er blevet bogført.</span><span class="sxs-lookup"><span data-stu-id="20408-185">You cannot reopen a time sheet if it has been posted.</span></span>  
+3. <span data-ttu-id="20408-186">I vinduet **Timeseddel** skal du vælge handlingen **Åbn igen** og derefter vælge handlingen **Alle sendte linjer** for at genåbne alle linjer eller handlingen **Kun valgte linjer** for kun at genåbne de linjer, der er valgt i vinduet **Timeseddel**.</span><span class="sxs-lookup"><span data-stu-id="20408-186">In the **Time Sheet** window, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="20408-187">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="20408-187">Choose the **OK** button.</span></span> <span data-ttu-id="20408-188">Status for timeseddellinjerne er ændringer for **Sendt**.</span><span class="sxs-lookup"><span data-stu-id="20408-188">The status of the time sheets line or lines is changes to **Submitted**.</span></span>  
 
-## <a name="to-archive-time-sheets"></a>Sådan arkiveres timesedler
-Når du har bogført timesedler, kan du arkivere dem til fremtidig reference. Alle linjer på timesedler skal bogføres, før en timeseddel kan arkiveres.
+## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a><span data-ttu-id="20408-189">Sådan bogfører du timeseddellinjer i en ressourcekladde</span><span class="sxs-lookup"><span data-stu-id="20408-189">To post time sheet lines in a resource journal</span></span>
+<span data-ttu-id="20408-190">Når du har godkendt timeseddelposter for en ressource, kan du bogføre dem i den relevante ressourcekladde.</span><span class="sxs-lookup"><span data-stu-id="20408-190">After you have approved time sheet entries for a resource, you can post them to the relevant resource journal.</span></span>
+
+1. <span data-ttu-id="20408-191">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-191">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="20408-192">Vælg handlingen **Foreslå linjer fra timesedler**.</span><span class="sxs-lookup"><span data-stu-id="20408-192">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="20408-193">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="20408-193">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="20408-194">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="20408-194">Choose the **OK** button.</span></span> <span data-ttu-id="20408-195">Der oprettes poster for forbrug i ressourcekladden, hvor du kan ændre oplysningerne efter behov.</span><span class="sxs-lookup"><span data-stu-id="20408-195">Entries for usage are created in the resource journal, where you can modify the information as needed.</span></span>  
+5. <span data-ttu-id="20408-196">Vælg handlingen **Bogfør**.</span><span class="sxs-lookup"><span data-stu-id="20408-196">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="20408-197">Vælg handlingen **Poster** for at bekræfte posteringen.</span><span class="sxs-lookup"><span data-stu-id="20408-197">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="20408-198">Vinduet **Ressourceposter** åbnes og viser resultatet for bogføring af ressourcekladden.</span><span class="sxs-lookup"><span data-stu-id="20408-198">The **Resource Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
+
+## <a name="to-post-time-sheet-lines-in-a-job-journal"></a><span data-ttu-id="20408-199">Sådan bogfører du timeseddellinjer i en sagskladde</span><span class="sxs-lookup"><span data-stu-id="20408-199">To post time sheet lines in a job journal</span></span>
+<span data-ttu-id="20408-200">Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde.</span><span class="sxs-lookup"><span data-stu-id="20408-200">After you have approved time sheet entries for a job, you can post them to the relevant job journal.</span></span>
+
+1. <span data-ttu-id="20408-201">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladde**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-201">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="20408-202">Vælg handlingen **Foreslå linjer fra timesedler**.</span><span class="sxs-lookup"><span data-stu-id="20408-202">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="20408-203">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="20408-203">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="20408-204">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="20408-204">Choose the **OK** button.</span></span> <span data-ttu-id="20408-205">Der oprettes poster for forbrug i sagskladden, hvor du kan ændre oplysningerne efter behov.</span><span class="sxs-lookup"><span data-stu-id="20408-205">Entries for usage are created in the job journal, where you can modify the information as needed.</span></span>  
+
+    > [!NOTE]  
+>   <span data-ttu-id="20408-206">Oplysninger om arbejdstype, og om arbejdet er fakturerbart, kopieres fra timeseddellinjen.</span><span class="sxs-lookup"><span data-stu-id="20408-206">Information about work type and whether the work is chargeable is copied from the time sheet line.</span></span> <span data-ttu-id="20408-207">Du kan om nødvendigt reducere antallet af timer og foretage en delvis bogføring.</span><span class="sxs-lookup"><span data-stu-id="20408-207">If needed, you can reduce the quantity of hours and do a partial posting.</span></span> <span data-ttu-id="20408-208">Hvis du reducerer antallet, sker der følgende: Næste gang, du vælger handlingen **Foreslå linjer fra timesedler**, vil den linje, der oprettes, indeholde den resterende mængde timer.</span><span class="sxs-lookup"><span data-stu-id="20408-208">If you reduce the quantity, then the next time that you choose the **Suggest Lines From Time Sheets** action, the line that is created will contain the remaining quantity of hours.</span></span>  
+5. <span data-ttu-id="20408-209">Vælg handlingen **Bogfør**.</span><span class="sxs-lookup"><span data-stu-id="20408-209">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="20408-210">Vælg handlingen **Poster** for at bekræfte posteringen.</span><span class="sxs-lookup"><span data-stu-id="20408-210">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="20408-211">Vinduet **Sagsposter** åbnes og viser resultatet for bogføring af ressourcekladden.</span><span class="sxs-lookup"><span data-stu-id="20408-211">The **Job Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
+
+## <a name="to-archive-time-sheets"></a><span data-ttu-id="20408-212">Sådan arkiveres timesedler</span><span class="sxs-lookup"><span data-stu-id="20408-212">To archive time sheets</span></span>
+<span data-ttu-id="20408-213">Når du har bogført timesedler, kan du arkivere dem til fremtidig reference.</span><span class="sxs-lookup"><span data-stu-id="20408-213">After you have posted time sheets, you can archive them for future reference.</span></span> <span data-ttu-id="20408-214">Alle linjer på timesedler skal bogføres, før en timeseddel kan arkiveres.</span><span class="sxs-lookup"><span data-stu-id="20408-214">All time sheets lines must be posted before a time sheet can be archived.</span></span>
 
 > [!NOTE]  
->   Når du arkiverer en timeseddel, fjernes den fra oversigterne i vinduet **Timesedler** og i vinduet **Leders timesedler**.
+>   <span data-ttu-id="20408-215">Når du arkiverer en timeseddel, fjernes den fra oversigterne i vinduet **Timesedler** og i vinduet **Leders timesedler**.</span><span class="sxs-lookup"><span data-stu-id="20408-215">When you archive a time sheet, it is removed from the lists in both the **Time Sheets** window and the **Manager Time Sheets** window.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Flyt timesedler til arkiv**, og vælg derefter det relaterede link.  
-2. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
-3. Hvis du vil gennemgå arkiverede timesedler, skal du i øverste højre hjørne vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Arkiver for timesedler** eller **Arkiver for leders timesedler** og derefter vælge det relaterede link.
+1. <span data-ttu-id="20408-216">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Flyt timesedler til arkiv**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-216">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Move Time Sheets to Archive**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="20408-217">Udfyld felterne efter behov, og vælg derefter knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="20408-217">Fill in the fields as necessary, and then choose the **OK** button.</span></span>  
+3. <span data-ttu-id="20408-218">Hvis du vil gennemgå arkiverede timesedler, skal du i øverste højre hjørne vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Arkiver for timesedler** eller **Arkiver for leders timesedler** og derefter vælge det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="20408-218">To review archived time sheets, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Se også
-[Projektstyring](projects-manage-projects.md)  
-[Konfigurere projektstyring](projects-setup-projects.md)    
-[Finans](finance.md)  
-[Køb](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)     
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="20408-219">Se også</span><span class="sxs-lookup"><span data-stu-id="20408-219">See Also</span></span>
+[<span data-ttu-id="20408-220">Projektstyring</span><span class="sxs-lookup"><span data-stu-id="20408-220">Project Management</span></span>](projects-manage-projects.md)  
+<span data-ttu-id="20408-221">[Konfigurere projektstyring](projects-setup-projects.md)  </span><span class="sxs-lookup"><span data-stu-id="20408-221">[Setting Up Project Management](projects-setup-projects.md)  </span></span>  
+[<span data-ttu-id="20408-222">Finans</span><span class="sxs-lookup"><span data-stu-id="20408-222">Finance</span></span>](finance.md)  
+<span data-ttu-id="20408-223">[Køb](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="20408-223">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="20408-224">[Salg](sales-manage-sales.md)   </span><span class="sxs-lookup"><span data-stu-id="20408-224">[Sales](sales-manage-sales.md)   </span></span>  
+<span data-ttu-id="20408-225">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="20408-225">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

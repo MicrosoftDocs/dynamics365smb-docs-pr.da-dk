@@ -16,87 +16,86 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-monitor-job-progress-and-performance"></a>Fremgangsmåde: Overvåge status for og udførelse af en sag
-Efterhånden som status for en sag ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i sagen. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af sager i finansregnskabet under udførelsen af sagen. Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt. Du kan finde flere oplysninger i [Forstå metoder for igangværende arbejde](projects-understanding-wip.md).
+# <a name="how-to-monitor-job-progress-and-performance"></a><span data-ttu-id="03cfd-102">Fremgangsmåde: Overvåge status for og udførelse af en sag</span><span class="sxs-lookup"><span data-stu-id="03cfd-102">How to: Monitor Job Progress and Performance</span></span>
+<span data-ttu-id="03cfd-103">Efterhånden som status for en sag ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i sagen.</span><span class="sxs-lookup"><span data-stu-id="03cfd-103">As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job.</span></span> <span data-ttu-id="03cfd-104">Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af sager i finansregnskabet under udførelsen af sagen.</span><span class="sxs-lookup"><span data-stu-id="03cfd-104">Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing.</span></span> <span data-ttu-id="03cfd-105">Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres.</span><span class="sxs-lookup"><span data-stu-id="03cfd-105">In many cases, you might post expenses for a job before invoicing a job.</span></span> <span data-ttu-id="03cfd-106">Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt.</span><span class="sxs-lookup"><span data-stu-id="03cfd-106">When only expenses have been posted, your financial statement will be inaccurate.</span></span> <span data-ttu-id="03cfd-107">Du kan finde flere oplysninger i [Forstå metoder for igangværende arbejde](projects-understanding-wip.md).</span><span class="sxs-lookup"><span data-stu-id="03cfd-107">For more information, see [Understanding WIP Methods](projects-understanding-wip.md).</span></span>
 
-Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien i finansregnskabet.
+<span data-ttu-id="03cfd-108">Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien i finansregnskabet.</span><span class="sxs-lookup"><span data-stu-id="03cfd-108">To track the value in the general ledger, you can calculate WIP and post the value to the general ledger.</span></span>
 
-Du kan beregne VIA baseret på følgende:
+<span data-ttu-id="03cfd-109">Du kan beregne VIA baseret på følgende:</span><span class="sxs-lookup"><span data-stu-id="03cfd-109">You can calculate WIP based on the following:</span></span>
 
-* Kostværdi
-* Salgsværdi
-* Realiserede omkostninger
-* Færdiggørelsesgrad
-* Afsluttet kontrakt
+* <span data-ttu-id="03cfd-110">Kostværdi</span><span class="sxs-lookup"><span data-stu-id="03cfd-110">Cost Value</span></span>
+* <span data-ttu-id="03cfd-111">Salgsværdi</span><span class="sxs-lookup"><span data-stu-id="03cfd-111">Sales Value</span></span>
+* <span data-ttu-id="03cfd-112">Realiserede omkostninger</span><span class="sxs-lookup"><span data-stu-id="03cfd-112">Recognizable Cost</span></span>
+* <span data-ttu-id="03cfd-113">Færdiggørelsesgrad</span><span class="sxs-lookup"><span data-stu-id="03cfd-113">Percentage of Completion</span></span>
+* <span data-ttu-id="03cfd-114">Afsluttet kontrakt</span><span class="sxs-lookup"><span data-stu-id="03cfd-114">Completed Contract</span></span>
 
-Hvis du vil have vist resultatet ved hjælp af en anden metode, kan du skifte metode og beregne VIA igen. Der er ingen grænser for antallet af gange, du kan beregne VIA. VIA beregnes kun, det bogføres ikke i finansregnskabet. Når du har beregnet VIA, kan du foretage en bogføring i finansregnskabet.
+<span data-ttu-id="03cfd-115">Hvis du vil have vist resultatet ved hjælp af en anden metode, kan du skifte metode og beregne VIA igen.</span><span class="sxs-lookup"><span data-stu-id="03cfd-115">If you want to view the result using a different method, you can change the method and calculate WIP again.</span></span> <span data-ttu-id="03cfd-116">Der er ingen grænser for antallet af gange, du kan beregne VIA.</span><span class="sxs-lookup"><span data-stu-id="03cfd-116">There is no limit to the number of times that you calculate WIP.</span></span> <span data-ttu-id="03cfd-117">VIA beregnes kun, det bogføres ikke i finansregnskabet.</span><span class="sxs-lookup"><span data-stu-id="03cfd-117">WIP is only calculated, it does not get posted to the general ledger.</span></span> <span data-ttu-id="03cfd-118">Når du har beregnet VIA, kan du foretage en bogføring i finansregnskabet.</span><span class="sxs-lookup"><span data-stu-id="03cfd-118">After you have calculated WIP, you can post to the general ledger.</span></span>
 
-## <a name="to-create-a-job-wip-method"></a>Sådan oprettes en sagsmetode for igangværende arbejde
-Du kan oprette en sagsmetode for igangværende arbejde, der afspejler behovet i organisationen. Når du har oprettet den, kan du angive den som standardsagsberegningsmetoden for igangværende arbejde, der skal bruges i organisationen.  
+## <a name="to-create-a-job-wip-method"></a><span data-ttu-id="03cfd-119">Sådan oprettes en sagsmetode for igangværende arbejde</span><span class="sxs-lookup"><span data-stu-id="03cfd-119">To create a job WIP method</span></span>
+<span data-ttu-id="03cfd-120">Du kan oprette en sagsmetode for igangværende arbejde, der afspejler behovet i organisationen.</span><span class="sxs-lookup"><span data-stu-id="03cfd-120">You can create a job WIP method that reflects the needs of your organization.</span></span> <span data-ttu-id="03cfd-121">Når du har oprettet den, kan du angive den som standardsagsberegningsmetoden for igangværende arbejde, der skal bruges i organisationen.</span><span class="sxs-lookup"><span data-stu-id="03cfd-121">After you have created it, you can set it as the default job WIP calculation method that will be used in your organization.</span></span>  
 
-**Bemærk**! Når du har brugt en ny metode til at oprette poster for igangværende arbejde, kan du ikke slette metoden eller ændre den.  
+<span data-ttu-id="03cfd-122">**Bemærk**!</span><span class="sxs-lookup"><span data-stu-id="03cfd-122">**Note**.</span></span> <span data-ttu-id="03cfd-123">Når du har brugt en ny metode til at oprette poster for igangværende arbejde, kan du ikke slette metoden eller ændre den.</span><span class="sxs-lookup"><span data-stu-id="03cfd-123">After you have used your new method to create WIP entries, you cannot delete the method or modify it.</span></span>  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sags-VIA-metoder**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Luk vinduet.   
-4. For at gøre denne nye metode til standard skal du i øverste højre hjørne vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sagsopsætning** og derefter vælge det relaterede link.  
-5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.
+1. <span data-ttu-id="03cfd-124">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sags-VIA-metoder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="03cfd-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Methods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="03cfd-125">Vælg handlingen **Ny**, og udfyld derefter felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="03cfd-125">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="03cfd-126">Luk vinduet.</span><span class="sxs-lookup"><span data-stu-id="03cfd-126">Close the window.</span></span>   
+4. <span data-ttu-id="03cfd-127">For at gøre denne nye metode til standard skal du i øverste højre hjørne vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sagsopsætning** og derefter vælge det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="03cfd-127">To make this new method the default, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="03cfd-128">I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.</span><span class="sxs-lookup"><span data-stu-id="03cfd-128">In the **Default WIP Method** field, choose the method from the list.</span></span>
 
-## <a name="to-define-a-wip-method-for-a-job"></a>Sådan definere en metode for igangværende arbejde for en sag
-Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arbejde der gælder. I nogle tilfælde er den sagsmetode for igangværende arbejde, der er oprettet for dig, oprettet som standard.
+## <a name="to-define-a-wip-method-for-a-job"></a><span data-ttu-id="03cfd-129">Sådan definere en metode for igangværende arbejde for en sag</span><span class="sxs-lookup"><span data-stu-id="03cfd-129">To define a WIP method for a job</span></span>
+<span data-ttu-id="03cfd-130">Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arbejde der gælder.</span><span class="sxs-lookup"><span data-stu-id="03cfd-130">When you create a new job, you must specify which job WIP method that applies.</span></span> <span data-ttu-id="03cfd-131">I nogle tilfælde er den sagsmetode for igangværende arbejde, der er oprettet for dig, oprettet som standard.</span><span class="sxs-lookup"><span data-stu-id="03cfd-131">In some cases, which Job WIP method that you can use has been set up for you as a default.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette sager](projects-how-create-jobs.md).  
-3. I vinduet **Sagskort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
+1. <span data-ttu-id="03cfd-132">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="03cfd-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="03cfd-133">Vælg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-133">Choose the **New** action.</span></span> <span data-ttu-id="03cfd-134">Du kan finde flere oplysninger i [Fremgangsmåde: Oprette sager](projects-how-create-jobs.md).</span><span class="sxs-lookup"><span data-stu-id="03cfd-134">For more information, see [How to: Create Jobs](projects-how-create-jobs.md).</span></span>  
+3. <span data-ttu-id="03cfd-135">I vinduet **Sagskort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde.</span><span class="sxs-lookup"><span data-stu-id="03cfd-135">In the **Job Card** window, in the **WIP Method** field, select a WIP method from the list.</span></span> <span data-ttu-id="03cfd-136">Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.</span><span class="sxs-lookup"><span data-stu-id="03cfd-136">If a default method has been defined, you can select another option if needed.</span></span>  
 
-## <a name="to-calculate-wip"></a>Sådan beregnes VIA
-Du kan fastlægge det beløb for igangværende arbejde, der skal bogføres til balancekonti ved periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Beregn VIA for sag**.  
+## <a name="to-calculate-wip"></a><span data-ttu-id="03cfd-137">Sådan beregnes VIA</span><span class="sxs-lookup"><span data-stu-id="03cfd-137">To calculate WIP</span></span>
+<span data-ttu-id="03cfd-138">Du kan fastlægge det beløb for igangværende arbejde, der skal bogføres til balancekonti ved periodeafslutningsrapporteringen.</span><span class="sxs-lookup"><span data-stu-id="03cfd-138">You can determine the WIP amount that is to be posted to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="03cfd-139">Det gør du ved at udføre kørslen **Beregn VIA for sag**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-139">You use the **Job Calculate WIP** batch job to do this.</span></span>  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Beregn VIA - finansafstemning**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Beregn igangværende arbejde**.
-3. I vinduet **Beregn VIA for sag** skal du udfylde felterne efter behov.
-4. Vælg knappen **OK**.  
-
-> [!NOTE]  
->   Kørslen beregner kun igangværende arbejde. Det bogføres ikke i finansmodulet. Hvis du vil bogføre, skal du udføre kørslen **Bogfør igangværende arbejde - finansafstemning**, når du har beregnet igangværende arbejde. Du kan finde flere oplysninger i følgende procedure.
-
-## <a name="to-post-wip"></a>Sådan bogføres igangværende arbejde
-Når du har beregnet igangværende arbejde, kan du bogføre det til balancekontiene for periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Bogfør VIA for sag**.
-
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogfør VIA - finansafstemning**, og vælg derefter det relaterede link.  
-2. I vinduet **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
-3. Vælg knappen **OK**.
-
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>Sådan vises sagsforbrugsestimater og bogføringsopdateringer
-Du kan få vist sagsforbruget op til færdiggørelsen af et projekt i ét trin. Hvis du vil gøre det, skal du bruge kørslen **Beregn resterende forbrug for sag** for alle sagerne op til og inklusive afslutningen af en sag.  
-
-På denne måde kan du holde styr på og sammenligne dine oprindelige estimater med de faktiske resultater og foretage ændringer eller oprette nye poster efter behov. Du kan f.eks. have anslået, at en sag krævede 10 timer, og at den frem til nu har taget 15 timer. Du kan føje de ekstra fem timer til den eksisterende kladdelinje eller oprette en ny kladdelinje for at rapportere disse fem timer som overtid, hvilket er en anden arbejdstype. Den korrekte omkostning og pris beregnes, og du kan derefter bogføre den til kladden.  
+1. <span data-ttu-id="03cfd-140">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Beregn VIA - finansafstemning**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="03cfd-140">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Calculate WIP**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="03cfd-141">Vælg handlingen **Beregn igangværende arbejde**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-141">Choose the **Calculate WIP** action.</span></span>
+3. <span data-ttu-id="03cfd-142">I vinduet **Beregn VIA for sag** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="03cfd-142">In the **Job Calculate WIP** window, fill in the fields as necessary.</span></span>
+4. <span data-ttu-id="03cfd-143">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-143">Choose the **OK** button.</span></span>  
 
 > [!NOTE]  
->   Vareposter opretter vareposter til finans og reducerer antallet af varer på lager. Kørslen **Bogfør lagerregulering** overfører omkostningen fra lager til finans. Ressourceposter opretter ressourceposter til finans.  
+>   <span data-ttu-id="03cfd-144">Kørslen beregner kun igangværende arbejde.</span><span class="sxs-lookup"><span data-stu-id="03cfd-144">The batch job only calculates the WIP.</span></span> <span data-ttu-id="03cfd-145">Det bogføres ikke i finansmodulet.</span><span class="sxs-lookup"><span data-stu-id="03cfd-145">It is not posted to the general ledger.</span></span> <span data-ttu-id="03cfd-146">Hvis du vil bogføre, skal du udføre kørslen **Bogfør igangværende arbejde - finansafstemning**, når du har beregnet igangværende arbejde.</span><span class="sxs-lookup"><span data-stu-id="03cfd-146">To do so, you must run the **Post WIP to G/L** batch job when you have calculated the WIP.</span></span> <span data-ttu-id="03cfd-147">Du kan finde flere oplysninger i følgende procedure.</span><span class="sxs-lookup"><span data-stu-id="03cfd-147">For more information, see the following procedure.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
-2. Vælg en relevant sagskladde, og vælg derefter handlingen **Beregn resterede forbrug**.  
-3. I vinduet **Beregn resterende forbrug for sag** skal du angive dokumentnummeret og bogføringsdatoen, der skal indsættes i kladden, og derefter vælge knappen **OK**.  
-4. Opdater kladden med eventuelle nødvendige ændringer.  
-5. Vælg **Bogfør**.
+## <a name="to-post-wip"></a><span data-ttu-id="03cfd-148">Sådan bogføres igangværende arbejde</span><span class="sxs-lookup"><span data-stu-id="03cfd-148">To post WIP</span></span>
+<span data-ttu-id="03cfd-149">Når du har beregnet igangværende arbejde, kan du bogføre det til balancekontiene for periodeafslutningsrapporteringen.</span><span class="sxs-lookup"><span data-stu-id="03cfd-149">When you have calculated WIP, you can post it to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="03cfd-150">Det gør du ved at udføre kørslen **Bogfør VIA for sag**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-150">You use the **Job Post WIP to G/L** batch job to do this.</span></span>
 
-## <a name="to-view-job-ledger-entries"></a>Sådan får du vist sagsposter
-Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende nummerering, hvor der startes med 1. Fra sagsjournalen kan du få et overblik over alle sagsposter.    
+1. <span data-ttu-id="03cfd-151">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogfør VIA - finansafstemning**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="03cfd-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Post WIP to G/L**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="03cfd-152">I vinduet **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="03cfd-152">In the **Job Post WIP to G/L** window, fill in the fields as necessary.</span></span>  
+3. <span data-ttu-id="03cfd-153">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-153">Choose the **OK** button.</span></span>
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsjournaler**, og vælg derefter det relaterede link.
-2. Vælg en relevant journal, og vælg derefter handlingen **Sagsposter**.
+## <a name="to-view-job-usage-estimates-and-post-updates"></a><span data-ttu-id="03cfd-154">Sådan vises sagsforbrugsestimater og bogføringsopdateringer</span><span class="sxs-lookup"><span data-stu-id="03cfd-154">To view job usage estimates and post updates</span></span>
+<span data-ttu-id="03cfd-155">Du kan få vist sagsforbruget op til færdiggørelsen af et projekt i ét trin.</span><span class="sxs-lookup"><span data-stu-id="03cfd-155">You can view job usage up to the completion of a project in one step.</span></span> <span data-ttu-id="03cfd-156">Hvis du vil gøre det, skal du bruge kørslen **Beregn resterende forbrug for sag** for alle sagerne op til og inklusive afslutningen af en sag.</span><span class="sxs-lookup"><span data-stu-id="03cfd-156">To do so, you use the **Job Calc. Remaining Usage** batch job for all the tasks up to and including the end of a job.</span></span>  
 
-I vinduet **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.  
+<span data-ttu-id="03cfd-157">På denne måde kan du holde styr på og sammenligne dine oprindelige estimater med de faktiske resultater og foretage ændringer eller oprette nye poster efter behov.</span><span class="sxs-lookup"><span data-stu-id="03cfd-157">This lets you track and compare your original estimates against actual results and make modifications or new entries as needed.</span></span> <span data-ttu-id="03cfd-158">Du kan f.eks. have anslået, at en sag krævede 10 timer, og at den frem til nu har taget 15 timer.</span><span class="sxs-lookup"><span data-stu-id="03cfd-158">For example, you may have estimated that a job required 10 hours, and to date, it has taken 15 hours.</span></span> <span data-ttu-id="03cfd-159">Du kan føje de ekstra fem timer til den eksisterende kladdelinje eller oprette en ny kladdelinje for at rapportere disse fem timer som overtid, hvilket er en anden arbejdstype.</span><span class="sxs-lookup"><span data-stu-id="03cfd-159">You can add the extra five hours to the existing journal line or create a new journal line to report these five hours as overtime, which is another work type.</span></span> <span data-ttu-id="03cfd-160">Den korrekte omkostning og pris beregnes, og du kan derefter bogføre den til kladden.</span><span class="sxs-lookup"><span data-stu-id="03cfd-160">The appropriate cost and price are calculated, and you can then post to the journal.</span></span>  
 
-## <a name="see-also"></a>Se også
-[Administrere projekter](projects-manage-projects.md)  
-[Finans](finance.md)  
-[Køb](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+> [!NOTE]  
+>   <span data-ttu-id="03cfd-161">Vareposter opretter vareposter til finans og reducerer antallet af varer på lager.</span><span class="sxs-lookup"><span data-stu-id="03cfd-161">Item entries create item ledger entries and reduce the inventory quantity.</span></span> <span data-ttu-id="03cfd-162">Kørslen **Bogfør lagerregulering** overfører omkostningen fra lager til finans.</span><span class="sxs-lookup"><span data-stu-id="03cfd-162">The **Post Inventory Cost to G/L** batch job transfers the cost from inventory to the general ledger.</span></span> <span data-ttu-id="03cfd-163">Ressourceposter opretter ressourceposter til finans.</span><span class="sxs-lookup"><span data-stu-id="03cfd-163">Resource entries create resource ledger entries.</span></span>  
+
+1. <span data-ttu-id="03cfd-164">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="03cfd-164">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="03cfd-165">Vælg en relevant sagskladde, og vælg derefter handlingen **Beregn resterede forbrug**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-165">Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.</span></span>  
+3. <span data-ttu-id="03cfd-166">I vinduet **Beregn resterende forbrug for sag** skal du angive dokumentnummeret og bogføringsdatoen, der skal indsættes i kladden, og derefter vælge knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-166">In the **Job Calc. Remaining Usage** window, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.</span></span>  
+4. <span data-ttu-id="03cfd-167">Opdater kladden med eventuelle nødvendige ændringer.</span><span class="sxs-lookup"><span data-stu-id="03cfd-167">Update the journal with any modifications that may be needed.</span></span>  
+5. <span data-ttu-id="03cfd-168">Vælg **Bogfør**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-168">Choose the **Post**.</span></span>
+
+## <a name="to-view-job-ledger-entries"></a><span data-ttu-id="03cfd-169">Sådan får du vist sagsposter</span><span class="sxs-lookup"><span data-stu-id="03cfd-169">To view job ledger entries</span></span>
+<span data-ttu-id="03cfd-170">Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende nummerering, hvor der startes med 1.</span><span class="sxs-lookup"><span data-stu-id="03cfd-170">All job-related entries are recorded in job registers and are numbered sequentially, starting with 1.</span></span> <span data-ttu-id="03cfd-171">Fra sagsjournalen kan du få et overblik over alle sagsposter.</span><span class="sxs-lookup"><span data-stu-id="03cfd-171">From the job register, you can get an overview of all job ledger entries.</span></span>    
+
+1. <span data-ttu-id="03cfd-172">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsjournaler**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="03cfd-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Registers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="03cfd-173">Vælg en relevant journal, og vælg derefter handlingen **Sagsposter**.</span><span class="sxs-lookup"><span data-stu-id="03cfd-173">Select a relevant register, and then choose **Job Ledger** action.</span></span>
+
+<span data-ttu-id="03cfd-174">I vinduet **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.</span><span class="sxs-lookup"><span data-stu-id="03cfd-174">In the **Job Ledger Entries** window you can review the entries that are associated with any job.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="03cfd-175">Se også</span><span class="sxs-lookup"><span data-stu-id="03cfd-175">See Also</span></span>
+[<span data-ttu-id="03cfd-176">Administrere projekter</span><span class="sxs-lookup"><span data-stu-id="03cfd-176">Manage Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="03cfd-177">Finans</span><span class="sxs-lookup"><span data-stu-id="03cfd-177">Finance</span></span>](finance.md)  
+<span data-ttu-id="03cfd-178">[Køb](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="03cfd-178">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="03cfd-179">[Salg](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="03cfd-179">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="03cfd-180">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="03cfd-180">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
