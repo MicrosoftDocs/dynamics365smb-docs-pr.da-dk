@@ -1,1 +1,1 @@
-Finansielle oplysninger
+<span data-ttu-id="7ab56-101">Financials</span><span class="sxs-lookup"><span data-stu-id="7ab56-101">Financials</span></span>
