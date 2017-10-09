@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
@@ -26,7 +26,7 @@ For at blive klar til at handle kan gå til vinduet **Virksomhedshjælp**, hvor 
 På startsiden nederst i navigationsruden kan du finde menuen **Installation og udvidelser** menu. Udvid knappen **Start** for at få vist navigationsruden. Her kan du få adgang til en oversigt over assisteret opsætning, der kan hjælpe dig i gang. Når du har overført data som kreditorer, debitorer og varer fra dit eksisterende økonomisystem, er du klar til at begynde. Men afhængigt af dine behov skal du overveje, om den assisterede opsætning kan hjælpe dig. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningsvinduer, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Pakke**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Suite**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 I vinduet **Assisteret opsætning** kan du finde følgende i **Basis**-oplevelsen:
 
@@ -39,7 +39,7 @@ I vinduet **Assisteret opsætning** kan du finde følgende i **Basis**-oplevelse
 | Konfig. Office-tilf.prog. |Konfigurerer muligheden for at bruge og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
 | Konfig. godkendelsesworkflow |Konfigurerer muligheden for automatisk at underretter en godkender, når en bruger forsøger at oprette eller ændre bestemte værdier i dokumenter, kladdelinjer eller på kort som f.eks. et beløb over en angivet grænse. |
 | Konfigurer maillogføring |Konfigurerer muligheden for at gemme mailkorrespondance i [!INCLUDE[d365fin](includes/d365fin_md.md)] for at følge op på interaktioner. |
-| Konfigurer Dynamics CRM-forbindelse |Opretter forbindelse til Dynamics CRM, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
+| Konfigurere Dynamics 365 Connector |Opretter forbindelse til Dynamics 365 for Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
 
 Når du har udført en assisteret opsætning, markeres den som **Afsluttet**. Når du vil udføre den assisterede opsætning, skal du vælge de tre punktummer, den såkaldte genvejsmenu, og derefter kan du vælge **Start opsætning**.
 

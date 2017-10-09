@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 48692c9837007c6dd9c3891f0940b6f15b1d6541
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: f110f4cc342f5284e3da2641d56dc13f67c3773a
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-resources-for-jobs"></a>Fremgangsmåde: Bruge ressourcer for sager
@@ -26,7 +25,7 @@ Du registrerer forbruget af ressourcer i jobkladden, for at holde styr på omkos
 Du kan også bogføre forbruget af en ressource i en ressourcekladde. Posteringer i en ressourcekladde har ingen indflydelse på finanskontiene.
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-assign-resources-to-jobs"></a>Sådan tildeles ressourcer til sager
 Du kan tildele ressourcer til sager ved at oprette sagsplanlægningslinjer for sagen. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette sager](projects-how-create-jobs.md).
@@ -64,7 +63,7 @@ Hvis du vil angive flere alternative ressourcepriser ud fra standardpriserne på
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
 Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, kan du bruge en kørsel til at angive flere alternative ressourcepriser.
 
-1. Indtast **Foreslå ress.salgspris (pris)** i feltet **Søg**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Foreslå ress.salgs&pris (ress.)**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 3. Vælg knappen **OK**.  
 4. Åbn vinduet **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.

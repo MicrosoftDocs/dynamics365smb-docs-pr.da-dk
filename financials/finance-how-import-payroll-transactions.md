@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 06/16/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: d53dfb26a3fea663e68a3b558579a59184e9de26
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-import-payroll-transactions"></a>Fremgangsmåde: Importere løntransaktioner
@@ -32,7 +31,7 @@ For at tage højde for lønbetalinger og relaterede transaktioner, skal du impor
 3. Udfør trinnene i vinduet **Importér løntransaktioner**.
 
     > [!TIP]  
->   I trinnet for tilknytning af de eksterne lønposter til dine finanskonti vil de tilknytninger, du foretager, blive husket, næste gang de samme poster importeres. Det vil spare tid, da du ikke behøver at udfylde feltet **Kontonr.** i finanskladden manuelt, hver gang du har importeret gentagne løntransaktioner.   
+>   I trinnet for tilknytning af de eksterne lønposter til dine finanskonti vil de tilknytninger, du foretager, blive husket, næste gang de samme poster importeres. Derved sparer du tid, da du ikke behøver at udfylde feltet **Kontonr.** manuelt i finanskladden, hver gang du har indlæst gentagne løntransaktioner.   
 
     Når du vælger knappen **OK** i den assisterede opsætningsvejledning, udfyldes vinduet **Finanskladde** med linjer, der repræsenterer de transaktioner, som lønningslistefilen indeholder, og de relevante konti udfyldt på forhånd i **Finanskonto**-felterne i overensstemmelse med de tilknytninger, du har foretaget i vejledningen.
 4. Rediger eller bogfør kladdelinjerne som for alle andre finanstransaktioner. Du kan finde flere oplysninger i [Fremgangsmåde: Bogføre transaktioner direkte i finansregnskabet](finance-how-post-transactions-directly.md).   

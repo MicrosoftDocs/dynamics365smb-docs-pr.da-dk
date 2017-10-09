@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-acquire-fixed-assets"></a>Fremgangsmåde: Anskaffe anlægsaktiver
@@ -53,7 +52,7 @@ Både hovedanlægget og alle dets komponenter skal oprettes som individuelle anl
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.
 2. Vælg det anlægsaktiv, der er hovedanlægget, og vælg derefter handlingen **Hovedanlæg**.
-3. I vinduet **Hovedanlæg** skal du vælge feltet **Anlægsnr.**. og derefter vælge det anlægsaktiv, du vil tilføje som en del af hovedanlægget.
+3. I vinduet **Hovedanlæg** skal du vælge feltet **Anlægsnr**. og derefter vælge de anlægsaktiver, der skal tilføjes som en komponent i hovedanlægget.
 4. Luk vinduet.
 5. Gentag trin 3 til 4 for hver underdel til anlægget, du vil tilføje.
 6. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsopsætning**, og vælg derefter det relaterede link.
@@ -71,7 +70,7 @@ Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at o
 4. Vælg handlingen **Bogfør**.  
 
 > [!TIP]  
->   Hvis du udfylder feltet **Forsikringsnr.** i anlægskassekladden, når du bogfører en anskaffelsespris, bogfører [!INCLUDE[d365fin](includes/d365fin_md.md)] også anskaffelsesprisen for anlægsaktivet i forsikringsposten. Du kan finde flere oplysninger i [Fremgangsmåde: Forsikre anlægsaktiver](fa-how-insure.md).
+>   Hvis du udfylder feltet **Forsikringsnr.** i anlægskassekladden, når du bogfører en anskaffelse, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] også bogføre anskaffelsesprisen på anlægsaktivet på forsikringsposterne. Du kan finde flere oplysninger i [Fremgangsmåde: Forsikre anlægsaktiver](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Sådan annulleres bogføringen af en anskaffelsespris for et anlægsaktiv
 Hvis du laver en fejl under bogføring af en anskaffelsespris, kan du fjerne posten vha. kørslen **Annuller anlægsposter** og derefter bogføre den korrekte anskaffelsespost. De forkerte poster overføres til vinduet **Anlægsfejlposter**.

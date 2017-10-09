@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4a41abe08412b357207cbbc08e8dc5041b12d942
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-fixed-assets-information"></a>Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver
@@ -106,7 +105,7 @@ Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[d365fin](includes
 2. Opret et anlægskort for hvert anlæg, der allerede findes.  
 3. Opret afskrivningsprofiler for anlægsaktiver.  
 4. Aktivér finansintegration ved hjælp af de næste trin.
-5. I feltet **Søg** skal du angive **Afskrivningsprofiler** og derefter vælge det relaterede link.  
+5. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
 6. Vælg den relevante afskrivningsprofil. På fanen **Startside** i gruppen **Administrer** skal du vælge **Rediger** for at åbne vinduet **Afskrivningsprofilkort**.
 7. På oversiftspanelet **Integration** skal du sørge for, at alle felter er tomme, ved at fjerne alle markeringer. Hvis du har mere end én afskrivningsprofil, skal du aktivere finansintegration for hver enkelt.  
 8. Skriv følgende linjer for hvert aktiv i anlægskladden:
@@ -114,7 +113,7 @@ Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[d365fin](includes
    * En linje med den akkumulerede afskrivning i slutningen af det foregående regnskabsår.
    * En linje med den akkumulerede afskrivning fra begyndelsen af det aktuelle regnskabsår til den dato, hvor [!INCLUDE[d365fin](includes/d365fin_md.md)] er indstillet til at starte afskrivningen.
 
-Hvis du har andre primosaldi, kan du også angive dem nu, f.eks. ned\- og opskrivning.  
+Hvis du har andre åbningsposter, kan du også angive dem nu, f.eks. nedskrivning og opskrivning.  
 
 Hvis anlægsaktiverne ikke integreres med finansregnskabet, skal du springe trin 4-7 over.
 

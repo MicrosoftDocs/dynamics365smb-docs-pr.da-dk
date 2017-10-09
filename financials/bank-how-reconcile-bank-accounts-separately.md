@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 0e6fbc829f80b9fe5e1b2f9b4645d53f4334a696
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Fremgangsmåde: Afstemme bankkonti separat
@@ -45,7 +44,7 @@ Når værdien i feltet **Total balance** i ruden **Bankkontoudtogslinjer** svare
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Sådan udfyldes bankafstemningslinjer ved at importere et bankkontoudtog
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkontoafstemning**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
-3. I feltet **Bankkontonr.** skal du vælge den relevante bankkonto. Bankkontoposterne, der findes på bankkontoen, vises i ruden **Bankkontoposter**.
+3. Vælg den relevante bankkonto i feltet **Bankkontonr.**. Bankkontoposterne, der findes på bankkontoen, vises i ruden **Bankkontoposter**.
 4. Angiv datoen for kontoudtoget fra banken i feltet **Kontoudtogsdato**.
 5. Angiv saldoen fra kontoudtoget i feltet **Kontoudtogs slutsaldo**.
 6. Hvis du har en bankkontoudtogsfil, skal du vælge handlingen **Importér bankkontoudtog**.
@@ -62,15 +61,15 @@ Når værdien i feltet **Total balance** i ruden **Bankkontoudtogslinjer** svare
 1. I vinduet **Bankkontoafstemning** skal du vælge **Match automatisk**. Vinduet **Afstem bankposter** åbnes.
 2. I feltet **Transaktionsdatotolerance (dage)** skal du angive antallet af dage før og efter bankpostens bogføringsdato, hvorimellem funktionen skal søge efter tilsvarende transaktionsdatoer i kontoudtoget.
 
-    Hvis du indtaster 0 eller lader feltet stå tomt, vil funktionen **Afstem automatisk** kun søge efter afstemte transaktionsdatoer på bankpostens bogføringsdato.  
-3. Vælg knappen **OK**.  
+    Hvis du indtaster 0 eller lader feltet stå tomt, vil funktionen **Afstem automatisk** kun søge efter afstemte transaktionsdatoer på bankpostens bogføringsdato.
+3. Vælg knappen **OK**.
 
     Alle bankkontoudtogslinjer og bankposter, der kan afstemmes, ændrer farve til grøn skrifttype, og afkrydsningsfeltet **Udlignet** markeres.
 4. For at fjerne et match skal du markere bankkontoudtogslinjen og derefter vælge handlingen **Fjern match**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Sådan afstemmes bankkontoudtoglinjer manuelt med bankposter
 1. I vinduet **Bankkontoafstemning** skal du vælge en ikke-udlignet linje i ruden **Bankkontoudtogslinjer**:
-2. I ruden **Bankkontoposter** skal du vælge en eller flere bankkontoposter, der kan afstemmes med den valgte bankkontoudtogslinje. Hvis du vil vælge flere linjer, skal du trykke på og holde Ctrl-tasten nede.  
+2. I ruden **Bankkontoposter** skal du vælge en eller flere bankkontoposter, der kan afstemmes med den valgte bankkontoudtogslinje. Hvis du vil vælge flere linjer, skal du trykke på og holde Ctrl-tasten nede.
 3. Vælg handlingen **Match manuelt**.
 
     Den valgte bankkontoudtogslinje og de valgte bankposter ændrer farve til grøn skrifttype, og afkrydsningsfeltet **Udlignet** i højre rude markeres.
@@ -81,7 +80,7 @@ Når værdien i feltet **Total balance** i ruden **Bankkontoudtogslinjer** svare
 Undertiden indeholder bankafstemninger beløb med renter eller gebyrer. Sådanne banktransaktioner kan ikke afstemmes, fordi der ikke findes nogen relaterede finansposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Derefter skal du bogføre en kladdelinje for hver transaktion for at oprette en relateret post, som de kan afstemmes med.
 
 1. I vinduet **Bankkontoafstemning** skal du vælge handlingen **Overfør til finanskladde**.  
-2. I vinduet **Overfør afstemning til fin.kld** skal du angive, hvilken finanskladde der skal bruges, og derefter vælge knappen **OK**.
+2. I vinduet **Overfør afstemning til fin.kld** skal du angive, hvilken finanskladde du vil bruge, og derefter klikke på knappen **OK**.
 
     Vinduet **Finanskladde** åbnes. Det indeholder nye kladdelinjer for alle bankkontoudtogslinje med manglende poster.
 3. Udfyld kladdelinjen med de relevante oplysninger som f.eks. modkonto. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  

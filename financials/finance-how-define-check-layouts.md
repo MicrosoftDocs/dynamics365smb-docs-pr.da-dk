@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-define-check-layouts"></a>Fremgangsmåde: Definere checklayout
@@ -27,7 +26,7 @@ Checks er designet til udskrivning i amerikanske og canadiske checkbilledformate
 
 ## <a name="to-define-check-layouts"></a>Sådan defineres checklayout
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rapportvalg - Bankkonto**, og vælg derefter det relaterede link.
-2. I vinduet **Rapportvalg - bankkonto** skal du i feltet **Forbrug** vælge **Check**.
+2. I vinduet **Rapportvalg - bankkonto** skal du vælge feltet **Check** i feltet **Forbrug**.
 3. Vælg et af følgende rapport-id'er.
 
 | Rapport-id | Rapportnavn | Beskrivelse |

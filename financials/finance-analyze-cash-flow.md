@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysere pengestrømme i din virksomhed
@@ -30,7 +29,6 @@ Penge styrer, som man siger. Diagrammer i rollecenteret Regnskabsmedarbejder giv
 | Ser tallene negative ud for en periode?</br> Skal jeg undersøge det? |Indtægter og udgifter |
 | Hvornår kan jeg forvente kontante overskud eller underskud?</br> Skal jeg nedbringe gæld eller låne for at imødegå kommende udgifter? |Pengestrømsprognoser |
 
-## <a name="dig-into-the-numbers"></a>Se nærmere på tallene
 I rollecentret Regnskabsmedarbejder under **Finansydeevne** giver diagrammerne **Kassebeholdningsproces**, **Pengestrøm** og **Indtægter og udgifter** dig måder at analysere pengestrømme på:  
 
 * Få vist tallene i en periode ved hjælp af tidslinjeskyderen.  
@@ -38,7 +36,7 @@ I rollecentret Regnskabsmedarbejder under **Finansydeevne** giver diagrammerne *
 * Skift tidsrum, eller gå til forrige eller næste periode ved at vælge indstillinger i rullemenuen **Finansydeevne**.  
 * Få vist posterne ved at vælge et punkt i diagrammet. F.eks. et punkt på tidslinjen eller en målgruppe i en kolonne. Hvis tallene afviger fra det forventede, er det her, du kan foretage ændringer.  
 
-Selvom **Pengestrømsprognose** er adskilt fra de andre diagrammer, minder det om dem. Du kan få vist detaljer, filtrere resultaterne og ændre det viste på samme måde. Hvis du ændrer en indstilling, kan du opdatere prognosen ved at vælge **Pengestrømsprognose** og derefter **Genberegn prognose**.
+Selvom **Pengestrømsprognose** er adskilt fra de andre diagrammer, minder det om dem. Du kan få vist detaljer, filterresultater og ændre det viste på samme måde. Hvis du ændrer en indstilling, kan du opdatere prognosen ved at vælge **Pengestrømsprognose** og derefter **Genberegn prognose**.
 
 Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengestrømskladden. Du kan f.eks. se, hvordan prognosen:
 
@@ -46,7 +44,7 @@ Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengest
 * Fratrækker skyldige beløb og tilføjer tilgodehavender.  
 * Springer dubletter af salgsordrer og købsordrer over.  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Sådan vises en pengestrømskladde
+## <a name="to-view-a-cash-flow-worksheet"></a>Sådan vises en pengestrømskladde
 1. Søg efter **Pengestrømsprognoser**, og vælg derefter det relaterede link.  
 2. Vælg en pengestrømsprognose, og vælg derefter handlingen **Pengestrømskladde**.  
 3. På siden **Pengestrømskladde** skal du vælge handlingen **Foreslå kladdelinjer**.  

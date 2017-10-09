@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Fremgangsmåde: Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti
@@ -33,7 +32,7 @@ Betalinger, der er bogført baseret på tekst-til-kontotilknytning, udlignes ikk
 > [!NOTE]  
 >   Betalinger på afstemningslinjerne i kladden er kun angivet til bogføring i overensstemmelse med tekst-til-kontotilknytning, hvis den automatiske udligningsfunktion kun kan give en udligningstillid af **Lav** eller **Mellem**. Hvis den automatiske udligningsfunktion indeholder matchtilliden Høj, bliver betalingen automatisk udlignet til en eller flere åbne poster, og betalingen bogføres ikke på de konti, der er angivet i vinduet **Tekst til kontotilknytning**. Med andre ord tilsidesætter udligningstilliden **Høj** en tekst-til-kontotilknytning.
 
-På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring i overensstemmelse med tekst-til-kontotilknytning, indeholder feltet **Matchtillid** **Høj – Tekst-til-kontotilknytning** og felterne **Kontotype** og **Kontonr.** indeholder de tilknyttede konti.
+På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring i overensstemmelse med tekst-til-kontotilknytning, indeholder feltet **Matchtillid** **Høj – Tekst-til-kontotilknytning**, og felterne **Kontotype** og **Kontonr.** indeholder de tilknyttede konti.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Sådan knytter du tekst på tilbagevendende betalinger til automatisk afstemning af konti
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsudbetalingskladder**, og vælg derefter det relaterede link.
@@ -43,19 +42,19 @@ På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring
 
     > [!NOTE]  
 >   Hvis der ikke findes andre betalinger eller indgående bilag med den pågældende tilknytningstekst, kan teksten til kontotilknytning optræde, selv om kun en del af teksten på betalingen eller det indgående bilag findes som en tilknytningstekst.
-5. I feltet **Kreditornr.** skal du angive den kreditor, som indgående bilag, der indeholder tilknytningsteksten, oprettes for, eller som betalinger bogføres til. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).      
-6. I feltet **Debetkontonr.** skal du angive den konto, som betalinger, der indeholder tilknytningsteksten, skal bogføres på, hvis de er indgående betalinger. For indgående betalinger er fortegnet for værdien i feltet **Kontoudtogsbeløb** positivt.
-7. I feltet **Kreditkontonr.** skal du angive den konto, som betalinger, der indeholder tilknytningsteksten, skal bogføres på, hvis de er udgående betalinger. For udgående betalinger er fortegn for værdien i feltet **Kontoudtogsbeløb** er negativt.
+5. I feltet **Kreditornr.** skal du angive nummeret på den kreditor, som indgående bilag, der indeholder tilknytningsteksten, oprettes for, eller som betalinger bogføres til. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).      
+6. Brug feltet **Debetkontonr.** til at angive den konto, som betalinger, der indeholder tilknytningsteksten, skal bogføres til, hvis de er indgående betalinger. For indgående betalinger er fortegnet for værdien i feltet **Kontoudtogsbeløb** positivt.
+7. Brug feltet **Kreditkontonr.** til at angive den konto, som betalinger, der indeholder tilknytningsteksten, skal bogføres til, hvis de er udgående betalinger. For udgående betalinger er fortegn for værdien i feltet **Kontoudtogsbeløb** er negativt.
 8. Brug feltet **Modkontokildetype** til at angive, om betalingen skal bogføres på en finanskonto eller en debitor- eller kreditorkonto.
 9. I feltet **Modkontokildenr.** skal du angive den konto, som betalingen vil blive bogført til, afhængig af valget i feltet **Modkontokildetype**.
 10. Gentag trin 4 til 8 for al tekst på betalinger, du vil knytte til konti til direkte bogføring uden udligning.
 
-Næste gang du importerer en bankkontofil eller vælge handlingen **Udlign automatisk** i vinduet **Betalingsudligningskladde**, vil kladdelinjerne til betalinger, der indeholder den angivne tilknytningstekst, indeholde tilknyttede konti i felterne **Kontotype** og feltet **Kontonr.** . Feltet **Matchtillid** indeholder **Høj - Tilknytning af tekst til konto**. Det er på betingelse af, at den automatiske udligningsfunktion kun kan give en udligningstillid af **Lav** eller **Mellem**.
+Næste gang du importerer en bankkontofil eller vælge handlingen **Udlign automatisk** i vinduet **Betalingsudligningskladde**, vil kladdelinjerne til betalinger, der indeholder den angivne tilknytningstekst, indeholde tilknyttede konti i felterne **Kontotype** og **Kontonr.**. Feltet **Matchtillid** indeholder **Høj - Tilknytning af tekst til konto**. Det er på betingelse af, at den automatiske udligningsfunktion kun kan give en udligningstillid af **Lav** eller **Mellem**.
 
 ## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Eksempel: Tekst-til kontotilknytning for udgift til benzin
 Hvis du altid vil bogføre brændstofudgifter på Shell-benzinstationer til finanskontoen for benzin (konto 8510), skal du udfylde en linje i vinduet **Tekst til kontotilknytning** på følgende måde.
 
-| Koblingstekst | Debetkonto nr. | Kreditkonto nr. | Modkonto Kildetype | Modkonto Kildenr. |
+| Koblingstekst | Debetkontonr. | Kreditkontonr. | Modkontokildetype | Modkontokildenr. |
 | --- | --- | --- | --- | --- |
 | Shell |TOM |8510 |Finanskonto |TOM |
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-defer-revenues-and-expenses"></a>Fremgangsmåde: Periodisere indtægter og udgifter
@@ -26,7 +25,7 @@ For at genkende en indtægt eller udgift i en periode ud over den periode, hvor 
 For at fordele indtægter eller udgifter på de involverede regnskabsperioder, skal du oprette en periodiseringsskabelon for den ressource, vare eller finanskonto, som indtægten eller udgiften skal bogføres til. Når du bogfører det relaterede salgs- eller købsbilag, periodiseres indtægten eller udgiften til de involverede regnskabsperioder i overensstemmelse med en periodiseringsplan, som er omfattet af indstillingerne i periodiseringsskabelonen og bogføringsdatoen.
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Sådan konfigureres en finanskonti til periodisering
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoplan**, og vælg derefter det relaterede link.
@@ -82,7 +81,7 @@ Eksempel: Bogføringsdatoen er 06-02-2016. Hvis du angiver "Udgifter udskudt for
 1. I vinduet **Salgsfaktura** skal du vælge handlingen **Vis bogføring**.
 2. I vinduet **Vis bogføring** skal du vælge handlingen **Finanspost** og derefter vælge handlingen **Vis relaterede poster**.
 
-Finansposter, der skal bogføres på den angivne periodiseringskonto, f.eks, Ikke-indtjent indtægt, er angivet med den beskrivelse, som du har angivet i feltet **Periodebeskr.** i periodiseringsskabelonen, f.eks. "Udgifter udskudt for februar 2016".
+Finansposter, der skal bogføres på den angivne periodiseringskonto, f.eks, Ikke-indtjent indtægt, er angivet med den beskrivelse, som du har angivet i feltet **Periodebeskr.** i periodiseringsskabelonen, f.eks. Udgifter udskudt for februar 2016".
 
 ## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Sådan vises bogførte periodiseringer i rapporten Oversigt over salgsperiodisering
 > [!NOTE]  

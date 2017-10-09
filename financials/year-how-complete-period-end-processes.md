@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 06/02/2017
+ms.date: 06/19/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 678cebc065594ed0ed6fea897676f109ff2c1dce
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: ddc2dbda549414a7beecf5f307c525b53166fa15
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversigt over opgaver til afslutning af regnskabsperioder
@@ -47,15 +46,15 @@ ms.lasthandoff: 07/07/2017
 * Udfør rapporten **Aldersfordelt gæld**, og afstem gæld med finansposterne.  
 * Udfør kørslen **Slet fakturerede købsordrer**.  
 
-<!-- ### Fixed Assets
-* Post all maintenance costs have been posted through the fixed asset journals or invoices.
-* Post adjustments.
-* Post appreciation.
-* Post depreciation.
-* Update and post the recurring fixed asset journal.-->
+Anlægsaktiver
+* Bogfør alle vedligeholdelsesomkostninger via anlægskladderne eller fakturaerne
+* Bogfør reguleringer.
+* Bogfør opskrivning.
+* Bogfør nedskrivning.
+* Opdater og bogfør anlægsgentagelseskladden.
 
-<!--### Intercompany
-* Process Intercompany Postings.-->
+Koncernintern
+* Behandle koncerninterne transaktioner
 
 ## <a name="calculate-and-process-sales-tax"></a>Beregn og behandl moms
 * Udfyld momsangivelser.  

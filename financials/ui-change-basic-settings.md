@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="changing-basic-settings"></a>Ændring af grundlæggende indstillinger
@@ -49,8 +48,11 @@ Standardarbejdsdatoen er normalt dags dato. Du skal muligvis midlertidigt ændre
 > [!IMPORTANT]  
 >   Arbejdsdatoen ændres kun, indtil du lukker virksomheden, eller indtil datoen skifter. Hvis du vælger et andet regnskab eller åbner det samme regnskab næste dag og stadig har brug for at angive en anden arbejdsdato, skal du angive arbejdsdatoen igen.
 
-## <a name="confirmation-dialogs"></a>Bekræftelsesdialogbokse
-Hvis du vil angive nogle flere kontroller til bogføring af bilag, skal du bruge indstillingerne i denne sektion. Disse indstillinger er markeret som standard, men du kan fjerne markeringen i afkrydsningsfelterne, hvis du vil undgå bestemte advarsler og meddelelser.
+## <a name="region"></a>Land/område
+Indstillingen **Område** bestemmer, hvordan datoer, klokkeslæt, tal og valutaer vises og formateres.   
+
+## <a name="change-when-i-receive-notifications"></a>Ændre, hvornår jeg modtager notifikationer
+Vælg dette link for at få vist eller ændre de notifikationer, du får om bestemte hændelser eller ændringer af status, når du er ved at fakturere en kunde, der har et forfaldent beløb, eller den disponible lagerbeholdning er lavere end det antal, du er ved at sælge. Du kan finde flere oplysninger under [Smarte notifikationer](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 08/11/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0284e419280be2d1faba4ac2bf40dac6f78823ed
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 192efcf377f6f6d665c775b24aa715aadd50922f
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-work-with-account-schedules"></a>Fremgangsmåde: Arbejde med kontoskemaer
@@ -28,7 +27,7 @@ Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der e
 Oprettelse af kontoskemaer kræver en forståelse af de finansielle data i kontoplanen. Du kan f.eks. få vist finansposter som procenter af budgetposterne. Dette kræver, at der er oprettet budgetter. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette budgetter](finance-how-create-budgets.md).
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="account-categories-and-account-schedules"></a>Kontokategorier og kontoskemaer
 Du kan bruge kontokategorier til at ændre layoutet af regnskabet. Når du har oprettet kontokategorierne i vinduet **Finanskontokategorier**, og du vælger handlingen **Opret kontoskemaer** opdateres de underliggende kontoskemaer for de grundlæggende regnskabsrapporter. Næste gang du kører en af disse rapporter, f.eks. saldoopgørelsen, tilføjes nye totaler og underordnede linjer, baseret på dine ændringer. Du kan finde flere oplysninger i [Finans- og kontoplanen](finance-general-ledger.md).  

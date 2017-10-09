@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 06/01/2017
+ms.date: 08/23/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 75ed584feda066a6c412f861bd624646c4c31085
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a16201e48cc823e687c9941082d34044d9612a29
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-sales"></a>Konfigurere salg
@@ -37,6 +36,8 @@ Den finansrelaterede salgsopsætning, som betalingsmetoder og valutaer, dækkes 
 | Konfigurer sælgere, så du kan tildele dem til debitorkontakter eller måle sælgernes præstationer som grundlag for beregning af salgsprovision eller bonus. |[Fremgangsmåde: Konfigurere sælgere](sales-how-setup-salespeople.md) |
 | Angiv for individuelle debitorer eller for alle kunder, hvordan salgsdokumenterne sendes som standard, når du vælger **Bogfør og send** handlingen. |[Fremgangsmåde: Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md) |
 | Konfigurer din mail til at indeholde en oversigt over oplysningerne i det salgsdokument, der skal sendes. |[Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md). |
+|Bruge en EU-webtjeneste til at kontrollere en kundes SE/CVR-nummer.|[Fremgangsmåde: Kontrollere SE/CVR-numre](sales-how-to-verify-vat-registration-numbers.md)|
+|Angive oplysninger om de forskellige transportleverandører, virksomheden bruger, herunder et link til deres pakkesporingsservice.|[Sådan oprettes speditører](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

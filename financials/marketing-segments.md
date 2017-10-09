@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-segments"></a>Administrere målgrupper
@@ -28,7 +27,7 @@ Der er to hovedopgaver i oprettelse af en målgruppe:
 * Angiv generelle oplysninger om målgruppen. Du skal oprette målgruppen, før du kan vælge kontaktpersoner i gruppen.
 * Vælg de kontaktpersoner, der skal inkluderes i målgruppen.
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. Disse opgaver er angivet i den rækkefølge, de almindeligvis udføres i.
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. 
 
 | Hvis du vil | Se |
 | --- | --- |

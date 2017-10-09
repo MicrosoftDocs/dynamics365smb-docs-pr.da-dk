@@ -1,5 +1,5 @@
 ---
-title: Projektstyring | Microsoft Docs
+title: Sagsopgaver, der bruger ressourcer og timesedler | Microsoft Docs
 description: Beskriver, hvordan du bruger ressourcer, timesedler og sager til at administrere projekter.
 services: project-madeira
 documentationcenter: 
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/30/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="project-management"></a>Projektstyring
@@ -25,7 +24,8 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du udføre almindelige projekt
 
 Før du kan bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager. Der er flere oplysninger under [Konfigurere projektstyring](projects-setup-projects.md).  
 
-**Bemærk**: Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 

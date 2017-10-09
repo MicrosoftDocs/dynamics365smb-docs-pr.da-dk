@@ -1,8 +1,6 @@
 ---
 title: "Rykke debitorer eller give dem en bøde for forfaldne betalinger | Microsoft Docs"
 description: "Beskriver, hvordan du sender en påmindelse til kunden om en betaling, der er forfalden, og lægger gebyrer til betalingen på grund af forsinkelsen."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Fremgangsmåde: Indhente udestående beløb
@@ -99,7 +96,7 @@ Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betinge
 |%11|Firmanavnet.|  
 |%12|Indholdet af feltet **Opkrævningsgebyr pr. linje** på rykkerhovedet|  
 
-Hvis du f.eks. skriver **Du skylder %7 %9, der forfalder den %2.**, vil den resulterende rykker indeholde følgende tekst: **Du skylder 1.200,50 RV, der forfalder den 02\-02\-2014.**.
+Hvis du f.eks. skriver **Du skylder %9 %7, der forfalder den %2.**, vil den resulterende rykker indeholde følgende tekst: **Du skylder USD 1.200,50, der forfalder den 02-02-2014.**.
 
 Angiv en af koderne på hvert enkelt kundekort, når du har oprettet rykkerbetingelserne med ekstra niveauer og tekst. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere nye debitorer](sales-how-register-new-customers.md).
 
@@ -163,11 +160,13 @@ Du skal også definere en kode for hver renteberegningsmetode. Du kan så angive
 
 Rentenotaer kan beregnes efter kreditkronedage- eller saldorenteprincippet:
 
-Ifølge saldorenteprincippet beregnes renten som en procentsats af den forfaldne saldo.
-**Saldorenteprincippet** - Rente = Forfalden saldo x (Rentesats / 100)
+Ifølge saldorenteprincippet beregnes renten som en procentsats af den forfaldne saldo.  
 
-Ifølge kreditkronedageprincippet tages der hensyn til det antal dage betalingsfristen er overskredet med.
-Metoden **Kreditkronedage** - Rente = Forfalden saldo x (Kreditdage / Renteperiode) x (Rentesats / 100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Ifølge kreditkronedageprincippet tages der hensyn til det antal dage betalingsfristen er overskredet med:  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 Hver kode i tabellen Rentebetingelser er desuden kædet sammen med en undertabel, nemlig tabellen Rentenotatekst. Til hver rentebetingelse kan du definere en starttekst og/eller en sluttekst, som skal vises på rentenotaen.
 
@@ -204,10 +203,8 @@ En rentenota svarer til en faktura. Du kan udfylde et hoved manuelt og lade prog
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rentenotaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov.  
 3. Vælg handlingen **Foreslå rentenotalinjer**.
-4. I feltet **Foreslå rentenotalinjer  
-6.  Angiv et filter i oversigtspanelet **Debitorpost**, hvis du kun vil oprette rentenotaer for bestemte poster.  
-
-7.  Vælg **OK** for at starte kørslen.  
+4. I vinduet **Foreslå rentenotalinjer** skal du angive et filter på oversigtspanelet **Debitorpost**, hvis du kun vil oprette rentenotaer for specifikke poster.  
+5.  Vælg **OK** for at starte kørslen.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Sådan opdateres tekster til rentenotaer  
 I nogle tilfælde kan det være nødvendigt at ændre den start- og sluttekst, der er angivet for rentebetingelser. Hvis du gør det på et tidspunkt, hvor du har oprettet, men ikke udstedt rentenotaer, kan du opdatere notaen med den ændrede tekst.

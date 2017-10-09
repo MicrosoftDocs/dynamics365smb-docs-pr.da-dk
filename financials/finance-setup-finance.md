@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/07/2017
+ms.date: 08/10/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
@@ -31,13 +30,17 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | --- | --- |
 | Vælge, hvordan du betaler dine kreditorer. |[Definere betalingsformer](finance-payment-methods.md) |
 | Angiv de bogføringsgrupper, der knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. |[Konfigurere bogføringsgrupper](finance-posting-groups.md)|
+|Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Fremgangsmåde: Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Konfigurere regnskabsperioder. |[Fremgangsmåde: Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md) |
 | Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Fremgangsmåde: Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
-| Konfigurer, hvordan flere valutaer kan opdateres, hvis du driver international handel. |[Fremgangsmåde: Opdatere valutakurser](finance-how-update-currencies.md) |
+| Angive salgs- og købsfunktioner til at håndtere betalinger i fremmed valuta.|[Fremgangsmåde: Muliggøre udligning af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Føje nye konti til den eksisterende kontoplan. |[Konfigurere kontoplanen](finance-setup-chart-accounts.md) |
 | Oprette business intelligence (BI)-diagrammer til at analysere likviditet. |[Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md) |
+|Aktivere fakturering af en debitor, der ikke er sat op i systemet.|[Sådan angives kontantkunder](finance-how-to-set-up-cash-customers.md)|
+| Oprette Intrastatrapportering og sende rapporten til en myndighed | [Fremgangsmåde: Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Se også
+[Finans](finance.md)  
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
@@ -45,3 +48,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

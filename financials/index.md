@@ -1,8 +1,6 @@
 ---
-title: Velkommen til Dynamics 365 for Financials | Microsoft Docs
-description: "Dynamics 365 for Financials er en virksomhedsadministrationsløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Tilmelding er nemt, og du kan overflytte eksisterende forretningsdata fra dit gamle system."
-services: project-madeira
-documentationcenter: 
+title: Oplev Dynamics 365 for Financials | Microsoft Docs
+description: "Få mere at vide om funktioner og arbejdsscenarier i Dynamics 365 for Financials, der er en forretningsstyringsløsning til små og mellemstore virksomheder."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -29,8 +27,8 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] er nogle ting genkendelige for dig
 Du kan finde hurtige og nyttige tip i:  
 
 * [Finde ting](ui-search.md)  
-* [Indstille filtre](ui-enter-criteria-filters.md)  
-* [Sortere data på lister](ui-sorting.md)  
+* [Søgning i, filtrering og sortering af lister](ui-enter-criteria-filters.md)  
+* [Angivelse af data](ui-enter-data.md)  
 
 Du kan finde flere oplysninger i [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
@@ -42,9 +40,9 @@ På startsider kan du via et rollecentreret design få hurtig adgang til de forr
 Hver startside indeholder knappen **Installation og udvidelser**. Her kan du få adgang til en liste over assisteret opsætning, som kan hjælpe dig i gang med at definere markerede områder hurtigt. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningsvinduer, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Pakke**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
+>   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Suite**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
 
-I vinduet **Assisteret opsætning** kan du finde følgende i **Pakke**-oplevelsen:
+I vinduet **Assisteret opsætning** kan du finde følgende i **Suite**-oplevelsen:
 
 | Assisteret opsætning | Beskrivelse |
 | --- | --- |
@@ -59,16 +57,19 @@ I vinduet **Assisteret opsætning** kan du finde følgende i **Pakke**-oplevelse
 | Konfigurer rapportering |Konfigurerer datasæt, som du kan bruge til at oprette effektive rapporter ved hjælp af f.eks. Excel eller Power BI. |
 | Konfigurer et godkendelsesworkflow for vare |Gør det muligt at sende en notifikation til en godkender, når en bruger ændrer eller opretter en vare. |
 | Konfigurer et godkendelsesworkflow for betaling |Gør det muligt for en bruger, der sender betalingskladdelinjer til godkendelse, at sende en meddelelse til godkenderen. |
-| Konfigurer Dynamics CRM-forbindelse |Opretter forbindelse til Dynamics CRM, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
+| Konfigurere Dynamics 365 Connector |Opretter forbindelse til Dynamics 365 for Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
 | Konfigurere salgsafgifter |Hjælper dig i gang med standardskattegrupper og tildeler skatteområdekoder, som du kan tildele til debitorer og kreditorer for automatisk at beregne salgsafgifter i salgs- eller købsdokumenter. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Afprøvning af funktioner i dit eget regnskab
-Overvejer du at tegne abonnement? Du kan nemt gå fra demonstrationsregnskabet og oprette og arbejde i dit eget regnskab. På denne måde kan du danne dig et bedre indtryk, inden du evt. tegner abonnement. Vi leverer økonomiopsætninger. Du skal blot oprette og indlæse dine varer, debitorer og kreditorer. Derefter er du klar til at bogføre fakturaer og bruge business intelligence-værktøjer til at analysere din virksomhed. Du kan bruge dit regnskab gratis i en 30-dages prøveperiode. Hvis du tegner abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] i dette tidsrum, er du allerede i gang. Du kan fortsætte med det arbejde, du lavede i prøveperioden.  
+Overvejer du at tegne abonnement? Du kan nemt gå fra demonstrationsregnskabet og oprette og arbejde i dit eget regnskab. På denne måde kan du danne dig et bedre indtryk, inden du evt. tegner abonnement. Vi leverer økonomiopsætninger. Du skal blot oprette og indlæse dine debitorer, kreditorer og de produkter eller serviceydelser, du sælger. Derefter er du klar til at bogføre fakturaer og bruge business intelligence-værktøjer til at analysere din virksomhed. Du kan bruge dit regnskab gratis i en 30-dages prøveperiode. Hvis du tegner abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] i dette tidsrum, er du allerede i gang. Du kan fortsætte med det arbejde, du lavede i prøveperioden.  
 
 Hvis du vil oprette et regnskab for at afprøve ting, skal du gå til menuen **Indstillinger** i øverste højre hjørne og ændre virksomheden til **Min virksomhed**. Log af [!INCLUDE[d365fin](includes/d365fin_md.md)], og log på igen for at anvende ændringerne. En assisteret opsætningsvejledning hjælper dig med at angive basisoplysninger om virksomheden. Når du har gjort det, skal du på startsiden vælge handlingen **Assisteret opsætning**.  
 
 ## <a name="ready-to-subscribe"></a>Er du klar til at tegne abonnement?
-Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter at tegne abonnement, kan du bruge linket i meddelelsen til at komme i forbindelse med Microsoft. Du kan også gå til [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707).
+Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter at tegne abonnement, kan du bruge linket i meddelelsen til at komme i forbindelse med Microsoft. Du kan også kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales-teamet på [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+## <a name="other-dynamics-365-apps"></a>Andre Dynamics 365-apps
+Gå til oplysninger om de andre Dynamics 365-apps ved at vælge [Dynamics 365](https://docs.microsoft.com/dynamics365)-hyperlinket i det blå banner øverst på denne side. Du kan også få mere at vide på [Dynamics 365-webstedet](https://www.microsoft.com/en-us/dynamics365/).
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -79,7 +80,7 @@ Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje 
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobilenhed](install-mobile-app.md)  
 [Dokumentation til Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

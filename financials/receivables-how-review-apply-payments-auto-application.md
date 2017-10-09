@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Fremgangsmåde: Gennemse eller udligne betalinger efter manuel udligning
@@ -26,7 +25,7 @@ For hver kladdelinje, der repræsenterer en betaling i vinduet **Betalingsudlign
 > [!IMPORTANT]  
 >   Når den bankkonto, som du afstemmer betalinger for, er sat op til den lokale valuta, viser vinduet **Betalingsudligning** alle åbne poster i den lokale valuta, herunder åbne poster for dokumenter, der oprindeligt blev faktureret i udenlandsk valuta. Betalinger, der er udlignet til poster med de omregnede valutaer, kan derfor blive bogført med andre beløb end i det oprindelige dokument på grund af de potentielt forskellige valutakurser, der bruges af henholdsvis banken og [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Vi anbefaler derfor, at du ser efter udenlandske valutakoder i feltet **Valutakode** i vinduet **Betalingsudligning** for at kontrollere, om udligninger er baseret på omregnede valutaer. Hvis du vil gennemse det oprindelige dokumentbeløb i udenlandsk valuta og se vekselkursen, kan du vælge **Udlign.løbenr.** og derefter vælge knappen Specificer i genvejsmenuen for at åbne vinduet **Debitorposter** eller **Kreditorposter**.
+Vi anbefaler derfor, at du ser efter udenlandske valutakoder i feltet **Valutakode** i vinduet **Betalingsudligning** for at kontrollere, om udligninger er baseret på omregnede valutaer. Gennemgå det oprindelige dokumentbeløb i udenlandsk valuta og se den valutakurs, der bruges, ved at vælge feltet **Udlign.løbenr.** og derefter bruge genvejsmenuen til at vælge knappen Specificer for at åbne vinduet **Debitorposter** eller vinduet **Kreditorposter**.
 
 Eventuelle justeringer af gevinster og tab, der kræves på grund af valutaomregninger, behandles ikke automatisk af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

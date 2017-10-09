@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 445172287ae09032ff53e02d0e64dc967456a7bb
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentlayout
@@ -40,8 +39,10 @@ Der findes to typer rapportlayout, der kan bruges i rapporter: Word og RDLC.
 ## <a name="word-report-layout-overview"></a>Oversigt over Word-rapportlayout
 Et rapportlayout til Word er baseret på Word-dokument (.docx-filtype). Med Word-rapportlayout kan du udforme rapportlayout ved hjælp af Microsoft Word 2013 eller senere. Et Word-rapportlayout bestemmer rapportens indhold og styrer, hvordan indholdselementerne skal placeres, og hvordan de ser ud. Et Word-dokument med rapportlayout vil normalt bruge tabeller til at arrangere indhold, hvor cellerne kan indeholde datafelter, tekst eller billeder.
 
+ ![Eksempel på Word-dokument med rapportlayout til NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+
 ## <a name="rdlc-layout-overview"></a>Oversigt over RDLC-layout
-RDLC-layout er baseret på klientrapportens definitionslayout (.rdlc- eller .rdl-filtyper). Disse layout oprettes og ændres ved hjælp af SQL Server Report Builder. Konceptet for RDLC-layoutdesign ligner Word-layout, hvor layoutet definerer det generelle format af rapporten og bestemmer, hvilke felter fra datasættet der skal medtages. RDLC-layoutdesign er mere avanceret end Word-layout.
+RDLC-layout er baseret på klientrapportens definitionslayout (.rdlc- eller .rdl-filtyper). Disse layout oprettes og ændres ved hjælp af SQL Server Report Builder. Konceptet for RDLC-layoutdesign ligner Word-layout, hvor layoutet definerer det generelle format af rapporten og bestemmer, hvilke felter fra datasættet der skal medtages. RDLC-layoutdesign er mere avanceret end Word-layout. Du kan finde flere oplysninger i [Designe RDLC-rapportlayout](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Indbyggede og brugerdefinerede rapportlayout
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder flere indbyggede layout. Indbyggede layout er foruddefinerede layout, der er beregnet til bestemte rapporter. Rapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)] har et indbygget layout, som enten en RDLC-rapportlayout, Word-rapportlayout eller i nogle tilfælde begge. Du kan ikke ændre et indbygget rapportlayout fra [!INCLUDE[d365fin](includes/d365fin_md.md)], men du kan bruge dem som udgangspunkt for opbygning af dine egne brugerdefinerede rapportlayout.
@@ -55,10 +56,13 @@ De generelle designkoncepter for Word- og RDLC-layout er meget ens. Hver type ha
 
 Processen til oprettelse af Word-rapportlayout og RDLC-rapportlayout er den samme. Den væsentligste forskel er på den måde, du kan ændre layout på. Word-rapportlayout er typisk lettere at oprette og redigere end RDLC-rapportlayout, fordi du kan bruge Word. RDLC-rapportlayout ændres ved hjælp af SQL Server Report Builder, som er beregnet til mere avancerede brugere.
 
-Du kan finde oplysninger om, hvordan du ændrer hvilke layout der skal bruges, i [Fremgangsmåde: Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md)
+Du kan finde oplysninger om, hvordan du ændrer, hvilket layout der skal bruges, i [Fremgangsmåde: Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Se også
+[Opdatere rapport- eller dokumentlayout](ui-update-report-layouts.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Fremgangsmåde: Oprette et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md)  
-[Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md)
+[Fremgangsmåde: Oprette og ændre et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md)  
+[Fremgangsmåde: Importere og eksportere et brugerdefineret rapport- eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
+[Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md)  
+[Arbejde med rapporter](ui-work-report.md)  
 

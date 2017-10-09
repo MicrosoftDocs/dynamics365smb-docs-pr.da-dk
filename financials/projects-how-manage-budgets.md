@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project budget, forecast
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0e480c67ddb2acd5e98799c98cb1cd9d972889df
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-job-budgets"></a>Fremgangsmåde: Administrere sagsbudgetter
@@ -39,7 +38,7 @@ For feltet **Linjetype** skal du se følgende oplysninger.
 | --- | --- |
 | **Både budget og fakturerbar** |De kost- og prisbeløb, der er angivet på planlægningslinjen, er de budgetterede kostbeløb for netop denne planlægningslinje. Prisbeløbet vil blive faktureret. |
 | **Budget** |Kunden faktureres ikke for forbruget. Forbrug overføres ikke til en faktura, men vil stadig blive brugt i VIA-beregningen. |
-| **Fakturerbar** |Kunden faktureres for forbruget. Forbrug overføres til fakturaen, baseret på det antal, der er angivet i feltet Antal, der skal overf. til faktura. |
+| **Fakturerbar** |Kunden faktureres for forbruget. Forbrug overføres til fakturaen, baseret på det antal, der er angivet i feltet Antal til overførsel til faktura. |
 
 > [!NOTE]  
 >   Feltet **Planlægningsdato** for planlægningslinjen er den dato, hvor forbrug, der vedrører planlægningslinjen, forventes at fuldføres. Det er også den dato, hvor planlægningslinjen kan overføres til en salgsfaktura og bogføres.  

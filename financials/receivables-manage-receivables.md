@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 06/01/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 79b64e3cacdf582d4c1737b46dc197929b8a1450
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a7944daaa0b07336361a03a9f46097f346481e66
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-receivables"></a>Administrere tilgodehavender
@@ -42,6 +41,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Bogføre indbetalinger eller refusioner for debitorer i indbetalingskladden og udligne debitorposter, fra kladden eller fra bogførte poster. |[Fremgangsmåde: Udligne debitorbetalinger manuelt](receivables-how-apply-sales-transactions-manually.md) |
 | Minde debitorer om forfaldne beløb, beregne rente, oprette rentenotaer og håndtere tilgodehavender. |[Fremgangsmåde: Indhente udestående beløb](receivables-collect-outstanding-balances.md) |
 |Du kan sikre dig, at du kender omkostningerne for leverede varer ved at tildele ekstra vareomkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har efter salg af varer.|[Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)|
+|Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Fremgangsmåde: Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  

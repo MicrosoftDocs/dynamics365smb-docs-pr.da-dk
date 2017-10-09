@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="fixed-assets"></a>Anlægsaktiver
@@ -35,7 +34,7 @@ Hvert anlægsaktiv kan tilknyttes én eller flere forsikringspolicer. Du kan der
 >   Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller i vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger vinduet **Anlægskassekladde**. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 Når du vil begynde at administrere anlægsaktiver, skal du først angive standardværdier, anlægsregnskab, bogføringsgrupper, allokeringsnøgler, kladder og bogføringstyper. Du kan finde flere oplysninger under [Konfigurere anlægsaktiver](fa-setup.md).
 

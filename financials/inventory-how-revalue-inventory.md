@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 06/02/2017
+ms.date: 08/07/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1935f53db068047921e44109cd4b23bbb51f0890
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cfccd4f4ac6e2599ebc4b53b43163f4dfcc4d0ef
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-revalue-inventory"></a>Fremgangsmåde: Regulere lagerbeholdningen
@@ -36,6 +35,7 @@ Hvis du vil op- eller nedskrive en vare eller en bestemt varepost, skal du bruge
 Nye værdiposter oprettes nu for at afspejle de værdireguleringer, du har bogført. Du kan se de nye værdier på de respektive varekort.
 
 ## <a name="see-also"></a>Se også
+[Designoplysninger: Regulering](design-details-revaluation.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  

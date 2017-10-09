@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-insure-fixed-assets"></a>Fremgangsmåde: Forsikre anlægsaktiver
@@ -50,7 +49,7 @@ Følgende procedure beskriver, hvordan du kan oprette en forsikringskladdelinje 
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Forsikringskladder**, og vælg derefter det relaterede link.  
 2. Åbn den relevante kladde, og udfyld kladdelinjerne efter behov.  
-3. Du kan tildele flere anlægsaktiver til en forsikringspolice ved at oprette kladdelinjer med samme værdi i feltet **Forsikringsnr.** og forskellige værdier i feltet **Anlægsnr.** .  
+3. Du kan tildele flere anlægsaktiver til én forsikringspolice ved at oprette kladdelinjer med samme værdi i feltet **Forsikringsnr.** og forskellige værdier i feltet **Anlægsnr.**  
 4. Vælg handlingen **Bogfør**.  
 
     > [!NOTE]  

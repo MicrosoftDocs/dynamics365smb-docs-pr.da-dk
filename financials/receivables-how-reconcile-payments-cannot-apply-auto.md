@@ -1,8 +1,6 @@
 ---
 title: "Bruge funktionen Overfør difference til konto til at afstemme betalinger | Microsoft Docs"
 description: "Bruges til at behandle betalinger, der ikke kan udlignes til et dokument, f.eks. når en valutakurs medfører forskellige beløb."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 37d2d8af5086a9f633cb90abb380578b4ca73136
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 741c46f51c9ffd6e3b7f9d429accfd394684c9ed
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-that-cannot-be-applied-automatically"></a>Fremgangsmåde: Afstemme betalinger, der ikke kan udlignes automatisk
@@ -28,9 +25,9 @@ Betalinger, der ikke kan udlignes, kan blive vist på betalingsudligningskladdel
 * Værdien i feltet **Difference** er lig med værdien i feltet **Transaktionsbeløb**, hvilket angiver, at ingen del af betalingen kan udlignes til en relateret åben debitor-, kreditor- eller bankkontopost.
 * Værdien i feltet **Difference** er lavere end værdien i feltet **Transaktionsbeløb**, hvilket angiver, at en del af betalingen kan udlignes til en relateret åben debitor-, kreditor- eller bankkontopost. Den resterende del af betalingen kan ikke udlignes og skal afstemmes manuelt eller ved bogføring direkte på en konto.
 
-Når du vil afstemme sådanne betalinger, kan du vælge knappen Overfør difference til konto og derefter angive, hvilken konto beløbet i feltet Difference skal bogføres på, når du bogfører betalingsudligningskladden.
+Når du vil afstemme sådanne betalinger, kan du vælge knappen **Overfør difference til konto** og derefter angive, hvilken konto beløbet i feltet **Difference** skal bogføres på, når du bogfører betalingsudligningskladden.
 
-> [!NOTE]  
+> [!TIP]  
 >   Der findes lignende funktioner, som bruges til at konfigurere automatisk afstemning af tilbagevendende betalinger, der kan udlignes på relaterede åbne debitor-, kreditor- eller bankkontoposter. Du kan finde flere oplysninger under [Fremgangsmåde: Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Sådan afstemmes betalinger, der ikke kan udlignes
@@ -38,7 +35,7 @@ Når du vil afstemme sådanne betalinger, kan du vælge knappen Overfør differe
 2. Åbn en kladde til betalingsafstemning. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 3. Vælg **Overfør difference til konto**. Vinduet **Overfør difference til konto** åbnes.
 4. I feltet **Kontotype** skal du angive den kontotype, som betalingsbeløbet vil blive bogført til.
-5. I feltet **Kontonr.** skal du angive den konto, som betalingsbeløbet bliver bogført på.
+5. I feltet **Kontonr.** skal du angive den kontotype, som betalingsbeløbet vil blive bogført til.
 6. I feltet **Beskrivelse** skal du angive tekst, der beskriver denne direkte betalingsbogføring. Som standard indsættes teksten i feltet **Transaktionstekst** på betalingsudligningskladdelinjen.
 7. Vælg knappen **OK**.
 

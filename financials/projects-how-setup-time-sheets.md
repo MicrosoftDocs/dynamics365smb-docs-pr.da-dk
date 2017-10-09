@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 3e85168709eb8e96b2ee2aea516189c2cf88d426
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-time-sheets"></a>Sådan gør du: Konfigurere timesedler
@@ -44,7 +43,7 @@ Når du har oprettet timesedler, kan du oprette timesedler for ressourcer, tilde
 ## <a name="to-assign-a-time-sheet-administrator"></a>Sådan tildeles en timeseddeladministrator
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ressourceopsætning**, og vælg derefter det relaterede link.  
 2. Tilføj en ny bruger, hvis brugerlisten ikke omfatter den person, som du ønsker, skal være timeseddeladministrator. Du kan finde flere oplysninger i [Fremgangsmåde: Administrere brugere og rettigheder](ui-how-users-permissions.md).
-3. Vælg en bruger, der skal være timeseddeladministrator, og vælg derefter afkrydsningsfeltet **Timeseddeladm.** .  
+3. Vælg en bruger, der skal være timeseddeladministrator, og marker derefter afkrydsningsfeltet **Timeseddeladm.**.  
 
 > [!TIP]  
 >   Det anbefales, at du kun udpeger én bruger til timeseddeladministrator for en virksomhed. I følgende procedure opretter du en timeseddelejer og -godkender, hvor timeseddelgodkenderen tildeles for hver ressource.  

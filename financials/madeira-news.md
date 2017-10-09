@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2a54dfe38195a27c4c1cb155e48760d19fb36f03
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="whats-new-in-dynamics-365-for-financials"></a>Nyheder i Microsoft Dynamics 365 for Financials
@@ -31,10 +30,10 @@ På denne side kan du se, hvilke områder der blev tilgængelige, mens programme
 Som meddelt på bloggen, er vi nu en tjeneste, som du kan bruge i virksomheden. Men der tilføjes også nye funktioner og en ny udvidelse med denne opdatering.
 
 ### <a name="project-management"></a>Projektstyring
-Hvis du skifter til pakkeoplevelsen, kan du administrere projekter og arbejde med ressourcer, timesedler og sager. Første gang du logger på i rollen som Projektleder, hjælper en assisteret opsætningsvejledning dig med at konfigurere, hvordan du skal administrere dine projekter. Du kan arbejde med prøvekonti, sager, ressourcer og så videre i demonstrationsregnskabet for at blive fortrolig med funktionerne. Du kan finde flere oplysninger under [Administrere projekter](projects-manage-projects.md).
+Hvis du skifter til Suite-oplevelsen, kan du administrere projekter og arbejde med ressourcer, timesedler og sager. Første gang du logger på i rollen som Projektleder, hjælper en assisteret opsætningsvejledning dig med at konfigurere, hvordan du skal administrere dine projekter. Du kan arbejde med prøvekonti, sager, ressourcer og så videre i demonstrationsregnskabet for at blive fortrolig med funktionerne. Du kan finde flere oplysninger under [Administrere projekter](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Anlægsaktiver
-Hvis du skifter til pakkeoplevelsen, kan du administrere anlægsaktiver, herunder afskrivning og forsikring. Der findes en standardopsætning, men du kan ændre den når som helst. Du kan registrere køb af anlæg i dedikerede anlægskassekladder, hvor du kan også kan sælge anlægsaktiver. Der oprettes automatisk korrekte regnskabsposter. Du kan finde flere oplysninger under [Anlægsaktiver](fa-manage.md).
+Hvis du skifter til Suite-oplevelsen, kan du administrere anlægsaktiver, herunder afskrivning og forsikring. Der findes en standardopsætning, men du kan ændre den når som helst. Du kan registrere køb af anlæg i dedikerede anlægskassekladder, hvor du kan også kan sælge anlægsaktiver. Der oprettes automatisk korrekte regnskabsposter. Du kan finde flere oplysninger under [Anlægsaktiver](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Ny udvidelse til overførsel af data fra Dynamics GP
 Hvis din virksomhed benytter Dynamics GP i dag, kan du bruge en assisteret opsætningsvejledning til at overføre overordnede poster til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du skal har eksporteret dine eksisterende debitorer, kreditorer, lagervarer og konti ved hjælp af dataudlæsningsfunktionen i Dynamics GP. Udvidelsen til overførsel af data til Dynamics GP tilknyttes automatisk de udlæste data, så du hurtigt kan hente dine eksisterende data over i det nye regnskab i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
@@ -91,7 +90,7 @@ Denne opdatering føjer handlinger til kreditordashboardet i Outlook-tilføjelse
 Outlook-tilføjelsesprogrammet er nu udvidet til Outlook-kalenderen. Fra en kalenderaftale kan du åbne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet og få vist en oversigt for den kunde, der er tilknyttet aftalen. Derefter kan du oprette og sende en faktura for de tjenester, der er ydet i mødet - alt sammen i Outlook-kalenderen. Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-markedsplads for udvidelser
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser er nu tilgængelige på AppSource-markedspladsen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søge og finde udvidelser på markedspladsen. Du kan få vist oplysninger, herunder marketingmateriale, skærmbilleder, videoer og links til flere oplysninger. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser er nu tilgængelige på AppSource-markedsplads på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søge efter og finde udvidelser på markedspladsen. Du kan få vist oplysninger, herunder marketingmateriale, skærmbilleder, videoer og links til flere oplysninger. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Speditører og vareattributter
 Du kan føje attributter til dine lagervarer, som gør det nemt at finde netop det produkt, som kunden ønsker. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med vareattributter](inventory-how-work-item-attributes.md).  
@@ -100,8 +99,8 @@ Du kan føje attributter til dine lagervarer, som gør det nemt at finde netop d
 Med denne opdatering kan du vælge mellem flere udvidelser i vinduet **Udvidelsesstyring**.
 Du kan finde flere oplysninger i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md).  
 
-### <a name="manage-your-customer-relationships-using-microsoft-dynamics-crm-from-inside-included365finincludesd365finmdmd"></a>Administrere dine kundeforhold ved hjælp af Microsoft Dynamics CRM fra [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Vi har tilføjet en ny assisteret opsætningsvejledning til startsiden Virksomhedsleder, der hjælper dig med at oprette forbindelse til Dynamics CRM. Når det er gjort, får du en gnidningsløs sammenkædning af Dynamics CRM-poster og [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Du kan finde flere oplysninger under [Administrere dine kundeforhold ved hjælp af Microsoft Dynamics CRM fra [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Administrere dine kunderelationer med Microsoft Dynamics 365 for Sales fra [!INCLUDE[d365fin](includes/d365fin_md.md)]
+Vi har tilføjet en ny assisteret opsætningsvejledning til startsiden Virksomhedsleder, der hjælper dig med at oprette forbindelse til Dynamics 365 for Sales. Når det er gjort, får du en problemfri sammenkædning af Dynamics 365 for Sales-poster og [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Du kan finde flere oplysninger under [Administrere dine kundeforhold ved hjælp af Microsoft Dynamics 365 for Sales fra [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Opdatering fra maj 2016
 Denne opdatering af [!INCLUDE[d365fin](includes/d365fin_md.md)] tilføjede nye funktioner som [meddelt på bloggen](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-job-supplies"></a>Fremgangsmåde: Administrere sagsforsyninger
@@ -48,7 +47,7 @@ Følgende procedure viser, hvordan du bruger en købsfaktura til at købe produk
 Hvis der påløber specielle udgifter eller engangsudgifter, kan du bruge vinduet **Finanskladde for sag** til at bogføre dem direkte til den relevante sagskonto.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsfinanskladde**, og vælg derefter det relaterede link.  
-2. Opret en ny linje, og angiv oplysninger om udgiften, inklusive **Sagsnr.** og **Sagsopgavenr.**.  
+2. Opret en ny linje, og angiv oplysninger om udgiften, inklusive oplysninger i felterne **Sagsnr.** og **Sagsopgavenr**.  
 3. Når kladden er fuldført, skal du vælge handlingen **Bogfør**.
 
 ## <a name="see-also"></a>Se også

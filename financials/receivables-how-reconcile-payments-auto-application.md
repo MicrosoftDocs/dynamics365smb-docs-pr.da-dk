@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-using-automatic-application"></a>Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning
@@ -33,7 +32,7 @@ Der findes lignende funktioner til afstemning af overskydende beløb på betalin
 
 Du kan bruge funktionen **Udlign automatisk** enten automatisk, når du importerer en bankfil eller -feed med betalingstransaktioner, eller når du aktiverer den for at udligne betalinger til deres relaterede åbne poster, der er baseret på en afstemning af data på en kladdelinje med data på en eller flere åbne poster.
 
-På kladdelinjer, hvor betaling er udlignet automatisk til en eller flere åbne poster, har feltet **Matchtillid** en værdi mellem Lav og Høj for at angive kvaliteten af den dataafstemning, som den foreslåede betalingsudligning er baseret på. Desuden udfyldes felterne **Kontotype** og **Kontonr.** med oplysninger om den debitor eller kreditor, som betalingen udlignes for. Hvis du har oprettet en tekst-til-kontotilknytning, kan automatisk udligning resultere i værdien **Høj – tekst-til-kontotilknytning** som udligningstillid.
+På kladdelinjer, hvor betaling er udlignet automatisk til en eller flere åbne poster, har feltet **Matchtillid** en værdi mellem Lav og Høj for at angive kvaliteten af den dataafstemning, som den foreslåede betalingsudligning er baseret på. Derudover bliver felterne **Kontotype** og **Kontonr.** udfyldt med oplysninger om debitoren eller kreditoren, som betalingen udlignes for. Hvis du har oprettet en tekst-til-kontotilknytning, kan automatisk udligning resultere i værdien **Høj – tekst-til-kontotilknytning** som udligningstillid.
 
 For hver kladdelinje i vinduet **Betalingsudligningskladde** kan du åbne vinduet **Betalingsudligning** for at få vist alle åbne kandidatposter for betalingen og se detaljerede oplysninger for hver post om den dataafstemning, som en betalingsudligning er baseret på. Her kan du manuelt udligne betalinger eller udligne betalinger igen, der er udlignet automatisk til en forkert post. Du kan finde flere oplysninger i [Fremgangsmåde: Gennemse eller udligne betalinger efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md).
 
@@ -52,7 +51,7 @@ For hver kladdelinje i vinduet **Betalingsudligningskladde** kan du åbne vindue
 
     Vinduet **Betalingsudligningskladde** er fyldt med linjer for betalinger, der repræsenterer banktransaktioner i det importerede bankkontoudtog.
 
-    På linjer, hvor betaling er udlignet automatisk til den relaterede åbne post, har feltet **Matchtillid** en værdi mellem **Lav** og **Høj** for at angive kvaliteten af den dataafstemning, som den foreslåede betalingsudligning er baseret på. Desuden udfyldes felterne **Kontotype** og **Kontonr.** med oplysninger om den debitor eller kreditor, som betalingen udlignes for.
+    På linjer, hvor betaling er udlignet automatisk til den relaterede åbne post, har feltet **Matchtillid** en værdi mellem **Lav** og **Høj** for at angive kvaliteten af den dataafstemning, som den foreslåede betalingsudligning er baseret på. Derudover bliver felterne **Kontotype** og **Kontonr.** udfyldt med oplysninger om debitoren eller kreditoren, som betalingen udlignes for.
 7. Vælg en kladdelinje, og vælg derefter den **Udlign manuelt**-handling, der skal gennemgås, eller udlign betalingen manuelt i vinduet **Betalingsudligning**. Du kan finde flere oplysninger i [Fremgangsmåde: Gennemse eller udligne betalinger efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md).
 
     Når du er færdig med manuel udligning, indeholder feltet **Matchtillid** på den kladdelinje, du har behandlet manuelt, **Accepteret**.

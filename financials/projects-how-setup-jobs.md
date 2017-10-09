@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: aa7669c5f7762de647346039e0023c93603fbc10
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-jobs"></a>Sådan gør du: Oprette sager
@@ -115,7 +114,7 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 | **Konto til realiseret salg** |Den indtægtskonto, som indeholder den registrerede indtægt for sagen. Det er normalt en kreditafrundingskonto. |
 
 ## <a name="see-also"></a>Se også
-[Konfigurere projektstyring](projects-setup-projects.md)  
+[Oprette projektstyring](projects-setup-projects.md)  
 [Administrere projekter](projects-manage-projects.md)  
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)         

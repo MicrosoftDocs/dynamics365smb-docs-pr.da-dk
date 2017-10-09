@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 05/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2d7eb238395a0b1060668996fbbc3e13d9dd8a94
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-purchase-items-for-a-sale"></a>Fremgangsmåde: Købe varer til et salg
@@ -31,7 +30,7 @@ Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse 
 Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt på salgsordren, skal du bruge funktionen **Opret købsordrer**. 
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 1. På startsiden skal du vælge feltet **Igangværende salgsordrer**.
 2. Åbn en salgsordre, som du vil købe varer til.

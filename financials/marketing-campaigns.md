@@ -1,6 +1,6 @@
 ---
 title: "Opsætning af marketingkampagner i Financials | Microsoft Docs"
-description: Beskriver, hvordan du kan konfigurere og styre marketingkampagner i Dynamics 365 for Financials
+description: "Beskriver, hvordan du kan oprette og styre marketingkampagner i Dynamics 365 for Financials som en hjælp til at identificere og tiltrække potentielle kunder og bibeholde kunder."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 05/20/2017
-ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
-ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
+ms.date: 06/06/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/30/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administration af marketingkampagner
@@ -39,7 +38,9 @@ Når du har oprettet en kampagne, besluttet, hvilken målgruppe kampagnen skal r
 
  Når du har angivet salgspriserne/linjerabatterne og målgrupperne på kampagnekortet, skal de aktiveres, så kampagnepriserne og -rabatterne vises på linjerne.
 
-**Bemærk**: Hvis du vil aktivere salgspriserne/linjerabatterne, skal du angive, om kampagnen er henvendt til hele målgruppen eller kun bestemte kontakter. Hvis salgspriserne/linjerabatterne dækker alle kontakter i målgruppen, skal du markere feltet **Kampagnemålgruppe** i oversigtspanelet **Kampagne** på **målgruppekortet**.
+> [!NOTE]  
+>   Hvis du vil aktivere salgspriserne/linjerabatterne, skal du angive, om kampagnen er henvendt til hele målgruppen eller kun bestemte kontakter. Hvis salgspriserne/linjerabatterne dækker alle kontakter i målgruppen, skal du markere feltet **Kampagnemålgruppe** i oversigtspanelet **Kampagne** på **målgruppekortet**.
+
 Hvis salgspriserne/linjerabatterne ikke skal tilbydes til alle kontakter i målgruppen, skal markeringen fjernes fra feltet **Kampagnemålgruppe** for de relevante kontakter. Hvis feltet ikke vises, kan du føje det til visningen. Du kan finde flere oplysninger under [Brugertilpasning](ui-user-personalization.md).
 
 ## <a name="conducting-campaigns"></a>Udføre kampagner

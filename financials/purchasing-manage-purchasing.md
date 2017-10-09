@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 03/29/2017
+ms.date: 08/10/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 653cd9b5e9651f2039ab18f3e7a26b299238d817
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f9a932a521cd14e52e2a73e69544d2950235ea35
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="purchasing"></a>Indkøb
@@ -31,22 +30,25 @@ Produkterne kan være både lagervarer og services. Du kan finde flere oplysning
 
 Ved alle indkøbsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for at kræve, at store køb godkendes af regnskabschefen. Du kan finde flere oplysninger under [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. Disse opgaver vises i den raækkefølge, som de generelt udføres.
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 | Hvis du vil | Se |
 | --- | --- |
-| Opret en købsfaktura for at registrere din aftale med en kreditor om at købe produkter på bestemte leverings- og betalingsbetingelser. |[Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md) |
+| Oprette en købsfaktura for at registrere din aftale med en kreditor om at købe produkter på bestemte leverings- og betalingsbetingelser. |[Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md) |
+|Oprette en købsrekvisition for at afspejle en tilbudsanmodning fra en leverandør, som du senere kan konvertere til en købsordre.|[Fremgangsmåde: Anmode om tilbud](purchasing-how-request-quotes.md)|
 | Opret en købsfaktura for alle eller markerede linjer i en salgsfaktura. |[Fremgangsmåde: Købe varer til et salg](purchasing-how-purchase-products-sale.md) |
 | Udfør en handling på en ubetalt bogført købsfaktura for automatisk at oprette en kreditnota og enten annullere købsfakturaen eller gendanne den, så du kan foretage rettelser. |[Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Opret en købskreditnota for at tilbageføre en bestemt bogført købsfaktura, så den afspejler, hvilke produkter du returnerer til kreditoren, og hvilke indbetalte beløb der skal opkræves. |[Fremgangsmåde: Behandle købsreturvarer eller annulleringer](purchasing-how-register-new-vendors.md) |
-| Opret et kreditorkort for hver debitor, du køber fra. |[Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md) |
+|Forberede fakturering af flere leverancer fra den samme leverandør på én gang ved at kombinere leverancer på én faktura.|[Sådan kombineres modtagelser på én enkelt faktura](purchasing-how-to-combine-receipts.md)|
+| Lær, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner, hvornår du skal bestille en vare for at modtage den på en bestemt dato.|[Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)|
 
 ## <a name="see-also"></a>Se også
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
+[Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Administrere projekter](projects-manage-projects.md)    
-[Forsyningskæde](madeira-supply-chain.md)      
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

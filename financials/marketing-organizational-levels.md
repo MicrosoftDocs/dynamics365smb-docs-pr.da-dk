@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Fremgangsmåde: Oprette kompetenceniveauer for kontaktpersoner
@@ -25,13 +24,13 @@ Du kan bruge kompetenceniveauer til kontakter, så de selv kan angive den stilli
 
 Brug af kompetenceniveauer til kontakter er en totrinsproces. Først skal du definere koden for kompetenceniveauet. Du behøver kun at udføre dette trin én gang for hvert kompetenceniveau. Når du har et kompetenceniveau, kan du begynde at tildele koden til kontakter.
 
-## <a name="to-define-an-organizational-level-code"></a>for at definere en kompetenceniveaukode
+## <a name="to-define-an-organizational-level-code"></a>Sådan defineres en kompetenceniveaukode
 Kompetenceniveaukoden definerer kompetenceniveautypen eller -kategorien, f.eks. ADMINDIR eller ØKODIR. Du kan have flere kompetenceniveaukoder. Du definerer kompetenceniveauet fra vinduet **Kompetenceniveauer**.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kompetenceniveauer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**, og indtast en kode og beskrivelse. Du kan bruge op til 11 tegn til koden, som skal være en kombination af tal og bogstaver.
 
-## <a name="to-assign-organizational-levels-to-a-contact-person"></a>for at tildele kompetenceniveauer til en kontaktperson
+## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Sådan tildeles kompetenceniveauer til en kontaktperson
 Du kan kun tilknytte organisationsniveau til kontaktpersoner, ikke kontaktvirksomheder. Du kan kun tildele ét kompetenceniveau pr. kontakt.
 
 1. Åbn kontakten.

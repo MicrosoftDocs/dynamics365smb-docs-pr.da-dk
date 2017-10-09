@@ -1,8 +1,6 @@
 ---
 title: Udligne debitorposter for manuelt at afstemme debitorbetalinger | Microsoft Docs
 description: "Bruges til at udligne debitorindbetalinger eller refusioner til en eller flere åbne debitorposter og afstemme betalinger fra debitorer."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Fremgangsmåde: Afstemme debitorbetalinger manuelt
@@ -45,13 +43,13 @@ Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligni
 4. Udfyld feltet **Bogføringsdato**.  
 5. I feltet **Bilagstype** skal du vælge **Betaling**.
 
-    Feltet **Bilagsnr.** udfyldes af den nummerserie, der er tildelt kladden.  
+    Der indsættes et nummer i feltet **Bilagsnr.**, som hentes fra den Nummerserie, der er tildelt kladden.  
 6. Brug feltet **Eksternt bilagsnr.** til at lagre et id, som f.eks. debitorens checknummer.
 7. I feltet **Kontotype** skal du vælge **Debitor**.
-8. I feltet **Kontonr.** skal du angive den relevante finanskonto.
+8. Vælg den relevante bankkonto i feltet **Kontonr.**.
 9. Hvis du vil foretage efterudligningen på samme tid, som du bogfører kladden, skal du gøre et af følgende.
 10. I feltet **Modkontotype** skal du vælge **Finanskonto** til kontantindbetalinger og **Bankkonto** til andre betalinger.
-11. I feltet **Modkontonr.** skal du vælge kontantkontoen til kontantindbetalinger eller bankkontoen til andre betalinger.
+11. Vælg kontantkontoen til kontantindbetalinger eller bankkontoen til andre betalinger i feltet **Modkonto**.
 12. Bogfør journalen.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Sådan udlignes en betaling med en enkelt debitorpost
@@ -66,7 +64,7 @@ Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligni
 9. I feltet **Beløb, der skal udlignes** skal du indtaste det beløb, som du vil udligne med posten. Hvis du ikke indtaster et beløb, udlignes der med det maksimale beløb.
 
     Nederst i vinduet **Udlign debitorposter**, kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.  
-10. Vælg knappen **OK**. Vinduet **Indbetalingskladde** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.** . .
+10. Vælg knappen **OK**. Vinduet **Indbetalingskladde** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**.
 11. Bogfør indbetalingskladden.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Sådan udlignes en betaling med flere debitorposter:
@@ -77,8 +75,8 @@ Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligni
 5. I feltet **Kontotype** skal du angive **Debitor**.
 6. I feltet **Modkontotype** skal du angive **Bankkonto**.
 7. I feltet **Beløb** skal du angive den fulde betaling som et negativt beløb.
-8. Hvis du vil udligne betalingen med flere debitorposter, når du bogfører, skal du vælge handlingen **Udlign poster**.
-9. Vælg linjer med poster, som du ønsker, at udligningsposten skal udlignes med, og derefter vælge handlingen **Sæt udlignings-id**.
+8. Hvis du vil udligne betalingen med flere debitorposter, når du bogfører, skal du vælge handlingen **Udlign poster**.  
+9. Vælg linjer med poster, som du ønsker, at udligningsposten skal udlignes med, og derefter vælge handlingen **Sæt udlignings-id**.  
 10. På linjen i feltet **Beløb, der skal udlignes** skal du indtaste det beløb, som du vil udligne med posten. Hvis du ikke indtaster et beløb, udlignes der med det maksimale beløb.
 
     Nederst i vinduet **Udlign debitorposter**, kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.  
@@ -88,11 +86,11 @@ Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligni
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Sådan udlignes en kreditnota på en enkelt debitorpost
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgskreditnotaer**, og vælg derefter det relaterede link.
 2. Åbn den relevante salgskreditnota.
-3. Hvis du vil udligne kreditnotaen med en enkelt debitorpost, skal du i feltet **Udligningsbilagsnr.** vælge den post, som du vil udligne betalingen med.
+3. Hvis du vil udligne kreditnotaen med en enkelt debitorpost i forbindelse med bogføringen, skal du i feltet **Udligningsbilagsnr.** vælge den post, som du vil udligne betalingen med.
 4. På linjen i feltet **Beløb, der skal udlignes** skal du og indtaste beløbet, som du vil udligne posten med.  
 
     Hvis du ikke indtaster et beløb, udligner programmet automatisk det maksimale beløb. Nederst i vinduet **Udlign debitorposter**, kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.    
-5. Vælg knappen **OK**. Vinduet **Salgskreditnota** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.** . . Og beløbet på kreditnotaen, som skal bogføres, reguleres i forhold til mulige kontantrabatter.
+5. Vælg knappen **OK**. Vinduet **Salgskreditnota** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**. Og beløbet på kreditnotaen, som skal bogføres, reguleres i forhold til mulige kontantrabatter.
 6. Bogfør kreditnotaen.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Sådan udlignes en kreditnota med flere debitorposter

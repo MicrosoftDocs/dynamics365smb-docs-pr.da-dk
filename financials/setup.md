@@ -1,8 +1,6 @@
 ---
 title: Oversigt over opgaver til konfiguration af Dynamics 365 for Financials | Microsoft Docs
 description: "Beskriver opgaver, som du kan udføre for at oprette, initialisere og konfigurere Dynamics 365 for Financials efter dine behov."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/07/2017
+ms.date: 09/01/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-dynamics-365-for-financials"></a>Konfigurere Dynamics 365 for Financials
@@ -38,15 +35,28 @@ Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan k
 | Konfigurere de regler og værdier, der definerer virksomhedens lagerpolitikker, oprette placeringer, hvis du fører lager på flere lagersteder og kategorisere varer for at forbedre søgning og sortering. |[Opsætning af lagerbeholdning](inventory-setup-inventory.md) |
 | Konfigurere ressourcer, timesedler og sager for at administrere projekter. |[Konfigurere projektstyring](projects-setup-projects.md) |
 | Konfigurere, hvordan du vil forsikre, vedligeholde og afskrive anlægsaktiver, og hvordan du vil registrere udgifterne til anlægsaktiver i dine virksomhedsregnskaber. |[Opsætning af anlægsaktiver](fa-setup.md) |
+|Definere de generelle regler og værdier for lagerprocesser og den specifikke håndtering på hver enkelt lokation.|[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)|
+|Forberede produktionsstyklister og ruter for at definere, hvordan færdigvarer produceres, og forberede produktionsressourcer eller arbejdscentre, der skal udføre de krævede operationer.|[Konfigurere produktion](production-configure-production-processes.md)|
 | Angive entydige identifikationskoder for poster, som f.eks. kort, dokumenter og kladdelinjer, for at spore dem i systemet. |[Oprette nummerserie](ui-create-number-series.md) |
 | Konfigurere vinduet **SMTP-mailopsætning** til at sende og modtage e-mails fra dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Fremgangsmåde: Konfigurere mail](madeira-how-setup-email.md) |
 | Oprette entydige id-koder. |[Fremgangsmåde: Oprette nummerserier](ui-create-number-series.md) |
 
+For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Du kan finde flere oplysninger i [Opsætning og administration til Dynamics 365 for Financials](admin-setup-and-administration.md).  
+
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
-[Salg](sales-manage-sales.md)  
-[Køb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)
+[Indkøb](purchasing-manage-purchasing.md)  
+[Lagerbeholdning](inventory-manage-inventory.md)    
+[Projektstyring](projects-manage-projects.md)
+[Anlægsaktiver](fa-manage.md)    
+[Montagestyring](assembly-assemble-items.md)  
+[Produktion](production-manage-manufacturing.md)  
+[Logistik](warehouse-manage-warehouse.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Velkommen til [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
+[Opsætning og administration til Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Oprettelse af nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
+[Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

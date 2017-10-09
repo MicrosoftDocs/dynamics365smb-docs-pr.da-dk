@@ -10,12 +10,11 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 53fb2ae7bbbaf3215ca2549e207512f7c06838b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde
@@ -43,6 +42,7 @@ Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige
 5. Vælg knappen **Forbindelse** for at forsætte. Der vises en liste over [!INCLUDE[d365fin](includes/d365fin_md.md)]-datakilder. Disse datakilder repræsenterer de webtjenester, som du har publiceret fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
    Du kan også vælge at oprette en ny URL-adresse for webtjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at bruge handlingen **Opret datasæt** på siden **Webtjenester** ved hjælp af guiden Assisteret opsætning for **Konfigurer rapporteringsdata** eller ved at vælge handlingen **Rediger i Excel** på en af listerne.
+
 6. Angiv de data, du vil føje til dine datamodel, og vælg derefter knappen **Indlæsning**.
 7. Gentag fremgangsmåden for at føje flere [!INCLUDE[d365fin](includes/d365fin_md.md)]-data til dine Power BI-datamodel.
 
@@ -52,6 +52,7 @@ Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige
 Når dataene er indlæst, vises de i den rigtige navigation på siden. Nu har du oprettet forbindelse til dine Dynamics 365-data og er klar til at opbygge din Power BI-rapport. Du kan finde flere oplysninger i [Power BI-dokumentationen](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>Se også
+[Business Intelligence](bi.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
 [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

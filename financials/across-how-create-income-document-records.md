@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c6e4b4dd5535848bba257fc422436c43b827d95a
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-incoming-document-records"></a>Fremgangsmåde: Oprette indgående dokumentposter
@@ -44,7 +43,7 @@ Hvis du godkender den indgående dokumentpost, markeres afkrydsningsfeltet **Fri
 3. I vinduet **Indkommende dokumenter** skal du vælge ellipseknappen og derefter vælge **Opret fra kamera**. Kameraet på tabletten eller telefonen aktiveres.
 4. Tag et billede af et dokument, f.eks en købsleverance, som du vil behandle som et indgående dokument, og vælg derefter knappen **OK**.
 
-Der oprettes en ny indgående dokumentpost med billedet vedhæftet.
+    Der oprettes en ny indgående dokumentpost med billedet vedhæftet.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Sådan vedhæfter du et billede til en indgående dokumentpost ved at tage et billede
 > [!NOTE]  
@@ -55,14 +54,12 @@ Der oprettes en ny indgående dokumentpost med billedet vedhæftet.
 3. I vinduet **Indkommende dokument** skal du vælge ellipseknappen og derefter vælge **Vedhæft billede fra kamera**. Kameraet på tabletten eller telefonen aktiveres.
 4. Tag et billede af et dokument, f.eks en købsleverance, som du vil behandle som et indgående dokument, og vælg derefter knappen **OK**.
 
-Billedet vedhæftes til den indgående dokumentpost.
+    Billedet vedhæftes til den indgående dokumentpost.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Sådan oprettes en indgående dokumentpost manuelt
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Opret fra fil**.  
-3. I vinduet **Indsæt fil** skal du vælge en fil og derefter klikke på **Åbn**.
-
-    Filen vedhæftes automatisk.
+3. I vinduet **Indsæt fil** skal du vælge en fil og derefter klikke på **Åbn**. Filen vedhæftes automatisk.
 4. Du kan også vælge handlingen **Ny**.
 5. Du kan vedhæfte en fil ved at vælge handlingen **Vedhæft fil**.
 6. I vinduet **Indsæt fil** , skal du vælge den fil, der repræsenterer det pågældende indgående dokument og derefter vælge knappen **Åbn**.

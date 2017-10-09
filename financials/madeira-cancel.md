@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Opsige, fjerne eller nulstille [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +27,7 @@ Hvis du har tegnet abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] ve
 Brugerkonti og licenser administreres i [Office-portalen](https://portal.office.com). Kun administratorer kan fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-licenser fra brugerkonti. Office 365-administratoren kan fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra din brugerkonto eller fjerne abonnementet fra din virksomheds konto. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fjernes fra din brugerkonto, og andre i virksomheden fortsætter abonnementet, har de stadig adgang til dine delte data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-virksomheden.  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Ophæve abonnementet på [!INCLUDE[d365fin](includes/d365fin_md.md)] uden Office 365
-Hvis du har tilmeldt dig [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af en Office 365-virksomhedskonto, har du ikke en Office 365-administrator. I stedet skal du opsige abonnementet ved at kontakte annulleringsteamet for [!INCLUDE[d365fin](includes/d365fin_md.md)]. I øjeblikket skal du kontakte teamet ved at sende en mail til cancel-madeira@microsoft.com. Du skal medtage navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer i meddelelsen, så vi kan identificere dig. Det er nemmest at gøre dette ved at kopiere URL-adressen fra startsiden i dit [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Hvis du har tilmeldt dig [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af en ikke-Office 365-virksomhedskonto, har du ikke en Office 365-administrator. I stedet skal du opsige abonnementet ved at kontakte annulleringsteamet for [!INCLUDE[d365fin](includes/d365fin_md.md)]. I øjeblikket skal du kontakte teamet ved at sende en e-mail til cancel-madeira@microsoft.com. Du skal medtage navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer i meddelelsen, så vi kan identificere dig. Det er nemmest at gøre dette ved at kopiere URL-adressen fra startsiden i dit [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Nulstilling af projekt [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelsen
 Hvis du har tilføjet data i dit [!INCLUDE[d365fin](includes/d365fin_md.md)]-eksempel, og du vil begynde forfra med en ny oplevelse, kan du oprette en ny virksomhed og nulstille den første virksomhed. Hvis du åbner siden **Virksomheder**, kan du oprette en kopi af den aktuelle virksomhed, logge af og derefter logge på den nye virksomhed og derefter nulstille den oprindelige virksomhed.  

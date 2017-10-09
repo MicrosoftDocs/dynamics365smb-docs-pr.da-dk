@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-fixed-asset-depreciation"></a>Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver
@@ -54,7 +53,7 @@ Hvis du vil tildele en afskrivningsprofil til flere anlægsaktiver, kan du bruge
 2. Vælg det anlægsaktiv, som du vil tildele en afskrivningsprofil, og vælg derefter handlingen **Rediger**.
 3. I vinduet **Afskrivningsprofilkort** skal du vælge handlingen **Opret anlægsafskr.profiler**.
 4. I vinduet **Opret anlægsafskr.profiler** skal du udfylde feltet **Afskrivningsprofil**.
-5. Vælg feltet **Kopier fra anlægsnr.**, og vælg derefter det anlægsnummer, som du vil bruge som grundlag for at oprette nye anlægsafskrivningsprofiler.
+5. Vælg feltet **Kopier fra anlægsnr.**, og vælg derefter det anlægsnummer, du vil bruge som grundlag for oprettelsen af nye afskrivningsprofiler for anlægsaktiver.
 
     Hvis du udfylder feltet, får afskrivningsfelterne i de nye anlægsafskrivningsprofiler samme indhold som de tilsvarende felter i den anlægsafkrivningsprofil, du kopierer fra. Lad feltet stå tomt, hvis du vil oprette nye anlægsafskrivningsprofiler med tomme afskrivningsfelter.  
 6. I oversigtspanelet **Anlæg** kan du definere et filter for at udvælge de aktiver, som du vil oprette anlægsafskrivningsprofiler for.

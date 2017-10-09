@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, task
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 50ea98d45875fa418d12c5ba378f26208d739126
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-jobs"></a>Fremgangsmåde: Oprette sager
@@ -33,7 +32,7 @@ Den lagdelte struktur giver dig mulighed for at opdele sagen i mindre opgaver og
 >   Handlingen **Ny sag** i **Projektleder**-rollecenteret starter en assisteret opsætning, som vejleder dig gennem trinnene til oprettelse af integrerede opgaver og planlægningslinjer. Følgende fremgangsmåde beskriver, hvordan trinnene udføres manuelt.
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-create-a-job-card"></a>Sådan oprettes et sagskort
 Du kan oprette et sagskort og derefter oprette sagsopgavelinjer og sagsplanlægningslinjer for det.

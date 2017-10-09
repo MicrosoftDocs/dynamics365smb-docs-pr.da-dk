@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 06/02/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 920df314dc8b671d4e2d99d8449ee02a74cb9078
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 71ca29fdb6e87bf754e68a4e27d91f8a1a710cc4
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 
@@ -26,14 +26,14 @@ Lagerforøgelser og -reduktioner registreres naturligt også, når du bogfører 
 
 Hvis du vil øge dit overblik over varerne og lettere kunne finde dem, kan du kategorisere varer og give dem attributter, du kan søge og sortere efter.
 
-Du skal sikre, at omkostningerne for varerne overføres til den relaterede udgående salgstransaktion, især i situationer, hvor du sælger varer, før du fakturerer købet af de pågældende varer. Dette kaldes kostregulering, som du kan udføre manuelt eller indstille til at ske automatisk, når du bogfører en varetransaktion.
+> [Bemærk!] Den fysiske håndtering af varer kaldes lageraktiviteter. Du kan finde flere oplysninger i [Logistik](warehouse-manage-warehouse.md).
 
 ## <a name="inventory-reconciliation"></a>Lagerafstemning
-Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet.
+Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme kostpriser med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Du kan finde flere oplysninger i Fremgangsmåde: Regulere varepriser.
+Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Du kan finde flere oplysninger i [Fremgangsmåde: Regulere varepriser](inventory-how-adjust-item-costs.md).
 
-|Til |Se |
+|Hvis du vil |Se |
 |---|----|
 |Opret varekort for lagervarer, som du handler med.|[Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md)|
 |Strukturer overordnede varer, du sælger som pakker, der består af den overordnede vares komponenter eller af montage til ordre- eller montage til lager-pakker.|[Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md)|
@@ -41,16 +41,18 @@ Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at
 |Tildel vareattributter af forskellige værdityper til dine varer for lettere at kunne sortere og finde varer.|[Fremgangsmåde: Arbejde med vareattributter](inventory-how-work-item-attributes.md)|
 |Opret særlige varekort for de varer, du tilbyder kunderne, men ikke lagerfører.|[Fremgangsmåde: Arbejde med katalogvarer](inventory-how-work-nonstock-items.md)|
 |Foretag fysisk optælling, foretag negative eller positive reguleringer, og rediger oplysninger, f.eks. placering eller lotnummer, på vareposter.|[Fremgangsmåde: Tælle, justere og ompostere lager](inventory-how-count-adjust-reclassify.md)|
-|Få vist tilgængeligheden af varer pr. lokation og pr. periode efter salgs- eller købshændelse eller efter deres brug i montagestyklister.|[Sådan gør du: Vise varedisponering](inventory-how-availability-overview.md)|
+|Få vist tilgængeligheden af varer pr. lokation og pr. periode efter salgs- eller købshændelse eller efter deres brug i montage- eller produktionsstyklister.|[Sådan gør du: Vise varedisponering](inventory-how-availability-overview.md)|
 |Overflyt lagervarer mellem lokationer med overflytningsordrer for at styre lageraktiviteter eller med vareomposteringskladden.|[Fremgangsmåde: Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)|
-|Op- eller nedskriv værdien af en eller flere varer på lageret ved at bogføre deres aktuelle, beregnede værdi.|[Fremgangsmåde: Regulere lagerbeholdningen](inventory-how-revalue-inventory.md)|
-|Reguler varepriser, enten automatisk eller manuelt, for at videresende kostprisændringer fra indgående poster til deres relaterede udgående poster.|[Fremgangsmåde: Regulere varepriser](inventory-how-adjust-item-costs.md)|
+|Reservere lagervarer eller indgående varer til salgsordrer, købsordrer, serviceordrer, montageordrer eller produktionsordrer.|[Sådan reserverer du varer](inventory-how-to-reserve-items.md)|
+|Tildel serienumre eller lotnumre til en udgående eller indgående dokument- eller kladdelinje, for eksempel for at spore varer i tilfælde af tilbagekaldelser.|[Fremgangsmåde: Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)|
+|Find, hvor et serie- eller lotnummer blev brugt i forsyningskæden, f.eks. i tilfælde af tilbagekaldelse.|[Sådan gør du: Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)|
+|Administrer forretningsaktiviteter på salgskontorer, indkøbsafdelinger eller fabriksplanlægningskontor på tværs af flere lokationer.|[Fremgangsmåde: Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
 
 ## <a name="see-also"></a>Se også  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)    
-[Forsyningskæde](madeira-supply-chain.md)  
 [Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

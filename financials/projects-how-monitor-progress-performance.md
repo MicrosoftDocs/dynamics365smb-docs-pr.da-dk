@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 06/06/2017
+ms.date: 07/04/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 076b509ab5e9cf0f87f0910de11e49cda17f330a
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-monitor-job-progress-and-performance"></a>Fremgangsmåde: Overvåge status for og udførelse af en sag
@@ -38,7 +37,8 @@ Hvis du vil have vist resultatet ved hjælp af en anden metode, kan du skifte me
 ## <a name="to-create-a-job-wip-method"></a>Sådan oprettes en sagsmetode for igangværende arbejde
 Du kan oprette en sagsmetode for igangværende arbejde, der afspejler behovet i organisationen. Når du har oprettet den, kan du angive den som standardsagsberegningsmetoden for igangværende arbejde, der skal bruges i organisationen.  
 
-**Bemærk**! Når du har brugt en ny metode til at oprette poster for igangværende arbejde, kan du ikke slette metoden eller ændre den.  
+> [!NOTE]
+> Når du har brugt en ny metode til at oprette poster for igangværende arbejde, kan du ikke slette metoden eller ændre den.  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sags-VIA-metoder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -94,7 +94,8 @@ Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende numme
 I vinduet **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.  
 
 ## <a name="see-also"></a>Se også
-[Administrere projekter](projects-manage-projects.md)  
+[Administrere projekter](projects-manage-projects.md)
+[Administrere lageromkostninger](finance-manage-inventory-costs.md)   
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      

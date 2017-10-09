@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-number-series"></a>Fremgangsmåde: Oprette nummerserier
@@ -27,7 +26,7 @@ For hver af de virksomheder, som du opretter, skal du knytte entydige id-koder t
 
 Du kan oprette et nummereringssystem ved at oprette en eller flere koder for hver type stamdata eller dokument. Du kan f.eks. oprette en kode til nummerering af debitorer, en anden kode til nummerering af salgsfakturaer og en anden kode til nummerering af dokumenter i finanskladder. Når du har oprettet en kode, skal du oprette mindst en nummerserielinje. Nummerserielinjen indeholder oplysninger som f.eks. det første og sidste nummer i serien og startdatoen. Du kan oprette mere end en nummerserielinje pr. nummerseriekode med en anden startdato for hver linje. Serierne bruges efter hinanden, hvor hver serie starter på den pågældende startdato.
 
-Normalt vil du indstille dine nummerserier til automatisk at indsætte det næste fortløbende nummer på nye kort eller i dokumenter, du opretter. Men du kan også konfigurere en nummerserie til at tillade, at du manuelt angive det nye nummer. Du kan angive dette med afkrydsningsfeltet **Manuel nummerering** .
+Normalt vil du indstille dine nummerserier til automatisk at indsætte det næste fortløbende nummer på nye kort eller i dokumenter, du opretter. Men du kan også konfigurere en nummerserie til at tillade, at du manuelt angive det nye nummer. Du kan angive dette med afkrydsningsfeltet **Manuel nummerering**.
 
 Hvis du vil bruge mere end én nummerseriekode til en type stamdata - hvis du f.eks. vil bruge forskellige nummerserier til forskellige varekategorier - kan du bruge nummerserierelationer.
 
@@ -36,7 +35,7 @@ Hvis du vil bruge mere end én nummerseriekode til en type stamdata - hvis du f.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne på den nye linje efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Tip!** Hvis du vil tillade manuel indtastning af et nummer på nye kort eller dokumenter, skal du fjerne markeringen i afkrydsningsfeltet **Standardnumre** og markere afkrydsningsfeltet **Manuelle numre** .
+**TIP!** Hvis du vil tillade manuel indtastning af et nummer på nye kort eller dokumenter, skal du fjerne markeringen i afkrydsningsfeltet **Standardnumre** og markere afkrydsningsfeltet **Manuel nummerering**.
 
 Når du nu opretter et nyt kort eller dokument, der er indstillet til at bruge den pågældende nummerserie, du kan manuelt udfylde feltet **Nummer** med den ønskede værdi.  
 

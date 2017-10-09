@@ -1,8 +1,6 @@
 ---
 title: "Tildele brugertilladelser og oprette eller redigere tilladelsessæt | Microsoft Docs"
 description: "Beskriver, hvordan du kan føje Office 365-brugere til Financials og derefter tildele tilladelser, adgangsrettigheder og sikkerhedsindstillinger."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,15 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/27/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Fremgangsmåde: Administrere brugere og rettigheder
-Når du vil tilføje brugere i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal din virksomheds Office 365-administrator først oprette brugerne i Office 365 Administration. Du kan finde flere oplysninger under [Føje brugere til Office 365 til virksomheder](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Når du vil tilføje brugere i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal din virksomheds Office 365-administrator først oprette brugerne i Office 365 Administration. Du kan finde flere oplysninger under [Føje brugere til Office 365 til virksomheder](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc)
 
 Når brugerne er oprettet i Office 365, kan de importeres i vinduet **Brugere** ved hjælp af handlingen **Hent brugere fra Office 365**. Brugere tildeles rettighedssæt afhængigt af den plan, der er tildelt til Brugere i Office 365.
 
@@ -34,7 +31,7 @@ Du kan føje brugere til brugergrupper. Det gør det nemmere at tildele de samme
 Administratorer kan bruge vinduet **Brugeropsætning** til at definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på.
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til Pakke. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til Suite. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Sådan tildeles rettigheder til en bruger
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugere**, og vælg derefter det relaterede link.
@@ -112,6 +109,7 @@ Administratorer kan definere perioder, hvor angivne brugere kan bogføre, og de 
 
 ## <a name="see-also"></a>Se også
 [Blive klar til at handle](ui-get-ready-business.md)  
+[Opsætning og administration til Dynamics 365 for Financials](admin-setup-and-administration.md)  
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

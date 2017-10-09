@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Fremgangsmåde: Udligne kreditorbetalinger manuelt
@@ -35,9 +34,9 @@ Du kan udligne kreditorposter på tre forskellige måder:
 > [!NOTE]  
 >   Hvis feltet **Udligningsmetode** på kreditorkortet indeholder **Saldo**, bliver betalinger automatisk udlignet til den ældste åbne kreditpost, hvis du ikke angiver, hvad betalingen skal udlignes til. Hvis udligningsmetoden for en kunde er **Manuel**, skal du udligne posterne manuelt.
 
-Du kan udligne kreditorbetalinger manuelt på deres relaterede købsdokumenter, når du bogfører betalinger i vinduet **Udbetalingskladde**. Du kan finde oplysninger om udfyldning af udbetalingskladden [Fremgangsmåde: Foretage betalinger](payables-make-payments.md).
+Du kan udligne kreditorbetalinger manuelt på deres relaterede købsdokumenter, når du bogfører betalinger i vinduet **Udbetalingskladde**. Du kan finde oplysninger om udfyldning af udbetalingskladden [Foretage betalinger](payables-make-payments.md).
 
-Du kan også udligne kreditorbetalinger og debitorbetalinger, når betalinger vises som negative banktransaktioner hos din bank. I vinduet **Betalingsudligningskladde** kan du kan bruge funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+Du kan også udligne kreditorbetalinger og debitorbetalinger, når betalinger vises som negative banktransaktioner i din bank. I vinduet **Betalingsudligningskladde** kan du kan bruge funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Sådan udlignes en betaling med en enkelt eller flere kreditorposter
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladde**, og vælg derefter det relaterede link.
@@ -61,7 +60,7 @@ Du kan også udligne kreditorbetalinger og debitorbetalinger, når betalinger vi
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købskreditnota**, og vælg derefter det relaterede link.
 2. Åbn den kreditnota du vil udligne.
 3. Angiv de relevante oplysninger i hovedet.
-4. Hvis du vil udligne en enkelt kreditorpost, skal du i oversigtspanelet **Udligning** i feltet **Udligningsbilagsnr.** vælge den post, som skal udlignes, og derefter i feltet **Beløb, der skal udlignes** angive beløbet, posten skal udlignes med.
+4. Hvis du vil udligne en enkelt kreditorpost, skal du i oversigtspanelet **Udligning** i feltet **Udligningsbilagsnr.** vælge den post, kreditten skal udlignes til, og derefter i feltet **Beløb, der skal udlignes** angive beløbet, der posten skal udlignes med.
 5. Sådan udlignes flere kreditorposter:
 
    1. Vælg handlingen **Udlign**.
@@ -71,7 +70,7 @@ Du kan også udligne kreditorbetalinger og debitorbetalinger, når betalinger vi
 
        Hvis du ikke indtaster et beløb, udlignes der automatisk med det maksimale beløb. Nederst i vinduet **Udlign kred.poster** kan du se det specifikke beløb i feltet **Udligningsbeløb**, og om udligningen balancerer.
 6. Vælg knappen **OK**.  
-   Vinduet **Købskreditnota** viser posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.** . . Vinduet viser også beløbet på kreditnotaen, som skal bogføres, justeret i forhold til eventuelle kontantrabatter.
+   Vinduet **Købskreditnota** viser posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.** . Vinduet viser også beløbet på kreditnotaen, som skal bogføres, justeret i forhold til eventuelle kontantrabatter.
 7. Vælg knappen **Bogfør** for at bogføre købskreditnotaen.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Sådan udlignes bogførte kreditorposter

@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Fremgangsmåde: Registrere køb
@@ -35,7 +34,7 @@ Du kan nemt rette eller annullere en bogført købsfaktura, før du betaler kred
 Varer kan være af typen **Lager** eller **Service**. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md). Købsfakturaproceduren er den samme for begge varetyper.
 
 > [!NOTE]  
->   Købsordrefunktioner kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Købsordrefunktioner kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 Du kan udfylde kreditorfelter i købsfakturaen på to måder, afhængigt af om debitoren er registreret.
 
@@ -58,7 +57,7 @@ Du kan udfylde kreditorfelter i købsfakturaen på to måder, afhængigt af om d
 
     > [!NOTE]  
 >   Hvis du har konfigureret de tilbagevendende købslinjer for kreditoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i fakturaen ved at vælge handlingen **Hent tilbagevendende købslinjer**.
-10. I oversigtspanelet **Linjer** i feltet **Varenr.**. skal du indtaste nummeret på en lagervare eller service.
+10. I oversigtspanelet **Linjer** skal du i feltet **Varenr.** indsætte nummeret på en vare eller en service.
 11. Angiv antal varer, der skal købes, i feltet **Antal**.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ Købet afspejles nu i lager- og finansrecords, og kreditorbetalingen aktiveres. 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
+[Fremgangsmåde: Anmode om tilbud](purchasing-how-request-quotes.md)  
 [Fremgangsmåde: Købe varer til et salg](purchasing-how-purchase-products-sale.md)  
 [Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Fremgangsmåde: Forberede direkte leveringer](sales-how-drop-shipment.md)  

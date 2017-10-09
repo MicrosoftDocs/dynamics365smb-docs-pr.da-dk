@@ -1,6 +1,6 @@
 ---
 title: Bruge billedanalyseudvidelsen | Microsoft Docs
-description: "Med denne udvidelse kan du analysere billeder af kontaktpersoner og varer for at finde attributter, så du hurtigt kan tildele dem i Finans."
+description: "Med denne udvidelse kan du analysere billeder af kontaktpersoner og varer for at finde attributter, så du hurtigt kan tildele dem i Financials."
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 06/19/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: c981c5528c7a622f9d78ed6a77c27e2ceeba44e3
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 

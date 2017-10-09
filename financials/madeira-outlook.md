@@ -12,23 +12,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Bruge Dynamics 365 for Financials som din virksomheds Indbakke i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introducerer muligheden for at administrere forretningsinteraktioner med kunder og leverandører direkte i Microsoft Outlook. Med Outlook-tilføjelsesprogrammerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se finansielle data, der er relateret til debitorer og kreditorer samt oprette og sende finansielle dokumenter, f.eks tilbud og fakturaer.  
 
 ## <a name="get-the-add-in"></a>Hent tilføjelsesprogrammet
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] er et af trinnene i den assisterede opsætningsvejledning Introduktion vinduet **Kør din virksomhed fra Office 365**. I dette vindue skal du angive Office 365 brugernavn og adgangskode, når du klikker på knappen **Opsæt i Outlook**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammerne føjes derefter automatisk til Outlook.  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] er et af trinnene i den assisterede opsætningsvejledning vinduet **Kør din virksomhed fra Office 365**. I dette vindue skal du angive Office 365-brugernavn og -adgangskode, når du klikker på knappen **Opsæt i Outlook**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammerne føjes derefter automatisk til Outlook.  
 
 Når du åbner Outlook, vises en e-mail fra Financials-administratoren. Det nye tilføjelsesprogram føjes til Outlook-båndet og i Outlook Web Access kan du se det i tilføjelsesprogrambåndet lige over brødteksten i mailen. Selve tilføjelsesprogrammet opdateres med jævne mellemrum, og du får besked, når en ny version er klar i Outlook.  
 
-Nogle virksomheder, der bruger Office 365, begrænser brugertilladelser til at implementere programmer. Så skal du sørge for at have et Office 365 abonnement, der omfatter mail, og hvor du kan implementere tilføjelsesprogrammer. Hvis du vil prøve tilføjelsesprogrammet alligevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
+Nogle virksomheder, der bruger Office 365, begrænser brugernes adgang til at implementere tilføjelser. Derfor skal du kontrollere, at du har et Office 365-abonnement, der omfatter mail, hvor du kan implementere tilføjelser. Hvis du vil prøve tilføjelsesprogrammet alligevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Bruge tilføjelsesprogrammet Kontaktoplysninger
 Antag, at du får en e-mail fra en kunde, som ønsker et tilbud på nogle varer. I Outlook kan du åbne Financials-tilføjelsesprogrammet direkte. Programmet genkender afsenderen som debitor og åbner debitorkortet for hans firma. Fra dette dashboard kan du få vist oversigtsoplysninger om kunden samt gå i dybden for at få yderligere oplysninger om bestemte dokumenter. Du kan også se nærmere på salgsoversigten for debitoren. Hvis det er en ny kunde, kan du oprette vedkommende som en ny kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)] uden at forlade Outlook.  
@@ -57,7 +56,7 @@ Først skal du kontrollere, at du har adgang til tilføjelsesprogrammerne på di
 
 På samme måde kan du i Outlook-skrivebordsklienten kontrollere, at [!INCLUDE[d365fin](includes/d365fin_md.md)] er angivet i vinduet **Administrer tilføjelsesprogrammer**.  
 
-I begge tilfælde, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] stadig ikke er tilgængelig, skal du hente manifest for tilføjelsesprogram-filerne. Du kan få flere oplysninger ved at kontakt Office 365-administratoren.
+I begge tilfælde, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] stadig ikke er tilgængelig, skal du hente manifest for tilføjelsesprogram-filerne. Du kan få flere oplysninger ved at kontakte Office 365-administratoren.
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

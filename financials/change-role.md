@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 5c0ac5aca0ac5000dbcf74ec6d3a273cfe95270f
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-the-role-center"></a>Fremgangsmåde: Ændre rollecentret
@@ -29,7 +28,6 @@ Indhold på startsiden er baseret på det valgte rollecenter. Standardrollecente
 1. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "ikonet Indstillinger for rollecenter") og derefter vælge **Indstillinger**.
 2. I vinduet **Mine indstillinger** skal du i feltet **Rollecenter** vælge det rollecenter, du vil angive som standard. Vælg f.eks **Regnskabsmedarbejder**.
 3. Vælg knappen **OK**.
-4. Log af [!INCLUDE[d365fin](includes/d365fin_md.md)], og log på igen, for at ændringerne kan træde i kraft.
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

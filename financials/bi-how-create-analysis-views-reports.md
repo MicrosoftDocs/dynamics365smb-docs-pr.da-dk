@@ -12,11 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ec1f03555db4e370bf19da41bcb33e9b1d286f82
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>Fremgangsmåde: Oprette analyserapporter
@@ -43,7 +43,7 @@ Derefter kan du oprette kolonner som disse:
 - Salg i % af foregående måned  
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Opsætte linje- og kolonneformater  
  I vinduet **Analyserapport** kan du få vist forskellige linje- og kolonneformater alt efter din opsætning. Du opretter linjer eller linjeskabeloner i vinduet **Analyselinjeskabeloner**. I dette vindue kan du definere navnet på rapporten og de objekter, der skal vises på linjerne i rapporten. Kolonnerne angiver du i vinduet **Analysekolonneskabeloner**. I dette vindue kan du definere navnet på kolonneskabelonen og de analyseparametre, der skal vises i rapporten i form af kolonner. I vinduet **Analysekolonneskabeloner** repræsenterer hver linje en kolonne i rapporten. Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.  

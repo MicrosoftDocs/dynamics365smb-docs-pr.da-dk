@@ -10,21 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 04/20/2017
+ms.date: 09/08/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c22e17c931fcb262abe2d2059af89ec6f930ecb5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 79851c90a2a2fd8ac2e744173a04b7eda50b98e8
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter
+# <a name="how-to-set-up-unrealized-vat-for-cash-based-accounting"></a>Fremgangsmåde: Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter
 Hvis du bruger bogføringsmetoder, der er baseret på kontanter, kan du konfigurere [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] til at håndtere urealiseret moms.
 
-## <a name="use-general-ledger-accounts-for-unrealized-vat"></a>Bruge finanskonti for urealiseret moms
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Sådan bruges finanskonti for urealiseret moms
 Du kan vælge, at momsbeløb beregnes og bogføres til en midlertidig finanskonto, når en faktura bogføres. Når den faktiske betaling af fakturaen bogføres, kan momsbeløbet så bogføres til den korrekte finanskonto og medtages i momsangivelsen. Du skal først færdiggøre momsbogføringsopsætning.
 
 Når du vil bruge konti for urealiseret moms, skal du gøre følgende:

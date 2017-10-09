@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-the-bank-data-conversion-service"></a>Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata
@@ -39,7 +38,7 @@ Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen b
 2. Vinduet **Opsætning af tjeneste til konvertering af bankdata** åbnes med tre felter udfyldt med relevante URL-adresser på udbyderen af tjenesten for omregning af bankdata.
 
     > [!NOTE]  
->   I demodatabasen CRONUS International Ltd. er felterne Brugernavn og Adgangskode udfyldt på forhånd med demonstration af logonoplysninger, som du erstatter med din virksomheds faktiske oplysninger, når du tilmelder dig konverteringstjenesten for bankdata.
+>   I CRONUS International Ltd.-demonstrationsdatabasen er felterne Brugernavn og Adgangskode udfyldt på forhånd med demonstration af logonoplysninger, som du erstatter med din virksomheds faktiske oplysninger, når du tilmelder dig konverteringstjenesten for bankdata.
 3. I feltet **URL-adresse til tilmelding** skal du vælge browserknappen for at åbne serviceudbyderens tilmeldingsside.  
 4. Angiv brugernavnet og adgangskoden til din virksomheds abonnement på tjenesten på tilmeldingssiden af bankens dataserviceudbyder, og fuldfør derefter tilmeldingsprocessen som angivet af serviceudbyderen.
 

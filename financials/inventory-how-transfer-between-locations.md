@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 06/02/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: d54b75240cb0a2dddcfabc488a18e0bf9635f82c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 41804dc183f9fa05ec1599db34c2b4f76a790a72
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-inventory-between-locations"></a>Fremgangsmåde: Overflytte lagerbeholdning mellem lokationer
@@ -33,14 +32,14 @@ Med omposteringskladden skal du blot udfylde felterne **Lokationskode** og **Ny 
 Hvis du vil overflytte varer, skal lokationer og overflytningsruter oprettes. Du kan finde flere oplysninger i [Fremgangsmåde: Opsætning af lokationer](inventory-how-setup-locations.md).
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Såden overflyttes varer med en overflytningsordre
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Overflytningsordrer**, og vælg derefter det relaterede link.
 2. I vinduet **Overflytningsordre** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservicekode** i vinduet **Overflytningsrutespec.**, når du opretter overflytningsruten, udfyldes de tilsvarende felter på overflytningsordren automatisk.
+>   Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservice** i vinduet **Overflytningsrutespec.**, udfyldes de tilsvarende felter på overflytningsordren automatisk, når du opretter overflytningsruten.
 
     Når du udfylder feltet **Speditørservice** beregnes modtagelsesdatoen på den lokation, der overflyttes til, ved at lægge speditørens transporttid til afsendelsesdatoen.
 
@@ -65,7 +64,7 @@ Hvis du vil overflytte varer, skal lokationer og overflytningsruter oprettes. Du
 ## <a name="see-also"></a>Se også
 [Administrere lager](inventory-manage-inventory.md)  
 [Sådan oprettes lokationer](inventory-how-setup-locations.md)  
-[Forsyningskæde](madeira-supply-chain.md)  
+  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)

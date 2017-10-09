@@ -1,6 +1,6 @@
 ---
-title: Minimumkrav til brug af Dynamics 365 for Financials | Microsoft Docs
-description: Systemkrav til brug af Dynamics 365 for Financials
+title: Minimumkrav til brug af Financials | Microsoft Docs
+description: "Få mere at vide om minimumkravene til system og version for brug af Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fad8d80a94971c5ad73d76175e0a31ba5dc4f29a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e1f5b9c3a8ef7337d3b958e733e034c79a9bc2bc
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/30/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="minimum-requirements-for-using-dynamics-365-for-financials"></a>Minimumkrav til brug af Dynamics 365 for Financials

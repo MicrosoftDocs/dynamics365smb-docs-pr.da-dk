@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-split-or-combine-fixed-assets"></a>Fremgangsmåde: Overføre, opdele eller kombinere anlægsaktiver
@@ -28,7 +27,7 @@ Du kan overføre et anlægsaktiv til en anden afdeling, når du f.eks. placerer 
 1. Definer et nyt anlæg. Angiv den nye afdeling i feltet **Afdelingskode**.
 2. Tildele en anlægsafskrivningsprofil til det nye anlægsaktiv. Du kan finde flere oplysninger i [Fremgangsmåde: Anskaffe anlægsaktiver](fa-how-acquire.md).
 3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Omposteringskladder**, og vælg derefter det relaterede link.
-4. Opret en omposteringskladde, hvor feltet **Anlægsnr.** indeholder det oprindelige anlægsaktiv, og feltet **nyt Anlægsnr.** indeholder det nye anlægsaktiv, der skal flyttes.  
+4. Opret en omposteringskladde, hvor feltet **Anlægsnr.** viser det oprindelige anlægsaktiv, og feltet **Nyt anlægsnr.** indeholder det nye anlægsaktiv, der skal flyttes.  
 5. Vælg handlingen **Ompostér**.
 
     Der oprettes nu to linjer i anlægskassekladden ved hjælp af den type og det navn, du har angivet i vinduet **Anlægskladdeopsætning** for den angivne afskrivningsprofil. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
@@ -44,7 +43,7 @@ Du kan opdele et anlægsaktiv i flere anlægsaktiver, f.eks. når du skal fordel
 2. Tildele anlægsafskrivningsprofiler til de nye anlægsaktiver. Du kan finde flere oplysninger i [Fremgangsmåde: Anskaffe anlægsaktiver](fa-how-acquire.md).
 3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Omposteringskladder**, og vælg derefter det relaterede link.
 4. Opret to omposteringskladdelinjer, én for hvert nyt anlægsaktiv.
-5. På første linje skal du angive det andet anlægsaktiv i feltet **Nyt anlægsnr.** og 25 i feltet **Ompost.pct. (anskaffelse)**.
+5. På den første linje skal du angive det andet anlægsaktiv i feltet **Nyt anlægsnr.** og 25 i feltet **Ompost.pct. (anskaffelse)**.
 6. På den anden linje skal du angive det tredje anlægsaktiv i feltet **Nyt anlægsnr.** og 40 i feltet **Ompost.pct. (anskaffelse)**.
 7. På begge linjer skal du markere afkrydsningsfelterne **Omposter anskaffelse** og **Omposter afskrivning**.   
 8. Vælg handlingen **Ompostér**.
@@ -57,7 +56,7 @@ Du kan opdele et anlægsaktiv i flere anlægsaktiver, f.eks. når du skal fordel
 Du kan kombinere flere anlægsaktiver til ét anlægsaktiv, f.eks. når du skal flytte fordelte anlægsaktiver til en enkelt afdeling. Hvis du har bogført anskaffelsesprisen og afskrivningen for det anlægsaktiv, der skal flyttes, kombineres værdierne i det enkelte anlægsaktiv.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Omposteringskladder**, og vælg derefter det relaterede link.
-2. Opret en omposteringskladde, hvor feltet **Anlægsnr.** indeholder det anlægsaktiv, der skal flyttes/kombineres, og feltet **Nyt anlægsnr.** indeholder det anlægsaktiv, der skal kombineres med.
+2. Opret en omposteringskladde, hvor feltet **Anlægsnr.** viser det oprindelige anlægsaktiv, der skal flyttes/kombineres, og feltet **Nyt anlægsnr.** indeholder det nye anlægsaktiv, det skal kombineres med.
 3. Lad feltet **Ompost.pct. (anskaffelse)** være tomt for at flytte/kombinere hele anskaffelsesprisen.    
 4. Markér afkrydsningsfelterne **Omposter anskaffelse** og **Omposter afskrivning**.
 5. På fanen **Handlinger** skal du vælge **Omposter**.

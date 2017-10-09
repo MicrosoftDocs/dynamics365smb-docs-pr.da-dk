@@ -9,14 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2017
+ms.date: 08/17/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="smart-notifications"></a>Smarte notifikationer
@@ -27,8 +26,10 @@ Hvis du vælger at få vist detaljer om en notifikation, kan du gribe ind for at
 Notifikationer hjælper uøvede brugere med at udføre ukendte opgaver og sænker ikke produktiviteten for den mere øvede bruger.  
 
 ## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Aktivere eller deaktivere notifikationer og styre, hvornår de sendes
-Når du begynder at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)], er alle notifikationer aktiveret, men du kan slå dem til eller fra, f.eks. hvis du ikke er interesseret i en bestemt hændelse eller status.   
+Når du begynder at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)], er alle notifikationer aktiveret, men du kan slå dem til eller fra, f.eks. hvis du ikke er interesseret i en bestemt hændelse eller status.  
+  
 Desuden kan du ved nogle notifikationer angive, hvilke betingelser de skal sendes på. F.eks. hvis du vil have besked, når mangler lagervarer, men kun om varer, som du køber fra en bestemt leverandør.  
+  
 Det er kun dig, der kan aktivere eller deaktivere notifikationer og angive betingelser.  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Mine notifikationer**, og vælg derefter det relaterede link.

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Forberede oprettelse af kontakter
@@ -27,7 +26,7 @@ Før du opretter kontakter og registrerer oplysninger om forretningsforhold, ska
 
 Når disse oplysninger er defineret, er det væsentligt mere organiseret at oprette kontakter, og det er langt mere effektivt, når du kan finde alle kontakter baseret på en bestemt gruppe. Hver gruppe i firmaet kan finde disse oplysninger, hvilket giver en meget bedre kommunikationen med disse kontakter.
 
-Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. Disse opgaver er angivet i den rækkefølge, de almindeligvis udføres i.
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. 
 
 | Hvis du vil | Se |
 | --- | --- |

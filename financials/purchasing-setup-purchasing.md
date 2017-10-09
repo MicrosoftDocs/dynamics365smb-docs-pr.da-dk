@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-purchasing"></a>Opsætning af indkøb
@@ -31,10 +30,10 @@ Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes 
 
 | Hvis du vil | Se |
 | --- | --- |
-| Opret et kreditorkort for hver debitor, du køber fra. |[Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md) |
-| Angive de forskellige rabatter og specialpriser, som kreditorer yder dig, afhængigt af vare, antal og/eller dato. |[Fremgangsmåde: Registrere købspris, rabat og betalingsaftaler](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Tildel kreditorer prioritet. |[Fremgangsmåde: Prioritere kreditorer](purchasing-how-prioritize-vendors.md) |
-| Opret indkøbere. |[Fremgangsmåde: Oprette indkøbere](purchasing-how-setup-purchasers.md) |
+| Opret et kreditorkort for hver kreditor, du køber fra|[Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md) |
+| Angiv de forskellige rabatter og specialpriser, som kreditorer yder dig, afhængigt af vare, antal og/eller dato. |[Fremgangsmåde: Registrere købspris, rabat og betalingsaftaler](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Tildel kreditorer prioritet |[Fremgangsmåde: Prioritere kreditorer](purchasing-how-prioritize-vendors.md) |
+| Opret indkøbere |[Fremgangsmåde: Oprette indkøbere](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  

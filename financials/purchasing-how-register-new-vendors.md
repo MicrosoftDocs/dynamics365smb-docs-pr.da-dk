@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 82089770524e6fb6614f86cada7c5792bedf162f
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-new-vendors"></a>Fremgangsmåde: Registrere nye kreditorer
@@ -38,6 +37,9 @@ Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe p
 3. I vinduet **Vælg en skabelon til en ny kreditor** skal du vælge den skabelon, som du vil bruge til det nye kreditorkort.
 4. Vælg knappen **OK**. Et nyt kreditorkort åbnes med nogle felter udfyldt med oplysninger fra skabelonen.
 5. Fortsæt med at udfylde eller ændre felterne på kreditorkortet efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]  
+>   Hvis du ikke på forhånd kender den faktureringsadresse, der skal bruges til alle fakturaer fra en kreditor, skal du ikke udfylde feltet **Faktureringsleverandørnr.** på kreditorkortet. Vælg i stedet nummeret, efter du har oprettet et dokumenthoved (købsrekvisition, ordre eller faktura)
 
 Kreditoren er nu registreret, og kreditorkortet er klar til at blive brugt i købsdokumenter.
 

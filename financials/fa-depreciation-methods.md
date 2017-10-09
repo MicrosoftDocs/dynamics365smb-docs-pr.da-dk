@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Afskrivningsmetoder
@@ -58,7 +57,7 @@ Den bogførte værdi kan reduceres med beløb for bogført afskrivning, nedskriv
 ### <a name="fixed-yearly-percentage"></a>Fast årlig procent
 Hvis du har angivet en fast årlig procent, bruges følgende formel til at beregne afskrivningsbeløbet:  
 
-Afskrivningsbeløb = (Lineær pct. x Afskrivningsgrundlag x Antal afskrivnings- dage) / (100 x 360)  
+Afskrivningsbeløb = (Lineær pct. x Afskrivningsgrundlag x Antal afskrivningsdage) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Fast årligt beløb
 Hvis du angiver et fast årligt beløb, bruges denne formel til at beregne afskrivningsbeløbet:  
@@ -224,7 +223,7 @@ Med en brugerdefineret metode skal du bruge vinduet **Afskrivningstabeller**, hv
 
 Formlen for beregning af afskrivningsbeløbet er:  
 
-Afskrivningsbeløb = (Afskrivningsprocent x Antal afskrivningsdage x Afskrivnings- grundlag) / (100 x 360)  
+Afskrivningsbeløb = (Afskrivningsprocent x Antal afskrivningsdage x Afskrivningsgrundlag) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Afskrivning baseret på antal enheder
 Denne brugerdefinerede metode kan også bruges til afskrivning baseret på antal enheder, f.eks. i forbindelse med produktionsmaskiner med fastlagt levetidskapacitet. I vinduet **Afskrivningstabeller** kan du angive antallet af enheder, der kan produceres i hver enkelt periode (måned, kvartal, år eller regnskabsperiode).  

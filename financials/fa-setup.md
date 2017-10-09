@@ -1,7 +1,6 @@
 ---
 title: "Konfigurere anlægsaktiver | Microsoft Docs"
 description: "Få mere at vide om den række af opgaver, du skal udføre for at oprette anlægsaktiver, f.eks. maskiner eller bygninger."
-services: project-madeira
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -10,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-fixed-assets"></a>Opsætning af anlægsaktiver
@@ -32,6 +30,9 @@ Tabellen nedenfor indeholder links til flere oplysninger. Når du konfigureret d
 >   Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger vinduet **Anlægskassekladde**.  
 
 Når du vælger en anlægsaktivitet i afsnittet **Finansintegration** i vinduet **Afskrivningsprofilkort**, bruges vinduet **Anlægsfinanskladde** til at bogføre transaktioner for aktiviteten.
+
+> [!NOTE]  
+>  Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din Financials-oplevelse](ui-experiences.md).  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 

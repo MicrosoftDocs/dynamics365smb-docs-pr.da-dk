@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/01/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Fremgangsmåde: Analysere faktiske beløb sammenlignet med budgetterede beløb
@@ -26,7 +25,7 @@ Som et led i indsamling, analyse og deling af virksomhedens data kan du få vist
 Hvis du vil analysere budgetterede beløb, skal du først oprette budgetter. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette budgetter](finance-how-create-budgets.md).
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-view-a-budget"></a>Sådan får du vist et budget
 budget med dimensioner kan du filtrere poster og få vist et bestemt budget.

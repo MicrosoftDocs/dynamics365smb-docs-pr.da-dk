@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 07/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
 ms.openlocfilehash: 980a0646317c2b5c02c0eadcde9ba984c11580c4
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-recurring-sales-and-purchase-lines"></a>Fremgangsmåde: Oprette gentagne salgs- og købslinjer
@@ -41,10 +40,10 @@ Følgende procedure viser, hvordan du arbejder med standardsalgslinjer. Det fung
 ## <a name="to-create-multiple-sales-invoices-based-on-standard-sales-lines"></a>Sådan opretter du flere salgsfakturaer baseret på standardsalgslinjer
 Du kan bruge kørslen **Opret tilbagevendende salgsfaktura** til at oprette salgsfakturaer i overensstemmelse med standardsalgslinjer, som er knyttet til kunderne og med bogføringsdatoer inden for de gyldige fra- og til-datoer, som du angiver i standardsalgskoden.
 
-I vinduet **Tilbagevendende salgslinjer** kan du også angive en Direct Debit-betalingsform og Direct Debit-betalingsaftale. De salgsfakturaer, der bliver oprettet med kørslen **Opret tilbagevendende salgsfaktura**, vil derefter indeholde de oplysninger, der skal bruges til at opkræve betaling for salgsfakturaerne, med SEPA-Direct Debit. Du kan finde flere oplysninger i Indhente betalinger med SEPA Direct Debit.
+I vinduet **Tilbagevendende salgslinjer** kan du også angive en Direct Debit-betalingsform og Direct Debit-betalingsaftale. Salgsfakturaer, der er oprettet med kørslen **Opret tilbagevendende salgsfaktura**, vil derefter indeholde oplysninger, der skal bruges til at opkræve betaling for salgsfakturaer med SEPA-Direct Debit. Du kan finde flere oplysninger i Indhente betalinger med SEPA Direct Debit.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opret tilbagevendende salgsfakturaer**, og vælg derefter det relaterede link.
-2. I vinduet **Opret tilbagevendende salgsfaktura** skal du udfylde felterne efter behov.
+2. Udfyld felterne efter behov i vinduet **Opret tilbagevendende salgsfaktura**.
 3. I feltet **Kode** skal du angive den kode for standardsalgslinjer, der er knyttet til en debitor, som du vil oprette salgsfakturaer for.
 4. Vælg knappen **OK**.
 

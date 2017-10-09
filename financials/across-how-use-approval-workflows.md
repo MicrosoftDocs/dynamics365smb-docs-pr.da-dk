@@ -9,25 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Fremgangsmåde: Bruge godkendelsesworkflows
 Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en person i organisationen, sendes en godkendelsesanmodning som en del af en arbejdsgang. Afhængigt af hvordan arbejdsgangen er konfigureret, får den relevante godkender derefter besked om, at posten kræver godkendelse.
 
-Du kan konfigurere godkendelsesworkflows i vinduet **Workflow**.
+Du kan konfigurere godkendelsesworkflows i vinduet **Workflow**. Du kan finde flere oplysninger under [Opsætte workflows](across-set-up-workflows.md).
+
+Ud over godkendelsesworkflows, der er beskrevet i dette emne, kan du udføre forskellige andre opgaver i workflowet. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).
 
 Grundlæggende godkendelsesworkflows for købsdokumenter, salgsdokumenter, udbetalingskladder, debitorkort og varekort er klar til brug som assisteret opsætning. Du kan finde flere oplysninger i [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Sådan anmodes om godkendelse af en post
 Følgende opgave udføres af en godkendelsesbruger.
@@ -47,17 +48,6 @@ En kunde vil måske ændre en ordre, efter at den er sendt til godkendelse. I s�
 - I det vindue, hvor posten vises, kan du vælge handlingen **Annuller godkendelsesanmodning**.
 
 Når godkendelsesanmodningen er annulleret, ændres statussen for den relaterede godkendelsespost til **Annulleret**. Postens status opdateres fra **Afventer godkendelse** til **Åben**. Godkendelsesprocessen kan derefter starte igen.
-
-## <a name="to-make-minor-changes-to-approved-records"></a>Sådan foretages mindre ændringer i godkendte poster
-Hvis du vil foretage en mindre ændring af en post, når den er blevet godkendt, kan du åbne posten igen, foretage ændringen og derefter frigive den. Mindre ændringer kan du udføre med knapperne **Genåbn** og **Frigiv**.
-
-1. Åbn det vindue, der viser posten, f.eks en købsfaktura, og vælg derefter handlingen **Åbn igen**.
-
-    Feltet **Bilagsstatus** skifter til **Åben**.
-2. Foretag de nødvendige ændringer på posten, f.eks. kreditorens adresse.
-3. Vælg handlingen **Frigivelse**.
-
-Når du genåbner kildeposten, er statussen for den relaterede godkendelsespost stadig Godkendt i vinduet **Godkendelsesposter**.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Sådan godkendes eller afvises anmodninger om godkendelse
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
@@ -98,5 +88,5 @@ Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle å
 [Salg](sales-manage-sales.md)    
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

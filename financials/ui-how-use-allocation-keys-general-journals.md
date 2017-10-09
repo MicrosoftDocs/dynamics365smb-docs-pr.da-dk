@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-allocation-keys-in-general-journals"></a>Fremgangsmåde: Bruge fordelingsnøgler i kladder
@@ -33,7 +32,7 @@ Du kan allokere en post i en finanskladde til flere forskellige konti, når du b
 5. Når du er færdig, skal du lukke vinduet. Der åbnes en ny tom gentagelseskladde.
 6. Udfyld felterne på linjen.
 7. Vælg handlingen **Fordelinger**.
-8. Tilføj en linje for hver fordeling. Du skal udfylde et af følgende felter: **Allokeringspct.**, **Andel i antal** eller **Beløb**. Du skal også udfylde **Kontonr.** og desuden felterne for globale dimensioner, hvis du allokerer transaktionen mellem globale dimensioner.
+8. Tilføj en linje for hver fordeling. Du skal udfylde et af følgende felter: **Allokeringspct.**, **Andel i antal** eller **Beløb**. Du skal udfylde feltet **Kontonr.** og desuden felterne for globale dimensioner, hvis du allokerer transaktionen mellem globale dimensioner.
 9. Hvis du angiver en procent på en linje, beregnes beløbet i feltet **Beløb** automatisk. Disse beløb har det modsatte tegn af tegnet fra det totale beløb i feltet **Beløb** i gentagelseskladden.
 10. Når du har angivet linjerne med fordelinger, skal du vælge **OK** for at gå tilbage til vinduet **Finansgentagelseskladde**. Feltet **Fordelt beløb (RV)** udfyldes og svarer til feltet **Beløb**.
 11. Bogfør journalen.

@@ -12,23 +12,26 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7dfd3cc7efe00b48a39982bb220ccc21b7409da4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cda69d70ece090a149a13e5e1f4ed02fa70c49f7
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create--budgets"></a>Fremgangsmåde: Oprette budgetter
 Du kan have flere budgetter for identiske tidsperioder ved at oprette budgetter med separate navne. Ført opretter du budgetnavnene og angiver budgettal. Derefter medtages budgetnavnene på alle de budgetposter, du opretter.  
 
- Når du opretter et budget, kan du definere fire dimensioner for hvert budget. Disse budget\-specifikke dimensioner kaldes budgetdimensioner. Du kan vælge budgetdimensioner fra hvert budget blandt de dimensioner, du allerede har oprettet. Budgetdimensioner kan bruges til at angive filtre for et budget og til at tilføje dimensionsoplysninger til budgetposter. Du kan finde flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
+ Når du opretter et budget, kan du definere fire dimensioner for hvert budget. Disse budgetspecifikke dimensioner kaldes budgetdimensioner. Du kan vælge budgetdimensioner fra hvert budget blandt de dimensioner, du allerede har oprettet. Budgetdimensioner kan bruges til at angive filtre for et budget og til at tilføje dimensionsoplysninger til budgetposter. Du kan finde flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
 
- Budgetter spiller en vigtig rolle i business intelligence, f.eks. i finansregnskab, der er baseret på kontoplaner, der indeholder budgetposter, eller når du analyserer budgetterede vs. faktiske beløb i kontoplanen. Du kan finde flere oplysninger i [Business Intelligence](bi.md).   
+ Budgetter spiller en vigtig rolle i business intelligence, f.eks. i finansregnskab, der er baseret på kontoplaner, der indeholder budgetposter, eller når du analyserer budgetterede vs. faktiske beløb i kontoplanen. Du kan finde flere oplysninger i [Business Intelligence](bi.md).
+
+ Budgetter spiller en vigtig rolle i business intelligence, f.eks. i finansregnskab, der er baseret på kontoplaner, der indeholder budgetposter, eller når du analyserer budgetterede vs. faktiske beløb i kontoplanen. Du kan finde flere oplysninger i [Business Intelligence](bi.md).
+
+I Omkostningsberegning arbejder du med omkostningsbudgetter på samme måde. Du kan finde flere oplysninger i [Oprette omkostningsbudgetter](finance-create-cost-budgets.md).    
 
  > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
 
 ### <a name="to-create-a-new-budget"></a>Sådan oprettes et nyt budget  
 

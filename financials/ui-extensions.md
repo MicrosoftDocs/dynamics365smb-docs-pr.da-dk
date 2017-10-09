@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/05/2017
+ms.date: 07/07/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Tilpasse Dynamics 365 for Financials ved hjælp af udvidelser
@@ -32,7 +31,7 @@ Du kan administrere udvidelserne i vinduet **Udvidelsesstyring**. Du kan åbne v
 >   Hvis du mener, at du skal have adgang til en udvidelse, men ikke kan finde de relevante funktioner, skal du vælge vinduet **Udvidelsesstyring** – hvis filtypen ikke er angivet der, kan du installere den som beskrevet i følgende afsnit.  
 
 ## <a name="installing-an-extension"></a>Installation af en udvidelse
-Du kan få nye udvidelser fra markedspladsen på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Her kan du se alle tilgængelige udvidelser for [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan få apps, udvidelser og indholdspakker til andre Microsoft-produkter. Angiv de relevante filtre, kig på oplysningerne om hver udvidelse og hent en udvidelse til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du kan hente nye udvidelser fra markedspladsen på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1). Her kan du se alle tilgængelige udvidelser til [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan få apps, udvidelser og indholdspakker til andre Microsoft-produkter. Angiv de relevante filtre, kig på oplysningerne om hver udvidelse og hent en udvidelse til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 > [!NOTE]  
 >   Log på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved hjælp af den mailkonto, du bruger til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Brug den samme mailkonto til andre tjenester og produkter for at opnå en ensartet oplevelse.  
 
@@ -51,6 +50,7 @@ Microsoft tilbyder følgende udvidelser:
 
 * [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
 * [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)  
 * [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)  
@@ -69,7 +69,7 @@ Microsoft tilbyder følgende udvidelser:
 [Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Fremgangsmåde: Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Overføre virksomhedsdata fra andre økonomisystemer](upload-data.md)  
-[Konfigurere den britiske GetAddress.io-postnummerudvidelse](uk-setup-postal-code-service.md)  
+[Konfigurere den britiske GetAddress.io-postnummerudvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

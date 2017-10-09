@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Oprette og administrere kontakter
@@ -27,7 +26,7 @@ Alle eksterne enheder, som du har forretningsforhold til (f.eks. kunder, mulige 
 
 Du kan registrere oplysninger baseret på et firma eller en person i det pågældende firma. Du kan også oprette en uafhængig kontaktperson for personer, som ikke arbejder for et bestemt firma, men som arbejder selvstændigt eller freelance.
 
-Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. Disse opgaver vises i den raækkefølge, som de generelt udføres.
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. 
 
 | Hvis du vil | Se |
 | --- | --- |

@@ -1,5 +1,5 @@
 ---
-title: Oprette et salgstilbud | Microsoft Docs
+title: Oprette et salgstilbud til en kunde | Microsoft Docs
 description: "Beskriver, hvordan du opretter et salgstilbuds- eller tilbudsanmodningsdokument for at registrere dit tilbud til en kunde om at sælge produkter i henhold til bestemte betingelser."
 documentationcenter: 
 author: SorenGP
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6d1c4a937a8030c2f6dbef578a5d5f168faafc31
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-offers"></a>Fremgangsmåde: Fremsætte tilbud
@@ -70,7 +69,7 @@ Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en 
 16. I feltet **Send mail** skal du udfylde de resterende felter og gennemse det integrerede salgstilbud. Du kan finde flere oplysninger under [Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md).
 17. Hvis kunden accepterer tilbuddet, skal du vælge handlingen **Opret faktura** eller **Lav ordre**.
 
-Salgstilbuddet fjernes fra databasen. En salgsfaktura eller salgsordre oprettes på grundlag af oplysningerne i salgstilbuddet, hvor du kan behandle salget. I feltet **Tilbudsnr.** kan du på salgsfakturaen eller salgsordren se nummeret på det salgstilbud, den blev oprettet ud fra. Du kan finde flere oplysninger i [Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md) eller [Fremgangsmåde: Sælge produkter](sales-how-sell-products.md).
+Salgstilbuddet fjernes fra databasen. En salgsfaktura eller salgsordre oprettes på grundlag af oplysningerne i salgstilbuddet, hvor du kan behandle salget. I feltet **Tilbudsnr.** på salgsfakturaen eller salgsordren kan du se nummeret på det salgstilbud, den blev oprettet ud fra. Du kan finde flere oplysninger i [Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md) eller [Fremgangsmåde: Sælge produkter](sales-how-sell-products.md).
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

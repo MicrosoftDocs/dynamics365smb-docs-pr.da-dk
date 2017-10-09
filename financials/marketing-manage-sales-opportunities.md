@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 11de49ec0ffc1ff847839a913fbe538930145221
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Administrere salgsleads
@@ -25,7 +24,7 @@ Alle indgående leads kan anses for at være et salgslead. Du kan oprette leads 
 
 Før du kan begynde at bruge leadadministration, skal du definere salgsprocesser og salgsprocesfaser. Efterhånden som du opretter leads, bør du angive oplysninger om kontaktperson, sælger, salgsproces og datoer samt dine anslåede værdier for salgsværdien af det pågældende lead og dit overslag over chancerne for vellykket gennemførelse.
 
-Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. Disse opgaver vises i den raækkefølge, som de generelt udføres.
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. 
 
 | Hvis du vil | Se |
 | --- | --- |

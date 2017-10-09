@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/13/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 463dcad5d918e9655cd92991403d00a76aca7d69
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: aebeb7a0e3a5fa83ba329bf222c50492f9cb003a
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-analyze-data-by-dimensions"></a>Fremgangsmåde: Analysere data efter dimensioner
@@ -25,8 +24,11 @@ I finansielle analyser er en dimension data, som du kan føje til en post som en
 
 Når du analyserer data efter dimensioner, får du større indsigt i din forretning, så du kan evaluere oplysningerne, f.eks. om hvor godt din forretning kører, hvor den blomster og hvor det ikke gør det, og hvor der bør allokeres flere ressourcer.
 
+> [!TIP]
+> For hurtigt at analysere transaktionsdata efter dimensioner kan du filtrere totaler i kontoplanen og poster i alle vinduer af typen **Poster** efter dimensioner. Kig efter handlingen **Angiv dimensionsfilter**.
+
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-set-up-an-analysis-view"></a>Sådan defineres en analyse  
 En dimensionsanalyse viser en valgt kombination af dimensioner. Du kan gemme og få vist de analyser, du har oprettet. Opsætningsoplysningerne til en analyse gemmes på et **Analysevisning**-kort, så det fremtidige analysearbejde bliver så nemt som muligt.  
@@ -78,5 +80,6 @@ Du kan opdatere en analyse vha. følgende fremgangsmåde, som startes i vinduet 
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
+[Arbejde med dimensioner](finance-dimensions.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

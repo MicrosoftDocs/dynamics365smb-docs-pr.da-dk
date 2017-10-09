@@ -1,6 +1,6 @@
 ---
 title: "Vælge brugeroplevelsen for at vise eller skjule avancerede funktioner | Microsoft Docs"
-description: "Få mere at vide, hvad niveauerne i brugeroplevelserne Basis og Pakke hver især betyder for brugergrænsefladen, funktionalitetsområderne og dit firma i Dynamics 365 for Financials."
+description: "Få mere at vide, hvad niveauerne i brugeroplevelserne Basis og Suite hver især betyder for brugergrænsefladen, funktionalitetsområderne og dit firma i Dynamics 365 for Financials."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 03/29/2017
+ms.date: 08/22/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6add50f8d24d75e58abd12d110c881628d1fa6d9
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f2336dbb8381c1ed1961ed97ab4dd782ef846a10
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-your-dynamics-365-for-financials-experience"></a>Tilpasse din Dynamics 365 for Financials-oplevelse
@@ -34,8 +33,8 @@ Følgende tabel viser de oplevelser, der i øjeblikket er tilgængelige.
 
 | Oplevelse | Indvirkning på brugergrænseflade |
 | --- | --- |
-| Basis |Viser kun grundlæggende handlinger og felter for grundlæggende forretningsområder som salg, køb, økonomi og styring af salgsmuligheder. |
-| Pakke |Viser flere handlinger og felter til kerneforretningsområder og andre områder, f.eks. projektstyring, administration af anlægsaktiver og analyse efter dimensioner. |
+| Basis |Viser kun grundlæggende handlinger og felter inden for de mest almindelige forretningsfunktioner, f.eks. salg, køb, lager og finans. |
+| Suite |Viser alle handlinger og felter for alle tilgængelige forretningsfunktioner.|
 
 ## <a name="see-also"></a>Se også
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
@@ -43,3 +42,4 @@ Følgende tabel viser de oplevelser, der i øjeblikket er tilgængelige.
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

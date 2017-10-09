@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bb79c8df5b353239802f63fc3c268c83b6eb7859
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-export-payments-to-a-bank-file"></a>Fremgangsmåde: Eksportere betalinger til en bankfil
-Når du er klar til at bogføre betalinger til dine kreditorer med brug af vinduet **Udbetalingskladde**, kan du eksportere en fil med betalingsoplysningerne på kladdelinjerne. Derefter kan du overføre filen til din elektroniske bank for at behandle de relaterede pengeoverførsler.
+Når du er klar til at bogføre betalinger til dine kreditorer eller refusioner til dine medarbejdere, kan du eksportere en fil med betalingsoplysningerne på kladdelinjerne i vinduet **Udbetalingskladde**. Derefter kan du overføre filen til din bank for at behandle de relaterede pengeoverførsler.
 
 I den generelle version af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] bliver en global udbyder af tjenester til konvertering af bankoplysninger til ethvert filformat, som kræves af din bank, konfigureret og tilsluttet. I nordamerikanske versioner kan den samme tjeneste bruges til at sende betalingsfiler som elektronisk pengeoverførsel (EFT), men med en lidt anderledes proces. Se trin 6 i afsnittet "Sådan eksporterer du betalinger til en bankfil".    
 
@@ -35,10 +34,8 @@ Brug vinduet **Kreditoverførselsjournaler** til at få vist de betalingsfiler, 
 2. Udfyld udbetalingskladdelinjer, f.eks. ved hjælp af funktionen **Lav kreditorbetalingsforslag**. Du kan finde flere oplysninger i [Fremgangsmåde: Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
 3. Udfyld felterne på betalingskladdelinjerne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
->   Hvis du bruger elektroniske pengeoverførsler, skal du vælge enten **Elektronisk betaling** eller **Elektronisk betaling-IAT** i feltet **Bankbetalingstype**.
-
-    Andre fileksporttjenester og deres formater kræver andre konfigurationsværdier i vinduerne **Bankkontokort** og **Kreditors bankkontokort**. Du får information om forkerte eller manglende konfigurationsværdier, når du prøver at eksportere filen.
+> [!NOTE]  
+>   Hvis du bruger elektroniske pengeoverførsler, skal du vælge enten **Elektronisk betaling** eller **Elektronisk betaling-IAT** i feltet **Bankbetalingstype**. Andre fileksporttjenester og deres formater kræver andre konfigurationsværdier i vinduerne **Bankkontokort** og **Kreditors bankkontokort**. Du får information om forkerte eller manglende konfigurationsværdier, når du prøver at eksportere filen.
 
 4. Når du har fuldført alle betalingskladdelinjer, skal du vælge handlingen **Eksportér**.
 5. I vinduet **Eksportér elektroniske betalinger** skal du udfylde felterne efter behov.
@@ -46,7 +43,7 @@ Brug vinduet **Kreditoverførselsjournaler** til at få vist de betalingsfiler, 
     Eventuelle fejlmeddelelser vises i faktaboksen **Fejl i betalingsfil**, hvor du også kan vælge en fejlmeddelelse for at se detaljerede oplysninger. Du skal løse alle fejl, før betalingsfilen kan eksporteres.
 
     > [!TIP]  
->   Når du bruger tjenesten til konvertering af bankdata, angiver en fælles fejlmeddelelse, at bankkontonummeret ikke har den længde, der kræves af din bank. For at undgå eller løse fejlen skal du fjerne værdien i feltet **IBAN** i vinduet **Bankkontokort** og derefter skal du i feltet **Bankkontonr.** angive et kontonummer i det format, din bank kræver.
+>   Når du bruger tjenesten til konvertering af bankdata, angiver en fælles fejlmeddelelse, at bankkontonummeret ikke har den længde, der kræves af din bank. For at undgå eller løse fejlen skal du fjerne værdien i feltet **IBAN** i vinduet **Bankkontokort** og derefter bruge feltet **Bankkontonr.** til at angive et bankkontonummer i det format, som kræves af din bank.
 
 6. I vinduet **Gem som** skal du angive den placering, filen eksporteres til, og derefter vælge **Gem**.
 
@@ -94,3 +91,4 @@ Du kan eksportere betalingsfiler igen fra vinduet **Kreditoverførselsjournaler*
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

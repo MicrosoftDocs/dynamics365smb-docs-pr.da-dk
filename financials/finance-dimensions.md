@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2017
+ms.date: 06/14/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b7b69b3419520c482cbe6a84494bbac7ef35bea1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 844668124df1897493737b28383a68a2a0a66d10
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
@@ -34,10 +33,13 @@ Jo flere dimensioner, du bruger, jo mere detaljerede rapporter kan du basere for
 * Hvilken type kunde der købte den  
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="analyzing-by-dimensions"></a>Analyse efter dimensioner
 Funktionen Dimensioner spiller en vigtig rolle i business intelligence, f.eks. når du definerer analyser. Du kan finde flere oplysninger under [Fremgangsmåde: Analyser data efter dimensioner](bi-how-analyze-data-dimension.md).
+
+> [!TIP]
+> For hurtigt at analysere transaktionsdata efter dimensioner kan du filtrere totaler i kontoplanen og poster i alle vinduer af typen **Poster** efter dimensioner. Kig efter handlingen **Angiv dimensionsfilter**.
 
 ## <a name="dimension-sets"></a>Dimensionsgrupper
 En dimensionsgruppe er en entydig kombination af dimensionsværdier. Det er gemt som dimensionsgruppeposter i databasen. Hver dimensionsgruppepost repræsenterer en enkelt dimensionsværdi. Dimensionsgruppen er identificeret med en fælles dimensionsgruppe-id, der tildeles til hver dimensionsgruppepost, der hører til dimensionsgruppen.  
@@ -104,10 +106,11 @@ I et dokument, f.eks en salgsordre, kan du tilføje dimensionsoplysninger for en
 
 Hvis du i stedet arbejder i en kladde, kan du tilføje dimensionsoplysninger til en post på samme måde, hvis du har oprettet genvejsdimensioner som felter direkte på kladdelinjer.  
 
-Du kan angive standarddimensioner for konti eller kontotyper, så dimensioner og dimensionsværdier udfyldes automatisk.  
+Du kan angive standarddimensioner for konti eller kontotyper, så dimensioner og dimensionsværdier udfyldes automatisk.
 
 ## <a name="see-also"></a>Se også
 [Business Intelligence](bi.md)  
 [Finans](finance.md)  
+[Fremgangsmåde: Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

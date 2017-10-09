@@ -1,8 +1,6 @@
 ---
 title: "Ofte stillede spørgsmål om brug af Financials | Microsoft Docs"
 description: "Giver svar på almindelige spørgsmål om, hvordan du tilmelder dig til Financials, og hvad du skal gøre for at komme i gang."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/02/2017
+ms.date: 07/27/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
@@ -45,6 +42,9 @@ Ja. Hvis du vil udvide din prøveversion, skal du kontakte Microsoft på 1-888-4
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Vores administrator har flyttet mig til en anden plan for at give mig en anden rolle, men jeg kan stadig se den samme startside i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 Dette er en smule kompliceret, men det ser ud til din administrator ikke har ændre dit Rollecenter og har tildelt brugergrupper, der svarer til den nye licens. I praksis bestemmes adgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)] af den plantype (licens), du har – den angiver rettigheder og standardstartsiden. Du kan ændre dit rollecenter manuelt i Mine indstillinger, men hvis du er blevet flyttet til en anden plan, f.eks. flyttet fra forretningsplanen til teammedlemsplanen, vises den gamle startside måske, fordi dine rettigheder ikke er blevet ændret.  
+
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Hvorfor kan jeg ikke finde denne funktionalitet i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Har du læst om en ny funktionalitet i oversigten eller på vores blog for nylig? I så fald er dine [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke blevet opgraderet til den seneste version endnu. Hvis funktionaliteten er udgivet som en udvidelse i AppSource, er der en forsinkelse mellem den udvidelse, der annonceres, og dens tilgængelighed på AppSource.
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

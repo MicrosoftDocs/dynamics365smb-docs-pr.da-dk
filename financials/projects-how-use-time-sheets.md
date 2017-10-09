@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-time-sheets-for-jobs"></a>Fremgangsmåde: Bruge timesedler for sager
@@ -30,7 +29,7 @@ Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den rele
 Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler. Du kan finde flere oplysninger i [Fremgangsmåde: Angive timesedler](projects-how-setup-time-sheets.md).
 
 > [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Pakke**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-create-a-time-sheet"></a>Sådan opretter du en timeseddel
 Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave.
@@ -71,7 +70,7 @@ Hvis dine timeseddeloplysninger forbliver de samme fra tidsperiode til tidsperio
 2. Åbn timesedlen for en period efter perioden for en eksisterende timeseddel med linjer.  
 3. Vælg handlingen **Kopier linjer fra en tidligere timeseddel**.
 
-Linjerne kopieres, herunder oplysninger som type og beskrivelse. Hvis linjen f.eks. er knyttet til en sag, kopieres **Sagsnr.** . Alle kopierede linjer har statussen **Åben**. Du kan nu redigere linjerne efter behov.
+Linjerne kopieres, herunder oplysninger som type og beskrivelse. Hvis linjen f.eks. er knyttet til en sag, kopieres **Sagsnr.**. Alle kopierede linjer har statussen **Åben**. Du kan nu redigere linjerne efter behov.
 
 ## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Sådan udfyldes en timeseddels linjer og sendes til godkendelse
 Registrering af timesedler spores i timer, standardbasisenheden for ressourcer. En timeseddel har som standard almindelige arbejdsdage fra mandag til fredag.

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>Opsætning af Relationsstyring
@@ -54,13 +53,10 @@ Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer,
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Tildele en nummerserie til kontakter og leads
 Du kan konfigurere en nummerserie til kontakter og leads. Hvis du har oprettet en nummerserie for kontakter, og du opretter en kontakt og trykker på Enter i feltet Nr. på kontaktkortet, kopieres det næste tilgængelig kontaktnummer automatisk.
 
-Du kan finde flere oplysninger om nummerserier under [Oprette nummerserier](ui-create-number-series.md).
+Du kan finde flere oplysninger om nummerserier under [Fremgangsmåde: Oprette nummerserier](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Søge efter dublerede kontakter, når der oprettes kontakter
 Du kan vælge at lade programmet søge automatisk efter dubletter, hver gang du opretter en kontaktvirksomhed, eller du kan vælge at søge manuelt, når du har oprettet kontakten. Du kan også vælge at lade programmet opdatere søgestrenge automatisk, hver gang du har ændret kontaktoplysninger eller oprettet en kontakt. Du kan angive hitprocenten til søgning, dvs. den procentdel identiske strenge som to kontakter skal have, før de betragtes som dubletter.
-
-## <a name="setting-up-email-logging"></a>Konfigurere maillogføring
-Du kan udveksle mails med dine kontaktpersoner, debitorer, kreditorer osv. Du kan sende og modtage mailmeddelelser enten fra programmet eller fra Outlook. Før du kan udveksle meddelelser på denne måde og få systemet til at gemme dem og sætte dem i kø, skal du konfigurere nogle parametre, f.eks. det tidsinterval, hvor programmet kontrollerer, om der er mails, som venter på at blive behandlet, profilnavn for maillogføring osv.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
