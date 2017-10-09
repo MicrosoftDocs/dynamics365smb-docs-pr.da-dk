@@ -1,0 +1,1 @@
+<span data-ttu-id="ba574-101">Microsoft Dynamics NAV Serveradministrationsværktøj</span><span class="sxs-lookup"><span data-stu-id="ba574-101">Microsoft Dynamics NAV Server Administration tool</span></span>
