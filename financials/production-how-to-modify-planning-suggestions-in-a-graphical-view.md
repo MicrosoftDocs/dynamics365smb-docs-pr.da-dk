@@ -67,7 +67,6 @@ Hvis du vil implementere ændringerne af forsyningsplanen, skal du følge de akt
  |Grøn cirkel med et ikon formet som en disk med et rødt kryds|Foreslået forsyningsordre med aktionsmeddelelsen *Annuller*.<br /><br /> -   Kan ikke ændres.<br />-   Synlig, når feltet **Medtag planlægningsforslag** er markeret (grøn graf).|  
  |Grøn cirkel med et ikon formet som en disk med en stjerne|Foreslåede forsyningsordrer med aktionsmeddelelsen *Ny*.<br /><br /> -   Kan ændres.<br />-   Synlig, når feltet **Medtag planlægningsforslag** er markeret (grøn graf).|  
  |Grøn cirkel med et ikon formet som en disk med en eller to pile|Forslåede forsyningsordrer med aktionsmeddelelsen *Omplanlæg*, *Ret antal* eller *Omplanlæg og ret antal*<br /><br /> -   Kan ændres.<br />-   Synlig, når feltet **Medtag planlægningsforslag** er markeret (grøn graf).<br /><br /> Pilene afspejler retningen af planlægningsforslaget. For eksempel afspejler en venstre pil sammen med en opadgående pil en *Omplanlæg og ret antal*-aktionsmeddelelse, der består af en bagudrettet omplanlægning og et antalsforøgelse.|  
- ||  
 
 Når du får adgang til rullemenuen for oversigtspanelet **Tidslinje**, vises følgende funktioner, afhængigt af dit valg  
 

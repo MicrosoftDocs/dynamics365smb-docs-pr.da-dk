@@ -50,13 +50,12 @@ Derefter kan du oprette kolonner som disse:
 
 Programmet samler resultaterne af rapporten i matrixvinduet **Analyserapport** på grundlag af de linjer og kolonner, som du har angivet, som i dette eksempel:  
 
-|||||  
+| |Salg indeværende måned|Salg foregående måned|Salg foregående måned i %|  
 |-|-|-|-|  
-||Salg indeværende måned|Salg foregående måned|Salg foregående måned i %|  
-|Computere||||  
-|Skærme||||  
-|Reservedele||||  
-|I alt||||  
+|Computere| | | |  
+|Skærme| | | |  
+|Reservedele| | | |  
+|I alt| | | |  
 
  Du kan f.eks. oprette et sæt linjer og flere forskellige sæt kolonneformater, så du får vist henholdsvis månedlige og årlige rapporter.
 
