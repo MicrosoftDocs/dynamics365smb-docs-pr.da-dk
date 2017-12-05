@@ -1,6 +1,6 @@
 ---
-title: Oplev Dynamics 365 for Financials | Microsoft Docs
-description: "Få mere at vide om funktioner og arbejdsscenarier i Dynamics 365 for Financials, der er en forretningsstyringsløsning til små og mellemstore virksomheder."
+title: "Mød Dynamics 365 Business edition | Microsoft Docs"
+description: "Få mere at vide om funktioner og arbejdsscenarier i Dynamics 365 Business edition, der er en forretningsstyringsløsning til små og mellemstore virksomheder."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 08/23/2017
+ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d44f71f9f52c60a789cfb84f3f7a96daa0f9cab1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -66,10 +66,12 @@ Overvejer du at tegne abonnement? Du kan nemt gå fra demonstrationsregnskabet o
 Hvis du vil oprette et regnskab for at afprøve ting, skal du gå til menuen **Indstillinger** i øverste højre hjørne og ændre virksomheden til **Min virksomhed**. Log af [!INCLUDE[d365fin](includes/d365fin_md.md)], og log på igen for at anvende ændringerne. En assisteret opsætningsvejledning hjælper dig med at angive basisoplysninger om virksomheden. Når du har gjort det, skal du på startsiden vælge handlingen **Assisteret opsætning**.  
 
 ## <a name="ready-to-subscribe"></a>Er du klar til at tegne abonnement?
-Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter at tegne abonnement, kan du bruge linket i meddelelsen til at komme i forbindelse med Microsoft. Du kan også kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales-teamet på [Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707).  
+Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter at tegne abonnement, kan du bruge linket i meddelelsen til at komme i forbindelse med Microsoft. Du kan også kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales-teamet på [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andre Dynamics 365-apps
-Gå til oplysninger om de andre Dynamics 365-apps ved at vælge [Dynamics 365](https://docs.microsoft.com/dynamics365)-hyperlinket i det blå banner øverst på denne side. Du kan også få mere at vide på [Dynamics 365-webstedet](https://www.microsoft.com/en-us/dynamics365/).
+Gå til oplysninger om de andre Dynamics 365-apps ved at vælge [Dynamics 365](https://docs.microsoft.com/dynamics365)-hyperlinket i det blå banner øverst på denne side. Du kan også få mere at vide på [Dynamics 365-webstedet](https://www.microsoft.com/en-us/dynamics365/).  
+
+Hvis du er revisor, kan du tilmelde dig [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] og få en problemfri integration med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Velkommen til Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -80,7 +82,7 @@ Gå til oplysninger om de andre Dynamics 365-apps ved at vælge [Dynamics 365](h
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobilenhed](install-mobile-app.md)  
 [Dokumentation til Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365 for Financials](https://go.microsoft.com/fwlink/?linkid=828707)  
+[Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

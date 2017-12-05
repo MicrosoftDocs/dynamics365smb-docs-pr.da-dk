@@ -1,6 +1,6 @@
 ---
 title: Fakturere dine reservationer i Dynamics 365 | Microsoft Docs
-description: "Få mere at vide, hvordan du kan udstede flere fakturaer ad gangen fra Microsoft Bookings i Dynamics 365 for Financials."
+description: "Få mere at vide, hvordan du kan udstede flere fakturaer ad gangen fra Microsoft Bookings i Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1f1a1645ba27a3b42d67c11f7472c283ca44dbd1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 154a4719cdd0e28280c5b0a5de85479beb0b9262
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)]

@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d945858b3a26126a2def48d88ff1132f598c0916
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 9ddb096b1d09962d96baee9aeefdc5239aa4597a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="assembly-management"></a>Montagestyring
 For at støtte virksomheder, som leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, indeholder [!INCLUDE[d365fin](includes/d365fin_md.md)] funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.  
 
- Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste.
+ Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md).
 
- Montageordrer er interne ordrer, ligesom produktionsordrer, der bruges til at administrere montageprocessen og til at forbinde salgskravene med de involverede lageraktiviteter. Montageordrer adskiller sig fra andre ordretyper, da de omfatter både afgang og forbrug, når de bogføres. Montageordrehovedet fungerer på samme måde en salgsordrelinje, og montageordrelinjerne fungerer på samme måde som forbrugskladdelinjer. Du kan finde flere oplysninger i Montageordre.  
+ Montageordrer er interne ordrer, ligesom produktionsordrer, der bruges til at administrere montageprocessen og til at forbinde salgskravene med de involverede lageraktiviteter. Montageordrer adskiller sig fra andre ordretyper, da de omfatter både afgang og forbrug, når de bogføres. Montageordrehovedet fungerer på samme måde en salgsordrelinje, og montageordrelinjerne fungerer på samme måde som forbrugskladdelinjer.  
 
  For at støtte en for JIT-lagerstrategi og muligheden for at tilpasse produkter til debitorkrav, kan montageordrer automatisk oprettes og kædes sammen, så snart salgsordrelinjen er oprettet. Sammenkædningen mellem salgsbehovet og montageleveringen gør det muligt for salgsordrebehandleren at tilpasse montageelementet løbende, love leveringsdatoer ifølge komponenttilgængeligheden og bogføre afgang og levering af montageelementet direkte fra deres salgsordregrænseflade. Du kan finde flere oplysninger i [Sådan sælger du en vare, der er monteret efter ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -38,8 +38,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |------------|-------------|  
 |Få mere at vide om forskellen mellem at montere elementer korrekt, før levering af salgsordrer og montering af varer, der er bestemt til oplagring.|[Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md)|
 |Udfyld felter på lokationskort og lageropsætning for at definere, hvordan varer strømmer til og fra montageafdelingen.|[Fremgangsmåde: Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)|
-|Tilpas et montageelement til en kundes anmodning under salgsprocessen, og konverter til et salg ved accept.|[Sådan oprettes tilbud på montage efter ordre-salg](assembly-how-to-quote-an-assemble-to-order-sale.md)|
-|Kombiner komponenter for at oprette et element i en enkel proces, til bestilling eller til lager.|[Fremgangsmåde: Montere elementer](assembly-how-to-assemble-items.md)|  
+|Tilpas et montageelement til en kundes anmodning under salgsprocessen, og konverter til et salg ved accept.|[Fremgangsmåde: Oprette tilbud på montage til ordre-salg](assembly-how-to-quote-an-assemble-to-order-sale.md)|
+|Kombiner komponenter for at oprette et element i en enkel proces, til bestilling eller til lager.|[Fremgangsmåde: Montere varer](assembly-how-to-assemble-items.md)|  
 |Sælg montageelementer, der ikke er tilgængelige i øjeblikket, ved at oprette en tilknyttet montageordre for at levere den fulde eller delvise salgsordremængde.|[Sådan sælger du en vare, der er monteret efter ordre](assembly-how-to-sell-items-assembled-to-order.md)|
 |Når nogle montage til ordre-elementer allerede findes i lageret, kan du fratrække mængden fra montageordren og reservere den fra lageret.|[Sådan sælges lagervarer i montage efter ordre-flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |Når du sælger montageelementer fra lageret, og alle elementer ikke er tilgængelige, kan du starte en montageordre til automatisk at levere en del af eller hele salgsordremængden.|[Sådan sælger du montage efter ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|

@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 81781676adf27a4f1c1d478bb2b4bd8248551468
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: f7ee9914d70474e912414ecd4de9a4cf16fa4e45
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="exchanging-data"></a>Udveksle data
 Du kan udveksle data mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne filer eller streams i forbindelse med almindelige forretningsrelaterede opgaver, f.eks. afsendelse og modtagelse af elektroniske dokumenter og importere og eksportere bankfiler.  
 
-Før du kan sende og modtage elektroniske dokumenter eller importere og eksportere bankfiler, skal du konfigurere dataudvekslingsstrukturen for at behandle involverede filer eller streams. Derudover skal du oprette relaterede områder. De omfatter stamdata for debitorer, som du sender elektroniske fakturaer til og tjenesten til konvertering af bankdata, hvis du distribuere bankfilkonverteringer til en ekstern internetudbyder. Du kan finde flere oplysninger i [Konfigurere dataudveksling](across-set-up-data-exchange.md).  
+Før du kan sende og modtage elektroniske dokumenter eller importere og eksportere bankfiler, skal du konfigurere dataudvekslingsstrukturen for at behandle involverede filer eller streams. Derudover skal du oprette relaterede områder. De omfatter stamdata for debitorer, som du sender elektroniske fakturaer til og tjenesten til konvertering af bankdata, hvis du distribuere bankfilkonverteringer til en ekstern internetudbyder. Du kan finde flere oplysninger i [Konfiguration af dataudveksling](across-set-up-data-exchange.md).  
 
  Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
@@ -38,7 +38,7 @@ Før du kan sende og modtage elektroniske dokumenter eller importere og eksporte
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
-[Udveksle data som elektroniske dokumenter](across-data-exchange.md)  
+[Udveksle data elektronisk](across-data-exchange.md)  
 [Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md)   
 [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md)  
 [Indgående bilag](across-income-documents.md)  

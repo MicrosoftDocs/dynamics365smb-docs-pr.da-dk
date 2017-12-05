@@ -13,10 +13,10 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 142c1649438ad31b604767d6b6f35a1caeb3f9e4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 289213b9c44b07387fd0dcf315b9d08750bdd9f7
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Fremgangsmåde: Oprette en debitor, kreditor eller bankkonto fra en kontakt
@@ -39,5 +39,5 @@ Kontaktoplysningerne overføres fra kortet **Kontakt** til kortet **Bankkonto**,
 [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Fremgangsmåde: Knytte kontakter til debitorer, kreditorer og bankkonti](marketing-how-link-contact.md)  
 [Tildele forretningsrelationer til en kontakt](marketing-business-relations.md#AssignBusRelContact)  
-[Arbejde med Financials](ui-work-product.md)
+[Arbejde med Dynamics 365](ui-work-product.md)
 

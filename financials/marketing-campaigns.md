@@ -1,8 +1,6 @@
 ---
-title: "Opsætning af marketingkampagner i Financials | Microsoft Docs"
-description: "Beskriver, hvordan du kan oprette og styre marketingkampagner i Dynamics 365 for Financials som en hjælp til at identificere og tiltrække potentielle kunder og bibeholde kunder."
-services: project-madeira
-documentationcenter: 
+title: "Opsætning af marketingkampagner i Dynamics 365 | Microsoft Docs"
+description: "Beskriver, hvordan du kan oprette og styre marketingkampagner i Dynamics 365 som en hjælp til at identificere og tiltrække potentielle kunder og bibeholde kunder."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administration af marketingkampagner
@@ -31,7 +29,7 @@ Du kan oprette et kampagnekort til hver kampagne, som du vil holde styr på. Du 
 Du kan slette kampagneposter, f.eks. hvis de registrerer en handling, der er annulleret. Kun annullerede kampagneposter kan slettes.
 
 ### <a name="selecting-the-target-audience"></a>Vælge målgruppen
-Når du har oprettet en kampagne, kan du begynde at oprette segmenter, der specificerer målgruppen for kampagnen. Der kan finde flere oplysninger under [Administrere målgrupper](marketing-segments.md).
+Når du har oprettet en kampagne, kan du begynde at oprette målgrupper, der specificerer målgruppen for kampagnen. Der kan finde flere oplysninger under [Administrere målgrupper](marketing-segments.md).
 
 ### <a name="registering-discount-percentages"></a>Registrere rabatprocenter
 Når du har oprettet en kampagne, besluttet, hvilken målgruppe kampagnen skal rettes mod, og angivet start- og slutdato, skal du registrere den rabatprocent, som kunden får på de individuelle varer på linjerne i vinduet **Salgslinjerabatter**. Du kan også registrere salgsprisen for de enkelte varer på linjerne i vinduet **Salgspriser**. Du kan få adgang til begge vinduer fra kampagnekortet.
@@ -52,5 +50,5 @@ Kampagner udføres af sælgere, og du skal oprette aktiviteter, der repræsenter
 [Administrere kontakter](marketing-contacts.md)  
 [Administrere målgrupper](marketing-segments.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
-[Arbejde med Financials](ui-work-product.md)  
+[Arbejde med Dynamics 365](ui-work-product.md)  
 

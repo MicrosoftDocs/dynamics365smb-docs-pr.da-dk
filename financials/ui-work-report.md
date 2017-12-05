@@ -13,21 +13,23 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: badcdee3dfa5bec3c2462149989cf9d4fb5af2a0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 16c9c8c896e3517f08a7326eef88ebc646834b1a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="working-with-reports"></a>Arbejde med rapporter
 En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse og kan udskrives. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
 
-Du kan finde rapporter under fanen **Rapporter** på valgte sider, eller du kan bruge søgefunktionen til at finde rapporter efter navn. Når du åbner en rapport, får du vist en side, hvor du kan angive oplysninger (indstillinger og filtre), som bestemmer, hvad der skal med i rapporten. For eksempel, afhængigt af rapporten, kan du angive et datointerval, en bestemt post, f.eks. en kunde, eller sorteringsrækkefølge.
+Du kan finde rapporter under fanen **Rapporter** på valgte sider, eller du kan bruge søgefunktionen til at finde rapporter efter navn. Når du åbner en rapport, får du vist en side, hvor du kan angive oplysninger (indstillinger og filtre), som bestemmer, hvad der skal med i rapporten. For eksempel, afhængigt af rapporten, kan du angive et datointerval, en bestemt post, f.eks. en kunde, eller sorteringsrækkefølge. Her er et eksempel:
+
+![Rapportindstillinger](media/report_options.png "Rapportindstillinger")
 
 ## <a name="previewing-a-report"></a>Visning af et rapporteksempel
 Vælg **Vis udskrift** for at se rapporten i internetbrowseren. Peg på et område i rapporten for at få vist menulinjen.  
 
-![Værktøjslinje til visning af rapporteksempel](media/report_viewer.png "Værktøjslinje til visning af rapporteksempel").
+![Værktøjslinje til visning af rapporteksempel](media/report_viewer.png "Værktøjslinje til visning af rapporteksempel")
 
 Brug menulinjen til at:
 
@@ -42,10 +44,11 @@ Brug menulinjen til at:
     Du kan flytte det synlige område af rapporten i en vilkårlig retning, så du kan se andre områder eller rapporten. Dette er nyttigt, når du har zoomet ind for at få vist detaljer.  Ved hjælp af musen f.eks. skal du trykke på og holde museknappen nede et vilkårligt sted i rapporteksemplet og derefter bevæge musen.
 
 -   Hent til en PDF-fil på din computer eller netværket.
+-   Udskriv
 
 
 ## <a name="saving-a-report"></a>Gemme en rapport
-Du kan gemme en rapport som et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument ved at vælge **Send til**, og derefter vælge den ønskede indstilling. 
+Du kan gemme en rapport som et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument ved at vælge **Send til**, og derefter vælge den ønskede indstilling.
 
 ## <a name="ScheduleReport"></a> Planlægge kørsel af en rapport
 Du kan planlægge en rapport til at køre på en bestemt dato og et bestemt klokkeslæt. Planlagte rapporter indsættes i jobkøen og behandles på det planlagte tidspunkt, ligesom andre job. Du kan vælge at gemme den behandlede rapport i en fil, f.eks. Excel, Word eller PDF, udskrive den til den ønskede printer eller kun behandle rapporten. Hvis du vælger at gemme rapporten i en fil, bliver den behandlede rapport sendt til området **Rapportindbakke** på din startside, hvor du kan se den.
@@ -53,7 +56,7 @@ Du kan planlægge en rapport til at køre på en bestemt dato og et bestemt klok
 Du kan planlægge en rapport, når du åbner en rapport. Du vælger handlingen **Skema**, og derefter angiver du oplysninger som printer og dato og klokkeslæt. Rapporten føjes derefter til opgavekøen og køres på det angivne tidspunkt. Når rapporten er behandlet, fjernes elementet fra jobkøen. Hvis du har gemt den behandlede rapport til en fil, er den tilgængelig i området **Rapportindbakke**.
 
 ## <a name="PrintReport"></a>Udskrive en rapport
-Når du vil udskrive en rapport, er du nødt til at hente rapporten som et PDF-, Word- eller Excel-dokument først ved at vælge knappen **Send til**. Nu, du kan enten åbne et rapportdokumentet med det samme og udskrive det, eller gemme det og udskrive det senere.
+Du kan udskrive en rapport fra knappen **Udskriv** på siden Indstillinger, der vises, når du åbner rapporten eller på menulinjen i Vis udskrift.
 
 ## <a name="using-saved-settings"></a>Bruge gemte indstillinger
 En rapport kan omfatte en eller flere poster i feltet **Gemte indstillinger**. *Gemte indstillinger* er grundlæggende en foruddefineret gruppe af indstillinger og filtre, som du kan anvende i rapporten, før du ser et rapporteksempel eller sender rapporten til en fil. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data.
@@ -69,5 +72,5 @@ Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvor den arrangere
 ## <a name="see-also"></a>Se også
 [Angive printervalg for rapporter](ui-specify-printer-selection-reports.md)  
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 

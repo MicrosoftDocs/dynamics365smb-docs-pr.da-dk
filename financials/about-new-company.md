@@ -1,6 +1,6 @@
 ---
 title: "Oprette nye virksomheder ved hjælp af en assisterende opsætningsvejledning | Microsoft Docs"
-description: "Det er nemt at oprette en ny, tom virksomhed i Dynamics 365 for Financials. En assisterede opsætningsvejledning hjælper dig gennem trinene, og du kan indlæse eksisterende forretningsdata."
+description: "Det er nemt at oprette en ny, tom virksomhed i Dynamics 365 Business edition. En assisterede opsætningsvejledning hjælper dig gennem trinene, og du kan indlæse eksisterende forretningsdata."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 3ff3c7af87033595d64e583b62b0e0242b22d2f1
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Oprettelse af nye virksomheder i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -44,10 +44,10 @@ Når du logger på en ny virksomhed, kører guiden **Virksomhedsopsætning** aut
 
 Din virksomhedsadresse medtages f.eks. i fakturaer og andre dokumenter, bankoplysningerne bruges i betalinger, og kostmetoden bruges til at beregne priser samt lagerværdi.  
 
-Når du har styr på det grundlæggende, kan du oprette de resterende centrale områder. Du er klar til at tilføje forretningsdata, f.eks. debitorer og kreditorer. Du kan finde flere oplysninger i [Konfigurere Dynamics 365 for Financials](setup.md).  
+Når du har styr på det grundlæggende, kan du oprette de resterende centrale områder. Du er klar til at tilføje forretningsdata, f.eks. debitorer og kreditorer. Du kan finde flere oplysninger i [Konfigurere Dynamics 365 Business edition](setup.md).  
 
 ## <a name="see-also"></a>Se også
-[Konfigurere Dynamics 365 for Financials](setup.md)  
+[Konfigurere Dynamics 365 Business edition](setup.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

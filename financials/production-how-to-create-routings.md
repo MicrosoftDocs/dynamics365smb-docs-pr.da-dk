@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>Fremgangsmåde: Oprette ruter
@@ -28,7 +28,7 @@ Hvad angår produktionsstyklister, tildeles ruterne til slutvaren fra produktion
 
 Før du kan oprette en rute, skal følgende betingelser være opfyldt:  
 
-- Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere nye produkter](inventory-how-register-new-items.md).
+- Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).
 - Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Sådan oprettes en rute  
@@ -53,7 +53,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 12.  Fortsæt med at udfylde linjer for alle de operationer, der kræves for at producere den pågældende vare.  
 13.  Du kan kopiere linjer fra en eksisterende rute ved at vælge handlingen **Kopier rute** for at vælge eksisterende linjer.  
 14. Godkend ruten.  
-15. Du kan nu knytte den nye rute til kortet for den pågældende produktionsvare ved at udfylde feltet **Rutenr.**. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere nye produkter](inventory-how-register-new-items.md).  
+15. Du kan nu knytte den nye rute til kortet for den pågældende produktionsvare ved at udfylde feltet **Rutenr.**. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Husk også at genberegne varens standardkostpris fra kortet **Vare**: Vælg handlingen **Produktion**, vælg handlingen **Beregn standardkostpris**, og vælg derefter handlingen **Alle niveauer**.  

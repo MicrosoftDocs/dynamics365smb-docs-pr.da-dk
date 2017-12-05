@@ -1,6 +1,6 @@
 ---
 title: "Sådan oprettes elektroniske dokumenter ved hjælp af OIOUBL | Microsoft Docs"
-description: "Når du sælger varer eller tjenesteydelser til en kunde i den offentlige sektor, skal du sende dokumenter elektronisk. I ADD INCLUDE<!--[!INCLUDE[navnow](how-to-set-up-customers-for-oioubl.md)]."
+description: "Når du sælger varer eller tjenesteydelser til en kunde i den offentlige sektor, skal du sende dokumenter elektronisk."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fa9029fd5fb0af3bb98003c0c79b0f7e1e09caec
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6a524d65f3994ae882f9addd58c9c144defa7913
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-electronic-documents-by-using-oioubl"></a>Fremgangsmåde: Oprette elektroniske dokumenter ved hjælp af OIOUBL

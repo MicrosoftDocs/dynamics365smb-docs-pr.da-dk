@@ -1,8 +1,6 @@
 ---
 title: "Metoder til fejlfinding eller løsning af problemer i forbindelse med selvbetjeningstilmelding | Microsoft Docs"
-description: "Få mere at vide om de almindeligste årsager til, hvorfor du muligvis ikke kan fuldføre tilmeldingen til Dynamics 365 for Financials, og hvordan du løser problemet."
-services: project-madeira
-documentationcenter: 
+description: "Få mere at vide om de almindeligste årsager til, hvorfor du muligvis ikke kan fuldføre tilmeldingen til Dynamics 365 Business edition, og hvordan du løser problemet."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Fejlfinding af selvbetjeningstilmelding
 Tilmelding til [!INCLUDE[d365fin](includes/d365fin_md.md)] er nemt og kan udføres hurtigt. Du kan oprette en gratis konto, selvom du en eksisterende virksomhed. Denne artikel løser problemer, der måtte opstå under tilmeldingen.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>Hvilken mailadresse kan jeg bruge til Financials?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Hvilken mailadresse kan jeg bruge til Dynamics 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kræver, at du bruger en arbejds- eller skolemailadresse til at tilmelde dig. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke mailadresser, som leveres af forbrugermailtjenester eller telekommunikationsudbydere. Dette omfatter outlook.com, hotmail.com, gmail.com og andre.
 
 Hvis du forsøger at tilmelde dig med en privat mailadresse, får du en meddelelse om, at du skal bruge en arbejds- eller skolemailadresse.
@@ -40,5 +38,4 @@ I mange tilfælde kan registrering til [!INCLUDE[d365fin](includes/d365fin_md.md
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

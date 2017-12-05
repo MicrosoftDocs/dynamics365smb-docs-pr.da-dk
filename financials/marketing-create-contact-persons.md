@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-persons"></a>Oprette kontaktpersoner
@@ -28,7 +28,7 @@ Det kan også være, at der er brug for at få oversat noget publikationer om di
 
 Når du registrerer flest mulige oplysninger om en kontaktperson, sikrer du, at alle grupper i firmaet kan finde relevante oplysninger.
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. 
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 | Hvis du vil | Se |
 | --- | --- |
@@ -41,5 +41,5 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også
 [Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  
 [Oprette og administrere kontakter]()  
-[Arbejde med Financials](ui-work-product.md)
+[Arbejde med Dynamics 365](ui-work-product.md)
 

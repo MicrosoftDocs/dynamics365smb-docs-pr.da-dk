@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ba5203013af329f1d59432a5e5800fe486658cc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designoplysninger: Internt lagerflow
@@ -46,7 +46,7 @@ Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af 
 
  Der findes følgende montagestrømme.  
 
-|Workflow|Description|  
+|Workflow|Beskrivelse|  
 |----------|---------------------------------------|  
 |Montage til lager|Komponenterne skal bruges på en montageordre, hvor outputtet gemmes i lageret.<br /><br /> Dette lagerflow administreres i vinduet **Flytning (lager)**. En tag-linje angiver, hvor komponenterne skal tages. En placeringslinje angiver, hvor komponenterne skal placeres.|  
 |Montage til ordre|Komponenterne, der skal bruges på en montageordre, der er knyttet til en salgsordre, der leveres, når den solgte vare er monteret.|  

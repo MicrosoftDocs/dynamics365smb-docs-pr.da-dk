@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: aa5ee6d9942390a2b4ad0aa8787172b0f7b141d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 86fd8f6b15b8a2f868db2938278df6147a092725
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Opsætte lagerværdi og kostprisberegning
@@ -39,6 +39,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="see-also"></a>Se også  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
-[Arbejde med Financials](ui-work-product.md)  
+[Arbejde med Dynamics 365](ui-work-product.md)  
 [Finans](finance.md)  
 

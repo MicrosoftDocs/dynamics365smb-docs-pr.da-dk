@@ -1,6 +1,6 @@
 ---
 title: "Tilføje din eksterne revisor i Financials | Microsoft Docs"
-description: "Få mere at vide om, hvordan du kan invitere din eksterne revisor indenfor i Dynamics 365 for Financials."
+description: "Få mere at vide om, hvordan du kan invitere din eksterne revisor indenfor i Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 09/05/2017
+ms.date: 11/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b7efbb724f322d371e9e1b725612cb4eb0b3ceb2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere din eksterne revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,7 @@ Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnska
 Når din revisor har fået adgang til dit [!INCLUDE[d365fin](includes/d365fin_md.md)], kan han eller hun bruge rollecenteret **Regnskabsmedarbejder**, der giver nem adgang til de mest relevante vinduer for deres arbejde.  
 
 > [!NOTE]  
->  Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din Financials-oplevelse](ui-experiences.md).  
+>  Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din Dynamics 365-oplevelse](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere din revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I den seneste version af [!INCLUDE[d365fin](includes/d365fin_md.md)] har vi gjort det nemt for dig at invitere din eksterne revisor. Du skal blot åbne vinduet **Brugere** og derefter vælge handlingen **Inviter ekstern revisor** på båndet. En mail er gjort klar til dig, så du blot skal tilføje din revisors arbejds-mail og sende invitationen.  
@@ -31,7 +31,10 @@ I den seneste version af [!INCLUDE[d365fin](includes/d365fin_md.md)] har vi gjor
 ![Inviter din revisor indenfor](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Dette kræver, at du har oprettet SMTP-mail. Du kan gøre dette selv eller bede din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Desuden du skal være logget på [!INCLUDE[d365fin](includes/d365fin_md.md)] som brugeradministrator, og ikke som virksomhedsejer eller andre brugere.  
+>  Dette kræver, at du har oprettet SMTP-mail. Du kan gøre dette selv eller bede din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Desuden du skal være logget på [!INCLUDE[d365fin](includes/d365fin_md.md)] som brugeradministrator, og ikke som virksomhedsejer eller andre brugere. Endelig skal du have forladt demonstrationsvirksomheden, så du har en Azure Active Directory-administrator.  
+
+> [!IMPORTANT]  
+>  Revisorens mailadresse skal være en arbejdsadresse, der er baseret på Active Directory. Hvis revisoren bruger en anden type mail, så kan invitationen ikke sendes.  
 
 ### <a name="separate-license"></a>Separat licens
 Revisoren føjes til din Active Directory-lejer i baggrunden. Administratoren kan kontrollere, at revisoren har accepteret invitationen og tildeles den rigtige licens. Fremgangsmåden for at gøre dette afhænger af, hvilken kontotype du brugte, da du tilmeldte dig [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette emne er baseret på brugen af en Office 365-konto, som bruger Microsoft Azure Active Directory.  
@@ -42,7 +45,7 @@ En af licenstyperne for [!INCLUDE[d365fin](includes/d365fin_md.md)] er *Ekstern 
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
-[Fremgangsmåde: Konfigurere e-mail manuelt eller ved hjælp af den assisterede opsætning](madeira-how-setup-email.md)  
-[Revisoroplevelser i Dynamics 365 for Financials](finance-accounting.md)  
-[Financials for revisorer på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Fremgangsmåde: Konfigurere mail manuelt eller ved hjælp af den assisterede opsætning](madeira-how-setup-email.md)  
+[Revisoroplevelser i Dynamics 365 Business edition](finance-accounting.md)  
+[Dynamics 365 for revisorer på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

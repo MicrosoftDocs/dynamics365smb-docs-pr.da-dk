@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Fremgangsmåde: Køre fuld planlægning, MPS og MRP
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Fremgangsmåde: Køre fuld planlægning, MPS eller MRP
 At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hovedproduktionsplanen (MPS) på basis af eksisterende og forventet efterspørgsel. Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning – materialebehovsplanlægning) efter anmodning, eller begge dele kan beregnes på én gang.  
 
--   *MPS* defineres som beregning af en hovedplan på basis af et faktisk behov og produktionsforecast. MPS-beregningen bruges til slutvarer, der har en forecast- eller en salgsordrelinje. Disse varer kaldes "MPS-varer" og identificeres dynamisk, når beregningen begynder.  
--   *MRP* defineres som beregning af materialebehov på basis af et faktisk komponentbehov og et produktionsforecast på komponentniveau. MRP beregnes kun for varer, der ikke er MPS-varer. Det overordnede formål med MRP er at udarbejde formelle planer med tidsangivelser og opdelt efter varer, så den rigtige vare kan leveres på det rigtige tidspunkt, til det rigtige sted og i det rette antal.  
+-   MPS defineres som beregning af en hovedplan på basis af et faktisk behov og produktionsforecast. MPS-beregningen bruges til slutvarer, der har en forecast- eller en salgsordrelinje. Disse varer kaldes MPS-varer og identificeres dynamisk, når beregningen begynder.  
+-   MRP defineres som beregning af materialebehov på basis af et faktisk komponentbehov og et produktionsforecast på komponentniveau. MRP beregnes kun for varer, der ikke er MPS-varer. Det overordnede formål med MRP er at udarbejde formelle planer med tidsangivelser og opdelt efter varer, så den rigtige vare kan leveres på det rigtige tidspunkt, til det rigtige sted og i det rette antal.  
 
 Der bruges de samme planlægningsalgoritmer til både MPS og MRP. Planlægningsalgoritmerne omhandler modregning, genbrug af eksisterende genbestillingsordrer og aktionsmeddelelser. Under planlægningen tages der højde for, hvad der er brug for, eller hvad der vil blive brug for (efterspørgsel), og hvad der allerede er på lager eller forventes at være på lager (udbud). Når disse antal sammenholdes og modregnes, giver [!INCLUDE[d365fin](includes/d365fin_md.md)] aktionsmeddelelser. Aktionsmeddelelser er forslag til oprettelse af en ny ordre, ændring af en ordre (antal eller dato) eller annullering af en allerede bestilt ordre. Betegnelsen "ordre" omfatter indkøbsordrer, montageordrer, produktionsordrer og overflytningsordrer.
 
@@ -51,7 +51,7 @@ Hver planlagt metode, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] klad
 2.  Vælg handlingen **Beregn totalplan** for at åbne vinduet **Beregn Plan**.  
 3.  I oversigtspanelet **Indstillinger** skal du udfylde felterne som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Vælg det for at starte beregningen af en overordnet produktionsplan. Varer med åbne salgsordrer eller produktionsforecasts indgår i kørslen.|  
     |**MRP**|Vælg at starte materialebehovsplanlægningen. Varer med tilhørende behov indgår i kørslen. Typisk køres MPS og MRP på samme tid. Hvis du vil køre MPS og MRP samtidigt, skal du vælge feltet **Kombineret hovedplan-/MRP-beregning** i oversigtspanelet **Planlægning** i vinduet **Produktionsopsætning**.|  
@@ -69,7 +69,7 @@ Hver planlagt metode, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] klad
 1.  I vinduet **Planlægningskladde** skal du vælge handlingen **Udfør aktionsmeddelelse**.  
 2.  Angiv, hvordan du opretter forsyninger i oversigtspanelet **Indstillinger**. Udfyld felterne som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Produktionsordre**|Angiv, hvordan du vil oprette produktionsordrer. Du kan gøre det direkte fra planlægningslinjeforslagene. Du kan oprette enten planlagte eller fastlagte produktionsordrer.|  
     |**Montageordre**|Angiv, hvordan du vil oprette montageordrer. Du kan gøre det direkte fra planlægningslinjeforslagene.|  
@@ -97,7 +97,7 @@ Når du har læst forslaget i aktionsmeddelelsen og bestemt dig til, om du vil e
 
 Hvis der ikke er overensstemmelse mellem forsyning og behov, oprettes følgende aktionsmeddelelser.  
 
-|Aktionsmeddelelse|Description|  
+|Aktionsmeddelelse|Beskrivelse|  
 |--------------------|---------------------------------------|  
 |**Nyt**|Hvis forslagene i aktionsmeddelelserne **Ret antal**, **Omplanlæg** eller **Omplanlæg & ret antal** i eksisterende ordrer ikke er tilstrækkeligt til at imødekomme et behov, oprettes aktionsmeddelelsen **Ny**, som dermed foreslår, at der oprettes en ny ordre. Aktionsmeddelelsen **Ny** oprettes også, hvis der ikke findes eksisterende forsyningsordrer inden for den pågældende vares genbestillingscyklus. Denne parameter bestemmer, hvor mange perioder fremad og bagud i disponeringsprofilen, der skal søges efter en ordre, hvor planlægningen kan ændres.|  
 |**Ret antal**|Hvis der sker en ændring af antallet til det behov, der kan spores til en eller flere forsyningsordrer, oprettes aktionsmeddelelsen **Ret antal**, hvilket angiver, at det tilhørende forsyningsantal skal ændres, så det svarer til behovsændringen. Hvis der opstår et nyt behov, søger [!INCLUDE[d365fin](includes/d365fin_md.md)] efter den nærmeste eksisterende forsyningsordre, der ikke er reserveret, inden for genbestillingscyklen, hvorefter der udstedes en aktionsmeddelelse med forslaget Ret antal til denne ordre.|  

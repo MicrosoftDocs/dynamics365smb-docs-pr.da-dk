@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4b53c6a87148990102ba9eca235cf139a48396e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Fremgangsmåde: Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
@@ -46,7 +46,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 4.  Udfyld felterne som beskrevet i følgende tabel.  
 
-    |Felt|[Beskrivelse]|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Kode**|Angiv en kode, der identificerer XML-skemaet.|  
     |**Beskrivelse**|Angiv en beskrivelse af XML-skemaet.|  
@@ -66,7 +66,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 2.  Udfyld felterne i sidehovedet som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Kode til XML-skema**|Angiv den XML-skemafil, du har indlæst i trin 5 i afsnittet "Sådan indlæses en XML-skemafil".|  
     |**Nyt XMLportnummer**|Angiv nummeret på den XMLport, der er oprettet fra dette XML-skema, når du vælger handlingen **Generér XMLport**.|  
@@ -79,7 +79,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 4.  Brug fanen **Startside** og gruppen **Vis** til at vælge en af følgende handlinger for at ændre, hvilke noder der vises.  
 
-    |**Handling**|Description|  
+    |**Handling**|Beskrivelse|  
     |----------------|---------------------------------------|  
     |**Vis alle**|Alle noder vises.|  
     |**Skjul ikke-obligatoriske**|Der vises kun de noder, der repræsenterer elementer, der kræves i henhold til XML-skemaet. Disse noder er typisk angivet med **1** i feltet **MinOccurs**.<br /><br /> Vælg **Vis alle** for at tilbageføre visningen.|  

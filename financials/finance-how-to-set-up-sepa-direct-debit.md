@@ -1,6 +1,6 @@
 ---
 title: Konfigurere SEPA Direct Debit | Microsoft Docs
-description: "Få at vide, hvordan du konfigurerer SEPA Direct Debit i Dynamics 365 for Financials."
+description: "Få at vide, hvordan du konfigurerer SEPA Direct Debit i Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a5f7a99a3e6bfd9c0146d87af4e3869cda381a67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Fremgangsmåde: Konfigurere SEPA Direct Debit
@@ -38,7 +38,7 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 2. Vælg handlingen **Ny**.  
 3. Definer en betalingsform. Udfyld de Direct Debit\-specifikke felter som beskrevet i følgende tabel.  
 
-    |Felt|[Beskrivelse|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Direct Debit**|Angiv, om betalingsformen er til SEPA-Direct Debit-opkrævning.|  
     |**Kode for Direct Debit-betalingsbetingelser**|Angiv betalingsbetingelser, f.eks. BETAL IKKE, der vises på salgsfakturaer, som betales med SEPA-Direct Debit for at angive over for kunden, at betalingen opkræves automatisk. Alternativt kan du lade feltet være tomt.|  
@@ -59,7 +59,7 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 4. I vinduet **Debitors bankkontooversigt** skal du vælge den debitorbankkonto, som skal bruge Direct Debiter, og derefter vælge **Direct Debit-betalingsaftaler** under fanen **Startside** i gruppen **Proces**.  
 5. I vinduet **SEPA Direct Debit-betalingsaftaler** skal du udfylde felterne som beskrevet i følgende tabel.  
 
-    |[Felt|Beskrivelse]|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Debitors bankkontokode**|Angiver den bankkonto, hvorfra der opkræves Direct Debit\-betalinger. Dette felt udfyldes automatisk.|  
     |**Gyldig fra**|Angiv den dato, hvor Direct Debit\-betalingsaftalen starter.|  
@@ -76,7 +76,7 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 
 ## <a name="see-also"></a>Se også  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
-[Fremgangsmåde: Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
+[Fremgangsmåde: Konfigureres dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
 [Fremgangsmåde: Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)
-[Udveksle data som elektroniske dokumenter](across-data-exchange.md)
+[Udveksle data elektronisk](across-data-exchange.md)
 

@@ -11,10 +11,10 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: d81e73ec99d8ef993cff8ec3b5f5f38d00741c7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 0823414b222c2f578a6e6c6908f403240cf104d5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
@@ -35,7 +35,7 @@ Nej. Men hvis du vil opleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fuld
 Ja, men afhængigt af hvordan du tilmeldte dig [!INCLUDE[d365fin](includes/d365fin_md.md)], kan dine data blive slettet eller bevaret. Du kan finde flere oplysninger i [Annullere [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Hvad skal jeg gøre, hvis jeg har spørgsmål?
-Hvis du har spørgsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)], som du ikke kan finde et svar på i denne dokumentation, kan du spørge Dynamics 365 for Financials-community. Du kan finde flere oplysninger i [Dynamics 365, Business Edition-community](https://community.dynamics.com/business). Desuden laver vores supportteam opslag med tip og trick. Du kan finde flere oplysninger i [Supportblog om Dynamics 365 for Financials](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+Hvis du har spørgsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)], som du ikke kan finde et svar på i denne dokumentation, kan du spørge Dynamics 365 Business edition-community. Du kan finde flere oplysninger i [Dynamics 365, Business Edition-community](https://community.dynamics.com/business). Desuden laver vores supportteam opslag med tip og trick. Du kan finde flere oplysninger i [Dynamics 365 Business edition-supportblog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Er det muligt at udvide min 30-dages prøveperiode "Ny virksomhed"?
 Ja. Hvis du vil udvide din prøveversion, skal du kontakte Microsoft på 1-888-477-7989 (USA) eller 1-800-741-9206 (Canada). Bemærk: Det kan tage op til 2 arbejdsdage til at fuldføre udvidelsen af prøveperioden.  
@@ -51,5 +51,5 @@ Har du læst om en ny funktionalitet i oversigten eller på vores blog for nylig
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] uden Outlook](madeira-no-outlook.md)  
 [Fremgangsmåde: Ændre rollecentret](change-role.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

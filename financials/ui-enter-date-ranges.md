@@ -1,6 +1,6 @@
 ---
-title: Angive datointervaller i Dynamics 365 for Financials | Microsoft Docs
-description: "Få mere at vide om, hvordan du i en rapport kan få vist data fra bestemte tidsperioder, ved at bruge datointervaller i Dynamics 365 for Financials."
+title: Angive datointervaller i Dynamics 365 Business edition | Microsoft Docs
+description: "Få mere at vide om, hvordan du i en rapport kan få vist data fra bestemte tidsperioder, ved at bruge datointervaller i Dynamics 365 Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dc7cd392843ce7c39200bb2331c09cc44c7a394a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fee6a5d7ce6603829ed98913b7e370a53239ee3e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="entering-date-ranges-in-dynamics-365-for-financials"></a>Angive datointervaller i Dynamics 365 for Financials
+# <a name="entering-date-ranges-in-dynamics-365-business-edition"></a>Angive datointervaller i Dynamics 365 Business edition 
 Du kan angive filtre, der indeholder en startdato og en slutdato for kun at få vist dataene for dette dato- eller tidsinterval. Der gælder særlige regler for den måde, du angiver datointervaller på. Lad os tage **Debitor - top 10** som eksempel:
 
 ![Angive et datointerval på anmodningssiden for Debitor - top 10-liste](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -43,6 +43,6 @@ Bemærk, at vi har brugt det amerikanske format MMDDYY her. Efterhånden som [!I
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
-[Indtaste kriterier i filtre ](ui-enter-criteria-filters.md)  
+[Indtaste kriterier i filtre](ui-enter-criteria-filters.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 

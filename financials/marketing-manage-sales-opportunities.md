@@ -1,6 +1,6 @@
 ---
 title: Administrere salgsmuligheder og leads | Microsoft Docs
-description: "Beskriver administration af eventuelle indgående leads eller salgsmuligheder i Financials og tilknytning af et lead til en sælger for at holde styr på muligt salg."
+description: "Beskriver administration af eventuelle indgående leads eller salgsmuligheder i Dynamics 365 og tilknytning af salgsmuligheden til en sælger for at holde styr på muligt salg."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Administrere salgsleads
@@ -24,7 +24,7 @@ Alle indgående leads kan anses for at være et salgslead. Du kan oprette leads 
 
 Før du kan begynde at bruge leadadministration, skal du definere salgsprocesser og salgsprocesfaser. Efterhånden som du opretter leads, bør du angive oplysninger om kontaktperson, sælger, salgsproces og datoer samt dine anslåede værdier for salgsværdien af det pågældende lead og dit overslag over chancerne for vellykket gennemførelse.
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. 
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 | Hvis du vil | Se |
 | --- | --- |

@@ -1,6 +1,6 @@
 ---
-title: Tilpasse Dynamics 365 for Financials | Microsoft Docs
-description: "Oprette, vise og gøre reklame for dine apps og udvidelser til Dynamics 365 for Financials."
+title: Tilpasse Dynamics 365 Business edition | Microsoft Docs
+description: "Oprette, vise og gøre reklame for dine apps og udvidelser til Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
-ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b0034f678b59f988ed23257f9aa579cc3a8a7628
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Udvidelse af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -49,7 +49,7 @@ Før vi publicerer appen, vil vi sammen med dig sikre, at din app er iøjnefalde
 Du kan finde flere oplysninger om valideringen, og hvordan du publicerer din app, ved at hente dokumentet [Publicere din app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) fra Download Center.
 
 ## <a name="learn-more-about-extensions-v20"></a>Yderligere oplysninger om udvidelser v2.0
-De nye udviklingsværktøjer, som gør det muligt for dig at opbygge udvidelser v2.0, er aktuelt i Vis udskrift og aktiveres snart i Dynamics 365 for Financials-tjenesten. Hvis du allerede vil blive fortrolig med de nye værktøjer eller læse mere om udvidelser 2.0, kan du se [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+De nye udviklingsværktøjer, som gør det muligt for dig at opbygge udvidelser v2.0, er aktuelt i prøveversion og aktiveres snart i tjenesten Dynamics 365 Business edition. Hvis du allerede vil blive fortrolig med de nye værktøjer eller læse mere om udvidelser 2.0, kan du se [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Har du brug for hjælp?
 Hvis du vil have rådgivning, kan du kontakte en appekspert på listen nedenfor:
@@ -70,7 +70,7 @@ Disse [Ofte stillede spørgsmål](https://go.microsoft.com/fwlink/?linkid=841520
 
 ## <a name="further-resources"></a>Flere ressourcer
 Du kan finde flere ressourcer til appudvikling på vores [DLP-emneside](https://mbspartner.microsoft.com/BFI/Topic/76) DLP-emneside. Du kan vælge imellem dem, der er valgt nedenfor:
--   [Brugerregistrering og efterfølgende fakturering ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+-   [Brugerregistrering og efterfølgende fakturering](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 Business edition .pdf)
 
 
 

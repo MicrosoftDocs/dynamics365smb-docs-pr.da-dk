@@ -1,6 +1,6 @@
 ---
 title: Velkommen | Microsoft Docs
-description: "Beskriver de assisterede opsætningsvejledninger, videoer, Hjælp-emner og sider og vinduer, der hjælper dig i gang med at bruge Dynamics 365 for Financials."
+description: "Beskriver de assisterede opsætningsvejledninger, videoer, Hjælp-emner og sider og vinduer, der hjælper dig i gang med at bruge Dynamics 365 Business edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
@@ -59,7 +59,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du finde værktøjstip, der ka
 Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs- eller købsdokumenter. Brug sektionen **Min virksomhed** på din **Startside** til hurtigt at oprette et nyt salgstilbud, salgsfaktura, salgsordre, købsfaktura eller betalingsregistrering.
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Fremgangsmåde: Administrere brugere og rettigheder](ui-how-users-permissions.md)
 

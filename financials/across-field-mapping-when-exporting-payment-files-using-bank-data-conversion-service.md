@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 69ca175c1b73e18dfbad1d0682d877021b5d94d7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Feltkobling, når du eksporterer betalingsfiler ved hjælp af tjeneste til konvertering af bankdata
@@ -25,7 +25,7 @@ Når du eksporterer betalingsfiler ved hjælp af funktionen Tjeneste til konvert
 
 Følgende tabel viser felterne i [!INCLUDE[d365fin](includes/d365fin_md.md)], fra hvilke data kan eksporteres til serviceudbyderen.  
 
-|Koblet felt|Felt i tabel|Sortbord|Beskrivelse]-->|  
+|Koblet felt|Felt i tabel|Sortbord|Beskrivelse|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Kreditornummer|Kreditornummer|Bankkonto|Det id, der er tildelt din virksomhed af banken for at opkræve betalinger|  
 |Afsenders bankkontonr.|Bankkontonr./IBAN|Bankkonto|Dit firmas bankkontonummer (IBAN eller andet), der er angivet på bankkontokortet|  
@@ -69,7 +69,7 @@ Følgende tabel viser felterne i [!INCLUDE[d365fin](includes/d365fin_md.md)], fr
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
-[Udveksle data som elektroniske dokumenter](across-data-exchange.md)
+[Udveksle data elektronisk](across-data-exchange.md)
 [Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md)   
 [Foretag indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 

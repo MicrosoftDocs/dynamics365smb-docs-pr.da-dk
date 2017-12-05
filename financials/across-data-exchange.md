@@ -1,5 +1,5 @@
 ---
-title: Elektroniske dokumenter i Dynamics 365 for Financials | Microsoft Docs
+title: Elektroniske dokumenter i Dynamics 365 Business edition | Microsoft Docs
 description: Introduktion til afsendelse og modtagelse af elektroniske dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,17 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c0ca1b5da823d31bba4961e8724dfb98e842317
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-## <a name="exchanging-data-as-electronic-documents"></a>Udveksle data som elektroniske dokumenter  
-Som et alternativ til at sende vedhæftede filer i en mail, kan du sende og modtage dokumenter elektronisk. Med et elektronisk dokumentet menes en standardkompatibel fil, der repræsenterer et forretningsdokument, f.eks en faktura fra en kreditor, som du kan modtage og konvertere til en købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Udvekslingen af elektroniske forretningsdokumenter mellem to handelspartnere udføres af en ekstern udbyder af dokumentudvekslingstjenester. Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter afsendelse og modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. En større udbyder af dokumentudvekslingstjenester er forudkonfigureret og klar til at blive konfigureret til din virksomhed. For at understøtte andre elektroniske dokumentformater skal du oprette nye datoudvekslingsdefinitioner ved hjælp af Data Exchange Framework.  
+
+# <a name="exchanging-data-electronically"></a>Udveksle data elektronisk
+Du kan bruge dataudvekslingsstrukturen til at udveksle forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
+
+## <a name="electronic-documents"></a>Elektroniske dokumenter
+Som et alternativ til at sende vedhæftede filer i en mail, kan du sende og modtage forretningsdokumenter elektronisk. Med et elektronisk dokumentet menes en standardkompatibel fil, der repræsenterer et forretningsdokument, f.eks en faktura fra en kreditor, som du kan modtage og konvertere til en købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Udvekslingen af elektroniske forretningsdokumenter mellem to handelspartnere udføres af en ekstern udbyder af dokumentudvekslingstjenester. Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter afsendelse og modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. En større udbyder af dokumentudvekslingstjenester er forudkonfigureret og klar til at blive konfigureret til din virksomhed. For at understøtte andre elektroniske dokumentformater skal du oprette nye datoudvekslingsdefinitioner ved hjælp af Data Exchange Framework.  
 
 Fra PDF-filer eller billedfiler, der repræsenterer indgående dokumenter, kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, som du derefter kan konvertere til bilagsposter i [!INCLUDE[d365fin](includes/d365fin_md.md)], på samme måde som for elektroniske PEPPOL-dokumenter. F.eks. når du modtager en faktura i PDF-format fra en leverandør, kan du sende den til tjenesten OCR fra vinduet **Indgående bilag**. Efter nogle få sekunder får du filen tilbage som en elektronisk faktura, der kan konverteres til en købsfaktura for kreditoren. Hvis du sender filen til OCR-tjenesten via mail, oprettes en ny indgående dokumentpost automatisk, når du får det elektroniske dokument tilbage igen.  
 
@@ -50,13 +54,13 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |--------|---------|  
 |Lær, hvordan Data Exchange Framework fungerer.|[Om Data Exchange Framework](across-about-the-data-exchange-framework.md)|  
 |Forbered at udveksle data i en fil ved at genbruge filens XML-skema. Konfigurer dataudvekslingsdefinitioner. Konfigurer stamdata for afsendelse af elektronisk dokumenter. Konfigurer forskellige felter til import/eksport for bank.|[Konfigurere dataudveksling](across-set-up-data-exchange.md)|  
-|Ud fra dataudvekslingsdefinitioner send PEPPOL fakturaer, modtag PEPPOL-fakturaer, importér bankkontoudtog, og eksportér bankbetalingsfiler.|[Udveksling af data](across-exchange-data.md)|  
+|Ud fra dataudvekslingsdefinitioner send PEPPOL fakturaer, modtag PEPPOL-fakturaer, importér bankkontoudtog, og eksportér bankbetalingsfiler.|[Udveksle data](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Se også  
 [Om Data Exchange Framework](across-about-the-data-exchange-framework.md)  
 [Fremgangsmåde: Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
-[Udveksling af data](across-exchange-data.md)  
+[Udveksle data](across-exchange-data.md)  
 [Indgående bilag](across-income-documents.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 

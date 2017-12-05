@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Sådan gør du: Vise varedisponering
@@ -26,10 +26,10 @@ Du kan få vist disponeringen for alle varer pr. lokation, og du kan få vist di
 > [!NOTE]  
 >   Visninger af tilgængelighed pr. lokation kræver, at du har lager på mere end én lokation. Du kan finde flere oplysninger i [Fremgangsmåde: Opsætning af lokationer](inventory-how-setup-locations.md).
 
-I [ [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tilgængelighedstal vises i to forskellige felter, med hver sin definition:
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tilgængelighedstal vises i to forskellige felter, med hver sin definition:
 
 * Feltet **Lager** viser den faktiske lagerbeholdning i dag ud fra de bogførte vareposter.
-* Feltet **Planlagt disponibel balance** beregnes og viser lagerbeholdningen plus fastlagte tilgange minus bruttobehovet. (I [ [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer fastlagte tilgange antal på købsordrer og indgående overflytningsordrer. Bruttobehov omfatter antal på salgsordrer og udgående overflytningsordrer).
+* Feltet **Planlagt disponibel balance** beregnes og viser lagerbeholdningen plus fastlagte tilgange minus bruttobehovet. (I [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer fastlagte tilgange antal på købsordrer og indgående overflytningsordrer. Bruttobehov omfatter antal på salgsordrer og udgående overflytningsordrer).
 
 > [!TIP]  
 >   Den planlagte disponible balance er især relevant at få vist i vinduerne **Varedisponering pr. periode** og **Varedisponering pr. hændelse**, da de indeholder datedimensionen.  
@@ -119,6 +119,6 @@ Hvis en eller flere montagekomponenter ikke er tilgængelig, afspejles dette i f
 [Sådan oprettes lokationer](inventory-how-setup-locations.md)  
 [Fremgangsmåde: Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)  
 [Fremgangsmåde: Sælge produkter](sales-how-sell-products.md)      
-[Arbejde med Financials](ui-work-product.md)  
+[Arbejde med Dynamics 365](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 

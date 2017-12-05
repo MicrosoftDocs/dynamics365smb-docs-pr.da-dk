@@ -12,10 +12,10 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 07/14/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: aba01deb3ab2294b86003957f293224bc89ea376
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9739f89c45dd63d03235fef4204b2adeb48ac4d3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -29,16 +29,16 @@ Du kan konsolidere:
 * På tværs af regnskaber med forskellige kontoplaner.  
 * Regnskaber med forskellige regnskabsår og forskellige valutaer.  
 * Enten det fulde beløb eller en procentdel af et regnskabs finansielle oplysninger
-* Ved brug af forskellige valutakurser i de enkelte finanskonti 
+* Ved brug af forskellige valutakurser i de enkelte finanskonti
 
 Afhængigt af kompleksiteten af virksomhederne kan rapporten konfigureres på to måder:
 
 * Hvis du ikke har brug for avancerede indstillinger, f.eks. inklusion af et regnskab, som du kun er en del af, kan du bruge den assisterede opsætningsvejledning **Virksomhedskonsolidering** til hurtigt at oprette en konsolidering. Guiden hjælper dig gennem de grundlæggende trin.
 * Hvis du har brug for mere avancerede indstillinger, kan du oprette det konsoliderede regnskab og koncernvirksomhederne selv.
 
-## <a name="to-do-a-simple-consolidation-setup"></a>Sådan udfører du en simpel konsolideringsopsætning 
+## <a name="to-do-a-simple-consolidation-setup"></a>Sådan udfører du en simpel konsolideringsopsætning
 Hvis din konsolidering er enkel, f.eks. fordi du er eneejer af de koncernvirksomheder, der skal konsolideres, hjælper den assisterede opsætningsvejledning **Virksomhedskonsolidering** dig gennem følgende trin:
-  
+
 * Vælg, om du vil oprette et nyt konsolideret regnskab, eller om du vil konsolidere data i et regnskab, som du allerede har oprettet til konsolideringen. Regnskabet må ikke indeholde transaktioner.
 * Få vist resultaterne. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, at masterdata og transaktioner kan overføres til det konsoliderede regnskab.
 
@@ -58,20 +58,20 @@ Hvis du har brug for mere avancerede indstillinger til din konsolidering, kan du
 
 Hvis koncernvirksomheden bruger en fremmed valuta, skal du angive kursen, der skal anvendes i konsolideringen. Du skal også angive konsolideringsoplysninger om koncernvirksomhedens finanskonti. Disse processer beskrives i de følgende afsnit.
 
-### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Sådan klargøres finanskonti til konsolidering 
+### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Sådan klargøres finanskonti til konsolidering
 Hvis kontoplanen i koncernvirksomheden er anderledes end det konsoliderede regnskab, skal du forberede finanskonti til konsolidering. Du kan angive de konti, hvor debet og kredit skal posteres, og metoden, der skal bruges til at oversætte valutaer i det konsoliderede regnskab. Det er f.eks. nyttigt, hvis du ofte udfører rapporten.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
 2. Åbn kortet for kontoen, og udfyld derefter felterne på oversigtspanelet **Konsolidering**.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Sådan angives kurser for konsolideringer
-Hvis en koncernvirksomhed bruger en anden valuta end det konsoliderede regnskab, skal du angive valutakursmetoder for hver konto, før du konsoliderer. For hver konto bestemmer indholdet af feltet **Konsol. oversættelsesmetode** valutakursen. På hvert koncernvirksomhedskort angiver du i feltet **Valutakurstabel**, om konsolideringen skal bruge valutakurser fra koncernvirksomhedens regnskab eller det konsoliderede regnskab. Hvis du bruger valutakurser fra det konsoliderede regnskab, kan du ændre kurserne for en koncernvirksomhed. For koncernvirksomheder gælder: Hvis der i feltet **Valutakurstabel** på koncernvirksomhedskortet står **Lokal**, kan du ændre valutakursen fra koncernvirksomhedskortet. Valutakurserne kopieres fra tabellen **Valutakurs**, men du kan ændre dem inden kosolideringen. 
+Hvis en koncernvirksomhed bruger en anden valuta end det konsoliderede regnskab, skal du angive valutakursmetoder for hver konto, før du konsoliderer. For hver konto bestemmer indholdet af feltet **Konsol. oversættelsesmetode** valutakursen. På hvert koncernvirksomhedskort angiver du i feltet **Valutakurstabel**, om konsolideringen skal bruge valutakurser fra koncernvirksomhedens regnskab eller det konsoliderede regnskab. Hvis du bruger valutakurser fra det konsoliderede regnskab, kan du ændre kurserne for en koncernvirksomhed. For koncernvirksomheder gælder: Hvis der i feltet **Valutakurstabel** på koncernvirksomhedskortet står **Lokal**, kan du ændre valutakursen fra koncernvirksomhedskortet. Valutakurserne kopieres fra tabellen **Valutakurs**, men du kan ændre dem inden kosolideringen.
 
 I følgende tabel beskrives de valutakursmetoder, du kan bruge til konti.
 
 |Valutakurs | Typisk anvendelse |
 |---|---|
-|Gennemsnitskurs (manuel) | Du kan manuelt beregne den gennemsnitlige kurs for konsolideringsperioden. Beregn enten gennemsnittet som et aritmetisk gennemsnit eller som et kvalificeret estimat, og angiv resultatet for hver koncernvirksomhed. Bruges til resultatopgørelseskonti.| 
+|Gennemsnitskurs (manuel) | Du kan manuelt beregne den gennemsnitlige kurs for konsolideringsperioden. Beregn enten gennemsnittet som et aritmetisk gennemsnit eller som et kvalificeret estimat, og angiv resultatet for hver koncernvirksomhed. Bruges til resultatopgørelseskonti.|
 |Ultimokurs | Bruges til konti på balancen.|
 |Sidste ultimokurs | Den gældende kurs på valutamarkedet på den dato, hvor balancen eller resultatopgørelsen udarbejdes. Angiv denne kurs for hver koncernvirksomhed. Bruges til konti på balancen.|
 |Historisk kurs | Den valutakurs, der var gældende, da transaktionen fandt sted.|
@@ -83,8 +83,8 @@ Gør følgende for at angive valutakurser for koncernvirksomheder:
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
 2. Vælg koncernvirksomheden på siden **Koncernvirksomhedsoversigt**, og vælg derefter handlingen **Gennemsnitskurs (manuel)**.   
 3. På siden **Ret valutakurs** er indholdet af feltet **Associeret valutakurs** blevet kopieret fra tabellen **Valutakurs**, men du kan ændre oplysningerne efter behov. Luk siden.  
-4. På fanen **Naviger** i gruppen **Valutaer** skal du vælge **Ultimokurs**.  
-5. I feltet **Associeret valutakursbeløb** skal du angive valutakursen. 
+4. Vælg handlingen **Ultimokurs**.  
+5. I feltet **Associeret valutakursbeløb** skal du angive valutakursen.
 
 <!-- ### To include or exclude dimensions
 
@@ -104,17 +104,17 @@ Hvis du kun ejer en del af en virksomhed, kan du medtage en procentdel af hver t
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Sådan kontrolleres dataene, før du konsoliderer
 Du kan teste dataene, inden du overfører dem til det konsoliderede regnskab. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om der er forskelle mellem oplysningerne i koncernvirksomhederne og den konsoliderede virksomhed. F.eks., om kontonumre eller dimensionskoder er anderledes. Du skal rette fejlene, før du kan køre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.   
-  
+
 1. Åbn det konsoliderede regnskab.  
 2. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
 3. Gør ét af følgende:  
-  
+
     * For at teste en fil, skal du vælge handlingen **Kontroller fil**, angive navnet på filen, der skal kontrollere, og derefter vælge **Udskriv**.  
     * Du kan teste databasen ved at vælge **Test database**.  
 
 ## <a name="to-run-the-consolidation"></a>Så køres konsolideringen
 Når du har testet dataene, kan du overføre dem til det konsoliderede regnskab.  
-  
+
 1. Log på det konsoliderede regnskab.  
 2. I **Rollecenteret Bogholder** skal du vælge handlingen **Kør konsolidering**.  
 3. Udfyld de påkrævede felter.  
@@ -122,7 +122,7 @@ Når du har testet dataene, kan du overføre dem til det konsoliderede regnskab.
 
 ## <a name="to-export-data-from-dynamics-nav-and-import-it-in-included365finincludesd365finmdmd"></a>Sådan eksporteres data fra Dynamics NAV og importeres i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis data for en koncernvirksomhed er placeret i en anden database, skal du eksportere dataene til en fil, før de kan medtages i konsolideringen. Regnskaberne skal udlæses separat. Til det formål bruges kørslen **Udlæs konsolideringsposter**.  
-  
+
 Når du kører batchjobbet, behandles alle poster i finanskonti. Indhold i felterne **Beløb** sammentælles og udlæses for hver kombination af valgte dimensioner og dato. Den næste kombination af valgte dimensioner og dato med samme kontonummer behandles, og derefter behandles kombinationerne i næste kontonummer osv.  
 
 De udlæste poster indeholder følgende felter: **Kontonr.**, **Bogføringsdato** og **Beløb**. Hvis dimensionsoplysningerne også blev eksporteret, medtages dimensionskoderne og dimensionsværdierne også.  

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-companies"></a>Oprette kontaktvirksomheder
@@ -26,7 +26,7 @@ Hvis du tilknytter flest mulige data om et bestemt firma, sikrer du, at kommunik
 
 Du kan også definere det forretningsforhold, du har til en kontaktperson. En kontaktperson kan f.eks. være et emne, en bank eller en kontrahent.
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. 
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 | Hvis du vil | Se |
 | --- | --- |
@@ -40,5 +40,5 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktpersoner](marketing-create-contact-persons.md)   
-[Arbejde med Financials](ui-work-product.md)
+[Arbejde med Dynamics 365](ui-work-product.md)
 

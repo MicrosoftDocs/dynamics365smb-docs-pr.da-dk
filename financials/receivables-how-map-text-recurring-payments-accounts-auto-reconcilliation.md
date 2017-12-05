@@ -13,17 +13,14 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 53c65f7f47c189905e277eff1ea86af241aa1b0b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Fremgangsmåde: Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti
 I vinduet **Tekst til kontotilknytning**, som du kan åbne fra vinduet **Betalingsudligningskladde**, kan du oprette tilknytninger mellem tekst på betalinger og specifikke debet-, kredit- og modkonti, så disse betalinger bliver bogført på de angivne konti, når du bogfører kladden til betalingsafstemning.
-
-> [!NOTE]  
->   Emnet gælder også, når du bruger funktionen **Knyt tekst til konto** fra en indgående bilagsrecord som en hjælp ved konvertering af elektroniske dokumenter, der er modtaget fra eksterne tjenester, til dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).   
 
 Der findes lignende funktioner til afstemning af overskydende beløb på betalingsudligningskladdelinjer på ad hoc-basis. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
@@ -41,13 +38,15 @@ På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring
 4. Brug feltet **Koblingstekst** til at angive tekst, der forekommer på betalinger, du vil bogføre på de angivne konti uden udligning til en åben post. Du kan angive op til 50 tegn.
 
     > [!NOTE]  
->   Hvis der ikke findes andre betalinger eller indgående bilag med den pågældende tilknytningstekst, kan teksten til kontotilknytning optræde, selv om kun en del af teksten på betalingen eller det indgående bilag findes som en tilknytningstekst.
-5. I feltet **Kreditornr.** skal du angive nummeret på den kreditor, som indgående bilag, der indeholder tilknytningsteksten, oprettes for, eller som betalinger bogføres til. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).      
-6. Brug feltet **Debetkontonr.** til at angive den konto, som betalinger, der indeholder tilknytningsteksten, skal bogføres til, hvis de er indgående betalinger. For indgående betalinger er fortegnet for værdien i feltet **Kontoudtogsbeløb** positivt.
-7. Brug feltet **Kreditkontonr.** til at angive den konto, som betalinger, der indeholder tilknytningsteksten, skal bogføres til, hvis de er udgående betalinger. For udgående betalinger er fortegn for værdien i feltet **Kontoudtogsbeløb** er negativt.
-8. Brug feltet **Modkontokildetype** til at angive, om betalingen skal bogføres på en finanskonto eller en debitor- eller kreditorkonto.
-9. I feltet **Modkontokildenr.** skal du angive den konto, som betalingen vil blive bogført til, afhængig af valget i feltet **Modkontokildetype**.
-10. Gentag trin 4 til 8 for al tekst på betalinger, du vil knytte til konti til direkte bogføring uden udligning.
+>   Hvis der ikke findes andre betalinger med den pågældende tilknytningstekst, kan teksten til kontotilknytning optræde, selv om kun en del af teksten på betalingen findes som en tilknytningstekst.
+5. I feltet **Kreditornummer** skal du angive den kreditor, som betalingerne skal bogføres på.
+6. Brug feltet **Modkontokildetype** til at angive, om betalingen skal bogføres på en finanskonto eller en debitor- eller kreditorkonto.
+7. I feltet **Modkontokildenr.** skal du angive den konto, som betalingen vil blive bogført til, afhængig af valget i feltet **Modkontokildetype**.
+
+    > [!NOTE]
+    > Brug ikke felterne **Debetkontonr.** og **Kreditkontonr.** i forbindelse med afstemning af betaling. De bruges kun til indgående dokumenter. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).
+
+8. Gentag trin 3 til 7 for al tekst på betalinger, du vil knytte til konti til direkte bogføring uden udligning.
 
 Næste gang du importerer en bankkontofil eller vælge handlingen **Udlign automatisk** i vinduet **Betalingsudligningskladde**, vil kladdelinjerne til betalinger, der indeholder den angivne tilknytningstekst, indeholde tilknyttede konti i felterne **Kontotype** og **Kontonr.**. Feltet **Matchtillid** indeholder **Høj - Tilknytning af tekst til konto**. Det er på betingelse af, at den automatiske udligningsfunktion kun kan give en udligningstillid af **Lav** eller **Mellem**.
 

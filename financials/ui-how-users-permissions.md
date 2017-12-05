@@ -1,6 +1,6 @@
 ---
 title: "Tildele brugertilladelser og oprette eller redigere tilladelsessæt | Microsoft Docs"
-description: "Beskriver, hvordan du kan føje Office 365-brugere til Financials og derefter tildele tilladelser, adgangsrettigheder og sikkerhedsindstillinger."
+description: "Beskriver, hvordan du kan føje Office 365-brugere til Dynamics 365 Business edition og derefter tildele tilladelser, adgangsrettigheder og sikkerhedsindstillinger."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 06/27/2017
+ms.date: 10/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Fremgangsmåde: Administrere brugere og rettigheder
@@ -54,53 +54,8 @@ Du kan oprette brugergrupper, så du bedre kan administrere rettighedssæt for g
 7. Hvis du vil tilføje nye eller flere rettighedssæt, skal du vælge handlingen **Rettighedssæt for brugergruppe** i vinduet **Brugergruppe**.
 8. I vinduet **Rettighedssæt for brugergruppe** skal du på en ny linje udfylde felterne efter behov ved at vælge mellem eksisterende rettighedssæt.
 
-## <a name="to-create-or-modify-permission-sets"></a>Sådan oprettes eller redigeres rettighedssæt
-Hvis de standardrettighedssæt, der leveres sammen med [!INCLUDE[d365fin](includes/d365fin_md.md)], ikke er tilstrækkelige eller ikke passer til din organisation, kan du oprette nye rettighedssæt. Og hvis de enkelte objekttilladelser, der definerer et rettighedssæt, ikke er tilstrækkelige, kan du ændre et rettighedssæt. Du kan oprette et rettighedssæt manuelt, eller du kan bruge en registreringsfunktion, der registrerer dine handlinger, når du navigerer gennem et scenarie, og derefter opretter de nødvendige rettighedssæt.
-
-### <a name="to-create-or-modify-permission-sets-manually"></a>Sådan oprettes eller redigeres rettighedssæt manuelt
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugere**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Rettighedssæt** i vinduet **Brugere**.
-3. Vælg handlingen **Ny** i vinduet **Rettighedssæt**.
-4. Udfyld felterne på en ny linje efter behov.
-5. Vælg handlingen **Rettigheder**.
-6. I vinduet **Rettigheder** skal du udfylde felterne i hovedet efter behov.
-7. Udfyld de fem felter for de forskellige rettigheder som beskrevet i følgende tabel på en ny linje.
-
-    |Indstilling|Beskrivelse|
-    |------|-----------|
-    |Tom|Angiver, at rettighedstypen ikke er tildelt til objektet.|
-    |**Ja**|Angiver, at rettighedstypen er tildelt med direkte adgang til objektet.|
-    |**Indirekte**|Angiver, at rettighedstypen er tildelt med indirekte adgang til objektet.|
-
-    Indirekte rettighed til en tabel betyder, at du ikke kan åbne tabellen og læse fra den, men du kan få vist dataene i tabellen ved hjælp af et andet objekt, f.eks. en side, som du har direkte adgangsrettigheder til. Du kan finde flere oplysninger i afsnittet "Eksempel - indirekte rettighed" i dette afsnit.
-
-8. I feltet **Sikkerhedsfilter** skal du angive et filter, der skal anvendes på rettigheder, ved at markere det felt, hvor du vil begrænse brugeradgangen.
-
-    F.eks. hvis du vil oprette et sikkerhedsfilter, så en bruger kan få vist kun salg med en specifik sælgerkode, skal du vælge feltnummeret for feltet **Sælgerkode**. I feltet **Feltfilter** skal du angive værdien af det, du vil bruge til at begrænse adgangen. Hvis du f.eks. vil begrænse en brugers adgang til kun Anne Grethe Hansens salg, skal du angive AGH.
-9. Gentag trin 7 og 8 for at føje rettigheder til flere objekter til rettighedssættet.
-
-### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Sådan opretter eller redigerer du rettigheder ved at registrere dine handlinger
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugere**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Rettighedssæt** i vinduet **Brugere**.
-3. Vælg handlingen **Ny** i vinduet **Rettighedssæt**.
-4. Udfyld felterne på en ny linje efter behov.
-5. Vælg handlingen **Rettigheder**.
-6. Vælg handlingen **Start** i vinduet **Rettigheder**.
-
-    En registreringsproces begynder at registrere alle dine handlinger i brugergrænsefladen.
-7. Gå til de forskellige vinduer og aktiviteter i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du vil give brugerne med dette rettighedssæt adgang til. Du skal udføre de opgaver, som du vil registrere rettigheder for.
-8. Når du vil afslutte registreringen, skal du vende tilbage til vinduet **Rettigheder** og derefter vælge handlingen **Stop**.
-9. Vælg knappen **Ja** for at føje de registrerede rettigheder til det nye rettighedssæt.
-10. Angiv, om brugerne skal kunne indsætte, redigere eller slette poster i de registrerede tabeller for hvert objekt på listen over registrerede elementer. Se trin 7 i afsnittet "Sådan oprettes eller redigeres rettighedssæt manuelt".
-
-### <a name="example---indirect-permission"></a>Eksempel - indirekte rettighed
-Du kan tildele en indirekte rettighed for kun at bruge et objekt gennem et andet objekt.
-En bruger kan f.eks. have rettighed til at køre codeunit 80, **Salgs-post** Codeunit **Salgs-post** udfører mange opgaver, herunder ændring af tabel 37, **Salgslinje**. Når brugeren bogfører et salgsdokument, codeunit **Salgs-post**, kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)], om brugeren har rettighed til at ændre tabellen **Salgslinje**. Hvis ikke, kan codeunit'en ikke udføre sine opgaver, og brugeren får en fejlmeddelelse. I så fald kører codeunit'en korrekt.
-
-Men brugeren behøver ikke at have fuld adgang til tabellen **Salgslinje** for at køre codeunit'en. Hvis brugeren har indirekte rettighed til tabellen **Salgslinje**, kører codeunit'en **Salgs-post** korrekt. Når en bruger har indirekte rettighed, kan brugeren kun redigere tabellen **Salgslinje** ved at køre codeunit'en **salgs-post** eller et andet objekt, der har rettighed til at ændre tabellen **Salgslinje**. Brugeren kan kun redigere tabellen **Salgslinje**, når det sker fra understøttede funktionalitetsområder. Brugeren kan ikke køre funktionen ved et uheld eller skadeligt ved andre metoder.
-
 ## <a name="to-set-up-user-time-constraints"></a>Sådan opsættes tidsbegrænsninger for brugere
-Administratorer kan definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på. Administratorer kan også knytte ansvarscentre til brugere.
+Administratorer kan definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på. Administratorer kan også knytte ansvarscentre til brugere. Du kan finde flere oplysninger i [Fremgangsmåde: Arbejde med ansvarscentre](inventory-responsibility-centers.md).
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ressourceopsætning**, og vælg derefter det relaterede link.
 2. Når vinduet **Brugeropsætning** åbnes, skal du vælge handlingen **Ny**.
@@ -109,7 +64,7 @@ Administratorer kan definere perioder, hvor angivne brugere kan bogføre, og de 
 
 ## <a name="see-also"></a>Se også
 [Blive klar til at handle](ui-get-ready-business.md)  
-[Opsætning og administration til Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Installation og administration i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
+[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 

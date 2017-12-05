@@ -1,6 +1,6 @@
 ---
-title: Konfigurere e-mail | Microsoft Docs
-description: Beskriver, hvordan du bruger virksomhedens SMTP-server til at sende og modtage mails i Financials eller alternativt kan bruge de mailserverindstillinger, der blev oprettet med Office 365-abonnementet.
+title: Konfigurere mail i Dynamics 365 Business edition | Microsoft Docs
+description: Beskriver, hvordan du bruger virksomhedens SMTP-server til at sende og modtage mails i Dynamics 365, eller alternativt hvordan du bruger de mailserverindstillinger, der blev oprettet sammen med Office 365-abonnementet.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: aedd27545da932155d453bf6aa476a4e9f898fc6
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Fremgangsmåde: Konfigurere e-mail manuelt eller ved hjælp af den assisterede opsætning
+# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Fremgangsmåde: Konfigurere mail manuelt eller ved hjælp af den assisterede opsætning
 Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne i vinduet **SMTP-mailopsætning**.
 
 > [!NOTE]  

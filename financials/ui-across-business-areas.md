@@ -1,6 +1,6 @@
 ---
 title: "Bruge generelle funktioner på tværs af forretningsområder | Microsoft Docs"
-description: "Få mere at vide om de funktioner, der bruges på tværs af forretningsområder i Dynamics 365 for Financials."
+description: "Få mere at vide om de funktioner, der bruges på tværs af forretningsområder i Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b33fab6b4aeb3f1f6110d999a69956a76f8defd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
@@ -36,7 +36,7 @@ I følgende tabel vises disse generelle forretningsområder med links til emner,
 | Rediger [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at installere udvidelser, der tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester. |[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md) |
 |Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
 |Registrer eksterne dokumenter i Financials , herunder deres vedhæftede filer, og opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
-| Konfigurer dataudvekslingsdefinitioner, så du kan sende og modtage elektroniske dokumenter. |[Udveksle data som elektroniske dokumenter](across-data-exchange.md) |
+| Konfigurer dataudvekslingsdefinitioner, så du kan sende og modtage elektroniske dokumenter. |[Udveksle data elektronisk](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

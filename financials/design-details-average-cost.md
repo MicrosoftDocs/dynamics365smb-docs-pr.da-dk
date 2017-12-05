@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Designoplysninger: Gennemsnitlig kostpris
@@ -25,7 +25,7 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 ## <a name="setting-up-average-cost-calculation"></a>Opsætning af beregning af gennemsnitsomkostninger  
  I følgende tabel beskrives de to felter i vinduet **Opsætning af Lager**, der skal angives for at aktivere beregningen af gennemsnitlig kostpris.  
 
-|Felt|Description|  
+|Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
 |**Gennemsnitlig omkostningsperiode**|Angiver, hvilken periode den gennemsnitlige kostpris beregnes i. Der findes følgende indstillinger:<br /><br /> -   **Dag**<br />-   **Uge**<br />-   **Måned**<br />-   **Regnskabsperiode**<br /><br /> Alle lagerreduktioner, der er bogført i den gennemsnitlige omkostningsperiode, modtager den gennemsnitlige kostpris, der er beregnet for den pågældende periode.|  
 |**Beregn.type for gnsn. kostpris**|Angiver, hvordan den gennemsnitlige omkostning beregnes. Der findes følgende indstillinger:<br /><br /> -   **Vare**<br />-   **Vare, variant og lokation**<br />     Med denne indstilling beregnes gennemsnitsomkostningen for hver vare, for hver lokation og for hver variant af varen. Det betyder, at den pågældende vares gennemsnitlige kostpris afhænger af, hvor den opbevares, og hvilken variant af varen du har valgt, f.eks. farve.|  
@@ -51,14 +51,14 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
  Den beregnede gennemsnitlige kostpris udligner derefter lagerreduktionen for varen (eller vare, lokation og variant) med bogføringsdatoer inden for den gennemsnitlige omkostningsperiode. Hvis der er nogen lagerforøgelser, som blev fast udlignet til lagerreduceringer i den gennemsnitlige omkostningsperiode, bliver den beregnede gennemsnitlige kostpris videresendt fra forøgelsen til reduceringen.  
 
 ### <a name="example-average-cost-period--day"></a>Eksempel: Gennemsnitlig omkostningsperiode = dag  
- Følgende eksempler viser effekten af beregning af den gennemsnitlige kostpris ud fra en gennemsnitlig omkostningsperiode på én dag. Feltet **Beregn.type for gnsn. kostpris** i vinduet **Opsætning af Lager** er indstillet til **Vare**.  
+ Følgende eksempler viser effekten af beregning af den gennemsnitlige kostpris ud fra en gennemsnitlig omkostningsperiode på én dag. Feltet **Beregn.type for gnsn. kostpris** i vinduet **Opsætning af Lager** er angivet til **Vare**.  
 
  Følgende tabel viser vareposter for eksemplet med den gennemsnitlige omkostningsvare, VARE1, før kørslen **Juster kostpris - vareposter** er udført.  
 
 |**Bogføringsdato**|**Vareposttype**|**Antal**|**Kostbeløb (faktisk)**|**Løbenummer**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Køb|0|20.00|0|  
-|01-01-20|Køb|0|40.00|2|  
+|01-01-20|Køb|1|20.00|1|  
+|01-01-20|Køb|1|40.00|2|  
 |01-01-20|Salg|-1|-20,00|3|  
 |02-01-20|Salg|-1|-40,00|4|  
 |02-02-20|Køb|1|100.00|5|  
@@ -80,8 +80,8 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 
 |**Bogføringsdato**|**Vareposttype**|**Antal**|**Kostbeløb (faktisk)**|**Løbenummer**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Køb|0|20.00|0|  
-|01-01-20|Køb|0|40.00|2|  
+|01-01-20|Køb|1|20.00|1|  
+|01-01-20|Køb|1|40.00|2|  
 |01-01-20|Salg|-1|-30,00|3|  
 |02-01-20|Salg|-1|-30,00|4|  
 |02-02-20|Køb|1|100.00|5|  
@@ -96,8 +96,8 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 
 |**Bogføringsdato**|**Vareposttype**|**Antal**|**Kostbeløb (faktisk)**|**Løbenummer**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Køb|0|20.00|0|  
-|01-01-20|Køb|0|40.00|2|  
+|01-01-20|Køb|1|20.00|1|  
+|01-01-20|Køb|1|40.00|2|  
 |01-01-20|Salg|-1|-20,00|3|  
 |02-01-20|Salg|-1|-40,00|4|  
 |02-02-20|Køb|1|100.00|5|  
@@ -120,8 +120,8 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 
 |**Bogføringsdato**|**Vareposttype**|**Antal**|**Kostbeløb (faktisk)**|**Løbenummer**|  
 |---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Køb|0|20.00|0|  
-|01-01-20|Køb|0|40.00|2|  
+|01-01-20|Køb|1|20.00|1|  
+|01-01-20|Køb|1|40.00|2|  
 |01-01-20|Salg|-1|-30,00|3|  
 |02-01-20|Salg|-1|-65,00|4|  
 |02-02-20|Køb|1|100.00|5|  
@@ -148,7 +148,7 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 
 |Scenarie|Bogføringsdato|Vareposttype|Værdiansættelsesdato|Værdiansat antal|Kostbeløb (faktisk)|Varepostløbenr.|Løbenummer|  
 |--------------|-------------------------------------|-----------------------------------------------|-----------------------------------------|-----------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|0|01-01-20|Køb|01-01-20|2|20.00|0|0|  
+|1|01-01-20|Køb|01-01-20|2|20.00|1|1|  
 |2|01-15-20|(Varegebyr)|01-01-20|2|8.00|1|2|  
 |3|02-01-20|Salg|02-01-20|-1|-14,00|2|3|  
 |4|03-01-20|(Regulering)|03-01-20|1|-,4,00|1|4|  
@@ -187,8 +187,8 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 
 |Værdiansættelsesdato|Antal|Kostbeløb (faktisk)|Løbenummer|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|01-02-20|0|20.00|2|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
 |02-15-20|-1|-15,00|3|  
 |02-16-20|-1|-15,00|4|  
 
@@ -198,9 +198,9 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 
 |Værdiansættelsesdato|Antal|Kostbeløb (faktisk)|Løbenummer|  
 |-----------------------------------------|--------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|0|10.00|0|  
-|01-02-20|0|20.00|2|  
-|01-03-20|0|21.00|5|  
+|01-01-20|1|10.00|1|  
+|01-02-20|1|20.00|2|  
+|01-03-20|1|21.00|5|  
 |02-15-20|-1|-17,00|3|  
 |02-16-20|-1|-17,00|4|  
 

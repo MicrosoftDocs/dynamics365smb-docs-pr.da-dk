@@ -1,6 +1,6 @@
 ---
-title: Oversigt over opgaver til konfiguration af Dynamics 365 for Financials | Microsoft Docs
-description: "Beskriver opgaver, som du kan udføre for at oprette, initialisere og konfigurere Dynamics 365 for Financials efter dine behov."
+title: Oversigt over opgaver til konfiguration af Dynamics 365 Business edition | Microsoft Docs
+description: "Beskriver opgaver, som du kan udføre for at oprette, initialisere og konfigurere Dynamics 365 Business edition efter dine behov."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cbf0f6521db686f4e1a820070969bd0193227015
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="setting-up-dynamics-365-for-financials"></a>Konfigurere Dynamics 365 for Financials
+# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Opsætning af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til virksomhedens behov.
 
 F.eks er din kontoplan på forhånd udfyldt med en række bogføringskonti, der er klar til brug. Du kan også ændre kontoplanen efter dine behov. Du kan finde flere oplysninger i [Finans](finance.md).
@@ -41,7 +41,7 @@ Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan k
 | Konfigurere vinduet **SMTP-mailopsætning** til at sende og modtage e-mails fra dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Fremgangsmåde: Konfigurere mail](madeira-how-setup-email.md) |
 | Oprette entydige id-koder. |[Fremgangsmåde: Oprette nummerserier](ui-create-number-series.md) |
 
-For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Du kan finde flere oplysninger i [Opsætning og administration til Dynamics 365 for Financials](admin-setup-and-administration.md).  
+For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Du kan finde flere oplysninger i [Konfiguration og administration i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
@@ -54,7 +54,7 @@ For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365f
 [Produktion](production-manage-manufacturing.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Opsætning og administration til Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Installation og administration i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Oprettelse af nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 

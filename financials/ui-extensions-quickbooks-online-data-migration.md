@@ -1,8 +1,6 @@
 ---
 title: "Bruge udvidelsen QuickBooks-overførsel | Microsoft Docs"
-description: "Beskriver, hvordan du bruger udvidelsen til at overføre debitorer, kreditorer, varer og konti fra QuickBooks Online til Financials."
-services: project-madeira
-documentationcenter: 
+description: "Beskriver, hvordan du bruger udvidelsen til at overføre debitorer, kreditorer, varer og konti fra QuickBooks Online til Dynamics 365."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>Udvidelsen Overførsel af QuickBooks Online-data til Dynamics 365 for Financials
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Udvidelsen QuickBooks Online-dataoverførsel til Dynamics 365 Business edition
 Denne udvidelse er inkluderet i den assisterede opsætningsvejledning **Dataoverførsel** for at hjælpe dig med at overføre vigtige forretningsdata fra QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. F.eks. er dette nyttigt, når virksomheden vokser, og du har besluttet at opgradere din virksomheds administrationsapp ved at starte med at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Hvilke data kan jeg importere fra QuickBooks Online?
@@ -29,7 +27,7 @@ Du kan importere følgende data fra QuickBooks Online til [!INCLUDE[d365fin](inc
 * Kunder (Debitorer)
 * Leverandører (Kreditorer)
 * Varer
-* Kontoplan 
+* Kontoplan
 * Primosaldopostering i regnskabet
 * Disponible antal for lagervarer
 * Åbne dokumenter for debitorer og kreditorer, f.eks. fakturaer, kreditnotaer og betalinger
@@ -41,7 +39,7 @@ Vi overfører kun fulde beløb på salgs- og købsdokumenter. Delvist betalte be
 
 ## <a name="before-you-start"></a>Før du starter
 Det er en vigtig del af overførslen at angive de konti, transaktioner skal overføres til. Det er en god ide at planlægge denne tilknytning, før du overfører data. F.eks. de konti, hvor du bogfører poster for:  
-  
+
 * Salget af varer eller servicer til debitorer.
 * Køb af varer eller servicer fra kreditorer.  
 * Ændringer i finansbogholderiet.  

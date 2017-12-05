@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cacedb1252133c5370e13fda36e984a784217e51
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: cdfb96475c46d56f32e5f0133efc7852a10ae446
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Designoplysninger: Tilgængelighed af varesporing
@@ -24,7 +24,7 @@ Vinduerne **Varesporingslinjer** og **Varesporingsoversigt** indeholder dynamisk
 
  Når du åbner vinduet **Varesporingslinjer**, hentes der tilgængelighedsdata fra tabellen **Varepost** og tabellen **Reservationspost** uden datofilter. Når du vælger feltet **Serienr.** eller feltet **Lotnr.**, åbnes vinduet **Varesporingsoversigt** og viser en oversigt over varesporingsoplysninger i tabellen **Reservationspost**. Oversigten indeholder følgende oplysninger om hvert serie- eller lotnummer på varesporingslinjen:  
 
-|Felt|Description|  
+|Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
 |**I alt**|Det samlede antal af serie- eller lotnumre, der aktuelt er på lager.|  
 |**Ønsket antal i alt**|Det samlede antal af serie- og lotnumre, der aktuelt er anmodet om i alle dokumenter.|  
@@ -34,7 +34,7 @@ Vinduerne **Varesporingslinjer** og **Varesporingsoversigt** indeholder dynamisk
 > [!NOTE]  
 >  Du kan også se oplysningerne i den foregående tabel ved hjælp af funktionen **Marker poster** i vinduet **Varesporingslinjer**.  
 
- Hvis du vil bevare databasens ydeevne, hentes tilgængelighedsdata kun én gang fra databasen, når du åbner vinduet **Varesporingslinjer** og bruger funktionen **Opdater disponering**.  
+ Hvis du vil bevare databasens ydeevne, hentes tilgængelighedsdata kun én gang fra databasen, når du åbner vinduet **Varesporingslinjer**, og når du bruger funktionen **Opdater disponering** i vinduet.  
 
 ## <a name="calculation-formula"></a>Beregningsformel  
  Som beskrevet i foregående tabel beregnes tilgængeligheden af et bestemt serienummer eller lotnummer på følgende måde.  

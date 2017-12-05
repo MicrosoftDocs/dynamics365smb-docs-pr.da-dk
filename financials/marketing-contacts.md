@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Oprette og administrere kontakter
@@ -26,7 +26,7 @@ Alle eksterne enheder, som du har forretningsforhold til (f.eks. kunder, mulige 
 
 Du kan registrere oplysninger baseret på et firma eller en person i det pågældende firma. Du kan også oprette en uafhængig kontaktperson for personer, som ikke arbejder for et bestemt firma, men som arbejder selvstændigt eller freelance.
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. 
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 | Hvis du vil | Se |
 | --- | --- |
@@ -37,5 +37,5 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Opsætning af Relationsstyring](marketing-setup-marketing.md)  
-[Arbejde med Financials](ui-work-product.md)  
+[Arbejde med Dynamics 365](ui-work-product.md)  
 

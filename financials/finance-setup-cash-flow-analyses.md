@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
@@ -79,10 +79,10 @@ Sådan bruges en manuel proces:
 >   Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Cortana Intelligence ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  
 
 ## <a name="AnchorText"> </a>Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser.
-Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel for Microsoft Dynamics 365 for Financials**. Denne prognosemodel er tilgængelig online i Cortana Intelligence-galleriet. Sådan bruges modellen:  
+Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel for Microsoft Dynamics 365 Business edition**. Denne prognosemodel er tilgængelig online i Cortana Intelligence-galleriet. Sådan bruges modellen:  
 
 1. Åbn en webbrowser, og gå til [Cortana Intelligence-galleriet](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Søg efter **Prognosemodel for Microsoft Dynamics 365 for Financials**, og åbn derefter modellen i Azure Machine Learning Studio.  
+2. Søg efter **Prognosemodel for Microsoft Dynamics 365 Business edition**, og åbn derefter modellen i Azure Machine Learning Studio.  
 3. Brug din Microsoft-konto til at tilmelde dig et arbejdsområde og derefter kopiere modellen.  
 4. Kør modellen, og udgiv den som en webtjeneste.  
 5. Notér URL-adressen for API og API-nøglen. Du skal bruge disse legitimationsoplysninger til en pengestrømsopsætning.  

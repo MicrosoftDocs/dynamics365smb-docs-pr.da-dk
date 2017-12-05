@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fc942b29859d2607577119fe13292078b872b05e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde
@@ -25,7 +25,7 @@ Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop"></a>Sådan tilføjes [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde i Power BI Desktop
 1. I Power BI Desktop skal du i den venstre navigationsrude vælge **Hent data**.
-2. I vinduet **Hent data** skal du vælge **Onlinetjenester**, vælge **Dynamics 365 for Financials** og derefter vælge knappen **Opret forbindelse**.
+2. I vinduet **Hent data** skal du vælge **Onlinetjenester**, vælge **Dynamics 365 Business edition** og derefter vælge knappen **Opret forbindelse**.
 
    Power BI viser en guide, der hjælper dig gennem forbindelsesprocessen. Som det første trin skal du angive en OData URL-adresse og det firmanavn, der er knyttet til din [!INCLUDE[d365fin](includes/d365fin_md.md)]-konto.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Fremgangsmåde: Arbejde med betalingstolerancer og kontantrabattolerancer
@@ -31,7 +31,7 @@ Et enkelt dokument har den samme betalingstolerance, hvad enten det bruges indiv
 
 *kontantrabatdato < betalingsdato på den valgte post <= betalingstolerancedato*  
 
-Denne regel gælder også, når det skal afgøres, om der skal vises advarsler, når du anvender betalingstolerance på flere dokumenter. Kontantrabattoleranceadvarslen vises for hver post, der opfylder datokriterierne. Yderligere oplysninger finder du i afsnittet "Eksempel 2 - Toleranceberegninger for flere bilag". 
+Denne regel gælder også, når det skal afgøres, om der skal vises advarsler, når du anvender betalingstolerance på flere dokumenter. Kontantrabattoleranceadvarslen vises for hver post, der opfylder datokriterierne. Yderligere oplysninger finder du i afsnittet "Eksempel 2 - Toleranceberegninger for flere bilag".
 
 Du kan vælge at vise en advarsel, der er baseret på tolerance i forskellige situationer.  
 
@@ -95,7 +95,8 @@ Scenarier med alternativ A eller B repræsenterer følgende:
 - **A** – I dette tilfælde er advarslen om kontantrabattolerance slået fra, ELLER brugeren har slået advarslen til og valgt at tillade den forsinkede kontantrabat (Bogfør saldoen som betalingstolerance).  
 - **B** – I dette tilfælde har brugeren slået advarslen til og valgt ikke at tillade den forsinkede kontantrabat (Lad saldoen stå som restbeløb).  
 
-|–|Faktura|Kont.rabat|Maks.<br /><br /> Bet.Tol.|Kont.rabatdato|Kont.rabattol. Dato|Betal.dato|Kont.|Tol.type|Alle poster lukket|Kont.rabattol. <br /> finans/debitor|Kont.<br /><br /> Faktura<br /><br /> finans|  
+[!div class="mx-tdBreakAll"]  
+|–|Faktura|Kont.rabat|Maks. betal.tol.|Kont.rabatdato|Kont.rabattol. Dato|Betal.dato|Kont.|Tol.type|Alle poster lukket|Kont.rabattol. finans/debitor|Bet.Tol. finans|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1.000|20|5|01/15/03|01/20/03|<=15-01-03|985|Pmt.Tol.|Ja|0|-5|  
 |2|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**<=01/15/03**|**980**|**Ingen**|**Ja**|**0**|**0**|  
@@ -166,7 +167,9 @@ Scenarier med alternativ A, B, C eller D repræsenterer følgende:
 - **C** – I dette tilfælde har brugeren slået advarslen til og valgt at tillade den forsinkede kontantrabat for den første faktura, men ikke den anden faktura.  
 - **D** – I dette tilfælde har brugeren slået advarslen til og valgt ikke at tillade den forsinkede kontantrabat for den første faktura, men at tillade den for den anden faktura.  
 
-|–|Faktura|Kont.rabat|Maks. betal.tol.|Kont.rabatdato|Kont.rabattol. Dato|Betal.dato|Kont.|Tol.type|Alle poster lukket|Kont.rabattol. <br /> finans/debitor|Bet.Tol.<br /><br /> finans|  
+[!div class="mx-tdBreakAll"]  
+
+|–|Faktura|Kont.rabat|Maks. betal.tol.|Kont.rabatdato|Kont.rabattol. Dato|Betal.dato|Kont.|Tol.type|Alle poster lukket|Kont.rabattol. finans/debitor|Bet.Tol. finans|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|<=15-01-03|1920|Bet.tol.|Ja|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**<=01/15/03**|**1910**|**Ingen**|**Ja**|**0**<br /><br /> **0**|0 <br />0|  

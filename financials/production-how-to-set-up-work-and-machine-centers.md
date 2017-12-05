@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8a7af6821affcef2c81499e904f2ed9520086323
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-work-centers-and-machine-centers"></a>Fremgangsmåde: Konfigurere arbejdscentre og produktionsressourcer
@@ -50,7 +50,7 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
 10.  Vælg feltet **Specifik kostpris**, hvis du vil definere arbejdscentrets kostpris på den rutelinje, hvor det benyttes. Dette kan være relevant for operationer, hvor kapacitetsomkostningerne er væsentligt anderledes end for andre produktioner på arbejdscentret.  
 11.  Vælg i feltet **Trækmetode**, om outputbogføring på dette arbejdscenter skal beregnes og bogføres manuelt eller automatisk med en af følgende metoder.  
 
-    |Indstilling|Description|  
+    |Indstilling|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Manuelt**|Forbrug bogføres manuelt i afgangskladden eller produktionskladden.|
     |**Forlæns**|Forbrug beregnes og bogføres automatisk, når produktionsordren frigives.|  
@@ -65,7 +65,7 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
     > [!NOTE]  
     > Hvis du vælger at bruge Dage, skal du huske, at 1 dag = 24 timer - og ikke 8 (arbejdstimer).
 
-13.  I feltet **Kapacitet** skal du angive, om arbejdscentret har mere end én maskine eller person, der arbejder samtidigt. Hvis din installation af **Produktnavn** ikke omfatter funktionaliteten Prod.ress., skal værdien i dette felt være **1**.  
+13.  I feltet **Kapacitet** skal du angive, om arbejdscentret har mere end én maskine eller person, der arbejder samtidigt. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-installation ikke omfatter funktionaliteten Produktionsressource, skal værdien i dette felt være **1**.  
 14.  Angiv den procentdel af den forventede standardafgang, som arbejdscentret normalt producerer, i feltet **Effektivitet**. Hvis du angiver **100**, betyder det, at arbejdscentret har en faktisk afgang, der er den samme som standardafgangen.  
 15. Markér afkrydsningsfeltet **Fælles kalender**, hvis du også bruger produktionsressourcer. Dette sikrer, at kalenderposter er akkumuleres fra produktionsressourcekalendere.  
 16.  Vælg en produktionskalender i feltet **Produktionskalenderkode**. Du kan finde flere oplysninger i [Fremgangsmåde: Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).  
@@ -79,6 +79,24 @@ Hvis forskellige produktionsressourcer, f.eks. 210 Pakkebord og 310 Malerkabine,
 Hvis identiske produktionsressourcer, f.eks. 210 Pakkebord 1 og 220 Pakkebord 2, kombineres i et arbejdscenter, kan arbejdscentret betragtes som summen af de tilknyttede produktionsressourcer. Derfor vises arbejdscentret med ingen kapacitet. Ved at aktivere feltet **Fælles kalender** knyttes den fælles kapacitet til arbejdscentret.
 
 Hvis kapaciteter i arbejdscentre ikke skal bidrage til den samlede kapacitet, skal du angive effektivitet = 0.
+
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Hvis du vil oprette en produktionsressource eller et arbejdscenter med kapacitetsbegrænsning
+Du skal oprette produktionsressourcer, som du betragter som kritiske, og udpege dem som i stand til at håndtere en begrænset belastning i stedet for den ubegrænsede belastning, som andre ressourcer kan håndtere. En kapacitetsbegrænset ressource kan f.eks. være et arbejdscenter eller en produktionsressource, der er identificeret som flaskehals, og som du derfor vil tildele en begrænset (endelig) belastning for.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke detaljeret produktionskontrol. Det planlægger en mulig udnyttelse af ressourcer ved at tilbyde en grov plan, men det opretter og vedligeholder ikke automatisk detaljerede planer, der er baseret på prioriteter eller optimeringsregler.
+
+I vinduet **Kapacitetsbegrænsede ressourcer** kan du foretage en opsætning, der undgår overbelastning af bestemte ressourcer og sikrer, at ingen kapacitet er ikke-allokeret, hvis det kan forbedre gennemløbstiden for en produktionsordre. I feltet **Aktionsgrænse (% af den samlede kapacitet)** kan du tilføje aktionsgrænsetid for ressourcer for at begrænse tab på opdeling af operationer. Dette gør det muligt for systemet at planlægge belastning på den sidst mulige dag ved at overskride den kritiske belastningsprocent en smule, hvis dette kan reducere antallet af operationer, der er opdelt.
+
+Ved planlægning med kapacitetsbegrænsede ressourcer sikrer systemet, at der ikke indlæses nogen ressource over dens definerede kapacitet (kritisk belastning). Dette gøres ved at tildele hver operation til det nærmeste tilgængelige tidsrum. Hvis tidsrummet ikke er stort nok til at fuldføre hele handlingen, bliver handlingen opdelt i to eller flere dele, der er placeret i de nærmeste ledige tidsrum.
+
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kapacitetsbegrænsede ressourcer**, og vælg derefter det relaterede link.
+2. Vælg handlingen **Ny**.
+3. Udfyld felterne efter behov.
+
+> [!NOTE]
+> Operationer i arbejdscentre eller produktionsressourcer, der er opsat som begrænsede ressourcer planlægges altid serielt. Det betyder, at hvis en begrænset ressource har flere kapaciteter, kan disse kapaciteter kun planlægges i sekvenser, ikke parallelt, som det ville være tilfældet, hvis arbejds- eller produktionscenteret ikke var sat op som begrænset ressource. I en begrænset ressource vil feltet Kapacitet på arbejdscenteret eller produktionsressource være større end 1.
+
+> I tilfælde af opdeling af operationen er opstillingstiden kun tildelt én gang, da det antages, at nogen manuel regulering er udført for at optimere planen.
 
 ## <a name="see-also"></a>Se også  
 [Fremgangsmåde: Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md)  

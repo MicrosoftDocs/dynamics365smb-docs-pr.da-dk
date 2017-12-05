@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials og indholdspakker til Power BI | Microsoft Docs
-description: "Du kan nemt få indsigt, business intelligence og nøgletal i dine Financials-data med Power BI og Financials-indholdspakker."
+title: Dynamics 365 Business edition og indholdspakker til Power BI | Microsoft Docs
+description: "Du kan nemt få indsigt, business intelligence og nøgletal i dine Dynamics 365-data med Power BI og Dynamics 365-indholdspakkerne."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere virksomhedens data til Power BI
@@ -22,7 +22,7 @@ Du kan nemt få indsigt i dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data 
 
 Microsoft er udgivet følgende indholdspakker:
 
-| App | Description |
+| App | Beskrivelse |
 | --- | --- |
 | Microsoft Dynamics 365 for Financials | Indeholder et dashboard med de vigtigste finansielle data over en periode, f.eks. indtægter og udgifter, driftsavance og kassebeholdningsproces.|
 | Microsoft Dynamics 365 for Financials - CRM | Indeholder et dashboard med vigtige oplysninger om salgsmuligheder og kontakter.  |
@@ -44,7 +44,7 @@ Indholdspakkerne er konfigureret til arbejde med data fra demonstrationsvirksomh
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI
 Når du vil have vist dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Power BI, skal du have følgende:  
 
-* Adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Financials](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Dynamics 365 Business Edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Adgang til Power BI. Du kan finde flere oplysninger i [Power BI](https://powerbi.microsoft.com).
 
 Du kan finde flere oplysninger på Power BI-webstedet om at [oprette forbindelse til tjenester med indholdspakker til Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  

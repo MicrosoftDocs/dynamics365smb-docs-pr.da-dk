@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8674fcc050e11c9ecb1c423fc5048c1ef630e1ac
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0e10011c598678134cb7badbd9a3be97751b4424
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-record-and-reimburse-employees-expenses"></a>Fremgangsmåde: Registrere og refundere medarbejdernes udgifter
@@ -47,7 +47,7 @@ Du refunderer medarbejdere ved at bogføre betalinger til deres bankkonto i vind
 5. Vælg handlingen **Bogfør** for at registrere refusionen.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Sådan afstemmes refusioner med medarbejderposter
-Du udligner medarbejderbetalinger til deres relaterede åbne medarbejderposter på samme måde som for kreditorbetalinger, f.eks. i vinduet **Betalingsudligningskladde**, baseret på de relaterede bankkontoudtogsposter. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md). Du kan også udligne manuelt i vinduet **Medarbejderposter**. Du kan finde flere oplysninger i den tilhørende [Fremgangsmåde: Afstemme kreditorbetalinger manuelt ](payables-how-apply-purchase-transactions-manually.md).  
+Du udligner medarbejderbetalinger til deres relaterede åbne medarbejderposter på samme måde som for kreditorbetalinger, f.eks. i vinduet **Betalingsudligningskladde**, baseret på de relaterede bankkontoudtogsposter. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md). Du kan også udligne manuelt i vinduet **Medarbejderposter**. Du kan finde flere oplysninger i den tilhørende [Fremgangsmåde: Afstemme kreditorbetalinger manuelt](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Se også
 [Fremgangsmåde: Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  

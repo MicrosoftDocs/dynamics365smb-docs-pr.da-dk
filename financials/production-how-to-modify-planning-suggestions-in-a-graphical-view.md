@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6cdd86fb96e89e99ea2378221d2991bd640f887e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Fremgangsmåde: Ændre planlægningsforslag i en grafisk visning
@@ -47,7 +47,7 @@ Følgende procedure viser, hvordan du ændrer forsyningsforslag ved at trække o
 5.  Tryk og hold museknappen nede, mens du trækker markøren op eller ned for at ændre mængden. Tryk og hold museknappen nede, mens du trækker markøren mod venstre eller højre for at ændre forfaldsdatoen.  
 6.  Ud over at flytte elementer med træk og slip, kan du ændre planlægningsforslag ved hjælp af et antal rullemenufunktioner. Få adgang til rullemenuen i den grønne cirkel for et foreslået forsyningselement, og vælg én af følgende funktioner  
 
-    |Funktion|Description|  
+    |Funktion|Beskrivelse|  
     |--------------|---------------------------------------|  
     |**Opret ny forsyning**|Opretter et nyt element på det punkt, hvor du går ind i rullemenuen. Punktet repræsenterer en ny foreslået forsyningsordre. Det bliver til en ny linje i planlægningskladden, når du vælger **Gem ændringer**.<br /><br /> **BEMÆRK:** Hvis felterne **Lokationsfilter** eller **Variantfilter** i oversigtspanelet **Indstillinger** er tomme eller har mere end én filterværdi, oprettes den nye forsyning og gemmes senere til planlægnings- eller indkøbskladden med følgende koder:<br /><br /> * Hvis filterfeltet er tomt, oprettes den nye levering uden en lokation eller variantkode.<br /><br /> * Hvis der er defineret mere end én filterværdi, oprettes den nye levering for den første filterværdi i henhold til sorteringsmetoden.<br /><br /> Hvis du ønsker en anden variant eller lokationskode, skal du manuelt ændre den på den nye planlægningslinje.|  
     |**Juster forsyning automatisk**|Optimerer en ny forsyning, du har oprettet i diagrammet, ved at sørge for, at den resulterer i nul lager inden næste forsyning.|  
@@ -59,7 +59,7 @@ Følgende procedure viser, hvordan du ændrer forsyningsforslag ved at trække o
 Hvis du vil implementere ændringerne af forsyningsplanen, skal du følge de aktionsmeddelelser, der er resultatet, fra planlægnings- eller indkøbskladde. Du kan finde flere oplysninger i Udfør aktionsmedl. - plan.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symboler og ikoner på en oversigtspanelet Tidslinje
- |Symbol-ikon|Description|  
+ |Symbol-ikon|Beskrivelse|  
  |------------------|---------------------------------------|  
  |Sort kryds|Ordrer (både udbud og efterspørgsel).<br /><br /> -   Kan ikke ændres.<br />-   Synlig, når feltet **Vis planlagt beholdning** er markeret (orange graf).|  
  |Rød cirkel|Eksisterende forsyningsordrer, der ikke er i planlægningsforslag.<br /><br /> -   Kan ikke ændres.<br />-   Synlig, når feltet **Vis planlagt beholdning** er markeret (orange graf).|  
@@ -70,7 +70,7 @@ Hvis du vil implementere ændringerne af forsyningsplanen, skal du følge de akt
 
 Når du får adgang til rullemenuen for oversigtspanelet **Tidslinje**, vises følgende funktioner, afhængigt af dit valg  
 
- |Funktion|Description|  
+ |Funktion|Beskrivelse|  
  |--------------|---------------------------------------|  
  |**Opret ny forsyning**|Opretter et nyt element på det punkt, hvor du går ind i rullemenuen. Punktet repræsenterer en ny foreslået forsyningsordre. Det bliver til en ny linje i planlægningskladden, når du vælger **Gem ændringer** under fanen **Proces**.<br /><br /> Filterværdier, der er defineret i felterne **Lokationsfilter** eller **Variantfilter** i oversigtspanelet **Indstillinger** bliver anvendt på den nye forsyningsordre. **Bemærk**: Hvis filterfelterne er tomme eller har mere end én filterværdi, oprettes den nye forsyningsordre ved hjælp af følgende koder: <ul><li>Hvis filterfeltet er tomt, oprettes den nye levering uden en lokation eller variantkode.</li><li>Hvis der er defineret mere end én filterværdi, oprettes den nye forsyning vha. den første filterværdi i henhold til sorteringsrækkefølgen.</li></ul> Hvis du ønsker en anden variant eller lokationskode i den nye forsyningsordre, skal du manuelt ændre den på den nye planlægningslinje.|  
  |**Juster forsyning automatisk**|Optimerer en ny forsyning, du har oprettet i diagrammet, ved at sørge for, at den opretter nul lager inden næste forsyning.|  
@@ -82,7 +82,7 @@ Når du får adgang til rullemenuen for oversigtspanelet **Tidslinje**, vises f�
 
 Foruden de tastaturhandlinger, der blev nævnt tidligere, kan du også bruge følgende tastaturhandlinger i oversigtspanelet **Tidslinje**.  
 
- |Tastaturhandling|Description|  
+ |Tastaturhandling|Beskrivelse|  
  |---------------------|---------------------------------------|  
  |Ctrl + rul musens hjul|Ændrer skaleringen af x-aksen.|  
  |Vælg et element, og tryk derefter på Skift + pil|Flytter elementet i retning af pilestrøget.|  

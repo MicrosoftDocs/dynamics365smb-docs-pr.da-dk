@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 95d4104be55bcaf77dffd47e1bec0afcbe95a1da
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6588f01c557b1c0586097766aa8a6f84d545bc6e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Feltkobling, når du importerer SEPA-CAMT-filer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter de regionale SEPA-standarder for import af SEPA-kontoudtog fra banken (CAMT-format). Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md).  
 
- SEPA CAM-standarden har selv lokale variationer. Derfor er du muligvis nødt til at ændre udvekslingsdefinitionen for generiske data repræsenteret af koden **SEPA CAMT** i vinduet **Bogføringsudvekslingsdefinitioner** for at tilpasse den til en lokal variant af standarden. Følgende tabeller viser tilknytningen af element til felt for tabel 81, 273 og 274 i implementeringen af SEPA CAMT i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ SEPA CAM-standarden har selv lokale variationer. Derfor er du muligvis nødt til at ændre udvekslingsopsætningen for generiske data (repræsenteret af koden **SEPA CAMT** i vinduet **Bogføringsudvekslingsdefinitioner**) for at tilpasse den til en lokal variant af standarden. Følgende tabeller viser tilknytningen af element til felt for tabel 81, 273 og 274 i implementeringen af SEPA CAMT i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
  Du kan finde oplysninger om oprettelse eller justering af en dataudvekslingsdefinition i [Fremgangsmåde: Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -60,7 +60,7 @@ ms.lasthandoff: 09/22/2017
  Elementer i noden **Ntry**, der importeres i [!INCLUDE[d365fin](includes/d365fin_md.md)], men som ikke knyttes til nogen felter, gemmes i tabellen **Kolonnedef for bogf.udveksling**. Brugere kan få vist disse elementer i vinduerne **Betalingsudligningskladde**, **Betalingsudligning**, og **Bankkontoafstemning** ved at vælge handlingen **Oplysninger om bankkontoudtogslinje**. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).  
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
-[Udveksle data som elektroniske dokumenter](across-data-exchange.md)  
+[Udveksle data elektronisk](across-data-exchange.md)  
 [Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md)   
 [Fremgangsmåde: Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  

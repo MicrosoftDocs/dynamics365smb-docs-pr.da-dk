@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 111eb2f627f63edd31c6224f0fd664bf68417079
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-data-exchange-definitions"></a>Fremgangsmåde: Konfigurere dataudvekslingsdefinitioner
-Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data som elektroniske dokumenter](across-data-exchange.md).  
+Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
 
 Som forberedelse til oprettelse af en dataudvekslingsdefinition for en datafil eller -stream, kan du bruge det relaterede XML-skema til at definere, hvilke dataelementer der skal indgå, i oversigtspanelet **Kolonnedefinitioner**. Se trin 6 i afsnittet "Sådan beskrives formateringen af linjer og kolonner i filen". Du kan finde flere oplysninger i [Fremgangsmåde: Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
@@ -71,7 +71,7 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
     >   
     >  I forbindelse med eksport betalinger kan du oprette en linje for hver betalingstype, du vil eksportere. I så fald viser oversigtspanelet **Kolonnedefinitioner** forskellige kolonner for hver betalingstype.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Kode**|Angiv en kode, der identificerer linjen i filen.|  
     |**Navn**|Angiv et navn, der beskriver linjen i filen.|  
@@ -87,7 +87,7 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
 7. I vinduet **Hent filstruktur** skal du vælge den relaterede strukturfil og derefter klikke på knappen **OK**. Linjerne i oversigtspanelet **Kolonnedefinitioner** udfyldes i overensstemmelse med datafilens struktur.  
 8. Rediger eller udfyld felterne i oversigtspanelet **Kolonnedefinitioner** som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Kolonnenr.**|Angiv det nummer, der afspejler kolonnens placering på linjen i filen.<br /><br /> For XML-filer, skal du angive det tal, der afspejler elementtypen i den fil, der indeholder dataene.|  
     |**Navn**|Angiv navnet på kolonnen.<br /><br /> For XML-filer skal du angive koden, der markerer de data, der skal udveksles.|  
@@ -111,10 +111,10 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
 1. Brug oversigtspanelet **Linjedefinitioner** til at vælge den linje, du vil knytte kolonner til felter for, og vælg derefter **Feltkobling**. Vinduet **Dataudvekslingskobling** åbnes.  
 2. På oversigtspanelet **Generelt** skal du angive tilknytningsopsætningen ved at udfylde felterne som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Tabel-id**|Angiv den tabel, der indeholder felterne, til eller fra hvilke data udveksles i henhold til tilknytningen.|  
-    |**Brug som midlertidig tabel**|Angiv, om den tabel, du vælger i feltet **Tabel-id**, er en midlertidig tabel, hvor de importerede data gemmes, før de knyttes til måltabellen.<br /><br /> Du kan bruge en midlertidige tabel, når dataudvekslingsdefinitionen bruges til at importere og konvertere elektroniske dokumenter, f.eks kreditorfakturaer til købsfakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Udveksle data som elektroniske dokumenter](across-data-exchange.md).|  
+    |**Brug som midlertidig tabel**|Angiv, om den tabel, du vælger i feltet **Tabel-id**, er en midlertidig tabel, hvor de importerede data gemmes, før de knyttes til måltabellen.<br /><br /> Du kan bruge en midlertidige tabel, når dataudvekslingsdefinitionen bruges til at importere og konvertere elektroniske dokumenter, f.eks kreditorfakturaer til købsfakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).|  
     |**Navn**|Angiv et navn for tilknytningsopsætningen.|  
     |**Codeunit til førtilknytning**|Angiv den kodeenhed, der klargør tilknytningen mellem felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data.|  
     |**Koblings-codeunit**|Angiv den kodeenhed, der bruges til at knytte de angivne kolonner eller XML-dataelementer til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
@@ -122,7 +122,7 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
 
 3.  Brug oversigtspanelet **Feltkobling** til at angive, hvilke kolonner der knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at udfylde felterne som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Kolonnenr.**|Angiv, hvilken kolonne i datafilen, som du vil definere en tilknytning til.<br /><br /> Du kan kun vælge de kolonner, der repræsenteres af linjer, i oversigtspanelet **Kolonnedefinitioner** i vinduet **Dataudvekslingsdefinition**.|  
     |**Felt-id**|Angiv, hvilket felt kolonnen i feltet **Kolonnenr.** er tilknyttet.<br /><br /> Du kan kun vælge felter, der findes i den tabel, du angav i feltet **Tabel** i oversigtspanelet **Generelt**.|  

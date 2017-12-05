@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Fremgangsmåde: Bruge OCR til at gøre PDF og filer til elektroniske dokumenter
@@ -70,23 +70,34 @@ Hvis du ikke bruger en opgavekø, eller du skal have et færdigt OCR-dokument hu
 Nu kan du fortsætte med at oprette dokumentposter for de modtagne elektroniske dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)] manuelt eller automatisk. Der er flere oplysninger i næste procedure. Du kan også forbinde den nye indgående dokumentpost med eksisterende bogførte eller ikke-bogførte dokumenter, så kildefilen er nem at få adgang til fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Fremgangsmåde: Behandle indgående bilag](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Sådan oprettes en købsfaktura fra et elektronisk dokument, der er modtaget fra OCR-tjenesten
-Følgende fremgangsmåde beskriver, hvordan du opretter en købsfakturapost fra en kreditorfaktura, der er modtaget som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåden er den samme som, når du f.eks. opretter en finanskladdelinje fra en udgiftskvittering.
+Følgende fremgangsmåde beskriver, hvordan du opretter en købsfakturapost fra en kreditorfaktura, der er modtaget som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåden er den samme som, når du f.eks. opretter en finanskladdelinje fra en udgiftskvittering eller en salgsreturvareordre fra en kunde.
 
 > [!NOTE]  
->   Felterne **Beskrivelse** og **Nummer** på de oprettede bilagslinjer udfyldes kun, hvis du først har tilknyttet tekst, der findes i OCR-dokumentet, til de to felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan gøre dette som varereferencer for bilagslinjer af typen Vare eller som tekst til konto-tilknytninger for bilags- eller kladdelinjer af typen Finanskonto. Du kan finde flere oplysninger i værktøjstip for handlingen **Varereferencer** på varekortene og den relaterede procedure [Fremgangsmåde: Knytte tekst på tilbagevendende betalinger til konti til automatisk afstemning](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+>   Felterne **Beskrivelse** og **Nummer** på de oprettede bilagslinjer udfyldes kun, hvis du først har tilknyttet tekst, der findes i OCR-dokumentet, til de to felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan udføre denne tilknytning som varekrydsreferencer for dokumentlinjer af typen vare. Du kan også bruge funktionen Tilknytning af tekst til konto. Du kan finde yderligere oplysninger i afsnittet "Sådan tilknyttes tekst på et indgående dokument til en bestemt leverandør, finanskonto eller bankkonto".
 
+Hvis du vil knytte varenumrene på bilaget til dine beskrivelser kreditorens varer, skal du åbne kortet for hver vare og derefter vælge handlingen **Varereferencer** for at oprette krydsreferencer mellem dine varebeskrivelser og kreditorens varer. Kan finde flere oplysninger i værktøjstippet til handlingen **Krydsreferencer** på varekort.
+
+1. Vælg linjen for det indgående dokument, og vælg derefter handlingen **Opret dokument**.
+
+Der oprettes en købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] baseret på oplysningerne i det elektroniske kreditordokument, du har modtaget fra OCR-tjenesten. Oplysningerne indsættes i feltet ny købsfaktura, der er baseret på den tilknytning, du har defineret som en krydsreference eller som en tilknytning mellem tekst og konto.
+
+Enhver valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i oversigtspanelet **Fejl og advarsler**. Du kan finde flere oplysninger i afsnittet "Sådan håndteres fejl ved modtagelse af elektroniske dokumenter".
+
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Sådan knyttes tekst på et indgående dokument til en bestemt kreditorkonto
 For indgående bilag kan du normalt bruge handlingen **Knyt tekst til konto** for at definere, at en bestemt tekst på en kreditorfaktura, som er modtaget fra OCR-tjenesten, er knyttet til en bestemt kreditorkonto. Fremover betyder enhver del af beskrivelsen af et indgående dokument, der findes som en tilknytningstekst, at feltet **Nr.** på resulterende bilags- eller kladdelinjer af typen Finanskonto udfyldes med den pågældende kreditor.
 
 Ud over tilknytning til en kreditorkonto eller finanskonti kan du også knytte til en bankkonto. Dette er nyttigt, f.eks. ved elektroniske dokumenter for udgifter, der allerede er betalt, hvor du vil oprette en finanskladdelinje, der er klar til at blive bogført på en bankkonto.
 
-1. Vælg den indgående bilagslinje for det elektroniske kreditordokument, der er modtaget fra OCR-tjenesten.
-2. For at knytte tekst i dokumentet til kreditorkontoen, en debetkonto, skal du vælge handlingen **Knyt tekst til konto** og derefter udfylde vinduet **Tekst til konto** med de oplysninger, der skal gælde for kreditoren fremover. Du kan finde flere oplysninger under [Fremgangsmåde: Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-3. Hvis du vil knytte varenumrene på bilaget til dine beskrivelser kreditorens varer, skal du åbne kortet for hver vare og derefter vælge handlingen **Varereferencer** for at oprette krydsreferencer mellem dine varebeskrivelser og kreditorens varer.
-4. I vinduet **Indgående bilag** skal du vælge handlingen **Opret bilag**.
+1. Vælg den relevante indgående dokumentlinje, og vælg derefter handlingen **Knyt tekst til konto**. Vinduet **Tekst til kontotilknytning** åbnes.
+3. I feltet **Koblingstekst** skal du angive enhver tekst, der opstår for kreditorfakturaer, som du ønsker at oprette købsdokumenter eller kladdelinjer for. Du kan angive op til 50 tegn.
+4. I feltet **Kreditornummer** skal du angive den kreditor, som købsdokumentet eller kladden skal oprettes for.
+5. I feltet **Debetkontonr.**, skal du angive den finanskonto af debettypen, der skal indsættes i det oprettede dokument eller den oprettede kladdelinje af typen Finanskonto.
+6. I feltet **Kreditkontonr.**, skal du angive den finanskonto af kredittypen, der skal indsættes i det oprettede dokument eller den oprettede kladdelinje af typen Finanskonto.
 
-Der oprettes en købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] baseret på oplysningerne i det elektroniske kreditordokument, du har modtaget fra OCR-tjenesten.
+    > [!NOTE]
+    > Brug ikke felterne **Modkontokildetype** og **Modkontokildenr.** i forbindelse med indgående dokumenter. De bruges kun til afstemning af automatisk betaling. Du kan finde flere oplysninger under [Fremgangsmåde: Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
-Enhver valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i oversigtspanelet **Fejl og advarsler**. Du kan finde flere oplysninger i afsnittet "Sådan håndteres fejl ved modtagelse af elektroniske dokumenter".
+7. Gentag trin 2 til 5 for al tekst på indgående dokumenter, du automatisk vil oprette dokumenter til.
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Sådan håndteres fejl ved modtagelse af elektroniske dokumenter
 1. I vinduet **Indgående bilag** skal du vælge linjen for et elektronisk dokument, der er modtaget fra OCR-tjenesten med fejl. Det er angivet med værdien Fejl i feltet **OCR-status**.

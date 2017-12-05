@@ -1,6 +1,6 @@
 ---
 title: "Administrere kunder ved hjælp af Dynamics 365 for Sales | Microsoft Docs"
-description: "Du kan bruge Dynamics 365 for Sales fra Dynamics 365 for Financials til at tilknytte data og få gnidningsløs integration og synkronisering i lead-til-kontant-processen."
+description: "Du kan bruge Dynamics 365 for Sales fra Dynamics 365 Business edition til at tilknytte data og få problemfri integration og synkronisering i lead-til-kontant-processen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,27 +12,27 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bc0b9c8141c6c2eac78abc9cd3f5c89af3c89fbb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="managing-your-customer-relationships-using-dynamics-365-for-sales-from-inside-dynamics-365-for-financials"></a>Administrere kunderelationer med Dynamics 365 for Sales fra Dynamics 365 for Financials
+# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Administration af kunder og salg, der er oprettet i Dynamics 365 for Sales
 Hvis du bruger Dynamics 365 for Sales til kundeengagementer, kan du bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] til ordrebehandling og økonomi og få problemfri integration i lead-til-kontant-processen.
 
 Når programmet er indstillet til integration med Dynamics 365 for Sales, har du adgang til Sales-data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] og omvendt i nogle tilfælde. Integrationen gør det muligt at arbejde med og synkronisere datatyper, der er fælles for begge tjenester, f.eks. debitorer, kontakter og salgsoplysninger, og holde dataene opdaterede på begge lokationer.  
 
-For eksempel kan sælgeren i Dynamics 365 for Sales bruge prislisterne fra [!INCLUDE[d365fin](includes/d365fin_md.md)], når vedkommende opretter en salgsordre. Når sælgeren føjer varen til salgsordrelinjen i Dynamics 365 for Sales, kan han eller hun også få vist lagerniveauet (disponering) af varen fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Disse data publiceres som en del af den assisterende opsætningsvejledning **Konfiguration af Dynamics 365-forbindelse**.  
+For eksempel kan sælgeren i Dynamics 365 for Sales bruge prislisterne fra [!INCLUDE[d365fin](includes/d365fin_md.md)], når vedkommende opretter en salgsordre. Når sælgeren føjer varen til salgsordrelinjen i Dynamics 365 for Sales, kan han eller hun også få vist lagerniveauet (disponering) af varen fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]  
 >   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
 
 ## <a name="setting-up-the-connection"></a>Indstilling af forbindelsen
-Fra startsiden kan du åbne opsætningsvejledningen **Konfiguration af Dynamics 365-forbindelse**, der hjælper dig med at oprette forbindelsen. Når det er gjort, får du en problemfri sammenkædning af Dynamics 365 for Sales-poster og [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.  
+Fra startsiden kan du åbne opsætningsvejledningen **Konfiguration af Dynamics 365 for Sales-forbindelse**, der hjælper dig med at oprette forbindelsen. Når det er gjort, får du en problemfri sammenkædning af Dynamics 365 for Sales-poster og [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.  
 
 > [!NOTE]  
->   I det følgende forklares den assisterende opsætning, men du kan udføre de samme opgaver manuelt i vinduet **Konfiguration af Dynamics 365-forbindelse**.
+>   I det følgende forklares den assisterende opsætning, men du kan udføre de samme opgaver manuelt i vinduet **Konfiguration af Dynamics 365 for Sales-forbindelse**.
 
 I den assisterende opsætningsvejledning kan du vælge, hvilke data der skal synkroniseres mellem de to tjenester. Du kan også angive, at du vil importere din eksisterende Dynamics 365 for Sales-løsning. Hvis du vil det, skal du angive en administratorbrugerkonto.
 
@@ -77,7 +77,7 @@ I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen *
 
 For at kontrollere status for individuelle job i en fuldstændig synkronisering skal du fokusere på felterne **Status for opgavekøpost**, **Status for til int. tabel-job** eller **Status for fra int. tabel-job** i vinduet **Fuld CRM-synkroniseringsgennemgang**.
 
-Fra vinduet **Konfiguration af Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne vinduet **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i Financials og Dynamics 365 for Sales-løsningen, som skal synkroniseres.
+Fra vinduet **Konfiguration af Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne vinduet **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i Dynamics 365 Business edition og Dynamics 365 for Sales-løsningen, som skal synkroniseres.
 
 ## <a name="see-also"></a>Se også
 [Relationsstyring](marketing-relationship-management.md)  

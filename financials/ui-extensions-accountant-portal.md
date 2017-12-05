@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, accountant
-ms.date: 09/05/2017
+ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 84b2331f14b8c7e8d73921189e2df33fa709626e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: a370002c08d8ef4cc46baa864f32b6ca2ef01b78
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="accountant-portal-for-dynamics-365-for-financials"></a>Revisorportal til Dynamics 365 for Financials
+# <a name="accountant-portal-for-dynamics-365-business-edition"></a>Revisorportal til Dynamics 365 Business edition
 Dette program indeholder et dashboard med oversigtsdata for hver af en revisors kunder. Portalen viser finansielle nøgletal samt et direkte link til kundens økonomiprogram.  
 
 Dashboardet er et højt specialiseret rollecenter, der giver et bedre overblik over dine kunder.  
@@ -28,15 +28,17 @@ Når du installerer udvidelsen, hjælper en eksempelvirksomhed dig med at komme 
 ## <a name="installing-the-extension"></a>Installation af udvidelsen
 Når du installerer udvidelsen i [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du spurgt, om du vil bruge den nu. Hvis du vil det, skal du logge af og logge på igen, fordi udvidelsen erstatter dit aktuelle Rollecenter og føjer tilladelser til din brugerprofil.  
 
-Du kan finde flere oplysninger under [Revisoroplevelser i Dynamics 365 for Financials](finance-accounting.md).  
+Du kan finde flere oplysninger under [Revisoroplevelser i Dynamics 365 Business edition](finance-accounting.md).  
 
 > [!NOTE]  
 >  Den aktuelle version af udvidelsen kræver, at dine klienter bruger [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="using-the-extension"></a>Brug af udvidelsen
-Udvidelsen bruges, når du logger på [Financials for Accountants på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Hvis du installerer udvidelsen i din [!INCLUDE[d365fin](includes/d365fin_md.md)], erstatter den det aktuelle Rollecenter. Hvis du derefter vil vende tilbage til det andet Rollecenter, kan du gøre det i Mine indstillinger. Du kan finde flere oplysninger i [Fremgangsmåde: Ændre rollecentret](change-role.md).  
+Udvidelsen udfases i løbet af få måneder. Det anbefales, at du ikke installerer denne udvidelse, men tilmelder dig [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] på [Financials for revisorer på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants) i stedet.
+
+Du kan finde flere oplysninger i [Velkommen til Dynamics 365 – Accountant Hub](/dynamics365/accountants/index.md).  
 
 ## <a name="see-also"></a>Se også
-[Revisoroplevelser i Dynamics 365 for Financials](finance-accounting.md)  
+[Revisoroplevelser i Dynamics 365 Business edition](finance-accounting.md)  
 [Finans](finance.md)  
 
