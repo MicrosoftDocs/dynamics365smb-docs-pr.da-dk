@@ -6,7 +6,7 @@
       "docset_name": "financialssmb",
       "build_source_folder": "financials",
       "build_output_subfolder": "financialssmb",
-      "locale": "en-us",
+      "locale": "da-dk",
       "monikers": [],
       "moniker_groups": [],
       "open_to_public_contributors": false,
@@ -38,7 +38,6 @@
     }
   ],
   "notification_subscribers": [
-    "edupont@microsoft.com",
     "dgoldsch@microsoft.com"
 
   ],
