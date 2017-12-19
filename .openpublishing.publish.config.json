@@ -6,7 +6,7 @@
       "docset_name": "financialssmb",
       "build_source_folder": "financials",
       "build_output_subfolder": "financialssmb",
-      "locale": "da-DK",
+      "locale": "da-dk",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -20,8 +20,7 @@
     }
   ],
   "notification_subscribers": [
-    "edupont@microsoft.com",
-    "dgoldsch@microsoft.com"
+    "navualocbld@microsoft.com"
   ],
   "branches_to_filter": [
     "live-sxs"
@@ -32,7 +31,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.da-DK",
+      "url": "https://github.com/Microsoft/templates.docs.msft.da-dk",
       "branch": "master",
       "branch_mapping": {}
     }
