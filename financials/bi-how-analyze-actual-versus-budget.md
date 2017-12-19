@@ -10,24 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Fremgangsmåde: Analysere faktiske beløb sammenlignet med budgetterede beløb
 Som et led i indsamling, analyse og deling af virksomhedens data kan du få vist faktiske beløb sammenlignet med budgetterede beløb for alle konti og for flere perioder.
 
-Hvis du vil analysere budgetterede beløb, skal du først oprette budgetter. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette budgetter](finance-how-create-budgets.md).
+Hvis du vil analysere budgetterede beløb, skal du først oprette finansbudgetter. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette finansbudgetter](finance-how-create-budgets.md).
 
 > [!NOTE]  
 >   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
-## <a name="to-view-a-budget"></a>Sådan får du vist et budget
+## <a name="to-view-a-gl-budget"></a>Sådan får du vist et finansbudget
 budget med dimensioner kan du filtrere poster og få vist et bestemt budget.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finansbudgetter**, og vælg derefter det relaterede link.
@@ -68,7 +68,7 @@ Du kan få vist et antal perioder for en enkelt konto i stedet for at få vist a
 4. Vælg feltet, hvis du vil se en specifikation af et vist beløb.  
 
 ## <a name="see-also"></a>Se også
-[Business Intelligence](bi.md)
+[Business Intelligence](bi.md)  
 [Fremgangsmåde: Arbejde med kontoskemaer](bi-how-work-account-schedule.md)  
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  

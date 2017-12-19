@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 59805de35ca1ebe01255eafeb4fff12efacde934
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setting-up-workflows"></a>Opsætte workflows
@@ -26,9 +26,9 @@ Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, de
 
  I vinduet **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden.  
 
- Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal en Microsoft-partner implementere dem ved at tilpasse programkoden. Du kan finde flere oplysninger i [Gennemgang: implementering af nye arbejdsgangshændelser og -svar](https://msdn.microsoft.com/en-us/library/mt574349.aspx) på MSDN.
+ Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal en Microsoft-partner implementere dem ved at tilpasse programkoden. Du kan finde flere oplysninger i [Gennemgang: Implementering af nye workflowhændelser og -responser](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) i hjælpen til udviklere og it-eksperter.
 
- Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
+ Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 |**For at**|**Se**|  
 |------------|-------------|  
@@ -42,7 +42,7 @@ Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, de
 |Brug workflowskabeloner til at oprette nye workflows.|[Fremgangsmåde: Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Del workflows med andre [!INCLUDE[d365fin](includes/d365fin_md.md)]-databaser.|[Fremgangsmåde: Importere og eksportere workflows](across-how-to-export-and-import-workflows.md)|  
 |Lær, hvordan du konfigurerer en arbejdsgang til godkendelse af salgsdokumenter ved at følge en hel procedure.|[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Tilføj understøttelse af et forretningsscenarie, der kræver nye workflowhændelser eller -responses ved at tilpasse programkoden.|[Gennemgang: Implementering af nye workflowhændelser og -responser](https://msdn.microsoft.com/en-us/library/mt574349.aspx) på MSDN.|  
+|Tilføj understøttelse af et forretningsscenarie, der kræver nye workflowhændelser eller -responses ved at tilpasse programkoden.|[Gennemgang: Implementering af nye workflowhændelser og -responser](/dynamics_nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
 ## <a name="see-also"></a>Se også  
  [Anvende workflows](across-use-workflows.md)   

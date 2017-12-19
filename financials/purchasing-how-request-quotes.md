@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fe51ade7a46ab7a8fdf77419a0098ac47fe2e5d1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-request-quotes"></a>Fremgangsmåde: Anmode om tilbud
@@ -31,7 +31,7 @@ Når du har accepteret leverandørtilbuddet, kan du konvertere det til en købsf
 
 1. Åbn en købsrekvisition, der er klar til at konvertere, og vælg derefter handlingen **Lav ordre**.
 
-Købsrekvisitionen fjernes fra databasen. En købsfaktura eller salgsordre oprettes på grundlag af oplysningerne i købsrekvisitionen, hvor du kan behandle købet. I feltet **Tilbudsnr.** på købsfakturaen eller købsordren kan du se nummeret på den købsrekvisition, den blev oprettet ud fra.
+Købsrekvisitionen fjernes fra databasen. En købsfaktura eller indkøbsordre oprettes på grundlag af oplysningerne i købsrekvisitionen, hvor du kan behandle købet. I feltet **Tilbudsnr.** på købsfakturaen eller købsordren kan du se nummeret på den købsrekvisition, den blev oprettet ud fra.
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  

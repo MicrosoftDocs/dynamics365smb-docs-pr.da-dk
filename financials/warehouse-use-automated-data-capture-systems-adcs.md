@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 56d191c465b611c1764cf3c97e507c4952fe6287
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Fremgangsmåde: Aktivere ADCS (Automated Data Capture Systems)
@@ -28,7 +28,7 @@ Ved opsætningen af miniformularer skal du definere, hvilke oplysninger der skal
 - Tekstoplysninger.  
 - Meddelelser til at vise bekræftelser eller fejl om aktiviteter, der er udført og registreret af brugeren af den håndholdte enhed.
 
-Du kan finde flere oplysninger i [Konfiguration af Automated Data Capture System](https://msdn.microsoft.com/en-us/library/dd338742.aspx) på MSDN.
+Du kan finde flere oplysninger i [Konfiguration af Automated Data Capture System](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjælpen til udviklere og it-eksperter.
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Sådan opsætter du et lager til brug af ADCS  
 Hvis du vil bruge ADCS, skal du angive, hvilke lokationer på lagerstedet der bruger teknologien.  
@@ -107,7 +107,7 @@ Når du har oprettet en miniformular, er næste trin at oprette funktioner og kn
 
 I udviklingsmiljøet i [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du redigere koden for feltet **Håndtering af Codeunit** for at oprette eller redigere kode, som kan udføre den krævede handling eller det krævede svar.
 
-Du kan finde flere oplysninger i [Konfiguration af Automated Data Capture System](https://msdn.microsoft.com/en-us/library/dd338742.aspx) på MSDN.
+Du kan finde flere oplysninger i [Konfiguration af Automated Data Capture System](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjælpen til udviklere og it-eksperter.
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  

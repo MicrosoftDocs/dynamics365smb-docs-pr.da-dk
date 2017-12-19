@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 445172287ae09032ff53e02d0e64dc967456a7bb
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 34a25ed48ff16971120b272421560bf1416af60f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentlayout
@@ -42,7 +42,7 @@ Et rapportlayout til Word er baseret på Word-dokument (.docx-filtype). Med Word
  ![Eksempel på Word-dokument med rapportlayout til NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 
 ## <a name="rdlc-layout-overview"></a>Oversigt over RDLC-layout
-RDLC-layout er baseret på klientrapportens definitionslayout (.rdlc- eller .rdl-filtyper). Disse layout oprettes og ændres ved hjælp af SQL Server Report Builder. Konceptet for RDLC-layoutdesign ligner Word-layout, hvor layoutet definerer det generelle format af rapporten og bestemmer, hvilke felter fra datasættet der skal medtages. RDLC-layoutdesign er mere avanceret end Word-layout. Du kan finde flere oplysninger i [Designe RDLC-rapportlayout](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
+RDLC-layout er baseret på klientrapportens definitionslayout (.rdlc- eller .rdl-filtyper). Disse layout oprettes og ændres ved hjælp af SQL Server Report Builder. Konceptet for RDLC-layoutdesign ligner Word-layout, hvor layoutet definerer det generelle format af rapporten og bestemmer, hvilke felter fra datasættet der skal medtages. RDLC-layoutdesign er mere avanceret end Word-layout. Du kan finde flere oplysninger i [Designe RDLC-rapportlayout](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Indbyggede og brugerdefinerede rapportlayout
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder flere indbyggede layout. Indbyggede layout er foruddefinerede layout, der er beregnet til bestemte rapporter. Rapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)] har et indbygget layout, som enten en RDLC-rapportlayout, Word-rapportlayout eller i nogle tilfælde begge. Du kan ikke ændre et indbygget rapportlayout fra [!INCLUDE[d365fin](includes/d365fin_md.md)], men du kan bruge dem som udgangspunkt for opbygning af dine egne brugerdefinerede rapportlayout.

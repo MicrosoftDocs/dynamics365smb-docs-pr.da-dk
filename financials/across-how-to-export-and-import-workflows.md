@@ -1,8 +1,6 @@
 ---
 title: "Sådan eksporterer og importerer du workflows | Microsoft Docs"
-description: "Du kan overføre workflows til andre [!INCLUDE[d365fin](includes/d365fin_md.md)]-databaser, f.eks. for at spare tid ved oprettelse af nye workflows, ved at eksportere og importere workflows."
-services: project-madeira
-documentationcenter: 
+description: "Du kan overføre workflows til andre Dynamics 365-databaser, f.eks. for at spare tid ved oprettelse af nye workflows, ved at eksportere og importere workflows."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8126d3850103819e885d9d131ca3074f1b7cfda1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 520c81b9c550b4ef29b077685541a2e7ea30d4d7
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-export-and-import-workflows"></a>Fremgangsmåde: Importere og eksportere workflows

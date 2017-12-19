@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d0cb7491300e9c108af4d1b0e746e65130886c15
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Fremgangsmåde: Oprette og ændre et brugerdefineret rapport- eller dokumentlayout
@@ -57,7 +57,7 @@ Hvis du vil ændre et rapportlayout, skal du først eksportere rapportlayoutet s
 
       Hvis du ændrer et Word-layout, skal du åbne layoutdokumentet i Word. Hvis du vil vide mere om redigering af oplysninger, skal du se næste afsnit [Ændringer af rapportlayoutet](ui-how-create-custom-report-layout.md#MakeChangesToLayout).
 
-      RDLC-rapportlayout er mere avanceret end Word-rapportlayout. Du kan finde flere oplysninger om ændring af RDLC-rapportlayout i [Designe RDLC-rapportlayout](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
+      RDLC-rapportlayout er mere avanceret end Word-rapportlayout. Du kan finde flere oplysninger om ændring af RDLC-rapportlayout i [Designe RDLC-rapportlayout](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
       Husk at gemme ændringerne, når du er færdig.
 

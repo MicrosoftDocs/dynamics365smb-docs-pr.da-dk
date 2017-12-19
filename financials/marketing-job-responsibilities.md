@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Fremgangsmåde: Definere dine kontaktpersoners ansvarsområder
@@ -24,13 +24,13 @@ Du kan tilføje oplysninger om ansvarsområder for kontaktpersoner for at angive
 
 Brug af ansvarsområder for kontakter er en totrinsproces. Først skal du definere koden for ansvarsområdet. Du behøver kun at udføre dette trin én gang for hvert ansvarsområde. Når du har et ansvarsområde, kan du begynde at tildele koden til kontakter.
 
-## <a name="to-define-a-job-responsibility-code"></a>for at definere en ansvarsområdekode
+## <a name="to-define-a-job-responsibility-code"></a>Sådan defineres en ansvarsområdekode
 Ansvarsområdekoden definerer jobtypen eller -kategorien, f.eks. MARKETING eller INDKØB. Du kan have flere ansvarsområdekoder. Du definerer ansvarsområdet fra vinduet **Ansvarsområder**.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ansvarsområder**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**, og indtast en kode og beskrivelse. Du kan bruge op til 11 tegn til koden, som skal være en kombination af tal og bogstaver.
 
-## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>for at tildele ansvarsområder til en kontaktperson
+## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Sådan tildeles ansvarsområder til en kontaktperson
 Du kan ikke tildele ansvarsområder til kontaktvirksomheder.
 
 1. Åbn kontaktpersonen.

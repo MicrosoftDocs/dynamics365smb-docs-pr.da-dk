@@ -12,10 +12,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: fb13cfe2d5e5a397d33f66b9fd4db14e46dcc5e1
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Tilpasse Dynamics 365, Business edition ved hjælp af udvidelser
@@ -70,8 +70,8 @@ Microsoft tilbyder følgende udvidelser:
 ## <a name="see-also"></a>Se også
 [Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Fremgangsmåde: Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md)  
-[Overføre virksomhedsdata fra andre økonomisystemer](upload-data.md)  
-[Konfigurere den britiske GetAddress.io-postnummerudvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
+[Overførsel af virksomhedsdata fra andre økonomisystemer](upload-data.md)  
+[Konfiguration af den britiske GetAddress.io-postnummerudvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

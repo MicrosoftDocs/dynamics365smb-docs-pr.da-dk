@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c3cfae3d52cbb25882c5986ad4aedaef7939a8b6
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 1aa1a7c2ec56c3f123bde67a9870be4efd99bdb5
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -50,6 +50,7 @@ Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at
 |Administrer forretningsaktiviteter på salgskontorer, indkøbsafdelinger eller fabriksplanlægningskontor på tværs af flere lokationer.|[Fremgangsmåde: Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
 
 ## <a name="see-also"></a>Se også  
+[Logistik](warehouse-manage-warehouse.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)    
 [Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  

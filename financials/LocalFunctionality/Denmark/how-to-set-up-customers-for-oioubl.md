@@ -1,14 +1,22 @@
-fhow-register-new-customers---title: Sådan opsættes kunder til OIOUBL | Microsoft Docs-beskrivelse: Hvis du vil oprette Offentlig Information Online UBL (OIOUBL)-dokumenter for debitorer i den offentlige sektor, skal du tilføje OIOUBL-oplysninger til de relevante debitorer.
-tjenester: projekt madeira documentationcenter: "forfatter: SorenGP
-
-    ms.service: dynamics365-financials
-    ms.topic: article
-    ms.devlang: na
-    ms.tgt_pltfrm: na
-    ms.workload: na
-    ms.search.keywords:
-    ms.date: 07/01/2017
-    ms.author: sgroespe
+---
+title: "Sådan konfigureres kunder til OIOUBL | Microsoft Docs"
+description: "Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for debitorer i den offentlige sektor, skal du tilføje OIOUBL-oplysninger for de relevante debitorer."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: e99859e6501c1788693d39363089331c8b322f56
+ms.contentlocale: da-dk
+ms.lasthandoff: 11/27/2017
 
 ---
 # <a name="how-to-set-up-customers-for-oioubl"></a>Fremgangsmåde: Konfigurere kunder til OIOUBL
@@ -22,7 +30,7 @@ Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for deb
 2.  Åbn den kunde, du vil konfigurere aktivere til OIOUBL.  
 3.  Udfyld felterne i oversigtspanelet **Fakturering** som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**EAN-nr.**|Angiv EAN-lokationsnummeret (European Article Numbering) for kunden. Du kan finde flere oplysninger under [EAN-lokationsnummer](ean-location-number.md).|  
     |**Kontokode**|Angiv kontokoden for kunden.<br /><br /> Kunder i den offentlige sektor angiver en kontokode, når de afgiver en bestilling eller rekvisition. Baseret på værdien i dette felt medtages kontokoden i OIOUBL-dokumenter, du opretter i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Ifølge **Lov om Offentlige Betalinger** og relaterede love har kunden ret til at tilbageholde betaling, indtil der modtages en faktura med den relevante kontokode. Du kan finde flere oplysninger i Kontokode.|  
@@ -33,8 +41,9 @@ Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for deb
 
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
- [Fremgangsmåde: Registrere nye debitorer](../../sales-how-register-new-customers.md)   
- [Fremgangsmåde: Konfigurere OIOUBL](how-to-set-up-oioubl.md)   
- [Fremgangsmåde: Oprette elektroniske dokumenter ved hjælp af OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
- [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md)   
- [EAN-lokationsnummer](ean-location-number.md)
+[Fremgangsmåde: Registrere nye debitorer](../../sales-how-register-new-customers.md)   
+[Fremgangsmåde: Konfigurere OIOUBL](how-to-set-up-oioubl.md)   
+[Fremgangsmåde: Oprette elektroniske dokumenter ved hjælp af OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
+[Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md)   
+[EAN-lokationsnummer](ean-location-number.md)
+

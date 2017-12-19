@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79851c90a2a2fd8ac2e744173a04b7eda50b98e8
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 9a51b767006911a26e4e3a7abd55fbbeda05e0bc
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -32,7 +32,7 @@ Når du vil bruge konti for urealiseret moms, skal du gøre følgende:
 3. Luk siden.
 4. Vælg ikonet **Søg efter side eller rapport** ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") og angive **Opsætning af momsbogføring**. 
 5. På siden **Opsætning af momsbogføring** skal du vælge momsbogføringsgruppen og derefter vælge **Rediger**. 
-6. I feltet **Urealiseret moms - type** skal du vælge en indstilling for at angive, hvordan betalinger skal tildeles til fakturabeløbet (uden moms) og selve momsbeløbet, og hvordan momsbeløb skal overføres fra den urealiserede momskonto til den realiserede momskonto. Den følgende tabel beskriver indstillingerne.
+6. I feltet **Urealiseret moms - type** skal du vælge en indstilling for at angive, hvordan betalinger skal tildeles til fakturabeløbet (uden moms) og selve momsbeløbet, og hvordan momsbeløb skal overføres fra den urealiserede momskonto til den realiserede momskonto. Følgende tabel beskriver indstillingerne.
 
 | Indstilling | Beskrivelse |
 | --- | --- |
@@ -50,7 +50,7 @@ Når du vil bruge konti for urealiseret moms, skal du gøre følgende:
 7. Angiv finanskontoen for urealiseret købsmoms i feltet **Urealiseret købsmomskonto**.
 
     > [!NOTE]  
->   Momsbeløbet bogføres på denne konto og bliver stående der, indtil debitors indbetaling er bogført. Derefter overføres beløbet til finanskontoen for salgsmoms.
+>   Momsbeløbet bogføres på denne konto og bliver stående der, indtil debitors indbetaling er bogført. Derefter overføres beløbet til finanskontoen for købsmoms.
 
 ## <a name="see-also"></a>Se også
 [Opsætning af moms](finance-setup-vat.md)

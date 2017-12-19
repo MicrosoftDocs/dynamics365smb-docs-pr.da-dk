@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 68a4563aab0edc6a0ac5b8cbcc5e053c449f20f8
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 7acca4df366752355e5bf28ace6c82fbca196725
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Opsætning af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -45,10 +45,10 @@ For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365f
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
-[Salg](sales-manage-sales.md)
-[Indkøb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
+[Køb](purchasing-manage-purchasing.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)    
-[Projektstyring](projects-manage-projects.md)
+[Projektstyring](projects-manage-projects.md)  
 [Anlægsaktiver](fa-manage.md)    
 [Montagestyring](assembly-assemble-items.md)  
 [Produktion](production-manage-manufacturing.md)  

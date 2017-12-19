@@ -1,8 +1,6 @@
 ---
 title: "Designoplysninger – Planlægningsparametre | Microsoft Docs"
-description: "I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i [!INCLUDE[d365fin](includes/d365fin_md.md)]."
-services: project-madeira
-documentationcenter: 
+description: "I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i Dynamics 365."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6d1b9d86d53076c2373f4f08316192eda29592c5
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 5ab63063b5ad2ae453ecb9953ba4547f31536ee8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-planning-parameters"></a>Designoplysninger: Planlægningsparametre
@@ -64,7 +62,7 @@ Uafhængigt af genbestillingsmetoden følger planlægningssystemet sædvanligvis
 ### <a name="reordering-policies"></a>Genbestillingsmetoder  
 Følgende genbestillingsmetoder påvirker den mængde, der genbestilles.  
 
-|Genbestillingsmetode|Description|  
+|Genbestillingsmetode|Beskrivelse|  
 |-----------------------|---------------------------------------|  
 |**Fast genbestil.antal**|Som et minimum vil ordremængden være lig genbestillingsantallet. Det kan forhøjes for at imødekomme behovet eller det ønskede lagerniveau. Denne genbestillingsmetode bruges normalt med et genbestillingspunkt.|  
 |**Maks. antal**|Ordreantallet vil blive beregnet til at opfylde det maksimale lager. Hvis antal modifikatorer anvendes, kan maksimumlageret blive overtrådt. Vi anbefaler ikke, at du bruger intervallet sammen med maksimalt antal. Intervallet tilsidesættes sædvanligvis. Denne genbestillingsmetode bruges normalt med et genbestillingspunkt.|  
@@ -74,7 +72,7 @@ Følgende genbestillingsmetoder påvirker den mængde, der genbestilles.
 ##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimer, hvornår og hvor meget du skal genbestille  
 En planlægger vil, for at få en rationel forsyningsplan, finjustere planlægningsparametre for at begrænse ændringsforslag, akkumulere behov (dynamisk genbestillingsantal) eller for at undgå ubetydelige planlægningshandlinger. Følgende genbestillingsperiodefelter optimerer, hvornår og hvor meget der skal genbestilles.  
 
-|Felt|Description|  
+|Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
 |**Ændringsperiode**|Dette felt bruges til at afgøre, om aktionsmeddelelsen skal omplanlægge en eksisterende ordre eller annullere den og oprette en ny ordre. Den eksisterende ordre bliver ændret i én ændringsperiode før den aktuelle forsyning og indtil én ændringsperiode efter den aktuelle forsyning.|  
 |**Akkumuleringsperiode for lot**|Dette felt bruges sammen med genbestillingsmetoden Lot-for-Lot, til at akkumulere flere forsyningsbehov i én forsyningsordre. Fra datoen for den første planlagte forsyning akkumulerer systemet alle forsyninger i den følgende akkumuleringsperiode for lot i én forsyning, der placeres på datoen for den første forsyning. Behov, som er uden for akkumuleringsperioden for lot, er ikke omfattet af denne forsyning.|  

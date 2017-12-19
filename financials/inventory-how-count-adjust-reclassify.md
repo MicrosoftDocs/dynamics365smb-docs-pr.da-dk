@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 08/16/2017
+ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 031affc5d872fd989515a2561155353446dfde60
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-count-adjust-and-reclassify-inventory"></a>Fremgangsmåde: Tælle, justere og ompostere inventar
@@ -26,7 +26,7 @@ Selvom alle varer på lageret optælles mindst en gang om året, har du måske b
 
 Hivs der er brug for en regulering af de registrerede lagerantal i forbindelse med optælling eller af andre årsager, kan du bruge en varekladde til at ændre lageropgørelsesposterne direkte, uden at bogføre forretningstransaktioner. Du kan også justere for en enkelt vare på varekortet.
 
-Hvis det er nødvendigt at ændre attributter for varekladdeposter udover antallene, kan du bruge vareomposteringskladden. Blandt det attributter, der kan omposteres, er typisk serie-/lotnumre, udløbsdatoer og dimensioner.
+Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge vareomposteringskladden. Blandt de attributter, der typisk omposteres, er dimensioner og salgskampagnekoder, men du kan også udføre "overførsler mellem systemer" ved at ompostere placerings- og lokationskoder. Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > I avancerede lageropsætninger registreres varer på placeringer som lagerposter, ikke som vareposter. Derfor kan du foretage optælling, regulering og ompostering af særlige lagerkladder, der understøtter placeringer. Du kan derefter bruge særlige funktioner til at synkronisere de nye eller ændrede lagerposter med de tilknyttede vareposter, så de afspejler ændringer i lagerbeholdninger og lagerværdier. Dette beskrives i de specifikke procedurer nedenfor, hvis det er relevant.
@@ -209,13 +209,19 @@ Du skal med jævne mellemrum (som er fastsat af virksomheden) bogføre posterne 
 6.  Bogfør kladdelinjerne for at tilføje afvigelserne i varekladden. Varebeholdningen på lagerplaceringerne svarer nu præcist til beholdningen i varekladden.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Sådan omposteres en vares lotnummer
+Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge vareomposteringskladden. Blandt de attributter, der typisk omposteres, er dimensioner og salgskampagnekoder, men du kan også udføre "overførsler mellem systemer" ved at ompostere placerings- og lokationskoder.
+
+Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+
+Følgende eksempel er baseret på en lokationskode. Trinene er de samme for andre typer vareattributter.
+
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareomposteringskladder**, og vælg derefter det relaterede link.
 2. I vinduet **Vareomposteringskladder** skal du udfylde felterne efter behov.
-3. Angiv det aktuelle lotnummer på varerne i feltet **Lotnr.**.
-4. Angiv det aktuelle lotnummer på varen i feltet **Nyt lotnr.**.
+3. I feltet **Lokationskode** skal du angive varens aktuelle lokationskode.
+4. I feltet **Ny lokationskode** skal du angive varens nye lokationskode.
 5. Vælg handlingen **Bogfør**.
 
-Der gælder særlige trin, når du vil ompostere serie- eller lotnumre. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+Du kan finde oplysninger om overførsel af varer med fuld kontrol over de antal, der er leveret og modtaget, i [Fremgangsmåde: Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Se også
 [Lager](inventory-manage-inventory.md)

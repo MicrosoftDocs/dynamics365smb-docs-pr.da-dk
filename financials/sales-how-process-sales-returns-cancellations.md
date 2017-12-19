@@ -11,16 +11,16 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 46908fb1ae2e0281e730a03e2bcad6e79704d22e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Fremgangsmåde: Behandle salgsreturvarer eller annulleringer
 Hvis en debitor ønsker at returnere varer eller få refunderet varer eller serviceydelser, som du har solgt og modtaget betaling for, skal du oprette og bogføre en salgskreditnota, der angiver den ønskede ændring. Du kan oprette salgskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte salgsfakturaoplysninger, eller du kan oprette en ny salgskreditnota med kopierede fakturaoplysninger.
 
-Hvis du ønsker større kontrol over salgsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved returnering af varer fra flere salgsdokumenter i én returnering, kan du oprette salgsreturvareordrer. En salgsreturvareordre udsteder automatisk den relaterede salgskreditnota og andre returvarerelaterede dokumenter, f.eks. en erstatningssalgsordre, hvis det er nødvendigt. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter".
+Hvis du ønsker større kontrol over salgsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved modtagelse af varer fra flere salgsdokumenter i én salgsreturnering, kan du oprette salgsreturvareordrer. En salgsreturvareordre udsteder automatisk den relaterede salgskreditnota og andre returvarerelaterede dokumenter, f.eks. en erstatningssalgsordre, hvis det er nødvendigt. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter".
 
 > [!NOTE]  
 >   Hvis en bogført salgsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte salgsfaktura, så du tilbagefører transaktionerne. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md).
@@ -38,7 +38,7 @@ Hvis du vil bevare korrekt lagerværdi, skal du typisk placere returnerede varer
 
 Der findes to funktioner til at tildele præcis kostprisudligning automatisk.   
 
-|Funktion|Description|  
+|Funktion|Beskrivelse|  
 |------------------|---------------------------------------|  
 |Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** i vinduet **Salgsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til salgsreturvareordren. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en salgsreturvareordre og relateret salgskreditnota til en eller flere bogførte salgsfakturaer".|  
 |Funktionen **Kopiér dokument** i vinduerne **Salgskreditnota** og **Salgsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret i vinduet **Salgsopsætning**.|

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/28/2017
+ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: c8766d42b579397e63676c1d46fb8a03cbe24aae
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 6cd7b9922f047d05a2cc37a9157de47221f67a7f
 ms.contentlocale: da-dk
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="making-payments"></a>Foretage betaling
@@ -28,7 +28,7 @@ Når betalingerne er bogført, kan du eksportere dem til en bankfil for at overf
 
 Efter at betalingerne er foretaget i din bank, skal du udligne dem til de relaterede åbne kreditor- eller medarbejderposter. Du kan gøre det manuelt eller ved at importere en bankkontoudtogsfil og udligne betalingerne automatisk. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 | Hvis du vil | Se |
 | --- | --- |
@@ -38,7 +38,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Udsted checks for kreditorbetalinger enten som udskrifter eller som computercheck. Annullere checks før eller efter bogføringen. |[Fremgangsmåde: Arbejde med checks](payables-how-work-checks.md) |
 | Betale kreditoren med kontanter eller check og bogfører betalingen, når du bogfører fakturaen. |[Sådan afregnes købsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Kontroller, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. |[Fremgangsmåde: Eksportere en Positive Pay-fil](finance-how-positive-pay.md) |
-|Udlæs betalinger fra vinduet **Udbetalingskladde** til en bankfil, du overfører til din bank til behandling, herunder EFT (elektroniske pengeoverførsler) i Nordamerika. |[Fremgangsmåde: Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)|  
+|Udlæs betalinger fra vinduet **Udbetalingskladde** til en bankfil, du overfører til din bank til behandling, herunder EFT (elektroniske pengeoverførsler) i Nordamerika. |[Fremgangsmåde: Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)|
+|Oprette elektroniske betalinger i henhold til standarden for EU-SEPA-kreditoverførsel.|[Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## <a name="see-also"></a>Se også
 [Administrere skyldige beløb](payables-manage-payables.md)  

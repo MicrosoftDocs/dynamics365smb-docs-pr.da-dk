@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -32,7 +32,7 @@ Du kan finde hurtige og nyttige tip i:
 
 Du kan finde flere oplysninger i [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Når du er klar til at gå videre og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](madeira-business-functionality.md). Du kan få et overblik over aktuelle funktioner, og hvad der kommer senere, i vores oversigt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](madeira-business-functionality.md). Du kan få et overblik over aktuelle funktioner, og hvad der kommer senere, i vores oversigt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Startsiderne
 På startsider kan du via et rollecentreret design få hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige startsider ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændre rollecentret](change-role.md).  

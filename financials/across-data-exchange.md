@@ -1,6 +1,6 @@
 ---
 title: Elektroniske dokumenter i Dynamics 365 Business edition | Microsoft Docs
-description: Introduktion til afsendelse og modtagelse af elektroniske dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+description: Introduktion til afsendelse og modtagelse af elektroniske dokumenter i Dynamics 365.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4397c5b935afccc666fac91c73c04c59958fd8eb
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: dca451d2555641dc1c1fc134b19380b3ede2690b
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -48,13 +48,13 @@ Du kan konfigurere en ekstern tjeneste til at holde dine valutakurser opdaterede
 
 Ved al udveksling af data i XML-filer kan du forberede dataudvekslingsopsætningen ved at indlæse den relaterede XML-skemafil i vinduet **XML-skemafremviser**. Her kan du vælge de dataelementer, du vil udveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)] og derefter enten initialisere en dataudvekslingsdefinition eller generere en XMLport.  
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
+Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 |Hvis du vil|Se|  
 |--------|---------|  
-|Lær, hvordan Data Exchange Framework fungerer.|[Om Data Exchange Framework](across-about-the-data-exchange-framework.md)|  
-|Forbered at udveksle data i en fil ved at genbruge filens XML-skema. Konfigurer dataudvekslingsdefinitioner. Konfigurer stamdata for afsendelse af elektronisk dokumenter. Konfigurer forskellige felter til import/eksport for bank.|[Konfigurere dataudveksling](across-set-up-data-exchange.md)|  
-|Ud fra dataudvekslingsdefinitioner send PEPPOL fakturaer, modtag PEPPOL-fakturaer, importér bankkontoudtog, og eksportér bankbetalingsfiler.|[Udveksle data](across-exchange-data.md)|  
+|Lære, hvordan Data Exchange Framework fungerer.|[Om Data Exchange Framework](across-about-the-data-exchange-framework.md)|  
+|Forberede at udveksle data i en fil ved at genbruge filens XML-skema. Konfigurere dataudvekslingsdefinitioner. Konfigurere stamdata for afsendelse af elektronisk dokumenter. Konfigurere forskellige felter til import/eksport for bank.|[Konfigurere dataudveksling](across-set-up-data-exchange.md)|  
+|Ud fra dataudvekslingsdefinitioner sende PEPPOL fakturaer, modtage PEPPOL-fakturaer, importere bankkontoudtog og eksportere bankbetalingsfiler.|[Udveksle data](across-exchange-data.md)|  
 
 ## <a name="see-also"></a>Se også  
 [Om Data Exchange Framework](across-about-the-data-exchange-framework.md)  

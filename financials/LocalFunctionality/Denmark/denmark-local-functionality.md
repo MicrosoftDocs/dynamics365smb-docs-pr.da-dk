@@ -1,8 +1,6 @@
 ---
 title: Lokal funktionalitet for Danmark | Microsoft Docs
-description: I dette afsnit beskrives lokale funktioner i [!INCLUDE[d365fin](../../includes/d365fin_md.md)] i Danmark.
-services: project-madeira
-documentationcenter: 
+description: I dette afsnit beskrives lokale funktioner i Dynamics 365 i Danmark.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 09/09/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 43d215c78a55e97b7545afb72a8ffcbfe044e23a
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 39486700248e63517cf436da74cd470738b97854
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark

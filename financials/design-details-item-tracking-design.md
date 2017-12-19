@@ -1,8 +1,6 @@
 ---
 title: "Designoplysninger – Design af varesporing | Microsoft Docs"
-description: Dette emne beskriver designet bag varesporing i [!INCLUDE[d365fin](includes/d365fin_md.md)].
-services: project-madeira
-documentationcenter: 
+description: I dette emne beskrives designet bag varesporing i Dynamics 365.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: design, item, tracking, tracing
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1d47b646b1908987648ebe13f53693f6782f6cdf
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 20d04536d670e0c830ed3b92df8d570e6408fab4
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-design"></a>Designoplysninger: Design af varesporing
@@ -38,7 +36,7 @@ Objektet til central bogføring er ændret for at håndtere entydig underklassif
 
 Kodeenhed 22 **Varekladde – Bogfør linje** opdeler nu bogføringen i overensstemmelse med de varesporingsnumre, der er angivet på dokumentlinjen. Hvert entydigt varesporingsnummer på linjen opretter dets egen varepost for varen. Det betyder, at tilknytningen fra den bogførte dokumentlinje til de tilknyttede vareposter nu er en en-til-mange-relation. Denne relation håndteres af de følgende ordresporingsrelationstabeller.  
 
-|Felt|Description|  
+|Felt|Beskrivelse|  
 |---------------|---------------------------------------|  
 |**Varepostrelation** (T6507)|Relaterer afsendte eller modtagne linjer til vareposter|  
 |**Værdipostrelation** (T6508)|Relaterer fakturerede linjer til værdiposter|  

@@ -1,8 +1,6 @@
 ---
 title: "Gennemgang - Opsætning og fakturering af salgsforudbetalinger | Microsoft Docs"
-description: "Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kan f.eks. kræve et depositum, før du fremstiller varer efter ordre, eller du kan kræve betaling, før du sender varerne til en kunde. Du bruger forudbetalingsfunktionen i [!INCLUDE[d365fin](includes/d365fin_md.md)] til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura."
-services: project-madeira
-documentationcenter: 
+description: "Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kan f.eks. kræve et depositum, før du fremstiller varer efter ordre, eller du kan kræve betaling, før du sender varerne til en kunde. Du bruger forudbetalingsfunktionen i Dynamics 365 til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 14c4c4a9d4a9ef9149ded77343fa385ae8038f83
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gennemgang: Opsætning og fakturering af salgsforudbetalinger

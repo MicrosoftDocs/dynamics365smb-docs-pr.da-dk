@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="changing-basic-settings"></a>Ændring af grundlæggende indstillinger
@@ -51,7 +51,7 @@ Standardarbejdsdatoen er normalt dags dato. Du skal muligvis midlertidigt ændre
 ## <a name="region"></a>Land/område
 Indstillingen **Område** bestemmer, hvordan datoer, klokkeslæt, tal og valutaer vises og formateres.   
 
-## <a name="change-when-i-receive-notifications"></a>Ændre, hvornår jeg modtager notifikationer
+## <a name="changing-when-i-receive-notifications"></a>Ændre, hvornår jeg modtager notifikationer
 Vælg dette link for at få vist eller ændre de notifikationer, du får om bestemte hændelser eller ændringer af status, når du er ved at fakturere en kunde, der har et forfaldent beløb, eller den disponible lagerbeholdning er lavere end det antal, du er ved at sælge. Du kan finde flere oplysninger under [Smarte notifikationer](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Se også

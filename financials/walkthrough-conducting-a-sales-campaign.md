@@ -1,8 +1,6 @@
 ---
 title: "Gennemgang - Gennemførsel af en salgskampagne | Microsoft Docs"
-description: "En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del af oprettelsen af en kampagne er at vælge målgruppen for kampagnen. Til dette formål kan du i [!INCLUDE[d365fin](includes/d365fin_md.md)] oprette en målgruppe eller en gruppe af kontakter ved hjælp af filtre."
-services: project-madeira
-documentationcenter: 
+description: "En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del af oprettelsen af en kampagne er at vælge målgruppen for kampagnen. Til dette formål kan du i Dynamics 365 oprette en målgruppe eller en gruppe af kontakter ved hjælp af filtre."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e9eb96fb0f9669a9ddac5e4ea6e973fd64388b87
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 492976f9ab0553b67b73317040878c825eaa1808
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gennemgang: Gennemførsel af en salgskampagne

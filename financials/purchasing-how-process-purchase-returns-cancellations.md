@@ -13,16 +13,16 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fa964bd7ef61454892a574c04db890b32ab338c1
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-purchase-returns-or-cancellations"></a>Fremgangsmåde: Behandle købsreturvarer eller annulleringer
 Hvis du skal returnere varer til din kreditor eller annullere serviceydelser, som du har købt, kan du oprette og bogføre en købskreditnota, der angiver den ønskede ændring for den oprindelige købsfaktura. Du kan oprette købskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte købsfakturaoplysninger, eller du kan oprette en ny købskreditnota med kopierede fakturaoplysninger.
 
-Hvis du ønsker større kontrol over købsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved modtagelse af returnerede af varer fra flere købsdokumenter i én returnering, kan du oprette købsreturvareordrer. En købsreturvareordre udsteder automatisk den relaterede købskreditnota. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter".
+Hvis du ønsker større kontrol over købsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved returnering af varer fra flere købsdokumenter i én købsreturnering, kan du oprette købsreturvareordrer. En købsreturvareordre udsteder automatisk den relaterede købskreditnota. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter".
 
 > [!NOTE]  
 >   Hvis en bogført købsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte købsfaktura, så du automatisk tilbagefører de pågældende transaktioner. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -40,7 +40,7 @@ Hvis du vil bevare korrekt lagerværdi, skal du typisk plukke returvarer fra lag
 
 Der findes to funktioner til at tildele præcis kostprisudligning automatisk.  
 
-|Funktion|Description|  
+|Funktion|Beskrivelse|  
 |------------------|---------------------------------------|  
 |Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** i vinduet **Købsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til købsreturvareordren. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en købsreturvareordre og relateret købskreditnota til en eller flere bogførte købsfakturaer".|  
 |Funktionen **Kopiér dokument** i vinduerne **Købskreditnota** og **Købsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret i vinduet **Købsopsætning**.|

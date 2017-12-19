@@ -1,8 +1,6 @@
 ---
 title: "Designoplysninger – Opsætning af lager | Microsoft Docs"
-description: "Lagerfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen."
-services: project-madeira
-documentationcenter: 
+description: "Lagerfunktioner i Dynamics 365 indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designoplysninger: Opsætning af lager
@@ -39,13 +37,13 @@ Du kan finde flere oplysninger om hvert begreb i [[!INCLUDE[d365fin](includes/d3
 
 Følgende tabel viser, hvilke moduler der er nødvendige for at definere forskellige lagerkompleksitetsniveauer, hvilke dokumenter til brugergrænsefladen der understøtter hvert niveau, og hvilke lokationskoder der afspejler disse niveauer i [!INCLUDE[d365fin](includes/d365fin_md.md)]-demodatabasen.  
 
-|Kompleksitetsniveau|Description|Brugergrænsefladedokument|CRONUS-lokation|Mindste modulkrav|  
+|Kompleksitetsniveau|Beskrivelse|Brugergrænsefladedokument|CRONUS-lokation|Mindste modulkrav|  
 |----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
-|0|Ingen dedikeret lageraktivitet.<br /><br /> Modtag/levér-bogføring fra ordrer.|Ordre|BLÅ|Grundlæggende lagerbeholdning|  
+|1|Ingen dedikeret lageraktivitet.<br /><br /> Modtag/levér-bogføring fra ordrer.|Ordre|BLÅ|Grundlæggende lagerbeholdning|  
 |2|Ingen dedikeret lageraktivitet.<br /><br /> Modtag/levér-bogføring fra ordrer.<br /><br /> Placeringskode er påkrævet.|Ordre, med placeringskode|SØLV|Grundlæggende lagerbeholdning/Placering|  
 |3 <br /><br /> **Bemærk:** Selvom indstillingerne kaldes **Kræv pluk** og **Kræv læg-på-lager**, kan du bogføre modtagelser og leverancer direkte fra kildeforretningsdokumenterne på lokationer, hvor du kan markerer disse afkrydsningsfelter.|Grundlæggende lageraktivitet, ordre-for-ordre.<br /><br /> Modtag/levér-bogføring fra lager, læg-på-lager/plukdokumenter. <br /><br /> Placeringskode er påkrævet.|Lager, læg-på lager/flytning (lager)/lagerpluk med placeringskode|(SØLV + Kræv læg-på-lager eller Kræv læg-på-lager)|Grundlæggende lagerbeholdning/Placering/Læg-på-lager/Pluk|  
 |4|Avanceret lageraktivitet for flere ordrer.<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer.|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Plukkladde|GRØN|Grundlæggende lagerbeholdning/Lagermodtagelse/Læg-på-lager/Pluk/Lagerleverance|  
-|5|Avanceret lageraktivitet for flere ordrer.<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer.<br /><br /> Placeringskode er påkrævet.|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Plukkladde(Læg på lager-kladde, med placeringskode|(GRØN + Tvungen placering)|Grundlæggende lagerbeholdning/Placering/Lagermodtagelse/Læg-på-lager/Pluk/Lagerleverance|  
+|5|Avanceret lageraktivitet for flere ordrer.<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer.<br /><br /> Placeringskode er påkrævet.|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Plukkladde/Læg på lager-kladde, med placeringskode|(GRØN + Tvungen placering)|Grundlæggende lagerbeholdning/Placering/Lagermodtagelse/Læg-på-lager/Pluk/Lagerleverance|  
 |6 <br /><br /> **Bemærk**: Dette niveau omtales som "Logistik", da det kræver de mest avancerede detaljerede logistiksystemer.|Avanceret lageraktivitet for flere ordrer.<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer.<br /><br /> Placeringskode er påkrævet.<br /><br /> Zone/klassekode er valgfrit.<br /><br /> Lagermedarbejdere, der er styret af arbejdsproces.<br /><br /> Planlægning af placeringsgenbestilling.<br /><br /> Placeringsniveau.<br /><br /> Opsætning af placering efter kapacitet.<br /><br /> Slotting.<br /><br /> Integration af håndholdt enhed|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Bevægelse (logistik)/Plukkladde/Læg på lager-kladde/Internt lagerpluk/Internt læg-på-lager, med placering/klasse/zonekode<br /><br /> Forskellige kladder til styring af placering<br /><br /> ADCS-skærme|HVID|Grundlæggende lagerbeholdning/Placering/Læg-på-lager/Lagermodtagelse/Pluk/Lagerleverance/Logistik/Internt pluk og læg-på lager/Placeringsopsætning/Automatiseret datoregistreringssystem/Placeringsopsætning|  
 
 Se eksempler på, hvordan brugergrænsefladeelementer bruges afhængigt af kompleksitetsniveauet på lageret, i [Designoplysninger: Indgående lagerflow](design-details-outbound-warehouse-flow.md).  
@@ -69,7 +67,7 @@ Der kan kun være en standardplacering pr. vare pr. lokation.
 ## <a name="bin-type"></a>Placeringstype  
 I logistikinstallationer kan du begrænse de lageraktiviteter, der er tilladt for en placering, ved at tildele en placeringstype. Der findes følgende placeringstyper:  
 
-|Placeringstype|Description|  
+|Placeringstype|Beskrivelse|  
 |------------------|---------------------------------------|  
 |MODTAG|Varer, der er bogført som modtagne, men endnu ikke lagt på lager.|  
 |LEVER|Varer, der er plukket til lagerleverancelinjer, men som endnu ikke er bogført som leveret.|  

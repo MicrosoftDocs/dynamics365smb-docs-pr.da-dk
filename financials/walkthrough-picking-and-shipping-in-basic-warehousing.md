@@ -1,8 +1,6 @@
 ---
 title: "Gennemgang - Pluk og forsendelse i grundlæggende lageropsætninger | Microsoft Docs"
-description: "I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret."
-services: project-madeira
-documentationcenter: 
+description: "I Dynamics 365 kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger
@@ -69,8 +67,8 @@ For at gennemføre denne gennemgang skal:
 
         |Postens type|Varenummer|Lokationskode|Placeringskode|Antal|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Opregulering|LS-81|SØLV|S-01-0001 **Bemærk:** Varens standardplacering i CRONUS|2.0|  
-        |Opregulering|LS-81|SØLV|S-01-0002|2.0|  
+        |Opregulering|LS-81|SØLV|S-01-0001 **Bemærk:** Varens standardplacering i CRONUS|20|  
+        |Opregulering|LS-81|SØLV|S-01-0002|20|  
 
     3.  Vælg handlingen **Bogfør**, og vælg derefter knappen **Ja**.  
 

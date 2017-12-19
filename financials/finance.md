@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Finans
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/22/2017
 
 Standardkonfigurationen indeholder en kontoplan og standardbogføringsgrupper, som gør det mere effektivt at tildele standardfinanskonti til debitorer, kreditorer og varer.  
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
+Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 | Hvis du vil | Se |
 | --- | --- |
@@ -37,7 +37,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Styre lager- og produktionsomkostninger, rapportere omkostninger og afstemme omkostninger med finansposterne.|[Administrere lageromkostninger](finance-manage-inventory-costs.md)|
 | Forstå finans og kontoplanen. |[Om Finans og kontoplanen](finance-general-ledger.md) |
 | Tilføje dimensioner for mere detaljeret business intelligence. |[Arbejde med dimensioner](finance-dimensions.md) |
-| Opret budgetter for at estimere forskellige finansielle aktiviteter og tildele dimensioner i forbindelse med business intelligence. |[Fremgangsmåde: Oprette budgetter](finance-how-create-budgets.md) |
+| Opret finansbudgetter for at estimere forskellige finansielle aktiviteter og tildele dimensioner i forbindelse med business intelligence. |[Fremgangsmåde: Oprette finansbudgetter](finance-how-create-budgets.md) |
 |Registrere indtægter eller udgifter direkte i finansregnskabet uden at bogføre dedikerede forretningsdokumenter.|[Fremgangsmåde: Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)|
 |Bogfør tilbageførselslinjer for at fortryde værdibogføringer i den generelle kladde eller antalsbogføringer på købs- og salgsdokumenter. |[Sådan tilbageføres poster](finance-how-reverse-journal-posting.md)|
 |Allokere en post i en finanskladden til forskellige konti, når du bogfører kladden. |[Fremgangsmåde: Allokere omkostninger og indtægter](year-allocate-costs-income.md) |
