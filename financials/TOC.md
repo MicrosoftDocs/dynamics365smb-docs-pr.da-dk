@@ -24,6 +24,7 @@
 ## [Lade Dynamics 365 foreslå værdier](ui-let-system-suggest-values.md)
 ## [Udskrive en rapport](ui-work-report.md#PrintReport)
 ## [Videoer om almindelige opgaver](across-videos.md)
+## [Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)
 ## [Sprog og landestandard](about-locale-language.md)  
 ## [Sprog i Docs](about-languages.md)
 
@@ -173,7 +174,7 @@
 ### [Invitere din eksterne revisor indenfor i Dynamics 365](finance-invite-external-accountant.md)  
 ## [Om Finans og kontoplanen](finance-general-ledger.md)
 ## [Arbejde med dimensioner](finance-dimensions.md)
-## [Fremgangsmåde: Oprette budgetter](finance-how-create-budgets.md)
+## [Fremgangsmåde: Oprette finansbudgetter](finance-how-create-budgets.md)
 ## [Fremgangsmåde: Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)
 ## [Sådan tilbageføres poster](finance-how-reverse-journal-posting.md)
 ## [Fremgangsmåde: Allokere omkostninger og indtægter](year-allocate-costs-income.md)
