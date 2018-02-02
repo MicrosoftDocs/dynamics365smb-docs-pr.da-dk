@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 508b45bab8b2ea98ae868c67e7e28c1e0a528040
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Opret komplekse moduler ved hjælp af bedste praksis
@@ -31,7 +31,10 @@ Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for a
 -   [Konfigurere bedste fremgangsmåder: kostmetode](setup-best-practices-costing-method.md)  
 
 ## <a name="see-also"></a>Se også  
- [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
- [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
+[Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 
