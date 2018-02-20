@@ -12,61 +12,61 @@ ms.search.keywords: non-inventoriable
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b9256944295880d6ec9dad916eb9632b9d5f7c20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2969b3168f063e636455dd67457c01ed89a0727d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Fremgangsmåde: Arbejde med katalogvarer
-Du kan tilbyde bestemte varer til dine kunder, som du ikke vil lagerføre, før du begynder at sælge dem. Når du vil begynde at lagerføre sådanne varer, kan du konvertere dem til normale varekort på to måder.
+# <a name="work-with-nonstock-items"></a><span data-ttu-id="87410-103">Arbejde med katalogvarer</span><span class="sxs-lookup"><span data-stu-id="87410-103">Work with Nonstock Items</span></span>
+<span data-ttu-id="87410-104">Du kan tilbyde bestemte varer til dine kunder, som du ikke vil lagerføre, før du begynder at sælge dem.</span><span class="sxs-lookup"><span data-stu-id="87410-104">You can offer certain items to your customers for their convenience, which you do not want to maintain in inventory until you start selling them.</span></span> <span data-ttu-id="87410-105">Når du vil begynde at lagerføre sådanne varer, kan du konvertere dem til normale varekort på to måder.</span><span class="sxs-lookup"><span data-stu-id="87410-105">When you want to start maintaining such items in inventory, you can convert them to normal item cards in two ways.</span></span>
 
-* Opret en ny varekort ud fra en skabelon for et katalogvarekort.
-* Vælg en katalogvare fra en salgsordrelinje af typen **Vare** med et tomt **Nummer*-felt. Der oprettes automatisk et varekort for katalogvaren.
-
-> [!NOTE]  
->   Du kan ikke vælge en katalogvare fra vinduet **Salgsfaktura**. Du kan vælge en katalogvare fra vinduet **Salgstilbud**, men katalogvaren konverteres ikke til en almindelig vare, når du bruger funktionen **Lav ordre**.
-
-En katalogvare har typisk varenummeret fra den leverandør, som leverer den. Hvis du vil aktivere konvertering af et katalogvarekort til et normalt varekort, skal du først angive, hvordan leverandørens varenumre skal konverteres til dine egne varenumre.   
-
-## Sådan oprettes en katalogvare
-Katalogvarekort indeholder meget færre oplysninger end normale varekort, da du kun bruger til at give tilbud og andre formål. Derfor skal de konverteres til normale varekort, før du kan bogføre salgstransaktioner for dem.
-
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Katalogvarer**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Ny**.
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## Sådan angiver du, hvordan katalogvare konverteres til din egen nummerering
-Hvis du vil aktivere konvertering af et katalogvarekort til et normalt varekort, skal du først angive, hvordan leverandørens varenummerering skal konverteres til dit eget varenummerformat.
-
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Katalogvareopsætning**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov.
-
-## Sådan konverteres en katalogvare til en almindelig vare
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Katalogvarer**, og vælg derefter det relaterede link.
-2. Åbn kortet for en katalogvare, som du vil konvertere til en almindelig vare.
-3. I vinduet **Katalogvarekort** skal du vælge handlingen **Opret vare**.
-
-Der oprettes et nyt varekort, der er udfyldt på forhånd med oplysninger fra katalogvaren og en relevant vareskabelon. Du kan derefter udfylde eller redigere felterne på det nye varekort efter behov. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).
-
-## Sådan sælges en katalogvare og konverteres den til en almindelig vare
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Ny**. Udfyld felterne i oversigtspanelet **Generelt** for enhver salgsordre. Du kan finde flere oplysninger i [Fremgangsmåde: Sælge produkter](sales-how-sell-products.md).
-3. På en ny salgslinje skal du vælge **Vare** i feltet **Type**, men lade feltet **Nummer** være tomt.
-4. Vælg handlingen **Linje**, og vælg derefter handlingen **Vælg katalogvarer**.
-
-    Katalogvaren konverteres til en almindelig vare. Der oprettes et nyt varekort, der er udfyldt på forhånd med oplysninger fra katalogvaren og en relevant vareskabelon.
-5. I vinduet **Katalogvarer** skal du vælge den katalogvare, som du vil sælge, og derefter vælge knappen **OK**.
-6. Når salgsordren er fuldført, skal du vælge handlingen **Bogfør**.
-
-Du kan derefter udfylde eller redigere felterne på det nye varekort efter behov. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).
+* <span data-ttu-id="87410-106">Opret en ny varekort ud fra en skabelon for et katalogvarekort.</span><span class="sxs-lookup"><span data-stu-id="87410-106">From a nonstock item card, create a new item card based on a template.</span></span>
+* <span data-ttu-id="87410-107">Vælg en katalogvare fra en salgsordrelinje af typen **Vare** med et tomt \**Nummer*-felt.</span><span class="sxs-lookup"><span data-stu-id="87410-107">From a sales order line of type **Item** with an empty \**No* field, select a nonstock item.</span></span> <span data-ttu-id="87410-108">Der oprettes automatisk et varekort for katalogvaren.</span><span class="sxs-lookup"><span data-stu-id="87410-108">An item card is automatically created for the nonstock item.</span></span>
 
 > [!NOTE]  
->   Der oprettes automatisk en varereferencepost for kreditoren til varen mellem leverandørens varenummer og dit nye varenummer.
+>   <span data-ttu-id="87410-109">Du kan ikke vælge en katalogvare fra vinduet **Salgsfaktura**.</span><span class="sxs-lookup"><span data-stu-id="87410-109">You cannot select a nonstock item from the **Sales Invoice** window.</span></span> <span data-ttu-id="87410-110">Du kan vælge en katalogvare fra vinduet **Salgstilbud**, men katalogvaren konverteres ikke til en almindelig vare, når du bruger funktionen **Lav ordre**.</span><span class="sxs-lookup"><span data-stu-id="87410-110">You can select a nonstock item from the **Sales Quote** window, but the nonstock item will not be converted to a normal item when you use the **Make Order** function.</span></span>
 
-## Se også
-[Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md)  
-[Sådan oprettes specialordrer](sales-how-to-create-special-orders.md)|  
-[Lagerbeholdning](inventory-manage-inventory.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+<span data-ttu-id="87410-111">En katalogvare har typisk varenummeret fra den leverandør, som leverer den.</span><span class="sxs-lookup"><span data-stu-id="87410-111">A nonstock item typically has the item number of the vendor who supplies it.</span></span> <span data-ttu-id="87410-112">Hvis du vil aktivere konvertering af et katalogvarekort til et normalt varekort, skal du først angive, hvordan leverandørens varenumre skal konverteres til dine egne varenumre.</span><span class="sxs-lookup"><span data-stu-id="87410-112">To enable conversion of a nonstock item card to a normal item card, you must first set up how vendor item numbering is converted to your own item numbering.</span></span>   
+
+## <a name="to-create-a-nonstock-item"></a><span data-ttu-id="87410-113">Sådan oprettes en katalogvare</span><span class="sxs-lookup"><span data-stu-id="87410-113">To create a nonstock item</span></span>
+<span data-ttu-id="87410-114">Katalogvarekort indeholder meget færre oplysninger end normale varekort, da du kun bruger til at give tilbud og andre formål.</span><span class="sxs-lookup"><span data-stu-id="87410-114">Nonstock item cards have much less information than normal item cards because you only use them to offer on quotes and in other ways.</span></span> <span data-ttu-id="87410-115">Derfor skal de konverteres til normale varekort, før du kan bogføre salgstransaktioner for dem.</span><span class="sxs-lookup"><span data-stu-id="87410-115">For that reason, they must be converted to normal item cards before you can post sales transactions for them.</span></span>
+
+1. <span data-ttu-id="87410-116">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Katalogvarer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="87410-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="87410-117">Vælg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="87410-117">Choose the **New** action.</span></span>
+3. <span data-ttu-id="87410-118">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="87410-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a><span data-ttu-id="87410-119">Sådan angiver du, hvordan katalogvare konverteres til din egen nummerering</span><span class="sxs-lookup"><span data-stu-id="87410-119">To set up how nonstock item numbers are converted to your own numbering</span></span>
+<span data-ttu-id="87410-120">Hvis du vil aktivere konvertering af et katalogvarekort til et normalt varekort, skal du først angive, hvordan leverandørens varenummerering skal konverteres til dit eget varenummerformat.</span><span class="sxs-lookup"><span data-stu-id="87410-120">To enable conversion of a nonstock item card to a normal item card, you must first set up how the vendor's item numbering is converted to your own item number format.</span></span>
+
+1. <span data-ttu-id="87410-121">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Katalogvareopsætning**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="87410-121">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Item Setup**, and then choose the related link.</span></span>
+2. <span data-ttu-id="87410-122">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="87410-122">Fill in the fields as necessary.</span></span>
+
+## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a><span data-ttu-id="87410-123">Sådan konverteres en katalogvare til en almindelig vare</span><span class="sxs-lookup"><span data-stu-id="87410-123">To convert a nonstock item to a normal item</span></span>
+1. <span data-ttu-id="87410-124">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Katalogvarer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="87410-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Nonstock Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="87410-125">Åbn kortet for en katalogvare, som du vil konvertere til en almindelig vare.</span><span class="sxs-lookup"><span data-stu-id="87410-125">Open the card for a nonstock item that you want to convert to a normal item.</span></span>
+3. <span data-ttu-id="87410-126">I vinduet **Katalogvarekort** skal du vælge handlingen **Opret vare**.</span><span class="sxs-lookup"><span data-stu-id="87410-126">In the **Nonstock Item Card** window, choose the **Create Item** action.</span></span>
+
+<span data-ttu-id="87410-127">Der oprettes et nyt varekort, der er udfyldt på forhånd med oplysninger fra katalogvaren og en relevant vareskabelon.</span><span class="sxs-lookup"><span data-stu-id="87410-127">A new item card prefilled with information from the nonstock item and a relevant item template is created.</span></span> <span data-ttu-id="87410-128">Du kan derefter udfylde eller redigere felterne på det nye varekort efter behov.</span><span class="sxs-lookup"><span data-stu-id="87410-128">You can then fill or edit fields on the new item card as necessary.</span></span> <span data-ttu-id="87410-129">Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).</span><span class="sxs-lookup"><span data-stu-id="87410-129">For more information, see [Register New Items](inventory-how-register-new-items.md).</span></span>
+
+## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a><span data-ttu-id="87410-130">Sådan sælges en katalogvare og konverteres den til en almindelig vare</span><span class="sxs-lookup"><span data-stu-id="87410-130">To sell a nonstock item, and convert it to a normal item</span></span>
+1. <span data-ttu-id="87410-131">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="87410-131">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="87410-132">Vælg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="87410-132">Choose the **New** action.</span></span> <span data-ttu-id="87410-133">Udfyld felterne i oversigtspanelet **Generelt** for enhver salgsordre.</span><span class="sxs-lookup"><span data-stu-id="87410-133">Fill in the fields on the **General** FastTab as for any sales order.</span></span> <span data-ttu-id="87410-134">Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).</span><span class="sxs-lookup"><span data-stu-id="87410-134">For more information, see [Sell Products](sales-how-sell-products.md).</span></span>
+3. <span data-ttu-id="87410-135">På en ny salgslinje skal du vælge **Vare** i feltet **Type**, men lade feltet **Nummer**</span><span class="sxs-lookup"><span data-stu-id="87410-135">On a new sales line, in the **Type** field, select **Item**, but leave the **No.**</span></span> <span data-ttu-id="87410-136">være tomt.</span><span class="sxs-lookup"><span data-stu-id="87410-136">field empty.</span></span>
+4. <span data-ttu-id="87410-137">Vælg handlingen **Linje**, og vælg derefter handlingen **Vælg katalogvarer**.</span><span class="sxs-lookup"><span data-stu-id="87410-137">Choose the **Line** action, and then choose the **Select Nonstock Items** action.</span></span>
+
+    <span data-ttu-id="87410-138">Katalogvaren konverteres til en almindelig vare.</span><span class="sxs-lookup"><span data-stu-id="87410-138">The nonstock item is converted to a normal item.</span></span> <span data-ttu-id="87410-139">Der oprettes et nyt varekort, der er udfyldt på forhånd med oplysninger fra katalogvaren og en relevant vareskabelon.</span><span class="sxs-lookup"><span data-stu-id="87410-139">A new item card prefilled with information from the nonstock item and a relevant item template is created.</span></span>
+5. <span data-ttu-id="87410-140">I vinduet **Katalogvarer** skal du vælge den katalogvare, som du vil sælge, og derefter vælge knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="87410-140">In the **Nonstock Items** window, select the nonstock item that you want to sell, and then choose the **OK** button.</span></span>
+6. <span data-ttu-id="87410-141">Når salgsordren er fuldført, skal du vælge handlingen **Bogfør**.</span><span class="sxs-lookup"><span data-stu-id="87410-141">When the sales order is complete, choose the **Post** action.</span></span>
+
+<span data-ttu-id="87410-142">Du kan derefter udfylde eller redigere felterne på det nye varekort efter behov.</span><span class="sxs-lookup"><span data-stu-id="87410-142">You can then fill or edit fields on the new item card as necessary.</span></span> <span data-ttu-id="87410-143">Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).</span><span class="sxs-lookup"><span data-stu-id="87410-143">For more information, see [Register New Items](inventory-how-register-new-items.md).</span></span>
+
+> [!NOTE]  
+>   <span data-ttu-id="87410-144">Der oprettes automatisk en varereferencepost for kreditoren til varen mellem leverandørens varenummer og dit nye varenummer.</span><span class="sxs-lookup"><span data-stu-id="87410-144">An Item cross reference record is automatically created for the vendor of the item between the vendor's item number and your new item number.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="87410-145">Se også</span><span class="sxs-lookup"><span data-stu-id="87410-145">See Also</span></span>
+[<span data-ttu-id="87410-146">Registrere nye varer</span><span class="sxs-lookup"><span data-stu-id="87410-146">Register New Items</span></span>](inventory-how-register-new-items.md)  
+<span data-ttu-id="87410-147">[Oprette specialordrer](sales-how-to-create-special-orders.md)|</span><span class="sxs-lookup"><span data-stu-id="87410-147">[Create Special Orders](sales-how-to-create-special-orders.md)|</span></span>  
+[<span data-ttu-id="87410-148">Lagerbeholdning</span><span class="sxs-lookup"><span data-stu-id="87410-148">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="87410-149">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="87410-149">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

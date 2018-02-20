@@ -13,33 +13,33 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8149c89e2031a7fd44f9942d7aba213158700dc9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e7bac54306953628e8aab21ffab66badf9a1c8fe
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-alternative-addresses-for-contacts"></a><span data-ttu-id="62b5f-103">Fremgangsmåde: Oprette alternative adresser for kontakter</span><span class="sxs-lookup"><span data-stu-id="62b5f-103">How to: Set Up Alternative Addresses for Contacts</span></span>
-<span data-ttu-id="62b5f-104">Du kan tildele en alternativ adresse, som en kontaktperson i perioder får sendt post til, f.eks. et sommerhus.</span><span class="sxs-lookup"><span data-stu-id="62b5f-104">You can assign an alternate address where your contacts are sometimes sent mail and information, for example, their summer cottage.</span></span> <span data-ttu-id="62b5f-105">Du kan også tildele en eller flere datointervaller til hver af kontaktpersonens alternative adresser og på den måde angive, hvornår en bestemt adresse er gyldig.</span><span class="sxs-lookup"><span data-stu-id="62b5f-105">You can also assign one or several date ranges to each alternate address you have entered for your contacts to specify when each address is valid.</span></span>
+# <a name="set-up-alternative-addresses-for-contacts"></a><span data-ttu-id="6295e-103">Definere alternative adresser for kontakter</span><span class="sxs-lookup"><span data-stu-id="6295e-103">Set Up Alternative Addresses for Contacts</span></span>
+<span data-ttu-id="6295e-104">Du kan tildele en alternativ adresse, som en kontaktperson i perioder får sendt post til, f.eks. et sommerhus.</span><span class="sxs-lookup"><span data-stu-id="6295e-104">You can assign an alternate address where your contacts are sometimes sent mail and information, for example, their summer cottage.</span></span> <span data-ttu-id="6295e-105">Du kan også tildele en eller flere datointervaller til hver af kontaktpersonens alternative adresser og på den måde angive, hvornår en bestemt adresse er gyldig.</span><span class="sxs-lookup"><span data-stu-id="6295e-105">You can also assign one or several date ranges to each alternate address you have entered for your contacts to specify when each address is valid.</span></span>
 
-## <a name="to-assign-an-alternate-address"></a><span data-ttu-id="62b5f-106">Sådan tildeles alternative adresser</span><span class="sxs-lookup"><span data-stu-id="62b5f-106">To assign an alternate address</span></span>
-1. <span data-ttu-id="62b5f-107">Åbn kontakten.</span><span class="sxs-lookup"><span data-stu-id="62b5f-107">Open the contact.</span></span>
-2. <span data-ttu-id="62b5f-108">Vælg handlingen **Alternativ adresse**, og vælg derefter **Kort**.</span><span class="sxs-lookup"><span data-stu-id="62b5f-108">Choose the **Alternative Address** action, and then choose **Card**.</span></span> <span data-ttu-id="62b5f-109">Vinduet **Alt. adresser på kontakter** åbnes.</span><span class="sxs-lookup"><span data-stu-id="62b5f-109">The **Contact Alt. Address List** window opens.</span></span>
-3. <span data-ttu-id="62b5f-110">Indtast en ny alternativ adresse, og udfyld felterne i vinduet **Kontaktens alternative adresse**.</span><span class="sxs-lookup"><span data-stu-id="62b5f-110">Enter a new alternate address and fill in the fields on the **Contact Alternative Address** window.</span></span>
+## <a name="to-assign-an-alternate-address"></a><span data-ttu-id="6295e-106">Sådan tildeles alternative adresser</span><span class="sxs-lookup"><span data-stu-id="6295e-106">To assign an alternate address</span></span>
+1. <span data-ttu-id="6295e-107">Åbn kontakten.</span><span class="sxs-lookup"><span data-stu-id="6295e-107">Open the contact.</span></span>
+2. <span data-ttu-id="6295e-108">Vælg handlingen **Alternativ adresse**, og vælg derefter **Kort**.</span><span class="sxs-lookup"><span data-stu-id="6295e-108">Choose the **Alternative Address** action, and then choose **Card**.</span></span> <span data-ttu-id="6295e-109">Vinduet **Alt. adresser på kontakter** åbnes.</span><span class="sxs-lookup"><span data-stu-id="6295e-109">The **Contact Alt. Address List** window opens.</span></span>
+3. <span data-ttu-id="6295e-110">Indtast en ny alternativ adresse, og udfyld felterne i vinduet **Kontaktens alternative adresse**.</span><span class="sxs-lookup"><span data-stu-id="6295e-110">Enter a new alternate address and fill in the fields on the **Contact Alternative Address** window.</span></span>
 
-<span data-ttu-id="62b5f-111">Gentag disse trin for hver alternativ adresse, du vil tildele.</span><span class="sxs-lookup"><span data-stu-id="62b5f-111">Repeat these steps to assign as many alternate addresses as you want.</span></span> <span data-ttu-id="62b5f-112">Du kan angive flere datointervaller til hver alternativ adresser.</span><span class="sxs-lookup"><span data-stu-id="62b5f-112">For each alternate address you may want to specify one or several date ranges.</span></span>
+<span data-ttu-id="6295e-111">Gentag disse trin for hver alternativ adresse, du vil tildele.</span><span class="sxs-lookup"><span data-stu-id="6295e-111">Repeat these steps to assign as many alternate addresses as you want.</span></span> <span data-ttu-id="6295e-112">Du kan angive flere datointervaller til hver alternativ adresser.</span><span class="sxs-lookup"><span data-stu-id="6295e-112">For each alternate address you may want to specify one or several date ranges.</span></span>
 
-<span data-ttu-id="62b5f-113">Du kan også tildele alternative adresser fra vinduet Kontaktoversigt ved at udføre samme procedure.</span><span class="sxs-lookup"><span data-stu-id="62b5f-113">You can also assign alternate addresses from the contact list window by following the same procedure.</span></span>
+<span data-ttu-id="6295e-113">Du kan også tildele alternative adresser fra vinduet Kontaktoversigt ved at udføre samme procedure.</span><span class="sxs-lookup"><span data-stu-id="6295e-113">You can also assign alternate addresses from the contact list window by following the same procedure.</span></span>
 
-## <a name="to-assign-an-alternate-address-date-range"></a><span data-ttu-id="62b5f-114">Sådan tildeles et datointerval til en alternativ adresse</span><span class="sxs-lookup"><span data-stu-id="62b5f-114">To assign an alternate address date range</span></span>
-1. <span data-ttu-id="62b5f-115">Åbn kontakten.</span><span class="sxs-lookup"><span data-stu-id="62b5f-115">Open the contact.</span></span>
-2. <span data-ttu-id="62b5f-116">Vælg handlingen **Alternativ adresse**, og vælg derefter **Datointerval**.</span><span class="sxs-lookup"><span data-stu-id="62b5f-116">Choose the **Alternate Address** action, and then choose **Date Range**.</span></span> <span data-ttu-id="62b5f-117">Vinduet **Alt. adr.datointv. - kontakt** åbnes.</span><span class="sxs-lookup"><span data-stu-id="62b5f-117">The **Contact Alt. Addr. Date Ranges** window opens.</span></span>
-3. <span data-ttu-id="62b5f-118">Vælg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="62b5f-118">Choose **New** action.</span></span>
-4. <span data-ttu-id="62b5f-119">I feltet **Kontaktens alt. adr.kode** skal du vælge en alternativ adresse for kontakten og derefter udfylde felterne **Startdato** og **Slutdato**.</span><span class="sxs-lookup"><span data-stu-id="62b5f-119">In the **Contact Alt. Address Code** field, select an alternate address for this contact, and then fill in the **Starting Date** and **Ending Date** fields.</span></span>
+## <a name="to-assign-an-alternate-address-date-range"></a><span data-ttu-id="6295e-114">Sådan tildeles et datointerval til en alternativ adresse</span><span class="sxs-lookup"><span data-stu-id="6295e-114">To assign an alternate address date range</span></span>
+1. <span data-ttu-id="6295e-115">Åbn kontakten.</span><span class="sxs-lookup"><span data-stu-id="6295e-115">Open the contact.</span></span>
+2. <span data-ttu-id="6295e-116">Vælg handlingen **Alternativ adresse**, og vælg derefter **Datointerval**.</span><span class="sxs-lookup"><span data-stu-id="6295e-116">Choose the **Alternate Address** action, and then choose **Date Range**.</span></span> <span data-ttu-id="6295e-117">Vinduet **Alt. adr.datointv. - kontakt** åbnes.</span><span class="sxs-lookup"><span data-stu-id="6295e-117">The **Contact Alt. Addr. Date Ranges** window opens.</span></span>
+3. <span data-ttu-id="6295e-118">Vælg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="6295e-118">Choose **New** action.</span></span>
+4. <span data-ttu-id="6295e-119">I feltet **Kontaktens alt. adr.kode** skal du vælge en alternativ adresse for kontakten og derefter udfylde felterne **Startdato** og **Slutdato**.</span><span class="sxs-lookup"><span data-stu-id="6295e-119">In the **Contact Alt. Address Code** field, select an alternate address for this contact, and then fill in the **Starting Date** and **Ending Date** fields.</span></span>
 
-<span data-ttu-id="62b5f-120">Gentag disse trin for hvert datointerval, du vil tildele.</span><span class="sxs-lookup"><span data-stu-id="62b5f-120">Repeat these steps to assign as many date ranges as you want.</span></span>
+<span data-ttu-id="6295e-120">Gentag disse trin for hvert datointerval, du vil tildele.</span><span class="sxs-lookup"><span data-stu-id="6295e-120">Repeat these steps to assign as many date ranges as you want.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="62b5f-121">Se også</span><span class="sxs-lookup"><span data-stu-id="62b5f-121">See Also</span></span>
-[<span data-ttu-id="62b5f-122">Opret kontaktvirksomheder</span><span class="sxs-lookup"><span data-stu-id="62b5f-122">Create Contact Companies</span></span>](marketing-create-contact-companies.md)  
-[<span data-ttu-id="62b5f-123">Arbejde med Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="62b5f-123">Working with Dynamics 365</span></span>](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="6295e-121">Se også</span><span class="sxs-lookup"><span data-stu-id="6295e-121">See Also</span></span>
+[<span data-ttu-id="6295e-122">Opret kontaktvirksomheder</span><span class="sxs-lookup"><span data-stu-id="6295e-122">Create Contact Companies</span></span>](marketing-create-contact-companies.md)  
+[<span data-ttu-id="6295e-123">Arbejde med Finance and Operations, Business edition</span><span class="sxs-lookup"><span data-stu-id="6295e-123">Working with Finance and Operations, Business edition</span></span>](ui-work-product.md)
 
