@@ -12,19 +12,19 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Sådan gør du: Vise varedisponering
+# <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
 
 Du kan få vist disponeringen for alle varer pr. lokation, og du kan få vist disponeringen for hver enkelt vare ud fra hændelse, periode eller lokation. En hændelse er enhver planlagt varetransaktion, f.eks en salgsleverance eller modtagelse af en indgående overflytning.
 
 > [!NOTE]  
->   Visninger af tilgængelighed pr. lokation kræver, at du har lager på mere end én lokation. Du kan finde flere oplysninger i [Fremgangsmåde: Opsætning af lokationer](inventory-how-setup-locations.md).
+>   Visninger af tilgængelighed pr. lokation kræver, at du har lager på mere end én lokation. Der er flere oplysninger i [Opsætte lokationer](inventory-how-setup-locations.md).
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tilgængelighedstal vises i to forskellige felter, med hver sin definition:
 
@@ -35,7 +35,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tilgængelighedstal vises i t
 >   Den planlagte disponible balance er især relevant at få vist i vinduerne **Varedisponering pr. periode** og **Varedisponering pr. hændelse**, da de indeholder datedimensionen.  
 
 > [!NOTE]  
->   De følgende procedurer beskriver, hvordan du får vist avancerede tilgængelighedsoplysninger fra varelisten og varekortet. Du kan også få adgang til oplysninger fra salgsdokumentlinjer for varen på linjen. Du kan finde flere oplysninger i [Fremgangsmåde: Sælge produkter](sales-how-sell-products.md).
+>   De følgende procedurer beskriver, hvordan du får vist avancerede tilgængelighedsoplysninger fra varelisten og varekortet. Du kan også få adgang til oplysninger fra salgsdokumentlinjer for varen på linjen. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Sådan får du vist tilgængeligheden for en vare, ud fra hvornår den er modtages eller leveres
 Du får vist tilgængeligheden for en vare i overensstemmelse med planlagte varetransaktioner i vinduet **Disponering pr. hændelse**.
@@ -115,10 +115,10 @@ Hvis en eller flere montagekomponenter ikke er tilgængelig, afspejles dette i f
 ## <a name="see-also"></a>Se også
 [Administrere lager](inventory-manage-inventory.md)  
 [Montagestyring](assembly-assemble-items.md)  
-[Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md)    
-[Sådan oprettes lokationer](inventory-how-setup-locations.md)  
-[Fremgangsmåde: Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)  
-[Fremgangsmåde: Sælge produkter](sales-how-sell-products.md)      
-[Arbejde med Dynamics 365](ui-work-product.md)  
+[Arbejde med styklister](inventory-how-work-BOMs.md)    
+[Opsætte lokationer](inventory-how-setup-locations.md)  
+[Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)  
+[Sælge produkter](sales-how-sell-products.md)      
+[Arbejde med Finance and Operations, Business edition](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 

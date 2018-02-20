@@ -11,13 +11,13 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6e00e9cbc1b1dc8674ccf83876809496a563b0be
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually"></a>Fremgangsmåde: Afstemme debitorbetalinger manuelt
+# <a name="reconcile-customer-payments-manually"></a>Afstemme debitorbetalinger manuelt
 Når du modtager en kontaktrefusion fra en debitor, eller du foretager en kontantrefusion, skal du vælge, om betalingen skal udlignes eller refunderes for at lukke en eller flere åbne debet- eller kreditposter. Du kan angive det beløb, du vil udligne. Du kan f.eks. udligne delbetalinger til debitorposter. Når du lukker debitorposter, sikrer du, at oplysninger som debitorstatistik, kontoudtog og rentenotaer er korrekte.
 
 > [!NOTE]  
@@ -34,7 +34,7 @@ Du kan udligne debitorposter på forskellige måder:
 
 Du kan anvende debitorbetalinger manuelt i vinduet **Indbetalingskladde**. Indbetalingskladden er en form for finanskladde, og derfor kan den bruges, når der bogføres transaktioner til finans-, bank-, debitor-, kreditor- og anlægskonti. Du kan anvende betalingen på en eller flere debetposteringer, når du bogfører betalingen, eller du kan anvende fra de bogførte posteringer senere.
 
-Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligningskladde** ved hjælp af funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md). Du kan også afstemme debitorbetalinger, der er baseret på en liste over ubetalte salgsdokumenter i vinduet **Betalingsregistrering**. Du kan finde flere oplysninger under om udligning af debitorbetalinger i [Fremgangsmåde: Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligningskladde** ved hjælp af funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md). Du kan også afstemme debitorbetalinger, der er baseret på en liste over ubetalte salgsdokumenter i vinduet **Betalingsregistrering**. Du kan finde flere oplysninger under [Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Sådan udfyldes og bogføres en indbetalingskladde
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Indbetalingskladde**, og vælg derefter det relaterede link.
@@ -129,7 +129,7 @@ Hvis du sælger til en debitor i en valuta og modtager betaling i en anden, kan 
 
 Hvis du udligner en post (post 1) i en valuta med en post (post 2) i en anden valuta, anvendes bogføringsdatoen i post 1 til at finde relevante valutakurser til at konvertere beløb i post 2. Den relevante valutakurs findes i vinduet **Valutakurser**.  
 
-Udligning af debitorposter i andre valutaer skal være aktiveret. Du kan finde flere oplysninger i [Fremgangsmåde: Muliggøre udligning af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).  
+Udligning af debitorposter i andre valutaer skal være aktiveret. Du kan finde flere oplysninger under [Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Indbetalingskladde**, og vælg derefter det relaterede link.
 2. Åbn den ønskede kladde, og udfyld den første tomme kladdelinje ved hjælp af en valutakode.

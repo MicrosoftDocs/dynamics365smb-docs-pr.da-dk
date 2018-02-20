@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2185a1fc40ddae772e20994f6531b02d7e703e17
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: aba6d1c433d20c5d2da1234df06503ca97cac061
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-budgets-for-fixed-assets"></a>Fremgangsmåde: Administrere budgetter for anlægsaktiver
+# <a name="manage-budgets-for-fixed-assets"></a>Administrere budgetter for anlægsaktiver
 Du kan konfigurere budgetterede anlægsaktiver. Du kan f.eks. inkludere forventede anskaffelser og salg i rapporterne.  
 
 Hvis du vil forberede din budgetterede resultatopgørelse, balance og kontantbudget, skal du bruge oplysninger om fremtidige investeringer, salg og afskrivning på anlægsaktiver. Du kan få disse oplysninger fra rapporten **Anlæg - forventet værdi**. Inden du udskriver rapporten, skal du have forberedt budgettet.  
-
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>Sådan budgetteres anskaffelsesprisen for et anlægsaktiv
 Når du skal forberede et budget, skal du oprette anlægskort for de anlægsaktiver, du har planlagt at købe. De budgetterede anlægsaktiver oprettes som almindelige anlægsaktiver, men de skal være angivet til ikke at blive bogført i finansregnskabet.
@@ -35,7 +32,7 @@ Når du bogfører anskaffelsesprisen, skal du angive nummeret på det budgettere
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny** for at oprette et nyt anlægskort for det budgetterede anlægsaktiv.
 3. Markér afkrydsningsfeltet **Budgetanlæg** for at forhindre bogføring i finansregnskabet.
-4. Udfyld resten af felterne, tildel en afskrivningsprofil, og bogfør derefter den første anskaffelsespris for det budgetterede anlægsaktiv, der er angivet i feltet **Budgetanlægsnr.** på kladdelinjen Du kan finde flere oplysninger i [Fremgangsmåde: Anskaffe anlægsaktiver](fa-how-acquire.md).
+4. Udfyld resten af felterne, tildel en afskrivningsprofil, og bogfør derefter den første anskaffelsespris for det budgetterede anlægsaktiv, der er angivet i feltet **Budgetanlægsnr.** på kladdelinjen Du kan finde flere oplysninger i [Anskaffe anlægsaktiver](fa-how-acquire.md).
 
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>Sådan budgetteres salget af et anlægsaktiv
 Hvis du planlægger at sælge anlæg inden for budgetperioden, kan du angive oplysninger om salgspris og -dato.

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ee5ee5d08804439a79f8029eaa25ab7547349a1b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e885149e28c2e09dc244bc5c0a431e7b2fe047a5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-batch-post-output-and-run-times"></a>Fremgangsmåde: Massebogføre afgang og operationstider
+# <a name="batch-post-output-and-run-times"></a>Massebogføre afgang og operationstider
 Afgangsantallet angiver arbejdsforløbet i form af det færdige antal.  
 
 > [!NOTE]
@@ -30,7 +30,7 @@ Afgangsantallet angiver arbejdsforløbet i form af det færdige antal.
 2. Udfyld felterne med produktionsordredataene og afgangsdataene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis operationen er afsluttet, skal du markere feltet **Afsluttet**.  
 
-    Hvis den lagerlokation, hvor varerne skal lægges på lager, bruger placeringer, men ikke kræver læg-på-lager, skal du  tildele en placeringskode til kladdelinjen for at angive, hvor varerne skal lægges på lageret. Du kan finde flere oplysninger i [Fremgangsmåde: Lægge produktions- eller montageafgange på lager](warehouse-how-to-put-away-production-output.md).  
+    Hvis den lagerlokation, hvor varerne skal lægges på lager, bruger placeringer, men ikke kræver læg-på-lager, skal du  tildele en placeringskode til kladdelinjen for at angive, hvor varerne skal lægges på lageret. Du kan finde flere oplysninger i [Lægge produktions- eller montageafgange på lager](warehouse-how-to-put-away-production-output.md).  
 
 4. Vælg handlingen **Bogfør** for at bogføre operationerne. Afgangsantallet bogføres. Varen er nu klar til afsendelse.  
 

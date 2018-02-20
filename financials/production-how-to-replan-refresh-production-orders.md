@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 147163d0b75853914e5b4bd3417c3525d29caefc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b839b26814f730febc384ae1bca432a7c26852f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-replan-or-refresh-production-orders-directly"></a>Fremgangsmåde: Omplanlægge eller forny produktionsordrer direkte
+# <a name="replan-or-refresh-production-orders-directly"></a>Omplanlægge eller forny produktionsordrer direkte
 Funktionen **Docs** på produktionsordrer bruges normalt, når du har tilføjet eller ændret komponenter, der opretter underliggende produktionsordrer. Funktionen beregner ændringer, der er foretaget i komponenter og rutelinjer, og omfatter varer på lavere produktionsstyklisteniveauer, som der muligvis oprettes nye produktionsordrer for.  
 
 Ud fra de ændringer, du foretager i komponenterne og rutelinjerne, udfører funktionen Omplanlæg beregninger og planlægning med henblik på alle nye behov for produktionsordren.  
@@ -68,7 +68,7 @@ Du kan indsætte produktionsordrelinjerne manuelt eller bruge funktionen, der ka
 Hvis du har ændret produktionsordrelinjer, komponenter eller rutelinjer, skal du også opdatere oplysningerne i produktionsordren. I det følgende beregnes komponenterne for en fastlagt produktionsordre. Trinnene er de samme for rutelinjer.
 
 1.  Vælg ikonet ![Søg efter side eller en rapport](media/ui-search/search_small.png "Søg efter side eller en rapport ikonet"), angiv **Fastlagt produktionsordre**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette produktionsordrer](production-how-to-create-production-orders.md).  
+2.  Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).  
 3.  Vælg handlingen **Opdater**.
 4. Vælg en af følgende muligheder i vinduet **Opdater produktionsordre**:
 

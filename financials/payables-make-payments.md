@@ -13,10 +13,10 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 6cd7b9922f047d05a2cc37a9157de47221f67a7f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6dfdfce56a06c779881eb0a0f9553d19b6abd1ef
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments"></a>Foretage betaling
@@ -28,17 +28,17 @@ Når betalingerne er bogført, kan du eksportere dem til en bankfil for at overf
 
 Efter at betalingerne er foretaget i din bank, skal du udligne dem til de relaterede åbne kreditor- eller medarbejderposter. Du kan gøre det manuelt eller ved at importere en bankkontoudtogsfil og udligne betalingerne automatisk. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 | Hvis du vil | Se |
 | --- | --- |
 |Bruge vinduet **Udbetalingskladde**, som er baseret på finanskladden, til at bogføre betalinger til kreditorer eller medarbejdere.|[Arbejde med finanskladder](ui-work-general-journals.md)|
-| Brug en funktion til at foreslå kreditorbetalinger i overensstemmelse med de valgte kriterier, f.eks. forfaldsdato, ret til rabat og din likviditet. |[Fremgangsmåde: Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md) |
-|Refunder medarbejdere for personlige udgifter under forretningsaktiviteter ved at foretage betaling til deres bankkonto.|[Fremgangsmåde: Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)|
-| Udsted checks for kreditorbetalinger enten som udskrifter eller som computercheck. Annullere checks før eller efter bogføringen. |[Fremgangsmåde: Arbejde med checks](payables-how-work-checks.md) |
-| Betale kreditoren med kontanter eller check og bogfører betalingen, når du bogfører fakturaen. |[Sådan afregnes købsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md) |
-| Kontroller, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. |[Fremgangsmåde: Eksportere en Positive Pay-fil](finance-how-positive-pay.md) |
-|Udlæs betalinger fra vinduet **Udbetalingskladde** til en bankfil, du overfører til din bank til behandling, herunder EFT (elektroniske pengeoverførsler) i Nordamerika. |[Fremgangsmåde: Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)|
+| Brug en funktion til at foreslå kreditorbetalinger i overensstemmelse med de valgte kriterier, f.eks. forfaldsdato, ret til rabat og din likviditet. |[Lav forslag](payables-how-suggest-vendor-payments.md) |
+|Refunder medarbejdere for personlige udgifter under forretningsaktiviteter ved at foretage betaling til deres bankkonto.|[Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)|
+| Udsted checks for kreditorbetalinger enten som udskrifter eller som computercheck. Annullere checks før eller efter bogføringen. |[Arbejde med checks](payables-how-work-checks.md) |
+| Betale kreditoren med kontanter eller check og bogfører betalingen, når du bogfører fakturaen. |[Afregne købsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md) |
+| Kontroller, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. |[Eksportere en Positive Pay-fil](finance-how-positive-pay.md) |
+|Udlæs betalinger fra vinduet **Udbetalingskladde** til en bankfil, du overfører til din bank til behandling, herunder EFT (elektroniske pengeoverførsler) i Nordamerika. |[Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)|
 |Oprette elektroniske betalinger i henhold til standarden for EU-SEPA-kreditoverførsel.|[Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|    
 
 ## <a name="see-also"></a>Se også

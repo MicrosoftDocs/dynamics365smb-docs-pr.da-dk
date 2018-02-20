@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7fef570e7e56e348a25ae660fa9248b529d0bfde
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c7a8549a5c6528cafb5e2959a3391fb323fe92ca
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-industry-groups-for-contact-companies"></a>Fremgangsmåde: Angive brancher for kontaktvirksomheder
+# <a name="set-up-industry-groups-for-contact-companies"></a>Angive brancher for kontaktvirksomheder
 Du bruger brancher til at angive, hvilken branchetype dine kontakter tilhører, f.eks. detailbranchen eller automobilbranchen.
 
 Brug af brancher i kontakter er en totrinsproces. Først skal du definere branchekoden. Du behøver kun at udføre dette trin én gang for hver branche. Når du har en branchekode, kan du begynde at tildele koden til kontaktvirksomheder.
@@ -44,7 +44,7 @@ Gentag disse trin for hver branche, du vil tildele. Du kan også tildele branche
 
 Det antal brancher, du har tildelt til kontakten, vises i feltet **Antal brancher** i sektionen **Segmentering** i vinduet **Kontakt**.
 
-Når du har tildelt brancher til kontakter, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
+Når du har tildelt brancher til kontakter, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  

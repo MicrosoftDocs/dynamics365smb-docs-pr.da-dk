@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f42941328d49aee4e823007284fd14417866cbae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf54f63e94ab3249f30d2fcdbef2c35e323e4cd8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shop-calendars"></a>Sådan opsættes produktionskalendere
+# <a name="set-up-shop-calendars"></a>Konfigurere produktionskalendere
 En arbejdscenter- eller produktionsressourcekalender angiver de arbejdsdage og -timer, arbejdsskift, fridage og det fravær, der bestemmer arbejdscentrets tilgængelige bruttokapacitet, målt i tid, i henhold til centrets definerede værdier for effektivitet og kapacitet.
 
 Som grundlag for at beregne en bestemt arbejdscenter- eller produktionsressourcekalender skal du først opstille en eller flere generelle produktionskalendere. En produktionskalender definerer en standardarbejdsuge i form af start- og sluttidspunkter for hver arbejdsdag og de tilhørende arbejdsskift. Produktionskalenderen definerer desuden de faste fridage i året.  
@@ -108,8 +108,8 @@ Den beregnede arbejdscenterkalender definerer nu, hvor meget kapacitet der er ti
 Kapaciteten på den markerede dag er nu reduceret med den registrerede fraværstid.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Opsætte basiskalendere](across-how-to-assign-base-calendars.md)  
-[Fremgangsmåde: Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md)  
+[Konfigurere basiskalendere](across-how-to-assign-base-calendars.md)  
+[Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

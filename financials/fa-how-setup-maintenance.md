@@ -13,13 +13,13 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cdf1183fb5383311dc34d8c2c619a1eddf7e8851
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7ae4abacf22d3610194ea56bbaa997390cb7df0a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-maintenance"></a>Fremgangsmåde: Konfigurere reparation af anlægsaktiver
+# <a name="set-up-fixed-asset-maintenance"></a>Definere anlægsreparation
 For at administrere vedligeholdelse af anlæg, skal du først angive nogle generelle reparationsoplysninger, en bogføringskonto for reparationsomkostninger og reparationskoder for forskellige typer arbejde, f.eks rutineeftersyn eller reparation.
 
 ## <a name="to-set-up-general-maintenance-information"></a>Sådan angives generelle reparationsoplysninger
@@ -42,7 +42,7 @@ Hvis du vil bogføre reparationsudgifter, skal du først angive et kontonummer i
 2. Udfyld feltet **Reparationskonto** for hver enkelt bogføringsgruppe.
 
 > [!NOTE]  
->   Hvis du angive, at reparationsomkostningerne skal allokeres til afdelinger eller projekter, skal du definere allokeringsnøgler. Du kan finde flere oplysninger i [Fremgangsmåde: Angive generelle funktioner for anlægsaktiver](fa-how-setup-general.md).
+>   Hvis du angive, at reparationsomkostningerne skal allokeres til afdelinger eller projekter, skal du definere allokeringsnøgler. Du kan finde flere oplysninger i [Angive generelle funktioner for anlægsaktiver](fa-how-setup-general.md).
 
 ## <a name="see-also"></a>Se også
 [Opsætning af anlægsaktiver](fa-setup.md)  

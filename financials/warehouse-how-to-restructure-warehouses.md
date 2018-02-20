@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da5928be8280bad2eac379a5f0e5b19ddc2d12bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restructure-warehouses"></a>Fremgangsmåde: Omstrukturere lagersteder
+# <a name="restructure-warehouses"></a>Omstrukturere lagre
 Det kan eventuelt blive nødvendigt at omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer. Sådanne omstruktureringer foretages som regel sjældent, men der kan opstå situationer, hvor det er nødvendigt med en omklassificering for at opnå en mere effektiv forretningsgang. Eksempler:  
 
 - Lageret går over til at bruge et ADCS-system (Automatic Data Capture System), hvor der skal benyttes nye placeringskoder, som kan registreres med håndholdt udstyr.  
@@ -45,12 +45,12 @@ Du har nu tømt de placeringer, hvor varerne plejede at være. Standardplacering
 
 ## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Sådan omstruktureres et avanceret lager, hvor der bruges styret læg-på-lager og pluk  
 
-1.  Opret de nye placeringer, der skal benyttes fremover. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette placeringer](warehouse-how-to-create-individual-bins.md).  
+1.  Opret de nye placeringer, der skal benyttes fremover. Du kan finde flere oplysninger under [Oprette placeringer](warehouse-how-to-create-individual-bins.md).  
 2.  Flyt alt indhold fra de nuværende placeringer til de nye placeringer, som du lige har oprettet.  
 
     1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lageromposteringskladde**, og vælg derefter det relaterede link.  
     2.  Opret en linje for hver af de nuværende placeringer, for hvilke der ikke er tale om egentlig flytning af varer, i **Lageromposteringskladde** med den gamle placeringskode, **Fra placeringskode**, og den nye placeringskode, **Til placeringskode**.  
-    3.  Hvis der er bevægelser, der omfatter fysisk flytning af varer, skal du bruge **Bevægelseskladder** til at oprette bevægelsesinstruktioner i stedet for at bruge omposteringskladden. Du kan finde flere oplysninger i [Fremgangsmåde: Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+    3.  Hvis der er bevægelser, der omfatter fysisk flytning af varer, skal du bruge **Bevægelseskladder** til at oprette bevægelsesinstruktioner i stedet for at bruge omposteringskladden. Du kan finde flere oplysninger i [Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Når gamle placeringer er tømt, skal du genklassificere dem som type **KK**-placeringer for at sikre, at de ikke er inkluderet i vareforløb.  
 
@@ -58,7 +58,7 @@ Du har nu tømt de placeringer, hvor varerne plejede at være. Standardplacering
     2.  Marker linjen med placeringen, og vælg derefter handlingen **Placeringer**.  
     3.  I vinduet **Placeringer** i feltet **Placeringstypekode** skal du angive **KK** for hver af gamle placeringer, som du slettede indholdet af i trin 3 i den foregående fremgangsmåde.  
 
-Du har nu fjernet placeringerne fra lagerstedet og omposteret dem som KK-placeringer. KK-placeringer har ingen af aktivitetsfelterne i vinduet **Placeringstyper** valgt og tages derfor ikke i betragtning af varestrømmen. Du kan finde flere oplysninger i [Sådan oprettes placeringstyper](warehouse-how-to-set-up-bin-types.md).  
+Du har nu fjernet placeringerne fra lagerstedet og omposteret dem som KK-placeringer. KK-placeringer har ingen af aktivitetsfelterne i vinduet **Placeringstyper** valgt og tages derfor ikke i betragtning af varestrømmen. Der er flere oplysninger i [Konfigurere placeringer](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Sådan slettes en placering  
 

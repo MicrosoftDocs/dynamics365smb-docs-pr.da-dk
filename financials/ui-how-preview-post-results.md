@@ -12,18 +12,18 @@ ms.workload: na
 ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 378be05a9b8f280252f0b8a3d461840790316b23
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ab5be6e74e9dd90b07a765692d1ff9192fe42688
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-preview-posting-results"></a>Fremgangsmåde: Vise bogføringsresulterer
+# <a name="preview-posting-results"></a>Vise bogføringsresultater
 På hvert dokument og kladde, som kan bogføres, kan du vælge knappen **Vis bogføring** for at se de forskellige typer poster, der oprettes, når du bogfører dokumentet eller kladden.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Sådan vises finansposter, der stammer fra bogføring af en købsfaktura
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
-2. Opret en købsfaktura. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md).
+2. Opret en købsfaktura. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 3. Vælg **Vis bogføring**.
 4. I vinduet **Vis bogføring** skal du markere **Finanspost** og derefter vælge **Vis relaterede poster**.  
    Vinduet **Vis finansposter** viser hvilke poster der oprettes, når du bogfører købsfakturaen.

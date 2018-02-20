@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3a257ba6434f8689a78e975811a0c5897b3836f8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9564da28e9850e30e42ea2824043e25041f5adaa
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-import-and-export-a-report-or-document-layout"></a>Fremgangsmåde: Importere og eksportere et rapport- eller dokumentlayout
+# <a name="import-and-export-a-report-or-document-layout"></a>Importere og eksportere et rapport- eller dokumentlayout
 Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som en fil til og fra en placering på din computer og netværket. For eksempel kan du eksportere et rapportlayout og derefter sende filen til en anden person for redigering. Denne person kan derefter foretage ændringer af layoutet og returnere filen til dig, så du kan importere det tilbage.  
   
 > [!IMPORTANT]  
@@ -52,6 +52,6 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
  Det oprindelige brugerdefinerede rapportlayout erstattes med det importerede rapportlayout.  
   
 ## <a name="see-also"></a>Se også  
- [Fremgangsmåde: Oprette et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   
+ [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   
  [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
  [Arbejde med rapporter](ui-work-report.md)    

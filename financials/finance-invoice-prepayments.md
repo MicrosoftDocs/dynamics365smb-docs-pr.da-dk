@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e4380312724b08a7e250a65288d75d27444df0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Fakturere forudbetalinger
@@ -28,9 +28,9 @@ Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg elle
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Konfigurer forudbetalingsbogføringsgrupper og nummerserier, og opret standardprocenter for forudbetaling for debitorer, kreditorer og varer.|[Fremgangsmåde: Oprette forudbetalinger](finance-set-up-prepayments.md)|
-|Oprette en ordre, regulere forudbetalingsbeløb, og udstede en faktura for forudbetalingsbeløb.|[Sådan oprettes forudbetalingsfakturarer](finance-how-to-create-prepayment-invoices.md)|  
-|Udstede en supplerende forudbetalingsfaktura, enten for ekstra varer eller for et ekstra depositum til den oprindelige ordre, eller udstede en forudbetalingskreditnota.|[Sådan rettes forudbetalinger](finance-how-to-correct-prepayments.md)|  
+|Konfigurer forudbetalingsbogføringsgrupper og nummerserier, og opret standardprocenter for forudbetaling for debitorer, kreditorer og varer.|[Oprette forudbetalinger](finance-set-up-prepayments.md)|
+|Oprette en ordre, regulere forudbetalingsbeløb, og udstede en faktura for forudbetalingsbeløb.|[Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md)|  
+|Udstede en supplerende forudbetalingsfaktura, enten for ekstra varer eller for et ekstra depositum til den oprindelige ordre, eller udstede en forudbetalingskreditnota.|[Rette forudbetalinger](finance-how-to-correct-prepayments.md)|  
 
 ## <a name="see-also"></a>Se også  
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

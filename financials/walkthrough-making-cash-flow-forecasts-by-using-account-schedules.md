@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c66fc5da322ddb1d217b61da0b563faab27b344e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer
@@ -34,7 +34,7 @@ Denne gennemgang beskriver følgende opgaver:
 ### <a name="prerequisites"></a>Forudsætninger  
 For at gennemføre denne gennemgang skal:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] være installeret  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)]  være installeret  
 - Likviditetskladdelinjerne registreres.  
 
 ## <a name="roles"></a>Roller  
@@ -88,7 +88,7 @@ Ken er nu klar til at tildele kolonneformatet til kontoskemanavnet.
 3.  Vælg handlingen **Udskriv** for at udskrive pengestrømsprognosen.  
 
 ## <a name="see-also"></a>Se også  
- [Fremgangsmåde: Arbejde med kontoskemaer](bi-how-work-account-schedule.md)   
+ [Arbejde med kontoskemaer](bi-how-work-account-schedule.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

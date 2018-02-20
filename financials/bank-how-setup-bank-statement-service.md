@@ -13,13 +13,13 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 5f4b675db86bc6fef19a587454e1e513fe6fa83d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa5c0c39dbbce40b59d639f810522c66da1a09ab
 ms.contentlocale: da-dk
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurere tjenesten Envestnet Yodlee Bank Feeds
 Du kan importere elektroniske bankkontoudtog fra din bank, så du hurtigt kan udfylde vinduet **Betalingsudligningskladde** og kan udligne betalinger og afstemme bankkontoen. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Tjenesten Envestnet Yodlee Bank Feeds er installeret som en udvidelse af [!INCLUDE[d365fin](includes/d365fin_md.md)] og er klar til at blive aktiveret. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).
@@ -63,7 +63,7 @@ Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede on
     Når processen er fuldført, vises bankens navn i ruden **Mine konti** på fanen **Tilknyttet**. Tallet i parentes angiver, hvor mange online bankkonti der er tilknyttet.  
 7. Vælg knappen **OK**.
 
-    Hvis du kun sammenkæder én onlinebankkonto, åbnes vinduet **Bankkontokort** og viser navnet på onlinebankkontoen. Hvis det er tilfældet, er processen med at tilknytte bankkontoen fuldført. Nu mangler du kun at konfigurere bankkontoen. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette bankkonti](bank-how-setup-bank-accounts.md).
+    Hvis du kun sammenkæder én onlinebankkonto, åbnes vinduet **Bankkontokort** og viser navnet på onlinebankkontoen. Hvis det er tilfældet, er processen med at tilknytte bankkontoen fuldført. Nu mangler du kun at konfigurere bankkontoen. Du kan finde flere oplysninger i [Oprette bankkonti](bank-how-setup-bank-accounts.md).
 
     Hvis du tilknytter mere end én onlinebankkonto, åbnes vinduet **Tilknytning af bankkonto** og viser de onlinebankkonti, der endnu ikke er knyttet til bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I dette tilfælde skal du følge det næste trin.  
 8. I vinduet **Tilknytning af bankkonto** skal du vælge linjen for en onlinebankkonto og derefter vælge handlingen **Sammenkæd med ny bankkonto**.  

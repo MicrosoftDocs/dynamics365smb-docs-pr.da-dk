@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a1d2177ab417eb932110ea610474b969acf7a26b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 21f4a6fc048688858cad77fb3d306fb39bd5620c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-order-status-and-repair-status"></a>Serviceordrestatus og reparationsstatus
@@ -63,6 +63,6 @@ Eksempel på en typisk tildeling af prioritetsniveau:
 Hvis én serviceartikel f.eks. har reparationsstatus **Ingen tidl. serv.** tilknyttet serviceordrestatussen **Igangsat**, en anden har **I arbejde** tilknyttet serviceordrestatussen **I arbejde**, og en tredje har **Reservedel bestilt** tilknyttet serviceordrestatus **Afvent**, vil den resulterende serviceordrestatus så blive **I arbejde**, fordi det har den højeste prioritet.  
   
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)  
+[Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)  
 [Konfigurere Service](service-setup-service.md)  
 

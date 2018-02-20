@@ -1,6 +1,6 @@
 ---
 title: "Gennemgang - Modtagelse og placering på lager i grundlæggende lageropsætninger | Microsoft Docs"
-description: "I Dynamics 365 kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret."
+description: "I Finance and Operations, Business edition kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 52b017591b389c883e8a0bbeb35c1e3a3a9e7377
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b420bc1cc0707824385cda832ac905c016cdd706
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger
@@ -134,11 +134,11 @@ I vinduet **Læg-på-lager** kan du administrere alle indgående lageraktivitete
     De 40 højttalere er nu registreret som lagt på lager på placering S-01-0001, og der oprettes en positiv varepost, der afspejler den bogførte købsmodtagelse.  
 
 ## <a name="see-also"></a>Se også  
- [Sådan lægges varer på lager med Læg-på-lager](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
- [Fremgangsmåde: Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [Sådan flyttes komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [Fremgangsmåde: Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md)   
- [Sådan flyttes varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-inventory-put-aways.md)   
+ [Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md)   
+ [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

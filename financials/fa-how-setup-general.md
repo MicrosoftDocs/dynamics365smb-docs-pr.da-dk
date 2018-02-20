@@ -1,24 +1,22 @@
 ---
 title: "Konfigurere anlæg i finans | Microsoft Docs"
 description: "Inden du kan arbejde med anlægsaktiver, skal du konfigurere standardfinanskonti, bogføringsgrupper, fordelingsnøgler, kladdetyper og -navne samt klassekoder."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/02/2017
-ms.author: sgroespe
+ms.date: 29/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 97ff0418c2e3ffe2ace8412bb889fafd5788510b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-general-fixed-assets-information"></a>Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver
+# <a name="set-up-general-fixed-assets-information"></a>Angive generelle oplysninger om anlægsaktiver
 Før du kan administrere anlægsaktiver, skal du oprette standardfinanskonti, allokeringsnøgler, kladdetyper og -navne for bogføring og ompostering af anlægsaktiver, og du kan klassificere anlægsaktiver i arter, f.eks materielle og immaterielle.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Sådan defineres generelle standardværdier for anlæg
@@ -38,10 +36,10 @@ Bogføringsgrupper bruges til at definere grupper af anlægsaktiver. Disse bogf�
 >   For at sikre, at modkonti for forskellige anlægsbogføringer bliver indsat automatisk, når du vælger handlingen **Indsæt anlægsmodkonto** på kladdelinjer, skal du følge det næste trin baseret på opskrivningsbogføringer.
 4. I oversigtspanelet **Modkonto** skal du vælge den finanskonto i feltet **Opskrivningsmodkonto**, som du vil bogføre modposter for ved opskrivning.
 
-Yderligere oplysninger om brug af handlingen **Indsæt anlægsmodkonto** til anlægskassekladdelinjer finder du f.eks. under [Fremgangsmåde: Regulere anlægsaktiver](fa-how-revalue.md).
+Yderligere oplysninger om brug af handlingen **Indsæt anlægsmodkonto** til anlægskassekladdelinjer finder du f.eks. under [Regulere anlægsaktiver](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Sådan defineres allokeringsnøgler for anlægsaktiver
-Transaktioner kan allokeres på forskellige afdelinger eller projekter ud fra brugerdefinerede allokeringsnøgler. Du kan f.eks. definere en allokeringsnøgle til at allokere afskrivningerne på biler med 35 procent til administrationsafdelingen og 65 procent til salgsafdelingen. Du kan finde flere oplysninger i [Fremgangsmåde: Fordele omkostninger og indtægter](year-allocate-costs-income.md).
+Transaktioner kan allokeres på forskellige afdelinger eller projekter ud fra brugerdefinerede allokeringsnøgler. Du kan f.eks. definere en allokeringsnøgle til at allokere afskrivningerne på biler med 35 procent til administrationsafdelingen og 65 procent til salgsafdelingen. Du kan finde flere oplysninger i [Fordele omkostninger og indtægter](year-allocate-costs-income.md).
 
 Allokeringsnøgler gælder for anlægsarter og ikke for de enkelte anlægsaktiver.
 
@@ -53,7 +51,7 @@ Allokeringsnøgler gælder for anlægsarter og ikke for de enkelte anlægsaktive
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Sådan defineres anlægskladdetyper
 En type er et foruddefineret format for en kladde. Typen indeholder oplysninger om sporingskoder, rapporter og nummerserier. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] opretter automatisk en anlægskladdetype, første gang du åbner vinduet **Anlægskladde**, men du kan definere flere kladdetyper.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Programmet opretter automatisk en anlægskladdetype, første gang du åbner vinduet **Anlægskladde**, men du kan definere flere kladdetyper.  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
@@ -103,19 +101,21 @@ Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[d365fin](includes
 
 1. Kontroller, at du er færdig med de grundlæggende opsætningsprocedurer for anlægsaktiver.  
 2. Opret et anlægskort for hvert anlæg, der allerede findes.  
-3. Opret afskrivningsprofiler for anlægsaktiver.  
-4. Aktivér finansintegration ved hjælp af de næste trin.
-5. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
-6. Vælg den relevante afskrivningsprofil. På fanen **Startside** i gruppen **Administrer** skal du vælge **Rediger** for at åbne vinduet **Afskrivningsprofilkort**.
-7. På oversiftspanelet **Integration** skal du sørge for, at alle felter er tomme, ved at fjerne alle markeringer. Hvis du har mere end én afskrivningsprofil, skal du aktivere finansintegration for hver enkelt.  
-8. Skriv følgende linjer for hvert aktiv i anlægskladden:
+3. Oprette en anlægsafskrivningsprofil til hvert afskrivningsformål, (f.eks. skatteregnskaber eller årsregnskaber). Du skal selv definere betingelserne for hver afskrivningsprofil som f.eks. integration med finansbogholderiet.  
+
+    Aktivér finansintegration ved hjælp af de næste trin. Først skal sikre dig, at finansintegration er deaktiveret for alle afskrivningsprofiler, og derefter skal du bogføre åbningsposter og endelig aktivere finansintegration.  
+4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
+5. Vælg den relevante afskrivningsprofil. På fanen **Startside** i gruppen **Administrer** skal du vælge **Rediger** for at åbne vinduet **Afskrivningsprofilkort**.
+6. På oversiftspanelet **Integration** skal du sørge for, at alle felter er tomme, ved at fjerne alle markeringer. Hvis du har mere end én afskrivningsprofil, skal du deaktivere finansintegration for hver enkelt.  
+7. Skriv følgende linjer for hvert aktiv i anlægskladden:
    * En linje med anskaffelsen.
    * En linje med den akkumulerede afskrivning i slutningen af det foregående regnskabsår.
    * En linje med den akkumulerede afskrivning fra begyndelsen af det aktuelle regnskabsår til den dato, hvor [!INCLUDE[d365fin](includes/d365fin_md.md)] er indstillet til at starte afskrivningen.
 
-Hvis du har andre åbningsposter, kan du også angive dem nu, f.eks. nedskrivning og opskrivning.  
+    Hvis du har andre åbningsposter, kan du også angive dem nu, f.eks. nedskrivning og opskrivning.  
+8. Når du har angivet og bogført kladdelinjerne for hvert anlæg, skal du aktivere finansintegration i afskrivningsprofilerne.
 
-Hvis anlægsaktiverne ikke integreres med finansregnskabet, skal du springe trin 4-7 over.
+Hvis anlægsaktiverne ikke er integreret med finansposterne, skal du springe trin 6 og 8 over.
 
 ## <a name="see-also"></a>Se også
 [Opsætning af anlægsaktiver](fa-setup.md)  

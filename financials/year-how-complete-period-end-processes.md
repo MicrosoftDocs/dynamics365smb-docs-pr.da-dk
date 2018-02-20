@@ -1,6 +1,6 @@
 ---
 title: Valgfrie aktiviteter til afslutning af perioder | Microsoft Docs
-description: I dette emne beskriver de valgfrie processer og aktiviteter til afslutning af regnskabsperioder i Dynamics 365.
+description: I dette emne beskrives de valgfrie processer og aktiviteter til afslutning af regnskabsperioder i Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,19 +13,19 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 06/19/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 526ae1811768f38b04f961e378454fed79a8426b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 344e294083813d41b415ad07e6e8acdd3fe5047b
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversigt over opgaver til afslutning af regnskabsperioder
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tvinger dig ikke at lukke perioder, men der er mange periodeafslutnings- (månedsafslutning) aktiviteter, du kan udføre. Dette emne indeholder en oversigt over valgfrie processer og aktiviteter til afslutning af perioder.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  tvinger dig ikke at lukke perioder, men der er mange periodeafslutnings- (månedsafslutning) aktiviteter, du kan udføre. Dette emne indeholder en oversigt over valgfrie processer og aktiviteter til afslutning af perioder.  
 
 ## <a name="general-ledger"></a>Finansposter
 * Angiv bogføringsperioder, som enten er brugerspecifikke, eller som gælder på tværs af hele systemet.  
 
-    Dette angiver de datoer, du tillader bogføring mellem. Afhængigt af dine forretningsmæssige behov kan det være en god idé at tillade bogføring i begyndelsen af perioden eller mod afslutningen af den. Du kan finde flere oplysninger i [Fremgangsmåde: Angive bogføringsperioder](finance-how-specify-posting-periods.md).  
+    Dette angiver de datoer, du tillader bogføring mellem. Afhængigt af dine forretningsmæssige behov kan det være en god idé at tillade bogføring i begyndelsen af perioden eller mod afslutningen af den. Du kan finde flere oplysninger i [Angive bogføringsperioder](finance-how-specify-posting-periods.md).  
 * Foretag alle nødvendige Finanspostreguleringer.  
 * Opdater og bogfør gentagelseskladder.  
   <!--* Process Consolidations-->

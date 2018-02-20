@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 19a377f9c4a41bee6aecc182774f884b1ead36ad
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b5ff96bf6b455a8c1817a6243cfba5864cf5aa8e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-fault-reporting"></a>Fremgangsmåde: Definere fejlrapportering
+# <a name="set-up-fault-reporting"></a>Konfigurere fejlrapportering
 Med Fejlrapportering kan du angive standarder for registrering af oplysninger om fejl på serviceartikler. F.eks. kan du angive, hvad problemet er, de symptomer, du ser, årsagen til problemet, og hvordan det løses.  
 
-Fejlkoder angiver de typiske serviceartikelfejl eller de handlinger, der udføres på serviceartikler. Det afhænger af niveauet for fejlrapporteringen i din virksomhed, om du evt. blive nødt til at definere fejlområdekoder og symptomkoder, inden du definerer fejlkoder. Fejlområder beskriver områder med serviceartikelfejl. Fejlårsagskoder beskriver årsagen til serviceartikelfejl og om nødvendigt, om garanti- og kontraktrabatter skal udelukkes. Hvis kunden f.eks. er ansvarlig for fejlen på serviceartiklen, vil der evt. være behov for at udelukke garanti- og kontraktrabatter. Du tildeler fejlårsagskoder til serviceordrer. Du kan finde flere oplysninger i [Fremgangmåde: Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md).  
+Fejlkoder angiver de typiske serviceartikelfejl eller de handlinger, der udføres på serviceartikler. Det afhænger af niveauet for fejlrapporteringen i din virksomhed, om du evt. blive nødt til at definere fejlområdekoder og symptomkoder, inden du definerer fejlkoder. Fejlområder beskriver områder med serviceartikelfejl. Fejlårsagskoder beskriver årsagen til serviceartikelfejl og om nødvendigt, om garanti- og kontraktrabatter skal udelukkes. Hvis kunden f.eks. er ansvarlig for fejlen på serviceartiklen, vil der evt. være behov for at udelukke garanti- og kontraktrabatter. Du tildeler fejlårsagskoder til serviceordrer. Du kan finde flere oplysninger i [Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md).  
 
 ## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Sådan angives det generelle fejlrapporteringsniveau, der skal bruges
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceopsætning**, og vælg derefter det relaterede link. 

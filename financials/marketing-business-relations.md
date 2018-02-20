@@ -1,6 +1,6 @@
 ---
 title: Definere forretningsrelationskode for kontakter | Microsoft Docs
-description: "Brug forretningsrelationer i Dynamics 365 til at hjælpe med marketing og til at angive det forretningsforhold, som findes mellem din virksomhed og dine kundeemner og kunder, f.eks. en bank eller serviceleverandør."
+description: "Brug forretningsrelationer i Finance and Operations, Business edition til at hjælpe med marketing og til at angive det forretningsforhold, som findes mellem din virksomhed og dine kundeemner og kunder, f.eks. en bank eller serviceleverandør."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: ee7373ae4b58ce0d31bed5fbf853ae8e039833d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a72563f5057a1f9136a2d2b3aced6f028dc24051
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Opsætning af forretningsrelationer i kontaktvirksomheder
@@ -46,7 +46,7 @@ Gentag disse trin for hver forretningsrelation, du vil tildele. Du kan også til
 
 Det antal relationer, du har tildelt kontakten, vises i feltet **Antal forretningsrelationer** i sektionen **Segmentering** i vinduet **Kontakt**.
 
-Når du har tildelt forretningsrelationer til kontakter, kan du bruge oplysningerne til at udvælge kontakter til dine målgrupper. Du kan finde flere oplysninger i [Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
+Når du har tildelt forretningsrelationer til kontakter, kan du bruge oplysningerne til at udvælge kontakter til dine målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  

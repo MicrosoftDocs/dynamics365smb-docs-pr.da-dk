@@ -11,15 +11,15 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d7bcb866d5f69e77e5a175d0b73e8ac03cf09d98
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3ee160e2c38107aea1342b51d729aa172bbbc3e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-# <a name="how-to-create-a-sandbox-environment"></a>Fremgangsmåde: Oprette et sandkassemiljø
+# <a name="create-a-sandbox-environment"></a>Oprette et sandkassemiljø
 Et sandkassemiljø (eksempelvisning) er en ikke-produktiv forekomst af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Isoleret fra produktion er et sandkassemiljø stedet, hvor du sikkert kan udforske, lære, demonstrere, udvikle og teste tjenesten uden risiko for at påvirke data og indstillinger i dit produktionsmiljø.
 
 ## <a name="to-create-a-sandbox-environment"></a>Sådan opretter du et sandkassemiljø
@@ -44,7 +44,7 @@ I sandkassemiljøet er der blevet oprettet en helt ny lejer. Denne lejer er indl
 > [!NOTE]  
 >  Nulstilling af sandkassemiljøet vil fjerne miljøet helt, og derefter oprettes det igen med standarddemodata.  
 
-8.  Hvis du vil skifte mellem produktions- og sandkassemiljøerne, kan du bruge Dynamics 365-appstarter.
+8.  Hvis du vil skifte mellem produktions- og sandkassemiljøerne, kan du bruge appstarteren i Finance and Operations, Business edition.
 ![Dynamics 365-menu i sandkassemiljø](./media/across-sandbox/sandbox-dynamics365-menu.png)
 
 9.  Det er muligt for en administrator eller en anden bruger at begrænse eller endda blokere adgangen for bestemte brugere til sandkassemiljøet. Dette kan gøres ved hjælp af standardsikkerhedsfunktionerne i produktet, f.eks. brugerkort, brugergrupper og rettighedssæt.

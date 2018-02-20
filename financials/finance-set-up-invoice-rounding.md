@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f56e94d0914aaacc722381790688faedbb75ffda
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ceebeeac325c00d6aef25d8ca51fcfee1ab4e1d5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="set-up-invoice-rounding"></a>Opsætning af fakturaafrunding
@@ -34,7 +34,7 @@ Når du vil bruge automatisk fakturaafrunding, skal du:
 > [!NOTE]  
 >  Ud over funktionerne til fakturaafrunding kan du afrunde beløb på fakturaer vha. funktionen pris-afrundingspræcision og afrundingsfunktionen.  
  
-## <a name="how-to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Fremgangsmåde: Opsætte finanskonti til fakturaafrundingsdifferencer
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Opsætte finanskonti til fakturaafrundingsdifferencer
 Du skal oprette finanskonti eller konti, hvor afrundingsdifferencer kan bogføres, for at bruge den automatiske fakturaafrundingsfunktion. Du skal først oprette momsproduktbogføringsgrupper. Du kan finde flere oplysninger i [Konfigurer moms](finance-setup-vat.md).  
   
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Sådan opsættes finanskonti til fakturaafrundingsdifferencer  
@@ -45,7 +45,7 @@ Du skal oprette finanskonti eller konti, hvor afrundingsdifferencer kan bogføre
   
 Du kan nu knytte fakturaafrundingskontoen til bogføringsgrupper på siden **Kreditorbogføringsgrupper**.  <!-- Why only the vendor posting groups? -->
 
-## <a name="how-to-set-up-rounding-for-foreign-and-local-currencies"></a>Fremgangsmåde: Oprette afrunding for fremmed og lokal valuta
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Oprette afrunding for fremmed og lokal valuta
 Før du kan bruge den automatiske fakturaafrundingsfunktion, skal du oprette afrundingsregler for fremmed og lokal valuta.
 
 ### <a name="to-set-up-rounding-for-foreign-currencies"></a>Sådan oprettes afrundingsregler for fremmed valuta  
@@ -56,12 +56,12 @@ Før du kan bruge den automatiske fakturaafrundingsfunktion, skal du oprette afr
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. På siden **Regnskabsopsætning** på oversigtspanelet **Generelt** skal du udfylde feltet **Fakturaafrundingspræcision** og **Fakturaafrundningsretning**.  
 
-## <a name="how-to-activate-the-invoice-rounding-function"></a>Fremgangsmåde: Aktivere fakturaafrundingsfunktionen  
+## <a name="activate-the-invoice-rounding-function"></a>Aktivere fakturaafrundingsfunktionen  
 For at sikre, at salgs- og købsfakturaer afrundes automatisk, skal du aktivere fakturaafrundingsfunktionen. Du aktiverer fakturaafrunding separat for salgs- og købsfakturaer.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsopsætning** eller **Købsopsætning**, og vælg derefter det relaterede link.  
 2. På oversigtspanelet **Generelt** skal du vælge afkrydsningsfeltet **Fakturaafrunding**.  
   
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md)  
-[Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md)
+[Fakturere salg](sales-how-invoice-sales.md)  
+[Registrere køb](purchasing-how-record-purchases.md)

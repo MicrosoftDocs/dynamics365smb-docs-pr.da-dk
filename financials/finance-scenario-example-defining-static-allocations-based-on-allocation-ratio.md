@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b48d7f73b640b98d0cdab6e2e7e7486a3bdb39db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b58c3889196cba3a6ddbeb50249a6ae962c4ea1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Scenarieeksempel: Definition af statisk allokeringer baseret på fordelingsforholdet
@@ -56,10 +56,10 @@ Dette emne beskriver, hvordan du definerer tre nye fordelingsmålsomkostningsobj
 15. På den tredje linje i feltet **Fordeling** skal du angive fordelingsforholdet **4**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk feltet **Procent** ved hjælp af en procentsats , der er afhængig af alle tre fordelingsforhold, der er angivet i feltet **Fordeling** for alle tre linjer.  
+>  [!INCLUDE[d365fin](includes/d365fin_md.md)] Programmet beregner automatisk feltet **Procent** ved hjælp af en procentsats , der er afhængig af alle tre fordelingsforhold, der er angivet i feltet **Fordeling** for alle tre linjer.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Konfigurere fordelingskilde og -mål](finance-how-to-set-up-allocation-source-and-targets.md)   
+[Konfigurere fordelingskilde og mål](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)   
 [Scenarieeksempel: Definition af dynamiske fordelinger baseret på solgte varer](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)

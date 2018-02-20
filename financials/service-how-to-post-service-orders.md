@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7cafdcb9f6002d0732ee86b643b784d96e8c2aa1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-service-orders-and-credit-memos"></a>Fremgangsmåde: Bogføre serviceordrer og kreditnotaer
+# <a name="post-service-orders-and-credit-memos"></a>Bogføre serviceordrer og kreditnotaer
 Når du har oprettet en serviceordre, angivet alle de nødvendige oplysninger og foretaget eventuelle ændringer, kan du bogføre serviceordren. Ordren skal indeholde mindst én serviceartikellinje og én servicelinje, inden du kan bogføre den. Hvis ordren indeholder mere end én ordrelinje, bogføres alle linjerne på én gang.  
 
 Hvis du har et stort antal serviceordrer, kan du spare tid ved at bruge en kørsel til at bogføre dem på samme tid. Du kan udføre kørslen fra en serviceordre.
@@ -99,7 +99,7 @@ Følgende procedure viser, hvordan du bogfører leverancen af servicelinje på s
   
 4. Vælg **Handlinger**, **Bogføring**, **Bogfør**. Vælg **Lever** i det vindue, der vises.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] opretter posterne (i garantipost, varepost, servicepost eller finanspost) og det bogførte serviceleverancedokument, og de relevante felter på servicelinjerne i serviceordren opdateres.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  opretter posterne (i garantipost, varepost, servicepost eller finanspost) og det bogførte serviceleverancedokument, og de relevante felter på servicelinjerne i serviceordren opdateres.  
   
 Hvis lokationen er angivet til at kræve lagerekspedition, sker forsendelse og flytning af servicelinjevarefunktion på samme måde som for andre kildedokumenter. Den eneste forskel er, at servicelinjevarer kan forbruges eksternt eller internt, og derfor kræver de to forskellige frigivelsesfunktioner.  
   
@@ -133,5 +133,5 @@ Følgende procedure beskriver leverancebogføring direkte fra en serviceordre p�
   
 ## <a name="see-also"></a>Se også  
 [Bogføring i Service](service-service-posting.md)  
-[Sådan oprettes en serviceordre](service-how-to-create-service-orders.md)  
+[Oprette en serviceordre](service-how-to-create-service-orders.md)  
 

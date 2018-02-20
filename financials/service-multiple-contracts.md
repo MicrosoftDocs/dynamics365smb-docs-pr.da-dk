@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c4abfbcb3bc182fa14c44c427bc41ebd9d67f6cf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1f3f30673f8235377a581b398e1281fba92501e5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="multiple-contracts"></a>Flere kontrakter
@@ -35,7 +35,7 @@ Ved at håndtere en serviceartikel under flere kontrakter kan du gøre følgende
 Følgende viser eksempler på brugen af flere kontrakter.  
   
 ## <a name="creating-multiple-contracts-per-service-item"></a>Oprette flere kontrakter pr. serviceartikel  
-Du kan oprette en servicekontrakt eller et kontrakttilbud manuelt for de serviceartikler, der allerede er registreret i ikke-annullerede kontrakter, der tilhører den samme kunde. Det kan gøres ved at følge standardproceduren til oprettelse af servicekontrakter og servicekontrakttilbud. Du kan finde flere oplysninger i [Fremgangsmåde: Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
+Du kan oprette en servicekontrakt eller et kontrakttilbud manuelt for de serviceartikler, der allerede er registreret i ikke-annullerede kontrakter, der tilhører den samme kunde. Det kan gøres ved at følge standardproceduren til oprettelse af servicekontrakter og servicekontrakttilbud. Du kan finde flere oplysninger i [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md).  
   
 Når du tilføjer en serviceartikel på en kontraktlinje, som er registreret i andre servicekontrakter eller kontrakttilbud, vises en advarsel om, at serviceartiklen allerede tilhører en eller flere servicekontrakter eller et eller flere kontrakttilbud. Hvis du bekræfter advarslen, kopieres alle relevante oplysninger om serviceartiklen til en nyoprettet kontraktlinje.  
   
@@ -47,5 +47,5 @@ Du kan oprette en serviceordre manuelt for en serviceartikel, der er registreret
   
 ## <a name="see-also"></a>Se også  
 [Opfylde servicekontrakter](service-fulfill-service-contracts.md)  
-[Fremgangsmåde: Oprette serviceordrer](service-how-to-create-service-orders.md)  
+[Oprette serviceordrer](service-how-to-create-service-orders.md)  
 

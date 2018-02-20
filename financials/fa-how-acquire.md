@@ -13,18 +13,18 @@ ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a0c3c67952a7b33771329f8e9ecb45744b64830c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-acquire-fixed-assets"></a>Fremgangsmåde: Anskaffe anlægsaktiver
+# <a name="acquire-fixed-assets"></a>Anskaffede anlægsaktiver
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Der skal oprettes en afskrivningsprofil, og den skal tildeles til hvert enkelt anlægsaktiv, før du kan hente det.
 
 Når der er oprettet et anlægsaktiv, og der er tildelt en afskrivningsprofil, skal du anskaffe anlægsaktivet. For at få et anlægsaktiv skal du registrere dens anskaffelsespris i den relevante finanskonto, bankkonto eller leverandør ved at bogføre en anskaffelsestransaktion fra vinduet **Anlægskassekladde**. Du kan bruge den **Bistået anskaffelse af anlægsaktiv** til at oprette og bogføre de nødvendige finanskladdelinjer automatisk.
 
-Skrapværdien er restværdien af et anlæg, der ikke længere kan bruges. Du kan bogføre skrapværdien samtidigt med, at du bogfører anskaffelsesprisen. Du kan finde flere oplysninger i [Fremgangsmåde: Afskrive eller amortisere anlægsaktiver](fa-how-depreciate-amortize.md).
+Skrapværdien er restværdien af et anlæg, der ikke længere kan bruges. Du kan bogføre skrapværdien samtidigt med, at du bogfører anskaffelsesprisen. Du kan finde flere oplysninger i [Afskrive eller amortisere anlægsaktiver](fa-how-depreciate-amortize.md).
 
 Indeksering anvendes til at justere for ændringer af det generelle prisniveau. Kørslen **Indekser anlæg** kan bruges til at beregne anskaffelsespriser som genanskaffelsespriser.
 
@@ -34,7 +34,7 @@ Følgende procedure beskriver, hvordan du opretter et anlægsaktiv og derefter a
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** handling, og udfyld felterne på oversigtspanelet **Generelt** efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I oversigtspanelet **Afskrivningsprofil** skal du udfylde felterne efter behov. I dette trin tildeles en afskrivningsprofil til anlægsaktivet.  
-4. Hvis du vil tildele mere end én afskrivningsprofil til anlægsaktivet, skal du vælge handlingen **Tilføj flere afskrivningsprofiler**. Du kan finde flere oplysninger i afsnittet "Sådan tildeles en afskrivningsprofil til et anlægsaktiv" i [Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
+4. Hvis du vil tildele mere end én afskrivningsprofil til anlægsaktivet, skal du vælge handlingen **Tilføj flere afskrivningsprofiler**. Du kan finde flere oplysninger i afsnittet "Sådan tildeles en afskrivningsprofil til et anlægsaktiv" i [Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
 
     Når alle felter, der kræves for at anskaffe et anlægsaktiv, er udfyldt, vises beskeden **Du er klar til at anskaffe anlægsaktivet. Anskaf** øverst på siden.
 5. Vælg handlingen **Anskaf** i beskeden.
@@ -70,7 +70,7 @@ Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at o
 4. Vælg handlingen **Bogfør**.  
 
 > [!TIP]  
->   Hvis du udfylder feltet **Forsikringsnr.** i anlægskassekladden, når du bogfører en anskaffelse, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] også bogføre anskaffelsesprisen på anlægsaktivet på forsikringsposterne. Du kan finde flere oplysninger i [Fremgangsmåde: Forsikre anlægsaktiver](fa-how-insure.md).
+>   Hvis du udfylder feltet **Forsikringsnr.** i anlægskassekladden, når du bogfører en anskaffelse, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] også bogføre anskaffelsesprisen på anlægsaktivet på forsikringsposterne. Du kan finde flere oplysninger i [Forsikre anlægsaktiver](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Sådan annulleres bogføringen af en anskaffelsespris for et anlægsaktiv
 Hvis du laver en fejl under bogføring af en anskaffelsespris, kan du fjerne posten vha. kørslen **Annuller anlægsposter** og derefter bogføre den korrekte anskaffelsespost. De forkerte poster overføres til vinduet **Anlægsfejlposter**.

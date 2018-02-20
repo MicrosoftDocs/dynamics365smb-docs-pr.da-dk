@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Fremgangsmåde: Konfigurere dataudvekslingsdefinitioner
+# <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
 
-Som forberedelse til oprettelse af en dataudvekslingsdefinition for en datafil eller -stream, kan du bruge det relaterede XML-skema til at definere, hvilke dataelementer der skal indgå, i oversigtspanelet **Kolonnedefinitioner**. Se trin 6 i afsnittet "Sådan beskrives formateringen af linjer og kolonner i filen". Du kan finde flere oplysninger i [Fremgangsmåde: Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Som forberedelse til oprettelse af en dataudvekslingsdefinition for en datafil eller -stream, kan du bruge det relaterede XML-skema til at definere, hvilke dataelementer der skal indgå, i oversigtspanelet **Kolonnedefinitioner**. Se trin 6 i afsnittet "Sådan beskrives formateringen af linjer og kolonner i filen". Du kan finde flere oplysninger i [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Normalt angives dataudvekslingsdefinitioner i vinduet **Dataudvekslingsdefinition**. Men når du konfigurerer en dataudvekslingsdefinition til tjenesten for opdatering af valutakurser, starter du processen i det forenklede vindue **Opsætning af valutakursopdatering**.  
 
@@ -81,7 +81,7 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
 
 5. Gentag trin 4 for at oprette en linje for hver type fildata, du vil eksportere.  
 
-     Fortsæt til at beskrive formateringen af kolonner i datafilen ved at udfylde felterne i oversigtspanelet **Kolonnedefinitioner**, som beskrevet i nedenstående tabel. Du kan bruge strukturfilen, f.eks en . XSD-fil, så datafilen forhåndsudfylder oversigtspanelet med de relevante elementer. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+     Fortsæt til at beskrive formateringen af kolonner i datafilen ved at udfylde felterne i oversigtspanelet **Kolonnedefinitioner**, som beskrevet i nedenstående tabel. Du kan bruge strukturfilen, f.eks en . XSD-fil, så datafilen forhåndsudfylder oversigtspanelet med de relevante elementer. Du kan finde flere oplysninger i [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. I oversigtspanelet **Kolonnedefinitioner** skal du vælge **Hent filstruktur**.  
 7. I vinduet **Hent filstruktur** skal du vælge den relaterede strukturfil og derefter klikke på knappen **OK**. Linjerne i oversigtspanelet **Kolonnedefinitioner** udfyldes i overensstemmelse med datafilens struktur.  
@@ -133,7 +133,7 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
     |**Titel på målfelt**|Er kun synlig, når afkrydsningsfeltet **Brug som midlertidig tabel** er markeret.<br /><br /> Angiv det navn i feltet i måltabellen, som værdien i feltet **Kolonnetitel** er knyttet til, når du bruger en midlertidig tabel til dataimport.|  
     |**Eventuelt**|Er kun synlig, når afkrydsningsfeltet **Brug som midlertidig tabel** er markeret.<br /><br /> Angiv, om tilknytningen skal ignoreres, hvis feltet er tomt. Hvis du ikke markerer dette afkrydsningsfelt, opstår der en fejl i eksporten, hvis feltet er tomt.|  
 
- Dataudvekslingsdefinitionen er nu klar til at blive aktiveret for brugere. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Fremgangsmåde: Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md), [Fremgangsmåde: Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md) og [Foretag indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ Dataudvekslingsdefinitionen er nu klar til at blive aktiveret for brugere. Du kan finde flere oplysninger i [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md), [Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md) og [Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     Når du har oprettet dataudvekslingsdefinitionen for en bestemt datafil, kan du eksportere dataudvekslingsdefinitionen som en XML-fil, der kan bruges til hurtigt at aktivere import af den pågældende datafil. Dette beskrives i følgende fremgangsmåde:  
 
@@ -154,10 +154,10 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
-[Fremgangsmåde: Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Fremgangsmåde: Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Fremgangsmåde: Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
-[Foretag indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
+[Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Indgående bilag](across-income-documents.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 

@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d1b7b29735983e2de0bdaf5d382679d9546a6278
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e972ae6532c9531845e2739237b6ccb94d14c12
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-delete-workflows"></a>Fremgangsmåde: Slette arbejdsgange
+# <a name="delete-workflows"></a>Slette arbejdsgange
 Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den. Alle forekomster af trin i arbejdsgangen, der er defineret i arbejdsgangen, skal have status **Afsluttet**.  
 
 > [!CAUTION]  
 >  Når du sletter en arbejdsgang, mistes alle oplysninger i arbejdsgangen.  
 
- I vinduet **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette arbejdsgange](across-how-to-create-workflows.md).  
+ I vinduet **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Sådan slettes en arbejdsgang  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), og angiv **Workflows**, og vælg derefter det relaterede link.  
@@ -35,9 +35,9 @@ Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den
 5.  I vinduet **Workflow** skal du vælge handlingen **Slet**.  
 
 ## <a name="see-also"></a>Se også  
- [Fremgangsmåde: Oprette arbejdsgange](across-how-to-create-workflows.md)   
- [Fremgangsmåde: Aktivere arbejdsgange](across-how-to-enable-workflows.md)   
- [Fremgangsmåde: Se arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)   
+ [Oprette arbejdsgange](across-how-to-create-workflows.md)   
+ [Aktivere arbejdsgange](across-how-to-enable-workflows.md)   
+ [Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)   
  [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)   

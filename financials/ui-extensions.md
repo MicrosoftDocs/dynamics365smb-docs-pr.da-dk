@@ -1,6 +1,6 @@
 ---
-title: Installation af udvidelser til tilpasning af Dynamics 365 Business edition | Microsoft Docs
-description: "Få mere at vide om tilføjelse af funktioner og tilpasning af Dynamics 365 Business edition ved at installere udvidelser."
+title: Installation af udvidelser til tilpasning af Finance and Operations, Business edition | Microsoft Docs
+description: "Få mere at vide om tilføjelse af funktioner og tilpasning af Finance and Operations, Business edition ved at installere udvidelser."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: fb13cfe2d5e5a397d33f66b9fd4db14e46dcc5e1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5deba7ee0f88c47738f3f964b9da912c730a1bd4
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Tilpasse Dynamics 365, Business edition ved hjælp af udvidelser
+# <a name="customizing-finance-and-operations-business-edition-using-extensions"></a>Tilpasning af Finance and Operations, Business edition ved hjælp af udvidelser
 Du kan ændre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.
 Når du starter [!INCLUDE[d365fin](includes/d365fin_md.md)] første gang, er der allerede installeret nogle udvidelser for dig. Med tiden gøres flere udvidelser tilgængelige for dig, og du kan derefter vælge, om du vil bruge udvidelsen eller ej.
 
@@ -68,12 +68,13 @@ Microsoft tilbyder følgende udvidelser:
 >  Der findes ingen nye udvidelser i AppSource umiddelbart efter, at vi har oplyst om en opdatering. Du kan holde øje med udvidelser på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
-[Fremgangsmåde: Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md)  
+[Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
+[Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Overførsel af virksomhedsdata fra andre økonomisystemer](upload-data.md)  
 [Konfiguration af den britiske GetAddress.io-postnummerudvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

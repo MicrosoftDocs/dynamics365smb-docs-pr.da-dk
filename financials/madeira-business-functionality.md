@@ -1,5 +1,5 @@
 ---
-title: "Forretningsfunktioner, der understøttes af Dynamics 365, Business edition | Microsoft Docs"
+title: "Forretningsfunktioner, der understøttes af Finance and Operations, Business edition | Microsoft Docs"
 Description: Provides a feature overview of all the business functions and departments that are supported by application areas, such as Finance, Inventory, and Project Management.
 services: project-madeira
 documentationcenter: 
@@ -13,18 +13,18 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 3b68f53f2ca2f1553b0d19a617ae58b25f29acdb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d764a759095e6cdf4e1157bc7b1f850800de3217
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="business-functionality"></a>Forretningsfunktioner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra din startside kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra din startside kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 | Hvis du vil | Se |
 | --- | --- |

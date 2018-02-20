@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed0f75f1e0ee8a282b58458e4fed3b4eef7c46fb
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-companies"></a>Fremgangsmåde: Oprette kontaktvirksomheder
+# <a name="create-contact-companies"></a>Oprette kontaktvirksomheder
 Du kan oprette en kontakt for hver ny virksomhed, du er i interaktion med, f.eks. kunde, leverandør, kundeemne, bank, advokatfirma eller konsulentfirma.
 
 Du kan oprette en kontakt på to måder: forfra eller fra en eksisterende debitor, kreditor eller bankkonto.
@@ -58,6 +58,6 @@ Hvis du allerede har defineret en række debitorer, kreditorer eller bankkonti, 
 [Tildele forretningsrelationer til en kontakt](marketing-business-relations.md#AssignBusRelContact)  
 [Tildele brancher til en kontakt](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Tildele mailgrupper til en kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Fremgangsmåde: Oprette kontaktpersoner](marketing-create-contact-persons.md)  
-[Arbejde med Dynamics 365](ui-work-product.md)
+[Oprette kontaktpersoner](marketing-create-contact-persons.md)  
+[Arbejde med Finance and Operations, Business edition](ui-work-product.md)
 

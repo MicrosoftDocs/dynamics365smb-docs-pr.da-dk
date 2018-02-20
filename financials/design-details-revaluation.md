@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-revaluation"></a>Designoplysninger: Regulering
@@ -76,7 +76,7 @@ Værdiansættelsesdatoen angives til datoen for forbrugsbogføring (01-02-20) so
 
 |Bogføringsdato|Vare|Postens type|Antal|Løbenummer|  
 |------------------|----------|----------------|--------------|---------------|  
-|02-15-20|KÆDE|Afgang|0|3|  
+|02-15-20|KÆDE|Afgang|1|3|  
 
 **3V**: Brugeren udfører kørslen **Juster kostpris - vareposter**, som bogfører kæden som faktureret for at angive, at alt materialeforbrug er fuldt faktureret. Fra et økonomisk synspunkt er linkene ikke længere en del af VIA-lagerbeholdningen, når afgangen er fuldt faktureret og reguleret. Følgende tabel viser de resulterende værdiposter.  
 

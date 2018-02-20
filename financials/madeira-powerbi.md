@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition og indholdspakker til Power BI | Microsoft Docs
-description: "Du kan nemt få indsigt, business intelligence og nøgletal i dine Dynamics 365-data med Power BI og Dynamics 365-indholdspakkerne."
+title: Finance and Operations, Business edition og indholdspakker til Power BI | Microsoft Docs
+description: "Det er let at få indsigt, business intelligence og nøgletal fra dine data i Finance and Operations, Business edition med Power BI og indholdspakkerne til Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere virksomhedens data til Power BI
@@ -22,11 +22,11 @@ Du kan nemt få indsigt i dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data 
 
 Microsoft er udgivet følgende indholdspakker:
 
-| App | Beskrivelse |
+| App | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Indeholder et dashboard med de vigtigste finansielle data over en periode, f.eks. indtægter og udgifter, driftsavance og kassebeholdningsproces.|
-| Microsoft Dynamics 365 for Financials - CRM | Indeholder et dashboard med vigtige oplysninger om salgsmuligheder og kontakter.  |
-| Microsoft Dynamics 365 for Financials - Sales | Indeholder et dashboard med vigtige oplysninger om salg og lager. |
+| Microsoft Finance and Operations, Business edition | Indeholder et dashboard med de vigtigste finansielle data over en periode, f.eks. indtægter og udgifter, driftsavance og kassebeholdningsproces.|
+| Microsoft Finance and Operations, Business edition - CRM | Indeholder et dashboard med vigtige oplysninger om salgsmuligheder og kontakter.  |
+| Microsoft Finance and Operations, Business edition - Sales | Indeholder et dashboard med vigtige oplysninger om salg og lager. |
 
 ## <a name="using-the-dashboards"></a>Brug af dashboards
 Hver indholdspakke indeholder rapporter, som du kan dykke ned i:
@@ -44,7 +44,7 @@ Indholdspakkerne er konfigureret til arbejde med data fra demonstrationsvirksomh
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI
 Når du vil have vist dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Power BI, skal du have følgende:  
 
-* Adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Dynamics 365 Business Edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Finance and Operations, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Adgang til Power BI. Du kan finde flere oplysninger i [Power BI](https://powerbi.microsoft.com).
 
 Du kan finde flere oplysninger på Power BI-webstedet om at [oprette forbindelse til tjenester med indholdspakker til Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -120,9 +120,10 @@ Hvis du får vist en "UPS"-fejlmeddelelse, når du er færdig med godkendelsesdi
 [Business Intelligence](bi.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Overføre virksomhedsdata fra andre økonomisystemer](upload-data.md)  
-[Bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som PowerApps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som PowerApps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

@@ -13,19 +13,19 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a746de45bc6878d15e879e623c6a65539943be3
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-purchase-returns-or-cancellations"></a>Fremgangsmåde: Behandle købsreturvarer eller annulleringer
+# <a name="process-purchase-returns-or-cancellations"></a>Behandle købsreturvarer eller annulleringer
 Hvis du skal returnere varer til din kreditor eller annullere serviceydelser, som du har købt, kan du oprette og bogføre en købskreditnota, der angiver den ønskede ændring for den oprindelige købsfaktura. Du kan oprette købskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte købsfakturaoplysninger, eller du kan oprette en ny købskreditnota med kopierede fakturaoplysninger.
 
 Hvis du ønsker større kontrol over købsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved returnering af varer fra flere købsdokumenter i én købsreturnering, kan du oprette købsreturvareordrer. En købsreturvareordre udsteder automatisk den relaterede købskreditnota. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter".
 
 > [!NOTE]  
->   Hvis en bogført købsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte købsfaktura, så du automatisk tilbagefører de pågældende transaktioner. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+>   Hvis en bogført købsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte købsfaktura, så du automatisk tilbagefører de pågældende transaktioner. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
 Du opretter typisk en købskreditnota eller en købsreturvareordre som reaktion på en kreditnota, der er sendt til dig af en kreditor. Købskreditnotaen eller købsreturvareordren fungerer som din interne dokumentation i kreditnotaprocessen ved regnskabsførelse eller ved styring af leveringen af de involverede varer.
 
@@ -134,7 +134,7 @@ Der kan være tilfælde, hvor du er blevet enig med en leverandør om, at denne 
 1.  I vinduet **Købsreturvareordre** for en aktiv returproces skal du på en tom linje angive en negativ postering for erstatningsvaren ved at indsætte et negativt beløb i feltet **Antal**.  
 2. Vælg handlingen **Flyt negative linjer**.  
 3. I vinduet **Flyt negative købslinjer** skal du udfylde felterne efter behov.
-4. Vælg knappen **OK**. Den negative linje slettes fra købsreturvareordren, og der oprettes en ny købsordre. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md).  
+4. Vælg knappen **OK**. Den negative linje slettes fra købsreturvareordren, og der oprettes en ny købsordre. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Sådan oprettes et købsnedslag  
 Hvis du har modtaget varer, som f.eks. er lettere beskadigede, eller det ikke er de helt rigtige varer, tilbyder leverandøren muligvis en dekort eller et nedslag i prisen.  
@@ -150,7 +150,7 @@ Du kan bogføre den nedsatte købspris som et varegebyr på en kreditnota eller 
     Du kan oprette et særligt varegebyrnummer, som dækker købsdekorter.  
 6.  Angiv **1** i feltet **Antal**.  
 7.  Indtast beløbet på dekorten i feltet **Købspris**.  
-8.  Tildel købsnedslaget som et varegebyr på varerne i den bogførte leverance. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md). Vend derefter tilbage til vinduet **Købskreditnota**, når du har tildelt nedslaget.
+8.  Tildel købsnedslaget som et varegebyr på varerne i den bogførte leverance. Du kan finde flere oplysninger i [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md). Vend derefter tilbage til vinduet **Købskreditnota**, når du har tildelt nedslaget.
 
 Når du bogfører købsreturvareordren, føjes købsnedslaget til den relevante købspost. Det gør det muligt at opretholde en præcis lagerværdi.  
 
@@ -183,7 +183,7 @@ Når returleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
-[Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md)  
-[Fremgangsmåde: Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Registrere køb](purchasing-how-record-purchases.md)  
+[Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

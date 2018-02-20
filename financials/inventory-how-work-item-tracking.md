@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>Fremgangsmåde: Arbejde med serienumre og lotnumre
+# <a name="work-with-serial-and-lot-numbers"></a>Arbejde med serienumre og lotnumre
 Du kan tildele serienumre og lotnumre til ethvert udgående eller indgående dokument, og dets posterede varesporing vises i de tilknyttede vareposter. Du kan udføre arbejdet i vinduet **Varesporingslinjer**.
 
 Matrixen for mængdefelter øverst i vinduet **Varesporingslinjer** viser mængder og summer for de varesporingsnumre, der defineres på linjerne. Mængderne skal svare til mængderne på dokumentlinjen, der er angivet med 0 i felterne **Udefineret**.
 
 Af hensyn til ydeevnen indsamler programmet kun disponeringsoplysninger i vinduet **Varesporingslinjer** én gang, når du åbner vinduet. Det betyder, at programmet ikke opdaterer disponeringsoplysningerne, mens du har vinduet åbent – heller ikke selvom der sker ændringer i lageret eller i andre dokumenter.
 
-Varer med serie- eller lotnumre kan spores både frem og tilbage i deres forsyningskæde. Dette er nyttigt ved generel kvalitetssikring og tilbagekaldelser af produkter. Du kan finde flere oplysninger i [Sådan gør du: Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md).
+Varer med serie- eller lotnumre kan spores både frem og tilbage i deres forsyningskæde. Dette er nyttigt ved generel kvalitetssikring og tilbagekaldelser af produkter. Du kan finde flere oplysninger i [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md).
 
 ## <a name="about-picking-serial-or-lot-numbers-in-the-warehouse"></a>Om plukning af serie- eller lotnumre på lagerstedet
 Udgående håndtering af serie eller lotnumre er en almindeligt forekommende opgave i mange forskellige lagerprocesser.  
@@ -236,7 +236,7 @@ Du kan ikke ændre felterne **Serienr.** og **Lotnr.** Du kan imidlertid slette 
 Ompostering af varesporing for en vare betyder, at et lot- eller serienummer ændres til et nyt lot- eller serienummer, eller at udløbsdatoen ændres til en ny udløbsdato. Hvis du arbejder med lotter, kan du også samle flere lotter i en enkelt lot. Disse opgaver udføres ved hjælp af vareomposteringskladden.
 
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareomposteringskladde**, og vælg derefter det relaterede link.  
-2.  Udfyld linjen med de relevante oplysninger. Du kan finde flere oplysninger i [Fremgangsmåde: Tælle, justere og ompostere inventar](inventory-how-count-adjust-reclassify.md).
+2.  Udfyld linjen med de relevante oplysninger. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar](inventory-how-count-adjust-reclassify.md).
 3.  Vælg handlingen **Varesporingslinjer**.  
 4.  Vælg det aktuelle serie- eller lotnummer i feltet **Serienr.** eller **Lotnr.**.  
 5.  Hvis du vil angive et nyt varesporingsnummer, skal du angive det i feltet **Nyt serienummer** eller **Nyt lotnr.**. Du kan flette en eller flere lotter til en ny eller en eksisterende lot.  
@@ -259,10 +259,10 @@ Ompostering af varesporing for en vare betyder, at et lot- eller serienummer æn
 8.  Bogfør kladden for at linke de ændrede varesporingsnumre eller udløbsdatoerne til den tilknyttede varepost
 
 ## <a name="see-also"></a>Se også
-[Sådan gør du: Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)   
+[Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)   
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
 [Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
-[Sådan reserverer du varer](inventory-how-to-reserve-items.md)  
+[Reservere varer](inventory-how-to-reserve-items.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

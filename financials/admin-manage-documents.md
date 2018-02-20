@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 10524be6bcfdc99672496b54903e4f04c33108ce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 60438f0b6f0d5da60925b5b9c309cc359a8422e3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manage-documents"></a>Administrere dokumenter
@@ -32,5 +32,5 @@ Fakturerede serviceordrer slettes som regel automatisk, når de er faktureret fu
 Serviceordrer slettes ikke automatisk i programmet, men hvis det samlede antal i ordren er bogført, ikke fra selve serviceordren, men fra vinduet **Servicefaktura**. Det kan i så fald være nødvendigt at slette fakturerede ordrer, der ikke er slettet. Det kan du gøre ved at aktivere kørslen **Slet fakturerede serviceordrer**.  
 
 ## <a name="see-also"></a>Se også  
-[Opsætning og administration til Dynamics 365 for Financials](admin-setup-and-administration.md)  
+[Opsætning og administration i Finance and Operations, Business edition](admin-setup-and-administration.md)  
 

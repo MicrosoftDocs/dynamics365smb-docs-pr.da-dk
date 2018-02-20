@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a0261ee242abf0fedcfb22f4a22252636a0074b4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3de644d63c57402b81a3d688fa6e533d717ae089
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-orders-from-sales-orders"></a>Fremgangsmåde: Oprette produktionsordrer fra salgsordrer
+# <a name="create-production-orders-from-sales-orders"></a>Oprette produktionsordrer fra salgsordrer
 Du kan oprette produktionsordrer til producerede varer direkte fra salgsordrer.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Sådan oprettes en produktionsordre fra en salgsordre  
@@ -31,7 +31,7 @@ Du kan oprette produktionsordrer til producerede varer direkte fra salgsordrer.
 5.  Vælg status og ordretype.  
 6.  Vælg knappen **Ja** for at oprette en produktionsordre.
 
-Du kan også vælge at oprette en projektproduktionsordre. Du kan finde flere oplysninger i [Fremgangsmåde: Planlægge projektordrer](production-how-to-plan-project-orders.md).   
+Du kan også vælge at oprette en projektproduktionsordre. Du kan finde flere oplysninger i [Planlægge projektordrer](production-how-to-plan-project-orders.md).   
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere produktion](production-configure-production-processes.md)  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 66590eb8ce7749658bad1fc3c9e54c1dff538abd
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designoplysninger: Bogføring af montageordre
@@ -102,7 +102,7 @@ Desuden bogføres gruppefelter på montageordrehovedet og montageordrelinjerne s
 |Montageordrelinje|Vare|Varebogføringsgruppe|Produktbogføringsgruppe|  
 |Montageordrelinje|Ressource||Produktbogføringsgruppe|  
 
-Derfor er det kun faktiske omkostninger, der bogføres i Finans, og der udfyldes ingen mellemregningskonto fra montageordrebogføring. Du kan finde flere oplysninger i [Designoplysninger: Kontoer i Finans](design-details-accounts-in-the-general-ledger.md).  
+Derfor er det kun faktiske omkostninger, der bogføres i Finans, og der udfyldes ingen mellemregningskonto fra montageordrebogføring. Du kan finde flere oplysninger i [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
 ## <a name="assemble-to-order"></a>Montage til ordre  
 Den varepost, der er resultatet af bogføring af et ordremontagesalg, bliver fast udlignet med den relaterede varepost for montageafgangen. På samme måde er kostprisen for et montage efter ordre-salg afledt fra den montageordre, den var knyttet til.  

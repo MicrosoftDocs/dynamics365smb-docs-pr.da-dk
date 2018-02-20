@@ -13,18 +13,18 @@ ms.search.keywords: reimbursement
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 802171d4f421270cb7e9b4f9dfedec9b9fe5ddc6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92c0bca970250b8f160ecfc15b086963c8693885
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reverse-postings"></a>Sådan tilbageføres poster
+# <a name="reverse-postings"></a>Tilbageføre poster
 Hvis du vil tilbageføre en fejlpostering i en kladde, skal du vælge posten og oprette en modpost (poster, der er identiske med den originale post, men med modsat fortegn i beløbsfeltet) med det samme bilagsnummer og den samme bogføringsdato som den oprindelige post. Når du har tilbageført en post, skal du oprette den korrekte post.
 
 Du kan kun tilbageføre poster, der er bogført fra en finanskladdelinje. En post kan kun tilbageføres én gang.
 
-Du kan finde flere oplysninger om bogføring fra en finanskladde i [Fremgangsmåde: Bogfør transaktioner direkte i finansposter](finance-how-post-transactions-directly.md).
+Du kan finde flere oplysninger om bogføring fra en finanskladde i [Bogføre transaktioner direkte i finansposter](finance-how-post-transactions-directly.md).
 
 Hvis du har oprettet en bogføring af et forkert negativt antal, som f.eks. en købsordre med det forkerte antal varer og bogført dem som modtaget, men ikke faktureret, kan du annullere bogføringen.
 
@@ -68,7 +68,7 @@ Du kan tilbageføre poster fra alle **Poster**-vinduer: Følgende procedure er b
 8.  Ret antallet i feltet **Antal**, og bogfør købsreturvareordren igen.  
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  
+[Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

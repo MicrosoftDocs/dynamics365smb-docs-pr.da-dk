@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7ee0dc8f0f44e9bb62fc87caf85eaf92d438abe6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fb65a8b978a0f87b27cc48a634c4ec64d230221d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-invoices-or-credit-memos"></a>Fremgangsmåde: Oprette servicefakturaer eller -kreditnotaer
+# <a name="create-service-invoices-or-credit-memos"></a>Oprette servicefakturaer eller -kreditnotaer
 En nøgleegenskab i [!INCLUDE[d365fin](includes/d365fin_md.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan sende en faktura til kunderne på et valgfrit tidspunkt eller oprette fakturaer periodisk.  
   
 Hvis du vil oprette en faktura direkte, kan du bruge vinduet **Servicekontrakt**. Du kan også konfigurere systemet, så en feltservicetekniker kan oprette en faktura for service, der ikke er tilknyttet en kontrakt eller en ordre.  
@@ -99,7 +99,7 @@ Et servicekreditnotadokument bruges normalt, når en kunde returnerer en vare, m
 4. På kreditnotalinjerne skal du angive oplysninger om de varer, der er blevet returneret eller fjernet, eller den kompensation, som kunden vil få.  
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Bogføre servicefakturaer](service-how-to-post-service-orders.md)  
+[Bogføre servicefakturaer](service-how-to-post-service-orders.md)  
 [Konfigurere Service](service-setup-service.md)  
 [Bogføring af tjenesten](service-service-posting.md)  
 

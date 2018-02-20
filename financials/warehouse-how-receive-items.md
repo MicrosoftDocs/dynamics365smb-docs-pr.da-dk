@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 34960041320f595b504c9f16913db07c1dd3f053
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e6ab403945df0f3c98ab1d47eefa0633f0172e3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-items"></a>Sådan modtages varer
+# <a name="receive-items"></a>Modtage varer
 Når varer ankommer til et lagersted, der ikke er konfigureret til behandling af lagermodtagelser, skal du blot registrere modtagelsen på det relaterede forretningsbilag f.eks. en købsordre, en salgsreturvareordre eller en indgående overflytningsordre.
 
 Når der ankommer varer til et lagersted, der er sat op til lagermodtagelse, henter du de linjer i kildedokumentet, som har udløst modtagelsen. Hvis du benytter placeringer, kan du enten acceptere den standardplacering, der udfyldes, eller du kan udfylde den placering, hvor varen skal lægges på lager, hvis varen aldrig er brugt før på lagerstedet. Du skal derefter udfylde det antal af varen, du har modtaget, og bogføre modtagelsen.  
@@ -27,7 +27,7 @@ Når der ankommer varer til et lagersted, der er sat op til lagermodtagelse, hen
 ## <a name="to-receive-items-with-a-purchase-order"></a>Sådan modtages varer med en købsordre
 Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsvarende fremgangsmåde for salgsreturvareordrer og overflytningsordrer.  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsordrer**, og vælg derefter det relaterede link.
-2. Åbn en eksisterende købsordre eller opret en ny. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md).
+2. Åbn en eksisterende købsordre eller opret en ny. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 3. Angiv det modtagne antal i feltet **Modtag (antal)**.
 
     Værdien i feltet **Modtaget antal** opdateres. Hvis det er en delvis modtagelse, er værdien lavere end værdien i feltet **Antal**.

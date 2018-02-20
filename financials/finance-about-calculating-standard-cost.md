@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2e47adde6da02252ee1dd15abb8cbd905579420b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning af standardomkostning
@@ -52,7 +52,7 @@ Følgende vigtigste omkostningselementer udgør den samlede direkte omkostning f
 -   Direkte materialeomkostninger repræsenterer et faktureret beløb for købte råmaterialer eller omkostningen til fremstilling af en underordnet samling.  
 -   Indirekte materialeomkostninger, eller *faste omkostninger* kan være elementer som f.eks. lageromkostninger for den færdige vare, efter at den er fremstillet.  
 
-Opsætningen af materialeomkostninger for købte varer, der påvirker direkte og indirekte omkostninger, afhænger af den kostmetode, der er valgt for den pågældende vare. Du kan oprette omkostningsoplysninger for hver kostmetode på varekortet. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).
+Opsætningen af materialeomkostninger for købte varer, der påvirker direkte og indirekte omkostninger, afhænger af den kostmetode, der er valgt for den pågældende vare. Du kan oprette omkostningsoplysninger for hver kostmetode på varekortet. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
 Omkostningen til spild (kun produktion) er en anden faktor, du skal overveje, når du beregner den samlede materialeomkostning. Når en bestemt mængde råmateriale går til spilde under montage eller fremstilling af en vare, medfører det generelt en forøgelse af de komponenter, der skal bruges til fremstilling af varen. Dette medfører desuden en stigning i materialeomkostningerne for de komponenter, der bruges under fremstilling af den overordnede vare. Du opretter spildomkostninger for materialer på enten produktionsstyklisten eller produktionsruten.  
 
@@ -98,13 +98,13 @@ Hvis du vil opdatere eller beregne standardkostprisen for montageelementer, skal
 Processen med at opdatere eller beregne standardkostpriser består typisk af følgende opgaver:  
 
 1.  Opdatering af omkostninger på komponent- og kapacitetsniveau. Du kan finde flere oplysninger i kørslerne **Foreslå kostpris (standard)** og **Foreslå kapacitetskostpris (standard)**.  
-2.  Konsolidering og akkumulering af komponent- og kapacitetsomkostninger til beregning af den samlede montage eller de samlede fremstillingsomkostninger for varerne. Du kan finde flere oplysninger i afsnittet "Sådan beregnes kostprisen for et montageelement" i [Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md).  
+2.  Konsolidering og akkumulering af komponent- og kapacitetsomkostninger til beregning af den samlede montage eller de samlede fremstillingsomkostninger for varerne. Du kan finde flere oplysninger i afsnittet "Sådan beregnes kostprisen for et montageelement" i [Arbejde med styklister](inventory-how-work-BOMs.md).  
 3.  Implementering af de standardkostpriser, der angives, når du kører de tidligere kørsler. Standardkostpriserne træder ikke i kraft, før de er implementeret. Du kan finde flere oplysninger i kørslen **Implementer std.kostprisændringer**.  
-4.  Implementering af ændringer for at opdatere feltet **Kostpris** på varekortet og udførsel af lagerværdiregulering. Du kan finde flere oplysninger under [Fremgangsmåde: Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
+4.  Implementering af ændringer for at opdatere feltet **Kostpris** på varekortet og udførsel af lagerværdiregulering. Du kan finde flere oplysninger under [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Kostmetoder](design-details-costing-methods.md)   
- [Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md)   
- [Sådan gør du: Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)   
+ [Arbejde med styklister](inventory-how-work-BOMs.md)   
+ [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)   
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
 

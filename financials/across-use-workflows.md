@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a42e336dba385cbf24c19702ad64d76b26c15104
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed9cc92aee8a11a6094456ad24a07ab6c4d47952
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="using-workflows"></a>Anvende workflows
@@ -31,11 +31,11 @@ Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, de
 
 |**For at**|**Skal du se**|  
 |------------|-------------|  
-|Angiv, at en arbejdsgang skal startes, når den første startpunkthændelse finder sted.|[Fremgangsmåde: Aktivere arbejdsgange](across-how-to-enable-workflows.md)|  
-|Anmode om godkendelse af en opgave, som godkender, godkende, afvise eller uddelegere godkendelser og sende eller få vist godkendelsesnotifikationer.|[Fremgangsmåde: Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)|  
-|Opret arbejdsgangstrin, der sikrer, at en bestemt posttype ikke bruges, før en bestemt hændelse opstår, for eksempel at posten godkendes.|[Fremgangsmåde: Begrænse og tillade brug af en post](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Vis arbejdsgangstrinsforekomster med statussen Afsluttet.|[Fremgangsmåde: Se arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)|  
-|Slet en arbejdsgang, som du er sikker på ikke længere bruges.|[Fremgangsmåde: Slette arbejdsgange](across-how-to-delete-workflows.md)|  
+|Angiv, at en arbejdsgang skal startes, når den første startpunkthændelse finder sted.|[Aktivere arbejdsgange](across-how-to-enable-workflows.md)|  
+|Anmode om godkendelse af en opgave, som godkender, godkende, afvise eller uddelegere godkendelser og sende eller få vist godkendelsesnotifikationer.|[Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)|  
+|Opret arbejdsgangstrin, der sikrer, at en bestemt posttype ikke bruges, før en bestemt hændelse opstår, for eksempel at posten godkendes.|[Begrænse og tillade brugen af en record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
+|Vis arbejdsgangstrinsforekomster med statussen Afsluttet.|[Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)|  
+|Slet en arbejdsgang, som du er sikker på ikke længere bruges.|[Slette arbejdsgange](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-also"></a>Se også  
 [Opsætte workflows](across-set-up-workflows.md)   

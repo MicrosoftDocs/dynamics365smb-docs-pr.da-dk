@@ -1,6 +1,6 @@
 ---
 title: Eksportere Financials-data til Excel | Microsoft Docs
-description: "Du kan eksportere dine regnskabsrapporter og business intelligence-data fra Dynamics 365 Business edition til Excel eller åbne dine Financials-data i Excel."
+description: "Du kan eksportere dine regnskabsrapporter og business intelligence-data fra Finance and Operations, Business edition til Excel eller åbne dine Financials-data i Excel."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 36d3e31300fbdc3a29f345a331cabbf50875c77f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6f82017a0e5178e39b5c06e4d52c6e35ec84d848
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdata til Excel
-Hvis du vil arbejde med dine data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel, kan du åbne alle lister i Excel og arbejde med dem der. På samme måde, hvis du vil annullere dit abonnement på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], kan du eksportere dataene til Excel, så du kan tage dem med dig.
+Hvis du vil arbejde med dine data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel, kan du åbne alle lister i Excel og arbejde med dem der. På samme måde, hvis du vil annullere dit abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du eksportere dataene til Excel, så du kan tage dem med dig.
 
 ## <a name="opening-lists-in-excel"></a>Åbne lister i Excel
 Du kan åbne data i Excel fra enhver kladde, liste eller regneark. Du skal bare åbne den ønskede side og derefter vælge **Åbn i Excel**. Du kan f.eks. åbne listen over debitorer (søg efter **Debitorer**) og derefter klikke på **Åbn i Excel**. Din du bliver bedt om at åbne eller gemme den oprettede Excel-projektmappe.  
@@ -60,12 +60,12 @@ Det anbefales, at du også overvejer at eksportere data fra følgende sider:
 * Sælgere  
 
 > [!NOTE]  
->   Hvis du har oprettet mere end én virksomhed i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], skal du eksportere de relevante data fra hver virksomhed.
+>   Hvis du har oprettet mere end én virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du eksportere de relevante data fra hver virksomhed.
 
 ## <a name="see-also"></a>Se også
-[Annullere dit abonnement på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Annullere dit abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
 [Finans](finance.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

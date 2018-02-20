@@ -1,6 +1,6 @@
 ---
 title: "Bruge udvidelsen QuickBooks-overførsel | Microsoft Docs"
-description: Beskriver, hvordan du bruger udvidelsen til at importere debitorer, kreditorer, varer og konti fra QuickBooks Desktop til Dynamics 365 for Financials.
+description: Beskriver, hvordan du bruger udvidelsen til at importere debitorer, kreditorer, varer og konti fra QuickBooks Desktop til Finance and Operations, Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: fdda803b7cc2f93ae4d7353be28282dc60d904d8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14e0aea700bbb46a612d8e462ace22b10faac7e2
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-quickbooks-data-migration-extension-for-dynamics-365-business-edition"></a>Udvidelsen QuickBooks-dataoverførsel til Dynamics 365 Business edition
+# <a name="the-quickbooks-data-migration-extension-for-finance-and-operations-business-edition"></a>Udvidelsen QuickBooks-dataoverførsel til Finance and Operations, Business edition
 Denne udvidelse gør det nemt at overflytte debitorer, kreditorer, varer og konti fra QuickBooks til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis din virksomhed bruger QuickBooks i dag, kan du eksportere de relevante oplysninger og derefter åbne en assisteret opsætningsvejledning for at overføre dataene til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Du kan finde flere oplysninger under [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md).
 

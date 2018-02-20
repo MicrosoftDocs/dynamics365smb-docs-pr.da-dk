@@ -13,13 +13,13 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92331aaa8e7d6aa83c0ec9e8bbbd350d30957cfc
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-depreciation"></a>Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver
+# <a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
  Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md).
 
  Når du har oprettet de relevante afskrivningsprofiler, skal du tildele en eller flere afskrivningsprofiler til hvert anlægsaktiv. En afskrivningsprofil, der er tildelt til et anlægsaktiv, kaldes en anlægsafskrivningsprofil. Derfor kaldes vinduet for tildelte afskrivningsprofiler **Anlægsafskrivningsprofiler**.

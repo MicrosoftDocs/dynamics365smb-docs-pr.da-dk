@@ -15,14 +15,14 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 859647435fe3a418761f67c9067314939c734519
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 654c34bc09967247617bda7be070a9c0ec6f635d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløb
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] indeholder det, du behøver for effektivt at administrere kreditorer.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder det, du behøver for effektivt at administrere kreditorer.  
 
 ## <a name="payments"></a>Udbetaling kladde
 Det er nemt at prioritere betalinger, tage højde for strafgebyrer for forfaldne betalinger og håndtere kontantrabatter for førtidige betalinger.
@@ -32,10 +32,10 @@ Du kan registrere betalinger i en finanskladde og derefter udskrive checks, inde
 Du kan udligne betalinger for at lukke fakturaer, når du bogfører betalingen, eller efter du har bogført betalingen. Feltet **Udligningsmetode**, som er angivet for kreditoren (på **Kreditorkort**), er bestemmende for, om du skal foretage betalingen manuelt, eller om det sker automatisk. Du kan altid udligne transaktioner manuelt. Men hvis udligningsmetoden for kreditor er **Saldo**, og du ikke angiver et dokument som betalingen skal udlignes til, bliver betalingen udlignet til den ældste åbne post for kreditoren.
 
 ## <a name="suggest-vendor-payments"></a>Lav forslag
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan foreslå forskellige betalinger til kreditorer. Det kan f.eks. være betalinger, som snart forfalder, eller som omfatter rabat. Betalingsforslaget kan tage et beløb i betragtning, som du angiver som tilgængelige midler til betaling og berettigelse af kontantrabat.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  kan foreslå forskellige betalinger til kreditorer. Det kan f.eks. være betalinger, som snart forfalder, eller som omfatter rabat. Betalingsforslaget kan tage et beløb i betragtning, som du angiver som tilgængelige midler til betaling og berettigelse af kontantrabat.
 
 ## <a name="issue-checks"></a>Udstede checks
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du udstede checks til kreditorer manuelt og elektronisk. Du kan gøre begge dele i vinduet **Udbetalingskladder**, hvor du kan også annullere checks og se checkposter.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] I  kan du udstede checks til kreditorer manuelt og elektronisk. Du kan gøre begge dele i vinduet **Udbetalingskladder**, hvor du kan også annullere checks og se checkposter.
 
 ## <a name="export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
 Når du er klar til at betale en kreditor fra vinduet **Udbetalingskladde**, kan du eksportere en fil med betalingsoplysningerne fra kladdelinjerne. Derefter kan du overføre filen til din elektroniske bank for at behandle pengeoverførslerne.
@@ -46,7 +46,7 @@ Hvis du venter med at bogføre betalinger, til banken har bekræftet, at den har
 
 * I en betalingskladde med foreslåede betalingslinjer skal du sortere på kolonnen **Eksporteret til betalingsfil** eller kolonnen **Samlet eksporteret beløb** og derefter slette betalingsforslag for åbne fakturaer for betalinger, der allerede er foretaget, og du ikke vil foretage betalinger af.
 
-    **Bemærk** Det være nødvendigt at føje kolonnerne til listen. Du kan finde flere oplysninger under [Brugertilpasning](ui-user-personalization.md).  
+    **Bemærk** Det være nødvendigt at føje kolonnerne til listen. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).  
 * Du kan også i batchjobbet **Lav kreditorbetalingsforslag**, hvor du angiver, hvilke betalinger der indsættes i betalingskladden, angive, at der ikke skal indsættes kladdelinjer for betalinger, der allerede er eksporteret, ved at markere afkrydsningsfeltet **Spring over eksporterede betalinger**.
 
 ## <a name="see-also"></a>Se også

@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06e0de9409fa26d18f051d84b39d021227a55191
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Fremgangsmåde: Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
 Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstrukturen i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge XML-skemaer til at definere, hvilke dataelementer du vil udveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan udføre dette arbejde i vinduet **XML-skemafremviser** ved at indlæse XML-skemafilen, vælge de relevante dataelementer og derefter initialisere enten en dataudvekslingsdefinition eller en XMLport.  
 
  Når du har defineret, hvilke dataelementer der skal medtages, baseret på XML-skemaet, kan du bruge handlingen **Generér XMLport** til at oprette XMLport-objektet.  
 
- Alternativt kan du bruge **Generer dataudvekslingsdefinition** som handling til at initialisere en dataudvekslingsdefinition, der er baseret på de valgte dataelementer, som du derefter udfører inden for rammerne til udveksling af data. Herved oprettes der en post i vinduet **Bogføringsudvekslingsdefinitioner**, hvor du kan fortsætte ved at definere, hvilke elementer i filen, der knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Alternativt kan du bruge **Generer dataudvekslingsdefinition** som handling til at initialisere en dataudvekslingsdefinition, der er baseret på de valgte dataelementer, som du derefter udfører inden for rammerne til udveksling af data. Herved oprettes der en post i vinduet **Bogføringsudvekslingsdefinitioner**, hvor du kan fortsætte ved at definere, hvilke elementer i filen, der knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
  Dette emne indeholder følgende procedurer:  
 
@@ -108,7 +108,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 4.  I vinduet **XML-skemafremviser** under fanen **Startside** skal du i gruppen **Proces** vælge **Generer dataudvekslingsdefinition**.  
 
- Der oprettes en dataudvekslingsdefinition i vinduet **Bogføringsudvekslingsdefinition**, som du kan afslutte ved at angive, hvilke elementer i filen, der skal knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+ Der oprettes en dataudvekslingsdefinition i vinduet **Bogføringsudvekslingsdefinition**, som du kan afslutte ved at angive, hvilke elementer i filen, der skal knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
 >  Du kan også bruge funktionen **Hent filstruktur** i vinduet **Bogføringsudvekslingsdefinition**, som bruger funktionerne i vinduet **XML-skemafremviser** til at udfylde oversigtspanelet **Kolonnedefinitioner**.  
@@ -128,8 +128,8 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 6. Indlæs den nye XMLport til [!INCLUDE[d365fin](includes/d365fin_md.md)]-udviklingsmiljøet, og kompiler den.
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)   
-[Fremgangsmåde: Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)   
+[Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)   
+[Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)   
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
 [Om Data Exchange Framework](across-about-the-data-exchange-framework.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f258a2bf1852b4cc1741a312c78bedfc06b5c11
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Opsætning af Relationsstyring
@@ -31,7 +31,7 @@ En del af virksomhedsoplysningerne er identiske med oplysningerne om de kontaktp
 
 Hvis du ændrer et af disse felter på virksomhedskortet, ændres det tilsvarende felt på kontaktkortet automatisk, medmindre du har ændret feltet på kontaktkortet manuelt.
 
-Du kan finde flere oplysninger under [Fremgangsmåde: Oprette kontaktpersoner](marketing-how-create-contact-persons.md).
+Du kan finde flere oplysninger under [Oprette kontaktpersoner](marketing-how-create-contact-persons.md).
 
 ## <a name="using-predefined-defaults-on-new-contacts"></a>Bruge foruddefinerede standarder på de nye kontakter
 Du kan vælge, at der automatisk skal tildeles bestemte standardværdier for sprogkode, distriktskode, sælgerkode og lande-/områdekode til hver ny kontakt, du opretter. Du kan også angive en standardværdi for salgsproceskode, som automatisk tildeles hvert nyt lead.
@@ -41,7 +41,7 @@ Ved kopieringen af felter overskrives de standardværdier, du har defineret. Hvi
 <!--You can also setup a default salutation that the program automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, the program will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Automatisk registrere interaktioner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan registrere salgs- og købsdokumenter automatisk som interaktioner (for eksempel ordrer, fakturaer, kvitteringer osv.) samt mails, telefonopkald og følgebreve.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  kan registrere salgs- og købsdokumenter automatisk som interaktioner (for eksempel ordrer, fakturaer, kvitteringer osv.) samt mails, telefonopkald og følgebreve.
 
 Du kan finde flere oplysninger i [Automatisk registrere interaktioner med kontakter](marketing-auto-record-interactions.md).
 
@@ -53,7 +53,7 @@ Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer,
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Tildele en nummerserie til kontakter og leads
 Du kan konfigurere en nummerserie til kontakter og leads. Hvis du har oprettet en nummerserie for kontakter, og du opretter en kontakt og trykker på Enter i feltet Nr. på kontaktkortet, kopieres det næste tilgængelig kontaktnummer automatisk.
 
-Du kan finde flere oplysninger om nummerserier under [Fremgangsmåde: Oprette nummerserier](ui-create-number-series.md).
+Du kan finde flere oplysninger om nummerserier under [Oprette nummerserier](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Søge efter dublerede kontakter, når der oprettes kontakter
 Du kan vælge at lade programmet søge automatisk efter dubletter, hver gang du opretter en kontaktvirksomhed, eller du kan vælge at søge manuelt, når du har oprettet kontakten. Du kan også vælge at lade programmet opdatere søgestrenge automatisk, hver gang du har ændret kontaktoplysninger eller oprettet en kontakt. Du kan angive hitprocenten til søgning, dvs. den procentdel identiske strenge som to kontakter skal have, før de betragtes som dubletter.

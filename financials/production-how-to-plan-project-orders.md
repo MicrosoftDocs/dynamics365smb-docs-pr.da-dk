@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 49e3ce0ef80dd54f66565f62616b3b8f2a4aaeaa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 27b2571df137b489a72673251fb5a176bfa771fe
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-project-orders"></a>Fremgangsmåde: Planlægge projektordrer
+# <a name="plan-project-orders"></a>Planlægge projektordrer
 Denne planlægningsopgave starter ud fra en salgsordre og bruger vinduet **Salgsordreplanlægning**. Når du har oprettet en projektproduktionsordre, kan du planlægge den yderligere i vinduet **Ordreplanlægning**.  
 
 ## <a name="to-create-a-project-production-order"></a>Sådan oprettes en projektproduktionsordre  
@@ -36,7 +36,7 @@ Denne planlægningsopgave starter ud fra en salgsordre og bruger vinduet **Salgs
 9. Vælg handlingen **Planlægning**.
 10. Vælg handlingen **Opdater** i vinduet **Ordreplanlægning** for at beregne et nyt behov.  
 
-Produktionsordrens ordrehovedlinje vises med alle uopfyldte behovslinjer udvidet under den. Selvom produktionsordren indeholder linjer for flere produktionsvarer, vises det samlede behov for alle produktionsordrelinjer under én ordrehovedlinje i vinduet **Ordreplanlægning**, og det oprindelige kundenavn vises. Du kan nu fortsætte med at planlægge efter behovet som beskrevet i emnet [Fremgangsmåde: Planlægge efter nyt behov ordre for ordre](production-how-to-plan-for-new-demand.md).  
+Produktionsordrens ordrehovedlinje vises med alle uopfyldte behovslinjer udvidet under den. Selvom produktionsordren indeholder linjer for flere produktionsvarer, vises det samlede behov for alle produktionsordrelinjer under én ordrehovedlinje i vinduet **Ordreplanlægning**, og det oprindelige kundenavn vises. Du kan nu fortsætte med at planlægge efter behovet som beskrevet i emnet [Planlægge efter nyt behov ordre for ordre](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Linjer i projektproduktionsordren, der har behov for **Prod.ordre** i feltet **Genbestillingssystem**, repræsenterer underliggende produktionsordrer. Når du har oprettet disse produktionsordrer, skal der beregnes en plan vinduet **Ordreplanlægning** for at identificere eventuelle ekspederet komponentbehov for dem. I så fald vises de som behovslinjer under en normal produktionsordrehovedlinje, hvilket betyder, at projektrelationen ikke længere er synlig i vinduet. Men hvis du bruger funktionen til ordresporing, kan du derefter se frem og tilbage i alle forsyningsordrer, der er foretaget under den oprindelige salgsordre.  

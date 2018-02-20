@@ -9,32 +9,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 08/08/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e0d7908509879bec6890b9791e420fc90b0026d2
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-purchases"></a>Fremgangsmåde: Registrere køb
+# <a name="record-purchases"></a>Registrere køb
 Du kan oprette en købsfaktura eller købsordre for at registrere omkostningerne ved køb og spore gæld. Hvis du vil styre en lagerbeholdning, benyttes købsfakturaer og købsordrer også til at opdatere lagerniveauer dynamisk, så du kan minimere lageromkostningerne og yde bedre kundeservice. Købsomkostningerne, herunder serviceudgifter og lagerværdier, der stammer fra bogføring af købsfakturaer eller -ordrer, bidrager til avancebeløb og andre finansielle nøgletal i på din startside.
 
 > [!NOTE]  
->   Du skal bruge købsordrer, hvis din købsproces kræver, at du kan registrere delleveringer af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt hos leverandøren. Hvis du sælger varer ved at levere direkte fra leverandøren til kunden som en direkte levering, skal du også bruge købsordrer. Du kan finde flere oplysninger i [Fremgangsmåde: Foretage direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer købsordrer på samme måde som købsfakturaer. Følgende procedure er baseret på en købsfaktura. Fremgangsmåden er den samme for en købsordre.
+>   Du skal bruge købsordrer, hvis din købsproces kræver, at du kan registrere delleveringer af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt hos leverandøren. Hvis du sælger varer ved at levere direkte fra leverandøren til kunden som en direkte levering, skal du også bruge købsordrer. Du kan finde flere oplysninger i [Foretage direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer købsordrer på samme måde som købsfakturaer. Følgende procedure er baseret på en købsfaktura. Fremgangsmåden er den samme for en købsordre.
 
 Når du modtager lagervarerne, eller når den købte service er fuldført, skal du bogføre købsfakturaen eller -ordren for at opdatere lager- og finansrecords og aktivere betaling til kreditor i henhold til betalingsbetingelserne. Du kan finde flere oplysninger under [Foretage betalinger](payables-make-payments.md).
 
 > [!CAUTION]  
 >   Bogfør ikke en købsfaktura, før du modtager varerne og kender de endelige omkostninger for købet, herunder eventuelle yderligere udgifter. Ellers kan din lagerværdi og avancetal blive skævt.
 
-Du kan nemt rette eller annullere en bogført købsfaktura, før du betaler kreditoren. Dette er nyttigt, hvis du vil rette en skrivefejl, eller hvis du ønsker at ændre købet tidligt i ordreprocessen. Du kan finde flere oplysninger under [Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Hvis du allerede har betalt for varer på den bogførte købsfaktura, skal du oprette en købskreditnota for at tilbageføre købet. Du kan finde flere oplysninger i [Fremgangsmåde: Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
+Du kan nemt rette eller annullere en bogført købsfaktura, før du betaler kreditoren. Dette er nyttigt, hvis du vil rette en skrivefejl, eller hvis du ønsker at ændre købet tidligt i ordreprocessen. Du kan finde flere oplysninger under [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Hvis du allerede har betalt for varer på den bogførte købsfaktura, skal du oprette en købskreditnota for at tilbageføre købet. Du kan finde flere oplysninger i [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
 
-Varer kan være af typen **Lager** eller **Service**. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md). Købsfakturaproceduren er den samme for begge varetyper.
-
-> [!NOTE]  
->   Købsordrefunktioner kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+Varer kan være af typen **Lager** eller **Service**. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md). Købsfakturaproceduren er den samme for begge varetyper.
 
 Du kan udfylde kreditorfelter i købsfakturaen på to måder, afhængigt af om debitoren er registreret.
 
@@ -47,7 +44,7 @@ Du kan udfylde kreditorfelter i købsfakturaen på to måder, afhængigt af om d
 4. I dialogboksen, hvor du registrerer den nye kreditor, skal du trykke på knappen **Ja**.
 5. I vinduet **Vælg en skabelon til en ny kreditor** skal du vælge en skabelon, som det nye kreditorkort skal baseres på, og derefter vælge knappen **OK**.
 6. Et nyt kreditorkort åbnes, udfyldt med oplysninger om den valgte kreditorskabelon. Feltet **Navn** udfyldes på forhånd med den nye kreditors navn, som du har angivet på købsfakturaen.
-7. Fortsæt med at udfylde resten af felterne på kreditorkortet. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md).  
+7. Fortsæt med at udfylde resten af felterne på kreditorkortet. Du kan finde flere oplysninger i [Registrere nye kreditorer](purchasing-how-register-new-vendors.md).  
 8. Når du er færdig med kreditorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Købsfaktura**.
 
     Flere felter i vinduet **Købsfaktura** udfyldes med de oplysninger, som du angav på det nye kreditorkort.
@@ -77,9 +74,9 @@ Købet afspejles nu i lager- og finansrecords, og kreditorbetalingen aktiveres. 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
-[Fremgangsmåde: Anmode om tilbud](purchasing-how-request-quotes.md)  
-[Fremgangsmåde: Købe varer til et salg](purchasing-how-purchase-products-sale.md)  
-[Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
-[Fremgangsmåde: Forberede direkte leveringer](sales-how-drop-shipment.md)  
+[Anmode om tilbud](purchasing-how-request-quotes.md)  
+[Købe varer til et salg](purchasing-how-purchase-products-sale.md)  
+[Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
+[Forberede direkte leveringer](sales-how-drop-shipment.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

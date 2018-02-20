@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 694affae6dfe3015fdc73bf9e2d9dfe3357dfae7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 40f8d00c8ee064fdee4b676e4863279ec9e50d6d
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Oprette forbindelse til dine Financials-data for at oprette en forretningsapp ved hjælp af PowerApps
@@ -32,7 +32,7 @@ Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige
 
    PowerApps Studio til Windows er et skrivebordsprogram, der bruges til at oprette og publicere PowerApps. PowerApps Studio til web er onlineløsningen, der bruges til at oprette og publicere PowerApps.
 4. Næste trin til oprettelse af en PowerApp er at vælge dataene. Vælg ikonet med pilen, og vælg derefter indstillingen **Ny forbindelse** øverst til venstre side på siden.
-5. Vælg **Dynamics 365 Business edition** på listen over tilgængelige forbindelser.
+5. På listen over tilgængelige forbindelser skal du vælge **Dynamics 365 for Finance and Operations, Business edition**.
 6. PowerApps viser en forbindelsesside, hvor du bliver bedt om de oplysninger, der kræves for at oprette forbindelse til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Hvis du vil oprette forbindelse, skal du angive en OData URL-adresse, brugernavn, adgangskode og firmanavn.
 
    For *OData URL-adressen* kan du kopiere OData V4 URL-adressen på en af de webtjenester, der er angivet på siden **Webtjeneste** i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  
@@ -51,7 +51,7 @@ Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige
    > [!NOTE]  
 >    Når du har oprettet forbindelse til [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du ikke igen spurgt om OData URL-adresse, brugernavn og adgangskode.
 
-Nu har du oprettet forbindelse til dine Dynamics 365-data og er klar til at opbygge din PowerApp. Du kan finde flere oplysninger i [PowerApps-dokumentationen](https://powerapps.microsoft.com/tutorials/getting-started/).
+Nu har du oprettet forbindelse til dine data i Finance and Operations, Business edition og er klar til at opbygge din PowerApp. Du kan finde flere oplysninger i [PowerApps-dokumentationen](https://powerapps.microsoft.com/tutorials/getting-started/).
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

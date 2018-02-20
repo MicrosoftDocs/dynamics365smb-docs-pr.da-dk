@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b91925a7ec6adb40cdf99d5bcf3398b62c28b3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 89db93227222d79e535f2d18400330aa30566f2f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-blanket-sales-orders"></a>Fremgangsmåde: Arbejde med rammesalgsordrer
+# <a name="work-with-blanket-sales-orders"></a>Arbejde med rammesalgsordrer
 En rammesalgsordre udgør rammen om en langsigtet aftale mellem dig og en kunde.
 
 Der indgås ofte en rammeaftale, hvor en kunde har forpligtet sig til at købe et stort antal varer, der skal leveres i flere mindre portioner i løbet af en bestemt periode. En rammeordre omfatter ofte kun en enkelt vare med leveringsdatoer, der er fastsat på forhånd. Den væsentligste årsag til at bruge en rammeordre i stedet for en salgsordre er, at de antal, der angives i en rammeordre, ikke påvirker varedisponeringen, og at oplysningerne dermed kan bruges til overvågnings-, prognose- og planlægningsformål.

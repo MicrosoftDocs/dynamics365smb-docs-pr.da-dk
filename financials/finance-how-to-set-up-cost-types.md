@@ -13,13 +13,13 @@ ms.search.keywords: cost types, general ledger, accounts
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7598dbfbedf8faf7a80ac52469c2edcc4e2c1c66
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 945a60af52eec7fb4f00842acdac42472d735a12
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cost-types"></a>Sådan defineres omkostningstyper
+# <a name="set-up-cost-types"></a>Oprette omkostningstyper
 Diagrammet over omkostningstyper ligner kontoplanen i finansregnskabet. Du kan angive diagrammet over omkostningstyper på følgende måder:  
 
 -   Strukturen af diagrammet over omkostningstyper ligner resultatopgørelseskontiene i finanskontoplanen. Herefter kan du overføre finanskontoplanen til diagrammet over omkostningstyper. Du kan foretage de nødvendige justeringer efter overførslen.  

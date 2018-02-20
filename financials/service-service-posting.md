@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Bogføring af tjenesten
@@ -23,7 +23,7 @@ Servicebogføringsfunktionen gør det muligt at behandle dokumenter effektivt og
 > [!NOTE]  
 >  Nedenfor beskrives servicepostering, uanset hvordan varerne fysisk håndteres på lageret.  
 >   
->  På en placering, der ikke er konfigureret til at kræve lagerekspedition, skal du udføre bogføringsprocesserne direkte fra vinduet **Servicelinjer**. På lokationer, der involverer lagerekspedition, udføres de beskrevne bogføringsprocesser, undtagen Send og forbrug, indirekte via forskellige lagerleverancefunktioner afhængigt af konfuguration. Du kan finde flere oplysninger i [Sådan plukkes varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  På en placering, der ikke er konfigureret til at kræve lagerekspedition, skal du udføre bogføringsprocesserne direkte fra vinduet **Servicelinjer**. På lokationer, der involverer lagerekspedition, udføres de beskrevne bogføringsprocesser, undtagen Send og forbrug, indirekte via forskellige lagerleverancefunktioner afhængigt af konfuguration. Du kan finde flere oplysninger i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Lever  
 Med leveringsindstillingen kan du registrere relevante varer og den tid, der er angivet på linjerne i en serviceordre, når du har afsluttet servicen. Der oprettes en bogført leverance, og modulet Lagerbeholdning og andre moduler i [!INCLUDE[d365fin](includes/d365fin_md.md)] opdateres, så det afspejles, at varerne er taget ud af lageret og sendt til kunden. Der oprettes specielt vareposter, værdiposter, serviceposter og garantiposter.  
@@ -56,6 +56,6 @@ I følgende procedure bruges en bogført servicefaktura som eksempel, men der ka
     Vinduet **Serviceordrestatistik** åbnes. I vinduet vises der oplysninger som antal, beløb, moms, omkostninger, avance og kundekreditmaksimum for det bogførte dokument.
 
 ## <a name="see-also"></a>Se også  
-[Sådan gør du: Bogføre serviceordrer](service-how-to-post-service-orders.md)   
-[Fremgangsmåde: Oprette serviceordrer](service-how-to-create-service-orders.md)
+[Postere serviceordrer](service-how-to-post-service-orders.md)   
+[Oprette serviceordrer](service-how-to-create-service-orders.md)
 

@@ -13,13 +13,13 @@ ms.search.keywords: print check, customize
 ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd745186e4518c2005e34e6b2cbbc8925fd8931e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-define-check-layouts"></a>Fremgangsmåde: Definere checklayout
+# <a name="define-check-layouts"></a>Definere checklayout
 Du kan udforme dine checks i overensstemmelse med de lokale myndigheders standarder. Checkbilleder kan udskrives på engelsk, fransk eller spansk.
 
 Checks er designet til udskrivning i amerikanske og canadiske checkbilledformater i et checkfølgebrevformat eller et følgebrev-følgebrevcheckformat.
@@ -35,7 +35,7 @@ Checks er designet til udskrivning i amerikanske og canadiske checkbilledformate
 | 10401 |Check (følgebrev/følgebrev/check) |Denne rapport er designet til at udskrive check i et følgebrev/følgebrev/check-format. |
 | 10411 |Check (følgebrev/check/følgebrev) |Denne rapport er designet til at udskrive check i et check/følgebrev/check-format. |
 
-Når du har oprettet checklayout, kan du udskrive check i vinduet **Udbetalingskladde**. Du kan finde flere oplysninger i [Fremgangsmåde: Arbejde med checks](payables-how-work-checks.md).
+Når du har oprettet checklayout, kan du udskrive check i vinduet **Udbetalingskladde**. Du kan finde flere oplysninger i [Arbejde med checks](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Se også
 [Administrere skyldige beløb](payables-manage-payables.md)  

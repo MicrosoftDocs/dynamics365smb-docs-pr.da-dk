@@ -1,6 +1,6 @@
 ---
 title: Tildele og administrere opgaver | Microsoft Docs
-description: "Få at vide, hvordan du kan tildele opgaver til brugere, herunder din revisor i Dynamics 365 Business edition"
+description: "Få at vide, hvordan du kan tildele opgaver til brugere, herunder din revisor i Finance and Operations, Business edition"
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: tasks, work
 ms.date: 08/24/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 520c0b169eb9c5f24cbf8b42096c731d77acd7de
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 821a41b6c3396f57a4560fa7e915a757ce81149a
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="defining-user-tasks"></a>Definere brugeropgaver

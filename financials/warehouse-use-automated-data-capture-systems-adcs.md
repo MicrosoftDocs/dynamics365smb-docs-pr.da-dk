@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3249ed4b8bc50f7cbc577d5dc01b03029b4c06c3
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Fremgangsmåde: Aktivere ADCS (Automated Data Capture Systems)
+# <a name="enable-automated-data-capture-systems-adcs"></a>Aktivere ADCS (Automated Data Capture Systems)
 Du kan bruge ADCS-systemet (Automatic Data Capture System) til at registrere varebevægelser på lagerstedet og registrere bestemte kladdeaktiviteter, bl.a. regulering af vareantal på lagerkladden og lageropgørelser.  
 
 Hvis du vil bruge ADCS, skal du give hver enkelt vare, der er gemt i lageret, et vare-id. Du skal også konfigurere miniformularer, funktioner til håndholdt, dataudvekslinger og angive indstillinger for felter, der styrer ADCS. Du angiver, om du vil bruge ADCS på lokationskortet for et lagersted.
@@ -56,7 +56,7 @@ Hver vare på lager, du vil bruge sammen med ADCS, skal tildeles en id-kode, som
 8.  For at få vist oplysningerne skal du vælge feltet **Id-kode** for at åbne vinduet **Vare-id'er**.
 
 ## <a name="to-add-an-adcs-user"></a>Sådan tilføjes en ADCS-bruger  
-Du kan tilføje enhver bruger som ADCS-bruger (Automated Data Capture System). Når du gør dette, skal brugeren også angive en adgangskode. Du kan eventuelt også angive en forbindelse, der identificerer ADCS-brugeren som lagermedarbejder. ADCS-brugeradgangskoden kan være forskellig fra Windows-logonadgangskoden for brugeren. Du kan finde flere oplysninger i [Fremgangsmåde: Administrere brugere og rettigheder](ui-how-users-permissions.md).
+Du kan tilføje enhver bruger som ADCS-bruger (Automated Data Capture System). Når du gør dette, skal brugeren også angive en adgangskode. Du kan eventuelt også angive en forbindelse, der identificerer ADCS-brugeren som lagermedarbejder. ADCS-brugeradgangskoden kan være forskellig fra Windows-logonadgangskoden for brugeren. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).
 
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **ADCS-brugere**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -65,7 +65,7 @@ Du kan tilføje enhver bruger som ADCS-bruger (Automated Data Capture System). N
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Sådan angiver du, at en lagermedarbejder er ADCS-bruger  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
-2.  Hvis det er nødvendigt, kan du tilføje en ny lagermedarbejder. Du kan finde flere oplysninger i [Sådan defineres lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).  
+2.  Hvis det er nødvendigt, kan du tilføje en ny lagermedarbejder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Vælg handlingen **Rediger liste**.  
 4.  Vælg en lagermedarbejder på listen. I feltet **ADCS-bruger** skal du vælge rullepilen og derefter vælge navnet på en ADCS-bruger på listen.  
 

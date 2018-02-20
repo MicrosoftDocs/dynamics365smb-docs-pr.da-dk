@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b4f49d7d103bebeb6512d825a68c5941c8835214
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6151889b4c002fd6e72dbf0a9f5585f039509bbb
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="sales-and-inventory-forecast-for-dynamics-365-business-edition"></a>Salgs- og lagerprognose for Dynamics 365 Business edition 
+# <a name="sales-and-inventory-forecast-for-finance-and-operations-business-edition"></a>Salgs- og lagerprognose til Finance and Operations, Business edition 
 Lagerstyring håndterer balancen mellem kundeservice og styring af omkostningerne. På én side kræver et lille lager mindre driftskapital, men på den anden side kan manglende lager medføre tabt salg. Udvidelsen Salgs- og lagerprognose forudsiger muligt salg ved hjælp af historiske data og giver et klart overblik over forbruget af lageret. Baseret på prognosen hjælper udvidelsen med at oprette genbestillingsanmodninger til dine leverandører og sparer tid.  
 
 ## <a name="setting-up-forecasting"></a>Konfigurere prognose

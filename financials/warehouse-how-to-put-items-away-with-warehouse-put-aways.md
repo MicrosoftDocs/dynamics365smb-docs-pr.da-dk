@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 28ff0073c75136f31153327a70a8f7c0bb9176aa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ccc452db91f7c227e052f60d50f8cc0fdf46fd0
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-warehouse-put-aways"></a>Fremgangsmåde: Lægge varer på lager med Læg-på-lager (lager)
+# <a name="put-items-away-with-warehouse-put-aways"></a>Lægge varer på lager med Læg-på-lager (logistik)
 Hvis lokationen kræver læg-på-lager (logistik) og lagermodtagelse, skal du bruge funktionen læg-på-lager-dokumenterne til at styre, hvordan varer lægges på lager.  
 
 Når du bogfører en lagermodtagelse, opdateres kildedokumenterne, f.eks. købsordre, indgående overflytningsordre eller salgsreturvareordre, det modtagne antal bogføres på varekladden og linjerne vedrørende de modtagende varer sendes til lagerstedets læg-på-lager-funktion. Hvis du har interne læg-på-lager og pluk, kan den interne læg-på-lager også oprette linjer for læg-på-lager.  
 
-Afhængigt af logistikopsætningen bliver linjerne enten tilgængelige for læg-på-lager-kladden, eller der oprettes læg-på-lager-instruktioner straks. Du kan finde flere oplysninger i [Fremgangsmåde: Planlægge læg-på-lager-aktiviteter i kladder](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+Afhængigt af logistikopsætningen bliver linjerne enten tilgængelige for læg-på-lager-kladden, eller der oprettes læg-på-lager-instruktioner straks. Du kan finde flere oplysninger i [Planlægge læg-på-lager-aktiviteter i kladder](warehouse-how-to-plan-put-aways-in-worksheets.md).  
 
 Foruden de almindelige måder at oprette lagerets læg-på-lager, der er beskrevet i dette emne, kan du oprette læg-på-lager fra den relaterede bogførte lagermodtagelse. Dette er nyttigt, hvis du har slettet læg-på-lager-linjer, eller hvis du bruger styret læg-på-lager og pluk og har besluttet dig til ikke at bruge læg-på-lager-kladden, fordi du kan oprette eller genoprette læg-på-lager-vejledninger fra de bogførte købsleverancelinjer.  
 
@@ -56,7 +56,7 @@ Foruden de almindelige måder at oprette lagerets læg-på-lager, der er beskrev
 
 På lokationer, der er konfigureret til at bruge styret læg-på-lager og pluk, er følgende indstillinger forudsætninger for ovenstående fremgangsmåde:  
 
-- Der oprettes en læg-på-lager-skabelon. Du kan finde flere oplysninger i [Sådan oprettes læg-på-lager-skabeloner](warehouse-how-to-set-up-put-away-templates.md).  
+- Der oprettes en læg-på-lager-skabelon. Du kan finde flere oplysninger i [Definere læg på lager-skabeloner](warehouse-how-to-set-up-put-away-templates.md).  
 - Varens eller lagervarens vægt, rummål og andre særlige forudsætninger defineres. Du kan også finde flere oplysninger i Bruttovægt.  
 - Placeringernes kapacitet, type og niveau. Du kan finde flere oplysninger i Placeringsniveau.  
 

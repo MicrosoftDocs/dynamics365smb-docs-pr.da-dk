@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: bd25ed0204ee0e96e258974dc03d29aea44b67e6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-production-order-posting"></a>Designoplysninger: Bogføring af produktionsordre
@@ -81,7 +81,7 @@ Du kan finde flere oplysninger om, hvordan omkostninger fra produktion og montag
 ## <a name="capacity-posting"></a>Bogføring af kapacitet  
 Bogføring af afgang fra den sidste produktionsordrerutelinje resulterer i en kapacitetsfinanspost for færdigvaren, i tillæg til dens lagerforøgelse.  
 
- Kapacitetsposten er en post over den tid, der er brugt til at producere varen. Den relaterede værdipost beskrives i VIA-lagerværdien, som er værdien af konverteringsomkostningerne. Du kan finde flere oplysninger i "Fra kapacitetsposten" i [Designoplysninger: Kontoer i Finans](design-details-accounts-in-the-general-ledger.md).  
+ Kapacitetsposten er en post over den tid, der er brugt til at producere varen. Den relaterede værdipost beskrives i VIA-lagerværdien, som er værdien af konverteringsomkostningerne. Du kan finde flere oplysninger i "Fra kapacitetsposten" i [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
 ## <a name="production-order-costing"></a>Produktionsordrekostmetode  
  Med henblik på at kontrollere lager- og produktionsomkostninger skal en produktionsvirksomhed måle omkostningerne for produktionsordrer, da de standardomkostninger, der er fastsat på forhånd for hver produceret vare, kapitaliseres i balancen. Hvis du ønsker oplysninger om, hvorfor producerede varer bruger kostmetoden Standard, kan du se [Designoplysninger: Kostmetoder](design-details-costing-methods.md).  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e6b691eae1663cdc93d851f531306c472291484
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c942b0e0dcdc025fdeca6373fe30b485a147ad2
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-inventory-costing"></a>Om lagerkostmetode
@@ -36,8 +36,8 @@ Administration af lagerkostmetoder vedrører registrering og rapportering af vir
 |Forstå omkostningsreguleringsmekanismen, som sikrer, at omkostningerne sendes videre, selvom lagertransaktioner forekommer med uregelmæssige mellemrum.|[Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)|  
 |Læse om årsagen til, at standardomkostninger ofte bruges af produktionsvirksomheder som værdigrundlag for komponenter og varer.|[Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)|  
 |Forstå, hvordan værdien af lageret afspejles i finansposterne.|[Rapportere omkostninger og afstemme med regnskabet](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
-|Lære, hvordan varegebyrer, f.eks. for fragt og forsikring, kan føje ekstra omkostningskomponenter til en vares enhedspris.|[Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)|  
-|Læse, hvordan lagerperioder hjælper en virksomhed med at styre lagerværdi over tid, hvis der defineres kortere perioder, hvor der kan være lukket for bogføringer, efterhånden som regnskabsåret skrider frem.|[Sådan gør du: Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
+|Lære, hvordan varegebyrer, f.eks. for fragt og forsikring, kan føje ekstra omkostningskomponenter til en vares enhedspris.|[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)|  
+|Læse, hvordan lagerperioder hjælper en virksomhed med at styre lagerværdi over tid, hvis der defineres kortere perioder, hvor der kan være lukket for bogføringer, efterhånden som regnskabsåret skrider frem.|[Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Forstå alle mekanismerne i prisberegningsprogrammet, herunder hvad der sker, når du bogfører montage og produktionstransaktioner.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|
 
 ## <a name="see-also"></a>Se også

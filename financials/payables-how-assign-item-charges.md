@@ -13,13 +13,13 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a97f56eeeb61aa94485dc4ec73f19a01e21e055a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-item-charges-to-account-for-additional-trade-costs"></a>Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruge varegebyrer til at angive ekstra handelsomkostninger
 For at sikre korrekt værdiansættelse, skal dine lagervarer pålægges evt. ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer. Ved køb består hjemtagelsesprisen for en indkøbt vare af købsprisen til leverandøren og alle ekstra, direkte varegebyrer, som det er muligt at tildele til individuelle leverancer eller returvareleverancer. Ved salg kan det være lige så vigtigt at kende omkostningerne ved forsendelse af solgte varer som at kende omkostningen ved levering af købte varer.
 
 Ud over at registrere ekstra omkostninger i lagerværdien kan du bruge funktionen Varegebyrer til følgende:
@@ -48,7 +48,7 @@ Varegebyrnumre bruges til at skelne mellem de forskellige typer varegebyrer, som
 Hvis du kender varegebyret på det tidspunkt, hvor du bogfører en købsfaktura for varen, skal du følge nedenstående procedure.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
-2. Opret en ny købsfaktura. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md).
+2. Opret en ny købsfaktura. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 3. Kontroller, at købsfakturaen har en eller flere linjer af typen vare.
 4. På en ny linje skal du vælge **Gebyr (Vare)** i feltet **Type**.
 5. Angiv enheder af varegebyret, som du er blevet faktureret for, i feltet **Antal**.
@@ -78,7 +78,7 @@ Omkostningen ved varegebyret på den separate købsfaktura er nu tildelt til var
 
 ## <a name="see-also"></a>Se også
 [Administrere skyldige beløb](payables-manage-payables.md)  
-[Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md)  
-[Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md)  
+[Registrere køb](purchasing-how-record-purchases.md)  
+[Fakturere salg](sales-how-invoice-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

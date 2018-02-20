@@ -13,13 +13,13 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bc1c89b87426b72ce4f9522cb7f0dc31c77acad1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7402899cb7fe369503eee1b451dc652180e96264
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-mailing-groups-for-contacts"></a>Fremgangsmåde: Oprette mailgrupper til kontakter
+# <a name="set-up-mailing-groups-for-contacts"></a>Oprette mailgrupper til kontakter
 Du kan bruge mailgrupper til at angive grupper af kontakter, som skal modtage de samme oplysninger. F.eks. kan du oprette en mailgruppe til de kontakter, du vil sende en meddelelse til om at skifte kontor, og en anden gruppe om at sende gaver til andre kontakter.
 
 Brug af mailgrupper til kontakter er en totrinsproces. Først skal du definere mailgruppekoden. Du behøver kun at udføre dette trin én gang for hver mailgruppe. Når du har en mailgruppekode, kan du begynde at tildele koden til kontaktvirksomheder.
@@ -39,7 +39,7 @@ Gentag disse trin for hver mailgruppe, du vil tildele. Du kan også tildele mail
 
 Det antal mailgrupper, du har tildelt kontakten, vises i feltet **Antal mailgrupper** i sektionen **Segmentering** i vinduet **Kontakt**.
 
-Når du har tildelt mailgrupper til kontakter, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
+Når du har tildelt mailgrupper til kontakter, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  

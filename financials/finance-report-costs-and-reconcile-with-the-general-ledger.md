@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c3a02aa2251b9b6b18576e9f274d018a617b179
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45afc7249e921b483d9fcb6860401528746f554a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportere omkostninger og afstemme med regnskabet
@@ -30,9 +30,9 @@ Ved afslutningen af regnskabsperioder, hvad enten de er månedlige, årlige elle
 |Have vist lagerværdien for valgte produktionsordrer i lageret for igangværende arbejde (VIA), f.eks. antal og værdi af forbrug, kapacitetsudnyttelse og output i igangværende produktionsordrer.|**Lagerværdi – igangværende arbejde**, rapport|  
 |Have vist lagerværdien af valgte varer, herunder deres faktiske og forventede kostpris på den angivne dato.|**Lagerværdi – kostspecifikation**, rapport|  
 |Bruge en rapport til at analysere årsagerne til kostprisuoverensstemmelser eller få indsigt i vareforbruget for solgte varer.|**Grundlag for kostprisfordeling**, rapport|  
-|Periodisk bogføre værdiposterne for varetransaktioner fra lagerposter til relaterede finansposter for at afstemme de to posttyper.|[Fremgangsmåde: Afstem lagerværdier med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Bruge ét vindue til at revidere afstemningen mellem lagerposterne og finansposterne.|[Fremgangsmåde: Afstem lagerværdier med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Fastlægge det VIA-beløb, der skal bogføres til balancekonti ved periodeafslutningsrapportering.|[Fremgangsmåde: Overvåge status for og udførelse af en sag](projects-how-monitor-progress-performance.md)|
+|Periodisk bogføre værdiposterne for varetransaktioner fra lagerposter til relaterede finansposter for at afstemme de to posttyper.|[Afstemme lagerværdier med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Bruge ét vindue til at revidere afstemningen mellem lagerposterne og finansposterne.|[Afstemme lagerværdier med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Fastlægge det VIA-beløb, der skal bogføres til balancekonti ved periodeafslutningsrapportering.|[Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Se også  
 [Opsætte lagerværdi og kostprisberegning](finance-set-up-inventory-valuation-and-costing.md)  

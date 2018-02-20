@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 6a524d65f3994ae882f9addd58c9c144defa7913
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c575896fdbeb097cd1bb11bd28cb71c798331cd6
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-electronic-documents-by-using-oioubl"></a>Fremgangsmåde: Oprette elektroniske dokumenter ved hjælp af OIOUBL
-Når du sælger varer eller tjenesteydelser til en kunde i den offentlige sektor, skal du sende dokumenter elektronisk. I [!INCLUDE[d365fin](../../includes/d365fin_md.md)], kan du oprette elektroniske dokumenter til fakturaer, kreditnotaer, rykkere og rentenotaer. Før du kan oprette elektroniske dokumenter, skal du have angivet filplaceringer og oplysninger om kunderne. Du kan få flere oplysninger i [Fremgangsmåde: Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md).  
+# <a name="create-electronic-documents-by-using-oioubl"></a>Oprette elektroniske dokumenter ved hjælp af OIOUBL
+Når du sælger varer eller tjenesteydelser til en kunde i den offentlige sektor, skal du sende dokumenter elektronisk. I [!INCLUDE[d365fin](../../includes/d365fin_md.md)], kan du oprette elektroniske dokumenter til fakturaer, kreditnotaer, rykkere og rentenotaer. Før du kan oprette elektroniske dokumenter, skal du have angivet filplaceringer og oplysninger om kunderne. Du kan få flere oplysninger i [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md).  
 
 ## <a name="creating-electronic-documents"></a>Oprettelse af elektroniske dokumenter  
 Elektroniske dokumenter kan kun oprettes, når et dokument er bogført eller udstedt. I følgende afsnit beskrives, hvordan du bogfører en salgsfaktura med de nødvendige oplysninger og derefter opretter en elektronisk salgsfaktura, men samme fremgangsmåde gælder for salgskreditnotaer, rykkere, rentenotaer, servicefakturaer og servicekreditnotaer.  
@@ -57,7 +57,7 @@ En XML-fil oprettes og gemmes på den lokation, som er defineret i vinduet **Sal
 
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
- [Fremgangsmåde: Konfigurere OIOUBL](how-to-set-up-oioubl.md)   
- [Fremgangsmåde: Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md)   
+ [Konfigurere OIOUBL](how-to-set-up-oioubl.md)   
+ [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md)   
  [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md)
 

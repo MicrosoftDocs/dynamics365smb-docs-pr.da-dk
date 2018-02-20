@@ -1,6 +1,6 @@
 ---
 title: "Behandle indgående bilag | Microsoft Docs"
-description: "Når du vil registrere et eksternt bilag, f.eks. en PDF-fil, i Dynamics 365 Business edition, skal du først oprette eller fuldføre en indgående bilagsrecord."
+description: "Når du vil registrere et eksternt bilag, f.eks. en PDF-fil, i Finance and Operations, Business edition, skal du først oprette eller fuldføre en indgående bilagsrecord."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f4dbb1ecca41861b6afa9371ebe2348eef8fcc0a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9534c847352f8b46aac461c672cd3fe70b5e4ca1
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="processing-incoming-documents"></a>Behandle indgående bilag
@@ -26,11 +26,11 @@ Fra PDF-filer eller billedfiler, som du modtager fra dine handelspartnere, kan d
 
 | Hvis du vil | Se |
 | --- | --- |
-| Opret indgående dokumentposter manuelt eller automatisk ved at tage et billede af en papirkvittering, f.eks. |[Fremgangsmåde: Oprette indgående dokumentposter](across-how-create-income-document-records.md) |
-| Bruge en OCR-tjeneste til at konvertere PDF- og billedfiler til elektroniske dokumenter, der igen kan konverteres til købsfakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)] f.eks. Lær OCR-tjenesten at undgå fejl, næste gang lignende data behandles. |[Fremgangsmåde: Bruge OCR til at gøre PDF og filer til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md) |
-| Forbinde eller fjerne indgående dokumentposter for ikke-bogførte salgs- eller købsdokumenter og med enhver debitor-, kreditor- eller finanspost fra dokumentet eller posten. |[Fremgangsmåde: Oprette indgående dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md) |
-| Fra vinduerne **Kontoplan** og **Finansposter** skal du bruge en søgefunktionen til at finde finansposter for bogførte dokumenter, som ikke har indgående dokument poster og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede dokument filer. |[Fremgangsmåde: Finde bogførte dokumenter uden indgående dokumentposter](across-how-find-posted-documents-without-income-document-records.md) |
-| Få et større overblik ved at indstille indgående dokumentposter til Behandlet for at fjerne dem fra standardvisningen. |[Fremgangsmåde: Administrere mange indgående dokumentposter](across-how-manage-many-income-document-records.md) |
+| Opret indgående dokumentposter manuelt eller automatisk ved at tage et billede af en papirkvittering, f.eks. |[Oprette indgående dokumentposter](across-how-create-income-document-records.md) |
+| Bruge en OCR-tjeneste til at konvertere PDF- og billedfiler til elektroniske dokumenter, der igen kan konverteres til købsfakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)] f.eks. Lær OCR-tjenesten at undgå fejl, næste gang lignende data behandles. |[Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md) |
+| Forbinde eller fjerne indgående dokumentposter for ikke-bogførte salgs- eller købsdokumenter og med enhver debitor-, kreditor- eller finanspost fra dokumentet eller posten. |[Oprette indgående dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md) |
+| Fra vinduerne **Kontoplan** og **Finansposter** skal du bruge en søgefunktionen til at finde finansposter for bogførte dokumenter, som ikke har indgående dokument poster og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede dokument filer. |[Finde bogførte dokumenter uden indgående dokumentposter](across-how-find-posted-documents-without-income-document-records.md) |
+| Få et større overblik ved at indstille indgående dokumentposter til Behandlet for at fjerne dem fra standardvisningen. |[Administrere mange indgående dokumentposter](across-how-manage-many-income-document-records.md) |
 
 ## <a name="see-also"></a>Se også
 [Indgående bilag](across-income-documents.md)  

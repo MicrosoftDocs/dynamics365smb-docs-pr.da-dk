@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4e8bc9e8b99db8afda83edb4aff13f5daf9f5a31
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c5cb056c7287f4c12b84dcece595a8e97c0a6214
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="date-calculation-for-sales"></a>Beregning af forfaldsdato for salg
-[!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk den tidligst mulige dato, som en vare eller en salgsordrelinje kan sendes på.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  beregner automatisk den tidligst mulige dato, som en vare eller en salgsordrelinje kan sendes på.
 
 Hvis debitoren har anmodet om en bestemt leveringsdato, beregnes den dato, hvor varen skal være disponibel til pluk automatisk for at leveringen kan gennemføres rettidigt.
 
@@ -45,6 +45,6 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 
 ## <a name="see-also"></a>Se også  
  [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)   
- [Sådan beregnes ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
+ [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

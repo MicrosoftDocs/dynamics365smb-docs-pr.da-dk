@@ -1,6 +1,6 @@
 ---
 title: Arbejde med finansielle oversigter i Excel | Microsoft Docs
-description: "Få mere at vide om, hvordan du kan åbne regnskabsopgørelser i Microsoft Excel fra Dynamics 365 Business edition for bedre analyse."
+description: "Få mere at vide om, hvordan du kan åbne regnskabsopgørelser i Microsoft Excel fra Finance and Operations, Business edition for bedre analyse."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, financial report
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e58d412b9fb182a8a8f640593f78decf0e6aecc1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 23ac4cc6df1841c1cd37159b98e71d063a3c8f9d
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysere regnskaber i Microsoft Excel
@@ -45,5 +45,5 @@ Med tilføjelsesprogrammet kan du få nye data fra [!INCLUDE[d365fin](includes/d
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
-[Arbejde med Dynamics 365](ui-work-product.md)  
+[Arbejde med Finance and Operations, Business edition](ui-work-product.md)  
 

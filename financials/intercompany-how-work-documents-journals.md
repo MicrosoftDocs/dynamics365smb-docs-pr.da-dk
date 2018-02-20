@@ -13,13 +13,13 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: eeb070e1431d55248a762b444c2298281b0a5101
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 98e0d9012dfdd998431aaed8dade02f592af47c8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-intercompany-documents-and-journals"></a>Fremgangsmåde: Arbejde med koncerninterne dokumenter og kladder
+# <a name="work-with-intercompany-documents-and-journals"></a>Arbejde med koncerninterne dokumenter og kladder
 Du bruger koncerninterne dokumenter eller kladder til at bogføre transaktioner med koncerninterne partnere. Når du bogfører et koncerninternt dokument eller koncernintern kladde i regnskabet, oprettes der et tilsvarende dokument eller en tilsvarende kladde i din koncerninterne udbakke, som du kan overføre til partneren. Din partner kan derefter bogføre den tilsvarende transaktion direkte i sit eget regnskab uden at skulle indtaste oplysningerne igen.
 
 For salgs- og købsdokumenter sikrer den koncerninterne partnerkode på den involverede debitor eller kreditor, at alle ordrer og fakturaer, der oprettes på baggrund af transaktioner med disse virksomheder, vil resultere i tilsvarende dokumenter i partnervirksomheden, hvilket resulterer i korrekt afstemning af kontiene.
@@ -32,13 +32,13 @@ Du kan sende salgs- og købsordrer og returordrer, før du bogfører dem. Faktur
 Den følgende procedure beskriver, hvordan du udfylder og sender en IC-salgsordre. Samme fremgangsmåde anvendes på koncerninterne købsordrer og returordrer og bogførte IC-fakturaer og kreditnotaer.  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
-2. Vælg **Ny** for at oprette en ny salgsordre. Du kan finde flere oplysninger i [Fremgangsmåde: Sælge produkter](sales-how-sell-products.md).  
+2. Vælg **Ny** for at oprette en ny salgsordre. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Sørg for, at debitoren er en koncernintern partner.
 5. Hvis du vil sende salgsordren, før du bogfører den, skal du vælge handlingen **Send IC-salgsordre**.
 
 > [!NOTE]
-> Hvis du udfører trin 4, flyttes salgsordren derefter til din koncerninterne udbakke, hvor kan du sende den senere. Du kan finde flere oplysninger i [Fremgangsmåde: Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md).
+> Hvis du udfører trin 4, flyttes salgsordren derefter til din koncerninterne udbakke, hvor kan du sende den senere. Du kan finde flere oplysninger i [Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Sådan udfyldes og bogføres en IC-kladde
 Når du bogfører en koncernintern finanskladdelinje i regnskabet, oprettes der en tilsvarende finanskladdelinje i din koncerninterne udbakke, som du kan overføre til partneren. Din partner kan derefter bogføre den tilsvarende transaktion direkte i sit eget regnskab uden at skulle indtaste oplysningerne igen.
@@ -52,7 +52,7 @@ Når du bogfører en koncernintern finanskladdelinje i regnskabet, oprettes der 
     > Feltet kan kun udfyldes på en linje med en bankkonto eller finanskonto i feltet **Kontonr.** eller **Modkonto**.  
 5. Vælg handlingen **Bogfør**.
 
-De involverede poster bogføres i regnskabet, og der oprettes en kladde med de tilsvarende poster i din koncerninterne udbakke, som du kan sende til din partnervirksomhed. Du kan finde flere oplysninger i [Fremgangsmåde: Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md). 
+De involverede poster bogføres i regnskabet, og der oprettes en kladde med de tilsvarende poster i din koncerninterne udbakke, som du kan sende til din partnervirksomhed. Du kan finde flere oplysninger i [Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md). 
 
 ## <a name="see-also"></a>Se også
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  

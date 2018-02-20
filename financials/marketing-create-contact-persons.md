@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 473cf43c227793e4e606c893154caf28466fdff7
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-persons"></a>Oprette kontaktpersoner
@@ -30,16 +30,16 @@ Når du registrerer flest mulige oplysninger om en kontaktperson, sikrer du, at 
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
-| Angive oplysninger om en kontaktperson. |[Fremgangsmåde: Oprette kontaktpersoner](marketing-how-create-contact-persons.md) |
-| Definere en alternativ adresse for en kontakt. |[Fremgangsmåde: Tildele alternative adresser](marketing-how-assign-alternate-address.md) |
-| Beskrive forretningsrelationen til en virksomhedskontakt. |[Fremgangsmåde: Oprette ansvarsområder for kontakter](marketing-job-responsibilities.md) |
-| Beskrive kompetenceniveauet for dine kontakter. |[Fremgangsmåde: Oprette kompetenceniveauer for kontaktpersoner](marketing-organizational-levels.md) |
+| Angive oplysninger om en kontaktperson. |[Oprette kontaktpersoner](marketing-how-create-contact-persons.md) |
+| Definere en alternativ adresse for en kontakt. |[Tildele alternative adresser](marketing-how-assign-alternate-address.md) |
+| Beskrive forretningsrelationen til en virksomhedskontakt. |[Oprette ansvarsområder for kontakter](marketing-job-responsibilities.md) |
+| Beskrive kompetenceniveauet for dine kontakter. |[Oprette kompetenceniveauer for kontaktpersoner](marketing-organizational-levels.md) |
 | Tildele mailgrupper til dine kontakter |[Tildele mailgrupper til en kontakt](marketing-mailing-groups.md) |
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  
 [Oprette og administrere kontakter]()  
-[Arbejde med Dynamics 365](ui-work-product.md)
+[Arbejde med Finance and Operations, Business edition](ui-work-product.md)
 

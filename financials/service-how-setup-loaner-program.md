@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f57c94523c4a907478dceae182446098cba31dd7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d2927cb2bc02ecf2c8befde4dcdba141cb371f6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-loaner-program"></a>Fremgangsmåde: Oprette et udlånsprogram
+# <a name="set-up-a-loaner-program"></a>Oprette et udlånsprogram
 Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan bruge, mens kundeserviceteamet udfører reparationen. I [!INCLUDE[d365fin](includes/d365fin_md.md)] Kan du konfigurere et udlånsprogram, udlåne varer til dine kunder og spore modtagelser, når kunderne returnerer varerne. Desuden kan du tilføje bemærkninger om udlånsvarer på én af to måder:  
   
 * Angive en bemærkning om selve udlånsvaren.  
@@ -33,7 +33,7 @@ Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan br
 5. Vælg den relevante basisenhed i feltet **Enhedskode**.  
   
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Udlåne og modtage udlånsvarer](service-how-to-lend-receive-loaners.md)  
+[Udlåne og modtage udlånsvarer](service-how-to-lend-receive-loaners.md)  
 [Konfigurere Service](service-setup-service.md)  
 [Levering af service](service-deliver-service.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb514fe04fd70836f640d3db4ea592680ab0fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5460f50c4c556a74b518976d5d5fa90203f16967
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-orders"></a>Fremgangsmåde: Oprette serviceordrer
+# <a name="create-service-orders"></a>Oprette serviceordrer
 Du kan bruge vinduet **Serviceordre** til at oprette dokumenter, hvor du indtaster oplysninger om en serviceydelse, f.eks. reparation og vedligeholdelse, for serviceartikler efter kundeforespørgsel.  
   
 Når du opretter en serviceordre, behøver du kun at udfylde nogle få felter. Nogle felter er valgfri, og mange udfyldes automatisk, når du udfylder relaterede felter.  
@@ -52,7 +52,7 @@ Du kan automatisk oprette serviceordrer til reparation af serviceartikler basere
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Sådan konverteres servicetilbud til serviceordrer
 Når en kunde har accepteret et servicekontrakttilbud, skal du konvertere det til en serviceordre. Tilbuddet slettes, og der oprettes en ny serviceordre med samme beskrivelse som servicetilbuddet. Serviceordrens svardato og -tidspunkt genberegnes, og status angives til **Igangsat**. Reparationsstatus for serviceartiklerne i ordren ændres til **Ingen tidl. serv**.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] søger allokeringsposter for alle de serviceartikler i servicetilbuddet, der har status **Aktiv**. Hvis der bliver fundet sådanne allokeringsposter, opdateres deres allokeringsstatus til **Genallokering nødvendig**. Når du genallokerer artiklerne i serviceordren, opdateres status for de allokeringsposter, der er registreret for tilbuddet, til **Udført.**   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Programmet søger efter allokeringsposter for alle de serviceartikler i servicetilbuddet, der har status **Aktiv**. Hvis der bliver fundet sådanne allokeringsposter, opdateres deres allokeringsstatus til **Genallokering nødvendig**. Når du genallokerer artiklerne i serviceordren, opdateres status for de allokeringsposter, der er registreret for tilbuddet, til **Udført.**   
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Servicekontrakttilbud**, og vælg derefter det relaterede link.  
 2. Vælg det servicetilbud, der skal konverteres til en serviceordre.  
@@ -79,7 +79,7 @@ Hvis du har brug at sikre, at en vare er disponibel for en serviceordre, kan du 
 5. På siden **Reservation** skal du vælge **Reserver fra aktuel linje**. 
 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Sådan indsættes linjer baseret på standardservicekoder  
-Hvis du har defineret standardservicekoder og tildelt dem til serviceartikelgrupper, kan du indsætte de standardlinjer, der er knyttet til standardservicekoderne i servicedokumenter. Du kan finde flere oplysninger i [Sådan gør du: Definere standardservicekoder](service-how-setup-service-coding.md).   
+Hvis du har defineret standardservicekoder og tildelt dem til serviceartikelgrupper, kan du indsætte de standardlinjer, der er knyttet til standardservicekoderne i servicedokumenter. Du kan finde flere oplysninger i [Definere standardservicekoder](service-how-setup-service-coding.md).   
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Opret en ny serviceordre.  
@@ -106,8 +106,8 @@ Serviceordrer slettes ikke automatisk i programmet, men hvis det samlede antal i
 
 ## <a name="see-also"></a>Se også  
 [Bogføring af tjenesten](service-service-posting.md)  
-[Fremgangsmåde: Bogføre en serviceordre](service-how-to-post-service-orders.md)  
+[Bogføre en serviceordre](service-how-to-post-service-orders.md)  
 [Konfigurere Service](service-setup-service.md)  
-[Fremgangsmåde: Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md)  
-[Sådan gør du: Allokere ressourcer](service-how-to-allocate-resources.md)  
+[Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md)  
+[Allokere ressourcer](service-how-to-allocate-resources.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0c8fee4bb34a6b16d552840462fdc4f4461498df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 01c640a033c9607c0401ad471d257003e65ca636
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-resources"></a>Fremgangsmåde: Konfigurere ressourcer
+# <a name="set-up-resources"></a>Konfigurere ressourcer
 For at kunne administrere ressourceaktiviteterne korrekt skal du oprette ressourcerne og de tilhørende omkostninger og priser. De sagsrelaterede pris-, rabat- og kostfaktorregler oprettes på jobkortet. Du kan angive omkostninger og priser for individuelle ressourcer, ressourcegrupper eller alle tilgængelige ressourcer i virksomheden.
 
 Når der bruges eller sælges ressourcer i en sag, hentes de tilhørende priser og omkostninger fra de oplysninger, du har oprettet.
@@ -41,7 +41,7 @@ Du kan samle flere forskellige ressourcer i en ressourcegruppe. Ressourcegruppen
 3. Udfyld felterne efter behov.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Sådan angives kapaciteten for en ressource
-For at beregne, hvor lang tid en ressource kan bruge på sager, skal der først ressourcenes kapacitet først angives som disponible tid pr. periode i arbejdskalenderen. Denne opsætning anvendes, når du udfylder sagsplanlægningslinjer, som indeholder ressourcen. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette sager](projects-how-create-jobs.md).
+For at beregne, hvor lang tid en ressource kan bruge på sager, skal der først ressourcenes kapacitet først angives som disponible tid pr. periode i arbejdskalenderen. Denne opsætning anvendes, når du udfylder sagsplanlægningslinjer, som indeholder ressourcen. Du kan finde flere oplysninger i [Oprette sager](projects-how-create-jobs.md).
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ressourcer**, og vælg derefter det relaterede link.
 2. Åbn det relevante ressourcekort, og vælg derefter handlingen **Ressourcekapacitet**.

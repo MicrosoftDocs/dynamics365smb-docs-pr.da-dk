@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d5348e7b15eb0337f2a5f829c871dadcf3133b86
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9d4f8d21d0c79adbac238b2d26accc4c08656c77
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-quotes"></a>Sådan gør du: Oprette servicetilbud
+# <a name="create-service-quotes"></a>Oprette servicetilbud
 Du kan betragte servicetilbud som grundlaget for serviceordrer. De er faktisk næsten identiske. Begge indeholder oplysninger, f.eks. hvem debitoren er, ordretypen, den vare, der har behov for service, fakturerings- og leveringsoplysninger og oplysninger om det aktuelle servicearbejde.
  
 Du kan bruge et servicetilbud som foreløbig kladde til en serviceordre og derefter konvertere tilbuddet til en serviceordre.  
@@ -38,7 +38,7 @@ Du kan bruge et servicetilbud som foreløbig kladde til en serviceordre og deref
 7. Registrer de anslåede kostpriser på servicelinjerne.  
   
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Oprette serviceordrer](service-how-to-create-service-orders.md)  
-[Fremgangsmåde: Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md)  
+[Oprette serviceordrer](service-how-to-create-service-orders.md)  
+[Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md)  
 
  

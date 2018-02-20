@@ -13,14 +13,14 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6c20c0b346186adad6e4b125dbd48bd0d3f56ab2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b16ba9366aefc108f39667678fe8ab70ce421b83
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-resource-allocation"></a>Fremgangsmåde: Definere ressourceallokering
+# <a name="set-up-resource-allocation"></a>Opsætte ressourceallokering
 Det er vigtigt at finde en ressource, der er kvalificeret til at udføre arbejdet, for at sikre, at en serviceopgave udføres korrekt. Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)], så det er nemt at allokere en person, der har de korrekte kvalifikationer til sagen. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kalder vi det _ressourceallokering_. Du kan allokere ressourcer, alt efter deres færdigheder og tilgængelighed, eller om de er i samme servicezone som kunden. 
 
 Når du vil bruge ressourceallokering, skal du angive:  
@@ -80,10 +80,10 @@ Hvis du vil ændre kvalifikationskoder, der er tildelt til varer, for eksempel f
     * Slet kvalifikationskoderne, eller opdater deres relation: Vælg denne indstilling, hvis du kun vil ændre kvalifikationskode for denne vare. Kvalifikationskoden for de relaterede serviceartikler bliver tildelt igen, dvs. feltet **Tildelt fra** opdateres.  
   
 ## <a name="see-also"></a>Se også
-[Sådan gør du: Allokere ressourcer](service-how-to-allocate-resources.md)  
-[Sådan gør du: Definere arbejdstimer og serviceåbningstider](service-how-setup-work-service-hours.md)  
-[Fremgangsmåde: Definere fejlrapportering](service-how-setup-fault-reporting.md)  
-[Fremgangsmåde: Definere koder for standardservices](service-how-setup-service-coding.md)  
+[Allokere ressourcer](service-how-to-allocate-resources.md)  
+[Konfigurere arbejdstimer og serviceåbningstider](service-how-setup-work-service-hours.md)  
+[Konfigurere fejlrapportering](service-how-setup-fault-reporting.md)  
+[Definere koder for standardservices](service-how-setup-service-coding.md)  
  
 
 

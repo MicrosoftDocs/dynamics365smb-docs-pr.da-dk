@@ -13,20 +13,20 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-count-adjust-and-reclassify-inventory"></a>Fremgangsmåde: Tælle, justere og ompostere inventar
+# <a name="count-adjust-and-reclassify-inventory"></a>Tælle, justere og ompostere inventar
 Mindst én gang hvert regnskabsår skal der foretages lageropgørelse, dvs. alle varer i lagerbeholdningen optælles for at se, om det antal, der er registreret i databasen, svarer til det faktiske fysiske antal på lagerstederne. Når det faktiske fysiske antal kendes, skal det bogføres til Finans som en del af lagervurderingen ved periodeafslutning.
 
 Selvom alle varer på lageret optælles mindst en gang om året, har du måske besluttet, at nogle varer skal optælles oftere. Det kan være fordi, der er tale om særligt dyre vare, eller fordi de har en stor omsætningshastighed og udgør hovedparten af salget. Du kan tildele særlige optællingsperioder til de pågældende varer til dette formål. Du kan finde flere oplysninger i afsnittet "Sådan udføres periodisk optælling".
 
 Hivs der er brug for en regulering af de registrerede lagerantal i forbindelse med optælling eller af andre årsager, kan du bruge en varekladde til at ændre lageropgørelsesposterne direkte, uden at bogføre forretningstransaktioner. Du kan også justere for en enkelt vare på varekortet.
 
-Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge vareomposteringskladden. Blandt de attributter, der typisk omposteres, er dimensioner og salgskampagnekoder, men du kan også udføre "overførsler mellem systemer" ved at ompostere placerings- og lokationskoder. Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge vareomposteringskladden. Blandt de attributter, der typisk omposteres, er dimensioner og salgskampagnekoder, men du kan også udføre "overførsler mellem systemer" ved at ompostere placerings- og lokationskoder. Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger under [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > I avancerede lageropsætninger registreres varer på placeringer som lagerposter, ikke som vareposter. Derfor kan du foretage optælling, regulering og ompostering af særlige lagerkladder, der understøtter placeringer. Du kan derefter bruge særlige funktioner til at synkronisere de nye eller ændrede lagerposter med de tilknyttede vareposter, så de afspejler ændringer i lagerbeholdninger og lagerværdier. Dette beskrives i de specifikke procedurer nedenfor, hvis det er relevant.
@@ -99,7 +99,7 @@ Medarbejderne kan nu fortsætte med at optælle lagerbeholdningen og registrere 
     Relaterede felter opdateres tilsvarende.
 
     > [!NOTE]  
->   Hvis den fysiske optælling afslører forskelle, som skyldes, at varer er blevet bogført med forkerte lokationskoder, skal du ikke angive forskellene i lageropgørelseskladden. Brug i stedet omposteringskladden eller en overflytningsordre til at omdirigere varerne til de rigtige steder. Du kan finde flere oplysninger i Vareomposteringskladde eller Sådan oprettes overflytningsordrer.
+>   Hvis den fysiske optælling afslører forskelle, som skyldes, at varer er blevet bogført med forkerte lokationskoder, skal du ikke angive forskellene i lageropgørelseskladden. Brug i stedet omposteringskladden eller en overflytningsordre til at omdirigere varerne til de rigtige steder. Du kan finde flere oplysninger i Vareomposteringskladde eller Oprette overflytningsordrer.
 
 2. Hvis du vil regulere det beregnede antal til det faktiske optalte antal, skal du vælge handlingen **Bogfør**.
 
@@ -169,10 +169,10 @@ Når du har foretaget en fysisk optælling af varen i dit lagerområde, kan du b
 
 Varens lager er nu reguleret. Det nye antal vises i feltet **Aktuel lagerbeholdning** i vinduet **Reguler lager** og i feltet **Lager** i vinduet **Varekort**.
 
-Du kan også bruge funktionen **Reguler lager** som en enkel måde at placere købte varer på lager, hvis du ikke bruger købsfakturaer eller -ordrer til at registrere dine køb. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md).
+Du kan også bruge funktionen **Reguler lager** som en enkel måde at placere købte varer på lager, hvis du ikke bruger købsfakturaer eller -ordrer til at registrere dine køb. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
->   Når du har reguleret lageret, skal du opdatere det med den aktuelle, beregnede værdi. Du kan finde flere oplysninger under [Fremgangsmåde: Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
+>   Når du har reguleret lageret, skal du opdatere det med den aktuelle, beregnede værdi. Du kan finde flere oplysninger under [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Sådan reguleres lagerantallet for flere varer i grundlæggende lageropsætninger
 I vinduet **Varekladde** kan du bogføre varetransaktionen direkte for at regulere lagerbeholdningen i forbindelse med køb, salg og op- og nedregulering af lageret uden brug af dokumenter.
@@ -184,7 +184,7 @@ Hvis du ofte bruger varekladden til at bogføre de samme eller lignende kladdeli
 3. Vælg handlingen **Bogfør** for at regulere lagerbeholdningen.
 
 > [!NOTE]  
->   Når du har reguleret lageret, skal du opdatere det med den aktuelle, beregnede værdi. Du kan finde flere oplysninger under [Fremgangsmåde: Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
+>   Når du har reguleret lageret, skal du opdatere det med den aktuelle, beregnede værdi. Du kan finde flere oplysninger under [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Sådan reguleres placeringsantal i avancerede lageropsætninger  
 Hvis din lokation bruger styret læg-på-lager og pluk, skal du bruge **lagerkladden** til at postere alle positive og negative justeringer i varemængden, som du ved er reelle forøgelse , f.eks. varer, der tidligere er posteret som manglende, og som nu dukker op igen, eller reelle tab, f.eks. skader på varer, uden for det fysiske lager.  
@@ -211,7 +211,7 @@ Du skal med jævne mellemrum (som er fastsat af virksomheden) bogføre posterne 
 ## <a name="to-reclassify-an-items-lot-number"></a>Sådan omposteres en vares lotnummer
 Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge vareomposteringskladden. Blandt de attributter, der typisk omposteres, er dimensioner og salgskampagnekoder, men du kan også udføre "overførsler mellem systemer" ved at ompostere placerings- og lokationskoder.
 
-Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger under [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 
 Følgende eksempel er baseret på en lokationskode. Trinene er de samme for andre typer vareattributter.
 
@@ -221,7 +221,7 @@ Følgende eksempel er baseret på en lokationskode. Trinene er de samme for andr
 4. I feltet **Ny lokationskode** skal du angive varens nye lokationskode.
 5. Vælg handlingen **Bogfør**.
 
-Du kan finde oplysninger om overførsel af varer med fuld kontrol over de antal, der er leveret og modtaget, i [Fremgangsmåde: Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md).
+Du kan finde oplysninger om overførsel af varer med fuld kontrol over de antal, der er leveret og modtaget, i [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Se også
 [Lager](inventory-manage-inventory.md)

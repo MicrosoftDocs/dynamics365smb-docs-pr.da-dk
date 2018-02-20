@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c56cd3c44e06f354bd11f24fb0f16b90a1ac7a34
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designoplysninger: Kostregulering
@@ -171,7 +171,7 @@ Hvis du har oprettet den automatiske kostregulering for posteringer, der forekom
 Hvis du har oprettet den automatiske kostregulering for posteringer, der forekommer inden for en dag eller en uge fra den aktuelle arbejdsdato, kører automatisk kostregulering ikke, og omkostningerne ved købet videresendes ikke til salg, før du kører kørslen **Juster kostpris - vareposter**.  
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Regulere varepriser](inventory-how-adjust-item-costs.md)   
+[Regulere varepriser](inventory-how-adjust-item-costs.md)   
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
 [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md)   
 [Designoplysninger: Varekladde](design-details-inventory-posting.md)   

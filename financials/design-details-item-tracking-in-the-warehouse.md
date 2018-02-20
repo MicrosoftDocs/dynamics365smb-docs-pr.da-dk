@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: d196aa3c5176d040440be441e2573eac92891219
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-tracking-availability"></a>Designoplysninger: Tilgængelighed af varesporing
@@ -24,7 +24,7 @@ Vinduerne **Varesporingslinjer** og **Varesporingsoversigt** indeholder dynamisk
   
 Når du åbner vinduet **Varesporingslinjer**, hentes der tilgængelighedsdata fra tabellen **Varepost** og tabellen **Reservationspost** uden datofilter. Når du vælger feltet **Serienr.** eller feltet **Lotnr.**, åbnes vinduet **Varesporingsoversigt** og viser en oversigt over varesporingsoplysninger i tabellen **Reservationspost**. Oversigten indeholder følgende oplysninger om hvert serie- eller lotnummer på varesporingslinjen:  
   
-|Felt|Description|  
+|Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
 |**I alt**|Det samlede antal af serie- eller lotnumre, der aktuelt er på lager.|  
 |**Ønsket antal i alt**|Det samlede antal af serie- og lotnumre, der aktuelt er anmodet om i alle dokumenter.|  

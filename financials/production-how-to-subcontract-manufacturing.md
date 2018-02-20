@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6f8094545431468bd12e231364987e70bda429bb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2796da1b41569c8c950dc844fc31eaf4f0179efa
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-subcontract-manufacturing"></a>Fremgangsmåde: Produktion hos underleverandør
+# <a name="subcontract-manufacturing"></a>Produktion hos underleverandør
 Det er almindeligt for mange produktionsvirksomheder at placere udvalgte operationer hos underleverandører. Det er normal procedure i mange produktionsvirksomheder, selvom det hos nogle virksomheder måske kun sker engang imellem, mens det hos andre er en integreret del af produktionsprocessen.
 
 Programmet omfatter flere værktøjer til håndtering af arbejde, der udføres af underleverandører:  
@@ -41,12 +41,12 @@ Arbejdscentre til underleverance kan bruges til operationer på ruter på samme 
 
 Du kan oprette en rute, der bruger et eksternt arbejdscenter som et standardoperationstrin. Du kan også redigere ruten for en bestemt produktionsordre, så den omfatter en ekstern operation. Dette kan være nødvendigt i en nødsituation, f.eks. en server, der ikke fungerer korrekt, eller en midlertidig periode med højere efterspørgsel, hvor det arbejde, der normalt udføres internt, skal sendes til en underleverandør.  
 
-Du kan finde flere oplysninger i [Fremgangsmåde: Oprette ruter](production-how-to-create-routings.md).  
+Du kan finde flere oplysninger i [Oprette ruter](production-how-to-create-routings.md).  
 
 ## <a name="subcontracting-worksheet"></a>Underleverandørkladde  
 Når du har beregnet underleverandørkladden, oprettes det relevante dokument, hvilket i dette tilfælde er en købsordre.  
 
-# <a name="how-to-calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Sådan gør du: Beregne underleverandørkladder og oprette købsordrer på underleverance
+# <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Beregne underleverandørkladder og oprette købsordrer på underleverance
 Vinduet **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved at beregne de nødvendige forsyninger, i dette tilfælde indkøbsordrer, som du kan gennemgå i regnearket og derefter oprette med funktionen **Udfør aktionsmeddelelse**.  
 
 > [!NOTE]  

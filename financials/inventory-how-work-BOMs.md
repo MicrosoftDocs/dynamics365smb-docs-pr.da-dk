@@ -11,13 +11,13 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: caf3637dac270a3d20283e6c0776634ee1f5613e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-bills-of-material"></a>Fremgangsmåde: Arbejde med styklister
+# <a name="work-with-bills-of-material"></a>Arbejde med styklister
 Du kan bruge styklister til at strukturere overordnede varer, der skal samles eller fremstilles af ressourcer eller produktionsressourcer fra komponenter. En montagestykliste kan også bruges til at sælge en overordnet vare som en pakke bestående af dens komponenter.
 
 ## <a name="assembly-boms-or-production-boms"></a>Montagestykliste eller produktionsstyklister
@@ -29,9 +29,9 @@ Montagestyklister er beskrevet i dette emne.
 
 Du kan bruge produktionsordrer til at oprette slutvarer fra komponenter i en kompleks proces, der kræver en produktionsrute og arbejdscentre eller produktionsressourcer, som repræsenterer produktionskapacitet. F.eks. kunne en produktionsproces være at klippe stålplader i én handling, svejse dem i den næste operation og male færdigvaren i den sidste operation. Du kan finde flere oplysninger under [Produktion](production-manage-manufacturing.md).  
 
-En produktionsstykliste er masterdata, der definerer en produktionsvare og de komponenter, der går ind i den. Ved montageelementer skal produktionsstyklisten certificeres og tildeles til produktionsvaren, før elementet kan bruges i en produktionsordre. Når du angiver produktionsvaren på en produktionsordrelinje, enten manuelt eller ved at opdatere ordren, bliver produktionsstyklisteindholdet komponenterne i produktionsordren. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-production-boms.md).  
+En produktionsstykliste er masterdata, der definerer en produktionsvare og de komponenter, der går ind i den. Ved montageelementer skal produktionsstyklisten certificeres og tildeles til produktionsvaren, før elementet kan bruges i en produktionsordre. Når du angiver produktionsvaren på en produktionsordrelinje, enten manuelt eller ved at opdatere ordren, bliver produktionsstyklisteindholdet komponenterne i produktionsordren. Du kan finde flere oplysninger i [Oprette produktionsstyklister](production-how-to-create-production-boms.md).  
 
-Begrebet ressourcer i produktionen er langt mere avanceret end i montagestyring. Arbejdscentre og produktionsressourcer fungerer som ressourcer, og produktionstrin repræsenteres af operationer, der er tildelt til ressourcer i produktionsruter. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette ruter](production-how-to-create-routings.md).
+Begrebet ressourcer i produktionen er langt mere avanceret end i montagestyring. Arbejdscentre og produktionsressourcer fungerer som ressourcer, og produktionstrin repræsenteres af operationer, der er tildelt til ressourcer i produktionsruter. Du kan finde flere oplysninger i [Oprette ruter](production-how-to-create-routings.md).
 
 Både montageordrer og produktionsordrer kan knyttes direkte til salgsordrer. Du kan dog kun bruge montageordrer til at tilpasse færdigvaren direkte til en debitoranmodning med salgsordren.
 
@@ -42,13 +42,13 @@ Montagestyklister indeholder normalt varer, men kan også indeholde en eller fle
 
 Montagestyklister kan have flere niveauer, hvilket betyder, at en komponent på montagestyklisten selv kan være et montageelement. I så fald skal feltet **Montagestykliste** på montagestyklistelinjen vise **Ja**.
 
-Der gælder særlige krav for elementerne på montagestyklister for så vidt angår varedisponering. Du kan finde flere oplysninger i afsnittet "Sådan får du vist tilgængeligheden af en vare via brugen af den i montagestyklister" i [Sådan gør du: Vise varedisponering](inventory-how-availability-overview.md).
+Der gælder særlige krav for elementerne på montagestyklister for så vidt angår varedisponering. Du kan finde flere oplysninger i afsnittet "Sådan får du vist tilgængeligheden af en vare via brugen af den i montagestyklister" i [Vise varedisponering](inventory-how-availability-overview.md).
 
 Montagestyklister oprettes ad to omgange:
 - Oprette en ny vare
 - Angive montageelementets styklistestruktur.
 
-1. Opret en ny vare. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).
+1. Opret en ny vare. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
     Fortsæt med at angive komponenter eller ressourcer på montagestyklisten.  
 2. I vinduet **Varekort** for et montageelement skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
@@ -80,7 +80,7 @@ Alle felter på salgsfakturalinjen for montageelementet fjernes med undtagelse a
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Sådan beregnes standardkostprisen et montageelement
 Du kan beregne kostprisen for et montageelement ved at akkumulere kostprisen for hver komponent og ressource i elementets montagestykliste.
 
-Du kan også beregne og opdatere standardkostprisen for en eller flere varer i vinduet **Standardkostpriskladde**. Du kan finde flere oplysninger i [Sådan gør du: Opdatere standardkostpriser](finance-how-to-update-standard-costs.md).  
+Du kan også beregne og opdatere standardkostprisen for en eller flere varer i vinduet **Standardkostpriskladde**. Du kan finde flere oplysninger i [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md).  
 
 En montagestyklistes kostpris svarer altid til den samlede kostpris for dens komponenter, herunder andre montagestyklister, og eventuelle ressourcer.
 
@@ -100,8 +100,8 @@ En montagestyklistes kostpris svarer altid til den samlede kostpris for dens kom
 Omkostningerne ved de elementer, der udgør montagestyklisten, kopieres fra komponentvarekortene. Kostprisen på hver vare ganges med antallet, og den samlede kostpris vises i feltet **Kostpris** på varekortet.
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md)  
-[Sådan gør du: Vise varedisponering](inventory-how-availability-overview.md)     
+[Registrere nye varer](inventory-how-register-new-items.md)  
+[Vise varedisponering](inventory-how-availability-overview.md)     
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,19 +13,19 @@ ms.search.keywords: project invoice
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9367dc5875b687b95076efffb3b0df2019332651
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4c00ce50f70cbae3ad0557f0703e80f6b115995a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-invoice-jobs"></a>Fremgangsmåde: Fakturere sager
+# <a name="invoice-jobs"></a>Fakturere sager
 I løbet af projektet kan der akkumuleres sagsomkostninger fra ressourceforbrug, materialer og sagsrelaterede indkøb. Efterhånden som status for sagen ændrer sig, bogføres disse transaktioner i sagskladden. Det er vigtigt, at alle omkostninger er registreret i sagskladden, før du fakturerer kunden.
 
 Du kan fakturere hele sagen fra vinduet **Sagsopgavelinjer** eller kun fakturere de valgte fakturerbare linjer fra vinduet **Planlægningslinjer**. Faktureringen kan foretages, når sagen er afsluttet, eller med bestemte intervaller, efterhånden som status for sagen ændres, baseret på en faktureringsplan.
 
 > [!NOTE]  
->   Hvis du vælger **Fakturerbar** i feltet **Linjetype for sag** på købsdokumenter for sagsrelaterede indkøb, oprettes der sagsplanlægningslinjer, som er klar til blive faktureret til kunden. Du kan finde flere oplysninger i [Fremgangsmåde: Administrere projektforsyninger](projects-how-manage-project-supplies.md).
+>   Hvis du vælger **Fakturerbar** i feltet **Linjetype for sag** på købsdokumenter for sagsrelaterede indkøb, oprettes der sagsplanlægningslinjer, som er klar til blive faktureret til kunden. Du kan finde flere oplysninger i [Administrere projektforsyninger](projects-how-manage-project-supplies.md).
 
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>Sådan oprettes og bogføres en salgsfaktura for en sag
 Du kan oprette en faktura for en sag eller for en eller flere sagsopgaver for en debitor, når det arbejde, der skal faktureres, er udført, eller når den fakturadato, som er angivet i et fakturaskema, nås.

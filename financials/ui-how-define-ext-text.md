@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 01/16/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 10484680910a9012e58a333ab3a854cf4af0d09b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 52e5b2b69da1f9a78906563d054d91de2dfe0925
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-extended-item-text"></a>Fremgangsmåde: Konfigurere udvidet varetekst
+# <a name="set-up-extended-item-text"></a>Konfigurere udvidet varetekst
 Du kan udvide standardtekst for varer ved at indsætte ekstra linjer, og du kan oprette betingelser for brug af ekstra linjer. Du kan gøre dette varekort.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Sådan defineres udvidet tekst for en varebeskrivelse

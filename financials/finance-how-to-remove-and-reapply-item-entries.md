@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5ca921ba6c8ced04899b3a8cc2cd2db91e4d69a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-remove-and-reapply-item-ledger-entries"></a>Fremgangsmåde: Fjerne og genanvende poster
+# <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne og genanvende vareposter
 I vinduet **Udligningskladde** kan du få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagertransaktioner.  
 
 Når du bogfører en transaktion, hvor varer flyttes ind i eller ud af lageret, oprettes en vareudligning mellem hver lagerforøgelse og lagerreduktion. Disse udligninger bestemmer flowet af omkostninger fra de varer, der modtages på lageret, til de varer, der tages ud af lageret. På grund af den måde som kostprisen beregnes på kan en forkert vareudligning medføre en forkert gennemsnitlig kostpris og en forkert kostpris. Du kan finde flere oplysninger i Designoplysninger: Vareudligning.
@@ -30,7 +30,7 @@ Følgende scenarier kræver muligvis, at du fortryder en udligning eller udligne
 - Du har oprettet en forkert fast udligning.
 - Du skal returnere en vare, der allerede er udlignet et salg for.
 
-Brug om muligt et dokument til at udligne en varepost igen. Hvis du f.eks. skal håndtere en købsreturvareordre, hvor salget allerede er udlignet, kan du udligne igen ved at oprette og bogføre købsreturvareordredokumentet ved hjælp af den korrekte udligning i feltet **Udl.varepostløbenr.** på købsreturvareordrelinjen. Du kan bruge funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** eller funktionen **Kopier linjer** i købsreturvareordredokumentet for at gøre det nemmere. Når du bogfører dokumentet, udlignes vareposten automatisk igen. Du kan finde flere oplysninger i [Fremgangsmåde: Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
+Brug om muligt et dokument til at udligne en varepost igen. Hvis du f.eks. skal håndtere en købsreturvareordre, hvor salget allerede er udlignet, kan du udligne igen ved at oprette og bogføre købsreturvareordredokumentet ved hjælp af den korrekte udligning i feltet **Udl.varepostløbenr.** på købsreturvareordrelinjen. Du kan bruge funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** eller funktionen **Kopier linjer** i købsreturvareordredokumentet for at gøre det nemmere. Når du bogfører dokumentet, udlignes vareposten automatisk igen. Du kan finde flere oplysninger i [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
 
 Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en fast udligning, skal du bruge vinduet **Udligningskladde** til at rette en udligning.
 
@@ -75,8 +75,8 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
 6.  Hvis feltet **Automatisk omkostningsregulering** er angivet til **Altid** i **Opsætning af lager**, vil programmet automatisk udføre kørslen til omkostningsregulering, når du har udlignet igen. Ellers skal du udføre kørslen **Juster kostpris – vareposter** for at sikre, at alle kostpriser er opdaterede.  
 
 ## <a name="see-also"></a>Se også  
-[Sådan gør du: Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Fremgangsmåde: Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
+[Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+ [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
  [Designoplysninger: Vareudligning](design-details-item-application.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

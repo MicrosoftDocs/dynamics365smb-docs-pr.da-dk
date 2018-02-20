@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: acd3305694186793ccc5c305573f62c16a718531
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c9c7796b80d77d3a879ecf9ce2a8af26a0ca5aa
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-service-items"></a>Sådan gør du: Oprette serviceartikler
+# <a name="create-service-items"></a>Oprette serviceartikler
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] refererer termen "serviceartikel" til udstyr eller varer, der kræver service. Når du opretter en serviceordre, kan du angive de varer, der har brug for service. I ordren kan du knytte en serviceartikel til en vare på lageret eller en serviceartikelgruppe.    
 
 Når du modtager en vare, der kræver service, kan du registrere den som en serviceartikel. Dette kan gøres på flere måder. Du kan f.eks. oprette en serviceartikel på siden **Serviceartikler** eller som en del af en anden proces, f.eks. når du arbejder med en serviceordre.   
@@ -59,7 +59,7 @@ Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når
     Der indsættes en servicelinje af typen **Omkostning** med startgebyr. Startgebyret gælder den valgte serviceartikel.
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)  
+[Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)  
 [Konfigurere Service](service-setup-service.md)  
 [Service Management](service-service.md)  
 

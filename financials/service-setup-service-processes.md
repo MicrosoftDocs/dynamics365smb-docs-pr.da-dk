@@ -13,13 +13,13 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 708569e88d443f1dc4f1d17d8015da98cf186e6d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-configure-service-processes"></a>Fremgangsmåde: Konfigurere serviceprocesser
+# <a name="configure-service-processes"></a>Konfigurere serviceprocesser
 Følgende er nogle eksempler på de indstillinger, du kan anvende på Service-processer:  
   
 * Generelle indstillinger for forskellige processer, f.eks. advarsler, næste service-beregninger for serviceartikler, startgebyr til vurdering, det fejlrapporteringsniveau, der skal bruges osv.  
@@ -33,10 +33,10 @@ Følgende er nogle eksempler på de indstillinger, du kan anvende på Service-pr
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Definere fejlrapportering](service-how-setup-fault-reporting.md)  
-[Fremgangsmåde: Definere ressourceallokering](service-how-setup-resource-allocation.md)  
-[Fremgangsmåde: Definere koder for standardservices](service-how-setup-service-coding.md)  
-[Fremgangsmåde: Konfigurere ekstra omkostninger for tjenester](service-how-setup-service-costs-pricing.md)  
-[Sådan gør du: Definere fejlfinding](service-how-setup-troubleshooting.md)  
+[Konfigurere fejlrapportering](service-how-setup-fault-reporting.md)  
+[Opsætte ressourceallokering](service-how-setup-resource-allocation.md)  
+[Definere koder for standardservices](service-how-setup-service-coding.md)  
+[Konfigurere ekstra omkostninger for tjenester](service-how-setup-service-costs-pricing.md)  
+[Konfigurere fejlfinding](service-how-setup-troubleshooting.md)  
 [Service Management](service-service.md)  
 

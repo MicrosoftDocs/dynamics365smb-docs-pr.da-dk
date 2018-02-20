@@ -1,6 +1,6 @@
 ---
-title: "Opsætning af marketingkampagner i Dynamics 365 | Microsoft Docs"
-description: "Beskriver, hvordan du kan oprette og styre marketingkampagner i Dynamics 365 som en hjælp til at identificere og tiltrække potentielle kunder og bibeholde kunder."
+title: Konfigurere marketingkampagner i Finance and Operations, Business edition | Microsoft Docs
+description: "Beskriver, hvordan du kan oprette og styre marketingkampagner i Finance and Operations, Business edition som en hjælp til at identificere og tiltrække potentielle kunder og bibeholde kunder."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4ca4fc6eee45c69be3de746ce1d799a481d7ea48
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administration af marketingkampagner
 Når du har fastlagt en stærk marketingplan, kan du identificere og tiltrække kunder og holde på dem. En marketingplan består af forskellige kampagner og andre interaktioner i forbindelse med salgs- og marketingaktiviteter. Mens du planlægger en kampagne, skal du beslutte, hvilke kontaktpersoner der skal være målet, hvilken type kampagne kampagnen skal være (f.eks. en messe eller direct mail), og hvilke sælgere der skal udføre de enkelte opgaver.
 
-Hver kampagne består af forskellige aktiviteter eller opgaver. Du kan samle flere opgaver, for eksempel opgaver, der hver repræsenterer et trin, i aktiviteter. Aktivitetsopgaver er forbundet med hinanden vha. en datoformel. Individuelle opgaver kan kun tildeles til sælgere. Aktiviteter kan tildeles til leads, sælgere, grupper af sælgere og kontaktpersoner. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Hver kampagne består af forskellige aktiviteter eller opgaver. Du kan samle flere opgaver, for eksempel opgaver, der hver repræsenterer et trin, i aktiviteter. Aktivitetsopgaver er forbundet med hinanden vha. en datoformel. Individuelle opgaver kan kun tildeles til sælgere. Aktiviteter kan tildeles til leads, sælgere, grupper af sælgere og kontaktpersoner. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Definere individuelle kampagner
 Når du vil oprette en kampagne, skal du først definere *statuskoder for kampagnen*. Via. disse koder kan du styre dine kampagner ved at tildele kampagnen en status. Efterhånden som du arbejder dig gennem faserne i en kampagne, kan du se, hvilket trin en kampagne er på, og hvilket trin der følger efter. Du kan definerer statuskoder for kampagner i vinduet **Kampagnestatus**.
@@ -39,16 +39,16 @@ Når du har oprettet en kampagne, besluttet, hvilken målgruppe kampagnen skal r
 > [!NOTE]  
 >   Hvis du vil aktivere salgspriserne/linjerabatterne, skal du angive, om kampagnen er henvendt til hele målgruppen eller kun bestemte kontakter. Hvis salgspriserne/linjerabatterne dækker alle kontakter i målgruppen, skal du markere feltet **Kampagnemålgruppe** i oversigtspanelet **Kampagne** på **målgruppekortet**.
 
-Hvis salgspriserne/linjerabatterne ikke skal tilbydes til alle kontakter i målgruppen, skal markeringen fjernes fra feltet **Kampagnemålgruppe** for de relevante kontakter. Hvis feltet ikke vises, kan du føje det til visningen. Du kan finde flere oplysninger under [Brugertilpasning](ui-user-personalization.md).
+Hvis salgspriserne/linjerabatterne ikke skal tilbydes til alle kontakter i målgruppen, skal markeringen fjernes fra feltet **Kampagnemålgruppe** for de relevante kontakter. Hvis feltet ikke vises, kan du føje det til visningen. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Udføre kampagner
 Efterhånden som en kampagne kører, registreres alle interaktioner med kontaktpersonerne, eller målgruppen, så du kan få vist statistik og andre oplysninger om kostpriser og kampagnens succeshyppigheder.
 
-Kampagner udføres af sælgere, og du skal oprette aktiviteter, der repræsenterer hver opgave, og tildele dem til de relevante sælgere. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Kampagner udføres af sælgere, og du skal oprette aktiviteter, der repræsenterer hver opgave, og tildele dem til de relevante sælgere. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
 [Administrere målgrupper](marketing-segments.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
-[Arbejde med Dynamics 365](ui-work-product.md)  
+[Arbejde med Finance and Operations, Business edition](ui-work-product.md)  
 

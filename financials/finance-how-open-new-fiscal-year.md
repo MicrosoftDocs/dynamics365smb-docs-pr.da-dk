@@ -11,13 +11,13 @@ ms.search.keywords: accounting year, fiscal period
 ms.date: 07/17/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1ae20c24b4a75a897a1bc7bc7f34898539a75449
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da22c77f35c1a893d3ee80fb6468553670977686
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-open-a-new-fiscal-year-and-create-accounting-periods"></a>Fremgangsmåde: Åbn et nyt regnskabsår, og opret regnskabsperioder
+# <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Åbne et nyt regnskabsår, og oprette regnskabsperioder
 Før du kan bogføre i et regnskabsår, skal du åbne det og angive regnskabsperioder i det.  
 
 For mange virksomheder falder regnskabsåret ikke sammen med kalenderåret. Regnskabsperioder måles i andre tidsenheder, f.eks. måneder eller kvartaler. Du kan bruge vinduet **Opret regnskabsår** til at definere de regnskabsperioder, der passer til virksomhedens behov. Men   
@@ -34,8 +34,8 @@ Regnskabsperioderne føjes til siden med felterne **Startdato** og **Navn** udfy
 
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Angive bogføringsperioder](finance-how-specify-posting-periods.md)  
-[Fremgangsmåde: Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  
+[Angive bogføringsperioder](finance-how-specify-posting-periods.md)  
+[Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

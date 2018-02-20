@@ -1,6 +1,6 @@
 ---
-title: Angive datointervaller i Dynamics 365 Business edition | Microsoft Docs
-description: "Få mere at vide om, hvordan du i en rapport kan få vist data fra bestemte tidsperioder, ved at bruge datointervaller i Dynamics 365 Business edition."
+title: Angive datointervaller i Finance and Operations, Business edition | Microsoft Docs
+description: "Få mere at vide om, hvordan du i en rapport kan få vist data fra bestemte tidsperioder, ved at bruge datointervaller i Finance and Operations, Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: fee6a5d7ce6603829ed98913b7e370a53239ee3e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da2fea4e095c8211f30aaa7c570a84a005e7cbc8
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="entering-date-ranges-in-dynamics-365-business-edition"></a>Angive datointervaller i Dynamics 365 Business edition 
+# <a name="entering-date-ranges-in-finance-and-operations-business-edition"></a>Angivelse af datointervaller i Finance and Operations, Business edition 
 Du kan angive filtre, der indeholder en startdato og en slutdato for kun at få vist dataene for dette dato- eller tidsinterval. Der gælder særlige regler for den måde, du angiver datointervaller på. Lad os tage **Debitor - top 10** som eksempel:
 
 ![Angive et datointerval på anmodningssiden for Debitor - top 10-liste](./media/ui-enter-date-ranges/customer-top10-list.png)

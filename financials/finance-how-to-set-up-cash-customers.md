@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6826c574bf63de70d76a29b45968c68c0b2e2d1f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a72e6ff0a710f2d555c805e4fa28896683a819e9
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cash-customers"></a>Sådan angives kontantkunder
+# <a name="set-up-cash-customers"></a>Konfigurere kontantkunder
 Du kan ikke oprette en faktura uden et debitornummer. Det gælder også, hvis du sælger kontant og ikke har noget at registrere i en kundekonto.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Definere en kontantkunde  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitor**, og vælg derefter det relaterede link.  
-2.  Opret et nyt **Debitor**kort. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere nye debitorer](sales-how-register-new-customers.md).
+2.  Opret et nyt **Debitor**kort. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
 3.  I feltet **Nummer** skal du f.eks. angive **Kontant**.  
 4.  Angiv f.eks. **Kontantsalg** i feltet **Navn**.  
 5.  I oversigtspanelet **Fakturering** skal du udfylde felterne **Debitorbogføringsgruppe** og feltet **Virksomhedsbogføringsgruppe**.  
@@ -38,7 +38,7 @@ Du kan ikke oprette en faktura uden et debitornummer. Det gælder også, hvis du
 
 ## <a name="see-also"></a>Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
-[Fremgangsmåde: Registrere nye debitorer](sales-how-register-new-customers.md)    
+[Registrere nye debitorer](sales-how-register-new-customers.md)    
 [Finans](finance.md)  
 
 

@@ -11,13 +11,13 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 310cad43853f347ac7ab74e186edd82e7c54727e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-collect-outstanding-balances"></a>Fremgangsmåde: Indhente udestående beløb
+# <a name="collect-outstanding-balances"></a>Indhente udestående beløb
 Likviditetsstyring omfatter kontrol af, om forfaldne beløb er betalt til tiden. Hvis debitorer har forfaldne betalinger, kan du begynde med at sende rapporten Kontoudtog som en påmindelse. Alternativt kan du udstede rykkere.
 
 Du kan bruge rykkere til at minde debitorer om forfaldne beløb. Du kan også bruge rykkere til at beregne renter eller gebyrer og inkludere dem på rykkeren. Du kan bruge rentenotaer, hvis du vil debitere debitorerne for renter eller gebyrer uden at rykke for forfaldne beløb.  
@@ -98,7 +98,7 @@ Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betinge
 
 Hvis du f.eks. skriver **Du skylder %9 %7, der forfalder den %2.**, vil den resulterende rykker indeholde følgende tekst: **Du skylder USD 1.200,50, der forfalder den 02-02-2014.**.
 
-Angiv en af koderne på hvert enkelt kundekort, når du har oprettet rykkerbetingelserne med ekstra niveauer og tekst. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere nye debitorer](sales-how-register-new-customers.md).
+Angiv en af koderne på hvert enkelt kundekort, når du har oprettet rykkerbetingelserne med ekstra niveauer og tekst. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
 
 ## <a name="to-create-a-reminder-automatically"></a>Sådan oprettes en rykker automatisk
 En rykker svarer til en faktura. Når du opretter en rykker, skal et rykkerhoved og en eller flere rykkerlinjer udfyldes. Du kan bruge en funktion til at oprette rykkere for alle kunder automatisk.

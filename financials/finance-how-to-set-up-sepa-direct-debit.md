@@ -1,6 +1,6 @@
 ---
 title: Konfigurere SEPA Direct Debit | Microsoft Docs
-description: "Få at vide, hvordan du konfigurerer SEPA Direct Debit i Dynamics 365 Business edition."
+description: "Få at vide, hvordan du konfigurerer SEPA Direct Debit i Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,16 +11,16 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 28958f1f090e5adad69cb21d30727fcbd6a7fef8
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-sepa-direct-debit"></a>Fremgangsmåde: Konfigurere SEPA Direct Debit
+# <a name="set-up-sepa-direct-debit"></a>Konfigurere SEPA Direct Debit
 Fra vinduet **Direct Debit-opkrævninger** kan du eksportere instruktioner til din netbank for at udføre en direkte debiteringsopkrævning fra debitorens bankkonto til din bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter SEPA Direct Debit-formatet, men i dit land/område anvendes der muligvis andre formater til elektroniske betalinger.  
 
-For at aktivere eksport af bankfilformater, der ikke umiddelbart understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurere en dataudvekslingsdefinition ved hjælp af dataudvekslingsstrukturen. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+For at aktivere eksport af bankfilformater, der ikke umiddelbart understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurere en dataudvekslingsdefinition ved hjælp af dataudvekslingsstrukturen. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner for direkte debitering i SEPA Direct Debit-format, skal du udføre følgende konfigurationstrin:  
 
@@ -72,11 +72,11 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 
 6.  Gentag trin 1 til 5 for alle de debitorer, som du vil konfigurere til SEPA Direct Debit.  
 
- Den Direct Debit-betalingsaftale indsættes automatisk i feltet **Id for Direct Debit-betalingsaftale**, når du opretter en salgsfaktura til den debitor, som du valgte i trin 2. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md).  
+ Direct Debit-betalingsaftalen indsættes automatisk i feltet **Id for Direct Debit-betalingsaftale**, når du opretter en salgsfaktura til den debitor, som du valgte i trin 2. Du kan finde flere oplysninger i [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Se også  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
-[Fremgangsmåde: Konfigureres dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
-[Fremgangsmåde: Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)
+[Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
+[Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)
 [Udveksle data elektronisk](across-data-exchange.md)
 

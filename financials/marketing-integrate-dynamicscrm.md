@@ -1,6 +1,6 @@
 ---
 title: "Administrere kunder ved hjælp af Dynamics 365 for Sales | Microsoft Docs"
-description: "Du kan bruge Dynamics 365 for Sales fra Dynamics 365 Business edition til at tilknytte data og få problemfri integration og synkronisering i lead-til-kontant-processen."
+description: "Du kan bruge Dynamics 365 for Sales fra Finance and Operations, Business edition til at tilknytte data og få problemfri integration og synkronisering i lead-til-kontant-processen."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: fde1a04c4e6f56fb425f6aef85d21b029a76fe0c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Administration af kunder og salg, der er oprettet i Dynamics 365 for Sales
@@ -25,8 +25,7 @@ Når programmet er indstillet til integration med Dynamics 365 for Sales, har du
 
 For eksempel kan sælgeren i Dynamics 365 for Sales bruge prislisterne fra [!INCLUDE[d365fin](includes/d365fin_md.md)], når vedkommende opretter en salgsordre. Når sælgeren føjer varen til salgsordrelinjen i Dynamics 365 for Sales, kan han eller hun også få vist lagerniveauet (disponering) af varen fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
+Omvendet kan ordrebehandlere i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndtere særlige karakteristika for salgsordrer, der overføres automatisk eller manuelt fra Dynamics 365 For Sales, f.eks. automatisk oprette og bogføre gyldige salgsordrelinjer for varer eller ressourcer, der blev angivet i Salg som rekvirerede produkter. Du kan finde flere oplysninger i afsnittet "Håndtering af særlige salgsordredata".  
 
 ## <a name="setting-up-the-connection"></a>Indstilling af forbindelsen
 Fra startsiden kan du åbne opsætningsvejledningen **Konfiguration af Dynamics 365 for Sales-forbindelse**, der hjælper dig med at oprette forbindelsen. Når det er gjort, får du en problemfri sammenkædning af Dynamics 365 for Sales-poster og [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.  
@@ -42,14 +41,14 @@ Når du vil importere en eksisterende Dynamics 365 for Sales-løsning, bruger op
 * Systemadministrator  
 * Løsningsoptimerer  
 
-Du kan finde flere oplysninger under [Oprette brugere og tildele Microsoft Dynamics 365 (online) sikkerhedsroller](https://technet.microsoft.com/library/jj191623.aspx) på TechNet og [Fremgangsmåde: Administrere brugere og tilladelser](ui-how-users-permissions.md).  
+Du kan finde flere oplysninger under [Oprette brugere og tildele Microsoft Finance and Operations, Business edition (online)-sikkerhedsroller](https://technet.microsoft.com/library/jj191623.aspx) på TechNet og [Administrere brugere og tilladelser](ui-how-users-permissions.md).  
 
 Denne konto bruges kun under opsætningen. Når løsningen indlæses i [!INCLUDE[d365fin](includes/d365fin_md.md)], er kontoen ikke længere nødvendig.
 
 ### <a name="setting-up-the-user-account-for-synchronization"></a>Konfigurere brugerkontoen til synkronisering
-Integration er baseret på en delt brugerkonto. Derfor skal du i dit Office 365-abonnement oprette en dedikeret bruger, der skal bruges til synkronisering mellem de to tjenester. Denne konto skal allerede være en gyldig bruger i Dynamics 365 for Sales, men du behøver ikke at tildele sikkerhedsroller til kontoen, da opsætningsvejledningen gør det for dig. Du skal angive denne brugerkonto en eller flere gange i opsætningsvejledningen, afhængigt af den grad af synkronisering du ønsker. Du kan finde flere oplysninger under [Oprette brugere og tildele Microsoft Dynamics 365 (online) sikkerhedsroller](https://technet.microsoft.com/library/jj191623.aspx) på TechNet.
+Integration er baseret på en delt brugerkonto. Derfor skal du i dit Office 365-abonnement oprette en dedikeret bruger, der skal bruges til synkronisering mellem de to tjenester. Denne konto skal allerede være en gyldig bruger i Dynamics 365 for Sales, men du behøver ikke at tildele sikkerhedsroller til kontoen, da opsætningsvejledningen gør det for dig. Du skal angive denne brugerkonto en eller flere gange i opsætningsvejledningen, afhængigt af den grad af synkronisering du ønsker. Du kan finde flere oplysninger under [Oprette brugere og tildele Microsoft Finance and Operations, Business edition (online)-sikkerhedsroller](https://technet.microsoft.com/library/jj191623.aspx) på TechNet.
 
-Hvis du vælger at aktivere *varetilgængelighed*, skal integrationsbrugerkontoen have en adgangsnøgle til webtjenesten. Dette foregår i to trin. På siden [!INCLUDE[d365fin](includes/d365fin_md.md)] for brugerkontoen skal du vælge knappen **Ændr webtjenestenøgle**, og i opsætningsvejledningen til Dynamics 365-forbindelsen skal du angive denne bruger som brugeren af OData-webtjenesten.
+Hvis du vælger at aktivere *varetilgængelighed*, skal integrationsbrugerkontoen have en adgangsnøgle til webtjenesten. Dette foregår i to trin. På siden [!INCLUDE[d365fin](includes/d365fin_md.md)] for brugerkontoen skal du vælge knappen **Ændr webtjenestenøgle**, og i opsætningsvejledningen til Dynamics 365 for Sales-forbindelsen skal du angive denne bruger som brugeren af OData-webtjenesten.
 
 Hvis du vælger at aktivere *integration af salgsordre*, skal du angive en bruger, der kan håndtere denne synkronisering - integrationsbrugeren eller en anden brugerkonto.
 
@@ -77,14 +76,15 @@ I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen *
 
 For at kontrollere status for individuelle job i en fuldstændig synkronisering skal du fokusere på felterne **Status for opgavekøpost**, **Status for til int. tabel-job** eller **Status for fra int. tabel-job** i vinduet **Fuld CRM-synkroniseringsgennemgang**.
 
-Fra vinduet **Konfiguration af Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne vinduet **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i Dynamics 365 Business edition og Dynamics 365 for Sales-løsningen, som skal synkroniseres.
+Fra vinduet **Konfiguration af Dynamics 365 for Sales-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne vinduet **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i Finance and Operations, Business edition og Dynamics 365 for Sales-løsningen, som skal synkroniseres.
 
 ## <a name="see-also"></a>Se også
 [Relationsstyring](marketing-relationship-management.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)  
-[Fremgangsmåde: Administrere brugere og rettigheder](ui-how-users-permissions.md)    
-[Onboarding af din organisation og dine brugerne i Dynamics 365 (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
+[Administrere brugere og deres rettigheder](ui-how-users-permissions.md)    
+[Sæt din organisationen og dine brugere i gang med Finance and Operations, Business edition (online)](https://www.microsoft.com/en-US/Dynamics/crm-customer-center/onboard-your-organization-and-users-to-dynamics-365-online.aspx)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

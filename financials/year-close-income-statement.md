@@ -13,17 +13,17 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6ddd7b504f6faa856e92c336f889ad08db0b3d8b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 237c03e2ba6408bde65aba5f652468a3b700fa0a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-income-statement-accounts"></a>Fremgangsmåde: Nulstille resultatopgørelseskonti
+# <a name="close-income-statement-accounts"></a>Nulstille resultatopgørelseskonti
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder. Brug kørslen **Nulstil resultatopgørelse** for at gøre dette. Denne kørsel overfører årets resultat til en konto i balancen og nulstiller resultatopgørelseskonti. Det gør du ved at oprette linjer i en kladde, som du derefter kan bogføre.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Sådan udføres kørslen Nulstil resultatopgørelse
-1. Afslut regnskabsåret. Regnskabsåret skal være afsluttet, før kørslen kan sættes i gang. Du kan finde flere oplysninger i [Fremgangsmåde: Afslutte regnskabsperioder](year-close-account-periods.md).
+1. Afslut regnskabsåret. Regnskabsåret skal være afsluttet, før kørslen kan sættes i gang. Du kan finde flere oplysninger i [Afslutte regnskabsperioder](year-close-account-periods.md).
 2. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Nulstil resultatopgørelse**, og vælg derefter det relaterede link.
 3. Vælg **OK** for at eksekvere kørslen.
 
@@ -38,7 +38,7 @@ Kørslen **Nulstil resultatopgørelse** kan bruges flere gange. Du kan bogføre 
 
 ## <a name="see-also"></a>Se også
 [Afslutningregnskab](year-close-books.md)  
-[Fremgangsmåde: Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  
-[Fremgangsmåde: Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md)  
+[Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  
+[Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

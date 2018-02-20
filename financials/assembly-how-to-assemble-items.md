@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e1f2cc5bd276fbd5fe1417df56f57dd8454e18e2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ac1f46c7b7f3035c2cfc711671d659a18871bda
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-assemble-items"></a>Fremgangsmåde: Montere elementer
+# <a name="assemble-items"></a>Montere elementer
 Hvis feltet **Genbestillingssystem** på varekortet indeholder **Montage**, er standardmetoden til at levere varen at montere den fra definerede komponenter og potentielt af en ressource, der er defineret.  
 
-Komponenter og ressourcer, der indgår i denne form for montageelement, skal være defineret i en montage stykliste. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md).  
+Komponenter og ressourcer, der indgår i denne form for montageelement, skal være defineret i en montage stykliste. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).  
 
 Montageelementer kan angives for to forskellige montageprocesser:  
 
@@ -31,14 +31,14 @@ Montageelementer kan angives for to forskellige montageprocesser:
 
 Du bruger typisk **Montage til lager** for de varer, du vil montere forud for salg, f.eks for at forberede en pakkekampagne og beholde på lager, indtil de bestilles. Disse varer er som regel standardvarer som emballerede pakker, du ikke tilbyder at tilpasse efter kundens behov.  
 
-Du bruger typisk **Montage efter ordre** for varer, som du ikke ønsker på lager, fordi du forventer at tilpasse dem til debitoranmodninger, eller fordi du vil minimere de generelle lageromkostninger ved at levere dem på det rigtige tidspunkt. Du kan finde flere oplysninger i [Sådan sælger du en vare, der er monteret efter ordre](assembly-how-to-sell-items-assembled-to-order.md).  
+Du bruger typisk **Montage efter ordre** for varer, som du ikke ønsker på lager, fordi du forventer at tilpasse dem til debitoranmodninger, eller fordi du vil minimere de generelle lageromkostninger ved at levere dem på det rigtige tidspunkt. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
 Du kan finde flere oplysninger om opsætning af et montageelement i [Om montage til ordre eller montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-Disse opsætningsindstillinger er standardindstillinger, der styrer, hvordan salgs- og montageordrelinjer behandles indledningsvis. Du kan fravige disse standarder og levere montageelementet på den mest optimale måde under behandlingen af et salg. Du kan finde flere oplysninger i [Fremgangsmåde: Sælge lagervarer i montage efter ordreflows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) og [Fremgangsmåde: Sælge montage efter ordrevarer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+Disse opsætningsindstillinger er standardindstillinger, der styrer, hvordan salgs- og montageordrelinjer behandles indledningsvis. Du kan fravige disse standarder og levere montageelementet på den mest optimale måde under behandlingen af et salg. Du kan finde flere oplysninger i [Sælge lagervarer i montage til ordre-flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) og [Sælge montage til ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Montagekomponenter håndteres på en særlig måde i grundlæggende lageropsætninger. Du kan finde flere oplysninger i afsnittet "Håndtere montageordrevarer i Pluk (lager)" i [Sådan plukkes varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Montagekomponenter håndteres på en særlig måde i grundlæggende lageropsætninger. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)" i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 I denne procedure skal du oprette og behandle en montageordre for montage til lager-varer, hvilket betyder uden en sammenkædet salgsordre. Fremgangsmåden omfatter start af montageordren, håndtering af potentielle problemer med komponenttilgængeligheden og delvis bogføring af afgang for montageelement.
 
@@ -50,7 +50,7 @@ I denne procedure skal du oprette og behandle en montageordre for montage til la
 5.  I feltet **Antal** skal du angive, hvor mange enheder af varen, der skal monteres.  
 
     > [!NOTE]  
-    >  Hvis en eller flere komponenter ikke er tilgængelige for at opfylde det angivne montageelement på den definerede forfaldsdato, åbnes vinduet **Montagedisponering** automatisk med detaljerede oplysninger om, hvor mange montageelementer der kan monteres baseret på komponenttilgængeligheden. Du kan finde flere oplysninger i [Sådan får du vist tilgængeligheden af varer](inventory-how-availability-overview.md). Når du lukker vinduet, oprettes montageordren med beskeder om tilgængelighed på de berørte komponentlinjer.  
+    >  Hvis en eller flere komponenter ikke er tilgængelige for at opfylde det angivne montageelement på den definerede forfaldsdato, åbnes vinduet **Montagedisponering** automatisk med detaljerede oplysninger om, hvor mange montageelementer der kan monteres baseret på komponenttilgængeligheden. Du kan finde flere oplysninger i [Vise tilgængeligheden af varer](inventory-how-availability-overview.md). Når du lukker vinduet, oprettes montageordren med beskeder om tilgængelighed på de berørte komponentlinjer.  
 
     Montageordrelinjerne udfyldes automatisk med indholdet af montagestyklisten og linjemængder i henhold til montageordrehovedet.  
 
@@ -71,7 +71,7 @@ Når bogføringen er udført, bogføres montageelementet som afgang til den loka
 
 ## <a name="see-also"></a>Se også
 [Montagestyring](assembly-assemble-items.md)  
-[Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md)  
+[Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

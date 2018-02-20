@@ -13,10 +13,10 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 16c9c8c896e3517f08a7326eef88ebc646834b1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c1accaa517efa3fb9958316d2586b06fa8cadb80
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="working-with-reports"></a>Arbejde med rapporter
@@ -67,10 +67,10 @@ Posten for gemte indstillinger, som kaldes **Sidst anvendte indstillinger og fil
 >Som administrator kan du oprette og administrere de gemte indstillinger for rapporter for alle brugere. Du kan finde flere oplysninger i [Administrere gemte indstillinger i rapporter](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Ændre layoutet og udseendet af en rapport
-Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvor den arrangeres, og hvilken typografi der anvendes. Hvis du vil skifte til et andet layout, kan du se [Fremgangsmåde: Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md). Eller du kan tilpasse din egen rapportlayout, skal du se [Fremgangsmåde: Oprette et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md).
+Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvor den arrangeres, og hvilken typografi der anvendes. Hvis du vil skifte til et andet layout, kan du se [Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md). Eller du kan tilpasse din egen rapportlayout, skal du se [Oprette et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Se også
 [Angive printervalg for rapporter](ui-specify-printer-selection-reports.md)  
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
-[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

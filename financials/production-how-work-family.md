@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 060c58991ae48ba768f5c1c0bd7442228e6bc976
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2e76520cdab388d3430ea50fb8e88f7dce26715a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-production-families"></a>Fremgangsmåde: Arbejde med produktionsfamilier
+# <a name="work-with-production-families"></a>Arbejde med produktionsfamilier
 En produktfamilie er en gruppe individuelle varer, hvis slægtskab er baseret på lighedspunkter i fremstillingsprocesserne. Ved hjælp af produktionsfamilier kan visse varer forarbejdes to eller flere gange i samme proces, hvilket optimerer materialeforbruget.
 
 I feltet **Antal** i vinduet **Familie** skal du angive det antal, der er produceret, når hele familien er produceret én gang.
@@ -35,12 +35,12 @@ Ved at oprette produktionsfamilier reduceres spildantallet, fordi det, der norma
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Sådan produceres på basis af en produktionsfamilie
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.
-2. Opret et ny produktionsordre. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette produktionsordrer](production-how-to-create-production-orders.md).
+2. Opret et ny produktionsordre. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).
 3. Vælg **Familie** i feltet **Kildetype**.  
 4. Vælg den relevante produktionsfamilie i feltet **Kildenr.**.
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
+[Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planlægning](production-planning.md)   

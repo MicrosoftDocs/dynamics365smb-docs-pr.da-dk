@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9fb79b0eaeca7428646c67a77b824cbdca7a652b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b652ca286f7b93c82fa5941449be96729a1e95f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cost-accounting"></a>Konfigurere omkostningsregnskab
@@ -26,10 +26,10 @@ Før du begynder at arbejde med omkostningsregnskab, skal du udføre opsætnings
 
 |Til|Se|  
 |--------|---------|  
-|Opret diagrammet over omkostningstyper.|[Sådan defineres omkostningstyper](finance-how-to-set-up-cost-types.md)|  
+|Opret diagrammet over omkostningstyper.|[Oprette omkostningstyper](finance-how-to-set-up-cost-types.md)|  
 |Få mere at vide om forbindelsen mellem omkostningstype og finanskontoen.|[Definition af forholdet mellem omkostningstyper og finanskonti.](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)|  
-|Opret diagrammet omkostningssteder.|[Sådan opsættes omkostningssteder](finance-how-to-set-up-cost-centers.md)|  
-|Opret diagrammet omkostningsobjekter.|[Fremgangsmåde: Konfigurere omkostningsobjekter](finance-how-to-set-up-cost-objects.md)|  
+|Opret diagrammet omkostningssteder.|[Oprette omkostningssteder](finance-how-to-set-up-cost-centers.md)|  
+|Opret diagrammet omkostningsobjekter.|[Oprette omkostningsemner](finance-how-to-set-up-cost-objects.md)|  
 
 ## <a name="see-also"></a>Se også  
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)  

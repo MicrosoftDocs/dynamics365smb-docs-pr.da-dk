@@ -13,14 +13,14 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 075c49d0fb452a47cc67e21c56e9e7a69232555e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: eb964479bf6fd2f60eae278a7b14ec36e3a7e9ff
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-getaddressio-uk-postcodes-extension-to-microsoft-dynamics-365-business-edition"></a>Den britiske GetAddress.io-postnummerudvidelse til Microsoft Dynamics 365 Business edition 
+# <a name="the-getaddressio-uk-postcodes-extension-to-microsoft-finance-and-operations-business-edition"></a>Den britiske GetAddress.io-postnummerudvidelse til Microsoft Finance and Operations, Business edition 
 Den britiske GetAddress.io-postnummerudvidelse kan spare tid og forhindre fejl, når du angiver adresser for enheder som debitorer, kreditorer, bankkonti og medarbejdere. Når du opretter en debitor, skal du f.eks. blot vælge et postnummer, så viser [!INCLUDE[d365fin](includes/d365fin_md.md)] en liste over adresser. Vælg den ønskede adresse, så udfyldes adressefelterne med det samme.  
 
 ##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Sådan bruger du den britiske GetAddress.io-postnummerudvidelse, når du angiver en adresse

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 58c243000bea5b70666b2a08cdd5696444e22f0f
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gennemgang: Opsætning og brug af workflow for godkendelse af køb
@@ -158,14 +158,14 @@ Du har nu oprettet og testet en simpel godkendelsesarbejdsgang baseret på de to
 
 Den generelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en række arbejdsgangskabeloner til scenarier, der understøttes af programkoden. De fleste af disse er til godkendelsesarbejdsgange. Du kan finde flere oplysninger i Workflowskabeloner  
 
-Du definerer arbejdsgangsvariationer ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette arbejdsgange](across-how-to-create-workflows.md).  
+Du definerer arbejdsgangsvariationer ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
 
 Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal en Microsoft-partner implementere dem ved at tilpasse programkoden. Du kan finde flere oplysninger i [Gennemgang: Implementering af nye workflowhændelser og -responser](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) i hjælpen til udviklere og it-eksperter.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)   
+[Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)   
 [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)   
-[Fremgangsmåde: Oprette arbejdsgange](across-how-to-create-workflows.md)   
-[Fremgangsmåde: Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)   
+[Oprette arbejdsgange](across-how-to-create-workflows.md)   
+[Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)   
 [Workflow](across-workflow.md)
 

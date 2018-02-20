@@ -11,15 +11,15 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 462400f4a404592ec8f63e6a5e47e45c2158b7ea
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e975a945b878c39dc095e2e129a4ac0c02ee6c29
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-allocate-resources"></a>Sådan gør du: Allokere ressourcer
-Det vigtigste element i servicestyring er de mennesker, der leverer servicen. Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at tildele de relevante personer til de relevante job. Opgaverne kan baseres på servicezoner, hvor personerne befinder sig, eller hvor servicen finder sted. Du kan desuden gruppere ressourcerne, når der reageres på serviceanmodninger. Du kan finde flere oplysninger i [Fremgangsmåde: Definere ressourceallokering](service-how-setup-resource-allocation.md).
+# <a name="allocate-resources"></a>Allokere ressourcer
+Det vigtigste element i servicestyring er de mennesker, der leverer servicen. Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at tildele de relevante personer til de relevante job. Opgaverne kan baseres på servicezoner, hvor personerne befinder sig, eller hvor servicen finder sted. Du kan desuden gruppere ressourcerne, når der reageres på serviceanmodninger. Du kan finde flere oplysninger i [Definere ressourceallokering](service-how-setup-resource-allocation.md).
 
 Du kan allokere ressourcer, f.eks. teknikere, ved hjælp af **Ordreoversigt** eller fra en serviceordre. Du kan bruge ressourcedisponering til at allokere ressourcer, der skal udføre serviceopgaverne i ordrerne eller tilbuddene.
 
@@ -142,6 +142,6 @@ Du kan annullere ressourceallokeringer til serviceopgaver uden at genallokere op
     > Indstillingen **Genallokering nødvendig** i feltet **Status** markeres automatisk. Hvis reparationsstatus for serviceartiklen i posten er **Oprettet**, ændres reparationsstatus automatisk til **Henvist**, dvs. at der ikke er påbegyndt nogen reparation. Hvis reparationsstatus er **I arbejde**, ændres den til **Delvist repareret**, dvs. at en del af reparationen er udført.
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Definere ressourceallokering](service-how-setup-resource-allocation.md)  
+[Opsætte ressourceallokering](service-how-setup-resource-allocation.md)  
 [Allokeringsstatus og reparationsstatus](service-allocation-status-and-repair-status.md)  
 

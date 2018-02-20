@@ -13,13 +13,13 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-contacts-to-segments"></a>Fremgangsmåde: Tilføje kontakter til målgrupper
+# <a name="add-contacts-to-segments"></a>Tilføje kontakter til målgrupper
 Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne i vinduet **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Sådan tilføjes en kontakt til en målgruppe
@@ -54,7 +54,7 @@ Efter du har valgt kontakter i en målgruppe, kan du have behov for at fjerne no
 Der er ingen begrænsninger på, hvor mange gange du kan fjerne kontakter fra en målgruppe. Hvis du har fjernet forkerte kontakter og vil gå ét trin tilbage, skal du vælge handlingen **Gå tilbage**.
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Oprette en målgruppe](marketing-how-create-segment.md)   
+[Oprette en målgruppe](marketing-how-create-segment.md)   
 [Administrere målgrupper](marketing-segments.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -13,25 +13,25 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db8f59a71b8a6afa26e878e189f8cb2ef85685e5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-payments-to-a-bank-file"></a>Fremgangsmåde: Eksportere betalinger til en bankfil
+# <a name="export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
 Når du er klar til at bogføre betalinger til dine kreditorer eller refusioner til dine medarbejdere, kan du eksportere en fil med betalingsoplysningerne på kladdelinjerne i vinduet **Udbetalingskladde**. Derefter kan du overføre filen til din bank for at behandle de relaterede pengeoverførsler.
 
-I den generelle version af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] bliver en global udbyder af tjenester til konvertering af bankoplysninger til ethvert filformat, som kræves af din bank, konfigureret og tilsluttet. I nordamerikanske versioner kan den samme tjeneste bruges til at sende betalingsfiler som elektronisk pengeoverførsel (EFT), men med en lidt anderledes proces. Se trin 6 i afsnittet "Sådan eksporterer du betalinger til en bankfil".    
+I den generelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver en global udbyder af tjenester til konvertering af bankoplysninger til ethvert filformat, som kræves af din bank, konfigureret og tilsluttet. I nordamerikanske versioner kan den samme tjeneste bruges til at sende betalingsfiler som elektronisk pengeoverførsel (EFT), men med en lidt anderledes proces. Se trin 6 i afsnittet "Sådan eksporterer du betalinger til en bankfil".    
 
 > [!NOTE]  
->   Inden du kan udlæse betalingsfiler fra betalingskladden, du skal angive det elektroniske format for den bankkonto, der anvendes, og du skal aktivere tjenesten til konvertering af bankdata. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette bankkonti](bank-how-setup-bank-accounts.md) og [Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md). Desuden skal du markere afkrydsningsfeltet **Tillad eksport af betaling** i vinduet **Finanskladdenavne**. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
+>   Inden du kan udlæse betalingsfiler fra betalingskladden, du skal angive det elektroniske format for den bankkonto, der anvendes, og du skal aktivere tjenesten til konvertering af bankdata. Du kan finde flere oplysninger i [Oprette bankkonti](bank-how-setup-bank-accounts.md) og [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md). Desuden skal du markere afkrydsningsfeltet **Tillad eksport af betaling** i vinduet **Finanskladdenavne**. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 Brug vinduet **Kreditoverførselsjournaler** til at få vist de betalingsfiler, som er eksporteret fra betalingskladden. I dette vindue kan du også udlæse betalingsfiler igen i tilfælde af tekniske fejl eller filændringer. Bemærk dog, at de eksporterede EFT-filer ikke vises i dette vindue og ikke kan reeksporteres.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Sådan eksporterer du betalinger til en bankfil
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
-2. Udfyld udbetalingskladdelinjer, f.eks. ved hjælp af funktionen **Lav kreditorbetalingsforslag**. Du kan finde flere oplysninger i [Fremgangsmåde: Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
+2. Udfyld udbetalingskladdelinjer, f.eks. ved hjælp af funktionen **Lav kreditorbetalingsforslag**. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
 3. Udfyld felterne på betalingskladdelinjerne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -62,7 +62,7 @@ Nedenfor beskrives en løsning på, hvordan du eksporterer elektroniske refusion
 
 > [!CAUTION]  
 >   De betalingskladdelinjer, der oprettes, kan ikke bogføres, slettes eller annulleres.
-1. Opret kunden som kreditor. Navngiv kreditoren "Kunde X for refusioner" f.eks. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md).
+1. Opret kunden som kreditor. Navngiv kreditoren "Kunde X for refusioner" f.eks. Du kan finde flere oplysninger i [Registrere nye kreditorer](purchasing-how-register-new-vendors.md).
 2. På betalingskladdelinjen for kunden, kan du indstille feltet **Kontotype** til **Debitor** og feltet **Dokumenttype** til **Refusion**.
 3. Udfør de normale trin til eksport af betaling som beskrevet i afsnittet "Sådan eksporterer du betalinger til en bankfil".
 
@@ -89,6 +89,4 @@ Du kan eksportere betalingsfiler igen fra vinduet **Kreditoverførselsjournaler*
 [Gæld](payables-manage-payables.md)  
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

@@ -13,18 +13,18 @@ ms.search.keywords: project management, consumption
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2b42abaed502c49a595a35656570548e48321b46
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b0bd4f9a4c0963520631e1571fd182adce85fdd9
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-record-usage-for-jobs"></a>Fremgangsmåde: Registrere forbrug for sager
-I vinduet **Sagsplanlægningslinjer** kan du gennemse og registrere forbrug på forskellige dele af din sag, der automatisk opdateres, når du ændrer eller overfører oplysninger mellem sag og sagskladder eller sagsfakturaer. Dette kræver, at du har oprettet en sag, så **Anvend anvendelseslink** er aktiveret. Du kan finde flere oplysninger i [Fremgangsmåde: Opsætte sager](projects-how-setup-jobs.md).  
+# <a name="record-usage-for-jobs"></a>Registrere forbrug for sager
+I vinduet **Sagsplanlægningslinjer** kan du gennemse og registrere forbrug på forskellige dele af din sag, der automatisk opdateres, når du ændrer eller overfører oplysninger mellem sag og sagskladder eller sagsfakturaer. Dette kræver, at du har oprettet en sag, så **Anvend anvendelseslink** er aktiveret. Der er flere oplysninger i [Konfigurere sager](projects-how-setup-jobs.md).  
 
 F.eks. kan du angive antallet af en ressource, og hvilken mængde, der skal overføres til sagskladden, for planlægningslinjer af typen **Budget**. Hvis planlægningslinjens type er **Fakturerbar**, kan du angive antallet af ressourcen, og angive hvilket antal, der skal overføres til en faktura. Ved at sammenligne det antal, der er blevet overført til kladden eller fakturaen med restantallet, kan du hurtigt gennemgå anvendelsesoplysninger.
 
-Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare) eller budgetterede sagspriser og -omkostninger. Du kan finde oplysninger om vurdering af budgetterede værdier under planlægning under [Fremgangsmåde: Administrere sagsbudgetter](projects-how-manage-budgets.md).
+Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare) eller budgetterede sagspriser og -omkostninger. Du kan finde oplysninger om vurdering af budgetterede værdier under planlægning under [Administrere sagsbudgetter](projects-how-manage-budgets.md).
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Sådan registreres forbrug for en sagsplanlægningslinje af typen Budget
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
@@ -41,7 +41,7 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 10. Gentag trin 3 til 8 for at registrere ekstra forbrug.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Sådan registreres forbrug for en sagsplanlægningslinje af typen Fakturerbar
-I den næste opgave kan du også registrere forbrug, men for en sagsplanlægningslinje af typen **Fakturerbar**. I dette tilfælde skal du typisk fakturere dit forbrug, men du kan også overføre det til en kladde. Men, hvis du gør det, oprettes der en sagsplanlægningslinje af typen **Budget**, der skal svare til den fakturerbare linje. Du kan finde flere oplysninger i [Fremgangsmåde: Administrere sagsbudgetter](projects-how-manage-budgets.md).
+I den næste opgave kan du også registrere forbrug, men for en sagsplanlægningslinje af typen **Fakturerbar**. I dette tilfælde skal du typisk fakturere dit forbrug, men du kan også overføre det til en kladde. Men, hvis du gør det, oprettes der en sagsplanlægningslinje af typen **Budget**, der skal svare til den fakturerbare linje. Du kan finde flere oplysninger i [Administrere sagsbudgetter](projects-how-manage-budgets.md).
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.
 2. Markér den relevante sag, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
@@ -79,7 +79,7 @@ Når du er klar til at bogføre finansielle oplysninger for sager, skal du opret
 Når du har bogført sagskladdelinjer, kan du se de planlægningslinjer, der er knyttet til posterne i sagskladden, der er blevet bogfør.
 
 > [!NOTE]  
->   Dette kræver, at afkrydsningsfeltet **Anvend anvendelseslink** er blevet valgt til sagen eller er standardindstillingen for alle sager i organisationen. Du kan finde flere oplysninger i [Fremgangsmåde: Opsætte sager](projects-how-setup-jobs.md).  
+>   Dette kræver, at afkrydsningsfeltet **Anvend anvendelseslink** er blevet valgt til sagen eller er standardindstillingen for alle sager i organisationen. Der er flere oplysninger i [Konfigurere sager](projects-how-setup-jobs.md).  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
 2. Vælg en relevant sagskladde, og vælg derefter handlingen **Poster**.  

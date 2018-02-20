@@ -13,17 +13,18 @@ ms. search.keywords: extension, bank, formats
 ms.date: 09/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0a8effa535152b96a4044a33eaf45d4a69bcff23
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f99955a585a75d77ce2ce5e3d0da3e79d4bda157
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-tax-file-formats-dk-extension-for-dynamics-365-for-finance-and-operations-business-edition"></a>Udvidelsen Tax File Formats (DK) til Dynamics 365 for Finance and Operations, Business Edition
+# <a name="the-tax-file-formats-dk-extension-for-finance-and-operations-business-edition"></a>Udvidelsen Tax File Formats (DK) til Finance and Operations, Business edition
 Hvis du deltager i handel med virksomheder eller interne filialer eller datterselskaber i andre EU-lande, skal du rapportere oplysninger om aktiviteterne til SKAT og til Danmarks Statistik. Hvis du bruger funktionerne til moms- og Intrastat-rapportering i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan denne udvidelse sikre, at filen, du eksporterer, er kompatibel med kravene fra disse virksomheder. Udvidelsen tilføjer afsendelseskodeenhederne MS ECSL Report Export File og Intrastat Export Lines til din konfiguration af momsrapporten, så du kan eksportere data i det nye format med det samme.
 
-Udvidelsen er gratis, du skal blot installere den. 
+Udvidelsen er gratis, du skal blot installere den.
 
 ## <a name="see-also"></a>Se også
-[Tilpasse Dynamics 365, Business edition ved hjælp af udvidelser](ui-extensions.md)
+[Tilpasning af Finance and Operations, Business edition ved hjælp af udvidelser](ui-extensions.md)
+

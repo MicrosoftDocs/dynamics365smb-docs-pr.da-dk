@@ -1,6 +1,6 @@
 ---
-title: Konfigurere mail i Dynamics 365 Business edition | Microsoft Docs
-description: Beskriver, hvordan du bruger virksomhedens SMTP-server til at sende og modtage mails i Dynamics 365, eller alternativt hvordan du bruger de mailserverindstillinger, der blev oprettet sammen med Office 365-abonnementet.
+title: Konfigurere mail i Finance and Operations, Business edition | Microsoft Docs
+description: Beskriver, hvordan du bruger virksomhedens SMTP-server til at sende og modtage mails i Finance and Operations, Business edition eller alternativt kan bruge de mailserverindstillinger, der blev oprettet med Office 365-abonnementet.
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2389c97c37a2b35da01c846b32a81a1c7bbf2bad
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Fremgangsmåde: Konfigurere mail manuelt eller ved hjælp af den assisterede opsætning
+# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurere mail manuelt eller ved hjælp af den assisterede opsætning
 Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne i vinduet **SMTP-mailopsætning**.
 
 > [!NOTE]  
@@ -36,7 +36,7 @@ Du kan enten oprette mail manuelt, eller du kan få hjælp af den assisterede op
 ## <a name="see-also"></a>Se også  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md)  
+[Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på min mobilenhed](install-mobile-app.md)

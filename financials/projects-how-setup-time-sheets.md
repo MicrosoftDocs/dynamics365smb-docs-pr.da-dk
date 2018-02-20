@@ -13,13 +13,13 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3e85168709eb8e96b2ee2aea516189c2cf88d426
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a5b2027649e2adddfd3e59b4376303059f575a99
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-time-sheets"></a>Sådan gør du: Konfigurere timesedler
+# <a name="set-up-time-sheets"></a>Konfigurere timesedler
 Timesedler i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndterer tidsregistrering i ugentlige intervaller på syv dage. Du kan bruge til at registrere den tid, der er brugt på sager, og du kan bruge dem til at registrere simpel ressourcetidsregistrering. Før du kan bruge timesedler, skal du angive, hvordan du vil have dem oprettet og konfigureret.
 
 Når du har konfigureret, hvordan organisationen skal bruge timesedler, kan du angive, om og hvordan timesedler godkendes. Afhængigt af organisationens behov kan du angive:
@@ -27,7 +27,7 @@ Når du har konfigureret, hvordan organisationen skal bruge timesedler, kan du a
 * En eller flere brugere som timeseddeladministrator og godkendere for alle timesedler.
 * En timeseddelgodkender for hver ressource.
 
-Når du har oprettet timesedler, kan du oprette timesedler for ressourcer, tildele dem til planlægningslinjer og bogføre timeseddellinjer. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge timesedler](projects-how-use-time-sheets.md).
+Når du har oprettet timesedler, kan du oprette timesedler for ressourcer, tildele dem til planlægningslinjer og bogføre timeseddellinjer. Du kan finde flere oplysninger i [Bruge timesedler](projects-how-use-time-sheets.md).
 
 ## <a name="to-set-up-general-information-for-time-sheets"></a>Sådan angives generelle oplysninger for timesedler
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ressourceopsætning**, og vælg derefter det relaterede link.  
@@ -42,7 +42,7 @@ Når du har oprettet timesedler, kan du oprette timesedler for ressourcer, tilde
 
 ## <a name="to-assign-a-time-sheet-administrator"></a>Sådan tildeles en timeseddeladministrator
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ressourceopsætning**, og vælg derefter det relaterede link.  
-2. Tilføj en ny bruger, hvis brugerlisten ikke omfatter den person, som du ønsker, skal være timeseddeladministrator. Du kan finde flere oplysninger i [Fremgangsmåde: Administrere brugere og rettigheder](ui-how-users-permissions.md).
+2. Tilføj en ny bruger, hvis brugerlisten ikke omfatter den person, som du ønsker, skal være timeseddeladministrator. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).
 3. Vælg en bruger, der skal være timeseddeladministrator, og marker derefter afkrydsningsfeltet **Timeseddeladm.**.  
 
 > [!TIP]  

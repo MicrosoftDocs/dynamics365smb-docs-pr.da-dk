@@ -1,8 +1,6 @@
 ---
-title: Bruge Dynamics 365 Business edition sammen med Outlook | Microsoft Docs
-description: "Dynamics 365 Business edition er tæt integreret med Office 365, så du kan administrere alle dine forretningsaktiviteter og sende og modtage mail til og fra kunder og leverandører direkte i Outlook."
-services: project-madeira
-documentationcenter: 
+title: Bruge Finance and Operations, Business edition sammen med Outlook | Microsoft Docs
+description: "Denne tjeneste er tæt integreret med Office 365, så du kan administrere alle dine forretningsaktiviteter og sende og modtage mail til og fra kunder og leverandører direkte i Outlook."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -13,19 +11,19 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 473c21085c54c7f97f34404eeb18683cf4479e41
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Bruge Dynamics 365 for Finance and Operations, Business edition som din virksomhedsindbakke i Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] introducerer muligheden for at administrere forretningsinteraktioner med kunder og leverandører direkte i Microsoft Outlook. Med Outlook-tilføjelsesprogrammerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se finansielle data, der er relateret til debitorer og kreditorer samt oprette og sende finansielle dokumenter, f.eks tilbud og fakturaer.  
+# <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Bruge Finance and Operations, Business edition som din virksomhedsindbakke i Outlook
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  introducerer muligheden for at administrere forretningsinteraktioner med kunder og leverandører direkte i Microsoft Outlook. Med Outlook-tilføjelsesprogrammerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se finansielle data, der er relateret til debitorer og kreditorer samt oprette og sende finansielle dokumenter, f.eks tilbud og fakturaer.  
 
 ## <a name="getting-the-add-in"></a>Få tilføjelsesprogrammet
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er et af trinnene i den assisterede opsætningsvejledning vinduet **Kør din virksomhed fra Office 365**. I dette vindue skal du angive Office 365-brugernavn og -adgangskode, når du klikker på knappen **Opsæt i Outlook**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammerne føjes derefter automatisk til Outlook.  
 
-Når du åbner Outlook, vises en mail fra Dynamics 365-administratoren. Det nye tilføjelsesprogram føjes til Outlook-båndet og i Outlook Web Access kan du se det i tilføjelsesprogrambåndet lige over brødteksten i mailen. Selve tilføjelsesprogrammet opdateres med jævne mellemrum, og du får besked, når en ny version er klar i Outlook.  
+Når du åbner Outlook, vises en mail fra administratoren af Finance and Operations, Business edition. Det nye tilføjelsesprogram føjes til Outlook-båndet og i Outlook Web Access kan du se det i tilføjelsesprogrambåndet lige over brødteksten i mailen. Selve tilføjelsesprogrammet opdateres med jævne mellemrum, og du får besked, når en ny version er klar i Outlook.  
 
 Nogle virksomheder, der bruger Office 365, begrænser brugernes adgang til at implementere tilføjelser. Derfor skal du kontrollere, at du har et Office 365-abonnement, der omfatter mail, hvor du kan implementere tilføjelser. Hvis du vil prøve tilføjelsesprogrammet alligevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 

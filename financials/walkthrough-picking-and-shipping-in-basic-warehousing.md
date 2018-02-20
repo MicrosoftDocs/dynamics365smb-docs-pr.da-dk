@@ -1,6 +1,6 @@
 ---
 title: "Gennemgang - Pluk og forsendelse i grundlæggende lageropsætninger | Microsoft Docs"
-description: "I Dynamics 365 kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret."
+description: "I Finance and Operations, Business edition kan de udgående processer for plukning og forsendelse udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 41a23df0e19bda1262dafbfaf89df7518b2b40b6
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger
@@ -119,12 +119,12 @@ I vinduet **Pluk (lager)** kan du administrere alle udgående lageraktiviteter t
     De 30 højttalere er nu registreret som plukket fra placeringerne S-01-0001 og S-01-0002, og der oprettes en negativ varepost, der afspejler den bogførte salgsleverance.  
 
 ## <a name="see-also"></a>Se også  
- [Sådan plukkes varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)   
- [Fremgangsmåde: Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Fremgangsmåde: Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [Sådan flyttes komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [Fremgangsmåde: Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md)   
- [Sådan flyttes varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
+ [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)   
+ [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
+ [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
+ [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md)   
+ [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

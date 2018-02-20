@@ -1,6 +1,6 @@
 ---
 title: Velkommen | Microsoft Docs
-description: "Beskriver de assisterede opsætningsvejledninger, videoer, Hjælp-emner og sider og vinduer, der hjælper dig i gang med at bruge Dynamics 365 Business edition."
+description: "Beskriver de assisterede opsætningsvejledninger, videoer, Hjælp-emner og sider og vinduer, der hjælper dig i gang med at bruge Finance and Operations, Business edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
@@ -39,7 +39,7 @@ I vinduet **Assisteret opsætning** kan du finde følgende i **Basis**-oplevelse
 | Konfig. Office-tilf.prog. |Konfigurerer muligheden for at bruge og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
 | Konfig. godkendelsesworkflow |Konfigurerer muligheden for automatisk at underretter en godkender, når en bruger forsøger at oprette eller ændre bestemte værdier i dokumenter, kladdelinjer eller på kort som f.eks. et beløb over en angivet grænse. |
 | Konfigurer maillogføring |Konfigurerer muligheden for at gemme mailkorrespondance i [!INCLUDE[d365fin](includes/d365fin_md.md)] for at følge op på interaktioner. |
-| Konfigurere Dynamics 365 Connector |Opretter forbindelse til Dynamics 365 for Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
+| Konfigurere Finance and Operations, Business edition-konnektor |Opretter forbindelse til Dynamics 365 for Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
 
 Når du har udført en assisteret opsætning, markeres den som **Afsluttet**. Når du vil udføre den assisterede opsætning, skal du vælge de tre punktummer, den såkaldte genvejsmenu, og derefter kan du vælge **Start opsætning**.
 
@@ -51,7 +51,7 @@ Brug pilene til at skjule en del af siden og få mere plads til at se specifikke
 Under **Virksomhedsindstillinger** kan du se og redigere opsætningsoplysninger om den aktuelle virksomhed, meget af det er udfyldt på forhånd, hvis du fuldførte den assisterede opsætning **Konfigurer virksomhed**, da du oprettede [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ændre virksomhedens logo, kontaktoplysninger, bankindstillinger eller momsoplysninger, kan du gøre det i dette vindue.    
 
 ## <a name="adding-users-and-permissions"></a>Tilføje brugere og rettigheder
-Hvis du vil tilføje flere brugere, kan dette gøres fra Office 365 Administration. Du kan finde flere oplysninger under [Føje brugere til Office 365 til virksomheder](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Når brugerne er oprettet i Office 365, kan de importeres i vinduet **Brugere** ved hjælp af handlingen **Hent brugere fra Office 365**. Du kan derefter fortsætte med at give tilladelser til brugere og organisere dem i brugergrupper. Du kan finde flere oplysninger i [Fremgangsmåde: Administrere brugere og rettigheder](ui-how-users-permissions.md).  
+Hvis du vil tilføje flere brugere, kan dette gøres fra Office 365 Administration. Du kan finde flere oplysninger under [Føje brugere til Office 365 til virksomheder](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Når brugerne er oprettet i Office 365, kan de importeres i vinduet **Brugere** ved hjælp af handlingen **Hent brugere fra Office 365**. Du kan derefter fortsætte med at give tilladelser til brugere og organisere dem i brugergrupper. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Sådan får du hjælp
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du finde værktøjstip, der kan hjælpe med at føre dig gennem de forskellige forretningsprocesser. Hvert værktøjstip indeholder linket **Lær mere**, som fører til produkthjælp. Spørgsmålstegnet i øverste højre hjørne henviser også til produkthjælp.
@@ -61,5 +61,5 @@ Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs-
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Fremgangsmåde: Administrere brugere og rettigheder](ui-how-users-permissions.md)
+[Administrere brugere og deres rettigheder](ui-how-users-permissions.md)
 

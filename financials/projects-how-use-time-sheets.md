@@ -10,26 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/06/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 545b06fac95994229ec0442c7aacb57cc56001ff
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-time-sheets-for-jobs"></a>Fremgangsmåde: Bruge timesedler for sager
+# <a name="use-time-sheets-for-jobs"></a>Bruge timesedler for sager
 Du bruger kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Du skal have tilladelser for at kunne oprette timesedler.
 
 Du kan kopiere og bruge dine sagsplanlægningslinjer i en timeseddel. På denne måde må du kun indtaste oplysninger på ét sted, og linjeoplysningerne vil altid være korrekte.
 
 Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde eller ressourcekladde.
 
-Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler. Du kan finde flere oplysninger i [Fremgangsmåde: Angive timesedler](projects-how-setup-time-sheets.md).
-
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-a-time-sheet"></a>Sådan opretter du en timeseddel
 Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave.
@@ -96,7 +93,7 @@ Registrering af timesedler spores i timer, standardbasisenheden for ressourcer. 
 En timeseddel skal sendes til godkendelse, før den kan bruges. Du kan godkende og afvise individuelle linjer på en timeseddel eller sende dem tilbage til afsenderen til yderligere behandling. En timeseddel kan godkendes på to måder:
 
 * En timeseddeladministrator kan godkende enhver timeseddel.
-* Den person, der er angivet i feltet **Bruger-id for timeseddelgodkender** på et ressourcekort, kan godkende timesedler for den pågældende ressource. Du kan finde flere oplysninger i [Fremgangsmåde: Angive timesedler](projects-how-setup-time-sheets.md).
+* Den person, der er angivet i feltet **Bruger-id for timeseddelgodkender** på et ressourcekort, kan godkende timesedler for den pågældende ressource. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leders timesedler**, og vælg derefter det relaterede link.
 2. Vælg en timeseddel på listen.  

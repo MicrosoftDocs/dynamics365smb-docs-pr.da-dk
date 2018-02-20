@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/09/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d30a1316b48bd1b80ab4658ee99b14f0a0217478
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1553b5f85cd9f00f9de15b59bcf258fba412967b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Sådan gør du: Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden
+# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden
 Du kan bruge feltet **Udlign fra-post** i vinduet **Varekladde** for at oprette en fast udligning mellem en indgående transaktion og den oprindelige udgående transaktion. For eksempel for at rette den udgående transaktion eller behandle dens returvare. Du kan finde flere oplysninger i Udlign fra-post.  
 
 > [!IMPORTANT]  
@@ -35,8 +35,8 @@ Følgende procedure viser, hvordan du kan lukke disse poster ved at udføre to k
 2.  Brug feltet **Udlign.postløbenr.** for at bogføre en negativ regulering. Den oprindelige positive rettelsespost med fast udligning lukkes.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Fjerne og genanvende poster](finance-how-to-remove-and-reapply-item-entries.md)  
- [Fremgangsmåde: Behandle salgsreturvarer og annulleringer](sales-how-process-sales-returns-cancellations.md)   
+[Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)  
+ [Behandle salgsreturvarer og annulleringer](sales-how-process-sales-returns-cancellations.md)   
  [Opsætte lagerværdi og kostprisberegning](finance-set-up-inventory-valuation-and-costing.md)   
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
  [Designoplysninger: Kostmetoder](design-details-costing-methods.md)

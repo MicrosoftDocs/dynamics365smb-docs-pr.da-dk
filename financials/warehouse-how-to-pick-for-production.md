@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 35eb4fdb15eded48510a232ed26aa02b4f5700c2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 68702e384ea750535a8d7e5b83ee619856b6a34b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-for-production-or-assembly"></a>Fremgangsmåde: Plukke til produktion eller montage
+# <a name="pick-for-production-or-assembly"></a>Plukke til produktion eller montage
 Hvordan du skal lægge komponenter på lager til produktions- eller montageordrer afhænger af den måde, som lagerstedet er sat op på som en lokation. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).
 
 I grundlæggende lageropsætninger, hvor lokationen kræver pluk, men ikke leverance, skal du bruge vinduet **Pluk (lager)** til at organisere og registrere pluk af komponenter.  
 
-I grundlæggende lageropsætninger skal du plukke til montageordrer i vinduet **Flytning (lager)**. Du kan finde flere oplysninger i afsnittet "Håndtering af Ordremontagevarer med Pluk (lager)" i [Sådan plukkes varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).  
+I grundlæggende lageropsætninger skal du plukke til montageordrer i vinduet **Flytning (lager)**. Du kan finde flere oplysninger i afsnittet "Håndtering af montage til ordre-varer med pluk (lager)" i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 I avancerede lageropsætninger, hvor lokationer kræver både pluk og leverancer, skal du bruge vinduet **Lagerpluk** til at flytte komponenter til produktions- eller montageordrer.
 
@@ -37,7 +37,7 @@ I avancerede lageropsætninger, hvor lokationer kræver både pluk og leverancer
 En systemforudsætning for plukning eller flytning af komponenter til kildedokumenter er, at der findes en udgående lageranmodning til at give lagerområdet besked om komponentbehovet. Den udgående lageranmodning oprettes, hver gang produktionsordrestatus ændres til Frigivet, eller når en frigivet produktionsordre oprettes.  
 
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Sådan plukkes komponenter i grundlæggende lageropsætninger
-I grundlæggende lageropsætninger, hvor placeringen er konfigureret til kun at bruge pluk, kan du plukke komponenter til produktionsaktiviteter i vinduet **Pluk (lager)**. Du kan finde flere oplysninger i [Sådan plukkes varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).
+I grundlæggende lageropsætninger, hvor placeringen er konfigureret til kun at bruge pluk, kan du plukke komponenter til produktionsaktiviteter i vinduet **Pluk (lager)**. Du kan finde flere oplysninger i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).
 
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pluk (lager)**, og vælg derefter det relaterede link.  
 2.  Du kan få adgang til produktionsordrekomponenterne ved at vælge handlingen **Hent kildedokumenter** og derefter vælge den frigivne produktionsordre.  
@@ -47,14 +47,14 @@ I grundlæggende lageropsætninger, hvor placeringen er konfigureret til kun at 
 Du kan også oprette et **Pluk (lager)** direkte fra den frigivne produktionsordre. Vælg handlingen **Opret læg-på-lager/pluk**, marker afkrydsningsfeltet **Opret pluk (lager)**, og vælg derefter knappen **OK**.
 
 Du kan også bruge vinduet **Flytning (lager)** til at flytte varer mellem placeringer og ad hoc, dvs. uden henvisning til et kildedokument.
-Du kan finde flere oplysninger i [Fremgangsmåde: Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 ### <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Håndtering af montage til ordre-varer med pluk (lager)
-Vinduet **Pluk (lager)** bruges også til at plukke og afsende salg, hvor varerne skal monteres, inden de kan leveres. Du kan finde flere oplysninger i [Sådan sælger du en vare, der er monteret efter ordre](assembly-how-to-sell-items-assembled-to-order.md).
+Vinduet **Pluk (lager)** bruges også til at plukke og afsende salg, hvor varerne skal monteres, inden de kan leveres. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).
 
 Varer, der skal leveres, findes ikke fysisk i en placering, før de er monteret og bogført som afgang til en placering i montageområdet. Det betyder, at pluk af ordremontagevarer til levering følger en speciel strøm. Lagermedarbejderne fra en placering fragter montageelementerne til afsendelsesområdet og bogfører derefter lagerpluk. Den bogførte lagerpluk bogfører derefter montageafgang, komponentforbrug og salgsleverance.
 
-Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at oprette en flytning (lager), når lagerpluk for varen montageelementet oprettes. Når du vil gøre det, skal du vælge feltet **Opret bevægelser automatisk** i vinduet **Montagekonfiguration**. Du kan finde flere oplysninger i [Fremgangsmåde: Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at oprette en flytning (lager), når lagerpluk for varen montageelementet oprettes. Når du vil gøre det, skal du vælge feltet **Opret bevægelser automatisk** i vinduet **Montagekonfiguration**. Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Lagerpluklinjer for salgsvarer oprettes på forskellige måder afhængigt af, om ingen, nogle eller alle salgslinjemængderne samles til ordre.
 
@@ -69,13 +69,13 @@ Hvis en placeringskode ikke er angivet på salgsordrelinjen, og montageafgangsst
 I kombinationsscenarier, hvor en del af mængden først skal samles, og en anden skal plukkes fra lageret, oprettes minimum to lagerpluklinjer. En pluklinje er for ordremontageantal. De andre pluklinje afhænger af, hvilke placeringer der kan opfylde restantal fra lageret. Placeringskoder på de to linjer udfyldes på forskellige måder, som beskrevet for de to forskellige salgtyper. Du kan finde flere oplysninger i afsnittet "Kombinationsscenarier" i [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="to-pick-components-in-advanced-warehouse-configurations"></a>Sådan plukkes komponenter i avancerede lageropsætninger
-I avancerede lageropsætninger, hvor placeringen er konfigureret til at bruge både pluk og levering, kan du plukke komponenter til produktions- og montageaktiviteter i vinduet **Lagerpluk**. Du kan finde flere oplysninger i [Sådan plukkes varer med Pluk (logistik)](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+I avancerede lageropsætninger, hvor placeringen er konfigureret til at bruge både pluk og levering, kan du plukke komponenter til produktions- og montageaktiviteter i vinduet **Lagerpluk**. Du kan finde flere oplysninger i [Plukke varer med Pluk (logistik)](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Du kan også bruge vinduet **Bevægelseskladden** til at flytte varer mellem placeringer og ad hoc, dvs. uden henvisning til et kildedokument. Du kan finde flere oplysninger i [Fremgangsmåde: Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Du kan også bruge vinduet **Bevægelseskladden** til at flytte varer mellem placeringer og ad hoc, dvs. uden henvisning til et kildedokument. Du kan finde flere oplysninger i [Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 Du kan ikke oprette et lagerplukdokument fra bunden, fordi en plukaktivitet altid er en del af en arbejdsproces, enten i et pull- eller push-scenario.  
 
-Du kan oprette lagerplukdokument på en push-måde ved at vælge handlingen **Opret pluk (logistik)** i kildedokumentet, som f.eks. en frigivet montageordre eller lagerleverance. Du kan finde flere oplysninger i [Sådan plukkes varer med Pluk (logistik)](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
+Du kan oprette lagerplukdokument på en push-måde ved at vælge handlingen **Opret pluk (logistik)** i kildedokumentet, som f.eks. en frigivet montageordre eller lagerleverance. Du kan finde flere oplysninger i [Plukke varer med Pluk (logistik)](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
 Du kan også oprette lagerplukdokument på en pull-måde fra vinduet **Plukkladde** for at registrere plukanmodninger, både for forsendelse og interne operationer, og derefter oprette de krævede lagerplukdokumenter.  
 
@@ -99,7 +99,7 @@ Hvis du vil oprette pluk-anmodninger, både for pull- og push-scenarier, skal de
 
 Lagerplukdokumenter oprettes nu med pluklinjer for hver komponent, der kræves i den interne operation.
 
-Hvis det interne operationsområde, f.eks en produktionshal, er sat op med en standardplacering til placering af komponenter, der skal bruges i handlingen, indsættes placeringskoden i Placer-linjerne til lagerplukdokumentet, så lagermedarbejderne kan se, hvor de skal placere elementerne. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md).
+Hvis det interne operationsområde, f.eks en produktionshal, er sat op med en standardplacering til placering af komponenter, der skal bruges i handlingen, indsættes placeringskoden i Placer-linjerne til lagerplukdokumentet, så lagermedarbejderne kan se, hvor de skal placere elementerne. Du kan finde flere oplysninger i [Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md).
 
 ## <a name="filling-the-consumption-bin"></a>Udfylde forbrugsplaceringen
 Dette flow-diagram viser, hvordan feltet **Placeringskode** i produktionsordrekomponenter udfyldes i henhold til din lokationsopsætning.

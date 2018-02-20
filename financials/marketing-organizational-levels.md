@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5b6934b6ea4c07f6e3d90885dfa25d73e14bbb82
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Fremgangsmåde: Oprette kompetenceniveauer for kontaktpersoner
+# <a name="set-up-organizational-levels-for-contact-persons"></a>Oprette kompetenceniveauer for kontaktpersoner
 Du kan bruge kompetenceniveauer til kontakter, så de selv kan angive den stilling, som de har i virksomheden, f.eks. ledelse. Du kan bruge disse oplysninger, når du angiver oplysninger om dine kontakter.
 
 Brug af kompetenceniveauer til kontakter er en totrinsproces. Først skal du definere koden for kompetenceniveauet. Du behøver kun at udføre dette trin én gang for hvert kompetenceniveau. Når du har et kompetenceniveau, kan du begynde at tildele koden til kontakter.
@@ -38,7 +38,7 @@ Du kan kun tilknytte organisationsniveau til kontaktpersoner, ikke kontaktvirkso
 
 Når du har tildelt kompetenceniveauer til dine kontakter, kan du bruge oplysningerne til at oprette målgrupper.
 
-Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
+Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  

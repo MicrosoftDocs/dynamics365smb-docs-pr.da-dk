@@ -1,6 +1,6 @@
 ---
 title: "Forsikring af anlægsaktiver | Microsoft Docs"
-Description: "Du kan tildele et anlægsaktiv en forsikringspolice, som repræsenteres af et forsikringskort."
+Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,23 +13,23 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-insure-fixed-assets"></a>Fremgangsmåde: Forsikre anlægsaktiver
+# <a name="insure-fixed-assets"></a>Forsikring af anlægsaktiver
 En forsikringspolice for et anlægsaktiv repræsenteres af et forsikringskort. Du kan knytte et anlægsaktiv til en forsikringspolice eller flere anlægsaktiver til en forsikringspolice.
 
 Du kan knytte et anlægsaktiv til en forsikringspolice ved at bogføre forsikringsposterne fra vinduet **Forsikringskladde**.
 
-Du kan også knytte et anlægsaktiv til en forsikringspolice og oprette forsikringsposter, når du bogfører anskaffelsesprisen. Dette gøres ved at bogføre en anskaffelsespris fra anlægskladden, hvor feltet **Forsikringsnr.** er udfyldt. Afkrydsningsfeltet **Aut. forsikr.bogføring** i vinduet **Anlægsopsætning** skal være markeret. Du kan finde flere oplysninger i "Sådan bogføres anskaffelse af et anlægsaktiv manuelt med anlægskassekladden" i afsnittet [Fremgangsmåde: Anskaffe anlægsaktiver](fa-how-acquire.md).
+Du kan også knytte et anlægsaktiv til en forsikringspolice og oprette forsikringsposter, når du bogfører anskaffelsesprisen. Dette gøres ved at bogføre en anskaffelsespris fra anlægskladden, hvor feltet **Forsikringsnr.** er udfyldt. Afkrydsningsfeltet **Aut. forsikr.bogføring** i vinduet **Anlægsopsætning** skal være markeret. Du kan finde flere oplysninger i afsnittet "Sådan bogføres anskaffelse af et anlægsaktiv manuelt med anlægskassekladden" i [Anskaffe anlægsaktiver](fa-how-acquire.md).
 
 Hvis afkrydsningsfeltet **Aut. forsikr.bogføring** i vinduet **Anlægsopsætning** ikke er markeret, vil bogføring af anskaffelser fra anlægskladden oprette linjer i vinduet **Forsikringskladde**, som du derefter skal bogføre manuelt.
 
 > [!WARNING]  
->   Hvis du ikke markerer afkrydsningsfeltet **Aut. forsikr.bogføring** i vinduet **Anlægsopsætning**, skal din forsikringskladde være baseret på en kladdetype uden en nummerserie. Det skyldes, at de indsatte dokumentnumre fra anlægskladdelinjen ellers er i konflikt med nummerserien for forsikringskladden. Du kan finde flere oplysninger om kladdetyper og -kørsler i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
+>   Hvis du ikke markerer afkrydsningsfeltet **Aut. forsikr.bogføring** i vinduet **Anlægsopsætning**, skal din forsikringskladde være baseret på en kladdetype uden en nummerserie. Det skyldes, at de indsatte dokumentnumre fra anlægskladdelinjen ellers er i konflikt med nummerserien for forsikringskladden. Du kan finde flere oplysninger om kladdetyper og -kørsler i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
 
 Når du har tildelt et anlægsaktiv til en forsikringspolice, er afkrydsningsfeltet **Forsikret** markeret på anlægskortet. Når du sælger anlægsaktivet, fjernes markeringen i afkrydsningsfeltet automatisk.
 
@@ -70,7 +70,7 @@ Du kan bruge kørslen **Indekser forsikring** til at opdatere værdien af de anl
 5. Åbn den relevante forsikringskladde, gennemse de oprettede værdier, og bogfør dem til forsikringsposterne.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Sådan overvåges forsikringsdækning
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder dedikerede rapporter og statistikvinduer, så du kan analysere forsikringspolicerne og om anlægsaktiverne er over- eller underforsikrede.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder dedikerede rapporter og statistikvinduer, så du kan analysere forsikringspolicerne og om anlægsaktiverne er over- eller underforsikrede.  
 
 ### <a name="overview-of-insurance-policies"></a>Oversigt over forsikringspolicer
 Hvis du vil have et overblik over dine forsikringspolicer, skal du åbne en eksempelvisning af rapporten **Forsikring - stamoplysninger** eller udskrive rapporten. Rapporten indeholder alle policer og de vigtigste felter fra forsikringskortene.  

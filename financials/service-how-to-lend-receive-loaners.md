@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ac8e4cdfda63ed797415fcd183b410feea6bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 06b697ee8335f5c24b61414e9d7aebc5add2c5b0
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-lend-and-receive-loaners"></a>Fremgangsmåde: Udlåne og modtage udlånsvarer
+# <a name="lend-and-receive-loaners"></a>Udlåne og modtage udlånsvarer
 Du kan låne varer til kunderne for midlertidigt at erstatte de serviceartikler, du har modtaget til reparation.  
   
 ## <a name="to-lend-a-loaner-item"></a>Sådan udlånes en lånevare    
@@ -47,5 +47,5 @@ Du kan bruge vinduet **Generelt Servicebemærkninger** til at registrere bemærk
 5. Skriv derefter en kommentar i feltet **Kommentar**. Du kan højst indtaste 80 tegn. Hvis du har brug for at indtaste mere tekst, kan du fortsætte på næste linje. Du kan udfylde så mange linjer, du vil.  
   
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Oprette et udlånsprogram](service-how-setup-loaner-program.md)   
+[Oprette et udlånsprogram](service-how-setup-loaner-program.md)   
 

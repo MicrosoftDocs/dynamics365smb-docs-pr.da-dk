@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 09/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: a370002c08d8ef4cc46baa864f32b6ca2ef01b78
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d0efd02b14cf1b93b18b187b5f9bebfb8618d6a8
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="accountant-portal-for-dynamics-365-business-edition"></a>Revisorportal til Dynamics 365 Business edition
+# <a name="accountant-portal-for-finance-and-operations-business-edition"></a>Revisorportal til Finance and Operations, Business edition.
 Dette program indeholder et dashboard med oversigtsdata for hver af en revisors kunder. Portalen viser finansielle nøgletal samt et direkte link til kundens økonomiprogram.  
 
 Dashboardet er et højt specialiseret rollecenter, der giver et bedre overblik over dine kunder.  
@@ -28,7 +28,7 @@ Når du installerer udvidelsen, hjælper en eksempelvirksomhed dig med at komme 
 ## <a name="installing-the-extension"></a>Installation af udvidelsen
 Når du installerer udvidelsen i [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du spurgt, om du vil bruge den nu. Hvis du vil det, skal du logge af og logge på igen, fordi udvidelsen erstatter dit aktuelle Rollecenter og føjer tilladelser til din brugerprofil.  
 
-Du kan finde flere oplysninger under [Revisoroplevelser i Dynamics 365 Business edition](finance-accounting.md).  
+Du kan finde flere oplysninger under [Revisoroplevelse i Finance and Operations, Business edition ](finance-accounting.md).  
 
 > [!NOTE]  
 >  Den aktuelle version af udvidelsen kræver, at dine klienter bruger [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -39,6 +39,6 @@ Udvidelsen udfases i løbet af få måneder. Det anbefales, at du ikke installer
 Du kan finde flere oplysninger i [Velkommen til Dynamics 365 – Accountant Hub](/dynamics365/accountants/index.md).  
 
 ## <a name="see-also"></a>Se også
-[Revisoroplevelser i Dynamics 365 Business edition](finance-accounting.md)  
+[Revisoroplevelser i Finance and Operations, Business edition ](finance-accounting.md)  
 [Finans](finance.md)  
 

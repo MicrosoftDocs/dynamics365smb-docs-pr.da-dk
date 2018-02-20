@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e578b2d22cf715407fee0b796b1ea49ef592057d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b7ed3e38b4a697de678e11a8735869b666910081
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-revalue-fixed-assets"></a>Fremgangsmåde: Regulere anlægsaktiver
+# <a name="revalue-fixed-assets"></a>Omvurdere anlægsaktiver
 Regulering af anlægsaktiver kan bestå af opskrivninger, nedskrivninger eller generelle værdireguleringer.
 
 Når værdien af et anlægsaktiv er steget, skal du bogføre en kladdelinje med et højere beløb, dvs. en opskrivning, for afskrivningsprofilen. Det nye beløb registreres som en opskrivning ifølge anlægsbogføringsgruppens opsætning.
@@ -34,7 +34,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af opskrivning.
 
     > [!NOTE]  
->   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Opskrivningskonto** finansdebetkontoen og feltet **Opskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
+>   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Opskrivningskonto** finansdebetkontoen og feltet **Opskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Sådan bogføres en nedskrivning fra anlægskassekladden
@@ -44,7 +44,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af nedskrivning.
 
     > [!NOTE]  
->   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Nedskrivningskonto** finansdebetkontoen og feltet **Nedskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for nedskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
+>   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Nedskrivningskonto** finansdebetkontoen og feltet **Nedskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for nedskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Sådan udføres generel værdiregulering af anlægsaktiver
@@ -54,7 +54,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 2. Udfyld felterne efter behov.
 3. Vælg knappen **OK**.
 
-    Der oprettes værdireguleringslinjer ud fra dine indstillinger i trin 2. Linjerne er oprettet i anlægskladden eller anlægskassekladden, afhængigt af skabelonen og kørselsopsætningen i vinduet **Anlægskladdeopsætning**. Du kan finde flere oplysninger i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
+    Der oprettes værdireguleringslinjer ud fra dine indstillinger i trin 2. Linjerne er oprettet i anlægskladden eller anlægskassekladden, afhængigt af skabelonen og kørselsopsætningen i vinduet **Anlægskladdeopsætning**. Du kan finde flere oplysninger i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
 4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 5. Vælg kladden med de anlægsaktiver, du vil regulere værdien for, og vælg derefter handlingen **Poster**.  
 6. Kontroller de oprettede poster, og vælg derefter handlingen **Bogfør** for at bogføre kladden.
@@ -63,7 +63,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 >   Hvis indekstallene kun skal bruges til simulering, kan du oprette en særlig afskrivningsprofil, hvor de kan opbevares. Derefter kan disse poster ikke indvirke på de øvrige afskrivningsprofiler.
 
    ## <a name="to-post-additional-acquisition-costs"></a>Sådan bogføres ekstra anskaffelser
-   Du bogfører prisen for ekstraanskaffelse af et anlægsaktiv på samme måde, som du bogfører den oprindelige anskaffelsespris, dvs. fra en købsfaktura eller fra en anlægskladde. Du kan finde flere oplysninger i [Fremgangsmåde: Anskaffe anlægsaktiver](fa-how-acquire.md).  
+   Du bogfører prisen for ekstraanskaffelse af et anlægsaktiv på samme måde, som du bogfører den oprindelige anskaffelsespris, dvs. fra en købsfaktura eller fra en anlægskladde. Du kan finde flere oplysninger i [Anskaffe anlægsaktiver](fa-how-acquire.md).  
 
 Hvis der allerede er beregnet afskrivning for anlægsaktivet, skal du markere afkrydsningsfeltet **Afskriv anskaffelse**, for at den ekstra anskaffelsespris minus skrapværdien afskrives i forhold til det beløb, hvormed det tidligere anskaffede anlægsaktiv i forvejen er blevet afskrevet. Dette sikrer, at afskrivningsperioden ikke ændres.  
 

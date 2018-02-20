@@ -1,6 +1,6 @@
 ---
-title: Oversigt over opgaver til konfiguration af Dynamics 365 Business edition | Microsoft Docs
-description: "Beskriver opgaver, som du kan udføre for at oprette, initialisere og konfigurere Dynamics 365 Business edition efter dine behov."
+title: Oversigt over opgaver til konfiguration af Finance and Operations, Business edition | Microsoft Docs
+description: "Beskriver opgaver, som du kan udføre for at oprette, initialisere og konfigurere Finance and Operations, Business edition efter dine behov."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7acca4df366752355e5bf28ace6c82fbca196725
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Opsætning af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til virksomhedens behov.
+# <a name="setting-up-included365finincludesd365finmdmd"></a>Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til virksomhedens behov.
 
 F.eks er din kontoplan på forhånd udfyldt med en række bogføringskonti, der er klar til brug. Du kan også ændre kontoplanen efter dine behov. Du kan finde flere oplysninger i [Finans](finance.md).
 
@@ -38,10 +38,10 @@ Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan k
 |Definere de generelle regler og værdier for lagerprocesser og den specifikke håndtering på hver enkelt lokation.|[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)|
 |Forberede produktionsstyklister og ruter for at definere, hvordan færdigvarer produceres, og forberede produktionsressourcer eller arbejdscentre, der skal udføre de krævede operationer.|[Konfigurere produktion](production-configure-production-processes.md)|
 | Angive entydige identifikationskoder for poster, som f.eks. kort, dokumenter og kladdelinjer, for at spore dem i systemet. |[Oprette nummerserie](ui-create-number-series.md) |
-| Konfigurere vinduet **SMTP-mailopsætning** til at sende og modtage e-mails fra dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Fremgangsmåde: Konfigurere mail](madeira-how-setup-email.md) |
-| Oprette entydige id-koder. |[Fremgangsmåde: Oprette nummerserier](ui-create-number-series.md) |
+| Konfigurere vinduet **SMTP-mailopsætning** til at sende og modtage e-mails fra dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Konfigurere mail](madeira-how-setup-email.md) |
+| Oprette entydige id-koder. |[Oprette nummerserie](ui-create-number-series.md) |
 
-For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Du kan finde flere oplysninger i [Konfiguration og administration i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
+For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Du kan finde flere oplysninger i [Konfiguration og administration i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
@@ -58,5 +58,6 @@ For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365f
 [Oprettelse af nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

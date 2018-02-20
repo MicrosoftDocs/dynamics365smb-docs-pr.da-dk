@@ -11,13 +11,13 @@ ms.search.keywords: payment process, cash receipts
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 741c46f51c9ffd6e3b7f9d429accfd394684c9ed
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 15f2e20932120ced18d33c2e84a9c453d4bdb3ad
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-payments-that-cannot-be-applied-automatically"></a>Fremgangsmåde: Afstemme betalinger, der ikke kan udlignes automatisk
+# <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Afstemme betalinger, der ikke kan udlignes automatisk
 Det kan være nødvendigt at håndtere betalinger til din bankkonto, der ikke kan udlignes på en relateret åben debitor-, kreditor eller bankkontopost. Det kan skyldes, at der ikke findes noget dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], som betalingen kan udlignes til, eller at det relaterede dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)] har et andet beløb end f.eks. transaktionsbeløbet på grund af valutakurser. I vinduet **Betalingsudligningskladde** vises alle transaktionsbeløb for betalinger, som endnu ikke er udlignet, i feltet **Difference**, herunder beløb, der ikke kan udlignes af årsager som f.eks. dem ovenfor.
 
 Betalinger, der ikke kan udlignes, kan blive vist på betalingsudligningskladdelinjer på følgende måder:
@@ -28,11 +28,11 @@ Betalinger, der ikke kan udlignes, kan blive vist på betalingsudligningskladdel
 Når du vil afstemme sådanne betalinger, kan du vælge knappen **Overfør difference til konto** og derefter angive, hvilken konto beløbet i feltet **Difference** skal bogføres på, når du bogfører betalingsudligningskladden.
 
 > [!TIP]  
->   Der findes lignende funktioner, som bruges til at konfigurere automatisk afstemning af tilbagevendende betalinger, der kan udlignes på relaterede åbne debitor-, kreditor- eller bankkontoposter. Du kan finde flere oplysninger under [Fremgangsmåde: Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+>   Der findes lignende funktioner, som bruges til at konfigurere automatisk afstemning af tilbagevendende betalinger, der kan udlignes på relaterede åbne debitor-, kreditor- eller bankkontoposter. Du kan finde flere oplysninger under [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Sådan afstemmes betalinger, der ikke kan udlignes
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsudbetalingskladder**, og vælg derefter det relaterede link.
-2. Åbn en kladde til betalingsafstemning. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+2. Åbne en kladde til betalingsafstemning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 3. Vælg **Overfør difference til konto**. Vinduet **Overfør difference til konto** åbnes.
 4. I feltet **Kontotype** skal du angive den kontotype, som betalingsbeløbet vil blive bogført til.
 5. I feltet **Kontonr.** skal du angive den kontotype, som betalingsbeløbet vil blive bogført til.

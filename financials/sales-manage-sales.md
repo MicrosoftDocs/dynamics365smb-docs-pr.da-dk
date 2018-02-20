@@ -11,10 +11,10 @@ ms.search.keywords: trade, sell
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 95f235e743ed97b1ac90a6e0583b9bd19dcb7ead
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e01885548d02ce9cd8dd347726a6b18c77837f63
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="sales"></a>Salg
@@ -28,9 +28,9 @@ Du kan nemt rette eller annullere en bogført salgsfaktura, før den er betalt. 
 
 Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. Microsoft-funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] giver dig en præcis oversigt over dine kontaktoplysninger, så du kan betjene dine potentielle kunder mere effektivt og øge kundetilfredsheden. Du kan finde flere oplysninger i [Relationsstyring](marketing-relationship-management.md).
 
-I de situationer, hvor debitoren skal betale, før produkterne leveres, f.eks i detailbranchen, skal du vente på betalingsmodtagelse, før du leverer produkterne. I de fleste tilfælde kan du behandle indgående betalinger nogle uger efter levering ved at udligne betalingerne på de relaterede bogførte ubetalte salgsfakturaer. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+I de situationer, hvor debitoren skal betale, før produkterne leveres, f.eks i detailbranchen, skal du vente på betalingsmodtagelse, før du leverer produkterne. I de fleste tilfælde kan du behandle indgående betalinger nogle uger efter levering ved at udligne betalingerne på de relaterede bogførte ubetalte salgsfakturaer. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
-Salgsdokumenter kan sendes som PDF-filer, der er vedhæftet i en mail. Brødteksten i mailen indeholder et uddrag af salgsdokumentet, f.eks produkter, samlet beløb og et link til webstedet PayPal. Du kan finde flere oplysninger under [Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md).
+Salgsdokumenter kan sendes som PDF-filer, der er vedhæftet i en mail. Brødteksten i mailen indeholder et uddrag af salgsdokumentet, f.eks produkter, samlet beløb og et link til webstedet PayPal. Du kan finde flere oplysninger under [Sende dokumenter via mail](ui-how-send-documents-email.md).
 
 Ved alle salgsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for at kræve, at store salg til bestemte kunder godkendes af regnskabschefen. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).
 
@@ -38,27 +38,28 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 | Hvis du vil | Se |
 | --- | --- |
-| Opret et salgstilbud, hvor du f.eks. tilbyder produkter på betingelser, der kan forhandles, før du konverterer tilbuddet til en salgsfaktura. |[Fremgangsmåde: Fremsætte tilbud](sales-how-make-offers.md) |
-| Opret en salgsfaktura for at registrere din aftale med en debitor om at sælge produkter på bestemte leverings- og betalingsbetingelser. |[Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md) |
-| Behandl en salgsordre, der involverer delvis levering eller direkte levering. |[Fremgangsmåde: Sælge produkter](sales-how-sell-products.md) |
-|Du kan oprette standardsalgs- eller købslinjer, som du hurtigt kan indsætte i dokumenter, f.eks. for tilbagevendende genbestillingsordrer.|[Fremgangsmåde: Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)|  
-| Knyt en salgsordre til en købsordre for at sælge en vare med direkte levering, som skal leveres direkte fra leverandøren til kunden. |[Fremgangsmåde: Foretage direkte leveringer](sales-how-drop-shipment.md) |
-|Få en katalogvare sendt fra en leverandør til dit lagersted, så du kan levere varen til kunden.|[Sådan oprettes specialordrer](sales-how-to-create-special-orders.md)|
-| Udfør en handling på en ubetalt bogført salgsfaktura for automatisk at oprette en kreditnota og enten annullere salgsfakturaen eller gendanne den, så du kan foretage rettelser. |[Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md) |
-| Opret en salgskreditnota for at tilbageføre en bestemt bogført salgsfaktura, så den afspejler, hvilke produkter debitoren returnerer, og hvilke indbetalte beløb der skal refunderes. |[Fremgangsmåde: Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md) |
-|Administrer kundens tilsagn om at købe store mængder, der leveres i portioner over en periode.|[Fremgangsmåde: Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md)|
-|Sælg montageelementer, der ikke er tilgængelige i øjeblikket, ved at oprette en tilknyttet montageordre for at levere den fulde eller delvise salgsordremængde.|[Sådan sælger du en vare, der er monteret efter ordre](assembly-how-to-sell-items-assembled-to-order.md)|
-|Fakturer en kunde for flere leverancer én gang ved at samle leverancerne på samme faktura.|[Sådan kombineres leverancer på én enkelt faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
-|Informer debitorerne om ordreleveringsdatoer ved at beregne enten den første mulige afsendelsesdato eller disponibel til leverings-dato.|[Sådan beregnes ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
+| Opret et salgstilbud, hvor du f.eks. tilbyder produkter på betingelser, der kan forhandles, før du konverterer tilbuddet til en salgsfaktura. |[Fremsætte tilbud](sales-how-make-offers.md) |
+| Opret en salgsfaktura for at registrere din aftale med en debitor om at sælge produkter på bestemte leverings- og betalingsbetingelser. |[Fakturere salg](sales-how-invoice-sales.md) |
+| Behandl en salgsordre, der involverer delvis levering eller direkte levering. |[Sælge produkter](sales-how-sell-products.md) |
+|Du kan oprette standardsalgs- eller købslinjer, som du hurtigt kan indsætte i dokumenter, f.eks. for tilbagevendende genbestillingsordrer.|[Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)|  
+| Knyt en salgsordre til en købsordre for at sælge en vare med direkte levering, som skal leveres direkte fra leverandøren til kunden. |[Foretage direkte leveringer](sales-how-drop-shipment.md) |
+|Få en katalogvare sendt fra en leverandør til dit lagersted, så du kan levere varen til kunden.|[Oprette specialordrer](sales-how-to-create-special-orders.md)|
+| Udfør en handling på en ubetalt bogført salgsfaktura for automatisk at oprette en kreditnota og enten annullere salgsfakturaen eller gendanne den, så du kan foretage rettelser. |[Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md) |
+| Opret en salgskreditnota for at tilbageføre en bestemt bogført salgsfaktura, så den afspejler, hvilke produkter debitoren returnerer, og hvilke indbetalte beløb der skal refunderes. |[Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md) |
+|Administrer kundens tilsagn om at købe store mængder, der leveres i portioner over en periode.|[Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md)|
+|Sælg montageelementer, der ikke er tilgængelige i øjeblikket, ved at oprette en tilknyttet montageordre for at levere den fulde eller delvise salgsordremængde.|[Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md)|
+|Fakturer en kunde for flere leverancer én gang ved at samle leverancerne på samme faktura.|[Kombinere leverancer på én enkelt faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
+|Informer debitorerne om ordreleveringsdatoer ved at beregne enten den første mulige afsendelsesdato eller disponibel til leverings-dato.|[Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
 
 ## <a name="see-also"></a>Se også
 [Konfigurere salg](sales-setup-sales.md)  
-[Fremgangsmåde: Registrere nye debitorer](sales-how-register-new-customers.md)  
+[Registrere nye debitorer](sales-how-register-new-customers.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Projektstyring](projects-manage-projects.md)    
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

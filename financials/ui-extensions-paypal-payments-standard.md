@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 43511c3c509c495555f4583fdbe982d8b98aa648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 64d1a76c4d35a87ab7af85e3325b786156f5a62f
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-dynamics-365-business-edition"></a>PayPal Payments Standard-udvidelsen til Dynamics 365 Business edition 
+# <a name="the-paypal-payments-standard-extension-to-finance-and-operations-business-edition"></a>PayPal Payments Standard-udvidelsen til Finance and Operations, Business edition 
 Kunder kræver hele tiden bedre kundeservice, både med hensyn til produkternes kvalitet, men også med hensyn til leverings- og betalingsindstillinger. Tjenesten PayPal Payments Standard hjælper dig med at øge din kundeservice.
 
 Som et alternativ til opkrævning af betalinger via bankoverførsel eller kreditkort kan du tilbyde dine kunder at betale via deres PayPal-konto. Når du sender en salgsfaktura eller en salgsordre med mail, er der et PayPal-link i brødteksten i mailen og i det vedhæftede PDF-dokument. Når kunden vælger linket, vises servicesiden for deres PayPal-konto med betalingsoplysningerne for salget. Kunden kan derefter betale fakturaen som andre PayPal-betalinger.
@@ -34,7 +34,7 @@ Tjenesten PayPal Payments Standard giver følgende fordele:
 * Tjenesten PayPal Payments Standard er uden månedlige gebyrer eller opsætningsgebyrer.
 * Da PayPal Payments Standard er en udvidelse, kan du nemt aktivere den, når og hvis din virksomhed kræver det.  
 
-Du kan finde flere oplysninger i [Fremgangsmåde: Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md).
+Du kan finde flere oplysninger i [Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  

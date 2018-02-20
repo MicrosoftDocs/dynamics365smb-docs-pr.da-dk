@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 0b0d49b4f9b9e77b311628c2d88b4891b32f8276
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-active-versus-historic-item-tracking-entries"></a>Designoplysninger: Aktive kontra historiske varesporingsposter
@@ -44,7 +44,7 @@ Når dele af et dokumentlinjeantal er bogført, overføres kun det bestemte anta
 ||**Antal (basis)**|**Mgd. at håndtere**|**Fakturer antal (basis)**|**Håndteret antal (basis)**|**Faktureret antal (basis)**|  
 |-|----------------------------------------------|--------------------------------------------|------------------------------------------------------|-------------------------------------------------------|--------------------------------------------------------|  
 |Vinduet **Varesporingslinjer**|7|**2**|**2**|4|0|  
-|**T337**|0|0|0|0|0|  
+|**T337**|1|0|0|0|0|  
 |**T336**|6|0|0|6|2|  
 
  Trin 4: Modtag ét stykke.  

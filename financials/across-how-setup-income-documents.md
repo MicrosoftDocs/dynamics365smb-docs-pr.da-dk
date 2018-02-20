@@ -13,13 +13,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9a07389bf676468ea17516f8b00b8b1a235dc853
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ad534c9d60bbf3805f701eec6295084f6121a6d0
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-incoming-documents"></a>Fremgangsmåde: Konfigurere indgående dokumenter
+# <a name="set-up-incoming-documents"></a>Konfigurere indgående bilag
 Hvis du opretter finanskladdelinjer fra indgående dokumentposter, skal du i vinduet **Konfiguration af indkommende dokumenter** angive hvilken kladdetype og hvilket kladdenavn der skal bruges.
 
 Hvis du ikke ønsker, at brugere kan oprette fakturaer eller finanskladdelinjer fra indgående dokumentposter, medmindre dokumenterne godkendes, skal du konfigurere godkendere i vinduet **Konfiguration af indkommende dokumenter**.
@@ -42,7 +42,7 @@ Når funktionen Indkommende dokumenter er konfigureret, kan du bruge forskellige
 Når godkendere er konfigureret i vinduet **Godkendere af indgående dokumenter**, så er det kun disse brugere, der kan godkende et indgående dokument, hvis afkrydsningsfeltet **Kræv godkendelse for at oprette** er markeret i vinduet **Konfiguration af indkommende dokumenter**.
 
 > [!NOTE]  
->   Denne godkenderopsætning er ikke relateret til godkendelsesworkflows. Du kan finde flere oplysninger under [Fremgangsmåde: Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).
+>   Denne godkenderopsætning er ikke relateret til godkendelsesworkflows. Du kan finde flere oplysninger under [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).
 
 ## <a name="to-set-up-an-ocr-service"></a>Sådan konfigureres en OCR-tjeneste
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af indgående bilag**, og vælg derefter det relaterede link.
@@ -58,5 +58,5 @@ Det anbefales, at du beskytter de logonoplysninger, du angiver i vinduet **Opsæ
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

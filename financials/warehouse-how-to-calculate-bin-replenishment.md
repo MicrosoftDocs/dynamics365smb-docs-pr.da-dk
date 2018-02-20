@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a683d2f88f8c30d457d44facd21b0068688ad05a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e667ca56aa22fafc7fe6d0a4880c419a4272db26
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-bin-replenishment"></a>Sådan beregnes genopfyldning
+# <a name="calculate-bin-replenishment"></a>Beregn genopfyldning
 Når lokationen er konfigureret til at bruge styret læg-på-lager og pluk, tages prioriteterne i læg-på-lager-skabelonen for lokationen i betragtning, når leverancer lægges på lager. Prioriteter omfatter de minimale og maksimale mængder af placeringsindhold, der er fastsat for en bestemt placering og placeringsniveauerne. Hvis varerne ankommer i en stadig strøm, fyldes de oftest benyttede plukplaceringer derfor op, efterhånden som de tømmes.  
 
 Men lagervarer ankommer ikke altid i en stadig strøm. Nogle gange købes varer i store mængder, så virksomheden kan få en rabat, eller en produktionsenhed kan give mange af ét element for at opnå en lav kostpris. Derefter vil varer ikke blive modtaget på lageret igen i et stykke tid, og lageret skal med jævne mellemrum flytte varer til plukplaceringer fra massevarelageret.  

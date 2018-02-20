@@ -13,18 +13,18 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8642f4d904c9a1e7c46846d790fcb2d0837c4cc2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 444dabfdcfbf91eb81e281f6f6b4b9f3b184462d
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-incoming-document-records"></a>Fremgangsmåde: Oprette indgående dokumentposter
+# <a name="create-incoming-document-records"></a>Oprette indgående dokumentposter
 I vinduet **Indkommende dokumenter** kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående dokumentfiler, manuelt eller automatisk, til de relevante købs- og salgsdokumenter eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter.
 
 Når du vil registrere et eksternt dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du først oprette eller fuldføre en indgående dokumentpost. Du kan gøre dette manuelt, eller du kan tage et billede af det eksterne dokument og derefter oprette den indgående dokumentpost med billedfilen vedhæftet.
 
-Før du kan bruge funktionen Indkommende dokumenter, skal du foretage den nødvendige opsætning. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurere indgående dokumenter](across-how-setup-income-documents.md).
+Før du kan bruge funktionen Indkommende dokumenter, skal du foretage den nødvendige opsætning. Du kan finde flere oplysninger under [Konfigurere indgående dokumenter](across-how-setup-income-documents.md).
 
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Sådan godkendes eller afvises et indgående dokument
 Hvis du vil tillade brugere at oprette fakturaer eller finanskladdelinjer fra indgående dokumentposter, medmindre de er godkendt, kan du angive godkendere, der skal godkende posterne, før de kan behandles.
@@ -69,5 +69,5 @@ Hvis du godkender den indgående dokumentpost, markeres afkrydsningsfeltet **Fri
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

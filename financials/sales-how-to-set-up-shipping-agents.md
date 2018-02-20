@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 84a5d9eb8757dc82834c17327ffbb510cd15fa1a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b6ab539048f3f802cc4575e023c43632025dccf5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shipping-agents"></a>Sådan oprettes speditører
+# <a name="set-up-shipping-agents"></a>Oprette speditører
 Du kan angive en kode for hver speditør og angive oplysninger om dem.  
 
-Hvis du angiver en internetadresse for speditøren, og denne tilbyder pakkesporing over internettet, kan du anvende programmets automatiske pakkesporingsfunktion. Du kan finde flere oplysninger under [Sådan spores pakker](sales-how-track-packages.md).
+Hvis du angiver en internetadresse for speditøren, og denne tilbyder pakkesporing over internettet, kan du anvende programmets automatiske pakkesporingsfunktion. Du kan finde flere oplysninger under [Spore pakker](sales-how-track-packages.md).
 
 Når du angiver speditører i salgsordrerne, kan du også angive den service, som den enkelte speditør tilbyder.  
 Du kan angive et ubegrænset antal serviceydelser for hver speditør, og du kan angive en transporttid for hver service.  
 
-Når du har tilknyttet en speditørservice til salgsordrelinjen, medtages transporttiden for den pågældende service i beregningen af ordrebekræftelsen for linjen. Du kan finde flere oplysninger i [Sådan beregnes ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).
+Når du har tilknyttet en speditørservice til salgsordrelinjen, medtages transporttiden for den pågældende service i beregningen af ordrebekræftelsen for linjen. Du kan finde flere oplysninger i [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Sådan oprettes en speditør  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Speditører**, og vælg derefter det relaterede link.  
@@ -39,7 +39,7 @@ Når du har tilknyttet en speditørservice til salgsordrelinjen, medtages transp
 >  Hvis du sletter speditøren på ordrelinjen, slettes speditørservicekoden også. Derefter beregnes oplysningerne i de felter, der er baseret på speditørservicen, igen.  
 
 ## <a name="see-also"></a>Se også
-[Sådan spores pakker](sales-how-track-packages.md)    
+[Spore pakker](sales-how-track-packages.md)    
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     

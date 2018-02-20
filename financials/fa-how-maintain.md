@@ -13,13 +13,13 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 71210a9acbd196581aa4397264b462728007e5e8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1115f65c52215fe82c8371773c0c2071e9406ba4
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-maintain-fixed-assets"></a>Fremgangsmåde: Vedligeholde anlægsaktiver
+# <a name="maintain-fixed-assets"></a>Vedligeholde anlægsaktiver
 Reparationsudgifter er periodisk forekommende rutineomkostninger, der afholdes for at bevare anlægsaktivernes værdi. I modsætning til kapitalforbedringer forøges deres værdi ikke.
 
 Du kan registrere og vedligeholde en opdateret fil om anlægsreparation og -service, så du har en nemt tilgængelig og fuldstændig fortegnelse over reparation af et anlæg. Hver gang et anlægsaktiv bliver sendt til service, registrerer du alle relevante oplysninger som f.eks. dato, kreditornummer og reparatørens telefonnummer. Der bliver foretaget reparationsregistrering for hvert enkelt anlægsaktiv fra anlægskortet.
@@ -43,7 +43,7 @@ Hver gang der er udført reparationsopgaver, f.eks. et servicebesøg, kan du reg
 7. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af vedligeholdelse.
 
     > [!NOTE]  
->   Trin 7 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Reparationskonto** finansdebetkontoen og feltet **Reparationsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
+>   Trin 7 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Reparationskonto** finansdebetkontoen og feltet **Reparationsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
 8. Vælg handlingen **Bogfør**.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Sådan følger du op på servicebesøg på anlæg

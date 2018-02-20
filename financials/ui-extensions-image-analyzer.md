@@ -1,6 +1,6 @@
 ---
 title: Bruge billedanalyseudvidelsen | Microsoft Docs
-description: "Med denne udvidelse kan du analysere billeder af kontaktpersoner og varer for at finde attributter, så du hurtigt kan tildele dem i Dynamics 365."
+description: "Med denne udvidelse kan du analysere billeder af kontaktpersoner og varer for at finde attributter, så du hurtigt kan tildele dem i Finance and Operations, Business edition."
 documentationcenter: 
 author: bholtorf
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 06/19/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 4329a54114476885285da1d28cd292a4f9684e99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b7db51399f965f290e8871c74b30b9925553f83
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-dynamics-365-business-edition"></a>Billedanalyseudvidelsen til Microsoft Dynamics 365 Business edition
+# <a name="the-image-analyzer-extension-for-microsoft-finance-and-operations-business-edition"></a>Udvidelsen billedanalysator til Microsoft Finance and Operations, Business edition
 Billedanalyseudvidelsen bruger effektiv billedanalyse fra Computer Vision API'en til Computer Vision API til at registrere attributter i de billeder, du importerer til varer og kontaktpersoner, så du let kan gennemse og tildele dem. For varer kan attributterne dreje sig om, hvorvidt varen er et bord eller en bil, og om den er rød eller blå. For kontaktpersoner kan attributterne vedrøre køn eller alder.
 
 Billedanalysefunktionen foreslår attributter baseret på koder, der bliver fundet af Computer Vision API og et tillidsniveau. Som standard foreslås attributter kun, hvis der er mindst 80 % sikkerhed for, at attributten er korrekt. Du kan angive et andet tillidsniveau, hvis det er nødvendigt. Du kan finde flere oplysninger om, hvordan koder og tillidsniveauer fastlægges i [Computer Vision-API](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -92,7 +92,7 @@ Du kan få vist antallet af analyser, du har udført, og hvor mange du stadig ka
 2. Fjern markeringen i afkrydsningsfeltet **Aktiver billedanalyse**.  
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Arbejde med vareattributter](inventory-how-work-item-attributes.md)  
+[Arbejde med vareattributter](inventory-how-work-item-attributes.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

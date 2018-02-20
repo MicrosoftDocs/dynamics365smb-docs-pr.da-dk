@@ -1,6 +1,6 @@
 ---
 title: Oprette salgsleads | Microsoft Docs
-description: "Beskriver, hvordan du kan oprette salgsmuligheder fra en sælger eller kontakt i Dynamics 365 Business edition."
+description: "Beskriver, hvordan du kan oprette salgsmuligheder fra en sælger eller kontakt i Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,18 +13,18 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sales-opportunities"></a>Fremgangsmåde: Oprette salgsleads
+# <a name="create-sales-opportunities"></a>Oprette salgsleads
 Du kan oprette leads for de salgslaeds du har for dine kontakter. Alle leads skal knyttes til en sælger eller indkøber og skal have en kontakt.
 
 Du kan oprette leads fra vinduet **Leadoversigt**. Men du skal normalt oprette leads fra den specifikke kontakt eller sælger.
 
-Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Sådan oprettes et lead fra en sælger
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sælgere**, og vælg derefter det relaterede link.
@@ -45,5 +45,5 @@ Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan fi
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Oprette og administrere kontakter](marketing-contacts.md)  
-[Arbejde med Dynamics 365](ui-work-product.md)
+[Arbejde med Finance and Operations, Business edition](ui-work-product.md)
 

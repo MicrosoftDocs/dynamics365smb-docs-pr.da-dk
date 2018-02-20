@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fbbddea07a39b6f725c04971466c33ca9252019e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77f377d6858294aeb54e30fcb178fc9757ac3938
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-fields-to-a-word-report-layout"></a>Sådan gør du: Føje felter til et Word-rapportlayout
+# <a name="add-fields-to-a-word-report-layout"></a>Føje felter til et Word-rapportlayout
 Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder. I dette emne beskrives fremgangsmåden for tilføjelse af felter fra et rapportedatasæt i et eksisterende Word-rapportlayout for en rapport. Du kan tilføje felter ved hjælp af den Word-tilpassede XML-del for rapporten og tilføje indholdskontrolelementer, der er knyttet til felterne i rapportens datasæt. Tilføjelse af felter kræver, at du har kendskab til rapportens datasæt, så du kan identificere de felter, du vil føje til layoutet.  
   
 > [!NOTE]  
@@ -29,15 +29,15 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
   
 1.  Hvis det ikke allerede åbnet, skal du åbne Word-rapportlayoutdokumentet i Word.  
   
-     Du kan finde flere oplysninger i [Fremgangsmåde: Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md).  
+     Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md).  
   
 2.  Vis fanen **Udvikler** på båndet i Microsoft Word.  
   
-     Som standard vises fanen **Udvikler** ikke på båndet. Du kan finde flere oplysninger i [Fremgangsmåde: Vise fanen Udvikler på båndet](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Som standard vises fanen **Udvikler** ikke på båndet. Du kan finde flere oplysninger i [Vise fanen Udvikler på båndet](http://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Vælg **XML-tilknytningsrude** under **Udvikler**.  
   
-4.  I ruden **XML-tilknytning** skal du på rullelisten **Brugerdefineret XML-del** vælge den brugerdefinerede XML-del til ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->-rapporten, som typisk er sidst på listen. Navnet på den brugerdefinerede XML-del har følgende format:  
+4.  I ruden **XML-tilknytning** skal du på rullelisten **Brugerdefineret XML-del** vælge den brugerdefinerede XML-del til ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-rapporten, som typisk er sidst på listen. Navnet på den brugerdefinerede XML-del har følgende format:  
   
      urn:microsoft-dynamics-nav/reports/*rapportnavn*/*ID*  
   
@@ -80,7 +80,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
  Billeder justeres i øverste venstre hjørne af Indholdsstyringen og får automatisk tilpasset størrelsen i forhold til rammen af indholdskontrolelementet.  
   
 > [!IMPORTANT]  
->  Du kan kun tilføje billeder, der har et format, som understøttes af Word, f.eks. .bmp-, .jpg- og .png-filtyper. Hvis du tilføjer et billede, der har et format, der ikke understøttes af Word, får du en fejl, når du kører rapporten fra ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->-klienten.  
+>  Du kan kun tilføje billeder, der har et format, som understøttes af Word, f.eks. .bmp-, .jpg- og .png-filtyper. Hvis du tilføjer et billede, der har et format, der ikke understøttes af Word, får du en fejl, når du kører rapporten fra ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-klienten.  
   
 #### <a name="to-add-an-image"></a>Sådan tilføjer du et billede  
   
@@ -107,7 +107,7 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Lukker element.|  
   
 ### <a name="custom-xml-part-in-word"></a>Brugerdefineret XML-del i Word  
- I Word kan du åbne den brugerdefinerede XML-del i ruden **XML-tilknytning** og derefter bruge ruden til at knytte elementer til indholdskontrolelementer i Word-dokumentet. Ruden **XML-tilknytning** er tilgængelig fra fanen **Udvikler** (du kan flere yderligere oplysninger i [Fremgangsmåde: Vise fanen Udvikler på båndet](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ I Word kan du åbne den brugerdefinerede XML-del i ruden **XML-tilknytning** og derefter bruge ruden til at knytte elementer til indholdskontrolelementer i Word-dokumentet. Ruden **XML-tilknytning** er tilgængelig fra fanen **Udvikler** (du kan flere yderligere oplysninger i [Vise fanen Udvikler på båndet](http://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  Elementerne i ruden **XML-tilknytning** vises i en struktur, der svarer til XML-kilden. Navnefelter grupperes under et fælles **navneelement**, og dataelementer og -kolonner er arrangeret i en hierarkisk struktur, der svarer til XML-kilden, med kolonner i alfabetisk rækkefølge. Elementer identificeres ved deres navn, som er defineret af egenskaben Navn i rapportdatasætgeneratoren i ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
@@ -124,4 +124,4 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
 -   Sproget i teksten, der vises, når du kører rapporten, afhænger af sprogindstillingen af rapportobjektet. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
   
 ## <a name="see-also"></a>Se også  
- [Fremgangsmåde: Oprette et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   
+ [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   

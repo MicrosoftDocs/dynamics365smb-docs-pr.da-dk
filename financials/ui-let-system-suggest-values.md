@@ -1,6 +1,6 @@
 ---
 title: "Opsætning af foreslåede feltværdier | Microsoft Docs"
-description: "For at undgå manuelle beregninger og udføre opgaver kan hurtigt og præcist kan du konfigurere automatisk dataindtastning, så Dynamics 365 udfylder udvalgte felter."
+description: "For at undgå manuelle beregninger og udføre opgaver kan hurtigt og præcist kan du konfigurere automatisk dataindtastning, så Finance and Operations, Business edition udfylder af udvalgte felter."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 26a66f87f85cac1ff6f6ba6eb4cb90527565f236
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e9134b3d5fc62fb510b27db5fcbaa71e54b2b97a
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="letting-included365finlongincludesd365finlongmdmd-suggest-values"></a>Lade [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] foreslå værdier
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjælpe dig med at udføre opgaver hurtigere og mere korrekt ved at forhåndsudfylde felter eller hele linjer med data, som du normalt selv skal beregne og angive. Selvom sådan automatisk dataindtastning altid er korrekte, kan du ændre oplysningerne bagefter, hvis du vil.
+# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>Lade [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå værdier
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  kan hjælpe dig med at udføre opgaver hurtigere og mere korrekt ved at forhåndsudfylde felter eller hele linjer med data, som du normalt selv skal beregne og angive. Selvom sådan automatisk dataindtastning altid er korrekte, kan du ændre oplysningerne bagefter, hvis du vil.
 
 Funktioner, der indsætter feltværdier, tilbydes typisk i opgaver, hvor du skal angive store mængder transaktionsdata og vil undgå fejl og spare tid. Dette emne indeholder et udvalg af disse funktioner. Der bliver tilføjet flere afsnit i fremtidige opdateringer af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -32,7 +32,7 @@ Når f.eks. du angiver finanskladdelinjer for flere udgifter, der skal alle bogf
 Du kan finde oplysninger om opsætning af et personligt finanskladdenavn, f.eks. til håndtering af udgifter, i [Arbejde med finanskladder](ui-work-general-journals.md).
 
 ## <a name="the-automatically-fill-date-received-field-in-the-payment-registration-window"></a>Feltet **Udfyld Dato for modtaget automatisk** i vinduet **Betalingsregistrering**
-Vinduet **Betalingsregistrering** viser udestående indgående betalinger som linjer, der repræsenterer bogførte salgsdokumenter, hvor et beløb er forfaldent til betaling. Du kan finde flere oplysninger om udligning af debitorbetalinger i [Fremgangsmåde: afstemme debitor betalinger manuelt på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+Vinduet **Betalingsregistrering** viser udestående indgående betalinger som linjer, der repræsenterer bogførte salgsdokumenter, hvor et beløb er forfaldent til betaling. Du kan finde flere oplysninger om udligning af debitorbetalinger i [Afstemme debitor betalinger manuelt på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 De vigtigste handlinger i vinduet består i at udfylde afkrydsningsfeltet **Betaling foretaget** og feltet **Dato for modtaget**. Du kan indstille [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at angive arbejdsdato i feltet **Dato for modtaget**, når du markerer feltet **Betaling foretaget**.
 
@@ -42,6 +42,6 @@ De vigtigste handlinger i vinduet består i at udfylde afkrydsningsfeltet **Beta
 3. Åbn vinduet **Betalingsregistrering**, og fortsæt for at behandle indgående betalinger fra kunder ved hjælp af den beskrevne funktionen for automatisk angivelse af en feltværdi.
 
 ## <a name="see-also"></a>Se også
-[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Finans](finance.md)
 

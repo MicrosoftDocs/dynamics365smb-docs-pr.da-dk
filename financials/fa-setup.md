@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 08/15/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9dea8be0f5b0200f97082dc25dbaa2483ad6c735
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ca21ece631fdd07cb95ffdaaa350506b4a8c9e1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Opsætning af anlægsaktiver
@@ -31,17 +31,14 @@ Tabellen nedenfor indeholder links til flere oplysninger. Når du konfigureret d
 
 Når du vælger en anlægsaktivitet i afsnittet **Finansintegration** i vinduet **Afskrivningsprofilkort**, bruges vinduet **Anlægsfinanskladde** til at bogføre transaktioner for aktiviteten.
 
-> [!NOTE]  
->  Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din Financials-oplevelse](ui-experiences.md).  
-
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 | Hvis du vil | Se |
 | --- | --- |
-| Konfigurer standardfinanskonti, allokeringsnøgler, kladdetyper og -navne for bogføringen af anlægsaktiver og definere anlægsarter og -grupper, f.eks materielle og immaterielle. |[Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md) |
-| Oprette afskrivningsprofiler, definere forskellige afskrivningsmetoder, integrere med finansregnskabet og muliggøre kopiering af poster i flere afskrivningsprofiler. |[Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md) |
-| Aktivere forsikring af anlæg, angive generelle forsikringsoplysninger, oprette forsikringskort pr. police, og klargøre kladder til at bogføre forsikringsomkostninger. |[Fremgangsmåde: Konfigurere forsikring af anlægsaktiver](fa-how-setup-insurance.md) |
-| Udføre reparation af anlægsaktiver, angive generelle reparationsoplysninger, oprette bogføringskonti for reparation og definere typer af vedligeholdelsesarbejde. |[Fremgangsmåde: Konfigurere reparation af anlægsaktiver](fa-how-setup-maintenance.md) |
+| Konfigurer standardfinanskonti, allokeringsnøgler, kladdetyper og -navne for bogføringen af anlægsaktiver og definere anlægsarter og -grupper, f.eks materielle og immaterielle. |[Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md) |
+| Oprette afskrivningsprofiler, definere forskellige afskrivningsmetoder, integrere med finansregnskabet og muliggøre kopiering af poster i flere afskrivningsprofiler. |[Opsætte afskrivning af anlægsaktiv](fa-how-setup-depreciation.md) |
+| Aktivere forsikring af anlæg, angive generelle forsikringsoplysninger, oprette forsikringskort pr. police, og klargøre kladder til at bogføre forsikringsomkostninger. |[Definere anlægsforsikring](fa-how-setup-insurance.md) |
+| Udføre reparation af anlægsaktiver, angive generelle reparationsoplysninger, oprette bogføringskonti for reparation og definere typer af vedligeholdelsesarbejde. |[Definere anlægsreparation](fa-how-setup-maintenance.md) |
 | Få mere at vide om forskellige afskrivningsmetoder for anlægsaktiver. |[Afskrivningsmetoder](fa-depreciation-methods.md) |
 
 ## <a name="see-also"></a>Se også

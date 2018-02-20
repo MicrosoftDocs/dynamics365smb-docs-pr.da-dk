@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9555f2810e82711c9cac98cfe002cb99289ce474
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38a37195932d1f00928c10e86fa19425eb228f5f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-away-production-or-assembly-output"></a>Sådan lægges produktions- eller montageafgange på lager
+# <a name="put-away-production-or-assembly-output"></a>Lægge produktions- eller montageafgange på lager
 Den måde, du lægger afgang på lager fra produktion, afhænger af, hvordan lagerstedet er sat op som en lokation. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).  
 
 I grundlæggende lageropsætninger, hvor lokationen kræver læg-på-lager, men ikke modtagelse, skal du bruge dokumentet **Læg-på-lager (lager)** til at organisere og registrere afgangens læg-på-lager.  
@@ -33,16 +33,16 @@ Det første trin til at lægge afgange på lager er at oprette den indgående la
 2.  Vælg handlingen **Opret indgående lageranmodning** på den produktionsordre, der er klar til at blive lagt på lager.  
 
 > [!NOTE]  
->  Du kan også oprette en indgående lageranmodning ved at markere afkrydsningsfeltet **Opret indgående anmodning**, når du opdaterer produktionsordren. Du kan finde flere oplysninger i [Fremgangsmåde: Omplanlægge eller forny produktionsordrer](production-how-to-replan-refresh-production-orders.md).  
+>  Du kan også oprette en indgående lageranmodning ved at markere afkrydsningsfeltet **Opret indgående anmodning**, når du opdaterer produktionsordren. Du kan finde flere oplysninger i [Forny eller omplanlægge produktionsordrer](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Sådan lægges afgang på lager med en læg-på-lager-aktivitet  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager**, og vælg derefter det relaterede link.  
-2.  Opret en ny læg-på-lager-aktivitet. Du kan finde flere oplysninger i [Sådan lægges varer på lager med Læg-på-lager](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
+2.  Opret en ny læg-på-lager-aktivitet. Du kan finde flere oplysninger i [Lægge varer på lager med Læg-på-lager](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Du kan få adgang til produktionsordreafgangen ved at vælge handlingen **Hent kildedokumenter** og derefter vælge den frigivne produktionsordre.  
 4.  Udfyld læg-på-lager-linjerne efter behov.
 5.  Når linjerne er klar til at blive bogført, skal du vælge handlingen **Bogfør**. Bogføringen opretter de nødvendige lagerposter og bogfører afgangen af varer.  
 
-Du kan også oprette et **Læg-på-lager (lager)** direkte fra den frigivne produktionsordre. Du kan finde flere oplysninger i [Sådan lægges varer på lager med Læg-på-lager](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
+Du kan også oprette et **Læg-på-lager (lager)** direkte fra den frigivne produktionsordre. Du kan finde flere oplysninger i [Lægge varer på lager med Læg-på-lager](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Når du bogfører læg-på-lager, antages det, at alle operationer er bogført i overensstemmelse med standardruten, dvs., at afgangsantal er bogført i henhold til den seneste operation. Du kan bruge afgangskladde til at bogføre afvigelser i afgangsantal og opstillings- og operationstid. Hvis der er krav om delvis bogføring, efter du har oprettet læg-på-lager, kan du gøre dette under opstillingstid og antal for alle operationer undtagen den sidste. I det tilfælde kontrolleres den sidste operation af læg-på-lager.  
 

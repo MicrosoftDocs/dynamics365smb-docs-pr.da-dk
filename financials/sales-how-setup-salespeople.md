@@ -11,13 +11,13 @@ ms.search.keywords: sales rep
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c43577eaeac85631da3b86af82b76d97fb612cd2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 528d1735a8b725cf245ec4e1611c8140f413b49a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-salespeople"></a>Fremgangsmåde: Konfigurere sælgere
+# <a name="set-up-salespeople"></a>Konfigurere sælgere
 I mange virksomheder er der behov for at kunne følge de enkelte medarbejderes (sælgeres) præstationer som grundlag for beregning af salgsprovision eller bonus. Se f.eks. rapporten **Salgsprovision**. Virksomheden kan også have behov for at knytte en sælger til hver kontakt.
 
 Når du har oprettet en sælger i vinduet **Sælgere**, kan du vælge sælgeren i feltet **Sælgerkode** i alle relevante poster, f.eks. finanskonto, debitor, kreditor, kontakter og kampagnekort. Når du bogfører eller opretter fakturaer, kreditnotaer, kladdelinjer, rentenotaer osv., overføres sælgerkoden til de resulterende finansposter.
@@ -26,7 +26,7 @@ Når du har oprettet en sælger i vinduet **Sælgere**, kan du vælge sælgeren 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sælgere**, og vælg derefter det relaterede link.
 2. I vinduet **Sælgere** skal du vælge handlingen **Ny**.
 
-Du kan bruge sælgere i forskelligt relationsstyrings- og marketingarbejde. F.eks. kan du tildele opgaver til sælgere, så opgaverne indgår i de salgsmuligheder, der er knyttet til sælgeren. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
+Du kan bruge sælgere i forskelligt relationsstyrings- og marketingarbejde. F.eks. kan du tildele opgaver til sælgere, så opgaverne indgår i de salgsmuligheder, der er knyttet til sælgeren. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="see-also"></a>Se også
 [Konfigurere salg](sales-setup-sales.md)  

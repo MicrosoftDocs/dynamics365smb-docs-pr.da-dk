@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da1ef8fec209cd2fbd4ab6c976abecc54618ae2a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 527e6e11358f06d9f5612e053e3aca60d4a98675
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="vat-vies-reporting"></a>Momsindberetning
@@ -27,5 +27,5 @@ Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser m
 
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
- [Fremgangsmåde: Udskrive en rapport til afstemning af moms](how-to-print-vat-reconciliation-reports.md)    
+ [Udskrive rapporter til afstemning af moms](how-to-print-vat-reconciliation-reports.md)    
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5e167129e8a8bc5f10a0f9de4c384c06de030bbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7da190b6859b00ddb56612ae29234932a03b50a1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-cross-dock-items"></a>Fremgangsmåde: Afsendelse
+# <a name="cross-dock-items"></a>Afsende varer direkte
 Funktionerne i forbindelse med direkte afsendelse er tilgængelige, hvis du har sat lokationen op til at kræve lagermodtagelse og læg-på-lager.  
 
 Når du afsender varer direkte, behandler du varer i modtagelse og til levering uden overhovedet at lægge dem på lager, men ekspederer i stedet varerne via læg-på-lager- eller plukprocesserne og begrænser derfor den fysiske håndtering af varer. Du kan afsende varer direkte i forbindelse med leverancer og produktionsordrer. Når du opretter en leverance eller plukker varer til produktion, og du bruger placeringer, plukkes varen automatisk fra en direkte afsendelsesplacering, før den plukkes fra andre placeringer. Du skal kontrollere området med varer til direkte afsendelse for at se, om de relevante varer er disponible der, før du henter dem på de sædvanlige lagerplaceringer.  
@@ -39,9 +39,9 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
 ## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Sådan sættes lagerstedet op til direkte afsendelse:  
 1.  Opret mindst én direkte afsendelsesplacering, hvis du bruger placeringer. Opret en direkte afsendelseszone, hvis du bruger styret læg-på-lager og pluk.  
 
-    En direkte afsendelsesplacering har feltet **Dir. afs.placering** markeret og skal have både placeringstypen **Modtag** og **Pluk** markeret. Du kan finde flere oplysninger i [Sådan oprettes placeringer](warehouse-how-to-create-individual-bins.md) og [Sådan oprettes placeringstyper](warehouse-how-to-set-up-bin-types.md).  
+    En direkte afsendelsesplacering har feltet **Dir. afs.placering** markeret og skal have både placeringstypen **Modtag** og **Pluk** markeret. Du kan finde flere oplysninger i [Oprette placeringer](warehouse-how-to-create-individual-bins.md) og [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md).  
 
-    Hvis du bruger zoner, kan du oprette en zone til direkte afsendelsesplaceringer og markere feltet **Dir.afs.placeringszone**. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette lokationer til brug af placeringer](warehouse-how-to-set-up-locations-to-use-bins.md).  
+    Hvis du bruger zoner, kan du oprette en zone til direkte afsendelsesplaceringer og markere feltet **Dir.afs.placeringszone**. Du kan finde flere oplysninger i [Oprette lokationer til brug af placeringer](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokation**, og vælg derefter det relaterede link.  
 3.  I vinduet **Lokation** skal du vælge den lokation, hvor du vil opsætte lagerstedet til direkte afsendelse og derefter vælge handlingen **Rediger**.  
@@ -59,7 +59,7 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Sådan afsendes varer direkte uden at få vist muligheder  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermodtagelser**, og vælg derefter det relaterede link.  
-2.  Opret en lagermeddelelse for de varer, der er modtaget, og som måske kan afsendes direkte. Du kan finde flere oplysninger i [Sådan modtages varer](warehouse-how-receive-items.md).  
+2.  Opret en lagermeddelelse for de varer, der er modtaget, og som måske kan afsendes direkte. Du kan finde flere oplysninger i [Modtage varer](warehouse-how-receive-items.md).  
 3.  Udfyld feltet **Modtag (antal)**, og vælg derefter handlingen **Beregn direkte afsendelse**.  
 
     Udgående kildedokumenter med bestilling på de varer, der er planlagt til afsendelse fra lagerstedet inden for tidsrummet i datoformlen, identificeres.  [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner antal, så du kan afsende så meget som muligt direkte og undgå at lægge varerne på lager. Værdien i feltet **Antal til dir. afsend.** er derfor summen af alle de udgående linjer med bestilling på varen inden for tidshorisonten minus det antal varer, der allerede er blevet placeret i området til direkte afsendelse, eller det er værdien i feltet **Modtag (antal)** på modtagelseslinjen, alt efter hvilken af disse værdier der er mindst. Du kan ikke afsende flere varer direkte, end du har modtaget.  
@@ -76,7 +76,7 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Sådan afsendes varer direkte efter kontrol af mulighederne  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermodtagelser**, og vælg derefter det relaterede link.  
-2.  Opret en lagermeddelelse for de varer, der er modtaget, og som måske kan afsendes direkte. Du kan finde flere oplysninger i [Sådan modtages varer](warehouse-how-receive-items.md).  
+2.  Opret en lagermeddelelse for de varer, der er modtaget, og som måske kan afsendes direkte. Du kan finde flere oplysninger i [Modtage varer](warehouse-how-receive-items.md).  
 
     Du vil se de linjer i kildedokument, hvor varen bestilles, før du bogfører modtagelsen.  
 3.  Vælg handlingen **Beregn direkte afsendelse**.  
@@ -84,7 +84,7 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
     I vinduet **Mulighed for dir. afsend.** kan du se de vigtigste detaljer om linjerne, f.eks. dokumenttype, antal bestilt og forfaldsdato. Du kan bruge disse oplysninger til at bestemme, hvor meget der skal afsendes direkte, hvor varerne skal lægges i området til direkte afsendelse, og hvordan de skal grupperes.  
 
 4.  Vælg handlingen **Indsæt ant. til dir. afsend.** for at se, hvordan antallet blev beregnet på modtagelseslinjerne. Når du ændrer antallet af varer i feltet **Antal til dir. afsend** på hver linje, opdateres beregningen, efterhånden som du foretager ændringer. Det betyder ikke, at den pågældende leverance eller produktionsordre faktisk vil få tildelt de varer, der foreslås til direkte afsendelse, da ændringerne kun udgør en vejledende test. Handlingen kan imidlertid være informativ, hvis der f.eks. opereres med mere end én enhed.  
-5.  Hvis du vil reservere et antal varer til en bestemt ordrelinje, skal du placere markøren på linjen og derefter vælge handlingen **Reserver**. I vinduet **Reservation** kan du nu reservere ethvert tilgængeligt antal af varen til denne bestemte ordre. Denne reservation er ligesom alle andre reservationer og får ikke højere prioritet, fordi den er oprettet i forbindelse med direkte afsendelse. Du kan finde flere oplysninger i [Sådan reserveres varer](inventory-how-to-reserve-items.md).   
+5.  Hvis du vil reservere et antal varer til en bestemt ordrelinje, skal du placere markøren på linjen og derefter vælge handlingen **Reserver**. I vinduet **Reservation** kan du nu reservere ethvert tilgængeligt antal af varen til denne bestemte ordre. Denne reservation er ligesom alle andre reservationer og får ikke højere prioritet, fordi den er oprettet i forbindelse med direkte afsendelse. Du kan finde flere oplysninger i [Reservere varer](inventory-how-to-reserve-items.md).   
 6.  Vælg knappen **OK**, når du er færdig med at beregne eller reservere, for at overføre den reviderede beregning til feltet **Antal til dir. afsend.** på modtagelseslinjen, eller vælg knappen **Annuller**, hvis du vil vende tilbage til lagermodtagelsen og beregne den direkte afsendelse igen.  
 7.  Bogfør nu modtagelsen, og fortsæt med læg-på-lager-instruktionerne som beskrevet i trin 3 til 7 i afsnittet "Sådan afsendes varer direkte uden at få vist muligheder".  
 

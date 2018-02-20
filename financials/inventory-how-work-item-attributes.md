@@ -13,19 +13,19 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b29fed7bf976c896b3d663f526d9c3a96200100
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-item-attributes"></a>Fremgangsmåde: Arbejde med vareattributter
+# <a name="work-with-item-attributes"></a>Arbejde med vareattributter
 Når kunder forespørger om en vare, enten via korrespondance eller en integreret en webshop, kan de spørge eller søge ud fra egenskaber som f.eks højde og modelår. For at yde denne kundeservice kan du tildele vareattributværdier af forskellige typer til dine varer, som kan bruges ved søgning efter varer.
 
-Du kan også tildele vareattributter til varekategorier, som derefter gælder for de varer, der bruger varekategorier. Yderligere oplysninger findes under [Fremgangsmåde: Kategorisere vare](inventory-how-categorize-items.md).
+Du kan også tildele vareattributter til varekategorier, som derefter gælder for de varer, der bruger varekategorier. Yderligere oplysninger findes under [Kategorisere vare](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Hvis du vil knytte billeder til varer, kan billedanalyseudvidelsen registrere attributter i billedet, og foreslå attributterne, så bliver du spurgt, om du vil tildele dem. Udvidelsen er klar til brug. Du skal blot aktivere den. Du kan finde flere oplysninger i [Billedanalyseudvidelsen til Microsoft Dynamics 365 Business edition](ui-extensions-image-analyzer.md).
+> Hvis du vil knytte billeder til varer, kan billedanalyseudvidelsen registrere attributter i billedet, og foreslå attributterne, så bliver du spurgt, om du vil tildele dem. Udvidelsen er klar til brug. Du skal blot aktivere den. Du kan finde flere oplysninger i [Billedanalyseudvidelsen til Microsoft Finance and Operations, Business edition](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Sådan oprettes vareattributter
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareattributter**, og vælg derefter det relaterede link.
@@ -58,7 +58,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 6. Gentag trin 4 og 5 for alle vareattributter, som du vil tildele til varekategorien.
 
 > [!NOTE]  
->   Vareattributter for overordnede varekategorier bliver overført til underordnede varekategorier. Dette er angivet med feltet **Overført fra** på oversigtspanelet **Attributter**. Du kan finde flere oplysninger under [Fremgangsmåde: Kategorisere varer](inventory-how-categorize-items.md).
+>   Vareattributter for overordnede varekategorier bliver overført til underordnede varekategorier. Dette er angivet med feltet **Overført fra** på oversigtspanelet **Attributter**. Yderligere oplysninger findes under [Kategorisere varer](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>Sådan filtreres varer efter vareattributter
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
@@ -78,8 +78,8 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 Varerne i vinduet **Varer** filtreres efter de angivne vareattributværdier.
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Kategorisere varer](inventory-how-categorize-items.md)    
-[Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md)  
+[Kategorisere varer](inventory-how-categorize-items.md)    
+[Registrere nye varer](inventory-how-register-new-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

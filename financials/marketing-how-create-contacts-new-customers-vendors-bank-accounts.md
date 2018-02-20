@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 289213b9c44b07387fd0dcf315b9d08750bdd9f7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0c4cf74ef7b0b2e48a8608a0859a71b919e46397
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Fremgangsmåde: Oprette en debitor, kreditor eller bankkonto fra en kontakt
+# <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Oprette en debitor, kreditor eller bankkonto fra en kontakt
 Du har mulighed for at registrere eksisterende kontakter som debitorer, kreditorer eller bankkonti. Når du opretter en debitor, kreditor eller bankkonto fra en kontakt, kan bruge du eksisterende data. Når du opretter en debitor, kreditor eller bankkonto på denne måde, synkroniseres den med kontakten. Synkroniseringen gør oplysninger, der er fælles for kontakter og debitorer, kreditorer eller bankkonti, ens.
 
 Før du kan registrere kontakter på denne måde, skal du angive en forretningsrelationskode for debitorer, kreditorer og bankkonti i vinduet **Marketingopsætning**. Hvis du vil registrere kontakter som bankkonti, skal du også angive nummerserier for bankkonti i vinduet **Regnskabsopsætning**.
@@ -33,11 +33,11 @@ Før du kan registrere kontakter på denne måde, skal du angive en forretningsr
 Kontaktoplysningerne overføres fra kortet **Kontakt** til kortet **Bankkonto**, kortet **Debitor** eller kortet **Kreditor**. Du kan tilføje specifikke oplysninger til hvert kort, f.eks. fakturering og betalingsoplysninger.
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  
-[Fremgangsmåde: Oprette kontaktpersoner](marketing-create-contact-persons.md)  
+[Opret kontaktvirksomheder](marketing-create-contact-companies.md)  
+[Oprette kontaktpersoner](marketing-create-contact-persons.md)  
 [Opsætning af Relationsstyring](marketing-setup-marketing.md)  
 [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Fremgangsmåde: Knytte kontakter til debitorer, kreditorer og bankkonti](marketing-how-link-contact.md)  
+[Knytte kontakter til debitorer, kreditorer og bankkonti](marketing-how-link-contact.md)  
 [Tildele forretningsrelationer til en kontakt](marketing-business-relations.md#AssignBusRelContact)  
-[Arbejde med Dynamics 365](ui-work-product.md)
+[Arbejde med Finance and Operations, Business edition](ui-work-product.md)
 

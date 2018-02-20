@@ -1,6 +1,6 @@
 ---
 title: "Sådan eksporterer og importerer du workflows | Microsoft Docs"
-description: "Du kan overføre workflows til andre Dynamics 365-databaser, f.eks. for at spare tid ved oprettelse af nye workflows, ved at eksportere og importere workflows."
+description: "Du kan overføre workflows til andre databaser i Finance and Operations, Business edition, f.eks. for at spare tid ved oprettelse af nye workflows, ved at eksportere og importere workflows."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 520c81b9c550b4ef29b077685541a2e7ea30d4d7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6da772f9eefab9aa0ef8b9f47f6ea7656ebef1b4
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-and-import-workflows"></a>Fremgangsmåde: Importere og eksportere workflows
+# <a name="export-and-import-workflows"></a>Eksportere og importere workflows
 Du kan overføre workflows til andre [!INCLUDE[d365fin](includes/d365fin_md.md)]-databaser, f.eks. for at spare tid ved oprettelse af nye workflows, ved at eksportere og importere workflows.  
 
- En anden måde til hurtigt at oprette workflows er at oprette workflows fra workflowskabeloner. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
+ En anden måde til hurtigt at oprette workflows er at oprette workflows fra workflowskabeloner. Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
 
- I vinduet **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette arbejdsgange](across-how-to-create-workflows.md).  
+ I vinduet **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
 
 ## <a name="to-export-a-workflow"></a>Sådan eksporteres et workflow  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), og angiv **Workflows**, og vælg derefter det relaterede link.  
@@ -39,10 +39,10 @@ Du kan overføre workflows til andre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 >  Hvis workflowkoden allerede findes i databasen, overskrives workflowtrinene med trinene i det indlæste workflow.  
 
 ## <a name="see-also"></a>Se også  
- [Fremgangsmåde: Oprette arbejdsgange](across-how-to-create-workflows.md)   
- [Fremgangsmåde: Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)   
- [Fremgangsmåde: Se arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)   
- [Fremgangsmåde: Slette arbejdsgange](across-how-to-delete-workflows.md)   
+ [Oprette arbejdsgange](across-how-to-create-workflows.md)   
+ [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)   
+ [Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)   
+ [Slette arbejdsgange](across-how-to-delete-workflows.md)   
  [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)   

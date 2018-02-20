@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 6fb27bb277d3ad1b5363da40c26d879663ff616b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e92ac00e08008e8de6a60ec46e0d71500bb03eaa
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Udvidelsen Microsoft Pay til [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -31,7 +31,7 @@ Microsoft Pay-udvidelsen giver følgende fordele:
 - Microsoft Pay-linket kan integreres automatisk på i alle fakturadokumenter eller af brugeren.
 - Da denne funktion er udviklet som en udvidelse, kan du altid aktivere den, når og hvis dine forretningsprocesser kræver det.
 
-Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du skal kontakte betalingstjenesten for at få en konto. Du kan finde flere oplysninger i [Fremgangsmåde: Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
+Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du skal kontakte betalingstjenesten for at få en konto. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  

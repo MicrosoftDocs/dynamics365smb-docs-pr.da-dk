@@ -1,6 +1,6 @@
 ---
-title: Nyheder i Dynamics 365 Business edition | Microsoft Docs
-description: Beskriver de seneste nyheder og opdateringer for Dynamics 365 Business edition.
+title: Nyheder i Finance and Operations, Business edition | Microsoft Docs
+description: Beskriver de seneste nyheder og opdateringer til Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,27 +13,27 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nyheder i Dynamics 365 for Finance and Operations, Business edition
 Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Hvis du ikke allerede har tilmeldt dig en prøveversion, kan vi sammen gennemgå de grundlæggende funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)], og så kan du selv prøve programmet i en periode. Når du er klar, kan du åbne et tomt regnskab og konfigurere det.  
 
-Vi opdaterer med jævne mellemrum [!INCLUDE[d365fin](includes/d365fin_md.md)] med ekstra funktioner i kerneprogrammet og med nye [udvidelser](ui-extensions.md). Du kan finde en oversigt over, hvad der kommer, og hvad der er aktuelt tilgængeligt, under [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - og husk at filtrere på [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Vi opdaterer med jævne mellemrum [!INCLUDE[d365fin](includes/d365fin_md.md)] med ekstra funktioner i kerneprogrammet og med nye [udvidelser](ui-extensions.md). Du kan finde en oversigt over, hvad der kommer, og hvad der er aktuelt tilgængeligt, under [Oversigt over Finance and Operations, Business edition](https://roadmap.dynamics.com/) - og husk at filtrere på [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-På denne side kan du se, hvilke områder der blev tilgængelige, mens programmet kun fandtes som prøveversion. Du kan løbende søge efter opdateringer i [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
+På denne side kan du se, hvilke områder der blev tilgængelige, mens programmet kun fandtes som prøveversion. Fremover kan du finde opdateringerne i [Oversigt over Finance and Operations, Business edition](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>Lancering af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] november 2016
 Som meddelt på bloggen, er vi nu en tjeneste, som du kan bruge i virksomheden. Men der tilføjes også nye funktioner og en ny udvidelse med denne opdatering.
 
 ### <a name="project-management"></a>Projektstyring
-Hvis du skifter til Suite-oplevelsen, kan du administrere projekter og arbejde med ressourcer, timesedler og sager. Første gang du logger på i rollen som Projektleder, hjælper en assisteret opsætningsvejledning dig med at konfigurere, hvordan du skal administrere dine projekter. Du kan arbejde med prøvekonti, sager, ressourcer og så videre i demonstrationsregnskabet for at blive fortrolig med funktionerne. Du kan finde flere oplysninger under [Administrere projekter](projects-manage-projects.md).
+Du kan administrere projekter og arbejde med ressourcer, timesedler og sager. Første gang du logger på i rollen som Projektleder, hjælper en assisteret opsætningsvejledning dig med at konfigurere, hvordan du skal administrere dine projekter. Du kan arbejde med prøvekonti, sager, ressourcer og så videre i demonstrationsregnskabet for at blive fortrolig med funktionerne. Du kan finde flere oplysninger under [Administrere projekter](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Anlægsaktiver
-Hvis du skifter til Suite-oplevelsen, kan du administrere anlægsaktiver, herunder afskrivning og forsikring. Der findes en standardopsætning, men du kan ændre den når som helst. Du kan registrere køb af anlæg i dedikerede anlægskassekladder, hvor du kan også kan sælge anlægsaktiver. Der oprettes automatisk korrekte regnskabsposter. Du kan finde flere oplysninger under [Anlægsaktiver](fa-manage.md).
+Du kan administrere anlægsaktiver, herunder afskrivning og forsikring. Der findes en standardopsætning, men du kan ændre den når som helst. Du kan registrere køb af anlæg i dedikerede anlægskassekladder, hvor du kan også kan sælge anlægsaktiver. Der oprettes automatisk korrekte regnskabsposter. Du kan finde flere oplysninger under [Anlægsaktiver](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Ny udvidelse til overførsel af data fra Dynamics GP
 Hvis din virksomhed benytter Dynamics GP i dag, kan du bruge en assisteret opsætningsvejledning til at overføre overordnede poster til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du skal har eksporteret dine eksisterende debitorer, kreditorer, lagervarer og konti ved hjælp af dataudlæsningsfunktionen i Dynamics GP. Udvidelsen til overførsel af data til Dynamics GP tilknyttes automatisk de udlæste data, så du hurtigt kan hente dine eksisterende data over i det nye regnskab i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
@@ -52,17 +52,17 @@ Denne opdatering af [!INCLUDE[d365fin](includes/d365fin_md.md)] tilføjede nye f
 
 ### <a name="more-flexibility-in-your-sales-processes"></a>Større fleksibilitet i dine salgsprocesser
 Denne opdatering tilføjer større fleksibilitet i det, du sælger:
-- Du kan nu oprette katalogvarer - varer, du tilbyder kunderne, men ikke lagerfører. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
-- Du kan nu markere en vare for direkte levering på en salgsordre og straks oprette en købsordre for varen. På denne måde kan du sælger en vare til en kunde, købe den af leverandøren og få den leveret direkte fra leverandøren til kunden. Du kan finde flere oplysninger under [Fremgangsmåde: Købe varer til et salg](purchasing-how-purchase-products-sale.md).
+- Du kan nu oprette katalogvarer - varer, du tilbyder kunderne, men ikke lagerfører. Du kan finde flere oplysninger under [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
+- Du kan nu markere en vare for direkte levering på en salgsordre og straks oprette en købsordre for varen. På denne måde kan du sælger en vare til en kunde, købe den af leverandøren og få den leveret direkte fra leverandøren til kunden. Du kan finde flere oplysninger under [Købe varer til et salg](purchasing-how-purchase-products-sale.md).
 
 ### <a name="categorize-items-in-your-inventory"></a>Kategorisere varer på lageret
-Med denne opdatering kan du oprette et hierarki af varekategorier og tildele vareattributter til hver varekategori. Du kan finde flere oplysninger under [Fremgangsmåde: Kategorisere varer](inventory-how-categorize-items.md).
+Med denne opdatering kan du oprette et hierarki af varekategorier og tildele vareattributter til hver varekategori. Yderligere oplysninger findes under [Kategorisere varer](inventory-how-categorize-items.md).
 
 ### <a name="send-purchase-orders-to-vendors"></a>Sende købsordrer til leverandører
-Nu kan du angive købsordrer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md).
+Nu kan du angive købsordrer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 
 ### <a name="better-quality-incoming-documents"></a>Bedre kvalitet af indgående dokumenter
-Du kan nu let rette fejl i scannede dokumenter, før du modtager det færdige dokument. På denne måde lærer tjenesten at undgå fejlene fremover. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).
+Du kan nu let rette fejl i scannede dokumenter, før du modtager det færdige dokument. På denne måde lærer tjenesten at undgå fejlene fremover. Du kan finde flere oplysninger i [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).
 
 ## <a name="august-2016-update"></a>Opdatering fra august 2016
 Denne opdatering af [!INCLUDE[d365fin](includes/d365fin_md.md)] tilføjede nye funktioner som [meddelt på bloggen](https://community.dynamics.com/business/b/financials/archive/2016/08/29/new-and-updated-capabilities-in-the-august-update-of-project-quot-madeira-quot).
@@ -90,10 +90,10 @@ Denne opdatering føjer handlinger til kreditordashboardet i Outlook-tilføjelse
 Outlook-tilføjelsesprogrammet er nu udvidet til Outlook-kalenderen. Fra en kalenderaftale kan du åbne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet og få vist en oversigt for den kunde, der er tilknyttet aftalen. Derefter kan du oprette og sende en faktura for de tjenester, der er ydet i mødet - alt sammen i Outlook-kalenderen. Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-markedsplads for udvidelser
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser er nu tilgængelige på AppSource-markedsplads på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søge efter og finde udvidelser på markedspladsen. Du kan få vist oplysninger, herunder marketingmateriale, skærmbilleder, videoer og links til flere oplysninger. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Udvidelser til programmet er nu tilgængelige på AppSource-markedsplads på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søge efter og finde udvidelser på markedspladsen. Du kan få vist oplysninger, herunder marketingmateriale, skærmbilleder, videoer og links til flere oplysninger. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Speditører og vareattributter
-Du kan føje attributter til dine lagervarer, som gør det nemt at finde netop det produkt, som kunden ønsker. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med vareattributter](inventory-how-work-item-attributes.md).  
+Du kan føje attributter til dine lagervarer, som gør det nemt at finde netop det produkt, som kunden ønsker. Du kan finde flere oplysninger under [Arbejde med vareattributter](inventory-how-work-item-attributes.md).  
 
 ### <a name="new-extensions-made-available"></a>Nye tilgængelige udvidelser
 Med denne opdatering kan du vælge mellem flere udvidelser i vinduet **Udvidelsesstyring**.
@@ -129,5 +129,5 @@ De vigtigste scenarier til eget brug:
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Oversigt over Finance and Operations, Business edition](https://roadmap.dynamics.com/)  
 

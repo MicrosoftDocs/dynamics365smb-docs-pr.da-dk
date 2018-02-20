@@ -13,13 +13,13 @@ ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8e88002c920e392cd61f2a899811fd0434d8cb4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fd59a1aea6cb42dbeac7c6978619a5648f877b52
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-fixed-asset-insurance"></a>Fremgangsmåde: Konfigurere forsikring af anlægsaktiver
+# <a name="set-up-fixed-asset-insurance"></a>Definere anlægsforsikring
 Hvis du vil administrere forsikringsdækning for anlægsaktiver, skal du først angive nogle generelle forsikringsoplysninger og forsikringskort pr. police.
 
 ## <a name="to-set-up-general-insurance-information"></a>Sådan angives generelle forsikringsoplysninger
@@ -42,7 +42,7 @@ Du kan samle oplysninger om hver enkelt forsikringspolice på forsikringskortet.
 3. Udfyld felterne efter behov.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Sådan defineres forsikringskladdetyper
-Første gang du åbner vinduet **Forsikringskladde** i [!INCLUDE[d365fin](includes/d365fin_md.md)], oprettes der automatisk en forsikringskladdetype, men du kan oprette flere kladdetyper. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Første gang du åbner vinduet **Forsikringskladde**, oprettes der automatisk en forsikringskladdetype, men du kan oprette flere kladdetyper. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Forsikringskladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.

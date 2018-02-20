@@ -13,21 +13,21 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a193d1ac19a0474b4a541165ef9f06d21ac7fb7d
 ms.contentlocale: da-dk
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-boms"></a>Fremgangsmåde: Oprette produktionsstyklister
+# <a name="create-production-boms"></a>Oprette produktionsstyklister
 En produktionsstykliste indeholder masterdata, som beskriver de komponenter og halvfabrikata, som anvendes til fremstilling af en overordnet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens produktionsstykliste beregningen af materialebehov, som repræsenteret i vinduet **Prod.ordrekomponenter**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter også montagestyklister. Du kan bruge montageordrer til at oprette slutvarer fra komponenter i en enkel proces, der kan udføres af en eller flere grundlæggende ressourcer, som ikke er produktions- eller arbejdscentre, eller uden nogen ressourcer. En montageproces kunne f.eks. være at plukke to vinflasker og én kaffesæk og pakke dem som en gave. Du kan finde flere oplysninger i afsnittet "Montagestykliste eller produktionsstyklister" i [Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]   understøtter også montagestyklister. Du kan bruge montageordrer til at oprette slutvarer fra komponenter i en enkel proces, der kan udføres af en eller flere grundlæggende ressourcer, som ikke er produktions- eller arbejdscentre, eller uden nogen ressourcer. En montageproces kunne f.eks. være at plukke to vinflasker og én kaffesæk og pakke dem som en gave. Du kan finde flere oplysninger i afsnittet "Montagestykliste eller produktionsstyklister" i [Arbejde med styklister](inventory-how-work-BOMs.md).  
 
 Før du kan oprette en rute, skal følgende betingelser være opfyldt:  
 
-- Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).
-- Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
+- Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
+- Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Sådan oprettes en produktionsstykliste  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Produktionsstykliste**, og vælg derefter det relaterede link.  
@@ -39,15 +39,15 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 5. Vælg, om varen på denne produktionsstyklistelinje er en almindelig vare eller en produktionsstykliste, i feltet **Type**. Hvis varen på linjen er en produktionsstykliste, skal den findes i forvejen som en godkendt produktionsstykliste.  
 6.  I feltet **Nummer** skal du søge efter og vælge den pågældende vare eller produktionsstykliste, eller du skal skrive den i feltet.  
 7.  Angiv, hvor mange enheder af varen, der indgår i den overordnede vare, f.eks. fire hjul til en bil, i feltet **Antal pr**.  
-8.  Angiv en fast procentdel af komponenterne, der går til spilde under produktionen, i feltet **Spildpct**. Når komponenterne er klar til forbrug i en frigivet produktionsordre, lægges denne procentdel til det forventede antal i feltet **Forbrugsantal** i en produktionskladde. Du kan finde flere oplysninger i [Fremgangsmåde: Sådan registreres forbrug og afgang](production-how-to-register-consumption-and-output.md).  
+8.  Angiv en fast procentdel af komponenterne, der går til spilde under produktionen, i feltet **Spildpct**. Når komponenterne er klar til forbrug i en frigivet produktionsordre, lægges denne procentdel til det forventede antal i feltet **Forbrugsantal** i en produktionskladde. Du kan finde flere oplysninger i [Registrere forbrug og afgang](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  Denne spildprocent repræsenterer komponenter, der går til spilde under produktionen, når de tages fra lageret, mens spildprocenten på rutelinjer repræsenterer spild i output, før det lægges på lager.  
 
-9.  I feltet **Rutebindingskode** skal du skrive en kode for at knytte komponenten til en bestemt operation. Du kan finde flere oplysninger i afsnittet "Sådan oprettes rutebindinger" i [Fremgangsmåde: Oprette ruter](production-how-to-create-routings.md).
+9.  I feltet **Rutebindingskode** skal du skrive en kode for at knytte komponenten til en bestemt operation. Du kan finde flere oplysninger i afsnittet "Sådan oprettes rutebindinger" i [Oprette ruter](production-how-to-create-routings.md).
 10. Du kan kopiere linjer fra en eksisterende produktionsstykliste ved at vælge handlingen **Kopier stykliste** for at vælge eksisterende linjer.  
 11.  Godkend produktionsstyklisten.  
-12.  Du kan nu knytte den nye produktionsstykliste til kortet for den pågældende overordnede vare. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).  
+12.  Du kan nu knytte den nye produktionsstykliste til kortet for den pågældende overordnede vare. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Hvis du vil genberegne varens standardkostpris fra varekortet, skal du vælge handlingen **Produktion** og derefter vælge handlingen **Beregn standardkostpris**.  
@@ -92,7 +92,7 @@ De enkelte komponenters relation defineres af beregningsformlen. Du kan vælge m
 I en produktionsstykliste skal der anvendes 70 metaldele med dimensionerne længde = 0,20 m og bredde = 0,15 m. Værdierne angives sådan: Beregningsformel = Længde x bredde, længde = 20, bredde = 15, Antal pr. = 70. Antallet er givet af antal pr. x længde * bredde, det vil sige, antal = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Oprette ruter](production-how-to-create-routings.md)   
+[Oprette ruter](production-how-to-create-routings.md)   
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planlægning](production-planning.md)   

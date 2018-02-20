@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f75e61cb9fdc3649698c68e83f4f861d30e797cd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12916e8bb7cf38f84b38ab61587c1f26936ec3f8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="ean-location-number"></a>EAN-lokationsnummer
 Et EAN-lokationsnummer (European Article Numbering) er en elektronisk adresse, som du kan bruge, når du sender en elektronisk faktura. Dette nummer identificerer entydigt køberens faktureringsadresse. EAN-lokationsnumre kan bruges i lande uden for Europa og kaldes også GLN (Global Location Numbers).  
 
 ## <a name="ean-location-numbers-in-included365finincludesd365finmdmd"></a>EAN-lokationsnumre i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
- Afdelinger, direktorater, organer og andre organisationer i den danske offentlige sektor har EAN-lokationsnumre, som entydigt identificerer debitorens faktureringsadresse. Hvis din virksomhed har en kunde i den offentlige sektor, skal du sende fakturaer og andre dokumenter elektronisk ved hjælp af Offentlig Information Online UBL (OIOUBL). For at gøre det, skal du angive kundens EAN-lokationsnummer. Du kan få flere oplysninger i [Fremgangsmåde: Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md).  
+ Afdelinger, direktorater, organer og andre organisationer i den danske offentlige sektor har EAN-lokationsnumre, som entydigt identificerer debitorens faktureringsadresse. Hvis din virksomhed har en kunde i den offentlige sektor, skal du sende fakturaer og andre dokumenter elektronisk ved hjælp af Offentlig Information Online UBL (OIOUBL). For at gøre det, skal du angive kundens EAN-lokationsnummer. Du kan få flere oplysninger i [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md).  
 
  Et EAN-lokationsnummer er en fast længde på 13 cifre. Dette nummer skal behandles i sin helhed. Nedenfor vises et eksempel på et EAN-nummer.  
 
@@ -34,5 +34,5 @@ Et EAN-lokationsnummer (European Article Numbering) er en elektronisk adresse, s
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
  [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md)   
- [Fremgangsmåde: Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md)
+ [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md)
 

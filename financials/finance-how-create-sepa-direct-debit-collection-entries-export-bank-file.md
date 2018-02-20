@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 34fb52bd39036477b479a4de626225876cfe5800
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4a527467e40448d5ddd82a66b153c7cad761e7fb
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Fremgangsmåde: Opret poster i SEPA Direct Debit-opkrævning, og eksportér til en bankfil
+# <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Oprette poster i SEPA Direct Debit-opkrævning, og eksportere til en bankfil
 For at instruere banken i at overføre det indbetalte beløb fra kundens bankkonto til din virksomheds konto, opretter du en post i den Direct Debit-opkrævning, der indeholder oplysninger om kundens bankkonto, de berørte salgsfakturaer og den Direct Debit-betalingsaftale. Fra posten i den direkte debiteringsopkrævning, som fås som resultat, kan du derefter eksportere en XML-fil, som du sender eller overfører til din elektroniske bank til behandling. Du får besked fra banken om alle betalinger, der ikke kunne behandles af banken, og derefter skal du manuelt afvise de pågældende poster i Direct Debit-opkrævningen.  
 
 > [!NOTE]  
@@ -63,10 +63,10 @@ Hvis den eksporterede fil ikke kan behandles, f.eks. fordi debitoren er insolven
 
      Den relaterede direkte debiteringsopkrævning er lukket.  
 
-Du kan nu fortsætte med at bogføre kvitteringer for betalinger for de involverede salgsfakturaer. Du kan gøre dette, mens du typisk bogfører betalingskvitteringer, f.eks. i vinduet **Betalingsregistrering**, eller du kan bogføre de relaterede betalingskvitteringer direkte fra vinduet **Poster i Direct Debit-opkrævning**. Du kan finde flere oplysninger i [Fremgangsmåde: Bogføre SEPA Direct Debit-betalingskvitteringer](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+Du kan nu fortsætte med at bogføre kvitteringer for betalinger for de involverede salgsfakturaer. Du kan gøre dette, mens du typisk bogfører betalingskvitteringer, f.eks. i vinduet **Betalingsregistrering**, eller du kan bogføre de relaterede betalingskvitteringer direkte fra vinduet **Poster i Direct Debit-opkrævning**. Du kan finde flere oplysninger i [Bogføre SEPA Direct Debit-betalingskvitteringer](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
-[Fremgangsmåde: Bogføre SEPA Direct Debit-betalingskvitteringer](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
+[Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
+[Bogføre SEPA Direct Debit-betalingskvitteringer](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 

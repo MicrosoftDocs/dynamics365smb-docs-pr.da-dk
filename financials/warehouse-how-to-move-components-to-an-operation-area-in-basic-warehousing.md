@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 146e113931384e8bc9ba01d5ae7ddb626d18050f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 111d79755a3141bf4e562de3e99ffc2117d12d16
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Sådan flyttes komponenter til et handlingsområde i grundlæggende lageropsætninger
+# <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger
 Hvis der forekommer varebehandlingsprocesser på lagerlokationen, skal du evt. flytte varer mellem interne placeringer som reaktion på interne kildedokumenter, f.eks. produktion, montage eller serviceordrer på lokationen.  
 
 > [!NOTE]  
 >  Du kan finde oplysninger om flytning af varer mellem placeringer uden kildedokumenter i Intern flytning.  
 
-I avancerede lageropsætninger, som er lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, kan du bruge vinduet **Bevægelseskladde** til at flytte varer mellem placeringer. Du kan finde flere oplysninger i [Fremgangsmåde: Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+I avancerede lageropsætninger, som er lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, kan du bruge vinduet **Bevægelseskladde** til at flytte varer mellem placeringer. Du kan finde flere oplysninger i [Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 I grundlæggende lageropsætninger, som er lokationer, der bruger opsætningsfeltet **Tvungen placering** og opsætningsfeltet **Kræv pluk**, kan du registrere flytning af varer til interne operationsområder baseret på interne kildedokumenter på følgende måder:  
 
@@ -44,7 +44,7 @@ En lagermedarbejder kan også oprette den ved at pege på den pågældende frigi
 > [!NOTE]  
 >  Hvis flytningen gælder en montageordre, hvor varen er monteret til en salgsordre, kan du definere, at dokumentet for flytning (lager) skal oprettes automatisk, når du opretter det lagerplukdokument, der tager det færdige montageelement og bogfører leverancen. Du kan angive dette ved at vælge feltet **Opret bevægelser automatisk** i vinduet **Montagekonfiguration**  
 >   
->  Du kan finde flere oplysninger om montageordrer og grundlæggende lageropsætninger i afsnittet "Håndtere montageordrevarer med pluk (lager)" i [Fremgangsmåde: Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md).  
+>  Du kan finde flere oplysninger om montageordrer og grundlæggende lageropsætninger i afsnittet "Håndtere montageordrevarer med pluk (lager)" i [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md).  
 
 Denne fremgangsmåde viser, hvordan du opretter en flytning (lager) fra vinduet **Flytning (lager)** ved at referere til en frigivet montageordre som et kildedokument. Fremgangsmåden er den samme, når du flytter komponenter til produktionsordrer og serviceordrer.  
 

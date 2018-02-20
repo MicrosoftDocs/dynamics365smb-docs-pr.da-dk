@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1b075d164e18a52fbda56cced8d88fabc77bec3f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7dafbb96b4ce4f5ad525ab299edd8549c7aa600e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-manufacturing-batch-units-of-measure"></a>Fremgangsmåde: Arbejde med produktionskladdeenheder
+# <a name="work-with-manufacturing-batch-units-of-measure"></a>Arbejde med produktionskladdeenheder
 Hvis en vare lagerføres i én enhed, men produceres i en anden, kan der oprettes en produktionsordre, hvor der bruges en produktionskladdeenhed til beregning af det rigtige antal komponenter under kørslen af **Opdater produktionsordre**. Produktionskladdeenheden kan f.eks. bruges til beregning, når den producerede vare lagerføres i enheder, men produceres i ton.  
 
 ## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Sådan oprettes en produktionsstykliste vha. en kladdeenhed  
 1.  Produktionskladdeenheden oprettes som en alternativ enhed i vinduet **Vareenheder** på varen, der skal produceres. Kladdeenheden erstatter ikke varens basisenhed.  
-2.  Opret en produktionsstykliste til den vare, som du har oprettet produktionskladdeenheden til. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-production-boms.md).  
+2.  Opret en produktionsstykliste til den vare, som du har oprettet produktionskladdeenheden til. Du kan finde flere oplysninger i [Oprette produktionsstyklister](production-how-to-create-production-boms.md).  
 3.  Vælg produktionskladdeenheden i feltet **Enhedskode**.  
 4.  For hver linje i produktionsstyklisten skal du angive det komponentantal i feltet **Antal pr.** , som er en forudsætning for oprettelsen af denne kladdeenhed.  
 5.  Åbn vinduet **Varekort** til den tilhørende vare.  
 
     Vælg den produktionsstykliste, du har oprettet ovenfor i feltet **Produktionsstyklistenr.** i oversigtspanelet **Genopfyldning**.  
-6.  Opret et produktionsordrehoved ved at bruge den vare, som du har oprettet produktionskladdeenheden til. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette produktionsordrer](production-how-to-create-production-orders.md).  
+6.  Opret et produktionsordrehoved ved at bruge den vare, som du har oprettet produktionskladdeenheden til. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).  
 7.  Vælg handlingen **Opdater**, og vælg derefter knappen **OK**.  
 
 På oversigtspanelet **Linjer** skal du vælge handlingen **Linje** og derefter vælge handlingen **Komponenter** for at se resultatet. Nu beregnes det antal komponenter, som skal bruges til produktionsstyklisten i overensstemmelse med produktionskladdeenheden.  
@@ -46,8 +46,8 @@ På oversigtspanelet **Linjer** skal du vælge handlingen **Linje** og derefter 
 8.  På oversigtspanelet **Linjer** skal du vælge handlingen **Linje** og derefter vælge handlingen **Komponenter** for at se resultatet. Nu beregnes det antal komponenter, som skal bruges til produktionsstyklisten i overensstemmelse med produktionskladdeenheden.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Oprette ruter](production-how-to-create-routings.md)  
-[Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-production-boms.md)     
+[Oprette ruter](production-how-to-create-routings.md)  
+[Oprette produktionsstyklister](production-how-to-create-production-boms.md)     
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planlægning](production-planning.md)   

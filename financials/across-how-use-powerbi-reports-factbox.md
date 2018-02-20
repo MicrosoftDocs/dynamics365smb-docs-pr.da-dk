@@ -13,14 +13,14 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1c82ab613d8f1fc5e71a81e6eead60cf9c0bf196
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9b4190ca0ffbc0a922c6679fcf98367a72980eea
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-business-edition"></a>Vise listedata i Power BI-rapporter i Dynamics 365 Business edition 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder et faktaboks-kontrolelement på en række vigtige sider, der giver ekstra indsigt i oplysningerne på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post. Du kan oprette brugerdefinerede rapporter, der kan vises i kontrolelementet, men du skal følge nogle særlige regler, når du opretter rapporterne, for at sikre, at de giver den ønskede funktionalitet.  
+# <a name="viewing-list-data-in-power-bi-reports-in-finance-and-operations-business-edition"></a>Vise listedata i Power BI-rapporter i Finance and Operations, Business edition 
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder et faktaboks-kontrolelement på en række vigtige sider, der giver ekstra indsigt i oplysningerne på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post. Du kan oprette brugerdefinerede rapporter, der kan vises i kontrolelementet, men du skal følge nogle særlige regler, når du opretter rapporterne, for at sikre, at de giver den ønskede funktionalitet.  
 
 > [!NOTE]  
 >   Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til Power BI. Desuden skal du hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md).  
@@ -74,6 +74,6 @@ Kontroller, at rapportstørrelse er indstillet til 325 x 310 pixel. Gem rapporte
 ## <a name="see-also"></a>Se også
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)    
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
 [Finans](finance.md)  
 

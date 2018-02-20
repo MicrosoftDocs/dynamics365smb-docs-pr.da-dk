@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: afc73b146ce3c95ea47ac935e826b27f0a18d325
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-send-documents-by-email"></a>Fremgangsmåde: Sende dokumenter via mail
+# <a name="send-documents-by-email"></a>Sende dokumenter som mail
 For at give oplysningerne i forretningsdokumenter hurtigt til samarbejdspartnere, f.eks betalingsoplysningerne i salgsdokumenter til debitorer, kan du bruge funktionen Rapportlayout til at definere dokumentspecifik tekst, der bliver automatisk indsat i brødteksten i mails. Du kan finde flere oplysninger under [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).
 
 For at aktivere mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du starte den assisterede **Konfigurer mail-opsætning** på startsiden.
@@ -40,7 +40,7 @@ Følgende procedure beskriver, hvordan du konfigurerer rapporten **Salg - faktur
 
     Rapportlayout angiver formatet og indholdet af brødteksten i mailen, herunder standardtekst, som går forud for de centrale dokumentoplysninger i selve mailens brødtekst. Du kan se alle tilgængelige rapportlayout, hvis du vælger knappen **Vælg fra komplet liste** på listen.
 6. For at få vist eller redigere layoutet, som brødteksten i mailen er baseret på, skal du vælge layoutet i vinduet **Rediger Layout** og derefter vælge handlingen **Tilpassede rapportlayouts**.
-7. Hvis du vil tilbyde kunderne at betale for salg elektronisk, kan du konfigurere den relaterede betalingstjeneste, f.eks PayPal, og derefter kan du også automatisk få PayPal oplysninger og hyperlink indsat i selve mailen. Du kan finde flere oplysninger i [Fremgangsmåde: Aktivere debitorbetalinger via PayPal](sales-how-enable-payment-service-extensions.md).
+7. Hvis du vil tilbyde kunderne at betale for salg elektronisk, kan du konfigurere den relaterede betalingstjeneste, f.eks PayPal, og derefter kan du også automatisk få PayPal oplysninger og hyperlink indsat i selve mailen. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via PayPal](sales-how-enable-payment-service-extensions.md).
 8. Vælg knappen **OK**.
 
 Nu, når du vælger, f.eks. **Send**-handlingen i vinduet **Bogført salgsfaktura**, indeholder brødtekst i mail dokumentoplysningerne i rapporten 1306 med foranstående standardtekst, hvor typografierne er i overensstemmelse med det rapportlayout, som du valgte under trin 5.
@@ -50,7 +50,7 @@ Følgende fremgangsmåde beskriver, hvordan du sender en bogført salgsfaktura s
 ## <a name="to-send-documents-by-email"></a>Sådan sendes dokumenter som mail
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsfakturaer**, og vælg derefter det relaterede link.
 2. Vælg den relevante bogførte salgsfaktura, og vælg derefter handlingen **Send**. Vinduet **Send bilag til** åbnes.
-3. I feltet **Mail** skal du vælge **Ja (Bed om indstillinger)**. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurerer dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
+3. I feltet **Mail** skal du vælge **Ja (Bed om indstillinger)**. Du kan finde flere oplysninger under [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
 4. Vælg knappen **OK**. Vinduet **Send mail** åbnes.
 5. I feltet **Til:** skal du angive en gyldig mailadresse. Standardværdien er kundens mailadresse.
 6. Brug feltet **Emne** til at indtaste en sigende emnetekst. Standardværdien er debitornavnet og fakturanummeret.
@@ -61,11 +61,11 @@ Følgende fremgangsmåde beskriver, hvordan du sender en bogført salgsfaktura s
 9. Vælg knappen **OK** for at sende mailen.
 
 > [!NOTE]  
->   Hvis du ikke vil angive mailindstillinger, hver gang du sender en mail med et dokument, kan du vælge indstillingen **Ja (Brug standardindstillinger)** i feltet **Mail** i vinduet **Send bilag til**. I så fald åbnes vinduet **Send mail** ikke. Se trin 4. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurerer dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
+>   Hvis du ikke vil angive mailindstillinger, hver gang du sender en mail med et dokument, kan du vælge indstillingen **Ja (Brug standardindstillinger)** i feltet **Mail** i vinduet **Send bilag til**. I så fald åbnes vinduet **Send mail** ikke. Se trin 4. Du kan finde flere oplysninger under [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
 
 ## <a name="see-also"></a>Se også
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
-[Fremgangsmåde: Konfigurere mail](madeira-how-setup-email.md)  
-[Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md)  
+[Konfigurere mail](madeira-how-setup-email.md)  
+[Fakturere salg](sales-how-invoice-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

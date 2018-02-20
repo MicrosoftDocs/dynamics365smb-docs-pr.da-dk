@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 06/02/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 069f621101023a3c57b7add4d4e3ffcbc2664845
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="fixed-assets"></a>Anlægsaktiver
@@ -31,10 +31,7 @@ For hvert aktiv kan du registrere reparationsomkostningerne og den næste servic
 Hvert anlægsaktiv kan tilknyttes én eller flere forsikringspolicer. Du kan derfor let kontrollere, at forsikringspolicebeløbene er i overensstemmelse med værdien af de aktiver, der er knyttet til policen. Det gør det også nemt at overvåge årlige forsikringspræmier.
 
 > [!NOTE]  
->   Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller i vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger vinduet **Anlægskassekladde**. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
-
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+>   Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller i vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger vinduet **Anlægskassekladde**. Du kan finde flere oplysninger i [Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
 
 Når du vil begynde at administrere anlægsaktiver, skal du først angive standardværdier, anlægsregnskab, bogføringsgrupper, allokeringsnøgler, kladder og bogføringstyper. Du kan finde flere oplysninger under [Konfigurere anlægsaktiver](fa-setup.md).
 
@@ -42,14 +39,14 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 | Hvis du vil | Se |
 | --- | --- |
-| Oprette anlægsaktiver, tilknytte afskrivningsmetoder, bogføre anskaffelser og skrapværdier og udskrive oversigter over anlægsaktiver. |[Fremgangsmåde: Anskaffe anlægsaktiver](fa-how-acquire.md) |
-| Registrere servicebesøg, bogføre og overvåge reparationsomkostninger. |[Fremgangsmåde: Vedligeholde anlægsaktiver](fa-how-maintain.md) |
-| Opdatere forsikringsoplysninger, bogføre anskaffelsespriser til forsikringspolicer, ændre forsikringsdækning, få vist forsikringsstatistik og oversigter over forsikringspolicer. |[Fremgangsmåde: Forsikre anlægsaktiver](fa-how-insure.md) |
-| Ompostere anlægsaktiver, overføre anlægsaktiver til forskellige lokationer, opdele eller kombinere anlæg. |[Fremgangsmåde: Overføre, opdele eller kombinere anlægsaktiver](fa-how-trans-split-combine.md) |
-| Regulere anlægsaktivernes værdier, bogføre opskrivnings- og nedskrivningstransaktioner. |[Fremgangsmåde: Regulere anlægsaktiver](fa-how-revalue.md) |
-| Beregne afskrivning, bogføre afskrivning og analysere afskrivning i anlægsrapporter. |[Fremgangsmåde: Afskrive eller amortisere anlægsaktiver](fa-how-depreciate-amortize.md) |
-| Bogføre salgstransaktioner, have vist salgsposter og bogføre delvist salg. |[Fremgangsmåde: Afhænde eller afvikle anlægsaktiver](fa-how-dispose-retire.md) |
-| Administrere anlægsbudgetter, budgettere anskaffelsesomkostninger, salg af anlægsaktiver og afskrivning. |[Fremgangsmåde: Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md) |
+| Oprette anlægsaktiver, tilknytte afskrivningsmetoder, bogføre anskaffelser og skrapværdier og udskrive oversigter over anlægsaktiver. |[Anskaffede anlægsaktiver](fa-how-acquire.md) |
+| Registrere servicebesøg, bogføre og overvåge reparationsomkostninger. |[Vedligeholde anlægsaktiver](fa-how-maintain.md) |
+| Opdatere forsikringsoplysninger, bogføre anskaffelsespriser til forsikringspolicer, ændre forsikringsdækning, få vist forsikringsstatistik og oversigter over forsikringspolicer. |[Forsikring af anlægsaktiver](fa-how-insure.md) |
+| Ompostere anlægsaktiver, overføre anlægsaktiver til forskellige lokationer, opdele eller kombinere anlæg. |[Overføre, opdele eller kombinere anlægsaktiver](fa-how-trans-split-combine.md) |
+| Regulere anlægsaktivernes værdier, bogføre opskrivnings- og nedskrivningstransaktioner. |[Omvurdere anlægsaktiver](fa-how-revalue.md) |
+| Beregne afskrivning, bogføre afskrivning og analysere afskrivning i anlægsrapporter. |[Afskrive på eller amortisere anlægsaktiver](fa-how-depreciate-amortize.md) |
+| Bogføre salgstransaktioner, have vist salgsposter og bogføre delvist salg. |[Afhænde eller lade anlægsaktiver udgå](fa-how-dispose-retire.md) |
+| Administrere anlægsbudgetter, budgettere anskaffelsesomkostninger, salg af anlægsaktiver og afskrivning. |[Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md) |
 
 ## <a name="see-also"></a>Se også
 [Opsætning af anlægsaktiver](fa-setup.md)  
@@ -58,4 +55,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
+

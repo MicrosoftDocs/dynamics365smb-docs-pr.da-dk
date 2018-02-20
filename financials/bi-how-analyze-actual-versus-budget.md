@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 12/01/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: e76d590476b1236bf1d82a7f5e4f502ffdd9d02d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1da2e94fa64d1daa3304b5266d54152563cfa283
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Fremgangsmåde: Analysere faktiske beløb sammenlignet med budgetterede beløb
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysere faktiske beløb sammenlignet med budgetterede beløb
 Som et led i indsamling, analyse og deling af virksomhedens data kan du få vist faktiske beløb sammenlignet med budgetterede beløb for alle konti og for flere perioder.
 
-Hvis du vil analysere budgetterede beløb, skal du først oprette finansbudgetter. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette finansbudgetter](finance-how-create-budgets.md).
-
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
+Hvis du vil analysere budgetterede beløb, skal du først oprette finansbudgetter. Du kan finde flere oplysninger i [Oprette finansbudgetter](finance-how-create-budgets.md).
 
 ## <a name="to-view-a-gl-budget"></a>Sådan får du vist et finansbudget
 budget med dimensioner kan du filtrere poster og få vist et bestemt budget.
@@ -69,7 +66,7 @@ Du kan få vist et antal perioder for en enkelt konto i stedet for at få vist a
 
 ## <a name="see-also"></a>Se også
 [Business Intelligence](bi.md)  
-[Fremgangsmåde: Arbejde med kontoskemaer](bi-how-work-account-schedule.md)  
+[Arbejde med kontoskemaer](bi-how-work-account-schedule.md)  
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  

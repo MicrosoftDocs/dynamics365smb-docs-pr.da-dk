@@ -1,6 +1,6 @@
 ---
 title: Opdatere valutakurser | Microsoft Docs
-description: Hvis du vil bruge flere forskellige valutaer i virksomheden, skal du angive en kode for hver valuta og bruge en ekstern valutakurstjeneste, som Yahoo.
+description: Hvis du vil bruge flere forskellige valutaer i virksomheden, skal du angive en kode for hver valuta og bruge en ekstern valutakurstjeneste, som FloatRates.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 07/02/2017
+ms.search.keywords: multiple currencies
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: eecb1c7b7bcb62e8dc7def488f66338855dad030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 973e2559b5cbf3e21bb735267ac800f87fa5a7f6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-update-currency-exchange-rates"></a>Fremgangsmåde: Opdatere valutakurser
+# <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 Du skal oprette koder for hver valuta, du bruger, hvis du foretager køb og salg i andre valutaer end din lokale valuta, eller hvis du registrerer finanstransaktioner i forskellige valutaer.  
 
 Da virksomheder handler i alt flere lande, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta. Programmet understøtter brug af flere valutaer. I programmet er finansposterne oprettet i den lokale valuta (RV), og en anden valuta er oprettet som en ekstra valuta med en aktuel valutakurs tilknyttet.  
@@ -41,11 +41,8 @@ Brug af en ekstra rapporteringsvaluta kan være en hjælp i rapporteringsprocess
 
 Flere rapporter i modulet Finanser baseret på finansposter. Hvis finansielle data skal vises i rapporten i den ekstra rapporteringsvaluta, skal du blot vælge feltet **Vis i ekstra valuta** i vinduet for den relevante finansrapport.  
 
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
-
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Sådan konfigureres en valutakurstjeneste
-Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdaterede. Tjenesten Yahoo Currency Exchange Rates er forudinstalleret og klar til at blive aktiveret.
+Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks. FloatRates.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Valutakurstjenester**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.

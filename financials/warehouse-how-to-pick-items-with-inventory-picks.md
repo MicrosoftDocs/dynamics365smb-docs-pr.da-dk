@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ba8c1649094c9606766c4f4e88df5beed9400e53
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7e5d30ec5775030c523b73f90490428531f49fec
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-items-with-inventory-picks"></a>Sådan plukkes varer med Pluk fra lager
+# <a name="pick-items-with-inventory-picks"></a>Plukke varer med Pluk fra lager
 Når den lokation, du vil plukke fra, er sat op til at kræve pluk, men ikke leverance, skal du bruge vinduet **Pluk (lager)** til at registrere og bogføre pluk- og leveranceoplysninger for kildedokumenterne. De udgående kildedokumenter kan være en salgsordre, en købsreturvareordre, en udgående overflytning eller en produktionsordre, hvor komponenterne er klar til at blive plukket.
 
 > [!NOTE]  
-> Komponenter til montageordrer kan ikke plukkes eller bogføres med pluk. Brug i stedet vinduet **Flytning (lager)**. Du kan finde flere oplysninger i [Fremgangsmåde: Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+> Komponenter til montageordrer kan ikke plukkes eller bogføres med pluk. Brug i stedet vinduet **Flytning (lager)**. Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
->  Når du plukker og leverer salgslinjemængder, der er monteret til ordren, skal du følge visse regler, når du opretter lagerpluklinjerne. Du kan finde flere oplysninger i afsnittet "Håndtere montageordrevarer i Pluk (lager)".  
+>  Når du plukker og leverer salgslinjemængder, der er monteret til ordren, skal du følge visse regler, når du opretter lagerpluklinjerne. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)".  
 
 Du kan oprette et pluk på tre måder:  
 
@@ -39,7 +39,7 @@ I forbindelse med salgsordrer, købsreturvareordrer og udgående overflytningsor
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Vælg den salgsordre, du vil frigive, og vælg derefter handlingen **Frigiv**.
 
-I forbindelse med produktionsordrer opretter du automatisk lageranmodningen til pluk af komponenter, kaldet *træk* når status på produktionsordren ændres til **Frigivet**, eller når den frigivne produktionsordre oprettes. Du kan finde flere oplysninger i [Fremgangsmåde: Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md).
+I forbindelse med produktionsordrer opretter du automatisk lageranmodningen til pluk af komponenter, kaldet *træk* når status på produktionsordren ændres til **Frigivet**, eller når den frigivne produktionsordre oprettes. Du kan finde flere oplysninger i [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md).
 
 Når lageranmodningen er oprettet, kan en lagermedarbejder, der er tildelt til plukning af varer, se, at kildedokumentet er klar til at blive plukket, og oprette et nyt plukdokument på basis af lageranmodningen.  
 
@@ -64,16 +64,16 @@ Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette et ny lagerpluk
 4. Vælg knappen **OK**. De angivne lagerpluk oprettes.
 
 > [!NOTE]  
->  Hvis du plukker og leverer salgslinjemængder, der er monteret til ordren, skal du følge visse regler, når du opretter lagerpluklinjerne. Du kan finde flere oplysninger i afsnittet "Håndtere montageordrevarer i Pluk (lager)".  
+>  Hvis du plukker og leverer salgslinjemængder, der er monteret til ordren, skal du følge visse regler, når du opretter lagerpluklinjerne. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)".  
 >   
->  I grundlæggende lageropsætninger plukkes varer, der er monteret til salgsordrer, fra den tilknyttede salgsordre som beskrevet i dette emne. Du kan finde flere oplysninger i afsnittet "Håndtere montageordrevarer i Pluk (lager)" i Pluk (lager).  
+>  I grundlæggende lageropsætninger plukkes varer, der er monteret til salgsordrer, fra den tilknyttede salgsordre som beskrevet i dette emne. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)" i Pluk (lager).  
 
 ## <a name="to-record-the-inventory-picks"></a>Sådan registreres lagerpluk  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pluk (lager)**, og vælg derefter det relaterede link.  
 2. I feltet **Placeringskode** på pluklinjerne, foreslås den placering, som varerne skal plukkes fra, pr. varens standardplacering. Du kan eventuelt ændre placeringen i dette vindue.  
 3. Udfør plukaktiviteten, og angiv oplysningerne for den faktiske mængde, der er lagt på lager, i feltet **Håndteringsantal**.
 
-    Hvis det er nødvendigt at plukke varerne for en enkelt linje fra mere end én placering, f.eks. fordi de ikke er tilgængelige på den angivne placering, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Du kan finde flere oplysninger om opdeling af linjer i [Fremgangsmåde: opdele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md).  
+    Hvis det er nødvendigt at plukke varerne for en enkelt linje fra mere end én placering, f.eks. fordi de ikke er tilgængelige på den angivne placering, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Du kan finde flere oplysninger om opdeling af linjer i [Opdele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. Når du har plukket varerne, skal du vælge handlingen **Bogfør**.    
 
 Bogføringsprocessen bogfører leverancen af de kildedokumentlinjer, der er plukket, og i forbindelse med produktionsordrer bogføres forbruget. Hvis lokationen anvender placeringer, oprettes der også lagerposter til bogføring af ændringer af placeringsantallet.  
@@ -87,11 +87,11 @@ Hvis varer på lagerpluk ikke er tilgængelige, kan du kan slette disse lagerplu
 >  Hvis lagerpluklinjer har serienumre/lotnumre, der ikke er tilgængelige, skal du ikke slette de pågældende linjer. I stedet skal du ændre feltet **Håndteringsantal** til nul, bogføre de faktiske pluk og derefter slette lagerplukdokumentet. Dette garanterer, at lagerpluklinjerne for disse serie-/lotnumre kan genoprettes senere fra salgsordren.  
 
 ## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Håndtering af montage til ordre-varer med pluk (lager)
-Vinduet **Pluk (lager)** bruges også til at plukke og afsende salg, hvor varerne skal monteres, inden de kan leveres. Du kan finde flere oplysninger i [Sådan sælger du en vare, der er monteret efter ordre](assembly-how-to-sell-items-assembled-to-order.md).
+Vinduet **Pluk (lager)** bruges også til at plukke og afsende salg, hvor varerne skal monteres, inden de kan leveres. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).
 
 Varer, der skal leveres, findes ikke fysisk i en placering, før de er monteret og bogført som afgang til en placering i montageområdet. Det betyder, at pluk af ordremontagevarer til levering følger en speciel strøm. Lagermedarbejderne fra en placering fragter montageelementerne til afsendelsesområdet og bogfører derefter lagerpluk. Den bogførte lagerpluk bogfører derefter montageafgang, komponentforbrug og salgsleverance.
 
-Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at oprette en flytning (lager), når lagerpluk for varen montageelementet oprettes. Når du vil gøre det, skal du vælge feltet **Opret bevægelser automatisk** i vinduet **Montagekonfiguration**. Du kan finde flere oplysninger i [Fremgangsmåde: Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at oprette en flytning (lager), når lagerpluk for varen montageelementet oprettes. Når du vil gøre det, skal du vælge feltet **Opret bevægelser automatisk** i vinduet **Montagekonfiguration**. Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Lagerpluklinjer for salgsvarer oprettes på forskellige måder afhængigt af, om ingen, nogle eller alle salgslinjemængderne samles til ordre.
 

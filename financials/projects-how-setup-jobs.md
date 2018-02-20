@@ -13,13 +13,13 @@ ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b0e8a73af6f979cb426db1bffc34d154fc439dce
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c57b2bd4b4c99373d4ce16905fbf626e549bc1f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-jobs"></a>Sådan gør du: Oprette sager
+# <a name="set-up-jobs"></a>Opsætte sager
 I vinduet **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
 
 På de individuelle sagskort skal du angvie priser for sagsvarer, sagsressourcer og sagsfinanskonti, og du skal oprette sagsbogføringsgrupper.
@@ -39,7 +39,7 @@ Hvis du vælger afkrydsningsfeltet **Anvend anvendelseslink**, kan du gennemse o
 Når afkrydsningsfelt **Anvend anvendelseslink** er markeret, og sagsplanlægningslinjetypen er **Fakturerbar**, opretter Financials en sagsplanlægningslinje af typen **Budget**, når du har bogførrt kladdelinjen.
 
 > [!NOTE]  
->   Hvis afkrydsningsfeltet **Anvend anvendelseslink** på sagskortet er markeret, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes nye sagsplanlægningslinjer for linjetypen **Budget**, når du bogfører sagskladdelinjerne. Hvis afkrydsningsfeltet **Anvend anvendelseslink** på sagskortet ikke er markeret, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes ingen nye sagsplanlægningslinje, når du bogfører sagskladdelinjerne. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere Registrere forbrug for sager](projects-how-record-job-usage.md).
+>   Hvis afkrydsningsfeltet **Anvend anvendelseslink** på sagskortet er markeret, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes nye sagsplanlægningslinjer for linjetypen **Budget**, når du bogfører sagskladdelinjerne. Hvis afkrydsningsfeltet **Anvend anvendelseslink** på sagskortet ikke er markeret, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes ingen nye sagsplanlægningslinje, når du bogfører sagskladdelinjerne. Du kan finde flere oplysninger under [Registrere forbrug for sager](projects-how-record-job-usage.md).
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsopsætning**, og vælg derefter det relaterede link.
 2. Marker eller fjern markeringen af afkrydsningsfeltet **Anvend anvendelseslink** .

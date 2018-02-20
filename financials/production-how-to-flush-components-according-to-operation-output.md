@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b58e897768848b50232b360f3822846d6dd316df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f61e3150f1978795a20d4ad68656d6d1e72402a0
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-flush-components-according-to-operation-output"></a>Sådan gør du: Udtrække komponenter i henhold til operationsafgang
+# <a name="flush-components-according-to-operation-output"></a>Udtrække komponenter i henhold til operationsafgang
 For varer, der er konfigureret med baglæns trækmetode, er standardfunktionsmåden at beregne og bogføre komponentforbrug, når du ændrer status på en frigivet produktionsordre til **Afsluttet**.  
 
-Hvis du også definerer rutebindingskoder, forekommer beregning og bogføring, når hver operation er afsluttet, og den mængde, der rent faktisk er forbrugt i handlingen, der er bogført. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette ruter](production-how-to-create-routings.md).  
+Hvis du også definerer rutebindingskoder, forekommer beregning og bogføring, når hver operation er afsluttet, og den mængde, der rent faktisk er forbrugt i handlingen, der er bogført. Du kan finde flere oplysninger i [Oprette ruter](production-how-to-create-routings.md).  
 
 Hvis f.eks. en produktionsordre om at fremstille 800 meter kræver 8 kg af en komponent, bogføres derefter, når du bogfører 200 meter som afgang, 2 kg automatisk som forbrug.  
 
@@ -43,7 +43,7 @@ Følgende procedure viser, hvordan du kombinerer Bagudtrækning og rutebindingsk
     >  Vælg **Pluk + Fremad**, hvis komponenten bruges på en placering, der er sat op til styret læg-på-lager og pluk.  
 
 4.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ruter**, og vælg derefter det relaterede link.  
-5.  Definer rutebindingskoder for hver operation, der bruger komponenten. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette ruter](production-how-to-create-routings.md).  
+5.  Definer rutebindingskoder for hver operation, der bruger komponenten. Du kan finde flere oplysninger i [Oprette ruter](production-how-to-create-routings.md).  
 6.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Produktionsstykliste**, og vælg derefter det relaterede link.  
 7.  Definer rutebindingskoder fra hver forekomst af komponenten til den operation, hvor den forbruges.
 
@@ -51,7 +51,7 @@ Følgende procedure viser, hvordan du kombinerer Bagudtrækning og rutebindingsk
     >  Komponenten skal have en rutebinding til den sidste operation i ruten.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
+[Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planlægning](production-planning.md)   

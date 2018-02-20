@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bd80d0a7a701256dfdae3346e899b84eeb990a40
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f4796d9796788d2fbbf5706688aec75a4ed9a6d8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="automatic-transfer-and-combined-entries"></a>Automatisk overførsel og kombinerede poster
@@ -32,7 +32,7 @@ I omkostningsregnskab kan du overføre finansposter til en pristype ved hjælp a
 >  Hvis du har markeret afkrydsningsfeltet **Automatisk overførsel fra finans** i vinduet **Konfiguration af omkostningsregnskab**, opdaterer [!INCLUDE[d365fin](includes/d365fin_md.md)] omkostningsregnskabet efter hver bogføring i regnskabet. Kombinerede poster er ikke mulige.  
 
 ## <a name="see-also"></a>Se også  
- [Sådan overføres finansposter til omkostningsposter](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
+ [Overføre finansposter til omkostningsposter](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
  [Kriterier for overførsel af finansposter til omkostningsposter.](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
  [Resultater af overførslen](finance-results-of-the-transfer.md)   
  [Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)  

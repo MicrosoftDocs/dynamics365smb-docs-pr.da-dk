@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: db0e3f159a0d6a793ed5881118ecff6d0bf6a529
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1c514178ef65b78ad74256834b962e7018ac3864
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-when-and-how-to-receive-notifications"></a>Fremgangsmåde: Angive, hvornår og hvordan notifikationer modtages
+# <a name="specify-when-and-how-to-receive-notifications"></a>Angive, hvornår og hvordan notifikationer modtages
 Når du konfigurerer brugere i godkendelsesarbejdsgange, skal du angive i vinduet **Konfiguration af notifikation** og **Notifikationsplan**, hvordan og hvornår de enkelte brugere får besked om godkendelsestrin i arbejdsprocessen. Individuelle brugere kan også ændre deres opsætning ved at klikke på knappen **Rediger notifikationsindstillinger** i en vilkårlig notifikation.  
 
- Før du kan konfigurere en godkendelsesbrugers notifikationsindstillinger, skal du konfigurere brugeren som godkendelsesbruger. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
+ Før du kan konfigurere en godkendelsesbrugers notifikationsindstillinger, skal du konfigurere brugeren som godkendelsesbruger. Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 
- Du definerer layout og indhold for notifikationer ved at konfigurere notifikationsskabeloner. Du kan finde flere oplysninger i [Fremgangsmåde: Administrere notifikationsskabeloner](across-how-to-manage-notification-templates.md).  
+ Du definerer layout og indhold for notifikationer ved at konfigurere notifikationsskabeloner. Du kan finde flere oplysninger i [Administrere notifikationsskabeloner](across-how-to-manage-notification-templates.md).  
 
  Mange trin i en godkendelsesarbejdsgang vedrører notifikationer til brugere om, at der er forekommet en hændelse, som de skal reagere på. I ét arbejdsgangstrin kan hændelsen f.eks. være, at bruger 1 anmoder om godkendelse af en ny post. Det relaterede svar er, at der er sendt en notifikation til bruger 2, godkenderen. På det næste trin i arbejdsgangen kan hændelsen være, at bruger 2 godkender posten. Det relaterede svar er, at er sendt en notifikation til bruger 3 om at starte en proces med den godkendte post. For trin i arbejdsgangen, der vedrører godkendelse, er hver notifikation knytet til en godkendelsespost. Du kan finde flere oplysninger i [Workflow](across-workflow.md).  
 
@@ -59,8 +59,8 @@ Når du konfigurerer brugere i godkendelsesarbejdsgange, skal du angive i vindue
 2.  I feltet **Konfiguration af notifikation** skal du ændre dine indstillinger som beskrevet ovenfor.  
 
 ## <a name="see-also"></a>Se også  
- [Fremgangsmåde: Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)   
- [Fremgangsmåde: Administrere notifikationsskabeloner](across-how-to-manage-notification-templates.md)   
+ [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)   
+ [Administrere notifikationsskabeloner](across-how-to-manage-notification-templates.md)   
  [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)   
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)

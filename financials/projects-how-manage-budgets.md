@@ -13,16 +13,16 @@ ms.search.keywords: project budget, forecast
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0e480c67ddb2acd5e98799c98cb1cd9d972889df
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e88eaebf65d950dcbb6c0296be24e68628a9494e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-job-budgets"></a>Fremgangsmåde: Administrere sagsbudgetter
+# <a name="manage-job-budgets"></a>Administrere sagsbudgetter
 Du kan oprette et budget for hver sag. Budgettet bruges til at planlægge de ressourcer, som du kan allokere til en sag. Budgettet kan enten være generelt med få poster, eller det kan indeholde flere poster, der er inddelt i aktivitetsniveauer. Du kan derefter sammenligne de budgetterede beløb med det faktiske forbrug som registreret i sagskladden. Ved at overvåge forskellene mellem det faktiske forbrug og det budgetterede forbrug kan du kontrollere et igangværende projekt og forbedre kvaliteten af fremtidige sager ved at reducere risikoen for at undervurdere omkostningerne.
 
-Følgende fremgangsmåde beskriver, hvordan du vurderer budgetterede omkostninger under planlægningen. Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Sådan gør du: Registrere forbrug for sager](projects-how-record-job-usage.md).  
+Følgende fremgangsmåde beskriver, hvordan du vurderer budgetterede omkostninger under planlægningen. Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).  
 
 ## <a name="JobBudgetCosts"></a> Sådan vurderes de budgetterede omkostninger for en sag
 Når en debitor vil have oplyst prisen for en sag, som faktureres på basis af forbrug, skal du bestemme det budgetterede kostbeløb for sagen. Det gør du i vinduet **Sagsopgavelinjer**.
@@ -48,7 +48,7 @@ For feltet **Linjetype** skal du se følgende oplysninger.
 
 I vinduet **Jobkort** , kan du nu se en oversigt over de samlede budgetterede omkostninger, budgetteret pris, fakturerbare omkostninger og fakturerbar pris for hver opgave.
 
-Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Sådan gør du: Registrere forbrug for sager](projects-how-record-job-usage.md).
+Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).
 
 ## <a name="see-also"></a>Se også
 [Projektstyring](projects-manage-projects.md)  

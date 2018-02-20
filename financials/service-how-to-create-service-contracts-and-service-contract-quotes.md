@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ab8ded6ef2b93c2ab038472609093ef7e5ad3d88
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0d4ad6854c361bf254c6acec44f460afa5e100ba
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-service-contracts-and-service-contract-quotes"></a>Sådan gør du: Arbejde med servicekontrakter og servicekontrakttilbud
+# <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbejde med servicekontrakter og servicekontrakttilbud
 Du kan oprette en servicekontrakt manuelt eller ud fra et servicekontrakttilbud. Du kan bruge et servicekontrakttilbud som en forløber for en servicekontrakt, hvor din virksomhed giver kunden et tilbud og opnår kundens godkendelse, inden du kan konvertere det til en servicekontrakt. Proceduren for oprettelse af en servicekontrakt eller et servicekontrakttilbud er meget ens.  
   
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Sådan oprettes en servicekontrakt eller et servicekontrakttilbud  
@@ -199,7 +199,7 @@ Det kan være nødvendigt at annullere en servicekontrakt, hvis kontrakten udlø
 Du kan når som helst arkivere servicekontrakter og kontrakttilbud for at registrere og arkivere en kopi af kontrakten eller kontrakttilbuddet. [!INCLUDE[d365fin](includes/d365fin_md.md)] arkiveret automatisk servicekontrakter, når du konverterer kontrakttilbud til servicekontrakter eller annullerer servicekontrakter. Kan du arkivere en kontrakt eller et tilbud selv ved at vælge handlingen **Arkiver kontrakt** på siden **Servicekontrakter** eller siden **Servicekontrakttilbud**. Hvis du vil se de arkiverede kontrakter på tilbud, skal du søge efter **Arkiverede kontrakter**.
 
 ## <a name="see-also"></a>Se også  
-[Sådan gør du: Definere servicekontrakter](service-how-setup-service-contracts.md)  
-[Service](service-service.md)  
-[Fremgangsmåde: Konvertere servicekontrakter, som omfatter momsbeløb](service-how-to-convert-service-contracts.md)  
+[Opsætte servicekontrakter](service-how-setup-service-contracts.md)  
+[Service Management](service-service.md)  
+[Konvertere servicekontrakter, som omfatter momsbeløb](service-how-to-convert-service-contracts.md)  
 

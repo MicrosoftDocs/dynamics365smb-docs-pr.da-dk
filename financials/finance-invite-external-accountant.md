@@ -1,6 +1,6 @@
 ---
 title: "Tilføje din eksterne revisor i Financials | Microsoft Docs"
-description: "Få mere at vide om, hvordan du kan invitere din eksterne revisor indenfor i Dynamics 365 Business edition."
+description: "Få mere at vide om, hvordan du kan invitere din eksterne revisor indenfor i Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,22 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 11/10/2017
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fde920f4626079d66f285f366114d10807e7821b
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere din eksterne revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnskabsaflæggelse, kan du invitere ham eller hende indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)], så de kan samarbejde med dig om dine regnskabsdata.
 
 Når din revisor har fået adgang til dit [!INCLUDE[d365fin](includes/d365fin_md.md)], kan han eller hun bruge rollecenteret **Regnskabsmedarbejder**, der giver nem adgang til de mest relevante vinduer for deres arbejde.  
-
-> [!NOTE]  
->  Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din Dynamics 365-oplevelse](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere din revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I den seneste version af [!INCLUDE[d365fin](includes/d365fin_md.md)] har vi gjort det nemt for dig at invitere din eksterne revisor. Du skal blot åbne vinduet **Brugere** og derefter vælge handlingen **Inviter ekstern revisor** på båndet. En mail er gjort klar til dig, så du blot skal tilføje din revisors arbejds-mail og sende invitationen.  
@@ -45,7 +42,7 @@ En af licenstyperne for [!INCLUDE[d365fin](includes/d365fin_md.md)] er *Ekstern 
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
-[Fremgangsmåde: Konfigurere mail manuelt eller ved hjælp af den assisterede opsætning](madeira-how-setup-email.md)  
-[Revisoroplevelser i Dynamics 365 Business edition](finance-accounting.md)  
-[Dynamics 365 for revisorer på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Konfigurere mail manuelt eller ved hjælp af den assisterede opsætning](madeira-how-setup-email.md)  
+[Revisoroplevelser i Finance and Operations, Business edition ](finance-accounting.md)  
+[Finance and Operations, Business edition til revisorer på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

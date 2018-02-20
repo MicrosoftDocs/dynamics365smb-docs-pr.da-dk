@@ -13,13 +13,13 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-employees"></a>Sådan gør du: Registrere medarbejdere
+# <a name="register-employees"></a>Registrere medarbejdere
 For at kunne bruge funktionaliteten Personale, skal du registrere de enkelte medarbejdere ved at oprette et kort med de grundlæggende og relaterede oplysninger.
 
 Du kan til enhver tid redigere en medarbejders oplysninger. Det er lettere at udføre personaleopgaver, hvis medarbejderoplysningerne er opdateret. Hvis f.eks. en medarbejderadresse ændres, kan du registrere dette på medarbejderens kort.
@@ -27,7 +27,7 @@ Du kan til enhver tid redigere en medarbejders oplysninger. Det er lettere at ud
 Følgende procedurer beskriver, hvordan du opretter et indledende medarbejderkort, og hvordan du tildeler to typer medarbejderoplysninger til en medarbejder. Du kan desuden tildele forskellige andre relaterede oplysninger, f.eks kvalifikationer og årsagerne til inaktivitet. Du tildeler medarbejderoplysninger ved at vælge et felt eller en handling i vinduet **Medarbejderkort**.
 
 > [!NOTE]  
-> Du kan refundere medarbejdere for deres udgifter under forretningsaktiviteter. Til dette formål skal du udfylde felterne i oversigtspanelet **Betalinger** i vinduet **Medarbejderkort**. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere og refundere medarbejdernes udgifter ](finance-how-record-reimburse-employee-expenses.md).
+> Du kan refundere medarbejdere for deres udgifter under forretningsaktiviteter. Til dette formål skal du udfylde felterne i oversigtspanelet **Betalinger** i vinduet **Medarbejderkort**. Du kan finde flere oplysninger i [Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Sådan oprettes en medarbejder
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
@@ -57,7 +57,7 @@ Du kan bruge alternative adresser til at holde styr på medarbejdernes opholdsst
 5. Gentag trin 4 for hver alternative adresse.
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)  
+[Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)

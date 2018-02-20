@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 60bd652d7a07841601bede9cff77c5b252000347
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Tilgængelighedsfunktioner og tastaturgenveje i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -31,7 +31,7 @@ Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[d365fin](
 -   Understøttelse af almindelige hjælpeteknologier  
 
 ##  <a name="Keyboard"></a> Tastaturgenveje i browseren
- [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter de tastaturgenveje, der understøttes af de fleste webbrowsere. De tastaturgenveje, der beskrives her, henviser til et amerikansk tastaturlayout. Tasterne kan være anderledes på andre tastaturlayout.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  understøtter de tastaturgenveje, der understøttes af de fleste webbrowsere. De tastaturgenveje, der beskrives her, henviser til et amerikansk tastaturlayout. Tasterne kan være anderledes på andre tastaturlayout.  
 
 |For at gøre følgende|Tryk|  
 |----------------|-----------|  
@@ -55,13 +55,13 @@ Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[d365fin](
  En beskrivende tekst til billeder er angivet med attributten ALT i koden IMG. En beskrivende tekst til hyperlinkser angivet med attributten titel i koden A.  
 
 ##  <a name="AssistiveTech"></a> Hjælpeteknologier  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter forskellige hjælpeteknologier, f.eks. stor kontrast, skærmlæsere og talegenkendelsessoftware. Nogle hjælpeteknologier fungerer ikke sammen med bestemte elementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  understøtter forskellige hjælpeteknologier, f.eks. stor kontrast, skærmlæsere og talegenkendelsessoftware. Nogle hjælpeteknologier fungerer ikke sammen med bestemte elementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider.  
 
 ## <a name="for-more-accessibility-information"></a>Flere oplysninger om tilgængelighedsfunktioner  
 Du kan finde flere oplysninger om tilgængelighedsfunktioner i Microsoft-produkter og hjælpeteknologier på webstedet [Microsoft Hjælp til handicappede](http://go.microsoft.com/fwlink/?LinkId=262160).
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.md)  
 

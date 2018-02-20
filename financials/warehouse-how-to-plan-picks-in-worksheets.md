@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb9a8366dbce67f7fdf3f32d55d7c5a289b9db4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c46e446c4af97e9699b1e454ff0d63173322f81e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-picks-in-worksheets"></a>Sådan planlægges pluk i kladder
+# <a name="plan-picks-in-worksheets"></a>Planlægge pluk i kladder
 Hvis dit lagersted er sat op til at kræve både pluk- og leveringsbehandling, kan lagerstedet vælge at køre, så linjerne på forsendelsesdokumenterne ikke automatisk overføres til plukinstruktioner, men i stedet bliver tilgængelige i et arbejdsark.  
 
 > [!NOTE]  
@@ -36,7 +36,7 @@ Hvis du sorterer efter forfaldsdato, kan du vælge at slette alle linjer fra reg
 >   
 >  Du kan finde flere oplysninger i afsnittet "Håndtere montageordrevarer i lagerleverancer" i Lagerleverance.  
 >   
->  Se [Fremgangsmåde: Plukke til montage eller produktion i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) for at få oplysninger om pluk af komponenter til montageordrer generelt, herunder situationer, hvor montageelementet ikke er forfaldent på en salgsleverance.  
+>  Se [Plukke til montage eller produktion i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) for at få oplysninger om pluk af komponenter til montageordrer generelt, herunder situationer, hvor montageelementet ikke er forfaldent på en salgsleverance.  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Sådan planlægges pluk i plukkladden  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Plukkladde**, og vælg derefter det relaterede link.  

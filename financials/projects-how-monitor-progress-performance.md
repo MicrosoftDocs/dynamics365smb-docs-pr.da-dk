@@ -13,13 +13,13 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 076b509ab5e9cf0f87f0910de11e49cda17f330a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 22dc57e01941927dfc2077eb1e48645cfc7b56de
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-monitor-job-progress-and-performance"></a>Fremgangsmåde: Overvåge status for og udførelse af en sag
+# <a name="monitor-job-progress-and-performance"></a>Overvåge jobstatus og -udførelse
 Efterhånden som status for en sag ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i sagen. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af sager i finansregnskabet under udførelsen af sagen. Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt. Du kan finde flere oplysninger i [Forstå metoder for igangværende arbejde](projects-understanding-wip.md).
 
 Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien i finansregnskabet.
@@ -50,7 +50,7 @@ Du kan oprette en sagsmetode for igangværende arbejde, der afspejler behovet i 
 Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arbejde der gælder. I nogle tilfælde er den sagsmetode for igangværende arbejde, der er oprettet for dig, oprettet som standard.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette sager](projects-how-create-jobs.md).  
+2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Oprette sager](projects-how-create-jobs.md).  
 3. I vinduet **Sagskort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
 
 ## <a name="to-calculate-wip"></a>Sådan beregnes VIA

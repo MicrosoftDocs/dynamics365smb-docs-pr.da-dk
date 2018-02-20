@@ -12,19 +12,19 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: df1793d811dea11c01ff5e7d90a9f52b9e987c13
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3fe5eca9c26380248471facbd945838b1bf47a1d
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-request-quotes"></a>Fremgangsmåde: Anmode om tilbud
+# <a name="request-quotes"></a>Anmode om tilbud
 Du kan bruge en købsrekvisition som foreløbig kladde til en købsordre for senere at konvertere ordren til en købsfaktura eller en ordre.
 
 
 ## <a name="to-create-a-purchase-quote"></a>Sådan oprettes en købsrekvisition
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsrekvisitioner**, og vælg derefter det relaterede link.
-2. Opret et nyt dokument på samme måde, som du opretter en købsordre. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md).
+2. Opret et nyt dokument på samme måde, som du opretter en købsordre. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 
 ## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Sådan konverteres en rekvisition til en købsordre
 Når du har accepteret leverandørtilbuddet, kan du konvertere det til en købsfaktura eller ordre for at behandle den.
@@ -36,6 +36,6 @@ Købsrekvisitionen fjernes fra databasen. En købsfaktura eller indkøbsordre op
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
-[Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md)  
+[Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

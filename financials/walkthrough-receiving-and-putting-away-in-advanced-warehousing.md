@@ -1,6 +1,6 @@
 ---
 title: "Gennemgang - Modtagelse og placering på lager i avancerede lageropsætninger | Microsoft Docs"
-description: "I Dynamics 365 kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret."
+description: "I Finance and Operations, Business edition kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 1d5cdff996da2d9886dce0d59d4f38796534972a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 991256bf2737297710d25f5a25854f4803185fc3
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger
@@ -151,8 +151,8 @@ I vinduet **Læg-på-lager (logistik)** kan du administrere læg-på-lager-aktiv
     Det modtagne tilbehør lægges nu væk på varernes standardplaceringer, og der placeres 40 hængsler i montageafdelingen. De modtagne varer er nu tilgængelige til pluk til interne behov, f.eks. montageordrer, eller til eksterne behov, f.eks. salgsleverancer.  
 
 ## <a name="see-also"></a>Se også  
- [Fremgangsmåde: Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
- [Sådan flyttes varer ad hoc i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md)   
+ [Lægge varer på lager med Læg-på-lager (logistik)](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
+ [Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)   
  [Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)

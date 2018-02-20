@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a057da05d6b63ee60e29de70900ffae917d0fee3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3c1771ecc9c63afc0fab335d37684fc4263cc993
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-workflows"></a>Fremgangsmåde: Oprette arbejdsgange
+# <a name="create-workflows"></a>Oprette arbejdsgange
 Du kan oprette arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
 
-I vinduet **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en workflowhændelse, begrænset af hændelsesbetingelser, og et workflowrespons med responsmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden.  
+I vinduet **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en workflowhændelse, begrænset af hændelsesbetingelser, og et workflowrespons med responsmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden.  
 
-Når du opretter workflows, kan du kopiere trinene fra eksisterende workflows eller workflowskabeloner. Workflowskabeloner repræsenterer workflows, som ikke kan redigeres, og som findes i den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden for arbejdsgangsskabeloner, som er tilføjet af Microsoft, har "MS" foran som f.eks. i "MS PIW". Du kan finde flere oplysninger i [Fremgangsmåde: Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
+Når du opretter workflows, kan du kopiere trinene fra eksisterende workflows eller workflowskabeloner. Workflowskabeloner repræsenterer workflows, som ikke kan redigeres, og som findes i den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden for arbejdsgangsskabeloner, som er tilføjet af Microsoft, har "MS" foran som f.eks. i "MS PIW". Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikke understøttes, skal en Microsoft-partner implementere dem ved at tilpasse programkoden.  
   
@@ -35,7 +35,7 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), og angiv **Workflows**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Vinduet **Workflow** åbnes.  
 3. I feltet **Kode** skal du angive op til 20 tegn for at identificere workflowet.  
-4. Når du vil oprette workflowet fra en workflowskabelon i vinduet **Workflows**, skal du vælge handlingen **Opret workflow fra skabelon**. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Når du vil oprette workflowet fra en workflowskabelon i vinduet **Workflows**, skal du vælge handlingen **Opret workflow fra skabelon**. Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
 5. I feltet **Beskrivelse** skal du beskrive workflowet.  
 6. I feltet **Kategori** kan du angive, hvilken kategori workflowet hører under.  
 7. I feltet **Når hændelse** skal du angive den hændelse, der skal udføres for at starte trinnet i workflowet.  
@@ -67,7 +67,7 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
         |----------------------------------|---------------------------------------|  
         |**Formular for forfaldsdato**|Angiv, inden hvor mange dage godkendelsesanmodningen skal løses fra den dato, hvor den blev sendt.|  
         |**Uddeleger efter**|Angiv, om og hvornår en godkendelsesanmodning uddelegeres automatisk til den relevante stedfortræder. Du kan vælge, at der automatisk skal uddelegeres én, to eller fem dage efter den dato, hvor der blev anmodet om godkendelse.|  
-        |**Godkendertype**|Angiv, hvem godkenderen er, i overensstemmelse med opsætningen af godkendelses- og arbejdsgangsbrugere.<br /><br /> Der findes følgende indstillinger:<br /><br /> -   **Sælger/indkøber** angiver, at den bruger, der er angivet i feltet **Sælger/indkøbskode** i vinduet **Brugeropsætning af godkendelser**, bestemmer godkenderen. Derefter oprettes der godkendelsesanmodningsposter ud fra værdien i feltet **Godkenders grænsetype**.<br />     Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere godkendelsesbrugere](across-how-to-set-up-workflow-users.md)|  
+        |**Godkendertype**|Angiv, hvem godkenderen er, i overensstemmelse med opsætningen af godkendelses- og arbejdsgangsbrugere.<br /><br /> Der findes følgende indstillinger:<br /><br /> -   **Sælger/indkøber** angiver, at den bruger, der er angivet i feltet **Sælger/indkøbskode** i vinduet **Brugeropsætning af godkendelser**, bestemmer godkenderen. Derefter oprettes der godkendelsesanmodningsposter ud fra værdien i feltet **Godkenders grænsetype**.<br />     Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-workflow-users.md)|  
         |**Vis bekræftelsesmeddelelse**|Angiv, om en bekræftelsesmeddelelse vises for brugere, når de anmoder om en godkendelse.|  
         |**Godkenders grænsetype**|Angiv, hvordan godkenderes godkendelsesgrænser påvirker, hvornår godkendelsesanmodningsposter oprettes for dem. En kvalificeret godkender er en person, hvis godkendelsesgrænse er større end værdien i anmodningen, der sendes.<br /><br /> Der findes følgende indstillinger:<br /><br /> 1. **Godkenderkæde** angiver, at godkendelsesanmodningsposter oprettes for alle anmoderens godkendere til og med den første kvalificerede godkender.<br />2. **Direkte godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens umiddelbare godkender, uanset godkenderens godkendelsesgrænse.<br />3. **Første kvalificerede godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens første kvalificerede godkender.<br />|  
     3.  Hvis du vil angive indstillinger for et arbejdsgangssvar, der involverer oprettelse af kladdelinjer, skal du udfylde felterne som beskrevet i følgende tabel.  
@@ -94,11 +94,11 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
 >  For at se relationer mellem de tabeller, der bruges i workflows, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "ikonet Søg efter side eller rapport"), og angiv derefter **Workflow – tabelrelationer**.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)   
-[Fremgangsmåde: Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)   
+[Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)   
+[Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)   
 [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)   
-[Fremgangsmåde: Se arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)   
-[Fremgangsmåde: Slette arbejdsgange](across-how-to-delete-workflows.md)   
+[Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)   
+[Slette arbejdsgange](across-how-to-delete-workflows.md)   
 [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Opsætte workflows](across-set-up-workflows.md)   
 [Anvende workflows](across-use-workflows.md)   

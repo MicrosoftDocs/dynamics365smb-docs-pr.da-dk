@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: eb261f0b5b2aae94cebd79c6b23b0a21cb9451ae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -52,7 +52,7 @@ For momsopgørelsen kan du angive, at posterne skal omfatte:
 * Send kun poster fra de angivne perioder, eller medtag også poster fra tidligere perioder. Dette er nyttigt for at opdatere en momsopgørelse, som du allerede har sendt, f.eks. hvis en leverandør sender dig en forsinket faktura.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Sådan opretter du forbindelse til din skattemyndigheds webtjeneste
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder serviceforbindelser til skattemyndighedernes websteder. Hvis du f.eks. befinder dig i Storbritannien, kan du aktivere serviceforbindelsen **GovTalk** for at sende rapporterne Oversigt over EU-salg og Momsopgørelsen elektronisk. Hvis du vil sende rapporten manuelt, for eksempel ved at indtaste dataene på skattemyndighedens websted, er dette ikke påkrævet.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder serviceforbindelser til skattemyndighedernes websteder. Hvis du f.eks. befinder dig i Storbritannien, kan du aktivere serviceforbindelsen **GovTalk** for at sende rapporterne Oversigt over EU-salg og Momsopgørelsen elektronisk. Hvis du vil sende rapporten manuelt, for eksempel ved at indtaste dataene på skattemyndighedens websted, er dette ikke påkrævet.   
 
 Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde [!INCLUDE[d365fin](includes/d365fin_md.md)] med skattemyndighedens webtjeneste. Dette kræver, at du opretter en konto hos skattemyndighederne. Når du har en konto, kan du aktivere en tjenesteforbindelse, som vi leverer i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -77,7 +77,7 @@ Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde
 4. Hvis du vil validere og forberede rapporten til afsendelse, skal du vælge handlingen **Frigiv**.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om rapporten er konfigureret korrekt. Hvis valideringen ikke lykkes, vises fejlene under **Fejl og advarsler**, så du ved, hvad du skal rette. Hvis meddelelsen typisk drejer sig om en manglende indstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke på meddelelsen for at åbne siden med de oplysninger, der skal rettes.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrollerer, om rapporten er konfigureret korrekt. Hvis valideringen ikke lykkes, vises fejlene under **Fejl og advarsler**, så du ved, hvad du skal rette. Hvis meddelelsen typisk drejer sig om en manglende indstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke på meddelelsen for at åbne siden med de oplysninger, der skal rettes.  
 5. Du sender rapporten ved at vælge handlingen **Send**.  
 
 Når du sender rapporten, overvåger [!INCLUDE[d365fin](includes/d365fin_md.md)] tjenesten og registrerer din kommunikation. Feltet **Status** angiver, hvor rapporten er i processen. F.eks. når myndighederne behandler rapporten, ændres status for rapporten til **Fuldført**. Hvis skattemyndighederne finder fejl i den rapport, du har sendt, bliver status for rapporten **Mislykkedes**. Du kan se fejlene under **Fejl og advarsler**, rette dem og derefter sende rapporten igen. For at få vist en liste over alle EU-salgslisterapporter, skal du gå til siden **Rapporter over EU-salg**.  
@@ -114,7 +114,7 @@ I følgende tabel beskrives kodeenheder, du skal oprette til rapporten.
 
 ## <a name="see-also"></a>Se også
 [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)  
-[Fremgangsmåde: Arbejde moms af salg og køb](finance-work-with-vat.md)  
+[Arbejde moms af salg og køb](finance-work-with-vat.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Fremgangsmåde: Fakturere salg](sales-setup-sales.md)  
+[Fakturere salg](sales-setup-sales.md)  
 

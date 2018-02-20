@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ændring af grundlæggende indstillinger
@@ -29,7 +29,7 @@ Du finder ruden Aktiviteter i midten. Aktiviteter viser aktuelle data, og du kan
 
 Du kan også oprette en række Favoritdebitorer på startsiden for konti, som du handler med ofte eller skal have særlig opmærksomhed på. Brug pilene til at skjule en del af siden og få mere plads til at se specifikke oplysninger. Øverst på startsiden finder du alle de handlinger, der kan anvendes på det aktuelle indhold. Dette kan også skjules, og du behøver kun at klikke på eller trykke i det skjulte område for at få det vist igen.
 
-Standardrollecenteret er **Virksomhedsleder**, men du kan vælge et andet rollecenter, der passer bedre til dine behov. Du kan finde flere oplysninger i [Fremgangsmåde: Ændre rollecentret](change-role.md).
+Standardrollecenteret er **Virksomhedsleder**, men du kan vælge et andet rollecenter, der passer bedre til dine behov. Du kan finde flere oplysninger under [Ændre rollecentret](change-role.md).
 
 ## <a name="company"></a>Virksomhed
 En virksomhed fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Der kan være flere virksomheder i en database, men du kan vælge kun ét ad gangen.
@@ -56,6 +56,6 @@ Vælg dette link for at få vist eller ændre de notifikationer, du får om best
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Fremgangsmåde: Ændre rollecentret](change-role.md)  
+[Ændre rollecenteret](change-role.md)  
 [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)  
 

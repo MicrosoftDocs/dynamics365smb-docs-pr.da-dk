@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: de493a4697c3a5c2fb8581545a29ee832fe1c3dc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2d95dbb6d0336286f0fb657028970ce8a04cfda
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Konfigurere produktion
@@ -31,14 +31,14 @@ Når du har defineret en produktion, kan du planlægge og udføre produktionsord
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
 |Konfigurere produktionsfunktioner som f.eks. angivelse af produktionsarbejdstimer og valg af planlægningsprincipper.|Siden **Produktionsopsætning**.|  
-|Definer en standardarbejdsuge i produktionen med hensyn til start- og sluttidspunkter for hver enkelt arbejdsdag og relaterede arbejdsskift.|[Fremgangsmåde: Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md)|  
-|Organiser faste værdier og behov for produktionsressourcer som arbejdscentre eller produktionsressourcer for at styre outputtet af den udførte produktion.|[Fremgangsmåde: Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md)|
-|Organiser produktionsoperationer i den rækkefølge, der kræves, og tildel dem til arbejdscentre eller produktionsressourcer med de nødvendige arbejdstider.|[Fremgangsmåde: Oprette ruter](production-how-to-create-routings.md)|
-|Organiser produktionskomponenter eller underordnede samlinger under en overordnet vare, og godkend styklisten til afvikling i arbejdscentre.|[Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-production-boms.md)|
-|Sørg for, at det rette komponentantal er tilgængeligt, når produktionsvarer lagerføres i én måleenhed, men produceres i en anden.|[Fremgangsmåde: Arbejde med produktionskladdeenheder](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
-|Definer familier af produktionselementer med lignende produktionsprocesser for at spare på forbruget. F.eks. kan fire stk. af den samme vare produceres fra én plade samtidig med ti stk. af en anden vare.|[Fremgangsmåde: Arbejde med produktionsfamilier](production-how-work-family.md)|
-|Brug standardoperationer til at forenkle oprettelsen af ruter ved hurtigt at knytte ekstra oplysninger til gentagne operationer.|[Fremgangsmåde: Konfigurere standardrutelinjer](production-how-set-up-standard-routing-lines.md)|  
-|Forbered arbejdscentre og ruter til at repræsentere underleverandørens produktionsoperationer.|[Fremgangsmåde: Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|  
+|Definer en standardarbejdsuge i produktionen med hensyn til start- og sluttidspunkter for hver enkelt arbejdsdag og relaterede arbejdsskift.|[Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md)|  
+|Organiser faste værdier og behov for produktionsressourcer som arbejdscentre eller produktionsressourcer for at styre outputtet af den udførte produktion.|[Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md)|
+|Organiser produktionsoperationer i den rækkefølge, der kræves, og tildel dem til arbejdscentre eller produktionsressourcer med de nødvendige arbejdstider.|[Oprette ruter](production-how-to-create-routings.md)|
+|Organiser produktionskomponenter eller underordnede samlinger under en overordnet vare, og godkend styklisten til afvikling i arbejdscentre.|[Oprette produktionsstyklister](production-how-to-create-production-boms.md)|
+|Sørg for, at det rette komponentantal er tilgængeligt, når produktionsvarer lagerføres i én måleenhed, men produceres i en anden.|[Arbejde med produktionskladdeenheder](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  
+|Definer familier af produktionselementer med lignende produktionsprocesser for at spare på forbruget. F.eks. kan fire stk. af den samme vare produceres fra én plade samtidig med ti stk. af en anden vare.|[Arbejde med produktionsfamilier](production-how-work-family.md)|
+|Brug standardoperationer til at forenkle oprettelsen af ruter ved hurtigt at knytte ekstra oplysninger til gentagne operationer.|[Konfigurere standardrutelinjer](production-how-set-up-standard-routing-lines.md)|  
+|Forbered arbejdscentre og ruter til at repræsentere underleverandørens produktionsoperationer.|[Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Se også
 [Produktion](production-manage-manufacturing.md)    

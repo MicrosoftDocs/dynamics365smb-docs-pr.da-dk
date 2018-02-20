@@ -13,18 +13,18 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="finance"></a>Finans
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
 
 Standardkonfigurationen indeholder en kontoplan og standardbogføringsgrupper, som gør det mere effektivt at tildele standardfinanskonti til debitorer, kreditorer og varer.  
 
-Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 | Hvis du vil | Se |
 | --- | --- |
@@ -37,19 +37,19 @@ Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer b
 |Styre lager- og produktionsomkostninger, rapportere omkostninger og afstemme omkostninger med finansposterne.|[Administrere lageromkostninger](finance-manage-inventory-costs.md)|
 | Forstå finans og kontoplanen. |[Om Finans og kontoplanen](finance-general-ledger.md) |
 | Tilføje dimensioner for mere detaljeret business intelligence. |[Arbejde med dimensioner](finance-dimensions.md) |
-| Opret finansbudgetter for at estimere forskellige finansielle aktiviteter og tildele dimensioner i forbindelse med business intelligence. |[Fremgangsmåde: Oprette finansbudgetter](finance-how-create-budgets.md) |
-|Registrere indtægter eller udgifter direkte i finansregnskabet uden at bogføre dedikerede forretningsdokumenter.|[Fremgangsmåde: Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)|
-|Bogfør tilbageførselslinjer for at fortryde værdibogføringer i den generelle kladde eller antalsbogføringer på købs- og salgsdokumenter. |[Sådan tilbageføres poster](finance-how-reverse-journal-posting.md)|
-|Allokere en post i en finanskladden til forskellige konti, når du bogfører kladden. |[Fremgangsmåde: Allokere omkostninger og indtægter](year-allocate-costs-income.md) |
-| Tildel ekstra omkostninger såsom fragt og håndtering, som du har under handel, til de varer, der er involveret, så omkostningerne afspejles i lagerværdien. |[Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md) |
-|Bogfør medarbejderes personlige udgifter for virksomhedsrelaterede aktiviteter, og refunder medarbejdere ved at foretage betaling til deres bankkonto.|[Fremgangsmåde: Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)|
-| Realisere indtægter og udgifter i andre perioder end dem, hvor transaktionerne blev bogført. |[Fremgangsmåde: Periodisere indtægter og udgifter](finance-how-defer-revenue-expenses.md)|
-|Få mere at vide om, hvordan du bruger flere valutaer og opdaterer valutakurser automatisk. |[Fremgangsmåde: Opdatere valutakurser](finance-how-update-currencies.md)|
-| Importere løntransaktioner fra din lønningslisteudbyder i finansbogholderiet. |[Fremgangsmåde: Importere løntransaktioner](finance-how-import-payroll-transactions.md)|
+| Opret finansbudgetter for at estimere forskellige finansielle aktiviteter og tildele dimensioner i forbindelse med business intelligence. |[Oprette finansbudgetter](finance-how-create-budgets.md) |
+|Registrere indtægter eller udgifter direkte i finansregnskabet uden at bogføre dedikerede forretningsdokumenter.|[Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)|
+|Bogfør tilbageførselslinjer for at fortryde værdibogføringer i den generelle kladde eller antalsbogføringer på købs- og salgsdokumenter. |[Tilbageføre poster](finance-how-reverse-journal-posting.md)|
+|Allokere en post i en finanskladden til forskellige konti, når du bogfører kladden. |[Fordele omkostninger og indtægter](year-allocate-costs-income.md) |
+| Tildel ekstra omkostninger såsom fragt og håndtering, som du har under handel, til de varer, der er involveret, så omkostningerne afspejles i lagerværdien. |[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md) |
+|Bogfør medarbejderes personlige udgifter for virksomhedsrelaterede aktiviteter, og refunder medarbejdere ved at foretage betaling til deres bankkonto.|[Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)|
+| Realisere indtægter og udgifter i andre perioder end dem, hvor transaktionerne blev bogført. |[Periodisere indtægter og udgifter](finance-how-defer-revenue-expenses.md)|
+|Få mere at vide om, hvordan du bruger flere valutaer og opdaterer valutakurser automatisk. |[Opdatere valutakurser](finance-how-update-currencies.md)|
+| Importere løntransaktioner fra din lønningslisteudbyder i finansbogholderiet. |[Importér løntransaktioner](finance-how-import-payroll-transactions.md)|
 | Overvåge pengestrømme ind og ud af din virksomhed. |[Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md) |
 | Arbejde med regnskabsopgørelser og oversigter i Excel. |[Analysere regnskaber i Excel](finance-analyze-excel.md) |
 | Forberede at lukke et regnskabsår eller periode. |[Afslutning af år og perioder](year-close-years-periods.md) |
-|Udarbejd en rapport over moms fra salg, og send rapporten til en skattemyndighed i EU. | [Fremgangsmåde: Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
+|Udarbejd en rapport over moms fra salg, og send rapporten til en skattemyndighed i EU. | [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
 
 ## <a name="see-also"></a>Se også
 [Konfigurere Finans](finance-setup-finance.md)  
@@ -61,5 +61,6 @@ Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer b
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

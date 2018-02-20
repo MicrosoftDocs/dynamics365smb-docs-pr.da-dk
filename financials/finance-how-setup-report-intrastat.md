@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 08/15/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: de6cbcdc8e7ca4aff06461192e2038831ba6b5b3
-ms.openlocfilehash: 973c42642f88024de9d8924b675496015ce60983
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4b4fde6f005c992b63856ec4afadbb689532ac16
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Fremgangsmåde: Konfigurere og rapportere Intrastat
@@ -85,7 +85,7 @@ Kørslen henter alle vareposter i statistikperioden og indsætter dem som linjer
 > [!IMPORTANT]  
 >  Kørslen henter kun de poster, der indeholder en lande-/regionskode, der er angivet en Intrastatkode for, på siden **Lande/regioner**. Derfor skal du angive Intrastatkoder for den landekode, som du udfører kørslen for.  
 
-### <a name="how-to-report-intrastat-on-a-form-or-a-file"></a>Fremgangsmåde: Rapportere Intrastat i en formular eller en fil
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportere Intrastat i en formular eller en fil
 Hvis du vil hente de oplysninger, der kræves på Intrastatblanketten fra de statistiske myndigheder, skal du udskrive rapporten **Intrastat – blanket**. Før du kan gøre dette, skal du forberede Intrastatkladden og udfylde den. Hvis du har både salgs- og købstransaktioner, skal du udfylde en separat blanket for hver type, så du skal udskrive rapporten to gange.  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intrastatkladde**, og vælg derefter det relaterede link.  
@@ -95,7 +95,7 @@ Hvis du vil hente de oplysninger, der kræves på Intrastatblanketten fra de sta
 5. I oversigtspanelet **Intrastatkladdelinje** skal du tilføje et **Type** filter og derefter angive, om det er en **Modtagelse** eller **Afsendelse**.  
 6. Vælg **Send til** for at udskrive rapporten.  
 
-### <a name="how-to-report-intrastat-in-a-file"></a>Sådan rapporteres Intrastat i en fil
+### <a name="report-intrastat-in-a-file"></a>Rapportere Intrastat i en fil
 Du kan sende Intrastatrapporten som en fil. Før du opretter filen, kan du udskrive en kontrolliste, der indeholder de samme oplysninger som filens.  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intrastatkladde**, og vælg derefter det relaterede link.  
@@ -106,7 +106,7 @@ Du kan sende Intrastatrapporten som en fil. Før du opretter filen, kan du udskr
 6. Vælg **Gem**.  
 7. Gå til det sted, hvor du vil gemme filen, og angiv derefter filnavnet, og vælg **Gem**.
 
-## <a name="how-to-reorganize-intrastat-journals"></a>Sådan reorganiseres Intrastatkladder
+## <a name="reorganize-intrastat-journals"></a>Reorganisere Intrastatkladder
 Da du skal sende en Intrastatrapport hver måned, og du opretter en ny kladde for hver rapport, vil du til sidst have mange kladder. Kladdelinjerne slettes ikke automatisk. Du vil muligvis reorganisere kladdenavne periodisk. Det gør du ved at slette kladder, der ikke længere er brug for. Kladdelinjerne i disse kørsler slettes også.  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intrastatkladde**, og vælg derefter det relaterede link.  
@@ -115,6 +115,4 @@ Da du skal sende en Intrastatrapport hver måned, og du opretter en ny kladde fo
 
 ## <a name="see-also"></a>Se også
 [Økonomistyring](finance.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

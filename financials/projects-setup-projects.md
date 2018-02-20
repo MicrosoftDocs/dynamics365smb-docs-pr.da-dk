@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cd42389cdebe3ce480603e07e01cc063f6d1f8bf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4334dd85d5dff1989e7435814e552fabad04a6ca
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-project-management"></a>Konfigurere projektstyring
@@ -28,9 +28,9 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 | Hvis du vil | Se |
 | --- | --- |
-| Opret ressourcer og de tilhørende omkostninger og priser enten for individuelle ressourcer eller ressourcegrupper eller for alle tilgængelige ressourcer i virksomheden. |[Fremgangsmåde: Konfigurere ressourcer](projects-how-setup-resources.md) |
-| Aktiver ressourcer for at rapportere tidsforbrug for en person eller en maskine, og aktiver en leder for at gennemse forbruget og dets allokering. |[Fremgangsmåde: Konfigurere timesedler](projects-how-setup-time-sheets.md) |
-| Opret jobkort, og forbered sagsopgaver. Opret priser for sagsvarer og sagsressourcer, og definer sagsbogføringsgrupper. |[Sådan gør du: Oprette sager](projects-how-setup-jobs.md) |
+| Opret ressourcer og de tilhørende omkostninger og priser enten for individuelle ressourcer eller ressourcegrupper eller for alle tilgængelige ressourcer i virksomheden. |[Konfigurere ressourcer](projects-how-setup-resources.md) |
+| Aktiver ressourcer for at rapportere tidsforbrug for en person eller en maskine, og aktiver en leder for at gennemse forbruget og dets allokering. |[Konfigurere timesedler](projects-how-setup-time-sheets.md) |
+| Opret jobkort, og forbered sagsopgaver. Opret priser for sagsvarer og sagsressourcer, og definer sagsbogføringsgrupper. |[Opsætte sager](projects-how-setup-jobs.md) |
 
 ## <a name="see-also"></a>Se også
 [Administrere projekter](projects-manage-projects.md)  

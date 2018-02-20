@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c94729c84470267421207a6edaa413116718f715
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0395cf37d56282684c2a6e4c2066fd9b249f16f0
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Opdatere rapport- eller dokumentlayout
@@ -60,7 +60,7 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
   
  Det mest almindelige problem opstår, når et felt, der bruges i layoutet, er blevet fjernet fra rapportens datasæt. I dette tilfælde vil du se en linje i den fejlmeddelelse, der angiver, at en vare er blevet fjernet. Du kan løse dette problem ved at ændre layoutet og fjerne det pågældende felt.  
   
- Du kan finde flere oplysninger i [Fremgangsmåde: Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
+ Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md#ModifyCustomLayout).  
   
  Når du ændrer layoutet, kan du prøve at opdatere layoutet igen.  
   

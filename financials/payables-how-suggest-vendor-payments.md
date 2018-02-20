@@ -13,16 +13,16 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 2085cc744c2ff3761937920cd893faab5a84dada
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 384bc05b8f775859c9ca6d6ea4241efb63a9e69d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-suggest-vendor-payments"></a>Fremgangsmåde: Lave kreditorbetalingsforslag
+# <a name="suggest-vendor-payments"></a>Lav forslag
 I vinduet **Udbetalingskladde** kan du bruge kørslen **Lav kreditorbetalingsforslag** til at foreslå betalingslinjer. Linjer til ting som betalinger, som snart forfalder, eller betalinger, hvor en kontantrabat er tilgængelig, foreslås baseret på dine indstillinger.
 
-For at få det fulde udbytte af foreslåede linjer skal du først prioritere dine kreditorer. Du kan finde flere oplysninger i [Fremgangsmåde: Prioritere kreditorer](purchasing-how-prioritize-vendors.md).  
+For at få det fulde udbytte af foreslåede linjer skal du først prioritere dine kreditorer. Du kan finde flere oplysninger i [Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md).  
 
 Kreditorposter, der ikke er indstillet til **Afvent**, medtages ikke.  
 
@@ -47,7 +47,7 @@ Når du udfører kørslen **Lav kreditorbetalingsforslag** til at oprette betali
 
 Hvis den beregnede bogføringsdato er i fortiden, bliver bogføringsdatoen desuden flyttet til arbejdsdatoen, og der vises en advarsel.  
 
-Du kan manuelt oprette betalingslinjer ved at bruge forfaldsdatoen til at beregne bogføringsdatoen. Når du udligner kreditorposter, kan du bruge handlingen **Beregn bogføringsdato** til at opdatere bogføringsdatoen på kladdelinjen med forfaldsdatoen for den relaterede købsfaktura. Du kan finde flere oplysninger i [Fremgangsmåde: Udligne købstransaktioner manuelt](payables-how-apply-purchase-transactions-manually.md).  
+Du kan manuelt oprette betalingslinjer ved at bruge forfaldsdatoen til at beregne bogføringsdatoen. Når du udligner kreditorposter, kan du bruge handlingen **Beregn bogføringsdato** til at opdatere bogføringsdatoen på kladdelinjen med forfaldsdatoen for den relaterede købsfaktura. Du kan finde flere oplysninger i [Udligne købstransaktioner manuelt](payables-how-apply-purchase-transactions-manually.md).  
 
 > [!NOTE]  
 >   Hvis købsfakturaen er overskredet, bliver bogføringsdatoen indstillet til arbejdsdatoen, og skrifttypen på linjen bliver rød.  

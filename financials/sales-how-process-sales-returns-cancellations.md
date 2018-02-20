@@ -11,19 +11,19 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: eac8f4fdd6a5333662e272c8c71e585cf1fb876a
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-sales-returns-or-cancellations"></a>Fremgangsmåde: Behandle salgsreturvarer eller annulleringer
+# <a name="process-sales-returns-or-cancellations"></a>Behandle salgsreturvarer eller annulleringer
 Hvis en debitor ønsker at returnere varer eller få refunderet varer eller serviceydelser, som du har solgt og modtaget betaling for, skal du oprette og bogføre en salgskreditnota, der angiver den ønskede ændring. Du kan oprette salgskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte salgsfakturaoplysninger, eller du kan oprette en ny salgskreditnota med kopierede fakturaoplysninger.
 
 Hvis du ønsker større kontrol over salgsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved modtagelse af varer fra flere salgsdokumenter i én salgsreturnering, kan du oprette salgsreturvareordrer. En salgsreturvareordre udsteder automatisk den relaterede salgskreditnota og andre returvarerelaterede dokumenter, f.eks. en erstatningssalgsordre, hvis det er nødvendigt. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter".
 
 > [!NOTE]  
->   Hvis en bogført salgsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte salgsfaktura, så du tilbagefører transaktionerne. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Fremgangsmåde: Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md).
+>   Hvis en bogført salgsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte salgsfaktura, så du tilbagefører transaktionerne. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md).
 
 En returnering eller refusion kan vedrøre nogle af varerne eller tjenesteydelserne på den oprindelige salgsfaktura. Det er tilfældet skal du redigere oplysningerne på linjerne i salgskreditnotaen eller salgsreturvareordren. Når du bogfører salgskreditnotaen eller salgsreturvareordren, tilbageføres de salgsdokumenter, der berøres af ændringen, og der kan oprettes en refusionsbetaling til debitoren. Du kan finde flere oplysninger under [Foretage betalinger](payables-make-payments.md).  
 
@@ -65,7 +65,7 @@ Du kan finde flere oplysninger i [Designoplysninger: Lagerkostmetode](design-det
     Når du har oprettet eller redigeret de ønskede salgskreditnotalinjer, og anvendelse på enkelt eller flere er angivet, kan du bogføre salgskreditnotaen.   
 8. Vælg handlingen **Bogfør og send**.  
 
-Dialogboksen **Bekræftelse af bogfør og send** åbnes og viser den foretrukne afsendelsesmetode til kunden. Du kan ændre afsendelsesmetoden ved at vælge opslagsknappen for feltet **Send bilag til**. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurerer dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).  
+Dialogboksen **Bekræftelse af bogfør og send** åbnes og viser den foretrukne afsendelsesmetode til kunden. Du kan ændre afsendelsesmetoden ved at vælge opslagsknappen for feltet **Send bilag til**. Du kan finde flere oplysninger under [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).  
 
 De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, og der kan oprettes en refusionsbetaling til debitoren. Salgskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogførte salgskreditnotaer.
 
@@ -135,7 +135,7 @@ Antag, at du har besluttet at kompensere en kunde ved at udskifte den vare, som 
 1. I vinduet **Salgsreturvareordre** for en aktiv returproces skal du på en tom linje angive en negativ postering for erstatningsvaren ved at indsætte et negativt beløb i feltet **Antal**.  
 2. Vælg handlingen **Flyt negative linjer**.
 3. I vinduet **Flyt negative salgslinjer** skal du udfylde felterne efter behov.
-4. Vælg knappen **OK**. Den negative linje for erstatningsvaren slettes fra salgsreturvareordren og indsættes i et nyt **Salgsordre**-vindue. Du kan finde flere oplysninger i [Fremgangsmåde: Sælge produkter](sales-how-sell-products.md).
+4. Vælg knappen **OK**. Den negative linje for erstatningsvaren slettes fra salgsreturvareordren og indsættes i et nyt **Salgsordre**-vindue. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Sådan oprettes returvarerelaterede dokumenter med udgangspunkt i en salgsreturvareordre
 Salgsordrer på erstatningsvarer, købsreturvareordrer og erstatningskøbsordrer kan oprettes automatisk under salgsreturvareprosssen. Dette er nyttigt f.eks. i situationer, hvor du vil håndtere varer med garantier fra leverandører.
@@ -153,7 +153,7 @@ Du kan bogføre den forøgede omkostning som et varegebyr i en kreditnota eller 
 
 1. Åbn vinduet **Salgsreturvareordre** for en aktiv returproces.
 2. På en ny linje skal du vælge **Gebyr (Vare)** i feltet **Type**.  
-3. Udfyld felterne som ved enhver varegebyrlinje. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md).  
+3. Udfyld felterne som ved enhver varegebyrlinje. Du kan finde flere oplysninger i [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md).  
 
 Når du bogfører salgsreturvareordren, føjes reklamationsgebyret til den relevante salgspost. Det gør det muligt at opretholde en præcis lagerværdi.  
 
@@ -169,7 +169,7 @@ Du kan bogføre den reducerede pris som et varegebyr i en kreditnota eller retur
      Du skal evt. oprette en særligt varegebyrnummer, der dækker salgsdekorten.  
 6.  Angiv **1** i feltet **Antal**.  
 7.  Angiv beløbet på salgsdekorten i feltet **Salgspris**.  
-8.  Tildel salgsnedslaget som et varegebyr på varerne i den bogførte leverance. Du kan finde flere oplysninger i [Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md). Vend derefter tilbage til vinduet **Salgskreditnota**.  
+8.  Tildel salgsnedslaget som et varegebyr på varerne i den bogførte leverance. Du kan finde flere oplysninger i [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md). Vend derefter tilbage til vinduet **Salgskreditnota**.  
 
 Når du bogfører salgsreturvareordren, føjes salgsnedslaget til den relevante salgspost. Det gør det muligt at opretholde en præcis lagerværdi.
 
@@ -218,6 +218,6 @@ Du kan også slette individuelle salgsreturordrer manuelt.
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Fremgangsmåde: Sende dokumenter via mail](ui-how-send-documents-email.md)  
+[Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

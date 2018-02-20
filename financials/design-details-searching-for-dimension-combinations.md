@@ -1,6 +1,6 @@
 ---
 title: "Designoplysninger – Søgning efter dimensionskombinationer | Microsoft Docs"
-description: "Når du lukker et vindue, efter du har redigeret et sæt dimensioner, evaluerer Dynamics 365, om det redigerede sæt dimensioner findes. Hvis det ikke findes, oprettes der et nyt sæt, og dimensionens kombinations-ID returneres."
+description: "Når du lukker et vindue, efter du har redigeret et sæt dimensioner, evaluerer Finance and Operations, Business edition, om det redigerede sæt dimensioner findes. Hvis det ikke findes, oprettes der et nyt sæt, og dimensionens kombinations-ID returneres."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 64e5191fd2947a8e19595d8c9f1ece4eeff77ec0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 821ddebee02d1ea922c0c13a181ae0e29e4eb40e
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designoplysninger: Søgning efter dimensionskombinationer

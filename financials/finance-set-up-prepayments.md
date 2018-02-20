@@ -1,26 +1,25 @@
 ---
 title: "Opsætte forudbetalinger | Microsoft Docs"
 description: "Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kræver måske et depositum, inden du producerer varerne efter ordre, eller du kræver måske betaling, før du leverer varer til en kunde. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura."
-services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/07/2017
-ms.author: sgroespe
+ms.date: 15/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 11aef4cb4b1d40568b63662239a26993782201a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66c5d81fd7c3517b42930f53b81e06a3583aeb3d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-prepayments"></a>Fremgangsmåde: Oprette forudbetalinger
-Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger. Funktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer og til at sikre, at alle delvise betalinger bogføres i forhold til en faktura. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md).
+# <a name="set-up-prepayments"></a>Oprette forudbetalinger
+Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger. Funktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer og til at sikre, at alle delvise betalinger bogføres i forhold til en faktura. Du kan finde flere oplysninger i [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md).
 
 Inden du kan bogføre forudbetalingsfakturaer, skal du oprette bogføringskonti i finansposterne, og du skal oprette nummerserier for forudbetalingsdokumenterne.  
 
@@ -35,6 +34,8 @@ Eftersom det forudbetalte beløb tilhører køberen, indtil han har modtaget var
 
     - **Forudbetalingskonto for salg**  
     - **Forudbetalingskonto for køb**  
+
+Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du gøre det i vinduet **Finanskontooversigt**.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Sådan oprettes nummerserier til forudbetalingsdokumenter  
 
@@ -79,6 +80,7 @@ Med andre ord bruges forudbetalingsprocenten på kundekortet kun, hvis der ikke 
 ## <a name="see-also"></a>Se også  
 [Fakturere forudbetalinger](finance-invoice-prepayments.md)  
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Om Finans og kontoplanen](finance-general-ledger.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

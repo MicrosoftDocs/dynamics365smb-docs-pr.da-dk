@@ -1,6 +1,6 @@
 ---
 title: "Sådan lægges varer på lager med Læg-på-lager | Microsoft Docs"
-description: "Hvis lokationen er sat op til at kræve læg-på-lager, men ikke modtagelse, bruger du dokumentet **Læg-på-lager (lager)** til at registrere og bogføre læg-på-lager- og modtagelsesoplysninger for kildedokumenterne. Det indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en produktionsordre, hvis afgang er klar til at blive lagt på lager."
+description: "Hvis lokationen er sat op til at kræve læg-på-lager, men ikke modtagelse, bruger du dokumentet **Læg-på-lager (lager)** til at registrere og bogføre læg-på-lager- og modtagelseoplysninger for kildedokumenterne. Det indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en produktionsordre, hvis afgang er klar til at blive lagt på lager."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5de060d742401da62339fb67deff38d0a1e7bddb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 92eae2f24daf8181e39b3d22ea23c31a9ee85347
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-items-away-with-inventory-put-aways"></a>Sådan lægges varer på lager med Læg-på-lager
+# <a name="put-items-away-with-inventory-put-aways"></a>Lægge varer på lager med Læg-på-lager (lager)
 Hvis lokationen er sat op til at kræve læg-på-lager, men ikke modtagelse, bruger du dokumentet **Læg-på-lager (lager)** til at registrere og bogføre læg-på-lager- og modtagelsesoplysninger for kildedokumenterne. Det indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en montage- eller produktionsordre, hvis afgang er klar til at blive lagt på lager.  
 
 Du kan oprette et læg-på-lager på tre måder:  
@@ -39,7 +39,7 @@ I forbindelse med købsordrer, salgsreturvareordrer, indgående overflytningsord
 4. Vælg handlingen **Opret indgående lageranmodning**.  
 
 > [!NOTE]  
->  Du kan også oprette en indgående lageranmodning ved at markere afkrydsningsfeltet **Opret indgående anmodning**, når du opdaterer produktionsordren. Du kan finde flere oplysninger i [Fremgangsmåde: Omplanlægge eller forny produktionsordrer](production-how-to-replan-refresh-production-orders.md).  
+>  Du kan også oprette en indgående lageranmodning ved at markere afkrydsningsfeltet **Opret indgående anmodning**, når du opdaterer produktionsordren. Du kan finde flere oplysninger i [Forny eller omplanlægge produktionsordrer](production-how-to-replan-refresh-production-orders.md).  
 
 Når lageranmodningen er oprettet, kan en lagermedarbejder, der er tildelt til læg-på-lager-opgaver, se, at kildedokumentet er klar til at blive lagt på lager, og oprette et nyt læg-på-lager-dokument på basis af lageranmodningen.  
 
@@ -68,7 +68,7 @@ Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette en ny læg-på-
 2. I feltet **Placeringskode** på læg-på-lager-linjerne, foreslås den placering, hvor varerne skal lægges på lager, pr. varens standardplacering. Du kan eventuelt ændre placeringen i dette vindue.  
 3. Udfør læg-på-lager-aktiviteten, og angiv oplysningerne for den faktiske mængde, der er lagt på lager, i feltet **Håndteringsantal**.
 
-    Hvis det er nødvendigt at placere varerne for en enkelt linje på mere end én placering, f.eks. fordi den angivne placering er fuld, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Du kan finde flere oplysninger om opdeling af linjer i [Fremgangsmåde: opdele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md).  
+    Hvis det er nødvendigt at placere varerne for en enkelt linje på mere end én placering, f.eks. fordi den angivne placering er fuld, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Du kan finde flere oplysninger om opdeling af linjer i [Opdele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md).  
 4. Når du har lagt varerne på lager, skal du vælge handlingen **Bogfør**.  
 
 Når du bogfører, bogføres modtagelsen, eller afgangen i forbindelse med produktionsordrer, af de kildedokumentlinjer, der er lagt på lager, og hvis der anvendes placeringer på lokationen, oprettes der også lagerposter til bogføring af ændringerne af placeringsantal.

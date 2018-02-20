@@ -13,13 +13,13 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 673c7a118c5f589319bd967bfaea3bedef84f9ff
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Fremgangsmåde: Definere dine kontaktpersoners ansvarsområder
+# <a name="set-up-job-responsibilities-for-contact-persons"></a>Definere dine kontaktpersoners ansvarsområder
 Du kan tilføje oplysninger om ansvarsområder for kontaktpersoner for at angive, hvad kontaktpersonen er ansvarlig for i virksomheden, f.eks. IT, administration eller produktion. Du kan bruge disse oplysninger, når du angiver oplysninger om dine kontakter.
 
 Brug af ansvarsområder for kontakter er en totrinsproces. Først skal du definere koden for ansvarsområdet. Du behøver kun at udføre dette trin én gang for hvert ansvarsområde. Når du har et ansvarsområde, kan du begynde at tildele koden til kontakter.
@@ -41,7 +41,7 @@ Gentag disse trin for hver ansvarsområde, du vil tildele. Du kan også tildele 
 
 Det antal ansvarsområder, du har tildelt til kontakten, vises i feltet **Antal ansvarsområder** i sektionen **Segmentering** i vinduet **Kontakt**.
 
-Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
+Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktpersoner](marketing-create-contact-persons.md)  

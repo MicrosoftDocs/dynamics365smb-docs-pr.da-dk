@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b8c24469a087c16c2e351b456b015e8fdd65f82
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Fremgangsmåde: Arbejde med betalingstolerancer og kontantrabattolerancer
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbejde med betalingstolerancer og kontantrabattolerancer
 Du kan angive en betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen. Du kan angive en kontantrabattolerance til at give kontantrabat, efter at kontantrabatdatoen er overskredet.  
 
 Du kan bruge betalingstolerancer, så alle udestående beløb har en angivet maksimal tilladt betalingstolerance. Hvis betalingstolerance er overholdt, analyseres det indbetalte beløb. Hvis det indbetalte beløb er utilstrækkeligt, vil det udestående beløb lukkes helt af den utilstrækkelige indbetaling. Der bogføres automatisk en detaljeret post på betalingsposten, så der ikke er noget restbeløb på den udlignede fakturapost. Hvis det indbetalte beløb er en overbetaling, bogføres automatisk en ny detaljeret post på betalingsposten, så der ikke er noget restbeløb på betalingsposten.

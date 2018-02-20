@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0ca92ce0266c6a57d211f9ddb70dc5499f4f9648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 223eed1ca4e362b8209373fac71d20ab88b2aaff
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-ship-items"></a>Fremgangsmåde: Sende varer
+# <a name="ship-items"></a>Afsende varer
 Når du leverer varer fra et lagersted, der ikke er konfigureret til lagerleverancebehandling, skal du blot registrere leverancen på det relaterede forretningsbilag f.eks. en salgsordre, serviceordre, købsordre, returvareordre eller udgående overflytningsordre.
 
 Når du leverer varer fra et lagersted, der er konfigureret til lagerleverance, kan du kun levere varer på baggrund af kildedokumenter, som andre virksomheder har frigivet til lagerstedet.
 
 > [!NOTE]
-> Hvis der benyttes direkte afsendelse og placeringer på lageret, kan du for hver linje få vist, hvor mange varer der er blevet placeret på de direkte afsendelsesplaceringer. Disse varemængder beregnes automatisk, hver gang felterne på leverancen opdateres. Hvis de pågældende varer også er dem, som er relevante for den leverance, som du er i gang med, kan du oprette et pluk til alle linjerne og derefter færdiggøre leverancen. Du kan finde flere oplysninger under [Fremgangsmåde: Afsendelse](warehouse-how-to-cross-dock-items.md).
+> Hvis der benyttes direkte afsendelse og placeringer på lageret, kan du for hver linje få vist, hvor mange varer der er blevet placeret på de direkte afsendelsesplaceringer. Disse varemængder beregnes automatisk, hver gang felterne på leverancen opdateres. Hvis de pågældende varer også er dem, som er relevante for den leverance, som du er i gang med, kan du oprette et pluk til alle linjerne og derefter færdiggøre leverancen. Du kan finde flere oplysninger under [Afsende varer](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Sådan leveres varer med en salgsordre
 Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er tilsvarende fremgangsmåde for købsreturvareordrer, serviceordrer og udgående overflytningsordrer.  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
-2. Åbn en eksisterende salgsordre eller opret en ny. Du kan finde flere oplysninger i [Fremgangsmåde: Sælge produkter](sales-how-sell-products.md).
+2. Åbn en eksisterende salgsordre eller opret en ny. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 3. Angiv det modtagne antal i feltet **Lever (antal)**.
 
     Værdien i feltet **Leveret antal** opdateres. Hvis det er en delvis leverance, er værdien lavere end værdien i feltet **Antal**.
@@ -91,12 +91,12 @@ Typisk opretter en lagermedarbejder, der er ansvarlig for pluk, et plukdokument 
     Felterne **Lever (antal)** og **Bilagsstatus** på leverancedokumentets hoved er opdateret. De varer, som du har plukket, er ikke længere disponible til pluk til andre leverancer eller til interne operationer.
 7. Udskriv leverancedokumenterne, foretag indpakningen, og bogfør derefter leverancen.
 
-Du kan finde flere oplysninger om plukning til lagerleverancer i [Fremgangsmåde: Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Du kan finde flere oplysninger om plukning til lagerleverancer i [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Du kan også bruge plukkladden til at samle flere forskellige plukinstruktioner i en enkelt instruktion (til flere leverancer) og på den måde foretage plukkene på lagerstedet mere effektivt. Du kan finde flere oplysninger i [Fremgangsmåde: Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md).
+Du kan også bruge plukkladden til at samle flere forskellige plukinstruktioner i en enkelt instruktion (til flere leverancer) og på den måde foretage plukkene på lagerstedet mere effektivt. Du kan finde flere oplysninger i [Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Hvis du venter på, at bestemte varer skal ankomme på lagerstedet, og du bruger direkte afsendelsesfunktioner, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] beregne i hver leverance- eller kladdelinje det antal af varen, der findes på den direkte afsendelsesplacering. Feltet opdateres, hver gang du lukker eller åbner leverancedokumentet eller kladden. Du kan finde flere oplysninger under [Fremgangsmåde: Afsendelse](warehouse-how-to-cross-dock-items.md).
+> Hvis du venter på, at bestemte varer skal ankomme på lagerstedet, og du bruger direkte afsendelsesfunktioner, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] beregne i hver leverance- eller kladdelinje det antal af varen, der findes på den direkte afsendelsesplacering. Feltet opdateres, hver gang du lukker eller åbner leverancedokumentet eller kladden. Du kan finde flere oplysninger under [Afsende varer](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  

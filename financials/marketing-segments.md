@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2c17f14809ecfe9a335c3f8e6bb7ddeb4e26e1e9
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-segments"></a>Administrere målgrupper
@@ -31,8 +31,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 | Hvis du vil | Se |
 | --- | --- |
-| Oprette målgrupper, som gør det muligt for dig at vælge en gruppe kontakter. F.eks., direct mail. |[Fremgangsmåde: Oprette målgrupper](marketing-how-create-segment.md) |
-| Administrere de kontakter, der er tildelt til målgrupper. |[Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md) |
+| Oprette målgrupper, som gør det muligt for dig at vælge en gruppe kontakter. F.eks., direct mail. |[Oprette målgrupper](marketing-how-create-segment.md) |
+| Administrere de kontakter, der er tildelt til målgrupper. |[Tilføje kontakter til målgrupper](marketing-add-contact-segment.md) |
 | Få mere at vide om brugen af interaktioner og målgrupper, herunder logføring. |[Administrere interaktion og målgrupper](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Se også

@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 29023e68808935b49aba663d994bac756d037615
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Fremgangsmåde: Konvertere servicekontrakter, som omfatter momsbeløb
+# <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter, som omfatter momsbeløb
 Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal disse kontrakter konverteres manuelt. Dette emne beskriver flere alternative metoder, der kan bruges til konvertering af servicekontrakter.  
 
 > [!NOTE]  
@@ -56,7 +56,7 @@ Følgende procedure beskriver, hvordan du opretter nye kontrakter ved at arbejde
 ### <a name="to-create-a-new-credit-memo"></a>Sådan oprettes en ny kreditnota  
 Følgende procedure beskriver, hvordan du opretter en ny kreditnota ved hjælp af batchjobbet **Hent forudbetalte kontraktposter**. Poster, du ikke vil rette fra januar 2017 til juni 2017, vil blive slettet.  
 
-1. Du kan køre momssatsændringsværktøjet på 1 juli 2017. Den generelle produktbogføringsgruppe eller momsproduktbogføringsgruppen ændres. Du kan finde flere oplysninger i [Fremgangsmåde: Arbejde med moms af salg og køb](finance-work-with-vat.md).  
+1. Du kan køre momssatsændringsværktøjet på 1 juli 2017. Den generelle produktbogføringsgruppe eller momsproduktbogføringsgruppen ændres. Du kan finde flere oplysninger i [Arbejde med moms af salg og køb](finance-work-with-vat.md).  
 2. Når du har kørt momssatsændringsværktøjet skal du angive en kontraktudløbsdato for servicekontrakten. Du kan nu slette servicekontraktlinjen og oprette en ny linje, der er identisk med den gamle.  
 3. Opret en ny faktura for perioden januar 2017 til december 2012 ved hjælp af den nye momssats.  
 4. For at oprette en anden kreditnota skal du i vinduet **Servicekreditnotaer** vælge **Ny** for at oprette en ny servicekreditnota.  
@@ -64,8 +64,8 @@ Følgende procedure beskriver, hvordan du opretter en ny kreditnota ved hjælp a
 6. Når konverteringen er fuldført, vil moms og serviceposter være korrekte.  
 
 ## <a name="see-also"></a>Se også  
-[Sådan gør du: Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finans](finance.md)  
-[Fremgangsmåde: Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
-[Fremgangsmåde: Arbejde moms af salg og køb](finance-work-with-vat.md)  
+[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
+[Arbejde moms af salg og køb](finance-work-with-vat.md)  
 

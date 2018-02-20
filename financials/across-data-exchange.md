@@ -1,6 +1,6 @@
 ---
-title: Elektroniske dokumenter i Dynamics 365 Business edition | Microsoft Docs
-description: Introduktion til afsendelse og modtagelse af elektroniske dokumenter i Dynamics 365.
+title: Elektroniske dokumenter i Finance and Operations, Business edition | Microsoft Docs
+description: Introduktion til afsendelse og modtagelse af elektroniske dokumenter i Finance and Operations, Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: dca451d2555641dc1c1fc134b19380b3ede2690b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebc2e716080bde51646cb136dca904e6fd43c43
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -48,7 +48,7 @@ Du kan konfigurere en ekstern tjeneste til at holde dine valutakurser opdaterede
 
 Ved al udveksling af data i XML-filer kan du forberede dataudvekslingsopsætningen ved at indlæse den relaterede XML-skemafil i vinduet **XML-skemafremviser**. Her kan du vælge de dataelementer, du vil udveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)] og derefter enten initialisere en dataudvekslingsdefinition eller generere en XMLport.  
 
-Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 |Hvis du vil|Se|  
 |--------|---------|  
@@ -58,7 +58,7 @@ Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer b
 
 ## <a name="see-also"></a>Se også  
 [Om Data Exchange Framework](across-about-the-data-exchange-framework.md)  
-[Fremgangsmåde: Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Udveksle data](across-exchange-data.md)  
 [Indgående bilag](across-income-documents.md)  

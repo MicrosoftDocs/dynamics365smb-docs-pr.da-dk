@@ -11,20 +11,20 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 8ae02f7a55f822751ae66b5b62013455aac87e48
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1e2f5142eb21d346b17b7d541191df553086b30f
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-and-convert-electronic-documents"></a>Fremgangsmåde: Modtage og konvertere elektroniske dokumenter
+# <a name="receive-and-convert-electronic-documents"></a>Modtage og konvertere elektroniske dokumenter
 Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. For at modtage en faktura fra en kreditor som et elektronisk PEPPOL-dokument, skal du behandle dokumentet i vinduet Indgående bilag for at konvertere det til en købsfaktura eller finanskladdelinje i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Ud over at modtage elektroniske dokumenter direkte fra handelspartnere kan du modtage elektroniske dokumenter fra en OCR-tjeneste, der har omdannet dine PDF- eller billedfiler til elektroniske dokumenter.  
 
- Før du kan modtage elektroniske dokumenter via dokumentudvekslingstjenesten, skal du konfigurere forskellige stamdata, som firmaoplysninger, kreditorer, varer og måleenheder. Disse bruges til at identificere forretningspartnere og varer ved konvertering af data i elementerne i den indgående dokumentfil til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md).  
+ Før du kan modtage elektroniske dokumenter via dokumentudvekslingstjenesten, skal du konfigurere forskellige stamdata, som firmaoplysninger, kreditorer, varer og måleenheder. Disse bruges til at identificere forretningspartnere og varer ved konvertering af data i elementerne i den indgående dokumentfil til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md).  
 
- Før du kan modtage elektroniske dokumenter via OCR-tjenesten, skal du konfigurere og aktivere den forudkonfigurerede tjenesteforbindelse. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurere indgående dokumenter](across-how-setup-income-documents.md).  
+ Før du kan modtage elektroniske dokumenter via OCR-tjenesten, skal du konfigurere og aktivere den forudkonfigurerede tjenesteforbindelse. Du kan finde flere oplysninger under [Konfigurere indgående dokumenter](across-how-setup-income-documents.md).  
 
  Trafikken af elektroniske dokumenter ind og ud af [!INCLUDE[d365fin](includes/d365fin_md.md)] styres af opgavekøfunktionen. Før du kan modtage elektroniske dokumenter, skal den relevante opgavekø startes.  
 
@@ -45,7 +45,7 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
 
 2.  Vælg linjen med den indgående dokumentpost, der repræsenterer en ny indgående elektronisk faktura. Under fanen **Start** i gruppen **Administrer** skal du derefter vælge **Rediger**.  
 
-     I vinduet **Indgående bilagskort** tilknyttes den relaterede XML-fil, og de fleste felter er udfyldt med oplysninger fra den elektroniske faktura. Du kan finde flere oplysninger under [Fremgangsmåde: Oprette indgående dokumentposter](across-how-create-income-document-records.md).  
+     I vinduet **Indgående bilagskort** tilknyttes den relaterede XML-fil, og de fleste felter er udfyldt med oplysninger fra den elektroniske faktura. Du kan finde flere oplysninger under [Oprette indgående dokumentposter](across-how-create-income-document-records.md).  
 
 3.  I feltet **Dataudvekslingstype** skal du vælge **PEPPOL – faktura** eller **OCR – faktura** afhængigt af kilden til det elektroniske dokument.  
 
@@ -60,7 +60,7 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
 ## <a name="see-also"></a>Se også  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Indgående bilag](across-income-documents.md)  
-[Fremgangsmåde: Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Udveksle data elektronisk](across-data-exchange.md)   
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 

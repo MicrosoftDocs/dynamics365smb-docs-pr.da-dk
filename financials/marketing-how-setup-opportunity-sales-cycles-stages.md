@@ -1,6 +1,6 @@
 ---
 title: Konfigurere salgsprocesser og -procesfaser for leads | Microsoft Docs
-description: "Beskriver, hvordan du definerer salgsfaser fra første kontakt til afslutningen for at oprette en salgsproces og tildele den til salgsmuligheder i Dynamics 365 Business edition."
+description: "Beskriver, hvordan du definerer salgsfaser fra første kontakt til afslutningen for at oprette en salgsproces og tildele den til salgsmuligheder i Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d164dd313352e80b6ce4e6f4ba8408e1e2c093de
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Fremgangsmåde: Konfigurere salgsprocesser og -procesfaser for leads
+# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Konfigurere salgsprocesser og -procesfaser for leads
 Før du kan begynde at bruge salgsleads, skal du definere salgsprocesser og salgsprocesfaser. En salgsproces består af en række faser, der går fra den første kontakt til afslutningen af et salg. Hvert trin kan have bestemte krav, der skal opfyldes, f.eks kræve et salgstilbud, før et lead kan gå til næste fase. Du kan også angive, om en fase kan springes over. Du kan definere så mange salgsprocesser, der er behov for, og du kan definere så mange salgsprocesfaser, det er nødvendigt, i en salgsproces.
 
 Implementering af salgsprocesser for leads kræver, at du konfigurerer salgsprocessen, definerer de forskellige faser i processen og derefter tildeler processen til leads. Tildeling af den pågældende aktivitet eller opgaver til et lead kan være en del af oprettelsen af en salgsproces.
@@ -37,7 +37,7 @@ Gentag disse trin for hver salgsproces, du vil oprette. Når du har defineret sa
 Gentag disse trin for hver fase, du vil definere i salgsproces.
 
 ## <a name="to-assign-stage-cycles-to-opportunities"></a>Sådan tildeles faser i salgsprocesser til leads
-Når du har tilføjet fasen i salgsprocessen for leads, kan du begynde at tilføje salgsprocesser og derefter tildele procesfasen til leads ved at angive feltet **Salgsproceskode**. Du kan finde flere oplysninger under [Fremgangsmåde: Oprette salgsleads](marketing-how-create-opportunities.md).
+Når du har tilføjet fasen i salgsprocessen for leads, kan du begynde at tilføje salgsprocesser og derefter tildele procesfasen til leads ved at angive feltet **Salgsproceskode**. Du kan finde flere oplysninger under [Oprette salgsleads](marketing-how-create-opportunities.md).
 
 ## <a name="to-set-up-activities-with-tasks"></a>Sådan defineres aktiviteter til opgaver
 Du kan samle flere opgaver, for eksempel opgaver, der hver repræsenterer et trin, i aktiviteter. Aktivitetsopgaver er forbundet med hinanden vha. en datoformel. Du kan tildele aktiviteter til leads, sælgere og kontaktpersoner.

@@ -1,6 +1,6 @@
 ---
 title: Administrere salgsmuligheder og leads | Microsoft Docs
-description: "Beskriver administration af eventuelle indgående leads eller salgsmuligheder i Dynamics 365 og tilknytning af salgsmuligheden til en sælger for at holde styr på muligt salg."
+description: "Beskriver administration af eventuelle indgående leads eller salgsmuligheder i Finance and Operations, Business edition og tilknytning af et lead til en sælger for at holde styr på muligt salg."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 34c43d54d2472d6aee0fc791824013727e3fd324
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67e385b6c3f533ab5c63259b9df7e775f2155897
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-sales-opportunities"></a>Administrere salgsleads
@@ -28,8 +28,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 | Hvis du vil | Se |
 | --- | --- |
-| Konfigurer de salgsprocesser, som du normalt følger, og de forskellige faser i hver salgsproces for leads. |[Fremgangsmåde: Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md) |
-| Oprette salgs-leads, som du har fra dine kontakter. |[Fremgangsmåde: Oprette leads](marketing-how-create-opportunities.md) |
+| Konfigurer de salgsprocesser, som du normalt følger, og de forskellige faser i hver salgsproces for leads. |[Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md) |
+| Oprette salgs-leads, som du har fra dine kontakter. |[Oprette salgsmuligheder](marketing-how-create-opportunities.md) |
 | Flyt et salgslead via salgsprocessen til afslutning. |[Behandling af salgsleads](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Se også

@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 08/24/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 000a27efed9ff6c20cffd470e1d5dda0b9387bb6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 68f1af1ec5662e2c13b2695f8b1291734bf9450e
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-approval-workflows"></a>Fremgangsmåde: Bruge godkendelsesworkflows
+# <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
 Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en person i organisationen, sendes en godkendelsesanmodning som en del af en arbejdsgang. Afhængigt af hvordan arbejdsgangen er konfigureret, får den relevante godkender derefter besked om, at posten kræver godkendelse.
 
 Du kan konfigurere godkendelsesworkflows i vinduet **Workflow**. Du kan finde flere oplysninger under [Opsætte workflows](across-set-up-workflows.md).
@@ -26,9 +26,6 @@ Du kan konfigurere godkendelsesworkflows i vinduet **Workflow**. Du kan finde fl
 Ud over godkendelsesworkflows, der er beskrevet i dette emne, kan du udføre forskellige andre opgaver i workflowet. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).
 
 Grundlæggende godkendelsesworkflows for købsdokumenter, salgsdokumenter, udbetalingskladder, debitorkort og varekort er klar til brug som assisteret opsætning. Du kan finde flere oplysninger under [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
-
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Sådan anmodes om godkendelse af en post
 Følgende opgave udføres af en godkendelsesbruger.

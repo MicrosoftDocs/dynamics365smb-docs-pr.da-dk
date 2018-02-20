@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 09748a2bc86a945ff26e581738f85bc6d55b777d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Administrere interaktioner for målgrupper
@@ -45,8 +45,8 @@ Når du vælger **Log** i vinduet **Målgruppe**, registrerer programmet interak
 I vinduet **Logførte målgrupper**, kan du vælge at oprette en opfølgende målgruppe, der indeholder de samme kontaktpersoner som den målgruppe, du har logget.
 
 ## <a name="see-also"></a>Se også
-[Fremgangsmåde: Oprette målgrupper](marketing-how-create-segment.md)  
-[Fremgangsmåde: Oprette interaktioner til målgrupper](marketing-how-create-interactions.md)  
+[Oprette målgrupper](marketing-how-create-segment.md)  
+[Oprette interaktioner til målgrupper](marketing-how-create-interactions.md)  
 [Administrere målgrupper](marketing-segments.md)  
 [Registrering af interaktioner med kontakter](marketing-interactions.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  

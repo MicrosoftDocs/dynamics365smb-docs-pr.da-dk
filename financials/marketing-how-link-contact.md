@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f5bbadb37a40dbc7b06668d940d2be9569aaa8e8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 094ba95f46d13c5861087bedbe52fb18da9270e9
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-link-contacts-with-customers-vendors-and-bank-accounts"></a>Fremgangsmåde: Knytte kontakter til debitorer, kreditorer og bankkonti
+# <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Sammenkæde kontakter med debitorer, kreditorer og bankkonti
 Hvis du har en kontakt og enten en debitor, kreditor eller bankkonto til samme virksomhed, kan du knytte de to poster til hinanden. Når du knytter de to poster til hinanden, kan du synkronisere data, som er fælles, så det er de samme i begge steder.
 
 ## <a name="link-a-contact-to-an-existing-customer-vendor-or-bank-account"></a>Knytte en kontakt til en eksisterende debitor, kreditor eller bankkonto.

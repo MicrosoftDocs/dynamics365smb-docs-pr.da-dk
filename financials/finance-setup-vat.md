@@ -13,14 +13,14 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5861071decd1feac9adf53783038f2927be3c930
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
+# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
 Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydelser. Momsbeløbet, der skal betales, kan variere afhængigt af flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] konfigurerer du moms til at angive de satser, der bruges til at beregne momsbeløb baseret på følgende: 
 
 * Hvem du sælger til  
@@ -40,7 +40,20 @@ Du anbefales at bruge den assisterede momsopsætningsvejledning, når du konfigu
 
 For at starte vejledningen skal du gøre følgende:
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Assisteret opsætning**.  
-2. Vælg **Momsopsætning**.
+2. Vælg **Konfigurer moms**.
+
+## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Sådan defineres momsregistreringsnumre for dit land eller område
+For at sikre, at brugere angiver gyldige momsregistreringsnumre, kan du definere formater til momsregistreringsnumre, som bruges i de lande eller områder, hvor du handler. [!INCLUDE[d365fin](includes/d365fin_md.md)] viser en fejlmeddelelse, når en bruger laver en fejl eller bruger et format, der er forkert for landet eller området.
+
+For at oprette momsregistreringsnumre, skal du gøre følgende:
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") og angiv **Lande/områder**.
+2. Vælg landet eller området, og vælg derefter handlingen **SE/CVR-nr.formater**.
+3. I feltet **Formater** skal du angive formatet ved at angive et eller flere af følgende tegn:  
+  
+    |----|----| | # | Kræver et etcifret tal. | | @ | Kræver et bogstav. Der skelnes ikke mellem store og små bogstaver. | | ? | Tillader alle tegn. |
+  
+    > [!Tip]
+    > Du kan bruge andre tegn, så længe de er altid findes i formatet for landet eller området. Hvis du f.eks. vil medtage et punktum eller en bindestreg mellem sæt af tal, kan du angive formatet som ##.####.### eller @@-###-###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Sådan oprettes virksomhedsbogføringsgrupper
 Formålet med momsvirksomhedsbogføringsgrupper er at repræsentere de markeder, hvor du handler med debitorer og kreditorer, og definere, hvordan moms beregnes og bogføres på hvert enkelt marked. Eksempler på momsvirksomhedsbogføringsgrupper er **Danmark** og **Den Europæiske Union (EU)**.  
@@ -64,7 +77,7 @@ Når du vil oprette en momsvirksomhedsbogføringsgruppe, skal du gøre følgende
 2. Udfyld felterne efter behov.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Sådan kombineres momsbogføringsgrupper i momsbogføringsopsætninger
-[!INCLUDE[d365fin](includes/d365fin_md.md)] beregner momsbeløb af køb og salg baseret på momsbogføringsgrupper, der er kombinationer af momsvirksomheds- og -produktbogføringsgrupper. For hver kombination kan du angive momsprocenten, momsberegningstypen og finanskontonumre for bogføring af købs-, salgs- og modtagermoms. Du kan også angive, om moms skal genberegnes, når en kontantrabat anvendes eller modtages.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  beregner momsbeløb af køb og salg baseret på momsbogføringsgrupper, der er kombinationer af momsvirksomheds- og -produktbogføringsgrupper. For hver kombination kan du angive momsprocenten, momsberegningstypen og finanskontonumre for bogføring af købs-, salgs- og modtagermoms. Du kan også angive, om moms skal genberegnes, når en kontantrabat anvendes eller modtages.  
 
 Du kan definere et ubegrænset antal kombinationer. Hvis du vil gruppere kombinationer af momsbogføringsopsætninger med lignende attributter, kan du angive et **Moms-id** for hver enkelt gruppe og tildele id'et til gruppemedlemmerne.
 
@@ -235,4 +248,4 @@ Du bruger momssatsændringsværktøjet til at administrere ændringer i standard
 ## <a name="see-also"></a>Se også  
 [Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)  
 [Fremgangsmåde: Rapportere moms til en skattemyndighed](finance-how-report-vat.md)  
-[Fremgangsmåde: Arbejde moms af salg og køb](finance-work-with-vat.md)  
+[Arbejde moms af salg og køb](finance-work-with-vat.md)  

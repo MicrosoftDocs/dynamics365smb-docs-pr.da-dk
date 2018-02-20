@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: de7cf91736fd97943604237cee7093017e7c01f9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-reports-with-xbrl"></a>Fremgangsmåde: Oprette rapporter med XBRL
+# <a name="create-reports-with-xbrl"></a>Oprette rapporter med XBRL
 XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist. Talrige ERP-softwarevirksomheder og internationale revisionsfirmaer kan bruge XBRL-initiativerne til global finansiel rapportering. Det globale initiativ er at levere en standard for ensartet rapportering af finansielle oplysninger til banker, investorer og statslige myndigheder. Sådan virksomhedsrapportering kan omfatte:  
 
  • Regnskabsopgørelser  
@@ -27,7 +27,7 @@ XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sp
  • Ikke-finansielle oplysninger  
  • Lovgivningsmæssige arkiveringer, f.eks. årsregnskaber og kvartalsmæssige regnskabsopgørelser  
 
- Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan virksomhederne implementere data i XBRL, og drage fordel af den fleksibilitet og automatisering, det indebærer, både ved indsamling og deling af data.  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] Med  kan virksomhederne implementere data i XBRL, og drage fordel af den fleksibilitet og automatisering, det indebærer, både ved indsamling og deling af data.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) er et XML-baseret sprog til finansiel rapportering. XBRL indeholder en standard for ensartet rapportering for alle brugere af finansielle oplysninger, f.eks. offentlige og private virksomheder, revisorer, analytikere, investorer, interessenter fra kapitalmarkedet og långivere. Standarden benyttes også af andre involverede nøglepartnere, f.eks. udviklere af software og hardwareleverandører.  

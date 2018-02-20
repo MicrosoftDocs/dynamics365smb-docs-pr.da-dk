@@ -1,6 +1,6 @@
 ---
 title: "Designoplysninger – Logistik | Microsoft Docs"
-description: Dette emne giver et overblik over designet, begreberne og principperne bag logistikfunktionerne i Dynamics 365.
+description: Dette emne giver et overblik over designet, begreberne og principperne bag logistikfunktionerne i Finance and Operations, Business edition.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 7313558a3d59f1454ea5a45f1bb29e095caf4bc0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3145c64e64274cefb19630b639879f09ead8a6f3
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="design-details-warehouse-management"></a>Designoplysninger: Logistik

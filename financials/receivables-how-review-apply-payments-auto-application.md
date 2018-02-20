@@ -13,14 +13,14 @@ ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 745766657fe7e993aaa689f0074c4f4a41e0090c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Fremgangsmåde: Gennemse eller udligne betalinger efter manuel udligning
-For hver kladdelinje, der repræsenterer en betaling i vinduet **Betalingsudligningskladde**, kan du åbne vinduet **Betalingsudligning** for at få vist alle åbne kandidatposter for betalingen og se detaljerede oplysninger for hver post om den dataafstemning, som en betalingsudligning er baseret på. Her kan du manuelt udligne betalinger eller udligne betalinger igen, der er udlignet automatisk til en forkert post. Du kan finde flere oplysninger om automatisk udligning i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+# <a name="review-or-apply-payments-manually-after-automatic-application"></a>Gennemse eller udligne betalinger manuelt efter automatisk udligning
+For hver kladdelinje, der repræsenterer en betaling i vinduet **Betalingsudligningskladde**, kan du åbne vinduet **Betalingsudligning** for at få vist alle åbne kandidatposter for betalingen og se detaljerede oplysninger for hver post om den dataafstemning, som en betalingsudligning er baseret på. Her kan du manuelt udligne betalinger eller udligne betalinger igen, der er udlignet automatisk til en forkert post. Du kan finde flere oplysninger om automatisk udligning i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
 >   Når den bankkonto, som du afstemmer betalinger for, er sat op til den lokale valuta, viser vinduet **Betalingsudligning** alle åbne poster i den lokale valuta, herunder åbne poster for dokumenter, der oprindeligt blev faktureret i udenlandsk valuta. Betalinger, der er udlignet til poster med de omregnede valutaer, kan derfor blive bogført med andre beløb end i det oprindelige dokument på grund af de potentielt forskellige valutakurser, der bruges af henholdsvis banken og [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -40,7 +40,7 @@ Eventuelle justeringer af gevinster og tab, der kræves på grund af valutaomreg
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Sådan gennemser eller udligner du betalinger efter automatisk udligning
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsudbetalingskladder**, og vælg derefter det relaterede link.
-2. Åbn kladden for betalingsafstemning for en bankkonto, som du vil afstemme betalinger for. Du kan finde flere oplysninger i [Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+2. Åbn kladden for betalingsafstemning for en bankkonto, som du vil afstemme betalinger for. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 3. I vinduet **Betalingsudligningskladde** skal du markere en betaling, du vil gennemse eller udligne manuelt til en eller flere åbne poster og derefter vælge handlingen **Anvend manuelt**.
 4. Markér afkrydsningsfeltet **Udlignet** på linjen for den åbne post, som du vil udligne betalingen på.
 5. Det betalte beløb, som også vises i feltet **Transaktionsbeløb** i vinduet **Betalingsudligning**, er indsat i feltet **Udligningsbeløb**, men du kan redigere feltet, for eksempel hvis du vil anvende beløbet på flere åbne poster.

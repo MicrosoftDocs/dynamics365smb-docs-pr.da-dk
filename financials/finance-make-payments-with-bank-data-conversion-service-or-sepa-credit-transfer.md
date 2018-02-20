@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 0760b5480b3c2de9bc370526bd87da2c9a492d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d9388a99585eea4e9e229a2f47982f9f690e3001
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel
@@ -25,19 +25,19 @@ I vinduet **Udbetalingskladde** kan du behandle betalinger til dine kreditorer v
 > [!NOTE]  
 >  Når du har kontrolleret, at betalingerne er behandlet af banken, kan du fortsætte med at bogføre udbetalingskladdens linjer.  
 
- Følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
+ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Aktiver funktionen Tjeneste til konvertering af bankdata for at konvertere en fil med bankkontoudtog til et format, som du kan importere, eller for at få dine eksporterede betalingsfiler konverteret tilbage til det format, som din bank kræver.|[Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-statement-service.md)|  
-|Opret en bankkonto, en kreditor og en betalingskladde til SEPA-kreditoverførslen.|[Fremgangsmåde: Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)|  
+|Aktiver funktionen Tjeneste til konvertering af bankdata for at konvertere en fil med bankkontoudtog til et format, som du kan importere, eller for at få dine eksporterede betalingsfiler konverteret tilbage til det format, som din bank kræver.|[Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-statement-service.md)|  
+|Oprette en bankkonto, en kreditor og en betalingskladde til SEPA-kreditoverførslen.|[Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Udfyld betalingskladdelinjerne for forfaldne betalinger til kreditorer med mulighed for at indsætte bogføringsdatoer, der er baseret på forfaldsdatoen for de relaterede købsdokumenter.|[Administrere skyldige beløb](payables-manage-payables.md)|  
-|Eksportér betalingskladdelinjer til en fil i SEPA-kreditoverførselsformat.|[Fremgangsmåde: Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)|  
+|Eksportér betalingskladdelinjer til en fil i SEPA-kreditoverførselsformat.|[Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)|  
 |Når elektronisk betaling er behandlet af banken, kan du bogføre betalingerne.|[Arbejde med finanskladder](ui-work-general-journals.md)|  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-statement-service.md)  
-[Fremgangsmåde: Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)  
+[Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-statement-service.md)  
+[Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)   
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   

@@ -12,13 +12,13 @@ ms.search.keywords: user log, user activity, tracking
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: 9f3db97203e09608ea0776f5571d6179778283b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f49e3722f95d4e5a2c8eea83d77175581d93277
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="logging-changes-in-dynamics-365-business-edition"></a>Logføring af ændringer i Dynamics 365, Business edition 
+# <a name="logging-changes-in-finance-and-operations-business-edition"></a>Logføring af ændringer i Finance and Operations, Business edition 
 Du kan aktivere ændringsloggen i [!INCLUDE[d365fin](includes/d365fin_md.md)], så du har en oversigt over aktiviteter. Loggen er baseret på ændringer, der er foretaget i de tabeller, som du sporer. I ændringsloggen registreres posterne i kronologisk rækkefølge og viser de ændringer, der er foretaget i felterne på de angivne tabeller. Ændringsloggen indsamler alle ændringer, der foretages i tabellen.  
 
 ## <a name="working-with-the-change-log"></a>Arbejde med ændringsloggen
@@ -34,6 +34,6 @@ Når du har konfigureret ændringsloggen, aktiveret den og ændret data, kan du 
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
 [Brug af Søg efter side eller rapport](ui-search.md)  
-[Fremgangsmåde: Administrere brugere og rettigheder](ui-how-users-permissions.md)    
+[Administrere brugere og deres rettigheder](ui-how-users-permissions.md)    
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

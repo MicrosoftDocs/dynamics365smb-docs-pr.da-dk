@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: e99859e6501c1788693d39363089331c8b322f56
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fe2174baa42872b57cf643560ec4a2c4f6b7e967
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-customers-for-oioubl"></a>Fremgangsmåde: Konfigurere kunder til OIOUBL
+# <a name="set-up-customers-for-oioubl"></a>Konfigurere kunder til OIOUBL
 Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for debitorer i den offentlige sektor, skal du tilføje OIOUBL-oplysninger for de relevante debitorer.  
 
- I dette emne beskrives kun de felter, der gælder for OIOUBL. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere nye debitorer](../../sales-how-register-new-customers.md).  
+ I dette emne beskrives kun de felter, der gælder for OIOUBL. Du kan finde flere oplysninger i [Registrere nye debitorer](../../sales-how-register-new-customers.md).  
 
 ### <a name="to-set-up-customers-for-oioubl"></a>Sådan konfigureres kunder til OIOUBL  
 
@@ -41,9 +41,9 @@ Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for deb
 
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
-[Fremgangsmåde: Registrere nye debitorer](../../sales-how-register-new-customers.md)   
-[Fremgangsmåde: Konfigurere OIOUBL](how-to-set-up-oioubl.md)   
-[Fremgangsmåde: Oprette elektroniske dokumenter ved hjælp af OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
+[Registrere nye debitorer](../../sales-how-register-new-customers.md)   
+[Konfigurere OIOUBL](how-to-set-up-oioubl.md)   
+[Oprette elektroniske dokumenter ved hjælp af OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
 [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md)   
 [EAN-lokationsnummer](ean-location-number.md)
 

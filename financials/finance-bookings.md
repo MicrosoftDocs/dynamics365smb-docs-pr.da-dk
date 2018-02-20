@@ -1,6 +1,6 @@
 ---
-title: Fakturere dine reservationer i Dynamics 365 | Microsoft Docs
-description: "Få mere at vide, hvordan du kan udstede flere fakturaer ad gangen fra Microsoft Bookings i Dynamics 365 Business edition."
+title: Fakturere dine bestillinger i Finance and Operations, Business edition | Microsoft Docs
+description: "Få mere at vide, hvordan du kan udstede flere fakturaer ad gangen fra Microsoft Bookings i Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 154a4719cdd0e28280c5b0a5de85479beb0b9262
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d387bbbf59550a6ca11dff534b76683a07808ca4
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,11 +28,11 @@ Hvis du vil synkronisere kunder mellem Bookings og [!INCLUDE[d365fin](includes/d
 ## <a name="invoice-appointments"></a>Fakturaaftaler
 Når du skal sende fakturaer for de færdige reservationer, skal du gå til siden **Ikke-fakturerede Bookings**. Afhængigt af hvor ofte oplysningerne synkroniseres er listen lang eller kort. Du kan oprette fakturaer for alle reservationer på listen eller én reservation ad gangen. Du kan vælge en eller flere poster på listen og fakturere dem som de eneste.  
 
-Understøttelse af faktureringsaftaler fra Bookings er lettere end den fulde arbejdsproces, hvor du arbejder med tilbud, salgsordrer og salgsfakturaer. Du kan finde flere oplysninger under [Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md). Du kan vælge at sælge dine tjenesteydelser ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] eller vælge at bruge Bookings, afhængigt af dine forretningsbehov.  
+Understøttelse af faktureringsaftaler fra Bookings er lettere end den fulde arbejdsproces, hvor du arbejder med tilbud, salgsordrer og salgsfakturaer. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md). Du kan vælge at sælge dine tjenesteydelser ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] eller vælge at bruge Bookings, afhængigt af dine forretningsbehov.  
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
-[Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md)  
+[Fakturere salg](sales-how-invoice-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
 

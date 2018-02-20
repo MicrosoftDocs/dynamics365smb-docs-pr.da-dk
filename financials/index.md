@@ -1,6 +1,6 @@
 ---
-title: "Mød Dynamics 365 Business edition | Microsoft Docs"
-description: "Få mere at vide om funktioner og arbejdsscenarier i Dynamics 365 Business edition, der er en forretningsstyringsløsning til små og mellemstore virksomheder."
+title: "Mød Finance and Operations, Business edition | Microsoft Docs"
+description: "Få mere at vide om funktioner og arbejdsscenarier i Finance and Operations, Business edition, der er en forretningsstyringsløsning til små og mellemstore virksomheder."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,14 +11,14 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Tilmelding er nemt, og du kan overflytte eksisterende forretningsdata fra dit gamle system.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Tilmelding er nemt, og du kan overflytte eksisterende forretningsdata fra dit gamle system.
 Når du tilmelder dig eksempelversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)], får du adgang til en demonstrationsvirksomhed. Demonstrationsvirksomheden indeholder eksempeldata, men du kan oprette dine egne salgsdokumenter f.eks eller oprette en bankkonto.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Lære [!INCLUDE[d365fin](includes/d365fin_md.md)] at kende
@@ -53,11 +53,11 @@ I vinduet **Assisteret opsætning** kan du finde følgende i **Suite**-oplevelse
 | Konfigurer et godkendelsesworkflow for kunde |Konfigurerer godkendelsesworkflows, som automatisk underretter en godkender, når en bruger forsøger at oprette eller ændre et debitorkort. |
 | Konfigurer mail |Gør det muligt for dig at sende mails direkte fra f.eks. salgsordrer eller kontakter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Konfigurer maillogføring |Konfigurerer muligheden for at gemme mailkorrespondance i [!INCLUDE[d365fin](includes/d365fin_md.md)] for at følge op på interaktioner. |
-| Konfigurer Outlook for [!INCLUDE[d365fin](includes/d365fin_md.md)] |Konfigurerer muligheden for at bruge og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
+| Konfigurer Outlook for  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Konfigurerer muligheden for at bruge og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
 | Konfigurer rapportering |Konfigurerer datasæt, som du kan bruge til at oprette effektive rapporter ved hjælp af f.eks. Excel eller Power BI. |
 | Konfigurer et godkendelsesworkflow for vare |Gør det muligt at sende en notifikation til en godkender, når en bruger ændrer eller opretter en vare. |
 | Konfigurer et godkendelsesworkflow for betaling |Gør det muligt for en bruger, der sender betalingskladdelinjer til godkendelse, at sende en meddelelse til godkenderen. |
-| Konfigurere Dynamics 365 Connector |Opretter forbindelse til Dynamics 365 for Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
+| Konfigurere Finance and Operations, Business edition-konnektor |Opretter forbindelse til Dynamics 365 for Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
 | Konfigurere salgsafgifter |Hjælper dig i gang med standardskattegrupper og tildeler skatteområdekoder, som du kan tildele til debitorer og kreditorer for automatisk at beregne salgsafgifter i salgs- eller købsdokumenter. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Afprøvning af funktioner i dit eget regnskab
@@ -66,22 +66,21 @@ Overvejer du at tegne abonnement? Du kan nemt gå fra demonstrationsregnskabet o
 Hvis du vil oprette et regnskab for at afprøve ting, skal du gå til menuen **Indstillinger** i øverste højre hjørne og ændre virksomheden til **Min virksomhed**. Log af [!INCLUDE[d365fin](includes/d365fin_md.md)], og log på igen for at anvende ændringerne. En assisteret opsætningsvejledning hjælper dig med at angive basisoplysninger om virksomheden. Når du har gjort det, skal du på startsiden vælge handlingen **Assisteret opsætning**.  
 
 ## <a name="ready-to-subscribe"></a>Er du klar til at tegne abonnement?
-Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter at tegne abonnement, kan du bruge linket i meddelelsen til at komme i forbindelse med Microsoft. Du kan også kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] Sales-teamet på [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707).  
+Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter at tegne abonnement, kan du bruge linket i meddelelsen til at komme i forbindelse med Microsoft. Du kan også kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707) salg.  
 
-## <a name="other-dynamics-365-apps"></a>Andre Dynamics 365-apps
-Gå til oplysninger om de andre Dynamics 365-apps ved at vælge [Dynamics 365](https://docs.microsoft.com/dynamics365)-hyperlinket i det blå banner øverst på denne side. Du kan også få mere at vide på [Dynamics 365-webstedet](https://www.microsoft.com/en-us/dynamics365/).  
+## <a name="other-finance-and-operations-business-edition-apps"></a>Andre apps til Finance and Operations, Business edition
+Gå til oplysninger om Finance and Operations, Business edition-apps ved at vælge linket [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) i det blå banner øverst på denne side. Du kan også få mere at vide på [Dynamics 365 for Finance and Operations, Business edition-webstedet](https://www.microsoft.com/en-us/dynamics365/).  
 
 Hvis du er revisor, kan du tilmelde dig [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] og få en problemfri integration med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Velkommen til Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finans](finance.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som min virksomheds Indbakke i Outlook](madeira-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobilenhed](install-mobile-app.md)  
-[Dokumentation til Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
-[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Dokumentation til Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[Oversigt over Finance and Operations, Business edition](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

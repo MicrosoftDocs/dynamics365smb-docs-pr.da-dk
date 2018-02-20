@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Fremgangsmåde: Konfigurere arbejdscentre og produktionsressourcer
+# <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbejdscentre og produktionsressourcer
 Programmet skelner mellem tre typer kapacitet. Disse er arrangeret hierarkisk. Hvert niveau indeholder underordnede niveauer.  
 
 Det øverste niveau er arbejdscentergruppen. Arbejdscentre er knyttet til arbejdscentergrupper. Hvert arbejdscenter kan tilhøre en arbejdscentergruppe.
@@ -28,7 +28,7 @@ Du kan knytte forskellige produktionsressourcer til hvert arbejdscenter. En prod
 
 Den planlagte kapacitet for arbejdscentre består af disponeringen i de tilsvarende produktionsressourcer og den supplerende planlagte disponering i arbejdscentret. Den planlagte disponering i arbejdscentergruppen er derfor summen af alle tilsvarende produktionsressourcer og arbejdscentre.  
 
-Tilgængeligheden er lagret i kalenderposter. Før du opretter arbejdscentre eller produktionsressourcer, skal du oprette produktionskalendere. Du kan finde flere oplysninger i [Fremgangsmåde: Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).  
+Tilgængeligheden er lagret i kalenderposter. Før du opretter arbejdscentre eller produktionsressourcer, skal du oprette produktionskalendere. Du kan finde flere oplysninger i [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Sådan opsættes et arbejdscenter
 Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene til at oprette en produktionsressourcekalender er identiske med undtagelse af oversigtspanelet **Ruteopsætning**.  
@@ -37,7 +37,7 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
 2.  Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Markér den højniveau ressourcegruppe, som arbejdscenteret er organiseret under, i feltet **Ressourcegruppe**, hvis det er relevant. Vælg handlingen **Ny** på rullemenuen.  
-5.  Vælg feltet **Spærret**, hvis du vil forhindre, at arbejdscentret bruges i enhver behandling. Det betyder, at der ikke kan bogføres afgang for en vare, der produceres på arbejdscentret. Du kan finde flere oplysninger i [Fremgangsmåde: Bogføre produktionsafgang](production-how-to-post-output-quantity.md).
+5.  Vælg feltet **Spærret**, hvis du vil forhindre, at arbejdscentret bruges i enhver behandling. Det betyder, at der ikke kan bogføres afgang for en vare, der produceres på arbejdscentret. Du kan finde flere oplysninger i [Bogføre produktionsafgang](production-how-to-post-output-quantity.md).
 6.  Skriv omkostningen ved at producere en enhed på dette arbejdscenter, inklusive alle andre kostelementer, i feltet **Købspris**. Denne omkostning kaldes ofte *direkte arbejdsomkostning”*.  
 7.  I feltet **Indir. omkost.pct** skal du angive de generelle driftsomkostninger ved at bruge arbejdscentret som en procentdel af købsprisen. Dette procenttal lægges til købsprisen ved beregningen af kostprisen.  
 8.  I feltet **IPO-bidrag** skal du angive alle ikke-driftsmæssige omkostninger for arbejdscentret, f.eks. reparationsudgifter, som et direkte beløb.  
@@ -68,7 +68,7 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
 13.  I feltet **Kapacitet** skal du angive, om arbejdscentret har mere end én maskine eller person, der arbejder samtidigt. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-installation ikke omfatter funktionaliteten Produktionsressource, skal værdien i dette felt være **1**.  
 14.  Angiv den procentdel af den forventede standardafgang, som arbejdscentret normalt producerer, i feltet **Effektivitet**. Hvis du angiver **100**, betyder det, at arbejdscentret har en faktisk afgang, der er den samme som standardafgangen.  
 15. Markér afkrydsningsfeltet **Fælles kalender**, hvis du også bruger produktionsressourcer. Dette sikrer, at kalenderposter er akkumuleres fra produktionsressourcekalendere.  
-16.  Vælg en produktionskalender i feltet **Produktionskalenderkode**. Du kan finde flere oplysninger i [Fremgangsmåde: Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).  
+16.  Vælg en produktionskalender i feltet **Produktionskalenderkode**. Du kan finde flere oplysninger i [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).  
 17.  I feltet **Køtid** skal du angive et fast tidsrum, der skal forløbe, før det tildelte arbejde kan begynde på arbejdscentret. Bemærk, at køtiden lægges til andre ikke-produktive tidselementer, f.eks. ventetid og transporttid, som du kan definere på rutelinjer, der benytter dette arbejdscenter.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Eksempel - Du kan knytte forskellige produktionsressourcer til et arbejdscenter
@@ -83,7 +83,7 @@ Hvis kapaciteter i arbejdscentre ikke skal bidrage til den samlede kapacitet, sk
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Hvis du vil oprette en produktionsressource eller et arbejdscenter med kapacitetsbegrænsning
 Du skal oprette produktionsressourcer, som du betragter som kritiske, og udpege dem som i stand til at håndtere en begrænset belastning i stedet for den ubegrænsede belastning, som andre ressourcer kan håndtere. En kapacitetsbegrænset ressource kan f.eks. være et arbejdscenter eller en produktionsressource, der er identificeret som flaskehals, og som du derfor vil tildele en begrænset (endelig) belastning for.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke detaljeret produktionskontrol. Det planlægger en mulig udnyttelse af ressourcer ved at tilbyde en grov plan, men det opretter og vedligeholder ikke automatisk detaljerede planer, der er baseret på prioriteter eller optimeringsregler.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  understøtter ikke detaljeret produktionskontrol. Det planlægger en mulig udnyttelse af ressourcer ved at tilbyde en grov plan, men det opretter og vedligeholder ikke automatisk detaljerede planer, der er baseret på prioriteter eller optimeringsregler.
 
 I vinduet **Kapacitetsbegrænsede ressourcer** kan du foretage en opsætning, der undgår overbelastning af bestemte ressourcer og sikrer, at ingen kapacitet er ikke-allokeret, hvis det kan forbedre gennemløbstiden for en produktionsordre. I feltet **Aktionsgrænse (% af den samlede kapacitet)** kan du tilføje aktionsgrænsetid for ressourcer for at begrænse tab på opdeling af operationer. Dette gør det muligt for systemet at planlægge belastning på den sidst mulige dag ved at overskride den kritiske belastningsprocent en smule, hvis dette kan reducere antallet af operationer, der er opdelt.
 
@@ -99,7 +99,7 @@ Ved planlægning med kapacitetsbegrænsede ressourcer sikrer systemet, at der ik
 > I tilfælde af opdeling af operationen er opstillingstiden kun tildelt én gang, da det antages, at nogen manuel regulering er udført for at optimere planen.
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md)  
+[Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planlægning](production-planning.md)   

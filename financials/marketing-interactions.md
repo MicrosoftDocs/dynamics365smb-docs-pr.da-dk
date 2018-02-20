@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Administration af interaktioner med kontakter
-I [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, fax, mail, telefon, møder osv.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, fax, mail, telefon, møder osv.
 
 I relationsstyringsområdet kan du registrere alle de interaktioner, du har med kontakter. Det sætter dig i stand til at holde styr på de salgs- og marketingstiltag, du har iværksat i forbindelse med kontakterne, og til at forbedre de fremtidige forretningsinteraktioner med dem. Konfiguration af programmet til at registrere interaktioner består af disse opgaver:
 
@@ -35,7 +35,7 @@ Du konfigurerer en interaktionsskabelon i vinduet **Interaktionsskabeloner**.
 ## <a name="creating-interactions"></a>Oprette interaktioner
 Interaktioner kan registreres på to måder:
 
-* Du kan oprette interaktioner manuelt, der er knyttet til en enkelt kontakt eller en målgruppe. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette interaktioner for kontakter og målgrupper](marketing-how-create-interactions.md).  
+* Du kan oprette interaktioner manuelt, der er knyttet til en enkelt kontakt eller en målgruppe. Du kan finde flere oplysninger i [Oprette interaktioner for kontakter og målgrupper](marketing-how-create-interactions.md).  
 * Du kan automatisk registrere interaktioner, når du udfører handlinger i programmet, f.eks. når du udskriver en faktura eller et tilbud. Du kan finde flere oplysninger i [Automatisk registrere interaktioner med kontakter](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Visning og administration af registrerede interaktioner

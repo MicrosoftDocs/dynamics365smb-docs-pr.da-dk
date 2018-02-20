@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 433526fbd2a13f32e64be94cc1936151445c19f5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38b6ce01e48f1b32c28b1883875a566d19f02ea3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cost-centers"></a>Sådan opsættes omkostningssteder
+# <a name="set-up-cost-centers"></a>Oprette omkostningssteder
 Omkostningssteder er afdelinger, der er ansvarlige for omkostninger og indtægter. Diagrammet over omkostningssteder er lig dimensionsoplysningerne for regnskabet. Du kan angive diagrammet over omkostningssteder på følgende måder:  
 
 -   Overfør dimensionsværdier i regnskabet til diagrammet over omkostningssteder. Du kan foretage de nødvendige justeringer efter overførslen.  

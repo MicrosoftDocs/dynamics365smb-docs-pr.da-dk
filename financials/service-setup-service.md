@@ -13,10 +13,10 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7eac962e0c9863d8c6ed9bcff19f320687f217ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -31,18 +31,18 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
   
 | Til | Se |
 | --- | --- |
-| Definere koder, der automatisk tildeler linjer i servicedokumenter for tjenester, du leverer ofte. |[Fremgangsmåde: Definere koder for standardservices](service-how-setup-service-coding.md)|
-| Oprette generelle indstillinger, der styrer aspekter af Service-processer.|[Fremgangsmåde: Konfigurere serviceprocesser](service-setup-service-processes.md)|
-| Definere, hvordan virksomheden håndterer fejlrapportering. |[Fremgangsmåde: Definere fejlrapportering](service-how-setup-fault-reporting.md) |
-| Opret de servicetilbud, som din virksomhed leverer til kunder.|[Fremgangsmåde: Definere servicetilbud](service-how-setup-service-offerings.md)|
-| Give adgang til retningslinjer for fejlfinding, som hjælper servicerepræsentanter med at levere hurtigere service. |[Sådan gør du: Definere fejlfinding](service-how-setup-troubleshooting.md) |
-| Oprette ressourceallokering, som gør det nemt at tildele den rigtige ressource til en serviceopgave. |[Fremgangsmåde: Definere ressourceallokering](service-how-setup-resource-allocation.md) |
-| Definere prissætning for services og oprette yderligere serviceomkostninger til vurdering på serviceordrer. |[Fremgangsmåde: Konfigurere prissætning og ekstra omkostninger for services](service-how-setup-service-costs-pricing.md)|
-| Konfigurer tingene, så du kan spore ressourcetimer og serviceordrestatus med det formål at kunne estimere arbejdsbelastning og servicebehov.|[Sådan gør du: Definere arbejdstimer og serviceåbningstider](service-how-setup-work-service-hours.md)|
-| Angiv indstillinger for reparationsstatus, så du kan overvåge status for reparationer. | [Fremgangsmåde: Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)|
-| Oprette et udlånsprogram, så du kan låne en erstatning, mens du arbejder på en serviceartikel. |[Fremgangsmåde: Oprette et udlånsprogram](service-how-setup-loaner-program.md) |
-| Konfigurere serviceartikler og serviceartikelkomponenter. |[Sådan gør du: Definere serviceartikler](service-how-setup-service-items.md) |
-| Skab grundlaget for oprettelse af servicekontrakter og kontrakttilbud. |[Sådan gør du: Definere servicekontrakter](service-how-setup-service-contracts.md) |
+| Definere koder, der automatisk tildeler linjer i servicedokumenter for tjenester, du leverer ofte. |[Definere koder for standardservices](service-how-setup-service-coding.md)|
+| Oprette generelle indstillinger, der styrer aspekter af Service-processer.|[Konfigurere serviceprocesser](service-setup-service-processes.md)|
+| Definere, hvordan virksomheden håndterer fejlrapportering. |[Konfigurere fejlrapportering](service-how-setup-fault-reporting.md) |
+| Opret de servicetilbud, som din virksomhed leverer til kunder.|[Opsætte servicetilbud](service-how-setup-service-offerings.md)|
+| Give adgang til retningslinjer for fejlfinding, som hjælper servicerepræsentanter med at levere hurtigere service. |[Konfigurere fejlfinding](service-how-setup-troubleshooting.md) |
+| Oprette ressourceallokering, som gør det nemt at tildele den rigtige ressource til en serviceopgave. |[Opsætte ressourceallokering](service-how-setup-resource-allocation.md) |
+| Definere prissætning for services og oprette yderligere serviceomkostninger til vurdering på serviceordrer. |[Konfigurere prissætning og ekstra omkostninger for services](service-how-setup-service-costs-pricing.md)|
+| Konfigurer tingene, så du kan spore ressourcetimer og serviceordrestatus med det formål at kunne estimere arbejdsbelastning og servicebehov.|[Konfigurere arbejdstimer og serviceåbningstider](service-how-setup-work-service-hours.md)|
+| Angiv indstillinger for reparationsstatus, så du kan overvåge status for reparationer. | [Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)|
+| Oprette et udlånsprogram, så du kan låne en erstatning, mens du arbejder på en serviceartikel. |[Oprette et udlånsprogram](service-how-setup-loaner-program.md) |
+| Konfigurere serviceartikler og serviceartikelkomponenter. |[Opsætte serviceartikler](service-how-setup-service-items.md) |
+| Skab grundlaget for oprettelse af servicekontrakter og kontrakttilbud. |[Opsætte servicekontrakter](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Se også
 [Service Management](service-service.md)  

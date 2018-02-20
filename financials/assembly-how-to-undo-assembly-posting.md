@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c6d15f43e2a308dc8107e7a58e64f4b98452b1db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac292561a5777b760fd8e857d28085af36201e3e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-undo-assembly-posting"></a>Fremgangsmåde: Fortryde bogføring af montage
+# <a name="undo-assembly-posting"></a>Fortryde bogføring af montage
 Nogle gange kan du fortryde en bogført montageordre, for eksempel, når ordren er bogført med fejl, der skal rettes, eller ikke skulle være bogført i første omgang, og den skal annulleres.
 
 Når du fortryder en bogført montageordre, oprettes der et sæt korrigerende vareposter til at tilbageføre de oprindelige poster. Hver positive afgangspost for montageelementet tilbageføres af en negativ afgangspost. Hver negative forbrugspost for en montagekomponent tilbageføres af en positiv forbrugspost. Fast omkostningsanvendelse oprettes automatisk mellem korrigerende og oprindelige poster for at sikre præcis kostprisudligning.  
@@ -39,7 +39,7 @@ Eksisterende montageordrer kan desuden kun gendannes, hvis antallet af linjer og
 > [!TIP]  
 >  Hvis du vil løse konflikter som følge af linjeændringer, kan du manuelt tilbageføre ændringerne på de pågældende linjer, før du fortryder den relaterede bogførte montageordre. Du kan også bogføre montageordren fuldstændigt og derefter vælge at oprette den igen, når du annullerer bogføringen.  
 
-Følgende procedure beskriver, hvordan du fortryder bogførte montageordrer, hvor der var tale om montage til lager-varer. Hvis du vil fortryde bogførte montageordrer, hvor der var tale om montage efter salgsordre-varer, skal du bruge funktionen **Annuller leverance** på den bogførte leverance, der er relateret til den bogførte montageordre. Du kan finde flere oplysninger i [Sådan tilbageføres poster](finance-how-reverse-journal-posting.md). Tilbageførslen af den bogførte montageordre sker så automatisk på samme måde som beskrevet i dette emne.  
+Følgende procedure beskriver, hvordan du fortryder bogførte montageordrer, hvor der var tale om montage til lager-varer. Hvis du vil fortryde bogførte montageordrer, hvor der var tale om montage efter salgsordre-varer, skal du bruge funktionen **Annuller leverance** på den bogførte leverance, der er relateret til den bogførte montageordre. Du kan finde flere oplysninger i [Tilbageføre poster](finance-how-reverse-journal-posting.md). Tilbageførslen af den bogførte montageordre sker så automatisk på samme måde som beskrevet i dette emne.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Sådan fortrydes bogføring af en montageordre  
 1.  For at fortryde en helt eller delvist bogført montageordre skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Bogførte montageordrer** og vælge det relaterede link.  
@@ -57,9 +57,9 @@ Feltet **Tilbageført** på montageordrehovedet ændres til **Ja**. Montageordre
 
 ## <a name="see-also"></a>Se også  
 [Montagestyring](assembly-assemble-items.md)  
-[Sådan tilbageføres poster](finance-how-reverse-journal-posting.md)  
-[Fremgangsmåde: Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md)    
-[Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md)  
+[Tilbageføre poster](finance-how-reverse-journal-posting.md)  
+[Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md)    
+[Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

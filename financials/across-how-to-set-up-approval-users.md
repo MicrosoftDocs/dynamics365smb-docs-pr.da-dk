@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 49ffa181e653377f3684d138b6ee7df3775a87f6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 708945a547f22bd132ea3c3b9529a4d05e63737d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-approval-users"></a>Fremgangsmåde: Konfigurere godkendelsesbrugere
+# <a name="set-up-approval-users"></a>Konfigurere godkendelsesbrugere
 Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive workflowbrugere, der er involveret i godkendelsesprocessen. I feltet **Konfiguration af godkendelsesbruger** skal du også angive beløbsgrænser for bestemte typer anmodninger og angive stedfortrædende godkendere, som godkendelsesanmodninger skal uddelegeres til, når den oprindelige godkender er fraværende.  
 
 > [!NOTE]  
->  Godkendelsesbrugerne, dvs. både godkendelsesanmodere og godkendere, skal først konfigureres som workflowbrugere i vinduet **Brugergruppe for workflow**. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md).  
+>  Godkendelsesbrugerne, dvs. både godkendelsesanmodere og godkendere, skal først konfigureres som workflowbrugere i vinduet **Brugergruppe for workflow**. Der er flere oplysninger i [Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md).  
 
- Når du har angivet godkendelsesbrugere, kan du bruge opsætningen til at oprette arbejdsgangssvar for godkendelsesarbejdsgange. Du kan finde flere oplysninger i trin 9 i [Fremgangsmåde: Oprette arbejdsgange](across-how-to-create-workflows.md).  
+ Når du har angivet godkendelsesbrugere, kan du bruge opsætningen til at oprette arbejdsgangssvar for godkendelsesarbejdsgange. Du kan finde flere oplysninger i trin 9 i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
 
 > [!NOTE]  
->  Hvis du vil angive, at en godkendelsesanmodning ikke er godkendt, før flere godkendere i en godkendelseskæde har godkendt den, skal du konfigurere godkendere i et hierarki. For godkendertypen **Godkender** skal du konfigurere godkendere i vinduet **Konfiguration af godkendelsesbruger**. For godkendertypen **Brugergruppe for workflow** skal du konfigurere godkendere i vinduet **Brugergrupper for workflow** og definere hierarkiet ved at tildele trinvise tal til hver enkelt godkender i feltet **Rækkefølgenr.**. . Du kan finde flere oplysninger i dette emne og i [Fremgangsmåde: Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md).  
+>  Hvis du vil angive, at en godkendelsesanmodning ikke er godkendt, før flere godkendere i en godkendelseskæde har godkendt den, skal du konfigurere godkendere i et hierarki. For godkendertypen **Godkender** skal du konfigurere godkendere i vinduet **Konfiguration af godkendelsesbruger**. For godkendertypen **Brugergruppe for workflow** skal du konfigurere godkendere i vinduet **Brugergrupper for workflow** og definere hierarkiet ved at tildele trinvise tal til hver enkelt godkender i feltet **Rækkefølgenr.**. . Du kan finde flere oplysninger i dette emne og i [Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md).  
 >   
->  Hvis du vil angive, at en godkendelsesanmodning ikke er godkendt, før flere lige godkendere har godkendt den, uanset et hierarki, skal du oprette en simpel brugergruppe til en arbejdsgang. For godkendertypen **Brugergruppe for workflow** skal du konfigurere godkendere i vinduet **Brugergrupper for workflow** og tildele det samme nummer til hver godkender feltet **Rækkefølgenr.**. . Du kan finde flere oplysninger i [Fremgangsmåde: Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md).  
+>  Hvis du vil angive, at en godkendelsesanmodning ikke er godkendt, før flere lige godkendere har godkendt den, uanset et hierarki, skal du oprette en simpel brugergruppe til en arbejdsgang. For godkendertypen **Brugergruppe for workflow** skal du konfigurere godkendere i vinduet **Brugergrupper for workflow** og tildele det samme nummer til hver godkender feltet **Rækkefølgenr.**. . Der er flere oplysninger i [Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md).  
 
 ## <a name="to-set-up-an-approval-user"></a>Sådan konfigureres en godkendelsesbruger  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
@@ -47,7 +47,7 @@ Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive wor
     |**Ubegrænset indkøbsgodkendelse**|Angiv, at brugeren i feltet **Bruger-id** kan godkende alle købsanmodninger uanset deres beløb.<br /><br /> Hvis du markerer dette afkrydsningsfelt, kan du ikke udfylde feltet **Godkendelsesgrænse for salgsbeløb**.|  
     |**Godkendelsesgrænse for anmodet beløb**|Angiv det maksimale beløb i RV, som brugeren i feltet **Bruger-id** kan godkende for købsrekvisitioner.<br /><br /> Hvis du vil bruge dette felt, skal du vælge indstillingen **Godkenderkæde** i feltet **Godkenders grænsetype** i vinduet **Workflowrespons**.|  
     |**Ubegrænset anmodningsgodkendelse**|Angiv, at brugeren i feltet **Bruger-id** kan godkende alle købsrekvisitioner uanset deres beløb.<br /><br /> Hvis du markerer dette afkrydsningsfelt, kan du ikke udfylde feltet **Godkendelsesgrænse for anmodet beløb**.|  
-    |**Stedfortræder**|Vælg bruger-id'et for den bruger, der skal godkende anmodninger fra brugeren, i feltet **Bruger-id**, hvis brugeren i **Godkender-id** ikke er tilgængelig. **Bemærk:** Stedfortræderen kan enten være brugeren i feltet **Stedfortræder**, den direkte godkender eller godkendelsesadministratoren, i nævnte rækkefølge. Du kan finde flere oplysninger under [Fremgangsmåde: Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).|  
+    |**Stedfortræder**|Vælg bruger-id'et for den bruger, der skal godkende anmodninger fra brugeren, i feltet **Bruger-id**, hvis brugeren i **Godkender-id** ikke er tilgængelig. **Bemærk:** Stedfortræderen kan enten være brugeren i feltet **Stedfortræder**, den direkte godkender eller godkendelsesadministratoren, i nævnte rækkefølge. Du kan finde flere oplysninger under [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).|  
     |**Mailadresse**|Angiv mailadressen for brugeren i feltet **Bruger-id**.|  
     |**Godkendelsesadministrator**|Angiv den bruger, der har tilladelse til at genåbne godkendelsesarbejdsgange, f.eks. ved at uddelegere godkendelsesanmodninger til nye stedfortrædende godkendere og slette forfaldne godkendelsesanmodninger.|  
 
@@ -58,9 +58,9 @@ Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive wor
 4. Gentag trin 2 og 3 for hver bruger, du vil angive som en godkendelsesbruger.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md)   
+[Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md)   
 [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)   
-[Fremgangsmåde: Oprette arbejdsgange](across-how-to-create-workflows.md)   
+[Oprette arbejdsgange](across-how-to-create-workflows.md)   
 [Opsætte workflows](across-set-up-workflows.md)   
 [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Workflow](across-workflow.md)   

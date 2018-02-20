@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b03209b5681c264f7d788d3d731d32b60f1709b6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ecdcd1c87d267e19047be5424e1c07e832316a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reserve-items"></a>Sådan reserverer du varer
+# <a name="reserve-items"></a>Reservere varer
 Du kan reservere varer til salgsordrer, købsordrer, serviceordrer, montageordrer og produktionsordrer. Du kan reservere lagervarer eller indgående varer på åbne dokumentlinjer eller kladdelinjer. Du kan udføre arbejdet i vinduet **Reservation**.
 
 Hver linje i vinduet **Reservation**, som du åbner for at reservere varer, indeholder oplysninger om én type linje (salg, køb, kladde) eller lagerpost. Linjerne beskriver, hvor mange varer, der er tilgængelige for reservation fra hver linje eller post.
@@ -81,14 +81,14 @@ Du kan have brug for at ændre eller annullere en varereservation.
 4.  Bekræft den efterfølgende meddelelse ved at vælge knappen **OK**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Sådan reserveres et bestemt serienummer eller lotnummer  
-Fra udgående dokumenter for varer med varesporing, f.eks. salgsordrer eller produktionskomponentlister, kan du reservere bestemte serie- eller lotnumre. Dette kan være relevant, hvis du f.eks. skal bruge produktionskomponenter fra en bestemt lot for at sikre sammenhæng med tidligere produktionskørsler, eller fordi en debitor har anmodet om et bestemt serienummer. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+Fra udgående dokumenter for varer med varesporing, f.eks. salgsordrer eller produktionskomponentlister, kan du reservere bestemte serie- eller lotnumre. Dette kan være relevant, hvis du f.eks. skal bruge produktionskomponenter fra en bestemt lot for at sikre sammenhæng med tidligere produktionskørsler, eller fordi en debitor har anmodet om et bestemt serienummer. Du kan finde flere oplysninger under [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 
 Dette kaldes en bestemt reservation, fordi du reserverer fra antallet af varen X, som tilhører partiet X. Hvis du blot reserverer fra mængder af varen X, er det en normal, ikke-specifik reservation. Hvis du ønsker yderligere oplysninger, kan du se [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md).
 
 Følgende procedure er baseret på en salgsordre.    
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Opret en salgsordrelinje til en vare med varesporing.  
-3. Tildel serie- og lotnumre til salgsordrelinjen. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+3. Tildel serie- og lotnumre til salgsordrelinjen. Du kan finde flere oplysninger under [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 4. På salgsordrelinjen skal du vælge handlingen **Reserver**.  
 5. Vælg knappen **Ja** for at reservere bestemte serie- eller lotnumre.  
 6. I vinduet **Varesporingsliste** skal du vælge den kombination af serienummer og lotnummer, du lige har tildelt.  
@@ -99,6 +99,6 @@ Følgende procedure er baseret på en salgsordre.
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
-[Fremgangsmåde: Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
+[Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

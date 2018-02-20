@@ -13,13 +13,13 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 988a13b7e558a50fdf41c4ba97b9fa09ed04828a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-adjust-item-costs"></a>Fremgangsmåde: Regulere varepriser
+# <a name="adjust-item-costs"></a>Regulere varepriser
 Kostprisen for en vare (lagerværdi), du køber og senere sælger, kan ændres i varens levetid, fordi f.eks. en fragtomkostning føjes til købsprisen, når du har solgt varen. Omkostningsregulering er især relevant i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Hvis du altid vil kende den korrekte lagerværdi, skal varepriser regelmæssigt reguleres. Dette sikrer, at salgs- og indtjeningsstatistikkerne er opdateret, og at finansielle nøgletal er korrekte. Du kan finde flere oplysninger i [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md).
 
 Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardkostprisen for varer, der følger standardkostmetoden. For varer, der følger andre kostmetoder, baseres værdien på en beregning af lagerbeholdningen (fakturerede kostpriser og forventede kostpriser) divideret med varebeholdningen. Der er flere oplysninger i afsnittet "Om kostværdi pr. enhed".
@@ -28,7 +28,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] reguleres varepriser automatisk, h
 
 Du kan også bruge en funktion til at regulere omkostningerne for en eller flere varer manuelt. Dette er nyttigt, når du f.eks. ved, at varepriser er ændret af andre årsager end varetransaktioner.
 
-Varepriser reguleres efter FIFO eller den gennemsnitlige kostmetode, afhængigt af dit valg i den assisterede opsætning **Konfigurer min virksomhed** eller i feltet **Kostmetode** på varekortet. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).  
+Varepriser reguleres efter FIFO eller den gennemsnitlige kostmetode, afhængigt af dit valg i den assisterede opsætning **Konfigurer min virksomhed** eller i feltet **Kostmetode** på varekortet. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
 
 Hvis du bruger kostmetoden FIFO, er en vares kostpris er den faktiske værdi af alle modtagelser af varen. Lager vurderes ud fra den forudsætning, at de første varer, der lægges på lager, bliver solgt først.
 
@@ -63,7 +63,7 @@ Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardk
  Det, du vælger i feltet **Kostmetode**, har indflydelse på, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner indholdet i felterne **Kostpris** på linjerne.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Kostmetoden FIFO, LIFO, Serienummer eller Gennemsnit  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner indholdet af feltet **Kostpris RV** på købslinjen og indholdet af feltet **Kostpris** på serviceartikelkladdelinjen beregnes efter følgende formel:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] Programmet beregner indholdet af feltet **Kostpris RV** på købslinjen, og indholdet af feltet **Kostpris** på varekladdelinjen beregnes efter følgende formel:  
 
  Kostpris (RV) = (Direkte kostpris - (Fakturarabatbeløb/Antal)) x (1 + Omkostningspct./100) + IPO-bidrag  
 

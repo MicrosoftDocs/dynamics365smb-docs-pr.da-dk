@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e5ac1c791b10c26a3cecd20711e7899bb7eaee3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bc323e4dac1b62802e999e2780352634e25e482d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# Sådan oprettes lagervarer
+# <a name="set-up-stockkeeping-units"></a>Opsætte lagervarer
 Du kan bruge lagervarer til at registrere oplysninger om dine varer på en bestemt lokation eller med en bestemt variantkode.  
 
  Lagervarer er et supplement til varekortene. De erstatter dem ikke, selvom de er relateret til dem. Med lagervarer kan du udskille oplysningerne om den samme vare, så de kun vedrører en bestemt lokation, f.eks. et lager eller distributionscenter, eller en bestemt variant, f.eks. forskellige hyldenumre og forskellige genbestillingsdata.  
 
-## Sådan opsættes en lagervare  
+## <a name="to-set-up-a-stockkeeping-unit"></a>Sådan opsættes en lagervare  
 
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagervarer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
@@ -37,8 +37,8 @@ Brug kørslen **Opret lagervare**, hvis du vil oprette flere lagerførte varer.
 > [!NOTE]  
 >  Oplysningerne på **lagervarekortet** tilsidesætter oplysningerne på **varekortet**.  
 
-## Se også  
-[Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md)  
+## <a name="see-also"></a>Se også  
+[Registrere nye varer](inventory-how-register-new-items.md)  
 [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

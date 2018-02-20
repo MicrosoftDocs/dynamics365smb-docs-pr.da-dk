@@ -1,6 +1,6 @@
 ---
 title: "Sådan arbejder du med ansvarscentre | Microsoft Docs"
-description: "Ansvarscentre gør det muligt at håndtere administrative centre. Et ansvarscenter kan være et kostcenter, et resultatcenter eller et investeringscenter eller et andet administrativt center, der er defineret i firmaet."
+description: "Ansvarscentre gør det muligt at håndtere administrative centre. Et ansvarscenter kan være et kostcenter, et overskudscenter eller et investeringscenter eller et andet administrativt center, der er defineret i firmaet."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ed7d44650d174b1ce3b7a1140e251858512f5e13
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b1a8eb26783b7e93e9afe04b13298972af83175d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-responsibility-centers"></a>Fremgangsmåde: Arbejde med ansvarscentre
+# <a name="work-with-responsibility-centers"></a>Arbejde med ansvarscentre
 Ansvarscentre gør det muligt at håndtere administrative centre. Et ansvarscenter kan være et kostcenter, et resultatcenter eller et investeringscenter eller et andet administrativt center, der er defineret i firmaet. Eksempler på ansvarscentre er et salgskontor, en indkøbsafdeling for flere lokationer og et kontor for anlægsplanlægning. Ved hjælp af disse funktioner kan firmaer f.eks. oprette brugerspecifikke visninger af salgs- og købsdokumenter, der udelukkende er relateret til et bestemt ansvarscenter.  
 
 Det kan være svært at holde styr på alle aktiviteter i en virksomhed, men driften kan styres både fleksibelt og optimalt med funktionerne til flere lokationer og ansvarscentre.

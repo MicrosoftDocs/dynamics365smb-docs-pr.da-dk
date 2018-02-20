@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 6b45f26f4e9ef63d0bdb6cfe755c0e7a45142483
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designoplysninger: Afstemning med Finans
@@ -117,7 +117,7 @@ Følgende tabel viser, hvordan arbejdscenteret er angivet på arbejdscenterkorte
 
     ![Resultaterne af bogføring af justeringer på finanskonti](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
 
-Du kan finde flere oplysninger om forholdet mellem kontotyperne og de forskellige typer værdiposter i [Designoplysninger: Kontoer i Finans](design-details-accounts-in-the-general-ledger.md).  
+Du kan finde flere oplysninger om forholdet mellem kontotyperne og de forskellige typer værdiposter i [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   

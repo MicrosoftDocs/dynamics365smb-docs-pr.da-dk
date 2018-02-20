@@ -1,6 +1,6 @@
 ---
 title: "Oprette interaktioner for kontakter og målgrupper | Microsoft Docs"
-description: Beskriver, hvordan du kan oprette interaktioner for kommunikation, som du har med kontakter og segmenter i Dynamics 365, f.eks. direct mail.
+description: "Beskriver, hvordan du kan oprette interaktioner for kommunikation, som du har med kontakter og målgrupper i Finance and Operations, Business edition, f.eks. direct mail."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-interactions-on-contacts-and-segments"></a>Fremgangsmåde: Oprette interaktioner for kontakter og målgrupper
+# <a name="create-interactions-on-contacts-and-segments"></a>Oprette interaktioner for kontakter og målgrupper
 Du kan oprette interaktioner for at registrere al interaktion og kommunikation, som du har med kontakter og målgrupper, f.eks. direct mail.
 
 Du kan først oprette interaktioner, når du har defineret interaktionsskabeloner. Du kan finde flere oplysninger i [Definere interaktionsskabeloner](marketing-interactions.md).
@@ -54,5 +54,5 @@ Hvis du har markeret afkrydsningsfeltet **Opret opfølgningsmålgruppe**, oprett
 [Administrere kontakter](marketing-contacts.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Opsætning af Relationsstyring](marketing-setup-marketing.md)  
-[Arbejde med Dynamics 365](ui-work-product.md)
+[Arbejde med Finance and Operations, Business edition](ui-work-product.md)
 

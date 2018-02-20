@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 9bc177d45efa1e6e772ed70cc66de393e6250def
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-inventory-posting"></a>Designoplysninger: Varekladde
@@ -77,11 +77,11 @@ For hver lagertransaktion, f.eks. en købsleverance eller en salgsleverance, bog
 
 |Løbenr.|Vareløbenr.|Indgående vareløbenr.|Udgående vareløbenr.|Antal|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
-|2|2|0|2|-10|  
+|2|2|1|2|-10|  
 
  I slutningen af regnskabsperioden skal du udføre kørslen **Bogfør lagerregulering** for at afstemme disse lagertransaktioner i Finans.  
 
- Du kan finde flere oplysninger i [Designoplysninger: Kontoer i Finans](design-details-accounts-in-the-general-ledger.md).  
+ Du kan finde flere oplysninger i [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
  Følgende tabeller viser resultatet af afstemning af lagertransaktioner i dette eksempel med finans.  
 
@@ -129,7 +129,7 @@ Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre]
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
- [Designoplysninger: Kontoer i Finans](design-details-accounts-in-the-general-ledger.md)   
+ [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)   
  [Designoplysninger: Omkostningskomponenter](design-details-cost-components.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

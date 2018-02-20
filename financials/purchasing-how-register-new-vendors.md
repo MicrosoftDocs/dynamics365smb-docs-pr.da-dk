@@ -13,18 +13,18 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 82089770524e6fb6614f86cada7c5792bedf162f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 73d23013c97189caf5c75f561896b965dfb64837
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-vendors"></a>Fremgangsmåde: Registrere nye kreditorer
+# <a name="register-new-vendors"></a>Registrere nye kreditorer
 Kreditorer leverer de produkter, du sælger. Hver kreditor, som du køber fra, skal registreres som et kreditorkort.
 
 Før du kan registrere nye kreditorer, skal du oprette forskellige købskoder, som du kan vælge mellem, når du udfylder kreditorkort. Når alle de obligatoriske stamoplysninger er oprettet, skan du udføre yderligere konfiguration af kreditoren, f.eks. prioritere kreditoren i forbindelse med betaling og få vist de varer, som kreditoren og andre kreditorer kan levere. En anden gruppe opsætningsopgaver for kreditorer er at registrere aftaler vedrørende rabatter, priser og betalingsmetoder. Du kan finde flere oplysninger under [Opsætning af indkøb](purchasing-setup-purchasing.md).
 
-Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe produkter fra kreditoren. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md) og [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).
+Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe produkter fra kreditoren. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md) og [Registrere nye varer](inventory-how-register-new-items.md).
 
 > [!NOTE]  
 >   Hvis der er kreditorskabeloner til forskellige kreditortyper, vises der automatisk et vindue, når du opretter et nyt kreditorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én kreditorskabelon, bruger nye kreditorkort altid denne skabelon.
@@ -55,6 +55,6 @@ Hvis du vil bruge dette kreditorkort som skabelon, når du opretter nye kreditor
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
-[Fremgangsmåde: Registrere køb](purchasing-how-record-purchases.md)   
+[Registrere køb](purchasing-how-record-purchases.md)   
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

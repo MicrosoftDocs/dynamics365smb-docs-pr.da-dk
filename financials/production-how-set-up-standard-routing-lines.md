@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 78170bd2bf64b110d5346855d5592837abf2b73e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-standard-routing-lines"></a>Fremgangsmåde: Konfigurere standardrutelinjer
+# <a name="set-up-standard-routing-lines"></a>Konfigurere standardrutelinjer
 Brugen af standardoperationer forenkler oprettelse og vedligeholdelse af ruter. De giver dig mulighed for hurtigt at tilknytte ekstra oplysninger til gentagne operationer.
 
 ## <a name="to-set-up-a-standard-task"></a>Sådan defineres en standardopgave
@@ -35,8 +35,8 @@ Brugen af standardoperationer forenkler oprettelse og vedligeholdelse af ruter. 
 3. Vælg en relevante rutelinje, vælg handlingen **Operationer**, og vælg derefter en af handlingerne **Værktøjer**, **Medarbejdere**, **Beskrivelse**, eller **Værktøjer**.
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Oprette ruter](production-how-to-create-routings.md)  
-[Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-production-boms.md)     
+[Oprette ruter](production-how-to-create-routings.md)  
+[Oprette produktionsstyklister](production-how-to-create-production-boms.md)     
 [Konfigurere produktion](production-configure-production-processes.md)   
 [Produktion](production-manage-manufacturing.md)    
 [Planlægning](production-planning.md)   

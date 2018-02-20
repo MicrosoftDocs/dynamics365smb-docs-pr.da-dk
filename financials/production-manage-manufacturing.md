@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: e27ceb91b25669a31d95256385cb7e5acd9160bd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8fa54f5a4c5d2341485c0ebd290c7c683d37df9b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manufacturing"></a>Produktion
@@ -33,14 +33,14 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
 |Forstå, hvordan produktionsordrer fungerer.|[Om produktionsordrer](production-about-production-orders.md)|
-|Opret produktionsordrer manuelt.|[Fremgangsmåde: Oprette produktionsordrer](production-how-to-create-production-orders.md)|
-|Outsource alle eller udvalgte operationer i en produktionsordre til en underleverandør.|[Fremgangsmåde: Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|
-|Registrere og bogføre produktionsoutput sammen med materiale- og tidsforbrug for en enkelt frigivet produktionsordrelinje.|[Fremgangsmåde: Bogføre forbrug og afgang for én frigivet produktionsordrelinje](production-how-to-register-consumption-and-output.md)|  
-|Massebogfør antallet af komponenter, der anvendes pr. operation i en kladde, der kan behandle flere planlagte produktionsordrer.|[Fremgangsmåde: Massebogføre forbrug](production-how-to-post-consumption.md)|
-|Bogfør antallet af færdige varer og tidsforbruget pr. operation i en kladde, der kan behandle flere frigivne produktionsordrer.|[Fremgangsmåde: Massebogføre afgang og operationstider](production-how-to-post-output-quantity.md)|  
-|Bogføre antallet af varer, der er fremstillet i hver enkelt færdiggjort operation, som ikke er kvalificeret som færdigt output men som spildmateriale.|[Fremgangsmåde: Bogføre spild](production-how-to-post-scrap.md)|
-|Få vist belastningen for produktionen som følge af planlagte og frigivne produktionsordrer.|[Fremgangsmåde: Vise belastningen på arbejdscentre og produktionsressourcer](production-how-to-view-the-load-on-work-centers.md)|      
-|Bruge vinduet **Kapacitetskladde** til at bogføre forbrugt kapacitet, der ikke er tilknyttet en produktionsordre, f.eks. vedligeholdelsesarbejde.|[Fremgangsmåde: Bogføre kapaciteter](production-how-to-post-capacities.md)|  
+|Opret produktionsordrer manuelt.|[Oprette produktionsordrer](production-how-to-create-production-orders.md)|
+|Outsource alle eller udvalgte operationer i en produktionsordre til en underleverandør.|[Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|
+|Registrere og bogføre produktionsoutput sammen med materiale- og tidsforbrug for en enkelt frigivet produktionsordrelinje.|[Bogføre forbrug og afgang for den frigivne produktionsordrelinje](production-how-to-register-consumption-and-output.md)|  
+|Massebogfør antallet af komponenter, der anvendes pr. operation i en kladde, der kan behandle flere planlagte produktionsordrer.|[Massebogføre forbrug](production-how-to-post-consumption.md)|
+|Bogfør antallet af færdige varer og tidsforbruget pr. operation i en kladde, der kan behandle flere frigivne produktionsordrer.|[Massebogføre afgang og operationstider](production-how-to-post-output-quantity.md)|  
+|Bogføre antallet af varer, der er fremstillet i hver enkelt færdiggjort operation, som ikke er kvalificeret som færdigt output men som spildmateriale.|[Bogføre spild](production-how-to-post-scrap.md)|
+|Få vist belastningen for produktionen som følge af planlagte og frigivne produktionsordrer.|[Vise belastningen på arbejdscentre og produktionsressourcer](production-how-to-view-the-load-on-work-centers.md)|      
+|Bruge vinduet **Kapacitetskladde** til at bogføre forbrugt kapacitet, der ikke er tilknyttet en produktionsordre, f.eks. vedligeholdelsesarbejde.|[Bogføre kapaciteter](production-how-to-post-capacities.md)|  
 |Beregne og justere prisen på færdigproducerede varer og forbrugte komponenter til økonomisk afstemning.|[Om de færdige produktionsomkostninger](finance-about-finished-production-order-costs.md)|  
 
 ## <a name="see-also"></a>Se også  
@@ -49,4 +49,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

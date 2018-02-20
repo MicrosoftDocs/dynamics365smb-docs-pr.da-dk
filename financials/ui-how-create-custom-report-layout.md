@@ -13,13 +13,13 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 14c2e5340c64e2b302a0bb04c54911888e995136
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 43cb04b4852e305926550b55af8d10ccbf71bd4e
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Fremgangsmåde: Oprette og ændre et brugerdefineret rapport- eller dokumentlayout
+# <a name="create-and-modify-a-custom-report-or-document-layout"></a>Oprette og ændre et brugerdefineret rapport- eller dokumentlayout
 Som standard har en rapport et indbygget rapportlayout, som enten kan være et RDLC-rapportlayout eller Word-rapportlayout eller begge typer. Du kan ikke ændre indbyggede layout. Du kan dog oprette dine egne brugerdefinerede layout, der gør det muligt at ændre udseendet af rapporten, når den vises, udskrives eller gemmes. Du kan oprette flere brugerdefinerede rapportlayout til samme rapport og derefter skifte det layout, der bruges af en rapport, efter behov.
 
 > [!NOTE]  
@@ -89,13 +89,13 @@ Hvis du designer et Word-rapportlayout fra bunden eller tilføjer nye datafelter
 2.  Slet den resterende tekst efter behov.  
 
 ### <a name="adding-data-fields"></a>Tilføje datafelter
-Tilføjelse af datafelter fra en rapports datasæt er mere avanceret og kræver kendskab til rapportdatasættet. Du kan finde oplysninger om tilføjelse af felter til data, etiketter, data og billeder i [Fremgangsmåde: Føje felter til et Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
+Tilføjelse af datafelter fra en rapports datasæt er mere avanceret og kræver kendskab til rapportdatasættet. Du kan finde oplysninger om tilføjelse af felter til data, etiketter, data og billeder i [Føje felter til et Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
 
 
 ## <a name="see-also"></a>Se også
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
-[Fremgangsmåde: Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md)  
-[Fremgangsmåde: Importere og eksportere et brugerdefineret rapport- eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
+[Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md)  
+[Importere og eksportere et brugerdefineret rapport- eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
 [Arbejde med rapporter](ui-work-report.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

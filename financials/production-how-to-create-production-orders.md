@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c792dbb7d7261e8f8b89ca4f3d39d875142c4eb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3ffbe781830a492256be864bace38bbef3050596
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-order-headers"></a>Sådan oprettes produktionsordrehoveder
+# <a name="create-production-order-headers"></a>Oprette produktionsordrehoveder
 Du kan oprette en produktionsordre manuelt, og det første trin i denne procedure er at oprette et produktionsordrehoved.
 
 Produktionsordrer oprettes typisk automatisk af en planlægningsfunktion til opfyldning af et kendt behov. Du kan finde flere oplysninger i [Planlægning](production-planning.md).   
@@ -32,11 +32,11 @@ I proceduren nedenfor oprettes en fastlagt produktionsordre. Du kan også oprett
 3.  I feltet **Nummer** skal du indsætte næste nummer i serien.  
 4.  Marker kilden til produktionsordren i feltet **Kildetype**.
 
-    Her kan du vælge at oprette til en familie af varer. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med produktionsfamilier](production-how-work-family.md).
+    Her kan du vælge at oprette til en familie af varer. Du kan finde flere oplysninger under [Arbejde med produktionsfamilier](production-how-work-family.md).
 5.  Marker varenummer, familie eller salgshoved, som produktionsordren genereres for, i feltet **Kildenr.**.  
 6.  Udfyld felterne **Antal** og **Forfaldsdato** i overensstemmelse med dine specifikationer.  
 
-Når du ændrer produktionskravene, f.eks. komponenter og operationer, kan du hurtigt omplanlægge produktionsordren. Du kan finde flere oplysninger i [Fremgangsmåde: Omplanlæg eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md). 
+Når du ændrer produktionskravene, f.eks. komponenter og operationer, kan du hurtigt omplanlægge produktionsordren. Du kan finde flere oplysninger i [Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md). 
 
 ## <a name="see-also"></a>Se også  
 [Produktion](production-manage-manufacturing.md)    

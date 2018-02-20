@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
-ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 412050e3fd1da21421e0752be6367fa0ead8d636
 ms.contentlocale: da-dk
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-run-full-planning-mps-or-mrp"></a>Fremgangsmåde: Køre fuld planlægning, MPS eller MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Køre fuld planlægning, MPS eller MRP
 At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hovedproduktionsplanen (MPS) på basis af eksisterende og forventet efterspørgsel. Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning – materialebehovsplanlægning) efter anmodning, eller begge dele kan beregnes på én gang.  
 
 -   MPS defineres som beregning af en hovedplan på basis af et faktisk behov og produktionsforecast. MPS-beregningen bruges til slutvarer, der har en forecast- eller en salgsordrelinje. Disse varer kaldes MPS-varer og identificeres dynamisk, når beregningen begynder.  
@@ -27,7 +27,7 @@ At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hov
 
 Der bruges de samme planlægningsalgoritmer til både MPS og MRP. Planlægningsalgoritmerne omhandler modregning, genbrug af eksisterende genbestillingsordrer og aktionsmeddelelser. Under planlægningen tages der højde for, hvad der er brug for, eller hvad der vil blive brug for (efterspørgsel), og hvad der allerede er på lager eller forventes at være på lager (udbud). Når disse antal sammenholdes og modregnes, giver [!INCLUDE[d365fin](includes/d365fin_md.md)] aktionsmeddelelser. Aktionsmeddelelser er forslag til oprettelse af en ny ordre, ændring af en ordre (antal eller dato) eller annullering af en allerede bestilt ordre. Betegnelsen "ordre" omfatter indkøbsordrer, montageordrer, produktionsordrer og overflytningsordrer.
 
-Links, der er oprettet af planlægningssystemet mellem behov og den relaterede levering, kan spores i vinduet **Ordresporing**. Du kan finde flere oplysninger i [Fremgangsmåde: Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md).   
+Links, der er oprettet af planlægningssystemet mellem behov og den relaterede levering, kan spores i vinduet **Ordresporing**. Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md).   
 
 Et ordentligt planlægningsresultat afhænger af de valgte indstillinger til varekort, montagestyklister, produktionsstyklister og ruter.  
 

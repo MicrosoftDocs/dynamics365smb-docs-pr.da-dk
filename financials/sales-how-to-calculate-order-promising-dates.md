@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 01/19/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ff83b7e5b61cd265bb3cb1af0bd5db3513c26072
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-order-promising-dates"></a>Sådan beregnes ordrebekræftelsesdatoer
+# <a name="calculate-order-promising-dates"></a>Beregne ordrebekræftelsesdatoer
 En virksomhed skal være i stand til at informere deres kunder om leveringsdatoer for ordren. Med vinduet **Beregning af lev.tid - linjer** kan du gøre dette fra en salgsordrelinje.  
 
 Baseret på en vares kendte og forventede rådighedsdatoer vil [!INCLUDE[d365fin](includes/d365fin_md.md)] øjeblikkeligt beregne leverance- og leveringsdatoer, som derefter kan stilles i udsigt for debitor.  
@@ -39,7 +39,7 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 ## <a name="about-order-promising"></a>Om beregning af leveringstid
 Vha. funktionen Beregning af leveringstid kan du oprette en ordrebekræftelse med en bestemt afsendelses- eller leveringsdato. Den dato, hvor en vare er disponibel til levering eller den første mulige afsendelsesdato for en vare og opretter ordrelinjer for de datoer, som du godkender. Funktionen beregner den tidligst mulige dato, en vare er disponibel til afsendelse eller levering. Funktionen opretter også rekvisitionslinjer, hvis varerne først skal købes, for de datoer, du godkender.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bruger to grundlæggende begreber:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  bruger to grundlæggende begreber:  
 
 - Disp.-til-levering  
 - Første m. afs.dato  
@@ -48,8 +48,10 @@ Vha. funktionen Beregning af leveringstid kan du oprette en ordrebekræftelse me
 Disp.-til-levering (ATP) beregner datoer baseret på reservationssystemet. Der udføres en tilgængelighedskontrol af de ikke-reserverede mængder på lageret med henblik på planlagt produktion, indkøb, overførsler og salgsreturvarer. Baseret på disse oplysninger beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk leveringsdato for kundens ordre, da varerne er tilgængelige på lageret eller på fastlagte tilgange.  
 
 ### <a name="capable-to-promise"></a>Første m. afs.dato  
-Første m. afs.dato (CTP) forudsætter et "hvad hvis"-scenarie, hvor varen ikke er på lager, og der ikke planlagt nogen ordrer. Baseret på dette scenarie vil [!INCLUDE[d365fin](includes/d365fin_md.md)] beregne den tidligste dato, varen kan være tilgængelig, hvis den skal produceres, købes eller overføres.  
+Første m. afs.dato (CTP) forudsætter et "hvad nu hvis"-scenarie, som kun gælder for vareantal, der ikke findes på lageret eller i planlagte ordrer. Baseret på dette scenarie vil [!INCLUDE[d365fin](includes/d365fin_md.md)] beregne den tidligste dato, varen kan være tilgængelig, hvis den skal produceres, købes eller overføres.
 
+#### <a name="example"></a>Eksempel
+Hvis der er en ordre på 10 stk., og 6 stykker er tilgængelige på lageret eller i planlagte ordrer, så skal den første m. afs.dato-beregning baseres på 4 stykker.
 
 ### <a name="calculations"></a>Beregninger  
 Når [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner kundens leveringsdato, udfører den to opgaver:  
@@ -62,7 +64,7 @@ Hvis kunden ikke anmoder om en bestemt leveringsdato, bliver afsendelsesdato sat
 - Afsendelsesdato + Udgående lagerekspeditionstid + Planlagt afsendelsesdato + Ekspeditionstid = Dato  
 - Planlagt afsendelsesdato + Transporttid = Planlagt leveringsdato  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer derefter, om den beregnede leveringsdato er realistisk ved at regne bagud i tid og afgøre, hvornår varen skal være tilgængelig for at kunne opfylde den lovede dato. Dette opnås ved hjælp af følgende formler:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrollerer derefter, om den beregnede leveringsdato er realistisk ved at regne bagud i tid og afgøre, hvornår varen skal være tilgængelig for at kunne opfylde den lovede dato. Dette opnås ved hjælp af følgende formler:  
 
 - Planlagt leveringsdato + Transporttid = Planlagt afsendelsesdato  
 - Planlagt afsendelsesdato - Udgående lagerekspeditionstid = Afsendelsesdato  
@@ -73,7 +75,7 @@ Baseret på nye datoer og klokkeslæt, beregnes alle relaterede datoer ifølge d
 
 Ordrebehandler afslutter LE-processen ved at acceptere datoerne. Det betyder, at en planlægningslinje og en reservationspost oprettes for varen, inden de datoer, der er beregnet til at sikre, at ordren opfyldes.  
 
-Foruden den eksterne beregning af leveringstid, som du kan udføre i vinduet **Beregning af lev.tid - linjer**, kan du også love interne eller eksterne leveringsdatoer for stykliste-elementer. Du kan finde flere oplysninger i [Sådan får du vist tilgængeligheden af varer](inventory-how-availability-overview.md).
+Foruden den eksterne beregning af leveringstid, som du kan udføre i vinduet **Beregning af lev.tid - linjer**, kan du også love interne eller eksterne leveringsdatoer for stykliste-elementer. Du kan finde flere oplysninger i [Vise tilgængeligheden af varer](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Sådan defineres beregning af leveringstid  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætn. af beregn. af lev.tid**, og vælg derefter det relaterede link.  

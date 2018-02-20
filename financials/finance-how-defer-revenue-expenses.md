@@ -10,22 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b7b4ce9d2f464d6e2793a21fa5b321846ba9498
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-defer-revenues-and-expenses"></a>Fremgangsmåde: Periodisere indtægter og udgifter
+# <a name="defer-revenues-and-expenses"></a>Periodisere indtægter og udgifter
 For at genkende en indtægt eller udgift i en periode ud over den periode, hvor transaktionen blev bogført, kan du bruge funktionen til automatisk periodisering af indtægter og udgifter inden for et angivet skema.
 
 For at fordele indtægter eller udgifter på de involverede regnskabsperioder, skal du oprette en periodiseringsskabelon for den ressource, vare eller finanskonto, som indtægten eller udgiften skal bogføres til. Når du bogfører det relaterede salgs- eller købsbilag, periodiseres indtægten eller udgiften til de involverede regnskabsperioder i overensstemmelse med en periodiseringsplan, som er omfattet af indstillingerne i periodiseringsskabelonen og bogføringsdatoen.
-
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Sådan konfigureres en finanskonti til periodisering
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoplan**, og vælg derefter det relaterede link.
@@ -66,7 +63,7 @@ Eksempel: Bogføringsdatoen er 06-02-2016. Hvis du angiver "Udgifter udskudt for
 >   Trinnene i denne procedure er de samme, som når du ændrer en periodiseringsplan for udgifter fra en købsfaktura.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.
-2. Opret en salgsfaktura for en vare, der er tildelt en periodiseringsskabelon. Du kan finde flere oplysninger under [Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md).
+2. Opret en salgsfaktura for en vare, der er tildelt en periodiseringsskabelon. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md).
 
     Bemærk, at så snart du indtaster varen (eller ressourcen eller finanskontoen) på fakturalinjen, udfyldes feltet **Periodiseringskode** med koden for den tildelte periodiseringsskabelon.
 3. Vælg handlingen **Periodiseringsplan**.

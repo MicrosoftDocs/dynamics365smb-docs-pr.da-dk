@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: eb9a20547c7eef346fa199eaa136211dcdd09dab
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fae5e37b8f1fcca84a474b2eac2039f7fc6d8245
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-send-electronic-documents"></a>Fremgangsmåde: Sende elektroniske dokumenter
+# <a name="send-electronic-documents"></a>Sende elektroniske dokumenter
 Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter afsendelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. En udbyder af dokumentudvekslingstjenester sender elektroniske dokumenter mellem handelspartnere. For at understøtte andre elektroniske dokumentformater kan du bruge dataudvekslingsstrukturen.  
 
- I den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] er en dokumentudvekslingstjeneste forudkonfigureret og klar til at blive konfigureret til din virksomhed. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md).  
+ I den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] er en dokumentudvekslingstjeneste forudkonfigureret og klar til at blive konfigureret til din virksomhed. Du kan finde flere oplysninger i [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md).  
 
- For at sende en salgsfaktura som et elektronisk PEPPOL-dokument skal du vælge indstillingen **Elektronisk dokument** i dialogboksen **Bogfør og send**, hvor du også kan konfigurere kundens standardprofil til afsendelse af dokumenter. Først skal du konfigurere forskellige stamdata, såsom firmaoplysninger, debitorer, varer og enheder. Disse bruges til at identificere forretningspartnere og varer ved konvertering af data i felterne i [Fremgangsmåde: Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
+ For at sende en salgsfaktura som et elektronisk PEPPOL-dokument skal du vælge indstillingen **Elektronisk dokument** i dialogboksen **Bogfør og send**, hvor du også kan konfigurere kundens standardprofil til afsendelse af dokumenter. Først skal du konfigurere forskellige stamdata, såsom firmaoplysninger, debitorer, varer og enheder. Disse bruges til at identificere forretningspartnere og varer ved konvertering af data i felterne i [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Sådan sendes en elektronisk salgsfaktura  
 
@@ -50,11 +50,11 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
     >  Du kan også sende en bogført salgsfaktura som et elektronisk dokument. Fremgangsmåden er den samme som beskrevet i dette emne for ikke-bogførte salgsdokumenter. I vinduet **Bogført salgsfaktura** under fanen **Handlinger** i gruppen **Generelt** skal du vælge **Aktivitetslog** for at få vist status for det elektroniske dokument. Du kan finde flere oplysninger **Aktivitetslog**.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md)  
-[Fremgangsmåde: Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md)  
-[Fremgangsmåde: Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Fremgangsmåde: Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)  
-[Fremgangsmåde: Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
+[Fakturere salg](sales-how-invoice-sales.md)  
+[Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md)  
+[Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)  
+[Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
 [Udveksle data elektronisk](across-data-exchange.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 

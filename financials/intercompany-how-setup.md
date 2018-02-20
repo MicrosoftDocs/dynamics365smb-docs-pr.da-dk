@@ -13,13 +13,13 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cce1f5c30b758155056b00e933c9f6cabfd9f1f4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7a23f0ba28ab4c7bc9e028375246ea2e57d32764
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-intercompany"></a>Fremgangsmåde: Konfigurere koncernintern kontoplan
+# <a name="set-up-intercompany"></a>Konfigurere mellemregning
 Når du vil sende en transaktion (f.eks. en salgskladde) fra én virksomhed og få den tilsvarende transaktion (f.eks. en købskladdelinje) oprettet automatisk i partnervirksomheden, skal de involverede virksomheder enes om en fælles kontoplan og et sæt dimensioner, som skal anvendes i koncerninterne transaktioner. Intercompany-kontoplanen kan f.eks. være en forenklet udgave af moderselskabets kontoplan. Hver virksomhed knytter deres samlede kontoplan til den delte intercompany-kontoplan, og hver virksomhed knytter deres dimensioner til intercompany-dimensionerne.  
 
 Du skal også oprette en koncernintern partnerkode for hver partnervirksomhed, der er aftalt mellem alle virksomheder, og derefter tildele dem til henholdsvis debitor- og kreditorkort ved at udfylde feltet **Koncernintern partnerkode**.  
@@ -40,7 +40,7 @@ Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du ud
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Sådan konfigureres koncerninterne kreditorer og koncerninterne debitorer
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Du kan også få adgang til kreditoren fra feltet **Kreditornummer** i vinduet **Koncernintern partner**.
-3. Åbn kortet for den kreditor, der er en koncernintern partner. Du kan finde flere oplysninger i [Fremgangsmåde: Registrere nye kreditorer](purchasing-how-register-new-vendors.md).
+3. Åbn kortet for den kreditor, der er en koncernintern partner. Du kan finde flere oplysninger i [Registrere nye kreditorer](purchasing-how-register-new-vendors.md).
 4. I feltet **Koncernintern partnerkode** skal du vælge den relevante koncerninterne partnerkode.
 5. Gentag trin 1 til 4 for debitorer.
 

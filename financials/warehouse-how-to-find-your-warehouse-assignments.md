@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c85fa0d5ede1624a650a85d8340112f9ccbef1c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d84010d0d707ad96970ff9fc24077cb12ad9f9df
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-find-your-warehouse-assignments"></a>Fremgangsmåde: Finde lageropgaver
-Hvis du vil finde dine lageropgaver, skal du åbne kortvinduet til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder. Du kan finde flere oplysninger i [Sådan defineres lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).
+# <a name="find-your-warehouse-assignments"></a>Finde dine lageropgaver
+Hvis du vil finde dine lageropgaver, skal du åbne kortvinduet til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Sådan findes en tildelt instruktion  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager (lager)**, **Pluk (logistik)** eller **Bevægelse (logistik)** og vælg derefter det relaterede link.

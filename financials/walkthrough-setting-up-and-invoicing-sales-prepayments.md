@@ -1,6 +1,6 @@
 ---
 title: "Gennemgang - Opsætning og fakturering af salgsforudbetalinger | Microsoft Docs"
-description: "Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kan f.eks. kræve et depositum, før du fremstiller varer efter ordre, eller du kan kræve betaling, før du sender varerne til en kunde. Du bruger forudbetalingsfunktionen i Dynamics 365 til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura."
+description: "Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kan f.eks. kræve et depositum, før du fremstiller varer efter ordre, eller du kan kræve betaling, før du sender varerne til en kunde. Du bruger forudbetalingsfunktionen i Finance and Operations, Business edition til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cd74d543168f1f96f55141aace571d6d701e3de1
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gennemgang: Opsætning og fakturering af salgsforudbetalinger
@@ -128,7 +128,7 @@ Susan opretter forudbetalingsfakturaen og sender den til kunden.
 
     Feltet **Forudbetaling i %** på linjen med vare **1100** indeholder **40**. Det er denne procent, du har angivet i vinduet **Forudbetalingsprocenter - salg** for vare **1100** og debitor **20000**.  
 
-    Du kan finde flere oplysninger i [Fremgangsmåde: Oprette forudbetalinger](finance-set-up-prepayments.md).  
+    Du kan finde flere oplysninger i [Oprette forudbetalinger](finance-set-up-prepayments.md).  
 8. Vælg handlingen **Statistik**.  
 9. I oversigtspanelet **Forudbetaling** indeholder feltet **Linjebeløb for forudbetaling ekskl. moms** **1.560**. Hvis du opretter en forudbetalingsfaktura for ordren nu, er det dette beløb, der vises på fakturaen.  
 

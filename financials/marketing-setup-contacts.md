@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 701282909208c36b0ba546c1a15ca27afdbf447c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Forberede oprettelse af kontakter
@@ -31,11 +31,11 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Hvis du vil | Se |
 | --- | --- |
 | Definere den forretningsrelation, som findes mellem din virksomhed og dine kontakter, f.eks. kundeemne, bank, konsulent eller serviceleverandør. |[Opsætning af forretningsrelationer i kontaktvirksomheder](marketing-business-relations.md) |
-| Definere den branche, som dine kontakter tilhører, f.eks. detailbranchen eller automobilbranchen. |[Fremgangsmåde: Angive brancher i kontaktvirksomheder](marketing-industry-groups.md) |
-| Definere de mailgrupper, som du kan bruge til at identificere grupper af kontakter, som skal modtage de samme oplysninger. |[Fremgangsmåde: Angive mailgrupper i kontaktvirksomheder](marketing-mailing-groups.md) |
-| Definere dine kontaktpersoners ansvarsområder. |[Oprette ansvarsområder for kontakter](marketing-job-responsibilities.md) |
-| Definere de kompetenceniveauer, som du vil bruge om dine kontaktpersoner. |[Fremgangsmåde: Definere kompetenceniveauer i kontakter](marketing-organizational-levels.md) |
-| Definer webkilder (søgemaskiner og websteder), som du kan bruge, når du vil finde oplysninger om kontakterne på internettet. |[Fremgangsmåde: Definere webkilder i kontakter](marketing-web-sources.md) |
+| Definere den branche, som dine kontakter tilhører, f.eks. detailbranchen eller automobilbranchen. |[Angive brancher i kontaktvirksomheder](marketing-industry-groups.md) |
+| Definer de mailgrupper, som du kan bruge til at identificere grupper af kontakter, som skal modtage de samme oplysninger. |[Definere mailgrupper i kontaktvirksomheder](marketing-mailing-groups.md) |
+| Definer dine kontaktpersoners ansvarsområder. |[Oprette ansvarsområder for kontakter](marketing-job-responsibilities.md) |
+| Definere de kompetenceniveauer, som du vil bruge om dine kontaktpersoner. |[Definere kompetenceniveauer i kontakter](marketing-organizational-levels.md) |
+| Definer webkilder (søgemaskiner og websteder), som du kan bruge, når du vil finde oplysninger om kontakterne på internettet. |[Definere webkilder i kontakter](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

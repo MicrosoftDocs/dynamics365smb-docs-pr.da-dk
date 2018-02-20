@@ -13,13 +13,13 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 07e80551ca215eb4c2632faa9f534801a1813680
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e9edb717c073a3b94d925ac0cc532824a848daf6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-depreciate-or-amortize-fixed-assets"></a>Fremgangsmåde: Afskrive eller amortisere anlægsaktiver
+# <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
 Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner og udstyr, over anlæggets afskrivningslevetid. For hvert anlæg skal du definere, hvordan det skal afskrives.  
 
  Der er to måder at bogføre afskrivning på:  
@@ -27,7 +27,7 @@ Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner o
 * Automatisk ved at udføre kørslen **Beregn afskrivning**.  
 * Manuelt ved at bruge anlægskassekladden.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan beregne daglig afskrivning, så du kan beregne afskrivningen for enhver periode. Du kan derfor analysere aktuelle driftsresultater f.eks. hver måned, hvert kvartal eller år. I beregningen anvendes et standardår på 360 dage og en standardmåned på 30 dage. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  kan beregne daglig afskrivning, så du kan beregne afskrivningen for enhver periode. Du kan derfor analysere aktuelle driftsresultater f.eks. hver måned, hvert kvartal eller år. I beregningen anvendes et standardår på 360 dage og en standardmåned på 30 dage. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md).  
 
 Hvis flere afdelinger bruger et anlægsaktiv, kan periodisk afskrivning allokeres automatisk til disse afdelinger ud fra en brugerdefineret allokeringstabel.  
 
@@ -52,10 +52,10 @@ Du kan når som helst, f.eks. en gang om måneden, udføre kørslen **Beregn afs
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.  
 3. I feltet **Anlægsbogføringstype** skal du vælge **Afskrivning**.  
-4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af afskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
+4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af afskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
 5. På fanen **Startside** skal du vælge **Bogfør** for at bogføre kladden.  
 
-Hvis du har defineret anlægsallokeringsnøgler for at kunne allokere beløb til forskellige afdelinger eller projekter, allokeres beløbene under bogføringen. Du kan finde flere oplysninger i [Fremgangsmåde: Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
+Hvis du har defineret anlægsallokeringsnøgler for at kunne allokere beløb til forskellige afdelinger eller projekter, allokeres beløbene under bogføringen. Du kan finde flere oplysninger i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Sådan beregnes allokeringer i anlægskassekladden
 Hvis et anlæg bruges af flere afdelinger, kan periodisk afskrivning allokeres automatisk på disse afdelinger ud fra en brugerdefineret allokeringstabel.  

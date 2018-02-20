@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ae0d22fa5384edef167e5ba473977079c6473673
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 826e1392143b166566619c5aef8c28ac2b09bc22
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-assign-default-bins-to-items"></a>Fremgangsmåde: Tildele standardplaceringer til varer
+# <a name="assign-default-bins-to-items"></a>Tildele standardplaceringer til varer
 Hvis du bruger placeringer på en lokation, kan du levere, modtage og flytte varerne meget mere effektivt ved at tildele varerne standardplaceringer. Når en vare tildeles en standardplacering, foreslås denne placering, hver gang du starter en transaktion for denne vare. Standardplaceringer er defineret i vinduet **Placeringsindhold**.  
 
 ## <a name="to-assign-a-default-bin-to-an-item"></a>Sådan tildeles en standardplacering til en vare

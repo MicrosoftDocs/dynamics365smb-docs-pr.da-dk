@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: da-dk
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-routings"></a>Fremgangsmåde: Oprette ruter
+# <a name="create-routings"></a>Oprette ruter
 Produktionsvirksomheder bruger ruter til at visualisere og styre produktionsprocessen.
 
 Ruten danner også grundlag for procesplanlægning, kapacitetsplaner, planlagt tildeling af materialebehov og produktionsdokumenter.  
@@ -28,8 +28,8 @@ Hvad angår produktionsstyklister, tildeles ruterne til slutvaren fra produktion
 
 Før du kan oprette en rute, skal følgende betingelser være opfyldt:  
 
-- Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).
-- Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Fremgangsmåde: Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
+- Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
+- Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Sådan oprettes en rute  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ruter**, og vælg derefter det relaterede link.  
@@ -53,13 +53,13 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 12.  Fortsæt med at udfylde linjer for alle de operationer, der kræves for at producere den pågældende vare.  
 13.  Du kan kopiere linjer fra en eksisterende rute ved at vælge handlingen **Kopier rute** for at vælge eksisterende linjer.  
 14. Godkend ruten.  
-15. Du kan nu knytte den nye rute til kortet for den pågældende produktionsvare ved at udfylde feltet **Rutenr.**. Du kan finde flere oplysninger under [Fremgangsmåde: Registrere nye varer](inventory-how-register-new-items.md).  
+15. Du kan nu knytte den nye rute til kortet for den pågældende produktionsvare ved at udfylde feltet **Rutenr.**. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Husk også at genberegne varens standardkostpris fra kortet **Vare**: Vælg handlingen **Produktion**, vælg handlingen **Beregn standardkostpris**, og vælg derefter handlingen **Alle niveauer**.  
 
 ## <a name="to-create-routing-links"></a>Sådan oprettes rutebindinger
-Du kan oprette rutebindinger til at knytte komponenter til bestemte operationer for at bevare deres relationer, selvom produktionsstyklisterne eller ruterne ændres. De letter også yderligere just in time-træk af komponenter på det tidspunkt, hvor den angivne bundne operation starter, og ikke når hele produktionsordren frigives. Du kan finde flere oplysninger i [Sådan gør du: Udtrække komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).  
+Du kan oprette rutebindinger til at knytte komponenter til bestemte operationer for at bevare deres relationer, selvom produktionsstyklisterne eller ruterne ændres. De letter også yderligere just in time-træk af komponenter på det tidspunkt, hvor den angivne bundne operation starter, og ikke når hele produktionsordren frigives. Du kan finde flere oplysninger i [Udtrække komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).  
 
 En anden vigtig fordel er, at bundne komponenter og operationer vises i en logisk processtruktur, når vinduet **Produktionskladde** bruges til bogføring af afgang og forbrug.  
 
@@ -80,14 +80,14 @@ En anden vigtig fordel er, at bundne komponenter og operationer vises i en logis
 
     Rutebindingskoder er nu knyttet til operationer. Derefter skal du oprette det faktiske hyperlink ved at knytte de samme koder til bestemte komponenter i den relevante produktionsstykliste.  
 
-6.  Åbn **produktionsstyklisten**, som indeholder de komponenter, som du vil forbinde med ovennævnte handlinger. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-production-boms.md).
+6.  Åbn **produktionsstyklisten**, som indeholder de komponenter, som du vil forbinde med ovennævnte handlinger. Du kan finde flere oplysninger i [Oprette produktionsstyklister](production-how-to-create-production-boms.md).
 7.  Kontrollér, at styklistestatus er **Under udvikling**.  
 8.  Vælg den kode, du lige har tildelt til den relevante operation feltet **Rutebindingskode** på den pågældende produktionsstyklistelinje.  
 9. Fortsæt med at føje rutebindingskoder til andre komponenter i overensstemmelse med de entydige operationer, de bruges i forbindelse med.  
 10. Angiv produktsstyklistestatus til **Godkendt**.  
 
     > [!NOTE]  
-    >  For at aktivere rutebindingerne på en eksisterende produktionsordre skal du først forny produktionsordren. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette produktionsordrer](production-how-to-create-production-orders.md).  
+    >  For at aktivere rutebindingerne på en eksisterende produktionsordre skal du først forny produktionsordren. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).  
 
 De valgte komponenter knyttes nu til de valgte operationer, når du opretter eller opdaterer en produktionsordre ved hjælp af den pågældende produktionsstykliste og rute. Dette er synligt i vinduet **Prod.ordrekomponenter** under produktionsordren, og her kan du også når som helst fjerne og definerede rutebindingskoder.
 
@@ -119,7 +119,7 @@ Versionsprincippet gør det muligt for dig at styre flere versioner af en rute. 
 Gyldigheden i tid for versionen angives i feltet **Startdato**.  
 
 ## <a name="see-also"></a>Se også  
-[Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
+[Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Planlægning](production-planning.md)   

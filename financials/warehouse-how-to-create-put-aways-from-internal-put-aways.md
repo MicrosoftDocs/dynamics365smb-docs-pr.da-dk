@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2a6829c5a67f1121ecc135e1183af78b0e602f8f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5cafcc32874187ae787279c20256c11cadaff6a1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-and-put-away-without-a-source-document"></a>Fremgangsmåde: Plukke og lægge på lager uden et kildedokument
+# <a name="pick-and-put-away-without-a-source-document"></a>Plukke og lægge på lager uden et kildedokument
 Når varer er blevet lagt på plads, og indtil de plukkes til en produktionsordre eller leverance, opbevares de på lagerstedet og indgår i den disponible lagerbeholdning.  
 
 Der kan være tilfælde, hvor varer midlertidigt fjernes fra lagerplaceringer, f.eks. fordi de skal fungere som demonstrationsvarer ved en salgspræsentation. Sådanne varer ejes stadig af virksomheden og er en del af lageret, men de er ikke tilgængelige til pluk. De registreres på en specialplacering, som du opretter til formålet; og er teknisk set stadig på lager, selvom de rent fysisk befinder sig på en messe eller i et demonstrationsrum.  

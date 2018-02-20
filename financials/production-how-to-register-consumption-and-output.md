@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: a60e63e9741f81aa6efcf8b6a4780b5b464fe440
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 493c6e24a42229bc6e5223319ca66c103ee08f96
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-consumption-and-output-for-one-released-production-order-line"></a>Fremgangsmåde: Registrere forbrug og afgang for én frigivet produktionsordrelinje
+# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbrug og afgang for én frigivet produktionsordrelinje
 Denne udførelsesopgave udføres fra vinduet **Produktionskladde**. Kladden kombinerer funktionaliteten ved forbrugskladden og afgangskladden til én kladde. Der er direkte adgang til den kombinerede kladde fra en frigivet produktionsordre. Dens vigtigste formål er manuelt at bogføre forbruget af komponenter, antallet af producerede færdige varer og den tid, der bruges på operationerne. Værdierne bogføres til poster under den frigivne produktionsordre. Forbrugsantallene bogføres som negative vareposter, afgangsantal bogføres som positive poster, og den forbrugte tid bogføres som kapacitetsposter. Disse bogførte værdier vises også nederst i kladden som faktiske mængder.  
 
 > [!NOTE]  
@@ -32,7 +32,7 @@ Denne udførelsesopgave udføres fra vinduet **Produktionskladde**. Kladden komb
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Frigivne prod.ordrer**, og vælg derefter det relaterede link.  
 2.  Åbn den frigivne produktionsordrelinje, der er klar til registrering. I oversigtspanelet **Linjer** skal du derefter vælge handlingen **Linje** og derefter handlingen **Produktionskladde**.  
 
-    Vinduet **Produktionskladde** åbnes med kladdelinjer for produktionsordrelinjen i henhold til vinduerne **Produktionsordrekomponent** og **Prod.ordrerute**. Disse linjer, der stammer fra den produktionsstykliste og rute, der er tildelt den vare, der produceres. Du kan finde flere oplysninger i [Fremgangsmåde: Oprette produktionsstyklister](production-how-to-create-routings.md).  
+    Vinduet **Produktionskladde** åbnes med kladdelinjer for produktionsordrelinjen i henhold til vinduerne **Produktionsordrekomponent** og **Prod.ordrerute**. Disse linjer, der stammer fra den produktionsstykliste og rute, der er tildelt den vare, der produceres. Du kan finde flere oplysninger i [Oprette produktionsstyklister](production-how-to-create-routings.md).  
 
 3.  I feltet **Bogføringsdato** øverst i kladden kan du angive en bogføringsdato, der gælder for alle linjer. Arbejdsdatoen angives som standard. Feltet er beregnet til at gøre det muligt hurtigt at justere bogføringsdatoer på alle linjer, hvis det er relevant.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ecb54ee063daa054c5503702fcc21c4dc111d99
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db48432b54e0bd2c303816c8b06f0986f2352a59
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="putting-items-away"></a>Lægge varer på lager
@@ -32,14 +32,14 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Bogføre tilgangen af varer direkte fra det indgående ordredokument og dermed registrere læg-på-lager, fordi der ikke findes nogen lageropsætning.|[Sådan modtages varer](warehouse-how-receive-items.md)|  
-|Lægge varer på lager en ordre ad gangen og bogføre tilgangen i samme aktivitet i en grundlæggende lageropsætning.|[Sådan lægges varer på lager med Læg-på-lager](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
-|Lægge varer på lager for flere ordrer i en avanceret lageropsætning.|[Fremgangsmåde: Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
-|Lægge producerede varer eller montagevarer på lager i en grundlæggende eller avanceret lageropsætning.|[Sådan lægges produktions- eller montageafgange på lager](warehouse-how-to-put-away-production-output.md)|
-|Planlægge optimerede instruktioner for læg-på-lager for et antal bogførte lagertilgange i stedet for at lade lagermedarbejdere håndtere tilgangene direkte.|[Fremgangsmåde: Planlægge læg-på-lager-aktiviteter i kladder](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
-|Lægge varer, der er plukket teknisk med et internt pluk, tilbage, f.eks. for en produktionsordre, der ikke forbrugte det forventede antal.|[Fremgangsmåde: Plukke og lægge på lager uden et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
-|Opdele en læg-på-lager-linje for at placere en del af læg-på-lager-antallet på tilgængelige placeringer, fordi den anviste placering er fyldt op.|[Fremgangsmåde: Opdele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Få omgående adgang til læg-på-lager-varer, der er knyttet til dig som lagermedarbejder.|[Fremgangsmåde: Finde lageropgaver](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Bogføre tilgangen af varer direkte fra det indgående ordredokument og dermed registrere læg-på-lager, fordi der ikke findes nogen lageropsætning.|[Modtage varer](warehouse-how-receive-items.md)|  
+|Lægge varer på lager en ordre ad gangen og bogføre tilgangen i samme aktivitet i en grundlæggende lageropsætning.|[Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Lægge varer på lager for flere ordrer i en avanceret lageropsætning.|[Lægge varer på lager med Læg-på-lager (logistik)](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+|Lægge producerede varer eller montagevarer på lager i en grundlæggende eller avanceret lageropsætning.|[Lægge produktions- eller montageafgange på lager](warehouse-how-to-put-away-production-output.md)|
+|Planlægge optimerede instruktioner for læg-på-lager for et antal bogførte lagertilgange i stedet for at lade lagermedarbejdere håndtere tilgangene direkte.|[Planlægge læg-på-lager-aktiviteter i kladder](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
+|Lægge varer, der er plukket teknisk med et internt pluk, tilbage, f.eks. for en produktionsordre, der ikke forbrugte det forventede antal.|[Plukke og lægge på lager uden et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Opdele en læg-på-lager-linje for at placere en del af læg-på-lager-antallet på tilgængelige placeringer, fordi den anviste placering er fyldt op.|[Opdele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md)|
+|Få omgående adgang til læg-på-lager-varer, der er knyttet til dig som lagermedarbejder.|[Finde dine lageropgaver](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  

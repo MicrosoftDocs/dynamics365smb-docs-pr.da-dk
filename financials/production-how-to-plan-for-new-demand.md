@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 143124fd2e458ee756d47d3f8523380cff6826a9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a7266eddba4293807a1e7e2a187c5002be771499
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-for-new-demand-order-by-order"></a>Fremgangsmåde: Planlægge efter nyt behov ordre for ordre
+# <a name="plan-for-new-demand-order-by-order"></a>Planlægge efter nyt behov ordre for ordre
 Denne planlægningsopgave kan udføres i vinduet **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.  
 
 Du kan gå ind i vinduet **Ordreplanlægning** på to måder afhængigt af arbejdsopgaven: Fra en ordre, du vil planlægge specifikt, eller i batchtilstand, fordi du vil planlægge efter alle nye behov.  

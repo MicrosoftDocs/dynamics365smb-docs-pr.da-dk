@@ -1,5 +1,5 @@
 ---
-title: SEPA Direct Debit i Dynamics 365 | Microsoft Docs
+title: SEPA Direct Debit i Finance and Operations, Business edition | Microsoft Docs
 description: "Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet."
 author: SorenGP
 ms.service: dynamics365-financials
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf07a08eebe8bfffc99f7351a96526452728552e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="collecting-payments-with-sepa-direct-debit"></a>Indhente betalinger med SEPA Direct Debit
@@ -35,10 +35,10 @@ Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med 
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Udarbejd bankkontoformater, betalingsformer og kundeaftaler til SEPA Direct Debit.|[Fremgangsmåde: Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)|  
-|Bed din bank om at overføre beløb fra din kundes bankkonti til dit firmas konto i overensstemmelse med konfigurationen af SEPA Direct Debit.|[Fremgangsmåde: Opret poster i SEPA Direct Debit-opkrævning, og eksportér til en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
-|Konfigurer standarddebitorsalgskoder for fakturaer til direkte debitering, og opret salgsfakturaer med oplysninger om direkte debitering, når fakturaerne forfalder til betaling.|[Fremgangsmåde: Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)|  
-|Bogfør betalinger foretaget som SEPA Direct Debit.|[Fremgangsmåde: Bogføre SEPA Direct Debit-betalingskvitteringer](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+|Udarbejd bankkontoformater, betalingsformer og kundeaftaler til SEPA Direct Debit.|[Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)|  
+|Bed din bank om at overføre beløb fra din kundes bankkonti til dit firmas konto i overensstemmelse med konfigurationen af SEPA Direct Debit.|[Oprette poster i SEPA Direct Debit-opkrævning, og eksportere til en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|Konfigurer standarddebitorsalgskoder for fakturaer til direkte debitering, og opret salgsfakturaer med oplysninger om direkte debitering, når fakturaerne forfalder til betaling.|[Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)|  
+|Bogfør betalinger foretaget som SEPA Direct Debit.|[Bogføre SEPA Direct Debit-betalingskvitteringer](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
 
 ## <a name="see-also"></a>Se også  
 [Administrere tilgodehavender](receivables-manage-receivables.md)

@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 2939c4bf99b0fec05fd3625af589f05710a05a3c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 04416ae3b9433ccc3bf1295f006df0f4c72f27b5
 ms.contentlocale: da-dk
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløb
@@ -32,13 +32,16 @@ Den følgende tabel indeholder en opgavesekvens i kreditorer med links til de em
 | --- | --- |
 | Oprette forfaldne kreditorbetalinger eller medarbejderrefusioner, skal du forberede checkindbetalinger og udlæse betalinger til en bankfil, når du bogfører. |[Foretage betaling](payables-make-payments.md) |
 | Udlign kreditorbetalinger automatisk til ubetalte købsfakturaer ved at importere en bankkontoudtogsfil. |[Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
-| Udlign kreditorbetalinger til ubetalte købsfakturaer manuelt. |[Fremgangsmåde: Udligne kreditorbetalinger manuelt](payables-how-apply-purchase-transactions-manually.md) |
-|Du kan sikre korrekt værdiansættelse af lageret ved at tildele ekstra vareomkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer.|[Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)|
+| Udlign kreditorbetalinger til ubetalte købsfakturaer manuelt. |[Udligne kreditorbetalinger manuelt](payables-how-apply-purchase-transactions-manually.md) |
+|Du kan sikre korrekt værdiansættelse af lageret ved at tildele ekstra vareomkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer.|[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)|
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
-[Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)  
+[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

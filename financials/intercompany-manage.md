@@ -13,10 +13,10 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 06/20/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 5ffaed472ab61d086e2b57579523340504bde119
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 341fccc4cb11f27e11d80558bbd9651ae4ad91be
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-intercompany-transactions"></a>Administrere Intercompany-transaktioner (IC)
@@ -39,13 +39,16 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
  |Hvis du vil |Se|
  |---|---|
- |Opret koncerninterne kreditorer og debitorer som såkaldte koncerninterne partnere, og konfigurer en koncernintern (IC) kontoplan.|[Fremgangsmåde: Konfigurere koncernintern kontoplan](intercompany-how-setup.md)|
- |Bruge IC-dokumenter eller -kladder til at bogføre transaktioner med koncerninterne partnere.|[Fremgangsmåde: Arbejde med koncerninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)|
- |Organisere og behandle indgående og udgående transaktioner, som du udveksler med dine koncerninterne partnere.|[Fremgangsmåde: Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md)|
+ |Opret koncerninterne kreditorer og debitorer som såkaldte koncerninterne partnere, og konfigurer en koncernintern (IC) kontoplan.|[Konfigurere mellemregning](intercompany-how-setup.md)|
+ |Bruge IC-dokumenter eller -kladder til at bogføre transaktioner med koncerninterne partnere.|[Arbejde med koncerninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)|
+ |Organisere og behandle indgående og udgående transaktioner, som du udveksler med dine koncerninterne partnere.|[Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md)|
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

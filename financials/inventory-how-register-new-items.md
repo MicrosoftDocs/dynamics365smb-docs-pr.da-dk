@@ -12,20 +12,20 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-new-items"></a>Fremgangsmåde: Registrere nye varer
+# <a name="register-new-items"></a>Registrere nye varer
 Varer er, blandt andre produkter, grundlaget for din virksomhed og de varer eller tjenester, som du handler med. Hver vare skal registreres som et varekort.
 
 Varekort indeholder de oplysninger, der kræves for at købe, opbevare, sælge, levere og føre regnskab med varer.
 
-Varekortet kan være af typen **Lager** eller **Service** for at angive, om varen er en fysisk enhed eller en arbejdstidsenhed. Bortset fra visse felter, der vedrører de fysiske aspekter af en vare, fungerer alle felter på et varekort på samme måde for lagervarer og tjenester. Du kan finde flere oplysninger om salg af en vare under [Fremgangsmåde: Sælge produkter](sales-how-sell-products.md) eller [Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md).
+Varekortet kan være af typen **Lager** eller **Service** for at angive, om varen er en fysisk enhed eller en arbejdstidsenhed. Bortset fra visse felter, der vedrører de fysiske aspekter af en vare, fungerer alle felter på et varekort på samme måde for lagervarer og tjenester. Du kan finde flere oplysninger om salg af en vare under [Sælge produkter](sales-how-sell-products.md) eller [Fakturere salg](sales-how-invoice-sales.md).
 
-En vare kan struktureres som en overordnet vare med underliggende underordnede varer på en stykliste. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en stykliste enten være en montagestykliste eller en produktionsstykliste, afhængigt af dens anvendelse. Du kan finde flere oplysninger under [Fremgangsmåde: Arbejde med styklister](inventory-how-work-BOMs.md).
+En vare kan struktureres som en overordnet vare med underliggende underordnede varer på en stykliste. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en stykliste enten være en montagestykliste eller en produktionsstykliste, afhængigt af dens anvendelse. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Hvis der er en vareskabelon til forskellige varetyper, vises der et vindue, når du opretter et nyt varekort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én vareskabelon, bruger nye varekort altid denne skabelon.
@@ -77,7 +77,5 @@ Leverandørerne vises nu i vinduet **Vare/leverandører**, som du åbner fra var
   [Lagerbeholdning](inventory-manage-inventory.md)  
   [Køb](purchasing-manage-purchasing.md)  
   [Salg](sales-manage-sales.md)  
-  [Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

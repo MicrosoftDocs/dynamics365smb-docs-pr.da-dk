@@ -1,6 +1,6 @@
 ---
 title: "Overførsel af data fra Dynamics GP med udvidelsen Dataoverførsel | Microsoft Docs"
-description: "Du kan bruge udvidelsen Dataoverførsel i Dynamics GP til at overføre debitorer, kreditorer, lagervarer og konti fra Dynamics GP til Dynamics 365 Business edition."
+description: "Du kan bruge udvidelsen Dataoverførsel i Dynamics GP til at overføre debitorer, kreditorer, lagervarer og konti fra Dynamics GP til Finance and Operations, Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b97c074b1283a981522b7a9651fcc7c552f1f930
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: bfd3ca3e28b6eb3efa2a16cc131b508db6bd1590
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="the-dynamics-gp-data-migration-extension-for-dynamics-365-business-edition"></a>Udvidelsen Overførsel af data med Dynamics GP til Dynamics 365 Business edition 
+# <a name="the-dynamics-gp-data-migration-extension-for-finance-and-operations-business-edition"></a>Udvidelsen Dynamics GP-dataoverførsel til Finance and Operations, Business edition 
 Denne udvidelse gør det nemt at overføre debitorer, kreditorer, lagervarer og konti fra Dynamics GP til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis din virksomhed bruger Dynamics GP i dag, kan du eksportere de relevante stamdataposter og derefter åbne en assisteret opsætningsvejledning for at tilføje dataene i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Overføre virksomhedsdata fra andre økonomisystemer](upload-data.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Eksportere data fra Dynamics GP

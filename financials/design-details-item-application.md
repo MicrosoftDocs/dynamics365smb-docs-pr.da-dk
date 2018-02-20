@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
@@ -70,7 +70,7 @@ Følgende tabel viser den vareudligningspost, der oprettes, når du bogfører en
 
 |Bogføringsdato|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|Varepostløbenr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
+|01-01-20|1|0|10|1|  
 
 ## <a name="inventory-decrease"></a>Lagerreducering  
 Når du bogfører en lagerreduktion, oprettes der en vareudligningspost, der knytter lagerreduktionen til en lagerforøgelse. Dette link oprettes ved at bruge varens kostmetode som retningslinje. For varer, der bruger kostmetoden FIFO, Standard og Gennemsnit, er tilknytningen baseret på princippet først ind-først ud. Der lagerreduktionen anvendes til lagerforøgelsen, der har den tidligste bogføringsdato. For varer, der bruger kostmetoden LIFO, er tilknytningen baseret på princippet sidst ind-først ud. Lagerreduktionen anvendes til lagerforøgelsen, der har den nyeste bogføringsdato.  
@@ -84,8 +84,8 @@ Følgende tabel viser de to vareudligningsposter, der skyldes henholdsvis lagerf
 
 |Bogføringsdato|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|Varepostløbenr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-01-20|0|0|10|0|  
-|01-03-20|0|2|-5|2|  
+|01-01-20|1|0|10|1|  
+|01-03-20|1|2|-5|2|  
 
 ## <a name="fixed-application"></a>Fast udligning  
 Du foretager faste udligninger, når du angiver, at kostprisen for en lagerforøgelse skal udlignes med en bestemt lagerreduktion eller vice versa. Den faste udligning har indflydelse på det resterende antal i posterne, men den faste udligning tilbagefører også den præcise kostpris for den oprindelige post, du udligner til eller fra.  
@@ -103,7 +103,7 @@ Følgende tabel viser de vareposter, der er resultatet af scenariet.
 
 |**Bogføringsdato**|**Vareposttype**|**Antal**|**Kostbeløb (faktisk)**|**Varepostløbenr.**|  
 |----------------------|---------------------------------------------------|------------------|----------------------------------------------------|---------------------------------------------------|  
-|01-04-20|Køb|10|10.00|0|  
+|01-04-20|Køb|10|10.00|1|  
 |01-05-20|Køb|10|20.00|2|  
 |01-06-20|Køb (returvare)|-10|-20,00|3|  
 
@@ -113,7 +113,7 @@ Følgende tabel viser den vareudligningspost, der skyldes fast udligning.
 
 |Bogføringsdato|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|Varepostløbenr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|0|3|10|3|  
+|01-06-20|1|3|10|3|  
 
 Kostprisen for det andet køb, RV 20,00, vil derefter blive overført korrekt til købsreturvareordren.  
 
@@ -130,8 +130,8 @@ Følgende tabel viser effekten af scenariet på værdiposterne for varen.
 
 |Bogføringsdato|Vareposttype|Værdiansat antal|Kostbeløb (faktisk)|Udl.varepostløbenr.|Værdisat efter gnsn. kostpris|Varepostløbenr.|Løbenummer|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Køb|0|200.00||Nej|0|0|  
-|01-01-20|Køb|0|1000.00||Nej|2|2|  
+|01-01-20|Køb|1|200.00||Nej|1|1|  
+|01-01-20|Køb|1|1000.00||Nej|2|2|  
 |01-01-20|Køb|-1|-1000|2|Nej|3|3|  
 |01-01-20|Køb|1|100.00||Nej|4|4|  
 |01-01-20|Salg|-2|-300,00||Ja|5|5|  
@@ -142,8 +142,8 @@ I følgende tabel vises resultatet i værdiposterne for varen, hvis trin 2 er ud
 
 |Bogføringsdato|Vareposttype|Værdiansat antal|Kostbeløb (faktisk)|Udl.varepostløbenr.|Værdisat efter gnsn. kostpris|Varepostløbenr.|Løbenummer|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Køb|0|200.00||Nej|0|0|  
-|01-01-20|Køb|0|1000.00||Nej|2|2|  
+|01-01-20|Køb|1|200.00||Nej|1|1|  
+|01-01-20|Køb|1|1000.00||Nej|2|2|  
 |01-01-20|Køb|-1|433.33||Ja|3|3|  
 |01-01-20|Køb|1|100.00||Nej|4|4|  
 |01-01-20|Salg|-2|866,67||Ja|5|5|  
@@ -169,7 +169,7 @@ Tabellen nedenfor viser resultatet af scenarietrin 1 til 3 på varens værdipost
 
 |Bogføringsdato|Vareposttype|Værdiansat antal|Kostbeløb (faktisk)|Udlign fra-varepost|Varepostløbenr.|Løbenummer|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Køb|0|1000.00||0|0|  
+|01-01-20|Køb|1|1000.00||1|1|  
 |02-01-20|Salg|-1|1000.00||2|2|  
 |03-01-20|Salg (kreditnota)|1|1000|2|3|3|  
 
@@ -177,16 +177,16 @@ Følgende tabel viser den værdipost, der følger af scenarietrin 4, der bogfør
 
 |Bogføringsdato|Vareposttype|Værdiansat antal|Kostbeløb (faktisk)|Udlign fra-varepost|Varepostløbenr.|Løbenummer|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|04-01-20|(Varegebyr)|0|100.00||0|4|  
+|04-01-20|(Varegebyr)|1|100.00||1|4|  
 
 Følgende tabel viser effekten af præcis kostprisudligning i værdiposterne for varen.  
 
 |Bogføringsdato|Vareposttype|Værdiansat antal|Kostbeløb (faktisk)|Udlign fra-varepost|Varepostløbenr.|Løbenummer|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------------|----------------------------------|  
-|01-01-20|Køb|0|1000.00||0|0|  
+|01-01-20|Køb|1|1000.00||1|1|  
 |02-01-20|Salg|-1|1100.00||2|2|  
 |03-01-20|Salg (kreditnota)|1|1100.00|2|3|3|  
-|04-01-20|(Varegebyr)|0|100.00||0|4|  
+|04-01-20|(Varegebyr)|1|100.00||1|4|  
 
 Når du udfører kørslen **Juster kostpris - vareposter**, videreføres de forøgede omkostninger på købsposten på grund af varegebyret til salgsposten (løbenummer 2). Salgsposten overfører derefter denne forøgede omkostning til salgskreditposten (løbenummer 3). Det endelige resultat er, at omkostningerne er tilbageført korrekt.  
 
@@ -210,8 +210,8 @@ Følgende tabel viser effekten af overførslen på værdiposterne for varen.
 
 |Bogføringsdato|Vareposttype|Lokationskode|Værdiansat antal|Kostbeløb (faktisk)|Løbenummer|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Køb|BLÅ|0|10.00|0|  
-|01-01-20|Køb|BLÅ|0|20.00|2|  
+|01-01-20|Køb|BLÅ|1|10.00|1|  
+|01-01-20|Køb|BLÅ|1|20.00|2|  
 |02-01-20|Overførsel|BLÅ|-1|15.00|3|  
 |02-01-20|Overførsel|RØD|1|15.00|4|  
 
@@ -225,7 +225,7 @@ Følgende tabel viser effekten af overførslen på værdiposterne for varen.
 
 |Bogføringsdato|Vareposttype|Lokationskode|Værdiansat antal|Kostbeløb (faktisk)|Løbenummer|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Køb|BLÅ|0|10.00|0|  
+|01-01-20|Køb|BLÅ|1|10.00|1|  
 |02-01-20|Overførsel|BLÅ|-1|10,00|2|  
 |02-01-20|Overførsel|RØD|1|10,00|3|  
 

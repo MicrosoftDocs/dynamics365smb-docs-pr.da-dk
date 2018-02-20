@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e6be50119da5c617ce6dbf603903266f9ced821e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c9f2464014f2078f2a86f2e7d8a72873fa4015a8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-combine-shipments-on-a-single-invoice"></a>Sådan kombineres leverancer på én enkelt faktura
+# <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leverancer på én enkelt faktura
 Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.  
 
  Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleverance i samme valuta til den samme kunde. Du skal med andre ord have udfyldt to eller flere salgsordrer og bogført dem som leveret, men ikke faktureret. For at kombinere leverancer skal afkrydsningsfeltet **Tillad samlefaktura** være markeret i oversigtspanelet **Levering** på **debitor**-kortet.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du manuelt leverancer på én enkelt faktura  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Ny**. Du kan finde flere oplysninger under [Fremgangsmåde: Fakturere salg](sales-how-invoice-sales.md).
+2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md).
 3. I feltet **Kundenr** skal du angive den kunde, der skal modtage fakturaen for de leverede varer.  
 4. I oversigtspanelet **Linjer** skal du vælge handlingen **Hent salgsleverancelinjer**.  
 5. Vælg de leverancelinjer, der skal indgå i fakturaen:  

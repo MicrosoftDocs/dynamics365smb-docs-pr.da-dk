@@ -1,6 +1,6 @@
 ---
 title: Udstede, udskrive og annullere checks | Microsoft Docs
-description: "Beskriver, hvordan du udsteder checks ved hjælp af udbetalingskladden, udskriver checks og annullerer eller får vist checkposter i Dynamics 365."
+description: "Beskriver, hvordan du udsteder checks ved hjælp af udbetalingskladden, udskriver checks og annullerer eller får vist checkposter i Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,25 +13,25 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 85e5cd61571ec6e571a44e39f397bd370112dd5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b3f8bece0d0d1de9a6fd17b84df73d466ccdf403
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-checks"></a>Fremgangsmåde: Arbejde med checks
+# <a name="work-with-checks"></a>Arbejde med checks
 Du kan udstede elektroniske og manuelle check [!INCLUDE[d365fin](includes/d365fin_md.md)]. Udbetalingskladden bruges i begge tilfælde, når der udstedes checks til leverandører/kreditorer. Du kan også annullere checks og se checkposter.
 
 Under proceduren til udstedelse af checks foreslås der betalinger, der oprettes poster, og der udskrives computerchecks.
 
 > [!NOTE]  
->   Du kan kontrollere, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. Du kan finde flere oplysninger under [Fremgangsmåde: Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
+>   Du kan kontrollere, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. Du kan finde flere oplysninger under [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
 
-Printeren skal være konfigureret korrekt med checkformater, og du skal definere hvilket checklayout, der skal bruges. Du kan finde flere oplysninger under [Fremgangsmåde: Definere checklayouts](finance-how-define-check-layouts.md)
+Printeren skal være konfigureret korrekt med checkformater, og du skal definere hvilket checklayout, der skal bruges. Du kan finde flere oplysninger under [Definere checklayouts](finance-how-define-check-layouts.md)
 
 ## <a name="to-issue-checks"></a>Sådan udsteder du checks
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
-2. Udfyld kladden med relevante betalinger, f.eks. ved hjælp af funktionen Lav kreditorbetalingsforslag. Du kan finde flere oplysninger i [Fremgangsmåde: Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
+2. Udfyld kladden med relevante betalinger, f.eks. ved hjælp af funktionen Lav kreditorbetalingsforslag. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
 3. I feltet **Bankbetalingstype** på kladdelinjer til betaling, du vil foretage med check, skal du vælge en af følgende indstillinger:
 
    * **Computercheck**: Vælg denne mulighed, hvis du vil udskrive en check på beløbet fra udbetalingskladdelinjen. Du skal udskrive checkene, før du kan bogføre kladdelinjerne. Du kan kun vælge **Computercheck**, hvis **Modkontotype** eller **Kontotype** er **Bankkonto**.
@@ -63,6 +63,6 @@ Når checkbetalingen er blevet bogført, kan du kun annullere checks fra de resu
 ## <a name="see-also"></a>Se også
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
-[Fremgangsmåde: Eksportere en Positive Pay-fil](finance-how-positive-pay.md)  
+[Eksportere en Positive Pay-fil](finance-how-positive-pay.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>Fremgangsmåde: Oprette analyserapporter
+#  <a name="create-analysis-reports"></a>Oprette analyserapporter
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi.  
 
 Du kan bruge analyserapporter til at lave tilpassende rapporter på grundlag af poster for bogførte transaktioner, f.eks. salg, køb, overflytninger og lagerreguleringer. I en tilpasset rapport kan du kombinere, sammenligne og præsentere kildeoplysninger fra fra en varekladde (med tilhørende værdiposter) på mange forskellige måder, så du får meningsfulde oplysninger. Analyserapporten minder i den henseende meget om en rapport af typen Pivottabel i Microsoft Excel.  
@@ -28,7 +28,7 @@ Du kan oprette en tilpasset rapport, der fokuserer på dine nøglekonti med hens
 
 Analyserapporten består af de objekter, som du vil analysere, f.eks. kunder, kundegrupper, sælgere m.m., repræsenteret ved linjer, og analyseparametrene, dvs. den måde, som du vil analysere objekterne på, repræsenteret ved kolonner, f.eks. avanceberegning, periodisk sammenligning af salgsbeløb og -mængder eller af faktiske og budgetterede tal.
 
-Ud over analyserapporter, kan du oprette og få vist ensartede oplysninger i analysevisninger, som er baseret på dimensioner. Du kan finde flere oplysninger under [Fremgangsmåde: Analyser data efter dimensioner](bi-how-analyze-data-dimension.md).
+Ud over analyserapporter, kan du oprette og få vist ensartede oplysninger i analysevisninger, som er baseret på dimensioner. Du kan finde flere oplysninger under [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Eksempel  
 Du kan oprette linjer som følgende:  
@@ -41,9 +41,6 @@ Derefter kan du oprette kolonner som disse:
 - Salg indeværende måned  
 - Salg foregående måned  
 - Salg i % af foregående måned  
-
-> [!NOTE]  
->   Denne funktion kræver, at oplevelsen er indstillet til **Suite**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Opsætte linje- og kolonneformater  
  I vinduet **Analyserapport** kan du få vist forskellige linje- og kolonneformater alt efter din opsætning. Du opretter linjer eller linjeskabeloner i vinduet **Analyselinjeskabeloner**. I dette vindue kan du definere navnet på rapporten og de objekter, der skal vises på linjerne i rapporten. Kolonnerne angiver du i vinduet **Analysekolonneskabeloner**. I dette vindue kan du definere navnet på kolonneskabelonen og de analyseparametre, der skal vises i rapporten i form af kolonner. I vinduet **Analysekolonneskabeloner** repræsenterer hver linje en kolonne i rapporten. Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.  

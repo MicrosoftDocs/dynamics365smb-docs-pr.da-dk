@@ -13,13 +13,13 @@ ms.search.keywords: payment application, payment processing, match payments
 ms.date: 06/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2d59bfc3314a97b3145d17d11755539c82858234
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-vendor-payments-manually"></a>Fremgangsmåde: Udligne kreditorbetalinger manuelt
+# <a name="reconcile-vendor-payments-manually"></a>Udligne kreditorbetalinger manuelt
 Når du sender en betaling eller modtager en fra en kreditor, skal du beslutte, om betalingen skal udlignes eller refunderes på en eller flere åbne poster. Du kan f.eks. angive det nøjagtige beløb, som du vil udligne med betalingen, og dermed kun delvist udligne kreditorposter. Det er vigtigt, at du på et vist tidspunkt lukker (udligner) alle kreditorposter for at få korrekte kreditorstatistikker og rapporter over kontoudtog og finansændringer.
 
 > [!NOTE]  
@@ -93,7 +93,7 @@ Du kan også udligne kreditorbetalinger og debitorbetalinger, når betalinger vi
 ## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Sådan udlignes kreditorposter i forskellig valuta med hinanden
 Hvis du køber varer fra en leverandør i én valuta, men foretager betaling i en anden valuta, kan du alligevel udligne fakturaen med betalingen.
 
-Hvis du udligner en post (post 1) i en valuta med en post (post 2) i en anden valuta, anvendes bogføringsdatoen i post 1 til at finde relevante valutakurser til at konvertere beløb i post 2. Den relevante valutakurs findes i vinduet **Valutakurser**. Når det er tilfældet, skal du aktivere udligning af kreditorposter i forskellige valutaer. Du kan finde flere oplysninger under [Fremgangsmåde: Muliggøre udligning af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
+Hvis du udligner en post (post 1) i en valuta med en post (post 2) i en anden valuta, anvendes bogføringsdatoen i post 1 til at finde relevante valutakurser til at konvertere beløb i post 2. Den relevante valutakurs findes i vinduet **Valutakurser**. Når det er tilfældet, skal du aktivere udligning af kreditorposter i forskellige valutaer. Du kan finde flere oplysninger under [Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladde**, og vælg derefter det relaterede link.
 2. Åbn den ønskede kladde, og udfyld den første tomme kladdelinje ved hjælp af en valutakode.

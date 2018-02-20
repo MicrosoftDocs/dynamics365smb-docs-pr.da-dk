@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d87aa7fe44b183a823457be4448c84631cd75db6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
@@ -24,7 +24,7 @@ For at støtte en for JIT-lagerstrategi og muligheden for at tilpasse produkter 
 
 Der findes specielle funktioner til at dække levering af montage til ordre-mængder, både i grundlæggende og avancerede lagerkonfigurationer. Når medarbejdere, der er ansvarlige for montering, afslutter monteringsdele eller montage til ordre-mængde, registrerer de det i feltet **Levér antal** på lagerleverancelinjen i avancerede konfigurationer og vælger **Bogfør lev.**. Resultatet er, at den tilsvarende montageafgang bogføres, herunder det relaterede komponentforbrug, og en salgsleverance for mængden bogføres for den tilknyttede salgsordre. Denne gennemgang viser processen for det avancerede lager.  
 
-I grundlæggende lagerkonfigurationer bogfører den ansvarlige lagermedarbejder et lagerpluk for salgsordrelinjerne, når en montage til ordre-mængde er klar til at blive leveret. Derefter oprettes en flytning (lager) for komponenterne, og montageoutputtet og salgsordreleverancen bogføres. Du kan finde flere oplysninger i afsnittet "Håndtere montageordrevarer i Pluk (lager)" i Pluk (lager).  
+I grundlæggende lagerkonfigurationer bogfører den ansvarlige lagermedarbejder et lagerpluk for salgsordrelinjerne, når en montage til ordre-mængde er klar til at blive leveret. Derefter oprettes en flytning (lager) for komponenterne, og montageoutputtet og salgsordreleverancen bogføres. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)" i Pluk (lager).  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang  
 Denne gennemgang viser følgende opgaver:  
@@ -36,7 +36,7 @@ Montageelementer er kendetegnet ved deres genbestillingssystem og montagestyklis
 -   Oprette en montagestykliste, der viser montagekomponenter og den ressource, der indgår i montageelementet.  
 
 ### <a name="selling-customized-assembly-items"></a>Sælge tilpassede montageelementer  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
 
 -   Oprette en ren ATO-salgsordrelinje, hvor den fulde mængde ikke er tilgængelig, og som skal samles før afsendelse.  
 -   Tilpasse ATO elementer.  
@@ -179,10 +179,10 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     |**Type**|**Nummer**|**Antal pr.**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Vare|80001|0|  
-    |Vare|80011|0|  
-    |Vare|80209|0|  
-    |Ressource|Lise|0|  
+    |Vare|80001|1|  
+    |Vare|80011|1|  
+    |Vare|80209|1|  
+    |Ressource|Lise|1|  
 
 6.  Opret det andet montageelement baseret på følgende oplysninger.  
 
@@ -202,10 +202,10 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     |**Type**|**Nummer**|**Antal pr.**|  
     |-------------------------------|------------------------------|---------------------------------------|  
-    |Vare|80005|0|  
-    |Vare|80014|0|  
-    |Vare|80210|0|  
-    |Ressource|Lise|0|  
+    |Vare|80005|1|  
+    |Vare|80014|1|  
+    |Vare|80210|1|  
+    |Ressource|Lise|1|  
 
 ### <a name="selling-the-assembly-items"></a>Sælge montageelementerne  
 
@@ -237,7 +237,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     |Enhedstype|Nej.|Antal pr.|  
     |----------|---------|------------------|  
-    |Vare|80203|0|  
+    |Vare|80203|1|  
 
 9. Luk vinduet **Montage efter ordre-linjer**.  
 
@@ -432,10 +432,10 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ## <a name="see-also"></a>Se også  
  [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md)   
- [Fremgangsmåde: Montere elementer](assembly-how-to-assemble-items.md)   
- [Fremgangsmåde: Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Sådan sælger du en vare, der er monteret efter ordre.](assembly-how-to-sell-items-assembled-to-order.md)   
- [Fremgangsmåde: Montere elementer](assembly-how-to-assemble-items.md)   
+ [Montere elementer](assembly-how-to-assemble-items.md)   
+ [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
+ [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md)   
+ [Montere elementer](assembly-how-to-assemble-items.md)   
  [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)   
  [Designoplysninger: Internt lagerflow](design-details-internal-warehouse-flows.md)   
  [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)   

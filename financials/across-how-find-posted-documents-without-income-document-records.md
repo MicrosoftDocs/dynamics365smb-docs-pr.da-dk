@@ -13,13 +13,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8219b8a054901f81785ef1376c6f86763560cc31
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c355657821f5f4d18c707d296d9607cf5ec60442
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-find-posted-documents-without-incoming-document-records"></a>Fremgangsmåde: Finde bogførte dokumenter uden indgående dokumentposter
+# <a name="find-posted-documents-without-incoming-document-records"></a>Finde bogførte dokumenter uden indgående dokumentposter
 Fra vinduerne **Kontoplan** og **Finansposter** kan du bruge en søgefunktionen til at finde finansposter for bogførte og købs- og salgsdokumenter, som ikke har indgående dokument poster og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede dokument filer.
 
 ## <a name="to-find-posted-documents-without-incoming-document-records"></a>Sådan findes bogførte dokumenter uden indgående dokumentposter
@@ -35,11 +35,11 @@ Vinduet **Bogførte dokumenter uden indgående dokument** åbnes og viser bogfø
 2. Vælg den indgående dokumentpost, som du vil knytte til det bogførte fundne dokument, i vinduet **Indgående bilag**, og vælg derefter **OK**.
 3. I vinduet **Bogførte dokumenter uden indgående dokument** er den valgte indgående dokumentpost nu tilknyttet det bogførte dokument, som du kan se i faktaboksen **Indgående bilagsfiler**.
 
-Hvis der ikke findes en relevant indgående dokument post i vinduet **Indgående bilag** kan du oprette den. Du kan finde flere oplysninger under [Fremgangsmåde: Oprette indgående dokumentposter](across-how-create-income-document-records.md).
+Hvis der ikke findes en relevant indgående dokument post i vinduet **Indgående bilag** kan du oprette den. Du kan finde flere oplysninger under [Oprette indgående dokumentposter](across-how-create-income-document-records.md).
 
 ## <a name="see-also"></a>Se også
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

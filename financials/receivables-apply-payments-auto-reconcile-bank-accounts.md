@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: b12a298fd9dc8d03d04790debb7a66715cc96458
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7f6ec01c1ef1fc024326a7a384eb9d252fb6837b
 ms.contentlocale: da-dk
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Udligne betalinger automatisk og afstemme bankkonti
@@ -24,18 +24,18 @@ Rutinemæssigt skal du afstemme dine bank-, debet- og kreditkonti ved at udligne
 
 Du kan udføre denne opgave i vinduet **Betalingsudligningskladde** ved at importere en bankkontoudtogsfil eller et -feed for hurtigt at registrere betalinger. Betalinger udlignes til åbne debitor- eller kreditorposter baseret på sammenligninger i betalingstekst og oplysninger i poster. Du kan gennemse og ændre automatiske programmer, før du bogfører kladden. Du kan vælge at lukke alle åbne bankposter vedrørende de udlignede poster, når du bogfører kladden. Bankkontoen udlignes automatisk, når alle betalinger er udlignet.  
 
-For at gøre det muligt at importere bankkontoudtog som feeds, skal du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank kilder og derefter knytte dine bankkonti til de relaterede onlinebankkonti. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
+For at gøre det muligt at importere bankkontoudtog som feeds, skal du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank kilder og derefter knytte dine bankkonti til de relaterede onlinebankkonti. Du kan finde flere oplysninger under [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
-Du kan også bruge tjenesten til konvertering af bankdata til at konvertere en bankudtogsfil fra ethvert filformat til en datastrøm, som du kan importere i [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Du kan finde flere oplysninger under [Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md).  
+Du kan også bruge tjenesten til konvertering af bankdata til at konvertere en bankudtogsfil fra ethvert filformat til en datastrøm, som du kan importere i [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. Du kan finde flere oplysninger under [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md).  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 | Hvis du vil | Se |
 | --- | --- |
-| Udlign betalinger for at åbne debitor- eller kreditorposter ved at importere et bankkontoudtog og afstemme bankkontoen, når alle betalinger er udlignet. |[Fremgangsmåde: Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md) |
-| Udlign manuelt betalinger ved at få vist detaljerede oplysninger om afstemte data og forslag til åbne kandidatposter for at udligne betalinger til dem. |[Fremgangsmåde: Gennemse eller udligne betalinger efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md) |
-| Behandle betalinger, der ikke kan udlignes automatisk til de relaterede åbne poster. For eksempel fordi beløbene er forskellige, eller fordi en relateret post ikke findes. |[Fremgangsmåde: Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md) |
-| Sammenkæd teksten på betalinger til bestemte debitor-, kreditor- eller finanskonti for altid at bogføre tilbagevendende indbetalinger eller udgifter til disse konti, når der ikke findes nogen dokumenter at anvende dem på. |[Fremgangsmåde: Knytte tekst på tilbagevendende betalinger til automatisk udligning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
+| Udlign betalinger for at åbne debitor- eller kreditorposter ved at importere et bankkontoudtog og afstemme bankkontoen, når alle betalinger er udlignet. |[Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md) |
+| Udlign manuelt betalinger ved at få vist detaljerede oplysninger om afstemte data og forslag til åbne kandidatposter for at udligne betalinger til dem. |[Gennemse eller udligne betalinger efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md) |
+| Behandle betalinger, der ikke kan udlignes automatisk til de relaterede åbne poster. For eksempel fordi beløbene er forskellige, eller fordi en relateret post ikke findes. |[Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md) |
+| Sammenkæd teksten på betalinger til bestemte debitor-, kreditor- eller finanskonti for altid at bogføre tilbagevendende indbetalinger eller udgifter til disse konti, når der ikke findes nogen dokumenter at anvende dem på. |[Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 
 ## <a name="see-also"></a>Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)  

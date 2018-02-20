@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8da779426dfd06519507796c995adcedcd40ac81
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e2443552440cae8a0d90753d9a56fdc82006a197
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Administrere lageromkostninger
@@ -28,12 +28,12 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Læs forskellige begrebsmæssige oplysninger for at forstå de principper og definitioner, der styrer funktionaliteten for lageromkostningsregnskab i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].|[Om lagerkostmetode](finance-learn-about-costing.md)|  
+|Læs forskellige begrebsmæssige oplysninger for at forstå de principper og definitioner, der styrer funktionaliteten for lageromkostningsregnskab i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Om lagerkostmetode](finance-learn-about-costing.md)|  
 |Konfigurere lagerperioder, kostmetoder og afrundingsmetoder.|[Opsætte lagerværdi og kostprisberegning](finance-set-up-inventory-valuation-and-costing.md)|
-|Op- eller nedskriv værdien af en eller flere varer på lageret ved at bogføre deres aktuelle, beregnede værdi.|[Fremgangsmåde: Regulere lagerbeholdningen](inventory-how-revalue-inventory.md)|
-|Reguler varepriser, enten automatisk eller manuelt, for at videresende kostprisændringer fra indgående poster til deres relaterede udgående poster.|[Fremgangsmåde: Regulere varepriser](inventory-how-adjust-item-costs.md)|
+|Op- eller nedskriv værdien af en eller flere varer på lageret ved at bogføre deres aktuelle, beregnede værdi.|[Regulere lagerbeholdning](inventory-how-revalue-inventory.md)|
+|Reguler varepriser, enten automatisk eller manuelt, for at videresende kostprisændringer fra indgående poster til deres relaterede udgående poster.|[Regulere varepriser](inventory-how-adjust-item-costs.md)|
 |Brug særlige prisberegningsfunktioner for daglige transaktioner til operationer for varen.|[Håndtere lager- og produktionsomkostninger](finance-handle-inventory-and-manufacturing-costs.md)|  
-|Opdater regelmæssigt standardkostprisen for komponenter i montage eller produktionsstyklister, og akkumuler de nye omkostninger til den overordnede vare.|[Sådan gør du: Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)|
+|Opdater regelmæssigt standardkostprisen for komponenter i montage eller produktionsstyklister, og akkumuler de nye omkostninger til den overordnede vare.|[Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)|
 |Udføre periodeafslutningskontrol og rapporteringsopgaver, f.eks. beregning af lagerværdi og bogføring af omkostninger i finansposterne.|[Rapportere omkostninger og afstemme med regnskabet](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Få mere at vide om alle mekanismerne i kostsystemet.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|  
 

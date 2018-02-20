@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 99c3ac10460a62ee23294cfd0d8c25709c37901b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1ced6c90333c1da9cbd148f199debdc70ed5a46
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-put-aways-in-worksheets"></a>Fremgangsmåde: Planlægge læg-på-lager-aktiviteter i kladder
+# <a name="plan-put-aways-in-worksheets"></a>Planlægge læg-på-lager-aktiviteter i kladder
 Hvis lokationen kræver både læg-på-lager og modtagelse, og du vil planlægge læg-på-lager-instruktioner til en række modtagelser – i stedet for at lade medarbejderne følge de instruktioner, der automatisk oprettes til separate bogførte modtagelser – kan du bruge læg-på-lager-kladden.  
 
 Marker feltet **Brug læg-på-lager-kladde** i oversigtspanelet **Lager** på lokationskortet, hvis du vil sætte lageret op, så modtagelseslinjer bliver tilgængelige i læg-på-lager-kladden, så snart de er bogført. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).  
@@ -58,7 +58,7 @@ Hvis du ikke markerer feltet, oprettes der automatisk læg-på-lager-instruktion
 
     -   Du kan tildele læg-på-lager-aktiviteten til en bestemt medarbejder.  
     -   Du kan sortere læg-på-lager-instruktionslinjerne på samme måde som i kladden eller efter placeringsniveau. Hvis du sorterer efter placeringsniveau, står Hent-linjerne øverst, da de fleste modtagelsesplaceringer har et placeringsniveau på 0, og Placer-linjerne nederst, startende med de placeringer, der har det laveste placeringsniveau. Hvis lagerstedet er struktureret, så placeringer med omtrent samme placeringsniveau står ved siden af hinanden, vil en sådan sorteringsmetode spare tid for lagermedarbejderne.  
-    -   Du kan vælge ikke at få vist de midlertidige linjer, der oprettes, når programmet opdeler en stor måleenhed i mindre enheder ved at markere feltet **Angiv nedbrydningsfilter**. Du kan finde flere oplysninger i [Fremgangsmåde: Aktivere automatisk nedbrydning med styret læg-på-lager og pluk] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Du kan vælge ikke at få vist de midlertidige linjer, der oprettes, når programmet opdeler en stor måleenhed i mindre enheder ved at markere feltet **Angiv nedbrydningsfilter**. Du kan finde flere oplysninger i [Aktivere automatisk nedbrydning med styret læg-på-lager og pluk] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Du kan vælge, at feltet **Håndteringsantal** ikke skal udfyldes automatisk på læg-på-lager-instruktionerne.  
     -   Du kan vælge at få udskrevet dokumentet med det samme.  
 

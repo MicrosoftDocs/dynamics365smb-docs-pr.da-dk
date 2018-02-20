@@ -1,6 +1,6 @@
 ---
 title: "Oprette målgrupper | Microsoft Docs"
-description: "Beskriver, hvordan du opretter en målgruppe for en gruppe kontaktpersoner i Dynamics 365 Business edition, f.eks. for at fokusere på flere kontakter med en direct mail."
+description: "Beskriver, hvordan du opretter en målgruppe for en gruppe kontaktpersoner i Finance and Operations, Business edition, f.eks. for at fokusere på flere kontakter med en direct mail."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dc915aaf2bb273417d87f6ea8bf1b1f5eb142ff3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4e76980237c79919b0e90ae75115c1571a6cdb85
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-segments"></a>Fremgangsmåde: Oprette målgrupper
+# <a name="create-segments"></a>Oprette målgrupper
 Du kan oprette målgrupper for at vælge en gruppe kontakter, hvis du f.eks. vil oprette en interaktion, der vedrører flere forskellige kontakter, f.eks. en direct mail.
 
 ## <a name="to-create-a-segment"></a>Sådan oprettes målgrupper
@@ -30,7 +30,7 @@ Du kan oprette målgrupper for at vælge en gruppe kontakter, hvis du f.eks. vil
     Hvis du har defineret en nummerserie for målgrupper i vinduet **Marketingopsætning** kan du trykke på Enter for at vælge det næste tilgængelige målgruppenummer.
 4. Udfyld de andre felter på hovedet.
 
-Du kan nu føje kontakter til målgruppen. Du kan finde flere oplysninger i [Fremgangsmåde: Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
+Du kan nu føje kontakter til målgruppen. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se også
 [Administrere målgrupper](marketing-segments.md)  
