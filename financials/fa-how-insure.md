@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Forsikring af anlægsaktiver
@@ -70,7 +70,7 @@ Du kan bruge kørslen **Indekser forsikring** til at opdatere værdien af de anl
 5. Åbn den relevante forsikringskladde, gennemse de oprettede værdier, og bogfør dem til forsikringsposterne.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Sådan overvåges forsikringsdækning
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder dedikerede rapporter og statistikvinduer, så du kan analysere forsikringspolicerne og om anlægsaktiverne er over- eller underforsikrede.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder dedikerede rapporter og statistikvinduer, så du kan analysere forsikringspolicerne og om anlægsaktiverne er over- eller underforsikrede.  
 
 ### <a name="overview-of-insurance-policies"></a>Oversigt over forsikringspolicer
 Hvis du vil have et overblik over dine forsikringspolicer, skal du åbne en eksempelvisning af rapporten **Forsikring - stamoplysninger** eller udskrive rapporten. Rapporten indeholder alle policer og de vigtigste felter fra forsikringskortene.  

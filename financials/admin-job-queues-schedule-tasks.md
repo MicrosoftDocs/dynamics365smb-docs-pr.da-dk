@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 712f0de68476a73871672c399bc5be72d511d9c1
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Du kan bruge opgavekøer til at planlægge opgaver
@@ -25,7 +25,7 @@ Vinduet **Opgavekøposter** viser alle eksisterende sager. Hvis du tilføjer en 
 
 Du kan også angive et filter i feltet **Opgavekøkategorifilter**. Kategorier for opgavekøen kan bruges til at gruppere sager på listen.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kører automatisk sagerne i overensstemmelse med de angivne planer for hver opgavekøpost. Du kan også starte, stoppe og sætte en opgavekøpost i venteposition manuelt.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kører automatisk sagerne i overensstemmelse med de angivne planer for hver opgavekøpost. Du kan også starte, stoppe og sætte en opgavekøpost i venteposition manuelt.
 
 ### <a name="log-files"></a>Log-filer
 Fejl vises i vinduet **Logposter i opgavekø** vindue, som du kan få adgang til fra båndet. Du kan også foretage fejlfinding for opgavekøfejl. De data, der genereres, når der køres en opgavekø, gemmes i databasen.  
@@ -35,7 +35,7 @@ Jobkøer er et effektivt værktøj til at planlægge kørsel af forretningsproce
 
  Alternativt kan du planlægge posteringer i timevis, når det er belejligt for din organisation. F.eks. giver det muligvis mening i din virksomhed at køre visse rutiner, når de fleste af dataindtastningerne for den pågældende dag er afsluttede. Du kan opnå dette ved at indstille opgavekøen til at køre forskellige massebogføringsrapporter, f.eks. rapporterne **Massebogfør salgsordrer**, **Massebogfør salgsfakturaer**, og **Massebogfør salgskreditnotaer**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  understøtter baggrundsbogføring for følgende dokumenttyper:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter baggrundsbogføring for følgende dokumenttyper:  
 
 -   Salg: salgsordre, returvareordre, kreditnota, faktura  
 
@@ -52,7 +52,7 @@ Du konfigurerer denne anvendelse af opgavekøen i henholdsvis vinduet **Salgsops
 >  Hvis du konfigurerer et opgave, der bogfører og udskriver dokumenter, og printeren viser en dialogboks, f.eks. en anmodning om legitimationsoplysninger eller en advarsel om næsten tom blækpatron, bogføres dit dokument, men det udskrives ikke. Den tilsvarende opgavekøpost får på et tidspunkt timeout og feltet **Status** indstilles til **Fejl**. Derfor anbefaler vi, at du ikke bruger en printeropsæting, der kræver interaktion med visningen af printerdialogbokse i forbindelse med baggrundsbogføring.  
 
 ## <a name="use-the-my-job-queue-part"></a>Brug delen Min opgavekø
-Delen **Min opgavekø** viser de poster i opgavekøen, som en bruger har startet, men som ikke er færdige endnu. Som standard er delen ikke synlig, så du skal føje den til dit rollecenter. Du kan finde flere oplysninger under [Ændre rollecentre](change-role.md).  
+Delen **Min opgavekø** viser de poster i opgavekøen, som en bruger har startet, men som ikke er færdige endnu. Som standard er delen ikke synlig, så du skal føje den til dit rollecenter. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).  
 
 I denne del kan du se de dokumenter, der behandles, eller som er i kø, hvor dit id er angivet i feltet **Tildelt bruger-id**. Denne del hjælper dig med at holde styr på alle poster i opgavekøen, herunder dem der er relateret til baggrundsbogføring. Denne del kan give dig et overblik over, om der er opstået en fejl i bogføringen af et dokument, eller om der er fejl i en opgavekøpost. Delen giver dig også mulighed for at annullere bogføringen af et dokument, hvis det ikke kører.  
 

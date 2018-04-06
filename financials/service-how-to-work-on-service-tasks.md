@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-on-service-tasks"></a>Arbejde med serviceopgaver
 Når du har oprettet en serviceordre eller et servicetilbud, registreret serviceartikellinjer og allokeret ressourcer til serviceartiklerne i ordren eller tilbuddet, kan du begynde at reparere og vedligeholde serviceartiklerne.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Programmet indeholder vinduet **Serviceopgaver**, der giver et overblik over alle de serviceartikler, der skal behandles. Du betragte dette vindue som dit servicedashboard, hvor du kan se, hvilke ordrer der venter, søge efter og registrere reservedele og holde lageret opdateret.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder vinduet **Serviceopgaver**, der giver et overblik over alle de serviceartikler, der skal behandles. Du betragte dette vindue som dit servicedashboard, hvor du kan se, hvilke ordrer der venter, søge efter og registrere reservedele og holde lageret opdateret.  
   
 Hvis du vil spore ændringer og have vist grafiske oversigter over serviceaktiviteterne, kan du bruge statistikværktøjerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] til hurtigt at opstille automatisk genererede diagrammer og analyser.  
   

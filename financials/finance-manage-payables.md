@@ -18,11 +18,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 654c34bc09967247617bda7be070a9c0ec6f635d
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløb
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder det, du behøver for effektivt at administrere kreditorer.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder det, du behøver for effektivt at administrere kreditorer.  
 
 ## <a name="payments"></a>Udbetaling kladde
 Det er nemt at prioritere betalinger, tage højde for strafgebyrer for forfaldne betalinger og håndtere kontantrabatter for førtidige betalinger.
@@ -32,10 +32,10 @@ Du kan registrere betalinger i en finanskladde og derefter udskrive checks, inde
 Du kan udligne betalinger for at lukke fakturaer, når du bogfører betalingen, eller efter du har bogført betalingen. Feltet **Udligningsmetode**, som er angivet for kreditoren (på **Kreditorkort**), er bestemmende for, om du skal foretage betalingen manuelt, eller om det sker automatisk. Du kan altid udligne transaktioner manuelt. Men hvis udligningsmetoden for kreditor er **Saldo**, og du ikke angiver et dokument som betalingen skal udlignes til, bliver betalingen udlignet til den ældste åbne post for kreditoren.
 
 ## <a name="suggest-vendor-payments"></a>Lav forslag
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kan foreslå forskellige betalinger til kreditorer. Det kan f.eks. være betalinger, som snart forfalder, eller som omfatter rabat. Betalingsforslaget kan tage et beløb i betragtning, som du angiver som tilgængelige midler til betaling og berettigelse af kontantrabat.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kan foreslå forskellige betalinger til kreditorer. Det kan f.eks. være betalinger, som snart forfalder, eller som omfatter rabat. Betalingsforslaget kan tage et beløb i betragtning, som du angiver som tilgængelige midler til betaling og berettigelse af kontantrabat.
 
 ## <a name="issue-checks"></a>Udstede checks
-[!INCLUDE[d365fin](includes/d365fin_md.md)] I  kan du udstede checks til kreditorer manuelt og elektronisk. Du kan gøre begge dele i vinduet **Udbetalingskladder**, hvor du kan også annullere checks og se checkposter.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du udstede checks til kreditorer manuelt og elektronisk. Du kan gøre begge dele i vinduet **Udbetalingskladder**, hvor du kan også annullere checks og se checkposter.
 
 ## <a name="export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
 Når du er klar til at betale en kreditor fra vinduet **Udbetalingskladde**, kan du eksportere en fil med betalingsoplysningerne fra kladdelinjerne. Derefter kan du overføre filen til din elektroniske bank for at behandle pengeoverførslerne.

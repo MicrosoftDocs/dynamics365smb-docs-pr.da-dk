@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
 ms.openlocfilehash: 6543eb4210a64802660189e5060975a327d71099
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-included365acclongincludesd365acclongmdmd"></a>Tilføje kunder til dit dashboard i [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]

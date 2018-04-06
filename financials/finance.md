@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Finans
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
 
 Standardkonfigurationen indeholder en kontoplan og standardbogføringsgrupper, som gør det mere effektivt at tildele standardfinanskonti til debitorer, kreditorer og varer.  
 
@@ -32,7 +32,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Foretage indbetalinger, udligne udgående betalinger og arbejde med check. |[Administrere skyldige beløb](payables-manage-payables.md) |
 |Få dine debitorer til at sende betaling, før du sender til dem, eller send betaling til dine kreditorer, før de sender til dig.|[Fakturere forudbetalinger](finance-invoice-prepayments.md)|
 | Afstemme bankkonti og overføre beløb mellem bankkonti. |[Håndtere bankkonti](bank-manage-bank-accounts.md) |
-|Opret intercompany-partnere, og behandl transaktioner, manuelt eller automatisk, mellem juridiske enheder inden for samme virksomhed.|[Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)|
+|Opret koncerninterne partnere, og behandl transaktioner, manuelt eller automatisk, mellem juridiske enheder inden for samme virksomhed.|[Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)|
+|Kombinerer finansposter fra flere regnskaber i ét virtuelt "konsolideret regnskab" til finansielle analyser.|[Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)|
 |Analysér omkostningerne til virksomhedens drift ved at fordele faktiske og budgetterede omkostninger for operationer, afdelinger, produkter og projekter til omkostningssteder.|[Regnskab for omkostninger](finance-manage-cost-accounting.md)|
 |Styre lager- og produktionsomkostninger, rapportere omkostninger og afstemme omkostninger med finansposterne.|[Administrere lageromkostninger](finance-manage-inventory-costs.md)|
 | Forstå finans og kontoplanen. |[Om Finans og kontoplanen](finance-general-ledger.md) |

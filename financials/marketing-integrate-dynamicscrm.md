@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: cc1ad2ef812c073e570835e4018ce077b3b45494
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Administration af kunder og salg, der er oprettet i Dynamics 365 for Sales
@@ -76,7 +76,14 @@ I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen *
 
 For at kontrollere status for individuelle job i en fuldstændig synkronisering skal du fokusere på felterne **Status for opgavekøpost**, **Status for til int. tabel-job** eller **Status for fra int. tabel-job** i vinduet **Fuld CRM-synkroniseringsgennemgang**.
 
-Fra vinduet **Konfiguration af Dynamics 365 for Sales-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne vinduet **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i Finance and Operations, Business edition og Dynamics 365 for Sales-løsningen, som skal synkroniseres.
+Fra vinduet **Konfiguration af Dynamics 365 for Sales-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne vinduet **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i Finance and Operations, Business edition og Dynamics 365 for Sales-løsningen, som skal synkroniseres.  
+
+## <a name="handling-special-sales-order-data"></a>Håndtering af særlige salgsordredata
+Salgsordrer i Dynamics 365 for Sales vil automatisk blive overført til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du vælger afkrydsningsfeltet **Opret salgsordrer automatisk** i vinduet **Konfiguration af Microsoft Dynamics 365 for Sales-forbindelse**. På sådanne salgsordrer overføres og knyttes feltet **Navn** på den oprindelige ordre til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede produkter, hvilket betyder varer eller ressourcer, der ikke er registreret i noget produkt. I så fald skal du udfylde felterne **Rekvireret produkttype** og **Rekvireret produktnr.** i vinduet **Opsætning af salg og tilgodehavender**, så sådanne ikke-registrerede produktsalg knyttes til et bestemt vare/ressourcenummer for finansielle analyser.
+
+Hvis varebeskrivelsen på den oprindelige salgsordre er meget lang, oprettes der en ekstra salgsordrelinje af typen Bemærkning for at holde hele teksten på salgsordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Se også
 [Relationsstyring](marketing-relationship-management.md)  

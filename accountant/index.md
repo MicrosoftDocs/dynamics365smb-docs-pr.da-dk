@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 419c13f4d7b35f66fae04d71d269208d9c172613
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="welcome-to-included365acclongincludesd365acclongmdmd"></a>Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]

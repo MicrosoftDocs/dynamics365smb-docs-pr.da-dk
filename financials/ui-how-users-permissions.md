@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e78504959c5e858b420ac463d0a6adbaccad9481
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Administrere brugere og deres rettigheder
@@ -22,11 +22,9 @@ Når du vil tilføje brugere i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal
 
 Når brugerne er oprettet i Office 365, kan de importeres i vinduet **Brugere** ved hjælp af handlingen **Hent brugere fra Office 365**. Brugere tildeles rettighedssæt afhængigt af den plan, der er tildelt til Brugere i Office 365.
 
-Du kan derefter fortsætte med at tildele rettighedssæt til brugerne for at definere, hvilke databaseobjekter, og dermed hvilke elementer i brugergrænsefladen, de skal have adgang til, og i hvilke virksomheder.
+Du kan derefter fortsætte med at tildele rettighedssæt til brugerne for at definere, hvilke databaseobjekter, og dermed hvilke elementer i brugergrænsefladen, de skal have adgang til, og i hvilke virksomheder. Du kan føje brugere til brugergrupper. Det gør det nemmere at tildele de samme rettighedssæt til flere brugere.
 
 Et rettighedssæt er en samling tilladelser til bestemte objekter i databasen. Alle brugere skal være tildelt et eller flere rettighedssæt, før de kan få adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Der findes som standard et antal foruddefinerede rettighedssæt. Du kan bruge disse tilladelsessæt, som allerede er defineret, ændre standardtilladelsessættene eller oprette flere tilladelsessæt.
-
-Du kan føje brugere til brugergrupper. Det gør det nemmere at tildele de samme rettighedssæt til flere brugere.
 
 Administratorer kan bruge vinduet **Brugeropsætning** til at definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på.
 
@@ -42,13 +40,9 @@ Du kan oprette brugergrupper, så du bedre kan administrere rettighedssæt for g
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugere**, og vælg derefter det relaterede link.
 2. Du kan også vælge handlingen **Brugergrupper** i vinduet **Brugere**.
-3. I vinduet **Brugergrupper** skal du vælge en eksisterende gruppe, du vil kopiere, og derefter vælge handlingen **Kopiér brugergruppe**.
-4. I feltet **Ny brugergruppekode** skal du angive navnet på den nye gruppe og derefter vælge knappen **OK**.
-
-    I stedet for at kopiere kan du også vælge handlingen Ny for at oprette en ny linje til en tom brugergruppe, som du derefter udfylder manuelt.
-5. Hvis du vil tilføje nye eller flere brugere, skal du vælge handlingen **Medlemmer af brugergruppe** i vinduet **Brugergruppe**.
-6. I vinduet **Medlemmer af brugergruppe** skal du på en ny linje udfylde felterne efter behov ved at vælge mellem eksisterende brugere.
-7. Hvis du vil tilføje nye eller flere rettighedssæt, skal du vælge handlingen **Rettighedssæt for brugergruppe** i vinduet **Brugergruppe**.
+3. Du kan også vælge handlingen **Medlemmer af brugergruppe** i vinduet **Brugergruppe**.
+6. Vælg handlingen **Tilføj brugere** i vinduet **Medlemmer af brugergruppe**.
+7. Hvis du vil tilføje nye eller flere rettighedssæt, skal du vælge handlingen **Rettighedssæt for brugergruppe** i vinduet **Brugergrupper**.
 8. I vinduet **Rettighedssæt for brugergruppe** skal du på en ny linje udfylde felterne efter behov ved at vælge mellem eksisterende rettighedssæt.
 
 ## <a name="to-set-up-user-time-constraints"></a>Sådan opsættes tidsbegrænsninger for brugere

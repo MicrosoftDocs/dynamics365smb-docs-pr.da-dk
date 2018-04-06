@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
@@ -67,13 +67,15 @@ Sådan bruges den assisterede opsætningsvejledning:
 
 1. I rollecenteret Regnskabsmedarbejder under diagrammet **Pengestrømsprognose** skal du klikke på handlingen **Åbn assisteret opsætning**.  
 2. Udfyld felterne i hvert trin i vejledningen.  
-3. På startsiden skal du vælge **Pengestrømsprognose** over diagrammet og derefter **Genberegn prognose**.  
+3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
+4. I vinduet **Pengestrømsprognose** skal du vælge handlingen **Genberegn prognose**.  
 
 Sådan bruges en manuel proces:  
 
 1. I rollecenteret Regnskabsmedarbejder skal du søge efter **Pengestrømskonfiguration** og derefter vælge det relaterede link.  
 2. Udvid oversigtspanelet **Cortana Intelligence**, og marker derefter afkrydsningsfeltet **Cortana Intelligence aktiveret**.  
-3. På startsiden skal du vælge **Pengestrømsprognose** over diagrammet og derefter **Genberegn prognose**.  
+3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
+4. I vinduet **Pengestrømsprognose** skal du vælge handlingen **Genberegn prognose**.  
 
 > [!TIP]  
 >   Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Cortana Intelligence ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  

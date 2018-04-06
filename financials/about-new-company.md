@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/14/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 10fb70ded1407c95034db6fcf974c37c6e119099
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Oprettelse af nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,14 +25,15 @@ Hvis du vil indsætte en virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)
 
 Opsætningsguiden indeholder tre skabeloner:
 
--   **Suite-evaluering**  
+-   **Evaluering - eksempeldata**  
     Den opretter en virksomhed, der ligner demonstrationsvirksomheden med eksempeldata og opsætningsdata.  
--   **Suite-produktion**  
-    Den opretter en virksomhed, der ligner **Min virksomhed** med opsætningsdata, men uden eksempeldata.  
--   **Nyt**  
+-   **Produktion - kun opsætningsdata**  
+    Den opretter en virksomhed, der ligner **Min virksomhed** med opsætningsdata, men uden eksempeldata.
+-   **Avanceret evaluering - komplette eksempeldata** Der oprettes en virksomhed med opsætningsdata og komplette eksempeldata til alle funktioner, herunder produktion og service.
+-   **Opret ny - Ingen data**  
     Der oprettes en tom virksomhed uden opsætningsdata.  
 
-Hvis du vil komme hurtigt i gang med en ny virksomhed, kan du vælge **Suite-produktion** og derefter importere dine egne forretningsdata, som f.eks. debitorer, varer og kreditorer. Vælg skabelonen **Nyt**, hvis du vil oprette alt fra bunden. I så fald kan du bruge den assisterende opsætningsguide **Virksomhedsopsætning** til at hjælpe dig i gang med de vigtige opsætningsdata.  
+Hvis du vil komme hurtigt i gang med en ny virksomhed, kan du vælge **Produktion - Kun konfigurationsdata** og derefter importere dine egne forretningsdata, som f.eks. debitorer, varer og kreditorer. Vælg skabelonen **Nyt**, hvis du vil oprette alt fra bunden. I så fald kan du bruge den assisterende opsætningsvejledning **Virksomhedsopsætning** til at hjælpe dig i gang med de vigtige opsætningsdata.  
 
 > [!NOTE]  
 >   Når du opretter en ny virksomhed, tager det nogle minutter, før du kan få adgang til den i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Opsætningsstatussen i vinduet **Virksomheder** vises som standard, når den nye virksomhed er klar til dig. Derefter kan du skifte til den nye virksomhed ved hjælp af **Mine indstillinger**.  
@@ -44,10 +45,11 @@ Når du logger på en ny virksomhed, kører guiden **Virksomhedsopsætning** aut
 
 Din virksomhedsadresse medtages f.eks. i fakturaer og andre dokumenter, bankoplysningerne bruges i betalinger, og kostmetoden bruges til at beregne priser samt lagerværdi.  
 
-Når du har styr på det grundlæggende, kan du oprette de resterende centrale områder. Du er klar til at tilføje forretningsdata, f.eks. debitorer og kreditorer. Du kan finde flere oplysninger under [Konfigurere Finance and Operations, Business edition ](setup.md).  
+Når du har styr på det grundlæggende, kan du oprette de resterende centrale områder. Du er klar til at tilføje forretningsdata, f.eks. debitorer og kreditorer. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ## <a name="see-also"></a>Se også
-[Konfigurere Finance and Operations, Business edition ](setup.md)  
+[Tilpasse Finance and Operations, Business edition](ui-customizing-overview.md)  
+[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

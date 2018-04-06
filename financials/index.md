@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 09/14/2017
+ms.date: 01/31/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9ffe72d64d8cb9a3db426ad299af8c2025ec31f5
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Tilmelding er nemt, og du kan overflytte eksisterende forretningsdata fra dit gamle system.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Tilmelding er nemt, og du kan overflytte eksisterende forretningsdata fra dit gamle system.
 Når du tilmelder dig eksempelversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)], får du adgang til en demonstrationsvirksomhed. Demonstrationsvirksomheden indeholder eksempeldata, men du kan oprette dine egne salgsdokumenter f.eks eller oprette en bankkonto.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Lære [!INCLUDE[d365fin](includes/d365fin_md.md)] at kende
@@ -35,16 +35,16 @@ Du kan finde flere oplysninger i [Arbejde med [!INCLUDE[d365fin](includes/d365fi
 Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](madeira-business-functionality.md). Du kan få et overblik over aktuelle funktioner, og hvad der kommer senere, i vores oversigt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Startsiderne
-På startsider kan du via et rollecentreret design få hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige startsider ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændre rollecentret](change-role.md).  
+På startsider kan du via et rollecentreret design få hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige startsider ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).  
 
 Hver startside indeholder knappen **Installation og udvidelser**. Her kan du få adgang til en liste over assisteret opsætning, som kan hjælpe dig i gang med at definere markerede områder hurtigt. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningsvinduer, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Suite**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
+>   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Essentiel**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).  
 
-I vinduet **Assisteret opsætning** kan du finde følgende i **Suite**-oplevelsen:
+I vinduet **Assisteret opsætning** kan du finde følgende sammen med oplevelsen **Essentiel**:
 
-| Assisteret opsætning | Beskrivelse |
+| Assisteret opsætning | Description |
 | --- | --- |
 | Overflyt virksomhedsdata |Gør det muligt at indlæse eksisterende virksomhedsdata som kreditorer, debitorer og varer fra Excel eller Quickbooks. |
 | Konfigurer min virksomhed |Opretter en ny prøvevirksomhed, hvor du kan indtaste data og afprøve [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du har gennemgået introduktionspræsentationen, er dette sikkert allerede **Afsluttet**. |
@@ -53,7 +53,7 @@ I vinduet **Assisteret opsætning** kan du finde følgende i **Suite**-oplevelse
 | Konfigurer et godkendelsesworkflow for kunde |Konfigurerer godkendelsesworkflows, som automatisk underretter en godkender, når en bruger forsøger at oprette eller ændre et debitorkort. |
 | Konfigurer mail |Gør det muligt for dig at sende mails direkte fra f.eks. salgsordrer eller kontakter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Konfigurer maillogføring |Konfigurerer muligheden for at gemme mailkorrespondance i [!INCLUDE[d365fin](includes/d365fin_md.md)] for at følge op på interaktioner. |
-| Konfigurer Outlook for  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Konfigurerer muligheden for at bruge og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
+| Konfigurer Outlook for [!INCLUDE[d365fin](includes/d365fin_md.md)] |Konfigurerer muligheden for at bruge og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
 | Konfigurer rapportering |Konfigurerer datasæt, som du kan bruge til at oprette effektive rapporter ved hjælp af f.eks. Excel eller Power BI. |
 | Konfigurer et godkendelsesworkflow for vare |Gør det muligt at sende en notifikation til en godkender, når en bruger ændrer eller opretter en vare. |
 | Konfigurer et godkendelsesworkflow for betaling |Gør det muligt for en bruger, der sender betalingskladdelinjer til godkendelse, at sende en meddelelse til godkenderen. |
@@ -66,7 +66,7 @@ Overvejer du at tegne abonnement? Du kan nemt gå fra demonstrationsregnskabet o
 Hvis du vil oprette et regnskab for at afprøve ting, skal du gå til menuen **Indstillinger** i øverste højre hjørne og ændre virksomheden til **Min virksomhed**. Log af [!INCLUDE[d365fin](includes/d365fin_md.md)], og log på igen for at anvende ændringerne. En assisteret opsætningsvejledning hjælper dig med at angive basisoplysninger om virksomheden. Når du har gjort det, skal du på startsiden vælge handlingen **Assisteret opsætning**.  
 
 ## <a name="ready-to-subscribe"></a>Er du klar til at tegne abonnement?
-Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter at tegne abonnement, kan du bruge linket i meddelelsen til at komme i forbindelse med Microsoft. Du kan også kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707) salg.  
+Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter at tegne abonnement, kan du bruge linket i meddelelsen til at komme i forbindelse med Microsoft. Du kan også kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707) .  
 
 ## <a name="other-finance-and-operations-business-edition-apps"></a>Andre apps til Finance and Operations, Business edition
 Gå til oplysninger om Finance and Operations, Business edition-apps ved at vælge linket [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) i det blå banner øverst på denne side. Du kan også få mere at vide på [Dynamics 365 for Finance and Operations, Business edition-webstedet](https://www.microsoft.com/en-us/dynamics365/).  
@@ -83,5 +83,6 @@ Hvis du er revisor, kan du tilmelde dig [!INCLUDE[d365acc_long](includes/d365acc
 [Oversigt over Finance and Operations, Business edition](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

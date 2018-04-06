@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: c2a6f5a214662dd5255d075a623b2039e5392e3d
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="adjust-item-costs"></a>Regulere varepriser
@@ -34,7 +34,7 @@ Hvis du bruger kostmetoden FIFO, er en vares kostpris er den faktiske værdi af 
 
 Hvis du bruger kostmetoden Gennemsnit, beregnes en vares kostpris som den gennemsnitlige kostpris på hvert enkelt tidspunkt efter et køb. Lager værdiansættes ud fra den forudsætning, at alle lagerbeholdninger sælges samtidig. For varer, der bruger denne kostmetode, kan du vælge feltet **Kostpris** på varekortet for at få vist en oversigt over transaktioner, som den gennemsnitlige kostpris beregnes ud fra
 
-Funktionen til regulering af kostpriser behandler kun de værdiposter, der endnu ikke er reguleret. Hvis der opstår en situation, hvor funktionen skal overføre ændrede indgående omkostninger til tilknyttede udgående poster, oprettes nye justeringsværdiposter, som er baseret på oplysningerne i de oprindelige værdiposter, men som indeholder justeringsbeløbet. Omkostningsreguleringsfunktionen bruger bogføringsdatoen for den oprindelige værdipost i justeringsposten, medmindre den dato er inden for en lukket lagerperiode. Hvis det er tilfældet, bruges startdatoen for den næste åbne lagerperiode. Hvis der ikke anvendes lagerperioder, er det datoen i feltet **Bogf. tilladt fra** i vinduet **Regnskabsopsætning**, der definerer, hvornår reguleringsposten bogføres.
+Funktionen til regulering af kostpriser behandler kun de værdiposter, der endnu ikke er reguleret. Hvis der opstår en situation, hvor funktionen skal overføre ændrede indgående omkostninger til tilknyttede udgående poster, oprettes nye justeringsværdiposter, som er baseret på oplysningerne i de oprindelige værdiposter, men som indeholder justeringsbeløbet. Omkostningsreguleringsfunktionen bruger bogføringsdatoen for den oprindelige værdipost i justeringsposten, medmindre den dato er inden for en lukket lagerperiode. Hvis det er tilfældet, bruges startdatoen for den næste åbne lagerperiode. Hvis der ikke anvendes lagerperioder, er det datoen i feltet **Bogf. tilladt fra** i vinduet **Opsætning af Finans**, der definerer, hvornår reguleringsposten bogføres.
 
 ## <a name="to-adjust-item-costs-manually"></a>Sådan reguleres varekostpriser manuelt
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Juster kostpris - vareposter**, og vælg derefter det relaterede link.
@@ -63,7 +63,7 @@ Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardk
  Det, du vælger i feltet **Kostmetode**, har indflydelse på, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner indholdet i felterne **Kostpris** på linjerne.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Kostmetoden FIFO, LIFO, Serienummer eller Gennemsnit  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] Programmet beregner indholdet af feltet **Kostpris RV** på købslinjen, og indholdet af feltet **Kostpris** på varekladdelinjen beregnes efter følgende formel:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner indholdet af feltet **Kostpris RV** på købslinjen og indholdet af feltet **Kostpris** på serviceartikelkladdelinjen beregnes efter følgende formel:  
 
  Kostpris (RV) = (Direkte kostpris - (Fakturarabatbeløb/Antal)) x (1 + Omkostningspct./100) + IPO-bidrag  
 

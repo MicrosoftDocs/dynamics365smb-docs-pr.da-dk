@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Tilgængelighedsfunktioner og tastaturgenveje i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[d365fin](includes/d365fin_md.md)] direkte tilgængelig for personer med handicap. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter følgende funktioner i Hjælp til handicappede:  
 
--   Tastaturgenveje  
+-   Tastaturgenveje
+
+    Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md).
 
 -   Navigation  
 
@@ -30,18 +32,21 @@ Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[d365fin](
 
 -   Understøttelse af almindelige hjælpeteknologier  
 
-##  <a name="Keyboard"></a> Tastaturgenveje i browseren
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  understøtter de tastaturgenveje, der understøttes af de fleste webbrowsere. De tastaturgenveje, der beskrives her, henviser til et amerikansk tastaturlayout. Tasterne kan være anderledes på andre tastaturlayout.  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-|For at gøre følgende|Tryk|  
+|To do this|Press|  
 |----------------|-----------|  
-|Aktivere det næste eller forrige kontrolelement eller objekt på en side, f.eks. knapper, felter eller elementer på en liste.|Tab, Skift+Tab|  
-|Aktivere eller få adgang til det element eller kontrolelement, der er i fokus.|Enter|  
-|Rulle elementer op og ned på en liste.|Pil op, Pil ned|  
-|Rulle kolonner for et element til venstre og højre på en liste.|Venstre pil, Højre pil|  
-|Åbne en rulleliste eller slå en værdi for et felt op.|Alt+Pil ned|  
-|Aktivere det næste element uden for listen.|Ctrl+Enter|  
-|Se de transaktioner, der resulterede i en beregnet værdi i et felt.|Alt+Højrepil|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Navigation  
  Du kan navigere mellem fanerne og handlingerne på båndet, elementerne i navigationsruden og andre kontrolelementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider og -rapporter vha. tastaturet. Flytte fokus fra én fane, handling eller kontrolelement til en anden, skal du trykke på Tab for at flytte fremad. Tryk på Skift+Tab for at gå tilbage.  
@@ -55,7 +60,7 @@ Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[d365fin](
  En beskrivende tekst til billeder er angivet med attributten ALT i koden IMG. En beskrivende tekst til hyperlinkser angivet med attributten titel i koden A.  
 
 ##  <a name="AssistiveTech"></a> Hjælpeteknologier  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  understøtter forskellige hjælpeteknologier, f.eks. stor kontrast, skærmlæsere og talegenkendelsessoftware. Nogle hjælpeteknologier fungerer ikke sammen med bestemte elementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter forskellige hjælpeteknologier, f.eks. stor kontrast, skærmlæsere og talegenkendelsessoftware. Nogle hjælpeteknologier fungerer ikke sammen med bestemte elementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider.  
 
 ## <a name="for-more-accessibility-information"></a>Flere oplysninger om tilgængelighedsfunktioner  
 Du kan finde flere oplysninger om tilgængelighedsfunktioner i Microsoft-produkter og hjælpeteknologier på webstedet [Microsoft Hjælp til handicappede](http://go.microsoft.com/fwlink/?LinkId=262160).

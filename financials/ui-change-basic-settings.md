@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7c9dec3bcb000be958acec3f0d88abbab9946bf8
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ændring af grundlæggende indstillinger
@@ -27,9 +27,13 @@ Rollecenteret repræsenterer startsiden, der er beregnet til rollens behov. På 
 
 Du finder ruden Aktiviteter i midten. Aktiviteter viser aktuelle data, og du kan klikke eller trykke på dem for hurtigt at få adgang til det valgte dokument. Nøgletal kan konfigureres til at vise et valgt diagram for en grafisk visning af f.eks. pengestrøm eller indtægter og udgifter.
 
-Du kan også oprette en række Favoritdebitorer på startsiden for konti, som du handler med ofte eller skal have særlig opmærksomhed på. Brug pilene til at skjule en del af siden og få mere plads til at se specifikke oplysninger. Øverst på startsiden finder du alle de handlinger, der kan anvendes på det aktuelle indhold. Dette kan også skjules, og du behøver kun at klikke på eller trykke i det skjulte område for at få det vist igen.
+Du kan også oprette en række favoritdebitorer på startsiden for konti, som du handler med ofte eller skal have særlig opmærksomhed på. Brug pilene til at skjule en del af siden og få mere plads til at se specifikke oplysninger. Øverst på startsiden finder du alle de handlinger, der kan anvendes på det aktuelle indhold. Dette kan også skjules, og du behøver kun at vælge det skjulte område for at få det vist igen.
 
-Standardrollecenteret er **Virksomhedsleder**, men du kan vælge et andet rollecenter, der passer bedre til dine behov. Du kan finde flere oplysninger under [Ændre rollecentret](change-role.md).
+### <a name="to-change-role-center"></a>Sådan ændres et rollecenter
+Standardrollecenteret er **Virksomhedsleder**, men du kan vælge et andet rollecenter, der passer bedre til dine behov.
+1. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "ikonet Indstillinger for rollecenter") og derefter vælge **Indstillinger**.
+2. I vinduet **Mine indstillinger** skal du i feltet **Rollecenter** vælge det rollecenter, du vil angive som standard. Vælg f.eks **Regnskabsmedarbejder**.
+3. Vælg knappen **OK**.
 
 ## <a name="company"></a>Virksomhed
 En virksomhed fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Der kan være flere virksomheder i en database, men du kan vælge kun ét ad gangen.
@@ -56,6 +60,5 @@ Vælg dette link for at få vist eller ændre de notifikationer, du får om best
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Ændre rollecenteret](change-role.md)  
 [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)  
 

@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c3a9abd47e6d9f0a2b7fcd87aa83f2eaef3702a9
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter
@@ -55,16 +55,12 @@ Hvis du ikke bruger en opgavekø, eller du skal have et færdigt OCR-dokument hu
 > [!NOTE]  
 >   Hvis OCR-tjenesten er indstillet til at kræve manuel verifikation af behandlede dokumenter, indeholder feltet **OCR-status** **Afventer bekræftelse**. I så fald skal du gøre følgende for at logge på OCR-tjenestens websted for at verificere OCR-dokumentet manuelt.
 
-1. I feltet **OCR-status** skal du vælge hyperlinket **Afventer bekræftelse**. Du kan også vælge feltet **Afventer bekræftelse** på hjemmesiden.
+1. I feltet **OCR-status** skal du vælge hyperlinket **Afventer bekræftelse**.
 2. Log på med legitimationsoplysningerne for din OCR-tjenestekonto på webstedet for OCR-tjenesten. Dette er de legitimationsoplysninger, du brugte, da du konfigurerede tjenesten. Du kan finde flere oplysninger i afsnittet "Sådan konfigureres en OCR-tjeneste" i [Konfigurere indgående bilag](across-how-setup-income-documents.md).
-
-    Hvis du åbner webstedet fra feltet **OCR-status**, vises det pågældende dokument umiddelbart efter logon. Hvis du åbner webstedet ved at vælge feltet på startsiden på den første side i OCR-tjenesten, der åbnes, skal du vælge knappen **Start** på fanen **Bekræft** eller dobbeltklikke på det dokument, du vil verificere.
 
     Oplysninger om OCR-dokumentet vises med både kildeindholdet fra PDF- eller billedfilen og de resulterende OCR-feltværdier.
 3. Gennemgå forskellige feltværdierne, og rediger eller angiv værdier manuelt i de felter, som OCR-tjenesten har kodet som usikre.
 4. Vælg knappen **OK**. OCR-processen fuldføres, og det resulterende elektroniske dokument sendes til vinduet **Indgående bilag** i [!INCLUDE[d365fin](includes/d365fin_md.md)] i overensstemmelse med opgavekøplanen.
-
-    Hvis du har adgang til webstedet ved at vælge feltet på startsiden, vises alle andre OCR-dokumenter, der skal bekræftes automatisk, på webstedet.
 5. Gentag trin 4 for andre OCR-dokumenter der skal bekræftes.
 
 Nu kan du fortsætte med at oprette dokumentposter for de modtagne elektroniske dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)] manuelt eller automatisk. Der er flere oplysninger i næste procedure. Du kan også forbinde den nye indgående dokumentpost med eksisterende bogførte eller ikke-bogførte dokumenter, så kildefilen er nem at få adgang til fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Fremgangsmåde: Behandle indgående bilag](across-process-income-documents.md).

@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 8c8a52f20abe27de7063a0879f529086263d0675
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere virksomhedens data til Power BI
@@ -53,7 +53,7 @@ Når du vil have adgang til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-dat
 
 | Felt | Beskrivelse |
 | --- | --- |
-| **URL-adresse til OData Feed** |OData URL-adressen så Power BI kan få adgang til din virksomhed f.eks. https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
+| **URL-adresse til OData Feed** |URL-adressen til OData så Power BI kan få adgang til data fra din virksomhed, f.eks. https://mybusiness.financials.dynamics.com:7048/MS/ODataV4/Company('My%2Business'). |
 | **Godkendelsesmetode** |Vælg **Basic**. |
 | **Brugernavn** |Dit navn som det vises for kontoen i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. *John Smith*. |
 | **Adg.kode** |Dette er webtjenesteadgangsnøglen til din brugerkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |

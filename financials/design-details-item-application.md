@@ -1,8 +1,6 @@
 ---
 title: "Designoplysninger – Vareudligning | Microsoft Docs"
 description: "Dette emne beskriver, hvor lagerantal og værdi registreres, når du bogfører en lagertransaktion."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
@@ -242,11 +240,12 @@ På grund af den måde, som kostprisen på en vare beregnes, kan en forkert vare
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en funktion, der analyserer og korrigerer vareudligninger. Dette arbejde udføres i vinduet **Udligningskladde**.  
 
 ## <a name="see-also"></a>Se også  
-[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
-[Designoplysninger: Kostmetoder](design-details-costing-methods.md)   
+[Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  
+[Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md)   
-[Designoplysninger: Kostregulering](design-details-cost-adjustment.md)
+[Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

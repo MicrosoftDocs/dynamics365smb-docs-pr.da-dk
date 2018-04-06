@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: fd59a1aea6cb42dbeac7c6978619a5648f877b52
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Definere anlægsforsikring
@@ -42,7 +42,7 @@ Du kan samle oplysninger om hver enkelt forsikringspolice på forsikringskortet.
 3. Udfyld felterne efter behov.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Sådan defineres forsikringskladdetyper
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Første gang du åbner vinduet **Forsikringskladde**, oprettes der automatisk en forsikringskladdetype, men du kan oprette flere kladdetyper. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
+Første gang du åbner vinduet **Forsikringskladde** i [!INCLUDE[d365fin](includes/d365fin_md.md)], oprettes der automatisk en forsikringskladdetype, men du kan oprette flere kladdetyper. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Forsikringskladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.

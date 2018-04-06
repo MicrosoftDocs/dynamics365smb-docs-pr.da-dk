@@ -1,0 +1,1 @@
+Dette er tidligt frigivet funktionalitet, som vi stadig arbejder på. Funktioner og indholdet på denne side kan blive ændret. Du kan få at vide, hvad der kommer senere, under [Oversigt over Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=842139).

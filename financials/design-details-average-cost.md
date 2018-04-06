@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9e04bd1dbbae80cd209b28c14764fbf7dc7f0934
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-average-cost"></a>Designoplysninger: Gennemsnitlig kostpris
@@ -207,7 +207,7 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
  [Designoplysninger: Kostmetoder](design-details-costing-methods.md)   
- [Designoplysninger: Kostregulering](design-details-cost-adjustment.md)   
+ [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)   
  [Designoplysninger: Vareudligning](design-details-item-application.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  

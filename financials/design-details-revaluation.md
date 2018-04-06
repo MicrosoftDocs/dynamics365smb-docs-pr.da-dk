@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: ba88be99ad8dfcecb78dfb1dd58be2d0645e85ba
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-revaluation"></a>Designoplysninger: Regulering
@@ -54,7 +54,7 @@ I følgende eksempel illustreres, når en vareoverflytning for igangværende arb
 
 **1V**: Brugeren bogfører de købte led som faktureret, og ledene bliver en del af lageret fra et økonomisk synspunkt. Følgende tabel viser de resulterende værdiposter.  
 
-|Bogføringsdato|Postens type|Værdiansættelsesdato|Kostbeløb (faktisk)|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Postens type|Værdiansættelsesdato|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Købspris|01-01-20|150,00|1|1|  
 
@@ -66,7 +66,7 @@ I følgende eksempel illustreres, når en vareoverflytning for igangværende arb
 
 Følgende tabel viser den resulterende værdipost.  
 
-|Bogføringsdato|Postens type|Værdiansættelsesdato|Kostbeløb (faktisk)|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Postens type|Værdiansættelsesdato|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |02-01-20|Købspris|02-01-20|-150,00|2|2|  
 
@@ -80,7 +80,7 @@ Værdiansættelsesdatoen angives til datoen for forbrugsbogføring (01-02-20) so
 
 **3V**: Brugeren udfører kørslen **Juster kostpris - vareposter**, som bogfører kæden som faktureret for at angive, at alt materialeforbrug er fuldt faktureret. Fra et økonomisk synspunkt er linkene ikke længere en del af VIA-lagerbeholdningen, når afgangen er fuldt faktureret og reguleret. Følgende tabel viser de resulterende værdiposter.  
 
-|Bogføringsdato|Postens type|Værdiansættelsesdato|Kostbeløb (faktisk)|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Postens type|Værdiansættelsesdato|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Købspris|01-01-20|150,00|2|2|  
 |02-01-20|Købspris|02-01-20|-150,00|2|2|  
@@ -110,7 +110,7 @@ Følgende eksempel, der er baseret på produktion af kæden i det forrige eksemp
     3.  En værdipost med posttypen Afvigelse, der registrerer forskellen mellem fakturerede omkostninger og de regulerede standardomkostninger.  
 Følgende tabel viser de resulterende værdiposter.  
 
-|Trin|Bogføringsdato|Postens type|Værdiansættelsesdato|Kostbeløb (forventet)|Kostbeløb (faktisk)|Vareløbenr.|Løbenr.|  
+|Trin|Bogføringsdato|Postens type|Værdiansættelsesdato|Kostbeløb (forventet)|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |----------|------------------|----------------|--------------------|------------------------------|----------------------------|---------------------------|---------------|  
 |1.|01-15-20|Købspris|01-15-20|300,00|0.00|1|1|  
 |2.|01-20-20|Regulering|01-20-20|150,00|0.00|1|2|  
@@ -147,7 +147,7 @@ Følgende eksempel, som illustrerer værdiregulering af en vare, der bruger kost
 
 Følgende tabel viser de resulterende værdiposter.  
 
-|Scenarie|Bogføringsdato|Postens type|Værdiansættelsesdato|Værdiansat antal|Kostbeløb (faktisk)|Vareløbenr.|Løbenr.|  
+|Scenarie|Bogføringsdato|Postens type|Værdiansættelsesdato|Værdiansat antal|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |--------------|------------------|----------------|--------------------|---------------------|----------------------------|---------------------------|---------------|  
 ||01-01-20|Køb|01-01-20|6|60.00|1|1|  
 ||03-01-20|Regulering|03-01-20|4|-8,00|1|5|  

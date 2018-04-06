@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
@@ -36,7 +36,7 @@ Montageelementer er kendetegnet ved deres genbestillingssystem og montagestyklis
 -   Oprette en montagestykliste, der viser montagekomponenter og den ressource, der indgår i montageelementet.  
 
 ### <a name="selling-customized-assembly-items"></a>Sælge tilpassede montageelementer  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
 
 -   Oprette en ren ATO-salgsordrelinje, hvor den fulde mængde ikke er tilgængelig, og som skal samles før afsendelse.  
 -   Tilpasse ATO elementer.  
@@ -140,8 +140,8 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     |**Varenr.**|**Zonekode**|**Placeringskode**|**Antal**|  
     |-----------------------------------|---------------------------------------|--------------------------------------|------------------------------------|  
-    |80001|PLUK|V-01-0001|2.0|  
-    |80005|PLUK|V-01-0001|2.0|  
+    |80001|PLUK|V-01-0001|20|  
+    |80005|PLUK|V-01-0001|20|  
     |80011|PLUK|V-01-0001|20|  
     |80014|PLUK|V-01-0001|20|  
     |80203|PLUK|V-01-0001|20|  

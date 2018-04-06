@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f597ce7dc0d4cda526da00d9aac5b1178c5e7a14
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurere afsendelse og modtagelse af elektroniske dokumenter
@@ -104,7 +104,7 @@ Emnet indeholder følgende procedurer:
 4. I feltet **Elektronisk dokument** skal du vælge **Ja (Via dokumentudvekslingstjeneste)**.  
 
     > [!NOTE]  
-    >  [!INCLUDE[d365fin](includes/d365fin_md.md)]  registrerer automatisk, om dokumentet er en faktura eller kreditnota, og anvender PEPPOL-formatet i overensstemmelse hermed.  
+    >  [!INCLUDE[d365fin](includes/d365fin_md.md)] registrerer automatisk, om dokumentet er en faktura eller kreditnota, og anvender PEPPOL-formatet i overensstemmelse hermed.  
 
 5. For at gøre dokumentafsendelsesprofilen gældende for alle debitorer, skal du markere afkrydsningsfeltet **Standard** på oversigtspanelet **Generelt**. For at gøre det gældende for bestemte debitorer, skal du udfylde feltet **Dokumentafsendelsesprofil** på de relevante debitorkort. Du kan finde flere oplysninger under [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).  
 

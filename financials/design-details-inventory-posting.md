@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 9bc177d45efa1e6e772ed70cc66de393e6250def
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Designoplysninger: Varekladde
@@ -48,14 +48,14 @@ For hver lagertransaktion, f.eks. en købsleverance eller en salgsleverance, bog
 
  **Værdiposter**  
 
-|Bogføringsdato|Postens type|Kostbeløb (faktisk)|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Postens type|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |------------------|----------------|----------------------------|---------------------------|---------------|  
 |01-01-20|Købspris|70.00|1|1|  
 |01-01-20|Indirekte omkostning|10,00|1|2|  
 
  **Vareudligningsposter**  
 
-|Løbenr.|Vareløbenr.|Indgående vareløbenr.|Udgående vareløbenr.|Antal|  
+|Løbenr.|Varepostløbenr.|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
 |1|1|1|0|10|  
 
@@ -69,13 +69,13 @@ For hver lagertransaktion, f.eks. en købsleverance eller en salgsleverance, bog
 
  **Værdiposter**  
 
-|Bogføringsdato|Postens type|Kostbeløb (faktisk)|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Postens type|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |------------------|----------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Købspris|-80,00|2|3|  
 
  **Vareudligningsposter**  
 
-|Løbenr.|Vareløbenr.|Indgående vareløbenr.|Udgående vareløbenr.|Antal|  
+|Løbenr.|Varepostløbenr.|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|  
 |---------------|---------------------------|----------------------------|-----------------------------|--------------|  
 |2|2|1|2|-10|  
 
@@ -87,7 +87,7 @@ For hver lagertransaktion, f.eks. en købsleverance eller en salgsleverance, bog
 
  **Værdiposter**  
 
-|Bogføringsdato|Postens type|Kostbeløb (faktisk)|Bogført kostværdi|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Postens type|Kostbeløb (faktisk)|Bogført kostværdi|Varepostløbenr.|Løbenr.|  
 |------------------|----------------|----------------------------|-------------------------|---------------------------|---------------|  
 |01-01-20|Købspris|70.00|70.00|1|1|  
 |01-01-20|Indirekte omkostning|10,00|10,00|1|2|  

@@ -1,0 +1,34 @@
+---
+title: "Designoplysninger – Kort om begrebet Justering | Microsoft Docs"
+description: "Behov afhænger af en virksomheds kunder. Forsyning er, hvad virksomheden kan oprette og fjerne for at skabe balance. Planlægningssystemet starter med det uafhængige behov og sporer derefter baglæns til forsyningen."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: ffaa6b174d495b4a22423cabd13b74025db021ed
+ms.contentlocale: da-dk
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="design-details-the-concept-of-balancing-in-brief"></a>Designoplysninger: Kort om begrebet Justering
+Behov afhænger af en virksomheds kunder. Forsyning er, hvad virksomheden kan oprette og fjerne for at skabe balance. Planlægningssystemet starter med det uafhængige behov og sporer derefter baglæns til forsyningen.  
+  
+ Lagerprofiler bruges til at indeholde oplysninger om behov og forsyninger, mængder og timing. Disse profiler udgør reelt to sider af afstemningsskalaen.  
+  
+ Formålet med planlægningsmekanismen er at opveje behovet og forsyningen af en vare for at sikre, at forsyning svarer til behov på en gennemførlig måde, som defineret af planlægningsparametre og -regler.  
+  
+ ![](media/nav_app_supply_planning_2_balancing.png "NAV_APP_supply_planning_2_balancing")  
+  
+## <a name="see-also"></a>Se også  
+ [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
+ [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
+ [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)

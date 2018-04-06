@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 552fbf283a9149c430ea1ed94bcea4bd22e43fea
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66a78ebc362d0e01c0e6df4bd4a2d74568845159
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="make-offers"></a>Fremsætte tilbud
@@ -26,7 +26,7 @@ Mens du forhandler med debitoren, kan du ændre og gensende salgstilbuddet så m
 Du kan udfylde debitorfelter i salgstilbud på to måder, afhængigt af om debitoren allerede er registreret. Se trin 2 og 3 i følgende procedure.
 
 ## <a name="to-create-a-sales-quote"></a>Sådan oprettes et salgstilbud
-På startsiden skal du vælge handlingen **Salgstilbud**.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgstilbud**, og vælg derefter det relaterede link.
 2. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 
    Andre felter i vinduet **Salgstilbud** indeholder standardoplysningerne for den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:

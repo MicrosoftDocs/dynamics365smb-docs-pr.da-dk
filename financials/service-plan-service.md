@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Planlægning af service
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du konfigurere de standardopgaver, du skal bruge for at kunne opfylde virksomhedens krav til kundeservice. For at gøre dette skal du bestemme, hvilke serviceartikler og servicetilbud jeres serviceorganisation skal understøtte, og til hvilken pris.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder også nogle statistikværktøjer, som du kan bruge til at bestemme, hvor godt det går, og til at identificere områder, der kan forbedres.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder også nogle statistikværktøjer, som du kan bruge til at bestemme, hvor godt det går, og til at identificere områder, der kan forbedres.
   
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
   

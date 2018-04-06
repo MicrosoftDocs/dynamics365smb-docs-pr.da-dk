@@ -1,8 +1,6 @@
 ---
 title: "Designoplysninger – Kostregulering | Microsoft Docs"
 description: "Hovedformålet med kostregulering er at flytte kostprisændringer fremad fra omkostningskilder til modtagerne på basis af en vares kostmetode for at give korrekt lagerværdi."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="design-details-cost-adjustment"></a>Designoplysninger: Kostregulering
+# <a name="design-details-cost-adjustment"></a>Designoplysninger: Omkostningsregulering
 Hovedformålet med kostregulering er at flytte kostprisændringer fremad fra omkostningskilder til modtagerne på basis af en vares kostmetode for at give korrekt lagerværdi.  
 
 En vare kan salgsfaktureres, før den er blevet købsfaktureret, så den registrerede lagerværdi af salget ikke svarer til den faktiske købspris. Omkostningsregulering opdaterer vareforbruget for historiske salgsposter for at sikre, at de svarer til omkostningerne for de indgående transaktioner, som de udlignes med. Du kan finde flere oplysninger i [Designoplysninger: Vareudligning](design-details-item-application.md).  
@@ -171,13 +169,20 @@ Hvis du har oprettet den automatiske kostregulering for posteringer, der forekom
 Hvis du har oprettet den automatiske kostregulering for posteringer, der forekommer inden for en dag eller en uge fra den aktuelle arbejdsdato, kører automatisk kostregulering ikke, og omkostningerne ved købet videresendes ikke til salg, før du kører kørslen **Juster kostpris - vareposter**.  
 
 ## <a name="see-also"></a>Se også
+<<<<<<< HOVED [Regulere varepriser](inventory-how-adjust-item-costs.md)  
+[Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  
+[Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md)  
+[Designoplysninger: Varekladde](design-details-inventory-posting.md)  
+[Designoplysninger: Afvigelse](design-details-variance.md)  
+=======
 [Regulere varepriser](inventory-how-adjust-item-costs.md)   
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
 [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md)   
 [Designoplysninger: Varekladde](design-details-inventory-posting.md)   
 [Designoplysninger: Afvigelse](design-details-variance.md)   
-[Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)   
-[Designoplysninger: Bogføring af produktionsordrer](design-details-production-order-posting.md)
+>>>>>>> refs/remotes/origin/Update13 [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)   
+[Designoplysninger: Bogføring af produktionsordre](design-details-production-order-posting.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

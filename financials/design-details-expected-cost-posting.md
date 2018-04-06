@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: eae1608b8768771759ac717c59606c930472d261
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Designoplysninger: Bogføring af forventet kostpris
@@ -38,7 +38,7 @@ Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omko
 
  **Værdiposter**  
 
-|Bogføringsdato|Postens type|Kostbeløb (forventet)|Bogført forventet kostpris|Forventet kostpris|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Postens type|Kostbeløb (forventet)|Bogført forventet kostpris|Forventet kostpris|Varepostløbenr.|Løbenr.|  
 |------------------|----------------|------------------------------|----------------------------------|-------------------|---------------------------|---------------|  
 |01-01-20|Købspris|95,00|95,00|Ja|1|1|  
 
@@ -60,7 +60,7 @@ Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omko
 
  **Værdiposter**  
 
-|Bogføringsdato|Kostbeløb (faktisk)|Kostbeløb (forventet)|Bogført kostværdi|Forventet kostpris|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Kostbeløb (faktisk)|Kostbeløb (forventet)|Bogført kostværdi|Forventet kostpris|Varepostløbenr.|Løbenr.|  
 |------------------|----------------------------|------------------------------|-------------------------|-------------------|---------------------------|---------------|  
 |01-15-20|100.00|-95,00|100.00|Nej|1|2|  
 

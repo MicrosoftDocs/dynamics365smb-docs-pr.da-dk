@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ef4d841723b6bb0af37695a8c3ed1d805319be78
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: dde99e50c6984a7ec162b4047e8640e6affb3f25
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i et automatisk workflow
@@ -29,9 +29,6 @@ Du kan bruge dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del af
 2. Vælg **Mine Flows** på båndet øverst på siden.
 3. I vinduet **Mine Flows** skal du vælge indstillingen **Opret fra tom**.
 4. På listen over tilgængelige udløsere, skal du vælge en af de [!INCLUDE[d365fin](includes/d365fin_md.md)]-udløsere, der er tilgængelige:  
-    *Når en post oprettes*,  
-    *Når en post slettes*,  
-    *Når en post ændres*,  
     *Når der anmodes om godkendelse af en debitor*,  
     *Når der anmodes om godkendelse af en finanskladdekørsel*,  
     *Når der anmodes om godkendelse af en finanskladdelinje*,  
@@ -39,11 +36,7 @@ Du kan bruge dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del af
     *Når der anmodes om godkendelse af et købsdokument*,  
     *Når der anmodes om godkendelse af et salgsdokument* eller  
     *Når der anmodes om godkendelse af en kreditor*.
-5. Flow beder dig om de oplysninger, der kræves for at oprette forbindelse til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Hvis du har valgt en af følgende udløsere: *Når en post oprettes*, *Når en post ændres*, eller *Når en post slettes*, skal du vælge en firmanavn og tabelnavn. Til andre udløsere er kun firmanavnet påkrævet for at oprette forbindelse.
-
-   Flow viser en liste over regnskaber og tabeller, der er tilgængelige fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Disse tabeller, eller slutpunkter, repræsenterer de webtjenester, som du har publiceret fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-   Du kan også vælge at oprette en ny URL-adresse for webtjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at bruge handlingen **Opret datasæt** på siden **Webtjenester** ved hjælp af guiden Assisteret opsætning for **Konfigurer rapporteringsdata** eller ved at vælge handlingen **Rediger i Excel** på en af listerne.
+5. Flow beder dig om at vælge et firma i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer. Da hvert trin i Flow er uafhængigt af det næste, kan du blive nødt til at definere virksomheden flere gange, når du bruger en [!INCLUDE[d365fin](includes/d365fin_md.md)]-skabelon.
 
 Nu har du oprettet forbindelse til dine data i Finance and Operations, Business edition og er klar til at opbygge dit flow. Du kan finde flere oplysninger i [Flow-dokumentationen](https://flow.microsoft.com/documentation/getting-started/).
 

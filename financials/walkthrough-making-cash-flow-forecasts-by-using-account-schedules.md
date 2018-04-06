@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer
@@ -34,7 +34,7 @@ Denne gennemgang beskriver følgende opgaver:
 ### <a name="prerequisites"></a>Forudsætninger  
 For at gennemføre denne gennemgang skal:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)]  være installeret  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)] være installeret  
 - Likviditetskladdelinjerne registreres.  
 
 ## <a name="roles"></a>Roller  

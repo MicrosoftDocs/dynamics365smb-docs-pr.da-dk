@@ -10,40 +10,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 08/21/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: fa8c8ef711a1a9212da560e0f721870823990710
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 2f05f77658c75007bbb4a9f887472d253736774d
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](madeira-business-functionality.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](madeira-business-functionality.md).
 
 For at understøtte dine daglige opgaver kan du bruge en række generelle forretningsfunktioner, f.eks. definition af udvidet tekst til dokumentlinjer og organisering af forbundne opgaver i arbejdsgange.
 
-
-
 I følgende tabel vises disse generelle forretningsområder med links til emner, hvor de er beskrevet.
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
+| Kommuniker indholdet af forretningsdokumenter hurtigt til forretningspartnere, f.eks betalingsoplysningerne på salgsdokumenter til debitorer. |[Afsendelse af dokumenter som mail](ui-how-send-documents-email.md) |
 | Oprette tekster, så du kan udvide standardteksten ved at tilføje ekstra linjer og oprette betingelser for brugen af de ekstra linjer. |[Definere udvidet tekst](ui-how-define-ext-text.md) |
-| Få at vide, hvordan du arbejder med finanskladder, som bruges til at bogføre til finanskonti og andre konti, f.eks. bank-, debitor-, kreditor- og anlægskonti. |[Arbejde med finanskladder](ui-work-general-journals.md) |
-| Kommuniker indholdet af forretningsdokumenter hurtigt til forretningspartnere, f.eks betalingsoplysningerne på salgsdokumenter til debitorer. |[Sende dokumenter som mail](ui-how-send-documents-email.md) |
-| Planlæg en rapport til at køre på en bestemt dato og et bestemt klokkeslæt. |[Planlægge kørsel af en rapport](ui-work-report.md#ScheduleReport) |
-| Administrer forskellige typer rapportlayout. |[Administration af rapportlayout](ui-manage-report-layouts.md) |
-| Spore brugernes aktiviteter.|[Logføring af ændringer i Financials](across-log-changes.md)|
-|Tildele tilladelser til brugere, ændre tilladelsessæt og gruppere brugere pr. tilladelser.|[Administrere brugere og deres rettigheder](ui-how-users-permissions.md)|
-| Rediger [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at installere udvidelser, der tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester. |[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md) |
-|Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
+|Oprette opgaver for at minde dig om arbejde, der skal udføres. Du kan oprette opgaver til dig selv, men du kan også tildele opgaver til andre eller få tildelt en opgave af en anden i organisationen.|[Definere brugeropgaver](across-user-tasks.md)|
+|Lad systemet hjælpe dig med at udføre opgaver hurtigere og mere korrekt ved at forhåndsudfylde felter eller hele linjer med data, som du normalt selv skal beregne og angive.|[Lade Finance and Operations, Business edition foreslå værdier](ui-let-system-suggest-values.md)|
 |Registrer eksterne dokumenter i Financials , herunder deres vedhæftede filer, og opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
+|Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
 | Konfigurer dataudvekslingsdefinitioner, så du kan sende og modtage elektroniske dokumenter. |[Udveksle data elektronisk](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Se også
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Opsætning](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

@@ -11,17 +11,17 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b14df6dbf21e405464431600eb5e743b528edbee
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c94729445defcd88f7ac20e258f71b3c9da2142b
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
 Dette afsnit indeholder svar på ofte stillede spørgsmål om tilmelding til og brug af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Hvilken mailadresse kan jeg bruge til [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kræver, at du bruger en arbejds- eller skolemailadresse til at tilmelde dig. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke mailadresser, som leveres af forbrugermailtjenester eller telekommunikationsudbydere. Dette omfatter outlook.com, hotmail.com, gmail.com og andre.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kræver, at du bruger en arbejds- eller skolemailadresse til at tilmelde dig. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke mailadresser, som leveres af forbrugermailtjenester eller telekommunikationsudbydere. Dette omfatter outlook.com, hotmail.com, gmail.com og andre.  
 
 Hvis du forsøger at tilmelde dig med en privat mailadresse, får du en meddelelse om, at du skal bruge en arbejds- eller skolemailadresse. Du kan finde flere oplysninger i [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md).  
 
@@ -29,7 +29,7 @@ Hvis du forsøger at tilmelde dig med en privat mailadresse, får du en meddelel
 Nej. Men hvis du vil opleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fuldt integreret med Office 365, kan du tilmelde dig til en 1-måneds gratis prøveversion af Office 365 [her](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvad indebærer integration med Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Programmet er fuldt integreret med Office 365, så du kan flytte frit mellem Office 365-apps og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du f.eks. åbne data i Excel, udskrive rapporter ved hjælp af Word, og du kan f.eks. arbejde med dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er fuldt integreret med Office 365, så du kan flytte frit mellem Office 365-apps og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du f.eks. åbne data i Excel, udskrive rapporter ved hjælp af Word, og du kan f.eks. arbejde med dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan jeg annullere mit abonnement?
 Ja, men afhængigt af hvordan du tilmeldte dig [!INCLUDE[d365fin](includes/d365fin_md.md)], kan dine data blive slettet eller bevaret. Du kan finde flere oplysninger i [Annullere [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
@@ -50,6 +50,9 @@ Har du læst om en ny funktionalitet i oversigten eller på vores blog for nylig
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](madeira-outlook.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] uden Outlook](madeira-no-outlook.md)  
-[Ændre rollecenteret](change-role.md)  
+[Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

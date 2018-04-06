@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 39d4bdc430fc74452e7f089c38b28b3214304725
 ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-rounding"></a>Designoplysninger: Afrunding
@@ -42,7 +42,7 @@ Afrunding af restværdier kan opstå, når du værdisætter omkostningerne til e
 
  Følgende tabel viser de resulterende værdiposter.  
 
-|Bogføringsdato|Antal|Kostbeløb (faktisk)|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Antal|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |------------------|--------------|----------------------------|---------------------------|---------------|  
 |01-01-20|3|10|1|1|  
 |02-01-20|-1|-3,33|2|2|  
@@ -53,7 +53,7 @@ Afrunding af restværdier kan opstå, når du værdisætter omkostningerne til e
 
  Følgende tabel viser de resulterende værdiposter.  
 
-|Bogføringsdato|Antal|Kostbeløb (faktisk)|Vareløbenr.|Løbenr.|  
+|Bogføringsdato|Antal|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |------------------|--------------|----------------------------|---------------------------|---------------|  
 |01-01-20|3|10|1|1|  
 |02-01-20|-1|-3,33|2|2|  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: f9a6d577138fcffa338ce51f0abaa45c63c520f7
 ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
@@ -128,7 +128,7 @@ For **OMRÅDE** tilføjer du følgende dimensionsværdier:
 | Kode | Name | Dimensionsværditype |
 | --- | --- | --- |
 | 10 |Nord- og Sydamerika |Fra-sum |
-| 2.0 |Nordamerika |Standard |
+| 20 |Nordamerika |Standard |
 | 30 |Stillehavsområdet |Standard |
 | 40 |Sydamerika |Standard |
 | 50 |Nord- og Sydamerika, total |Til-sum |
@@ -159,7 +159,7 @@ Hvis du i stedet arbejder i en kladde, kan du tilføje dimensionsoplysninger til
 Du kan angive standarddimensioner for konti eller kontotyper, så dimensioner og dimensionsværdier udfyldes automatisk.
 
 ## <a name="to-view-global-dimensions-in-ledger-entry-windows"></a>Sådan får du vist globale dimensioner i vinduer med poster  
-Globale dimensioner er altid defineret og navngivet i det overordnede regnskab. Du kan se de globale dimensioner for dit regnskab ved at åbne vinduet **Regnskabsopsætning**.  
+Globale dimensioner er altid defineret og navngivet i det overordnede regnskab. Du kan se de globale dimensioner for dit regnskab ved at åbne vinduet **Opsætning af Finans**.  
 
 Du kan se, om der er globale dimensioner for poster, når du åbner et vindue med poster. De to globale dimensioner adskiller sig fra resten af dimensionerne, fordi du kan bruge dem som filtre overalt i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
