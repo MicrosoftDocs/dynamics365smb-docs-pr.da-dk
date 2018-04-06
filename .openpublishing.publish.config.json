@@ -53,9 +53,7 @@
     }
   ],
   "notification_subscribers": [
-    "navualocbld@microsoft.com",
-    "solsen@microsoft.com",
-    "sgroespe@microsoft"
+    "navualocbld@microsoft.com"
   ],
   "branches_to_filter": ["live-sxs"],
   "continue_with_document_error": true,
@@ -95,3 +93,8 @@
     }
   }
 }
+
+
+
+
+
