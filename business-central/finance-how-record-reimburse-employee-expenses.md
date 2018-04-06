@@ -1,0 +1,58 @@
+---
+title: Registrere og refundere medarbejdernes forretningsrelaterede udgifter | Microsoft Docs
+description: "Bogfør medarbejdernes udgifter med finanskladden til medarbejderens konto, og bogfør senere en betaling til medarbejderens bankkonto for at refundere for de forretningsrelaterede udgift."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: reimbursement
+ms.date: 06/28/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 604b8ee545269707ebcabd3712aee0d4daf253a8
+ms.contentlocale: da-dk
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="record-and-reimburse-employees-expenses"></a><span data-ttu-id="448cc-103">Registrere og refundere medarbejdernes udgifter</span><span class="sxs-lookup"><span data-stu-id="448cc-103">Record and Reimburse Employees' Expenses</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="448cc-104"> understøtter transaktioner for medarbejderen på samme måde som for kreditorer.</span><span class="sxs-lookup"><span data-stu-id="448cc-104"> supports transactions for employee in a similar way as for vendors.</span></span> <span data-ttu-id="448cc-105">Derfor findes der medarbejderbogføringsgrupper for at sikre, at medarbejderposter bogføres på de relevante konti i regnskabet.</span><span class="sxs-lookup"><span data-stu-id="448cc-105">Accordingly, employee posting groups exist to make sure that employee ledger entries are posted to the relevant accounts in the general ledger.</span></span>
+
+> [!NOTE]  
+> <span data-ttu-id="448cc-106">Medarbejdertransaktioner kan kun bogføres i den lokale valuta.</span><span class="sxs-lookup"><span data-stu-id="448cc-106">Employee transactions can be posted in the local currency only.</span></span> <span data-ttu-id="448cc-107">Refusion af betalinger til medarbejdere understøtter ikke rabatter og betalingstolerancer.</span><span class="sxs-lookup"><span data-stu-id="448cc-107">Reimbursement payments to employees do not support discounts and payment tolerances.</span></span>
+
+<span data-ttu-id="448cc-108">Hvis medarbejdere bruger deres egne penge under forretningsaktiviteter, kan du bogføre udgiften til medarbejderens konto.</span><span class="sxs-lookup"><span data-stu-id="448cc-108">If employees spend their own money during business activities, you can post the expense to the employee's account.</span></span> <span data-ttu-id="448cc-109">Du kan derefter refundere medarbejderen ved at foretage en betaling til medarbejderens bankkonto, på samme måde som når du betaler leverandører.</span><span class="sxs-lookup"><span data-stu-id="448cc-109">Then you can reimburse the employee by making a payment to the employee's bank account, similarly to how you pay vendors.</span></span>
+
+## <a name="to-record-an-employees-expense"></a><span data-ttu-id="448cc-110">Sådan registrerer du en medarbejders udgift</span><span class="sxs-lookup"><span data-stu-id="448cc-110">To record an employee's expense</span></span>
+<span data-ttu-id="448cc-111">Du bogfører medarbejdernes udgifter i vinduet **Finanskladde**.</span><span class="sxs-lookup"><span data-stu-id="448cc-111">You post employees' expenses in the **General Journal** window.</span></span>
+1. <span data-ttu-id="448cc-112">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="448cc-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **General Journals**, and then choose the related link.</span></span>
+2. <span data-ttu-id="448cc-113">Åbn det relevante finanskladdenavn.</span><span class="sxs-lookup"><span data-stu-id="448cc-113">Open the relevant general journal batch.</span></span> <span data-ttu-id="448cc-114">Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="448cc-114">For more information, see [Working with General Journals](ui-work-general-journals.md).</span></span>
+3. <span data-ttu-id="448cc-115">Udfyld felterne efter behov på en ny kladdelinje.</span><span class="sxs-lookup"><span data-stu-id="448cc-115">On a new journal line, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+4. <span data-ttu-id="448cc-116">Gentag trin 3 for alle de udgifter, som er påløbet medarbejderen.</span><span class="sxs-lookup"><span data-stu-id="448cc-116">Repeat step 3 for all the expenses that the employee has incurred.</span></span>
+
+    > [!TIP]  
+    > <span data-ttu-id="448cc-117">Hvis du vil angive flere udgiftslinjer over én modkontolinje for medarbejderens bankkonto, skal du markere afkrydsningsfeltet **Foreslå modkontobeløb** på linjen for kørslen i vinduet **Finanskladdenavne**.</span><span class="sxs-lookup"><span data-stu-id="448cc-117">If you want to enter multiple expense lines above one balance-account line for the employee's bank account, then select the **Suggest Balancing Amount** check box on the line for your batch in the **General Journal Batches** window.</span></span> <span data-ttu-id="448cc-118">Feltet **Beløb** på modkontolinjen udfyldes derefter automatisk med den værdi, der skal bruges til at afstemme udgifterne.</span><span class="sxs-lookup"><span data-stu-id="448cc-118">Then the **Amount** field on the balance-account line is automatically prefilled with the value that is required to balance the expenses.</span></span>
+5. <span data-ttu-id="448cc-119">Vælg handlingen **Bogfør** for at registrere udgifter på medarbejderens konto.</span><span class="sxs-lookup"><span data-stu-id="448cc-119">Choose the **Post** action to record the expenses on the employee's account.</span></span>
+
+## <a name="to-reimburse-an-employee"></a><span data-ttu-id="448cc-120">Sådan refunderer du en medarbejder</span><span class="sxs-lookup"><span data-stu-id="448cc-120">To reimburse an employee</span></span>
+<span data-ttu-id="448cc-121">Du refunderer medarbejdere ved at bogføre betalinger til deres bankkonto i vinduet **Udbetalingskladde**.</span><span class="sxs-lookup"><span data-stu-id="448cc-121">You reimburse employees by posting payments to their bank account in the **Payment Journal** window.</span></span>
+1. <span data-ttu-id="448cc-122">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="448cc-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.</span></span>
+2. <span data-ttu-id="448cc-123">Åbn den relevante udbetalingskladdekørsel.</span><span class="sxs-lookup"><span data-stu-id="448cc-123">Open the relevant payment journal batch.</span></span> <span data-ttu-id="448cc-124">Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="448cc-124">For more information, see [Working with General Journals](ui-work-general-journals.md).</span></span>
+3. <span data-ttu-id="448cc-125">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="448cc-125">Fill in the fields as necessary.</span></span> <span data-ttu-id="448cc-126">Du kan finde flere oplysninger under [Foretage betalinger](payables-make-payments.md).</span><span class="sxs-lookup"><span data-stu-id="448cc-126">For more information, see [Making Payments](payables-make-payments.md).</span></span>
+4. <span data-ttu-id="448cc-127">Du kan også vælge handlingen **Foreslå medarbejderbetaling** for automatisk at indsætte kladdelinjerne for ventende medarbejderrefusioner.</span><span class="sxs-lookup"><span data-stu-id="448cc-127">Alternatively, choose the **Suggest Employee Payment** action to automatically insert journal lines for pending employee reimbursements.</span></span>
+5. <span data-ttu-id="448cc-128">Vælg handlingen **Bogfør** for at registrere refusionen.</span><span class="sxs-lookup"><span data-stu-id="448cc-128">Choose the **Post** action to register the reimbursement.</span></span>  
+
+## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a><span data-ttu-id="448cc-129">Sådan afstemmes refusioner med medarbejderposter</span><span class="sxs-lookup"><span data-stu-id="448cc-129">To reconcile reimbursements with employee ledger entries</span></span>
+<span data-ttu-id="448cc-130">Du udligner medarbejderbetalinger til deres relaterede åbne medarbejderposter på samme måde som for kreditorbetalinger, f.eks. i vinduet **Betalingsudligningskladde**, baseret på de relaterede bankkontoudtogsposter.</span><span class="sxs-lookup"><span data-stu-id="448cc-130">You apply employee payments to their related open employee ledger entries in the same way as you do for vendor payments, for example in the **Payment Reconciliation Journal** window, based on the related bank statement entries.</span></span> <span data-ttu-id="448cc-131">Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="448cc-131">For more information, see [Applying Payments Automatically and Reconciling Bank Accounts](receivables-apply-payments-auto-reconcile-bank-accounts.md).</span></span> <span data-ttu-id="448cc-132">Du kan også udligne manuelt i vinduet **Medarbejderposter**.</span><span class="sxs-lookup"><span data-stu-id="448cc-132">Alternatively, you can apply manually in the **Employee Ledger Entries** window.</span></span> <span data-ttu-id="448cc-133">Du kan finde flere oplysninger i den tilhørende [Afstemme kreditorbetalinger manuelt](payables-how-apply-purchase-transactions-manually.md).</span><span class="sxs-lookup"><span data-stu-id="448cc-133">For more information, see the related [Reconcile Vendor Payments Manually](payables-how-apply-purchase-transactions-manually.md).</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="448cc-134">Se også</span><span class="sxs-lookup"><span data-stu-id="448cc-134">See Also</span></span>
+[<span data-ttu-id="448cc-135">Bogføre transaktioner direkte i finansposterne</span><span class="sxs-lookup"><span data-stu-id="448cc-135">Post Transactions Directly to the General Ledger</span></span>](finance-how-post-transactions-directly.md)  
+[<span data-ttu-id="448cc-136">Arbejde med finanskladder</span><span class="sxs-lookup"><span data-stu-id="448cc-136">Working with General Journals</span></span>](ui-work-general-journals.md)  
+[<span data-ttu-id="448cc-137">Tilbageføre poster</span><span class="sxs-lookup"><span data-stu-id="448cc-137">Reverse Postings</span></span>](finance-how-reverse-journal-posting.md)  
+[<span data-ttu-id="448cc-138">Finans</span><span class="sxs-lookup"><span data-stu-id="448cc-138">Finance</span></span>](finance.md)  
+<span data-ttu-id="448cc-139">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="448cc-139">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+
