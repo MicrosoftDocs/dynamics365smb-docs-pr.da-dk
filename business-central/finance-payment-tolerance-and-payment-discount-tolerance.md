@@ -95,7 +95,6 @@ Scenarier med alternativ A eller B repræsenterer følgende:
 - **A** – I dette tilfælde er advarslen om kontantrabattolerance slået fra, ELLER brugeren har slået advarslen til og valgt at tillade den forsinkede kontantrabat (Bogfør saldoen som betalingstolerance).  
 - **B** – I dette tilfælde har brugeren slået advarslen til og valgt ikke at tillade den forsinkede kontantrabat (Lad saldoen stå som restbeløb).  
 
-[!div class="mx-tdBreakAll"]  
 |–|Faktura|Kont.rabat|Maks. betal.tol.|Kont.rabatdato|Kont.rabattol. Dato|Betal.dato|Kont.|Tol.type|Alle poster lukket|Kont.rabattol. finans/debitor|Bet.Tol. finans|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1.000|20|5|01/15/03|01/20/03|<=15-01-03|985|Pmt.Tol.|Ja|0|-5|  
@@ -166,8 +165,6 @@ Scenarier med alternativ A, B, C eller D repræsenterer følgende:
 - **B** – I dette tilfælde har brugeren slået advarslen til og valgt ikke at tillade den forsinkede kontantrabat for nogen faktura.  
 - **C** – I dette tilfælde har brugeren slået advarslen til og valgt at tillade den forsinkede kontantrabat for den første faktura, men ikke den anden faktura.  
 - **D** – I dette tilfælde har brugeren slået advarslen til og valgt ikke at tillade den forsinkede kontantrabat for den første faktura, men at tillade den for den anden faktura.  
-
-[!div class="mx-tdBreakAll"]  
 
 |–|Faktura|Kont.rabat|Maks. betal.tol.|Kont.rabatdato|Kont.rabattol. Dato|Betal.dato|Kont.|Tol.type|Alle poster lukket|Kont.rabattol. finans/debitor|Bet.Tol. finans|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
