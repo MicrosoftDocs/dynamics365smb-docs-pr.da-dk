@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9b3f5b1639fe51f3abbd79ab41a6682499b5752b
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 61b21714465d41369b850289d55c3f4e8d9d5920
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -48,7 +48,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Forretningsfunktioner](across-business-functionality.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

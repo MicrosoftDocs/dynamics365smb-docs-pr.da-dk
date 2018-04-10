@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a2bfabbb680233fad7e578d6de6340cd26bdc1db
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 356c8e6d87fd54be3be376ec4320d3a9aa26d834
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -44,14 +44,14 @@ Du kan indsætte produktionsordrelinjerne manuelt eller bruge funktionen, der ka
     Fortsæt med at definere, hvad der skal omplanlægges og hvordan, i vinduet **Omplanlæg produktionsordre**.  
 6.  Vælg én af følgende indstillinger i feltet **Systemindikator**.  
 
-    |Indstilling|Description|  
+    |Indstilling|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Baglæns**|Beregner operationssekvensen baglæns fra den tidligst mulige slutdato, defineret ved forfaldsdatoen og/eller andre planlagte ordrer til den senest mulige startdato. **Bemærk!** Denne standardindstilling er relevant i de fleste situationer.|  
     |**Forlæns**|Beregner operationssekvensen forlæns fra den senest mulige startdato, defineret ved forfaldsdatoen og/eller andre planlagte ordrer til den tidligst mulige slutdato. **Bemærk!** Denne indstilling er kun relevant for fremskyndede ordrer.|  
 
 7.  Vælg, om produktionskravene skal beregnes for produktionsvarer på produktionsstyklisten, i feltet **Planlæg** på følgende måde.  
 
-    |Indstilling|Description|  
+    |Indstilling|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Ingen niveauer**|Medtag ikke produktion på lavere niveau. Denne indstilling opdaterer kun varens plan, på samme måde som Forny.|  
     |**Ét niveau**|Planlæg for produktionsbehov på 1. niveau. Der oprettes muligvis produktionsordrer på første niveau.|  
@@ -70,7 +70,7 @@ Hvis du har ændret produktionsordrelinjer, komponenter eller rutelinjer, skal d
 3.  Vælg handlingen **Opdater**.
 4. Vælg en af følgende muligheder i vinduet **Opdater produktionsordre**:
 
-    |Indstilling|Description|  
+    |Indstilling|Beskrivelse|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Planlægningsretning**|**Forlæns**|Planlægning begynder ved startdatoen og beregnes fremad til slutdatoen. Du skal angive startdatoen, hvis du vil bruge denne indstilling.|  
     ||**Baglæns**|Planlægning slutter ved startdatoen og beregnes bagud til startdatoen.|  

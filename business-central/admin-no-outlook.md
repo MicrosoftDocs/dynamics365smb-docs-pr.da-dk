@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97be9460746003c2972a4c4d1f23eec9a4f39fab
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -26,7 +26,7 @@ Du kan sende dokumenter som f.eks. fakturaer som mail ved hjælp af din virksomh
 
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 [Bruge Business Central som din virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få Business Central på min mobilenhed](install-mobile-app.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)

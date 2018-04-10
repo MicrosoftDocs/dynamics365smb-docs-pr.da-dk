@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: de2d2d49b40608b03f6285cba010261d42d98371
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: ac7664480d5a2db4642ecc2cb830c4d7022fb53b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="register-new-items"></a>Registrere nye varer
@@ -74,8 +74,9 @@ Hvis du køber den samme vare fra flere forskellige leverandører, skal du angiv
 Leverandørerne vises nu i vinduet **Vare/leverandører**, som du åbner fra varekortet, så du nemt kan vælge en anden leverandør.
 
 ## <a name="see-also"></a>Se også
-  [Lagerbeholdning](inventory-manage-inventory.md)  
-  [Køb](purchasing-manage-purchasing.md)  
-  [Salg](sales-manage-sales.md)  
-  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Oprette nummerserie](ui-create-number-series.md)  
+[Lagerbeholdning](inventory-manage-inventory.md)  
+[Køb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

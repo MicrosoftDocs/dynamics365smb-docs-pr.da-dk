@@ -11,8 +11,8 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 01/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa7d084f69765a0b274dc9d4e1f6c1a38752f3b5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Der er flere oplysninger i [Anvende designer](https://docs.microsoft.com/en-us/d
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder værktøjer, du kan bruge til at implementere dit eget tilføjelsesprogram og integrere funktioner for at tilføje nye branchespecifikke oplevelser fra slutpunkt til slutpunkt eller integrere løsninger fra tredjepart. Du kan f.eks. bruge et API til at opbygge en forbundet app, der udveksler data mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og din løn-app. Forbundne apps kan også gør brug af udvidelser til at oprette sider, der skal bruges til installation, konfiguration eller til at understøtte app-specifikke funktioner. Du kan finde flere oplysninger i [Udvikling af apps til [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
 ##<a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

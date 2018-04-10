@@ -13,8 +13,8 @@ ms.search.keywords: forecast
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b2a1b634a96422ea48ee75b037c3292021513bce
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d83a40c2abf1cfb30d8666a620327b8d6e8a7ebe
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -61,6 +61,6 @@ Du kan bruge rapporten **Anlæg - forventet værdi** til at beregne den fremtidi
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

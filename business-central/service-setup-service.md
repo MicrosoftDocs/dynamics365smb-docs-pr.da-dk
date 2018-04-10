@@ -13,8 +13,8 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b2d8e18c0ad37c39bba234b4e6e57c0d2e60a890
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 772022a8224ff81e332783d95e6cd27500a306fa
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -29,7 +29,7 @@ Når du definerer en service, kan du knytte den til de færdigheder, der kræves
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
   
-| Til | Se |
+| Hvis du vil | Skal du se |
 | --- | --- |
 | Definere koder, der automatisk tildeler linjer i servicedokumenter for tjenester, du leverer ofte. |[Definere koder for standardservices](service-how-setup-service-coding.md)|
 | Oprette generelle indstillinger, der styrer aspekter af Service-processer.|[Konfigurere serviceprocesser](service-setup-service-processes.md)|
@@ -46,5 +46,5 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="see-also"></a>Se også
 [Service Management](service-service.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 

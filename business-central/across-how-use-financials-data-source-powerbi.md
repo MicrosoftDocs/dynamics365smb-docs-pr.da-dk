@@ -8,38 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 12/21/2017
+ms.date: 04/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42939e97d121bd3a2abff91671d9f9571faffbfd
+ms.sourcegitcommit: 9cad9c7e2b54506e60af7d38d42f413599a44d01
+ms.openlocfilehash: 4e25432fe5f21f29b9533c8c909e58bf24f0eb7a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 
 ---
-# <a name="using-included365finincludesd365finmdmd-as-power-bi-data-source-for-building-reports"></a>Brug af [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde til oprettelse af rapporter
-Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige som en datakilde i Power BI og opbygge nyttige rapporter over status for din virksomhed.  
+# <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Brug af [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] som Power BI-datakilde til oprettelse af rapporter
+Du kan gøre dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data tilgængelige som en datakilde i Power BI og opbygge nyttige rapporter over status for din virksomhed.  
 
-> [!NOTE]  
-> Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til Power BI. Desuden skal du hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
+Du skal have en gyldig konto til [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] og til Power BI. Desuden skal du hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
 
-## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-power-bi-desktop"></a>Sådan tilføjes [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde i Power BI Desktop
+## <a name="to-add-included365finlongmdincludesd365finlongmdmd-as-a-data-source-in-power-bi-desktop"></a>Sådan tilføjes [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] som en datakilde i Power BI Desktop
 1. I Power BI Desktop skal du i den venstre navigationsrude vælge **Hent data**.
-2. I vinduet **Hent data** skal du vælge **Onlinetjenester**, vælge **Dynamics 365 Business Central** og derefter vælge knappen **Opret forbindelse**.
-3. Power BI viser en guide, der hjælper dig gennem [forbindelsesprocessen](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Det første trin er at logge på tjenesten. Vælg **Log på**, og vælg den konto, du vil logge på som. Det skal være den samme konto, du bruger til at logge på [!INCLUDE[d365fin](includes/d365fin_md.md)].
-4. Vælg knappen **Opret forbindelse** for at forsætte. Guiden Power BI viser en liste over [!INCLUDE[d365fin](includes/d365fin_md.md)]-regnskaber og -datakilder. Disse datakilder repræsenterer all de webtjenester, som du har publiceret fra hvert regnskab [!INCLUDE[d365fin](includes/d365fin_md.md)].
-5. Du kan også vælge at oprette en ny URL-adresse for webtjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at bruge handlingen **Opret datasæt** på siden **Webtjenester** ved hjælp af guiden Assisteret opsætning for **Konfigurer rapporteringsdata** eller ved at vælge handlingen **Rediger i Excel** på en af listerne.
+2. I vinduet **Hent data** skal du vælge **Onlinetjenester**, vælge **Microsoft Dynamics 365 Business Central** og derefter vælge knappen **Opret forbindelse**.
+3. Power BI viser en guide, der hjælper dig gennem [forbindelsesprocessen](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Du bliver bedt om at logge på tjenesten. Vælg **Log på**, og vælg den konto, du vil logge på som. Det skal være den samme konto, du bruger til at logge på [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+4. Vælg knappen **Opret forbindelse** for at forsætte. Guiden Power BI viser en liste over Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-regnskaber og -datakilder. Disse datakilder repræsenterer all de webtjenester, som du har publiceret fra hvert regnskab i Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+5. Du kan også vælge at oprette en ny URL-adresse for webtjenesten i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] ved at bruge handlingen **Opret datasæt** på siden **Webtjenester** ved hjælp af guiden Assisteret opsætning for **Konfigurer rapporteringsdata** eller ved at vælge handlingen **Rediger i Excel** på en af listerne.
 6. Angiv de data, du vil føje til dine datamodel, og vælg derefter knappen **Indlæsning**.
-7. Gentag fremgangsmåden for at føje flere [!INCLUDE[d365fin](includes/d365fin_md.md)]-data til dine Power BI-datamodel.
+7. Gentag fremgangsmåden for at føje flere Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data eller andre data til dine Power BI-datamodel.
 
 > [!NOTE]  
-> Når du har oprettet forbindelse til [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du ikke bedt om logge på igen.
+> Når du har oprettet forbindelse til Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], bliver du ikke bedt om logge på igen.
 
-Når dataene er indlæst, vises de i den rigtige navigation på siden. Nu har du oprettet forbindelse til dine Business Central-data og er klar til at opbygge din Power BI-rapport. Du kan finde flere oplysninger i [Power BI-dokumentationen](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
+Når dataene er indlæst, vises de i den rigtige navigation på siden. Nu har du oprettet forbindelse til dine Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data og er klar til at opbygge din Power BI-rapport. 
+
+Før du opretter rapporten, anbefales det, at du importerer Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-temafilen.  Temafilen opretter en farvepalet, så du kan oprette rapporter med de samme farvenuancer som Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-indholdspakker, uden at du skal definere brugerdefinerede farver til hvert visuelle element.
+
+Du kan finde flere oplysninger i [Power BI-dokumentationen](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>Se også
 [Business Intelligence](bi.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
 [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Finans](finance.md)  

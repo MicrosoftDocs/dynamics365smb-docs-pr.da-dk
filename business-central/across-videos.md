@@ -13,8 +13,8 @@ ms.search.keywords: video, library, how to
 ms.date: 02/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 692af89238aae46d5ef98f1081f2b7545f8a1306
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: b9f8ba9113cdac79dfd8b20d99c194e834578a8e
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -24,7 +24,7 @@ Du må have tålmodighed, mens vi genopbygger vores bibliotek med "Sådan gør d
 
 I mellemtiden tilbyder vi tre videoer, der kan hjælpe dig med hurtigt at komme i gang.
 
-|Titel|Description|
+|Titel|Beskrivelse|
 |----|----|
 |Introduktion|Se, hvordan funktioner i produktet er organiseret, og hvordan du kommer til forskellige typer opgaver og oplysninger.|
 |Kom i gang|Forstå de vigtige første trin, når du prøver [!INCLUDE[d365fin](includes/d365fin_md.md)] eller har købt produktet for nylig. |
@@ -48,5 +48,5 @@ Blot for at nævne et par eksempler på de videoer, vi opdaterer, der viser, hvo
 * Konfigurerer e-mail og sender dokumenter direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+[Introduktion](product-get-started.md)
 

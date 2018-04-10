@@ -13,8 +13,8 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3b40920eb3b93364a7d571b46d8657336aff556a
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f3507de1dbf463066b81b8504b832d12731f9138
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -37,7 +37,7 @@ Når du har aktiveret bankfeedtjenesten, skal du knytte en bankkonto til onlineb
 Når bankfeedtjenesten er aktiveret, kan du indstille en bankkonto til automatisk at importere nye kontoudtog fra banken til vinduet **Betalingsudligningskladde** hver anden time. Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt i vinduet **Betalingsudligningskladde** importeres ikke. Du kan finde flere oplysninger i afsnittet “Sådan aktiveres automatisk import af kontoudtog fra banken”.
 
 > [!NOTE]  
->   Hvis du bruger den angive opsætning af Konfigurer virksomhed, udføres nogle af trinnene i følgende procedurer automatisk, når du kommer til opsætning af virksomhedens bankkonto. Du kan finde flere oplysninger under [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
+> Hvis du bruger den angive opsætning af Konfigurer virksomhed, udføres nogle af trinnene i følgende procedurer automatisk, når du kommer til opsætning af virksomhedens bankkonto. Du kan finde flere oplysninger under [Introduktion](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Sådan aktiveres bankfeedtjenesten
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
@@ -51,14 +51,14 @@ Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede on
 2. Vælg den relevante bankkonto, og vælg derefter **Opret ny tilknyttet bankkonto**. Vinduet **Tilknytning af bankkonto** åbnes efter et kort øjeblik.
 
     > [!NOTE]  
->   I dette vindue vises den faktiske webside for tjenesten Envestnet Yodlee Bank Feeds. Terminologi og funktioner i vinduet stemmer muligvis ikke overens med de instruktioner, der er angivet i dette emne.  
+    > I dette vindue vises den faktiske webside for tjenesten Envestnet Yodlee Bank Feeds. Terminologi og funktioner i vinduet stemmer muligvis ikke overens med de instruktioner, der er angivet i dette emne.  
 3. I vinduet **Tilknytning af online bankkonto** i ruden **Tilknyt konto** skal du bruge søgefunktionen til at finde den bank, hvor du har en eller flere online bankkonti.
 4. Vælg bankens navn. Ruden **Log på** åbnes.
 5. Angiv det brugernavn og den adgangskode, som du bruger til at logge på onlinebanken, og vælg derefter knappen **Næste**.  
 6. Bankfeedtjenesten forbereder at knytte den første onlinebankkonto i den angivne bank til en ny bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
     > [!NOTE]  
->   Hvis du har mere end én onlinebankkonto i banken, skal du oprette flere bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] for kontiene. Se trin 8 til 10.  
+    > Hvis du har mere end én onlinebankkonto i banken, skal du oprette flere bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] for kontiene. Se trin 8 til 10.  
 
     Når processen er fuldført, vises bankens navn i ruden **Mine konti** på fanen **Tilknyttet**. Tallet i parentes angiver, hvor mange online bankkonti der er tilknyttet.  
 7. Vælg knappen **OK**.
@@ -92,7 +92,7 @@ I vinduet **Bankkontooversigt** er afkrydsningsfeltet **Tilknyttet** markeret.
 2. Vælg linjen for en tilknyttet bankkonto, som du vil fjerne tilknytningen for til den relaterede onlinebankkonto, og vælg derefter handlingen **Fjern tilknytning til onlinebankkonto**.
 
 > [!NOTE]  
->   Hvis du vælger **Ja** i bekræftelsesdialogboksen, fjernes tilknytningen til onlinebankkontoen og logondetaljer ryddes. Hvis du vil knytte bankkontoen til onlinebankkontoen igen, skal du logge på banken igen. Du kan finde flere oplysninger i afsnittet “Sådan knyttes en bankkonto til en onlinebankkonto“.
+> Hvis du vælger **Ja** i bekræftelsesdialogboksen, fjernes tilknytningen til onlinebankkontoen og logondetaljer ryddes. Hvis du vil knytte bankkontoen til onlinebankkontoen igen, skal du logge på banken igen. Du kan finde flere oplysninger i afsnittet “Sådan knyttes en bankkonto til en onlinebankkonto“.
 
 ## <a name="to-update-bank-account-linking"></a>Sådan opdateres tilknytning af bankkonto
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
@@ -106,13 +106,13 @@ Hvis der er problemer med nogen af de tilknyttede bankkonti i vinduet **Bankkont
 3. I vinduet **Opsætning af automatisk import af bankkontoudtog** skal du i feltet **Antal dage inkluderet** angive, hvor langt tilbage i tiden, der skal hentes nye banktransaktioner.
 
     > [!NOTE]  
->   Det anbefales, at du angiver denne værdi til 7 dage eller derover.  
+    > Det anbefales, at du angiver denne værdi til 7 dage eller derover.  
 4. Marker afkrydsningsfeltet **Aktiveret**.  
 
 Hver time viser vinduet **Betalingsudligningskladde** nye betalinger, der foretages på onlinebankkontoen.
 
 > [!NOTE]  
->   Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt i vinduet **Betalingsudligningskladde** importeres ikke.
+> Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt i vinduet **Betalingsudligningskladde** importeres ikke.
 
 ## <a name="see-also"></a>Se også
 [Konfigurere banktransaktioner](bank-setup-banking.md)  

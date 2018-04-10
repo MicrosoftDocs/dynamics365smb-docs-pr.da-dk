@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -23,7 +23,7 @@ ms.lasthandoff: 03/22/2018
 I vinduet **Mine indstillinger** kan du se og ændre grundlæggende indstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Rollecenter
-Rollecenteret repræsenterer startsiden, der er beregnet til rollens behov. Rollecenteret giver et overblik over virksomheden, som afspejler oplysningerne, opgaverne og prioriteringen i din rolle. 
+Rollecenteret repræsenterer startsiden, der er beregnet til rollens behov. Rollecenteret giver et overblik over virksomheden, som afspejler oplysningerne, opgaverne og prioriteringen i din rolle.
 
 Øverst i rollecenteret kan du se en navigationslinje, som giver dig nem adgang til typiske enheder for rollen, f.eks. debitorer, kreditorer, varer osv.
 
@@ -41,7 +41,7 @@ En virksomhed fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d3
 Standardfirmaet kaldes CRONUS og indeholder kun demonstrationsdata.
 
 > [!TIP]  
->   Hvis du vil vise et andet navn til din virksomhed i programmet (f.eks. startsiden Rollecenter), skal du indstille feltet **Navn** på siden **Virksomhedsoplysninger** eller feltet **Visningsnavn** på siden **Virksomheder**.  
+>   Hvis du vil vise et andet navn til din virksomhed i programmet (f.eks. i Rollecenter), skal du indstille feltet **Navn** på siden **Virksomhedsoplysninger** eller feltet **Visningsnavn** på siden **Virksomheder**.  
 
 ## <a name="work-date"></a>Arbejdsdato
 Standardarbejdsdatoen er normalt dags dato. Du skal muligvis midlertidigt ændre arbejdsdatoen for at kunne udføre opgaver, f.eks. udføre transaktioner for en dato, der ikke er dags dato.

@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -26,8 +26,9 @@ For at understøtte dine daglige opgaver kan du bruge en række generelle forret
 
 I følgende tabel vises disse generelle forretningsområder med links til emner, hvor de er beskrevet.
 
-| Til | Se |
+| Hvis du vil | Skal du se |
 | --- | --- |
+|Vis igangværende, bogførte eller arkiverede dokumenter, der er relateret til salgs- og købsordrelinjer.|[Spor dokumentlinjer](across-how-to-track-document-lines.md)|
 | Kommuniker indholdet af forretningsdokumenter hurtigt til forretningspartnere, f.eks betalingsoplysningerne på salgsdokumenter til debitorer. |[Afsendelse af dokumenter som mail](ui-how-send-documents-email.md) |
 | Oprette tekster, så du kan udvide standardteksten ved at tilføje ekstra linjer og oprette betingelser for brugen af de ekstra linjer. |[Definere udvidet tekst](ui-how-define-ext-text.md) |
 |Oprette opgaver for at minde dig om arbejde, der skal udføres. Du kan oprette opgaver til dig selv, men du kan også tildele opgaver til andre eller få tildelt en opgave af en anden i organisationen.|[Definere brugeropgaver](across-user-tasks.md)|

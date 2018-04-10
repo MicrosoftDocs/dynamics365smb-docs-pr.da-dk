@@ -11,8 +11,8 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72fdb96907c4feeb21cdc40b4b781e75e4f1119c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -40,14 +40,14 @@ Hvis du har spørgsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)], som du i
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Er det muligt at udvide min 30-dages prøveperiode "Ny virksomhed"?
 Ja. Hvis du vil udvide din prøveversion, skal du kontakte Microsoft på 1-888-477-7989 (USA) eller 1-800-741-9206 (Canada). Bemærk: Det kan tage op til 2 arbejdsdage til at fuldføre udvidelsen af prøveperioden.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Vores administrator har flyttet mig til en anden plan for at give mig en anden rolle, men jeg kan stadig se den samme startside i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Vores administrator har flyttet mig til en anden plan for at give mig en anden rolle, men jeg kan stadig se det samme Rollecenter i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 Dette er en smule kompliceret, men det ser ud til din administrator ikke har ændre dit Rollecenter og har tildelt brugergrupper, der svarer til den nye licens. I praksis bestemmes adgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)] af den plantype (licens), du har – den angiver rettigheder og rollecentersiden. Du kan ændre dit rollecenter manuelt i Mine indstillinger, men hvis du er blevet flyttet til en anden plan, f.eks. flyttet fra forretningsplanen til teammedlemsplanen, vises den gamle startside måske, fordi dine rettigheder ikke er blevet ændret.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Hvorfor kan jeg ikke finde denne funktionalitet i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Har du læst om en ny funktionalitet i oversigten eller på vores blog for nylig? I så fald er dine [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke blevet opgraderet til den seneste version endnu. Hvis funktionaliteten er udgivet som en udvidelse i AppSource, er der en forsinkelse mellem den udvidelse, der annonceres, og dens tilgængelighed på AppSource.
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] uden Outlook](admin-no-outlook.md)  
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  

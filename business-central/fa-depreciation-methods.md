@@ -13,8 +13,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25509535a04f94c00bf8ea123e36898d4eb20eb8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -31,11 +31,11 @@ Der er otte tilgængelige metoder til afskrivning:
 * Manuelt  
 
   > [!NOTE]  
->   Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord. Du skal angive afskrivningen i anlægskassekladden. Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.  
+  >   Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord. Du skal angive afskrivningen i anlægskassekladden. Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.  
 * Halvårlig afskrivning  
 
   > [!NOTE]  
->    Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.  
+  >    Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.  
 
 ## <a name="straight-line-depreciation"></a>Lineær afskrivning
 Når du bruger den lineære metode, skal du angive en af følgende indstillinger i anlægsafskrivningsprofilen:  
@@ -355,6 +355,6 @@ Når du indtaster en post i B1 i anlægskassekladden og markerer afkrydsningsfel
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

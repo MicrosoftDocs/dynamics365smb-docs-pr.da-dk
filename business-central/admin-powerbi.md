@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -22,7 +22,7 @@ Du kan nemt få indsigt i dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data 
 
 Microsoft er udgivet følgende indholdspakker:
 
-| App | Description |
+| App | Beskrivelse |
 | --- | --- |
 | Microsoft Business Central | Indeholder et dashboard med de vigtigste finansielle data over en periode, f.eks. indtægter og udgifter, driftsavance og kassebeholdningsproces.|
 | Microsoft Business Central - CRM | Indeholder et dashboard med vigtige oplysninger om salgsmuligheder og kontakter.  |
@@ -101,7 +101,7 @@ Hvis fejlmeddelelsen "Logon mislykkedes" vises, når du logger på dashboardet v
 * Den [!INCLUDE[d365fin](includes/d365fin_md.md)]-forekomst, du prøver at oprette forbindelse til, har ikke et gyldigt SSL-certifikat. I dette tilfælde kan du se en mere detaljeret fejlmeddelelse ("kan ikke etablere SSL-tillidsrelation").
 
     > [!NOTE]  
->   Selvsignerede certifikater understøttes ikke.  
+    >   Selvsignerede certifikater understøttes ikke.  
 
 **"UPS"**  
 Hvis du får vist en "UPS"-fejlmeddelelse, når du er færdig med godkendelsesdialogboksen, skyldes dette oftest problemer med forbindelsen til dataene til indholdspakken.
@@ -118,7 +118,7 @@ Hvis du får vist en "UPS"-fejlmeddelelse, når du er færdig med godkendelsesdi
 
 ## <a name="see-also"></a>Se også
 [Business Intelligence](bi.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 [Overføre virksomhedsdata fra andre økonomisystemer](upload-data.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som PowerApps-datakilde](across-how-use-financials-data-source-powerapps.md)  

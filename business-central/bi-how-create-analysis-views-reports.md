@@ -1,8 +1,6 @@
 ---
 title: Oprette analyserapporter | Microsoft Docs
 description: "Beskriver, hvordan du opretter nye analyserapporter for salg, køb og lager og opretter analyseskabeloner."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ En skabelon indeholder et sæt linjer, der hver repræsenterer de analysekolonne
 4. Udfyld felterne i vinduet **Analysekolonner** for at angive de kolonner, som du vil have med i analyserapporten.  
 
     > [!NOTE]  
->   For at definere en kolonne skal du udfylde feltet **Analysetypekoder** for alle kolonnetyper undtagen **Formel**. Angiv analysetypekoderne i vinduet **Analysetyper**.  
-
-    **Bemærk**! Hvis du vælger **Vareposter** i feltet **Posttype**, kopieres de faktiske tal fra vareposten. Hvis du vælger **Varebudgetposter**, kopieres de budgetterede tal fra budgettet.  
+    >   For at definere en kolonne skal du udfylde feltet **Analysetypekoder** for alle kolonnetyper undtagen **Formel**. Angiv analysetypekoderne i vinduet **Analysetyper**.  
+    Hvis du vælger **Vareposter** i feltet **Posttype**, kopieres de faktiske tal desuden fra vareposten. Hvis du vælger **Varebudgetposter**, kopieres de budgetterede tal fra budgettet.  
 5.  Vælg knappen **OK** for at gemme ændringerne.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Sådan opsættes analyselinjeskabeloner  

@@ -1,8 +1,6 @@
 ---
 title: "Definere anlægsafskrivning | Microsoft Docs"
 description: "Du bruger en afskrivningsprofil til at angive, hvordan anlægsaktiver skal afskrives eller nedskrives."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 31f6dc1cc420f45209ea0e4696c6669c5b1c3570
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 01f094c5325773b2c4e9675412fce7d7a29449bd
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -32,7 +30,7 @@ I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives
 3. I vinduet **Afskrivningsprofilkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller i vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Udfør næste trin for at angive, hvilken type kladden der som standard bruges til de forskellige anlægsaktiviteter.
+    >   Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller i vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Udfør næste trin for at angive, hvilken type kladden der som standard bruges til de forskellige anlægsaktiviteter.
 4. På oversigtspanelet **Integration** skal du markere afkrydsningsfeltet for hvert anlægsaktivitet, hvis transaktioner skal bogføres ved hjælp af vinduet **Anlægskassekladde**.
 5. Gentag trin 2 til 4 for hver afskrivningsmetode eller bogføringsmetode, du vil tildele til anlægsaktiver som en afskrivningsprofil.
 
@@ -44,7 +42,7 @@ I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives
 5. Du kan også vælge handlingen **Afskrivningsprofiler** for at angive en eller flere anlægsafskrivningsprofiler.
 
     > [!NOTE]  
->   Når du bruger den manuelle afskrivningsmetode, skal du angive afskrivningen manuelt i anlægskassekladden. Funktionen **Beregn afskrivninger** udelader de anlægsaktiver, som benytter den manuelle afskrivningsmetode. Du kan bruge denne metode til aktiver, der ikke skal afskrives, f.eks. jord.
+    >   Når du bruger den manuelle afskrivningsmetode, skal du angive afskrivningen manuelt i anlægskassekladden. Funktionen **Beregn afskrivninger** udelader de anlægsaktiver, som benytter den manuelle afskrivningsmetode. Du kan bruge denne metode til aktiver, der ikke skal afskrives, f.eks. jord.
 
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Sådan tildeles en afskrivningsprofil til flere anlægsaktiver med en kørsel
 Hvis du vil tildele en afskrivningsprofil til flere anlægsaktiver, kan du bruge kørslen **Opret anlægsafskr.profiler** til at oprette anlægsafskrivningsprofiler.  
@@ -67,9 +65,9 @@ For hver afskrivningsprofil skal du angive, hvordan [!INCLUDE[d365fin](includes/
 3. Udfyld felterne efter behov i vinduet **Anlægsbogf.typeopsætning**.
 
     > [!NOTE]  
->   Du kan ikke indsætte eller slette linjer i vinduet **Anlægsbogf.typeopsætning**. Du kan kun rette eksisterende linjer.
+    >   Du kan ikke indsætte eller slette linjer i vinduet **Anlægsbogf.typeopsætning**. Du kan kun rette eksisterende linjer.
 
-    Det anbefales dog, at du ikke ændrer opsætningen af afskrivningsprofiler, hvori posteringer allerede er blevet bogført. Ændringer har ikke indflydelse på posteringer, som allerede er bogført, hvilket ville gøre afskrivningsprofilstatistikken misvisende.
+Det anbefales dog, at du ikke ændrer opsætningen af afskrivningsprofiler, hvori posteringer allerede er blevet bogført. Ændringer har ikke indflydelse på posteringer, som allerede er bogført, hvilket ville gøre afskrivningsprofilstatistikken misvisende.
 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Sådan defineres standardtyper og -kørsler for anlægsafskrivning
 For hver afskrivningsprofil skal du definere en standardopsætning med typer og navne. Du bruger disse standarder til at duplikere linjer fra én kladde til en anden, oprette kladdelinjer ved hjælp af kørslen **Beregn afskrivning** eller **Indekser anlæg**, duplikere anskaffelsesomkostninger i forsikringskladden.  
@@ -83,6 +81,6 @@ For hver afskrivningsprofil skal du definere en standardopsætning med typer og 
 [Opsætning af anlægsaktiver](fa-setup.md)  
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

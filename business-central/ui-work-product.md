@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ce84903f1273540e744006cc3b042e12113ab5c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Du kan f.eks. justere størrelsen og placeringen af et vindue, udvide bredden af
 
 I følgende tabel vises nogle af den generelle funktionalitet med links til emner, hvor de er beskrevet.
 
-| Til | Se |
+| Hvis du vil | Skal du se |
 | --- | --- |
 | Ændre grundlæggende indstillinger, f.eks virksomhed, arbejdsdato og rollecenter. |[Ændring af grundlæggende indstillinger](ui-change-basic-settings.md) |
 | Finde en specifik side eller rapport. |[Brug af Søg efter side eller rapport](ui-search.md) |
@@ -45,7 +45,7 @@ I følgende tabel vises nogle af den generelle funktionalitet med links til emne
 |Se videoer om valgte funktioner for at hjælpe dig i gang.|[Videoer om almindelige opgaver](across-videos.md)|  
 
 ## <a name="see-also"></a>Se også
-[Introduktion](index.md)  
+[Introduktion](product-get-started.md)  
 [Konfigurere Business Central](setup.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 

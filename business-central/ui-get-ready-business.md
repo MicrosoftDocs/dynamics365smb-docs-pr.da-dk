@@ -12,8 +12,8 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc317c6fefbc9f79b668c1332bbaef2fc74ed4da
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e517397fb849e84da42492aaeea36def7dd3a28
 ms.contentlocale: da-dk
 ms.lasthandoff: 03/22/2018
 
@@ -43,12 +43,12 @@ I vinduet **Assisteret opsætning** kan du finde følgende i **Basis**-oplevelse
 
 Når du har udført en assisteret opsætning, markeres den som **Afsluttet**. Når du vil udføre den assisterede opsætning, skal du vælge de tre punktummer, den såkaldte genvejsmenu, og derefter kan du vælge **Start opsætning**.
 
-## <a name="role-center-home-page"></a>Startside for Rollecenter
-På startsiden for Rollecenter kan du få et overblik over virksomheden. Til venstre vises en navigationslinje, som giver dig nem adgang til debitorer, kreditorer, varer osv. Du finder ruden **Aktiviteter** i midten. **Aktiviteter** viser aktuelle data, og du kan klikke eller trykke på det for hurtigt at få adgang til det valgte dokument. **Nøgletal** kan konfigureres til at vise et valgt diagram for en grafisk visning af f.eks. pengestrøm eller indtægter og udgifter. Du kan også oprette en række **Favoritdebitorer** på startsiden for Rollecenter for kunder, som du handler med ofte, eller du skal have særlig opmærksomhed på.
-Brug pilene til at skjule en del af siden og få mere plads til at se specifikke oplysninger. Øverst på startsiden Rollecenter finder du alle de handlinger, der kan anvendes på det aktuelle indhold. Dette kan også skjules, og du behøver kun at klikke på eller trykke i det skjulte område for at få det vist igen.
+## <a name="role-center"></a>Rollecenter
+Du kan få et overblik over virksomheden i rollecenteret. Til venstre vises en navigationslinje, som giver dig nem adgang til debitorer, kreditorer, varer osv. Du finder ruden **Aktiviteter** i midten. **Aktiviteter** viser aktuelle data, og du kan klikke eller trykke på det for hurtigt at få adgang til det valgte dokument. **Nøgletal** kan konfigureres til at vise et valgt diagram for en grafisk visning af f.eks. pengestrøm eller indtægter og udgifter. Du kan også oprette en række **Favoritdebitorer** i rollecenteret for kunder, som du handler med ofte, eller du skal have særlig opmærksomhed på.
+Brug pilene til at skjule en del af siden og få mere plads til at se specifikke oplysninger. Øverst i rollecenteret finder du alle de handlinger, der kan anvendes på det aktuelle indhold. Dette kan også skjules, og du behøver kun at klikke på eller trykke i det skjulte område for at få det vist igen.
 
 > [!TIP]  
-> Du kan vende tilbage til startsiden Rollecenter ved at vælge firmanavnet i øverste venstre hjørne.
+> Du kan vende tilbage til Rollecenter ved at vælge firmanavnet i øverste venstre hjørne.
 
 ## <a name="company-information"></a>Virksomhedsoplysninger
 Under **Virksomhedsindstillinger** kan du se og redigere opsætningsoplysninger om den aktuelle virksomhed, meget af det er udfyldt på forhånd, hvis du fuldførte den assisterede opsætning **Konfigurer virksomhed**, da du oprettede [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ændre virksomhedens logo, kontaktoplysninger, bankindstillinger eller momsoplysninger, kan du gøre det i dette vindue.    
@@ -63,7 +63,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du finde værktøjstip, der ka
 Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs- eller købsdokumenter. Brug sektionen **Min virksomhed** på din **Startside** til hurtigt at oprette et nyt salgstilbud, salgsfaktura, salgsordre, købsfaktura eller betalingsregistrering.
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Administrere brugere og deres rettigheder](ui-how-users-permissions.md)
 
