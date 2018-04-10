@@ -1,5 +1,6 @@
-# [Introduktion](index.md)
-## [Minimumkrav](financials-requirements.md)
+# [Velkommen til Business Central](index.md)
+# [Introduktion](product-get-started.md)
+## [Minimumkrav](product-requirements.md)
 ## [Ofte stillede spørgsmål](across-faq.md)
 ## [Videoer om almindelige opgaver](across-videos.md)
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
@@ -348,6 +349,7 @@
 ## [Levering af service](service-deliver-service.md)
 
 # [Generelle forretningsfunktioner](ui-across-business-areas.md)
+## [Spor dokumentlinjer](across-how-to-track-document-lines.md)
 ## [Afsendelse af dokumenter som mail](ui-how-send-documents-email.md)
 ## [Tilføje udvidet varetekst](ui-how-define-ext-text.md)
 ## [Definere brugeropgaver](across-user-tasks.md)
