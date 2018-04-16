@@ -47,7 +47,7 @@ Når du har oprettet rentenotaer og foretaget eventuelle nødvendige ændringer,
 
 ## <a name="to-send-the-customer-statement-report"></a>Sådan sendes rapporten Kontoudtog
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoudtog**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Under **Rapportindstillinger** skal du vælge, hvordan rapporten skal sendes til kunden.
 
 > [!NOTE]  

@@ -39,29 +39,29 @@ Afhængigt af typen af side og dens indehold, kan du:
 
     ![Tilpasningstilstand](media/ui_personalize_mode_small.png "Tilpasningstilstand")
 
-2.  Gå til en side, du vil tilpasse.
+2. Gå til en side, du vil tilpasse.
 
-    Hvis der vises et låseikon på banneret, skal du se [Derfor er siden låst](ui-personalization-locked.md) for at få yderligere oplysninger.
+   Hvis der vises et låseikon på banneret, skal du se [Derfor er siden låst](ui-personalization-locked.md) for at få yderligere oplysninger.
 
-3.  Peg på et område, som du vil tilpasse, f.eks. et felt eller kolonneoverskriften på en liste. Alt, du kan tilpasse, fremhæves straks med en pil eller ramme.
-<!--
-    -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
-    -   If the component is a part, the extent of the part is indicated by a border.
-    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-    -->
+3. Peg på et område, som du vil tilpasse, f.eks. et felt eller kolonneoverskriften på en liste. Alt, du kan tilpasse, fremhæves straks med en pil eller ramme.
+   <!--
+   -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
+   -   If the component is a part, the extent of the part is indicated by a border.
+   -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
+   -->
 
-4.  Brug tabellen som en hjælp til at foretage ændringer:     <table>
-        <tr><th>Hvad vil du foretage dig?</td><th>Hvordan du gør det</th></tr>
-        <tr><td>Flytte noget, f.eks. et felt, en kolonne i listen, et felt eller en del</td><td> Peg et vilkårligt sted i det, du vil flytte, og træk det til den nye placering. Placeringen angives med enten en fed vandret eller lodret linje.</td></tr>
-        <tr><td>Fjerne noget</td><td>Vælg pilespidsen, og vælg <b>Fjern</b>. </td></tr>
-        <tr><td>Tilføje et felt eller en kolonne</td><td>I banneret <b>Tilpas</b> skal du vælge <b>Flere</b>, og derefter vælge <b>Felt</b>.<br /></br>Ruden <b>Tilføj felt til side</b> vises til højre. Den viser de felter, du kan føje til siden. Felter, der er markeret som <b>Placeret</b>, findes allerede på siden. Felter, der er markeret som <b>Klar</b>, findes i øjeblikke ikke på siden.<br /></br>Hvis du vil tilføje et felt, skal du trække det fra ruden til den ønskede placering. Placeringen angives med enten en fed vandret eller lodret linje.</td></tr>
-        <tr><td>Flytte den fastlåste rude i en liste til en anden kolonne</td><td>Vælg pilespidsen for den kolonne, som du vil bruge som den sidste kolonne i den fastlåste rude, og vælg derefter <b>Angiv låst rude</b>.<br /><br/>Hvis du vil flytte den fastlåste rude tilbage til den oprindelige tiltænkte placering, skal du vælge pilespidsen for den aktuelle kolonne i den låste rude og vælge <b>Ryd låst rude</b>. Bemærk: Du kan ikke fjerne denne låste rude.</td></tr>
-      </table>
+4. Brug tabellen som en hjælp til at foretage ændringer:     <table>
+       <tr><th>Hvad vil du foretage dig?</td><th>Hvordan du gør det</th></tr>
+       <tr><td>Flytte noget, f.eks. et felt, en kolonne i listen, et felt eller en del</td><td> Peg et vilkårligt sted i det, du vil flytte, og træk det til den nye placering. Placeringen angives med enten en fed vandret eller lodret linje.</td></tr>
+       <tr><td>Fjerne noget</td><td>Vælg pilespidsen, og vælg <b>Fjern</b>. </td></tr>
+       <tr><td>Tilføje et felt eller en kolonne</td><td>I banneret <b>Tilpas</b> skal du vælge <b>Flere</b>, og derefter vælge <b>Felt</b>.<br /></br>Ruden <b>Tilføj felt til side</b> vises til højre. Den viser de felter, du kan føje til siden. Felter, der er markeret som <b>Placeret</b>, findes allerede på siden. Felter, der er markeret som <b>Klar</b>, findes i øjeblikke ikke på siden.<br /></br>Hvis du vil tilføje et felt, skal du trække det fra ruden til den ønskede placering. Placeringen angives med enten en fed vandret eller lodret linje.</td></tr>
+       <tr><td>Flytte den fastlåste rude i en liste til en anden kolonne</td><td>Vælg pilespidsen for den kolonne, som du vil bruge som den sidste kolonne i den fastlåste rude, og vælg derefter <b>Angiv låst rude</b>.<br /><br/>Hvis du vil flytte den fastlåste rude tilbage til den oprindelige tiltænkte placering, skal du vælge pilespidsen for den aktuelle kolonne i den låste rude og vælge <b>Ryd låst rude</b>. Bemærk: Du kan ikke fjerne denne låste rude.</td></tr>
+     </table>
 
-    > [!IMPORTANT]  
-    >   Du kan ikke ændre en liste, hvis listen vises side om side. Du skal først skifte siden til listevisningen ved at vælge ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Pil til venstre Vis som liste").
+   > [!IMPORTANT]  
+   >   Du kan ikke ændre en liste, hvis listen vises side om side. Du skal først skifte siden til listevisningen ved at vælge ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Pil til venstre Vis som liste").
 
-5.  Du kan fortsætte med at foretage ændringer på samme side eller flytte til en anden side. Ændringerne gemmes automatisk, når du foretager dem. Når du er færdig, skal du i banneret **Tilpasning** vælge **Færdig**.
+5. Du kan fortsætte med at foretage ændringer på samme side eller flytte til en anden side. Ændringerne gemmes automatisk, når du foretager dem. Når du er færdig, skal du i banneret **Tilpasning** vælge **Færdig**.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Ryd tilpasning for at skifte en side tilbage til det oprindelige layout
 På et tidspunkt ønsker du måske at fjerne alle de tilpasningsændringer, du har foretaget på en side i tidens løb, så siden får sit oprindelige udseende. Hvis du vil gøre dette, skal du i banneret **Tilpasning** vælge **Flere**, og derefter **Fjern tilpasning**.

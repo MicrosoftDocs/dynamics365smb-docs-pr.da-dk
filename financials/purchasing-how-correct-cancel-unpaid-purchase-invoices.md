@@ -31,7 +31,7 @@ I vinduet **Bogført købsfaktura** kan du vælge knappen **Ret** eller **Annull
 2. Vælg den bogførte købsfaktura, som du vil rette.  
 
     > [!NOTE]  
->   Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke rette den bogførte købsfaktura, da den allerede er rettet eller annulleret.
+   >   Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke rette den bogførte købsfaktura, da den allerede er rettet eller annulleret.
 3. I vinduet **Bogført købsfaktura** skal du vælge **Ret**.
 
     En ny købsfaktura med de samme oplysninger oprettes, hvor du kan foretage en rettelse. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md). Feltet **Annulleret** på den første bogførte købsfaktura ændres til **Ja**.
@@ -44,7 +44,7 @@ I vinduet **Bogført købsfaktura** kan du vælge knappen **Ret** eller **Annull
 2. Vælg den bogførte købsfaktura, som du vil annullere.
 
     > [!NOTE]  
->   Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke annullere den bogførte købsfaktura, da den allerede er annulleret eller rettet.
+   >   Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke annullere den bogførte købsfaktura, da den allerede er annulleret eller rettet.
 3. I vinduet **Bogført købsfaktura** skal du vælge **Annuller**.
 
     En købskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte købsfaktura. Feltet **Annulleret** på den første bogførte købsfaktura ændres til **Ja**.

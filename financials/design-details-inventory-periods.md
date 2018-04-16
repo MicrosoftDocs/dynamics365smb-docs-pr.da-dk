@@ -26,11 +26,11 @@ Tilbagedaterede transaktioner eller omkostningsreguleringer påvirker ofte saldi
 
  Med henblik på at sikre, at alle transaktionsposter i en lukket periode er endelige, skal følgende betingelser være opfyldt, før en lagerperiode kan lukkes:  
 
--   Alle udgående vareposter i perioden skal lukkes (ingen negativ lagerbeholdning).  
--   Alle vareomkostninger i perioden skal reguleres.  
--   Alle frigivne og færdige produktionsordrer i perioden skal være kostprisreguleret.  
+- Alle udgående vareposter i perioden skal lukkes (ingen negativ lagerbeholdning).  
+- Alle vareomkostninger i perioden skal reguleres.  
+- Alle frigivne og færdige produktionsordrer i perioden skal være kostprisreguleret.  
 
- Når du lukker en lagerperiode, oprettes der en lagerperiodepost ved brug af nummeret på den sidste varejournal, der falder i lagerperioden. Den tid, dato og brugerkode for den bruger, der lukker perioden, registreres desuden i lagerperiodeposten. Ved hjælp af disse oplysninger sammen med den seneste varejournal for den forrige periode, kan du se, hvilke lagertransaktioner der er bogført i lagerperioden. Det er også muligt at genåbne lagerperioder, hvis du skal bogføre i en lukket periode. Når du genåbner en lagerperiode, oprettes der en lagerperiodepost.  
+  Når du lukker en lagerperiode, oprettes der en lagerperiodepost ved brug af nummeret på den sidste varejournal, der falder i lagerperioden. Den tid, dato og brugerkode for den bruger, der lukker perioden, registreres desuden i lagerperiodeposten. Ved hjælp af disse oplysninger sammen med den seneste varejournal for den forrige periode, kan du se, hvilke lagertransaktioner der er bogført i lagerperioden. Det er også muligt at genåbne lagerperioder, hvis du skal bogføre i en lukket periode. Når du genåbner en lagerperiode, oprettes der en lagerperiodepost.  
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md) [Finans](finance.md)  

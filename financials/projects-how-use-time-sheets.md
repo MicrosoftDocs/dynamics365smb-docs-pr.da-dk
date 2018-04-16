@@ -33,7 +33,7 @@ Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angi
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Timesedler**, og vælg derefter det relaterede link.
 2. I vinduet **Timeseddeloversigt** skal du vælge handlingen **Opret timesedler**.
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Felterne **Brug timeseddel** og **Bruger-id for timeseddelejer** skal udfyldes på kortet for ressourcen for timesedlen.
@@ -77,16 +77,16 @@ Registrering af timesedler spores i timer, standardbasisenheden for ressourcer. 
 3. Udfyld felterne på en linje efter behov. Angiv det antal timer, der bruges af ressourcen på hver ugedag.
 
     > [!TIP]  
->   Du kan se summen af timeseddeltimer, du har angivet i faktaboksen **Faktisk/budgetteret oversigt**.  
+   >   Du kan se summen af timeseddeltimer, du har angivet i faktaboksen **Faktisk/budgetteret oversigt**.  
 4. Gentag trin 3 for andre arbejdstyper, der udføres af ressourcen.
 5. Vælg handlingen **Send**, og vælg derefter handlingen **Alle åbne linjer** for at sende alle linjer eller handlingen **Kun valgte linjer** for kun at sende de linjer, der er valgt i vinduet **Timeseddel**.  
 
     > [!NOTE]  
->   Du kan dog kun sende timeseddellinjer, som du har angivet tidspunkter for.  
+   >   Du kan dog kun sende timeseddellinjer, som du har angivet tidspunkter for.  
 6. Hvis du vil ændre oplysningerne på en linje, der er indstillet til **Sendt**, skal du markere linjen og derefter vælge handlingen **Åbn igen**.
 
     > [!NOTE]  
->   En leder kan afvise en timeseddellinje, der er sendt til godkendelse. Hvis en linje har statussen **Afvist**, kan du foretage ændringer i linjen og derefter vælge **Send** igen.  
+   >   En leder kan afvise en timeseddellinje, der er sendt til godkendelse. Hvis en linje har statussen **Afvist**, kan du foretage ændringer i linjen og derefter vælge **Send** igen.  
 7. Vælg knappen **OK**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Sådan godkendes eller afvises en timeseddel
@@ -111,7 +111,7 @@ Når du har godkendt eller afvist en timeseddel, kan den ikke redigeres, medmind
 2. Åbn en timeseddel på listen.  
 
     > [!NOTE]  
->   Du kan kun åbne linjer med statussen **Godkendt**. Du kan ikke genåbne linjer med statussen **Afvist**. Du kan ikke genåbne en timeseddel, hvis den er blevet bogført.  
+   >   Du kan kun åbne linjer med statussen **Godkendt**. Du kan ikke genåbne linjer med statussen **Afvist**. Du kan ikke genåbne en timeseddel, hvis den er blevet bogført.  
 3. I vinduet **Timeseddel** skal du vælge handlingen **Åbn igen** og derefter vælge handlingen **Alle sendte linjer** for at genåbne alle linjer eller handlingen **Kun valgte linjer** for kun at genåbne de linjer, der er valgt i vinduet **Timeseddel**.
 4. Vælg knappen **OK**. Status for timeseddellinjerne er ændringer for **Sendt**.  
 
@@ -134,7 +134,7 @@ Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den rele
 4. Vælg knappen **OK**. Der oprettes poster for forbrug i sagskladden, hvor du kan ændre oplysningerne efter behov.  
 
     > [!NOTE]  
->   Oplysninger om arbejdstype, og om arbejdet er fakturerbart, kopieres fra timeseddellinjen. Du kan om nødvendigt reducere antallet af timer og foretage en delvis bogføring. Hvis du reducerer antallet, sker der følgende: Næste gang, du vælger handlingen **Foreslå linjer fra timesedler**, vil den linje, der oprettes, indeholde den resterende mængde timer.  
+   >   Oplysninger om arbejdstype, og om arbejdet er fakturerbart, kopieres fra timeseddellinjen. Du kan om nødvendigt reducere antallet af timer og foretage en delvis bogføring. Hvis du reducerer antallet, sker der følgende: Næste gang, du vælger handlingen **Foreslå linjer fra timesedler**, vil den linje, der oprettes, indeholde den resterende mængde timer.  
 5. Vælg handlingen **Bogfør**.  
 6. Vælg handlingen **Poster** for at bekræfte posteringen. Vinduet **Sagsposter** åbnes og viser resultatet for bogføring af ressourcekladden.
 

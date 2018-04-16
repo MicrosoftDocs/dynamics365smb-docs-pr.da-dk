@@ -30,7 +30,7 @@ Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du ud
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Sådan konfigureres virksomheder til koncerninterne transaktioner
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Virksomhedsoplysninger**, og vælg derefter det relaterede link.  
-2. I vinduet **Virksomhedsoplysninger** skal du udfylde felterne **Koncernintern partnerkode**, **Koncernintern indbakketype** og **Koncerninterne indbakkeoplysninger**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I vinduet **Virksomhedsoplysninger** skal du udfylde felterne **Koncernintern partnerkode**, **Koncernintern indbakketype** og **Koncerninterne indbakkeoplysninger**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Sådan konfigureres koncerninterne partnere
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncerninterne partnere**, og vælg derefter det relaterede link.

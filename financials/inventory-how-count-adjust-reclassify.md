@@ -99,7 +99,7 @@ Medarbejderne kan nu fortsætte med at optælle lagerbeholdningen og registrere 
     Relaterede felter opdateres tilsvarende.
 
     > [!NOTE]  
->   Hvis den fysiske optælling afslører forskelle, som skyldes, at varer er blevet bogført med forkerte lokationskoder, skal du ikke angive forskellene i lageropgørelseskladden. Brug i stedet omposteringskladden eller en overflytningsordre til at omdirigere varerne til de rigtige steder. Du kan finde flere oplysninger i Vareomposteringskladde eller Oprette overflytningsordrer.
+   >   Hvis den fysiske optælling afslører forskelle, som skyldes, at varer er blevet bogført med forkerte lokationskoder, skal du ikke angive forskellene i lageropgørelseskladden. Brug i stedet omposteringskladden eller en overflytningsordre til at omdirigere varerne til de rigtige steder. Du kan finde flere oplysninger i Vareomposteringskladde eller Oprette overflytningsordrer.
 
 2. Hvis du vil regulere det beregnede antal til det faktiske optalte antal, skal du vælge handlingen **Bogfør**.
 
@@ -134,7 +134,7 @@ Lageropgørelser foretages typisk med et fast interval, f.eks. hver måned, hver
 Du konfigurerer hver lageroptællingsperiode, du vil bruge, og knytter en til hver vare. Når du foretager en lageropgørelse og bruger **Beregn optællingsperiode** i lageropgørelseskladden, bogføres linjer for varerne, der oprettes, automatisk.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lageropgørelse - optællingsperioder**, og vælg derefter det relaterede link.  
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Sådan tildeles en optællingsperiode til en vare  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
@@ -180,7 +180,7 @@ I vinduet **Varekladde** kan du bogføre varetransaktionen direkte for at regule
 Hvis du ofte bruger varekladden til at bogføre de samme eller lignende kladdelinjer, f.eks. i forbindelse med materialeforbrug, kan du bruge vinduet **Standardvarekladde** til at lette denne gentagne opgave. Du kan finde flere oplysninger i afsnittet "Standardkladder" i [Arbejde med finanskladder](ui-work-general-journals.md).
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekladder**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vælg handlingen **Bogfør** for at regulere lagerbeholdningen.
 
 > [!NOTE]  

@@ -31,17 +31,17 @@ Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktio
 4. I oversigtspanelet **Linjer** skal du vælge handlingen **Hent salgsleverancelinjer**.  
 5. Vælg de leverancelinjer, der skal indgå i fakturaen:  
 
-    - Hvis alle linjer skal indsættes, skal du markere samtlige linjer og vælge knappen **OK**.  
-    - Hvis specifikke linjer skal indsættes, skal du markere linjerne og vælge knappen **OK**. Du kan bruge Ctrl-tasten til at markere flere ikke-fortløbende linjer.  
+   - Hvis alle linjer skal indsættes, skal du markere samtlige linjer og vælge knappen **OK**.  
+   - Hvis specifikke linjer skal indsættes, skal du markere linjerne og vælge knappen **OK**. Du kan bruge Ctrl-tasten til at markere flere ikke-fortløbende linjer.  
 
-    Hvis du kommer til at vælge en forkert leveringslinje eller vil begynde forfra, skal du bare slette linjerne på fakturaen og bruge funktionen **Hent salgsleverancelinjer** igen.  
-7. Vælg handlingen **Bogfør** for at fakturere kladden.  
+     Hvis du kommer til at vælge en forkert leveringslinje eller vil begynde forfra, skal du bare slette linjerne på fakturaen og bruge funktionen **Hent salgsleverancelinjer** igen.  
+6. Vælg handlingen **Bogfør** for at fakturere kladden.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du automatisk leverancer på én enkelt faktura  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Tillad samlefaktura**, og vælg derefter det relaterede link. Kørselsvinduet åbner.  
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Markér afkrydsningsfeltet **Bogfør fakturaer**.  
-4.  Vælg knappen **OK**.  
+4. Vælg knappen **OK**.  
 
 > [!NOTE]  
 >  Du er nødt til at bogføre fakturaerne manuelt, hvis afkrydsningsfeltet **Bogfør fakturaer** ikke var markeret til kørslen.  

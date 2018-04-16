@@ -38,7 +38,7 @@ På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring
 4. Brug feltet **Koblingstekst** til at angive tekst, der forekommer på betalinger, du vil bogføre på de angivne konti uden udligning til en åben post. Du kan angive op til 50 tegn.
 
     > [!NOTE]  
->   Hvis der ikke findes andre betalinger med den pågældende tilknytningstekst, kan teksten til kontotilknytning optræde, selv om kun en del af teksten på betalingen findes som en tilknytningstekst.
+   >   Hvis der ikke findes andre betalinger med den pågældende tilknytningstekst, kan teksten til kontotilknytning optræde, selv om kun en del af teksten på betalingen findes som en tilknytningstekst.
 5. I feltet **Kreditornummer** skal du angive den kreditor, som betalingerne skal bogføres på.
 6. Brug feltet **Modkontokildetype** til at angive, om betalingen skal bogføres på en finanskonto eller en debitor- eller kreditorkonto.
 7. I feltet **Modkontokildenr.** skal du angive den konto, som betalingen vil blive bogført til, afhængig af valget i feltet **Modkontokildetype**.
@@ -57,7 +57,7 @@ Hvis du altid vil bogføre brændstofudgifter på Shell-benzinstationer til fina
 | --- | --- | --- | --- | --- |
 | Shell |TOM |8510 |Finanskonto |TOM |
 
-> [!TIP]  
+> [!TIP]
 >   I emnet [Arbejde med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md) kan du finde flere oplysninger om, hvordan du arbejder med felter og kolonner. Se [Søg](ui-search.md) for at få flere oplysninger om søgning efter bestemte sider.
 
 ## <a name="see-also"></a>Se også

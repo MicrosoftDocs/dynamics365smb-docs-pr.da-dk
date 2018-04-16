@@ -38,22 +38,22 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
 ## <a name="to-test-custom-report-layout-updates"></a>Sådan kontrollerer du opdateringer til brugerdefinerede rapportlayout  
   
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
   
-2.  I vinduet **Valg af rapportlayout** skal du vælge handlingen **Opdateringer af testlayout**.  
+2. I vinduet **Valg af rapportlayout** skal du vælge handlingen **Opdateringer af testlayout**.  
   
- Ændringer til de viste rapportlayout testes, men anvendes ikke på de faktiske rapportlayout. Et **Log over rapportlayoutopdatering** åbnes og viser status for de mulig opdateringer til hver rapportlayout. Hvis der er fejl i et rapportlayout, kan du åbne rapportlayout direkte til redigering fra meddelelsen for at løse problemer. Du kan finde flere oplysninger under [Rettelse af fejl](ui-update-report-layouts.md#FixErrors).  
+   Ændringer til de viste rapportlayout testes, men anvendes ikke på de faktiske rapportlayout. Et **Log over rapportlayoutopdatering** åbnes og viser status for de mulig opdateringer til hver rapportlayout. Hvis der er fejl i et rapportlayout, kan du åbne rapportlayout direkte til redigering fra meddelelsen for at løse problemer. Du kan finde flere oplysninger under [Rettelse af fejl](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Begrænsninger for den brugerdefinerede rapport layoutopdatering  
  Der er flere typer ændringer, som den automatisk opdatering kan anvende på brugerdefinerede rapportlayout, f.eks. er et felt, der bruges i layoutet, fjernet fra rapportens datasæt. Men den automatisk opdatering kan ikke håndtere følgende ændringer af et rapportdatasæt.  
   
-1.  Slettede felter, etiketter eller dataelementer.  
+1. Slettede felter, etiketter eller dataelementer.  
   
-2.  Navn på dubletfelter i rapportlayout, når et felt er omdøbt i datasættet. Det skal behandles som en designfejl.  
+2. Navn på dubletfelter i rapportlayout, når et felt er omdøbt i datasættet. Det skal behandles som en designfejl.  
   
-3.  Opgraderingssituationer, hvor der er flere gentagelser af rapportlayout, som bevirker flere omdøbningshandlinger i de samme felter, etiketter eller dataelementer.  
+3. Opgraderingssituationer, hvor der er flere gentagelser af rapportlayout, som bevirker flere omdøbningshandlinger i de samme felter, etiketter eller dataelementer.  
   
- Hvis der registreres et af disse problemer under opdateringen, kan opdateringen ikke anvendes. Du er nødt til at løse problemerne manuelt, f.eks. ved at redigere rapportlayoutet i Word, eller gennem programmering ved at bruge opgraderingskodeenheder.  
+   Hvis der registreres et af disse problemer under opdateringen, kan opdateringen ikke anvendes. Du er nødt til at løse problemerne manuelt, f.eks. ved at redigere rapportlayoutet i Word, eller gennem programmering ved at bruge opgraderingskodeenheder.  
   
 ##  <a name="FixErrors"></a> Rettelse af fejl  
  Hvis du får en fejlmeddelelse, når du opdaterer eller kontrollerer layoutopdateringer, skal du sandsynligvis ændre rapportens layout for at løse problemet. Læs fejlmeddelelsen for at finde årsagen til problemet.  

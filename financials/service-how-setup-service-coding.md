@@ -28,12 +28,12 @@ Når der foretages standardservice, skal der ofte oprettes servicedokumenter, de
   
 ## <a name="to-set-up-a-standard-service-code"></a>Sådan oprettes standardservicekoder    
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Standardservicekoder**, og vælg derefter det relaterede link.  
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Udfyld de servicelinjer, der er knyttet til denne servicekode.  
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Udfyld de servicelinjer, der er knyttet til denne servicekode.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Tildele en standardservicekode til en serviceartikelgruppe
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceartikelgrupper**, og vælg derefter det relaterede link.  
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Udfyld de servicelinjer, der er knyttet til denne servicekode.  
 
 ## <a name="see-also"></a>Se også

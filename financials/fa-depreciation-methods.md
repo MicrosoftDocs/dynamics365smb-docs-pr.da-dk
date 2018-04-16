@@ -31,11 +31,11 @@ Der er otte tilgængelige metoder til afskrivning:
 * Manuelt  
 
   > [!NOTE]  
->   Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord. Du skal angive afskrivningen i anlægskassekladden. Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.  
+  >   Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord. Du skal angive afskrivningen i anlægskassekladden. Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.  
 * Halvårlig afskrivning  
 
   > [!NOTE]  
->    Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.  
+  >    Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.  
 
 ## <a name="straight-line-depreciation"></a>Lineær afskrivning
 Når du bruger den lineære metode, skal du angive en af følgende indstillinger i anlægsafskrivningsprofilen:  
@@ -233,7 +233,7 @@ I vinduet **Afskrivningstabel** kan du oprette brugerdefinerede afskrivningsmeto
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningstabeller**, og vælg derefter det relaterede link.  
 2. I vinduet **Afskrivningstabeloversigt** skal du vælge handlingen **Ny**.  
-3. I vinduet **Afskrivningstabelkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. I vinduet **Afskrivningstabelkort** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Eksempel - Brugerdefineret afskrivning
 Du bruger en afskrivningsmetode, der gør det muligt at afskrive aktiver hurtigere af skattemæssige årsager.  

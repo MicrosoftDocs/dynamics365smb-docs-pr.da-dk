@@ -26,7 +26,7 @@ I dette emne beskrives også opsætning af opgaver og aktiviteter, og hvordan du
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Sådan oprettes salgsproceskoder for leads
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsprocesser**, og vælg derefter det relaterede link. Vinduet **Salgsprocesser** åbnes og viser de eksisterende salgsprocesser.
-2. Vælg handlingen **Ny**, og udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Vælg handlingen **Ny**, og udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Gentag disse trin for hver salgsproces, du vil oprette. Når du har defineret salgsprocesser for leads, kan du definere de forskellige faser i hver proces.
 

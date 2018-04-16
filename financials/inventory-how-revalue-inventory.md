@@ -25,7 +25,7 @@ Hvis du vil op- eller nedskrive en vare eller en bestemt varepost, skal du bruge
 ## <a name="to-revalue-inventory"></a>Sådan reguleres lagerbeholdningen
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Værdireguleringskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Beregn lagerværdi**.
-3. I vinduet **Beregn lagerværdi** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Beregn lagerværdi** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg knappen **OK**.
 5. Angiv den nye kostpris på hver linje i vinduet **Værdireguleringskladde** i feltet **Kostpris (reguleret)**. Eller du kan i stedet angive det nye, samlede beløb i feltet **Lagerværdi (reguleret)**.
 

@@ -33,10 +33,10 @@ Hvis du vil overflytte varer, skal lokationer og overflytningsruter oprettes. De
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Såden overflyttes varer med en overflytningsordre
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Overflytningsordrer**, og vælg derefter det relaterede link.
-2. I vinduet **Overflytningsordre** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I vinduet **Overflytningsordre** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservice** i vinduet **Overflytningsrutespec.**, udfyldes de tilsvarende felter på overflytningsordren automatisk, når du opretter overflytningsruten.
+   >   Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservice** i vinduet **Overflytningsrutespec.**, udfyldes de tilsvarende felter på overflytningsordren automatisk, når du opretter overflytningsruten.
 
     Når du udfylder feltet **Speditørservice** beregnes modtagelsesdatoen på den lokation, der overflyttes til, ved at lægge speditørens transporttid til afsendelsesdatoen.
 
@@ -50,11 +50,11 @@ Hvis du vil overflytte varer, skal lokationer og overflytningsruter oprettes. De
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Sådan overflyttes varer i vareomposteringskladden
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareomposteringskladder**, og vælg derefter det relaterede link.
-2. I vinduet **Vareomposteringskladder** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I vinduet **Vareomposteringskladder** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I feltet **Lokationskode** skal du indtaste den lokation, hvor varerne opbevares i øjeblikket.
 
     > [!NOTE]  
->   For at overflytte varer, der ikke har en lokationskode, skal du lade feltet **Lokationskode** stå tomt.
+   >   For at overflytte varer, der ikke har en lokationskode, skal du lade feltet **Lokationskode** stå tomt.
 4. I feltet **Ny lokationskode** skal du angive den lokation, som du vil overflytte varerne til.
 5. Vælg handlingen **Bogfør**.
 

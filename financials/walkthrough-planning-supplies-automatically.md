@@ -22,12 +22,12 @@ ms.lasthandoff: 03/22/2018
 # <a name="walkthrough-planning-supplies-automatically"></a>Gennemgang: Automatisk planlægning af forsyninger
 Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen af hovedplanen (MPS) og materialebehovsplanen (MRP) baseret på det faktiske og det prognosticerede behov.  
 
--   MPS defineres som beregning af en hovedplan på basis af et faktisk behov og produktionsforecast. MPS-beregningen bruges til slutvarer, der har en forecast- eller en salgsordrelinje. Disse varer kaldes "MPS-varer" og identificeres dynamisk, når beregningen begynder.  
--   MRP defineres som beregning af materialebehov på basis af et faktisk komponentbehov og et produktionsforecast på komponentniveau. MRP beregnes kun for varer, der ikke er MPS-varer. Det overordnede formå med MRP er at udarbejde formelle planer med tidsangivelser og opdelt efter varer, så den rigtige vare kan leveres på det rigtige tidspunkt, til det rigtige sted og i det rette antal.  
+- MPS defineres som beregning af en hovedplan på basis af et faktisk behov og produktionsforecast. MPS-beregningen bruges til slutvarer, der har en forecast- eller en salgsordrelinje. Disse varer kaldes "MPS-varer" og identificeres dynamisk, når beregningen begynder.  
+- MRP defineres som beregning af materialebehov på basis af et faktisk komponentbehov og et produktionsforecast på komponentniveau. MRP beregnes kun for varer, der ikke er MPS-varer. Det overordnede formå med MRP er at udarbejde formelle planer med tidsangivelser og opdelt efter varer, så den rigtige vare kan leveres på det rigtige tidspunkt, til det rigtige sted og i det rette antal.  
 
- Der bruges de samme planlægningsalgoritmer til både MPS og MRP. Planlægningsalgoritmerne bruger sammenligning, genbrug af eksisterende forsyningsordrer og aktionsmeddelelser. Under planlægningen tages der højde for, hvad der er brug for, eller hvad der vil blive brug for (efterspørgsel), og hvad der allerede er på lager eller forventes at være på lager (udbud). Når disse antal er sammenlignet med hinanden, vises der aktionsmeddelelser i planlægningskladden. Aktionsmeddelelserne er forslag om et oprette en ny forsyningsordre, ændre en forsyningsordre (antal eller dato) eller annullere en eksisterende forsyningsordre. Forsyningsordrer kan være produktionsordrer, købsordrer og overflytningsordrer. Du kan finde flere oplysninger i [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
+  Der bruges de samme planlægningsalgoritmer til både MPS og MRP. Planlægningsalgoritmerne bruger sammenligning, genbrug af eksisterende forsyningsordrer og aktionsmeddelelser. Under planlægningen tages der højde for, hvad der er brug for, eller hvad der vil blive brug for (efterspørgsel), og hvad der allerede er på lager eller forventes at være på lager (udbud). Når disse antal er sammenlignet med hinanden, vises der aktionsmeddelelser i planlægningskladden. Aktionsmeddelelserne er forslag om et oprette en ny forsyningsordre, ændre en forsyningsordre (antal eller dato) eller annullere en eksisterende forsyningsordre. Forsyningsordrer kan være produktionsordrer, købsordrer og overflytningsordrer. Du kan finde flere oplysninger i [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 
- Planlægningsresultatet beregnes delvist ud fra behov-udbudssættet i databasen, og delvist ud fra opsætningen af lagervarekortene eller varekortene, produktionsstyklister og ruter.  
+  Planlægningsresultatet beregnes delvist ud fra behov-udbudssættet i databasen, og delvist ud fra opsætningen af lagervarekortene eller varekortene, produktionsstyklister og ruter.  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang  
  Denne gennemgang viser, hvordan du kan bruge forsyningsplanlægningssystemet til automatisk at planlægge alle de købs- og produktionsordrer, der skal til for at fremstille 15 turcykler, der skal bruges til forskellige salgsordrer. For at opnå en klar og realistisk gennemgang er antallet af planlægningslinjer begrænset ved bortfiltrering af alle andre behov-udbudssæt i demonstrationsvirksomheden CRONUS Danmark A/S med undtagelse af salgsbehovet på lokationen BLÅ.  
@@ -73,17 +73,19 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-change-selected-planning-parameters"></a>Ændre valgte planlægningsparametre  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagervarer**, og vælg derefter det relaterede link.  
-2.  Åbn lagervarekortet BLÅ for vare 1100, forhjul.  
-3.  Udfyld felterne i oversigtspanelet **Planlægning** som beskrevet i følgende tabel.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagervarer**, og vælg derefter det relaterede link.  
+2. Åbn lagervarekortet BLÅ for vare 1100, forhjul.  
+3. Udfyld felterne i oversigtspanelet **Planlægning** som beskrevet i følgende tabel.  
 
-    |Genbestillingsmetode|Sikkerhedslager|Akkumuleringsperiode for lot|Ændringsperiode|  
-    |-------------------------------------------|-----------------------------------------------|-------------------------------------------------|---------------------------------------------|  
-    |Lot-for-Lot|Tom|2U|2U|  
 
-4.  Gentag trin 2 og 3 for alle lagervarer i nummerintervallet fra 1100 til 1300.  
+   | Genbestillingsmetode | Sikkerhedslager | Akkumuleringsperiode for lot | Ændringsperiode |
+   |-------------------|-----------------------|-------------------------|---------------------|
+   |    Lot-for-Lot    |         Tom         |           2U            |         2U          |
 
- Hermed er klargøringen af eksempeldata til gennemgangen færdig.  
+
+4. Gentag trin 2 og 3 for alle lagervarer i nummerintervallet fra 1100 til 1300.  
+
+   Hermed er klargøringen af eksempeldata til gennemgangen færdig.  
 
 ## <a name="creating-a-regenerative-supply-plan"></a>Oprette en total forsyningsplan  
  Som reaktion på en ny salgsordre på fem turcykler, starter Ricardo på planlægningsprocessen ved at angive indstillinger, filtre og planlægningsinterval for at ekskludere anden efterspørgsel med undtagelse af behovet den første uge i februar på lokationen BLÅ. Han begynder så med at beregne en hovedplan (MPS) og fortsætter derefter til beregningen af en komplet forsyningsplan for alle behov på underniveau (MRP).  
@@ -165,43 +167,45 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-view-more-order-tracking-entries"></a>Få vist flere ordresporingsposter  
 
-1.  Vælg planlægningslinjen for vare 1110, Fælg, og vælg derefter handlingen **Ordresporing**.  
+1. Vælg planlægningslinjen for vare 1110, Fælg, og vælg derefter handlingen **Ordresporing**.  
 
-     Vinduet **Ordresporing** viser fem fælge, der er nødvendige for hver produktionsordre for henholdsvis for- og baghjul.  
+    Vinduet **Ordresporing** viser fem fælge, der er nødvendige for hver produktionsordre for henholdsvis for- og baghjul.  
 
-     Samme ordresporing gælder planlægningslinjerne for vare 1120, 1160 og 1170. For vare 1120 er feltet **Antal pr.** på produktionsstyklisten for hver hjultype 50 stk., hvilket medfører et samlet behov på 100.  
+    Samme ordresporing gælder planlægningslinjerne for vare 1120, 1160 og 1170. For vare 1120 er feltet **Antal pr.** på produktionsstyklisten for hver hjultype 50 stk., hvilket medfører et samlet behov på 100.  
 
-     Planlægningslinjen for vare 1150 for seks stykker ser uregelmæssig ud. Fortsæt ved at analysere.  
+    Planlægningslinjen for vare 1150 for seks stykker ser uregelmæssig ud. Fortsæt ved at analysere.  
 
-2.  Vælg planlægningslinjen for vare 1150, og vælg derefter handlingen **Ordresporing**.  
+2. Vælg planlægningslinjen for vare 1150, og vælg derefter handlingen **Ordresporing**.  
 
-     Vinduet **Ordresporing** viser, at fem enheder spores til forhjulet, og én enhed er ikke-sporet. Fortsæt ved at vise det ikke-sporede antal.  
+    Vinduet **Ordresporing** viser, at fem enheder spores til forhjulet, og én enhed er ikke-sporet. Fortsæt ved at vise det ikke-sporede antal.  
 
-3.  Vælg feltet **Ikkesporet antal**.  
+3. Vælg feltet **Ikkesporet antal**.  
 
-     Vinduet **Ikke-sporede planlægningselementer** viser som standard, at vare 1150 bruger en planlægningsparameter, Oprundingsfaktor, på 2,00, hvilket angiver, at når varen er bestilt, skal den være i et antal, der er deleligt med 2. Det tal, der er tættest på fem og kan divideres med 2, er seks.  
+    Vinduet **Ikke-sporede planlægningselementer** viser som standard, at vare 1150 bruger en planlægningsparameter, Oprundingsfaktor, på 2,00, hvilket angiver, at når varen er bestilt, skal den være i et antal, der er deleligt med 2. Det tal, der er tættest på fem og kan divideres med 2, er seks.  
 
-     Den samme ordresporing gælder for planlægningslinjerne for fornavskomponenterne, vare 1151 og 1155, bortset fra at de hver skal ganges med spildprocenten, som for vare 1150 defineres i feltet **Spildprocent** på varekortet.  
+    Den samme ordresporing gælder for planlægningslinjerne for fornavskomponenterne, vare 1151 og 1155, bortset fra at de hver skal ganges med spildprocenten, som for vare 1150 defineres i feltet **Spildprocent** på varekortet.  
 
- Dermed er analysen af den første forsyningsplan færdig. Bemærk, at afkrydsningsfeltet **Accepter aktionsmeddelelse** er markeret på alle planlægningslinjerne for at indikere, at de er klar til at blive konverteret til forsyningsordrer.  
+   Dermed er analysen af den første forsyningsplan færdig. Bemærk, at afkrydsningsfeltet **Accepter aktionsmeddelelse** er markeret på alle planlægningslinjerne for at indikere, at de er klar til at blive konverteret til forsyningsordrer.  
 
 ## <a name="carrying-out-action-messages"></a>Udføre aktionsmeddelelser  
  Erik konverterer nu de foreslåede planlægningslinjer til forsyningsordrer ved hjælp af funktionen **Udfør aktionsmeddl.**.  
 
 ### <a name="to-automatically-create-the-suggested-supply-orders"></a>Sådan oprettes de forslåede forsyningsordrer automatisk.  
 
-1.  Marker afkrydsningsfeltet **Accepter aktionsmeddelelse** på alle planlægningslinjer med en advarsel af typen Undtagelse.  
-2.  Vælg handlingen **Udfør aktionsmeddelelse**.  
-3.  Udfyld felterne i vinduet **Udfør aktionsmedl.-plan.** som beskrevet i følgende tabel.  
+1. Marker afkrydsningsfeltet **Accepter aktionsmeddelelse** på alle planlægningslinjer med en advarsel af typen Undtagelse.  
+2. Vælg handlingen **Udfør aktionsmeddelelse**.  
+3. Udfyld felterne i vinduet **Udfør aktionsmedl.-plan.** som beskrevet i følgende tabel.  
 
-    |Produktionsordre|Købsordre|Overflytningsordre|  
-    |----------------------|--------------------|--------------------|  
-    |Fastlagt|Opret købsordrer|Opret overførselsordrer|  
 
-4.  Klik på **OK**-knappen for at oprette alle de foreslåede forsyningsordrer automatisk.  
-5.  Luk det tomme vindue **Planlægningskladde**.  
+   | Produktionsordre |   Købsordre   |   Overflytningsordre   |
+   |------------------|--------------------|--------------------|
+   |   Fastlagt   | Opret købsordrer | Opret overførselsordrer |
 
- Dermed er den første beregning, analyse og oprettelse af en forsyningsplan for behov på lokationen BLÅ i første uge af februar færdig. I det følgende afsnit bestiller en anden kunde ti turcykler, og Erik skal foretage en omplanlægning.  
+
+4. Klik på **OK**-knappen for at oprette alle de foreslåede forsyningsordrer automatisk.  
+5. Luk det tomme vindue **Planlægningskladde**.  
+
+   Dermed er den første beregning, analyse og oprettelse af en forsyningsplan for behov på lokationen BLÅ i første uge af februar færdig. I det følgende afsnit bestiller en anden kunde ti turcykler, og Erik skal foretage en omplanlægning.  
 
 ## <a name="creating-a-net-change-plan"></a>Oprette en nettoplan  
  Den næste dag før nogen af forsyningsordrerne er startet eller bogført, ankommer en ny salgsordre fra Libros S.A. på ti turcykler til afsendelse den 02-12-2014. Erik får besked om det nye behov, og han fortsætter til at foretage en genplanlægning for at justere den aktuelle forsyningsplan. Erik bruger funktionen til nettoplanlægning til kun at beregne de ændringer, der er foretaget i behov og forsyning, siden den sidste planlægning blev kørt. Derudover udvider han planlægningsperioden til 14-02-2014 for at inkludere det nye salgsbehov den 12-02-2014.  
@@ -210,30 +214,34 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Sådan oprettes det nye salgsbehov og en tilsvarende genplanlægning  
 
-1.  Vælg handlingen **Ny**.  
-2.  I vinduet **Salgsordre** skal du udfylde felterne som beskrevet i følgende tabel.  
+1. Vælg handlingen **Ny**.  
+2. I vinduet **Salgsordre** skal du udfylde felterne som beskrevet i følgende tabel.  
 
-    |Kundenavn|Afsendelsesdato|Varenr.|Lokation|Antal|  
-    |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Libros S.A.|12-02-2014|1001|BLÅ|10|  
 
-3.  Accepter tilgængelighedsadvarslen, og vælg knappen **Ja** for at registrere behovsantallet.  
-4.  Fortsæt med at foretage en genplanlægning for at justere den aktuelle forsyningsplan.  
-5.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Planlægningskladde**, og vælg derefter det relaterede link.  
-6.  Vælg handlingen **Beregn nettoplan**.  
-7.  I vinduet **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
+   | Kundenavn | Afsendelsesdato | Varenr. | Lokation | Antal |
+   |-----------------------|---------------|----------|----------|----------|
+   |      Libros S.A.      |  12-02-2014   |   1001   |   BLÅ   |    10    |
 
-    |Beregn plan|Startdato|Slutdato|Vis resultater:|Begræns totaler til|  
-    |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Ja<br /><br /> **MRP** = Ja|01-23-2014|14-02-2014|1001..1300|Lokationsfilter = BLÅ|  
 
-8.  Vælg knappen **OK** for at starte planlægningskørslen.  
+3. Accepter tilgængelighedsadvarslen, og vælg knappen **Ja** for at registrere behovsantallet.  
+4. Fortsæt med at foretage en genplanlægning for at justere den aktuelle forsyningsplan.  
+5. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Planlægningskladde**, og vælg derefter det relaterede link.  
+6. Vælg handlingen **Beregn nettoplan**.  
+7. I vinduet **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 
- Der oprettes 14 planlægningslinjer i alt. Bemærk i den første planlægningslinje, at feltet **Aktionsmeddelelse** indeholder **Ny**, at feltet **Antal** viser 10, og at feltet **Forfaldsdato** viser 12-02-14. Denne nye linje til den øverste overordnende vare, 1001, Turcykel, oprettes, da varen bruger en genbestillingsordrepolitik på **Ordre**, der betyder, at den skal leveres i et én-til-én-forhold ift. det pågældende behov, salgsordren på ti stykker.  
 
- De næste to planlægningslinjer er produktionsordrerne for turcykelhjul. Hver eksisterende ordre på fem i feltet **Oprindeligt antal** øges til 15 i feltet **Antal**. Begge produktionsordrer har uændrede forfaldsdatoer som anført i feltet **Aktionsmeddelelse**, der indeholder **Ret antal**. Det er også tilfældet for planlægningslinjen for vare 1300, bortset fra at dens oprundingsfaktor på 10,00 runder det sporede behov for 15 styk op til 20.  
+   |             Beregn plan              | Startdato | Slutdato | Vis resultater: |    Begræns totaler til     |
+   |-----------------------------------------|---------------|-------------|---------------|------------------------|
+   | **MPS** = Ja<br /><br /> **MRP** = Ja |  01-23-2014   | 14-02-2014  |  1001..1300   | Lokationsfilter = BLÅ |
 
- Alle andre planlægningslinjer indeholder aktionsmeddelelsen **Omplanlæg & ret antal**. Dette betyder, at bortset fra stigningen i antal så flyttes forfaldsdatoerne i relation til forsyningsplanen for at kunne inkludere det ekstra antal i den tilgængelige produktionstid (kapacitet). Købte komponenter omplanlægges og øges for at forsyne produktionsordrene. Fortsæt ved at analysere den nye plan.  
+
+8. Vælg knappen **OK** for at starte planlægningskørslen.  
+
+   Der oprettes 14 planlægningslinjer i alt. Bemærk i den første planlægningslinje, at feltet **Aktionsmeddelelse** indeholder **Ny**, at feltet **Antal** viser 10, og at feltet **Forfaldsdato** viser 12-02-14. Denne nye linje til den øverste overordnende vare, 1001, Turcykel, oprettes, da varen bruger en genbestillingsordrepolitik på **Ordre**, der betyder, at den skal leveres i et én-til-én-forhold ift. det pågældende behov, salgsordren på ti stykker.  
+
+   De næste to planlægningslinjer er produktionsordrerne for turcykelhjul. Hver eksisterende ordre på fem i feltet **Oprindeligt antal** øges til 15 i feltet **Antal**. Begge produktionsordrer har uændrede forfaldsdatoer som anført i feltet **Aktionsmeddelelse**, der indeholder **Ret antal**. Det er også tilfældet for planlægningslinjen for vare 1300, bortset fra at dens oprundingsfaktor på 10,00 runder det sporede behov for 15 styk op til 20.  
+
+   Alle andre planlægningslinjer indeholder aktionsmeddelelsen **Omplanlæg & ret antal**. Dette betyder, at bortset fra stigningen i antal så flyttes forfaldsdatoerne i relation til forsyningsplanen for at kunne inkludere det ekstra antal i den tilgængelige produktionstid (kapacitet). Købte komponenter omplanlægges og øges for at forsyne produktionsordrene. Fortsæt ved at analysere den nye plan.  
 
 ## <a name="analyzing-the-changed-planning-result"></a>Analyse af det ændrede planlægningsresultatet  
  Fordi alle lot-for-lot-planlagte elementer i filteret, 1100 og 1300, har en ændringsperiode på to uger, ændres alle deres eksisterende forsyningsordrer , så de opfylder det nye behov, som finder sted inden for de angivne to uger.  
@@ -256,11 +264,11 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-view-an-existing-order"></a>Sådan får du vist en eksisterende ordre  
 
-1.  Vælg feltet **Referenceordrenr.** i planlægningslinjen for vare 1250 .  
-2.  I vinduet **Fastlagt produktionsordre** for bagnavet. Den eksisterende ordre på ti stykker, som du oprettede i den første planlægningskørsel, åbnes.  
-3.  Luk den fastlagte produktionsordre.  
+1. Vælg feltet **Referenceordrenr.** i planlægningslinjen for vare 1250 .  
+2. I vinduet **Fastlagt produktionsordre** for bagnavet. Den eksisterende ordre på ti stykker, som du oprettede i den første planlægningskørsel, åbnes.  
+3. Luk den fastlagte produktionsordre.  
 
- Hermed er gennemgangen af, hvordan planlægningssystemet bruges til automatisk registrering af behov, beregning af relevante forsyningsordrer iht. behovs- og planlægningsparametre samt efterfølgende automatisk oprettelse af andre typer forsyningsordrer med relevante datoer og antal færdig.  
+   Hermed er gennemgangen af, hvordan planlægningssystemet bruges til automatisk registrering af behov, beregning af relevante forsyningsordrer iht. behovs- og planlægningsparametre samt efterfølgende automatisk oprettelse af andre typer forsyningsordrer med relevante datoer og antal færdig.  
 
 ## <a name="see-also"></a>Se også  
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)   

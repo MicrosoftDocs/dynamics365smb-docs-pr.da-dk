@@ -34,7 +34,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af opskrivning.
 
     > [!NOTE]  
->   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Opskrivningskonto** finansdebetkontoen og feltet **Opskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
+   >   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Opskrivningskonto** finansdebetkontoen og feltet **Opskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Sådan bogføres en nedskrivning fra anlægskassekladden
@@ -44,7 +44,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af nedskrivning.
 
     > [!NOTE]  
->   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Nedskrivningskonto** finansdebetkontoen og feltet **Nedskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for nedskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
+   >   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Nedskrivningskonto** finansdebetkontoen og feltet **Nedskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for nedskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Sådan udføres generel værdiregulering af anlægsaktiver
@@ -60,7 +60,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 6. Kontroller de oprettede poster, og vælg derefter handlingen **Bogfør** for at bogføre kladden.
 
     > [!TIP]  
->   Hvis indekstallene kun skal bruges til simulering, kan du oprette en særlig afskrivningsprofil, hvor de kan opbevares. Derefter kan disse poster ikke indvirke på de øvrige afskrivningsprofiler.
+   >   Hvis indekstallene kun skal bruges til simulering, kan du oprette en særlig afskrivningsprofil, hvor de kan opbevares. Derefter kan disse poster ikke indvirke på de øvrige afskrivningsprofiler.
 
    ## <a name="to-post-additional-acquisition-costs"></a>Sådan bogføres ekstra anskaffelser
    Du bogfører prisen for ekstraanskaffelse af et anlægsaktiv på samme måde, som du bogfører den oprindelige anskaffelsespris, dvs. fra en købsfaktura eller fra en anlægskladde. Du kan finde flere oplysninger i [Anskaffe anlægsaktiver](fa-how-acquire.md).  

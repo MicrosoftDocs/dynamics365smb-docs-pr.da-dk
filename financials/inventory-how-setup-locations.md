@@ -27,7 +27,7 @@ Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængelige
 ## <a name="to-create-a-location-card"></a>Sådan oprettes et lokationskort
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
-3. I vinduet **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Gentag trin 2 og 3 for hver lokation, hvor du vil foretage lageropgørelse.
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængelige
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Overflytningsruter**, og vælg derefter det relaterede link.
 2. Du kan også vælge handlingen **Overflytningsruter** i ethvert **Lokationskort**-vindue.
 3. Vælg handlingen **Ny**.
-4. I vinduet **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. I vinduet **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan nu overflytte lagervarer mellem to lokationer. Du kan finde flere oplysninger i [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md).    
 

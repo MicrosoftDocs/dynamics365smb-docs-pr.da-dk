@@ -24,8 +24,8 @@ Planlægningssystemet tager højde for alle oplysninger om efterspørgsel og udb
 
 Du kan finde detaljerede oplysninger i [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 
-> [!NOTE]  
-> Læs værktøjstippet for alle felter, der er nævnt i dette emne, for at forstå deres funktion. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Læs værktøjstippet for alle felter, der er nævnt i dette emne, for at forstå deres funktion. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="demand-and-supply"></a>Behov og forsyning  
 I planlægningen indgår to elementer, udbud og efterspørgsel, som her kaldes behov og forsyning. Der skal opretholdes en balance mellem disse to elementer, så det kan sikres, at behovet imødekommes rettidigt og på en økonomisk fornuftig måde.  

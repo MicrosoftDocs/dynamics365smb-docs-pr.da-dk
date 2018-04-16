@@ -89,45 +89,45 @@ Købskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogfø
     - Brug funktionen **Hent bogførte bilagslinjer, der skal tilbageføres**, hvis du vil kopiere en eller flere bogførte bilagslinjer fra et eller flere bogførte dokumenter. Denne funktion tilbagefører altid de eksakte beløb fra den bogførte bilagslinje. Denne funktion beskrives i følgende trin.    
     - Brug funktionen **Kopier dokument**, så et eksisterende dokument kopieres til returvareordren. Du kan kopiere hele dokumentet med denne funktion. Det kan være et bogført dokument eller et dokument, der endnu ikke er bogført. Funktionen muliggør kun præcis kostprisudligning, når afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret i vinduet **Salgsopsætning**.  
 
-4. Vælg handlingen **Hent bogførte bilagslinjer, der skal tilbageføres**.
-5. Marker afkrydsningsfeltet **Vis kun linjer, der kan tilbageføres** øverst i vinduet **Bogførte købsdokumentlinjer**, hvis du kun vil se linjer med antal, der endnu ikke er returneret, eller hvis det er købslinjer. Hvis et antal i en bogført købsfaktura f.eks. allerede er returneret, vil du måske ikke medtage det antal i et nyt købsreturvaredokument.
+5. Vælg handlingen **Hent bogførte bilagslinjer, der skal tilbageføres**.
+6. Marker afkrydsningsfeltet **Vis kun linjer, der kan tilbageføres** øverst i vinduet **Bogførte købsdokumentlinjer**, hvis du kun vil se linjer med antal, der endnu ikke er returneret, eller hvis det er købslinjer. Hvis et antal i en bogført købsfaktura f.eks. allerede er returneret, vil du måske ikke medtage det antal i et nyt købsreturvaredokument.
 
     > [!NOTE]  
     >  Dette felt kan kun bruges til bogførte kvitteringer og bogførte fakturalinjer, ikke til bogførte retur- eller bogførte kreditnotalinjer.  
 
     De forskellige bilagstyper er angivet i venstre side af vinduet, og tallet i parentes angiver antallet af tilgængelige bilag for hver bilagstype.
 
-6. Vælg den type bogførte bilagslinjer, du vil bruge, i feltet **Dokumenttypefilter**.  
-7. Vælg de linjer, som du vil kopiere til det nye dokument.  
+7. Vælg den type bogførte bilagslinjer, du vil bruge, i feltet **Dokumenttypefilter**.  
+8. Vælg de linjer, som du vil kopiere til det nye dokument.  
 
     > [!NOTE]  
     >  Hvis du markerer alle linjer med Ctrl+A, kopieres alle linjer, der opfylder de filtreringskriterier, du har angivet, men der ses bort fra filteret **Vis kun linjer, der kan tilbageføres**. Du kan f.eks. have filtreret linjerne til et bestemt dokumentnummer med to linjer, hvoraf den ene allerede er returneret. Selv om afkrydsningsfeltet **Vis kun linjer, der kan tilbageføres** er markeret, kopieres der to linjer, i stedet for kun den ene, som endnu ikke er tilbageført, når du trykker på Ctrl+A for at kopiere alle linjer.  
 
-8. Vælg knappen **OK** for at kopiere linjerne til det nye dokument.  
+9. Vælg knappen **OK** for at kopiere linjerne til det nye dokument.  
 
     Der sker følgende:  
 
-    -   Der oprettes en ny bilagslinje for bogførte bilagslinjer, der er af typen **Vare**. Den nye bilagslinje er en kopi af den bogførte bilagslinje med det antal, der endnu ikke er blevet tilbageført. Feltet **Udlign-til varepost** udfyldes efter behov med nummeret på vareposten for den bogførte bilagslinje.  
+   - Der oprettes en ny bilagslinje for bogførte bilagslinjer, der er af typen **Vare**. Den nye bilagslinje er en kopi af den bogførte bilagslinje med det antal, der endnu ikke er blevet tilbageført. Feltet **Udlign-til varepost** udfyldes efter behov med nummeret på vareposten for den bogførte bilagslinje.  
 
-    -   Der oprettes en ny bilagslinje for bogførte bilagslinjer, der ikke er af typen **Vare** f.eks. varegebyrer. Den nye bilagslinje er en kopi af den oprindelige bogførte bilagslinje.  
+   - Der oprettes en ny bilagslinje for bogførte bilagslinjer, der ikke er af typen **Vare** f.eks. varegebyrer. Den nye bilagslinje er en kopi af den oprindelige bogførte bilagslinje.  
 
-    -   Værdien i feltet **Kostpris (RV)** på den nye linje beregnes på basis af beløbene i de tilsvarende vareposter.  
+   - Værdien i feltet **Kostpris (RV)** på den nye linje beregnes på basis af beløbene i de tilsvarende vareposter.  
 
-    -   Hvis det kopierede dokument omhandler en bogført leverance, bogført modtagelse, bogført returvaremodtagelse eller bogført returvareleverance, beregnes kostprisen automatisk på basis af varekortet.  
+   - Hvis det kopierede dokument omhandler en bogført leverance, bogført modtagelse, bogført returvaremodtagelse eller bogført returvareleverance, beregnes kostprisen automatisk på basis af varekortet.  
 
-    -   Hvis det kopierede dokument er en bogført faktura eller kreditnota, kopieres enhedsprisen, fakturarabatter og linerabatter fra den bogførte bilagslinje.  
+   - Hvis det kopierede dokument er en bogført faktura eller kreditnota, kopieres enhedsprisen, fakturarabatter og linerabatter fra den bogførte bilagslinje.  
 
-    -   Hvis den bogførte bilagslinje indeholder varesporingslinjer, udfyldes feltet **Udlign til-varepost** på varesporingslinjerne udfyldes med de relevante varepostnumre fra de bogførte varesporingslinjer.  
+   - Hvis den bogførte bilagslinje indeholder varesporingslinjer, udfyldes feltet **Udlign til-varepost** på varesporingslinjerne udfyldes med de relevante varepostnumre fra de bogførte varesporingslinjer.  
 
      Når der kopieres fra en bogført faktura eller en bogført kreditnota, kopieres relevante fakturarabatter og linjerabatter, der var gældende på det tidspunkt, hvor dokumentet blev bogført, fra den bogførte bilagslinje til den nye bilagslinje. Vær dog opmærksom på, at hvis **Beregn fakturarabat** aktiveres i vinduet **Købsopsætning**, beregnes fakturarabatten igen, når du bogfører den nye dokumentlinje. Linjebeløbet for den nye linje kan derfor være forskelligt fra Linjebeløb for den oprindelige bilagslinje, alt efter den nye beregning af fakturarabatten.  
 
-    > [!NOTE]  
-    >  Hvis en del af antallet på den bogførte bilagslinje allerede er tilbageført, solgt eller forbrugt, oprettes der kun en linje til det antal, der stadig er på lager, eller som endnu ikke er returneret. Hvis hele antallet på den bogførte bilagslinje allerede er tilbageført, oprettes der ikke en ny bilagslinje.  
-    >   
-    >  Hvis varebevægelserne i det bogførte dokument er de samme som i det nye dokument, oprettes der ganske enkelt en kopi af den oprindelige, bogførte bilagslinje i det nye dokument. Feltet **Udlign fra-varepost** udfyldes ikke, fordi i dette tilfælde, er præcis kostprisudligning ikke muligt. Hvis du f.eks. bruger funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** for at hente en bogført købskreditnotalinje til en ny købskreditnota, er det kun den oprindelige, bogførte kreditnotalinje, der kopieres til den nye kreditnota.  
+     > [!NOTE]  
+     >  Hvis en del af antallet på den bogførte bilagslinje allerede er tilbageført, solgt eller forbrugt, oprettes der kun en linje til det antal, der stadig er på lager, eller som endnu ikke er returneret. Hvis hele antallet på den bogførte bilagslinje allerede er tilbageført, oprettes der ikke en ny bilagslinje.  
+     >   
+     >  Hvis varebevægelserne i det bogførte dokument er de samme som i det nye dokument, oprettes der ganske enkelt en kopi af den oprindelige, bogførte bilagslinje i det nye dokument. Feltet **Udlign fra-varepost** udfyldes ikke, fordi i dette tilfælde, er præcis kostprisudligning ikke muligt. Hvis du f.eks. bruger funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** for at hente en bogført købskreditnotalinje til en ny købskreditnota, er det kun den oprindelige, bogførte kreditnotalinje, der kopieres til den nye kreditnota.  
 
-8. I vinduet **Købsreturvareordre** i feltet **Returårsagskode** skal du på hver linje vælge årsagen til returneringen.
-9. Vælg handlingen **Bogfør**.
+10. I vinduet **Købsreturvareordre** i feltet **Returårsagskode** skal du på hver linje vælge årsagen til returneringen.
+11. Vælg handlingen **Bogfør**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Sådan oprettes en erstatningskøbsodre fra en købsreturvareordre
 Der kan være tilfælde, hvor du er blevet enig med en leverandør om, at denne skal kompensere for en købsvare ved at udskifte varen. Udskiftningsvaren kan være samme slags vare eller en anden vare. Sidstnævnte situation kan f.eks. være tilfældet, hvis du har fået leveret en forkert vare.  

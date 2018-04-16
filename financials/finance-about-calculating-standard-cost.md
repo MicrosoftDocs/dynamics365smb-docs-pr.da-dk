@@ -80,8 +80,8 @@ Hvis du vil beregne standardkapacitetsomkostningerne, skal du etablere de standa
 
 Du opretter satserne for hver tidstype for hver maskine eller hvert arbejdscenter på en individuel rute.  
 
-> [!NOTE]  
-    >  Mens timesatserne for kørsel gælder pr. fremstillet vare, gælder timesatserne for opstilling pr. lot. Derfor skal rutens opstillingstid for hver operation fordeles over lotstørrelsen. Du skal angive lotstørrelsen i det tilsvarende felt i oversigtspanelet **Bestilling** på varekortet.  
+> [!NOTE]
+>  Mens timesatserne for kørsel gælder pr. fremstillet vare, gælder timesatserne for opstilling pr. lot. Derfor skal rutens opstillingstid for hver operation fordeles over lotstørrelsen. Du skal angive lotstørrelsen i det tilsvarende felt i oversigtspanelet **Bestilling** på varekortet.  
 
 Hvis du vil angive opstillingstiden på ruten af hensyn til planlægningen, men ikke vil medtage denne omkostning i standardkostprisberegningen, skal du fjerne markeringen i feltet **Kostpris inkl. opstilling** i vinduet **Produktionsopsætning**.  
 

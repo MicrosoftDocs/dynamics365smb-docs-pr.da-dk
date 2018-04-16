@@ -26,7 +26,7 @@ På de individuelle sagskort skal du angvie priser for sagsvarer, sagsressourcer
 
 ## <a name="to-set-general-information-for-jobs"></a>Sådan angives generelle oplysninger for sager
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsopsætning**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Afkrydsningsfeltet **Anvend anvendelseslink** er temmelig komplekst og forklares derfor i følgende afsnit.

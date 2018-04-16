@@ -41,7 +41,7 @@ Du kan oprette en sagsmetode for igangværende arbejde, der afspejler behovet i 
 > Når du har brugt en ny metode til at oprette poster for igangværende arbejde, kan du ikke slette metoden eller ændre den.  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sags-VIA-metoder**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Luk vinduet.   
 4. For at gøre denne nye metode til standard skal du i øverste højre hjørne vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sagsopsætning** og derefter vælge det relaterede link.  
 5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.

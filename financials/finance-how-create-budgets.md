@@ -32,7 +32,7 @@ I Omkostningsberegning arbejder du med omkostningsbudgetter på samme måde. Du 
 
 ## <a name="to-create-a-new-gl-budget"></a>Sådan oprettes et nyt finansbudget  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finansbudgetter**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Rediger liste**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Vælg handlingen **Rediger liste**, og udfyld derefter felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Vælg handlingen **Rediger budget**.
 4. Øverst i vinduet **Budget** skal du udfylde felterne efter behov for at definere, hvad der vises.  
 

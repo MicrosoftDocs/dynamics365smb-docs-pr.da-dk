@@ -38,14 +38,14 @@ Hvis du udelukkende har fastsat placeringstypen for massevareplaceringer til **L
 
 Næste gang du beregner genopfyldning, vil de forslag, som du har slettet, blive genoprettet, hvis de stadig er gyldige til den tid.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Hvis en vare opfylder følgende betingelser:  
->   
->  -   Varen har en udløbsdato.  
-> -   Feltet **Vælg i overensstemmelse med FEFO** på lokationskortet er markeret, og  
-> -   Du bruger funktionen **Beregn genopfyldning**  
->   
->  Hvis alle disse betingelser er opfyldt, vil felterne **Fra zonekode** og **Fra placeringskode** være tomme, fordi den algoritme, der beregner, hvorfra varerne skal bevæges, kun udløses, når du aktiverer funktionen **Opret bevægelse**.  
+> 
+> - Varen har en udløbsdato.  
+>   -   Feltet **Vælg i overensstemmelse med FEFO** på lokationskortet er markeret, og  
+>   -   Du bruger funktionen **Beregn genopfyldning**  
+> 
+>   Hvis alle disse betingelser er opfyldt, vil felterne **Fra zonekode** og **Fra placeringskode** være tomme, fordi den algoritme, der beregner, hvorfra varerne skal bevæges, kun udløses, når du aktiverer funktionen **Opret bevægelse**.  
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  

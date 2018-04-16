@@ -33,7 +33,7 @@ Du kan oprette en faktura for en sag eller for en eller flere sagsopgaver for en
 Fra vinduet **Sager** kan du fakturere en kunde ved at markere sagen og derefter vælge handlingen **Opret salgsfaktura for sag**. Følgende procedure viser, hvordan du kan bruge en kørsel til at fakturere flere sager.  
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opret salgsfaktura for sag**, og vælg derefter det relaterede link.  
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan angive filtre, hvis du vil begrænse de sager, som kørslen skal behandle.
 4. Vælg **OK** for at starte oprette fakturaen.  
 

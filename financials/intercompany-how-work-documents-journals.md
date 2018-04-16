@@ -33,7 +33,7 @@ Den følgende procedure beskriver, hvordan du udfylder og sender en IC-salgsordr
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Vælg **Ny** for at oprette en ny salgsordre. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Sørg for, at debitoren er en koncernintern partner.
 5. Hvis du vil sende salgsordren, før du bogfører den, skal du vælge handlingen **Send IC-salgsordre**.
 

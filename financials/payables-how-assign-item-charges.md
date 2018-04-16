@@ -42,7 +42,7 @@ Varegebyrnumre bruges til at skelne mellem de forskellige typer varegebyrer, som
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varegebyrer**, og vælg derefter det relaterede link.
 2. I vinduet **Varegebyrer** skal du vælge handlingen **Ny** for at oprette en ny linje.
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Sådan tildeles et varegebyr direkte til købsfakturaen for varen
 Hvis du kender varegebyret på det tidspunkt, hvor du bogfører en købsfaktura for varen, skal du følge nedenstående procedure.
@@ -53,7 +53,7 @@ Hvis du kender varegebyret på det tidspunkt, hvor du bogfører en købsfaktura 
 4. På en ny linje skal du vælge **Gebyr (Vare)** i feltet **Type**.
 5. Angiv enheder af varegebyret, som du er blevet faktureret for, i feltet **Antal**.
 6. Angiv varegebyret i feltet **Købspris**.
-7. Udfyld de resterende felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Udfyld de resterende felter efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     I følgende procedure skal du foretage den faktiske tildeling. Indtil varegebyret er fuldt tildelt, er værdien i feltet **Antal, der skal tildeles** med rød skrift.
 8. Under fanen **Linjer** skal du vælge **Varegebyrtildeling**.

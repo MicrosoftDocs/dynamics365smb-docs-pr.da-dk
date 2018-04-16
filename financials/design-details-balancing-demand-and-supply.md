@@ -25,7 +25,7 @@ Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for a
 - Alle behov vil blive opfyldt ved tilstrækkelig forsyning.  
 - Enhver forsyning tjener et formål.  
 
- Disse mål opnås generelt ved at afstemme forsyninger med behov.  
+  Disse mål opnås generelt ved at afstemme forsyninger med behov.  
 
 ## <a name="in-this-section"></a>Dette afsnit indeholder  
 [Designoplysninger: Behov og forsyning](design-details-demand-and-supply.md)  

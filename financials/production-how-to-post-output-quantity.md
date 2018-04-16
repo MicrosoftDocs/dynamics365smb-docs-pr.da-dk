@@ -27,7 +27,7 @@ Afgangsantallet angiver arbejdsforløbet i form af det færdige antal.
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Sådan bogføres afgangsantal for en eller flere produktionsordrelinjer
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afgangskladde**, og vælg derefter det relaterede link.  
-2. Udfyld felterne med produktionsordredataene og afgangsdataene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne med produktionsordredataene og afgangsdataene. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis operationen er afsluttet, skal du markere feltet **Afsluttet**.  
 
     Hvis den lagerlokation, hvor varerne skal lægges på lager, bruger placeringer, men ikke kræver læg-på-lager, skal du  tildele en placeringskode til kladdelinjen for at angive, hvor varerne skal lægges på lageret. Du kan finde flere oplysninger i [Lægge produktions- eller montageafgange på lager](warehouse-how-to-put-away-production-output.md).  

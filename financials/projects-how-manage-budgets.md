@@ -30,7 +30,7 @@ Når en debitor vil have oplyst prisen for en sag, som faktureres på basis af f
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
 2. Åbn en relevant sag.
 3. Vælg en opgavelinje af typen Bogføring, og vælg derefter handlingen **Sagsplanlægningslinjer**.
-4. Udfyld felterne på en ny linje efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+4. Udfyld felterne på en ny linje efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 For feltet **Linjetype** skal du se følgende oplysninger.  
 

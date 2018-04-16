@@ -34,7 +34,7 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 
     Feltet **Restantal** viser det antal, der mangler for at afslutte sagen og blive overført til kladden.  
 5. Vælg handlingen **Opret sagskladdelinjer**.
-6. I vinduet **Kopier sag til sagsplanlægningslinje** skal du udfylde felterne efter behov og derefter vælge knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. I vinduet **Kopier sag til sagsplanlægningslinje** skal du udfylde felterne efter behov og derefter vælge knappen **OK**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Vælg handlingen **Åbn sagskladde**.  
 8. I vinduet **Sagskladde** skal du markere den relevante linje, og derefter vælge handlingen **Bogfør**.
 9. I vinduet **Sagsplanlægningslinjer** skal du gennemgå det registrerede forbrug ved at holde øje felterne **Antal**, **Restantal** og **Antal, der skal overføres til kladde**.  

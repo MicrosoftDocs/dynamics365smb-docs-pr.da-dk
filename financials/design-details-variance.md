@@ -32,15 +32,15 @@ Afvigelsen er defineret som forskellen mellem den faktiske kostpris og standardk
 ## <a name="example"></a>Eksempel  
  Følgende eksempel illustrerer, hvordan afvigelsen beregnes for købte varer. Den bygger på følgende scenario:  
 
-1.  Brugeren køber en vare til RV 90,00, men standardkostprisen er RV 100,00. Derfor bliver købsafvigelsen RV -10,00.  
-2.  RV 10,00 krediteres købsafvigelseskontoen.  
-3.  Brugeren bogfører et varegebyr på RV 20,00. Derfor øges de faktiske omkostninger til RV 110,00, og værdien af købsafvigelsen bliver RV 10,00.  
-4.  RV 20,00 debiteres købsafvigelseskontoen. Derfor bliver nettokøbsafvigelsen RV 10,00.  
-5.  Brugeren regulerer varen fra RV 100,00 til 70,00. Dette påvirker ikke beregningen af afvigelse, kun lagerværdien.  
+1. Brugeren køber en vare til RV 90,00, men standardkostprisen er RV 100,00. Derfor bliver købsafvigelsen RV -10,00.  
+2. RV 10,00 krediteres købsafvigelseskontoen.  
+3. Brugeren bogfører et varegebyr på RV 20,00. Derfor øges de faktiske omkostninger til RV 110,00, og værdien af købsafvigelsen bliver RV 10,00.  
+4. RV 20,00 debiteres købsafvigelseskontoen. Derfor bliver nettokøbsafvigelsen RV 10,00.  
+5. Brugeren regulerer varen fra RV 100,00 til 70,00. Dette påvirker ikke beregningen af afvigelse, kun lagerværdien.  
 
- Følgende tabel viser de resulterende værdiposter.  
+   Følgende tabel viser de resulterende værdiposter.  
 
- ![Beregning af købsafvigelse](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+   ![Beregning af købsafvigelse](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
 
 ## <a name="determining-the-standard-cost"></a>Bestemmelse af standardkostpris  
  Standardkostprisen bruges til beregning af afvigelse og beløbet, der skal kapitaliseres. Da standardkostprisen kan ændres med tiden på grund af manuel opdateringsberegning, skal du bruge et tidspunkt, hvor standardkostprisen er fast til beregning af varians. Dette punkt er, når lagerforøgelsen er faktureret. For producerede eller monterede varer er punktet for, hvornår standardomkostninger bestemmes, når omkostningerne reguleres.  

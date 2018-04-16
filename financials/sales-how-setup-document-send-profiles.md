@@ -29,7 +29,7 @@ Når du vælger handlingen **Bogfør og send** i et salgsdokument, viser dialogb
 ## <a name="to-set-up-a-document-sending-profile"></a>Sådan konfigurerer du dokumentafsendelsesprofil
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Dokumentafsendelsesprofiler**, og vælg derefter det relaterede link.
 2. I vinduet **Dokumentafsendelsesprofil** skal du vælge handlingen **Ny**.
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Angive en afsendelsesprofil på et debitorkort
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitorer**, og vælg derefter det relaterede link.

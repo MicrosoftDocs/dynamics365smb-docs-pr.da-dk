@@ -36,7 +36,7 @@ Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe p
     Hvis der er mere end én kreditorskabelon, åbnes der automatisk et vindue, hvor du kan vælge en kreditorskabelon. I dette tilfælde skal du følge de næste to trin.
 3. I vinduet **Vælg en skabelon til en ny kreditor** skal du vælge den skabelon, som du vil bruge til det nye kreditorkort.
 4. Vælg knappen **OK**. Et nyt kreditorkort åbnes med nogle felter udfyldt med oplysninger fra skabelonen.
-5. Fortsæt med at udfylde eller ændre felterne på kreditorkortet efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Fortsæt med at udfylde eller ændre felterne på kreditorkortet efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Hvis du ikke på forhånd kender den faktureringsadresse, der skal bruges til alle fakturaer fra en kreditor, skal du ikke udfylde feltet **Faktureringsleverandørnr.** på kreditorkortet. Vælg i stedet nummeret, efter du har oprettet et dokumenthoved (købsrekvisition, ordre eller faktura)
@@ -47,7 +47,7 @@ Hvis du vil bruge dette kreditorkort som skabelon, når du opretter nye kreditor
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Sådan gemmes kreditorkortet som en skabelon
 1. I vinduet **Kreditorkort** skal du vælge handlingen **Gem som skabelon**. Vinduet **Kreditorskabelon** åbnes og viser kreditorkortet som skabelon.
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis du vil genbruge dimensioner i kladder, skal du vælge handlingen **Dimensioner**. Vinduet **Skabeloner til dimensioner** åbnes med alle dimensionsværdikoder, der er konfigureret for kreditoren.
 4. Rediger eller angiv dimensionskoder, der skal gælde for nye kreditorkort, oprettes ved hjælp af skabelonen.
 5. Når du har fuldført skabelonen for den nye kreditor, skal du vælge knappen **OK**.  

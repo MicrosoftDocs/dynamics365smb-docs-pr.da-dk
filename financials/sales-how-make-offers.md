@@ -37,7 +37,7 @@ Du kan udfylde debitorfelter i salgstilbud på to måder, afhængigt af om debit
 7. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Salgstilbud**.
 
    En række af felterne i salgstilbuddet er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.  
-8. Udfyld de resterende felter efter behov i vinduet **Salgstilbud**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Udfyld de resterende felter efter behov i vinduet **Salgstilbud**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.   
 
@@ -45,26 +45,26 @@ Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en 
 9. I oversigtspanelet **Linjer** i feltet **Type** skal du vælge, hvilken type produkt, gebyr eller transaktion, som du vil bogføre for debitoren med salgslinjen.
 10. I feltet **Nummer** skal du vælge en post, der skal bogføres i overensstemmelse med værdien i feltet **Type**.
 
- Lad feltet **Nummer** stå tomt i følgende tilfælde: – Hvis linjen bruges til en bemærkning. Skriv bemærkningen i feltet **Beskrivelse**.
- – Hvis der er tale om en katalogvare. Vælg handlingen **Vælg katalogvarer**. Du kan finde flere oplysninger under [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
+   Lad feltet **Nummer** stå tomt i følgende tilfælde: – Hvis linjen bruges til en bemærkning. Skriv bemærkningen i feltet **Beskrivelse**.
+   – Hvis der er tale om en katalogvare. Vælg handlingen **Vælg katalogvarer**. Du kan finde flere oplysninger under [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
 
 11. I feltet **Antal** skal du angive, hvor mange enheder af produktet, gebyret eller transaktion, som linjen skal registrere for debitoren.
 
-    > [!NOTE]  
->   Hvis varen er af typen **Vare - Service** er **Ressource**, er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen.  
+   > [!NOTE]  
+   >   Hvis varen er af typen **Vare - Service** er **Ressource**, er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen.  
 
-    Værdien i feltet **Linjebeløb** beregnes som *Enhedspris* x *Antal*.  
+   Værdien i feltet **Linjebeløb** beregnes som *Enhedspris* x *Antal*.  
 
-    Prisen og linjebeløbene er med eller uden moms, afhængigt af hvad du har valgt i feltet **Priser inkl. moms** på debitorkortet.  
+   Prisen og linjebeløbene er med eller uden moms, afhængigt af hvad du har valgt i feltet **Priser inkl. moms** på debitorkortet.  
 12. Hvis du vil give en rabat, skal du angive en procentdel i feltet **Linjerabatpct.**. Værdien i feltet **Linjebeløb** opdateres tilsvarende.  
 
-    Hvis der er konfigureret specialvarepriser i oversigtspanelet **Salgspriser og salgslinjerabatter** på debitor- eller varekortet, opdateres linjerabatprocenten, prisen og beløbet på salgslinjen automatisk, hvis priskriterierne er opfyldt. Du kan finde flere oplysninger under [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).  
+   Hvis der er konfigureret specialvarepriser i oversigtspanelet **Salgspriser og salgslinjerabatter** på debitor- eller varekortet, opdateres linjerabatprocenten, prisen og beløbet på salgslinjen automatisk, hvis priskriterierne er opfyldt. Du kan finde flere oplysninger under [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).  
 13. Gentag trin 9 til 12 for hvert produkt, du ønsker at tilbyde debitoren.  
 
-    Totalerne under linjerne beregnes automatisk, mens du opretter eller redigerer linjer.  
+   Totalerne under linjerne beregnes automatisk, mens du opretter eller redigerer linjer.  
 14. I feltet **Fakturarabatbeløb** skal du indtaste et beløb, der trækkes fra den værdi, der vises i feltet **I alt inkl. moms**.
 
-    Hvis du har konfigureret fakturarabatter til debitoren, indsættes den angivne procentværdi automatisk i feltet **Fakturarabat i %**, hvis kriterierne er opfyldt, og det relaterede beløb indsættes i feltet **Fakturarabat ekskl. moms**. Du kan finde flere oplysninger under [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
+   Hvis du har konfigureret fakturarabatter til debitoren, indsættes den angivne procentværdi automatisk i feltet **Fakturarabat i %**, hvis kriterierne er opfyldt, og det relaterede beløb indsættes i feltet **Fakturarabat ekskl. moms**. Du kan finde flere oplysninger under [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
 15. Når salgstilbudslinjerne er fuldført, skal du vælge handlingen **Send via mail**.
 16. I feltet **Send mail** skal du udfylde de resterende felter og gennemse det integrerede salgstilbud. Du kan finde flere oplysninger under [Sende dokumenter via mail](ui-how-send-documents-email.md).
 17. Hvis kunden accepterer tilbuddet, skal du vælge handlingen **Opret faktura** eller **Lav ordre**.

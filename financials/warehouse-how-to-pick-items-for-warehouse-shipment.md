@@ -72,7 +72,7 @@ Når lagerleverance bogføres, opdateres forskellige felter på salgsordrelinjen
 
 > [!NOTE]
 > I kombinationsscenarier, hvor en del af mængden først skal samles, og en anden skal leveres fra lageret, oprettes minimum to lagerleverancelinjer. En er til montage efter ordre-antal, og den anden er til beholdningsantal.
-
+> 
 > I dette tilfælde håndteres montage efter ordre-antal som beskrevet i dette emne, og beholdningsantal håndteres som enhver anden lagerleverancelinje. Du kan finde flere oplysninger om kombinationsscenarier i [Om Montage til ordre og Montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Se også  

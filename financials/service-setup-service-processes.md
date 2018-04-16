@@ -30,7 +30,7 @@ Følgende er nogle eksempler på de indstillinger, du kan anvende på Service-pr
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Sådan angives generelle og obligatoriske indstillinger
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceopsætning**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere fejlrapportering](service-how-setup-fault-reporting.md)  

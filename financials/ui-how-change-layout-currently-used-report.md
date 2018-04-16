@@ -34,8 +34,8 @@ Afhængig af de layout, der er tilgængelige for en rapport, kan du vælge at br
    * Brugerdefineret, bruger et brugerdefineret layout i rapporten.  
      Du kan se, hvilke brugerdefinerede layout der er tilgængelige for rapporten i faktaboksen Rapportlayoutdel. Hvis der ikke er nogen brugerdefinerede layout for rapporten, skal du først oprette ét. Hvis du vælger denne indstilling, kan du gå til den næste procedure for at angive et brugerdefineret layout, du vil bruge.
 
-    > [!NOTE]  
-    >   Hvis du vælger **RDLC (indbygget)** eller **Word (indbygget)** , og du får en fejlmeddelelse om, at rapporten ikke har et layout med den angivne type, skal du vælge en anden layoutindstilling eller oprette en brugerdefineret rapport af den type, du vil bruge.
+     > [!NOTE]  
+     >   Hvis du vælger **RDLC (indbygget)** eller **Word (indbygget)** , og du får en fejlmeddelelse om, at rapporten ikke har et layout med den angivne type, skal du vælge en anden layoutindstilling eller oprette en brugerdefineret rapport af den type, du vil bruge.
 
 Hvis du har valgt et indbygget RDLC- eller Word-rapportlayout, kræves ingen yderligere handling, og layoutet bruges, næste gang rapporten køres.
 

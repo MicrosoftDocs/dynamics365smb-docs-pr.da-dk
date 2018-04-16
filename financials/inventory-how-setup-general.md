@@ -24,7 +24,7 @@ Du kan angive dine generelle lageropsætning i vinduet **Lageropsætning**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Sådan konfigurerer du generelle lageroplysninger
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af Lager**, og vælg derefter det relaterede link.
-2. I vinduet **Lageropsætning** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I vinduet **Lageropsætning** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Hvis du automatisk vil inkludere lagerekspeditionstiden i beregningen af leveringstiden på købslinjen, kan du angive det som standardindstilling i vinduet **Opsætning af Lager** og for din lokation. Du kan finde flere oplysninger i [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).  
 

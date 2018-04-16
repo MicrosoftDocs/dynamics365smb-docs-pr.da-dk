@@ -27,7 +27,7 @@ Hvis der produceres spild under fremstillingen, kan dette også angives i afgang
 
 ## <a name="to-post-scrap-manually"></a>Sådan bogføres spild manuelt  
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afgangskladde**, og vælg derefter det relaterede link.  
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Angiv spildmængden i feltet **Spildantal**.  
 4. Angiv spildkoden i feltet **Spildkode**.  
 5. Vælg handlingen **Bogfør** for at bogføre det angivne spild pr. operation.  

@@ -32,7 +32,7 @@ En dimensionsanalyse viser en valgt kombination af dimensioner. Du kan gemme og 
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Analysevisninger**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** i vinduet **Analysevisningsoversigt**.
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Du kan tilføje andre dimensionskoder til de fire i oversigtspanelet **Dimensioner** ved at vælger handlingen **Filter**, udfylde felterne og derefter vælge knappen **OK**.  
 5. Hvis du vil opdatere visningen, skal du vælge handlingen **Opdater**.
 

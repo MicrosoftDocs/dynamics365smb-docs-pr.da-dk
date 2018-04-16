@@ -52,7 +52,7 @@ Montagestyklister oprettes ad to omgange:
 
     Fortsæt med at angive komponenter eller ressourcer på montagestyklisten.  
 2. I vinduet **Varekort** for et montageelement skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
-3. I vinduet **Montagestykliste** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Montagestykliste** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Sådan får du vist komponenterne for et montageelement indrykket i overensstemmelse med styklistestrukturen
 Fra vinduet **Montagestykliste** kan du åbne et separat vindue, der viser komponenterne og evt. ressourcer, der er indrykket i henhold til deres placering på styklisten under montageelementet.

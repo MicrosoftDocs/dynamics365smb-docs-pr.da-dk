@@ -34,7 +34,7 @@ Katalogvarekort indeholder meget færre oplysninger end normale varekort, da du 
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Katalogvarer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Sådan angiver du, hvordan katalogvare konverteres til din egen nummerering
 Hvis du vil aktivere konvertering af et katalogvarekort til et normalt varekort, skal du først angive, hvordan leverandørens varenummerering skal konverteres til dit eget varenummerformat.

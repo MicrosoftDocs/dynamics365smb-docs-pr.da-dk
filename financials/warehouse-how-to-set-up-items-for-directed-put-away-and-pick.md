@@ -51,9 +51,9 @@ Du kan også definere lagerklassekoder, hvis der håndteres varer med forskellig
 Du er nu klar til at opsætte zoner, hvis du vil arbejde med zoner på lagerstedet. Brugen af zoner nedsætter det antal felter, det er nødvendigt at udfylde, når du skal oprette placeringer, fordi de placeringer, der oprettes inden for en zone, automatisk overtager en række egenskaber fra denne. Zoner kan også gøre det nemmere for nye eller midlertidige medarbejdere at finde rundt på lagerstedet. Bemærk, at strømmen styres af placeringer. Det er derfor muligt at styre med placeringer og kun have én zone.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Sådan oprettes en zone på lagerstedet  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
-2.  Vælg den lokation, hvor du vil oprette zone, åbn lokationskortet, og vælg derefter handlingen **Zoner**.  
-3.  I vinduet **Zoner** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+2. Vælg den lokation, hvor du vil oprette zone, åbn lokationskortet, og vælg derefter handlingen **Zoner**.  
+3. I vinduet **Zoner** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Når du ændrer en zoneparameter, vil alle placeringer i zonen, der oprettes efter dette tidspunkt, få de nye egenskaber, men de oprindelige placeringer ændres ikke.  
 

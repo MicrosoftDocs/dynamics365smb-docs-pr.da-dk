@@ -29,7 +29,7 @@ Du kan tildele ressourcer til sager ved at oprette sagsplanlægningslinjer for s
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Sådan registreres ressourceforbrug for en sag
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladder**, og vælg derefter det relaterede link.
-2. Åbn en relevante sagskladde, og udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Åbn en relevante sagskladde, og udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Når kladden er fuldført, skal du vælge handlingen **Bogfør**.
 
 ## <a name="to-adjust-resource-prices"></a>Sådan reguleres ressourcepriser

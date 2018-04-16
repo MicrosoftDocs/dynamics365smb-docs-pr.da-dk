@@ -29,11 +29,11 @@ Flere lokationer betyder, at en virksomhed kan nøjes med at bruge en enkelt dat
 Ansvarscentre fungerer som supplement til muligheden for at anvende flere lokationer, fordi denne funktion giver brugerne mulighed for også at håndtere administrative centre. Et ansvarscenter kan være et omkostningscenter, resultatcenter, investeringscenter eller andet administrativt center, der er defineret af virksomheden. Eksempler på ansvarscentre er et salgskontor, en indkøbsafdeling for flere lokationer og et kontor for anlægsplanlægning. Ved hjælp af disse funktioner kan firmaer f.eks. oprette brugerspecifikke visninger af salgs- og købsdokumenter, der udelukkende er relateret til et bestemt ansvarscenter.
 
 ## <a name="to-set-up-a-responsibility-center"></a>Sådan oprettes et ansvarscenter  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ansvarscentre**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**.  
-3.  Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ansvarscentre**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Hvis du bruger ansvarscentre til at administrere din virksomhed, kan være nyttigt at have et standardansvarscenter for din virksomhed.
+   Hvis du bruger ansvarscentre til at administrere din virksomhed, kan være nyttigt at have et standardansvarscenter for din virksomhed.
 4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
 5. I feltet **Ansvarscenter** skal du angive en ansvarscenterkode.
 

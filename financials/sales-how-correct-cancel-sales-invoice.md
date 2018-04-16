@@ -39,7 +39,7 @@ Når du retter eller annullerer en bogført salgsfaktura, anvendes den rettede s
 2. Vælg den bogførte salgsfaktura, som du vil rette.
 
     > [!NOTE]  
->   Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke rette den bogførte salgsfaktura, da den allerede er rettet eller annulleret.
+   >   Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke rette den bogførte salgsfaktura, da den allerede er rettet eller annulleret.
 3. I vinduet **Bogført salgsfaktura** skal du vælge handlingen **Ret**.  
 4. En ny salgsfaktura med de samme oplysninger oprettes, hvor du kan foretage en rettelse. Feltet **Annulleret** på den første bogførte salgsfaktura ændres til **Ja**.
 
@@ -51,7 +51,7 @@ Når du retter eller annullerer en bogført salgsfaktura, anvendes den rettede s
 2. Vælg den bogførte salgsfaktura, som du vil annullere.
 
     > [!NOTE]  
->   Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke annullere den bogførte salgsfaktura, da den allerede er rettet eller annulleret.
+   >   Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke annullere den bogførte salgsfaktura, da den allerede er rettet eller annulleret.
 3. I vinduet **Bogført salgsfaktura** skal du vælge handlingen **Annuller**.
 
     En salgskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte salgsfaktura. Feltet **Annulleret** på den første bogførte salgsfaktura ændres til **Ja**.

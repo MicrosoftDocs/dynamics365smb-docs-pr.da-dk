@@ -30,7 +30,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 ## <a name="to-create-item-attributes"></a>Sådan oprettes vareattributter
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareattributter**, og vælg derefter det relaterede link.
 2. I vinduet **Vareattributter** skal du vælge handlingen **Ny**.
-3. I vinduet **Vareattribut** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Vareattribut** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Hvis du vælger **Indstilling** i feltet **Type**, kan du vælge handlingen **Vareattributværdier** for at oprette værdier for vareattributten. Du kan finde flere oplysninger i afsnittet "Sådan oprettes værdier for vareattributter af typen Indstilling".  
@@ -38,7 +38,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Sådan oprettes værdier for vareattributter af typen Indstilling
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareattributter**, og vælg derefter det relaterede link.
 2. I vinduet **Vareattributter** skal du vælge en vareattribut af typen **Indstilling**, som du vil oprette værdier for, og derefter vælge handlingen **Vareattributværdier**.
-3. I vinduet **Vareattributværdier** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Vareattributværdier** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Sådan tildeles vareattributter til varer
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
@@ -67,7 +67,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 4. I feltet **Værdi** skal du klikke på opslagsknappen og vælge en attributværdi, som varerne skal filtreres efter.
 
     > [!NOTE]  
->   Du kan kun vælge værdier direkte for vareattributter som faste værdier som f.eks. Farve. Du skal angive vareattributværdien for vareattributter med variable værdier, som f.eks. Bredde, ved først at vælge en betingelse. Se trin 5.
+   >   Du kan kun vælge værdier direkte for vareattributter som faste værdier som f.eks. Farve. Du skal angive vareattributværdien for vareattributter med variable værdier, som f.eks. Bredde, ved først at vælge en betingelse. Se trin 5.
 5. I feltet **Værdi** for en variabel vareattribut skal du vælge opslagsknappen.
 6. I vinduet **Angiv filterværdi** skal du i feltet **Betingelse** vælge rullepilen og vælge en betingelse.
 7. I feltet **Værdi** skal du angive en attributværdi, som varer skal filtreres efter.

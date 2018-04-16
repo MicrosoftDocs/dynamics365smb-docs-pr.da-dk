@@ -51,16 +51,16 @@ Systemet skal holde en konstant kontrol over varedisponering på lageret, så ud
 
  Det bør være muligt at reservere alle varer på lager, bortset fra dem, der har startet udgående behandling. Derfor defineres det antal, der kan reserveres, som antallet på alle dokumenter og alle placeringstyper, undtagen følgende udgående mængder:  
 
--   Antal på uregistrerede plukdokumenter  
--   Antal på forsendelsesplaceringer  
--   Antal til produktionsplaceringer  
--   Antal åbne produktionsplaceringer  
--   Antal til montageplaceringer  
--   Antal på reguleringsplaceringer  
+- Antal på uregistrerede plukdokumenter  
+- Antal på forsendelsesplaceringer  
+- Antal til produktionsplaceringer  
+- Antal åbne produktionsplaceringer  
+- Antal til montageplaceringer  
+- Antal på reguleringsplaceringer  
 
- Resultatet vises i feltet **Beholdning i alt** i vinduet **Reservation**.  
+  Resultatet vises i feltet **Beholdning i alt** i vinduet **Reservation**.  
 
- På en reservationslinje vises det antal, der ikke kan reserveres, fordi det er fordelt i lageret, i feltet **Allokeret antal på lager** i vinduet **Reservation**.  
+  På en reservationslinje vises det antal, der ikke kan reserveres, fordi det er fordelt i lageret, i feltet **Allokeret antal på lager** i vinduet **Reservation**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Beregning af det antal, der er disponibelt til reservation  
  Det antal, der kan reserveres, beregnes sådan:  

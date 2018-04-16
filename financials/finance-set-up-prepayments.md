@@ -59,7 +59,7 @@ Hvis du opretter en standardforudbetalingsprocent til en vare, kan den bruges ti
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
 2. Markér en vare, og vælg derefter handlingen **Forudbetalingsprocenter**.  
-3. I vinduet **Forudbetalingsprocenter - salg** skal du udfylde felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Forudbetalingsprocenter - salg** skal du udfylde felter efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Til en kunde eller leverandør kan du oprette én standardforudbetalingsprocent, der gælder for alle varer og alle former for salgslinjer. Du angiver dette på debitor- eller kreditorkortet.
 

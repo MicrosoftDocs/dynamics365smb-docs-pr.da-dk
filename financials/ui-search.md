@@ -26,10 +26,10 @@ Du kan finde sider og rapporter ved at vælge ikonet **Søg efter side eller rap
 
 Når du begynder at skrive tegn, viser en rullemenu sidenavne, der indeholder det eller de tegn, du skriver. Rullemenuen ændres, efterhånden som du skriver flere tegn, og du kan vælge den rigtige side på listen, når den vises. Den anden kolonne i rullelisten viser navigationsstierne til de fundne sider. Der findes også et link, som du kan bruge til at søge i hjælpen efter de tegn, du har indtastet.
 
-> [!NOTE]  
+> [!NOTE]
 >   De tilgængelige sider og rapporter afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Essentiel**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md).
-
-> [!NOTE]  
+> 
+> [!NOTE]
 >   Funktionen **Søg efter side eller rapport** søger ikke ved hjælp af data, f.eks debitornavne, adresser eller transaktioner. I stedet kan du søge efter data i oversigtssider ved at klikke på symbolet Forstørrelsesglas i højre hjørne af oversigtshovedet. Søgningen gælder kun for den oversigt, du har åbnet. Du kan finde flere oplysninger under [Indtaste kriterier i filtre](ui-enter-criteria-filters.md).
 
 ## <a name="see-also"></a>Se også

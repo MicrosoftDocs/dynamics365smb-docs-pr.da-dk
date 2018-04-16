@@ -34,24 +34,24 @@ Brug om muligt et dokument til at udligne en varepost igen. Hvis du f.eks. skal 
 
 Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en fast udligning, skal du bruge vinduet **Udligningskladde** til at rette en udligning.
 
-> [!Warning]  
+> [!Warning]
 > Det er vigtigt at overveje følgende ting, når du arbejder med applikationskladden:
-    - Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle elementerne, før du udligner udligningsposterne igen eller lukker vinduet **Applikationskladde**. Brugere, der forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost modtager følgende fejlmeddelelse: "Du kan ikke udføre denne handling, fordi posterne for vare XXX ikke er udlignede i Applikationskladden af bruger XXX."
-    - Du bør kun foretage genudligninger uden for normal arbejdstid, så der ikke opstår konflikter, hvis andre brugere bogfører transaktioner med de samme varer.
-    - Når du lukker udligningskladden, udfører [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontrol for at sikre, at alle poster er udlignet. Hvis du f.eks. fjerner en antalsudligning, men ikke opretter en ny udligning, og du derefter lukker applikationskladden, oprettes en ny udligning. Dette er med til at bevare kostprisen. Hvis du fjerner en fast udligning, oprettes en ny fast udligning dog ikke automatisk, når du lukker kladden. Dette skal du gøre manuelt ved at oprette en ny udligning i kladden.
-    - Det er muligt at fjerne udligninger fra mere end en post ad gangen i applikationskladden. Da udligning af poster har indflydelse på hele sættet af poster, der er disponible for udligningen, er det ikke muligt at oprette en udligning for mere end en post ad gangen.
-    - Applikationskladden kan ikke foretage en udligning i følgende situationer: Hvis der ikke er nok varer på lageret til udligningen, kan applikationskladden ikke foretage udligningen, når du forsøger at udligne en lagerreduktionspost uden varesporingsoplysninger til en lagerforøgelsespost med varesporingsoplysninger.
+>     - Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle elementerne, før du udligner udligningsposterne igen eller lukker vinduet **Applikationskladde**. Brugere, der forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost modtager følgende fejlmeddelelse: "Du kan ikke udføre denne handling, fordi posterne for vare XXX ikke er udlignede i Applikationskladden af bruger XXX."
+>     - Du bør kun foretage genudligninger uden for normal arbejdstid, så der ikke opstår konflikter, hvis andre brugere bogfører transaktioner med de samme varer.
+>     - Når du lukker udligningskladden, udfører [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontrol for at sikre, at alle poster er udlignet. Hvis du f.eks. fjerner en antalsudligning, men ikke opretter en ny udligning, og du derefter lukker applikationskladden, oprettes en ny udligning. Dette er med til at bevare kostprisen. Hvis du fjerner en fast udligning, oprettes en ny fast udligning dog ikke automatisk, når du lukker kladden. Dette skal du gøre manuelt ved at oprette en ny udligning i kladden.
+>     - Det er muligt at fjerne udligninger fra mere end en post ad gangen i applikationskladden. Da udligning af poster har indflydelse på hele sættet af poster, der er disponible for udligningen, er det ikke muligt at oprette en udligning for mere end en post ad gangen.
+>     - Applikationskladden kan ikke foretage en udligning i følgende situationer: Hvis der ikke er nok varer på lageret til udligningen, kan applikationskladden ikke foretage udligningen, når du forsøger at udligne en lagerreduktionspost uden varesporingsoplysninger til en lagerforøgelsespost med varesporingsoplysninger.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Sådan fjernes en vareudligning ved brug af applikationskladden  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
-2.  Vinduet **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
-3.  Angiv filtre i oversigtspanelet **Generelt** for at gøre det lettere at finde den varepost, du vil ændre udligningen for.  
-4.  Vælg vareposten, og vælg derefter handlingen **Udlignede poster**. Vinduet **Vis udlignede poster- Udlignede poster** åbner, så den varepost eller -poster, der p.t. er udlignet til den valgte post, bliver vist.  
-5.  Vælg den varepost i den anden tabel, hvor du vil fjerne udligningen.  
-6.  Vælg handlingen **Fjern udligning**. Dette fjerner den vareudligningspost, der knytter de to vareposter til hinanden, og flytter den til vinduet **Vis udlignede poster - Udlignede poster**.  
-7.  Luk vinduet **Vis udlignede poster – Udlignede poster**.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
+2. Vinduet **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
+3. Angiv filtre i oversigtspanelet **Generelt** for at gøre det lettere at finde den varepost, du vil ændre udligningen for.  
+4. Vælg vareposten, og vælg derefter handlingen **Udlignede poster**. Vinduet **Vis udlignede poster- Udlignede poster** åbner, så den varepost eller -poster, der p.t. er udlignet til den valgte post, bliver vist.  
+5. Vælg den varepost i den anden tabel, hvor du vil fjerne udligningen.  
+6. Vælg handlingen **Fjern udligning**. Dette fjerner den vareudligningspost, der knytter de to vareposter til hinanden, og flytter den til vinduet **Vis udlignede poster - Udlignede poster**.  
+7. Luk vinduet **Vis udlignede poster – Udlignede poster**.  
 
- Feltet **Restantal** for de to vareposter øges med det antal, der ikke længere er udlignet. Den fjernede varepost er nu igen tilgængelig for udligning i vinduet **Vis udlignede poster – Ikke-udlignede poster**.  
+   Feltet **Restantal** for de to vareposter øges med det antal, der ikke længere er udlignet. Den fjernede varepost er nu igen tilgængelig for udligning i vinduet **Vis udlignede poster – Ikke-udlignede poster**.  
 
 > [!IMPORTANT]  
 >  Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle de berørte elementer, før du udligner udligningsposterne igen eller lukker vinduet **Udligningskladde**. Hvis du forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost, vises følgende fejlmeddelelse:  

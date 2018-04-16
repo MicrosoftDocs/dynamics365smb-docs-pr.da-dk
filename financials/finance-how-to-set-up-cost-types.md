@@ -35,17 +35,17 @@ Diagrammet over omkostningstyper ligner kontoplanen i finansregnskabet. Du kan a
     >  Funktionen **Registrer omkostningstyper i kontoplanen** opdaterer forholdet mellem kontoplanen og diagrammet over omkostningstyper. Feltet **Nummer** feltet udfyldes og bekræftes for at sikre, at hver finanskonto kun er relateret til én kostpristype. Funktionen kører automatisk, før den overfører finansposter til omkostningsregnskabet.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Sådan oprettes nye omkostningstyper i vinduet Diagram over omkostningstyper  
-1.  Åbn vinduet **Diagram over omkostningstyper** i redigeringstilstand.  
-2.  Udfyld felterne som beskrevet efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Åbn vinduet **Diagram over omkostningstyper** i redigeringstilstand.  
+2. Udfyld felterne som beskrevet efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  Du kan oprette og vedligeholde omkostningstyper enten på **Omkostningstypekortet** eller i vinduet **Diagram over omkostningstyper**. I denne procedure opretter du omkostningstyper i vinduet **Diagram over omkostningstyper**.
+   > [!NOTE]  
+   >  Du kan oprette og vedligeholde omkostningstyper enten på **Omkostningstypekortet** eller i vinduet **Diagram over omkostningstyper**. I denne procedure opretter du omkostningstyper i vinduet **Diagram over omkostningstyper**.
 
-3.  Når du har oprettet alle omkostningstyper, skal du vælge handlingen **Indryk omkostningstyper**. I dialogboksen skal du trykke på knappen **Ja**.  
-4.  Sammenkæd den nye pristype til den tilsvarende finanskonto.  
+3. Når du har oprettet alle omkostningstyper, skal du vælge handlingen **Indryk omkostningstyper**. I dialogboksen skal du trykke på knappen **Ja**.  
+4. Sammenkæd den nye pristype til den tilsvarende finanskonto.  
 
-    > [!IMPORTANT]  
-    >  Hvis du har angivet definitioner i felterne **Sammentælling** for linjetypen **Til-sum**, før du kører funktionen **Indryk omkostningstyper**, skal du angive definitionerne igen, fordi funktionen overskriver værdierne i alle felter af typen **Til-sum**.  
+   > [!IMPORTANT]  
+   >  Hvis du har angivet definitioner i felterne **Sammentælling** for linjetypen **Til-sum**, før du kører funktionen **Indryk omkostningstyper**, skal du angive definitionerne igen, fordi funktionen overskriver værdierne i alle felter af typen **Til-sum**.  
 
 ## <a name="to-update-cost-types"></a>Sådan opdateres omkostningstyper  
 1.  I vinduet **Konfiguration af omkostningsregnskab** skal du vælge, om du ønsker, at omkostningstypeplanen automatisk opdateres, når kontoplanen ændres.  

@@ -31,7 +31,7 @@ Ved at oprette produktionsfamilier reduceres spildantallet, fordi det, der norma
 
 ## <a name="to-set-up-a-production-family"></a>Sådan oprettes en produktionsfamilie
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Familier**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-familily"></a>Sådan produceres på basis af en produktionsfamilie
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.

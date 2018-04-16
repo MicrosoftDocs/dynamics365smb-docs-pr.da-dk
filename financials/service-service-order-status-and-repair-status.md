@@ -30,7 +30,7 @@ Der er en særlig relation mellem feltet **Status** i vinduet **Serviceordre** o
 * Den serviceordrestatus, som hver enkelt reparationsstatus er tilknyttet. Du kan finde flere oplysninger i Serviceordrestatus.  
 * Prioritetsniveauet for hver enkelt serviceordrestatus. Du kan finde flere oplysninger i Prioritet  
   
- Når du konverterer et servicetilbud til en serviceordre, ændres reparationsstatussen automatisk for hver enkelt serviceartikel i ordren til **Ingen tidl. serv.** og serviceordrestatus til **Igangsat**.  
+  Når du konverterer et servicetilbud til en serviceordre, ændres reparationsstatussen automatisk for hver enkelt serviceartikel i ordren til **Ingen tidl. serv.** og serviceordrestatus til **Igangsat**.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Angive serviceordrestatus for reparationsstatus  
 Hver reparationsstatus er knyttet til en bestemt serviceordrestatus. Indstillingerne for serviceordrestatus er **Igangsat**, **I arbejde**, **Afvent** og **Udført**. Indstillingerne for reparationsstatus er: **Ingen tidl. serv.**, **I arbejde**, **Henvist**, **Delvist repareret**, **Tilbud færdigt**, **Venter på kunde**, **Reservedel bestilt**, **Reservedel modtaget** og **Udført**.  

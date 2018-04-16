@@ -49,7 +49,7 @@ Hvis du vil overføre beløb mellem bankkonti, der bruger forskellige valutaer, 
 12. I feltet **Modkontonr.** skal du vælge den bankkonto, hvorfra du vil overføre beløbet.
 
     > [!NOTE]  
->   Hvis den anvendte valutakurs i kladden er en anden en kursen i vinduet **Valutakurser**, skal du oprette en tredje linje til kurstab og -gevinster. Indtast **Finanskonto** i feltet **Kontotype**. Angiv finanskontonummeret for kurstab og -gevinster i feltet **Kontonummer**. Angiv kurstab eller -tab i feltet **Beløb** henholdsvis med og uden et minustegn foran kredit og debet.
+    >   Hvis den anvendte valutakurs i kladden er en anden en kursen i vinduet **Valutakurser**, skal du oprette en tredje linje til kurstab og -gevinster. Indtast **Finanskonto** i feltet **Kontotype**. Angiv finanskontonummeret for kurstab og -gevinster i feltet **Kontonummer**. Angiv kurstab eller -tab i feltet **Beløb** henholdsvis med og uden et minustegn foran kredit og debet.
 13. Bogfør journalen.
 
 ## <a name="see-also"></a>Se også

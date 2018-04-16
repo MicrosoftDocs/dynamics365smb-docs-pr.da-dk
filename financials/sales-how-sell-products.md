@@ -55,7 +55,7 @@ Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debit
 7. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Salgsordre**.
 
     En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.
-8. Udfyld de resterende felter efter behov i vinduet **Salgsordre**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Udfyld de resterende felter efter behov i vinduet **Salgsordre**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Du er nu klar til at udfylde salgsordrelinjerne med lagervarer eller services, som du ønsker at sælge til debitoren.
 
@@ -64,7 +64,7 @@ Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debit
 10. Angiv det antal varer, der skal sælges, i feltet **Antal**.
 
     > [!NOTE]  
->   For varer af typen Service er antallet en tidsenhed, f.eks. timer, der er angivet i feltet **Enhedskode** på linjen.
+    >   For varer af typen Service er antallet en tidsenhed, f.eks. timer, der er angivet i feltet **Enhedskode** på linjen.
 
     Feltet **Linjebeløb** opdateres, så det viser værdien i feltet **Enhedspris** ganget med værdien i feltet **Antal**.
 
@@ -79,12 +79,12 @@ Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debit
 14. Et nyt debitorkort viser oplysninger om den valgte debitorskabelon. Udfyld de resterende felter. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
 15. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Salgsordre**.
 
-   En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.  
-16. Udfyld de resterende felter efter behov i vinduet **Salgsordre**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.  
+16. Udfyld de resterende felter efter behov i vinduet **Salgsordre**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.   
+    Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.   
 
-   Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.  
+    Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.  
 17. I oversigtspanelet **Linjer** i feltet **Type** skal du vælge, hvilken type produkt, gebyr eller transaktion, som du vil bogføre for debitoren med salgslinjen.
 18. I feltet **Nummer** skal du vælge en post, der skal bogføres i overensstemmelse med værdien i feltet **Type**.
 
@@ -94,7 +94,7 @@ Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debit
 19. I feltet **Antal** skal du angive, hvor mange enheder af produktet, gebyret eller transaktion, som linjen skal registrere for debitoren.  
 
     > [!NOTE]  
->   Hvis varen er af typen **Vare - Service** er **Ressource**, er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen. Du kan finde flere oplysninger i [Oprette vareenheder](inventory-how-setup-units-of-measure.md).
+    >   Hvis varen er af typen **Vare - Service** er **Ressource**, er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen. Du kan finde flere oplysninger i [Oprette vareenheder](inventory-how-setup-units-of-measure.md).
 
     Værdien i feltet **Linjebeløb** beregnes som *Enhedspris* x *Antal*.  
 

@@ -25,7 +25,7 @@ Brugen af standardoperationer forenkler oprettelse og vedligeholdelse af ruter. 
 ## <a name="to-set-up-a-standard-task"></a>Sådan defineres en standardopgave
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Standardopgaver**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg en af handlingerne **Værktøjer**, **Medarbejdere**, **Beskrivelse**, eller **Værktøjer**.
 5. I det vindue, der åbnes, beskrives den pågældende standardoperation.
 

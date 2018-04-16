@@ -69,10 +69,10 @@ En skabelon indeholder et sæt linjer, der hver repræsenterer de analysekolonne
 4. Udfyld felterne i vinduet **Analysekolonner** for at angive de kolonner, som du vil have med i analyserapporten.  
 
     > [!NOTE]  
->   For at definere en kolonne skal du udfylde feltet **Analysetypekoder** for alle kolonnetyper undtagen **Formel**. Angiv analysetypekoderne i vinduet **Analysetyper**.  
+   >   For at definere en kolonne skal du udfylde feltet **Analysetypekoder** for alle kolonnetyper undtagen **Formel**. Angiv analysetypekoderne i vinduet **Analysetyper**.  
 
     **Bemærk**! Hvis du vælger **Vareposter** i feltet **Posttype**, kopieres de faktiske tal fra vareposten. Hvis du vælger **Varebudgetposter**, kopieres de budgetterede tal fra budgettet.  
-5.  Vælg knappen **OK** for at gemme ændringerne.  
+5. Vælg knappen **OK** for at gemme ændringerne.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Sådan opsættes analyselinjeskabeloner  
 Følgende procedure er baseret på analyserapporter for salg. Trinene er de samme for købs- og lageranalyserapporter.
@@ -96,7 +96,7 @@ Du kan anvende analyserapporter til at analysere dynamikken i dine salg i henhol
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsanalyserapporter**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** i vinduet **Analyserapport - salg**.
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg handlingen **Rediger analyserapport**.
 5. Vælg handlingen **Vis matrix** i vinduet **Salgsanalyserapport**.  
 

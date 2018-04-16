@@ -27,7 +27,7 @@ Hvis du vil kunne finde varer ud fra egenskaber, kan du tildele vareattributter 
 ## <a name="to-create-an-item-category"></a>Sådan oprettes en varekategori
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kategorier**, og vælg derefter det relaterede link.
 2. I vinduet **Varekategorier** skal du vælge handlingen **Ny**.
-3. Udfyld felterne efter behov i vinduet **Varekategorikort** i oversigtspanelet **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld felterne efter behov i vinduet **Varekategorikort** i oversigtspanelet **Generelt**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. I oversigtspanelet **Attributter** skal du angive eventuelle vareattributter for varekategorien. Hvis du vil finde flere oplysninger, skal du se afsnittet "Sådan tildeles vareattributter til en varekategori" i [Arbejde med vareattributter](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

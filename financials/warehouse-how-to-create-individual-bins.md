@@ -23,10 +23,10 @@ ms.lasthandoff: 03/22/2018
 Den mest effektive metode til at oprette lagerplaceringer er at generere grupper af tilsvarende placeringer i oprettelseskladden, men du kan også oprette placeringer enkeltvist fra lokationskortet. Du kan også bruge en funktion i vinduet **Placeringsopr.kladde** til at oprette placeringer automatisk.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Sådan oprettes en placering ud fra lokationskortet  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg det relaterede link.  
-2.  Marker den lokation, du vil oprette en placering fra, og vælg derefter handlingen **Placeringer**.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg det relaterede link.  
+2. Marker den lokation, du vil oprette en placering fra, og vælg derefter handlingen **Placeringer**.  
 3. Vælg handlingen **Ny**.
-4. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Sådan oprettes individuelle placeringer i placeringsoprettelseskladden  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Placeringsopr.kladde**, og vælg det relaterede link.  

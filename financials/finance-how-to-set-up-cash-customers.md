@@ -23,13 +23,13 @@ ms.lasthandoff: 03/22/2018
 Du kan ikke oprette en faktura uden et debitornummer. Det gælder også, hvis du sælger kontant og ikke har noget at registrere i en kundekonto.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Definere en kontantkunde  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitor**, og vælg derefter det relaterede link.  
-2.  Opret et nyt **Debitor**kort. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
-3.  I feltet **Nummer** skal du f.eks. angive **Kontant**.  
-4.  Angiv f.eks. **Kontantsalg** i feltet **Navn**.  
-5.  I oversigtspanelet **Fakturering** skal du udfylde felterne **Debitorbogføringsgruppe** og feltet **Virksomhedsbogføringsgruppe**.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitor**, og vælg derefter det relaterede link.  
+2. Opret et nyt **Debitor**kort. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
+3. I feltet **Nummer** skal du f.eks. angive **Kontant**.  
+4. Angiv f.eks. **Kontantsalg** i feltet **Navn**.  
+5. I oversigtspanelet **Fakturering** skal du udfylde felterne **Debitorbogføringsgruppe** og feltet **Virksomhedsbogføringsgruppe**.  
 
- Du har nu angivet en debitor, der indeholder tilstrækkelige oplysninger til fakturering.  
+   Du har nu angivet en debitor, der indeholder tilstrækkelige oplysninger til fakturering.  
 
 > [!NOTE]  
 >  Du kan vælge en bogføringsgruppe, der også anvendes til indenlandsk kreditsalg. Hvis du vil have separate salgstal for kontantsalg, f.eks. på en særlig salgskonto, kan du angive en ekstra bogføringsgruppe til dette formål.  

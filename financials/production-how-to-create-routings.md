@@ -32,26 +32,26 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 - Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Sådan oprettes en rute  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ruter**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**.  
-3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Vælg **Seriel** i feltet **Type** for at beregne produktionsruten i henhold til værdien i feltet **Operationsnr.**. .   
-    Vælg **parallelle** for at beregne transaktioner i henhold til værdien i det feltet **Næste operationsnr.**. .  
-5.  Du kan redigere ruten ved at angive feltet **Status** til **Ny** eller **Under udvikling**. Du kan aktivere den ved at angive feltet **Status** til **Certificeret**.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ruter**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Vælg **Seriel** i feltet **Type** for at beregne produktionsruten i henhold til værdien i feltet **Operationsnr.**. .   
+   Vælg **parallelle** for at beregne transaktioner i henhold til værdien i det feltet **Næste operationsnr.**. .  
+5. Du kan redigere ruten ved at angive feltet **Status** til **Ny** eller **Under udvikling**. Du kan aktivere den ved at angive feltet **Status** til **Certificeret**.  
 
-    Fortsæt med udfyldning af rutelinjerne.
-6.  I feltet **Operationsnr.** skal du skrive nummeret på den første operation, f.eks. **10**.  
-7.  I feltet **Type** skal du angive, hvilken ressourcetype er anvendes, f.eks. **Arbejdscenter**.  
-8.  I feltet **Nummer** skal du vælge den ressource, der skal bruges, eller skrive den i feltet.  
-9.  I feltet **Rutebindingskode** skal du skrive en kode for at knytte komponenten til en bestemt operation. Du kan finde flere oplysninger i afsnittet "Sådan oprettes rutebindinger".
-10.  Angiv de procestider, der kræves for at fuldføre operationen, i felterne **Operationstid** og **Opstillingstid**.  
+   Fortsæt med udfyldning af rutelinjerne.
+6. I feltet **Operationsnr.** skal du skrive nummeret på den første operation, f.eks. **10**.  
+7. I feltet **Type** skal du angive, hvilken ressourcetype er anvendes, f.eks. **Arbejdscenter**.  
+8. I feltet **Nummer** skal du vælge den ressource, der skal bruges, eller skrive den i feltet.  
+9. I feltet **Rutebindingskode** skal du skrive en kode for at knytte komponenten til en bestemt operation. Du kan finde flere oplysninger i afsnittet "Sådan oprettes rutebindinger".
+10. Angiv de procestider, der kræves for at fuldføre operationen, i felterne **Operationstid** og **Opstillingstid**.  
 
     > [!NOTE]  
     >  Opstillingstiden beregnes pr. produktionsordre, hvorimod operationstiden beregnes pr. produceret vare.  
 
-11.  Angiv i feltet **Samtidige kapaciteter**, hvor mange enheder af den valgte ressource, der bruges til at udføre handlingen. F.eks. vil to personer til en pakkehandling vil halvere kørselstiden.  
-12.  Fortsæt med at udfylde linjer for alle de operationer, der kræves for at producere den pågældende vare.  
-13.  Du kan kopiere linjer fra en eksisterende rute ved at vælge handlingen **Kopier rute** for at vælge eksisterende linjer.  
+11. Angiv i feltet **Samtidige kapaciteter**, hvor mange enheder af den valgte ressource, der bruges til at udføre handlingen. F.eks. vil to personer til en pakkehandling vil halvere kørselstiden.  
+12. Fortsæt med at udfylde linjer for alle de operationer, der kræves for at producere den pågældende vare.  
+13. Du kan kopiere linjer fra en eksisterende rute ved at vælge handlingen **Kopier rute** for at vælge eksisterende linjer.  
 14. Godkend ruten.  
 15. Du kan nu knytte den nye rute til kortet for den pågældende produktionsvare ved at udfylde feltet **Rutenr.**. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
 

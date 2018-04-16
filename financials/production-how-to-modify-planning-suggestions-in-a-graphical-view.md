@@ -59,6 +59,7 @@ Følgende procedure viser, hvordan du ændrer forsyningsforslag ved at trække o
 Hvis du vil implementere ændringerne af forsyningsplanen, skal du følge de aktionsmeddelelser, der er resultatet, fra planlægnings- eller indkøbskladde. Du kan finde flere oplysninger i Udfør aktionsmedl. - plan.
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symboler og ikoner på en oversigtspanelet Tidslinje
+
  |Symbol-ikon|Beskrivelse|  
  |------------------|---------------------------------------|  
  |Sort kryds|Ordrer (både udbud og efterspørgsel).<br /><br /> -   Kan ikke ændres.<br />-   Synlig, når feltet **Vis planlagt beholdning** er markeret (orange graf).|  

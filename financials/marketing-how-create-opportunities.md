@@ -30,7 +30,7 @@ Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan fi
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sælgere**, og vælg derefter det relaterede link.
 2. Vælg den sælger på listen, du vil oprette et lead for.
 3. Vælg handlingen **Leads**, og vælg derefter **Oversigt**.
-4. Vælg **Ny**, og udfyld de felterne efter relevans. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Vælg **Ny**, og udfyld de felterne efter relevans. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

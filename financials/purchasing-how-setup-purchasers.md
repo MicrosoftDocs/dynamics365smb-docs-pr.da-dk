@@ -25,7 +25,7 @@ Hvis der er mange indkøbere ansat i virksomheden, kan du oprette dem i systemet
 ## <a name="to-set-up-purchasers"></a>Sådan oprettes indkøbere
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sælgere/indkøbere**, og vælg derefter det relaterede link.
 2. I vinduet **Sælgere/indkøbere** skal du vælge handlingen **Ny**.
-3. I vinduet **Sælger-/indkøberkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Sælger-/indkøberkort** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Sådan tildeles indkøbere til leverandører
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.

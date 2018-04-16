@@ -32,7 +32,7 @@ Følgende procedurer beskriver, hvordan du opretter et indledende medarbejderkor
 ## <a name="to-set-up-an-employee"></a>Sådan oprettes en medarbejder
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
-3. I vinduet **Medarbejderkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Medarbejderkort** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Sådan indsætte et billede af en medarbejder
 Hvis du har et billede af en medarbejder i .bmp-format, kan du indsætte det på medarbejderkortet.

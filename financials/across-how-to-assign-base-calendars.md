@@ -106,12 +106,12 @@ Basiskalendere er knyttet til din egen virksomhed, debitorer, kreditorer, placer
 2.  Åbn det **Debitor**-kort, som du vil oprette en basiskalender til.  
 3.  Vælg den basiskalender, du vil tildele i feltet **Basiskalenderkode** i oversigtspanelet **Levering**.  
 
-> [!IMPORTANT]  
->  -   Hvis du ikke tildeler en basiskalender til en virksomhed, beregnes alle datoer automatisk som arbejdsdage.  
-> -   Hvis du angiver en tom lokation på en ordrelinje, beregnes alle datoer automatisk som arbejdsdage.  
-> -   Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirker, hvordan datoerne beregnes og afrundet til arbejdsdage.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Hvis du ikke tildeler en basiskalender til en virksomhed, beregnes alle datoer automatisk som arbejdsdage.  
+>   -   Hvis du angiver en tom lokation på en ordrelinje, beregnes alle datoer automatisk som arbejdsdage.  
+>   -   Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirker, hvordan datoerne beregnes og afrundet til arbejdsdage.
+> 
+> [!NOTE]
 >  Før du kan oprette poster i tilpassede kalendere, skal du tildele en basiskalender til virksomheden.  
 
 ## <a name="see-also"></a>Se også
