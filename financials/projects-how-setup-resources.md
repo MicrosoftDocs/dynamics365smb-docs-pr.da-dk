@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 01c640a033c9607c0401ad471d257003e65ca636
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 182bad8e3a667da151005fe105b12c1e5397805a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-resources"></a><span data-ttu-id="9a2cb-103">Konfigurere ressourcer</span><span class="sxs-lookup"><span data-stu-id="9a2cb-103">Set Up Resources</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="9a2cb-112">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ressourcer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="9a2cb-112">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resources**, and then choose the related link.</span></span>
 2. <span data-ttu-id="9a2cb-113">Vælg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="9a2cb-113">Choose the **New** action.</span></span>
-3. <span data-ttu-id="9a2cb-114">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="9a2cb-114">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="9a2cb-114">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="9a2cb-114">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a><span data-ttu-id="9a2cb-115">Sådan oprettes en ressourcegruppe</span><span class="sxs-lookup"><span data-stu-id="9a2cb-115">To set up a resource group</span></span>
 <span data-ttu-id="9a2cb-116">Du kan samle flere forskellige ressourcer i en ressourcegruppe.</span><span class="sxs-lookup"><span data-stu-id="9a2cb-116">You can combine several resources in one resource group.</span></span> <span data-ttu-id="9a2cb-117">Ressourcegruppens kapaciteter og budgetter bliver akkumuleret fra de enkelte ressourcer i gruppen.</span><span class="sxs-lookup"><span data-stu-id="9a2cb-117">All capacities and budgets of resource groups are accumulated from the individual resources.</span></span> <span data-ttu-id="9a2cb-118">Du kan også indtaste kapaciteter for ressourcegrupper, enten uafhængigt af de akkumulerede værdier eller som supplement til dem.</span><span class="sxs-lookup"><span data-stu-id="9a2cb-118">It is also possible to enter capacities for resource groups either independently of the accumulated values or in addition to them.</span></span>

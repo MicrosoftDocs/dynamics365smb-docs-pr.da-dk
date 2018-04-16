@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e667ca56aa22fafc7fe6d0a4880c419a4272db26
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ea0fd5ad5d2289a20a3648acba9e073a984dab12
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a><span data-ttu-id="0453f-103">Beregn genopfyldning</span><span class="sxs-lookup"><span data-stu-id="0453f-103">Calculate Bin Replenishment</span></span>
@@ -38,14 +38,14 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="0453f-122">Næste gang du beregner genopfyldning, vil de forslag, som du har slettet, blive genoprettet, hvis de stadig er gyldige til den tid.</span><span class="sxs-lookup"><span data-stu-id="0453f-122">The next time you calculate bin replenishment, the suggestions that you have deleted will be recreated, if they are still valid at that time.</span></span>  
 
-> [!NOTE]  
+> [!NOTE]
 >  <span data-ttu-id="0453f-123">Hvis en vare opfylder følgende betingelser:</span><span class="sxs-lookup"><span data-stu-id="0453f-123">If the following conditions are met for an item:</span></span>  
->   
->  -   <span data-ttu-id="0453f-124">Varen har en udløbsdato.</span><span class="sxs-lookup"><span data-stu-id="0453f-124">The item has an expiration date, and</span></span>  
-> -   <span data-ttu-id="0453f-125">Feltet **Vælg i overensstemmelse med FEFO** på lokationskortet er markeret, og</span><span class="sxs-lookup"><span data-stu-id="0453f-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
-> -   <span data-ttu-id="0453f-126">Du bruger funktionen **Beregn genopfyldning**</span><span class="sxs-lookup"><span data-stu-id="0453f-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
->   
->  <span data-ttu-id="0453f-127">Hvis alle disse betingelser er opfyldt, vil felterne **Fra zonekode** og **Fra placeringskode** være tomme, fordi den algoritme, der beregner, hvorfra varerne skal bevæges, kun udløses, når du aktiverer funktionen **Opret bevægelse**.</span><span class="sxs-lookup"><span data-stu-id="0453f-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
+> 
+> - <span data-ttu-id="0453f-124">Varen har en udløbsdato.</span><span class="sxs-lookup"><span data-stu-id="0453f-124">The item has an expiration date, and</span></span>  
+>   -   <span data-ttu-id="0453f-125">Feltet **Vælg i overensstemmelse med FEFO** på lokationskortet er markeret, og</span><span class="sxs-lookup"><span data-stu-id="0453f-125">The **Pick According to FEFO** field on the location card is selected, and</span></span>  
+>   -   <span data-ttu-id="0453f-126">Du bruger funktionen **Beregn genopfyldning**</span><span class="sxs-lookup"><span data-stu-id="0453f-126">You use the **Calculate Bin Replenishment** functionality</span></span>  
+> 
+>   <span data-ttu-id="0453f-127">Hvis alle disse betingelser er opfyldt, vil felterne **Fra zonekode** og **Fra placeringskode** være tomme, fordi den algoritme, der beregner, hvorfra varerne skal bevæges, kun udløses, når du aktiverer funktionen **Opret bevægelse**.</span><span class="sxs-lookup"><span data-stu-id="0453f-127">then the **From Zone** and **From Bin** fields will be blank because the algorithm to calculate from where to move the items is triggered only when you activate the **Create Movement** function.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="0453f-128">Se også</span><span class="sxs-lookup"><span data-stu-id="0453f-128">See Also</span></span>  
 [<span data-ttu-id="0453f-129">Logistik</span><span class="sxs-lookup"><span data-stu-id="0453f-129">Warehouse Management</span></span>](warehouse-manage-warehouse.md)  

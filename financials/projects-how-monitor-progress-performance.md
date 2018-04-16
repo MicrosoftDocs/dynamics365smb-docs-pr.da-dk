@@ -13,10 +13,10 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 22dc57e01941927dfc2077eb1e48645cfc7b56de
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ff4ee001c92ccc69910855b845d393ac30eef605
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a><span data-ttu-id="621e0-102">Overvåge jobstatus og -udførelse</span><span class="sxs-lookup"><span data-stu-id="621e0-102">Monitor Job Progress and Performance</span></span>
@@ -41,7 +41,7 @@ ms.lasthandoff: 03/22/2018
 > <span data-ttu-id="621e0-122">Når du har brugt en ny metode til at oprette poster for igangværende arbejde, kan du ikke slette metoden eller ændre den.</span><span class="sxs-lookup"><span data-stu-id="621e0-122">After you have used your new method to create WIP entries, you cannot delete the method or modify it.</span></span>  
 
 1. <span data-ttu-id="621e0-123">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sags-VIA-metoder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="621e0-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Methods**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="621e0-124">Vælg handlingen **Ny**, og udfyld derefter felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="621e0-124">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="621e0-124">Vælg handlingen **Ny**, og udfyld derefter felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="621e0-124">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. <span data-ttu-id="621e0-125">Luk vinduet.</span><span class="sxs-lookup"><span data-stu-id="621e0-125">Close the window.</span></span>   
 4. <span data-ttu-id="621e0-126">For at gøre denne nye metode til standard skal du i øverste højre hjørne vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Sagsopsætning** og derefter vælge det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="621e0-126">To make this new method the default, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>  
 5. <span data-ttu-id="621e0-127">I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.</span><span class="sxs-lookup"><span data-stu-id="621e0-127">In the **Default WIP Method** field, choose the method from the list.</span></span>

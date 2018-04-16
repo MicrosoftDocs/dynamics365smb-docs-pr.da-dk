@@ -13,10 +13,10 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: c5f6f041083e291feca4544f42d43d5ebe3b7e9c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b10995edffd00b29615e48a7a87ccf98c9fcbf80
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a><span data-ttu-id="89489-103">Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti</span><span class="sxs-lookup"><span data-stu-id="89489-103">Map Text on Recurring Payments to Accounts for Automatic Reconciliation</span></span>
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="89489-120">Brug feltet **Koblingstekst** til at angive tekst, der forekommer på betalinger, du vil bogføre på de angivne konti uden udligning til en åben post.</span><span class="sxs-lookup"><span data-stu-id="89489-120">In the **Mapping Text** field, enter any text that occurs on payments that you want to post to specified accounts without applying to an open entry.</span></span> <span data-ttu-id="89489-121">Du kan angive op til 50 tegn.</span><span class="sxs-lookup"><span data-stu-id="89489-121">You can enter up to 50 characters.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="89489-122">Hvis der ikke findes andre betalinger med den pågældende tilknytningstekst, kan teksten til kontotilknytning optræde, selv om kun en del af teksten på betalingen findes som en tilknytningstekst.</span><span class="sxs-lookup"><span data-stu-id="89489-122">If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.</span></span>
+   >   <span data-ttu-id="89489-122">Hvis der ikke findes andre betalinger med den pågældende tilknytningstekst, kan teksten til kontotilknytning optræde, selv om kun en del af teksten på betalingen findes som en tilknytningstekst.</span><span class="sxs-lookup"><span data-stu-id="89489-122">If no other payments exist with the mapping text in question, then the text-to-account mapping will occur even when only a part of the text on the payment exists as a mapping text.</span></span>
 5. <span data-ttu-id="89489-123">I feltet **Kreditornummer** skal du angive den kreditor, som betalingerne skal bogføres på.</span><span class="sxs-lookup"><span data-stu-id="89489-123">In the **Vendor No.** field, enter the vendor that the payments will be posted to.</span></span>
 6. <span data-ttu-id="89489-124">Brug feltet **Modkontokildetype** til at angive, om betalingen skal bogføres på en finanskonto eller en debitor- eller kreditorkonto.</span><span class="sxs-lookup"><span data-stu-id="89489-124">In the **Bal. Source Type** field, specify if the payment will be posted to a general ledger account or to a customer or vendor account.</span></span>
 7. <span data-ttu-id="89489-125">I feltet **Modkontokildenr.** skal du angive den konto, som betalingen vil blive bogført til, afhængig af valget i feltet **Modkontokildetype**.</span><span class="sxs-lookup"><span data-stu-id="89489-125">In the **Bal. Source No.** field, specify the account that the payment will be posted to, depending on your selection in the **Bal. Source Type** field.</span></span>
@@ -57,7 +57,7 @@ ms.lasthandoff: 03/22/2018
 | --- | --- | --- | --- | --- |
 | <span data-ttu-id="89489-140">Shell</span><span class="sxs-lookup"><span data-stu-id="89489-140">Shell</span></span> |<span data-ttu-id="89489-141">TOM</span><span class="sxs-lookup"><span data-stu-id="89489-141">BLANK</span></span> |<span data-ttu-id="89489-142">8510</span><span class="sxs-lookup"><span data-stu-id="89489-142">8510</span></span> |<span data-ttu-id="89489-143">Finanskonto</span><span class="sxs-lookup"><span data-stu-id="89489-143">G/L Account</span></span> |<span data-ttu-id="89489-144">TOM</span><span class="sxs-lookup"><span data-stu-id="89489-144">BLANK</span></span> |
 
-> [!TIP]  
+> [!TIP]
 >   <span data-ttu-id="89489-145">I emnet [Arbejde med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md) kan du finde flere oplysninger om, hvordan du arbejder med felter og kolonner.</span><span class="sxs-lookup"><span data-stu-id="89489-145">For more information about how to work with fields and columns, see [Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md).</span></span> <span data-ttu-id="89489-146">Se [Søg](ui-search.md) for at få flere oplysninger om søgning efter bestemte sider.</span><span class="sxs-lookup"><span data-stu-id="89489-146">For more information about how to find specific pages, see [Search](ui-search.md).</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="89489-147">Se også</span><span class="sxs-lookup"><span data-stu-id="89489-147">See Also</span></span>

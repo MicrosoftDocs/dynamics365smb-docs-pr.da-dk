@@ -13,10 +13,10 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 1115f65c52215fe82c8371773c0c2071e9406ba4
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 8ccd398e39a2437e4e923b8fbe5d02e725046902
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="maintain-fixed-assets"></a><span data-ttu-id="ec134-103">Vedligeholde anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="ec134-103">Maintain Fixed Assets</span></span>
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="ec134-113">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="ec134-113">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="ec134-114">Vælg det anlægsaktiv, du vil registrere vedligeholdelse for, og vælg derefter handlingen **Reparationsregistrering**.</span><span class="sxs-lookup"><span data-stu-id="ec134-114">Select the fixed asset that you want to record maintenance for, and then choose the **Maintenance Registration** action.</span></span>
-3. <span data-ttu-id="ec134-115">I vinduet **Reparationsregistrering** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="ec134-115">In the **Maintenance Registration** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="ec134-115">I vinduet **Reparationsregistrering** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="ec134-115">In the **Maintenance Registration** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a><span data-ttu-id="ec134-116">Sådan bogføres reparationsomkostninger fra en anlægskassekladde</span><span class="sxs-lookup"><span data-stu-id="ec134-116">To post maintenance costs from a fixed asset G/L journal</span></span>
 1. <span data-ttu-id="ec134-117">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="ec134-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Book List**, and then choose the related link.</span></span>  
@@ -43,7 +43,7 @@ ms.lasthandoff: 03/22/2018
 7. <span data-ttu-id="ec134-124">Vælg handlingen **Indsæt anlægsmodkonto**.</span><span class="sxs-lookup"><span data-stu-id="ec134-124">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="ec134-125">Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af vedligeholdelse.</span><span class="sxs-lookup"><span data-stu-id="ec134-125">A second journal line is created for the balancing account that is set up for maintenance posting.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="ec134-126">Trin 7 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Reparationskonto** finansdebetkontoen og feltet **Reparationsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning.</span><span class="sxs-lookup"><span data-stu-id="ec134-126">Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="ec134-127">Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="ec134-127">For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
+   >   <span data-ttu-id="ec134-126">Trin 7 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Reparationskonto** finansdebetkontoen og feltet **Reparationsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning.</span><span class="sxs-lookup"><span data-stu-id="ec134-126">Step 7 only works if you have set up the following: In the **FA Posting Group Card** window for the posting group of the fixed asset, the **Maintenance Account** field contains the general ledger debit account and the **Maintenance Bal. Account** field contains the general ledger account to which you want to post balancing entries for appreciation.</span></span> <span data-ttu-id="ec134-127">Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="ec134-127">For more information, see the "To set up fixed asset posting groups" section in [Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>
 8. <span data-ttu-id="ec134-128">Vælg handlingen **Bogfør**.</span><span class="sxs-lookup"><span data-stu-id="ec134-128">Choose the **Post** action.</span></span>
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a><span data-ttu-id="ec134-129">Sådan følger du op på servicebesøg på anlæg</span><span class="sxs-lookup"><span data-stu-id="ec134-129">To follow up on fixed assets service visits</span></span>

@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 384bc05b8f775859c9ca6d6ea4241efb63a9e69d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: af35aa77bfe288fb810dd2b9b06be6026e012da7
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="suggest-vendor-payments"></a><span data-ttu-id="79b74-103">Lav forslag</span><span class="sxs-lookup"><span data-stu-id="79b74-103">Suggest Vendor Payments</span></span>
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-use-the-suggest-vendor-payments-function"></a><span data-ttu-id="79b74-113">Sådan bruges funktionen Lav kreditorbetalingsforslag</span><span class="sxs-lookup"><span data-stu-id="79b74-113">To use the Suggest Vendor Payments function</span></span>
 1. <span data-ttu-id="79b74-114">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="79b74-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Payment Journals**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="79b74-115">Åbn den relevante kladde, og vælg derefter handlingen **Lav kreditorbetalingsforslag**.</span><span class="sxs-lookup"><span data-stu-id="79b74-115">Open the relevant journal, and then choose the **Suggest Vendor Payments** action.</span></span>  
-3. <span data-ttu-id="79b74-116">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="79b74-116">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="79b74-116">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="79b74-116">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. <span data-ttu-id="79b74-117">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="79b74-117">Choose the **OK** button.</span></span>  
 
 ## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a><span data-ttu-id="79b74-118">Sådan indsættes forfaldsdatoen som bogføringsdato på betalingskladdelinjer</span><span class="sxs-lookup"><span data-stu-id="79b74-118">To insert the due date as posting date on payment journal lines</span></span>

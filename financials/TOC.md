@@ -151,7 +151,7 @@
 
 # [Finans](finance.md)
 ## [Administrere tilgodehavender](receivables-manage-receivables.md)
-###[Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Afstemme debitorbetalinger manuelt på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Anvende debitorbetalinger manuelt](receivables-how-apply-sales-transactions-manually.md)  
 ### [Indhente udestående beløb](receivables-collect-outstanding-balances.md)

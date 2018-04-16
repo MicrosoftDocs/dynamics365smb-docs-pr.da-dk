@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0b560d61d39ba22f0008e6cb5ef11d2f6c9aa9e0
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ee8fe08f9c8e9d9e32052bc55539a0fa3e56e4d4
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a><span data-ttu-id="87217-103">Designoplysninger: Tilgængelighed i lageret</span><span class="sxs-lookup"><span data-stu-id="87217-103">Design Details: Availability in the Warehouse</span></span>
@@ -51,16 +51,16 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="87217-128">Det bør være muligt at reservere alle varer på lager, bortset fra dem, der har startet udgående behandling.</span><span class="sxs-lookup"><span data-stu-id="87217-128">It should be possible to reserve all items in inventory, except those that have started outbound processing.</span></span> <span data-ttu-id="87217-129">Derfor defineres det antal, der kan reserveres, som antallet på alle dokumenter og alle placeringstyper, undtagen følgende udgående mængder:</span><span class="sxs-lookup"><span data-stu-id="87217-129">Accordingly, the quantity that is available to reserve is defined as the quantity on all documents and all bin types, except the following outbound quantities:</span></span>  
 
--   <span data-ttu-id="87217-130">Antal på uregistrerede plukdokumenter</span><span class="sxs-lookup"><span data-stu-id="87217-130">Quantity on unregistered pick documents</span></span>  
--   <span data-ttu-id="87217-131">Antal på forsendelsesplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-131">Quantity in shipment bins</span></span>  
--   <span data-ttu-id="87217-132">Antal til produktionsplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-132">Quantity in to-production bins</span></span>  
--   <span data-ttu-id="87217-133">Antal åbne produktionsplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-133">Quantity in open shop floor bins</span></span>  
--   <span data-ttu-id="87217-134">Antal til montageplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-134">Quantity in to-assembly bins</span></span>  
--   <span data-ttu-id="87217-135">Antal på reguleringsplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-135">Quantity in adjustment bins</span></span>  
+- <span data-ttu-id="87217-130">Antal på uregistrerede plukdokumenter</span><span class="sxs-lookup"><span data-stu-id="87217-130">Quantity on unregistered pick documents</span></span>  
+- <span data-ttu-id="87217-131">Antal på forsendelsesplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-131">Quantity in shipment bins</span></span>  
+- <span data-ttu-id="87217-132">Antal til produktionsplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-132">Quantity in to-production bins</span></span>  
+- <span data-ttu-id="87217-133">Antal åbne produktionsplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-133">Quantity in open shop floor bins</span></span>  
+- <span data-ttu-id="87217-134">Antal til montageplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-134">Quantity in to-assembly bins</span></span>  
+- <span data-ttu-id="87217-135">Antal på reguleringsplaceringer</span><span class="sxs-lookup"><span data-stu-id="87217-135">Quantity in adjustment bins</span></span>  
 
- <span data-ttu-id="87217-136">Resultatet vises i feltet **Beholdning i alt** i vinduet **Reservation**.</span><span class="sxs-lookup"><span data-stu-id="87217-136">The result is displayed in the **Total Available Quantity** field in the **Reservation** window.</span></span>  
+  <span data-ttu-id="87217-136">Resultatet vises i feltet **Beholdning i alt** i vinduet **Reservation**.</span><span class="sxs-lookup"><span data-stu-id="87217-136">The result is displayed in the **Total Available Quantity** field in the **Reservation** window.</span></span>  
 
- <span data-ttu-id="87217-137">På en reservationslinje vises det antal, der ikke kan reserveres, fordi det er fordelt i lageret, i feltet **Allokeret antal på lager** i vinduet **Reservation**.</span><span class="sxs-lookup"><span data-stu-id="87217-137">On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.</span></span>  
+  <span data-ttu-id="87217-137">På en reservationslinje vises det antal, der ikke kan reserveres, fordi det er fordelt i lageret, i feltet **Allokeret antal på lager** i vinduet **Reservation**.</span><span class="sxs-lookup"><span data-stu-id="87217-137">On a reservation line, the quantity that cannot be reserved, because it is allocated in the warehouse, is displayed in the **Qty. Allocated in Warehouse** field in the **Reservation** window.</span></span>  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a><span data-ttu-id="87217-138">Beregning af det antal, der er disponibelt til reservation</span><span class="sxs-lookup"><span data-stu-id="87217-138">Calculating the Quantity Available to Reserve</span></span>  
  <span data-ttu-id="87217-139">Det antal, der kan reserveres, beregnes sådan:</span><span class="sxs-lookup"><span data-stu-id="87217-139">The quantity available to reserve is calculated as follows:</span></span>  

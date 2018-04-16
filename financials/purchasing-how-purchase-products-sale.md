@@ -13,14 +13,15 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bb89654d7bc48ad9746265b15cf0b6270fec2f7c
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 52ac51bc028b09f9dd38c1114312f1d613951cad
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a><span data-ttu-id="ad36b-103">Købe varer til et salg</span><span class="sxs-lookup"><span data-stu-id="ad36b-103">Purchase Items for a Sale</span></span>
 <span data-ttu-id="ad36b-104">Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget.</span><span class="sxs-lookup"><span data-stu-id="ad36b-104">From sales orders and sales invoices, you can use functions to quickly create purchase documents for missing item quantities that are required by the sale.</span></span> <span data-ttu-id="ad36b-105">Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.</span><span class="sxs-lookup"><span data-stu-id="ad36b-105">You can use two different functions depending on the document type.</span></span>
+
 |<span data-ttu-id="ad36b-106">Funktion</span><span class="sxs-lookup"><span data-stu-id="ad36b-106">Function</span></span>|<span data-ttu-id="ad36b-107">Description</span><span class="sxs-lookup"><span data-stu-id="ad36b-107">Description</span></span>|
 |--------|-----------|
 |<span data-ttu-id="ad36b-108">**Opret købsordrer**</span><span class="sxs-lookup"><span data-stu-id="ad36b-108">**Create Purchase Orders**</span></span>|<span data-ttu-id="ad36b-109">Fra en salgsordre kan du bruge denne funktion til at oprette en købsordre for hver leverandør af varer på salgsordren.</span><span class="sxs-lookup"><span data-stu-id="ad36b-109">From a sales order, this function creates a purchase order for each vendor of items on the sales order.</span></span> <span data-ttu-id="ad36b-110">Før du opretter købsordrerne, kan du redigere købsantallet.</span><span class="sxs-lookup"><span data-stu-id="ad36b-110">You can edit the purchase quantity before you create the purchase orders.</span></span> <span data-ttu-id="ad36b-111">Der foreslås kun ikke-tilgængelige salgsantal.</span><span class="sxs-lookup"><span data-stu-id="ad36b-111">Only unavailable sales quantities are suggested.</span></span>
@@ -39,11 +40,11 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="ad36b-124">For at købe et andet antal end det antal, der ikke er tilgængeligt, skal du redigere værdien i feltet **Købsantal**.</span><span class="sxs-lookup"><span data-stu-id="ad36b-124">To purchase another quantity than the unavailable sales quantity, edit the value in the **Quantity to Purchase** field.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="ad36b-125">Du kan også ændre feltet **Købsantal** på nedtonede linjer, selv om de repræsenterer fuldt tilgængelige salgsantal.</span><span class="sxs-lookup"><span data-stu-id="ad36b-125">You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.</span></span>
+   >   <span data-ttu-id="ad36b-125">Du kan også ændre feltet **Købsantal** på nedtonede linjer, selv om de repræsenterer fuldt tilgængelige salgsantal.</span><span class="sxs-lookup"><span data-stu-id="ad36b-125">You can also change the **Quantity to Purchase** field on grayed lines even though they represent fully available sales quantities.</span></span>
 5. <span data-ttu-id="ad36b-126">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="ad36b-126">Choose the **OK** button.</span></span>
 
     <span data-ttu-id="ad36b-127">Der oprettes en indkøbsordre for hver vareleverandør på salgsordren, herunder eventuelle ændringer af antal, du har foretaget i vinduet **Opret købsordrer**.</span><span class="sxs-lookup"><span data-stu-id="ad36b-127">A purchase order is created for each vendor of items on the sales order, including any quantity changes that you made in the **Create Purchase Orders** window.</span></span>
-7. <span data-ttu-id="ad36b-128">Fortsæt med at behandle købsordrer eller ordrer, for eksempel ved at redigere eller tilføje købsordrelinjer.</span><span class="sxs-lookup"><span data-stu-id="ad36b-128">Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines.</span></span> <span data-ttu-id="ad36b-129">Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="ad36b-129">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
+6. <span data-ttu-id="ad36b-128">Fortsæt med at behandle købsordrer eller ordrer, for eksempel ved at redigere eller tilføje købsordrelinjer.</span><span class="sxs-lookup"><span data-stu-id="ad36b-128">Proceed to process the purchase order or orders, for example, by editing or adding purchase order lines.</span></span> <span data-ttu-id="ad36b-129">Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).</span><span class="sxs-lookup"><span data-stu-id="ad36b-129">For more information, see [Record Purchases](purchasing-how-record-purchases.md).</span></span>
 
 
 ## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a><span data-ttu-id="ad36b-130">Sådan oprettes en købsfaktura fra en salgsordre eller salgsfaktura</span><span class="sxs-lookup"><span data-stu-id="ad36b-130">To create a purchase invoice from a sales order or sales invoice</span></span>

@@ -12,10 +12,10 @@ ms.search.keywords: procurement
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3228d82190e81198817d0e1fa5c86f6c9d0f784f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a57ab953304a89f0caeedd66f6be55e3cf5030bb
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="record-purchases"></a><span data-ttu-id="b0dcf-103">Registrere køb</span><span class="sxs-lookup"><span data-stu-id="b0dcf-103">Record Purchases</span></span>
@@ -48,17 +48,17 @@ ms.lasthandoff: 03/22/2018
 8. <span data-ttu-id="b0dcf-138">Når du er færdig med kreditorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Købsfaktura**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-138">When you have completed the vendor card, choose the **OK** button to return to the **Purchase Invoice** window.</span></span>
 
     <span data-ttu-id="b0dcf-139">Flere felter i vinduet **Købsfaktura** udfyldes med de oplysninger, som du angav på det nye kreditorkort.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-139">Several fields in the **Purchase Invoice** window are filled with information that you specified on the new vendor card.</span></span>
-9. <span data-ttu-id="b0dcf-140">Udfyld de resterende felter efter behov i vinduet **Købsfaktura**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-140">Fill in the remaining fields in the **Purchase Invoice** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. <span data-ttu-id="b0dcf-140">Udfyld de resterende felter efter behov i vinduet **Købsfaktura**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-140">Fill in the remaining fields in the **Purchase Invoice** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="b0dcf-141">Du er nu klar til at udfylde købsfakturalinjerne med lagervarer eller services, som du har købt af kreditoren.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-141">You are now ready to fill in the purchase invoice lines with inventory items or services that you have purchased from the vendor.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="b0dcf-142">Hvis du har konfigureret de tilbagevendende købslinjer for kreditoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i fakturaen ved at vælge handlingen **Hent tilbagevendende købslinjer**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-142">If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.</span></span>
+   >   <span data-ttu-id="b0dcf-142">Hvis du har konfigureret de tilbagevendende købslinjer for kreditoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i fakturaen ved at vælge handlingen **Hent tilbagevendende købslinjer**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-142">If you have set up recurring purchase lines for the vendor, such as a monthly replenishment order, then you can insert these lines on the invoice by choosing the **Get Recurring Purchase Lines** action.</span></span>
 10. <span data-ttu-id="b0dcf-143">I oversigtspanelet **Linjer** skal du i feltet **Varenr.** indsætte nummeret på en vare eller en service.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-143">On the **Lines** FastTab, in the **Item No.** field, enter the number of an inventory item or service.</span></span>
 11. <span data-ttu-id="b0dcf-144">Angiv antal varer, der skal købes, i feltet **Antal**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-144">In the **Quantity** field, enter the number of items to be purchased.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="b0dcf-145">For varer af typen **Service** er antallet en tidsenhed, f.eks. timer, der er angivet i feltet **Enhedskode** på linjen.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-145">For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="b0dcf-145">For varer af typen **Service** er antallet en tidsenhed, f.eks. timer, der er angivet i feltet **Enhedskode** på linjen.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-145">For items of type **Service**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="b0dcf-146">Feltet **Linjebeløb** opdateres, så det viser værdien i feltet **Købspris** ganget med værdien i feltet **Antal**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-146">The **Line Amount** field is updated to show the value in the **Direct Unit Cost** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 03/22/2018
 12. <span data-ttu-id="b0dcf-148">I feltet **Fakturarabatbeløb** skal du indtaste et beløb, der trækkes fra den værdi, der vises i feltet **I alt inkl. moms** nederst i fakturaen.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-148">In the **Invoice Discount Amount** field, enter an amount that should be deducted from the value shown in the **Total Incl. Tax** field at the bottom of the invoice.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="b0dcf-149">Hvis du har konfigureret fakturarabatter til kreditoren, indsættes den angivne procentværdi automatisk i feltet **Leverandørfakturarabat i %**, hvis kriterierne er opfyldt, og det relaterede beløb indsættes i feltet **Fakturarabatbeløb**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-149">If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.</span></span>
+    >   <span data-ttu-id="b0dcf-149">Hvis du har konfigureret fakturarabatter til kreditoren, indsættes den angivne procentværdi automatisk i feltet **Leverandørfakturarabat i %**, hvis kriterierne er opfyldt, og det relaterede beløb indsættes i feltet **Fakturarabatbeløb**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-149">If you have set up invoice discounts for the vendor, then the specified percentage value is automatically inserted in the **Vendor Invoice Discount %** field if the criteria are met, and the related amount is inserted in the **Invoice Discount Amount** field.</span></span>
 13. <span data-ttu-id="b0dcf-150">Når du modtager de købte varer eller servicer, skal du vælge **Bogfør**.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-150">When you receive the purchased items or services, choose **Post**.</span></span>
 
 <span data-ttu-id="b0dcf-151">Købet afspejles nu i lager- og finansrecords, og kreditorbetalingen aktiveres.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-151">The purchase is now reflected in inventory and financial records, and the vendor payment is activated.</span></span> <span data-ttu-id="b0dcf-152">Købsfakturaen fjernes fra listen over købsfakturaer og erstattes med et nyt bilag i oversigten over bogførte købsfakturaer.</span><span class="sxs-lookup"><span data-stu-id="b0dcf-152">The purchase invoice is removed from the list of purchase invoices and replaced with a new document in the list of posted purchase invoices.</span></span>

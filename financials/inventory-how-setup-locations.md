@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, distribution center
 ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 57e16fe7d7dd3edd832fb29773fc2a9c13cba153
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f0baea454c110bdc998761b84e28f167321d95f1
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-locations"></a><span data-ttu-id="c9438-103">Opsætte lokationer</span><span class="sxs-lookup"><span data-stu-id="c9438-103">Set Up Locations</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-create-a-location-card"></a><span data-ttu-id="c9438-107">Sådan oprettes et lokationskort</span><span class="sxs-lookup"><span data-stu-id="c9438-107">To create a location card</span></span>
 1. <span data-ttu-id="c9438-108">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="c9438-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Locations**, and then choose the related link.</span></span>
 2. <span data-ttu-id="c9438-109">Vælg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="c9438-109">Choose the **New** action.</span></span>
-3. <span data-ttu-id="c9438-110">I vinduet **Lokationskort** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="c9438-110">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="c9438-110">I vinduet **Lokationskort** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="c9438-110">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="c9438-111">Gentag trin 2 og 3 for hver lokation, hvor du vil foretage lageropgørelse.</span><span class="sxs-lookup"><span data-stu-id="c9438-111">Repeat steps 2 and 3 for every location where you want to keep inventory.</span></span>
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ ms.lasthandoff: 03/22/2018
 1. <span data-ttu-id="c9438-115">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Overflytningsruter**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="c9438-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer Routes**, and then choose the related link.</span></span>
 2. <span data-ttu-id="c9438-116">Du kan også vælge handlingen **Overflytningsruter** i ethvert **Lokationskort**-vindue.</span><span class="sxs-lookup"><span data-stu-id="c9438-116">Alternatively, from any **Location Card** window, choose the **Transfer Routes** action.</span></span>
 3. <span data-ttu-id="c9438-117">Vælg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="c9438-117">Choose the **New** action.</span></span>
-4. <span data-ttu-id="c9438-118">I vinduet **Lokationskort** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="c9438-118">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="c9438-118">I vinduet **Lokationskort** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="c9438-118">In the **Location Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="c9438-119">Du kan nu overflytte lagervarer mellem to lokationer.</span><span class="sxs-lookup"><span data-stu-id="c9438-119">You can now transfer inventory items between two locations.</span></span> <span data-ttu-id="c9438-120">Du kan finde flere oplysninger i [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md).</span><span class="sxs-lookup"><span data-stu-id="c9438-120">For more information, see [Transfer Inventory Between Locations](inventory-how-transfer-between-locations.md).</span></span>    
 

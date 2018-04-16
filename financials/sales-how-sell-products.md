@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 03/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 7d1e9196e4fa4e24eb01f6a7f6b824e0c4f857ca
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 214edd3973930abf82f0fdf41347efa5f99f7f24
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="sell-products"></a><span data-ttu-id="8723b-103">Sælge produkter</span><span class="sxs-lookup"><span data-stu-id="8723b-103">Sell Products</span></span>
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/28/2018
 7. <span data-ttu-id="8723b-146">Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Salgsordre**.</span><span class="sxs-lookup"><span data-stu-id="8723b-146">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
     <span data-ttu-id="8723b-147">En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.</span><span class="sxs-lookup"><span data-stu-id="8723b-147">Several fields on the sales order are now filled with information that you specified on the new customer card.</span></span>
-8. <span data-ttu-id="8723b-148">Udfyld de resterende felter efter behov i vinduet **Salgsordre**.</span><span class="sxs-lookup"><span data-stu-id="8723b-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. <span data-ttu-id="8723b-148">Udfyld de resterende felter efter behov i vinduet **Salgsordre**.</span><span class="sxs-lookup"><span data-stu-id="8723b-148">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="8723b-149">Du er nu klar til at udfylde salgsordrelinjerne med lagervarer eller services, som du ønsker at sælge til debitoren.</span><span class="sxs-lookup"><span data-stu-id="8723b-149">You are now ready to fill in the sales order lines with inventory items or services that you want to sell to the customer.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 03/28/2018
 10. <span data-ttu-id="8723b-152">Angiv det antal varer, der skal sælges, i feltet **Antal**.</span><span class="sxs-lookup"><span data-stu-id="8723b-152">In the **Quantity** field, enter the number of items to be sold.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="8723b-153">For varer af typen Service er antallet en tidsenhed, f.eks. timer, der er angivet i feltet **Enhedskode** på linjen.</span><span class="sxs-lookup"><span data-stu-id="8723b-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
+    >   <span data-ttu-id="8723b-153">For varer af typen Service er antallet en tidsenhed, f.eks. timer, der er angivet i feltet **Enhedskode** på linjen.</span><span class="sxs-lookup"><span data-stu-id="8723b-153">For items of type Service, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span>
 
     <span data-ttu-id="8723b-154">Feltet **Linjebeløb** opdateres, så det viser værdien i feltet **Enhedspris** ganget med værdien i feltet **Antal**.</span><span class="sxs-lookup"><span data-stu-id="8723b-154">The **Line Amount** field is updated to show the value in the **Unit Price** field multiplied by the value in the **Quantity** field.</span></span>
 
@@ -79,12 +79,12 @@ ms.lasthandoff: 03/28/2018
 14. <span data-ttu-id="8723b-163">Et nyt debitorkort viser oplysninger om den valgte debitorskabelon.</span><span class="sxs-lookup"><span data-stu-id="8723b-163">A new customer card displays the information on the selected customer template.</span></span> <span data-ttu-id="8723b-164">Udfyld de resterende felter.</span><span class="sxs-lookup"><span data-stu-id="8723b-164">Fill in the remaining fields.</span></span> <span data-ttu-id="8723b-165">Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).</span><span class="sxs-lookup"><span data-stu-id="8723b-165">For more information, see [Register New Customers](sales-how-register-new-customers.md).</span></span>  
 15. <span data-ttu-id="8723b-166">Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Salgsordre**.</span><span class="sxs-lookup"><span data-stu-id="8723b-166">When you have completed the customer card, choose the **OK** button to return to the **Sales Order** window.</span></span>
 
-   <span data-ttu-id="8723b-167">En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.</span><span class="sxs-lookup"><span data-stu-id="8723b-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
-16. <span data-ttu-id="8723b-168">Udfyld de resterende felter efter behov i vinduet **Salgsordre**.</span><span class="sxs-lookup"><span data-stu-id="8723b-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    <span data-ttu-id="8723b-167">En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.</span><span class="sxs-lookup"><span data-stu-id="8723b-167">Several fields on the sales Order are now filled with information that you specified on the new customer card.</span></span>  
+16. <span data-ttu-id="8723b-168">Udfyld de resterende felter efter behov i vinduet **Salgsordre**.</span><span class="sxs-lookup"><span data-stu-id="8723b-168">Fill in the remaining fields in the **Sales Order** window as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   <span data-ttu-id="8723b-169">Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.</span><span class="sxs-lookup"><span data-stu-id="8723b-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
+    <span data-ttu-id="8723b-169">Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.</span><span class="sxs-lookup"><span data-stu-id="8723b-169">You are now ready to fill in the sales order lines for products that you are selling to the customer or for any transaction with the customer that you want to record in a G/L account.</span></span>   
 
-   <span data-ttu-id="8723b-170">Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.</span><span class="sxs-lookup"><span data-stu-id="8723b-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
+    <span data-ttu-id="8723b-170">Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.</span><span class="sxs-lookup"><span data-stu-id="8723b-170">If you have set up recurring sales lines for the customer, such as a monthly replenishment order, then you can insert these lines on the order by choosing the **Get Recurring Sales Lines** action.</span></span>  
 17. <span data-ttu-id="8723b-171">I oversigtspanelet **Linjer** i feltet **Type** skal du vælge, hvilken type produkt, gebyr eller transaktion, som du vil bogføre for debitoren med salgslinjen.</span><span class="sxs-lookup"><span data-stu-id="8723b-171">On the **Lines** FastTab, in the **Type** field, select what type of product, charge, or transaction that you will post for the customer with the sales line.</span></span>
 18. <span data-ttu-id="8723b-172">I feltet **Nummer**</span><span class="sxs-lookup"><span data-stu-id="8723b-172">In the **No.**</span></span> <span data-ttu-id="8723b-173">skal du vælge en post, der skal bogføres i overensstemmelse med værdien i feltet **Type**.</span><span class="sxs-lookup"><span data-stu-id="8723b-173">field, select a record to post according to the value in the **Type** field.</span></span>
 
@@ -94,7 +94,7 @@ ms.lasthandoff: 03/28/2018
 19. <span data-ttu-id="8723b-180">I feltet **Antal** skal du angive, hvor mange enheder af produktet, gebyret eller transaktion, som linjen skal registrere for debitoren.</span><span class="sxs-lookup"><span data-stu-id="8723b-180">In the **Quantity** field, enter how many units of the product, charge, or transaction that the line will record for the customer.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="8723b-181">Hvis varen er af typen **Vare - Service** er **Ressource**, er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen.</span><span class="sxs-lookup"><span data-stu-id="8723b-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="8723b-182">Du kan finde flere oplysninger i [Oprette vareenheder](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="8723b-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
+    >   <span data-ttu-id="8723b-181">Hvis varen er af typen **Vare - Service** er **Ressource**, er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen.</span><span class="sxs-lookup"><span data-stu-id="8723b-181">If the item is of type **Item - Service** or **Resource**, the quantity is a time unit, such as hours, as indicated in the **Unit of Measure Code** field on the line.</span></span> <span data-ttu-id="8723b-182">Du kan finde flere oplysninger i [Oprette vareenheder](inventory-how-setup-units-of-measure.md).</span><span class="sxs-lookup"><span data-stu-id="8723b-182">For more information, see [Set Up Item Units of Measure](inventory-how-setup-units-of-measure.md).</span></span>
 
     <span data-ttu-id="8723b-183">Værdien i feltet **Linjebeløb** beregnes som *Enhedspris* x *Antal*.</span><span class="sxs-lookup"><span data-stu-id="8723b-183">The value in the **Line Amount** field is calculated as *Unit Price* x *Quantity*.</span></span>  
 

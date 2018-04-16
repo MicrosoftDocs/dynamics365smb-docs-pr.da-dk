@@ -13,10 +13,10 @@ ms.search.keywords: move, warehouse
 ms.date: 01/25/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
-ms.openlocfilehash: 8ee703865f86c0edcc5bff77d8bd04cc2bd107be
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f13da8ac565e0af7f4ab612ebd23c9cee158dbb9
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="transfer-inventory-between-locations"></a><span data-ttu-id="2b71b-103">Overflytte lagerbeholdning mellem lokationer</span><span class="sxs-lookup"><span data-stu-id="2b71b-103">Transfer Inventory Between Locations</span></span>
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a><span data-ttu-id="2b71b-116">Såden overflyttes varer med en overflytningsordre</span><span class="sxs-lookup"><span data-stu-id="2b71b-116">To transfer items with a transfer order</span></span>
 1. <span data-ttu-id="2b71b-117">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Overflytningsordrer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="2b71b-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Transfer orders**, and then choose the related link.</span></span>
-2. <span data-ttu-id="2b71b-118">I vinduet **Overflytningsordre** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="2b71b-118">In the **Transfer Order** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="2b71b-118">I vinduet **Overflytningsordre** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="2b71b-118">In the **Transfer Order** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   <span data-ttu-id="2b71b-119">Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservice** i vinduet **Overflytningsrutespec.**, udfyldes de tilsvarende felter på overflytningsordren automatisk, når du opretter overflytningsruten.</span><span class="sxs-lookup"><span data-stu-id="2b71b-119">If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.** window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.</span></span>
+   >   <span data-ttu-id="2b71b-119">Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservice** i vinduet **Overflytningsrutespec.**, udfyldes de tilsvarende felter på overflytningsordren automatisk, når du opretter overflytningsruten.</span><span class="sxs-lookup"><span data-stu-id="2b71b-119">If you have filled in the **In-Transit Code**, **Shipping Agent Code**, and **Shipping Agent Service** fields in the **Trans. Route Spec.** window when you set up the transfer route, then the corresponding fields on the transfer order are filled in automatically.</span></span>
 
     <span data-ttu-id="2b71b-120">Når du udfylder feltet **Speditørservice** beregnes modtagelsesdatoen på den lokation, der overflyttes til, ved at lægge speditørens transporttid til afsendelsesdatoen.</span><span class="sxs-lookup"><span data-stu-id="2b71b-120">When you fill in the **Shipping Agent Service** field, the receipt date at the transfer-to location is calculated by adding the shipping time of the shipping agent service to the shipment date.</span></span>
 
@@ -50,11 +50,11 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a><span data-ttu-id="2b71b-126">Sådan overflyttes varer i vareomposteringskladden</span><span class="sxs-lookup"><span data-stu-id="2b71b-126">To transfer items with the item reclassification journal</span></span>
 1. <span data-ttu-id="2b71b-127">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareomposteringskladder**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="2b71b-127">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Reclass. Journals**, and then choose the related link.</span></span>
-2. <span data-ttu-id="2b71b-128">I vinduet **Vareomposteringskladder** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="2b71b-128">In the **Item Reclass. Journal** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="2b71b-128">I vinduet **Vareomposteringskladder** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="2b71b-128">In the **Item Reclass. Journal** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="2b71b-129">I feltet **Lokationskode** skal du indtaste den lokation, hvor varerne opbevares i øjeblikket.</span><span class="sxs-lookup"><span data-stu-id="2b71b-129">In the **Location Code** field, enter the location where the items are currently stored.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="2b71b-130">For at overflytte varer, der ikke har en lokationskode, skal du lade feltet **Lokationskode** stå tomt.</span><span class="sxs-lookup"><span data-stu-id="2b71b-130">To transfer items that have no location code, leave the **Location Code** field blank.</span></span>
+   >   <span data-ttu-id="2b71b-130">For at overflytte varer, der ikke har en lokationskode, skal du lade feltet **Lokationskode** stå tomt.</span><span class="sxs-lookup"><span data-stu-id="2b71b-130">To transfer items that have no location code, leave the **Location Code** field blank.</span></span>
 4. <span data-ttu-id="2b71b-131">I feltet **Ny lokationskode** skal du angive den lokation, som du vil overflytte varerne til.</span><span class="sxs-lookup"><span data-stu-id="2b71b-131">In the **New Location Code** field, enter the location that you want to transfer the items to.</span></span>
 5. <span data-ttu-id="2b71b-132">Vælg handlingen **Bogfør**.</span><span class="sxs-lookup"><span data-stu-id="2b71b-132">Choose the **Post** action.</span></span>
 

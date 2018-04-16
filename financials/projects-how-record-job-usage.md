@@ -13,10 +13,10 @@ ms.search.keywords: project management, consumption
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b0bd4f9a4c0963520631e1571fd182adce85fdd9
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 15bddf7d0e1ed651bc4b2be6fafd24db360f952c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="record-usage-for-jobs"></a><span data-ttu-id="4e75e-103">Registrere forbrug for sager</span><span class="sxs-lookup"><span data-stu-id="4e75e-103">Record Usage for Jobs</span></span>
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/22/2018
 
     <span data-ttu-id="4e75e-118">Feltet **Restantal** viser det antal, der mangler for at afslutte sagen og blive overført til kladden.</span><span class="sxs-lookup"><span data-stu-id="4e75e-118">The **Remaining Quantity** field shows the quantity that remains to complete the job and be transferred to the journal.</span></span>  
 5. <span data-ttu-id="4e75e-119">Vælg handlingen **Opret sagskladdelinjer**.</span><span class="sxs-lookup"><span data-stu-id="4e75e-119">Choose the **Create Job Journal Lines** action.</span></span>
-6. <span data-ttu-id="4e75e-120">I vinduet **Kopier sag til sagsplanlægningslinje** skal du udfylde felterne efter behov og derefter vælge knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="4e75e-120">In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. <span data-ttu-id="4e75e-120">I vinduet **Kopier sag til sagsplanlægningslinje** skal du udfylde felterne efter behov og derefter vælge knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="4e75e-120">In the **Job Transfer Job Planning Line** window, fill in the fields as necessary, and then choose the **OK** button.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. <span data-ttu-id="4e75e-121">Vælg handlingen **Åbn sagskladde**.</span><span class="sxs-lookup"><span data-stu-id="4e75e-121">Choose the **Open Job Journal** action.</span></span>  
 8. <span data-ttu-id="4e75e-122">I vinduet **Sagskladde** skal du markere den relevante linje, og derefter vælge handlingen **Bogfør**.</span><span class="sxs-lookup"><span data-stu-id="4e75e-122">In the **Job Journal** window, select the relevant line and then choose the **Post** action.</span></span>
 9. <span data-ttu-id="4e75e-123">I vinduet **Sagsplanlægningslinjer** skal du gennemgå det registrerede forbrug ved at holde øje felterne **Antal**, **Restantal** og **Antal, der skal overføres til kladde**.</span><span class="sxs-lookup"><span data-stu-id="4e75e-123">In the **Job Planning Lines** window, review the recorded usage by observing the **Quantity**, **Remaining Quantity**, and **Qty. To Transfer to Journal** fields.</span></span>  

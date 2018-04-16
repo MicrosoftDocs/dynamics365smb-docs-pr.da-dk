@@ -13,10 +13,10 @@ ms.search.keywords: cost types, general ledger, accounts
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 945a60af52eec7fb4f00842acdac42472d735a12
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c89170fd159428d771df105ca16a1d91d29651e4
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-cost-types"></a><span data-ttu-id="ac850-103">Oprette omkostningstyper</span><span class="sxs-lookup"><span data-stu-id="ac850-103">Set Up Cost Types</span></span>
@@ -35,17 +35,17 @@ ms.lasthandoff: 03/22/2018
     >  <span data-ttu-id="ac850-119">Funktionen **Registrer omkostningstyper i kontoplanen** opdaterer forholdet mellem kontoplanen og diagrammet over omkostningstyper.</span><span class="sxs-lookup"><span data-stu-id="ac850-119">The **Register Cost Types in Chart of Accounts** function updates the relationship between the chart of accounts and the chart of cost types.</span></span> <span data-ttu-id="ac850-120">Feltet **Nummer**</span><span class="sxs-lookup"><span data-stu-id="ac850-120">The **No.**</span></span> <span data-ttu-id="ac850-121">feltet udfyldes og bekræftes for at sikre, at hver finanskonto kun er relateret til én kostpristype.</span><span class="sxs-lookup"><span data-stu-id="ac850-121">field is filled and verified to make sure that each general ledger account is related to only one cost type.</span></span> <span data-ttu-id="ac850-122">Funktionen kører automatisk, før den overfører finansposter til omkostningsregnskabet.</span><span class="sxs-lookup"><span data-stu-id="ac850-122">The function runs automatically before transferring general ledger entries to cost accounting.</span></span>  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a><span data-ttu-id="ac850-123">Sådan oprettes nye omkostningstyper i vinduet Diagram over omkostningstyper</span><span class="sxs-lookup"><span data-stu-id="ac850-123">To set up new cost types in the Chart of Cost Types window</span></span>  
-1.  <span data-ttu-id="ac850-124">Åbn vinduet **Diagram over omkostningstyper** i redigeringstilstand.</span><span class="sxs-lookup"><span data-stu-id="ac850-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
-2.  <span data-ttu-id="ac850-125">Udfyld felterne som beskrevet efter behov.</span><span class="sxs-lookup"><span data-stu-id="ac850-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. <span data-ttu-id="ac850-124">Åbn vinduet **Diagram over omkostningstyper** i redigeringstilstand.</span><span class="sxs-lookup"><span data-stu-id="ac850-124">Open the **Chart of Cost Types** window in edit mode.</span></span>  
+2. <span data-ttu-id="ac850-125">Udfyld felterne som beskrevet efter behov.</span><span class="sxs-lookup"><span data-stu-id="ac850-125">Fill in the fields as described as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  <span data-ttu-id="ac850-126">Du kan oprette og vedligeholde omkostningstyper enten på **Omkostningstypekortet** eller i vinduet **Diagram over omkostningstyper**.</span><span class="sxs-lookup"><span data-stu-id="ac850-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="ac850-127">I denne procedure opretter du omkostningstyper i vinduet **Diagram over omkostningstyper**.</span><span class="sxs-lookup"><span data-stu-id="ac850-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
+   > [!NOTE]  
+   >  <span data-ttu-id="ac850-126">Du kan oprette og vedligeholde omkostningstyper enten på **Omkostningstypekortet** eller i vinduet **Diagram over omkostningstyper**.</span><span class="sxs-lookup"><span data-stu-id="ac850-126">You can set up and maintain cost types in either the **Cost Type Card** window or in the **Chart of Cost Types** window.</span></span> <span data-ttu-id="ac850-127">I denne procedure opretter du omkostningstyper i vinduet **Diagram over omkostningstyper**.</span><span class="sxs-lookup"><span data-stu-id="ac850-127">In this procedure, you set up cost types in the **Chart of Cost Types** window.</span></span>
 
-3.  <span data-ttu-id="ac850-128">Når du har oprettet alle omkostningstyper, skal du vælge handlingen **Indryk omkostningstyper**.</span><span class="sxs-lookup"><span data-stu-id="ac850-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="ac850-129">I dialogboksen skal du trykke på knappen **Ja**.</span><span class="sxs-lookup"><span data-stu-id="ac850-129">In the dialog box, choose the **Yes** button.</span></span>  
-4.  <span data-ttu-id="ac850-130">Sammenkæd den nye pristype til den tilsvarende finanskonto.</span><span class="sxs-lookup"><span data-stu-id="ac850-130">Link the new cost type to the corresponding general ledger account.</span></span>  
+3. <span data-ttu-id="ac850-128">Når du har oprettet alle omkostningstyper, skal du vælge handlingen **Indryk omkostningstyper**.</span><span class="sxs-lookup"><span data-stu-id="ac850-128">After you have created all cost types, choose the **Indent Cost Types** action.</span></span> <span data-ttu-id="ac850-129">I dialogboksen skal du trykke på knappen **Ja**.</span><span class="sxs-lookup"><span data-stu-id="ac850-129">In the dialog box, choose the **Yes** button.</span></span>  
+4. <span data-ttu-id="ac850-130">Sammenkæd den nye pristype til den tilsvarende finanskonto.</span><span class="sxs-lookup"><span data-stu-id="ac850-130">Link the new cost type to the corresponding general ledger account.</span></span>  
 
-    > [!IMPORTANT]  
-    >  <span data-ttu-id="ac850-131">Hvis du har angivet definitioner i felterne **Sammentælling** for linjetypen **Til-sum**, før du kører funktionen **Indryk omkostningstyper**, skal du angive definitionerne igen, fordi funktionen overskriver værdierne i alle felter af typen **Til-sum**.</span><span class="sxs-lookup"><span data-stu-id="ac850-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
+   > [!IMPORTANT]  
+   >  <span data-ttu-id="ac850-131">Hvis du har angivet definitioner i felterne **Sammentælling** for linjetypen **Til-sum**, før du kører funktionen **Indryk omkostningstyper**, skal du angive definitionerne igen, fordi funktionen overskriver værdierne i alle felter af typen **Til-sum**.</span><span class="sxs-lookup"><span data-stu-id="ac850-131">If you have entered definitions in the **Totaling** fields for the line type of **End-Total** before you run the **Indent Cost Types** function, then you must enter the definitions again because the function overwrites the values in all **End-Total** fields.</span></span>  
 
 ## <a name="to-update-cost-types"></a><span data-ttu-id="ac850-132">Sådan opdateres omkostningstyper</span><span class="sxs-lookup"><span data-stu-id="ac850-132">To update cost types</span></span>  
 1.  <span data-ttu-id="ac850-133">I vinduet **Konfiguration af omkostningsregnskab** skal du vælge, om du ønsker, at omkostningstypeplanen automatisk opdateres, når kontoplanen ændres.</span><span class="sxs-lookup"><span data-stu-id="ac850-133">In the **Cost Accounting Setup** window, select if you want the chart of cost types to be automatically updated when the chart of accounts is changed.</span></span>  

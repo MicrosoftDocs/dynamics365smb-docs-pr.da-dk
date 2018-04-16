@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0e79dcc4b9015a0b2ec37262048c2c98c192df5e
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="depreciation-methods"></a><span data-ttu-id="96837-103">Afskrivningsmetoder</span><span class="sxs-lookup"><span data-stu-id="96837-103">Depreciation Methods</span></span>
@@ -31,11 +31,11 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="96837-111">Manuelt</span><span class="sxs-lookup"><span data-stu-id="96837-111">Manual</span></span>  
 
   > [!NOTE]  
->   <span data-ttu-id="96837-112">Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord.</span><span class="sxs-lookup"><span data-stu-id="96837-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="96837-113">Du skal angive afskrivningen i anlægskassekladden.</span><span class="sxs-lookup"><span data-stu-id="96837-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="96837-114">Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.</span><span class="sxs-lookup"><span data-stu-id="96837-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
+  >   <span data-ttu-id="96837-112">Brug denne metode til anlægsaktiver, der ikke afskrives, f.eks. jord.</span><span class="sxs-lookup"><span data-stu-id="96837-112">Use this method for assets that are not subject to depreciation, for example, land.</span></span> <span data-ttu-id="96837-113">Du skal angive afskrivningen i anlægskassekladden.</span><span class="sxs-lookup"><span data-stu-id="96837-113">You must enter depreciation in the fixed asset G/L journal.</span></span> <span data-ttu-id="96837-114">Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor denne afskrivningsmetode bruges.</span><span class="sxs-lookup"><span data-stu-id="96837-114">The **Calculate Depreciation** batch job omits fixed assets that use this depreciation method.</span></span>  
 * <span data-ttu-id="96837-115">Halvårlig afskrivning</span><span class="sxs-lookup"><span data-stu-id="96837-115">Half-Year Convention</span></span>  
 
   > [!NOTE]  
->    <span data-ttu-id="96837-116">Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.</span><span class="sxs-lookup"><span data-stu-id="96837-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
+  >    <span data-ttu-id="96837-116">Når du bruger denne metode, afskrives et anlægsaktiv med det samme beløb hvert år.</span><span class="sxs-lookup"><span data-stu-id="96837-116">When you use this method, a fixed asset is depreciated by the same amount each year.</span></span>  
 
 ## <a name="straight-line-depreciation"></a><span data-ttu-id="96837-117">Lineær afskrivning</span><span class="sxs-lookup"><span data-stu-id="96837-117">Straight-Line Depreciation</span></span>
 <span data-ttu-id="96837-118">Når du bruger den lineære metode, skal du angive en af følgende indstillinger i anlægsafskrivningsprofilen:</span><span class="sxs-lookup"><span data-stu-id="96837-118">When you use the straight-line method, you must specify one of the following options in the fixed asset depreciation book:</span></span>  
@@ -233,7 +233,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="96837-438">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningstabeller**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="96837-438">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Tables**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="96837-439">I vinduet **Afskrivningstabeloversigt** skal du vælge handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="96837-439">In the **Depreciation Table List** window, choose the **New** action.</span></span>  
-3. <span data-ttu-id="96837-440">I vinduet **Afskrivningstabelkort** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="96837-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="96837-440">I vinduet **Afskrivningstabelkort** skal du udfylde felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="96837-440">**Depreciation Table Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a><span data-ttu-id="96837-441">Eksempel - Brugerdefineret afskrivning</span><span class="sxs-lookup"><span data-stu-id="96837-441">Example - User-defined Depreciation</span></span>
 <span data-ttu-id="96837-442">Du bruger en afskrivningsmetode, der gør det muligt at afskrive aktiver hurtigere af skattemæssige årsager.</span><span class="sxs-lookup"><span data-stu-id="96837-442">You use a depreciation method that allows you to depreciate assets in an accelerated manner for income tax purposes.</span></span>  

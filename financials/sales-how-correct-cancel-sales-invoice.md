@@ -13,10 +13,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: e8e5a4762564d036ac8c0e7bdaf9e13b448d37f4
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 558b01a2d7048b8a5817a61b26e3df61d007815d
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a><span data-ttu-id="e8b2d-103">Rette eller annullere ubetalte salgsfakturaer</span><span class="sxs-lookup"><span data-stu-id="e8b2d-103">Correct or Cancel Unpaid Sales Invoices</span></span>
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="e8b2d-127">Vælg den bogførte salgsfaktura, som du vil rette.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-127">Select the posted sales invoice that you want to correct.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="e8b2d-128">Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke rette den bogførte salgsfaktura, da den allerede er rettet eller annulleret.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-128">If the **Canceled** check box is selected, then you cannot correct the posted sales invoice because it has already been corrected or canceled.</span></span>
+   >   <span data-ttu-id="e8b2d-128">Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke rette den bogførte salgsfaktura, da den allerede er rettet eller annulleret.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-128">If the **Canceled** check box is selected, then you cannot correct the posted sales invoice because it has already been corrected or canceled.</span></span>
 3. <span data-ttu-id="e8b2d-129">I vinduet **Bogført salgsfaktura** skal du vælge handlingen **Ret**.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-129">In the **Posted Sales Invoice** window, choose the **Correct** action.</span></span>  
 4. <span data-ttu-id="e8b2d-130">En ny salgsfaktura med de samme oplysninger oprettes, hvor du kan foretage en rettelse.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-130">A new sales invoice with the same information is created where you can make the correction.</span></span> <span data-ttu-id="e8b2d-131">Feltet **Annulleret** på den første bogførte salgsfaktura ændres til **Ja**.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-131">The **Canceled** field on the initial posted sales invoice is changed to **Yes**.</span></span>
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/22/2018
 2. <span data-ttu-id="e8b2d-136">Vælg den bogførte salgsfaktura, som du vil annullere.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-136">Select the posted sales invoice that you want to cancel.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="e8b2d-137">Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke annullere den bogførte salgsfaktura, da den allerede er rettet eller annulleret.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-137">If the **Canceled** check box is selected, then you cannot cancel the posted sales invoice because it has already been canceled or corrected.</span></span>
+   >   <span data-ttu-id="e8b2d-137">Hvis afkrydsningsfeltet **Annulleret** er markeret, kan du ikke annullere den bogførte salgsfaktura, da den allerede er rettet eller annulleret.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-137">If the **Canceled** check box is selected, then you cannot cancel the posted sales invoice because it has already been canceled or corrected.</span></span>
 3. <span data-ttu-id="e8b2d-138">I vinduet **Bogført salgsfaktura** skal du vælge handlingen **Annuller**.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-138">In the **Posted Sales Invoice** window, choose the **Cancel** action.</span></span>
 
     <span data-ttu-id="e8b2d-139">En salgskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte salgsfaktura.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-139">A sales credit memo is automatically created and posted to void the initial posted sales invoice.</span></span> <span data-ttu-id="e8b2d-140">Feltet **Annulleret** på den første bogførte salgsfaktura ændres til **Ja**.</span><span class="sxs-lookup"><span data-stu-id="e8b2d-140">The **Canceled** field on the initial posted sales invoice is changed to **Yes**.</span></span>

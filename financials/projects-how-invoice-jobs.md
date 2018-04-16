@@ -13,10 +13,10 @@ ms.search.keywords: project invoice
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4c00ce50f70cbae3ad0557f0703e80f6b115995a
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: b830629d80b4bef9bbcd581336b20cfa397f83ad
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="invoice-jobs"></a><span data-ttu-id="68720-103">Fakturere sager</span><span class="sxs-lookup"><span data-stu-id="68720-103">Invoice Jobs</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="68720-113">Fra vinduet **Sager** kan du fakturere en kunde ved at markere sagen og derefter vælge handlingen **Opret salgsfaktura for sag**.</span><span class="sxs-lookup"><span data-stu-id="68720-113">From the **Jobs** window, you can invoice a customer by selecting the job, and then choosing the **Create Job Sales Invoice** action.</span></span> <span data-ttu-id="68720-114">Følgende procedure viser, hvordan du kan bruge en kørsel til at fakturere flere sager.</span><span class="sxs-lookup"><span data-stu-id="68720-114">The following procedure shows how to use a batch job to invoice multiple jobs.</span></span>  
 
 1. <span data-ttu-id="68720-115">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opret salgsfaktura for sag**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="68720-115">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Create Sales Invoice**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="68720-116">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="68720-116">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="68720-116">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="68720-116">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="68720-117">Du kan angive filtre, hvis du vil begrænse de sager, som kørslen skal behandle.</span><span class="sxs-lookup"><span data-stu-id="68720-117">Set filters if you want to limit the jobs that the batch job will process.</span></span>
 4. <span data-ttu-id="68720-118">Vælg **OK** for at starte oprette fakturaen.</span><span class="sxs-lookup"><span data-stu-id="68720-118">Choose the **OK** button to create the invoices.</span></span>  
 

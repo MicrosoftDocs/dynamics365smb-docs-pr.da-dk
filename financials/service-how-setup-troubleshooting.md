@@ -13,10 +13,10 @@ ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5876bf5d959d106eefb9b0f765e42e74dd13ab07
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 14b7dddf1415e06df5e27f063447de633167b81f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a><span data-ttu-id="9212d-110">Definere retningslinjer for fejlfinding</span><span class="sxs-lookup"><span data-stu-id="9212d-110">To set up troubleshooting guidelines</span></span>
 1. <span data-ttu-id="9212d-111">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Fejlfinding**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="9212d-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Troubleshooting**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="9212d-112">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="9212d-112">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="9212d-112">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="9212d-112">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a><span data-ttu-id="9212d-113">Sådan tildeles retningslinjer for fejlfinding til varer, serviceartikler eller serviceartikelgrupper.</span><span class="sxs-lookup"><span data-stu-id="9212d-113">To assign troubleshooting guidelines to items, service items, or service item groups</span></span>
 1. <span data-ttu-id="9212d-114">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer** eller **Serviceartikler** eller **Serviceartikelgrupper**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="9212d-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, **Service Items**, or **Service Item Groups**, and then choose the related link.</span></span>  

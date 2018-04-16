@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 2db5100b933c0c94a8fae15c33c2ba24aad2fcf9
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="register-new-vendors"></a><span data-ttu-id="f9079-103">Registrere nye kreditorer</span><span class="sxs-lookup"><span data-stu-id="f9079-103">Register New Vendors</span></span>
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/22/2018
     <span data-ttu-id="f9079-117">Hvis der er mere end én kreditorskabelon, åbnes der automatisk et vindue, hvor du kan vælge en kreditorskabelon.</span><span class="sxs-lookup"><span data-stu-id="f9079-117">If more than one vendor template exists, then a window opens from which you can select a vendor template.</span></span> <span data-ttu-id="f9079-118">I dette tilfælde skal du følge de næste to trin.</span><span class="sxs-lookup"><span data-stu-id="f9079-118">In that case, follow the next two steps.</span></span>
 3. <span data-ttu-id="f9079-119">I vinduet **Vælg en skabelon til en ny kreditor** skal du vælge den skabelon, som du vil bruge til det nye kreditorkort.</span><span class="sxs-lookup"><span data-stu-id="f9079-119">In the **Select a template for a new vendor** window, choose the template that you want to use for the new vendor card.</span></span>
 4. <span data-ttu-id="f9079-120">Vælg knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="f9079-120">Choose the **OK** button.</span></span> <span data-ttu-id="f9079-121">Et nyt kreditorkort åbnes med nogle felter udfyldt med oplysninger fra skabelonen.</span><span class="sxs-lookup"><span data-stu-id="f9079-121">A new vendor card opens with some fields filled with information from the template.</span></span>
-5. <span data-ttu-id="f9079-122">Fortsæt med at udfylde eller ændre felterne på kreditorkortet efter behov.</span><span class="sxs-lookup"><span data-stu-id="f9079-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. <span data-ttu-id="f9079-122">Fortsæt med at udfylde eller ændre felterne på kreditorkortet efter behov.</span><span class="sxs-lookup"><span data-stu-id="f9079-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   <span data-ttu-id="f9079-123">Hvis du ikke på forhånd kender den faktureringsadresse, der skal bruges til alle fakturaer fra en kreditor, skal du ikke udfylde feltet **Faktureringsleverandørnr.** på kreditorkortet.</span><span class="sxs-lookup"><span data-stu-id="f9079-123">If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Pay-to** field.</span></span> <span data-ttu-id="f9079-124">Vælg i stedet nummeret, efter du har oprettet et dokumenthoved (købsrekvisition, ordre eller faktura)</span><span class="sxs-lookup"><span data-stu-id="f9079-124">Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.</span></span>
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a><span data-ttu-id="f9079-128">Sådan gemmes kreditorkortet som en skabelon</span><span class="sxs-lookup"><span data-stu-id="f9079-128">To save the vendor card as a template</span></span>
 1. <span data-ttu-id="f9079-129">I vinduet **Kreditorkort** skal du vælge handlingen **Gem som skabelon**.</span><span class="sxs-lookup"><span data-stu-id="f9079-129">In the **Vendor Card** window, choose the **Save as Template** action.</span></span> <span data-ttu-id="f9079-130">Vinduet **Kreditorskabelon** åbnes og viser kreditorkortet som skabelon.</span><span class="sxs-lookup"><span data-stu-id="f9079-130">The **Vendor Template** window opens showing the vendor card as a template.</span></span>
-2. <span data-ttu-id="f9079-131">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="f9079-131">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="f9079-131">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="f9079-131">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="f9079-132">Hvis du vil genbruge dimensioner i kladder, skal du vælge handlingen **Dimensioner**.</span><span class="sxs-lookup"><span data-stu-id="f9079-132">To reuse dimensions in templates, choose the **Dimensions** action.</span></span> <span data-ttu-id="f9079-133">Vinduet **Skabeloner til dimensioner** åbnes med alle dimensionsværdikoder, der er konfigureret for kreditoren.</span><span class="sxs-lookup"><span data-stu-id="f9079-133">The **Dimension Templates** window opens showing any dimension codes that are set up for the vendor.</span></span>
 4. <span data-ttu-id="f9079-134">Rediger eller angiv dimensionskoder, der skal gælde for nye kreditorkort, oprettes ved hjælp af skabelonen.</span><span class="sxs-lookup"><span data-stu-id="f9079-134">Edit or enter dimension codes that will apply to new vendor cards created by using the template.</span></span>
 5. <span data-ttu-id="f9079-135">Når du har fuldført skabelonen for den nye kreditor, skal du vælge knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="f9079-135">When you have completed the new vendor template, choose the **OK** button.</span></span>  

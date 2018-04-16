@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 0cf867dc453b01b074010ee47c7c4c6560195361
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: adbae31d6c9b601f4a484b8ea8bacecf0179a408
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a><span data-ttu-id="0b07d-103">Ændre, hvilket layout der aktuelt bruges i en rapport</span><span class="sxs-lookup"><span data-stu-id="0b07d-103">Change Which Layout is Currently Used on a Report</span></span>
@@ -34,8 +34,8 @@ ms.lasthandoff: 03/22/2018
    * <span data-ttu-id="0b07d-115">Brugerdefineret, bruger et brugerdefineret layout i rapporten.</span><span class="sxs-lookup"><span data-stu-id="0b07d-115">Custom, uses a custom layout on the report.</span></span>  
      <span data-ttu-id="0b07d-116">Du kan se, hvilke brugerdefinerede layout der er tilgængelige for rapporten i faktaboksen Rapportlayoutdel.</span><span class="sxs-lookup"><span data-stu-id="0b07d-116">You can see which custom layouts are available for the report in the Report Layouts Part FactBox.</span></span> <span data-ttu-id="0b07d-117">Hvis der ikke er nogen brugerdefinerede layout for rapporten, skal du først oprette ét.</span><span class="sxs-lookup"><span data-stu-id="0b07d-117">If there are no custom layouts for the report, then you will have to create one first.</span></span> <span data-ttu-id="0b07d-118">Hvis du vælger denne indstilling, kan du gå til den næste procedure for at angive et brugerdefineret layout, du vil bruge.</span><span class="sxs-lookup"><span data-stu-id="0b07d-118">If you choose this option, go to the next procedure to specify the custom layout that you want to use.</span></span>
 
-    > [!NOTE]  
-    >   <span data-ttu-id="0b07d-119">Hvis du vælger **RDLC (indbygget)** eller **Word (indbygget)** , og du får en fejlmeddelelse om, at rapporten ikke har et layout med den angivne type, skal du vælge en anden layoutindstilling eller oprette en brugerdefineret rapport af den type, du vil bruge.</span><span class="sxs-lookup"><span data-stu-id="0b07d-119">If you choose **RDLC (built-in)** or **Word (built-in)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.</span></span>
+     > [!NOTE]  
+     >   <span data-ttu-id="0b07d-119">Hvis du vælger **RDLC (indbygget)** eller **Word (indbygget)** , og du får en fejlmeddelelse om, at rapporten ikke har et layout med den angivne type, skal du vælge en anden layoutindstilling eller oprette en brugerdefineret rapport af den type, du vil bruge.</span><span class="sxs-lookup"><span data-stu-id="0b07d-119">If you choose **RDLC (built-in)** or **Word (built-in)** and you get an error message that the report does not have a layout of the specified type, then you must choose another layout option or create a custom report layout of the type that you want to use.</span></span>
 
 <span data-ttu-id="0b07d-120">Hvis du har valgt et indbygget RDLC- eller Word-rapportlayout, kræves ingen yderligere handling, og layoutet bruges, næste gang rapporten køres.</span><span class="sxs-lookup"><span data-stu-id="0b07d-120">If you selected a built-in RDLC or Word report layout, then no further action is required and the layout will be used the next time the report is run.</span></span>
 

@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ec3210e019da3369971d3aef6a4e38f4dcf1f530
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 3e573daab712be3501d69597bcbac1f5f89edae8
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a><span data-ttu-id="0f442-103">Analysere data efter dimensioner</span><span class="sxs-lookup"><span data-stu-id="0f442-103">Analyze Data by Dimensions</span></span>
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="0f442-118">Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Analysevisninger**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="0f442-118">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Analysis Views**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="0f442-119">Vælg handlingen **Ny** i vinduet **Analysevisningsoversigt**.</span><span class="sxs-lookup"><span data-stu-id="0f442-119">In the **Analysis View List** window, choose the **New** action.</span></span>
-3. <span data-ttu-id="0f442-120">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="0f442-120">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="0f442-120">Udfyld felterne efter behov.</span><span class="sxs-lookup"><span data-stu-id="0f442-120">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="0f442-121">Du kan tilføje andre dimensionskoder til de fire i oversigtspanelet **Dimensioner** ved at vælger handlingen **Filter**, udfylde felterne og derefter vælge knappen **OK**.</span><span class="sxs-lookup"><span data-stu-id="0f442-121">To add other dimension codes in addition to the four on the **Dimensions** FastTab, choose the **Filter** action, fill in the fields, and then choose the **OK** button.</span></span>  
 5. <span data-ttu-id="0f442-122">Hvis du vil opdatere visningen, skal du vælge handlingen **Opdater**.</span><span class="sxs-lookup"><span data-stu-id="0f442-122">To update the view, choose the **Update** action.</span></span>
 
