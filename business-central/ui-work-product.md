@@ -1,7 +1,6 @@
 ---
 title: Arbejde med de overordnede funktioner i Business Central | Microsoft Docs
 description: "Beskriver de overordnede funktioner, du bruger til at arbejde med data i Business Central, som f.eks. at angive værdier, sortere data og ændre visninger."
-services: 
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
@@ -9,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/02/2018
+ms.date: 06/057/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 6a4fd8b042561753b7db7f2959ef3b35638e4a84
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a><span data-ttu-id="7d915-103">Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="7d915-103">Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
