@@ -8,41 +8,48 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2017
+ms.date: 04/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 0c1b37616b4aafc9535f2d3fbf60b915c490dd0b
+ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
+ms.openlocfilehash: 39b48fbd34b29db56b39712fbd2cbf5dc91fefc6
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 
 ---
-# <a name="work-with-checks"></a>Arbejde med checks
+# <a name="make-check-payments"></a>Foretage betalinger med check
 Du kan udstede elektroniske og manuelle check [!INCLUDE[d365fin](includes/d365fin_md.md)]. Udbetalingskladden bruges i begge tilfælde, når der udstedes checks til leverandører/kreditorer. Du kan også annullere checks og se checkposter.
 
-Under proceduren til udstedelse af checks foreslås der betalinger, der oprettes poster, og der udskrives computerchecks.
+Følgende procedure viser, hvordan du kan betale en kreditor med en computercheck ved at udligne betalingen til den relevante kreditorfaktura, udskrive checken og derefter bogføre betalingen som betalt. Dette resulterer i positive kreditorposter, udlignet til negative bankposter og fysiske checks til behandling i banken.
+
+Du kan betale med to checktyper. Ved begge typer skal feltet **Modkontotype** eller **Kontotype** indeholde **Bankkonto**.
+
+- **Computercheck**: Vælg denne mulighed, hvis du vil udskrive en check på beløbet fra udbetalingskladdelinjen. Du skal udskrive checkene, før du kan bogføre kladdelinjerne. Du kan kun vælge **Computercheck**, hvis
+- **Manuel check**: Vælg denne mulighed, hvis du har oprettet en check manuelt og vil oprette en tilsvarende checkpost på beløbet. Du kan ikke udskrive checken med denne indstilling.
 
 > [!NOTE]  
->   Du kan kontrollere, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. Du kan finde flere oplysninger under [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
+> Du kan kontrollere, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. Du kan finde flere oplysninger under [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
 
 Printeren skal være konfigureret korrekt med checkformater, og du skal definere hvilket checklayout, der skal bruges. Du kan finde flere oplysninger under [Definere checklayouts](finance-how-define-check-layouts.md)
 
-## <a name="to-issue-checks"></a>Sådan udsteder du checks
+## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Sådan betales en kreditorfaktura med en computercheck
+I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Fremgangsmåden er den samme, hvis du vil refundere en debitor med check.
+
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
-2. Udfyld kladden med relevante betalinger, f.eks. ved hjælp af funktionen Lav kreditorbetalingsforslag. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
-3. I feltet **Bankbetalingstype** på kladdelinjer til betaling, du vil foretage med check, skal du vælge en af følgende indstillinger:
+2. Udfyld betalingskladdelinjerne. Du kan finde flere oplysninger i [Registrere betalinger og refusioner](payables-how-post-payments-refunds.md).
+3. I feltet **Betalingsformkode** skal du vælge **Check**.
+4. I feltet **Bankbetalingstype** skal du vælge **Computercheck**.
+5. Vælg handlingen **Udskriv check**.
+6. I vinduet **Check** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Vælg knappen **Send til**, vælg indstillingen **PDF-dokument**, og vælg derefter knappen **OK**.
 
-   * **Computercheck**: Vælg denne mulighed, hvis du vil udskrive en check på beløbet fra udbetalingskladdelinjen. Du skal udskrive checkene, før du kan bogføre kladdelinjerne. Du kan kun vælge **Computercheck**, hvis **Modkontotype** eller **Kontotype** er **Bankkonto**.
-   * **Manuel check**: Vælg denne mulighed, hvis du har oprettet en check manuelt og vil oprette en tilsvarende checkpost på beløbet. Du kan ikke udskrive check fra [!INCLUDE[d365fin](includes/d365fin_md.md)] med denne indstilling. Du kan kun vælge **Manuel check**, hvis **Modkontotype** eller **Kontotype** er **Bankkonto**.
+    Den fysiske check kan nu sendes til behandling i banken. Fortsæt med at bogføre betalingen som udlignet til leverandøren og dermed betalt i systemet.
+8. Vælg handlingen **Bogfør**.
 
-     > [!NOTE]  
-     >   Du skal udskrive computerchecks, før du bogfører de relaterede kladdelinjer.
-4. I tilfælde af computercheck skal du vælge **Udskriv check**.
-5. I vinduet **Check** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-6. Vælg knappen **Udskriv**.
+Der oprettes helt udlignede kreditorposter og bankposter.
 
 > [!NOTE]  
->   Hvis du vil udskrive check i mere end én valuta fra forskellige bankkonti, skal du udføre kørslen **Udskriv check** separat for hver valuta og angive den korrekte bankkonto.
+> Hvis du vil udskrive og betale checks i mere end én valuta fra forskellige bankkonti, skal du udføre kørslen **Udskriv check** separat for hver valuta og angive den korrekte bankkonto.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Sådan annulleres udskrevne checks, der ikke er blevet bogført
 Du kan annullere ikke-bogførte checks, når de er blevet udskrevet, ved hjælp af handlingen **Annuller check** i vinduet **Udbetalingskladde**.
@@ -58,7 +65,13 @@ Når checkbetalingen er blevet bogført, kan du kun annullere checks fra de resu
 4. Markér afkrydsningsfeltet **Kun annulleringskontrol**.
 5. Vælg knappen **OK**.
 
+## <a name="to-view-a-summary-of-posted-checks"></a>Sådan får du vist en oversigt over bogførte checks
+Hvis du vil gennemse bogførte checks, for eksempel for at kontrollere flere checks, der er betalt til én kreditor, kan du bruge rapporten **Bankkonto - checkoplysninger**.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonto - checkoplysninger**, og vælg derefter det relaterede link.
+2. Angiv filtre som relevante, og vælg derefter knappen **Eksempel**.
+
 ## <a name="see-also"></a>Se også
+[Foretage betaling](payables-make-payments.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/12/2017
+ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fe2ebe89310465f11561fbb1d0baed23b8241639
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 
@@ -28,29 +28,29 @@ Tastaturgenveje understøttes af de fleste webbrowsere, men funktionen kan varie
 
 De tastaturgenveje, der beskrives her, henviser til et amerikansk tastaturlayout. Tasterne kan være anderledes på andre tastaturlayout.
 
+De fleste af genvejene er de samme, uanset om operativsystemer er Windows eller macOS. Men, der er nogle genveje, der er anderledes for macOS. De er angivet i parentes i tabellerne i de følgende afsnit.
+
 ##  <a name="Keyboard"></a> Generelle tastaturgenveje
-Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til forskellige elementer på en side, f.eks. handlinger rullelister, opslag og mere. Du kan finde oplysninger om tastaturgenveje til navigation mellem poster, når du er på en liste, i næste afsnit. 
+Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til forskellige elementer på en side, f.eks. handlinger rullelister, opslag og mere. Du kan finde oplysninger om tastaturgenveje til navigation mellem poster, når du er på en liste, i næste afsnit.
 
 |Tryk på disse taster|For at gøre følgende|  
 |----------------|-----------|  
-|Tab|Flyt fokus til det næste kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.| 
+|Tab|Flyt fokus til det næste kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
 |Shift+Tab|Flyt fokus til det forrige kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|   
 |Enter|Aktivere eller få adgang til det element eller kontrolelement, der er i fokus.|   
 |Alt+Pil ned|Åbne en rulleliste eller slå en værdi for et felt op.|    
 |Alt+Højrepil|Se de transaktioner, der resulterede i en beregnet værdi i et felt.|  
+|Esc|Luk den aktuelle side eller rullemenu.|
 
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastaturgenveje på lister
 
 I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listeside. Genvejshandlingen varierer en smule afhængigt af, om siden vises i listevisning eller feltvisning.
 
-De fleste af genvejene er de samme, uanset om operativsystemer er Windows eller macOS. Men, der er nogle genveje, der er forskellig for macOS i forhold til Windows. Disse er også angivet i parenteser i tabellen.
+> [!Note]
+> I nedenstående tabel, refererer termen *interaktivt felt* til et felt, hvor du kan gøre noget, f.eks. ændret en værdi eller et link til en anden side. Generelt springes genveje over felter på listen, der viser oplysninger, som ikke kan ændres (det vil sige, felter, der er skrivebeskyttet).
 
->[!Note]
->I nedenstående tabel, refererer termen *interaktivt felt* til et felt, hvor du kan gøre noget, f.eks. ændret en værdi eller et link til en anden side. Generelt springes genveje over felter på listen, der viser oplysninger, som ikke kan ændres (det vil sige, felter, der er skrivebeskyttet).
-
-
-|Tryk på disse taster<br />(i macOS)|Sådan gør du i listevisning |Sådan gør du i listevisning |Kommentarer|
+|Tryk på disse taster<br />(i macOS)|Sådan gør du i listevisning |Sådan gør du i feltvisning |Kommentarer|
 |-----------------|-------|-------|-------|
 |Pil op|Flyt i den samme kolonne til feltet i rækken ovenover.| Flyt i den samme kolonne til feltet i rækken ovenover.  |  | 
 |Pil ned|Flyt i den samme kolonne til feltet i rækken nedenfor. |Flyt i den samme kolonne til feltet i rækken nedenfor. | |
@@ -67,7 +67,7 @@ De fleste af genvejene er de samme, uanset om operativsystemer er Windows eller 
 |Skift + klik|Udvid markeringen af rækker til at omfatte den række, som du har klikket på, og alle rækker imellem.|Ikke tilgængelig|Du kan bruge denne, efter at du har brugt Ctrl + pil op eller Ctrl + pil ned, til at udvide dit valg.|
 |Ctrl+Pil op<br />(Ctrl + Cmd + pil op)|Flytter fokus til rækken ovenover og beholder markeringen af den aktuelle række.|Ikke tilgængelig||
 |Ctrl+Pil ned<br />(Ctrl + Cmd + pil ned)|Flytter fokus til rækken nedenfor og beholder markeringen af den aktuelle række.|Ikke tilgængelig||
-|Ctrl + Mellemrumstast<br />(Ctrl + Cmd + mellemrum)|Udvid markeringen af rækker til at omfatte den fokuserede række.|Ikke tilgængelig|Du kan bruge denne, efter at du har brugt Ctrl + pil op eller Ctrl + pil ned, til at udvide dit valg.|
+|Ctrl + Mellemrumstast<br />(Ctrl + Cmd + mellemrum)|Udvid markeringen af rækker, så den omfatter den række, der fokuseres på.|Ikke tilgængelig|Du kan bruge denne, efter at du har brugt Ctrl + pil op eller Ctrl + pil ned, til at udvide dit valg.|
 |Ctrl+A|Markér alle rækker.|Ikke tilgængelig||
 |Skift + pil op|Udvid markeringen af rækker til at omfatte rækken ovenover.|Ikke tilgængelig||
 |Skift+pil ned|Udvid markeringen af rækker til at omfatte rækken nedenfor.|Ikke tilgængelig||
@@ -75,8 +75,25 @@ De fleste af genvejene er de samme, uanset om operativsystemer er Windows eller 
 |Skift + Page Down<br />(Skift + Fn + pil ned)|Udvid markeringen af rækker til at omfatte alle synlige rækker underneden den aktuelle markering af rækker.|Ikke tilgængelig||
 |Ctrl+Enter|Flyt fokus til det næste element uden for listen.|Flyt fokus til det næste element uden for listen.||
 
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Tastaturgenveje i kalenderen (datovælger)
+Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kalender (datovælger), hvor du kan vælge den ønskede dato. Følgende tabel beskriver tastaturgenvejene for kalenderen.
+
+|Tryk på disse taster<br />(i macOS)|For at gøre følgende|
+|-----------------|-------|
+|Page Up|Flytte til forrige måned.|  
+|Page Down|Flytte til næste måned.|
+|Ctrl+Home|Åbne kalenderen, hvis den er lukket.|
+|Ctrl+Home<br />(Cmd + Home)|Flytte til den aktuelle måned, dags dato.|
+|Ctrl+Venstre pil<br />(Cmd + venstre pil)|Flytte til forrige dag.|
+|Ctrl+Højre pil<br />(Cmd + højrepil)|Flytte til næste dag.|
+|Ctrl+Pil op<br />(Cmd + pil op)|Flytte til den forrige uge, samme dag i ugen.|
+|Ctrl+Pil ned<br />(Cmd + pil ned)|Flytte til næste uge, samme dag i ugen.|
+|Enter|Vælge den dato, der er fokus på.|
+|Ctrl+End<br />(Cmd + End)|Lukke kalenderen og slette den aktuelle dato.|
+|Esc|Lukke kalenderen uden en markering, bevare dags dato.|
+
 <!--
-## Keyboard shortcuts in list (shown as tiles) 
+## Keyboard shortcuts in list (shown as tiles)
 
 The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
 
@@ -84,8 +101,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
 |-----------------|-------|-------|
 |Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  | 
-|Right Arrow|Move to the next tile in the same row| | 
+|Down Arrow|Move to the tile below in the same column|  |
+|Right Arrow|Move to the next tile in the same row| |
 |Left Arrow|Move to the previous tile in the same row | |
 |Home<br />(Fn+left Arrow)|Move to the first tile in the row|
 |End<br />Fn+right Arrow)|Move to the last tile in the row|

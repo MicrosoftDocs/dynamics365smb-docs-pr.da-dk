@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/28/2017
+ms.date: 04/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 88406936af640a2ec31f099fcae8bf039b64ecf3
+ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
+ms.openlocfilehash: 68a35c3bbedd0d0f09a9e43269260e98dfa02a59
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
@@ -28,41 +28,33 @@ I den generelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver en
 Brug vinduet **Kreditoverførselsjournaler** til at få vist de betalingsfiler, som er eksporteret fra betalingskladden. I dette vindue kan du også udlæse betalingsfiler igen i tilfælde af tekniske fejl eller filændringer. Bemærk dog, at de eksporterede EFT-filer ikke vises i dette vindue og ikke kan reeksporteres.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Sådan eksporterer du betalinger til en bankfil
+I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Fremgangsmåden er den samme, hvis du vil refundere en debitor med check.
+
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
-2. Udfyld udbetalingskladdelinjer, f.eks. ved hjælp af funktionen **Lav kreditorbetalingsforslag**. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
-3. Udfyld felterne på betalingskladdelinjerne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld betalingskladdelinjerne. Du kan finde flere oplysninger i [Registrere betalinger og refusioner](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
 >   Hvis du bruger elektroniske pengeoverførsler, skal du vælge enten **Elektronisk betaling** eller **Elektronisk betaling-IAT** i feltet **Bankbetalingstype**. Andre fileksporttjenester og deres formater kræver andre konfigurationsværdier i vinduerne **Bankkontokort** og **Kreditors bankkontokort**. Du får information om forkerte eller manglende konfigurationsværdier, når du prøver at eksportere filen.
 
-4. Når du har fuldført alle betalingskladdelinjer, skal du vælge handlingen **Eksportér**.
-5. I vinduet **Eksportér elektroniske betalinger** skal du udfylde felterne efter behov.
+3. Når du har fuldført alle betalingskladdelinjer, skal du vælge handlingen **Eksportér**.
+4. I vinduet **Eksportér elektroniske betalinger** skal du udfylde felterne efter behov.
 
     Eventuelle fejlmeddelelser vises i faktaboksen **Fejl i betalingsfil**, hvor du også kan vælge en fejlmeddelelse for at se detaljerede oplysninger. Du skal løse alle fejl, før betalingsfilen kan eksporteres.
 
     > [!TIP]  
     >   Når du bruger tjenesten til konvertering af bankdata, angiver en fælles fejlmeddelelse, at bankkontonummeret ikke har den længde, der kræves af din bank. For at undgå eller løse fejlen skal du fjerne værdien i feltet **IBAN** i vinduet **Bankkontokort** og derefter bruge feltet **Bankkontonr.** til at angive et bankkontonummer i det format, som kræves af din bank.
 
-6. I vinduet **Gem som** skal du angive den placering, filen eksporteres til, og derefter vælge **Gem**.
+5. I vinduet **Gem som** skal du angive den placering, filen eksporteres til, og derefter vælge **Gem**.
 
     > [!NOTE]  
     >   Hvis du bruger elektroniske pengeoverførsler, skal du gemme den kreditorindbetalingsformular, der oprettes, som et Word-dokument eller vælge at få den sendt som e-mail direkte til kreditoren. Betalingerne til føjes nu i vinduet **Generer EFT-fil**, hvor du kan oprette flere betalingsordrer sammen for at spare transmissionsomkostninger. Du kan finde flere oplysninger i følgende trin.
-7. I vinduet **Udbetalingskladde** skal du vælg handlingen **Generer EFT-fil**.
+6. I vinduet **Udbetalingskladde** skal du vælg handlingen **Generer EFT-fil**.
 
     I vinduet **Generer EFT-fil** vises alle betalinger, der er konfigureret til elektroniske pengeoverførsler, som du har eksporteret fra betalingskladden for en bestemt bankkonto, men som endnu ikke er oprettet, i oversigtspanelet **Linjer**.
-8. Vælg handlingen **Generer EFT-fil** for at eksportere én fil for alle EFT-betalinger.
-9. I vinduet **Gem som** skal du angive den placering, filen eksporteres til, og derefter vælge **Gem**.
+7. Vælg handlingen **Generer EFT-fil** for at eksportere én fil for alle EFT-betalinger.
+8. I vinduet **Gem som** skal du angive den placering, filen eksporteres til, og derefter vælge **Gem**.
 
 Betalingsfilen til banken er eksporteret til den placering, du angiver, og du kan fortsætte med at overføre den til din elektroniske bankkonto og foretage de faktiske betalinger. Derefter kan du bogføre de eksporterede betalingskladdelinjer.
-
-## <a name="to-export-payments-that-represent-customer-refunds"></a>Sådan eksporteres betalinger, der repræsenterer debitorrefusioner
-Nedenfor beskrives en løsning på, hvordan du eksporterer elektroniske refusionsbetalinger.
-
-> [!CAUTION]  
->   De betalingskladdelinjer, der oprettes, kan ikke bogføres, slettes eller annulleres.
-1. Opret kunden som kreditor. Navngiv kreditoren "Kunde X for refusioner" f.eks. Du kan finde flere oplysninger i [Registrere nye kreditorer](purchasing-how-register-new-vendors.md).
-2. På betalingskladdelinjen for kunden, kan du indstille feltet **Kontotype** til **Debitor** og feltet **Dokumenttype** til **Refusion**.
-3. Udfør de normale trin til eksport af betaling som beskrevet i afsnittet "Sådan eksporterer du betalinger til en bankfil".
 
 ## <a name="to-plan-when-to-post-exported-payments"></a>Sådan planlægger du, hvornår eksporterede betalinger skal bogføres
 Hvis du ikke vil bogføre en betalingskladdelinje for en eksporteret betaling, for eksempel fordi du venter på bekræftelse af, at transaktionen er blevet behandlet af banken, kan du bare slette kladdelinjen. Når du senere opretter en betalingskladdelinje for at betale det resterende beløb på fakturaen, kan du i feltet **Samlet eksporteret beløb** se, hvor meget af betalingsbeløbet der allerede er blevet eksporteret. Du kan også finde detaljerede oplysninger om den eksporterede total ved at vælge knappen **Poster i kreditoverførselsjournal** for at se detaljer om eksporterede betalingsfiler.
@@ -84,6 +76,7 @@ Du kan eksportere betalingsfiler igen fra vinduet **Kreditoverførselsjournaler*
 2. Vælg den betalingseksport, du vil eksportere igen, og vælg derefter handlingen **Reeksportér betalinger til fil**.
 
 ## <a name="see-also"></a>Se også
+[Foretage betaling](payables-make-payments.md)  
 [Gæld](payables-manage-payables.md)  
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

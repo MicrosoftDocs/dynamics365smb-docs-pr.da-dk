@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2017
+ms.date: 04/09/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3cb26758401d1f1b25b204ce53abcb89970c3ba
+ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
+ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Udvidelsen Microsoft Pay til [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -27,7 +27,7 @@ Microsoft Pay-udvidelsen giver følgende fordele:
 - Debitorbetalinger vises hurtigere på bankkontoen.
 - Kunder har flere måder at betale fakturaer på.
 - Med Microsoft Pay får du en pålidelig betalingstjeneste, som debitorer foretrækker frem for at angive kreditkortoplysninger på ukendte websteder.
-- Microsoft Pay tilbyder flere måder til håndtering af betalinger, herunder kreditkort, WePay, PayPal og andre kilder.
+- Microsoft Pay tilbyder flere måder til håndtering af betalinger, herunder kreditkortbehandling via f.eks. PayPal og Stripe.
 - Microsoft Pay-linket kan integreres automatisk på i alle fakturadokumenter eller af brugeren.
 - Da denne funktion er udviklet som en udvidelse, kan du altid aktivere den, når og hvis dine forretningsprocesser kræver det.
 

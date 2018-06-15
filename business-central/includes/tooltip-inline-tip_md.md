@@ -1,1 +1,1 @@
-Vælg et felt for at læse en kort beskrivelse af det eller et link til flere oplysninger.
+Placer markøren over et felt for at se en kort beskrivelse.

@@ -1,8 +1,6 @@
 ---
-title: Konfigurere kontoplanen | Microsoft Docs
+title: Konfigurere kontoplanen
 description: "Du kan ændre standardkontiene i kontoplanen, og du kan tilføje nye konti."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 06/02/2017
+ms.date: 04/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cce6320e24ba8d73825e7cb71ada262c5af242a7
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 9f84af8bb4ac3be9132ab621906c463cfc9b91ff
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
@@ -39,7 +37,8 @@ Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstilli
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
-[Importere fra andre økonomisystemer](upload-data.md)  
+[Import af data fra andre økonomisystemer](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Arbejde med kontoskemaer](bi-how-work-account-schedule.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

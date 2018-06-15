@@ -1,6 +1,6 @@
 ---
 title: "Bruge udvidelsen C5-dataoverførsel | Microsoft Docs"
-description: "Du kan bruge denne udvidelse til at overføre debitorer, kreditorer, varer og omkostninger på finanskonti fra Microsoft Dynamics C5 2012 til Financials."
+description: "Du kan bruge denne udvidelse til at overføre debitorer, kreditorer, varer og omkostninger på finanskonti fra Microsoft Dynamics C5 2012 til Business Central."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
 
@@ -26,7 +26,7 @@ Denne udvidelse gør det let at overføre debitorer, kreditorer, varer og finans
 > [!Note]
 > Virksomheden i [!INCLUDE[d365fin](includes/d365fin_md.md)] må ikke indeholde data. Når du starter en overførsel, må du desuden ikke oprette debitorer, kreditorer, varer eller konti, før overflytningen er afsluttet.
 
-##<a name="what-data-is-migrated"></a>Hvilke data overføres?
+## <a name="what-data-is-migrated"></a>Hvilke data overføres?
 Følgende data overføres for hver enhed:
 
 **Kunder (Debitorer)**
@@ -86,6 +86,13 @@ Hvis du overfører konti, overføres følgende data også:
 > [!Note]
 > Hvis der er åbne transaktioner, der bruger udenlandske valutaer, overføres valutakursen også for disse valutaer. Andre valutakurser overflyttes ikke.
 
+**Kontoplan**  
+* Standarddimensioner: afdeling, omkostningssted og formål  
+* Historiske finanstransaktioner  
+
+> [!Note]
+> Historisk finanstransaktioner behandles lidt anderledes. Når du overfører data, angiver du en **Nuværende periode**-parameter. Denne parameter angiver, hvordan du skal behandle finanstransaktioner. Transaktioner efter denne dato overføres enkeltvis. Transaktioner inden denne dato lægges sammen pr. konto og overføres som et enkelt beløb. Lad os antage, at der er transaktioner i 2015, 2016, 2017, 2018, og du angiver den 1. januar 2017 i feltet Nuværende periode. For hver konto samles beløb for alle transaktioner på eller før den 31. december 2106 på en enkelt finanskladdelinje for hver finanskonto. Alle transaktioner efter denne dato overføres enkeltvis.
+
 ## <a name="to-migrate-data"></a>Sådan overføres data
 Der er nogle få trin til at eksportere data fra C5 og indlæse dem i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -101,6 +108,13 @@ Brug siden **Dataoverførselsoversigt** til at overvåge status for overførslen
 
 > [!Note]
 > Mens du venter på resultaterne af overførslen, skal du opdatere siden for at få vist resultaterne.
+
+## <a name="how-to-avoid-double-posting"></a>Sådan undgås dobbeltbogføring
+For at undgå dobbeltbogføring i finansregnskabet bruges følgende modkonti til åbne posteringer:  
+  
+* For kreditorer bruger vi kreditorkontoen fra kreditorbogføringsgruppen.  
+* For debitorer bruger vi debitorkontoen fra debitorbogføringsgruppen.  
+* For varer opretter vi en bogføringsopsætning, hvor reguleringskontoen er den konto, der er angivet som lagerkontoen i varebogføringsopsætningen.  
 
 ## <a name="correcting-errors"></a>Rette fejl
 Hvis noget går galt, og der opstår en fejl, viser feltet **Status** teksten **Udført med fejl**, og feltet **Antal fejl** viser hvor mange. For at få vist en liste over fejlene, kan du åbne siden **Dataoverførselsfejl** side ved at vælge:  
@@ -119,13 +133,12 @@ På siden **Dataoverførselsfejl** kan du for at rette en fejl vælge en fejlmed
 ## <a name="verifying-data-after-migrating"></a>Kontrol af data efter overførsel
 En måde til at kontrollere, at dine data overføres korrekt, er ved at se på følgende sider i C5 og [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Debitorposter| Finanskladder|
-|Kreditorposter| Finanskladder|
-|Vareposter| Varekladder|
-
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] hedder batchen for de overførte data **C5MIGRATE**.
+|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Den kørsel, der skal bruges |
+|-----|-----|-----|
+|Debitorposter| Finanskladder| CUSTMIGR |
+|Kreditorposter| Finanskladder| VENDMIGR|
+|Vareposter| Varekladder| ITEMMIGR |
+|Finansposter| Finanskladder| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Stoppe dataoverførslen
 Du kan stoppe overførslen af data ved at vælge **Stop alle overførsler**. Hvis du gør det, stoppes alle ventende overførsler også.

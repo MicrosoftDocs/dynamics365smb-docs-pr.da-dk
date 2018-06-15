@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 09/08/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f445ae26c3586016b350cfee2c594a4f7d636595
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 09866f6774af5b2d9644015e986772052146d901
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="manage-employee-absence"></a>Administrere medarbejderfravær
@@ -72,5 +72,5 @@ Du kan registrere medarbejderfravær dagligt eller med andre intervaller, der op
 [Administrere personale](hr-manage-human-resources.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)
+[Ændre, hvilke funktioner der vises](ui-experiences.md)
 

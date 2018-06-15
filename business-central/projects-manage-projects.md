@@ -13,10 +13,10 @@ ms.search.keywords: projects
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f13343d8f0a18832c9f1ed16f02e79f9a59b5f12
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 545c09e5b462dd712dffa68a27341b1acde17071
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="project-management"></a>Projektstyring
@@ -28,7 +28,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 | Hvis du vil | Se |
 | --- | --- |
-| Opret sager, tildel sagsopgaver og forbered sagsplanlægningslinjer. |[Oprette sager](projects-how-create-jobs.md) |
+| Oprette sager, tildele sagsopgaver og forberede sagsplanlægningslinjer. |[Oprette sager](projects-how-create-jobs.md) |
 | Alloker ressourcer til sager, og administrer ressourcepriser. |[Bruge ressourcer til sager](projects-how-use-resources.md) |
 | Opret en timeseddel med integreret sagsopgave og planlægningslinjer, og bogfør timeseddellinjer til en sagskladde. |[Bruge timesedler for sager](projects-how-use-time-sheets.md) |
 | Læg budget for ressourcer, der skal bruges i sager, og sammenlign det faktiske og vare- og ressourceforbrug med det budgetterede forbrug for at forbedre kvaliteten og omkostningseffektiviteten for fremtidige projekter. |[Administrere sagsbudgetter](projects-how-manage-budgets.md) |
@@ -40,7 +40,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="see-also"></a>Se også
 [Konfigurere projektstyring](projects-setup-projects.md)  
-[Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)      
+[Ændre, hvilke funktioner der vises](ui-experiences.md)      
 [Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)    
 [Finans](finance.md)  

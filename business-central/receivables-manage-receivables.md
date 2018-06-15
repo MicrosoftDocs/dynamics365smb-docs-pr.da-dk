@@ -10,25 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 08/10/2017
+ms.date: 04/30/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ffd3b31dcef871ceb30eae6a041f68a4972b2cb
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 01a195130a6834256b30efea8c06841c88af354d
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="managing-receivables"></a>Administrere tilgodehavender
-Almindelige trin i en økonomisk cyklus er at udligne bankkonti, hvilket indebærer, at du udligner betalinger til debitor- eller kreditorposter for at lukke salgsfakturaer og købskreditnotaer.  
+Almindelige trin i en økonomisk cyklus er at udligne bankkonti, hvilket indebærer, at du udligner indgående betalinger til debitor- eller kreditorposter for at lukke salgsfakturaer og købskreditnotaer som betalte.
+
+Mens de fleste kunder i B2B-miljøer betaler et stykke tid efter levering, og de bogførte salgsfakturaer forbliver åbne, indtil betalingen modtages, hvorefter afdelingen for tilgodehavender kan lukke (udligne) dem, kan nogle salgsfakturaer betales med det samme, for eksempel via PayPal. Disse fakturaer udlignes med det samme som betalte, når de bogføres og vises derfor ikke som betalinger, der skal behandles i Tilgodehavender. Du kan finde flere oplysninger i f.eks. [Fakturere salg](sales-how-invoice-sales.md).  
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du hurtigt registrere betalinger i vinduet **Betalingsudligningskladde** ved at importere en bankkontoudtogsfil eller et -feed. Betalingerne udlignes til åbne debitor- eller kreditorposter baseret på sammenligninger af data i betalingstekst og oplysninger i poster. Du kan gennemse og ændre de fundne data, før du bogfører kladden, og lukke bankposter for poster, når du bogfører kladden. Bankkontoen er udlignet, når alle betalinger er udlignet.
 
-Der findes imidlertid andre steder, hvor det er praktisk at udligne betalinger og afstemme bankkonti:  
+Der findes andre vinduer, hvor du kan udligne betalinger eller afstemme bankkonti:
 
-* Vinduet **Bankkontoafstemninger**, hvor du kan også kontrollere poster. Du kan finde flere oplysninger i [Afstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md).  
-* Vinduet **Betalingsregistrering**, hvor du kan udligne og manuelt kontrollere betalinger modtaget som kontant, check eller banktransaktion ud fra en genereret liste over ubetalte salgsdokumenter. Bemærk, at denne funktion kun er tilgængelig for salgsdokumenter.  
-* Vinduet **Indbetalingskladde**, hvor du manuelt bogfører indbetalinger til den relevante finans- eller debitorkonto eller anden konto ved at indtaste en betalingslinje. Du kan enten udligne indbetalingen eller refunderingen til en eller flere åbne poster, før du bogfører indbetalingskladden, eller fra debitorposterne.  
+* Vinduet **Bankkontoafstemninger**, hvor du afstemmer bankkonti ved at sammenligne indlæste kontoudtogslinjer med dit systems bankkontoposter. Her kan du også afstemme checkindbetalinger. Du kan finde flere oplysninger i [Afstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md). Her kan du ikke udligne betalinger.
+* Vinduet **Betalingsregistrering**, hvor du manuelt kan udligne betalinger modtaget som kontant, med check eller via banktransaktion ud fra en genereret liste over ubetalte salgsdokumenter. Bemærk, at denne funktion kun er tilgængelig for salgsdokumenter. Her kan du kan ikke anvende udgående betalinger, og du kan ikke afstemme bankkonti.
+* Vinduet **Indbetalingskladde**, hvor du manuelt bogfører indbetalinger til den relevante finans- eller debitorkonto eller anden konto ved at indtaste en betalingslinje. Du kan enten udligne indbetalingen eller refunderingen til en eller flere åbne poster, før du bogfører indbetalingskladden, eller fra debitorposterne. Her kan du ikke afstemme bankkonti.  
 
 En andet område af administration af tilgodehavender er at indhente udestående beløb, herunder gebyrer, og udstede rykkere. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder også måder at gøre dette på. Du kan finde flere oplysninger under [Indhente udestående beløb](receivables-collect-outstanding-balances.md).  
 

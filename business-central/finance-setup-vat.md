@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ For at oprette momsregistreringsnumre, skal du gøre følgende:
 2. Vælg landet eller området, og vælg derefter handlingen **SE/CVR-nr.formater**.
 3. I feltet **Formater** skal du angive formatet ved at angive et eller flere af følgende tegn:  
 
-    |----|----| | # | Kræver et etcifret tal. | | @ | Kræver et bogstav. Der skelnes ikke mellem store og små bogstaver. | | ? | Tillader alle tegn. |
+* # <a name="--requires-a-single-digit-number"></a>- Kræver et etcifret tal.
+* @ - Kræver et bogstav. Der skelnes ikke mellem store og små bogstaver.
+* ? - Tillader alle tegn.
 
     > [!Tip]
     > Du kan bruge andre tegn, så længe de er altid findes i formatet for landet eller området. Hvis du f.eks. vil medtage et punktum eller en bindestreg mellem sæt af tal, kan du angive formatet som ##.####.### eller @@-###-###.  

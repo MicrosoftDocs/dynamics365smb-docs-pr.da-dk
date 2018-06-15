@@ -12,10 +12,10 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 8cb2c0f8984a77b21fdf8d41875ada5506c8f4aa
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 55de1952941f6f8d01d76c657fcf8c48d7ada6b1
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central ved brug af udvidelser
@@ -71,7 +71,7 @@ Microsoft tilbyder følgende udvidelser:
 ## <a name="see-also"></a>Se også
 [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md)  
-[Overførsel af virksomhedsdata fra andre økonomisystemer](upload-data.md)  
+[Overførsel af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfiguration af den britiske GetAddress.io-postnummerudvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra andre leverandører](ui-extensions-other.md)  
 [Introduktion](product-get-started.md)  

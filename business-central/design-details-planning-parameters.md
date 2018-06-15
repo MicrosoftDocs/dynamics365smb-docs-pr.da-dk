@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/01/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90b85a099b2b52930299a27b39ed96be9bade624
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: d5606d6e8714c96a675f4d5f4074e431aa818ec7
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designoplysninger: Planlægningsparametre
@@ -76,7 +76,7 @@ En planlægger vil, for at få en rationel forsyningsplan, finjustere planlægni
 |---------------------------------|---------------------------------------|  
 |**Ændringsperiode**|Dette felt bruges til at afgøre, om aktionsmeddelelsen skal omplanlægge en eksisterende ordre eller annullere den og oprette en ny ordre. Den eksisterende ordre bliver ændret i én ændringsperiode før den aktuelle forsyning og indtil én ændringsperiode efter den aktuelle forsyning.|  
 |**Akkumuleringsperiode for lot**|Dette felt bruges sammen med genbestillingsmetoden Lot-for-Lot, til at akkumulere flere forsyningsbehov i én forsyningsordre. Fra datoen for den første planlagte forsyning akkumulerer systemet alle forsyninger i den følgende akkumuleringsperiode for lot i én forsyning, der placeres på datoen for den første forsyning. Behov, som er uden for akkumuleringsperioden for lot, er ikke omfattet af denne forsyning.|  
-|**Bufferperiode**|Dette felt bruges til at undgå mindre omlægning af eksisterende forsyningsordrer i fremtiden. Ændringer fra forsyningsdatoen til en bufferperiode fra forsyningsdatoen genererer ikke nogen aktionsmeddelelser.<br /><br /> Derfor vil et positivt delta mellem den foreslåede nye forsyningsdato og den oprindelige forsyningsdato altid være større end bufferperioden.|  
+|**Bufferperiode**|Dette felt bruges til at undgå mindre omlægning af eksisterende forsyningsordrer i fremtiden. Ændringer fra forsyningsdatoen til en bufferperiode fra forsyningsdatoen genererer ikke nogen aktionsmeddelelser.<br /><br /> Bufferperioden angiver en tidsperiode, hvor planlægningsprogrammet ikke skal foreslå at omplanlægge eksisterende forsyningsordrer fremad. Dette begrænser antallet af ubetydelige forsalg til ny planlægning for eksisterende forsyning til en senere dato, hvis ændringsdatoen er inden for bufferperioden.<br /><br /> Derfor vil et positivt delta mellem den foreslåede nye forsyningsdato og den oprindelige forsyningsdato altid være større end bufferperioden.|  
 
 Tidspunktet for ændringsperiode, bufferperiode og akkumuleringsperiode for lot er baseret på en forsyningsdato. Intervallet er baseret på planlægningens startdato, som vist i følgende illustration.  
 

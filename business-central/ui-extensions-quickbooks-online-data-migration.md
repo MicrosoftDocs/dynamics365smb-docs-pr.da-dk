@@ -11,10 +11,10 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f84d2bcccb8876588e7292708ba2cc98fcbe50fb
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: a53e9b4199a133678dfa8d001875df7dcdc1a37e
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -64,6 +64,6 @@ Der er især et par ting, du skal gøre:
 * Kontroller primosaldi for konti i finansbogholderiet. QuickBooks Online gemmer ikke den aktuelle saldo for alle konti, så det kan være nødvendigt at rette primosaldi.
 
 ## <a name="see-also"></a>Se også
-[Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
+[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 

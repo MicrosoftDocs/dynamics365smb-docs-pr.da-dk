@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 01/25/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 68355bc0b4afe4fcdd92f9cdb190d4b5c0d845df
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 6d1c65fd226526912d83bb8acec2cae0ff19de86
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Fejlfinding af integration med Microsoft Flow - URL-adresse til anmodning er for lang
@@ -48,7 +48,7 @@ Hvis den tabel, der bruges som datakilde har 4.000 poster, skal du f.eks. angive
 ## <a name="see-also"></a>Se også
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i et automatisk workflow](across-how-use-financials-data-source-flow.md)  
 [Introduktion](product-get-started.md)  
-[Importere virksomhedsdata fra andre økonomisystemer](upload-data.md)  
+[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Administrere brugere og deres rettigheder](ui-how-users-permissions.md)    
 [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finans](finance.md)  

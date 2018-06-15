@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 05/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6054136dc0722be673b5a7593a371cbec2948e6c
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 78d97c11662f2e05e17e15213406076ae5bba7a6
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Oprette bedste fremgangsmåder: Planlægningsparametre
@@ -26,8 +26,7 @@ Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds
 |-----------------|-------------------|-------------|  
 |Genbestillingsmetode||Du kan finde flere oplysninger i [Oprette bedste fremgangsmåder: Genbestillingspolitikker](setup-best-practices-reordering-policies.md).|  
 |Reserver|Vælg **Aldrig**, når varen er planlagt ved hjælp af et genbestillingspunkt.<br /><br /> I produktion skal du vælge **Aldrig** for at tillade planlægningssystemet at dække alle behov.<br /><br /> Vælg **Eventuelt** for varer, du vil reservere til kunder med topprioritet.<br /><br /> Vælg **Altid** for ikke-entydige elementer som elementer af typen Diverse, der er indgået til specifikke krav.|Reservationer modvirker generelt formålet med planlægning, der er at skabe balance mellem efterspørgsel og udbud. Derfor skal varer, der er angivet til planlægning normalt ikke reserveres.<br /><br /> Hvis brugeren reserverer en lagerantal til fremtidige behov, forstyrres planlægningsgrundlaget, og genbestillingspunktet fungerer muligvis ikke korrekt. Selvom det planlagte beholdningsniveau er acceptabelt med hensyn til genbestillingspunkt, er mængderne muligvis ikke tilgængelige på grund af reservationen.|  
-|Bufferperiode|Indstil med hensyn til leverandørens fleksibilitet.|Hvis leverandøren accepterer ordreændringer i sidste øjeblik, skal du bruge en længere periode. Hvis leverandøren kræver fast planlægning, skal du afkorte dit tidsrum så meget som muligt.<br /><br /> Du kan finde oplysninger om den globale opsætning i [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md).|  
-|Buffermængde||Du kan finde oplysninger om den globale opsætning i [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md).|  
+|Bufferperiode|Indstil med hensyn til leverandørens fleksibilitet.<br /><br /> En længere periode gør det muligt at yde bedre kundeservice, men medfører også flere ændringshandlinger.|Hvis leverandøren accepterer ændringer af ordrer i sidste øjeblik, skal du bruge en længere periode, men vær forberedt på flere ændringshandlinger. Hvis leverandøren kræver fast planlægning, skal du afkorte perioden så meget som muligt.<br /><br /> Du kan finde oplysninger om feltet **Bufferperiode** under [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md).|  
 |Medtag lager|Vælg altid, når du bruger en Lot-for-Lot genbestillingsmetode.|Vælg ikke kun i særlige situationer, f.eks når lagervarer ikke er salgbare.|  
 |Sikkerhedstid|Indstillingen skal ligge mellem 1D og 6D.<br /><br /> Angiv en sikkerhedstid på mindst én dag for at sikre, at leverancer er tilgængelige på dagen, før der er behov for dem.<br /><br /> Hvis du bruger en ny leverandør, skal du definere en længere tid, indtil deres leveringsevne er kendt.<br /><br /> Definer længere sikkerhedstider for kritiske komponenter i produktion.|Levering, som er planlagt af systemet for at undgå, at varen ikke er på lager, vil ankomme på samme dag, som varen ikke længere er på lager. Dette kan være flere timer for sent, hvis der f.eks. er efterspørgsel om morgenen, og leveringen ankommer om eftermiddagen. **Bemærk:** Feltet **Sikkerhedstid** bruger basiskalenderen. Derfor er 14 D ikke nødvendigvis to uger.|  
 |Sikkerhedslager|Bruges til varer med store efterspørgselsudsving.<br /><br /> I produktion, bruges til kritiske komponenter.<br /><br /> Bruges til varer, der er omfattet af serviceaftaler.|Hvis feltet **Genbestillingspunkt** ikke er udfyldt, så fungerer sikkerhedslageret også som et genbestillingspunkt.|  

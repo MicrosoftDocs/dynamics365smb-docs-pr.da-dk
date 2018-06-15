@@ -1,8 +1,6 @@
 ---
 title: Tildele serienumre og lotnumre til varer til sporing | Microsoft Docs
 description: "Du kan tilføje serienumre og lotnumre til ethvert udgående eller indgående dokument, og dets posterede varesporing vises i de tilknyttede vareposter."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2017
+ms.date: 04/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dcfa7f47202472e43f0d57cee53f7c0a954dd12a
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 2e764a915f1c4b258f0163f355653be81924ba96
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbejde med serienumre og lotnumre
@@ -44,7 +42,7 @@ I vinduet **Varesporingslinjer** vises et advarselsikon i feltet **Lotnr.dispone
 
 I vinduerne **Serienr./lotnr. - liste**, **Serienr./lotnr. - disponering** og **Varesporing - vælg poster** vises oplysninger om, hvor mange af en vare der bruges. Dette omfatter følgende oplysninger.
 
-|Felt|Description|
+|Felt|Beskrivelse|
 |-----|-----------|  
 |**I alt**|Det samlede antal varer på lager|
 |**Ønsket antal i alt**|Det samlede antal varer, der ønskes til brug i dette og andre dokumenter|
@@ -62,13 +60,17 @@ En varesporingskode afspejler de forskellige overvejelser, som en virksomhed ska
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Klik på oversigtspanelet **Serienr.** og **Lotnr.** for at definere varesporingsmetoder efter henholdsvis serienummer og lotnummer.  
 
+> [!NOTE]  
+>   Hvis du vil spore bestemte varer eller bestemte partier i hele deres levetid, skal du vælge henholdsvis feltet **Serienr.specifik sporing** og feltet **Lotspecifik sporing**. Det betyder, at når du håndterer en udgående enhed for en vare med denne varesporingskode, skal du altid angive, hvilket eksisterende serienummer eller hvilket eksisterende lotnummer der skal håndteres. Det betyder, at når du sælger en vareenhed, skal den holdes op mod et specifikt serienummer eller et specifikt lotnummer på lageret. Med andre ord følger et serie- eller lotnummer, der knyttes til varen, når den indføres på lageret, også den pågældende varetype ud af lageret.  
+Da dette specielle opsætningsfelt dækker alle mulige transaktioner med varen, markeres de individuelle indgående og udgående felter også. De individuelle ind- og udgående felter har imidlertid intet at gøre med udligning på lageret – de angiver blot din virksomheds arbejdsgang for, hvornår der skal tilknyttes varesporingsnumre.  
+
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Sådan oprettes udløbsregler for serienumre eller lotnumre  
 Det kan være praktisk at angive særlige udløbsdatoer og regler i varesporingskoden. Dette gør det muligt at holde styr på, hvornår bestemte serie- og lotnumre udløber.
 
 1. Vælg en eksisterende varesporingskode, og vælg derefter handlingen **Rediger**.  
 2.  Markér følgende afkrydsningsfelter i oversigtspanelet **Diverse**.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Nøje bogføring af udløbsdato**|Angiver, at den udløbsdato, der blev knyttet til varesporingsnummeret ved modtagelse på lageret, skal overholdes, når varen forlader lageret.|  
     |**Man. angivelse af udløbsdato**|Angiver, at du skal angive en udløbsdato manuelt på varesporingslinjen.|  
@@ -80,7 +82,7 @@ Det kan være praktisk at angive særlige garantier for bestemte varer i varespo
 1. Vælg en eksisterende varesporingskode, og vælg derefter handlingen **Rediger**.  
 2.  Udfyld feltet **Garantiophørsformel** i oversigtspanelet **Diverse**, og marker derefter afkrydsningsfeltet på følgende måde.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Garantiophørsformel**|Angiver den sidste dag for garantien på varen.|  
     |**Man. angivelse af garantiophør**|Angiver, at du manuelt skal angive en garantidato på varesporingslinjen.|  

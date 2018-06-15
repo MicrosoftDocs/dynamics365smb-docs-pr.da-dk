@@ -10,69 +10,72 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 06/02/2017
+ms.date: 04/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5f3557de5d69b8f64f85fabe4a60ecbddef276eb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: a86d58c81bdee20ffd33273ca069d9fae640df96
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Udvidelse af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-Der er mange fordele ved at bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som platform for appudviklere:
+Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er en løsning til virksomhedsadministration, som hjælper virksomheder med at sammenkæde deres finansielle oplysninger, salgs-, service- og driftsoplysninger for at strømline deres forretningsprocesser, forbedre interaktioner med kunderne og træffe bedre beslutninger. [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er tilgængelig i skyen og for brugere på tværs af flere forskellige enheder, som altid er opdaterede. Ved hjælp af denne moderne virksomhedsplatform du kan nemt og hurtigt tilpasse, udvide og udvikle programmer, så de passer til dine behov – med begrænset eller ingen kodeudvikling.  
 
-* Gør [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], en gennemprøvet Microsoft-onlineløsning, endnu bedre med din viden  
-* Udnyt Business Central-mærket – et mærke, som millioner af brugere kender og har tillid til  
-* Nå flere kunder til dine virksomhedsapps med [Microsoft AppSource](https://appsource.microsoft.com/)  
+Der er mange fordele ved at bruge [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som platform for appudviklere, f.eks.:
+
+* Kom godt i gang med en problemfri onboardingoplevelse 
+* Brug Microsofts Go-To-Market-tjenester
+* Tilpas siden med appliste 
+* Opret direkte forbindelse til beslutningstagere og nå flere debitorer
+* Øget forretningsværdi og forøget volumen af handlen med eksisterende og nye kunder
 * Opnå mere ved hjælp af en platform, som giver en moderne oplevelse og skalerbarhed  
+* Få praktisk indsigt i dine lister via Cloud Partner-portalen eller Office-appudgivelsesprocessen
 * Bundt med intelligente business-apps som PowerApps, Flow, Power BI, Cortana Intelligence og mange andre  
 
-## <a name="to-bring-your-included365finincludesd365finmdmd-app-into-appsource"></a>Sådan indlæser du din [!INCLUDE[d365fin](includes/d365fin_md.md)]-app i AppSource:
-+ Opret dine konti  
-Vi vil gerne give dig adgang til alle de nødvendige værktøjer. Du skal have et Microsoft-Partner Network-id, en udviklerkonto og en PSBC-konto.
-Du kan finde flere oplysninger om, hvordan du kan få dine konti på plads, i dokumentet [Oprette dine konti.pdf](https://go.microsoft.com/fwlink/?linkid=841514) fra Download Center.
+Overfør dine [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tjenester til Microsoft AppSource som: 
 
-+ Tal med os om din app ide  
-Del din [!INCLUDE[d365fin](includes/d365fin_md.md)]-appide med os på Microsoft AppSource! Når du har sendt din ide, tager vi kontakt til dig og giver dig alt det, du behøver for at begynde at arbejde på din app.
-Du kan finde flere oplysninger om alle trin i dokumentet [Tal med os om din appide.pdf](https://go.microsoft.com/fwlink/?linkid=841515) fra Download Center.
+**Individuelle apps** – hvor du tilbyder din erfaring inden for branchen.  
+**Pakkede konsulenttjenester** – hvor du tilbyder færdige engagementspakker.
 
-+ Udvikl de tekniske aspekter af din app    
-Når du har oprettet dit eget miljø til udvikling af apps, kan du udvikle din app.
-Du kan finde flere oplysninger i forbindelse med udvikling af de tekniske aspekter af din [!INCLUDE[d365fin](includes/d365fin_md.md)] app i dokumentet [Udvikle tekniske aspekter af din app.pdf](https://go.microsoft.com/fwlink/?linkid=841516) fra Download Center.
+Med de nye udviklingsværktøjer kan du aktivere oprette udvidelser til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-brugere. Hvis du allerede vil lære de nye værktøjer at kende eller læse mere om Extensions 2.0, kan du se [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
-+ Udvikl marketingaspekterne af din app  
-Blot at vise dine apps funktioner og funktionalitet konverterer ikke kundeemner til kunder. Du kan finde flere oplysninger om, hvordan du bedst markedsfører din app på AppSource-markedspladsen, ved at hente dokumentet [Udvikle marketingaspekterne af din app.pdf](https://go.microsoft.com/fwlink/?linkid=841518) fra Download Center.
+Find oplysninger om apps og konsulentbistand, der aktuelt findes på [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
-+ Publicere din app  
-Før vi publicerer appen, vil vi sammen med dig sikre, at din app er iøjnefaldende på Microsoft AppSource og din landingsside. Vi skal validere din app for at sikre, at den er markedsført hensigtsmæssigt, er pålidelig og opdateret.
-Du kan finde flere oplysninger om valideringen, og hvordan du publicerer din app, ved at hente dokumentet [Publicere din app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) fra Download Center.
+For at hjælpe brugerne hurtigt i gang har Microsoft tilføjet et katalog over konsulenttjenestetilbud til løsninger, der er baseret på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], Power BI og PowerApps til AppSource. Få mere at vide om [Konsulenttjenester](/dynamics-nav/developer/readiness/readiness-consulting).
 
-## <a name="learn-more-about-extensions-v20"></a>Yderligere oplysninger om udvidelser v2.0
-De nye udviklingsværktøjer, som gør det muligt for dig at opbygge udvidelser v2.0, er aktuelt i Vis udskrift og aktiveres snart i Business Central-tjenesten. Hvis du allerede vil blive fortrolig med de nye værktøjer eller læse mere om udvidelser 2.0, kan du se [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+## <a name="choosing-which-services-to-offer-with-included365finlongincludesd365finlongmdmd"></a>Vælge de tjenester, du vil tilbyde, med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] 
 
-## <a name="need-help"></a>Har du brug for hjælp?
-Hvis du vil have rådgivning, kan du kontakte en appekspert på listen nedenfor:
+### <a name="integrate-a-3rd-party-solution"></a>Integrere en tredjepartsløsning
+[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] viser mange API'er, der kan bruges med [Connect-apps](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) til at foretage en gnidningsløs integration mellem tjenesten og [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Du kan samle dine tjenester med en [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] og give kunderne en integreret oplevelse. Få mere at vide om [Integrere med en tredjepartsløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
 
-* Cloud Ready-software, [http://cloud-ready-software.com](http://cloud-ready-software.com/)  
-* Dynamics App Alliance, [http://dynamicsappalliance.com](http://dynamicsappalliance.com/)
+### <a name="development-of-a-vertical-solution"></a>Udvikling af en vertikal løsning
+Opret en app, der er specialiseret til en bestemt branche. Med [Appen Integrer](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-embed-apps) kan du udvide og tilpasse det eksisterende [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-program og forbedre slutbrugerens oplevelse med en bestemt branche-funktionalitet ved hjælp af de nye og moderne udviklingsværktøjer og Extensions version 2.0. Få mere at vide om [Udvikling af en vertikal løsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-vertical).
 
-Partnere på denne liste:
+### <a name="development-of-a-horizontal-solution"></a>Udvikling af en horisontal løsning
+Udvid oplevelsen og funktionaliteten af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ved at oprette en [Tilføjelsesprogram-app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps), som kan integreres med brugeroplevelsen af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Opret en brugergrænseflade, der er baseret på, hvordan du gerne vil have dine data til at strømme mellem [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] og dine tjenester. Få mere at vide om [Udvikling af en horisontal løsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal). 
 
-* Vises alfabetisk  
-* Yder hjælp til eller har bistået mindst tre partnere med at placere apps i Microsoft AppSource  
-* Har en tilgængelig pakket service (som er opført på deres websted) om de appretningslinjer, de leverer  
+### <a name="development-of-a-localization-solution"></a>Udvikling af en lokaliseringsløsning
+Overhold lokale lovgivningsmæssige krav kompetencer ved at udvikle til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], som tilpasser funktionsområder til det lokale markeds krav sammen med [Dynamics 365-oversættelsestjeneste](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Juster kernekompetencerne i de lokale lovgivningsmæssige krav, og forlæng eksisterende funktioner for at kunne konkurrere på dit lokale marked. Få mere at vide om [Udvikling af en oversættelsesløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
-Hvis du mener, at du skal stå som appservice-partner, kan du kontakte [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
+### <a name="reseller-solution"></a>Forhandlerløsning
+Da hver virksomhed er unik, kan du med [Tilpasse lejere](/dynamics-nav/developer/readiness/readiness-customizing-tenants) matche, hvordan du arbejder med dine strømlinede virksomhedsprocesser og din terminologi, og hvordan dine medarbejdere oprette forbindelse og samarbejder. Desuden kan du forhandle og tilpasse [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] til dine kunders individuelle behov ved at yde [Konsulenttjenester](/dynamics-nav/developer/readiness/readiness-consulting). Eller du kan bruge Microsoft Flow, Power Apps og Power BI til at oprette [Tilpassede workflows](/dynamics-nav/developer/readiness/readiness-no-code), apps og rapporter til brancheindsigt uden at skulle skrive kode. Få mere at vide om [Dynamics 365 Reseller (VAR'er)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller). 
 
-## <a name="questions"></a>Spørgsmål?
-Disse [Ofte stillede spørgsmål](https://go.microsoft.com/fwlink/?linkid=841520) besvarer de mest almindelige spørgsmål om apps til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Hvis du har yderligere spørgsmål, kan du kontakte Microsoft Danmark eller sende en e-mail til [d365-smb@microsoft.com](mailto:d365-smb@microsoft.com).
+## <a name="where-do-i-learn-more"></a>Hvor kan jeg få mere at vide?
+Hvis du vil vide mere om, hvordan du tilbyder Microsoft AppSource-konsulenttjenester, skal du vælge følgende links: 
 
-## <a name="further-resources"></a>Flere ressourcer
-Du kan finde flere ressourcer til appudvikling på vores [DLP-emneside](https://mbspartner.microsoft.com/BFI/Topic/76) DLP-emneside. Du kan vælge imellem dem, der er valgt nedenfor:
--   [Brugerregistrering og efterfølgende fakturering ](http://download.microsoft.com/download/3/2/0/320D0286-8810-4A8F-B7DD-523ED87D441B/FAQ on apps for Dynamics 365 for Financials.pdf)
+[Tilbyde AppSource-rådgivning](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
+[Partnerberettigelse](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
+[Partnerudnævnelsesformular](https://appsource.microsoft.com/en-us/partners/list-consulting-service)  
 
+## <a name="the-ready-to-go-program"></a>Programmet Klar til at gå i gang
+Klar til at gå i gang-programmet er designet til at hjælpe dig i at overføre dine Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tilbud til Microsoft Appsource. Programmet indeholder: 
 
+- [Onlinelæring](http://aka.ms/ReadyToGoOnlineLearning)
+- [Uddannelse og workshops](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
+- [Microsoft Collaborate-platform](http://aka.ms/Collaborate)
+
+Få flere oplysninger om, hvordan du kan oprette et [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tilbud i detaljerne for [Programmet Klar til at gå i gang](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Hvis du har spørgsmål eller kommentarer til **Klar til at gå i gang**-programtilbuddet, kan du [kontakte os](mailto:dyn365bep@microsoft.com). 
 
 ## <a name="see-also"></a>Se også
 [Introduktion](product-get-started.md)  

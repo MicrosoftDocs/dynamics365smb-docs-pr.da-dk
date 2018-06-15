@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ændring af grundlæggende indstillinger
-I vinduet **Mine indstillinger** kan du se og ændre grundlæggende indstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I vinduet **Mine indstillinger** kan du se og ændre grundlæggende indstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ændringer, du foretager, påvirker kun dit arbejdsområde, ikke arbejdsområder for andre brugere.  
 
 ## <a name="role-center"></a>Rollecenter
-Rollecenteret repræsenterer startsiden, der er beregnet til rollens behov. Rollecenteret giver et overblik over virksomheden, som afspejler oplysningerne, opgaverne og prioriteringen i din rolle.
+Rollecenteret repræsenterer startsiden, et startskærmbillede, der er beregnet til en bestemt rolles behov i en organisation. Afhængigt af din rolle giver Rollecenter dig et overblik over arbejde, din afdeling eller personlige opgaver. Du kan også navigere til de daglige opgaver, og find arbejde, der er tildelt til dig.
 
-Øverst i rollecenteret kan du se en navigationslinje, som giver dig nem adgang til typiske enheder for rollen, f.eks. debitorer, kreditorer, varer osv.
+-   Øverst i navigationen kan du skifte mellem debitorer, kreditorer, varer og andre vigtige lister med oplysninger. Her kan du også starte opgaver, f.eks. oprette en ny salgsfaktura direkte fra Rollecenter.
 
-Hvad der vises i området med hovedindholdet afhænger af det specifikke rollecenter. I de fleste rollecentre kan du f.eks. finde aktivitetsfelter, der viser aktuelle data, og der kan klikkes på dem for at få nem adgang til det valgte dokument. Nøgletal kan konfigureres til at vise et valgt diagram for en grafisk visning af f.eks. pengestrøm eller indtægter og udgifter. Nogle rollecentre giver dig mulighed at oprette en liste over foretrukne enheder, f.eks. debitorer og kreditorer, eller få vist Rapportindbakken.
+-   I centeret kan du finde **Aktiviteter**. Aktiviteter viser aktuelle data, og du kan klikke eller trykke på dem for at få vist mere detaljerede oplysninger. Nøgletal kan konfigureres til at vise et valgt diagram for en grafisk visning af f.eks. pengestrøm eller indtægter og udgifter. Du kan også oprette en række favoritdebitorer på startsiden for konti, som du handler med ofte eller skal have særlig opmærksomhed på.
 
 ### <a name="to-change-role-center"></a>Sådan ændres et rollecenter
 Standardrollecenteret er **Virksomhedsleder**, men du kan vælge et andet rollecenter, der passer bedre til dine behov.
@@ -55,10 +55,16 @@ Standardarbejdsdatoen er normalt dags dato. Du skal muligvis midlertidigt ændre
 ## <a name="region"></a>Land/område
 Indstillingen **Område** bestemmer, hvordan datoer, klokkeslæt, tal og valutaer vises og formateres.   
 
+
+## <a name="language"></a>Sprog
+Ændrer det viste sprog. Dette felt vises kun, hvis der er mere end ét sprog, du kan vælge mellem. 
+
+Det første sprog afhænger enten af administratoren eller af browserindstillingerne, når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det sprog, du har angivet, vil blive brugt på alle enheder, som du logger på fra, f.eks. en telefon eller tablet. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Ændre, hvornår jeg modtager notifikationer
 Vælg dette link for at få vist eller ændre de notifikationer, du får om bestemte hændelser eller ændringer af status, når du er ved at fakturere en kunde, der har et forfaldent beløb, eller den disponible lagerbeholdning er lavere end det antal, du er ved at sælge. Du kan finde flere oplysninger under [Smarte notifikationer](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse](ui-experiences.md)  
+[Ændre, hvilke funktioner der vises](ui-experiences.md)  
 
