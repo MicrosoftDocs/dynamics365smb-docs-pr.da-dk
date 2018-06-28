@@ -49,5 +49,5 @@ I følgende tabel vises nogle af den generelle funktionalitet med links til emne
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

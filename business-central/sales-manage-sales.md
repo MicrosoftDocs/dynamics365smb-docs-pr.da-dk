@@ -61,5 +61,5 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -64,5 +64,5 @@ For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365f
 [Introduktion](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

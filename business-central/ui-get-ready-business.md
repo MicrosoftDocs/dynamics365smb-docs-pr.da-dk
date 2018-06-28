@@ -68,5 +68,5 @@ Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs-
 [Administrere brugere og deres rettigheder](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
