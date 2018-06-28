@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4f27c9ad628fa66f692a862e59cd0b306b02c6c
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: c1cc727686ac51d854ee90a76a44c0c6e762e7cd
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="purchasing"></a><span data-ttu-id="be02e-103">Indkøb</span><span class="sxs-lookup"><span data-stu-id="be02e-103">Purchasing</span></span>
@@ -51,5 +51,5 @@ ms.lasthandoff: 03/22/2018
 [<span data-ttu-id="be02e-141">Generelle forretningsfunktioner</span><span class="sxs-lookup"><span data-stu-id="be02e-141">General Business Functionality</span></span>](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

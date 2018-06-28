@@ -11,10 +11,10 @@ ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 04/23/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba50e74b51148e42dd25752ade5a37d0e3285509
-ms.openlocfilehash: c9595cb42ff388544af07d8101d3d43f0eb639f4
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: dd01d19e057119deaf9541ee2a86b46b750ee0a9
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="denmark-local-functionality"></a><span data-ttu-id="dbcd7-103">Lokal funktionalitet for Danmark</span><span class="sxs-lookup"><span data-stu-id="dbcd7-103">Denmark Local Functionality</span></span>
@@ -34,5 +34,5 @@ ms.lasthandoff: 04/26/2018
 <span data-ttu-id="dbcd7-115">[Arbejde med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="dbcd7-115">[Working with [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)</span></span>   
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](../../includes/training_link_md.md)]
+ 
 
