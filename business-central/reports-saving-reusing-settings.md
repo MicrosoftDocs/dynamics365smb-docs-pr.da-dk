@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fcfbf5d9c66df986e34e68d98888042d83a53481
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrere gemte indstillinger i rapporter
@@ -22,7 +22,7 @@ Afhængigt af den rapport, der køres, kan du få vist en side, hvor du kan angi
 
 Du kan se de gemte indstillinger, der er tilgængelige for en rapport, i afsnittet **Gemte indstillinger** på rapportanmodningssiden.  
 
-## <a name="to-apply-saved-settings-to-a-report"></a>Sådan anvendes gemte indstillinger til en rapport
+## <a name="apply-saved-settings-to-a-report"></a>Anvende gemte indstillinger til en rapport
 1. Åbn rapporten.
 
    Rapportanmodningssiden vises.    
@@ -30,7 +30,7 @@ Du kan se de gemte indstillinger, der er tilgængelige for en rapport, i afsnitt
 
    Afsnittet **Gemte indstillinger** vises kun, hvis rapporten er blevet kørt før, eller hvis der findes poster for gemte indstillinger. Posten for gemte indstillinger, som kaldes **Sidst anvendte indstillinger og filtre**, er altid tilgængelig. Disse indstillinger er de værdier for indstillinger og filtre, som blev brugt, sidste gang du kørte rapporten.
 
-## <a name="administer-saved-report-settings-for-users"></a>Administrere gemte rapportindstillinger for brugere
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Oprette og redigere gemte indstillinger for alle brugere
 Hvis du har de nødvendige tilladelser, kan du få vist, oprette og redigere de gemte indstillinger for alle rapporter for alle brugere i virksomheden. Du kan tildele gemte indstillinger for en rapport til enkelte brugere eller alle brugere i virksomheden.
 
 Du administrerer gemte indstillinger fra side 1506 **Rapportindstillinger**. Du åbner denne side ved at vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Rapportindstillinger** og derefter vælge det relaterede link.

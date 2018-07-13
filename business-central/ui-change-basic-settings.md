@@ -1,6 +1,6 @@
 ---
-title: "Vise og redigere grundlæggende indstillinger i Financials | Microsoft Docs"
-description: "Lær, hvordan du kan ændre nogle af de grundlæggende indstillinger i Financials, f.eks. rollecenteret, virksomheden eller arbejdsdatoen."
+title: "Vise og redigere grundlæggende indstillinger | Microsoft Docs"
+description: "Lær, hvordan du kan ændre nogle af de grundlæggende indstillinger i , f.eks. rollecenteret, virksomheden eller arbejdsdatoen."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 30dcd44d84ecca873de7b3a0401325377987324f
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ændring af grundlæggende indstillinger

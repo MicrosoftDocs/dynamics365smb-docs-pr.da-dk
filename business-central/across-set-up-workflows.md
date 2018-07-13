@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 02/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d2301b31308c1300961d78478ce1ada807eddeab
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: 1c98e4473a1c19aac846927e2eab56493f9a0a08
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="setting-up-workflows"></a>Opsætte workflows
@@ -48,5 +48,5 @@ Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, de
  [Anvende workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
  [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Arbejde med Financials](ui-work-product.md)
+ [Arbejde med Business Central](ui-work-product.md)
 

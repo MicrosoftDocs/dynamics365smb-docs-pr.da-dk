@@ -1,8 +1,6 @@
 ---
 title: "Konfigurere bogføring af koncernintern transaktion | Microsoft Docs"
 description: "Opret koncerninterne kreditorer og debitorer som såkaldte koncerninterne partnere, og konfigurer en koncernintern (IC) kontoplan."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 418dac3a6d909d3eb07525ab537a94f85016ad19
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-intercompany"></a>Konfigurere mellemregning
@@ -52,20 +50,20 @@ Hvis din virksomhed er moderselskabet og har den definerende koncerninterne kont
 Hvis din virksomhed er et datterselskab, og du modtager en XML-fil med den fælles koncerninterne kontoplan, skal du følge proceduren: ""Sådan indlæses den koncerninterne kontoplan"".  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Sådan konfigureres den definerende koncerninterne kontoplan
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **IC-kontoplan**, og vælg derefter det relaterede link.
-2. I vinduet **Kontoplan** skal du angive hver konto på en linje i vinduet.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernintern kontoplan**, og vælg derefter det relaterede link.
+2. I vinduet **Koncernintern kontoplan** skal du angive hver konto på en linje i vinduet.  
 3. Hvis den koncerninterne kontoplan skal være identisk med eller ligge tæt opad din almindelige kontoplan, kan du få udfyldt vinduet automatisk ved at vælge handlingen **Kopier fra kontoplan**. Du kan redigere nye linjer efter behov.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Sådan udlæses den koncerninterne kontoplan
 Hvis dine koncerninterne partnere skal kunne indlæse den definerende kontoplan, skal du udlæse den til en fil.      
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **IC-kontoplan**, og vælg derefter det relaterede link.
-2. I vinduet **IC-kontoplan** skal du vælge handlingen **Udlæs** og derefter vælge knappen **Gem**.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernintern kontoplan**, og vælg derefter det relaterede link.
+2. I vinduet **Koncernintern kontoplan** skal du vælge handlingen **Udlæs** og derefter vælge knappen **Gem**.
 3. Angiv filnavnet og den placering, hvor du vil gemme XML-filen, og vælg derefter knappen **Gem**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Sådan indlæses IC-kontoplanen  
 Når der findes en fil til den definerende koncerninterne kontoplan (IC-kontoplan), kan koncerninterne partnere indlæse den for at sikre, at de har de samme konti.  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **IC-kontoplan**, og vælg derefter det relaterede link.  
-2. I vinduet **IC-kontoplan** skal du vælge handlingen **Indlæs**.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernintern kontoplan**, og vælg derefter det relaterede link.  
+2. I vinduet **Koncernintern kontoplan** skal du vælge handlingen **Indlæs**.  
 3. Vælg XML-filens navn og placering, og vælg derefter knappen **Åbn**.  
 
 Vinduet **IC-kontoplan** udfyldes med nye eller redigerede finanskontolinjer i overensstemmelse med den koncerninterne kontoplan i filen. Alle eksisterende, ikke-relaterede linjer i vinduet forbliver uændrede.
@@ -75,7 +73,7 @@ Når du har defineret eller indlæst den koncerninterne kontoplan, som du og din
 
 Hvis kontiene i den koncerninterne kontoplan har samme nummer som de tilsvarende konti i kontoplanen, kan du tildele kontiene automatisk.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **IC-kontoplan**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernintern kontoplan**, og vælg derefter det relaterede link.  
 2. Marker de linjer, som du vil tilknytte automatisk, og væg derefter handlingen **Knyt til konto med samme nr.**.  
 3. For hver IC-finanskonto, der ikke blev tilknyttet automatisk, skal du udfylde feltet **Finanskontonr. for tilknytning**.  
 

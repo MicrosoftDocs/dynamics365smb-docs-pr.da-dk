@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Adgang til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-eksempelversionen
@@ -43,7 +43,7 @@ Der er flere oplysninger i [Anvende designer](https://docs.microsoft.com/en-us/d
 3.  Vælg **Opret**. Der åbnes en fane, hvor du kan afslutte konfigurationen af din sandkasse.
 
     > [!Note]
-    > Hvis blokering af pop op-vinduer er aktiveret i din webbrowser, kan du ændre denne indstilling, så URL-adresser fra *.financials.dynamics.com*-adressen tillades.  
+    > Hvis blokering af pop op-vinduer er aktiveret i din webbrowser, kan du ændre denne indstilling, så URL-adresser fra *.businesscentral.dynamics.com*-adressen tillades.  
 
 4.  Når sandkassen er klar, vises siden Velkommen.  
 5.  Hvis du vil have yderligere oplysninger om scenarier, som du kan prøve i en sandkasse, f.eks. hvordan du udvikler udvidelser, skal du vælge linket **Få mere at vide**. Ellers kan du vælge **Luk** for at fortsætte til rollecenteret for din [!INCLUDE[d365fin](includes/d365fin_md.md)]-sandkasseforekomst.  
@@ -67,7 +67,7 @@ Der er flere oplysninger i [Anvende designer](https://docs.microsoft.com/en-us/d
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder værktøjer, du kan bruge til at implementere dit eget tilføjelsesprogram og integrere funktioner for at tilføje nye branchespecifikke oplevelser fra slutpunkt til slutpunkt eller integrere løsninger fra tredjepart. Du kan f.eks. bruge et API til at opbygge en forbundet app, der udveksler data mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og din løn-app. Forbundne apps kan også gør brug af udvidelser til at oprette sider, der skal bruges til installation, konfiguration eller til at understøtte app-specifikke funktioner. Du kan finde flere oplysninger i [Udvikling af apps til [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

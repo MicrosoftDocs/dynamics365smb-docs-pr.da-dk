@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/17/2018
+ms.date: 05/27/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: 0a94d94e58b2aa3f04639a00904b5370c91b1132
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 6ff186cadae5771f131a128b3d3e977800925670
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Ændre, hvilke funktioner der vises
@@ -36,7 +36,7 @@ Følgende tabel viser de oplevelser, der i øjeblikket er tilgængelige.
 | **Premium** |Viser alle handlinger og felter for alle forretningsfunktioner, herunder produktion og service.|
 
 > [!NOTE]  
-> De oplevelser, du kan vælge i [!INCLUDE[d365fin](includes/d365fin_md.md)] afhænger af din løsningslicens, der kaldes en plan. Du kan oplysninger om planerne **Essentiel** og **Premium** under [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på Microsoft Dynamics 365-marketingwebstedet.
+> De oplevelser, du kan vælge i [!INCLUDE[d365fin](includes/d365fin_md.md)] afhænger af din løsningslicens, der kaldes en plan. Du kan oplysninger om planerne **Essentiel** og **Premium** under [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på Microsoft Dynamics 365-marketingwebstedet. Se også [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensvejledningen](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
 
 > [!IMPORTANT]  
 > Alle almindelige brugere i en løsning skal have tildelt den samme plan, Essential eller Premium, før oplevelsen kan vælges til virksomheden. Derfor kan én bruger ikke få adgang til Premium-funktioner, hvis en eller flere andre brugere kun har adgang til Essential-funktioner. Dette gælder ikke for mere særlige brugere af typen teammedlem, intern administrator, ekstern bogholder og uddelegeret administrator, der kan hver tildeles en anden plan end andre brugere i løsningen.
@@ -65,8 +65,9 @@ Du kan nu fortsætte med at vælge den nye oplevelse.
 [Administrere brugere og deres rettigheder](ui-how-users-permissions.md)    
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]-licensvejledning](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

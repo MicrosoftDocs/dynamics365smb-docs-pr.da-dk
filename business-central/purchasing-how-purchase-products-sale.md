@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 01/25/2018
+ms.date: 06/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d5ae63043a6f296de22f71c401a5686f970ad3a0
+ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
+ms.openlocfilehash: 322f55f9233e89e6e6b5a710520b3e5931d9c44a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/20/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Købe varer til et salg
-Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.
+Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.  
+
 |Funktion|Beskrivelse|
 |--------|-----------|
 |**Opret købsordrer**|Fra en salgsordre kan du bruge denne funktion til at oprette en købsordre for hver leverandør af varer på salgsordren. Før du opretter købsordrerne, kan du redigere købsantallet. Der foreslås kun ikke-tilgængelige salgsantal.
@@ -57,7 +58,7 @@ Når du vil oprette en enkelt købsfaktura for en eller flere linjer i et salgsd
 5. Vælg enten **Alle linjer** eller **Valgte linjer**, og vælg derefter knappen **OK**.  
 6. På listen over kreditorer, der vises, skal du vælge den kreditor, du vil købe alle varerne fra, og derefter vælge knappen **OK**.
 
-    Der oprettes en købsfaktura, der indeholder en, flere eller alle linjer på salgsfakturaen.
+    Der oprettes en købsfaktura, der indeholder én, flere end én eller alle linjer på salgsfakturaen.
 7. Fortsæt med at behandle købsfakturaen, for eksempel ved at redigere eller tilføje købsfakturalinjer. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 
 ## <a name="see-also"></a>Se også

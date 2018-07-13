@@ -11,10 +11,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: 400b4710bd4e9a26db3b392646581f5225a2d245
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -47,6 +47,11 @@ Hvis du er tilmeldt til [!INCLUDE[d365fin](includes/d365fin_md.md)] fra siden me
 Du kan også lukke din konto på denne side. Vi anbefaler dog, at du kontrollerer, at du har eksporteret og slettet alle data først, for når du sletter din konto betyder det, at du mister adgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Du kan stadig markere personer som spærret af hensyn til beskyttelse af personlige oplysninger og eksportere, redigere eller slette transaktioner, som beskrevet andetsteds i denne artikel.  
+
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Eksportere data fra tabeller, der ikke er klassificeret af dataemnet
+Hvis du har en situation, hvor du skal eksportere data, der ikke er klassificeret på en sådan måde, så de bliver eksporteret automatisk, f.eks. data fra tabellen Profilsvar, skal du gøre følgende: 
+-   Hvis du reelt ønsker eller er nødt til at eksportere disse supplerende data, der ikke vedrører kontakten, hvilket vil sige, at det ikke er nogen direkte relation til den 
+-   Føje denne tabel og relation manuelt til Rapid Start-pakken og eksportere dem direkte fra Rapid Start-pakken – det er derfor vi generere en Rapid Start-pakke, så du kan ændre den i situationer som denne.
 
 ## <a name="handling-data-about-minors"></a>Håndtering af data om mindreårige
 Hvis en kontakts alder er under myndighedsalderen i henhold til lovgivningen i dit område, kan du angive dette, ved at markere afkrydsningsfeltet **Mindreårig** på kortet **Kontakt**. Når du gør dette, markeres afkrydsningsfeltet **Beskyttelse af personlige oplysninger spærret** automatisk. Når du modtager samtykke fra den mindreåriges forældre eller værge, kan du markere afkrydsningsfeltet **Forældresamtykke modtaget** for at fjerne spærringen af kontakten. Selvom du kan behandle personlige oplysninger for mindreårige, kan du ikke bruge profileringsfunktionen i Microsoft Dynamics 365 for Sales.

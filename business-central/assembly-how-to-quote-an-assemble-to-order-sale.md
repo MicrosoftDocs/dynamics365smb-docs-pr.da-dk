@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 402745a9c90d1b82779e436f4a6533d2aed1b344
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 497d19dfdc8c972ff22aa0bcb65d96791bc8390e
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Oprette tilbud på montage til ordre-salg
@@ -29,7 +29,7 @@ Du kan også oprette et salgstilbud for en tilpasset montageelement, som når du
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Sådan oprettes et salgstilbud til et montage efter ordre-element  
 1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgstilbud**, og vælg derefter det relaterede link.  
-2.  Opret en ny salgstilbudslinje med en linje til et montageelement. Du kan finde flere oplysninger under [Fremsætte tilbud](sales-how-make-offers.md).  
+2.  Opret en ny salgstilbudslinje med en linje til et montageelement. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md).  
 3.  I feltet **Antal til montage efter ordre** skal du angive den samlede mængde.
 
     > [!NOTE]  
@@ -38,7 +38,7 @@ Du kan også oprette et salgstilbud for en tilpasset montageelement, som når du
 4.  På oversigtspanelet **Linjer** skal du vælge **Linje**, vælg **Montage efter ordre**, og vælg derefter **Montage efter ordre-linjer**. Du kan også vælge feltet **Antal til montage efter ordre** på linjen.  
 5.  I vinduet **Montage efter ordre-linjer** kan du gennemse eller ændre linjerne til montageordre efter det tilbud, som kunden anmoder om. Hvis du vil se flere oplysninger, kan du vælge handlingen **Vis dokument** for at åbne den samlede rammetilbudsordre. Du kan ikke ændre indholdet af de fleste felter, og du kan ikke bogføre.  
 6.  Når du har reguleret montageordrelinjerne i overensstemmelse med tilbuddet, skal du lukke vinduet **Montage efter ordre-linjer** for at vende tilbage til vinduet **Salgstilbud**.  
-7.  Hvis debitor accepterer tilbuddet, kan du oprette en salgsordre for det tilbudte montageelement. Du kan finde flere oplysninger under [Fremsætte tilbud](sales-how-make-offers.md). Det sammenkædede montagetilbud og eventuelle tilpasninger er knyttet til den pågældende nye salgsordre for at forberede til montage af varen eller de varer, der skal sælges.  
+7.  Hvis debitor accepterer tilbuddet, kan du oprette en salgsordre for det tilbudte montageelement. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md). Det sammenkædede montagetilbud og eventuelle tilpasninger er knyttet til den pågældende nye salgsordre for at forberede til montage af varen eller de varer, der skal sælges.  
 
 ## <a name="see-also"></a>Se også  
 [Montagestyring](assembly-assemble-items.md)  

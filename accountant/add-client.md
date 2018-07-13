@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/23/2017
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8b8d92e114733d87b1866d66ee3111208e233ad3
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Tilføje kunder til dit dashboard i [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -24,10 +24,15 @@ Du kan tilføje en kunde i vinduet **Kunde**, som du kan åbne ved at vælge han
 
 ![Tilføje en kunde](./media/accountant-add-client/manage-client.png)
 
-Du angiver dataene i kortet for hver kunde, og du kan ændre dem efter behov. Men feltet **Kundens URL-adresse** er vigtigt – det er her, du kan få adgang til den enkelte kundes [!INCLUDE [d365fin](includes/d365fin_md.md)]. Brug handlingen **Kontrollér kundens URL-adresse** på båndet til at kontrollere, at du har angivet det rigtige link. URL-adressen, som du skal angive, peger på klientens [!INCLUDE [d365fin](includes/d365fin_md.md)], f.eks. *<https://mybusiness.financials.dynamics.com>*. Denne URL-adresse bruges derefter, når du vælger menupunktet **Gå til virksomhed** i [!INCLUDE [d365acc](includes/d365acc_md.md)]-dashboardet.  
+Du angiver dataene i kortet for hver kunde, og du kan ændre dem efter behov. Men feltet **Kundens URL-adresse** er vigtigt – det er her, du kan få adgang til den enkelte kundes [!INCLUDE [d365fin](includes/d365fin_md.md)]. Brug handlingen **Valider kundens URL-adresse** på båndet til at kontrollere, at du har angivet det rigtige link. Den URL-adresse, du skal angive, peger på kundens [!INCLUDE [d365fin](includes/d365fin_md.md)] og omfatter deres domæneadresse. Hvis de har angivet et domæne, f.eks. MyBusiness.com, så er linket til deres [!INCLUDE [d365fin](includes/d365fin_md.md)] *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
+
+> [!NOTE]
+>  Før opdateringen maj 2018 havde den URL-adresse, du angav, et andet format med navnet på kundens firmanavn i begyndelsen. Fra opdateringen maj 2018 er formatet ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, hvor ```clientdomain``` repræsenterer kundens domæne.  
+
+Kundens URL-adresse bruges, når du vælger menupunktet **Gå til virksomhed** i [!INCLUDE [d365acc](includes/d365acc_md.md)]-dashboardet.  
 
 ### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Blive inviteret indenfor i en kundes [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]
-En virksomhed, der bruger [!INCLUDE [d365fin](includes/d365fin_md.md)], kan invitere dig indenfor i [!INCLUDE [d365fin](includes/d365fin_md.md)] som deres eksterne regnskabsmedarbejder. For at blive inviteret skal du give dem den mailadresse, du bruger i forbindelse med [!INCLUDE [d365acc](includes/d365acc_md.md)], f.eks. <em>me@accountant.com</em>. Kundens administrator kan derefter føje dig til deres system ved at køre guiden **Inviter ekstern revisor**.  
+En virksomhed, der bruger [!INCLUDE [d365fin](includes/d365fin_md.md)], kan invitere dig indenfor i [!INCLUDE [d365fin](includes/d365fin_md.md)] som deres eksterne regnskabsmedarbejder. Hvis du vil inviteres, skal du give dem mailadresse, du bruger i forbindelse med [!INCLUDE [d365acc](includes/d365acc_md.md)], f.eks. <em>me@accountant.com</em>. Kundens administratoren kan derefter føje dig til deres system ved at køre guiden **Inviter ekstern revisor**.  
 
 Derefter vil du modtage en mail fra din kunde med links til deres [!INCLUDE [d365fin](includes/d365fin_md.md)]. Det første link er en invitation til at få adgang til virksomheden – åbn linket, og acceptere trinene, der føjer dig til kundens [!INCLUDE [d365fin](includes/d365fin_md.md)]. Det andet link bruges til at føje denne kunde til dashboardet i [!INCLUDE [d365acc](includes/d365acc_md.md)], som beskrevet ovenfor.  
 

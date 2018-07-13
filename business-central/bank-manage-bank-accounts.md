@@ -1,6 +1,6 @@
 ---
 title: "Håndtere bankkonti | Microsoft Docs"
-description: Normalt skal du afstemme bankposter i Financials med de relaterede banktransaktioner i dine bankkonti.
+description: "Du skal afstemme bankposter regelmæssigt med de relaterede banktransaktioner i dine bankkonti."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: reconcile
 ms.date: 05/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: dd3068cc1af6a16a43f982d3b48cdec42a7d7eca
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 319faa64adc93c9e54cf792325daeb6a5a8e0b80
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="managing-bank-accounts"></a>Håndtere bankkonti
@@ -45,5 +45,5 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

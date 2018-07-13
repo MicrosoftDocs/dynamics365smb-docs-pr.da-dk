@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ For at oprette momsregistreringsnumre, skal du gøre følgende:
 2. Vælg landet eller området, og vælg derefter handlingen **SE/CVR-nr.formater**.
 3. I feltet **Formater** skal du angive formatet ved at angive et eller flere af følgende tegn:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Kræver et etcifret tal.
-* @ - Kræver et bogstav. Der skelnes ikke mellem store og små bogstaver.
-* ? - Tillader alle tegn.
+* **#** Kræver et etcifret tal.  
+* **@** Kræver et bogstav. Der skelnes ikke mellem store og små bogstaver.  
+* **?** Tillader alle tegn.  
 
     > [!Tip]
     > Du kan bruge andre tegn, så længe de er altid findes i formatet for landet eller området. Hvis du f.eks. vil medtage et punktum eller en bindestreg mellem sæt af tal, kan du angive formatet som ##.####.### eller @@-###-###.  
@@ -116,6 +116,29 @@ I følgende afsnit beskrives, hvordan du tildeler momsbogføringsgrupper til ind
 * Udvid oversigtspanelet **Fakturering** på **Ressource**-kortet.  
 3. Vælg momsproduktbogføringsgruppen.  
 
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Opsætning af momsangivelsesskabeloner og momsangivelsesnavne
+Skattemyndighederne kan ændre, og gør det også, kravene til bogføring af moms. **Momsangivelsesskabeloner** og **Momsangivelsesnavne** kan hjælpe dig med at forberede kommende ændringer og foretage en problemfri overgang til de nye krav. Du kan bruge momsangivelsesskabeloner til at definere felterne, der skal medtages i momsangivelsen, og omvendt definere beregningerne, og du kan oprette en ny momsangivelsesskabelon, når kravene ændres. F.eks kan én skabelon beregne moms for dette år baseret på de aktuelle krav, og en anden kan beregne moms på basis af kravene for næste år. Skabeloner er også en metode til at opbevare en historik over momsangivelsesformater, så du f.eks. kan gå tilbage for at se, hvordan du beregnede moms i tidligere år.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>Sådan definerer du og får vist eksempler på momsangivelser
+Momsangivelser giver dig mulighed for at beregne momsangivelsesbeløb for en bestemt periode, f.eks. et kvartal. Når du har defineret en momsangivelse, kan du få vist et eksempel på den for at sikre, at det passer til dine behov. 
+
+Hvis du vil definere en momsangivelse, skal du gøre følgende:
+
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Momsangivelser**, og vælg derefter det relaterede link.  
+2. Vælg feltet **Navn**, og vælg derefter **Ny** på siden **Momsangivelsesnavne**. 
+3. Udfyld de påkrævede felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> Du kan filtrere de oplysninger, som angivelsen omfatter, afhængigt af hvad du vælger i feltet **Type**. **Kontosammentælling** er nyttig, når du vil se momsen fra en bestemt konto.
+**Momspostsammentælling** henter moms i de konti, der er knyttet til valgene i felterne **Bogføringstype**, **Momsvirksomhedsbogf.gruppe** og/eller **Momsproduktbogf.gruppe**. **Rækkesammentælling** giver dig mulighed for at angive en værdi eller hurtigt filtrere kriterier i feltet **Rækkesammentælling**. Du kan finde flere oplysninger under [Søgning i, filtrering og sortering af data](ui-enter-criteria-filters.md). **Beskrivelse** bruges ofte til at føje en note til angivelsen. Du kan f.eks. bruge den som en overskrift, når du har brugt Rubriksammentælling.
+
+Hvis du vil have vist et eksempel på momsangivelsen, skal du gøre følgende:
+
+1. Vælg **Eksempel**.
+2. Opret et datofilter for at begrænse angivelsen til en konkret periode. Du kan finde yderligere oplysninger om, hvordan du tilpasser siden til at vise datofiltret, under [Søgning i, filtrering og sortering af data](ui-enter-criteria-filters.md).
+3. Du kan vælge forskellige indstillinger for at angive den type momsposter, der skal medtages i angivelsen.
+4. På de linjer, hvor der står **Momspostsammentælling** i feltet **Type**, kan du få vist en oversigt over momsposter ved at vælge beløbet i feltet **Kolonnebeløb**.   
+
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Sådan oprettes klausuler til forklaring af brugen af ikke-standard momssatser
 Du konfigurerer en momsklausul til at beskrive oplysninger om den moms, der skal anvendes. Oplysningerne kan være påkrævet som påbudt af myndighederne. Når du har konfigureret en momsklausul og tilknyttet den til en momsbogføringsgruppe, vises momsklausulen på udskrevne salgsdokumenter, der bruger momsbogføringsopsætningsgruppen.
 
@@ -166,8 +189,7 @@ Du kan få vist Log over SE/CVR-nr. på debitor-, kreditor- eller kontaktkort p�
 
 Tjenesten kan også spare dig tid, når du opretter en debitor eller kreditor. Hvis du kender debitorens momsnummer, kan du angive det i feltet **SE/CVR-nr.** på debitor- eller kreditorkortene, og vi vil udfylde debitornavnet for dig. Nogle lande angiver også virksomhedsadresser i et struktureret format. I disse lande udfylder vi også adressen.  
 
-> [!NOTE]  
-> Der er et par ting at bemærke om VIES-tjenesten til kontrol af momsnumre:
+Der er et par ting at bemærke om VIES-tjenesten til kontrol af momsnumre:
 
 * Tjenesten bruger HTTP-protokollen, hvilket betyder, at data, der overføres via tjenesten, ikke er krypterede.  
 * Du kan opleve nedetid for denne tjeneste, som Microsoft ikke kan holdes ansvarlig for. Tjenesten er en del af et bredt EU-netværk af nationale momsregistre.

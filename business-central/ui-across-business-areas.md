@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: f35e361d083ce9fd497f76cb3b8417fef233438c
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
@@ -33,7 +33,7 @@ I følgende tabel vises disse generelle forretningsområder med links til emner,
 | Oprette tekster, så du kan udvide standardteksten ved at tilføje ekstra linjer og oprette betingelser for brugen af de ekstra linjer. |[Definere udvidet tekst](ui-how-define-ext-text.md) |
 |Oprette opgaver for at minde dig om arbejde, der skal udføres. Du kan oprette opgaver til dig selv, men du kan også tildele opgaver til andre eller få tildelt en opgave af en anden i organisationen.|[Definere brugeropgaver](across-user-tasks.md)|
 |Lad systemet hjælpe dig med at udføre opgaver hurtigere og mere korrekt ved at forhåndsudfylde felter eller hele linjer med data, som du normalt selv skal beregne og angive.|[Lade Business Central foreslå værdier](ui-let-system-suggest-values.md)|
-|Registrer eksterne dokumenter i Financials , herunder deres vedhæftede filer, og opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
+|Registrere eksterne dokumenter, herunder deres vedhæftede filer, og derefter oprette relaterede dokumenter manuelt, eller konvertere filerne automatisk til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
 |Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
 | Konfigurer dataudvekslingsdefinitioner, så du kan sende og modtage elektroniske dokumenter. |[Udveksle data elektronisk](across-data-exchange.md) |
 
@@ -42,5 +42,5 @@ I følgende tabel vises disse generelle forretningsområder med links til emner,
 [Opsætning](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

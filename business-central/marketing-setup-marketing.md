@@ -1,6 +1,6 @@
 ---
 title: Konfigurere marketing- og kontaktadministrationsoplysninger | Microsoft Docs
-description: "Du kan konfigurere marketing- og kontaktadministration i Financials for at optimere relationer med kundeemner eller kunder og forbedre kampagner og salgsfremstød."
+description: "Du kan konfigurere marketing- og kontaktadministration i Business Central for at optimere relationer med kundeemner eller kunder og forbedre kampagner og salgsfremstød."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42a279b085130da609c0f448acded6e60297dc9a
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: f4ccc58d0414131276dec3e062cf12e1ae4596db
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Opsætning af Relationsstyring

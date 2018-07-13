@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 98d7215b4d8ae476fbc550ea0057e6f71a00a5fd
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 5bf6e0c961e35b2fdb23eb1ba470da0f5c098d81
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Konfigurere tjenesten til konvertering af bankdata
@@ -44,11 +44,8 @@ Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen b
 5. I vinduet **Opsætning af tjeneste til konvertering af bankdata** skal du i feltet **Brugernavn** angive den samme værdi, som du har angivet som logonnavnet på serviceudbyderens side i trin 4.
 6. I feltet **Adgangskode** skal du angive den samme værdi, som du har angivet i feltet **Adgangskode** på serviceudbyderens side i trin 4.
 
-## <a name="to-encrypt-your-login-information"></a>Sådan krypterer du logonoplysningerne
-Det anbefales, at du beskytter de logonoplysninger, du angiver i vinduet **Opsætning af tjeneste til konvertering af bankdata**. Du kan kryptere data på [!INCLUDE[d365fin](includes/d365fin_md.md)]-serveren ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på den [!INCLUDE[d365fin](includes/d365fin_md.md)]-serverforekomst, som opretter forbindelse til databasen.
-
-1. I vinduet **Opsætning af tjeneste til konvertering af bankdata** skal du vælge handlingen **Administration af kryptering**.
-2. Aktiver kryptering af dine data i vinduet **Administration af datakryptering**.
+> [!NOTE]  
+> Dine logondata krypteres automatisk.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Sådan ser eller opdaterer du listen over aktuelt understøttede bankdataformater
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af tjeneste til konvertering af bankdata**, og vælg derefter det relaterede link.

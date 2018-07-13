@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -76,7 +76,7 @@ Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde
     >   For rapporten Oversigt over EU-salg kan du gennemse transaktionerne i rapportlinjerne, inden du sender rapporten. Det gør du ved at vælge linjen og derefter vælge handlingen **Vis momsposter**.  
 4. Hvis du vil validere og forberede rapporten til afsendelse, skal du vælge handlingen **Frigiv**.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om rapporten er konfigureret korrekt. Hvis valideringen ikke lykkes, vises fejlene under **Fejl og advarsler**, så du ved, hvad du skal rette. Hvis meddelelsen typisk drejer sig om en manglende indstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke på meddelelsen for at åbne siden med de oplysninger, der skal rettes.  
 5. Du sender rapporten ved at vælge handlingen **Send**.  
 
@@ -91,10 +91,10 @@ Hvis du bruger en anden metode til at sende rapporten, f.eks. ved at eksportere 
 ## <a name="vat-settlement"></a>Momsafregning
 Du skal med jævne mellemrum betale nettomomsen til skattemyndighederne. Når du skal afregne moms jævnligt, kan du udføre kørslen **Afregn moms** for at lukke de åbne momsposter og overføre købs- og salgsmomsbeløb til momsafregningskontoen.
 
-Når du overfører momsbeløb til afregningskontoen, bliver købsmomskontoen krediteret, og salgsmomskontoen debiteres de beløb, der er beregnet for den angivne periode. Nettobeløbet krediteres eller debiteres momsafregningskontoen, hvis købsmomsbeløbet er større. Du kan bogføre afregningen med det samme eller udskrive en kontrolrapport først.
+Når du overfører momsbeløb til afregningskontoen, bliver købsmomskontoen krediteret, og salgsmomskontoen debiteres de beløb, der er beregnet for den angivne periode. Nettobeløbet krediteres eller debiteres momsafregningskontoen, hvis købsmomsbeløbet er større. Du kan bogføre afregningen med det samme eller udskrive en kontrolrapport først.  
 
->    [!NOTE]  
->    Når du bruger kørslen **Afregn moms**, hvis du ikke angiver en **Momsvirksomhedsbogf.gruppe** og en **Momsproduktbogf.gruppe**, medtages poster med alle virksomhedsbogføringsgrupper og produktbogføringsgruppekoder.
+> [!Note]
+> Når du bruger kørslen **Afregn moms**, hvis du ikke angiver en **Momsvirksomhedsbogf.gruppe** og en **Momsproduktbogf.gruppe**, medtages poster med alle virksomhedsbogføringsgrupper og produktbogføringsgruppekoder.
 
 ## <a name="configuring-your-own-vat-reports"></a>Konfigurere dine egne momsrapporter
 Du kan bruge standard-EU-salgslisterapporten, men du kan også oprette dine egne rapporter. Dette kræver, at du opretter et par kodeenheder. Hvis du har brug for hjælp til dette, skal du kontakte en Microsoft-partner.  
@@ -107,14 +107,14 @@ I følgende tabel beskrives kodeenheder, du skal oprette til rapporten.
 |Indhold | Kontrollere rapportens format. F.eks. om det er XML eller JSON. Formatet afhænger af kravene i din skattemyndigheds webtjeneste. |
 |Afsendelse | Styre, hvordan og hvornår du sender rapporten ud fra skattemyndighedernes krav. |
 |Svarhandler | Håndtere skattemyndighedernes returnering. Der kan f.eks. blive sendt en e-mail til kontaktpersonen i din virksomhed. |
-|Annuller | Sende en annullering af en momsrapport, der tidligere blev sendt til skattemyndighederne. |
+|Annuller | Sende en annullering af en momsrapport, der tidligere blev sendt til skattemyndighederne. |  
 
-> [!NOTE]  
->   Når du opretter kodeenheder til rapporten, skal du være opmærksom på værdien i feltet **Momsrapportversion**. Dette felt skal afspejle versionen af den rapport, der blev/bliver krævet af skattemyndighederne. Du kan f.eks. angive **2017** i feltet for at angive, at rapporten opfylder kravene for dette år. For at finde den aktuelle version skal du kontakte skattemyndighederne.  
-
+> [!Note]
+> Når du opretter kodeenheder til rapporten, skal du være opmærksom på værdien i feltet **Momsrapportversion**. Dette felt skal afspejle versionen af den rapport, der blev/bliver krævet af skattemyndighederne. Du kan f.eks. angive **2017** i feltet for at angive, at rapporten opfylder kravene for dette år. For at finde den aktuelle version skal du kontakte skattemyndighederne.
+ 
 ## <a name="see-also"></a>Se også
 [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)  
 [Arbejde moms af salg og køb](finance-work-with-vat.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Fakturere salg](sales-setup-sales.md)  
+[Fakturere salg](sales-how-invoice-sales.md)  
 
