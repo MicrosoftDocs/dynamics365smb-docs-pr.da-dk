@@ -9,20 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 08/23/2017
+ms.date: 07/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c1dc918a775f050c51e7b83092d5f2f6ba0b83b1
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 9e50d9da53077f2baa136ca614734adbd332c1be
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="track-packages"></a>Spore pakker
-En række speditørfirmaer giver mulighed for på internettet at spore pakker, som de håndterer på virksomhedens vegne. Hvis du bruger mere end én af disse speditører, kan du oprette grundlæggende oplysninger og bruge den automatiske sporingsfunktion for forsendelser. Du kan finde flere oplysninger under [Oprette speditører](sales-how-to-set-up-shipping-agents.md).
+En række speditørfirmaer giver mulighed for på internettet at spore pakker, som de håndterer på virksomhedens vegne. Hvis du bruger mere end én af disse speditører, kan du oprette grundlæggende oplysninger og bruge den automatiske sporingsfunktion for forsendelser. Du kan finde flere oplysninger under [Oprette speditører](sales-how-to-set-up-shipping-agents.md).  
+
+> [!NOTE]
+> Denne funktion er ikke tilgængelig i øjeblikket i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Hvorfor er nogle elementer i brugergrænsefladen, som jeg brugte i Dynamics NAV, ikke synlige i Business Central?](https://docs.microsoft.com/en-us/dynamics365/business-central/across-faq#why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-) i Ofte stillede spørgsmål.
 
 ## <a name="to-track-a-package"></a>Sådan spores en pakke
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsleverancer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogført salgsleverance**, og vælg derefter det relaterede link.
 2. Åbn den relevante leverance.
 3. I feltet **Pakkesporingsnr.** skal du angive det pakkenummer, du har modtaget fra speditøren.
 4. Vælg handlingen **Pakkesporing**.

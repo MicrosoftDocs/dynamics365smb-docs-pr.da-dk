@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 07/06/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d48a4cd8d805870527249c414285867c83a6de9
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Konfiguration af arbejdsgangsnotifikationer
@@ -26,7 +26,7 @@ Mange arbejdsgangssvar vedrører notifikationer til en bruger om, at der er fore
 >  Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter notifikationer som mail og som interne noter.  
 
 > [!IMPORTANT]  
->  Alle arbejdsgangsnotifikationer sendes via en opgavekø. Kontrollér, at opgaven kommer i kø i løsningen. Du kan finde flere oplysninger i [Brug af opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
+>  Alle arbejdsgangsnotifikationer sendes via en opgavekø. Kontrollér, at opgavekøen i installationen er konfigureret til at håndtere arbejdsgangsnotifikationer, og at afkrydsningsfeltet **Start automatisk fra server** er markeret. Du kan finde flere oplysninger i [Brug af opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
 Du konfigurerer forskellige aspekter af arbejdsgangsnotifikationer følgende steder:  
 

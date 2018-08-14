@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 03/16/2018
+ms.date: 07/05/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8f4cb1b2fdd55275fc1a3cba494d1ea4b583b5ed
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
@@ -100,6 +100,9 @@ Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betinge
 |%12|Indholdet af feltet **Opkrævningsgebyr pr. linje** på rykkerhovedet|  
 
 Hvis du f.eks. skriver **Du skylder %9 %7, der forfalder den %2.**, vil den resulterende rykker indeholde følgende tekst: **Du skylder USD 1.200,50, der forfalder den 02-02-2014.**.
+
+> [!NOTE]
+> Forfaldsdatoen beregnes i overensstemmelse med den datoformel, som du angiver. Du kan finde flere oplysninger i afsnittet "Bruge datoformler" i [Angive datointervaller](ui-enter-date-ranges.md).
 
 Angiv en af koderne på hvert enkelt kundekort, når du har oprettet rykkerbetingelserne med ekstra niveauer og tekst. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
 

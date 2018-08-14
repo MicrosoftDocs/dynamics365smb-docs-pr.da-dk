@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 2695ebc582ee2c161b566522bffd62f534fbc013
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 
@@ -91,6 +91,22 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |Enter|Vælge den dato, der er fokus på.|
 |Ctrl+End<br />(Cmd + End)|Lukke kalenderen og slette den aktuelle dato.|
 |Esc|Lukke kalenderen uden en markering, bevare dags dato.|
+
+
+## <a name="keyboard-shortcuts-in-the-report-preview"></a>Brug af genvejstaster i rapportfremviseren
+
+|Tryk på disse taster<br />(i macOS)|For at gøre følgende|
+|-----------------|-------|
+|Pil ned|Rul ned på siden.|  
+|Pil op|Rul op på siden.|
+|Højrepil|Rul til højre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
+|Venstre pil|Rul til venstre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
+|Ctrl + 0 (nul)<br />(Cmd + 0)|Passer til hele siden i vinduet. |
+|Ctrl+Home<br />(Cmd + Home)|Gå til den første side i rapporten.|
+|Ctrl+End<br />(Cmd + Home)|Gå til den sidste side i rapporten.|
+|Page Down<br />(Fn + pil ned)|Gå til den næste side i rapporten.|
+|Side Upbr />(Fn + pil op)|Gå til den forrige side i rapporten.|
+
 
 <!--
 ## Keyboard shortcuts in list (shown as tiles)

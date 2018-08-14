@@ -61,7 +61,7 @@ Når dine kreditorer har oplyst, hvilke fakturarabatter de yder, skal du angive 
 
     Fortsæt med at angive nye fakturarabatbetingelser for køb.
 4. I vinduet **Kreditorkort** skal du vælge handlingen **Fakturarabatter**. Vinduet **Kred./fakt.-rabatter** åbnes.
-5. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser for RV.
+5. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser i DKK.
 6. Angiv det minimumsbeløb, der berettiger til rabatten, i feltet **Min. beløb**.
 7. I feltet **Rabatpct.** skal du angive fakturarabatten som en procentdel af fakturabeløbet.
 8. Gentag trin 5-7 for hver valuta, som kreditoren får en personlig fakturarabat for.

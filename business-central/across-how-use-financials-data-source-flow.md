@@ -12,10 +12,10 @@ ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 05/09/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4dd987ee51cd2b5d8575d6d97ad21d00ec85739a
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: b8c9f05335c76884ba0d61451b0730d64bd1bfce
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i et automatisk workflow
@@ -60,7 +60,7 @@ Nu har du oprettet forbindelse til dine Business Central-data og er klar til at 
 11. Flow beder dig om at vælge et firma i din [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-lejer. Da hvert trin i flowet er uafhængigt af det næste, kan du blive nødt til at definere virksomheden flere gange, når du bruger en [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-skabelon.
 
 > [!NOTE]  
-> [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-skabelonen integreres med det centrale workflowprogram i [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Det betyder, at hver gang du bruger en af skabelonerne til at oprette et flow, oprettes et tilsvarende workflow i [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Workflow](across-workflow.md).
+> [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-skabelonen integreres med det centrale workflowprogram i [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Det betyder, at hver gang du bruger en af skabelonerne til at oprette et flow, oprettes et tilsvarende workflow i [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Den person, der opretter arbejdsgangen, skal desuden være oprette som godkender i den assisterede opsætningsvejledning. Du kan finde flere oplysninger i [Workflow](across-workflow.md).
 
 Du kan finde flere oplysninger i [Flow-dokumentationen](https://docs.microsoft.com/en-us/flow/getting-started).
 

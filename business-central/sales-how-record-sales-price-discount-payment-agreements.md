@@ -63,7 +63,7 @@ Når du har besluttet, hvilke kunder der skal have fakturarabatter, skal du angi
 Fortsæt med at angive nye fakturarabatbetingelser for salg.
 
 1. I vinduet **Debitorkort** skal du vælge handlingen **Fakturarabatter**. Vinduet **Deb./fakt.-rabatter** åbnes.
-2. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser for RV.
+2. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser for DKK.
 3. Angiv det minimumsbeløb, der berettiger til rabatten, i feltet **Min. beløb**.
 4. I feltet **Rabatpct.** skal du angive fakturarabatten som en procentdel af fakturabeløbet.
 5. Gentag trin 5-7 for hver valuta, som debitoren får en personlig fakturarabat for.

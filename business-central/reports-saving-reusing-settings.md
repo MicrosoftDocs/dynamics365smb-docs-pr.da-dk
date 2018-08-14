@@ -11,10 +11,10 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: f5225d1f6d0d4ac0020fb073d5df6da83b5c0f5b
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: adc15d5f80f4d7ab2a1ca5a8247588ec0aa9779a
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrere gemte indstillinger i rapporter
@@ -33,7 +33,7 @@ Du kan se de gemte indstillinger, der er tilgængelige for en rapport, i afsnitt
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Oprette og redigere gemte indstillinger for alle brugere
 Hvis du har de nødvendige tilladelser, kan du få vist, oprette og redigere de gemte indstillinger for alle rapporter for alle brugere i virksomheden. Du kan tildele gemte indstillinger for en rapport til enkelte brugere eller alle brugere i virksomheden.
 
-Du administrerer gemte indstillinger fra side 1506 **Rapportindstillinger**. Du åbner denne side ved at vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Rapportindstillinger** og derefter vælge det relaterede link.
+Du administrerer gemte indstillinger fra side 1560 **Rapportindstillinger**. Du åbner denne side ved at vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Rapportindstillinger** og derefter vælge det relaterede link.
 
 Fra siden **Rapportindstillinger** kan du oprette nye indstillinger fra bunden, eller du kan kopiere og redigere eksisterende indstillinger. Hvis du vil ændre indstillinger og filtre for en indstilling, skal du vælge handlingen **Rediger**.
 

@@ -47,7 +47,7 @@ Standardfirmaet kaldes CRONUS og indeholder kun demonstrationsdata.
 Standardarbejdsdatoen er normalt dags dato. Du skal muligvis midlertidigt ændre arbejdsdatoen for at kunne udføre opgaver, f.eks. udføre transaktioner for en dato, der ikke er dags dato.
 
 > [!TIP]  
->   Hvis du hurtigt vil indtaste arbejdsdatoen i et datofelt, skal du skrive **w**. Hvis du hurtigt vil indtaste dags dato i datofeltet, skal du skrive **t**.
+>   Hvis du hurtigt vil indtaste arbejdsdatoen i et datofelt, skal du skrive **a**. Hvis du hurtigt vil indtaste dags dato i datofeltet, skal du skrive **d**.
 
 > [!IMPORTANT]  
 >   Arbejdsdatoen ændres kun, indtil du lukker virksomheden, eller indtil datoen skifter. Hvis du vælger et andet regnskab eller åbner det samme regnskab næste dag og stadig har brug for at angive en anden arbejdsdato, skal du angive arbejdsdatoen igen.

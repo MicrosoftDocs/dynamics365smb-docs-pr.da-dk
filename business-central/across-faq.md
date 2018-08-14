@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 06/28/2018
+ms.date: 07/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 9284476557de94e57680bbaa68dfd62ed6d50afc
+ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
+ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 07/30/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
@@ -47,9 +47,13 @@ Dette er en smule kompliceret, men det ser ud til din administrator ikke har æn
 Har du læst om en ny funktionalitet i oversigten eller på vores blog for nylig? I så fald er dine [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke blevet opgraderet til den seneste version endnu. Hvis funktionaliteten er udgivet som en udvidelse i AppSource, er der en forsinkelse mellem den udvidelse, der annonceres, og dens tilgængelighed på AppSource.  
 
 ## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan jeg få uddannelse i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Ja, det kan du. Men i øjeblikket skal du spørge din videresalgspartner. Hvis du ikke ved, hvem det er, kan du finde en Business Central-partner [her ](https://www.microsoft.com/en-us/solution-providers/search).  
+Ja, det kan du. Men i øjeblikket skal du spørge din videresalgspartner. Hvis du ikke ved, hvem det er, kan du finde en Business Central-partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Hvis du har adgang til Microsoft CustomerSource, kan du få adgang til webstedet Imagine Academy med eLearning-materiale. Du kan finde flere oplysninger om, hvordan du får adgang, på siden [Microsoft Dynamics 365 uddannelse](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgængeligt i mit land?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængeligt på et begrænset antal markeder, men nye lande tilføjes via Microsoft-styret oversættelse eller partnerstyret oversættelse kvartalsvis. Du kan finde flere oplysninger i [Understøttede lande og oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 ## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Hvorfor er nogle elementer i brugergrænsefladen, jeg har brugt i Dynamics NAV, ikke synlige i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] gør funktionalitetsområdesystemet og oplevelsesindstillingerne det muligt for dig at vise/skjule relevante dele af produktet i henhold til den købte plan (Essential eller Premium) og i overensstemmelse med dine forretningsmæssige behov.
