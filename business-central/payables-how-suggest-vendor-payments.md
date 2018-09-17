@@ -29,10 +29,9 @@ For at få det fulde udbytte af betalingsforslag skal du først prioritere dine 
 
 > [!IMPORTANT]  
 >   Hvis du vil have fordel af kontantrabatter og har indtastet et disponibelt beløb, bliver beløbet brugt til:  
-
-* Prioriterede forfaldne kreditorposter først i prioriteret rækkefølge.  
-* Forfaldne kreditorposter, der ikke er prioriteret.  
-* Åbne kreditorposter, hvor der ydes kontantrabat, arrangeret efter kreditornummer.  
+    * Prioriterede forfaldne kreditorposter først i prioriteret rækkefølge.   
+    * Forfaldne kreditorposter, der ikke er prioriteret.  
+    * Åbne kreditorposter, hvor der ydes kontantrabat, arrangeret efter kreditornummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Sådan bruges funktionen Lav kreditorbetalingsforslag
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.  
