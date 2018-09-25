@@ -13,18 +13,41 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01a7a1d254916a8b93744183d3678c2082aec42c
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="working-with-reports"></a>Arbejde med rapporter
 En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse og kan udskrives. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
 
-Du kan finde rapporter under fanen **Rapporter** på valgte sider, eller du kan bruge søgefunktionen til at finde rapporter efter navn. Når du åbner en rapport, får du vist en side, hvor du kan angive oplysninger (indstillinger og filtre), som bestemmer, hvad der skal med i rapporten. For eksempel, afhængigt af rapporten, kan du angive et datointerval, en bestemt post, f.eks. en kunde, eller sorteringsrækkefølge. Her er et eksempel:
+Du kan finde rapporter under fanen **Rapporter** på udvalgte sider, eller du kan bruge Søg ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") til at finde rapporter efter navn.
+
+
+## <a name="specifying-the-data-to-include-in-the-report"></a>Angiver dataene, der skal medtages i rapporten
+Når du åbner en rapport, får du typisk vist en side, hvor du kan angive forskellige indstillinger og filtre, som bestemmer, hvad der skal med i rapporten. Denne side kaldes rapportanmodningssiden. For eksempel gør rapportanmodningssiden det muligt at oprette en rapport for en bestemt debitor, et bestemt datointerval eller sorteringsrækkefølge for oplysninger i rapporten. Her er et eksempel på en rapportanmodningsside:
 
 ![Rapportindstillinger](media/report_options.png "Rapportindstillinger")
+
+### <a name="SavedSettings"></a>Bruge gemte indstillinger
+I nogle rapporter, afhængigt af hvordan de er designet, kan rapportsiden indeholde sektionen **Gemte indstillinger**, der indeholder en eller flere poster i feltet **Brug standardværdier fra**. Posterne i feltet kaldes *gemte indstillinger*. En gemt indstilling er grundlæggende en foruddefineret gruppe af indstillinger og filtre, som du kan anvende i rapporten, før du ser et rapporteksempel eller sender rapporten til en fil. Posten for gemte indstillinger, som kaldes **Sidst anvendte indstillinger og filtre**, er altid tilgængelig. Denne post konfigurerer rapporten til at bruge indstillinger og filtre, der blev brugt sidste gang, du så på rapporten.
+
+Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data. Når du har indstillet feltet **Brug standardværdier fra** til en post med gemte indstillinger, kan du ændre indstillingerne og filtrene, før du ser rapporten eksemplificeret eller gemmer den. De ændringer, du udfører, bliver ikke gemt i den post med gemte indstillinger, du har valgt, men de gemmes i **Seneste anvendte indstillinger og filtre**.
+
+>[!NOTE]
+>Hvis du er administrator, kan du oprette og administrere de gemte indstillinger for rapporter for alle brugere. Du kan finde flere oplysninger i [Administrere gemte indstillinger i rapporter](reports-saving-reusing-settings.md).
+
+### <a name="setting-options-and-filters"></a>Valg af indstillinger og filtre
+Hvis du vil begrænse eller præcisere de data, der indgår i en rapport, yderligere, kan du angive flere indstillinger og filtre.
+
+Med filtre kan du få vist data, der er baseret på bestemte kriterier. Filtre er grupperet efter den enhed, de tilhører, f.eks. **Debitor** i ovenstående illustration. Du definerer et filter ved at indstille feltet **Hvor** til det felt, du vil filtrere på, og derefter tilføje kriterierne i feltet **er:**. F.eks. i ovenstående illustration er der et enkelt filter, der opretter rapporten for debitoren, hvis **Nr.** er lig med **01121212**.
+
+Du kan tilføje flere filtre ved at indstille **Tilføj**-felterne. Når du har mere end ét filter, er det kun de resultater, der opfylder kriterierne for alle filtre, der medtages i rapporten.
+
+Afhængigt af hvilken type felt, du filtrerer, kan du angive filterkriterier for at søge efter et nøjagtigt match, delvist match, værdiintervaller og meget mere. Du kan få hjælp til at indstille filtre her:
+-   [Filtrering](ui-enter-criteria-filters.md#FilterCriteria)
+-   [Angive datointervaller](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Visning af et rapporteksempel
 Vælg **Vis udskrift** for at se rapporten i internetbrowseren. Peg på et område i rapporten for at få vist menulinjen.  
@@ -57,14 +80,6 @@ Du kan planlægge en rapport, når du åbner en rapport. Du vælger handlingen *
 
 ## <a name="PrintReport"></a>Udskrive en rapport
 Du kan udskrive en rapport fra knappen **Udskriv** på siden Indstillinger, der vises, når du åbner rapporten eller på menulinjen i Vis udskrift.
-
-## <a name="using-saved-settings"></a>Bruge gemte indstillinger
-En rapport kan omfatte en eller flere poster i feltet **Gemte indstillinger**. *Gemte indstillinger* er grundlæggende en foruddefineret gruppe af indstillinger og filtre, som du kan anvende i rapporten, før du ser et rapporteksempel eller sender rapporten til en fil. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data.
-
-Posten for gemte indstillinger, som kaldes **Sidst anvendte indstillinger og filtre**, er altid tilgængelig. Denne post konfigurerer rapporten til at bruge indstillinger og filtre, der blev brugt sidste gang, du så på rapporten.
-
->[!NOTE]
->Som administrator kan du oprette og administrere de gemte indstillinger for rapporter for alle brugere. Du kan finde flere oplysninger i [Administrere gemte indstillinger i rapporter](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Ændre layoutet og udseendet af en rapport
 Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvor den arrangeres, og hvilken typografi der anvendes. Hvis du vil skifte til et andet layout, kan du se [Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md). Eller du kan tilpasse din egen rapportlayout, skal du se [Oprette et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md).

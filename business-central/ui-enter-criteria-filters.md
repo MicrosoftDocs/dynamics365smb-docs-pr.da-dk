@@ -1,8 +1,6 @@
 ---
 title: "Søgning efter data og angivelse af filtreringskriterier | Microsoft Docs"
 description: "Beskriver, hvordan du arbejder med filtre, f.eks. Quick Filter, for at finjustere resultatet, når du søger efter data."
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: delimit, FlowFilter
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7fd74ad235e51b1793b02e19834bdb0bd17820b
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 10aac3906d9da8b9e0791db614142eeb90940a9b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Søgning i, filtrering og sortering af data
@@ -82,27 +80,27 @@ Du kan føje filtre til alle sider ved hjælp af Quick Filter. Quick Filter akti
 </TABLE>
 
 > [!NOTE]  
->   Du kan ikke bruge et jokertegn, når du filtrerer i optællingsfelter, f.eks. feltet **Status** på salgsordrer. Hvis du vil angive et filter for denne type felt, kan du angive den numeriske værdi som en filterparameter. I feltet **Status** på en salgsordre med værdierne **Åben**, **Frigivet**, **Afventer godkendelse** og **Afventer forudbetaling** kan du f.eks. bruge værdierne, **0**, **1**, **2** og **3** til at filtrere efter disse indstillinger. 
+>   Du kan ikke bruge et jokertegn, når du filtrerer i optællingsfelter, f.eks. feltet **Status** på salgsordrer. Hvis du vil angive et filter for denne type felt, kan du angive den numeriske værdi som en filterparameter. I feltet **Status** på en salgsordre med værdierne **Åben**, **Frigivet**, **Afventer godkendelse** og **Afventer forudbetaling** kan du f.eks. bruge værdierne, **0**, **1**, **2** og **3** til at filtrere efter disse indstillinger.
 
 ## <a name="searching-by-using-column-filters"></a>Søge ved hjælp af kolonnefiltre
-Du kan tilføje et filter til en eller flere kolonner på en liste. Filtrering på kolonner er mere fleksibelt og omfattede end Quick Filter. 
+Du kan tilføje et filter til en eller flere kolonner på en liste. Filtrering på kolonner er mere fleksibelt og omfattede end Quick Filter.
 
 ### <a name="to-add-a-filter-on-a-column"></a>Sådan tilføjes et filter på en kolonne
 1.  Før du tilføjer et filter, skal du vælge ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Pil til venstre Vis som liste") for at skifte til listevisningen.
 2. Vælg den nedadgående pil i kolonneoverskriften, og vælg derefter **Filter**.
-3. Gør ét af følgende: 
+3. Gør ét af følgende:
   -  Vælg *...* ud for feltet for at vælge en værdi på en liste.
   -  Angiv filterkriterier i feltet. Se næste afsnit kan få flere oplysninger.
 4. Vælg knappen **OK**.
 
-## <a name="filter-criteria-and-symbols"></a>Filterkriterier og -symboler
+## <a name="FilterCriteria"> </a>Filterkriterier og -symboler
 Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer at bruger i feltet. Derudover kan du bruge nogle specialtegn til at filtrere resultaterne yderligere. Følgende tabeller viser de tegn, der kan bruges i filtre.  
-  
+
 > [!IMPORTANT]  
 >  Der kan være tilfælde, hvor feltværdierne indeholder disse symboler, og du vil filtrere efter dem. Hvis du vil gøre dette, skal du medtage det filterudtryk, der indeholder symbolet i anførselstegn ("). Hvis du f.eks. vil filtrere efter poster, der starter med teksten *S&R*, er filterudtrykket **'S&R'*'**.  
-  
+
 ### <a name="-interval"></a>(..) Interval  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |1100..2100|Tal fra 1100 til og med 2100.|  
@@ -112,83 +110,83 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 |..23|Fra begyndelsesdatoen til 23-aktuel måned-aktuelt år 23.59.59|  
 |23..|Fra 23-aktuel måned-aktuelt år 0.00.00 til sluttidspunktet|  
 |22..23|Fra den 23-aktuel måned-aktuelt år 0.00.00 til 22-aktuel måned-aktuelt år 22.59.59|  
-  
+
 ### <a name="124-eitheror"></a>(&#124;) Enten/eller  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |1200&#124;1300|Tal med 1200 eller 1300.|  
-  
+
 ### <a name="-not-equal-to"></a>(<>) Ikke lig med  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |<>0|Alle tal undtagen 0<br /><br /> I SQL Server Option kan du kombinere dette symbol med et udtryk med jokertegn. <>A* betyder f.eks. ikke lig med tekst, der starter med A.|  
-  
+
 ### <a name="-greater-than"></a>(>) Større end  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |>1200|Tal større end 1200|  
-  
+
 ### <a name="-greater-than-or-equal-to"></a>(>=) Større end eller lig med  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |>=1200|Tal lig med eller større end 1200|  
-  
+
 ### <a name="-less-than"></a>(<) Mindre end  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |<1200|Tal mindre end 1200|  
-  
+
 ### <a name="-less-than-or-equal-to"></a>(<=) Mindre end eller lig med  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |<=1200|Tal lig med eller mindre end 1200|  
-  
+
 ### <a name="-and"></a>(&) Og  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |>200&<1200|Tal større end 200 og mindre end 1200|  
-  
+
 ### <a name="-an-exact-character-match"></a>('') Tegn, der stemmer nøjagtigt overens  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |'man'|Tekst, der svarer nøjagtigt til man, og der skelnes mellem store og små bogstaver.|  
-  
+
 ### <a name="-case-insensitive"></a>(@) Ingen forskel på store og små bogstaver  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |@man*|Tekst, der starter med man, og der skelnes mellem store og små bogstaver.|  
-  
+
 ### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Mange ukendte tegn  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |*A/S*|Tekst, der indeholder "A/S", og der skelnes mellem store og små bogstaver.|  
 |*A/S|Tekst, der ender på "A/S", og der skelnes mellem store og små bogstaver.|  
 |A/S*|Tekst, der begynder med "A/S", og der skelnes mellem store og små bogstaver.|  
-  
+
 ### <a name="-one-unknown-character"></a>(?) Ét ukendt tegn  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |Hans?n|Tekst som f.eks. Hansen eller Hanson|  
-  
+
 ### <a name="combined-format-expressions"></a>Kombinerede formatudtryk  
-  
+
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |5999&#124;8100..8490|Tallet 5999 og tallene fra og med 8100 til og med 8490.|  
 |..1299&#124;1400..|Medtag poster med et tal mindre end eller lig med 1299, eller tal lig med 1400 eller derover (alle tal undtagen 1300 til og med 1399).|  
 |>50&<100|Medtag poster med tal større end 50 og mindre end 100 (tal fra 51 til og med 99).|  
- 
+
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d57e87363830c521a90f00b552146dd09654f68
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Sådan konfigureres logistikfunktioner
@@ -40,8 +40,8 @@ En virksomheds distributionsstrategi afspejles i konfigurationen af virksomheden
 |Definere, hvornår og hvordan varer på lagerlokationer optælles til brug for vedligeholdelse eller økonomisk rapportering.|[Tælle, justere eller ompostere inventar](inventory-how-count-adjust-reclassify.md)|
 |Give lagermedarbejderne mulighed for at nedbryde en større måleenhed i mindre enheder for at opfylde behovet for kildedokumenter.|[Aktivere automatisk nedbrydning med styret læg-på-lager og pluk](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Konfigurere et lagersted til automatisk først at foreslå varer, der udløber først.|[Aktivere pluk af varer efter FEFO](warehouse-picking-by-fefo.md)|
-|Integrere stregkodebrugere i din lagerstyringsløsning.|[Brug ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)|  
-|Få idéer til, hvordan du kan reorganisere lokationer, placeringer eller zoner for at opnå mere effektive lageraktiviteter.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|  
+|Få idéer til, hvordan du kan reorganisere lokationer, placeringer eller zoner for at opnå mere effektive lageraktiviteter.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|
+<!-- |Integrere stregkodebrugere i din lagerstyringsløsning.|[Brug ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  

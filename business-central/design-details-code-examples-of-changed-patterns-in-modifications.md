@@ -1,6 +1,6 @@
 ---
-title: "Designoplysninger – Lukning af behov og forsyning | Microsoft Docs"
-description: "Når de forsyningsudlignende procedurer er blevet udført, er der tre mulige slutsituationer."
+title: "Designoplysninger - Kodeeksempler af ændrede mønstre i Ændringer | Microsoft Docs"
+description: "Kodeeksempler, der viser ændrede mønstre i dimensionskodeændring og overflytning for fem forskellige scenarier. Det sammenligner kodeeksempler i tidligere versioner med kodeeksempler i Business Central."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a>Designoplysninger: Lukning af behov og forsyning
-Når de forsyningsudlignende procedurer er blevet udført, er der tre mulige slutsituationer:  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Designoplysninger: Kodeeksempler af ændrede mønstre i Ændringer
+Dette emne indeholder kodeeksempler til at vise ændrede mønstre i dimensionskodeændring og overflytning for fem forskellige scenarier. Det sammenligner kodeeksempler i tidligere versioner med kodeeksempler i Business Central.
 
--   Det påkrævede antal og den påkrævede dato for behovhændelserne er opfyldt, og planlægning af dem kan lukkes. Forsyningshændelsen er stadig åben og kan dække det næste behov, så udligningsproceduren kan starte forfra med den aktuelle forsyningshændelse og det næste behov.  
+## <a name="posting-a-journal-line"></a>Bogføring af en kladdelinje  
+Vigtigste ændringer er angivet som følger:  
+  
+- Kladdelinjers dimensionstabeller fjernes.  
+  
+- Et dimensionsgruppe-id oprettes i feltet **Dimensionsgruppe-id**.  
+  
+**Tidligere versioner**  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a>Bogføring af et dokument  
+ Når du bogfører et dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], behøver du ikke længere at kopiere dokumentdimensioner.  
+  
+ **Tidligere versioner**  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a>Redigering af dimensioner fra et dokument.  
+ Du kan redigere dimensioner fra et dokument. Du kan f.eks. redigere en salgsordrelinje.  
+  
+ **Tidligere versioner**  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a>Viser dimensionerne fra bogførte poster  
+ Du kan få vist dimensionerne fra bogførte poster, f.eks. salgsleverancelinjer.  
+  
+ **Tidligere versioner**  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a>Henter standarddimensioner for et dokument  
+ Du kan hente standarddimensioner for et dokument, f.eks en salgsordrelinje.  
+  
+ **Tidligere versioner**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   Forsyningsordren kan ikke ændres, så den dækker alle behov. Behovshændelsen er stadig åben, med nogle udækkede antal, der kan dækkes ved næste forsyningshændelse. Derfor lukkes den aktuelle forsyning, så den udlignende handling kan starte forfra med det aktuelle behov og den næste forsyningshændelse.  
-
--   Alle behov er blevet dækket: Der er ingen efterfølgende behov (eller der har ikke været nogen behov overhovedet). Hvis der er en eventuel overskydende forsyning, kan den reduceres (eller annulleres) og derefter lukkes. Det er muligt, at der findes yderligere forsyningshændelser i kæden, og de bør også annulleres.  
-
- Endelig opretter planlægningssystemet et ordresporingslink mellem forsyning og behov.  
-
-## <a name="creating-the-planning-line-suggested-action"></a>Oprettelse af planlægningslinjen (foreslået aktivitet)  
- Hvis en handling – Ny, Ret antal, Omplanlæg, Omplanlæg og ret antal eller Annuller – foreslås for at revidere forsyningsordren, vil planlægningssystemet oprette en planlægningslinje i planlægningskladden. På grund af ordresporing oprettes planlægningslinjen ikke kun, når forsyningshændelsen er lukket, men også hvis behovhændelsen er lukket, selvom forsyningshændelsen stadig er åben og kan være underlagt yderligere ændringer, når næste behovshændelse behandles. Det betyder, at når planlægningslinjen er oprettet, kan den ændres igen.  
-
- Planlægningslinjen kan vedligeholdes i tre niveauer for at minimere databaseadgang, når der håndteres produktionsordrer, mens det tilstræbes at udføre det mindst krævende vedligeholdelsesniveau:  
-
--   Opret kun planlægningslinjen med den aktuelle forfaldsdato og antallet, men uden rute og komponenter.  
-
--   Omfatter rute: Den planlagte rute er opstillet med beregning af start- og slutdatoer og -tidspunkter. Dette er påkrævet i forbindelse med adgang til databasen. For at bestemme slutdato og forfaldsdatoer kan det være nødvendigt at beregne dette, selvom forsyningshændelsen ikke er blevet lukket (i tilfælde af fremadrettet planlægning).  
-
--   Omfatter styklisteudfoldelsen: Dette kan vente indtil lige før leveringshændelsen er lukket.  
-
- Dette afslutter beskrivelserne af, hvordan behov og forsyning indlæses, prioriteres og afstemmes af planlægningssystemet. I integration med denne planlægningsaktivitet af forsyning skal systemet sikre, at det nødvendige lagerniveau for hver planlagt vare opretholdes i overensstemmelse med dens genbestillingsmetoder.  
+```  
 
 ## <a name="see-also"></a>Se også  
- [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
- [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
- [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-
+[Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)   
+[Designoplysninger: Tabelstruktur](design-details-table-structure.md)   
+[Designoplysninger: Kodeenhed 408 Dimensionsstyring](design-details-codeunit-408-dimension-management.md)

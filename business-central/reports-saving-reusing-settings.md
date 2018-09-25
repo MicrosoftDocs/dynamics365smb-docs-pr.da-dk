@@ -11,37 +11,46 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: adc15d5f80f4d7ab2a1ca5a8247588ec0aa9779a
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrere gemte indstillinger i rapporter
-Afhængigt af den rapport, der køres, kan du få vist en side, hvor du kan angive bestemte indstillinger og filtre for at ændre, hvilke data der medtages i den genererede rapport. Denne side kaldes rapportanmodningssiden. En rapport kan medtage én eller flere *gemte indstillinger*, som du kan anvende til rapporten fra anmodningssiden. *Gemte indstillinger* er grundlæggende foruddefinerede indstillinger og filtre. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data.
+Når brugerne kører en rapport, får de normalt vist en side, hvor de kan angive bestemte indstillinger og filtre for at ændre, hvilke data der skal medtages i den genererede rapport. Denne side kaldes rapportanmodningssiden. En rapport kan medtage én eller flere *gemte indstillinger*, som brugerne kan anvende til rapporten fra anmodningssiden. *Gemte indstillinger* er grundlæggende foruddefinerede indstillinger og filtre. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data. Du kan finde flere oplysninger om, hvordan gemte indstillinger bruges, under [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).
 
-Du kan se de gemte indstillinger, der er tilgængelige for en rapport, i afsnittet **Gemte indstillinger** på rapportanmodningssiden.  
-
-## <a name="apply-saved-settings-to-a-report"></a>Anvende gemte indstillinger til en rapport
-1. Åbn rapporten.
-
-   Rapportanmodningssiden vises.    
-2. I sektionen **Gemte indstillinger** på siden skal du angive feltet **Navn** til de gemte indstillinger, du vil bruge.
-
-   Afsnittet **Gemte indstillinger** vises kun, hvis rapporten er blevet kørt før, eller hvis der findes poster for gemte indstillinger. Posten for gemte indstillinger, som kaldes **Sidst anvendte indstillinger og filtre**, er altid tilgængelig. Disse indstillinger er de værdier for indstillinger og filtre, som blev brugt, sidste gang du kørte rapporten.
-
-## <a name="create-and-modify-saved-settings-for-all-users"></a>Oprette og redigere gemte indstillinger for alle brugere
 Hvis du har de nødvendige tilladelser, kan du få vist, oprette og redigere de gemte indstillinger for alle rapporter for alle brugere i virksomheden. Du kan tildele gemte indstillinger for en rapport til enkelte brugere eller alle brugere i virksomheden.
 
-Du administrerer gemte indstillinger fra side 1560 **Rapportindstillinger**. Du åbner denne side ved at vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Rapportindstillinger** og derefter vælge det relaterede link.
+<!-- 
+## Apply saved settings to a report
+1. Open the report.
 
-Fra siden **Rapportindstillinger** kan du oprette nye indstillinger fra bunden, eller du kan kopiere og redigere eksisterende indstillinger. Hvis du vil ændre indstillinger og filtre for en indstilling, skal du vælge handlingen **Rediger**.
+   The report request page appears.    
+2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
 
-> [!NOTE]
-> Funktionen for gemte indstillinger for rapporter er kun relevant, hvis egenskaben SaveValues for anmodningssiden er angivet til Ja. Egenskaben SaveValues angives i udviklingsmiljøet.  
+   The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
+
+-->
+
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Oprette og redigere gemte indstillinger for alle brugere
+Du administrerer gemte indstillinger fra siden **1560 Rapportindstillinger**. Du kan åbne siden på to måder:
+-   Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rapportindstillinger**, og vælg derefter det relaterede link.
+-   Åbn en rapport, vælg opslaget ud for feltet **Brug standardværdier fra:** og vælg **Vælg fra komplet liste**.
+
+Siden viser alle eksisterende Gem indstillinger-poster for alle brugere. Hvis der er et brugernavn i kolonnen **Tildelt til**, er det kun denne bruger, der kan bruge de gemte indstillinger for den tilknyttede rapport. Hvis der er en markering i kolonnen **Del med alle brugere**, kan alle brugere anvende de gemte indstillinger for rapporten.
+
+Fra siden **Rapportindstillinger** kan du:
+-   Vælge **Ny** for at oprette en ny post for gemte indstillinger fra bunden.
+-   Vælg en post for gemte indstillinger på listen, og vælg **Kopier** for at oprette en kopi.
+-   Vælg en post for gemte indstillinger på listen, og vælg **Rediger** for at ændre en post for gemte indstillinger.
+
 
 > [!Important]
-> Hvis du opretter et element for gemte indstillinger for alle brugere, og det hedder det samme som en eksisterende gemt indstilling for en bestemt bruger, kan den pågældende bruger ikke anvende de gemte indstillinger, der er tildelt til alle.  I feltet Gemte indstillinger på rapportanmodningssiden får brugeren vist to valgmuligheder for gemte indstillinger med det samme navn. Men uanset hvilken indstilling brugeren vælger, anvendes de brugerspecifikke gemte indstillinger.
+> Overvej, hvilket navn du giver en post for gemte indstillinger. Hvis du opretter en post for gemte indstillinger for alle brugere, og du giver den samme navn som en eksisterende post for gemte indstillinger, som er tildelt til en bestemt bruger, kan den pågældende bruger ikke anvende den post for gemte indstillinger, der er tildelt til alle.  Under **Gemte indstillinger** på rapportanmodningssiden får brugeren vist to poster for gemte indstillinger med det samme navn. Men uanset hvilken indstilling brugeren vælger, anvendes den brugerspecifikke post for gemte indstillinger.
+
+> [!NOTE]
+> Funktionen for gemte indstillinger for rapporter er kun tilgængelig, når [egenskaben SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) for rapportens anmodningsside er indstillet til `Yes`. Egenskaben **SaveValues** indstilles i udviklingsmiljøet.  
 
 ## <a name="see-also"></a>Se også
 [Arbejde med rapporter](ui-work-report.md)  
