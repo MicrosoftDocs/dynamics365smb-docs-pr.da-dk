@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 78d33d833440b4da87b1758d9a41081c37f3052d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5cfed12b27fb46bac3dc670ca49b480e47e85e0c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="print-vat-reconciliation-reports"></a><span data-ttu-id="c7feb-104">Udskrive rapporter til afstemning af moms</span><span class="sxs-lookup"><span data-stu-id="c7feb-104">Print VAT Reconciliation Reports</span></span>

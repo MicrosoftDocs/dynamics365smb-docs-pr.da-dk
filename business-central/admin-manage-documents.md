@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 696100bfbcc987b1d684e7987e7fd43979813282
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 01b20f74d631a81085ffcaf205dd556c54d6369c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-documents"></a><span data-ttu-id="d0b30-103">Administrere dokumenter</span><span class="sxs-lookup"><span data-stu-id="d0b30-103">Manage Documents</span></span>
 <span data-ttu-id="d0b30-104">En central rolle, f.eks. som programadministrator, skal regelmæssigt håndtere store mængder akkumulerede oversigtsdokumenter, der skal slettes eller komprimeres.</span><span class="sxs-lookup"><span data-stu-id="d0b30-104">A central role, such as the application administrator, must regularly deal with accumulating historic documents by deleting or compressing them.</span></span>  
 
 ## <a name="delete-documents"></a><span data-ttu-id="d0b30-105">Slet dokumenter</span><span class="sxs-lookup"><span data-stu-id="d0b30-105">Delete Documents</span></span>
-<span data-ttu-id="d0b30-106">Du kan i visse situationer have behov for at slette fakturaer.</span><span class="sxs-lookup"><span data-stu-id="d0b30-106">In certain situations, you may need to delete invoiced purchase orders that have not been deleted.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="d0b30-107"> kontrollerer, om de slettede købsordrer er fuldt faktureret.</span><span class="sxs-lookup"><span data-stu-id="d0b30-107"> checks that you have fully invoiced the deleted purchase orders.</span></span> <span data-ttu-id="d0b30-108">Du kan kun slette ordrer, hvis de er blevet fuldt faktureret og modtaget.</span><span class="sxs-lookup"><span data-stu-id="d0b30-108">You cannot delete orders that you have not fully invoiced and received.</span></span>  
+<span data-ttu-id="d0b30-106">Du kan i visse situationer have behov for at slette fakturaer.</span><span class="sxs-lookup"><span data-stu-id="d0b30-106">In certain situations, you may need to delete invoiced purchase orders that have not been deleted.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="d0b30-107">kontrollerer, om de slettede købsordrer er fuldt faktureret.</span><span class="sxs-lookup"><span data-stu-id="d0b30-107"> checks that you have fully invoiced the deleted purchase orders.</span></span> <span data-ttu-id="d0b30-108">Du kan kun slette ordrer, hvis de er blevet fuldt faktureret og modtaget.</span><span class="sxs-lookup"><span data-stu-id="d0b30-108">You cannot delete orders that you have not fully invoiced and received.</span></span>  
 
 <span data-ttu-id="d0b30-109">Returvareordrer slettes normalt, når de er faktureret.</span><span class="sxs-lookup"><span data-stu-id="d0b30-109">Return orders are usually deleted after they are invoiced.</span></span> <span data-ttu-id="d0b30-110">Når en faktura bogføres, overføres den til vinduet **Bogført købskreditnota**.</span><span class="sxs-lookup"><span data-stu-id="d0b30-110">When you post an invoice, it is transferred to the **Posted Purchase Credit Memo** window.</span></span> <span data-ttu-id="d0b30-111">Hvis afkrydsningsfeltet **Returvarekvit. på kreditnota** er markeret i vinduet **Købsopsætning**, overføres fakturaen til vinduet **Bogført returvareleverance**.</span><span class="sxs-lookup"><span data-stu-id="d0b30-111">If you selected the **Return Shipment on Credit Memo** check box in the **Purchases & Payable Setup** window, then the invoice is transferred to the **Posted Return Shipment** window.</span></span> <span data-ttu-id="d0b30-112">Du kan slette dokumenter ved hjælp af kørslen **Slet fakt. købsreturvareordrer**.</span><span class="sxs-lookup"><span data-stu-id="d0b30-112">You can delete the documents using the **Delete Invd Purch. Ret. Orders** batch job.</span></span> <span data-ttu-id="d0b30-113">Før du sletter, kontrollerer kørslen, om købsreturvareordreordrer er fuldt leveret og faktureret.</span><span class="sxs-lookup"><span data-stu-id="d0b30-113">Before deleting, the batch job checks if the purchase return orders are fully shipped and invoiced.</span></span>  
 

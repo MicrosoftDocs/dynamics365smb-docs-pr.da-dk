@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ee163532fbc7588e45b0fba76a3c578f129d4fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2d7fd2c9d1387575254a7014c8a6f18c61c568d3
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning-services"></a><span data-ttu-id="73589-103">Planlægning af service</span><span class="sxs-lookup"><span data-stu-id="73589-103">Planning Services</span></span>
 <span data-ttu-id="73589-104">I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du konfigurere de standardopgaver, du skal bruge for at kunne opfylde virksomhedens krav til kundeservice.</span><span class="sxs-lookup"><span data-stu-id="73589-104">With [!INCLUDE[d365fin](includes/d365fin_md.md)], you can set up the standard tasks that you need to fulfill your customer service requirements.</span></span> <span data-ttu-id="73589-105">For at gøre dette skal du bestemme, hvilke serviceartikler og servicetilbud jeres serviceorganisation skal understøtte, og til hvilken pris.</span><span class="sxs-lookup"><span data-stu-id="73589-105">To do this, you must determine what service items and offerings your service organization supports, and at what price.</span></span>   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="73589-106"> indeholder også nogle statistikværktøjer, som du kan bruge til at bestemme, hvor godt det går, og til at identificere områder, der kan forbedres.</span><span class="sxs-lookup"><span data-stu-id="73589-106"> also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="73589-106">indeholder også nogle statistikværktøjer, som du kan bruge til at bestemme, hvor godt det går, og til at identificere områder, der kan forbedres.</span><span class="sxs-lookup"><span data-stu-id="73589-106"> also provides some statistics tools that you can use to determine how well things are going, and identify areas where you can improve.</span></span>
   
 <span data-ttu-id="73589-107">Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.</span><span class="sxs-lookup"><span data-stu-id="73589-107">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
   

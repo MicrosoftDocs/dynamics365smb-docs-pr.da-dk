@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8224f609dd110cd9f5d01d33d8e207f0c4aef6e0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 08d2f6498019b8ee0a646cec891ff897a62dc9de
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="date-calculation-for-purchases"></a><span data-ttu-id="675a2-104">Beregning af forfaldsdato for køb</span><span class="sxs-lookup"><span data-stu-id="675a2-104">Date Calculation for Purchases</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="675a2-105"> beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato.</span><span class="sxs-lookup"><span data-stu-id="675a2-105"> automatically calculates the date on which you must order an item to have it in inventory on a certain date.</span></span> <span data-ttu-id="675a2-106">Dette er den dato, du kan forvente, at varer, der er bestilt på en bestemt dato, er disponible til pluk.</span><span class="sxs-lookup"><span data-stu-id="675a2-106">This is the date on which you can expect items ordered on a particular date to be available for picking.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="675a2-105">beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato.</span><span class="sxs-lookup"><span data-stu-id="675a2-105"> automatically calculates the date on which you must order an item to have it in inventory on a certain date.</span></span> <span data-ttu-id="675a2-106">Dette er den dato, du kan forvente, at varer, der er bestilt på en bestemt dato, er disponible til pluk.</span><span class="sxs-lookup"><span data-stu-id="675a2-106">This is the date on which you can expect items ordered on a particular date to be available for picking.</span></span>  
 
 <span data-ttu-id="675a2-107">Hvis du angiver en ønsket modtagelsesdato på et købsordrehoved, er den beregnede ordredato den dato, hvor ordren skal være placeret for at modtage varerne på den dato, du har anmodet om.</span><span class="sxs-lookup"><span data-stu-id="675a2-107">If you specify a requested receipt date on a purchase order header, then the calculated order date is the date on which the order must be placed to receive the items on the date that you requested.</span></span> <span data-ttu-id="675a2-108">Derefter beregnes den dato, hvor varerne er disponible til pluk, og datoen indsættes i feltet **Forventet modt.dato**.</span><span class="sxs-lookup"><span data-stu-id="675a2-108">Then, the date on which the items are available for picking is calculated and entered in the **Expected Receipt Date** field.</span></span>  
 

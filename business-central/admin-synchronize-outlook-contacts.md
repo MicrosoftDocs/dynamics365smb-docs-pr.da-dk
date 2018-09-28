@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Office 365
-ms.date: 04/09/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: b535255be4b751744ae8c459bdc3d87cd1271dee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ef58b87146d84dc46ba9ad7a96ce0e57cbfe51c6
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a><span data-ttu-id="6ade7-103">Synkronisere kontaktpersoner i Business Central med kontaktpersoner i Microsoft Outlook</span><span class="sxs-lookup"><span data-stu-id="6ade7-103">Synchronize Contacts in Business Central with Contacts in Microsoft Outlook</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/11/2018
 
   <span data-ttu-id="6ade7-131">Denne handling synkroniserer alle kontakter i begge retninger, uanset datoen for sidste synkronisering og datoen for seneste ændring.</span><span class="sxs-lookup"><span data-stu-id="6ade7-131">This action synchronizes all contacts in both directions regardless of the last sync date and last modified date.</span></span>  
 
-<span data-ttu-id="6ade7-132">I begge tilfælde synkroniseres kontakter kun fra Outlook, hvis de nødvendige felter er udfyldt.</span><span class="sxs-lookup"><span data-stu-id="6ade7-132">In both cases, contacts are only synchronized from Outlook if they have the required fields filled in.</span></span> <span data-ttu-id="6ade7-133">De obligatoriske felter for synkronisering til Office 365 er **Navn**, **Mailadresse**, og de skal være af typen Person.</span><span class="sxs-lookup"><span data-stu-id="6ade7-133">The required fields to synchronize to Office 365 are **Name**, **Email address** and they must be of type Person.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="6ade7-134"> er overordnet med hensyn til kontaktoplysninger, så kontaktoplysninger fra [!INCLUDE[d365fin](includes/d365fin_md.md)] gemmes i tilfælde af dubletter.</span><span class="sxs-lookup"><span data-stu-id="6ade7-134"> is the master of the contact information, so the [!INCLUDE[d365fin](includes/d365fin_md.md)] contact information will be saved in the event of duplicates.</span></span>  
+<span data-ttu-id="6ade7-132">I begge tilfælde synkroniseres kontakter kun fra Outlook, hvis de nødvendige felter er udfyldt.</span><span class="sxs-lookup"><span data-stu-id="6ade7-132">In both cases, contacts are only synchronized from Outlook if they have the required fields filled in.</span></span> <span data-ttu-id="6ade7-133">De obligatoriske felter for synkronisering til Office 365 er **Navn**, **Mailadresse**, og de skal være af typen Person.</span><span class="sxs-lookup"><span data-stu-id="6ade7-133">The required fields to synchronize to Office 365 are **Name**, **Email address** and they must be of type Person.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="6ade7-134">er overordnet med hensyn til kontaktoplysninger, så kontaktoplysninger fra [!INCLUDE[d365fin](includes/d365fin_md.md)] gemmes i tilfælde af dubletter.</span><span class="sxs-lookup"><span data-stu-id="6ade7-134"> is the master of the contact information, so the [!INCLUDE[d365fin](includes/d365fin_md.md)] contact information will be saved in the event of duplicates.</span></span>  
 
 <span data-ttu-id="6ade7-135">I Outlook vises kontakter fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i en mappe under **Andre kontakter** i visningen **Personer**.</span><span class="sxs-lookup"><span data-stu-id="6ade7-135">In Outlook, the contacts from [!INCLUDE[d365fin](includes/d365fin_md.md)] are shown in a folder under **Other contacts** in the **People**  view.</span></span> <span data-ttu-id="6ade7-136">Hvis du ikke kender visningen Personer i Outlook, kan du gå til den fra indstillingerne for navigation i nederste venstre hjørne af Outlook.</span><span class="sxs-lookup"><span data-stu-id="6ade7-136">If you are not familiar with the People view in Outlook, then you can get to it from the navigation options in the bottom left corner of Outlook.</span></span>  
 

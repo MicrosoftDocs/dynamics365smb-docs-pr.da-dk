@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9628976ace37f672f86e23b365e49a7ce2f49aea
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-application"></a><span data-ttu-id="a29f9-103">Designoplysninger: Vareudligning</span><span class="sxs-lookup"><span data-stu-id="a29f9-103">Design Details: Item Application</span></span>
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="a29f9-106">Desuden foretages en vareudligning for at sammenkæde modtageren af omkostningerne til kilden for omkostninger for at videresende omkostninger i overensstemmelse med kostmetoden.</span><span class="sxs-lookup"><span data-stu-id="a29f9-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span></span> <span data-ttu-id="a29f9-107">Du kan finde flere oplysninger i [Designoplysninger: Kostmetoder](design-details-costing-methods.md).</span><span class="sxs-lookup"><span data-stu-id="a29f9-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="a29f9-108"> foretager to typer af vareudligning.</span><span class="sxs-lookup"><span data-stu-id="a29f9-108"> makes two types of item application.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="a29f9-108">foretager to typer af vareudligning.</span><span class="sxs-lookup"><span data-stu-id="a29f9-108"> makes two types of item application.</span></span>  
 
 |<span data-ttu-id="a29f9-109">Udligningstype</span><span class="sxs-lookup"><span data-stu-id="a29f9-109">Application type</span></span>|<span data-ttu-id="a29f9-110">Description</span><span class="sxs-lookup"><span data-stu-id="a29f9-110">Description</span></span>|  
 |----------------------|---------------------------------------|  
@@ -237,7 +237,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="a29f9-524">Du ønsker at tilsidesætte den udligning, der oprettes automatisk, når du bogfører, i henhold til varens kostmetode.</span><span class="sxs-lookup"><span data-stu-id="a29f9-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span></span>  
 * <span data-ttu-id="a29f9-525">Du skal returnere en vare, hvor salget allerede er udlignet manuelt, uden at bruge funktionen **Hent bogførte bilagslinjer, der skal tilbageføres**, og du skal derfor fortryde udligningen.</span><span class="sxs-lookup"><span data-stu-id="a29f9-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="a29f9-526"> indeholder en funktion, der analyserer og korrigerer vareudligninger.</span><span class="sxs-lookup"><span data-stu-id="a29f9-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="a29f9-527">Dette arbejde udføres i vinduet **Udligningskladde**.</span><span class="sxs-lookup"><span data-stu-id="a29f9-527">This work is performed in the **Application Worksheet** window.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="a29f9-526">indeholder en funktion, der analyserer og korrigerer vareudligninger.</span><span class="sxs-lookup"><span data-stu-id="a29f9-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="a29f9-527">Dette arbejde udføres i vinduet **Udligningskladde**.</span><span class="sxs-lookup"><span data-stu-id="a29f9-527">This work is performed in the **Application Worksheet** window.</span></span>  
 
 ## <a name="see-also"></a><span data-ttu-id="a29f9-528">Se også</span><span class="sxs-lookup"><span data-stu-id="a29f9-528">See Also</span></span>  
 [<span data-ttu-id="a29f9-529">Designoplysninger: Kendt problem med vareudligning</span><span class="sxs-lookup"><span data-stu-id="a29f9-529">Design Details: Known Item Application Issue</span></span>](design-details-inventory-zero-level-open-item-ledger-entries.md)  
