@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
@@ -43,7 +43,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
 |Lad brugerne udveksle data med eksterne kilder i daglige opgaver, f.eks. afsendelse eller modtagelse af elektroniske dokumenter, import og eksport af bankfiler og opdatering af valutakurser.|[Udveksle data elektronisk](across-data-exchange.md)|
 |Registrer eksterne dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], herunder deres vedhæftede filer, og opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
-
 
 ## <a name="see-also"></a>Se også
 [Opsætning](admin-setup-and-administration.md)  
