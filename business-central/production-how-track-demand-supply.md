@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72632dfd729806f9b96bff886d5dfce40bf8cb18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2300cc6e3f4c429cd73a17939420a44b846a3b13
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Spore relationer mellem behov og forsyning
@@ -29,7 +29,7 @@ Ordresporing viser, hvordan salgsordrer, produktionsordrer og købsordrer er rel
 
 Nedenstående beskrives, hvordan tilknyttede varer spores på en fastlagt produktionsordre. Trinene er de samme for alle andre typer og i forbindelse med planlægningskladdelinjer.
 
-1. Vælg ikonet ![Søg efter side eller en rapport](media/ui-search/search_small.png "Søg efter side eller en rapport ikonet"), angiv **Fastlagt produktionsordre**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagt produktionsordre**, og vælg derefter det relaterede link.
 2. Åbn den relevante fastlagte produktionsordre på listen.
 3. I oversigtspanelet **Linjer** skal du vælge handlingen **Funktioner** og derefter vælge handlingen **Ordresporing**.
 

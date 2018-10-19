@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 06/28/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 604b8ee545269707ebcabd3712aee0d4daf253a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75e2615dfd7af8ec6269affb0a61f75adf1c6d97
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registrere og refundere medarbejdernes udgifter
@@ -29,7 +29,7 @@ Hvis medarbejdere bruger deres egne penge under forretningsaktiviteter, kan du b
 
 ## <a name="to-record-an-employees-expense"></a>Sådan registrerer du en medarbejders udgift
 Du bogfører medarbejdernes udgifter i vinduet **Finanskladde**.
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finanskladder**, og vælg derefter det relaterede link.
 2. Åbn det relevante finanskladdenavn. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).
 3. Udfyld felterne efter behov på en ny kladdelinje. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 4. Gentag trin 3 for alle de udgifter, som er påløbet medarbejderen.
@@ -40,7 +40,7 @@ Du bogfører medarbejdernes udgifter i vinduet **Finanskladde**.
 
 ## <a name="to-reimburse-an-employee"></a>Sådan refunderer du en medarbejder
 Du refunderer medarbejdere ved at bogføre betalinger til deres bankkonto i vinduet **Udbetalingskladde**.
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. Åbn den relevante udbetalingskladdekørsel. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).
 3. Udfyld felterne efter behov. Du kan finde flere oplysninger under [Foretage betalinger](payables-make-payments.md).
 4. Du kan også vælge handlingen **Foreslå medarbejderbetaling** for automatisk at indsætte kladdelinjerne for ventende medarbejderrefusioner.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cea438b7d3dc1b14baaf76ae1b7ff97195f2191
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 20bc194772d1aa0a8caadf0605911d0a214a9ab2
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="close-income-statement-accounts"></a>Nulstille resultatopgørelseskonti
@@ -24,7 +24,7 @@ Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder. Brug 
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Sådan udføres kørslen Nulstil resultatopgørelse
 1. Afslut regnskabsåret. Regnskabsåret skal være afsluttet, før kørslen kan sættes i gang. Du kan finde flere oplysninger i [Afslutte regnskabsperioder](year-close-account-periods.md).
-2. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Nulstil resultatopgørelse**, og vælg derefter det relaterede link.
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Nulstil resultatopgørelse**, og vælg derefter det relaterede link.
 3. Vælg **OK** for at eksekvere kørslen.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Om kørslen Nulstil resultatopgørelse

@@ -10,26 +10,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2e7388bb03ce47f3ef7fe232c5c5d8e7b43c23d1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7d5b2ce28f1eaebfca26c2db3801b44ff5278e78
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-bins"></a>Oprette placeringer
 Den mest effektive metode til at oprette lagerplaceringer er at generere grupper af tilsvarende placeringer i oprettelseskladden, men du kan også oprette placeringer enkeltvist fra lokationskortet. Du kan også bruge en funktion i vinduet **Placeringsopr.kladde** til at oprette placeringer automatisk.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Sådan oprettes en placering ud fra lokationskortet  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg det relaterede link.  
 2.  Marker den lokation, du vil oprette en placering fra, og vælg derefter handlingen **Placeringer**.  
 3. Vælg handlingen **Ny**.
 4. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Sådan oprettes individuelle placeringer i placeringsoprettelseskladden  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Placeringsopr.kladde**, og vælg det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Placeringsopr.kladde**, og vælg det relaterede link.  
 2.  Udfyld de felter på hver linje, der er nødvendige for at navngive og karakterisere de placeringer, som du opretter.  
 3.  Vælg handlingen **Opret placeringer**.  
 
@@ -41,7 +41,7 @@ Du skal på forhånd have taget stilling til, hvilken slags placeringer der er b
 
 Hvis du vil arbejde med vinduet **Placeringsopr.kladde**, skal du være oprettet som lagermedarbejder på det sted, hvor placeringerne findes. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Placeringsopr.kladde**, og vælg det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Placeringsopr.kladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn placeringer**.
 3. I vinduet **Beregn placeringer** i feltet **Placeringsskabelonkode**, og vælg den placeringsskabelon, der skal bruges som model for de placeringer, som du opretter.
 4.  Indtast en beskrivelse af placeringerne.  

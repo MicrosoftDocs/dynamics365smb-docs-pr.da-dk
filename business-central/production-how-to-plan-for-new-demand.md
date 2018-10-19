@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7a519025bd7bed4bb2974c3e7fb5f044ac35dcf4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e2e937aee7defcc5226a3238652f88261004920c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planlægge efter nyt behov ordre for ordre
@@ -26,19 +26,19 @@ Du kan gå ind i vinduet **Ordreplanlægning** på to måder afhængigt af arbej
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Planlægge en specifik produktionsordre  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. (Du kan udføre disse trin for planlagte, fastlagte eller frigivne produktionsordrer).
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. (Du kan udføre disse trin for planlagte, fastlagte eller frigivne produktionsordrer).
 2.  Åbn den produktionsordre, du vil planlægge, og vælg derefter handlingen **Planlægning**.  
 3.  Vælg handlingen **Beregn plan** i vinduet **Ordreplanlægning**.  
 
 Der vises planlægningslinjer i vinduet i overensstemmelse med filteret **Produktionsbehov**, dvs. uopfyldte komponentlinjer for alle eksisterende produktionsordrer. Behovet for kun denne ene produktionsordre er ikke vist, fordi det er nødvendigt at planlægge til en produktionsordre med et overblik over behovet for eventuelle tidligere komponentlinjer. Planlægningslinjer for produktionsordren i kontekst udvides.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Sådan planlægges til alle nye behov  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn plan** i vinduet **Ordreplanlægning**.
 3.  Vælg knappen **Udvid (+)** foran datoen i feltet **Behovsdato** for at få vist de underliggende planlægningslinjer, der repræsenterer behovslinjer med manglende tilgængelighed.  
 4.  For hver udvidet planlægningslinje, dvs. behovslinje, vises der værdier i oplysningsfelterne nederst i vinduet.  
 
-    |Indstilling|Description|  
+    |Indstilling|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Mængde på andre lokationer**|Viser, om varen findes på en anden lokation. Du kan derefter søge efter og vælge den.|  
     |**Erstatning findes**|Viser om der produceres en erstatningsvare for varen. Du kan derefter søge efter og vælge den. Bemærk, at denne funktion kun gælder for komponenter, dvs. behovslinjer af typen **Produktion**.|  
@@ -49,7 +49,7 @@ Der vises planlægningslinjer i vinduet i overensstemmelse med filteret **Produk
 
     Standardværdien er værdien på varekortet, eller lagerkortet, men du kan ændre den til en af disse tre indstillinger:  
 
-    |Indstilling|Description|  
+    |Indstilling|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Køb**|Opretter en købsordre.|  
     |**Overførsel**|Opretter en overflytningsordre.|  
@@ -85,12 +85,12 @@ Der vises planlægningslinjer i vinduet i overensstemmelse med filteret **Produk
 >   Hvis du skriver en senere dato end behovsdatoen, modtager du en advarselsmeddelelse.  
 
 ## <a name="to-make-supply-orders"></a>Sådan laves forsyningsordrer  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. Du kan udføre disse trin for en planlagt, fastlagt eller frigivet produktionsordre.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. Du kan udføre disse trin for en planlagt, fastlagt eller frigivet produktionsordre.  
 2.  Åbn den produktionsordre, du vil planlægge, og vælg derefter handlingen **Planlægning**.  
 3.  Placer markøren på en relevant planlægningslinje, og vælg derefter handlingen **Lav ordrer**.  
 4.  Vælg en af følgende indstillinger i feltet **Lav ordrer for** i oversigtspanelet **Ordreplanlægning** i vinduet **Opret forsyningsordrer**.  
 
-    |Indstilling|Description|  
+    |Indstilling|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Den aktive linje**|Lav en forsyningsordre kun for den linje, markøren er placeret på.|  
     |**Den aktive ordre**|Lav en forsyningsordre for alle linje i den ordre, hvor markøren er placeret.|  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c0fd365ddcacf08a3fa49d70d5ebd0233ff5014
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Lægge varer på lager med Læg-på-lager (lager)
@@ -31,11 +31,11 @@ Du kan oprette et læg-på-lager på tre måder:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Sådan anmoder du om en læg-på-lager-aktivitet ved at frigive kildedokumentet
 I forbindelse med købsordrer, salgsreturvareordrer, indgående overflytningsordrer og montageordrer opretter du lageranmodningen ved at frigive ordren. Nedenfor kan du se, hvordan du gør det fra en købsordre.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsordrer**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.
 2. Vælg den købsordre, du vil frigive, og vælg derefter handlingen **Frigiv**.  
 
     I tilfælde af produktionsordrer kan du oprette lageranmodningen ved at oprette en indgående anmodning fra den frigivne produktionsordre.  
-3.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
+3.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
 4. Vælg handlingen **Opret indgående lageranmodning**.  
 
 > [!NOTE]  
@@ -45,7 +45,7 @@ Når lageranmodningen er oprettet, kan en lagermedarbejder, der er tildelt til l
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Sådan oprettes en læg-på-lager-aktivitet ud fra kildedokumentet
 Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette en ny læg-på-lager-aktivitet baseret på det frigivne kildedokument.   
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. I feltet **Kildedokumentet** skal du vælge den kildedokumenttype, du lægger på lager for.  
 4. Vælg kildedokumentet i feltet **Kildenr.**.  
@@ -58,7 +58,7 @@ Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette en ny læg-på-
 3. Vælg knappen **OK**. Der oprettes en ny læg-på-lager-aktivitet.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Sådan oprettes flere læg-på-lager-aktiviteter med en kørsel  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opret læg-på-lager/pluk (lager)**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret læg-på-lager/pluk (lager)**, og vælg derefter det relaterede link.  
 2.  Brug felterne **Kildedokument** og **Kildenr.** i oversigtspanelet **Lageranmodning** i vinduet til at filtrere på bestemte typer dokumenter eller rækker af dokumentnumre.  
 3.  I oversigtspanelet **Indstillinger** skal du markere afkrydsningsfeltet **Opret læg-på-lager (lager)**.
 4.  Vælg knappen **OK**. De angivne læg-på-lager-aktiviteter oprettes.

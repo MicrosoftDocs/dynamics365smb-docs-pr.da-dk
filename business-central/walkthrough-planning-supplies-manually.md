@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2992c2a9cbd2142e69cfb59294791ec31ce4dcb1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gennemgang: Manuel planlægning af forsyninger
@@ -69,7 +69,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 ### <a name="to-use-the-order-planning-window"></a>Sådan bruges vinduet Ordreplanlægning  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.  
 
      Når vinduet **Ordreplanlægning** først åbnes, skal der beregnes en plan for at få vist det nye behov, siden det sidst blev beregnet.  
 
@@ -227,7 +227,7 @@ The **Order Planning** window can be accessed from several different locations o
 
      Meddelelsen angiver, at alle påkrævede varer nu er leveret. Kontrollér de fastlagte produktionsordrer, der er oprettet.  
 
-13. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.  
+13. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagte prod.ordrer**, og vælg derefter det relaterede link.  
 
      Se, hvordan start- og sluttiderne for de enkelte ordrer er planlagt i overensstemmelse med produktstrukturen i vinduet **Fastlagte prod.ordrer**. Komponenterne til de laveste niveauer i strukturen produceres først. Derfor skal du planlægge ordrer med flere niveauer som vist i denne planlægningsprocedure.  
 

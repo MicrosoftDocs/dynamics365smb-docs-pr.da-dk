@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 06/12/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
-ms.openlocfilehash: f40f51ffec0d052e26bcaf34c928ef63e9adde4d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9a2d7999f3a4ecc3a597b6641ee1db69d754de4c
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/20/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-image-analyzer-extension-for-microsoft-business-central"></a>Billedanalyseudvidelsen til Microsoft Business Central
+# <a name="the-image-analyzer-extension"></a>Billedanalyseudvidelsen
 Billedanalyseudvidelsen bruger effektiv billedanalyse fra Computer Vision API'en til Computer Vision API til at registrere attributter i de billeder, du importerer til varer og kontaktpersoner, så du let kan gennemse og tildele dem. For varer kan attributterne dreje sig om, hvorvidt varen er et bord eller en bil, og om den er rød eller blå. For kontaktpersoner kan attributterne vedrøre køn eller alder.
 
 Billedanalysefunktionen foreslår attributter baseret på koder, der bliver fundet af Computer Vision API og et tillidsniveau. Som standard foreslås attributter kun, hvis der er mindst 80 % sikkerhed for, at attributten er korrekt. Du kan angive et andet tillidsniveau, hvis det er nødvendigt. Du kan finde flere oplysninger om, hvordan koder og tillidsniveauer fastlægges i [Computer Vision-API](https://go.microsoft.com/fwlink/?linkid=851476).  
@@ -28,7 +28,7 @@ Billedanalyseudvidelsen er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)],
 
 Når du har aktiveret udvidelsen, kører billedanalysefunktionen, hver gang du importerer et billede til en vare eller kontaktperson. Du får vist attributter, tillidsniveau og oplysninger med det samme og kan beslutte, hvad der skal gøres med hver attribut. Hvis du har importeret billeder, før du aktiverede billedanalyseudvidelsen, skal du gå til varen eller kontakten og vælge handlingen **Analysér billede**.  
 
-## <a name="privacy-notice"></a>Erklæring om beskyttelse af personlige oplysninger 
+## <a name="privacy-notice"></a>Erklæring om beskyttelse af personlige oplysninger
 Denne udvidelse bruger Computer Vision-API'en fra Microsoft Cognitive Services, som kan have forskellige niveauer af overensstemmelsesforpligtelser i forhold til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Når du aktiverer udvidelsen Image Analyzer filtypen, sendes debitordata, f.eks. et billede af en kontaktperson, til Computer Vision-API'en. Ved at installere denne udvidelse, accepterer du, at dette begrænsede sæt af data sendes til Computer Vision-API'en. Bemærk, at du til enhver tid kan deaktivere og fjerne udvidelsen Image Analyzer for at afbryde brugen af denne funktion. Du kan finde flere oplysninger i [Microsofts sikkerhedscenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Krav
@@ -47,25 +47,25 @@ Billedanalyseudvidelsen er indbygget i [!INCLUDE[d365fin](includes/d365fin_md.md
 1. Gør ét af følgende for at aktivere billedanalyseudvidelsen:
 
 * Åbn et vare- eller kontaktkort. Vælg **Analysér billeder** på meddelelseslinjen, og følg derefter trinnene i den assisterende opsætningsvejledning.  
-* Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalyse**. Marker afkrydsningsfeltet **Aktivér billedanalyse**, og fuldfør derefter trinnene i den assisterende opsætningsvejledning.  
+* Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalyse**. Marker afkrydsningsfeltet **Aktivér billedanalyse**, og fuldfør derefter trinnene i den assisterende opsætningsvejledning.  
 
     > [!TIP]  
-    > På siden **Opsætning af billedanalyse** kan du også ændre graden af tillid for attributforslag. Hvis du f.eks. ønsker en større grad af tillid, kan du angive en højere procentsats.
+    > I vinduet **Opsætning af billedanalyse** kan du også ændre graden af tillid for attributforslag. Hvis du f.eks. ønsker en større grad af tillid, kan du angive en højere procentsats.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Sådan analyseres et billede af en vare
-Nedenfor beskrives det, hvordan du analyserer et billede, der er blevet indlæst, før du har aktiveret billedanalyseudvidelsen.  
+Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indlæst, før du har aktiveret billedanalyseudvidelsen.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg vare, og vælg derefter handlingen **Analysér billede**.  
-3. På siden **Billedanalyseattributter** vises de registrerede attributter, tillidsniveauet og andre oplysninger om attributten. Brug indstillingerne **Handling, der skal udføres** for at angive, hvad der skal gøres med attributten.  
+3. I vinduet **Billedanalyseattributter** vises de registrerede attributter, tillidsniveauet og andre oplysninger om attributten. Brug indstillingerne **Handling, der skal udføres** for at angive, hvad der skal gøres med attributten.  
 
     > [!TIP]  
     > Du kan føje navnet på attributten til varebeskrivelsen ved at vælge **Føj til varebeskrivelse**. Det er f.eks. velegnet til hurtigt at tilføje detaljer.  
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Sådan analyseres et billede af en kontaktperson
-Nedenfor beskrives det, hvordan du analyserer et billede, der er blevet indlæst, før du har aktiveret billedanalyseudvidelsen.  
+Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indlæst, før du har aktiveret billedanalyseudvidelsen.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontakter**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.  
 2. Vælg kontaktpersonen, og vælg derefter handlingen **Analysér billede**.  
 3. I oversigtspanelet **Profilspørgeskema** skal du gennemgå forslagene og foretage rettelser, hvis det er nødvendigt.  
 
@@ -75,7 +75,7 @@ Hvis analysen foreslår en attribut, som du ikke vil have vist, kan du sortliste
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Sådan bruger du din egen konto til Computer Vision API'en
 Du kan også bruge din egen konto til Computer Vision API'en, f.eks. hvis du vil analysere flere billeder, end vi tillader.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af billedanalyse**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af billedanalysatoren**, og vælg derefter det relaterede link.  
 2. Angiv **URI for API** og **API-nøgle**, du har modtaget Computer Vision API.  
 
     > [!NOTE]  
@@ -84,11 +84,11 @@ Du kan også bruge din egen konto til Computer Vision API'en, f.eks. hvis du vil
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Sådan ser du, hvor mange analyser du har udfyldt i den aktuelle periode
 Du kan få vist antallet af analyser, du har udført, og hvor mange du stadig kan udføre, i den aktuelle periode.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af billedanalyse**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af billedanalysatoren**, og vælg derefter det relaterede link.  
 2. **Grænsetype**, **Grænseværdi** og **Udførte analyser** oplyser om forbruget.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Sådan afslutter du brugen af billedanalyseudvidelsen
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalyse**.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalysatoren**.  
 2. Fjern markeringen i afkrydsningsfeltet **Aktiver billedanalyse**.  
 
 ## <a name="see-also"></a>Se også

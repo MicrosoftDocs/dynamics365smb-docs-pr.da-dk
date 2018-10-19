@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a883598c4f8a3bb9593ec2a3b976d169887308da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Konfigurere salgsprocesser og -procesfaser for leads
@@ -25,7 +25,7 @@ Implementering af salgsprocesser for leads kræver, at du konfigurerer salgsproc
 I dette emne beskrives også opsætning af opgaver og aktiviteter, og hvordan du kan tildele opgaver til aktiviteter. Du kan finde flere oplysninger i afsnittet "Sådan oprettes aktiviteter til opgaver".
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Sådan oprettes salgsproceskoder for leads
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsprocesser**, og vælg derefter det relaterede link. Vinduet **Salgsprocesser** åbnes og viser de eksisterende salgsprocesser.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsproces**, og vælg derefter det relaterede link. Vinduet **Salgsprocesser** åbnes og viser de eksisterende salgsprocesser.
 2. Vælg handlingen **Ny**, og udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Gentag disse trin for hver salgsproces, du vil oprette. Når du har defineret salgsprocesser for leads, kan du definere de forskellige faser i hver proces.
@@ -42,7 +42,7 @@ Når du har tilføjet fasen i salgsprocessen for leads, kan du begynde at tilfø
 ## <a name="to-set-up-activities-with-tasks"></a>Sådan defineres aktiviteter til opgaver
 Du kan samle flere opgaver, for eksempel opgaver, der hver repræsenterer et trin, i aktiviteter. Aktivitetsopgaver er forbundet med hinanden vha. en datoformel. Du kan tildele aktiviteter til leads, sælgere og kontaktpersoner.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Aktiviteter**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Aktiviteter**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**, og udfyld felterne efter behov.
 3. I oversigtspanelet **Linjer** skal du udfylde felterne efter behov for at definere en eller flere opgaver i aktiviteten.
 
@@ -52,7 +52,7 @@ Når du har oprettet en opgave, kan du tildele den til et salgslead og dermed ti
 > [!NOTE]  
 >   Nedenfor beskrives, hvordan aktivitetsopgaver tildeles til leads. Trinene er de samme, når du tildeler opgaver til sælgere og kontaktpersoner.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leads**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsmuligheder**, og vælg derefter det relaterede link.
 2. Vælg et lead, og vælg derefter handlingen **Opgaver**.
 3. Vælg handlingen **Opret opgave** i vinduet **Opgaveliste**.
 4.  I vinduet **Opret opgave** skal du udfylde felterne efter behov.

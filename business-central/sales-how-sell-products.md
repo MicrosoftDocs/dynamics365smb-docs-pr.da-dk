@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/30/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: ad8936e09a8f093f5855a87c8d78e05839afefc1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1cd0b5b48993820cc37b53ce6202bb02e4cf0f1b
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-products"></a>Sælge produkter
@@ -37,12 +37,12 @@ Du kan også oprette direkte betalte ordrer for ikke-registrerede kunder ved fø
 
 Du kan nemt rette eller annullere en bogført salgsfaktura, der er oprettet i forbindelse med en salgsordre, inden den betales. Dette er nyttigt, hvis du vil rette en skrivefejl, eller hvis debitoren anmoder om en ændring i ordreprocessen. Du kan finde flere oplysninger under [Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md). Hvis den bogførte faktura betales, skal du oprette en salgskreditnota for at tilbageføre salget. Du kan finde flere oplysninger i [Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md).
 
-Varerne kan være både lagervarer og tjenester, angivet af typerne **Lager** og **Service** på varekortet. Salgsordreprocessen er den samme for begge varetyper. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
+Varekortet kan være af typen **Lager**, **Service** og **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke opbevares på lageret. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md). Salgsordreprocessen er den samme for alle tre varetyper.
 
 Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debitoren allerede er registreret. Se trin 2 og 3 i følgende procedure.
 
 ## <a name="to-create-a-sales-order"></a>Sådan oprettes en salgsordre
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
 2. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 
     Andre felter i vinduet **Salgsordre** er nu udfyldt med standardoplysningerne for den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:

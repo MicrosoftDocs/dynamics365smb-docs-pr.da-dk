@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a8d77f57072be841a521271efa7f0fd643363b8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gennemgang: Beregning af igangværende arbejder for en sag
@@ -49,7 +49,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
  Følgende tabel beskriver tre indstillinger.  
 
-|Felt|Description|  
+|Felt|Beskrivelse|  
 |-------------------------------------|---------------------------------------|  
 |**<blank>**|Lad stå tomt, hvis sagsopgaven er del af en gruppe opgaver.|  
 |**Total**|Definerer det område eller den gruppe af opgaver, der er medtaget i beregningen af VIA og registrering. Inden for gruppen vil alle sagsopgaver med **Sagsopgavetype** indstillet til **Bogføring** blive inkluderet i VIA i alt, medmindre feltet **VIA i alt** er indstillet til **Ekskluderet**.|  
@@ -59,7 +59,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 ### <a name="to-calculate-wip"></a>Sådan beregnes VIA  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2.  På listen **Sager** skal du vælge sagen **Kvalitetsmøbler** og derefter vælge handlingen **Rediger**. Dermed åbnes sagskortet i redigeringstilstand.  
 
      VIA kan beregnes ud fra Kostværdi, Salgsværdi, Salgsomkostning, Færdiggørelsesgrad og Afsluttet kontrakt. I dette eksempel bruger CRONUS kostværdimetoden.  
@@ -91,7 +91,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 ### <a name="to-review-wip-warnings"></a>Gennemgå VIA -advarsler  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **VIA-cockpit for job**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **VIA-cockpit for job**, og vælg derefter det relaterede link.  
 2.  Markér sagen **Kvalitetsmøbler**, og vælg derefter handlingen **Vis advarsler**.  
 3.  Gennemse den advarsel, der er knyttet til sagen i vinduet **Advarsler om igangværende arbejde**.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3152e16f5f4ebba4a20d4905def77d45e3f051ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adjust-item-costs"></a>Regulere varepriser
@@ -37,7 +37,7 @@ Hvis du bruger kostmetoden Gennemsnit, beregnes en vares kostpris som den gennem
 Funktionen til regulering af kostpriser behandler kun de værdiposter, der endnu ikke er reguleret. Hvis der opstår en situation, hvor funktionen skal overføre ændrede indgående omkostninger til tilknyttede udgående poster, oprettes nye justeringsværdiposter, som er baseret på oplysningerne i de oprindelige værdiposter, men som indeholder justeringsbeløbet. Omkostningsreguleringsfunktionen bruger bogføringsdatoen for den oprindelige værdipost i justeringsposten, medmindre den dato er inden for en lukket lagerperiode. Hvis det er tilfældet, bruges startdatoen for den næste åbne lagerperiode. Hvis der ikke anvendes lagerperioder, er det datoen i feltet **Bogf. tilladt fra** i vinduet **Opsætning af Finans**, der definerer, hvornår reguleringsposten bogføres.
 
 ## <a name="to-adjust-item-costs-manually"></a>Sådan reguleres varekostpriser manuelt
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Juster kostpris - vareposter**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Juster kostpris - vareposter**, og vælg derefter det relaterede link.
 2. I vinduet **Reguler kostværdi - vareposter** skal du angive de varer, hvis omkostninger skal reguleres.
 3. Vælg knappen **OK**.
 
@@ -46,7 +46,7 @@ Hvis du skal rette købsprisen for en række varer, kan du bruge kørslen **Regu
 
  Kørslen bruges til at rette oplysningerne i feltet **Købspris** på varekortet. Felterne ændres på samme måde for alle varer eller for de valgte varer. Det sker, ved at værdien i feltet ganges med en reguleringsfaktor, som du angiver.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Reguler varepriser**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Reguler varepriser**, og vælg derefter det relaterede link.  
 2. Angiv, hvilket vare- eller lagervarekortfelt, du vil justere, i feltet **Reguler felt**.  
 3. Angiv den faktor, som værdien skal reguleres med i feltet **Ganges med**. Skriv for eksempel **1,5** for at forøge værdien med 50 %.  
 4. Angiv f.eks. filtre for at specificere, hvilke varer der skal behandles med kørslen i oversigtspanelet **Vare**.  

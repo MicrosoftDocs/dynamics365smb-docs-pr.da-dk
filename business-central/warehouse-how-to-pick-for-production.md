@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bd8bf55a69833745739a5c575bee2a3818cb7634
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fe294cd56c01e1440ff04f7146fada64774f4e8b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-for-production-or-assembly"></a>Plukke til produktion eller montage
@@ -39,7 +39,7 @@ En systemforudsætning for plukning eller flytning af komponenter til kildedokum
 ## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Sådan plukkes komponenter i grundlæggende lageropsætninger
 I grundlæggende lageropsætninger, hvor placeringen er konfigureret til kun at bruge pluk, kan du plukke komponenter til produktionsaktiviteter i vinduet **Pluk (lager)**. Du kan finde flere oplysninger i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pluk (lager)**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk (lager)**, og vælg derefter det relaterede link.  
 2.  Du kan få adgang til produktionsordrekomponenterne ved at vælge handlingen **Hent kildedokumenter** og derefter vælge den frigivne produktionsordre.  
 3.  Foretag plukningen, og registrer derefter de faktiske plukoplysninger i feltet **Plukket antal**.  
 4.  Når linjerne er klar til at blive bogført, skal du vælge handlingen **Bogfør**. Bogføringen opretter de nødvendige lagerposter og bogfører forbruget af varer.  
@@ -86,11 +86,11 @@ Hvis du vil oprette pluk-anmodninger, både for pull- og push-scenarier, skal de
  |Kildedokument|Frigivelsesmetode|  
  |---------------------|--------------------|  
  |Produktionsordre|Skift ordretype til frigivet produktionsordre.|  
- |Montageordre|Skift status til frigivet.|  
+ |Montageordre|Skift status til Frigivet.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Sådan plukkes komponenter ved hjælp af plukkladden  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Plukkladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Plukkladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Hent lagerdokumenter**, og vælg derefter komponentlinjerne fra den frigivne produktionsordre.  
 3.  Sorter linjerne for at opnå en effektiv plukrunde, og kombiner dem eventuelt med andre kladdelinjer for udnytte medarbejderens tid optimalt.  
 4.  Vælg handlingen **Opret pluk**.  

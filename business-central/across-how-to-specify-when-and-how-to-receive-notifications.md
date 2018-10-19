@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42e03563ac3d1d12226df4089e4fe42aa2713a9b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 714ebd289407293f2a9fb8f05cad68330c79ad9a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Angive, hvornår og hvordan notifikationer modtages
@@ -30,11 +30,11 @@ Når du konfigurerer brugere i godkendelsesarbejdsgange, skal du angive i vindue
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Angive, hvornår og hvordan brugere modtager notifikationer  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
 2.  Vælg linjen med den bruger, du vil konfigurere notifikationsindstillinger for, og vælg derefter handlingen **Konfiguration af notifikation**.  
 3.  I vinduet **Konfiguration af notifikation** skal du udfylde felterne som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Notifikationstype**|Angiv, hvilken type hændelse notifikationen drejer sig om.<br /><br /> Vælg en af følgende indstillinger:<br /><br /> -   **Ny post** angiver, at notifikationen drejer sig om en ny post, f.eks. et dokument, som brugeren skal reagere på.<br />-   **Godkendelse** angiver, at notifikationen drejer sig om en eller flere godkendelsesanmodninger.<br />-   **Forfalden** angiver, at notifikationen skal bruges til at minde brugerne om, at fristen for at reagere på en hændelse er overskredet.|  
     |**Notifikationsskabelonkode**|Angiv koden på den notifikationsskabelon, der bruges til at oprette notifikationer for brugeren.|  
@@ -45,7 +45,7 @@ Når du konfigurerer brugere i godkendelsesarbejdsgange, skal du angive i vindue
 4.  Vælg handlingen **Notifikationsplan**.  
 5.  I vinduet **Notifikationsplan** skal du udfylde felterne som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Gentagelse**|Angiv gentagelsesmønsteret, som brugeren modtager notifikationer efter.|  
     |**Tidspunkt**|Angiv det tidspunkt på dagen, hvor brugeren modtager notifikationer, når værdien i feltet **Gentagelse** er forskellig fra **Øjeblikkeligt**.|  

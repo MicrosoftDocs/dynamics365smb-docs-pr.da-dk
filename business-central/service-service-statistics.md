@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30f93593985140abd49c6cd4f90a992da793b164
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -87,7 +87,7 @@ Der bliver genereret en gevinst/tabspost for kontrakten, når et kontrattilbud k
 |**Kontraktgevinst/-tab (årsager)**|Sådan får du vist kontraktgevinst/-tab efter årsagskode.|  
 |**Kontraktgevinst/-tab (ansv.cent.)**|Sådan får du vist kontraktgevinst/-tab efter ansvarscenter.|  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), skriv navnet på den side, der skal vises, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv navnet på den side, der skal vises, og vælg derefter det relaterede link.  
 2. Angiv de filterkriterier, du vil anvende. I vinduet **Kontraktgevinst/-tab (årsager)** skal du f.eks. vælge en værdi for **Årsagskodefilter**.  
 3. Vælg handlingen **Vis matrix**.
 

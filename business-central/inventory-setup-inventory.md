@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 62eee7532e457721430cb31519b5acb23e95bfcb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-inventory"></a>Opsætning af lagerbeholdning
@@ -26,12 +26,13 @@ Du kan yde bedre kundeservice og optimere forsyningskæden ved at organisere lag
 
 Når du har oprettet dit lager, kan du administrere forskellige lagerprocesser i relation til varetransaktioner. Du kan finde flere oplysninger i [Administrere lager](inventory-manage-inventory.md) og [Logistik](warehouse-manage-warehouse.md).
 
-| Til | Se |
+| Hvis du vil | Skal du se |
 | --- | --- |
 | Definere den generelle lageropsætning, f.eks nummerserier, og hvordan du bruger placeringer. |[Konfigurere generelle lageroplysninger](inventory-how-setup-general.md) |
 |Konfigurere en effektiv distributionsmodel med en kombination af forskellige lokationer og ansvarscentre, der er knyttet til forretningspartnere eller medarbejdere.|[Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
 | Organisere dit lager på flere lokationer, herunder overflytningsruter. |[Opsætte lokationer](inventory-how-register-new-items.md) |
-| Oprette varekort for lagervarer, som du handler med. |[Registrere nye varer](inventory-how-register-new-items.md) |
+| Opret varekort for lager-, ikke-lager- eller servicevarer, som du handler med. |[Registrere nye varer](inventory-how-register-new-items.md) |
+|Lære, hvordan du udfylder feltet **Type** på varekort i henhold til forretningsformål.|[Om varetyper](inventory-about-item-types.md)| 
 |Oprette flere enheder for en vare, der kan bruges som alternative vareenheder, f.eks. ved salg, køb eller produktionstransaktioner.|[Oprette vareenheder](inventory-how-setup-units-of-measure.md)|
 |Som et supplement til varekort kan du registrere oplysninger om dine varer på en bestemt lokation eller af en bestemt variant.|[Opsætte lagervarer](inventory-how-to-set-up-stockkeeping-units.md)|
 | Tildel varer til kategorier, og giv dem attributter, der kan hjælpe dig og kunderne med at finde varer. |[Kategorisere varer](inventory-how-categorize-items.md) |

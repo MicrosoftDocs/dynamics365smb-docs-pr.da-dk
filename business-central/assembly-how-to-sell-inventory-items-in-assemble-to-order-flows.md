@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 97b79683ba6c770912349c772f1f7adb443b94ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Sælge lagervarer i montage til ordre-forløb
@@ -35,7 +35,7 @@ Lignende funktionalitet er tilgængelig, når du sælger montageelementer fra la
 I denne procedure skal du erstatte montage efter ordre-mængder med lagerantal på en salgsordrelinje. Fremgangsmåden omfatter registrering af, at tilgængelighed findes med fradrag af mængden fra tilknyttet montageordre og derefter reservere lagerantal for at sikre, at det er plukkes og leveres til ordren.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Sådan sælges lagervarer i montage efter ordre-forløb  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Oprette en salgsordre. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
 3.  På en salgsordrelinje til et montage efter ordre-element i feltet **Antal** skal du angive det ønskede antal.  
 4.  I faktaboksen **Salgslinjedetaljer** skal du afgøre, om hele eller noget af den påkrævede mængde er tilgængelig.  

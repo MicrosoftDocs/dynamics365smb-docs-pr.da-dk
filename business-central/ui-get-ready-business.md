@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 02/19/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 5508b9336b0e6bffcc47632b95eac3691ab3891c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ddffef784a80227ea28b193779b4aead7c3b691a
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
@@ -26,9 +26,9 @@ For at blive klar til at handle kan gå til vinduet **Virksomhedshjælp**, hvor 
 I rollecenteret i navigationslinjen øverst kan du finde menuen **Installation og udvidelser**. Her kan du få adgang til en oversigt over assisteret opsætning, der kan hjælpe dig i gang. Når du har overført data som kreditorer, debitorer og varer fra dit eksisterende økonomisystem, er du klar til at begynde. Men afhængigt af dine behov skal du overveje, om den assisterede opsætning kan hjælpe dig. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningsvinduer, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Essentiel**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
+>   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**. Første gang du logger på, bruger du oplevelsen Essential. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 
-I vinduet **Assisteret opsætning** kan du finde følgende i **Basis**-oplevelsen:
+I vinduet **Assisteret opsætning** kan du finde følgende sammen med oplevelsen **Essentiel**:
 
 | Assisteret opsætning | Beskrivelse |
 | --- | --- |
@@ -60,7 +60,7 @@ Hvis du vil tilføje flere brugere, kan dette gøres fra Office 365 Administrati
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du finde værktøjstip, der kan hjælpe med at føre dig gennem de forskellige forretningsprocesser. Hvert værktøjstip indeholder linket **Få hjælp**, som fører til produkthjælp. Spørgsmålstegnet i øverste højre hjørne henviser også til produkthjælp.
 
 ## <a name="next-steps"></a>Efterfølgende trin
-Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs- eller købsdokumenter. Brug sektionen **Min virksomhed** på din **Startside** til hurtigt at oprette et nyt salgstilbud, salgsfaktura, salgsordre, købsfaktura eller betalingsregistrering.
+Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs- eller købsdokumenter. Brug sektionen **Min virksomhed** i dit **Startside**-vindue til hurtigt at oprette et nyt salgstilbud, salgsfaktura, salgsordre, købsfaktura eller betalingsregistrering.
 
 ## <a name="see-also"></a>Se også
 [Introduktion](product-get-started.md)  

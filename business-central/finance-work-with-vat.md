@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7bbda802c686c125420319151b4dea97f7f94994
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
@@ -56,8 +56,8 @@ Selvom du måske har oprettet en eller flere kombinationer til håndtering af im
 Hvis en kontantrabat er beregnet på basis af et fakturabeløb, der er inkl. moms, tilbagefører du momsen af kontantrabatten, når rabatten er tildelt. Bemærk, at du skal aktivere feltet **Reguler moms ved kontantrabat** for både opsætning af finanskontiene generelt og momsbogføringsopsætning for en bestemt kombination af en momsvirksomhedsbogføringsgruppe og en momsproduktbogføringsgruppe.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Sådan angives moms manuelt i salgsbilag  
-1. På siden **Opsætning af Finans** skal du angive **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
-2. På siden **Salgsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
+1. I vinduet **Regnskabsopsætning** skal du angive en **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
+2. I vinduet **Salgsopsætning** markere afkrydsningsfeltet **Tillad momsdifference**.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Sådan reguleres moms for et salgsdokument  
 1. Åbn den relevante Salgsordre.  
@@ -71,11 +71,11 @@ Hvis en kontantrabat er beregnet på basis af et fakturabeløb, der er inkl. mom
 Du kan også justere momsbeløb i finans-, salgs- og købskladder. Det kan f.eks. være nødvendigt, når du angiver en kreditorfaktura i kladden, og der er en forskel mellem det momsbeløb, som [!INCLUDE[d365fin](includes/d365fin_md.md)] har beregnet, og momsbeløbet på kreditorfakturaen.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Før du manuelt angiver moms i en finanskladde  
-1. På siden **Opsætning af Finans** skal du angive **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
-2. På siden **Finanskladdetyper** skal du markere afkrydsningsfeltet **Tillad momsdifference** for den relevante kladde.  
+1. I vinduet **Regnskabsopsætning** skal du angive en **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
+2. I vinduet **Finanskladdetyper** skal du markere afkrydsningsfeltet **Tillad momsdifference** for den relevante kladde.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Før du manuelt angiver moms i salgs- og købskladder  
-1. På siden **Købsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
+1. I vinduet **Købsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
 2. Når du har fuldført konfigurationen som beskrevet ovenfor, kan du justere værdien i feltet **Momsbeløb** på finanskladdelinjen eller værdien i feltet **Modkontos momsbeløb** på salgs- eller købskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, at differencen ikke er større end det angivne maksimum.  
   
     > [!NOTE]  
@@ -87,14 +87,14 @@ I stedet for at bruge en finanskladde, når du bogfører en faktura med importmo
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurere Indkøb til at bogføre fakturaer med importmoms  
 1. Opret et kreditorkort for den importmyndighed, der sender dig fakturaen med importmoms. Du skal vælge de samme indstillinger til **Virksomhedsbogføringsgruppe** og **Momsvirksomhedsbogf.gruppe** som til den finanskonto, der bruges til importmoms.  
 2. Opret en **Produktbogføringsgruppe** til importmomsen, og opret en **Momsproduktbogf.gruppe**, der skal bruges som standard til den tilhørende **Produktbogføringsgruppe**.  
-3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
+3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
 4. Markér finanskontoen for importmoms og vælg derefter **Rediger** i gruppen **Administrer** under fanen **Startside**.  
 5. På oversigtspanelet **Bogføring** skal du vælge opsætningen **Produktbogføringsgruppe** for at importere moms. [!INCLUDE[d365fin](includes/d365fin_md.md)] udfylder automatisk feltet **Momsproduktbogf.gruppe**.  
-6. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
+6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 7. Opret en kombination af **Virksomhedsbogføringsgruppe** til momsmyndighederne og **Produktbogføringsgruppe** til importmoms. Til denne nye kombination skal du i feltet **Købskonto** vælge finanskontoen for importmoms.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Sådan oprettes en ny faktura til importmyndigheden (leverandører), når du har foretaget opsætningen  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Opret en ny købsfaktura.  
 3. I feltet **Leverandørnr.** skal du vælge importmyndigheden (leverandøren), og derefter vælge knappen **OK**.  
 4. På købslinjen i feltet **Type** skal du vælge **Finanskonto** og i feltet **Nummer** og vælge finanskontoen til importmoms.  
@@ -106,7 +106,7 @@ I stedet for at bruge en finanskladde, når du bogfører en faktura med importmo
 Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende kunden et leveringscertifikat, som kunden skal underskrive og returnere til dig. Der er følgende procedurer for behandling af leveringscertifikater for salgsleverancer, men de samme trin gælder for serviceleverancer af varer og returvareleverancer til kreditorer.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Sådan får du vist leveringscertifikatdetaljer  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsleverancer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsleverancer**, og vælg derefter det relaterede link.  
 2. Vælg den relevante salgsleverance til en kunde i et andet EU-land/-område.  
 3. Vælg **Leveringscertifikatdetaljer**.  
 4. Som standard, hvis afkrydsningsfeltet **Leveringscertifikat påkrævet** er markeret for opsætningen af momsbogføringsgruppen for kunden, er feltet **Status** indstillet til **Påkrævet**. Du kan opdatere feltet for at angive, om kunden har returneret certifikatet.  
@@ -125,25 +125,25 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
     >  Du kan se eller udskrive dokumentet. Når du vælger **Udskriv leveringscertifikat** og udskriver dokumentet, bliver afkrydsningsfeltet **Udskrevet** automatisk markeret. Desuden, hvis det ikke allerede er angivet, opdateres status for certifikatet til **Påkrævet**. Du kan evt. også medtage det udskrevne certifikat i leverancen.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Sådan udskriver du et leveringscertifikat  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsleverancer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsleverancer**, og vælg derefter det relaterede link.  
 2. Vælg den relevante salgsleverance til en kunde i et andet EU-land/-område.  
 3. Vælg handlingen **Udskriv leveringscertifikat**.  
 
     > [!NOTE]  
-    >  Alternativt kan du udskrive et certifikat fra siden **Leveringscertifikat**.  
+    >  Alternativt kan du udskrive et certifikat fra vinduet **Leveringscertifikat**.  
 
 4. Markér afkrydsningsfeltet **Udskriv linjedetaljer** for at medtage oplysninger fra linjerne på leverancedokumentet i certifikatet.  
 5. Markér afkrydsningsfeltet **Opret leveringscertifikater, hvis de ikke allerede er oprettet** for at få [!INCLUDE[d365fin](includes/d365fin_md.md)] til at oprette certifikater til bogførte leverancer, der ikke har ét på tidspunktet for udførelsen. Når du markerer afkrydsningsfeltet, oprettes nye certifikater for alle bogførte leverancer, der ikke har certifikater i det valgte område.  
 6. Som standard er filterindstillingerne for det leverancedokument, du har valgt. Udfyld filtreringsoplysningerne for at vælge et bestemt certifikat for levering, som du vil udskrive.  
-7. På siden **Leveringscertifikat** skal du vælge knappen **Udskriv** for at udskrive rapporten eller vælge handlingen **Vis udskrift** for at se den på skærmen.  
+7. I vinduet **Leveringscertifikat** skal du vælge knappen **Udskriv** for at udskrive rapporten eller vælge handlingen **Vis udskrift** for at se den på skærmen.  
 
     > [!Note]  
-    > Feltet **Status for leveringscertifikat** og feltet **Udskrevet** opdateres med leveringen på siden **Leveringscertifikater**.  
+    > Feltet **Status for leveringscertifikat** og feltet **Udskrevet** opdateres med leveringen i vinduet **Leveringscertifikater**.  
 
 8. Send det trykte leveringscertifikat til underskrift hos kunden.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Sådan opdaterer du status for et leveringscertifikat til en leverance  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsleverancer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsleverancer**, og vælg derefter det relaterede link.  
 2. Vælg den relevante salgsleverance til en kunde i et andet EU-land/-område.  
 3. Vælg den relevante indstilling i feltet **Status**.  
 
@@ -156,7 +156,7 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
 Hvis du vil se en gruppe af certifikater, skal du starte fra vinduet **Leveringscertifikater** og derefter opdatere oplysninger om status for udestående certifikater, når du får dem tilbage fra dine kunder. Dette kan være nyttigt, når du vil søge efter alle de certifikater, der har en bestemt status, for eksempel **Påkrævet**, hvis status du vil opdatere til **Ikke modtaget**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Sådan opdaterer du status for en gruppe af leveringscertifikater  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leveringscertifikater**, og vælg det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leveringscertifikater**, og vælg det relaterede link.  
 2. Filtrer feltet **Status** til den værdi, du ønsker, for at oprette en liste over certifikater, som du vil administrere.  
 3. For at opdatere statusoplysningerne skal du vælge **Rediger liste**.  
 4. Vælg den relevante indstilling i feltet **Status**.  

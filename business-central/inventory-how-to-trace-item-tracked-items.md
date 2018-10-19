@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 15676c264736b4547dd32cd7a37b252757f73b2a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Spore vare via varesporing
@@ -32,11 +32,11 @@ Du kan se, hvor en vare med varesporing blev brugt, herunder hvordan og hvornår
 
 ## <a name="to-trace-item-tracked-items"></a>Sådan spores varer via varesporing  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varesporing**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varesporing**, og vælg derefter det relaterede link.  
 2.  Du kan angive bestemte varenumre i filterfelterne øverst i vinduet, eller du kan angive et filter for et interval af de varenumre, du vil spore.  
 3.  I feltet **Vis komponenter** kan du vælge, om du også vil se, hvor komponenterne til varerne stammer fra. Der er følgende indstillinger i feltet.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Nej**|Vælg denne indstilling, hvis du ikke vil have vist nogen komponenter.|  
     |**Kun varesporing**|Vælg denne indstilling, hvis du kun vil se de komponenter, der har lot- eller serienumre.|  
@@ -44,7 +44,7 @@ Du kan se, hvor en vare med varesporing blev brugt, herunder hvordan og hvornår
 
 4.  Vælg den metode i feltet **Sporingsmetode**, du vil bruge til sporing af varen. Der findes følgende indstillinger  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Forbrug->Oprindelse**|Denne metode sporer varen ved at starte med, hvor den blev brugt til, hvor den kom fra. Hvis f.eks. en produceret vare blev solgt til en debitor, viser vinduet **Varesporing** dette med salgsleverancelinjen først, som du derefter kan udvide, så du kan se, hvilken produktionsordre den kom fra.|  
     |**Oprindelse->Forbrug**|Denne metode sporer varen ved at starte med, hvor den ankommer til lageret, til hvor den blev brugt. Hvis f.eks. en produceret vare blev solgt til en debitor, viser vinduet **Varesporing** dette med den færdige produktionsordre først, som du derefter kan udvide, så du kan se, hvilken produktionsordre den kom fra.|  
@@ -61,7 +61,7 @@ Du kan se, hvor en vare med varesporing blev brugt, herunder hvordan og hvornår
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Sådan findes varesporede varer med Naviger  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Naviger**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Naviger**, og vælg derefter det relaterede link.  
 2.  Angiv de varesporingsnumre, du ønsker at spore, i felterne **Serienr.** og **Lotnr.** i oversigtspanelet **Varesporing**.  
 3.  Vælg handlingen **Find** for at finde alle forekomster af serienummer eller lotnummer i databasen.  
 

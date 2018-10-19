@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fd098170ac96b03f6f1da64b8de23b3f500c565
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-routings"></a>Oprette ruter
@@ -32,7 +32,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 - Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Sådan oprettes en rute  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ruter**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Vælg **Seriel** i feltet **Type** for at beregne produktionsruten i henhold til værdien i feltet **Operationsnr.**. .   
@@ -63,7 +63,7 @@ Du kan oprette rutebindinger til at knytte komponenter til bestemte operationer 
 
 En anden vigtig fordel er, at bundne komponenter og operationer vises i en logisk processtruktur, når vinduet **Produktionskladde** bruges til bogføring af afgang og forbrug.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ruter**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
 2.  Åbn ruten, der indeholder de handlinger, som du vil tilknytte.  
 
     Kontroller, at rutens status er **Under udvikling**.  
@@ -94,7 +94,7 @@ De valgte komponenter knyttes nu til de valgte operationer, når du opretter ell
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Sådan tildeles personale, værktøj og kvalitetsmål for ruteoperationer.
 Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller særlige tilladelser til en operation, kan du knytte dem til operationen her. Du kan også tildele værktøjer og kvalitetskrav til operationen. Denne procedure beskriver, hvordan du tildeler medarbejdere. Trinene er de samme for andre typer operationsoplysninger.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ruter**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
 2.  Åbn den relevante rute.  
 3.  På oversigtspanelet **Linjer** skal du markere den linje, du vil behandle, og derefter vælge handlingen **Medarbejdere**.  
 4.  Udfyld felterne i vinduet **Rute - Mandskab**.  
@@ -103,7 +103,7 @@ Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller sæ
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Sådan oprettes en ny version af ruter  
 Versionsprincippet gør det muligt for dig at styre flere versioner af en rute. Ruteversionens struktur svarer til rutens struktur, og den består af ruteversionshovedet og -linjerne. Den egentlige forskel består i startdatoen.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ruter**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
 2.  Vælg den rute, der skal kopieres, og vælg derefter handlingen **Versioner**.  
 3. I vinduet **Ruteversioner** skal du vælge handlingen **Ny**.
 4. Udfyld felterne efter behov.

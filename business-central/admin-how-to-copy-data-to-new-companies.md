@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4598d059d40e231de0230b43fe7863759005db70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiere data til nye virksomheder
@@ -24,7 +24,7 @@ Du kan kopiere værdier, der ofte bruges fra en eksisterende virksomhed til en n
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Kopiere data til en ny virksomhed ved brug af RapidStart Services  
 1. Åbn det nye regnskab.  
-2. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsregneark**, og vælg det relaterede link.  
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 3. Vælg **Kopiér data fra virksomhed**.  
 4. I vinduet **Kopiér virksomhedsdata** skal du vælge en virksomhed, der skal kopieres fra i feltet **Kopiér fra** og derefter vælge knappen **OK**.  
 5. Vælg en tabel fra en af de konfigurationspakker, som du har importeret, og vælg derefter handlingen **Kopiér data**.

@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2cd83f8dccef2d5d34a809522f302e21aed44312
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 497f952684cd893bddd954378c02f55f45224f84
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Fremgangsmåde: Konfigurere og rapportere Intrastat
-Alle virksomheder i EU skal rapportere deres handel med andre EU-lande/områder. Du skal rapportere bevægelsen af varer til statistikmyndighederne i Danmark hver måned, og rapporten skal indleveres til skattemyndighederne. Dette omtales Intrastatrapportering. Du skal bruge siden **Intrastatkladde** til at udfærdige periodiske Intrastatrapporter.  
+Alle virksomheder i EU skal rapportere deres handel med andre EU-lande/områder. Du skal rapportere bevægelsen af varer til statistikmyndighederne i Danmark hver måned, og rapporten skal indleveres til skattemyndighederne. Dette omtales Intrastatrapportering. Du skal bruge vinduet **Intrastatkladde** til at udfærdige periodiske Intrastatrapporter.  
 
 ## <a name="required-and-optional-setups"></a>Krævede og valgfrie opsætninger
 Før du kan bruge Intrastatkladden til at rapportere Intrastatoplysninger, er der flere ting, du skal konfigurere:  
@@ -44,7 +44,7 @@ Du kan eksportere posterne til en fil, du kan sende til Intrastat-myndighederne.
 >  [!Note]
 > Vi anbefaler, at du opretter en Intrastatkladde for hver måned.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intrastatkladdetyper**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastatkladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Oprette en skabelon for hver Intrastatblanket, du bruger.  
 3. Hvis du vil oprette kladdenavne, skal du vælge fanen **Naviger** og derefter vælge **Navne**.  
 4. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Opret en skabelon for hver Intrastatblanket, du bruger.  
@@ -55,27 +55,34 @@ Du kan eksportere posterne til en fil, du kan sende til Intrastat-myndighederne.
 ### <a name="to-set-up-commodity-codes"></a>Sådan angives varekoder
 Alle varer, du køber eller sælger, skal have en varekode.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekoder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekoder**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Hvis du vil tildele en varekode til en vare, skal du gå til siden **Varekort**, udvide oversigtspanelet **Omkostninger og bogføring** og derefter angive koden i feltet **Varekode**.   
+3. Hvis du vil tildele en varekode til en vare, skal du gå til vinduet **Varekort**, udvide oversigtspanelet **Omkostninger og bogføring** og derefter angive koden i feltet **Varekode**.   
 
 ### <a name="to-set-up-transaction-nature-codes"></a>Sådan konfigurerer du koder for transaktionsarter
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koder for transaktionsarter**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koder for transaktionsarter**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
-> Hvis du ofte bruger en bestemt transaktionsartskode, kan du gøre den til standardkode. For at gøre dette skal du gå til siden **Intrastat, opsætning** og vælge koden.
+> Hvis du ofte bruger en bestemt transaktionsartskode, kan du gøre den til standardkode. For at gøre dette skal du gå til vinduet **Intrastat, opsætning** og vælge koden.
 
 ### <a name="to-set-up-transport-methods"></a>Sådan defineres transportmåder
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Transportmåder**, og vælg derefter det relaterede link.  
-2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Transportmåder**, og vælg derefter det relaterede link.  
+2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Sådan angiver du, hvilke Intrastatrapportfelter der skal udfyldes
+I nogle lande, f.eks. Spanien og Storbritannien, kræver myndighederne, at Intrastatrapporter omfatter f.eks. leveringsformen for køb eller visse andre værdier, når salgsordren er over en bestemt grænse. I vinduet **Intrastat, opsætning** kan du vælge **Opsætning af Intrastatkontrolliste** for at gøre felter obligatoriske i vinduet **Intrastatkladde**.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastat, Opsætning**, og vælg derefter det relaterede link.
+2. Vælge handlingen **Opsætning af Intrastatkontrolliste**.
+3. I vinduet **Opsætning af Intrastatkontrolliste** skal du klikke på **Feltnavn** for at vælge det Intrastatrapportfelt, du vil gøre obligatorisk. 
 
 ## <a name="to-report-intrastat"></a>Sådan rapporteres Intrastat
-Når du har udfyldt Intrastatkladden, kan du udskrive rapporten **Kontrolliste** for at kontrollere, at alle oplysninger i kladden er korrekte. Herefter kan du udskrive en Intrastatrapport som en formular eller oprette en fil, som skal sendes til skattemyndighederne i dit land/område.  
+Når du har udfyldt Intrastatkladden, kan du køre handlingen **Intrastat - kontrolliste** for at kontrollere, at alle oplysninger i kladden er korrekte. Obligatoriske felter, du har angivet i **Opsætning af Intrastatkontrolliste**, og som mangler værdier, vises i Fejl og advarsler-faktaboksen i vinduet **Intrastatkladde**. Herefter kan du udskrive en Intrastatrapport som en formular eller oprette en fil, som skal sendes til skattemyndighederne i dit land/område.  
 
 ### <a name="to-fill-in-intrastat-journals"></a>Sådan udfyldes Intrastatkladder  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intrastatkladde**, og vælg derefter det relaterede link.  
-2. På siden **Intrastatkladde** skal du vælge den relevante kladde i feltet **Kladdenavn** og derefter vælge **OK**.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastatkladde**, og vælg derefter det relaterede link.  
+2. I vinduet **Intrastatkladde** skal du vælge den relevante kladde i feltet **Kladdenavn** og derefter vælge **OK**.  
 3. Vælg handlingen **Foreslå linjer**. Felterne **Startdato** og **Slutdato** indeholder allerede datoerne for statistikperioden i kladdenavnet.  
 4. I feltet **Reguleringspct.** kan du angivet et procenttal til dækning af transport og forsikring. Hvis du angiver en procent, er indholdet af feltet **Statistisk værdi** i kladden forholdsmæssigt højere.  
 5. Vælg **OK** for at starte kørslen.  
@@ -83,13 +90,13 @@ Når du har udfyldt Intrastatkladden, kan du udskrive rapporten **Kontrolliste**
 Kørslen henter alle vareposter i statistikperioden og indsætter dem som linjer i Intrastatkladden. Du kan redigere linjerne efter behov.  
 
 > [!IMPORTANT]  
->  Kørslen henter kun de poster, der indeholder en lande-/regionskode, der er angivet en Intrastatkode for, på siden **Lande/regioner**. Derfor skal du angive Intrastatkoder for den landekode, som du udfører kørslen for.  
+>  Kørslen henter kun poster, der indeholder en landekode, der er angivet en Intrastatkode for, i vinduet **Lande**. Derfor skal du angive Intrastatkoder for den landekode, som du udfører kørslen for.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportere Intrastat i en formular eller en fil
 Hvis du vil hente de oplysninger, der kræves på Intrastatblanketten fra de statistiske myndigheder, skal du udskrive rapporten **Intrastat – blanket**. Før du kan gøre dette, skal du forberede Intrastatkladden og udfylde den. Hvis du har både salgs- og købstransaktioner, skal du udfylde en separat blanket for hver type, så du skal udskrive rapporten to gange.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intrastatkladde**, og vælg derefter det relaterede link.  
-2. På siden **Intrastatkladde** skal du vælge den relevante kladde i feltet **Kladdenavn**.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastatkladder**, og vælg derefter det relaterede link.  
+2. I vinduet **Intrastatkladde** skal du vælge den relevante kladde i feltet **Kladdenavn**.  
 3. Hvis du ikke allerede har gjort det, skal du udfylde kladden manuelt eller vælge **Foreslå linjer**.  
 4. Vælg handlingen **Udskriver Intrastatkladde**.  
 5. I oversigtspanelet **Intrastatkladdelinje** skal du tilføje et **Type** filter og derefter angive, om det er en **Modtagelse** eller **Afsendelse**.  
@@ -98,7 +105,7 @@ Hvis du vil hente de oplysninger, der kræves på Intrastatblanketten fra de sta
 ### <a name="report-intrastat-in-a-file"></a>Rapportere Intrastat i en fil
 Du kan sende Intrastatrapporten som en fil. Før du opretter filen, kan du udskrive en kontrolliste, der indeholder de samme oplysninger som filens.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intrastatkladde**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastatkladde**, og vælg derefter det relaterede link.  
 2. I vinduet **Intrastatkladde** skal du vælge den relevante kladde i feltet **Kladdenavn**.  
 3. Hvis du ikke allerede har gjort det, skal du udfylde kladden manuelt eller ved at vælge **Foreslå linjer**.  
 4. Vælg handlingen **Opret fil**.  
@@ -109,7 +116,7 @@ Du kan sende Intrastatrapporten som en fil. Før du opretter filen, kan du udskr
 ## <a name="reorganize-intrastat-journals"></a>Reorganisere Intrastatkladder
 Da du skal sende en Intrastatrapport hver måned, og du opretter en ny kladde for hver rapport, vil du til sidst have mange kladder. Kladdelinjerne slettes ikke automatisk. Du vil muligvis reorganisere kladdenavne periodisk. Det gør du ved at slette kladder, der ikke længere er brug for. Kladdelinjerne i disse kørsler slettes også.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intrastatkladde**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastatkladder**, og vælg derefter det relaterede link.  
 2. Vælg feltet **Kladdenavn** for at få vist indstillingerne.  
 3. Vælg de kladder, der skal slettes, og vælg derefter **Slet**.  
 

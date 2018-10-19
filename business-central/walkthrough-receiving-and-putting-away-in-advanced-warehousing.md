@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3c1f7a6d08ac03da0d89bad464784b71249c36a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger
@@ -55,7 +55,7 @@ For at gennemføre denne gennemgang skal:
 -   CRONUS Danmark A/S være installeret.  
 -   Sådan opretter du dig selv som en lagermedarbejder på lokationen HVID ved at følge disse trin:  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto i vinduet **Brugere**.  
 3.  Angiv HVID i feltet **Lokationskode**.  
 4.  Markér feltet **Standard**.  
@@ -68,7 +68,7 @@ Opsætningen af vinduet **Lokationskort** definerer arbejdsgangene i virksomhede
 
 ### <a name="to-review-the-location-setup"></a>Sådan gennemgås lokationsopsætningen  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Åbn lokationskortet HVID.  
 3.  Bemærk, at i oversigtspanelet **Lagersted** er afkrydsningsfeltet **Styret læg-på-lager og pluk** markeret.  
 
@@ -83,7 +83,7 @@ Købsordrer er den mest almindelige type indgående kildedokument.
 
 ### <a name="to-create-the-purchase-orders"></a>Sådan oprettes købsordrerne  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Opret en købsordre for kreditor 10000 på arbejdsdatoen (23. januar) med følgende købsordrelinjer.  
 
@@ -114,14 +114,14 @@ Købsordrer er den mest almindelige type indgående kildedokument.
 I vinduet **Lagermodtagelse** kan du administrere flere indgående ordrer til kildedokumenter, f.eks. en købsordre.  
 
 ### <a name="to-receive-the-items"></a>Sådan modtages varerne  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermodtagelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelser**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Angiv HVID i feltet **Lokationskode**.  
 4.  Vælg handlingen **Brug filtre til at hente kildedok.**.  
 5.  Skriv **Tilbehør** i feltet **Kode**.  
 6.  I feltet **Beskrivelse** skal du indtaste **Kreditorer 10000 og 20000**.  
 7.  Vælg handlingen **Ret**.  
-8.  I oversigtspanelet **Køb** i skal du i feltet **Leverandørnummerfilter** angive **10000|20000**.  
+8.  I oversigtspanelet **Køb** i skal du i feltet **Leverandørnummerfilter** angive **10000&#124;20000**.  
 9. Vælg handlingen **Kør**. Lagermodtagelsen udfyldes med fire linjer, der repræsenterer købsordrelinjer for de angivne kreditorer. Feltet **Modtag (antal)** udfyldes, fordi du ikke markerede afkrydsningsfeltet **Undlad at udfylde håndteringsantal** i vinduet **Filtre til at hente kildedok.**.  
 10. Hvis du vil bruge et filter, som beskrevet tidligere i dette afsnit, skal du vælge handlingen **Hent kildedokument** og derefter vælge købsordrer fra de pågældende kreditorer.  
 11. Vælg handlingen **Bogfør modtagelse**, og vælg derefter knappen **Ja**.  
@@ -132,7 +132,7 @@ I vinduet **Lagermodtagelse** kan du administrere flere indgående ordrer til ki
 I vinduet **Læg-på-lager (logistik)** kan du administrere læg-på-lager-aktiviteter for et bestemt lagermodtagelsesdokument, der dækker flere kildedokumenter. Ligesom alle lageraktivitetsdokumenter, er hver vare på læg-på-lager repræsenteret af en Hent-linje og en Placer-linje. I følgende procedure er placeringskoden på Hent-linjerne standardmodtagelsesplaceringen for lokationen HVID, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Sådan lægges varerne på lager  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.  
 2.  Vælg det eneste læg-på-lager-dokument i oversigten, og vælg derefter **Rediger** på fanen **Startside** i gruppen **Administrer**.  
 
     Lagerets læg-på-lager-dokument åbnes med i alt otte Hent eller Placer-linjer til de fire købsordrelinjer.

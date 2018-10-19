@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6c71912f559aa8d1de361a581115ea1eb153cf35
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Konfigurere varer og lokationer til styret læg-på-lager og pluk
 Når lagerlokationen kræver styret læg-på-lager og pluk, kan du bruge en ny funktion, der hjælper dig med at styre lagerstedet på den mest effektive måde. Hvis du vil have fuldt udbytte af denne funktion, skal du give yderligere oplysninger om varerne, som til gengæld hjælper med at foretage de nødvendige beregninger for at kunne give forslag til de mest effektive måder at styre lageraktiviteter på. Du kan finde flere oplysninger i [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Sådan opsættes varer til styret læg-på-lager og pluk  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2.  Åbn kortet for den vare, som du vil konfigurere til styret læg-på-lager og pluk.
 3. Udfyld felterne i oversigtspanelet **Lagersted** på varekortet for at definere, hvordan varen skal håndteres på lagerstedet.  
 4.  Vælg handlingen **Enheder**.
@@ -35,7 +35,7 @@ Når lagerlokationen kræver styret læg-på-lager og pluk, kan du bruge en ny f
 Styret læg-på-lager og pluk giver dig adgang til funktioner for avanceret lageropsætning, der kan medføre en væsentlig forbedring af effektiviteten og dataenes pålidelighed. Hvis du vil bruge disse funktioner, skal du først opsætte en række parametre i lagerlokationen.  
 
 Hvis du vil benytte styret læg-på-lager og pluk, skal du aktivere den tilknyttede funktionalitet på lokationskortet.    
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Vælg den lokation, hvor du vil bruge styret læg-på-lager og pluk, og vælg derefter handlingen **Rediger**.  
 3.  I oversigtspanelet **Lagersted** skal du markere afkrydsningsfeltet **Styret læg-på-lager og pluk**.  
 
@@ -51,7 +51,7 @@ Du kan også definere lagerklassekoder, hvis der håndteres varer med forskellig
 Du er nu klar til at opsætte zoner, hvis du vil arbejde med zoner på lagerstedet. Brugen af zoner nedsætter det antal felter, det er nødvendigt at udfylde, når du skal oprette placeringer, fordi de placeringer, der oprettes inden for en zone, automatisk overtager en række egenskaber fra denne. Zoner kan også gøre det nemmere for nye eller midlertidige medarbejdere at finde rundt på lagerstedet. Bemærk, at strømmen styres af placeringer. Det er derfor muligt at styre med placeringer og kun have én zone.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Sådan oprettes en zone på lagerstedet  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Vælg den lokation, hvor du vil oprette zone, åbn lokationskortet, og vælg derefter handlingen **Zoner**.  
 3.  I vinduet **Zoner** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

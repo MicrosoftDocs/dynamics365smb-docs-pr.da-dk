@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Administrere notifikationsskabeloner
@@ -27,11 +27,11 @@ Notifikationer sendes til arbejdsgangsbrugere for at give dem besked om trin, de
  Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder tre notifikationsskabeloner, en til at give besked om godkendelsesanmodninger, en til at give besked om nye poster og en til at give besked om forfaldne godkendelsesanmodninger. De tre foruddefinerede notifikationsskabeloner understøtter **Mail** og **Note** som notifikationsmetode. Hvis du vil se indholdet af de tre notifikationsskabeloner, skal du se i afsnittet "Indholdet af notifikationsskabelonerne" i dette emne.
 
 ## <a name="to-create-a-new-notification-template"></a>Sådan opretter du en ny notifikationsskabelon  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Notifikationsskabeloner**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Notifikationsskabeloner**, og vælg derefter det relaterede link.  
 2.  I vinduet **Notifikationsskabeloner** skal du vælge handlingen **Ny**.  
 3.  Udfyld felterne som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Kode**|Identificer notifikationsskabelonen.|  
     |**Beskrivelse**|Beskriv notifikationsskabelonen.|  
@@ -40,7 +40,7 @@ Notifikationer sendes til arbejdsgangsbrugere for at give dem besked om trin, de
     |**Standard**|Angiv, om notifikationsskabelonen skal bruges som standard.|  
 
 ## <a name="to-modify-a-notification-template"></a>Sådan redigerer du en notifikationsskabelon  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Notifikationsskabeloner**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Notifikationsskabeloner**, og vælg derefter det relaterede link.  
 2.  I vinduet **Notifikationsskabeloner** skal du vælge den notifikationsskabelon, du vil redigere.  
 3.  Vælg handlingen **Eksportér skabelonindhold**.  
 4.  I vinduet **Udlæs fil** skal du klikke på knappen **Gem** og derefter navngive og gemme HTML-filen et relevant sted.  

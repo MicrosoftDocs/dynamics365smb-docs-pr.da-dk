@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2182b34721a3272ce784986de200cc87f51c2c37
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b92e6a5227fc2e1c60498ef2aafaae55deaedab8
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-bin-contents"></a>Oprette placeringsindhold
 Når du har oprettet placeringerne, kan du oprette placeringsindholdet. Du kan med andre ord sætte de varer op, som du vil opbevare på en bestemt placering, og angive regler, der styrer anbringelse af en bestemt vare på placeringen. Du kan gøre dette manuelt i vinduet **Placeringsindhold** eller automatisk med vinduet **Opret placeringsindholdskladde**.
 
 ## <a name="to-create-bin-content-manually"></a>Sådan oprettes placeringsindhold manuelt  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Marker den lokation, hvor du vil konfigurere placeringsindhold, og vælg derefter handlingen **Placeringer**.  
 3.  Marker den placering, hvor du vil konfigurere indholdet, og vælg derefter handlingen **Indhold**.  
 4.  For hvert element, du vil gemme i placeringen, skal du udfylde en linje i vinduet **Placeringsindhold** med de relevante oplysninger. Nogle felter er allerede udfyldt med oplysninger om placeringen.  
@@ -41,7 +41,7 @@ Hvis du markerer feltet **Fast**, knytter du permanent varen til placeringen, hv
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Sådan oprettes placeringsindhold med en kladde  
 Når du har oprettet placeringer, kan du angive, hvilke varer der skal opbevares på hver placering vha. en kladde.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opr.kladde til placeringsindh.**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opr.kladde til placeringsindh.**, og vælg derefter det relaterede link.  
 2.  Klik i feltet **Navn** i kladdehovedet, og vælg kladden for den lokation, hvor du vil oprette placeringsindhold.  
 3.  Vælg koden for den placering, hvis indhold du vil definere, i feltet **Placeringskode**.   
 

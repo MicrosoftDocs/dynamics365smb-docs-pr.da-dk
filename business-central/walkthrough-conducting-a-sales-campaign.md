@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c9dbffe821389fd237823acd110dd7e0c1ed908f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gennemgang: Gennemførsel af en salgskampagne
@@ -62,7 +62,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
 ### <a name="to-set-up-a-campaign"></a>Sådan oprettes en kampagne  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kampagner**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kampagner**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny** for at oprette en ny kampagne. På kampagnekortet skal du trykke på Enter for få indsat et kampagnenummer automatisk.  
 3.  Gå til feltet **Beskrivelse**, og indtast en beskrivelse af kampagnen, f.eks. **FUTURUS-handelsmesse**.  
 4.  Vælg feltet **Statuskode**, og vælg en statuskode fra listen, der åbnes i vinduet **Kampagnestatus**.  
@@ -126,7 +126,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 ### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Bruge en målgruppe til at sende et brev til en kontakt  
 
 1.  Åbn kortet **Målgruppe** for **Besøgende på FUTURUS-handelsmessen**.  
-2.  Gå til oversigtspanelet **Interaktion** og feltet **Interaktionsskabelonkode**, og vælg skabelonen Brev, kode **BUS**).  
+2.  Gå til oversigtspanelet **Interaktion** og feltet **Interaktionsskabelonkode**, og vælg skabelonen Brev, kode **BUS**.  
 3.  I feltet **Emne (standard)** kan du indtaste følgende eksempel på tekst: **Tak, fordi du besøgte handelsmessen**.  
 
     > [!NOTE]  
@@ -148,15 +148,15 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
 9. De vedhæftede filer sendes. Når processen er færdig, skal du vælge knappen **OK** for den meddelelse, der angiver, at målgruppen er registreret.  
 
-     Brevene udskrives automatisk, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er flyttet til listen over registrerede målgrupper. Hvis du vil se listen, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Logførte målgrupper** og derefter vælge det relaterede link.  
+     Brevene udskrives automatisk, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er flyttet til listen over registrerede målgrupper. For at se listen skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Gemte målgrupper**, og vælg derefter det relaterede link.  
 
 10. Når målgruppen er registreret, registreres hvert brev, der er sendt, som en interaktion, som du kan se i logfilen.  
 
-     Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Interaktionslogposter**, og vælg derefter det relaterede link. Der er en post for hvert brev, der er sendt.  
+     Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Interaktionslogposter**, og vælg derefter det relaterede link. Der er en post for hvert brev, der er sendt.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Sende en mail til en kontakt  
 
-1.  Gå til oversigtspanelet **Interaktion** og feltet **Interaktionsskabelonkode**, og vælg skabelonen Brev, kode **BUS**).  
+1.  Gå til oversigtspanelet **Interaktion** og feltet **Interaktionsskabelonkode**, og vælg skabelonen Brev, kode **BUS**.  
 2.  I feltet **Emne (standard)** kan du indtaste følgende eksempel på tekst: **Tak, fordi du besøgte handelsmessen**.  
 3.  Vælg **Mail** i feltet **Korrespondancetype**.  
 4.  Angive sprogindstillinger, som i den foregående procedure.  
@@ -165,7 +165,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 7.  Markér afkrydsningsfeltet **Opret opfølgningsmålgruppe**.  
 8.  Vælg knappen **OK**.  
 
-     Brevene sendes automatisk pr. mail, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er gemt på listen over registrerede målgrupper. Hvis du vil se listen, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Logførte målgrupper** og derefter vælge det relaterede link.  
+     Brevene sendes automatisk pr. mail, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er gemt på listen over registrerede målgrupper. For at se listen skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Gemte målgrupper**, og vælg derefter det relaterede link.  
 
 ## <a name="registering-campaign-responses"></a>Registrere kampagnesvar  
  I løbet af de næste par uger svarer kundeemnerne på brevet. Marketingchefen ønsker at holde styr på svarene og registrerer disse interaktioner.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Designoplysninger: Kendt problem med vareudligning
@@ -36,8 +36,6 @@ Artiklen starter ved at angive typiske symptomer på problemet, efterfulgt af de
      |333|28-01-2018|Salg|Salgsleverance|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|  
      |334|28-01-2018|Salg|Salgsleverance|102043|TEST|BLÅ|1|10|1|1|Ja|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Grundlæggende oplysninger om vareudligning  
  Der oprettes en vareudligningspost for hver lagertransaktion for at kæde omkostningsmodtageren sammen med omkostningskilden, så omkostningerne kan videresendes i henhold til kostmetoden. Du kan finde flere oplysninger i [Designoplysninger: Vareudligning](design-details-item-application.md).  
 
@@ -56,7 +54,7 @@ Artiklen starter ved at angive typiske symptomer på problemet, efterfulgt af de
 
  I følgende diagram vises, hvordan mængdeudligninger foretages.  
 
-![Hvorfor er lageret nul 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Kostreguleringsflow fra køb til salg](media/helene/TechArticleInventoryZero2.png "Kostreguleringsflow fra køb til salg")
 
  Bemærk ovenfor, at vareposten 1 (køb) både er leverandør af varen og omkostningskilden til den udlignende varepost, varepost 2 (salg).  
 
@@ -72,7 +70,6 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|28-01-2018|Salg|Salgsleverance|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|  
 |334|28-01-2018|Salg|Salgsleverance|102043|TEST|BLÅ|1|10|1|1|Ja|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Bemærk over den indgående varepost 3 (salgsreturvareordre) er en omkostningsmodtager for den oprindelige udgående varepost 2 (salg).  
 
@@ -81,7 +78,7 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
 
  I følgende diagram illustreres omkostningsflowet.  
 
-![Hvorfor er lageret nul 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Kostreguleringsflow fra salg til salgsreturvareordre](media/helene/TechArticleInventoryZero4.png "Kostreguleringsflow fra salg til salgsreturvareordre")
 
  Bemærk over kostprisen overføres til vareposten 2 (salg) og derefter til vareposten 3 (salgsreturvareordre), og til sidst til vareposten 4 (salg 2).  
 
@@ -94,7 +91,7 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
 
  I følgende diagram illustreres, hvordan vareudligninger foretages i begge scenarier.  
 
-![Hvorfor er lageret nul 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![Kostreguleringsflow går i begge retninger](media/helene/TechArticleInventoryZero6.png "Kostreguleringsflow går i begge retninger")  
 
  Bemærk, at der foretages en kostprisudligning (vises med blå pil) for at sikre, at post 2 (salgsreturvareordre) tildeles samme omkostninger som den varepost, den udligner, varepost 1 (salg 1). Men, der foretages ikke en antalsudligning (repræsenteret af den røde pil).  
 
@@ -115,7 +112,6 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|28-01-2018|Salg|Salgsleverance|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|Nej|  
 |334|28-01-2018|Salg|Salgsleverance|102043|TEST|BLÅ|1|10|1|1|Ja|**Ja**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   I vinduet **Bogført salgsleverance** skal du foretage opslag fra feltet **Udlign fra-varepost** for at se, om feltet er udfyldt, og så tilfælde til hvilken varepost returneringsmodtagelsen er omkostningsudlignet.  
 

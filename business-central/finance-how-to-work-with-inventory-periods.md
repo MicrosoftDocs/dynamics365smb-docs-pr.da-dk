@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d302483ca2d66870670aaa0914533472a807d04f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e6873ca2e4f4ab082bddad90f1ab59edb34a2a63
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-inventory-periods"></a>Arbejde med lagerperioder
@@ -29,7 +29,7 @@ Følgende afsnit beskriver, hvordan du kan:
 * Genåbn lagerperioder.  
 
 ## <a name="to-create-an-inventory-period"></a>Sådan oprettes en lagerperiode  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerperioder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerperioder**, og vælg derefter det relaterede link.  
 2. Opret en ny linje.  
 3. I feltet **Slutdato** skal du angive den sidste dato i den lagerperiode, du vil oprette. Når perioden lukkes, vil du ikke kunne bogføre ændringer til lagerbeholdningen før denne dato.  
 4. Indtast et beskrivende navn i feltet **Navn**. Vælg knappen **OK**.  
@@ -61,7 +61,7 @@ Det betyder, at alle udgående transaktionsantal, f.eks. dem fra salgsordrer, ud
 Når du har lukket lagerperioden, kan du ikke slette den. Du kan dog genåbne den, hvis du vil tillade bogføring før lagerperiodens slutdato. Hvis du genåbner en periode, genåbnes også alle de lagerperioder med slutdatoer, som er efter den periode, du genåbnede.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Sådan genåbnes en lagerperiode  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerperioder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerperioder**, og vælg derefter det relaterede link.  
 2. Vælg den lagerperiode, du vil åbne igen.  
 3. Vælg handlingen **Åbn periode igen**. Bekræft, at du vil genåbne perioden.  
 4. Alle lagerperioder med slutdatoer efter den periode, du valgte, genåbnes.  

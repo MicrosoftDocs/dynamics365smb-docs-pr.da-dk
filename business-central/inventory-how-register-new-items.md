@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: ac7664480d5a2db4642ecc2cb830c4d7022fb53b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e008e9664ebc449acab49e32d2c6efd7d1a0b6f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-items"></a>Registrere nye varer
@@ -23,17 +23,19 @@ Varer er, blandt andre produkter, grundlaget for din virksomhed og de varer elle
 
 Varekort indeholder de oplysninger, der kræves for at købe, opbevare, sælge, levere og føre regnskab med varer.
 
-Varekortet kan være af typen **Lager** eller **Service** for at angive, om varen er en fysisk enhed eller en arbejdstidsenhed. Bortset fra visse felter, der vedrører de fysiske aspekter af en vare, fungerer alle felter på et varekort på samme måde for lagervarer og tjenester. Du kan finde flere oplysninger om salg af en vare under [Sælge produkter](sales-how-sell-products.md) eller [Fakturere salg](sales-how-invoice-sales.md).
+Varekortet kan være af typen **Lager**, **Service** eller **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke spores på lageret. Du kan finde flere oplysninger i [Om varetyper](inventory-about-item-types.md).
 
 En vare kan struktureres som en overordnet vare med underliggende underordnede varer på en stykliste. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en stykliste enten være en montagestykliste eller en produktionsstykliste, afhængigt af dens anvendelse. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
 
-> [!NOTE]  
->   Hvis der er en vareskabelon til forskellige varetyper, vises der et vindue, når du opretter et nyt varekort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én vareskabelon, bruger nye varekort altid denne skabelon.
-
 Hvis du køber den samme vare fra flere forskellige leverandører, kan du forbinde disse leverandører på varekortet. Leverandørerne vises derefter i vinduet **Vare/leverandører**, så du nemt kan vælge en anden leverandør.
 
+Varer, som du tilbyder til dine kunder, men som du ikke vil administrere i dit system, før du begynder at sælge dem, kan oprettes som katalogvarer. Katalogvarer må ikke forveksles med almindelige varer af typen **Ikke-lager**. Du kan finde flere oplysninger under [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).  
+
+> [!NOTE]  
+> Hvis der er en vareskabelon til forskellige varetyper, vises der et vindue, når du opretter et nyt varekort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én vareskabelon, bruger nye varekort altid denne skabelon.
+
 ## <a name="to-create-a-new-item-card"></a>Sådan oprettes et nyt varekort
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2. I vinduet **Varer** skal du vælge handlingen **Ny**.
 
     Hvis der kun er én vareskabelon, åbnes nye varekort med nogle felter, der er udfyldt med oplysninger fra denne skabelon.
@@ -64,7 +66,7 @@ Vareskabelonen føjes til listen over vareskabeloner, så du kan bruge den til a
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Sådan oprettes flere leverandører af en vare  
 Hvis du køber den samme vare fra flere forskellige leverandører, skal du angive oplysninger om hver vareleverandør, f.eks. priser, leveringstid og rabatter.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2.  Markér den relevante vare, og vælg derefter handlingen **Rediger**.  
 3.  Vælg handlingen **Leverandører**.  
 4.  Vælg feltet **Kreditornr.**, og vælg derefter den kreditor, du vil konfigurere for varen.  

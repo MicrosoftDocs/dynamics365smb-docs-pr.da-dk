@@ -5,16 +5,16 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 05/25/2018
+ms.date: 10/01/2018
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ec3efb324420956763c9db272c12c22241b86e55
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -31,7 +31,7 @@ Nedenstående tabel indeholder eksempler på typerne af anmodninger, som du kan 
 |Anmodningstype|Beskrivelse og foreslåede svar|
 |-----|-----|
 |Anmodninger om overførsel|Et dataemne kan foretage en anmodning om dataoverførsel, hvilket vil sige, at du skal eksportere dataemnets personlige oplysninger fra dine systemer og levere dem i et struktureret, normalt anvendt format. Du kan besvare disse anmodninger ved at bruge **værktøjet til databeskyttelse** til at eksportere personlige data til en Excel-fil eller en RapidStart-konfigurationspakke. Ved hjælp af Excel kan du redigere personlige oplysninger og gemme den i et almindeligt anvendt, maskinlæsbart format, f.eks. .csv- eller .xml. Med RapidStart-konfigurationspakker kan du konfigurere masterdatatabeller og deres relaterede tabeller, der indeholder personlige oplysninger. <br><br> **Bemærk:** Når du eksporterer data, angiver du et mindste følsomhedsniveau. Eksporten omfatter minimum og alle niveauer af følsomhed derover. Hvis du f.eks. vil eksportere data, der er klassificeret som personlige, omfatter eksporten også data, der er klassificeret som følsomme. <br><br>Ved eksport af data, der vedrører et dataemne søger **Værktøj til beskyttelse af personlige oplysninger** efter direkte relationer mellem dataemnet og data, der er relateret til emnet. Indirekte relationer mellem data, der er relateret til dataemnet og andre data, eksporteres ikke automatisk af **Værktøj til beskyttelse af personlige oplysninger**. Tabellen Kontakt f.eks. har direkte relaterede data for Svar på kontaktprofil, og tabellen Svar på kontaktprofil er igen relateret til profilspørgsmålsdata. Hvis du også vil eksportere profilspørgsmål, skal du tilføje denne tabel manuelt som en række med de relevante filtre i den konfigurationspakke, som **Værktøj til beskyttelse af personlige oplysninger** opretter.|
-|Anmodninger om sletning|Et dataemne kan anmode om, at du sletter deres personlige oplysninger. Der er flere måder at slette personlige oplysninger på ved hjælp af tilpasningsmulighederne, men beslutningen og implementeringen er dit ansvar. I nogle tilfælde kan vælge du at redigere dataene direkte, f.eks. ved at slette en kontakt og derefter udføre kørslen Slet annulleret interaktion for at slette interaktioner for kontakten. <br><br> **Bemærk:** Hvis du har angivet en dato i feltet **Tillad sletning af dokument før** på siderne **Opsætning af salg og tilgodehavender** eller **Købsopsætning**, skal du måske ændre datoen, så kan du slette bogførte salgs- og købsdokumenter, der er udskrevet, og hvor bogføringsdatoen er på eller inden denne dato.|
+|Anmodninger om sletning|Et dataemne kan anmode om, at du sletter deres personlige oplysninger. Der er flere måder at slette personlige oplysninger på ved hjælp af tilpasningsmulighederne, men beslutningen og implementeringen er dit ansvar. I nogle tilfælde kan vælge du at redigere dataene direkte, f.eks. ved at slette en kontakt og derefter udføre kørslen Slet annulleret interaktion for at slette interaktioner for kontakten. <br><br> **Bemærk:** Hvis du har angivet en dato i feltet **Tillad sletning af dokument før** i vinduet **Opsætning af salg og tilgodehavender** eller **Købsopsætning**, skal du måske ændre datoen, så kan du slette bogførte salgs- og købsdokumenter, der er udskrevet, og hvor bogføringsdatoen er på eller inden denne dato.|
 |Anmodninger om rettelse|Et dataemne kan anmode om, at du retter forkerte personlige oplysninger. Dette kan gøres på flere måder. I nogle tilfælde kan du eksportere lister til Excel til hurtig masseredigering af flere poster og derefter importere de opdaterede data. Du kan finde flere oplysninger under [Eksportere forretningsdata til Excel](about-export-data.md). Du kan også manuelt redigere felter, der indeholder personlige oplysninger, f.eks. redigere oplysninger om en debitor på debitorkortet. Men transaktionsposter, f.eks. finans-, debitor- og momsposter, er nødvendige for integriteten i ERP-systemet. Hvis du gemmer personlige data i forretningstransaktionsposter, kan du overveje at bruge funktionerne til tilpasning til at ændre disse personlige oplysninger.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Begrænse databehandling af et dataemne

@@ -8,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 06/19/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
-ms.openlocfilehash: 322f55f9233e89e6e6b5a710520b3e5931d9c44a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/20/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Købe varer til et salg
-Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.  
+Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.
+
+> [!Note]
+> Denne funktionalitet er til genopfyldning af salgsvarer på dit eget lager. Hvis du vil købe varer til direkte levering fra leverandøren til kunden, skal du oprette en direkte levering. Du kan finde flere oplysninger i [Foretage direkte leveringer](sales-how-drop-shipment.md).   
 
 |Funktion|Beskrivelse|
 |--------|-----------|
@@ -28,7 +31,7 @@ Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse 
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Sådan oprettes en eller flere købsordrer fra en salgsordre
 Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt på salgsordren, skal du bruge funktionen **Opret købsordrer**.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn en salgsordre, som du vil købe varer til.
 3. Vælg handlingen **Opret købsordrer**.
 
@@ -51,7 +54,7 @@ Når du vil oprette en enkelt købsfaktura for en eller flere linjer i et salgsd
 > [!NOTE]  
 >   Denne funktion opretter en købsfaktura for det nøjagtige vareantal i det valgte salgsdokument. Hvis du vil ændre købsantallet, skal du redigere købsfakturaen, når den er oprettet.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn en salgsfaktura, som du vil købe varer til.
 3. Marker en eller flere fakturalinjer, som du vil bruge på købsfakturaen. Hvis du vil bruge alle salgsfakturalinjer, skal du enten vælge dem alle eller ikke vælge nogen linjer.
 4. Vælg handlingen **Opret købsfaktura**.

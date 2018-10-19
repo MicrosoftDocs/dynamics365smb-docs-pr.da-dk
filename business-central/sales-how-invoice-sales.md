@@ -1,7 +1,6 @@
 ---
 title: Oprette en salgsfaktura eller salgsordre | Microsoft Docs
 description: "Beskriver, hvordan du opretter en salgsnota, en salgsfaktura eller salgsordre for at registrere en aftale med en kunde om at sælge produkter i henhold til bestemte betingelser."
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/30/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 97116be5c1a0fbbef2564120ac95030f488aafbc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 37875f3b09887176211f33538268706f11406fcf
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="invoice-sales"></a>Fakturere salg
@@ -30,22 +29,17 @@ I alle andre henseender fungerer salgsordrer og salgsfakturaer på samme måde. 
 
 Du kan forhandle med debitoren ved først at oprette et salgstilbud, som du kan konvertere til en salgsfaktura, når I har aftalt salget. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md).
 
-Hvis kunden beslutter at købe, bogfører du salgsfakturaen for at oprette det relaterede antal og værdiposterne. Når du bogfører salgsfakturaen, kan du også sende dokumentet som en vedhæftet PDF-fil i en mail. Du kan få brødteksten i mailen udfyldt med en oversigt over faktura- og betalingsoplysninger, f.eks. et link til PayPal. Du kan finde flere oplysninger under [Sende dokumenter via mail](ui-how-send-documents-email.md).
+Hvis kunden beslutter at købe, bogfører du salgsfakturaen for at oprette det relaterede antal og værdiposterne. Når du bogfører salgsfakturaen, kan du også sende dokumentet som en vedhæftet PDF-fil i en mail. Du kan få brødteksten i mailen udfyldt med en oversigt over faktura- og betalingsoplysninger, f.eks. et link til PayPal. Du kan finde flere oplysninger under [Sende dokumenter via mail](ui-how-send-documents-email.md). Når kunden derefter betaler fakturaen, kan du registrere betalingen på forskellige måder, afhængigt af størrelsen og de foretrukne arbejdsgange i organisationen. Du kan finde flere oplysninger i sektionen [Registrere udbetalinger](#registering-payments).  
 
-I virksomhedsmiljøer, hvor kunden betaler et stykke tid efter levering i overensstemmelse med betalingsbetingelserne, forbliver en bogført salgsfaktura åben (ubetalt), indtil afdelingen for tilgodehavender bekræfter, at betaling er modtaget og udligner betalingen til den bogførte salgsfaktura. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
-
-I forretningsmiljøer hvor debitor betaler med det samme, f.eks. via PayPal eller kontant, registreres betalingen med det samme, når du bogfører salgsfakturaen, dvs. at den bogførte salgsfaktura lukkes, som fuldt udlignet. Du vælger den relevante metode i feltet **Betalingsformskode** på salgsordren. Se under trin 8. Ved elektroniske betalinger, f.eks. PayPal, skal du også udfylde feltet **Betalingstjeneste**. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
-
-Du kan også oprette direkte betalte fakturaer for ikke-registrerede kunder ved først at oprette et "kontantkunde"-kort, som du så peger hen på salgsfakturaen. Der er flere oplysninger under [Oprette kontantkunder](finance-how-to-set-up-cash-customers.md).  
 
 Du kan nemt rette eller annullere en bogført salgsfaktura, før den er betalt. Dette er nyttigt, hvis du f.eks. vil rette en skrivefejl, eller hvis debitoren anmoder om en ændring i ordreprocessen. Du kan finde flere oplysninger under [Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md). Hvis den bogførte faktura betales, skal du oprette en salgskreditnota for at tilbageføre salget. Du kan finde flere oplysninger i [Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md).
 
-Varerne kan være både lagervarer og tjenester, angivet af typen **Lager** eller **Service** på varekortet. Salgsfakturaprocessen er den samme for begge varetyper. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
+Varekortet kan være af typen **Lager**, **Service** og **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke opbevares på lageret. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md). Salgsfakturaprocessen er den samme for alle tre varetyper.
 
 Du kan udfylde debitorfelter i salgsfakturaen på to måder, afhængigt af om debitoren er registreret. Se trin 2 og 3 i følgende procedure.
 
 ## <a name="to-create-a-sales-invoice"></a>Sådan oprettes en salgsfaktura
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 
    Andre felter i vinduet **Salgsfaktura** indeholder standardoplysningerne om den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:
@@ -93,7 +87,19 @@ Du kan udfylde debitorfelter i salgsfakturaen på to måder, afhængigt af om de
 
 Dialogboksen **Bekræftelse af bogfør og send** viser debitorens foretrukne metode til modtagelse af dokumenter. Du kan ændre afsendelsesmetoden ved at vælge opslagsknappen for feltet **Send bilag til**. Du kan finde flere oplysninger under [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
 
-De relaterede vare- og debitorposter oprettes nu i systemet, og salgsfakturaen udlæses som et PDF-dokument. Salgsfakturaen fjernes fra listen over salgsfakturaer og erstattes med et nyt bilag i oversigten over bogførte salgsfakturaer.
+De relaterede vare- og debitorposter oprettes nu i systemet, og salgsfakturaen udlæses som et PDF-dokument. Salgsfakturaen fjernes fra listen over salgsfakturaer og erstattes med et nyt bilag i oversigten over bogførte salgsfakturaer.  
+
+## <a name="registering-payments"></a>Registrere betalinger
+
+Afhængigt af dine forretningsmæssige behov kan du modtage betaling og registrere den på forskellige måder: manuelt, automatisk og ved hjælp af betalingstjenester.  
+
+Du kan behandle betalinger direkte fra debitorkortet eller debitorposterne. Brug funktionen **Registrer debitorbetalinger** for at hente en oversigt over de ubetalte fakturaer for den pågældende kunde. Marker fakturaen som betalt delvist eller helt. Denne betalingsudligning behandler dine debitorbetalinger ved at afstemme beløb, der er modtaget på bankkontoen, med de relaterede ubetalte salgsfakturaer og derefter bogføre betalingerne. Du kan finde flere oplysninger i [Sådan afstemmes betalinger manuelt](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
+
+I virksomhedsmiljøer, hvor kunden betaler et stykke tid efter levering i overensstemmelse med betalingsbetingelserne, forbliver en bogført salgsfaktura åben (ubetalt), indtil afdelingen for tilgodehavender bekræfter, at betaling er modtaget og udligner betalingen til den bogførte salgsfaktura. Dette kan gøres manuelt eller automatisk. Du kan finde flere oplysninger i [Afstemme debitorbetalinger manuelt](receivables-how-apply-sales-transactions-manually.md) og [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).  
+
+I forretningsmiljøer hvor debitor betaler med det samme, f.eks. via PayPal eller kontant, registreres betalingen med det samme, når du bogfører salgsfakturaen, dvs. at den bogførte salgsfaktura lukkes, som fuldt udlignet. Du vælger den relevante metode i feltet **Betalingsformskode** på salgsordren. Se under trin 8. Ved elektroniske betalinger, f.eks. PayPal, skal du også udfylde feltet **Betalingstjeneste**. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).  
+
+Du kan også oprette direkte betalte fakturaer for ikke-registrerede kunder ved først at oprette et "kontantkunde"-kort, som du så peger hen på salgsfakturaen. Der er flere oplysninger under [Oprette kontantkunder](finance-how-to-set-up-cash-customers.md).  
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

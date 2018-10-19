@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: feae398e064a03d01903fcc65c6f4d99be8374a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbejde med betalingstolerancer og kontantrabattolerancer
@@ -44,13 +44,13 @@ Du kan finde flere oplysninger i "Sådan aktiveres eller deaktiveres betalingsto
 Tolerancer på dato eller beløb giver dig mulighed for at afslutte en faktura, også selvom den ikke dækker fakturabeløbet fuldt ud, uanset om det skyldes, at forfaldsdatoen for betalingsrabatten er overskredet, om der er fratrukket varer, eller om der er tale om en mindre fejl. Det samme gælder for refusioner og kreditnotaer.  
 
 Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du skal både angive en metode til bogføring af kontantrabattolerance og en metode til bogføring af betalingstolerance og derefter afvikle kørslen **Skift betalingstolerance**.  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 2. I vinduet **Bogføringsopsætning** skal du oprette en debet- og en kreditsalgstolerancekonto og en debet- og kreditkøbstolerancekonto.  
-3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitorbogføringsgrupper**, og vælg derefter det relaterede link.    
+3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorbogføringsgrupper**, og vælg derefter det relaterede link.    
 4. I vinduet **Debitorbogføringsgrupper** skal du oprette en debet- og en kreditbetalingstolerancekonto. Du kan finde flere oplysninger under [Konfigurere bogføringsgrupper](finance-posting-groups.md).  
-5. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
+5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorbogføringsopsætning**, og vælg derefter det relaterede link.  
 6. I vinduet **Kreditorbogføringsgrupper** skal du oprette en debet- og en kreditbetalingstolerancekonto.  
-7. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
+7. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 8. Åbn vinduet **Opsætning af finans**.  
 9. På oversigtspanelet **Udligning** skal du udfylde felterne **Bogf. af kont.rabattolerance**, **Kontantrabat - respitperiode** and **Bogf. af betalingstolerance**.   
 10. Vælg handlingen **Skift betalingstolerance**.
@@ -68,7 +68,7 @@ Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Sådan aktiveres eller deaktiveres betalingstoleranceadvarsler
 Advarslen om betalingstolerance vises, når du bogfører en udligning, der har en saldo i den tilladte tolerance. Du kan derefter vælge, hvordan du vil bogføre og dokumentere saldoen.    
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. I vinduet **Opsætning af Finans** på oversigtspanelet **Udligning** skal du markere afkrydsningsfeltet **Betalingstolerance - advarsel** for at aktivere advarslen. Fjern markeringen i afkrydsningsfeltet, hvis du vil deaktivere advarslen.  
 
 > [!NOTE]  
@@ -77,7 +77,7 @@ Advarslen om betalingstolerance vises, når du bogfører en udligning, der har e
 ## <a name="to-block-payment-tolerance-for-customers"></a>Sådan spærres betalingstolerancer for debitorer  
 Standardindstillingen for betalingstolerancer er tilladt. Hvis du vil afvise betalingstolerancer for en bestemt debitor eller kreditor, skal du spærre tolerancer på henholdsvis debitor- eller kreditorkortet. Følgende beskriver, hvordan du skal gøre det for en debitor. Trinene er de samme for en kreditor.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.  
 2. På oversigtspanelet **Betalinger** skal du vælge afkrydsningsfeltet **Spær betalingstolerance**.  
 
 > [!NOTE]  
@@ -102,7 +102,7 @@ Scenarier med alternativ A eller B repræsenterer følgende:
 |3|1.000|20|5|01/15/03|c|<=15-01-03|975|Pmt.Tol.|Ja|0|5|  
 |4A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1005|Kont.rab.tolerance|Nr, 25 kont.|20/-20|0|  
 |5A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1000|Kont.rab.tolerance|Nr, 20 kont.|20/-20|0|  
-|6A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Kont.rab.tolerance|Nr., 15 kont.|20/-20|0|  
+|8.0pt|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Kont.rab.tolerance|Nr., 15 kont.|20/-20|0|  
 |4B|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1005|Pmt.Tol.|Ja|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**16.01.03 - 20-01-03**|**1000**|**Ingen**|**Ja**|**0**|**0**|  
 |6B|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Pmt.Tol.|Ja|0|5|  
@@ -124,7 +124,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for en enkelt betalingstolerance &#40;før 03&#47;15&#41;](media/singlePmtTolRules(Pre1503).gif "singlePmtTolRules(Pre1503)")  
+![Regler for en enkelt betalingstolerance 1](media/singlePmtTolRules(Pre1503).gif "Regler for en enkelt betalingstolerance 1")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -135,7 +135,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for en enkelt betalingstolerance & #40; respitperiode& #41;](media/singlePmtTolRules(GracePeriod).gif "singlePmtTolRules(GracePeriod)")  
+![Regler for en enkelt betalingstolerance 2](media/singlePmtTolRules(GracePeriod).gif "Regler for en enkelt betalingstolerance 2")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -146,7 +146,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for en enkelt betalingstolerance &#40;før 01&#47;20&#41;](media/singlePmtTolRules(Post0120).gif "singlePmtTolRules(Post0120)")  
+![Regler for en enkelt betalingstolerance 3](media/singlePmtTolRules(Post0120).gif "Regler for en enkelt betalingstolerance 3")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -207,7 +207,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer &#40;før 03&#47;15&#41;](media/multiplePmtTolRules(Pre1503).gif "multiplePmtTolRules(Pre1503)")  
+![Regler for flere betalingstolerancer 1](media/multiplePmtTolRules(Pre1503).gif "Regler for flere betalingstolerancer 1")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -218,7 +218,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer & #40;respitperiode& #41;](media/multiplePmtTolRules(GracePeriodInv1).gif "multiplePmtTolRules(GracePeriodInv1)")  
+![Regler for flere betalingstolerancer 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Regler for flere betalingstolerancer 2")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -229,7 +229,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer & #40; respitperiode& #41;](media/multiplePmtTolRules(GracePeriodInv1-2).gif "multiplePmtTolRules(GracePeriodInv1-2)")  
+![Regler for flere betalingstolerancer 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regler for flere betalingstolerancer 3")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -240,7 +240,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer & #40;respitperiode& #41;](media/multiplePmtTolRules(GracePeriodInv2).gif "multiplePmtTolRules(GracePeriodInv2)")  
+![Regler for flere betalingstolerancer 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Regler for flere betalingstolerancer 4")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -251,7 +251,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer &#40;efter 01&#47;22&#41;](media/multiplePmtTolRules(Post0122).gif "multiplePmtTolRules(Post0122)")  
+![Regler for flere betalingstolerancer 5](media/multiplePmtTolRules(Post0122).gif "Regler for flere betalingstolerancer 5")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 

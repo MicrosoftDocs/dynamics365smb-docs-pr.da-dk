@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2a4fbc87be6f6c78feabe04ca0461ee1725c16e0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Fortryde bogføring af montage
@@ -42,7 +42,7 @@ Eksisterende montageordrer kan desuden kun gendannes, hvis antallet af linjer og
 Følgende procedure beskriver, hvordan du fortryder bogførte montageordrer, hvor der var tale om montage til lager-varer. Hvis du vil fortryde bogførte montageordrer, hvor der var tale om montage efter salgsordre-varer, skal du bruge funktionen **Annuller leverance** på den bogførte leverance, der er relateret til den bogførte montageordre. Du kan finde flere oplysninger i [Tilbageføre poster](finance-how-reverse-journal-posting.md). Tilbageførslen af den bogførte montageordre sker så automatisk på samme måde som beskrevet i dette emne.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Sådan fortrydes bogføring af en montageordre  
-1.  For at fortryde en helt eller delvist bogført montageordre skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Bogførte montageordrer** og vælge det relaterede link.  
+1.  For at fortryde en helt eller delvist bogført montageordre skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Bogførte montageordrer** og vælge det relaterede link.  
 
     Vinduet **Bogførte montageordrer** åbnes med en eller flere bogførte montageordrer, der er bogført fra den pågældende montageordre. Hver delvis bogføring opretter en separat bogført montageordre.  
 2.  Åbn den bogførte montageordre, du vil tilbageføre, og vælg derefter handlingen **Fortryd montage**.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 06/28/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 50d1429a58b878766c76ed97f65936db78191ee0
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Adgang til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-eksempelversionen
@@ -39,7 +39,7 @@ Der er flere oplysninger i [Anvende designer](https://docs.microsoft.com/en-us/d
 
 ### <a name="to-create-a-sandbox-environment"></a>Sådan opretter du et sandkassemiljø
 1.  Log ind på din produktions- eller eksempelversionsforekomst af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Vælg den ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sandkassemiljø**, og vælg derefter det relaterede link.
+2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sandkassemiljø**, og vælg derefter det relaterede link.
 3.  Vælg **Opret**. Der åbnes en fane, hvor du kan afslutte konfigurationen af din sandkasse.
 
     > [!Note]

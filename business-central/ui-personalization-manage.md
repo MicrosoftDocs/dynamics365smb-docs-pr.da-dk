@@ -10,34 +10,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 07/26/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 4914c0b7c269d5f725f33c839eb677455293cea0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Administrere tilpasning som administrator
-<!--NAV in the Web client-->
-Brugere kan tilpasse deres arbejdsområde, så det passer til deres egne præferencer. Som administrator kan du kan styre og administrere tilpasning ved at deaktivere brugernes mulighed for at tilpasse sider og ved at fjerne alle sidetilpasninger, som brugere har foretaget.
+<!--NAV in the Web client--> Brugere kan tilpasse deres arbejdsområde, så det passer til deres egne præferencer. Som administrator kan du kan styre og administrere tilpasning ved at deaktivere brugernes mulighed for at tilpasse sider og ved at fjerne alle sidetilpasninger, som brugere har foretaget.
 
 ## <a name="disable-personalization-for-a-profile"></a>Deaktivere tilpasning for en profil
 Du kan forhindre alle brugere, der tilhører en bestemt profil, i at tilpasse deres sider.
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Profiler**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Profiler**, og vælg derefter det relaterede link.
 2.  Vælg den profil på listen, der skal ændres.
 3. Markér afkrydsningsfeltet **Deaktiver tilpasning**, og vælg derefter knappen **OK**.
 
 ## <a name="clear-user-personalizations"></a>Fjern brugertilpasninger
 
-Når sidetilpasninger fjernes, går siden tilbage til det oprindelige layout, før der blev foretaget nogen tilpasning. Tilpasninger, som brugere har foretaget af sider, kan fjernes på to måder: ved brug af siden **Slet brugertilpasning** side og ved brug af siden **Brugertilpasningskort**.
+Når sidetilpasninger fjernes, går siden tilbage til det oprindelige layout, før der blev foretaget nogen tilpasning. Tilpasninger, som brugere har foretaget af sider, kan fjernes på to måder: ved brug af vinduet **Slet brugertilpasning** og ved brug af vinduet **Brugertilpasningskort**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Slette brugertilpasninger ved brug af siden Slet brugertilpasning
 
-Siden **Slet brugertilpasning** giver dig mulighed for at slette tilpasning på sidebasis for hver enkelt bruger.
+Vinduet **Slet brugertilpasning** giver dig mulighed for at slette tilpasning på sidebasis for hver enkelt bruger.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Slet brugertilpasning**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet brugertilpasning**, og vælg derefter det relaterede link.
 
     Siden viser alle de sider, der er blevet tilpasset, og den bruger, de tilhører.
 
@@ -50,11 +49,11 @@ Siden **Slet brugertilpasning** giver dig mulighed for at slette tilpasning på 
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Slette brugertilpasninger ved brug af siden Brugertilpasningskort
 
-Siden **Brugertilpasningskort** giver dig mulighed for at slette tilpasningen på alle sider for en specifik bruger. Det kræver skrivetilladelse til tabel 2000000072 **Profil**.
+Vinduet **Brugertilpasningskort** giver dig mulighed for at slette tilpasningen på alle sider for en specifik bruger. Det kræver skrivetilladelse til tabel 2000000072 **Profil**.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugertilpasning**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugertilpasning**, og vælg derefter det relaterede link.
 
-    Siden **Brugertilpasning** viser alle brugere, der muligvis kan have personlige sider. Hvis du ikke kan finde en bruger på listen, betyder det, at vedkommende ikke har nogen tilpassede sider.
+    Vinduet **Brugertilpasning** viser alle brugere, der muligvis kan have personlige sider. Hvis du ikke kan finde en bruger på listen, betyder det, at vedkommende ikke har nogen tilpassede sider.
 
 2. Vælg brugeren på listen, og vælg derefter handlingen **Rediger**.
 

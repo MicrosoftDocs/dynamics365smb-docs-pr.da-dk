@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 00ecc7031bc1c208444e89fbd13e2f2faf5fd413
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 13d699dbeb8fe2c3979a7b6bd330b14f077d2d3c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-production-order-headers"></a>Oprette produktionsordrehoveder
@@ -27,7 +27,7 @@ Produktionsordrer oprettes typisk automatisk af en planlægningsfunktion til opf
 I proceduren nedenfor oprettes en fastlagt produktionsordre. Du kan også oprette produktionsordrer med en anden status.  
 
 ## <a name="to-create-a-production-order-header"></a>Sådan oprettes et produktionsordrehovede  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagte prod.ordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  I feltet **Nummer** skal du indsætte næste nummer i serien.  
 4.  Marker kilden til produktionsordren i feltet **Kildetype**.

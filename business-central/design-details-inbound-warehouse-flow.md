@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75f6883961f62b82ec751306693dd29a031b409c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designoplysninger: Indgående lagerflow
@@ -53,7 +53,7 @@ Handlinger, der modtager og lægger væk, kombineres i metoderne A, B og C i ét
 ## <a name="basic-warehouse-configurations"></a>Grundlæggende lageropsætninger  
 I følgende diagram illustreres de indgående lagerstrømme af dokumenttype i grundlæggende lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
-![Indgående flow i grundlæggende lageropsætninger](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
+![Indgående flow i grundlæggende lageropsætninger](media/design_details_warehouse_management_inbound_basic_flow.png "Indgående flow i grundlæggende lageropsætninger")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Frigiv kildedokument / Opret læg-på-lager  
 Når varerne modtages på lageret, frigiver den bruger, der er ansvarlig for modtagelse, kildedokumentet, f.eks. en indkøbsordre eller en indgående overflytningsordre ordre, for at signalere til lagermedarbejdere, at de modtagne varer kan lægges på lager. Alternativt kan brugeren oprette læg-på-lager-dokumenter for de enkelte ordrelinjer på en push-måde, baseret på angivne placeringer og antal, der skal håndteres.  
@@ -72,7 +72,7 @@ Der oprettes positive vareposter og lagerposter, og læg-på-lager-anmodningen s
 ## <a name="advanced-warehouse-configurations"></a>Avancerede lageropsætninger  
 I følgende diagram illustreres den indgående lagerstrøm af dokumenttype i avancerede lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
-![Indgående flow i avancerede lageropsætninger](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
+![Indgående flow i avancerede lageropsætninger](media/design_details_warehouse_management_inbound_advanced_flow.png "Indgående flow i avancerede lageropsætninger")  
 
 ### <a name="1-release-source-document"></a>1: Frigiv kildedokument  
 Når varerne modtages på lageret, frigiver den bruger, der er ansvarlig for modtagelse, kildedokumentet, f.eks. en indkøbsordre eller en indgående overflytningsordre ordre, for at signalere til lagermedarbejdere, at de modtagne varer kan lægges på lager.  

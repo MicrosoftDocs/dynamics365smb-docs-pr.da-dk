@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/26/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: db28ad9a4adb45514b1d1287d269d8daefe64865
-ms.openlocfilehash: 68a35c3bbedd0d0f09a9e43269260e98dfa02a59
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 456b7bcad13972943ad130f505b29a926ccaf221
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
@@ -30,7 +30,7 @@ Brug vinduet **Kreditoverførselsjournaler** til at få vist de betalingsfiler, 
 ## <a name="to-export-payments-to-a-bank-file"></a>Sådan eksporterer du betalinger til en bankfil
 I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Fremgangsmåden er den samme, hvis du vil refundere en debitor med check.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. Udfyld betalingskladdelinjerne. Du kan finde flere oplysninger i [Registrere betalinger og refusioner](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
@@ -72,7 +72,7 @@ Du kan eksportere betalingsfiler igen fra vinduet **Kreditoverførselsjournaler*
 > [!NOTE]  
 >   Eksporterede EFT-filer vises ikke i vinduet **Kreditoverførselsjournaler** og kan ikke reeksporteres.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kreditoverførselsjournaler**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditoverførselsjournaler**, og vælg derefter det relaterede link.
 2. Vælg den betalingseksport, du vil eksportere igen, og vælg derefter handlingen **Reeksportér betalinger til fil**.
 
 ## <a name="see-also"></a>Se også

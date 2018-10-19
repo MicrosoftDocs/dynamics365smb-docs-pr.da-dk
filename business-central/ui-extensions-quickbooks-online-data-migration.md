@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 05/24/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: a53e9b4199a133678dfa8d001875df7dcdc1a37e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e9b0a481f16d8f0bc1647640b62a81b3ea441028
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-business-central"></a>Udvidelsen Overførsel af QuickBooks Online-data til Business Central
+# <a name="the-quickbooks-online-data-migration-extension"></a>Udvidelsen Dataoverførsel til QuickBooks Online
 Denne udvidelse er inkluderet i den assisterede opsætningsvejledning **Dataoverførsel** for at hjælpe dig med at overføre vigtige forretningsdata fra QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. F.eks. er dette nyttigt, når virksomheden vokser, og du har besluttet at opgradere din virksomheds administrationsapp ved at starte med at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Hvilke data kan jeg importere fra QuickBooks Online?
@@ -51,11 +51,11 @@ Hvis der er transaktioner i QuickBooks Online, der har momsbeløb, du skal opret
 ## <a name="how-do-i-start-using-the-extension"></a>Hvordan begynder jeg at bruge udvidelsen?
 Det er nemt at komme i gang. Du skal blot køre den assisterede opsætningsvejledning **Dataoverførsel**. Sådan gør du:
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Assisteret opsætning**, og vælg derefter **Overflyt virksomhedsdata**.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Assisteret opsætning**, og vælg derefter **Overflyt virksomhedsdata**.
 2. Følg vejledningen på de enkelte trin i den assisterede opsætningsvejledning.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Hvad gør jeg gøre, når jeg har overført data?
-Når du har overført data, har transaktioner status **Ikke-bogførte**, så du kan gennemgå dem og foretage ændringer. For at få vist transaktionerne skal du gå til siden, hvor du vil finde dem normalt. F.eks. for at få vist ikke-bogførte salgsfakturaer, skal du gå til siden **Salgsfakturaer**. For at få vist udbetalingskladder skal du gå til siden **Udbetalingskladder**.   
+Når du har overført data, har transaktioner status **Ikke-bogførte**, så du kan gennemgå dem og foretage ændringer. For at få vist transaktionerne skal du gå til siden, hvor du vil finde dem normalt. F.eks. for at få vist ikke-bogførte salgsfakturaer, skal du gå til vinduet **Salgsfakturaer**. For at få vist udbetalingskladder skal du gå til vinduet **Udbetalingskladder**.   
 
 Der er især et par ting, du skal gøre:
 

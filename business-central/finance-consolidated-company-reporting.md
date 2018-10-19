@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 07/14/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9309868cbcee8fb969c318acfb6ce8844e78b687
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 035eb85050ec6feb9e65ee924ebf4dbd2064e5ba
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -55,7 +55,7 @@ Hvis du har brug for mere avancerede indstillinger til din konsolidering, kan du
 [!INCLUDE[d365fin](includes/d365fin_md.md)] giver dig mulighed for at oprette en liste over regnskaber, der skal konsolideres, kontrollere regnskabsdataene, før du konsoliderer dem, importere filer og oprette konsolideringsrapporter.  
 
 1. Log på det konsoliderede regnskab.
-2. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forretningsenheder**, og vælg derefter det relaterede link.  
 3. Vælg **Ny**, og udfyld de påkrævede felter.  
 
 Hvis koncernvirksomheden bruger en fremmed valuta, skal du angive kursen, der skal anvendes i konsolideringen. Du skal også angive konsolideringsoplysninger om koncernvirksomhedens finanskonti. Disse processer beskrives i de følgende afsnit.
@@ -63,7 +63,7 @@ Hvis koncernvirksomheden bruger en fremmed valuta, skal du angive kursen, der sk
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Sådan klargøres finanskonti til konsolidering
 Hvis kontoplanen i koncernvirksomheden er anderledes end det konsoliderede regnskab, skal du forberede finanskonti til konsolidering. Du kan angive de konti, hvor debet og kredit skal posteres, og metoden, der skal bruges til at oversætte valutaer i det konsoliderede regnskab. Det er f.eks. nyttigt, hvis du ofte udfører rapporten.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
 2. Åbn kortet for kontoen, og udfyld derefter felterne på oversigtspanelet **Konsolidering**.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Sådan angives kurser for konsolideringer
@@ -82,9 +82,9 @@ I følgende tabel beskrives de valutakursmetoder, du kan bruge til konti.
 
 Gør følgende for at angive valutakurser for koncernvirksomheder:
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
-2. Vælg koncernvirksomheden på siden **Koncernvirksomhedsoversigt**, og vælg derefter handlingen **Gennemsnitskurs (manuel)**.   
-3. På siden **Ret valutakurs** er indholdet af feltet **Associeret valutakurs** blevet kopieret fra tabellen **Valutakurs**, men du kan ændre oplysningerne efter behov. Luk siden.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forretningsenheder**, og vælg derefter det relaterede link.  
+2. Vælg koncernvirksomheden i vinduet **Koncernvirksomhedsoversigt**, og vælg derefter handlingen **Gennemsnitskurs (manuel)**.   
+3. I vinduet **Ret valutakurs** er indholdet af feltet **Associeret valutakurs** blevet kopieret fra tabellen **Valutakurs**, men du kan ændre oplysningerne efter behov. Luk siden.  
 4. Vælg handlingen **Ultimokurs**.  
 5. I feltet **Associeret valutakursbeløb** skal du angive valutakursen.
 
@@ -108,7 +108,7 @@ Hvis du kun ejer en del af en virksomhed, kan du medtage en procentdel af hver t
 Du kan teste dataene, inden du overfører dem til det konsoliderede regnskab. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om der er forskelle mellem oplysningerne i koncernvirksomhederne og den konsoliderede virksomhed. F.eks., om kontonumre eller dimensionskoder er anderledes. Du skal rette fejlene, før du kan køre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.   
 
 1. Åbn det konsoliderede regnskab.  
-2. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forretningsenheder**, og vælg derefter det relaterede link.  
 3. Gør ét af følgende:  
 
     * For at teste en fil, skal du vælge handlingen **Kontroller fil**, angive navnet på filen, der skal kontrollere, og derefter vælge **Udskriv**.  

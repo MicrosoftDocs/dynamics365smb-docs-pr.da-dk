@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -26,7 +26,7 @@ Et sandkassemiljø (eksempelvisning) er en ikke-produktiv forekomst af [!INCLUDE
 Du skal have abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] for at kunne oprette et sandkassemiljø. Der kan kun være ét sandkassemiljø pr. abonnement.
 
 1. Log ind på din produktionsforekomst af [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjenesten.
-2. Vælg den ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sandkassemiljø**, og vælg derefter det relaterede link.
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sandkassemiljø**, og vælg derefter det relaterede link.
 ![Konfiguration af sandkassemiljø](./media/across-sandbox/sandbox-environment-setup.png)
 3. Vælg **Opret**.  
   Der åbnes en anden fane i din webbrowser, hvor du kan afslutte opsætningen af sandkassemiljøet.
@@ -40,7 +40,7 @@ Du skal have abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] for at k
 6. Der vises en meddelelse om, at dette er et sandkassemiljø, øverst i rollecenteret. Du kan også se miljøtypen i titellinjen i klienten.
 ![Rollecentermeddelelse i sandkassemiljø](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 I sandkassemiljøet er der blevet oprettet en helt ny lejer. Denne lejer er indlæst med standarddemodata for virksomheden CRONUS. Ingen data kopieres eller på anden måde overføres fra produktionsmiljøet under oprettelsen af sandkassen.
-7.  Du kan når som helst vende tilbage til siden **Sandkassemiljø** og nulstille sandkassemiljøet.
+7.  Du kan når som helst vende tilbage til vinduet **Sandkassemiljø** og nulstille sandkassemiljøet.
 > [!NOTE]  
 >  Nulstilling af sandkassemiljøet vil fjerne miljøet helt, og derefter oprettes det igen med standarddemodata.  
 
@@ -58,7 +58,7 @@ I et sandkassemiljø er designerfunktionen i klienten aktiveret. Du kan aktivere
 ![Designeren i klienten](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Aktivere den avancerede brugeroplevelse
-Du kan aktivere og prøve alle de avancerede funktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] i en sandkasselejer ved at indstille feltet **Oplevelse** på siden **Virksomhedsoplysninger**.
+Du kan aktivere og prøve alle de avancerede funktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] i en sandkasselejer ved at indstille feltet **Oplevelse** i vinduet **Virksomhedsoplysninger**.
 
 ![Avanceret sandkassemiljø](./media/across-sandbox/sandbox-advanced.png)
 

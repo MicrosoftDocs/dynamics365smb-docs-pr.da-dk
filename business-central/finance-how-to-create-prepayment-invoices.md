@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 314732d3f622aede09342d7246e28b4a910d08d9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 50b77f4c6e333f3024f2261eb0c6df42b3e535d0
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-prepayment-invoices"></a>Oprette forudbetalingsfakturaer
@@ -27,7 +27,7 @@ Når du har oprettet en salgs- eller købsordre, kan du oprette en forudbetaling
 Følgende procedure beskriver, hvordan du fakturerer en forudbetaling for en salgsordre. Fremgangsmåden er den samme for købsordrer.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Sådan oprettes en forudbetalingsfaktura  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Opret en ny salgsordre. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
 
     I oversigtspanelet **Forudbetaling**, udfyldes feltet **Forudbetaling i %** automatisk, hvis der er angivet en standardforudbetalingsprocent på debitorkortet. Du kan ændre indholdet i feltet. Forudbetalingsprocenten kopieres kun fra hovedet til de linjer, hvor standardforudbetalingsprocenten ikke kopieres fra varen.  

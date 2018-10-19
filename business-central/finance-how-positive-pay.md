@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 04/10/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 1f8a34fe1312627038b1f5b28b7ce7ed9f234fea
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dc63da7f3363ef45028a0b185c27aa468e02db6d
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Eksportere en Positive Pay-fil
@@ -25,13 +25,13 @@ Du kan sikre dig, at din bank kun afregner validerede checks og beløb, ved at e
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er konfigureret til at understøtte Positive Pay-filer for Bank of America og City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Sådan konfigureres en bankkonto til Positive Pay
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn kortet for den bank, som du vil bruge Positive Pay til.
 3. I feltet **Eksportkode for Positive Pay** skal du angive POSPAYBANK.
 4. Luk vinduet.
 
 ## <a name="to-export-a-positive-pay-file"></a>Sådan eksporteres en Positive Pay-fil
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den bankkonto, du vil eksportere en Positive Pay-fil for.
 3. Vælg handlingen **Eksport af Positive Pay-betalingsposter**.
 
@@ -44,7 +44,7 @@ Du kan sikre dig, at din bank kun afregner validerede checks og beløb, ved at e
 
 Sådan får du vist eksporterede Positive Pay-poster
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den bankkonto, du vil have vist Positive Pay-eksportposter for.
 3. Vælg handlingen **Positive Pay-betalingsposter**.
 
@@ -54,7 +54,7 @@ Sådan får du vist eksporterede Positive Pay-poster
 
 Sådan reeksporteres Positive Pay-filer
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den bankkonto, du vil reeksportere Positive Pay-filer for.
 3. Vælg handlingen **Positive Pay-betalingsposter**.
 4. Vælg den linje for den Positive Pay-eksportfil, som du vil reeksportere.

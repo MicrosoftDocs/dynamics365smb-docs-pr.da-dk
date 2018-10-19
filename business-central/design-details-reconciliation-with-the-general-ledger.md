@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 813af57a2e1de62ce038990116f9cf92f741a78d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designoplysninger: Afstemning med Finans
@@ -84,16 +84,16 @@ Følgende tabel viser, hvordan arbejdscenteret er angivet på arbejdscenterkorte
     1. Mellemregningskonti ryddes. (Salg)  
     2. Kostpris for solgte varer bogføres. (Salg)  
 
-        ![Resultaterne af bogføring af salg på finanskonti](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Resultaterne af bogføring af salg på finanskonti](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultaterne af bogføring af salg på finanskonti")  
 5. Brugeren bogfører forbruget af 150 led, som er antallet led, der bruges til at fremstille en kæde. (Forbrug, materiale)  
 
-    ![Resultaterne af bogføring af materialer på finanskonti](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
+    ![Resultaterne af bogføring af materialer på finanskonti](media/design_details_inventory_costing_3_gl_posting_material.png "Resultaterne af bogføring af materialer på finanskonti")  
 6. Arbejdscentret brugte 60 minutter på at fremstille kæden. Brugeren bogfører konverteringsomkostningerne. (Forbrug, kapacitet)  
 
     1. De direkte omkostninger bogføres. (Forbrug, kapacitet)  
     2. De indirekte omkostninger beregnes og bogføres. (Forbrug, kapacitet)  
 
-        ![Resultaterne af bogføring af kapacitet på finanskonti](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
+        ![Resultaterne af bogføring af kapacitet på finanskonti](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultaterne af bogføring af kapacitet på finanskonti")  
 7. Brugeren bogfører de forventede omkostninger for en kæde. (Afgang)  
 8. Brugeren afslutter produktionsordren og udfører kørslen **Juster kostpris – vareposter**. (Afgang)  
 
@@ -102,7 +102,7 @@ Følgende tabel viser, hvordan arbejdscenteret er angivet på arbejdscenterkorte
     3. Den indirekte omkostning overføres fra den indirekte omkostningskonto til lagerkontoen. (Afgang)  
     4. Dette medfører en prisafvigelse på RV 157,00. Afvigelser beregnes kun for varer med standardkostpriser. (Afgang)  
 
-        ![Resultaterne af bogføring af afgang på finanskonti](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Resultaterne af bogføring af afgang på finanskonti](media/design_details_inventory_costing_3_gl_posting_output.png "Resultaterne af bogføring af afgang på finanskonti")  
 
         > [!NOTE]  
         >  Af hensyn til overskueligheden vises kun én afvigelseskonto. I virkeligheden findes fem forskellige konti:  
@@ -115,7 +115,7 @@ Følgende tabel viser, hvordan arbejdscenteret er angivet på arbejdscenterkorte
 
 9. Brugeren regulerer kæden fra RV 150,00 til 140,00. (Regulering/værdiregulering/afrunding/overførsel)  
 
-    ![Resultaterne af bogføring af justeringer på finanskonti](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Resultaterne af bogføring af justeringer på finanskonti](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultaterne af bogføring af justeringer på finanskonti")  
 
 Du kan finde flere oplysninger om forholdet mellem kontotyperne og de forskellige typer værdiposter i [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 

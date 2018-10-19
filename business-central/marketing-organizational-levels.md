@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 974133ffb0324cf6bc3ed37436adb9fb237f5e4d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6680a5dedcbedc3ed7e430c4290871d5fbaaf9ad
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-organizational-levels-for-contact-persons"></a>Oprette kompetenceniveauer for kontaktpersoner
@@ -27,7 +27,7 @@ Brug af kompetenceniveauer til kontakter er en totrinsproces. Først skal du def
 ## <a name="to-define-an-organizational-level-code"></a>Sådan defineres en kompetenceniveaukode
 Kompetenceniveaukoden definerer kompetenceniveautypen eller -kategorien, f.eks. ADMINDIR eller ØKODIR. Du kan have flere kompetenceniveaukoder. Du definerer kompetenceniveauet fra vinduet **Kompetenceniveauer**.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kompetenceniveauer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kompetenceniveauer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**, og indtast en kode og beskrivelse. Du kan bruge op til 11 tegn til koden, som skal være en kombination af tal og bogstaver.
 
 ## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Sådan tildeles kompetenceniveauer til en kontaktperson

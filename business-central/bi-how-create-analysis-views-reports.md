@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Oprette analyserapporter
@@ -61,7 +61,7 @@ I en analyserapport vises analyseparametrene som kolonner. Du kan angive, hvilke
 
 En skabelon indeholder et sæt linjer, der hver repræsenterer de analysekolonner, som du ser i analyserapporten. Hvis du vil definere en kolonne, skal du tildele en analysetypekode til en linje. Denne analysetypekode bestemmer typen af kildedata i de vareposter, analyse baseres på. Kildedataene indeholder pris, salgsbeløb eller antal og deres tilknyttede værdiposter. Du kan oprette et ubegrænset antal kolonneskabeloner og derefter bruge dem til at oprette nye analyserapporter.    
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsanalyse - Kolonneskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsanalyse - Kolonneskabeloner**, og vælg derefter det relaterede link.  
 2. Vælg den første tomme linje, og udfyld derefter felterne efter behov.
 3. Vælg handlingen **Kolonner**.  
 4. Udfyld felterne i vinduet **Analysekolonner** for at angive de kolonner, som du vil have med i analyserapporten.  
@@ -78,7 +78,7 @@ I en analyserapport vises analyseobjekterne på linjer. Du kan angive, hvilke li
 
 En skabelon indeholder et sæt linjer, der repræsenterer de analyselinjer, som du ser i analyserapporten. En linje kan angive en eller flere varer, kunder, leverandører eller grupper. Du kan også oprette en formular på en linje for at opsummere de andre linjer. Du kan oprette et ubegrænset antal linjeskabeloner og derefter bruge dem til at oprette nye analyserapporter.    
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsanalyse - linjeskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsanalyse - linjeskabeloner**, og vælg derefter det relaterede link.  
 2. Vælg den første tomme linje, og udfyld derefter felterne efter behov.
 3. Vælg handlingen **Linjer**.  
 4. Brug vinduet **Analyselinjer** til at oprette linjer for de varer, kunder, leverandører eller sælgere, som du vil se oplysninger for i analyserapporten. Du skal udfylde felterne **Type**, **Interval** og **Beskrivelse**.  
@@ -91,7 +91,7 @@ Følgende procedure er baseret på analyserapporter for salg. Trinene er de samm
 
 Du kan anvende analyserapporter til at analysere dynamikken i dine salg i henhold til nøglesalgsindikatorer, som du vælger, f.eks. salgsomsætningen i både beløb og antal, dækningsbidrag, eller det aktuelle salgs forløb i forhold til budgettet. Du kan også anvende rapporten til at analysere dine gennemsnitlige salgspriser og evaluere din salgsstyrkes præstationer.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsanalyserapporter**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsanalyserapporter**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** i vinduet **Analyserapport - salg**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg handlingen **Rediger analyserapport**.

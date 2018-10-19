@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 356c8e6d87fd54be3be376ec4320d3a9aa26d834
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 605de1d0acbbe345c3568fd4328d3e649feaef9f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Omplanlægge eller forny produktionsordrer direkte
@@ -35,7 +35,7 @@ Du kan indsætte produktionsordrelinjerne manuelt eller bruge funktionen, der ka
 > Hvis du bruger funktionen Opdater til at genberegne produktionsordrelinjer, sletter programmet de gamle produktionsordrelinjer og beregner nye produktionsordrelinjer.  
 
 ## <a name="to-replan-a-production-order"></a>Sådan omplanlægges en produktionsordre  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagte prod.ordrer**, og vælg derefter det relaterede link.  
 2.  Åbn den produktionsordre, du vil omplanlægge.  
 3.  På oversigtspanelet **Linjer** skal du vælge handlingen **Linjer** og derefter handlingen **Komponenter**.  
 4.  Tilføj en komponent, som er en produktionsvare eller et halvfabrikata.  
@@ -65,7 +65,7 @@ Du kan indsætte produktionsordrelinjerne manuelt eller bruge funktionen, der ka
 ## <a name="to-refresh-a-production-order"></a>Sådan fornys en produktionsordre  
 Hvis du har ændret produktionsordrelinjer, komponenter eller rutelinjer, skal du også opdatere oplysningerne i produktionsordren. I det følgende beregnes komponenterne for en fastlagt produktionsordre. Trinnene er de samme for rutelinjer.
 
-1.  Vælg ikonet ![Søg efter side eller en rapport](media/ui-search/search_small.png "Søg efter side eller en rapport ikonet"), angiv **Fastlagt produktionsordre**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagt produktionsordre**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).  
 3.  Vælg handlingen **Opdater**.
 4. Vælg en af følgende muligheder i vinduet **Opdater produktionsordre**:

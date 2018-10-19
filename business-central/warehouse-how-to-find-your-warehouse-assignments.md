@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7aa7cd50e7670998962acf8c33bfef8755e7b354
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 012e050722f97d43a8ee59fde2566969245e4ca9
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="find-your-warehouse-assignments"></a>Finde dine lageropgaver
 Hvis du vil finde dine lageropgaver, skal du åbne kortvinduet til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Sådan findes en tildelt instruktion  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager (lager)**, **Pluk (logistik)** eller **Bevægelse (logistik)** og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager (lager)**, **Pluk (logistik)** eller **Bevægelse (logistik)**, og vælg derefter det relaterede link.
 
     Alle tre vinduer viser tildelinger for alle lagerlokationer.  
 

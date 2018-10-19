@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f9076b4cd565c9d814563549f2afb5b4b5d222da
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
@@ -32,7 +32,7 @@ Sørg for, at du er på rollecenteret RapidStart Services-implementering. Du kan
 >  Du kan indlæse konfigurationspakker, der er eksporteret fra en database med et andet skema end måldatabasen. Men tabeller eller felter i konfigurationspakken, der mangler i måldatabasen, importeres ikke. Tabeller med forskellige primære nøgler og felter med forskellige datatyper importeres heller ikke korrekt. Hvis konfigurationspakken indeholder tabellen **50000 kunder**, hvor primærnøglen er **Code20**, og databasen, som du importerer pakken til, indeholder tabellen **50000 debitorbankkonto**, der har primærnøglen **Code20 + Code 20**, så importeres data ikke.  
 
 ## <a name="to-create-a-configuration-package"></a>Oprette en konfigurationspakke  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationspakker**, og vælg det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. På oversigtspanelet **Generelt** skal du udfylde resten af felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Hvis du vil udelukke konfigurationsspørgeskemaer, konfigurationsskabeloner og konfigurationsregnearkstabeller fra pakken, skal du markere afkrydsningsfeltet **Udeluk konfigurationstabeller**. Ellers føjes disse tabeller automatisk til listen over pakketabeller, når du eksporterer pakken.  
@@ -79,7 +79,7 @@ Du kan gemme filen med et navn, der er beskrivende for dig, men du kan ikke ænd
 ### <a name="to-copy-a-configuration-package"></a>Kopiere en konfigurationspakke  
 Når du har oprettet en pakke, der opfylder de fleste af dine behov, kan du bruge den som grundlag for oprettelse af tilsvarende pakker. Dette kan øge gennemførselstiden og forbedre gentagelserne i RapidStart Services.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationspakker**, og vælg det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 2. Vælg en pakke på listen, og vælg derefter handlingen **Kopiér pakke**.  
 3. Angiv en kode for den nye pakke i feltet **Ny pakkekode**.  
 4. Markér afkrydsningsfeltet **Kopiér data**, hvis du også vil kopiere databasedata fra den eksisterende pakke.  
@@ -88,7 +88,7 @@ Når du har oprettet en pakke, der opfylder de fleste af dine behov, kan du brug
 ## <a name="to-customize-a-configuration-package"></a>Sådan tilpasses en konfigurationspakke
 Brug konfigurationsregnearket til at indsamle og kategorisere de oplysninger, du vil bruge til at konfigurere en ny virksomhed og arrangere tabeller på en logisk måde. Formateringen i regnearket er baseret på et enkelt hierarki: Områder indeholder grupper, som til gengæld indeholder tabeller. Områder og grupper er valgfri, men er nødvendige, hvis du vil have en oversigt over konfigurationsprocessen i rollecenteret RapidStart Services.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsregneark**, og vælg det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 2.  I feltet **Linjetype** skal du vælge **Område**. I feltet **Navn** skal du angive et beskrivende navn.  
 3.  I feltet **Linjetype** skal du vælge **Gruppe**. I feltet **Navn** skal du angive et beskrivende navn.  
 4.  I feltet **Linjetype** skal du vælge **Tabel**. I feltet **Tabel-id** skal du vælge den tabel, du vil medtage i regnearket.  
@@ -105,7 +105,7 @@ Når du har defineret de tabeller, der skal behandles som en del af konfiguratio
 > [!NOTE]  
 >  Du kan også oprette en pakke direkte og føje tabeller til den. Du kan finde flere oplysninger i afsnittet "Oprette en konfigurationspakke".
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsregneark**, og vælg det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
 2. I konfigurationsregnearket skal du vælge en linje eller gruppe af linjer, du vil tildele til en konfigurationspakke, og derefter vælge handlingen **Tildel pakke**.  
 3.  Vælg en pakke på listen, eller vælg handlingen **Ny** for at oprette en ny pakke, og vælg derefter knappen **OK**.  
 
@@ -115,7 +115,7 @@ Når du har defineret de tabeller, der skal behandles som en del af konfiguratio
 ## <a name="to-review-or-customize-existing-database-data"></a>Sådan gennemgår eller tilpasser du de eksisterende databasedata
 Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få vist og tilpasse tilgængelige databasedata, så de passer til debitorens behov. Databasetabellen skal have en tilknyttet side.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsregneark**, og vælg det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
 2. I konfigurationsregnearket skal du identificere de tabeller, hvis data du ønsker at se eller tilpasse.  
 
     > [!NOTE]  
@@ -128,7 +128,7 @@ Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få 
 Når du har undersøgt og afprøvet alle konfigurationsoplysninger, kan du fortsætte med at kopiere data til produktionsmiljøet. Du kan oprette en ny virksomhed i samme database.
 
 1. Åbn og initialiser den nye virksomhed.  
-2. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsregneark**, og vælg det relaterede link.  
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Kopiér data fra virksomhed**.  
 4. I vinduet **Kopiér virksomhedsdata** skal du vælge feltet **Kopiér fra**. Vinduet **Virksomheder** åbnes.  
 5. Marker den virksomhed, du vil kopiere data fra, og vælg derefter knappen **OK**. En liste over tabeller, der er valgt under konfigurationsregnearket, åbnes. Det er kun tabeller, der indeholder poster, der medtages på denne liste.

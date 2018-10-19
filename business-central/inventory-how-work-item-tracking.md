@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 04/17/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 2e764a915f1c4b258f0163f355653be81924ba96
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b31619fd1d76be71af9408f1c20be35846cef114
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbejde med serienumre og lotnumre
@@ -55,13 +55,14 @@ Hvis du arbejder i vinduet **Varesporingslinjer** i lang tid, eller hvis der er 
 ## <a name="to-set-up-item-tracking-codes"></a>Sådan oprettes varesporingskoder
 En varesporingskode afspejler de forskellige overvejelser, som en virksomhed skal gøre sig i forbindelse med brugen af serie- og lotnumre på varer, der bevæger sig igennem lageret.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varesporingskoder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varesporingskoder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Klik på oversigtspanelet **Serienr.** og **Lotnr.** for at definere varesporingsmetoder efter henholdsvis serienummer og lotnummer.  
 
 > [!NOTE]  
->   Hvis du vil spore bestemte varer eller bestemte partier i hele deres levetid, skal du vælge henholdsvis feltet **Serienr.specifik sporing** og feltet **Lotspecifik sporing**. Det betyder, at når du håndterer en udgående enhed for en vare med denne varesporingskode, skal du altid angive, hvilket eksisterende serienummer eller hvilket eksisterende lotnummer der skal håndteres. Det betyder, at når du sælger en vareenhed, skal den holdes op mod et specifikt serienummer eller et specifikt lotnummer på lageret. Med andre ord følger et serie- eller lotnummer, der knyttes til varen, når den indføres på lageret, også den pågældende varetype ud af lageret.  
+>  Hvis du vil spore bestemte varer eller bestemte partier i hele deres levetid, skal du vælge henholdsvis feltet **Serienr.specifik sporing** og feltet **Lotspecifik sporing**. Det betyder, at når du håndterer en udgående enhed for en vare med denne varesporingskode, skal du altid angive, hvilket eksisterende serienummer eller hvilket eksisterende lotnummer der skal håndteres. Det betyder, at når du sælger en vareenhed, skal den holdes op mod et specifikt serienummer eller et specifikt lotnummer på lageret. Med andre ord følger et serie- eller lotnummer, der knyttes til varen, når den indføres på lageret, også den pågældende varetype ud af lageret.
+  
 Da dette specielle opsætningsfelt dækker alle mulige transaktioner med varen, markeres de individuelle indgående og udgående felter også. De individuelle ind- og udgående felter har imidlertid intet at gøre med udligning på lageret – de angiver blot din virksomheds arbejdsgang for, hvornår der skal tilknyttes varesporingsnumre.  
 
 ### <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Sådan oprettes udløbsregler for serienumre eller lotnumre  
@@ -77,7 +78,7 @@ Det kan være praktisk at angive særlige udløbsdatoer og regler i varesporings
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Sådan oprettes garantier for serie- eller lotnumre  
 Det kan være praktisk at angive særlige garantier for bestemte varer i varesporingskoden. Det betyder, at du kan holde styr på, hvornår garantierne for bestemte serie- eller lotnumre udløber for varerne på dit lager.        
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varesporingskoder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varesporingskoder**, og vælg derefter det relaterede link.  
 
 1. Vælg en eksisterende varesporingskode, og vælg derefter handlingen **Rediger**.  
 2.  Udfyld feltet **Garantiophørsformel** i oversigtspanelet **Diverse**, og marker derefter afkrydsningsfeltet på følgende måde.  
@@ -100,7 +101,7 @@ Hvis du vil knytte specielle oplysninger til et bestemt varesporingsnummer, f.ek
 6. Markér afkrydsningsfeltet **Spærret** for at udelade serienummeret eller lotnummeret i alle transaktioner.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Sådan ændres eksisterende serie-/lotnummeroplysninger  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg en vare, der har en varesporingskode og har serie- eller lotnummeroplysninger.
 3. I vinduet **Varekort** skal du vælge handlingen **Poster** og derefter klikke på **Poster**.
 4. Vælg feltet **Lotnr.** eller **Serienr.**. Hvis der findes oplysninger for varesporingsnummeret, åbnes vinduet **Oversigt over lotnr.oplysninger** eller **Oversigt over serienr.oplysninger**.  
@@ -117,7 +118,7 @@ De nøjagtige regler for håndtering af varesporingsnumre i din virksomhed beste
 > [!NOTE]  
 >  For at bruge varesporingsnumre i lageraktiviteter skal opsætningsfelterne **Lotlagersporing** og **Serienr.- lagersporing** vælges, da de definerer de bestemte regler for håndtering af serie- og lotnumre i lageraktiviteter.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
 2.  Markér den relevante dokumentlinje, og vælg handlingen **Linje** i oversigtspanelet **Linjer**, og vælg derefter handlingen **Varesporingslinjer**.  
 
     Du kan tildele serie- eller lotnumre på følgende måder:  
@@ -199,7 +200,7 @@ Procedurerne for håndtering af serie- og lotnumre, der overføres mellem forske
 Overførselsordren er imidlertid entydig i den pågældende leverance, og begge modtagelser sker fra den samme overførselslinje og bruger derfor den samme forekomst i vinduet **Varesporingslinjer**. Det betyder, at varesporingslinjer, der sendes fra en lokation, skal modtages uændret på en anden.  
 
  De nøjagtige regler for håndtering af varesporingsnumre i din virksomhed bestemmes af opsætningen af tabellen  **Varesporingskode**.    
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Overflytningsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Overflytningsordrer**, og vælg derefter det relaterede link.  
 2.  Åbn den overflytningsordre, du vil behandle. I oversigtspanelet **Linjer**, skal du vælge handlingen **Linje**, vælge handlingen **Varesporingslinjer** og derefter vælge handlingen **Leverance**.  
 3.  Tilknyt eller vælg serie- eller lotnumre i vinduet **Varesporingslinjer** som for enhver anden udgående varetransaktion.  
 
@@ -222,7 +223,7 @@ Funktionen understøtter følgende udgående processer:
 
 I disse situationer kopieres de eksisterende varesporingslinjer automatisk til fakturaen eller kreditnotaen, men vinduet **Varesporingslinjer** tillader ikke, at serie- eller lotnumre ændres. Det er kun mængderne, der kan ændres.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2.  Åbn en købsfaktura for varer, der er køb med serienumre eller lotnumre.  
 3.  Fra en købsfakturalinje skal du i oversigtspanelet **Linjer** vælge handlingen **Hent købsleverancelinjer**.  
 4.  Vælg modtagelseslinjer, der har varesporingslinjer i vinduet **Hent købsleverancelinjer**, og vælg derefter knappen **OK**.  
@@ -237,7 +238,7 @@ Du kan ikke ændre felterne **Serienr.** og **Lotnr.** Du kan imidlertid slette 
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Sådan omposteres serie- eller lotnumre  
 Ompostering af varesporing for en vare betyder, at et lot- eller serienummer ændres til et nyt lot- eller serienummer, eller at udløbsdatoen ændres til en ny udløbsdato. Hvis du arbejder med lotter, kan du også samle flere lotter i en enkelt lot. Disse opgaver udføres ved hjælp af vareomposteringskladden.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareomposteringskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Vareomposteringskladde**, og vælg derefter det relaterede link.  
 2.  Udfyld linjen med de relevante oplysninger. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar](inventory-how-count-adjust-reclassify.md).
 3.  Vælg handlingen **Varesporingslinjer**.  
 4.  Vælg det aktuelle serie- eller lotnummer i feltet **Serienr.** eller **Lotnr.**.  

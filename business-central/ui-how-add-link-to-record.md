@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a513f6e62c4ef8dcf9e484d0211feb3e857dc0f7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Sådan føjes links til websteder, dokumenter eller programmer på poster
@@ -45,11 +45,11 @@ Et andet eksempel kan være, når du modtager en trykt faktura fra kreditorer. D
 
 Hvis du vil slette et link, kan du i vinduet **Links** vælge **...** og derefter **Slet**.
 
-Hvis du sletter en enkelt post, f.eks. en salgsordrelinje, en salgsordre eller en debitor, så slettes alle links med tilknytning til denne post. Men hvis du sletter poster med en kørsel, f.eks. kørslen **Slet fakturerede salgsordrer**, så lagres linksene stadig i databasen. Hvis du vil slette linkene fra databasen, skal du køre codeunit **Slet underordnede postlinks**. For at gøre dette skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Slet fakturerede købsreturvareordrer** og derefter vælge det relaterede link.   
+Hvis du sletter en enkelt post, f.eks. en salgsordrelinje, en salgsordre eller en debitor, så slettes alle links med tilknytning til denne post. Men hvis du sletter poster med en kørsel, f.eks. kørslen **Slet fakturerede salgsordrer**, så lagres linksene stadig i databasen. Hvis du vil slette linkene fra databasen, skal du køre codeunit **Slet underordnede postlinks**. For at gøre dette skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet uafhængige posttilknytninger**, og vælg derefter det relaterede link.   
 
 <!-- ### To run delete orphaned record links  
 
-1.  Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Data Deletion**, and then choose the related link.  
+1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
 2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 

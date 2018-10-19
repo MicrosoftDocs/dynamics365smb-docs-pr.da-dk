@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct-debit, collection, payment, sepa
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 769d37db4547e292f12ac95f814f450b489792d4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f714037a087084ee1c8effa7432db1e4c6ae5862
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Oprette poster i SEPA Direct Debit-opkrævning, og eksportere til en bankfil
@@ -24,7 +24,7 @@ For at instruere banken i at overføre det indbetalte beløb fra kundens bankkon
 >  Hvis du vil samle betalinger ved hjælp af SEPA Direct Debit, skal valutaen på salgsfakturaen være i EURO.  
 
 ### <a name="to-create-a-direct-debit-collection"></a>Sådan oprettes en direkte debiteringsopkrævning  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Direct Debit-opkrævninger**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Direct Debit-opkrævninger**, og vælg derefter det relaterede link.  
 2. Vælg **Opret Direct Debit-opkrævning** i gruppen **Ny** under fanen **Startside** i vinduet **Direct Debit-opkrævninger**.  
 3. I vinduet **Opret Direct Debit-opkrævning** skal du udfylde felterne som beskrevet i følgende tabel.  
 

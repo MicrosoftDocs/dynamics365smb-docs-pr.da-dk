@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7521ded4e0857090cfa85c30d0f48af5ee36233
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e12432b4823bfa1477d385d73a5a938cba4cee0d
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
@@ -36,18 +36,18 @@ Indeksering anvendes til at justere for ændringer af det generelle prisniveau. 
 ## <a name="to-calculate-depreciation-automatically"></a>Sådan beregnes afskrivning automatisk
 Du kan når som helst, f.eks. en gang om måneden, udføre kørslen **Beregn afskrivning**. Kørslen ignorerer anlæg, der er blevet solgt, er spærret eller er inaktive, eller som bruger den manuelle afskrivningsmetode.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Beregn afskrivninger**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Beregn afskrivninger**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Vælg knappen **OK**.  
 
     Kørslen beregner afskrivningen og opretter linjer i anlægskassekladden.  
-4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
+4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 
     I feltet **Antal afskrivningsdage** i vinduet **Anlægskassekladde** kan du se, hvor mange afskrivningsdage, der er blevet beregnet.  
 5. Vælg handlingen **Bogfør**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Sådan bogføres afskrivning manuelt fra anlægskassekladden
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.  
 3. I feltet **Anlægsbogføringstype** skal du vælge **Afskrivning**.  
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af afskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
@@ -58,7 +58,7 @@ Hvis du har defineret anlægsallokeringsnøgler for at kunne allokere beløb til
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Sådan beregnes allokeringer i anlægskassekladden
 Hvis et anlæg bruges af flere afdelinger, kan periodisk afskrivning allokeres automatisk på disse afdelinger ud fra en brugerdefineret allokeringstabel.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
 2. Opret en første linje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Allokering**.  
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af allokering.  
@@ -67,18 +67,18 @@ Hvis et anlæg bruges af flere afdelinger, kan periodisk afskrivning allokeres a
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Bruge kopilister til at forberede bogføring af flere afskrivningsprofiler
 Når du udfylder kladdelinjer, der skal bogføres til en afskrivningsprofil, kan du kopiere linjerne til en særskilt kladde, så du kan bogføre i en anden afskrivningsprofil. Du kan finde flere oplysninger i afsnittet "Sådan bogføres poster til forskellige afskrivningsprofiler".
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
 2. Åbn afskrivningsprofilen, og markér derefter afkrydsningsfeltet **Del af kopiliste**.  
 
 > [!IMPORTANT]  
 >   Hvis du har markeret afkrydsningsfeltet **Brug kopiliste**, skal du ikke bruge nummerserier i kladden. Det skyldes, at nummerserien til anlægskassekladden ikke bruger nummerserien til anlægskladden.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Sådan bogføres poster til forskellige afskrivningsprofiler
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
 2. I den kladde, som du vil bogføre afskrivning med, skal du markere afkrydsningsfeltet **Brug kopiliste**.  
 3. Udfyld de resterende felter efter behov.  
 4. Vælg handlingen **Bogfør**.  
-5. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Anlægskladder**, og vælg derefter det relaterede link.  
+5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskladder**, og vælg derefter det relaterede link.  
 
     > [!NOTE]  
     >   Vinduet **Anlægskladde** indeholder nye linjer til forskellige afskrivningsprofiler ifølge kopilisten.  
@@ -90,7 +90,7 @@ Når du udfylder kladdelinjer, der skal bogføres til en afskrivningsprofil, kan
 Du kan kopiere poster fra én afskrivningsprofil til en anden vha. kørslen **Kopier afskrivningsprofil**. Kørslen opretter kladdelinjer i den kladde, du har angivet i vinduet **Anlægskladdeopsætning** for den afskrivningsprofil, du vil kopiere til. Du kan finde flere oplysninger i følgende procedure.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Sådan kopieres anlægsposter mellem afskrivningsprofiler
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
 2. Åbn det relevante afskrivningsprofilkort, og vælg handlingen **Kopiér afskrivningsprofil**.  
 3. I vinduet **Kopiér afskrivningsprofil** skal du udfylde felterne efter behov.  
 4. Vælg knappen **OK**.  

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 8a9b5911008c8524490bf895ee3a21394cad4fbe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: eb61eeb0a044a270a8ead5464919ce537cb356b5
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter
@@ -30,7 +30,7 @@ Da OCR er baseret på optiske registrering, er det sandsynligt, at OCR-tjenesten
 Filtrafikken til og fra OCR-tjenesten afvikles af en dedikeret opgavekøpost, der oprettes automatisk, når du aktiverer den relaterede tjenesteforbindelse. Du kan finde flere oplysninger under [Konfigurere indgående dokumenter](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Sådan sendes en PDF- eller billedfil til OCR-tjenesten fra vinduet **Indgående bilag**
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.
 2. Opret en ny indgående dokumentpost, og vedhæft filen. Du kan finde flere oplysninger under [Oprette indgående dokumentposter](across-how-create-income-document-records.md).  
 3. I vinduet **Indgående bilag** skal du vælge en eller flere linjer, og derefter skal du vælge handlingen **Send til opgavekø**.
 
@@ -109,7 +109,7 @@ Da OCR er baseret på optiske registrering, er det sandsynligt, at OCR-tjenesten
 
 Vinduet **Korrektion af OCR-data**, som du kan åbne fra vinduet **Indgående dokument**, indeholder felterne fra oversigtspanelet **Finansielle oplysninger** i to kolonner, én med OCR dataene, som kan redigeres, og én med OCR dataene skrivebeskyttet. Når du vælger knappen **Send OCR-feedback**, sendes indholdet af vinduet **Korrektion af OCR-data** til OCR tjenesten. Næste gang tjenesten behandler PDF eller billedfiler, der indeholder de pågældende data, inkorporeres dine rettelser for at undgå samme fejl.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.
 2. Åbn en indgående dokumentpost, der indeholder data, som er modtaget fra OCR-tjenesten, og som du vil rette.
 3. I vinduet **Indgående dokument** skal du vælge handlingen **Korrigér OCR-data**.
 4. I feltet **Korrektion af OCR-data** skal du overskrive dataene i kolonnen, der kan redigeres, for hvert felt, der har en forkert værdi.

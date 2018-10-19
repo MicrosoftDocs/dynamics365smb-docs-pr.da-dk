@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b36df4ccf85ce9126fe1090e86d2549737e3195
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbrug og afgang for én frigivet produktionsordrelinje
@@ -29,7 +29,7 @@ Denne udførelsesopgave udføres fra vinduet **Produktionskladde**. Kladden komb
 >  Komponenter uden rutebindingskoder angives først i kladden.  
 
 ## <a name="to-register-consumption-and-output"></a>Sådan registreres forbrug og afgang  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Frigivne prod.ordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivne prod.ordrer**, og vælg derefter det relaterede link.  
 2.  Åbn den frigivne produktionsordrelinje, der er klar til registrering. I oversigtspanelet **Linjer** skal du derefter vælge handlingen **Linje** og derefter handlingen **Produktionskladde**.  
 
     Vinduet **Produktionskladde** åbnes med kladdelinjer for produktionsordrelinjen i henhold til vinduerne **Produktionsordrekomponent** og **Prod.ordrerute**. Disse linjer, der stammer fra den produktionsstykliste og rute, der er tildelt den vare, der produceres. Du kan finde flere oplysninger i [Oprette produktionsstyklister](production-how-to-create-routings.md).  

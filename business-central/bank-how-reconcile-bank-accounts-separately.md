@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 05/15/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 32f5b2b19dc74d3849a313e3d93fdb70146cdb23
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a69aa15b544ce3eee819fc9a05f6f0c8a74af6bc
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Afstemme bankkonti separat
@@ -45,7 +45,7 @@ Når værdien i feltet **Total balance** i ruden **Bankkontoudtogslinjer** svare
 >   Hvis bankkontoudtogslinjerne vedrører checkposter, kan du ikke bruge afstemningsfunktionerne. I stedet skal du vælge handlingen **Udlign poster** og derefter vælge den relevante checkpost, som bankkontoudtogslinjen skal afstemmes med.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Sådan udfyldes bankafstemningslinjer ved at importere et bankkontoudtog
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkontoafstemning**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkontoafstemningsoversigt**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Vælg den relevante bankkonto i feltet **Bankkontonr.**. Bankkontoposterne, der findes på bankkontoen, vises i ruden **Bankkontoposter**.
 4. Angiv datoen for kontoudtoget fra banken i feltet **Kontoudtogsdato**.

@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 356f01706f40bdb8fd46871e3dbde73577a78117
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6aa3eec4afc365789b1fd85d64781593156ba068
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-business-central"></a>Udvidelsen PayPal Payments Standard til Business Central 
+# <a name="the-paypal-payments-standard-extension"></a>Udvidelsen PayPal Payments Standard
 Kunder kræver hele tiden bedre kundeservice, både med hensyn til produkternes kvalitet, men også med hensyn til leverings- og betalingsindstillinger. Tjenesten PayPal Payments Standard hjælper dig med at øge din kundeservice.
 
 Som et alternativ til opkrævning af betalinger via bankoverførsel eller kreditkort kan du tilbyde dine kunder at betale via deres PayPal-konto. Når du sender en salgsfaktura eller en salgsordre med mail, er der et PayPal-link i brødteksten i mailen og i det vedhæftede PDF-dokument. Når kunden vælger linket, vises servicesiden for deres PayPal-konto med betalingsoplysningerne for salget. Kunden kan derefter betale fakturaen som andre PayPal-betalinger.

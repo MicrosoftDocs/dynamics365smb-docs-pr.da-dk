@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 84b7a66734b3da5bdbc474bc43e463481c7f6ba5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-special-orders"></a>Oprette specialordrer
@@ -25,12 +25,12 @@ Specialordrer medfører, at købs- og salgsordrer sammenkædes for at sikre, at 
 Før du kan bruge denne funktion, skal du oprette den kunde, den leverandør, og det varekort, som skal bruges i ordren.  
 
 ## <a name="to-create-a-special-order"></a>Sådan oprettes en specialordre  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Opret og udfyld en  salgsordre for varen. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 3.  Udfyld salgslinjen på oversigtspanelet **Linjer**. I feltet **Indkøbskode** skal du vælge en indkøbskode, hvor der er en markering i feltet **Specialordre**.
 
     Du skal nu oprette købsordren fra en indkøbskladde.  
-4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Indkøbskladde**, og vælg derefter det relaterede link.  
+4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indkøbskladde**, og vælg derefter det relaterede link.  
 5. Vælg handlingen **Specialordre**, og vælg derefter handlingen **Hent salgsordrer**.  
 6.  I vinduet **Hent salgsordrer** skal du vise de resultater, hvor **Bilagsnr.** er nummeret på salgsordren. Vælg knappen **OK**. Der oprettes en indkøbskladdelinje for varen.  
 7.  Vælg **Ny** i feltet **Aktionsmeddelelse** på indkøbskladdelinjen.  

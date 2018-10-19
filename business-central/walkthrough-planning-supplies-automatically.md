@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f58f7572c2991bd4b30dca5e0c48499b36538f77
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gennemgang: Automatisk planlægning af forsyninger
 Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen af hovedplanen (MPS) og materialebehovsplanen (MRP) baseret på det faktiske og det prognosticerede behov.  
 
--   MPS defineres som beregning af en hovedplan på basis af et faktisk behov og produktionsforecast. MPS-beregningen bruges til slutvarer, der har en forecast- eller en salgsordrelinje. Disse varer kaldes "MPS-varer" og identificeres dynamisk, når beregningen begynder.  
--   MRP defineres som beregning af materialebehov på basis af et faktisk komponentbehov og et produktionsforecast på komponentniveau. MRP beregnes kun for varer, der ikke er MPS-varer. Det overordnede formå med MRP er at udarbejde formelle planer med tidsangivelser og opdelt efter varer, så den rigtige vare kan leveres på det rigtige tidspunkt, til det rigtige sted og i det rette antal.  
+-   MPS defineres som beregning af en hovedplan på basis af et faktisk behov og behovsprognosen. MPS-beregningen bruges til slutvarer, der har en prognose- eller en salgsordrelinje. Disse varer kaldes "MPS-varer" og identificeres dynamisk, når beregningen begynder.  
+-   MRP defineres som beregning af materialebehov på basis af et faktisk komponentbehov og behovsprognosen på komponentniveau. MRP beregnes kun for varer, der ikke er MPS-varer. Det overordnede formå med MRP er at udarbejde formelle planer med tidsangivelser og opdelt efter varer, så den rigtige vare kan leveres på det rigtige tidspunkt, til det rigtige sted og i det rette antal.  
 
  Der bruges de samme planlægningsalgoritmer til både MPS og MRP. Planlægningsalgoritmerne bruger sammenligning, genbrug af eksisterende forsyningsordrer og aktionsmeddelelser. Under planlægningen tages der højde for, hvad der er brug for, eller hvad der vil blive brug for (efterspørgsel), og hvad der allerede er på lager eller forventes at være på lager (udbud). Når disse antal er sammenlignet med hinanden, vises der aktionsmeddelelser i planlægningskladden. Aktionsmeddelelserne er forslag om et oprette en ny forsyningsordre, ændre en forsyningsordre (antal eller dato) eller annullere en eksisterende forsyningsordre. Forsyningsordrer kan være produktionsordrer, købsordrer og overflytningsordrer. Du kan finde flere oplysninger i [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 
@@ -73,7 +73,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-change-selected-planning-parameters"></a>Ændre valgte planlægningsparametre  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagervarer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagervarer**, og vælg derefter det relaterede link.  
 2.  Åbn lagervarekortet BLÅ for vare 1100, forhjul.  
 3.  Udfyld felterne i oversigtspanelet **Planlægning** som beskrevet i følgende tabel.  
 
@@ -90,7 +90,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-create-the-sales-order"></a>Sådan oprettes salgsordren  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  I vinduet **Salgsordre** skal du udfylde felterne som beskrevet i følgende tabel.  
 
@@ -102,7 +102,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Sådan oprettes en totalplan for at opfylde behovet på lokationen BLÅ  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Planlægningskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan**.  
 3.  I vinduet **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 
@@ -125,7 +125,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Beregne MRP for at medtage underliggende komponentbehov  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Planlægningskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan**.  
 3.  I vinduet **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 
@@ -219,7 +219,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 3.  Accepter tilgængelighedsadvarslen, og vælg knappen **Ja** for at registrere behovsantallet.  
 4.  Fortsæt med at foretage en genplanlægning for at justere den aktuelle forsyningsplan.  
-5.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Planlægningskladde**, og vælg derefter det relaterede link.  
+5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
 6.  Vælg handlingen **Beregn nettoplan**.  
 7.  I vinduet **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 

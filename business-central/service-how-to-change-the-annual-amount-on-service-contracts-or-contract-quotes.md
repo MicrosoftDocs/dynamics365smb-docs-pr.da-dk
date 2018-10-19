@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e05bcfbfee3f07beb32a8f145eb7dd4b1888edcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c656787a2de965fee90bd24922a443bc3d24bb8a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ændre det årlige beløb på servicekontrakter eller kontrakttilbud
@@ -22,7 +22,7 @@ Du kan ændre det årlige beløb på en servicekontrakt eller et kontrakttilbud 
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Sådan ændres det årlige beløb på en servicekontrakt eller et kontrakttilbud  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Servicekontrakter** eller **Servicekontrakttilbud**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontrakter** eller **Servicekontrakttilbud**, og vælg derefter det relaterede link.  
 2. Vælg kontrakten eller kontrakttilbuddet.  
 3. Vælg handlingen **Åbn kontrakt** for at åbne kontrakten eller kontrakttilbuddet til redigering.  
 4. Marker afkrydsningsfeltet **Tillad beløb, der ikke stemmer**, hvis du vil ændre det årlige beløb og fordele differencen i det årlige beløb manuelt på kontraktlinjerne. Ellers skal du fjerne markeringen i afkrydsningsfeltet for automatisk at fordele differencen i det årlige beløb på kontraktlinjerne, når du har ændret det årlige beløb.  

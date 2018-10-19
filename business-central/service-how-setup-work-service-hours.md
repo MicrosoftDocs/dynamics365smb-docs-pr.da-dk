@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fefde17c8e8063b7b1f373196bab29ff1caec452
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Konfigurere arbejdstimer og serviceåbningstider
@@ -29,7 +29,7 @@ Når du arbejder på en serviceordre, vil du gerne kunne opdatere dens status, s
 ## <a name="to-set-up-default-service-hours"></a>Sådan angives standardserviceåbningstider  
 Du kan bruge vinduet **Standardserv.åbningstider** til at angive almindelige serviceåbningstider i din virksomhed. Serviceåbningstiderne bruges til at beregne svardato og -tidspunkt for serviceordrer og tilbud og til at udsende advarsler vedr. svartid. Standardserviceåbningstiderne anvendes automatisk til servicekontrakter, medmindre du angiver særlige serviceåbningstider for en kontrakt.  
   
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Standardserv.åbningstider**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Standardserv.åbningstider**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,7 +38,7 @@ Du kan bruge vinduet **Standardserv.åbningstider** til at angive almindelige se
 ## <a name="to-set-up-work-hour-templates"></a>Sådan oprettes arbejdstidsskabeloner
 Du kan bruge vinduet **Arbejdstidsskabelon** til at oprette skabeloner, der indeholder den typiske arbejdstid i din virksomhed. Du kan f.eks. oprette skabeloner for teknikere, der arbejder på fuld tid eller på deltid. Du kan bruge arbejdstidsskabeloner, når du føjer kapacitet til ressourcer.  
   
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Arbejdstidsskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdstidsskabeloner**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,7 +49,7 @@ Du kan bruge vinduet **Serviceåbningstider** til at angive specifikke serviceå
   
 Hvis du ikke angiver specifikke serviceåbningstider for servicekontrakten, anvendes standardserviceåbningstiderne.  
   
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Servicekontrakter**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontrakter**, og vælg derefter det relaterede link.  
 2. Åbn den servicekontrakt, du vil angive specifikke serviceåbningstider for, og vælg **Serviceåbningstider**.  
 4. Hvis du vil angive serviceåbningstider baseret på standardserviceåbningstider, skal du vælge handlingen **Kopier stand.serv.åbningstider**.  
 5. Rediger felterne i posterne for serviceåbningstider. Indsæt eller slet poster for at konfigurere serviceåbningstider for kontrakten. Bemærk, at felterne **Dag**, **Starttidspunkt** og **Sluttidspunkt** er påkrævede for hver linje.  

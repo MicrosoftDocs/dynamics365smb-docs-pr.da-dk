@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gennemgang: Opsætning og brug af workflow for godkendelse af køb
@@ -58,7 +58,7 @@ Du skal oprette en ny bruger på den lokale computer og [!INCLUDE[d365fin](inclu
 7.  Luk vinduet **Lokale brugere og grupper**.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Sådan tilføjes Anna som bruger i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugere**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.  
 2.  I vinduet **Windows-brugere** under fanen **Startside** i gruppen **Ny** skal du vælge **Ny**.  
 3.  I vinduet **Brugerkort** i feltet **Brugernavn** skal du skrive Anna.  
 4.  Vælg knappen AssistEdit i feltet **Windows-brugernavn**.  
@@ -72,7 +72,7 @@ Du skal oprette en ny bruger på den lokale computer og [!INCLUDE[d365fin](inclu
 Ved hjælp af den Windows-bruger, du lige har oprettet, skal du oprette Anna som en godkendelsesbruger, hvis godkender er dig selv. Indstil dine godkendelsesrettigheder, og angiv, hvordan og hvornår du skal have besked om godkendelsesanmodninger.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Sådan opretter du dig selv og Anna som godkendelsesbrugere  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
 2.  I vinduet **Godkendelsesopsætning** under fanen **Start** i gruppen **Ny** skal du vælge **Ny**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Angiv, hvordan og hvornår du skal have besked om godkendelsesanmodninger.
  Opret godkendelsesarbejdsgangen for købsordren ved at kopiere trinnene fra skabelonen Arbejdsgang for godkendelse af købsordre. Lad de eksisterende trin i arbejdsgangen være uændrede, og aktiver derefter arbejdsgangen.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Sådan oprettes og aktiveres en godkendelsesarbejdsgang for en købsordre  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), og angiv **Workflows**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Workflows**, og vælg derefter det relaterede link.  
 2.  I vinduet **Workflows** skal du under fanen **Handlinger** i gruppen **Generelt** vælge **Opret workflow fra skabelon**.  
 3.  Under fanen **Handlinger** i gruppen **Generelt** skal du vælge **Opret workflow fra skabelon**. Vinduet **Workflowskabeloner** åbnes.  
 4.  Vælg workflowskabelonen Workflow for godkendelse af købsordre, og vælg derefter knappen **OK**.  
@@ -115,7 +115,7 @@ Angiv, hvordan og hvornår du skal have besked om godkendelsesanmodninger.
 Kontroller, at opgavekøen i installationen er indstillet til at håndtere arbejdsgangsnotifikationer.  
 
 ### <a name="to-start-the-notify-job-queue"></a>Sådan starter du opgavekøen INFORMER  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opgavekøer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opgavekøer**, og vælg derefter det relaterede link.  
 2.  I vinduet **Opgavekøer** skal du vælge linjen til jobkøen INFORMER og derefter vælge **Start jobkø** i gruppen **Proces** under fanen **Startside**.  
 
 ## <a name="using-the-approval-workflow"></a>Bruge arbejdsgangen for godkendelse  
@@ -133,7 +133,7 @@ Hvis du vil logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] som andre brug
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Sådan anmoder du om godkendelse af en købsordre, som Anna  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
 2.  Markér linjen for den åbne købsordre 104001, og vælg derefter **Rediger** i gruppen **Administrer** under fanen **Startside**.  
 3.  I vinduet **Købsordre** under fanen **Handlinger** i gruppen **Godkendelse** skal du vælge **Send godkendelsesanmodning**.  
 

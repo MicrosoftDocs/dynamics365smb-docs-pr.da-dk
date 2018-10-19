@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/05/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e56c6d07bcb501e3e461c9b16a6b5be8e2b68834
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6f1c27e93dedb12b3b4895cbfc9a22d255fa2120
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-production-boms"></a>Oprette produktionsstyklister
@@ -30,7 +30,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 - Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Sådan oprettes en produktionsstykliste  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Produktionsstykliste**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionsstykliste**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Du kan redigere styklisten ved at angive feltet **Status** til **Ny** eller **Under udvikling**. Du kan aktivere den ved at angive feltet **Status** til **Certificeret**.  
@@ -57,7 +57,7 @@ Nye versioner af produktionsstyklister anvendes, når f.eks. en vare erstattes a
 
 Startdatoen angiver starten på en periode, hvor versionen er gyldig. I alle andre sammenhænge er startdatoen et filterkriterium for beregninger og vurderinger. Styklisteversionen er gyldig, til næste version bliver gyldig efter sin startdato.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Produktionsstykliste**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionsstykliste**, og vælg derefter det relaterede link.  
 2.  Vælg produktionsstyklisten, der skal kopieres, og vælg derefter handlingen **Versioner**.  
 3.  Under fanen **Startside** i gruppen **Ny** skal du vælge **Ny**.  
 4. Udfyld felterne efter behov.

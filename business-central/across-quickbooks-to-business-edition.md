@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
-ms.date: 09/25/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: a2e2140a6a86391272882d4fbe8bf9e9b2cc5ae2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: badf86b9fefad8019b6bee5b8edcbaa1aebf8a6d
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -34,7 +34,7 @@ Du kan få flere oplysninger ved at læse om den udvidelse, der passer til din Q
 * [Udvidelsen Dataoverførsel til QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Klar nu?
-Hvis du er klar til at komme i gang nu, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Assisteret opsætning** og derefter vælge det relaterede link. Vælg **Overflyt forretningsdata**, og følg derefter trinnene i vejledningen.
+Hvis du er klar til at komme i gang nu, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Assisteret opsætning** og derefter vælge det relaterede link. Vælg **Overflyt forretningsdata**, og følg derefter trinnene i vejledningen.
 
 ## <a name="see-also"></a>Se også
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  

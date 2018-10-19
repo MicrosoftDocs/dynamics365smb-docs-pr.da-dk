@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 5360e9d25b463673e2a1b033b9f8564d0f483301
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ Du kan allokere den samme ressource, f.eks. en tekniker, eller ressourcegruppe t
 ## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Sådan får du vist en oversigt over serviceordrer og -tilbud  
 Du kan ofte få brug for at se listen over serviceordrer eller servicetilbud, som opfylder bestemte krav, så du kan udføre bestemte handlinger på hver enkelt af dem. Du kan f.eks. få brug for at allokere ressourcer til serviceordrer, der hører til en bestemt kunde.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreoversigt**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreoversigt**, og vælg derefter det relaterede link.  
 2. Vælg den type dokumenter, du vil have vist, i feltet **Dokumentfilter**.
 3. Hvis du vil se en liste over dokumenter, der indeholder serviceopgaver, som en bestemt ressource eller ressourcegruppe er allokeret til, skal du udfylde felterne **Ressourcefilter** og **Ressourcegruppefilter** og trykke på Enter.  
 4. Hvis du vil have vist en liste over dokumenter, der har en eller flere bestemte svardatoer inden for en bestemt periode, skal du udfylde feltet **Svardatofilter** og trykke på **Enter**.  
@@ -36,10 +36,10 @@ Du kan ofte få brug for at se listen over serviceordrer eller servicetilbud, so
 6. Hvis du vil have vist en liste over dokumenter, der tilhører en bestemt kontrakt, debitor eller zone, skal du udfylde feltet **Kontraktfilter/Debitorfilter/Zonefilter** og trykke på **Enter**.  
 7. Vælg en linje, der svarer til en serviceordre eller et servicetilbud, og vælg derefter handlingen **Vis bilag**.  
 
-    Siden **Serviceordre** eller **Servicetilbud** åbnes, og du kan arbejde med dokumentet. Hvis du vil tilbage til siden **Ordreoversigt**, skal du vælge **OK**.
+    Vinduet **Serviceordre** eller **Servicetilbud** åbnes, og du kan arbejde med dokumentet. Hvis du vil tilbage til vinduet **Ordreoversigt**, skal du vælge **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Sådan allokeres ressourcer vha. ressourcedisponering eller ressourcegruppedisponering    
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreoversigt**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreoversigt**, og vælg det relaterede link.  
 2. Vælg serviceordren, og vælg derefter handlingen **Ressourceallokeringer**.  
 3. Vælg posten med den serviceopgave, du vil allokere en ressource til.  
 4. Vælg enten handlingen **Ressourcedisponering** eller handlingen **Ressourcegruppedisponering**.  
@@ -59,7 +59,7 @@ Du kan ofte få brug for at se listen over serviceordrer eller servicetilbud, so
 ## <a name="to-allocate-a-resource-using-a-service-order"></a>Allokere ressourcer ved hjælp af en serviceordre  
 Når du har oprettet og udfyldt en serviceordre eller et servicetilbud, kan du allokere ressourcer, f.eks. teknikere, til udførelse af serviceopgaver, der er registreret som serviceartikellinjer i dokumentet.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Vælg serviceordren, og vælg derefter **Rediger**.  
 3. Vælg den serviceartikellinje, der svarer til den serviceopgave, du vil allokere en ressource til.  
 4. Vælg **Ressourceallokeringer**.
@@ -79,7 +79,7 @@ Du kan genallokere ressourcer direkte fra den serviceordre eller det servicetilb
 * Hvis reparationen ikke blev påbegyndt, mens allokeringen var **Aktiv**, ændrer programmet allokeringsstatus fra **Genallokering nødvendig** til **Annulleret**.  
 * Hvis du genallokerer en serviceordre, som du har konverteret fra et tilbud, ændres status altid automatisk for de allokeringsposter, der er registreret for tilbuddet, til **Udført**, når du genallokerer serviceartiklerne i serviceordren.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Åbn den relevante serviceordre.  
 3. Vælg den serviceartikellinje, der svarer til den serviceopgave, du vil allokere en ressource til.  Vælg **Handlinger**, vælg **Linje**, og vælg derefter **Ressourceallokeringer**.  
 4. Vælg en allokeringspost med den serviceopgave, som du vil genallokere ressourcen til, i vinduet **Ressourceallokeringer**. Vælg den relevante ressource i feltet **Ressourcenr.**. Dette overskriver det ressourcenummer, der i forvejen var i feltet.  
@@ -89,7 +89,7 @@ Du kan genallokere ressourcer direkte fra den serviceordre eller det servicetilb
 ## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Sådan genallokeres ressourcer ved hjælp af ordreoversigten  
 Hvis den ressource, der er allokeret til en serviceopgave, ikke kan udføre arbejdet, betyder det, at serviceopgaven skal genallokeres. Ressourcer genallokeres som regel til en serviceopgave ved hjælp af **Ordreoversigt**.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreoversigt**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreoversigt**, og vælg derefter det relaterede link.  
 2. Vælg **Genallokering nødvendig** i feltet **Allokeringsfilter**. I vinduet **Ordreoversigt** vises de serviceordrer, som indeholder serviceopgaver, der skal genallokeres.  
 3. Vælg den relevante serviceordre. Vælg **Ressourceallokeringer** i gruppen **Skabelon** under fanen **Naviger**. Vinduet **Ressourceallokeringer** åbnes.  
 4. Marker allokeringsposten med den serviceopgave, du vil genallokere en ressource til.  
@@ -111,7 +111,7 @@ Du kan bruge samme fremgangsmåde til at registrere timerne i vinduet **Servicel
 
 Hvis samme ressource arbejder på alle serviceartiklerne i serviceordren, kan du registrere de samlede ressourcetimer for kun én serviceartikel og derefter opdele ressourcelinjen for at tildele ressourcetimer til de andre serviceartikler.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceopgaver**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceopgaver**, og vælg derefter det relaterede link.
 2. Vælg den linje, der indeholder den relevante serviceartikel, og vælg derefter handlingen **Artikelkladde**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -120,7 +120,7 @@ Hvis samme ressource (f.eks. en tekniker) arbejder på alle serviceartiklerne i 
 
 Følgende fremgangsmåde viser, hvordan ressourcelinjerne i vinduet **Servicefakturalinjer** kan opdeles.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Åbn den relevante serviceordre.  
 3. Vælg **Handlinger** i oversigtspanelet **Linjer**, vælg **Ordre**, og vælg derefter **Servicelinjer**. Vinduet **Serviceordre** åbnes.  
 4. Vælg den ressourcelinje, du vil opdele. Oplysningerne i feltet **Antal** opdeles automatisk mellem alle serviceartiklerne i ordren.  
@@ -131,7 +131,7 @@ Følgende fremgangsmåde viser, hvordan ressourcelinjerne i vinduet **Servicefak
 ## <a name="to-cancel-an-allocation"></a>Sådan annulleres allokeringer  
 Du kan annullere ressourceallokeringer til serviceopgaver uden at genallokere opgaverne.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ordreoversigt**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreoversigt**, og vælg derefter det relaterede link.  
 2. Vælg serviceordren, og vælg derefter handlingen **Ressourceallokeringer**.  
 3. Vælg allokeringsposten med den serviceopgave, du vil annullere allokeringen for.  
 4. Vælg handlingen **Annuller allokering**.  

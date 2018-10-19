@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 03/27/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6a61d7b07b2e04259bb4db386b651c4711ac7b09
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-number-series"></a>Oprette nummerserie
@@ -50,13 +50,13 @@ Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes
 > Hvis du har brug for at aktivere manuel nummerering på f.eks. nye varekort, der er oprettet med en dataoverførselsproces, hvor **Nummer** som standard er skjult, skal du gå til vinduet **Lageropsætning** og vælge feltet **Varenumre** for at åbne og indstille de relaterede nummerserier til **Manuel nummerering**.
 
 ## <a name="to-create-a-new-number-series"></a>Sådan opretter du en ny nummerserie
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Nummerserie**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Nummerserie**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne på den nye linje efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Sådan definerer du, hvor en nummerserie skal bruges
 Følgende procedure viser, hvordan du konfigurerer nummerserieren for området Salg. Trinene er som for andre områder.
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Nummerserie**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salg**, og vælg derefter det relaterede link.
 2. I vinduet **Salg** i oversigtspanelet **Nummerserie** skal du vælge den ønskede nummerserie for hvert salgskort eller dokument.
 
 Det valgte nummer bliver nu brugt til at udfylde feltet **Nummer** på det relevante kort eller dokument i overensstemmelse med de valgte indstillinger på nummerserielinjen.
@@ -64,7 +64,7 @@ Det valgte nummer bliver nu brugt til at udfylde feltet **Nummer** på det relev
 ## <a name="to-create-relationships-between-number-series"></a>Sådan oprettes relationer mellem nummerserier
 Hvis du har oprettet mere end en nummerseriekode for samme slags grundlæggende oplysninger eller transaktioner, kan du oprette relationer mellem koderne. Denne funktion kan være en hjælp ved valg af koder, når du bruger et nummer.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Nummerserie**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Nummerserie**, og vælg derefter det relaterede link.
 2. Vælg linjen med den nummerserie, du vil oprette relationer for, og vælg derefter **Relationer**.
 3. I feltet **Seriekode** skal du indtaste koden for de antal serier, du vil knytte til de serier, du valgte under trin to .
 4. Tilføj en linje for hver kode, du vil knytte til den valgte nummerserie.

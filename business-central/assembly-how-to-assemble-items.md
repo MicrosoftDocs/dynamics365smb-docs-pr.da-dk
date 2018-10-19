@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c5e23bdd507cd4b08cede911fa8572458b91eb94
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="assemble-items"></a>Montere elementer
@@ -43,7 +43,7 @@ Disse opsætningsindstillinger er standardindstillinger, der styrer, hvordan sal
 I denne procedure skal du oprette og behandle en montageordre for montage til lager-varer, hvilket betyder uden en sammenkædet salgsordre. Fremgangsmåden omfatter start af montageordren, håndtering af potentielle problemer med komponenttilgængeligheden og delvis bogføring af afgang for montageelement.
 
 ## <a name="to-assemble-an-item"></a>Sådan monteres et element  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Montageordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Montageordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**. Vinduet **Ny montageordre** åbnes.  
 3.  Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Vælg det montageelement, som skal behandles, i feltet **Varenr.**. Feltet er filtreret, så det kun viser elementer, der er konfigureret for montage, hvilket betyder, at de har tildelte montagestyklister.  

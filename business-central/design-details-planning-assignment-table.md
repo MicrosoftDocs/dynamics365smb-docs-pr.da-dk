@@ -10,37 +10,37 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3e412c6fe82b3ee5640329c523b19d68f849f93a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9a1661d71bd28009a0c0b83a50e27cae3c833ea7
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-planning-assignment-table"></a>Designoplysninger: Tabellen Planlægningsopgave
 Der skal foretages planlægning for alle varer, men der er ingen grund til at beregne en plan for en vare, medmindre der er sket en ændring i mønstret for behov eller forsyning, siden sidst en plan blev beregnet.  
-  
+
 Hvis brugeren har angivet en ny salgsordre eller ændret en eksisterende, er der grund til at genberegne planen. Andre årsager omfatter en ændring i budgettet eller den ønskede mængde sikkerhedslager. Ændring af en stykliste ved at tilføje eller fjerne en komponent ville sandsynligvis angive en ændring, men kun for komponentvaren.  
-  
+
 For flere lokationer finder tildelingen sted på niveauet for vare pr. lokationskombination. Hvis en salgsordre f.eks. er blevet oprettet på kun én lokation, bliver varen tildelt på den pågældende lokation til planlægning.  
-  
+
 Årsagen til at vælge varer til planlægning er et spørgsmål om systemets ydeevne. Hvis der ikke er opstået nogen ændring af en vares behov-forsyningsmønster, foreslår planlægningssystemet ikke nogen handlinger, der skal udføres. Uden planlægningsopgave ville systemet skulle udføre beregningerne for alle varer for at finde ud af, hvad der skal planlægges, og det ville forbruge systemressourcer.  
-  
+
 Tabellen **Planlægningsopgave** overvåger behovs- og forsyningshændelser og tildeler de relevante varer til planlægning. Følgende hændelser overvåges:  
-  
+
 * En ny salgsordre, prognose, komponent, købsordre, produktionsordre, montageordre eller overflytningsordre.  
 * Ændring af vare, antal, lokation, variant eller dato på en salgsordre, forecast, komponent, købsordre, produktionsordre, montageordre eller overflytningsordre.  
 * Annullering af en salgsordre, forecast, komponent, købsordre, produktionsordre, montageordre eller overflytningsordre.  
 * Forbrug af varer udover det planlagte.  
 * Afgang af andre varer end de planlagte.  
 * Ikke-planlagte ændringer i lageret.  
-  
+
 For disse direkte forsyning-behov-flytninger, vedligeholder ordresporings- og aktionsmeddelelsessystemet tabellen Planlægningsopgave og angiver en planlægningsårsag som en aktionsmeddelelse.  
-  
+
 Følgende ændringer i stamdata kan også forårsage en uligevægt i planlægning:  
-  
+
 * Skift status til Certificeret i produktionsstyklistehovedet (for alle varer, der bruger det pågældende hoved).  
 * Slettet linje (underordnet vare).  
 * Skift status til Certificeret i rutehovedet (for alle varer, der bruger den rute).  
@@ -51,19 +51,19 @@ Følgende ændringer i stamdata kan også forårsage en uligevægt i planlægnin
 * Produktionsstyklistenr. (og alle underordnede af gammel styklistereference).  
 * Rutenr.  
 * Genbestillingsmetode.  
-  
+
 I disse tilfælde vil en ny funktion, administration af planlægning, vedligeholde tabellen og angive årsagen til planlægning som Bevægelse.  
-  
+
 Følgende ændringer medfører ikke en planlægningsopgave:  
-  
+
 * Kalendere  
 * Andre planlægningsparametre på varekortet  
-  
+
 Ved beregning af en hovedplan eller en MRP gælder følgende begrænsninger:  
-  
-* Hovedplan: Planlægningssystemet kontrollerer, at varen har et produktionsforecast eller en salgsordre. Hvis ikke, medtages varen ikke i planen.  
+
+* Hovedplan: Planlægningssystemet kontrollerer, at varen har en behovsprognose eller en salgsordre. Hvis ikke, medtages varen ikke i planen.  
 * MRP: Hvis planlægningssystemet registrerer, at varen genbestilles af en hovedplans planlægningslinje eller forsyningsordre, udelades varen i planlægningen. Et hvilket som helst behov fra relevante komponenter er imidlertid inkluderet.  
-  
+
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   

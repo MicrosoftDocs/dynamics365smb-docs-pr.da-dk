@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 07/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ceccc02c841044803337ac53f378451d8f315484
 ms.contentlocale: da-dk
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-reports"></a>Arbejde med rapporter
-En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse og kan udskrives. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
+En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse og kan udskrives. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder vinduet **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
 
-Du kan finde rapporter under fanen **Rapporter** på udvalgte sider, eller du kan bruge Søg ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") til at finde rapporter efter navn.
+Du kan finde rapporter under fanen **Rapporter** på markerede sider, eller du kan bruge søgefunktionen ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") til at finde rapporter efter navn.
 
 
 ## <a name="specifying-the-data-to-include-in-the-report"></a>Angiver dataene, der skal medtages i rapporten

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9dfee6403b451dc728c0fe37c0a5fff77d8133f6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gennemgang: Opsætning og fakturering af salgsforudbetalinger
@@ -64,7 +64,7 @@ Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg elle
 Følgende procedurer beskriver, hvordan Pias opgaver udføres:  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Sådan opsættes nummerserierne for forudbetalinger  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsopsætning**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af salg og tilgodehavender**, og vælg derefter det relaterede link.  
 2.  I vinduet **Salgsopsætning** skal du udvide oversigtspanelet **Nummerering**.  
 3.  Kontroller, at nummerserierne for de bogførte forudbetalingsfakturaer i feltet **Bogførte forudbetalingsfakturanr.** er de samme som dem, der er bogført for salgsfakturaerne (**Bogførte fakturanumre**), og at nummerserierne for bogførte forudbetalingskreditnotaer (**Bogførte forudbetalingskreditnotanr.**) er de samme som dem, der er bogført for kreditnotaer (**Bogf. kreditnotanumre**).  
 
@@ -78,11 +78,11 @@ Pia angiver, at debitor 20000 som standard skal faktureres med en forudbetaling 
 Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for vare 1100. Debitor 20000 har en dårlig betalingshistorie. Hun kræver derfor en forudbetaling på 40 % fra debitor 20000 for vare 1100. Følgende fremgangsmåde viser, hvordan standardprocenten for forudbetaling angives.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Sådan angives standardprocenten for forudbetalinger for debitorer og varer  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitorer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
 2.  Åbn kortvinduet for debitor 20000 (Ravel Møbler).
 3.  Skriv **30** i feltet **Forudbetaling i %**.  
 4.  Vælg knappen **OK** for at lukke debitorkortet.  
-5.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 6.  Åbn kortet for debitor 1100.
 7.  Vælg handlingen **Forudbetalingsprocenter**.  
 8.  Udfyld de to linjer i vinduet **Forudbetalingsprocenter - salg** på følgende måde.  
@@ -98,7 +98,7 @@ Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for var
 9. Luk alle vinduer.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Angive en konto for salgsforudbetalinger i den generelle bogføringsopsætning  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 2.  Markér linjen, hvor feltet **Virksomhedsbogføringsgruppe** er indstillet til **EKSPORTERE**, og feltet **Produktbogføringsgruppe** er indstillet til **DETAIL**, og vælg derefter handlingen **Rediger**.  
 3.  Angiv den relevante konto i feltet **Forudbetalingskonto** for salg i vinduet **Bogføringsopsætningskort**.  
 4.  Vælg knappen **OK**.  
@@ -111,7 +111,7 @@ Debitor ønsker at betale 35 %, hvilket Susanne accepterer. Hun ændrer derfor o
 Susan opretter forudbetalingsfakturaen og sender den til kunden.  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Sådan oprettes en salgsordre med en forudbetaling  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  I feltet **Kundenr** skal du vælge **20000**.  
 5.  Accepter den viste advarslen om et forfaldent beløb.  
@@ -173,7 +173,7 @@ Debitor betaler forudbetalingsbeløbet, og Arne, der arbejder i regnskabsafdelin
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Sådan påføres en betaling på forudbetalingsfakturaer  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Indbetalingskladder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indbetalingskladder**, og vælg derefter det relaterede link.  
 2.  Udfyld kladdelinjen med følgende oplysninger.  
 
     |Feltnavn|Indsæt|  
@@ -202,7 +202,7 @@ Arne har nu fået oplyst, at varerne i ordren er blevet afsendt, og at ordren er
 
 Arne kan få vist oversigten for at kontrollere, at salgsfakturaen blev oprettet, som tiltænkt.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 
 ## <a name="next-steps"></a>Efterfølgende trin  
 Denne gennemgang har ført dig gennem trinnene i, hvordan du indstiller [!INCLUDE[d365fin](includes/d365fin_md.md)] til at håndtere forudbetalinger. Du har oprettet standardprocenter for forudbetaling for debitorer og varer, og du har også brugt forskellige andre metoder til beregning af forudbetalinger på en ordre. Du har prøvet at tildele forudbetalingsbeløb til ordren, og du har fået programmet til at beregne forudbetalingsbeløbet beregnet som en procent af hele ordren.  

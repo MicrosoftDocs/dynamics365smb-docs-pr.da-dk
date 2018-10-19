@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cfc53c1ea3c8d30f65b2d475a8dab052519e81e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Forberede overflytning af debitordata
@@ -44,7 +44,7 @@ Når du vælger en eksisterende dataskabelon, skal du vurdere, om skabelonerne, 
 > [!TIP]  
 >  Du kan også bruge dataskabeloner til hurtigt at oprette nye poster. Brug dem til hurtigere og mere nøjagtig dataoprettelse. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsskabeloner**, og vælg det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
 2. I vinduet **Konfig. skabelonoversigt** skal du vælge en dataskabelon på listen og derefter vælge handlingen **Rediger**.  
 
 Hvis standardskabelonerne ikke opfylder dine behov, kan du oprette nye skabeloner, eller du kan føje felter til en eksisterende skabelon. Hvis standardskabelonerne er tilstrækkelige, kan du bruge dem til at oprette poster, der er baseret på masterdataskabeloner.
@@ -75,7 +75,7 @@ Hver skabelon består af et hoved og linjer. Når du opretter en skabelon, kan d
 ## <a name="to-export-to-a-template-in-excel"></a>Sådan udlæses til en skabelon i Excel
 Du kan hurtigt oprette en Excel-projektmappe, der skal fungere som en skabelon, der er baseret på strukturen i en eksisterende databasetabel. Derefter kan du bruge skabelonen til at indsamle debitordata i et ensartet format til senere import i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsregneark**, og vælg det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
 2. Tilføj en tabel på listen, eller vælg en eksisterende tabel. Du kan finde flere oplysninger i [Administrere virksomhedskonfigurationen i et regneark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Definer felterne fra den tabel, du vil medtage i skabelonen.
 4. Vælg handlingen **Udlæs til skabelon**.
@@ -100,11 +100,11 @@ Du kan bruge strukturen i de data, der er indeholdt i dataskabelonerne til at ko
 
 Følgende trin illustrerer, hvordan du opretter et varekort fra en varedataskabelon. Du kan oprette en post fra alle dataskabeloner ved hjælp af samme fremgangsmåde.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsskabeloner**, og vælg det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
 2. Markér skabelonen **Vare**, og vælg derefter handlingen **Rediger**. Du kan finde flere oplysninger i afsnittet "Sådan oprettes en dataskabelon".
 3. Vælg handlingen **Opret forekomst**. Der oprettes et varekort.  
 4. Vælg knappen **OK**.  
-5. Hvis du vil gennemgå det nye varekort, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+5. For at få vist det nye varekort skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Varer** og derefter vælge det relaterede link.  
 6. Åbn det nye varekort.  
 7. Udvid de forskellige oversigtspaneler, og kontrollér, at oplysningerne er oprettet korrekt på dem.  
 

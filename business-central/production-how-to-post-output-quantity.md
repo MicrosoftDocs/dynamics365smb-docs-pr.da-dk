@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d1813ab3105023e56347c9321fbbb10944e7f09f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7b895978bd55cd6ed7086326036016002519817e
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="batch-post-output-and-run-times"></a>Massebogføre afgang og operationstider
@@ -26,7 +26,7 @@ Afgangsantallet angiver arbejdsforløbet i form af det færdige antal.
 > Lageret opdateres kun automatisk, når du bogfører afgangsantal i den sidste operation.  
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Sådan bogføres afgangsantal for en eller flere produktionsordrelinjer
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afgangskladde**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afgangskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne med produktionsordredataene og afgangsdataene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis operationen er afsluttet, skal du markere feltet **Afsluttet**.  
 
@@ -37,7 +37,7 @@ Afgangsantallet angiver arbejdsforløbet i form af det færdige antal.
 ## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Sådan bogføres operationstider for en eller flere produktionsordrelinjer
 Operationstiden angiver arbejdsforløbet i form af den nødvendige arbejdstid.    
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afgangskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afgangskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne med produktionsordredataene og afgangsdataene.  
 3.  Hvis operationen er afsluttet, skal du vælge feltet **Afsluttet**.  
 4. Vælg handlingen **Bogfør** for at bogføre den tid, der bruges pr. operation. Kapacitetsposter opdateres for de anvendte arbejdscentre eller produktionsressourcer.

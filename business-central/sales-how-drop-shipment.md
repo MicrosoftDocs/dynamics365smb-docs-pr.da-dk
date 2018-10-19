@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4840cde44374f17dcbd2befb167bfdf6110fe6fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-drop-shipments"></a>Foretage direkte leveringer
@@ -49,14 +49,15 @@ Nu kan du bede leverandøren levere varerne til kunden, f.eks. ved at sende køb
 ## <a name="to-post-a-drop-shipment"></a>Sådan bogfører du en direkte levering
 Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du kan også bogføre købsordren, men kun med indstillingen **Modtag**, indtil salgsordren er faktureret.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn den salgsordre, du oprettede i afsnittet "Sådan oprettes en salgsordre til direkte levering".
 3. I feltet **Levér (antal)** skal du angive, hvor mange varer af ordreantallet der skal leveres, hele eller en del af ordreantallet.
 4. Vælg handlingen **Bogfør** eller **Bogfør og send**.
 5. Vælg enten indstillingen **Levér** for at fakturere senere, eller vælg indstillingen **Levér og fakturer** for at fakturere med det samme.
 
 ## <a name="see-also"></a>Se også
-[Oprette specialordrer](sales-how-to-create-special-orders.md)|  
+[Oprette specialordrer](sales-how-to-create-special-orders.md)  
+[Købe varer til et salg](purchasing-how-purchase-products-sale.md)  
 [Sælge produkter](sales-how-sell-products.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
 [Salg](sales-manage-sales.md)  

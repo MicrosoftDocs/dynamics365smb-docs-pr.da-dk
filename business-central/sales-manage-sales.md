@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sales"></a>Salg
@@ -36,8 +36,9 @@ Ved alle salgsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for at 
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
-| Hvis du vil | Se |
+| Hvis du vil | Skal du se |
 | --- | --- |
+|Opret et debitorkort for hver debitor, du sælger til.|[Registrere nye debitorer](sales-how-register-new-customers.md)|
 | Opret et salgstilbud, hvor du f.eks. tilbyder produkter på betingelser, der kan forhandles, før du konverterer tilbuddet til en salgsfaktura. |[Oprette salgstilbud](sales-how-make-offers.md) |
 | Opret en salgsfaktura for at registrere din aftale med en debitor om at sælge produkter på bestemte leverings- og betalingsbetingelser. |[Fakturere salg](sales-how-invoice-sales.md) |
 | Behandl en salgsordre, der involverer delvis levering eller direkte levering. |[Sælge produkter](sales-how-sell-products.md) |
@@ -61,5 +62,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

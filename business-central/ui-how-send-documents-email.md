@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/30/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ed2ffa433c2bee2b29971aacd25430d2148ecc56
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75ee26e612627f7d24e47db87cb520d56a331ef6
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="send-documents-by-email"></a>Sende dokumenter som mail
@@ -32,7 +32,7 @@ Hvis feltet **Mail** i vinduet **Send bilag til** indstilles til **Ja (Bed om in
 Følgende procedure beskriver, hvordan du konfigurerer rapporten **Salg - faktura**, så den kan bruges til dokumentspecifik brødtekst i mail, når du sender mails med bogførte salgsfakturaer.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Sådan oprettes dokumentspecifik brødtekst i mail til salgsfakturaer
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rapportvalg - Salg**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportvalg - Salg**, og vælg derefter det relaterede link.
 2. I vinduet **Rapportvalg - salg** skal du vælge **faktura** i feltet **Forbrug**.
 3. På en ny linje i feltet **Rapport-ID** skal du vælge f.eks. standardrapport 1306.
 4. Markér afkrydsningsfeltet **Brug til brødtekst i mail**.
@@ -48,7 +48,7 @@ Nu, når du vælger, f.eks. **Send**-handlingen i vinduet **Bogført salgsfaktur
 Følgende fremgangsmåde beskriver, hvordan du sender en bogført salgsfaktura som mailmeddelelse med dokumentet vedhæftet som en PDF-fil og med dokumentspecifik brødtekst i mail.
 
 ## <a name="to-send-documents-by-email"></a>Sådan sendes dokumenter som mail
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.
 2. Vælg den relevante bogførte salgsfaktura, og vælg derefter handlingen **Send**. Vinduet **Send bilag til** åbnes.
 3. I feltet **Mail** skal du vælge **Ja (Bed om indstillinger)**. Du kan finde flere oplysninger under [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
 4. Vælg knappen **OK**. Vinduet **Send mail** åbnes.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 497d19dfdc8c972ff22aa0bcb65d96791bc8390e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: be0a80ea66dea634a37cb187408c7142d70af011
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Oprette tilbud på montage til ordre-salg
@@ -28,7 +28,7 @@ Du kan også oprette et salgstilbud for en tilpasset montageelement, som når du
 >  Ligesom alle typer tilbud bruges mængderne med montagetilbud ikke i forbindelse med tilgængelighed, planlægning eller reservationer.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Sådan oprettes et salgstilbud til et montage efter ordre-element  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgstilbud**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgstilbud**, og vælg derefter det relaterede link.  
 2.  Opret en ny salgstilbudslinje med en linje til et montageelement. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md).  
 3.  I feltet **Antal til montage efter ordre** skal du angive den samlede mængde.
 

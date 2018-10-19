@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 025c00e6013e773204a12abc7d86c09b3dcef3dd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1697ba5b28e8fe475704dffde37ce0935ba443f2
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
@@ -33,7 +33,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette kontoskemaer og definere kontokategorier for at definere indholdet af finansielle diagrammer og rapporter, f.eks. balancen og årsopgørelsesrapporter.|[Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)|
 |Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Konfigurere regnskabsperioder. |[Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md) |
-| Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Fremgangsmåde: Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
+| Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
 | Angive salgs- og købsfunktioner til at håndtere betalinger i fremmed valuta.|[Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Føje nye konti til den eksisterende kontoplan. |[Konfigurere kontoplanen](finance-setup-chart-accounts.md) |
 | Oprette business intelligence (BI)-diagrammer til at analysere likviditet. |[Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md) |
@@ -49,5 +49,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3e091843b6c2f4a5df0a93c5e70df2c20796a4c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 214de72b86e3d32e5161814a7f65079cbb4136b7
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-locations-to-use-bins"></a>Oprette lokationer til brug af placeringer
@@ -28,7 +28,7 @@ Hvis du vil benytte placeringer på en lokation, skal du først aktivere funktio
 >  Placeringskoderne skal være oprettet, før du kan angive placeringskoder på lokationskortet. Du kan finde flere oplysninger under [Oprette placeringer](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Sådan konfigureres en lokation til at bruge placeringer  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Vælg den lokation, hvor du vil bruge placeringer.  
 3.  Vælg handlingen **Rediger**.  
 4.  Markér afkrydsningsfeltet **Tvungen placering** i oversigtspanelet **Lagersted**.  

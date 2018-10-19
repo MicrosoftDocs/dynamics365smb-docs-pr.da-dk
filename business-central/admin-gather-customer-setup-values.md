@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a1333567069d24bc5eff48d668dca8b480b85914
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Indsaml debitoropsætningsværdier
@@ -47,9 +47,9 @@ Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og be
 -   Logistikopsætning  
 
 > [!NOTE]  
->  Hvis du vil se en fuldstændig liste over opsætningstabeller, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Opsætning** og derefter vælge det relaterede link. Til at afgøre omfanget af overflytning af data i poster, skal du bruge funktionerne til overflytning. Du kan finde flere oplysninger i [Overflytning af debitordata](admin-migrate-customer-data.md).  
+>  For at få vist en komplet liste over opsætningstabeller skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning**, og vælg derefter det relaterede link. Til at afgøre omfanget af overflytning af data i poster, skal du bruge funktionerne til overflytning. Du kan finde flere oplysninger i [Overflytning af debitordata](admin-migrate-customer-data.md).  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsspørgeskema**, og vælg det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg det relaterede link.  
 2. Vælg handlingen **Ny**. Vinduet **Konfig.spørgeskema** åbnes.  
 3. Vælg handlingen **Spørgsmålsområder**. Vinduet **Spørgsmålsområder** åbnes.  
 4. Vælg handlingen **Ny**. Vinduet **Konfig.spørgsmålsområde** åbnes.  
@@ -72,7 +72,7 @@ Du kan bruge konfigurationsspørgeskemaet til at strukturere og dokumentere en d
 >  Du kan også oprette dit eget konfigurationsspørgeskema, som opfylder dine behov.  
 
 1. Åbn det ønskede regnskab, du vil udfylde spørgeskemaet for.
-2. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsspørgeskema**, og vælg derefter det relaterede link.  
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg derefter det relaterede link.  
 3. Vælg spørgeskemaet for virksomheden, og vælg derefter handlingen **Udlæs til Excel** og eventuelt handlingen **Udlæs til XML**.
 4. Få kunden til at udfylde konfigurationsspørgeskemaet ved at angive svarene i Excel-projektmappen. Der er et regneark for hvert spørgsmålsområde i spørgeskemaet.   
 5. Vælg handlingen **Indlæs fra Excel**, og vælg .xlsx-filen med kundens svar.  
@@ -105,7 +105,7 @@ Når du har fuldført din validering, er dataene klar til at blive anvendt til d
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Sådan anvendes svar fra konfigurationsspørgeskemaet
 Når du har indlæst og valideret oplysninger fra et konfigurationsspørgeskema, kan du overføre eller anvende opsætningsdata til de tilsvarende tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsspørgeskema**, og vælg derefter det relaterede link. Vinduet **Konfig.spørgeskema** åbnes.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg derefter det relaterede link. Vinduet **Konfig.spørgeskema** åbnes.  
 2. Vælg et konfigurationsspørgeskema på listen, og vælg derefter handlingen **Rediger liste**.  
 3. Du kan anvende svar på en af to måder.  
 
@@ -113,7 +113,7 @@ Når du har indlæst og valideret oplysninger fra et konfigurationsspørgeskema,
 - Hvis du vil anvende svar kun for et bestemt **Spørgsmålsområde**, skal du vælge handlingen **Spørgeområder**, vælge et **Spørgsmålsområde** på listen og derefter vælge handlingen **Anvend svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Sådan kontrollerer du, at svarene er blevet anvendt korrekt  
-1. Kontrollér opsætningsvinduerne for de forskellige funktionelle områder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. For at finde vinduet skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") angive navnet på konfigurationsvinduet og derefter vælge det relaterede link.  
+1. Kontrollér opsætningsvinduerne for de forskellige funktionelle områder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. For at finde vinduet skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive navnet på opsætningsvinduet og derefter vælge det relaterede link.  
 2. Kontrollér, at felterne er blevet udfyldt med de korrekte data fra de forskellige spørgsmålsområder i konfigurationsspørgeskemaet.  
 
 Du har nu konfigureret opsætning med debitorens forretningsmæssige oplysninger og regler.

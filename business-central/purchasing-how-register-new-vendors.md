@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
-ms.openlocfilehash: d17ed41b7beb6ba342c17e007496314d9be743f0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: faf2ce7b68c2f54e05c6bfc9b45b736e7f3e7ab8
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-new-vendors"></a>Registrere nye kreditorer
@@ -30,7 +30,7 @@ Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe p
 >   Hvis der er kreditorskabeloner til forskellige kreditortyper, vises der automatisk et vindue, når du opretter et nyt kreditorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én kreditorskabelon, bruger nye kreditorkort altid denne skabelon.
 
 ## <a name="to-create-a-new-vendor-card"></a>Sådan oprettes et nyt kreditorkort
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorer**, og vælg derefter det relaterede link.  
 2. I vinduet **Kreditorer** skal du vælge **Ny**.
 
     Hvis der er mere end én kreditorskabelon, åbnes der automatisk et vindue, hvor du kan vælge en kreditorskabelon. I dette tilfælde skal du følge de næste to trin.

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
-ms.openlocfilehash: ab05b9d596af65936d81c649fbace0f250efe076
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 1573335edd2c3a52074b4a15ab66f86d4f2616ce
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbejde med koncerninterne dokumenter og kladder
@@ -29,7 +29,7 @@ Du kan sende salgs- og købsordrer og returordrer, før du bogfører dem. Faktur
 
 Den følgende procedure beskriver, hvordan du udfylder og sender en IC-salgsordre. Samme fremgangsmåde anvendes på koncerninterne købsordrer og returordrer og bogførte IC-fakturaer og kreditnotaer.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Vælg **Ny** for at oprette en ny salgsordre. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Sørg for, at debitoren er en koncernintern partner.
@@ -41,7 +41,7 @@ Den følgende procedure beskriver, hvordan du udfylder og sender en IC-salgsordr
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Sådan udfyldes og bogføres en IC-kladde
 Når du bogfører en koncernintern finanskladdelinje i regnskabet, oprettes der en tilsvarende finanskladdelinje i din koncerninterne udbakke, som du kan overføre til partneren. Din partner kan derefter bogføre den tilsvarende transaktion direkte i sit eget regnskab uden at skulle indtaste oplysningerne igen.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Koncernintern finanskladder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernintern finanskladder**, og vælg derefter det relaterede link.  
 2. Åbn det relevante kladdenavn. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).
 3. Udfyld felterne efter behov.
 4. I feltet **IC-partner finanskontonr.** skal du angive den koncerninterne finanskonto , som beløbet skal bogføres til i partnerens virksomhed.

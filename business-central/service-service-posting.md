@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b191b5e8fbe0a60a32d32bd2dc1ca0cca07c06e4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-posting"></a>Bogføring af tjenesten
@@ -49,7 +49,7 @@ Når du bogfører en servicefaktura, en serviceleverance eller en servicekreditn
 
 I følgende procedure bruges en bogført servicefaktura som eksempel, men der kan anvendes samme fremgangsmåde på bogførte serviceleverancer og bogførte kreditnotaer.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogført servicefaktura**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogført servicefaktura**, og vælg derefter det relaterede link.  
 2. Åbn den bogførte servicefaktura, som du vil se.  
 3. For at få et overblik over den bogførte faktura skal du vælge handlingen **Statistik**.  
 

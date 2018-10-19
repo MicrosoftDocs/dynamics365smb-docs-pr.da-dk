@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b9b6a44463e204dbb5bba012782bea4759f8f396
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7b8d12d597930824aba96cc894b11419f9ae00b0
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-responsibility-centers"></a>Arbejde med ansvarscentre
@@ -29,12 +29,12 @@ Flere lokationer betyder, at en virksomhed kan nøjes med at bruge en enkelt dat
 Ansvarscentre fungerer som supplement til muligheden for at anvende flere lokationer, fordi denne funktion giver brugerne mulighed for også at håndtere administrative centre. Et ansvarscenter kan være et omkostningscenter, resultatcenter, investeringscenter eller andet administrativt center, der er defineret af virksomheden. Eksempler på ansvarscentre er et salgskontor, en indkøbsafdeling for flere lokationer og et kontor for anlægsplanlægning. Ved hjælp af disse funktioner kan firmaer f.eks. oprette brugerspecifikke visninger af salgs- og købsdokumenter, der udelukkende er relateret til et bestemt ansvarscenter.
 
 ## <a name="to-set-up-a-responsibility-center"></a>Sådan oprettes et ansvarscenter  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ansvarscentre**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ansvarscentre**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Hvis du bruger ansvarscentre til at administrere din virksomhed, kan være nyttigt at have et standardansvarscenter for din virksomhed.
-4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
+4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
 5. I feltet **Ansvarscenter** skal du angive en ansvarscenterkode.
 
 Denne ansvarskode vil blive brugt på alle købs-, salgs- eller servicedokumenter, hvis bruger, debitor eller kreditor ikke har noget standardansvarscenter. På salgs-, købs- eller servicedokumenter kan du altid angive et andet ansvarscenter end standardcenteret.
@@ -47,7 +47,7 @@ Du kan opsætte brugere, så programmet i deres daglige rutine kun henter de dok
 
 Du kan angive dette ved at knytte ansvarscentre til brugere i tre funktionsmoduler: Køb, Salg og Service.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ressourceopsætning**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning**, og vælg derefter det relaterede link.  
 2.  Vælg den bruger, du vil knytte et ansvarscenter til, i vinduet **Brugeropsætning**. Hvis brugeren ikke er i oversigten, skal du angive en bruger-id i feltet **Bruger-id**.  
 3.  Angiv det ansvarscenter, hvor brugeren har opgaver i relation til salg, i feltet **Filter til salgsansvarscenter**.  
 4.  Angiv det ansvarscenter, hvor brugeren har opgaver i relation til indkøb, i feltet **Filter til købsansvarscenter**.  

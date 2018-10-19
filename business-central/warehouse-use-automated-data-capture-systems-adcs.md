@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4b7b4cf17020a122af3d7d9fd9d43fe507a071a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="enable-automated-data-capture-systems-adcs"></a>Aktivere ADCS (Automated Data Capture Systems)
@@ -36,14 +36,14 @@ Hvis du vil bruge ADCS, skal du angive, hvilke lokationer på lagerstedet der br
 > [!NOTE]  
 >  Vi anbefaler, at du ikke konfigurerer et lager til at bruge ADCS, hvis lageret også har en placeringskapacitetsmetode.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg det relaterede link.
 2.  Vælg et lagersted på listen, som du vil aktivere ADCS for, og vælg derefter handlingen **Rediger**.
 3. I vinduet **Lokationskort** skal du markere afkrydsningsfeltet **Brug ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Angive en vare for at bruge ADCS  
 Hver vare på lager, du vil bruge sammen med ADCS, skal tildeles en id-kode, som sammenkæder den med dens varenummer. Du kan for eksempel bruge varens stregkode som id-kode. En vare kan også have flere id-koder. Du kan finde dette nyttigt i tilfælde, hvor en vare findes i forskellige enhedskoder såsom stykker og paller. I dette tilfælde skal du tildele en id-kode til hver.    
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2.  Vælg en vare på listen, som indgår i ADCS-løsningen, og vælg derefter handlingen **Rediger**.
 3. I vinduet **Varekort** skal du vælge handlingen **Tegn**.
 4. I vinduet **Vare-id'er** skal du vælge handlingen **Ny**.
@@ -58,13 +58,13 @@ Hver vare på lager, du vil bruge sammen med ADCS, skal tildeles en id-kode, som
 ## <a name="to-add-an-adcs-user"></a>Sådan tilføjes en ADCS-bruger  
 Du kan tilføje enhver bruger som ADCS-bruger (Automated Data Capture System). Når du gør dette, skal brugeren også angive en adgangskode. Du kan eventuelt også angive en forbindelse, der identificerer ADCS-brugeren som lagermedarbejder. ADCS-brugeradgangskoden kan være forskellig fra Windows-logonadgangskoden for brugeren. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **ADCS-brugere**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **ADCS-brugere**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3.  Indtast et navn til brugeren i feltet **Navn**. Navnet må ikke indeholde mere end 20 tegn, inklusive mellemrum.  
 4.  Indtast en adgangskode i feltet **Adgangskode**. Adgangskoden er skjult.  
 
 ### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Sådan angiver du, at en lagermedarbejder er ADCS-bruger  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2.  Hvis det er nødvendigt, kan du tilføje en ny lagermedarbejder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).  
 3.  Vælg handlingen **Rediger liste**.  
 4.  Vælg en lagermedarbejder på listen. I feltet **ADCS-bruger** skal du vælge rullepilen og derefter vælge navnet på en ADCS-bruger på listen.  
@@ -78,7 +78,7 @@ Du kan bruge miniformularer til at beskrive de oplysninger, som du vil vise på 
 Hvis du vil implementere eller ændre funktionaliteten af en miniformular-funktion, skal du oprette en ny codeunit eller redigere en eksisterende, så den krævede handling eller det krævede svar udføres. Du kan lære mere om ADCS-funktionaliteten ved at undersøge codeunits såsom 7705, som er codeunit til håndtering af logonfunktionalitet. Codeunit 7705 viser, hvordan en miniformular af korttypen fungerer.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Sådan oprettes en miniformular til ADCS  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Miniformularer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Miniformularer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3.  Angiv en kode for miniformularen i feltet **Kode**. Angiv eventuelt værdier i alle andre felter.  
 
@@ -99,7 +99,7 @@ Når du har oprettet en miniformular, er næste trin at oprette funktioner og kn
 3.  Tilføj en C/AL-kode til den relevante funktion af den miniformular-specifikke codeunit til håndtering af funktionstasten.  
 
 ### <a name="to-customize-miniform-functions"></a>Sådan tilpasses miniformularfunktioner  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Miniformularer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Miniformularer**, og vælg derefter det relaterede link.  
 2.  Vælg en miniformular på listen, og vælg derefter handlingen **Rediger**.  
 3.  Vælg handlingen **Funktioner**.  
 4.  På rullelisten **Funktionskode** skal du vælge en kode til at repræsentere den funktion, du vil knytte til miniformularen. For eksempel kan du vælge ESC, som tilknytter funktionalitet, når der trykkes på ESC-tasten.  

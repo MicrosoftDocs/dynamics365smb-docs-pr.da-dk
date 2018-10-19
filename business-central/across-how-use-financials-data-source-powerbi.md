@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/03/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f2b672feed3065791ad5976591c694c6435843f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0e0ac36bb83709b766d234e34297c2b721daabad
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Brug af [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] som Power BI-datakilde til oprettelse af rapporter
@@ -27,7 +27,7 @@ Du skal have en gyldig konto til [!INCLUDE[d365fin_long_md](includes/d365fin_lon
 2. I vinduet **Hent data** skal du vælge **Onlinetjenester**, vælge **Microsoft Dynamics 365 Business Central** og derefter vælge knappen **Opret forbindelse**.
 3. Power BI viser en guide, der hjælper dig gennem [forbindelsesprocessen](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Du bliver bedt om at logge på tjenesten. Vælg **Log på**, og vælg den konto, du vil logge på som. Det skal være den samme konto, du bruger til at logge på [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 4. Vælg knappen **Opret forbindelse** for at forsætte. Guiden Power BI viser en liste over Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-regnskaber og -datakilder. Disse datakilder repræsenterer all de webtjenester, som du har publiceret fra hvert regnskab i Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
-5. Du kan også vælge at oprette en ny URL-adresse for webtjenesten i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] ved at bruge handlingen **Opret datasæt** på siden **Webtjenester** ved hjælp af guiden Assisteret opsætning for **Konfigurer rapporteringsdata** eller ved at vælge handlingen **Rediger i Excel** på en af listerne.
+5. Du kan også vælge at oprette en ny URL-adresse for webtjenesten i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] ved at bruge handlingen **Opret datasæt** i vinduet **Webtjenester** ved hjælp af guiden Assisteret opsætning for **Konfigurer rapporteringsdata** eller ved at vælge handlingen **Rediger i Excel** på en af listerne.
 6. Angiv de data, du vil føje til dine datamodel, og vælg derefter knappen **Indlæsning**.
 7. Gentag fremgangsmåden for at føje flere Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data eller andre data til dine Power BI-datamodel.
 

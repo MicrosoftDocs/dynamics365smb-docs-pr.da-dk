@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designoplysninger: Bogføring af montageordre
@@ -33,14 +33,14 @@ Følgende kladdeposteringer, der opstår under montageordrebogføring:
 
 I følgende diagram vises strukturen af vare- og ressourceposter, der stammer fra bogføring af montageordren.  
 
-![Ressource- og kapacitetsomkostninger](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Vare, ressource og kapacitetsposter som følge af montageordrebogføring](media/design_details_assembly_posting_1.png "Vare, ressource og kapacitetsposter som følge af montageordrebogføring")  
 
 > [!NOTE]  
 >  Produktionsressourcer og arbejdscentre er medtaget for at illustrere, at der oprettes kapacitetsposter fra både produktion og montage.  
 
 I følgende diagram vises, hvordan montagedata flyder ind i vareposter ved bogføring:  
 
-![Dataflow ved bogføringen](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Montagerelateret postflow ved bogføring](media/design_details_assembly_posting_2.png "Montagerelateret postflow ved bogføring")  
 
 ## <a name="posting-sequence"></a>Bogføringssekvens  
 Bogføringen af en montageordre forekommer i følgende rækkefølge:  
@@ -50,7 +50,7 @@ Bogføringen af en montageordre forekommer i følgende rækkefølge:
 
 Følgende tabel beskriver sekvensen af handlinger.  
 
-|Handling|Description|  
+|Handling|Beskrivelse|  
 |------------|-----------------|  
 |Initialiser bogføring|1. Foretag forudgående kontrol.<br />2. Tilføj bogføringsnummer, og rediger montageordrehovedet.<br />3. Frigiv montageordrer.|  
 |Post|<ol><li>Opret det bogførte montageordrehoved.</li><li>Kopier bemærkningslinjer</li><li>Bogfør montageordrelinjer (forbrug):<br /><br /> <ol><li>Opret et statusvindue til beregning af montageforbrug.</li><li>Få det resterende antal, som varekladdelinjen baseres på.</li><li>Nulstil forbrugte og resterende mængder.</li><li>For montageordrelinjer af typen Vare:<br /><br /> <ol><li>Udfyld felter på varekladdelinjen.</li><li>Overfør reservationer til varekladdelinjen.</li><li>Bogfør varekladdelinjen for at oprette poster for varen.</li><li>Opret lagerkladdelinjer, og bogfør dem.</li></ol></li><li>For montageordrelinjer af typen Ressource:<br /><br /> <ol><li>Udfyld felter på varekladdelinjen.</li><li>Bogfør varekladdelinjen. Dette opretter kapacitetsposter.</li><li>Opret og bogfør ressourcekladdelinje.</li></ol></li><li>Overfør feltværdier fra montageordrelinjen til en nyoprettet bogført montageordrelinje.</li></ol></li><li>Bogfør montageordrehoved (afgang):<br /><br /> <ol><li>Udfyld felter på varekladdelinjen.</li><li>Overfør reservationer til varekladdelinjen.</li><li>Bogfør varekladdelinjen for at oprette poster for varen.</li><li>Opret lagerkladdelinjer, og bogfør dem.</li><li>Nulstil montagemængder og resterende mængder.</li></ol></li></ol>|  
@@ -71,7 +71,7 @@ Funktionen til registrering af ordreniveau bruges i konverteringsscenarier, prod
 
 I følgende illustration vises reguleringspoststrukturen, og hvordan montagekostpriser reguleres.  
 
-![Reguleringspoststruktur](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Montagerelateret postflow ved kostreguleringen](media/design_details_assembly_posting_3.png "Montagerelateret postflow ved kostreguleringen")  
 
 ### <a name="performing-the-adjustment"></a>Udførelse af regulering  
 Spredningen af registrerede justeringer fra materiale- og ressourceomkostninger på montageafgangsposter er udført af kørslen **Reguler kostværdi – vareposter**. Den indeholder funktionen Foretag justering af flere niveauer, som består af følgende to elementer:  
@@ -79,7 +79,7 @@ Spredningen af registrerede justeringer fra materiale- og ressourceomkostninger 
 -   Foretag justering af montageordre – der videresender omkostninger fra materiale- og ressourceforbrug til montagens afgangspost. Linje 5 og 6 i nedenstående algoritme er ansvarlige for dette.  
 -   Foretag reguleringer af enkelt niveau – som videresender omkostninger for individuelle varer, der benytter deres kostmetode. Linje ni og 10 i nedenstående algoritme er ansvarlige for dette.  
 
-![Algoritmen til samlingsregulering](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Oversigt over omkostningsreguleringsalgoritmen til montagebogføring](media/design_details_assembly_posting_4.jpg "Oversigt over omkostningsreguleringsalgoritmen til montagebogføring")  
 
 > [!NOTE]  
 >  Elementet til justeringer af igangværende arbejde på linje 7 og 8 er ansvarlig for videresendelse af materiale til produktion og udnyttelse af kapaciteten til output af ikke-færdige produktionsordrer. Dette kan ikke bruges ved regulering af montageordreomkostninger, da begrebet Igangværende arbejde ikke gælder for montage.  

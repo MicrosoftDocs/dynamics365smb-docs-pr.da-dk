@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d84006db69beee153aeecdd38ecfcae197c1ad9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gennemgang: Administration af projekter med sager
@@ -76,7 +76,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-prepare-the-sample-data"></a>Sådan klargøres eksempeldataene  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Ressourcer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ressourcer**, og vælg derefter det relaterede link.  
 2.  Klik på handlingen **Ny** for at oprette et nyt ressourcekort.  
 3.  Indtast følgende oplysninger i oversigtspanelet **Generelt**:  
 
@@ -99,7 +99,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-create-a-job-journal-batch"></a>Sådan oprettes et sagskladdenavn  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Kladdenavn** i vinduet **Sagskladde**. Vinduet **Kladdenavn** åbnes.  
 3.  Vælg handlingen **Ny** for at oprette en ny linje med følgende oplysninger:  
 
@@ -114,7 +114,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-set-up-a-job"></a>Sådan oprettes en sag  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2.  Klik på handlingen **Ny** for at oprette et nyt kort.  
 3.  Indtast følgende oplysninger i oversigtspanelet **Generelt**:  
 
@@ -163,7 +163,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 1.  På kortet **Sag** for den nye sag skal du vælge handlingen **Sagsopgavelinjer**.  
 2.  I følgende tabel beskrives de oplysninger, du skal angive i felterne.  
 
-    |Sagsopgavenr.|Description|Sagsopgavetype|  
+    |Sagsopgavenr.|Beskrivelse|Sagsopgavetype|  
     |------------------|---------------------------------------|-------------------|  
     |1000|Konsulentydelse for montering af sal|Fra-sum|  
     |1010|Konsulentmøde med kunde|Konto|  
@@ -235,7 +235,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-calculate-remaining-usage"></a>Sådan beregnes resterede forbrug  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
 2.  I vinduet **Sagskladde** og feltet **Kladdenavn**, skal du åbne listen **Job Journals Batch**. Vælg sagskladden **Tina**.  
 3.  Vælg handlingen **Beregn resterende forbrug**.  
 4.  Vælg **Sagsnr.** i oversigtspanelet **Sagsopgaver** i vinduet **Beregn resterende forbrug for sag**, og vælg det relevante sagsnummer, typisk job J00010.  
@@ -251,7 +251,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-create-a-job-sales-invoice"></a>Sådan oprettes en sagssalgsfaktura  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2.  Vælg den sag, du oprettede tidligere, og vælg derefter handlingen **Opret salgsfaktura**.  
 3.  Fjern alle filtre på **Sagsopgavenr.** i oversigtspanelet **Sagsopgave** for at fakturere sagen. Vælg det relevante job i feltet **Sagsnr.**.  
 4.  Udfyld bogføringsdatoen, og angiv, om du vil oprette én faktura pr. opgave eller kun én enkelt faktura for alle opgaver, i oversigtspanelet **Indstillinger**.  
@@ -261,7 +261,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-post-a-new-sales-invoice"></a>Sådan bogføres en ny salgsfaktura  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2.  Åbn fakturaen til kunde nr. 01445544. Du kan se de oplysninger, der er indtastet fra planlægningslinjerne.  
 3.  Vælg handlingen **Bogfør**. Vælg **Ja** for at bekræfte bogføringen.  
 
@@ -275,7 +275,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-open-the-statistics-window"></a>Sådan åbnes vinduet Statistik  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Statistik**. Du kan gennemgå detaljerede oplysninger om sagspriser, omkostninger og avancer i både lokale og udenlandske valutaer.  
 3.  Vælg knappen **Luk** for at lukke vinduet **Sagsstatistik**.  
 
@@ -284,7 +284,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Sådan håndteres faste priser i sager  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2.  Vælg sagsnummeret **Svend Hansen Møbler**, og vælg derefter handlingen **Sagsopgavelinjer**.  
 3.  Vælg linje 1120, og højreklik i feltet **Budget (kostpris)** på beløbet, og vælg **Specificer**.  
 
@@ -306,7 +306,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Sådan angives timer i sagskladden  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
 2.  Angiv følgende oplysninger på en ny linje:  
 
     -   **Linjetype**: **(tom)**  
@@ -365,7 +365,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-copy-a-job"></a>Sådan kopieres en sag  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2.  Klik på handlingen **Ny** for at oprette en ny sag. Angiv følgende oplysninger:  
 
     -   **Beskrivelse**: **Opsætning til 10 konferencerum**  
@@ -390,7 +390,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-set-up-a-new-account"></a>Sådan oprettes et nyt konto  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
 2.  I vinduet **Kontoplan** skal du vælge handlingen **Ny** for at oprette et nyt kort.  
 3.  Indtast følgende oplysninger på kortet **Ny finanskonto**:  
 
@@ -423,7 +423,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
      I følgende tabel beskrives de linjer, du vil oprette.  
 
-    |Linje|Sagsopgavenr.|Description|Sagsopgavetype|  
+    |Linje|Sagsopgavenr.|Beskrivelse|Sagsopgavetype|  
     |----------|------------------|---------------------------------------|-------------------|  
     |1|1000|Betaling - afdragsbetaling|Bogføring|  
     |2|2000|Forbrug|Konto|  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e519a1628342f7c4711b3266f53ac857d4865e71
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c97e6995a0e27d0eebcadf5b783cd9aa56cb5fde
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertere eksisterende lokationer til lagerlokationer
@@ -30,7 +30,7 @@ Du kan oprette zoner og placeringer enten før eller efter konverteringen. Den e
 >  Du kan rydde alt negativt lager og alle åbne lagerdokumenter, før du konverterer lokationen for lagerekspedition ved at køre en rapport for at identificere varer med negativt lager og åbne lagerdokumenter, der hører til lokationen. Du kan finde flere oplysninger i Kontroller for negativt lager.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Sådan aktiveres en eksisterende lokation til at fungere som en lagerlokation  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opret lagerlokation**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret lagerlokation**, og vælg derefter det relaterede link.  
 2.  I feltet **Lokationskode** skal du angive den lokation, du vil aktivere til behandling af lageret.  
 3.  I feltet **Reguleringsplaceringskode** skal du angive placeringen på den lokation, hvor ikke-synkroniserede lagerposter gemmes. Du kan finde flere oplysninger i afsnittet "Sådan synkroniseres de regulerede lagerposter med de relaterede vareposter" i [Tælle, justere og ompostere lager](inventory-how-count-adjust-reclassify.md).  
 

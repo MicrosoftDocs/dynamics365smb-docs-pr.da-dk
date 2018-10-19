@@ -8,16 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: a4ff35d8339326a0cc4a42014c82e081fb940a61
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 06f2f8d56d16ef1177bf49e30795cf41af69b8bd
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="service-management"></a>Service Management
+> [!NOTE]
+> Funktioner, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
+
 En vigtig del af enhver virksomhed er at yde løbende service til kunderne, og det kan være en kilde til såvel kundetilfredshed og -loyalitet i tillæg til indtjening. Administration og sporing af service er dog ikke altid let, men [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder et sæt værktøjer, der kan være en hjælp. Disse værktøjer er designet til at understøtte operationer for reparationsværksteder og feltservice og kan bruges i forretningsscenarier som f.eks. komplicerede servicedistributionssystemer, industrielle servicemiljøer med styklister og masseekspedition af serviceteknikere med behov for administration af reservedele.  
 
  Med disse værktøjer kan du udføre følgende:  
@@ -46,5 +49,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

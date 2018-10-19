@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 05/31/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: c15f9c77479780566f8b1e464193b43a20c3315d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9e7adbe575df0b9253ead53ca2a5c782fa27e064
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Konfigurere og udgive KPI-webtjenester, der er baseret på kontoskemaer
 I vinduet **Konfiguration af webtjenesten Kontoskema, KPI** skal du angive, hvordan kontoskema-KPI-dataene skal vises, og hvilke specifikke kontoskemaer KPI'erne skal baseres på. Når du vælger knappen **Publicer webtjeneste**, føjes de angivne kontoskema-KPI-data til listen over publicerede webtjenester i vinduet **Webtjenester**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Sådan konfigureres og publiceres en KPI-webtjeneste, der er baseret på kontoskemaer  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfiguration af webtjenesten Kontoskema, KPI**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af webtjenesten Kontoskema, KPI**, og vælg derefter det relaterede link.  
 2.  På oversigtspanelet **Generelt** skal du udfylde felterne som beskrevet i følgende tabel.  
 
     |Felt|Beskrivelse|  
@@ -49,7 +49,7 @@ I vinduet **Konfiguration af webtjenesten Kontoskema, KPI** skal du angive, hvor
 7.  Hvis du vil udgive kontoskema-KPI-webtjenesten, skal du vælge handlingen **Publicer webtjeneste**. Webtjenesten føjes til listen over publicerede webtjenester i vinduet **Webtjeneste**.  
 
 > [!NOTE]  
->  Du kan også publicere KPI-webtjenesten ved at pege på sideobjektet **Konfiguration af webtjenesten Kontoskema, KPI** fra siden **Webtjeneste**. Du kan finde flere oplysninger i [Udgive en webtjeneste](across-how-publish-web-service.md).  
+>  Du kan også publicere KPI-webtjenesten ved at pege på vinduesobjektet **Konfiguration af webtjenesten Kontoskema, KPI** fra vinduet **Webtjeneste**. Du kan finde flere oplysninger i [Udgive en webtjeneste](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Se også  
 [Business Intelligence](bi.md)  

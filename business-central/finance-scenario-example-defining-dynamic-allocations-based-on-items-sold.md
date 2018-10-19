@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3bee6f999a9553bbf8832d3cb65c88080f2d36ef
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Scenarieeksempel: Definition af dynamiske fordelinger baseret på solgte varer
@@ -27,7 +27,7 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
 
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Sådan defineres dynamiske fordelinger baseret på varer, der er solgt i det foregående år  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Omkostningsfordelinger**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningsfordelinger**, og vælg derefter det relaterede link.  
 2.  I vinduet **Omkostningsfordeling** skal du vælge handlingen **Ny**.  
 3.  I feltet **Id** skal du trykke på Enter eller indtaste et id.  
 4.  Angiv **1** i feltet **Niveau**.  

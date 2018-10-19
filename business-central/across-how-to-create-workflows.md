@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cab6546e152ad91c1b3264fa8bd10c0fd668636d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-workflows"></a>Oprette arbejdsgange
@@ -32,7 +32,7 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
 >  Alle notifikationer om arbejdsgangstrin sendes via en opgavekø. Kontrollér, at opgavekøen i installationen er konfigureret til at håndtere arbejdsgangsnotifikationer, og at afkrydsningsfeltet **Start automatisk fra NAS** er markeret. Du kan finde flere oplysninger i [Brug af opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Sådan oprettes en arbejdsgang  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), og angiv **Workflows**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Workflows**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Vinduet **Workflow** åbnes.  
 3. I feltet **Kode** skal du angive op til 20 tegn for at identificere workflowet.  
 4. Når du vil oprette workflowet fra en workflowskabelon i vinduet **Workflows**, skal du vælge handlingen **Opret workflow fra skabelon**. Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -56,14 +56,14 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
 
     1.  Hvis du vil angive indstillinger for et workflowrespons, der involverer afsendelse af en notifikation, skal du udfylde felterne som beskrevet i følgende tabel.  
 
-        |Felt|Description|  
+        |Felt|Beskrivelse|  
         |----------------------------------|---------------------------------------|  
         |**Modtagers bruger-id**|Angiv den bruger, som notifikationen skal sendes til. Bemærk: Denne indstilling er kun tilgængelig for workflowrespons med en pladsholder for en bestemt bruger. Notifikationsmodtageren defineres typisk af godkendelsesbrugeropsætningen, når det drejer sig om arbejdsgangssvar uden pladsholdere for brugere.|  
         |**Side, der linkes til**|Angiv en anden side i [!INCLUDE[d365fin](includes/d365fin_md.md)], som linket i notifikationen åbner i stedet for standardsiden.|  
         |**Brugerdefineret link**|Angiv URL-adressen på et link, der føjes til notifikationen ud over standardlinket til en side i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Hvis du vil angive indstillinger for et workflowrespons, der involverer oprettelse af en godkendelsesanmodning, skal du udfylde felterne som beskrevet i følgende tabel.  
 
-        |Felt|Description|  
+        |Felt|Beskrivelse|  
         |----------------------------------|---------------------------------------|  
         |**Formular for forfaldsdato**|Angiv, inden hvor mange dage godkendelsesanmodningen skal løses fra den dato, hvor den blev sendt.|  
         |**Uddeleger efter**|Angiv, om og hvornår en godkendelsesanmodning uddelegeres automatisk til den relevante stedfortræder. Du kan vælge, at der automatisk skal uddelegeres én, to eller fem dage efter den dato, hvor der blev anmodet om godkendelse.|  
@@ -72,7 +72,7 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
         |**Godkenders grænsetype**|Angiv, hvordan godkenderes godkendelsesgrænser påvirker, hvornår godkendelsesanmodningsposter oprettes for dem. En kvalificeret godkender er en person, hvis godkendelsesgrænse er større end værdien i anmodningen, der sendes.<br /><br /> Der findes følgende indstillinger:<br /><br /> 1. **Godkenderkæde** angiver, at godkendelsesanmodningsposter oprettes for alle anmoderens godkendere til og med den første kvalificerede godkender.<br />2. **Direkte godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens umiddelbare godkender, uanset godkenderens godkendelsesgrænse.<br />3. **Første kvalificerede godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens første kvalificerede godkender.<br />|  
     3.  Hvis du vil angive indstillinger for et arbejdsgangssvar, der involverer oprettelse af kladdelinjer, skal du udfylde felterne som beskrevet i følgende tabel.  
 
-        |Felt|Description|  
+        |Felt|Beskrivelse|  
         |----------------------------------|---------------------------------------|  
         |**Finanskladdetypes navn**|Angiv navnet på den finanskladdetype, som de angivne kladdelinjer oprettes i.|  
         |**Finanskladdenavn**|Angiv det finanskladdenavn, som de angivne kladdelinjer oprettes i.|  
@@ -91,7 +91,7 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
 >  Undlad at aktivere en arbejdsgang, før du er sikker på, at arbejdsgangen er fuldført, og at arbejdsgangstrin involveret kan begynde.  
 
 > [!TIP]  
->  For at se relationer mellem de tabeller, der bruges i workflows, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "ikonet Søg efter side eller rapport"), og angiv derefter **Workflow – tabelrelationer**.  
+>  For at se relationer mellem de tabeller, der bruges i workflows, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og derefter angive **Workflow - tabelrelationer**.  
 
 ## <a name="see-also"></a>Se også  
 [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)   

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: f4ccc58d0414131276dec3e062cf12e1ae4596db
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac38294ce65d767133e70880b6104c7325d9bb3a
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Opsætning af Relationsstyring
@@ -24,7 +24,7 @@ Før du begynder arbejde med dine kontakter og marketinginteresser, er der nogle
 
 Når du administrerer dine kontaktpersoner og har en strategi på plads, så du kan identificere, tiltrække og holde på kunderne, er det med til at optimere din virksomhed og øge kundetilfredsheden. Et godt system til styring af kontaktpersoner er desuden en hjælp, når du skal oprette og vedligeholde relationer med kunderne. Kommunikation er nøglen til disse relationer. Hvis firmaer skal have succes, er det vigtigt, at de kan tilpasse kommunikationen efter mulige og eksisterende kunder, leverandører og forretningspartnere efter disses behov. Oprettelse af en strategi og definition af, hvordan din virksomhed anvender kontaktoplysninger er et primært trin. Disse oplysninger skal vises for mange forskellige grupper i virksomheden, så et godt system hjælper alle med at blive mere produktive.
 
-Du kan konfigurere marketing og administration af kontakter fra vinduet **Marketingopsætning**. For at åbne vinduet **Marketingopsætning** skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Marketingopsætning** og derefter vælge det relaterede link.
+Du kan konfigurere marketing og administration af kontakter fra vinduet **Marketingopsætning**. Når du vil åbne vinduet **Marketingopsætning**, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Marketingopsætning** og derefter vælge det relaterede link.
 
 ## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Kopiere bestemte oplysninger automatisk fra kontaktvirksomheder til kontaktpersonerne
 En del af virksomhedsoplysningerne er identiske med oplysningerne om de kontaktpersoner, som arbejder i virksomhederne, f.eks. adresseoplysningerne. I sektionen **Overførte oplysninger** i vinduet **Marketingopsætning** kan du indstille programmet til automatisk at kopiere bestemte felter fra kontaktvirksomhedskortet til kontaktkortet, hver gang du opretter en kontakt for en virksomhed. F.eks. kan du vælge at kopiere sælgerkode, adresseoplysninger (adresse, adresse 2, by, postnummer og region), kommunikationsoplysninger (telefaxnummer, tilbagesvar og telefonnummer) og mere.

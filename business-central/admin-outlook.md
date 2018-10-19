@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6923414d6e1fb56a48c3715eaa1c2fa3c4ee9f69
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruge Business Central som din virksomheds Indbakke i Outlook
@@ -50,7 +50,7 @@ I tilføjelsesprogrammet Document Links kan du redigere og foretage handlinger i
 ## <a name="adding-the-add-ins-manually"></a>Manuel tilføjelse af tilføjelsesprogrammerne
 I nogle tilfælde bliver tilføjelsesprogrammerne ikke føjet automatisk til Outlook. Selvom du eller en kollega har kørt den assisterede opsætningsvejledning på vegne af virksomheden, bliver [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke vist i Outlook. Hvis du oplever dette problem, kan du tilføje [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammer manuelt.  
 
-Først skal du kontrollere, at du har adgang til tilføjelsesprogrammerne på din Office 365-konto. Åbn Outlook Web Access i en webbrowser, og føj derefter `/owa/#path=/options/manageapps` til URL-adresse på adresselinjen. Dermed åbnes siden **Administrere tilføjelsesprogrammer**, hvor du kan aktivere [!INCLUDE[d365fin](includes/d365fin_md.md)] til din Outlook. Derefter, når du går tilbage til Outlook, skulle [!INCLUDE[d365fin](includes/d365fin_md.md)] være tilgængeligt.  
+Først skal du kontrollere, at du har adgang til tilføjelsesprogrammerne på din Office 365-konto. Åbn Outlook Web Access i en webbrowser, og føj derefter `/owa/#path=/options/manageapps` til URL-adresse på adresselinjen. Dermed åbnes vinduet **Administrere tilføjelsesprogrammer**, hvor du kan aktivere [!INCLUDE[d365fin](includes/d365fin_md.md)] til din Outlook. Derefter, når du går tilbage til Outlook, skulle [!INCLUDE[d365fin](includes/d365fin_md.md)] være tilgængeligt.  
 
 På samme måde kan du i Outlook-skrivebordsklienten kontrollere, at [!INCLUDE[d365fin](includes/d365fin_md.md)] er angivet i vinduet **Administrer tilføjelsesprogrammer**.  
 

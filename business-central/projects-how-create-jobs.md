@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: af8102b8f8ea51cbe0831388fab6d6bfc3a45101
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8c7af2db512927f575f62d40265ea2def6b7dc2c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-jobs"></a>Oprette sager
@@ -34,7 +34,7 @@ Den lagdelte struktur giver dig mulighed for at opdele sagen i mindre opgaver og
 ## <a name="to-create-a-job-card"></a>Sådan oprettes et sagskort
 Du kan oprette et sagskort og derefter oprette sagsopgavelinjer og sagsplanlægningslinjer for det.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. For at angive sagen med oplysninger om andre sager skal du vælge handlingen **Kopier sag**, udfylde felterne efter behov, og derefter vælge knappen **OK**.
 
@@ -44,7 +44,7 @@ Du kan oprette et sagskort og derefter oprette sagsopgavelinjer og sagsplanlægn
 ## <a name="to-create-tasks-for-a-job"></a>Sådan oprettes opgaver for en sag
 Når du opretter en sag, skal du også angive de forskellige opgaver, som sagen indeholder. Det gør du ved at tilføje nye linjer i oversigtspanelet **Opgaver** i vinduet **Jobkort**, en opgave pr. linje. Hver sag skal have mindst én opgave.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.
 2. Åbn sagskortet for den relevante sag.
 3. På oversigtspanelet **Opgaver** skal du udfylde felterne efter behov på en ny linje.
 4. For at indrykke opgaver og oprette et hierarki, skal du vælge handlingen **Opgaver** og derefter vælge handlingen **Indryk sagsopgaver**.
@@ -64,7 +64,7 @@ En sagsplanlægningslinje han være en af følgende typer.
 
 **Bemærk**! Når du angiver oplysninger på sagsplanlægningslinjer, udfyldes omkostningsoplysninger automatisk. Omkostning, pris og rabat for ressourcer og varer er f.eks. først baseret på de oplysninger, der er defineret på ressource- og varekort.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.
 2. Åbn et relevant sagskort.
 3. Vælg en sagsopgave, hvor feltet **Sagsopgavetype** indeholder **Bogføring**, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
 4. I vinduet **Sagsplanlægningslinjer** skal du udfylde felterne på en ny linje efter behov.

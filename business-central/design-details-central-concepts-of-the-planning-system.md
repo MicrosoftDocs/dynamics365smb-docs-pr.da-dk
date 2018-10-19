@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e8eca3562639c864cb514b71c070d0fca4128d79
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designoplysninger: Centrale begreber i planlægningssystemet
 Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den relevante periode, der skal planlægges. Ifølge hver vares laveste-niveau-kode (styklisteposition) kalder kørslen en kodeenhed, der beregner en forsyningsplan ved at afstemme forsyning-behov-sæt og foreslå mulige handlinger, som brugeren kan foretage. De foreslåede handlinger vises som linjer i planlægningskladden eller indkøbskladden.  
 
-![Planlægningskladde](media/NAV_APP_supply_planning_1_planning_worksheet.png "NAV_APP_supply_planning_1_planning_worksheet")  
+![Indhold i vinduet Planlægningskladde](media/NAV_APP_supply_planning_1_planning_worksheet.png "Indhold i vinduet Planlægningskladde")  
 
 Planlæggeren i en virksomhed, f.eks. en indkøber eller produktionsplanlægger, formodes at være brugeren af planlægningssystemet. Planlægningssystemet hjælper brugeren ved at udføre omfattende, men temmeligt enkle beregninger af en plan. Brugeren kan derefter koncentrere sig om at løse mere komplekse problemer, f.eks. når ting er anderledes. end de plejer.  
 
@@ -57,7 +57,7 @@ Hvis brugeren f.eks. indtaster eller ændrer en salgsordre, vil det dynamiske or
 
 Dynamisk ordresporing kan derfor betragtes som et værktøj, der hjælper brugeren med at vurdere, om forsyningsordreforslag skal accepteres. Fra forsyningssiden kan en bruger se, hvilke behov der har oprettet forsyningen, og fra behovssiden, hvilken forsyning der skal dække behovet.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "NAV_APP_supply_planning_1_dynamic_order_tracking")  
+![Eksempel på en dynamisk ordresporing](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Eksempel på en dynamisk ordresporing")  
 
 Du kan finde flere oplysninger i [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -70,11 +70,11 @@ Planlægningssystemet håndterer hele forsynings-behov-mønstret for en vare gen
 
 Dynamisk ordresporing etablerer forbindelser mellem behov og forsyning, når der indtastes data, på grundlag af først til mølle-princippet. Dette kan føre til nogen uorden i prioriteter. En salgsordre, der først er angivet med en forfaldsdato næste måned, kan f.eks. være knyttet til forsyningen på lageret, mens de næste salgsordrer, der forfalder i morgen, kan forårsage, at en aktionsmeddelelse opretter en ny købsordre for at dække det, som vist nedenfor.  
 
-![](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "NAV_APP_supply_planning_1_dynamic_order_tracking_graph")  
+![Eksempel på ordresporing i forsyningsplanlægning 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Eksempel på ordresporing i forsyningsplanlægning 1")  
 
 Derimod vedrører planlægningssystemet alle behov og forsyninger for en bestemt vare i prioriteret rækkefølge i forhold til forfaldsdatoer og ordretyper, det vil sige ud fra først til mølle. Den sletter alle ordresporingslinks, der er oprettet dynamisk, og genopretter dem i overensstemmelse med prioritet af forfaldsdato. Når planlægningssystemet er kørt, har det løst alle ubalancer mellem behov og forsyning, som vist nedenfor, for de samme data.  
 
-![](media/NAV_APP_supply_planning_1_planning_graph.png "NAV_APP_supply_planning_1_planning_graph")  
+![Eksempel på ordresporing i forsyningsplanlægning 2](media/NAV_APP_supply_planning_1_planning_graph.png "Eksempel på ordresporing i forsyningsplanlægning 2")  
 
 Efter planlægningskørslen forbliver ingen aktionsmeddelelser i tabellen Aktionsmeddelelsespost, fordi de er blevet erstattet af de foreslåede handlinger i planlægningskladden  
 
@@ -88,7 +88,7 @@ Planlægningssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)] er behovstyr
 ### <a name="item-priority--low-level-code"></a>Vareprioritet/laveste-niveau-kode  
 I et produktionsmiljø medfører behovet for en færdig salgbar vare afledte behov for komponenter, der udgør den færdige vare. Styklistestrukturen styrer komponentstrukturen og kan omfatte flere niveauer af halvfabrikata. Planlægning af en vare på ét niveau vil medføre afledte behov for komponenter på næste niveau osv. I sidste ende vil dette resultere i afledte behov for købte varer. Derfor planlægger planlægningssystemet efter varer i rækkefølge efter deres placering i det samlede styklistehierarki, med start ved færdige, salgbare varer på det højeste niveau, og fortsætter ned i produktstrukturen til varerne på lavere niveau (i henhold til laveste-niveau-koden).  
 
-![](media/NAV_APP_supply_planning_1_BOM_planning.png "NAV_APP_supply_planning_1_BOM_planning")  
+![Planlægning af styklister](media/NAV_APP_supply_planning_1_BOM_planning.png "Planlægning af styklister")  
 
 Tallene viser, i hvilken rækkefølge systemet giver forslag til forsyningsordrer på øverste niveau og under antagelse af, at brugeren accepterer disse forslag, og for alle varer på lavere niveauer.  
 
@@ -101,7 +101,7 @@ Dette understøttes ved hjælp af lagervarer, hvor individuelle planlægningspar
 
 Et element kan håndteres på enhver lokation i princippet, men programmets tilgang til begrebet lokation er meget streng. En salgsordre på ét sted kan f.eks. ikke opfyldes af et antal på lager på en anden lokation. Antal på lager skal først overflyttes til den lokation, der er angivet på salgsordren.  
 
-![](media/NAV_APP_supply_planning_1_SKU_planning.png "NAV_APP_supply_planning_1_SKU_planning")  
+![Planlægning af lagervarer](media/NAV_APP_supply_planning_1_SKU_planning.png "Planlægning af lagervarer")  
 
 Du kan finde flere oplysninger i [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md).  
 
@@ -110,10 +110,10 @@ Inden for en given SKU repræsenterer den anmodede eller tilgængelige dato den 
 
 Du kan finde flere oplysninger i [Designoplysninger: Prioritering af ordrer](design-details-prioritizing-orders.md).  
 
-## <a name="production-forecasts-and-blanket-orders"></a>Produktionsforecast og rammeordrer  
+## <a name="demand-forecasts-and-blanket-orders"></a>Behovsprognoser og rammeordrer  
 Forecasts og rammesalgsordrer repræsenterer begge forventet behov. Den rammeordre, som dækker en debitors tiltænkte køb over en bestemt tidsperiode, skal mindske usikkerheden af det samlede forecast. Rammeordren er en debitorspecifik prognose i tillæg til den uspecificerede prognose, som vist nedenfor.  
 
-![](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "NAV_APP_supply_planning_1_forecast_and_blanket")  
+![Planlægning med prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlægning med prognoser")  
 
 Du kan finde flere oplysninger i afsnittet "Forecastbehov reduceres af salgsordrer" i [Designoplysninger: Indlæsning af lagerprofiler](design-details-loading-the-inventory-profiles.md).  
 
@@ -202,7 +202,7 @@ Dog omfatter planlægningssystemet stadig reserverede mængder i den planlagte l
 
 Følgende illustration viser, hvordan reservationer kan hæmme den mest velegnede plan.  
 
-![](media/NAV_APP_supply_planning_1_reservations.png "NAV_APP_supply_planning_1_reservations")  
+![Planlægning med reservationer](media/NAV_APP_supply_planning_1_reservations.png "Planlægning med reservationer")  
 
 Du kan finde flere oplysninger i [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -217,7 +217,7 @@ Advarselsoplysningerne vises i vinduet **Ikke-sporede planlægningselementer**, 
 -   Undtagelse  
 -   Bemærk  
 
-![](media/NAV_APP_supply_planning_1_warnings.png "NAV_APP_supply_planning_1_warnings")  
+![Advarsler i planlægningskladden](media/NAV_APP_supply_planning_1_warnings.png "Advarsler i planlægningskladden")  
 
 ### <a name="emergency"></a>Nødsituation  
 Denne advarsel vises i to tilfælde:  
@@ -254,7 +254,7 @@ Brugeren kan vælge feltet **Stop, og vis første fejl** på beregningsplanens a
 
 Hvis feltet ikke er markeret, fortsætter kørslen Beregn Plan, indtil den er færdig. Fejl afbryder ikke kørslen. Hvis der er en eller flere fejl, vises der en meddelelse, når kørslen er afsluttet, med angivelse af, hvor mange varer der er omfattet af fejl. Vinduet **Log over planlægningsfejl** åbnes med flere oplysninger om fejlen og indeholder links til det eller de berørte dokumenter eller opsætningskort.  
 
-![](media/NAV_APP_supply_planning_1_error_log.png "NAV_APP_supply_planning_1_error_log")  
+![Fejlmeddelelser i planlægningskladden](media/NAV_APP_supply_planning_1_error_log.png "Fejlmeddelelser i planlægningskladden")  
 
 ## <a name="planning-flexibility"></a>Planlægningsfleksibilitet  
 Det er ikke altid praktisk at planlægge en eksisterende forsyningsordre, når produktionen er startet, eller ekstra personer er ansat på en bestemt dag til at udføre jobbet. Med henblik på at angive om en eksisterende ordre kan ændres af planlægningssystemet, har alle forsyningsordrelinjer et planlægningsfleksibilitetsfelt med to indstillinger: Ubegrænset eller Ingen. Hvis feltet er angivet til Ingen, vil planlægningssystemet ikke forsøge at ændre forsyningsordrelinjen.  

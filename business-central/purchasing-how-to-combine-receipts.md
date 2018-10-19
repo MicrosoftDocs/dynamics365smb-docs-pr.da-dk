@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d821771e8bbf832a358581e03a372d758a690707
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c6a6707c9968bca856fda51984283277b27e8e84
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Kombinere modtagelser på én enkelt faktura
@@ -27,7 +27,7 @@ Inden du kan oprette en samlet købsleverance, skal der være bogført mere end 
 Når købsleverancer er samlet på en faktura og bogført, oprettes der en bogført købsfaktura for de fakturerede linjer. Feltet **Faktureret (antal)** på den oprindelige købsordre eller rammekøbsordre opdateres på basis af det fakturerede antal. Dog slettes det oprindelige købsdokument ikke, selvom det er blevet fuldt modtaget og faktureret, og du skal derfor slette købsdokumentet.  
 
 ## <a name="to-combine-receipts"></a>Sådan samles leverancer  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).  
 3. I oversigtspanelet **Linjer** skal du vælge handlingen **Hent købsleverancelinjer**.  
 4. Vælg flere købsleverancelinjer, der skal indgå i fakturaen.  
@@ -36,7 +36,7 @@ Når købsleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 5. Vælg handlingen **Bogfør** for at fakturere kladden.  
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Sådan fjernes åbne købsordrer efter bogføring af kombineret modtagelse  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Slet fakturerede købsordrer**, og vælg det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet fakturerede købsordrer**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Vælg knappen **OK**.  
 

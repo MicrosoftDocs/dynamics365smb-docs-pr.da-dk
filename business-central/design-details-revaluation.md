@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bfd49fac19f2dfc09d77855cba21f39d4c9858e5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e7afa7b3a13db29207237cd4980ba7f061b38f9e
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-revaluation"></a>Designoplysninger: Regulering
@@ -41,7 +41,7 @@ Da regulering kan foretages på en hvilken som helst dato, skal der være konven
 ### <a name="example"></a>Eksempel  
 I følgende eksempel illustreres, når en vareoverflytning for igangværende arbejde bliver en del af lageret. Eksemplet er baseret på produktion af en kæde med 150 links.  
 
-![Lageret og værdiregulering for igangværende arbejde](media/design_details_inventory_costing_10_revaluation_wip.png "design_details_inventory_costing_10_revaluation_wip")  
+![Lageret og værdiregulering for igangværende arbejde](media/design_details_inventory_costing_10_revaluation_wip.png "Lageret og værdiregulering for igangværende arbejde")  
 
 **1K**: Brugeren bogfører de købte led som modtaget. Følgende tabel viser de resulterende vareposter.  
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 23/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ad76465ab30202981fed0d7593b9ce25b2510918
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designoplysninger: Omkostningsregulering
@@ -63,7 +63,7 @@ Denne registreringsfunktion bruges i konverteringsscenarier, produktion og monta
 
 Ordreniveaufunktionen bruges til at registrere justeringer i montagebogføring. I følgende illustration vises reguleringspoststrukturen:  
 
-![Reguleringspoststruktur](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Flow af poster i omkostningsregulering](media/design_details_assembly_posting_3.png "Flow af poster i omkostningsregulering")  
 
 Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md).  
 
@@ -145,7 +145,7 @@ Senere skal du bogføre et relateret varekøbsgebyr for 2.00 RV, der er fakturer
 ## <a name="automatic-cost-adjustment"></a>Automatisk kostregulering  
 Hvis du vil konfigurere omkostningsregulering til at køre automatisk, når du bogfører en lagertransaktion, skal du bruge feltet **Automatisk omkostningsregulering** i vinduet **Opsætning af Lager**. Dette felt gør det muligt for dig at vælge, hvor langt tilbage i tiden fra den aktuelle arbejdsdato, du ønsker, at automatisk kostregulering skal udføres. Der findes følgende indstillinger.  
 
-|Indstilling|Description|  
+|Indstilling|Beskrivelse|  
 |----------------------------------|---------------------------------------|  
 |Aldrig|Kostpriser reguleres ikke, når du bogfører.|  
 |Dag|Kostpriser reguleres, hvis bogføringen foretages senest én dag fra arbejdsdatoen.|  

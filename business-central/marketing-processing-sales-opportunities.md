@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c7c7dca1d59b407f119347345cbbdef3f730acbc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5b57b47d4ceb08a3836140945387e38887553a99
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-sales-opportunities"></a>Behandle salgsleads
@@ -27,9 +27,9 @@ De eksisterende salgsleads er tilgængelige i vinduet **Leadoversigt**. Der er f
 
 | For at få vist salgsleads for | Så |
 | --- | --- |
-| Alle sælgere og kontakter |Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Leadoversigt**, og vælg derefter det relaterede link. |
-| En bestemt sælger |Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sælgere**, og vælg derefter det relaterede link. Vælg sælgeren, vælg handlingen **Leads**, og vælg derefter handlingen **Oversigt**. |
-| En bestemt kontakt |Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontakter**, og vælg derefter det relaterede link. Vælg kontakten på listen, og vælg derefter handlingen **Leads**. |
+| Alle sælgere og kontakter |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsmulighedsoversigt**, og vælg derefter det relaterede link. |
+| En bestemt sælger |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere**, og vælg derefter det relaterede link. Vælg sælgeren, vælg handlingen **Leads**, og vælg derefter handlingen **Oversigt**. |
+| En bestemt kontakt |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link. Vælg kontakten på listen, og vælg derefter handlingen **Leads**. |
 
 Hver af disse opgaver åbnes i vinduet **Leadoversigt**.
 
@@ -65,7 +65,7 @@ Når du vil slette lukkede leads fra vinduet **Leadoversigt**, skal du vælge le
 
 Du sletter lukkede leads med kørslen **Slet lukkede leads** ved at følge disse trin:
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Slet salgsmuligheder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet salgsmuligheder**, og vælg derefter det relaterede link.
 2. I afsnittet **Lead** skal angive filtre, der angiver de lukkede leads, der skal slettes.
 3. Vælg knappen **OK**.
 

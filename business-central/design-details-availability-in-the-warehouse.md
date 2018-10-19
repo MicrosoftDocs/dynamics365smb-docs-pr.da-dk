@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 698404dab1b3888d073eb3c23268d3b009a4f577
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designoplysninger: Tilgængelighed i lageret
@@ -44,7 +44,7 @@ Systemet skal holde en konstant kontrol over varedisponering på lageret, så ud
 
  Følgende diagram viser de forskellige elementer i beregningen.  
 
- ![Disponibel til pluk med reservationsoverlap](media/design_details_warehouse_management_availability_2.png "design_details_warehouse_management_availability_2")  
+ ![Disponibel til pluk med reservationsoverlap](media/design_details_warehouse_management_availability_2.png "Disponibel til pluk med reservationsoverlap")  
 
 ## <a name="quantity-available-to-reserve"></a>Antal disponible til reservation  
  Da begreberne om placeringsindhold og reservation eksisterer side om side, skal antallet af varer, der kan reserveres, justeres med fordelinger på udgående lagerdokumenter.  
@@ -69,7 +69,7 @@ Systemet skal holde en konstant kontrol over varedisponering på lageret, så ud
 
  Følgende diagram viser de forskellige elementer i beregningen.  
 
- ![Disponibel til reservation pr. lagerstedsallokeringer](media/design_details_warehouse_management_availability_3.png "design_details_warehouse_management_availability_3")  
+ ![Disponibel til reservation pr. lagerstedsallokering](media/design_details_warehouse_management_availability_3.png "Disponibel til reservation pr. lagerstedsallokering")  
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Logistik](design-details-warehouse-management.md)

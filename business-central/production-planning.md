@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a512e8e4e693a44015bc7675e5126259a5eff92b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a2cec78c97d52716c1548f062fa6346bddc5f6
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="planning"></a>Planlægning
@@ -38,12 +38,12 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Få er kort introduktion til, hvordan planlægningssystemet kan bruges til at registrere og prioritere behov og foreslå en afstemt forsyningsplan.|[Om planlægningsfunktionen](production-about-planning-functionality.md)|
 |Forstå, hvordan alle aspekter af planlægningssystemet fungerer, og hvordan du justerer algoritmer for at opfylde planlægningsbehov i forskellige miljøer.|[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)|
 |Vide, hvordan planlægningslogikken differentierer mellem behov på lokationer i henhold til lagervareopsætningen og behov uden lokationskoder.|[Planlægge med eller uden lokationer](production-planning-with-without-locations.md)|
-|Lave et forecast over produktionsbehov afledt af de forventede salgs- og produktionsordrer.|[Oprette et produktionsforecast](production-how-to-create-a-forecast.md)|  
+|Lave en prognose over behov afledt af de forventede salgs- og produktionskomponenter.|[Oprette en behovsprognose](production-how-to-create-a-forecast.md)|  
 |Oprette en-til-en-produktionsordrer automatisk fra en salgsordre for at dække det nøjagtige behov for denne salgsordreline.|[Oprette produktionsordrer fra salgsordrer](production-how-to-create-production-orders-from-sales-orders.md)|
 |Oprette en projektproduktionsordre direkte fra en salgsordre med flere linjer, som udgør et produktionsprojekt.|[Planlægge projektordrer](production-how-to-plan-project-orders.md)|
 |Bruge vinduet **Ordreplanlægning** til manuel planlægning af salgs- eller produktionsbehov for et styklisteniveau ad gangen.|[Planlægge efter nyt behov ordre for ordre](production-how-to-plan-for-new-demand.md)|
 |Brug vinduet **Planlægningskladde** til at køre både MPS- og MRP-funktionerne for automatisk at oprette enten en overordnet eller en detaljeret forsyningsplan på alle vareniveauer.|[Køre fuld planlægning, MPS eller MRP](production-how-to-run-mps-and-mrp.md)|
-|Køre indkøbskladden for automatisk at oprette en detaljeret forsyningsplan for at dække behovet for varer, der kun kan opfyldes med et et køb eller ene overførsel.|Siden **Indkøbskladde**|  
+|Køre indkøbskladden for automatisk at oprette en detaljeret forsyningsplan for at dække behovet for varer, der kun kan opfyldes med et et køb eller ene overførsel.|Vinduet **Indkøbskladdenavne**|  
 |Starte eller opdatere en produktionsordre som grovplanlagte operationer i masterproduktionsskemaet.|[Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md)|
 |Genberegne arbejdscenter- eller produktionsressourcekalendere på grund af planlægningsændringer.|Afsnittet "Sådan beregnes en arbejdscenterkalender" i [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md)|
 |Spore ordrebehov (sporet antal), forecast, rammesalgsordre eller planlægningsparameter (ikkesporet antal), der er årsag til den pågældende planlægningslinje.|[Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md)|
@@ -60,5 +60,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

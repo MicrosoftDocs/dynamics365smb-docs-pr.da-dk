@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bf7b58fad1aa587079b51b505e9d757bb66f39c9
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Lægge varer på lager med Læg-på-lager (logistik)
@@ -29,7 +29,7 @@ Afhængigt af logistikopsætningen bliver linjerne enten tilgængelige for læg-
 Foruden de almindelige måder at oprette lagerets læg-på-lager, der er beskrevet i dette emne, kan du oprette læg-på-lager fra den relaterede bogførte lagermodtagelse. Dette er nyttigt, hvis du har slettet læg-på-lager-linjer, eller hvis du bruger styret læg-på-lager og pluk og har besluttet dig til ikke at bruge læg-på-lager-kladden, fordi du kan oprette eller genoprette læg-på-lager-vejledninger fra de bogførte købsleverancelinjer.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Sådan lægges varer på lager uden styret læg-på-lager og pluk  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.  
 2.  Åbn den læg-på-lager-aktivitet, der er klar til håndtering.  
 
     Du kan sortere på læg-på-lager-linjerne ud fra forskellige kriterier, f.eks. efter vare, placeringsnummer eller forfaldsdato, og dermed gøre processen mere effektiv.  
@@ -37,7 +37,7 @@ Foruden de almindelige måder at oprette lagerets læg-på-lager, der er beskrev
 4.  Vælg handlingen **Registrer læg-på-lager**, når du har lagt varerne på plads, for at registrere, at aktiviteten er udført, og for at gøre varerne disponible til pluk.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Sådan lægges varer på lager med styret læg-på-lager og pluk  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.
     Hvis der er oprettet læg-på-lager-instruktioner, vises læg-på-lager-aktiviteten.  
 2.  Åbn den læg-på-lager-aktivitet, du vil arbejde på.  
 3.  Indtast dit bruger-id i oversigtspanelet **Generelt**, når du skal starte en læg-på-lager-aktivitet, hvis det kræves.  
@@ -65,7 +65,7 @@ Der tages hensyn til placeringsniveau, når mere end én placering opfylder krit
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Sådan oprettes en læg-på-lager-aktivitet fra en bogført modtagelse  
  Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandling, og du har slettet læg-på-lager-linjer, eller hvis du bruger styret læg-på-lager og pluk og har besluttet dig til ikke at bruge læg-på-lager-kladden, kan du oprette eller genoprette læg-på-lager-vejledninger til de bogførte købsleverancelinjer.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogførte lagermodtagelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte lagermodtagelser**, og vælg derefter det relaterede link.  
 2.  Vælg en bogført modtagelse, der evt. skal lægges på lager.  
 3.  Vælg handlingen **Kort**.  
 

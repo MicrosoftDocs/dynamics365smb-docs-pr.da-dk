@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30d515822fd3e1ca3bf5b83e2bbc4e0841bea9cc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2a3ff313d9c6e8bac1169daba590d2e38c312d87
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Føje felter til et Word-rapportlayout
@@ -33,7 +33,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
   
 2.  Vis fanen **Udvikler** på båndet i Microsoft Word.  
   
-     Som standard vises fanen **Udvikler** ikke på båndet. Du kan finde flere oplysninger i [Vise fanen Udvikler på båndet](http://go.microsoft.com/fwlink/?LinkID=389631).  
+     Som standard vises fanen **Udvikler** ikke på båndet. Du kan finde flere oplysninger i [Vise fanen Udvikler på båndet](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Vælg **XML-tilknytningsrude** under **Udvikler**.  
   
@@ -97,7 +97,7 @@ Word-rapportlayout er baseret på *brugerdefinerede XML-dele*. En brugerdefinere
 ### <a name="xml-structure-of-custom-xml-part"></a>XML-struktur af brugerdefineret XML-del  
 Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret XML-del.  
   
-|XML-elementer|Description|  
+|XML-elementer|Beskrivelse|  
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Overskrift|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|Specifikation af XML-navneområde. `<reportname>` er det navn, der er knyttet til rapporten. `<id>` er det id, der er knyttet til rapporten.|  
@@ -107,7 +107,7 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Lukker element.|  
   
 ### <a name="custom-xml-part-in-word"></a>Brugerdefineret XML-del i Word  
- I Word kan du åbne den brugerdefinerede XML-del i ruden **XML-tilknytning** og derefter bruge ruden til at knytte elementer til indholdskontrolelementer i Word-dokumentet. Ruden **XML-tilknytning** er tilgængelig fra fanen **Udvikler** (du kan flere yderligere oplysninger i [Vise fanen Udvikler på båndet](http://go.microsoft.com/fwlink/?LinkID=389631)).  
+ I Word kan du åbne den brugerdefinerede XML-del i ruden **XML-tilknytning** og derefter bruge ruden til at knytte elementer til indholdskontrolelementer i Word-dokumentet. Ruden **XML-tilknytning** er tilgængelig fra fanen **Udvikler** (du kan flere yderligere oplysninger i [Vise fanen Udvikler på båndet](https://go.microsoft.com/fwlink/?LinkID=389631)).  
   
  Elementerne i ruden **XML-tilknytning** vises i en struktur, der svarer til XML-kilden. Navnefelter grupperes under et fælles **navneelement**, og dataelementer og -kolonner er arrangeret i en hierarkisk struktur, der svarer til XML-kilden, med kolonner i alfabetisk rækkefølge. Elementer identificeres ved deres navn, som er defineret af egenskaben Navn i rapportdatasætgeneratoren i ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   

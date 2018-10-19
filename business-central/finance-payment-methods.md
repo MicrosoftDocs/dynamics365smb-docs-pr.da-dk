@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 06/15/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 996469413f23d6620e0464313b90c5c771f38f86
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9583d69f91963d8ee6a69e7145930c1f6c2df955
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="defining-payment-methods"></a>Definere betalingsformer
@@ -23,7 +23,7 @@ Betalingsformer er knyttet til kreditorer for at angive, hvordan en faktura fra 
 
 ## <a name="to-set-up-a-payment-methods"></a>Sådan defineres betalingsformer
 Flere typiske betalingsformer er allerede defineret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kan du definere nye betalingsformer i vinduet **Betalingsformer**, som du kan finde med søgefunktionen eller åbne fra feltet **Betalingsform** på et kreditor- eller debitorkort.
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsformer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingsformer**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se også

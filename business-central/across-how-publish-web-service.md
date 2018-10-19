@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/22/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: d22de15b3e91897a209a31d03a63fb7d927d2f96
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: be986c07849db4cdc19ad2e492887373753f5dbe
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="publish-a-web-service"></a>Udgive en webtjeneste
+
 Webtjenester er en nem måde at gøre programfunktionalitet tilgængelig for en række eksterne systemer og brugere. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en lang række objekter, der vises som webtjenester som standard, på grund af integration med andre Microsoft-tjenester, men du kan også tilføje andre webtjenester.  
 
 Du kan oprette en webtjeneste i Windows-klienten eller i webklienten. Du skal derefter publicere webtjenesten, så den er tilgængelig for serviceanmodninger via netværket. Brugere kan se webtjenester ved at pege på en browser på serverplaceringen og anmode om en oversigt over tilgængelige tjenester. Når du publicerer en webtjeneste, bliver den straks tilgængelig over netværket for godkendte brugere. Alle godkendte brugere kan få adgang til metadata til webtjenester, men kun brugere med tilstrækkelige -tilladelser kan få adgang til de faktiske data.
@@ -27,8 +28,8 @@ Følgende trin forklarer, hvordan du opretter og publicerer en webtjeneste.
 
 ### <a name="to-create-and-publish-a-web-service"></a>Sådan oprettes og publiceres en webtjeneste  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Webtjenester**, og vælg derefter det relaterede link.  
-2.  På siden **Webtjeneste** skal du vælge **Ny**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Webtjeneste**, og vælg derefter det relaterede link.  
+2.  I vinduet **Webtjeneste** skal du vælge **Ny**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     >  **Codeunit** og **Side** er gyldige typer for SOAP-webtjenester. **Side** og **Forespørgsel** er gyldige typer for OData-webtjenester.  

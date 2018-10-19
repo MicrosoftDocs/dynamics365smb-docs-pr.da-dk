@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b526879c1b49a90ff0ddcb415ba19f9d0567f7fd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c646fe080cbdb867d58fb011ec9d94a1d8bd61b3
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="invoice-jobs"></a>Fakturere sager
@@ -32,7 +32,7 @@ Du kan oprette en faktura for en sag eller for en eller flere sagsopgaver for en
 
 Fra vinduet **Sager** kan du fakturere en kunde ved at markere sagen og derefter vælge handlingen **Opret salgsfaktura for sag**. Følgende procedure viser, hvordan du kan bruge en kørsel til at fakturere flere sager.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opret salgsfaktura for sag**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret salgsfaktura for sag**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan angive filtre, hvis du vil begrænse de sager, som kørslen skal behandle.
 4. Vælg **OK** for at starte oprette fakturaen.  
@@ -40,7 +40,7 @@ Fra vinduet **Sager** kan du fakturere en kunde ved at markere sagen og derefter
 ## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Sådan opretter du flere salgsfakturaer fra sagsplanlægningslinjer
 Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt angive antallet af varen, ressourcen eller finanskontoen, som du vil fakturere.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.
 2. Åbn en relevant sag.
 3. Vælg en sagsopgave, hvor feltet **Sagsopgavetype** indeholder **Bogføring**, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
 4. Angiv antallet af varen, ressourcen og finanskontotype, som du vil fakturere, i feltet **Antal til overførsel til faktura** i en sagsplanlægningslinje.  
@@ -60,7 +60,7 @@ Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt
 ## <a name="to-calculate-and-post-job-completion-entries"></a>Sådan beregnes og bogføres sagsafslutningsposter
 Når du har fuldført alle aktiviteter for en sag, inklusive bogføring og fakturering af forbrug, skal du opdatere sagen for at få **status** **Afsluttet**. Derefter skal du tilbageføre alt igangværende arbejde, som er blevet bogført i finansregnskabet.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sager**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2. Vælg en åben sag, og vælg derefter handlingen **Rediger**.
 3. I feltet **Status** skal du vælge **Fuldført**.
 4. Følg hjælpetrinnene for at beregne og bogføre igangværende arbejde. Du kan også følge trin 5 og 6 for at gøre det manuelt.  

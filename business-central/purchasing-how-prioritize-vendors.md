@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f7834f0f99b775125425eb7209c3c648de4ccd1f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cb3556c9bd8fb893448d61c4e8f18131b96a9841
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prioritize-vendors"></a>Tildele kreditorer prioritet
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 Du skal først at prioritere dine kreditorer ved at tildele numre til dem.
 
 ## <a name="to-prioritize-vendors"></a>Sådan tildeler du kreditorer prioritet
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorer**, og vælg derefter det relaterede link.
 2. Vælg den relevante kreditor, og vælg derefter **Rediger**.
 3. Angiv et nummer i feltet **Prioritet**.
 

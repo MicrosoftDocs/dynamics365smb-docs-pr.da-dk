@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 11/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3b2dc6a8911659c931b9c7d7fcf35cc471c022ef
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 76a531f7072b1d4082af3c1e82bb78dc2d44ddc3
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a>Tælle, justere og ompostere inventar
@@ -44,7 +44,7 @@ Du kan udføre lageropgørelsen på følgende måder afhængigt af logistikopsæ
 -   Hvis lokationen bruger styret læg-på-lager og pluk (avanceret lageropsætning), skal du først bruge vinduet **Lagersted - fysisk lagerkladde** og derefter bruge vinduet **Varekladde** til at køre funktionen **Beregn lagerregulering**.
 
 ### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>Sådan beregnes den forventede lagerbeholdning i grundlæggende lageropsætninger
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lageropgørelseskladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelseskladder**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Beregn beholdning**.
 3. I vinduet **Beregn beholdning** skal du angive betingelserne, der skal bruges til at oprette kladdelinjerne, f.eks. om der skal medtages varer med ingen registreret lagerbeholdning.
 4. Angiv filtre, hvis du kun vil beregne lagerbeholdningen for visse varer, placeringer, lokationer eller dimensioner.
@@ -54,20 +54,20 @@ Du kan udføre lageropgørelsen på følgende måder afhængigt af logistikopsæ
 >   Vareposterne behandles i overensstemmelse med de oplysninger, du har angivet, og der oprettes linjer i lageropgørelseskladden. Bemærk, at feltet **Antal (optalt)** udfyldes automatisk med det samme antal som feltet **Antal (beregnet)**. Med denne funktion er det ikke nødvendigt at indtaste den optalte lagerbeholdning for varer, der er de samme som det beregnede antal. Men hvis det optalte antal afviger fra det, der er indtastet i feltet **Antal (beregnet)**, skal du overskrive det med det antal, der faktisk er optalt.
 
 ### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Sådan beregnes den forventede lagerbeholdning i avancerede lageropsætninger
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekladde**, og vælg det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladde**, og vælg det relaterede link.  
 2.  Vælg handlingen **Beregn regulering (logistik)**.  
 3.  Indtast numrene på de varer, der skal optælles, og din lokation.
 4. Vælg knappen **OK**, og bogfør eventuelle reguleringer.
 
     Hvis du ikke gør ovenstående, før du foretager lagerplaceringsopgørelsen, bliver de resultater, som du bogfører på lageropgørelseskladden og varekladden i andet trin af proceduren, kombineret med de tidligere reguleringer af de varer, der er optalt.  
-5.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerplacering - opg.kladde**, og vælg det relaterede link.  
+5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerplacering - opg.kladde**, og vælg derefter det relaterede link.  
 6. Vælg handlingen **Beregn beholdning**. Kørselsanmodningsvinduet **Lager - beregn beholdning** åbnes.  
 7.  Angiv filtre for, hvilke varer der skal optælles i kladden, og klik derefter på knappen **OK**.
 
     Der oprettes en linje for hver placering, der overholder filterkriterierne. Du kan stadig slette nogle af linjerne, men hvis du vil bogføre resultaterne som en lageropgørelse, skal du optælle varen på alle de placeringer, hvor den opbevares.  
 
      Hvis du kun har tid til at tælle varen på nogle af placeringerne og opdager afvigelser, kan du registrere dem og senere bogføre dem på varekladden ved at bruge funktionen **Beregn lagerregulering**.  
-8.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerplaceringsopg.oversigt**, og vælg det relaterede link.  
+8.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerplaceringsopg.oversigt**, og vælg det relaterede link.  
 9.  Åbn rapportanmodningssiden, og udskriv de oversigter, hvor medarbejderne skal angive de vareantal, som de optæller på hver placering.  
 10. Indtast de optalte antal i feltet **Antal (optalt)** i lageropgørelseskladden, når optællingen er foretaget.  
 
@@ -103,12 +103,12 @@ Medarbejderne kan nu fortsætte med at optælle lagerbeholdningen og registrere 
 
     Både vareposter og lageropgørelsesposter oprettes. Åbn varekortet for at få vist de oprettede lageropgørelsesposter.
 
-3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
+3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 4. For at kontrollere lageropgørelsen skal du åbne det relevante varekort og vælge handlingen **Lageropgørelsesposter**.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Sådan angives og bogføres den faktiske optalte lagerbeholdning i avancerede lageropsætninger
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekladde**, og vælg det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladde**, og vælg det relaterede link.  
 2.  Vælg handlingen **Beregn regulering (logistik)**.  
 3.  Vælg de samme varer, som du netop har optalt ved den fysiske lageropgørelse, og evt. andre elementer, der kræver regulering, og vælg derefter knappen **OK**.  
 
@@ -131,24 +131,24 @@ Lageropgørelser foretages typisk med et fast interval, f.eks. hver måned, hver
 
 Du konfigurerer hver lageroptællingsperiode, du vil bruge, og knytter en til hver vare. Når du foretager en lageropgørelse og bruger **Beregn optællingsperiode** i lageropgørelseskladden, bogføres linjer for varerne, der oprettes, automatisk.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lageropgørelse - optællingsperioder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelse - optællingsperioder**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Sådan tildeles en optællingsperiode til en vare  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg den vare, som der skal knyttes en optællingsperiode til.  
 3. I feltet **Lageropg.-optællingsperiodekode** skal du vælge den relevante optællingsperiode.  
 4. Vælg knappen **Ja** for at ændre koden og beregne den første optællingsperiode for varen. Næste gang du vælger at beregne en optællingsperiode i opgørelseskladden, vises elementet som en linje i vinduet **Lageropgørelse – varevalg**. Du kan derefter begynde at optælle varen på regelmæssig basis.
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Sådan foretages en optælling, der er baseret på optællingsperioder i grundlæggende lageropsætninger
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lageropgørelseskladde**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelseskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Beregn optællingsperiode**.
 
     Vinduet **Lageropgørelse - varevalg**, der viser de varer, der er tildelt optællingsperioder til, og som skal optælles, åbnes.
 3. Foretag lageropgørelsen. Du kan finde flere oplysninger i afsnittet "Sådan foretages en lageropgørelse".
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Sådan foretages en optælling, der er baseret på optællingsperioder i avancerede lageropsætninger
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerplacering - opg.kladde**, og vælg det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerplacering - opg.kladde**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Beregn optællingsperiode**.
 
     Vinduet **Lageropgørelse - varevalg**, der viser de varer, der er tildelt optællingsperioder til, og som skal optælles, åbnes.
@@ -160,7 +160,7 @@ Du konfigurerer hver lageroptællingsperiode, du vil bruge, og knytter en til hv
 ## <a name="to-adjust-the-inventory-of-one-item"></a>Sådan regulerer du lagerbeholdningen for én vare
 Når du har foretaget en fysisk optælling af varen i dit lagerområde, kan du bruge funktionen **Reguler lager** til at registrere den faktiske lagerbeholdning.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 2. Vælg den vare, som du vil regulere lagerbeholdningen for, og vælg derefter handlingen **Reguler lager**.
 3. Angiv det maksimale lagerantal, du vil registrere for varen, i feltet **Ny lagerbeholdning**.
 4. Vælg knappen **OK**.
@@ -177,7 +177,7 @@ I vinduet **Varekladde** kan du bogføre varetransaktionen direkte for at regule
 
 Hvis du ofte bruger varekladden til at bogføre de samme eller lignende kladdelinjer, f.eks. i forbindelse med materialeforbrug, kan du bruge vinduet **Standardvarekladde** til at lette denne gentagne opgave. Du kan finde flere oplysninger i afsnittet "Standardkladder" i [Arbejde med finanskladder](ui-work-general-journals.md).
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vælg handlingen **Bogfør** for at regulere lagerbeholdningen.
 
@@ -189,7 +189,7 @@ Hvis din lokation bruger styret læg-på-lager og pluk, skal du bruge **lagerkla
 
 I modsætning til postering af justeringer i varelagerkladden giver lagerkladden dig et yderligere justeringsniveau, som gør dine mængdeposter mere præcise. Lagerstedet har derfor altid en fuldstændig oversigt over, hvor mange varer, der er hjemme, og hvor de er placeret, men hver justering registreres ikke øjeblikkeligt i lageropgørelsen. I registreringsprocessen, krediterer eller debiterer programmet den reelle placering med mængdejustering og opretter en balanceringspost på en justeringsplacering, som er en justerbar placering uden reelle varer. Denne placering er defineret i **Lagerjust. placeringskode** på lokationskortet.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerkladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerkladde**, og vælg derefter det relaterede link.  
 2.  Udfyld oplysningerne på sidehovedet.  
 3.  Udfyld feltet **Varenr.** på linjen.  
 4.  Angiv den placering, hvor du anbringer de ekstra varer, eller hvor der er manglende varer.  
@@ -199,7 +199,7 @@ I modsætning til postering af justeringer i varelagerkladden giver lagerkladden
 ## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>Sådan synkroniseres de regulerede lagerposter med de relaterede vareposter
 Du skal med jævne mellemrum (som er fastsat af virksomheden) bogføre posterne fra lagerreguleringsplaceringen i varekladden. Nogle virksomheder bogfører reguleringer på varekladden hver dag, mens andre kan nøjes med at afstemme med længere mellemrum.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladde**, og vælg derefter det relaterede link.  
 2.  Udfyld felterne på de enkelte kladdelinjer.  
 3.  Vælg handlingen **Beregn lagerregulering**, og udfyld filtrene efter behov i anmodningsvinduet. Justeringerne beregnes kun for de poster på reguleringsplaceringen, der opfylder filterkriterierne.  
 4.  På oversigtspanelet **Indstillinger** skal du udfylde feltet **Bilagsnr.** med et tal, du indtaster manuelt. Da der ikke er defineret nogen nummerserie for kørslen, skal du bruge det nummereringssystem, der er sat op for lagerstedet. Du kan også indtaste dags dato efterfulgt af dine initialer.  
@@ -213,7 +213,7 @@ Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og 
 
 Følgende eksempel er baseret på en lokationskode. Trinene er de samme for andre typer vareattributter.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareomposteringskladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Vareomposteringskladder**, og vælg derefter det relaterede link.
 2. I vinduet **Vareomposteringskladder** skal du udfylde felterne efter behov.
 3. I feltet **Lokationskode** skal du angive varens aktuelle lokationskode.
 4. I feltet **Ny lokationskode** skal du angive varens nye lokationskode.

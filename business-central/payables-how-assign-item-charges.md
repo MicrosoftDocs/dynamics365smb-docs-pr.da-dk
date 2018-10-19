@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 717090789c380bee19f12882fc4fc6ade76c8420
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruge varegebyrer til at angive ekstra handelsomkostninger
@@ -40,14 +40,14 @@ For både købs- og salgsdokumenter, kan du tildele et varegebyr på to måder:
 ## <a name="to-set-up-item-charge-numbers"></a>Sådan oprettes varegebyrnumre
 Varegebyrnumre bruges til at skelne mellem de forskellige typer varegebyrer, som bruges i din virksomhed.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varegebyrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varegebyrer**, og vælg derefter det relaterede link.
 2. I vinduet **Varegebyrer** skal du vælge handlingen **Ny** for at oprette en ny linje.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Sådan tildeles et varegebyr direkte til købsfakturaen for varen
 Hvis du kender varegebyret på det tidspunkt, hvor du bogfører en købsfaktura for varen, skal du følge nedenstående procedure.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Opret en ny købsfaktura. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 3. Kontroller, at købsfakturaen har en eller flere linjer af typen vare.
 4. På en ny linje skal du vælge **Gebyr (Vare)** i feltet **Type**.

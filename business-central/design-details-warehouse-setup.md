@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: ff625189c5004f682f45fe1c1796ba6afe2e7fdb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
 ms.contentlocale: da-dk
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designoplysninger: Opsætning af lager
@@ -30,10 +30,10 @@ Der findes følgende lagerrelaterede moduler:
 -   Lagerleverance (4210)  
 -   Logistiksystemer (4620)  
 -   Interne pluk og læg-på-lager (4630)  
--   <!-- Automated Data Capture System (4640) -->  
+-   Automated Data Capture System (4640) 
 -   Opsætning af placering (4660)  
 
-Du kan finde flere oplysninger om hvert begreb i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prisark](http://go.microsoft.com/fwlink/?LinkId=238341) (kræver PartnerSource-konto).  
+Du kan finde flere oplysninger om hvert begreb i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prisark](https://go.microsoft.com/fwlink/?LinkId=238341) (kræver PartnerSource-konto).  
 
 Følgende tabel viser, hvilke moduler der er nødvendige for at definere forskellige lagerkompleksitetsniveauer, hvilke dokumenter til brugergrænsefladen der understøtter hvert niveau, og hvilke lokationskoder der afspejler disse niveauer i [!INCLUDE[d365fin](includes/d365fin_md.md)]-demodatabasen.  
 
@@ -44,7 +44,7 @@ Følgende tabel viser, hvilke moduler der er nødvendige for at definere forskel
 |3 <br /><br /> **Bemærk:** Selvom indstillingerne kaldes **Kræv pluk** og **Kræv læg-på-lager**, kan du bogføre modtagelser og leverancer direkte fra kildeforretningsdokumenterne på lokationer, hvor du kan markerer disse afkrydsningsfelter.|Grundlæggende lageraktivitet, ordre-for-ordre.<br /><br /> Modtag/levér-bogføring fra lager, læg-på-lager/plukdokumenter. <br /><br /> Placeringskode er påkrævet.|Lager, læg-på lager/flytning (lager)/lagerpluk med placeringskode|(SØLV + Kræv læg-på-lager eller Kræv læg-på-lager)|Grundlæggende lagerbeholdning/Placering/Læg-på-lager/Pluk|  
 |4|Avanceret lageraktivitet for flere ordrer.<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer.|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Plukkladde|GRØN|Grundlæggende lagerbeholdning/Lagermodtagelse/Læg-på-lager/Pluk/Lagerleverance|  
 |5|Avanceret lageraktivitet for flere ordrer.<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer.<br /><br /> Placeringskode er påkrævet.|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Plukkladde/Læg på lager-kladde, med placeringskode|(GRØN + Tvungen placering)|Grundlæggende lagerbeholdning/Placering/Lagermodtagelse/Læg-på-lager/Pluk/Lagerleverance|  
-|6 <br /><br /> **Bemærk**: Dette niveau omtales som "Logistik", da det kræver de mest avancerede detaljerede logistiksystemer.|Avanceret lageraktivitet for flere ordrer<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer<br /><br /> Placeringskode er påkrævet.<br /><br /> Zone/klassekode er valgfrit.<br /><br /> Lagermedarbejdere, der er styret af arbejdsproces<br /><br /> Planlægning af placeringsgenbestilling<br /><br /> Placeringsniveau<br /><br /> Opsætning af placering efter kapacitet<br /><br /> Slotting <!-- Hand-held device integration -->|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Bevægelse (logistik)/Plukkladde/Læg på lager-kladde/Internt lagerpluk/Internt læg-på-lager, med placering/klasse/zonekode<br /><br /> Forskellige kladder til styring af placering <!-- ADCS screens  -->|HVID|Grundlæggende lagerbeholdning/Placering/Læg-på-lager/Lagermodtagelse/Pluk/Lagerleverance/Logistik/Internt pluk og læg-på lager/Placeringsopsætning/<!-- Automated Data Capture System/ -->Placeringsopsætning|  
+|6 <br /><br /> **Bemærk**: Dette niveau omtales som "Logistik", da det kræver de mest avancerede detaljerede logistiksystemer.|Avanceret lageraktivitet for flere ordrer<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer<br /><br /> Placeringskode er påkrævet.<br /><br /> Zone/klassekode er valgfrit.<br /><br /> Lagermedarbejdere, der er styret af arbejdsproces<br /><br /> Planlægning af placeringsgenbestilling<br /><br /> Placeringsniveau<br /><br /> Opsætning af placering efter kapacitet<br /><br /> Slotting <!-- Hand-held device integration -->|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Bevægelse (logistik)/Plukkladde/Læg på lager-kladde/Internt lagerpluk/Internt læg-på-lager, med placering/klasse/zonekode<br /><br /> Forskellige kladder til styring af placering<br /><br /> ADCS-skærme|HVID|Grundlæggende lagerbeholdning/Placering/Læg-på-lager/Lagermodtagelse/Pluk/Lagerleverance/Logistik/Internt pluk og læg-på lager/Placeringsopsætning/<!-- Automated Data Capture System/ -->Placeringsopsætning|  
 
 Se eksempler på, hvordan brugergrænsefladeelementer bruges afhængigt af kompleksitetsniveauet på lageret, i [Designoplysninger: Indgående lagerflow](design-details-outbound-warehouse-flow.md).  
 

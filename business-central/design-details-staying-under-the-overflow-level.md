@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2fc2ef2528a1edc85c0a7694c1afc5bec7a0065a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Designoplysninger: Forblive under overløbsniveauet
@@ -24,7 +24,7 @@ Når du bruger metoderne Maks. antal og Fast genbestil.antal, fokuserer planlæg
 
 *Bemærk: Den forventede lagerbeholdning [xx] er højere end overløbsniveauet [xx] på forfaldsdatoen [xx].*  
 
-![Lageroverløbsniveau](media/supplyplanning_2_overflow1_new.png "supplyplanning_2_overflow1_new")  
+![Lageroverløbsniveau](media/supplyplanning_2_overflow1_new.png "Lageroverløbsniveau")  
 
 ##  <a name="calculating-the-overflow-level"></a>Beregning af overløbsniveau  
 Overløbsniveauet beregnes på forskellige måder afhængig af planlægningsopsætningen.  
@@ -100,7 +100,7 @@ I dette scenario ændrer en kunde en salgsordre fra 70 til 40 stykker mellem to 
 ### <a name="resulting-planning-lines"></a>Resulterende planlægningslinjer  
  Der oprettes en planlægningslinje (advarsel) for at reducere køb med 30 fra 90 til 60 for at bevare den projekterede lagerbeholdning på 100 i henhold til overløbsniveauet.  
 
-![Planlægge efter overløbsniveauet](media/nav_app_supply_planning_2_overflow2.png "nav_app_supply_planning_2_overflow2")  
+![Planlægge efter overløbsniveau](media/nav_app_supply_planning_2_overflow2.png "Planlægge efter overløbsniveau")  
 
 > [!NOTE]  
 >  Uden overløbsfunktionen vises der ingen advarsel, hvis den projekterede lagerbeholdning ligger over maks. Dette kan medføre en overflødig forsyning på 30.  

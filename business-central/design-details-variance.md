@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f01c57c3686764866c9d2a3c25d426e7f9a986a6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36062fc6fa40c3fc2b928ffad7e3b242634149fc
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-variance"></a>Designoplysninger: Afvigelse
@@ -40,7 +40,7 @@ Afvigelsen er defineret som forskellen mellem den faktiske kostpris og standardk
 
  Følgende tabel viser de resulterende værdiposter.  
 
- ![Beregning af købsafvigelse](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+ ![Beregning af købsafvigelse](media/design_details_inventory_costing_11_purchase_variance.png "Beregning af købsafvigelse")  
 
 ## <a name="determining-the-standard-cost"></a>Bestemmelse af standardkostpris  
  Standardkostprisen bruges til beregning af afvigelse og beløbet, der skal kapitaliseres. Da standardkostprisen kan ændres med tiden på grund af manuel opdateringsberegning, skal du bruge et tidspunkt, hvor standardkostprisen er fast til beregning af varians. Dette punkt er, når lagerforøgelsen er faktureret. For producerede eller monterede varer er punktet for, hvornår standardomkostninger bestemmes, når omkostningerne reguleres.  
@@ -50,16 +50,16 @@ Afvigelsen er defineret som forskellen mellem den faktiske kostpris og standardk
 |Kostprisfordeling|Købt vare|Produceret/monteret vare|  
 |----------------|--------------------|------------------------------|  
 |**Kostpris (standard)**||Materialekostprisen på enkeltniveau + kapacitetskostpris på enkeltniveau + underlev.kostpris på enkeltniveau + ind. kap.kostpris på enkeltniveau + ind. prod.kostpris på enkeltniveau|  
-|**Materialekostpris (enkeltniv.)**|Kostpris|![Ligning 1](media/design_details_inventory_costing_11_equation_1.png "design_details_inventory_costing_11_equation_1")|  
-|**Kapacitetskostpris (enkeltniv)**|Ikke tilgængelig|![Ligning 2](media/design_details_inventory_costing_11_equation_2.png "design_details_inventory_costing_11_equation_2")|  
-|**Underlev.kostpris (enkeltniv.)**|Ikke tilgængelig|![Ligning 3](media/design_details_inventory_costing_11_equation_3.png "design_details_inventory_costing_11_equation_3")|  
-|**Ind. kap.kostpris (enkeltniv.)**|Ikke tilgængelig|![Ligning 4](media/design_details_inventory_costing_11_equation_4.png "design_details_inventory_costing_11_equation_4")|  
+|**Materialekostpris (enkeltniv.)**|Kostpris|![Ligning 1](media/design_details_inventory_costing_11_equation_1.png "Ligning 1")|  
+|**Kapacitetskostpris (enkeltniv)**|Ikke tilgængelig|![Ligning 2](media/design_details_inventory_costing_11_equation_2.png "Ligning 2")|  
+|**Underlev.kostpris (enkeltniv.)**|Ikke tilgængelig|![Ligning 3](media/design_details_inventory_costing_11_equation_3.png "Ligning 3")|  
+|**Ind. kap.kostpris (enkeltniv.)**|Ikke tilgængelig|![Ligning 4](media/design_details_inventory_costing_11_equation_4.png "Ligning 4")|  
 |**Ind. prod.kostpris (enkeltniv)**|Ikke tilgængelig|(Materialekostpris (enkeltniv.) + Kapacitetskostpris (enkeltniv) + Underlev.kostpris (enkeltniv.)) * Indir. omkostninger % / 100 + IPO-bidrag|  
-|**Akkum. materialekostpris**|Kostpris|![Ligning 5](media/design_details_inventory_costing_11_equation_5.png "design_details_inventory_costing_11_equation_5")|  
-|**Akkum. kapacitetskostpris**|Ikke tilgængelig|![Ligning 6](media/design_details_inventory_costing_11_equation_6.png "design_details_inventory_costing_11_equation_6")|  
-|**Underlev.kostpris (akkum.)**|Ikke tilgængelig|![Ligning 7](media/design_details_inventory_costing_11_equation_7.png "design_details_inventory_costing_11_equation_7")|  
-|**Akkumulerede indirekte kapacitetsomkostninger**|Ikke tilgængelig|![Ligning 8](media/design_details_inventory_costing_11_equation_8.png "design_details_inventory_costing_11_equation_8")|  
-|**Ind. prod.kostpris (akkum.)**|Ikke tilgængelig|![Ligning 9](media/design_details_inventory_costing_11_equation_9.png "design_details_inventory_costing_11_equation_9")|  
+|**Akkum. materialekostpris**|Kostpris|![Ligning 5](media/design_details_inventory_costing_11_equation_5.png "Ligning 5")|  
+|**Akkum. kapacitetskostpris**|Ikke tilgængelig|![Ligning 6](media/design_details_inventory_costing_11_equation_6.png "Ligning 6")|  
+|**Underlev.kostpris (akkum.)**|Ikke tilgængelig|![Ligning 7](media/design_details_inventory_costing_11_equation_7.png "Ligning 7")|  
+|**Akkumulerede indirekte kapacitetsomkostninger**|Ikke tilgængelig|![Ligning 8](media/design_details_inventory_costing_11_equation_8.png "Ligning 8")|  
+|**Ind. prod.kostpris (akkum.)**|Ikke tilgængelig|![Ligning 9](media/design_details_inventory_costing_11_equation_9.png "Ligning 9")|  
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   

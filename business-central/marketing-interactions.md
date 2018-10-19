@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Administration af interaktioner med kontakter
@@ -30,7 +30,9 @@ I relationsstyringsområdet kan du registrere alle de interaktioner, du har med 
 
 ##  <a name="setting-up-interaction-templates"></a>Konfiguration af interaktionsskabeloner
 Du skal konfigurere interaktionsskabeloner, før du kan oprette og registrere interaktioner. Når du skal oprette interaktioner, skal du angive de skabeloner, som interaktionerne er baseret på. En interaktionsskabelon en model, der definerer grundlæggende karakteristika for en interaktion.
-Du konfigurerer en interaktionsskabelon i vinduet **Interaktionsskabeloner**.  
+Du konfigurerer en interaktionsskabelon i vinduet **Interaktionsskabeloner**.
+
+Når du er færdig med at indtaste oplysninger om interaktionsskabelonen, kan du oprette en vedhæftet fil, f.eks. et Microsoft Word-dokument. Gentag trinnene for hver interaktionsskabelon, du vil oprette.  
 
 ## <a name="creating-interactions"></a>Oprette interaktioner
 Interaktioner kan registreres på to måder:
@@ -50,7 +52,7 @@ I dette vindue kan du:
 * Få vist status for interaktioner.
 * Markere interaktioner som annulleret.
 
-Du kan slette interaktionslogposter, der er blevet annulleret. For at slette interaktionslogposter skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Slet annullerede interaktionslogposter** og derefter vælge det relaterede link og angive oplysningerne.
+Du kan slette interaktionslogposter, der er blevet annulleret. For at slette interaktionslogposter skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Slet annullerede interaktionslogposter** og derefter vælge det relaterede link og angive oplysningerne.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

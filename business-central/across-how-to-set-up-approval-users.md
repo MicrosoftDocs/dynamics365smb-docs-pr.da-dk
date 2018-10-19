@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 98dab9ee1d3b6d717d6d7d999785080225592ee3
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 26328cfb007f3251375503907c8316d51b113a03
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-approval-users"></a>Konfigurere godkendelsesbrugere
@@ -33,10 +33,10 @@ Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive wor
 >  Hvis du vil angive, at en godkendelsesanmodning ikke er godkendt, før flere lige godkendere har godkendt den, uanset et hierarki, skal du oprette en simpel brugergruppe til en arbejdsgang. For godkendertypen **Brugergruppe for workflow** skal du konfigurere godkendere i vinduet **Brugergrupper for workflow** og tildele det samme nummer til hver godkender feltet **Rækkefølgenr.**. . Der er flere oplysninger i [Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md).  
 
 ## <a name="to-set-up-an-approval-user"></a>Sådan konfigureres en godkendelsesbruger  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
 2. Opret en ny linje vinduet **Konfiguration af godkendelsesbruger**, og udfyld felterne som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Bruger-id**|Vælg bruger-id'et for den bruger, der er involveret i godkendelsesprocessen.|  
     |**Sælger/indkøberkode**|Angiv den sælger- eller indkøberkode, der gælder for brugeren, i feltet **Sælger/indkøberkode**.<br /><br /> Du udfylder typisk feltet **Sælger/indkøberkode**, hvis den sælger eller indkøber, der er ansvarlig for kunden eller leverandøren, også er den person, der skal godkende salgs- eller købsanmodningen.|  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/17/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: a10f32808eb89509cfeff365d420dd6e2b866d83
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Opsige, fjerne eller nulstille [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -32,13 +32,13 @@ Brugerkonti og licenser administreres i [Office-portalen](https://portal.office.
 ## <a name="closing-your-free-trial-of-included365finincludesd365finmdmd"></a>Lukke en gratis prøveversion af [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du har tilmeldt dig den gratis prøveversion og ikke vil fortsætte med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen når som helst. Vi anbefaler, at du eksporterer eventuelle data, før du lukker din konto.  
 
-Når du vil lukke din konto, skal du kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-annulleringsteamet ved at sende en mail til cancelbusinesscentra@microsoft.com. Du skal medtage navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer i meddelelsen, så vi kan identificere dig. Det er nemmest at gøre dette ved at kopiere URL-adressen fra startsiden i dit [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+For at lukke din konto skal du i øjeblikket kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-annulleringsteamet ved at sende en mail til cancelbusinesscentra@microsoft.com. Du skal medtage navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer i meddelelsen, så vi kan identificere dig. Det er nemmest at gøre dette ved at kopiere URL-adressen fra startsiden i dit [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Ophæve abonnementet på [!INCLUDE[d365fin](includes/d365fin_md.md)] uden Office 365
-Hvis du har tilmeldt dig [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af en ikke-Office 365-virksomhedskonto, har du ikke en Office 365-administrator. I stedet skal du opsige abonnementet ved at kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-annulleringsteamet ved at sende en mail til cancelbusinesscentra@microsoft.com. Du skal medtage navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer i meddelelsen, så vi kan identificere dig. Det er nemmest at gøre dette ved at kopiere URL-adressen fra startsiden i dit [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Hvis du har tilmeldt dig [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af en ikke-Office 365-virksomhedskonto, har du ikke en Office 365-administrator. I stedet skal du opsige abonnementet ved at ringe til [!INCLUDE[d365fin](includes/d365fin_md.md)]-annulleringsteamet ved at sende en mail til cancelbusinesscentra@microsoft.com. Du skal medtage navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer i meddelelsen, så vi kan identificere dig. Det er nemmest at gøre dette ved at kopiere URL-adressen fra startsiden i dit [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Nulstilling af projekt [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelsen
-Hvis du har tilføjet data i din gratis [!INCLUDE[d365fin](includes/d365fin_md.md)]-prøveversion, og du vil begynde forfra med en ny oplevelse, kan du oprette en ny virksomhed og nulstille den første virksomhed. Hvis du åbner siden **Virksomheder**, kan du oprette en kopi af den aktuelle virksomhed, logge af og derefter logge på den nye virksomhed og derefter nulstille den oprindelige virksomhed.  
+Hvis du har tilføjet data i din gratis [!INCLUDE[d365fin](includes/d365fin_md.md)]-prøveversion, og du vil begynde forfra med en ny oplevelse, kan du oprette en ny virksomhed og nulstille den første virksomhed. Hvis du åbner vinduet **Virksomheder**, kan du oprette en kopi af den aktuelle virksomhed, logge af og derefter logge på den nye virksomhed og derefter nulstille den oprindelige virksomhed.  
 > [!NOTE]  
 >   Når du nulstiller en virksomhed, som du deler med andre fra din virksomhed, skal du sikre dig, at andre ikke er logget på, når du nulstiller virksomheden.  
 

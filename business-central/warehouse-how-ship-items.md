@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54f554e2e0acf657fdf77caa863ff4e028734418
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="ship-items"></a>Afsende varer
@@ -29,7 +29,7 @@ Når du leverer varer fra et lagersted, der er konfigureret til lagerleverance, 
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Sådan leveres varer med en salgsordre
 Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er tilsvarende fremgangsmåde for købsreturvareordrer, serviceordrer og udgående overflytningsordrer.  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn en eksisterende salgsordre eller opret en ny. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 3. Angiv det modtagne antal i feltet **Lever (antal)**.
 
@@ -41,7 +41,7 @@ Først skal du oprette et leverancedokument fra et virksomhedskildedokument. Der
 
 ### <a name="to-create-a-warehouse-shipment"></a>Sådan oprettes en lagerleverance
 Den medarbejder, der er ansvarlig for leverancen, opretter typisk en lagerleverance.
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerleverancer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverancer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 
     Udfyld felterne i oversigtspanelet **Generelt**. Når du henter kildedokumentlinjer, kopieres nogle af oplysningerne fra hovedet til hver linje.  
@@ -74,12 +74,12 @@ Når du har de linjer, som du vil levere, kan du starte den proces, som fører t
 
 ### <a name="to-pick-and-ship"></a>Sådan foretages pluk og levering
 Typisk opretter en lagermedarbejder, der er ansvarlig for pluk, et plukdokument og åbner et allerede oprettet plukdokument.
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerleverancer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverancer**, og vælg derefter det relaterede link.
 2. Vælg den lagerleverance, som du vil plukke til, og vælg derefter handlingen **Opret pluk**.
 3. Udfyld felterne i anmodningsvinduet, og vælg derefter den knappen **OK**. Det angivne lagerplukdokument oprettes.
 
     Du kan også åbne et eksisterende lagerpluk.
-4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pluk**, og vælg derefter det relaterede link. Vælg det lagerpluk, du vil arbejde på.
+4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link. Vælg det lagerpluk, du vil arbejde på.
 
     Hvis lagerstedet kræver brug af placeringer, er pluklinjerne ændret til Hent og Placer-handlingslinjer.
 

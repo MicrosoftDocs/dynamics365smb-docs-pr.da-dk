@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 368fa149736392431a9756d416a1711d95130780
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
@@ -81,14 +81,14 @@ Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:
 -   Installer [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 -   Opret dig selv som en lagermedarbejder på lokationen HVID ved at følge disse trin:  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto i vinduet **Brugere**.  
 3.  Angiv HVID i feltet **Lokationskode**.  
 4.  Markér feltet **Standard**.  
 
 Forbered placeringen HVID til montagebehandling ved at følge disse trin:  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Åbn lokationskortet for lokationen HVID.  
 3.  I oversigtspanelet **Placering** skal du angive **W-10-0001** i feltet **Placeringskode til til-montage**.  
 
@@ -100,7 +100,7 @@ Forbered placeringen HVID til montagebehandling ved at følge disse trin:
 
 Fjern standardleveringstiden for interne processer ved at følge disse trin:  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Produktionsopsætning** og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionsopsætning**, og vælg derefter det relaterede link.  
 2.  I vinduet **Produktionsopsætning** i oversigtspanelet **Planlægning** skal du fjerne værdien i feltet **Standardsikkerhedstid**.  
 
 Opret lager for montagekomponenter ved at følge afsnittet "Forberede eksempeldata" i denne gennemgang.  
@@ -134,7 +134,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ## <a name="setting-up-the-sample-data"></a>Oprette eksempeldata  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerkladder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerkladder**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Kladdenavn**, og vælg derefter standardkladden.  
 3.  Opret positive lagerreguleringer på lokationen HVID på arbejdsdatoen, 23. januar, ved at indtaste følgende oplysninger.  
 
@@ -151,14 +151,14 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Synkroniser derefter de nye lagerposter med lageret.  
 
-5.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekladder**, og vælg derefter det relaterede link. Vinduet **Varekladde** åbnes.  
+5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link. Vinduet **Varekladde** åbnes.  
 6.  Under fanen **Handlinger** i gruppen **Funktioner** vælges **Beregn lagerregulering**.  
 7.  I vinduet **Beregn lagerregulering** skal du vælge knappen **OK**.  
 8.  I vinduet **Varekladde** under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Bogfør** og derefter vælge knappen **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Oprette montageelementer  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2.  Under fanen **Startside** i gruppen **Administrer** skal du vælge **Ny**.  
 3.  Opret det første montageelement baseret på følgende oplysninger.  
 
@@ -209,7 +209,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="selling-the-assembly-items"></a>Sælge montageelementerne  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Under fanen **Startside** i gruppen **Administrer** skal du vælge **Ny**.  
 3.  Opret to salgsordrelinjer for debitor 62000, Enhedsbutikken, på datoen for arbejde med følgende oplysninger.  
 
@@ -235,7 +235,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 7.  På montageordrelinjen for vare 80210 skal du vælge feltet **Nummer** og derefter vælge vare 80209 i stedet.  
 8.  Opret en ny montageordrelinje med følgende oplysninger.  
 
-    |Enhedstype|Nej.|Antal pr.|  
+    |Enhedstype|Nummer|Antal pr.|  
     |----------|---------|------------------|  
     |Vare|80203|1|  
 
@@ -262,7 +262,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planlægge for utilgængelige ATS-elementer  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Planlægningskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
 2.  Under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Beregn totalplan**.  
 3.  I vinduet **Beregn plan** skal du angive følgende filtre.  
 
@@ -280,7 +280,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montere og levere den første ATO-mængde  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerleverance**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverance**, og vælg derefter det relaterede link.  
 
     > [!NOTE]  
     >  I dette afsnit er den person, der er ansvarlig for leveringen, ansvarlig for registrering af det fuldførte ATO-montagearbejde på lagerleverancelinjen. Denne arbejdsproces, der kan opstå i miljøer, hvor montagearbejdet udføres af den person, der er ansvarlig for levering, eller af montagearbejdstagere i afsendelsesområdet.  
@@ -299,7 +299,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Dernæst skal du udføre vælgerens opgave.  
 
-4.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pluk**, og vælg derefter det relaterede link.  
+4.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link.  
 5.  Åbn det lagerplukdokument, du oprettede i trin 3 i dette afsnit.  
 
     Bemærk værdien i feltet **Kildedokument**, og at alle pluklinjerne er til montagekomponenter.  
@@ -340,7 +340,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Montere og registrere den anden ATO-mængde  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Montageordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Montageordrer**, og vælg derefter det relaterede link.  
 
     Bemærk, at ATO-ordren for leverede enheder af pakke B stadig er på listen, selvom **Restantal** er tom. Dette skyldes, at den tilknyttede salgsordre stadig ikke er fuldt faktureret.  
 
@@ -364,7 +364,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="assembling-the-ats-quantity"></a>Montere ATS-antallet  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Montageordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Montageordrer**, og vælg derefter det relaterede link.  
 2.  Åbn montageordren på ti enheder af pakke A.  
 
     Bemærk, at feltet **Antal til montage** udfyldes med forventet antal.  
@@ -376,7 +376,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Dernæst skal du udføre vælgerens opgave.  
 
-5.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pluk**, og vælg derefter det relaterede link.  
+5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link.  
 6.  Åbn det lagerplukdokument, du oprettede i trin 4 i dette afsnit.  
 
      Fortsæt med at registrere plukket uden at ændre standardoplysningerne.  
@@ -392,7 +392,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Levere de resterende elementer delvist fra lager og delvist monteret til ordren  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagerleverance**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverance**, og vælg derefter det relaterede link.  
 2.  Åbn seneste lagerleverance, der er oprettet til lokationen HVID.  
 
     Bemærk på linjen for ti enheder af pakke A, at feltet **Lever antal** og **Plukket antal** er tomt.  
@@ -403,7 +403,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Dernæst skal du udføre vælgerens sidste opgave for denne lagerleverance.  
 
-4.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pluk**, og vælg derefter det relaterede link.  
+4.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link.  
 5.  Åbn det lagerplukdokument, du oprettede i trin 3 i dette afsnit.  
 
     Bemærk, at dette plukdokument er for montageelement, ikke for montagekomponenter.  
@@ -423,7 +423,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Lagerleverancedokumentet fjernes, hvilket angiver, at de involverede lageraktiviteter er fuldført. Dernæst skal du bekræfte, at salgsordren er blevet behandlet.  
 
-10. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link  
+10. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link  
 11. Åbn salgsordren for Enhedsbutikken.  
 
     Bemærk, at feltet **Leveret (antal)** indeholder den fulde mængde på begge linjer.  

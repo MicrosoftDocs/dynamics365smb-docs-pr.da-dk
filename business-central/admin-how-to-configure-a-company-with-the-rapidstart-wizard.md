@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 264788142ab4f2a84df3e1c9da6e39503a7e820f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 27b50b9471c8dccb7da8750bbd57e34774ff6115
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Konfigurere en virksomhed med guiden RapidStart
@@ -41,7 +41,7 @@ I følgende procedure har du angivet debitoren med konfigurationspakken, der der
     >  Rediger kun dit rollecenter, når du har afsluttet konfigurationen af virksomheden. Hvis du vil overveje og ændre flere konfigurationsoplysninger, skal du først bruge konfigurationsregnearket til at fortsætte arbejdet. Derefter skal du vende tilbage til guiden for at opdatere dit rollecenter eller vælge handlingen **Fuldfør installation**.
 
 7. Vælg knappen **OK**.  
-8. Hvis du vil kontrollere, at konfigurationsoplysningerne er blevet anvendt på den nye virksomhed, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Virksomhedsoplysninger** og derefter vælge det relaterede link.
+8. Hvis du vil kontrollere, at konfigurationsoplysningerne er blevet anvendt på den nye virksomhed, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Virksomhedsoplysninger** og derefter vælge det relaterede link.
 
 Vinduet **Virksomhedsoplysninger** indeholder oplysninger, du har angivet.   
 

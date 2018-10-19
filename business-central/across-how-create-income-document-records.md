@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f80438923773822eba0abc7dfa7dae45b0e87637
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: de7ad97401529b4dd05bc40daf16df0fe7cd6fb1
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-incoming-document-records"></a>Oprette indgående dokumentposter
@@ -29,7 +29,7 @@ Før du kan bruge funktionen Indkommende dokumenter, skal du foretage den nødve
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Sådan godkendes eller afvises et indgående dokument
 Hvis du vil tillade brugere at oprette fakturaer eller finanskladdelinjer fra indgående dokumentposter, medmindre de er godkendt, kan du angive godkendere, der skal godkende posterne, før de kan behandles.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.
 2. Marker linjen i det dokument, du vil godkende eller afvise, og vælg derefter handlingen **Godkend** eller **Afvis**.
 
 Hvis du godkender den indgående dokumentpost, markeres afkrydsningsfeltet **Frigivet** på den indgående dokumentlinje. Brugeren, der har ansvaret for at godkende, f.eks, købsfakturaer, kan fortsætte med at behandle posten.
@@ -57,7 +57,7 @@ Hvis du godkender den indgående dokumentpost, markeres afkrydsningsfeltet **Fri
     Billedet vedhæftes til den indgående dokumentpost.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Sådan oprettes en indgående dokumentpost manuelt
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Opret fra fil**.  
 3. I vinduet **Indsæt fil** skal du vælge en fil og derefter klikke på **Åbn**. Filen vedhæftes automatisk.
 4. Du kan også vælge handlingen **Ny**.

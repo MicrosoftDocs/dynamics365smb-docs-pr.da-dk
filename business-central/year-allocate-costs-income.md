@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 31f8d40d5a8cf8d190f4a6cb655f09ca72f3e070
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2291f45cda61f72cbabc8a39b2463903c641ad97
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="allocate-costs-and-income"></a>Fordele omkostninger og indtægter
@@ -32,7 +32,7 @@ I følgende procedurer beskrives, hvordan du forbereder at allokere omkostninger
 
 ## <a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
 Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg feltet **Kladdenavn** for at åbne vinduet **Finanskladdenavne**.
 3. Du kan ændre fordelinger for et eksisterende navn på listen eller oprette et nyt navn med fordelinger.
    * Du kan oprette en ny kladde ved at vælge handlingen **Ny** og gå til næste trin.
@@ -47,7 +47,7 @@ Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti
 11. Bogfør journalen.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Sådan ændres en fordelingsnøgle, der allerede er oprettet
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg kladden med allokeringen i vinduet **Finansgentagelseskladde**.
 3. Vælg linjen med fordelingen og vælg derefter handlingen **Fordelinger**.
 4. Rediger de relevante felter, og vælg derefter knappen **OK**.

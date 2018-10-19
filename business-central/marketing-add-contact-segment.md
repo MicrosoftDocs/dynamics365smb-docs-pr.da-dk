@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0a7de9af414851d3bdcfe1a8be4d3de13929bca0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Tilføje kontakter til målgrupper
 Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne i vinduet **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Sådan tilføjes en kontakt til en målgruppe
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Målgrupper** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Målgrupper**, og vælg derefter det relaterede link.  
 2. Vælg målgruppen, og vælg derefter handlingen **Tilføj kontakter**. Kørselsvinduet **Tilføj kontakter** åbnes.
 3. I sektionen **Kontakt** skal du indstille filtre for at angive de oplysninger, du vil vælge kontakter efter.
 

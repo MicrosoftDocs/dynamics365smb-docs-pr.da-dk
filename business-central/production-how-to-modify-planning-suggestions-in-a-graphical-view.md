@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f005baaeed8a3469258db5f2cde594291b384ba2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ændre planlægningsforslag i en grafisk visning
@@ -37,7 +37,7 @@ Når du vælger **Gem ændringer** i vinduet **Varedisponering pr. tidslinje** k
 Følgende procedure viser, hvordan du ændrer forsyningsforslag ved at trække og slippe. Som et alternativ kan du ændre feltet **Forfaldsdato** og feltet **Antal** i oversigtspanelet **Begivenhedsændringer** og straks se ændringerne grafisk i oversigtspanelet **Tidslinje** i vinduet **Planlægningskladde**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Sådan ændres foreslåede forsyningsordrer i den grafiske visning  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varedisponering pr. tidslinje**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varedisponering pr. tidslinje**, og vælg derefter det relaterede link.  
 
     Vinduet **Varedisponering pr. tidslinje** åbnes med varenummer, lokation og variant af varen på den valgte planlægningslinje, udfyldt på forhånd i oversigtspanelet **Indstillinger**. Oversigtspanelet **Tidslinje** viser en grafisk repræsentation af varens planlagte beholdning, herunder planlægningsforslag.  
 
@@ -87,7 +87,7 @@ Foruden de tastaturhandlinger, der blev nævnt tidligere, kan du også bruge fø
  |Ctrl + rul musens hjul|Ændrer skaleringen af x-aksen.|  
  |Vælg et element, og tryk derefter på Skift + pil|Flytter elementet i retning af pilestrøget.|  
  |Tab|Flytter til det næste element.|  
- |Shift+Tab|Flytter til det forrige element.|  
+ |Skift+Tab|Flytter til det forrige element.|  
  |Tryk på Esc, mens du flytter et element.|Annullerer flytningen. **Bemærk:** Fungerer ikke, hvis du har sluppet museknappen.|
 
 ## <a name="see-also"></a>Se også  

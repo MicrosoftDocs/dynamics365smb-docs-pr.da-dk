@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e271b160d8a4969be296861f6746163fcfea6ba
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2b0c576386a88db335a932da9c0bc1141289c57d
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger
@@ -49,7 +49,7 @@ En lagermedarbejder kan også oprette den ved at pege på den pågældende frigi
 Denne fremgangsmåde viser, hvordan du opretter en flytning (lager) fra vinduet **Flytning (lager)** ved at referere til en frigivet montageordre som et kildedokument. Fremgangsmåden er den samme, når du flytter komponenter til produktionsordrer og serviceordrer.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Sådan flyttes komponenter til et handlingsområde i grundlæggende lageropsætninger  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Flytning (lager)**, og vælg det relevante link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Flytning (lager)**, og vælg det relevante link.  
 2.  Udfyld feltet **Nummer** i oversigtspanelet **Generelt**. . Du kan trykke på Enter-tasten for at vælge fra nummerserien.  
 3.  I feltet **Lokationskode** skal du indtaste den lokation, hvor flytningen finder sted.  
 4.  Vælg handlingen **Hent kildedokumenter**. Du kan også udfylde feltet **Kildedokumentet** og derefter vælge knappen **AssistEdit** i feltet **Kildenr.**.  

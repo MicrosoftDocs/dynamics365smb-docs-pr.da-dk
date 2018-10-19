@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d9e299ff00dae0d07a1f1b924bdef798655357d0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlægge læg-på-lager-aktiviteter i kladder
@@ -33,7 +33,7 @@ Hvis du ikke markerer feltet, oprettes der automatisk læg-på-lager-instruktion
 > 2.  Fortsæt processen på så mange læg-på-lager-aktiviteter som ønsket, indtil du har slettet alle de linjer, som du vil arbejde med i kladden. Vælg derefter **Læg-på-lager-kladder**, og fortsæt med planlægningen der.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Sådan planlægges instruktioner i læg-på-lager-kladden  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager-kladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-kladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Hent lagerdokumenter**. Vinduet **Læg-på-lager-valg** åbnes.  
 
     Du kan se alle de bogførte modtagelser og registrerede interne læg-på-lager-aktiviteter, der er blevet overført til læg-på-lager-funktionen, herunder dem som der allerede er oprettet læg-på-lager-instruktioner til. Dokumenter med læg-på-lager-linjer, der fuldt ud er blevet lagt på plads og er blevet registreret, vises ikke i oversigten.  

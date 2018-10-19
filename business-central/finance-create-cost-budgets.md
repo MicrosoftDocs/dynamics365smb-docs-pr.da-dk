@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ab66e5b2404f512816d1a4fcb3b110a95265e1f7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a107203cf81b149b920944db1fabace6e434221a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Oprette omkostningsbudgetter
@@ -24,15 +24,15 @@ Budgettering i omkostningsregnskab minder om budgettering i regnskabet. Et omkos
 
 Et omkostningsbudget oprettes for en bestemt periode, f.eks. et regnskabsår. Du kan oprette lige så mange omkostningsbudgetter, der er behov for. Du kan oprette et nyt omkostningsbudget manuelt eller ved at importere et omkostningsbudget eller ved at kopiere et eksisterende omkostningsbudget som basis for budgettet. Du kan finde flere oplysninger i [Oprette finansbudgetter](finance-how-create-budgets.md).
 
-Brug følgende vinduer til at oprette og analysere omkostningsbudgetter. Vælg ikonet ![Søg efter side eller en rapport](media/ui-search/search_small.png "ikonet Søg efter side eller en rapport") for at finde et vindue, og læs værktøjstippet for hver.
+Brug følgende vinduer til at oprette og analysere omkostningsbudgetter. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") for at finde et vindue og læs derefter værktøjstippet for hvert.
 
-|Hvis du vil|Se|  
+|Hvis du vil|Skal du se|  
 |--------|---------|  
 |Overføre budgetter fra regnskabet.|Kørslen **Kopier finansbudget til omk.regnskab**|  
 |Kopiere omkostningsbudgetter.|Kørslen **Kopier omkostningsbudget**|  
-|Fordele budgetter.|Siden **Omkostningsfordeling**|  
-|Se omkostningsbudgetregistre og omkostningsbudgetposter.|Siden **Omkostningsbudgetregistre**|  
-|Udskrive omkostningsbudgetsammenligninger med forskellige rapporter.|Rapporten **Omk.regnskabssaldo/budget**<br /><br /> Rapporten **Omk.regnskabskontoudtog/budget**<br /><br /> Rapporten **Omkostningsbudget efter omkostningssted**<br /><br /> Rapporten **Omkostningsbudget efter omkostningsemne**|  
+|Fordel budgetter.|Vinduet **Omkostningsfordeling**|  
+|Se omkostningsbudgetregistre og omkostningsbudgetposter.|Vinduet **Omkostningsbudgetregistre**|  
+|Udskriv omkostningsbudgetsammenligninger med forskellige rapporter.|Rapporten **Omk.regnskabssaldo/budget**<br /><br /> Rapporten **Omk.regnskabskontoudtog/budget**<br /><br /> Rapporten **Omkostningsbudget efter omkostningssted**<br /><br /> Rapporten **Omkostningsbudget efter omkostningsemne**|  
 
 ## <a name="see-also"></a>Se også  
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)  

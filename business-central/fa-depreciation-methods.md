@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="depreciation-methods"></a>Afskrivningsmetoder
@@ -231,7 +231,7 @@ Denne brugerdefinerede metode kan også bruges til afskrivning baseret på antal
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Sådan konfigureres brugerdefinerede afskrivningsmetoder
 I vinduet **Afskrivningstabel** kan du oprette brugerdefinerede afskrivningsmetoder. For eksempel kan du konfigurere afskrivning baseret på antal enheder.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afskrivningstabeller**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningstabeller**, og vælg derefter det relaterede link.  
 2. I vinduet **Afskrivningstabeloversigt** skal du vælge handlingen **Ny**.  
 3. I vinduet **Afskrivningstabelkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f6e3a1ccda36947c80fead68f9e97ee8ff1286bf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Bruge rollecenteret RapidStart Services-implementering
@@ -27,7 +27,7 @@ Når du fortsætter med dit arbejde, kan du tildele hver tabel den status, som a
 Når du føjer en tabel til konfigurationsregnearket, angives dens status til tom. Det betyder, at konfigurationen af tabellen ikke er startet. Dette afspejles i tælleren **Ikke startet** i feltet **Aktiviteter**.  
 
 ## <a name="to-update-the-status-of-a-configuration-table"></a>Opdatere status for en konfigurationstabel  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsregneark**, og vælg det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Rediger liste**.  
 3.  Vælg en tabel, og vælg den relevante status i feltet **Status**.  
 4.  Vælg knappen **OK**.  

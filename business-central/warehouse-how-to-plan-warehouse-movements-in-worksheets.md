@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0f518b96cb21a9637ae9b6e64e4c9e22a5fc6512
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d66ad263235d7f123f731263b0f13a009a1e20fd
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planlægge lagerbevægelser i kladder
@@ -25,7 +25,7 @@ Planlæg bevægelser i en kladde vha. funktionen Placeringsgenopfyldning eller m
 ## <a name="to-calculate-a-replenishment-movement"></a>Sådan beregnes placeringsgenopfyldning  
 Efterhånden som lagerstedet afsender varer, bliver der færre og færre varer på placeringerne med de højeste placeringsniveauer. For at genopfylde disse placeringer med varer fra andre placeringer bruger du funktionen **Beregn genopfyldning** i vinduet **Bevægelseskladde**.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn genopfyldning**.  
 
     [!INCLUDE[d365fin](includes/d365fin_md.md)] opretter automatisk linjer, der præcist angiver, hvordan du skal flytte varer fra placeringer med lavt placeringsniveau til placeringer med højt placeringsniveau.  
@@ -46,7 +46,7 @@ Efterhånden som lagerstedet afsender varer, bliver der færre og færre varer p
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Sådan kan du flytte hele indholdet af en eller flere placeringer ved hjælp af funktionen Hent placeringsindh.  
 Du kan også bruge bevægelseskladden til at planlægge andre former for varebevægelser på lagerstedet. Hvis der f.eks. skal flyttes varer til en placering til kvalitetskontrol, kan du bruge bevægelseskladden til at planlægge handlingen og derefter oprette en bevægelse for at udarbejde instruktioner til en medarbejder.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Hent placeringsindhold**. Brug vinduet til at filtrere for de placeringer og varer, der skal vises på bevægelseskladdelinjerne.  
 3.  Udfyld de relevante felter i kørselsvinduet. Hvis du f.eks. vil se placeringsindholdet af alle placeringer i en bestemt zone på en lokation, skal du udfylde feltet **Zonekode**. Hvis du vil hente linjerne for hver placering, der indeholder en bestemt vare, skal du udfylde feltet **Varenr.**.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2e915eb443a7f726cb002ddf6a1d32f9302d9c08
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-cost-types"></a>Oprette omkostningstyper
@@ -26,7 +26,7 @@ Diagrammet over omkostningstyper ligner kontoplanen i finansregnskabet. Du kan a
 -   Opret et nyt diagram over omkostningstyper, eller tilføj nye omkostningstyper til det eksisterende diagram over omkostningstyper. Du skal oprette hver ny omkostningstype individuelt.  
 
 ## <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Sådan overføres finanskontoplanen til diagrammet over omkostningstyper  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Diagram over omkostningstyper**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningstyper**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Hent omkostningstyper fra kontoplan**. I dialogboksen skal du trykke på knappen **Ja** for at bekræfte overførslen. Funktionen bruger kontoplanen til at oprette et diagram over omkostningstyper  
 
     Diagrammet over omkostningstyper indeholder nu alle resultatopgørelseskonti i regnskabet og omfatter overskrifter og subtotaler. Du kan ændre diagrammet over omkostningstyper, hvis det er nødvendigt. For eksempel kan du slette dobbelte omkostningstyper.  

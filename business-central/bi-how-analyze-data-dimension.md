@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 94d783a806b56e972f16ebe1e0d383582cd72126
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5176b7c04c09b9357041ec4fed5ed37c385d13ce
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysere data efter dimensioner
@@ -30,7 +30,7 @@ Når du analyserer data efter dimensioner, får du større indsigt i din forretn
 ## <a name="to-set-up-an-analysis-view"></a>Sådan defineres en analyse  
 En dimensionsanalyse viser en valgt kombination af dimensioner. Du kan gemme og få vist de analyser, du har oprettet. Opsætningsoplysningerne til en analyse gemmes på et **Analysevisning**-kort, så det fremtidige analysearbejde bliver så nemt som muligt.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Analysevisninger**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Analysevisninger**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** i vinduet **Analysevisningsoversigt**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Du kan tilføje andre dimensionskoder til de fire i oversigtspanelet **Dimensioner** ved at vælger handlingen **Filter**, udfylde felterne og derefter vælge knappen **OK**.  
@@ -42,7 +42,7 @@ I matrixen **Dimensionsanalyse** kan du få vist beløbene i finansposter vha. d
 - Kolonnen længst til venstre indeholder oplysninger, der er baseret på, hvad du har valgt i feltet **Vis som linjer** i hovedet.  
 - Kolonnen længst til højre indeholder oplysninger, der er baseret på, hvad du har valgt i feltet **Vis som kolonner** i hovedet.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Dimensionsanalyse**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensionsanalyse**, og vælg derefter det relaterede link.  
 2. Vælg den relevante analysevisning, og vælg derefter handlingen **Rediger analysevisning**.
 3. Øverst i vinduet **Dimensionsanalyse - Salg** skal du udfylde felterne for at definere, hvad der vises.
 4. 5. Hvis du vil se en specifikation af et beløb i matrixvinduet, skal du vælge beløbet.  
@@ -61,7 +61,7 @@ Beløbet, der vises i vinduet **Dimensionsanalyse** viser et billede af virksomh
 
 Du kan opdatere en analyse vha. følgende fremgangsmåde, som startes i vinduet **Dimensionsanalyse** . Trinene er de samme fra vinduerne **Analysevisningskort** og **Analysevisningsoversigt**.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Dimensionsanalyse**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensionsanalyse**, og vælg derefter det relaterede link.  
 2. I vinduet **Dimensionsanalyse** skal du markere feltet **Analysekode**.  
 3. Vælg linjen med den relevante analysevisning.  
 4. Vælg handlingen **Opdater**.  

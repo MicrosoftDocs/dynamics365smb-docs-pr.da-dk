@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dbf3a53272a6da5c7e2adbb43557159b6f266f52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger
@@ -53,16 +53,16 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 For at gennemføre denne gennemgang skal:  
 
 -   CRONUS Danmark A/S være installeret.  
--   Du kan oprette dig selv som en lagermedarbejder på lokationen SØLV ved at følge disse trin:  
+-   Du kan oprette dig selv som lagermedarbejder på lokationen SØLV ved at følge disse trin:  
 
-    1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
+    1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
     2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto i vinduet **Brugere**.  
     3.  Angiv SØLV i feltet **Lokationskode**.  
     4.  Markér feltet **Standard**.  
 
 -   Gør varen LS-81 tilgængelig på SØLV-lokationen ved at følge disse trin:  
 
-    1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekladder**, og vælg derefter det relaterede link.  
+    1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.  
     2.  Åbn standardkladden, og opret derefter to varekladdelinjer med de følgende oplysninger om arbejdsdatoen (23. januar).  
 
         |Postens type|Varenummer|Lokationskode|Placeringskode|Antal|  
@@ -79,7 +79,7 @@ Ellen, lagerlederen hos CRONUS, konfigurerer lagerstedet SØLV til grundlæggend
 Opsætningen af vinduet **Lokationskort** definerer arbejdsgangene i virksomheden.  
 
 ### <a name="to-set-up-the-location"></a>Sådan oprettes lokationen  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Åbn lokationskortet SØLV.  
 3.  Markér afkrydsningsfeltet **Kræv pluk**.  
 
@@ -87,7 +87,7 @@ Opsætningen af vinduet **Lokationskort** definerer arbejdsgangene i virksomhede
 Salgsordrer er den mest almindelige type udgående kildedokument.  
 
 ### <a name="to-create-the-sales-order"></a>Sådan oprettes salgsordren  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Opret en salgsordre for debitor 10000 på arbejdsdatoen (23. januar) med følgende salgsordrelinje.  
 
@@ -105,7 +105,7 @@ Salgsordrer er den mest almindelige type udgående kildedokument.
 I vinduet **Pluk (lager)** kan du administrere alle udgående lageraktiviteter til et specifikt kildedokument såsom en salgsordre.  
 
 ### <a name="to-pick-and-ship-items"></a>Sådan foretages pluk og levering af varer  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pluk (lager)**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk (lager)**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Vælg feltet **Kildedokument**, og vælg derefter **Salgsordre**.  
 4.  Vælg feltet **Kildenr.**, vælg linjen for salget til debitor 10000, og vælg knappen **OK**.  

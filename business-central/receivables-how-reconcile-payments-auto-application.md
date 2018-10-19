@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 05/17/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 4a22150d1fd0afa296cd10cf3d9e4315107f20b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8ef6ef563fd34471c4e82398ffa8c1d4e49c5a59
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Afstemme betalinger ved hjælp af automatisk udligning
@@ -43,7 +43,7 @@ For hver kladdelinje i vinduet **Betalingsudligningskladde** kan du åbne vindue
 > Du kan starte importen af banktransaktioner på samme tid, som du åbner vinduet **Betalingsudligningskladde** for en eksisterende betalingsafstemningskladde i vinduet **Betalingsafstemningskladder**. Følgende procedure beskriver, hvordan du importerer banktransaktioner i vinduet **Betalingsudligningskladde**, når du har oprettet en ny kladde.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Sådan afstemmer du betalinger ved hjælp af automatisk udligning
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsudbetalingskladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingsudligningskladder**, og vælg derefter det relaterede link.
 2. Hvis du vil arbejde i en ny betalingsafstemningskladde, skal du vælge handlingen **Ny kladde**.
 3. Brug vinduet **Betalingsbankkontooversigt** til at vælge den bankkonto, som du vil afstemme betalinger for, og vælg derefter knappen **OK**.
    Vinduet **Betalingsudligningskladde** åbnes forberedt til den valgte bankkonto.

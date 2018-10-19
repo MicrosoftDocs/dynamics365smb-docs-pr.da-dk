@@ -1,6 +1,6 @@
 ---
-title: "Sådan oprettes et produktionsforecast | Microsoft Docs"
-description: Du kan oprette salgs- og produktionsforecasts vha. vinduet **Produktionsforecast**.
+title: "Sådan oprettes en behovsprognose | Microsoft Docs"
+description: Du kan oprette salgs- og produktionsforecasts vha. vinduet **Behovsprognose**.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce71f1a0bd744cfdf62bb71f59829ec09155af32
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="create-a-production-forecast"></a>Oprette et produktionsforecast
-Du kan oprette salgs- og produktionsforecasts vha. vinduet **Produktionsforecast**.  
+# <a name="create-a-demand-forecast"></a>Oprette en behovsprognose
+Du kan oprette salgs- og produktionsforecasts vha. vinduet **Behovsprognose**.  
 
 Prognosefunktionaliteten anvendes til oprettelse af forventet behov; faktisk behov oprettes fra salgs- og produktionsordrer. I forbindelse med oprettelsen af hovedplanen modregnes et forecast i salgs- og produktionsordrerne. Indstillingen *Komponent* i forecastet afgør, hvilken behovstype der skal tages højde for i forbindelse med modregningen. Hvis forecastet omhandler en salgsvare, er det kun salgsordrer, der sammenholdes med forecastantallet. Hvis det er for komponenter, sammenfattes forecastet kun fra afhængigt behov fra produktionsordrekomponenter.  
 
@@ -34,7 +34,7 @@ Du kan oprette kombinerede eller uafhængige salgs- eller produktionsforecasts m
 
 I de fleste tilfælde vil den person, der har ansvaret for produktionsplanlægningen, derfor redigere et salgsforecast, så det passer til de betingelser, der gælder for produktionen, men uden at det betyder, at salgsforecastet ikke længere er nøjagtigt.  
 
-Du kan oprette forecasts manuelt i vinduet **Produktionsforecast**. Der kan være flere forecasts i systemet, som identificeres vha. deres navn og type. Et forecast kan kopieres og redigeres efter behov. Bemærk, at der på et givet tidspunkt kun er ét forecast, der kan bruges til planlægningsformål.  
+Du kan oprette forecasts manuelt i vinduet **Behovsprognose**. Der kan være flere forecasts i systemet, som identificeres vha. deres navn og type. Et forecast kan kopieres og redigeres efter behov. Bemærk, at der på et givet tidspunkt kun er ét forecast, der kan bruges til planlægningsformål.  
 
 Et forecast består af en række oplysninger som varenummer, forecastdato og forecastantal. Et forecast for en vare dækker en periode, der afgrænses af den angivne forecastdato og forecastdatoen for den næste (eller forrige) forecastpost. Set fra et planlægningssynspunkt bør forecastantallet være til rådighed fra starten på behovsperioden.  
 
@@ -49,16 +49,16 @@ Eftersom formålet med et komponentforecast er at angive flere muligheder for en
  Forecastperioden træder i kraft på den angivne startdato og er gældende, indtil det næste forecast træder i kraft. I tidsintervalvinduet har du flere muligheder for at indsætte behovet på en bestemt dato i en periode. Derfor anbefales det, at du undlader at ændre forecastperioden, medmindre du vil flytte alle forecastoplysninger til periodens startdato.  
 
 ## <a name="forecast-by-locations"></a>Forecast opdelt efter lokationer  
-Det kan angives under produktionsopsætningen, hvis. Hvis du får vist lokationsbaserede forecasts enkeltvis, skal du være opmærksom på, at det ikke er sikkert, at den overordnede forecast i så fald giver et korrekt billede.
+Det kan angives i produktionsopsætningen, hvis du vil filtrere prognoser efter lokationer, når du beregner en plan. Hvis du får vist lokationsbaserede forecasts enkeltvis, skal du være opmærksom på, at det ikke er sikkert, at den overordnede forecast i så fald giver et korrekt billede.
 
-## <a name="to-create-a-production-forecast"></a>Sådan oprette et produktionsforecast
+## <a name="to-create-a-demand-forecast"></a>Sådan oprettes en behovsprognose
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Produktionsforecast**, og vælg derefter det relaterede link.  
-2.  På oversigtspanelet **Generelt**, vælges et forecast i feltet **Produktionsforecastnavn**. Hvis der er flere forecasts i systemet, kan du skelne imellem dem vha. navnet og forecasttypen.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Behovsprognose**, og vælg derefter det relaterede link.  
+2.  Vælg på oversigtspanelet **Generelt** en prognose i feltet **Navn på behovsprognose**. Hvis der er flere forecasts i systemet, kan du skelne imellem dem vha. navnet og forecasttypen.  
 3.  Vælg i feltet **Lokationsfilter** den lokation, som dette forecast skal gælde for.  
-4.  I feltet **Forecasttype** skal du vælge **Salgsvare**, **Komponent** eller **Begge**. Hvis du vælger **Salgsvare** eller **Komponent**, kan du redigere antallet efter periode. Hvis du vælger **Begge**, kan du ikke redigere antallet, men du kan vælge pilen til rullelisten og få vist produktionsforecastposter.  
+4.  I feltet **Forecasttype** skal du vælge **Salgsvare**, **Komponent** eller **Begge**. Hvis du vælger **Salgsvare** eller **Komponent**, kan du redigere antallet efter periode. Hvis du vælger **Begge**, kan du ikke redigere antallet, men du kan vælge pilen til rullelisten og få vist behovsprognoseposter.  
 5.  Angiv et **Datofilter**, hvis du vil begrænse den mængde data, der skal vises.  
-6.  I oversigtspanelet **Matrix for produktionsforecast** skal du angive det prognosticerede antal for forecasts for **salgsvarer** eller **Komponenter** for de forskellige perioder.  
+6.  I oversigtspanelet **Matrix for efterspørgselsprognose** skal du angive det prognosticerede antal for forecasts for **Salgsvarer** eller **Komponenter** for de forskellige perioder.  
 7.  På oversigtspanelet **Matrixindstillinger** kan du angive tidsintervallet i feltet **Vis efter** for at ændre den periode, der er vist i den enkelte kolonne. Du kan vælge mellem følgende intervaller: **Dag**, **Uge**, **Måned**, **Kvartal**, **År** eller **Regnskabsperiode**, som opsætning i finansstyringen.  
 
     > [!NOTE]  
@@ -67,7 +67,7 @@ Det kan angives under produktionsopsætningen, hvis. Hvis du får vist lokations
 8.  Vælg i feltet **Vis som**, hvordan forecastantal vises for tidsintervallet. Hvis du vælger **Bevægelse**, vises bevægelsen i saldoen for tidsintervallet. Hvis du vælger **Saldo til dato**, viser vinduet saldoen pr. den sidste dag i tidsintervallet.  
 
 > [!NOTE]  
->  Du kan også redigere et eksisterende forecast. Klik i vinduet **Matrix for produktionsforecast**, vælg handlingen **Kopier produktionsforecast**, og udfyld vinduet **Produktionsforecast** med et eksisterende forecast. Antal kan redigeres efter behov.  
+>  Du kan også redigere et eksisterende forecast. Klik i vinduet **Matrix for efterspørgselsprognose**, vælg handlingen **Kopiér behovsprognose**, og udfyld vinduet **Behovsprognose** med en eksisterende pronose. Antal kan redigeres efter behov.  
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere produktion](production-configure-production-processes.md)  

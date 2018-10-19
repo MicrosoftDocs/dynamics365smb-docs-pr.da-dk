@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ca194b2aeaf906c498ac541448ffac0f691fdd1b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Oprette grundlæggende lagersteder med handlingsområder
@@ -43,13 +43,13 @@ Følgende procedurer er baseret på oprettelse af grundlæggende lageraktivitete
 >  I følgende procedure er feltet **Tvungen placering** på lokationskort markeret som en forudsætning, fordi dette betragtes som grundlaget for ethvert logistikniveau.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Aktivere lagerdokumenter til interne operationsaktiviteter  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn det lokationskort, du vil konfigurere.  
 3.  Markér afkrydsningsfeltet **Kræv læg-på-lager** i oversigtspanelet **Lagersted** for at angive, at når der frigives et indgående eller internt kildedokument med en placeringskode, så kan der oprettes et læg-på-lager-dokument eller et flytning (lager)-dokument.  
 4.  Markér afkrydsningsfeltet **Kræv pluk** for at angive, at når der oprettes et udgående eller internt kildedokument med en placeringskode, så skal der oprettes et lagerplukdokument eller et flytning (lager)-dokument.  
 
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Definere en standardplaceringsstruktur i produktionsområdet  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn det lokationskort, du vil konfigurere.  
 3.  Indtast i feltet **Åben prod.placeringskode** i oversigtspanelet **Placeringer** koden for placeringen i produktionsområdet med masser af komponenter, som maskinoperatøren kan forbruge fra uden at anmode om en lageraktivitet for at bringe dem til placeringen. Varer, der er placeret på denne placering, er normalt angivet til automatisk bogføring eller træk. Dette betyder, at feltet **Trækmetode** indeholder **Forlæns** eller **Baglæns**.  
 4. I feltet **Til-produktionsplaceringskode** skal du indtaste koden for den placering i produktionsområdet, hvor de komponenter, der kan plukkes til produktion på lokationen placeres som standard, før de kan forbruges. Varer, der er placeret på denne placering, er normalt angivet til manuel forbrugsbogføring. Dette betyder, at feltet **Trækmetode** indeholder **Manuelt** eller **Pluk + Forlæns** eller **Pluk + Baglæns** for lagerpluk og flytninger (lager).  
@@ -73,13 +73,13 @@ Når du plukker og leverer salgslinjemængder, der er monteret til ordren, skal 
 Du kan finde flere oplysninger i [Montagestyring](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Sådan angiver du, at en flytning (lager) automatisk skal oprettes, når lagerpluk for montageelementet oprettes
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Montagekonfiguration**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Montagekonfiguration**, og vælg derefter det relaterede link.
 2. Markér afkrydsningsfeltet **Opret bevægelser automatisk**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Sådan angiver du placeringen i montageområdet, hvor komponenter placeres som standard, før de kan forbruges i montagen
 Værdien i dette felt indsættes automatisk i feltet **Placeringskode** på montageordrelinjer, når denne lokation indsættes i feltet **Lokationskode** på montageordrelinjen.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn det lokationskort, du vil konfigurere.
 3. Udfyld feltet **Placeringskode til til-montage**.
 
@@ -91,7 +91,7 @@ De placeringskoder, der er angivet på lokationskort, definerer en standardlager
 > [!NOTE]
 > Denne opsætning er kun mulig for lokationer, hvor feltet Tvungen placering er valgt.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn det lokationskort, du vil konfigurere.
 3. Udfyld feltet **Placeringskode til fra-montage**.
 
@@ -112,7 +112,7 @@ Hvis **Pla.kode til ordremontagelev.** er tomt, bruges feltet **Placeringskode t
 
 Den samme placeringskode kopieres igen fra feltet **Placeringskode** på lagerpluklinjen, der administrerer leverancen af montage efter ordre-antallet. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)" i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn det lokationskort, du vil konfigurere.
 3. Udfyld feltet **Pla.kode til ordremontagelev.**.
 
@@ -128,7 +128,7 @@ Hvis du gør en placering dedikeret, giver den samme funktion som brug af placer
 > [!Caution]
 > Varer på dedikerede placeringer er ikke beskyttet, når de plukkes og forbruges som produktionskomponenter i vinduet Pluk.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link. Markér den placering, du vil opdatere.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link. Markér den placering, du vil opdatere.  
 2.  Vælg handlingen **Placeringer**.  
 3.  Markér feltet **Dedikeret** for hver placering, du vil bruge udelukkende til bestemte interne operationer, og som du ønsker at reservere mængder for til den pågældende interne operation, når de er placeret der.  
 

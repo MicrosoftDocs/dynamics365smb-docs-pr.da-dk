@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 07/18/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: d7da3f54cfa3e5b7f3d012248ccfe1166604f2e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24a32d3f1d0883f00dfaaef7924d821a039ca307
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-salespeople"></a>Konfigurere sælgere
@@ -23,7 +23,7 @@ I mange virksomheder er der behov for at kunne følge de enkelte medarbejderes (
 Når du har oprettet en sælger i vinduet **Sælgere**, kan du vælge sælgeren i feltet **Sælgerkode** i alle relevante poster, f.eks. finanskonto, debitor, kreditor, kontakter og kampagnekort. Når du bogfører eller opretter fakturaer, kreditnotaer, kladdelinjer, rentenotaer osv., overføres sælgerkoden til de resulterende finansposter.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Sådan defineres en sælgerkoder
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sælgere**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere**, og vælg derefter det relaterede link.
 2. I vinduet **Sælgere** skal du vælge handlingen **Ny**.
 
 Du kan bruge sælgere i forskelligt relationsstyrings- og marketingarbejde. F.eks. kan du tildele opgaver til sælgere, så opgaverne indgår i de salgsmuligheder, der er knyttet til sælgeren. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).

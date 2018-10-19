@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 90fa2b52444d057149b39da87f5dfab6d91e8681
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Opdatere rapport- eller dokumentlayout
@@ -30,7 +30,7 @@ Ikke alle ændringer af rapportdatasæt kan opdateres automatisk i rapportlayout
   
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Sådan opdaterer du ét eller flere brugerdefinerede rapportlayout  
   
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rapportlayout**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportlayout**, og vælg derefter det relaterede link.  
   
 2.  Hvis du vil opdatere en bestemt rapport, skal du i vinduet **Rapportlayout** vælge layoutet på listen og derefter vælge handlingen **Opdater layout**. Eller hvis du vil opdatere alle brugerdefinerede rapportlayout for virksomheden, skal du vælge handlingen **Opdater alle layout**.  
 
@@ -38,7 +38,7 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
 ## <a name="to-test-custom-report-layout-updates"></a>Sådan kontrollerer du opdateringer til brugerdefinerede rapportlayout  
   
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
   
 2.  I vinduet **Valg af rapportlayout** skal du vælge handlingen **Opdateringer af testlayout**.  
   

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9424a8ba632cf43628ad37dce963e3f1641e593d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
@@ -30,7 +30,7 @@ Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide mid
 Dette emne beskriver, hvor data i diagrammerne kommer fra, og om nødvendigt, hvad du skal gøre for at begynde at bruge diagrammerne.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Diagrammerne Kassebeholdningsproces og Indtægter og udgifter
-Diagrammere **Kassebeholdningsproces** og **Indtægter og udgifter** er klar til brug, baseret på kontoplanen og kontoskemaer. Kontiene er, hvor dataene kommer fra, og kontoskemaer beregner forholdet mellem salg og tilgodehavender. Der findes allerede nogle konti og kontoskemaer. Du kan bruge dem, som der er, ændre dem og tilføje nye. Hvis du tilføjer finanskonti i kontoplanen, f.eks. ved at importere dem fra QuickBooks, skal du oprette en tilknytning til kontiene på siden **Kontoskemaer** for følgende kontoskemanavne:  
+Diagrammere **Kassebeholdningsproces** og **Indtægter og udgifter** er klar til brug, baseret på kontoplanen og kontoskemaer. Kontiene er, hvor dataene kommer fra, og kontoskemaer beregner forholdet mellem salg og tilgodehavender. Der findes allerede nogle konti og kontoskemaer. Du kan bruge dem, som der er, ændre dem og tilføje nye. Hvis du tilføjer finanskonti i kontoplanen, f.eks. ved at importere dem fra QuickBooks, skal du oprette en tilknytning til kontiene i vinduet **Kontoskemaer** for følgende kontoskemanavne:  
 
 | Kontoskemanavn | Bruges i |
 | --- | --- |
@@ -67,14 +67,14 @@ Sådan bruges den assisterede opsætningsvejledning:
 
 1. I rollecenteret Regnskabsmedarbejder under diagrammet **Pengestrømsprognose** skal du klikke på handlingen **Åbn assisteret opsætning**.  
 2. Udfyld felterne i hvert trin i vejledningen.  
-3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
+3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
 4. I vinduet **Pengestrømsprognose** skal du vælge handlingen **Genberegn prognose**.  
 
 Sådan bruges en manuel proces:  
 
 1. I rollecenteret Regnskabsmedarbejder skal du søge efter **Pengestrømskonfiguration** og derefter vælge det relaterede link.  
 2. Udvid oversigtspanelet **Cortana Intelligence**, og marker derefter afkrydsningsfeltet **Cortana Intelligence aktiveret**.  
-3. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
+3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
 4. I vinduet **Pengestrømsprognose** skal du vælge handlingen **Genberegn prognose**.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 3. Brug din Microsoft-konto til at tilmelde dig et arbejdsområde og derefter kopiere modellen.  
 4. Kør modellen, og udgiv den som en webtjeneste.  
 5. Notér URL-adressen for API og API-nøglen. Du skal bruge disse legitimationsoplysninger til en pengestrømsopsætning.  
-6. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Pengestrømskonfiguration**, og vælg derefter det relaterede link.  
+6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pengestrømskonfiguration**, og vælg derefter det relaterede link.  
 7. Udvid oversigtspanelet **Cortana Intelligence**, og udfyld derefter felterne.  
 
 ## <a name="see-also"></a>Se også

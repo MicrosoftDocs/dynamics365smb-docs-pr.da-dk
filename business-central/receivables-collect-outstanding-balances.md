@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 07/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
@@ -49,7 +49,7 @@ Når du har oprettet rentenotaer og foretaget eventuelle nødvendige ændringer,
 Når du konfigurerer rentebetingelser og rykkerbetingelser for forsinket betaling, kan du angive flere rentesatser, så strafgebyret beregnes ud fra forskellige rentesatser i forskellige perioder. Hvis flere rentesatser ikke er konfigureret, så bruges den rente og periode, der er defineret i vinduerne **Rentebetingelser** og **Rykkerbetingelser**, for hele beregningsperioden. Du kan finde flere oplysninger i [Angiv flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Sådan sendes rapporten Kontoudtog
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoudtog**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoudtog**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Under **Rapportindstillinger** skal du vælge, hvordan rapporten skal sendes til kunden.
 
@@ -59,7 +59,7 @@ Når du konfigurerer rentebetingelser og rykkerbetingelser for forsinket betalin
 ## <a name="to-set-up-reminder-terms"></a>Sådan defineres rykkerbetingelser
 Hvis debitorer har forfaldne beløb, skal du afgøre, om der skal sendes en rykker. Desuden vil du evt. debitere deres konti for rente eller gebyrer. Du kan angive et hvilket som helst antal betingelser for rykkere. For hver rykkerbetingelseskode kan du definere et ubegrænset antal rykkerniveauer.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rykkerbetingelser**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkerbetingelser**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.  
 3. Hvis du vil bruge mere end én kombination af rykkerbetingelser, kan du angive en kode for hver enkelt.
 
@@ -68,7 +68,7 @@ Første gang en rykker oprettes til en debitor, bruges indstillingen fra niveau 
 
 Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betingelserne for det højeste niveau. Du kan oprette så mange rykkere, som tillades ifølge feltet **Maks. antal rykkere** under rykkerbetingelserne.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rykkerbetingelser**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkerbetingelser**, og vælg derefter det relaterede link.  
 2. Vælg den linje med de betingelser, du vil oprette niveauer for, i vinduet **Rykkerbetingelser**, og vælg derefter handlingen **Niveauer**.  
 3. Udfyld felterne efter behov.  
 
@@ -109,7 +109,7 @@ Angiv en af koderne på hvert enkelt kundekort, når du har oprettet rykkerbetin
 ## <a name="to-create-a-reminder-automatically"></a>Sådan oprettes en rykker automatisk
 En rykker svarer til en faktura. Når du opretter en rykker, skal et rykkerhoved og en eller flere rykkerlinjer udfyldes. Du kan bruge en funktion til at oprette rykkere for alle kunder automatisk.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rykkere**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Opret rykkere** i vinduet **Rykkermeddelelse**.
 3. I vinduet **Opret rykkere** skal du udfylde felterne for at angive, hvordan og hvem rykkerne oprettes til.
 4. Vælg knappen **OK**.
@@ -117,7 +117,7 @@ En rykker svarer til en faktura. Når du opretter en rykker, skal et rykkerhoved
 ## <a name="to-create-a-reminder-manually"></a>Sådan oprettes rykkere manuelt
 I vinduet **Rykker** skal du udfylde oversigtspanelet **Generelt** manuelt og lade linjerne blive udfyldt automatisk.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rykkere**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov i oversigtspanelet **Generelt**.
 4. Vælg handlingen **Foreslå rykkerlinjer**.
@@ -132,7 +132,7 @@ I vinduet **Rykker** skal du udfylde oversigtspanelet **Generelt** manuelt og la
 ## <a name="to-replace-reminder-texts"></a>Sådan erstattes rykkertekst  
 Du kan angive den tekst, der angives i rykkere, på flere måder. I nogle tilfælde kan du have brug for at erstatte start- og slutteksten, der er angivet for det aktuelle niveau, med tekst fra et andet niveau.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rykkere**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkere**, og vælg derefter det relaterede link.
 2. Åbn den relevante rykker, og vælg derefter handlingen **Opdater rykkertekst**.
 3. Angiv det ønskede niveau i feltet **Rykkerniveau** i vinduet **Opdater rykkertekst**.
 3. Klik på **OK** for at opdatere start- og slutteksten.
@@ -154,7 +154,7 @@ Hvis afkrydsningsfelterne **Bogfør rente** eller **Bogfør opkrævningsgebyr** 
 
 Desuden kan udstedelse af en rykker medføre momsposteringer.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rykkere**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkere**, og vælg derefter det relaterede link.
 2. Markér den relevante rykker, og vælg derefter handlingen **Udsted**.
 3. I vinduet **Udsted rykkere** skal du udfylde felterne efter behov.
 4. Vælg knappen **OK**.
@@ -178,7 +178,7 @@ Rentenotaer kan beregnes efter kreditkronedage- eller saldorenteprincippet:
 
 Hver kode i tabellen Rentebetingelser er desuden kædet sammen med en undertabel, nemlig tabellen Rentenotatekst. Til hver rentebetingelse kan du definere en starttekst og/eller en sluttekst, som skal vises på rentenotaen.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rentebetingelser**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rentebetingelser**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.  
 3. Hvis du vil bruge mere end én kombination af rentebetingelser, kan du angive en kode for hver enkelt.
 
@@ -208,7 +208,7 @@ Hver kode i tabellen Rentebetingelser er desuden kædet sammen med en undertabel
 ## <a name="to-create-a-finance-charge-memo-manually"></a>Sådan gør du: Oprette rentenotaer manuelt  
 En rentenota svarer til en faktura. Du kan udfylde et hoved manuelt og lade programmet udfylde linjerne, eller du kan oprette rentenotaer for alle kunder automatisk.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rentenotaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rentenotaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov.  
 3. Vælg handlingen **Foreslå rentenotalinjer**.
 4. I vinduet **Foreslå rentenotalinjer** skal du angive et filter på oversigtspanelet **Debitorpost**, hvis du kun vil oprette rentenotaer for specifikke poster.  
@@ -217,7 +217,7 @@ En rentenota svarer til en faktura. Du kan udfylde et hoved manuelt og lade prog
 ## <a name="to-update-finance-charge-memo-texts"></a>Sådan opdateres tekster til rentenotaer  
 I nogle tilfælde kan det være nødvendigt at ændre den start- og sluttekst, der er angivet for rentebetingelser. Hvis du gør det på et tidspunkt, hvor du har oprettet, men ikke udstedt rentenotaer, kan du opdatere notaen med den ændrede tekst.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rentenota**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rentenota**, og vælg derefter det relaterede link.  
 2. Åbn den rentenota, som du vil ændre tekst for, og vælg derefter handlingen **Opdater rentenotatekst**.
 3. I vinduet **Opdater rentenotatekst** kan angive et filter, hvis du vil opdatere flere notaer.
 4. Klik på **OK** for at opdatere start- og slutteksten.  
@@ -237,7 +237,7 @@ Hvis afkrydsningsfelterne **Bogfør rente** eller **Bogfør opkrævningsgebyr** 
 
 Desuden kan udstedelse af en rentenota medføre momsposteringer.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rentenotaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rentenotaer**, og vælg derefter det relaterede link.
 2. Markér den relevante nota, og vælg derefter handlingen **Udsted**.
 3. I vinduet **Udsted rentenotaer** skal du udfylde felterne efter behov.
 4. Vælg knappen **OK**.
@@ -246,7 +246,7 @@ Rentenotaen udskrives enten eller sendes til en mail, der er angivet som en vedh
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Sådan får du vist rykker- og rentenotaposter  
 Når du udsteder en rykker, oprettes der en rykkerpost i vinduet **Rykker-/rentenotaposter** for hver rykkerlinje, der indeholder en debitorpost. Derefter kan du få vist en oversigt over de oprettede rykkerposter for en bestemt debitor.    
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitorer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
 2. Åbn det relevante debitorkort, og vælg derefter handlingen **Poster**.
 3. I vinduet **Debitorposter** skal du vælge linjen med den post, du vil have vist rykkerposter for, og derefter vælge handlingen **Rykker-/rentenotaposter**.
 

@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 15/01/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5aa1a2c09e5d4ecc2af04aa9d8b3758d96dc7b3f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
@@ -29,7 +29,7 @@ Eftersom det forudbetalte beløb tilhører køberen, indtil han har modtaget var
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Sådan føjes forudbetalingskonti til bogføringsopsætning  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.
 2. I vinduet **Bogføringsopsætning** skal du udfylde følgende felter:  
 
     - **Forudbetalingskonto for salg**  
@@ -39,13 +39,13 @@ Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du gøre 
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Sådan oprettes nummerserier til forudbetalingsdokumenter  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsopsætning**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af salg og tilgodehavender**, og vælg derefter det relaterede link.
 2. I vinduet **Salgsopsætning** skal du udfylde følgende felter:  
 
    - **Bogførte forudbetalingsfakturanr.**
    - **Bogførte forudbetalingskreditnotanr.**
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsopsætning**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Køb**, og vælg derefter det relaterede link.
 2. I vinduet **Købsopsætning** skal du udfylde følgende felter:
 
     - **Bogførte forudbetalingsfakturanr.**
@@ -57,13 +57,13 @@ Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du gøre 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Sådan opretter forudbetalingsprocenter til varer, debitorer og kreditorer  
 Hvis du opretter en standardforudbetalingsprocent til en vare, kan den bruges til alle kunder, en bestemt kunde eller en debitorprisgruppe.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 2. Markér en vare, og vælg derefter handlingen **Forudbetalingsprocenter**.  
 3. I vinduet **Forudbetalingsprocenter - salg** skal du udfylde felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Til en kunde eller leverandør kan du oprette én standardforudbetalingsprocent, der gælder for alle varer og alle former for salgslinjer. Du angiver dette på debitor- eller kreditorkortet.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Debitorer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en debitor.
 3. Udfyld feltet **Forudbetaling i %**.
 4. Gentag trinene for andre debitorer eller for kreditorer.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 07/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 021eac95fe22cfb37a6eaf851a5da11fd3ce9d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrere særlige købspriser og rabatter
@@ -34,7 +34,7 @@ Med hensyn til rabatter kan du oprette og bruge to typer købsrabat:
 Da købslinjerabatter og købspriser er baseret på en kombination af vare og leverandør, kan du også angive denne konfiguration fra det varekort, hvor reglerne og værdierne er defineret. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Sådan oprettes en særlig købspris for en kreditor
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorer**, og vælg derefter det relaterede link.
 2. Åbn det relevante kreditorkort, og vælg derefter handlingen **Priser**.
 
     Feltet **Indkøbstype** er på forhånd udfyldt med **Kreditor**, og feltet **Indkøbskode** er på forhånd udfyldt med kreditornummer.
@@ -42,7 +42,7 @@ Da købslinjerabatter og købspriser er baseret på en kombination af vare og le
 4. Udfyld en linje for hver kombination, som kreditoren yder dig en købslinjerabat for.
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Sådan oprettes en linjerabat for en kreditor
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorer**, og vælg derefter det relaterede link.
 2. Åbn det relevante kreditorkort, og vælg derefter handlingen **Linjerabatter**.
 
     Feltet **Indkøbstype** er på forhånd udfyldt med **Kreditor**, og feltet **Indkøbskode** er på forhånd udfyldt med kreditornummer.
@@ -52,7 +52,7 @@ Da købslinjerabatter og købspriser er baseret på en kombination af vare og le
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Sådan oprettes en fakturarabat for en kreditor
 Når dine kreditorer har oplyst, hvilke fakturarabatter de yder, skal du angive fakturarabatkoden på kreditorkortene og definere betingelserne for hver kode.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorer**, og vælg derefter det relaterede link.
 2. Åbn kreditorkortet for en kreditor, der kan ydes mængderabat til.
 3. Vælg en kode i feltet **Fakturarabatkode** for de fakturarabatbetingelser, som skal bruges til automatisk beregning af fakturarabat til kreditoren.
 
@@ -61,7 +61,7 @@ Når dine kreditorer har oplyst, hvilke fakturarabatter de yder, skal du angive 
 
     Fortsæt med at angive nye fakturarabatbetingelser for køb.
 4. I vinduet **Kreditorkort** skal du vælge handlingen **Fakturarabatter**. Vinduet **Kred./fakt.-rabatter** åbnes.
-5. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser i DKK.
+5. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser for DKK.
 6. Angiv det minimumsbeløb, der berettiger til rabatten, i feltet **Min. beløb**.
 7. I feltet **Rabatpct.** skal du angive fakturarabatten som en procentdel af fakturabeløbet.
 8. Gentag trin 5-7 for hver valuta, som kreditoren får en personlig fakturarabat for.
@@ -73,7 +73,7 @@ Når du bogfører en købsfaktura, som der ydes en eller to rabatter på, kan du
 
 Før du kan gøre dette, skal du allerede have oprettet de nødvendige konti til bogføring af rabatbeløb i kontoplanen. Du skal også kontrollere, at du har angivet de korrekte kontonumre i bogføringsopsætning i felterne **Købslinjerabatkonto** og **Købsfakturarabatkonto**.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsopsætning**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Køb**, og vælg derefter det relaterede link.
 2. Vælg et af følgende bogføringsmetoder i feltet **Bogføring med rabat**.
 
 |**Metode til bogføring af rabat**|**Fakturarabat**|**Linjerabat**|  

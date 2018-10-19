@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 52290609eca12eb09f9d1065b1013baeee5b8a5b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fcbecbf6a90e60a49c7861e16614b98174379bed
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="receive-items"></a>Modtage varer
@@ -26,7 +26,7 @@ Når der ankommer varer til et lagersted, der er sat op til lagermodtagelse, hen
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Sådan modtages varer med en købsordre
 Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsvarende fremgangsmåde for salgsreturvareordrer og overflytningsordrer.  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.
 2. Åbn en eksisterende købsordre eller opret en ny. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 3. Angiv det modtagne antal i feltet **Modtag (antal)**.
 
@@ -34,7 +34,7 @@ Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsv
 4. Vælg handlingen **Bogfør**.
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Sådan modtages varer med en lagermodtagelse
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermodtagelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelser**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 
     Udfyld felterne i oversigtspanelet **Generelt**. Når du henter kildedokumentlinjer, kopieres nogle af oplysningerne fra hovedet til hver linje.  

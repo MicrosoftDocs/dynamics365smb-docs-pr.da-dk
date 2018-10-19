@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1c84275357b6bf5726a7c60396ad22b4670de3e1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: faf013087b29f758cf86ff2a10d407fe74f85f95
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Forsikring af anlægsaktiver
@@ -38,7 +38,7 @@ En forsikringspolice for et anlægsaktiv skal være repræsenteret af et forsikr
 
 Når du får oplysninger om ændringer i forsikringsbeløbet, skal du angive de nye oplysninger i vinduet **Forsikringskort** for at sikre dig, at du analyserer forsikringsposterne korrekt.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Forsikring**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikring**, og vælg derefter det relaterede link.
 2. Vælge handlingen **By** for at oprette et nyt kort til en forsikringspolice. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan også vælge den forsikringspolice, du vil ændre, og derefter vælge handlingen **Rediger**.
 
@@ -47,7 +47,7 @@ Du tildeler et anlægsaktiv til en forsikringspolice ved at bogføre det til for
 
 Følgende procedure beskriver, hvordan du kan oprette en forsikringskladdelinje manuelt. Hvis afkrydsningsfeltet **Aut. forsikr.bogføring** er markeret i vinduet **Anlægsopsætning**, oprettes forsikringskladdelinjerne automatisk, når du bogfører anskaffelsespriserne. I så fald skal du blot bogføre kladden.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Forsikringskladder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikringskladder**, og vælg derefter det relaterede link.  
 2. Åbn den relevante kladde, og udfyld kladdelinjerne efter behov.  
 3. Du kan tildele flere anlægsaktiver til én forsikringspolice ved at oprette kladdelinjer med samme værdi i feltet **Forsikringsnr.** og forskellige værdier i feltet **Anlægsnr.**  
 4. Vælg handlingen **Bogfør**.  
@@ -58,7 +58,7 @@ Følgende procedure beskriver, hvordan du kan oprette en forsikringskladdelinje 
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Sådan opdateres forsikringsværdien af et anlægsaktiv
 Du kan bruge kørslen **Indekser forsikring** til at opdatere værdien af de anlægsaktiver, der er dækket af forsikringen.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Indekser forsikring**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indekser forsikring**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 
     > [!NOTE]  
@@ -66,7 +66,7 @@ Du kan bruge kørslen **Indekser forsikring** til at opdatere værdien af de anl
 3. Vælg knappen **OK**.  
 
    Ved kørslen beregnes det nye beløb som en procent af den samlede forsikringsværdi ifølge vinduet **Forsikringsstatistik**, og derefter oprettes der en linje i forsikringskladden.  
-4. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Forsikringskladder**, og vælg derefter det relaterede link.  
+4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikringskladder**, og vælg derefter det relaterede link.  
 5. Åbn den relevante forsikringskladde, gennemse de oprettede værdier, og bogfør dem til forsikringsposterne.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Sådan overvåges forsikringsdækning
@@ -92,13 +92,13 @@ Hvis du vil kontrollere, om du har glemt at knytte et anlægsaktiv til en forsik
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>Sådan får du vist forsikringsposter
 Du kan få vist de forsikringsposter, du har oprettet i forsikringsposterne.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Forsikring**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikring**, og vælg derefter det relaterede link.  
 2. Vælg den relevante forsikringspolice, og vælg derefter handlingen **Forsikringsposter**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Sådan får du vist den samlede forsikringsværdi for anlægsaktiver
 Et dedikeret matrixvindue viser de forsikringsværdier, der er registreret for hver forsikringspolice for de enkelt anlægsaktiver, som resultat af de forsikringsrelaterede beløb, du har bogført.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Forsikring**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikring**, og vælg derefter det relaterede link.  
 2. Vælg den relevante forsikringspolice, og vælg derefter handlingen **Forsikringssummer pr. anlæg**.  
 3. Udfyld felterne efter behov.  
 4. Vælg handlingen **Vis matrix**.  
@@ -107,7 +107,7 @@ Et dedikeret matrixvindue viser de forsikringsværdier, der er registreret for h
 ## <a name="to-correct-insurance-coverage-entries"></a>Sådan rettes forsikringsposter
 Hvis et anlægsaktiv er knyttet til den forkerte forsikringspolice, kan du rette det ved at oprette to omposteringsposterne fra forsikringskladden.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Forsikringskladder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikringskladder**, og vælg derefter det relaterede link.  
 2. Opret en kladdelinje for anlægsaktivet og den korrekte forsikringspolice, hvor værdien i feltet **Beløb** er positivt.  
 3. Opret en anden kladdelinje for anlægsaktivet og den forkerte forsikringspolice, hvor værdien i feltet **Beløb** er negativt.  
 4. Vælg handlingen **Bogfør**.  

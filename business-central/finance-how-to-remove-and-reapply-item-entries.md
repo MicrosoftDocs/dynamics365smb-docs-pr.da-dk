@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 89fa84f814f3d7f53a842b1d675bf8143416b4d5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b3df27011c482905b0b59ff03570449ac8df3cba
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne og genanvende vareposter
@@ -43,7 +43,7 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
     - Applikationskladden kan ikke foretage en udligning i følgende situationer: Hvis der ikke er nok varer på lageret til udligningen, kan applikationskladden ikke foretage udligningen, når du forsøger at udligne en lagerreduktionspost uden varesporingsoplysninger til en lagerforøgelsespost med varesporingsoplysninger.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Sådan fjernes en vareudligning ved brug af applikationskladden  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
 2.  Vinduet **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
 3.  Angiv filtre i oversigtspanelet **Generelt** for at gøre det lettere at finde den varepost, du vil ændre udligningen for.  
 4.  Vælg vareposten, og vælg derefter handlingen **Udlignede poster**. Vinduet **Vis udlignede poster- Udlignede poster** åbner, så den varepost eller -poster, der p.t. er udlignet til den valgte post, bliver vist.  
@@ -59,7 +59,7 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
 >  **Du kan ikke udføre denne handling, fordi poster for vare <item> er ikke-udlignede på Udligningskladden af bruger <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Sådan udlignes en vareudligning igen ved brug af applikationskladden  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
 2.  Vinduet **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
 3.  For at udligne poster igen, som et blevet fjernet, efter at kladden blev åbnet, skal du vælge den varepost, som du igen vil udligne. På fanen **Handlinger** i gruppen **Funktioner** vælges **Udlign igen**.  
 

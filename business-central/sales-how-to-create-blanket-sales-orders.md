@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75e170f10927844ca37a001812e78e062e88c451
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbejde med rammesalgsordrer
@@ -30,7 +30,7 @@ Det kan f.eks. være relevant at bruge en rammesalgsordre, når en kunder ringer
 > Rammekøbsordrer fungerer på samme måde som rammesalgsordrer. Denne dokumentation dækker ikke rammekøbsordrer.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Sådan oprettes en rammesalgsordre.  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Lad feltet **Ordredato** være tomt. Når de enkelte salgsordrer oprettes på basis af rammeordren, angives salgsordrens ordredato til den faktiske arbejdsdato.
@@ -58,7 +58,7 @@ Følgende gælder for salgsordrer, når de er oprettet ud fra rammesalgsordrer:
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Sådan får du vist status på en rammekøbsordre  
 Du kan se den aktuelle status for en rammesalgsordre i vinduet **Købsordrestatistik**. Dette kan være relevant, når du begynder at fakturere den ordre, der er oprettet fra rammekøbsordren.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rammekøbsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammekøbsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg en rammekøbsordre, og vælg derefter handlingen **Statistik**.  
 3.  I oversigtspanelet **Generelt** i vinduet **Rammekøbsordrestatistik** kan du se en oversigt med oplysninger om hele ordren baseret på den samlede mængde i felterne **Antal** på rammekøbsordrelinjerne.  
 
@@ -70,14 +70,14 @@ Du kan se den aktuelle status for en rammesalgsordre i vinduet **Købsordrestati
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Sådan vises ikke-bogførte og bogførte rammesalgsordrelinjer   
 Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert andet salgsbilag bevares efter bogføring som en liste over bogførte og ikke-bogførte salgsordrefakturalinjer.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rammesalgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammesalgsordrer**, og vælg derefter det relaterede link.
 2. Åbn den rammesalgsordre, du ønsker at se.
 3. Du kan få vist poster, der ikke er bogført, ved at vælge linjen, vælge handlingen **Linje** og derefter vælge handlingen **Ikkebogførte linjer**. Vælg en af følgende indstillinger.  
 
     <table>
     <tr>
     <th>Indstilling</th>
-    <th>Description</th>
+    <th>Beskrivelse</th>
     </tr>
     <tr>
     <td>**Ordrer**</td>
@@ -101,7 +101,7 @@ Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert
     <table>
     <tr>
     <th>Indstilling</th>
-    <th>Description</th>
+    <th>Beskrivelse</th>
     </tr>
     <tr>
     <td>**Leverancer**</td>

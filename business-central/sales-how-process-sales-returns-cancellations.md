@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 09/08/2016
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 70527f235c4a437d528a13adfc8bd0e0d3a6455c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0945ffb9a8eb9482883d5c524b0d7f7eea46b5b2
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle salgsreturvarer eller annulleringer
@@ -48,7 +48,7 @@ Hvis du vil tildele præcis kostprisudligning manuelt, skal du vælge feltet **U
 Du kan finde flere oplysninger i [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Sådan oprettes en salgskreditnota fra en bogført salgsfaktura
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 2. I vinduet **Bogf. salgsfakturaer** skal du vælge den bogførte salgsfaktura, der skal tilbageføres, og derefter vælge handlingen **Opret rettelseskreditnota**.
 
     Salgskreditnotahovedet indeholder nogle oplysninger fra den bogførte salgsfaktura. Du kan redigere disse oplysninger f.eks med nye oplysninger, der afspejler returneringsaftalen.  
@@ -70,7 +70,7 @@ Dialogboksen **Bekræftelse af bogfør og send** åbnes og viser den foretrukne 
 De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, og der kan oprettes en refusionsbetaling til debitoren. Salgskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogførte salgskreditnotaer.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Sådan oprettes en salgskreditnota ved at kopiere en bogført salgsfaktura
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgskreditnotaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgskreditnotaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny** for at åbne en ny tom salgskreditnota.
 3. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 4. Vælg handlingen **Kopier linjer**.
@@ -81,7 +81,7 @@ De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, 
 9. Udfyld salgskreditnotaen, som beskrevet i afsnittet "Sådan oprettes en salgskreditnota fra en bogført salgsfaktura" i dette emne.
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents"></a>Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter.
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsreturvareordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsreturvareordrer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov i oversigtspanelet **Generelt**.
 4. I oversigtspanelet **Linjer** skal du udfylde linjerne manuelt eller kopiere oplysninger fra andre dokumenter for at udfylde linjerne automatisk:
@@ -161,7 +161,7 @@ Når du bogfører salgsreturvareordren, føjes reklamationsgebyret til den relev
 Du kan have brug for at sende en kunde en kreditnota med en prisreduktion, hvis kunden har modtaget en let beskadiget vare eller modtaget varerne for sent.  
 Du kan bogføre den reducerede pris som et varegebyr i en kreditnota eller returvareordre og tildele den til den bogførte levering. Nedenfor beskrives dette for en salgskreditnota, men samme fremgangsmåde anvendes ved en salgsreturvareordre.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgskreditnotaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgskreditnotaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny** for at åbne en ny tom salgskreditnota.
 3. Udfyld hovedet på kreditnotaen med de relevante oplysninger om den kunde, som du vil give salgsdekorten til.  
 4. Marker **Gebyr (vare)** i feltet **Type** på oversigtspanelet **Linjer**.  
@@ -184,7 +184,7 @@ Hvis du vil kombinere returvaremodtagelser skal afkrydsningsfeltet **Tillad saml
 
 ### <a name="to-manually-combine-return-receipts"></a>Sådan samles returvaremodtagelser manuelt  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgskreditnota**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgskreditnota**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov i oversigtspanelet **Generelt**.  
 4. Vælg handlingen **Hent returvaremodt.linjer**.  
@@ -200,7 +200,7 @@ Hvis du vil kombinere returvaremodtagelser skal afkrydsningsfeltet **Tillad saml
 ### <a name="to-automatically-combine-return-receipts"></a>Sådan samles returvaremodtagelser automatisk  
 Du kan samle returvaremodtagelser automatisk og også vælge at bogføre kreditnotaerne automatisk med funktionen **Saml returvarekvit**.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Saml returvarekvit.**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Saml returvarekvit.**, og vælg derefter det relaterede link.
 2. I vinduet **Saml returvarekvit** skal du udfylde felterne for at vælge de relevante returvaremodtagelser.
 3. Markér afkrydsningsfeltet **Bogfør kreditnotaer**. Hvis ikke, skal du manuelt bogføre de købskreditnotaer, der oprettes.
 4.  Vælg knappen **OK**.  
@@ -209,7 +209,7 @@ Du kan samle returvaremodtagelser automatisk og også vælge at bogføre kreditn
 Når du fakturerer returvaremodtagelser på denne måde, findes returvareordrerne, som returvaremodtagelserne er bogført fra, stadig, selvom de er modtaget og faktureret i fuldt omfang.  
 
 Når returvaremodtagelser samles på en kreditnota og bogføres, oprettes der en bogført salgskreditnota for de krediterede linjer. Feltet **Faktureret (antal)** på den oprindelige salgsreturvareordre opdateres på basis af det fakturerede antal.   
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Slet fakturerede salgsreturvareordrer**, og vælg linket.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet fakturerede salgsreturvareordrer**, og vælg det relaterede link.  
 2.  I feltet **Nummer** skal du angive, hvilke returvareordrer der skal slettes.  
 3.  Vælg knappen **OK**.  
 

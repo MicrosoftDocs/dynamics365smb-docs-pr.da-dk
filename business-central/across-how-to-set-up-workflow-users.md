@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 08/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0fe05d44acd7fb163996e8a663adb309d229b203
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 847cce9d48b6e5f3c98d1b64eef0d912f6dcf5fd
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-workflow-users"></a>Oprette brugere til arbejdsgange
@@ -32,13 +32,13 @@ Workflowbrugere, der fungerer som godkendelsesbrugere, både godkendelsesanmoder
 
 ### <a name="to-set-up-a-workflow-user"></a>Sådan oprettes en arbejdsgangsbruger  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Brugergrupper for arbejdsgang**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugergrupper for workflow**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Vinduet **Brugergruppe for workflow** åbnes.  
 3. I feltet **Kode** skal du angive op til 20 tegn for at identificere workflowet.  
 4. I feltet **Beskrivelse** skal du beskrive workflowet.  
 5. I oversigtspanelet **Medlemmer af brugergruppe for arbejdsgang** skal du udfylde felterne på den første linje som beskrevet i følgende tabel.  
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Brugernavn**|Angiv den bruger, der skal indgå i arbejdsgange.<br /><br /> Brugeren skal findes i **Brugeropsætning** vindue. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).|  
     |**Rækkefølgenr.**|Angiv den rækkefølge, som arbejdsgangsbruger deltager i en arbejdsgang i forhold til andre brugere. Dette felt kan bruges, f.eks. til at angive, hvornår brugeren godkender i forhold til andre godkendere, når du bruger indstillingen **Brugergruppe for workflow** i feltet **Godkendertype** i den relaterede workflowrespons. **TIP:** For at definere, at en godkendelsesanmodning ikke godkendes, før flere lige godkendere har godkendt den, uanset et godkendelseshierarki, skal du oprette en simpel arbejdsganggruppe ved at tildele det samme nummer i rækkefølgen til de relevante godkendere.|  

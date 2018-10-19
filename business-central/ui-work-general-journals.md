@@ -1,31 +1,39 @@
 ---
 title: "Bruge finanskladder, der skal bogføres direkte til Finans | Microsoft Docs"
-description: "Lær, hvordan du kan bruge finanskladder til at bogføre økonomisk transaktioner på finanskonti og andre konti, f.eks. bank- og kreditorkonti."
-author: SorenGP
+description: "Lær, hvordan du kan bruge kladder til at bogføre økonomisk transaktioner på finanskonti og andre konti, f.eks. bank- og kreditorkonti."
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/23/2018
-ms.author: sgroespe
+ms.date: 10/01/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 090a0141583795757a0d59b358ba4d553100d976
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 892d96dfa5d0fc960150f127ffa779cf6819c5a2
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-general-journals"></a>Arbejde med finanskladder
-De fleste finansposteringer bogføres i finansregnskabet ved hjælp af dedikerede forretningsdokumenter, f.eks. købsfakturaer og salgsordrer. Du kan oprette relaterede transaktioner for aktiviteter, der ikke er repræsenteret af et dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. mindre udgifter eller indbetalinger, ved at bogføre kladdelinjer i vinduet **Finanskladde**. Du kan finde flere oplysninger i [Bogføre transaktioner direkte i finansregnskabet](finance-how-post-transactions-directly.md).
 
-For eksempel kan du bogføre medarbejdernes udgifter af egne penge på forretningsrelaterede udgifter for senere refusion. Du kan finde flere oplysninger i [Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md).
+De fleste finansposteringer bogføres i finansregnskabet ved hjælp af dedikerede forretningsdokumenter, f.eks. købsfakturaer og salgsordrer. Men du kan også behandle forretningsaktiviteter som f.eks. køb, betaling eller refundering af medarbejderens udgifter ved at bogføre kladdelinjer i de forskellige kladder i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+De fleste kladder er baseret på *Finanskladde*, og du kan behandle alle transaktioner i vinduet **Finanskladde**. Du kan finde flere oplysninger i [Bogføre transaktioner direkte i finansregnskabet](finance-how-post-transactions-directly.md).  
+
+For eksempel kan du bruge medarbejdernes udgifter af egne penge på forretningsrelaterede udgifter for senere refusion. Du kan finde flere oplysninger i [Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md).
+
+Men i mange tilfælde vil du vil bruge de kladder, der er optimeret til bestemte typer transaktioner, som **Udbetalingskladde** for at registrere betalinger. Du kan finde flere oplysninger i [Registrere indbetalinger og refusioner i udbetalingskladden](payables-how-post-payments-refunds.md).  
 
 Du bruger finanskladder til at bogføre økonomiske transaktioner direkte på finanskonti og andre konti, f.eks. bank-, debitor-, kreditor- og medarbejderkonti. Når du bogfører via en finanskonto, oprettes der altid poster i finanskonti. Det gælder også, når du bogfører f.eks. en kladdelinje på en debitorkonto, fordi der bogføres en post på en finanskonto for tilgodehavende via en bogføringsgruppe.
+
+[!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
 De oplysninger, du angiver i en kladde, er midlertidige og kan ændres, mens de er i kladden. Når du bogfører kladden, overføres oplysningerne til poster på individuelle konti, hvor de ikke kan ændres. Du kan imidlertid annullere udligningen af bogførte poster, og du kan bogføre tilbageførsels- eller rettelsesposter. Du kan finde flere oplysninger i [Tilbageføre poster](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Bruge kladdetyper og -navne
+
 Der er forskellige finanskladdetyper. Hver kladdetype er repræsenteret af et dedikeret vindue med bestemte funktioner og de felter, der kræves for at understøtte disse funktioner, f.eks. vinduet **Betalingsudligningskladde** til behandling af bankbetalinger og vinduet **Udbetalingskladde** til betaling af kreditorer eller refusion af medarbejdere. Du kan finde flere oplysninger i [Foretage indbetalinger](payables-make-payments.md) og [Udligne debitorbetalinger manuelt](receivables-how-apply-sales-transactions-manually.md).
 
 For hver kladdetype kan du angive din egen private kladde som kladdenavn. F.eks. kan du angive din egen kladdetype som udbetalingskladden med dit personlige layout og dine indstillinger. Følgende tip er et eksempel på, hvordan du kan tilpasse en kladde.
@@ -34,7 +42,7 @@ For hver kladdetype kan du angive din egen private kladde som kladdenavn. F.eks.
 > Hvis du markerer afkrydsningsfeltet **Foreslå modkontobeløb** på linjen for dit kladdenavn i vinduet **Finanskladdenavne**, udfyldes feltet **Beløb** på f.eks. finanskladdelinjer for samme bilagsnummer automatisk med den værdi, der er nødvendig for at afstemme dokumentet. Du kan finde flere oplysninger i [Lade [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå værdier](ui-let-system-suggest-values.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Om hovedkonti og modkonti
-Hvis du har oprettet modkonti for kladdenavnene, udfyldes modkontoen automatisk på siden **Finanskladder**, når du udfylder feltet **Kontonr.**. Hvis ikke, skal du udfylde både feltet **Kontonr.** og feltet **Modkontonr.** manuelt. Et positivt beløb i feltet **Beløb** debiteres på hovedkontoen og krediteres på modkontoen. Et negativt beløb krediteres på hovedkontoen og debiteres på modkontoen.
+Hvis du har oprettet modkonti for kladdenavnene, udfyldes modkontoen automatisk i vinduet **Finanskladder**, når du udfylder feltet **Kontonr.**. Hvis ikke, skal du udfylde både feltet **Kontonr.** og feltet **Modkontonr.** manuelt. Et positivt beløb i feltet **Beløb** debiteres på hovedkontoen og krediteres på modkontoen. Et negativt beløb krediteres på hovedkontoen og debiteres på modkontoen.
 
 > [!NOTE]  
 >   Moms beregnes separat for hovedkontoen og modkontoen, så der kan bruges forskellige momsprocentsatser.
@@ -85,9 +93,8 @@ Ligesom i en gentagelseskladde kan du nøjes med at indtaste en fordeling én ga
 
 Hvis gentagelsesmetoden i gentagelseskladden er sat til **Saldo** eller **Saldo med tilbageføring**, bliver der ikke taget hensyn til eventuelle dimensionsværdikoder i gentagelseskladden, når kontoen nulstilles. Så hvis du fordeler en gentagelseslinje på forskellige globale dimensionsværdier i vinduet **Fordelinger**, så vil der kun blive lavet en tilbageførselspost. Hvis du derfor fordeler en gentagelseskladdelinje, som indeholder en dimensionsværdikode, må du ikke indtaste den samme kode i vinduet **Fordelinger**. Hvis du gør det, vil dimensionsværdierne ikke blive korrekte.
 
-####<a name="example-allocating-rent-payments-to-different-departments"></a>Eksempel: Fordeling af huslejebetalinger til forskellige afdelinger
+#### <a name="example-allocating-rent-payments-to-different-departments"></a>Eksempel: Fordeling af huslejebetalinger til forskellige afdelinger
 Du betaler husleje hver måned, så du kan indtaste huslejen i indbetalingskonto på en gentagelseskladdelinje. I vinduet **Fordelinger** kan du opdele udgiften på flere afdelinger (afdelingsdimension), i forhold til det antal kvadratmeter hver afdeling optager. Beregningen er baseret på allokeringsprocenten på hver linje. Du kan f.eks. indtaste forskellige konti på forskellige fordelingslinjer (hvis huslejen også skal fordeles på flere konti) eller indtaste den samme konto, men med forskellige dimensionsværdikoder for dimensionen Afdeling på hver linje.
-
 
 ## <a name="working-with-standard-journals"></a>Arbejde med standardkladder
 Når du har oprettet kladdelinjer, som du ved, at du sandsynligvis skal oprette igen senere, kan du gemme dem som en standardkladde, inden du bogfører kladden. Denne funktion gælder for varekladder og finanskladder.
@@ -96,7 +103,7 @@ Når du har oprettet kladdelinjer, som du ved, at du sandsynligvis skal oprette 
 >   Følgende procedure beskriver varekladden, men oplysningerne gælder også for finanskladden.
 
 ### <a name="to-save-a-standard-journal"></a>Sådan gemmes en standardkladde
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.
 2. Indsæt en eller flere kladdelinjer.
 3. Vælg de kladdelinjer, der skal genbruges.
 4. Vælg handlingen **Gem som standardkladde**.
@@ -111,7 +118,7 @@ Når du har oprettet kladdelinjer, som du ved, at du sandsynligvis skal oprette 
 Når du har gemt standardvarekladden, vises vinduet Varekladde, så du kan bogføre varekladden. Nu kan du hurtigt oprette varekladden, næste gang du har brug for at bogføre de samme eller lignende linjer.
 
 ### <a name="to-reuse-a-standard-journal"></a>Sådan genbruges en standardkladde
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varekladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Hent standardkladder**.
 
     Vinduet Standardvarekladder åbner med koder og beskrivelser for alle eksisterende standardvarekladder.
@@ -143,9 +150,9 @@ Denne funktion fungerer også i filtrerede visninger.
 
 Ved enhver omnummerering af bilagsnumre respekteres relaterede udligninger, f.eks. en betalingsudligning, der er foretaget fra bilaget på kladdelinjen til en kreditorkonto. Derfor opdateres felterne **Udligningsid** og **Udligningsbilagsnr.** muligvis i de berørte finansposteringer.
 
-Følgende procedure er baseret på vinduet **Kassekladde**, men gælder for alle andre kladder, der er baseret på finanskladden, f.eks. vinduet **Udbetalingskladde**.
+Følgende procedure er baseret i vinduet **Kassekladde**, men gælder for alle andre kladder, der er baseret på finanskladden, f.eks. vinduet **Udbetalingskladde**.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finanskladder**, og vælg derefter det relaterede link.
 2. Når du er klar til at bogføre kladden, skal du vælge handlingen **Omnummerer bilagsnumre**.
 
 Værdier i feltet **Bilagsnr.** ændres, hvor det kræves, så bilagsnummeret på individuelle eller grupperede journallinjer er i rækkefølge. Når bilag omnummereres, kan du fortsætte med at bogføre kladden.

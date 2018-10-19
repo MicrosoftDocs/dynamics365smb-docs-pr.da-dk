@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 08/11/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 9b36c5692673ddf54be0572c8a2f035f67311d60
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="register-employees"></a>Registrere medarbejdere
@@ -30,14 +30,14 @@ Følgende procedurer beskriver, hvordan du opretter et indledende medarbejderkor
 > Du kan refundere medarbejdere for deres udgifter under forretningsaktiviteter. Til dette formål skal du udfylde felterne i oversigtspanelet **Betalinger** i vinduet **Medarbejderkort**. Du kan finde flere oplysninger i [Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Sådan oprettes en medarbejder
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. I vinduet **Medarbejderkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Sådan indsætte et billede af en medarbejder
 Hvis du har et billede af en medarbejder i .bmp-format, kan du indsætte det på medarbejderkortet.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
 2. Åbn kortet for den relevante medarbejder.
 3. I faktaboksen **Medarbejderbillede** skal du klikke på rullelisten og derefter vælge **Indlæs**.
 4. I vinduet **Vælg et billede til overførsel** skal du vælge knappen **Vælg**.
@@ -50,7 +50,7 @@ På medarbejderkortet kan du angive oplysninger, som f.eks. medlemskab af fagfor
 
 Du kan bruge alternative adresser til at holde styr på medarbejdernes opholdssteder, f.eks. hvis medarbejderen er udstationeret i udlandet, er på en lang forretningsrejse eller bor på sin sommeradresse.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
 2. Åbn kortet for den relevante medarbejder.
 3. Vælg handlingen **Alternative adresser**.
 4. **I vinduet Alternativ adresseliste** skal du udfylde felterne efter behov.

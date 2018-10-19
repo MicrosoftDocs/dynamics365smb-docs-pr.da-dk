@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/20/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4eed11706d890a1b83af7fcb70fe1457a787ba3a
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduktion til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -41,12 +41,10 @@ Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretnin
 ## <a name="the-role-centers"></a>Rollecentrene
 Vinduet Rollecenter er baseret på et rollecentreret design, som giver hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige rollecentre ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).
 
-
-
 Hvert Rollecenter indeholder knappen **Installation og udvidelser**. Her kan du få adgang til en liste over assisteret opsætning, som kan hjælpe dig i gang med at definere markerede områder hurtigt. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningsvinduer, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
->   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Grundlæggende** giver adgang til mindre end oplevelsen **Essentiel**. Første gang du logger på, bruger du den grundlæggende oplevelse. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
+>   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**. Første gang du logger på, bruger du oplevelsen Essential. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
 
 I vinduet **Assisteret opsætning** kan du finde følgende sammen med oplevelsen **Essentiel**:
 

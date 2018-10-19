@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30a16901fb20ac3361ed61bbe8d6eabc6dfb67cb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 64bef8820ec10bb293ccda88e7384d5d9e868e1f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-companies"></a>Oprette kontaktvirksomheder
@@ -27,7 +27,7 @@ Du kan oprette en kontakt på to måder: forfra eller fra en eksisterende debito
 Kontroller eventuelt indstillingerne i vinduet **Marketingopsætning**, før du opretter en kontakt. Du kan finde flere oplysninger under [Konfigurere Relationsstyring](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Oprette en virksomhedskontakt fra bunden
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontakter**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. I feltet **Nummer** skal du skrive et nummer på kontakten.
 
@@ -41,7 +41,7 @@ Hvis du allerede har defineret en række debitorer, kreditorer eller bankkonti, 
 > [!NOTE]  
 >   Før du kan oprette kontaktvirksomheder på denne måde, skal du angive en forretningsrelationskode for debitorer, kreditorer og bankkonti i vinduet **Marketingopsætning**. Hvis du vil oprette kontakter fra en bankkonto, skal du også angive nummerserier for bankkonti i vinduet **Opsætning af Finans**.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv et af følgende, afhængigt af hvorfra du vil oprette kontakter, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv en af følgende, afhængigt af hvor du vil oprette kontakter, og vælg derefter det relaterede link.
    * **Opret kontakter fra debitorer**
    * **Oprette kontakter fra kreditorer**
    * **Oprette kontakter fra bankkonti**

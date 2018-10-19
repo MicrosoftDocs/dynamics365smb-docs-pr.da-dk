@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d57669191209090f15a424537d98d106db681a38
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0f49faba7360ccf2e93ab62176752a503335f3f1
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Konfigurere fordelingskilde og mål
 Hver allokering består af en fordelingskilde og en eller flere fordelingsmål. Fordelingskilden definerer, hvilke omkostninger, der vil blive tildelt. Fordelingsmålet bestemmer, hvortil omkostningerne fordeles.  
 
 ## <a name="to-set-up-cost-allocations"></a>Opsætning af omkostningsfordelinger  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
 2.  I vinduet **Omkostningsfordeling** skal du vælge handlingen **Rediger**.  
 3.  Angiv et id for fordelingskilden i feltet **Id**.  
 4.  Definer et niveau som et tal mellem 1 og 99 i feltet **Niveau**. Fordelingsbogføringen følger niveauernes rækkefølge.  

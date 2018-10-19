@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designoplysninger: Udgående lagerflow
@@ -47,8 +47,6 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
 |L|Bogfør pluk og leverance fra et lagerleverancedokument|||X|5-4-6|  
 |D|Bogfør pluk fra et lagerplukdokument, og bogfør leverance fra et lagerleverancedokument||X|X|5-4-6|  
 
- Du kan finde flere oplysninger i [Designoplysninger: Udgående lagerflow]()  
-
  Valg af metode afhænger af virksomhedens accepterede praksis og graden af organisationens kompleksitet. I et ordre for ordre-miljø med enkle processer og simpel placeringsstruktur, metode A, er pluk og levering fra ordrelinjen passende. I andre ordre for ordre-virksomheder, hvor varerne for én ordrelinje kan komme fra mere end én placering, eller hvor lagermedarbejderne ikke kan arbejde med ordredokumenterne, er brugen af separate plukdokumenter relevant, metode B. Hvor en virksomheds pluk- og leveringsprocesser omfatter håndtering af flere ordrer og derfor kræver mere styring og overblik, kan virksomheden vælge at bruge et lagerleverancedokument og lagerplukdokument til at adskille pluk- og leveringsopgaver, metode C og D.  
 
  Handlinger af pluk og levering kombineres i metoderne A, B og C i ét trin, hvor det tilsvarende dokumentet bogføres som leveret. Plukket er registreret første gang i metode D, og derefter bogføres leverancen på et senere tidspunkt fra et andet dokument.  
@@ -56,7 +54,7 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
 ## <a name="basic-warehouse-configurations"></a>Grundlæggende lageropsætninger  
  I følgende diagram illustreres de udgående lagerstrømme af dokumenttype i grundlæggende lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
- ![Udgående flow i grundlæggende lageropsætninger](media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
+ ![Udgående flow i grundlæggende lageropsætninger](media/design_details_warehouse_management_outbound_basic_flow.png "Udgående flow i grundlæggende lageropsætninger")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Frigiv kildedokument / Opret pluk (lager) eller flytning (lager)  
  Når en bruger, der er ansvarlig for kildedokumenter, f.eks. en salgsordrebehandler eller produktionsplanlægger, er klar til den udgående lageraktivitet, frigiver han eller hun kildedokumentet for at signalere til lagermedarbejdere, at solgte varer eller komponenter kan plukkes og placeres på de angivne placeringer. Alternativt opretter brugeren lagerpluk- eller bevægelsesdokumenter for de enkelte ordrelinjer på en push-måde, baseret på angivne placeringer og mængder, der skal håndteres.  
@@ -78,7 +76,7 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
 ## <a name="advanced-warehouse-configurations"></a>Avancerede lageropsætninger  
  I følgende diagram illustreres den udgående lagerstrøm af dokumenttype i avancerede lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
- ![Udgående flow i avancerede lageropsætninger](media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
+ ![Udgående flow i avancerede lageropsætninger](media/design_details_warehouse_management_outbound_advanced_flow.png "Udgående flow i avancerede lageropsætninger")  
 
 ### <a name="1-release-source-document"></a>1: Frigiv kildedokument  
  Når en bruger, der er ansvarlig for kildedokumenter, f.eks. en salgsordrebehandler eller produktionsplanlægger, er klar til den udgående lageraktivitet, frigiver han eller hun kildedokumentet for at signalere til lagermedarbejdere, at solgte varer eller komponenter kan plukkes og placeres på de angivne placeringer.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 04/23/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba50e74b51148e42dd25752ade5a37d0e3285509
-ms.openlocfilehash: c9595cb42ff388544af07d8101d3d43f0eb639f4
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 32c306eeb19a5e51028b91e996092360dfc30059
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
@@ -34,5 +34,4 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 [Arbejde med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)   
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
- 
 

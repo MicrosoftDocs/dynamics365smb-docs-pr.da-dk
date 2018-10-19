@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f27160f551a002d1d19fa64b86aa637d8fadcf8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Arbejde med styklister
@@ -57,7 +57,7 @@ Montagestyklister oprettes ad to omgange:
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Sådan får du vist komponenterne for et montageelement indrykket i overensstemmelse med styklistestrukturen
 Fra vinduet **Montagestykliste** kan du åbne et separat vindue, der viser komponenterne og evt. ressourcer, der er indrykket i henhold til deres placering på styklisten under montageelementet.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for et montageelement. (Feltet **Montagestykliste** i vinduet **Varer** indeholder **Ja**).
 3. I vinduet **Varekort** skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
 4. I vinduet **Montagestykliste** skal du vælge handlingen **Vis stykliste**.
@@ -90,7 +90,7 @@ En montagestyklistes kostpris svarer altid til den samlede kostpris for dens kom
 4. I vinduet **Montagestykliste** skal du vælge handlingen **Beregn kostpris**.
 5. Vælg en af følgende muligheder, og klik derefter på knappen **OK**.
 
-|Indstilling |Description |
+|Indstilling |Beskrivelse |
 |-------|------------|
 |**Øverste niveau**|Beregner montageelementets standardkostpris som kostbeløbet for alle elementer, der er købt eller monteret på montagestyklisten uanset eventuelle underliggende montagestyklister.|
 |**Alle niveauer**|Beregner montageelementets standardkostpris som summen af: 1) Den beregnede kostpris for alle underliggende montagestyklister på montagestyklisten. 2) Kostprisen for alle indkøbte varer på montagestyklisten.|

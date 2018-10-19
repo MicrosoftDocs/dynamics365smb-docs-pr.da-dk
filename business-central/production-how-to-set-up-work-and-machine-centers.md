@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/19/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 545ad2e348ba4acc3a1c4cde741acaa2a9b824ed
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c6e661d36363a35248785a9f97620b2ca7ccf177
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbejdscentre og produktionsressourcer
@@ -33,7 +33,7 @@ Tilgængeligheden er lagret i kalenderposter. Før du opretter arbejdscentre ell
 ## <a name="to-set-up-a-work-center"></a>Sådan opsættes et arbejdscenter
 Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene til at oprette en produktionsressourcekalender er identiske med undtagelse af oversigtspanelet **Ruteopsætning**.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), og angiv **Arbejdsskift**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdscentre**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Markér den højniveau ressourcegruppe, som arbejdscenteret er organiseret under, i feltet **Ressourcegruppe**, hvis det er relevant. Vælg handlingen **Ny** på rullemenuen.  
@@ -89,7 +89,7 @@ I vinduet **Kapacitetsbegrænsede ressourcer** kan du foretage en opsætning, de
 
 Ved planlægning med kapacitetsbegrænsede ressourcer sikrer systemet, at der ikke indlæses nogen ressource over dens definerede kapacitet (kritisk belastning). Dette gøres ved at tildele hver operation til det nærmeste tilgængelige tidsrum. Hvis tidsrummet ikke er stort nok til at fuldføre hele handlingen, bliver handlingen opdelt i to eller flere dele, der er placeret i de nærmeste ledige tidsrum.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kapacitetsbegrænsede ressourcer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kapacitetsbegrænsede ressourcer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov.
 

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e1b6b57448264bddee9bdfc4a81a2f926a7938c7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger
@@ -60,9 +60,9 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 For at gennemføre denne gennemgang skal:  
 
 -   CRONUS Danmark A/S være installeret.  
--   Du kan oprette dig selv som en lagermedarbejder på lokationen SØLV ved at følge disse trin:  
+-   Du kan oprette dig selv som lagermedarbejder på lokationen SØLV ved at følge disse trin:  
 
-    1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
+    1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
     2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto i vinduet **Brugere**.  
     3.  Angiv SØLV i feltet **Lokationskode**.  
     4.  Markér feltet **Standard**.  
@@ -75,7 +75,7 @@ Ellen, som er indkøbschef hos CRONUS Danmark A/S, opretter en købsordre til 10
 
 ### <a name="to-set-up-the-location"></a>Sådan oprettes lokationen  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Åbn lokationskortet SØLV.  
 3.  Markér afkrydsningsfeltet **Kræv læg-på-lager**.  
 
@@ -95,7 +95,7 @@ Købsordrer er den mest almindelige type indgående kildedokument.
 
 ### <a name="to-create-the-purchase-order"></a>Hvis du vil oprette købsordren  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Opret en købsordre for kreditor 10000 på arbejdsdatoen (23. januar) med følgende købsordrelinjer.  
 
@@ -118,7 +118,7 @@ I vinduet **Læg-på-lager** kan du administrere alle indgående lageraktivitete
 
 ### <a name="to-receive-and-put-the-items-away"></a>Sådan modtager du varerne og lægger dem på lager  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager-akt. (lager)**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-akt. (lager)**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Vælg feltet **Kildedokument**, og vælg derefter **Købsordre**.  
 4.  Vælg feltet **Kildenr.**, vælg linjen til købet fra kreditor 10000, og vælg knappen **OK**.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 08/13/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
-ms.openlocfilehash: 0407e0c34578e6487b37f4254f6a600fe99e967a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
 ms.contentlocale: da-dk
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdata til Excel
@@ -39,7 +39,7 @@ Du kan eksportere alle sider, men det kan være mere, end du reelt har brug for.
 * Banker  
 * Varer  
 
-Hvis du også vil medtage alle dine finansielle transaktioner, er det en stor mængde data, så eksporten tager ofte mere end blot et par minutter. Finansielle transaktioner vises på siden **Finansposter**.  
+Hvis du også vil medtage alle dine finansielle transaktioner, er det en stor mængde data, så eksporten tager ofte mere end blot et par minutter. Finansielle transaktioner vises i vinduet **Finansposter**.  
 
 Det anbefales, at du også overvejer at eksportere data fra følgende sider:  
 

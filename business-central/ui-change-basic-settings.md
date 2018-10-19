@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/02/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 30dcd44d84ecca873de7b3a0401325377987324f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ændring af grundlæggende indstillinger
-I vinduet **Mine indstillinger** kan du se og ændre grundlæggende indstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ændringer, du foretager, påvirker kun dit arbejdsområde, ikke arbejdsområder for andre brugere.  
+I vinduet [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med dine brugerindstillinger i Business Central"), kan du få vist og ændre grundlæggende indstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ændringer, du foretager, påvirker kun dit arbejdsområde, ikke arbejdsområder for andre brugere.  
 
-## <a name="role-center"></a>Rollecenter
+## <a name="role-center"></a> Rollecenter
 Rollecenteret repræsenterer startsiden, et startskærmbillede, der er beregnet til en bestemt rolles behov i en organisation. Afhængigt af din rolle giver Rollecenter dig et overblik over arbejde, din afdeling eller personlige opgaver. Du kan også navigere til de daglige opgaver, og find arbejde, der er tildelt til dig.
 
 -   Øverst i navigationen kan du skifte mellem debitorer, kreditorer, varer og andre vigtige lister med oplysninger. Her kan du også starte opgaver, f.eks. oprette en ny salgsfaktura direkte fra Rollecenter.
@@ -41,7 +41,7 @@ En virksomhed fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d3
 Standardfirmaet kaldes CRONUS og indeholder kun demonstrationsdata.
 
 > [!TIP]  
->   Hvis du vil vise et andet navn til din virksomhed i programmet (f.eks. i Rollecenter), skal du indstille feltet **Navn** på siden **Virksomhedsoplysninger** eller feltet **Visningsnavn** på siden **Virksomheder**.  
+>   Hvis du vil vise et andet navn til din virksomhed i programmet (f.eks. i Rollecenter), skal du indstille feltet **Navn** i vinduet **Virksomhedsoplysninger** eller feltet **Visningsnavn** i vinduet **Virksomheder**.  
 
 ## <a name="work-date"></a>Arbejdsdato
 Standardarbejdsdatoen er normalt dags dato. Du skal muligvis midlertidigt ændre arbejdsdatoen for at kunne udføre opgaver, f.eks. udføre transaktioner for en dato, der ikke er dags dato.
@@ -52,14 +52,14 @@ Standardarbejdsdatoen er normalt dags dato. Du skal muligvis midlertidigt ændre
 > [!IMPORTANT]  
 >   Arbejdsdatoen ændres kun, indtil du lukker virksomheden, eller indtil datoen skifter. Hvis du vælger et andet regnskab eller åbner det samme regnskab næste dag og stadig har brug for at angive en anden arbejdsdato, skal du angive arbejdsdatoen igen.
 
-## <a name="region"></a>Land/område
+## <a name="region"></a> Område
 Indstillingen **Område** bestemmer, hvordan datoer, klokkeslæt, tal og valutaer vises og formateres.   
 
 
-## <a name="language"></a>Sprog
+## <a name="language"></a> Sprog
 Ændrer det viste sprog. Dette felt vises kun, hvis der er mere end ét sprog, du kan vælge mellem. 
 
-Det første sprog afhænger enten af administratoren eller af browserindstillingerne, når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det sprog, du har angivet, vil blive brugt på alle enheder, som du logger på fra, f.eks. en telefon eller tablet. 
+Det første sprog afhænger enten af administratoren eller af browserindstillingerne, når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det sprog, du har angivet, vil blive brugt på alle enheder, som du logger på fra, f.eks. en telefon eller tablet.
 
 ## <a name="changing-when-i-receive-notifications"></a>Ændre, hvornår jeg modtager notifikationer
 Vælg dette link for at få vist eller ændre de notifikationer, du får om bestemte hændelser eller ændringer af status, når du er ved at fakturere en kunde, der har et forfaldent beløb, eller den disponible lagerbeholdning er lavere end det antal, du er ved at sælge. Du kan finde flere oplysninger under [Smarte notifikationer](ui-smart-notifications.md).

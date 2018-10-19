@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 06/18/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 3331849cf94c70d0597ae5f37d3109451947c9fc
-ms.openlocfilehash: 0af456e420c9b485e242c15e660367a348c75536
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
 ms.contentlocale: da-dk
-ms.lasthandoff: 06/20/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-bin-types"></a>Oprette placeringstyper
@@ -25,7 +25,7 @@ Du kan dirigere varestrømmen til placeringer, som du har defineret til særlige
 Der er seks typer. Du kan bruge alle de seks mulige placeringstyper til lagerstedet, eller du kan vælge kun at operere med placeringstyperne MODTAG, LPLPLUK, LEVER og KK. Disse fire placeringstyper giver mulighed for forslag til aktiviteter og sætter dig i stand til at registrere afvigelser i lagerbeholdningen.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Sådan angives de placeringstyper, der skal bruges  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Placeringstyper**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Placeringstyper**, og vælg derefter det relaterede link.  
 2.  Angiv en kode på ti tegn for placeringstypen i vinduet **Placeringstyper**.  
 3.  Marker de aktiviteter, der kan udføres for hver placeringstype.  
 
@@ -36,7 +36,7 @@ Placeringstypen angiver, hvordan en placering skal bruges, når varestrømmen be
 
 De placeringstyper, som du kan oprette, er angivet nedenfor.  
 
-|Placeringstype|Description|  
+|Placeringstype|Beskrivelse|  
 |------------------|---------------------------------------|  
 |MODTAG|Varer, der er registreret som bogførte modtagelser, men endnu ikke er lagt på lager.|  
 |LEVER|Varer, der er plukket til lagerleverancelinjer, men som endnu ikke er bogført som leveret.|  

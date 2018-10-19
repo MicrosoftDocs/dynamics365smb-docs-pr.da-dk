@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 08/03/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4a7001ab5a752bf2e2acdd273d2a584a1e0b8a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reverse-postings"></a>Tilbageføre poster
@@ -31,15 +31,15 @@ Hvis du har oprettet en bogføring af et forkert negativt antal, som f.eks. en k
 Hvis du har oprettet en bogføring af et forkert positivt antal, som f.eks. en købsreturvareordre med det forkerte antal varer og bogført dem som leveret, men ikke faktureret, kan du annullere bogføringen.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Sådan tilbageføres kladdepost på en finanspost
-Du kan tilbageføre poster fra alle **Poster**-vinduer: Følgende procedure er baseret på vinduet **Finansposter**.
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finansposter**, og vælg derefter det relaterede link.
+Du kan tilbageføre poster fra alle **Poster**-vinduer: Følgende procedure er baseret i vinduet **Finansposter**.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansposter**, og vælg derefter det relaterede link.
 2. Marker den post, du vil tilbageføre, og vælg derefter handlingen **Tilbagefør transaktion**. Bemærk, at den skal stamme fra en kladdepost.
 3. I vinduet **Tilbagefør transaktionsposter** skal du vælge den relevante post og derefter vælge handlingen **Tilbagefør**.
 4. Vælg knappen **Ja** i bekræftelsesmeddelelsen.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Sådan fortrydes et bogført antal på en bogført købsmodtagelse  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogførte købsmodtagelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte købsmodtagelser**, og vælg derefter det relaterede link.  
 2.  Åbn den bogført modtagelse, du vil fortryde.  
 3.  Vælg den eller de linjer, der skal fortrydes.  
 4.  Vælg handlingen **Annuller modtagelse**.
@@ -52,7 +52,7 @@ Du kan tilbageføre poster fra alle **Poster**-vinduer: Følgende procedure er b
 
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Sådan fortryder du og derefter annullerer et bogført antal på en bogført returvareleverance
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogførte købsmodtagelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte returvareleverancer**, og vælg derefter det relaterede link.  
 2.  Åbn den bogførte returvareleverance, du vil fortryde.
 3. Vælg den eller de linjer, der skal fortrydes.  
 
@@ -63,14 +63,14 @@ Du kan tilbageføre poster fra alle **Poster**-vinduer: Følgende procedure er b
     Gå nu tilbage til købsreturvareordren for at annullere Fortryd bogføring.  
 
 5.  Notér tallet i feltet **Returvareordrenr.** i vinduet **Bogført returvareleverance** .  
-6.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Købsreturvareordrer**, og vælg derefter det relaterede link.  
+6.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsreturvareordrer**, og vælg derefter det relaterede link.  
 7.  Åbn den pågældende returordre, og vælg derefter handlingen **Genåbn**.  
 8.  Ret antallet i feltet **Antal**, og bogfør købsreturvareordren igen.  
 
 ## <a name="to-post-a-negative-entry"></a>Sådan bogføres en negativ post  
 Du kan bruge feltet **Rettelse** til at bogføre en negativ debet i stedet for kredit eller til at bogføre en negativ kredit i stedet for en debet på en konto. Dette felt kan ses som standard i alle kladder for at imødekomme lovgivningsmæssige krav. Felterne **Debetbeløb** og **Kreditbeløb** indeholdet både den oprindelige post og den rettede post. Disse felter har ingen indflydelse på kontosaldoen.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladder**, og vælg derefter det relaterede link  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finanskladder**, og vælg derefter det relaterede link.  
 2.  Vælg det krævede kladdenavn i feltet **Kladdenavn**.  
 3.  Angiv oplysningerne i de relevante felter.  
 4.  I den kladdelinje, som du vil aktivere for negative poster, skal du markere afkrydsningsfeltet **Rettelse**.  

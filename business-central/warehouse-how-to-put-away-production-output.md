@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a7918a962f3349c68cd7245e9b12f83975aee5ac
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9092100816c58fe2882c61214a5008e27591d4f5
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="put-away-production-or-assembly-output"></a>Lægge produktions- eller montageafgange på lager
@@ -29,14 +29,14 @@ I avancerede lageropsætninger, hvor lokationen kræver både læg-på-lager og 
 Det første trin til at lægge afgange på lager er at oprette den indgående lageranmodning. Denne anmodning oplyser lagerstedet om, at produktions- eller montageordreafgangen er klar til at blive lagt på lager.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Sådan opretttes den indgående lageranmodning  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Frigivet produktionsordre**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivet produktionsordre**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Opret indgående lageranmodning** på den produktionsordre, der er klar til at blive lagt på lager.  
 
 > [!NOTE]  
 >  Du kan også oprette en indgående lageranmodning ved at markere afkrydsningsfeltet **Opret indgående anmodning**, når du opdaterer produktionsordren. Du kan finde flere oplysninger i [Forny eller omplanlægge produktionsordrer](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Sådan lægges afgang på lager med en læg-på-lager-aktivitet  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Læg-på-lager**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager**, og vælg derefter det relaterede link.  
 2.  Opret en ny læg-på-lager-aktivitet. Du kan finde flere oplysninger i [Lægge varer på lager med Læg-på-lager](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Du kan få adgang til produktionsordreafgangen ved at vælge handlingen **Hent kildedokumenter** og derefter vælge den frigivne produktionsordre.  
 4.  Udfyld læg-på-lager-linjerne efter behov.
@@ -49,7 +49,7 @@ Når du bogfører læg-på-lager, antages det, at alle operationer er bogført i
 Hvis du kun har behov for at bogføre opstillings- og operationstid på den sidste operation, skal du angive afgangsantallet for den sidste operation til 0. Alternativt kan du vælge overhovedet ikke at bogføre den sidste linje ved simpelthen at slette den.  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Sådan lægges afgang på lager med en intern læg-på-lager-aktivitet
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intern læg-på-lager (logistik)**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intern læg-på-lager-aktivitet**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.
 3. Udfyld hovedet for en ny intern læg-på-lager-aktivitet med **Lokationskoden**.  
 4. Udfyld en linje for hver vare, der skal flyttes til lagerstedet. Det er kun nødvendigt at udfylde felterne **Varenr.** og **Antal**.  
@@ -64,7 +64,7 @@ Hvis du kun har behov for at bogføre opstillings- og operationstid på den sids
 >  Når lagerlokationen kræver styret læg-på-lager og pluk, er lagerstedet knyttet til produktionsfaciliteterne via standardproduktionsplaceringerne: de indgående og udgående produktionsplaceringer og den åbne produktion, som alle defineres i oversigtspanelet **Placeringer** på lokationskortet. Når du bogfører afgangen for en produktionsordre, anbringes afgangen på den **udgående produktionsplacering**. Du skal benytte samme fremgangsmåde som beskrevet ovenfor til at lægge produktionsafgangen på lager, bortset fra at i stedet for at bruge varens standardplacering skal du flytte eller lægge varerne på lager fra den **udgående produktionsplacering** til varens standardplacering.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Hvis du manuelt vil angive en placering til at gemme varerne fra produktionsafgang  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
 2.  Udfyld hovedet, og opret en linje for hver vare, der skal flyttes til lagerstedet.  
 3.  Udfyld begge felterne **Fra placeringskode** og **Til placeringskode**, og indtast antal i feltet **Antal**.  
 4.  For at udfylde kladdelinjerne med hele placeringsindholdet eller det filtrerede placeringsindhold for placeringer på lokationen skal du vælge handlingen **Hent placeringsindh.**.  

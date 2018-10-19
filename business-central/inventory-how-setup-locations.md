@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 45943ef97eee9d6bf24fd679e5dbbab96f5177f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 503655e65b7df83c89e52d76a22396b672b2d28e
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
@@ -25,7 +25,7 @@ Hvis du køber, gemme eller sælger varer i mere end ét område eller lagersted
 Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængeligehed pr. lokation og vare samt overføre lagerbeholdning mellem lokationer. Der er flere oplysninger i [Administrere lager](inventory-manage-inventory.md).
 
 ## <a name="to-create-a-location-card"></a>Sådan oprettes et lokationskort
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. I vinduet **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Gentag trin 2 og 3 for hver lokation, hvor du vil foretage lageropgørelse.
@@ -34,7 +34,7 @@ Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængelige
 > Mange af felterne på lokationskortet henviser til håndtering af varer i indgående og udgående lagerprocesser. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).
 
 ## <a name="to-create-a-transfer-route"></a>Sådan oprettes en overflytningsrute
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Overflytningsruter**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Overflytningsruter**, og vælg derefter det relaterede link.
 2. Du kan også vælge handlingen **Overflytningsruter** i ethvert **Lokationskort**-vindue.
 3. Vælg handlingen **Ny**.
 4. I vinduet **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

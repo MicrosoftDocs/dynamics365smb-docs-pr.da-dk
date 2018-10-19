@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/04/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b71f678215bef6d532ca3c60ad2010b6daa5398d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b2dbd2d6019dd9657925666c042b5e6774926a1b
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="the-oioubl-extension-for-electronic-invoicing-in-denmark"></a>Udvidelsen OIOUBL til elektronisk fakturering i Danmark
@@ -24,9 +24,9 @@ Når du sælger varer eller tjenesteydelser til debitorer i den danske offentlig
 
 Udvidelsen OIOUBL i [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gør det nemt at oprette disse XML-dokumenter for bogførte salgs- og servicefakturaer, kreditnotaer og udstedte rykkere (som omfatter rentenotaer).  
 
-De aktuelle krav til at sende elektroniske fakturaer er baseret på UBL version 2.0-standarden. Du kan finde flere oplysninger på [OASIS UBL](http://go.microsoft.com/fwlink/?LinkId=212593)-webstedet. 
+De aktuelle krav til at sende elektroniske fakturaer er baseret på UBL version 2.0-standarden. Du kan finde flere oplysninger på webstedet https://aka.ms/OasisUblSite.
 
-Yderligere oplysninger om OIOUBL generelt se webstedet for [OIOUBL-onlinedokumentation](http://www.oioubl.info), og siden [Ofte stillede spørgsmål](https://www.digst.dk/It-loesninger/NemHandel/Spoergsmaal-og-svar.aspx) på webstedet Digitaliseringsstyrelsen.  
+Yderligere oplysninger om OIOUBL generelt se webstedet for [OIOUBL-onlinedokumentation](https://www.oioubl.info), og siden [Ofte stillede spørgsmål](https://digst.dk/it-loesninger/nemhandel/anvendelse/send-en-e-faktura/spoergsmaal-og-svar/) på webstedet Digitaliseringsstyrelsen.  
 
 ## <a name="getting-started-with-the-oioubl-extension"></a>Kom i gang med udvidelsen OIOUBL  
 Som standard er OUOUBL-udvidelsen installeret i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Men, der er et par ting, du skal gøre, før du kan bruge udvidelsen:

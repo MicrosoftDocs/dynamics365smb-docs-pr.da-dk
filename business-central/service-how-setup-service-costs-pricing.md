@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5125a0d0b298487130588146f1307379f465da0e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -28,7 +28,7 @@ I overensstemmelse med implementeringen kan du konfigurere prisgrupper og knytte
 ## <a name="to-set-up-a-service-price-group"></a>Sådan oprettes serviceprisgrupper
 Du kan konfigurere grupper, der indeholder serviceartikler, som du vil give samme særlige serviceprissætning. Du tildeler serviceprisgrupper til serviceartikler på serviceartikellinjer. Du kan også tildele serviceprisgrupper til serviceartikelgrupper.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceprisgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceprisgrupper**, og vælg derefter det relaterede link.  
 2. Opret en ny serviceprisgruppe.  
 3. Udfyld felterne **Kode** og **Beskrivelse**.  
 4. Vælg handlingen **Konfigurer**.  
@@ -40,7 +40,7 @@ Du kan konfigurere grupper, der indeholder serviceartikler, som du vil give samm
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Sådan oprettes serviceprisreguleringsgrupper  
 Du kan konfigurere prisreguleringsgrupper, hvis du vil regulere serviceprissætning for serviceartikler. Du kan for eksempel konfigurere prisreguleringsgrupper, der regulerer prisen på fragt eller reservedele.  
   
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceprisgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceprisreguleringsgrupper**, og vælg derefter det relaterede link.  
 2. Opret en ny serviceprisreguleringsgruppe.  
 3. Udfyld felterne **Kode** og **Beskrivelse**.  
 4. Angiv typen på den post, du vil regulere, i feltet **Type**.  
@@ -58,11 +58,11 @@ Du kan konfigurere prisreguleringsgrupper, hvis du vil regulere serviceprissætn
 Når du arbejder med serviceartikler og serviceordrer, skal du evt. registrere andre omkostninger, f.eks. rejseomkostninger i bestemte servicezoner eller startgebyrer. Når du opretter en serviceordre, du kan indsætte disse omkostninger, så føjes der en linje med typen **Omkostninger** til ordren. Du kan også oprette en standardomkostning, hvis du vil anvende omkostningen på alle serviceordrer. F.eks. hvis du altid vil anvende et startgebyr.
   
 ### <a name="to-set-up-service-costs"></a>Sådan defineres serviceomkostninger
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceomkostninger**, og vælg derefter det relaterede link. 
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceomkostninger**, og vælg derefter det relaterede link. 
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Sådan angives en standardomkostning for serviceordrer
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceopsætning**, og vælg derefter det relaterede link. 
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceopsætning**, og vælg derefter det relaterede link. 
 2. I feltet **Startgebyr på serviceordrer** skal du vælge den relevante serviceomkostning.
 
 ## <a name="see-also"></a>Se også

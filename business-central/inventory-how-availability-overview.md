@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b3626db626e3c07498ad2a45733acf205d0ec906
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 440a6bdb3203ba1f4a9eddec3a9a88a47ce7917f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
@@ -40,7 +40,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tilgængelighedstal vises i t
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Sådan får du vist tilgængeligheden for en vare, ud fra hvornår den er modtages eller leveres
 Du får vist tilgængeligheden for en vare i overensstemmelse med planlagte varetransaktioner i vinduet **Disponering pr. hændelse**.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist tilgængeligheden for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Hændelse**.
 
@@ -50,7 +50,7 @@ Du får vist tilgængeligheden for en vare i overensstemmelse med planlagte vare
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Sådan får du vist disponeringen for en vare i forskellige perioder
 Du får vist disponeringen for en vare over tid for angivne perioder i vinduet **Varedisponering pr. periode**.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist tilgængeligheden for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Periode**.
 
@@ -60,7 +60,7 @@ Du får vist disponeringen for en vare over tid for angivne perioder i vinduet *
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Sådan får du vist disponeringen for en vare på de lokationer, hvor den opbevares
 I vinduet **Varedisponering pr. lokation** får du vist disponeringen for en vare på de forskellige steder, hvor den opbevares.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist tilgængeligheden for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Lokation**.
 
@@ -71,7 +71,7 @@ I vinduet **Varedisponering pr. lokation** får du vist disponeringen for en var
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Sådan får du vist disponeringen for alle varer ud fra den lokation, hvor de opbevares
 Du får vist disponeringen for alle dine varer på tværs af alle dine lokationer i vinduet **Varer pr. lokation**.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Varer pr. lokation**.
 
     Vinduet **Varer pr. lokation** viser for alle varer, hvor mange er tilgængelige på hver enkelt lokation.

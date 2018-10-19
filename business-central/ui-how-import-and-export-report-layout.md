@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5f66e2f3a40bb3ac680838f1e74416d3876f3979
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importere og eksportere et rapport- eller dokumentlayout
@@ -27,7 +27,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
   
 ### <a name="to-export-a-report-layout-to-a-file"></a>Sådan eksporterer du et rapportlayout til en fil  
   
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
   
 2.  Vælg rækken med den rapport, der indeholder det brugerdefinerede rapportlayout, du vil eksportere, og brug derefter fanen **Startside** til at vælge **Brugerdefinerede layout** i gruppen **Proces**.  
   
@@ -41,7 +41,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
   
      En Word-layoutfil skal have filtypenavnet .docx . En RDLC-rapportlayoutfil skal have filtypenavnet .rdlc eller .rdl.  
   
-2.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
+2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
   
 3.  Vælg rækken med den rapport, du vil importere rapportlayoutet til, og brug derefter fanen **Startside** til at vælge **Brugerdefinerede layout** i gruppen **Proces**.  
   

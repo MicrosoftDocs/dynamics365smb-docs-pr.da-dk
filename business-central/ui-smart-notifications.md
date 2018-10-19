@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/17/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c064bc8a5aaff42a75b10b133225f9d2cb87d786
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="smart-notifications"></a>Smarte notifikationer
@@ -32,7 +32,7 @@ Desuden kan du ved nogle notifikationer angive, hvilke betingelser de skal sende
 
 Det er kun dig, der kan aktivere eller deaktivere notifikationer og angive betingelser.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Mine notifikationer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Mine notifikationer**, og vælg derefter det relaterede link.
 2. Aktiver eller deaktiver en notifikation ved at markere eller fjerne markeringen i afkrydsningsfeltet **Aktiveret**.
 3. Hvis du vil angive betingelser, der skal udløse en notifikation, skal du vælge linket **Vis filterdetaljer** og derefter udfylde felterne.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3faa88fada0969e118c33305b84824e0f0f9b422
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 17955c3ea1294811cd7b9ac6f726d26b0de2755c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plukke og lægge på lager uden et kildedokument
@@ -36,13 +36,13 @@ Ved hjælp af **Interne pluk**-aktiviteter kan du udføre læg-på-lager-aktivit
 >  Når lokationen bruger styret læg-på-lager og pluk og derfor placeringstyper, kan du ikke manuelt flytte varer ind eller ud af en placering af typen MODTAG, fordi varer, der findes på en placering af typen MODTAG, skal registreres som lagt på lager, før de bliver en del af den tilgængelige lagerbeholdning.  
 
 ## <a name="to-create-an-internal-pick"></a>Sådan oprettes et internt pluk  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Internt lagerpluk**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Internt lagerpluk**, og vælg derefter det relaterede link.  
 2.  Udfyld feltet **Nummer**. og **Til placeringskode** i oversigtspanelet **Generelt**. Feltet **Til placeringskode** angiver den placering, hvor varerne skal hentes. I forbindelse med produktion er denne placering placeringen for indgående produktion eller åben produktion. I andre forbindelser skal du vælge en Til placeringskode med en placeringstype, som ikke bruges til pluk, sandsynligvis en leveranceplacering eller specialplacering.  
 3.  Vælg en vare i feltet **Varenr.** , og indtast de antal, der skal plukkes.  
 4. Vælg handlingen **Opret pluk**. Der er nu en lagerplukinstruktion klar til en lagermedarbejder.  
 
 ## <a name="to-create-an-internal-put-away"></a>Sådan oprettes en intern læg-på-lager-aktivitet  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intern læg-på-lager (logistik)**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intern læg-på-lager-aktivitet**, og vælg derefter det relaterede link.  
 2.  Udfyld feltet **Nummer**. og **Fra placeringskode** i oversigtspanelet **Generelt**. Feltet **Fra placeringskode** angiver stedet for den placering, som varerne returneres fra til lagerstedet, f.eks. fra produktionsenheden.  
 3.  Angiv varenumre og antal på linjerne.  
 4.  Vælg handlingen **Opret læg-på-lager**. Der er nu en læg-på-lager-instruktion klar til en lagermedarbejder.  

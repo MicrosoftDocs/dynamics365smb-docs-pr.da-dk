@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 64f3f214d014faff6ee0e71180b1cb928bb15d86
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter, som omfatter momsbeløb
@@ -29,7 +29,7 @@ Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal diss
 >  I dette eksempel skal du ændre din arbejdsdato til 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Sådan rettes en faktura for en forudbetalt servicekontrakt  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontraktstyring**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontraktstyring**, og vælg derefter det relaterede link.  
 2. Under **Lister** skal du vælge **Servicekontrakter**.  
 3. Opret en ny forudbetalt servicekontrakt. Angiv en startdato til **01.01.2017** og et fakturaperiodeåret for debitor **20000**.  
 4. Denne kontrakt skal underskrives. Under fanen **Startside** i gruppen **Behandle** skal du vælge **Underskriv kontakt**.  

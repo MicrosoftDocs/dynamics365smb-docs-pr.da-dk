@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cea5e41e53106fafdaaf3d3f59e50d03da953f87
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 98a2e773dbde6ba4ba0493e2b0dc7b632bbea4d0
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Ændre, hvilket layout der aktuelt bruges i en rapport
@@ -25,7 +25,7 @@ En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem ef
 Afhængig af de layout, der er tilgængelige for en rapport, kan du vælge at bruge et indbygget RDLC-rapportlayout, et indbygget Word-rapportlayout eller et brugerdefineret layout. Find flere oplysninger om RDLC- og Word-rapportlayout, indbyggede og brugerdefinerede layout og mere under [Administration af rapportlayout](ui-manage-report-layouts.md).
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Sådan ændrer du layoutet, der bruges i en rapport
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
    Vinduet **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige for det firma, der er angivet i feltet Virksomhed øverst i vinduet. Feltet Valgt layout angiver det layout, der aktuelt bruges af rapporten.
 2. Angiv feltet **Virksomhed** øverst i vinduet til det firma, der indeholder rapporten.
 3. Hvis du vil ændre layoutet for en rapport, skal du i rækken for rapporten på listen angive feltet **Valgt layout** til en af følgende indstillinger:

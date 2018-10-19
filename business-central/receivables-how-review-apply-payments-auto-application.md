@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 774cd3d3b4482f5fef80014feac72b1f9e1d43bd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fd9fc95be5b6abb180dc523266b74674fe7d721
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Gennemse eller udligne betalinger manuelt efter automatisk udligning
@@ -39,7 +39,7 @@ Eventuelle justeringer af gevinster og tab, der kræves på grund af valutaomreg
 >   Du kan kun udligne en betaling på én konto. Hvis du vil fordele udligningen på flere åbne poster, for eksempel for at udligne et fast beløb, skal de åbne poster være for den samme konto. Yderligere oplysninger finder du i trin 7 og 8 i proceduren i dette emne.
 
 ## <a name="to-review-or-apply-payments-after-automatic-application"></a>Sådan gennemser eller udligner du betalinger efter automatisk udligning
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsudbetalingskladder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingsudligningskladder**, og vælg derefter det relaterede link.
 2. Åbn kladden for betalingsafstemning for en bankkonto, som du vil afstemme betalinger for. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 3. I vinduet **Betalingsudligningskladde** skal du markere en betaling, du vil gennemse eller udligne manuelt til en eller flere åbne poster og derefter vælge handlingen **Anvend manuelt**.
 4. Markér afkrydsningsfeltet **Udlignet** på linjen for den åbne post, som du vil udligne betalingen på.

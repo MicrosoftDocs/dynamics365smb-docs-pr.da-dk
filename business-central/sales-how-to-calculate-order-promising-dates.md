@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 01/19/2019
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09bb0425a8908b17939ebfa52258353e12f577f8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekræftelsesdatoer
@@ -78,7 +78,7 @@ Ordrebehandler afslutter LE-processen ved at acceptere datoerne. Det betyder, at
 Foruden den eksterne beregning af leveringstid, som du kan udføre i vinduet **Beregning af lev.tid - linjer**, kan du også love interne eller eksterne leveringsdatoer for stykliste-elementer. Du kan finde flere oplysninger i [Vise tilgængeligheden af varer](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Sådan defineres beregning af leveringstid  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætn. af beregn. af lev.tid**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætn. af beregn. af lev.tid**, og vælg derefter det relaterede link.  
 2. Angiv et nummer og en tidsenhedskode i feltet **Responstid**. Marker én af følgende koder.  
 
     |Kode|Beskrivelse|  
@@ -96,14 +96,14 @@ Foruden den eksterne beregning af leveringstid, som du kan udføre i vinduet **B
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Sådan indtastes indgående lagerekspeditionstid i vinduet Lageropsætning  
 Hvis du vil inkludere lagerekspeditionstiden i beregningen af leveringstiden på købslinjen, kan du angive det som standardindstilling for lageret og for din lokation.    
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af Lager**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Lager**, og vælg derefter det relaterede link.  
 2. På oversigtspanelet **Generelt**, i feltet **Indgående lagerekspeditionstid**, og angiv det antal dage, du vil inkludere i beregningen af leveringstiden.  
 
 > [!NOTE]  
 >  Hvis du har udfyldt feltet **Indgående lagerekspeditionstid** på **Lokationskort** for din lokation, bruges dette felt som standardekspeditionstid for indgående lageraktiviteter.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Sådan angives indgående lagerekspeditionstid på lokationskort  
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokation**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokation**, og vælg derefter det relaterede link.  
 2.  Åbn det relevante lokationskort.  
 3.  Gå til oversigtspanelet **Lagersted**, feltet **Indgående lagerekspeditionstid**, og angiv det antal dage, du vil inkludere i beregningen af leveringstiden.  
 
@@ -113,14 +113,14 @@ Hvis du vil inkludere lagerekspeditionstiden i beregningen af leveringstiden på
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Sådan indtastes udgående lagerekspeditionstid under Lageropsætning  
 Hvis du vil have, at beregningen af leveringstiden på salgslinjen skal indeholde en udgående lagerekspeditionstid, kan du angive dette som en standardindstilling for lageret.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Opsætning af Lager**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Lager**, og vælg derefter det relaterede link.  
 2. Gå til oversigtspanelet **Generel**, feltet **Udgående lagerekspeditionstid**, og angiv det antal dage, du vil inkludere i beregningen af leveringstiden.  
 
 > [!NOTE]  
 >  Hvis du har udfyldt feltet **Udgående lagerekspeditionstid** på Lokationskortet for din lokation, indsættes automatisk indholdet af dette felt som standardekspeditionstid for udgående lageraktiviteter.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Sådan angives udgående Lagerekspeditionstid på lokationskort  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Åbn det relevante lokationskort.  
 3.  Gå til oversigtspanelet **Lagersted**, feltet **Udgående lagerekspeditionstid**, og angiv det antal dage, du vil inkludere i beregningen af leveringstiden.  
 
@@ -129,12 +129,12 @@ Hvis du vil have, at beregningen af leveringstiden på salgslinjen skal indehold
 
 ## <a name="to-make-an-item-critical"></a>Sådan gør du en vare kritisk  
 Før en vare kan indgå i beregningen af ordrebekræftelsen, skal den markeres som kritisk. Denne opsætning sikrer, at ikke-kritiske varer ikke medfører irrelevante beregnede leveringstider.   
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2.  Åbn det relevante varekort.  
 3.  Vælg feltet **Kritisk** i oversigtspanel **Planlægning**.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Sådan beregnes en ordrebekræftelsesdato  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
 2.  Åbn den relevante salgsordre, og vælg de salgsordrelinjer, du vil have programmet til at beregne.  
 3.  Vælg handlingen **Beregning af leveringstid**, og vælg derefter handlingen **Beregning af lev.tid - linjer**.  
 4.  Vælg en linje, og vælg derefter en af følgende indstillinger:  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19d7e142ebe10926b2caa6da2ddf6faae486bebd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Designoplysninger: Håndtering af forventet negativt lager
@@ -28,28 +28,20 @@ Genbestillingspunktet udtrykker det forventede behov under leveringstiden for va
 
  I følgende illustration repræsenterer forsynings-id en akutordre for at justere for negativt lager.  
 
- ![](media/nav_app_supply_planning_2_negative_inventory.png "NAV_APP_supply_planning_2_negative_inventory")  
+ ![Planlægningsforslag om at undgå negativt lager i nødsituation](media/nav_app_supply_planning_2_negative_inventory.png "Planlægningsforslag om at undgå negativt lager i nødsituation")  
 
 1.  Forsyning **A**, oprindeligt planlagte lagerbeholdning, er under genbestillingspunkt.  
-
 2.  En ny ordre, der er planlagt fremad, oprettes (**C**).  
 
      (Antal = Maks. lagerbeholdning – Forventet lagerbeholdning)  
-
 3.  Forsyning **A** er lukket af behov **B**, som ikke fuldt ud dækkes.  
 
      (Behov **B** kunne forsøge at planlægge forsyning C, men det vil ikke ske i overensstemmelse med intervalkonceptet).  
-
 4.  Ny forsyning (**D**) er oprettet for at dække det resterende antal efter behov **B**.  
-
 5.  Behov **B** er lukket (oprettelse af en påmindelse til den forventede lagerbeholdning).  
-
 6.  Den nye forsyning **D** er lukket.  
-
 7.  Planlagt lagerbeholdning kontrolleres, og genbestillingspunkt er ikke krydset.  
-
 8.  Forsyning **C** er lukket (der findes ingen yderligere behov).  
-
 9. Sidste kontrol: Der findes ingen udestående påmindelser om lagerniveau.  
 
 > [!NOTE]  

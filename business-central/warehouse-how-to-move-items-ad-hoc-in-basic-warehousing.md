@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fd6588adb1a7d2dff268d0a8e73c168ca24ff1d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i grundlæggende lageropsætninger
@@ -29,7 +29,7 @@ I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfelte
 >  I avancerede lageropsætninger, dvs. lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, bruges vinduet **Bevægelseskladde** eller **Internt lagerpluk** eller **Internt læg-på-lager** til ad hoc-flytning af varer mellem placeringer.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Sådan flyttes varer som en intern overførsel  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Intern flytning**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intern flytning**, og vælg derefter det relaterede link.  
 2.  Udfyld feltet **Nummer** i oversigtspanelet **Generelt**. enten ved at lade værdien i feltet være eller ved at vælge knappen **AssistEdit** for at vælge fra nummerserien.  
 3.  I feltet **Lokationskode** skal du indtaste den lokation, hvor flytningen finder sted.  
 
@@ -58,7 +58,7 @@ I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfelte
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Sådan flyttes varer i vareomposteringskladden
 I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af varer ved at ompostere deres placeringskoder. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar](inventory-how-count-adjust-reclassify.md).   
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Vareomposteringskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Vareomposteringskladde**, og vælg derefter det relaterede link.  
 2.  På hver kladdelinje skal du definere placeringer, og som du vil flytte elementer til og fra, ved at udfylde felterne **Placeringskode** og **Ny placeringskode**.  
 
     1.  Hvis du vil flytte hele indholdet i en placering til en anden placering, skal du klikke på handlingen og vælge handlingen **Hent placeringsindh.**.  

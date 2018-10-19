@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f046690ff69912fb14dfa01851532237f82b1c5d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Designoplysninger: Varekladde
 For hver lagertransaktion, f.eks. en købsleverance eller en salgsleverance, bogføres der to forskellige typer poster.  
 
-|Posttype|Description|  
+|Posttype|Beskrivelse|  
 |----------------|---------------------------------------|  
 |Antal|Afspejler ændringen af lagermængden. Disse oplysninger lagres i vareposter.<br /><br /> Ledsaget af vareudligningsposter.|  
 |Værdi|Afspejler ændringen af lagerværdien. Disse oplysninger lagres i værdiposter.<br /><br /> Der kan være en eller flere værdiposter for hver varepost eller kapacitetspost.<br /><br /> Du kan finde flere oplysninger om kapacitetsværdiposter, der er relateret til brugen af produktions- eller montageressourcer, i [Designoplysninger: Bogføring af produktionsordre](design-details-production-order-posting.md).|  
@@ -33,7 +33,7 @@ For hver lagertransaktion, f.eks. en købsleverance eller en salgsleverance, bog
 
  Med jævne mellemrum bogføres værdiposter, der er oprettet i lageropgørelsesposter, til finans for at afstemme de to posttyper af økonomiske kontrolårsager. Du kan finde flere oplysninger i [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Posteringsflow mellem lageret og Finans](media/design_details_inventory_costing_1_entry_flow.png "design_details_inventory_costing_1_entry_flow")  
+ ![Posteringsflow ved afstemning af lager med Finans](media/design_details_inventory_costing_1_entry_flow.png "Posteringsflow ved afstemning af lager med Finans")  
 
 ## <a name="example"></a>Eksempel  
  Følgende eksempel viser, hvordan vareposter, værdiposter og vareudligningsposter resulterer i finansposter.  

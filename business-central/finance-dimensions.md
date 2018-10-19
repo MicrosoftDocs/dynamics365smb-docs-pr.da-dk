@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 349a4d54a95999e3e2c2b19cc2a40c2dd1afd445
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 13e1cd1e772ed01b6503a30ef940054b0973f70f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
@@ -56,7 +56,7 @@ Du kan også oprette nogle globale dimensioner og genvejsdimensioner:
 ### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Oprette standarddimensioner for kunder, leverandører og andre konti
 Du kan tildele en standarddimension for en specifik konto. Dimensionen kopieres til kladden eller dokumentet, når du angiver kontonummeret på en linje, men du kan slette og ændre koden på linjen, hvis det er relevant. Du kan også oprette en dimension, der kræves til bogføring af en post med en bestemt type konto.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Dimensioner**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensioner**, og vælg derefter det relaterede link.  
 2.  I feltet **Dimensioner** skal du vælge den relevante dimension og derefter vælge handlingen **Kontotype-standarddim**.  
 4.  Udfyld felterne for hver ny linje, du vil oprette. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -72,7 +72,7 @@ Du kan tildele en standarddimension for en specifik konto. Dimensionen kopieres 
 ### <a name="to-set-up-default-dimension-priorities"></a>Sådan oprettes prioritering af standarddimensioner  
 Forskellige kontotyper, f.eks. en debitorkonto eller en varekonto, kan have forskellige standarddimensioner angivet. Et resultat heraf er, at en post kan have mere end én standarddimension som forslag til en dimension. For at undgå sådanne konflikter, kan du knytte prioriteringsregler til forskellige kilder.  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Prioritering af standarddim.**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Prioritering af standarddim.**, og vælg derefter det relaterede link.  
 2.  I vinduet **Prioritering af standarddim.** i feltet **Kildekode** skal du indtaste kildekoden for den posteringstabel, som standarddimensionsprioriteterne skal gælde for.  
 3.  Udfyld en linje for hver standarddimensionsprioritet som du ønsker for det valgte kildespor.
 4.  Gentag denne fremgangsmåde for hvert kildespor, du vil standarddimensionsprioriteter til.  
@@ -83,10 +83,10 @@ Forskellige kontotyper, f.eks. en debitorkonto eller en varekonto, kan have fors
 ### <a name="to-set-up-dimension-combinations"></a>Sådan oprettes kombinationer af dimensioner  
 For at undgå bogføringsposter med modstridende eller irrelevante dimensioner kan du blokere eller begrænse bestemte kombinationer af to dimensioner. Hvis en dimensionskombination er blokeret, kan du ikke bogføre dimensionerne i samme post, uanset hvad dimensionsværdierne er. En begrænset dimensionskombination tillader bogføring af begge dimensioner i samme post, men kun med visse kombinationer af dimensionsværdier.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Dimensionskombinationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensionskombinationer**, og vælg derefter det relaterede link.  
 2.  I vinduet **Dimensionskombinationer** skal du vælge feltet med dimensionskombinationen og vælge en af følgende indstillinger.  
 
-    |Felt|Description|
+    |Felt|Beskrivelse|
     |----------------------------------|---------------------------------------|  
     |**Ingen begrænsninger**|Denne dimensionskombination har ingen begrænsninger. Alle dimensionsværdier er tilladt.|  
     |**Begrænset**|Denne dimensionskombination har begrænsninger, der afhænger af, hvilke dimensionsværdier du angiver. Du skal angive begrænsningerne i vinduet **Dimensionsværdikombination**.|  
@@ -106,7 +106,7 @@ For at undgå bogføringsposter med modstridende eller irrelevante dimensioner k
 Vinduet **Standarddimensioner - flere** angiver, hvordan en gruppe af konti bruger dimensioner og dimensionsværdier. Det kan du gøre ved at markere flere konti og derefter angive standarddimensioner og dimensionsværdier for alle de konti, du har markeret i kontooversigten. Når du har angivet standarddimensioner for de markerede konti, foreslår programmet, at de samme dimensioner og dimensionsværdier benyttes, hver gang en af disse konti benyttes, f.eks. på en kladdelinje. Det gør det nemmere for brugeren at bogføre poster, eftersom felterne med dimensioner udfyldes automatisk. Det er dog muligt manuelt at ændre de dimensionsværdier, der bliver foreslået, eksempelvis på kladdelinjer.
 
 Vinduet **Standarddimensioner-flere** indeholder følgende felter:
-|Felt|Description|
+|Felt|Beskrivelse|
 |----------------------------------|---------------------------------------|  
 |**Dimensionskode**|Viser alle de dimensioner, der har været defineret som standarddimensioner for en eller flere af de markerede konti. Hvis du klikker på feltet, får du vist en oversigt over alle tilgængelige dimensioner. Hvis du markerer en dimension og klikker på OK, bliver den valgte dimension defineret som standarddimension for alle de markerede konti.|
 |**Dimensionsværdikode**|Viser enten en enkelt dimensionsværdi eller ordet (Konflikt). Hvis feltet indeholder en dimensionsværdi, har alle markerede konti den samme standarddimensionsværdi for en dimension. Hvis der står (Konflikt) i feltet, så er det ikke alle de markerede konti, der har den samme standarddimensionsværdi for en dimension. Hvis du klikker på feltet, får du vist en oversigt over alle de dimensionsværdier, der kan benyttes i forbindelse med en dimension. Hvis du markerer en dimensionsværdi og klikker på OK, bliver den markerede dimensionsværdi defineret som standarddimensionsværdi for alle de markerede konti.|
@@ -163,7 +163,7 @@ Globale dimensioner er altid defineret og navngivet i det overordnede regnskab. 
 
 Du kan se, om der er globale dimensioner for poster, når du åbner et vindue med poster. De to globale dimensioner adskiller sig fra resten af dimensionerne, fordi du kan bruge dem som filtre overalt i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
 2.  I vinduet **IC-kontoplan** skal du vælge handlingen **Poster**.  
 3.  Angiv et eller flere filtre, så du kun får vist de relevante poster.  
 4.  Hvis du vil have vist alle dimensioner for en post, skal du vælge den og derefter vælge handlingen **Dimensioner**.  

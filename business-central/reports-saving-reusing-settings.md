@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6027ba17868aca0a6571e059c9d157c542d12823
 ms.contentlocale: da-dk
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrere gemte indstillinger i rapporter
@@ -35,12 +35,12 @@ Hvis du har de nødvendige tilladelser, kan du få vist, oprette og redigere de 
 
 ## <a name="create-and-modify-saved-settings-for-all-users"></a>Oprette og redigere gemte indstillinger for alle brugere
 Du administrerer gemte indstillinger fra siden **1560 Rapportindstillinger**. Du kan åbne siden på to måder:
--   Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Rapportindstillinger**, og vælg derefter det relaterede link.
+-   Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportindstillinger**, og vælg derefter det relaterede link.
 -   Åbn en rapport, vælg opslaget ud for feltet **Brug standardværdier fra:** og vælg **Vælg fra komplet liste**.
 
 Siden viser alle eksisterende Gem indstillinger-poster for alle brugere. Hvis der er et brugernavn i kolonnen **Tildelt til**, er det kun denne bruger, der kan bruge de gemte indstillinger for den tilknyttede rapport. Hvis der er en markering i kolonnen **Del med alle brugere**, kan alle brugere anvende de gemte indstillinger for rapporten.
 
-Fra siden **Rapportindstillinger** kan du:
+Fra vinduet **Rapportindstillinger** kan du:
 -   Vælge **Ny** for at oprette en ny post for gemte indstillinger fra bunden.
 -   Vælg en post for gemte indstillinger på listen, og vælg **Kopier** for at oprette en kopi.
 -   Vælg en post for gemte indstillinger på listen, og vælg **Rediger** for at ændre en post for gemte indstillinger.

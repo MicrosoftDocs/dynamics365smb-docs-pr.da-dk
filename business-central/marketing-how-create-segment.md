@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 46492cbd6ae3134b3ba5a9ceb5b524d51649f46c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b2c0c5ecf8d99d0d49abdc4056289be00219b07a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-segments"></a>Oprette målgrupper
 Du kan oprette målgrupper for at vælge en gruppe kontakter, hvis du f.eks. vil oprette en interaktion, der vedrører flere forskellige kontakter, f.eks. en direct mail.
 
 ## <a name="to-create-a-segment"></a>Sådan oprettes målgrupper
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Målgrupper** og derefter vælge det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Målgrupper**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. I sektionen **Generelt** i feltet **Nummer** skal du skrive et nummer på målgruppen.
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/30/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 01a195130a6834256b30efea8c06841c88af354d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f153bd8ff54ed00604ad5ac894b9368575050505
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-receivables"></a>Administrere tilgodehavender
@@ -42,6 +42,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Udligne betalinger for at åbne debitorposter baseret på manuel indtastning på en liste over ubetalte salgsdokumenter. |[Afstemme debitorbetalinger manuelt på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md) |
 | Bogføre indbetalinger eller refusioner for debitorer i indbetalingskladden og udligne debitorposter, fra kladden eller fra bogførte poster. |[Afstemme debitorbetalinger manuelt](receivables-how-apply-sales-transactions-manually.md) |
 | Minde debitorer om forfaldne beløb, beregne rente, oprette rentenotaer og håndtere tilgodehavender. |[Indhente udestående beløb](receivables-collect-outstanding-balances.md) |
+| Forudsige, hvornår betalinger bliver foretaget for salgsdokumenter. | [Udvidelsen Forudsigelse af forsinket betaling](ui-extensions-late-payment-prediction.md) |
+|Bloker, at en debitor angives i dokumenter eller bogføres, for eksempel på grund af insolvens.|[Blokere debitorer](receivables-how-block-customers.md)|
 |Du kan sikre dig, at du kender omkostningerne for leverede varer ved at tildele ekstra vareomkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har efter salg af varer.|[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)|
 |Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 ## <a name="see-also"></a>Se også
@@ -51,5 +53,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

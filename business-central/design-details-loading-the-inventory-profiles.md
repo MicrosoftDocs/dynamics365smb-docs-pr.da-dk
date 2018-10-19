@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5b47a898b7e1d574abaf521e917f780fd105c4a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Designoplysninger: Indlæsning af lagerprofiler
@@ -82,7 +82,7 @@ Planlægningssystemet organiserer de mange kilder for behov og forsyning på to 
  Sikkerhedslager er et lagerantal, der er lagt til side for at kompensere for usikkerheden i behov under leveringstiden for genopfyldning. Det kan dog forbruges, hvis det er nødvendigt at tage fra det for at opfylde et behov. I dette tilfælde, vil planlægningssystemet sikre, at sikkerhedslageret hurtigt fyldes igen ved at foreslå en forsyningsordre den dag, hvor sikkerhedslageret opbruges. Denne planlægningslinje vil vise ikonet Undtagelsesadvarsel, som forklarer planlæggeren, at sikkerhedslageret er blevet helt eller delvist opbrugt ved brug af en undtagelsesordre for det manglende antal.  
 
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>Forecastbehov reduceres af salgsordrer  
- Produktionsprognosen udtrykker det forventede fremtidige behov. Mens faktisk behov angives, normalt som salgsordrer for producerede varer, bruger den prognosen.  
+ Behovsprognosen udtrykker det forventede fremtidige behov. Mens faktisk behov angives, normalt som salgsordrer for producerede varer, bruger den prognosen.  
 
  Selve forecastet er ikke reelt reduceret af salgsordrer; det forbliver det samme. Dog reduceres forecastantal i beregningen af planlægning (med salgsordremængder) før det eventuelle resterende antal i behovet for lagerprofilen. Når planlægningssystemet undersøger faktiske salgstal i en periode, medtages både åbne salgsordrer og vareposter fra leverede salg, medmindre de stammer fra en rammeordre.  
 

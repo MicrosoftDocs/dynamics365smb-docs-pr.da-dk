@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 050456758a2bf4f3489ed382103d5fed99e8fada
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Konfigurere serviceartikler og serviceartikelkomponenter
@@ -30,7 +30,7 @@ Du kan definere grupper af varer, der er beslægtede med hensyn til reparation o
 
 Du tildeler serviceartikelgrupper til varer på **Vare**-kortet og til serviceartikler på **Serviceartikel**-kortet.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceartikelgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceartikelgrupper**, og vælg derefter det relaterede link.  
 2. Opret en ny serviceartikelgruppe.  
 3. Udfyld felterne **Kode** og **Beskrivelse**.  
 4. Angiv den standardkontraktrabatprocent, som skal gælde for serviceartiklerne i gruppen, i feltet **Kontraktrabatpct. (standard)**.  
@@ -39,9 +39,9 @@ Du tildeler serviceartikelgrupper til varer på **Vare**-kortet og til servicear
 7. Hvis varerne i gruppen skal registreres som serviceartikler, når de bliver solgt, skal du markere feltet **Opret serviceartikel**.  
 
 ## <a name="to-set-up-service-item-components"></a>Sådan defineres serviceartikelkomponenter
-En serviceartikel kan bestå af flere komponenter, som kan udskiftes med reservedele, når varen repareres. Komponenterne defineres på siden **Komponentoversigt – serviceart**. Hvis du desuden vil definere komponenter for serviceartikler, som er styklister, kan du kopiere styklistevarerne og oprette dem som serviceartikelkomponenter.
+En serviceartikel kan bestå af flere komponenter, som kan udskiftes med reservedele, når varen repareres. Komponenterne defineres i vinduet **Komponentoversigt – serviceart**. Hvis du desuden vil definere komponenter for serviceartikler, som er styklister, kan du kopiere styklistevarerne og oprette dem som serviceartikelkomponenter.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceartikler**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicevarer**, og vælg derefter det relaterede link.
 2. Åbn den serviceartikel, som du vil definere komponenter for.  
 3. Vælg handlingen **Komponenter**. Vinduet **Komponentoversigt - serviceart.** åbnes.  
 4. Tilføj en ny komponent.  
@@ -49,7 +49,7 @@ En serviceartikel kan bestå af flere komponenter, som kan udskiftes med reserve
 6. I feltet **Nummer** skal du vælge den artikel eller serviceartikel, som er en komponent i serviceartiklen.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Sådan defineres serviceartikelkomponenter fra styklister
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceartikler**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicevarer**, og vælg derefter det relaterede link.  
 2. Åbn den serviceartikel, som du vil definere komponenter for ud fra en stykliste.  
 3. Vælg handlingen **Komponenter**. Vinduet **Komponentoversigt - serviceart.** åbnes.  
 4. Vælg handlingen **Kopier fra stykliste**.  
@@ -57,9 +57,9 @@ En serviceartikel kan bestå af flere komponenter, som kan udskiftes med reserve
     Hvis varen, som serviceartiklen er knyttet til, er en stykliste, oprettes der automatisk komponenter for alle varerne i styklisten.  
 
 ## <a name="to-set-up-a-service-shelf"></a>Sådan defineres serviceplaceringer
-Du kan oprette serviceplaceringer, der identificerer, hvor du gemmer dine serviceartikler. Du tildeler serviceplaceringer til serviceartikler på siden **Serviceordre** og siden **Serviceartikelkladde**.  
+Du kan oprette serviceplaceringer, der identificerer, hvor du gemmer dine serviceartikler. Du tildeler serviceplaceringer til serviceartikler i vinduerne **Serviceordre** og **Serviceartikelkladde**.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Serviceplaceringer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceplacering**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 
 ## <a name="see-also"></a>Se også

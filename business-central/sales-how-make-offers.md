@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 08/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 9773b849007b5c9eed52f7223338954a64583cb8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a234dee68d9c083e1ca9f72eec86e2ba1239398c
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-sales-quotes"></a>Oprette salgstilbud
@@ -26,7 +26,7 @@ Mens du forhandler med debitoren, kan du ændre og gensende salgstilbuddet så m
 Du kan udfylde debitorfelter i salgstilbud på to måder, afhængigt af om debitoren allerede er registreret. Se trin 2 og 3 i følgende procedure.
 
 ## <a name="to-create-a-sales-quote"></a>Sådan oprettes et salgstilbud
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgstilbud**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgstilbud**, og vælg derefter det relaterede link.
 2. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 
    Andre felter i vinduet **Salgstilbud** indeholder standardoplysningerne for den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:
@@ -39,14 +39,16 @@ Du kan udfylde debitorfelter i salgstilbud på to måder, afhængigt af om debit
    En række af felterne i salgstilbuddet er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.  
 8. Udfyld de resterende felter efter behov i vinduet **Salgstilbud**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.   
+    Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.   
 
-Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.  
+    Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.  
+
 9. I oversigtspanelet **Linjer** i feltet **Type** skal du vælge, hvilken type produkt, gebyr eller transaktion, som du vil bogføre for debitoren med salgslinjen.
 10. I feltet **Nummer** skal du vælge en post, der skal bogføres i overensstemmelse med værdien i feltet **Type**.
 
- Lad feltet **Nummer** stå tomt i følgende tilfælde: – Hvis linjen bruges til en bemærkning. Skriv bemærkningen i feltet **Beskrivelse**.
- – Hvis der er tale om en katalogvare. Vælg handlingen **Vælg katalogvarer**. Du kan finde flere oplysninger under [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
+    Lad feltet **Nummer** være tomt i følgende tilfælde:
+    - Hvis der er tale om en kommentar. Skriv bemærkningen i feltet **Beskrivelse**.
+    - Hvis der er tale om en katalogvare. Vælg handlingen **Vælg katalogvarer**. Du kan finde flere oplysninger under [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
 
 11. I feltet **Antal** skal du angive, hvor mange enheder af produktet, gebyret eller transaktion, som linjen skal registrere for debitoren.
 
@@ -59,12 +61,16 @@ Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en 
 12. Hvis du vil give en rabat, skal du angive en procentdel i feltet **Linjerabatpct.**. Værdien i feltet **Linjebeløb** opdateres tilsvarende.  
 
     Hvis der er konfigureret specialvarepriser i oversigtspanelet **Salgspriser og salgslinjerabatter** på debitor- eller varekortet, opdateres linjerabatprocenten, prisen og beløbet på salgslinjen automatisk, hvis priskriterierne er opfyldt. Du kan finde flere oplysninger under [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).  
-13. Gentag trin 9 til 12 for hvert produkt, du ønsker at tilbyde debitoren.  
+13. Gentag trin 9 til 12 for hvert produkt, du ønsker at tilbyde debitoren.
 
     Totalerne under linjerne beregnes automatisk, mens du opretter eller redigerer linjer.  
 14. I feltet **Fakturarabatbeløb** skal du indtaste et beløb, der trækkes fra den værdi, der vises i feltet **I alt inkl. moms**.
 
     Hvis du har konfigureret fakturarabatter til debitoren, indsættes den angivne procentværdi automatisk i feltet **Fakturarabat i %**, hvis kriterierne er opfyldt, og det relaterede beløb indsættes i feltet **Fakturarabat ekskl. moms**. Du kan finde flere oplysninger under [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
+
+    > [!TIP]
+    > Feltet **Tilbud gyldigt til dato** kan udfyldes automatisk med et bestemt antal dage efter oprettelsen af tilbuddet, hvis du udfylder feltet **Beregning af tilbuddets gyldighed** i vinduet **Salg**. 
+
 15. Når salgstilbudslinjerne er fuldført, skal du vælge handlingen **Send via mail**.
 16. I feltet **Send mail** skal du udfylde de resterende felter og gennemse det integrerede salgstilbud. Du kan finde flere oplysninger under [Sende dokumenter via mail](ui-how-send-documents-email.md).
 17. Hvis kunden accepterer tilbuddet, skal du vælge handlingen **Opret faktura** eller **Lav ordre**.

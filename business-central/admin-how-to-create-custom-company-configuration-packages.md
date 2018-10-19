@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7feaa0e41cf5800ffd51d5807a90f6929492804e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Oprette brugerdefinerede virksomhedsskabeloner
@@ -39,7 +39,7 @@ En anden fremgangsmåde er at oprette en pakke, der indeholder de tabeller, der 
 -   Momsbogf.opsætning  
 -   Opsætning af varebogføring  
 
-Hvis du vil se en fuldstændig liste over opsætningstabeller, skal du vælge ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Opsætning** og derefter vælge det relaterede link.  
+For at få vist en komplet liste over opsætningstabeller skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning**, og vælg derefter det relaterede link.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Sådan oprettes en brugerdefineret virksomhedskonfigurationspakke  
 1.  Oprette et ny [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***IKKE muligt Link til hjælp til "Oprette en ny lejer"***.   

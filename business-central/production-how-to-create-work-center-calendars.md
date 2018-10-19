@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a22dc01284fc0edca46d1f733f0bef83e61adbde
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Konfigurere produktionskalendere
@@ -27,7 +27,7 @@ Som grundlag for at beregne en bestemt arbejdscenter- eller produktionsressource
 Nedenstående beskrives, hvordan du opretter arbejdscenterkalendere. Trinene er de samme som ved oprettelse af produktionsressourcekalendere.  
 
 ## <a name="to-create-work-shifts"></a>Sådan oprettes arbejdsskift  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), og angiv **Arbejdsskift**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdsskift**, og vælg derefter det relaterede link.  
 2.  Angiv på en tom linje et tal i feltet **Kode** for at identificere arbejdsskiftet, f.eks. **1**.  
 3.  Beskriv arbejdsskiftet i feltet **Beskrivelse**, f.eks. **Første skift**.  
 4.  Udfyld eventuelt linjer for et andet eller tredje arbejdsskift.  
@@ -35,7 +35,7 @@ Nedenstående beskrives, hvordan du opretter arbejdscenterkalendere. Trinene er 
 Selvom arbejdscentrene ikke arbejder i forskellige arbejdsskift, skal du angive mindst én arbejdsskiftkode.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Sådan oprettes en produktionskalender  
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), og angiv **Arbejdsskift**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionskalendere**, og vælg derefter det relaterede link.  
 2.  Angiv på en tom linje et tal i feltet **Kode** for at identificere produktionskalenderen.  
 3.  Beskriv produktionskalenderen i feltet **Beskrivelse**.  
 4.  Vælg handlingen **Arbejdsdage**.
@@ -70,7 +70,7 @@ Produktionskalenderen kan nu knyttes til et arbejdscenter for at beregne den arb
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Sådan beregnes en arbejdscenterkalender  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), og angiv **Arbejdsskift**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdscentre**, og vælg derefter det relaterede link.
 2. Åbn det arbejdscenter, du vil opdatere.  
 3. Vælg hvilken produktionskalender, der skal bruges som grundlag for en arbejdscenterkalender i feltet **Produktionskalenderkode**.  
 4. Vælg handlingen **Kalender**.  

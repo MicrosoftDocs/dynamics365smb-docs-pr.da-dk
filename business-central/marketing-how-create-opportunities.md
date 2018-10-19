@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d0a3cd974742e9b5745ca3ca08fa582dff1522a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Oprette salgsleads
@@ -27,7 +27,7 @@ Du kan oprette leads fra vinduet **Leadoversigt**. Men du skal normalt oprette l
 Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Sådan oprettes et lead fra en sælger
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sælgere**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere**, og vælg derefter det relaterede link.
 2. Vælg den sælger på listen, du vil oprette et lead for.
 3. Vælg handlingen **Leads**, og vælg derefter **Oversigt**.
 4. Vælg **Ny**, og udfyld de felterne efter relevans. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan fi
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Sådan oprettes et lead fra en kontakt
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kontakter**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.
 2. Vælg den kontakt i oversigten, du vil oprette et lead for.
 3. Gør ét af følgende:
    * Vælg handlingen **Opret lead**.

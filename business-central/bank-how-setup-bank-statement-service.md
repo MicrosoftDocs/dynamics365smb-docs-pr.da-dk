@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f3507de1dbf463066b81b8504b832d12731f9138
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e3d739a31c2e5a17c6ba3cc4ff1b9f158642051c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurere tjenesten Envestnet Yodlee Bank Feeds
@@ -40,14 +40,14 @@ Når bankfeedtjenesten er aktiveret, kan du indstille en bankkonto til automatis
 > Hvis du bruger den angive opsætning af Konfigurer virksomhed, udføres nogle af trinnene i følgende procedurer automatisk, når du kommer til opsætning af virksomhedens bankkonto. Du kan finde flere oplysninger under [Introduktion](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Sådan aktiveres bankfeedtjenesten
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn den bankkonto, som du vil bruge til bankfeedtjenesten.
 3. I vinduet **Bankkonto** skal du i feltet **Format til import af bankkontoudtog** , vælge YODLEEBANKFEED.  
 
 Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede onlinebankkonto. Se den næste fremgangsmåde.  
 
 ## <a name="to-create-a-new-linked-bank-account"></a>Sådan oprettes en ny tilknyttet bankkonto
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den relevante bankkonto, og vælg derefter **Opret ny tilknyttet bankkonto**. Vinduet **Tilknytning af bankkonto** åbnes efter et kort øjeblik.
 
     > [!NOTE]  
@@ -75,7 +75,7 @@ Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede on
 10. Brug vinduet **Bankkontooversigt** til at vælge den bankkonto, som du vil oprette en tilknytning til, og vælg derefter knappen **OK**.
 
 ## <a name="to-link-a-bank-account-to-an-online-bank-account"></a>Sådan knyttes en bankkonto til en onlinebankkonto
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg linjen for en bankkonto, der ikke er knyttet til en onlinebankkonto, og vælg derefter handlingen **Tilknyt til onlinebankkonto**. Vinduet **Tilknytning af online bankkonto** åbnes med navnet på banken angivet i ruden **Tilknyt konto**.
 3. Vælg bankens navn. Ruden **Log på** åbnes.
 4. Angiv det brugernavn og den adgangskode, som du bruger til at logge på onlinebanken, og vælg derefter knappen **Næste**.  
@@ -88,20 +88,20 @@ Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede on
 I vinduet **Bankkontooversigt** er afkrydsningsfeltet **Tilknyttet** markeret.
 
 ## <a name="to-unlink-a-bank-account"></a>Sådan fjernes tilknytningen til en bankkonto
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.  
 2. Vælg linjen for en tilknyttet bankkonto, som du vil fjerne tilknytningen for til den relaterede onlinebankkonto, og vælg derefter handlingen **Fjern tilknytning til onlinebankkonto**.
 
 > [!NOTE]  
 > Hvis du vælger **Ja** i bekræftelsesdialogboksen, fjernes tilknytningen til onlinebankkontoen og logondetaljer ryddes. Hvis du vil knytte bankkontoen til onlinebankkontoen igen, skal du logge på banken igen. Du kan finde flere oplysninger i afsnittet “Sådan knyttes en bankkonto til en onlinebankkonto“.
 
 ## <a name="to-update-bank-account-linking"></a>Sådan opdateres tilknytning af bankkonto
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den relevante bankkonto, og vælg derefter handlingen **Opdater tilknytning af bankkonto**.
 
-Hvis der er problemer med nogen af de tilknyttede bankkonti i vinduet **Bankkontooversigt**, åbnes vinduet **Tilknytning af bankkonto** og angiver, hvilke konti der er problemer med. Problemer kan bedst løses ved at fjerne tilknytningen af onlinebankkontoen og derefter at oprette tilknytningen igen. Du kan finde flere oplysninger i afsnittet “Sådan knyttes en bankkonto til en onlinebankkonto“.
+Hvis der er problemer med nogen af de tilknyttede bankkonti i vinduet **Bankkontooversigt**, åbnes vinduet **Tilknytning af bankkonto** og angiver, hvilke konti der er problemer med. Problemer kan bedst løses ved at fjerne tilknytningen af onlinebankkontoen og derefter at oprette tilknytningen igen. Du kan finde flere oplysninger i afsnittet "Sådan knyttes en bankkonto til en onlinebankkonto".
 
 ## <a name="to-enable-automatic-import-of-bank-statements"></a>Sådan aktiveres automatisk import af kontoudtog fra banken
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg linjen for en tilknyttet bankkonto og vælg derefter handlingen **Opsætning af automatisk import af bankkontoudtog**.
 3. I vinduet **Opsætning af automatisk import af bankkontoudtog** skal du i feltet **Antal dage inkluderet** angive, hvor langt tilbage i tiden, der skal hentes nye banktransaktioner.
 

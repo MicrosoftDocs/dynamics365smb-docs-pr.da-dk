@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc2c7d5ecbff5d7cd0109c56e3c76ca137564d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Administrere virksomhedskonfigurationen i et regneark
@@ -30,7 +30,7 @@ Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger f
 
 ## <a name="to-open-the-configuration-worksheet"></a>Åbne konfigurationsregnearket  
 1.  I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du åbne den virksomhed, der er udgangspunkt for konfigurationen og derefter åbne dens rollecenter for RapidStart Services-implementering.  
-2.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Konfigurationsregneark**, og vælg det relaterede link.  
+2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Føje en tabel til regnearket  
 1.  I vinduet **Konfig.kladde** skal du vælge handlingen **Rediger liste**.  
@@ -56,7 +56,7 @@ Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger f
 1. Vælg handlingen **Hent tabeller**. Kørselsvinduet **Hent konfig.tabeller** åbnes.  
 2. I oversigtspanelet **Indstillinger** skal du angive typerne af tabeller, som du vil føje til konfigurationen, som beskrevet i følgende tabel.
 
-    |Indstilling|Description|  
+    |Indstilling|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Medtag kun med data**|Markér afkrydsningsfeltet for kun at medtage de tabeller, der indeholder data. F.eks. vil du måske medtage en tabel, der definerer de typiske betalingsbetingelser, som din løsning understøtter.|  
     |**Medtag relaterede tabeller**|Markér afkrydsningsfeltet for at medtage alle relaterede tabeller. Se trin 3 i denne procedure for at tilføje et undersæt af relaterede tabeller.|  
