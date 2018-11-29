@@ -63,7 +63,7 @@ Du kan kopiere så mange rækker, som du har rullet ind i visningen. F.eks. for 
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>Skal jeg have nøjagtig samme antal kolonner, når jeg indsætter rækker?
 Ja. Uanset om du kopierer fra [!INCLUDE[d365fin](includes/d365fin_md.md)], fra Excel eller fra en anden tabelkilde, skal de rækker, du indsætter, have nøjagtigt tilsvarende antal kolonner - ikke flere ikke færre.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>Hvorfor vises der fejlmeddelelser, når jeg indsætter rækker? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>Hvorfor vises der fejlmeddelelser, når jeg indsætter rækker?
 Når du indsætter i [!INCLUDE[d365fin](includes/d365fin_md.md)], kontrolleres hver række for at sikre, at værdierne i hver kolonne er gyldige. Hvis en kolonne indeholder en værdi, der ikke er gyldig, standes indsætningen, og der vises en fejlmeddelelse. For at undgå dette, skal du kontrollere, at kolonnerne har gyldige værdier, før du indsætter dem.
 
 
