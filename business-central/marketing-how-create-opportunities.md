@@ -13,37 +13,37 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
-# <a name="create-sales-opportunities"></a><span data-ttu-id="11a79-103">Oprette salgsleads</span><span class="sxs-lookup"><span data-stu-id="11a79-103">Create Sales Opportunities</span></span>
-<span data-ttu-id="11a79-104">Du kan oprette leads for de salgslaeds du har for dine kontakter.</span><span class="sxs-lookup"><span data-stu-id="11a79-104">You can create opportunities for the sales opportunities you have on your contacts.</span></span> <span data-ttu-id="11a79-105">Alle leads skal knyttes til en sælger eller indkøber og skal have en kontakt.</span><span class="sxs-lookup"><span data-stu-id="11a79-105">All opportunities must be assigned to a salesperson or purchaser and must have a contact.</span></span>
+# <a name="create-sales-opportunities"></a><span data-ttu-id="57ba7-103">Oprette salgsleads</span><span class="sxs-lookup"><span data-stu-id="57ba7-103">Create Sales Opportunities</span></span>
+<span data-ttu-id="57ba7-104">Du kan oprette leads for de salgslaeds du har for dine kontakter.</span><span class="sxs-lookup"><span data-stu-id="57ba7-104">You can create opportunities for the sales opportunities you have on your contacts.</span></span> <span data-ttu-id="57ba7-105">Alle leads skal knyttes til en sælger eller indkøber og skal have en kontakt.</span><span class="sxs-lookup"><span data-stu-id="57ba7-105">All opportunities must be assigned to a salesperson or purchaser and must have a contact.</span></span>
 
-<span data-ttu-id="11a79-106">Du kan oprette leads fra vinduet **Leadoversigt**.</span><span class="sxs-lookup"><span data-stu-id="11a79-106">You can create opportunities from the **Opportunity List** window.</span></span> <span data-ttu-id="11a79-107">Men du skal normalt oprette leads fra den specifikke kontakt eller sælger.</span><span class="sxs-lookup"><span data-stu-id="11a79-107">But you typically will create opportunities from the specific contact or salespeople.</span></span>
+<span data-ttu-id="57ba7-106">Du kan oprette leads på siden **Leadoversigt**.</span><span class="sxs-lookup"><span data-stu-id="57ba7-106">You can create opportunities from the **Opportunity List** page.</span></span> <span data-ttu-id="57ba7-107">Men du skal normalt oprette leads fra den specifikke kontakt eller sælger.</span><span class="sxs-lookup"><span data-stu-id="57ba7-107">But you typically will create opportunities from the specific contact or salespeople.</span></span>
 
-<span data-ttu-id="11a79-108">Funktionen forudsætter, at du har defineret salgsprocesser for leads.</span><span class="sxs-lookup"><span data-stu-id="11a79-108">Before you can create opportunities, you must set up opportunity sales cycles.</span></span> <span data-ttu-id="11a79-109">Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="11a79-109">For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
+<span data-ttu-id="57ba7-108">Funktionen forudsætter, at du har defineret salgsprocesser for leads.</span><span class="sxs-lookup"><span data-stu-id="57ba7-108">Before you can create opportunities, you must set up opportunity sales cycles.</span></span> <span data-ttu-id="57ba7-109">Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).</span><span class="sxs-lookup"><span data-stu-id="57ba7-109">For more information see [Set Up Opportunity Sales Cycles and Stages](marketing-how-setup-opportunity-sales-cycles-stages.md).</span></span>
 
-## <a name="to-create-an-opportunity-from-a-salesperson"></a><span data-ttu-id="11a79-110">Sådan oprettes et lead fra en sælger</span><span class="sxs-lookup"><span data-stu-id="11a79-110">To create an opportunity from a salesperson</span></span>
-1. <span data-ttu-id="11a79-111">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="11a79-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.</span></span>
-2. <span data-ttu-id="11a79-112">Vælg den sælger på listen, du vil oprette et lead for.</span><span class="sxs-lookup"><span data-stu-id="11a79-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
-3. <span data-ttu-id="11a79-113">Vælg handlingen **Leads**, og vælg derefter **Oversigt**.</span><span class="sxs-lookup"><span data-stu-id="11a79-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
-4. <span data-ttu-id="11a79-114">Vælg **Ny**, og udfyld de felterne efter relevans.</span><span class="sxs-lookup"><span data-stu-id="11a79-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+## <a name="to-create-an-opportunity-from-a-salesperson"></a><span data-ttu-id="57ba7-110">Sådan oprettes et lead fra en sælger</span><span class="sxs-lookup"><span data-stu-id="57ba7-110">To create an opportunity from a salesperson</span></span>
+1. <span data-ttu-id="57ba7-111">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="57ba7-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Salespeople**, and then choose the related link.</span></span>
+2. <span data-ttu-id="57ba7-112">Vælg den sælger på listen, du vil oprette et lead for.</span><span class="sxs-lookup"><span data-stu-id="57ba7-112">Select the salesperson from the list for whom you want to create an opportunity.</span></span>
+3. <span data-ttu-id="57ba7-113">Vælg handlingen **Leads**, og vælg derefter **Oversigt**.</span><span class="sxs-lookup"><span data-stu-id="57ba7-113">Choose the **Opportunities** action, and then choose **List**.</span></span>
+4. <span data-ttu-id="57ba7-114">Vælg **Ny**, og udfyld de felterne efter relevans.</span><span class="sxs-lookup"><span data-stu-id="57ba7-114">Choose **New**, and then fill in the fields as relevant.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 
-## <a name="to-create-an-opportunity-from-a-contact"></a><span data-ttu-id="11a79-115">Sådan oprettes et lead fra en kontakt</span><span class="sxs-lookup"><span data-stu-id="11a79-115">To create an opportunity from a contact</span></span>
-1. <span data-ttu-id="11a79-116">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="11a79-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.</span></span>
-2. <span data-ttu-id="11a79-117">Vælg den kontakt i oversigten, du vil oprette et lead for.</span><span class="sxs-lookup"><span data-stu-id="11a79-117">Select the contact from the list for whom you want to create an opportunity.</span></span>
-3. <span data-ttu-id="11a79-118">Gør ét af følgende:</span><span class="sxs-lookup"><span data-stu-id="11a79-118">Do one of the following:</span></span>
-   * <span data-ttu-id="11a79-119">Vælg handlingen **Opret lead**.</span><span class="sxs-lookup"><span data-stu-id="11a79-119">Choose the **Create Opportunity** action.</span></span>
-   * <span data-ttu-id="11a79-120">Vælg handlingen **Leads**, og vælg derefter **Ny**.</span><span class="sxs-lookup"><span data-stu-id="11a79-120">Choose the  **Opportunities** action, and then choose **New**.</span></span>
-4. <span data-ttu-id="11a79-121">Udfyld de relevante felter.</span><span class="sxs-lookup"><span data-stu-id="11a79-121">Fill in the relevant fields.</span></span>
+## <a name="to-create-an-opportunity-from-a-contact"></a><span data-ttu-id="57ba7-115">Sådan oprettes et lead fra en kontakt</span><span class="sxs-lookup"><span data-stu-id="57ba7-115">To create an opportunity from a contact</span></span>
+1. <span data-ttu-id="57ba7-116">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="57ba7-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Contacts**, and then choose the related link.</span></span>
+2. <span data-ttu-id="57ba7-117">Vælg den kontakt i oversigten, du vil oprette et lead for.</span><span class="sxs-lookup"><span data-stu-id="57ba7-117">Select the contact from the list for whom you want to create an opportunity.</span></span>
+3. <span data-ttu-id="57ba7-118">Gør ét af følgende:</span><span class="sxs-lookup"><span data-stu-id="57ba7-118">Do one of the following:</span></span>
+   * <span data-ttu-id="57ba7-119">Vælg handlingen **Opret lead**.</span><span class="sxs-lookup"><span data-stu-id="57ba7-119">Choose the **Create Opportunity** action.</span></span>
+   * <span data-ttu-id="57ba7-120">Vælg handlingen **Leads**, og vælg derefter **Ny**.</span><span class="sxs-lookup"><span data-stu-id="57ba7-120">Choose the  **Opportunities** action, and then choose **New**.</span></span>
+4. <span data-ttu-id="57ba7-121">Udfyld de relevante felter.</span><span class="sxs-lookup"><span data-stu-id="57ba7-121">Fill in the relevant fields.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="11a79-122">Se også</span><span class="sxs-lookup"><span data-stu-id="11a79-122">See Also</span></span>
-[<span data-ttu-id="11a79-123">Salg</span><span class="sxs-lookup"><span data-stu-id="11a79-123">Sales</span></span>](sales-manage-sales.md)  
-[<span data-ttu-id="11a79-124">Oprette og administrere kontakter</span><span class="sxs-lookup"><span data-stu-id="11a79-124">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
-[<span data-ttu-id="11a79-125">Arbejde med Business Central</span><span class="sxs-lookup"><span data-stu-id="11a79-125">Working with Business Central</span></span>](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="57ba7-122">Se også</span><span class="sxs-lookup"><span data-stu-id="57ba7-122">See Also</span></span>
+[<span data-ttu-id="57ba7-123">Salg</span><span class="sxs-lookup"><span data-stu-id="57ba7-123">Sales</span></span>](sales-manage-sales.md)  
+[<span data-ttu-id="57ba7-124">Oprette og administrere kontakter</span><span class="sxs-lookup"><span data-stu-id="57ba7-124">Creating and Managing Contacts</span></span>](marketing-contacts.md)  
+[<span data-ttu-id="57ba7-125">Arbejde med Business Central</span><span class="sxs-lookup"><span data-stu-id="57ba7-125">Working with Business Central</span></span>](ui-work-product.md)
 
