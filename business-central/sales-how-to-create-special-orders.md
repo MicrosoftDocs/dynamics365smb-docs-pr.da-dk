@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Oprette specialordrer
@@ -32,9 +32,9 @@ Før du kan bruge denne funktion, skal du oprette den kunde, den leverandør, og
     Du skal nu oprette købsordren fra en indkøbskladde.  
 4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indkøbskladde**, og vælg derefter det relaterede link.  
 5. Vælg handlingen **Specialordre**, og vælg derefter handlingen **Hent salgsordrer**.  
-6.  I vinduet **Hent salgsordrer** skal du vise de resultater, hvor **Bilagsnr.** er nummeret på salgsordren. Vælg knappen **OK**. Der oprettes en indkøbskladdelinje for varen.  
+6.  På siden **Hent salgsordrer** skal du vise de resultater, hvor **Bilagsnr.** er nummeret på salgsordren. Vælg knappen **OK**. Der oprettes en indkøbskladdelinje for varen.  
 7.  Vælg **Ny** i feltet **Aktionsmeddelelse** på indkøbskladdelinjen.  
-8.  I vinduet **Indkøbskladde** skal du vælge handlingen **Udfør aktionsmeddelelse**. Vinduet **Udfør aktionsmeddl. - Indk.** åbnes. Vælg knappen **OK**.  
+8.  På siden **Indkøbskladde** skal du vælge handlingen **Udfør aktionsmeddelelse**. Siden **Udfør aktionsmeddl. - Indk.** åbnes. Vælg knappen **OK**.  
 
     Du får vist en meddelelse om, at købsordrerne er oprettet. Vælg knappen **OK**.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2300cc6e3f4c429cd73a17939420a44b846a3b13
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1de7b6679b6b2494145654f712c3ddb3e760271e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Spore relationer mellem behov og forsyning
@@ -36,12 +36,12 @@ Nedenstående beskrives, hvordan tilknyttede varer spores på en fastlagt produk
 På linjerne i vinduet **Ordresporing** vises de bilag, der har relation til den aktuelle produktionsordrelinje.
 
 ## <a name="untracked-planning-elements"></a>Ikke-sporede planlægningselementer
-Vinduet **Ikke-sporede planlægningselementer** åbnes, når du klikker på feltet **Ikke-sporet antal** i vinduet **Ordreplanlægning**. Det tjener to formål:
+Siden **Ikke-sporede planlægningselementer** åbnes, når du klikker på feltet **Ikke-sporet antal** på siden **Ordreplanlægning**. Det tjener to formål:
 
-1. Indeholde oplysninger om ikke-sporet antal, der vises, når brugeren slår op fra vinduet Ordresporing for at få vist ikke-sporede antal.
-2. Det skal indeholde advarselsmeddelelser, der vises, når brugeren vælge ikonet **Advarsel** i vinduet **Planlægningskladde**.
+1. Indeholde oplysninger om ikke-sporet antal, der vises, når brugeren slår op fra siden Ordresporing for at få vist ikke-sporede antal.
+2. Det skal indeholde advarselsmeddelelser, der vises, når brugeren vælge ikonet **Advarsel** på siden **Planlægningskladde**.
 
-Vinduet indeholder poster, der tager højde for et ikke-sporet overskudsantal i ordresporingsnetværket. Disse poster genereres i forbindelse med planlægningskørslen og forklarer, hvor det ikke-sporede overskud på ordresporingslinjerne stammer fra. Det ikke-sporede overskud kan stamme fra:
+Siden indeholder poster for ikke-sporet overskud i ordresporingsnetværket. Disse poster genereres i forbindelse med planlægningskørslen og forklarer, hvor det ikke-sporede overskud på ordresporingslinjerne stammer fra. Det ikke-sporede overskud kan stamme fra:
 
 - Produktionsforecast
 - Rammeordrer

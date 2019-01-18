@@ -1,6 +1,6 @@
 ---
 title: "Registrere forbrug og afgang for én produktionsordre | Microsoft Docs"
-description: "Denne udførelsesopgave udføres fra vinduet **Produktionskladde**. Kladden kombinerer funktionaliteten ved forbrugskladden og afgangskladden til én kladde. Der er direkte adgang til den kombinerede kladde fra en frigivet produktionsordre. Dens vigtigste formål er manuelt at bogføre forbruget af komponenter, antallet af producerede færdige varer og den tid, der bruges på operationerne."
+description: "Denne udførelsesopgave udføres fra siden **Produktionskladde**. Kladden kombinerer funktionaliteten ved forbrugskladden og afgangskladden til én kladde. Der er direkte adgang til den kombinerede kladde fra en frigivet produktionsordre. Dens vigtigste formål er manuelt at bogføre forbruget af komponenter, antallet af producerede færdige varer og den tid, der bruges på operationerne."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 673f2800c3c65af3fd50e08b0d042e6812bb29f4
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbrug og afgang for én frigivet produktionsordrelinje
-Denne udførelsesopgave udføres fra vinduet **Produktionskladde**. Kladden kombinerer funktionaliteten ved forbrugskladden og afgangskladden til én kladde. Der er direkte adgang til den kombinerede kladde fra en frigivet produktionsordre. Dens vigtigste formål er manuelt at bogføre forbruget af komponenter, antallet af producerede færdige varer og den tid, der bruges på operationerne. Værdierne bogføres til poster under den frigivne produktionsordre. Forbrugsantallene bogføres som negative vareposter, afgangsantal bogføres som positive poster, og den forbrugte tid bogføres som kapacitetsposter. Disse bogførte værdier vises også nederst i kladden som faktiske mængder.  
+Denne udførelsesopgave udføres fra siden **Produktionskladde**. Kladden kombinerer funktionaliteten ved forbrugskladden og afgangskladden til én kladde. Der er direkte adgang til den kombinerede kladde fra en frigivet produktionsordre. Dens vigtigste formål er manuelt at bogføre forbruget af komponenter, antallet af producerede færdige varer og den tid, der bruges på operationerne. Værdierne bogføres til poster under den frigivne produktionsordre. Forbrugsantallene bogføres som negative vareposter, afgangsantal bogføres som positive poster, og den forbrugte tid bogføres som kapacitetsposter. Disse bogførte værdier vises også nederst i kladden som faktiske mængder.  
 
 > [!NOTE]  
 >  Eftersom forbrugsdata behandles sammen med afgangsdata, kan kladden benyttes til at vise bundne komponenter og operationer i en logisk processtruktur. Komponenter er indrykket under deres tilhørende operation. Dette kræver, at du bruger rutebindingskoder.  
@@ -32,7 +32,7 @@ Denne udførelsesopgave udføres fra vinduet **Produktionskladde**. Kladden komb
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivne prod.ordrer**, og vælg derefter det relaterede link.  
 2.  Åbn den frigivne produktionsordrelinje, der er klar til registrering. I oversigtspanelet **Linjer** skal du derefter vælge handlingen **Linje** og derefter handlingen **Produktionskladde**.  
 
-    Vinduet **Produktionskladde** åbnes med kladdelinjer for produktionsordrelinjen i henhold til vinduerne **Produktionsordrekomponent** og **Prod.ordrerute**. Disse linjer, der stammer fra den produktionsstykliste og rute, der er tildelt den vare, der produceres. Du kan finde flere oplysninger i [Oprette produktionsstyklister](production-how-to-create-routings.md).  
+    Siden **Produktionskladde** åbnes med kladdelinjer for produktionsordrelinjen i henhold til siderne **Produktionsordrekomponent** og **Prod.ordrerute**. Disse linjer, der stammer fra den produktionsstykliste og rute, der er tildelt den vare, der produceres. Du kan finde flere oplysninger i [Oprette produktionsstyklister](production-how-to-create-routings.md).  
 
 3.  I feltet **Bogføringsdato** øverst i kladden kan du angive en bogføringsdato, der gælder for alle linjer. Arbejdsdatoen angives som standard. Feltet er beregnet til at gøre det muligt hurtigt at justere bogføringsdatoer på alle linjer, hvis det er relevant.  
 
@@ -45,7 +45,7 @@ Denne udførelsesopgave udføres fra vinduet **Produktionskladde**. Kladden komb
 
     Når kladden åbnes, er den udfyldt med de antal, der skal bogføres. Hvis der endnu ikke er bogført noget, indeholder antalfelterne som standard de forventede antal, som er overført fra produktionsordren. Hvis der er udført delvise bogføringer, viser antalfelterne de resterende antal. Allerede bogførte antal og tider for ordren vises nederst i kladden som faktiske indgange.  
 
-    For antallene i feltet **Afgangsantal** har du mulighed for at angive, hvilke værdier der skal vises, første gang kladden åbnes. Det gør du i feltet **Forudindstillet afgangsantal** i oversigtspanelet **Generelt** i vinduet **Produktionsopsætning**.
+    For antallene i feltet **Afgangsantal** har du mulighed for at angive, hvilke værdier der skal vises, første gang kladden åbnes. Det gør du i feltet **Forudindstillet afgangsantal** i oversigtspanelet **Generelt** på siden **Produktionsopsætning**.
 
 5.  Fortsæt med at angive de relevante forbrugs- og afgangsmængder i de felter, der kan redigeres.  
 
@@ -64,7 +64,7 @@ Hvis værdier skal bogføres, indeholder kladden disse resterende værdier næst
 >  Hvis du lukker kladden uden at bogføre, går ændringerne tabt.  
 
 > [!WARNING]  
->  Vinduet **Produktionskladde** kan ikke bruges af to brugere på én gang. Det betyder, at hvis Bruger 2 åbner vinduet og indtaster data, når Bruger 1 allerede arbejder i vinduet, kan Bruger 2 miste data, når Bruger 1 lukker vinduet.  
+>  Siden **Produktionskladde** kan ikke bruges af to brugere på én gang. Det betyder, at hvis Bruger 2 åbner siden og indtaster data, når Bruger 1 allerede arbejder på siden, kan Bruger 2 miste data, når Bruger 1 lukker siden.  
 
 ## <a name="see-also"></a>Se også  
 [Produktion](production-manage-manufacturing.md)    

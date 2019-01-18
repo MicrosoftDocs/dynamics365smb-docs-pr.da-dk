@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gennemgang: Opsætning og fakturering af salgsforudbetalinger
@@ -65,11 +65,11 @@ Følgende procedurer beskriver, hvordan Pias opgaver udføres:
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Sådan opsættes nummerserierne for forudbetalinger  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af salg og tilgodehavender**, og vælg derefter det relaterede link.  
-2.  I vinduet **Salgsopsætning** skal du udvide oversigtspanelet **Nummerering**.  
+2.  På siden **Salgsopsætning** skal du udvide oversigtspanelet **Nummerering**.  
 3.  Kontroller, at nummerserierne for de bogførte forudbetalingsfakturaer i feltet **Bogførte forudbetalingsfakturanr.** er de samme som dem, der er bogført for salgsfakturaerne (**Bogførte fakturanumre**), og at nummerserierne for bogførte forudbetalingskreditnotaer (**Bogførte forudbetalingskreditnotanr.**) er de samme som dem, der er bogført for kreditnotaer (**Bogf. kreditnotanumre**).  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>Sådan blokeres forsendelser ved ubetalte forudbetalinger  
-1.  Gå til vinduet **Salgsopsætning**, og marker afkrydsningsfeltet **Kontroller forudbetaling ved bogføring** i oversigtspanelet **Generelt**.
+1.  Gå til siden **Salgsopsætning**, og marker afkrydsningsfeltet **Kontroller forudbetaling ved bogføring** i oversigtspanelet **Generelt**.
 
     Nu kan du ikke kan levere eller fakturere en ordre med et forudbetalingsbeløb, der ikke er betalt.  
 
@@ -85,7 +85,7 @@ Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for var
 5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 6.  Åbn kortet for debitor 1100.
 7.  Vælg handlingen **Forudbetalingsprocenter**.  
-8.  Udfyld de to linjer i vinduet **Forudbetalingsprocenter - salg** på følgende måde.  
+8.  Udfyld de to linjer på siden **Forudbetalingsprocenter - salg** på følgende måde.  
 
     |**Salgstype**|**Salgskode**|**Varenr.**|**Forudbetaling i %**|  
     |--------------------|--------------------|------------------|----------------------|  
@@ -95,12 +95,12 @@ Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for var
     > [!IMPORTANT]  
     >  Afhængigt af dit land eller område, skal du også angive en skattegruppekode i oversigtspanelet **Fakturering** for varerne 1000 og 1100.  
 
-9. Luk alle vinduer.  
+9. Luk alle sider.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Angive en konto for salgsforudbetalinger i den generelle bogføringsopsætning  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 2.  Markér linjen, hvor feltet **Virksomhedsbogføringsgruppe** er indstillet til **EKSPORTERE**, og feltet **Produktbogføringsgruppe** er indstillet til **DETAIL**, og vælg derefter handlingen **Rediger**.  
-3.  Angiv den relevante konto i feltet **Forudbetalingskonto** for salg i vinduet **Bogføringsopsætningskort**.  
+3.  Angiv den relevante konto i feltet **Forudbetalingskonto** for salg på siden **Bogføringsopsætningskort**.  
 4.  Vælg knappen **OK**.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Oprette en ordre, der kræver en forudbetaling  
@@ -126,7 +126,7 @@ Susan opretter forudbetalingsfakturaen og sender den til kunden.
 
 7. Kontroller, at feltet **Forudbetaling i %** på linjen med vare **1000** indeholder **30**. Standardværdien er taget fra salgshovedet, der blev udfyldt med oplysninger fra debitorkortet.  
 
-    Feltet **Forudbetaling i %** på linjen med vare **1100** indeholder **40**. Det er denne procent, du har angivet i vinduet **Forudbetalingsprocenter - salg** for vare **1100** og debitor **20000**.  
+    Feltet **Forudbetaling i %** på linjen med vare **1100** indeholder **40**. Det er denne procent, du har angivet på siden **Forudbetalingsprocenter - salg** for vare **1100** og debitor **20000**.  
 
     Du kan finde flere oplysninger i [Oprette forudbetalinger](finance-set-up-prepayments.md).  
 8. Vælg handlingen **Statistik**.  
@@ -136,14 +136,14 @@ Susan opretter forudbetalingsfakturaen og sender den til kunden.
 
     > [!IMPORTANT]  
     >  Afhængigt af dit land/område gælder følgende trin muligvis ikke.  
-10. Skift beløb i feltet **Linjebeløb for forudbetaling ekskl. moms** til **2000**, og luk derefter vinduet.  
+10. Skift beløb i feltet **Linjebeløb for forudbetaling ekskl. moms** til **2000**, og luk derefter siden.  
 11. Kontroller feltet **Forudbetaling i %** på salgslinjerne, og du vil kunne se, at det er genberegnet til **40,81625**.  
 
     Genberegningen inkluderer alle linjer med en forudbetalingsprocent, der er større end 0.  
 
     Kunden spørger nu, om forudbetalingsprocenten kan blive angivet til 35 %. Susannes tilsynsførende godkender ændringen.  
 
-12. Gå til vinduet **Salgsordre**, og angiv **35** i feltet **Forudbetaling**.  
+12. Gå til siden **Salgsordre**, og angiv **35** i feltet **Forudbetaling**.  
 13. Vælg knappen **Ja** i den viste advarsel. Der anvendes en sats på 35 % som betalingsprocent for hele ordren.  
 14. Kontrollér, at linjerne er opdateret tilsvarende.  
 
@@ -152,7 +152,7 @@ Når den korrekte forudbetalingsværdi er angivet på ordren, opretter Susan for
 
 #### <a name="to-create-a-prepayment-invoice"></a>Sådan oprettes en forudbetalingsfaktura  
 
-1.  I vinduet **Salgsordre** skal du vælge handlingen **Bogfør forudbetalingsfaktura**.  
+1.  På siden **Salgsordre** skal du vælge handlingen **Bogfør forudbetalingsfaktura**.  
 
 > [!NOTE]  
 >  Susan vil her vælge **Bogfør og udskriv forudbetalingsfaktura** og sende fakturaen til kunden.  
@@ -162,7 +162,7 @@ Den næste dag ringer kunden til Susan med ændringer til ordren. Kunden vil ger
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>Sådan oprettes der en forudbetalingsfaktura til  
 
-1.  I vinduet **Salgsordre** skal du vælge handlingen **Åbn igen**.  
+1.  På siden **Salgsordre** skal du vælge handlingen **Åbn igen**.  
 2.  Gå til linjen for vare **1100** i feltet **Antal**, og indtast **2**.  
 
     Rul for at få vist forudbetalingsfelterne. Feltet **Forudbetaling - Linjebeløb ekskl. moms** indeholder nu **630**, og feltet **Forudbetalt beløb faktureret ekskl. moms** indeholder **315**. Dette viser, at der er et yderligere forudbetalingsbeløb, der endnu ikke er faktureret.  
@@ -182,7 +182,7 @@ Debitor betaler forudbetalingsbeløbet, og Arne, der arbejder i regnskabsafdelin
     |**Kontotype**|**Debitor**|  
     |**Kontonr.**|**20000**|  
 3. Vælg handlingen **Udlign**.  
-4.  Markér den første forudbetalingsfaktura, og vælg derefter handlingen **Angiv udlignings-id** i vinduet **Udlign debitorposter**.  
+4.  Markér den første forudbetalingsfaktura, og vælg derefter handlingen **Angiv udlignings-id** på siden **Udlign debitorposter**.  
 5.  Gentag det forrige trin for den anden forudbetaling.  
 6.  Vælg knappen **OK**.  
 

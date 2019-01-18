@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Sådan føjes links til websteder, dokumenter eller programmer på poster
@@ -26,7 +26,7 @@ Et andet eksempel kan være, når du modtager en trykt faktura fra kreditorer. D
 
 1.  Åbn den post, du vil oprette linket til, f.eks. et debitorkort eller en salgsordre. Hvis linket skal knyttes til en bestemt linje, f.eks. en kladdelinje, skal du placere markøren på linjen.  
 
-2.  Vælg handlingen **Links** for at åbne vinduerne **Links**, der viser de aktuelle kæder, der føjes til posten.
+2.  Vælg handlingen **Links** for at åbne siderne **Links**, der viser de aktuelle kæder, der føjes til posten.
 
 3. Hvis du vil tilføje et nyt link, skal du vælge **+ny**.
 
@@ -43,7 +43,7 @@ Et andet eksempel kan være, når du modtager en trykt faktura fra kreditorer. D
 
 ## <a name="to-delete-a-link-from-a-record"></a>Sådan slettes et link fra en post  
 
-Hvis du vil slette et link, kan du i vinduet **Links** vælge **...** og derefter **Slet**.
+Hvis du vil slette et link, kan du på siden **Links** vælge **...** og derefter **Slet**.
 
 Hvis du sletter en enkelt post, f.eks. en salgsordrelinje, en salgsordre eller en debitor, så slettes alle links med tilknytning til denne post. Men hvis du sletter poster med en kørsel, f.eks. kørslen **Slet fakturerede salgsordrer**, så lagres linksene stadig i databasen. Hvis du vil slette linkene fra databasen, skal du køre codeunit **Slet underordnede postlinks**. For at gøre dette skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet uafhængige posttilknytninger**, og vælg derefter det relaterede link.   
 
@@ -51,7 +51,7 @@ Hvis du sletter en enkelt post, f.eks. en salgsordrelinje, en salgsordre eller e
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Se også  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

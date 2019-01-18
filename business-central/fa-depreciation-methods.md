@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciation-methods"></a>Afskrivningsmetoder
@@ -52,7 +52,7 @@ Hvis du angiver afskrivningsperioden (antal afskrivningsår, antal afskrivningsm
 
 De resterende afskrivningsdage beregnes som antallet af afskrivningsdage minus antallet af dage mellem afskrivningens startdato og datoen for den sidste anlægspost.  
 
-Den bogførte værdi kan reduceres med beløb for bogført afskrivning, nedskrivning, bruger 1 og bruger 2, afhængigt af om feltet **Del af afskrivningsberegning** er deaktiveret, og om feltet **Del af bogført værdi** i vinduet **Anlægsbogf.typeopsætning** er aktiveret. Med denne beregning sikres det, at anlægsaktivet et fuldstændigt afskrevet ved slutdatoen for afskrivningen.  
+Den bogførte værdi kan reduceres med beløb for bogført afskrivning, nedskrivning, bruger 1 og bruger 2, afhængigt af om feltet **Del af afskrivningsberegning** er deaktiveret, og om feltet **Del af bogført værdi** på siden **Anlægsbogf.typeopsætning** er aktiveret. Med denne beregning sikres det, at anlægsaktivet et fuldstændigt afskrevet ved slutdatoen for afskrivningen.  
 
 ### <a name="fixed-yearly-percentage"></a>Fast årlig procent
 Hvis du har angivet en fast årlig procent, bruges følgende formel til at beregne afskrivningsbeløbet:  
@@ -90,7 +90,7 @@ Følgende formel beregner afskrivningsbeløb:
 
 Afskrivningsgrundlaget beregnes som den bogførte værdi minus bogført afskrivning efter startdatoen på det aktuelle regnskabsår.  
 
-Det bogførte afskrivningsbeløb kan indeholde poster med forskellige bogføringstyper (nedskrivning, bruger1 og bruger2) efter startdatoen på det aktuelle regnskabsår. Disse bogføringstyper er inkluderet i det bogførte afskrivningsbeløb, hvis afkrydsningsfelterne **Afskrivningstype** og **Del af bogført værdi** er markeret i vinduet **Anlægsbogf.typeopsætning**.  
+Det bogførte afskrivningsbeløb kan indeholde poster med forskellige bogføringstyper (nedskrivning, bruger1 og bruger2) efter startdatoen på det aktuelle regnskabsår. Disse bogføringstyper er inkluderet i det bogførte afskrivningsbeløb, hvis afkrydsningsfelterne **Afskrivningstype** og **Del af bogført værdi** er markeret på siden **Anlægsbogf.typeopsætning**.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Eksempel – Saldo 1 afskrivning
 Et anlægsaktiv har en anskaffelsespris på DKK 100.000. Feltet **Saldopct.** er angivet til 25. Kørslen **Beregn afskrivninger** køres to gange om året.  
@@ -167,10 +167,10 @@ Ved kørslen **Beregn afskrivning** beregnes et lineært beløb og et saldobelø
 
 Du kan bruge forskellige procentsatser til saldoberegninger.  
 
-Hvis du bruger denne metode, skal du angive den anslåede levetid og en saldoprocent i vinduet **Anlægsafskrivningsprofiler**.  
+Hvis du bruger denne metode, skal du angive den anslåede levetid og en saldoprocent på siden **Anlægsafskrivningsprofiler**.  
 
 ### <a name="example---db1-sl-depreciation"></a>Eksempel – Afskrivning med Saldo 1/Lineær
-Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I vinduet **Anlægsafskrivningsprofiler** er der angivet 25 i feltet **Saldopct.** og 8 i feltet **Antal afskrivningsår**. Kørslen **Beregn afskrivninger** køres to gange om året.  
+Et anlægsaktiv har en anskaffelsespris på DKK 100.000. På siden **Anlægsafskrivningsprofiler** står der 25 i feltet **Saldopct.** og 8 i feltet **Antal afskrivningsår**. Kørslen **Beregn afskrivninger** køres to gange om året.  
 
 Anlægsposterne ser sådan ud:  
 
@@ -219,21 +219,21 @@ Det lineære beløb anvendes, fordi det er det største af de to.
 ## <a name="user-defined-depreciation"></a>Brugerdefineret afskrivning
 Programmet indeholder en funktion, som gør det muligt for dig at konfigurere brugerdefinerede afskrivningsmetoder.  
 
-Med en brugerdefineret metode skal du bruge vinduet **Afskrivningstabeller**, hvor du skal angive en afskrivningsprocent for hver periode (måned, kvartal, år eller regnskabsperiode).  
+Med en brugerdefineret metode skal du bruge siden **Afskrivningstabeller**, hvor du skal angive en afskrivningsprocent for hver periode (måned, kvartal, år eller regnskabsperiode).  
 
 Formlen for beregning af afskrivningsbeløbet er:  
 
 Afskrivningsbeløb = (Afskrivningsprocent x Antal afskrivningsdage x Afskrivningsgrundlag) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Afskrivning baseret på antal enheder
-Denne brugerdefinerede metode kan også bruges til afskrivning baseret på antal enheder, f.eks. i forbindelse med produktionsmaskiner med fastlagt levetidskapacitet. I vinduet **Afskrivningstabeller** kan du angive antallet af enheder, der kan produceres i hver enkelt periode (måned, kvartal, år eller regnskabsperiode).  
+Denne brugerdefinerede metode kan også bruges til afskrivning baseret på antal enheder, f.eks. i forbindelse med produktionsmaskiner med fastlagt levetidskapacitet. På siden **Afskrivningstabeller** kan du angive antallet af enheder, der kan produceres i hver enkelt periode (måned, kvartal, år eller regnskabsperiode).  
 
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Sådan konfigureres brugerdefinerede afskrivningsmetoder
-I vinduet **Afskrivningstabel** kan du oprette brugerdefinerede afskrivningsmetoder. For eksempel kan du konfigurere afskrivning baseret på antal enheder.  
+På siden **Afskrivningstabel** kan du oprette brugerdefinerede afskrivningsmetoder. For eksempel kan du konfigurere afskrivning baseret på antal enheder.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningstabeller**, og vælg derefter det relaterede link.  
-2. I vinduet **Afskrivningstabeloversigt** skal du vælge handlingen **Ny**.  
-3. I vinduet **Afskrivningstabelkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. På siden **Afskrivningstabeloversigt** skal du vælge handlingen **Ny**.  
+3. På siden **Afskrivningstabelkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Eksempel - Brugerdefineret afskrivning
 Du bruger en afskrivningsmetode, der gør det muligt at afskrive aktiver hurtigere af skattemæssige årsager.  
@@ -257,7 +257,7 @@ Anskaffelsesprisen er RV 100.000, og afskrivningslevetiden er fem år. Afskrivni
 
 * Afskrivningens startdato  
 
-Hvis du bruger en brugerdefineret metode, skal felterne **Første brugerdef. dato** og **Afskriv fra** udfyldes i vinduet **Anlægsafskrivningsprofiler**. Feltet **Første brugerdef. afskr.dato** og indholdet i feltet **Periodelængde** i vinduet **Afskrivningstabeller** bruges til at fastsætte tidsintervallerne til afskrivningsberegninger. Dermed sikres, at den angivne procentdel begynder at blive anvendt på samme dato for alle aktiver. Feltet **Afskriv fra den** bruges til at beregne antallet af afskrivningsdage.  
+Hvis du bruger en brugerdefineret metode, skal felterne **Første brugerdef. dato** og **Afskriv fra** udfyldes på siden **Anlægsafskrivningsprofiler**. Feltet **Første brugerdef. afskr.dato** og indholdet i feltet **Periodelængde** på siden **Afskrivningstabeller** bruges til at fastsætte tidsintervallerne til afskrivningsberegninger. Dermed sikres, at den angivne procentdel begynder at blive anvendt på samme dato for alle aktiver. Feltet **Afskriv fra den** bruges til at beregne antallet af afskrivningsdage.  
 
 I det forrige eksempel indeholder både felterne **Første brugerdef. dato** og **Afskriv fra** 01-01-01. Hvis feltet **Første brugerdef. afskr.dato** imidlertid indeholdte 01/01/10, og feltet **Afskriv fra den** indeholdte 04/01/11, ville resultatet være:  
 
@@ -273,7 +273,7 @@ I det forrige eksempel indeholder både felterne **Første brugerdef. dato** og 
 * Afskrivningens startdato  
 
 ## <a name="half-year-convention-depreciation"></a>Half-Year Convention-afskrivning (US)
-Metoden med det halvårlige afskrivningsprincip bliver kun anvendt, hvis du har markeret afkrydsningsfeltet **Brug Half-Year Convention (US)** i vinduet **Anlægsafskrivningsprofil**.  
+Metoden med det halvårlige afskrivningsprincip bliver kun anvendt, hvis du har markeret afkrydsningsfeltet **Brug Half-Year Convention (US)** på siden **Anlægsafskrivningsprofil**.  
 
 Denne afskrivningsmetode kan bruges sammen med følgende afskrivningsmetoder i programmet:  
 
@@ -284,7 +284,7 @@ Denne afskrivningsmetode kan bruges sammen med følgende afskrivningsmetoder i p
 Når du anvender det halvårlige afskrivningsprincip, afskrives et anlægsaktiv i seks måneder i det første regnskabsår, uanset hvad der står i feltet **Afskrivningsstartdato**.  
 
 > [!NOTE]  
->   Den anslåede levetid, der er tilbage for anlægsaktivet efter det første regnskabsår, vil altid indeholde et halvår, hvor det halvårlige afskrivningsprincip anvendes. Når således det halvårlige afskrivningsprincip skal anvendes korrekt, skal feltet **Afskrivningsslutdato** i vinduet **Anlægsafskrivningsprofil** altid indeholde en dato, der ligger nøjagtigt seks måneder inden den sidste dag i det regnskabsår, hvor anlægsaktivet bliver helt afskrevet.  
+>   Den anslåede levetid, der er tilbage for anlægsaktivet efter det første regnskabsår, vil altid indeholde et halvår, hvor det halvårlige afskrivningsprincip anvendes. Når således det halvårlige afskrivningsprincip skal anvendes korrekt, skal feltet **Afskrivningsslutdato** på siden **Anlægsafskrivningsprofil** altid indeholde en dato, der ligger nøjagtigt seks måneder inden den sidste dag i det regnskabsår, hvor anlægsaktivet bliver helt afskrevet.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Eksempel – Half-Year Convention-afskrivning
 Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I **Afskriv fra den** er datoen 01-03-10 angivet. Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-15. Kørslen **Beregn afskrivning** udføres en gang om året. Dette eksempel er baseret på et kalenderregnskabsår.  
@@ -304,7 +304,7 @@ Anlægsposterne ser sådan ud:
 * Afskrivningens startdato  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Eksempel: Saldo1/Lineær afskrivning efter halvårsprincippet
-Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I **Afskriv fra den** er datoen 01-11-10 angivet. Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-15. I vinduet **Anlægsafskrivningsprofiler** er der angivet 40 i feltet **Saldopct**. Kørslen **Beregn afskrivning** udføres en gang om året. Dette eksempel er baseret på et kalenderregnskabsår.  
+Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I **Afskriv fra den** er datoen 01-11-10 angivet. Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-15. På siden **Anlægsafskrivningsprofiler** står der 40 i feltet **Saldopct.**. Kørslen **Beregn afskrivning** udføres en gang om året. Dette eksempel er baseret på et kalenderregnskabsår.  
 
 Anlægsposterne ser sådan ud:  
 

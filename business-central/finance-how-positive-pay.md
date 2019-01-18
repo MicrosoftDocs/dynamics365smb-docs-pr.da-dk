@@ -13,10 +13,10 @@ ms.search.keywords: check, clearing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dc63da7f3363ef45028a0b185c27aa468e02db6d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 61f3d3fcd093c9fca4e23481ff3b527714b85379
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Eksportere en Positive Pay-fil
@@ -28,17 +28,17 @@ Du kan sikre dig, at din bank kun afregner validerede checks og beløb, ved at e
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn kortet for den bank, som du vil bruge Positive Pay til.
 3. I feltet **Eksportkode for Positive Pay** skal du angive POSPAYBANK.
-4. Luk vinduet.
+4. Luk siden.
 
 ## <a name="to-export-a-positive-pay-file"></a>Sådan eksporteres en Positive Pay-fil
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den bankkonto, du vil eksportere en Positive Pay-fil for.
 3. Vælg handlingen **Eksport af Positive Pay-betalingsposter**.
 
-    Vinduet **Eksport af Positive Pay-betalingsposter** åbnes og viser betalinger, der er foretaget for bankkontoen, siden den sidste overførselsdato, som vist i felterne **Sidst uploadet den** og **Sidst uploadet kl.**.
+    Siden **Eksport af Positive Pay-betalingsposter** åbnes og viser betalinger, der er foretaget for bankkontoen, siden den sidste overførselsdato, som vist i felterne **Sidst uploadet den** og **Sidst uploadet kl.**.
 4. I feltet **Skæringsdato for upload** skal du angiver en dato, før hvilken betalinger ikke inkluderes i den eksporterede fil.
 5. Vælg handlingen **Eksportér**.
-6. I vinduet **Udlæs fil** skal du klikke på knappen **Gem** og derefter gemme filen på et relevant sted.
+6. På siden **Udlæs fil** skal du klikke på knappen **Gem** og derefter gemme filen på et relevant sted.
 7. Overfør filen til din netbank.
 8. Notér det bekræftelsesnummer, der vises, når filoverførslen er fuldført, og kopiér det.
 
@@ -48,7 +48,7 @@ Sådan får du vist eksporterede Positive Pay-poster
 2. Vælg den bankkonto, du vil have vist Positive Pay-eksportposter for.
 3. Vælg handlingen **Positive Pay-betalingsposter**.
 
-    I vinduet **Positive Pay-betalingsposter** kan du se alle de eksporterede Positive Pay-poster for bankkontoen.
+    På siden **Positive Pay-betalingsposter** kan du se alle de eksporterede Positive Pay-poster for bankkontoen.
 4. I feltet **Bekræftelsesnr.** skal du for hver eksportpost angive bekræftelsesnummeret, der vises, når filen er overført til banken.
 5. For at få vist de relaterede betalingslinjer skal du vælge handlingen **Oplysninger om Positive Pay-betalingspost**.
 
@@ -58,7 +58,7 @@ Sådan reeksporteres Positive Pay-filer
 2. Vælg den bankkonto, du vil reeksportere Positive Pay-filer for.
 3. Vælg handlingen **Positive Pay-betalingsposter**.
 4. Vælg den linje for den Positive Pay-eksportfil, som du vil reeksportere.
-5. I vinduet **Positive Pay-betalingsposter** skal du vælge handlingen **Reeksportér Positive Pay-betaling til fil**.
+5. På siden **Positive Pay-betalingsposter** skal du vælge handlingen **Reeksportér Positive Pay-betaling til fil**.
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

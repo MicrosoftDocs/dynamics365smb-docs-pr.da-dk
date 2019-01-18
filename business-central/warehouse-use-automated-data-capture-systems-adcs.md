@@ -8,16 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="enable-automated-data-capture-systems-adcs"></a>Aktivere ADCS (Automated Data Capture Systems)
+# <a name="use-automated-data-capture-systems-adcs"></a>Brug ADCS (Automated Data Capture Systems)
+
+> [!NOTE]
+> I standardversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer ADCS kun i forbindelse med lokale installationer. Men en Microsoft-partner kan få det til at fungere i onlineinstallationer ved hjælp af PowerApps eller lignende.
+
 Du kan bruge ADCS-systemet (Automatic Data Capture System) til at registrere varebevægelser på lagerstedet og registrere bestemte kladdeaktiviteter, bl.a. regulering af vareantal på lagerkladden og lageropgørelser.  
 
 Hvis du vil bruge ADCS, skal du give hver enkelt vare, der er gemt i lageret, et vare-id. Du skal også konfigurere miniformularer, funktioner til håndholdt, dataudvekslinger og angive indstillinger for felter, der styrer ADCS. Du angiver, om du vil bruge ADCS på lokationskortet for et lagersted.
@@ -38,22 +42,22 @@ Hvis du vil bruge ADCS, skal du angive, hvilke lokationer på lagerstedet der br
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg det relaterede link.
 2.  Vælg et lagersted på listen, som du vil aktivere ADCS for, og vælg derefter handlingen **Rediger**.
-3. I vinduet **Lokationskort** skal du markere afkrydsningsfeltet **Brug ADCS**.  
+3. På siden **Lokationskort** skal du markere afkrydsningsfeltet **Brug ADCS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Angive en vare for at bruge ADCS  
 Hver vare på lager, du vil bruge sammen med ADCS, skal tildeles en id-kode, som sammenkæder den med dens varenummer. Du kan for eksempel bruge varens stregkode som id-kode. En vare kan også have flere id-koder. Du kan finde dette nyttigt i tilfælde, hvor en vare findes i forskellige enhedskoder såsom stykker og paller. I dette tilfælde skal du tildele en id-kode til hver.    
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2.  Vælg en vare på listen, som indgår i ADCS-løsningen, og vælg derefter handlingen **Rediger**.
-3. I vinduet **Varekort** skal du vælge handlingen **Tegn**.
-4. I vinduet **Vare-id'er** skal du vælge handlingen **Ny**.
+3. På siden **Varekort** skal du vælge handlingen **Tegn**.
+4. På siden **Vare-id'er** skal du vælge handlingen **Ny**.
 5. Angiv identifikationsnummeret for varen i feltet **Kode**. Du kan for eksempel bruge varens stregkode som tegn.  
 
     Du kan også angive en **Variantkode** og en kode for **Enhed**.  
 
 6. Hvis det er nødvendigt, skal du angive flere koder for hver vare.
 7. Vælg knappen **OK**.  
-8.  For at få vist oplysningerne skal du vælge feltet **Id-kode** for at åbne vinduet **Vare-id'er**.
+8.  For at få vist oplysningerne skal du vælge feltet **Id-kode** for at åbne siden **Vare-id'er**.
 
 ## <a name="to-add-an-adcs-user"></a>Sådan tilføjes en ADCS-bruger  
 Du kan tilføje enhver bruger som ADCS-bruger (Automated Data Capture System). Når du gør dette, skal brugeren også angive en adgangskode. Du kan eventuelt også angive en forbindelse, der identificerer ADCS-brugeren som lagermedarbejder. ADCS-brugeradgangskoden kan være forskellig fra Windows-logonadgangskoden for brugeren. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).

@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2e7bb4a1e4dff97167c7648d5b1c4c8250d6819b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisere indtægter og udgifter
@@ -36,12 +36,12 @@ For begge typer periodisering skal du vælge **Balance** i feltet **Type**, og n
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Periodiseringsskabeloner**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov.
-4. I feltet **Bergn.metode** skal du angive, hvordan feltet **Beløb** for hver periode i vinduet **Periodiseringsplan** beregnes. Du kan vælge mellem disse indstillinger:
+4. I feltet **Bergn.metode** skal du angive, hvordan feltet **Beløb** for hver periode på siden **Periodiseringsplan** beregnes. Du kan vælge mellem disse indstillinger:
 
    * **Lineær**: De periodiserede beløb beregnes i overensstemmelse med antallet af perioder, fordelt efter periodelængde.
    * **Lig med pr. periode**: De periodiserede beløb beregnes i overensstemmelse med antallet af perioder, fordelt jævnt på perioderne.
    * **Dage pr. periode**: De periodiserede beløb beregnes i overensstemmelse med antallet af dage i perioden.
-   * **Brugerdefineret**: De periodiserede beløb beregnes ikke. Du skal udfylde feltet **Beløb** manuelt for hver periode i vinduet Periodiseringsplan. Du kan finde flere oplysninger i afsnittet "Sådan ændres en periodiseringsplan fra en salgsfaktura".
+   * **Brugerdefineret**: De periodiserede beløb beregnes ikke. Du skal udfylde feltet **Beløb** manuelt for hver periode på siden Periodiseringsplan. Du kan finde flere oplysninger i afsnittet "Sådan ændres en periodiseringsplan fra en salgsfaktura".
 5. I feltet **Periodebeskr.** skal du angive en beskrivelse, der vises ved poster for periodiseringsbogføringen. Du kan angive følgende pladsholderkoder for typiske værdier, der indsættes automatisk, når periodebeskrivelsen vises.
 
    * %1 = Dagens nummer for periodens bogføringsdato
@@ -67,7 +67,7 @@ Eksempel: Bogføringsdatoen er 06-02-2016. Hvis du angiver "Udgifter udskudt for
 
     Bemærk, at så snart du indtaster varen (eller ressourcen eller finanskontoen) på fakturalinjen, udfyldes feltet **Periodiseringskode** med koden for den tildelte periodiseringsskabelon.
 3. Vælg handlingen **Periodiseringsplan**.
-4. I vinduet **Periodiseringsplan** skal du ændre indstillingerne i hovedet eller værdierne på linjerne, f.eks. for at udskyde beløbet til en supplerende regnskabsperiode.
+4. På siden **Periodiseringsplan** skal du ændre indstillingerne i hovedet eller værdierne på linjerne, f.eks. for at udskyde beløbet til en supplerende regnskabsperiode.
 5. Vælg handlingen **Beregn plan**.
 6. Vælg knappen **OK**. Periodiseringsplanen opdateres for salgsfakturaen. Den relaterede periodiseringsskabelon er ændret.
 
@@ -75,8 +75,8 @@ Eksempel: Bogføringsdatoen er 06-02-2016. Hvis du angiver "Udgifter udskudt for
 > [!NOTE]  
 >   Trinnene i denne procedure er de samme, som når du får vist, hvordan udgiftsperiodiseringer bogføres.
 
-1. I vinduet **Salgsfaktura** skal du vælge handlingen **Vis bogføring**.
-2. I vinduet **Vis bogføring** skal du vælge handlingen **Finanspost** og derefter vælge handlingen **Vis relaterede poster**.
+1. På siden **Salgsfaktura** skal du vælge handlingen **Vis bogføring**.
+2. På siden **Vis bogføring** skal du vælge handlingen **Finanspost** og derefter vælge handlingen **Vis relaterede poster**.
 
 Finansposter, der skal bogføres på den angivne periodiseringskonto, f.eks, Ikke-indtjent indtægt, er angivet med den beskrivelse, som du har angivet i feltet **Periodebeskr.** i periodiseringsskabelonen, f.eks. Udgifter udskudt for februar 2016".
 
@@ -85,7 +85,7 @@ Finansposter, der skal bogføres på den angivne periodiseringskonto, f.eks, Ikk
 >   Trinnene i denne procedure er de samme, som når du gennemser rapporten Oversigt over købsperiodisering.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Oversigt over salgsperiodisering**, og vælg derefter det relaterede link.
-2. I vinduet **Oversigt over salgsperiodisering** i feltet **Balance pr.** skal du angive den dato, indtil hvilken du vil have vist udskudte indtægter.
+2. På siden **Oversigt over salgsperiodisering** i feltet **Balance pr.** skal du angive den dato, indtil hvilken du vil have vist udskudte indtægter.
 3. Vælg knappen **Vis eksempel**.
 
 ## <a name="see-also"></a>Se også

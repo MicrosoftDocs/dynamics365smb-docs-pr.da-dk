@@ -13,10 +13,10 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Definere anlægsforsikring
@@ -38,11 +38,11 @@ Du kan gruppere forsikringspolicer i kategorier, som f.eks. forsikring mod tyver
 Du kan samle oplysninger om hver enkelt forsikringspolice på forsikringskortet.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikring**, og vælg derefter det relaterede link.  
-2. I vinduet **Forsikring** skal du vælge handlingen **Ny** for at oprette et forsikringskort.  
+2. På siden **Forsikring** skal du vælge handlingen **Ny** for at oprette et forsikringskort.  
 3. Udfyld felterne efter behov.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Sådan defineres forsikringskladdetyper
-Første gang du åbner vinduet **Forsikringskladde** i [!INCLUDE[d365fin](includes/d365fin_md.md)], oprettes der automatisk en forsikringskladdetype, men du kan oprette flere kladdetyper. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
+Første gang du åbner siden **Forsikringskladde** i [!INCLUDE[d365fin](includes/d365fin_md.md)], oprettes der automatisk en forsikringskladdetype, men du kan oprette flere kladdetyper. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikringskladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
@@ -52,7 +52,7 @@ Du kan definere navne i en forsikringskladdetype. Værdierne i kladdenavnet brug
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikringskladdetyper**, og vælg derefter det relaterede link.  
 2. Markér en forsikringskladdetype, og vælg derefter handlingen **Navne**.
-3. I vinduet **Forsikringskladdenavne** skal du udfylde felterne efter behov.
+3. På siden **Forsikringskladdenavne** skal du udfylde felterne efter behov.
 
 > [!NOTE]  
 >   Tallene har en særlig funktion i kladdenavne. Hvis et kladdetypenavn eller et kladdenavn indeholder et tal, vil tallet automatisk forøges med 1, hver gang kladden bogføres. Hvis du f.eks. angiver HH1 i feltet **Navn**, ændres kladdenavnet til HH2, når kladden HH1 er blevet bogført.

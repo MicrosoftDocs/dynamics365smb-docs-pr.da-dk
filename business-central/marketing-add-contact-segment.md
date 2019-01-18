@@ -13,18 +13,18 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fd6ff4b937b059980bf7fb6a41f000edc1ab1fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ba4ed0971711a1f7a827ec4ea4e42f2013a51cfd
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-contacts-to-segments"></a>Tilføje kontakter til målgrupper
-Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne i vinduet **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.
+Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne på siden **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Sådan tilføjes en kontakt til en målgruppe
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Målgrupper**, og vælg derefter det relaterede link.  
-2. Vælg målgruppen, og vælg derefter handlingen **Tilføj kontakter**. Kørselsvinduet **Tilføj kontakter** åbnes.
+2. Vælg målgruppen, og vælg derefter handlingen **Tilføj kontakter**. Kørselssiden **Tilføj kontakter** åbnes.
 3. I sektionen **Kontakt** skal du indstille filtre for at angive de oplysninger, du vil vælge kontakter efter.
 
 Hvis du vil angive yderligere filtre, skal du gentage denne fremgangsmåde i hvert af de resterende sektioner og derefter vælge knappen **OK**.
@@ -32,10 +32,10 @@ Hvis du vil angive yderligere filtre, skal du gentage denne fremgangsmåde i hve
 Hvis du har tilføjet kontakter ved en fejltagelse og ønsker at gå et trin tilbage, skal du vælge handlingen **Gå tilbage**.
 
 ## <a name="to-refine-the-number-of-contacts"></a>Sådan begrænses antallet af kontakter
-Efter du har valgt kontakter i en målgruppe, kan du have behov for at fjerne nogle af kontakterne, mens du vil beholde andre. Du kan gøre det manuelt ved at fjerne kontakterne fra linjerne i vinduet **Målgruppe**, men det er nemmere og hurtigere at bruge handlingen **Begræns kontakter**.
+Efter du har valgt kontakter i en målgruppe, kan du have behov for at fjerne nogle af kontakterne, mens du vil beholde andre. Du kan gøre det manuelt ved at fjerne kontakterne fra linjerne på siden **Målgruppe**, men det er nemmere og hurtigere at bruge handlingen **Begræns kontakter**.
 
 1. Åbn målgruppen.
-2. Vælg **Kontakter**, og vælg derefter handlingen **Begræns kontakter**. Vinduet **Fjern kontakter - begræns** åbnes.
+2. Vælg **Kontakter**, og vælg derefter handlingen **Begræns kontakter**. Siden **Fjern kontakter - begræns** åbnes.
 3. I sektionen **Kontakt** skal du angive filtre for at angive, hvilke oplysninger der skal bruges til at fjerne kontakter fra målgruppen.
 4. Tilføj flere filtre efter behov, og vælg derefter **OK**.
 
@@ -44,10 +44,10 @@ Der er ingen begrænsninger på, hvor mange gange du kan opdatere en målgruppe.
 Vælg **Antal kriteriehandlinger** i sektionen **Generelt**, hvis du vil se en oversigt over de målgruppekriterier, som du har anvendt.
 
 ## <a name="to-reduce-the-number-of-contacts"></a>Sådan reduceres antallet af kontakter
-Efter du har valgt kontakter i en målgruppe, kan du have behov for at fjerne nogle af dem. Du kan gøre dette manuelt ved at fjerne dem fra linjerne i vinduet Målgruppe, men det er nemmere og hurtigere at bruge funktionen Reducer kontakter til at angive, hvilke kontakter der skal fjernes, og at bruge funktionen Begræns kontakter til at specificere de kontakter, der skal bevares.
+Efter du har valgt kontakter i en målgruppe, kan du have behov for at fjerne nogle af dem. Du kan gøre dette manuelt ved at fjerne dem fra linjerne på siden Målgruppe, men det er nemmere og hurtigere at bruge funktionen Reducer kontakter til at angive, hvilke kontakter der skal fjernes, og at bruge funktionen Begræns kontakter til at specificere de kontakter, der skal bevares.
 
 1. Åbn målgruppen.
-2. Vælg Kontakter, og vælg derefter handlingen **Reducer kontakter**. Vinduet **Fjern kontakter - fjern** åbnes.
+2. Vælg Kontakter, og vælg derefter handlingen **Reducer kontakter**. Siden **Fjern kontakter - fjern** åbnes.
 3. I sektionen **Kontakt** skal du angive filtre for at angive, hvilke oplysninger der skal bruges til at fjerne kontakter fra målgruppen.
 4. Tilføj flere filtre efter behov, og vælg derefter **OK**.
 

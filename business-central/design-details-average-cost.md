@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-average-cost"></a>Designoplysninger: Gennemsnitlig kostpris
@@ -23,7 +23,7 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
  Værdiansættelsesdatoen angives automatisk.  
 
 ## <a name="setting-up-average-cost-calculation"></a>Opsætning af beregning af gennemsnitsomkostninger  
- I følgende tabel beskrives de to felter i vinduet **Opsætning af Lager**, der skal angives for at aktivere beregningen af gennemsnitlig kostpris.  
+ I følgende tabel beskrives de to felter på siden **Opsætning af Lager**, der skal angives for at aktivere beregningen af gennemsnitlig kostpris.  
 
 |Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 > [!NOTE]  
 >  Du kan kun bruge én gennemsnitlig omkostningsperiode og én beregningstype for gennemsnitlig kostpris i et regnskabsår.  
 >   
->  Vinduet **Regnskabsperioder** viser, hvilken gennemsnitlig omkostningsperiode og hvilken beregningstypen for gennemsnitskostprisen er gældende i den pågældende periode for hver regnskabsperiode.  
+>  Siden **Regnskabsperioder** viser, hvilken gennemsnitlig omkostningsperiode og hvilken beregningstypen for gennemsnitskostprisen er gældende i den pågældende periode for hver regnskabsperiode.  
 
 ## <a name="calculating-average-cost"></a>Beregning af gennemsnitlig kostpris  
  Når du bogfører en transaktion for en vare, der bruger kostmetoden Gennemsnit, oprettes en post i tabellen **Indf.st., regl. gnsn. kostpr.**. Denne post indeholder transaktionens varenummer, variantkode og lokationskode. Posten indeholder også feltet **Værdiansættelsesdato**, som angiver den sidste dato i den gennemsnitlige omkostningsperiode, hvor transaktionen blev bogført.  
@@ -51,7 +51,7 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
  Den beregnede gennemsnitlige kostpris udligner derefter lagerreduktionen for varen (eller vare, lokation og variant) med bogføringsdatoer inden for den gennemsnitlige omkostningsperiode. Hvis der er nogen lagerforøgelser, som blev fast udlignet til lagerreduceringer i den gennemsnitlige omkostningsperiode, bliver den beregnede gennemsnitlige kostpris videresendt fra forøgelsen til reduceringen.  
 
 ### <a name="example-average-cost-period--day"></a>Eksempel: Gennemsnitlig omkostningsperiode = dag  
- Følgende eksempler viser effekten af beregning af den gennemsnitlige kostpris ud fra en gennemsnitlig omkostningsperiode på én dag. Feltet **Beregn.type for gnsn. kostpris** i vinduet **Opsætning af Lager** er angivet til **Vare**.  
+ Følgende eksempler viser effekten af beregning af den gennemsnitlige kostpris ud fra en gennemsnitlig omkostningsperiode på én dag. Feltet **Beregn.type for gnsn. kostpris** på siden **Opsætning af Lager** er angivet til **Vare**.  
 
  Følgende tabel viser vareposter for eksemplet med den gennemsnitlige omkostningsvare, VARE1, før kørslen **Juster kostpris - vareposter** er udført.  
 
@@ -88,7 +88,7 @@ Den gennemsnitlige kostpris for en vare beregnes med et periodisk vægtet gennem
 |02-03-20|Salg|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Eksempel: Gennemsnitlig omkostningsperiode = måned  
- Følgende eksempler viser effekten af beregning af den gennemsnitlige kostpris ud fra en gennemsnitlig omkostningsperiode på én måned. Feltet **Beregn.type for gnsn. kostpris** i vinduet **Opsætning af Lager** er indstillet til **Vare**.  
+ Følgende eksempler viser effekten af beregning af den gennemsnitlige kostpris ud fra en gennemsnitlig omkostningsperiode på én måned. Feltet **Beregn.type for gnsn. kostpris** på siden **Opsætning af Lager** er indstillet til **Vare**.  
 
  Hvis den gennemsnitlige omkostningsperiode er en måned, oprettes der kun én post for hver kombination af varenummer, variantkode, lokationskode og værdiansættelsesdato.  
 

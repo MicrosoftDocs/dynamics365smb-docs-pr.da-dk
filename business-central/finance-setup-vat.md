@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -125,7 +125,7 @@ Momsangivelser giver dig mulighed for at beregne momsangivelsesbeløb for en bes
 Hvis du vil definere en momsangivelse, skal du gøre følgende:
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsangivelser**, og vælg derefter det relaterede link.  
-2. Vælg feltet **Navn**, og vælg derefter **Ny** i vinduet **Momsangivelsesnavne**.
+2. Vælg feltet **Navn**, og vælg derefter **Ny** på siden **Momsangivelsesnavne**.
 3. Udfyld de påkrævede felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -148,7 +148,7 @@ Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en g
 
 ### <a name="to-set-up-vat-clauses"></a>Sådan konfigureres momsklausuler
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsklausuler**, og vælg derefter det relaterede link.  
-2. Opret en ny linje i vinduet **Momsklausuler**.  
+2. Oprette en ny linje på siden **Momsklausuler**.  
 3. Angiv et id for klausulen i feltet **Kode**. Du bruger koden til at tildele klausulen til momsbogføringsgrupper.  
 4. I feltet **Beskrivelse** skal du angive den tekst, du vil have vist i dokumenter, som kan inkludere moms. I feltet **Beskrivelse 2** skal du angive supplerende tekst, hvis det er nødvendigt. Teksten vises på nye linjer.  
 5. Valgfrit: Hvis du vil tildele momsklausulen til en momsbogføringsopsætning med det samme, skal du vælge **Opsætning** og derefter vælge klausulen. Hvis du vil vente, kan du tildele klausulen senere på siden Momsbogføringsopsætning.  
@@ -178,7 +178,7 @@ Når du vil konfigurere koder for importmoms, skal du gøre følgende:
 ## <a name="to-verify-vat-registration-numbers"></a>Sådan kontrollere SE/CVR-numre
 Det er vigtigt, at de momsregistreringsnumre, du har for debitorer, kreditorer og kontakter, er gyldige. F.eks. ændrer virksomheder nogle gange deres status for skattetilsvar, og i visse lande kan skattemyndighederne måske bede dig om at indsende rapporter, f.eks. rapportering af EU-salg med de momsnumre, du bruger, når du handler.
 
-Kommissionen har VIES-tjenesten til kontrol af momsnumre på deres websted, som er offentlig og gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare dig for et trin, idet du kan bruge VIES-tjenesten til at validere og spore momsnumre for kunder, leverandører og kontakter direkte fra debitor-, kreditor- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] hedder **Service for validering af SE/CVR-nr. for EU**. Tjenesten findes i vinduet **Serviceforbindelser**, og du kan begynde at bruge den med det samme. Tjenesteforbindelsen er gratis, og tilmelding er ikke nødvendig.
+Kommissionen har VIES-tjenesten til kontrol af momsnumre på deres websted, som er offentlig og gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare dig for et trin, idet du kan bruge VIES-tjenesten til at validere og spore momsnumre for kunder, leverandører og kontakter direkte fra debitor-, kreditor- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] hedder **Service for validering af SE/CVR-nr. for EU**. Tjenesten findes på siden **Serviceforbindelser**, og du kan begynde at bruge den med det samme. Tjenesteforbindelsen er gratis, og tilmelding er ikke nødvendig.
 
 > [!Note]
 > For at aktivere service for validering af SE/CVR-nr. for EU skal du have administratorrettigheder.
@@ -241,7 +241,7 @@ Før du konfigurerer momssatsændringsværktøj, skal du foretage følgende forb
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Sådan konfigureres produktbogføringsgruppekonvertering  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af ændring af momssats**, og vælg derefter det relaterede link.  
-2. I vinduet **Konfiguration af ændring af momssats** under fanen **Startside** i gruppen **Behandl** skal du vælge enten **Momsproduktbogf.gruppekonv.** eller **Gen. produktbogf.gruppekonv.**.  
+2. På siden **Konfiguration af ændring af momssats** under fanen **Startside** i gruppen **Behandl** skal du vælge enten **Momsproduktbogf.gruppekonv.** eller **Gen. produktbogf.gruppekonv.**.  
 3. Angiv den aktuelle bogføringsgruppe i feltet **Fra kode**.  
 4. Angiv den nye bogføringsgruppe i feltet **Til kode**.  
 

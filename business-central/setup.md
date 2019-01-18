@@ -11,10 +11,10 @@ ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -22,7 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 F.eks er din kontoplan på forhånd udfyldt med en række bogføringskonti, der er klar til brug. Du kan også ændre kontoplanen efter dine behov. Du kan finde flere oplysninger i [Finans](finance.md).
 
-Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger om, hvordan du får adgang til alle assisterede og manuelle opsætningsvinduer, i [Bliv klar til at handle](ui-get-ready-business.md).
+Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger om, hvordan du får adgang til alle assisterede og manuelle opsætningssider, i [Bliv klar til at handle](ui-get-ready-business.md).
 
 > [!NOTE]
 > Du kan oprette en ny virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, der er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Du kan finde flere oplysninger i [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

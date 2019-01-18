@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designoplysninger: Bogføring af montageordre
@@ -53,7 +53,7 @@ Følgende tabel beskriver sekvensen af handlinger.
 |Handling|Beskrivelse|  
 |------------|-----------------|  
 |Initialiser bogføring|1. Foretag forudgående kontrol.<br />2. Tilføj bogføringsnummer, og rediger montageordrehovedet.<br />3. Frigiv montageordrer.|  
-|Post|<ol><li>Opret det bogførte montageordrehoved.</li><li>Kopier bemærkningslinjer</li><li>Bogfør montageordrelinjer (forbrug):<br /><br /> <ol><li>Opret et statusvindue til beregning af montageforbrug.</li><li>Få det resterende antal, som varekladdelinjen baseres på.</li><li>Nulstil forbrugte og resterende mængder.</li><li>For montageordrelinjer af typen Vare:<br /><br /> <ol><li>Udfyld felter på varekladdelinjen.</li><li>Overfør reservationer til varekladdelinjen.</li><li>Bogfør varekladdelinjen for at oprette poster for varen.</li><li>Opret lagerkladdelinjer, og bogfør dem.</li></ol></li><li>For montageordrelinjer af typen Ressource:<br /><br /> <ol><li>Udfyld felter på varekladdelinjen.</li><li>Bogfør varekladdelinjen. Dette opretter kapacitetsposter.</li><li>Opret og bogfør ressourcekladdelinje.</li></ol></li><li>Overfør feltværdier fra montageordrelinjen til en nyoprettet bogført montageordrelinje.</li></ol></li><li>Bogfør montageordrehoved (afgang):<br /><br /> <ol><li>Udfyld felter på varekladdelinjen.</li><li>Overfør reservationer til varekladdelinjen.</li><li>Bogfør varekladdelinjen for at oprette poster for varen.</li><li>Opret lagerkladdelinjer, og bogfør dem.</li><li>Nulstil montagemængder og resterende mængder.</li></ol></li></ol>|  
+|Post|<ol><li>Opret det bogførte montageordrehoved.</li><li>Kopier bemærkningslinjer</li><li>Bogfør montageordrelinjer (forbrug):<br /><br /> <ol><li>Opret en statusside til beregning af montageforbrug.</li><li>Få det resterende antal, som varekladdelinjen baseres på.</li><li>Nulstil forbrugte og resterende mængder.</li><li>For montageordrelinjer af typen Vare:<br /><br /> <ol><li>Udfyld felter på varekladdelinjen.</li><li>Overfør reservationer til varekladdelinjen.</li><li>Bogfør varekladdelinjen for at oprette poster for varen.</li><li>Opret lagerkladdelinjer, og bogfør dem.</li></ol></li><li>For montageordrelinjer af typen Ressource:<br /><br /> <ol><li>Udfyld felter på varekladdelinjen.</li><li>Bogfør varekladdelinjen. Dette opretter kapacitetsposter.</li><li>Opret og bogfør ressourcekladdelinje.</li></ol></li><li>Overfør feltværdier fra montageordrelinjen til en nyoprettet bogført montageordrelinje.</li></ol></li><li>Bogfør montageordrehoved (afgang):<br /><br /> <ol><li>Udfyld felter på varekladdelinjen.</li><li>Overfør reservationer til varekladdelinjen.</li><li>Bogfør varekladdelinjen for at oprette poster for varen.</li><li>Opret lagerkladdelinjer, og bogfør dem.</li><li>Nulstil montagemængder og resterende mængder.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  I modsætning til produktionsafgang, der bogføres med forventede omkostninger, bogføres montageafgange med faktiske omkostninger.  

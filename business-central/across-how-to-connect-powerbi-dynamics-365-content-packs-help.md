@@ -12,10 +12,10 @@ ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: 0196bff5dedb878884fd3d6e0208022faa968dfd
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Forbinde Power BI med Dynamics 365 Business Central-indholdspakker
@@ -29,7 +29,7 @@ Du skal have en gyldig konto til Dynamics 365 og til Power BI. Desuden skal du h
 
 Du kan også starte fra Dynamics 365 Business Edition. I rollecentret kan du gå til **Rapportvalg** i Power BI Rollecenter-delen. Vælg enten **Service** eller **Min virksomhed** på båndet. Hvis en af disse handlinger er markeret, åbnes enten galleriet Organisation i Power BI eller tjenestebiblioteket i Power BI, som også bliver filtreret, så det kun viser indholdspakker, der er relateret til [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 
-2. I feltet **Tjenester** skal du vælge **Hent**. Dermed åbnes et vindue med **AppSource** og **Apps til Power BI-apps**.  
+2. I feltet **Tjenester** skal du vælge **Hent**. Der åbnes en side med **AppSource** og **Apps til Power BI-apps**.  
 ![Vælg indholdspakker fra onlinetjenester](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Vælg **Apps** under fanen **Apps til Power BI-apps**, vælg den **Microsoft Dynamics 365 Business Central**-indholdspakke, du vil bruge, og vælg derefter **Hent nu**.  
 ![Vælg Dynamics 365 Business Central, og vælg Hent det nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)

@@ -13,10 +13,10 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c62d26dc9dc444359c0d8b5a9354b29132857de1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b684df40599a730054e333f1bdf2e526c840e0b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="categorize-items"></a>Kategorisere varer
@@ -26,8 +26,8 @@ Hvis du vil kunne finde varer ud fra egenskaber, kan du tildele vareattributter 
 
 ## <a name="to-create-an-item-category"></a>Sådan oprettes en varekategori
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekategorier**, og vælg derefter det relaterede link.
-2. I vinduet **Varekategorier** skal du vælge handlingen **Ny**.
-3. Udfyld felterne efter behov i vinduet **Varekategorikort** i oversigtspanelet **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På siden **Varekategorier** skal du vælge handlingen **Ny**.
+3. Udfyld felterne efter behov på siden **Varekategorikort** i oversigtspanelet **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. I oversigtspanelet **Attributter** skal du angive eventuelle vareattributter for varekategorien. Hvis du vil finde flere oplysninger, skal du se afsnittet "Sådan tildeles vareattributter til en varekategori" i [Arbejde med vareattributter](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  

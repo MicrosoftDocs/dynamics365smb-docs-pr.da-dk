@@ -11,10 +11,10 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0945ffb9a8eb9482883d5c524b0d7f7eea46b5b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c1bcb570f06719cfbb8930667a2f2847003d93c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle salgsreturvarer eller annulleringer
@@ -40,8 +40,8 @@ Der findes to funktioner til at tildele præcis kostprisudligning automatisk.
 
 |Funktion|Beskrivelse|  
 |------------------|---------------------------------------|  
-|Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** i vinduet **Salgsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til salgsreturvareordren. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en salgsreturvareordre og relateret salgskreditnota til en eller flere bogførte salgsfakturaer".|  
-|Funktionen **Kopiér dokument** i vinduerne **Salgskreditnota** og **Salgsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret i vinduet **Salgsopsætning**.|
+|Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** på siden **Salgsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til salgsreturvareordren. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en salgsreturvareordre og relateret salgskreditnota til en eller flere bogførte salgsfakturaer".|  
+|Funktionen **Kopiér dokument** på siderne **Salgskreditnota** og **Salgsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Salgsopsætning**.|
 
 Hvis du vil tildele præcis kostprisudligning manuelt, skal du vælge feltet **Udlign-fra varepost** på en vilkårlig type returdokumentlinje, og derefter vælge nummeret på den oprindelige salgspost. På den måde knyttes salgskreditnotaen eller salgsreturvareordren til den oprindelige salgspost, og varen værdiansættes til den oprindelige kostpris.
 
@@ -49,17 +49,17 @@ Du kan finde flere oplysninger i [Designoplysninger: Lagerkostmetode](design-det
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Sådan oprettes en salgskreditnota fra en bogført salgsfaktura
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
-2. I vinduet **Bogf. salgsfakturaer** skal du vælge den bogførte salgsfaktura, der skal tilbageføres, og derefter vælge handlingen **Opret rettelseskreditnota**.
+2. På siden **Bogf. salgsfakturaer** skal du vælge den bogførte salgsfaktura, der skal tilbageføres, og derefter vælge handlingen **Opret rettelseskreditnota**.
 
     Salgskreditnotahovedet indeholder nogle oplysninger fra den bogførte salgsfaktura. Du kan redigere disse oplysninger f.eks med nye oplysninger, der afspejler returneringsaftalen.  
 3. Rediger oplysningerne på linjerne i overensstemmelse med aftalen, f.eks antallet af returnerede varer eller beløbet, der skal refunderes.
 4. Vælg handlingen **Udlign**.
-5. I vinduet **Udlign debitorposter** skal du vælge linjen med det bogførte salgsdokument, du vil udligne salgskreditnotaen til, og vælg derefter handlingen **Udlignings-id**.
+5. På siden **Udlign debitorposter** skal du vælge linjen med det bogførte salgsdokument, du vil udligne salgskreditnotaen til, og vælg derefter handlingen **Udlignings-id**.
 
     Salgskreditnotaens id vises i feltet **Udlignings-id**.
 6. I feltet **Beløb, der skal udlignes** skal du indtaste det beløb, som du vil udligne, hvis det er mindre end det oprindelige beløb.  
 
-    Nederst i vinduet **Udlign debitorposter** kan du se det samlede beløb, der skal udlignes for at tilbageføre alle involverede poster, dvs. når værdien i feltet **Saldo** er nul.
+    Nederst på siden **Udlign debitorposter** kan du se det samlede beløb, der skal udlignes for at tilbageføre alle involverede poster, dvs. når værdien i feltet **Saldo** er nul.
 7. Vælg knappen **OK**. Når du bogfører salgskreditnotaen, bliver den udlignet til de bogførte salgsdokumenter.
 
     Når du har oprettet eller redigeret de ønskede salgskreditnotalinjer, og anvendelse på enkelt eller flere er angivet, kan du bogføre salgskreditnotaen.   
@@ -74,8 +74,8 @@ De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, 
 2. Vælg handlingen **Ny** for at åbne en ny tom salgskreditnota.
 3. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 4. Vælg handlingen **Kopier linjer**.
-5. I vinduet **Kopier salgsdokument** skal du vælge **Bogført faktura** i feltet **Dokumenttype**.
-6. Vælg feltet **Bilagsnr.** for at åbne vinduet **Bogf. salgsfakturaer**, og vælg derefter den bogførte salgsfaktura, der indeholder linjer, som du vil tilbageføre.
+5. På siden **Kopier salgsdokument** skal du vælge **Bogført faktura** i feltet **Dokumenttype**.
+6. Vælg feltet **Bilagsnr.** for at åbne siden **Bogf. salgsfakturaer**, og vælg derefter den bogførte salgsfaktura, der indeholder linjer, som du vil tilbageføre.
 7. Marker afkrydsningsfeltet **Genberegn linjer**, hvis du vil opdatere de kopierede bogførte salgsfakturalinjer med eventuelle ændringer i varepris og kostpris, siden fakturaen blev bogført.
 8. Vælg knappen **OK**. De kopierede fakturalinjer skal indsættes i salgskreditnotaen.
 9. Udfyld salgskreditnotaen, som beskrevet i afsnittet "Sådan oprettes en salgskreditnota fra en bogført salgsfaktura" i dette emne.
@@ -87,15 +87,15 @@ De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, 
 4. I oversigtspanelet **Linjer** skal du udfylde linjerne manuelt eller kopiere oplysninger fra andre dokumenter for at udfylde linjerne automatisk:
 
     - Brug funktionen **Hent bogførte bilagslinjer, der skal tilbageføres**, hvis du vil kopiere en eller flere bogførte bilagslinjer fra et eller flere bogførte dokumenter. Denne funktion tilbagefører altid de eksakte beløb fra den bogførte bilagslinje. Denne funktion beskrives i følgende trin.    
-    - Brug funktionen **Kopier dokument**, så et eksisterende dokument kopieres til returvareordren. Du kan kopiere hele dokumentet med denne funktion. Det kan være et bogført dokument eller et dokument, der endnu ikke er bogført. Funktionen muliggør kun præcis kostprisudligning, når afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret i vinduet **Salgsopsætning**.  
+    - Brug funktionen **Kopier dokument**, så et eksisterende dokument kopieres til returvareordren. Du kan kopiere hele dokumentet med denne funktion. Det kan være et bogført dokument eller et dokument, der endnu ikke er bogført. Funktionen muliggør kun præcis kostprisudligning, når afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Salgsopsætning**.  
 
 5. Vælg handlingen **Hent bogførte bilagslinjer, der skal tilbageføres**.
-6. Marker afkrydsningsfeltet **Vis kun linjer, der kan tilbageføres** øverst i vinduet **Bogførte salgsdokumentlinjer**, hvis du kun vil se linjer med antal, der endnu ikke er returneret, eller hvis det er købslinjer. Hvis et antal i en bogført salgsfaktura f.eks. allerede er returneret, vil du måske ikke returnere det antal i et nyt salgsreturvaredokument.
+6. Marker afkrydsningsfeltet **Vis kun linjer, der kan tilbageføres** øverst på siden **Bogførte salgsdokumentlinjer**, hvis du kun vil se linjer med antal, der endnu ikke er returneret, eller hvis det er købslinjer. Hvis et antal i en bogført salgsfaktura f.eks. allerede er returneret, vil du måske ikke returnere det antal i et nyt salgsreturvaredokument.
 
     > [!NOTE]  
     >  Dette felt kan kun bruges til bogførte leverancer og bogførte fakturalinjer. Det kan ikke bruges til bogførte returvarelinjer eller bogførte kreditnotalinjer.
 
-    De forskellige bilagstyper er angivet i venstre side af vinduet, og tallet i parentes angiver antallet af tilgængelige bilag for hver bilagstype.
+    De forskellige bilagstyper er angivet i venstre side af siden, og tallet i parentes angiver antallet af tilgængelige bilag for hver bilagstype.
 
 7. Vælg den type bogførte bilagslinjer, du vil bruge, i feltet **Dokumenttypefilter**.  
 8. Vælg de linjer, som du vil kopiere til det nye dokument.  
@@ -119,28 +119,28 @@ De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, 
 
     -   Hvis den bogførte bilagslinje indeholder varesporingslinjer, udfyldes feltet **Udlign fra-varepost** på varesporingslinjerne udfyldes med de relevante varepostnumre fra de bogførte varesporingslinjer.  
 
-     Når der kopieres fra en bogført faktura eller en bogført kreditnota, kopieres relevante fakturarabatter og linjerabatter, der var gældende på det tidspunkt, hvor dokumentet blev bogført, fra den bogførte bilagslinje til den nye bilagslinje. Vær dog opmærksom på, at hvis **Beregn fakturarabat** aktiveres i vinduet **Salg og tilgodehavender**, beregnes fakturarabatten igen, når du bogfører den nye dokumentlinje. Linjebeløbet for den nye linje kan derfor være forskelligt fra Linjebeløb for den oprindelige bilagslinje, alt efter den nye beregning af fakturarabatten.  
+     Når der kopieres fra en bogført faktura eller en bogført kreditnota, kopieres relevante fakturarabatter og linjerabatter, der var gældende på det tidspunkt, hvor dokumentet blev bogført, fra den bogførte bilagslinje til den nye bilagslinje. Vær dog opmærksom på, at hvis **Beregn fakturarabat** aktiveres på siden **Salg og tilgodehavender**, beregnes fakturarabatten igen, når du bogfører den nye dokumentlinje. Linjebeløbet for den nye linje kan derfor være forskelligt fra Linjebeløb for den oprindelige bilagslinje, alt efter den nye beregning af fakturarabatten.  
 
      > [!NOTE]  
      >  Hvis en del af antallet på den bogførte bilagslinje allerede er tilbageført, solgt eller forbrugt, oprettes der kun en linje til det antal, der stadig er på lager, eller som endnu ikke er returneret. Hvis hele antallet på den bogførte bilagslinje allerede er tilbageført, oprettes der ikke en ny bilagslinje.  
      >   
      >  Hvis varebevægelserne i det bogførte dokument er de samme som i det nye dokument, oprettes der ganske enkelt en kopi af den oprindelige, bogførte bilagslinje i det nye dokument. Feltet **Udlign fra-varepost** udfyldes ikke, fordi i dette tilfælde, er præcis kostprisudligning ikke muligt. Hvis du f.eks. bruger funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** for at hente en bogført salgskreditnotalinje til en ny salgskreditnota, er det kun den oprindelige, bogførte kreditnotalinje, der kopieres til den nye kreditnota.  
 
-10. I vinduet **Salgsreturvareordre** i feltet **Returårsagskode** skal du på hver linje vælge årsagen til returneringen.
+10. På siden **Salgsreturvareordre** i feltet **Returårsagskode** skal du på hver linje vælge årsagen til returneringen.
 11. Vælg handlingen **Bogfør**.
 
 ## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Sådan oprettes en erstatningssalgsordre fra en salgsreturvareordre
 Antag, at du har besluttet at kompensere en kunde ved at udskifte den vare, som er solgt. Udskiftningsvaren kan være den samme type vare eller en anden type. Sidstnævnte situation kan f.eks. være tilfældet, hvis der er leveret en forkert vare.  
 
-1. I vinduet **Salgsreturvareordre** for en aktiv returproces skal du på en tom linje angive en negativ postering for erstatningsvaren ved at indsætte et negativt beløb i feltet **Antal**.  
+1. På siden **Salgsreturvareordre** for en aktiv returproces skal du på en tom linje angive en negativ postering for erstatningsvaren ved at indsætte et negativt beløb i feltet **Antal**.  
 2. Vælg handlingen **Flyt negative linjer**.
-3. I vinduet **Flyt negative salgslinjer** skal du udfylde felterne efter behov.
-4. Vælg knappen **OK**. Den negative linje for erstatningsvaren slettes fra salgsreturvareordren og indsættes i et nyt **Salgsordre**-vindue. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
+3. På siden **Flyt negative salgslinjer** skal du udfylde felterne efter behov.
+4. Vælg knappen **OK**. Den negative linje for erstatningsvaren slettes fra salgsreturvareordren og indsættes på en ny **Salgsordre**-side. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 
 ## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Sådan oprettes returvarerelaterede dokumenter med udgangspunkt i en salgsreturvareordre
 Salgsordrer på erstatningsvarer, købsreturvareordrer og erstatningskøbsordrer kan oprettes automatisk under salgsreturvareprosssen. Dette er nyttigt f.eks. i situationer, hvor du vil håndtere varer med garantier fra leverandører.
 
-1. I vinduet **Salgsreturvareordre** for en aktiv returneringsproces skal du vælge handlingen **Opret returrelaterede dokumenter**.
+1. På siden **Salgsreturvareordre** for en aktiv returneringsproces skal du vælge handlingen **Opret returrelaterede dokumenter**.
 2. I feltet **Kreditornummer** skal du angive nummeret på en kreditor, hvis du vil oprette kreditorbilag automatisk.
 3. Hvis en returneret vare skal returneres til leverandøren, skal du markere afkrydsningsfeltet **Opret købsreturv.ordre**.
 4. Hvis en returneret vare bestilles hos leverandøren, skal du markere afkrydsningsfeltet **Opret købsordre**.
@@ -151,7 +151,7 @@ Der kan være tilfælde, hvor en kunde skal opkræves et gebyr for omkostningern
 
 Du kan bogføre den forøgede omkostning som et varegebyr i en kreditnota eller returvareordre og tildele den til den bogførte levering. Nedenfor beskrives dette for en salgsreturvareordre, men samme fremgangsmåde anvendes ved en salgskreditnota.
 
-1. Åbn vinduet **Salgsreturvareordre** for en aktiv returproces.
+1. Åbn siden **Salgsreturvareordre** for en aktiv returproces.
 2. På en ny linje skal du vælge **Gebyr (Vare)** i feltet **Type**.  
 3. Udfyld felterne som ved enhver varegebyrlinje. Du kan finde flere oplysninger i [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md).  
 
@@ -169,7 +169,7 @@ Du kan bogføre den reducerede pris som et varegebyr i en kreditnota eller retur
      Du skal evt. oprette en særligt varegebyrnummer, der dækker salgsdekorten.  
 6.  Angiv **1** i feltet **Antal**.  
 7.  Angiv beløbet på salgsdekorten i feltet **Salgspris**.  
-8.  Tildel salgsnedslaget som et varegebyr på varerne i den bogførte leverance. Du kan finde flere oplysninger i [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md). Vend derefter tilbage til vinduet **Salgskreditnota**.  
+8.  Tildel salgsnedslaget som et varegebyr på varerne i den bogførte leverance. Du kan finde flere oplysninger i [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md). Vend derefter tilbage til siden **Salgskreditnota**.  
 
 Når du bogfører salgsreturvareordren, føjes salgsnedslaget til den relevante salgspost. Det gør det muligt at opretholde en præcis lagerværdi.
 
@@ -180,7 +180,7 @@ Når du modtager varerne på lagerstedet, skal du bogføre salgsreturvareordrern
 
 Når du skal fakturere kunden, kan du i stedet for at fakturere hver salgsreturvareordre særskilt oprette en salgskreditnota og automatisk kopiere de bogførte returvaremodtagelseslinjer til dokumentet. Derefter kan du bogføre salgskreditnotaen og spare tid ved at fakturere alle de åbne salgsreturvareordrer samtidigt.  
 
-Hvis du vil kombinere returvaremodtagelser skal afkrydsningsfeltet **Tillad samlefaktura** være markeret i vinduet **Debitorkort**.  
+Hvis du vil kombinere returvaremodtagelser skal afkrydsningsfeltet **Tillad samlefaktura** være markeret på siden **Debitorkort**.  
 
 ### <a name="to-manually-combine-return-receipts"></a>Sådan samles returvaremodtagelser manuelt  
 
@@ -201,7 +201,7 @@ Hvis du vil kombinere returvaremodtagelser skal afkrydsningsfeltet **Tillad saml
 Du kan samle returvaremodtagelser automatisk og også vælge at bogføre kreditnotaerne automatisk med funktionen **Saml returvarekvit**.  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Saml returvarekvit.**, og vælg derefter det relaterede link.
-2. I vinduet **Saml returvarekvit** skal du udfylde felterne for at vælge de relevante returvaremodtagelser.
+2. På siden **Saml returvarekvit** skal du udfylde felterne for at vælge de relevante returvaremodtagelser.
 3. Markér afkrydsningsfeltet **Bogfør kreditnotaer**. Hvis ikke, skal du manuelt bogføre de købskreditnotaer, der oprettes.
 4.  Vælg knappen **OK**.  
 

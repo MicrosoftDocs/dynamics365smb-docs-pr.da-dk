@@ -8,26 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Tilføje kunder til dit dashboard i [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Du kan tilføje en kunde i vinduet **Kunde**, som du kan åbne ved at vælge handlingen **Administrer kunder** på båndet. Vælg **Ny**, og udfyld felterne.  
+Du kan tilføje en kunde på siden **Kunde**, som du kan åbne ved at vælge handlingen **Administrer kunder** på båndet. Vælg **Ny**, og udfyld felterne.  
 
-![Tilføje en kunde](./media/accountant-add-client/manage-client.png)
+> [!div class="mx-imgBorder"]
+> ![Tilføje en kunde](./media/accountant-add-client/manage-client.png)
 
 Du angiver dataene i kortet for hver kunde, og du kan ændre dem efter behov. Men feltet **Kundens URL-adresse** er vigtigt – det er her, du kan få adgang til den enkelte kundes [!INCLUDE [d365fin](includes/d365fin_md.md)]. Brug handlingen **Valider kundens URL-adresse** på båndet til at kontrollere, at du har angivet det rigtige link. Den URL-adresse, du skal angive, peger på kundens [!INCLUDE [d365fin](includes/d365fin_md.md)] og omfatter deres domæneadresse. Hvis de har angivet et domæne, f.eks. MyBusiness.com, så er linket til deres [!INCLUDE [d365fin](includes/d365fin_md.md)] *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Før opdateringen maj 2018 havde den URL-adresse, du angav, et andet format med navnet på kundens firmanavn i begyndelsen. Fra opdateringen maj 2018 er formatet ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, hvor ```clientdomain``` repræsenterer kundens domæne.  
+>  Før opdateringen maj 2018 havde den URL-adresse, du angav, et andet format med navnet på kundens firmanavn i begyndelsen. I den aktuelle version af [!INCLUDE [d365fin](includes/d365fin_md.md)] er formatet ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, hvor ```clientdomain``` repræsenterer kundens domæne.  
 
 Kundens URL-adresse bruges, når du vælger menupunktet **Gå til virksomhed** i [!INCLUDE [d365acc](includes/d365acc_md.md)]-dashboardet.  
 

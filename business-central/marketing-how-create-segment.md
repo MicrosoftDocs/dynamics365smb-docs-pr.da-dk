@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2c0c5ecf8d99d0d49abdc4056289be00219b07a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 59db444b6ce498d987d4aeb4361e119001acd2a3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-segments"></a>Oprette målgrupper
@@ -27,7 +27,7 @@ Du kan oprette målgrupper for at vælge en gruppe kontakter, hvis du f.eks. vil
 2. Vælg handlingen **Ny**.
 3. I sektionen **Generelt** i feltet **Nummer** skal du skrive et nummer på målgruppen.
 
-    Hvis du har defineret en nummerserie for målgrupper i vinduet **Marketingopsætning** kan du trykke på Enter for at vælge det næste tilgængelige målgruppenummer.
+    Hvis du har defineret en nummerserie for målgrupper på siden **Marketingopsætning** kan du trykke på Enter for at vælge det næste tilgængelige målgruppenummer.
 4. Udfyld de andre felter på hovedet.
 
 Du kan nu føje kontakter til målgruppen. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).

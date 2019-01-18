@@ -12,16 +12,16 @@ ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4a153d8cd4ceccea2d7d410702df4ba2ec760cf9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3b4b4a6d544b594f439b675b88176d942d8cf325
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
 Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en person i organisationen, sendes en godkendelsesanmodning som en del af en arbejdsgang. Afhængigt af hvordan arbejdsgangen er konfigureret, får den relevante godkender derefter besked om, at posten kræver godkendelse.
 
-Du kan konfigurere godkendelsesworkflows i vinduet **Workflow**. Du kan finde flere oplysninger under [Opsætte workflows](across-set-up-workflows.md).
+Du kan konfigurere godkendelsesworkflows på siden **Workflow**. Du kan finde flere oplysninger under [Opsætte workflows](across-set-up-workflows.md).
 
 Ud over godkendelsesworkflows, der er beskrevet i dette emne, kan du udføre forskellige andre opgaver i workflowet. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).
 
@@ -30,7 +30,7 @@ Grundlæggende godkendelsesworkflows for købsdokumenter, salgsdokumenter, udbet
 ## <a name="to-request-approval-of-a-record"></a>Sådan anmodes om godkendelse af en post
 Følgende opgave udføres af en godkendelsesbruger.
 
-1. I det vindue, hvor posten vises, kan du vælge handlingen **Send godkendelsesanmodning**.
+1. På siden, hvor posten vises, kan du vælge handlingen **Send godkendelsesanmodning**.
 2. For at få vist alle dine godkendelsesanmodninger skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Godkendelsesanmodningsposter** og derefter vælge det relaterede link.  
 
 Godkendelsespostens status opdateres fra **Oprettet** til **Åben**. Postens status, f.eks. en købsfaktura, opdateres fra **Åben** til **Afventer godkendelse** og forbliver låst mod behandling, indtil alle godkendere har godkendt posten.
@@ -42,14 +42,14 @@ Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
 En kunde vil måske ændre en ordre, efter at den er sendt til godkendelse. I så fald kan du annullere godkendelsesprocessen og foretage de nødvendige ændringer i ordren, inden du anmoder om godkendelse igen.
 
-- I det vindue, hvor posten vises, kan du vælge handlingen **Annuller godkendelsesanmodning**.
+- På siden, hvor posten vises, kan du vælge handlingen **Annuller godkendelsesanmodning**.
 
 Når godkendelsesanmodningen er annulleret, ændres statussen for den relaterede godkendelsespost til **Annulleret**. Postens status opdateres fra **Afventer godkendelse** til **Åben**. Godkendelsesprocessen kan derefter starte igen.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Sådan godkendes eller afvises anmodninger om godkendelse
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
-Du kan behandle godkendelsesanmodninger i vinduet **Anmodninger til godkendelse** for eksempel for at godkende flere anmodninger ad gangen. Alternativt kan du behandle hver anmodning i den relaterede post, f.eks vinduet **Købsfaktura**, ved at klikke på linket i meddelelsen, som du modtager.
+Du kan behandle godkendelsesanmodninger på siden **Anmodninger til godkendelse** for eksempel for at godkende flere anmodninger ad gangen. Alternativt kan du behandle hver anmodning i den relaterede post, f.eks siden **Købsfaktura**, ved at klikke på linket i meddelelsen, som du modtager.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anmodninger til godkendelse**, og vælg derefter det relaterede link.
 2. Vælg en eller flere linjer for den eller de poster, du vil godkende eller afvise.
@@ -79,7 +79,7 @@ Med jævne mellemrum skal du minde brugerne i en godkendelsesarbejdsgang om forf
 Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle åbne anmodninger, der aktuelt er forfaldne. Hver godkender, der har mindst én forfalden godkendelsespost, modtager en notifikation med listen over deres forfaldne godkendelsesanmodninger. Notifikationen sendes også til deres godkender og alle anmodere om de forfaldne godkendelser. Det kan være en hjælp, hvis den forfaldne godkendelsespost skal uddelegeres til en anden godkender.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forfaldne godkendelsesanmodninger**, og vælg derefter det relaterede link.
-2. I vinduet **Forfaldne godkendelsesanmodninger** skal du vælge handlingen **Send notifikationer om forfaldne godkendelser**.
+2. På siden **Forfaldne godkendelsesanmodninger** skal du vælge handlingen **Send notifikationer om forfaldne godkendelser**.
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)    

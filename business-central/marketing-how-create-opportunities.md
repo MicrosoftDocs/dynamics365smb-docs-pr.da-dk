@@ -13,16 +13,16 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Oprette salgsleads
 Du kan oprette leads for de salgslaeds du har for dine kontakter. Alle leads skal knyttes til en sælger eller indkøber og skal have en kontakt.
 
-Du kan oprette leads fra vinduet **Leadoversigt**. Men du skal normalt oprette leads fra den specifikke kontakt eller sælger.
+Du kan oprette leads på siden **Leadoversigt**. Men du skal normalt oprette leads fra den specifikke kontakt eller sælger.
 
 Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 

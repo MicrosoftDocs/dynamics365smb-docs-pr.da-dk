@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plukke varer til lagerleverance
@@ -26,9 +26,9 @@ Du kan ikke oprette et lagerplukdokument fra bunden, fordi en plukaktivitet alti
 
 Du kan oprette lagerplukdokumenterne på en pull-måde ved at åbne et tomt lagerleverencedokumentet, registrere kildedokumenter, der er frigivet til levering, og derefter oprette lagerpluklinjer for leverancerne. Du kan bruge funktionen **Hent kildedokumenter** eller funktionen **Brug filter til at hente kildedokumenter** til at registrere kildedokumenter, der er klar til levering.
 
-Du kan også bruge vinduet **Plukkladde** til at trække og oprette pluklinjerne i batchtilstand. Du kan finde flere oplysninger i [Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md).  
+Du kan også bruge siden **Plukkladde** til at trække og oprette pluklinjerne i batchtilstand. Du kan finde flere oplysninger i [Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md).  
 
-Du kan også oprette lagerplukdokumenter på en push-måde fra vinduet **Lagerleverance** ved at vælge **Opret pluk**.  
+Du kan også oprette lagerplukdokumenter på en push-måde fra siden **Lagerleverance** ved at vælge **Opret pluk**.  
 
 > [!NOTE]  
 >  Pluk til lagerleverance af varer, der monteres til salgsordren, der leveres, følger de samme trin som for normale lagerpluk til leverance, som det er beskrevet i dette emne. Antallet af pluklinjer pr. antal til levering kan være mange til en, da du plukker komponenterne og ikke montageelementet.  
@@ -52,7 +52,7 @@ Du kan også oprette lagerplukdokumenter på en push-måde fra vinduet **Lagerle
 
 4.  Når du har foretaget plukket og har placeret varerne på rette sted, skal du vælge handlingen **Registrer pluk**.  
 
-Den person, der er ansvarlig for leveringen, kan nu bringe varerne til forsendelseshavnen og bogføre leverancen, herunder det relaterede kildedokument, i vinduet **Lagerleverance**. Du kan finde flere oplysninger i [Sende varer](warehouse-how-ship-items.md).   
+Den person, der er ansvarlig for leveringen, kan nu bringe varerne til forsendelseshavnen og bogføre leverancen, herunder det relaterede kildedokument, på siden **Lagerleverance**. Du kan finde flere oplysninger i [Sende varer](warehouse-how-ship-items.md).   
 
 Foruden pluk for kildedokumenter, som beskrevet i dette emne, kan du hente og placere varer mellem placeringer uden at bruge kildedokumenter. Du kan finde flere oplysninger i [Plukke og lægge på lager uden kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ For andre lagerleverancelinjer er værdien i feltet **Lever (antal)** nul fra st
 
 Når medarbejdere, der er ansvarlige for montering, afslutter monteringsdele eller montage til ordre-mængde, registrerer de det i feltet **Levér antal** på lagerleverancelinjen og vælger handlingen **Bogfør lev.**. Resultatet er, at tilsvarende montageafgang er bogført, herunder komponentforbrug. En salgsleverance for mængden, bogføres for salgsordre.
 
-Fra montageordren kan du vælge **Ordremont.lagerleverancelinje** for at gå til lagerleverancelinjen. Dette er nyttigt for arbejdstagere, der ikke normalt bruger vinduet **Lagerleverance**.
+Fra montageordren kan du vælge **Ordremont.lagerleverancelinje** for at gå til lagerleverancelinjen. Dette er nyttigt for arbejdstagere, der ikke normalt bruger siden **Lagerleverance**.
 
 Når lagerleverance bogføres, opdateres forskellige felter på salgsordrelinjen for at vise fremskridt på lageret. Følgende felter opdateres også for at vise, hvor mange montageordrer der mangler at blive monteret og leveret:
 

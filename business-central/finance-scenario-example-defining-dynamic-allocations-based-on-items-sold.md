@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 85d58264b14d191389bdf23a792dff7ad30bf9c3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3103583c9781c283479c5f66e90f0e875faf46cc
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-dynamic-allocations-based-on-items-sold"></a>Scenarieeksempel: Definition af dynamiske fordelinger baseret på solgte varer
@@ -28,7 +29,7 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
 ## <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Sådan defineres dynamiske fordelinger baseret på varer, der er solgt i det foregående år  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningsfordelinger**, og vælg derefter det relaterede link.  
-2.  I vinduet **Omkostningsfordeling** skal du vælge handlingen **Ny**.  
+2.  På siden **Omkostningsfordeling** skal du vælge handlingen **Ny**.  
 3.  I feltet **Id** skal du trykke på Enter eller indtaste et id.  
 4.  Angiv **1** i feltet **Niveau**.  
 5.  I felterne **Gyldig fra** og **Gyldig til** skal du angive relevante datoer.  
@@ -46,9 +47,7 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
     >  [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger salgstal fra de foregående år til at beregne andelen af 1596,50 RV med 100 procent for IT-UDSTYR-pakkerne. Det betyder, at alle varer, der er solgt sidste år, tildeles omkostningsobjektet IT-UDSTYR.  
 
 ## <a name="see-also"></a>Se også  
- [Indstilling af filtre for dynamiske allokeringsbaser](finance-setting-filters-for-dynamic-allocation-bases.md)   
- [Konfigurere fordelingskilde og mål](finance-how-to-set-up-allocation-source-and-targets.md)   
- [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)   
- [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)   
- [Om omkostningsregnskab](finance-about-cost-accounting.md)
+[Definere og allokere omkostninger](finance-define-and-allocate-costs.md)  
+[Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)   
+[Om omkostningsregnskab](finance-about-cost-accounting.md)
 

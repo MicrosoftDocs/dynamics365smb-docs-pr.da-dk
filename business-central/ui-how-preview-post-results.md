@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de5623e6dad677a8fb5f07824c17cb42632cff37
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="preview-posting-results"></a>Vise bogføringsresultater
@@ -25,8 +25,8 @@ På hvert dokument og kladde, som kan bogføres, kan du vælge knappen **Vis bog
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Opret en købsfaktura. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 3. Vælg **Vis bogføring**.
-4. I vinduet **Vis bogføring** skal du markere **Finanspost** og derefter vælge **Vis relaterede poster**.  
-   Vinduet **Vis finansposter** viser hvilke poster der oprettes, når du bogfører købsfakturaen.
+4. På siden **Vis bogføring** skal du markere **Finanspost** og derefter vælge **Vis relaterede poster**.  
+   Siden **Vis finansposter** viser hvilke poster der oprettes, når du bogfører købsfakturaen.
 
 ## <a name="see-also"></a>Se også
 [Bogføre dokumenter og kladder](ui-post-documents-journals.md)  

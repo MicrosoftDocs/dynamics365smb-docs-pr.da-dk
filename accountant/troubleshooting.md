@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Fejlfinding [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -44,7 +44,7 @@ Der kan være en række årsager, herunder følgende:
   Din kunde kan have flere afdelinger eller virksomheder i [!INCLUDE [d365fin](includes/d365fin_md.md)], og invitationen inkluderer ikke altid alle regnskaber. Arbejd sammen med kunden for at sikre, at du har adgang til de virksomheder, som kunden ønsker, at du skal arbejde i.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>Hvorfor opdateres dataene i mit dashboard ikke?
-Når du tilføjer en kunde eller anmoder om en opdatering af dataene, henter [!INCLUDE [d365acc](includes/d365acc_md.md)] dataene. Men du skal selv opdatere vinduet, f.eks. ved at vælge handlingen "Vis alle virksomheder igen", opdatere browservinduet, navigere væk fra dashboardet og derefter tilbage igen eller noget lignende. Dette er et kendt problem, som vi arbejder på at forbedre i en senere opdatering.  
+Når du tilføjer en kunde eller anmoder om en opdatering af dataene, henter [!INCLUDE [d365acc](includes/d365acc_md.md)] dataene. Men du skal selv opdatere siden, f.eks. ved at vælge handlingen "Vis alle virksomheder igen", opdatere browsersiden, navigere væk fra dashboardet og derefter tilbage igen eller noget lignende. Dette er et kendt problem, som vi arbejder på at forbedre i en senere opdatering.  
 
 ## <a name="see-also"></a>Se også
 [Kom i gang med [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

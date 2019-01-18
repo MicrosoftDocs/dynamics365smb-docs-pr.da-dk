@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Arbejde med styklister
@@ -51,16 +51,16 @@ Montagestyklister oprettes ad to omgange:
 1. Opret en ny vare. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
     Fortsæt med at angive komponenter eller ressourcer på montagestyklisten.  
-2. I vinduet **Varekort** for et montageelement skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
-3. I vinduet **Montagestykliste** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På siden **Varekort** for et montageelement skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
+3. På siden **Montagestykliste** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Sådan får du vist komponenterne for et montageelement indrykket i overensstemmelse med styklistestrukturen
-Fra vinduet **Montagestykliste** kan du åbne et separat vindue, der viser komponenterne og evt. ressourcer, der er indrykket i henhold til deres placering på styklisten under montageelementet.
+Fra siden **Montagestykliste** kan du åbne en separat side, der viser komponenterne og evt. ressourcer, der er indrykket i henhold til deres placering på styklisten under montageelementet.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
-2. Åbn kortet for et montageelement. (Feltet **Montagestykliste** i vinduet **Varer** indeholder **Ja**).
-3. I vinduet **Varekort** skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
-4. I vinduet **Montagestykliste** skal du vælge handlingen **Vis stykliste**.
+2. Åbn kortet for et montageelement. (Feltet **Montagestykliste** på siden **Varer** indeholder **Ja**).
+3. På siden **Varekort** skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
+4. På siden **Montagestykliste** skal du vælge handlingen **Vis stykliste**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Sådan erstattes montageelementet med dets komponenter på dokumentlinjer
 Du kan bruge en særlig funktion til at erstatte linjen for montageelementet med nye linjer til dets komponenter fra et salgs- og købsdokument, som indeholder et montageelement. Denne funktion er nyttig f.eks., hvis du vil sælge komponenterne som en pakke, der repræsenterer et montageelement.
@@ -75,19 +75,19 @@ Følgende procedure er baseret på en salgsfaktura. Samme fremgangsmåde gælder
 
 Alle felter på salgsfakturalinjen for montageelementet fjernes med undtagelse af felterne **Vare** og **Beskrivelse**. Fuldførte salgsfakturalinjer indsættes for komponenterne og eventuelle ressourcer, der udgør montageelementet.
 
-**Bemærk**: Funktionen Udfold stykliste findes også i vinduet **Montagestykliste**.
+**Bemærk**: Funktionen Udfold stykliste findes også på siden **Montagestykliste**.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Sådan beregnes standardkostprisen et montageelement
 Du kan beregne kostprisen for et montageelement ved at akkumulere kostprisen for hver komponent og ressource i elementets montagestykliste.
 
-Du kan også beregne og opdatere standardkostprisen for en eller flere varer i vinduet **Standardkostpriskladde**. Du kan finde flere oplysninger i [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md).  
+Du kan også beregne og opdatere standardkostprisen for en eller flere varer på siden **Standardkostpriskladde**. Du kan finde flere oplysninger i [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md).  
 
 En montagestyklistes kostpris svarer altid til den samlede kostpris for dens komponenter, herunder andre montagestyklister, og eventuelle ressourcer.
 
 1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport**, angive **Varer** og derefter vælge det relaterede link.
-2. Åbn kortet for et montageelement. (Feltet **Montagestykliste** i vinduet **Varer** indeholder **Ja**).
-3. I vinduet **Varekort** skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
-4. I vinduet **Montagestykliste** skal du vælge handlingen **Beregn kostpris**.
+2. Åbn kortet for et montageelement. (Feltet **Montagestykliste** på siden **Varer** indeholder **Ja**).
+3. På siden **Varekort** skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
+4. På siden **Montagestykliste** skal du vælge handlingen **Beregn kostpris**.
 5. Vælg en af følgende muligheder, og klik derefter på knappen **OK**.
 
 |Indstilling |Beskrivelse |

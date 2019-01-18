@@ -13,16 +13,16 @@ ms.search.keywords: contract, agreement, configure
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5abf0941b90df29bf5175886fbce5782857b5888
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 167610e56db0d6de5a1f84a57c132a842a30b010
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="fulfilling-service-contracts"></a>Opfylde servicekontrakter 
 En måde at konfigurere en servicestyringsforretning på er at lade aftalerne mellem virksomheden og kunderne være baseret på standardkontrakter, hvor niveauet for og forventningerne til servicen beskrives. Du kan oprette kontraktskabeloner, der indeholder de nødvendige oplysninger, f.eks. kunde, kontraktens startdato og faktureringsperiode.  
   
-Når du har konfigureret skabelonen, kan du tilpasse den afledte kontrakt for at holde styr på servicetider eller andre elementer, der kan variere fra kunde til kunde. Du kan også oprette en kontrakt manuelt på basis af et servicekontrakttilbud. Endelig kan du også regulere servicepriserne for at holde styr på de rabatter, som en bestemt kunde er berettiget til, ved at angive rabatbeløbet i vinduet **Servicekontrakt**.  
+Når du har konfigureret skabelonen, kan du tilpasse den afledte kontrakt for at holde styr på servicetider eller andre elementer, der kan variere fra kunde til kunde. Du kan også oprette en kontrakt manuelt på basis af et servicekontrakttilbud. Endelig kan du også regulere servicepriserne for at holde styr på de rabatter, som en bestemt kunde er berettiget til, ved at angive rabatbeløbet på siden **Servicekontrakt**.  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
   

@@ -13,10 +13,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
@@ -39,7 +39,7 @@ Hvis afkrydsningsfeltet ikke er markeret, vil felterne **Salgspris** og **Linjeb
 
 Du kan oprette standardindstillinger for **Priser inkl. moms** for alle salgsdokumenterne for en kunde i feltet **Priser inkl. moms** på kortet **Debitor**. Du kan også oprette varesalgspriser, så de er inkl. eller ekskl. moms. Sædvanligvis vil varesalgsprisen på varekortet være prisen ekskl. moms. Det er oplysningerne i feltet **Salgspris inkl. moms** på **Vare**-kortet, der bruges til at bestemme salgsprisbeløbet for salgsdokumenter.  
 
-Følgende tabel indeholder en oversigt over, hvordan salgsprisbeløbene for et salgsdokument beregnes, når du har oprettet priser i vinduet **Salgspriser**:  
+Følgende tabel indeholder en oversigt over, hvordan salgsprisbeløbene for et salgsdokument beregnes, når du har oprettet priser på siden **Salgspriser**:  
 
 |**Feltet Salgspris inkl. moms på varekortet**|**Feltet Priser inkl. moms i salgshovedet**|**Handling**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -56,8 +56,8 @@ Selvom du måske har oprettet en eller flere kombinationer til håndtering af im
 Hvis en kontantrabat er beregnet på basis af et fakturabeløb, der er inkl. moms, tilbagefører du momsen af kontantrabatten, når rabatten er tildelt. Bemærk, at du skal aktivere feltet **Reguler moms ved kontantrabat** for både opsætning af finanskontiene generelt og momsbogføringsopsætning for en bestemt kombination af en momsvirksomhedsbogføringsgruppe og en momsproduktbogføringsgruppe.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Sådan angives moms manuelt i salgsbilag  
-1. I vinduet **Regnskabsopsætning** skal du angive en **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
-2. I vinduet **Salgsopsætning** markere afkrydsningsfeltet **Tillad momsdifference**.  
+1. På siden **Opsætning af Finans** skal du angive **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
+2. På siden **Salgsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Sådan reguleres moms for et salgsdokument  
 1. Åbn den relevante Salgsordre.  
@@ -71,11 +71,11 @@ Hvis en kontantrabat er beregnet på basis af et fakturabeløb, der er inkl. mom
 Du kan også justere momsbeløb i finans-, salgs- og købskladder. Det kan f.eks. være nødvendigt, når du angiver en kreditorfaktura i kladden, og der er en forskel mellem det momsbeløb, som [!INCLUDE[d365fin](includes/d365fin_md.md)] har beregnet, og momsbeløbet på kreditorfakturaen.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Før du manuelt angiver moms i en finanskladde  
-1. I vinduet **Regnskabsopsætning** skal du angive en **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
-2. I vinduet **Finanskladdetyper** skal du markere afkrydsningsfeltet **Tillad momsdifference** for den relevante kladde.  
+1. På siden **Opsætning af Finans** skal du angive **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
+2. På siden **Finanskladdetyper** skal du markere afkrydsningsfeltet **Tillad momsdifference** for den relevante kladde.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Før du manuelt angiver moms i salgs- og købskladder  
-1. I vinduet **Købsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
+1. På siden **Købsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
 2. Når du har fuldført konfigurationen som beskrevet ovenfor, kan du justere værdien i feltet **Momsbeløb** på finanskladdelinjen eller værdien i feltet **Modkontos momsbeløb** på salgs- eller købskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, at differencen ikke er større end det angivne maksimum.  
   
     > [!NOTE]  
@@ -117,7 +117,7 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
    Når du opdaterer feltet **Status** til **Påkrævet**, **Modtaget** eller **Ikke modtaget**, oprettes der et certifikat.  
   
     > [!TIP]  
-    >  Du kan bruge vinduet **Leveringscertifikater** til at få et overblik over status for alle bogførte leverancer, der er blevet oprettet et leveringscertifikat for.  
+    >  Du kan bruge siden **Leveringscertifikater** til at få et overblik over status for alle bogførte leverancer, der er blevet oprettet et leveringscertifikat for.  
 
 5. Vælg **Udskriv leveringscertifikat**.  
   
@@ -130,15 +130,15 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
 3. Vælg handlingen **Udskriv leveringscertifikat**.  
 
     > [!NOTE]  
-    >  Alternativt kan du udskrive et certifikat fra vinduet **Leveringscertifikat**.  
+    >  Alternativt kan du udskrive et certifikat fra siden **Leveringscertifikat**.  
 
 4. Markér afkrydsningsfeltet **Udskriv linjedetaljer** for at medtage oplysninger fra linjerne på leverancedokumentet i certifikatet.  
 5. Markér afkrydsningsfeltet **Opret leveringscertifikater, hvis de ikke allerede er oprettet** for at få [!INCLUDE[d365fin](includes/d365fin_md.md)] til at oprette certifikater til bogførte leverancer, der ikke har ét på tidspunktet for udførelsen. Når du markerer afkrydsningsfeltet, oprettes nye certifikater for alle bogførte leverancer, der ikke har certifikater i det valgte område.  
 6. Som standard er filterindstillingerne for det leverancedokument, du har valgt. Udfyld filtreringsoplysningerne for at vælge et bestemt certifikat for levering, som du vil udskrive.  
-7. I vinduet **Leveringscertifikat** skal du vælge knappen **Udskriv** for at udskrive rapporten eller vælge handlingen **Vis udskrift** for at se den på skærmen.  
+7. På siden **Leveringscertifikat** skal du vælge knappen **Udskriv** for at udskrive rapporten eller vælge handlingen **Vis udskrift** for at se den på skærmen.  
 
     > [!Note]  
-    > Feltet **Status for leveringscertifikat** og feltet **Udskrevet** opdateres med leveringen i vinduet **Leveringscertifikater**.  
+    > Feltet **Status for leveringscertifikat** og feltet **Udskrevet** opdateres med leveringen på siden **Leveringscertifikater**.  
 
 8. Send det trykte leveringscertifikat til underskrift hos kunden.  
 
@@ -153,7 +153,7 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
 
    Hvis kunden ikke returnerer det signerede forsyningscertifikat, skal du vælge **Ikke modtaget**. Du skal derefter tilsende kunden en ny faktura, der inkluderer moms, fordi den oprindelige faktura ikke vil blive accepteret af skattemyndighederne.  
 
-Hvis du vil se en gruppe af certifikater, skal du starte fra vinduet **Leveringscertifikater** og derefter opdatere oplysninger om status for udestående certifikater, når du får dem tilbage fra dine kunder. Dette kan være nyttigt, når du vil søge efter alle de certifikater, der har en bestemt status, for eksempel **Påkrævet**, hvis status du vil opdatere til **Ikke modtaget**.  
+Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringscertifikater** og derefter opdatere oplysninger om status for udestående certifikater, når du får dem tilbage fra dine kunder. Dette kan være nyttigt, når du vil søge efter alle de certifikater, der har en bestemt status, for eksempel **Påkrævet**, hvis status du vil opdatere til **Ikke modtaget**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Sådan opdaterer du status for en gruppe af leveringscertifikater  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leveringscertifikater**, og vælg det relaterede link.  
@@ -166,7 +166,7 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra vinduet **Leverings
    Du kan ændre datoen for at afspejle den dato, hvor du modtog det signerede leveringscertifikat. Du kan også føje et link til det signerede certifikat ved hjælp af almindelig [!INCLUDE[d365fin](includes/d365fin_md.md)]-dokumentsammenkædning.  
 
     > [!NOTE]  
-    >  Du kan ikke oprette et nyt leveringscertifikat i vinduet **Leveringscertifikat**, når du navigerer til det ved hjælp af denne procedure. Hvis du vil oprette et certifikat til en forsendelse, der ikke var sat op til at kræve ét, skal du åbne den bogførte salgsleverance og bruge den ene af de to fremgangsmåder, der er beskrevet ovenfor:  
+    >  Du kan ikke oprette et nyt leveringscertifikat på siden **Leveringscertifikat**, når du navigerer til det ved hjælp af denne procedure. Hvis du vil oprette et certifikat til en forsendelse, der ikke var sat op til at kræve ét, skal du åbne den bogførte salgsleverance og bruge den ene af de to fremgangsmåder, der er beskrevet ovenfor:  
     >   
     > * Sådan opretter du manuelt et leveringscertifikat  
     > * Sådan udskriver du et leveringscertifikat.

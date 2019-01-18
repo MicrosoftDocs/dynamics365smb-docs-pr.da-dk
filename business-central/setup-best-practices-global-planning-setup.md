@@ -1,6 +1,6 @@
 ---
 title: "Bedste fremgangsmåder for opsætning af global planlægning | Microsoft Docs"
-description: "Oversigtpanelet **Planlægning** i vinduet **Produktionsopsætning** indeholder flere felter, der definerer globale regler for forsyningsplanlægning."
+description: "Oversigtpanelet Planlægning på siden Produktionsopsætning indeholder flere felter, der definerer globale regler for forsyningsplanlægning."
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5f9eda3b9bb2482a446370058c7bd4a503dde6ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d1f6333c689d6af06d68e45104020a523be7f865
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Konfigurere bedste fremgangsmåder: Global planlægningsopsætning
-Oversigtpanelet **Planlægning** i vinduet **Produktionsopsætning** indeholder flere felter, der definerer globale regler for forsyningsplanlægning.  
+Oversigtpanelet **Planlægning** på siden **Produktionsopsætning** indeholder flere felter, der definerer globale regler for forsyningsplanlægning.  
 
  Følgende tabel viser de bedste fremgangsmåder til konfiguration af udvalgte globale felter med planlægningsparametre. Du kan få yderligere oplysninger om et felt ved at vælge linket i kolonnen **Opsætningsfelt**.  
 

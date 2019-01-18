@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fcbecbf6a90e60a49c7861e16614b98174379bed
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e56105cbd2410befea964c5445d8227021058d4f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-items"></a>Modtage varer
@@ -43,22 +43,22 @@ Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsv
 
     > [!NOTE]  
     >  Hvis du vil modtage varer med en anden lagerklassekode end placeringens klassekode i feltet **Placeringskode** i dokumenthovedet, skal du slette indholdet i feltet **Placeringskode** i hovedet, inden du henter kildedokumentlinjerne for varerne.  
-3.  Vælg handlingen **Hent kildedokumenter**. Vinduet **Kildedokumenter** åbnes.
+3.  Vælg handlingen **Hent kildedokumenter**. Siden **Kildedokumenter** åbnes.
 
-    Fra en ny eller en åben lagermodtagelse kan du bruge vinduet **Filtre til at hente kildedok.** til at hente de frigivne kildedokumentlinjer, der definerer, hvilke varer der skal modtages eller leveres.
+    Fra en ny eller en åben lagermodtagelse kan du bruge siden **Filtre til at hente kildedok.** til at hente de frigivne kildedokumentlinjer, der definerer, hvilke varer der skal modtages eller leveres.
 
     1. Vælg handlingen **Brug filtre til at hente kildedok.**.  
     2. Hvis du vil oprette et nyt filter, skal du indtaste en beskrivende kode i feltet **Kode** og derefter vælge handlingen **Ret**.  
     3. Definer den type kildedokumentlinjer, som du ønsker at hente, ved at udfylde de relevante filterfelter.  
     4. Vælg handlingen **Kør**.  
 
-    Alle frigivne kildedokumentlinjer, som opfylder filterkriterierne, indsættes nu i vinduet **Lagermodtagelse**, hvorfra du har aktiveret filterfunktionen.  
+    Alle frigivne kildedokumentlinjer, som opfylder filterkriterierne, indsættes nu på siden **Lagermodtagelse**, hvorfra du har aktiveret filterfunktionen.  
 
-    De filterkombinationer, du definerer, gemmes i vinduet **Filtre til at hente kildedok.**, indtil næste gang du skal bruge dem. Du kan oprette et ubegrænset antal filterkombinationer. Du kan til enhver tid ændre kriterierne ved at vælge handlingen **Ret**.
+    De filterkombinationer, du definerer, gemmes på siden **Filtre til at hente kildedok.**, indtil næste gang du skal bruge dem. Du kan oprette et ubegrænset antal filterkombinationer. Du kan til enhver tid ændre kriterierne ved at vælge handlingen **Ret**.
 
 4.  Vælg de kildedokumenter, som du vil modtage varer fra, og vælg derefter knappen **OK**.  
 
-    Linjerne fra kildedokumentet vises i vinduet **Lagermodtagelse**. Feltet **Modtag (antal)** er på forhånd udfyldt med det udestående antal varer for hver linje, men du kan ændre antallet efter behov. Hvis du slettede indholdet i feltet **Placeringskode** i oversigtspanelet **Generelt**, inden du hentede linjerne, skal du udfylde alle modtagelseslinjer med den rette placeringskode.  
+    Linjerne fra kildedokumentet vises på siden **Lagermodtagelse**. Feltet **Modtag (antal)** er på forhånd udfyldt med det udestående antal varer for hver linje, men du kan ændre antallet efter behov. Hvis du slettede indholdet i feltet **Placeringskode** i oversigtspanelet **Generelt**, inden du hentede linjerne, skal du udfylde alle modtagelseslinjer med den rette placeringskode.  
 
     > [!NOTE]  
     >  Hvis du vil udfylde feltet **Modtag (antal)** på alle linjer med nul, skal du vælge handlingen **Slet Modtag antal**. Hvis du vil udfylde det igen med det udestående antal, skal du vælge handlingen **Autoudfyld Modtag antal**.  

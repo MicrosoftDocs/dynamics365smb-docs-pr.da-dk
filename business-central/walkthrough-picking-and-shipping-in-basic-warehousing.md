@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 35eaf9776508d608a48aaa38e6d83ae879cd05af
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger
@@ -32,7 +32,7 @@ Du kan finde flere oplysninger i [Designoplysninger: Udgående lagerflow](design
 Den følgende gennemgang viser metode B i forrige tabel.  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang  
-I grundlæggende lageropsætninger, hvor lokationen, du vil plukke fra, er sat op til at kræve pluk, men ikke leverance, bruges vinduet **Pluk (lager)** til at registrere og bogføre pluk- og leveranceoplysninger for de udgående kildedokumenterne. Det udgående kildedokumentet kan være en salgsordre, en købsreturvareordre, en udgående overflytning eller en produktionsordre med komponentbehov.  
+I grundlæggende lageropsætninger, hvor lokationen, du vil plukke fra, er sat op til at kræve pluk, men ikke leverance, bruges siden **Pluk (lager)** til at registrere og bogføre pluk- og leveranceoplysninger for de udgående kildedokumenterne. Det udgående kildedokumentet kan være en salgsordre, en købsreturvareordre, en udgående overflytning eller en produktionsordre med komponentbehov.  
 
 Denne gennemgang viser følgende opgaver:  
 
@@ -56,7 +56,7 @@ For at gennemføre denne gennemgang skal:
 -   Du kan oprette dig selv som lagermedarbejder på lokationen SØLV ved at følge disse trin:  
 
     1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
-    2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto i vinduet **Brugere**.  
+    2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
     3.  Angiv SØLV i feltet **Lokationskode**.  
     4.  Markér feltet **Standard**.  
 
@@ -73,10 +73,10 @@ For at gennemføre denne gennemgang skal:
     3.  Vælg handlingen **Bogfør**, og vælg derefter knappen **Ja**.  
 
 ## <a name="story"></a>Historie  
-Ellen, lagerlederen hos CRONUS, konfigurerer lagerstedet SØLV til grundlæggende håndtering af pluk, hvor lagermedarbejdere kan behandle udgående ordrer enkeltvis. Susan, ordrebehandleren, opretter en salgsordre for 30 enheder af varen LS-81, der skal sendes til debitor 10000 på lagerstedet SØLV. John, som arbejder på lageret, skal sørge for, at forsendelsen klargøres og leveres til debitoren. John administrerer alle involverede opgaver i vinduet **Pluk (lager)**, som automatisk peger på de placeringer, hvor LS-81 opbevares.  
+Ellen, lagerlederen hos CRONUS, konfigurerer lagerstedet SØLV til grundlæggende håndtering af pluk, hvor lagermedarbejdere kan behandle udgående ordrer enkeltvis. Susan, ordrebehandleren, opretter en salgsordre for 30 enheder af varen LS-81, der skal sendes til debitor 10000 på lagerstedet SØLV. John, som arbejder på lageret, skal sørge for, at forsendelsen klargøres og leveres til debitoren. John administrerer alle involverede opgaver på siden **Pluk (lager)**, som automatisk peger på de placeringer, hvor LS-81 opbevares.  
 
 ## <a name="setting-up-the-location"></a>Indstilling af lokation  
-Opsætningen af vinduet **Lokationskort** definerer arbejdsgangene i virksomheden.  
+Opsætningen af siden **Lokationskort** definerer flows i virksomheden.  
 
 ### <a name="to-set-up-the-location"></a>Sådan oprettes lokationen  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
@@ -102,7 +102,7 @@ Salgsordrer er den mest almindelige type udgående kildedokument.
     John fortsætter ved at vælge og sende de solgte varer.  
 
 ## <a name="picking-and-shipping-items"></a>Sådan plukkes og leveres varer  
-I vinduet **Pluk (lager)** kan du administrere alle udgående lageraktiviteter til et specifikt kildedokument såsom en salgsordre.  
+På siden **Pluk (lager)** kan du administrere alle udgående lageraktiviteter til et specifikt kildedokument såsom en salgsordre.  
 
 ### <a name="to-pick-and-ship-items"></a>Sådan foretages pluk og levering af varer  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk (lager)**, og vælg derefter det relaterede link.  

@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c9c1ec39fcec950037193b15d04ab8dde994ff63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 362f335fa313dce9a4e75c962ef6f5a2f01ec5fd
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-resources"></a>Konfigurere ressourcer
@@ -45,29 +45,29 @@ For at beregne, hvor lang tid en ressource kan bruge på sager, skal der først 
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ressourcer**, og vælg derefter det relaterede link.
 2. Åbn det relevante ressourcekort, og vælg derefter handlingen **Ressourcekapacitet**.
-3. I vinduet **Ressourcekapacitet** feltet **Vis efter** skal du angive periodens længde, f.eks **Dag**, som vises i kolonnerne på oversigtspanelet **Matrix for ressourcekapacitet**.
+3. På siden **Ressourcekapacitet** feltet **Vis efter** skal du angive periodens længde, f.eks **Dag**, som vises i kolonnerne på oversigtspanelet **Matrix for ressourcekapacitet**.
 4. For hver ressource på en linje skal du for hver periode i kolonnerne angive det antal timer, hvor ressourcen er tilgængelig.
 5. Du kan også angive ressourcens ugentlige kapacitet med en startdato og en slutdato ved at vælge handlingen **Angiv kapacitet**.
-6. I vinduet **Ressourcekap.indstillinger** skal du udfylde felterne efter behov.
-7. Vælg handlingen **Opdater kapacitet**. Vinduet **Ressourcekapacitet** opdateres med den angivne kapacitet.
-8. Luk vinduet.
+6. På siden **Ressourcekap.indstillinger** skal du udfylde felterne efter behov.
+7. Vælg handlingen **Opdater kapacitet**. Siden **Ressourcekapacitet** opdateres med den angivne kapacitet.
+8. Luk siden.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Sådan angives ressourcekostpriser
 Udover de omkostninger, der er angivet på ressourcekortet, kan du oprette alternative omkostninger for hver ressource. Hvis en medarbejder f.eks. har en højere timesats for overarbejde, kan du i denne tabel oprette en ressourcekostpris for overtidsbetalingen. Den alternative kostpris, du angiver for ressourcen, tilsidesætter kostprisen på ressourcekortet, når du bruger ressourcen i ressourcekladden.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ressourcer**, og vælg derefter det relaterede link.  
 2. Vælg ressource, som du vil angive en eller flere alternative omkostninger for, og vælg derefter handlingen **Kostpriser**.  
-3. I vinduet **Ressourcekostpriser** skal du udfylde felterne på en linje efter behov.  
+3. På siden **Ressourcekostpriser** skal du udfylde felterne på en linje efter behov.  
 4. Gentag trin 3 for hver alternativ ressourcekostpris, du vil oprette.
 
-**Bemærk**! Åbn vinduet **Ressourcekostpriser** og udfyld felterne for at angive ressourcekostpriser, der kan anvendes til alle ressourcer og ressourcegrupper.
+**Bemærk**! Åbn siden **Ressourcekostpriser** og udfyld felterne for at angive ressourcekostpriser, der kan anvendes til alle ressourcer og ressourcegrupper.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Sådan angives ressourcepriser
 Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative priser for hver ressource. Alternative priser kan være betingede. De kan være betinget af, om ressourcen anvendes med et bestemt job eller en bestemt arbejdstype.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ressourcer**, og vælg derefter det relaterede link.
 2. Vælg ressource, som du vil angive en eller flere alternative priser for, og vælg derefter handlingen **Priser**.
-3. I vinduet **Ressourcepriser** skal du udfylde felterne på en linje efter behov.
+3. På siden **Ressourcesalgspriser** skal du udfylde felterne på en linje efter behov.
 4. Gentag trin 3 for hver alternativ ressourcepris, du vil oprette.
 
 ## <a name="see-also"></a>Se også

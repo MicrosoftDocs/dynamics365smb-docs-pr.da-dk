@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c426e8cb53833fd521f4ecad7def166534b0befe
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
 Når der forekommer fejlbehæftede produkter, skal fejlene identificeres, og de relevante varer må ikke kunne forlade virksomheden. Hvis de fejlbehæftede varer allerede er afsendt, skal du finde ud af, hvem der har modtaget dem, for om nødvendigt at kunne tilbagekalde varerne.  
 
-Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, hvor de fejlbehæftede varer kom fra, og hvor de bruges. Denne undersøgelse er baseret på historiske data og gøres lettere ved at søge på varesporingsposterne ved hjælp af vinduet **Varesporing**.  
+Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, hvor de fejlbehæftede varer kom fra, og hvor de bruges. Denne undersøgelse er baseret på historiske data og gøres lettere ved at søge på varesporingsposterne ved hjælp af siden **Varesporing**.  
 
-Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, om der er foretaget planlægning for de sporede varer i åbne dokumenter, som f.eks. ikke-bogførte salgsordrer eller forbrugskladder. Dette arbejde udføres i vinduet **Naviger**. Du kan bruge funktionen Naviger til at søge efter alle typer databaseposter.  
+Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, om der er foretaget planlægning for de sporede varer i åbne dokumenter, som f.eks. ikke-bogførte salgsordrer eller forbrugskladder. Dette arbejde udføres på siden **Naviger**. Du kan bruge funktionen Naviger til at søge efter alle typer databaseposter.  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang  
 Denne gennemgang viser, hvordan fejlbehæftede varer identificeres, hvilken leverandør der leverede dem, og hvor de bruges, så de pågældende ordrer kan stoppes eller tilbagekaldes.  
@@ -59,7 +59,7 @@ Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returner
 
 Resultaterne af denne første varesporingsopgave kan identificere, hvilke racerstel der var defekte, og hvilken leverandør der leverede dem. Bagefter, men i det samme overordnede opfølgningsproces, skal den ansvarlige for kvalitetssikring finde alle solgte racercykler, der indeholder racerstel fra det fejlbehæftede parti, så disse ordrer kan stoppes eller tilbagekaldes. Endelig skal den ansvarlige for kvalitetssikring finde alle åbne dokumenter, hvor det fejlbehæftede parti bruges, så der ikke oprettes tilsvarende transaktioner.  
 
-De første to opgaver i forbindelse med administrationen af fejlbehæftede varer udføres i vinduet **Varesporing**. Den sidste opgave udføres i vinduet **Naviger** i sammen med vinduet **Varesporing**.  
+De første to opgaver i forbindelse med administrationen af fejlbehæftede varer udføres på siden **Varesporing**. Den sidste opgave udføres på siden **Naviger** i sammen med siden **Varesporing**.  
 
 ## <a name="prepare-sample-data"></a>Klargøre eksempeldata  
 Du skal oprette følgende nye punkter:  
@@ -80,7 +80,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     |Racerstel|STK|RÅVARE|MOMS25|RÅVARE|LOTALLE|  
 
     > [!NOTE]  
-    >  Hvis du vil angive basisenheden, skal du vælge knappen **Ny** og derefter vælge **PSC** i vinduet **Vareenheder**.  
+    >  Hvis du vil angive basisenheden, skal du vælge knappen **Ny** og derefter vælge **PSC** på siden **Vareenheder**.  
 
 4.  Alle andre felter indeholder godkendte standarddata eller behøver ikke blive udfyldt.  
 5.  Klik på knappen **OK** for at oprette det første nye varekort, 2000.  
@@ -92,17 +92,17 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     |Racercykel|STK|DETAIL|MOMS25|FÆRDIG|Prod.ordre|SNALLE|  
 
     > [!NOTE]  
-    >  Hvis du vil angive basisenheden, skal du vælge knappen **Ny** og derefter vælge **PSC** i vinduet **Vareenheder**.  
+    >  Hvis du vil angive basisenheden, skal du vælge knappen **Ny** og derefter vælge **PSC** på siden **Vareenheder**.  
 
     Du skal derefter definere produktionsopsætningen for varen.
 
 9. Gå til oversigtspanelet **Genbestilling**, og indtast **1000** i feltet **Rutenr.**.  
 10. Vælg feltet **Produktionsstkl.nr.**, og vælg derefter **Avanceret**.  
-11. I vinduet **Prod.styklisteoversigt** skal du vælge den første linje, **1000**, og derefter vælge handlingen **Rediger**.  
-12. I vinduet **Produktionsstykliste** skal du ændre værdien i feltet **Status** til **Under udvikling**.  
+11. På siden **Prod.styklisteoversigt** skal du vælge den første linje, **1000**, og derefter vælge handlingen **Rediger**.  
+12. På siden **Produktionsstykliste** skal du ændre værdi til **Under udvikling** i feltet **Status**.  
 13. Gå til en tom linje, indtast **2000** i feltet **Nummer**, og indtast derefter **1** i feltet **Antal pr.**.  
 14. Skift værdien i **Status** tilbage til **Godkendt**.  
-15. Vælg knappen **OK** for at indsætte produktionsstyklisten på varekortet og lukke vinduet **Produktionsstykliste**.  
+15. Vælg knappen **OK** for at indsætte produktionsstyklisten på varekortet og lukke siden **Produktionsstykliste**.  
 
     Derefter skal du købe racerstel fra Custom Metals Incorporated.  
 
@@ -116,7 +116,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     |2000|10|LOT1|  
 
 4.  Hvis du vil angive lotnummeret, skal du vælg handlingen **Varesporingslinjer**.  
-5.  I vinduet **Varesporingslinjer** skal du udfylde felterne **Lotnr.** og **Antal (basis)** og derefter lukke vinduet.  
+5.  På siden **Varesporingslinjer** skal du udfylde felterne **Lotnr.** og **Antal (basis)** og derefter lukke siden.  
 6.  Angiv en værdi i feltet **Kreditors fakturanr.**.  
 7.  Vælg handlingen **Bogfør**, vælg indstillingen **Modtag og fakturer**, og vælg derefter knappen **OK**.  
 
@@ -130,7 +130,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     |2000|11|LOT2|  
 
 11. Hvis du vil angive lotnummeret, skal du på oversigtspanelet **Linjer** i gruppen **Linje** vælge handlingen **Varesporingslinjer**.  
-12. I vinduet **Varesporingslinjer** skal du udfylde felterne **Lotnr.** og **Antal (basis)** og derefter lukke vinduet.  
+12. På siden **Varesporingslinjer** skal du udfylde felterne **Lotnr.** og **Antal (basis)** og derefter lukke siden.  
 13. Angiv en værdi i feltet **Kreditors fakturanr.**.  
 14. Vælg handlingen **Bogfør**, vælg indstillingen **Modtag og fakturer**, og vælg derefter knappen **OK**.  
 
@@ -148,13 +148,13 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
 4.  Vælg handlingen **Opdater produktionsordre**, og vælg derefter knappen **OK** for at udfylde linjen.  
 5.  Hvis du vil angive serienumre, skal du vælg handlingen **Varesporingslinjer**.  
-6.  I vinduet **Varesporingslinjer** skal du udfylde felterne **Serienr.** og **Antal (basis)** og derefter lukke vinduet.  
+6.  På siden **Varesporingslinjer** skal du udfylde felterne **Serienr.** og **Antal (basis)** og derefter lukke siden.  
 
     Derefter skal du bogføre forbruget af racerstel fra LOT1.  
-7.  I vinduet **Frigivet produktionsordre** skal du vælge handlingen **Produktionskladde**.  
-8.  Vælg forbrugslinjen for vare 2000 i vinduet **Produktionskladde**, og vælg handlingen **Varesporingslinjer**.
-9. I vinduet **Varesporingslinjer** skal du vælge feltet **Lotnr.**, vælge **LOT1** og derefter vælge knappen **OK**.  
-10. Lad alle andre standardindstillinger stå i vinduet **Produktionskladde**, og vælg derefter handlingen **Bogfør**.  
+7.  På siden **Frigivet produktionsordre** skal du vælge handlingen **Produktionskladde**.  
+8.  Vælg forbrugslinjen for vare 2000 på siden **Produktionskladde**, og vælg handlingen **Varesporingslinjer**.
+9. På siden **Varesporingslinjer** skal du vælge feltet **Lotnr.**, vælge **LOT1** og derefter vælge knappen **OK**.  
+10. Lad alle andre standardindstillinger stå på siden **Produktionskladde**, og vælg derefter handlingen **Bogfør**.  
 
     Dernæst skal producere to yderligere racercykler, SN3 og SN4.  
 
@@ -168,13 +168,13 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     |1002|2|SN4|  
 
 14. Vælg handlingen **Opdater produktionsordre** for at udfylde linjen.  
-15. Hvis du vil angive serienumre, skal du vælge handlingen **Varesporingslinjer** og derefter numrene på to linjer i feltet **Serienr.** i vinduet **Varesporingslinjer**.  
+15. Hvis du vil angive serienumre, skal du vælge handlingen **Varesporingslinjer** og derefter numrene på to linjer i feltet **Serienr.** på siden **Varesporingslinjer**.  
 
     Derefter skal du bogføre flere forbrug af racerstel fra LOT1.  
-16. I vinduet **Frigivet produktionsordre** skal du vælge handlingen **Produktionskladde**.  
-17. Vælg forbrugslinjen for vare 2000 i vinduet **Produktionskladde**, og vælg handlingen **Varesporingslinjer**.
-18. I vinduet **Varesporingslinjer** skal du vælge feltet **Lotnr.**, vælge **LOT1** og derefter vælge knappen **OK**.  
-19. Lad alle andre standardindstillinger stå i vinduet **Produktionskladde**, og vælg derefter handlingen **Bogfør**.  
+16. På siden **Frigivet produktionsordre** skal du vælge handlingen **Produktionskladde**.  
+17. Vælg forbrugslinjen for vare 2000 på siden **Produktionskladde**, og vælg handlingen **Varesporingslinjer**.
+18. På siden **Varesporingslinjer** skal du vælge feltet **Lotnr.**, vælge **LOT1** og derefter vælge knappen **OK**.  
+19. Lad alle andre standardindstillinger stå på siden **Produktionskladde**, og vælg derefter handlingen **Bogfør**.  
 
     Du har produceret fire racercykler, SN1 til SN4, og forbrugt fire af ti racerstel fra LOT1, to stel i hver produktionsordre.  
 
@@ -190,7 +190,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     |--------------|----------|----------|----------------|  
     |Ravel Møbler|1002|1|SN1|  
 
-3.  Hvis du vil angive serienummeret, skal du vælge handlingen **Varesporingslinjer** og derefter nummeret i feltet **Serienr.** i vinduet **Varesporingslinjer**.  
+3.  Hvis du vil angive serienummeret, skal du vælge handlingen **Varesporingslinjer** og derefter nummeret i feltet **Serienr.** på siden **Varesporingslinjer**.  
 4.  Vælg handlingen **Bogfør**, vælg indstillingen **Lever og fakturer**, og vælg derefter knappen **OK**.  
 
     Derefter skal du sælge racercyklen med SN2 til Kontorcentralen A/S.  
@@ -202,7 +202,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     |--------------|----------|----------|----------------|  
     |Kontorcentralen A/S|1002|1|SN2|  
 
-7.  Hvis du vil angive serienummeret, skal du vælge handlingen **Varesporingslinjer** og derefter nummeret i feltet **Serienr.** i vinduet **Varesporingslinjer**.  
+7.  Hvis du vil angive serienummeret, skal du vælge handlingen **Varesporingslinjer** og derefter nummeret i feltet **Serienr.** på siden **Varesporingslinjer**.  
 8.  Vælg handlingen **Bogfør**, vælg indstillingen **Lever og fakturer**, og vælg derefter knappen **OK**.  
 
     Til sidst skal du sælge nogle racerstel separat. Kontorcentralen A/S bestiller også fire separate racerstel til deres egen montagelinje.  
@@ -214,7 +214,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     |--------------|----------|----------|----------------|  
     |Kontorcentralen A/S|2000|5|LOT1|  
 
-11. Hvis du vil angive serienummeret, skal du i oversigtspanelet **Linjer** i gruppen **Linje** vælge handlingen **Varesporingslinjer** og derefter nummeret i feltet **Serienr.** i vinduet **Varesporingslinjer**.  
+11. Hvis du vil angive serienummeret, skal du i oversigtspanelet **Linjer** i gruppen **Linje** vælge handlingen **Varesporingslinjer** og derefter nummeret i feltet **Serienr.** på siden **Varesporingslinjer**.  
 
     > [!NOTE]  
     >  Bogfør ikke den sidste salgsordre på fem racerstel.  
@@ -226,7 +226,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Sådan finder du ud af, hvilket lot det fejlbehæftede stel kommer fra, og hvem der leverede det  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varesporing**, og vælg derefter det relaterede link.  
-2.  I vinduet **Varesporing** skal du indtaste **SN1** i feltet **Serienr.filter** og derefter indtaste **1002** i feltet **Varefilter**.  
+2.  På siden **Varesporing** skal du indtaste **SN1** i feltet **Serienr.filter** og derefter indtaste **1002** i feltet **Varefilter**.  
 3.  Behold standardindstillingen **Kun varesporing** i feltet **Vis komponenter**, og behold standardsporingsmetoden **Brug - Oprindelse** i **Sporingsmetode**.  
 4.  Vælg handlingen **Sporing**.  
 
@@ -248,16 +248,16 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     > [!NOTE]  
     >  Du skal ikke foretage yderligere ændringer i sporingsresultatet, da du skal bruge det i næste sektion.  
 
-     Dermed er den første opgave med administration af fejlbehæftede varer ved hjælp af vinduet **Varesporing**. Den ansvarlige for kvalitetssikring skal nu finde ud af, om der er andre bogførte bilag, hvor der indgår racerstel fra LOT1.  
+     Dermed er den første opgave med administration af fejlbehæftede varer ved hjælp af siden **Varesporing** udført. Den ansvarlige for kvalitetssikring skal nu finde ud af, om der er andre bogførte bilag, hvor der indgår racerstel fra LOT1.  
 
 ## <a name="tracing-from-origin-to-usage"></a>Sporing fra oprindelse til brug  
  Den ansvarlige for kvalitetssikring har fastlagt, at de fejlbehæftede racerstel kom fra LOT1. Han skal nu finde eventuelt andre racercykler, der bruger racerstel fra det fejlbehæftede lot, således at disse cykler kan stoppes eller tilbagekaldes.  
 
- En måde, du kan forberede denne sporingsopgave i vinduet **Varesporing** på, er manuelt at indtaste LOT1 i feltet **Lotnr.filter** og 2000 i feltet **Varefilter**. I denne gennemgang vil vi dog bruge funktionen **Spor modsat - fra linje**.  
+ En måde, du kan forberede denne sporingsopgave på siden **Varesporing** på, er manuelt at indtaste LOT1 i feltet **Lotnr.filter** og 2000 i feltet **Varefilter**. I denne gennemgang vil vi dog bruge funktionen **Spor modsat - fra linje**.  
 
 ### <a name="to-find-all-usage-of-the-faulty-lot"></a>Sådan findes alle anvendelser af det fejlbehæftede lot  
 
-1.  Vælg linjen med købsleverancen, den sidste sporingslinje, i vinduet **Varesporing**, og vælg derefter **Spor modsat - fra linje**.  
+1.  Vælg linjen med købsleverancen, den sidste sporingslinje, på siden **Varesporing**, og vælg derefter **Spor modsat - fra linje**.  
 
     Sporingsresultatet er nu baseret på filtrene på sporingslinjen for købsleverancen, LOT1 og vare 2000, og resultatet er baseret på sporingsmetoden **Oprindelse - Brug**.  
 
@@ -271,17 +271,17 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Han kan samtidig se ud af de tre sidste sporingslinjer, at der er fremstillet to andre varer, SN3 og SN4, med racerstel fra LOT1. Han tager handling for at blokere disse slutvarer på lageret.  
 
-    Dermed er den anden opgave med administration af fejlbehæftede varer ved hjælp af vinduet **Varesporing** udført. Da vinduet **Varesporing** kun er baseret på de bogførte poster, skal den ansvarlige for kvalitetssikringen fortsætte til vinduet **Naviger** for at sikre, at LOT1 ikke er brugt i ikke-bogførte bilag.  
+    Dermed er den anden opgave med administration af fejlbehæftede varer ved hjælp af siden **Varesporing** udført. Da siden **Varesporing** kun er baseret på de bogførte poster, skal den ansvarlige for kvalitetssikringen fortsætte til siden **Naviger** for at sikre, at LOT1 ikke er brugt i ikke-bogførte bilag.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Find alle poster for et serie-/lotnummer  
- Den ansvarlige for kvalitetssikringen brugte vinduet **Varesporing** til at finde ud af, at LOT1 indeholdt fejlbehæftede racerstel, hvem leverandøren var, og i hvilken bogførte transaktion de er brugt. Han skal nu finde ud af, om LOT1 findes i eventuelle andre åbne bilag, ved integrering af sporingsresultatet til vinduet **Naviger**, hvor han kan foretage en søgning i alle databaseposter.  
+ Den ansvarlige for kvalitetssikringen brugte siden **Varesporing** til at finde ud af, at LOT1 indeholdt fejlbehæftede racerstel, hvem leverandøren var, og i hvilken bogførte transaktion de er brugt. Han skal nu finde ud af, om LOT1 findes i eventuelle andre åbne bilag, ved integrering af sporingsresultatet til siden **Naviger**, hvor han kan foretage en søgning i alle databaseposter.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Sådan findes alle forekomster af LOT1 i ikke-bogførte poster, som f.eks. åbne ordrer  
 
-1.  Vælg markøren i første sporingslinje i vinduet **Varesporing**, dvs. købsleverancen for LOT1.  
+1.  Vælg markøren i første sporingslinje på siden **Varesporing**, dvs. købsleverancen for LOT1.  
 2.  Vælg handlingen **Naviger**.  
 
-    Vinduet **Naviger** er forudindstillet med søgefiltre, der er baseret på sporingsresultatet for LOT1. Den ansvarlige for kvalitetssikring kan genkende de fleste poster som tilhørende bilag, der allerede er identificeret i vinduet **Varesporing**. Den sidste navigationslinje af typen Produktionsordre refererer til to frigivne produktionsordrer, der har brugt racerstellene fra LOT1.  
+    Siden **Naviger** er forudindstillet med søgefiltre, der er baseret på sporingsresultatet for LOT1. Den ansvarlige for kvalitetssikring kan genkende de fleste poster som tilhørende bilag, der allerede er identificeret på siden **Varesporing**. Den sidste navigationslinje af typen Produktionsordre refererer til to frigivne produktionsordrer, der har brugt racerstellene fra LOT1.  
 
     Den anden navigeringslinje af typen **Salgslinje** er en ikke-bogført dokumentlinje, så den undersøger den ansvarlige for kvalitetssikring.  
 
@@ -289,7 +289,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Her kan den ansvarlige for kvalitetssikringen se, at der er en åben salgslinje for de fejlbehæftede racerstel. Han foreslår straks salgsafdelingen, at denne ordre annulleres, og at der startes en ny produktionsordre, der er baseret op fejlfrie racerstel.  
 
- Dermed er denne gennemgang i, hvordan vinduet **Naviger** bruges til administration af fejlbehæftede varer sammen med vinduet **Varesporing**, færdig.  
+ Dermed er denne gennemgang i, hvordan siden **Naviger** bruges til administration af fejlbehæftede varer sammen med siden **Varesporing**, færdig.  
 
 ## <a name="see-also"></a>Se også
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  

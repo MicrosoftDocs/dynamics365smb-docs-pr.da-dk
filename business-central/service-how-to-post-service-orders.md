@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bogføre serviceordrer og kreditnotaer
@@ -30,7 +30,7 @@ Hvis du har et stort antal serviceordrer, kan du spare tid ved at bruge en kørs
 ## <a name="to-post-a-service-order"></a>Sådan bogføres serviceordrer    
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Åbn den relevante serviceordre.  
-3. I vinduet **Serviceordre** skal du vælge en af følgende handlinger.  
+3. På siden **Serviceordre** skal du vælge en af følgende handlinger.  
   
     |**Handling**|**Resultat**|  
     |------------------|----------------|  
@@ -91,13 +91,13 @@ Når du har angivet detaljerne i en service, kan du regulere og bogføre antalle
   
 Følgende procedure viser, hvordan du bogfører leverancen af servicelinje på steder, hvor der ikke er indstillet til at kræve lagerekspedition.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordre**, og vælg derefter det relaterede link. 2. Vælg **Handlinger**, **Ordre**, **Servicelinjer** i vinduet med den serviceordre, du har valgt.  
-3. Find de nødvendige poster i vinduet **Servicelinjer**, og angiv det antal, der skal bogføres, i feltet **Lever (antal)**.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordre**, og vælg derefter det relaterede link. 2. Vælg **Handlinger**, **Ordre**, **Servicelinjer** på siden med den serviceordre, du har valgt.  
+3. Find de nødvendige poster på siden **Servicelinjer**, og angiv det antal, der skal bogføres, i feltet **Lever (antal)**.  
   
    > [!NOTE]  
    >  Angivelse af det antal, der skal leveres, afhænger af om du vil foretage fuld eller delvis levering. Vælger du at foretage fuld levering, skal værdien i feltet **Lever (antal)** være den samme som værdien i feltet **Antal**. Når du foretager delvis levering, skal du angive det antal, du først vil levere. Hvis du allerede har leveret en del af servicen i ordren, skal du notere værdien i feltet **Leveret (antal)**. Det maksimale antal, du kan angive i feltet **Lever (antal)**, er det antal enheder, der endnu ikke er leveret.  
   
-4. Vælg **Handlinger**, **Bogføring**, **Bogfør**. Vælg **Lever** i det vindue, der vises.  
+4. Vælg **Handlinger**, **Bogføring**, **Bogfør**. Vælg **Lever** på siden, der vises.  
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)] opretter posterne (i garantipost, varepost, servicepost eller finanspost) og det bogførte serviceleverancedokument, og de relevante felter på servicelinjerne i serviceordren opdateres.  
   

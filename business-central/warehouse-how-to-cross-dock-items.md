@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1ac3aab6063abc247e05b4ae966ee6b99e81bf23
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cf67f83434f135226eaa677cd64d86090a0ab0f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="cross-dock-items"></a>Afsende varer direkte
@@ -44,7 +44,7 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
     Hvis du bruger zoner, kan du oprette en zone til direkte afsendelsesplaceringer og markere feltet **Dir.afs.placeringszone**. Du kan finde flere oplysninger i [Oprette lokationer til brug af placeringer](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokation**, og vælg derefter det relaterede link.  
-3.  I vinduet **Lokation** skal du vælge den lokation, hvor du vil opsætte lagerstedet til direkte afsendelse og derefter vælge handlingen **Rediger**.  
+3.  På siden **Lokation** skal du vælge den lokation, hvor du vil opsætte lagerstedet til direkte afsendelse og derefter vælge handlingen **Rediger**.  
 4.  I oversigtspanelet **Lager** skal du markere afkrydsningsfeltet **Brug dir. afsendelse** og udfylde feltet **Beregn forfaldsdato - dir. afsend** med den tid, der skal søges efter muligheder for direkte afsendelse.
 
     Indstillingen **Brug dir. afsendelse** er kun tilgængelig, hvis du har markeret felterne **Kræv modtagelse**, **Kræv leverance**, **Kræv pluk** og **Kræv læg-på-lager**.  
@@ -52,7 +52,7 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
 5.  Hvis du bruger placeringer, skal du angive koden for den placering, der som standard skal bruges som direkte afsendelsesplacering, i feltet **Dir.afs.placeringskode** i oversigtspanelet **Placeringer**.  
 6.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagervare (pr. lok.)**, og vælg det relaterede link.  
 7.  For hver vare eller lagervare, som du vil kunne afsende direkte, skal du vælg varen og derefter vælge handlingen **Rediger**.
-8. I vinduet **Lagervarekort** skal du markere afkrydsningsfeltet **Brug dir. afsendelse**.  
+8. På siden **Lagervarekort** skal du markere afkrydsningsfeltet **Brug dir. afsendelse**.  
 
 > [!NOTE]  
 >  Direkte afsendelse kan kun udføres, hvis lokationen kræver lagermodtagelse og læg-på-lager.  
@@ -70,7 +70,7 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
 
     Hvis du benytter placeringer, er varerne til direkte afsendelse automatisk blevet tildelt den standardplacering, der er defineret på lokationskortet.  
 
-5.  Slet **Hent-** og **Placer-** linjerne for varer, der ikke skal afsendes direkte.  
+5.  Slet **Hent**- og **Placer**-linjerne for varer, der ikke skal afsendes direkte.  
 6.  Udskriv læg-på-lager-instruktionen for resten af linjerne, og læg de varer fra modtagelsen, der skal på lager, på de korrekte placeringer eller det korrekte område på lagerstedet. Læg varerne til direkte afsendelse i det korrekte område eller på den korrekte placering. Varerne skal muligvis blot forblive i modtagelsesområdet.  
 7.  Hvis du vil registrere varerne til direkte afsendelse som lagt på plads og som disponible til pluk, skal du vælge handlingen **Registrer**.  
 
@@ -81,10 +81,10 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
     Du vil se de linjer i kildedokument, hvor varen bestilles, før du bogfører modtagelsen.  
 3.  Vælg handlingen **Beregn direkte afsendelse**.  
 
-    I vinduet **Mulighed for dir. afsend.** kan du se de vigtigste detaljer om linjerne, f.eks. dokumenttype, antal bestilt og forfaldsdato. Du kan bruge disse oplysninger til at bestemme, hvor meget der skal afsendes direkte, hvor varerne skal lægges i området til direkte afsendelse, og hvordan de skal grupperes.  
+    På siden **Mulighed for dir. afsend.** kan du se de vigtigste detaljer om linjerne, f.eks. dokumenttype, antal bestilt og forfaldsdato. Du kan bruge disse oplysninger til at bestemme, hvor meget der skal afsendes direkte, hvor varerne skal lægges i området til direkte afsendelse, og hvordan de skal grupperes.  
 
 4.  Vælg handlingen **Indsæt ant. til dir. afsend.** for at se, hvordan antallet blev beregnet på modtagelseslinjerne. Når du ændrer antallet af varer i feltet **Antal til dir. afsend** på hver linje, opdateres beregningen, efterhånden som du foretager ændringer. Det betyder ikke, at den pågældende leverance eller produktionsordre faktisk vil få tildelt de varer, der foreslås til direkte afsendelse, da ændringerne kun udgør en vejledende test. Handlingen kan imidlertid være informativ, hvis der f.eks. opereres med mere end én enhed.  
-5.  Hvis du vil reservere et antal varer til en bestemt ordrelinje, skal du placere markøren på linjen og derefter vælge handlingen **Reserver**. I vinduet **Reservation** kan du nu reservere ethvert tilgængeligt antal af varen til denne bestemte ordre. Denne reservation er ligesom alle andre reservationer og får ikke højere prioritet, fordi den er oprettet i forbindelse med direkte afsendelse. Du kan finde flere oplysninger i [Reservere varer](inventory-how-to-reserve-items.md).   
+5.  Hvis du vil reservere et antal varer til en bestemt ordrelinje, skal du placere markøren på linjen og derefter vælge handlingen **Reserver**. På siden **Reservation** kan du nu reservere ethvert tilgængeligt antal af varen til denne bestemte ordre. Denne reservation er ligesom alle andre reservationer og får ikke højere prioritet, fordi den er oprettet i forbindelse med direkte afsendelse. Du kan finde flere oplysninger i [Reservere varer](inventory-how-to-reserve-items.md).   
 6.  Vælg knappen **OK**, når du er færdig med at beregne eller reservere, for at overføre den reviderede beregning til feltet **Antal til dir. afsend.** på modtagelseslinjen, eller vælg knappen **Annuller**, hvis du vil vende tilbage til lagermodtagelsen og beregne den direkte afsendelse igen.  
 7.  Bogfør nu modtagelsen, og fortsæt med læg-på-lager-instruktionerne som beskrevet i trin 3 til 7 i afsnittet "Sådan afsendes varer direkte uden at få vist muligheder".  
 

@@ -13,17 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5b57b47d4ceb08a3836140945387e38887553a99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2eab68abd4c02aa6d42daf751640f47a8fb11d23
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-sales-opportunities"></a>Behandle salgsleads
 Når du opretter et lead, er der flere funktioner til administration af et lead og til at flytte det til afslutning.
 
 ## <a name="to-view-opportunities"></a>Sådan vises salgsmuligheder
-De eksisterende salgsleads er tilgængelige i vinduet **Leadoversigt**. Der er forskellige måder at få adgang til vinduet for at behandle salgsleads:
+De eksisterende salgsmuligheder er tilgængelige på siden **Salgsmulighedsoversigt**. Der er forskellige måder at få adgang til siden for at behandle salgsmuligheder:
 
 | For at få vist salgsleads for | Så |
 | --- | --- |
@@ -31,12 +31,12 @@ De eksisterende salgsleads er tilgængelige i vinduet **Leadoversigt**. Der er f
 | En bestemt sælger |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere**, og vælg derefter det relaterede link. Vælg sælgeren, vælg handlingen **Leads**, og vælg derefter handlingen **Oversigt**. |
 | En bestemt kontakt |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link. Vælg kontakten på listen, og vælg derefter handlingen **Leads**. |
 
-Hver af disse opgaver åbnes i vinduet **Leadoversigt**.
+Hver af disse opgaver åbnes på siden **Salgsmulighedsoversigt**.
 
 ## <a name="to-close-opportunities"></a>Sådan lukkes leads
 Når forhandlingerne er afsluttet, kan du lukke leads. Når du lukker et lead, kan du samtidig angive, om det blev vundet eller tabt, og hvorfor det lukkes. For at angive en årsag, skal du have defineret lukkekoder for leads.
 
-1. I vinduet **Leadoversigt** skal du vælge leadet og derefter vælge handlingen **Luk**. Vinduet **Luk lead** åbnes.
+1. På siden **Salgsmulighedsoversigt** skal du vælge salgsmuligheden og derefter vælge handlingen **Luk**. Siden **Luk salgsmulighed** åbnes.
 2. Udfyld de relevante felter, og vælg derefter knappen **OK**.
 
    Felterne **Leadlukkekode** og **Lukket den** er obligatoriske og skal udfyldes, før du kan vælge knappen **OK**.
@@ -46,22 +46,22 @@ Når forhandlingerne er afsluttet, kan du lukke leads. Når du lukker et lead, k
 ## <a name="to-create-quotes-for-opportunities"></a>Sådan oprettes tilbud til leads
 Du kan oprette salgstilbud for kontakter, der ikke er registreret som debitorer.
 
-1. I vinduet **Leadoversigt** skal du vælge leadet og derefter vælge handlingen **Tildel salgstilbud**. Vinduet **Salgstilbud** åbnes.
+1. På siden **Salgsmulighedsoversigt** skal du vælge salgsmuligheden og derefter vælge handlingen **Tildel salgstilbud**. Siden **Salgstilbud** åbnes.
 2. Udfyld de relevante felter.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Sådan oprettes salgsordrer til leads
 Du kan oprette salgsordrer ud fra de tilbud, som du har oprettet til leads. Før du kan oprette salgsordrer til dine kontaktpersoner, skal du oprette kontaktpersonen som debitor. Du kan finde flere oplysninger under [Oprette en debitor, kreditor eller bankkonto fra en kontakt](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
 
-1. I vinduet **Leadoversigt** skal du finde det lead, du har oprettet et salgstilbud til.
-2. Vælg handlingen **Tildel salgstilbud**. Vinduet **Salgstilbud**, der indeholder det salgstilbud, som du har knyttet til leadet, åbnes.
+1. På siden **Salgsmulighedsoversigt** skal du finde den salgsmulighed, du har oprettet et salgstilbud til.
+2. Vælg handlingen **Tildel salgstilbud**. Siden **Salgstilbud**, der indeholder det salgstilbud, som du har knyttet til salgsmuligheden, åbnes.
 3. Udfyld de øvrige felter, og vælg derefter handlingen **Lav ordre**.
 
 Når du arbejder med leads, kan det være nødvendigt at afgive tilbud til den kontakt, som leadet vedrører.
 
 ## <a name="to-delete-opportunities"></a>Sådan slettes leads
-Du kan slette lead, hvis du f.eks. har afsluttet en handel. Men du kan kun slette lukkede leads. Der er to måder at slette lukkede leads. Du kan slette individuelle lukkede leads fra vinduet **Leadoversigt**, eller du kan starte kørslen **Slet lukkede leads** for at slette flere leads baseret på et angivet kriterium.
+Du kan slette lead, hvis du f.eks. har afsluttet en handel. Men du kan kun slette lukkede leads. Der er to måder at slette lukkede leads. Du kan slette individuelle lukkede salgsmuligheder fra siden **Salgsmulighedsoversigt**, eller du kan starte kørslen **Slet lukkede salgsmuligheder** for at slette flere salgsmuligheder baseret på et angivet kriterium.
 
-Når du vil slette lukkede leads fra vinduet **Leadoversigt**, skal du vælge leadet og derefter vælge handlingen **Slet**.
+Når du vil slette lukkede salgsmuligheder fra siden **Salgsmulighedsoversigt**, skal du vælge salgsmuligheden og derefter vælge handlingen **Slet**.
 
 Du sletter lukkede leads med kørslen **Slet lukkede leads** ved at følge disse trin:
 
@@ -69,12 +69,12 @@ Du sletter lukkede leads med kørslen **Slet lukkede leads** ved at følge disse
 2. I afsnittet **Lead** skal angive filtre, der angiver de lukkede leads, der skal slettes.
 3. Vælg knappen **OK**.
 
-Når du har slettet et lead, fjernes det automatisk fra vinduet **Leadoversigt**.
+Når du har slettet en salgsmulighed, fjernes det automatisk fra siden **Salgsmulighedsoversigt**.
 
 ## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Sådan flyttes et lead via salgsprocesfaser
 Hvis et lead følger en salgsproces, kan du flytte det frem eller tilbage i de forskellige faser, f.eks flytte til den næste eller forrige fase og også springe en fase over.
 
-1. Vælg handlingen **Opdater** i vinduet **Leadoversigt**. **Opdater lead** åbnes.
+1. Vælg handlingen **Opdater** på siden **Salgsmulighedsoversigt**. **Opdater lead** åbnes.
 2. Brug feltet **Handlingstype** til at flytte leadet gennem salgsprocesfaserne:
    * **Næste** flytter et lead én fase frem.
    * **Spring over** flytter et lead en eller flere faser frem i salgsprocessen, som du angiver i feltet **Præsentation**. Du kan kun springe faser over, der er indstillet til at tillade overspringning.

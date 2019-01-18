@@ -1,6 +1,6 @@
 ---
 title: "Designoplysninger – Intervallets rolle | Microsoft Docs"
-description: "Formålet med intervallet er at indsamle behovshændelser inden for tidsvinduet for at oprette en fælles forsyningsordre."
+description: "Formålet med intervallet er at indsamle behovshændelser inden for tidssiden for at oprette en fælles forsyningsordre."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -14,14 +14,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c258c13a08e9556caddf55a0d14962ad85cd8ca7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: ff748a192d8d1650a708ab70ec33ccc7bfd53c48
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-the-role-of-the-time-bucket"></a>Designoplysninger: Intervallets rolle
-Formålet med intervallet er at indsamle behovshændelser inden for tidsvinduet for at oprette en fælles forsyningsordre.  
+Formålet med intervallet er at indsamle behovshændelser inden for tidssiden for at oprette en fælles forsyningsordre.  
 
  For genbestillingspolitikker, der bruger et genbestillingspunkt, kan du angive et interval. Dette sikrer, at behov inden for den samme tidsperiode er akkumuleret, før du tjekker indvirkningen på den forventede lagerbeholdning, og om genbestillingspunktet er blevet overskredet. Hvis genbestillingspunktet er overskredet, er en ny forsyningsordre planlagt fremad fra udgangen af den periode, der er defineret i intervallet. Intervaller starter på den planlagte startdato.  
 

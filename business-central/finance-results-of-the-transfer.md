@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: general ledger, transfer, cost entries
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-transfer-and-post-cost-entries
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bc693bf3f3339b54a5d8d8847beb06c3fc018a0f
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: 0e17ff5ad60014cba6ce866c9ddae848b1239167
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultater af overførsel af finansposter til omkostningsposter.
@@ -38,8 +39,5 @@ For enkelte omkostningsposter overfører [!INCLUDE[d365fin](includes/d365fin_md.
 I tabellen **Omkostningsregister** opretter [!INCLUDE[d365fin](includes/d365fin_md.md)] en post med kildeoverførsel fra regnskabet. Posten registrerer det første og sidste løbenummer for de finansposter, der overføres, foruden første og sidste postnummer på de omkostningsposter, der er oprettet.  
 
 ## <a name="see-also"></a>Se også  
-[Overføre finansposter til omkostningsposter](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
-[Kriterier for overførsel af finansposter til omkostningsposter](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
-[Automatisk overførsel og kombinerede poster](finance-automatic-transfer-combined-entries.md)   
-[Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)  
+[Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)   
 

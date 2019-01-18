@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 98a2e773dbde6ba4ba0493e2b0dc7b632bbea4d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Ændre, hvilket layout der aktuelt bruges i en rapport
@@ -26,8 +26,8 @@ Afhængig af de layout, der er tilgængelige for en rapport, kan du vælge at br
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Sådan ændrer du layoutet, der bruges i en rapport
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
-   Vinduet **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige for det firma, der er angivet i feltet Virksomhed øverst i vinduet. Feltet Valgt layout angiver det layout, der aktuelt bruges af rapporten.
-2. Angiv feltet **Virksomhed** øverst i vinduet til det firma, der indeholder rapporten.
+   Siden **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige i det firma, der er angivet i feltet Virksomhed øverst på siden. Feltet Valgt layout angiver det layout, der aktuelt bruges af rapporten.
+2. Angiv feltet **Virksomhed** øverst på siden til det firma, der indeholder rapporten.
 3. Hvis du vil ændre layoutet for en rapport, skal du i rækken for rapporten på listen angive feltet **Valgt layout** til en af følgende indstillinger:
    * RDLC (indbygget), bruger det indbyggede RDLC-rapportlayout i rapporten.
    * Word (indbygget), bruger det indbyggede Word-rapportlayout i rapporten.
@@ -40,10 +40,10 @@ Afhængig af de layout, der er tilgængelige for en rapport, kan du vælge at br
 Hvis du har valgt et indbygget RDLC- eller Word-rapportlayout, kræves ingen yderligere handling, og layoutet bruges, næste gang rapporten køres.
 
 ## <a name="to-specify-a-custom-layout-on-a-report"></a>Sådan angiver du et brugerdefineret layout i en rapport
-1. Du kan angive, hvilket brugerdefinerede layout der skal bruges i rapporten, fra vinduet **Tilpassede rapportlayouts**. Hvis vinduet **Tilpassede rapportlayouts** ikke er åbent, skal du i feltet **Beskrivelse af rapportlayout** klikke på opslagsknappen.
-2. Brug vinduet **Tilpassede rapportlayouts** til at vælge rækken med det brugerdefinerede layout, du vil bruge, og luk derefter vinduet.
+1. Du kan angive, hvilket brugerdefinerede layout der skal bruges i rapporten, fra siden **Tilpassede rapportlayouts**. Hvis siden **Tilpassede rapportlayouts** ikke er åbent, skal du i feltet **Beskrivelse af rapportlayout** klikke på opslagsknappen.
+2. Brug siden **Tilpassede rapportlayouts** til at vælge rækken med det brugerdefinerede layout, du vil bruge, og luk derefter siden.
 
-Du kommer tilbage til vinduet **Valg af rapportlayout**. Navnet på det valgte brugerdefinerede layout vises i feltet **Beskrivelse af brugerdefineret layout**. Det brugerdefinerede layout, der skal bruges, næste gang du kører rapporten.
+Du kommer tilbage til siden **Valg af rapportlayout**. Navnet på det valgte brugerdefinerede layout vises i feltet **Beskrivelse af brugerdefineret layout**. Det brugerdefinerede layout, der skal bruges, næste gang du kører rapporten.
 
 ## <a name="see-also"></a>Se også
 [Administration af rapportlayout](ui-manage-report-layouts.md)  

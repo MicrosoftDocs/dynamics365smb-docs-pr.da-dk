@@ -11,16 +11,16 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1924ed56ebf31debbccbc6f94724a6ca93eeb7a6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.
 
-Du kan f.eks. justere størrelsen og placeringen af et vindue, udvide bredden af kolonner og øge højden på kolonneoverskrifter og ændre sorteringen af data i kolonner. Og hvis du vil bruge et vandret rullepanel til at få vist alle kolonner på en listeside eller på dokumentlinjer, er der en lodret låst rude, der sikrer, at visse kolonner ikke kan rulles.
+Du kan f.eks. justere størrelsen og placeringen af en side, udvide bredden af kolonner og øge højden på kolonneoverskrifter og ændre sorteringen af data i kolonner. Og hvis du vil bruge et vandret rullepanel til at få vist alle kolonner på en listeside eller på dokumentlinjer, er der en lodret låst rude, der sikrer, at visse kolonner ikke kan rulles.
 
 I følgende tabel vises nogle af den generelle funktionalitet med links til emner, hvor de er beskrevet.
 

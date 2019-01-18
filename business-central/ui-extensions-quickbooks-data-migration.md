@@ -11,29 +11,53 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 583f6947acd3778710f0889736439322d9179ce6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
+
 # <a name="the-quickbooks-data-migration-extension"></a>Udvidelsen Overførsel af QuickBooks-data
 Denne udvidelse gør det nemt at overflytte debitorer, kreditorer, varer og konti fra QuickBooks til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis din virksomhed bruger QuickBooks i dag, kan du eksportere de relevante oplysninger og derefter åbne en assisteret opsætningsvejledning for at overføre dataene til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 Du kan finde flere oplysninger under [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).
 
-## <a name="exporting-data-from-quickbooks-desktop"></a>Udlæse data fra QuickBooks Desktop
-Du skal have udlæst nogle eller alle eksisterende kunder, leverandører, lagervarer og konti til en IIF-fil (Intuit Interchange Format). Udvidelsen Overførsel af QuickBooks-data indeholder en standardtilknytning af QuickBooks-data, så du kan bruge dine eksisterende data til at teste den nye [!INCLUDE[d365fin](includes/d365fin_md.md)]-virksomhed. Standardtilknytningen er tilstrækkelig i de fleste tilfælde, men du kan ændre tilknytningen i den assisterede opsætningsvejledning.  
-I QuickBooks indeholder menuen Filer et værktøj til eksport af lister. I forbindelse med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du eksportere følgende lister:
+## <a name="data-from-quickbooks-desktop"></a>Data fra QuickBooks Desktop
+ 
+Du kan importere følgende data fra QuickBooks Online til Business Central:
 
-* Debitoroversigt  
-* Kreditoroversigt  
-* Vareoversigt  
-* Kontooversigt  
+- Kunder (Debitorer)  
+- Leverandører (Kreditorer)  
+- Varer  
+- Kontoplan  
+- Primosaldopostering i regnskabet  
+- Disponible antal for lagervarer  
+- Åbne dokumenter for debitorer og kreditorer, f.eks. fakturaer, kreditnotaer og betalinger  
 
-De eksporterede data gemmes som en IIF-fil, som du derefter kan overføre til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Vi overfører kun fulde beløb på salgs- og købsdokumenter. Delvist betalte beløb opdateres ikke. F.eks. hvis en debitor har indbetalt 300 af i alt 500 dollar på en salgsfaktura, overfører vi hele 500. Hvis du har modtaget delbetalinger, skal du opdatere dem manuelt, før eller efter at du overfører data. Det anbefales, at du anvender udestående transaktioner, inden du overfører, for at gøre tingene nemmere bagefter.
+
+> [!NOTE]
+> Vi overfører ikke indkøbsordrer eller salgsordrer.
+
+## <a name="before-you-start"></a>Før du starter
+Det er en vigtig del af overførslen at angive de konti, transaktioner skal overføres til. Det er en god ide at planlægge denne tilknytning, før du overfører data. F.eks. de konti, hvor du bogfører poster for:
+
+- Salget af varer eller servicer til debitorer  
+- Køb af varer eller servicer fra kreditorer  
+- Ændringer i finansbogholderiet  
+Business Central kræver, at finanskonti har kontonumre tilknyttet. Sørg for, at kontonumre er tildelt til kontiene i QuickBooks Online.
+Hvis der er transaktioner i QuickBooks Online, der har momsbeløb, du skal oprette en momskonto for dine skatteregioner i Business Central, før du kan bogføre transaktioner.
+
+For at få data ud af programmet QuickBooks Desktop skal du hente værktøjet Microsoft-dataeksportværktøjet.  Instruktioner til værktøjet findes i dataoverførselsguiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Værktøjet opretter forbindelse til programmet QuickBooks og eksportere de relevante oplysninger til en *.zip-fil.  
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Sådan finder du udvidelsen Overførsel af QuickBooks-data
 Udvidelsen Overførsel af QuickBooks-data er installeret og klar til brug som en integreret del af den assisterende opsætningsvejledning til dataoverførsel. Hvis du er klar til at komme i gang nu og har eksporteret dine data fra QuickBooks, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Assisteret opsætning** og derefter vælge det relaterede link. Vælg **Overflyt forretningsdata**, og følg derefter trinnene i vejledningen.  
+
+## <a name="what-do-i-do-after-i-migrate-data"></a>Hvad gør jeg, når jeg har overført data?
+Når du har overført data, har transaktioner status Ikke-bogførte, så du kan gennemgå dem og foretage ændringer. For at få vist transaktionerne skal du gå til siden, hvor du vil finde dem normalt. F.eks. for at få vist ikke-bogførte salgsfakturaer, skal du gå til siden Salgsfakturaer. For at få vist udbetalingskladder skal du gå til siden Udbetalingskladder.
+Der er især nogle ting, du skal gøre: Hvis transaktionerne i QuickBooks havde avance- eller rabatbeløb, skal du manuelt føje beløbene til de relaterede transaktioner i Business Central, før du bogfører dem.
+Hvis du bruger moms, skal du evt. tilføje en virksomhedsbogføringsgruppe og en produktbogføringsgruppe i bogføringsopsætningen, så du kan bogføre momsbeløb.
+Kontroller primosaldi for konti i finansbogholderiet. QuickBooks gemmer ikke den aktuelle saldo for alle konti, så det kan være nødvendigt at rette primosaldi.
 
 ## <a name="see-also"></a>Se også
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  

@@ -13,10 +13,10 @@ ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c2bdec641a78a13d75ed8d1b3379a74f7af353a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adjust-item-costs"></a>Regulere varepriser
@@ -34,11 +34,11 @@ Hvis du bruger kostmetoden FIFO, er en vares kostpris er den faktiske værdi af 
 
 Hvis du bruger kostmetoden Gennemsnit, beregnes en vares kostpris som den gennemsnitlige kostpris på hvert enkelt tidspunkt efter et køb. Lager værdiansættes ud fra den forudsætning, at alle lagerbeholdninger sælges samtidig. For varer, der bruger denne kostmetode, kan du vælge feltet **Kostpris** på varekortet for at få vist en oversigt over transaktioner, som den gennemsnitlige kostpris beregnes ud fra
 
-Funktionen til regulering af kostpriser behandler kun de værdiposter, der endnu ikke er reguleret. Hvis der opstår en situation, hvor funktionen skal overføre ændrede indgående omkostninger til tilknyttede udgående poster, oprettes nye justeringsværdiposter, som er baseret på oplysningerne i de oprindelige værdiposter, men som indeholder justeringsbeløbet. Omkostningsreguleringsfunktionen bruger bogføringsdatoen for den oprindelige værdipost i justeringsposten, medmindre den dato er inden for en lukket lagerperiode. Hvis det er tilfældet, bruges startdatoen for den næste åbne lagerperiode. Hvis der ikke anvendes lagerperioder, er det datoen i feltet **Bogf. tilladt fra** i vinduet **Opsætning af Finans**, der definerer, hvornår reguleringsposten bogføres.
+Funktionen til regulering af kostpriser behandler kun de værdiposter, der endnu ikke er reguleret. Hvis der opstår en situation, hvor funktionen skal overføre ændrede indgående omkostninger til tilknyttede udgående poster, oprettes nye justeringsværdiposter, som er baseret på oplysningerne i de oprindelige værdiposter, men som indeholder justeringsbeløbet. Omkostningsreguleringsfunktionen bruger bogføringsdatoen for den oprindelige værdipost i justeringsposten, medmindre den dato er inden for en lukket lagerperiode. Hvis det er tilfældet, bruges startdatoen for den næste åbne lagerperiode. Hvis der ikke anvendes lagerperioder, er det datoen i feltet **Bogf. tilladt fra** på siden **Regnskabsopsætning**, der definerer, hvornår reguleringsposten bogføres.
 
 ## <a name="to-adjust-item-costs-manually"></a>Sådan reguleres varekostpriser manuelt
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Juster kostpris - vareposter**, og vælg derefter det relaterede link.
-2. I vinduet **Reguler kostværdi - vareposter** skal du angive de varer, hvis omkostninger skal reguleres.
+2. På siden **Reguler kostværdi - vareposter** skal du angive de varer, hvis omkostninger skal reguleres.
 3. Vælg knappen **OK**.
 
 ## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Sådan foretages generelle rettelser af købspris

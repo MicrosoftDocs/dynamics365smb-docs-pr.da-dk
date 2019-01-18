@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 197a5805d55546bbbff1cffc9a12d7cc91017fcd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-loaner-program"></a>Oprette et udlånsprogram
@@ -28,7 +28,7 @@ Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan br
 ## <a name="to-set-up-a-loaner"></a>Sådan defineres udlånsvarer  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lånere**, og vælg derefter det relaterede link.  
 2. Opret et nyt udlånsvarekort. 
-3. I feltet **Nummer** skal du skrive et nummer på udlånsvaren. Du kan også, hvis du har opsat en nummerserie for udlånsvarer i vinduet **Serviceopsætning**, trykke på Enter. Det næste tilgængelige udlånsvarenummer angives derefter automatisk.  
+3. I feltet **Nummer** skal du skrive et nummer på udlånsvaren. Du kan også, hvis du har opsat en nummerserie for udlånsvarer på siden **Serviceopsætning**, trykke på Enter. Det næste tilgængelige udlånsvarenummer angives derefter automatisk.  
 4. Udfyld felterne **Beskrivelse**, **Beskrivelse 2** og **Serienr.**.  
 5. Vælg den relevante basisenhed i feltet **Enhedskode**.  
   

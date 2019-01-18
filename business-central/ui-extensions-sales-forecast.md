@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 568cc364b868d9edf2b0126b38ecd2cbc4a5447e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3ae36c5cb7f1738bded3947c99c197221a621f07
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Udvidelsen Salgs- og lagerprognose
@@ -26,7 +26,7 @@ Lagerstyring håndterer balancen mellem kundeservice og styring af omkostningern
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er forbindelsen til [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite) allerede konfigureret for dig. Du kan dog konfigurere en prognose, hvis du vil bruge en anden type periode i rapporten, f.eks hvis du vil skifte fra prognose pr. måned til prognose pr. kvartal. Du kan også vælge, hvor mange perioder prognosen skal beregnes for, afhængigt af hvor detaljeret prognosen skal være. Vi anbefaler prognose pr. måned og en horisont på 12 måneder for prognosen.  
 
 ## <a name="using-the-forecasts"></a>Brug af prognoser
-Udvidelsen bruger Cortana Intelligence til at forudse fremtidigt salg ud fra din salgsoversigt, så du bedre kan undgå manglende lager. Når du f.eks. vælger en vare i vinduet **Varer** , og diagrammet i ruden **Vareprognose** viser det anslåede salg af varen i den kommende periode. På denne måde kan du se, om du sandsynligvis vil løbe tør for lager inden længe.  
+Udvidelsen bruger Cortana Intelligence til at forudse fremtidigt salg ud fra din salgsoversigt, så du bedre kan undgå manglende lager. Når du f.eks. vælger en vare på siden **Varer** , og diagrammet i ruden **Vareprognose** viser det anslåede salg af varen i den kommende periode. På denne måde kan du se, om du sandsynligvis vil løbe tør for lager inden længe.  
 
 Du kan også bruge udvidelsen til at foreslå, hvornår lageret skal øges. Hvis du f.eks. opretter en købsordre for Fabrikam, fordi du vil købe deres nye skrivebordsstol, vil udvidelsen Salgs- og lagerprognose foreslå, at du også øger lageret af LONDON-drejestolen, som du normalt køber hos denne leverandør. Det skyldes, at udvidelsen forudser, at lageret af LONDON-drejestolen vil løbe tørt i de kommende to måneder, så du med fordel kan bestille flere stole allerede nu.  
 

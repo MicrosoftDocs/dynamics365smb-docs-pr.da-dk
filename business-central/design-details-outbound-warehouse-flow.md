@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designoplysninger: Udgående lagerflow
@@ -66,7 +66,7 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
  Når det udgående kildedokument frigives, oprettes der automatisk en udgående lageranmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Opret pluk (lager) eller flytning (lager)  
- I vinduet **Pluk (lager)** eller **Flytning (lager)** modtager lagermedarbejderen på en pull-måde ventende kildedokumentlinjer, der er baseret på udgående lageranmodninger. Alternativt er pluklinjerne for lageret allerede oprettet på en push-måde af den bruger, der er ansvarlig for kildedokumentet.  
+ På siden **Pluk (lager)** eller **Flytning (lager)** modtager lagermedarbejderen på en pull-måde ventende kildedokumentlinjer, der er baseret på udgående lageranmodninger. Alternativt er pluklinjerne for lageret allerede oprettet på en push-måde af den bruger, der er ansvarlig for kildedokumentet.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Bogfør pluk (lager), eller registrer flytning (lager)  
  På hver linje for varer, der er plukket eller flyttet helt eller delvist, udfylder lagermedarbejderen feltet **Antal** og bogfører derefter lagerplukningen eller registrerer flytning (lager). Kildedokumenter, der er knyttet til lagerplukningen, bogføres som leveret eller forbrugt. Kildedokumenter, der er relateret til lagerflytning, bogføres ikke.  
@@ -85,7 +85,7 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
  Når det indgående kildedokument frigives, oprettes der automatisk en udgående lageranmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Opret lagerleverance  
- I vinduet **Lagerleverance** modtager den ansvarlige speditionsmedarbejder ventende kildedokumentlinjer, der er baseret på den udgående lageranmodning. Flere kildedokumentlinjer kan kombineres i et lagerleverancedokument.  
+ På siden **Lagerleverance** modtager den ansvarlige speditionsmedarbejder ventende kildedokumentlinjer, der er baseret på den udgående lageranmodning. Flere kildedokumentlinjer kan kombineres i et lagerleverancedokument.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Frigiv leverance / Opret pluk (logistik)  
  Den speditionsmedarbejder, der er ansvarlig, frigiver lagerleverancen, så lagermedarbejderne kan oprette eller koordinere lagerpluk for den pågældende leverance.  
@@ -109,7 +109,7 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
  Den lagermedarbejder, der udfører pluk, opretter et lagerplukdokument på en pull-måde baseret på det frigivne kildedokument. Alternativt er lagerplukdokumentet oprettet og tildelt lagermedarbejderen på en push-måde.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Registrer pluk (lager)  
- På hver linje for varer, der er plukket eller flyttet helt eller delvist, udfylder lagermedarbejderen feltet **Antal** i vinduet **Pluk (logistik)** og registrerer derefter lagerplukningen.  
+ På hver linje for varer, der er plukket eller flyttet helt eller delvist, udfylder lagermedarbejderen feltet **Antal** på siden **Pluk (logistik)** og registrerer derefter lagerplukningen.  
 
  Lagerposter oprettes og lagerpluklinjerne slettes, hvis de er fuldt håndteret. Lagerplukdokumentet forbliver åbent, indtil det fulde antal af den relaterede lagerleverance er registreret. Feltet **Plukket antal** på lagerleverancelinjerne opdateres i overensstemmelse hermed.  
 

@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>Montere elementer
@@ -44,18 +44,18 @@ I denne procedure skal du oprette og behandle en montageordre for montage til la
 
 ## <a name="to-assemble-an-item"></a>Sådan monteres et element  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Montageordrer**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**. Vinduet **Ny montageordre** åbnes.  
+2.  Vælg handlingen **Ny**. Siden **Ny montageordre** åbnes.  
 3.  Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Vælg det montageelement, som skal behandles, i feltet **Varenr.**. Feltet er filtreret, så det kun viser elementer, der er konfigureret for montage, hvilket betyder, at de har tildelte montagestyklister.  
 5.  I feltet **Antal** skal du angive, hvor mange enheder af varen, der skal monteres.  
 
     > [!NOTE]  
-    >  Hvis en eller flere komponenter ikke er tilgængelige for at opfylde det angivne montageelement på den definerede forfaldsdato, åbnes vinduet **Montagedisponering** automatisk med detaljerede oplysninger om, hvor mange montageelementer der kan monteres baseret på komponenttilgængeligheden. Du kan finde flere oplysninger i [Vise tilgængeligheden af varer](inventory-how-availability-overview.md). Når du lukker vinduet, oprettes montageordren med beskeder om tilgængelighed på de berørte komponentlinjer.  
+    >  Hvis en eller flere komponenter ikke er tilgængelige for at opfylde det angivne montageelement på den definerede forfaldsdato, åbnes siden **Montagedisponering** automatisk med detaljerede oplysninger om, hvor mange montageelementer der kan monteres baseret på komponenttilgængeligheden. Du kan finde flere oplysninger i [Vise tilgængeligheden af varer](inventory-how-availability-overview.md). Når du lukker siden, oprettes montageordren med beskeder om tilgængelighed på de berørte komponentlinjer.  
 
     Montageordrelinjerne udfyldes automatisk med indholdet af montagestyklisten og linjemængder i henhold til montageordrehovedet.  
 
     > [!NOTE]  
-    >  Hvis vinduet **Montagedisponering** åbnes, når du har udfyldt montageordrehovedet, indeholder hver berørt montageordrelinje et **Ja** i feltet **Disponeringsadvarsel** med et link til yderligere disponeringsoplysninger. Du kan finde flere oplysninger i Check varebeholdning Du kan løse et problem med komponenttilgængelighed ved at udsætte startdatoen, erstatte komponenten med en anden vare eller vælge en tilgængelig erstatningsvare, hvis der er defineret en.  
+    >  Hvis siden **Montagedisponering** åbnes, når du har udfyldt montageordrehovedet, indeholder hver berørt montageordrelinje et **Ja** i feltet **Disponeringsadvarsel** med et link til yderligere disponeringsoplysninger. Du kan finde flere oplysninger i Check varebeholdning Du kan løse et problem med komponenttilgængelighed ved at udsætte startdatoen, erstatte komponenten med en anden vare eller vælge en tilgængelig erstatningsvare, hvis der er defineret en.  
 
 6.  I feltet **Antal til montage** skal du angive, hvor mange enheder af montageelementet, du vil bogføre som afgang, næste gang du bogfører montageordren. Dette antal kan være lavere end værdien i feltet **Antal** som afspejling af en delvis afgangsbogføring.  
 

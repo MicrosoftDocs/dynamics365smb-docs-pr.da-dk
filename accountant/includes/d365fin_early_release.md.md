@@ -1,1 +1,1 @@
-Dette er tidligt frigivet funktionalitet, som vi stadig arbejder på. Funktioner og indholdet på denne side kan blive ændret. Hvis du vil vide, hvad der kommer, skal du [hente produktbemærkningerne fra foråret 2018](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).
+Dette er tidligt frigivet funktionalitet, som vi stadig arbejder på. Funktioner og indholdet på denne side kan blive ændret.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e597f0847a5d1991e26b1fed4596815889f950d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7d4f7293a040ad25ce8325552bc6f05f94dd0710
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-standard-routing-lines"></a>Konfigurere standardrutelinjer
@@ -27,7 +27,7 @@ Brugen af standardoperationer forenkler oprettelse og vedligeholdelse af ruter. 
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg en af handlingerne **Værktøjer**, **Medarbejdere**, **Beskrivelse**, eller **Værktøjer**.
-5. I det vindue, der åbnes, beskrives den pågældende standardoperation.
+5. På siden, der åbnes, beskrives den pågældende standardoperation.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Sådan tilføjes en standardopgave til en operation
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.

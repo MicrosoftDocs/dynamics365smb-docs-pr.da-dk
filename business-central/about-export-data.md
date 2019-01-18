@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 33ccc1dbe9654245129bdbd760896054c10cd2f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdata til Excel
@@ -22,6 +22,9 @@ Hvis du vil arbejde med dine data fra [!INCLUDE[d365fin](includes/d365fin_md.md)
 
 ## <a name="opening-lists-in-excel"></a>Åbne lister i Excel
 Du kan åbne data i Excel fra enhver kladde, liste eller regneark. Du skal bare åbne den ønskede side og derefter vælge **Åbn i Excel**. Du kan f.eks. åbne listen over debitorer (søg efter **Debitorer**) og derefter klikke på **Åbn i Excel**. Din du bliver bedt om at åbne eller gemme den oprettede Excel-projektmappe.  
+
+> [!NOTE]
+> Brug denne indstilling, når du ikke vil foretage ændringer og publicere dem tilbage til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Hver liste indeholder et antal kolonner, og eksporten til Excel medtager alle de kolonner, der er i den aktuelle visning. Hvis du vil tilføje eller fjerne kolonner, før du åbner listen i Excel, kan du åbne genvejsmenuen for en kolonne og derefter angive, hvilke kolonner der skal vises. Listen over kolonner er forskellig for de fleste lister, og den afspejler strukturen i den database, hvor dine data er gemt. Hvis du ikke er sikker på, hvilken type data en bestemt kolonne indeholder, kan du føje den til visningen og derefter beslutte, om du vil fjerne den igen.  
 
@@ -39,7 +42,7 @@ Du kan eksportere alle sider, men det kan være mere, end du reelt har brug for.
 * Banker  
 * Varer  
 
-Hvis du også vil medtage alle dine finansielle transaktioner, er det en stor mængde data, så eksporten tager ofte mere end blot et par minutter. Finansielle transaktioner vises i vinduet **Finansposter**.  
+Hvis du også vil medtage alle dine finansielle transaktioner, er det en stor mængde data, så eksporten tager ofte mere end blot et par minutter. Finansielle transaktioner vises på siden **Finansposter**.  
 
 Det anbefales, at du også overvejer at eksportere data fra følgende sider:  
 

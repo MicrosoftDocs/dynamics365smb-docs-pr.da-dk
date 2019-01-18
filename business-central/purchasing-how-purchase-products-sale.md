@@ -11,10 +11,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a268ec469f7781e77d7e4438a3b18c95e9304d4d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b766f4d11b66a88f1884f8315b5856021190b34
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Købe varer til et salg
@@ -35,7 +35,7 @@ Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt
 2. Åbn en salgsordre, som du vil købe varer til.
 3. Vælg handlingen **Opret købsordrer**.
 
-    Vinduet **Opret købsordrer** åbnes og viser en linje for hver vare på salgsordren. Linjer for både fuldt tilgængeligt salgsantal og ikke-tilgængelige salgsantal (nedtonet) vises som standard. Du kan vælge handlingen **Vis utilgængelige** for kun at få vist linjer for salgsantal, der er ikke tilgængelig.
+    Siden **Opret købsordrer** åbnes og viser en linje for hver vare på salgsordren. Linjer for både fuldt tilgængeligt salgsantal og ikke-tilgængelige salgsantal (nedtonet) vises som standard. Du kan vælge handlingen **Vis utilgængelige** for kun at få vist linjer for salgsantal, der er ikke tilgængelig.
 
     Feltet **Købsantal** viser det antal, der ikke er tilgængeligt, som standard.
 4. For at købe et andet antal end det antal, der ikke er tilgængeligt, skal du redigere værdien i feltet **Købsantal**.
@@ -44,7 +44,7 @@ Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt
     >   Du kan også ændre feltet **Købsantal** på nedtonede linjer, selv om de repræsenterer fuldt tilgængelige salgsantal.
 5. Vælg knappen **OK**.
 
-    Der oprettes en indkøbsordre for hver vareleverandør på salgsordren, herunder eventuelle ændringer af antal, du har foretaget i vinduet **Opret købsordrer**.
+    Der oprettes en indkøbsordre for hver vareleverandør på salgsordren, herunder eventuelle ændringer af antal, du har foretaget på siden **Opret købsordrer**.
 7. Fortsæt med at behandle købsordrer eller ordrer, for eksempel ved at redigere eller tilføje købsordrelinjer. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 
 

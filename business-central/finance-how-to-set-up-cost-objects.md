@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3eb90611939dce2134d9413812918c2afb82c083
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 616fcbe937e556c17e8beb79f68bc961ea8bbe18
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-objects"></a>Oprette omkostningsemner
@@ -27,7 +27,7 @@ Omkostningsobjekter er en virksomheds projekter, produkter eller tjenester. Diag
 * Opret et nyt diagram over omkostningsobjekter, der er uafhængigt af regnskabet, eller tilføje et nyt omkostningsobjekt til et eksisterende diagram over omkostningsobjekter. Du skal oprette hvert omkostningsobjekt individuelt.  
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Sådan overføres dimensionsværdier fra regnskabet til diagrammet over omkostningsobjekter.  
-1.  Angiv en dimension, der skal være omkostningsobjektdimensionen i vinduet **Opdater CA-dimensioner**. Kun værdierne fra denne dimension overføres.  
+1.  Angiv en dimension, der skal være omkostningsobjektdimensionen på siden **Opdater CA-dimensioner**. Kun værdierne fra denne dimension overføres.  
 2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningsemner**, og vælg derefter det relaterede link.  
 3.  Vælg handlingen **Hent omkostningsemner fra dimensionen** for at overføre dimensionsværdier til diagrammet over omkostningsemner. Funktionen overfører de dimensionsværdier, som du definerede i trin 1.  
 
@@ -36,10 +36,10 @@ Omkostningsobjekter er en virksomheds projekter, produkter eller tjenester. Diag
 
 Diagrammet over omkostningsobjekter indeholder alle de angivne dimensionsværdier fra regnskabet og indeholder titler og subtotaler.  
 
-## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-window"></a>Sådan oprettes nye omkostningsemner i vinduet Diagram over omkostningsemner  
-Du kan oprette og vedligeholde omkostningsemner enten på **Omkostningsemnekortet** eller i vinduet **Diagram over omkostningsemner**. I denne procedure opretter du omkostningsobjekter i vinduet **Diagram over omkostningsemner**.  
+## <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Sådan oprettes nye omkostningsemner på siden Diagram over omkostningsemner  
+Du kan oprette og vedligeholde omkostningsemner enten på **Omkostningsemnekortet** eller på siden **Diagram over omkostningsemner**. I denne procedure opretter du omkostningsobjekter på siden **Diagram over omkostningsemner**.  
 
-1.  Åbn vinduet **Diagram over omkostningsemner** i redigeringstilstand.  
+1.  Åbn siden **Diagram over omkostningsemner** i redigeringstilstand.  
 2.  I feltet **Kode** angives omkostningsemnets kode. Alle omkostningsobjekter skal have en kode.  
 3.  I feltet **Navn** angives omkostningsemnets navn.  
 4.  Vælg rullepilen i feltet **Linjetype** for at angive formålet med omkostningsemnet.  

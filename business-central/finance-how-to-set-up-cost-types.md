@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Oprette omkostningstyper
@@ -34,12 +35,12 @@ Diagrammet over omkostningstyper ligner kontoplanen i finansregnskabet. Du kan a
     > [!IMPORTANT]  
     >  Funktionen **Registrer omkostningstyper i kontoplanen** opdaterer forholdet mellem kontoplanen og diagrammet over omkostningstyper. Feltet **Nummer** feltet udfyldes og bekræftes for at sikre, at hver finanskonto kun er relateret til én kostpristype. Funktionen kører automatisk, før den overfører finansposter til omkostningsregnskabet.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Sådan oprettes nye omkostningstyper i vinduet Diagram over omkostningstyper  
-1.  Åbn vinduet **Diagram over omkostningstyper** i redigeringstilstand.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Sådan oprettes nye omkostningstyper på siden Omkostningstyper  
+1.  Åbn siden **Omkostningstyper** i redigeringstilstand.  
 2.  Udfyld felterne som beskrevet efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  Du kan oprette og vedligeholde omkostningstyper enten på **Omkostningstypekortet** eller i vinduet **Diagram over omkostningstyper**. I denne procedure opretter du omkostningstyper i vinduet **Diagram over omkostningstyper**.
+    >  Du kan oprette og vedligeholde omkostningstyper enten på siden **Omkostningstypekort** eller på siden **Omkostningstyper**. I denne procedure opretter du omkostningstyper på siden **Omkostningstyper**.
 
 3.  Når du har oprettet alle omkostningstyper, skal du vælge handlingen **Indryk omkostningstyper**. I dialogboksen skal du trykke på knappen **Ja**.  
 4.  Sammenkæd den nye pristype til den tilsvarende finanskonto.  
@@ -48,7 +49,7 @@ Diagrammet over omkostningstyper ligner kontoplanen i finansregnskabet. Du kan a
     >  Hvis du har angivet definitioner i felterne **Sammentælling** for linjetypen **Til-sum**, før du kører funktionen **Indryk omkostningstyper**, skal du angive definitionerne igen, fordi funktionen overskriver værdierne i alle felter af typen **Til-sum**.  
 
 ## <a name="to-update-cost-types"></a>Sådan opdateres omkostningstyper  
-1.  I vinduet **Konfiguration af omkostningsregnskab** skal du vælge, om du ønsker, at omkostningstypeplanen automatisk opdateres, når kontoplanen ændres.  
+1.  På siden **Konfiguration af omkostningsregnskab** skal du vælge, om du ønsker, at omkostningstypeplanen automatisk opdateres, når kontoplanen ændres.  
 2.  Du kan vælge mellem følgende indstillinger i feltet **Opdater finanskonto**.  
 
 - **Ingen justering** der er ingen tilsvarende ændring i diagrammet over omkostningstyper, når du ændrer kontoplanen.  
@@ -57,7 +58,6 @@ Diagrammet over omkostningstyper ligner kontoplanen i finansregnskabet. Du kan a
 
 ## <a name="see-also"></a>Se også  
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
-[Definition af forholdet mellem omkostningstyper og finanskonti](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Definition af omkostningssteder og omkostningsobjekter for kontoplanen](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Saldi mellem omkostningstype, omkostningssted og omkostningsobjekt](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)   

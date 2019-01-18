@@ -12,17 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 10/01/2018
 ms.author: edupont
+redirect_url: marketing-create-contact-companies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f377236158ae1035fd40dd15342d76822aa91ac8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 84cb3a6a96826ad5e3d1824ed5182dfcd972d0b3
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisering af kontakter med debitorer, kreditorer og bankkonti
 Hvis nogle af dine kontakter også er debitorer, kreditorer eller bankkonti, kan du synkronisere kontaktoplysningerne med den relaterede debitor, kreditor eller bankkonto. Synkroniseringen gør oplysninger, der er fælles for kontakter og debitorer, kreditorer eller bankkonti, ens.  
 
-Du skal angive en forretningsrelationskode for debitorer, kreditorer eller bankkonti i vinduet **Marketingopsætning**, før du kan synkronisere kontakter med disse. Du kan finde flere oplysninger under [Konfigurere Relationsstyring](marketing-setup-marketing.md).
+Du skal angive en forretningsrelationskode for debitorer, kreditorer eller bankkonti på siden **Marketingopsætning**, før du kan synkronisere kontakter med disse. Du kan finde flere oplysninger under [Konfigurere Relationsstyring](marketing-setup-marketing.md).
 
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Forskellige måder at synkronisere kontakter med debitorer, kreditorer og bankkonti
 Du kan synkronisere kontakter med debitorer, kreditorer eller bankkonti på tre måder:

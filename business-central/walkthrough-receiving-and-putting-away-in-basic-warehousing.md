@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ba61572a237e177b763b7b8a2e13ca7ec93eea4
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger
@@ -32,7 +32,7 @@ Du kan finde flere oplysninger i [Designoplysninger: Indgående lagerflow](desig
 Den følgende gennemgang viser metode B i forrige tabel.  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang  
-I grundlæggende lageropsætninger, hvor lokationen, du vil plukke fra, er sat op til at kræve læg-på-lager men ikke modtagelse, bruges vinduet **Læg-på-lager** til at registrere og bogføre læg-på-lager- og modtagelsesoplysninger for de indgående kildedokumenterne. Det indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en produktionsordre med afgang, der er klar til at blive lagt på lager.
+I grundlæggende lageropsætninger, hvor lokationen, du vil plukke fra, er sat op til at kræve læg-på-lager men ikke modtagelse, bruges siden **Læg-på-lager** til at registrere og bogføre læg-på-lager- og modtagelsesoplysninger for de indgående kildedokumenterne. Det indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en produktionsordre med afgang, der er klar til at blive lagt på lager.
 
 > [!NOTE]
 > Selv om indstillingerne kaldes **Kræv pluk** og **Kræv læg-på-lager**, kan du bogføre modtagelser og leverancer direkte fra kildeforretningsdokumenterne på lokationer, hvor du kan markerer disse afkrydsningsfelter.  
@@ -63,7 +63,7 @@ For at gennemføre denne gennemgang skal:
 -   Du kan oprette dig selv som lagermedarbejder på lokationen SØLV ved at følge disse trin:  
 
     1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
-    2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto i vinduet **Brugere**.  
+    2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
     3.  Angiv SØLV i feltet **Lokationskode**.  
     4.  Markér feltet **Standard**.  
 
@@ -71,7 +71,7 @@ For at gennemføre denne gennemgang skal:
 Ellen, som er indkøbschef hos CRONUS Danmark A/S, opretter en købsordre til 10 enheder af varen LS-75 og 30 enheder af varen LS-81 fra kreditoren 10000 til afsendelse til lagerstedet SØLV. Når leveringen ankommer på lagerstedet, sætter John, som er lagerarbejder, varerne på lager på standardplaceringer, der er defineret for varerne. Når John bogfører placeringen på lager, bogføres varerne som modtaget på lageret og tilgængelige til salg eller andre behov.  
 
 ## <a name="setting-up-the-location"></a>Indstilling af lokation  
- Opsætningen af vinduet **Lokationskort** definerer arbejdsgangene i virksomheden.  
+ Opsætningen af siden **Lokationskort** definerer flows i virksomheden.  
 
 ### <a name="to-set-up-the-location"></a>Sådan oprettes lokationen  
 
@@ -84,7 +84,7 @@ Ellen, som er indkøbschef hos CRONUS Danmark A/S, opretter en købsordre til 10
 4.  Vælg handlingen **Placeringer**.  
 5.  Vælg den første række, til placering S-01-0001, og vælg derefter handlingen **Indhold**.  
 
-    Bemærk i vinduet **Placeringsindhold**, at vare LS-75 allerede er oprettet som indhold på placering S-01-0001.  
+    Bemærk på siden **Placeringsindhold**, at vare LS-75 allerede er oprettet som indhold på placering S-01-0001.  
 
 6.  Vælg handlingen **Ny**.  
 7.  Vælg felterne **Fast** og **Standard**.  
@@ -114,7 +114,7 @@ Købsordrer er den mest almindelige type indgående kildedokument.
     Leverancen af højttalere fra kreditor 10000 er modtaget på SØLV-lageret, og John fortsætter med at lægge dem på plads.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Modtagelse og placering af varer på lager  
-I vinduet **Læg-på-lager** kan du administrere alle indgående lageraktiviteter til et specifikt kildedokument, f.eks. en købsordre.  
+På siden **Læg-på-lager** kan du administrere alle indgående lageraktiviteter til et specifikt kildedokument, f.eks. en købsordre.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Sådan modtager du varerne og lægger dem på lager  
 

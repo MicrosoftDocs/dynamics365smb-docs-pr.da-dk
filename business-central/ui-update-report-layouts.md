@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 681540708d9807aafebcf5701232a282a189e47b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b4c3d7350ee6557a68c7efd087a463277aec7fd3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="updating-report-or-document-layouts"></a>Opdatere rapport- eller dokumentlayout
@@ -32,7 +32,7 @@ Ikke alle ændringer af rapportdatasæt kan opdateres automatisk i rapportlayout
   
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportlayout**, og vælg derefter det relaterede link.  
   
-2.  Hvis du vil opdatere en bestemt rapport, skal du i vinduet **Rapportlayout** vælge layoutet på listen og derefter vælge handlingen **Opdater layout**. Eller hvis du vil opdatere alle brugerdefinerede rapportlayout for virksomheden, skal du vælge handlingen **Opdater alle layout**.  
+2.  Hvis du vil opdatere en bestemt rapport, skal du på siden **Rapportlayout** vælge layoutet på listen og derefter vælge handlingen **Opdater layout**. Eller hvis du vil opdatere alle brugerdefinerede rapportlayout for virksomheden, skal du vælge handlingen **Opdater alle layout**.  
 
 Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der opstår fejl, vises en meddelelse, der indeholder de fejl, der er. Derefter skal du manuelt redigere brugerdefinerede rapportlayout for at rette fejlen. Du kan finde flere oplysninger under [Rettelse af fejl](ui-update-report-layouts.md#FixErrors).  
 
@@ -40,9 +40,9 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
   
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
   
-2.  I vinduet **Valg af rapportlayout** skal du vælge handlingen **Opdateringer af testlayout**.  
+2.  På siden **Valg af rapportlayout** skal du vælge handlingen **Opdateringer af testlayout**.  
   
- Ændringer til de viste rapportlayout testes, men anvendes ikke på de faktiske rapportlayout. Et **Log over rapportlayoutopdatering** åbnes og viser status for de mulig opdateringer til hver rapportlayout. Hvis der er fejl i et rapportlayout, kan du åbne rapportlayout direkte til redigering fra meddelelsen for at løse problemer. Du kan finde flere oplysninger under [Rettelse af fejl](ui-update-report-layouts.md#FixErrors).  
+ Ændringer til de viste rapportlayout testes, men anvendes ikke på de faktiske rapportlayout. En **Log over rapportlayoutopdatering**-side åbnes og viser status for de mulig opdateringer til hver rapportlayout. Hvis der er fejl i et rapportlayout, kan du åbne rapportlayout direkte til redigering fra meddelelsen for at løse problemer. Du kan finde flere oplysninger under [Rettelse af fejl](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Begrænsninger for den brugerdefinerede rapport layoutopdatering  
  Der er flere typer ændringer, som den automatisk opdatering kan anvende på brugerdefinerede rapportlayout, f.eks. er et felt, der bruges i layoutet, fjernet fra rapportens datasæt. Men den automatisk opdatering kan ikke håndtere følgende ændringer af et rapportdatasæt.  

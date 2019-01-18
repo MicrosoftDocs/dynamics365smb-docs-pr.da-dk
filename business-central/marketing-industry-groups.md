@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1927938bc7e882902d8f609242c529e0ba29cd1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 96be04b6226fb44fd3e910e547a1d2590352b04d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Angive brancher for kontaktvirksomheder
@@ -28,7 +29,7 @@ Brug af brancher i kontakter er en totrinsproces. Først skal du definere branch
 >   Hvis du har planer om at synkronisere kontakter med kreditorer, debitorer eller bankkonti i andre dele af programmet, kan det være en god idé at definere forretningsrelationer for dem.
 
 ## <a name="to-define-an-industry-group-code"></a>Sådan defineres en branchekode
-Koden for branchen definerer type eller kategori for gruppen, f.eks REKLAME for reklame, eller PRESSE for tv og radio. Du kan have flere branchekoder. Du definerer brancherne fra vinduet **Brancher**.
+Koden for branchen definerer type eller kategori for gruppen, f.eks REKLAME for reklame, eller PRESSE for tv og radio. Du kan have flere branchekoder. Du definerer brancherne på siden **Brancher**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brancher**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**, og indtast en kode og beskrivelse. Du kan bruge op til 11 tegn til koden, som skal være en kombination af tal og bogstaver.
@@ -37,12 +38,12 @@ Koden for branchen definerer type eller kategori for gruppen, f.eks REKLAME for 
 Du kan ikke tildele brancher til en kontaktperson – kun til virksomheder.
 
 1. Åbn kontakten.
-2. Vælg handlingen **Virksomhed**, og vælg derefter handlingen **Brancher**. Vinduet **Branchegrupper** åbnes.
+2. Vælg handlingen **Virksomhed**, og vælg derefter handlingen **Brancher**. Siden **Branchegrupper** åbnes.
 3. I feltet **Branchekode** skal du vælge den branche, du vil tildele.
 
 Gentag disse trin for hver branche, du vil tildele. Du kan også tildele brancher fra kontaktoversigten ved at udføre samme procedure.
 
-Det antal brancher, du har tildelt til kontakten, vises i feltet **Antal brancher** i sektionen **Segmentering** i vinduet **Kontakt**.
+Det antal brancher, du har tildelt til kontakten, vises i feltet **Antal brancher** i sektionen **Segmentering** på siden **Kontakt**.
 
 Når du har tildelt brancher til kontakter, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 

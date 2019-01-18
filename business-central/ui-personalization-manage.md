@@ -13,10 +13,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 78eea4df6f25772063cef5770eb1dcb433bee012
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Administrere tilpasning som administrator
@@ -30,11 +30,11 @@ Du kan forhindre alle brugere, der tilhører en bestemt profil, i at tilpasse de
 
 ## <a name="clear-user-personalizations"></a>Fjern brugertilpasninger
 
-Når sidetilpasninger fjernes, går siden tilbage til det oprindelige layout, før der blev foretaget nogen tilpasning. Tilpasninger, som brugere har foretaget af sider, kan fjernes på to måder: ved brug af vinduet **Slet brugertilpasning** og ved brug af vinduet **Brugertilpasningskort**.
+Når sidetilpasninger fjernes, går siden tilbage til det oprindelige layout, før der blev foretaget nogen tilpasning. Tilpasninger, som brugere har foretaget af sider, kan fjernes på to måder: ved brug af siden **Slet brugertilpasning** side og ved brug af siden **Brugertilpasningskort**.
 
 ### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Slette brugertilpasninger ved brug af siden Slet brugertilpasning
 
-Vinduet **Slet brugertilpasning** giver dig mulighed for at slette tilpasning på sidebasis for hver enkelt bruger.
+Siden **Slet brugertilpasning** giver dig mulighed for at slette tilpasning på sidebasis for hver enkelt bruger.
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet brugertilpasning**, og vælg derefter det relaterede link.
 
@@ -49,11 +49,11 @@ Vinduet **Slet brugertilpasning** giver dig mulighed for at slette tilpasning p�
 
 ### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Slette brugertilpasninger ved brug af siden Brugertilpasningskort
 
-Vinduet **Brugertilpasningskort** giver dig mulighed for at slette tilpasningen på alle sider for en specifik bruger. Det kræver skrivetilladelse til tabel 2000000072 **Profil**.
+Siden **Brugertilpasningskort** giver dig mulighed for at slette tilpasningen på alle sider for en specifik bruger. Det kræver skrivetilladelse til tabel 2000000072 **Profil**.
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugertilpasning**, og vælg derefter det relaterede link.
 
-    Vinduet **Brugertilpasning** viser alle brugere, der muligvis kan have personlige sider. Hvis du ikke kan finde en bruger på listen, betyder det, at vedkommende ikke har nogen tilpassede sider.
+    Siden **Brugertilpasning** viser alle brugere, der muligvis kan have personlige sider. Hvis du ikke kan finde en bruger på listen, betyder det, at vedkommende ikke har nogen tilpassede sider.
 
 2. Vælg brugeren på listen, og vælg derefter handlingen **Rediger**.
 

@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4c3f0f612c13d9fe84cffc4862641301795bcebd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administration af marketingkampagner
@@ -23,7 +23,7 @@ Når du har fastlagt en stærk marketingplan, kan du identificere og tiltrække 
 Hver kampagne består af forskellige aktiviteter eller opgaver. Du kan samle flere opgaver, for eksempel opgaver, der hver repræsenterer et trin, i aktiviteter. Aktivitetsopgaver er forbundet med hinanden vha. en datoformel. Individuelle opgaver kan kun tildeles til sælgere. Aktiviteter kan tildeles til leads, sælgere, grupper af sælgere og kontaktpersoner. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Definere individuelle kampagner
-Når du vil oprette en kampagne, skal du først definere *statuskoder for kampagnen*. Via. disse koder kan du styre dine kampagner ved at tildele kampagnen en status. Efterhånden som du arbejder dig gennem faserne i en kampagne, kan du se, hvilket trin en kampagne er på, og hvilket trin der følger efter. Du kan definerer statuskoder for kampagner i vinduet **Kampagnestatus**.
+Når du vil oprette en kampagne, skal du først definere *statuskoder for kampagnen*. Via. disse koder kan du styre dine kampagner ved at tildele kampagnen en status. Efterhånden som du arbejder dig gennem faserne i en kampagne, kan du se, hvilket trin en kampagne er på, og hvilket trin der følger efter. Du kan definerer statuskoder for kampagner på siden **Kampagnestatus**.
 
 Du kan oprette et kampagnekort til hver kampagne, som du vil holde styr på. Du kan også få vist disse kampagnekort, så du kan se generelle oplysninger om dine kampagner.
 Du kan slette kampagneposter, f.eks. hvis de registrerer en handling, der er annulleret. Kun annullerede kampagneposter kan slettes.
@@ -32,7 +32,7 @@ Du kan slette kampagneposter, f.eks. hvis de registrerer en handling, der er ann
 Når du har oprettet en kampagne, kan du begynde at oprette målgrupper, der specificerer målgruppen for kampagnen. Der kan finde flere oplysninger under [Administrere målgrupper](marketing-segments.md).
 
 ### <a name="registering-discount-percentages"></a>Registrere rabatprocenter
-Når du har oprettet en kampagne, besluttet, hvilken målgruppe kampagnen skal rettes mod, og angivet start- og slutdato, skal du registrere den rabatprocent, som kunden får på de individuelle varer på linjerne i vinduet **Salgslinjerabatter**. Du kan også registrere salgsprisen for de enkelte varer på linjerne i vinduet **Salgspriser**. Du kan få adgang til begge vinduer fra kampagnekortet.
+Når du har oprettet en kampagne, besluttet, hvilken målgruppe kampagnen skal rettes mod, og angivet start- og slutdato, skal du registrere den rabatprocent, som kunden får på de individuelle varer på linjerne på siden **Salgslinjerabatter**. Du kan også registrere salgsprisen for de enkelte varer på linjerne på siden **Salgspriser**. Du kan få adgang til begge sider fra kampagnekortet.
 
  Når du har angivet salgspriserne/linjerabatterne og målgrupperne på kampagnekortet, skal de aktiveres, så kampagnepriserne og -rabatterne vises på linjerne.
 

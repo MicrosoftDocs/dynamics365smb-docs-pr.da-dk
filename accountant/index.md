@@ -4,17 +4,14 @@ description: "Accountant Hub giver dig et bedre overblik over dine kunder, så d
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: setup wizard, accountant
-ms.date: 05/09/2018
+ms.date: 11/05/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: daca65a5b4808800147024bb4f96244e45b4368a
+ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
+ms.openlocfilehash: 504891ced64d5cc25823b3887ecdd592b971bf3f
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 # <a name="welcome-to-include-d365acclongincludesd365acclongmdmd"></a>Velkommen til [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -22,13 +19,13 @@ ms.lasthandoff: 05/15/2018
 
 Hvis du er revisor og har mange kunder, kan du bruge [!INCLUDE [d365acc](includes/d365acc_md.md)] som dit dashboard, hvor du kan få et bedre overblik over dine kunder. Derfra kan du få adgang til hver kundes data.  
 
-![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
+> [!div class="mx-imgBorder"]
+> ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
 Du kan få adgang til [!INCLUDE [d365acc](includes/d365acc_md.md)] ved at tilmelde dig fra [Dynamics 365 – Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Det er gratis, og det er hurtigt at komme i gang og føje kunder til dashboardet. Du kan finde flere oplysninger i [Introduktion til Accountant Hub](get-started.md).  
 
-I den aktuelle version af [!INCLUDE [d365acc](includes/d365acc_md.md)] kan du tilføje kunder, der bruger [!INCLUDE [d365fin](includes/d365fin_long_md.md)] til at køre virksomheden.  
+I den aktuelle version af [!INCLUDE [d365acc](includes/d365acc_md.md)] kan du tilføje kunder, der bruger [!INCLUDE [d365fin](includes/d365fin_long_md.md)] til at køre virksomheden. Du kan finde flere oplysninger i [Føje klienter til dashboardet](add-client.md).  
 
 ## <a name="see-also"></a>Se også
 [Introduktion til Accountant Hub](get-started.md)  
-[Dokumentation til Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=main&panel=apps)  
 

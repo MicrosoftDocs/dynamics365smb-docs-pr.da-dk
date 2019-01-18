@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Modtage og konvertere elektroniske dokumenter
-Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. For at modtage en faktura fra en kreditor som et elektronisk PEPPOL-dokument, skal du behandle dokumentet i vinduet Indgående bilag for at konvertere det til en købsfaktura eller finanskladdelinje i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. For at modtage en faktura fra en kreditor som et elektronisk PEPPOL-dokument, skal du behandle dokumentet på siden Indgående bilag for at konvertere det til en købsfaktura eller finanskladdelinje i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  Ud over at modtage elektroniske dokumenter direkte fra handelspartnere kan du modtage elektroniske dokumenter fra en OCR-tjeneste, der har omdannet dine PDF- eller billedfiler til elektroniske dokumenter.  
 
@@ -33,7 +33,7 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
 > [!NOTE]  
 >  Når du konverterer elektroniske dokumenter, der er modtaget fra tjenesten OCR til dokumenter eller kladdelinjer i [!INCLUDE[d365fin](includes/d365fin_md.md)], lægges flere linjer i kildedokumentet sammen på én linje. Den enkelte linje er af typen Finanskonto og felterne **Beskrivelse** og Finanskonto **Nr.** er tomme. Værdien i feltet **Beløb** vil være lig med det samlede beløb uden moms for alle linjer i kildedokumentet.  
 >   
->  For at sikre at felterne **Beskrivelse** og **Nummer** udfyldes, kan du vælge knappen **Knyt tekst til konto** i vinduet **Indgående bilag** for at angive, at en bestemt fakturatekst altid skal knyttes til en bestemt debet- eller kreditkonto i finans. Fremover udfyldes feltet **Beskrivelse** i dokument- eller kladdelinjer, der er oprettet på grundlag af et elektronisk dokument for den pågældende kreditor eller debitor, med den relevante tekst og feltet **Nummer** på finanskontoen med den aktuelle konto.  
+>  For at sikre at felterne **Beskrivelse** og **Nummer** udfyldes, kan du vælge knappen **Knyt tekst til konto** på siden **Indgående bilag** for at angive, at en bestemt fakturatekst altid skal knyttes til en bestemt debet- eller kreditkonto i finans. Fremover udfyldes feltet **Beskrivelse** i dokument- eller kladdelinjer, der er oprettet på grundlag af et elektronisk dokument for den pågældende kreditor eller debitor, med den relevante tekst og feltet **Nummer** på finanskontoen med den aktuelle konto.  
 >   
 >  I stedet for tilknytning til en finanskonto kan du også knytte til en bankkonto. Dette er nyttigt, f.eks. ved elektroniske dokumenter for udgifter, der allerede er betalt, hvor du vil oprette en finanskladdelinje, der er klar til at blive bogført på en bankkonto.  
 
@@ -45,11 +45,11 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
 
 2.  Vælg linjen med den indgående dokumentpost, der repræsenterer en ny indgående elektronisk faktura. Under fanen **Start** i gruppen **Administrer** skal du derefter vælge **Rediger**.  
 
-     I vinduet **Indgående bilagskort** tilknyttes den relaterede XML-fil, og de fleste felter er udfyldt med oplysninger fra den elektroniske faktura. Du kan finde flere oplysninger under [Oprette indgående dokumentposter](across-how-create-income-document-records.md).  
+     På siden **Indgående bilagskort** tilknyttes den relaterede XML-fil, og de fleste felter er udfyldt med oplysninger fra den elektroniske faktura. Du kan finde flere oplysninger under [Oprette indgående dokumentposter](across-how-create-income-document-records.md).  
 
 3.  I feltet **Dataudvekslingstype** skal du vælge **PEPPOL – faktura** eller **OCR – faktura** afhængigt af kilden til det elektroniske dokument.  
 
-4.  Du kan knytte tekst på kreditorfakturaen til en bestemt debetkonto ved at vælge **Knyt tekst til konto** i gruppen **Generelt** under fanen **Handlinger** og derefter udfylde vinduet **Kladde til tilknytning af tekst til konto**.  
+4.  Du kan knytte tekst på kreditorfakturaen til en bestemt debetkonto ved at vælge **Knyt tekst til konto** i gruppen **Generelt** under fanen **Handlinger** og derefter udfylde siden **Kladde til tilknytning af tekst til konto**.  
 
 5.  Under fanen **Handlinger** i gruppen **Generelt** skal du vælge **Opret bilag**.  
 

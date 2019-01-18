@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 778f182d12959e0332d538c0471a8c2e0d1613a1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gennemgang: Automatisk planlægning af forsyninger
@@ -68,7 +68,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 1.  Åbn varekortet til vare 1001, turcykel.  
 2.  Vælg handlingen **Opret lagervare**.  
-3.  Lad alle indstillinger og filtre være uændret i vinduet **Opret lagervare**, og klik derefter vælge knappen **OK**.  
+3.  Lad alle indstillinger og filtre være uændret på siden **Opret lagervare**, og vælg derefter knappen **OK**.  
 4.  Gentag trin 1 til 3 for alle varer i nummerintervallet fra 1100 til 1300.  
 
 ### <a name="to-change-selected-planning-parameters"></a>Ændre valgte planlægningsparametre  
@@ -92,7 +92,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
-3.  I vinduet **Salgsordre** skal du udfylde felterne som beskrevet i følgende tabel.  
+3.  På siden **Salgsordre** skal du udfylde felterne som beskrevet i følgende tabel.  
 
     |Kundenavn|Afsendelsesdato|Varenr.|Lokation|Antal|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -104,7 +104,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan**.  
-3.  I vinduet **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
+3.  På siden **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 
     |Beregn plan|Startdato|Slutdato|Vis resultater:|Begræns totaler til|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -117,17 +117,17 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
      Kontroller nu, at denne planlægningslinje er relateret til salgsordren for Kontorcentralen A/S, ved hjælp af funktionen **Ordresporing**, der tilknytter behov til den pågældende planlagte forsyning dynamisk.  
 
 5.  Vælg den nye planlægningslinje, og vælg derefter handlingen **Ordresporing**.  
-6.  I vinduet **Ordresporing** skal du vælge handlingen **Vis**.  
+6.  På siden **Ordresporing** skal du vælge handlingen **Vis**.  
 
      Salgsordren på de fem turcykler til afsendelse til debitornummer 10000 den 02-05-2014 vises.  
 
-7.  Luk vinduerne **Salgsordre** og **Ordresporing**.  
+7.  Luk siderne **Salgsordre** og **Ordresporing**.  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Beregne MRP for at medtage underliggende komponentbehov  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan**.  
-3.  I vinduet **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
+3.  På siden **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 
     |Beregn|Startdato|Slutdato|Vis resultater:|Begræns totaler til:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
@@ -140,7 +140,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 ## <a name="analyzing-the-planning-result"></a>Analyse af planlægningsresultatet  
  For at analysere de foreslåede antal går Erik ned i lagene af de valgte planlægningslinjer for at få vist ordresporingsposter og planlægningsparametre.  
 
- Bemærk i vinduet **Planlægningskladde**, at de foreslåede forsyningsordrer i kolonnen **Forfaldsdato** er planlagt baglæns fra forfaldsdatoen på salgsordren, 05-02-2014. Tidslinjen starter på planlægningslinjen med produktionsordren for samlingen af de færdige turcykler. Tidslinjen slutter på nederste planlægningslinje med købsordren på en af varerne på et lavere niveau, 1255, Baglygteholder, med forfald den 30-01-2014. Ligesom planlægningslinjen for vare 1251, en baghjulsaksel, repræsenterer denne linje en købsordre for komponenter, som er forfaldne på den overordnede vares startdato, den underordnede vare 1250, som igen er forfalden 02-03-2014. I kladden kan du se, at alle underliggende varer er forfaldne på startdatoen for deres overordnede varer.  
+ Bemærk på siden **Planlægningskladde**, at de foreslåede forsyningsordrer i kolonnen **Forfaldsdato** er planlagt baglæns fra forfaldsdatoen på salgsordren, 05-02-2014. Tidslinjen starter på planlægningslinjen med produktionsordren for samlingen af de færdige turcykler. Tidslinjen slutter på nederste planlægningslinje med købsordren på en af varerne på et lavere niveau, 1255, Baglygteholder, med forfald den 30-01-2014. Ligesom planlægningslinjen for vare 1251, en baghjulsaksel, repræsenterer denne linje en købsordre for komponenter, som er forfaldne på den overordnede vares startdato, den underordnede vare 1250, som igen er forfalden 02-03-2014. I kladden kan du se, at alle underliggende varer er forfaldne på startdatoen for deres overordnede varer.  
 
  Planlægningslinjen for vare 1300, Kædesaml, foreslår ti stykker. Dette afviger fra de fem stykker, som vi forventer at få brug for ved opfyldning af salgsordren. Fortsæt ved at vise ordresporingsposterne.  
 
@@ -148,26 +148,26 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 1.  Vælg planlægningslinjen for vare 1300, og vælg derefter handlingen **Ordresporing**.  
 
-     De to linjer i vinduet **Ordresporing** viser, at der er sporet fem stykker fra planlægningslinjen (første ordresporingslinje) til salgsordre 1001 (anden ordresporingslinje). De sidste fem stykker, der er foreslået på planlægningslinjen, er ikke relateret til nogen dokumentlinjer, men til en planlægningsparameter, forecastpost eller rammeordrepost. Sådanne ikke-sporede antal opsummeres i feltet **Ikkesporet antal** i hovedet i vinduet **Ordresporing**.  
+     De to linjer på siden **Ordresporing** viser, at der er sporet fem stykker fra planlægningslinjen (første ordresporingslinje) til salgsordre 1001 (anden ordresporingslinje). De sidste fem stykker, der er foreslået på planlægningslinjen, er ikke relateret til nogen dokumentlinjer, men til en planlægningsparameter, forecastpost eller rammeordrepost. Sådanne ikke-sporede antal opsummeres i feltet **Ikkesporet antal** i hovedet på siden **Ordresporing**.  
 
 2.  Vælg feltet **Ikkesporet antal**.  
 
-     Vinduet **Ikkesporede planlægningselementer** viser, at vare 1300 bruger en planlægningsparameter, Min. ordrestørrelse, på 10,00. Planlægningslinjen er derfor på ti stykker i alt, men kun fem af dem kan spores til et behov. De sidste fem stykker er et ikke-sporet antal, der skal bruges ifm. planlægningsparameteren. Fortsæt med at gennemse planlægningsparameteren.  
+     Siden **Ikkesporede planlægningselementer** viser, at vare 1300 bruger en planlægningsparameter, Min. ordrestørrelse, på 10,00. Planlægningslinjen er derfor på ti stykker i alt, men kun fem af dem kan spores til et behov. De sidste fem stykker er et ikke-sporet antal, der skal bruges ifm. planlægningsparameteren. Fortsæt med at gennemse planlægningsparameteren.  
 
 ### <a name="to-check-the-planning-parameter"></a>Kontrollere planlægningsparameteren  
 
-1.  I vinduet **Ikke-sporede planlægningselementer** vælger du ordresporingslinjen for vare 1300.  
+1.  På siden **Ikke-sporede planlægningselementer** vælger du ordresporingslinjen for vare 1300.  
 2.  Vælg feltet **Varenr.**, og vælg derefter handlingen **Avanceret**.  
-3.  I vinduet **Varekort** skal du vælge handlingen **Lagervarer**.  
-4.  I vinduet **Lagervareoversigt** skal du åbne det BLÅ lagervarekort.  
+3.  På siden **Varekort** skal du vælge handlingen **Lagervarer**.  
+4.  På siden **Lagervareoversigt** skal du åbne det BLÅ lagervarekort.  
 5.  Bemærk i oversigtspanelet **Planlægning**, at feltet **Min. ordrestørrelse** indeholder 10.  
-6.  Luk alle vinduer undtagen vinduet **Planlægningskladde**.  
+6.  Luk alle sider undtagen siden **Planlægningskladde**.  
 
 ### <a name="to-view-more-order-tracking-entries"></a>Få vist flere ordresporingsposter  
 
 1.  Vælg planlægningslinjen for vare 1110, Fælg, og vælg derefter handlingen **Ordresporing**.  
 
-     Vinduet **Ordresporing** viser fem fælge, der er nødvendige for hver produktionsordre for henholdsvis for- og baghjul.  
+     Siden **Ordresporing** viser fem fælge, der er nødvendige for hver produktionsordre for henholdsvis for- og baghjul.  
 
      Samme ordresporing gælder planlægningslinjerne for vare 1120, 1160 og 1170. For vare 1120 er feltet **Antal pr.** på produktionsstyklisten for hver hjultype 50 stk., hvilket medfører et samlet behov på 100.  
 
@@ -175,11 +175,11 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 2.  Vælg planlægningslinjen for vare 1150, og vælg derefter handlingen **Ordresporing**.  
 
-     Vinduet **Ordresporing** viser, at fem enheder spores til forhjulet, og én enhed er ikke-sporet. Fortsæt ved at vise det ikke-sporede antal.  
+     Siden **Ordresporing** viser, at fem enheder spores til forhjulet, og én enhed er ikke-sporet. Fortsæt ved at vise det ikke-sporede antal.  
 
 3.  Vælg feltet **Ikkesporet antal**.  
 
-     Vinduet **Ikke-sporede planlægningselementer** viser som standard, at vare 1150 bruger en planlægningsparameter, Oprundingsfaktor, på 2,00, hvilket angiver, at når varen er bestilt, skal den være i et antal, der er deleligt med 2. Det tal, der er tættest på fem og kan divideres med 2, er seks.  
+     Siden **Ikke-sporede planlægningselementer** viser som standard, at vare 1150 bruger en planlægningsparameter, Oprundingsfaktor, på 2,00, hvilket angiver, at når varen er bestilt, skal den være i et antal, der er deleligt med 2. Det tal, der er tættest på fem og kan divideres med 2, er seks.  
 
      Den samme ordresporing gælder for planlægningslinjerne for fornavskomponenterne, vare 1151 og 1155, bortset fra at de hver skal ganges med spildprocenten, som for vare 1150 defineres i feltet **Spildprocent** på varekortet.  
 
@@ -192,14 +192,14 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 1.  Marker afkrydsningsfeltet **Accepter aktionsmeddelelse** på alle planlægningslinjer med en advarsel af typen Undtagelse.  
 2.  Vælg handlingen **Udfør aktionsmeddelelse**.  
-3.  Udfyld felterne i vinduet **Udfør aktionsmedl.-plan.** som beskrevet i følgende tabel.  
+3.  Udfyld felterne på siden **Udfør aktionsmedl.-plan.** som beskrevet i følgende tabel.  
 
     |Produktionsordre|Købsordre|Overflytningsordre|  
     |----------------------|--------------------|--------------------|  
     |Fastlagt|Opret købsordrer|Opret overførselsordrer|  
 
 4.  Klik på **OK**-knappen for at oprette alle de foreslåede forsyningsordrer automatisk.  
-5.  Luk det tomme vindue **Planlægningskladde**.  
+5.  Luk den tomme side **Planlægningskladde**.  
 
  Dermed er den første beregning, analyse og oprettelse af en forsyningsplan for behov på lokationen BLÅ i første uge af februar færdig. I det følgende afsnit bestiller en anden kunde ti turcykler, og Erik skal foretage en omplanlægning.  
 
@@ -211,7 +211,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Sådan oprettes det nye salgsbehov og en tilsvarende genplanlægning  
 
 1.  Vælg handlingen **Ny**.  
-2.  I vinduet **Salgsordre** skal du udfylde felterne som beskrevet i følgende tabel.  
+2.  På siden **Salgsordre** skal du udfylde felterne som beskrevet i følgende tabel.  
 
     |Kundenavn|Afsendelsesdato|Varenr.|Lokation|Antal|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -221,7 +221,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 4.  Fortsæt med at foretage en genplanlægning for at justere den aktuelle forsyningsplan.  
 5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
 6.  Vælg handlingen **Beregn nettoplan**.  
-7.  I vinduet **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
+7.  På siden **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 
     |Beregn plan|Startdato|Slutdato|Vis resultater:|Begræns totaler til|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -244,20 +244,20 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 1.  Vælg planlægningslinjen for vare 1250, og vælg derefter handlingen **Ordresporing**.  
 
-     De syv linjer i vinduet **Ordresporing** viser, hvordan fem eller ti stykker via baghjulet spores til turcyklerne på de to forskellige salgsordrer.  
+     De syv linjer på siden **Ordresporing** viser, hvordan fem eller ti stykker via baghjulet spores til turcyklerne på de to forskellige salgsordrer.  
 
      De sidste fem stykker er ikke-sporede. Fortsæt ved at analysere.  
 
 2.  Vælg feltet **Ikkesporet antal**.  
 
-     Vinduet **Ikkesporede planlægningselementer** viser, at vare 1250 bruger en planlægningsparameter, Oprundingsfaktor, på 10,00. Planlægningslinjen er derfor på 20 stykker i alt for at runde det faktiske behov op til nærmeste hele tal, der er deleligt med 10. De sidste fem stykker er et ikke-sporet antal, der skal bruges ifm. planlægningsparameteren.  
+     Siden **Ikkesporede planlægningselementer** viser, at vare 1250 bruger en planlægningsparameter, Oprundingsfaktor, på 10,00. Planlægningslinjen er derfor på 20 stykker i alt for at runde det faktiske behov op til nærmeste hele tal, der er deleligt med 10. De sidste fem stykker er et ikke-sporet antal, der skal bruges ifm. planlægningsparameteren.  
 
-3.  Luk alle vinduer undtagen vinduet **Planlægningskladde**.  
+3.  Luk alle sider undtagen siden **Planlægningskladde**.  
 
 ### <a name="to-view-an-existing-order"></a>Sådan får du vist en eksisterende ordre  
 
 1.  Vælg feltet **Referenceordrenr.** i planlægningslinjen for vare 1250 .  
-2.  I vinduet **Fastlagt produktionsordre** for bagnavet. Den eksisterende ordre på ti stykker, som du oprettede i den første planlægningskørsel, åbnes.  
+2.  På siden **Fastlagt produktionsordre** for bagnavet. Den eksisterende ordre på ti stykker, som du oprettede i den første planlægningskørsel, åbnes.  
 3.  Luk den fastlagte produktionsordre.  
 
  Hermed er gennemgangen af, hvordan planlægningssystemet bruges til automatisk registrering af behov, beregning af relevante forsyningsordrer iht. behovs- og planlægningsparametre samt efterfølgende automatisk oprettelse af andre typer forsyningsordrer med relevante datoer og antal færdig.  

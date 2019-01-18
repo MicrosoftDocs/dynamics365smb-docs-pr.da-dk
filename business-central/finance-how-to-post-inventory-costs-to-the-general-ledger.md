@@ -12,16 +12,16 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Afstemme lagerværdier med finansregnskabet
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet.
 
-Automatisk lagerværdibogføring er defineret i feltet **Aut. lagerværdibogføring** i vinduet **Lageropsætning**.
+Automatisk lagerværdibogføring er defineret i feltet **Aut. lagerværdibogføring** på siden **Lageropsætning**.
 
 Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Du kan finde flere oplysninger i [Regulere varepriser](inventory-how-adjust-item-costs.md).
 
@@ -37,7 +37,7 @@ Hvis du vil se en liste over fejl før kørslen af bogføringen, kan du køre ra
 Hvis du ganske enkelt vil have en oversigt over, hvilke værdier der kan bogføres i finansregnskabet uden at gennemføre bogføringen, kan du udføre kørslen **Bogfør lagerregulering** uden at bogføre værdierne i finansregnskabet. Dette kan du gøre ved at fjerne markeringen i feltet **Bogfør** på anmodningssiden. Når du derefter udfører kørslen, oprettes der kun en rapport, der viser de værdier, der er klar til at blive bogført i finansregnskabet, men de er ikke bogført.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Sådan reviderer du afstemningen mellem lagerposterne og finansposterne
-Vinduet **Lagerbeholdning - afstemning** indeholder følgende:
+Siden **Lagerbeholdning - afstemning** indeholder følgende:
 
 - Vise afstemningsdifferencer ved at sammenligne det, der er registreret i finans, og det, der er registreret i lageropgørelsen (værdiposter).
 - Vise ikke-afstemte kostbeløb i værdiposter i lageropgørelsen, som om de var koblet til tilsvarende lagerrelaterede konti i finans og sammenligne disse med de totaler, der faktisk registreres i de samme konti i finans.
@@ -57,11 +57,11 @@ Kolonnen **Finanstotal** viser beløbene (med fed skrift) for hver finanskontoty
 
 Kolonnen **Difference** repræsenterer forskellen mellem værdien i feltet **Finanstotal** og **Total**.
 
-Øverst i vinduet **Lagerbeholdning - afstemning** kan du angive filtre for at begrænse, hvilke oplysninger der skal vises, f.eks. inden for en bestemt periode.
+Øverst på siden **Lagerbeholdning - afstemning** kan du filtre for at begrænse, hvilke oplysninger der skal vises, f.eks. inden for en bestemt periode.
 
 Hvis du vælger afkrydsningsfeltet **Vis advarsel**, og hvis der er uoverensstemmelser mellem lagertotaler og finanstotaler, vises meddelelser i feltet **Advarsel** for gitteret, som beskriver uoverensstemmelserne. Hvis du klikker på feltet Advarsel, får du yderligere oplysninger om, hvad advarslen betyder.
 
-Vælg handlingen **Vis matrix**, når du har angivet alle relevante filtre. Dataene udregnes og matrix-vinduet vises.
+Vælg handlingen **Vis matrix**, når du har angivet alle relevante filtre. Dataene udregnes og matrixsiden vises.
 
 I den venstre kolonne i gitteret vises forskellige finanskontotyper, som er tilknyttet lageret. Gitteret viser derefter totalerne for fakturerede, ufakturerede (foreløbige) og VIA-værdi for hver kontotype. Disse totaler beregnes ud fra værdiposterne.
 

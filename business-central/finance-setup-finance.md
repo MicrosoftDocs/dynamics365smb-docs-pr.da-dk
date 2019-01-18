@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1697ba5b28e8fe475704dffde37ce0935ba443f2
+ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
+ms.openlocfilehash: c52121b89a08b78750c8b46377b2bf47c7a948df
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/20/2018
 
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
@@ -33,12 +33,16 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette kontoskemaer og definere kontokategorier for at definere indholdet af finansielle diagrammer og rapporter, f.eks. balancen og årsopgørelsesrapporter.|[Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)|
 |Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Konfigurere regnskabsperioder. |[Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md) |
-| Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
+| Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)|
+|Forbered håndtering af urealiseret moms i forbindelse med bogføringsmetoder, der er baseret på kontanter.|[Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter](finance-setup-unrealized-vat.md)|
 | Angive salgs- og købsfunktioner til at håndtere betalinger i fremmed valuta.|[Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Definer flere rentesatser, der skal bruges til forskellige perioder for forsinkede betalinger i handelstransaktioner.|[Angive flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md)|
+|Forbered automatisk afrunding af fakturabeløb, når du opretter fakturaer.|[Opsætning af fakturaafrunding](finance-set-up-invoice-rounding.md)|
 | Føje nye konti til den eksisterende kontoplan. |[Konfigurere kontoplanen](finance-setup-chart-accounts.md) |
 | Oprette business intelligence (BI)-diagrammer til at analysere likviditet. |[Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md) |
 |Aktivere fakturering af en debitor, der ikke er sat op i systemet.|[Konfigurere kontantkunder](finance-how-to-set-up-cash-customers.md)|
 | Oprette Intrastatrapportering og sende rapporten til en myndighed | [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
+|Forbered rapporten Konsolideret råbalance i rollecenteret Regnskabsmedarbejder for at få et økonomisk overblik på tværs af flere regnskaber.|[Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)|
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

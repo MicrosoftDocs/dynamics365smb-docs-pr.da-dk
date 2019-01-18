@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designoplysninger: Afstemning med Finans
@@ -35,7 +35,7 @@ Bogføringsdatoerne i Finans er indstillet til bogføringsdatoen for den tilsvar
 Når du udfører kørslen **Bogfør lagerregulering**, kan der opstå fejl som følge af manglende opsætning eller inkompatibel opsætning af dimensioner. Hvis kørslen finder fejl i opsætningen af dimensioner, bliver disse fejl tilsidesat, og kørslen bruger dimensionerne for værdiposten. For andre typer fejl bogfører kørslen ikke værdiposterne, og der vises en oversigt over disse i slutningen af rapporten under overskriften **Poster, der er sprunget over**. Du skal rette fejlene, inden du kan bogføre disse poster. Hvis du vil se en liste over fejl før kørslen af bogføringen, kan du køre rapporten **Bogfør lagerregulering** – kontrol. Denne rapport viser alle de fejl, der er stødt på under en bogføringstest. Du kan rette fejlene og derefter udføre kørslen til bogføring af lagerreguleringer uden at springe nogen poster over.  
 
 ## <a name="automatic-cost-posting"></a>Aut. lagerværdibogføring  
-Hvis du vil opsætte kostbogføring i Finans til at køre automatisk, når du bogfører en lagertransaktion, skal du markere afkrydsningsfeltet **Aut. lagerværdibogføring** i vinduet **Opsætning af Lager**. Bogføringsdatoen for Finans er den samme som bogføringsdatoen for vareposten.  
+Hvis du vil opsætte kostbogføring i Finans til at køre automatisk, når du bogfører en lagertransaktion, skal du markere afkrydsningsfeltet **Aut. lagerværdibogføring** på siden **Opsætning af Lager**. Bogføringsdatoen for Finans er den samme som bogføringsdatoen for vareposten.  
 
 ## <a name="account-types"></a>Kontotyper  
 Under afstemningen bogføres lagerværdier til lagerkontoen i balancen. Det samme beløb, men med omvendt fortegn, bogføres på den relevante modkonto. Modkonto er som regel en konto til resultatopgørelse. Når du bogfører direkte omkostninger, der er relateret til forbrug eller afgang,er modkontoen dog en balancekonto. Typen af vareposten og værdiposten bestemmer, hvilken finanskonto der skal bogføres til.  
@@ -45,7 +45,7 @@ Posttypen angiver, hvilken finanskonto der bogføres til. Dette bestemmes enten 
 ### <a name="example"></a>Eksempel  
 Følgende eksempel viser en cykelkæde, der er fremstillet af købte links. Dette eksempel viser, hvordan de forskellige finanskontotyper bruges i et typisk scenarie.  
 
-Afkrydsningsfeltet **Bogf. af forventet kostpris** i vinduet **Opsætning af lager** er markeret, og følgende opsætning er defineret.  
+Afkrydsningsfeltet **Bogf. af forventet kostpris** på siden **Opsætning af lager** er markeret, og følgende opsætning er defineret.  
 
 Følgende tabel viser, hvordan linket er angivet på varekortet.  
 

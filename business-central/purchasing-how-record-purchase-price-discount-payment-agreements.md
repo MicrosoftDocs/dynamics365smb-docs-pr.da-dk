@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrere særlige købspriser og rabatter
@@ -60,7 +60,7 @@ Når dine kreditorer har oplyst, hvilke fakturarabatter de yder, skal du angive 
     >   Fakturarabatkoder repræsenteres af eksisterende kreditorkort. Det gør det muligt hurtigt at tildele betingelserne for fakturarabatten til kreditorer ved at vælge navnet på en anden leverandører, der skal have samme betingelser.
 
     Fortsæt med at angive nye fakturarabatbetingelser for køb.
-4. I vinduet **Kreditorkort** skal du vælge handlingen **Fakturarabatter**. Vinduet **Kred./fakt.-rabatter** åbnes.
+4. På siden **Kreditorkort** skal du vælge handlingen **Fakturarabatter**. Siden **Kred./fakt.-rabatter** åbnes.
 5. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser for DKK.
 6. Angiv det minimumsbeløb, der berettiger til rabatten, i feltet **Min. beløb**.
 7. I feltet **Rabatpct.** skal du angive fakturarabatten som en procentdel af fakturabeløbet.
@@ -88,7 +88,7 @@ Du kan angive de faste betingelser for fakturarabat, som bruges af dine kreditor
 
  Før du kan bruge fakturarabatter ved køb, skal du angive de kreditorer, som yder rabat.  
 
- Du kan sammenkæde rabatprocenter til bestemte fakturabeløb i vinduet **Kred./fakt.-rabatter**. Du kan angive et vilkårligt antal procenter i hvert vindue. Hver debitor kan have sit eget vindue, eller du kan sammenkæde flere debitorer i det samme vindue.  
+ Du kan knytte rabatter til bestemte fakturabeløb på siderne **Kred./fakt.-rabatter**. Du kan angive et vilkårligt antal procenter på hver side. Hver debitor kan have sin egen side, eller du kan sammenkæde flere debitorer på den samme side.  
 
  Du kan også knytte et servicegebyr til et bestemt fakturabeløb i tillæg til rabatprocenten.  
 
@@ -97,7 +97,7 @@ Du kan angive de faste betingelser for fakturarabat, som bruges af dine kreditor
  Du kan få [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at beregne fakturarabatter i rekvisitioner, rammeordrer, ordrer, fakturaer og kreditnotaer.  
 
 > [!TIP]  
->  Det anbefales, at du forbereder en skitse over den rabatstruktur, der skal anvendes, før du begynder at indtaste disse oplysninger. Det gør det nemmere at se, hvilke kreditorer der kan knyttes til samme fakturarabatvindue. Jo færre vinduer, du har sat op, jo hurtigere kan du indtaste stamoplysningerne.
+>  Det anbefales, at du forbereder en skitse over den rabatstruktur, der skal anvendes, før du begynder at indtaste disse oplysninger. Det gør det nemmere at se, hvilke kreditorer der kan knyttes til samme fakturarabatside. Jo færre sider, du har sat op, jo hurtigere kan du indtaste stamoplysningerne.
 
 ## <a name="best-price-calculation"></a>Beregning af bedste pris
 Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer.

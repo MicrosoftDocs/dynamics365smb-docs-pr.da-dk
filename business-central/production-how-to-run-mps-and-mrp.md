@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3cb3c77600ef8e83612bb144f1ddfc3abed0eff1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Køre fuld planlægning, MPS eller MRP
@@ -27,7 +27,7 @@ At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hov
 
 Der bruges de samme planlægningsalgoritmer til både MPS og MRP. Planlægningsalgoritmerne omhandler modregning, genbrug af eksisterende genbestillingsordrer og aktionsmeddelelser. Under planlægningen tages der højde for, hvad der er brug for, eller hvad der vil blive brug for (efterspørgsel), og hvad der allerede er på lager eller forventes at være på lager (udbud). Når disse antal sammenholdes og modregnes, giver [!INCLUDE[d365fin](includes/d365fin_md.md)] aktionsmeddelelser. Aktionsmeddelelser er forslag til oprettelse af en ny ordre, ændring af en ordre (antal eller dato) eller annullering af en allerede bestilt ordre. Betegnelsen "ordre" omfatter indkøbsordrer, montageordrer, produktionsordrer og overflytningsordrer.
 
-Links, der er oprettet af planlægningssystemet mellem behov og den relaterede levering, kan spores i vinduet **Ordresporing**. Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md).   
+Links, der er oprettet af planlægningssystemet mellem behov og den relaterede levering, kan spores på siden **Ordresporing**. Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md).   
 
 Et ordentligt planlægningsresultat afhænger af de valgte indstillinger til varekort, montagestyklister, produktionsstyklister og ruter.  
 
@@ -48,17 +48,17 @@ Hver planlagt metode, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] klad
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Sådan beregnes planlægningskladden  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladder**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Beregn totalplan** for at åbne vinduet **Beregn Plan**.  
+2.  Vælg handlingen **Beregn totalplan** for at åbne siden **Beregn Plan**.  
 3.  I oversigtspanelet **Indstillinger** skal du udfylde felterne som beskrevet i følgende tabel.  
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**MPS**|Vælg det for at starte beregningen af en overordnet produktionsplan. Varer med åbne salgsordrer eller behovsprognoser indgår i kørslen.|  
-    |**MRP**|Vælg at starte materialebehovsplanlægningen. Varer med tilhørende behov indgår i kørslen. Typisk køres MPS og MRP på samme tid. Hvis du vil køre MPS og MRP samtidigt, skal du vælge feltet **Kombineret hovedplan-/MRP-beregning** i oversigtspanelet **Planlægning** i vinduet **Produktionsopsætning**.|  
+    |**MRP**|Vælg at starte materialebehovsplanlægningen. Varer med tilhørende behov indgår i kørslen. Typisk køres MPS og MRP på samme tid. Hvis du vil køre MPS og MRP samtidigt, skal du vælge feltet **Kombineret hovedplan-/MRP-beregning** i oversigtspanelet **Planlægning** på siden **Produktionsopsætning**.|  
     |**Startdato**|Denne dato bruges til vurdering af varedisponering. Hvis lagerbeholdningen for en vare er nået ned under genbestillingspunktet, flyttes en genbestillingsordre længere fremad i planen, regnet fra denne dato. Hvis lagerbeholdningen for varen er under det niveau, der regnes som sikkerhedslager (pr. startdatoen), flyttes en genbestillingsordre, der forfalder på datoen for planlægningsstarten længere bagud.|  
     |**Slutdato**|Dette er planlægningshorisontens slutdato. Der tages hverken højde for behov eller forsyning efter denne dato. Hvis genbestillingscyklen for en vare rækker ud over slutdatoen, er den effektive planlægningshorisont for varen lig med ordredato + genbestillingscyklus.<br /><br /> Planlægningshorisonten er den periode, planen omfatter. Hvis horisonten er for kort, kan varer med en længere leveringstid ikke bestilles til tiden. Hvis horisonten er for lang, bruges der for meget tid på at gennemgå og behandle oplysninger, der sandsynligvis vil ændre sig, før de skal bruges. Det er muligt at angive én planlægningshorisont til produktion og en længere horisont til indkøb, selvom det ikke er nødvendigt. Der skal angives en planlægningshorisont til indkøb og produktion for at dække den samlede leveringstid for komponenter.|  
-    |**Stop, og vis første fejl**|Vælg denne indstilling, hvis du ønsker, at planlægningskørslen skal stoppe, så snart der registreres en fejl. Samtidig vises en meddelelse med oplysninger om den første fejl. Hvis der er fejl, vises kun de fejlfri planlægningslinjer i planlægningskladden, som blev oprettet, inden fejlen opstod. Hvis du ikke markerer feltet, fortsætter kørslen **Beregn plan**, indtil den er færdig, og fejl afbryder altså ikke kørslen. Hvis der er registreret fejl under kørslen, vil der efter kørslen blive vist en meddelelse om, hvor mange varer, der berøres af fejlene. Derefter åbnes vinduet **Log over planlægningsfejl** med flere oplysninger om fejlen og hyperlinks til de berørte varekort.|  
-    |**Brug forecast**|Vælg et forecast, der skal medtages som efterspørgsel, når planlægningskørslen udføres. Du kan oprette et standardforecast i oversigtspanelet **Planlægning** i vinduet **Produktionsopsætning**.|  
+    |**Stop, og vis første fejl**|Vælg denne indstilling, hvis du ønsker, at planlægningskørslen skal stoppe, så snart der registreres en fejl. Samtidig vises en meddelelse med oplysninger om den første fejl. Hvis der er fejl, vises kun de fejlfri planlægningslinjer i planlægningskladden, som blev oprettet, inden fejlen opstod. Hvis du ikke markerer feltet, fortsætter kørslen **Beregn plan**, indtil den er færdig, og fejl afbryder altså ikke kørslen. Hvis der er registreret fejl under kørslen, vil der efter kørslen blive vist en meddelelse om, hvor mange varer, der berøres af fejlene. Derefter åbnes siden **Log over planlægningsfejl** med flere oplysninger om fejlen og hyperlinks til det eller de berørte varekort.|  
+    |**Brug forecast**|Vælg et forecast, der skal medtages som efterspørgsel, når planlægningskørslen udføres. Du kan oprette et standardforecast i oversigtspanelet **Planlægning** på siden **Produktionsopsætning**.|  
     |**Udeluk forecast før**|Angiv, hvor stor en del af det valgte forecast, der skal indgå i planlægningskørslen, ved at angive en dato, så forecastbehov før denne dato ikke medregnes. På den måde kan du holde forældede oplysninger ude af planlægningen.|  
     |**Respekter planlægningsparametre for undtagelsesadvarsler**|Feltet er som standard valgt.<br /><br /> Efterspørgsel på planlægningslinjer med advarsler modificeres normalt ikke i henhold til planlægningsparametre. Planlægningssystemet foreslår i stedet for kun en forsyning til at dække det nøjagtige behovsantal. Du kan dog definere visse planlægningsparametre for planlægningslinjer, der skal overholdes med visse advarsler.<br /><br />|  
 
@@ -66,7 +66,7 @@ Hver planlagt metode, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] klad
 5.  Vælg knappen **OK**. Kørslen starter, og planlægningslinjerne indsættes i planlægningskladden.  
 
 ## <a name="to-perform-action-messages"></a>Udføre aktionsmeddelelser  
-1.  I vinduet **Planlægningskladde** skal du vælge handlingen **Udfør aktionsmeddelelse**.  
+1.  På siden **Planlægningskladde** skal du vælge handlingen **Udfør aktionsmeddelelse**.  
 2.  Angiv, hvordan du opretter forsyninger i oversigtspanelet **Indstillinger**. Udfyld felterne som beskrevet i følgende tabel.  
 
     |Felt|Beskrivelse|  

@@ -13,20 +13,20 @@ ms.search.keywords: API templates, configuring templates
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2dfa62c765a653986de2069ef26e454928d68ee3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7420bd1b8c1c246b608910a35a47ac025eec6b8b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="configuring-api-templates"></a>Konfiguration af API-skabeloner
-API-biblioteket til [!INCLUDE[d365fin_md](includes/d365fin_md.md)] giver en forenklet fremstilling af de underliggende objekter. Det er ikke alle egenskaber i programmet, der vises ved hjælp af den tilknyttede API. I vinduet **API-opsætning** kan du definere skabeloner, der bruges til at angive tomme egenskaber for en enhed, når du opretter en BOGF-handling via API'et. 
+API-biblioteket til [!INCLUDE[d365fin_md](includes/d365fin_md.md)] giver en forenklet fremstilling af de underliggende objekter. Det er ikke alle egenskaber i programmet, der vises ved hjælp af den tilknyttede API. På siden **API-opsætning** kan du definere skabeloner, der bruges til at angive tomme egenskaber for en enhed, når du opretter en BOGF-handling via API'et. 
 
 Hvis en konfigurationsskabelon defineres for vareobjektet, når der oprettes en ny post ved hjælp af varer-API'et, bliver egenskaber for den nye vare, der ikke er defineret i API-kaldet, f.eks. udfyldt med oplysninger fra den valgte skabelon. Hvis der f.eks. ikke er angivet en værdi i feltet **Produktbogføringsgruppe** ved hjælp af API'et, men der er angivet en værdi i den valgte skabelon, bliver værdien for bogføringsgruppen i skabelonen anvendt på den nye vare. 
 
 ## <a name="setting-up-the-entity-template"></a>Opsætning af enhedsskabelonen
-Hvis du vil bruge skabeloner med API-biblioteket, skal du først oprette og definere egenskaber for skabelonerne. Du kan oprette skabelonerne i vinduet **Konfigurationsskabeloner**. Du kan finde flere oplysninger i [Forberede overflytning af debitordata](admin-use-templates-to-prepare-customer-data-for-migration.md). 
+Hvis du vil bruge skabeloner med API-biblioteket, skal du først oprette og definere egenskaber for skabelonerne. Du kan oprette skabelonerne på siden **Konfigurationsskabeloner**. Du kan finde flere oplysninger i [Forberede overflytning af debitordata](admin-use-templates-to-prepare-customer-data-for-migration.md). 
 
 ## <a name="assign-the-template-to-an-api"></a>Tildele skabelonen til et API
 
@@ -39,7 +39,7 @@ Når hver skabelon anvendes, anvendes feltværdier, der er defineret i skabelone
 3. Vælg en værdi for **Side-id**:  
 Dette er siden for det API, som skabelonen skal anvendes på. **Side-ID**-opslaget indeholder en oversigt over alle API'er, der er tilgængelige i biblioteket.
 4. Vælg en værdi i feltet **Skabelonkode**.  
-Skabelonkoden er koden for den skabelon, der blev defineret i vinduet **Konfigurationsskabeloner**. De definerede skabelonværdier anvendes på API'et. 
+Skabelonkoden er koden for den skabelon, der blev defineret på siden **Konfigurationsskabeloner**. De definerede skabelonværdier anvendes på API'et. 
 5. I feltet **Betingelser** skal du angive, hvilken skabelon der skal anvendes.  
 Den definerede skabelon anvendes på en ny post, der oprettes via API'et, hvis og kun hvis de betingelser, der er defineret i feltet **Betingelser**, opfyldes af de værdier, der allerede er defineret for den nye forekomst af enheden.
 

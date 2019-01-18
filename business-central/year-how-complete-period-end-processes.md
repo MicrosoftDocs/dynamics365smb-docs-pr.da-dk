@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42b5729d5d4013476fa0ff460db4dc999e629d66
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: ab72d1af179ec543ea358ac957e9b658987f7d53
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversigt over opgaver til afslutning af regnskabsperioder
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 * Opdater og bogfør gentagelseskladder.  
   <!--* Process Consolidations-->
 * Kør kontoskemaer på følgende måde:  
-  * Åbn vinduet **Kontoskema**, og vælg derefter handlingen **Udskriv**.  
+  * Åbn siden **Kontoskema**, og vælg derefter handlingen **Udskriv**.  
 
 ## <a name="sales-and-receivables"></a>Salg
 * Bogfør alle salgsordrer, fakturaer, kreditnotaer og returvareordrer.  

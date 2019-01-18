@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bdb2f5d98d22f861ce3fed0d8c72ae7992a80fdb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Oprette servicefakturaer eller -kreditnotaer
 En nøgleegenskab i [!INCLUDE[d365fin](includes/d365fin_md.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan sende en faktura til kunderne på et valgfrit tidspunkt eller oprette fakturaer periodisk.  
   
-Hvis du vil oprette en faktura direkte, kan du bruge vinduet **Servicekontrakt**. Du kan også konfigurere systemet, så en feltservicetekniker kan oprette en faktura for service, der ikke er tilknyttet en kontrakt eller en ordre.  
+Hvis du vil oprette en faktura direkte, kan du bruge siden **Servicekontrakt**. Du kan også konfigurere systemet, så en feltservicetekniker kan oprette en faktura for service, der ikke er tilknyttet en kontrakt eller en ordre.  
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Sådan faktureres en servicekontrakt fra siden Servicekontrakt   
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret servicekontraktfakturaer**, og vælg derefter det relaterede link.  
@@ -62,7 +62,7 @@ Når du har bogført en serviceordre vha. indstillingen **Fakturer** eller **Lev
 3. Udfyld feltet **Nummer**. .  
   
     > [!NOTE]  
-    >  Hvis du har defineret en nummerserie for servicefakturaer i vinduet **Serviceopsætning**, kan du trykke på Enter for at vælge det næste tilgængelige servicefakturanummer.  
+    >  Hvis du har defineret en nummerserie for servicefakturaer på siden **Serviceopsætning**, kan du trykke på Enter for at vælge det næste tilgængelige servicefakturanummer.  
   
 4. I feltet **Debitornr.** skal du skrive nummeret på en kunde. Markér den relevante debitor på listen.  
   
@@ -87,7 +87,7 @@ Du kan fakturere kunden for service, der er leveret ifølge forskellige serviceo
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicefakturaer**, og vælg derefter det relaterede link.  
 2. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Vælg handlingen **Hent salgsleverancelinjer**. I vinduet **Hent serviceleverancelinjer** vises alle leverede men ikke fakturerede linjer for den angivne kunde.  
+3. Vælg handlingen **Hent salgsleverancelinjer**. På siden **Hent serviceleverancelinjer** vises alle leverede men ikke fakturerede linjer for den angivne kunde.  
 4. Vælg linjerne for den service, der faktureres, og vælg derefter **OK** for at føje serviceleverancelinjerne til fakturaen.  
 
 ## <a name="to-create-a-service-credit-memo"></a>Sådan oprettes servicekreditnotaer  

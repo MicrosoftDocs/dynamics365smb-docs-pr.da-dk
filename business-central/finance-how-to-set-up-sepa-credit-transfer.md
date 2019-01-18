@@ -10,15 +10,16 @@ ms.workload: na
 ms.search.keywords: sepa, credit, transfer, payment,
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 64abd01caa2a2f6845bb3d54c7721333a0a360b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 103ebe376d3384eab119617b903f9a803f248462
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-credit-transfer"></a>Opsætte SEPA-kreditoverførsel
-Fra vinduet **Udbetalingskladde** kan du eksportere betalinger til en fil til overførsel til din elektroniske bank til behandling af de relaterede pengeoverførsler. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter SEPA-kreditoverførselsformatet, men i dit land/område anvendes der muligvis andre formater til elektroniske betalinger.  
+Fra siden **Udbetalingskladde** kan du eksportere betalinger til en fil til overførsel til din elektroniske bank til behandling af de relaterede pengeoverførsler. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter SEPA-kreditoverførselsformatet, men i dit land/område anvendes der muligvis andre formater til elektroniske betalinger.  
 
 For at aktivere eksport af bankfilformater, der ikke umiddelbart understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurere en dataudvekslingsdefinition ved hjælp af dataudvekslingsstrukturen. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -26,7 +27,7 @@ Før du kan behandle betalingen elektronisk ved eksport af betalingsfiler i form
 
 * Konfigurere bankkontoen til at håndtere formatet SEPA-kreditoverførsel  
 * Konfigurere kreditorkortene for at behandle betalinger ved at eksportere filer i formatet SEPA-kreditoverførsler  
-* Konfigurere den relaterede finanskladde til at aktivere betalingseksport fra vinduet **Udbetalingskladde**  
+* Konfigurere den relaterede finanskladde til at aktivere betalingseksport fra siden **Udbetalingskladde**  
 * Forbinde dataudvekslingsdefinitionen for en eller flere betalingstyper med den eller de relevante betalingsmetode(r)  
 
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Sådan opsættes en konto til SEPA-kreditoverførsler  
@@ -45,21 +46,19 @@ Før du kan behandle betalingen elektronisk ved eksport af betalingsfiler i form
 3. I oversigtspanelet **Betaling** i feltet **Betalingsformkode** skal du vælge **BANK**.  
 4. I feltet **Foretrukken bankkontokode** skal du vælge den bank, som pengene skal overføres til, når de behandles af din elektroniske bank.  
 
-     Værdien i feltet **Foretrukken bankkontokode** kopieres til feltet **Modtagers bankkonto** i vinduet **Udbetalingskladde**.  
+     Værdien i feltet **Foretrukken bankkontokode** kopieres til feltet **Modtagers bankkonto** på siden **Udbetalingskladde**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Sådan opsættes betalingskladden til eksport af betalingsfiler  
 1. Indtast **Udbetalingskladder** i feltet **Søg**, og vælg derefter det relaterede link.  
 2. Åbn den betalingskladde, som du kan bruge til at behandle betalinger ved at eksportere filer i formatet SEPA-kreditoverførsler.  
 3. Vælg rulle\-knappen i feltet **Kladdenavn**.  
-4. I vinduet **Finanskladdenavne** under fanen **Startside** skal du i gruppen **Administrer** vælge **Rediger liste**.  
+4. På siden **Finanskladdenavne** under fanen **Startside** skal du i gruppen **Administrer** vælge **Rediger liste**.  
 5. Markér afkrydsningsfeltet **Tillad eksport af betaling** på linjen for den betalingskladde, som du vil bruge til eksport af betalinger.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Sådan forbindes dataudvekslingsdefinitionen for en eller flere betalingstyper med den eller de relevante betalingsmetode(r)  
 1. I feltet **Søg** skal du angive **Betalingsformer** og derefter vælge det relaterede link.  
-2. I vinduet **Betalingsformer** skal du vælge den betalingsmåde, der bruges til eksport af betalinger fra, og derefter vælge feltet **Definition af betalingseksportlinje**.  
-3. I vinduet **Definitioner af betalingseksportlinjer** skal du vælge den kode, du angav i feltet **Kode** i oversigtspanelet **Linjedefinitioner** i trin 4 i afsnittet "Sådan beskrives formateringen af linjer og kolonner i filen" i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
-
-    Direct Debit-betalingsaftalen indsættes automatisk i feltet **Id for Direct Debit-betalingsaftale**, når du opretter en salgsfaktura til den debitor, som du valgte i trin 2. Du kan finde flere oplysninger i [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md).  
+2. På siden **Betalingsformer** skal du vælge den betalingsmåde, der bruges til eksport af betalinger fra, og derefter vælge feltet **Definition af betalingseksportlinje**.  
+3. På siden **Definitioner af betalingseksportlinjer** skal du vælge den kode, du angav i feltet **Kode** i oversigtspanelet **Linjedefinitioner** i trin 4 i afsnittet "Sådan beskrives formateringen af linjer og kolonner i filen" i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 ## <a name="see-also"></a>Se også  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

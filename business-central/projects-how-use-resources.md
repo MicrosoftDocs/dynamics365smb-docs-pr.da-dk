@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d8f900e61628960f2a64f609f62dc8465722770c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 688593a6d59cf5d6fb9b58106a21601f3f15781e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="use-resources-for-jobs"></a>Bruge ressourcer til sager
@@ -47,7 +47,7 @@ Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, k
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ressourceprisforslag**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Foreslå ress.salgspris (pris)**, og udfyld derefter felterne efter behov.
 3. Vælg knappen **OK**.  
-4. Vinduet **Ressourceprisforslag** viser resultatet af kørslen, når den er færdig.
+4. Siden **Ressourceprisforslag** viser resultatet af kørslen, når den er færdig.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
 Hvis du vil angive flere alternative ressourcepriser ud fra standardpriserne på ressourcekortet, kan du anvende en kørsel.  
@@ -55,7 +55,7 @@ Hvis du vil angive flere alternative ressourcepriser ud fra standardpriserne på
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ressourceprisforslag**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Foreslå ress.salgspris (ress.)**, og udfyld derefter felterne efter behov.  
 3. Vælg knappen **OK**.  
-4. Åbn vinduet **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.
+4. Åbn siden **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
 Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, kan du bruge en kørsel til at angive flere alternative ressourcepriser.
@@ -63,7 +63,7 @@ Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, k
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Foreslå ress.salgs&pris (ress.)**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 3. Vælg knappen **OK**.  
-4. Åbn vinduet **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.
+4. Åbn siden **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.
 
 ## <a name="see-also"></a>Se også
 [Projektstyring](projects-manage-projects.md)  

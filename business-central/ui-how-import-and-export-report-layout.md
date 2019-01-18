@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importere og eksportere et rapport- eller dokumentlayout
@@ -31,7 +31,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
   
 2.  Vælg rækken med den rapport, der indeholder det brugerdefinerede rapportlayout, du vil eksportere, og brug derefter fanen **Startside** til at vælge **Brugerdefinerede layout** i gruppen **Proces**.  
   
-3.  I vinduet **Rapportlayout** skal du markere det rapportlayout, du vil eksportere til en fil, og derefter vælge **Eksportér layout** under fanen **Startside** i gruppen **Proces**.  
+3.  På siden **Rapportlayout** skal du markere det rapportlayout, du vil eksportere til en fil, og derefter vælge **Eksportér layout** under fanen **Startside** i gruppen **Proces**.  
   
 4.  Brug dialogboksen **Udlæs fil** til at vælge **Gem**, og gem derefter filen til en placering på din computer eller netværket.  
   
@@ -45,7 +45,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
   
 3.  Vælg rækken med den rapport, du vil importere rapportlayoutet til, og brug derefter fanen **Startside** til at vælge **Brugerdefinerede layout** i gruppen **Proces**.  
   
-4.  I vinduet **Rapportlayout** skal du markere det rapportlayout, du vil importere filen til, og derefter vælge **Importér layout** under fanen **Startside** i gruppen **Proces**.  
+4.  På siden **Rapportlayout** skal du markere det rapportlayout, du vil importere filen til, og derefter vælge **Importér layout** under fanen **Startside** i gruppen **Proces**.  
   
 5.  Brug dialogboksen **Importér** til at vælge det dokument, der definerer rapportlayoutet, og vælg derefter **Åbn**.  
   

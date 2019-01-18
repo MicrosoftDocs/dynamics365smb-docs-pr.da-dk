@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>Om planlægningsfunktionen
@@ -73,7 +73,7 @@ Der findes følgende ordremodifikatorer på vare- eller lagerkortet:
 -   Maks. ordrestørrelse  
 -   Oprundingsfaktor  
 
-Globale planlægningsopsætningsfelter i vinduet **Produktionsopsætning** omfatter:  
+Globale planlægningsopsætningsfelter på siden **Produktionsopsætning** omfatter:  
 
 -   Dynamisk laveste-niveau-kode  
 -   Aktuel behovsprognose  
@@ -95,7 +95,7 @@ Det angiver, om der tages højde for forsyningen repræsenteret af produktionsor
 Hvis feltet viser indstillingen **Ubegrænset**, medtager planlægningssystemet linjen, når aktionsmeddelelsen beregnes. Hvis feltet indeholder indstillingen **Ingen**, er linjen fast og kan ikke ændres, og linjen medtages ikke i beregningen af aktionsmeddelelser.
 
 ### <a name="warning"></a>Advarsel
-Oplysningsfeltet **Advarsel** i vinduet **Planlægningskladde** viser eventuelle planlægningslinjer, der er oprettet til en usædvanlig situation med en tekst, som brugeren kan vælge for at få yderligere oplysninger. Der findes følgende advarselstyper:
+Oplysningsfeltet **Advarsel** på siden **Planlægningskladde** viser eventuelle planlægningslinjer, der er oprettet til en usædvanlig situation med en tekst, som brugeren kan vælge for at få yderligere oplysninger. Der findes følgende advarselstyper:
 
 - Nødsituation
 - Undtagelse

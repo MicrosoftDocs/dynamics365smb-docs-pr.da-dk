@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter, som omfatter momsbeløb
@@ -49,7 +49,7 @@ Følgende procedure beskriver, hvordan du opretter en kreditnota , der kun omfat
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Sådan oprettes kontraktudløbsdatoen i kontraktlinjer  
 Følgende procedure beskriver, hvordan du opretter nye kontrakter ved at arbejde med kontraktudløbsdatoer i servicekontraktlinjer.  
 
-1. I vinduet **Servicekontrakt** angives kontraktens udløbsdato til **30.06.2017**.  
+1. På siden **Servicekontrakt** angives kontraktens udløbsdato til **30.06.2017**.  
 2. Vælg handlingen **Opret kreditnota** for automatisk at oprette en kreditnota for juli 2017 til december 2017.  
 3. Da kontrakten er udløbet, skal du oprette en ny kontrakt for perioden med den nye momssats for 1 juli 2017 til 31. december 2017.  
 
@@ -59,7 +59,7 @@ Følgende procedure beskriver, hvordan du opretter en ny kreditnota ved hjælp a
 1. Du kan køre momssatsændringsværktøjet på 1 juli 2017. Den generelle produktbogføringsgruppe eller momsproduktbogføringsgruppen ændres. Du kan finde flere oplysninger i [Arbejde med moms af salg og køb](finance-work-with-vat.md).  
 2. Når du har kørt momssatsændringsværktøjet skal du angive en kontraktudløbsdato for servicekontrakten. Du kan nu slette servicekontraktlinjen og oprette en ny linje, der er identisk med den gamle.  
 3. Opret en ny faktura for perioden januar 2017 til december 2012 ved hjælp af den nye momssats.  
-4. For at oprette en anden kreditnota skal du i vinduet **Servicekreditnotaer** vælge **Ny** for at oprette en ny servicekreditnota.  
+4. For at oprette en anden kreditnota skal du på siden **Servicekreditnotaer** vælge **Ny** for at oprette en ny servicekreditnota.  
 5. Vælg handlingen **Hent forudbetalte kontraktposter**.  
 6. Når konverteringen er fuldført, vil moms og serviceposter være korrekte.  
 

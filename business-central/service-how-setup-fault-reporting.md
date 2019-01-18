@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 001923d52ca7f04a338814d6636c3005277a5d02
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,15 +36,15 @@ Fejlkoder angiver de typiske serviceartikelfejl eller de handlinger, der udføre
     |Fejl + symptom | Du angiver en kombination af koder i tabellerne **Fejlkoder** og **Symptomkoder**. De typiske symptomkoder er bl.a. indikationer, som en kunde kan bruge til at beskrive et problem, f.eks. en mislyd eller en egenskab.|  
     |Fejl + symptom + type. | Du bruger koderne for fejl, symptom og fejlområde, som er en implementering af det internationale reparationskodesystem IRIS (International Repair Coding System).|  
 
-Når du skal færdiggøre opsætningen af fejlrapportering, kan du også angive, hvilke reparationer eller løsninger der er knyttet til en fejl eller defekt. Du konfigurerer dette i vinduet **Fejl/løsn.koderelation**, hvor du opretter kombinationer af koder for serviceartikelgruppen i den serviceartikel, hvorfra du har åbnet vinduet, og antallet af forekomster for hver enkelt.
+Når du skal færdiggøre opsætningen af fejlrapportering, kan du også angive, hvilke reparationer eller løsninger der er knyttet til en fejl eller defekt. Du konfigurerer dette på siden **Fejl/løsn.koderelation**, hvor du opretter kombinationer af koder for serviceartikelgruppen i den serviceartikel, hvorfra du har åbnet vinduet, og antallet af forekomster for hver enkelt.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Sådan indsættes fejl- og løsningskoderelationer
-<!--this needs to go in a working with topic--> Du skal samle oplysninger sammen vedr. fejl/løsningskoderelationer, så du kan se de mest almindelige reparationsmetoder for bestemte varefejl, når du reparerer varerne. Brug kørslen **Indsæt fejl/løsningsrelationer** til at finde alle kombinationerne af fejl- og løsningskoder i bogførte serviceordrer, og registrer dem i vinduet **Indsæt fejl/løsningsrelationer**.
+<!--this needs to go in a working with topic--> Du skal samle oplysninger sammen vedr. fejl/løsningskoderelationer, så du kan se de mest almindelige reparationsmetoder for bestemte varefejl, når du reparerer varerne. Brug kørslen **Indsæt fejl/løsningsrelationer** til at finde alle kombinationerne af fejl- og løsningskoder i bogførte serviceordrer, og registrer dem på siden **Fejl/løsn.koderelationer**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indsæt fejl/løsningsrelationer**, og vælg derefter det relaterede link.  
 2. Angiv datoer for at definere den periode, du vil have med i kørslen.  
 3. Marker afkrydsningsfeltet **Relation baseret på serviceartikelgrp.**, hvis du vil gruppere relationerne efter serviceartikelgruppe.  
-4. Markér afkrydsningsfeltet **Bevar manuelt indsat post**, hvis du vil bevare de poster, du allerede har indsat manuelt i vinduet **Fejl/løsn.koderelationer**.  
+4. Markér afkrydsningsfeltet **Bevar manuelt indsat post**, hvis du vil bevare de poster, du allerede har indsat manuelt på siden **Fejl/løsn.koderelationer**.  
 
 ## <a name="see-also"></a>Se også
 [Konfigurere Service](service-setup-service.md)  

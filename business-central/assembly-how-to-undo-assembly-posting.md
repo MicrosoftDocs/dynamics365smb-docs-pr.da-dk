@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Fortryde bogføring af montage
@@ -44,7 +44,7 @@ Følgende procedure beskriver, hvordan du fortryder bogførte montageordrer, hvo
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Sådan fortrydes bogføring af en montageordre  
 1.  For at fortryde en helt eller delvist bogført montageordre skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Bogførte montageordrer** og vælge det relaterede link.  
 
-    Vinduet **Bogførte montageordrer** åbnes med en eller flere bogførte montageordrer, der er bogført fra den pågældende montageordre. Hver delvis bogføring opretter en separat bogført montageordre.  
+    Siden **Bogførte montageordrer** åbnes med en eller flere bogførte montageordrer, der er bogført fra den pågældende montageordre. Hver delvis bogføring opretter en separat bogført montageordre.  
 2.  Åbn den bogførte montageordre, du vil tilbageføre, og vælg derefter handlingen **Fortryd montage**.  
 
     Hvis den bogført montageordre, du vil fortryde, vedrører et fuldt bogført montageordre, der nu er slettet, har du mulighed for at genoprette den, typisk fordi du ønsker at genbehandle den.  

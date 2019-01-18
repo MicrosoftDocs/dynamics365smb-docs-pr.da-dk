@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
@@ -36,10 +36,10 @@ Sørg for, at du er på rollecenteret RapidStart Services-implementering. Du kan
 2. Vælg handlingen **Ny**.  
 3. På oversigtspanelet **Generelt** skal du udfylde resten af felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Hvis du vil udelukke konfigurationsspørgeskemaer, konfigurationsskabeloner og konfigurationsregnearkstabeller fra pakken, skal du markere afkrydsningsfeltet **Udeluk konfigurationstabeller**. Ellers føjes disse tabeller automatisk til listen over pakketabeller, når du eksporterer pakken.  
-5. Vælg handlingen **Hent tabeller**. Kørselsvinduet **Hent pakketabeller** åbnes.  
-6. Vælg feltet **Vælg tabeller**. Vinduet **Konfigurationsvalg** åbnes.  
+5. Vælg handlingen **Hent tabeller**. Kørselssiden **Hent pakketabeller** åbnes.  
+6. Vælg feltet **Vælg tabeller**. Siden **Konfigurationsvalg** åbnes.  
 7. Vælg handlingen **Markér alt** for at føje alle tabellerne til pakken, eller markere afkrydsningsfeltet **Markeret** for hver tabel på den liste, du vil tilføje.
-8. Vælg knappen **OK**. Antallet af tabeller, du har valgt, er angivet i feltet **Vælg tabeller**. Angiv yderligere indstillinger, og vælg derefter knappen **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller føjes til linjerne i vinduet **Konfig.pakke**.  
+8. Vælg knappen **OK**. Antallet af tabeller, du har valgt, er angivet i feltet **Vælg tabeller**. Angiv yderligere indstillinger, og vælg derefter knappen **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller føjes til linjerne på siden **Konfig.pakke**.  
 
     > [!NOTE]  
     >  Du kan også gøre dette i konfigurationsarket. Markér de tabeller, du ønsker at medtage i pakken, og vælg derefter handlingen **Tildel pakke**.
@@ -64,13 +64,13 @@ Når du har finjusteret listen over felter, der skal medtages i en tabel, kan du
 ### <a name="to-include-a-template-for-application-to-a-table"></a>Medtage en skabelon til ansøgning til en tabel  
 For visse tabeller som f.eks. en tabel, der skal indeholde masterdata, kan du angive en skabelon, der skal anvendes til data. Skabelonen kan medtage de ønskede felter, du vil anvende på alle masterdata, og som du aldrig vil variere. F.eks. kan du oprette en skabelon, der kan bruges sammen med debitordata. Skabelonen kan indeholde alle de obligatoriske felter, som derefter giver mulighed for ensartet import af standardiserede oplysninger. Oplysninger, der ikke kan standardiseres, som f.eks. debitornavn, behandles derefter, når du foretager en import af debitordata.
 
-1. I vinduet **Konfig.pakkekort** skal du vælge en tabel, og derefter vælge feltet **Dataskabelon**. Der vises en liste over skabeloner, der er baseret på den viste tabel.
+1. På siden **Konfig.pakkekort** skal du vælge en tabel, og derefter vælge feltet **Dataskabelon**. Der vises en liste over skabeloner, der er baseret på den viste tabel.
 2. Vælg en skabelon, og vælg derefter knappen **OK**.  
 
 Når pakken er fuldført, skal du følge den næste procedure for at gemme pakken til en fil. Derefter kan du give pakken til en kunde eller partner, der kan bruge den.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>Gemme og eksportere en konfigurationspakke  
-- I vinduet **Konfig.pakkekort** skal du vælge handlingen **Udlæs pakke**.  
+- På siden **Konfig.pakkekort** skal du vælge handlingen **Udlæs pakke**.  
 
 Pakken oprettes i en .rapidstart-fil, som leverer pakkens indhold i komprimeret format. Konfigurationsspørgeskemaer, konfigurationsskabeloner og konfigurationsregneark føjes automatisk til pakken, medmindre du udtrykkeligt vælger at udelukke dem.  
 
@@ -121,7 +121,7 @@ Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få 
     > [!NOTE]  
     >  Sørg for, at hver enkelt tabel har fået tildelt et side-id. For standardtabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] angives værdien automatisk. For brugerdefinerede tabeller skal du angive id'et.
 
-3. Vælg handlingen **Databasedata**. Vinduet for den relaterede side åbnes.
+3. Vælg handlingen **Databasedata**. Siden for den relaterede side åbnes.
 4. Gennemse de tilgængelige oplysninger. Rediger dem efter behov ved at slette poster, der ikke er relevante, eller ved tilføje nye.    
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Sådan kopieres data fra et testmiljø til et produktionsmiljø  
@@ -130,9 +130,9 @@ Når du har undersøgt og afprøvet alle konfigurationsoplysninger, kan du forts
 1. Åbn og initialiser den nye virksomhed.  
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Kopiér data fra virksomhed**.  
-4. I vinduet **Kopiér virksomhedsdata** skal du vælge feltet **Kopiér fra**. Vinduet **Virksomheder** åbnes.  
+4. På siden **Kopiér virksomhedsdata** skal du vælge feltet **Kopiér fra**. Siden **Virksomheder** åbnes.  
 5. Marker den virksomhed, du vil kopiere data fra, og vælg derefter knappen **OK**. En liste over tabeller, der er valgt under konfigurationsregnearket, åbnes. Det er kun tabeller, der indeholder poster, der medtages på denne liste.
-6. Vælg de tabeller, som du ønsker at kopiere data fra, og vælg derefter handlingen **Kopiér data**. I vinduet **Kopiér virksomhedsdata** skal du vælge knappen **OK**.  
+6. Vælg de tabeller, som du ønsker at kopiere data fra, og vælg derefter handlingen **Kopiér data**. På siden **Kopiér virksomhedsdata** skal du vælge knappen **OK**.  
 
 ## <a name="see-also"></a>Se også  
 [Indsaml debitoropsætningsværdier](admin-gather-customer-setup-values.md)  

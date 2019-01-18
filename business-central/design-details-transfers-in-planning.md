@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Designoplysninger: Overførsler i planlægning
@@ -33,7 +33,7 @@ En overflytningsordre ligner en hvilken som helst anden ordre i programmet. I vi
 
 Et grundlæggende aspekt, der gør overførsler i planlægning forskellig fra købs-og produktionsordrer, er, at en flytteordrelinje repræsenterer behov og forsyning på samme tid. Den udgående del, som leveres fra den gamle lokation, er behov. Den indgående del, der skal modtages på den nye lokation, er forsyning på den pågældende lokation.  
 
-![Indhold i vinduet Overflytningsordre](media/nav_app_supply_planning_7_transfers3.png "Indhold i vinduet Overflytningsordre")  
+![Indhold på siden Overflytningsordre](media/nav_app_supply_planning_7_transfers3.png "Indhold på siden Overflytningsordre")  
 
 Det betyder, at når systemet manipulerer på forsyningssiden af overflytningen, så skal der ske en lignende ændring på behovssiden.  
 
@@ -64,7 +64,7 @@ Overflytningsniveaukoden er et internt felt, som automatisk beregnes og lagres p
 
 Overflytningsniveaukoden vil være 0 for lagervarer med genbestillingssystem for produktionsordre eller indkøbsordre og vil være -1 for det første overflytningsniveau -2 for det andet osv. I overførselskæden beskrevet ovenfor vil niveauerne derfor være -1 for rød og -2 for grøn, som vist i følgende illustration.  
 
-![Indhold af vinduet Lagerkort](media/nav_app_supply_planning_7_transfers6.gif "Indhold af vinduet Lagerkort")  
+![Indhold af siden Lagerkort](media/nav_app_supply_planning_7_transfers6.gif "Indhold af siden Lagerkort")  
 
 Når du opdaterer en lagervare, kan planlægningssystemet registrere, om lagervarer med genbestillingssystemet Overførsel er konfigureret med cirkulære referencer.  
 
@@ -135,7 +135,7 @@ I dette eksempel betyder det, at:
 * Slutdato + Indgående ekspedition = Modtagelsesdato  
 
 ## <a name="safety-lead-time"></a>Sikkerhedstid  
-Feltet Standardsikkerhedstid i vinduet Produktionsopsætning og det relaterede felt Sikkerhedstid på varekortet skal ikke tages i betragtning ved beregningen af en overflytningsordre. Sikkerhedstiden kan imidlertid stadig påvirke den samlede plan, ligesom den påvirker genbestillingsordren (køb eller produktion) i begyndelsen af overførselskæden, når varerne lægges på den placering, hvorfra de kan overføres.  
+Feltet Standardsikkerhedstid på siden Produktionsopsætning og det relaterede felt Sikkerhedstid på varekortet skal ikke tages i betragtning ved beregningen af en overflytningsordre. Sikkerhedstiden kan imidlertid stadig påvirke den samlede plan, ligesom den påvirker genbestillingsordren (køb eller produktion) i begyndelsen af overførselskæden, når varerne lægges på den placering, hvorfra de kan overføres.  
 
 ![Elementer i forfaldsdatoen for overflytningen](media/nav_app_supply_planning_7_transfers14.png "Elementer i forfaldsdatoen for overflytningen")  
 

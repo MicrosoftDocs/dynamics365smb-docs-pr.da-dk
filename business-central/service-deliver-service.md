@@ -13,16 +13,16 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="delivering-service"></a>Levering af service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder funktioner, der kan hjælpe dig med at levere service i henhold til de kontrakter, der er oprettet, og de serviceordrer, virksomheden har forpligtet sig til at opfylde. Virksomhedens serviceteknikere eller serviceekspedient vil se, at udestående serviceordrer er lette at finde, når de bruger **Ordreoversigt**. **Ordreoversigten** giver et samlet overblik over, hvilke ordrer der er igangsat, og hvilke ordrer der er fuldført.  
   
-De udestående serviceordrer kan også findes ved hjælp af vinduet **Serviceopgaver**. I denne oversigt over virksomhedens serviceforpligtelser kan du se, hvor i serviceprocessen en ordre befinder sig, og ændre statussen, så den afspejler interaktion med kunden.  
+De udestående serviceordrer kan også findes ved hjælp af siden **Serviceopgaver**. I denne oversigt over virksomhedens serviceforpligtelser kan du se, hvor i serviceprocessen en ordre befinder sig, og ændre statussen, så den afspejler interaktion med kunden.  
   
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
 

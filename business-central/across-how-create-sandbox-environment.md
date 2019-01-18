@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3110168e904cc6944a5f05a3a4cc7325425d3fe9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6a13eca9f8ad83b82e4b281c9564bdfd0c66f4fb
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -40,7 +40,7 @@ Du skal have abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] for at k
 6. Der vises en meddelelse om, at dette er et sandkassemiljø, øverst i rollecenteret. Du kan også se miljøtypen i titellinjen i klienten.
 ![Rollecentermeddelelse i sandkassemiljø](./media/across-sandbox/sandbox-rolecenter-notification.png)  
 I sandkassemiljøet er der blevet oprettet en helt ny lejer. Denne lejer er indlæst med standarddemodata for virksomheden CRONUS. Ingen data kopieres eller på anden måde overføres fra produktionsmiljøet under oprettelsen af sandkassen.
-7.  Du kan når som helst vende tilbage til vinduet **Sandkassemiljø** og nulstille sandkassemiljøet.
+7.  Du kan når som helst vende tilbage til siden **Sandkassemiljø** og nulstille sandkassemiljøet.
 > [!NOTE]  
 >  Nulstilling af sandkassemiljøet vil fjerne miljøet helt, og derefter oprettes det igen med standarddemodata.  
 
@@ -58,7 +58,7 @@ I et sandkassemiljø er designerfunktionen i klienten aktiveret. Du kan aktivere
 ![Designeren i klienten](./media/across-sandbox/sandbox-inclient-designer.png)
 
 ### <a name="enable-the-advanced-user-experience"></a>Aktivere den avancerede brugeroplevelse
-Du kan aktivere og prøve alle de avancerede funktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] i en sandkasselejer ved at indstille feltet **Oplevelse** i vinduet **Virksomhedsoplysninger**.
+Du kan aktivere og prøve alle de avancerede funktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] i en sandkasselejer ved at indstille feltet **Oplevelse** på siden **Virksomhedsoplysninger**.
 
 ![Avanceret sandkassemiljø](./media/across-sandbox/sandbox-advanced.png)
 

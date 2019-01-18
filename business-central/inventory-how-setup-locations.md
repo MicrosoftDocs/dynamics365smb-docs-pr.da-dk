@@ -13,10 +13,10 @@ ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 503655e65b7df83c89e52d76a22396b672b2d28e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 828979bf181f1cd7f7a66d2c7c8ac8a2700b732b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
@@ -27,7 +27,7 @@ Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængelige
 ## <a name="to-create-a-location-card"></a>Sådan oprettes et lokationskort
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
-3. I vinduet **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På siden **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Gentag trin 2 og 3 for hver lokation, hvor du vil foretage lageropgørelse.
 
 > [!NOTE]  
@@ -35,9 +35,9 @@ Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængelige
 
 ## <a name="to-create-a-transfer-route"></a>Sådan oprettes en overflytningsrute
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Overflytningsruter**, og vælg derefter det relaterede link.
-2. Du kan også vælge handlingen **Overflytningsruter** i ethvert **Lokationskort**-vindue.
+2. Du kan også vælge handlingen **Overflytningsruter** på enhver **Lokationskort**-side.
 3. Vælg handlingen **Ny**.
-4. I vinduet **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. På siden **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan nu overflytte lagervarer mellem to lokationer. Du kan finde flere oplysninger i [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md).    
 

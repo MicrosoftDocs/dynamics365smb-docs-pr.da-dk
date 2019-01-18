@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiere data til nye virksomheder
@@ -26,7 +26,7 @@ Du kan kopiere værdier, der ofte bruges fra en eksisterende virksomhed til en n
 1. Åbn det nye regnskab.  
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 3. Vælg **Kopiér data fra virksomhed**.  
-4. I vinduet **Kopiér virksomhedsdata** skal du vælge en virksomhed, der skal kopieres fra i feltet **Kopiér fra** og derefter vælge knappen **OK**.  
+4. På siden **Kopiér virksomhedsdata** skal du vælge en virksomhed, der skal kopieres fra i feltet **Kopiér fra** og derefter vælge knappen **OK**.  
 5. Vælg en tabel fra en af de konfigurationspakker, som du har importeret, og vælg derefter handlingen **Kopiér data**.
 
 ## <a name="see-also"></a>Se også

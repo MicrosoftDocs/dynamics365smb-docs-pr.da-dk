@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 50b77f4c6e333f3024f2261eb0c6df42b3e535d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27ef914e3ee8dc00f0e61848afaeea0433cd2279
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-prepayment-invoices"></a>Oprette forudbetalingsfakturaer
@@ -44,7 +44,7 @@ Følgende procedure beskriver, hvordan du fakturerer en forudbetaling for en sal
 4. Hvis du vil bruge én forudbetalingsprocent til hele ordren, skal du ændre feltet **Forudbetaling i %** i hovedet, efter at du har udfyldt linjerne.  
 5. Du kan se det samlede forudbetalingsbeløb ved at vælge handlingen **Statistik**.
 
-    Hvis du vil regulere det samlede forudbetalingsbeløb for ordren, kan du ændre indholdet i feltet **Forudbetalingsbeløb** i vinduet **Salgsordrestatistik**.  
+    Hvis du vil regulere det samlede forudbetalingsbeløb for ordren, kan du ændre indholdet i feltet **Forudbetalingsbeløb** på siden **Salgsordrestatistik**.  
 
     Hvis feltet **Priser inkl. moms** er markeret, kan feltet **Forudbetalingsbeløb Inkl. moms** redigeres.  
 

@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a234dee68d9c083e1ca9f72eec86e2ba1239398c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9cf65b029527dfd046223e82b92b57a48d43bb19
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-sales-quotes"></a>Oprette salgstilbud
@@ -29,15 +29,15 @@ Du kan udfylde debitorfelter i salgstilbud på to måder, afhængigt af om debit
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgstilbud**, og vælg derefter det relaterede link.
 2. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 
-   Andre felter i vinduet **Salgstilbud** indeholder standardoplysningerne for den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:
+   Andre felter på siden **Salgstilbud** indeholder standardoplysningerne for den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:
 3. I feltet **Debitor** skal du indtaste navnet på den nye debitor.
 4. I dialogboksen, hvor du registrerer den nye debitor, skal du trykke på knappen **Ja**.
-5. I vinduet **Vælg en skabelon til en ny debitor** skal du vælge en skabelon, som det nye debitorkort skal baseres på, og derefter vælge knappen **OK**.
+5. På siden **Vælg en skabelon til en ny debitor** skal du vælge en skabelon, som det nye debitorkort skal baseres på, og derefter vælge knappen **OK**.
 6. Et nyt debitorkort viser oplysninger om den valgte debitorskabelon. Udfyld de resterende felter. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
-7. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Salgstilbud**.
+7. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til siden **Salgstilbud**.
 
    En række af felterne i salgstilbuddet er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.  
-8. Udfyld de resterende felter efter behov i vinduet **Salgstilbud**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+8. Udfylde de resterende felter efter behov på siden **Salgstilbud**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.   
 
@@ -69,10 +69,10 @@ Du kan udfylde debitorfelter i salgstilbud på to måder, afhængigt af om debit
     Hvis du har konfigureret fakturarabatter til debitoren, indsættes den angivne procentværdi automatisk i feltet **Fakturarabat i %**, hvis kriterierne er opfyldt, og det relaterede beløb indsættes i feltet **Fakturarabat ekskl. moms**. Du kan finde flere oplysninger under [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > Feltet **Tilbud gyldigt til dato** kan udfyldes automatisk med et bestemt antal dage efter oprettelsen af tilbuddet, hvis du udfylder feltet **Beregning af tilbuddets gyldighed** i vinduet **Salg**. 
+    > Feltet **Tilbud gyldigt til dato** kan udfyldes automatisk med et bestemt antal dage efter oprettelsen af tilbuddet, hvis du udfylder feltet **Beregning af tilbuddets gyldighed** på siden **Salg**. 
 
 15. Når salgstilbudslinjerne er fuldført, skal du vælge handlingen **Send via mail**.
-16. I feltet **Send mail** skal du udfylde de resterende felter og gennemse det integrerede salgstilbud. Du kan finde flere oplysninger under [Sende dokumenter via mail](ui-how-send-documents-email.md).
+16. På siden **Send mail** skal du udfylde de resterende felter og gennemse det integrerede salgstilbud. Du kan finde flere oplysninger under [Sende dokumenter via mail](ui-how-send-documents-email.md).
 17. Hvis kunden accepterer tilbuddet, skal du vælge handlingen **Opret faktura** eller **Lav ordre**.
 
 Salgstilbuddet fjernes fra databasen. En salgsfaktura eller salgsordre oprettes på grundlag af oplysningerne i salgstilbuddet, hvor du kan behandle salget. I feltet **Tilbudsnr.** på salgsfakturaen eller salgsordren kan du se nummeret på det salgstilbud, den blev oprettet ud fra. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) eller [Sælge produkter](sales-how-sell-products.md).

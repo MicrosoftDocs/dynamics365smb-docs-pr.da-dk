@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac684ffdb7bc6e9ddefa218e27babb7c9c5bb3ea
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 9708b248eb9e9f8f1f0e14f9b8d9f02ea84767fa
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="calculate-bin-replenishment"></a>Beregn genopfyldning
@@ -31,7 +31,7 @@ Hvis du udelukkende har fastsat placeringstypen for massevareplaceringer til **L
 ## <a name="to-replenish-pick-bins"></a>Sådan genopfyldes plukplaceringer  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn genopfyldning** for at åbne rapportanmodningssiden.  
-3.  Udfyld de relevante felter i vinduet for at begrænse omfanget af genopfyldningsforslag, der skal beregnes. Det kan f.eks. være, at du kun vil have forslag, der berører bestemte varer, zoner eller placeringer.  
+3.  Udfyld de relevante felter på siden for at begrænse omfanget af genopfyldningsforslag, der skal beregnes. Det kan f.eks. være, at du kun vil have forslag, der berører bestemte varer, zoner eller placeringer.  
 4.  Vælg knappen **OK**. Der oprettes nu linjer for de genopfyldningsbevægelser, der skal udføres ifølge de regler, der er defineret for placeringer og placeringsindhold varerne på placeringerne.  
 5.  Vælg handlingen **Opret bevægelse**, hvis du vil udføre alle de foreslåede genopfyldninger. Der er nu oprettet instruktioner i menuen **Bevægelser**, som kan udføres og registreres af lagermedarbejderne.  
 6.  Hvis du kun vil have udført nogle af forslagene, skal du slette de mindst vigtige og derefter oprette en bevægelse.  

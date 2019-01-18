@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d7738991133baac735586fd7e25b0d9866a3a42f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8c14b4614f88cea932a69c00422c8e3a12bc644b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af PowerApps
@@ -35,16 +35,16 @@ Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige
 5. Vælg **Dynamics 365 Business Central** på listen over tilgængelige forbindelser.
 6. PowerApps viser en forbindelsesside, hvor du bliver bedt om de oplysninger, der kræves for at oprette forbindelse til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Hvis du vil oprette forbindelse, skal du angive en OData URL-adresse, brugernavn, adgangskode og firmanavn.
 
-   For *OData URL-adressen* kan du kopiere OData V4 URL-adressen på en af de webtjenester, der er angivet i vinduet **Webtjeneste** i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
+   For *OData URL-adressen* kan du kopiere OData V4 URL-adressen på en af de webtjenester, der er angivet på siden **Webtjeneste** i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
 
-   Som *Virksomhedsnavn* skal du bruge det navn, der vises i feltet **Navn** i vinduet **Virksomhedsoplysninger** vindue i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-version indeholder flere virksomheder, skal du vælge det relevante virksomhedsnavn på listen i vinduet **Virksomheder**. I begge tilfælde skal du sørge for, at det navn, du angiver i guiden PowerApps, er nøjagtigt det samme som den tekst, der vises i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. `My Company`.
+   Som *Virksomhedsnavn* skal du bruge det navn, der vises i feltet **Navn** på siden **Virksomhedsoplysninger** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-version indeholder flere virksomheder, skal du vælge det relevante virksomhedsnavn på listen på siden **Virksomheder**. I begge tilfælde skal du sørge for, at det navn, du angiver i guiden PowerApps, er nøjagtigt det samme som den tekst, der vises i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. `My Company`.
 
-   Som brugernavn og adgangskode skal du bruge navnet og webserviceadgangsnøglen, der er angivet for din konto i vinduet **Brugere** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit brugernavn er f.eks. *Administrator*, og den webtjenesteadgangsnøgle, der fungerer som din adgangskode, er *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU =*.
+   Som brugernavn og adgangskode skal du bruge navnet og webserviceadgangsnøglen, der er angivet for din konto på siden **Brugere** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit brugernavn er f.eks. *Administrator*, og den webtjenesteadgangsnøgle, der fungerer som din adgangskode, er *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU =*.
 7. Vælg knappen **Forbindelse** for at forsætte. PowerApps viser et standarddatasæt for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vælg **Standard**-datasættet.
 
    PowerApps viser en liste over tabeller, der er tilgængelige fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Disse tabeller, eller slutpunkter, repræsenterer de webtjenester, som du har publiceret fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-   Du kan også vælge at oprette en ny URL-adresse for webtjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at bruge handlingen **Opret datasæt** i vinduet **Webtjenester** ved hjælp af guiden Assisteret opsætning for **Konfigurer rapporteringsdata** eller ved at vælge handlingen **Rediger i Excel** på en af listerne.
+   Du kan også vælge at oprette en ny URL-adresse for webtjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at bruge handlingen **Opret datasæt** på siden **Webtjenester** ved hjælp af guiden Assisteret opsætning for **Konfigurer rapporteringsdata** eller ved at vælge handlingen **Rediger i Excel** på en af listerne.
 8. Vælg den tabel, du vil bruge til din PowerApp, og vælg derefter knappen **Opret forbindelse**.
 9. Gentag fremgangsmåden for at føje flere [!INCLUDE[d365fin](includes/d365fin_md.md)]-data til dine Power BI-datamodel.
 

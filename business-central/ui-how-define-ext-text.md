@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: eeb73ec964441da0f655b2900e2cb22a1ea492e5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-extended-item-text"></a>Tilføje udvidet varetekst
@@ -25,11 +25,11 @@ Du kan udvide standardtekst for varer ved at indsætte ekstra linjer, og du kan 
 1. Åbn kortet for en vare, du vil føje udvidet tekst til, og vælg derefter handlingen **Udvidet tekst**.
 2. Angiv koden i feltet **Kode**, skriv den ønskede tekst i feltet **Beskrivelse**.
 3. Vælg **Udvidede tekster**.
-4. Udfyld linjerne i vinduet **Udvidet tekst** med yderligere tekst.
+4. Udfyld linjerne på siden **Udvidet tekst** med yderligere tekst.
 5. Udfyld feltet **Sprogkode** eller feltet **Alle sprogkoder**, hvis du bruger sådanne.
 6. Udfyld felterne **Startdato** og **Slutdato**, hvis du vil begrænse den tid, hvor den udvidede tekst bruges.
 7. Markér de relevante afkrydsningsfelter for de dokumenttyper, hvor den udvidede tekst skal udskrives.
-8. Luk vinduet.
+8. Luk siden.
 
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Sådan tilføjes en udvidet varetekst på en salgsordrelinje
 1. Åbn en salgsordre med en salgslinje for en vare, der har udvidet tekst defineret. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).

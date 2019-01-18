@@ -11,14 +11,14 @@ ms.search.keywords: payment process, cash receipts
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8d4ad19bec55769a876f9783ff617bad0b87df7b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 519696376cba2e494ad83b3e1bce442de8299884
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Afstemme betalinger, der ikke kan udlignes automatisk
-Det kan være nødvendigt at håndtere betalinger til din bankkonto, der ikke kan udlignes på en relateret åben debitor-, kreditor eller bankkontopost. Det kan skyldes, at der ikke findes noget dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], som betalingen kan udlignes til, eller at det relaterede dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)] har et andet beløb end f.eks. transaktionsbeløbet på grund af valutakurser. I vinduet **Betalingsudligningskladde** vises alle transaktionsbeløb for betalinger, som endnu ikke er udlignet, i feltet **Difference**, herunder beløb, der ikke kan udlignes af årsager som f.eks. dem ovenfor.
+Det kan være nødvendigt at håndtere betalinger til din bankkonto, der ikke kan udlignes på en relateret åben debitor-, kreditor eller bankkontopost. Det kan skyldes, at der ikke findes noget dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], som betalingen kan udlignes til, eller at det relaterede dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)] har et andet beløb end f.eks. transaktionsbeløbet på grund af valutakurser. På siden **Betalingsudligningskladde** vises alle transaktionsbeløb for betalinger, som endnu ikke er udlignet, i feltet **Difference**, herunder beløb, der ikke kan udlignes af årsager som f.eks. dem ovenfor.
 
 Betalinger, der ikke kan udlignes, kan blive vist på betalingsudligningskladdelinjer på følgende måder:
 
@@ -33,7 +33,7 @@ Når du vil afstemme sådanne betalinger, kan du vælge knappen **Overfør diffe
 ## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Sådan afstemmes betalinger, der ikke kan udlignes
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingsudligningskladder**, og vælg derefter det relaterede link.
 2. Åbne en kladde til betalingsafstemning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
-3. Vælg **Overfør difference til konto**. Vinduet **Overfør difference til konto** åbnes.
+3. Vælg **Overfør difference til konto**. Siden **Overfør difference til konto** åbnes.
 4. I feltet **Kontotype** skal du angive den kontotype, som betalingsbeløbet vil blive bogført til.
 5. I feltet **Kontonr.** skal du angive den kontotype, som betalingsbeløbet vil blive bogført til.
 6. I feltet **Beskrivelse** skal du angive tekst, der beskriver denne direkte betalingsbogføring. Som standard indsættes teksten i feltet **Transaktionstekst** på betalingsudligningskladdelinjen.

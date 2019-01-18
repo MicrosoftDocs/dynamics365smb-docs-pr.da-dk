@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 77995eab6166a33d8a98a821d40aceaea9f4bc00
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 39e4c310e3de5f16066408b96b54042c44c753fd
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Oprette og ændre et brugerdefineret rapport- eller dokumentlayout
@@ -30,18 +30,18 @@ Hvis du vil oprette et brugerdefineret layout, kan du enten oprette en kopi af e
 ## <a name="to-create-a-custom-layout"></a>Sådan opretter du et brugerdefineret layout
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.
 
-    Vinduet **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige i det firma, der er angivet i feltet **Virksomhed** øverst i vinduet.
+    Siden **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige i det firma, der er angivet i feltet **Virksomhed** øverst på siden.
 2. Indstil feltet **Virksomhed** til den virksomhed, hvor du vil oprette rapportlayoutet.
 3. Vælg rækken med den rapport, du vil oprette layoutet for, og vælg derefter handlingen **Brugerdefinerede layout**.  
-   Vinduet **Brugerdefinerede layout** vises med alle brugerdefinerede layout, der er tilgængelige for den valgte rapport.
+   Siden **Brugerdefinerede layout** vises med alle brugerdefinerede layout, der er tilgængelige for den valgte rapport.
 4. Hvis du vil oprette en kopi af et eksisterende brugerdefineret layout, skal du vælge det eksisterende brugerdefinerede layout på listen og derefter vælge handlingen **Kopiér**.  
-   Kopien af det brugerdefinerede layout vises i vinduet **Brugerdefinerede layout** og indeholder ordene *Kopi af* i feltet **Beskrivelse**.
+   Kopien af det brugerdefinerede layout vises på siden **Brugerdefinerede layout** og indeholder ordene *Kopi af* i feltet **Beskrivelse**.
 5. Hvis du vil tilføje et nyt brugerdefineret layout, der er baseret på et indbygget layout, skal du gøre følgende:  
-   1. Vælg handlingen **Ny**. Vinduet **Indsæt indbygget layout til en rapport** åbnes. Felterne **Id** og **Navn** udfyldes automatisk.
+   1. Vælg handlingen **Ny**. Siden **Indsæt indbygget layout til en rapport** åbnes. Felterne **Id** og **Navn** udfyldes automatisk.
    2. Hvis du vil tilføje en brugerdefineret Word-rapportlayouttype, skal du markere afkrydsningsfeltet **Indsæt Word-layout**.
    3. Hvis du vil tilføje en brugerdefineret RDLC-rapportlayouttype, skal du markere afkrydsningsfeltet **Indsæt RDLC-layout**.
    4. Vælg knappen **OK**.  
-      De nye brugerdefinerede layout vises i vinduet **Tilpassede rapportlayouts**. Hvis et nyt layout er baseret på et indbygget layout, så har den ordene **Kopi af et indbygget layout** i feltet **Beskrivelse**. Hvis der ikke var noget indbygget layout for rapporten, har det nye layout ordene **Nyt layout** i feltet **Beskrivelse**, fordi det brugerdefinerede layout er tomt.
+      De nye brugerdefinerede layout vises på siden **Tilpassede rapportlayouts**. Hvis et nyt layout er baseret på et indbygget layout, så har den ordene **Kopi af et indbygget layout** i feltet **Beskrivelse**. Hvis der ikke var noget indbygget layout for rapporten, har det nye layout ordene **Nyt layout** i feltet **Beskrivelse**, fordi det brugerdefinerede layout er tomt.
 6. Som standard er feltet **Virksomhedsnavn** tomt, hvilket betyder, at det brugerdefinerede layout bliver tilgængeligt for rapporten i alle firmaer. Hvis du kun vil gøre det brugerdefinerede layout tilgængeligt i en bestemt virksomhed, skal du vælge **Rediger** og derefter indstille feltet **Virksomhedsnavn** til den ønskede virksomhed.
 
 Det brugerdefinerede layout er oprettet. Du kan nu redigere det brugerdefinerede layout efter behov.
@@ -50,8 +50,8 @@ Det brugerdefinerede layout er oprettet. Du kan nu redigere det brugerdefinerede
 Hvis du vil ændre et rapportlayout, skal du først eksportere rapportlayoutet som en fil til en placering på din computer eller netværket og derefter åbne det eksporterede dokument og foretage ændringerne. Når du er færdig med at foretage ændringerne, skal du importere rapportlayoutet.
 
 ### <a name="to-modify-a-custom-layout"></a>Sådan ændres et brugerdefineret layout
-1.  Du kan eksportere et brugerdefineret layout fra vinduet **Brugerdefinerede rapportlayouts**. Hvis vinduet ikke allerede er åben, skal du søge efter og åbne vinduet **Valg af rapportlayout**, vælge den rapport, der har det layout, du vil ændre, og derefter vælge handlingen **Brugerdefinerede layout**.  
-2.  I vinduet **Brugerdefinerede rapportlayouts** skal du vælge det layout, du vil ændre, vælge handlingen **Eksportér layout** og derefter klikke på **Gem** eller **Gem som** for at gemme rapportlayoutdokumentet på en placering på din computer eller dit netværk.  
+1.  Du kan eksportere et brugerdefineret layout på siden **Brugerdefinerede rapportlayouts**. Hvis siden ikke allerede er åben, skal du søge efter og åbne siden **Valg af rapportlayout**, vælge den rapport, der har det layout, du vil ændre, og derefter vælge handlingen **Brugerdefinerede layout**.  
+2.  På siden **Brugerdefinerede rapportlayouts** skal du vælge det layout, du vil ændre, vælge handlingen **Eksportér layout** og derefter klikke på **Gem** eller **Gem som** for at gemme rapportlayoutdokumentet på en placering på din computer eller dit netværk.  
 
 3.  Åbn det rapportlayoutdokument, du har lige har gemt, og foretag derefter ændringerne.
 
@@ -61,7 +61,7 @@ Hvis du vil ændre et rapportlayout, skal du først eksportere rapportlayoutet s
 
       Husk at gemme ændringerne, når du er færdig.
 
-4.  Vend tilbage til vinduet **Brugerdefinerede rapportlayout**, vælg det rapportlayout, som du har eksporteret og ændret, og vælg derefter handlingen **Importér layout**.  
+4.  Vend tilbage til siden **Brugerdefinerede rapportlayout**, vælg det rapportlayout, som du har eksporteret og ændret, og vælg derefter handlingen **Importér layout**.  
 
 5. I dialogboksen **Importér** skal du markere **Vælg** for at finde og vælge rapportlayoutdokumentet, og derefter skal du vælge **Åbn**.
 
@@ -71,7 +71,11 @@ Hvis du vil foretage generelle formaterings- og layoutændringer, f.eks. skifte 
 Hvis du designer et Word-rapportlayout fra bunden eller tilføjer nye datafelter, skal du starte med at tilføje en tabel med rækker og kolonner, der efterhånden indeholder datafelter.
 
 > [!TIP]  
->  Vis tabelgitterlinjer, så du kan se grænserne for tabelceller. Husk at skjule gitterlinjerne, når du er færdig med redigering. Hvis du vil vise eller skjule tabelgitterlinjer, skal du vælge tabellen og derefter vælge på **Vis gitterlinjer** under **Layout** under fanen **Tabel**.  
+>  Vis tabelgitterlinjer, så du kan se grænserne for tabelceller. Husk at skjule gitterlinjerne, når du er færdig med redigering. Hvis du vil vise eller skjule tabelgitterlinjer, skal du vælge tabellen og derefter vælge på **Vis gitterlinjer** under **Layout** under fanen **Tabel**. 
+
+### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Integrere skrifttyper i Word-layout for at skabe ensartethed 
+
+For at sikre, at rapporter altid vises og udskrives med de ønskede skrifttyper, uanset hvor brugere åbner eller udskriver rapporter, kan du integrere skrifttyperne i Word-dokumentet. Du skal dog være opmærksom på, at integrering af skrifttyper kan øge størrelsen på Word-filer. Du kan finde flere oplysninger om integrering af skrifttyper i Word i [Integrere skrifttyper i Word, PowerPoint eller Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc). 
 
 ###  <a name="RemoveField"></a> Fjernelse af navne- og datafelter i Word-layout  
  Navne- og datafelter i en rapport er indeholdt i indholdskontrolelementer i Word. Følgende figur illustrerer et indholdskontrolelement, når det er markeret i Word-dokumentet.  
@@ -90,6 +94,8 @@ Hvis du designer et Word-rapportlayout fra bunden eller tilføjer nye datafelter
 
 ### <a name="adding-data-fields"></a>Tilføje datafelter
 Tilføjelse af datafelter fra en rapports datasæt er mere avanceret og kræver kendskab til rapportdatasættet. Du kan finde oplysninger om tilføjelse af felter til data, etiketter, data og billeder i [Føje felter til et Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
+
+### 
 
 
 ## <a name="see-also"></a>Se også

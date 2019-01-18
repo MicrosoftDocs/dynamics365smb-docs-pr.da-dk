@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 511806e09f85e12c5ce17c9f65ede3baf8006f91
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ef0ae6255eab7961befa48adaafd4cead53735b8
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-electronic-documents-by-using-oioubl"></a>Oprette elektroniske dokumenter ved hjælp af OIOUBL
@@ -44,9 +44,9 @@ Når du har bogført et dokument, kan du oprette en elektronisk faktura i OIOUBL
 1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogf. salgsfakturaer**, og vælg derefter det relaterede link.  
 2.  Åbn den relevante bogførte salgsfaktura.  
 3.  Vælg handlingen **Opret elektronisk <*dokumenttype*>**.  
-4.  I vinduet **Opret elektronisk <*dokumenttype*>** kan du angive yderligere filtre og derefter vælge knappen **OK**.  
+4.  På siden **Opret elektronisk <*dokumenttype*>** kan du angive yderligere filtre og derefter vælge knappen **OK**.  
 
-En XML-fil oprettes og gemmes på den lokation, som er defineret i vinduet **Salgsopsætning**. Du kan nu sende dokumentet til kunden.  
+En XML-fil oprettes og gemmes på den lokation, som er defineret på siden **Salgsopsætning**. Du kan nu sende dokumentet til kunden.  
 
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  

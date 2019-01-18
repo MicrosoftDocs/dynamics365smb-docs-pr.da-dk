@@ -13,10 +13,10 @@ ms.search.keywords: repair, service
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: aef3d672bf01425a36bdd599e18d9ee9dac73b2d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7fa3763f50549d418b0189604c170448b70c01b9
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Definere anlægsreparation
@@ -33,10 +33,10 @@ Hvis du definerer felterne til reparation, kan du bogføre reparationsudgifter f
 Når du bogfører reparationsudgifter fra en kassekladde, skal du udfylde feltet **Reparationskode** for at registrere, hvilken slags reparation der er blevet udført, f.eks. rutineeftersyn eller reparation.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Reparation**, og vælg derefter det relaterede link.
-2. I feltet **Reparation** skal du oprette koder for de forskellige typer reparationsarbejde.
+2. På siden **Reparation** skal du oprette koder for de forskellige typer reparationsarbejde.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Sådan defineres reparationskonti
-Hvis du vil bogføre reparationsudgifter, skal du først angive et kontonummer i vinduet **Anlægsbogføringsgrupper**.
+Hvis du vil bogføre reparationsudgifter, skal du først angive et kontonummer på siden **Anlægsbogføringsgrupper**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsbogføringsgrupper**, og vælg derefter det relaterede link.
 2. Udfyld feltet **Reparationskonto** for hver enkelt bogføringsgruppe.

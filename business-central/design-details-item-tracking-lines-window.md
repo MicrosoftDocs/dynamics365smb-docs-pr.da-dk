@@ -1,5 +1,5 @@
 ---
-title: "Designoplysninger – Vinduet Varesporingslinjer | Microsoft Docs"
+title: "Designoplysninger – siden Varesporingslinjer | Microsoft Docs"
 description: "Læs om, hvordan du styrer strømmen af serienumre og lotnumre på lageret."
 services: project-madeira
 documentationcenter: 
@@ -13,24 +13,24 @@ ms.search.keywords: design, inventory, item, tracking, serial number, lot number
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9ea25a93ccee505a4575d82afc355796ab0c1915
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 48a1a5524e3fb91bf8915ee3260f41080be3ccb6
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="design-details-item-tracking-lines-window"></a>Designoplysninger: Vinduet Varesporingslinjer
-Varesporingsposter og reservationsposter oprettes i reservationssystemet, og deres tilgængelighed beregnes dynamisk. Data, der er angivet i vinduet **Varesporingslinjer**, styres i en midlertidig version af tabellen **Sporingsspecifikation**. Når vinduet lukkes, bliver de aktive data bundet til tabellen **Reservationspost**, og de historiske data bliver bundet til tabellen **Sporingsspecifikation**. Du kan finde flere oplysninger i [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  
+# <a name="design-details-item-tracking-lines-page"></a>Designoplysninger: Siden Varesporingslinjer
+Varesporingsposter og reservationsposter oprettes i reservationssystemet, og deres tilgængelighed beregnes dynamisk. Data, der er angivet på siden **Varesporingslinjer**, styres i en midlertidig version af tabellen **Sporingsspecifikation**. Når siden lukkes, bliver de aktive data bundet til tabellen **Reservationspost**, og de historiske data bliver bundet til tabellen **Sporingsspecifikation**. Du kan finde flere oplysninger i [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  
   
-Opslag fra felterne **Serienr.** og **Lotnr.** viser tilgængelighed baseret på både tabellen **Varepost** og **Reservationspost**, uden datofilter. Matrixen for mængdefelter i hovedet af vinduet **Varesporingslinjer** viser dynamiske mængder og summer for de varesporingsnumre, der er angivet på linjerne i vinduet. Mængderne skal svare til mængderne på dokumentlinjen, der er angivet med **0** i **Udefineret**-felterne i sidehovedet i vinduet.  
+Opslag fra felterne **Serienr.** og **Lotnr.** viser tilgængelighed baseret på både tabellen **Varepost** og **Reservationspost**, uden datofilter. Matrixen for mængdefelter i hovedet af siden **Varesporingslinjer** viser dynamiske mængder og summer for de varesporingsnumre, der er angivet på linjerne på siden. Mængderne skal svare til mængderne på dokumentlinjen, der er angivet med **0** i **Udefineret**-felterne i sidehovedet på siden.  
   
-For at koordinere flowet af serie- og lotnumre i lageret findes følgende regler for indtastning af data i vinduet **Varesporingslinjer**:  
+For at koordinere flowet af serie- og lotnumre i lageret findes følgende regler for indtastning af data på siden **Varesporingslinjer**:  
   
-* For hverken indgående eller udgående varesporingslinjer kan du angive et serienummer, med eller uden et lotnummer, flere gange i den samme forekomst af vinduet **Varesporingslinjer**. Hvis du forsøger at indtaste en vilkårlig kombination af serie- eller lotnumre, der allerede er til stede i vinduet, blokerer en fejlmeddelelse dataindtastningen.  
-* For indgående varesporingslinjer kan du ikke bogføre det relaterede dokument, hvis en vare af samme variant og med samme serienummer allerede findes på lageret. Hvis du forsøger at bogføre en positiv linje for en lagervare med samme variant og serienummer, blokerer en fejlmeddelelse bogføringen. For både indgående og udgående varesporingslinjer i åbne dokumenter, kan du dog have den samme kombination af serie- eller lotnumre, der vedrører forskellige kildedokumentlinjer, det vil sige, at den findes i forskellige forekomster af vinduet **Varesporingslinjer**, indtil det relaterede dokument bogføres.  
+* For hverken indgående eller udgående varesporingslinjer kan du angive et serienummer, med eller uden et lotnummer, flere gange i den samme forekomst af siden **Varesporingslinjer**. Hvis du forsøger at indtaste en vilkårlig kombination af serie- eller lotnumre, der allerede er til stede på siden, blokerer en fejlmeddelelse dataindtastningen.  
+* For indgående varesporingslinjer kan du ikke bogføre det relaterede dokument, hvis en vare af samme variant og med samme serienummer allerede findes på lageret. Hvis du forsøger at bogføre en positiv linje for en lagervare med samme variant og serienummer, blokerer en fejlmeddelelse bogføringen. For både indgående og udgående varesporingslinjer i åbne dokumenter, kan du dog have den samme kombination af serie- eller lotnumre, der vedrører forskellige kildedokumentlinjer, det vil sige, at den findes i forskellige forekomster af siden **Varesporingslinjer**, indtil det relaterede dokument bogføres.  
 * Hvis varen er indstillet til serienummerspecifik sporing eller lotnummerspecifik sporing, kan du ikke bogføre en udgående dokumentlinje, medmindre en vare med defineret serie- eller lotnummer findes på lageret. Hvis du forsøger at bogføre en udgående dokumentlinje for en lagervare med et serielotnummer, der ikke er i lageret, blokerer en fejlmeddelelse bogføringen.  
   
-Regler for indtastning af data i vinduet **Varesporingslinjer** understøtter også de sammensætningsprincipper, der styrer ordresporing, planlægning og reservation. Du kan finde flere oplysninger i [Designoplysninger: Varesporing og planlægning](design-details-item-tracking-and-planning.md).  
+Regler for indtastning af data på siden **Varesporingslinjer** understøtter også de sammensætningsprincipper, der styrer ordresporing, planlægning og reservation. Du kan finde flere oplysninger i [Designoplysninger: Varesporing og planlægning](design-details-item-tracking-and-planning.md).  
   
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)

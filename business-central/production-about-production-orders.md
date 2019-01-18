@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7172c271d2bd25d79294a637dec83a8a0fb834dc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-production-orders"></a>Om produktionsordrer
@@ -40,7 +40,7 @@ Produktionsordrer er udgangspunktet for:
 -   Sporing af afsluttet produktion  
 
 ## <a name="production-order-creation"></a>Oprette produktionsordrer  
-Produktionsordrer kan oprettes manuelt på ordre til ordre-basis fra vinduet **Produktionsordre**, eller genereres fra vinduerne **Salgsordreplanlægning** eller **Ordreplanlægning**. Der oprettes flere ordrer fra vinduet **Planlægningskladde**.  
+Produktionsordrer kan oprettes manuelt på ordre til ordre-basis fra siden **Produktionsordre**, eller genereres fra siderne **Salgsordreplanlægning** eller **Ordreplanlægning**. Der oprettes flere ordrer fra siden **Planlægningskladde**.  
 
 Produktionsordrer oprettes med udgangspunkt i oplysninger fra:  
 
@@ -54,8 +54,8 @@ Produktionsordrer oprettes med udgangspunkt i oplysninger fra:
 Produktionsordrer reserveres automatisk og spores til kilden, når:  
 
 -   De oprettes i **Planlægningskladde**  
--   De oprettes med ordrefunktionen i vinduet **Salgsordreplanlægning**  
--   De oprettes i vinduet **Ordreplanlægning**  
+-   De oprettes med ordrefunktionen på sien **Salgsordreplanlægning**  
+-   De oprettes på siden **Ordreplanlægning**  
 -   Funktionen **Omplanlæg** bruges på produktionsordrer  
 
 Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md).
@@ -63,7 +63,7 @@ Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](pr
 Produktionsordrer, der oprettes på anden måde, reserveres og spores ikke automatisk.   
 
 ## <a name="production-order-status"></a>Produktionsordrestatus  
-Produktionsordrestatus kontrollerer produktionsordrens vej gennem processen. Produktionens form og indhold dikteres af ordrens status. Produktionsordrerne vises i forskellige vinduer afhængigt af deres status. Du kan ikke ændre en produktionsordres status manuelt, men kun bruge funktionen **Skift status**.  
+Produktionsordrestatus kontrollerer produktionsordrens vej gennem processen. Produktionens form og indhold dikteres af ordrens status. Produktionsordrer vises i forskellige sider i henhold til deres status. Du kan ikke ændre en produktionsordres status manuelt, men kun bruge funktionen **Skift status**.  
 
 ### <a name="simulated-production-order"></a>Simuleret produktionsordre  
 En simuleret produktionsordre kendetegnes ved følgende:  

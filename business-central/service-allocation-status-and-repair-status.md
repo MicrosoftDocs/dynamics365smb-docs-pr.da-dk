@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Allokeringsstatus og reparationsstatus for serviceartikler
-Der er en særlig relation mellem serviceartiklernes reparationsstatus og allokeringsposternes allokeringsstatus for serviceartiklerne i Service. Allokeringsstatus ændres, når du ændrer reparationsstatus for serviceartiklen til **Udført** eller **Delvist repareret**, og når du konverterer et servicetilbud til en serviceordre. Reparationsstatus for serviceartiklen ændres, når du annullerer serviceartikelallokeringen eller genallokerer serviceartiklen til en anden ressource. Du kan få vist reparationsstatus for serviceartiklerne i vinduet **Serviceopgaver**, og du kan opdatere reparationsstatussen i feltet **Reparationsstatuskode** i vinduet **Serviceartikelkladde**. Du kan få vist allokeringsstatus i feltet **Status** i vinduet **Ressourceallokeringer**.  
+Der er en særlig relation mellem serviceartiklernes reparationsstatus og allokeringsposternes allokeringsstatus for serviceartiklerne i Service. Allokeringsstatus ændres, når du ændrer reparationsstatus for serviceartiklen til **Udført** eller **Delvist repareret**, og når du konverterer et servicetilbud til en serviceordre. Reparationsstatus for serviceartiklen ændres, når du annullerer serviceartikelallokeringen eller genallokerer serviceartiklen til en anden ressource. Du kan få vist reparationsstatus for serviceartiklerne på siden **Serviceopgaver**, og du kan opdatere reparationsstatussen i feltet **Reparationsstatuskode** på siden **Serviceartikelkladde**. Du kan få vist allokeringsstatus i feltet **Status** på siden **Ressourceallokeringer**.  
   
 ## <a name="changing-repair-status"></a>Ændre reparationsstatus  
 Når du ændrer reparationsstatus for en serviceartikel på en serviceartikellinje, søges der automatisk efter en tilsvarende allokeringspost for serviceartiklen, som har status **Aktiv**. Hvis der bliver fundet en sådan allokeringspost, opdateres dens status på en af følgende måder:  
   
 * Hvis du ændrer reparationsstatus til **Udført**, ændres allokeringsstatus automatisk fra **Aktiv** til **Udført**.  
 * Hvis du ændrer reparationsstatus til **Delvist repareret**, dvs. at en del af reparationen er udført, eller **Henvist**, dvs. at der er ikke lavet nogen reparation, ændres allokeringsstatus fra **Aktiv** til **Genallokering nødvendig**.  
-* Når der er oprettet en serviceordreallokeringspost, der angiver, at der ikke er allokeret ressourcer, angives feltet **Status** i vinduet **Ressourceallokering** til **Inaktiv**.  
+* Når der er oprettet en serviceordreallokeringspost, der angiver, at der ikke er allokeret ressourcer, angives feltet **Status** på siden **Ressourceallokering** til **Inaktiv**.  
 * Allokeringsstatus indstilles til **Annulleret**, når du igen allokerer den henviste serviceartikel i serviceordreallokeringsposten, hvilket angiver, at den allokerede ressource eller ressourcegruppe ikke har forsøgt at udføre serviceopgaven.  
   
 Allokeringsstatus viser, hvornår reparationsprocessen er afsluttet, eller hvornår det er nødvendigt, at en anden ressource gør reparationen af serviceartiklen færdig.  

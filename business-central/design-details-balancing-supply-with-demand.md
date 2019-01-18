@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Designoplysninger: Afstemning af forsyning med behov
@@ -59,7 +59,7 @@ Alle forsyninger har generelt en planlægningsfleksibilitet, som er begrænset a
 
     -   Det repræsenterer lager (altid på dag nul).  
     -   Den har en ordre-til-ordre, der er knyttet til et andet behov.  
-    -   Det ligger uden for den omplanlægningsramme, der er defineret i intervallet.  
+    -   Det ligger uden for den omplanlægningsside, der er defineret i intervallet.  
     -   Der er en forsyning tættere på, der kan anvendes.  
     -   På den anden side kan brugeren beslutte at omplanlægge, fordi:  
     -   Forsyningsordren er allerede knyttet til et andet behov på en tidligere dato.  
@@ -68,7 +68,7 @@ Alle forsyninger har generelt en planlægningsfleksibilitet, som er begrænset a
 -   **Omplanlæg ind**: Datoen for en eksisterende forsyningsordre, der kan planlægges, undtagen under følgende betingelser:  
 
     -   Det er knyttet direkte til et andet behov.  
-    -   Det ligger uden for den omplanlægningsramme, der er defineret i intervallet.  
+    -   Det ligger uden for den omplanlægningsside, der er defineret i intervallet.  
 
 > [!NOTE]  
 >  Ved planlægning af en vare ved hjælp af et genbestillingspunkt kan forsyningsordrer altid planlægges med, hvis der er behov for det. Det er almindeligt i forbindelse med forsyningsordrer, der er planlagt fremad, og som er udløst af et genbestillingspunkt.  

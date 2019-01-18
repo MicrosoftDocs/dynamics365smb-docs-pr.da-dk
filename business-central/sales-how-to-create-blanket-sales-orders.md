@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbejde med rammesalgsordrer
@@ -42,7 +42,7 @@ Det kan f.eks. være relevant at bruge en rammesalgsordre, når en kunder ringer
 2.  Når du er klar til at oprette ordrer, skal du vælge handlingen **Lav ordre** og derefter vælge **Ja**. Der vises en meddelelse med besked om, at rammeordren har fået tildelt et ordrenummer. Bemærk, at rammeordren ikke er slettet.  
 3.  Vælg knappen **OK**.  
 4.  Hvis du vil se resultatet af de foregående trin, skal du vælge handlingen **Linje**, vælge handlingen **Ikkebogførte linjer** og derefter vælge handlingen **Ordrer**.  
-5.  Markér den relevante salgsordre i vinduet **Salgslinjer**, vælg handlingen **Linje** og derefter vælge handlingen **Vis dokument**.  
+5.  Markér den relevante salgsordre på siden **Salgslinjer**, vælg handlingen **Linje** og derefter vælge handlingen **Vis dokument**.  
 
 Følgende gælder for salgsordrer, når de er oprettet ud fra rammesalgsordrer:  
 
@@ -53,14 +53,14 @@ Følgende gælder for salgsordrer, når de er oprettet ud fra rammesalgsordrer:
 - Hvis salgsordrerne ikke oprettes direkte fra rammeordren, men stadig har forbindelse til den, kan du oprette en forbindelse mellem en salgsordre og en rammeordre ved at angive det tilhørende rammeordrenummer i feltet **Rammeordrenr.** på salgsordrelinjen.  
 - Når salgsordren er oprettet på hele antallet på en rammeordrelinje, kan en anden salgsordre ikke oprettes for den samme linje. Brugere kan ikke indtaste et antal i feltet **Lever antal**. Men hvis det er nødvendigt at føje flere enheder til en rammeordre, kan værdien i feltet **Antal** øges, hvorefter der kan oprettes flere ordrer.  
 - Den fakturerede rammesalgsordre bliver liggende i systemet, indtil den slettes, enten ved sletning af bestemte rammesalgsordrer eller ved at køre kørslen **Slet fakturerede rammesalgsordrer**.  
-- Hvis en kunde også er registreret som kontakt i modulet Marketing, og du har angivet en interaktionsskabelonkode for rammesalgsordrer i vinduet **Marketingopsætning**, registreres der en interaktion i tabellen Interaktionslogpost, når du vælger **Udskriv** for at udskrive rammesalgsordrerne.
+- Hvis en kunde også er registreret som kontakt i modulet Marketing, og du har angivet en interaktionsskabelonkode for rammesalgsordrer på siden **Marketingopsætning**, registreres der en interaktion i tabellen Interaktionslogpost, når du vælger **Udskriv** for at udskrive rammesalgsordrerne.
 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Sådan får du vist status på en rammekøbsordre  
-Du kan se den aktuelle status for en rammesalgsordre i vinduet **Købsordrestatistik**. Dette kan være relevant, når du begynder at fakturere den ordre, der er oprettet fra rammekøbsordren.  
+Du kan se den aktuelle status for en rammesalgsordre på siden **Købsordrestatistik**. Dette kan være relevant, når du begynder at fakturere den ordre, der er oprettet fra rammekøbsordren.  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammekøbsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg en rammekøbsordre, og vælg derefter handlingen **Statistik**.  
-3.  I oversigtspanelet **Generelt** i vinduet **Rammekøbsordrestatistik** kan du se en oversigt med oplysninger om hele ordren baseret på den samlede mængde i felterne **Antal** på rammekøbsordrelinjerne.  
+3.  I oversigtspanelet **Generelt** på siden **rammekøbsordrestatistik** kan du se en oversigt med oplysninger om hele ordren baseret på den samlede mængde i felterne **Antal** på rammekøbsordrelinjerne.  
 
     - I oversigtspanelet **Fakturering** kan du se en oversigt med oplysninger om hele ordren baseret på den samlede mængde i felterne **Antal** på fakturarammeordrelinjerne.  
     - I oversigtspanelet **Afsendelse** kan du se en oversigt med oplysninger baseret på den samlede mængde i felterne **Antal** der skal modtages på rammekøbsordrelinjerne.  
@@ -120,7 +120,7 @@ Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert
     <td>Bogførte kreditnotaer med tilknytning til den valgte linje.</td>
     </tr>
     </table>
-5. I vinduet **Salgslinjer** skal du vælge handlingen **Vis dokument** for at få vist posten.
+5. På siden **Salgslinjer** skal du vælge handlingen **Vis dokument** for at få vist posten.
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

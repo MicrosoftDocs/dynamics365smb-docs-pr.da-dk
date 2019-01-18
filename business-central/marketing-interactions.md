@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Administration af interaktioner med kontakter
@@ -30,7 +30,7 @@ I relationsstyringsområdet kan du registrere alle de interaktioner, du har med 
 
 ##  <a name="setting-up-interaction-templates"></a>Konfiguration af interaktionsskabeloner
 Du skal konfigurere interaktionsskabeloner, før du kan oprette og registrere interaktioner. Når du skal oprette interaktioner, skal du angive de skabeloner, som interaktionerne er baseret på. En interaktionsskabelon en model, der definerer grundlæggende karakteristika for en interaktion.
-Du konfigurerer en interaktionsskabelon i vinduet **Interaktionsskabeloner**.
+Du konfigurerer en interaktionsskabelon på siden **Interaktionsskabeloner**.
 
 Når du er færdig med at indtaste oplysninger om interaktionsskabelonen, kan du oprette en vedhæftet fil, f.eks. et Microsoft Word-dokument. Gentag trinnene for hver interaktionsskabelon, du vil oprette.  
 
@@ -41,13 +41,13 @@ Interaktioner kan registreres på to måder:
 * Du kan automatisk registrere interaktioner, når du udfører handlinger i programmet, f.eks. når du udskriver en faktura eller et tilbud. Du kan finde flere oplysninger i [Automatisk registrere interaktioner med kontakter](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Visning og administration af registrerede interaktioner
-Brug vinduet **Interaktionslogposter** til at se alle de registrerede interaktioner, som ikke er blevet slettet. Du kan åbne vinduet ved at:
+Brug siden **Interaktionslogposter** til at se alle de registrerede interaktioner, som ikke er blevet slettet. Du kan åbne siden ved at:
 
 * Bruge ikonet **Søg efter side eller rapport** til at søge på **Interaktionslogposter**.
 * Vælge handlingen **Interaktionslogposter** i en kontakt eller en målgruppe.
-  Vinduet **Interaktionslogpost** indeholder både de interaktioner, du opretter manuelt, og dem, som registreres automatisk af programmet.
+  Siden **Interaktionslogpost** indeholder både de interaktioner, du opretter manuelt, og dem, som registreres automatisk af programmet.
 
-I dette vindue kan du:
+På denne side kan du:
 
 * Få vist status for interaktioner.
 * Markere interaktioner som annulleret.

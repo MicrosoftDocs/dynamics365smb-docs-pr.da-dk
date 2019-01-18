@@ -12,19 +12,19 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 09866f6774af5b2d9644015e986772052146d901
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9391da5eb5fb06bfcaaf8ee2503f694801888d2f
 ms.contentlocale: da-dk
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-employee-absence"></a>Administrere medarbejderfravær
-Hvis du vil administrere en medarbejders fravær, skal du registrere fraværet i vinduet **Fraværsregistrering**. Det kan derefter vises på forskellige måder i forbindelse med analyse og rapportering.
+Hvis du vil administrere en medarbejders fravær, skal du registrere fraværet på siden **Fraværsregistrering**. Det kan derefter vises på forskellige måder i forbindelse med analyse og rapportering.
 
-Du kan få vist medarbejderfravær i to forskellige vinduer:
+Du kan få vist medarbejderfravær på to forskellige sider:
 
-* I vinduet **Fraværsregistrering** registreres alt medarbejderfravær med en linje for hvert fravær.
-* I vinduet **Employee Absences** vises kun fravær for én medarbejder. Det er disse oplysninger, du har angivet i vinduet **Fraværsregistrering**, og de er her filtreret efter den enkelte medarbejder.
+* På siden **Fraværsregistrering** registreres alt medarbejderfravær med en linje for hvert fravær.
+* På siden **Medarbejderfravær** vises kun fravær for én medarbejder. Det er disse oplysninger, du har angivet på siden **Fraværsregistrering**, og de er her filtreret efter den enkelte medarbejder.
 
 For at statistikkerne kan bruges, skal der altid bruges de samme måleenheder (timer eller dage) ved registrering af medarbejderfravær.
 
@@ -34,7 +34,7 @@ Du kan registrere medarbejderfravær dagligt eller med andre intervaller, der op
 1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport**, angive **Fraværsregistrering** og derefter vælge det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld en linje for hvert medarbejderfravær, du vil registrere.
-4. Luk vinduet.
+4. Luk siden.
 
     > [!Tip]
     > Du skal sikre dig brugbare statistikker ved altid at bruge samme måleenhed, time eller dag, når du registrerer medarbejderfravær.
@@ -43,30 +43,30 @@ Du kan registrere medarbejderfravær dagligt eller med andre intervaller, der op
 1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport**, angive **Medarbejdere** og derefter vælge det relaterede link.
 2. Markér den relevante medarbejder, og vælg derefter handlingen **Fravær**.
 
-    Vinduet **Medarbejderfravær** åbnes og viser alt fravær med start- og slutdato for fraværet.
+    Siden **Medarbejderfravær** åbnes og viser alt fravær med start- og slutdato for fraværet.
 
 ## <a name="to-view-an-employees-absence-by-categories"></a>Sådan får du vist en medarbejders fravær pr. kategori
 1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport**, angive **Medarbejdere** og derefter vælge det relaterede link.
 2. Markér den relevante medarbejder, og vælg derefter handlingen **Fravær pr. kategori**.
-3. I vinduet **Medarbejderfravær pr. kategori** skal du udfylde filterfelterne efter behov, og derefter vælg handlingen **Vis Matrix**.
+3. På siden **Medarbejderfravær pr. kategori** skal du udfylde filterfelterne efter behov, og derefter vælg handlingen **Vis Matrix**.
 
-    Vinduet **Medarbejderfravær pr. kategori** åbnes og viser alle fravær, opdelt efter fraværsårsag.
+    Siden **Medarbejderfravær pr. kategori** åbnes og viser alle fravær, opdelt efter fraværsårsag.
 
 ## <a name="to-view-all-employee-absences-by-category"></a>Sådan vises alle medarbejderfravær pr. kategori
 1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport**, angive **Fraværsregistrering** og derefter vælge det relaterede link.
-2. I vinduet **Fraværsregistrering** skal du vælge handlingen **Oversigt pr. kategori**.
-3. I vinduet **Fraværsoversigt pr. kategori** skal du oprette et filter i feltet **Medarbejdernr.filter** for at få vist medarbejderfraværet for en enkelt medarbejder eller en udvalgt gruppe af medarbejdere.
+2. På siden **Fraværsregistrering** skal du vælge handlingen **Oversigt pr. kategori**.
+3. På siden **Fraværsoversigt pr. kategori** skal du oprette et filter i feltet **Medarbejdernr.filter** for at få vist medarbejderfraværet for en enkelt medarbejder eller en udvalgt gruppe af medarbejdere.
 4. Vælg handlingen **Vis matrix**.
 
-    Vinduet **Fraværsoversigt pr. kategori** åbnes og viser alle medarbejdernes fravær opdelt efter forskellige fraværsårsager.
+    Siden **Fraværsoversigt pr. kategori** åbnes og viser alle medarbejdernes fravær opdelt efter forskellige fraværsårsager.
 
 ## <a name="to-view-all-employee-absences-by-period"></a>Sådan vises alle medarbejderfravær pr. periode
 1. I øverste højre hjørne skal du vælge ikonet **Søg efter side eller rapport**, angive **Fraværsregistrering** og derefter vælge det relaterede link.
-   I vinduet **Fraværsregistrering** skal du vælge handlingen **Oversigt pr. periode**.
-2. I vinduet **Fraværsoversigt pr. periode** skal du vælge et filter i feltet **Fraværsårsagsfilter** for at få vist medarbejderfravær, der har bestemte årsager.
+   På siden **Fraværsregistrering** skal du vælge handlingen **Oversigt pr. periode**.
+2. På siden **Fraværsoversigt pr. periode** skal du vælge et filter i feltet **Fraværsårsagsfilter** for at få vist medarbejderfravær, der har bestemte årsager.
 3. Vælg handlingen **Vis matrix**.
 
-    Vinduet **Fraværsoversigt pr. periode** åbnes og viser alle medarbejdernes fravær opdelt efter periode.
+    Siden **Fraværsoversigt pr. periode** åbnes og viser alle medarbejdernes fravær opdelt efter periode.
 
 ## <a name="see-also"></a>Se også
 [Administrere personale](hr-manage-human-resources.md)  

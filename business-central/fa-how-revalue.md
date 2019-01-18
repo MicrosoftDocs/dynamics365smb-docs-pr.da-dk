@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ddd5ac6a8252b066700b8fd0058f7f772e4fd01b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d73403090cc2b24f232fc1e5eaae1c7bd6417517
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="revalue-fixed-assets"></a>Omvurdere anlægsaktiver
@@ -34,7 +34,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af opskrivning.
 
     > [!NOTE]  
-    >   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Opskrivningskonto** finansdebetkontoen og feltet **Opskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
+    >   Trin 4 fungerer kun, hvis du har angivet følgende: På siden **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Opskrivningskonto** finansdebetkontoen og feltet **Opskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Sådan bogføres en nedskrivning fra anlægskassekladden
@@ -44,17 +44,17 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af nedskrivning.
 
     > [!NOTE]  
-    >   Trin 4 fungerer kun, hvis du har angivet følgende: I vinduet **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Nedskrivningskonto** finansdebetkontoen og feltet **Nedskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for nedskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
+    >   Trin 4 fungerer kun, hvis du har angivet følgende: På siden **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Nedskrivningskonto** finansdebetkontoen og feltet **Nedskrivningsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for nedskrivning. Du kan finde flere oplysninger i afsnittet "Sådan oprettes anlægsbogføringsgrupper" i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Sådan udføres generel værdiregulering af anlægsaktiver
-Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge generelle prisændringer. Kørslen **Indeksér anlæg** kan bruges til at ændre forskellige beløb, f.eks. nedskrivnings- og opskrivningsbeløb. Afkrydsningsfeltet **Tillad indeksering** i vinduet **Afskrivningsprofil** skal være markeret.
+Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge generelle prisændringer. Kørslen **Indeksér anlæg** kan bruges til at ændre forskellige beløb, f.eks. nedskrivnings- og opskrivningsbeløb. Afkrydsningsfeltet **Tillad indeksering** på siden **Afskrivningsprofil** skal være markeret.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indekser anlæg**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 3. Vælg knappen **OK**.
 
-    Der oprettes værdireguleringslinjer ud fra dine indstillinger i trin 2. Linjerne er oprettet i anlægskladden eller anlægskassekladden, afhængigt af skabelonen og kørselsopsætningen i vinduet **Anlægskladdeopsætning**. Du kan finde flere oplysninger i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
+    Der oprettes værdireguleringslinjer ud fra dine indstillinger i trin 2. Linjerne er oprettet i anlægskladden eller anlægskassekladden, afhængigt af skabelonen og kørselsopsætningen på siden **Anlægskladdeopsætning**. Du kan finde flere oplysninger i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
 4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 5. Vælg kladden med de anlægsaktiver, du vil regulere værdien for, og vælg derefter handlingen **Poster**.  
 6. Kontroller de oprettede poster, og vælg derefter handlingen **Bogfør** for at bogføre kladden.

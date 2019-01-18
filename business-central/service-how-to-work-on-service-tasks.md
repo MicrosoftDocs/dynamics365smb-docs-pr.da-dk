@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 70dcfb8ccd24f7b429a6e8755ec9e22cc59e4e5a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 973bc19e9d6e2efd28c56b0db70e4f53148f636e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-on-service-tasks"></a>Arbejde med serviceopgaver
 Når du har oprettet en serviceordre eller et servicetilbud, registreret serviceartikellinjer og allokeret ressourcer til serviceartiklerne i ordren eller tilbuddet, kan du begynde at reparere og vedligeholde serviceartiklerne.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder vinduet **Serviceopgaver**, der giver et overblik over alle de serviceartikler, der skal behandles. Du betragte dette vindue som dit servicedashboard, hvor du kan se, hvilke ordrer der venter, søge efter og registrere reservedele og holde lageret opdateret.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder siden **Serviceopgaver**, der giver et overblik over alle de serviceartikler, der skal behandles. Du betragte dette vindue som dit servicedashboard, hvor du kan se, hvilke ordrer der venter, søge efter og registrere reservedele og holde lageret opdateret.  
 
 Hvis du vil spore ændringer og have vist grafiske oversigter over serviceaktiviteterne, kan du bruge statistikværktøjerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] til hurtigt at opstille automatisk genererede diagrammer og analyser.  
 
@@ -31,7 +31,7 @@ Hvis du vil spore ændringer og have vist grafiske oversigter over serviceaktivi
 2. Hvis du vil se en liste over serviceopgaver, som en bestemt ressource eller ressourcegruppe er allokeret til, skal du udfylde feltet **Ressourcefilter** eller feltet **Ressourcegruppefilter** og trykke på Enter.  
 3. Hvis du vil have vist en liste over serviceopgaver, der har en eller flere bestemte svardatoer inden for en bestemt periode, skal du udfylde feltet **Svardatofilter** og trykke på Enter.  
 4. Hvis du vil se en liste over serviceopgaver med en bestemt allokeringsstatus eller reparationsstatus, skal du udfylde feltet **Allokeringsstatusfilter** eller feltet **Reparationsstatuskodefilter** og trykke på Enter.  
-5. Markér navnet på den serviceopgave, du vil arbejde på. Vælg **Serviceartikelkld.** i gruppen **Serviceopgaver** under fanen **Naviger**. Vinduet **Serviceartikelkladde** åbnes.  
+5. Markér navnet på den serviceopgave, du vil arbejde på. Vælg **Serviceartikelkld.** i gruppen **Serviceopgaver** under fanen **Naviger**. Siden **Serviceartikelkladde** åbnes.  
 6. Registrer standardtekster, reservedele, ressourcetimer og omkostninger ved hjælp af de tilsvarende indstillinger i feltet **Type**: <Blank>, **Vare**, **Ressource** og **Omkostning**.  
 7. Vælg den relevante status i feltet **Reparationsstatus**.  
 
@@ -39,7 +39,7 @@ Hvis du vil spore ændringer og have vist grafiske oversigter over serviceaktivi
    >  Udfyld feltet **Reparationsstatus** med statussen **Færdig** eller **Delvist repareret**, afhængigt af om serviceartiklen er færdigrepareret, eller en anden ressource fortsætter reparationen. Statussen **Færdig** eller **Genallokering nødvendig** angives automatisk for den allokeringspost, der svarer til serviceartiklen.  
 
 ## <a name="to-register-service-operations"></a>Sådan registreres servicehandlinger  
-Når der udføres service på en serviceordre, kan du registrere detaljerne ved at angive de varer, der er anvendt, de omkostninger, der er påløbet, og den tid, der er medgået. De data, du angiver gemmes i vinduet **Serviceartikelkladde**. Du kan opdatere dataene efter behov.
+Når der udføres service på en serviceordre, kan du registrere detaljerne ved at angive de varer, der er anvendt, de omkostninger, der er påløbet, og den tid, der er medgået. De data, du angiver gemmes på siden **Serviceartikelkladde**. Du kan opdatere dataene efter behov.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Åbn serviceordren, du vil registrere service for, og vælg varelinjen.  
@@ -50,7 +50,7 @@ Når der udføres service på en serviceordre, kan du registrere detaljerne ved 
    >  Du kan også registrere service direkte på de servicelinjer, der er knyttet til serviceordren.  
 
 ## <a name="to-register-spare-parts"></a>Registrere reservedele  
-Når du arbejder på serviceartikler i serviceordrer, kan du få brug for reservedele til reparation. Følgende fremgangsmåde viser, hvordan de anvendte reservedele skal registreres i vinduet **Serviceartikelkladde**.  
+Når du arbejder på serviceartikler i serviceordrer, kan du få brug for reservedele til reparation. Følgende fremgangsmåde viser, hvordan de anvendte reservedele skal registreres på siden **Serviceartikelkladde**.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceopgaver**, og vælg derefter det relaterede link.
 2. Vælg den linje, der indeholder den relevante serviceartikel, og vælg derefter handlingen **Artikelkladde**.  
@@ -59,7 +59,7 @@ Når du arbejder på serviceartikler i serviceordrer, kan du få brug for reserv
 5. I feltet **Nummer** skal du vælge den relevante reservedel.  
 6. Angiv, hvor det nødvendige antal varer i feltet **Antal**.  
 
- Du kan bruge en tilsvarende fremgangsmåde til at registrere reservedelene i vinduet **Servicelinjer**, som du kan åbne fra vinduet **Serviceordre**  
+ Du kan bruge en tilsvarende fremgangsmåde til at registrere reservedelene på siden **Servicelinjer**, som du kan åbne fra siden **Serviceordre**.  
 
 ## <a name="to-register-spare-parts-from-a-service-order"></a>Sådan registreres reservedele fra en serviceordre  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
@@ -94,16 +94,16 @@ Når du registrerer en serviceartikellinje i en serviceordre eller et tilbud, an
 3. På den serviceartikellinje, du vil ændre svartiden for, skal du skrive de nye svartider eller svardatoen og -tidspunktet i feltet **Svartid (timer)** eller i felterne **Svardato** og **Svartidspunkt**.  
 
 ## <a name="to-register-faultresolution-codes"></a>Sådan registreres fejl/løsningskoder  
-Når du har repareret en serviceartikel, kan du registrere både fejlkoden og løsningskoden for varen ved at vælge en kombination fra de eksisterende fejl/løsningskoderelationer. Fejl- og løsningskoderne vises i de tilsvarende felter i vinduet **Serviceartikelkladde**. Du kan også registrere koderne direkte i dette vindue.  
+Når du har repareret en serviceartikel, kan du registrere både fejlkoden og løsningskoden for varen ved at vælge en kombination fra de eksisterende fejl/løsningskoderelationer. Fejl- og løsningskoderne vises i de tilsvarende felter på siden **Serviceartikelkladde**. Du kan også registrere koderne direkte på denne side.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceopgaver**, og vælg derefter det relaterede link.
 2. Vælg den linje, der indeholder den relevante serviceartikel, og vælg derefter handlingen **Artikelkladde**.  
-3. I vinduet **Serviceartikelkladde** skal du vælge **Fejl/løsn.koderelationer**. Vinduet **Fejl/løsn.koderelationer** åbner.  
+3. På siden **Serviceartikelkladde** skal du vælge **Fejl/løsn.koderelationer**. Siden **Fejl/løsn.koderelationer** åbner.  
 
   >  [!Note]
-  >  Der sættes automatisk filtre på de relationer, der vises i vinduet, fordi serviceartikelgruppen og fejlkoderne kopieres fra vinduet **Serviceartikelkladde**.  
+  >  Der sættes automatisk filtre på de relationer, der vises på siden, fordi serviceartikelgruppen og fejlkoderne kopieres fra siden **Serviceartikelkladde**.  
 
-4. Udfyld linjen. Vælg kombinationen af fejl- og løsningskoder, og vælg derefter **OK** for at kopiere den til serviceartiklen. Hvis der ikke kan findes en passende kombination, kan du oprette en ny kombination i vinduet.  
+4. Udfyld linjen. Vælg kombinationen af fejl- og løsningskoder, og vælg derefter **OK** for at kopiere den til serviceartiklen. Hvis der ikke kan findes en passende kombination, kan du oprette en ny kombination på siden.  
 
 ## <a name="see-also"></a>Se også  
 [Definere fejlrapportering](service-how-setup-fault-reporting.md)

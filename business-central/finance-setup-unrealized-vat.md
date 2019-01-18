@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e505f1942aba554bfa83a0fb81ace0db209b102
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1a460bed4be049ddd1eff7c33ae43c70e65ab403
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,11 +26,10 @@ Du kan vælge, at momsbeløb beregnes og bogføres til en midlertidig finanskont
 
 Når du vil bruge konti for urealiseret moms, skal du gøre følgende:
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Opsætning af Finans**.
-2. I vinduet **Opsætning af Finans** i oversigtspanelet **Generelt** skal du vælge **Vis mere** og derefter markere afkrydsningsfeltet **Urealiseret moms**.
-3. Luk siden.
-4. Vælg ikonet **Søg efter side eller rapport** ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Opsætning af momsbogføring**.
-5. I vinduet **Opsætning af momsbogføring** skal du vælge momsbogføringsgruppen og derefter vælge **Rediger**.
-6. I feltet **Urealiseret moms - type** skal du vælge en indstilling for at angive, hvordan betalinger skal tildeles til fakturabeløbet (uden moms) og selve momsbeløbet, og hvordan momsbeløb skal overføres fra den urealiserede momskonto til den realiserede momskonto. Følgende tabel beskriver indstillingerne.
+2. I oversigtspanelet **Opsætning af Finans** skal du markere afkrydsningsfeltet **Urealiseret moms**.
+3. Vælg ikonet **Søg efter side eller rapport** ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Opsætning af momsbogføring**.
+4. På siden **Opsætning af momsbogføring** skal du vælge momsbogføringsgruppen og derefter vælge handlingen **Rediger**.
+5. I feltet **Urealiseret moms - type** skal du vælge en indstilling for at angive, hvordan betalinger skal tildeles til fakturabeløbet (uden moms) og selve momsbeløbet, og hvordan momsbeløb skal overføres fra den urealiserede momskonto til den realiserede momskonto. Følgende tabel beskriver indstillingerne.
 
 | Indstilling | Beskrivelse |
 | --- | --- |

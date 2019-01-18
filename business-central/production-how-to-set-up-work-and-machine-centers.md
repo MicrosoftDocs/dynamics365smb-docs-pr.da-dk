@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c6e661d36363a35248785a9f97620b2ca7ccf177
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbejdscentre og produktionsressourcer
@@ -85,7 +85,7 @@ Du skal oprette produktionsressourcer, som du betragter som kritiske, og udpege 
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke detaljeret produktionskontrol. Det planlægger en mulig udnyttelse af ressourcer ved at tilbyde en grov plan, men det opretter og vedligeholder ikke automatisk detaljerede planer, der er baseret på prioriteter eller optimeringsregler.
 
-I vinduet **Kapacitetsbegrænsede ressourcer** kan du foretage en opsætning, der undgår overbelastning af bestemte ressourcer og sikrer, at ingen kapacitet er ikke-allokeret, hvis det kan forbedre gennemløbstiden for en produktionsordre. I feltet **Aktionsgrænse (% af den samlede kapacitet)** kan du tilføje aktionsgrænsetid for ressourcer for at begrænse tab på opdeling af operationer. Dette gør det muligt for systemet at planlægge belastning på den sidst mulige dag ved at overskride den kritiske belastningsprocent en smule, hvis dette kan reducere antallet af operationer, der er opdelt.
+På siden **Kapacitetsbegrænsede ressourcer** kan du foretage en opsætning, der undgår overbelastning af bestemte ressourcer og sikrer, at ingen kapacitet er ikke-allokeret, hvis det kan forbedre gennemløbstiden for en produktionsordre. I feltet **Aktionsgrænse (% af den samlede kapacitet)** kan du tilføje aktionsgrænsetid for ressourcer for at begrænse tab på opdeling af operationer. Dette gør det muligt for systemet at planlægge belastning på den sidst mulige dag ved at overskride den kritiske belastningsprocent en smule, hvis dette kan reducere antallet af operationer, der er opdelt.
 
 Ved planlægning med kapacitetsbegrænsede ressourcer sikrer systemet, at der ikke indlæses nogen ressource over dens definerede kapacitet (kritisk belastning). Dette gøres ved at tildele hver operation til det nærmeste tilgængelige tidsrum. Hvis tidsrummet ikke er stort nok til at fuldføre hele handlingen, bliver handlingen opdelt i to eller flere dele, der er placeret i de nærmeste ledige tidsrum.
 

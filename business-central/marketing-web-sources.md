@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b8c59f24eae07efe8f2c4ca1e4e22d05fd4f1b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Angive webkilder for kontaktvirksomheder
@@ -29,7 +30,7 @@ Brug af webkilder for kontakter er totrinsproces. Først skal du angive webkilde
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne **Kode**, **Beskrivelse** og **URL**.
 
-    Indtast %1 i feltet **URL** for at indsætte en pladsholder for et søgeord i URL-adressen. Når du starter webkilden fra en kontakt, erstattes %1 med det søgeord, du har indtastet i vinduet **Webkilder for kontakter**, f.eks. navnet på virksomheden.
+    Indtast %1 i feltet **URL** for at indsætte en pladsholder for et søgeord i URL-adressen. Når du starter webkilden fra en kontakt, erstattes %1 med det søgeord, du har indtastet på siden **Webkilder for kontakter**, f.eks. navnet på virksomheden.
 
 Gentag disse trin for hver webkilde, du vil oprette.
 
@@ -37,13 +38,13 @@ Gentag disse trin for hver webkilde, du vil oprette.
 Når du tildeler websteder skal du angive den søgemaskine og det søgeord, som skal bruges til at finde de ønskede oplysninger.
 
 1. Åbn kontakten.
-2. Vælg handlingen **Virksomhed**, og vælg derefter handlingen **Webkilder**. Vinduet **Webkilder for kontakt** åbnes.
+2. Vælg handlingen **Virksomhed**, og vælg derefter handlingen **Webkilder**. Siden **Webkilder for kontakt** åbnes.
 3. I feltet **Webkildekode** skal du vælge den webkilde , du vil tildele.
 4. Brug feltet **Søgeord** til at indtaste det søgeord, som du vil bruge til at finde oplysningerne.
 
 Gentag disse trin for hver webkilde, du vil tildele.
 
-Du kan også tildele webkilder fra vinduet **Kontaktoversigt** ved at udføre samme procedure.
+Du kan også tildele webkilder fra siden **Kontaktoversigt** ved at udføre samme procedure.
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  

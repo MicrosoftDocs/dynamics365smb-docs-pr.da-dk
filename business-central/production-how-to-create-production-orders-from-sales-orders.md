@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36e7d2f3d43a966cd97fba3c92f3fd20b6b1c585
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d4aaa82077d3628bbf75a9bc169d73ecc651884
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Oprette produktionsordrer fra salgsordrer
@@ -26,7 +26,7 @@ Du kan oprette produktionsordrer til producerede varer direkte fra salgsordrer.
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg den salgsordre, du vil oprette en produktionsordre for.  
-3.  Vælg handlingen **Planlægning**. I vinduet **Salgsordreplanlægning** kan du få vist disponeringen for en salgsordrevare.  
+3.  Vælg handlingen **Planlægning**. På siden **Salgsordreplanlægning** kan du få vist disponeringen for en salgsordrevare.  
 4.  Vælg handlingen **Opret prod.ordre**.  
 5.  Vælg status og ordretype.  
 6.  Vælg knappen **Ja** for at oprette en produktionsordre.

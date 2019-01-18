@@ -8,23 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: edupont
+redirect_url: finance-accounting-periods-and-fiscal-years
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9424b2dfe3a61ace4f02897f0240cc6e4f78070e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cb523f1ee5b8bfafa63fc41284da6450f205967e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Åbne et nyt regnskabsår, og oprette regnskabsperioder
 Før du kan bogføre i et regnskabsår, skal du åbne det og angive regnskabsperioder i det.  
 
-For mange virksomheder falder regnskabsåret ikke sammen med kalenderåret. Regnskabsperioder måles i andre tidsenheder, f.eks. måneder eller kvartaler. Du kan bruge vinduet **Opret regnskabsår** til at definere de regnskabsperioder, der passer til virksomhedens behov. Men   
+For mange virksomheder falder regnskabsåret ikke sammen med kalenderåret. Regnskabsperioder måles i andre tidsenheder, f.eks. måneder eller kvartaler. Du kan bruge siden **Opret regnskabsår** til at definere de regnskabsperioder, der passer til virksomhedens behov. Men   
 
 ## <a name="to-open-a-new-fiscal-year"></a>Sådan åbnes et nyt regnskabsår
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.
-2. I vinduet **Regnskabsperioder** skal du vælge handlingen **Nyt år**.
+2. På siden **Regnskabsperioder** skal du vælge handlingen **Nyt år**.
 3. Udfyld felterne for at angive strukturen for regnskabsåret.
 
     Regnskabsåret er typisk 12 perioder på hver måned, men du kan også angive andre perioder.

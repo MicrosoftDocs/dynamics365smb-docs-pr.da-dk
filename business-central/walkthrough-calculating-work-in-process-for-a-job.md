@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gennemgang: Beregning af igangværende arbejder for en sag
@@ -45,7 +45,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 ## <a name="calculating-wip"></a>Beregne VIA  
  CRONUS har påtaget sig et længerevarende projekt, der nu har løbet over flere rapporteringsperioder. Tina, der er projektgruppemedlem, beregner Igangværende arbejde (VIA) for at sikre, at virksomhedens regnskabsopgørelse er nøjagtig.  
 
- Som del af denne procedure vælger Tina en bestemt gruppe opgaver, der skal inkluderes i VIA-beregningen. I vinduet **Sagsopgavelinjer** kan hun angive disse linjer i kolonnen **VIA i alt**.  
+ Som del af denne procedure vælger Tina en bestemt gruppe opgaver, der skal inkluderes i VIA-beregningen. På siden **Sagsopgavelinjer** kan hun angive disse linjer i kolonnen **VIA i alt**.  
 
  Følgende tabel beskriver tre indstillinger.  
 
@@ -77,10 +77,10 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
     |1310|Ikke medtaget|  
 
 5.  Vælg handlingen **VIA**, og vælg derefter handlingen **Beregn VIA**.  
-6.  I vinduet **Beregn VIA - finansafstemning** kan du vælge den sag, du vil beregne VIA for. Gå til oversigtspanelet **Sag**, vælg **Kvalitetsmøbler** i feltet **Nummer** .  
+6.  På siden **Beregn VIA - finansafstemning** kan du vælge den sag, du vil beregne Igangværende arbejde for. Gå til oversigtspanelet **Sag**, vælg **Kvalitetsmøbler** i feltet **Nummer** .  
 7.  I feltet **Bogføringsdato** skal du angive en dato, der ligger efter arbejdsdatoen.
 8.  Skriv **1** i feltet **Bilagsnr.** Dette opretter et dokument, som du kan referere til, hvis du vil spore senere.  
-9. Vælg **OK** for at eksekvere kørslen. Der vises en meddelelse. Vælg knappen **OK** for at forsætte. Luk vinduet **Sagsopgavelinjer**.  
+9. Vælg **OK** for at eksekvere kørslen. Der vises en meddelelse. Vælg knappen **OK** for at forsætte. Luk siden **Sagsopgavelinjer**.  
 
     > [!NOTE]  
     >  Der vises en meddelelse om, at der er advarsler, der er knyttet til beregningen af igangværende arbejde. Du vil gennemgå advarslerne i den næste procedure.  
@@ -93,7 +93,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **VIA-cockpit for job**, og vælg derefter det relaterede link.  
 2.  Markér sagen **Kvalitetsmøbler**, og vælg derefter handlingen **Vis advarsler**.  
-3.  Gennemse den advarsel, der er knyttet til sagen i vinduet **Advarsler om igangværende arbejde**.  
+3.  Gennemse den advarsel, der er knyttet til sagen på siden **Advarsler om igangværende arbejde**.  
 
  Når denne regnskabsperiode slutter, skal Tina genberegne VIA for at inkludere det færdige arbejde op til det pågældende tidspunkt.  
 
@@ -101,10 +101,10 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 1.  På kortet **Sag** skal du vælge handlingen **VIA-poster** for at få vist VIA-beregningen.  
 
-     Vinduet **VIA-poster for sag** viser de VIA-poster, der blev beregnet for en sag, også selvom VIA endnu ikke er bogført i regnskabet.  
+     Siden **VIA-poster for sag** viser de VIA-poster, der blev beregnet for en sag, også selvom VIA endnu ikke er bogført i regnskabet.  
 
-2.  Du kan følge trinnene i proceduren, der forklarer, hvordan du beregner igangværende arbejde for at genberegne igangværende arbejde. Hver gang VIA genberegnes, oprettes der en post i vinduet **VIA-poster**.  
-3.  Luk vinduet.  
+2.  Du kan følge trinnene i proceduren, der forklarer, hvordan du beregner igangværende arbejde for at genberegne igangværende arbejde. Hver gang VIA genberegnes, oprettes der en post på siden **VIA-poster for sag**.  
+3.  Luk siden.  
 
 > [!NOTE]  
 >  Det er kun igangværende arbejde og registrering, der bregnes Det bogføres ikke i finansmodulet. For at gøre dette skal du udføre kørslen **Bogfør VIA**, når du har beregnet VIA og registrering.
@@ -116,18 +116,18 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 1.  På listen **Sager**, vælges sagen **Kvalitetsmøbler**.  
 2.  Vælg handlingen **VIA**, og vælg derefter handlingen **Bogfør VIA**.  
-3.  Gå til vinduet **Bogfør VIA - finansafstemning** og oversigtspanelet **Sag**, og vælg **Kvalitetsmøbler** i feltet **Nr.** .  
+3.  Gå til siden **Bogfør VIA - finansafstemning** og oversigtspanelet **Sag**, og vælg **Kvalitetsmøbler** i feltet **Nr.** .  
 4.  Gå til oversigtspanelet **Indstillinger** og feltet **Tilbageførselsdokumentnr.**, og indtast **1**.  
 5.  Vælg knappen **OK** for at bogføre igangværende arbejde i regnskabet.  
-6.  Vælg knappen **OK** for at gemme og lukke bekræftelsesvinduet.  
+6.  Vælg knappen **OK** for at gemme og lukke bekræftelsessiden.  
 
-     Når du har fuldført bogføringen, kan du få vist bogføringsoplysningen i vinduet **VIA-finansposter**.  
+     Når du har fuldført bogføringen, kan du få vist bogføringsoplysningen på siden **VIA-finansposter**.  
 
 7.  På listen **Sager** skal du vælge sagen **Kvalitetsmøbler** og derefter vælge handlingen **VIA-finansposter**.  
 
-     I vinduet **VIA-finansposter**, skal du kontrollere, at VIA er bogført i regnskabet.  
+     På siden **VIA-finansposter**, skal du kontrollere, at VIA er bogført i regnskabet.  
 
-8.  Luk vinduet.  
+8.  Luk siden.  
 9. Åbn kortet **Sag** for sagen **Kvalitetsmøbler**.  
 10. Bemærk, at feltet **Realiseret bogført kostbeløb** i kolonnen **Bogført** i oversigtspanelet **VIA og registrering** nu er udfyldt, hvilket angiver, at igangværende arbejde blev korrekt bogført i regnskab.  
 11. Vælg knappen **OK** for at lukke kortet.  
@@ -139,16 +139,16 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 1.  På listen **Sager**, vælges sagen **Kvalitetsmøbler**.  
 2.  Vælg handlingen **VIA**, og vælg derefter handlingen **Bogfør VIA**.  
-3.  Gå til vinduet **Bogfør VIA - finansafstemning** og oversigtspanelet **Sag**, og vælg **Kvalitetsmøbler** i feltet **Nr.** .  
+3.  Gå til siden **Bogfør VIA - finansafstemning** og oversigtspanelet **Sag**, og vælg **Kvalitetsmøbler** i feltet **Nr.** .  
 4.  Gå til oversigtspanelet **Indstillinger** og feltet **Tilbageførselsdokumentnr.**, og indtast **1**.  
 5.  Indtast den oprindelige bogføringsdato i feltet **Tilbageførselsdato**. Det bør være den samme dato, som du brugte til at beregne igangværende arbejde første gang.  
 6.  Markér afkrydsningsfeltet **Kun tilbageførsel**. Dermed tilbageføres den tidligere bogførte VIA, uden at der bogføres en ny VIA i regnskabet.  
-7.  Vælg knappen **OK** for at foretage kørslen, og vælg knappen **OK** for at lukke bekræftelsesvinduet.  
+7.  Vælg knappen **OK** for at foretage kørslen, og vælg knappen **OK** for at lukke bekræftelsessiden.  
 8.  Åbn kortet **Sag** for **Kvalitetsmøbler**.  
 9. Kontrollér, at der ikke er nogen bogførte poster for igangværende arbejde i oversigtspanelet **VIA**.  
-10. Luk vinduet.  
+10. Luk denne side.  
 11. Markér sagen **Kvalitetsmøbler** på listen **Sager**, vælg handlingen **VIA**, og vælg derefter handlingen **VIA-finansposter**. Poster for igangværende arbejde har afkrydsningsfeltet **Tilbageførte** markeret.  
-12. Luk vinduet.  
+12. Luk denne side.  
 13. Åbn **Sagsopgavelinjer** til sagen, inkluder de dele af sagen, der skal medtages i VIA-beregningen, og genberegn og bogfør derefter den nye værdi i regnskabet.  
 
     > [!NOTE]  

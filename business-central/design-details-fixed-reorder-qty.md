@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5084c8a49972ea51600867d90acedc2698609732
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Designoplysninger: Fast genbestil.antal
@@ -37,7 +37,7 @@ Fast genbestil.antal er relateret til lageret, planlægning af typiske C-varer (
  Ordremodifikatorerne Min. ordrestørrelse, Maks. ordrestørrelse og Oprundingsfaktor bør ikke spille en stor rolle, når metoden for fast genbestillingsantal bruges. Dog tager planlægningssystemet stadig højde for disse modifikatorer og vil reducere antallet til det angivne maksimale ordreantal (og oprette to eller flere forsyninger for at nå det samlede ordreantal), øge ordren til den angivne minimummængde eller runde ordreantallet op for at opfylde en bestemt oprundingsfaktor.  
 
 ## <a name="combines-with-calendars"></a>Kombinerer med kalendere  
- Før der bliver foreslået en ny forsyningsordre for at opfylde et genbestillingspunkt, kontrollerer planlægningssystemet, om ordren er planlagt til en ikkearbejdsdag i overensstemmelse med de kalendere, der er defineret i feltet **Basiskalenderkode** i vinduerne **Virksomhedsoplysninger** og **Lokationskort**.  
+ Før der bliver foreslået en ny forsyningsordre for at opfylde et genbestillingspunkt, kontrollerer planlægningssystemet, om ordren er planlagt til en ikkearbejdsdag i overensstemmelse med de kalendere, der er defineret i feltet **Basiskalenderkode** på siderne **Virksomhedsoplysninger** og **Lokationskort**.  
 
  Hvis den planlagte dato er en ikkearbejdsdag, flytter planlægningssystemet ordren frem til den nærmeste arbejdsdag. Det kan resultere i en ordre, der opfylder et genbestillingspunkt, men ikke opfylder visse specifikke behov. Planlægningssystemet opretter en ekstra levering for sådanne behov.  
 

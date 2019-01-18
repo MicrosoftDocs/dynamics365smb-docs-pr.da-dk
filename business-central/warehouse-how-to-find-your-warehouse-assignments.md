@@ -1,6 +1,6 @@
 ---
 title: "Sådan finder du dine lageropgaver | Microsoft Docs"
-description: "Hvis du vil finde dine lageropgaver, skal du åbne kortvinduet til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder."
+description: "Hvis du vil finde dine lageropgaver, skal du åbne kortsiden til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,22 +13,22 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 012e050722f97d43a8ee59fde2566969245e4ca9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8dafcb427cac506209e0858791f4c47a98d72a2e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="find-your-warehouse-assignments"></a>Finde dine lageropgaver
-Hvis du vil finde dine lageropgaver, skal du åbne kortvinduet til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).
+Hvis du vil finde dine lageropgaver, skal du åbne kortsiden til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Sådan findes en tildelt instruktion  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager (lager)**, **Pluk (logistik)** eller **Bevægelse (logistik)**, og vælg derefter det relaterede link.
 
-    Alle tre vinduer viser tildelinger for alle lagerlokationer.  
+    Alle tre sider viser tildelinger for alle lagerlokationer.  
 
 2. Sorter varerne efter lokation. Du kan nu se de instruktioner, som du har fået tildelt.  
-3. Vælg en af linjerne med dine initialer i feltet **Tildelt bruger-id**, og vælg derefter knappen **OK**. Den tildelte læg-på-lager-aktivitet vises derefter i vinduet, med dine initialer i feltet **Tildelt bruger-id** i oversigtspanelet **Generelt**.  
+3. Vælg en af linjerne med dine initialer i feltet **Tildelt bruger-id**, og vælg derefter knappen **OK**. Den tildelte læg-på-lager-aktivitet vises derefter på siden, med dine initialer i feltet **Tildelt bruger-id** i oversigtspanelet **Generelt**.  
 
 Du kan bruge feltet **Tildelt bruger-id** på hovedet til at påtage dig opgaver, hvis lagerlederen ikke har tildelt bestemte instruktioner til hver individuel medarbejder. Indtast blot dit bruger-id på hovedet, før du begynder at arbejde på en instruktion. De andre medarbejdere kan så vælge at starte på andre instruktioner, og to medarbejdere kommer ikke til at spilde tid og kræfter på at udføre den samme opgave.  
 

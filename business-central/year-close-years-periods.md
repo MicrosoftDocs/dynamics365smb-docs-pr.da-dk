@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Afslutning af år og perioder
@@ -26,6 +26,7 @@ Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at l
 
 | Hvis du vil | Se |
 | --- | --- |
+| Definer regnskabsåret, og opdel det i de perioder, du vil rapportere finansielle resultater for. | [Arbejde med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)|
 | Angive datointervaller for bogføring, som enten er brugerspecifikke, eller som gælder på tværs af hele systemet. Afhængigt af dine forretningsmæssige behov kan det være en god idé at begrænse datointervaller for bogføring af brugere i begyndelsen af periodeafslutningsprocessen eller efter den. |[Angive bogføringsperioder](finance-how-specify-posting-periods.md) |
 | Få et overblik over aktiviteter, der almindeligvis udføres i slutningen af perioden, f.eks at alle dokumenter og kladder er bogført eller kørsel af kontoskemaer. |[Ultimoperioder](year-how-complete-period-end-processes.md) |
 | Opdatere valutakurser og regulere kurserne for bogførte debitor-, kreditor- og bankposter. |[Opdatere valutakurser](finance-how-update-currencies.md) |

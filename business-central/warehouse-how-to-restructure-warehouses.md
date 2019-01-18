@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Omstrukturere lagre
@@ -56,9 +56,9 @@ Du har nu tømt de placeringer, hvor varerne plejede at være. Standardplacering
 
     1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
     2.  Marker linjen med placeringen, og vælg derefter handlingen **Placeringer**.  
-    3.  I vinduet **Placeringer** i feltet **Placeringstypekode** skal du angive **KK** for hver af gamle placeringer, som du slettede indholdet af i trin 3 i den foregående fremgangsmåde.  
+    3.  På siden **Placeringer** i feltet **Placeringstypekode** skal du angive **KK** for hver af gamle placeringer, som du slettede indholdet af i trin 3 i den foregående fremgangsmåde.  
 
-Du har nu fjernet placeringerne fra lagerstedet og omposteret dem som KK-placeringer. KK-placeringer har ingen af aktivitetsfelterne i vinduet **Placeringstyper** valgt og tages derfor ikke i betragtning af varestrømmen. Der er flere oplysninger i [Konfigurere placeringer](warehouse-how-to-set-up-bin-types.md).  
+Du har nu fjernet placeringerne fra lagerstedet og omposteret dem som KK-placeringer. KK-placeringer har ingen af aktivitetsfelterne på siden **Placeringstyper** valgt og tages derfor ikke i betragtning af varestrømmen. Der er flere oplysninger i [Konfigurere placeringer](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Sådan slettes en placering  
 
@@ -69,7 +69,7 @@ Du har nu fjernet placeringerne fra lagerstedet og omposteret dem som KK-placeri
 
 Hvis du klikker på knappen **Ja**, slettes placeringen og kan ikke længere bruges, men placeringskoden står stadig på alle lagerposterne.  
 
-Hvis du vil omdøbe en placering, så alle de tildelte poster også omdøbes, bl.a. placeringsindhold, lageraktivitetslinjer, registrerede lageraktivitetslinjer, lagerkladdelinjer, lagermodtagelseslinjer, bogførte lagermodtagelseslinjer, lagerleverancelinjer, bogførte lagerleverancelinjer og lagerposter, kan du gøre det i vinduet **Placeringer**.  
+Hvis du vil omdøbe en placering, så alle de tildelte poster også omdøbes, bl.a. placeringsindhold, lageraktivitetslinjer, registrerede lageraktivitetslinjer, lagerkladdelinjer, lagermodtagelseslinjer, bogførte lagermodtagelseslinjer, lagerleverancelinjer, bogførte lagerleverancelinjer og lagerposter, kan du gøre det på siden **Placeringer**.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Sådan omdøbes en placering, og sådan ændres placeringskoden i alle poster  
 

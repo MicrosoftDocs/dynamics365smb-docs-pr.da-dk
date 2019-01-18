@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Designoplysninger: Indlæsning af lagerprofiler
@@ -45,7 +45,7 @@ Planlægningssystemet organiserer de mange kilder for behov og forsyning på to 
  Planlægningssystemet kontrollerer dette ved at køre gennem lagerprofilen. Når der findes en ny kombination, opretter programmet en automatisk kontrolpost, der indeholder den faktiske kombinationsoplysninger. Programmet indsætter lagervaren som kontrolpost eller ydre løkke. Derfor angives de korrekte planlægningsparametre i overensstemmelse med en kombination af variant og placering, og programmet kan gå videre til den indre løkke.  
 
 > [!NOTE]  
->  Programmet kræver ikke, at brugeren angiver en lagervarepost ved angivelse af behov og/eller forsyning for en bestemt kombination af variant og lokation. Hvis der ikke findes en lagervare for en given kombination, opretter programmet derfor sin egen midlertidige lagervare baseret på varekortdata. Hvis Tvungen lokationskode er angivet til Ja i vinduet Lageropsætning, skal der oprettes en Lagervare, eller komponenter på lokation skal angives til Ja. Du kan finde flere oplysninger i [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md).  
+>  Programmet kræver ikke, at brugeren angiver en lagervarepost ved angivelse af behov og/eller forsyning for en bestemt kombination af variant og lokation. Hvis der ikke findes en lagervare for en given kombination, opretter programmet derfor sin egen midlertidige lagervare baseret på varekortdata. Hvis Tvungen lokationskode er angivet til Ja på siden Lageropsætning, skal der oprettes en Lagervare, eller komponenter på lokation skal angives til Ja. Du kan finde flere oplysninger i [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serienumre/lotnumre indlæses efter specifikationsniveau  
  Attributter i form af serie-/lotnumre indlæses i lagerprofilerne sammen med det behov og den forsyning, de er tildelt.  

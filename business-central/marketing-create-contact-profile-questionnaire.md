@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Når du har oprettet et spørgeskema, skal du oprette kontaktpersonvurderinger t
 > Hvis du angiver et spørgsmål, som skal besvares automatisk, skal du vælge <STRONG>Linje</STRONG> og derefter vælge <STRONG>Oplysn. om spørgsmål</STRONG> for at angive de kriterier, som skal anvendes ved den automatiske besvarelse.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Den automatiske klassificering af kontaktpersoner
-Du kan automatisk klassificere kontakter efter debitor-, kreditor- og kontaktoplysninger ved at definere automatisk besvarede profilspørgsmål i vinduet **Opsætn. af profilspørgeskema**.  
+Du kan automatisk klassificere kontakter efter debitor-, kreditor- og kontaktoplysninger ved at definere automatisk besvarede profilspørgsmål på siden **Opsætn. af profilspørgeskema**.  
 
 > [!NOTE]
 > Det er kun kontakter, der er registrerede som debitorer, som kan få tildelt en klassificering ud fra debitordata, og kun kontakter registreret som kreditorer kan tildeles en klassificering ud fra kreditordata. Klassificeringen opdateres ikke automatisk. Det kan derfor være nødvendigt at opdatere profilspørgeskemaerne, hvis du har opdateret de debitor-, kreditor- eller kontaktdata, som de er baseret på.  
@@ -73,13 +73,13 @@ Du kan klassificere kontakter efter deres købsbeløb.
 <td><p>Kontakter, der har købt for mellem RV 100.000 og 499.999.</p></td>
 </tr>
 <tr class="odd">
-<td><p>C</p></td>
+<td><p>U</p></td>
 <td><p>Kontakter, der har købt for højst RV 99.999</p></td>
 </tr>
 </tbody>
 </table>
 
-Det gør du ved at udfylde vinduet **Opsætn. af profilspørgeskema** på følgende måde:
+Det gør du ved at udfylde siden **Opsætn. af profilspørgeskema** på følgende måde:
 
 
 <table>
@@ -104,34 +104,34 @@ Det gør du ved at udfylde vinduet **Opsætn. af profilspørgeskema** på følge
 <td><p>Spørgsmål</p></td>
 <td><p>ABC-klassificering</p></td>
 <td><p>Indsæt markering ved at klikke</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
-<td><p>A</p></td>
-<td><p> </p></td>
+<td><p>T</p></td>
+<td><p> </p></td>
 <td><p>500,000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Svar</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
-<td><p>L</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p>U</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99,999</p></td>
 </tr>
 </tbody>
 </table>
 
-Udfyld derefter vinduet **Oplysninger om profilspørgsmål** på følgende måde:
+Udfyld derefter siden **Oplysninger om profilspørgsmål** på følgende måde:
 <table>
 <colgroup>
 <col style="width: 50%" />

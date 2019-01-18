@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b531cfcb024444e098363725a4e0098d4651396b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Definere dine kontaktpersoners ansvarsområder
@@ -25,7 +26,7 @@ Du kan tilføje oplysninger om ansvarsområder for kontaktpersoner for at angive
 Brug af ansvarsområder for kontakter er en totrinsproces. Først skal du definere koden for ansvarsområdet. Du behøver kun at udføre dette trin én gang for hvert ansvarsområde. Når du har et ansvarsområde, kan du begynde at tildele koden til kontakter.
 
 ## <a name="to-define-a-job-responsibility-code"></a>Sådan defineres en ansvarsområdekode
-Ansvarsområdekoden definerer jobtypen eller -kategorien, f.eks. MARKETING eller INDKØB. Du kan have flere ansvarsområdekoder. Du definerer ansvarsområdet fra vinduet **Ansvarsområder**.
+Ansvarsområdekoden definerer jobtypen eller -kategorien, f.eks. MARKETING eller INDKØB. Du kan have flere ansvarsområdekoder. Du definerer ansvarsområdet fra siden **Ansvarsområder**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ansvarsområder**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**, og indtast en kode og beskrivelse. Du kan bruge op til 11 tegn til koden, som skal være en kombination af tal og bogstaver.
@@ -34,12 +35,12 @@ Ansvarsområdekoden definerer jobtypen eller -kategorien, f.eks. MARKETING eller
 Du kan ikke tildele ansvarsområder til kontaktvirksomheder.
 
 1. Åbn kontaktpersonen.
-2. Vælg handlingen **Person**, og vælg derefter handlingen **Ansvarsområder**. Vinduet **Kontakts ansvarsområder** åbnes.
+2. Vælg handlingen **Person**, og vælg derefter handlingen **Ansvarsområder**. Siden **Kontakts ansvarsområder** åbnes.
 3. I feltet **Ansvarsområdekode** skal du vælge det ansvarsområde, du vil tildele.
 
 Gentag disse trin for hver ansvarsområde, du vil tildele. Du kan også tildele ansvarsområder fra kontaktoversigten ved at udføre samme procedure.
 
-Det antal ansvarsområder, du har tildelt til kontakten, vises i feltet **Antal ansvarsområder** i sektionen **Segmentering** i vinduet **Kontakt**.
+Det antal ansvarsområder, du har tildelt til kontakten, vises i feltet **Antal ansvarsområder** i sektionen **Segmentering** på siden **Kontakt**.
 
 Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 

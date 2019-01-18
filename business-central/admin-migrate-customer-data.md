@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
 
-Vinduet **Overflytningsoversigt** og **Konfig.kladde** giver adgang til funktioner og visninger til at udføre alle de opgaver, der er relateret med dataoverflytning. Vi anbefaler, at du overflytter én tabel ad gangen for at håndtere afhængigheder i dine data. Ved overflytning berører du også masterdatatabeller, der indeholder oplysninger om debitorer, kreditorer, varer, kontaktpersoner og regnskab.  
+Siderne **Overflytningsoversigt** og **Konfig.kladde** giver adgang til funktioner og visninger til at udføre alle de opgaver, der er relateret med dataoverflytning. Vi anbefaler, at du overflytter én tabel ad gangen for at håndtere afhængigheder i dine data. Ved overflytning berører du også masterdatatabeller, der indeholder oplysninger om debitorer, kreditorer, varer, kontaktpersoner og regnskab.  
 
 ## <a name="to-import-configuration-packages"></a>Sådan importeres konfigurationspakker
 Når du opretter et nyt virksomhed, kan du importere virksomhedsindstillinger for det nye virksomhed. Du indlæser indstillingerne fra en .rapidstart-fil, som leverer pakkens indhold i komprimeret format. Der importeres et tilsvarende sæt tabeller for standarddataoverflytning. Datasæt indeholder masterdatatabeller og opsætningsdatatabeller. Din første opgave i dataoverflytningen er at vurdere, om standardopsætning for overflytningen opfylder behovene i det nye virksomhed.
@@ -58,9 +58,9 @@ Hvis tabellerne ikke opfylder dine behov, kan du oprette en eller flere nye data
 Du kan oprette nye dataoverflytningsfiler og tilpasse dem til din virksomheds behov. Bemærk, at en fil kun kan bruges til at overflytte et felt, hvis dets egenskab **FieldClass** er indstillet til **Normal**.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakke**, og vælg derefter det relaterede link.  
-2. Vælg og åbn den pakke, du vil bruge til at overføre data, og vælg derefter handlingen **Hent tabeller**. Vinduet **Hent pakketabel** åbnes.  
+2. Vælg og åbn den pakke, du vil bruge til at overføre data, og vælg derefter handlingen **Hent tabeller**. Siden **Hent pakketabel** åbnes.  
 3. I feltet **TableID** skal du indtaste et tal i tabellen eller vælge en tabel på listen, f.eks. tabel 18 **Debitor**. Feltet **Tabelnavn** udfyldes automatisk.  
-4. Vælg den nye overflytningstabel, og vælg derefter under fanen **Tabeller** handlingen **Felter**. Vinduet **Overflytningsfelter** åbnes.  
+4. Vælg den nye overflytningstabel, og vælg derefter under fanen **Tabeller** handlingen **Felter**. Siden **Overflytningsfelter** åbnes.  
 5. Ryd afkrydsningsfeltet **Inkluder felt** ud for de felter, som du ikke vil indlæse, og vælg derefter handlingen **Angiv inkluderede** eller **Ryd inkluderede**.  
 
 > [!IMPORTANT]  
@@ -100,7 +100,7 @@ I nedenstående fremgangsmåder bør du gennemgå på forhånd, hvilke værdier 
 4. For hvert felt du vil tilknytte, skal du vælge handlingen **Kobling**.  
 5. Brug feltet **Gammel værdi** til at angive den værdi, som skal ændres. Brug feltet **Ny værdi** til at angive den værdi, som den gamle værdi skal ændres til. Vælg knappen **OK**.  
 6. Importér debitordataene. Du kan finde flere oplysninger i afsnittet "Sådan importeres debitordata".
-7. Brug feltet **Antal pakkefejl** til at se, om der er rapporteret fejl. Hvis der er, skal du dykke ned for at få vist fejlene. Vinduet **Konfigurationspakkeposter** åbnes.
+7. Brug feltet **Antal pakkefejl** til at se, om der er rapporteret fejl. Hvis der er, skal du dykke ned for at få vist fejlene. Siden **Konfigurationspakkeposter** åbnes.
 8. Vælg handlingen **Vis fejl**. Du får vist følgende fejl: **<option> er ikke en gyldig indstilling. Gyldige indstillinger er <valid option list>**. Vælg knappen **OK**.  
 9. Du kan anvende den tilknytning, som du har oprettet, ved at vælge handlingen **Anvend Data**.  
 
@@ -134,7 +134,7 @@ Når du har eksporteret en overflytningstabel, er dit næste skridt at angive de
 
 For at få hjælp til XML kan du aktivere fanen **Udvikler** på Excel-båndet, og derefter vælge handlingen **Kilde** for at få vist XML-skemaet for overførselstabellen, som den er repræsenteret i Excel.
 
-Følgende fremgangsmåde er baseret på et Excel-regneark, du har oprettet til overflytning. Du kan finde flere oplysninger i Sådan eksporteres overflytningstabeller.
+Følgende fremgangsmåde er baseret på et Excel-regneark, du har oprettet til overflytning. Du kan finde flere oplysninger i afsnittet "Sådan udlæses overflytningsfiler".
 
 > [!IMPORTANT]  
 > Undlad at ændre kolonnerne i Excel-regnearkene. Hvis de flyttes, ændres eller slettes, kan regnearket ikke importeres i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -151,7 +151,7 @@ Du er nu klar til at importere dataoverflytningsfilerne, der indeholder debitore
 ## <a name="to-import-customer-data"></a>Sådan importeres debitordata
 Når debitordata er indsat i dataoverflytningsfilerne i Excel, kan du indlæse filerne i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Åbn vinduet **Konfig.pakkekort**.
+1. Åbn siden **Konfig.pakkekort**.
 2. Vælg tabellen, hvor du vil importere data, og vælg derefter under fanen **Tabeller** handlingen **Indlæs fra Excel**.
 3. Find og åbn den fil, hvorfra du vil importere data til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -163,21 +163,21 @@ Kundedata skal valideres, før du anvender poster til [!INCLUDE[d365fin](include
 > [!NOTE]  
 >  I de fleste tilfælde oprettes ugyldige data ikke i databasen. Programmet kan dog lejlighedsvis blokeres, hvis en importeret overflytningstabel indeholder fejl.  
 
-1. I vinduet **Overflytningsoversigt** skal du gennemse feltet **Antal overflytningsfejl** for at se, om der opstod fejl under import.  
+1. På siden **Overflytningsoversigt** skal du gennemse feltet **Antal overflytningsfejl** for at se, om der opstod fejl under import.  
 2. Hvis der er fejl, skal du vælge overflytningstabellen, og derefter under fanen **Tabeller** vælge handlingen **Fejl**. Afkrydsningsfeltet **Ugyldig** er markeret for hver post, der har en fejl.  
 3. Hvis du vil gennemse fejl, skal du markere en linje og derefter vælge handlingen **Vis fejl**.  
 
     Feltet **Fejltekst** viser årsagen til fejlen. Feltet **Felttitel** indeholder titelteksten for feltet, der indeholder fejlen.  
-4.  Hvis du vil rette en fejl eller på anden måde foretage en opdatering, skal du i vinduet **Overflytningsoversigt** vælge handlingen **Overflytningspost** og derefter i rette posten med fejl i vinduet **Overflytningspost**.  
+4.  Hvis du vil rette en fejl eller på anden måde foretage en opdatering, skal du på siden **Overflytningsoversigt** vælge handlingen **Overflytningspost** og derefter i rette posten med fejl på siden **Overflytningspost**.  
 
-Når du har foretages en rettelse, fjernes posten fra listen over poster i vinduet **Dataoverførselsfejl**.  
+Når du har foretages en rettelse, fjernes posten fra listen over poster på siden **Dataoverførselsfejl**.  
 
 Du er nu klar til at anvende debitorens data i databasen.  
 
 ## <a name="to-apply-customer-data"></a>Sådan overføres debitordata
 Når du har importeret alle de dataoverflytningsposter, der er gyldige, og som ikke indeholder fejl, kan du overføre posterne til [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
-1. Åbn vinduet **Konfigurationspakker**.  
+1. Åbn siden **Konfigurationspakker**.  
 2. Vælg tabellen for den dataoverflytningsfil, du vil anvende, og vælg derefter handlingen **Anvend data**.
 
 Du kan se antallet af databaseposter, der er blevet oprettet, i feltet **Antal databaserecords**. Du kan kontrollere, at det korrekte antal poster er blevet oprettet, ved at vælge linket i feltet **Antal databaserecords**.  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Administrere virksomhedskonfigurationen i et regneark
@@ -33,7 +33,7 @@ Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger f
 2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Føje en tabel til regnearket  
-1.  I vinduet **Konfig.kladde** skal du vælge handlingen **Rediger liste**.  
+1.  På siden **Konfig.kladde** skal du vælge handlingen **Rediger liste**.  
 2.  På den første linje i feltet **Linjetype** skal du vælge **Tabel**.  
 4.  Vælg den tabel, du vil føje til din konfiguration, i feltet **Tabel-id**.  
 5.  Angiv id'et for den side, der er knyttet til tabellen, i feltet **Side-id**. For standardtabeller angives værdien automatisk. For brugerdefinerede tabeller skal du angive id'et.
@@ -53,7 +53,7 @@ Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger f
 10. Du kan fjerne dublerede tabeloplysninger, som kan være resultatet af handlingen **Hent relaterede tabeller** ved at vælge handlingen **Slet dubletlinjer**. Dette vil fjerne dublerede tabeller, der har den samme kode til pakken.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Tilføje flere tabeller til konfigurationsregnearket  
-1. Vælg handlingen **Hent tabeller**. Kørselsvinduet **Hent konfig.tabeller** åbnes.  
+1. Vælg handlingen **Hent tabeller**. Kørselssiden **Hent konfig.tabeller** åbnes.  
 2. I oversigtspanelet **Indstillinger** skal du angive typerne af tabeller, som du vil føje til konfigurationen, som beskrevet i følgende tabel.
 
     |Indstilling|Beskrivelse|  
@@ -73,7 +73,7 @@ Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger f
     > - Relationen er betinget.  
     > Eksempel: Hvis du henter relaterede tabeller for tabellen **Debitor**, så vil tabellen **Lokation** ikke blive tilføjet, da den kun er betinget relateret til tabellen **Debitor**, nemlig hvis feltet **Lokationskode** i tabellen **Debitor** er udfyldt.  
     > - Den relaterede tabel er filtreret.  
-    > Eksempel: Et felt i den relaterede tabel indeholder en WHERE-sætning. Årsagen til dette er, at de involverede relationsoplysninger er gemt i den virtuelle **Felt**-tabel og ikke er tilgængelig i vinduer som konfigurationsregnearket af hensyn til ydeevnen.  
+    > Eksempel: Et felt i den relaterede tabel indeholder en WHERE-sætning. Årsagen til dette er, at de involverede relationsoplysninger er gemt i den virtuelle **Felt**-tabel og ikke er tilgængelig på sider som konfigurationsregnearket af hensyn til ydeevnen.  
     > Du skal tilføje relaterede tabeller med sådanne komplekse relationer manuelt ved at følge trin 4 i afsnittet "Føje en tabel til regnearket".
 
 7. Hvis du vil slette tabeller i den resulterende liste over tabeller, skal du markere en tabel, du vil fjerne, og derefter vælge handlingen **Slet**.  

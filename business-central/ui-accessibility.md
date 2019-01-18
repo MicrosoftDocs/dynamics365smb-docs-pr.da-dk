@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 65f34ae7fe1665bbe8336e6fe959ac109486531e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: bdb9eab2c23d8f1eacafd77433f621275c3dfdf1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Tilgængelighedsfunktioner og tastaturgenveje i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -51,7 +51,7 @@ Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[d365fin](
 ##  <a name="Navigation"></a> Navigation  
  Du kan navigere mellem fanerne og handlingerne på båndet, elementerne i navigationslinjen og andre kontrolelementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider og -rapporter vha. tastaturet. Flytte fokus fra én fane, handling eller kontrolelement til en anden, skal du trykke på Tab for at flytte fremad. Tryk på Skift+Tab for at gå tilbage.  
 
- Ved hjælp af fanerækkefølgen kan du også skifte mellem hovedbrowservinduet og dialogbokse, der anmoder om bekræftelse, for eksempel logonvinduet.  
+ Ved hjælp af fanerækkefølgen kan du også skifte mellem hovedbrowsersiden og dialogbokse, der anmoder om bekræftelse, for eksempel logonsiden.  
 
 ##  <a name="Headings"></a> Overskrifter  
  HTML-kilden til [!INCLUDE[d365fin](includes/d365fin_md.md)]-indhold bruger koder til at hjælpe brugerne af hjælpeteknologien med at forstå strukturen og indholdet af siden. På oversigtssider defineres kolonnerne f.eks. i TH-koder, og kolonneoverskrifterne oprettes med TITEL-attributten i koden. Tekster til elementer som oversigtspaneler, faktabokse og felter er inkluderet i overskriftskoder (H1 H2, H3 og H4).  

@@ -11,10 +11,10 @@ ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12fa67c9e0c161d99faab376c440f6299fa8aa52
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
@@ -24,14 +24,14 @@ Desuden foretages en vareudligning for at sammenkæde modtageren af omkostninger
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] foretager to typer af vareudligning.  
 
-|Udligningstype|Description|  
+|Udligningstype|Beskrivelse|  
 |----------------------|---------------------------------------|  
 |Mængdeudligning|Oprettet for alle lagertransaktioner.|  
 |Kostprisudligning|Oprettet for indgående poster sammen med et antalsudligning som følge af brugerinteraktion i særlige processer.|  
 
 Vareudligninger kan gøres på følgende måder.  
 
-|Metode|Description|Udligningstype|  
+|Metode|Beskrivelse|Udligningstype|  
 |------------|---------------------------------------|----------------------|  
 |Automatisk|Optræder som videresendelse af generelle omkostninger i overensstemmelse med kostmetoden|Mængdeudligning|  
 |Fast|Oprettet af brugeren, når:<br /><br /> -   Behandling af returvarer<br />-   Bogføring af rettelser<br />-   Annullere antalsbogføringer<br />-   Oprettelse af direkte leveringer **Bemærk:** Fast udligning kan foretages manuelt ved at indtaste et løbenummer i feltet **Udlign fra varepost** eller ved hjælp af en funktion, f.eks. **Hent bogførte bilagslinjer, der skal tilbageføres**.|Mængdeudligning<br /><br /> Kostprisudligning **Bemærk:** Kostprisudligning sker kun i indgående transaktioner, hvor feltet **Udlign fra varepost** udfyldes for at oprette en fast udligning. Se den næste tabel.|  
@@ -52,7 +52,7 @@ I følgende tabel vises, baseret på de centrale felter på lagerposteringslinje
 
 Følgende oplysninger registreres i en vareudligningspost.  
 
-|Felt|Description|  
+|Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
 |**Varepostløbenr.**|Nummeret på den varepost for transaktionen, som udligningsposten oprettes for.|  
 |**Indgående varepostløbenr.**|Varepostnummeret på den lagerforøgelse, som transaktionen skal knyttes til, hvis det er relevant.|  
@@ -189,7 +189,7 @@ Følgende tabel viser effekten af præcis kostprisudligning i værdiposterne for
 Når du udfører kørslen **Juster kostpris - vareposter**, videreføres de forøgede omkostninger på købsposten på grund af varegebyret til salgsposten (løbenummer 2). Salgsposten overfører derefter denne forøgede omkostning til salgskreditposten (løbenummer 3). Det endelige resultat er, at omkostningerne er tilbageført korrekt.  
 
 > [!NOTE]  
->  Hvis du arbejder med returvareordrer eller kreditnotaer, og du har indstillet feltet **Obl. beløbstilbageførsel** i enten vinduet **Købsopsætning** eller vinduet **Salgsopsætning**, som det nu er relevant for dig, udfylder [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk disse felter, når du bruger funktionen **Kopiér dokument**. Hvis du bruger funktionen **Hent bogførte bilagslinjer**, udfyldes felterne altid automatisk.  
+>  Hvis du arbejder med returvareordrer eller kreditnotaer, og du har indstillet feltet **Obl. beløbstilbageførsel** på enten siden **Købsopsætning** eller siden **Salgsopsætning**, som det nu er relevant for dig, udfylder [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk disse felter, når du bruger funktionen **Kopiér dokument**. Hvis du bruger funktionen **Hent bogførte bilagslinjer**, udfyldes felterne altid automatisk.  
 
 > [!NOTE]  
 >  Hvis du bogfører en transaktion med en fast udligning, og den varepost, du udligner, er lukket, dvs. restantallet er nul, annulleres den gamle udligning automatisk, og derefter udlignes vareposten igen med den faste udligning, du har angivet.  
@@ -237,7 +237,7 @@ På grund af den måde, som kostprisen på en vare beregnes, kan en forkert vare
 * Du ønsker at tilsidesætte den udligning, der oprettes automatisk, når du bogfører, i henhold til varens kostmetode.  
 * Du skal returnere en vare, hvor salget allerede er udlignet manuelt, uden at bruge funktionen **Hent bogførte bilagslinjer, der skal tilbageføres**, og du skal derfor fortryde udligningen.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en funktion, der analyserer og korrigerer vareudligninger. Dette arbejde udføres i vinduet **Udligningskladde**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en funktion, der analyserer og korrigerer vareudligninger. Dette arbejde udføres på siden **Udligningskladde**.  
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  

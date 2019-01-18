@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dea237fa837b34e565d9df6156ae6bbfb8508ee6
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 53bf1355c9f7b1d5727e6e63f89a7d2db56cfc48
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Lægge varer på lager med Læg-på-lager (logistik)
@@ -72,7 +72,7 @@ Der tages hensyn til placeringsniveau, når mere end én placering opfylder krit
     Hvis feltet **Bilagsstatus** er tomt, er modtagelsen ikke lagt på lager overhovedet. Ellers står der i feltet, at modtagelsen er delvist lagt på lager eller fuldt lagt på lager.  
 
 4.  Vælg handlingen **Opret læg-på-lager**, hvis modtagelsen er lagt delvist på lager eller slet ikke er lagt på lager.  
-5.  Udfyld felterne i kørselsvinduet for at oprette læg-på-lager-aktiviteten, og klik på knappen **OK**.   
+5.  Udfyld felterne på kørselssiden for at oprette læg-på-lager-aktiviteten, og klik på knappen **OK**.   
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  

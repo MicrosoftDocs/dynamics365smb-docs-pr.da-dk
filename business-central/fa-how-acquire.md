@@ -13,23 +13,23 @@ ms.search.keywords: purchase fixed asset
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1a5ce3c514ff649b5ad4a901f257816ae1a59d58
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2839753f888dfd76e17672c36b15da47a344900f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffede anlægsaktiver
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Der skal oprettes en afskrivningsprofil, og den skal tildeles til hvert enkelt anlægsaktiv, før du kan hente det.
 
-Når der er oprettet et anlægsaktiv, og der er tildelt en afskrivningsprofil, skal du anskaffe anlægsaktivet. For at få et anlægsaktiv skal du registrere dens anskaffelsespris i den relevante finanskonto, bankkonto eller leverandør ved at bogføre en anskaffelsestransaktion fra vinduet **Anlægskassekladde**. Du kan bruge den **Bistået anskaffelse af anlægsaktiv** til at oprette og bogføre de nødvendige finanskladdelinjer automatisk.
+Når der er oprettet et anlægsaktiv, og der er tildelt en afskrivningsprofil, skal du anskaffe anlægsaktivet. For at få et anlægsaktiv skal du registrere dens anskaffelsespris i den relevante finanskonto, bankkonto eller leverandør ved at bogføre en anskaffelsestransaktion fra siden **Anlægskassekladde**. Du kan bruge siden **Bistået anskaffelse af anlægsaktiv** til at oprette og bogføre de nødvendige finanskladdelinjer automatisk.
 
 Skrapværdien er restværdien af et anlæg, der ikke længere kan bruges. Du kan bogføre skrapværdien samtidigt med, at du bogfører anskaffelsesprisen. Du kan finde flere oplysninger i [Afskrive eller amortisere anlægsaktiver](fa-how-depreciate-amortize.md).
 
 Indeksering anvendes til at justere for ændringer af det generelle prisniveau. Kørslen **Indekser anlæg** kan bruges til at beregne anskaffelsespriser som genanskaffelsespriser.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Sådan oprettes og anskaffes et anlægsaktiv automatisk
-Følgende procedure beskriver, hvordan du opretter et anlægsaktiv og derefter anskaffer det ved hjælp af vinduet **Bistået anskaffelse af anlægsaktiver** for at oprette og bogføre de nødvendige anlægskassekladdelinjer. Du kan også oprette og bogføre linjerne manuelt. Du kan finde flere oplysninger i afsnittet "Sådan bogføres anskaffelse af et anlægsaktiv manuelt med anlægskassekladden".
+Følgende procedure beskriver, hvordan du opretter et anlægsaktiv og derefter anskaffer det ved hjælp af siden **Bistået anskaffelse af anlægsaktiver** for at oprette og bogføre de nødvendige anlægskassekladdelinjer. Du kan også oprette og bogføre linjerne manuelt. Du kan finde flere oplysninger i afsnittet "Sådan bogføres anskaffelse af et anlægsaktiv manuelt med anlægskassekladden".
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** handling, og udfyld felterne på oversigtspanelet **Generelt** efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -38,12 +38,12 @@ Følgende procedure beskriver, hvordan du opretter et anlægsaktiv og derefter a
 
     Når alle felter, der kræves for at anskaffe et anlægsaktiv, er udfyldt, vises beskeden **Du er klar til at anskaffe anlægsaktivet. Anskaf** øverst på siden.
 5. Vælg handlingen **Anskaf** i beskeden.
-6. Følg trinnene i vinduet **Bistået anskaffelse af anlægsaktiver** for at fuldføre automatisk anskaffelse af anlægsaktivet.
+6. Følg trinnene på siden **Bistået anskaffelse af anlægsaktiver** for at fuldføre automatisk anskaffelse af anlægsaktivet.
 
 > [!NOTE]  
 >   Du kan også bogføre anskaffelsespriser som kreditposter. I så fald skal du huske, at værdien i feltet **Anskaffelsespris inkl. moms** skal have et minustegn for at angive en kredit.
 
-Når du vælger **Udfør**, udfyldes feltet **Bogført værdi** i vinduet **Anlægskort**, hvilket angiver, at anlægsaktivet er anskaffet til den angivne anskaffelsespris.  
+Når du vælger **Udfør**, udfyldes feltet **Bogført værdi** på siden **Anlægskort**, hvilket angiver, at anlægsaktivet er anskaffet til den angivne anskaffelsespris.  
 
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Sådan konfigureres en komponentliste for et hovedanlæg
 Du kan gruppere anlægsaktiverne i hovedanlæg og de tilhørende komponenter. Du kan f.eks. have en produktionsmaskine, som består af mange dele, som du vil gruppere på denne måde.  
@@ -52,20 +52,20 @@ Både hovedanlægget og alle dets komponenter skal oprettes som individuelle anl
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.
 2. Vælg det anlægsaktiv, der er hovedanlægget, og vælg derefter handlingen **Hovedanlæg**.
-3. I vinduet **Hovedanlæg** skal du vælge feltet **Anlægsnr**. og derefter vælge de anlægsaktiver, der skal tilføjes som en komponent i hovedanlægget.
-4. Luk vinduet.
+3. På siden **Hovedanlæg** skal du vælge feltet **Anlægsnr**. og derefter vælge de anlægsaktiver, der skal tilføjes som en komponent i hovedanlægget.
+4. Luk siden.
 5. Gentag trin 3 til 4 for hver underdel til anlægget, du vil tilføje.
 6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsopsætning**, og vælg derefter det relaterede link.
 7. Markér afkrydsningsfeltet **Tillad bogf. på hovedanlæg**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Sådan bogføres anskaffelse af et anlægsaktiv manuelt med finanskassekladden
-Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at oprette og bogføre linjerne i vinduet **Anlægsfinanskladde**. Du kan også anskaffe et anlægsaktiv automatisk ved hjælp af vinduet **Bistået anskaffelse af anlægsaktiver**. Flere oplysninger under trin 5 i afsnittet "Sådan oprettes og anskaffes et anlægsaktiv automatisk".
+Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at oprette og bogføre linjerne på siden **Anlægsfinanskladde**. Du kan også anskaffe et anlægsaktiv automatisk ved hjælp af siden **Bistået anskaffelse af anlægsaktiver**. Flere oplysninger under trin 5 i afsnittet "Sådan oprettes og anskaffes et anlægsaktiv automatisk".
 
 > [!NOTE]  
 >   Du kan også bogføre anskaffelsespriser som kreditposter. I så fald skal du huske, at værdien i feltet **Beløb** skal have et minustegn for at angive en kredit.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.
-2. I vinduet **Anlægskassekladde** i feltet **Anlægsbogføringstype** skal du vælge **Anskaffelsespris**.
+2. På siden **Anlægskassekladde** i feltet **Anlægsbogføringstype** skal du vælge **Anskaffelsespris**.
 3. Udfyld de resterende felter efter behov.
 4. Vælg handlingen **Bogfør**.  
 
@@ -73,7 +73,7 @@ Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at o
 >   Hvis du udfylder feltet **Forsikringsnr.** i anlægskassekladden, når du bogfører en anskaffelse, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] også bogføre anskaffelsesprisen på anlægsaktivet på forsikringsposterne. Du kan finde flere oplysninger i [Forsikre anlægsaktiver](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Sådan annulleres bogføringen af en anskaffelsespris for et anlægsaktiv
-Hvis du laver en fejl under bogføring af en anskaffelsespris, kan du fjerne posten vha. kørslen **Annuller anlægsposter** og derefter bogføre den korrekte anskaffelsespost. De forkerte poster overføres til vinduet **Anlægsfejlposter**.
+Hvis du laver en fejl under bogføring af en anskaffelsespris, kan du fjerne posten vha. kørslen **Annuller anlægsposter** og derefter bogføre den korrekte anskaffelsespost. De forkerte poster overføres til siden **Anlægsfejlposter**.
 
 Hvis du f.eks, bogfører en anskaffelse med den forkerte dato, skal du rette den snarest muligt, fordi bogføringsdatoen for anlægsaktivet bruges i mange vigtige beregninger.
 
@@ -96,7 +96,7 @@ Du kan bogføre skrapværdien sammen med anskaffelsesprisen fra en anlægskassek
 4. Vælg handlingen **Bogfør**.
 
 > [!NOTE]  
->   Du kan kun vælge bogføringstypen **Skrapværdi** i vinduet **Anlægskladde**. Det er ikke tilgængeligt i vinduet **Anlægskassekladde**, fordi skrapværdi aldrig bogføres i finansregnskabet.
+>   Du kan kun vælge bogføringstypen **Skrapværdi** på siden **Anlægskladde**. Det er ikke tilgængeligt på siden **Anlægskassekladde**, fordi skrapværdi aldrig bogføres i finansregnskabet.
 
 ## <a name="see-also"></a>Se også
 [Anlægsaktiver](fa-manage.md)  

@@ -11,10 +11,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-check-payments"></a>Foretage betalinger med check
@@ -42,7 +42,7 @@ I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Frem
 3. I feltet **Betalingsformkode** skal du vælge **Check**.
 4. I feltet **Bankbetalingstype** skal du vælge **Computercheck**.
 5. Vælg handlingen **Udskriv check**.
-6. I vinduet **Check** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. På siden **Check** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Vælg knappen **Send til**, vælg indstillingen **PDF-dokument**, og vælg derefter knappen **OK**.
 
     Den fysiske check kan nu sendes til behandling i banken. Fortsæt med at bogføre betalingen som udlignet til leverandøren og dermed betalt i systemet.
@@ -54,16 +54,16 @@ Der oprettes helt udlignede kreditorposter og bankposter.
 > Hvis du vil udskrive og betale checks i mere end én valuta fra forskellige bankkonti, skal du udføre kørslen **Udskriv check** separat for hver valuta og angive den korrekte bankkonto.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Sådan annulleres udskrevne checks, der ikke er blevet bogført
-Du kan annullere ikke-bogførte checks, når de er blevet udskrevet, ved hjælp af handlingen **Annuller check** i vinduet **Udbetalingskladde**.
+Du kan annullere ikke-bogførte checks, når de er blevet udskrevet, ved hjælp af handlingen **Annuller check** på siden **Udbetalingskladde**.
 
-1. I vinduet **Udbetalingskladde** skal du vælge **Annuller Check**, og vælg derefter hvilke checks der skal annulleres.
+1. På siden **Udbetalingskladde** skal du vælge **Annuller Check**, og vælg derefter hvilke checks der skal annulleres.
 
 ## <a name="to-void-checks"></a>Sådan annulleres checks
 Når checkbetalingen er blevet bogført, kan du kun annullere checks fra de resulterende bankposter.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den relevante bankkonto, vælg handlingen **Rediger**, og vælg derefter handlingen **Checkposter**.
-3. I vinduet **Checkposter** skal du vælge handlingen **Annuller check**.
+3. På siden **Checkposter** skal du vælge handlingen **Annuller check**.
 4. Markér afkrydsningsfeltet **Kun annulleringskontrol**.
 5. Vælg knappen **OK**.
 

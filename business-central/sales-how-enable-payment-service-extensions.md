@@ -11,10 +11,10 @@ ms.search.keywords: online payment
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 883eb47f59a060befc67bdb702053810517fb5a2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: eac58a651989fff8b1d2cc6b6dbed2a380ae8ef8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Aktivere debitorbetalinger via betalingstjenester
@@ -26,11 +26,11 @@ Microsoft Pay-, PayPal Payments Standard- og WorldPay Payments Standard-udvidels
 
 ## <a name="to-enable-a-payment-service-in-included365finincludesd365finmdmd"></a>Sådan aktiverer du en betalingstjeneste i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingstjenester**, og vælg derefter det relaterede link.  
-2. I vinduet **Betalingstjenester** skal du vælge handlingen **Ny**.  
-3. Vælg betalingstjenesten, og luk derefter vinduet.  
-4. I vinduet **Betalingstjenester** skal du vælge handlingen **Konfigurer**.  
+2. På siden **Betalingstjenester** skal du vælge handlingen **Ny**.  
+3. Vælg betalingstjenesten, og luk derefter siden.  
+4. På siden **Betalingstjenester** skal du vælge handlingen **Konfiguration**.  
 5. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-6. Luk vinduet.  
+6. Luk siden.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Sådan vælger du en betalingstjeneste på en salgsfaktura
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  

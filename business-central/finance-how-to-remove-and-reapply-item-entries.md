@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b3df27011c482905b0b59ff03570449ac8df3cba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4774b278e5e71bd7464b8d7d391d16dab238dc0d
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne og genanvende vareposter
-I vinduet **Udligningskladde** kan du få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagertransaktioner.  
+På siden **Udligningskladde** kan du få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagertransaktioner.  
 
 Når du bogfører en transaktion, hvor varer flyttes ind i eller ud af lageret, oprettes en vareudligning mellem hver lagerforøgelse og lagerreduktion. Disse udligninger bestemmer flowet af omkostninger fra de varer, der modtages på lageret, til de varer, der tages ud af lageret. På grund af den måde som kostprisen beregnes på kan en forkert vareudligning medføre en forkert gennemsnitlig kostpris og en forkert kostpris. Du kan finde flere oplysninger i Designoplysninger: Vareudligning.
 
@@ -32,11 +32,11 @@ Følgende scenarier kræver muligvis, at du fortryder en udligning eller udligne
 
 Brug om muligt et dokument til at udligne en varepost igen. Hvis du f.eks. skal håndtere en købsreturvareordre, hvor salget allerede er udlignet, kan du udligne igen ved at oprette og bogføre købsreturvareordredokumentet ved hjælp af den korrekte udligning i feltet **Udl.varepostløbenr.** på købsreturvareordrelinjen. Du kan bruge funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** eller funktionen **Kopier linjer** i købsreturvareordredokumentet for at gøre det nemmere. Når du bogfører dokumentet, udlignes vareposten automatisk igen. Du kan finde flere oplysninger i [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
 
-Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en fast udligning, skal du bruge vinduet **Udligningskladde** til at rette en udligning.
+Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en fast udligning, skal du bruge siden **Udligningskladde** til at rette en udligning.
 
 > [!Warning]  
 > Det er vigtigt at overveje følgende ting, når du arbejder med applikationskladden:
-    - Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle elementerne, før du udligner udligningsposterne igen eller lukker vinduet **Applikationskladde**. Brugere, der forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost modtager følgende fejlmeddelelse: "Du kan ikke udføre denne handling, fordi posterne for vare XXX ikke er udlignede i Applikationskladden af bruger XXX."
+    - Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle elementerne, før du udligner udligningsposterne igen eller lukker siden **Applikationskladde**. Brugere, der forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost modtager følgende fejlmeddelelse: "Du kan ikke udføre denne handling, fordi posterne for vare XXX ikke er udlignede i Applikationskladden af bruger XXX."
     - Du bør kun foretage genudligninger uden for normal arbejdstid, så der ikke opstår konflikter, hvis andre brugere bogfører transaktioner med de samme varer.
     - Når du lukker udligningskladden, udfører [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontrol for at sikre, at alle poster er udlignet. Hvis du f.eks. fjerner en antalsudligning, men ikke opretter en ny udligning, og du derefter lukker applikationskladden, oprettes en ny udligning. Dette er med til at bevare kostprisen. Hvis du fjerner en fast udligning, oprettes en ny fast udligning dog ikke automatisk, når du lukker kladden. Dette skal du gøre manuelt ved at oprette en ny udligning i kladden.
     - Det er muligt at fjerne udligninger fra mere end en post ad gangen i applikationskladden. Da udligning af poster har indflydelse på hele sættet af poster, der er disponible for udligningen, er det ikke muligt at oprette en udligning for mere end en post ad gangen.
@@ -44,29 +44,29 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Sådan fjernes en vareudligning ved brug af applikationskladden  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
-2.  Vinduet **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
+2.  Siden **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
 3.  Angiv filtre i oversigtspanelet **Generelt** for at gøre det lettere at finde den varepost, du vil ændre udligningen for.  
-4.  Vælg vareposten, og vælg derefter handlingen **Udlignede poster**. Vinduet **Vis udlignede poster- Udlignede poster** åbner, så den varepost eller -poster, der p.t. er udlignet til den valgte post, bliver vist.  
+4.  Vælg vareposten, og vælg derefter handlingen **Udlignede poster**. Siden **Vis udlignede poster- Udlignede poster** åbner, så den varepost eller -poster, der p.t. er udlignet til den valgte post, bliver vist.  
 5.  Vælg den varepost i den anden tabel, hvor du vil fjerne udligningen.  
-6.  Vælg handlingen **Fjern udligning**. Dette fjerner den vareudligningspost, der knytter de to vareposter til hinanden, og flytter den til vinduet **Vis udlignede poster - Udlignede poster**.  
-7.  Luk vinduet **Vis udlignede poster – Udlignede poster**.  
+6.  Vælg handlingen **Fjern udligning**. Dette fjerner den vareudligningspost, der knytter de to vareposter til hinanden, og flytter den til siden **Vis udlignede poster - Udlignede poster**.  
+7.  Luk siden **Vis udlignede poster – Udlignede poster**.  
 
- Feltet **Restantal** for de to vareposter øges med det antal, der ikke længere er udlignet. Den fjernede varepost er nu igen tilgængelig for udligning i vinduet **Vis udlignede poster – Ikke-udlignede poster**.  
+ Feltet **Restantal** for de to vareposter øges med det antal, der ikke længere er udlignet. Den fjernede varepost er nu igen tilgængelig for udligning på siden **Vis udlignede poster – Ikke-udlignede poster**.  
 
 > [!IMPORTANT]  
->  Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle de berørte elementer, før du udligner udligningsposterne igen eller lukker vinduet **Udligningskladde**. Hvis du forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost, vises følgende fejlmeddelelse:  
+>  Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle de berørte elementer, før du udligner udligningsposterne igen eller lukker siden **Udligningskladde**. Hvis du forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost, vises følgende fejlmeddelelse:  
 >   
 >  **Du kan ikke udføre denne handling, fordi poster for vare <item> er ikke-udlignede på Udligningskladden af bruger <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Sådan udlignes en vareudligning igen ved brug af applikationskladden  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
-2.  Vinduet **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
+2.  Siden **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
 3.  For at udligne poster igen, som et blevet fjernet, efter at kladden blev åbnet, skal du vælge den varepost, som du igen vil udligne. På fanen **Handlinger** i gruppen **Funktioner** vælges **Udlign igen**.  
 
     > [!NOTE]  
-    >  Denne udligning af den oprindelige balance sker også automatisk, når du lukker vinduet **Udligningskladde** .  
-4.  Hvis du vil udligne en tilgængelig åben varepost til en anden post, skal du vælge den varepost , du vil udligne. Vælg handlingen **Ikke-udlignede poster**. Vinduet **Vis udlignede poster – Ikke-udlignede poster** åbnes.  
-5.  Vælg en eller flere vareposter, som du gerne vil udligne på den valgte post i vinduet **Udligningskladde**, og klik derefter på knappen **OK**.  
+    >  Denne udligning af den oprindelige balance sker også automatisk, når du lukker siden **Udligningskladde** .  
+4.  Hvis du vil udligne en tilgængelig åben varepost til en anden post, skal du vælge den varepost , du vil udligne. Vælg handlingen **Ikke-udlignede poster**. Siden **Vis udlignede poster – Ikke-udlignede poster** åbnes.  
+5.  Vælg en eller flere vareposter, som du gerne vil udligne på den valgte post på siden **Udligningskladde**, og klik derefter på knappen **OK**.  
 
      Der oprettes en vareudligningspost mellem de to vareposter. Feltet **Restantal** for de to poster reduceres med det udlignede antal.  
 

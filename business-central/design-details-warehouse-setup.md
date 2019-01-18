@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designoplysninger: Opsætning af lager
@@ -93,7 +93,7 @@ I avanceret logistik kan placeringer konfigureres med værdier for kapacitet, f.
 
 Du kan tildele en måleenhed for varen, f.eks. stykker, paller, liter, gram eller kasser, på hvert enkelt varekort. Du kan også have en grundlæggende enhed for en vare og angive større enheder, der er baseret på den. Du kan f.eks. definere, at en palle skal være lig med 16 stykker med sidstnævnte som den grundlæggende måleenhed.  
 
-Hvis du vil angive en maksimal mængde af en bestemt vare, der skal gemmes i en enkelt placering, og varen har mere end én enhed, skal du angive det maksimale antal for hver enhed, der findes på varekortet. Hvis en vare er oprettet til at skulle håndteres i enheder og paller, skal feltet **Maks.antal** i vinduet **Placeringsindhold** for den pågældende vare også være i enheder og paller. Ellers beregnes det tilladte antal for placeringen ikke korrekt.  
+Hvis du vil angive en maksimal mængde af en bestemt vare, der skal gemmes i en enkelt placering, og varen har mere end én enhed, skal du angive det maksimale antal for hver enhed, der findes på varekortet. Hvis en vare er oprettet til at skulle håndteres i enheder og paller, skal feltet **Maks.antal** på siden **Placeringsindhold** for den pågældende vare også være i enheder og paller. Ellers beregnes det tilladte antal for placeringen ikke korrekt.  
 
 Før du kan angive kapacitetsbegrænsninger for placeringsindhold på en placering, skal du først sikre dig, at varens måleenheder og dimensioner er blevet indstillet på varekortet.  
 

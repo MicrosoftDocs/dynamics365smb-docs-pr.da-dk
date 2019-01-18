@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f9f93fcf80524f18c9ff83b74d64231d1a033bae
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 80c2912836d8f11a8e3cf869b9412ad9ed66ca54
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-inventory-posting"></a>Designoplysninger: Varekladde
@@ -29,7 +29,7 @@ For hver lagertransaktion, f.eks. en købsleverance eller en salgsleverance, bog
 
  Vareudligningsposter findes i forhold til antal posteringer for at knytte en lagerforøgelse til lagerreducering. Dette gør det muligt for prisberegningsprogrammet at overføre omkostninger fra forøgelser til relaterede reduceringer og omvendt. Du kan finde flere oplysninger i [Designoplysninger: Vareudligning](design-details-item-application.md).  
 
- Vareposter, værdiposter og vareudligningsposter oprettes som følge af bogføring af en varekladdelinje enten indirekte ved bogføring af en ordrelinje eller direkte i vinduet Varekladde.  
+ Vareposter, værdiposter og vareudligningsposter oprettes som følge af bogføring af en varekladdelinje enten indirekte ved bogføring af en ordrelinje eller direkte på siden Varekladde.  
 
  Med jævne mellemrum bogføres værdiposter, der er oprettet i lageropgørelsesposter, til finans for at afstemme de to posttyper af økonomiske kontrolårsager. Du kan finde flere oplysninger i [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md).  
 

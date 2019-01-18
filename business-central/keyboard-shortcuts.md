@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
-Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Oversigtsark med tastaturgenveje, der kan udskrives](keyboard-shortcuts-cheatsheet.md)
+[Reference til tastaturgenveje, der kan udskrives](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Oversigt
 Tastaturgenveje giver større tilgængelighed, hvilket kan gøre det lettere og mere effektivt at navigere til forskellige områder og elementer på en side.
@@ -35,14 +35,17 @@ De fleste af genvejene er de samme, uanset om operativsystemet er Windows eller 
 ##  <a name="Keyboard"></a> Generelle tastaturgenveje
 Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til forskellige elementer på en side, f.eks. handlinger rullelister, opslag og mere. Du kan finde oplysninger om tastaturgenveje til navigation mellem poster, når du er på en liste, i næste afsnit.
 
-|Tryk på disse taster|For at gøre følgende|  
+|Tryk på disse taster<br />(i macOS)|For at gøre følgende|  
 |----------------|-----------|  
-|ALT + Q|Åbne feltet **Fortæl mig, hvad du vil foretage dig**, der kan hjælpe dig med at finde en side, en rapport, en handling på den aktuelle side eller en artikel i dokumentationen.|
+|ALT + Q<br />(Ctrl+Alt+Q)|Åbne feltet **Fortæl mig, hvad du vil foretage dig**, der kan hjælpe dig med at finde en side, en rapport, en handling på den aktuelle side eller en artikel i dokumentationen.|
+|Alt+Pil op|Vis værktøjstip for et felt eller en kolonneoverskrift i en tabel. Hvis feltet indeholder valideringsfejl, skal du trykke på "Alt + pil op" for at få vist valideringsfejlen. Tryk på "Esc" eller "Alt + pil op" for at lukke værktøjstippet.|
 |Tab|Flytte fokus til det næste kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
 |Skift+Tab|Flytte fokus til det forrige kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|   
 |Enter|Aktivere eller få adgang til det element eller kontrolelement, der er i fokus.|   
 |Alt+Pil ned|Åbne en rulleliste eller slå en værdi for et felt op.|    
 |Alt+Højrepil|Se de transaktioner, der resulterede i en beregnet værdi i et felt.|  
+|F5|Opdater oplysningerne på den aktuelle side.|Bruges til at sikre, at dataene på siden er opdateret med de ændringer, der er foretaget af andre, mens du arbejder.|
+|Ctrl+F5|Genindlæs [!INCLUDE[prodshort](includes/prodshort.md)]-programmet.|Dette svarer til at vælge opdater/genindlæs i programmet.|
 |Esc|Luk den aktuelle side eller rullemenu.|
 
 
@@ -126,7 +129,7 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |Pil op|Rul op på siden.|
 |Højrepil|Rul til højre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
 |Venstre pil|Rul til venstre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
-|Ctrl + 0 (nul)<br />(Cmd + 0)|Passer til hele siden i vinduet. |
+|Ctrl + 0 (nul)<br />(Cmd + 0)|Passer til hele siden på siden. |
 |Ctrl+Home<br />(Cmd + Home)|Gå til den første side i rapporten.|
 |Ctrl+End<br />(Cmd + Home)|Gå til den sidste side i rapporten.|
 |Page Down<br />(Fn + pil ned)|Gå til den næste side i rapporten.|

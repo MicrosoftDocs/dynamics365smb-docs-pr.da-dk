@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f0bdc88cb2d52ed8e1558fb140f904f792e539ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c8f086e0dc7479ece62ab28b64f9553ba2d13b82
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="close-accounting-periods"></a>Afslutte regnskabsperioder
@@ -24,7 +24,7 @@ Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder.
 
 ## <a name="to-close-accounting-periods"></a>Sådan afsluttes regnskabsperioder
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.
-2. I vinduet **Regnskabsperioder** skal du vælge handlingen **Afslut år**.
+2. På siden **Regnskabsperioder** skal du vælge handlingen **Afslut år**.
 
     Hvis mere end et regnskabsår er åbent, vælges det tidligste år, der skal afsluttes, automatisk. Du får vist en meddelelse om, hvilket år der afsluttes, og om konsekvenserne af at afslutte året.
 3. For at lukke året skal du trykke på knappen **Ja**.

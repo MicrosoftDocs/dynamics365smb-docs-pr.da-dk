@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gennemgang: Gennemførsel af en salgskampagne
@@ -65,7 +65,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kampagner**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny** for at oprette en ny kampagne. På kampagnekortet skal du trykke på Enter for få indsat et kampagnenummer automatisk.  
 3.  Gå til feltet **Beskrivelse**, og indtast en beskrivelse af kampagnen, f.eks. **FUTURUS-handelsmesse**.  
-4.  Vælg feltet **Statuskode**, og vælg en statuskode fra listen, der åbnes i vinduet **Kampagnestatus**.  
+4.  Vælg feltet **Statuskode**, og vælg en statuskode fra listen, der åbnes på siden **Kampagnestatus**.  
 5.  Udfyld felterne **Startdato** og **Slutdato** for kampagnen som ønsket.  
 
 ## <a name="selecting-the-target-audience"></a>Vælge målgruppe  
@@ -83,16 +83,16 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
      Du kan bruge filtre til at tilføje kontaktpersoner i henhold til de kriterier, der passer bedst til dit formål. Du kan f.eks. filtrere efter kontaktpersonens ansvarsområde eller forretningsforbindelse eller kontaktvirksomhedens branche. I denne gennemgang skal du vælge filteret **Ansvarsområde** for at vælge kontakter.  
 
-4.  I vinduet **Målgruppe** skal du vælge handlingen **Tilføj kontakter** for at åbne filteret **Tilføj kontakter**.  
+4.  På siden **Målgruppe** skal du vælge handlingen **Tilføj kontakter** for at åbne filteret **Tilføj kontakter**.  
 5.  Gå til oversigtspanelet **Ansvarsområde**, vælg filteret **Køb** som **Ansvarsområdekode**, og klik på **OK**.  
 
-     Vinduet **Målgruppe** indeholder nu en liste over kontakter, der er baseret på det filter, du har angivet. I feltet **Antal linjer** i oversigtspanelet **Generelt** kan du se en oversigt over antallet af kontaktpersoner, der opfylder disse kriterier.  
+     Siden **Målgruppe** indeholder nu en liste over kontakter, der er baseret på det filter, du har angivet. I feltet **Antal linjer** i oversigtspanelet **Generelt** kan du se en oversigt over antallet af kontaktpersoner, der opfylder disse kriterier.  
 
     > [!NOTE]  
     >  Du kan gemme målgruppekriterierne, så de kan bruges igen senere.
 
-    1.  I vinduet **Målgruppe** skal du vælge handlingen **Målgruppe** og derefter vælge handlingen **Gem kriterier**.  
-    2.  I vinduet **Gem målgruppekriterie** skal du indtaste koden for målgruppen. I feltet **Beskrivelse** skal du indtaste beskrivelsen af målgruppekriterierne.
+    1.  På siden **Målgruppe** skal du vælge handlingen **Målgruppe** og derefter vælge handlingen **Gem kriterier**.  
+    2.  På siden **Gem målgruppekriterie** skal du indtaste koden for målgruppen. I feltet **Beskrivelse** skal du indtaste beskrivelsen af målgruppekriterierne.
     3.  Vælg knappen **OK**.  
 
 ## <a name="mining-the-data"></a>Søge efter data  
@@ -100,15 +100,15 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Sådan fjernes kontakter fra målgruppen  
 
-1.  Gå til vinduet **Målgruppe**, vælg handlingen **Kontakter**, og vælg derefter handlingen **Reducer kontakter** for at åbne vinduet **Fjern kontakter - fjern**.  
+1.  Gå til siden **Målgruppe**, vælg handlingen **Kontakter**, og vælg derefter handlingen **Reducer kontakter** for at åbne siden **Fjern kontakter - fjern**.  
 2.  Gå til oversigtspanelet **Forretningsrelation**, vælg filteret **EMNE** som **Forretningsrelationskode**, og klik på **OK**.  
 
-     Vinduet **Målgruppe** indeholder nu en reduceret liste over kontakter, og i feltet **Antal linjer**, kan du se antallet af kontakter, der nu passer til de nye kriterier.  
+     Siden **Målgruppe** indeholder nu en reduceret liste over kontakter, og i feltet **Antal linjer**, kan du se antallet af kontakter, der nu passer til de nye kriterier.  
 
     > [!NOTE]  
     >  Hvis du skal tilbageføre denne fjernelse af en gruppe kontakter, kan du gøre det ved hjælp af funktionen **Gå tilbage**. Med andre ord kan du fortryde dine sidste segmentering.  
     >   
-    >  I vinduet **Målgruppe** skal du vælge handlingen **Målgruppe** og derefter vælge handlingen **Gå tilbage**.  
+    >  På siden **Målgruppe** skal du vælge handlingen **Målgruppe** og derefter vælge handlingen **Gå tilbage**.  
     >   
     >  De kontaktpersoner, du lige har fjernet, føjes til listen over kontaktpersoner.  
 
@@ -117,7 +117,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Sådan knyttes en målgruppe til kampagnen  
 
-1.  I vinduet **Målgruppe** i oversigtspanelet **Kampagne** skal du vælge feltet **Kampagnenr.** for at vælge den kampagne, du ønsker, at målgruppen skal knyttes til, f.eks., **CP0001**.  
+1.  På siden **Målgruppe** i oversigtspanelet **Kampagne** skal du vælge feltet **Kampagnenr.** for at vælge den kampagne, du ønsker, at målgruppen skal knyttes til, f.eks., **CP0001**.  
 2.  Da denne målgruppe er målet for kampagnen, skal du markere afkrydsningsfeltet **Kampagnemålgruppe**.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Sende breve og mails til kontakter  
@@ -132,7 +132,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
     > [!NOTE]  
     >  Denne skabelon består af mere end ét vedhæftet dokument, der hver er skrevet på forskellige sprog. Sprogene inkluderer f.eks. engelsk og dansk.  
 
-4.  Vælg feltet **Sprogkode (standard)** ved at åbne vinduet **Målgruppeinteraktionssprog**. Vælg en sprogkode, og vælg derefter knappen **OK**.  
+4.  Vælg feltet **Sprogkode (standard)** ved at åbne siden **Målgruppeinteraktionssprog**. Vælg en sprogkode, og vælg derefter knappen **OK**.  
 5.  Du kan få vist dokumentet på det valgte sprog. Vælg handlingen **Vedhæftet fil**, og vælg derefter handlingen **Åbn**.  
 
      Hvis du vil besvare meddelelsen med anmodning om tilladelse til at starte Word, skal du vælge indstillingen **Tillad for denne klientsession**.  
@@ -160,7 +160,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 2.  I feltet **Emne (standard)** kan du indtaste følgende eksempel på tekst: **Tak, fordi du besøgte handelsmessen**.  
 3.  Vælg **Mail** i feltet **Korrespondancetype**.  
 4.  Angive sprogindstillinger, som i den foregående procedure.  
-5.  Vælg handlingen **Log**. Vinduet **Gemt målgruppe** åbnes.  
+5.  Vælg handlingen **Log**. Siden **Gemt målgruppe** åbnes.  
 6.  Markér afkrydsningsfeltet **Send vedhæftede filer** for at få de vedhæftede filer sendt pr. mail.  
 7.  Markér afkrydsningsfeltet **Opret opfølgningsmålgruppe**.  
 8.  Vælg knappen **OK**.  
@@ -174,12 +174,12 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
 ### <a name="to-register-campaign-responses"></a>Sådan registreres kampagnesvar.  
 
-1.  Gå til vinduet **Målgruppe**, og udvid oversigtspanelet **Interaktion**.  
+1.  Gå til siden **Målgruppe**, og udvid oversigtspanelet **Interaktion**.  
 2.  Vælg feltet **Interaktionsskabelonkode**.  
 
      Der er ingen interaktionsskabelon til registrering af svar på kampagner. Opret derfor en ny skabelon.  
 
-3.  I vinduet **Interaktionsskabeloner** skal du vælge handlingen **Ny**.  
+3.  På siden **Interaktionsskabeloner** skal du vælge handlingen **Ny**.  
 4.  Gå til feltet **Kode**, indtast **SVAR**, og gå til feltet **Beskrivelse**, og indtast **Kampagnesvar**.  
 5.  Vælg knappen **OK**.  
 6.  Vælg denne interaktionsskabelon i feltet **Interaktionsskabelonkode**, og bekræft den meddelelse, hvor du bliver spurgt, om du vil opdatere målgruppelinjen med den samme interaktionsskabelonkode.  
@@ -190,10 +190,10 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 9. Vælg feltet **Kampagnereaktion**, og bekræft den efterfølgende meddelelse.  
 
      Log målgruppen for at sikre, at interaktionerne er registreret.  
-10. Vælg handlingen **Logfør** under i vinduet **Målgruppe**.  
-11. Gå til vinduet **Gem målgruppe**, fjern markeringen i afkrydsningsfeltet **Send vedhæftede filer**, og klik derefter på **OK**, og bekræft den meddelelse, der vises.  
+10. Vælg handlingen **Logfør** under på siden **Målgruppe**.  
+11. Gå til siden **Gem målgruppe**, fjern markeringen i afkrydsningsfeltet **Send vedhæftede filer**, og klik derefter på **OK**, og bekræft den meddelelse, der vises.  
 
-     Når målgruppen er gemt, oprettes der automatisk en post for kampagnen, så denne handling kan registreres i vinduet **Kampagneposter**.  
+     Når målgruppen er gemt, oprettes der automatisk en post for kampagnen, så denne handling kan registreres på siden **Kampagneposter**.  
 
 ## <a name="see-also"></a>Se også  
 [Relationsstyring](marketing-relationship-management.md)  

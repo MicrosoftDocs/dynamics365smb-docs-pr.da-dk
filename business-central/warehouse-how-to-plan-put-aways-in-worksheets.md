@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlægge læg-på-lager-aktiviteter i kladder
@@ -29,12 +29,12 @@ Hvis du ikke markerer feltet, oprettes der automatisk læg-på-lager-instruktion
 > [!NOTE]  
 >  Uanset status for feltet **Brug læg-på-lager-kladde** på lokationskortet, kan du altid overføre læg-på-lager-instruktionslinjer, dvs. bogførte modtagelseslinjer, til læg-på-lager-kladden ved at gøre følgende:  
 >   
->  1.  Klik i hovedet i vinduet **Læg-på-lager (logistik)**, og tryk på Ctrl+D for at slette hele læg-på-lager-instruktionen, eller marker og slet de linjer, som du hellere vil behandle i kladden.  
+>  1.  Tryk på siden **Læg-på-lager (logistik)** på Ctrl+D for at slette hele læg-på-lager-instruktionen, eller marker og slet de linjer, som du hellere vil behandle i kladden.  
 > 2.  Fortsæt processen på så mange læg-på-lager-aktiviteter som ønsket, indtil du har slettet alle de linjer, som du vil arbejde med i kladden. Vælg derefter **Læg-på-lager-kladder**, og fortsæt med planlægningen der.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Sådan planlægges instruktioner i læg-på-lager-kladden  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-kladde**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Hent lagerdokumenter**. Vinduet **Læg-på-lager-valg** åbnes.  
+2.  Vælg handlingen **Hent lagerdokumenter**. Siden **Læg-på-lager-valg** åbnes.  
 
     Du kan se alle de bogførte modtagelser og registrerede interne læg-på-lager-aktiviteter, der er blevet overført til læg-på-lager-funktionen, herunder dem som der allerede er oprettet læg-på-lager-instruktioner til. Dokumenter med læg-på-lager-linjer, der fuldt ud er blevet lagt på plads og er blevet registreret, vises ikke i oversigten.  
 
@@ -54,7 +54,7 @@ Hvis du ikke markerer feltet, oprettes der automatisk læg-på-lager-instruktion
     > [!NOTE]  
     >  Linjerne slettes kun fra kladden, ikke fra læg-på-lager-oversigten.  
 
-7.  Vælg handlingen **Opret læg-på-lager**. Du får vist vinduet **Opret dokument**, og her kan du tilføje flere oplysninger om den læg-på-lager-aktivitet, du opretter:  
+7.  Vælg handlingen **Opret læg-på-lager**. Siden **Opret dokument** åbnes, og her kan du tilføje flere oplysninger om den læg-på-lager-aktivitet, du opretter:  
 
     -   Du kan tildele læg-på-lager-aktiviteten til en bestemt medarbejder.  
     -   Du kan sortere læg-på-lager-instruktionslinjerne på samme måde som i kladden eller efter placeringsniveau. Hvis du sorterer efter placeringsniveau, står Hent-linjerne øverst, da de fleste modtagelsesplaceringer har et placeringsniveau på 0, og Placer-linjerne nederst, startende med de placeringer, der har det laveste placeringsniveau. Hvis lagerstedet er struktureret, så placeringer med omtrent samme placeringsniveau står ved siden af hinanden, vil en sådan sorteringsmetode spare tid for lagermedarbejderne.  

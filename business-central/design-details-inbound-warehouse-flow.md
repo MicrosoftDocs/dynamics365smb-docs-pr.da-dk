@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designoplysninger: Indgående lagerflow
@@ -62,7 +62,7 @@ Når varerne modtages på lageret, frigiver den bruger, der er ansvarlig for mod
 Når det indgående kildedokument frigives, oprettes der automatisk en indgående lageranmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Opret læg-på-lager  
-I vinduet **Læg-på-lager** modtager lagermedarbejderen på en pull-måde de ventende kildedokumentlinjer, der er baseret på indgående lageranmodninger. Alternativt er læg-på-lager-linjerne allerede oprettet på en push-måde af den bruger, der er ansvarlig for kildedokumentet.  
+På siden **Læg-på-lager** modtager lagermedarbejderen på en pull-måde de ventende kildedokumentlinjer, der er baseret på indgående lageranmodninger. Alternativt er læg-på-lager-linjerne allerede oprettet på en push-måde af den bruger, der er ansvarlig for kildedokumentet.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Bogfør læg-på-lager  
 På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder lagermedarbejderen feltet **Antal** og bogfører derefter lagt på lager. Kildedokumenter, der er knyttet til læg-på-lager, bogføres som modtaget.  
@@ -81,7 +81,7 @@ Når varerne modtages på lageret, frigiver den bruger, der er ansvarlig for mod
 Når det indgående kildedokument frigives, oprettes der automatisk en indgående lageranmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Opret lagermodtagelse  
-I vinduet **Lagermodtagelse** modtager den bruger, der er ansvarlig for modtagelse af varer, de ventende kildedokumentlinjer, der er baseret på den indgående lageranmodning. Flere kildedokumentlinjer kan kombineres i et lagermodtagelsesdokument.  
+På siden **Lagermodtagelse** modtager den bruger, der er ansvarlig for modtagelse af varer, de ventende kildedokumentlinjer, der er baseret på den indgående lageranmodning. Flere kildedokumentlinjer kan kombineres i et lagermodtagelsesdokument.  
 
 Brugeren udfylder feltet **Håndteringsantal** og vælger den modtagende zone og placering, hvis det er nødvendigt.  
 
@@ -106,7 +106,7 @@ Når alle læg-på-lager-aktiviteter er planlagt og tildelt til lagermedarbejder
 Den lagermedarbejder, der udfører læg-på-lager-aktiviteter, opretter et læg-på-lager-lager-dokument på en pull-måde baseret på den bogførte lagermodtagelse. Alternativt er læg-på-lager-dokumentet oprettet og tildelt en lagermedarbejder på en push-måde.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Registrer læg-på-lager  
-På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder lagermedarbejderen feltet **Antal** i vinduet **Læg-på-lager (logistik)** og registrerer derefter læg-på-lager-aktiviteten.  
+På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder lagermedarbejderen feltet **Antal** på siden **Læg-på-lager (logistik)** og registrerer derefter læg-på-lager-aktiviteten.  
 
 Lagerposter oprettes og læg-på-lager-linjerne slettes, hvis de er fuldt håndteret. Læg-på-lager-dokumentet forbliver åbent, indtil det fulde antal af den relaterede bogførte lagermodtagelse er registreret. Feltet **Antal lagt\-på\-lager** på lagermodtagelsens ordrelinjer opdateres.  
 

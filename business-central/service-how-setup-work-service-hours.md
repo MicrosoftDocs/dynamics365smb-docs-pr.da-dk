@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6617cb324873c2c129e4d26907dc43fde1c3c0e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 223d69df17dad2a1309d333fc64be8b208262530
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Konfigurere arbejdstimer og serviceåbningstider
@@ -27,16 +27,16 @@ Når du angiver virksomhedens standardservicetimer, kan du beregne responstiden 
 Når du arbejder på en serviceordre, vil du gerne kunne opdatere dens status, så du kan overvåge fremdriften. Serviceordrens status afspejler reparationsstatus for alle serviceartikler i serviceordren. Du kan finde flere oplysninger i [Om serviceordre og reparationsstatus](service-order-repair-status.md). 
 
 ## <a name="to-set-up-default-service-hours"></a>Sådan angives standardserviceåbningstider  
-Du kan bruge vinduet **Standardserv.åbningstider** til at angive almindelige serviceåbningstider i din virksomhed. Serviceåbningstiderne bruges til at beregne svardato og -tidspunkt for serviceordrer og tilbud og til at udsende advarsler vedr. svartid. Standardserviceåbningstiderne anvendes automatisk til servicekontrakter, medmindre du angiver særlige serviceåbningstider for en kontrakt.  
+Du kan bruge siden **Standardserv.åbningstider** til at angive almindelige serviceåbningstider i din virksomhed. Serviceåbningstiderne bruges til at beregne svardato og -tidspunkt for serviceordrer og tilbud og til at udsende advarsler vedr. svartid. Standardserviceåbningstiderne anvendes automatisk til servicekontrakter, medmindre du angiver særlige serviceåbningstider for en kontrakt.  
   
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Standardserv.åbningstider**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
->  Hvis du lader linjerne i vinduet **Standardserv.åbningstider** være tomme, bruges 24 timer som standardværdi, og den vil kun gælde på almindelige arbejdsdage.  
+>  Hvis du lader linjerne på siden **Standardserv.åbningstider** være tomme, bruges 24 timer som standardværdi, og den vil kun gælde på almindelige arbejdsdage.  
   
 ## <a name="to-set-up-work-hour-templates"></a>Sådan oprettes arbejdstidsskabeloner
-Du kan bruge vinduet **Arbejdstidsskabelon** til at oprette skabeloner, der indeholder den typiske arbejdstid i din virksomhed. Du kan f.eks. oprette skabeloner for teknikere, der arbejder på fuld tid eller på deltid. Du kan bruge arbejdstidsskabeloner, når du føjer kapacitet til ressourcer.  
+Du kan bruge siden **Arbejdstidsskabelon** til at oprette skabeloner, der indeholder den typiske arbejdstid i din virksomhed. Du kan f.eks. oprette skabeloner for teknikere, der arbejder på fuld tid eller på deltid. Du kan bruge arbejdstidsskabeloner, når du føjer kapacitet til ressourcer.  
   
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdstidsskabeloner**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -45,7 +45,7 @@ Du kan bruge vinduet **Arbejdstidsskabelon** til at oprette skabeloner, der inde
 > Når du har angivet arbejdstimer for hver dag, beregnes værdien i feltet **I alt pr. uge** automatisk.  
 
 ## <a name="to-set-up-contract-specific-service-hours"></a>Sådan angives kontraktspecifikke serviceåbningstider  
-Du kan bruge vinduet **Serviceåbningstider** til at angive specifikke serviceåbningstider for den debitor, servicekontrakten tilhører. Serviceåbningstiderne bruges til at beregne svardato og svartidspunkt for serviceordrer og tilbud, som hører til servicekontrakten.  
+Du kan bruge siden **Serviceåbningstider** til at angive specifikke serviceåbningstider for den debitor, servicekontrakten tilhører. Serviceåbningstiderne bruges til at beregne svardato og svartidspunkt for serviceordrer og tilbud, som hører til servicekontrakten.  
   
 Hvis du ikke angiver specifikke serviceåbningstider for servicekontrakten, anvendes standardserviceåbningstiderne.  
   

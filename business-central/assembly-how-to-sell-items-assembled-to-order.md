@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7dbdc368350687c9ac8ab78d13312aa059f1c385
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5540c45eefb1272c5dfa5c790586f6b33b4f4848
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-items-assembled-to-order"></a>Sælge varer, der er monteret til ordre
@@ -38,24 +38,24 @@ I denne procedure behandler du salg af et element, der skal samles i henhold til
 5.  I feltet **Antal** skal du angive, hvor mange enheder, der skal sælges.  
 
     > [!NOTE]  
-    >  Hvis en eller flere komponenter af antallet af anmodede montageelementer ikke er tilgængelige, åbnes et vindue med en detaljeret tilgængelighedsadvarsel. Du kan finde flere oplysninger i Montagedisponering  
+    >  Hvis en eller flere komponenter af antallet af anmodede montageelementer ikke er tilgængelige, åbnes en side med en detaljeret tilgængelighedsadvarsel. Du kan finde flere oplysninger i Montagedisponering  
 
     Der oprettes nu ikke automatisk en montageordre med tilknytning til salgsordrelinjen. Forfaldsdato for denne montageordre er synkroniseret med afsendelsesdato for salgsordrelinjen.  
 
     Antal, der skal sælges, kopieres til feltet **Antal til montage efter ordre**, som angiver, at vareopsætningen forventer, at hele mængden på salgslinjen skal samles til ordren. Du kan reducere antallet til montage efter ordre, hvis du f.eks ved, at nogle elementer allerede er tilgængelige. Du kan finde flere oplysninger i [Sælge lagervarer i montage til ordre-flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 6.  For at vise, at debitor ønsker yderligere et element i en pakke, skal du på oversigtspanelet **Linjer** vælge handlingen **Linje**, vælge handlingen **Montage til ordre** og derefter vælge handlingen **Montage til ordre-linjer** for at få vist og ændret standardmontagekomponenterne. Du kan også vælge feltet **Antal til montage efter ordre**.  
-7.  I vinduet **Montage efter ordre-linjer** oprettes en ny linje af typen **Element** for det ønskede ekstra pakkeindhold. Linjen repræsenterer en ekstra montagekomponent.  
+7.  På siden **Montage efter ordre-linjer** oprettes en ny linje af typen **Element** for det ønskede ekstra pakkeindhold. Linjen repræsenterer en ekstra montagekomponent.  
 
     Du kan også tilpasse rækkefølgen ved at øge antallet af ét standardelement i pakken. Du kan gøre dette ved at forøge værdien i feltet **Mængde pr.** på den pågældende montageordrelinje.  
 
     > [!NOTE]  
-    >  Vinduet **Montage efter ordre-linjer** indeholder kun de vigtigste felter, som en sælger forventes at bruge til at tilpasse komponentoversigten, tilføje varesporingsnumre eller løse problemer med komponentdisponibilitet. Hvis du vil have vist flere montageordreoplysninger, f.eks. montageordrens startdato, skal du vælge handlingen **Vis dokumenter**. Dette åbner en komplet visning af den montageordre, der er tilknyttet salgsordrelinjen. Du kan ikke ændre indholdet af de fleste felter i montageordrehovedet, og du kan ikke bogføre montageafgange, fordi du skal benytte leverancebogføringen fra salgsordrelinjen.  
+    >  Siden **Montage efter ordre-linjer** indeholder kun de vigtigste felter, som en sælger forventes at bruge til at tilpasse komponentoversigten, tilføje varesporingsnumre eller løse problemer med komponentdisponibilitet. Hvis du vil have vist flere montageordreoplysninger, f.eks. montageordrens startdato, skal du vælge handlingen **Vis dokumenter**. Dette åbner en komplet visning af den montageordre, der er tilknyttet salgsordrelinjen. Du kan ikke ændre indholdet af de fleste felter i montageordrehovedet, og du kan ikke bogføre montageafgange, fordi du skal benytte leverancebogføringen fra salgsordrelinjen.  
     >   
     >  På sidehovedet i sammenkædede montageordrer, er det kun feltet **Startdato**, der kan ændres for at få montagearbejdere til at angive en dato, der ligger før forfaldsdato, når de starter processen. Alle felter på linjerne i den tilknyttede montageordre kan ændres, så lagermedarbejdere kan indtaste tallene for forbrug under processen.  
 
 8.  Gennemse eller reager på problemer med tilgængeligheden af komponenter. Vælg f.eks. en tilgængelig erstatningsvare, eller fastsæt en senere forfaldsdato.  
-9. Luk vinduet **Montage efter ordre-linjer**. Den tilknyttede montageordre er nu klar til at begynde samling af de tilpassede elementer efter forfaldsdato.  
+9. Luk siden **Montage efter ordre-linjer**. Den tilknyttede montageordre er nu klar til at begynde samling af de tilpassede elementer efter forfaldsdato.  
 10. På salgsordren skal du vælge handlingen **Frigiv** for at advisere montageafdelingen om, at montageprocessen kan startes.  
 11. I samleafdelingen, skal du udføre trinnene med samling af de elementer, der sælges i denne procedure. Du kan finde flere oplysninger i [Montere varer](assembly-how-to-assemble-items.md).  
 

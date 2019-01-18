@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2018
+ms.date: 10/16/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f7ae293942318c682202a84f0a54ae8b0516c77b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f79bd9a5e3f79d4366a1a43411fe39942ac4e4f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finincludesd365finmdmd-in-an-automated-workflow"></a>Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i et automatisk workflow
-Du kan bruge dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del af en arbejdsproces i Microsoft Flow.  
+Du kan bruge dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del af en arbejdsproces i Microsoft Flow.
+
+> [!NOTE]
+> Ud over Microsoft Flow kan du bruge funktionen Workflow i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vær opmærksom på, selvom det er to separate workflowsystemer, tilføjes en Flow-skabelon, du opretter med Microsoft Flow, på listen over workflowskabeloner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Workflow](across-workflow.md).  
 
 > [!NOTE]  
 >   Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til Flow.  
@@ -28,7 +31,7 @@ Du kan bruge dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del af
 1. Gå til [flow.microsoft.com](https://flow.microsoft.com/en-us/) i din webbrowser, og log på.
 2. Vælg **Mine Flows** på båndet øverst på siden.
 3. Der er to måder at oprette et flow på: **Opret fra skabelon** og **Opret fra tom**. En skabelon er et foruddefineret flow, der er oprettet for dig.  Hvis du vil bruge skabelonen, skal du blot vælge den og oprette en forbindelse for hver tjeneste, skabelonen bruger. Med en tom skabelon kan du oprette et nyt flow helt forfra.
-4. Hvis du vil oprette fra tom, skal du i vinduet **Mine Flows** vælge indstillingen **Opret fra tom**.
+4. Hvis du vil oprette fra tom, skal du på siden **Mine Flows** vælge indstillingen **Opret fra tom**.
 5. Søg efter **Konnektor til [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**.
 6. På listen over tilgængelige udløsere, skal du vælge en af de [!INCLUDE[d365fin](includes/d365fin_md.md)]-udløsere, der er tilgængelige:  
     *Når der anmodes om godkendelse af en debitor*,  
@@ -58,9 +61,6 @@ Nu har du oprettet forbindelse til dine Business Central-data og er klar til at 
     *Anmode om godkendelse af Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-finanskladdekørsel*  
     *Anmode om godkendelse af Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-finanskladdelinjer*.  
 11. Flow beder dig om at vælge et firma i din [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-lejer. Da hvert trin i flowet er uafhængigt af det næste, kan du blive nødt til at definere virksomheden flere gange, når du bruger en [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-skabelon.
-
-> [!NOTE]  
-> [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-skabelonen integreres med det centrale workflowprogram i [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Det betyder, at hver gang du bruger en af skabelonerne til at oprette et flow, oprettes et tilsvarende workflow i [!INCLUDE[d365fin_md](includes/d365fin_md.md)]. Den person, der opretter arbejdsgangen, skal desuden være oprette som godkender i den assisterede opsætningsvejledning. Du kan finde flere oplysninger i [Workflow](across-workflow.md).
 
 Du kan finde flere oplysninger i [Flow-dokumentationen](https://docs.microsoft.com/en-us/flow/getting-started).
 

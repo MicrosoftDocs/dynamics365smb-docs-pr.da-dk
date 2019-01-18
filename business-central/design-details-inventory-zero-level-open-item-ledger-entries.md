@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Designoplysninger: Kendt problem med vareudligning
@@ -102,7 +102,7 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
 
  I scenarie 1 kan du identificere problemet på følgende måde:  
 
--   I vinduet **Bogført salgskreditnota** eller **Bogført returvaremodt.** skal du foretage opslag fra feltet **Udlign\-fra-vareposten** for at se, om feltet er udfyldt, og så tilfælde til hvilken varepost returneringsmodtagelsen er omkostningsudlignet.  
+-   På siden **Bogført salgskreditnota** eller **Bogført returvaremodt.** skal du foretage opslag fra feltet **Udlign\-fra-vareposten** for at se, om feltet er udfyldt, og så tilfælde til hvilken varepost returneringsmodtagelsen er omkostningsudlignet.  
 
  I scenarie 2 kan du identificere problemet på en af følgende måder:  
 
@@ -113,10 +113,10 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
 |333|28-01-2018|Salg|Salgsleverance|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|Nej|  
 |334|28-01-2018|Salg|Salgsleverance|102043|TEST|BLÅ|1|10|1|1|Ja|**Ja**|  
 
--   I vinduet **Bogført salgsleverance** skal du foretage opslag fra feltet **Udlign fra-varepost** for at se, om feltet er udfyldt, og så tilfælde til hvilken varepost returneringsmodtagelsen er omkostningsudlignet.  
+-   På siden **Bogført salgsleverance** skal du foretage opslag fra feltet **Udlign fra-varepost** for at se, om feltet er udfyldt, og så tilfælde til hvilken varepost returneringsmodtagelsen er omkostningsudlignet.  
 
 > [!NOTE]  
->  Kostprisudligning kan ikke identificeres i vinduet **Udlignede vareposter**, da vinduet kun viser mængdeudligninger.  
+>  Kostprisudligning kan ikke identificeres på siden **Udlignede vareposter**, da siden kun viser mængdeudligninger.  
 
  I begge scenarier kan du identificere den involverede kostprisudligning på følgende måde:  
 
@@ -138,7 +138,7 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
  Læg mærke til ovenfor, at den indgående varepost 334 er omkostningsudlignet til den udgående varepost 333.  
 
 ## <a name="workaround-for-the-issue"></a>Løsning til problemet  
- I vinduet **Varekladde** skal du bogføre følgende linjer for den pågældende vare:  
+ På siden **Varekladde** skal du bogføre følgende linjer for den pågældende vare:  
 
 -   En opregulering for at lukke den åbne udgående varepost.  
 

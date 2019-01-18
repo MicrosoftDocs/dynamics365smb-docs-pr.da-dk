@@ -1,6 +1,6 @@
 ---
 title: "Sådan oprettes ruter | Microsoft Docs"
-description: "En rute indeholder stamdata, som beskriver procesbehovene for en bestemt fremstillet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens rute planlægningen af handlinger, som repræsenteret i vinduet **Prod.ordrerute** under produktionsordren."
+description: "En rute indeholder stamdata, som beskriver procesbehovene for en bestemt fremstillet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens rute planlægningen af handlinger, som repræsenteret på siden **Prod.ordrerute** under produktionsordren."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0b274e23b03c06c395df6b91033174425cda679b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-routings"></a>Oprette ruter
@@ -24,7 +24,7 @@ Produktionsvirksomheder bruger ruter til at visualisere og styre produktionsproc
 
 Ruten danner også grundlag for procesplanlægning, kapacitetsplaner, planlagt tildeling af materialebehov og produktionsdokumenter.  
 
-Hvad angår produktionsstyklister, tildeles ruterne til slutvaren fra produktionen. En rute indeholder stamdata, som beskriver procesbehovene for en bestemt fremstillet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens rute planlægningen af handlinger, som repræsenteret i vinduet **Prod.ordrerute** under produktionsordren.  
+Hvad angår produktionsstyklister, tildeles ruterne til slutvaren fra produktionen. En rute indeholder stamdata, som beskriver procesbehovene for en bestemt fremstillet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens rute planlægningen af handlinger, som repræsenteret på siden **Prod.ordrerute** under produktionsordren.  
 
 Før du kan oprette en rute, skal følgende betingelser være opfyldt:  
 
@@ -61,7 +61,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 ## <a name="to-create-routing-links"></a>Sådan oprettes rutebindinger
 Du kan oprette rutebindinger til at knytte komponenter til bestemte operationer for at bevare deres relationer, selvom produktionsstyklisterne eller ruterne ændres. De letter også yderligere just in time-træk af komponenter på det tidspunkt, hvor den angivne bundne operation starter, og ikke når hele produktionsordren frigives. Du kan finde flere oplysninger i [Udtrække komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).  
 
-En anden vigtig fordel er, at bundne komponenter og operationer vises i en logisk processtruktur, når vinduet **Produktionskladde** bruges til bogføring af afgang og forbrug.  
+En anden vigtig fordel er, at bundne komponenter og operationer vises i en logisk processtruktur, når siden **Produktionskladde** bruges til bogføring af afgang og forbrug.  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
 2.  Åbn ruten, der indeholder de handlinger, som du vil tilknytte.  
@@ -89,7 +89,7 @@ En anden vigtig fordel er, at bundne komponenter og operationer vises i en logis
     > [!NOTE]  
     >  For at aktivere rutebindingerne på en eksisterende produktionsordre skal du først forny produktionsordren. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).  
 
-De valgte komponenter knyttes nu til de valgte operationer, når du opretter eller opdaterer en produktionsordre ved hjælp af den pågældende produktionsstykliste og rute. Dette er synligt i vinduet **Prod.ordrekomponenter** under produktionsordren, og her kan du også når som helst fjerne og definerede rutebindingskoder.
+De valgte komponenter knyttes nu til de valgte operationer, når du opretter eller opdaterer en produktionsordre ved hjælp af den pågældende produktionsstykliste og rute. Dette er synligt på siden **Prod.ordrekomponenter** under produktionsordren, og her kan du også når som helst fjerne og definerede rutebindingskoder.
 
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Sådan tildeles personale, værktøj og kvalitetsmål for ruteoperationer.
 Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller særlige tilladelser til en operation, kan du knytte dem til operationen her. Du kan også tildele værktøjer og kvalitetskrav til operationen. Denne procedure beskriver, hvordan du tildeler medarbejdere. Trinene er de samme for andre typer operationsoplysninger.
@@ -97,15 +97,15 @@ Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller sæ
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
 2.  Åbn den relevante rute.  
 3.  På oversigtspanelet **Linjer** skal du markere den linje, du vil behandle, og derefter vælge handlingen **Medarbejdere**.  
-4.  Udfyld felterne i vinduet **Rute - Mandskab**.  
-5.  Vælg knappen **OK** for at lukke vinduet. De angivne værdier kopieres og knyttes til operationen.    
+4.  Udfyld felterne på siden **Rute - Mandskab**.  
+5.  Vælg knappen **OK** for at afslutte siden. De angivne værdier kopieres og knyttes til operationen.    
 
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Sådan oprettes en ny version af ruter  
 Versionsprincippet gør det muligt for dig at styre flere versioner af en rute. Ruteversionens struktur svarer til rutens struktur, og den består af ruteversionshovedet og -linjerne. Den egentlige forskel består i startdatoen.  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
 2.  Vælg den rute, der skal kopieres, og vælg derefter handlingen **Versioner**.  
-3. I vinduet **Ruteversioner** skal du vælge handlingen **Ny**.
+3. På siden **Ruteversioner** skal du vælge handlingen **Ny**.
 4. Udfyld felterne efter behov.
 5.  I feltet **Versionskode** skal du angive en entydig identifikation af versionen. Alle kombinationer af tal og bogstaver er tilladt.  
 

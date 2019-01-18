@@ -11,10 +11,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ecee2f3b5be33bb12f6ca742c0a28720fee6e427
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Oprette analyserapporter
@@ -41,9 +41,9 @@ Derefter kan du oprette kolonner som disse:
 - Salg i % af foregående måned  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Opsætte linje- og kolonneformater  
- I vinduet **Analyserapport** kan du få vist forskellige linje- og kolonneformater alt efter din opsætning. Du opretter linjer eller linjeskabeloner i vinduet **Analyselinjeskabeloner**. I dette vindue kan du definere navnet på rapporten og de objekter, der skal vises på linjerne i rapporten. Kolonnerne angiver du i vinduet **Analysekolonneskabeloner**. I dette vindue kan du definere navnet på kolonneskabelonen og de analyseparametre, der skal vises i rapporten i form af kolonner. I vinduet **Analysekolonneskabeloner** repræsenterer hver linje en kolonne i rapporten. Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.  
+ På siden **Analyserapport** kan du få vist forskellige linje- og kolonneformater alt efter din opsætning. Du opretter linjer eller linjeskabeloner på siden **Analyselinjeskabelon**. På denne side kan du definere navnet på rapporten og de objekter, der skal vises på linjerne i rapporten. Kolonnerne angiver du på siden **Analysekolonneskabeloner**. På denne side kan du definere navnet på kolonneskabelonen og de analyseparametre, der skal vises i rapporten i form af kolonner. På siden **Analysekolonneskabeloner** repræsenterer hver linje en kolonne i rapporten. Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.  
 
-Programmet samler resultaterne af rapporten i matrixvinduet **Analyserapport** på grundlag af de linjer og kolonner, som du har angivet, som i dette eksempel:  
+Programmet samler resultaterne af rapporten i matrixsiden **Analyserapport** på grundlag af de linjer og kolonner, som du har angivet, som i dette eksempel:  
 
 | |Salg indeværende måned|Salg foregående måned|Salg foregående måned i %|  
 |-|-|-|-|  
@@ -64,10 +64,10 @@ En skabelon indeholder et sæt linjer, der hver repræsenterer de analysekolonne
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsanalyse - Kolonneskabeloner**, og vælg derefter det relaterede link.  
 2. Vælg den første tomme linje, og udfyld derefter felterne efter behov.
 3. Vælg handlingen **Kolonner**.  
-4. Udfyld felterne i vinduet **Analysekolonner** for at angive de kolonner, som du vil have med i analyserapporten.  
+4. Udfyld felterne på siden **Analysekolonner** for at angive de kolonner, som du vil have med i analyserapporten.  
 
     > [!NOTE]  
-    >   For at definere en kolonne skal du udfylde feltet **Analysetypekoder** for alle kolonnetyper undtagen **Formel**. Angiv analysetypekoderne i vinduet **Analysetyper**.  
+    >   For at definere en kolonne skal du udfylde feltet **Analysetypekoder** for alle kolonnetyper undtagen **Formel**. Angiv analysetypekoderne på siden **Analysetyper**.  
     Hvis du vælger **Vareposter** i feltet **Posttype**, kopieres de faktiske tal desuden fra vareposten. Hvis du vælger **Varebudgetposter**, kopieres de budgetterede tal fra budgettet.  
 5.  Vælg knappen **OK** for at gemme ændringerne.  
 
@@ -81,7 +81,7 @@ En skabelon indeholder et sæt linjer, der repræsenterer de analyselinjer, som 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsanalyse - linjeskabeloner**, og vælg derefter det relaterede link.  
 2. Vælg den første tomme linje, og udfyld derefter felterne efter behov.
 3. Vælg handlingen **Linjer**.  
-4. Brug vinduet **Analyselinjer** til at oprette linjer for de varer, kunder, leverandører eller sælgere, som du vil se oplysninger for i analyserapporten. Du skal udfylde felterne **Type**, **Interval** og **Beskrivelse**.  
+4. Brug siden **Analyselinjer** til at oprette linjer for de varer, kunder, leverandører eller sælgere, som du vil se oplysninger for i analyserapporten. Du skal udfylde felterne **Type**, **Interval** og **Beskrivelse**.  
 
 > [!NOTE]  
 >   Hvis du skal oprette mange individuelle linjer for hver vare, kunde osv., kan du i stedet klikke på den relevante indsættelsesfunktion for at udfylde alle de relevante felter på linjen. Hvis du vil, kan du derefter redigere linjerne manuelt. Hvis du vil indsætte linjer, skal du vælge handlingen **Indsæt varer** eller **Indsæt varegrupper**.  
@@ -92,13 +92,13 @@ Følgende procedure er baseret på analyserapporter for salg. Trinene er de samm
 Du kan anvende analyserapporter til at analysere dynamikken i dine salg i henhold til nøglesalgsindikatorer, som du vælger, f.eks. salgsomsætningen i både beløb og antal, dækningsbidrag, eller det aktuelle salgs forløb i forhold til budgettet. Du kan også anvende rapporten til at analysere dine gennemsnitlige salgspriser og evaluere din salgsstyrkes præstationer.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsanalyserapporter**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Ny** i vinduet **Analyserapport - salg**.
+2. Vælg handlingen **Ny** på siden **Analyserapport - salg**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg handlingen **Rediger analyserapport**.
-5. Vælg handlingen **Vis matrix** i vinduet **Salgsanalyserapport**.  
+5. Vælg handlingen **Vis matrix** på siden **Salgsanalyserapport**.  
 
 > [!NOTE]  
->   Det er valgfrit at opbygge kombinationer af linje- og kolonneskabeloner for at oprette rapporter og tildele dem unikke navne. Hvis du gør dette og vælger et rapportnavn, behøver du ikke vælge linje- og kolonneskabeloner i vinduet **Salgsanalyserapport**. Når du har valgt et rapportnavn, kan du ændre linje- og kolonneskabeloner uafhængigt og derefter senere vælge rapportnavnet igen for at gendanne den oprindelige kombination.
+>   Det er valgfrit at opbygge kombinationer af linje- og kolonneskabeloner for at oprette rapporter og tildele dem unikke navne. Hvis du gør dette, betyder valg af et rapportnavn, ar du ikke har brug for at vælge linje- og kolonneskabeloner på siden **Salgsanalyserapport**. Når du har valgt et rapportnavn, kan du ændre linje- og kolonneskabeloner uafhængigt og derefter senere vælge rapportnavnet igen for at gendanne den oprindelige kombination.
 
 ## <a name="see-also"></a>Se også
 [Business Intelligence](bi.md)  

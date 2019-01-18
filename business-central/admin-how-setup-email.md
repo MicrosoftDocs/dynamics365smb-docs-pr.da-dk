@@ -12,14 +12,14 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurere mail manuelt eller ved hjælp af den assisterede opsætning
-Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne i vinduet **SMTP-mailopsætning**.
+Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne på siden **SMTP-mailopsætning**.
 
 > [!NOTE]  
 >   I stedet for at angive detaljer om SMTP-serveren kan du bruge en funktion, der bruger oplysninger fra dit abonnement på Office 365.
@@ -31,7 +31,7 @@ Du kan enten oprette mail manuelt, eller du kan få hjælp af den assisterede op
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan også vælge handlingen **Anvend Office 365 Server-indstillinger** for at indsætte de oplysninger, der er allerede defineret til Office 365-abonnementet.
 4. Når alle felter er udfyldt korrekt, kan du vælge handlingen **Test mailopsætning**.
-5. Når testen er gennemført, skal du lukke vinduet.
+5. Når testen er gennemført, skal du lukke siden.
 
 ## <a name="see-also"></a>Se også  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

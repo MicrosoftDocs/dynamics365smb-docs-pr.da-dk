@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer
@@ -51,7 +51,7 @@ Et kontoskema består af et kassekontoskemanavn med en række linjer og et kolon
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Sådan opsættes et nyt kontoskemanavn  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoskemaer**, og vælg derefter det relaterede link.  
-2.  I vinduet **Kontoskemanavne** i skal du vælge handlingen **Ny** for at oprette et nyt kassekontoskemanavn.  
+2.  På siden **Kontoskemanavne** i skal du vælge handlingen **Ny** for at oprette et nyt kassekontoskemanavn.  
 3.  I feltet **Navn** skal du skrive **Forecast**.  
 4.  I feltet **Beskrivelse** skal du angive **Pengestrømsprognose**.  
 5.  Lad felterne **Standard kolonneformat** og **Analysenavn** være tomme.  
@@ -61,8 +61,8 @@ Efter opsætning af et kontoskemanavn, definerer Ken hver linje, der vises i kas
 
 ### <a name="to-set-up-account-schedule-lines"></a>Opsætning af kontoskemalinjer  
 
-1.  I vinduet **Kontoskemanavne** skal du vælge det nye **forecast**-kontoskemanavn, du har oprettet. Under fanen **Startside** i gruppen **Proces** skal du vælge **Rediger kontoskema**.  
-2.  I vinduet **Kontoskema** skal du angive hver linje nøjagtigt som vist i følgende tabel.  
+1.  På siden **Kontoskemanavne** skal du vælge det nye **forecast**-kontoskemanavn, du har oprettet. Under fanen **Startside** i gruppen **Proces** skal du vælge **Rediger kontoskema**.  
+2.  På siden **Kontoskema** skal du angive hver linje nøjagtigt som vist i følgende tabel.  
 
     > [!NOTE]  
     >  Ved hjælp af funktionen **Indsæt CF-konti** kan du hurtigt markere pengestrømskonti fra diagrammet for pengestrømkonti og kopiere dem til linjer i kontoskemaet.  
@@ -79,12 +79,12 @@ Ken er nu klar til at tildele kolonneformatet til kontoskemanavnet.
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Sådan tildeles kolonneformatet til navnet på kontoskemaet  
 
-1.  I vinduet **Kontoskemanavne** skal du vælge **Forecast** i feltet **Navn**.  
+1.  På siden **Kontoskemanavne** skal du vælge **Forecast** i feltet **Navn**.  
 2.  I feltet **Standard kolonneformat** skal du vælge kolonneformatet **Pengestrøm** for at angive det som standardkolonneformat.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>Visning og udskrift af likviditetsforecastet  
-1.  I vinduet **Kontoskemanavne** skal du vælge handlingen **Oversigt** for at få vist pengestrømsprognosen.  
-2.  I vinduet **Kontoskemaoversigt** kan du vælge et beløb og derefter få vist pengestrømsprognoseposterne, der udgør beløbet. Derudover kan du få vist den formel, der bruges til at beregne beløbet. Du kan også filtrere beløbene efter dato og dimension.  
+1.  På siden **Kontoskemanavne** skal du vælge handlingen **Oversigt** for at få vist pengestrømsprognosen.  
+2.  På siden **Kontoskemaoversigt** kan du vælge et beløb og derefter få vist pengestrømsprognoseposterne, der udgør beløbet. Derudover kan du få vist den formel, der bruges til at beregne beløbet. Du kan også filtrere beløbene efter dato og dimension.  
 3.  Vælg handlingen **Udskriv** for at udskrive pengestrømsprognosen.  
 
 ## <a name="see-also"></a>Se også  

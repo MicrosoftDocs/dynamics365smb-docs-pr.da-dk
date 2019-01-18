@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 121483c36152da6a96979d13417b0d88c938cecb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97ca5aab24b04f6c2d0677c6fd9626b93fcd8ca8
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-many-incoming-document-records"></a>Administrere mange indgående dokumentposter
-Efterhånden som du opretter eller behandler indgående dokumentposter, kan antal linjer i vinduet **Indkommende dokumenter** vokse til et omfang, hvor du mister overblikket. Derfor kan du indstille indgående dokumentposter til Behandlet for at fjerne dem fra standardvisningen. Når du vælger handlingen **Vis alle**, kan du få vist både behandlede og ikke-behandlede poster.
+Efterhånden som du opretter eller behandler indgående dokumentposter, kan antal linjer på siden **Indkommende dokumenter** vokse til et omfang, hvor du mister overblikket. Derfor kan du indstille indgående dokumentposter til Behandlet for at fjerne dem fra standardvisningen. Når du vælger handlingen **Vis alle**, kan du få vist både behandlede og ikke-behandlede poster.
 
 > [!NOTE]  
 >   Du kan ikke redigere oplysningerne, vedhæfte filer eller udføre andre processer på indgående dokumentposter, der er indstillet til Behandlet. Du skal først indstille dem til Ikke-behandlet.
@@ -28,29 +28,29 @@ Efterhånden som du opretter eller behandler indgående dokumentposter, kan anta
 Afkrydsningsfeltet **Behandlet** markeres automatisk på indgående dokumentposter, der er blevet behandlet, men du kan også markere eller fjerne markeringen i feltet manuelt. Afhængigt af din forretningsproces kan en indgående dokumentpost blive behandlet, når der er oprettet et relateret dokument til den, eller der er vedhæftet en fil.
 
 > [!NOTE]  
->   Når du åbner vinduet **Indkommende dokumenter** med handlingen **Indkommende dokumenter** i Rollecenter, vises kun ikke-behandlede indgående dokumentposter som standard. I dette emne omtales det som "standardvisningen".
+>   Når du åbner siden **Indkommende dokumenter** med handlingen **Indkommende dokumenter** i Rollecenter, vises kun ikke-behandlede indgående dokumentposter som standard. I dette emne omtales det som "standardvisningen".
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Sådan fjernes indgående dokumentposter fra standardvisningen
-1. I feltet **Indkommende dokumenter** skal du vælge en eller flere linjer for indgående dokumentposter, du vil fjerne fra standardvinduet.
+1. På siden **Indkommende dokumenter** skal du vælge en eller flere linjer for indgående dokumentposter, du vil fjerne fra standardvinduet.
 2. Vælg handlingen **Indstil til behandlet**.
 
     Indgående dokumentposter fjernes fra standardvisningen og afkrydsningsfeltet **Behandlet** markeres på linjerne.
 
 > [!NOTE]  
->   Du kan også udføre handlingen for den individuelle post i vinduet **Indgående bilagskort**.
+>   Du kan også udføre handlingen for den individuelle post på siden **Indgående bilagskort**.
 
 ## <a name="to-view-all-incoming-document-records"></a>Sådan vises alle indgående dokumentposter
-1. I vinduet **Indgående dokumenter** skal du vælge handlingen **Vis alle**.
+1. På siden **Indgående dokumenter** skal du vælge handlingen **Vis alle**.
 
 Alle indgående dokumentposter vises, herunder dem, hvor feltet **Behandlet** ikke er markeret.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>Sådan føjes indgående dokumentposter til standardvisningen
-1. I vinduet **Indgående dokumenter** skal du vælge handlingen **Vis alle**.
+1. På siden **Indgående dokumenter** skal du vælge handlingen **Vis alle**.
 2. Vælg en eller flere linjer for indgående dokumentposter, der skal vises i standardvisningen.
 3. Vælg handlingen **Indstil til ikke-behandlet**.  
 
 > [!NOTE]  
->   Du kan også udføre handlingen for den individuelle post i vinduet **Indgående bilagskort**.
+>   Du kan også udføre handlingen for den individuelle post på siden **Indgående bilagskort**.
 
 ## <a name="see-also"></a>Se også
 [Behandle indgående bilag](across-process-income-documents.md)  

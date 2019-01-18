@@ -4,17 +4,14 @@ description: "Lære at administrere brugere og rollecentre i Business Central."
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: profiles, users
-ms.date: 10/01/2018
+ms.date: 10/24/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1a94d023424c6eceb93af6e9ca89a90a3a94e996
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Forstå brugere, profiler og rollecentre
@@ -29,6 +26,11 @@ Når du vil tilføje brugere i [!INCLUDE[d365fin](includes/d365fin_md.md)] onlin
 
 Administratoren kan derefter tildele tilladelser til hver bruger og grupper af brugere. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).  
 
+De mest effektive rettigheder, en bruger kan have, er rettighedssættet SUPER. Hver virksomhed skal have mindst én bruger med dette rettighedssæt, men det er bedst at give hver bruger rettigheder, der passer til deres arbejdsbehov i [!INCLUDE[prodshort](includes/prodshort.md)] og ikke mere end det. Dette sikrer f.eks, at brugerne kun har adgang til data, der er relevante for deres arbejde.  
+
+> [!TIP]
+> Det anbefales at sikre, at Office 365-administratoren også har rettigheden SUPER indstillet i [!INCLUDE[prodshort](includes/prodshort.md)], fordi der letter mange administrative opgaver, herunder konfiguration af integration med andre programmer.
+
 ### <a name="users-of-on-premises-deployments"></a>Brugere af lokale installationer
 
 Ved lokale installationer af [!INCLUDE[d365fin](includes/d365fin_md.md)] kan administratoren vælge mellem forskellige godkendelse af legitimationsoplysninger for brugere. Når du derefter opretter en bruger, angiver du forskellige oplysninger, afhængigt af den type legitimationsoplysninger, du bruger i den specifikke [!INCLUDE[server](includes/server.md)]-forekomst. Du kan finde flere oplysninger i [Godkendelse og typer af legitimationsoplysninger](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i sektionen Administration af udvikler- og ITPro-indholdet til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,6 +44,46 @@ Profiler er samlinger af [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere, de
 > [!NOTE]  
 >  I den aktuelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)] online kan du ikke tilføje, redigere eller slette profiler.  
 
+### <a name="CreateProfile"></a>Oprette en profil
+
+1.  Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Profilliste**, og vælg derefter det relaterede link.  
+
+2.  På siden **Profilliste** skal du vælge handlingen **Ny** handling for at åbne siden **Nyt profilkort**.  
+
+3.  I feltet **Profil-id** skal du angive et navn, der beskriver den tiltænkte rolle for brugerne.  
+
+4.  Gå til feltet **Beskrivelse** , og angiv en beskrivelse af profil-id'et, f.eks. **Ordrebehandler**.  
+
+5.  Angiv feltet **Rollecenter-id** for det rollecenter, der skal tildeles til profilen.  
+
+Proceduren for ændring af en eksisterende profil er den samme, bortset fra at du kan vælge en eksisterende profil på siden **Profilliste** i stedet for at vælge handlingen **Ny**.  
+
+
+### <a name="copy-a-profile"></a>Kopiere en profil
+Kopiering af en profil kan spare tid, hvis du vil bruge samme indstillinger på en profil, og du kun vil ændre nogle få indstillinger.
+
+1.  Åbn den profil, du vil kopiere, og vælg derefter handlingen **Kopier profil**.
+
+2.  I feltet **Nyt profil-id** skal du indtaste et navn på den profil, du vil kopiere.
+
+3.  Angiv feltet **Ny profils område** til et af følgende:
+
+    - **System** for at gøre den nye profil tilgængelig for alle lejerdatabaser, der bruger programmet.
+    - **Lejer** for at gøre den nye profil tilgængelig for kun den aktuelle lejerdatabase.
+4. Tryk på knappen **OK**, når du er færdig.
+
+### <a name="ExportImportProfile"></a>Eksportere og importere profiler
+
+Du kan eksportere og importere profiler som XML-filer til og fra den en [!INCLUDE[d365fin](includes/d365fin_md.md)]-database. Eksport og import af en profil kan spare dig tid, når du konfigurerer brugergrænsefladen, fordi du kan genbruge en eksisterende profil i stedet at konfigurere en profil forfra. Hvis du har en profil, der er konfigureret i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-database, og du vil genbruge alle eller nogle af de samme profilkonfigurationer i en anden database, kan du eksportere profilen til en XML-fil. Du kan derefter importere XML-filen med profilen til anden databasen.
+
+-   For at eksportere en profil kan du enten vælge handlingen **Udlæs profiler** fra siden **Profilliste** eller siden **Profilkort**, eller du kan søge efter og åbne siden **Udlæs profiler**. Gem XML-filen på en placering på computeren eller netværket.
+
+-   For at importere en profil kan du enten vælge handlingen **Indlæs profiler** fra siden **Profilliste**, eller du kan søge efter og åbne siden **Indlæs profiler**. 
+
+    > [!NOTE]  
+    >  Du kan ikke importere en profil, der allerede findes i databasen, selvom XML-filen har et andet navn eller har et andet indhold. Før du kan importere den nye profil, skal du slette den eksisterende profil.
+
+
 ## <a name="configuration-and-personalization"></a>Konfiguration og brugertilpasning
 <!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
 
@@ -50,6 +92,7 @@ Profiler er samlinger af [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere, de
 -   Personalization, performed by users  
 
 The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  -->
+
 Brugene tilpasser brugergrænsefladen i deres personlige version ved at tilpasse brugergrænsefladen under deres egne brugerlogon. Denne tilpasning kan slettes af administratoren. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).  
 
 ## <a name="see-also"></a>Se også  

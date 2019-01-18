@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: admin-how-to-create-custom-company-configuration-packages
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 80924de4105cd605aa1698fa322493ecdb7a237c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88b555066b3c41a8b162166f6d137eb8dc33f6de
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="review-and-customize-existing-database-data"></a>Gennemgå og tilpasse de eksisterende databasedata
@@ -31,7 +32,7 @@ Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få 
 
 2.  Under fanen **Handlinger** i gruppen **Vis** skal du vælge **Databasedata**.  
 
-     Vinduet [!INCLUDE[d365fin](includes/d365fin_md.md)] for siden åbnes.  
+     Siden [!INCLUDE[d365fin](includes/d365fin_md.md)] for siden åbnes.  
 
 3.  Gennemse de tilgængelige oplysninger. Rediger dem efter behov ved at slette poster, der ikke er relevante, eller ved tilføje nye.  
 

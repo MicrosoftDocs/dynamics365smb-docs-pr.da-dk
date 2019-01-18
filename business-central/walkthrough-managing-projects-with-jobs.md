@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1f228296cfa750670e1270a100755e67885c783a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gennemgang: Administration af projekter med sager
@@ -84,7 +84,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     - **Navn**: **Tina**  
     - **Type**: **Person**  
 
-4.  Vælg feltet **Basisenhed**, og vælg derefter handlingen **Ny** for at åbne vinduet **Ressourceenhed**. Vælg **Time** i feltet **Kode**. Vælg knappen **OK**.  
+4.  Vælg feltet **Basisenhed**, og vælg derefter handlingen **Ny** for at åbne siden **Ressourceenhed**. Vælg **Time** i feltet **Kode**. Vælg knappen **OK**.  
 5.  Indtast følgende oplysninger i oversigtspanelet **Fakturering**:  
 
     -   **Købspris**: **5**  
@@ -100,14 +100,14 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 ### <a name="to-create-a-job-journal-batch"></a>Sådan oprettes et sagskladdenavn  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
-2.  Vælg feltet **Kladdenavn** i vinduet **Sagskladde**. Vinduet **Kladdenavn** åbnes.  
+2.  Vælg feltet **Kladdenavn** på siden **Sagskladde**. Siden **Kladdenavn** åbnes.  
 3.  Vælg handlingen **Ny** for at oprette en ny linje med følgende oplysninger:  
 
     -   **Navn**: **Tina**  
     -   **Beskrivelse**: **Tina**  
     -   **Nummerserie**: **JJNL-GEN**  
 
-4.  Vælg knappen **OK** for at lukke alle åbne vinduer.  
+4.  Vælg knappen **OK** for at lukke alle åbne sider.  
 
 ## <a name="setting-up-a-job"></a>Oprettelse af en sag  
  I dette scenarie, har CRONUS vundet en kontrakt hos en kunde, Progressive Home Furnishings, om at designe en konference- og spisesal. Kunden har base i USA, og projektet kræver specialsoftware. Projektlederen når frem til en aftale med kunden og opretter en sag, der dækker aftalen.  
@@ -135,26 +135,26 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 ### <a name="to-customize-pricing"></a>Tilpasse priser  
 
 1.  Gå til sagskortet, vælg handlingen **Ressource**.  
-2.  Indtast følgende oplysninger i vinduet **Sagsressourcepriser**:  
+2.  Indtast følgende oplysninger på siden **Sagsressourcepriser**:  
 
     -   **Kode**: **Tina**  
     -   **Salgspris**: **20**  
 
-3.  Vælg knappen **OK** for at lukke vinduet.  
+3.  Vælg knappen **OK** for at lukke siden.  
 4.  Vælg handlingen **Vare**.  
-5.  Indtast følgende oplysninger og tilpasset pris i vinduet **Sagsvarepriser**:  
+5.  Indtast følgende oplysninger og tilpasset pris på siden **Sagsvarepriser**:  
 
     1.  **Varenr.**: **80201 (grafikprogram)**  
     2.  **Salgspris**: **200**  
 
-6.  Vælg knappen **OK** for at lukke vinduet.  
+6.  Vælg knappen **OK** for at lukke siden.  
 7.  Vælg handlingen **Finanskonto**.  
-8.  I vinduet **Sagsfinanskontopriser** skal du angive følgende oplysninger og prisen for rejsen, som debitor har accepteret at betale pris plus 25 procent:  
+8.  På siden **Sagsfinanskontopriser** skal du angive følgende oplysninger og prisen for rejsen, som debitor har accepteret at betale pris plus 25 procent:  
 
     1.  **Finanskonto**: **8430 (rejse)**  
     2.  **Kostprisfaktor**: **1,25**  
 
-9. Vælg knappen **OK** for at lukke vinduet.  
+9. Vælg knappen **OK** for at lukke siden.  
 
  De sidste trin i opsætning af en sag tilføjer sagsopgaver og de planlægningslinjer, der indgår i hver opgave. Planlægningslinjerne bestemmer, hvad kunden faktureres for.  
 
@@ -209,7 +209,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     -   **Antal**: **2**  
     -   **Kostpris**: **400**  
 
-2.  Vælg knappen **OK** for at lukke vinduet. Totalerne opdateres i vinduet **Sagsopgavelinjer**.  
+2.  Vælg knappen **OK** for at lukke siden. Totalerne opdateres på siden **Sagsopgavelinjer**.  
 3.  Vælg linje 1020, og vælg derefter handlingen **Sagsplanlægningslinjer**. Angiv følgende oplysninger:  
 
      **Linje 1**  
@@ -228,7 +228,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     -   **Nr.**: **80201 (grafikprogram)**  
     -   **Antal**: **1**  
 
-4.  Vælg knappen **OK** for at lukke vinduet. Totaler opdateres i vinduet **Sagsopgavelinjer**.  
+4.  Vælg knappen **OK** for at lukke siden. Totaler opdateres på siden **Sagsopgavelinjer**.  
 
 ## <a name="calculating-remaining-usage"></a>Beregne resterede forbrug  
  Tina, der er medlem af projektteamet, har arbejdet på sagen i et stykke tid og ønsker at registrere sine timer og forbrug på sagen. Hun har ikke arbejdet mere end aftalt med kunden i forvejen. Hun bruger kørslen **Beregn resterede forbrug** til at beregne det resterende forbrug for sagen i sagskladden. For hver opgave beregner kørslen forskellen mellem planlagt forbrug af varer, ressourcer og finansudgifter og det faktiske forbrug, der er bogført i finansposterne. Det resterende forbrug vises derefter i sagskladden, hvor hun kan bogføre det.  
@@ -236,15 +236,15 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 ### <a name="to-calculate-remaining-usage"></a>Sådan beregnes resterede forbrug  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
-2.  I vinduet **Sagskladde** og feltet **Kladdenavn**, skal du åbne listen **Job Journals Batch**. Vælg sagskladden **Tina**.  
+2.  På siden **Sagskladde** og feltet **Kladdenavn**, skal du åbne listen **Job Journals Batch**. Vælg sagskladden **Tina**.  
 3.  Vælg handlingen **Beregn resterende forbrug**.  
-4.  Vælg **Sagsnr.** i oversigtspanelet **Sagsopgaver** i vinduet **Beregn resterende forbrug for sag**, og vælg det relevante sagsnummer, typisk job J00010.  
+4.  Vælg **Sagsnr.** i oversigtspanelet **Sagsopgaver** på siden **Beregn resterende forbrug for sag**, og vælg det relevante sagsnummer, typisk job J00010.  
 5.  Gå til oversigtspanelet **Indstillinger**, indtast **J00001** i feltet **Bilagsnr.**. Dette gør fremtidig sporing af bogføringer nemmere.  
 6.  Angiv dags dato som bogføringsdatoen.  
 7.  Vælg knappen **OK**. Dermed oprettes der opgavekladdelinjer, der kommer fra de planlægningslinjer, som Per oprettede for sagen.  
-8.  Vælg knappen **OK** i bekræftelsesvinduet. Genererede linjer føjes til sagskladde.  
+8.  Vælg knappen **OK** på bekræftelsessiden. Genererede linjer føjes til sagskladde.  
 9. Kontroller, at alle bilagsnumre er J00001, og vælg derefter handlingen **Bogfør**. Vælg **Ja** for at bekræfte bogføringen.  
-10. Linjerne er nu bogført. Vælg knappen **OK** for at lukke vinduerne.  
+10. Linjerne er nu bogført. Vælg knappen **OK** for at lukke siderne.  
 
 ## <a name="creating-and-posting-a-job-sales-invoice"></a>Oprette og bogføre en sagssalgsfaktura  
  Derefter kan Tina oprette en ny faktura for hele sagen eller for en del af en sag. Hun kan også tilknytte fakturaen til en anden faktura til samme kunde for samme sag. I dette tilfælde fakturerer hun hele sagen, da projektet nu er færdigt.  
@@ -255,7 +255,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 2.  Vælg den sag, du oprettede tidligere, og vælg derefter handlingen **Opret salgsfaktura**.  
 3.  Fjern alle filtre på **Sagsopgavenr.** i oversigtspanelet **Sagsopgave** for at fakturere sagen. Vælg det relevante job i feltet **Sagsnr.**.  
 4.  Udfyld bogføringsdatoen, og angiv, om du vil oprette én faktura pr. opgave eller kun én enkelt faktura for alle opgaver, i oversigtspanelet **Indstillinger**.  
-5.  Vælg knappen **OK** for at oprette fakturaen, og vælg knappen **OK** for at lukke bekræftelsesvinduet.  
+5.  Vælg knappen **OK** for at oprette fakturaen, og vælg knappen **OK** for at lukke bekræftelsessiden.  
 
  Når Tina opretter fakturaen, kan hun få adgang til den fra **Salg og Marketing** under **Ordrebehandling** og foretage yderligere behandling.  
 
@@ -269,15 +269,15 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 1.  Åbn sagen, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
 2.  Markér en hvilken som helst faktureret planlægningslinje, og vælg derefter handlingen **Salgsfaktura/Kreditnota**.
-3. I vinduet **Sagsfakturaer** skal du vælge handlingen **Åbn salgsfaktura/kreditnota**.  
+3. På siden **Sagsfakturaer** skal du vælge handlingen **Åbn salgsfaktura/kreditnota**.  
 
- Tina har et spørgsmål ang. priser, omkostninger og indtjening, der er relevant for denne bestemte sag, så hun får adgang til disse oplysninger i det nye vindue **Statistik**.  
+ Tina har et spørgsmål ang. priser, omkostninger og indtjening, der er relevant for denne bestemte sag, så hun får adgang til disse oplysninger på den nye side **Statistik**.  
 
-### <a name="to-open-the-statistics-window"></a>Sådan åbnes vinduet Statistik  
+### <a name="to-open-the-statistics-page"></a>Sådan åbner du siden Statistik  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Statistik**. Du kan gennemgå detaljerede oplysninger om sagspriser, omkostninger og avancer i både lokale og udenlandske valutaer.  
-3.  Vælg knappen **Luk** for at lukke vinduet **Sagsstatistik**.  
+3.  Vælg knappen **Luk** for at lukke siden **Sagsstatistik**.  
 
 ## <a name="handling-fixed-prices"></a>Håndtere faste priser  
  CRONUS er blevet bestilt til at oprette konferencerum. Som projektleder ønsker Per at have et godt overblik over de opgaver, der er påkrævet for sagen med de tilhørende budgetterede og realiserede omkostninger for hver sag. Derudover vil han gerne kende den samlede kontraktpris for sagen og det beløb, der er faktureret indtil nu. Han er nået frem til en aftale med kunden om faste priser for denne sag.  
@@ -290,7 +290,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
      Ved at gennemse sagsplanlægningslinjerne, kan Per se, at han får brug for Tina i 30 timer i denne fase af projektet. Han aftaler en fast pris med kunden.  
 
-4.  I vinduet **Sagsopgavelinjer** skal du markere linje 1120, og derefter vælge handlingen **Sagsplanlægningslinjer**.  
+4.  På siden **Sagsopgavelinjer** skal du markere linje 1120, og derefter vælge handlingen **Sagsplanlægningslinjer**.  
 5.  Vælg handlingen **Ny** for at oprette en ny linje med følgende oplysninger:  
 
     -   **Linjetype**: **Både skema og kontrakt**  
@@ -298,9 +298,9 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     -   **Nr.**: **Tina**  
     -   **Antal**: **30**  
 
-7.  Vælg knappen **OK** for at lukke vinduet.  
-8.  Højreklik på feltet **Budget-kostbeløb**, og vælge **Specificer** igen i vinduet **Sagsopgavelinjer**. Få vist ændringerne i tidsplanen. Du kan se, at de 30 timer er føjet til budgettet.  
-9. Vælg knappen **OK** for at lukke vinduerne.  
+7.  Vælg knappen **OK** for at lukke siden.  
+8.  Højreklik på feltet **Budget-kostbeløb**, og vælge **Specificer** igen på siden **Sagsopgavelinjer**. Få vist ændringerne i tidsplanen. Du kan se, at de 30 timer er føjet til budgettet.  
+9. Vælg knappen **OK** for at lukke siderne.  
 
  Når Tina har føjet budgettet til denne opgavelinje, arbejder hun 25 timer på sagen. Hun angiver disse timer i sagskladden.  
 
@@ -322,8 +322,8 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
      Nogle få dage senere, arbejder Tina ti timer til på sagen. Hun har nu arbejdet 35 timer alt i alt. Da aftalen med kunden lyder på 30 timer, er det kun fem af disse timer, der vil blive faktureret kunden. Tina vil føje de ekstra fem timer, som hun har arbejdet, manuelt til tidsplanen.  
 
-4.  I vinduet **Sagskladde** skal du vælge handlingen **Beregn resterende forbrug**.  
-5.  I vinduet **Beregn resterende forbrug for sag** skal du angive følgende oplysninger i oversigtspanelet **Indstillinger**:  
+4.  På siden **Sagskladde** skal du vælge handlingen **Beregn resterende forbrug**.  
+5.  På siden **Beregn resterende forbrug for sag** skal du angive følgende oplysninger i oversigtspanelet **Indstillinger**:  
 
     -   **Bilagsnr.**: **J00003**  
     -   **Bogføringsdato**: **(dags dato)**  
@@ -346,14 +346,14 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
      Ved at bruge linjetypen **Budget** opdateres de budgetterede omkostninger og priser uden at opdatere kontraktomkostningerne og priserne, der faktureres til kunden.  
 
-8.  Vælg handlingen **Bogfør**. Vælg knappen **OK** for at lukke vinduet.  
+8.  Vælg handlingen **Bogfør**. Vælg knappen **OK** for at lukke siden.  
 9. Åbn listen **Sager**.  
 10. Markér sagen Svend Hansen Møbler, og vælg derefter handlingen **Sagsopgavelinjer**.  
 11. Vælg linje 1120, og højreklik i feltet **Budget (kostbeløb)**. Vælg **Specificer** for at få vist oplysningerne.  
 
      Ændringerne angives automatisk på linjen for Sagsopgavenr. 1120. I de samlede omkostninger for budgetteret arbejde føjes fem ekstra timers arbejde for Tina til budgettet.  
 
-12. Vælg knappen **Luk** for at lukke vinduet.  
+12. Vælg knappen **Luk** for at lukke siden.  
 13. Højreklik nu på beløbet i feltet **Kontrakt (kostbeløb)**, og vælg **Specificer** for at få vist oplysningerne.  
 
      Når du gennemser tabellen for den samlede kontraktpris, er det kun de oprindeligt kontraktaftalte 30 timer, der er inkluderet, da dette er det, der er aftalt med kunden.  
@@ -361,7 +361,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 ## <a name="copying-jobs"></a>Kopiere sager  
  Per er nået frem til en aftale med en kunder, Ravel Møbler, om at opsætte ti konferencerum. Aftalen ligner en tidligere sag. Derfor vil det spare tid at kopiere den tidligere sag.  
 
- I vinduet **Kopier sag** kan du vælge sagen og de opgavelinjer, du vil kopiere. Du kan også vælge at kopiere kildesagsposterne, der opretter planlægningslinjer baseret på det faktiske forbrug, eller du kan kopiere kildesagsplanlægningslinjerne, der kopierer de oprindelige planlægningslinjer til den nye sag. Du kan derefter vælge den planlægningslinje eller finanspostlinjetype, du vil inkludere, ved kun at vælge det, der er relevant for den nye sag. Til sidst kan du vælge den sag, som du vil kopiere til, og definere, om priser og antal også skal kopieres.  
+ På siden **Kopier sag** kan du vælge sagen og de opgavelinjer, du vil kopiere. Du kan også vælge at kopiere kildesagsposterne, der opretter planlægningslinjer baseret på det faktiske forbrug, eller du kan kopiere kildesagsplanlægningslinjerne, der kopierer de oprindelige planlægningslinjer til den nye sag. Du kan derefter vælge den planlægningslinje eller finanspostlinjetype, du vil inkludere, ved kun at vælge det, der er relevant for den nye sag. Til sidst kan du vælge den sag, som du vil kopiere til, og definere, om priser og antal også skal kopieres.  
 
 ### <a name="to-copy-a-job"></a>Sådan kopieres en sag  
 
@@ -372,7 +372,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     -   **Faktureres til kundenr.**: **20000**  
 
 3.  Vælg handlingen **Kopier sagsopgaver fra**.  
-4.  Indtast følgende i vinduet **Kopier sagsopgaver**:  
+4.  Indtast følgende på siden **Kopier sagsopgaver**:  
 
     -   **Sagsnr.**: **Svend Hansen Møbler**  
     -   **Sagsopgavenr. fra**: **1000**  
@@ -381,7 +381,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     -   **Til sagsnr.**: **Svend Hansen Møbler Opsætning af 10 konferencerum**  
     -   Vælg felterne **Kopier dimensioner** og **Kopier antal**.  
 
-5.  Vælg knappen **OK** for at kopiere sagen, og vælg derefter knappen **OK** for at lukke bekræftelsesvinduet.  
+5.  Vælg knappen **OK** for at kopiere sagen, og vælg derefter knappen **OK** for at lukke bekræftelsessiden.  
 
      Ved at sammenligne priser, sagsopgavelinjer og sagsplanlægningslinjer for de to job, kan du se, at oplysninger er blevet kopieret.  
 
@@ -391,14 +391,14 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 ### <a name="to-set-up-a-new-account"></a>Sådan oprettes et nyt konto  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
-2.  I vinduet **Kontoplan** skal du vælge handlingen **Ny** for at oprette et nyt kort.  
+2.  På siden **Kontoplan** skal du vælge handlingen **Ny** for at oprette et nyt kort.  
 3.  Indtast følgende oplysninger på kortet **Ny finanskonto**:  
 
     -   **Nr.**: **6630**  
     -   **Navn**: **Sagsbetaling**  
 
-4.  På oversigtspanelet **Bogføring**, i **Produktbogføringsgruppen**, skal du vælge **DIVERSE**. Vælg knappen **OK** for at lukke vinduet.  
-5.  I vinduet **Kontoplan** skal du markere **Sagsbetaling nr 6630** og derefter vælge handlingen **Indryk kontoplan**. Vælg **Ja** for at bekræfte.  
+4.  På oversigtspanelet **Bogføring**, i **Produktbogføringsgruppen**, skal du vælge **DIVERSE**. Vælg knappen **OK** for at lukke siden.  
+5.  På siden **Kontoplan** skal du markere **Sagsbetaling nr 6630** og derefter vælge handlingen **Indryk kontoplan**. Vælg **Ja** for at bekræfte.  
 
  Følgende procedurer viser, hvordan du opretter et nyt job, angiver priser og derefter oprette betaling af afdrag. På sagsopgavelinjerne kan du oprette specifikke linjer, der er dedikeret til betaling af afdrag. Alt det færdiggjorte arbejde, der føjes til budgettet, angives på forbrugslinjerne. For hver betalingsopgavelinje på planlægningslinjerne er linjetypen Kontrakt, hvilket betyder, at kunden faktureres. Angiv en ny linje for Udbetalingen. På forbrugsopgavelinjen kan du indtaste oplysningerne for de varer og ressourcer, der er brugt i dette projekt, hvilket vil øge budgettet for f.eks. medarbejdertimer og varer, der er anvendt i sagen.  
 
@@ -417,7 +417,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     -   **Kode**: **Tina**  
     -   **Salgspris**: **10**  
 
-     Vælg knappen **OK** for at lukke vinduet.  
+     Vælg knappen **OK** for at lukke siden.  
 
 4.  På kortet **Sag** skal du vælge handlingen **Sagsopgavelinjer**.  
 
@@ -427,10 +427,10 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     |----------|------------------|---------------------------------------|-------------------|  
     |1|1000|Betaling - afdragsbetaling|Bogføring|  
     |2|2000|Forbrug|Konto|  
-    |3|3000|Betaling - midtvejs|Konto|  
+    |3|3000|Betaling - midtvejs|Bogføring|  
     |4|4000|Betaling - afslutning|Bogføring|  
 
-5.  I vinduet **Sagsopgavelinjer** skal du markere sag 1000, og derefter vælge handlingen **Sagsplanlægningslinjer**.  
+5.  På siden **Sagsopgavelinjer** skal du markere opgave 1000, og derefter vælge handlingen **Sagsplanlægningslinjer**.  
 6.  Opret en planlægningslinje med følgende oplysninger:  
 
     -   **Linjetype**: **Kontrakt**  
@@ -440,9 +440,9 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     -   **Antal**: **1**  
     -   **Salgspris**: **5000**  
 
-     Vælg knappen **OK** for at lukke vinduet.  
+     Vælg knappen **OK** for at lukke siden.  
 
-7.  Vælg **opgave 2000** og åbn **Sagsplanlægningslinjer** i vinduet **Sagsopgavelinjer**.  
+7.  Vælg **opgave 2000** og åbn **Sagsplanlægningslinjer** på siden **Sagsopgavelinjer**.  
 
      I følgende tabel beskrives de planlægninslinjer, du vil oprette.  
 
@@ -451,9 +451,9 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     |1|Skema|(dags dato)|Ressource|Tina|120|  
     |2|Skema|(dags dato)|Vare|70104|10|  
 
-     Vælg knappen **OK** for at lukke vinduet. Du kan se de budgetbeløb, der er opdateret, i vinduet **Sagsopgavelinjer**.  
+     Vælg knappen **OK** for at lukke siden. Du kan se de budgetbeløb, der er opdateret, på siden **Sagsopgavelinjer**.  
 
-8.  I vinduet **Sagsopgavelinjer** skal du vælge **opgave 3000**.  
+8.  Vælg **opgave 3000** på siden **Sagsopgavelinjer**.  
 9. Opret en planlægningslinje med følgende oplysninger:  
 
     -   **Linjetype**: **Kontrakt**  
@@ -463,7 +463,7 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
     -   **Antal**: **1**  
     -   **Salgspris**: **5000**  
 
-     Vælg knappen **OK** for at lukke vinduet.  
+     Vælg knappen **OK** for at lukke siden.  
 
 10. Opret en tilsvarende planlægningslinjepost for sagsopgave 4000.  
 
@@ -471,8 +471,8 @@ I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulent
 
 ### <a name="to-create-an-invoice"></a>Sådan oprettes en faktura  
 
-1.  I vinduet **Sagsopgavelinjer** skal du markere linje 1000, og derefter vælge handlingen **Opret salgsfaktura**.  
-2.  Angiv dags dato som bogføringsdatoen i vinduet **Opret salgsfaktura**, angiv **Pr. opgave** og vælg knappen **OK** for at oprette en faktura med standardoplysningerne. Vælg knappen **OK** for at gemme og lukke bekræftelsesvinduet.  
+1.  På siden **Sagsopgavelinjer** skal du markere linje 1000, og derefter vælge handlingen **Opret salgsfaktura**.  
+2.  Angiv dags dato som bogføringsdatoen på siden **Opret salgsfaktura**, angiv **Pr. opgave** og vælg knappen **OK** for at oprette en faktura med standardoplysningerne. Vælg knappen **OK** for at gemme og lukke bekræftelsessiden.  
 3.  Vælg handlingen **Opret salgsfaktura/kreditnota**. På salgsfakturaen kan du se, at det kun er udbetalingen, der er inkluderet på fakturaen. Du kan nu sende den til kunden som aftalt.  
 
 ## <a name="next-steps"></a>Efterfølgende trin  

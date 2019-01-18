@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e187a6d66804066f68af910c75d74f639e852446
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Oprette rapporter med XBRL
@@ -67,7 +67,7 @@ Når du har indlæst eller opdateret taksonomien, skal linjerne i skemaet forsyn
 Du kan oprette XBLR-linjer ved at knytte dataene i taksonomien til dataene i finansposterne.  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
-2.  I vinduet **XBRL-taksonomier** skal du vælge en taksonomi fra listen.  
+2.  På siden **XBRL-taksonomier** skal du vælge en taksonomi fra listen.  
 3.  Vælg handlingen **Linjer**.  
 4.  Vælg en linje, og udfyld felterne.   
 5.  Du kan finde flere oplysninger om, hvad der skal udfyldes, ved at vælge handlingen **Oplysninger**.  
@@ -84,10 +84,10 @@ Du kan oprette XBLR-linjer ved at knytte dataene i taksonomien til dataene i fin
 Første trin i arbejdet med XBRL-funktionalitet er at indlæse taksonomien i din database. En taksonomi består af et eller flere skemaer og nogle linkbaser. Når du har indlæst både skemaer og linkbaserne og har knyttet linkbaserne til skemaet, kan du oprette linjer og knytte finanskontiene i kontoplanen til de tilsvarende taksonomilinjer.  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
-2.  I vinduet **XBRL-taksonomier** skal du oprette en ny linje og indsætte navnet på og beskrivelsen af taksonomien.  
+2.  På siden **XBRL-taksonomier** skal du oprette en ny linje og indsætte navnet på og beskrivelsen af taksonomien.  
 3.  Vælg handlingen **Skemaer**, og indsæt derefter beskrivelsen af skemaet.  
-4.  For at importere skemaet skal du i vinduet **XBRL-skemaer** vælge handlingen **Indlæs** og derefter vælge en mappe og en XSD-fil. Vælg knappen **Åbn**.  
-5.  For at importere linkbasen skal du i vinduet **XBRL-skemaer** vælge handlingen **Linkbaser** og derefter vælge en mappe og en XML-fil. Vælg knappen **Åbn**.  
+4.  For at importere skemaet skal du på siden **XBRL-skemaer** vælge handlingen **Indlæs** og derefter vælge en mappe og en XSD-fil. Vælg knappen **Åbn**.  
+5.  For at importere linkbasen skal du på siden **XBRL-skemaer** vælge handlingen **Linkbaser** og derefter vælge en mappe og en XML-fil. Vælg knappen **Åbn**.  
 6.  Du kan nu vælge at knytte linkbasen til skemaet. Gentag fremgangsmåden, indtil du har indlæst alle linkbaser.  
 7. Vælg handlingen **Anvend til taksonomi** for at knytte linkbasen til skemaet.  
 
@@ -98,7 +98,7 @@ Første trin i arbejdet med XBRL-funktionalitet er at indlæse taksonomien i din
 Når en taksonomi ændres, skal du opdatere den aktuelle taksonomi i overensstemmelse hermed. Årsagen til opdateringen kan være et ændret skema, en ændret linkbase eller en ny linkbase. Når du har opdateret taksonomien, skal du konvertere linjerne for de ændrede eller nye linjer.  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
-2.  I vinduet **XBRL-taksonomier** skal du vælge handlingen **Skemaer**.  
+2.  På siden **XBRL-taksonomier** skal du vælge handlingen **Skemaer**.  
 3.  Opdater skemaet ved at vælge det, du vil opdatere, og derefter vælge handlingen **Indlæs**.  
 4.  Hvis du vil opdatere eller tilføje en ny linkbase, skal du vælge handlingen **Linkbaser**.  
 5.  Vælg den relevante linkbase, eller tryk på Ctrl + N for en ny linje. Vælg linkbasens type, og angiv derefter en beskrivelse.  

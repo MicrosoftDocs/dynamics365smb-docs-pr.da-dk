@@ -13,16 +13,16 @@ ms.search.keywords: project invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c646fe080cbdb867d58fb011ec9d94a1d8bd61b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 73894bb8c7193d96ca1f4c4f7c8b8394b1f26f5f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-jobs"></a>Fakturere sager
 I løbet af projektet kan der akkumuleres sagsomkostninger fra ressourceforbrug, materialer og sagsrelaterede indkøb. Efterhånden som status for sagen ændrer sig, bogføres disse transaktioner i sagskladden. Det er vigtigt, at alle omkostninger er registreret i sagskladden, før du fakturerer kunden.
 
-Du kan fakturere hele sagen fra vinduet **Sagsopgavelinjer** eller kun fakturere de valgte fakturerbare linjer fra vinduet **Planlægningslinjer**. Faktureringen kan foretages, når sagen er afsluttet, eller med bestemte intervaller, efterhånden som status for sagen ændres, baseret på en faktureringsplan.
+Du kan fakturere hele sagen fra siden **Sagsopgavelinjer** eller kun fakturere de valgte fakturerbare linjer fra siden **Planlægningslinjer**. Faktureringen kan foretages, når sagen er afsluttet, eller med bestemte intervaller, efterhånden som status for sagen ændres, baseret på en faktureringsplan.
 
 > [!NOTE]  
 >   Hvis du vælger **Fakturerbar** i feltet **Linjetype for sag** på købsdokumenter for sagsrelaterede indkøb, oprettes der sagsplanlægningslinjer, som er klar til blive faktureret til kunden. Du kan finde flere oplysninger i [Administrere projektforsyninger](projects-how-manage-project-supplies.md).
@@ -30,7 +30,7 @@ Du kan fakturere hele sagen fra vinduet **Sagsopgavelinjer** eller kun fakturere
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>Sådan oprettes og bogføres en salgsfaktura for en sag
 Du kan oprette en faktura for en sag eller for en eller flere sagsopgaver for en debitor, når det arbejde, der skal faktureres, er udført, eller når den fakturadato, som er angivet i et fakturaskema, nås.
 
-Fra vinduet **Sager** kan du fakturere en kunde ved at markere sagen og derefter vælge handlingen **Opret salgsfaktura for sag**. Følgende procedure viser, hvordan du kan bruge en kørsel til at fakturere flere sager.  
+Fra siden **Sager** kan du fakturere en kunde ved at markere sagen og derefter vælge handlingen **Opret salgsfaktura for sag**. Følgende procedure viser, hvordan du kan bruge en kørsel til at fakturere flere sager.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret salgsfaktura for sag**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -45,13 +45,13 @@ Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt
 3. Vælg en sagsopgave, hvor feltet **Sagsopgavetype** indeholder **Bogføring**, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
 4. Angiv antallet af varen, ressourcen og finanskontotype, som du vil fakturere, i feltet **Antal til overførsel til faktura** i en sagsplanlægningslinje.  
 5. Vælg handlingen **Opret salgsfaktura**.
-6. I vinduet **Opret salgsfaktura** skal du angive bogføringsdatoen, og om du vil oprette en ny faktura eller føje denne faktura til en eksisterende.
+6. På siden **Opret salgsfaktura** skal du angive bogføringsdatoen, og om du vil oprette en ny faktura eller føje denne faktura til en eksisterende.
 7. Vælg knappen **OK**.  
 
     Du kan se antallet på sagsplanlægningslinjen i feltet **Antal overført til faktura**.
-8. I vinduet **Sagsplanlægningslinjer** skal du vælge **Salgsfakturaer/kreditnotaer**.
+8. På siden **Sagsplanlægningslinjer** skal du vælge **Salgsfakturaer/kreditnotaer**.
 
-    Vinduet **Salgsfaktura** åbnes og viser det antal, du har overført til fakturaen.  
+    Siden **Salgsfaktura** åbnes og viser det antal, du har overført til fakturaen.  
 9. Foretag yderligere ændringer, og vælg derefter handlingen **Bogfør**.
 
 > [!NOTE]  
@@ -65,11 +65,11 @@ Når du har fuldført alle aktiviteter for en sag, inklusive bogføring og faktu
 3. I feltet **Status** skal du vælge **Fuldført**.
 4. Følg hjælpetrinnene for at beregne og bogføre igangværende arbejde. Du kan også følge trin 5 og 6 for at gøre det manuelt.  
 5. Vælg handlingen **Beregn igangværende arbejde**.
-6. I vinduet **Beregn VIA for sag** skal du udfylde felterne efter behov.  
+6. På siden **Beregn VIA for sag** skal du udfylde felterne efter behov.  
 
      Posterne for igangværende arbejde for sagen, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.  
 7. Vælg handlingen **Bogfør VIA - finansafstemning**.
-8. I vinduet **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
+8. På siden **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
 
      Sagens VIA-finansposter, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.
 

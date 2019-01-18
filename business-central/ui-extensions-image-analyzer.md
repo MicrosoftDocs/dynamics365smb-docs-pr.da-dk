@@ -12,10 +12,10 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9a2d7999f3a4ecc3a597b6641ee1db69d754de4c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 803d755a7caa470b97bf606f0f8916d0135d047e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
@@ -50,14 +50,14 @@ Billedanalyseudvidelsen er indbygget i [!INCLUDE[d365fin](includes/d365fin_md.md
 * Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalyse**. Marker afkrydsningsfeltet **Aktivér billedanalyse**, og fuldfør derefter trinnene i den assisterende opsætningsvejledning.  
 
     > [!TIP]  
-    > I vinduet **Opsætning af billedanalyse** kan du også ændre graden af tillid for attributforslag. Hvis du f.eks. ønsker en større grad af tillid, kan du angive en højere procentsats.
+    > På siden **Opsætning af billedanalyse** kan du også ændre graden af tillid for attributforslag. Hvis du f.eks. ønsker en større grad af tillid, kan du angive en højere procentsats.
 
 ## <a name="to-analyze-an-image-of-an-item"></a>Sådan analyseres et billede af en vare
 Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indlæst, før du har aktiveret billedanalyseudvidelsen.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg vare, og vælg derefter handlingen **Analysér billede**.  
-3. I vinduet **Billedanalyseattributter** vises de registrerede attributter, tillidsniveauet og andre oplysninger om attributten. Brug indstillingerne **Handling, der skal udføres** for at angive, hvad der skal gøres med attributten.  
+3. På siden **Billedanalyseattributter** vises de registrerede attributter, tillidsniveauet og andre oplysninger om attributten. Brug indstillingerne **Handling, der skal udføres** for at angive, hvad der skal gøres med attributten.  
 
     > [!TIP]  
     > Du kan føje navnet på attributten til varebeskrivelsen ved at vælge **Føj til varebeskrivelse**. Det er f.eks. velegnet til hurtigt at tilføje detaljer.  

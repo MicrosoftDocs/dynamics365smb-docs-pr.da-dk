@@ -13,10 +13,10 @@ ms.search.keywords: print check, customize
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d8546cd2f713416e50474848e783d61b4b1dc810
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 743cf7ecbed4157dc9283a97baa956e69ec0c6b5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="define-check-layouts"></a>Definere checklayout
@@ -26,7 +26,7 @@ Checks er designet til udskrivning i amerikanske og canadiske checkbilledformate
 
 ## <a name="to-define-check-layouts"></a>Sådan defineres checklayout
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportvalg - Bankkonto**, og vælg derefter det relaterede link.
-2. I vinduet **Rapportvalg - bankkonto** skal du vælge feltet **Check** i feltet **Forbrug**.
+2. På siden **Rapportvalg - bankkonto** skal du vælge feltet **Check** i feltet **Forbrug**.
 3. Vælg et af følgende rapport-id'er.
 
 | Rapport-id | Rapportnavn | Beskrivelse |
@@ -35,7 +35,7 @@ Checks er designet til udskrivning i amerikanske og canadiske checkbilledformate
 | 10401 |Check (følgebrev/følgebrev/check) |Denne rapport er designet til at udskrive check i et følgebrev/følgebrev/check-format. |
 | 10411 |Check (følgebrev/check/følgebrev) |Denne rapport er designet til at udskrive check i et check/følgebrev/check-format. |
 
-Når du har oprettet checklayout, kan du udskrive check i vinduet **Udbetalingskladde**. Du kan finde flere oplysninger i [Arbejde med checks](payables-how-work-checks.md).
+Når du har oprettet checklayout, kan du udskrive check på siden **Udbetalingskladde**. Du kan finde flere oplysninger i [Arbejde med checks](payables-how-work-checks.md).
 
 ## <a name="see-also"></a>Se også
 [Administrere skyldige beløb](payables-manage-payables.md)  

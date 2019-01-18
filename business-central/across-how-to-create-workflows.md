@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b8085f02f30d28ed1362ee6cea32d398c86b1694
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-workflows"></a>Oprette arbejdsgange
 Du kan oprette arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
 
-I vinduet **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en workflowhændelse, begrænset af hændelsesbetingelser, og et workflowrespons med responsmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden.  
+På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en workflowhændelse, begrænset af hændelsesbetingelser, og et workflowrespons med responsmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden.  
 
 Når du opretter workflows, kan du kopiere trinene fra eksisterende workflows eller workflowskabeloner. Workflowskabeloner repræsenterer workflows, som ikke kan redigeres, og som findes i den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden for arbejdsgangsskabeloner, som er tilføjet af Microsoft, har "MS" foran som f.eks. i "MS PIW". Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
 
@@ -33,25 +33,25 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
 
 ## <a name="to-create-a-workflow"></a>Sådan oprettes en arbejdsgang  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Workflows**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Ny**. Vinduet **Workflow** åbnes.  
+2. Vælg handlingen **Ny**. Siden **Workflow** åbnes.  
 3. I feltet **Kode** skal du angive op til 20 tegn for at identificere workflowet.  
-4. Når du vil oprette workflowet fra en workflowskabelon i vinduet **Workflows**, skal du vælge handlingen **Opret workflow fra skabelon**. Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
+4. Når du vil oprette workflowet fra en workflowskabelon på siden **Workflows**, skal du vælge handlingen **Opret workflow fra skabelon**. Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
 5. I feltet **Beskrivelse** skal du beskrive workflowet.  
 6. I feltet **Kategori** kan du angive, hvilken kategori workflowet hører under.  
 7. I feltet **Når hændelse** skal du angive den hændelse, der skal udføres for at starte trinnet i workflowet.  
 
-    Når du vælger feltet, åbnes vinduet **Workflowhændelser**, hvor du kan vælge mellem alle workflowhændelser, der findes.  
+    Når du vælger feltet, åbnes siden **Workflowhændelser**, hvor du kan vælge mellem alle workflowhændelser, der findes.  
 8. I feltet **Betingelse** skal du angive en eller flere betingelser, der skal opfyldes, før hændelsen i feltet **Når hændelse** kan udføres.  
 
-    Når du vælger feltet, åbnes vinduet **Hændelsesbetingelser**, hvor du kan vælge på en liste over filterfelter, der er relevante som betingelser for den pågældende hændelse. Du kan tilføje nye filterfelter, du vil bruge som hændelsesbetingelser. Du kan angive hændelsesbetingelsesfiltre, ligesom du angiver filtre for rapportanmodningssider.  
+    Når du vælger feltet, åbnes siden **Hændelsesbetingelser**, hvor du kan vælge på en liste over filterfelter, der er relevante som betingelser for den pågældende hændelse. Du kan tilføje nye filterfelter, du vil bruge som hændelsesbetingelser. Du kan angive hændelsesbetingelsesfiltre, ligesom du angiver filtre for rapportanmodningssider.  
 
-    Hvis workflowhændelsen er ændringen af et bestemt felt i en post, åbnes vinduet **Hændelsesbetingelser**, hvor du kan vælge feltet og ændringstypen.  
+    Hvis workflowhændelsen er ændringen af et bestemt felt i en post, åbnes siden **Hændelsesbetingelser**, hvor du kan vælge feltet og ændringstypen.  
 
-    1.  Hvis du vil angive feltændringen for hændelsen, skal du i feltet **Felt** i vinduet **Hændelsesbetingelser** markere det felt, der ændres.  
+    1.  Hvis du vil angive feltændringen for hændelsen, skal du i feltet **Felt** på siden **Hændelsesbetingelser** markere det felt, der ændres.  
     2.  I feltet **Operator** skal du vælge enten **Reduceret**, **Forøget** eller **Ændret**.  
 9. Angiv den respons, der skal følge, når workflowhændelsen forekommer, i feltet **Så svar**.  
 
-     Når du vælger feltet, åbnes vinduet **Workflowrespons**, hvor du kan vælge mellem alle workflowresponser, der findes, og angive indstillinger for respons for den valgte respons.  
+     Når du vælger feltet, åbnes siden **Workflowrespons**, hvor du kan vælge mellem alle workflowresponser, der findes, og angive indstillinger for respons for den valgte respons.  
 10. I oversigtspanelet **Indstillinger for den valgte workflowrespons** skal du angive indstillinger for workflowet ved at vælge værdier i de forskellige felter, der vises, på følgende måde:  
 
     1.  Hvis du vil angive indstillinger for et workflowrespons, der involverer afsendelse af en notifikation, skal du udfylde felterne som beskrevet i følgende tabel.  
@@ -67,7 +67,7 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
         |----------------------------------|---------------------------------------|  
         |**Formular for forfaldsdato**|Angiv, inden hvor mange dage godkendelsesanmodningen skal løses fra den dato, hvor den blev sendt.|  
         |**Uddeleger efter**|Angiv, om og hvornår en godkendelsesanmodning uddelegeres automatisk til den relevante stedfortræder. Du kan vælge, at der automatisk skal uddelegeres én, to eller fem dage efter den dato, hvor der blev anmodet om godkendelse.|  
-        |**Godkendertype**|Angiv, hvem godkenderen er, i overensstemmelse med opsætningen af godkendelses- og arbejdsgangsbrugere.<br /><br /> Der findes følgende indstillinger:<br /><br /> -   **Sælger/indkøber** angiver, at den bruger, der er angivet i feltet **Sælger/indkøbskode** i vinduet **Brugeropsætning af godkendelser**, bestemmer godkenderen. Derefter oprettes der godkendelsesanmodningsposter ud fra værdien i feltet **Godkenders grænsetype**.<br />     Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-workflow-users.md)|  
+        |**Godkendertype**|Angiv, hvem godkenderen er, i overensstemmelse med opsætningen af godkendelses- og arbejdsgangsbrugere.<br /><br /> Der findes følgende indstillinger:<br /><br /> -   **Sælger/indkøber** angiver, at den bruger, der er angivet i feltet **Sælger/indkøbskode** på siden **Brugeropsætning af godkendelser**, bestemmer godkenderen. Derefter oprettes der godkendelsesanmodningsposter ud fra værdien i feltet **Godkenders grænsetype**.<br />     Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-workflow-users.md)|  
         |**Vis bekræftelsesmeddelelse**|Angiv, om en bekræftelsesmeddelelse vises for brugere, når de anmoder om en godkendelse.|  
         |**Godkenders grænsetype**|Angiv, hvordan godkenderes godkendelsesgrænser påvirker, hvornår godkendelsesanmodningsposter oprettes for dem. En kvalificeret godkender er en person, hvis godkendelsesgrænse er større end værdien i anmodningen, der sendes.<br /><br /> Der findes følgende indstillinger:<br /><br /> 1. **Godkenderkæde** angiver, at godkendelsesanmodningsposter oprettes for alle anmoderens godkendere til og med den første kvalificerede godkender.<br />2. **Direkte godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens umiddelbare godkender, uanset godkenderens godkendelsesgrænse.<br />3. **Første kvalificerede godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens første kvalificerede godkender.<br />|  
     3.  Hvis du vil angive indstillinger for et arbejdsgangssvar, der involverer oprettelse af kladdelinjer, skal du udfylde felterne som beskrevet i følgende tabel.  

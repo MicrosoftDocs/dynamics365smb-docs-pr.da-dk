@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Oprette omkostningssteder
@@ -27,7 +27,7 @@ Omkostningssteder er afdelinger, der er ansvarlige for omkostninger og indtægte
 -   Opret et nyt diagram over omkostningssteder, der er uafhængigt af regnskabet, eller tilføj et nyt omkostningssted til et eksisterende diagram over omkostningssteder. Du skal oprette hvert omkostningssted individuelt.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Sådan overføres dimensionsværdier i regnskabet til diagrammet over omkostningssteder.  
-1.  Angiv en dimension, der skal være omkostningsstedsdimensionen i vinduet **Opdater CA-dimensioner**. Kun værdierne fra denne dimension overføres.  
+1.  Angiv en dimension, der skal være omkostningsstedsdimensionen på siden **Opdater CA-dimensioner**. Kun værdierne fra denne dimension overføres.  
 2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningssteder**, og vælg derefter det relaterede link.  
 3.  På fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Hent omkostningssteder fra dimensionen** for at overføre dimensionsværdier til diagrammet over omkostningssteder. Funktionen overfører de dimensionsværdier, som du definerede i trin 1.  
 
@@ -36,10 +36,10 @@ Omkostningssteder er afdelinger, der er ansvarlige for omkostninger og indtægte
 
 Diagrammet over omkostningssteder indeholder alle de angivne dimensionsværdier fra regnskabet og indeholder titler og subtotaler.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>Sådan oprettes nye omkostningssteder i vinduet Diagram over omkostningssteder  
-Du kan oprette og vedligeholde omkostningssteder enten på kortet **Omkostningsstedskort** eller i vinduet **Diagram over omkostningssteder**. I denne procedure opretter du omkostningssteder i vinduet **Diagram over omkostningssteder**.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Sådan oprettes nye omkostningssteder på siden Diagram over omkostningssteder  
+Du kan oprette og vedligeholde omkostningssteder enten på kortet **Omkostningsstedskort** eller på siden **Diagram over omkostningssteder**. I denne procedure opretter du omkostningssteder på siden **Diagram over omkostningssteder**.  
 
-1. Åbn vinduet **Diagram over omkostningssteder** i redigeringstilstand.  
+1. Åbn siden **Diagram over omkostningssteder** i redigeringstilstand.  
 2. I feltet **Kode** angives omkostningsstedets kode. Alle omkostningssteder skal have en kode.  
 3. I feltet **Navn** angives omkostningsstedets navn.  
 4. Vælg rullepilen i feltet **Linjetype** for at angive formålet med omkostningsstedet.  

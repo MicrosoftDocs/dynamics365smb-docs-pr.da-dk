@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designoplysninger: Omkostningsregulering
@@ -71,7 +71,7 @@ Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre]
 Omkostningsregulering kan udføres på to måder:  
 
 * Manuelt ved at køre kørslen **Juster kostpris - vareposter**. Du kan udføre kørslen for alle varer eller kun for bestemte varer eller varekategorier. Denne kørsel udfører en kostregulering for varerne på lageret, for hvilke en indgående transaktion er foretaget, som f.eks. et køb. For varer, der bruger kostmetoden Gennemsnit, foretager kørslen også en regulering, hvis der oprettes udgående transaktioner.  
-* Automatisk, ved at justere omkostninger hver gang du bogfører en lagertransaktion, og når du er færdig med en produktionsordre. Kostregulering køres kun for den eller de specifikke varer, der er berørt af bogføringen. Dette er oprettet, når du vælger afkrydsningsfeltet **Automatisk omkostningsregulering** er markeret i vinduet **Lageropsætning**.  
+* Automatisk, ved at justere omkostninger hver gang du bogfører en lagertransaktion, og når du er færdig med en produktionsordre. Kostregulering køres kun for den eller de specifikke varer, der er berørt af bogføringen. Dette er oprettet, når du vælger afkrydsningsfeltet **Automatisk omkostningsregulering** er markeret på siden **Lageropsætning**.  
 
 Det er en god ide at køre automatisk kostregulering, når du bogfører, da kostpriser ofte opdateres og derfor er mere nøjagtige. Ulempen er, at databasens ydeevne kan påvirkes ved at udføre kostregulering så ofte.  
 
@@ -79,7 +79,7 @@ Da det er vigtigt at holde en vares kostpris opdateret, anbefales det, at du udf
 
 Uanset om du kører omkostningsregulering manuelt eller automatisk, er reguleringsprocessen og følgerne ens. [!INCLUDE[d365fin](includes/d365fin_md.md)]beregner værdien af den indgående overflytning, og sender udgiften til en udgående transaktion, f.eks. salg eller forbrug, som er blevet udlignet med den indgående overflytning. Kostregulering opretter værdiposter, der indeholder reguleringsbeløb og beløb, der kompenserer for afrunding.  
 
-De nye regulerings- og afrundingsværdiposter har bogføringsdatoen for den relaterede faktura. Undtagelserne er, hvis værdiposterne ligger i en lukket regnskabsperiode eller lagerperiode, eller hvis bogføringsdatoen ligger tidligere end datoen i feltet **Bogf. tilladt fra** i vinduet **Opsætning af Finans**. Hvis dette sker, tildeler kørslen bogføringsdato som den første dato i den næste åbne periode.  
+De nye regulerings- og afrundingsværdiposter har bogføringsdatoen for den relaterede faktura. Undtagelserne er, hvis værdiposterne ligger i en lukket regnskabsperiode eller lagerperiode, eller hvis bogføringsdatoen ligger tidligere end datoen i feltet **Bogf. tilladt fra** på siden **Opsætning af Finans**. Hvis dette sker, tildeler kørslen bogføringsdato som den første dato i den næste åbne periode.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Kørslen Juster kostpris - vareposter  
 Når du udfører kørslen **Juster kostpris - vareposter**, har du mulighed for at udføre kørslen for alle varer eller kun for bestemte varer eller kategorier.  
@@ -143,7 +143,7 @@ Senere skal du bogføre et relateret varekøbsgebyr for 2.00 RV, der er fakturer
 |01-15-20|[Vareforbrugskonto]|7290||2.00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Automatisk kostregulering  
-Hvis du vil konfigurere omkostningsregulering til at køre automatisk, når du bogfører en lagertransaktion, skal du bruge feltet **Automatisk omkostningsregulering** i vinduet **Opsætning af Lager**. Dette felt gør det muligt for dig at vælge, hvor langt tilbage i tiden fra den aktuelle arbejdsdato, du ønsker, at automatisk kostregulering skal udføres. Der findes følgende indstillinger.  
+Hvis du vil konfigurere omkostningsregulering til at køre automatisk, når du bogfører en lagertransaktion, skal du bruge feltet **Automatisk omkostningsregulering** på siden **Opsætning af Lager**. Dette felt gør det muligt for dig at vælge, hvor langt tilbage i tiden fra den aktuelle arbejdsdato, du ønsker, at automatisk kostregulering skal udføres. Der findes følgende indstillinger.  
 
 |Indstilling|Beskrivelse|  
 |----------------------------------|---------------------------------------|  

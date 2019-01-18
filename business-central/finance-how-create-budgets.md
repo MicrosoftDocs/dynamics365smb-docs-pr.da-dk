@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>Oprette finansbudgetter
@@ -34,11 +34,11 @@ I Omkostningsberegning arbejder du med omkostningsbudgetter på samme måde. Du 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansbudgetter**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Rediger liste**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Vælg handlingen **Rediger budget**.
-4. Øverst i vinduet **Budget** skal du udfylde felterne efter behov for at definere, hvad der vises.  
+4. Øverst på siden **Budget** skal du udfylde felterne efter behov for at definere, hvad der vises.  
 
-    Kun de poster, der indeholder det budgetnavn, du har angivet i feltet **Budgetnavn** vises. Fordi budgetnavnet lige er oprettet, er der ikke nogen poster, der passer til filtret. Vinduet er derfor tomt.  
-5. Angiv et beløb ved at vælge den relevante celle i matrixen. Vinduet **Finansbudgetposter** åbnes.  
-6. Opret en ny linje, og udfyld feltet **Beløb**. Luk vinduet **Finansbudgetposter**.  
+    Kun de poster, der indeholder det budgetnavn, du har angivet i feltet **Budgetnavn** vises. Fordi budgetnavnet lige er oprettet, er der ikke nogen poster, der passer til filtret. Siden er derfor tom.  
+5. Angiv et beløb ved at vælge den relevante celle i matrixen. Siden **Finansbudgetposter** åbnes.  
+6. Opret en ny linje, og udfyld feltet **Beløb**. Luk siden **Finansbudgetposter**.  
 7. Gentag trin 5 og 6, indtil du har indtastet alle budgetbeløbene.  
 
 > [!NOTE]  

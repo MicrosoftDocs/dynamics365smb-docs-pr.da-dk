@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 1a8fd4f75fc1562985412b7e478066aa425c9425
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 53b063598cf21ca5b5de72d953995b48a17d64a2
 ms.contentlocale: da-dk
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-workflow-notifications"></a>Konfiguration af arbejdsgangsnotifikationer
@@ -30,17 +30,17 @@ Mange arbejdsgangssvar vedrører notifikationer til en bruger om, at der er fore
 
 Du konfigurerer forskellige aspekter af arbejdsgangsnotifikationer følgende steder:  
 
-1.  For godkendelsesarbejdsgange konfigurerer du modtagerne af arbejdsgangsnotifikationer ved at udfylde en linje i vinduet **Konfiguration af godkendelsesbruger** for hver bruger, der indgår i arbejdsprocessen. Hvis f.eks. bruger 2 angives i feltet **Godkender-id** på linjen for bruger 1, sendes notifikationen for godkendelsesanmodningen til bruger 1. Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
-2.  Du kan konfigurere, hvornår og hvordan brugere får arbejdsgangsnotifikationer, ved at udfylde vinduet **Notifikationsplan** for hver bruger i arbejdsgangen. Du kan finde flere oplysninger i [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md).  
-3.  Du konfigurerer det generelle indhold og layout for notifikationer, herunder notifikationer om forfaldne arbejdsgangssvar, ved at konfigurere notifikationsskabeloner i vinduet **Notifikationsskabeloner**. Du kan bruge de standardskabeloner, der er leveret sammen med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-4.  Du konfigurerer det specifikke indhold og de specifikke regler for en arbejdsgangsnotifikation, når du opretter den pågældende arbejdsgang. Det gør du ved at vælge indstillinger i vinduet **Indstillinger for workflowrespons** for det arbejdsgangssvar, der repræsenterer notifikationen. Du kan finde flere oplysninger i trin 9 i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
+1.  For godkendelsesarbejdsgange konfigurerer du modtagerne af arbejdsgangsnotifikationer ved at udfylde en linje på siden **Konfiguration af godkendelsesbruger** for hver bruger, der indgår i arbejdsprocessen. Hvis f.eks. bruger 2 angives i feltet **Godkender-id** på linjen for bruger 1, sendes notifikationen for godkendelsesanmodningen til bruger 1. Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
+2.  Du kan konfigurere, hvornår og hvordan brugere får arbejdsgangsnotifikationer, ved at udfylde siden **Notifikationsplan** for hver bruger i arbejdsgangen. Du kan finde flere oplysninger i [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md).  
+3.  Hvis du vil, kan du tilpasse indholdet af e-mailmeddelelserne ved at tilpasse rapport 1320, Notifikationsmail. Du kan finde flere oplysninger under [Oprette og ændre et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md).  
+4.  Du konfigurerer det specifikke indhold og de specifikke regler for en arbejdsgangsnotifikation, når du opretter den pågældende arbejdsgang. Det gør du ved at vælge indstillinger på siden **Indstillinger for workflowrespons** for det arbejdsgangssvar, der repræsenterer notifikationen. Du kan finde flere oplysninger i trin 9 i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
 
 ## <a name="see-also"></a>Se også  
  [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)   
  [Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md)   
  [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md)   
  [Oprette arbejdsgange](across-how-to-create-workflows.md)   
- [Administrere notifikationsskabeloner](across-how-to-manage-notification-templates.md)   
+ [Oprette og ændre et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md)   
  [Du kan bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)   
  [Konfigurere mail](admin-how-setup-email.md)   
  [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   

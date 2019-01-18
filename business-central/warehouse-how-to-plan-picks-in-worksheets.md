@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 46c19e9fc255c34cfce6e547173f14f548785a0b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 30a6832c0672677106fdb41c9a38a73dae296aa5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="plan-picks-in-worksheets"></a>Planlægge pluk i kladder
@@ -42,8 +42,8 @@ Hvis du sorterer efter forfaldsdato, kan du vælge at slette alle linjer fra reg
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Plukkladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Hent lagerdokumenter**.  
 3.  Vælg de leverancer, som du vil forberede en plukliste til. Du kan nu sortere linjerne til en vis grad, men den sortering, du foretager her, videreføres ikke til plukinstruktionerne. Du kan også slette nogle af linjerne og derved oprette en mere effektiv plukliste. Hvis der f.eks. er en række linjer med varer i direkte afsendelsesplaceringer, kan du vælge at oprette pluklister til alle de linjer, der er relateret til disse linjer. Varerne i de direkte afsendelsesplaceringer forsendes sammen med de andre varer i forsendelsen, og de direkte afsendelsesplaceringer har plads til flere indkommende varer.  
-4.  Vælg handlingen **Opret pluk**, og udfyld anmodningsvinduet **Opret pluk**. Den sortering, du anmoder om her, sorterer de pluklinjer, du opretter. Du kan f.eks. oprette en linje for hver zone og sortere linjerne efter placeringsorden inden for hvert pluk.  
-5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link. Vinduet **Pluk** åbnes.  
+4.  Vælg handlingen **Opret pluk**, og udfyld anmodningssiden **Opret pluk**. Den sortering, du anmoder om her, sorterer de pluklinjer, du opretter. Du kan f.eks. oprette en linje for hver zone og sortere linjerne efter placeringsorden inden for hvert pluk.  
+5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link. Siden **Pluk** åbnes.  
 6.  Du kan nu se de pluktildelinger, du har oprettet, ved at vælge det pluk, der har det højeste nummer.  
 7.  Hvis det er nødvendigt, kan du stadig ændre det tildelte bruger-id i plukket og den måde, som linjerne sorteres på..  
 8.  Hvis du vil udskrive plukvejledningen, skal du vælge handlingen **Udskriv**.  

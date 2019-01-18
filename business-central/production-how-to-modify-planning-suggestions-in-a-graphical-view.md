@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ændre planlægningsforslag i en grafisk visning
 En typisk planlægningsaktivitet er at ændre eller tilføje planlægningskladdelinjer for at ændre de foreslåede forsyningsordrer, før du registrerer dem ved at køre funktionen **Udfør aktionsmeddelelse**. Et alternativ til at gøre dette i planlægningskladden er at bruge en grafisk visning.
 
-I vinduet **Varedisponering pr. tidslinje** kan du ændre visse forsyningsordrer og forslag ved at trække elementer på x-aksen for at ændre antallet eller trække elementer på y-aksen for at ændre forfaldsdato.  
+På siden **Varedisponering pr. tidslinje** kan du ændre visse forsyningsordrer og forslag ved at trække elementer på x-aksen for at ændre antallet eller trække elementer på y-aksen for at ændre forfaldsdato.  
 
- I vinduerne **Varedisponering pr. tidslinje** og **Planlægningskladde** kan du foretage følgende ændringer:  
+ På siden **Varedisponering pr. tidslinje** og siden **Planlægningskladde** kan du foretage følgende ændringer:  
 
 -   Redigere en foreslået forsyningsordre, der kun findes som en planlægningslinje.  
 -   Redigere en eksisterende forsyningsordre, som planlægningssystemet foreslår ændret.  
@@ -32,14 +32,14 @@ I vinduet **Varedisponering pr. tidslinje** kan du ændre visse forsyningsordrer
 
 Du kan finde flere oplysninger om de planlægningslinjetyper, der vises, i feltet Beskrivelse på oversigtspanelet **Begivenhedsændringer**.  
 
-Når du vælger **Gem ændringer** i vinduet **Varedisponering pr. tidslinje** kopieres de ændringer, du har foretaget, til planlægnings- eller indkøbskladden. Du kan nu implementere dem ved hjælp af funktionen **Udfør aktionsmedl. - plan.**.  
+Når du vælger **Gem ændringer** på siden **Varedisponering pr. tidslinje** kopieres de ændringer, du har foretaget, til planlægnings- eller indkøbskladden. Du kan nu implementere dem ved hjælp af funktionen **Udfør aktionsmedl. - plan.**.  
 
-Følgende procedure viser, hvordan du ændrer forsyningsforslag ved at trække og slippe. Som et alternativ kan du ændre feltet **Forfaldsdato** og feltet **Antal** i oversigtspanelet **Begivenhedsændringer** og straks se ændringerne grafisk i oversigtspanelet **Tidslinje** i vinduet **Planlægningskladde**.  
+Følgende procedure viser, hvordan du ændrer forsyningsforslag ved at trække og slippe. Som et alternativ kan du ændre feltet **Forfaldsdato** og feltet **Antal** i oversigtspanelet **Begivenhedsændringer** og straks se ændringerne grafisk i oversigtspanelet **Tidslinje** på siden **Planlægningskladde**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Sådan ændres foreslåede forsyningsordrer i den grafiske visning  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varedisponering pr. tidslinje**, og vælg derefter det relaterede link.  
 
-    Vinduet **Varedisponering pr. tidslinje** åbnes med varenummer, lokation og variant af varen på den valgte planlægningslinje, udfyldt på forhånd i oversigtspanelet **Indstillinger**. Oversigtspanelet **Tidslinje** viser en grafisk repræsentation af varens planlagte beholdning, herunder planlægningsforslag.  
+    Siden **Varedisponering pr. tidslinje** åbnes med varenummer, lokation og variant af varen på den valgte planlægningslinje, udfyldt på forhånd i oversigtspanelet **Indstillinger**. Oversigtspanelet **Tidslinje** viser en grafisk repræsentation af varens planlagte beholdning, herunder planlægningsforslag.  
 
 2.  Kontrollér, at feltet **Medtag planlægningsforslag** er markeret.  
 3.  Find den foreslåede forsyningsordre, du vil ændre. Du kan identificere de redigerbare elementer ved den grønne cirkel og diskikonet. Du kan finde flere oplysninger om de forskellige symboler i afsnittet "Symboler og ikoner på oversigtspanelet Tidslinje".  
@@ -53,7 +53,7 @@ Følgende procedure viser, hvordan du ændrer forsyningsforslag ved at trække o
     |**Juster forsyning automatisk**|Optimerer en ny forsyning, du har oprettet i diagrammet, ved at sørge for, at den resulterer i nul lager inden næste forsyning.|  
     |**Slet forsyning**|Sletter elementet i oversigtspanelet **Tidslinje** og sletter planlægningslinjen, når du vælger **Gem ændringer**. Ikonet ændres til en disk med et rødt kryds, når forsyningen er blevet slettet.<br /><br /> **BEMÆRK:** Du kan kun slette en forsyning af aktionsmeddelelsestypen **Ny**. Når du vælger **Gem ændringer**, skal du manuelt slette den pågældende planlægningslinje i planlægnings- eller indkøbskladden.|  
 
-7.  Vælg handlingen **Genindlæs**, hvis du vil nulstille alle ændringer, du har foretaget, efter at du sidst åbnede vinduet **Varedisponering pr. tidslinje** eller valgte **Genindlæs**.  
+7.  Vælg handlingen **Genindlæs**, hvis du vil nulstille alle ændringer, du har foretaget, efter at du sidst åbnede siden **Varedisponering pr. tidslinje** eller valgte **Genindlæs**.  
 8. Når elementerne er placeret der, hvor du ønsker dem i diagrammet, skal du vælge **Gem ændringer** for at kopiere ændrede mængder og datoændringer til de planlægnings- eller rekvisitionslinjer, der repræsenterer de grafiske elementer.  
 
 Hvis du vil implementere ændringerne af forsyningsplanen, skal du følge de aktionsmeddelelser, der er resultatet, fra planlægnings- eller indkøbskladde. Du kan finde flere oplysninger i Udfør aktionsmedl. - plan.

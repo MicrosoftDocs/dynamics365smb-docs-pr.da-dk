@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-transfer-and-post-cost-entries
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4f1bcf009b397438bb302a16a23be2f4638cefc4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6f58e569bea6a42a9ee695095ce308e7a69e2a8d
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="automatic-transfer-and-combined-entries"></a>Automatisk overførsel og kombinerede poster
@@ -29,12 +30,9 @@ I omkostningsregnskab kan du overføre finansposter til en pristype ved hjælp a
 |Måned|Alle finansposter i den samme kalendermåned overføres som én post til den tilsvarende pristype.|  
 
 > [!IMPORTANT]  
->  Hvis du har markeret afkrydsningsfeltet **Automatisk overførsel fra finans** i vinduet **Konfiguration af omkostningsregnskab**, opdaterer [!INCLUDE[d365fin](includes/d365fin_md.md)] omkostningsregnskabet efter hver bogføring i regnskabet. Kombinerede poster er ikke mulige.  
+>  Hvis du har markeret afkrydsningsfeltet **Automatisk overførsel fra finans** på siden **Konfiguration af omkostningsregnskab**, opdaterer [!INCLUDE[d365fin](includes/d365fin_md.md)] omkostningsregnskabet efter hver bogføring i regnskabet. Kombinerede poster er ikke mulige.  
 
 ## <a name="see-also"></a>Se også  
- [Overføre finansposter til omkostningsposter](finance-how-to-transfer-general-ledger-entries-to-cost-entries.md)   
- [Kriterier for overførsel af finansposter til omkostningsposter.](finance-criteria-for-transferring-general-ledger-entries-to-cost-entries.md)   
- [Resultater af overførslen](finance-results-of-the-transfer.md)   
- [Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)  
+ [Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)   
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

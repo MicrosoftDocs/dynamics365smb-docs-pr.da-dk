@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: cd83ddd7dcda539327167e34489c227cd1fdb70e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
@@ -41,7 +41,7 @@ Kostmetoden afgør, om en faktisk eller en budgetteret værdi føres som aktiv o
 |Generelle egenskaber|Let at forstå|Baseret på periodeindstillinger: **dag**/**uge**/**måned**/**kvartal**/**regnskabsperiode**.<br /><br /> Kan beregnes pr. vare eller pr. vare/lokation/variant.|Let at bruge, men kræver kvalificeret vedligeholdelse.|Kræver varesporing på både indgående og udgående transaktion.<br /><br /> Bruges typisk til serienummererede varer.|  
 |Udligning/justering|Udligning holder styr på **det resterende antal**.<br /><br /> Justering overfører omkostninger i henhold til antalsudligning.|Udligning holder styr på **det resterende antal**.<br /><br /> Omkostninger beregnes og overføres pr. **værdiansættelsesdato**.|Udligning holder styr på **det resterende antal**.<br /><br /> Udligning er baseret på FIFO.|Alle udligninger er faste.|  
 |Regulering|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan kun foretages pr. vare.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer fakturerede og ikke-fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|  
-|Diverse|Hvis du baguddaterer en lagerreducering, bliver eksisterende poster IKKE genanvendt for at sikre et korrekt FIFO-omkostningsforløb.|Hvis du baguddaterer en lagerforøgelse eller -reducering, genberegnes den gennemsnitlige kostpris, og alle berørte poster justeres.<br /><br /> Hvis du ændrer perioden eller beregningstypen, skal alle berørte poster reguleres.|Brug vinduet **Standardkladde** til regelmæssigt at opdatere og akkumulere standardomkostninger.<br /><br /> Understøttes ikke pr. lagervare.<br /><br /> Der findes ingen historiske poster for standardomkostninger.|Du kan bruge specifik varesporing uden at bruge den specifikke kostmetode. Derefter følger prisen IKKE lotnummeret, men omkostningsforventningen for den valgte kostmetode.|  
+|Diverse|Hvis du baguddaterer en lagerreducering, bliver eksisterende poster IKKE genanvendt for at sikre et korrekt FIFO-omkostningsforløb.|Hvis du baguddaterer en lagerforøgelse eller -reducering, genberegnes den gennemsnitlige kostpris, og alle berørte poster justeres.<br /><br /> Hvis du ændrer perioden eller beregningstypen, skal alle berørte poster reguleres.|Brug siden **Standardkladde** til regelmæssigt at opdatere og akkumulere standardomkostninger.<br /><br /> Understøttes ikke pr. lagervare.<br /><br /> Der findes ingen historiske poster for standardomkostninger.|Du kan bruge specifik varesporing uden at bruge den specifikke kostmetode. Derefter følger prisen IKKE lotnummeret, men omkostningsforventningen for den valgte kostmetode.|  
 
 ## <a name="example"></a>Eksempel  
  Dette afsnit indeholder eksempler på, hvordan forskellige kostmetoder påvirker lagerværdien.  

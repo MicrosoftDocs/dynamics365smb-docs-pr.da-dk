@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2018
+ms.date: 11/18/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 758833e146c03cde3f892ec24d43143bcdce655c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 486196d228d9a19d6fbba1e171e138bd5693ac94
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="transfer-bank-funds"></a>Overføre bankbeløb
@@ -28,9 +28,10 @@ Undertiden kan du have brug for at overføre et beløb fra én bankkonto til en 
 3. Klik på feltet **Kontotype**, og vælg **Bankkonto**.
 4. I feltet **Kontonr.** skal du vælge den bank, hvorfra du vil overføre beløbet.
 5. Angiv det beløb, der skal overføres, i feltet **Beløb**.
-6. I feltet **Modkontotype** skal du vælge **Bankkonto**.
-7. I feltet **Modkontonr.** skal du vælge den bankkonto, hvortil du vil overføre beløbet.
-8. Bogfør journalen.
+6. Vælg handlingen **Vis flere kolonner** for at få vist alle tilgængelige felter.
+7. I feltet **Modkontotype** skal du vælge **Bankkonto**.
+8. I feltet **Modkontonr.** skal du vælge den bankkonto, hvortil du vil overføre beløbet.
+9. Bogfør journalen.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Sådan bogføres overførsler mellem bankkonti med forskellige valutakoder
 Hvis du vil overføre beløb mellem bankkonti, der bruger forskellige valutaer, skal du bogføre to finanskladdelinjer.
@@ -49,7 +50,7 @@ Hvis du vil overføre beløb mellem bankkonti, der bruger forskellige valutaer, 
 12. I feltet **Modkontonr.** skal du vælge den bankkonto, hvorfra du vil overføre beløbet.
 
     > [!NOTE]  
-    > Hvis den anvendte valutakurs i kladden er en anden en kursen i vinduet **Valutakurser**, skal du oprette en tredje linje til kurstab og -gevinster. Indtast **Finanskonto** i feltet **Kontotype**. Angiv finanskontonummeret for kurstab og -gevinster i feltet **Kontonummer**. Angiv kurstab eller -tab i feltet **Beløb** henholdsvis med og uden et minustegn foran kredit og debet.
+    > Hvis den anvendte valutakurs i kladden er en anden en kursen på siden **Valutakurser**, skal du oprette en tredje linje til kurstab og -gevinster. Indtast **Finanskonto** i feltet **Kontotype**. Angiv finanskontonummeret for kurstab og -gevinster i feltet **Kontonummer**. Angiv kurstab eller -tab i feltet **Beløb** henholdsvis med og uden et minustegn foran kredit og debet.
 13. Bogfør journalen.
 
 ## <a name="see-also"></a>Se også

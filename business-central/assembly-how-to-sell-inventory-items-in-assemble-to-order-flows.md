@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Sælge lagervarer i montage til ordre-forløb
@@ -41,9 +41,9 @@ I denne procedure skal du erstatte montage efter ordre-mængder med lagerantal p
 4.  I faktaboksen **Salgslinjedetaljer** skal du afgøre, om hele eller noget af den påkrævede mængde er tilgængelig.  
 5.  I feltet **Antal til montage efter ordre** skal du fratrække den disponible mængde, så kun den utilgængelige mængde er samlet til ordren. Feltet **Reserveret antal** faldt tilsvarende og afspejler, at ordre-til-ordre-linket eller -reservation kun gælder for den mængde, der skal samles.  
 6.  I oversigtspanelet **Linjer** skal du vælge **Funktioner** og derefter vælge handlingen **Reservér**.  
-7.  I vinduet **Reservation** skal du markere den eller de finanspostvarelinjer, der indeholder de tilgængelige mængder, vælge handlingen **Reservér fra aktuel linje** og derefter klikke på knappen **OK**.  
+7.  På siden **Reservation** skal du markere den eller de finanspostvarelinjer, der indeholder de tilgængelige mængder, vælge handlingen **Reservér fra aktuel linje** og derefter klikke på knappen **OK**.  
 
-    I vinduet **Salgsordre** viser feltet **Reserveret antal** nu, at hele ordrelinjemængden er reserveret. Feltet **Antal til montage efter ordre** afspejler stadig de undermængder, der skal samles.  
+    På siden **Salgsordre** viser feltet **Reserveret antal** nu, at hele ordrelinjemængden er reserveret. Feltet **Antal til montage efter ordre** afspejler stadig de undermængder, der skal samles.  
 
 8.  Frigiv salgsordren til pluk af lagervarer og montage af utilgængelige elementer. Du kan finde flere oplysninger i [Montere varer](assembly-how-to-assemble-items.md).  
 

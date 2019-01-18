@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 579a2ab10eefd5e706dfa5f686702ac780764578
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a0a67c3b6a706820c8b5fb073c090a6586435ca7
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-and-import-workflows"></a>Eksportere og importere workflows
@@ -22,18 +22,18 @@ Du kan overføre workflows til andre [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
  En anden måde til hurtigt at oprette workflows er at oprette workflows fra workflowskabeloner. Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
 
- I vinduet **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
+ På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
 
 ## <a name="to-export-a-workflow"></a>Sådan eksporteres et workflow  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Workflows**, og vælg derefter det relaterede link.  
 2.  Vælg et workflow, og vælg derefter handlingen **Eksportér til fil**.  
-3.  Vælg knappen **Gem** i vinduet **Udlæs fil**.  
-4.  I vinduet **Udlæs** skal du vælge en filplacering og derefter klikke på knappen **Gem**.  
+3.  Vælg knappen **Gem** på siden **Udlæs fil**.  
+4.  På siden **Udlæs** skal du vælge en filplacering og derefter klikke på knappen **Gem**.  
 
 ## <a name="to-import-a-workflow"></a>Sådan indlæses et workflow  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Workflows**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Importér fra fil**.  
-3.  Vælg den XML-fil, der indeholder workflowet, i vinduet **Indlæs**, og vælg derefter knappen **Åbn**.  
+3.  Vælg den XML-fil, der indeholder workflowet, på siden **Indlæs**, og vælg derefter knappen **Åbn**.  
 
 > [!CAUTION]  
 >  Hvis workflowkoden allerede findes i databasen, overskrives workflowtrinene med trinene i det indlæste workflow.  

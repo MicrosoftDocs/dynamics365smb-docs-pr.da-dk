@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Designoplysninger: Bogføring af forventet kostpris
@@ -27,12 +27,12 @@ Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omko
 > [!NOTE]  
 >  Forventede kostpriser administreres kun for varetransaktioner. Forventede kostpriser er ikke for immaterielle transaktionstyper, som f.eks. kapacitets- og varegebyrer.  
 
- Hvis der kun er bogført mængdedelen af en lagerforøgelse, ændres lagerværdien i finansregnskabet ikke, medmindre du har markeret afkrydsningsfeltet **Bogf. af forventet kostpris** i vinduet **Opsætning af Lager**. I så fald bogføres forventede kostpriser på mellemregningskonti på tidspunktet for modtagelsen. Når modtagelsen er fuldt faktureret, afstemmes mellemregningskontoerne, og de faktiske omkostninger bogføres til lagerkontoen.  
+ Hvis der kun er bogført mængdedelen af en lagerforøgelse, ændres lagerværdien i finansregnskabet ikke, medmindre du har markeret afkrydsningsfeltet **Bogf. af forventet kostpris** på siden **Opsætning af Lager**. I så fald bogføres forventede kostpriser på mellemregningskonti på tidspunktet for modtagelsen. Når modtagelsen er fuldt faktureret, afstemmes mellemregningskontoerne, og de faktiske omkostninger bogføres til lagerkontoen.  
 
  Den fakturerede værdipost viser det forventede kostbeløb, der er bogført for at udligne mellemregningskontiene for at understøtte afstemnings- og sporingsarbejde.  
 
 ## <a name="example"></a>Eksempel  
- Nedenstående eksempel viser forventet kostpris, hvis afkrydsningsfelterne **Aut. lagerværdibogføring** og **Bogf. af forventet kostpris** er markeret i vinduet **Opsætning af lager**.  
+ Nedenstående eksempel viser forventet kostpris, hvis afkrydsningsfelterne **Aut. lagerværdibogføring** og **Bogf. af forventet kostpris** er markeret på siden **Opsætning af lager**.  
 
  Du kan bogføre en købsordre som modtaget. Den forventede kostpris er 95,00 RV.  
 

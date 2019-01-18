@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2865d938c9bde4a64898e48d0381ed73b8c94d6e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a82ce6867a86dcc5ba09949b7e7611550d744a83
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-bin-types"></a>Oprette placeringstyper
@@ -26,7 +26,7 @@ Der er seks typer. Du kan bruge alle de seks mulige placeringstyper til lagerste
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Sådan angives de placeringstyper, der skal bruges  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Placeringstyper**, og vælg derefter det relaterede link.  
-2.  Angiv en kode på ti tegn for placeringstypen i vinduet **Placeringstyper**.  
+2.  Angiv en kode på ti tegn for placeringstypen på siden **Placeringstyper**.  
 3.  Marker de aktiviteter, der kan udføres for hver placeringstype.  
 
 > [!NOTE]  

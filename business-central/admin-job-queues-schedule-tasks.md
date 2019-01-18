@@ -11,24 +11,24 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ad0f99509ff1a191c62dd1c3a6d569c9884ea851
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Du kan bruge opgavekøer til at planlægge opgaver
 Opgavekøer i [!INCLUDE[d365fin](includes/d365fin_md.md)] giver brugerne mulighed for at planlægge og køre specifikke rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange. Det kan f.eks. være en god idé at køre rapporten **Sælger - salgsstatistik** ugentlig for at spore salget pr. sælger hver uge, eller at køre kodeenheden **Behandl servicekø for mail** dagligt for at sikre, at afventende mail til debitorer om deres serviceordrer sendes ud tids nok.  
 
 ## <a name="add-jobs-to-the-job-queue"></a>Føje sager til opgavekøen
-Vinduet **Opgavekøposter** viser alle eksisterende sager. Hvis du tilføjer en ny opgavekøpost, du vil planlægge, skal du angive oplysninger om typen af det objekt, du vil køre, f.eks. en rapport eller kodeenhed, og navnet og objekt-id'et for det objekt, du vil køre. Du kan også tilføje parametre for at angive funktionsmåden for opgavekøposten. Du kan f.eks. tilføje en parameter til kun at sende bogførte salgsordrer. Du skal have tilladelse til at køre den pågældende rapport eller kodeenhed, ellers genereres der en fejl, når opgavekøen køres.  
+Siden **Opgavekøposter** viser alle eksisterende sager. Hvis du tilføjer en ny opgavekøpost, du vil planlægge, skal du angive oplysninger om typen af det objekt, du vil køre, f.eks. en rapport eller kodeenhed, og navnet og objekt-id'et for det objekt, du vil køre. Du kan også tilføje parametre for at angive funktionsmåden for opgavekøposten. Du kan f.eks. tilføje en parameter til kun at sende bogførte salgsordrer. Du skal have tilladelse til at køre den pågældende rapport eller kodeenhed, ellers genereres der en fejl, når opgavekøen køres.  
 
 Du kan også angive et filter i feltet **Opgavekøkategorifilter**. Kategorier for opgavekøen kan bruges til at gruppere sager på listen.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kører automatisk sagerne i overensstemmelse med de angivne planer for hver opgavekøpost. Du kan også starte, stoppe og sætte en opgavekøpost i venteposition manuelt.
 
 ### <a name="log-files"></a>Log-filer
-Fejl vises i vinduet **Logposter i opgavekø** vindue, som du kan få adgang til fra båndet. Du kan også foretage fejlfinding for opgavekøfejl. De data, der genereres, når der køres en opgavekø, gemmes i databasen.  
+Fejl vises på siden **Logposter i opgavekø**, som du kan få adgang til fra båndet. Du kan også foretage fejlfinding for opgavekøfejl. De data, der genereres, når der køres en opgavekø, gemmes i databasen.  
 
 ### <a name="background-posting-with-job-queues"></a>Baggrundsbogføring med opgavekøer
 Jobkøer er et effektivt værktøj til at planlægge kørsel af forretningsprocesser i baggrunden. For eksempel kan der være en forekomst, hvor flere brugere forsøger at bogføre salgsordrer på samme tid, men hvor kun én ordre kan behandles ad gangen. Ved at oprette en baggrundsbogføring kan du placere bogføringerne i en kø til behandling i baggrunden.  
@@ -46,7 +46,7 @@ Jobkøer er et effektivt værktøj til at planlægge kørsel af forretningsproce
 > [!NOTE]  
 >  Når du planlægger et bilag til bogføring, og bogføringen starter, konfigureres bogføringsrutinen automatisk til timeout i to timer, hvis den holder op med at svare af en eller anden årsag.  
 
-Du konfigurerer denne anvendelse af opgavekøen i henholdsvis vinduet **Salgsopsætning** eller vinduet **Købsopsætning**. På oversigtspanelet **Baggrundsbogføring** skal du markere afkrydsningsfeltet **Bogfør dokumenter via opgavekøen** og udfylde de relevante oplysninger. Her kan du også bruge feltet **Opgavekøkategorikode** til at udføre alle Opgavekøposter med denne kode. Du kan f.eks. bruge kategorien **Salgsbogføring**, der filtrerer alle salgsordrer, der svarer til en opgavekø, der har den samme kategorikode.  
+Du konfigurerer denne anvendelse af opgavekøen på henholdsvis siden **Salgsopsætning** eller siden **Købsopsætning**. På oversigtspanelet **Baggrundsbogføring** skal du markere afkrydsningsfeltet **Bogfør dokumenter via opgavekøen** og udfylde de relevante oplysninger. Her kan du også bruge feltet **Opgavekøkategorikode** til at udføre alle Opgavekøposter med denne kode. Du kan f.eks. bruge kategorien **Salgsbogføring**, der filtrerer alle salgsordrer, der svarer til en opgavekø, der har den samme kategorikode.  
 
 > [!IMPORTANT]  
 >  Hvis du konfigurerer et opgave, der bogfører og udskriver dokumenter, og printeren viser en dialogboks, f.eks. en anmodning om legitimationsoplysninger eller en advarsel om næsten tom blækpatron, bogføres dit dokument, men det udskrives ikke. Den tilsvarende opgavekøpost får på et tidspunkt timeout og feltet **Status** indstilles til **Fejl**. Derfor anbefaler vi, at du ikke bruger en printeropsæting, der kræver interaktion med visningen af printerdialogbokse i forbindelse med baggrundsbogføring.  

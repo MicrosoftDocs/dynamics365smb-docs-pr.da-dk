@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Konfigurere varer og lokationer til styret læg-på-lager og pluk
@@ -27,9 +27,9 @@ Når lagerlokationen kræver styret læg-på-lager og pluk, kan du bruge en ny f
 2.  Åbn kortet for den vare, som du vil konfigurere til styret læg-på-lager og pluk.
 3. Udfyld felterne i oversigtspanelet **Lagersted** på varekortet for at definere, hvordan varen skal håndteres på lagerstedet.  
 4.  Vælg handlingen **Enheder**.
-5. I vinduet **Enheder** skal du udfylde felterne for at definere de forskellige enheder, som varen kan håndteres i, herunder højde, bredde, længde, rummål og vægt for enheden.
+5. På siden **Enheder** skal du udfylde felterne for at definere de forskellige enheder, som varen kan håndteres i, herunder højde, bredde, længde, rummål og vægt for enheden.
 6. Vælg handlingen **Placeringsindhold**.
-7. I vinduet **Placeringsindhold** kan du definere de lokationer og placeringer, som varen skal tilknyttes. Feltet **Standard** bruges ikke, når lokationen kræver styret læg-på-lager og pluk.  
+7. På siden **Placeringsindhold** kan du definere de lokationer og placeringer, som varen skal tilknyttes. Feltet **Standard** bruges ikke, når lokationen kræver styret læg-på-lager og pluk.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>Sådan aktiveres funktionaliteten styret læg-på-lager og pluk  
 Styret læg-på-lager og pluk giver dig adgang til funktioner for avanceret lageropsætning, der kan medføre en væsentlig forbedring af effektiviteten og dataenes pålidelighed. Hvis du vil bruge disse funktioner, skal du først opsætte en række parametre i lagerlokationen.  
@@ -53,7 +53,7 @@ Du er nu klar til at opsætte zoner, hvis du vil arbejde med zoner på lagersted
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Sådan oprettes en zone på lagerstedet  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Vælg den lokation, hvor du vil oprette zone, åbn lokationskortet, og vælg derefter handlingen **Zoner**.  
-3.  I vinduet **Zoner** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  På siden **Zoner** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Når du ændrer en zoneparameter, vil alle placeringer i zonen, der oprettes efter dette tidspunkt, få de nye egenskaber, men de oprindelige placeringer ændres ikke.  
 

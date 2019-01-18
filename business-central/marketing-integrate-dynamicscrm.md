@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Administration af kunder og salg, der er oprettet i Dynamics 365 for Sales
@@ -89,7 +89,7 @@ I følgende tabel beskrives de regler, der styrer synkroniseringen mellem Busine
 Fra startsiden kan du åbne opsætningsvejledningen **Konfiguration af Microsoft Dynamics 365-forbindelse**, der hjælper dig med at oprette forbindelsen. Når det er gjort, får du en problemfri sammenkædning af Sales-poster og [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.  
 
 > [!NOTE]  
->   I det følgende forklares den assisterende opsætning, men du kan udføre de samme opgaver manuelt i vinduet **Konfiguration af Sales-forbindelse**.
+>   I det følgende forklares den assisterende opsætning, men du kan udføre de samme opgaver manuelt på siden **Konfiguration af Sales-forbindelse**.
 
 I den assisterende opsætningsvejledning kan du vælge, hvilke data der skal synkroniseres mellem de to tjenester. Du kan også angive, at du vil importere din eksisterende Sales-løsning. Hvis du vil det, skal du angive en administratorbrugerkonto.
 
@@ -113,7 +113,7 @@ Hvis du vælger at aktivere *integration af salgsordre*, skal du angive en bruge
 ### <a name="coupling-records"></a>Sammenkæde poster
 I den assisterende opsætningsvejledning kan du vælge at synkronisere mellem de to tjenester. Men senere kan du også indstille synkroniseringen af bestemte typer data. Dette kaldes *sammenkædning*, og dette afsnit indeholder anbefalinger for, hvad du skal tage hensyn til.
 
-Hvis du f.eks. vil have vist Sales-konti som debitorer i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du sammenkæde de to typer poster. Det er ikke særlig vanskeligt - du skal åbne vinduet **Debitoroversigt** i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvor der er en handling på båndet til sammenkædning af disse data med Sales. Derefter skal du angive, hvilke [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder der svarer til hvilke konti i Sales.
+Hvis du f.eks. vil have vist Sales-konti som debitorer i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du sammenkæde de to typer poster. Det er ikke særlig vanskeligt - du skal åbne siden **Debitoroversigt** i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvor der er en handling på båndet til sammenkædning af disse data med Sales. Derefter skal du angive, hvilke [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder der svarer til hvilke konti i Sales.
 
 I visse områder kræver funktionaliteten, at du sammenkæder bestemte datasæt før andre datasæt som vist i følgende liste:
 
@@ -130,16 +130,16 @@ I visse områder kræver funktionaliteten, at du sammenkæder bestemte datasæt 
 I Sales afhænger salgsordrer af ekstra oplysninger, f.eks. kunder, enheder, valutaer, debitorprisgrupper, varer og/eller ressourcer. For at integration med salgsordrer skal fungere uden problemer, skal du skal sammenkæde kunder, enheder, valutaer, debitorprisgrupper, varer og/eller ressourcer først.
 
 ### <a name="synchronizing-records-fully"></a>Fuld synkronisering af poster
-I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen **Kør fuld synkronisering** for at starte synkronisering af alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster med alle relaterede poster i den tilknyttede Sales-løsning. I vinduet **Fuld CRM-synkroniseringsgennemgang** skal du vælge handlingen **Start**. Synkroniseringen begynder derefter at udføre opgaver i overensstemmelse med afhængigheder. For eksempel synkroniseres valutaposter før debitorposter. Fuld synkronisering kan tage lang tid og køres derfor i baggrunden, så du kan fortsætte med at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen **Kør fuld synkronisering** for at starte synkronisering af alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster med alle relaterede poster i den tilknyttede Sales-løsning. På siden **Fuld CRM-synkroniseringsgennemgang** skal du vælge handlingen **Start**. Synkroniseringen begynder derefter at udføre opgaver i overensstemmelse med afhængigheder. For eksempel synkroniseres valutaposter før debitorposter. Fuld synkronisering kan tage lang tid og køres derfor i baggrunden, så du kan fortsætte med at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-For at kontrollere status for individuelle job i en fuldstændig synkronisering skal du fokusere på felterne **Status for opgavekøpost**, **Status for til int. tabel-job** eller **Status for fra int. tabel-job** i vinduet **Fuld CRM-synkroniseringsgennemgang**.
+For at kontrollere status for individuelle job i en fuldstændig synkronisering skal du fokusere på felterne **Status for opgavekøpost**, **Status for til int. tabel-job** eller **Status for fra int. tabel-job** på siden **Fuld CRM-synkroniseringsgennemgang**.
 
-Fra vinduet **Konfiguration af Microsoft Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne vinduet **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] og i Sales-løsningen, som skal synkroniseres.
+Fra siden **Konfiguration af Microsoft Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne siden **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] og i Sales-løsningen, som skal synkroniseres.
 
 ## <a name="handling-special-sales-order-data"></a>Håndtering af særlige salgsordredata
-Salgsordrer i Sales vil automatisk blive overført til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du vælger afkrydsningsfeltet **Opret salgsordrer automatisk** i vinduet **Konfiguration af Microsoft Dynamics 365-forbindelse**. På sådanne salgsordrer overføres og knyttes feltet **Navn** på den oprindelige ordre til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Salgsordrer i Sales vil automatisk blive overført til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du vælger afkrydsningsfeltet **Opret salgsordrer automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**. På sådanne salgsordrer overføres og knyttes feltet **Navn** på den oprindelige ordre til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede produkter, hvilket betyder varer eller ressourcer, der ikke er registreret i noget produkt. I så fald skal du udfylde felterne **Rekvireret produkttype** og **Rekvireret produktnr.** i vinduet **Opsætning af salg og tilgodehavender**, så sådanne ikke-registrerede produktsalg knyttes til et bestemt vare/ressourcenummer for finansielle analyser.
+Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede produkter, hvilket betyder varer eller ressourcer, der ikke er registreret i noget produkt. I så fald skal du udfylde felterne **Rekvireret produkttype** og **Rekvireret produktnr.** på siden **Opsætning af salg og tilgodehavender**, så sådanne ikke-registrerede produktsalg knyttes til et bestemt vare/ressourcenummer for finansielle analyser.
 
 Hvis varebeskrivelsen på den oprindelige salgsordre er meget lang, oprettes der en ekstra salgsordrelinje af typen Bemærkning for at holde hele teksten på salgsordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

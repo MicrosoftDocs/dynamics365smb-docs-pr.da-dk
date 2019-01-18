@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Konfigurere basiskalendere
@@ -27,7 +27,7 @@ Du kan tildele en basiskalender til din virksomhed eller til virksomhedens samar
 2.  Vælg handlingen **Ny**.  
 3.  Udfyld feltet **Kode**.  
 4. Vælg handlingen **Vedligehold basiskalender**.
-5. I vinduet **Ændringer i basiskalender** skal du bruge feltet **Tilbagevendende** til at markere en bestemt dato eller dag som tilbagevendende fridag. Du kan vælge mellem indstillingerne **Årligt** og **Ugentligt**.  
+5. På siden **Ændringer i basiskalender** skal du bruge feltet **Tilbagevendende** til at markere en bestemt dato eller dag som tilbagevendende fridag. Du kan vælge mellem indstillingerne **Årligt** og **Ugentligt**.  
 
     Hvis du vælger **Årligt**, skal du også angive den relevante dato i feltet **Dato**.  
 
@@ -37,7 +37,7 @@ Når du indtaster en linje, vil feltet **Fridag** være markeret. Du kan vælge 
  Når du vender tilbage til basiskalenderkortet, kan du se, at de poster for fridage, som du har oprettet, er blevet opdateret. Disse poster bliver nu vist med rødt og feltet **Fridag** er markeret.  
 
 > [!NOTE]  
->  Når du opretter en ny basiskalender, kan du markere og kopiere linjer fra en eksisterende kalender. Dette gøres i vinduet **Ændringer i basiskalender**.  
+>  Når du opretter en ny basiskalender, kan du markere og kopiere linjer fra en eksisterende kalender. Dette gøres på siden **Ændringer i basiskalender**.  
 
 > [!IMPORTANT]  
 >  Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirker, hvordan datoerne beregnes og afrundet til arbejdsdage.
@@ -57,7 +57,7 @@ Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirke
 > [!Important]
 > Hvis lokationen bruger en væsentligt anden kalender end dine kreditorer, er det vigtigt, at du har konfigureret bestemte kalendere for disse leverandører til at beregne optimal leverandør leveringstider. Du kan finde oplysninger om, hvordan du opretter kreditorkalendere i afsnittet "Sådan tildeles en basiskalender".
 
-Indeholder i feltet **Leveringstid** kopieres fra enten varekortet eller lagervarekortet, hvis leveringstiden er defineret for varen, eller i vinduet **Vare/Leverandør-katalog**, hvis leveringstiden er defineret for kreditoren.
+Indeholder i feltet **Leveringstid** kopieres fra enten varekortet eller lagervarekortet, hvis leveringstiden er defineret for varen, eller på siden **Vare/Leverandør-katalog**, hvis leveringstiden er defineret for kreditoren.
 
 ## <a name="to-customize-a-calendar"></a>Sådan tilpasses en kalender
 Den vigtigste opgave i forbindelse med tilpasning af en basiskalender for din virksomhed eller en samarbejdspartner, er at angive eventuelle ændringer i statussen for arbejdsdage eller fridage.
@@ -68,7 +68,7 @@ I følgende procedure bruges en lokation som eksempel. Bemærk, at du allerede n
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn den lokation, du vil opdatere, og vælg derefter feltet **Tilpasset kalender**. Bemærk, at der skal vælges en kalender i feltet **Basiskalenderkode**.
-3. I vinduet **Tilpassede kalenderposter**, der åbnes, skal du vælge handlingen **Bevar tilpassede kalenderændringer**.
+3. På siden **Tilpassede kalenderposter**, der åbnes, skal du vælge handlingen **Bevar tilpassede kalenderændringer**.
 4. I feltet **Tilpassede kalenderændringer** skal du tilføje linjer for tilpassede kalenderposter.
 
     Når du indtaster en linje, markeres afkrydsningsfeltet **Fridag** være markeret. Du kan fjerne markeringen, hvis du vil ændre status til en arbejdsdag.
@@ -79,7 +79,7 @@ I følgende procedure bruges en lokation som eksempel. Bemærk, at du allerede n
 
 5. Vælg knappen **OK**.
 
-I vinduet **Tilpassede kalenderposter** kan du se, at datoposterne er blevet opdateret med de ændringer, som du har foretaget.
+På siden **Tilpassede kalenderposter** kan du se, at datoposterne er blevet opdateret med de ændringer, som du har foretaget.
 
 På kortet Lokation, kan du se, at feltet **Tilpasset kalender** indeholder ordet **Ja**. Det angiver, at en tilpasset kalender er oprettet.
 
@@ -100,7 +100,7 @@ Basiskalendere er knyttet til din egen virksomhed, debitorer, kreditorer, placer
 -   Basiskalenderen er knyttet til oversigtspanelet **Levering** på kortene **Firmaoplysninger** og **Debitor**.  
 -   Basiskalenderen er tildelt i oversigtpanelet **Modtagelse** på kortet **Kreditor**.  
 -   Basiskalenderen er tildelt i oversigtpanelet **Lager** på kortet **Lokation**.  
--   Basiskalenderen er tildelt i oversigtsvinduet **Speditørservice** i vinduet **Speditører**.  
+-   Basiskalenderen er tildelt på oversigtssiden **Speditørservice** på siden **Speditører**.  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
 2.  Åbn det **Debitor**-kort, som du vil oprette en basiskalender til.  

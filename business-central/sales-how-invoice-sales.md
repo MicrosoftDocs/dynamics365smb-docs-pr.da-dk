@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37875f3b09887176211f33538268706f11406fcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a5fe5e467d693fc98f604cfc85be47488374541a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-sales"></a>Fakturere salg
@@ -42,15 +42,15 @@ Du kan udfylde debitorfelter i salgsfakturaen på to måder, afhængigt af om de
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 
-   Andre felter i vinduet **Salgsfaktura** indeholder standardoplysningerne om den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:
+   Andre felter på siden **Salgsfaktura** indeholder standardoplysningerne om den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:
 3. I feltet **Debitor** skal du indtaste navnet på den nye debitor.
 4. I dialogboksen, hvor du registrerer den nye debitor, skal du trykke på knappen **Ja**.
-5. I vinduet **Vælg en skabelon til en ny debitor** skal du vælge en skabelon, som det nye debitorkort skal baseres på, og derefter vælge knappen **OK**.
+5. På siden **Vælg en skabelon til en ny debitor** skal du vælge en skabelon, som det nye debitorkort skal baseres på, og derefter vælge knappen **OK**.
 6. Et nyt debitorkort viser oplysninger om den valgte debitorskabelon. Udfyld de resterende felter. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
-7. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Salgsfaktura**.
+7. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til siden **Salgsfaktura**.
 
    En række af felterne i salgsfakturaen er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.  
-8. Udfyld de resterende felter efter behov i vinduet **Salgsfaktura**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Udfylde de resterende felter efter behov på siden **Salgsfaktura**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Hvis du tillader, at kunden betaler med det samme, f.eks. kontant eller via PayPal, skal du udfylde feltet **Betalingsformskode**. Betalingen registreres derefter, når du bogfører salgsfakturaen. Hvis du vælger KONTANT, registreres betalingen i en bestemt modkonto.
@@ -93,7 +93,7 @@ De relaterede vare- og debitorposter oprettes nu i systemet, og salgsfakturaen u
 
 Afhængigt af dine forretningsmæssige behov kan du modtage betaling og registrere den på forskellige måder: manuelt, automatisk og ved hjælp af betalingstjenester.  
 
-Du kan behandle betalinger direkte fra debitorkortet eller debitorposterne. Brug funktionen **Registrer debitorbetalinger** for at hente en oversigt over de ubetalte fakturaer for den pågældende kunde. Marker fakturaen som betalt delvist eller helt. Denne betalingsudligning behandler dine debitorbetalinger ved at afstemme beløb, der er modtaget på bankkontoen, med de relaterede ubetalte salgsfakturaer og derefter bogføre betalingerne. Du kan finde flere oplysninger i [Sådan afstemmes betalinger manuelt](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
+Du kan behandle betalingerne direkte fra debitorkortet. Brug handlingen **Registrer debitorbetalinger** for at hente en oversigt over de ubetalte fakturaer for den pågældende kunde. Marker fakturaen som betalt delvist eller helt. Denne betalingsudligning behandler dine debitorbetalinger ved at afstemme beløb, der er modtaget på bankkontoen, med de relaterede ubetalte salgsfakturaer og derefter bogføre betalingerne. Du kan finde flere oplysninger i [Sådan afstemmes betalinger manuelt](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-register-customer-payments-individually).  
 
 I virksomhedsmiljøer, hvor kunden betaler et stykke tid efter levering i overensstemmelse med betalingsbetingelserne, forbliver en bogført salgsfaktura åben (ubetalt), indtil afdelingen for tilgodehavender bekræfter, at betaling er modtaget og udligner betalingen til den bogførte salgsfaktura. Dette kan gøres manuelt eller automatisk. Du kan finde flere oplysninger i [Afstemme debitorbetalinger manuelt](receivables-how-apply-sales-transactions-manually.md) og [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).  
 

@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b4469b91f8bb377e4fef5700063d6085ac700605
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
@@ -30,23 +30,23 @@ Eftersom det forudbetalte beløb tilhører køberen, indtil han har modtaget var
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Sådan føjes forudbetalingskonti til bogføringsopsætning  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.
-2. I vinduet **Bogføringsopsætning** skal du udfylde følgende felter:  
+2. På siden **Bogføringsopsætning** skal du udfylde følgende felter:  
 
     - **Forudbetalingskonto for salg**  
     - **Forudbetalingskonto for køb**  
 
-Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du gøre det i vinduet **Finanskontooversigt**.  
+Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du gøre det på siden **Finanskontooversigt**.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Sådan oprettes nummerserier til forudbetalingsdokumenter  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af salg og tilgodehavender**, og vælg derefter det relaterede link.
-2. I vinduet **Salgsopsætning** skal du udfylde følgende felter:  
+2. På siden **Salgsopsætning** skal du udfylde følgende felter:  
 
    - **Bogførte forudbetalingsfakturanr.**
    - **Bogførte forudbetalingskreditnotanr.**
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Køb**, og vælg derefter det relaterede link.
-2. I vinduet **Købsopsætning** skal du udfylde følgende felter:
+2. På siden **Købsopsætning** skal du udfylde følgende felter:
 
     - **Bogførte forudbetalingsfakturanr.**
     - **Bogførte forudbetalingskreditnotanr.**
@@ -59,7 +59,7 @@ Hvis du opretter en standardforudbetalingsprocent til en vare, kan den bruges ti
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 2. Markér en vare, og vælg derefter handlingen **Forudbetalingsprocenter**.  
-3. I vinduet **Forudbetalingsprocenter - salg** skal du udfylde felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På siden **Forudbetalingsprocenter - salg** skal du udfylde felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Til en kunde eller leverandør kan du oprette én standardforudbetalingsprocent, der gælder for alle varer og alle former for salgslinjer. Du angiver dette på debitor- eller kreditorkortet.
 

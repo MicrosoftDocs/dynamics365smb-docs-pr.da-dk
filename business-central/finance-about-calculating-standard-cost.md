@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning af standardomkostning
@@ -81,7 +81,7 @@ Du opretter satserne for hver tidstype for hver maskine eller hvert arbejdscente
 > [!NOTE]  
 >  Mens timesatserne for kørsel gælder pr. fremstillet vare, gælder timesatserne for opstilling pr. lot. Derfor skal rutens opstillingstid for hver operation fordeles over lotstørrelsen. Du skal angive lotstørrelsen i det tilsvarende felt i oversigtspanelet **Bestilling** på varekortet.  
 
-Hvis du vil angive opstillingstiden på ruten af hensyn til planlægningen, men ikke vil medtage denne omkostning i standardkostprisberegningen, skal du fjerne markeringen i feltet **Kostpris inkl. opstilling** i vinduet **Produktionsopsætning**.  
+Hvis du vil angive opstillingstiden på ruten af hensyn til planlægningen, men ikke vil medtage denne omkostning i standardkostprisberegningen, skal du fjerne markeringen i feltet **Kostpris inkl. opstilling** på siden **Produktionsopsætning**.  
 
 På enkeltniveaubasis er det den arbejdsomkostning, der kræves til fremstilling af den færdige vare, og den angives på fremstillingsvarens rute. På akkumuleret niveau er dette den kapacitetsomkostning, der er angivet for hver enkelt fremstillet vare, der er medtaget på den overordnede vares stykliste.  
 

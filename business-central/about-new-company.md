@@ -11,17 +11,17 @@ ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: ce2fd5c5027fc54c92bf5ffc63b70c84d81f26b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Oprettelse af nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver beholdere til forretningsdata, der hører til en afdeling eller en juridisk enhed, kaldet en *virksomhed*. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], får du angivet en demonstrationsvirksomhed og en tom virksomhed, *Min virksomhed*. Det er nemt at skifte mellem virksomhederne – du skal bare gå til **Mine indstillinger** og flytte til den anden virksomhed. Men du kan også oprette nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)], afhængigt af dine forretningsmæssige behov. Når du opretter en ny virksomhed, hjælper en assisterede opsætningsvejledning dig med at få styr på det grundlæggende. Du kan derefter indlæse relevante data fra dit gamle system eller en anden virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Opret ny virksomhed
-Hvis du vil indsætte en virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge den assisterende opsætningsguide **Opret ny virksomhed** for at komme i gang. Opsætningsguiden er tilgængelig fra vinduet **Virksomheder** og fra opslag i feltet **Virksomhed** i **Mine indstillinger**.  
+Hvis du vil indsætte en virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge den assisterende opsætningsguide **Opret ny virksomhed** for at komme i gang. Opsætningsguiden er tilgængelig fra siden **Virksomheder** og fra opslag i feltet **Virksomhed** i **Mine indstillinger**.  
 
 Opsætningsguiden indeholder tre skabeloner:
 
@@ -36,7 +36,7 @@ Opsætningsguiden indeholder tre skabeloner:
 Hvis du vil komme hurtigt i gang med en ny virksomhed, kan du vælge **Produktion - Kun konfigurationsdata** og derefter importere dine egne forretningsdata, som f.eks. debitorer, varer og kreditorer. Vælg skabelonen **Nyt**, hvis du vil oprette alt fra bunden. I så fald kan du bruge den assisterende opsætningsvejledning **Virksomhedsopsætning** til at hjælpe dig i gang med de vigtige opsætningsdata.  
 
 > [!NOTE]  
->   Når du opretter en ny virksomhed, tager det nogle minutter, før du kan få adgang til den i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Opsætningsstatussen i vinduet **Virksomheder** vises som standard, når den nye virksomhed er klar til dig. Derefter kan du skifte til den nye virksomhed ved hjælp af **Mine indstillinger**.  
+>   Når du opretter en ny virksomhed, tager det nogle minutter, før du kan få adgang til den i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Opsætningsstatussen på siden **Virksomheder** vises som standard, når den nye virksomhed er klar til dig. Derefter kan du skifte til den nye virksomhed ved hjælp af **Mine indstillinger**.  
 
 Under din 30-dages prøveperiode kan du oprette et ubegrænset antal nye virksomheder, men de er kun tilgængelige under prøveperioden. Kontakt din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner for at få yderligere oplysninger.  
 

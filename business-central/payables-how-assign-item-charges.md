@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruge varegebyrer til at angive ekstra handelsomkostninger
@@ -41,7 +41,7 @@ For både købs- og salgsdokumenter, kan du tildele et varegebyr på to måder:
 Varegebyrnumre bruges til at skelne mellem de forskellige typer varegebyrer, som bruges i din virksomhed.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varegebyrer**, og vælg derefter det relaterede link.
-2. I vinduet **Varegebyrer** skal du vælge handlingen **Ny** for at oprette en ny linje.
+2. På siden **Varegebyrer** skal du vælge handlingen **Ny** for at oprette en ny linje.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Sådan tildeles et varegebyr direkte til købsfakturaen for varen
@@ -58,9 +58,9 @@ Hvis du kender varegebyret på det tidspunkt, hvor du bogfører en købsfaktura 
     I følgende procedure skal du foretage den faktiske tildeling. Indtil varegebyret er fuldt tildelt, er værdien i feltet **Antal, der skal tildeles** med rød skrift.
 8. Under fanen **Linjer** skal du vælge **Varegebyrtildeling**.
 
-    Vinduet **Varegebyrtildeling** åbnes og viser én linje for hver linje af typen Vare på købsfakturaen. Når du vil tildele et varegebyr til en eller flere fakturalinjer, kan du bruge en funktion, som tildeler og distribuerer det for dig, eller du kan manuelt udfylde feltet **Antal, der skal tildeles**. I følgende procedure beskrives, hvordan du bruger funktionen Foreslå varegebyrtildeling.
+    Siden **Varegebyrtildeling** åbnes og viser én linje for hver linje af typen Vare på købsfakturaen. Når du vil tildele et varegebyr til en eller flere fakturalinjer, kan du bruge en funktion, som tildeler og distribuerer det for dig, eller du kan manuelt udfylde feltet **Antal, der skal tildeles**. I følgende procedure beskrives, hvordan du bruger funktionen Foreslå varegebyrtildeling.
 
-9. I vinduet **Varegebyrtildeling** skal du vælge handlingen **Foreslå varegebyrtildeling**.
+9. På siden **Varegebyrtildeling** skal du vælge handlingen **Foreslå varegebyrtildeling**.
 10. Hvis der er mere end én fakturalinje af typen vare, kan du vælge en af de fire indstillinger for fordeling.  
 
 Hvis varegebyret er fuldt tildelt, er værdien i feltet **Antal, der skal tildeles** på købsfakturaen nul.
@@ -70,8 +70,8 @@ Varegebyret tildeles nu købsfakturaen. Når du bogfører modtagelsen af købsfa
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Sådan tildeles et varegebyr fra en separat faktura til købsfakturaen for varen
 Hvis du har modtaget en faktura for varegebyret, når du har bogført den originale købsleverance, skal du benytte denne fremgangsmåde.
 1. Gentag trin 1 til 8 i afsnittet "Sådan tildeles et varegebyr direkte til købsfakturaen for varen".
-2. Vælg handlingen **Hent købsleverancelinjer** i vinduet **Varegebyrtildeling**.
-3. I vinduet **Købsmodtagelseslinjer** skal du vælge den bogførte købsleverance for den vare, du vil tildele varegebyret til, og vælg derefter knappen **OK**.
+2. Vælg handlingen **Hent købsleverancelinjer** på siden **Varegebyrtildeling**.
+3. På siden **Købsmodtagelseslinjer** skal du vælge den bogførte købsleverance for den vare, du vil tildele varegebyret til, og vælg derefter knappen **OK**.
 4. Vælg handlingen **Foreslå varegebyrtildeling**.
 
 Omkostningen ved varegebyret på den separate købsfaktura er nu tildelt til varen på den bogførte købsleverance, og dermed opdateres varens lagerværdi med omkostningen ved varegebyret.

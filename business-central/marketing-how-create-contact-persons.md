@@ -10,30 +10,31 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-create-contact-persons
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0371e226de78c8c3894b47e5bebaf0aaf422666c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-contact-persons"></a>Oprette kontaktpersoner
 Du kan oprette et kontaktkort for hver kontaktperson, der arbejder for de virksomheder, du er i interaktion med. Der er ingen begrænsninger på, hvor mange kontaktpersoner du kan oprette for hver virksomhed. Du kan også oprette kontaktkort for personer, som du vil have registreret selvstændigt.
 
 > [!TIP]  
->   Kontrollér eventuelt indstillingerne for **Overførte oplysninger** i vinduet **Marketingopsætning**, før du opretter en kontakt. Når du konfigurerer overførte oplysninger kan oplysninger om kontaktvirksomheder, som er fælles for kontakter, f.eks. adresseoplysningerne, automatisk kopieres fra virksomheden til kontaktpersonen, hver gang du opretter en kontaktperson for en allerede registreret kontaktvirksomhed.
+>   Kontroller eventuelt **Overførte oplysninger**-indstillingerne på siden **Marketingopsætning**, før du opretter en kontakt. Når du konfigurerer overførte oplysninger kan oplysninger om kontaktvirksomheder, som er fælles for kontakter, f.eks. adresseoplysningerne, automatisk kopieres fra virksomheden til kontaktpersonen, hver gang du opretter en kontaktperson for en allerede registreret kontaktvirksomhed.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Sådan oprettes der et kontaktkort for en person
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. I feltet **Nummer** skal du skrive et nummer på kontakten.
 
-    Hvis du har defineret en nummerserie for kontakter i vinduet **Marketingopsætning**, kan du i stedet trykke på Enter og vælge det næste tilgængelige nummer. Du kan finde flere oplysninger under [Oprette nummerserier](ui-create-number-series.md).
+    Hvis du har defineret en nummerserie for kontakter på siden **Marketingopsætning**, kan du i stedet trykke på Enter og vælge det næste tilgængelige nummer. Du kan finde flere oplysninger under [Oprette nummerserier](ui-create-number-series.md).
 4. Vælg **Person** i feltet **Type**.
 5. Udfyld de andre felter på kontaktkortet.
 
 > [!NOTE]  
->   Indholdet af de felter, du har markeret i sektionen **Overførte oplysninger** i vinduet **Marketingopsætning**, kopieres fra virksomheden til personerne i virksomheden.
+>   Indholdet af de felter, du har markeret i sektionen **Overførte oplysninger** på siden **Marketingopsætning**, kopieres fra virksomheden til personerne i virksomheden.
 
 ## <a name="see-also"></a>Se også
 [Opsætning af Relationsstyring](marketing-setup-marketing.md)  

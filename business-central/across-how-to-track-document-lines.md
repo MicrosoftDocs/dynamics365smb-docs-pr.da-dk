@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2325aafc22db4ab737e63a261b836076cc3fde20
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="track-document-lines"></a>Spor dokumentlinjer
@@ -28,7 +28,7 @@ Nedenstående procedure beskriver, hvordan du sporer fra en salgsordrelinje. Tri
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Åbn en salgsordre, som du vil spore fra.  
 3.  Vælg en linjen, og vælg derefter handlingen **Bilagslinjesporing**.
-4. I vinduet **Bilagslinjesporing** skal du vælge det dokument, du vil have vist, og derefter vælge handlingen **Vis** for at få vist den relaterede linje.
+4. På siden **Bilagslinjesporing** skal du vælge det dokument, du vil have vist, og derefter vælge handlingen **Vis** for at få vist den relaterede linje.
 5. For at få vist hele dokumentet for den valgte dokumentlinje skal du vælge handlingen **Vis dokument**.
 
 ## <a name="see-also"></a>Se også

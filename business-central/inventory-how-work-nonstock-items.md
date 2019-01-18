@@ -12,10 +12,10 @@ ms.search.keywords: non-inventoriable
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-catalog-items"></a>Arbejde med katalogvarer
@@ -25,8 +25,8 @@ Du kan tilbyde bestemte varer til dine kunder, som du ikke vil administrere i di
 * Vælg en katalogvare fra en salgsordrelinje af typen **Vare** med et tomt **Nummer**-felt. Der oprettes derefter automatisk et varekort for katalogvaren.
 
 > [!NOTE]  
-> Du kan ikke vælge en katalogvare fra vinduet **Salgsfaktura**.<br /><br />
-> Du kan vælge en katalogvare fra vinduet **Salgstilbud**, men katalogvaren konverteres ikke til en almindelig vare, når du bruger funktionen **Lav ordre**.
+> Du kan ikke vælge en katalogvare på siden **Salgsfaktura**.<br /><br />
+> Du kan vælge en katalogvare på siden **Salgstilbud**, men katalogvaren konverteres ikke til en almindelig vare, når du bruger funktionen **Lav ordre**.
 
 En katalogvare har typisk varenummeret fra den leverandør, som leverer den. Hvis du vil aktivere konvertering af et katalogvarekort til et normalt varekort, skal du først angive, hvordan leverandørens varenumre skal konverteres til dine egne varenumre.   
 
@@ -49,7 +49,7 @@ Hvis du vil aktivere konvertering af et katalogvarekort til et normalt varekort,
 ## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Sådan konverteres en katalogvare til en almindelig vare
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Katalogvarer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en katalogvare, som du vil konvertere til en almindelig vare.
-3. I vinduet **Katalogvarekort** skal du vælge handlingen **Opret vare**.
+3. På siden **Katalogvarekort** skal du vælge handlingen **Opret vare**.
 
 Der oprettes et nyt varekort, der er udfyldt på forhånd med oplysninger fra katalogvaren og en relevant vareskabelon. Du kan derefter udfylde eller redigere felterne på det nye varekort efter behov. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
@@ -60,7 +60,7 @@ Der oprettes et nyt varekort, der er udfyldt på forhånd med oplysninger fra ka
 4. Vælg handlingen **Linje**, og vælg derefter handlingen **Vælg katalogvarer**.
 
     Katalogvaren konverteres til en almindelig vare. Der oprettes et nyt varekort, der er udfyldt på forhånd med oplysninger fra katalogvaren og en relevant vareskabelon.
-5. I vinduet **Katalogvarer** skal du vælge den katalogvare, som du vil sælge, og derefter vælge knappen **OK**.
+5. På siden **Katalogvarer** skal du vælge den katalogvare, som du vil sælge, og derefter vælge knappen **OK**.
 6. Når salgsordren er fuldført, skal du vælge handlingen **Bogfør**.
 
 Du kan derefter udfylde eller redigere felterne på det nye varekort efter behov. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).

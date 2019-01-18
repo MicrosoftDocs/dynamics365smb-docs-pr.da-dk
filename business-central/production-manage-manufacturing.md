@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/15/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b1712215a392d8abdb0ca549c621d77490e6341c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 3e17e6eb7700027d53cbbd2f05292a7bd828d1af
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="manufacturing"></a>Produktion
@@ -27,7 +27,7 @@ Når der er planlagt for behovet, og materialerne er udstedt i henhold til produ
 
 En vigtig del af produktionsudførelsen, fra et systemmæssigt synspunkt, er at bogføre produktionsafgang til databasen, så status kan rapporteres og lageret kan opdateres med de færdige dele. Afgangsbogføring kan udføres manuelt, når du udfylder og bogfører kladdelinjer efter produktionsoperationer. Det kan også udføres automatisk med brug af baglæns træk. Hvis det er tilfældet, bogføres materialeforbrug automatisk sammen med afgang, når produktionsordren ændres til færdig.  
 
-Som et alternativ til massekladden til afgangsbogføring for flere produktionsordrer kan du bruge vinduet **Produktionskladde** til at bogføre forbrug og/eller afgang for én produktionsordrelinje.
+Som et alternativ til massekladden til afgangsbogføring for flere produktionsordrer kan du bruge siden **Produktionskladde** til at bogføre forbrug og/eller afgang for én produktionsordrelinje.
 
 Før du kan begynde at producere varer, skal du foretage forskellige opsætninger, f.eks. af arbejdscentre, ruter og produktionsstyklister. Du kan finde flere oplysninger i [Konfigurere produktion](production-configure-production-processes.md).
 
@@ -40,10 +40,11 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Outsource alle eller udvalgte operationer i en produktionsordre til en underleverandør.|[Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|
 |Registrere og bogføre produktionsoutput sammen med materiale- og tidsforbrug for en enkelt frigivet produktionsordrelinje.|[Bogføre forbrug og afgang for den frigivne produktionsordrelinje](production-how-to-register-consumption-and-output.md)|  
 |Massebogfør antallet af komponenter, der anvendes pr. operation i en kladde, der kan behandle flere planlagte produktionsordrer.|[Massebogføre forbrug](production-how-to-post-consumption.md)|
-|Bogfør antallet af færdige varer og tidsforbruget pr. operation i en kladde, der kan behandle flere frigivne produktionsordrer.|[Massebogføre afgang og operationstider](production-how-to-post-output-quantity.md)|  
+|Bogfør antallet af færdige varer og tidsforbruget pr. operation i en kladde, der kan behandle flere frigivne produktionsordrer.|[Massebogføre afgang og operationstider](production-how-to-post-output-quantity.md)|
+|Fortryde afgang, for eksempel på grund af en dataindtastningsfejl og forkerte beløb.  |[Tilbageføre bogføring af afgang](production-how-to-reverse-output-posting.md)|  
 |Bogføre antallet af varer, der er fremstillet i hver enkelt færdiggjort operation, som ikke er kvalificeret som færdigt output men som spildmateriale.|[Bogføre spild](production-how-to-post-scrap.md)|
 |Få vist belastningen for produktionen som følge af planlagte og frigivne produktionsordrer.|[Vise belastningen på arbejdscentre og produktionsressourcer](production-how-to-view-the-load-on-work-centers.md)|      
-|Bruge vinduet **Kapacitetskladde** til at bogføre forbrugt kapacitet, der ikke er tilknyttet en produktionsordre, f.eks. vedligeholdelsesarbejde.|[Bogføre kapaciteter](production-how-to-post-capacities.md)|  
+|Bruge siden **Kapacitetskladde** til at bogføre forbrugt kapacitet, der ikke er tilknyttet en produktionsordre, f.eks. vedligeholdelsesarbejde.|[Bogføre kapaciteter](production-how-to-post-capacities.md)|  
 |Beregne og justere prisen på færdigproducerede varer og forbrugte komponenter til økonomisk afstemning.|[Om de færdige produktionsomkostninger](finance-about-finished-production-order-costs.md)|  
 
 ## <a name="see-also"></a>Se også  

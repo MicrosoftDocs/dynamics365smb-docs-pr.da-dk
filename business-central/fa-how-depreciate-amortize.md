@@ -11,10 +11,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e12432b4823bfa1477d385d73a5a938cba4cee0d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cfd4753fc2fd2454e83c5a63e1e0ffe220d2fe17
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
@@ -43,7 +43,7 @@ Du kan når som helst, f.eks. en gang om måneden, udføre kørslen **Beregn afs
     Kørslen beregner afskrivningen og opretter linjer i anlægskassekladden.  
 4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 
-    I feltet **Antal afskrivningsdage** i vinduet **Anlægskassekladde** kan du se, hvor mange afskrivningsdage, der er blevet beregnet.  
+    I feltet **Antal afskrivningsdage** på siden **Anlægskassekladde** kan du se, hvor mange afskrivningsdage, der er blevet beregnet.  
 5. Vælg handlingen **Bogfør**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Sådan bogføres afskrivning manuelt fra anlægskassekladden
@@ -81,18 +81,18 @@ Når du udfylder kladdelinjer, der skal bogføres til en afskrivningsprofil, kan
 5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskladder**, og vælg derefter det relaterede link.  
 
     > [!NOTE]  
-    >   Vinduet **Anlægskladde** indeholder nye linjer til forskellige afskrivningsprofiler ifølge kopilisten.  
+    >   Siden **Anlægskladde** indeholder nye linjer til forskellige afskrivningsprofiler ifølge kopilisten.  
 6. Gennemse eller rediger linjerne, og vælg derefter handlingen **Bogfør**.  
 
     > [!NOTE]  
     >   En anden måde at kopiere en post til en separat profil er at angive en afskrivningsprofilkode i feltet **Kopier til afskr.profil**, når du udfylder en kladdelinje.  
 
-Du kan kopiere poster fra én afskrivningsprofil til en anden vha. kørslen **Kopier afskrivningsprofil**. Kørslen opretter kladdelinjer i den kladde, du har angivet i vinduet **Anlægskladdeopsætning** for den afskrivningsprofil, du vil kopiere til. Du kan finde flere oplysninger i følgende procedure.  
+Du kan kopiere poster fra én afskrivningsprofil til en anden vha. kørslen **Kopier afskrivningsprofil**. Kørslen opretter kladdenumre i de kladder, du har angivet navnene på på siden **Anlægskladdeopsætning** for den afskrivningsprofil, du vil kopiere til. Du kan finde flere oplysninger i følgende procedure.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Sådan kopieres anlægsposter mellem afskrivningsprofiler
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
 2. Åbn det relevante afskrivningsprofilkort, og vælg handlingen **Kopiér afskrivningsprofil**.  
-3. I vinduet **Kopiér afskrivningsprofil** skal du udfylde felterne efter behov.  
+3. På siden **Kopiér afskrivningsprofil** skal du udfylde felterne efter behov.  
 4. Vælg knappen **OK**.  
 
 De kopierede linjer oprettes enten i anlægskassekladden eller anlægskladden, afhængigt af, om finansintegration er aktiveret for den afskrivningsprofil, du er ved at kopiere.  

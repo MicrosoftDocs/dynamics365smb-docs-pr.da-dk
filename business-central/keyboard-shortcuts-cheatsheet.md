@@ -11,39 +11,20 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f5c679a962b8eab2742c5224ea86c7329c4a2a09
+ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
+ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
-# <a name="pc-keyboard-shortcuts-quick-reference"></a>Hurtig reference til pc-tastaturgenveje
+# <a name="keyboard-shortcuts-quick-reference"></a>Hurtig reference til tastaturgenveje
 
-
-|||||  
-|----------------|-----------|----------------|-----------|    
-|**Generelt**||**Naviger til og marker rækker**||
-|ALT + Q|Åbn **Fortæl mig, hvad du vil foretage dig**|Ctrl+A|Markér alt|
-|Tab|Flytte fokus til næste kontrolelement|Home eller End|Gå til det første eller sidste felt|
-|Skift+Tab|Flytte fokus til forrige kontrolelement|Ctrl+Home/End|Gå til den første eller sidste række|   
-|Alt+Pil ned|Åbn en rullemenu eller et opslag|Ctrl+Op/Ned|Navigere uden at miste markering|
-|Alt+Højrepil|Se transaktionerne for beregnet værdi|Ctrl+mellemrumstast|Skifte markering af række| 
-|Esc|Luk den aktuelle side eller rullemenu.|Skift+Ctrl+Home/End|Udvide markeringen til første/sidste række| 
-|||Ctrl+Enter|Fokusere uden for listen|
-|||||
-|**Kopiere og indsætte**||**Søge, filtrere og sortere**||
-|Ctrl+A|Markér alt|F3|Skifte søgning|
-|Ctrl+Home/End|Markere den første/sidste række på listen|Skift+F3|Skifte filterrude, fokusere på feltfiltre|
-|Home eller End|Gå til det første eller sidste felt|Ctrl+Skift+F3|Skifte mellem filtre for totaler: fokusere på filtre for totaler|
-|Ctrl/Skift+klik|Føje række(r) til markeringen |Alt+F3|Filtrere på den markerede celleværdi|
-|Ctrl+Op/Ned|Flytte fokus til rækken over/under|Skift+Alt+F3|Tilføje filter i markeret felt|
-|Ctrl+mellemrumstast|Udvid markeringen, så den omfatter den række, der fokuseres på|Ctrl+Alt+Skift+F3|Nulstil filtre|
-|Skift+Op/Ned|Føje rækken over/under til markering|**Visning af et rapporteksempel**||
-|Skift+Page Up/Down|Tilføje alle synlige rækker over/under aktuel markering|Op/Ned|Rulle op og ned på siden
-|Ctrl+C|Kopiere rækker|Højre/venstre|Rulle til højre eller venstre |
-|Ctrl+V|Indsætte rækkerne|Ctrl + 0 (nul)|Tilpasse side i vindue |
-|F8|Kopiere feltet ovenover til den aktuelle række|Ctrl+Home/End|Gå til første/sidste side|
-|||Page Up/Down|Gå til forrige side eller næste side|
-
+||||  
+|----------------|-----------|----------------| 
+|**Generelt**|ALT + Q<br />Alt+Op<br />Tab<br />Skift+Tab<br />Alt+Pil ned<br />Alt+Højrepil<br />F5/Ctrl+F5<br />Esc|Åbn **Fortæl mig**<br />Åbn værktøjstip eller valideringsfejl<br />Flytte fokus til næste kontrolelement<br />Flytte fokus til forrige kontrolelement<br />Åbn en rullemenu eller et opslag<br />Se transaktionerne for beregnet værdi<br />Opdater/genindlæs side<br />Luk den aktuelle side eller rullemenu.|
+|**Naviger til og marker rækker**| Home eller End<br />Ctrl+Home/End <br />Ctrl+Op/Ned<br />Ctrl+A <br />Ctrl+mellemrumstast<br />Ctrl/Skift+klik<br />Ctrl+Skift+Home/End<br />Skift+Op/Ned<br />Skift+Page Up/Down<br />Ctrl+Enter| Gå til det første eller sidste felt<br />Gå til den første eller sidste række<br />Navigere uden at miste markering<br />Markér alt<br />Skifte markering af række<br /> Føje rækken/rækkerne til markeringen<br />Udvide markeringen til første/sidste række<br />Føje rækken over/under til markering<br />Tilføje alle synlige rækker over/under markering<br />Fokusere uden for listen|
+|**Kopiere og indsætte**|Ctrl+C<br />Ctrl+V<br />F8|Kopiere rækker<br />Indsæt rækker<br />Kopiere feltet ovenover til den aktuelle række|
+|**Søge, filtrere og sortere**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Skift+Alt+F3<br />Ctrl+Alt+Skift+F3|Skifte søgning<br />Skifte filterrude, fokusere på feltfiltre<br />Skifte filterrude, fokusere på filtre for totaler<br />Filtrere på den markerede celleværdi<br />Tilføje filter i markeret felt<br />Nulstil filtre|
+|**Visning af et rapporteksempel**|Op/Ned<br />Højre/venstre<br />Ctrl+Home/End<br />Page Up/Down|Rulle op og ned på siden<br />Rulle til højre eller venstre <br />Gå til første/sidste side<br />Gå til forrige side eller næste side|
 

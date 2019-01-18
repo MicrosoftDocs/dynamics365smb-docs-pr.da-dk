@@ -12,17 +12,17 @@ ms.search.keywords: numbers, numbering
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a61d7b07b2e04259bb4db386b651c4711ac7b09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 46131d6ad5f77a02ffe33d24f1210a226c3041c1
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-number-series"></a>Oprette nummerserie
 For hver af de virksomheder, som du opretter, skal du knytte entydige id-koder til ting som finanskonti, debitor- og kreditorkonti, fakturaer og andre dokumenter. Nummereringen er ikke kun vigtig til identifikation. Et veludviklet nummereringssystem gør det også nemmere at administrere og foretage analyse i virksomheden og kan reducere antallet af dataindtastningsfejl.
 
 > [!NOTE]  
->   Det anbefales, at du bruger samme nummerseriekoder, som du kan se vist i vinduet **Nummerserieoversigt** i demonstrationsvirksomheden CRONUS. Koder som *K-FAK+* giver muligvis ikke mening for dig, men [!INCLUDE[d365fin](includes/d365fin_md.md)] har en række standardindstillinger, som afhænger af disse nummerseriekoder.
+>   Det anbefales, at du bruger samme nummerseriekoder, som du kan se vist på siden **Nummerserieoversigt** i demonstrationsvirksomheden CRONUS. Koder som *K-FAK+* giver muligvis ikke mening for dig, men [!INCLUDE[d365fin](includes/d365fin_md.md)] har en række standardindstillinger, som afhænger af disse nummerseriekoder.
 
 Du kan oprette et nummereringssystem ved at oprette en eller flere koder for hver type stamdata eller dokument. Du kan f.eks. oprette en kode til nummerering af debitorer, en anden kode til nummerering af salgsfakturaer og en anden kode til nummerering af dokumenter i finanskladder. Når du har oprettet en kode, skal du oprette mindst en nummerserielinje. Nummerserielinjen indeholder oplysninger som f.eks. det første og sidste nummer i serien og startdatoen. Du kan oprette mere end en nummerserielinje pr. nummerseriekode med en anden startdato for hver linje. Serierne bruges efter hinanden, hvor hver serie starter på den pågældende startdato.
 
@@ -38,16 +38,16 @@ Feltet **Nummer** kan udfyldes på tre måder:
 1. Hvis der kun findes én nummerserie for typen af dokument eller kort, hvor afkrydsningsfeltet **Standardnumre** er markeret, og afkrydsningsfeltet **Manuel nummerering** ikke er markeret, udfyldes feltet automatisk med det næste nummer i serien, og feltet **Nummer** kan ikke ses.
 
     > [!NOTE]  
-    > Hvis nummerserien ikke fungerer, f.eks. fordi der ikke er flere tal, er feltet **Nummer** synligt, og du kan manuelt angive et nummer eller løse problemerne i vinduet **Nummerserieoversigt**.
+    > Hvis nummerserien ikke fungerer, f.eks. fordi der ikke er flere tal, er feltet **Nummer** synligt, og du kan manuelt angive et nummer eller løse problemerne på siden **Nummerserieoversigt**.
 
-2. Hvis der findes mere end én nummerserie for typen af dokument eller kort, og afkrydsningsfeltet **Standardnumre** ikke er markeret for den nummerserie, der aktuelt er tildelt, er feltet **Nummer** synligt, og kan du slå vinduet **Nummerserieoversigt** op og vælge den nummerserie, du vil bruge. Det næste nummer i serien indsættes derefter i feltet **Nummer** .
+2. Hvis der findes mere end én nummerserie for typen af dokument eller kort, og afkrydsningsfeltet **Standardnumre** ikke er markeret for den nummerserie, der aktuelt er tildelt, er feltet **Nummer** synligt, og kan du slå siden **Nummerserieoversigt** op og vælge den nummerserie, du vil bruge. Det næste nummer i serien indsættes derefter i feltet **Nummer** .
 
 3. Hvis du ikke har defineret en nummerserie for denne type dokument eller kort, eller hvis feltet **Manuel nummerering** er markeret for nummerserien, er feltet **Nummer** synligt, og du skal angive et nummer manuelt. Du kan bruge op til 20 tegn (både tal og bogstaver).
 
-Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes det relevante **Konfiguration af salgsnummerserie**, så du kan oprette en nummerserie for denne type dokument eller kort, før du fortsætter med andre indtastning af data.
+Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes den relevante side **Konfiguration af salgsnummerserie**, så du kan oprette en nummerserie for denne type dokument eller kort, før du fortsætter med andre indtastning af data.
 
 > [!NOTE]  
-> Hvis du har brug for at aktivere manuel nummerering på f.eks. nye varekort, der er oprettet med en dataoverførselsproces, hvor **Nummer** som standard er skjult, skal du gå til vinduet **Lageropsætning** og vælge feltet **Varenumre** for at åbne og indstille de relaterede nummerserier til **Manuel nummerering**.
+> Hvis du har brug for at aktivere manuel nummerering på f.eks. nye varekort, der er oprettet med en dataoverførselsproces, hvor **Nummer** som standard er skjult, skal du gå til siden **Lageropsætning** og vælge feltet **Varenumre** for at åbne og indstille de relaterede nummerserier til **Manuel nummerering**.
 
 ## <a name="to-create-a-new-number-series"></a>Sådan opretter du en ny nummerserie
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Nummerserie**, og vælg derefter det relaterede link.
@@ -57,7 +57,7 @@ Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Sådan definerer du, hvor en nummerserie skal bruges
 Følgende procedure viser, hvordan du konfigurerer nummerserieren for området Salg. Trinene er som for andre områder.
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salg**, og vælg derefter det relaterede link.
-2. I vinduet **Salg** i oversigtspanelet **Nummerserie** skal du vælge den ønskede nummerserie for hvert salgskort eller dokument.
+2. På siden **Salg** i oversigtspanelet **Nummerserie** skal du vælge den ønskede nummerserie for hvert salgskort eller dokument.
 
 Det valgte nummer bliver nu brugt til at udfylde feltet **Nummer** på det relevante kort eller dokument i overensstemmelse med de valgte indstillinger på nummerserielinjen.
 
@@ -68,7 +68,7 @@ Hvis du har oprettet mere end en nummerseriekode for samme slags grundlæggende 
 2. Vælg linjen med den nummerserie, du vil oprette relationer for, og vælg derefter **Relationer**.
 3. I feltet **Seriekode** skal du indtaste koden for de antal serier, du vil knytte til de serier, du valgte under trin to .
 4. Tilføj en linje for hver kode, du vil knytte til den valgte nummerserie.
-5. Luk vinduet.
+5. Luk siden.
 
 Når du derefter opretter noget, der kræver et nummer, kan du bruge de relationer, du har oprettet, til at vælge mellem de relaterede nummerserier.
 

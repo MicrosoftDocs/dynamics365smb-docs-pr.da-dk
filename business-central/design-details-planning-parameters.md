@@ -11,10 +11,10 @@ ms.search.keywords: planning, design
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a108de9d4fe537f2d014c705583b910dc7be66a7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-planning-parameters"></a>Designoplysninger: Planlægningsparametre
@@ -40,9 +40,9 @@ Genbestillingsforslag frigives normalt kun, når det forventede disponible antal
 Feltet **Interval** bruges af genbestillingspunkt metoder (**Fast genbestil.antal** og **Maks. antal**), hvor lagerniveauet kontrolleres efter hvert tidsinterval. Det første interval starter på den planlagte startdato.  
 
 > [!NOTE]  
->  Ved beregning af intervallerne ignorerer planlægningssystemet eventuelle arbejdskalendere, der er defineret i feltet **Basiskalenderkode** i vinduerne **Virksomhedsoplysninger** og **Lokationskort**.  
+>  Ved beregning af intervallerne ignorerer planlægningssystemet eventuelle arbejdskalendere, der er defineret i feltet **Basiskalenderkode** på siderne **Virksomhedsoplysninger** og **Lokationskort**.  
 
-Standardsikkerhedstiden i vinduet **Produktionsopsætning**, skal indstilles til mindst én dag. Forfaldsdatoen for behovet kan være kendt, men ikke forfaldstidspunktet. Der planlægges bagud for at imødekomme bruttobehov, og hvis der ikke er defineret nogen sikkerhedstid, kan varerne ankomme for sent til at opfylde behovet.  
+Standardsikkerhedstiden på siden **Produktionsopsætning**, skal indstilles til mindst én dag. Forfaldsdatoen for behovet kan være kendt, men ikke forfaldstidspunktet. Der planlægges bagud for at imødekomme bruttobehov, og hvis der ikke er defineret nogen sikkerhedstid, kan varerne ankomme for sent til at opfylde behovet.  
 
 Tre ekstra felter for genbestillingsperiode **Ændringsperiode**, **Akkumuleringsperiode for lot**, og **Bufferperiode** spiller også en rolle, når det skal defineres, hvornår der skal genbestilles. Du kan finde flere oplysninger i afsnittet "Optimer, hvornår og hvor meget du skal genbestille".  
 
@@ -100,7 +100,7 @@ I nedenstående eksempler repræsenterer sorte pile eksisterende forsyning (op) 
 
 ![Bufferperiode, Akkumuleringsperiode for lot og Ret antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Bufferperiode, Akkumuleringsperiode for lot og Ret antal")  
 
-**Standardværdier:** Standardværdien for feltet **Interval** og de tre felter for genbestillingsperioden er tomme. For alle felter, undtagen feltet **Bufferperiode**, betyder det 0D (nul dage). Hvis feltet **Bufferperiode** er tomt, bruges den globale værdi i feltet **Standardbufferperiode** i vinduet **Produktionsopsætning**.  
+**Standardværdier:** Standardværdien for feltet **Interval** og de tre felter for genbestillingsperioden er tomme. For alle felter, undtagen feltet **Bufferperiode**, betyder det 0D (nul dage). Hvis feltet **Bufferperiode** er tomt, bruges den globale værdi i feltet **Standardbufferperiode** på siden **Produktionsopsætning**.  
 
 ## <a name="modify-the-supply-orders"></a>Ret forsyningsordrerne  
 Når antallet af ordreforslaget er beregnet, kan en eller flere af ordremodifikatorerne justere den. Det maksimale ordreantal er f.eks. større end eller lig med det mindst tilladte ordreantal, som er større end eller lig med oprundingsfaktoren.  

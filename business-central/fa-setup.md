@@ -12,10 +12,10 @@ ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fac857ae94152104ea6640782a5f315424b739e7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3e610461a78ec2a4cebb60350236e17fe3d7e9cf
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="setting-up-fixed-assets"></a>Opsætning af anlægsaktiver
@@ -27,9 +27,9 @@ Før du kan arbejde med anlægsaktiver, skal du angive et par ting:
 Tabellen nedenfor indeholder links til flere oplysninger. Når du konfigureret disse ting, kan du begynde på forskellige aktiviteter. Du kan finde flere oplysninger under [Anlægsaktiver](fa-manage.md).  
 
 > [!NOTE]  
->   Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger vinduet **Anlægskassekladde**.  
+>   Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger siden **Anlægskassekladde**.  
 
-Når du vælger en anlægsaktivitet i afsnittet **Finansintegration** i vinduet **Afskrivningsprofilkort**, bruges vinduet **Anlægsfinanskladde** til at bogføre transaktioner for aktiviteten.
+Når du vælger en anlægsaktivitet i afsnittet **Finansintegration** på siden **Afskrivningsprofilkort**, bruges siden **Anlægsfinanskladde** til at bogføre transaktioner for aktiviteten.
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 

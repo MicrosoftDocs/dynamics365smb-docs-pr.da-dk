@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 846b4b827bf070533ed6d06e430c010c0a4b5d62
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3bc52f5a6904bd002a3aa525e8250e5650ba32c0
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-oioubl"></a>Konfigurere OIOUBL
@@ -28,7 +28,7 @@ Du skal angive en placering til lagring af OIOUBL-filer (Offentlig Information O
 ### <a name="about-oioubl-profiles"></a>Om OIOUBL-profiler  
 OIOUBL-profiler er tilpasninger af forretningsprocesser til forskellige typer transaktioner og afhænger af typerne af og oplysningerne i de dokumenter, der udveksles. I Danmark er de to profiler, der skal bruges, profilerne **Simpel fakturaproces** (Procurement-OrdSim-BilSim-1.0) og **Grundlæggende fakturering** (urn:www.nesubl.eu:profiles:profile5:ver2.0). Profilen Grundlæggende fakturering er baseret på NES (Northern European Subset). Kunden skal kunne modtage dokumenter på én af disse profiler. Hvis du ikke er sikker, skal du spørge kunden om, hvilken profil de kræver. Du kan finde flere oplysninger i emnet om OIOUBL-profiler i afsnittet Ofte stillede spørgsmål på [Digitaliseringsstyrelsen](https://aka.ms/Digitaliseringsstyrelsen).  
 
-Standardprofilen for alle debitorer er profilen Simpel fakturaproces, der er valgt i vinduet **Opsætning af salg og tilgodehavender**. Du kan angive profilen for en bestemt kunde på kortet **Debitor**. Hvis du vil bruge profilen Grundlæggende fakturering, skal du tilføje den. Det gør du ved i vinduet **Opsætning af salg og tilgodehavender** at klikke på knappen i feltet **Standardprofilkode** og derefter vælge **Ny**. Angiv et navn for koden, og i feltet **Profil** skal du derefter angive **urn:www.nesubl.eu:profiles:profile5:ver2.0**. Du kan derefter vælge profilen, enten som standardprofilen eller for en eller flere debitorer.
+Standardprofilen for alle debitorer er profilen Simpel fakturaproces, der er valgt på siden **Opsætning af salg og tilgodehavender**. Du kan angive profilen for en bestemt kunde på kortet **Debitor**. Hvis du vil bruge profilen Grundlæggende fakturering, skal du tilføje den. Det gør du ved på siden **Opsætning af salg og tilgodehavender** at klikke på knappen i feltet **Standardprofilkode** og derefter vælge **Ny**. Angiv et navn for koden, og i feltet **Profil** skal du derefter angive **urn:www.nesubl.eu:profiles:profile5:ver2.0**. Du kan derefter vælge profilen, enten som standardprofilen eller for en eller flere debitorer.
 
 ##<a name="to-set-up-payment-terms"></a>Sådan defineres betalingsbetingelser
 Hvis du angiver betalingsbetingelserne for debitorer, medtages de elektroniske dokumenter rabatter, som du giver for førtidige betalinger.
@@ -52,7 +52,7 @@ Du kan bruge debitorskabelonen **Offentlig kunde (OIOXML)** til at anvende stand
     |---------------------------------|---------------------------------------|
     |**GLN**|Angiv GLN-lokationsnummeret for debitoren. |  
     |**Kontokode**|Angiv kontokoden for kunden.<br /><br /> Kunder i den offentlige sektor angiver en kontokode, når de afgiver en bestilling eller rekvisition. Baseret på værdien i dette felt medtages kontokoden i OIOUBL-dokumenter, du opretter i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Ifølge **Lov om Offentlige Betalinger** og relaterede love har kunden ret til at tilbageholde betaling, indtil der modtages en faktura med den relevante kontokode. |  
-    |**Profilkode**|Angiver den profil, som denne kunde kræver for elektroniske dokumenter, hvis den er anderledes end den standardprofil, du har angivet i vinduet **Salgsopsætning**.|  
+    |**Profilkode**|Angiver den profil, som denne kunde kræver for elektroniske dokumenter, hvis den er anderledes end den standardprofil, du har angivet på siden **Salgsopsætning**.|  
     |**Profilkode kræves**|Angiver, om debitoren kræver en profilkode til elektroniske bilag.<br /><br /> **Tip** <br /> Hvis feltet **Profilkode kræves** er markeret, kan du ikke bogføre et salgsdokument for debitoren, medmindre du har angivet en profil.|  
 
 6. I feltet **Betalingsbetingelser**, skal du vælge de betingelser, som du forventer, at kunden skal betale.

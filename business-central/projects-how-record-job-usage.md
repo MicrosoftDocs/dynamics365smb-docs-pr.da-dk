@@ -13,14 +13,14 @@ ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e73d4aa2928f7d0f5cc04e938ca887f7403f00d1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-usage-for-jobs"></a>Registrere forbrug for sager
-I vinduet **Sagsplanlægningslinjer** kan du gennemse og registrere forbrug på forskellige dele af din sag, der automatisk opdateres, når du ændrer eller overfører oplysninger mellem sag og sagskladder eller sagsfakturaer. Dette kræver, at du har oprettet en sag, så **Anvend anvendelseslink som standard** er aktiveret. Der er flere oplysninger i [Konfigurere sager](projects-how-setup-jobs.md).  
+På siden **Sagsplanlægningslinjer** kan du gennemse og registrere forbrug på forskellige dele af din sag, der automatisk opdateres, når du ændrer eller overfører oplysninger mellem sag og sagskladder eller sagsfakturaer. Dette kræver, at du har oprettet en sag, så **Anvend anvendelseslink som standard** er aktiveret. Der er flere oplysninger i [Konfigurere sager](projects-how-setup-jobs.md).  
 
 F.eks. kan du angive antallet af en ressource, og hvilken mængde, der skal overføres til sagskladden, for planlægningslinjer af typen **Budget**. Hvis planlægningslinjens type er **Fakturerbar**, kan du angive antallet af ressourcen, og angive hvilket antal, der skal overføres til en faktura. Ved at sammenligne det antal, der er blevet overført til kladden eller fakturaen med restantallet, kan du hurtigt gennemgå anvendelsesoplysninger.
 
@@ -34,10 +34,10 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 
     Feltet **Restantal** viser det antal, der mangler for at afslutte sagen og blive overført til kladden.  
 5. Vælg handlingen **Opret sagskladdelinjer**.
-6. I vinduet **Kopier sag til sagsplanlægningslinje** skal du udfylde felterne efter behov og derefter vælge knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. På siden **Kopier sag til sagsplanlægningslinje** skal du udfylde felterne efter behov og derefter vælge knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Vælg handlingen **Åbn sagskladde**.  
-8. I vinduet **Sagskladde** skal du markere den relevante linje, og derefter vælge handlingen **Bogfør**.
-9. I vinduet **Sagsplanlægningslinjer** skal du gennemgå det registrerede forbrug ved at holde øje felterne **Antal**, **Restantal** og **Antal, der skal overføres til kladde**.  
+8. På siden **Sagskladde** skal du markere den relevante linje, og derefter vælge handlingen **Bogfør**.
+9. På siden **Sagsplanlægningslinjer** skal du gennemgå det registrerede forbrug ved at holde øje felterne **Antal**, **Restantal** og **Antal, der skal overføres til kladde**.  
 10. Gentag trin 3 til 8 for at registrere ekstra forbrug.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Sådan registreres forbrug for en sagsplanlægningslinje af typen Fakturerbar
@@ -50,21 +50,21 @@ I den næste opgave kan du også registrere forbrug, men for en sagsplanlægning
 
     Feltet **Antal til fakturering** viser det antal, der mangler for at afslutte sagen og blive faktureret.  
 5. Vælg handlingen **Opret salgsfaktura**.
-6. I vinduet **Kopier til salgsfaktura for sag** skal du udfylde felterne efter behov, og derefter vælge knappen **OK**.
-7. I vinduet **Sagplanlægningslinjer** skal du markere den relevante linje, og derefter vælge handlingen **Bogfør**.
+6. På siden **Kopier til salgsfaktura for sag** skal du udfylde felterne efter behov, og derefter vælge knappen **OK**.
+7. På siden **Sagplanlægningslinjer** skal du markere den relevante linje, og derefter vælge handlingen **Bogfør**.
 8. Gennemgå det registrerede forbrug ved at observere felterne **Antal**, **Antal til fakturering**, **Antal til overførsel til faktura** og, hvis salgsfakturaen er blevet bogført, feltet **Fakt. antal**.
 9. Gentag trin 3 til 8 for at registrere ekstra forbrug.  
 10. For at gennemse en relateret bogført salgsfaktura skal du vælge handlingen **Salgsfakturaer/kreditnotaer**.  
-11. Vælg den relevante faktura i vinduet **Sagsfakturaer**, og vælg derefter **Åbn salgsfaktura/-kreditnota**.         
+11. Vælg den relevante faktura på siden **Sagsfakturaer**, og vælg derefter **Åbn salgsfaktura/-kreditnota**.         
 
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Sådan oprettes sagskladdelinjer fra sagsplanlægningslinjer
 Når du er klar til at bogføre finansielle oplysninger for sager, skal du oprette sagskladdelinjer, som du kan bogføre.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2. Markér en relevant åben sag, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
-3. I vinduet **Sagsplanlægningslinjer**, på en relevant sagsplanlægningslinje i feltet **Antal, der skal overføres til kladde**, skal du angive det antal, du vil overføre til en sagskladde.  
+3. På siden **Sagsplanlægningslinjer**, på en relevant sagsplanlægningslinje i feltet **Antal, der skal overføres til kladde**, skal du angive det antal, du vil overføre til en sagskladde.  
 4. Vælg handlingen **Opret sagskladdelinjer**.
-5. I vinduet **Kopier sag til sagsplanlægningslinje** skal du udfylde felterne efter behov.  
+5. På siden **Kopier sag til sagsplanlægningslinje** skal du udfylde felterne efter behov.  
 6. Vælg knappen **OK**. Sagskladdelinjer oprettes.
 7. Hvis du vil kontrollere overførslen, skal du åbne det relevante sagskladdenavn og kontrollere posterne.  
 8. Når sagskladdelinjerne er fuldført, skal du vælge handlingen **Bogfør**.  
@@ -83,7 +83,7 @@ Når du har bogført sagskladdelinjer, kan du se de planlægningslinjer, der er 
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
 2. Vælg en relevant sagskladde, og vælg derefter handlingen **Poster**.  
-3. I vinduet **Sagsposter** skal du vælge handlingen **Vis tilknyttede sagsplanlægningslinjer**.
+3. På siden **Sagsposter** skal du vælge handlingen **Vis tilknyttede sagsplanlægningslinjer**.
 
 ## <a name="see-also"></a>Se også
 [Projektstyring](projects-manage-projects.md)  

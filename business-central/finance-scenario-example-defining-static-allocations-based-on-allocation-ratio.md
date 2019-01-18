@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Scenarieeksempel: Definition af statisk allokeringer baseret på fordelingsforholdet
@@ -30,7 +31,7 @@ Dette emne beskriver, hvordan du definerer tre nye fordelingsmålsomkostningsobj
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Sådan defineres fordelingskilden PROD-omkostningssted på oversigtspanelet Generelt  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
-2.  I vinduet **Omkostningsfordeling** skal du vælge handlingen **Ny**.  
+2.  På siden **Omkostningsfordeling** skal du vælge handlingen **Ny**.  
 3.  I feltet **Id** skal du trykke på Enter eller indtaste et id.  
 4.  Angiv **1** i feltet **Niveau**.  
 5.  I felterne **Gyldig fra** og **Gyldig til** skal du angive relevante datoer.  
@@ -59,8 +60,5 @@ Dette emne beskriver, hvordan du definerer tre nye fordelingsmålsomkostningsobj
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk feltet **Procent** ved hjælp af en procentsats , der er afhængig af alle tre fordelingsforhold, der er angivet i feltet **Fordeling** for alle tre linjer.  
 
 ## <a name="see-also"></a>Se også  
-[Konfigurere fordelingskilde og mål](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)   
-[Scenarieeksempel: Definition af dynamiske fordelinger baseret på solgte varer](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
-[Definere og allokere omkostninger](finance-define-and-allocate-costs.md)
 

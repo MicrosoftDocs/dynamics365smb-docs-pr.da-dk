@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4258d6b2edea44dbf86b649ffb4c515473421a55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="pick-items"></a>Plukke varer
@@ -27,9 +27,9 @@ Hvis du beslutter dig for at organisere og registrere plukaktiviteten med lagerd
 > [!NOTE]
 > Selv om indstillingen kaldes **Kræv pluk**, kan du bogføre leverancer direkte fra kildeforretningsdokumentet på den lokation, hvor du markerer dette afkrydsningsfelt.
 
-Hvis lokationen er indstillet til at kræve pluk-, men ikke leverancebehandling, kan du bruge vinduet **Pluk (lager)** til at organisere plukoplysningerne, udskrive oplysningerne, skrive resultatet af plukningen og bogføre plukoplysningerne, hvilket medfører, at leverancen af varerne også bogføres. Hvis du plukker komponenter til en produktionsordre, bogføres forbruget også, hvis du bogfører plukket.
+Hvis lokationen er indstillet til at kræve pluk-, men ikke leverancebehandling, kan du bruge siden **Pluk (lager)** til at organisere plukoplysningerne, udskrive oplysningerne, skrive resultatet af plukningen og bogføre plukoplysningerne, hvilket medfører, at leverancen af varerne også bogføres. Hvis du plukker komponenter til en produktionsordre, bogføres forbruget også, hvis du bogfører plukket.
 
-Hvis lokationen er indstillet til at kræve både pluk og leverance, dvs. at du har markeret både feltet **Kræv pluk** og feltet **Kræv leverance** på lokationskortet, kan du bruge vinduet **Pluk (logistik)** til at håndtere plukningen. Pluk i forbindelse med logistik fungerer på samme måde som pluk fra lager, bortset fra at du registrerer plukket i stedet for at bogføre plukoplysningerne. Registreringen medfører ikke, at leverancen bogføres, men blot, at varerne bliver tilgængelige til levering. Som lagerchef kan du bruge en plukkladde til at organisere plukoplysningerne, før du opretter de enkelte plukinstruktioner (logistik).
+Hvis lokationen er indstillet til at kræve både pluk og leverance, dvs. at du har markeret både feltet **Kræv pluk** og feltet **Kræv leverance** på lokationskortet, kan du bruge siden **Pluk (logistik)** til at håndtere plukningen. Pluk i forbindelse med logistik fungerer på samme måde som pluk fra lager, bortset fra at du registrerer plukket i stedet for at bogføre plukoplysningerne. Registreringen medfører ikke, at leverancen bogføres, men blot, at varerne bliver tilgængelige til levering. Som lagerchef kan du bruge en plukkladde til at organisere plukoplysningerne, før du opretter de enkelte plukinstruktioner (logistik).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
 

@@ -1,6 +1,6 @@
 ---
 title: "Sådan administrerer du notifikationsskabeloner | Microsoft Docs"
-description: "Notifikationer sendes til arbejdsgangsbrugere for at give dem besked om trin, de skal foretage, eller informere dem om statussen for trin i arbejdsgangen. Du konfigurerer, hvem der modtager besked og hvornår, ved opsætning af godkendelsesbrugere, brugernes notifikationsplan og de involverede arbejdsgangssvar for at definere notifikationsmodtageren. Du kan finde flere oplysninger i [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)."
+description: "Notifikationer sendes til arbejdsgangsbrugere for at give dem besked om trin, de skal foretage, eller informere dem om statussen for trin i arbejdsgangen. Du konfigurerer, hvem der modtager besked og hvornår, ved opsætning af godkendelsesbrugere, brugernes notifikationsplan og de involverede arbejdsgangssvar for at definere notifikationsmodtageren."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
+redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-notification-templates"></a>Administrere notifikationsskabeloner
@@ -28,7 +29,7 @@ Notifikationer sendes til arbejdsgangsbrugere for at give dem besked om trin, de
 
 ## <a name="to-create-a-new-notification-template"></a>Sådan opretter du en ny notifikationsskabelon  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Notifikationsskabeloner**, og vælg derefter det relaterede link.  
-2.  I vinduet **Notifikationsskabeloner** skal du vælge handlingen **Ny**.  
+2.  På siden **Notifikationsskabeloner** skal du vælge handlingen **Ny**.  
 3.  Udfyld felterne som beskrevet i følgende tabel.  
 
     |Felt|Beskrivelse|  
@@ -41,9 +42,9 @@ Notifikationer sendes til arbejdsgangsbrugere for at give dem besked om trin, de
 
 ## <a name="to-modify-a-notification-template"></a>Sådan redigerer du en notifikationsskabelon  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Notifikationsskabeloner**, og vælg derefter det relaterede link.  
-2.  I vinduet **Notifikationsskabeloner** skal du vælge den notifikationsskabelon, du vil redigere.  
+2.  På siden **Notifikationsskabeloner** skal du vælge den notifikationsskabelon, du vil redigere.  
 3.  Vælg handlingen **Eksportér skabelonindhold**.  
-4.  I vinduet **Udlæs fil** skal du klikke på knappen **Gem** og derefter navngive og gemme HTML-filen et relevant sted.  
+4.  På siden **Udlæs fil** skal du klikke på knappen **Gem** og derefter navngive og gemme HTML-filen et relevant sted.  
 5.  Højreklik på filen fil, vælg **Åbn med**, og vælg derefter det relevante program.  
 
     > [!NOTE]  
@@ -51,14 +52,14 @@ Notifikationer sendes til arbejdsgangsbrugere for at give dem besked om trin, de
 6.  Redigér indholdet af notifikationsskabelonen ved at tilføje, ændre eller fjerne parametervariabler for at definere det ønskede, og gem den. Du kan finde flere oplysninger i afsnittet "Indholdet af feltet notifikationsskabeloner".  
 
     Fortsæt med at indlæse det redigerede indhold tilbage til samme notifikationsskabelon eller til en ny.  
-7.  For at redigere den notifikationsskabelon, du har eksporteret, skal du i vinduet **Notifikationsskabeloner** vælge den skabelon, du valgte i trin 2.  
+7.  For at redigere den notifikationsskabelon, du har eksporteret, skal du på siden **Notifikationsskabeloner** vælge den skabelon, du valgte i trin 2.  
 
     Du kan også importere det redigerede skabelonindhold til en ny notifikationsskabelon ved at følge proceduren i "Sådan opretter du en ny notifikationsskabelon" og vælge den nye notifikationsskabelon.  
 8.  Vælg handlingen **Importér skabelonindhold**.  
 9. Hvis du vil redigere en eksisterende notifikationsskabelon, skal du klikke på knappen **Ja** på meddelelsen om, at den eksisterende skabelon overskrives.  
-10. I vinduet **Vælg en fil, der skal importeres** skal du vælge den HTML-fil, du ændrede i trin 6, og derefter klikke på knappen **Åbn**.  
+10. På siden **Vælg en fil, der skal importeres** skal du vælge den HTML-fil, du ændrede i trin 6, og derefter klikke på knappen **Åbn**.  
 
-Eksisterende eller nye notifikationsskabeloner i vinduet **Notifikationsskabeloner** opdateres nu med det redigerede indhold.  
+Eksisterende eller nye notifikationsskabeloner på siden **Notifikationsskabeloner** opdateres nu med det redigerede indhold.  
 
 ### <a name="content-of-the-notification-templates"></a>Indhold af notifikationsskabelonerne  
 De tre typer af notifikationsskabelon, **Ny post**, **Godkendelse** og **Forfald**, har forskelligt indhold.  

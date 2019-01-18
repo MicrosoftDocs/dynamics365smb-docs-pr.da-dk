@@ -13,10 +13,10 @@ ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 28891eb7cef2faba6004cbf97480c438c58df892
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Automatisk registrere interaktioner med kontakter
@@ -28,8 +28,8 @@ Du kan konfigurere program til automatisk at registrere interaktioner for salg, 
 * Sende mails til dine kontakter.
 * Ringe til kontaktpersoner, hvis din telefon har TAPI-funktionalitet, og du har de relevante systemer installeret.
 
-Når du vil oprette automatisk registrering af disse interaktioner, skal du angive interaktionsskabeloner til disse dokumenter og handlinger ved hjælp af vinduet **Opsætning af interaktionsskbl**.  
-Når du vil åbne vinduet **Opsætning af interaktionsskabelon**, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Opsætning af interaktionsskabelon** og derefter vælge det relaterede link.
+Når du vil oprette automatisk registrering af disse interaktioner, skal du angive interaktionsskabeloner til disse dokumenter og handlinger ved hjælp af siden **Opsætning af interaktionsskbl**.  
+Når du vil åbne siden **Opsætning af interaktionsskabelon**, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Opsætning af interaktionsskabelon** og derefter vælge det relaterede link.
 
 ## <a name="see-also"></a>Se også
 [Registrering af interaktioner med kontakter](marketing-interactions.md)  

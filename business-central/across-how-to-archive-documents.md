@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="archive-documents"></a>Arkivere dokumenter
@@ -27,7 +27,7 @@ Du kan konfigurere automatisk arkivering af salgs- og indkøbsordrer, tilbud, ra
 
 Nedenstående fremgangsmåde beskriver konfigurationen af automatisk arkivering af salgsdokumenter. Fremgangsmåden er den samme for købsdokumenter.
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af salg og tilgodehavender**, og vælg derefter det relaterede link.
-2. I vinduet **Opsætning af salg og tilgodehavender** skal du udfylde følgende felter:
+2. På siden **Salgsopsætning** skal du udfylde felterne på følgende måde.
 
 |Felt|Beskrivelse|
 |-----|-----------|
@@ -42,7 +42,7 @@ Nedenstående procedure beskriver, hvordan du arkiverer en salgsordre. Fremgangs
 2.  Åbn en salgsordre, som du vil arkivere.  
 3.  Vælg handlingen **Arkivér bilag**.
 
-Salgsordren arkiveres. Du kan se den i vinduet **Arkiverede salgsordrer**. Her kan du også bruge den til at genskabe den salgsordre, som den blev arkiveret fra.
+Salgsordren arkiveres. Du kan se den på siden **Arkiverede salgsordrer**. Her kan du også bruge den til at genskabe den salgsordre, som den blev arkiveret fra.
 
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Sådan genoprettes en salgsordre fra arkivet
 Nedenstående procedure beskriver, hvordan du genopretter en salgsordre. Fremgangsmåden er den samme for alle ordrer, rammeordrer, returvareordrer og tilbud.
@@ -50,13 +50,13 @@ Nedenstående procedure beskriver, hvordan du genopretter en salgsordre. Fremgan
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arkiverede salgsordrer**, og vælg derefter det relaterede link.
 2.  Vælg den arkiverede salgsordre, du vil genoprette, og vælg derefter handlingen **Gendan**.  
 
-Salgsordren oprettes og føjes til vinduet **Salgsordrer**.
+Salgsordren oprettes og føjes til siden **Salgsordrer**.
 
 ## <a name="to-delete-archived-sales-orders"></a>Sådan sletter du arkiverede salgsordrer
 Nedenstående procedure beskriver, hvordan du sletter arkiverede salgsordrer. Trinene er de samme for andre arkiverede salgs- og købsdokumenter.
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet arkiverede salgsordreversioner**, og vælg derefter det relaterede link.  
-2.  I feltet **Slet arkiverede salgsordreversioner** skal du vælge de relevante filtre.  
+2.  På siden **Slet arkiverede salgsordreversioner** skal du vælge de relevante filtre.  
 3.  Vælg knappen **OK**.
 
 ## <a name="see-also"></a>Se også

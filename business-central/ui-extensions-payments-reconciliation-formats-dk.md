@@ -13,10 +13,10 @@ ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2a2fbae74dd5f6c401cfe8fa9b31c27e90a604b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a39aeebdd75c1511739eb575205b1c7c34c9df11
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ Desuden skal du tildele kreditorer til en indenlandsk **Virksomhedsbogføringsgr
 
 ### <a name="to-allow-included365finincludesd365finmdmd-to-export-payment-data"></a>Sådan tillader du [!INCLUDE[d365fin](includes/d365fin_md.md)] at eksportere betalingsdata
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladde**, og vælg derefter det relaterede link.  
-2. I vinduet **Rediger udbetalingskladde** skal du vælge kørslen **Bank**.  
+2. På siden **Rediger udbetalingskladde** skal du vælge kørslen **Bank**.  
 3. Vælg afkrydsningsfeltet **Tillad eksport af betaling**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Sådan angives en betalingsform for en kreditor

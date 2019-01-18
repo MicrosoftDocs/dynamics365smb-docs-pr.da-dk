@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Konfigurere nye virksomheder
@@ -38,7 +38,7 @@ Alle de tabeller, du har angivet til medtagelse i den nye virksomhed, importeres
 ## <a name="to-apply-package-data"></a>Overføre pakkedata  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 2. Vælg en tabel, du vil ændre data for, og vælg derefter handlingen **Anvend data**. Vælg knappen **Ja** for at bekræfte anvendelsen.
-3. Hvis du vil bekræfte, at dataene nu er i databasen, og at anvendelsen er lykkedes, skal du vende tilbage til vinduet **Konfig.kladde** og vælge handlingen **Databasedata**.  
+3. Hvis du vil bekræfte, at dataene nu er i databasen, og at anvendelsen er lykkedes, skal du vende tilbage til siden **Konfig.kladde** og vælge handlingen **Databasedata**.  
 
 > [!NOTE]  
 >  Når du har anvendt data, kan du kun se dem i databasen. De er ikke længere i pakken.  
@@ -46,9 +46,9 @@ Alle de tabeller, du har angivet til medtagelse i den nye virksomhed, importeres
 ## <a name="to-modify-and-apply-package-data"></a>Ændre og anvende pakkedata  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 2. Vælg en tabel, du vil ændre data for, og vælg derefter handlingen **Pakkedata**.  
-3. Foretag de ønskede ændringer i vinduet **Konfigurationspakkeposter**. Du kan f.eks. slette de indstillinger, du ikke kan anvende.  
+3. Foretag de ønskede ændringer på siden **Konfigurationspakkeposter**. Du kan f.eks. slette de indstillinger, du ikke kan anvende.  
 4. Vælg handlingen **Anvend data**, og vælg derefter knappen **OK**.  
-5. Hvis du vil bekræfte, at dataene nu er i databasen, og at anvendelsen er lykkedes, skal du vende tilbage til vinduet **Konfig.kladde** og vælge handlingen **Databasedata**.  
+5. Hvis du vil bekræfte, at dataene nu er i databasen, og at anvendelsen er lykkedes, skal du vende tilbage til siden **Konfig.kladde** og vælge handlingen **Databasedata**.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Du kan finde og identificere en konfigurationsfejl  
 Der er visse typer fejl, der kan opstå, når du anvender data på en database. Den mest almindelige fejl er, at påkrævede relaterede tabeller ikke blev medtaget. Du kan rette disse fejl i konfigurationsregnearket.
@@ -58,7 +58,7 @@ Der er visse typer fejl, der kan opstå, når du anvender data på en database. 
 
     Alle tabeller, der har fejl, er fremhævet. Antallet af pakkefejl vises i feltet **Antal pakkefejl**.  
 
-3. Vælg feltet **Antal pakkefejl** for at åbne vinduet **Konfigurationspakkeposter**, der viser en liste over poster med fejl.  
+3. Vælg feltet **Antal pakkefejl** for at åbne siden **Konfigurationspakkeposter**, der viser en liste over poster med fejl.  
 
 ### <a name="to-fix-an-error"></a>Rette en fejl  
 1. Åbn den virksomhed, som er baseret på konfigurationspakken.  

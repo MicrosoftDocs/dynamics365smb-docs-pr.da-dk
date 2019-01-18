@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d5b2ce28f1eaebfca26c2db3801b44ff5278e78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4df1de7eca8127c5ae2c46e04fecc5ca0f2c8302
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bins"></a>Oprette placeringer
-Den mest effektive metode til at oprette lagerplaceringer er at generere grupper af tilsvarende placeringer i oprettelseskladden, men du kan også oprette placeringer enkeltvist fra lokationskortet. Du kan også bruge en funktion i vinduet **Placeringsopr.kladde** til at oprette placeringer automatisk.  
+Den mest effektive metode til at oprette lagerplaceringer er at generere grupper af tilsvarende placeringer i oprettelseskladden, men du kan også oprette placeringer enkeltvist fra lokationskortet. Du kan også bruge en funktion på siden **Placeringsopr.kladde** til at oprette placeringer automatisk.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Sådan oprettes en placering ud fra lokationskortet  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg det relaterede link.  
@@ -39,13 +39,13 @@ Du skal på forhånd have taget stilling til, hvilken slags placeringer der er b
 > [!NOTE]  
 >  Når du først har brugt en placering, kan du ikke slette den, medmindre den er tom. Hvis du på et tidspunkt vil indføre et andet navngivningssystem til placeringerne, kan du dog bruge omposteringskladden til faktisk at flytte varer til et nyt placeringssystem. Det er derfor bedst, hvis du får sat placeringerne op korrekt allerede fra begyndelsen.  
 
-Hvis du vil arbejde med vinduet **Placeringsopr.kladde**, skal du være oprettet som lagermedarbejder på det sted, hvor placeringerne findes. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).    
+Hvis du vil arbejde med siden **Placeringsopr.kladde**, skal du være oprettet som lagermedarbejder på det sted, hvor placeringerne findes. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).    
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Placeringsopr.kladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn placeringer**.
-3. I vinduet **Beregn placeringer** i feltet **Placeringsskabelonkode**, og vælg den placeringsskabelon, der skal bruges som model for de placeringer, som du opretter.
+3. På siden **Beregn placeringer** i feltet **Placeringsskabelonkode**, og vælg den placeringsskabelon, der skal bruges som model for de placeringer, som du opretter.
 4.  Indtast en beskrivelse af placeringerne.  
-5.  For at oprette placeringskoderne, skal du udfylde felterne **Fra nr.** og **Til nr.** i de tre kategorier, der vises i vinduet: **Hylde**, **Afsnit** og **Niveau.** Placeringskoden kan være på op til 20 tegn.  
+5.  For at oprette placeringskoderne, skal du udfylde felterne **Fra nr.** og **Til nr.** i de tre kategorier, der vises på siden: **Hylde**, **Afsnit** og **Niveau.** Placeringskoden kan være på op til 20 tegn.  
 
     > [!NOTE]  
     >  Det antal tegn, som du har indtastet i de tre kategorier for et felt, f.eks. de tegn, som du har indtastet i de tre felter **Fra nr.**, plus eventuelle feltafgrænsere, skal være på 20 eller færre tegn.  

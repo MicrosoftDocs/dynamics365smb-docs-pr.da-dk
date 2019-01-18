@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Ændring af grundlæggende indstillinger
-I vinduet [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med dine brugerindstillinger i Business Central"), kan du få vist og ændre grundlæggende indstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ændringer, du foretager, påvirker kun dit arbejdsområde, ikke arbejdsområder for andre brugere.  
+På siden [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med dine brugerindstillinger i Business Central"), kan du få vist og ændre grundlæggende indstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ændringer, du foretager, påvirker kun dit arbejdsområde, ikke arbejdsområder for andre brugere.  
 
 ## <a name="role-center"></a> Rollecenter
 Rollecenteret repræsenterer startsiden, et startskærmbillede, der er beregnet til en bestemt rolles behov i en organisation. Afhængigt af din rolle giver Rollecenter dig et overblik over arbejde, din afdeling eller personlige opgaver. Du kan også navigere til de daglige opgaver, og find arbejde, der er tildelt til dig.
@@ -30,7 +30,7 @@ Rollecenteret repræsenterer startsiden, et startskærmbillede, der er beregnet 
 ### <a name="to-change-role-center"></a>Sådan ændres et rollecenter
 Standardrollecenteret er **Virksomhedsleder**, men du kan vælge et andet rollecenter, der passer bedre til dine behov.
 1. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "ikonet Indstillinger for rollecenter") og derefter vælge **Indstillinger**.
-2. I vinduet **Mine indstillinger** skal du i feltet **Rollecenter** vælge det rollecenter, du vil angive som standard. Vælg f.eks **Regnskabsmedarbejder**.
+2. På siden **Mine indstillinger** skal du i feltet **Rollecenter** vælge det rollecenter, du vil angive som standard. Vælg f.eks **Regnskabsmedarbejder**.
 3. Vælg knappen **OK**.
 
 ## <a name="company"></a>Virksomhed
@@ -39,7 +39,7 @@ En virksomhed fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d3
 Standardfirmaet kaldes CRONUS og indeholder kun demonstrationsdata.
 
 > [!TIP]  
->   Hvis du vil vise et andet navn til din virksomhed i programmet (f.eks. i Rollecenter), skal du indstille feltet **Navn** i vinduet **Virksomhedsoplysninger** eller feltet **Visningsnavn** i vinduet **Virksomheder**.  
+>   Hvis du vil vise et andet navn til din virksomhed i programmet (f.eks. i Rollecenter), skal du indstille feltet **Navn** på siden **Virksomhedsoplysninger** eller feltet **Visningsnavn** på siden **Virksomheder**.  
 
 ## <a name="work-date"></a>Arbejdsdato
 Standardarbejdsdatoen er normalt dags dato. Du skal muligvis midlertidigt ændre arbejdsdatoen for at kunne udføre opgaver, f.eks. udføre transaktioner for en dato, der ikke er dags dato.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b0c576386a88db335a932da9c0bc1141289c57d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger
@@ -25,39 +25,39 @@ Hvis der forekommer varebehandlingsprocesser på lagerlokationen, skal du evt. f
 > [!NOTE]  
 >  Du kan finde oplysninger om flytning af varer mellem placeringer uden kildedokumenter i Intern flytning.  
 
-I avancerede lageropsætninger, som er lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, kan du bruge vinduet **Bevægelseskladde** til at flytte varer mellem placeringer. Du kan finde flere oplysninger i [Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+I avancerede lageropsætninger, som er lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, kan du bruge siden **Bevægelseskladde** til at flytte varer mellem placeringer. Du kan finde flere oplysninger i [Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 I grundlæggende lageropsætninger, som er lokationer, der bruger opsætningsfeltet **Tvungen placering** og opsætningsfeltet **Kræv pluk**, kan du registrere flytning af varer til interne operationsområder baseret på interne kildedokumenter på følgende måder:  
 
--   I vinduet **Flytning (lager)**.  
--   Med vinduet **Pluk (lager)**.  
+-   På siden **Flytning (lager)**.  
+-   Med siden **Pluk (lager)**.  
 
 > [!NOTE]  
->  Lagerpluk bogfører også negative vareposter som forbrug og understøttes kun for produktionskomponenter. Du kan finde flere oplysninger i vinduet Pluk (lager).  
+>  Lagerpluk bogfører også negative vareposter som forbrug og understøttes kun for produktionskomponenter. Du kan finde flere oplysninger på siden Pluk (lager).  
 
-Du kan finde detaljerede oplysninger om lagerbevægelser i vinduet Flytning (lager).  
+Du kan finde detaljerede oplysninger om lagerbevægelser på siden Flytning (lager).  
 
 To forskellige roller kan oprette den første flytning (lager). En montagearbejder kan for eksempel oprette rollen fra en frigivet montageordre, så den vises i lagermedarbejderens liste over arbejde, der skal udføres. For at oprette en lagerbevægelse for montageordrelinjer, der er klar til, at komponenter flyttes til deres angivne placeringer, bruger montagearbejderen funktionen **Opret flytning (lager)**.  
 
 En lagermedarbejder kan også oprette den ved at pege på den pågældende frigivne montageordre. Dette beskrives i følgende fremgangsmåde:  
 
 > [!NOTE]  
->  Hvis flytningen gælder en montageordre, hvor varen er monteret til en salgsordre, kan du definere, at dokumentet for flytning (lager) skal oprettes automatisk, når du opretter det lagerplukdokument, der tager det færdige montageelement og bogfører leverancen. Du kan angive dette ved at vælge feltet **Opret bevægelser automatisk** i vinduet **Montagekonfiguration**  
+>  Hvis flytningen gælder en montageordre, hvor varen er monteret til en salgsordre, kan du definere, at dokumentet for flytning (lager) skal oprettes automatisk, når du opretter det lagerplukdokument, der tager det færdige montageelement og bogfører leverancen. Du kan angive dette ved at vælge feltet **Opret bevægelser automatisk** på siden **Montagekonfiguration**  
 >   
 >  Du kan finde flere oplysninger om montageordrer og grundlæggende lageropsætninger i afsnittet "Håndtere montageordrevarer med pluk (lager)" i [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md).  
 
-Denne fremgangsmåde viser, hvordan du opretter en flytning (lager) fra vinduet **Flytning (lager)** ved at referere til en frigivet montageordre som et kildedokument. Fremgangsmåden er den samme, når du flytter komponenter til produktionsordrer og serviceordrer.  
+Denne fremgangsmåde viser, hvordan du opretter en flytning (lager) fra siden **Flytning (lager)** ved at referere til en frigivet montageordre som et kildedokument. Fremgangsmåden er den samme, når du flytter komponenter til produktionsordrer og serviceordrer.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Sådan flyttes komponenter til et handlingsområde i grundlæggende lageropsætninger  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Flytning (lager)**, og vælg det relevante link.  
 2.  Udfyld feltet **Nummer** i oversigtspanelet **Generelt**. . Du kan trykke på Enter-tasten for at vælge fra nummerserien.  
 3.  I feltet **Lokationskode** skal du indtaste den lokation, hvor flytningen finder sted.  
 4.  Vælg handlingen **Hent kildedokumenter**. Du kan også udfylde feltet **Kildedokumentet** og derefter vælge knappen **AssistEdit** i feltet **Kildenr.**.  
-5.  I vinduet **Kildedokumenter** skal du vælge den montageordre, du vil flytte komponenter for, og derefter vælge knappen **OK**.  
+5.  På siden **Kildedokumenter** skal du vælge den montageordre, du vil flytte komponenter for, og derefter vælge knappen **OK**.  
 
-    For hver nødvendig komponent, der kan flyttes, oprettes én hent-linje og én placer-linje i vinduet **Flytninger (lager)**. Alle felter undtagen feltet **Håndteringsantal** er udfyldt på forhånd i henhold til kildedokumentlinjerne. Feltet **Håndteringsantal** er indstillet til nul, indtil du angiver det antal, du rent faktisk har flyttet.  
+    For hver nødvendig komponent, der kan flyttes, oprettes én hent-linje og én placer-linje på siden **Flytninger (lager)**. Alle felter undtagen feltet **Håndteringsantal** er udfyldt på forhånd i henhold til kildedokumentlinjerne. Feltet **Håndteringsantal** er indstillet til nul, indtil du angiver det antal, du rent faktisk har flyttet.  
 
-    Du kan ændre placeringskoden på linjen Hent, men kun i henhold til tilgængelighed. Hvis du vælger knappen **AssistEdit** i feltet **Placeringskode** på linjen Hent, åbnes vinduet **Placeringsindhold** og viser de placeringer, hvor komponenten er tilgængelig.  
+    Du kan ændre placeringskoden på linjen Hent, men kun i henhold til tilgængelighed. Hvis du vælger knappen **AssistEdit** i feltet **Placeringskode** på linjen Hent, åbnes siden **Placeringsindhold** og viser de placeringer, hvor komponenten er tilgængelig.  
 
     Du kan ikke ændre en placeringskode på en Placer-linje. Kun den placeringskode, der er defineret på komponentlinjen i kildedokument, accepteres. Dette understøtter princippet om, at den rolle, dvs. en montagearbejder i denne procedure, der anmoder om en komponent, ved, hvor komponenten skal placeres. Hvis du vil anbringe komponenterne på en anden placering, skal du først ændre placeringskoden på komponentlinjen og derefter genoprette flytning(lager)-linjerne.  
 6.  Indtast det fulde eller delvise antal, du rent faktisk har flyttet, i feltet **Håndteringsantal**. Værdien i Hent- og Placer-linjerne skal være den samme. Ellers kan du ikke registrere bevægelsen.  

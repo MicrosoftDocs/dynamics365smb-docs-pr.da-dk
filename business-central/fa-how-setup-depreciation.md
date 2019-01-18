@@ -11,27 +11,27 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2244fa1eb4af58eea7381da937bed7fafe3d9f6c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d417db84cf45356925cf52a36ba08e478b8ee6b9
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
  Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md).
 
- Når du har oprettet de relevante afskrivningsprofiler, skal du tildele en eller flere afskrivningsprofiler til hvert anlægsaktiv. En afskrivningsprofil, der er tildelt til et anlægsaktiv, kaldes en anlægsafskrivningsprofil. Derfor kaldes vinduet for tildelte afskrivningsprofiler **Anlægsafskrivningsprofiler**.
+ Når du har oprettet de relevante afskrivningsprofiler, skal du tildele en eller flere afskrivningsprofiler til hvert anlægsaktiv. En afskrivningsprofil, der er tildelt til et anlægsaktiv, kaldes en anlægsafskrivningsprofil. Derfor kaldes siden for tildelte afskrivningsprofiler **Anlægsafskrivningsprofiler**.
 
 ## <a name="to-create-a-depreciation-book"></a>Sådan oprettes en afskrivningsprofil
 I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives. Du kan definere flere afskrivningsprofiler for at tage højde for forskellig slags afskrivningsmetoder.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.
-2. I vinduet **Afskrivningsprofiloversigt** skal du vælge handlingen **Ny**.
-3. I vinduet **Afskrivningsprofilkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På siden **Afskrivningsprofiloversigt** skal du vælge handlingen **Ny**.
+3. På siden **Afskrivningsprofilkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Du kan registrere anlægstransaktioner i vinduet **Anlægskassekladde** eller i vinduet **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Udfør næste trin for at angive, hvilken type kladden der som standard bruges til de forskellige anlægsaktiviteter.
-4. På oversigtspanelet **Integration** skal du markere afkrydsningsfeltet for hvert anlægsaktivitet, hvis transaktioner skal bogføres ved hjælp af vinduet **Anlægskassekladde**.
+    >   Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af om transaktionerne, der er til finansiel rapportering eller intern administration. Udfør næste trin for at angive, hvilken type kladden der som standard bruges til de forskellige anlægsaktiviteter.
+4. På oversigtspanelet **Integration** skal du markere afkrydsningsfeltet for hvert anlægsaktivitet, hvis transaktioner skal bogføres ved hjælp af siden **Anlægskassekladde**.
 5. Gentag trin 2 til 4 for hver afskrivningsmetode eller bogføringsmetode, du vil tildele til anlægsaktiver som en afskrivningsprofil.
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Sådan tildeles en afskrivningsprofil til et anlægsaktiv
@@ -49,8 +49,8 @@ Hvis du vil tildele en afskrivningsprofil til flere anlægsaktiver, kan du bruge
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.
 2. Vælg det anlægsaktiv, som du vil tildele en afskrivningsprofil, og vælg derefter handlingen **Rediger**.
-3. I vinduet **Afskrivningsprofilkort** skal du vælge handlingen **Opret anlægsafskr.profiler**.
-4. I vinduet **Opret anlægsafskr.profiler** skal du udfylde feltet **Afskrivningsprofil**.
+3. På siden **Afskrivningsprofilkort** skal du vælge handlingen **Opret anlægsafskr.profiler**.
+4. På siden **Opret anlægsafskr.profiler** skal du udfylde feltet **Afskrivningsprofil**.
 5. Vælg feltet **Kopier fra anlægsnr.**, og vælg derefter det anlægsnummer, du vil bruge som grundlag for oprettelsen af nye afskrivningsprofiler for anlægsaktiver.
 
     Hvis du udfylder feltet, får afskrivningsfelterne i de nye anlægsafskrivningsprofiler samme indhold som de tilsvarende felter i den anlægsafkrivningsprofil, du kopierer fra. Lad feltet stå tomt, hvis du vil oprette nye anlægsafskrivningsprofiler med tomme afskrivningsfelter.  
@@ -62,10 +62,10 @@ For hver afskrivningsprofil skal du angive, hvordan [!INCLUDE[d365fin](includes/
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
 2. Vælg den afskrivningsprofil, du vil konfigurere, og vælg derefter handlingen **Anlægsbogf.typeopsætning**.
-3. Udfyld felterne efter behov i vinduet **Anlægsbogf.typeopsætning**.
+3. Udfyld felterne efter behov på siden **Anlægsbogf.typeopsætning**.
 
     > [!NOTE]  
-    >   Du kan ikke indsætte eller slette linjer i vinduet **Anlægsbogf.typeopsætning**. Du kan kun rette eksisterende linjer.
+    >   Du kan ikke indsætte eller slette linjer på siden **Anlægsbogf.typeopsætning**. Du kan kun rette eksisterende linjer.
 
 Det anbefales dog, at du ikke ændrer opsætningen af afskrivningsprofiler, hvori posteringer allerede er blevet bogført. Ændringer har ikke indflydelse på posteringer, som allerede er bogført, hvilket ville gøre afskrivningsprofilstatistikken misvisende.
 
@@ -74,7 +74,7 @@ For hver afskrivningsprofil skal du definere en standardopsætning med typer og 
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
 2. Vælg den afskrivningsprofil, du vil definere standardkladder for, og vælg derefter handlingen **Anlægskladdeopsætning**.  
-3. Hvis du vil have en standardopsætning for hver enkelt bruger, skal du vælge feltet **Bruger-id** for at vælge opsætninger i vinduet **Brugere**.  
+3. Hvis du vil have en standardopsætning for hver enkelt bruger, skal du vælge feltet **Bruger-id** for at vælge opsætninger på siden **Brugere**.  
 4. Vælg den kladdetype eller kørsel i de andre felter, som skal bruges som standard.  
 
 ## <a name="see-also"></a>Se også

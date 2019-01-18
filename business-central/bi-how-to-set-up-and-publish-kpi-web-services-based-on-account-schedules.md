@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9e7adbe575df0b9253ead53ca2a5c782fa27e064
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 89ea440851c359db7e08d4f0265a647cb9424330
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Konfigurere og udgive KPI-webtjenester, der er baseret på kontoskemaer
-I vinduet **Konfiguration af webtjenesten Kontoskema, KPI** skal du angive, hvordan kontoskema-KPI-dataene skal vises, og hvilke specifikke kontoskemaer KPI'erne skal baseres på. Når du vælger knappen **Publicer webtjeneste**, føjes de angivne kontoskema-KPI-data til listen over publicerede webtjenester i vinduet **Webtjenester**.  
+På siden **Konfiguration af webtjenesten Kontoskema, KPI** skal du angive, hvordan kontoskema-KPI-dataene skal vises, og hvilke specifikke kontoskemaer KPI'erne skal baseres på. Når du vælger knappen **Publicer webtjeneste**, føjes de angivne kontoskema-KPI-data til listen over publicerede webtjenester på siden **Webtjenester**.  
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Sådan konfigureres og publiceres en KPI-webtjeneste, der er baseret på kontoskemaer  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af webtjenesten Kontoskema, KPI**, og vælg derefter det relaterede link.  
@@ -28,11 +28,11 @@ I vinduet **Konfiguration af webtjenesten Kontoskema, KPI** skal du angive, hvor
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
-    |**Start på prognosticerede værdier**|Angiv, hvornår prognosticerede værdier vises på den grafiske visning af kontoskema-KPI'en.<br /><br /> De prognosticerede værdier hentes fra finansbudgetposter, som du vælger i feltet **Finansbudgetnavn**. **Bemærk:**  Hvis du ønsker at få KPI'er, der viser prognosticerede tal efter en bestemt dato og faktiske tal før datoen, kan du ændre feltet **Bogf. tilladt fra** i vinduet **Opsætning af Finans**. Du kan finde flere oplysninger i Bogf. tilladt fra.|  
+    |**Start på prognosticerede værdier**|Angiv, hvornår prognosticerede værdier vises på den grafiske visning af kontoskema-KPI'en.<br /><br /> De prognosticerede værdier hentes fra finansbudgetposter, som du vælger i feltet **Finansbudgetnavn**. **Bemærk:** Hvis du ønsker at få KPI'er, der viser prognosticerede tal efter en bestemt dato og faktiske tal før datoen, kan du ændre feltet **Bogf. tilladt fra** på siden **Opsætning af Finans**. Du kan finde flere oplysninger i Bogf. tilladt fra.|  
     |**Finansbudgetnavn**|Angiv navnet på det finansbudget, der indeholder budgetterede værdier til kontoskema-KPI-webtjenesten.|  
     |**Periode**|Angiv den periode, som kontoskema-KPI-webtjenesten er baseret på.|  
     |**Vis efter**|Angiv, hvilket tidsinterval kontoskema-KPI'en vises i.|  
-    |**Navn på webtjeneste**|Angiv navnet på kontoskema-KPI-webtjenesten.<br /><br /> Dette navn vises i feltet **Servicenavn** i vinduet **Webtjeneste**.|  
+    |**Navn på webtjeneste**|Angiv navnet på kontoskema-KPI-webtjenesten.<br /><br /> Dette navn vises i feltet **Servicenavn** på siden **Webtjeneste**.|  
 
     Angiv et eller flere kontoskemaer, som du vil publicere som en KPI-webtjeneste i henhold til opsætningen, som du foretog i tabellen ovenfor.  
 
@@ -46,10 +46,10 @@ I vinduet **Konfiguration af webtjenesten Kontoskema, KPI** skal du angive, hvor
 4.  Gentag trin 3 for alle de kontoskemaer, som du vil basere kontoskema-KPI-webtjenesten på.  
 5.  Hvis du ønsker at få vist det valgte kontoskema, skal du vælge handlingen **Rediger kontoskema** på oversigtspanelet **Kontoskema**.  
 6.  Hvis du ønsker at få vist de kontoskema-KPI-data, som du har konfigureret, skal du vælge handlingen **Webtjenesten Kontoskema, KPI**.  
-7.  Hvis du vil udgive kontoskema-KPI-webtjenesten, skal du vælge handlingen **Publicer webtjeneste**. Webtjenesten føjes til listen over publicerede webtjenester i vinduet **Webtjeneste**.  
+7.  Hvis du vil udgive kontoskema-KPI-webtjenesten, skal du vælge handlingen **Publicer webtjeneste**. Webtjenesten føjes til listen over publicerede webtjenester på siden **Webtjeneste**.  
 
 > [!NOTE]  
->  Du kan også publicere KPI-webtjenesten ved at pege på vinduesobjektet **Konfiguration af webtjenesten Kontoskema, KPI** fra vinduet **Webtjeneste**. Du kan finde flere oplysninger i [Udgive en webtjeneste](across-how-publish-web-service.md).  
+>  Du kan også publicere KPI-webtjenesten ved at pege på sideobjektet **Konfiguration af webtjenesten Kontoskema, KPI** fra siden **Webtjeneste**. Du kan finde flere oplysninger i [Udgive en webtjeneste](across-how-publish-web-service.md).  
 
 ## <a name="see-also"></a>Se også  
 [Business Intelligence](bi.md)  

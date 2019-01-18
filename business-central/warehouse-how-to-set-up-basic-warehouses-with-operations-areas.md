@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Oprette grundlæggende lagersteder med handlingsområder
 Hvis der findes interne operationsområder, såsom produktion eller montage i grundlæggende lageropsætninger, hvor lokationer bruger opsætningsfeltet **Tvungen placering** og muligvis opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, kan du derefter bruge følgende grundlæggende lagerdokumenter til at registrere dine lageraktiviteter for interne operationsområder:  
 
-- Vinduet **Flytning (lager)**.  
-- Vinduet **Pluk (lager)**.  
-- Vinduet **Læg-på-lager (lager)**.
+- Siden **Liste flytning (lager)**.  
+- Siden **Plukliste (lager)**.  
+- Siden **Læg-på-lager (lager)**.
 
 > [!NOTE]
 > Selv om indstillingerne kaldes **Kræv pluk** og **Kræv læg-på-lager**, kan du bogføre modtagelser og leverancer direkte fra kildeforretningsdokumenterne på lokationer, hvor du kan markerer disse afkrydsningsfelter.  
 
-Hvis du vil bruge disse vinduer med interne operationer, f.eks til at plukke og flytte komponenter til produktion, skal du foretage nogle eller alle følgende konfigurationstrin, afhængigt af hvor meget kontrol du har behov for:  
+Hvis du vil bruge disse sider med interne operationer, f.eks til at plukke og flytte komponenter til produktion, skal du foretage nogle eller alle følgende konfigurationstrin, afhængigt af hvor meget kontrol du har behov for:  
 
 - Aktivér lagerpluk-, flytte- og læg-på-lager-dokumenter.  
 - Definer standardplaceringsstrukturer for komponenter og færdigvarer, der cirkulerer til og fra operationsressourcer.  
@@ -59,14 +59,14 @@ Følgende procedurer er baseret på oprettelse af grundlæggende lageraktivitete
 
 5. Indtast i feltet **Kode for placering til færdigproducerede varer** i oversigtspanelet **Placeringer** koden på den placering i produktionsområde, hvor færdigproducerede tages fra som standard, når processen involverer en lageraktivitet. I grundlæggende lageropsætninger registreres aktiviteten som en læg-på-lager-aktivitet eller en flytning (lager).  
 
-Nu kræver produktionsordrekomponentlinjerne med standardplaceringskoden, at komponenter, der trækkes forlæns, placeres der. Indtil der forbruges komponenter fra placeringen, kan andre komponentbehov plukke eller forbruge fra placeringen, da de stadig betragtes som tilgængelige placeringsindhold. For at sikre at placeringsindholdet kun er tilgængeligt for komponentbehov, der bruger produktionsplacering, skal du vælge feltet **Dedikeret** på linjen for placeringskoden i vinduet **Placeringer**, der åbnes fra lokationskortet.
+Nu kræver produktionsordrekomponentlinjerne med standardplaceringskoden, at komponenter, der trækkes forlæns, placeres der. Indtil der forbruges komponenter fra placeringen, kan andre komponentbehov plukke eller forbruge fra placeringen, da de stadig betragtes som tilgængelige placeringsindhold. For at sikre at placeringsindholdet kun er tilgængeligt for komponentbehov, der bruger produktionsplacering, skal du vælge feltet **Dedikeret** på linjen for placeringskoden på siden **Placeringer**, der åbnes fra lokationskortet.
 
 Dette flow-diagram viser, hvordan feltet **Placeringskode** i produktionsordrekomponenter udfyldes i henhold til din konfiguration.  
 
 ![Placeringsrutediagram](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Definere en standardplaceringsstruktur i montageområdet
-Komponenter til montageordrer kan ikke plukkes eller bogføres med pluk. Brug i stedet vinduet **Flytning (lager)**. Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Komponenter til montageordrer kan ikke plukkes eller bogføres med pluk. Brug i stedet siden **Flytning (lager)**. Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Når du plukker og leverer salgslinjemængder, der er monteret til ordren, skal du følge visse regler, når du opretter lagerpluklinjerne. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)" i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -119,14 +119,14 @@ Den samme placeringskode kopieres igen fra feltet **Placeringskode** på lagerpl
 ## <a name="to-create-dedicated-component-bins"></a>Sådan oprettes dedikerede komponentplaceringer
 Du kan angive, at antallet i en placering skal beskyttes mod pluk til andre formål end det aktuelle.
 
-Mængderne i dedikerede placeringer kan stadig reserveres. På samme måde medtages mængderne i dedikerede placeringer i feltet **Beholdning i alt** i vinduet **Reservation**.
+Mængderne i dedikerede placeringer kan stadig reserveres. På samme måde medtages mængderne i dedikerede placeringer i feltet **Beholdning i alt** på siden **Reservation**.
 
-F.eks. konfigureres et arbejdscenter med en placeringskode i feltet **Til-produktionsplaceringskode**. Produktionsordrekomponentlinjerne med den placeringskode kræver, at der anbringes komponenter, der trækkes forlæns, der. Indtil der forbruges komponenter fra placeringen, kan andre komponentbehov plukke eller forbruge fra placeringen, da de stadig betragtes som tilgængelige placeringsindhold. For at sikre at placeringsindholdet kun er tilgængeligt for komponentbehov, der bruger produktionsplacering, skal du vælge feltet **Dedikeret** på linjen for placeringskoden i vinduet **Placeringer**, der åbnes fra lokationskortet.
+F.eks. konfigureres et arbejdscenter med en placeringskode i feltet **Til-produktionsplaceringskode**. Produktionsordrekomponentlinjerne med den placeringskode kræver, at der anbringes komponenter, der trækkes forlæns, der. Indtil der forbruges komponenter fra placeringen, kan andre komponentbehov plukke eller forbruge fra placeringen, da de stadig betragtes som tilgængelige placeringsindhold. For at sikre at placeringsindholdet kun er tilgængeligt for komponentbehov, der bruger produktionsplacering, skal du vælge feltet **Dedikeret** på linjen for placeringskoden på siden **Placeringer**, der åbnes fra lokationskortet.
 
 Hvis du gør en placering dedikeret, giver den samme funktion som brug af placeringstyper, der kun er tilgængeligt i avanceret logistik. Der er flere oplysninger i [Konfigurere placeringer](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
-> Varer på dedikerede placeringer er ikke beskyttet, når de plukkes og forbruges som produktionskomponenter i vinduet Pluk.
+> Varer på dedikerede placeringer er ikke beskyttet, når de plukkes og forbruges som produktionskomponenter på siden Pluk.
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link. Markér den placering, du vil opdatere.  
 2.  Vælg handlingen **Placeringer**.  

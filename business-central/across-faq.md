@@ -4,17 +4,14 @@ description: "Giver svar på almindelige spørgsmål om, hvordan du tilmelder di
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 10/01/2018
+ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
+ms.date: 11/05/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 55e1dd3f9f7a85867f5609190c4766839326ca7a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0cbc9a9d5aa42539e6be2dcc2b2f35b0b9a6a4ba
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
@@ -24,6 +21,8 @@ Dette afsnit indeholder svar på ofte stillede spørgsmål om tilmelding til og 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kræver, at du bruger en arbejds- eller skolemailadresse til at tilmelde dig. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke mailadresser, som leveres af forbrugermailtjenester eller telekommunikationsudbydere. Dette omfatter outlook.com, hotmail.com, gmail.com og andre.  
 
 Hvis du forsøger at tilmelde dig med en privat mailadresse, får du en meddelelse om, at du skal bruge en arbejds- eller skolemailadresse. Du kan finde flere oplysninger i [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md).  
+
+Hvis du vil implementere [!INCLUDE[d365fin](includes/d365fin_md.md)] i det lokale miljø, kan du bruge andre godkendelsesmetoder. Du kan finde flere oplysninger i [Installation af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Er det nødvendigt at købe Office 365?
 Nej. Men hvis du vil opleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fuldt integreret med Office 365, kan du tilmelde dig til en 1-måneds gratis prøveversion af Office 365 [her](https://products.office.com/try).  
@@ -38,7 +37,10 @@ Ja, men afhængigt af hvordan du tilmeldte dig [!INCLUDE[d365fin](includes/d365f
 Hvis du har spørgsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)], som du ikke kan finde et svar på i denne dokumentation, kan du spørge Business Central-community. Du kan finde flere oplysninger i [Dynamics 365 Business Central-community](https://community.dynamics.com/business). Desuden laver vores supportteam opslag med tip og trick. Du kan finde flere oplysninger i [Dynamics 365 Business Central-supportblog](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Er det muligt at udvide min 30-dages prøveperiode "Ny virksomhed"?
-Ja. Hvis du vil udvide din prøveperiode, skal du kontakte Microsoft på 1-800-865-9408. Bemærk: Det kan tage op til 2 arbejdsdage til at fuldføre udvidelsen af prøveperioden.  
+Ja. Hvis du vil udvide din prøveversion, skal du kontakte Microsoft i dit land/område. Du finder det korrekte telefonnummer på listen i [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc). Listen henviser til telefonnumre til Dynamics CRM Online, men de samme numre gælder for alle Dynamics 365-apps.  
+
+> [!NOTE]
+> Det kan tage op til 2 arbejdsdage til at fuldføre udvidelsen af prøveperioden.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Vores administrator har flyttet mig til en anden plan for at give mig en anden rolle, men jeg kan stadig se det samme Rollecenter i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 Dette er en smule kompliceret, men det ser ud til din administrator ikke har ændre dit Rollecenter og har tildelt brugergrupper, der svarer til den nye licens. I praksis bestemmes adgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)] af den plantype (licens), du har – den angiver rettigheder og rollecentersiden. Du kan ændre dit rollecenter manuelt i Mine indstillinger, men hvis du er blevet flyttet til en anden plan, f.eks. flyttet fra forretningsplanen til teammedlemsplanen, vises den gamle startside måske, fordi dine rettigheder ikke er blevet ændret.  
@@ -47,7 +49,7 @@ Dette er en smule kompliceret, men det ser ud til din administrator ikke har æn
 Har du læst om en ny funktionalitet i oversigten eller på vores blog for nylig? I så fald er dine [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke blevet opgraderet til den seneste version endnu. Hvis funktionaliteten er udgivet som en udvidelse i AppSource, er der en forsinkelse mellem den udvidelse, der annonceres, og dens tilgængelighed på AppSource.  
 
 ## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan jeg få uddannelse i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Ja, det kan du. Men i øjeblikket skal du spørge din videresalgspartner. Hvis du ikke ved, hvem det er, kan du finde en Business Central-partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
+Ja, det kan du. Men i øjeblikket skal du spørge din videresalgspartner. Hvis du ikke ved, hvem det er, kan du finde en Business Central-partner [her](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
 Hvis du har adgang til Microsoft CustomerSource, kan du få adgang til webstedet Imagine Academy med eLearning-materiale. Du kan finde flere oplysninger om, hvordan du får adgang, på siden [Microsoft Dynamics 365 uddannelse](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
@@ -55,8 +57,16 @@ Hvis du har adgang til Microsoft CustomerSource, kan du få adgang til webstedet
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængeligt på et begrænset antal markeder, men nye lande tilføjes via Microsoft-styret oversættelse eller partnerstyret oversættelse kvartalsvis. Du kan finde flere oplysninger i [Understøttede lande og oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
+## <a name="how-do-i-get-technical-support-for-included365finincludesd365finmdmd"></a>Hvordan kan jeg få teknisk support til [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sælges via partnere, og du kan kontakte din forhandlerpartner for at få hjælp til tekniske problemer. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp.  
+
+Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[d365fin](includes/d365fin_md.md)], har du ikke en forhandlerpartner, og du ikke kan kontakte Microsofts supportteam.  
+
+Du kan finde en Business Central-partner på siden [https://www.microsoft.com/solution-providers/search](https://go.microsoft.com/fwlink/?linkid=2038145).  
+
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Hvorfor beskriver hjælper funktioner, som jeg ikke kan få adgang til?
-Hvis indstillingen Oplevelse i vinduet **Virksomhedsoplysninger** er indstillet til **Essential**, er elementer i brugergrænsefladen til funktionerne Produktion og Service Management ikke synlige for dig, fordi de kræver oplevelsen **Premium**. Der er indsat en tekstnote i vigtige emner i Hjælp for disse funktionsområder. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).    
+Hvis indstillingen Oplevelse på siden **Virksomhedsoplysninger** er indstillet til **Essential**, er elementer i brugergrænsefladen til funktionerne Produktion og Service Management ikke synlige for dig, fordi de kræver oplevelsen **Premium**. Der er indsat en tekstnote i vigtige emner i Hjælp for disse funktionsområder. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).    
 
 ## <a name="see-also"></a>Se også
 [Introduktion](product-get-started.md)  

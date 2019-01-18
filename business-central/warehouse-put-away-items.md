@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5e732e27921f632c3e15b1d832d7295d32f4b8a2
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: aa0d6b76bdf4a7078d7b2e3846d1bdfa3cf08528
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="putting-items-away"></a>Lægge varer på lager
@@ -24,9 +24,9 @@ Den lageraktivitet, der omfatter at lægge varer på lager, efter at de er modta
 
 Hvis du beslutter dig for at organisere og registrere læg-på-lager-oplysninger med lagerdokumenter, skal du markere feltet **Kræv læg-på-lager** på lokationskortet. Dette angiver, at når du har varer, der ankommer til lagerlokationen via et indgående kildedokument, skal læg-på-lager styres af systemet. Et indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en produktionsordre, hvis afgang er klar til at blive lagt på lager.  
 
-Hvis lokationen bruger læg-på-lager, men ikke modtagelse, kan du bruge vinduet **Læg-på-lager (lager)** til at organisere læg-på-lager-oplysningerne, udskrive dem, skrive resultatet af den faktiske læg-på-lager-aktivitet og bogføre læg-på-lager-oplysningerne, hvilket medfører, at modtagelsesoplysningerne for kildedokumentet også bogføres. Hvis der er tale om en produktionsordre, bogføres ordreafgangen, og produktionsordren afsluttes.
+Hvis lokationen bruger læg-på-lager, men ikke modtagelse, kan du bruge siden **Læg-på-lager (lager)** til at organisere læg-på-lager-oplysningerne, udskrive dem, skrive resultatet af den faktiske læg-på-lager-aktivitet og bogføre læg-på-lager-oplysningerne, hvilket medfører, at modtagelsesoplysningerne for kildedokumentet også bogføres. Hvis der er tale om en produktionsordre, bogføres ordreafgangen, og produktionsordren afsluttes.
 
-Hvis lokation kræver både modtagelse og læg-på-lager, dvs. hvis du har markeret både feltet **Kræv modtagelse** og feltet **Kræv læg-på-lager** på lokationskortet, er processen for at lægge varer på lager anderledes. I dette tilfælde skal du bruge vinduet **Læg-på-lager (logistik)** til at håndtere læg-på-lager-aktiviteten. Læg-på-lager i forbindelse med logistik fungerer på samme måde som læg-på-lager i forbindelse med lager, bortset fra at du registrerer læg-på-lager-aktiviteten i stedet for at bogføre oplysningerne. Bemærk, at registrering af læg-på-lager-aktiviteten ikke bogfører modtagelsen af varerne. Det opdaterer blot placeringsindholdet. Som lagerchef kan du bruge en læg-på-lager-kladde til at organisere læg-på-lager-oplysningerne, før du opretter de enkelte læg-på-lager-instruktioner (logistik).
+Hvis lokation kræver både modtagelse og læg-på-lager, dvs. hvis du har markeret både feltet **Kræv modtagelse** og feltet **Kræv læg-på-lager** på lokationskortet, er processen for at lægge varer på lager anderledes. I dette tilfælde skal du bruge siden **Læg-på-lager (logistik)** til at håndtere læg-på-lager-aktiviteten. Læg-på-lager i forbindelse med logistik fungerer på samme måde som læg-på-lager i forbindelse med lager, bortset fra at du registrerer læg-på-lager-aktiviteten i stedet for at bogføre oplysningerne. Bemærk, at registrering af læg-på-lager-aktiviteten ikke bogfører modtagelsen af varerne. Det opdaterer blot placeringsindholdet. Som lagerchef kan du bruge en læg-på-lager-kladde til at organisere læg-på-lager-oplysningerne, før du opretter de enkelte læg-på-lager-instruktioner (logistik).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
 

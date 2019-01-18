@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c59977f847a020fbcda490893dbe15ed88ac1e5a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="update-standard-costs"></a>Opdatere standardkostpriser
@@ -40,7 +40,7 @@ Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-abou
     5. Udfør kørslen **Akkum. standardkostpris**.
     6.  Gennemse resultaterne, og foretag de nødvendige ændringer.
     7.  Udfør kørslen **Implementer std.kostprisændringer**.  
-4.  Gennemse og bogfør vinduet **Værdireguleringskladde** , som er blevet udfyldt med posterne fra de forrige trin i processen.  
+4.  Gennemse og bogfør siden **Værdireguleringskladde** , som er blevet udfyldt med posterne fra det forrige trin i processen.  
 
 ## <a name="see-also"></a>Se også  
  [Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)   

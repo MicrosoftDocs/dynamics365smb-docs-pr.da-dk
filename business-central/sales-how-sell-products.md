@@ -11,10 +11,10 @@ ms.search.keywords: trade
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1cd0b5b48993820cc37b53ce6202bb02e4cf0f1b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 615002593edbb459b448ba75f98601e37cf59792
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-products"></a>Sælge produkter
@@ -45,17 +45,17 @@ Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debit
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
 2. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 
-    Andre felter i vinduet **Salgsordre** er nu udfyldt med standardoplysningerne for den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:
+    Andre felter på siden **Salgsordre** er nu udfyldt med standardoplysningerne for den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:
 3. I feltet **Debitor** skal du indtaste navnet på den nye debitor.
 4. I dialogboksen, hvor du registrerer den nye debitor, skal du trykke på knappen **Ja**.
-5. I vinduet **Vælg en skabelon til en ny debitor** skal du vælge en skabelon, som det nye debitorkort skal baseres på, og derefter vælge knappen **OK**.
+5. På siden **Vælg en skabelon til en ny debitor** skal du vælge en skabelon, som det nye debitorkort skal baseres på, og derefter vælge knappen **OK**.
 
     Et nyt debitorkort åbnes, udfyldt med oplysninger om den valgte debitorskabelon. Feltet **Navn** udfyldes på forhånd med den nye debitors navn, som du har angivet på salgsordren.
 6. Fortsæt med at udfylde resten af felterne på debitorkortet. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
-7. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Salgsordre**.
+7. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til siden **Salgsordre**.
 
     En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.
-8. Udfyld de resterende felter efter behov i vinduet **Salgsordre**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Udfylde de resterende felter efter behov på siden **Salgsordre**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Hvis du tillader, at kunden betaler med det samme, f.eks. med kreditkort eller via PayPal, skal du udfylde feltet **Betalingsformskode**. Betalingen registreres derefter, når du bogfører salgsordren som faktureret. Hvis du vælger KONTANT, registreres betalingen i en bestemt modkonto.
@@ -80,10 +80,10 @@ Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debit
 
     Totalerne under linjerne beregnes automatisk, mens du opretter eller redigerer linjer.
 14. Et nyt debitorkort viser oplysninger om den valgte debitorskabelon. Udfyld de resterende felter. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
-15. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til vinduet **Salgsordre**.
+15. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til siden **Salgsordre**.
 
     En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.
-16. Udfyld de resterende felter efter behov i vinduet **Salgsordre**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+16. Udfylde de resterende felter efter behov på siden **Salgsordre**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.   
 

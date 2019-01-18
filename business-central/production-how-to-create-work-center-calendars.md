@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Konfigurere produktionskalendere
@@ -39,7 +39,7 @@ Selvom arbejdscentrene ikke arbejder i forskellige arbejdsskift, skal du angive 
 2.  Angiv på en tom linje et tal i feltet **Kode** for at identificere produktionskalenderen.  
 3.  Beskriv produktionskalenderen i feltet **Beskrivelse**.  
 4.  Vælg handlingen **Arbejdsdage**.
-5.  I feltet **Arb.dage (produktionskalender)** skal du definere en fuldstændig arbejdsuge med start- og sluttidspunkter for hver dag.  
+5.  På siden **Arb.dage (produktionskalender)** skal du definere en fuldstændig arbejdsuge med start- og sluttidspunkter for hver dag.  
 
     I feltet **Arbejdsskiftkode** skal du vælge en af de arbejdsskift, du tidligere har defineret. Tilføj en linje for hver arbejdsdag og hvert skift. Eksempler:  
 
@@ -55,10 +55,10 @@ Selvom arbejdscentrene ikke arbejder i forskellige arbejdsskift, skal du angive 
 
     Alle ugedage, som du ikke definerer i produktionskalenderen, f.eks. lørdag og søndag, anses automatisk for fridage, og de har ingen tilgængelig kapacitet i arbejdscenterkalenderen.  
 
-    Når alle arbejdsdagene i ugen er defineret, kan du lukke vinduet **Arb.dage (produktionskalender)** og fortsætte med at angive fridage.  
+    Når alle arbejdsdagene i ugen er defineret, kan du lukke siden **Arb.dage (produktionskalender)** og fortsætte med at angive fridage.  
 
-6.  I vinduet **Produktionskalendere** skal du vælge produktionskalenderen, og derefter vælge handlingen **Helligdage**.
-7. I vinduet **Prod.kalender - fridage** skal du angive årets fridage ved at indtaste startdatoen/-klokkeslættet, sluttidspunktet samt beskrivelsen af hver fridag på enkelte linjer. Eksempler:  
+6.  På siden **Produktionskalendere** skal du vælge produktionskalenderen, og derefter vælge handlingen **Helligdage**.
+7. På siden **Prod.kalender - fridage** skal du angive årets fridage ved at indtaste startdatoen/-klokkeslættet, sluttidspunktet samt beskrivelsen af hver fridag på enkelte linjer. Eksempler:  
 
     04-07-14 0:00:00 23:59:00 Sommerferie  
     05-07-14 0:00:00 23:59:00 Sommerferie  
@@ -74,12 +74,12 @@ Produktionskalenderen kan nu knyttes til et arbejdscenter for at beregne den arb
 2. Åbn det arbejdscenter, du vil opdatere.  
 3. Vælg hvilken produktionskalender, der skal bruges som grundlag for en arbejdscenterkalender i feltet **Produktionskalenderkode**.  
 4. Vælg handlingen **Kalender**.  
-5. I vinduet **Arbejdscenterkalender** skal du vælge handlingen **Vis matrix**.  
+5. På siden **Arbejdscenterkalender** skal du vælge handlingen **Vis matrix**.  
 
-    I venstre side af matrixvinduet vises de konfigurerede arbejdscentre. I højre side vises en tidskalender med værdierne for tilgængelig kapacitet pr. arbejdsdag i den definerede enhed, f.eks. **480** (minutter). Hver linje repræsenterer kalenderen for et arbejdscenter.  
+    I venstre side af matrixsiden vises de konfigurerede arbejdscentre. I højre side vises en tidskalender med værdierne for tilgængelig kapacitet pr. arbejdsdag i den definerede enhed, f.eks. **480** (minutter). Hver linje repræsenterer kalenderen for et arbejdscenter.  
 
     > [!NOTE]  
-    >  Du kan også vælge at få vist kapacitetsværdien for hver uge eller måned ved at ændre indstillingen i feltet **Vis efter** i vinduet **Arbejdscenterkalender**.  
+    >  Du kan også vælge at få vist kapacitetsværdien for hver uge eller måned ved at ændre indstillingen i feltet **Vis efter** på siden **Arbejdscenterkalender**.  
 
     For at afspejle den nye produktionskalender som en linje i det markerede arbejdscenter, skal den først beregnes.  
 
@@ -97,13 +97,13 @@ Der er nu oprettet (eller opdateret) kalenderindgange, som viser den tilgængeli
 Den beregnede arbejdscenterkalender definerer nu, hvor meget kapacitet der er tilgængelig på dette arbejdscenter. Dette styrer den detaljerede planlægning af operationer, der udføres på arbejdscenter.  
 
 ## <a name="to-record-work-center-absence"></a>Sådan registreres fraværet på arbejdscentret  
-1.  I vinduet **Arbejdscenterkalender** skal du vælge handlingen **Vis matrix**.
-2. Vælg det arbejdscenter og den kalenderdag, fraværstiden skal registreres for, i vinduet **Matrix for arbejdscenterkalender**, og klik derefter på handlingen **Fravær**.  
-3.  Definer starttidspunktet, sluttidspunktet og beskrivelsen for dagens fravær i vinduet **Fravær**. Eksempler:  
+1.  På siden **Arbejdscenterkalender** skal du vælge handlingen **Vis matrix**.
+2. Vælg det arbejdscenter og den kalenderdag, fraværstiden skal registreres for, på siden **Matrix for arbejdscenterkalender**, og klik derefter på handlingen **Fravær**.  
+3.  Definer starttidspunktet, sluttidspunktet og beskrivelsen for dagens fravær på siden **Fravær**. Eksempler:  
 
     25-01-01 08:00 10:00 Reparation  
 
-4.  Vælg handlingen **Opdatering**, og luk derefter vinduet **Fravær**.  
+4.  Vælg handlingen **Opdatering**, og luk derefter siden **Fravær**.  
 
 Kapaciteten på den markerede dag er nu reduceret med den registrerede fraværstid.  
 

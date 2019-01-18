@@ -11,30 +11,30 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ca7052fd5353ec93f6544aa7a9056fb492b638e2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f685ca69d9cf434e04e0c5205626eb24af3b5be
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-customer-payments-manually"></a>Afstemme debitorbetalinger manuelt
 Når du modtager en kontaktrefusion fra en debitor, eller du foretager en kontantrefusion, skal du vælge, om betalingen skal udlignes eller refunderes for at lukke en eller flere åbne debet- eller kreditposter. Du kan angive det beløb, du vil udligne. Du kan f.eks. udligne delbetalinger til debitorposter. Når du lukker debitorposter, sikrer du, at oplysninger som debitorstatistik, kontoudtog og rentenotaer er korrekte.
 
 > [!NOTE]  
->   I vinduet **Debitorposter** betyder rød skrift, at den tilhørende betaling har overskredet forfaldsdatoen. Hvis forfaldne beløb bliver et problem, kan vi hjælpe dig med at reducere hyppigheden af dem. Du kan aktivere udvidelsen **Forudsigelser af forsinkede betalinger**, som bruger en forudsigelsesmodel, der blev udviklet i Azure Machine Learning til at forudsige tidspunktet for betalinger. Disse forudsigelser hjælper dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategi. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden. Du kan finde flere oplysninger i [Forudsigelser af forsinkede betalinger](ui-extensions-late-payment-prediction.md).  
+>   På siden **Debitorposter** betyder rød skrift, at den tilhørende betaling har overskredet forfaldsdatoen. Hvis forfaldne beløb bliver et problem, kan vi hjælpe dig med at reducere hyppigheden af dem. Du kan aktivere udvidelsen **Forudsigelser af forsinkede betalinger**, som bruger en forudsigelsesmodel, der blev udviklet i Azure Machine Learning til at forudsige tidspunktet for betalinger. Disse forudsigelser hjælper dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategi. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden. Du kan finde flere oplysninger i [Forudsigelser af forsinkede betalinger](ui-extensions-late-payment-prediction.md).  
 
 Du kan udligne debitorposter på forskellige måder:
 
-* Ved at indtaste oplysninger i dedikerede vinduer, f.eks. vinduerne **Indbetalingskladde** og **Betalingsudligningskladde**.
+* Ved at indtaste oplysninger på dedikerede sider, f.eks. siderne **Indbetalingskladde** og **Betalingsudligningskladde**.
 * Fra salgskreditnotadokumenter.
 * Fra debitorposter efter at salgsdokumenter er bogført, men ikke udlignet.
 
 > [!NOTE]  
 >   Hvis feltet **Udligningsmetode** på debitorkortet indeholder **Saldo**, bliver betalinger automatisk udlignet til den ældste åbne kreditpost, medmindre du foretager en manuel angivelse. Hvis udligningsmetoden er **Manuel**, skal du altid udligne posterne manuelt.
 
-Du kan anvende debitorbetalinger manuelt i vinduet **Indbetalingskladde**. Indbetalingskladden er en form for finanskladde, og derfor kan den bruges, når der bogføres transaktioner til finans-, bank-, debitor-, kreditor- og anlægskonti. Du kan anvende betalingen på en eller flere debetposteringer, når du bogfører betalingen, eller du kan anvende fra de bogførte posteringer senere.
+Du kan anvende debitorbetalinger manuelt på siden **Indbetalingskladde**. Indbetalingskladden er en form for finanskladde, og derfor kan den bruges, når der bogføres transaktioner til finans-, bank-, debitor-, kreditor- og anlægskonti. Du kan anvende betalingen på en eller flere debetposteringer, når du bogfører betalingen, eller du kan anvende fra de bogførte posteringer senere.
 
-Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligningskladde** ved hjælp af funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md). Du kan også afstemme debitorbetalinger, der er baseret på en liste over ubetalte salgsdokumenter i vinduet **Betalingsregistrering**. Du kan finde flere oplysninger under [Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
+Du kan også anvende debitor- og kreditorbetalinger på siden **Betalingsudligningskladde** ved hjælp af funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md). Du kan også afstemme debitorbetalinger, der er baseret på en liste over ubetalte salgsdokumenter på siden **Betalingsregistrering**. Du kan finde flere oplysninger under [Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Sådan udfyldes og bogføres en indbetalingskladde
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indbetalingskladde**, og vælg derefter det relaterede link.
@@ -59,12 +59,12 @@ Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligni
 4. I feltet **Bilagstype** skal du angive **Betaling**.
 5. I feltet **Kontotype** skal du angive **Debitor**.
 6. I feltet **Modkontotype** skal du angive **Bankkonto**.
-7. I feltet **Udligningsbilagsnr.** skal du vælge feltet for at åbne vinduet **Udlign debitorposter**.
-8. Vælg den post, som betalingen skal udlignes med, i vinduet **Udlign debitorposter**.
+7. I feltet **Udligningsbilagsnr.** skal du vælge feltet for at åbne siden **Udlign debitorposter**.
+8. Vælg den post, som betalingen skal udlignes med, på siden **Udlign debitorposter**.
 9. I feltet **Beløb, der skal udlignes** skal du indtaste det beløb, som du vil udligne med posten. Hvis du ikke indtaster et beløb, udlignes der med det maksimale beløb.
 
-    Nederst i vinduet **Udlign debitorposter**, kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.  
-10. Vælg knappen **OK**. Vinduet **Indbetalingskladde** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**.
+    Nederst på siden **Udlign debitorposter** kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.  
+10. Vælg knappen **OK**. Siden **Indbetalingskladde** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**.
 11. Bogfør indbetalingskladden.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Sådan udlignes en betaling med flere debitorposter:
@@ -79,7 +79,7 @@ Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligni
 9. Vælg linjer med poster, som du ønsker, at udligningsposten skal udlignes med, og derefter vælge handlingen **Sæt udlignings-id**.  
 10. På linjen i feltet **Beløb, der skal udlignes** skal du indtaste det beløb, som du vil udligne med posten. Hvis du ikke indtaster et beløb, udlignes der med det maksimale beløb.
 
-    Nederst i vinduet **Udlign debitorposter**, kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.  
+    Nederst på siden **Udlign debitorposter** kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.  
 11. Vælg knappen **OK**.
 12. Bogfør indbetalingskladden.
 
@@ -89,8 +89,8 @@ Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligni
 3. Hvis du vil udligne kreditnotaen med en enkelt debitorpost i forbindelse med bogføringen, skal du i feltet **Udligningsbilagsnr.** vælge den post, som du vil udligne betalingen med.
 4. På linjen i feltet **Beløb, der skal udlignes** skal du og indtaste beløbet, som du vil udligne posten med.  
 
-    Hvis du ikke indtaster et beløb, udligner programmet automatisk det maksimale beløb. Nederst i vinduet **Udlign debitorposter**, kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.    
-5. Vælg knappen **OK**. Vinduet **Salgskreditnota** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**. Og beløbet på kreditnotaen, som skal bogføres, reguleres i forhold til mulige kontantrabatter.
+    Hvis du ikke indtaster et beløb, udligner programmet automatisk det maksimale beløb. Nederst på siden **Udlign debitorposter** kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.    
+5. Vælg knappen **OK**. Siden **Salgskreditnota** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**. Og beløbet på kreditnotaen, som skal bogføres, reguleres i forhold til mulige kontantrabatter.
 6. Bogfør kreditnotaen.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Sådan udlignes en kreditnota med flere debitorposter
@@ -100,20 +100,20 @@ Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligni
 4. Vælg linjer med poster, som du ønsker, at udligningsposten skal udlignes med, og derefter vælge handlingen **Sæt udlignings-id**.
 5. På linjen i feltet **Beløb, der skal udlignes** skal du indtaste det beløb, som du vil udligne med posten. Hvis du ikke indtaster et beløb, udlignes der med det maksimale beløb.  
 
-    Nederst i vinduet **Udlign debitorposter**, kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.  
-6. Vælg knappen **OK**. Vinduet viser nu **Salgskreditnota** beløbet på kreditnotaen, som skal bogføres, justeret i forhold til eventuelle kontantrabatter.
+    Nederst på siden **Udlign debitorposter** kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.  
+6. Vælg knappen **OK**. Siden viser nu **Salgskreditnota** beløbet på kreditnotaen, som skal bogføres, justeret i forhold til eventuelle kontantrabatter.
 7. Bogfør kreditnotaen.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Sådan udlignes bogførte debitorposter
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
 2. Åbn debitorkortet for debitoren med de poster, du vil udligne.
 3. Vælg handlingen **Poster**, og vælg derefter linjen med den post, som betalingen skal udlignes med.
-4. Vælg handlingen **Udlign**. Vinduet **Udlign debitorposter** åbnes, så du kan se debitorens åbne poster.
+4. Vælg handlingen **Udlign**. Siden **Udlign debitorposter** åbnes, så du kan se debitorens åbne poster.
 5. Vælg linjer med poster, som du ønsker, at udligningsposten skal udlignes med, og derefter vælge handlingen **Sæt udlignings-id** .
 6. På hver linje i feltet **Beløb, der skal udlignes** skal du indtaste det beløb, som du vil udligne med posten. Hvis du ikke indtaster et beløb, udlignes der med det maksimale beløb.  
 
-    Nederst i vinduet **Udlign debitorposter** kan du se det specifikke beløb i feltet **Udligningsbeløb**.  
-7. Vælg handlingen **Efterudlign**. Vinduet **Efterudlign** med dokumentnummeret på udligningsposten vises, og bogføringsdatoen på posten med den nyeste bogføringsdato.  
+    Nederst på siden **Udlign debitorposter** kan du se det specifikke beløb i feltet **Udligningsbeløb**.  
+7. Vælg handlingen **Efterudlign**. Siden **Efterudlign** vises med dokumentnummeret på udligningsposten og bogføringsdatoen for posten med den nyeste bogføringsdato.  
 8. Vælg **OK** for at bogføre udligningen.
 
     Hvis den bogførte udligning har resulteret i lukkede debitorposter, vil der ikke længere være en markering for disse poster i feltet **Åbn**.    
@@ -122,12 +122,12 @@ Du kan også anvende debitor- og kreditorbetalinger i vinduet **Betalingsudligni
 På oversigten over poster kan du se, at afkrydsningsfeltet **Åben** ikke er markeret på den linje, der indeholder finansposten, der blev fuldt udlignet.  
 
 > [!NOTE]  
->   Når du har valgt en post i vinduet **Udlign debitorposter** eller flere poster ved at indstille feltet **Udlignings-id**, indeholder feltet **Udlignet beløb** på kladdelinjen summen af de resterende beløb for de bogførte poster, som du valgte - medmindre feltet allerede indeholder noget. Hvis du markerer **Saldo** i feltet **Udligningsmetode** på debitorkortet, sker udligningen automatisk.
+>   Når du har valgt en post på siden **Udlign debitorposter** eller flere poster ved at indstille feltet **Udlignings-id**, indeholder feltet **Udlignet beløb** på kladdelinjen summen af de resterende beløb for de bogførte poster, som du valgte - medmindre feltet allerede indeholder noget. Hvis du markerer **Saldo** i feltet **Udligningsmetode** på debitorkortet, sker udligningen automatisk.
 
 ## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Sådan udlignes debitorposter i andre valutaer med hinanden
 Hvis du sælger til en debitor i en valuta og modtager betaling i en anden, kan du stadig knytte fakturaen til betalingen.  
 
-Hvis du udligner en post (post 1) i en valuta med en post (post 2) i en anden valuta, anvendes bogføringsdatoen i post 1 til at finde relevante valutakurser til at konvertere beløb i post 2. Den relevante valutakurs findes i vinduet **Valutakurser**.  
+Hvis du udligner en post (post 1) i en valuta med en post (post 2) i en anden valuta, anvendes bogføringsdatoen i post 1 til at finde relevante valutakurser til at konvertere beløb i post 2. Den relevante valutakurs findes på siden **Valutakurser**.  
 
 Udligning af debitorposter i andre valutaer skal være aktiveret. Du kan finde flere oplysninger under [Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
@@ -139,7 +139,7 @@ Udligning af debitorposter i andre valutaer skal være aktiveret. Du kan finde f
 6. Bogfør salgskladden.  
 
 > [!IMPORTANT]  
->   Når du udligner poster i forskellige valutaer, konverteres posterne til RV. Selvom valutakursen for de to valutaer er fast, f.eks. mellem USD og EUR, kan der være et lille restbeløb, når de konverteres til RV. Disse små restbeløb bogføres som gevinst og tab på den konto, der er angivet i feltet **Realiseret gevinstkonto** eller feltet **Realiseret tabskonto** i vinduet **Valutaer**. Feltet **Beløb (RV)** tilpasses også på kreditorposter.  
+>   Når du udligner poster i forskellige valutaer, konverteres posterne til RV. Selvom valutakursen for de to valutaer er fast, f.eks. mellem USD og EUR, kan der være et lille restbeløb, når de konverteres til RV. Disse små restbeløb bogføres som gevinst og tab på den konto, der er angivet i feltet **Realiseret gevinstkonto** eller feltet **Realiseret tabskonto** på siden **Valutaer**. Feltet **Beløb (RV)** tilpasses også på kreditorposter.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>Sådan rettes en udligning af debitorposter
 Hvis du retter en udligning, oprettes og bogføres der automatisk korrigerende poster, der er identiske med den oprindelige post, men med modsat fortegn i beløbsfeltet for alle poster, inklusive alle finansbogføringsposter, der blev afledt af udligningen, f.eks. kontantrabat og kursgevinst/tab. Alle poster, der blev lukket af programmet, genåbnes.  

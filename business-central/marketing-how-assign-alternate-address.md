@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3b6ed1ffe162f0bdb4d1af1dd84c34c6f0de91bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Definere alternative adresser for kontakter
@@ -24,16 +25,16 @@ Du kan tildele en alternativ adresse, som en kontaktperson i perioder får sendt
 
 ## <a name="to-assign-an-alternate-address"></a>Sådan tildeles alternative adresser
 1. Åbn kontakten.
-2. Vælg handlingen **Alternativ adresse**, og vælg derefter **Kort**. Vinduet **Alt. adresser på kontakter** åbnes.
-3. Indtast en ny alternativ adresse, og udfyld felterne i vinduet **Kontaktens alternative adresse**.
+2. Vælg handlingen **Alternativ adresse**, og vælg derefter **Kort**. Siden **Alt. adresser på kontakter** åbnes.
+3. Indtast en ny alternativ adresse og udfyld felterne på siden **Kontaktens alternative adresse**.
 
 Gentag disse trin for hver alternativ adresse, du vil tildele. Du kan angive flere datointervaller til hver alternativ adresser.
 
-Du kan også tildele alternative adresser fra vinduet Kontaktoversigt ved at udføre samme procedure.
+Du kan også tildele alternative adresser fra siden Kontaktoversigt ved at udføre samme procedure.
 
 ## <a name="to-assign-an-alternate-address-date-range"></a>Sådan tildeles et datointerval til en alternativ adresse
 1. Åbn kontakten.
-2. Vælg handlingen **Alternativ adresse**, og vælg derefter **Datointerval**. Vinduet **Alt. adr.datointv. - kontakt** åbnes.
+2. Vælg handlingen **Alternativ adresse**, og vælg derefter **Datointerval**. Siden **Alt. adr.datointv. - kontakt** åbnes.
 3. Vælg handlingen **Ny**.
 4. I feltet **Kontaktens alt. adr.kode** skal du vælge en alternativ adresse for kontakten og derefter udfylde felterne **Startdato** og **Slutdato**.
 

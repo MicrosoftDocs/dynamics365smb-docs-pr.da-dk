@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Om montage til ordre og montage til lager
@@ -38,7 +38,7 @@ Du bruger typisk *montage efter ordre* for varer, som du ikke ønsker på lager,
 
 I montage efter ordre-processen samles varen som svar på en salgsordre og med en én til én-sammenkædning mellem montageordren og salgsordren.  
 
-Når du indtaster en montage efter ordre-vare på en salgslinje, oprettes der automatisk en montageordre med en header, der er baseret på salgslinjen og med linjer, der er baseret på varens montagestykliste ganget med ordrestørrelsen. Du kan bruge vinduet **Montage efter ordre-linjer** for at se de sammenkædede montageordrelinjer, som kan understøtte din tilpasning af montageelementet og en leveringsdato, der er baseret på oplysninger om komponenttilgængelighed. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
+Når du indtaster en montage efter ordre-vare på en salgslinje, oprettes der automatisk en montageordre med en header, der er baseret på salgslinjen og med linjer, der er baseret på varens montagestykliste ganget med ordrestørrelsen. Du kan bruge siden **Montage efter ordre-linjer** for at se de sammenkædede montageordrelinjer, som kan understøtte din tilpasning af montageelementet og en leveringsdato, der er baseret på oplysninger om komponenttilgængelighed. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Selvom det ikke er en del af standardprocessen, kan du sælge lagermængder med montage efter ordre-mængderne. Du kan finde flere oplysninger i [Sælge lagervarer i montage til ordre-flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  

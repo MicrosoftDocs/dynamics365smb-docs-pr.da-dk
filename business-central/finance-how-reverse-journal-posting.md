@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: beed335b93ef9211e4fc53c25f97b3fed6137348
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc624d52ce61cea4a8e92bb7d37e07ad8c769393
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reverse-postings"></a>Tilbageføre poster
@@ -31,10 +31,10 @@ Hvis du har oprettet en bogføring af et forkert negativt antal, som f.eks. en k
 Hvis du har oprettet en bogføring af et forkert positivt antal, som f.eks. en købsreturvareordre med det forkerte antal varer og bogført dem som leveret, men ikke faktureret, kan du annullere bogføringen.   
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Sådan tilbageføres kladdepost på en finanspost
-Du kan tilbageføre poster fra alle **Poster**-vinduer: Følgende procedure er baseret i vinduet **Finansposter**.
+Du kan tilbageføre poster fra alle **Poster**-sider: Følgende procedure er baseret på siden **Finansposter**.
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansposter**, og vælg derefter det relaterede link.
 2. Marker den post, du vil tilbageføre, og vælg derefter handlingen **Tilbagefør transaktion**. Bemærk, at den skal stamme fra en kladdepost.
-3. I vinduet **Tilbagefør transaktionsposter** skal du vælge den relevante post og derefter vælge handlingen **Tilbagefør**.
+3. På siden **Tilbagefør transaktionsposter** skal du vælge den relevante post og derefter vælge handlingen **Tilbagefør**.
 4. Vælg knappen **Ja** i bekræftelsesmeddelelsen.
 
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Sådan fortrydes et bogført antal på en bogført købsmodtagelse  
@@ -62,7 +62,7 @@ Du kan tilbageføre poster fra alle **Poster**-vinduer: Følgende procedure er b
 
     Gå nu tilbage til købsreturvareordren for at annullere Fortryd bogføring.  
 
-5.  Notér tallet i feltet **Returvareordrenr.** i vinduet **Bogført returvareleverance** .  
+5.  Notér tallet i feltet **Returvareordrenr.** på siden **Bogført returvareleverance** .  
 6.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsreturvareordrer**, og vælg derefter det relaterede link.  
 7.  Åbn den pågældende returordre, og vælg derefter handlingen **Genåbn**.  
 8.  Ret antallet i feltet **Antal**, og bogfør købsreturvareordren igen.  

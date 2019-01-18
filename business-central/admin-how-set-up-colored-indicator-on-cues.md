@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Oprette en farvet indikator på køindikatorer for firmaet eller individuelle brugere
@@ -24,20 +24,20 @@ Som administrator kan du oprette køindikatorer, der vises i rollecentre for bru
   
 Indikatoren vises som en farvet streg langs den øverste kant af feltet Køindikator. Det indeholder et visuelt signal af status for køindikatorens aktivitet, som kan indikere favorable eller ikke-favorable betingelser for at bede brugeren om at handle. Hvis en køindikator f.eks. viser løbende salgsfakturaer, kan du oprette indikatoren som grøn (favorabel), når det samlede antal løbende salgsfakturaer er under 10, og rød (ikke-favorabel), når det samlede antal er større end 20.  
   
-Fra vinduet **Opsætning af køindikator** kan du konfigurere indikatorer for alle køindikatorer, der findes i regnskabsdatabasen. Du kan angive indikatorerne, der skal gælde for alle brugere i virksomheden eller en individuel bruger. Indikatorindstillingerne i vinduet **Opsætning af køindikator** fungerer som standardindikatorindstillingerne. Hvis vinduet **Opsætning af køindikator for slutbruger** er gjort tilgængelig for brugere, kan de tilpasse indstillingerne for indikatorer, som du definerer i vinduet **Opsætning af køindikator**.  
+Fra siden **Opsætning af køindikator** kan du konfigurere indikatorer for alle køindikatorer, der findes i regnskabsdatabasen. Du kan angive indikatorerne, der skal gælde for alle brugere i virksomheden eller en individuel bruger. Indikatorindstillingerne på siden **Opsætning af køindikator** fungerer som standardindikatorindstillingerne. Hvis siden **Opsætning af køindikator for slutbruger** er gjort tilgængelig for brugere, kan de tilpasse indstillingerne for indikatorer, som du definerer på siden **Opsætning af køindikator**.  
   
 Hvis du vil konfigurere indikatoren, kan du angive op til to tærskelværdier, der definerer tre områder af dataværdier (lav, mellem og høj), hvor du kan anvende en anden farve (eller type).  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Sådan opretter farveindikatorer på køindikatorer  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af køindikator**, og vælg derefter det relaterede link.  
   
-     Vinduet **Opsætning af køindikator** vises. Vinduet viser de indikatorer, der aktuelt er konfigureret på køindikatorer. Indikatorer, der gælder for alle brugere i virksomheden, har et tomt **Brugernavn**-felt. Indikatorer, der gælder for en bestemt bruger, omfatter brugerens navn i feltet **Brugernavn**.  
+     Siden **Opsætning af køindikator** vises. Siden viser de indikatorer, der aktuelt er konfigureret på køindikatorer. Indikatorer, der gælder for alle brugere i virksomheden, har et tomt **Brugernavn**-felt. Indikatorer, der gælder for en bestemt bruger, omfatter brugerens navn i feltet **Brugernavn**.  
   
     > [!NOTE]  
     >  Hvis du konfigurerer en indikator for hele firmaet, og en bruger ændrer indikatoren senere, vises en separat post til indikatoren på listen for den pågældende bruger.  
   
 2. Vælg handlingen **Rediger liste**.  
-3. Hvis du vil oprette en indikator for en køindikator, der ikke vises i vinduet, skal du vælge handlingen **Ny** og derefter udfylde felterne som beskrevet nedenstående. Hvis du vil redigere en eksisterende indikator, skal du gå til næste trin.  
+3. Hvis du vil oprette en indikator for en køindikator, der ikke vises på siden, skal du vælge handlingen **Ny** og derefter udfylde felterne som beskrevet nedenstående. Hvis du vil redigere en eksisterende indikator, skal du gå til næste trin.  
   
     |  Felt  |  Beskrivelse  |    
     |---------|---------------|  

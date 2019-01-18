@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bdb9d8c0d47fe53e9e5ea310a83854e69f545d9e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Produktion hos underleverandør
@@ -46,7 +46,7 @@ Du kan finde flere oplysninger i [Oprette ruter](production-how-to-create-routin
 ## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Beregne underleverandørkladder og oprette købsordrer på underleverance  
 Når du har beregnet underleverandørkladden, oprettes det relevante dokument, hvilket i dette tilfælde er en købsordre.  
 
-Vinduet **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved at beregne de nødvendige forsyninger, i dette tilfælde indkøbsordrer, som du kan gennemgå i regnearket og derefter oprette med funktionen **Udfør aktionsmeddelelse**.  
+Siden **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved at beregne de nødvendige forsyninger, i dette tilfælde indkøbsordrer, som du kan gennemgå i regnearket og derefter oprette med funktionen **Udfør aktionsmeddelelse**.  
 
 > [!NOTE]  
 >  Det er kun produktionsordrer med **Frigivet** som status, der kan åbnes og bruges fra en underleverandørkladde.  
@@ -54,10 +54,10 @@ Vinduet **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Sådan beregnes underleverandørkladden  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Underleverandørkladde**, og vælg derefter det relaterede link.  
 2.  Hvis du vil beregne kladden, skal du vælge handlingen **Beregn underleverancer**.  
-3.  Sæt filtre på underleverandøroperationer eller arbejdscentre, hvor de udføres, for kun at beregne de relevante produktionsordrer i vinduet **Beregn underleverancer**.  
+3.  Sæt filtre på underleverandøroperationer eller arbejdscentre, hvor de udføres, for kun at beregne de relevante produktionsordrer på siden **Beregn underleverancer**.  
 4.  Vælg knappen **OK**.  
 
-    Gennemgå linjerne i vinduet **Underleverandørkladde**. Oplysningerne i kladden hentes fra produktionsordren og produktionsordrens rutelinjer og overføres til købsordren, når det dokument oprettes. Du kan slette en række, uden at det påvirker de oprindelige oplysninger, som du kan med andre kladder. Oplysningerne vises igen, næste gang du kører funktionen **Beregn underleverancer**.  
+    Gennemgå linjerne på siden **Underleverandørkladde**. Oplysningerne i kladden hentes fra produktionsordren og produktionsordrens rutelinjer og overføres til købsordren, når det dokument oprettes. Du kan slette en række, uden at det påvirker de oprindelige oplysninger, som du kan med andre kladder. Oplysningerne vises igen, næste gang du kører funktionen **Beregn underleverancer**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Sådan oprettes købsordre på underleverance  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Underleverandørkladde**, og vælg derefter det relaterede link.  

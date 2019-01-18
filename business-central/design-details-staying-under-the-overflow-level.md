@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e532893b1823ef84256403fb7bf5ef9fabd59f2e
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a4a35cec571f1a0c7644fe937553d87007a9567e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-staying-under-the-overflow-level"></a>Designoplysninger: Forblive under overløbsniveauet
@@ -60,7 +60,7 @@ Planlægning af linjeantallet = aktuel forsyningsmængde – (projekteret lagerb
 -   Hvis antallet på planlægningslinjen er lig med eller mindre end 0, er aktionsmeddelelsen Annuller  
 
 ### <a name="composing-the-warning-message"></a>Oprettelse af advarselsmeddelelsen  
-I forbindelse med overløb vises der i vinduet **Ikke-sporede planlægningselementer** en advarsel med følgende oplysninger:  
+I forbindelse med overløb vises der på siden **Ikke-sporede planlægningselementer** en advarsel med følgende oplysninger:  
 
 -   Det planlagte lagerniveau, der udløste advarslen  
 -   Det beregnede overløbsniveau  

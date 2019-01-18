@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbejde med betalingstolerancer og kontantrabattolerancer
@@ -45,16 +45,16 @@ Tolerancer på dato eller beløb giver dig mulighed for at afslutte en faktura, 
 
 Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du skal både angive en metode til bogføring af kontantrabattolerance og en metode til bogføring af betalingstolerance og derefter afvikle kørslen **Skift betalingstolerance**.  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
-2. I vinduet **Bogføringsopsætning** skal du oprette en debet- og en kreditsalgstolerancekonto og en debet- og kreditkøbstolerancekonto.  
+2. På siden **Bogføringsopsætning** skal du oprette en debet- og en kreditsalgstolerancekonto og en debet- og kreditkøbstolerancekonto.  
 3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorbogføringsgrupper**, og vælg derefter det relaterede link.    
-4. I vinduet **Debitorbogføringsgrupper** skal du oprette en debet- og en kreditbetalingstolerancekonto. Du kan finde flere oplysninger under [Konfigurere bogføringsgrupper](finance-posting-groups.md).  
+4. På siden **Debitorbogføringsgrupper** skal du oprette en debet- og en kreditbetalingstolerancekonto. Du kan finde flere oplysninger under [Konfigurere bogføringsgrupper](finance-posting-groups.md).  
 5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorbogføringsopsætning**, og vælg derefter det relaterede link.  
-6. I vinduet **Kreditorbogføringsgrupper** skal du oprette en debet- og en kreditbetalingstolerancekonto.  
+6. På siden **Kreditorbogføringsgrupper** skal du oprette en debet- og en kreditbetalingstolerancekonto.  
 7. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
-8. Åbn vinduet **Opsætning af finans**.  
+8. Åbn siden **Regnskabsopsætning**.  
 9. På oversigtspanelet **Udligning** skal du udfylde felterne **Bogf. af kont.rabattolerance**, **Kontantrabat - respitperiode** and **Bogf. af betalingstolerance**.   
 10. Vælg handlingen **Skift betalingstolerance**.
-11. I vinduet **Skift betalingstolerance** skal du udfylde felterne **Betalingstolerancepct.** og **Maks. betalingstolerancebeløb** og derefter vælge knappen **OK**.
+11. På siden **Skift betalingstolerance** skal du udfylde felterne **Betalingstolerancepct.** og **Maks. betalingstolerancebeløb** og derefter vælge knappen **OK**.
 
 > [!IMPORTANT]  
 >  Du har nu kun opsat tolerancer for lokal valuta. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] skal håndtere betalingstolerancer, kreditnotaer og refusioner i fremmed valuta, skal du udføre kørslen **Skift betalingstolerance** med en værdi i feltet **Valutakode**.  
@@ -69,10 +69,10 @@ Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Sådan aktiveres eller deaktiveres betalingstoleranceadvarsler
 Advarslen om betalingstolerance vises, når du bogfører en udligning, der har en saldo i den tilladte tolerance. Du kan derefter vælge, hvordan du vil bogføre og dokumentere saldoen.    
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
-2. I vinduet **Opsætning af Finans** på oversigtspanelet **Udligning** skal du markere afkrydsningsfeltet **Betalingstolerance - advarsel** for at aktivere advarslen. Fjern markeringen i afkrydsningsfeltet, hvis du vil deaktivere advarslen.  
+2. På siden **Opsætning af Finans** på oversigtspanelet **Udligning** skal du markere afkrydsningsfeltet **Betalingstolerance - advarsel** for at aktivere advarslen. Fjern markeringen i afkrydsningsfeltet, hvis du vil deaktivere advarslen.  
 
 > [!NOTE]  
->  Standardindstillingen for vinduet **Betalingstolerance - advarsel** er **Lad saldoen stå som restbeløb**. Standardindstillingen for vinduet **Kont.rabattolerance - advarsel** er **Afvis den forsinkede kontantrabat**.
+>  Standardindstillingen for siden **Betalingstolerance - advarsel** er **Lad saldoen stå som restbeløb**. Standardindstillingen for siden **Kont.rabattolerance - advarsel** er **Afvis den forsinkede kontantrabat**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Sådan spærres betalingstolerancer for debitorer  
 Standardindstillingen for betalingstolerancer er tilladt. Hvis du vil afvise betalingstolerancer for en bestemt debitor eller kreditor, skal du spærre tolerancer på henholdsvis debitor- eller kreditorkortet. Følgende beskriver, hvordan du skal gøre det for en debitor. Trinene er de samme for en kreditor.
@@ -86,7 +86,7 @@ Standardindstillingen for betalingstolerancer er tilladt. Hvis du vil afvise bet
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Eksempel 1 – Toleranceberegninger for et enkelt bilag
 Nedenfor findes nogle eksempelscenarier, som viser de forventede toleranceberegninger og -bogføringer, der kan opstå i forskellige situationer.  
 
-Vinduet **Regnskabsopsætning** indeholder følgende opsætning:
+Siden **Regnskabsopsætning** indeholder følgende opsætning:
 - Kontantrabat - respitperiode    5D  
 - Maks. betalingstolerance: 5  
 
@@ -155,7 +155,7 @@ Normale udligningsregler
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Eksempel 2 – Toleranceberegninger for flere bilag
 Nedenfor findes nogle eksempelscenarier, som viser de forventede toleranceberegninger og -bogføringer, der kan opstå i forskellige situationer. Eksemplerne er begrænset til de scenarier, der resulterer i, at alle poster i systemet kan lukkes.  
 
-Vinduet **Regnskabsopsætning** indeholder følgende opsætning:
+Siden **Regnskabsopsætning** indeholder følgende opsætning:
 - Kontantrabat - respitperiode    5D  
 - Maks. betalingstolerance 5  
 

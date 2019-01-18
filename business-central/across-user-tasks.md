@@ -11,17 +11,17 @@ ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a482b27c95cf40a80fb033ddd0d5333014a2064b
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="defining-user-tasks"></a>Definere brugeropgaver
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du oprette opgaver for at minde dig om arbejde, der skal udføres. Du kan oprette opgaver til dig selv, men du kan også tildele opgaver til andre eller få tildelt en opgave af en anden i organisationen.  
 
 ## <a name="managing-user-tasks"></a>Administrere brugeropgaver
-Vinduet **Brugeropgaver** viser alle opgaver, og du kan nemt oprette og tildele nye opgaver. Når du opretter en opgave, kan du angive start- og forfaldsdato, og du kan føje et link til vinduet i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvor brugeren skal udføre arbejdet.  
+Siden **Brugeropgaver** viser alle opgaver, og du kan nemt oprette og tildele nye opgaver. Når du opretter en opgave, kan du angive start- og forfaldsdato, og du kan føje et link til siden i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvor brugeren skal udføre arbejdet.  
 
 Du kan f.eks. oprette en opgave til dig selv for at få vist alle bogførte salgsfakturaer. I så fald skal knytte du opgaven til side 143, Bogf. salgsfakturaer.  
 
@@ -31,7 +31,7 @@ Du kan f.eks. oprette en opgave til dig selv for at få vist alle bogførte salg
 >  Brug opslaget i feltet **Side**, og brug derefter feltet **Søg efter side eller en rapport** til at finde den ønskede side. Du kan finde flere oplysninger i [Søge efter en side eller rapport](ui-search.md).  
 
 ### <a name="picking-up-user-tasks"></a>Hente brugeropgaver
-I rollecentrene Virksomhedsleder, Bogholder og Regnskabsmedarbejder viser et felt ventende opgaver, der er knyttet til den pågældende bruger. For at hente en opgave skal du blot vælge den på listen over ventende brugeropgaver. På båndet åbner linket **Gå til opgaveelementet** det vindue, hvor du kan udføre arbejdet.  
+I rollecentrene Virksomhedsleder, Bogholder og Regnskabsmedarbejder viser et felt ventende opgaver, der er knyttet til den pågældende bruger. For at hente en opgave skal du blot vælge den på listen over ventende brugeropgaver. På båndet åbner linket **Gå til opgaveelementet** den side, hvor du kan udføre arbejdet.  
 
 Når du har udført en opgave, skal du blot markeres som fuldført.  
 

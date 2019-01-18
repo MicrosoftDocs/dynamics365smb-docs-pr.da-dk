@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Opsætte sager
-I vinduet **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
+På siden **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
 
 På de individuelle sagskort skal du angvie priser for sagsvarer, sagsressourcer og sagsfinanskonti, og du skal oprette sagsbogføringsgrupper.
 
@@ -48,25 +48,25 @@ Når afkrydsningsfelt **Anvend anvendelseslink som standard** er markeret, og sa
 >   Du kan angive en anden indstilling i afkrydsningsfeltet **Anvend anvendelseslink som standard** på de enkelte sagskort. I så fald tilsidesætter indstillingen for denne sag den generelle standardindstilling beskrevet ovenfor.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Sådan oprettes priser for sagsressourcer
-Du kan oprette specifikke priser for ressourcer for en sag. Du bruger vinduet **Ressourcepriser for sag**.
+Du kan oprette specifikke priser for ressourcer for en sag. Det gør du på siden **Ressourcepriser for sag**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2. Markér den relevante sag, og vælg derefter handlingen **Ressourcer**.
-3. I vinduet **Sagsressourcepriser** skal du udfylde felterne efter behov.
+3. På siden **Sagsressourcepriser** skal du udfylde felterne efter behov.
 
 De valgfrie oplysninger i felterne **Sagsopgavenr.**, **Arbejdstype**, **Valutakode**, **Linjerabatpct.** og **Kostprisfaktor** bruges i sagsplanlægningslinjerne og forbrugskladderne, når ressourcen angives og tilføjes til sagen.  
 
 Værdien i feltet **Enhedspris** for ressourcen vil blive anvendt i sagsplanlægningslinjerne og sagskladderne, når denne ressource, en ressource, der er tildelt ressourcegruppen, eller en hvilken som helst ressource angives.  
 
 > [!NOTE]  
->   Denne pris vil altid tilsidesætte eventuelle priser i det eksisterende vindue **Ressourcesalgspris/Ressourcegruppe**.
+>   Denne pris vil altid tilsidesætte eventuelle priser på den eksisterende **Ressourcesalgspris/Ressourcegruppe**-side.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Sådan oprettes priser for sagsvarer
-Du kan oprette specifikke priser for varer for en sag. Det gør du i vinduet **Sagsvarepriser**.
+Du kan oprette specifikke priser for varer for en sag. Det gør du på siden **Sagsvarepriser**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2. Markér den relevante sag, og vælg derefter handlingen **Vare**.
-3. I vinduet **Sagsvarepriser** skal du udfylde felterne efter behov.
+3. På siden **Sagsvarepriser** skal du udfylde felterne efter behov.
 
 De valgfrie oplysninger i felterne **Sagsopgavenr.**, **Valutakode** og **Linjerabat %** bruges i sagsplanlægningslinjerne og forbrugskladderne, når ressourcen angives og tilføjes til sagen.  
 
@@ -76,11 +76,11 @@ Værdien i feltet **Enhedspris** for varen bruges i sagsplanlægningslinjerne og
 >   Prisen vil altid tilsidesætte den normale debitorpris (“bedste pris”-mekanismen) for varer. Hvis du vil bruge den normale debitorpris, skal du ikke oprette sagsvarepriser.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Sådan oprettes priser for finanskonti for sag
-Du kan oprette specifikke priser for regnskabsmæssige udgifter for en sag. Det gør du i vinduet **Sagsfinanskontopriser**.
+Du kan oprette specifikke priser for regnskabsmæssige udgifter for en sag. Det gør du på siden **Sagsfinanskontopriser**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
 2. Markér den relevante sag, og vælg derefter handlingen **Finanskonto**.  
-3. I vinduet **Sagsfinanskontopriser** skal du udfylde felterne efter behov.
+3. På siden **Sagsfinanskontopriser** skal du udfylde felterne efter behov.
 
 De valgfrie oplysninger i felterne **Sagsopgavenr.**, **Valutakode**, **Linjerabatpct.**, **Kostprisfaktor** og **Kostpris** bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives og tilføjes til sagen.  
 

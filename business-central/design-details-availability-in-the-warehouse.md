@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designoplysninger: Tilgængelighed i lageret
@@ -32,7 +32,7 @@ Systemet skal holde en konstant kontrol over varedisponering på lageret, så ud
 ## <a name="quantity-available-to-pick"></a>Mængde, der kan plukkes  
  Hvis for eksempel algoritmen for pluk ikke tager højde for vareantal, der er reserveret til en ventende salgsordreforsendelse, kan disse varer plukkes til en anden salgsordre, der er sendt tidligere, hvilket forhindrer, at det første salg er opfyldt. Hvis du vil undgå denne situation, fratrækker plukalgoritmen antal, der er reserveret til andre udgående dokumenter, antal på eksisterende plukdokumenter og antal, der er plukket, men endnu ikke leveret eller forbrugt.  
 
- Resultatet vises i feltet **Disp. antal til pluk** i vinduet **Plukkladde**, hvor feltet beregnes dynamisk. Værdien beregnes også, når brugere opretter lagerpluk direkte for udgående dokumenter. Disse udgående dokumenter kan være salgsordrer, produktionsforbrug eller udgående overflytninger, hvor resultatet er afspejlet i de relaterede antalsfelter, f.eks. **Mgd. at håndtere**.  
+ Resultatet vises i feltet **Disp. antal til pluk** på siden **Plukkladde**, hvor feltet beregnes dynamisk. Værdien beregnes også, når brugere opretter lagerpluk direkte for udgående dokumenter. Disse udgående dokumenter kan være salgsordrer, produktionsforbrug eller udgående overflytninger, hvor resultatet er afspejlet i de relaterede antalsfelter, f.eks. **Mgd. at håndtere**.  
 
 > [!NOTE]  
 >  Med hensyn til prioriteten af reservationer fratrækkes antallet, der skal reserveres, fra antallet, der er disponibelt til pluk. Hvis det tilgængelige antal i plukplaceringer f.eks. er 5 enheder, men der er 100 enheder på læg-på-lager-placeringer, vises der en fejlmeddelelse, når du prøver at reservere mere end 5 enheder til en anden ordre, fordi det ekstra antal skal være tilgængeligt på plukplaceringer.  
@@ -58,9 +58,9 @@ Systemet skal holde en konstant kontrol over varedisponering på lageret, så ud
 -   Antal til montageplaceringer  
 -   Antal på reguleringsplaceringer  
 
- Resultatet vises i feltet **Beholdning i alt** i vinduet **Reservation**.  
+ Resultatet vises i feltet **Beholdning i alt** på siden **Reservation**.  
 
- På en reservationslinje vises det antal, der ikke kan reserveres, fordi det er fordelt i lageret, i feltet **Allokeret antal på lager** i vinduet **Reservation**.  
+ På en reservationslinje vises det antal, der ikke kan reserveres, fordi det er fordelt i lageret, i feltet **Allokeret antal på lager** på siden **Reservation**.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Beregning af det antal, der er disponibelt til reservation  
  Det antal, der kan reserveres, beregnes sådan:  

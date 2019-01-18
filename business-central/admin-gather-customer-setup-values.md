@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Indsaml debitoropsætningsværdier
@@ -32,7 +32,7 @@ Når kunden har udfyldt spørgeskemaet, importerer du filen til kundens nye [!IN
 ## <a name="to-create-a-configuration-questionnaire"></a>Sådan oprettes et konfigurationsspørgeskema
 Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og behovet for konfiguration. Du kan oprette et nyt spørgeskema eller redigere et eksisterende spørgeskema ved at tilføje nye spørgsmål eller spørgeområder.  
 
- Du kan kun oprette spørgeskemaer til tabeller af opsætningstypen. Du kan f.eks. bruge værktøjet til at angive oplysninger i følgende vinduer:  
+ Du kan kun oprette spørgeskemaer til tabeller af opsætningstypen. Du kan f.eks. bruge værktøjet til at angive oplysninger på følgende sider:  
 
 -   Virksomhedsoplysninger  
 -   Anlægsopsætning  
@@ -50,9 +50,9 @@ Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og be
 >  For at få vist en komplet liste over opsætningstabeller skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning**, og vælg derefter det relaterede link. Til at afgøre omfanget af overflytning af data i poster, skal du bruge funktionerne til overflytning. Du kan finde flere oplysninger i [Overflytning af debitordata](admin-migrate-customer-data.md).  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg det relaterede link.  
-2. Vælg handlingen **Ny**. Vinduet **Konfig.spørgeskema** åbnes.  
-3. Vælg handlingen **Spørgsmålsområder**. Vinduet **Spørgsmålsområder** åbnes.  
-4. Vælg handlingen **Ny**. Vinduet **Konfig.spørgsmålsområde** åbnes.  
+2. Vælg handlingen **Ny**. Siden **Konfig.spørgeskema** åbnes.  
+3. Vælg handlingen **Spørgsmålsområder**. Siden **Spørgsmålsområder** åbnes.  
+4. Vælg handlingen **Ny**. Siden **Konfig.spørgsmålsområde** åbnes.  
 5. I feltet **Tabel-id** skal du vælge id'et på den tabel, du vil indsamle oplysninger om. Feltet **Tabelnavn** udfyldes automatisk.  
 6. Vælg handlingen **Opdater spørgsmål**. Hvert felt i tabellen føjes til spørgeskemaet med et spørgsmålstegn efter dets etiket.
 
@@ -94,10 +94,10 @@ En almindelig valideringsopgave er at kontrollere, at tekststrenge ikke er indsa
 > [!NOTE]  
 >  Validering af konfigurationsspørgeskemaet er generelt en manuel proces. Der er dog kontrol for regionale formateringsuoverensstemmelser. Desuden vil du få fejl, hvis strukturen i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-database ikke stemmer overens med strukturen i overflytningsdatabasen.  
 
-1. I vinduet **Konfigurationsspørgeskema** skal du vælge det relevante spørgeskema og derefter vælge handlingen **Spørgsmålsområder**.  
+1. På siden **Konfigurationsspørgeskema** skal du vælge det relevante spørgeskema og derefter vælge handlingen **Spørgsmålsområder**.  
 2. Åbn det relevante spørgsmålsområde.  
 3. For hvert spørgsmål skal du kontrollere, at værdien i feltet **Svar** svarer til det format, der er anført i feltet **Svarindstilling**. Kontrollér f.eks., at adressen på en virksomhed er i tekstformat.  
-4. Hvis du finder fejl, kan du foretage fejlfinding og foretage rettelser i Excel ved at udlæse spørgeskemaet og derefter indlæse det igen. Du kan også rette fejl direkte i [!INCLUDE[d365fin](includes/d365fin_md.md)], efterhånden som du gennemgår svarene i vinduet **Konfig.spørgsmålsområde**.  
+4. Hvis du finder fejl, kan du foretage fejlfinding og foretage rettelser i Excel ved at udlæse spørgeskemaet og derefter indlæse det igen. Du kan også rette fejl direkte i [!INCLUDE[d365fin](includes/d365fin_md.md)], efterhånden som du gennemgår svarene på siden **Konfig.spørgsmålsområde**.  
 5. Gentag disse trin for hvert spørgsmålsområde.  
 
 Når du har fuldført din validering, er dataene klar til at blive anvendt til databasen.  
@@ -105,7 +105,7 @@ Når du har fuldført din validering, er dataene klar til at blive anvendt til d
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Sådan anvendes svar fra konfigurationsspørgeskemaet
 Når du har indlæst og valideret oplysninger fra et konfigurationsspørgeskema, kan du overføre eller anvende opsætningsdata til de tilsvarende tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg derefter det relaterede link. Vinduet **Konfig.spørgeskema** åbnes.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg derefter det relaterede link. Siden **Konfig.spørgeskema** åbnes.  
 2. Vælg et konfigurationsspørgeskema på listen, og vælg derefter handlingen **Rediger liste**.  
 3. Du kan anvende svar på en af to måder.  
 
@@ -113,7 +113,7 @@ Når du har indlæst og valideret oplysninger fra et konfigurationsspørgeskema,
 - Hvis du vil anvende svar kun for et bestemt **Spørgsmålsområde**, skal du vælge handlingen **Spørgeområder**, vælge et **Spørgsmålsområde** på listen og derefter vælge handlingen **Anvend svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Sådan kontrollerer du, at svarene er blevet anvendt korrekt  
-1. Kontrollér opsætningsvinduerne for de forskellige funktionelle områder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. For at finde vinduet skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive navnet på opsætningsvinduet og derefter vælge det relaterede link.  
+1. Kontrollér opsætningssiderne for de forskellige funktionelle områder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. For at finde siden skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive navnet på opsætningssiden og derefter vælge det relaterede link.  
 2. Kontrollér, at felterne er blevet udfyldt med de korrekte data fra de forskellige spørgsmålsområder i konfigurationsspørgeskemaet.  
 
 Du har nu konfigureret opsætning med debitorens forretningsmæssige oplysninger og regler.

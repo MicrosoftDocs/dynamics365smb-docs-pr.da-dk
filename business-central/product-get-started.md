@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4eed11706d890a1b83af7fcb70fe1457a787ba3a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduktion til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -39,14 +39,14 @@ Du kan finde flere oplysninger i [Arbejde med [!INCLUDE[d365fin](includes/d365fi
 Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](across-business-functionality.md). Du kan få et overblik over aktuelle funktioner, og hvad der kommer senere, i vores oversigt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-role-centers"></a>Rollecentrene
-Vinduet Rollecenter er baseret på et rollecentreret design, som giver hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige rollecentre ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).
+Siden Rollecenter er baseret på et rollecentreret design, som giver hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige rollecentre ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).
 
-Hvert Rollecenter indeholder knappen **Installation og udvidelser**. Her kan du få adgang til en liste over assisteret opsætning, som kan hjælpe dig i gang med at definere markerede områder hurtigt. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningsvinduer, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Hvert Rollecenter indeholder knappen **Installation og udvidelser**. Her kan du få adgang til en liste over assisteret opsætning, som kan hjælpe dig i gang med at definere markerede områder hurtigt. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningssider, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!NOTE]  
 >   Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**. Første gang du logger på, bruger du oplevelsen Essential. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
 
-I vinduet **Assisteret opsætning** kan du finde følgende sammen med oplevelsen **Essentiel**:
+På siden **Assisteret opsætning** kan du finde følgende sammen med oplevelsen **Essentiel**:
 
 | Assisteret opsætning | Beskrivelse |
 | --- | --- |

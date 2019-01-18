@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5af0da45b27c70bc2b25fbad22f83479e9543432
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 03074e2296c95a2afec9f5852a9c4277efa0a37a
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,10 +26,10 @@ Du kan bruge statistikker til at analysere servicedokumenter og fastslå, hvor g
 ## <a name="viewing-statistics-for-service-orders"></a>Visning af statistik for serviceordrer
 Funktionen Serviceordrestatistik giver dig et hurtigt overblik over indholdet af hele serviceordren, oplysningerne på de specifikke servicelinjer og oplysninger vedrørende fakturering, levering og forbrug og debitorens saldo.  
 
-De statistiske data til en serviceordre vises i vinduet **Serviceordrestatistik** til den relevante ordre. Du kan åbne vinduet med relevante statistikker fra en serviceordre. I vinduet **Serviceordrer** skal du vælge **Statistik**. I oversigtspanelerne i dette vindue vises der oplysninger som mængde, beløb, moms, omkostninger, avance og debitorkreditmaksimum. Beløbene i vinduet er angivet i den valuta, der bruges i serviceordren, medmindre andet er angivet.  
+De statistiske data til en serviceordre vises på siden **Serviceordrestatistik** til den relevante ordre. Du kan åbne siden med relevante statistikker fra en serviceordre. På siden **Serviceordrer** skal du vælge **Statistik**. I oversigtspanelerne på denne side vises der oplysninger som mængde, beløb, moms, omkostninger, avance og debitorkreditmaksimum. Beløbene på siden er angivet i den valuta, der bruges i serviceordren, medmindre andet er angivet.  
 
 ### <a name="view-totals-for-a-service-order"></a>Vis totaler for en serviceordre  
-Du kan få vist det samlede beløb på servicelinjerne, inklusive og eksklusive moms, momsdelen, kostbeløb og avance på servicelinjerne. Vinduet viser også varespecifikke oplysninger, f.eks. vægt, rumfang og antallet af kolli.  
+Du kan få vist det samlede beløb på servicelinjerne, inklusive og eksklusive moms, momsdelen, kostbeløb og avance på servicelinjerne. Siden viser også varespecifikke oplysninger, f.eks. vægt, rumfang og antallet af kolli.  
 
 ### <a name="view-shipping-information"></a>Vis leveringsoplysninger  
 Du kan se oplysninger om varerne, ressourcerne eller de kostbeløb, der skal leveres. De værdier, der er angivet i feltet **Lever (antal)**, bruges på hver servicelinje i ordren til angivelse af oplysninger.  
@@ -54,7 +54,7 @@ Du kan analysere oplysningerne efter typerne af servicelinjer, der er medtaget i
 Se saldoen på debitorens konto i tillæg til det kreditmaksimum, der kan tildeles den kunde, som du oprettede servicedokumentet for.
 
 ## <a name="viewing-service-item-statistics"></a>Visning af serviceartikelstatistik
-I vinduet **Serviceartikelstatistik** kan du få vist opdaterede oplysninger om en serviceartikel, baseret på følgende typer af serviceposter:  
+På siden **Serviceartikelstatistik** kan du få vist opdaterede oplysninger om en serviceartikel, baseret på følgende typer af serviceposter:  
 
 * Ressourcer  
 * Varer  
@@ -67,7 +67,7 @@ For hver posttype kan du se det fakturerede beløb, forbrug (beløb), kostbeløb
 * (Faktureret beløb - Forbrug (varekostpris)) x 100 / Faktureret beløb  
 
 ## <a name="using-trendscapes"></a>Ved hjælp af Trendscapes
-For serviceartikler og servicekontrakter giver vinduerne **Serviceartikel - Trendscape** eller **Servicekontrakt - Trendscape** en oversigt, du kan rulle op og ned i, over serviceposter i en periode for en bestemt serviceartikel eller -kontrakt. Hvis du vil have vist udviklingen, skal du åbne serviceartiklen eller servicekontrakten, vælge handlingen **statistik** og derefter klikke på **Trendscape**.
+For serviceartikler og servicekontrakter giver siderne **Serviceartikel - Trendscape** eller **Servicekontrakt - Trendscape** en oversigt, du kan rulle op og ned i, over serviceposter i en periode for en bestemt serviceartikel eller -kontrakt. Hvis du vil have vist udviklingen, skal du åbne serviceartiklen eller servicekontrakten, vælge handlingen **statistik** og derefter klikke på **Trendscape**.
 
 Når du ruller op og ned på listen, bliver tallene beregnet i den lokale valuta i overensstemmelse med til de angivne tidsintervaller. Alle beløb beregnes på grundlag af serviceposter, dvs. poster, der oprettes, når du bogfører serviceordrer eller servicefakturaer.
 
@@ -88,25 +88,25 @@ Der bliver genereret en gevinst/tabspost for kontrakten, når et kontrattilbud k
 |**Kontraktgevinst/-tab (ansv.cent.)**|Sådan får du vist kontraktgevinst/-tab efter ansvarscenter.|  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv navnet på den side, der skal vises, og vælg derefter det relaterede link.  
-2. Angiv de filterkriterier, du vil anvende. I vinduet **Kontraktgevinst/-tab (årsager)** skal du f.eks. vælge en værdi for **Årsagskodefilter**.  
+2. Angiv de filterkriterier, du vil anvende. På siden **Kontraktgevinst/-tab (årsager)** skal du f.eks. vælge en værdi for **Årsagskodefilter**.  
 3. Vælg handlingen **Vis matrix**.
 
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visning af statistik for bogførte servicedokumenter
 Funktionen Servicestatistik bruges til at få et statistisk overblik over indholdet af bogførte servicedokumenter, f.eks. en bogført leverance, faktura og kreditnota.  
 
-De statistiske oplysninger vises i statistikvinduet til det tilsvarende bogførte servicedokument. Du kan åbne det relevante statistikvindue fra bogført serviceleverance, bogført servicefaktura eller bogført servicekreditnota dokumenter. Vælg **Statistik** i gruppen **Proces** under fanen **Startside** for hver af disse dokumenttyper. F.eks. fra vinduet **Bogførte servicefakturaer** under fanen **Startside** i gruppen **Behandl** skal du vælge **Statistik**.  
+De statistiske oplysninger vises på statistiksiden til det tilsvarende bogførte servicedokument. Du kan åbne den relevante statistikside fra bogført serviceleverance, bogført servicefaktura eller bogført servicekreditnota dokumenter. Vælg **Statistik** i gruppen **Proces** under fanen **Startside** for hver af disse dokumenttyper. F.eks. fra siden **Bogførte servicefakturaer** under fanen **Startside** i gruppen **Behandl** skal du vælge **Statistik**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistik for bogførte serviceleverancer  
-I vinduet **Statistik for serviceleverance** kan du se en oversigt over en bogført serviceleverance. Den omfatter oplysninger om det fysiske indhold af leverancen, f.eks. antallet af leverede varer, ressourcetidsforbrug eller omkostninger samt vægt og rumfang af de leverede varer.  
+På siden **Statistik for serviceleverance** kan du se en oversigt over en bogført serviceleverance. Den omfatter oplysninger om det fysiske indhold af leverancen, f.eks. antallet af leverede varer, ressourcetidsforbrug eller omkostninger samt vægt og rumfang af de leverede varer.  
 
 ### <a name="posted-service-invoice-statistics"></a>Statistik for bogførte servicefakturaer  
-Du kan få vist en statistisk oversigt over en bogført servicefaktura i vinduet **Statistik for servicefakturaer**. Du kan få vist totalerne for den bogførte servicefaktura. Dataene omfatter det samlede beløb på servicelinjerne (inklusive og eksklusive moms), der er bogført som faktureret, momsdelen, kostbeløb og avance i den bogførte faktura. I vinduet vises også oplysninger om følgende:  
+Du kan få vist en statistisk oversigt over en bogført servicefaktura på siden **Statistik for servicefakturaer**. Du kan få vist totalerne for den bogførte servicefaktura. Dataene omfatter det samlede beløb på servicelinjerne (inklusive og eksklusive moms), der er bogført som faktureret, momsdelen, kostbeløb og avance i den bogførte faktura. På siden vises også oplysninger om følgende:  
 
 * Varerne på servicefakturalinjerne, f.eks. vægt, rumfang og antallet af kolli.  
 * Saldoen på debitorens konto samt det kreditmaksimum, du kan yde kunden.  
 
 ### <a name="posted-service-credit-memo-statistics"></a>Statistik for bogførte servicekreditnotaer  
-Du kan bruge vinduet **Statistik for servicekreditnotaer** til at få et statistisk overblik over linjerne i en bogført servicekreditnota. Oversigten kan omfatte:
+Du kan bruge siden **Statistik for servicekreditnotaer** til at få et statistisk overblik over linjerne i en bogført servicekreditnota. Oversigten kan omfatte:
 
 * De samlede beløb i den bogførte kreditnota vises som mængde, beløb, moms, omkostninger og avance. Der er også oplysninger om varerne på servicelinjerne i den bogførte kreditnota, f.eks. antal, vægt og rumfang.  
 * Generelle oplysninger om debitoren, f.eks. debitorens kreditmaksimum og saldo på kontoen.  

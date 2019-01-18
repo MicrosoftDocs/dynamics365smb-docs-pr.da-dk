@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="ship-items"></a>Afsende varer
@@ -50,22 +50,22 @@ Den medarbejder, der er ansvarlig for leverancen, opretter typisk en lagerlevera
 
     > [!NOTE]  
     >  Hvis du vil levere varer med en anden lagerklassekode end placeringens klassekode i feltet **Placeringskode** i dokumenthovedet, skal du slette indholdet i feltet **Placeringskode** i hovedet, inden du henter kildedokumentlinjerne for varerne.  
-3.  Vælg handlingen **Hent kildedokumenter**. Vinduet **Kildedokumenter** åbnes.
+3.  Vælg handlingen **Hent kildedokumenter**. Siden **Kildedokumenter** åbnes.
 
-    Fra en ny eller en åben lagerleverance kan du bruge vinduet **Filtre til at hente kildedok.** til at hente de frigivne kildedokumentlinjer, der definerer, hvilke varer der skal leveres.
+    Fra en ny eller en åben lagerleverance kan du bruge siden **Filtre til at hente kildedok.** til at hente de frigivne kildedokumentlinjer, der definerer, hvilke varer der skal leveres.
 
     1. Vælg handlingen **Brug filtre til at hente kildedok.**.  
     2. Hvis du vil oprette et nyt filter, skal du indtaste en beskrivende kode i feltet **Kode** og derefter vælge handlingen **Ret**.  
     3. Definer den type kildedokumentlinjer, som du ønsker at hente, ved at udfylde de relevante filterfelter.  
     4. Vælg handlingen **Kør**.  
 
-    Alle frigivne kildedokumentlinjer, som opfylder filterkriterierne, indsættes nu i vinduet **Lagerleverance**, hvorfra du har aktiveret filterfunktionen.  
+    Alle frigivne kildedokumentlinjer, som opfylder filterkriterierne, indsættes nu på siden **Lagerleverance**, hvorfra du har aktiveret filterfunktionen.  
 
-    De filterkombinationer, du definerer, gemmes i vinduet **Filtre til at hente kildedok.**, indtil næste gang du skal bruge dem. Du kan oprette et ubegrænset antal filterkombinationer. Du kan til enhver tid ændre kriterierne ved at vælge handlingen **Ret**.
+    De filterkombinationer, du definerer, gemmes på siden **Filtre til at hente kildedok.**, indtil næste gang du skal bruge dem. Du kan oprette et ubegrænset antal filterkombinationer. Du kan til enhver tid ændre kriterierne ved at vælge handlingen **Ret**.
 
 4.  Vælg de kildedokumenter, som du vil levere varer til, og vælg derefter knappen **OK**.  
 
-Linjerne fra kildedokumentet vises i vinduet **Lagerleverance**. Feltet **Lever (antal)** er på forhånd udfyldt med det udestående antal varer for hver linje, men du kan ændre antallet efter behov. Hvis du slettede indholdet i feltet **Placeringskode** i oversigtspanelet **Generelt**, inden du hentede linjerne, skal du udfylde alle modtagelseslinjer med den rette leverancekode.  
+Linjerne fra kildedokumentet vises på siden **Lagerleverance**. Feltet **Lever (antal)** er på forhånd udfyldt med det udestående antal varer for hver linje, men du kan ændre antallet efter behov. Hvis du slettede indholdet i feltet **Placeringskode** i oversigtspanelet **Generelt**, inden du hentede linjerne, skal du udfylde alle modtagelseslinjer med den rette leverancekode.  
 
 > [!NOTE]  
 >  Du kan ikke levere flere varer end antallet i feltet **Antal udestående** på kildedokumentlinjen. Hvis du vil levere flere varer, skal du hente et andet kildedokument, der indeholder en linje for varen. Du kan bruge filterfunktionen til at hente kildedokumenter på varen.  
@@ -76,7 +76,7 @@ Når du har de linjer, som du vil levere, kan du starte den proces, som fører t
 Typisk opretter en lagermedarbejder, der er ansvarlig for pluk, et plukdokument og åbner et allerede oprettet plukdokument.
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverancer**, og vælg derefter det relaterede link.
 2. Vælg den lagerleverance, som du vil plukke til, og vælg derefter handlingen **Opret pluk**.
-3. Udfyld felterne i anmodningsvinduet, og vælg derefter den knappen **OK**. Det angivne lagerplukdokument oprettes.
+3. Udfyld felterne på anmodningssiden, og vælg derefter den knappen **OK**. Det angivne lagerplukdokument oprettes.
 
     Du kan også åbne et eksisterende lagerpluk.
 4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link. Vælg det lagerpluk, du vil arbejde på.

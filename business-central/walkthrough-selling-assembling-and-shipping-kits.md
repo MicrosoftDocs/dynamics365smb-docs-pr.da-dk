@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
@@ -82,7 +82,7 @@ Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:
 -   Opret dig selv som en lagermedarbejder på lokationen HVID ved at følge disse trin:  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
-2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto i vinduet **Brugere**.  
+2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
 3.  Angiv HVID i feltet **Lokationskode**.  
 4.  Markér feltet **Standard**.  
 
@@ -101,7 +101,7 @@ Forbered placeringen HVID til montagebehandling ved at følge disse trin:
 Fjern standardleveringstiden for interne processer ved at følge disse trin:  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionsopsætning**, og vælg derefter det relaterede link.  
-2.  I vinduet **Produktionsopsætning** i oversigtspanelet **Planlægning** skal du fjerne værdien i feltet **Standardsikkerhedstid**.  
+2.  På siden **Produktionsopsætning** i oversigtspanelet **Planlægning** skal du fjerne værdien i feltet **Standardsikkerhedstid**.  
 
 Opret lager for montagekomponenter ved at følge afsnittet "Forberede eksempeldata" i denne gennemgang.  
 
@@ -151,10 +151,10 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Synkroniser derefter de nye lagerposter med lageret.  
 
-5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link. Vinduet **Varekladde** åbnes.  
+5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link. Siden **Varekladde** åbnes.  
 6.  Under fanen **Handlinger** i gruppen **Funktioner** vælges **Beregn lagerregulering**.  
-7.  I vinduet **Beregn lagerregulering** skal du vælge knappen **OK**.  
-8.  I vinduet **Varekladde** under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Bogfør** og derefter vælge knappen **Ja**.  
+7.  På siden **Beregn lagerregulering** skal du vælge knappen **OK**.  
+8.  På siden **Varekladde** under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Bogfør** og derefter vælge knappen **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Oprette montageelementer  
 
@@ -221,7 +221,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
     > [!NOTE]  
     >  Der findes følgende tilgængelighedsproblem for salgsordrelinjen for pakke B:  
     >   
-    >  -   Montagekomponenten 80210 er ikke tilgængelig. Det betyder, at tre angivne enheder af pakke B ikke kan samles, hvilket angives med **0** i feltet **Mulighed for montage** i vinduet **Montagedisponering**.  
+    >  -   Montagekomponenten 80210 er ikke tilgængelig. Det betyder, at tre angivne enheder af pakke B ikke kan samles, hvilket angives med **0** i feltet **Mulighed for montage** siden **Montagedisponering**.  
     >   
     >  Der findes følgende tilgængelighedsproblem for salgsordrelinjen for pakke A:  
     >   
@@ -231,7 +231,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 4.  Vælg salgsordrelinjen på tre enheder af pakke B.  
 5.  På oversigtspanelet **Linjer** skal du vælge **Linje**, vælg **Montage efter ordre**, og vælg derefter **Montage efter ordre-linjer**.  
-6.  I vinduet **Montage efter ordre-linjer** skal du på montageordrelinjen for vare 80014 angive **2** i feltet **Antal pr.**.  
+6.  På siden **Montage efter ordre-linjer** skal du på montageordrelinjen for vare 80014 angive **2** i feltet **Antal pr.**.  
 7.  På montageordrelinjen for vare 80210 skal du vælge feltet **Nummer** og derefter vælge vare 80209 i stedet.  
 8.  Opret en ny montageordrelinje med følgende oplysninger.  
 
@@ -239,7 +239,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
     |----------|---------|------------------|  
     |Vare|80203|1|  
 
-9. Luk vinduet **Montage efter ordre-linjer**.  
+9. Luk siden **Montage efter ordre-linjer**.  
 
     Derefter skal du opdatere salgsprisen for pakke B i henhold til den tilpasning, som du netop har udført. Læg mærke til den aktuelle værdi i feltet **Enhedpris ekskl. moms**.  
 
@@ -247,7 +247,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 11. Vælg knappen **Ja**. Læg mærke til den øgede værdi i feltet **Enhedpris ekskl. moms**.  
 12. Vælg salgsordrelinjen på 15 enheder af pakke A.  
 13. På oversigtspanelet **Linjer** skal du vælge **Linje**, vælg **Montage efter ordre**, og vælg derefter **Montage efter ordre-linjer**.  
-14. Opret i vinduet **Montage efter ordre-linjer** en ny montageordrelinje med følgende oplysninger.  
+14. Opret på siden **Montage efter ordre-linjer** en ny montageordrelinje med følgende oplysninger.  
 
     |Type|Nummer|Antal pr.|  
     |----------|---------|------------------|  
@@ -264,9 +264,9 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
 2.  Under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Beregn totalplan**.  
-3.  I vinduet **Beregn plan** skal du angive følgende filtre.  
+3.  På siden **Beregn plan** skal du angive følgende filtre.  
 
-    |Startdato|Slutdato|Nummer|  
+    |Startdato|Afslutningsdato|Nej.|  
     |-------------------|-----------------|---------|  
     |01-23-2014|01-27-2014|Pakke A – grundlæggende pc-pakke|  
 
@@ -275,7 +275,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
     En ny planlægningslinjen oprettes for den nødvendige montageordre på ti enheder, forfaldsdato den 27. januar. Der kræves ingen ændres, så du kan nu oprette ordren.  
 
 5.  Vælg **Udfør aktionsmeddelelse** i gruppen **Proces** under fanen **Handlinger**.  
-6.  I vinduet **Udfør aktionsmeddelelse** skal du vælge feltet **Montageordre** og derefter vælge **Opret montageordrer**.  
+6.  På siden **Udfør aktionsmeddelelse** skal du vælge feltet **Montageordre** og derefter vælge **Opret montageordrer**.  
 7.  Vælg knappen **OK**.  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montere og levere den første ATO-mængde  
@@ -311,14 +311,14 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Vend tilbage for at foretage leveringsopgaver.  
 
-8.  Åbn vinduet **Lagerleverance** igen.  
+8.  Åbn siden **Lagerleverance** igen.  
 
     Bemærk, at feltet **Plukket antal** stadig er tomt på alle linjer. Dette skyldes, at du stadig ikke har plukket de varer, der skal afsendes, men kun de komponenter, der skal bruges til montage af ATO-mængderne.  
 
     Fortsæt med at gennemgå den relaterede montageordre.  
 
 9. Vælg leverancelinjen på tre enheder af pakke B.  
-10. På oversigtspanelet **Linjer** skal du vælge **Linje** og derefter vælge **Montage til ordre**. Vinduet **Montageordre** åbnes.  
+10. På oversigtspanelet **Linjer** skal du vælge **Linje** og derefter vælge **Montage til ordre**. Siden **Montageordre** åbnes.  
 
     Bemærk, at flere felter på montageordren ikke er tilgængelige, da ordren er knyttet til en salgsordre.  
 
@@ -330,7 +330,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Feltet **Antal til montage** kan redigeres og har til formål at understøtte de situationer, hvor du vil foretage en delvis levering af en lagermængde i stedet for at samle flere enheder til ordren. Du kan finde flere oplysninger i afsnittet "Kombinationsscenarier" i [Om Montage til ordre og Montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Luk vinduet **Montageordre** for at vende tilbage til vinduet **Lagerleverance**.  
+12. Luk siden **Montageordre** for at vende tilbage til siden **Lagerleverance**.  
 13. På leverancelinjen for tre enheder af pakke B skal du i feltet **Lever antal** indtaste **3**.  
 14. Vælg **Bogfør lev.** og derefter **Levér** i gruppen **Bogføring** under fanen **Handlinger**.  
 
@@ -356,11 +356,11 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
     Registrer derefter, at montageordren er fuldført.  
 
 3.  Under fanen **Naviger** i gruppen **Lagersted** skal du vælge **Ordremont.lagerleverancelinje**.  
-4.  I vinduet **Ordremont.lagerleverancelinje** i feltet **Lever antal** skal du angive **5** og derefter lukke vinduet.  
+4.  På siden **Ordremont.lagerleverancelinje** i feltet **Lever antal** skal du angive **5** og derefter lukke siden.  
 
-    I vinduet **Montageordre** skal du bemærke, at felterne **Antal til montage** og **Antal til forbrug** nu udfyldes med de mængder til afgang og forbrug, der skal bogføres i forbindelse med forsendelsen.  
+    På siden **Montageordre** skal du bemærke, at felterne **Antal til montage** og **Antal til forbrug** nu udfyldes med de mængder til afgang og forbrug, der skal bogføres i forbindelse med forsendelsen.  
 
-5.  Luk vinduet **Montageordre**.  
+5.  Luk siden **Montageordre**.  
 
 ### <a name="assembling-the-ats-quantity"></a>Montere ATS-antallet  
 
@@ -415,9 +415,9 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Gå tilbage til lagerleverancen for at udføre den sidste montageopgave.  
 
-8.  Åbn vinduet **Lagerleverance** igen.  
+8.  Åbn siden **Lagerleverance** igen.  
 
-    I vinduet **Lagerleverance** på linjen for ti enheder af pakke A, skal du bemærke, at felterne **Lever antal** og **Plukket antal** nu indeholder **10**.  
+    På siden **Lagerleverance** på linjen for ti enheder af pakke A, skal du bemærke, at felterne **Lever antal** og **Plukket antal** nu indeholder **10**.  
 
 9. Vælg **Bogfør lev.** og derefter **Levér** i gruppen **Bogføring** under fanen **Handlinger**.  
 

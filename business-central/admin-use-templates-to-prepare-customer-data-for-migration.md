@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Forberede overflytning af debitordata
@@ -45,32 +45,46 @@ Når du vælger en eksisterende dataskabelon, skal du vurdere, om skabelonerne, 
 >  Du kan også bruge dataskabeloner til hurtigt at oprette nye poster. Brug dem til hurtigere og mere nøjagtig dataoprettelse. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
-2. I vinduet **Konfig. skabelonoversigt** skal du vælge en dataskabelon på listen og derefter vælge handlingen **Rediger**.  
+2. På siden **Konfigurationsskabeloner** skal du vælge en dataskabelon på listen og derefter vælge handlingen **Rediger**.  
 
 Hvis standardskabelonerne ikke opfylder dine behov, kan du oprette nye skabeloner, eller du kan føje felter til en eksisterende skabelon. Hvis standardskabelonerne er tilstrækkelige, kan du bruge dem til at oprette poster, der er baseret på masterdataskabeloner.
 
-## <a name="to-create-a-data-template"></a>Sådan opretter du en dataskabelon
+## <a name="to-create-a-new-data-template"></a>Sådan opretter du en ny dataskabelon
 Du kan oprette en ny dataskabelon, hvis standardskabelonerne ikke opfylder din nye virksomheds behov. Hvis du vil oprette mere end én, kan du med fordel vedtage en navngivningskonvention for feltet **Kode**.
 
 Hver skabelon består af et hoved og linjer. Når du opretter en skabelon, kan du angive, hvilke felter der altid skal anvendes til data af en bestemt type. Opret f.eks. forskellige debitorskabeloner for at anvende forskellige debitortyper. Når du opretter debitoren ved hjælp af en skabelon, kan du bruge skabelondata til på forhånd at udfylde visse felter.
 
-### <a name="to-create-a-data-template-header"></a>Sådan oprettes dataskabelonhovedet
-1. Åbn vinduet **Konfig. skabelonoversigt**.
+### <a name="to-copy-an-existing-data-template"></a>Sådan kopierer du en eksisterende dataskabelon
+Du kan hurtigt oprette en ny dataskabelon ved at kopiere oplysninger fra en eksisterende dataskabelon, som du derefter redigerer.
+
+1. Åbn siden **Konfigurationsskabeloner**.
 2. Vælg handlingen **Ny**.
+3. Udfyld feltet **Kode**.
+4. Vælg handlingen **Kopiér konfigurationsskabelon**.
+5. På siden **Konfigurationsskabelon** skal du vælge en eksisterende skabelon, du vil kopiere, og derefter vælge knappen **OK**.
+
+Tabel-ID, tabelnavn og linjerne i den eksisterende dataskabelon indsættes i den nye skabelon.
+
+### <a name="to-create-a-data-template-header-manually"></a>Sådan oprettes et dataskabelonhoved manuelt
+1. Åbn siden **Konfigurationsskabeloner**.
+2. Vælg handlingen **Ny**.
+3. Udfyld feltet **Kode**.
 3. Angiv den tabel, skabelonen gælder for, i feltet **Tabel-id**. Feltet **Tabelnavn** udfyldes automatisk, når feltet **Tabel-id** angives.
 
-### <a name="to-create-a-data-template-line"></a>Sådan oprettes en dataskabelonlinje
-1. Vælg på den første linje feltet **Feltnavn**. Vinduet **Feltoversigt** viser listen over felter i tabellen.
+### <a name="to-create-a-data-template-line-manually"></a>Sådan oprettes en dataskabelonlinje manuelt
+1. Vælg på den første linje feltet **Feltnavn**. Siden **Feltoversigt** viser listen over felter i tabellen.
 2. Vælg et felt, og vælg derefter knappen **OK**. Feltet **Felttitel** udfyldes med feltnavnet.
 3. Angiv en passende værdi i feltet **Standardværdi**. I nogle tilfælde vil du måske bruge en værdi, der ikke er en værdi, der er tilgængelig i databasen. Hvis det er tilfældet, kan du markere afkrydsningsfeltet **Spring relationskontrol over** for at gøre det muligt at anvende data uden fejl.
 
     > [!TIP]  
     > Da feltet **Standardværdi** ikke har opslag til de tilsvarende [!INCLUDE[d365fin](includes/d365fin_md.md)]-feltindstillinger, skal du kopiere den ønskede værdi fra den relaterede side og indsætte den i skabelonen.
 
-    > Marker afkrydsningsfeltet **Obligatorisk**. Afkrydsningsfeltet er kun til orientering. Det fortæller dig, at der skal angives oplysninger i feltet af brugeren, men der gennemtvinges ingen forretningslogik. Du kan f.eks. ikke fakturere og bogføre en ordre, hvis du ikke har konfigureret bogføringsgrupper. Da bogføringsgrupper er påkrævede, kan du markere afkrydsningsfeltet **Obligatorisk** for disse felter.
+4. Marker afkrydsningsfeltet **Obligatorisk**, hvis brugerne skal udfylde det pågældende felt.
 
-3. Angiv nødvendige oplysninger om feltet i feltet **Reference**.
-4. Vælg knappen **OK**.
+    > [!NOTE]
+    > Afkrydsningsfeltet er kun til orientering. Ingen forretningslogik træder i kraft. Brugerne kan f.eks. ikke bogføre en faktura, hvis du ikke har konfigureret bogføringsgrupper. Du kan markere afkrydsningsfeltet **Obligatorisk** ud for felterne, så brugeren skal udfylde dem og dermed undgå en bogføringsfejl senere.
+5. Angiv nødvendige oplysninger om feltet i feltet **Reference**.
+6. Vælg knappen **OK**.
 
 ## <a name="to-export-to-a-template-in-excel"></a>Sådan udlæses til en skabelon i Excel
 Du kan hurtigt oprette en Excel-projektmappe, der skal fungere som en skabelon, der er baseret på strukturen i en eksisterende databasetabel. Derefter kan du bruge skabelonen til at indsamle debitordata i et ensartet format til senere import i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -87,7 +101,7 @@ Du kan nu angive debitordata i Excel-regnearket. Hvis du har eksporteret flere t
 > Følgende fejl kan opstå, når du kører en engelsk version af Excel, men har internationale indstillinger konfigureret for et ikke-engelsk sprog: "Gammelt format eller ugyldig bibliotekstype". Hvis du vil afhjælpe denne fejl, skal du sikre dig, at sprogpakken for det ikke-engelske sprog er installeret.
 
 ## <a name="to-import-from-a-template-in-excel"></a>Sådan importeres fra en skabelon i Excel
-1. I vinduet **Konfig.kladde** skal du vælge handlingen **Indlæs fra skabelon**.
+1. På siden **Konfigurationskladde** skal du vælge handlingen **Indlæs fra skabelon**.
 3. Gå til det skabelonregneark, du har oprettet, og vælg derefter handlingen **Åbn**.
 4. Hvis du vil føje de indsamlede debitordata til databasen, skal du vælge handlingen **Anvend Data**.
 
@@ -117,8 +131,8 @@ Du kan anvende en dataskabelon på enhver post, der er i [!INCLUDE[d365fin](incl
 Følgende procedure er baseret på et nyt debitorkort.  
 
 1. Oprette en debitor Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
-2. I vinduet **Debitorkort** skal du vælge handlingen **Anvend skabelon**.  
-3. I feltet **Debitorskabeloner** skal du vælge én af skabelonerne, og derefter vælge knappen **OK**.  
+2. På siden **Debitorkort** skal du vælge handlingen **Anvend skabelon**.  
+3. På siden **Debitorskabeloner** skal du vælge én af skabelonerne, og derefter vælge knappen **OK**.  
 
 Standardværdierne fra den valgte debitorskabelon indsættes i debitorkortet.
 

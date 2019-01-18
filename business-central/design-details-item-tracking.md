@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 11/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bdf0ab2dc31a9060bb50088e57eece26ee671985
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking"></a>Designoplysninger: Varesporing
@@ -28,7 +28,7 @@ Et varesporingssystem giver en virksomhed mulighed for nem håndtering af serien
 [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)  
 [Designdetaljer: Bogføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md)  
 [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md)  
-[Designoplysninger: Vinduet Varesporingslinjer](design-details-item-tracking-lines-window.md)  
+[Designoplysninger: Siden Varesporingslinjer](design-details-item-tracking-lines-window.md)  
 [Designoplysninger: Tilgængelighed af varesporing](design-details-item-tracking-availability.md)  
 [Designoplysninger: Varesporing og planlægning](design-details-item-tracking-and-planning.md)  
 [Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  

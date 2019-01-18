@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i grundlæggende lageropsætninger
@@ -22,11 +22,11 @@ Du kan undertiden have brug for at flytte varer mellem interne placeringer ikke 
 
 I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfeltet **Tvungen placering** og eventuelt opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, kan du registrere ad hoc-bevægelser uden kildedokumenter på følgende måder:  
 
-- I vinduet **Intern flytning**.  
-- Med vinduet **Vareomposteringskladde**.  
+- På siden **Intern flytning**.  
+- Med siden **Vareomposteringskladde**.  
 
 > [!NOTE]  
->  I avancerede lageropsætninger, dvs. lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, bruges vinduet **Bevægelseskladde** eller **Internt lagerpluk** eller **Internt læg-på-lager** til ad hoc-flytning af varer mellem placeringer.  
+>  I avancerede lageropsætninger, dvs. lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, bruges siden **Bevægelseskladde** eller **Internt lagerpluk** eller **Internt læg-på-lager** til ad hoc-flytning af varer mellem placeringer.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Sådan flyttes varer som en intern overførsel  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intern flytning**, og vælg derefter det relaterede link.  
@@ -36,7 +36,7 @@ I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfelte
     Hvis lokationen er angivet som din standardlokation som lagermedarbejder, indsættes lokationskoden automatisk.  
 4.  I feltet **Til placeringskode** skal du indtaste en kode for den placering, du vil flytte elementet til. Til produktionsformål kunne dette f.eks. være koden for den åbne produktionsplacering som defineret på lokationskort eller i arbejdscenteret.  
 5.  I feltet **Forfaldsdato** skal du indtaste den dato, som bevægelsen skal være udført inden.  
-6.  På oversigtspanelet **Linjer** skal du vælge feltet **Varenr.** for at åbne vinduet **Placeringsindh.oversigt** og vælge den vare, der skal flyttes baseret på dens tilgængelighed på placeringerne. Alternativt kan du vælge handlingen **Hent placeringsindh.** for at udfylde de interne overflytningslinjer på grundlag af dine filtre. Du kan finde flere oplysninger i værktøjstip til handlingen **Hent placeringsindh**.   
+6.  På oversigtspanelet **Linjer** skal du vælge feltet **Varenr.** for at åbne siden **Placeringsindh.oversigt** og vælge den vare, der skal flyttes baseret på dens tilgængelighed på placeringerne. Alternativt kan du vælge handlingen **Hent placeringsindh.** for at udfylde de interne overflytningslinjer på grundlag af dine filtre. Du kan finde flere oplysninger i værktøjstip til handlingen **Hent placeringsindh**.   
 
     Når du har markeret elementet, udfyldes feltet **Fra placeringskode** automatisk i henhold til det valgte placeringsindhold, men du kan ændre det til en anden placering, hvor varen er tilgængelig.  
 
@@ -54,7 +54,7 @@ I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfelte
     > [!NOTE]  
     >  Når du har oprettet lagerflytningen, slettes de interne overførselslinjer.  
 
-    Du udfører resten af ad hoc-bevægelsen i vinduet **Flytning (lager)** på samme måde som i en bevægelse, der er baseret på kildedokumenter. Du kan finde flere oplysninger i f.eks. [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    Du udfører resten af ad hoc-bevægelsen på siden **Flytning (lager)** på samme måde som i en bevægelse, der er baseret på kildedokumenter. Du kan finde flere oplysninger i f.eks. [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Sådan flyttes varer i vareomposteringskladden
 I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af varer ved at ompostere deres placeringskoder. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar](inventory-how-count-adjust-reclassify.md).   

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Lægge varer på lager med Læg-på-lager (lager)
@@ -24,7 +24,7 @@ Hvis lokationen er sat op til at kræve læg-på-lager, men ikke modtagelse, bru
 
 Du kan oprette et læg-på-lager på tre måder:  
 
-- Opret læg-på-lager-aktiviteten i to trin ved først at oprette en lageranmodning fra kildedokumentet, hvilket signalerer over for lagerstedet, at kildedokumentet er klar til at blive lagt på lager. Læg-på-lager-aktiviteten kan derefter oprettes fra vinduet **Læg-på-lager (lager)** på baggrund af kildedokumentet.  
+- Opret læg-på-lager-aktiviteten i to trin ved først at oprette en lageranmodning fra kildedokumentet, hvilket signalerer over for lagerstedet, at kildedokumentet er klar til at blive lagt på lager. Læg-på-lager-aktiviteten kan derefter oprettes fra siden **Læg-på-lager (lager)** på baggrund af kildedokumentet.  
 - Opret læg-på-lager-aktiviteten direkte fra selve kildedokumentet.  
 - Opret læg-på-lager-aktiviteter for mange kildedokumenter samtidig ved hjælp af en kørsel.  
 
@@ -59,13 +59,13 @@ Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette en ny læg-på-
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Sådan oprettes flere læg-på-lager-aktiviteter med en kørsel  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret læg-på-lager/pluk (lager)**, og vælg derefter det relaterede link.  
-2.  Brug felterne **Kildedokument** og **Kildenr.** i oversigtspanelet **Lageranmodning** i vinduet til at filtrere på bestemte typer dokumenter eller rækker af dokumentnumre.  
+2.  Brug felterne **Kildedokument** og **Kildenr.** i oversigtspanelet **Lageranmodning** på anmodningssiden til at filtrere på bestemte typer dokumenter eller rækker af dokumentnumre.  
 3.  I oversigtspanelet **Indstillinger** skal du markere afkrydsningsfeltet **Opret læg-på-lager (lager)**.
 4.  Vælg knappen **OK**. De angivne læg-på-lager-aktiviteter oprettes.
 
 ## <a name="to-record-the-inventory-put-away"></a>Sådan registreres læg-på-lager-aktiviteten  
-1. Åbn et tidligere oprettet læg-på-lager-dokument ved at vælge et i vinduet **Læg-på-lager akt. (lager)**.  
-2. I feltet **Placeringskode** på læg-på-lager-linjerne, foreslås den placering, hvor varerne skal lægges på lager, pr. varens standardplacering. Du kan eventuelt ændre placeringen i dette vindue.  
+1. Åbn et tidligere oprettet læg-på-lager-dokument ved at vælge et på siden **Læg-på-lager akt. (lager)**.  
+2. I feltet **Placeringskode** på læg-på-lager-linjerne, foreslås den placering, hvor varerne skal lægges på lager, pr. varens standardplacering. Du kan eventuelt ændre placeringen på denne side.  
 3. Udfør læg-på-lager-aktiviteten, og angiv oplysningerne for den faktiske mængde, der er lagt på lager, i feltet **Håndteringsantal**.
 
     Hvis det er nødvendigt at placere varerne for en enkelt linje på mere end én placering, f.eks. fordi den angivne placering er fuld, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Du kan finde flere oplysninger om opdeling af linjer i [Opdele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md).  

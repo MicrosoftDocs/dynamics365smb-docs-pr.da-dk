@@ -11,10 +11,10 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 065f6cc5dc11af1a9cddf2b3eed2b20e99912960
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 79e5a1e34fbd6c119be52deec60bba494fdd2671
 ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a>Overvåge jobstatus og -udførelse
@@ -40,7 +40,7 @@ Du kan oprette en sagsmetode for igangværende arbejde, der afspejler behovet i 
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sags-VIA-metoder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Luk vinduet.   
+3. Luk siden.   
 4. Hvis du gøre denne nye metode til standard, skal vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Sagsopsætning** og derefter vælge det relaterede link.  
 5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.
 
@@ -49,14 +49,14 @@ Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arb
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Oprette sager](projects-how-create-jobs.md).  
-3. I vinduet **Sagskort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
+3. På siden **Sagskort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
 
 ## <a name="to-calculate-wip"></a>Sådan beregnes VIA
 Du kan fastlægge det beløb for igangværende arbejde, der skal bogføres til balancekonti ved periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Beregn VIA for sag**.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Beregn VIA - finansafstemning**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Beregn igangværende arbejde**.
-3. I vinduet **Beregn VIA for sag** skal du udfylde felterne efter behov.
+3. På siden **Beregn VIA for sag** skal du udfylde felterne efter behov.
 4. Vælg knappen **OK**.  
 
 > [!NOTE]  
@@ -66,7 +66,7 @@ Du kan fastlægge det beløb for igangværende arbejde, der skal bogføres til b
 Når du har beregnet igangværende arbejde, kan du bogføre det til balancekontiene for periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Bogfør VIA for sag**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogfør VIA - finansafstemning**, og vælg derefter det relaterede link.  
-2. I vinduet **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
+2. På siden **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
 3. Vælg knappen **OK**.
 
 ## <a name="to-view-job-usage-estimates-and-post-updates"></a>Sådan vises sagsforbrugsestimater og bogføringsopdateringer
@@ -79,7 +79,7 @@ På denne måde kan du holde styr på og sammenligne dine oprindelige estimater 
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
 2. Vælg en relevant sagskladde, og vælg derefter handlingen **Beregn resterede forbrug**.  
-3. I vinduet **Beregn resterende forbrug for sag** skal du angive dokumentnummeret og bogføringsdatoen, der skal indsættes i kladden, og derefter vælge knappen **OK**.  
+3. På siden **Beregn resterende forbrug for sag** skal du angive dokumentnummeret og bogføringsdatoen, der skal indsættes i kladden, og derefter vælge knappen **OK**.  
 4. Opdater kladden med eventuelle nødvendige ændringer.  
 5. Vælg **Bogfør**.
 
@@ -89,7 +89,7 @@ Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende numme
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagsjournaler**, og vælg derefter det relaterede link.
 2. Vælg en relevant journal, og vælg derefter handlingen **Sagsposter**.
 
-I vinduet **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.  
+På siden **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.  
 
 ## <a name="see-also"></a>Se også
 [Administrere projekter](projects-manage-projects.md)
