@@ -1,0 +1,52 @@
+---
+title: "Sådan oprettes rammemontageordrer | Microsoft Docs"
+description: "Hvis feltet **Genbestillingssystem** på varekortet indeholder **Montage**, er standardmetoden til at levere varen at montere den fra definerede komponenter og potentielt af en ressource, der er defineret."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: kit, kitting
+ms.date: 12/20/2018
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 8796ccf6ce73ded327fad35573a2268e249fb7a7
+ms.contentlocale: da-dk
+ms.lasthandoff: 12/27/2018
+
+---
+# <a name="create-blanket-assembly-orders"></a><span data-ttu-id="3c047-103">Oprette rammemontageordrer</span><span class="sxs-lookup"><span data-stu-id="3c047-103">Create Blanket Assembly Orders</span></span>
+<span data-ttu-id="3c047-104">Du kan bruge montagestyring til at tilpasse et montageelement på anmodning af en debitor under salgsprocessen.</span><span class="sxs-lookup"><span data-stu-id="3c047-104">You can use assembly management to customize an assembly item to a customer’s request during the sales process.</span></span> <span data-ttu-id="3c047-105">Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).</span><span class="sxs-lookup"><span data-stu-id="3c047-105">For more information, see [Sell Items Assembled to Order](assembly-how-to-sell-items-assembled-to-order.md).</span></span>  
+
+ <span data-ttu-id="3c047-106">Som med enhver anden type emne, kan du også oprette rammesalgsordrer til tilpassede montagevarer før du regelmæssigt foretager faktiske salgsordrer i overensstemmelse med rammeordreaftale.</span><span class="sxs-lookup"><span data-stu-id="3c047-106">As with any other type of item, you can also create blanket sales orders for customized assembly items before periodically making the actual sales orders according to the blanket order agreement.</span></span> <span data-ttu-id="3c047-107">Denne proces omfatter flere ekstra trin, når du sammenligner med oprettelse af en normal rammesalgsordre, og det bruger en variation af tilknyttet montageordre, som er en montagerammeordre.</span><span class="sxs-lookup"><span data-stu-id="3c047-107">This process involves several extra steps when you compare it to creating a regular blanket sales order, and it uses a variation of a linked assembly order, which is a blanket assembly order.</span></span>
+
+> [!NOTE]  
+>  <span data-ttu-id="3c047-108">Ligesom alle rammeordrer forecastes mængder på montagerammeordrer kun og er ikke operationelle, før de konverteres til faktiske montageordrer.</span><span class="sxs-lookup"><span data-stu-id="3c047-108">Like all blanket orders, quantities on assembly blanket orders are only forecasts and are not operational until they are converted to actual assembly orders.</span></span> <span data-ttu-id="3c047-109">Ordrefunktionalitet, som f.eks. disponeringsberegning, reservation og varesporing , er derfor ikke aktiv på rammemontageordrer.</span><span class="sxs-lookup"><span data-stu-id="3c047-109">Therefore, order functionality, such as availability calculation, reservation, and item tracking, is not active on blanket assembly orders.</span></span>  
+
+## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a><span data-ttu-id="3c047-110">Sådan oprettes en rammemontageordre til en montage\-til\-ordre-vare</span><span class="sxs-lookup"><span data-stu-id="3c047-110">To create a blanket assembly order for an assemble\-to\-order item</span></span>  
+1. <span data-ttu-id="3c047-111">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammesalgsordrer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="3c047-111">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Blanket Sales Orders**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="3c047-112">Opret en ny rammesalgsordre med en linje til et montageelement.</span><span class="sxs-lookup"><span data-stu-id="3c047-112">Create a new blanket sales order with one line for an assembly item.</span></span> <span data-ttu-id="3c047-113">Du kan finde flere oplysninger i [Oprette rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md).</span><span class="sxs-lookup"><span data-stu-id="3c047-113">For more information, see [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md).</span></span>  
+3. <span data-ttu-id="3c047-114">Indtast den samlede mængde i feltet **Antal til montage til ordre** på rammemontageordrelinjen.</span><span class="sxs-lookup"><span data-stu-id="3c047-114">In the **Qty. to Assemble to Order** field on the blanket assembly order line, enter the full quantity.</span></span>
+
+    > [!NOTE]  
+    >  <span data-ttu-id="3c047-115">Du skal ikke oprette rammeordreaftaler for en delmængde.</span><span class="sxs-lookup"><span data-stu-id="3c047-115">You should not create blanket order agreements for a partial quantity.</span></span> <span data-ttu-id="3c047-116">Derfor skal du angive det samme antal, som du har angivet i feltet **Antal** på rammeordrens salgsordrelinje.</span><span class="sxs-lookup"><span data-stu-id="3c047-116">Therefore, you must enter the same quantity that you entered in the **Quantity** field on the blanket sales order line.</span></span>  
+
+4. <span data-ttu-id="3c047-117">Vælg handlingen **Montage til ordre**, og vælg derefter handlingen **Montage til ordre-linjer**.</span><span class="sxs-lookup"><span data-stu-id="3c047-117">Choose the **Assemble to Order** action, and then choose the **Assemble-to-Order Lines** action.</span></span> <span data-ttu-id="3c047-118">Du kan også vælge feltet **Antal til montage til ordre** på linjen.</span><span class="sxs-lookup"><span data-stu-id="3c047-118">Alternatively, choose the **Qty. to Assemble to Order)** field on the line.</span></span>  
+5. <span data-ttu-id="3c047-119">På siden **Montage til ordre-linjer** kan du gennemse eller ændre linjerne til montageordren efter den rammeordreaftale, du har lavet med debitor.</span><span class="sxs-lookup"><span data-stu-id="3c047-119">On the **Assemble-to-Order Lines** page, review or modify the assembly order lines according to the blanket order agreement that you have made with the customer.</span></span> <span data-ttu-id="3c047-120">Hvis du vil se flere oplysninger, kan du vælge handlingen **Vis dokument** for at åbne den samlede rammemontageordre.</span><span class="sxs-lookup"><span data-stu-id="3c047-120">If you want to view more information, choose the **Show Document** action to open the complete blanket assembly order.</span></span> <span data-ttu-id="3c047-121">Du kan ikke ændre indholdet af de fleste felter, og du kan ikke bogføre.</span><span class="sxs-lookup"><span data-stu-id="3c047-121">You cannot change the contents of most fields, and you cannot post.</span></span>  
+6. <span data-ttu-id="3c047-122">Når du har reguleret montageordrelinjerne i overensstemmelse med rammeordreaftalen, skal du lukke siden **Montage til ordre-linjer** for at vende tilbage til siden **Rammesalgsordre**.</span><span class="sxs-lookup"><span data-stu-id="3c047-122">When you have adjusted the assembly order lines according to the blanket order agreement, close the **Assemble-to-Order Lines** page to return to the **Blanket Sales Order** page.</span></span>  
+7. <span data-ttu-id="3c047-123">Når debitor anmoder om at oprette en salgsordre, der er baseret på aftalte rammesalgsordre, skal du oprette en salgsordre for det aftalte montageelement eller elementer.</span><span class="sxs-lookup"><span data-stu-id="3c047-123">When the customer requests to create a sales order based on the agreed blanket sales order, create a sales order for the agreed assembly item or items.</span></span> <span data-ttu-id="3c047-124">Du kan finde flere oplysninger i [Oprette rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md).</span><span class="sxs-lookup"><span data-stu-id="3c047-124">For more information, see [Create Blanket Sales Orders](sales-how-to-create-blanket-sales-orders.md).</span></span>
+
+<span data-ttu-id="3c047-125">Den sammenkædede montagerammeordre og eventuelle tilpasninger er knyttet til den pågældende nye salgsordre for at forberede til montage for varen eller de varer, der skal sælges.</span><span class="sxs-lookup"><span data-stu-id="3c047-125">The linked blanket assembly order and any customizations are linked to that new sales order to prepare for assembly of the item or items to be sold.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="3c047-126">Se også</span><span class="sxs-lookup"><span data-stu-id="3c047-126">See Also</span></span>
+[<span data-ttu-id="3c047-127">Oprette rammesalgsordrer</span><span class="sxs-lookup"><span data-stu-id="3c047-127">Create Blanket Sales Orders</span></span>](sales-how-to-create-blanket-sales-orders.md)  
+[<span data-ttu-id="3c047-128">Montagestyring</span><span class="sxs-lookup"><span data-stu-id="3c047-128">Assembly Management</span></span>](assembly-assemble-items.md)  
+[<span data-ttu-id="3c047-129">Arbejde med styklister</span><span class="sxs-lookup"><span data-stu-id="3c047-129">Work with Bills of Material</span></span>](inventory-how-work-BOMs.md)  
+[<span data-ttu-id="3c047-130">Lagerbeholdning</span><span class="sxs-lookup"><span data-stu-id="3c047-130">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="3c047-131">Designoplysninger: Logistik</span><span class="sxs-lookup"><span data-stu-id="3c047-131">Design Details: Warehouse Management</span></span>](design-details-warehouse-management.md)  
+<span data-ttu-id="3c047-132">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="3c047-132">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+
