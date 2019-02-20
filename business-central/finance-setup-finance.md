@@ -3,20 +3,20 @@ title: Konfigurere finansielle processer | Microsoft Docs
 description: "Få mere at vide om opgaver til konfiguration af finans i din virksomhed, der dækker alle dine regnskabs-, revisions- og bogholderibehov."
 services: project-madeira
 documentationcenter: 
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 11/15/2018
-ms.author: edupont
+ms.date: 12/19/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: c52121b89a08b78750c8b46377b2bf47c7a948df
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 377e7f8eb3cb78adf68e3f4167a215d8f027f972
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
@@ -36,6 +36,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)|
 |Forbered håndtering af urealiseret moms i forbindelse med bogføringsmetoder, der er baseret på kontanter.|[Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter](finance-setup-unrealized-vat.md)|
 | Angive salgs- og købsfunktioner til at håndtere betalinger i fremmed valuta.|[Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
+|Definere en eller flere ekstra valutaer, så beløbene automatisk rapporteres i både RV og den ekstra rapporteringsvaluta i hver finanspost og i andre poster.|[Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)|
+|Reguler de ekstra valutaer med jævne mellemrum for at afhjælpe varierende valutakurser.|[Opdatere valutakurser](finance-how-update-currencies.md)|
 |Definer flere rentesatser, der skal bruges til forskellige perioder for forsinkede betalinger i handelstransaktioner.|[Angive flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md)|
 |Forbered automatisk afrunding af fakturabeløb, når du opretter fakturaer.|[Opsætning af fakturaafrunding](finance-set-up-invoice-rounding.md)|
 | Føje nye konti til den eksisterende kontoplan. |[Konfigurere kontoplanen](finance-setup-chart-accounts.md) |
@@ -43,6 +45,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Aktivere fakturering af en debitor, der ikke er sat op i systemet.|[Konfigurere kontantkunder](finance-how-to-set-up-cash-customers.md)|
 | Oprette Intrastatrapportering og sende rapporten til en myndighed | [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
 |Forbered rapporten Konsolideret råbalance i rollecenteret Regnskabsmedarbejder for at få et økonomisk overblik på tværs af flere regnskaber.|[Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)|
+|Kontrollér, at en post i en finanskladde knyttes til flere forskellige konti, når du bogfører kladden, enten efter antal, procent eller beløb.|[Bruge fordelingsnøgler i finanskladder](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

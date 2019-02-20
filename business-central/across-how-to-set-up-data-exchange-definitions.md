@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
@@ -50,7 +50,7 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
     |---------------------------------|---------------------------------------|  
     |**Kode**|Angiv en kode, der identificerer dataudvekslingsdefinitionen.|  
     |**Navn**|Angiv et navn for dataudvekslingsdefinitionen.|  
-    |**Filtype**|Angiv hvilken filtype, som dataudvekslingsdefinitionen bruges til. Du kan vælge mellem tre filtyper:<br /><br /> -   **XML**: Lagdelte strenge bestående af indhold og markeringer omgivet af koder, der angiver funktionen.<br />-   **Variabeltekst**: Poster har variabel længde og adskilles af et tegn, f.eks komma eller semi\-kolon. Også kendt som *afgrænset fil*.<br />-   **Fast tekst**: Poster har samme længde ved brug af numeriske tegn, og hver post er placeret på en separat linje. Også kendt som *fil med fast bredde*.|  
+    |**Filtype**|Angiv hvilken filtype, som dataudvekslingsdefinitionen bruges til. Du kan vælge mellem fire filtyper:<br /><br /> -   **XML**: Lagdelte strenge bestående af indhold og markeringer omgivet af koder, der angiver funktionen.<br />-   **Variabeltekst**: Poster har variabel længde og adskilles af et tegn, f.eks komma eller semi\-kolon. Også kendt som *afgrænset fil*.<br />-   **Fast tekst**: Poster har samme længde ved brug af numeriske tegn, og hver post er placeret på en separat linje. Også kendt som *fil med fast bredde*.<br />- **JSON**: Lagdelte strenge bestående af indhold i JavaScript.|  
     |**Type**|Angiv, hvilken type forretningsaktiviteter dataudvekslingsdefinitionen bruges til, f.eks. **eksport af betaling**.|  
     |**Codeunit til datahåndtering**|Angiv den kodeenhed, der overfører data til og fra tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Valideringscodeunit**|Angiv den kodeenhed, der bruges til at validere data mod foruddefinerede forretningsregler.|  

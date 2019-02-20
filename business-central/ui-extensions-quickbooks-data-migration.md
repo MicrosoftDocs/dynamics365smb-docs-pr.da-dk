@@ -11,10 +11,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -45,10 +45,14 @@ Det er en vigtig del af overførslen at angive de konti, transaktioner skal over
 - Salget af varer eller servicer til debitorer  
 - Køb af varer eller servicer fra kreditorer  
 - Ændringer i finansbogholderiet  
-Business Central kræver, at finanskonti har kontonumre tilknyttet. Sørg for, at kontonumre er tildelt til kontiene i QuickBooks Online.
-Hvis der er transaktioner i QuickBooks Online, der har momsbeløb, du skal oprette en momskonto for dine skatteregioner i Business Central, før du kan bogføre transaktioner.
 
-For at få data ud af programmet QuickBooks Desktop skal du hente værktøjet Microsoft-dataeksportværktøjet.  Instruktioner til værktøjet findes i dataoverførselsguiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Værktøjet opretter forbindelse til programmet QuickBooks og eksportere de relevante oplysninger til en *.zip-fil.  
+Business Central kræver, at finanskonti har kontonumre tilknyttet. Sørg for, at kontonumre er tildelt til kontiene i QuickBooks.
+Hvis der er transaktioner i QuickBooks, der har momsbeløb, du skal oprette en momskonto for dine skatteregioner i Business Central, før du kan bogføre transaktioner.
+
+For at få data ud af programmet QuickBooks Desktop skal du hente værktøjet Microsoft-dataeksportværktøjet.  Instruktioner til værktøjet findes i dataoverførselsguiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Værktøjet opretter forbindelse til programmet QuickBooks og eksportere de relevante oplysninger til en .zip-fil.  
+
+> [!NOTE]
+> I øjeblikket fungerer dataeksportværktøjet kun sammen med QuickBooks 2017 og 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Sådan finder du udvidelsen Overførsel af QuickBooks-data
 Udvidelsen Overførsel af QuickBooks-data er installeret og klar til brug som en integreret del af den assisterende opsætningsvejledning til dataoverførsel. Hvis du er klar til at komme i gang nu og har eksporteret dine data fra QuickBooks, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Assisteret opsætning** og derefter vælge det relaterede link. Vælg **Overflyt forretningsdata**, og følg derefter trinnene i vejledningen.  

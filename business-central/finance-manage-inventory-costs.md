@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/15/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: d24998281a7e718c5f4ae648eba1a338512eefcb
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: d5f5885055aa1094e4172d4a4e327ff1e940f799
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Administrere lageromkostninger
@@ -29,6 +29,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
 |Læs forskellige begrebsmæssige oplysninger for at forstå de principper og definitioner, der styrer funktionaliteten for lageromkostningsregnskab i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Om lagerkostmetode](finance-learn-about-costing.md)|  
+|Få mere at vide om alle mekanismerne i kostsystemet.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|
 |Læse, hvordan lagerperioder hjælper en virksomhed med at styre lagerværdi over tid, hvis der defineres kortere perioder, hvor der kan være lukket for bogføringer, efterhånden som regnskabsåret skrider frem.|[Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)|
 |Læse om årsagen til, at standardomkostninger ofte bruges af produktionsvirksomheder som værdigrundlag for komponenter og varer.|[Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)|
 |Konfigurere lagerperioder, kostmetoder og afrundingsmetoder.|[Opsætte lagerværdi og kostprisberegning](finance-set-up-inventory-valuation-and-costing.md)|
@@ -38,7 +39,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Opdater regelmæssigt standardkostprisen for komponenter i montage eller produktionsstyklister, og akkumuler de nye omkostninger til den overordnede vare.|[Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)|
 |Se og rediger manuelt visse vareudligningsposter, der oprettes automatisk under lagerposteringer.|[Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)|
 |Udføre periodeafslutningskontrol og rapporteringsopgaver, f.eks. beregning af lagerværdi og bogføring af omkostninger i finansposterne.|[Rapportere omkostninger og afstemme med regnskabet](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Få mere at vide om alle mekanismerne i kostsystemet.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Se også  
  [Finans](finance.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: ca0648c3c3ccbfb02c910a063e6ac199e7b4b6d4
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="create-gl-budgets"></a>Oprette finansbudgetter
@@ -42,9 +42,16 @@ I Omkostningsberegning arbejder du med omkostningsbudgetter på samme måde. Du 
 7. Gentag trin 5 og 6, indtil du har indtastet alle budgetbeløbene.  
 
 > [!NOTE]  
->  I oversigtspanelet **Filtre** kan du filtrere budgetoplysningerne efter de budgetdimensioner, du har oprettet under budgetnavnet.   
+>  I oversigtspanelet **Filtre** kan du filtrere budgetoplysningerne efter de budgetdimensioner, du har oprettet under budgetnavnet.
+
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Eksportere og importere finansbudgetter med Excel
+Som for praktisk talt alle andre sider kan du eksportere data på budgetsider til Excel til yderligere behandling eller analyse. Du kan finde flere oplysninger under [Eksportere forretningsdata til Excel](about-export-data.md).
+
+> [!NOTE]
+> Den kontoplanen, som finansbudgetter er baseret på, har linjer kontotypen Overskrift, der indeholder summen af linjerne nedenunder. Når du eksporterer et finansbudget, eksporteres data på alle linjer uanset kontotypen. Det er dog kun data på linjer med kontotypen Bogføring, der kan importeres tilbage. Tilsvarende: <br /><br /> **Når du importerer et finansbudget, slettes alle de værdier, der findes på overskriftslinjer.** <br /><br /> Dette sker for at undgå forkerte totaler efter import af data, der er oprettet eller redigeret i Excel.<br /><br /> **Scenarie**: Du ved, at de nye budgetterede lønomkostninger vil være RV 1.200.000. Du vil tillade lønafdelingens budget for de tre specifikke linjer (af kontotypen Bogføring) for fuldtidsmedarbejdere, deltidsmedarbejdere og midlertidig hjælp. De tre linjer er grupperet under overskriftslinjen Løn.<br /><br />Du indtaster 1.200.000 i overskriftslinjen, eksporterer budgettet til Excel og sender det derefter til lønafdelingen og beder dem om at fordele RV 1.200.000.<br /><br /> Lønafdelingen fordeler beløbet på de tre bogføringskonti. Når du importerer tilbage i finansbudgettet, udfyldes de tre konti med de nye Excel-data, der tilsammen giver RV 1.200.000, og overskriftslinjen er tom.
 
 ## <a name="see-also"></a>Se også
+[Eksportere forretningsdata til Excel](about-export-data.md)  
 [Finans](finance.md)  
 [Business Intelligence](bi.md)  
 [Konfigurere Finans](finance-setup-finance.md)  

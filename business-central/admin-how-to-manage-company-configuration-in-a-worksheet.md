@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Administrere virksomhedskonfigurationen i et regneark
@@ -107,6 +107,22 @@ Når du har føjet alle de nødvendige tabeller til en konfigurationspakke, kan 
 
     > [!NOTE]  
     >  Tabellerne forbliver i pakken, selvom de slettes fra regnearket.  
+
+## <a name="to-review-and-customize-existing-database-data"></a>Sådan gennemgår og tilpasser du eksisterende databasedata
+Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få vist og tilpasse tilgængelige databasedata, så de passer til debitorens behov. Databasetabellen skal have en tilknyttet side.  
+
+## <a name="to-customize-data-in-the-database"></a>Tilpasse data i databasen  
+
+1.  På siden **Konfigurationskladde** skal du identificere de tabeller, hvis data du ønsker at se eller tilpasse.  
+
+    > [!NOTE]  
+    >  Sørg for, at hver enkelt tabel har fået tildelt et side-id. For standardtabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] angives værdien automatisk. For brugerdefinerede tabeller skal du angive id'et.  
+
+2.  Vælg handlingen **Databasedata**.  
+
+     Siden [!INCLUDE[d365fin](includes/d365fin_md.md)] for siden åbnes.  
+
+3.  Gennemse de tilgængelige oplysninger. Rediger dem efter behov ved at slette poster, der ikke er relevante, eller ved tilføje nye.
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere virksomhedskonfiguration](admin-set-up-company-configuration.md)  

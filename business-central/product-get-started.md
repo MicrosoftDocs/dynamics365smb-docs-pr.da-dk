@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduktion til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -36,7 +36,7 @@ Du kan finde hurtige og nyttige tip i:
 
 Du kan finde flere oplysninger i [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](across-business-functionality.md). Du kan få et overblik over aktuelle funktioner, og hvad der kommer senere, i vores oversigt på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](across-business-functionality.md). Hvis du vil have en oversigt over nuværende og kommende funktioner, skal du kigge nærmere på vores produktbemærkninger på [Produktbemærkninger til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Rollecentrene
 Siden Rollecenter er baseret på et rollecentreret design, som giver hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige rollecentre ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).
@@ -69,9 +69,17 @@ Overvejer du at tegne abonnement? Du kan nemt gå fra demonstrationsregnskabet o
 
 Hvis du vil oprette et regnskab for at afprøve ting, skal du gå til menuen **Indstillinger** i øverste højre hjørne og ændre virksomheden til **Min virksomhed**. Log af [!INCLUDE[d365fin](includes/d365fin_md.md)], og log på igen for at anvende ændringerne. En assisteret opsætningsvejledning hjælper dig med at angive basisoplysninger om virksomheden. Når du har gjort det, skal du i rollecenteret vælge handlingen **Assisteret opsætning**.  
 
-Du kan også finde en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [her](https://www.microsoft.com/en-us/solution-providers/search).
+Du kan også finde en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
 
-## <a name="ready-to-subscribe"></a>Er du klar til at tegne abonnement?
+## <a name="getting-answers-to-questions"></a>Få svar på spørgsmål
+
+Hvis du ikke er sikker på, hvordan du gør noget i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du forhåbentlig finde svaret enten ved at læse værktøjstip til det felt, som du er usikker på, eller ved at læse det indhold, som åbnes med linket *Få mere at vide* i et værktøjstip. Du kan også få dokumentationen ved at vælge det relaterede link i menuen Hjælp.  
+
+Alle felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] beskrives i værktøjstip. Du kan få adgang til værktøjstip ved at vælge navnet på feltet. På en side som f.eks. **Debitorkort** vælger du blot navnet på feltet for at læse værktøjstippet. På en liste, f.eks. listen **Debitorer**, eller linjer i et dokument, f.eks. en salgsordre, skal du vælge rullemenuen til højre for navnet på kolonnen og derefter vælge menupunktet **Hvad er det?**.  
+
+Hvis du har flere spørgsmål, anbefaler vi, at du spørger communityet eller kontakter din videresalgspartner. Du kan finde flere oplysninger i [Hvad skal jeg gøre, hvis jeg har spørgsmål?](across-faq.md#where-do-i-go-if-i-have-questions).  
+
+## <a name="ready-to-subscribe"></a>Klar til at abonnere?
 Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter at abonnere, kan du finde en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [her](https://www.microsoft.com/en-us/solution-providers/search). Du kan også kontakte [[!INCLUDE[d365fin](includes/d365fin_md.md)]-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andre Dynamics 365-apps
@@ -86,7 +94,7 @@ Hvis du er revisor, kan du tilmelde dig [!INCLUDE[d365acc_long](includes/d365acc
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som min virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobilenhed](install-mobile-app.md)  
 [Dokumentation til Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Produktbemærkninger til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

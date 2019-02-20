@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: ac2582e48d03738974d5db51841e1efdf4c0a316
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbejde med rammesalgsordrer
@@ -27,7 +27,7 @@ I rammeordren kan hver enkelt leverance oprettes som en ordrelinje, der derefter
 Det kan f.eks. være relevant at bruge en rammesalgsordre, når en kunder ringer og bestiller 1000 enheder af en vare, som skal leveres i portioner på 250 enheder en gang om ugen i løbet af den næste måned.
 
 > [!NOTE]
-> Rammekøbsordrer fungerer på samme måde som rammesalgsordrer. Denne dokumentation dækker ikke rammekøbsordrer.
+> Rammekøbsordrer fungerer på samme måde som rammesalgsordrer. Denne dokumentation dækker kun rammesalgsordrer.
 
 ## <a name="to-create-a-blanket-sales-order"></a>Sådan oprettes en rammesalgsordre.  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
@@ -38,7 +38,7 @@ Det kan f.eks. være relevant at bruge en rammesalgsordre, når en kunder ringer
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Sådan oprettes en salgsordre med udgangspunkt i en rammesalgsordre  
 
-1.  Når du skal oprette en ordre til en af linjerne i rammemontageordren, skal du fjerne antallet i feltet **Lever (antal)** på alle de linjer, som IKKE skal leveres på nuværende tidspunkt.  
+1.  Når du skal oprette en ordre til en af linjerne i rammesalgsordren, skal du fjerne antallet i feltet **Lever (antal)** på alle de linjer, som ikke skal leveres på nuværende tidspunkt.  
 2.  Når du er klar til at oprette ordrer, skal du vælge handlingen **Lav ordre** og derefter vælge **Ja**. Der vises en meddelelse med besked om, at rammeordren har fået tildelt et ordrenummer. Bemærk, at rammeordren ikke er slettet.  
 3.  Vælg knappen **OK**.  
 4.  Hvis du vil se resultatet af de foregående trin, skal du vælge handlingen **Linje**, vælge handlingen **Ikkebogførte linjer** og derefter vælge handlingen **Ordrer**.  
@@ -55,17 +55,17 @@ Følgende gælder for salgsordrer, når de er oprettet ud fra rammesalgsordrer:
 - Den fakturerede rammesalgsordre bliver liggende i systemet, indtil den slettes, enten ved sletning af bestemte rammesalgsordrer eller ved at køre kørslen **Slet fakturerede rammesalgsordrer**.  
 - Hvis en kunde også er registreret som kontakt i modulet Marketing, og du har angivet en interaktionsskabelonkode for rammesalgsordrer på siden **Marketingopsætning**, registreres der en interaktion i tabellen Interaktionslogpost, når du vælger **Udskriv** for at udskrive rammesalgsordrerne.
 
-## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Sådan får du vist status på en rammekøbsordre  
-Du kan se den aktuelle status for en rammesalgsordre på siden **Købsordrestatistik**. Dette kan være relevant, når du begynder at fakturere den ordre, der er oprettet fra rammekøbsordren.  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Sådan vises en rammesalgsordres status  
+Du kan se den aktuelle status for en rammesalgsordre på siden **Statistik over rammesalgsordrer**. Dette kan være relevant, når du begynder at fakturere den ordre, der er oprettet fra rammesalgsordren.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammekøbsordrer**, og vælg derefter det relaterede link.  
-2.  Vælg en rammekøbsordre, og vælg derefter handlingen **Statistik**.  
-3.  I oversigtspanelet **Generelt** på siden **rammekøbsordrestatistik** kan du se en oversigt med oplysninger om hele ordren baseret på den samlede mængde i felterne **Antal** på rammekøbsordrelinjerne.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
+2.  Vælg en rammesalgsordre, og vælg derefter handlingen **Statistik**.  
+3.  I oversigtspanelet **Generelt** på siden **Statistik over rammesalgsordrer** kan du se en oversigt med oplysninger om hele ordren baseret på den samlede mængde i felterne **Antal** på rammesalgsordrelinjerne.  
 
-    - I oversigtspanelet **Fakturering** kan du se en oversigt med oplysninger om hele ordren baseret på den samlede mængde i felterne **Antal** på fakturarammeordrelinjerne.  
-    - I oversigtspanelet **Afsendelse** kan du se en oversigt med oplysninger baseret på den samlede mængde i felterne **Antal** der skal modtages på rammekøbsordrelinjerne.  
-    - I oversigtspanelet **Forudbetaling** kan du se en oversigt med oplysninger om alle forudbetalte beløb.  
-    - Oversigtspanelet **Kreditor** indeholder forskellige stamoplysninger om kreditoren.    
+- I oversigtspanelet **Fakturering** kan du se en oversigt med oplysninger om hele ordren baseret på den samlede mængde i felterne **Fakturer antal** på rammesalgsordrelinjerne.  
+- I oversigtspanelet **Afsendelse** kan du se en oversigt med oplysninger baseret på den samlede mængde i felterne **Modtag (antal)** på rammesalgsordrelinjerne.  
+- I oversigtspanelet **Forudbetaling** kan du se en oversigt med oplysninger om alle forudbetalte beløb.  
+- Oversigtspanelet **Kreditor** indeholder forskellige stamoplysninger om kreditoren.    
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Sådan vises ikke-bogførte og bogførte rammesalgsordrelinjer   
 Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert andet salgsbilag bevares efter bogføring som en liste over bogførte og ikke-bogførte salgsordrefakturalinjer.  
@@ -74,56 +74,27 @@ Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert
 2. Åbn den rammesalgsordre, du ønsker at se.
 3. Du kan få vist poster, der ikke er bogført, ved at vælge linjen, vælge handlingen **Linje** og derefter vælge handlingen **Ikkebogførte linjer**. Vælg en af følgende indstillinger.  
 
-    <table>
-    <tr>
-    <th>Indstilling</th>
-    <th>Beskrivelse</th>
-    </tr>
-    <tr>
-    <td>**Ordrer**</td>
-    <td>Angiver åbne ordrer med tilknytning til den valgte linje.</td>
-    </tr>
-    <tr>
-    <td>**Fakturaer**</td>
-    <td>Angiver åbne fakturaer, der har været tilknyttet den valgte linje. Udestående fakturaer knyttes manuelt til en rammeordre, når du angiver rammeordrenummeret på salgsfakturalinjen.</td>
-    </tr>
-    <tr>
-    <td>**Returvareordrer**</td>
-    <td>Angiver åbne returvareordrer, der har været tilknyttet den valgte linje.</td>
-    </tr>
-    <tr>
-    <td>**Kreditnotaer**</td>
-    <td>Angiver åbne kreditnotaer, der har været tilknyttet den valgte linje.</td>
-    </tr>
-    </table>
+    |Indstilling|Beskrivelse|
+    |--|--|
+    |**Ordrer**|Angiver åbne ordrer med tilknytning til den valgte linje.|
+    |**Fakturaer**|Angiver åbne fakturaer, der har været tilknyttet den valgte linje. Udestående fakturaer knyttes manuelt til en rammeordre, når du angiver rammeordrenummeret på salgsfakturalinjen.|
+    |**Returvareordrer**|Angiver åbne returvareordrer, der har været tilknyttet den valgte linje.|
+    |**Kreditnotaer**|Angiver åbne kreditnotaer, der har været tilknyttet den valgte linje.|
+
 4. Du kan få vist bogførte poster ved at vælge linjen, vælge handlingen **Linje** og derefter vælge handlingen **Bogførte linjer**. Vælg en af følgende indstillinger.  
 
-    <table>
-    <tr>
-    <th>Indstilling</th>
-    <th>Beskrivelse</th>
-    </tr>
-    <tr>
-    <td>**Leverancer**</td>
-    <td>Bogførte leverancer med tilknytning til den valgte linje.</td>
-    </tr>
-    <tr>
-    <td>**Fakturaer**</td>
-    <td>Bogførte fakturaer med tilknytning til den valgte linje.</td>
-    </tr>
-    <tr>
-    <td>**Returvaremodtagelse**</td>
-    <td>Bogførte returvaremodtagelser med tilknytning til den valgte linje.</td>
-    </tr>
-    <tr>
-    <td>**Kreditnotaer**</td>
-    <td>Bogførte kreditnotaer med tilknytning til den valgte linje.</td>
-    </tr>
-    </table>
+    |Indstilling|Beskrivelse|
+    |---|----|
+    |**Leverancer**|Bogførte leverancer med tilknytning til den valgte linje.|
+    |**Fakturaer**|Bogførte fakturaer med tilknytning til den valgte linje.|
+    |**Returvaremodtagelse**|Bogførte returvaremodtagelser med tilknytning til den valgte linje.|
+    |**Kreditnotaer**|Bogførte kreditnotaer med tilknytning til den valgte linje.|
+
 5. På siden **Salgslinjer** skal du vælge handlingen **Vis dokument** for at få vist posten.
 
 ## <a name="see-also"></a>Se også
-[Salg](sales-manage-sales.md)  
+[Salg](sales-manage-sales.md)
+[Oprette rammemontageordrer](assembly-how-to-create-blanket-assembly-orders.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

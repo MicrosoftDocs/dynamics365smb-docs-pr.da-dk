@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4ce03eb7a3685f53869795ded646ef6917a1730a
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: f40c0b422bfde2d3a186b4458c3780932934d497
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="assembly-management"></a>Montagestyring
@@ -43,6 +43,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Sælg montageelementer, der ikke er tilgængelige i øjeblikket, ved at oprette en tilknyttet montageordre for at levere den fulde eller delvise salgsordremængde.|[Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md)|
 |Når nogle montage til ordre-elementer allerede findes i lageret, kan du fratrække mængden fra montageordren og reservere den fra lageret.|[Sælge lagervarer i montage til ordre-forløb](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |Når du sælger montageelementer fra lageret, og alle elementer ikke er tilgængelige, kan du starte en montageordre til automatisk at levere en del af eller hele salgsordremængden.|[Sælge montage til ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Oprette tilpassede montageelementer til rammesalgsordrer, før du regelmæssigt opretter faktiske salgsordrer i overensstemmelse med rammeordreaftale.|[Oprette rammemontageordrer](assembly-how-to-create-blanket-assembly-orders.md)|
 |Annuller en bogført montageordre, for eksempel fordi ordren er bogført med fejl, der skal rettes.|[Fortryde bogføring af montage](assembly-how-to-undo-assembly-posting.md)|
 |Få mere at vide om forskellen mellem montagestyklister og produktionsstyklister og de involverede behandlingsforskelle.|[Arbejde med styklister](inventory-how-work-BOMs.md)|
 |Lær, hvordan montageforbrug og afgang håndteres, når du bogfører montageordrer, og hvordan de afledte omkostninger for varen og ressourcen behandles og fordeles i regnskabet.|[Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)|  
@@ -54,5 +55,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

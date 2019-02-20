@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 10/01/2018
+ms.date: 01/07/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fb288b0b318fefd5b9720516432b6a85bb7347dd
+ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
+ms.openlocfilehash: 65542f3855eff3a5ed117bff3247adbf05def6e2
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/07/2019
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -24,6 +24,14 @@ Hvis dit firma bruger Bookings-appen i Office 365, kan du udstede flere fakturae
 For at forbinde din [!INCLUDE[d365fin](includes/d365fin_md.md)] med Bookings skal du angive din Bookings-virksomhed, hvad der skal synkroniseres med Bookings, hvor ofte synkroniseringen skal foretages, og hvilke skabeloner der skal bruges. Du kan oprette oplysningerne på siden **Opsætning af Bookings-synkronisering**, som du kan starte fra siden **Opsætning af Exchange-synkronisering**, som du kan finde via [Søg](ui-search.md).  
 
 Hvis du vil synkronisere kunder mellem Bookings og [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du angive den standardskabelon, der skal bruges, for at tilføje nye debitorer i [!INCLUDE[d365fin](includes/d365fin_md.md)] baseret på debitorerne i din Bookings-virksomhed.  
+
+> [!NOTE]
+> Appen Bookings er udviklet til bogførte aftaler for individuelle debitorer i stedet for virksomheder. Synkroniseringen med [!INCLUDE[d365fin](includes/d365fin_md.md)] vil derfor kun synkronisere debitorkontakter med typen "Person". Der kræves også en mailadresse for kontakten til synkronisering.  
+
+Hvis du på samme måde vil synkronisere serviceartikler mellem Bookings og [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du angive den standardskabelon, der skal bruges, for at tilføje nye serviceartikler i [!INCLUDE[d365fin](includes/d365fin_md.md)] baseret på tjenesterne i din Bookings-virksomhed.  
+
+> [!NOTE]
+> Kun varer af typen *Service* synkroniseres mellem Bookings og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Den skabelon, du konfigurerede på siden **Konfigurationsskabeloner**, så den kan bruges til varesynkronisering, skal definere typen som *Service*.
 
 ## <a name="invoice-appointments"></a>Fakturaaftaler
 Når du skal sende fakturaer for de færdige reservationer, skal du gå til siden **Ikke-fakturerede Bookings**. Afhængigt af hvor ofte oplysningerne synkroniseres er listen lang eller kort. Du kan oprette fakturaer for alle reservationer på listen eller én reservation ad gangen. Du kan vælge en eller flere poster på listen og fakturere dem som de eneste.  

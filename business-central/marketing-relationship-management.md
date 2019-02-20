@@ -13,10 +13,10 @@ ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0e4eb532a5e4cb54d45740343a62cbd69fd742eb
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: b3c766e8a43a0d4d4348a504b5142f7b83f8537a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="managing-relationships"></a>Styre relationer
@@ -35,9 +35,8 @@ Se følgende emner for at komme i gang:
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opsætning af Relationsstyring](marketing-setup-marketing.md)  
-[Administration af kunder og salg, der er oprettet i Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
+[Integrere med Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

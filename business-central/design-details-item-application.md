@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
@@ -93,9 +93,9 @@ Hvis du vil foretage en fast udligning, skal du bruge felterne **Udl.varepostlø
 ### <a name="example--fixed-application-in-purchase-return"></a>Eksempel – Fast udligning i købsreturvare  
 Følgende eksempel, som illustrerer virkningen af fast udligning af en købsreturvare, der bruger kostmetoden FIFO, er baseret på følgende scenario:  
 
-1. I post nummer 1 bogfører brugeren et køb til en kostpris på RV 10,00.  
-2. I post nummer 2 bogfører brugeren et køb til en kostpris på RV 20,00.  
-3. I post nummer 3 bogfører brugeren en købsreturvare. Brugeren foretager en fast udligning med det andet køb ved at angive varepostnummeret i feltet **Udl.varepostløbenr.** på ordrelinjen for købsreturvaren.  
+1. I post 1 bogfører brugeren et køb til en kostpris på RV 10,00.  
+2. I post 2 bogfører brugeren et køb til en kostpris på RV 20,00.  
+3. I post 3 bogfører brugeren en købsreturvare. Brugeren foretager en fast udligning med det andet køb ved at angive varepostnummeret i feltet **Udl.varepostløbenr.** på ordrelinjen for købsreturvaren.  
 
 Følgende tabel viser de vareposter, der er resultatet af scenariet.  
 
@@ -111,7 +111,7 @@ Følgende tabel viser den vareudligningspost, der skyldes fast udligning.
 
 |Bogføringsdato|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|Varepostløbenr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|01-06-20|1|3|10|3|  
+|01-06-20|2|3|10|3|  
 
 Kostprisen for det andet køb, RV 20,00, vil derefter blive overført korrekt til købsreturvareordren.  
 

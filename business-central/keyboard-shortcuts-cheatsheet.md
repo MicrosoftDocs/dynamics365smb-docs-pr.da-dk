@@ -1,6 +1,6 @@
 ---
-title: Tastaturgenveje
-description: "Oversigt over tastaturgenveje til at navigere på lister."
+title: Hurtig reference til tastaturgenveje
+description: "Et udskriftsvenligt referenceark, der indeholder de mest populære tastaturgenveje."
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
-ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="keyboard-shortcuts-quick-reference"></a>Hurtig reference til tastaturgenveje
 
 ||||  
-|----------------|-----------|----------------| 
+|----------------|-----------|----------------|
 |**Generelt**|ALT + Q<br />Alt+Op<br />Tab<br />Skift+Tab<br />Alt+Pil ned<br />Alt+Højrepil<br />F5/Ctrl+F5<br />Esc|Åbn **Fortæl mig**<br />Åbn værktøjstip eller valideringsfejl<br />Flytte fokus til næste kontrolelement<br />Flytte fokus til forrige kontrolelement<br />Åbn en rullemenu eller et opslag<br />Se transaktionerne for beregnet værdi<br />Opdater/genindlæs side<br />Luk den aktuelle side eller rullemenu.|
 |**Naviger til og marker rækker**| Home eller End<br />Ctrl+Home/End <br />Ctrl+Op/Ned<br />Ctrl+A <br />Ctrl+mellemrumstast<br />Ctrl/Skift+klik<br />Ctrl+Skift+Home/End<br />Skift+Op/Ned<br />Skift+Page Up/Down<br />Ctrl+Enter| Gå til det første eller sidste felt<br />Gå til den første eller sidste række<br />Navigere uden at miste markering<br />Markér alt<br />Skifte markering af række<br /> Føje rækken/rækkerne til markeringen<br />Udvide markeringen til første/sidste række<br />Føje rækken over/under til markering<br />Tilføje alle synlige rækker over/under markering<br />Fokusere uden for listen|
 |**Kopiere og indsætte**|Ctrl+C<br />Ctrl+V<br />F8|Kopiere rækker<br />Indsæt rækker<br />Kopiere feltet ovenover til den aktuelle række|

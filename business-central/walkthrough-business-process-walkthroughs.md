@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8adebfb892b00038c010e050018c51a973aeafb8
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 350ce32ffff947b8e6aa2182d69e238b5782802f
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="business-process-walkthroughs"></a>Gennemgang af forretningsprocesser
@@ -24,26 +24,26 @@ Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som d
 
  Gennemgangene er komplette scenarier og bør udføres fra start til slut for at give optimalt udbytte. Mange af dem er baseret på [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstrationer og giver dig mulighed for at prøve disse procedurer selv, i dit eget tempo.  
 
- For at undgå at skulle logge ind med mange forskellige profiler er navigationstrinnene i gennemgangene baseret på afdelingsmenuer og ikke på rollecentre.  
+> [!NOTE]
+> Nogle af gennemgangene bruger demonstrationsdata, der ikke er tilgængelig i standardvirksomheden CRONUS. Til disse gennemgange skal du udføre trinnene i et regnskab, der er oprettet fra indstillingen **Fuld evaluering - Komplette eksempeldata**, der findes i sandkassemiljøet. Du kan finde flere oplysninger i [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md).
 
-|Hvis du vil|Se|  
+|Til|Se|  
 |--------|---------|  
-|Oprette en marketingkampagne|[Gennemgang: Gennemførsel af en salgskampagne](walkthrough-conducting-a-sales-campaign.md)|  
-|Bruge forudbetalinger til en del af salgsordrer|[Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
+|Oprette en marketingkampagne.|[Gennemgang: Gennemførsel af en salgskampagne](walkthrough-conducting-a-sales-campaign.md)|  
+|Bruge forudbetalinger til at administrere delvis betaling for salg og køb. **Kræver fulde eksempeldata** |[Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Konfigurer godkendelsesbrugere, hvornår og hvordan brugere skal have besked om godkendelsesarbejdsgange, og rediger og aktiver derefter den relevante godkendelsesarbejdsgang.|[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Læg modtagne varer på lager i grundlæggende lageropsætninger|[Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
-|Læg modtagne varer på lager i avancerede lagerkonfigurationer|[Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
-|Planlægge forsyningsordrer for at opfylde behovet manuelt|[Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)|  
-|Planlægge forsyningsordrer for at opfylde behovet automatisk|[Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)|  
-|Monter og afsend varer, der er tilpasset på salgsordren|[Gennemgang: Salg, montering og levering af pakker](walkthrough-selling-assembling-and-shipping-kits.md)|  
-|Planlægge et projekt fra start til slut|[Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)|  
-|Forstå omkostningerne i forbindelse med en sag|[Gennemgang: Beregning af igangværende arbejder for en sag](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Vælg varer til levering i grundlæggende lageropsætninger|[Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Implementere administration af fejlbehæftede varer|[Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)|  
+|Læg modtagne varer på lager i grundlæggende lageropsætninger. **Kræver fulde eksempeldata**|[Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
+|Læg modtagne varer på lager i avancerede lagerkonfigurationer. **Kræver fulde eksempeldata**|[Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
+|Planlægge forsyningsordrer for at opfylde behovet manuelt. **Kræver fulde eksempeldata**|[Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)|  
+|Planlægge forsyningsordrer for at opfylde behovet automatisk. **Kræver fulde eksempeldata**|[Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)|  
+|Monter og afsend varer, der er tilpasset på salgsordren. **Kræver fulde eksempeldata**|[Gennemgang: Salg, montering og levering af pakker](walkthrough-selling-assembling-and-shipping-kits.md)|  
+|Planlægge et projekt fra start til slut. **Kræver fulde eksempeldata**|[Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)|  
+|En rapport over omkostningerne for et projekt. **Kræver fulde eksempeldata**|[Gennemgang: Beregning af igangværende arbejder for en sag](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Vælg varer til levering i grundlæggende lageropsætninger. **Kræver fulde eksempeldata**|[Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
+|Udfør defektstyring. **Kræver fulde eksempeldata**|[Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

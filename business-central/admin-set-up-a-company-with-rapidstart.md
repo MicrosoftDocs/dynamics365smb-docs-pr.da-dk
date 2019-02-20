@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 16f444fa31e3d63a7d61567667184facf2c3a7d6
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: d7476674407dd505fafa8e82f3bfecc3aa5a5fee
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Oprette en virksomhed med RapidStart Services
@@ -44,7 +44,8 @@ Du kan bruge følgende komponenter til at sætte skub i opsætningen af din virk
 |Installér den konfigurerede pakke hos din kunde til implementering.|[Anvende konfigurationer på nye virksomheder](admin-apply-configuration-to-new-companies.md)|
 |Definer og valider kundens opsætningsværdier for alle centrale områder, f.eks. firmaoplysninger, finans, lager, salg eller produktion.|[Indsaml debitoropsætningsværdier](admin-gather-customer-setup-values.md)|  
 |Konfigurer kerneposter i masterdata ved brug af skabeloner for at forberede overflytning af eksisterende debitordata.|[Forberede overflytning af debitordata](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
-|Definere tabeller og felter, validere eksisterende debitordata og overflytte data til databasen i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Overflytte debitordata](admin-migrate-customer-data.md)|  
+|Definere tabeller og felter, validere eksisterende debitordata og overflytte data til databasen i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Overflytte debitordata](admin-migrate-customer-data.md)|
+|Forberede genbrug af virksomhedskonfigurationer i andre firmaer.|[Oprette brugerdefinerede virksomhedsskabeloner](admin-how-to-create-custom-company-configuration-packages.md)|
 |Finde løsninger på kendte problemer i værktøjssættet i RapidStart Services.|[Tip: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Se også  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1ad174966d8e56eff13d496a7174483fa9f572ee
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="business-functionality"></a>Forretningsfunktioner
@@ -22,9 +22,7 @@ ms.lasthandoff: 03/22/2018
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
-
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 |Gennemføre og modtage betalinger, administrere pengestrømme, periodisere indtægter og omkostninger, opstille årsafslutning og administrere anlægsaktiver.|[Finans](finance.md)|
 |Få indsigt til udførelsen af dine forretningsaktiviteter via budgetter, kontoskemaer og analyser.|[Business Intelligence](bi.md)|

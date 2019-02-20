@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2018
+ms.date: 02/04/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
+ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
+ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/04/2019
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Ændre, hvilke funktioner der vises
@@ -35,7 +35,7 @@ Følgende tabel viser de oplevelser, der i øjeblikket er tilgængelige.
 | **Premium** |Viser alle handlinger og felter for alle forretningsfunktioner, herunder produktion og service.|
 
 > [!NOTE]  
-> De oplevelser, du kan vælge i [!INCLUDE[d365fin](includes/d365fin_md.md)] afhænger af din løsningslicens, der kaldes en plan. Du kan oplysninger om planerne **Essentiel** og **Premium** under [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på Microsoft Dynamics 365-marketingwebstedet. Se også [[!INCLUDE[d365fin](includes/d365fin_md.md)]-licensvejledningen](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> De oplevelser, du kan vælge i [!INCLUDE[d365fin](includes/d365fin_md.md)] afhænger af din løsningslicens, der kaldes en plan. Du kan oplysninger om planerne **Essentiel** og **Premium** under [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på Microsoft Dynamics 365-marketingwebstedet. Se også [[!INCLUDE[d365fin](includes/d365fin_md.md)] licensvejledningen](https://go.microsoft.com/fwlink/?linkid=2068931) (kræver adgang til CustomerSource eller PartnerSource).
 
 > [!IMPORTANT]  
 > Alle almindelige brugere i en løsning skal have tildelt den samme plan, Essential eller Premium, før oplevelsen kan vælges til virksomheden. Derfor kan én bruger ikke få adgang til Premium-funktioner, hvis en eller flere andre brugere kun har adgang til Essential-funktioner. Dette gælder ikke for mere særlige brugere af typen teammedlem, intern administrator, ekstern bogholder og uddelegeret administrator, der kan hver tildeles en anden plan end andre brugere i løsningen.

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/08/2018
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 46a37fb00319647ea1c4b4630e4d9369687dd7cf
-ms.openlocfilehash: 26057b4838681b4b6036c4a56aab4fd6d49ac1dd
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 9b45c50d2c3e1f1b7eab8cb8269445d61523011b
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/12/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="administration"></a>Opsætning
@@ -45,6 +45,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Vis sider, kodeenheder og forespørgsler som webtjenester.|[Udgive en webtjeneste](across-how-publish-web-service.md)|
 |Som en del af oprettelsen af Connect-apps mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og tredjepartsløsninger via REST API'erne skal du definere skabeloner, der bruges til at udfylde tomme egenskaber for en enhed, når du opretter en BOGF-handling via et API.|[Konfiguration af API-skabeloner](admin-configuring-api-template.md)|
 |Krypter data på [!INCLUDE[d365fin](includes/d365fin_md.md)] Server ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på serveren.|[Administration af datakryptering](admin-manage-data-encryption.md)|
+|Opret forbindelse fra Dynamics 365 for Sales til [!INCLUDE[d365fin](includes/d365fin_md.md)] for at opnå problemfri integration mellem debitorrelationer og ordrebehandling i lead-til-kontant-processen.|[Integrere med Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
 
 ## <a name="see-also"></a>Se også
 [Forretningsfunktioner](across-business-functionality.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="pick-items"></a>Plukke varer
@@ -38,7 +38,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Bogføre afsendelsen af varer direkte i det udgående ordredokument, fordi der ikke findes nogen lagerfunktioner. (Fungerer på samme måde for salgsordrer, udgående overflytningsordrer og returvareleverancer).|[Afsende varer](warehouse-how-ship-items.md)|  
 |Plukke varer en ordre ad gangen og bogføre afsendelsen i samme aktivitet i en grundlæggende lageropsætning.|[Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Plukke varer for flere ordrer i en avanceret lageropsætning.|[Plukke varer med Pluk (logistik)](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Plukke komponenter til produktion eller montage i en grundlæggende eller avanceret lageropsætning.|[Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md)|  
+|Plukke komponenter til produktion eller montage i en grundlæggende lageropsætning.|[Plukke til produktion eller montage i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md)|
+|Plukke komponenter til produktion eller montage i en avanceret lageropsætning.|[Plukke til produktion eller montage i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Planlægge optimerede plukinstruktioner for et antal forsendelser i stedet for at lade lagermedarbejderne håndtere bogførte forsendelser direkte.|[Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Plukke varer teknisk til et særligt formål, f.eks. til en produktionsenhed, der skal bruge ekstra komponenter, på en sådan måde, at varerne ikke teknisk forlader lagerstedet.|[Plukke og lægge på lager uden et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Forstå, hvordan du kan plukke varer ud fra deres udløbsdato, for eksempel letfordærvelige varer, automatisk.|[Plukke efter FEFO](warehouse-picking-by-fefo.md)|

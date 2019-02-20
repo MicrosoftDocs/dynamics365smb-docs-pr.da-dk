@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -52,7 +52,7 @@ Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til for
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastaturgenveje på lister
 
 I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listeside. Genvejshandlingen varierer en smule afhængigt af, om siden vises i listevisning eller feltvisning.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 
 |Tryk på disse taster<br />(i macOS)|Sådan gør du i en listevisning |Sådan gør du i en feltvisning |Kommentarer|
 |-----------------|-------|-------|-------|
-|Pil op|Flyt i den samme kolonne til feltet i rækken ovenover.| Flyt i den samme kolonne til feltet i rækken ovenover.  |  | 
+|Pil op|Flyt i den samme kolonne til feltet i rækken ovenover.| Flyt i den samme kolonne til feltet i rækken ovenover.  |  |
 |Pil ned|Flyt i den samme kolonne til feltet i rækken nedenfor. |Flyt i den samme kolonne til feltet i rækken nedenfor. | |
 |Højrepil|På en skrivebeskyttet liste skal du i den samme række flytte til det næste felt til højre.<br /><br />På en redigerbar liste skal du flytte til højre i det aktuelle felt.| Flyt i den samme række til det næste felt til højre. ||
 |Venstre pil|På en skrivebeskyttet liste skal du i den samme række flytte til det forrige felt til venstre. <br /><br />På en redigerbar liste skal du flytte til venstre i det aktuelle felt.| Flyt i den samme række til det forrige felt til venstre. ||
@@ -71,7 +71,7 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 |End<br />(Fn + højre pil)|Flytte til det sidste felt i rækken.|Flytte til det sidste felt i en række.||
 |Page Up<br />(Fn + pil op)|Ruller for at vise rækkesættet over de aktuelle rækker i visningen. |Ruller for at vise feltsættet over de aktuelle felter i visningen. ||
 |Page Down<br />(Fn + pil ned)|Ruller for at vise rækkesættet under de aktuelle rækker i visningen.|Ruller for at vise feltsættet under de aktuelle felter i visningen.||
-|Enter<br />(Fn + pil ned)|Åbne den record, som er knyttet til feltet.|Åbner recorden.| Kun er relevant, hvis der er knyttet en kortside til posten.|
+|Enter|Åbne den record, som er knyttet til feltet.|Åbner recorden.| Kun er relevant, hvis der er knyttet en kortside til posten.|
 |Ctrl+Enter|Flytte fokus til det næste element uden for listen.|Flytte fokus til det næste element uden for listen.||
 
 ### <a name="CopyRows"></a>Markere, kopiere og indsætte
@@ -104,7 +104,7 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 |Skift+Alt+F3|Åbnes filterruden og føjer et filter til den valgte kolonne på listen. Fokus er på det nye filterfelt, som gør det muligt at begynde at skrive filterkriterierne med det samme.<br /><br /> Det har samme effekt, som hvis du vælger **Filter** i kolonneoverskriften. er menu. Viser filterruden, tilføjer filtret, indstiller fokus på det, så brugeren kan angive en værdi, der skal filtreres efter.<br /><br />Hvis der allerede er et filter i feltet, tilføjes et nyt filter. |
 |Ctrl + Skift + Alt + F3|Nulstiller filtre. Dette har samme effekts, som hvis du vælger **Nulstil filtre** i filterruden, og det gælder for feltfiltre og filtre for totaler.<br /><br /> Filtre vender tilbage til standardfiltrene for den aktuelle visning. Hvis den aktuelle visning er **Alle**, svarer dette til at vende tilbage til en ufiltreret visning med alle poster. |
 |Ctrl+Enter|Vender tilbage til listen fra filterruden.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tastaturgenveje i kalenderen (datovælger)
 Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kalender (datovælger), hvor du kan vælge den ønskede dato. Følgende tabel beskriver tastaturgenvejene for kalenderen.
 

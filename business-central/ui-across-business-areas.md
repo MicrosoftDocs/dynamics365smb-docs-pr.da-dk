@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
@@ -35,6 +35,7 @@ I følgende tabel vises disse generelle forretningsområder med links til emner,
 | Oprette tekster, så du kan udvide standardteksten ved at tilføje ekstra linjer og oprette betingelser for brugen af de ekstra linjer. |[Tilføje udvidet varetekst](ui-how-define-ext-text.md) |
 |Oprette opgaver for at minde dig om arbejde, der skal udføres. Du kan oprette opgaver til dig selv, men du kan også tildele opgaver til andre eller få tildelt en opgave af en anden i organisationen.|[Definere brugeropgaver](across-user-tasks.md)|
 |Vedhæfte billeder, dokumenter og andre typer filer til alle kort, f.eks. vare- og jobkortet og vedhæfte filer til alle typer salgs- og købsdokumenter.|[Vedhæfte filer til kort og dokumenter](across-attach-document-master-data.md)|
+|Arbejde med dine Business Central-data i Excel.|[Eksportere forretningsdata til Excel](about-export-data.md)| 
 |Lad systemet hjælpe dig med at udføre opgaver hurtigere og mere korrekt ved at forhåndsudfylde felter eller hele linjer med data, som du normalt selv skal beregne og angive.|[Lade Business Central foreslå værdier](ui-let-system-suggest-values.md)|
 |Registrere eksterne dokumenter, herunder deres vedhæftede filer, og derefter oprette relaterede dokumenter manuelt, eller konvertere filerne automatisk til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
 |Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|

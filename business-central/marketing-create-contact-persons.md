@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 341cd12db4ca130539a2ba2838c3aa95a96cb6ab
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
 ms.contentlocale: da-dk
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="creating-contact-persons"></a>Oprette kontaktpersoner
@@ -26,15 +26,22 @@ Det kan også være, at der er brug for at få oversat noget publikationer om di
 
 Når du registrerer flest mulige oplysninger om en kontaktperson, sikrer du, at alle grupper i firmaet kan finde relevante oplysninger.
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+Du kan oprette et kontaktkort for hver kontaktperson, der arbejder for de virksomheder, du er i interaktion med. Der er ingen begrænsninger på, hvor mange kontaktpersoner du kan oprette for hver virksomhed. Du kan også oprette kontaktkort for personer, som du vil have registreret selvstændigt.
 
-| Hvis du vil | Se |
-| --- | --- |
-| Angive oplysninger om en kontaktperson. |[Oprette kontaktpersoner](marketing-how-create-contact-persons.md) |
-| Definere en alternativ adresse for en kontakt. |[Tildele alternative adresser](marketing-how-assign-alternate-address.md) |
-| Beskrive forretningsrelationen til en virksomhedskontakt. |[Oprette ansvarsområder for kontakter](marketing-job-responsibilities.md) |
-| Beskrive kompetenceniveauet for dine kontakter. |[Oprette kompetenceniveauer for kontaktpersoner](marketing-organizational-levels.md) |
-| Tildele mailgrupper til dine kontakter |[Tildele mailgrupper til en kontakt](marketing-mailing-groups.md) |
+> [!TIP]  
+>   Kontroller eventuelt **Overførte oplysninger**-indstillingerne på siden **Marketingopsætning**, før du opretter en kontakt. Når du konfigurerer overførte oplysninger kan oplysninger om kontaktvirksomheder, som er fælles for kontakter, f.eks. adresseoplysningerne, automatisk kopieres fra virksomheden til kontaktpersonen, hver gang du opretter en kontaktperson for en allerede registreret kontaktvirksomhed.
+
+## <a name="to-create-a-contact-card-for-a-person"></a>Sådan oprettes der et kontaktkort for en person
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.
+2. Vælg handlingen **Ny**.
+3. I feltet **Nummer** skal du skrive et nummer på kontakten.
+
+    Hvis du har defineret en nummerserie for kontakter på siden **Marketingopsætning**, kan du i stedet trykke på Enter og vælge det næste tilgængelige nummer. Du kan finde flere oplysninger under [Oprette nummerserier](ui-create-number-series.md).
+4. Vælg **Person** i feltet **Type**.
+5. Udfyld de andre felter på kontaktkortet.
+
+> [!NOTE]  
+>   Indholdet af de felter, du har markeret i sektionen **Overførte oplysninger** på siden **Marketingopsætning**, kopieres fra virksomheden til personerne i virksomheden.
 
 ## <a name="see-also"></a>Se også
 [Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  

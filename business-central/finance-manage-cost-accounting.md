@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4f74d8cb6c2c42b3b928a59655bf3ced62d59258
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 86268549bbf5d133b2d077b69507cf1b6a3617a3
 ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="accounting-for-costs"></a>Regnskab for omkostninger
@@ -26,10 +26,12 @@ Omkostningsregnskab bruges til at hjælpe dig med at forstå omkostningerne til 
 |--------|---------|  
 |Forstå den terminologi, der anvendes i omkostningsregnskab.|[Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)|  
 |Få en generel forståelse af omkostningsregnskab.|[Om omkostningsregnskab](finance-about-cost-accounting.md)|  
-|Lær om processerne i opsætning af omkostningsregnskab.|[Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)|  
-|Lær om processerne ved overførelse af regnskabsposter til omkostningsposter.|[Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)|  
-|Lær om processerne ved definition og allokering af omkostninger.|[Definere og allokere omkostninger](finance-define-and-allocate-costs.md)|  
-|Lær om processerne ved oprettelse af omkostningsbudgetter.|[Oprette omkostningsbudgetter](finance-create-cost-budgets.md)|  
+|Konfigurere omkostningsregnskabssystemet|[Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)|  
+|Overføre finansposter til omkostningsposter.|[Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)|  
+|Alloker omkostninger.|[Definere og allokere omkostninger](finance-define-and-allocate-costs.md)|  
+|Lær om processerne ved oprettelse af omkostningsbudgetter.|[Oprette omkostningsbudgetter](finance-create-cost-budgets.md)|
+|Annullere omkostningsbudgetposter fra omkostningsbudgetregistret.|[Sletning af omkostningsbudgetposter](finance-how-to-delete-cost-budget-entries.md)| 
+
 
 ## <a name="see-also"></a>Se også  
 [Finans](finance.md)  

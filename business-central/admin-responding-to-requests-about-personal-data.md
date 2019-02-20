@@ -9,10 +9,10 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -47,8 +47,8 @@ Du kan også lukke din konto på denne side. Vi anbefaler dog, at du kontrollere
 Du kan stadig markere personer som spærret af hensyn til beskyttelse af personlige oplysninger og eksportere, redigere eller slette transaktioner, som beskrevet andetsteds i denne artikel.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Eksportere data fra tabeller, der ikke er klassificeret af dataemnet
-Hvis du har en situation, hvor du skal eksportere data, der ikke er klassificeret på en sådan måde, så de bliver eksporteret automatisk, f.eks. data fra tabellen Profilsvar, skal du gøre følgende: 
--   Hvis du reelt ønsker eller er nødt til at eksportere disse supplerende data, der ikke vedrører kontakten, hvilket vil sige, at det ikke er nogen direkte relation til den 
+Hvis du har en situation, hvor du skal eksportere data, der ikke er klassificeret på en sådan måde, så de bliver eksporteret automatisk, f.eks. data fra tabellen Profilsvar, skal du gøre følgende:
+-   Hvis du reelt ønsker eller er nødt til at eksportere disse supplerende data, der ikke vedrører kontakten, hvilket vil sige, at det ikke er nogen direkte relation til den
 -   Føje denne tabel og relation manuelt til Rapid Start-pakken og eksportere dem direkte fra Rapid Start-pakken – det er derfor vi generere en Rapid Start-pakke, så du kan ændre den i situationer som denne.
 
 ## <a name="handling-data-about-minors"></a>Håndtering af data om mindreårige
