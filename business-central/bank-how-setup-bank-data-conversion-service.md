@@ -11,10 +11,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
+ms.sourcegitcommit: 63ad387abc0e244602840771bef6ed2ac09f0799
+ms.openlocfilehash: 48fb943e03e2dff3d1ed583872cb989944495f7f
 ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/26/2019
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a><span data-ttu-id="72cb7-103">Konfigurere tjenesten til konvertering af bankdata</span><span class="sxs-lookup"><span data-stu-id="72cb7-103">Set Up the Bank Data Conversion Service</span></span>
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/26/2018
 <span data-ttu-id="72cb7-112">Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen bankkonto og dine kreditorers bankkonti.</span><span class="sxs-lookup"><span data-stu-id="72cb7-112">To import or export bank files, you must set up your own bank account and your vendors' bank accounts.</span></span> <span data-ttu-id="72cb7-113">Du kan finde flere oplysninger i [Oprette bankkonti](bank-how-setup-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="72cb7-113">For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="72cb7-114">Tjenesten til konvertering af bankdata kan angive en grænse for antallet af linjer, der kan eksporteres i en fil.</span><span class="sxs-lookup"><span data-stu-id="72cb7-114">The bank data conversion service may impose a limit on the number of lines that can be exported in one file.</span></span> <span data-ttu-id="72cb7-115">Du modtager en fejlmeddelelse, hvis grænsen er overskredet.</span><span class="sxs-lookup"><span data-stu-id="72cb7-115">You will receive an error message if the limit is exceeded.</span></span> <span data-ttu-id="72cb7-116">Det anbefales, at bankkontofiler ikke overstiger 1000 linjer, da behandlingstiden i tjenesten til konvertering af bankdata ellers bliver væsentligt forøget.</span><span class="sxs-lookup"><span data-stu-id="72cb7-116">It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.</span></span>
+> <span data-ttu-id="72cb7-114">Tjenesten til konvertering af bankdata kan angive en grænse for antallet af linjer, der kan eksporteres i en fil.</span><span class="sxs-lookup"><span data-stu-id="72cb7-114">The bank data conversion service may impose a limit on the number of lines that can be exported in one file.</span></span> <span data-ttu-id="72cb7-115">Du modtager en fejlmeddelelse, hvis grænsen er overskredet.</span><span class="sxs-lookup"><span data-stu-id="72cb7-115">You will receive an error message if the limit is exceeded.</span></span> <span data-ttu-id="72cb7-116">Det anbefales, at bankkontofiler ikke overstiger 1000 linjer, da behandlingstiden i tjenesten til konvertering af bankdata ellers bliver væsentligt forøget.</span><span class="sxs-lookup"><span data-stu-id="72cb7-116">It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.</span></span>
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a><span data-ttu-id="72cb7-117">Sådan tilmeldes din virksomhed tjenesten til konvertering af bankdata.</span><span class="sxs-lookup"><span data-stu-id="72cb7-117">To sign your company up for the bank data conversion service</span></span>
 1. <span data-ttu-id="72cb7-118">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af tjeneste til konvertering af bankdata**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="72cb7-118">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Data Conv. Service Setup**, and then choose the related link.</span></span>  
