@@ -29,7 +29,7 @@ Du kan også bruge tjenesten Envestnet Yodlee Bank Feeds i stedet for at indlæs
 Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen bankkonto og dine kreditorers bankkonti. Du kan finde flere oplysninger i [Oprette bankkonti](bank-how-setup-bank-accounts.md).
 
 > [!NOTE]  
->   Tjenesten til konvertering af bankdata kan angive en grænse for antallet af linjer, der kan eksporteres i en fil. Du modtager en fejlmeddelelse, hvis grænsen er overskredet. Det anbefales, at bankkontofiler ikke overstiger 1000 linjer, da behandlingstiden i tjenesten til konvertering af bankdata ellers bliver væsentligt forøget.
+> Tjenesten til konvertering af bankdata kan angive en grænse for antallet af linjer, der kan eksporteres i en fil. Du modtager en fejlmeddelelse, hvis grænsen er overskredet. Det anbefales, at bankkontofiler ikke overstiger 1000 linjer, da behandlingstiden i tjenesten til konvertering af bankdata ellers bliver væsentligt forøget.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Sådan tilmeldes din virksomhed tjenesten til konvertering af bankdata.
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af tjeneste til konvertering af bankdata**, og vælg derefter det relaterede link.  
