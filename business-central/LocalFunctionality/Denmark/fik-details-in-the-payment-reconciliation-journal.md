@@ -1,39 +1,38 @@
 ---
 title: FIK-detaljer i betalingsudligningskladden | Microsoft Docs
-description: "Feltet Transaktionstekst på siden Betalingsudligningskladde viser oplysninger om automatisk udligning af betalinger ved hjælp af den danske FIK-standard."
+description: Feltet Transaktionstekst på siden Betalingsudligningskladde viser oplysninger om automatisk udligning af betalinger ved hjælp af den danske FIK-standard.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 13a585127ef2dc5e91a0546bb8059540faa53e37
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826578"
 ---
-# <a name="fik-details-in-the-payment-reconciliation-journal"></a><span data-ttu-id="263fe-103">FIK-detaljer i betalingsudligningskladden</span><span class="sxs-lookup"><span data-stu-id="263fe-103">FIK Details in the Payment Reconciliation Journal</span></span>
-<span data-ttu-id="263fe-104">Feltet **Transaktionstekst** på siden **Betalingsudligningskladde** viser oplysninger om automatisk udligning af betalinger ved hjælp af den danske FIK-standard.</span><span class="sxs-lookup"><span data-stu-id="263fe-104">The **Transaction Text** field on the **Payment Reconciliation Journal** page shows information about the automatic application of payments using the Danish FIK standard.</span></span> <span data-ttu-id="263fe-105">Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](../../receivables-how-reconcile-payments-auto-application.md).</span><span class="sxs-lookup"><span data-stu-id="263fe-105">For more information, see [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md).</span></span>  
+# <a name="fik-details-in-the-payment-reconciliation-journal"></a><span data-ttu-id="e0307-103">FIK-detaljer i betalingsudligningskladden</span><span class="sxs-lookup"><span data-stu-id="e0307-103">FIK Details in the Payment Reconciliation Journal</span></span>
+<span data-ttu-id="e0307-104">Feltet **Transaktionstekst** på siden **Betalingsudligningskladde** viser oplysninger om automatisk udligning af betalinger ved hjælp af den danske FIK-standard.</span><span class="sxs-lookup"><span data-stu-id="e0307-104">The **Transaction Text** field on the **Payment Reconciliation Journal** page shows information about the automatic application of payments using the Danish FIK standard.</span></span> <span data-ttu-id="e0307-105">Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](../../receivables-how-reconcile-payments-auto-application.md).</span><span class="sxs-lookup"><span data-stu-id="e0307-105">For more information, see [Reconcile Payments Using Automatic Application](../../receivables-how-reconcile-payments-auto-application.md).</span></span>  
 
- <span data-ttu-id="263fe-106">I følgende tabel beskrives seks værdier, der kan vises i feltet **Transaktionstekst**.</span><span class="sxs-lookup"><span data-stu-id="263fe-106">The following table describes the six values that may be shown in the **Transaction Text** field.</span></span>  
+ <span data-ttu-id="e0307-106">I følgende tabel beskrives seks værdier, der kan vises i feltet **Transaktionstekst**.</span><span class="sxs-lookup"><span data-stu-id="e0307-106">The following table describes the six values that may be shown in the **Transaction Text** field.</span></span>  
 
-|<span data-ttu-id="263fe-107">Transaktionstekst</span><span class="sxs-lookup"><span data-stu-id="263fe-107">Transaction Text</span></span>|<span data-ttu-id="263fe-108">Beskrivelse</span><span class="sxs-lookup"><span data-stu-id="263fe-108">Description</span></span>|  
+|<span data-ttu-id="e0307-107">Transaktionstekst</span><span class="sxs-lookup"><span data-stu-id="e0307-107">Transaction Text</span></span>|<span data-ttu-id="e0307-108">Beskrivelse</span><span class="sxs-lookup"><span data-stu-id="e0307-108">Description</span></span>|  
 |-----------------------------------------|---------------------------------------|  
-|<span data-ttu-id="263fe-109">**Tilsvarende beløb**</span><span class="sxs-lookup"><span data-stu-id="263fe-109">**Matching Amount**</span></span>|<span data-ttu-id="263fe-110">Det betalte beløb dækker nøjagtigt det resterende beløb på en ubetalte salgsfaktura, der er identificeret af FIK-nummeret.</span><span class="sxs-lookup"><span data-stu-id="263fe-110">The amount paid covers exactly the remaining amount on an unpaid sales invoice that is identified by the FIK number.</span></span>|  
-|<span data-ttu-id="263fe-111">**Delvist beløb**</span><span class="sxs-lookup"><span data-stu-id="263fe-111">**Partial Amount**</span></span>|<span data-ttu-id="263fe-112">Det betalte beløb er mindre end det resterende beløb på en ubetalte salgsfaktura, der er identificeret af FIK-nummeret.</span><span class="sxs-lookup"><span data-stu-id="263fe-112">The amount paid is less than the remaining amount on an unpaid sales invoice that is identified by the FIK number.</span></span>|  
-|<span data-ttu-id="263fe-113">**Overskydende beløb**</span><span class="sxs-lookup"><span data-stu-id="263fe-113">**Excess Amount**</span></span>|<span data-ttu-id="263fe-114">Det betalte beløb er mere end det resterende beløb på en ubetalte salgsfaktura, der er identificeret af FIK-nummeret.</span><span class="sxs-lookup"><span data-stu-id="263fe-114">The amount paid is more than the remaining amount on an unpaid sales invoice that is identified by the FIK number.</span></span>|  
-|<span data-ttu-id="263fe-115">**Ingen matchende FIK-kode**</span><span class="sxs-lookup"><span data-stu-id="263fe-115">**No Matching FIK Number**</span></span>|<span data-ttu-id="263fe-116">Systemet har ikke fundet nogen skyldige eller betalte salgsfakturaer med et FIK-nummer, der svarer til FIK-nummeret på betalingen.</span><span class="sxs-lookup"><span data-stu-id="263fe-116">The system has not found any unpaid or paid sales invoices with a FIK number that matches the FIK number on the payment.</span></span>|  
-|<span data-ttu-id="263fe-117">**FIK-dubletnummer**</span><span class="sxs-lookup"><span data-stu-id="263fe-117">**Duplicate FIK Number**</span></span>|<span data-ttu-id="263fe-118">Systemet har registreret, at der er betalinger, der har lignende FIK-numre.</span><span class="sxs-lookup"><span data-stu-id="263fe-118">The system has discovered that there are payments that have similar FIK numbers.</span></span>|  
-|<span data-ttu-id="263fe-119">**Fakturaen er allerede betalt**</span><span class="sxs-lookup"><span data-stu-id="263fe-119">**Invoice Already Paid**</span></span>|<span data-ttu-id="263fe-120">Systemet har registreret, at nogle FIK-numre på en betaling svarer til en salgsfaktura, som er fuldt udlignet og lukket.</span><span class="sxs-lookup"><span data-stu-id="263fe-120">The system has discovered that a FIK number on a payment matches a sales invoice that is fully applied and closed.</span></span>|  
+|<span data-ttu-id="e0307-109">**Tilsvarende beløb**</span><span class="sxs-lookup"><span data-stu-id="e0307-109">**Matching Amount**</span></span>|<span data-ttu-id="e0307-110">Det betalte beløb dækker nøjagtigt det resterende beløb på en ubetalte salgsfaktura, der er identificeret af FIK-nummeret.</span><span class="sxs-lookup"><span data-stu-id="e0307-110">The amount paid covers exactly the remaining amount on an unpaid sales invoice that is identified by the FIK number.</span></span>|  
+|<span data-ttu-id="e0307-111">**Delvist beløb**</span><span class="sxs-lookup"><span data-stu-id="e0307-111">**Partial Amount**</span></span>|<span data-ttu-id="e0307-112">Det betalte beløb er mindre end det resterende beløb på en ubetalte salgsfaktura, der er identificeret af FIK-nummeret.</span><span class="sxs-lookup"><span data-stu-id="e0307-112">The amount paid is less than the remaining amount on an unpaid sales invoice that is identified by the FIK number.</span></span>|  
+|<span data-ttu-id="e0307-113">**Overskydende beløb**</span><span class="sxs-lookup"><span data-stu-id="e0307-113">**Excess Amount**</span></span>|<span data-ttu-id="e0307-114">Det betalte beløb er mere end det resterende beløb på en ubetalte salgsfaktura, der er identificeret af FIK-nummeret.</span><span class="sxs-lookup"><span data-stu-id="e0307-114">The amount paid is more than the remaining amount on an unpaid sales invoice that is identified by the FIK number.</span></span>|  
+|<span data-ttu-id="e0307-115">**Ingen matchende FIK-kode**</span><span class="sxs-lookup"><span data-stu-id="e0307-115">**No Matching FIK Number**</span></span>|<span data-ttu-id="e0307-116">Systemet har ikke fundet nogen skyldige eller betalte salgsfakturaer med et FIK-nummer, der svarer til FIK-nummeret på betalingen.</span><span class="sxs-lookup"><span data-stu-id="e0307-116">The system has not found any unpaid or paid sales invoices with a FIK number that matches the FIK number on the payment.</span></span>|  
+|<span data-ttu-id="e0307-117">**FIK-dubletnummer**</span><span class="sxs-lookup"><span data-stu-id="e0307-117">**Duplicate FIK Number**</span></span>|<span data-ttu-id="e0307-118">Systemet har registreret, at der er betalinger, der har lignende FIK-numre.</span><span class="sxs-lookup"><span data-stu-id="e0307-118">The system has discovered that there are payments that have similar FIK numbers.</span></span>|  
+|<span data-ttu-id="e0307-119">**Fakturaen er allerede betalt**</span><span class="sxs-lookup"><span data-stu-id="e0307-119">**Invoice Already Paid**</span></span>|<span data-ttu-id="e0307-120">Systemet har registreret, at nogle FIK-numre på en betaling svarer til en salgsfaktura, som er fuldt udlignet og lukket.</span><span class="sxs-lookup"><span data-stu-id="e0307-120">The system has discovered that a FIK number on a payment matches a sales invoice that is fully applied and closed.</span></span>|  
 
-## <a name="see-also"></a><span data-ttu-id="263fe-121">Se også</span><span class="sxs-lookup"><span data-stu-id="263fe-121">See Also</span></span>  
-[<span data-ttu-id="263fe-122">Lokal funktionalitet for Danmark</span><span class="sxs-lookup"><span data-stu-id="263fe-122">Denmark Local Functionality</span></span>](denmark-local-functionality.md)  
-[<span data-ttu-id="263fe-123">Afstemme betalinger ved hjælp af automatisk udligning</span><span class="sxs-lookup"><span data-stu-id="263fe-123">Reconcile Payments Using Automatic Application</span></span>](../../receivables-how-reconcile-payments-auto-application.md)
-
+## <a name="see-also"></a><span data-ttu-id="e0307-121">Se også</span><span class="sxs-lookup"><span data-stu-id="e0307-121">See Also</span></span>  
+[<span data-ttu-id="e0307-122">Lokal funktionalitet for Danmark</span><span class="sxs-lookup"><span data-stu-id="e0307-122">Denmark Local Functionality</span></span>](denmark-local-functionality.md)  
+[<span data-ttu-id="e0307-123">Afstemme betalinger ved hjælp af automatisk udligning</span><span class="sxs-lookup"><span data-stu-id="e0307-123">Reconcile Payments Using Automatic Application</span></span>](../../receivables-how-reconcile-payments-auto-application.md)
