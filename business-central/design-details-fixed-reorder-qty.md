@@ -1,24 +1,24 @@
 ---
-title: "Designoplysninger – Fast genbestil.antal | Microsoft Docs"
-description: "Fast genbestil.antal er relateret til lageret, planlægning af typiske C-varer (lav lageromkostning, lav risiko for forældelse og/eller mange varer). Denne metode bruges normalt i forbindelse med et genbestillingspunkt, hvilket afspejler det forventede behov under leveringstiden for varen."
+title: Designoplysninger – Fast genbestil.antal | Microsoft Docs
+description: Fast genbestil.antal er relateret til lageret, planlægning af typiske C-varer (lav lageromkostning, lav risiko for forældelse og/eller mange varer). Denne metode bruges normalt i forbindelse med et genbestillingspunkt, hvilket afspejler det forventede behov under leveringstiden for varen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: f8d4cfbbdab6285f65611c81aaf728a8c129c729
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792882"
 ---
 # <a name="design-details-fixed-reorder-qty"></a>Designoplysninger: Fast genbestil.antal
 Fast genbestil.antal er relateret til lageret, planlægning af typiske C-varer (lav lageromkostning, lav risiko for forældelse og/eller mange varer). Denne metode bruges normalt i forbindelse med et genbestillingspunkt, hvilket afspejler det forventede behov under leveringstiden for varen.  
@@ -53,4 +53,3 @@ Fast genbestil.antal er relateret til lageret, planlægning af typiske C-varer (
  [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)   
  [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-

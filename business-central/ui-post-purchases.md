@@ -1,8 +1,8 @@
 ---
-title: "Om bogføring af købsdokumenter | Microsoft Docs"
-description: "Få mere at vide om de forskellige bogføringsfunktioner, der bruges til at bogføre købsdokumenter."
+title: Om bogføring af købsdokumenter | Microsoft Docs
+description: Få mere at vide om de forskellige bogføringsfunktioner, der bruges til at bogføre købsdokumenter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f3c709e6e2588fe7cf409e44291d331acc09432
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792142"
 ---
 # <a name="posting-purchases"></a>Bogføring af køb
 I **Prod.bogf.gruppe** på et købsdokument kan du vælge mellem følgende bogføringsfunktioner:
@@ -48,5 +48,4 @@ Når bogføringen er gennemført, fjernes de bogførte købslinjer fra ordren. D
 [Køb](purchasing-manage-purchasing.md)  
 [Bogføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

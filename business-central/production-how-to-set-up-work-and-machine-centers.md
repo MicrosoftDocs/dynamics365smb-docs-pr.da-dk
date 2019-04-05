@@ -1,23 +1,23 @@
 ---
-title: "Sådan defineres arbejdscentre og produktionsressourcer | Microsoft Docs"
-description: "Et **arbejdscenterkort** organiserer produktionsressources faste værdier og krav og styrer på den måde den produktionsafgang, der udføres på arbejdscentret."
+title: Sådan defineres arbejdscentre og produktionsressourcer | Microsoft Docs
+description: Et **arbejdscenterkort** organiserer produktionsressources faste værdier og krav og styrer på den måde den produktionsafgang, der udføres på arbejdscentret.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792395"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbejdscentre og produktionsressourcer
 Programmet skelner mellem tre typer kapacitet. Disse er arrangeret hierarkisk. Hvert niveau indeholder underordnede niveauer.  
@@ -48,22 +48,22 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
 
 9.  Angiv i feltet **Kostprisberegning**, om ovenstående beregning skal baseres på den forbrugte tid: **Tid** eller på antallet af producerede enheder: **Enheder**.  
 10.  Vælg feltet **Specifik kostpris**, hvis du vil definere arbejdscentrets kostpris på den rutelinje, hvor det benyttes. Dette kan være relevant for operationer, hvor kapacitetsomkostningerne er væsentligt anderledes end for andre produktioner på arbejdscentret.  
-11.  Vælg i feltet **Trækmetode**, om outputbogføring på dette arbejdscenter skal beregnes og bogføres manuelt eller automatisk med en af følgende metoder.  
+11.  Vælg i feltet **Trækmetode**, om outputbogføring på dette arbejdscenter skal beregnes og bogføres manuelt eller automatisk med en af følgende metoder.
 
-    |Indstilling|Beskrivelse|  
-    |----------------------------------|---------------------------------------|  
-    |**Manuelt**|Forbrug bogføres manuelt i afgangskladden eller produktionskladden.|
-    |**Forlæns**|Forbrug beregnes og bogføres automatisk, når produktionsordren frigives.|  
-    |**Baglæns**|Forbrug beregnes og bogføres automatisk, når produktionsordren afsluttes.|  
+|Indstilling|Beskrivelse|
+|------|-----------|
+|**Manuelt**|Forbrug bogføres manuelt i afgangskladden eller produktionskladden.|
+|**Forlæns**|Forbrug beregnes og bogføres automatisk, når produktionsordren frigives.|
+|**Baglæns**|Forbrug beregnes og bogføres automatisk, når produktionsordren afsluttes.|
 
-    > [!NOTE]  
-    >  Hvis det er nødvendigt, kan den trækmetode, der vælges her og på **Vare**-kortet, tilsidesættes for enkelte operationer ved at ændre indstillingen på rutelinjerne.
+> [!NOTE]
+> Hvis det er nødvendigt, kan den trækmetode, der vælges her og på **Vare**-kortet, tilsidesættes for enkelte operationer ved at ændre indstillingen på rutelinjerne
 
 12.  Brug feltet **Enhedskode** til at angive den tidsenhed, som arbejdscentrets kostprisberegning og kapacitetsplanlægning udføres i.
     For konstant at kunne overvåge forbrug skal du først oprette en enhedsmetode. De enheder, du angiver, er basisenheder. F.eks. beregnes procestiderne i timer og minutter.
 
-    > [!NOTE]  
-    > Hvis du vælger at bruge Dage, skal du huske, at 1 dag = 24 timer - og ikke 8 (arbejdstimer).
+> [!NOTE]  
+> Hvis du vælger at bruge Dage, skal du huske, at 1 dag = 24 timer - og ikke 8 (arbejdstimer).
 
 13.  I feltet **Kapacitet** skal du angive, om arbejdscentret har mere end én maskine eller person, der arbejder samtidigt. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-installation ikke omfatter funktionaliteten Produktionsressource, skal værdien i dette felt være **1**.  
 14.  Angiv den procentdel af den forventede standardafgang, som arbejdscentret normalt producerer, i feltet **Effektivitet**. Hvis du angiver **100**, betyder det, at arbejdscentret har en faktisk afgang, der er den samme som standardafgangen.  
@@ -106,4 +106,3 @@ Ved planlægning med kapacitetsbegrænsede ressourcer sikrer systemet, at der ik
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Sådan arbejder du med servicekontrakter og servicekontrakttilbud | Microsoft Docs"
-description: "Du kan oprette en servicekontrakt manuelt eller ud fra et servicekontrakttilbud. Du kan oprette en kontrakt baseret på et servicekontrakttilbud."
+title: Sådan arbejder du med servicekontrakter og servicekontrakttilbud | Microsoft Docs
+description: Du kan oprette en servicekontrakt manuelt eller ud fra et servicekontrakttilbud. Du kan oprette en kontrakt baseret på et servicekontrakttilbud.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 8f27a27941130a56f8ad1c1c5ef22d3e448e455b
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793431"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbejde med servicekontrakter og servicekontrakttilbud
 Du kan oprette en servicekontrakt manuelt eller ud fra et servicekontrakttilbud. Du kan bruge et servicekontrakttilbud som en forløber for en servicekontrakt, hvor din virksomhed giver kunden et tilbud og opnår kundens godkendelse, inden du kan konvertere det til en servicekontrakt. Proceduren for oprettelse af en servicekontrakt eller et servicekontrakttilbud er meget ens.  
@@ -202,4 +202,3 @@ Du kan når som helst arkivere servicekontrakter og kontrakttilbud for at regist
 [Opsætte servicekontrakter](service-how-setup-service-contracts.md)  
 [Service Management](service-service.md)  
 [Konvertere servicekontrakter, som omfatter momsbeløb](service-how-to-convert-service-contracts.md)  
-

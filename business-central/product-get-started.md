@@ -1,6 +1,6 @@
 ---
 title: Introduktion | Microsoft Docs
-description: "Få mere at vide om funktioner og arbejdsscenarier i Business Central, der er en forretningsstyringsløsning til små og mellemstore virksomheder."
+description: Få mere at vide om funktioner og arbejdsscenarier i Business Central, der er en forretningsstyringsløsning til små og mellemstore virksomheder.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: da-dk
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792654"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduktion til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Tilmelding er nemt, og du kan overflytte eksisterende forretningsdata fra dit gamle system. For at hjælpe dig med dit abonnement, kan du finde en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
 
-Når du tilmelder dig eksempelversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)], får du adgang til en demonstrationsvirksomhed. Demonstrationsvirksomheden indeholder eksempeldata, men du kan oprette dine egne salgsdokumenter f.eks eller oprette en bankkonto.  
+Når du tilmelder dig eksempelversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)], får du adgang til et demoregnskab. Demoregnskabet indeholder eksempeldata, men du kan oprette dine egne salgsdokumenter f.eks eller oprette en bankkonto.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Lære [!INCLUDE[d365fin](includes/d365fin_md.md)] at kende
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er nogle ting genkendelige for dig, mens andet måske er nyt. I demonstrationsregnskabet forklarer visuelle vejledninger de grundlæggende funktioner og hjælper dig med at afprøve daglige opgaver som oprettelse af en salgsfaktura og visning af en rapport. Hvis du forlader en vejledning, f.eks. for selv at undersøge [!INCLUDE[d365fin](includes/d365fin_md.md)], men vil vende tilbage til den, skal du gå tilbage til Rollecenter og starte introduktionsguiden. Hvis du vil have yderligere hjælp, kan du finde en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -36,7 +36,7 @@ Du kan finde hurtige og nyttige tip i:
 
 Du kan finde flere oplysninger i [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](across-business-functionality.md). Hvis du vil have en oversigt over nuværende og kommende funktioner, skal du kigge nærmere på vores produktbemærkninger på [Produktbemærkninger til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](across-business-functionality.md). Hvis du vil have en oversigt over nuværende og kommende funktioner, kan du kigge nærmere på vores produktbemærkninger under [Produktbemærkninger til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Rollecentrene
 Siden Rollecenter er baseret på et rollecentreret design, som giver hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige rollecentre ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).
@@ -61,7 +61,7 @@ På siden **Assisteret opsætning** kan du finde følgende sammen med oplevelsen
 | Konfigurer rapportering |Konfigurerer datasæt, som du kan bruge til at oprette effektive rapporter ved hjælp af f.eks. Excel eller Power BI. |
 | Konfigurer et godkendelsesworkflow for vare |Gør det muligt at sende en notifikation til en godkender, når en bruger ændrer eller opretter en vare. |
 | Konfigurer et godkendelsesworkflow for betaling |Gør det muligt for en bruger, der sender betalingskladdelinjer til godkendelse, at sende en meddelelse til godkenderen. |
-| Opsætte Konnektor til Business Central |Opretter forbindelse til Dynamics 365 for Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
+| Konfigurere Konnektor til Business Central |Opretter forbindelse til Dynamics 365 for Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
 | Konfigurere salgsafgifter |Hjælper dig i gang med standardskattegrupper og tildeler skatteområdekoder, som du kan tildele til debitorer og kreditorer for automatisk at beregne salgsafgifter i salgs- eller købsdokumenter. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Afprøvning af funktioner i dit eget regnskab
@@ -94,9 +94,8 @@ Hvis du er revisor, kan du tilmelde dig [!INCLUDE[d365acc_long](includes/d365acc
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som min virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobilenhed](install-mobile-app.md)  
 [Dokumentation til Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Produktbemærkninger til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Central Produktbemærkninger](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

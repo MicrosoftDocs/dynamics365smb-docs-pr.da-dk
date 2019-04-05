@@ -1,6 +1,6 @@
 ---
 title: Konfigurere rapportering til Business Central i Power BI | Microsoft Docs
-description: "Gøre dine data tilgængelige som en datakilde i Power BI og opbygge nyttige rapporter over status for din virksomhed."
+description: Gøre dine data tilgængelige som en datakilde i Power BI og opbygge nyttige rapporter over status for din virksomhed.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ca4c27eaa1fe66e9bee678d6ec197fee7b928bdd
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793018"
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Brug af [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] som Power BI-datakilde til oprettelse af rapporter
-Du kan gøre dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data tilgængelige som en datakilde i Power BI og opbygge nyttige rapporter over status for din virksomhed.  
+Du kan gøre dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data tilgængelige som datakilde i Power BI og opbygge nyttige rapporter over status for din virksomhed.  
 
 Du skal have en gyldig konto til [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] og til Power BI. Desuden skal du hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
 
@@ -38,7 +38,7 @@ Når dataene er indlæst, vises de i den rigtige navigation på siden. Nu har du
 
 Før du opretter rapporten, anbefales det, at du importerer Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-temafilen.  Temafilen opretter en farvepalet, så du kan oprette rapporter med de samme farvenuancer som Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-indholdspakker, uden at du skal definere brugerdefinerede farver til hvert visuelle element.
 
-Du kan finde flere oplysninger i [Power BI-dokumentationen](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
+Der er flere oplysninger i [Power BI-dokumentationen](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>Se også
 [Business Intelligence](bi.md)  
@@ -46,5 +46,4 @@ Du kan finde flere oplysninger i [Power BI-dokumentationen](https://powerbi.micr
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Finans](finance.md)  
-[Forbinde Power BI til [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  
-
+[Forbinde Power BI med [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  

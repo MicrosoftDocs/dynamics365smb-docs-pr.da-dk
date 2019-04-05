@@ -1,8 +1,8 @@
 ---
-title: "Sådan arbejder du med moms af salg og køb | Microsoft Docs"
-description: "I dette emne beskrives, hvordan du udfører opgaver som at korrigere bogført moms i EU-lande/områder, hvor der beregnes moms af alle salgs- og købstransaktioner. I dette emne kan du læse, hvordan du gør."
+title: Sådan arbejder du med moms af salg og køb | Microsoft Docs
+description: I dette emne beskrives, hvordan du udfører opgaver som at korrigere bogført moms i EU-lande/områder, hvor der beregnes moms af alle salgs- og købstransaktioner. I dette emne kan du læse, hvordan du gør.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792860"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
-Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms] (finance-setup-vat.md).
+Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
 
 Der er dog nogle opgaver i forbindelse med moms, der kan udføres manuelt. Du kan f.eks. rette et bogførte beløb, hvis du opdager, at en leverandør anvender en anden afrundingsmetode.
 
@@ -174,4 +174,3 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringsce
 ## <a name="see-also"></a>Se også  
 [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)   
 [Fremgangsmåde: Rapportere moms til en skattemyndighed](finance-how-report-vat.md)   
-

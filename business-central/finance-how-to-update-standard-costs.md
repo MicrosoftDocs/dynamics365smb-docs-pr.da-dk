@@ -1,23 +1,23 @@
 ---
-title: "Sådan opdateres standardkostpriser | Microsoft Docs"
-description: "Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere de nye omkostninger til den overordnede vare."
+title: Sådan opdateres standardkostpriser | Microsoft Docs
+description: Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere de nye omkostninger til den overordnede vare.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792951"
 ---
 # <a name="update-standard-costs"></a>Opdatere standardkostpriser
 Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere de nye omkostninger til den overordnede vare. Processen består normalt af følgende fire trin:  
@@ -45,6 +45,5 @@ Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-abou
 ## <a name="see-also"></a>Se også  
  [Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)   
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
- [Designoplysninger: Kostmetoder](design-details-costing-methods.md) [[Finans](finance.md)  
+ [Designoplysninger: Kostmetoder](design-details-costing-methods.md) [Finans](finance.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

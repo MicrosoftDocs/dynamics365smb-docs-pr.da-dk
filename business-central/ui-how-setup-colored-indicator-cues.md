@@ -1,8 +1,8 @@
 ---
-title: "Tilpasse visuelle signaler om en køindikators aktivitet | Microsoft Docs"
-description: "Du kan oprette et farvet symbol i et Køindikator-felt for at levere et tilpasset visuelt signal om køindikatorens aktivitet."
+title: Tilpasse visuelle signaler om en køindikators aktivitet | Microsoft Docs
+description: Du kan oprette et farvet symbol i et Køindikator-felt for at levere et tilpasset visuelt signal om køindikatorens aktivitet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: personalize, customize
 ms.date: 10/01/2018
 ms.author: solsen
 redirect_url: admin-how-set-up-colored-indicator-on-cues
+ms.openlocfilehash: 0547091220aa65562766c25fe6a06d456a2c96ad
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 366d762fbfbd2a61253b087577ef2810194e2c35
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792615"
 ---
 # <a name="set-up-a-colored-indicator-on-cues"></a>Oprette en farvet indikator på køindikatorer
 Du kan oprette køindikatorer, der vises i rollecenteret, for at medtage en indikator, der skifter farve ud fra dataværdierne i køerne.
@@ -46,4 +46,3 @@ Følgende tabel viser de farver, der svarer til indstillingerne for felterne **T
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Forberede overførsel af debitordata | Microsoft Docs"
-description: "Når du har indløst og anvendt opsætningsdataene i den nye database, kan du starte overflytningen af debitorens eksisterende masterdata, som varer og debitornumre og -navne. Hvis du vil sikre, at disse data oprettes hurtigt og præcist i det nye virksomhed, skal du bruge skabeloner til at strukturere dataene."
+title: Forberede overførsel af debitordata | Microsoft Docs
+description: Når du har indløst og anvendt opsætningsdataene i den nye database, kan du starte overflytningen af debitorens eksisterende masterdata, som varer og debitornumre og -navne. Hvis du vil sikre, at disse data oprettes hurtigt og præcist i det nye virksomhed, skal du bruge skabeloner til at strukturere dataene.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "791980"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Forberede overflytning af debitordata
 Når du har indløst og anvendt opsætningsdataene i den nye database, kan du starte overflytningen af debitorens eksisterende masterdata, som varer og debitornumre og -navne. Hvis du vil sikre, at disse data oprettes hurtigt og præcist i det nye virksomhed, skal du bruge skabeloner til at strukturere dataene.  
@@ -115,7 +115,7 @@ Du kan bruge strukturen i de data, der er indeholdt i dataskabelonerne til at ko
 Følgende trin illustrerer, hvordan du opretter et varekort fra en varedataskabelon. Du kan oprette en post fra alle dataskabeloner ved hjælp af samme fremgangsmåde.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
-2. Markér skabelonen **Vare**, og vælg derefter handlingen **Rediger**. Du kan finde flere oplysninger i afsnittet "Sådan oprettes en dataskabelon".
+2. Markér skabelonen **Vare**, og vælg derefter handlingen **Rediger**. Yderligere oplysninger finder du under [Sådan oprettes en dataskabelon](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Vælg handlingen **Opret forekomst**. Der oprettes et varekort.  
 4. Vælg knappen **OK**.  
 5. For at få vist det nye varekort skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Varer** og derefter vælge det relaterede link.  
@@ -140,4 +140,3 @@ Standardværdierne fra den valgte debitorskabelon indsættes i debitorkortet.
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)  
 [Registrere nye debitorer](sales-how-register-new-customers.md)
-

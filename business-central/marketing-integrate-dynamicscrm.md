@@ -1,7 +1,7 @@
 ---
-title: "Administrere kunder ved hjælp af Dynamics 365 for Sales | Microsoft Docs"
-description: "Du kan bruge Dynamics 365 for Sales fra Business Central til at tilknytte data og få gnidningsløs integration og synkronisering i lead-til-kontant-processen."
-documentationcenter: 
+title: Administrere kunder ved hjælp af Dynamics 365 for Sales| Microsoft Docs
+description: Du kan bruge Dynamics 365 for Sales fra Business Central til at tilknytte data og få gnidningsløs integration og synkronisering i lead-til-kontant-processen.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,18 +11,18 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 01/24/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793352"
 ---
-# <a name="integrating-with-dynamics-365-for-sales"></a>Integrere med Dynamics 365 for Sales
+# <a name="integrating-with-dynamics-365-for-sales"></a>Integration med Dynamics 365 for Sales
 Hvis du bruger Dynamics 365 for Sales til kundeengagementer, kan du bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] til ordrebehandling og økonomi og få problemfri integration i lead-til-kontant-processen.
 
 > [!NOTE]
-> I dette emne antages det, at både [!INCLUDE[d365fin](includes/d365fin_md.md)] og den integrerede Sales-løsning er installeret i et miljø med SaaS. Det er muligt at blande online og lokalt, men det kræver speciel konfiguration. Du kan finde flere oplysninger i [Forberedelse af integration til Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> I dette emne antages det, at både [!INCLUDE[d365fin](includes/d365fin_md.md)] og den integrerede Sales-løsning er installeret i et miljø med SaaS. Det er muligt at blande online og lokalt, men det kræver speciel konfiguration. Du kan finde flere oplysninger i [Forberedelse af integration med Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Når programmet er indstillet til integration med Sales, har du adgang til Sales-data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] og omvendt i nogle tilfælde. Integrationen gør det muligt at arbejde med og synkronisere datatyper, der er fælles for begge tjenester, f.eks. debitorer, kontakter og salgsoplysninger, og holde dataene opdaterede på begge lokationer.  
 
@@ -31,7 +31,7 @@ For eksempel kan sælgeren i Sales bruge prislisterne fra [!INCLUDE[d365fin](inc
 Omvendt kan ordrebehandlere i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndtere særlige karakteristika for salgsordrer, der overføres automatisk eller manuelt fra Sales, f.eks. automatisk oprette og bogføre gyldige salgsordrelinjer for varer eller ressourcer, der blev angivet i Sales som rekvirerede produkter. Du kan finde flere oplysninger i afsnittet "Håndtering af særlige salgsordredata".
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] integrerer kun med Dynamics 365 for Sales. Andre programmer eller løsninger i Dynamics 365, der ændrer standardarbejdsproces eller datamodel i Sales, for eksempel Project Service Automation, kan bryde integrationen mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og Sales.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] kan kun integreres med Dynamics 365 for Sales. Andre programmer eller løsninger i Dynamics 365, der ændrer standardarbejdsproces eller datamodel i Sales, for eksempel Project Service Automation, kan bryde integrationen mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og Sales.
 
 ## <a name="standard-sales-entity-mapping-for-synchronization"></a>Standardenhedstilknytning i Sales til synkronisering
 Sales-enheder, f.eks konti, integreres med tilsvarende [!INCLUDE[d365fin](includes/d365fin_md.md)]-posttyper, f.eks kunder. Når du vil arbejde med Sales-data, skal du oprette tilknytninger, kaldet sammenkædninger, mellem [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster og Sales-enhedsposter. F.eks. kan du oprette en sammenkædning mellem en bestemt kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)] og en tilsvarende konto i Sales.
@@ -140,14 +140,14 @@ For at kontrollere status for individuelle job i en fuldstændig synkronisering 
 Fra siden **Konfiguration af Microsoft Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne siden **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] og i Sales-løsningen, som skal synkroniseres.
 
 ## <a name="handling-special-sales-order-data"></a>Håndtering af særlige salgsordredata
-Salgsordrer i Sales vil automatisk blive overført til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du vælger afkrydsningsfeltet **Opret salgsordrer automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**. På sådanne salgsordrer overføres og knyttes feltet **Navn** på den oprindelige ordre til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Salgsordrer i Sales vil automatisk blive overført til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du markerer afkrydsningsfeltet **Opret salgsordrer automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**. På sådanne salgsordrer overføres og knyttes feltet **Navn** på den oprindelige ordre til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede produkter, hvilket betyder varer eller ressourcer, der ikke er registreret i noget produkt. I så fald skal du udfylde felterne **Rekvireret produkttype** og **Rekvireret produktnr.** på siden **Opsætning af salg og tilgodehavender**, så sådanne ikke-registrerede produktsalg knyttes til et bestemt vare/ressourcenummer for finansielle analyser.
 
 Hvis varebeskrivelsen på den oprindelige salgsordre er meget lang, oprettes der en ekstra salgsordrelinje af typen Bemærkning for at holde hele teksten på salgsordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Se også
-[Forberedelse af integration til Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).  
+[Forberede integration med Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
 [Relationsstyring](marketing-relationship-management.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
@@ -155,4 +155,3 @@ Hvis varebeskrivelsen på den oprindelige salgsordre er meget lang, oprettes der
 [Onboarding af din organisation og dine brugerne i Dynamics 365 (online)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

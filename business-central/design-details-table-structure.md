@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer – Tabelstruktur | Microsoft Docs"
-description: "Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspostlagring og -bogføring er omdesignet."
+title: Designdetaljer – Tabelstruktur | Microsoft Docs
+description: Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspostlagring og -bogføring er omdesignet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900605cd276698e3e6146d18e36ed18363b6c99c
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792399"
 ---
 # <a name="design-details-table-structure"></a>Designoplysninger: Tabelstruktur
 Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspostlagring og -bogføring er omdesignet.  
@@ -26,7 +26,7 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
  Tre nye tabeller er blevet udviklet til at administrere dimensionsgruppeposter.  
 
 ### <a name="table-480-dimension-set-entry"></a>Tabel 480 Dimensionsgruppepost  
- Tabel 480 **Dimensionsgruppepost** er en ny tabel. Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikke slette eller redigere dem. Sletning af data kræver, at du kontrollerer mod alle forekomster af dimensionsgruppe-id'et i hele databasen, herunder partnerløsninger.  
+ Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikke slette eller redigere dem.
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +37,8 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
 |5|**Dimensionsnavn**|Tekst 30|CalcField. Opslag i tabel 348.|  
 |6|**Dimensionsværdinavn**|Tekst 30|CalcField. Opslag i tabel 349.|  
 
-#### <a name="table-481-dimension-set-tree-node"></a>Tabel 481 Trænode for dimensionsgruppe  
- Tabel 481 **Trænode for dimensionsgruppe** er en ny tabel. Denne tabel kan ikke ændres. Det bruges til at søge efter en dimensionsgruppe. Hvis dimensionssættet ikke findes, oprettes et nyt sæt.  
+### <a name="table-481-dimension-set-tree-node"></a>Tabel 481 Trænode for dimensionsgruppe  
+ Denne tabel kan ikke ændres. Det bruges til at søge efter en dimensionsgruppe. Hvis dimensionssættet ikke findes, oprettes et nyt sæt.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +47,8 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
 |3|**Dimensionsgruppe-id**|Heltal|AutoIncrement. Bruges i felt 1 i tabel 480.|  
 |4|**I brug**|Boolesk|Falsk, hvis ikke i brug.|  
 
-##### <a name="table-482-reclas-dimension-set-buffer"></a>Tabel 482 Ompost. dimensionsgruppebuffer  
- Tabel 482 **Ompost. dimensionsgruppebuffer** er en ny tabel. Tabellen bruges til at redigere et dimensionsgruppe-id. Det er nødvendigt, når du redigerer en dimensionsværdikode og en ny dimensionsværdikode, for eksempel i tabellen **Vareomposteringskladde**.  
+### <a name="table-482-reclas-dimension-set-buffer"></a>Tabel 482 Ompost. dimensionsgruppebuffer  
+ Tabellen bruges, når du ændrer en dimensionsværdikode, for eksempel i en varepost, ved hjælp af siden **Vareomposteringskladde**.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
@@ -71,7 +71,7 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 
-#### <a name="changes-to-table-83-item-journal-line"></a>Ændringer i tabel 83-varekladdelinje  
+### <a name="changes-to-table-83-item-journal-line"></a>Ændringer i tabel 83-varekladdelinje  
  Der er tilføjet to nye felter i tabel 83 **Varekladdelinje**.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
@@ -79,14 +79,14 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
 |480|**Dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 |481|**Nyt dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 
-##### <a name="changes-to-table-349-dimension-value"></a>Ændringer i tabel 349-dimensionsværdi  
+### <a name="changes-to-table-349-dimension-value"></a>Ændringer i tabel 349-dimensionsværdi  
  Et nyt felt er blevet føjet til tabel 349 **Dimensionsværdi**.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensionsværdi-id**|Heltal|AutoIncrement. Bruges til referencer i tabel 480 og 481.|  
 
-###### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabeller, der får nyt dimensionsgruppe-id i felt 480  
+### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabeller, der får nyt dimensionsgruppe-id i felt 480  
  Et nyt felt, 480 **Dimensionsgruppe-id**, er blevet føjet til følgende tabeller. For de tabeller, der gemmer bogførte data, indeholder feltet kun en skrivebeskyttet visning af dimensioner, som er markeret som Detailudledning. For de tabeller, der gemmer arbejdsdokumenuer, kan feltet redigeres. De buffertabeller, der bruges internt, behøver ikke redigerbare eller ikke-redigerbare egenskaber.  
 
  Felt 480 kan ikke redigeres i følgende tabeller.  
@@ -195,4 +195,3 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
  [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   
  [Designoplysninger: Kodeenhed 408 Dimensionsstyring](design-details-codeunit-408-dimension-management.md)   
  [Designoplysninger: Kodeeksempler af ændrede mønstre i Ændringer](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

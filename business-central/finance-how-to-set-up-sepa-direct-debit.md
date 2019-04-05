@@ -1,22 +1,22 @@
 ---
 title: Konfigurere SEPA Direct Debit | Microsoft Docs
-description: "Få at vide, hvordan du opsætter SEPA Direct Debit i Business Central."
+description: Få at vide, hvordan du opsætter SEPA Direct Debit i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9e2ef9ec3b454e5a9bb5097ba3ed30c5756d2352
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792253"
 ---
 # <a name="set-up-sepa-direct-debit"></a>Konfigurere SEPA Direct Debit
 Fra siden **Direct Debit-opkrævninger** kan du eksportere instruktioner til din netbank for at udføre en direkte debiteringsopkrævning fra debitorens bankkonto til din bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter SEPA Direct Debit-formatet, men i dit land/område anvendes der muligvis andre formater til elektroniske betalinger.  
@@ -80,4 +80,3 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
 [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)
 [Udveksle data elektronisk](across-data-exchange.md)
-

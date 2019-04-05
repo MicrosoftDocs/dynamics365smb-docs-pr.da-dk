@@ -1,23 +1,23 @@
 ---
 title: Serviceprisstyring | Microsoft Docs
-description: "I dette emne beskrives, hvordan du anvender den bedste pris på serviceordrer, at oprette personlige serviceprisaftaler for debitorer, at forbedre servicemedarbejdernes effektivitet og at forbedre faktureringsprocessen."
+description: I dette emne beskrives, hvordan du anvender den bedste pris på serviceordrer, at oprette personlige serviceprisaftaler for debitorer, at forbedre servicemedarbejdernes effektivitet og at forbedre faktureringsprocessen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: eb3d9b075f7209634cdc8b6f88a24409f18811e7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75c50a7044e3494df5aadb90caa1c008a6ac101c
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793012"
 ---
 # <a name="service-price-management"></a>Serviceprisstyring
 Funktionen til serviceprisstyring gør det muligt at angive den bedste pris på serviceordrer, at oprette personlige serviceprisaftaler for debitorer, at forbedre servicemedarbejdernes effektivitet og at forbedre faktureringsprocessen.  
@@ -60,7 +60,7 @@ Det samlede reguleringsbeløb beregnes afhængigt af serviceprisreguleringstypen
   
 Følgende tabel beskriver beregningerne.  
   
-|Indstilling | Description |  
+|Indstilling | Beskrivelse |  
 |----------------------------------|---------------------------------------|  
 |**Fast pris**|Dette betyder, at du tager en fast pris for serviceartiklen, ressourcen, finanskontoen eller omkostningen, uanset den reelle omkostning eller gebyrer. Hvis du vælger denne indstilling, vil resultatet af serviceprisreguleringen svare til det beløb, der er angivet i serviceprisgruppen.|  
 |**Maksimum**|Dette betyder, at du kan angive en øvre grænse for, hvor meget debitoren skal betale, uanset de reelle omkostninger eller gebyrer. Hvis du vælger denne indstilling, vil serviceprisreguleringen kun blive foretaget, hvis den samlede pris overskrider det beløb, der er angivet i serviceprisgruppen.|  
@@ -69,4 +69,3 @@ Følgende tabel beskriver beregningerne.
 ## <a name="see-also"></a>Se også  
 [Konfigurere prissætning og ekstra omkostninger for services](service-how-setup-service-costs-pricing.md)  
 [Konfigurere Service](service-setup-service.md)  
-

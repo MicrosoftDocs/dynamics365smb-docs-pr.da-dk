@@ -1,23 +1,23 @@
 ---
-title: "Indsaml debitoropsætningsværdier | Microsoft Docs"
-description: "Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i Business Central og derefter give den til kunden som en Excel- (.xls) eller XML-fil."
+title: Indsaml debitoropsætningsværdier | Microsoft Docs
+description: Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i Business Central og derefter give den til kunden som en Excel- (.xls) eller XML-fil.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792657"
 ---
 # <a name="gather-customer-setup-values"></a>Indsaml debitoropsætningsværdier
 Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i [!INCLUDE[d365fin](includes/d365fin_md.md)] og derefter give det til kunden som en Excel- eller XML-fil.  
@@ -121,4 +121,3 @@ Du har nu konfigureret opsætning med debitorens forretningsmæssige oplysninger
 ## <a name="see-also"></a>Se også  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
-

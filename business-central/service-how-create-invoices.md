@@ -1,23 +1,23 @@
 ---
 title: Opret fakturaer eller kreditnotaer for serviceydelser | Microsoft Docs
-description: "Få at vide, hvordan du opretter fakturaer, så du kan få betaling for dine ydelser."
+description: Få at vide, hvordan du opretter fakturaer, så du kan få betaling for dine ydelser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a0c8cc9444c1b6979843beff55cc9e792ec188d0
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792957"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Oprette servicefakturaer eller -kreditnotaer
 En nøgleegenskab i [!INCLUDE[d365fin](includes/d365fin_md.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan sende en faktura til kunderne på et valgfrit tidspunkt eller oprette fakturaer periodisk.  
@@ -102,4 +102,3 @@ Et servicekreditnotadokument bruges normalt, når en kunde returnerer en vare, m
 [Bogføre servicefakturaer](service-how-to-post-service-orders.md)  
 [Konfigurere Service](service-setup-service.md)  
 [Bogføring af tjenesten](service-service-posting.md)  
-

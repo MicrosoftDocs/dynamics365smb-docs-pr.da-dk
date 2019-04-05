@@ -1,24 +1,24 @@
 ---
-title: "Designoplysninger – Afstemning af forsyning med behov | Microsoft Docs"
-description: "Kernen i planlægningssystemet omfatter udlignende efterspørgsel og udbud ved at foreslå brugerhandlinger for at revidere forsyningsordrer, når der er ubalance. Dette sker pr. kombination af variant og lokation."
+title: Designoplysninger – Afstemning af forsyning med behov | Microsoft Docs
+description: Kernen i planlægningssystemet omfatter udlignende efterspørgsel og udbud ved at foreslå brugerhandlinger for at revidere forsyningsordrer, når der er ubalance. Dette sker pr. kombination af variant og lokation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792224"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Designoplysninger: Afstemning af forsyning med behov
 Kernen i planlægningssystemet omfatter udlignende efterspørgsel og udbud ved at foreslå brugerhandlinger for at revidere forsyningsordrer, når der er ubalance. Dette sker pr. kombination af variant og lokation.  
@@ -118,4 +118,3 @@ Før udligning af forsyning med behov, sletter programmet alle eksisterende ordr
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-

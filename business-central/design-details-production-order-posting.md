@@ -1,23 +1,23 @@
 ---
-title: "Designoplysninger – Bogføring af produktionsordre | Microsoft Docs"
-description: "I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet."
+title: Designoplysninger – Bogføring af produktionsordre | Microsoft Docs
+description: I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792945"
 ---
 # <a name="design-details-production-order-posting"></a>Designoplysninger: Bogføring af produktionsordre
 I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet. Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md). Men montageordrers kost-flow er mindre kompliceret, især fordi montageomkostninger kun bogføres én gang og derfor ikke opretter lageret for igangværende arbejde.
@@ -47,7 +47,7 @@ Afhængigt af typen af lager repræsenteres forøgelser og reduceringer af forsk
 ||Forøgelse|Reducering|  
 |-|---------------|---------------|  
 |**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Afgang af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
-|**VIA-lagerbeholdning**|-   Materialeforbrug<br />-   (Forbrug, kapacitet)<br />-   Indirekte prod.kostpris|Afgang af færdigvarer (omkostninger af fremstillede varer)|  
+|**VIA-lagerbeholdning**|-   Materialeforbrug<br />-   Kapacitetsforbrug<br />-   Indirekte prod.kostpris|Afgang af færdigvarer (omkostninger af fremstillede varer)|  
 |**Færdigvarelager**|Afgang af færdigvarer (omkostninger af fremstillede varer)|-   Salg (vareforbrug)<br />-   Negativ afgang|  
 |**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Afgang af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
 
@@ -112,4 +112,3 @@ I miljøer med standardkostpriser er omkostninger for en produktionsordre basere
  [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md) [Finans](finance.md)  
  [Arbejde med Business Central](ui-work-product.md)
-

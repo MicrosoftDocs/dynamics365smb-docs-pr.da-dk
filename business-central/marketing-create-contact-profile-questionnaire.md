@@ -1,6 +1,6 @@
 ---
 title: Bruge profiler til at klassificere kontakter
-description: "Definere profilspørgeskemaer for at klassificere dine forretningskontakter"
+description: Definere profilspørgeskemaer for at klassificere dine forretningskontakter
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
+ms.openlocfilehash: 1007bdb689b72cf3eccfc5c15c2df9e3c760d8b3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792479"
 ---
-
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruge profilspørgeskemaer til at klassificere forretningskontakter
 Du kan definere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler. Du kan i det enkelte spørgeskema definere forskellige spørgsmål, du vil stille dine kontaktpersoner.  
 
@@ -158,7 +157,4 @@ Udfyld derefter siden **Oplysninger om profilspørgsmål** på følgende måde:
 Når du tildeler et profilspørgeskema med disse spørgsmål til en kontakt, udfyldes de relevante svar for kontakten automatisk på profillinjerne på kontaktkortet.
 
 ## <a name="see-also"></a>Se også
-[Oprette kontaktpersoner](marketing-create-contact-persons.md)  
-[Oprette kontaktpersoner](marketing-how-create-contact-persons.md)  
-[Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  
-
+[Oprettelse af kontakter](marketing-create-contact-companies.md)  

@@ -1,8 +1,8 @@
 ---
 title: Behandle salgsreturvarer eller annulleringer | Microsoft Docs
-description: "Beskriver, hvordan du kan oprette og bogføre en købskreditnota, når du returnerer varer til en leverandør eller annullerer købte tjenester."
+description: Beskriver, hvordan du kan oprette og bogføre en købskreditnota, når du returnerer varer til en leverandør eller annullerer købte tjenester.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: eef48d2390a497692b19b0ce6eae6afc654f8d22
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792300"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle købsreturvarer eller annulleringer
 Hvis du skal returnere varer til din kreditor eller annullere serviceydelser, som du har købt, kan du oprette og bogføre en købskreditnota, der angiver den ønskede ændring for den oprindelige købsfaktura. Du kan oprette købskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte købsfakturaoplysninger, eller du kan oprette en ny købskreditnota med kopierede fakturaoplysninger.
 
-Hvis du ønsker større kontrol over købsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved returnering af varer fra flere købsdokumenter i én købsreturnering, kan du oprette købsreturvareordrer. En købsreturvareordre udsteder automatisk den relaterede købskreditnota. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter".
+Hvis du ønsker større kontrol over købsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved returnering af varer fra flere købsdokumenter i én købsreturnering, kan du oprette købsreturvareordrer. En købsreturvareordre udsteder automatisk den relaterede købskreditnota. Yderligere oplysninger finder du i [Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 > [!NOTE]  
 >   Hvis en bogført købsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte købsfaktura, så du automatisk tilbagefører de pågældende transaktioner. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -42,7 +42,7 @@ Der findes to funktioner til at tildele præcis kostprisudligning automatisk.
 
 |Funktion|Beskrivelse|  
 |------------------|---------------------------------------|  
-|Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** på siden **Købsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til købsreturvareordren. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en købsreturvareordre og relateret købskreditnota til en eller flere bogførte købsfakturaer".|  
+|Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** på siden **Købsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til købsreturvareordren. Yderligere oplysninger finder du i [Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsfakturaer](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
 |Funktionen **Kopiér dokument** på siderne **Købskreditnota** og **Købsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Købsopsætning**.|
 
 Hvis du vil tildele præcis kostprisudligning manuelt, skal du vælge feltet **Udlign-fra varepost** på en vilkårlig type returdokumentlinje, og derefter vælge nummeret på den oprindelige købspost. På den måde knyttes købskreditnotaen eller købsreturvareordren til den oprindelige købspost, og varen værdiansættes til den oprindelige kostpris.
@@ -78,9 +78,9 @@ Købskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogfø
 6. Vælg feltet **Bilagsnr.** for at åbne siden **Bogf. købsfakturaer**, og vælg derefter den bogførte købsfaktura, der indeholder linjer, som du vil tilbageføre.
 7. Marker afkrydsningsfeltet **Genberegn linjer**, hvis du vil opdatere de kopierede bogførte købsfakturalinjer med eventuelle ændringer i varepris og kostpris, siden fakturaen blev bogført.
 8. Vælg knappen **OK**. De kopierede fakturalinjer skal indsættes i købskreditnotaen.
-9. Udfyld købskreditnotaen, som beskrevet i afsnittet "Sådan oprettes en købskreditnota fra en bogført købsfaktura" i dette emne.
+9. Udfyld købskreditnotaen, som beskrevet i [Sådan oprettes en købskreditnota fra en bogført købsfaktura](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter.
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter.
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsreturvareordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov i oversigtspanelet **Generelt**.
@@ -186,4 +186,3 @@ Når returleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 [Registrere køb](purchasing-how-record-purchases.md)  
 [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

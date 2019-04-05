@@ -1,8 +1,8 @@
 ---
-title: "Knyt en salgsordre til en købsordre til direkte levering | Microsoft Docs"
-description: "Beskriver, hvordan du opretter en salgsordre, der er knyttet til en købsordre for at muliggøre levering direkte fra leverandøren til kunden."
+title: Knyt en salgsordre til en købsordre til direkte levering | Microsoft Docs
+description: Beskriver, hvordan du opretter en salgsordre, der er knyttet til en købsordre for at muliggøre levering direkte fra leverandøren til kunden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 77bed1563a5c0187e78f7e7013dfed4a723d7702
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792765"
 ---
 # <a name="make-drop-shipments"></a>Foretage direkte leveringer
 En direkte levering er en levering af varer fra en af dine leverandører direkte til din kunde.
@@ -36,7 +36,7 @@ Hvis du vil forberede en direkte levering af den vare, der skal sælges, kan du 
 1. Opret en indkøbsordre. Du skal ikke udfylde nogen felter på linjerne. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 2. I feltet **Kundenr** skal du vælge den kunde, som du sælger til.
 3. Vælg handlingen **Direkte leveringer**, og vælg derefter handlingen **Hent salgsordre**.
-4. På siden **Salgsoversigt** skal du vælge den salgsordre, du forberedt i afsnittet "Sådan oprettes en salgsordre til direkte levering".
+4. På siden **Salgsoversigt** skal du vælge den salgsordre, du forberedt i [Sådan oprettes en salgsordre til direkte levering](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 5. Vælg knappen **OK**.
 
 Linjeoplysningerne på salgsordren indsættes på købsordrelinjen(erne).
@@ -50,7 +50,7 @@ Nu kan du bede leverandøren levere varerne til kunden, f.eks. ved at sende køb
 Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du kan også bogføre købsordren, men kun med indstillingen **Modtag**, indtil salgsordren er faktureret.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
-2. Åbn den salgsordre, du oprettede i afsnittet "Sådan oprettes en salgsordre til direkte levering".
+2. Åbn den salgsordre, du oprettede i [Sådan oprettes en salgsordre til direkte levering]().
 3. I feltet **Levér (antal)** skal du angive, hvor mange varer af ordreantallet der skal leveres, hele eller en del af ordreantallet.
 4. Vælg handlingen **Bogfør** eller **Bogfør og send**.
 5. Vælg enten indstillingen **Levér** for at fakturere senere, eller vælg indstillingen **Levér og fakturer** for at fakturere med det samme.
@@ -63,4 +63,3 @@ Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du
 [Salg](sales-manage-sales.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

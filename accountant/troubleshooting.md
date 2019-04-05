@@ -1,6 +1,6 @@
 ---
-title: "Metoder til at fejlfinde eller løse problemer | Microsoft Docs"
-description: "Få at vide, hvordan du kan løse problemerne med Accountant Hub til Dynamics 365."
+title: Metoder til at fejlfinde eller løse problemer | Microsoft Docs
+description: Få at vide, hvordan du kan løse eventuelle problemer med Accountant Hub til Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792817"
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Fejlfinding [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -49,4 +49,3 @@ Når du tilføjer en kunde eller anmoder om en opdatering af dataene, henter [!I
 ## <a name="see-also"></a>Se også
 [Kom i gang med [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
 [Tilføje kunder til dit dashboard i [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
-

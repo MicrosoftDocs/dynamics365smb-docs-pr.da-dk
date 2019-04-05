@@ -1,26 +1,26 @@
 ---
-title: "Sådan bruges RapidStart Services-rolleimplementeringscenter | Microsoft Docs"
-description: "Når du bruger RapidStart Services, anbefales det, at du sporer dit arbejde og bruger RapidStart Services-rolleimplementeringscenter, som indeholder den korrekte kontekst til dit konfigurationsarbejde."
+title: Sådan bruges RapidStart Services-rolleimplementeringscenter | Microsoft Docs
+description: Når du bruger RapidStart Services, anbefales det, at du sporer dit arbejde og bruger RapidStart Services-rolleimplementeringscenter, som indeholder den korrekte kontekst til dit konfigurationsarbejde.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c00a3e452e59e27e7edaad1fbefcfc50316254df
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572dedec9c00369f405bfc6d3eb4031185f7c780
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792075"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Bruge rollecenteret RapidStart Services-implementering
-Når du bruger RapidStart Services, anbefales det, at du bruger rollecenteret RapidStart Services-implementering, som indeholder den korrekte kontekst til dit konfigurationsarbejde. Yderligere oplysninger finder du i afsnittet "Sådan ændres et rollecenter" i [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).
+Når du bruger RapidStart Services, anbefales det, at du bruger rollecenteret RapidStart Services-implementering, som indeholder den korrekte kontekst til dit konfigurationsarbejde. Du kan finde flere oplysninger under [Sådan ændres rollecentret](ui-change-basic-settings.md#to-change-role-center).
 
 Når du fortsætter med dit arbejde, kan du tildele hver tabel den status, som afspejler, hvor du befinder dig i processen. [!INCLUDE[d365fin](includes/d365fin_md.md)] holder derefter styr på status for tabellen i delen **Aktiviteter** i rollecenteret.  
 
@@ -46,4 +46,3 @@ I delen **Konfigurationsområder** vises fuldførelsesstatistikker for de områd
 ## <a name="see-also"></a>Se også  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
-

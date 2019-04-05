@@ -1,6 +1,6 @@
 ---
-title: "Udligne betalinger til relaterede dokumenter og bogføre dem | Microsoft Docs"
-description: "Beskriver, hvordan du registrerer betalinger, du foretager til leverandører, og refusioner, du foretager til kunder."
+title: Udligne betalinger til relaterede dokumenter og bogføre dem | Microsoft Docs
+description: Beskriver, hvordan du registrerer betalinger, du foretager til leverandører, og refusioner, du foretager til kunder.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 7b3065dd0528588fec4c05e4e9c391a3beb1cc9a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793009"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrere indbetalinger og refusioner i udbetalingskladden
 
@@ -25,9 +25,9 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 
 - Udligne betalinger til fakturaer eller kreditnotaer
 
-    Hvis du udfylder feltet **Udligningsbilagsnr.** med den faktura eller kreditnota, der skal betales eller refunderes, indstillet det pågældende dokument til betalt, når du bogfører kladden. Det betegnes "udlignet". Som et alternativ til udligning under bogføring af betalingen, kan du bruge siderne **Udlign kred.poster** og **Udlign debitorposter**, når du har foretaget bogføringen af betalingen. Du kan finde flere oplysninger i f.eks. [Udligne kreditorbetalinger manuelt](payables-how-apply-purchase-transactions-manually.md).  
+    Hvis du udfylder feltet **Udligningsbilagsnr.** med den faktura eller kreditnota, der skal betales eller refunderes, indstillet det pågældende dokument til betalt, når du bogfører kladden. Det betegnes "udlignet". Som et alternativ til udligning under bogføring af betalingen, kan du bruge siderne **Udlign kred.poster** og **Udlign debitorposter**, når du har foretaget bogføringen af betalingen. Du kan finde flere oplysninger i f.eks. [Afstemme kreditorbetalinger med udbetalingskladden eller fra kreditorposter](payables-how-apply-purchase-transactions-manually.md).  
 
-- Få foreslåede betalinger til leverandører eller medarbejdere 
+- Få foreslåede betalinger til leverandører eller medarbejdere
 
     Funktionerne **Lav forslag** og **Foreslå medarbejderbetalinger** kan hjælpe dig med at udfylde betalingskladdelinjer automatisk i overensstemmelse med kreditorprioriteringen og forfaldsdatoer. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md). Med denne funktion er feltet **Udligningsbilagsnr.** altid udfyldt.  
 
@@ -35,7 +35,7 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 
     Ud over at registrere, at betalingen er foretaget, kan du også bruge siden **Udbetalingskladde** til at sende betalingen til yderligere behandling i banken. Du kan finde flere oplysninger i [Foretage betalinger med check](payables-how-work-checks.md) og [Foretage elektroniske betalinger](payables-how-export-payments-bank-file.md).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Foretage betalinger i udbetalingskladden 
+## <a name="to-make-payments-in-the-payment-journal"></a>Foretage betalinger i udbetalingskladden
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. Åbn det kladdenavn, der er dedikeret til betalinger.
@@ -57,4 +57,3 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

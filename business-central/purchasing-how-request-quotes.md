@@ -1,7 +1,7 @@
 ---
-title: "Oprette en købsrekvisition for at få et tilbud | Microsoft Docs"
-description: "Beskriver, hvordan du opretter et salgstilbuds- eller tilbudsanmodningsdokument for at registrere dit tilbud til en kunde om at sælge produkter i henhold til bestemte betingelser."
-documentationcenter: 
+title: Oprette en købsrekvisition for at få et tilbud | Microsoft Docs
+description: Beskriver, hvordan du opretter et salgstilbuds- eller tilbudsanmodningsdokument for at registrere dit tilbud til en kunde om at sælge produkter i henhold til bestemte betingelser.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: rfq
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: a243df7928e6468cc3490966331b325134f6cc37
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792977"
 ---
 # <a name="request-quotes"></a>Anmode om tilbud
 Du kan bruge en købsrekvisition som foreløbig kladde til en købsordre for senere at konvertere ordren til en købsfaktura eller en ordre.
@@ -38,4 +38,3 @@ Købsrekvisitionen fjernes fra databasen. En købsfaktura eller indkøbsordre op
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

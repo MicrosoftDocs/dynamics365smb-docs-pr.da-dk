@@ -1,8 +1,8 @@
 ---
 title: Synkronisering af kontakter med debitorer og kreditorer | Microsoft Docs
-description: "Du kan sammenkæde eller synkronisere kontaktoplysninger for kontakter, der også er debitorer, kreditorer eller bankkonti, så du kun opdaterer oplysninger ét sted."
+description: Du kan sammenkæde eller synkronisere kontaktoplysninger for kontakter, der også er debitorer, kreditorer eller bankkonti, så du kun opdaterer oplysninger ét sted.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,17 +13,15 @@ ms.search.keywords: relationship, CRM, integration, couple
 ms.date: 10/01/2018
 ms.author: edupont
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 4785e0644e2cb4c615ed79fbd23bef74d25ca547
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 84cb3a6a96826ad5e3d1824ed5182dfcd972d0b3
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792418"
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisering af kontakter med debitorer, kreditorer og bankkonti
 Hvis nogle af dine kontakter også er debitorer, kreditorer eller bankkonti, kan du synkronisere kontaktoplysningerne med den relaterede debitor, kreditor eller bankkonto. Synkroniseringen gør oplysninger, der er fælles for kontakter og debitorer, kreditorer eller bankkonti, ens.  
-
-Du skal angive en forretningsrelationskode for debitorer, kreditorer eller bankkonti på siden **Marketingopsætning**, før du kan synkronisere kontakter med disse. Du kan finde flere oplysninger under [Konfigurere Relationsstyring](marketing-setup-marketing.md).
 
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Forskellige måder at synkronisere kontakter med debitorer, kreditorer og bankkonti
 Du kan synkronisere kontakter med debitorer, kreditorer eller bankkonti på tre måder:
@@ -48,4 +46,3 @@ Hvis kontakten synkroniseres med debitoren, kreditoren, bankkontoen:
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

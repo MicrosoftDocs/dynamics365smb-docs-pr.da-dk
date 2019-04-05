@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1c1bcb570f06719cfbb8930667a2f2847003d93c
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792701"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle salgsreturvarer eller annulleringer
 Hvis en debitor ønsker at returnere varer eller få refunderet varer eller serviceydelser, som du har solgt og modtaget betaling for, skal du oprette og bogføre en salgskreditnota, der angiver den ønskede ændring. Du kan oprette salgskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte salgsfakturaoplysninger, eller du kan oprette en ny salgskreditnota med kopierede fakturaoplysninger.
 
-Hvis du ønsker større kontrol over salgsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved modtagelse af varer fra flere salgsdokumenter i én salgsreturnering, kan du oprette salgsreturvareordrer. En salgsreturvareordre udsteder automatisk den relaterede salgskreditnota og andre returvarerelaterede dokumenter, f.eks. en erstatningssalgsordre, hvis det er nødvendigt. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter".
+Hvis du ønsker større kontrol over salgsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved modtagelse af varer fra flere salgsdokumenter i én salgsreturnering, kan du oprette salgsreturvareordrer. En salgsreturvareordre udsteder automatisk den relaterede salgskreditnota og andre returvarerelaterede dokumenter, f.eks. en erstatningssalgsordre, hvis det er nødvendigt. Yderligere oplysninger finder du i [Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
 
 > [!NOTE]  
 >   Hvis en bogført salgsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte salgsfaktura, så du tilbagefører transaktionerne. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan finde flere oplysninger under [Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md).
@@ -40,7 +40,7 @@ Der findes to funktioner til at tildele præcis kostprisudligning automatisk.
 
 |Funktion|Beskrivelse|  
 |------------------|---------------------------------------|  
-|Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** på siden **Salgsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til salgsreturvareordren. Yderligere oplysninger finder du i afsnittet "Sådan oprettes en salgsreturvareordre og relateret salgskreditnota til en eller flere bogførte salgsfakturaer".|  
+|Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** på siden **Salgsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til salgsreturvareordren. Yderligere oplysninger finder du i [Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsfakturaer](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
 |Funktionen **Kopiér dokument** på siderne **Salgskreditnota** og **Salgsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Salgsopsætning**.|
 
 Hvis du vil tildele præcis kostprisudligning manuelt, skal du vælge feltet **Udlign-fra varepost** på en vilkårlig type returdokumentlinje, og derefter vælge nummeret på den oprindelige salgspost. På den måde knyttes salgskreditnotaen eller salgsreturvareordren til den oprindelige salgspost, og varen værdiansættes til den oprindelige kostpris.
@@ -78,9 +78,9 @@ De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, 
 6. Vælg feltet **Bilagsnr.** for at åbne siden **Bogf. salgsfakturaer**, og vælg derefter den bogførte salgsfaktura, der indeholder linjer, som du vil tilbageføre.
 7. Marker afkrydsningsfeltet **Genberegn linjer**, hvis du vil opdatere de kopierede bogførte salgsfakturalinjer med eventuelle ændringer i varepris og kostpris, siden fakturaen blev bogført.
 8. Vælg knappen **OK**. De kopierede fakturalinjer skal indsættes i salgskreditnotaen.
-9. Udfyld salgskreditnotaen, som beskrevet i afsnittet "Sådan oprettes en salgskreditnota fra en bogført salgsfaktura" i dette emne.
+9. Udfyld salgskreditnotaen, som beskrevet i [Sådan oprettes en salgskreditnota fra en bogført salgsfaktura](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents"></a>Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter.
+## <a name="to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter.
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsreturvareordrer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov i oversigtspanelet **Generelt**.
@@ -220,4 +220,3 @@ Du kan også slette individuelle salgsreturordrer manuelt.
 [Konfigurere salg](sales-setup-sales.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

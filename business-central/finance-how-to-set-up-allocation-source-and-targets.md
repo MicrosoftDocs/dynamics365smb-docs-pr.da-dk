@@ -1,24 +1,24 @@
 ---
-title: "Sådan konfigureres fordelingskilde og -mål | Microsoft Docs"
-description: "Hver allokering, der består af en fordelingskilde og mål for en eller flere fordelinger. Fordelingskilden definerer, hvilke omkostninger, der vil blive tildelt. Fordelingsmålet bestemmer, hvortil omkostningerne fordeles."
+title: Sådan konfigureres fordelingskilde og -mål | Microsoft Docs
+description: Hver allokering, der består af en fordelingskilde og mål for en eller flere fordelinger. Fordelingskilden definerer, hvilke omkostninger, der vil blive tildelt. Fordelingsmålet bestemmer, hvortil omkostningerne fordeles.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d8eb48485f0889f4f10931c6642090f8290fe393
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793298"
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Konfigurere fordelingskilde og mål
 Hver allokering består af en fordelingskilde og en eller flere fordelingsmål. Fordelingskilden definerer, hvilke omkostninger, der vil blive tildelt. Fordelingsmålet bestemmer, hvortil omkostningerne fordeles.  
@@ -48,4 +48,3 @@ Hver allokering består af en fordelingskilde og en eller flere fordelingsmål. 
  [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)   
  [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

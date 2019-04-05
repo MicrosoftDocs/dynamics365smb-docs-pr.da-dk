@@ -2,21 +2,21 @@
 title: Overholdelse | Microsoft Docs
 description: Dette indhold indeholder oplysninger om overholdelse i relation til Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: c9c54562e327751190ecaddac57b7c19d3062330
-ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792328"
 ---
 # <a name="compliance"></a>Overholdelse
 Dette indhold indeholder oplysninger om overholdelse i relation til [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -33,4 +33,3 @@ I dette afsnit kan du læse mere om vores tilgang til overholdelse fra et progra
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

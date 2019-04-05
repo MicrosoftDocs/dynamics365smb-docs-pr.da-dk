@@ -1,21 +1,21 @@
 ---
-title: "Designoplysninger – Kostregulering | Microsoft Docs"
-description: "Hovedformålet med kostregulering er at flytte kostprisændringer fremad fra omkostningskilder til modtagerne på basis af en vares kostmetode for at give korrekt lagerværdi."
+title: Designoplysninger – Kostregulering | Microsoft Docs
+description: Hovedformålet med kostregulering er at flytte kostprisændringer fremad fra omkostningskilder til modtagerne på basis af en vares kostmetode for at give korrekt lagerværdi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792380"
 ---
 # <a name="design-details-cost-adjustment"></a>Designoplysninger: Omkostningsregulering
 Hovedformålet med kostregulering er at flytte kostprisændringer fremad fra omkostningskilder til modtagerne på basis af en vares kostmetode for at give korrekt lagerværdi.  
@@ -179,4 +179,3 @@ Hvis du har oprettet den automatiske kostregulering for posteringer, der forekom
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

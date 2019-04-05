@@ -1,8 +1,8 @@
 ---
-title: "Designoplysninger – Lukning af behov og forsyning | Microsoft Docs"
-description: "Dette emne indeholder et forslag til, hvad der skal gøres, når du udfører forsyningsudlignende procedurer."
+title: Designoplysninger – Lukning af behov og forsyning | Microsoft Docs
+description: Dette emne indeholder et forslag til, hvad der skal gøres, når du udfører forsyningsudlignende procedurer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, planning, example, closing, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 73ddbe9746d7681d11e61f10037bf26f792acffa
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6cacf967295944ba720c20203700db30d9ec45c4
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793129"
 ---
 # <a name="design-details-closing-demand-and-supply"></a>Designoplysninger: Lukning af behov og forsyning
 Når de forsyningsudlignende procedurer er blevet udført, er der tre mulige slutsituationer:  
@@ -44,4 +44,3 @@ Dette afslutter beskrivelserne af, hvordan behov og forsyning indlæses, priorit
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-

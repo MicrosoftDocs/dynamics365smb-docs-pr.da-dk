@@ -1,5 +1,5 @@
 ---
-title: "Oprette XMLporte baseret på XML-skemaer | Microsoft Docs"
+title: Oprette XMLporte baseret på XML-skemaer | Microsoft Docs
 description: Bruge XML-skemaer til at konfigurere til dokumentudvekslingsstrukturen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792998"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
 Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstrukturen i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge XML-skemaer til at definere, hvilke dataelementer du vil udveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan udføre dette arbejde på siden **XML-skemafremviser** ved at indlæse XML-skemafilen, vælge de relevante dataelementer og derefter initialisere enten en dataudvekslingsdefinition eller en XMLport.  
@@ -69,7 +69,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Kode til XML-skema**|Angiv den XML-skemafil, du har indlæst i trin 5 i afsnittet "Sådan indlæses en XML-skemafil".|  
-    |**Nyt XMLportnummer**|Angiv nummeret på den XMLport, der er oprettet fra dette XML-skema, når du vælger handlingen **Generér XMLport**.|  
+    |**Nyt XMLport-nr.**|Angiv nummeret på den XMLport, der er oprettet fra dette XML-skema, når du vælger handlingen **Generér XMLport**.|  
 
      Linjerne er nu udfyldt med noder, der repræsenterer alle elementer i XML-skemaet. Noder for elementer, der er obligatoriske i henhold til XML-skemaet, er som standard valgt.  
 
@@ -119,11 +119,11 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 2.  Vælg det relevante XML-skema, og vælg **Åbn XML-skemafremviser** i gruppen **Proces** under fanen **Startside**.  
 
-3.  I feltet **Nyt XMLportnummer** skal du angive det nummer, der tildeles det nye XMLport-objekt, når det er oprettet.  
+3.  I feltet **Nyt XMLport-nr.** skal du angive det nummer, der tildeles det nye XMLport-objekt, når det er oprettet.  
 
 4.  Sørg for, at de relevante noder er valgt. Du kan finde flere oplysninger i afsnittet "Sådan markeres eller fjernes markeringen af noder i et XML-skema".  
 
-5.  Brug fanen **Startside** og gruppen **Proces** til at vælge **Generér XMLPort**, og gem derefter objektet som en .txt-fil på en passende placering.  
+5.  Brug fanen **Startside** og gruppen **Proces** til at vælge **Generér XMLport**, og gem derefter objektet som en .txt-fil på en passende placering.  
 
 6. Indlæs den nye XMLport til [!INCLUDE[d365fin](includes/d365fin_md.md)]-udviklingsmiljøet, og kompiler den.
 
@@ -132,4 +132,3 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 [Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)   
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
 [Om Data Exchange Framework](across-about-the-data-exchange-framework.md)
-

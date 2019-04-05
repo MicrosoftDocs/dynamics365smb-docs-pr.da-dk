@@ -1,23 +1,23 @@
 ---
-title: "Sådan forberedes en konfigurationspakke | Microsoft Docs"
-description: "Når du konfigurerer en ny virksomhed, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken."
+title: Sådan forberedes en konfigurationspakke | Microsoft Docs
+description: Når du konfigurerer en ny virksomhed, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792665"
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
 Når du konfigurerer en ny virksomhed, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken.  
@@ -93,7 +93,7 @@ Brug konfigurationsregnearket til at indsamle og kategorisere de oplysninger, du
 3.  I feltet **Linjetype** skal du vælge **Gruppe**. I feltet **Navn** skal du angive et beskrivende navn.  
 4.  I feltet **Linjetype** skal du vælge **Tabel**. I feltet **Tabel-id** skal du vælge den tabel, du vil medtage i regnearket.  
 
-Du kan nu tildele tabeller til bestemte konfigurationspakker, du har oprettet eller planlægger at oprette. Du kan finde flere oplysninger i afsnittet "Tildele en tabel til en konfigurationspakke".
+Du kan nu tildele tabeller til bestemte konfigurationspakker, du har oprettet eller planlægger at oprette. Du kan finde flere oplysninger i [Sådan tildeles tabel til en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>Arbejde med opgraderede tabeller  
 1. Markér afkrydsningsfeltet **Opgraderet tabel** for at angive en tabel, der ofte bruges under installationen af en typisk kunde, f.eks. tabellen **Finanskonto**. Når en tabel har denne betegnelse, kan en kunde let filtrere sit regneark for at se listen over netop opgraderede tabeller, der kræver opmærksomhed.  
@@ -103,7 +103,7 @@ Du kan nu tildele tabeller til bestemte konfigurationspakker, du har oprettet el
 Når du har defineret de tabeller, der skal behandles som en del af konfigurationen, kan du let tildele tabellerne til konfigurationspakkerne. Du kan kun tildele en tabel til én pakke. I følgende procedure kan du tildele pakken inden for rammerne af konfigurationsregnearket.  
 
 > [!NOTE]  
->  Du kan også oprette en pakke direkte og føje tabeller til den. Du kan finde flere oplysninger i afsnittet "Oprette en konfigurationspakke".
+>  Du kan også oprette en pakke direkte og føje tabeller til den. Du kan finde flere oplysninger i [Sådan oprettes en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
 2. I konfigurationsregnearket skal du vælge en linje eller gruppe af linjer, du vil tildele til en konfigurationspakke, og derefter vælge handlingen **Tildel pakke**.  
@@ -139,4 +139,3 @@ Når du har undersøgt og afprøvet alle konfigurationsoplysninger, kan du forts
 [Konfigurere virksomhedskonfiguration](admin-set-up-company-configuration.md)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
-

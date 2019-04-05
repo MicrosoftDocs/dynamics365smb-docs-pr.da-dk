@@ -1,6 +1,6 @@
 ---
-title: "Sortering af, søgning i og filtrering af lister | Microsoft Docs"
-description: "Arbejde effektivt på lister ved at søge på tværs af dine data, sorterer kolonner og præcisere resultater ved at bruge effektive filtersymboler og tastaturgenveje."
+title: Sortering af, søgning i og filtrering af lister | Microsoft Docs
+description: Arbejde effektivt på lister ved at søge på tværs af dine data, sorterer kolonner og præcisere resultater ved at bruge effektive filtersymboler og tastaturgenveje.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793063"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortering af, søgning i og filtrering af lister
 Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse poster på en liste. Disse omfatter sortering, søgning og filtrering. Du kan anvende nogle eller alle af disse samtidigt til hurtigt at finde eller analysere dataene.
@@ -251,7 +251,7 @@ Når du angiver filterkriterier, kan du også skrive ord, der har en særlig bet
 > Din organisation bruger muligvis brugerdefinerede tokens. For at få mere at vide om det komplette sæt tokens, der er tilgængelige for dig, eller tilføje flere brugerdefinerede tokens, skal du kontakte din administrator. Du kan finde tekniske oplysninger i [Tilføje filtertokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
 
 
-### <a name="me-or-userid-records-assigned-to-you"></a>(%me or %userid) Poster, der er tildelt til dig
+### <a name="me-or-userid-records-assigned-to-you"></a>(%me eller %userid) Poster, der er tildelt til dig
 
 Brug `%me` eller `%userid` ved filtrering af felter, der indeholder bruger-id'et, f.eks. feltet **Tildelt til bruger-id**, for at få vist alle poster, der er tildelt til dig.
 
@@ -287,4 +287,3 @@ Brug `%myvendors` i kreditorfeltet **Nej** til at vise alle poster for kreditore
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Almindelige spørgsmål om søgning og filtrering](ui-search-filter-faq.md)
-

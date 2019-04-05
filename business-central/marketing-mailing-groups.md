@@ -1,8 +1,8 @@
 ---
-title: "Opsætning af mailgrupper for kontakter | Microsoft Docs"
-description: "Du kan bruge mailgrupper til at identificere grupper af kontakter, som skal modtage de samme oplysninger, f.eks. til en marketingkampagne eller et fremstød."
+title: Opsætning af mailgrupper for kontakter | Microsoft Docs
+description: Du kan bruge mailgrupper til at identificere grupper af kontakter, som skal modtage de samme oplysninger, f.eks. til en marketingkampagne eller et fremstød.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 6c089b772c139d0c0e9465f383ab39bd3c125dca
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7f40b94cef953b22684ddcc744de0cfbdb8e0f20
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792431"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Oprette mailgrupper til kontakter
 Du kan bruge mailgrupper til at angive grupper af kontakter, som skal modtage de samme oplysninger. F.eks. kan du oprette en mailgruppe til de kontakter, du vil sende en meddelelse til om at skifte kontor, og en anden gruppe om at sende gaver til andre kontakter.
@@ -43,7 +43,5 @@ Det antal mailgrupper, du har tildelt kontakten, vises i feltet **Antal mailgrup
 Når du har tildelt mailgrupper til kontakter, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se også
-[Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  
-[Oprette kontaktpersoner](marketing-create-contact-persons.md)  
+[Oprettelse af kontakter](marketing-create-contact-companies.md)  
 [Arbejde med Business Central](ui-work-product.md)
-

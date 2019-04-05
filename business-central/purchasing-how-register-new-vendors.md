@@ -1,8 +1,8 @@
 ---
-title: "Oprette et kreditorkort for at registrere en ny leverandør | Microsoft Docs"
-description: "Lær, hvordan du opretter et kreditorkort for at registrere en ny kreditor eller leverandør."
+title: Oprette et kreditorkort for at registrere en ny leverandør | Microsoft Docs
+description: Lær, hvordan du opretter et kreditorkort for at registrere en ny kreditor eller leverandør.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c8f8620d21b9e2187e968d4015fd0f12446d30c9
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793149"
 ---
 # <a name="register-new-vendors"></a>Registrere nye kreditorer
 Kreditorer leverer de produkter, du sælger. Hver kreditor, som du køber fra, skal registreres som et kreditorkort.
@@ -58,4 +58,3 @@ Hvis du vil bruge dette kreditorkort som skabelon, når du opretter nye kreditor
 [Køb](purchasing-manage-purchasing.md)  
 [Registrere køb](purchasing-how-record-purchases.md)   
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

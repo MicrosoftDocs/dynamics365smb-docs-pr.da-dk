@@ -2,21 +2,21 @@
 title: Programoverholdelse | Microsoft Docs
 description: Dette indhold indeholder oplysninger om programoverholdelse i relation til Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: cda5dc10951981a5d2e496c6cd27bb84b875ede0
-ms.contentlocale: da-dk
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792676"
 ---
 # <a name="application-compliance"></a>Programoverholdelse
 Dette indhold indeholder oplysninger om programoverholdelse i relation til [!INCLUDE[d365fin](../includes/d365fin_md.md)], f.eks. internationale standarder for finansiel rapportering, lokal funktionalitet, GDPR og meget mere. Tillid til en løsning til virksomhedsadministration er nøglen til at køre en effektiv virksomhed. Med Business Central har virksomheder muligheder for at strømline forretningsprocesser, samtidig med at de ensartet og omkostningseffektivt følger de stigende krav til regulering og rapportering.
@@ -96,4 +96,3 @@ Microsoft opretter oversatte versioner af Business Central til bestemte lande. D
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

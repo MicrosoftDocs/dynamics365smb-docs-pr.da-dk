@@ -1,8 +1,8 @@
 ---
 title: Bruge udvidelsen PayPal Payments Standard | Microsoft Docs
-description: "Beskriver, hvordan du bruger udvidelsen til at gøre det muligt for kunder at foretage betalinger med PayPal."
+description: Beskriver, hvordan du bruger udvidelsen til at gøre det muligt for kunder at foretage betalinger med PayPal.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 6aa3eec4afc365789b1fd85d64781593156ba068
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792935"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Udvidelsen PayPal Payments Standard
 Kunder kræver hele tiden bedre kundeservice, både med hensyn til produkternes kvalitet, men også med hensyn til leverings- og betalingsindstillinger. Tjenesten PayPal Payments Standard hjælper dig med at øge din kundeservice.
@@ -40,4 +40,3 @@ Du kan finde flere oplysninger i [Aktivere debitorbetaling via PayPal](sales-how
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

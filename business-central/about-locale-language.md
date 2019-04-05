@@ -1,6 +1,6 @@
 ---
-title: "Flere sprog og oversættelse | Microsoft Docs"
-description: "Få mere at vide, hvordan sprog og landestandard påvirker din oplevelse i Business Central."
+title: Flere sprog og oversættelse | Microsoft Docs
+description: Få mere at vide, hvordan sprog og landestandard påvirker din oplevelse i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture
 ms.date: 11/19/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792881"
 ---
 # <a name="changing-language-and-locale"></a>Ændre sprog og landestandard
 
@@ -52,4 +52,3 @@ Det er nemt – rul til bunden af webbrowsersiden, og vælg globussymbolet i ned
 ## <a name="see-also"></a>Se også  
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Introduktion](product-get-started.md)  
-

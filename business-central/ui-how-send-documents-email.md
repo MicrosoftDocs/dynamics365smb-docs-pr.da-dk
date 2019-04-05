@@ -1,7 +1,7 @@
 ---
 title: Oprette dokumentspecifikt mailindhold | Microsoft Docs
-description: "Du kan definere indhold, der skal indsættes i brødteksten i en mail, f.eks. et PayPal-link. Du kan også knytte dokumenter til mails."
-documentationcenter: 
+description: Du kan definere indhold, der skal indsættes i brødteksten i en mail, f.eks. et PayPal-link. Du kan også knytte dokumenter til mails.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a800f24f86227afc2ab45ffcb6d1aaffd608e69e
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792972"
 ---
 # <a name="send-documents-by-email"></a>Sende dokumenter som mail
 For at give oplysningerne i forretningsdokumenter hurtigt til samarbejdspartnere, f.eks betalingsoplysningerne i salgsdokumenter til debitorer, kan du bruge funktionen Rapportlayout til at definere dokumentspecifik tekst, der bliver automatisk indsat i brødteksten i mails. Du kan finde flere oplysninger under [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).
@@ -57,7 +57,7 @@ Følgende fremgangsmåde beskriver, hvordan du sender en bogført salgsfaktura s
 7. I feltet **Vedhæftet fil** er den genererede faktura som standard vedhæftet som en PDF-fil. Vælg opslagsknappen for at åbne filen eller tilknytte en anden.
 8. Brug feltet **Tekst** til at indtaste en kort meddelelse til modtageren.
 
-    Hvis en dokumentspecifik brødtekst i mail er angivet på siden **Rapportvalg - salg**, udfyldes **Brødtekst** automatisk. Du kan finde flere oplysninger i afsnittet "Sådan oprettes dokumentspecifik brødtekst i mail til salgsfakturaer" i dette emne.
+    Hvis en dokumentspecifik brødtekst i mail er angivet på siden **Rapportvalg - salg**, udfyldes **Brødtekst** automatisk. Du kan finde flere oplysninger i [Sådan oprettes dokumentspecifik brødtekst i mail til salgsfakturaer](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
 9. Vælg knappen **OK** for at sende mailen.
 
 > [!NOTE]  
@@ -68,4 +68,3 @@ Følgende fremgangsmåde beskriver, hvordan du sender en bogført salgsfaktura s
 [Konfigurere mail](admin-how-setup-email.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

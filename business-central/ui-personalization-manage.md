@@ -1,8 +1,8 @@
 ---
 title: Styre tilpasningen som en administrator i Business Central | Microsoft Docs
-description: "Få at vide, hvordan du kan tilpasse brugergrænsefladen, så den passer til din måde at arbejde på."
+description: Få at vide, hvordan du kan tilpasse brugergrænsefladen, så den passer til din måde at arbejde på.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: ad3b4cf3be7031ab1c7c4699bed6020fe09bd2d1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 15d7e4aac7989f95f7becc8aa8ed96381a7dc2de
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792738"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Administrere tilpasning som administrator
 <!--NAV in the Web client--> Brugere kan tilpasse deres arbejdsområde, så det passer til deres egne præferencer. Som administrator kan du kan styre og administrere tilpasning ved at deaktivere brugernes mulighed for at tilpasse sider og ved at fjerne alle sidetilpasninger, som brugere har foretaget.
 
 ## <a name="disable-personalization-for-a-profile"></a>Deaktivere tilpasning for en profil
 Du kan forhindre alle brugere, der tilhører en bestemt profil, i at tilpasse deres sider.
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Profiler**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Profilliste**, og vælg derefter det relaterede link.
 2.  Vælg den profil på listen, der skal ændres.
 3. Markér afkrydsningsfeltet **Deaktiver tilpasning**, og vælg derefter knappen **OK**.
 
@@ -66,4 +66,3 @@ Siden **Brugertilpasningskort** giver dig mulighed for at slette tilpasningen p�
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
-

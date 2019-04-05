@@ -2,7 +2,7 @@
 title: Oversigt over opgaver til levering af service | Microsoft Docs
 description: Beskriver opgaver, hvor du kan sikre, at du leverer kvalitetsservice og leverer op til aftaler med kunderne.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793190"
 ---
 # <a name="delivering-service"></a>Levering af service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder funktioner, der kan hjælpe dig med at levere service i henhold til de kontrakter, der er oprettet, og de serviceordrer, virksomheden har forpligtet sig til at opfylde. Virksomhedens serviceteknikere eller serviceekspedient vil se, at udestående serviceordrer er lette at finde, når de bruger **Ordreoversigt**. **Ordreoversigten** giver et samlet overblik over, hvilke ordrer der er igangsat, og hvilke ordrer der er fuldført.  
@@ -46,4 +46,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Planlægning af service](service-plan-service.md)  
 [Opfylde servicekontrakter](service-fulfill-service-contracts.md)  
 [Administrere projekter](projects-manage-projects.md)  
-

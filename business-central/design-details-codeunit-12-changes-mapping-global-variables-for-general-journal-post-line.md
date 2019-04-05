@@ -1,21 +1,21 @@
 ---
-title: "Designoplysninger – Codeunit 12-ændringer i tilknytning af globale variabler for bogføringslinje i finanskladde | Microsoft Docs"
-description: "Følgende ændringer er implementeret i denne version af Business Central."
+title: Designoplysninger – Codeunit 12-ændringer i tilknytning af globale variabler for bogføringslinje i finanskladde | Microsoft Docs
+description: Følgende ændringer er implementeret i denne version af Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9cb19558c8c441eac188504e798ca36d86b599d5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: aae8b02b95d3e385030610533f4b1b7f04602d5e
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792893"
 ---
 # <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Ændringer i Codeunit 12: Kobling af globale variabler for bogføringslinje i finanskladde
 Følgende ændringer er implementeret i denne version af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -28,8 +28,8 @@ Følgende ændringer er implementeret i denne version af [!INCLUDE[d365fin](incl
 |AccountingPeriod@1012 : Record 50;||Ændret til lokal|  
 |GLAcc@1013 : Record 15;||Ændret til lokal|  
 |GLEntry@1014 : Record 17;|GlobalGLEntry@1014 : Record 17;|Omdøbt|  
-|GLEntryTmp@1015 : MIDLERTIDIG record 17;|TempGLEntryBuf@1010 : MIDLERTIDIG record 17;|Omdøbt|  
-|TempGLEntryVAT@1016 : MIDLERTIDIG record 17;|TempGLEntryVAT@1016 : MIDLERTIDIG record 17;|Uændret|  
+|GLEntryTmp@1015 : TEMPORARY Record 17;|TempGLEntryBuf@1010 : TEMPORARY Record 17;|Omdøbt|  
+|TempGLEntryVAT@1016 : TEMPORARY Record 17;|TempGLEntryVAT@1016 : TEMPORARY Record 17;|Uændret|  
 |OrigGLEntry@1017 : Record 17;||Slettet|  
 |VATPostingSetup@1019 : Record 325;||Ændret til lokal|  
 |Cust@1020 : Record 18;||Ændret til lokal|  
@@ -51,12 +51,12 @@ Følgende ændringer er implementeret i denne version af [!INCLUDE[d365fin](incl
 |GenJnlTemplate@1044 : Record 80;||Ændret til lokal|  
 |TaxJurisdiction@1045 : Record 320;||Ændret til lokal|  
 |TaxDetail@1046 : Record 322;|TaxDetail@1046 : Record 322;|Uændret|  
-|FAGLPostBuf@1047 : MIDLERTIDIG record 5637;||Ændret til lokal|  
+|FAGLPostBuf@1047 : TEMPORARY Record 5637;||Ændret til lokal|  
 |UnrealizedCustLedgEntry@1084 : Record 21;|UnrealizedCustLedgEntry@1084 : Record 21;|Uændret|  
 |UnrealizedVendLedgEntry@1085 : Record 25;|UnrealizedVendLedgEntry@1085 : Record 25;|Uændret|  
 |GLEntryVATEntryLink@1087 : Record 253;|GLEntryVATEntryLink@1087 : Record 253;|Uændret|  
-|TempVATEntry@1088 : MIDLERTIDIG record 254;|TempVATEntry@1088 : MIDLERTIDIG record 254;|Uændret|  
-|ReversedGLEntryTemp@1089 : MIDLERTIDIG record 17;||Flyttet til Codeunit17|  
+|TempVATEntry@1088 : TEMPORARY Record 254;|TempVATEntry@1088 : TEMPORARY Record 254;|Uændret|  
+|ReversedGLEntryTemp@1089 : TEMPORARY Record 17;||Flyttet til Codeunit17|  
 |CostAccSetup@1092 : Record 1108;||Ændret til lokal|  
 |GenJnlCheckLine@1048 : Codeunit 11;|GenJnlCheckLine@1001 : Codeunit 11;|Uændret|  
 |ExchAccGLJnlLine@1049 : Codeunit 366;||Ændret til lokal|  
@@ -67,9 +67,9 @@ Følgende ændringer er implementeret i denne version af [!INCLUDE[d365fin](incl
 |JobPostLine@1028 : Codeunit 1001;||Ændret til lokal|  
 |TransferGlEntriesToCA@1091 : Codeunit 1105;||Ændret til lokal|  
 ||PaymentToleranceMgt@1002 : Codeunit 426;|Tilføjet|  
-||AddCurrencyCode@1117 : Code[10];|Tilføjet|  
-|FiscalYearStartDate@1054 : Dato;|FiscalYearStartDate@1011 : Dato;|Uændret|  
-|NextEntryNo@1055 : Heltal;|NextEntryNo@1022 : Heltal;|Uændret|  
+||AddCurrencyCode@1117 : Kode[10];|Tilføjet|  
+|FiscalYearStartDate@1054 : Date;|FiscalYearStartDate@1011 : Date;|Uændret|  
+|NextEntryNo@1055 : Integer;|NextEntryNo@1022 : Integer;|Uændret|  
 |BalanceCheckAmount@1056 : Decimal;|BalanceCheckAmount@1056 : Decimal;|Uændret|  
 |BalanceCheckAmount2@1057 : Decimal;|BalanceCheckAmount2@1057 : Decimal;|Uændret|  
 |BalanceCheckAddCurrAmount@1058 : Decimal;|BalanceCheckAddCurrAmount@1058 : Decimal;|Uændret|  
@@ -80,33 +80,32 @@ Følgende ændringer er implementeret i denne version af [!INCLUDE[d365fin](incl
 |TotalAmount@1063 : Decimal;|TotalAmount@1063 : Decimal;|Uændret|  
 |UnrealizedRemainingAmountCust@1086 : Decimal;|UnrealizedRemainingAmountCust@1086 : Decimal;|Uændret|  
 |UnrealizedRemainingAmountVend@1074 : Decimal;|UnrealizedRemainingAmountVend@1074 : Decimal;|Uændret|  
-|NextVATEntryNo@1064 : Heltal;|NextVATEntryNo@1064 : Heltal;|Uændret|  
-|FirstNewVATEntryNo@1065 : Heltal;|FirstNewVATEntryNo@1065 : Heltal;|Uændret|  
-|NextTransactionNo@1066 : Heltal;|NextTransactionNo@1066 : Heltal;|Uændret|  
-|NextConnectionNo@1067 : Heltal;|NextConnectionNo@1067 : Heltal;|Uændret|  
-|InsertedTempGLEntryVAT@1068 : Heltal;|InsertedTempGLEntryVAT@1027 : Heltal;|Uændret|  
+|NextVATEntryNo@1064 : Integer;|NextVATEntryNo@1064 : Integer;|Uændret|  
+|FirstNewVATEntryNo@1065 : Integer;|FirstNewVATEntryNo@1065 : Integer;|Uændret|  
+|NextTransactionNo@1066 : Integer;|NextTransactionNo@1066 : Integer;|Uændret|  
+|NextConnectionNo@1067 : Integer;|NextConnectionNo@1067 : Integer;|Uændret|  
+|InsertedTempGLEntryVAT@1068 : Integer;|InsertedTempGLEntryVAT@1027 : Integer;|Uændret|  
 |LastDocNo@1069 : Code[20];|LastDocNo@1023 : Code[20];|Uændret|  
-|LastLineNo@1070 : Heltal;||Slettet|  
-|LastDate@1071 : Dato;|LastDate@1021 : Dato;|Uændret|  
-|LastDocType@1072 : ' ,Betaling,Faktura,Kreditnota,Rentenota,Rykker';|LastDocType@1025 : ' ,Betaling,Faktura,Kreditnota,Rentenota,Rykker';|Uændret|  
-|NextCheckEntryNo@1073 : Heltal;|NextCheckEntryNo@1028 : Heltal;|Uændret|  
+|LastLineNo@1070 : Integer;||Slettet|  
+|LastDate@1071 : Date;|LastDate@1021 : Date;|Uændret|  
+|LastDocType@1072 : ' ,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder';|LastDocType@1025 : ' ,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder';|Uændret|  
+|NextCheckEntryNo@1073 : Integer;|NextCheckEntryNo@1028 : Integer;|Uændret|  
 |AddCurrGLEntryVATAmt@1075 : Decimal;|AddCurrGLEntryVATAmt@1017 : Decimal;|Uændret|  
-|CurrencyDate@1076 : Dato;|CurrencyDate@1020 : Dato;|Uændret|  
+|CurrencyDate@1076 : Date;|CurrencyDate@1020 : Date;|Uændret|  
 |CurrencyFactor@1077 : Decimal;|CurrencyFactor@1019 : Decimal;|Uændret|  
-|UseCurrFactorOnly@1078 : Boolesk;|UseCurrFactorOnly@1078 : Boolesk;|Uændret|  
-|NonAddCurrCodeOccured@1079 : Boolesk;|NonAddCurrCodeOccured@1079 : Boolesk;|Uændret|  
-|FADimAlreadyChecked@1080 : Boolesk;|FADimAlreadyChecked@1080 : Boolesk;|Uændret|  
-|AllApplied@1081 : Boolesk;||Ændret til lokal|  
-|OverrideDimErr@1018 : Boolesk;|OverrideDimErr@1018 : Boolesk;|Uændret|  
-|JobLine@1036 : Boolesk;|JobLine@1036 : Boolesk;|Uændret|  
-|Prepayment@1037 : Boolesk;||Slettet|  
-|CheckUnrealizedCust@1082 : Boolesk;|CheckUnrealizedCust@1082 : Boolesk;|Uændret|  
-|CheckUnrealizedVend@1083 : Boolesk;|CheckUnrealizedVend@1083 : Boolesk;|Uændret|  
-|GLEntryNo@1090 : Heltal;|GLEntryNo@1026 : Heltal;|Uændret|  
-||GLSetupRead@1015 : Boolesk;|Tilføjet|  
+|UseCurrFactorOnly@1078 : Boolean;|UseCurrFactorOnly@1078 : Boolean;|Uændret|  
+|NonAddCurrCodeOccured@1079 : Boolean;|NonAddCurrCodeOccured@1079 : Boolean;|Uændret|  
+|FADimAlreadyChecked@1080 : Boolean;|FADimAlreadyChecked@1080 : Boolean;|Uændret|  
+|AllApplied@1081 : Boolean;||Ændret til lokal|  
+|OverrideDimErr@1018 : Boolean;|OverrideDimErr@1018 : Boolean;|Uændret|  
+|JobLine@1036 : Boolean;|JobLine@1036 : Boolean;|Uændret|  
+|Prepayment@1037 : Boolean;||Slettet|  
+|CheckUnrealizedCust@1082 : Boolean;|CheckUnrealizedCust@1082 : Boolean;|Uændret|  
+|CheckUnrealizedVend@1083 : Boolean;|CheckUnrealizedVend@1083 : Boolean;|Uændret|  
+|GLEntryNo@1090 : Integer;|GLEntryNo@1026 : Integer;|Uændret|  
+||GLSetupRead@1015 : Boolean;|Tilføjet|  
 ||AmountRoundingPrecision@1012 : Decimal;|Tilføjet|  
-||CrCardTransactionEntryNo@1013 : Heltal;|Tilføjet|  
+||CrCardTransactionEntryNo@1013 : Integer;|Tilføjet|  
 
 ## <a name="see-also"></a>Se også  
- [Designoplysninger – Codeunit 12-ændringer i procedurer for bogføring af finanskladder | Microsoft Docs](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
-
+ [Designoplysninger – Codeunit 12-ændringer i procedurer for bogføring af finanskladder](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)

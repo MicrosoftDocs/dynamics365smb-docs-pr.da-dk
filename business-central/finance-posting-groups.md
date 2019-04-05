@@ -1,8 +1,8 @@
 ---
-title: "Opsætning af bogføringsgrupper | Microsoft Docs"
-description: "Oversigt over de bogføringsgrupper, du kan bruge til at spare tid og undgå fejl, når du bogfører transaktioner."
+title: Opsætning af bogføringsgrupper | Microsoft Docs
+description: Oversigt over de bogføringsgrupper, du kan bruge til at spare tid og undgå fejl, når du bogfører transaktioner.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: bholtorf
+ms.openlocfilehash: d62742e7dbee8a4f050d95444b66fa06521b707b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792275"
 ---
 # <a name="setting-up-posting-groups"></a>Konfigurere bogføringsgrupper
 Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. De sparer tid, og du undgå nemmere fejl, når du bogfører transaktioner. Transaktionsværdier går til de konti, der er angivet i bogføringsgruppen for den pågældende enhed. Det eneste krav er, at du har en kontoplan. Du kan finde flere oplysninger i [Konfigurere kontoplanen](finance-setup-chart-accounts.md).  
@@ -38,9 +38,9 @@ I følgende tabeller beskrives bogføringsgrupperne under de respektive hovedgru
 
 | Specifikke bogføringsgrupper | Beskrivelse |
 | --- | --- |
-| Debitorbogføringsgrupper |Definer de konti, der skal bruges, når du bogfører transaktioner for tilgodehavender. Hvis du bruger lagerbeholdning med tilgodehavender, vil den virksomhedsbogføringsgruppe, der er tildelt debitorerne, og den produktbogføringsgruppe, der er tildelt lagervaren, bestemme, hvilke konti salgsordrelinjeposterne bogføres på. Konfigurer grupperne på siden **Debitorbogføringsgrupper**. |
+| Debitorbogføringsgrupper |Definer de konti, der skal bruges, når du bogfører transaktioner for tilgodehavender. Hvis du bruger lagerbeholdning med tilgodehavender, vil den virksomhedsbogføringsgruppe, der er tildelt debitorerne, og den produktbogføringsgruppe, der er tildelt lagervaren, bestemme, hvilke konti salgsordrelinjeposterne skal bogføres på. Se "Virksomhedsbogføringsgrupper" og "Produktbogføringsgrupper" under **Generelle bogføringsgrupper** ovenfor. Konfigurer grupperne på siden **Debitorbogføringsgrupper**. |
 | Kreditorbogføringsgrupper |Angiv, hvor der skal bogføres transaktioner for samlekonti, gebyrkonti og kontantrabatkonti. Dette minder om debitorbogføringsgrupper. Konfigurer grupperne på siden **Kreditorbogføringsgrupper**. |
-| Varebogføringsgrupper |Angiv lagerkonti på balancen. Dette er også en god måde at organisere lageret på, så du kan adskille varer efter bogføringsgrupperne, når du opretter rapporter. Konfigurer grupperne på siden **Varebogføringsgrupper**. |
+| Varebogføringsgrupper |Definer varebogføringsgrupper, som du derefter skal tildele til de relevante varekonti på siden **Varebogføringsopsætning**. Det betyder, at når du bogfører poster, der vedrører en vare, bliver de automatisk bogført til den finanskonto, der er defineret for den kombination af varebogføringsgruppe og lokation, som er sammenkædet med varen. Varebogføringsgrupper er også en god måde at organisere lageret på, så du kan adskille varer efter deres bogføringsgrupper, når du opretter rapporter. Konfigurer grupperne på siden **Varebogføringsgrupper**. |
 | Bankkontobogføringsgrupper |Angiv bankkonti for bankkonti. Dette kan f.eks. forenkle processer til sporing af transaktioner og afstemning af bankkonti. Konfigurer dem på siden **Bankkontobogføringsgrupper**. |
 | Anlægsbogføringsgrupper |Angiv konti for forskellige typer udgifter og omkostninger, f.eks. anskaffelser, akkumulerede afskrivningsbeløb, anskaffelse ved afgang, afskrivning ved afgang, gevinst ved afgang, tab ved afgang, reparationer og afskrivning ved drift. Konfigurer grupperne på siden **Anlægsbogføringsgrupper**. |
 
@@ -79,4 +79,3 @@ Jo flere produkt- og virksomhedsbogføringsgrupper, du har, jo flere linjer ser 
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

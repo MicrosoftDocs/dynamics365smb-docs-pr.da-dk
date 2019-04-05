@@ -1,18 +1,18 @@
 ---
 title: Administrere brugere og roller | Microsoft Docs
-description: "Lære at administrere brugere og rollecentre i Business Central."
+description: Lære at administrere brugere og rollecentre i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/24/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793030"
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Forstå brugere, profiler og rollecentre
 
@@ -99,4 +99,3 @@ Brugene tilpasser brugergrænsefladen i deres personlige version ved at tilpasse
 [Administrere brugere og deres rettigheder](ui-how-users-permissions.md)  
 [Administrere tilpasning som administrator](ui-personalization-manage.md)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
-

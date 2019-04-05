@@ -1,26 +1,30 @@
 ---
-title: "Sådan arkiveres salgs- og købsdokumenter | Microsoft Docs"
-description: "Du kan arkivere salgs- og købsdokumenter, ordrer, tilbud, returvareordrer og rammeordrer, og du kan bruge det arkiverede dokument til at genskabe det dokument, som det blev arkiveret fra."
+title: Sådan arkiveres salgs- og købsdokumenter | Microsoft Docs
+description: Du kan arkivere salgs- og købsdokumenter, ordrer, tilbud, returvareordrer og rammeordrer, og du kan bruge det arkiverede dokument til at genskabe det dokument, som det blev arkiveret fra.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/14/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2f05313d30aede255e4ef49065f0189d649ce93c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793192"
 ---
 # <a name="archive-documents"></a>Arkivere dokumenter
-Du kan arkivere salgs- og købsdokumenter, ordrer, tilbud, returvareordrer og rammeordrer, og du kan bruge det arkiverede dokument til at genskabe det dokument, som det blev arkiveret fra.
+Du kan arkivere salgs- og købsordrer, tilbud, returvareordrer og rammeordrer, f.eks. fordi du vil gemme en kopi af et dokument til senere genbrug. Du kan arkiverer et salgs- eller købsdokument flere gange og gemme en ny arkiveret version hver gang.
+
+For arkiverede dokumenter, hvor originalen stadig findes og ikke er bogført, kan du bruge funktionen **Gendan**, hvis du vil overskrive originalen med den arkiverede version af dokumentet. Dette er nyttigt, hvis du vil gendanne indholdet af et dokument i en tidligere tilstand.
+
+Du kan kun genbruge indholdet af arkiverede dokumenter, hvor originalen er sletter, ved at kopiere dataene, for eksempel med funktionen **Kopiér dokument**.   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Sådan konfigurerer du automatisk dokumentarkivering  
 Du kan konfigurere automatisk arkivering af salgs- og indkøbsordrer, tilbud, rammeordrer og returordrer, før du sletter dokumenter.
@@ -42,15 +46,15 @@ Nedenstående procedure beskriver, hvordan du arkiverer en salgsordre. Fremgangs
 2.  Åbn en salgsordre, som du vil arkivere.  
 3.  Vælg handlingen **Arkivér bilag**.
 
-Salgsordren arkiveres. Du kan se den på siden **Arkiverede salgsordrer**. Her kan du også bruge den til at genskabe den salgsordre, som den blev arkiveret fra.
+Salgsordren arkiveres. Du kan se den på siden **Arkiverede salgsordrer**.
 
-## <a name="to-recreate-a-sales-order-from-the-archive"></a>Sådan genoprettes en salgsordre fra arkivet
-Nedenstående procedure beskriver, hvordan du genopretter en salgsordre. Fremgangsmåden er den samme for alle ordrer, rammeordrer, returvareordrer og tilbud.
+## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Sådan gendannes en ikke-bogført salgsordre fra arkivet
+Følgende procedure beskriver, hvordan du får indholdet af en arkiveret salgsordre tilbage til den oprindelige salgsordre. Det er kun muligt, når det oprindelige dokument ikke er bogført. Fremgangsmåden er den samme for alle ordrer, rammeordrer, returvareordrer og tilbud.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arkiverede salgsordrer**, og vælg derefter det relaterede link.
-2.  Vælg den arkiverede salgsordre, du vil genoprette, og vælg derefter handlingen **Gendan**.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arkiverede salgsordrer**, og vælg derefter det relaterede link.
+2. Vælg den arkiverede salgsordre eller en version af den, som du vil gendanne, og vælg derefter handlingen **Gendan**.  
 
-Salgsordren oprettes og føjes til siden **Salgsordrer**.
+Oplysningerne i den oprindelige salgsordre erstattes med oplysningerne fra den valgte arkiverede version.
 
 ## <a name="to-delete-archived-sales-orders"></a>Sådan sletter du arkiverede salgsordrer
 Nedenstående procedure beskriver, hvordan du sletter arkiverede salgsordrer. Trinene er de samme for andre arkiverede salgs- og købsdokumenter.
@@ -64,4 +68,3 @@ Nedenstående procedure beskriver, hvordan du sletter arkiverede salgsordrer. Tr
 [Salg](sales-manage-sales.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

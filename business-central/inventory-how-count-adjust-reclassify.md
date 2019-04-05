@@ -1,6 +1,6 @@
 ---
-title: "Tælle, justere og ompostere inventar | Microsoft Docs"
-description: "Beskriver, hvordan du foretager fysisk optælling, foretag negative eller positive reguleringer, hvordan du kan redigere oplysninger, f.eks. placering eller lotnummer, på vareposter eller lagerstedsposter."
+title: Tælle, justere og ompostere inventar | Microsoft Docs
+description: Beskriver, hvordan du foretager fysisk optælling, foretag negative eller positive reguleringer, hvordan du kan redigere oplysninger, f.eks. placering eller lotnummer, på vareposter eller lagerstedsposter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 392b997b5122d7a1419c6b134a2723644fc82cb2
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792517"
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a>Tælle, justere og ompostere inventar
 Mindst én gang hvert regnskabsår skal der foretages lageropgørelse, dvs. alle varer i lagerbeholdningen optælles for at se, om det antal, der er registreret i databasen, svarer til det faktiske fysiske antal på lagerstederne. Når det faktiske fysiske antal kendes, skal det bogføres til Finans som en del af lagervurderingen ved periodeafslutning.
 
-Selvom alle varer på lageret optælles mindst en gang om året, har du måske besluttet, at nogle varer skal optælles oftere. Det kan være fordi, der er tale om særligt dyre vare, eller fordi de har en stor omsætningshastighed og udgør hovedparten af salget. Du kan tildele særlige optællingsperioder til de pågældende varer til dette formål. Du kan finde flere oplysninger i afsnittet "Sådan udføres periodisk optælling".
+Selvom alle varer på lageret optælles mindst en gang om året, har du måske besluttet, at nogle varer skal optælles oftere. Det kan være fordi, der er tale om særligt dyre vare, eller fordi de har en stor omsætningshastighed og udgør hovedparten af salget. Du kan tildele særlige optællingsperioder til de pågældende varer til dette formål. Du kan finde flere oplysninger i [Sådan udføres periodisk optælling](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
 
 Hivs der er brug for en regulering af de registrerede lagerantal i forbindelse med optælling eller af andre årsager, kan du bruge en varekladde til at ændre lageropgørelsesposterne direkte, uden at bogføre forretningstransaktioner. Du kan også justere for en enkelt vare på varekortet.
 
@@ -81,7 +81,7 @@ Du kan udføre lageropgørelsen på følgende måder afhængigt af logistikopsæ
     -   Hvis det beregnede og det fysiske antal afviger, registreres der et negativt eller positivt antal for placeringen, og der bogføres et udlignende antal til reguleringsplaceringen for lokationen.  
     -   Hvis det beregnede og det fysiske antal er ens, registreres der en post på 0 for både placeringen og reguleringsplaceringen. Posterne angiver, at der på registreringsdatoen blev udført en lagerplaceringsopgørelse, og at der ingen uoverensstemmelser var på lageret for varen.  
 
-Når du bogfører lagerplaceringsopgørelsen, bogfører du hverken på varekladden, lageropgørelseskladden eller lagerværdikladden, men posterne er der til øjeblikkelig afstemning, når som helst det er nødvendigt. Hvis du imidlertid gerne vil have en præcis optegnelse over, hvad der foregår på lagerstedet, og du har optalt alle de placeringer, hvor varerne var registreret, skal du med det samme bogføre optællingsresultaterne som værende den fysiske lagerbeholdning. Yderligere oplysninger finder du i afsnittet "Sådan angives og bogføres den faktiske optalte lagerbeholdning i avancerede lageropsætninger".
+Når du bogfører lagerplaceringsopgørelsen, bogfører du hverken på varekladden, lageropgørelseskladden eller lagerværdikladden, men posterne er der til øjeblikkelig afstemning, når som helst det er nødvendigt. Hvis du imidlertid gerne vil have en præcis optegnelse over, hvad der foregår på lagerstedet, og du har optalt alle de placeringer, hvor varerne var registreret, skal du med det samme bogføre optællingsresultaterne som værende den fysiske lagerbeholdning. Yderligere oplysninger finder du i [Sådan angives og bogføres den faktiske optalte lagerbeholdning i avancerede lageropsætninger](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Sådan udskrives rapporten, der skal bruges til optælling
 1. På siden **Lageropgørelseskladde**, der indeholder den beregnede forventede lagerbeholdning, skal du vælge **Udskriv**.
@@ -145,14 +145,14 @@ Du konfigurerer hver lageroptællingsperiode, du vil bruge, og knytter en til hv
 2. Vælg handlingen **Beregn optællingsperiode**.
 
     Siden **Lageropgørelse - varevalg**, der viser de varer, der er tildelt optællingsperioder til, og som skal optælles, åbnes.
-3. Foretag lageropgørelsen. Du kan finde flere oplysninger i afsnittet "Sådan foretages en lageropgørelse".
+3. Foretag lageropgørelsen. Du kan finde flere oplysninger i [Sådan foretages en lageropgørelse](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Sådan foretages en optælling, der er baseret på optællingsperioder i avancerede lageropsætninger
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerplacering - opg.kladde**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Beregn optællingsperiode**.
 
     Siden **Lageropgørelse - varevalg**, der viser de varer, der er tildelt optællingsperioder til, og som skal optælles, åbnes.
-3. Foretag lageropgørelsen. Du kan finde flere oplysninger i afsnittet "Sådan foretages en lageropgørelse".  
+3. Foretag lageropgørelsen. Du kan finde flere oplysninger i [Sådan foretages en lageropgørelse](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
 
     > [!NOTE]  
     >  Du skal optælle varen på alle de placeringer, der indeholder den pågældende vare. Hvis du sletter nogle af de placeringsliner, som er hentet til optælling, på siden **Lagerplaceringsopg.oversigt**, vil du ikke tælle alle varer på lageret. Hvis du senere bogfører sådanne ufuldstændige resultater i Lageropgørelseskladde, vil de bogførte beløb være forkerte.  
@@ -175,7 +175,7 @@ Du kan også bruge funktionen **Reguler lager** som en enkel måde at placere k�
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Sådan reguleres lagerantallet for flere varer i grundlæggende lageropsætninger
 På siden **Varekladde** kan du bogføre varetransaktionen direkte for at regulere lagerbeholdningen i forbindelse med køb, salg og op- og nedregulering af lageret uden brug af dokumenter.
 
-Hvis du ofte bruger varekladden til at bogføre de samme eller lignende kladdelinjer, f.eks. i forbindelse med materialeforbrug, kan du bruge siden **Standardvarekladde** til at lette denne gentagne opgave. Du kan finde flere oplysninger i afsnittet "Standardkladder" i [Arbejde med finanskladder](ui-work-general-journals.md).
+Hvis du ofte bruger varekladden til at bogføre de samme eller lignende kladdelinjer, f.eks. i forbindelse med materialeforbrug, kan du bruge siden **Standardvarekladde** til at lette denne gentagne opgave. Du kan finde flere oplysninger under [Arbejde med standardkladder](ui-work-general-journals.md#working-with-standard-journals).
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -227,4 +227,3 @@ Du kan finde oplysninger om overførsel af varer med fuld kontrol over de antal,
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,21 +1,21 @@
 ---
-title: "Feltkobling, når du importerer SEPA CAMT-filer | Microsoft Docs"
-description: "Du kan indlæse bankkontoudtogsfiler i de regionale SEPA-standarder (Single Euro Payments Area) på europæiske markeder."
+title: Feltkobling, når du importerer SEPA CAMT-filer | Microsoft Docs
+description: Du kan indlæse bankkontoudtogsfiler i de regionale SEPA-standarder (Single Euro Payments Area) på europæiske markeder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e2fcfb5e896f6da2f953ad15fb46bcd9b34be047
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792221"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Feltkobling, når du importerer SEPA-CAMT-filer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter de regionale SEPA-standarder for import af SEPA-kontoudtog fra banken (CAMT-format). Du kan finde flere oplysninger under [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md).  
@@ -64,4 +64,3 @@ ms.lasthandoff: 11/26/2018
 [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md)   
 [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  
-

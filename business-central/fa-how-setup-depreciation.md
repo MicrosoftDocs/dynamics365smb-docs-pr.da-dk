@@ -1,6 +1,6 @@
 ---
-title: "Definere anlægsafskrivning | Microsoft Docs"
-description: "Du bruger en afskrivningsprofil til at angive, hvordan anlægsaktiver skal afskrives eller nedskrives."
+title: Definere anlægsafskrivning | Microsoft Docs
+description: Du bruger en afskrivningsprofil til at angive, hvordan anlægsaktiver skal afskrives eller nedskrives.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d417db84cf45356925cf52a36ba08e478b8ee6b9
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792793"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
  Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md).
@@ -83,4 +83,3 @@ For hver afskrivningsprofil skal du definere en standardopsætning med typer og 
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

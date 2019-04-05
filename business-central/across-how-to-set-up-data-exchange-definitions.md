@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792906"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
@@ -55,7 +55,7 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
     |**Codeunit til datahåndtering**|Angiv den kodeenhed, der overfører data til og fra tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Valideringscodeunit**|Angiv den kodeenhed, der bruges til at validere data mod foruddefinerede forretningsregler.|  
     |**Læser/skriver codeunit**|Angiv den kodeenhed, der behandler importerede data før tilknytning og eksporterede data efter tilknytning.|  
-    |**Læser/skriver XMLport**|Angiv den XMLport, gennem hvilken en importeret datafil eller en tjeneste går forud for tilknytning, og gennem hvilken udlæste data går, når de er skrevet til en datafil eller tjeneste efter tilknytning.|  
+    |**Læser/skriver XMLport**|Angiv den XMLport, hvor en importeret datafil eller tjeneste indsættes før tilknytning, og hvor de eksporterede data findes, når de skrives til en datafil eller tjeneste efter tilknytning.|  
     |**Codeunit til ekstern datahåndtering**|Angiv den kodeenhed, der overfører eksterne data ind og ud af dataudvekslingsstrukturen.|  
     |**Codeunit til brugerfeedback**|Angiv den kodeenhed, der udfører forskellige rensning efter tilknytning, f.eks markerer linjerne som eksporteret og sletter midlertidige poster.|  
     |**Filkodning**|Angiv kodning af filen. **Bemærk:** Dette felt er kun relevant for import.|  
@@ -160,4 +160,3 @@ Når du har oprettet dataudvekslingsdefinitionen for en bestemt datafil, kan du 
 [Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Indgående bilag](across-income-documents.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-

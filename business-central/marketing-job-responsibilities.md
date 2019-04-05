@@ -1,8 +1,8 @@
 ---
-title: "Opsætning af ansvarsområder for kontakter | Microsoft Docs"
-description: "Du kan definere en ansvarsområdekode og knytte den til en kontakt for at angive de opgaver, som kontaktpersonen er ansvarlig for i virksomheden, f.eks. IT eller produktion."
+title: Opsætning af ansvarsområder for kontakter | Microsoft Docs
+description: Du kan definere en ansvarsområdekode og knytte den til en kontakt for at angive de opgaver, som kontaktpersonen er ansvarlig for i virksomheden, f.eks. IT eller produktion.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 62d8f733dbfdb6b3da78368e553deef1ea208072
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b580518771ce9b599e5516ecbb1c25cc5dc5d9f4
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792256"
 ---
 # <a name="set-up-job-responsibilities-for-contact-persons"></a>Definere dine kontaktpersoners ansvarsområder
 Du kan tilføje oplysninger om ansvarsområder for kontaktpersoner for at angive, hvad kontaktpersonen er ansvarlig for i virksomheden, f.eks. IT, administration eller produktion. Du kan bruge disse oplysninger, når du angiver oplysninger om dine kontakter.
@@ -45,7 +45,5 @@ Det antal ansvarsområder, du har tildelt til kontakten, vises i feltet **Antal 
 Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
 ## <a name="see-also"></a>Se også
-[Oprette kontaktpersoner](marketing-create-contact-persons.md)  
-[Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  
+[Oprettelse af kontakter](marketing-create-contact-companies.md)  
 [Arbejde med Business Central](ui-work-product.md)
-

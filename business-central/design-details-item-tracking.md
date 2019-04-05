@@ -1,23 +1,23 @@
 ---
-title: "Designoplysninger – Varesporing | Microsoft Docs"
+title: Designoplysninger – Varesporing | Microsoft Docs
 description: Dette emne indeholder en oversigt over designoplysninger om varesporing.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792185"
 ---
 # <a name="design-details-item-tracking"></a>Designoplysninger: Varesporing
 Efterhånden som flowet af varer i den moderne forsyningskæde bliver stadigt mere kompleks, bliver muligheden for at holde styr på varer mere og mere vigtig for de involverede virksomheder. Overvågning af en vares transaktionsflow er et lovkrav inden for medicinsk og kemisk forsyning, men andre virksomheder kan overvåge produkter med garantier eller udløbsdatoer af hensyn til kundeservice.  
@@ -33,4 +33,3 @@ Et varesporingssystem giver en virksomhed mulighed for nem håndtering af serien
 [Designoplysninger: Varesporing og planlægning](design-details-item-tracking-and-planning.md)  
 [Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 [Designoplysninger: Varesporing i lageret](design-details-item-tracking-in-the-warehouse.md)
-

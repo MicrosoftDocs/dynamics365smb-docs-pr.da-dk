@@ -1,8 +1,8 @@
 ---
-title: "Oversigt over opgaver til opsætning af køb | Microsoft Docs"
-description: "Beskriver de opgaver, der definerer virksomhedens indkøbspolitikker, og som du bruger til at oprette dine indkøbsprocesser."
+title: Oversigt over opgaver til opsætning af køb | Microsoft Docs
+description: Beskriver de opgaver, der definerer virksomhedens indkøbspolitikker, og som du bruger til at oprette dine indkøbsprocesser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 267f55c59f910633932c35a36e792a5fbfb0f4a2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3409a5f847ddaeae4e96126f364ec300ac2b90d6
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792463"
 ---
 # <a name="setting-up-purchasing"></a>Opsætning af indkøb
 Før du kan administrere købsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens købspolitikker.
@@ -38,4 +38,3 @@ Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,7 +1,7 @@
 ---
-title: "Overførsel af data fra Dynamics GP med udvidelsen Dataoverførsel | Microsoft Docs"
-description: "Du kan bruge udvidelsen Dataoverførsel i Dynamics GP til at overføre debitorer, kreditorer, lagervarer, finanskonti, åbne transaktioner for tilgodehavender og skyldige beløb fra Dynamics GP til Business Central."
-documentationcenter: 
+title: Overførsel af data fra Dynamics GP med udvidelsen Dataoverførsel | Microsoft Docs
+description: Du kan bruge udvidelsen Dataoverførsel i Dynamics GP til at overføre debitorer, kreditorer, lagervarer, finanskonti, åbne transaktioner for tilgodehavender og skyldige beløb fra Dynamics GP til Business Central.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
 ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/30/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792299"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Udvidelsen Overførsel af data med Dynamics GP 
 Udvidelsen gør det nemt at overføre debitorer, kreditorer, lagervarer, finanskonti, åbne transaktioner for tilgodehavender og skyldige beløb fra Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis din virksomhed bruger Dynamics GP i dag, kan du eksportere de relevante poster og derefter åbne en assisteret opsætningsvejledning for at tilføje dataene i [!INCLUDE[prodshort](includes/prodshort.md)]. Udvidelsen til overførsel fungerer på alle understøttede versioner af Microsoft Dynamics GP. Du kan finde flere oplysninger under [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).
@@ -60,4 +60,3 @@ Den sidste indstilling, der vises i guiden Dataoverførsel til Dynamics GP er mu
 ## <a name="see-also"></a>Se også
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse [!INCLUDE[prodshort](includes/prodshort.md)] ved hjælp af udvidelser](ui-extensions.md)  
-

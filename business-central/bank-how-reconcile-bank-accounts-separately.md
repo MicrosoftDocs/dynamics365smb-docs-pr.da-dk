@@ -1,8 +1,8 @@
 ---
 title: Afstemme bankkonti separat | Microsoft Docs
-description: "Beskriver, hvordan dine lagerværdier afstemmes med finansmodulet."
+description: Beskriver, hvordan dine lagerværdier afstemmes med finansmodulet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792058"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Afstemme bankkonti separat
 Når du vil afstemme bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] med kontoudtog fra banken, skal du begynde med at udfylde den venstre rude på siden **Bankkontoafstemning** med bankkontoudtogoplysninger, som du derefter matcher (afstemmer) med bankkontoposter i højre rude. En smart måde at udfylde bankkontoudtogslinjer er ved at importere en bankkontoudtogsfil eller et -feed.
@@ -100,4 +100,3 @@ Undertiden indeholder bankafstemninger beløb med renter eller gebyrer. Sådanne
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

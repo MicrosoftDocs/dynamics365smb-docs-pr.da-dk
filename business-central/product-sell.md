@@ -1,8 +1,8 @@
 ---
-title: "Sælge Business Central | Microsoft Docs"
+title: Sælge Business Central | Microsoft Docs
 description: Find ud af, hvordan du kan udvide virksomhedens muligheder og blive Microsoft-partner og Business Central-forhandler.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: cc628a8f9c4a9727b359877ebe54eef25c947138
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e47877a6cf6e7d9b976b8624786e725b87b0ee1f
-ms.contentlocale: da-dk
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792961"
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Blive forhandler af [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Udvid dine muligheder for at gøre forretninger med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-Hvis du har specialiseret dig i cloud-løsninger, Office 365, SharePoint, brancheløsninger, analytics, ERP, CRM, regnskabsprogrammer og/eller programmer eller tjenester til optimering af virksomhedsprocesser, er Business Central en ny mulighed.   
+Hvis du har specialiseret dig i cloud-løsninger, Office 365, SharePoint, brancheløsninger, analyse, ERP, CRM, regnskabsprogrammer og/eller programmer eller tjenester til optimering af virksomhedsprocesser, er Business Central en ny mulighed.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjælpe dig med at skille dig ud og styrke kunderelationer ved at give mulighed for at levere en end-to-end-løsning til styring af virksomhedsscenarier, som forbinder mennesker og processer som aldrig før - en løsning, der er integreret i de velkendte Microsoft Office-værktøjer, som små og mellemstore virksomheder bruger hver dag.  
 
@@ -35,4 +35,3 @@ Hvis du vil vide mere om at blive [!INCLUDE[d365fin](includes/d365fin_md.md)]-fo
 [Introduktion](product-get-started.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
-

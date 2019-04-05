@@ -1,8 +1,8 @@
 ---
-title: "Administrere målgrupper og vælge kontakter, der skal medtages | Microsoft Docs"
-description: "Beskriver de opgaver, du skal udføre for at oprette en målgruppe og vælge en gruppe kontaktpersoner ud fra bestemte kriterier, f.eks. kontaktpersoner i en bestemt branche, du vil målrette din henvendelse til."
+title: Administrere målgrupper og vælge kontakter, der skal medtages | Microsoft Docs
+description: Beskriver de opgaver, du skal udføre for at oprette en målgruppe og vælge en gruppe kontaktpersoner ud fra bestemte kriterier, f.eks. kontaktpersoner i en bestemt branche, du vil målrette din henvendelse til.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: c49ccda1632eccabb412cfe44f59abd1ed2efc09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fab3aed9e8c426d6a8840177f63f74afe808428d
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793079"
 ---
 # <a name="managing-segments"></a>Administrere målgrupper
 Du opretter målgrupper for at vælge en gruppe kontaktpersoner i overensstemmelse med bestemte kriterier. F.eks. kan en målgruppe være den branche, som kontaktpersonerne arbejder i, eller dine forretningsmæssige relationer med kontaktpersonerne. Du kan oprette en målgruppe for at vælge de kontaktpersoner, som er målet med en kampagne.
@@ -39,4 +39,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Administrere kontakter](marketing-contacts.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Serviceordrestatus og reparationsstatus | Microsoft Docs
-description: "Der er en særlig relation mellem feltet Status på siden Serviceordre og den serviceartikelreparationsstatus, der er repræsenteret af feltet Reparationsstatuskode på siden Serviceordre i Service. Serviceordrens status afspejler reparationsstatus for alle serviceartikler i serviceordren."
+description: Der er en særlig relation mellem feltet Status på siden Serviceordre og den serviceartikelreparationsstatus, der er repræsenteret af feltet Reparationsstatuskode på siden Serviceordre i Service. Serviceordrens status afspejler reparationsstatus for alle serviceartikler i serviceordren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a7ef1f214bda9c78113b320ddbd331b5a3e7de33
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792330"
 ---
 # <a name="service-order-status-and-repair-status"></a>Serviceordrestatus og reparationsstatus
 Der er en særlig relation mellem feltet **Status** på siden **Serviceordre** og den serviceartikelreparationsstatus, der er repræsenteret af feltet **Reparationsstatuskode** på siden **Serviceordre** i Service. Serviceordrens status afspejler reparationsstatus for alle serviceartikler i serviceordren.  
@@ -65,4 +65,3 @@ Hvis én serviceartikel f.eks. har reparationsstatus **Ingen tidl. serv.** tilkn
 ## <a name="see-also"></a>Se også  
 [Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)  
 [Konfigurere Service](service-setup-service.md)  
-

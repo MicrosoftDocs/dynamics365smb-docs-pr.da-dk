@@ -1,8 +1,8 @@
 ---
 title: Regulere varepriser manuelt | Microsoft Docs
-description: "Du kan regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner."
+description: Du kan regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: bb320750002681d11bb3ec4aa196a55884b73da7
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792050"
 ---
 # <a name="adjust-item-costs"></a>Regulere varepriser
 Kostprisen for en vare (lagerværdi), du køber og senere sælger, kan ændres i varens levetid, fordi f.eks. en fragtomkostning føjes til købsprisen, når du har solgt varen. Omkostningsregulering er især relevant i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Hvis du altid vil kende den korrekte lagerværdi, skal varepriser regelmæssigt reguleres. Dette sikrer, at salgs- og indtjeningsstatistikkerne er opdateret, og at finansielle nøgletal er korrekte. Du kan finde flere oplysninger i [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md).
 
-Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardkostprisen for varer, der følger standardkostmetoden. For varer, der følger andre kostmetoder, baseres værdien på en beregning af lagerbeholdningen (fakturerede kostpriser og forventede kostpriser) divideret med varebeholdningen. Der er flere oplysninger i afsnittet "Om kostværdi pr. enhed".
+Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardkostprisen for varer, der følger standardkostmetoden. For varer, der følger andre kostmetoder, baseres værdien på en beregning af lagerbeholdningen (fakturerede kostpriser og forventede kostpriser) divideret med varebeholdningen. Der er flere oplysninger i [Om kostværdi pr. enhed](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] reguleres varepriser automatisk, hver gang der forekommer en lagertransaktion, f.eks. når du bogfører en købsfaktura for en vare.
 
@@ -86,4 +86,3 @@ Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardk
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

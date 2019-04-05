@@ -1,23 +1,23 @@
 ---
-title: "Sådan administreres virksomhedskonfigurationen i et regneark | Microsoft Docs"
-description: "Konfigurationsregnearket er en central placering, hvor du kan planlægge, spore og udføre konfigurationsarbejdet. Du kan oprette et regneark for hver virksomhed, du arbejder med, eller oprette et standardkonfigurationsregneark, der kan bruges til at konfigurere flere identiske virksomheder."
+title: Sådan administreres virksomhedskonfigurationen i et regneark | Microsoft Docs
+description: Konfigurationsregnearket er en central placering, hvor du kan planlægge, spore og udføre konfigurationsarbejdet. Du kan oprette et regneark for hver virksomhed, du arbejder med, eller oprette et standardkonfigurationsregneark, der kan bruges til at konfigurere flere identiske virksomheder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: da-dk
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793055"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Administrere virksomhedskonfigurationen i et regneark
 Konfigurationsregnearket er en central placering, hvor du kan planlægge, spore og udføre konfigurationsarbejdet. Du kan oprette et regneark for hver virksomhed, du arbejder med, eller oprette et standardkonfigurationsregneark, der kan bruges til at konfigurere flere identiske virksomheder.  
@@ -74,7 +74,7 @@ Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger f
     > Eksempel: Hvis du henter relaterede tabeller for tabellen **Debitor**, så vil tabellen **Lokation** ikke blive tilføjet, da den kun er betinget relateret til tabellen **Debitor**, nemlig hvis feltet **Lokationskode** i tabellen **Debitor** er udfyldt.  
     > - Den relaterede tabel er filtreret.  
     > Eksempel: Et felt i den relaterede tabel indeholder en WHERE-sætning. Årsagen til dette er, at de involverede relationsoplysninger er gemt i den virtuelle **Felt**-tabel og ikke er tilgængelig på sider som konfigurationsregnearket af hensyn til ydeevnen.  
-    > Du skal tilføje relaterede tabeller med sådanne komplekse relationer manuelt ved at følge trin 4 i afsnittet "Føje en tabel til regnearket".
+    > Du skal tilføje relaterede tabeller med sådanne komplekse relationer manuelt ved at følge trin 4 i [Føje en tabel til regnearket](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet).
 
 7. Hvis du vil slette tabeller i den resulterende liste over tabeller, skal du markere en tabel, du vil fjerne, og derefter vælge handlingen **Slet**.  
 
@@ -128,4 +128,3 @@ Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få 
 [Konfigurere virksomhedskonfiguration](admin-set-up-company-configuration.md)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
-

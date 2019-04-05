@@ -1,8 +1,8 @@
 ---
 title: Konfigurere banktransaktioner | Microsoft Docs
-description: "Brug bankkontokort til at holde styr på dine bankkonti og konfigurere bankfeeds, f.eks. Yodlee, til at udveksle data."
+description: Brug bankkontokort til at holde styr på dine bankkonti og konfigurere bankfeeds, f.eks. Yodlee, til at udveksle data.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 092d8d3f114eac890c97eca520de7b9adbc37108
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9506abc4296b9c414e942c220f6fb40f0884ea32
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793031"
 ---
 # <a name="setting-up-banking"></a>Konfigurere banktransaktioner
 Når du bruger bankkontokort kan du holde styr på dine bankkonti i alle valutaer. Når du har oprettet bankkontiene, får du også mulighed for at udskrive check.
@@ -35,4 +35,3 @@ Hvis du vil bruge elektroniske tjenester til at indlæse bankkontoudtog og udlæ
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

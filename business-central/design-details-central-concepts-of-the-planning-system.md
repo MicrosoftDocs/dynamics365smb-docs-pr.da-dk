@@ -1,23 +1,23 @@
 ---
-title: "Designoplysninger – Centrale begreber i planlægningssystemet | Microsoft Docs"
-description: "Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den periode, der skal planlægges for, og derefter foreslår mulige handlinger, brugeren kan udføre, på basis af udbud og efterspørgselssituation og varens planlægningsparametre."
+title: Designoplysninger – Centrale begreber i planlægningssystemet | Microsoft Docs
+description: Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den periode, der skal planlægges for, og derefter foreslår mulige handlinger, brugeren kan udføre, på basis af udbud og efterspørgselssituation og varens planlægningsparametre.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793027"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designoplysninger: Centrale begreber i planlægningssystemet
 Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den relevante periode, der skal planlægges. Ifølge hver vares laveste-niveau-kode (styklisteposition) kalder kørslen en kodeenhed, der beregner en forsyningsplan ved at afstemme forsyning-behov-sæt og foreslå mulige handlinger, som brugeren kan foretage. De foreslåede handlinger vises som linjer i planlægningskladden eller indkøbskladden.  
@@ -237,9 +237,9 @@ Overskridelse af niveauet for sikkerhedslageret anses for at være en undtagelse
 Generelt sikrer exceptionelle ordreforslag, at den planlagte disponible beholdning aldrig er lavere end niveauet for sikkerhedslageret. Dette betyder, at det foreslåede antal lige akkurat er nok til at dække sikkerhedslageret uden at tage hensyn til planlægningsparametrene. Men i nogle eksempler tages der hensyn til ordremodifikatorer.  
 
 > [!NOTE]  
->  Planlægningssystemet har måske tilsigtet forbrugt sikkerhedslageret og vil derefter genopfylde det med det samme. Du kan finde flere oplysninger i afsnittet "Sikkerhedslager kan forbruges" i [Designoplysninger: Indlæsning af lagerprofiler](design-details-loading-the-inventory-profiles.md).
+>  Planlægningssystemet har måske tilsigtet forbrugt sikkerhedslageret og vil derefter genopfylde det med det samme. Du kan finde flere oplysninger under [Sikkerhedslager kan forbruges](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
-### <a name="attention"></a>Bemærk  
+### <a name="attention"></a>Bemærk!  
 Denne advarsel vises i tre tilfælde:  
 
 -   Når den planlagte startdato ligger før arbejdsdatoen.  
@@ -289,4 +289,3 @@ Dette afslutter beskrivelsen af de centrale begreber vedrørende forsyningsplanl
 [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)   
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)
-

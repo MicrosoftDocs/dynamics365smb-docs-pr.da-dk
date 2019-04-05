@@ -2,22 +2,22 @@
 title: Terminologi i omkostningsregnskab | Microsoft Docs
 description: Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9518c0b249ffe73b90082bd14f350e8fb464d1c9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 424020f808b09e122ac82b47b4e74585a18d8a27
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792130"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologi i omkostningsregnskab
 Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.  
@@ -53,4 +53,3 @@ Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.
  [Om omkostningsregnskab](finance-about-cost-accounting.md)   
  [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

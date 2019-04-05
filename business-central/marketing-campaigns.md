@@ -1,6 +1,6 @@
 ---
-title: "Opsætning af marketingkampagner i Business Central | Microsoft Docs"
-description: "Beskriver, hvordan du kan oprette og styre marketingkampagner i Business Central som en hjælp til at identificere og tiltrække potentielle kunder og bibeholde kunder."
+title: Opsætning af marketingkampagner i Business Central | Microsoft Docs
+description: Beskriver, hvordan du kan oprette og styre marketingkampagner i Business Central som en hjælp til at identificere og tiltrække potentielle kunder og bibeholde kunder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792754"
 ---
 # <a name="managing-marketing-campaigns"></a>Administration af marketingkampagner
 Når du har fastlagt en stærk marketingplan, kan du identificere og tiltrække kunder og holde på dem. En marketingplan består af forskellige kampagner og andre interaktioner i forbindelse med salgs- og marketingaktiviteter. Mens du planlægger en kampagne, skal du beslutte, hvilke kontaktpersoner der skal være målet, hvilken type kampagne kampagnen skal være (f.eks. en messe eller direct mail), og hvilke sælgere der skal udføre de enkelte opgaver.
@@ -51,4 +51,3 @@ Kampagner udføres af sælgere, og du skal oprette aktiviteter, der repræsenter
 [Administrere målgrupper](marketing-segments.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Arbejde med Business Central](ui-work-product.md)  
-

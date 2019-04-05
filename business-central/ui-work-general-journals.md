@@ -1,20 +1,20 @@
 ---
-title: "Bruge finanskladder, der skal bogføres direkte til Finans | Microsoft Docs"
-description: "Lær, hvordan du kan bruge kladder til at bogføre økonomisk transaktioner på finanskonti og andre konti, f.eks. bank- og kreditorkonti."
+title: Bruge finanskladder, der skal bogføres direkte til Finans | Microsoft Docs
+description: Lær, hvordan du kan bruge kladder til at bogføre økonomisk transaktioner på finanskonti og andre konti, f.eks. bank- og kreditorkonti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/27/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ddcda93c59df3f8390dc3852595d4f07f03648f5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f715dc4994fb3507d73f44bc9adc689f6d3f71cb
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792813"
 ---
 # <a name="working-with-general-journals"></a>Arbejde med finanskladder
 
@@ -35,7 +35,7 @@ De oplysninger, du angiver i en kladde, er midlertidige og kan ændres, mens de 
 
 ## <a name="using-journal-templates-and-batches"></a>Bruge kladdetyper og -navne
 
-Der er forskellige finanskladdetyper. Hver kladdetype er repræsenteret af en dedikeret side med bestemte funktioner og de felter, der kræves for at understøtte disse funktioner, f.eks. vinduet **Betalingsudligningskladde** til behandling af bankbetalinger og siden **Udbetalingskladde** til betaling af kreditorer eller refusion af medarbejdere. Du kan finde flere oplysninger i [Foretage indbetalinger](payables-make-payments.md) og [Udligne debitorbetalinger manuelt](receivables-how-apply-sales-transactions-manually.md).
+Der er forskellige finanskladdetyper. Hver kladdetype er repræsenteret af en dedikeret side med bestemte funktioner og de felter, der kræves for at understøtte disse funktioner, f.eks. vinduet **Betalingsudligningskladde** til behandling af bankbetalinger og siden **Udbetalingskladde** til betaling af kreditorer eller refusion af medarbejdere. Du kan finde flere oplysninger i [Foretage indbetalinger](payables-make-payments.md) og [Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter](receivables-how-apply-sales-transactions-manually.md).
 
 For hver kladdetype kan du angive din egen private kladde som kladdenavn. F.eks. kan du angive din egen kladdetype som udbetalingskladden med dit personlige layout og dine indstillinger. Følgende tip er et eksempel på, hvordan du kan tilpasse en kladde.
 
@@ -49,7 +49,7 @@ Hvis du har oprettet modkonti for kladdenavnene, udfyldes modkontoen automatisk 
 >   Moms beregnes separat for hovedkontoen og modkontoen, så der kan bruges forskellige momsprocentsatser.
 
 ## <a name="working-with-recurring-journals"></a>Arbejde med gentagelseskladder
-En gentagelseskladde er en finanskladde med specifikke felter til styring af transaktioner, som bogføres ofte med få eller ingen ændringer, f.eks. leje, abonnementer, elektricitet og varme. Med disse felter til gentagelsestransaktioner kan du bogføre både faste og variable beløb. Du kan også angive automatiske tilbageførselsposter dagen efter bogføringsdatoen. Du kan også bruge fordelingsnøgler til at opdele de gentagne poster mellem forskellige konti. Du kan finde yderligere oplysninger i afsnittet "Fordeling af gentagelsesposter på flere konti".
+En gentagelseskladde er en finanskladde med specifikke felter til styring af transaktioner, som bogføres ofte med få eller ingen ændringer, f.eks. leje, abonnementer, elektricitet og varme. Med disse felter til gentagelsestransaktioner kan du bogføre både faste og variable beløb. Du kan også angive automatiske tilbageførselsposter dagen efter bogføringsdatoen. Du kan også bruge fordelingsnøgler til at opdele de gentagne poster mellem forskellige konti. Du kan finde yderligere oplysninger i [Fordeling af gentagelsesposter på flere konti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
 
 Med gentagelseskladder skal poster, der bogføres regelmæssigt, kun indtastes én gang. Det vil sige, at de konti, dimensioner og dimensionsværdier osv., som angives, bevares i kladden efter bogføringen. Hvis du vil foretage ændringer, kan du gøre det ved hver bogføring.
 
@@ -60,7 +60,7 @@ Dette felt bestemmer, hvordan beløbet på kladdelinjen bliver behandlet efter b
 | --- | --- |
 |Fast|Beløbet på kladdelinjen vil blive stående i posten efter bogføring.|
 |Variabel|Beløbet på kladdelinjen slettes efter bogføring.|
-|Saldo til dato|Det bogførte beløb på kontoen på linjen bliver fordelt mellem de konti, der er defineret for linjen i tabellen Fordeling. Saldoen på kontoen bliver derfor angivet til nul. Husk at udfylde feltet **Fordelingspct.** på siden **Fordelinger**. Du kan finde yderligere oplysninger i afsnittet "Fordeling af gentagelsesposter på flere konti".|
+|Saldo til dato|Det bogførte beløb på kontoen på linjen bliver fordelt mellem de konti, der er defineret for linjen i tabellen Fordeling. Saldoen på kontoen bliver derfor angivet til nul. Husk at udfylde feltet **Fordelingspct.** på siden **Fordelinger**. Du kan finde yderligere oplysninger i [Fordeling af gentagelsesposter på flere konti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |Fast med tilbageføring|Beløbet i kladdelinjen bliver stående på linjen efter bogføringen, og der bliver bogført en modpost den følgende dag.|
 |Variabel med tilbageføring|Beløbet i kladdelinjen bliver slettet efter bogføringen, og der bliver bogført en modpost den følgende dag.|
 |Saldo med tilbageføring|Det bogførte beløb på kontoen på linjen bliver fordelt mellem de konti, der er defineret for linjen på siden **Fordelinger**. Saldoen på kontoen angives til nul, og der posteres en modpost den følgende dag.|
@@ -69,7 +69,7 @@ Dette felt bestemmer, hvordan beløbet på kladdelinjen bliver behandlet efter b
 >  Momsfelter kan kun være udfyldt på gentagelseskladdelinjen eller på allokeringkladdelinjen. Det vil sige, at dette felt kun kan udfyldes på siden **Fordelinger**, hvis det tilsvarende felt på gentagelseskladden ikke er udfyldt.
 
 ### <a name="recurring-frequency-field"></a>Feltet Gentagelsesinterval
-Dette felt bestemmer, hvor ofte posten på kladdelinjen bogføres. Det er en datoformelfelt, og det skal være udfyldt for tilbagevendende kladdelinjer. Du kan finde flere oplysninger i afsnittet "Bruge datoformler" i [Angivelse af data](ui-enter-data.md).
+Dette felt bestemmer, hvor ofte posten på kladdelinjen bogføres. Det er en datoformelfelt, og det skal være udfyldt for tilbagevendende kladdelinjer. Du kan finde flere oplysninger i [Bruge datoformler](ui-enter-date-ranges.md#using-date-formulas).
 
 #### <a name="examples"></a>Eksempler
 Hvis kladdelinjen skal bogføres hver måned, skal du angive "1M". Efter hver bogføring bliver datoen i feltet **Bogføringsdato** opdateret til samme dato i den efterfølgende måned.
@@ -164,4 +164,3 @@ Værdier i feltet **Bilagsnr.** ændres, hvor det kræves, så bilagsnummeret p�
 [Fordele omkostninger og indtægter](year-allocate-costs-income.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

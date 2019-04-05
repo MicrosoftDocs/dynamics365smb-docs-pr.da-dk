@@ -1,21 +1,21 @@
 ---
-title: "Designoplysninger – Codeunit 12-ændringer i procedurer for bogføring af finanskladder | Microsoft Docs"
-description: "Følgende ændringer er implementeret i denne version af Business Central."
+title: Designoplysninger – Codeunit 12-ændringer i procedurer for bogføring af finanskladder | Microsoft Docs
+description: Følgende ændringer er implementeret i denne version af Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6f28cf8e465a6c9f29ddf7bd1ac5db54896802cd
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 09e52a35909c21eaaf9d2eab37b19dc947a2a8dd
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792392"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Codeunit 12-ændringer: Ændringer i procedurer for bogføring af finanskladder
 Følgende ændringer er implementeret i denne version af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -190,4 +190,3 @@ Følgende ændringer er implementeret i denne version af [!INCLUDE[d365fin](incl
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Ændringer i Codeunit 12: Kobling af globale variabler for bogføringslinje i finanskladde](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
-

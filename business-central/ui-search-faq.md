@@ -1,6 +1,6 @@
 ---
-title: "Ofte stillede spørgsmål om Fortæl mig | Microsoft Docs"
-description: "Denne artikel indeholder svar på spørgsmål, som vores partnere og kunder ofte stiller om Fortæl mig."
+title: Ofte stillede spørgsmål om Fortæl mig | Microsoft Docs
+description: Denne artikel indeholder svar på spørgsmål, som vores partnere og kunder ofte stiller om Fortæl mig.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 74cd6b136cf5785237640b124472cd26aeff97de
 ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793010"
 ---
 # <a name="tell-me-faq"></a>Ofte stillede spørgsmål om Fortæl mig
 Dette emne indeholder svar på spørgsmål, som vores avancerede brugere ofte stiller om den nye Fortæl mig-funktion, som erstatter den tidligere sidesøgefunktion, der også kaldes **Søg efter side eller rapport**.
@@ -43,4 +43,3 @@ Hjælpeartikler vises på det sprog, du har angivet i **Mine indstillinger**, hv
 
 ## <a name="see-also"></a>Se også  
 [Finde funktioner og oplysninger](ui-search.md)
-

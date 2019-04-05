@@ -1,8 +1,8 @@
 ---
 title: Administrere salgsmuligheder og leads | Microsoft Docs
-description: "Beskriver administration af eventuelle indgående leads eller salgsmuligheder i Business Central og tilknytning af et lead til en sælger for at holde styr på muligt salg."
+description: Beskriver administration af eventuelle indgående leads eller salgsmuligheder i Business Central og tilknytning af et lead til en sælger for at holde styr på muligt salg.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cb391e079d65283aef5aff1d4a30d14123065ba5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2c9ef61555ddf3579172fc1e5b28e8eb4923b4d5
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792129"
 ---
 # <a name="managing-sales-opportunities"></a>Administrere salgsleads
 Alle indgående leads kan anses for at være et salgslead. Du kan oprette leads og knytte dem til en sælger, så du kan holde styr på muligt salg.
@@ -36,4 +36,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Salg](sales-manage-sales.md)  
 [Oprette og administrere kontakter](marketing-contacts.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

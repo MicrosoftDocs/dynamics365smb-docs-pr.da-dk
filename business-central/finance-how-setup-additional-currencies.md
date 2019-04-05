@@ -1,8 +1,8 @@
 ---
-title: "Opsætning af flere valutaer | Microsoft Docs"
+title: Opsætning af flere valutaer | Microsoft Docs
 description: Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), og en anden valuta er oprettet som en ekstra valuta med en aktuel valutakurs tilknyttet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 01/07/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a98027c3ef3171491f84197897f93cbed4e288c2
 ms.openlocfilehash: 294ed8019b12287e4b4ad59d46e842e4022a637f
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/07/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792475"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Oprette en ekstra rapporteringsvaluta
 Da virksomheder handler i stadig flere lande, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta.
@@ -51,7 +51,7 @@ For at konfigurere en ekstra rapporteringsvaluta, skal du følge disse trin:
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valutaer**, og vælg derefter det relaterede link.  
 2. På siden **Valutaer** skal du udfylde følgende felter for den ekstra rapporteringsvaluta.  
 
-|Felt|Description|  
+|Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
 |**Realiseret finansgevinstkonto**|Den finanskonto, hvor kursgevinster skal bogføres for kursreguleringer mellem regnskabsvalutaen og den ekstra rapporteringsvaluta bliver bogført.|  
 |**Realiseret finanstabskonto**|Den finanskonto, hvor kurstab skal bogføres for kursreguleringer mellem regnskabsvalutaen og den ekstra rapporteringsvaluta bliver bogført.|  
@@ -89,7 +89,7 @@ For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen
 
     Du har de samme indstillinger som ved finansposter, men i dette tilfælde vil reguleringerne udføres på momsposterne. Følgende tabel viser de indstillinger, du kan vælge.
 
-    |Felt|Description|  
+    |Felt|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
     |**Ingen regulering**|Der foretages ingen kursregulering af finanskontoen. Dette er standardvalget.|  
     |**Regul. beløb**|RV-beløbet reguleres for alle kursgevinster eller -tab. Valutakursgevinster eller -tab bogføres i finanskontoen i feltet **Beløb** og i de konti, du angav til gevinster eller tab, i felterne **Realiseret finansgevinstkonto** og **Realiseret finanstabskonto** på siden **Valutaer**.|  
@@ -125,4 +125,3 @@ Derudover vil beløbene i alle fremtidige poster af samme type være registreret
 [Opdatere valutakurser](finance-how-update-currencies.md)  
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

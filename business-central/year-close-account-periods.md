@@ -1,8 +1,8 @@
 ---
-title: "Afslutte regnskabsperioder for et regnskabsår | Microsoft Docs"
-description: "Beskriver, hvordan du afslutter regnskabsperioder, der indgår i regnskabsåret."
+title: Afslutte regnskabsperioder for et regnskabsår | Microsoft Docs
+description: Beskriver, hvordan du afslutter regnskabsperioder, der indgår i regnskabsåret.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c8f086e0dc7479ece62ab28b64f9553ba2d13b82
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792344"
 ---
 # <a name="close-accounting-periods"></a>Afslutte regnskabsperioder
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder.
@@ -43,4 +43,3 @@ Når et regnskabsår er afsluttet, skal du lukke resultatopgørelseskontiene og 
 [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  
 [Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

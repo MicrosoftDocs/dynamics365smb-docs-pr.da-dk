@@ -1,8 +1,8 @@
 ---
-title: "Opsætning af pengestrømsanalyse | Microsoft Docs"
-description: "Opret diagrammerne i rollecenteret Konti for at analysere pengestrømmen i virksomheden, herunder udgifter og indtægter, likviditet og indbetalinger minus kontantbetalinger."
+title: Opsætning af pengestrømsanalyse | Microsoft Docs
+description: Opret diagrammerne i rollecenteret Konti for at analysere pengestrømmen i virksomheden, herunder udgifter og indtægter, likviditet og indbetalinger minus kontantbetalinger.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 01/18/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792561"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
 Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide midler, kan du få et overblik vha. diagrammerne i rollecenteret Regnskabsmedarbejder:  
@@ -73,7 +73,7 @@ Sådan bruges den assisterede opsætningsvejledning:
 Sådan bruges en manuel proces:  
 
 1. I rollecenteret Regnskabsmedarbejder skal du søge efter **Pengestrømskonfiguration** og derefter vælge det relaterede link.  
-2. Udvid oversigtspanelet **Cortana Intelligence**, og marker derefter afkrydsningsfeltet **Cortana Intelligence aktiveret**.  
+2. Udvid **Cortana Intelligence**-oversigtspanelet, og marker derefter afkrydsningsfeltet **Cortana Intelligence Aktiveret**.  
 3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
 4. På siden **Pengestrømsprognose** skal du vælge handlingen **Genberegn prognose**.  
 
@@ -95,4 +95,3 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

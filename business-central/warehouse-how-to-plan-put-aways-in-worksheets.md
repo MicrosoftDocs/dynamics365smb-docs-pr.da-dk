@@ -1,23 +1,23 @@
 ---
-title: "Sådan planlægges læg-på-lager-aktiviteter i kladder | Microsoft Docs"
-description: "Hvis lokationen kræver både læg-på-lager og modtagelse, og du vil planlægge læg-på-lager-instruktioner til en række modtagelser – i stedet for at lade medarbejderne følge de instruktioner, der automatisk oprettes til separate bogførte modtagelser – kan du bruge læg-på-lager-kladden."
+title: Sådan planlægges læg-på-lager-aktiviteter i kladder | Microsoft Docs
+description: Hvis lokationen kræver både læg-på-lager og modtagelse, og du vil planlægge læg-på-lager-instruktioner til en række modtagelser – i stedet for at lade medarbejderne følge de instruktioner, der automatisk oprettes til separate bogførte modtagelser – kan du bruge læg-på-lager-kladden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792184"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlægge læg-på-lager-aktiviteter i kladder
 Hvis lokationen kræver både læg-på-lager og modtagelse, og du vil planlægge læg-på-lager-instruktioner til en række modtagelser – i stedet for at lade medarbejderne følge de instruktioner, der automatisk oprettes til separate bogførte modtagelser – kan du bruge læg-på-lager-kladden.  
@@ -58,7 +58,7 @@ Hvis du ikke markerer feltet, oprettes der automatisk læg-på-lager-instruktion
 
     -   Du kan tildele læg-på-lager-aktiviteten til en bestemt medarbejder.  
     -   Du kan sortere læg-på-lager-instruktionslinjerne på samme måde som i kladden eller efter placeringsniveau. Hvis du sorterer efter placeringsniveau, står Hent-linjerne øverst, da de fleste modtagelsesplaceringer har et placeringsniveau på 0, og Placer-linjerne nederst, startende med de placeringer, der har det laveste placeringsniveau. Hvis lagerstedet er struktureret, så placeringer med omtrent samme placeringsniveau står ved siden af hinanden, vil en sådan sorteringsmetode spare tid for lagermedarbejderne.  
-    -   Du kan vælge ikke at få vist de midlertidige linjer, der oprettes, når programmet opdeler en stor måleenhed i mindre enheder ved at markere feltet **Angiv nedbrydningsfilter**. Du kan finde flere oplysninger i [Aktivere automatisk nedbrydning med styret læg-på-lager og pluk] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Du kan vælge ikke at få vist de midlertidige linjer, der oprettes, når programmet opdeler en stor måleenhed i mindre enheder ved at markere feltet **Angiv nedbrydningsfilter**. Du kan finde flere oplysninger i [Aktivere automatisk nedbrydning med styret læg-på-lager og pluk](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Du kan vælge, at feltet **Håndteringsantal** ikke skal udfyldes automatisk på læg-på-lager-instruktionerne.  
     -   Du kan vælge at få udskrevet dokumentet med det samme.  
 
@@ -71,4 +71,3 @@ Hvis du ikke markerer feltet, oprettes der automatisk læg-på-lager-instruktion
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

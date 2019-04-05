@@ -1,6 +1,6 @@
 ---
-title: "Bruge Business Central på din mobilenhed | Microsoft Docs"
-description: "Du kan se og redigere dine Business Central-data på din telefon eller tablet."
+title: Bruge Business Central på din mobilenhed | Microsoft Docs
+description: Du kan se og redigere dine Business Central-data på din telefon eller tablet.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 4f38251e53e40d57829f7b00592d8b2920e2dea1
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792706"
 ---
-
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobilenhed
 Få adgang til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra din mobilenhed. Du kan navigere gennem virksomhedens data, og f.eks bruge funktioner som sende til Excel eller Office 365, se opdaterede diagrammer og nøgletal, sende mails med salgstilbud og fakturaer og vedhæfte billeder med kameraet. Benyt følgende fremgangsmåde til at downloade appen og komme i gang.
 
@@ -33,4 +32,3 @@ Du skulle nu have adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)] og skul
 ## <a name="see-also"></a>Se også
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

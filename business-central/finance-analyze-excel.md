@@ -1,6 +1,6 @@
 ---
 title: Arbejde med finansielle oversigter i Excel | Microsoft Docs
-description: "Få mere at vide om, hvordan du kan åbne regnskabsopgørelser i Microsoft Excel fra Business Central for bedre analyse."
+description: Få mere at vide om, hvordan du kan åbne regnskabsopgørelser i Microsoft Excel fra Business Central for bedre analyse.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3ef371dda59142f38aa50159ecf305880d34529b
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792792"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysere regnskaber i Microsoft Excel
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se KPI'er og få vist en oversigt over virksomhedens økonomiske tilstand. Du kan også åbne lister i Excel og analysere dataene der. Men du kan også eksportere tunge regnskabsopgørelser, f.eks. balancen eller resultatopgørelsen, til Excel, analysere dataene og udskrive rapporterne.  
@@ -46,4 +46,3 @@ Med tilføjelsesprogrammet kan du få nye data fra [!INCLUDE[d365fin](includes/d
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Arbejde med Business Central](ui-work-product.md)  
-

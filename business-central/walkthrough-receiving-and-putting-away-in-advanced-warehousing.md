@@ -1,21 +1,21 @@
 ---
-title: "Modtagelse og placering på lager i avanceret logistik | Microsoft Docs"
-description: "I Business Central kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret."
+title: Modtagelse og placering på lager i avanceret logistik | Microsoft Docs
+description: I Business Central kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 8d9ce13690a1db0e06d3ea204b0c95ac7cb21d33
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792374"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger
 
@@ -53,7 +53,7 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 -   Lagermedarbejder  
 
 ## <a name="prerequisites"></a>Forudsætninger  
-For at gennemføre denne gennemgang skal:  
+For at gennemføre denne gennemgang skal du:  
 
 -   CRONUS Danmark A/S være installeret.  
 -   Sådan opretter du dig selv som en lagermedarbejder på lokationen HVID ved at følge disse trin:  
@@ -159,4 +159,3 @@ På siden **Læg-på-lager (logistik)** kan du administrere læg-på-lager-aktiv
  [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)   
  [Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)
-

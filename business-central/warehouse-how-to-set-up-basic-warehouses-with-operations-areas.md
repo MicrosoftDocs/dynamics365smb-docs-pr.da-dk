@@ -1,23 +1,23 @@
 ---
-title: "Sådan oprettes grundlæggende lagersteder med handlingsområder | Microsoft Docs"
-description: "Hvis der findes interne operationsområder, såsom produktion eller montage i grundlæggende lageropsætninger, hvor lokationer bruger opsætningsfeltet **Tvungen placering** og muligvis opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, skal du derefter bruge tre grundlæggende lagerdokumenter til at registrere dine lageraktiviteter for interne operationsområder."
+title: Sådan oprettes grundlæggende lagersteder med handlingsområder | Microsoft Docs
+description: Hvis der findes interne operationsområder, såsom produktion eller montage i grundlæggende lageropsætninger, hvor lokationer bruger opsætningsfeltet **Tvungen placering** og muligvis opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, skal du derefter bruge tre grundlæggende lagerdokumenter til at registrere dine lageraktiviteter for interne operationsområder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793042"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Oprette grundlæggende lagersteder med handlingsområder
 Hvis der findes interne operationsområder, såsom produktion eller montage i grundlæggende lageropsætninger, hvor lokationer bruger opsætningsfeltet **Tvungen placering** og muligvis opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, kan du derefter bruge følgende grundlæggende lagerdokumenter til at registrere dine lageraktiviteter for interne operationsområder:  
@@ -35,7 +35,7 @@ Hvis du vil bruge disse sider med interne operationer, f.eks til at plukke og fl
 - Definer standardplaceringsstrukturer for komponenter og færdigvarer, der cirkulerer til og fra operationsressourcer.  
 - Opret til- og fra-placeringer, der er dedikeret til specifikke operationsressourcer, for at forhindre, at varerne plukkes til udgående dokumenter.
 
-De placeringskoder, der er angivet på lokationskort, definerer en standardlagerstrøm for visse aktiviteter, som komponenter i en montageafdeling. Der findes yderligere funktioner for at sikre, at varer, der placeres i en bestemt placering, ikke kan flyttes eller plukkes til andre aktiviteter. Du kan finde flere oplysninger i afsnittet "Sådan oprettes dedikerede komponentplaceringer".
+De placeringskoder, der er angivet på lokationskort, definerer en standardlagerstrøm for visse aktiviteter, som komponenter i en montageafdeling. Der findes yderligere funktioner for at sikre, at varer, der placeres i en bestemt placering, ikke kan flyttes eller plukkes til andre aktiviteter. Du kan finde flere oplysninger i [Sådan oprettes dedikerede komponentplaceringer](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 Følgende procedurer er baseret på oprettelse af grundlæggende lageraktiviteter omkring et produktionsområde. Trinene er de samme for andre operationsområder, f.eks. montage, servicestyring og sager.  
 
@@ -142,4 +142,3 @@ Hvis du gør en placering dedikeret, giver den samme funktion som brug af placer
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

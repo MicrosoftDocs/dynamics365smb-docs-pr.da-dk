@@ -1,23 +1,23 @@
 ---
-title: "Sådan fjerner og genanvender du vareposter | Microsoft Docs"
-description: "Du kan få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagerposteringer."
+title: Sådan fjerner og genanvender du vareposter | Microsoft Docs
+description: Du kan få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagerposteringer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/27/2018
 ms.author: sgroespe
+ms.openlocfilehash: a05acc754c14342d70ffa7f1e9c003099e949cff
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4774b278e5e71bd7464b8d7d391d16dab238dc0d
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792188"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne og genanvende vareposter
 På siden **Udligningskladde** kan du få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagertransaktioner.  
@@ -80,4 +80,3 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
  [Designoplysninger: Vareudligning](design-details-item-application.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

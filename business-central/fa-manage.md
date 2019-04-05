@@ -1,8 +1,8 @@
 ---
-title: "Administrere anlægsaktiver | Microsoft Docs"
-description: "Få mere at vide om funktionerne for anlægsaktiver, og få et overblik over, hvordan du arbejder med anlægsaktiver."
+title: Administrere anlægsaktiver | Microsoft Docs
+description: Få mere at vide om funktionerne for anlægsaktiver, og få et overblik over, hvordan du arbejder med anlægsaktiver.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9569f01f286008b76667e3a524257ba1aac61f91
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793092"
 ---
 # <a name="fixed-assets"></a>Anlægsaktiver
 I Anlæg i [!INCLUDE[d365fin](includes/d365fin_md.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
@@ -57,4 +57,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

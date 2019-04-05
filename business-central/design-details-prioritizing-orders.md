@@ -1,8 +1,8 @@
 ---
-title: "Designoplysninger – Prioritering af ordrer | Microsoft Docs"
-description: "Yderligere oplysninger om, hvordan der skal prioriteres for at opfylde både behov og forsyningskrav."
+title: Designoplysninger – Prioritering af ordrer | Microsoft Docs
+description: Yderligere oplysninger om, hvordan der skal prioriteres for at opfylde både behov og forsyningskrav.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 1d58a02bdfe4810d1116d20866d3b435bc7341bc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e09ad64750493f99210d47516410d8471a83011
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793399"
 ---
 # <a name="design-details-prioritizing-orders"></a>Designoplysninger: Prioritering af ordrer
 Inden for en given SKU repræsenterer den anmodede eller tilgængelige dato den højeste prioritet. Behovene i dag skal behandles før behovene for næste uge. Men ud over denne overordnede prioritet foreslår planlægningssystemet også, hvilken type behov der skal være opfyldt, inden andre behov opfyldes. Det foreslås ligeledes, hvilken forsyningskilde der skal anvendes, før du anvender andre forsyningskilder. Dette udføres i overensstemmelse med ordreprioriteter.  
@@ -60,4 +60,3 @@ Bortset fra de prioriteter, der er angivet af typen af behov og forsyning, defin
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-

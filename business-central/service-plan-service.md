@@ -1,8 +1,8 @@
 ---
-title: "Planlægning af serviceprocesser | Microsoft Docs"
-description: "Beskriver opgaver til oprettelse af regler og værdier, som du kan bruge til at definere virksomhedens servicepolitikker og -processer."
+title: Planlægning af serviceprocesser | Microsoft Docs
+description: Beskriver opgaver til oprettelse af regler og værdier, som du kan bruge til at definere virksomhedens servicepolitikker og -processer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 2d7fd2c9d1387575254a7014c8a6f18c61c568d3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ee163532fbc7588e45b0fba76a3c578f129d4fe
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792482"
 ---
 # <a name="planning-services"></a>Planlægning af service
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du konfigurere de standardopgaver, du skal bruge for at kunne opfylde virksomhedens krav til kundeservice. For at gøre dette skal du bestemme, hvilke serviceartikler og servicetilbud jeres serviceorganisation skal understøtte, og til hvilken pris.   
@@ -41,4 +41,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)  
 [Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)  
 [Konfigurere Service](service-setup-service.md)  
-

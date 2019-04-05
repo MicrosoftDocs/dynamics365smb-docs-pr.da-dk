@@ -1,6 +1,6 @@
 ---
-title: "Oprette nye virksomheder ved hjælp af en assisterende opsætningsvejledning | Microsoft Docs"
-description: "Det er nemt at oprette en ny, tom virksomhed i Business Central. En assisterede opsætningsvejledning hjælper dig gennem trinene, og du kan indlæse eksisterende forretningsdata."
+title: Oprette nye virksomheder ved hjælp af en assisterende opsætningsvejledning | Microsoft Docs
+description: Det er nemt at oprette en ny, tom virksomhed i Business Central. En assisterede opsætningsvejledning hjælper dig gennem trinene, og du kan indlæse eksisterende forretningsdata.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9831dd53ffa3ba94202a8a15dc0bdaffdb6d2d2d
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793151"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Oprettelse af nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver beholdere til forretningsdata, der hører til en afdeling eller en juridisk enhed, kaldet en *virksomhed*. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], får du angivet en demonstrationsvirksomhed og en tom virksomhed, *Min virksomhed*. Det er nemt at skifte mellem virksomhederne – du skal bare gå til **Mine indstillinger** og flytte til den anden virksomhed. Men du kan også oprette nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)], afhængigt af dine forretningsmæssige behov. Når du opretter en ny virksomhed, hjælper en assisterede opsætningsvejledning dig med at få styr på det grundlæggende. Du kan derefter indlæse relevante data fra dit gamle system eller en anden virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver beholdere til forretningsdata, der hører til en afdeling eller en juridisk enhed, kaldet en *virksomhed*. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], får du angivet et demoregnskab og en tom virksomhed, *Min virksomhed*. Det er nemt at skifte mellem virksomhederne – du skal bare gå til **Mine indstillinger** og flytte til den anden virksomhed. Men du kan også oprette nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)], afhængigt af dine forretningsmæssige behov. Når du opretter en ny virksomhed, hjælper en assisterede opsætningsvejledning dig med at få styr på det grundlæggende. Du kan derefter indlæse relevante data fra dit gamle system eller en anden virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Opret ny virksomhed
 Hvis du vil indsætte en virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge den assisterende opsætningsguide **Opret ny virksomhed** for at komme i gang. Opsætningsguiden er tilgængelig fra siden **Virksomheder** og fra opslag i feltet **Virksomhed** i **Mine indstillinger**.  
@@ -26,7 +26,7 @@ Hvis du vil indsætte en virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)
 Opsætningsguiden indeholder tre skabeloner:
 
 -   **Evaluering - eksempeldata**  
-    Den opretter en virksomhed, der ligner demonstrationsvirksomheden med eksempeldata og opsætningsdata.  
+    Den opretter en virksomhed, der ligner demoregnskabet med eksempeldata og opsætningsdata.  
 -   **Produktion - kun opsætningsdata**  
     Den opretter en virksomhed, der ligner **Min virksomhed** med opsætningsdata, men uden eksempeldata.
 -   **Avanceret evaluering - komplette eksempeldata** Der oprettes en virksomhed med opsætningsdata og komplette eksempeldata til alle funktioner, herunder produktion og service.
@@ -53,4 +53,3 @@ Når du har styr på det grundlæggende, kan du oprette de resterende centrale o
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Introduktion](product-get-started.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Sådan ændres planlægningsforslag i en grafisk visning | Microsoft Docs"
-description: "En typisk planlægningsaktivitet er at ændre eller tilføje planlægningskladdelinjer for at ændre de foreslåede forsyningsordrer, før du registrerer dem ved at køre funktionen **Udfør aktionsmeddelelse**. Et alternativ til at gøre dette i planlægningskladden er at bruge en grafisk visning."
+title: Sådan ændres planlægningsforslag i en grafisk visning | Microsoft Docs
+description: En typisk planlægningsaktivitet er at ændre eller tilføje planlægningskladdelinjer for at ændre de foreslåede forsyningsordrer, før du registrerer dem ved at køre funktionen **Udfør aktionsmeddelelse**. Et alternativ til at gøre dette i planlægningskladden er at bruge en grafisk visning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793060"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ændre planlægningsforslag i en grafisk visning
 En typisk planlægningsaktivitet er at ændre eller tilføje planlægningskladdelinjer for at ændre de foreslåede forsyningsordrer, før du registrerer dem ved at køre funktionen **Udfør aktionsmeddelelse**. Et alternativ til at gøre dette i planlægningskladden er at bruge en grafisk visning.
@@ -42,7 +42,7 @@ Følgende procedure viser, hvordan du ændrer forsyningsforslag ved at trække o
     Siden **Varedisponering pr. tidslinje** åbnes med varenummer, lokation og variant af varen på den valgte planlægningslinje, udfyldt på forhånd i oversigtspanelet **Indstillinger**. Oversigtspanelet **Tidslinje** viser en grafisk repræsentation af varens planlagte beholdning, herunder planlægningsforslag.  
 
 2.  Kontrollér, at feltet **Medtag planlægningsforslag** er markeret.  
-3.  Find den foreslåede forsyningsordre, du vil ændre. Du kan identificere de redigerbare elementer ved den grønne cirkel og diskikonet. Du kan finde flere oplysninger om de forskellige symboler i afsnittet "Symboler og ikoner på oversigtspanelet Tidslinje".  
+3.  Find den foreslåede forsyningsordre, du vil ændre. Du kan identificere de redigerbare elementer ved den grønne cirkel og diskikonet. Du kan finde flere oplysninger om de forskellige symboler i [Symboler og ikoner på oversigtspanelet Tidslinje](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Placer markøren over den grønne cirkel, indtil den forstørres, og markøren ændres til Flyt figur (fire pile).  
 5.  Tryk og hold museknappen nede, mens du trækker markøren op eller ned for at ændre mængden. Tryk og hold museknappen nede, mens du trækker markøren mod venstre eller højre for at ændre forfaldsdatoen.  
 6.  Ud over at flytte elementer med træk og slip, kan du ændre planlægningsforslag ved hjælp af et antal rullemenufunktioner. Få adgang til rullemenuen i den grønne cirkel for et foreslået forsyningselement, og vælg én af følgende funktioner  
@@ -99,4 +99,3 @@ Foruden de tastaturhandlinger, der blev nævnt tidligere, kan du også bruge fø
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

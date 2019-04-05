@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793122"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling  
 Det er vigtigt med effektiv styring af skyldige beløb for virksomhedens samlede finansielle tilstand. Udvidelsen Forudsigelse af forsinket betaling kan hjælpe dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategier ved at forudsige, om salgsfakturaer bliver betalt til tiden. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden.
@@ -37,7 +37,7 @@ Du kan aktivere udvidelsen manuelt ved at gøre følgende:
 2. Vælg indstillingen **Opsætning af forudsigelse af forsinket betaling**, og udfyld felterne efter behov.
 
 ## <a name="viewing-all-payment-predictions"></a>Få vist alle betalingsforudsigelser
-Hvis du aktiverer udvidelsen, er feltet **Betalinger, der forventes at være forsinkede** tilgængeligt i **Business Manager** Rollecenter. Feltet viser antallet af betalinger, der forventes for at være forsinkede, og du kan åbne siden **Debitorposter**, hvor du kan få mere at vide om de bogførte fakturaer. Der er tre kolonner, du skal være opmærksom på:  
+Hvis du aktiverer udvidelsen, er feltet **Betalinger, der forventes at være forsinkede** tilgængeligt i **Virksomhedsleder** Rollecenter. Feltet viser antallet af betalinger, der forventes for at være forsinkede, og du kan åbne siden **Debitorposter**, hvor du kan få mere at vide om de bogførte fakturaer. Der er tre kolonner, du skal være opmærksom på:  
 
 * **Forsinket betaling** - Angiver, om betalingen for fakturaen forventes at være forsinket.
 * **Forudsigelseskonfidens** - Angiver, hvor pålidelig du kan betragte betalingen som. **Høj** betyder, at forudsigelsen er mindst 90 % sikker, **Mellem** ligger mellem 80 og 90 % og **Lav** er mindre end 80 %.
@@ -72,4 +72,3 @@ Hvis du opretter din egen model i Azure Machine Learning Studio uden at bruge fu
 [Dokumentation til Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-

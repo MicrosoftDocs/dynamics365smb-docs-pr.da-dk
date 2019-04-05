@@ -1,8 +1,8 @@
 ---
-title: "Opsætning af Service | Microsoft Docs"
-description: "Oversigt over opgaver til konfiguration af Service, så det passer til den måde, organisationen administrerer sine tjenester på."
+title: Opsætning af Service | Microsoft Docs
+description: Oversigt over opgaver til konfiguration af Service, så det passer til den måde, organisationen administrerer sine tjenester på.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c4b8287c8e1c056bd45a30376e96aca1f8f4ddcc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 772022a8224ff81e332783d95e6cd27500a306fa
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792333"
 ---
-
 # <a name="setting-up-service-management"></a>Konfigurere Service
 Før du kan begynde at bruge Service-funktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er et par ting, du skal konfigurere. Du kan f.eks. oprette koder for standardservice, symptom- og fejlkoder, og de serviceartikler og serviceartikeltyper efter de behov, som virksomhedens debitorservice kræver.  
 
@@ -47,4 +46,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også
 [Service Management](service-service.md)  
 [Introduktion](product-get-started.md)  
-

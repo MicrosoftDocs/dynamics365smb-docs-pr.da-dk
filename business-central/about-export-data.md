@@ -1,6 +1,6 @@
 ---
 title: Eksportere Business Central-data til Excel | Microsoft Docs
-description: "Du kan eksportere dine regnskabsrapporter og business intelligence-data fra Business Central til Excel eller åbne dine data i Excel."
+description: Du kan eksportere dine regnskabsrapporter og business intelligence-data fra Business Central til Excel eller åbne dine data i Excel.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
 ms.date: 11/21/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b0f53eaa777fb944e0c4b55402b895373c7843a1
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "791974"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdata til Excel
 Hvis du vil arbejde med dine data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel, kan du åbne alle lister i Excel og arbejde med dem der. På samme måde, hvis du vil annullere dit abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du eksportere dataene til Excel, så du kan tage dem med dig.
@@ -73,4 +73,3 @@ Det anbefales, at du også overvejer at eksportere data fra følgende sider:
 [Finans](finance.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

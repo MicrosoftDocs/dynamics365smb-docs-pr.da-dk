@@ -1,23 +1,23 @@
 ---
 title: Betalingstolerance og kontantrabattolerance | Microsoft Docs
-description: "Du kan angive betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen."
+description: Du kan angive betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 83680cb4583cfe24deca310cb9c74ba9ab7b50f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792028"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbejde med betalingstolerancer og kontantrabattolerancer
 Du kan angive en betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen. Du kan angive en kontantrabattolerance til at give kontantrabat, efter at kontantrabatdatoen er overskredet.  
@@ -31,14 +31,14 @@ Et enkelt dokument har den samme betalingstolerance, hvad enten det bruges indiv
 
 *kontantrabatdato < betalingsdato på den valgte post <= betalingstolerancedato*  
 
-Denne regel gælder også, når det skal afgøres, om der skal vises advarsler, når du anvender betalingstolerance på flere dokumenter. Kontantrabattoleranceadvarslen vises for hver post, der opfylder datokriterierne. Yderligere oplysninger finder du i afsnittet "Eksempel 2 - Toleranceberegninger for flere bilag".
+Denne regel gælder også, når det skal afgøres, om der skal vises advarsler, når du anvender betalingstolerance på flere dokumenter. Kontantrabattoleranceadvarslen vises for hver post, der opfylder datokriterierne. Yderligere oplysninger finder du i [Eksempel 2 - Toleranceberegninger for flere bilag](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 Du kan vælge at vise en advarsel, der er baseret på tolerance i forskellige situationer.  
 
 - Den første advarsel er til kontantrabatdatoen. Du bliver informeret om, at du kan acceptere en forsinket kontantrabat. Du kan derefter vælge, om der skal accepteres tolerance på rabatdatoen.  
 - Den anden advarsel er til betalingstolerancen. Du bliver informeret om, at alle poster kan lukkes, fordi differencen ligger inden for den samlede, maksimale betalingstolerance for de udlignede poster. Du kan derefter vælge, om der skal accepteres tolerance på betalingsdatoen.
 
-Du kan finde flere oplysninger i "Sådan aktiveres eller deaktiveres betalingstoleranceadvarsel".     
+Du kan finde flere oplysninger i [Sådan aktiveres eller deaktiveres betalingstoleranceadvarsel](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
 
 ## <a name="to-set-up-tolerances"></a>Sådan opsættes tolerancer  
 Tolerancer på dato eller beløb giver dig mulighed for at afslutte en faktura, også selvom den ikke dækker fakturabeløbet fuldt ud, uanset om det skyldes, at forfaldsdatoen for betalingsrabatten er overskredet, om der er fratrukket varer, eller om der er tale om en mindre fejl. Det samme gælder for refusioner og kreditnotaer.  
@@ -60,9 +60,9 @@ Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du
 >  Du har nu kun opsat tolerancer for lokal valuta. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] skal håndtere betalingstolerancer, kreditnotaer og refusioner i fremmed valuta, skal du udføre kørslen **Skift betalingstolerance** med en værdi i feltet **Valutakode**.  
 
 > [!NOTE]  
->  Hvis du vil have vist en advarsel om betalingstolerance, hver gang du bogfører en udligning inden for tolerancen, skal du aktivere betalingstoleranceadvarslen. Du kan finde flere oplysninger i "Sådan aktiveres eller deaktiveres betalingstoleranceadvarsel".  
+>  Hvis du vil have vist en advarsel om betalingstolerance, hver gang du bogfører en udligning inden for tolerancen, skal du aktivere betalingstoleranceadvarslen. Du kan finde flere oplysninger i afsnittet [Sådan aktiveres eller deaktiveres betalingstoleranceadvarsel](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  For at deaktivere tolerancer for en debitor eller kreditor skal du spærre tolerancer på de relevante debitor- eller kreditorkort. Du kan finde flere oplysninger i afsnittet "Sådan spærres betalingstolerancer for debitorer".  
+>  For at deaktivere tolerancer for en debitor eller kreditor skal du spærre tolerancer på de relevante debitor- eller kreditorkort. Du kan finde flere oplysninger i [Sådan spærres betalingstolerancer for debitorer](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 >  Når du opsætter tolerancer, kontrolleres det via [!INCLUDE[d365fin](includes/d365fin_md.md)], om der er åbne poster, og tolerancen beregnes også for disse poster.
 
@@ -102,7 +102,7 @@ Scenarier med alternativ A eller B repræsenterer følgende:
 |3|1.000|20|5|01/15/03|c|<=15-01-03|975|Pmt.Tol.|Ja|0|5|  
 |4A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1005|Kont.rab.tolerance|Nr, 25 kont.|20/-20|0|  
 |5A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1000|Kont.rab.tolerance|Nr, 20 kont.|20/-20|0|  
-|8.0pt|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Kont.rab.tolerance|Nr., 15 kont.|20/-20|0|  
+|6A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Kont.rab.tolerance|Nr., 15 kont.|20/-20|0|  
 |4B|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1005|Pmt.Tol.|Ja|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**16.01.03 - 20-01-03**|**1000**|**Ingen**|**Ja**|**0**|**0**|  
 |6B|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Pmt.Tol.|Ja|0|5|  
@@ -262,4 +262,3 @@ Normale udligningsregler
 [Konfigurere Finans](finance-setup-finance.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

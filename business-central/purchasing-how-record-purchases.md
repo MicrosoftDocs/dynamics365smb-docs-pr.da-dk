@@ -1,7 +1,7 @@
 ---
-title: "Oprette en købsfaktura og registrere indkøb | Microsoft Docs"
-description: "Beskriver, hvordan du køber lager- eller serviceartikler ved at oprette og bogføre købsfakturaer eller ordrer."
-documentationcenter: 
+title: Oprette en købsfaktura og registrere indkøb | Microsoft Docs
+description: Beskriver, hvordan du køber lager- eller serviceartikler ved at oprette og bogføre købsfakturaer eller ordrer.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792953"
 ---
 # <a name="record-purchases"></a>Registrere køb
 Du kan oprette en købsfaktura eller købsordre for at registrere omkostningerne ved køb og spore gæld. Hvis du vil styre en lagerbeholdning, benyttes købsfakturaer og købsordrer også til at opdatere lagerniveauer dynamisk, så du kan minimere lageromkostningerne og yde bedre kundeservice. Købsomkostningerne, herunder serviceudgifter og lagerværdier, der stammer fra bogføring af købsfakturaer eller ordrer, bidrager til avancebeløb og andre finansielle nøgletal i dit Rollecenter.
@@ -79,4 +79,3 @@ Købet afspejles nu i lager- og finansrecords, og kreditorbetalingen aktiveres. 
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Forberede direkte leveringer](sales-how-drop-shipment.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

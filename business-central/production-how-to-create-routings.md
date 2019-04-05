@@ -1,23 +1,23 @@
 ---
-title: "Sådan oprettes ruter | Microsoft Docs"
-description: "En rute indeholder stamdata, som beskriver procesbehovene for en bestemt fremstillet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens rute planlægningen af handlinger, som repræsenteret på siden **Prod.ordrerute** under produktionsordren."
+title: Sådan oprettes ruter | Microsoft Docs
+description: En rute indeholder stamdata, som beskriver procesbehovene for en bestemt fremstillet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens rute planlægningen af handlinger, som repræsenteret på siden **Prod.ordrerute** under produktionsordren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6eb16bd42357646a9e88c4799a3f110be0e294eb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793258"
 ---
 # <a name="create-routings"></a>Oprette ruter
 Produktionsvirksomheder bruger ruter til at visualisere og styre produktionsprocessen.
@@ -43,11 +43,11 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 6.  I feltet **Operationsnr.** skal du skrive nummeret på den første operation, f.eks. **10**.  
 7.  I feltet **Type** skal du angive, hvilken ressourcetype er anvendes, f.eks. **Arbejdscenter**.  
 8.  I feltet **Nummer** skal du vælge den ressource, der skal bruges, eller skrive den i feltet.  
-9.  I feltet **Rutebindingskode** skal du skrive en kode for at knytte komponenten til en bestemt operation. Du kan finde flere oplysninger i afsnittet "Sådan oprettes rutebindinger".
-10.  Angiv de procestider, der kræves for at fuldføre operationen, i felterne **Operationstid** og **Opstillingstid**.  
+9.  I feltet **Rutebindingskode** skal du skrive en kode for at knytte komponenten til en bestemt operation. Du kan finde flere oplysninger i [Sådan oprettes rutebindinger](production-how-to-create-routings.md#to-create-routing-links).
+10.  Angiv de procestider, der kræves for at fuldføre operationen, i felterne **Operationstid** og **Opstillingstid**.
 
-    > [!NOTE]  
-    >  Opstillingstiden beregnes pr. produktionsordre, hvorimod operationstiden beregnes pr. produceret vare.  
+    > [!NOTE]
+    > Opstillingstiden beregnes pr. produktionsordre, hvorimod operationstiden beregnes pr. produceret vare.  
 
 11.  Angiv i feltet **Samtidige kapaciteter**, hvor mange enheder af den valgte ressource, der bruges til at udføre handlingen. F.eks. vil to personer til en pakkehandling vil halvere kørselstiden.  
 12.  Fortsæt med at udfylde linjer for alle de operationer, der kræves for at producere den pågældende vare.  
@@ -126,4 +126,3 @@ Gyldigheden i tid for versionen angives i feltet **Startdato**.
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

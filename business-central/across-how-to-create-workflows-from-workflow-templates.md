@@ -1,23 +1,23 @@
 ---
-title: "Sådan opretter du workflows ud fra workflowskabeloner | Microsoft Docs"
+title: Sådan opretter du workflows ud fra workflowskabeloner | Microsoft Docs
 description: For at spare tid ved oprettelse af nye workflows kan du oprette workflows ud fra workflowskabeloner.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 0ae5a7a308568dd8ede10c485564824685963bf4
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793306"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Oprette workflows ud fra workflowskabeloner
 For at spare tid ved oprettelse af nye workflows kan du oprette workflows ud fra workflowskabeloner.  
@@ -45,4 +45,3 @@ På siden **Workflow** opretter du et workflow ved at angive de involverede trin
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
-

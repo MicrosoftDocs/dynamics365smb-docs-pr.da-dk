@@ -1,24 +1,24 @@
 ---
-title: "Designoplysninger – Genbestillingsmetoder | Microsoft Docs"
+title: Designoplysninger – Genbestillingsmetoder | Microsoft Docs
 description: Dette emne giver et overblik over metoder til varegenbestilling.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 4aaef129da953596632b56716eaff2f0c47736f7
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792472"
 ---
 # <a name="design-details-reordering-policies"></a>Designoplysninger: Genbestillingsmetoder
 Genbestillingsmetoder definerer, hvor meget der skal bestilles, når varen skal genbestilles. Der findes fire forskellige genbestillingsmetoder.  
@@ -100,4 +100,3 @@ Da forsyningsordreantallet er baseret på det faktiske behov, kan det være smar
 [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)   
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Opsætning af lagerværdi og lageromkostningsadministration | Microsoft Docs"
-description: "Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne."
+title: Opsætning af lagerværdi og lageromkostningsadministration | Microsoft Docs
+description: Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: f512e4b5469bbf8b9440ac930eb4e7ab2e3e4ac7
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "791978"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Opsætte lagerværdi og kostprisberegning
 For at sikre, at lageromkostningerne registreres korrekt, skal du angive forskellige felter og sider, før du begynder at foretage varetransaktioner.
@@ -41,4 +41,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Arbejde med Business Central](ui-work-product.md)  
 [Finans](finance.md)  
-

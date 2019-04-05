@@ -1,6 +1,6 @@
 ---
 title: Oprette kontaktpersoner | Microsoft Docs
-description: "Beskriver opgaverne i forbindelse med oprettelse af et kontaktkort for en person, f.eks. et kundeemne eller en leverandør, og bidrager til at angive relationen og tilpasse kommunikationen."
+description: Beskriver opgaverne i forbindelse med oprettelse af et kontaktkort for en person, f.eks. et kundeemne eller en leverandør, og bidrager til at angive relationen og tilpasse kommunikationen.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: da-dk
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792307"
 ---
 # <a name="creating-contact-persons"></a>Oprette kontaktpersoner
 Du opretter en kontaktperson ved at definere et kontaktkort for personen. Du kan oprette kontaktpersoner ud fra eksisterende virksomheder, eller du kan oprette uafhængige kontaktpersoner.
@@ -44,8 +45,6 @@ Du kan oprette et kontaktkort for hver kontaktperson, der arbejder for de virkso
 >   Indholdet af de felter, du har markeret i sektionen **Overførte oplysninger** på siden **Marketingopsætning**, kopieres fra virksomheden til personerne i virksomheden.
 
 ## <a name="see-also"></a>Se også
-[Oprette kontaktvirksomheder](marketing-create-contact-companies.md)  
-[Oprette kontaktpersoner](marketing-create-contact-persons.md)  
+[Oprettelse af kontakter](marketing-create-contact-companies.md)  
 [Bruge profilspørgeskemaer til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Arbejde med Business Central](ui-work-product.md)
-

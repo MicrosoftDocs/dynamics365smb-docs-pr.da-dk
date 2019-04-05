@@ -1,8 +1,8 @@
 ---
-title: "Holde styr på målgrupper og de tilhørende interaktioner | Microsoft Docs"
-description: "Få mere at vide om at oprette målgrupper for at definere grupper af kontaktpersoner og angive interaktioner for målgrupper."
+title: Holde styr på målgrupper og de tilhørende interaktioner | Microsoft Docs
+description: Få mere at vide om at oprette målgrupper for at definere grupper af kontaktpersoner og angive interaktioner for målgrupper.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793389"
 ---
 # <a name="managing-interactions-for-segments"></a>Administrere interaktioner for målgrupper
 Siden **Målgruppe** er en slags kladde, hvor du kan:
@@ -52,4 +52,3 @@ På siden **Logførte målgrupper**, kan du vælge at oprette en opfølgende må
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Oprette og administrere kontakter](marketing-contacts.md)  
 [Arbejde med Business Central](ui-work-product.md)
-

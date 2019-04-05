@@ -1,21 +1,21 @@
 ---
-title: "Sådan oprettes serviceartikler | Microsoft Docs"
-description: "Når du modtager en ikke-registreret vare til reparation, kan du registrere den som en serviceartikel."
+title: Sådan oprettes serviceartikler | Microsoft Docs
+description: Når du modtager en ikke-registreret vare til reparation, kan du registrere den som en serviceartikel.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c30c0efc931b5970ff426141fa0dc3129d827306
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792144"
 ---
 # <a name="create-service-items"></a>Oprette serviceartikler
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] refererer termen "serviceartikel" til udstyr eller varer, der kræver service. Når du opretter en serviceordre, kan du angive de varer, der har brug for service. I ordren kan du knytte en serviceartikel til en vare på lageret eller en serviceartikelgruppe.    
@@ -62,4 +62,3 @@ Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når
 [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)  
 [Konfigurere Service](service-setup-service.md)  
 [Service Management](service-service.md)  
-

@@ -1,11 +1,11 @@
 ---
 title: Administrere Kreditor | Microsoft Docs
-description: "Oversigt over, hvordan du administrerer kreditorer (Kreditor), herunder kreditorbetalinger, kreditorerne, gæld og forfalden saldo."
+description: Oversigt over, hvordan du administrerer kreditorer (Kreditor), herunder kreditorbetalinger, kreditorerne, gæld og forfalden saldo.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 manager: edupont
-editor: 
+editor: ''
 ms.service: dynamics365-business-central
 ms.workload: na
 ms.tgt_pltfrm: na
@@ -15,12 +15,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792289"
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløb
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder det, du behøver for effektivt at administrere kreditorer.  
@@ -54,4 +54,3 @@ Hvis du venter med at bogføre betalinger, til banken har bekræftet, at den har
 [Betalingsformer](finance-payment-methods.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

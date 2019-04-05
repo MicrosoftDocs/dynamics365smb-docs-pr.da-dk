@@ -1,6 +1,6 @@
 ---
-title: "SEPA Direct Debit-opkrævning | Microsoft Docs"
-description: "Opret en Direct Debit-opkrævningen og eksporter en XML-fil, som du sender eller overfører til din elektroniske bank til behandling."
+title: SEPA Direct Debit-opkrævning | Microsoft Docs
+description: Opret en Direct Debit-opkrævningen og eksporter en XML-fil, som du sender eller overfører til din elektroniske bank til behandling.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9a92b4ea321c0f4d8ff11cb8cbd93f3053974cbe
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 87bf5f10e73d3a2da73149b44ff8c99196d20b2a
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792526"
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Oprette poster i SEPA Direct Debit-opkrævning, og eksportere til en bankfil
 For at instruere banken i at overføre det indbetalte beløb fra kundens bankkonto til din virksomheds konto, opretter du en post i den Direct Debit-opkrævning, der indeholder oplysninger om kundens bankkonto, de berørte salgsfakturaer og den Direct Debit-betalingsaftale. Fra posten i den direkte debiteringsopkrævning, som fås som resultat, kan du derefter eksportere en XML-fil, som du sender eller overfører til din elektroniske bank til behandling. Du får besked fra banken om alle betalinger, der ikke kunne behandles af banken, og derefter skal du manuelt afvise de pågældende poster i Direct Debit-opkrævningen.  
@@ -68,4 +68,3 @@ Du kan nu bogføre kvitteringer for betalinger for de involverede salgsfakturaer
 [Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)   
 [Bogføre SEPA Direct Debit-betalingskvitteringer](finance-how-to-post-sepa-direct-debit-payment-receipts.md)   
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
-

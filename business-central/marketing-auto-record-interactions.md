@@ -1,8 +1,8 @@
 ---
 title: Oprette automatisk registrering af interaktioner | Microsoft Docs
-description: "Du kan automatisk registrere debitorinteraktioner, f.eks. for salgs-, købs- og servicedokumenter eller telefonopkald."
+description: Du kan automatisk registrere debitorinteraktioner, f.eks. for salgs-, købs- og servicedokumenter eller telefonopkald.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792683"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Automatisk registrere interaktioner med kontakter
 Du kan konfigurere program til automatisk at registrere interaktioner for salg, køb og servicedokumenter, følgebreve, mails, telefonopkald som f.eks.:
@@ -34,4 +34,3 @@ Når du vil åbne siden **Opsætning af interaktionsskabelon**, skal du vælge i
 ## <a name="see-also"></a>Se også
 [Registrering af interaktioner med kontakter](marketing-interactions.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

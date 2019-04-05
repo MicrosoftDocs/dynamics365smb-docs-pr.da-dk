@@ -1,6 +1,6 @@
 ---
-title: "Klassificere datafølsomhed"
-description: "Du skal angive, hvilken type data du gemmer om personer, så du kan besvare anmodninger fra dataemnet."
+title: Klassificere datafølsomhed
+description: Du skal angive, hvilken type data du gemmer om personer, så du kan besvare anmodninger fra dataemnet.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
@@ -8,14 +8,13 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2018
+ms.openlocfilehash: 4e12aa7b4b105a221a218bcd0b6ab7d3ed30c290
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d9630075ed533759f8225810e4e4a95c141b16
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792318"
 ---
-
 # <a name="classifying-data-sensitivity"></a>Klassificere datafølsomhed
 For at klassificere de felter, der indeholder følsomme eller personlige data, kan en Microsoft-partner angive egenskaben ```DataClassification``` på felter. Dette kræver adgang til databasetabellerne, enten via udviklingsmiljøet eller ved at køre et Windows PowerShell-script. Du kan finde flere oplysninger i [Klassificere data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
 
@@ -26,7 +25,7 @@ Du kan tilføje et andet niveau i klassificering som en kunde ved at angive føl
 
 I nedenstående tabel beskrives de datafølsomhedsniveauer, du kan tildele.
 
-|Følsomhed|Description|
+|Følsomhed|Beskrivelse|
 |----|----|
 |Følsomme | Oplysninger om en registrets racemæssig eller etnisk baggrund, politiske meninger, religiøs overbevisning, engagement i fagforeninger, fysiske eller mentale sundhed, seksualitet eller oplysninger om forbrydelser. |
 |Personlig | Oplysninger, der kan bruges til at identificere en registreret, enten direkte eller sammen med andre data eller oplysninger.|
@@ -46,8 +45,7 @@ Med regnearket Klassificering af data kan du f.eks. gøre følgende:
 * Undersøge et felt ved at få vist dets indhold.  
 
 > [!Tip]
-> Vi har defineret prøvefølsomhedsklassificeringer for tabellerne og felterne i demonstrationsvirksomheden Cronus. Du kan bruge disse klassificeringer som inspiration, når du klassificerer dine egne tabeller og felter.
+> Vi har defineret prøvefølsomhedsklassificeringer for tabellerne og felterne i demoregnskabet Cronus. Du kan bruge disse klassificeringer som inspiration, når du klassificerer dine egne tabeller og felter.
 
 ## <a name="see-also"></a>Se også
 [Klassificering af Data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
-

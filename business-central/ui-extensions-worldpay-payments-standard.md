@@ -1,8 +1,8 @@
 ---
-title: WorldPay Payments Standard | Microsoft Docs
-description: Indeholder oplysninger om udvidelsen WorldPay Payments Standard
+title: WorldPay Payments Standard| Microsoft Docs
+description: Indeholder oplysninger om WorldPay Payments Standard-udvidelsen
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: ca48d31490446dd72c5d2f4997c5068a0acfd460
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792096"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Udvidelsen WorldPay Payments Standard
 Med udvidelsen WorldPay Payments Standard kan du tilbyde kunder et praktisk alternativ til betalinger via bankoverførsler eller kreditkort. Ikke nok med det, betalinger foretaget via betalingstjenester står typisk hurtigere på bankkontoen.
@@ -28,4 +28,3 @@ Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[d365fin](include
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

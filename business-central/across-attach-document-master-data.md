@@ -1,24 +1,27 @@
 ---
-title: "Vedhæfte filer til kort og dokumenter | Microsoft Docs"
-description: "Du kan vedhæfte billeder, dokumenter og andre typer filer til alle kort, f.eks. vare- og jobkortet, og du kan vedhæfte filer til alle typer salgs- og købsdokumenter."
+title: Vedhæfte filer til kort og dokumenter | Microsoft Docs
+description: Du kan vedhæfte billeder, dokumenter og andre typer filer til alle kort og alle typer salgs- og købsdokumenter.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/21/2018
+ms.search.keywords: upload, attach, attachments
+ms.date: 02/21/2019
 ms.author: edupont
+ms.openlocfilehash: f05d12481936e8159631e16f596710cfb13b3b6e
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 02a590e3389e2453f146db6bac1c487c039f5177
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792884"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Vedhæfte filer til kort og dokumenter
 Du kan vedhæfte billeder, dokumenter og andre typer filer til alle kort, f.eks. vare- og jobkortet, og du kan vedhæfte filer til alle typer salgs- og købsdokumenter.
+
+> [!Note]
+> Den maksimale størrelse for vedhæftede filer er generelt 150 MB. Grænsen kan imidlertid være lavere for nogle af funktionerne. 
 
 ## <a name="to-attach-a-file-to-a-sales-order"></a>Sådan vedhæfter du en fil til en salgsordre
 Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle andre salgs- og købsdokumenter og for alle kort.
@@ -32,4 +35,3 @@ Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle a
 ## <a name="see-also"></a>Se også
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Sælge produkter](sales-how-sell-products.md)
-

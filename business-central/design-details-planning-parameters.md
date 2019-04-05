@@ -1,6 +1,6 @@
 ---
-title: "Designoplysninger – Planlægningsparametre | Microsoft Docs"
-description: "I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i Business Central."
+title: Designoplysninger – Planlægningsparametre | Microsoft Docs
+description: I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: aeafdd37a40d393fbb62501d67b14f3e351ea254
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 72b22b1370fcd5d2a92b9ed3c6c645d279ee72f3
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792751"
 ---
 # <a name="design-details-planning-parameters"></a>Designoplysninger: Planlægningsparametre
 I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ Den måde, som planlægningssystemet styrer vareforsyning på, bestemmes af fors
 |-------------|---------------|  
 |Definer, om varen skal planlægges|Genbestillingsmetode = Tom|  
 |Definer, hvornår du skal genbestille|Interval<br /><br /> Genbestillingspunkt<br /><br /> Sikkerhedstid|  
-|Definer, hvor meget du skal genbestille|Sikkerhedslager<br /><br /> Genbestillingsmetode:<br /><br /> -   Fast genbestil.antal og Genbestil antal<br />-   Maks. antal plus Maks. lagerbeholdning<br />-   Ordre<br />-   Lot-for-Lot|  
+|Definer, hvor meget du skal genbestille|Sikkerhedslager<br /><br /> Genbestillingsmetode:<br /><br /> -   Fast genbestil.antal og Ordrekvantum<br />-   Maksimalt antal plus maks. lagerbeholdning<br />-   Sorteringsrækkefølge<br />-   Lot-for-Lot|  
 |Optimer, hvornår og hvor meget du skal genbestille|Ændringsperiode<br /><br /> Akkumuleringsperiode for lot<br /><br /> Bufferperiode|  
 |Ret forsyningsordrer|Min. ordrestørrelse<br /><br /> Maks. ordrestørrelse<br /><br /> Oprundingsfaktor|  
 |Afgræns den planlagte vare|Produktionsmetode:<br /><br /> -   Fremstil-til-lager<br />-   Fremstil-til-ordre|  
@@ -44,7 +44,7 @@ Feltet **Interval** bruges af genbestillingspunkt metoder (**Fast genbestil.anta
 
 Standardsikkerhedstiden på siden **Produktionsopsætning**, skal indstilles til mindst én dag. Forfaldsdatoen for behovet kan være kendt, men ikke forfaldstidspunktet. Der planlægges bagud for at imødekomme bruttobehov, og hvis der ikke er defineret nogen sikkerhedstid, kan varerne ankomme for sent til at opfylde behovet.  
 
-Tre ekstra felter for genbestillingsperiode **Ændringsperiode**, **Akkumuleringsperiode for lot**, og **Bufferperiode** spiller også en rolle, når det skal defineres, hvornår der skal genbestilles. Du kan finde flere oplysninger i afsnittet "Optimer, hvornår og hvor meget du skal genbestille".  
+Tre ekstra felter for genbestillingsperiode **Ændringsperiode**, **Akkumuleringsperiode for lot**, og **Bufferperiode** spiller også en rolle, når det skal defineres, hvornår der skal genbestilles. Du kan finde flere oplysninger i [Optimere, hvornår og hvor meget der genbestilles](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ## <a name="define-how-much-to-reorder"></a>Definer, hvor meget du skal genbestille  
 Hvis planlægningssystemet registrerer behovet for genbestilling, bruges den valgte genbestillingsmetode til at bestemme, hvornår og hvor meget der skal bestilles.  
@@ -57,7 +57,7 @@ Uafhængigt af genbestillingsmetoden følger planlægningssystemet sædvanligvis
 4. Hvis der er flere bruttobehov før slutdatoen for ordreforslag, der er planlagt fremad, og dette behov bringer den aktuelt beregnede forventede disponible beholdning under sikkerhedslageret, øges ordremængden for at opveje underskuddet. Den foreslåede forsyningsordre planlægges derefter baglæns fra bruttobehovets forfaldsdato, der ville have overtrådt sikkerhedslageret.  
 5. Hvis feltet **Interval** ikke er udfyldt, er det kun bruttobehovet på samme forfaldsdato, der vil blive tilføjet.  
 
-     De tre følgende felter for genbestillingsperiode spiller også en rolle, når det skal defineres, hvor meget der skal genbestilles: **Ændringsperiode**, **Akkumuleringsperiode for lot**, og **Bufferperiode**. Du kan finde flere oplysninger i afsnittet "Optimer, hvornår og hvor meget du skal genbestille".  
+     De tre følgende felter for genbestillingsperiode spiller også en rolle, når det skal defineres, hvor meget der skal genbestilles: **Ændringsperiode**, **Akkumuleringsperiode for lot**, og **Bufferperiode**. Du kan finde flere oplysninger i [Optimere, hvornår og hvor meget der genbestilles](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
 ### <a name="reordering-policies"></a>Genbestillingsmetoder  
 Følgende genbestillingsmetoder påvirker den mængde, der genbestilles.  
@@ -118,4 +118,3 @@ Hvis indstillingen **Fremstil-til-ordre** bruges, vil planlægningssystemet anal
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)
-

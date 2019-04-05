@@ -1,23 +1,23 @@
 ---
-title: "Sådan vises belastning på arbejdscentre og produktionsressourcer | Microsoft Docs"
-description: "Fra **arbejdscenterkortet** kan du få vist belastningen på arbejdscentrene som følge af frigivne produktionsordrer."
+title: Sådan vises belastning på arbejdscentre og produktionsressourcer | Microsoft Docs
+description: Fra **arbejdscenterkortet** kan du få vist belastningen på arbejdscentrene som følge af frigivne produktionsordrer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793005"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Vise belastningen på arbejdscentre og produktionsressourcer
 På siderne **Arbejdscenterkort** og **Prod.ress.kort** kan du få vist arbejdspladsbelastningen som følge af planlagte og frigivne produktionsordrer.    
@@ -35,4 +35,3 @@ Brug felterne **Vis efter** og **Vis som** i oversigtspanelet **Indstillinger** 
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

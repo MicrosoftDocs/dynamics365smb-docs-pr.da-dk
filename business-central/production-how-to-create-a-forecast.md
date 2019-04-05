@@ -1,23 +1,23 @@
 ---
-title: "Sådan oprettes en behovsprognose | Microsoft Docs"
+title: Sådan oprettes en behovsprognose | Microsoft Docs
 description: Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b7937bf83074dcbe9cd2bf501d4a5f67c1712511
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793109"
 ---
 # <a name="create-a-demand-forecast"></a>Oprette en behovsprognose
 Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.  
@@ -55,7 +55,7 @@ Det kan angives i produktionsopsætningen, hvis du vil filtrere prognoser efter 
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Behovsprognose**, og vælg derefter det relaterede link.  
 2.  Vælg på oversigtspanelet **Generelt** en prognose i feltet **Navn på behovsprognose**. Hvis der er flere forecasts i systemet, kan du skelne imellem dem vha. navnet og forecasttypen.  
-3.  Vælg i feltet **Lokationsfilter**den lokation, som dette forecast skal gælde for.  
+3.  Vælg i feltet **Lokationsfilter** den lokation, som dette forecast skal gælde for.  
 4.  I feltet **Forecasttype** skal du vælge **Salgsvare**, **Komponent** eller **Begge**. Hvis du vælger **Salgsvare** eller **Komponent**, kan du redigere antallet efter periode. Hvis du vælger **Begge**, kan du ikke redigere antallet, men du kan vælge pilen til rullelisten og få vist behovsprognoseposter.  
 5.  Angiv et **Datofilter**, hvis du vil begrænse den mængde data, der skal vises.  
 6.  I oversigtspanelet **Matrix for efterspørgselsprognose** skal du angive det prognosticerede antal for forecasts for **Salgsvarer** eller **Komponenter** for de forskellige perioder.  
@@ -77,4 +77,3 @@ Det kan angives i produktionsopsætningen, hvis du vil filtrere prognoser efter 
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

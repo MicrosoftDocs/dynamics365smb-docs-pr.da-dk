@@ -2,22 +2,22 @@
 title: Oprette omkostningsbudgetter | Microsoft Docs
 description: Dette emne indeholder en oversigt over, hvor du kan oprette og analysere omkostningsbudgetter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 4c50c2b6a81eccfe07d41c2527547b7694aca4e7
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792503"
 ---
 # <a name="creating-cost-budgets"></a>Oprette omkostningsbudgetter
 Budgettering i omkostningsregnskab minder om budgettering i regnskabet. Et omkostningsbudget oprettes baseret på omkostningstyper, ligesom et budget for regnskabet oprettes baseret på finanskonti.  
@@ -40,4 +40,3 @@ Brug følgende sider til at oprette og analysere omkostningsbudgetter. Vælg iko
 [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)   
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

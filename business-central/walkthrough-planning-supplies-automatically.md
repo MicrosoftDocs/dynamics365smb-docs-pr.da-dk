@@ -1,23 +1,23 @@
 ---
-title: "Gennemgang - Automatisk planlægning af forsyninger | Microsoft Docs"
-description: "Betegnelser som \"kør planlægning\" eller \"kør MRP\" refererer til beregningen af hovedplanen (MPS) og materialebehovsplanen (MRP) baseret på det faktiske og det prognosticerede behov."
+title: Gennemgang - Automatisk planlægning af forsyninger | Microsoft Docs
+description: Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen af hovedplanen (MPS) og materialebehovsplanen (MRP) baseret på det faktiske og det prognosticerede behov.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: c4239904c17db334cee006d5de08ea8c0e80b750
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793346"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gennemgang: Automatisk planlægning af forsyninger
 
@@ -33,7 +33,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
  Planlægningsresultatet beregnes delvist ud fra behov-udbudssættet i databasen, og delvist ud fra opsætningen af lagervarekortene eller varekortene, produktionsstyklister og ruter.  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang  
- Denne gennemgang viser, hvordan du kan bruge forsyningsplanlægningssystemet til automatisk at planlægge alle de købs- og produktionsordrer, der skal til for at fremstille 15 turcykler, der skal bruges til forskellige salgsordrer. For at opnå en klar og realistisk gennemgang er antallet af planlægningslinjer begrænset ved bortfiltrering af alle andre behov-udbudssæt i demonstrationsvirksomheden CRONUS Danmark A/S med undtagelse af salgsbehovet på lokationen BLÅ.  
+ Denne gennemgang viser, hvordan du kan bruge forsyningsplanlægningssystemet til automatisk at planlægge alle de købs- og produktionsordrer, der skal til for at fremstille 15 turcykler, der skal bruges til forskellige salgsordrer. For at opnå en klar og realistisk gennemgang er antallet af planlægningslinjer begrænset ved bortfiltrering af alle andre behov-udbudssæt i demoregnskabet CRONUS Danmark A/S med undtagelse af salgsbehovet på lokationen BLÅ.  
 
  Denne gennemgang illustrerer følgende opgaver:  
 
@@ -50,7 +50,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 ## <a name="prerequisites"></a>Forudsætninger  
  For at gennemføre denne gennemgang skal du:  
 
--   Bruge demovirksomheden CRONUS Danmark A/S.  
+-   Bruge demoregnskabet CRONUS Danmark A/S.  
 -   Ændring af forskellige vareopsætningsværdier ved at følge trinnene i afsnittet "Klargøring af eksempeldata" senere i denne gennemgang.  
 
 ## <a name="story"></a>Historie  
@@ -269,4 +269,3 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)   
  [Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)   
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-

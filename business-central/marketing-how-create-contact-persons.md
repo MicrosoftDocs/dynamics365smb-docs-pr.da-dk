@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792635"
 ---
 # <a name="create-contact-persons"></a>Oprette kontaktpersoner
 Du kan oprette et kontaktkort for hver kontaktperson, der arbejder for de virksomheder, du er i interaktion med. Der er ingen begrænsninger på, hvor mange kontaktpersoner du kan oprette for hver virksomhed. Du kan også oprette kontaktkort for personer, som du vil have registreret selvstændigt.
@@ -37,11 +37,9 @@ Du kan oprette et kontaktkort for hver kontaktperson, der arbejder for de virkso
 >   Indholdet af de felter, du har markeret i sektionen **Overførte oplysninger** på siden **Marketingopsætning**, kopieres fra virksomheden til personerne i virksomheden.
 
 ## <a name="see-also"></a>Se også
-[Opsætning af Relationsstyring](marketing-setup-marketing.md)  
 [Tildele mailgrupper til en kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Oprette ansvarsområder for kontakter](marketing-job-responsibilities.md)  
 [Oprette kompetenceniveauer for kontaktpersoner](marketing-organizational-levels.md)  
 [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Bruge profilspørgeskemaer til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Arbejde med Business Central](ui-work-product.md)  
-

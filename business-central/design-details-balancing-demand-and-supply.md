@@ -1,23 +1,23 @@
 ---
-title: "Designoplysninger – Afstemning af efterspørgsel og udbud | Microsoft Docs"
-description: "Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for at forstå, hvordan systemet fungerer, og de vigtigste af disse er at sikre, at enhver efterspørgsel opfyldes at et tilstrækkeligt udbud, og at ethvert udbud tjener et formål."
+title: Designoplysninger – Afstemning af efterspørgsel og udbud | Microsoft Docs
+description: Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for at forstå, hvordan systemet fungerer, og de vigtigste af disse er at sikre, at enhver efterspørgsel opfyldes at et tilstrækkeligt udbud, og at ethvert udbud tjener et formål.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/14/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: ec4746addfa3fad5d43ffe5579f7fd172e257dfb
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792168"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designoplysninger: Afstemning mellem behov og forsyning
 Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for at forstå, hvordan systemet fungerer, og de vigtigste er for at sikre, at:  
@@ -293,4 +293,3 @@ Dette afslutter beskrivelserne af, hvordan behov og forsyning indlæses, priorit
  [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
  [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-

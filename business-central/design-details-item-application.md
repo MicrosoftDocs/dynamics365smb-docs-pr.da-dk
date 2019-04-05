@@ -1,6 +1,6 @@
 ---
-title: "Designoplysninger – Vareudligning | Microsoft Docs"
-description: "Dette emne beskriver, hvor lagerantal og værdi registreres, når du bogfører en lagertransaktion."
+title: Designoplysninger – Vareudligning | Microsoft Docs
+description: Dette emne beskriver, hvor lagerantal og værdi registreres, når du bogfører en lagertransaktion.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 12/21/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
 ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
-ms.contentlocale: da-dk
-ms.lasthandoff: 12/27/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792509"
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
 Når du bogfører en lagertransaktion, registreres antalsbogføringen i vareposterne og værdibogføringen i værdiposterne. Du kan finde flere oplysninger i [Designoplysninger: Varekladde](design-details-inventory-posting.md).  
@@ -248,4 +248,3 @@ På grund af den måde, som kostprisen på en vare beregnes, kan en forkert vare
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

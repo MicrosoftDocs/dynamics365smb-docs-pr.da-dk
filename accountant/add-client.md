@@ -1,6 +1,6 @@
 ---
 title: Hent kunder ind i Dynamics 365-revisioroplevelsen | Microsoft Docs
-description: "Få at vide, hvordan du føjer eksisterende kunder til Accountant Hub til Dynamics 365."
+description: Få at vide, hvordan du føjer eksisterende kunder til Accountant Hub til Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792872"
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Tilføje kunder til dit dashboard i [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -33,7 +33,7 @@ Du angiver dataene i kortet for hver kunde, og du kan ændre dem efter behov. Me
 Kundens URL-adresse bruges, når du vælger menupunktet **Gå til virksomhed** i [!INCLUDE [d365acc](includes/d365acc_md.md)]-dashboardet.  
 
 ### <a name="get-invited-to-a-clients-include-d365finlongincludesd365finlongmdmd"></a>Blive inviteret indenfor i en kundes [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]
-En virksomhed, der bruger [!INCLUDE [d365fin](includes/d365fin_md.md)], kan invitere dig indenfor i [!INCLUDE [d365fin](includes/d365fin_md.md)] som deres eksterne regnskabsmedarbejder. Hvis du vil inviteres, skal du give dem mailadresse, du bruger i forbindelse med [!INCLUDE [d365acc](includes/d365acc_md.md)], f.eks. <em>me@accountant.com</em>. Kundens administratoren kan derefter føje dig til deres system ved at køre guiden **Inviter ekstern revisor**.  
+En virksomhed, der bruger [!INCLUDE [d365fin](includes/d365fin_md.md)], kan invitere dig indenfor i [!INCLUDE [d365fin](includes/d365fin_md.md)] som deres eksterne regnskabsmedarbejder. Hvis du vil inviteres, skal du give dem mailadresse, du bruger i forbindelse med [!INCLUDE [d365acc](includes/d365acc_md.md)], f.eks. <em>mig@bogholder.com</em>. Kundens administratoren kan derefter føje dig til deres system ved at køre guiden **Inviter ekstern revisor**.  
 
 Derefter vil du modtage en mail fra din kunde med links til deres [!INCLUDE [d365fin](includes/d365fin_md.md)]. Det første link er en invitation til at få adgang til virksomheden – åbn linket, og acceptere trinene, der føjer dig til kundens [!INCLUDE [d365fin](includes/d365fin_md.md)]. Det andet link bruges til at føje denne kunde til dashboardet i [!INCLUDE [d365acc](includes/d365acc_md.md)], som beskrevet ovenfor.  
 
@@ -42,4 +42,3 @@ Når du har accepteret invitationen, er du logget på, og har adgang til kundens
 ## <a name="see-also"></a>Se også
 [Kom i gang med [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
 [Fejlfinding [!INCLUDE[d365acc](includes/d365acc_md.md)]](troubleshooting.md)  
-

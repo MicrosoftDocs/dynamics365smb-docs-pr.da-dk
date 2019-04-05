@@ -1,23 +1,23 @@
 ---
-title: "Sådan reserverer du varer | Microsoft Docs"
-description: "Du kan reservere varer til salgsordrer, købsordrer og produktionsordrer. Du kan reservere lagervarer eller indgående varer på åbne dokumentlinjer."
+title: Sådan reserverer du varer | Microsoft Docs
+description: Du kan reservere varer til salgsordrer, købsordrer og produktionsordrer. Du kan reservere lagervarer eller indgående varer på åbne dokumentlinjer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 531489dddc80530b1d2c33a828388a90784db6c0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793147"
 ---
 # <a name="reserve-items"></a>Reservere varer
 Du kan reservere varer til salgsordrer, købsordrer, serviceordrer, montageordrer og produktionsordrer. Du kan reservere lagervarer eller indgående varer på åbne dokumentlinjer eller kladdelinjer. Du kan udføre arbejdet på siden **Reservation**.
@@ -38,7 +38,7 @@ Nedenfor kan du se, hvordan du reserverer varer fra en salgsordre. Trinene er de
     |**Annuller reservation fra aktuel linje**|Hvis du vil annullere reservationen af varerne fra dokumentet på den linje, som du har markeret.|
 
 > [!NOTE]  
->  Hvis der findes varesporingslinjer til salgsordren, skal du følge de specielle trin i reservationssystemet. Du kan finde flere oplysninger i afsnittet "Sådan reserveres et bestemt serienummer eller lotnummer".  
+>  Hvis der findes varesporingslinjer til salgsordren, skal du følge de specielle trin i reservationssystemet. Du kan finde flere oplysninger i [Sådan reserveres et bestemt serienummer eller lotnummer](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
 ## <a name="to-reserve-an-item-for-a-production-order-line"></a>Sådan reserverer du en vare til en produktionsordrelinje  
 Du kan reservere varer til en produktionsordre. Du skal skelne mellem produktionsordrelinjer, dvs. den overordnede vare, og produktionsordrekomponenter.
@@ -101,4 +101,3 @@ Følgende procedure er baseret på en salgsordre.
 [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

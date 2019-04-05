@@ -1,6 +1,6 @@
 ---
-title: "Rykke debitorer eller give dem en bøde for forfaldne betalinger | Microsoft Docs"
-description: "Beskriver, hvordan du sender en påmindelse til kunden om en betaling, der er forfalden, og lægger gebyrer til betalingen på grund af forsinkelsen."
+title: Rykke debitorer eller give dem en bøde for forfaldne betalinger | Microsoft Docs
+description: Beskriver, hvordan du sender en påmindelse til kunden om en betaling, der er forfalden, og lægger gebyrer til betalingen på grund af forsinkelsen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f33d8a851c1c5a8f3c464a44ebd1d6319131af09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792495"
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
 Likviditetsstyring omfatter kontrol af, om forfaldne beløb er betalt til tiden. Hvis debitorer har forfaldne betalinger, kan du begynde med at sende rapporten Kontoudtog som en påmindelse. Alternativt kan du udstede rykkere.
@@ -99,10 +99,10 @@ Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betinge
 |%11|Firmanavnet.|  
 |%12|Indholdet af feltet **Opkrævningsgebyr pr. linje** på rykkerhovedet|  
 
-Hvis du f.eks. skriver **Du skylder %9 %7, der forfalder den %2.**, vil den resulterende rykker indeholde følgende tekst: **Du skylder USD 1.200,50, der forfalder den 02-02-2014.**.
+Hvis du f.eks. skriver **Du skylder %9 %7, der forfalder den %2.**, vil den resulterende rykker indeholde følgende tekst: **Du skylder RV 1.200,50, der forfalder den 02-02-2014.**
 
 > [!NOTE]
-> Forfaldsdatoen beregnes i overensstemmelse med den datoformel, som du angiver. Du kan finde flere oplysninger i afsnittet "Bruge datoformler" i [Angive datointervaller](ui-enter-date-ranges.md).
+> Forfaldsdatoen beregnes i overensstemmelse med den datoformel, som du angiver. Du kan finde flere oplysninger i [Bruge datoformler](ui-enter-date-ranges.md#using-date-formulas).
 
 Angiv en af koderne på hvert enkelt kundekort, når du har oprettet rykkerbetingelserne med ekstra niveauer og tekst. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
 
@@ -254,4 +254,3 @@ Når du udsteder en rykker, oprettes der en rykkerpost på siden **Rykker-/rente
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

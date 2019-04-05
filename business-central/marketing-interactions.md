@@ -1,8 +1,8 @@
 ---
 title: Administrere interaktioner med dine kontakter | Microsoft Docs
-description: "Du kan administrere alle typer kommunikation eller interaktioner mellem din virksomhed og dine kontakter, f.eks. kommunikation via brev, telefon, møder osv."
+description: Du kan administrere alle typer kommunikation eller interaktioner mellem din virksomhed og dine kontakter, f.eks. kommunikation via brev, telefon, møder osv.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792664"
 ---
 # <a name="managing-interactions-with-contacts"></a>Administration af interaktioner med kontakter
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, fax, mail, telefon, møder osv.
@@ -32,7 +32,7 @@ I relationsstyringsområdet kan du registrere alle de interaktioner, du har med 
 Du skal konfigurere interaktionsskabeloner, før du kan oprette og registrere interaktioner. Når du skal oprette interaktioner, skal du angive de skabeloner, som interaktionerne er baseret på. En interaktionsskabelon en model, der definerer grundlæggende karakteristika for en interaktion.
 Du konfigurerer en interaktionsskabelon på siden **Interaktionsskabeloner**.
 
-Når du er færdig med at indtaste oplysninger om interaktionsskabelonen, kan du oprette en vedhæftet fil, f.eks. et Microsoft Word-dokument. Gentag trinnene for hver interaktionsskabelon, du vil oprette.  
+Når du er færdig med at indtaste oplysninger om skabelonen, kan du oprette en vedhæftet fil, f.eks. et Microsoft Word-dokument. Gentag trinnene for hver interaktionsskabelon, du vil oprette.  
 
 ## <a name="creating-interactions"></a>Oprette interaktioner
 Interaktioner kan registreres på to måder:
@@ -58,4 +58,3 @@ Du kan slette interaktionslogposter, der er blevet annulleret. For at slette int
 [Administrere kontakter](marketing-contacts.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Arbejde med Business Central](ui-work-product.md)  
-

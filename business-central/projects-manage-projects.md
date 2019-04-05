@@ -2,7 +2,7 @@
 title: Sagsopgaver, der bruger ressourcer og timesedler | Microsoft Docs
 description: Beskriver, hvordan du bruger ressourcer, timesedler og sager til at administrere projekter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 545c09e5b462dd712dffa68a27341b1acde17071
-ms.contentlocale: da-dk
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793267"
 ---
 # <a name="project-management"></a>Projektstyring
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du udføre almindelige projektstyringsopgaver, som f.eks. konfiguration af en sag og planlægning af en ressource samt anskaffelsen af de oplysninger, der er nødvendige til administration af budgetter og overvågning af status. Du kan spore maskin- og medarbejdertimer på projektet ved hjælp af timeregistreringer. Som projektleder har du et godt overblik, ikke kun over individuelle sager, men også over allokeringen af medarbejdere, maskiner og andre ressourcer, der bruges i alle projekter.
@@ -48,4 +48,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

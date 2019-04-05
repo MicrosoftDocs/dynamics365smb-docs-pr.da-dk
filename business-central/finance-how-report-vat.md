@@ -1,6 +1,6 @@
 ---
 title: Indsende momsrapporter til skattemyndigheder | Microsoft Docs
-description: "Få at vide, hvordan du udarbejder rapporter over moms fra salg i en periode eller fra salg og indkøb og sender rapporten til en skattemyndighed."
+description: Få at vide, hvordan du udarbejder rapporter over moms fra salg i en periode eller fra salg og indkøb og sender rapporten til en skattemyndighed.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 729524ce2145b4e167fb49671045b298affb862b
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792742"
 ---
-
 # <a name="how-to-report-vat-to-a-tax-authority"></a>Fremgangsmåde: Rapportere moms til en skattemyndighed
 Dette emne beskriver rapporterne i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du kan bruge til at indsende oplysninger om momsbeløb for salg og indkøb til skattemyndigheder i dit område.
 
@@ -117,4 +116,3 @@ I følgende tabel beskrives kodeenheder, du skal oprette til rapporten.
 [Arbejde moms af salg og køb](finance-work-with-vat.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
-

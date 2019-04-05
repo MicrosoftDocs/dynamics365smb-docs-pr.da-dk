@@ -1,6 +1,6 @@
 ---
-title: "Udlæse betalinger til en elektronisk betalingsfil | Microsoft Docs"
-description: "Når du vil oprette kreditorbetalinger, skal du aktivere en tjenesten til konvertering af bankdata, udlæse en bankfil og overføre filen til din netbank for at overføre beløbet."
+title: Udlæse betalinger til en elektronisk betalingsfil | Microsoft Docs
+description: Når du vil oprette kreditorbetalinger, skal du aktivere en tjenesten til konvertering af bankdata, udlæse en bankfil og overføre filen til din netbank for at overføre beløbet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792396"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
 Når du er klar til at bogføre betalinger til dine kreditorer eller refusioner til dine medarbejdere, kan du eksportere en fil med betalingsoplysningerne på kladdelinjerne på siden **Udbetalingskladde**. Derefter kan du overføre filen til din bank for at behandle de relaterede pengeoverførsler.
@@ -81,4 +81,3 @@ Du kan eksportere betalingsfiler igen fra siden **Kreditoverførselsjournaler**.
 [Gæld](payables-manage-payables.md)  
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,23 +1,23 @@
 ---
-title: "Overføre debitordata | Microsoft Docs"
-description: "Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til Business Central ved hjælp af RapidStart Services. Du kan bruge Excel .xlsx-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden."
+title: Overføre debitordata | Microsoft Docs
+description: Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til Business Central ved hjælp af RapidStart Services. Du kan bruge Excel .xlsx-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "791985"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
@@ -92,14 +92,14 @@ Når du anvender data, som du har indlæst fra Excel eller fra en RapidStart-pak
 
 - Hvis de samme koblinger er defineret direkte for et felt og i den relaterede tabel, men de har forskellige nye værdier, tilsidesætter den kobling, der er defineret direkte for feltet, den kobling, der er defineret for den tabel, som feltet refererer til.  
 
-I nedenstående fremgangsmåder bør du gennemgå på forhånd, hvilke værdier du vil bevare under overflytningen. Hvis du vil udføre følgende procedurer, skal du bruge dataoverflytningsfiler (.xlsx), du har eksporteret fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i afsnittet "Sådan udlæses overflytningsfiler".
+I nedenstående fremgangsmåder bør du gennemgå på forhånd, hvilke værdier du vil bevare under overflytningen. Hvis du vil udføre følgende procedurer, skal du bruge dataoverflytningsfiler (.xlsx), du har eksporteret fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Sådan udlæses overflytningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.
 2. Åbn pakken for den pågældende virksomhed.  
 3. Vælg tabellen, hvor du vil tilknytte værdier, og vælg derefter under fanen **Tabeller** handlingen **Felter**.  
 4. For hvert felt du vil tilknytte, skal du vælge handlingen **Kobling**.  
 5. Brug feltet **Gammel værdi** til at angive den værdi, som skal ændres. Brug feltet **Ny værdi** til at angive den værdi, som den gamle værdi skal ændres til. Vælg knappen **OK**.  
-6. Importér debitordataene. Du kan finde flere oplysninger i afsnittet "Sådan importeres debitordata".
+6. Importér debitordataene. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data).
 7. Brug feltet **Antal pakkefejl** til at se, om der er rapporteret fejl. Hvis der er, skal du dykke ned for at få vist fejlene. Siden **Konfigurationspakkeposter** åbnes.
 8. Vælg handlingen **Vis fejl**. Du får vist følgende fejl: **<option> er ikke en gyldig indstilling. Gyldige indstillinger er <valid option list>**. Vælg knappen **OK**.  
 9. Du kan anvende den tilknytning, som du har oprettet, ved at vælge handlingen **Anvend Data**.  
@@ -115,7 +115,7 @@ Følgende eksempel illustrerer, hvordan [!INCLUDE[d365fin](includes/d365fin_md.m
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 2. Vælg tabellen, hvor du vil tilføje yderligere værdier, og vælg derefter under fanen **Tabeller** handlingen **Felter**.  
 3. For de felter, hvor [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tillade flere værdier under overflytningen, skal du markere afkrydsningsfeltet **Opret manglende koder**.  
-4. Importér debitordataene. Du kan finde flere oplysninger i afsnittet "Sådan importeres debitordata".
+4. Importér debitordataene. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Rydde op og behandle data, før du anvender data
 I nogle tilfælde kan du rydde op i kundedata og behandle dem, før du udligner dem til databasen. For at gøre dette, kan du bruge kørslen **Konfigurationspakke - proces** til at løse problemer, f.eks.:  
@@ -134,7 +134,7 @@ Når du har eksporteret en overflytningstabel, er dit næste skridt at angive de
 
 For at få hjælp til XML kan du aktivere fanen **Udvikler** på Excel-båndet, og derefter vælge handlingen **Kilde** for at få vist XML-skemaet for overførselstabellen, som den er repræsenteret i Excel.
 
-Følgende fremgangsmåde er baseret på et Excel-regneark, du har oprettet til overflytning. Du kan finde flere oplysninger i afsnittet "Sådan udlæses overflytningsfiler".
+Følgende fremgangsmåde er baseret på et Excel-regneark, du har oprettet til overflytning. Du kan finde flere oplysninger i [Sådan udlæses overflytningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
 > Undlad at ændre kolonnerne i Excel-regnearkene. Hvis de flyttes, ændres eller slettes, kan regnearket ikke importeres i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -187,4 +187,3 @@ Virksomhedens kundedatabase er nu indstillet, og grundlæggende data er nu impor
 ## <a name="see-also"></a>Se også  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
-

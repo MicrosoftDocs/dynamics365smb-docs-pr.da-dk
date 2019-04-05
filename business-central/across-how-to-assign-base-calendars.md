@@ -1,23 +1,23 @@
 ---
-title: "Sådan opsættes basiskalendere | Microsoft Docs"
-description: "Du kan tildele en basiskalender til din virksomhed eller til virksomhedens samarbejdspartnere, f.eks. kunder, leverandører eller lokationer. Leverings- og modtagelsesdatoer på fremtidige salgsordrer, købsordrer, overflytningsordrer og produktionsordrelinjer beregnes i overensstemmelse med de arbejdsdage, der er angivet i kalenderen."
+title: Sådan opsættes basiskalendere | Microsoft Docs
+description: Du kan tildele en basiskalender til din virksomhed eller til virksomhedens samarbejdspartnere, f.eks. kunder, leverandører eller lokationer. Leverings- og modtagelsesdatoer på fremtidige salgsordrer, købsordrer, overflytningsordrer og produktionsordrelinjer beregnes i overensstemmelse med de arbejdsdage, der er angivet i kalenderen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792886"
 ---
 # <a name="set-up-base-calendars"></a>Konfigurere basiskalendere
 Du kan tildele en basiskalender til din virksomhed eller til virksomhedens samarbejdspartnere, f.eks. kunder, leverandører eller lokationer. Leverings- og modtagelsesdatoer på fremtidige salgsordrer, købsordrer, overflytningsordrer og produktionsordrelinjer beregnes i overensstemmelse med de arbejdsdage, der er angivet i kalenderen. Den vigtigste opgave i forbindelse med oprettelse af en ny basiskalender, er at angive og definere de fridage, som du vil anvende.  
@@ -41,7 +41,7 @@ Når du indtaster en linje, vil feltet **Fridag** være markeret. Du kan vælge 
 
 > [!IMPORTANT]  
 >  Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirker, hvordan datoerne beregnes og afrundet til arbejdsdage.
-Angiver en datoformel for det tidsrum, det tager at genbestille varen. Den bruges til at beregne feltet **Planlagt modtagelsesdato**, hvis du beregner fremad, og feltet **Ordredato**, hvis du beregner bagud. Se afsnittet "Leveringstid".
+Angiver en datoformel for det tidsrum, det tager at genbestille varen. Den bruges til at beregne feltet **Planlagt modtagelsesdato**, hvis du beregner fremad, og feltet **Ordredato**, hvis du beregner bagud. Se [Leveringstid](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Leveringstid
 Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirker, hvordan datoerne beregnes og afrundet til arbejdsdage. I henhold hertil beregnes de to vigtige datofelter på købsordrelinjer på følgende måde under forskellige betingelser.
@@ -55,7 +55,7 @@ Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirke
 > Udover den beregning af leveringstid, der påvirker den planlagte modtagelsesdato og ordredatoen, som vist i ovenstående tabel, kan lagerekspeditionstiden og sikkerhedstiden føjes til formlerne for at udgøre værdien i feltet **Forventet modt.dato** på følgende måde: Planlagt modtagelsesdato + Sikkerhedstid + Indgående lagerekspeditionstid = Forventet modt.dato.
 
 > [!Important]
-> Hvis lokationen bruger en væsentligt anden kalender end dine kreditorer, er det vigtigt, at du har konfigureret bestemte kalendere for disse leverandører til at beregne optimal leverandør leveringstider. Du kan finde oplysninger om, hvordan du opretter kreditorkalendere i afsnittet "Sådan tildeles en basiskalender".
+> Hvis lokationen bruger en væsentligt anden kalender end dine kreditorer, er det vigtigt, at du har konfigureret bestemte kalendere for disse leverandører til at beregne optimal leverandør leveringstider. Du kan finde oplysninger om, hvordan du opretter kreditorkalendere i [Sådan tildeles en basiskalender](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
 Indeholder i feltet **Leveringstid** kopieres fra enten varekortet eller lagervarekortet, hvis leveringstiden er defineret for varen, eller på siden **Vare/Leverandør-katalog**, hvis leveringstiden er defineret for kreditoren.
 
@@ -119,4 +119,3 @@ Basiskalendere er knyttet til din egen virksomhed, debitorer, kreditorer, placer
 [Produktion](production-manage-manufacturing.md)    
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

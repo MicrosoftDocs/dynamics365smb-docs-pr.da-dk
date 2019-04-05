@@ -1,8 +1,8 @@
 ---
-title: "Oversigt over rapporter som hjælp til forberedelsen af regnskabsafslutning | Microsoft Docs"
-description: "Giver en oversigt over de rapporter, du kan bruge til at samle oplysninger til udarbejdelse af virksomhedens ultimoopgørelser ved regnskabsårets afslutning."
+title: Oversigt over rapporter som hjælp til forberedelsen af regnskabsafslutning | Microsoft Docs
+description: Giver en oversigt over de rapporter, du kan bruge til at samle oplysninger til udarbejdelse af virksomhedens ultimoopgørelser ved regnskabsårets afslutning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 2129b0ea989076e69588c17b0f4a8e72f38a8a9a
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792563"
 ---
 # <a name="preparing-closing-statements"></a>Forberedelse af ultimoopgørelser
 Der findes en række standardrapporter, som du kan bruge til at samle de oplysninger, der er nødvendige ved forberedelsen af regnskabets ultimoopgørelser.
@@ -40,4 +40,3 @@ Klik for at se en rapport, vælg ikonet ![Elpære, der åbner funktionen Fortæl
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)
-

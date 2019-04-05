@@ -1,23 +1,23 @@
 ---
-title: "Sådan udlånes serviceartikler som erstatninger | Microsoft Docs"
-description: "Du kan udlåne lånevarer til kunderne for midlertidigt at erstatte de serviceartikler, du har modtaget til reparation."
+title: Sådan udlånes serviceartikler som erstatninger | Microsoft Docs
+description: Du kan udlåne lånevarer til kunderne for midlertidigt at erstatte de serviceartikler, du har modtaget til reparation.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793008"
 ---
 # <a name="lend-and-receive-loaners"></a>Udlåne og modtage udlånsvarer
 Du kan låne varer til kunderne for midlertidigt at erstatte de serviceartikler, du har modtaget til reparation.  
@@ -48,4 +48,3 @@ Du kan bruge siden **Generelt Servicebemærkninger** til at registrere bemærkni
   
 ## <a name="see-also"></a>Se også  
 [Oprette et udlånsprogram](service-how-setup-loaner-program.md)   
-

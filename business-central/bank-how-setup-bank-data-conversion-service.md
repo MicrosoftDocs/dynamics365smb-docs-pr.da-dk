@@ -1,6 +1,6 @@
 ---
 title: Konfigurere konvertering af bankdata | Microsoft Docs
-description: "Du kan oprette bankkonti for at holde styr på transaktioner og importere eller eksportere bankfeeds, f.eks. Yodlee."
+description: Du kan oprette bankkonti for at holde styr på transaktioner og importere eller eksportere bankfeeds, f.eks. Yodlee.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/02/2018
 ms.author: sgroespe
+ms.openlocfilehash: 48fb943e03e2dff3d1ed583872cb989944495f7f
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793052"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Konfigurere tjenesten til konvertering af bankdata
 En global udbyder af tjenester til konvertering af betalingsoplysninger til ethvert dataformat, som din bank kræver, er forbundet og klar til at blive aktiveret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kaldes for tjenesten til konvertering af bankdata i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -64,4 +64,3 @@ Du er nu tilmeldt tjenesten til konvertering af bankdata. Fortsæt med at afspej
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

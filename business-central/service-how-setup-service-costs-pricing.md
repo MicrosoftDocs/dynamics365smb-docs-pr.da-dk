@@ -1,8 +1,8 @@
 ---
-title: "Definere prissætning og omkostninger for services | Microsoft Docs"
-description: "Få at vide, hvordan du konfigurere prissætning og ekstra omkostninger for services"
+title: Definere prissætning og omkostninger for services | Microsoft Docs
+description: Få at vide, hvordan du konfigurere prissætning og ekstra omkostninger for services
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 39d917ffcfb342aaea04b3668e032d548ef17ec9
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792684"
 ---
-
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Konfigurere prissætning og ekstra omkostninger for services
 Du kan bruge prisfastsætningsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] til at konfigurere og tilpasse programmet, så du kan anvende og regulerer priser på serviceartikler, reparationer og ordrer. Disse prisbeslutninger kan derefter let overføres til fakturaprocessen.  
   
@@ -68,4 +67,3 @@ Når du arbejder med serviceartikler og serviceordrer, skal du evt. registrere a
 ## <a name="see-also"></a>Se også
 [Konfigurere Service](service-setup-service.md)  
 [Service Management](service-service.md)  
-

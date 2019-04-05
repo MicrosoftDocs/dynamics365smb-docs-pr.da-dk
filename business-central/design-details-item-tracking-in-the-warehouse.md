@@ -1,8 +1,8 @@
 ---
-title: "Designoplysninger – Varesporing i lageret | Microsoft Docs"
-description: "Serienummer og lotnummer håndteres primært som lageropgave, så alle indgående og udgående lagerdokumenter har derfor standardfunktioner til at tildele og markere varesporingsnumre. Da reservationssystemet er baseret på vareposter, understøttes lageraktivitetsdokumenter, der kun registrerer lagerposter, dog ikke fuldt ud."
+title: Designoplysninger – Varesporing i lageret | Microsoft Docs
+description: Serienummer og lotnummer håndteres primært som lageropgave, så alle indgående og udgående lagerdokumenter har derfor standardfunktioner til at tildele og markere varesporingsnumre. Da reservationssystemet er baseret på vareposter, understøttes lageraktivitetsdokumenter, der kun registrerer lagerposter, dog ikke fuldt ud.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 01/15/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: e780dba122374bd80e48ca6bbc74b7540e034ac6
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792098"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Designoplysninger: Varesporing i lageret
 Serienummer og lotnummer håndteres primært som lageropgave, så alle indgående og udgående lagerdokumenter har derfor standardfunktioner til at tildele og markere varesporingsnumre.  
@@ -33,4 +33,3 @@ Dog tager reservationssystemet lageraktiviteter i betragtning ved beregning af t
 [Designoplysninger: Integration med lager](design-details-integration-with-inventory.md)  
 [Designoplysninger - Lagertilgængelighed](design-details-availability-in-the-warehouse.md)  
 [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)
-

@@ -2,7 +2,7 @@
 title: Oprette kontaktvirksomheder | Microsoft Docs
 description: Beskriver, hvordan du kan oprette en kontaktperson for hver ny virksomhed eller potentielle virksomhed, du arbejder sammen med eller har en relation til.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,19 +13,17 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793440"
 ---
-# <a name="create-contact-companies"></a>Oprette kontaktvirksomheder
+# <a name="create-contacts"></a>Oprette kontakter
 Du kan oprette en kontakt for hver ny virksomhed, du er i interaktion med, f.eks. kunde, leverandør, kundeemne, bank, advokatfirma eller konsulentfirma.
 
 Du kan oprette en kontakt på to måder: forfra eller fra en eksisterende debitor, kreditor eller bankkonto.
-
-Kontroller eventuelt indstillingerne på siden **Marketingopsætning**, før du opretter en kontakt. Du kan finde flere oplysninger under [Konfigurere Relationsstyring](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Oprette en virksomhedskontakt fra bunden
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.
@@ -61,4 +59,3 @@ Hvis du allerede har defineret en række debitorer, kreditorer eller bankkonti, 
 [Tildele mailgrupper til en kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Oprette kontaktpersoner](marketing-create-contact-persons.md)  
 [Arbejde med Business Central](ui-work-product.md)
-

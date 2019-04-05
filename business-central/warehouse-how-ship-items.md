@@ -1,23 +1,23 @@
 ---
-title: "Sådan leverer du varer | Microsoft Docs"
-description: "Afhængigt af konfigurationen af lagerstedet, kan du enten registrere leverance på det relaterede udgående forretningsdokument, f.eks. en salgsordre, direkte, eller du kan bruge lagerleverancedokumenter, der accepterer et workflow og kan integreres med forskellige lageraktiviteter."
+title: Sådan leverer du varer | Microsoft Docs
+description: Afhængigt af konfigurationen af lagerstedet, kan du enten registrere leverance på det relaterede udgående forretningsdokument, f.eks. en salgsordre, direkte, eller du kan bruge lagerleverancedokumenter, der accepterer et workflow og kan integreres med forskellige lageraktiviteter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 75cf101f7f67bdd54d6e364468fd5e4354a089af
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792338"
 ---
 # <a name="ship-items"></a>Afsende varer
 Når du leverer varer fra et lagersted, der ikke er konfigureret til lagerleverancebehandling, skal du blot registrere leverancen på det relaterede forretningsbilag f.eks. en salgsordre, serviceordre, købsordre, returvareordre eller udgående overflytningsordre.
@@ -105,4 +105,3 @@ Du kan også bruge plukkladden til at samle flere forskellige plukinstruktioner 
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

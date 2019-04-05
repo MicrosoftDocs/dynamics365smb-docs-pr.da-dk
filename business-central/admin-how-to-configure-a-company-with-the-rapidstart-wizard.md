@@ -1,23 +1,23 @@
 ---
-title: "Sådan konfigureres en virksomhed med guiden RapidStart | Microsoft Docs"
-description: "Du kan hurtigt konfigurere en ny virksomhed, som du har oprettet ved hjælp af guiden RapidStart Services-konfiguration."
+title: Sådan konfigureres en virksomhed med guiden RapidStart | Microsoft Docs
+description: Du kan hurtigt konfigurere en ny virksomhed, som du har oprettet ved hjælp af guiden RapidStart Services-konfiguration.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792870"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Konfigurere en virksomhed med guiden RapidStart
 Du kan hurtigt konfigurere en ny virksomhed, som du har oprettet ved hjælp af guiden RapidStart Services-konfiguration.
@@ -33,7 +33,7 @@ I følgende procedure har du angivet debitoren med konfigurationspakken, der der
 
     1. Anvend konfigurationen ved at vælge handlingen **Anvend pakke**. Dette importerer konfigurationspakken, og alle pakkedatabasedata anvendes på samme tid.  
 
-    2. Gennemse konfigurationen, efter at den er blevet anvendt. Denne indstilling giver dig mulighed for at gennemse konfigurationsoplysninger og spørgeskemaer, der leveres af partneren, og importere nogle masterdata, der kræves til din virksomhed. Vælg handlingen **Konfigurationsregneark**. Yderligere oplysninger finder du i afsnittet "Sådan udfyldes konfigurationsspørgeskemaet" i [Indsaml debitoropsætningsværdier](admin-gather-customer-setup-values.md).  
+    2. Gennemse konfigurationen, efter at den er blevet anvendt. Denne indstilling giver dig mulighed for at gennemse konfigurationsoplysninger og spørgeskemaer, der leveres af partneren, og importere nogle masterdata, der kræves til din virksomhed. Vælg handlingen **Konfigurationsregneark**. Du kan finde flere oplysninger i [Sådan udfyldes konfigurationsspørgeskemaet](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Udvid oversigtspanelet **Trin 5**. Angiv, hvilket rollecenter der skal være standard for den nye virksomhed.  
 
@@ -51,4 +51,3 @@ Du har nu konfigureret virksomheden og anvendt data.
 [Anvende konfigurationer på nye virksomheder](admin-apply-configuration-to-new-companies.md)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
-

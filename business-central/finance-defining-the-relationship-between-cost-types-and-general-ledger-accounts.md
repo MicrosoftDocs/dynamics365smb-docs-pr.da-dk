@@ -1,8 +1,8 @@
 ---
 title: Definere forholdet mellem omkostningstyper og finanskonti | Microsoft Docs
-description: "Få at vide, hvordan du definerer forholdet mellem omkostningstypen og finanskontoen."
+description: Få at vide, hvordan du definerer forholdet mellem omkostningstypen og finanskontoen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: cost types, general ledger
 ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-transfer-and-post-cost-entries
+ms.openlocfilehash: f80e9b6276d26adffb5e3208ffefbf98d7f7ff96
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7709edb214804f52ee9b495c43b5302e2a23bd6b
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792265"
 ---
 # <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Definition af forholdet mellem omkostningstyper og finanskonti.
 Forholdet mellem pristype og finanskontoen oprettes i pristypen og finanskontoen.  
@@ -50,4 +50,3 @@ En pristype kan ikke have en relation til finanskonti, hvis en af følgende beti
 [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)   
 [Om omkostningsregnskab](finance-about-cost-accounting.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

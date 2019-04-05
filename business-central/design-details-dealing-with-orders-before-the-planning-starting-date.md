@@ -1,8 +1,8 @@
 ---
-title: "Designoplysninger – Håndtering af ordrer før planlægningsstartdatoen | Microsoft Docs"
-description: "Dette emne beskriver de regler, planlægningen anvender for ordrer i den frosne zone."
+title: Designoplysninger – Håndtering af ordrer før planlægningsstartdatoen | Microsoft Docs
+description: Dette emne beskriver de regler, planlægningen anvender for ordrer i den frosne zone.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: planning, frozen, design serial, lot
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 9fee9eff60b441ef2d4782a77a6fbbbe8b01af03
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4fc4afa14f9f2a989fae0b1ca8ee0e61fe24fd21
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792887"
 ---
 # <a name="design-details-dealing-with-orders-before-the-planning-starting-date"></a>Designoplysninger: Håndtering af ordrer før planlægningsstartdatoen
 For at undgå, at en forsyningsplan viser umulige og derfor ubrugelige forslag, anser planlægningssystemet perioden indtil den planlagte startdato for en frossen zone, hvor intet er planlagt. Følgende regel gælder for den frosne zone:  
@@ -42,4 +42,3 @@ Hvis serienumre/lotnumre er nødvendige eller findes i en ordre-til-ordre-link, 
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-

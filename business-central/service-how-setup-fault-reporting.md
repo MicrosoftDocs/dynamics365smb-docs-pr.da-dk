@@ -1,25 +1,24 @@
 ---
 title: Konfigurere fejlrapportering i Service | Microsoft Docs
-description: "Få at vide, hvordan du konfigurerer fejlrapporteringsprocesser."
+description: Få at vide, hvordan du konfigurerer fejlrapporteringsprocesser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792602"
 ---
-
 # <a name="set-up-fault-reporting"></a>Konfigurere fejlrapportering
 Med Fejlrapportering kan du angive standarder for registrering af oplysninger om fejl på serviceartikler. F.eks. kan du angive, hvad problemet er, de symptomer, du ser, årsagen til problemet, og hvordan det løses.  
 
@@ -49,4 +48,3 @@ Når du skal færdiggøre opsætningen af fejlrapportering, kan du også angive,
 ## <a name="see-also"></a>Se også
 [Konfigurere Service](service-setup-service.md)  
 [Service Management](service-service.md)  
-

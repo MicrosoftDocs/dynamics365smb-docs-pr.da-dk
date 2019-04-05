@@ -1,6 +1,6 @@
 ---
 title: Hvorfor kan jeg ikke tilpasse en side | Microsoft Docs
-description: "Forklarer, hvorfor du ikke kan tilpasse en side, og hvad du kan gøre for at låse den op, så du kan tilpasse den."
+description: Forklarer, hvorfor du ikke kan tilpasse en side, og hvad du kan gøre for at låse den op, så du kan tilpasse den.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 9923ed478bbe59089363f5d0a494a9e45829e7c2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 6b225548e95abacc688a97f1c3f8b5e8472a8f8f
-ms.contentlocale: da-dk
-ms.lasthandoff: 04/18/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793356"
 ---
 # <a name="why-a-page-is-locked-from-personalizing"></a>Hvorfor er en side låst mod tilpasning
 Hvis der er et låseikon i bjælken **Tilpasning**, når du åbner en side (som vist), betyder det, at du i øjeblikket er forhindret i at foretage flere tilpasningsændringer af siden.
@@ -33,4 +33,3 @@ Siden indeholder i øjeblikket de sidste tilpasningsændringer, du har foretaget
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
-

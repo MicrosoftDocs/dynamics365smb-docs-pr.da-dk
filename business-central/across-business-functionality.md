@@ -1,6 +1,6 @@
 ---
-title: "Forretningsfunktioner, der understøttes af Business Central | Microsoft Docs"
-description: "Indeholder en funktionsoversigt over alle forretningsfunktioner og afdelinger, der understøttes af funktionalitetsområder som Finans, Lager og Projektstyring."
+title: Forretningsfunktioner, der understøttes af Business Central | Microsoft Docs
+description: Indeholder en funktionsoversigt over alle forretningsfunktioner og afdelinger, der understøttes af funktionalitetsområder som Finans, Lager og Projektstyring.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792484"
 ---
 # <a name="business-functionality"></a>Forretningsfunktioner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også.
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-| Til | Se |
+| Hvis du vil | Se |
 | --- | --- |
 |Gennemføre og modtage betalinger, administrere pengestrømme, periodisere indtægter og omkostninger, opstille årsafslutning og administrere anlægsaktiver.|[Finans](finance.md)|
 |Få indsigt til udførelsen af dine forretningsaktiviteter via budgetter, kontoskemaer og analyser.|[Business Intelligence](bi.md)|
@@ -47,4 +47,3 @@ ms.lasthandoff: 01/22/2019
 [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

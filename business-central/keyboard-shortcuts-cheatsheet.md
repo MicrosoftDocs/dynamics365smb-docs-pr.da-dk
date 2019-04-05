@@ -1,6 +1,6 @@
 ---
 title: Hurtig reference til tastaturgenveje
-description: "Et udskriftsvenligt referenceark, der indeholder de mest populære tastaturgenveje."
+description: Et udskriftsvenligt referenceark, der indeholder de mest populære tastaturgenveje.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
 ms.openlocfilehash: f0a88ccadd5107130150e5cadda3e3e5d1cee4bf
-ms.contentlocale: da-dk
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792403"
 ---
-
 # <a name="keyboard-shortcuts-quick-reference"></a>Hurtig reference til tastaturgenveje
 
 ||||  
@@ -27,4 +26,3 @@ ms.lasthandoff: 12/04/2018
 |**Kopiere og indsætte**|Ctrl+C<br />Ctrl+V<br />F8|Kopiere rækker<br />Indsæt rækker<br />Kopiere feltet ovenover til den aktuelle række|
 |**Søge, filtrere og sortere**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Skift+Alt+F3<br />Ctrl+Alt+Skift+F3|Skifte søgning<br />Skifte filterrude, fokusere på feltfiltre<br />Skifte filterrude, fokusere på filtre for totaler<br />Filtrere på den markerede celleværdi<br />Tilføje filter i markeret felt<br />Nulstil filtre|
 |**Visning af et rapporteksempel**|Op/Ned<br />Højre/venstre<br />Ctrl+Home/End<br />Page Up/Down|Rulle op og ned på siden<br />Rulle til højre eller venstre <br />Gå til første/sidste side<br />Gå til forrige side eller næste side|
-

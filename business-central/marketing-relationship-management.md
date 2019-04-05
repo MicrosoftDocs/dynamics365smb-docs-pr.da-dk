@@ -1,8 +1,8 @@
 ---
 title: Relationsstyring | Microsoft Docs
-description: "Relationsstyringsfunktionerne i Business Central understøtter din salgsindsats, og du kan få adgang til oplysninger om kontakter og kundeemner, så du kan betjene kunderne effektivt."
+description: Relationsstyringsfunktionerne i Business Central understøtter din salgsindsats, og du kan få adgang til oplysninger om kontakter og kundeemner, så du kan betjene kunderne effektivt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6e1e9f56cede3afe723f4184ce3e7249b61ad6a4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
-ms.openlocfilehash: b3c766e8a43a0d4d4348a504b5142f7b83f8537a
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/24/2019
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792532"
 ---
 # <a name="managing-relationships"></a>Styre relationer
 Relationsstyringsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.
@@ -34,9 +34,7 @@ Se følgende emner for at komme i gang:
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
-[Opsætning af Relationsstyring](marketing-setup-marketing.md)  
-[Integrere med Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
+[Integration med Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

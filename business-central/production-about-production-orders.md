@@ -1,23 +1,23 @@
 ---
 title: Om produktionsordrer | Microsoft Docs
-description: "Produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer. Produktionsordrer (sags- eller arbejdssedler) dirigerer arbejdet via ruter gennem forskellige faciliteter (arbejdscentre eller produktionsressourcer) på produktionsstedet, f.eks. en fabrik."
+description: Produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer. Produktionsordrer (sags- eller arbejdssedler) dirigerer arbejdet via ruter gennem forskellige faciliteter (arbejdscentre eller produktionsressourcer) på produktionsstedet, f.eks. en fabrik.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1c534f16c1e69840912e42c30bbcae2d6496b373
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "793378"
 ---
 # <a name="about-production-orders"></a>Om produktionsordrer
 Produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer. Produktionsordrer dirigerer arbejdet via ruter gennem forskellige arbejdscentre eller produktionsressourcer på produktionsstedet.  
@@ -237,4 +237,3 @@ I produktionskladden bogføres forbrugsantal som negative vareposter, mens afgan
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
