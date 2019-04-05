@@ -1,7 +1,7 @@
 ---
 title: Tilpasse Business Central | Microsoft Docs
-description: "Få mere at vide om tilføjelse af funktioner og tilpasning af Business Central."
-documentationcenter: 
+description: Få mere at vide om tilføjelse af funktioner og tilpasning af Business Central.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,21 +11,25 @@ ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 44ca4d451c75f7f0aaa0d493f7c62cfe556023a4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 63ba198a761b0c79c51ac94d36314310e330fc58
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852005"
 ---
 # <a name="customizing-business-central"></a>Tilpasse Business Central
 Der er forskellige måder at tilpasse programmet på, der giver dig og dine kolleger adgang til de funktioner, den funktionalitet og de data, I har mest brug for, og på en måde, der passer bedst til det daglige arbejde. Hvem der ser ændringerne, afhænger af hvad du gør, som beskrevet i denne tabel.
+
+> [!NOTE]
+> Ud over hvad administratorer kan tilpasse, kan brugere tilpasse deres sider ved at tilføje, flytte eller fjerne felter, låse ruder, dele og andet. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 | Hvad kan du gøre    |  Beskrivelse  |  Hvem ser ændringerne  |  Flere oplysninger  |
 |-----|---------------|---------|-------|
 |Installér en udvidelse|Udvidelser kan sammenlignes med små programmer, der tilføjer funktionalitet, ændrer egenskaberne, giver adgang til nye onlinetjenester og meget mere. Microsoft leverer f.eks. en udvidelse, der giver integration med PayPal Payments Standard.|Alle brugere i alle regnskaber.|[Tilpasse ved hjælp af udvidelser](ui-extensions.md)|
 |Vælg, hvilke elementer i brugergrænsefladen der skal vises.|Indstillingen **Oplevelse** bestemmer, hvor meget af funktionaliteten der vises i brugergrænsefladen. Vælg mellem Essential og Premium.|Alle brugere i et bestemt regnskab.|[Ændre, hvilke funktioner der vises](ui-experiences.md)|
-|Tilpasse dit arbejdsområde|Ændre layout og indhold for dine sider.|Kun dig.|[Tilpasse dit arbejdsområde](ui-personalization-user.md)|
+|Administrer brugeres tilpasninger.|Du kan styre og administrere brugertilpasninger ved at deaktivere muligheden for at tilpasse sider og ved at fjerne alle sidetilpasninger.|Alle brugere i et bestemt regnskab.|[Administrere tilpasning som administrator](ui-personalization-manage.md)|
+|Giv mulighed for, at farver i rollecentre kan signalere vigtighed.|Opret køindikatorer, der vises i rollecentre for brugere, for at medtage en indikator, der skifter farve ud fra værdierne i køerne.|Alle brugere i et bestemt regnskab.|[Oprette en farvet indikator på køindikatorer](admin-how-set-up-colored-indicator-on-cues.md)|
 
 > [!NOTE]
 > Alle beskrivelser af funktioner i dokumentationen til [!INCLUDE[d365fin](includes/d365fin_md.md)] antager **Premium**-oplevelsen, hvilket betyder, at beskrivelserne dækker det fulde omfang af elementerne i brugergrænsefladen. Derfor kan brugere med **Essential**-oplevelsen i visse emner få flere oplysninger om funktioner og elementer i brugergrænsefladen, som ikke vises i brugergrænsefladen.
@@ -34,4 +38,3 @@ Der er forskellige måder at tilpasse programmet på, der giver dig og dine koll
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

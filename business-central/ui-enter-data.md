@@ -1,23 +1,22 @@
 ---
-title: "Sådan angiver du data i felter | Microsoft Docs"
-description: "Der er mange generelle funktioner, der hjælper dig med at indtaste data på en hurtig og nem måde. De generelle funktioner til indtastning af data er beskrevet i dette emne."
+title: Sådan angiver du data i felter | Microsoft Docs
+description: Der er mange generelle funktioner, der hjælper dig med at indtaste data på en hurtig og nem måde. De generelle funktioner til indtastning af data er beskrevet i dette emne.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4354e28522d359cf9fa6178c4a1919831dcc52db
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852489"
 ---
-
 # <a name="entering-data"></a>Angivelse af data
 Der er mange generelle funktioner, der hjælper dig med at indtaste data på en hurtig og nem måde. De generelle funktioner til indtastning af data er beskrevet i denne artikel.  
 
@@ -145,7 +144,7 @@ Du kan angive datoer og klokkeslæt i alle de felter, der er angivet specielt ti
 |11 12|11-løbende måned-løbende år 12:00:00|  
 |1112 12|11-12-aktuelt år 12:00:00|  
 |d eller dags dato|dags dato 00:00:00|  
-|d klokkeslæt|dags dato aktuelt klokkeslæt|  
+|t tid|dags dato aktuelt klokkeslæt|  
 |d 10:30|dags dato 10:30:00|  
 |d 3:3:3|dags dato 03:03:03|  
 |a eller arbejdsdato|arbejdsdato 00:00:00|  
@@ -258,6 +257,5 @@ Du kan angive datoer og klokkeslæt i alle de felter, der er angivet specielt ti
 <!--OnPrem > [!CAUTION]  
 >  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
 ## <a name="see-also"></a>Se også  
- [Søgning i, filtrering og sortering af data](ui-enter-criteria-filters.md)  
+ [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

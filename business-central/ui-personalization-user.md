@@ -1,8 +1,8 @@
 ---
 title: Tilpasse sider | Microsoft Docs
-description: "Få at vide, hvordan du kan tilpasse brugergrænsefladen, så den passer til din måde at arbejde på."
+description: Få at vide, hvordan du kan tilpasse brugergrænsefladen, så den passer til din måde at arbejde på.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852305"
 ---
 # <a name="personalizing-your-workspace"></a>Tilpasse dit arbejdsområde
-<!--NAV in the Web client--> Du kan *tilpasse*, dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
+<!--NAV in the Web client-->
+Du kan *tilpasse*, dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
 
 Afhængigt af typen af side og dens indehold, kan du:
 
@@ -29,7 +30,10 @@ Afhængigt af typen af side og dens indehold, kan du:
 -   Ændre den fastlåste rude af kolonner på en liste. Den låste rude låser en eller flere kolonner til venstre side af en liste, så de altid er til stede, selv når du ruller vandret.
 -   Justere bredden af kolonner på en liste.
 -   Flytte og fjerne køindikatorer (felter).
--   Flytte og fjerne dele. Dele er underinddelinger eller områder på en side, der indeholder elementer, f.eks. flere felter, en anden side, et diagram eller felter.  
+-   Flytte og fjerne dele. Dele er underinddelinger eller områder på en side, der indeholder elementer, f.eks. flere felter, en anden side, et diagram eller felter.
+
+> [!NOTE]
+> Ud over hvad brugere kan tilpasse, kan administratorer og superbrugere tilsidesætte brugernes tilpasninger og definere, hvilke funktioner der skal være tilgængelige i alle eller bestemte regnskaber. Du kan finde flere oplysninger under [Tilpasse Business Central](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>Sådan tilpasses en side
 
@@ -79,4 +83,3 @@ Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
-

@@ -1,23 +1,23 @@
 ---
 title: Momsindberetning | Microsoft Docs
-description: "Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen Moms - listeangivelse disk."
+description: Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen Moms - listeangivelse disk.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: c1a1fbb5fd9fdad57cace46bc82104ee704ee51f
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826584"
 ---
 # <a name="vat-vies-reporting"></a>Momsindberetning
 Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen **Moms - listeangivelse disk**.  
@@ -28,4 +28,3 @@ Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser m
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
  [Udskrive rapporter til afstemning af moms](how-to-print-vat-reconciliation-reports.md)    
-

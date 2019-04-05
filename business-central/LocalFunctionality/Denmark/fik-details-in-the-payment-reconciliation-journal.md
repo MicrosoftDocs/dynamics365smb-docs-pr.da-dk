@@ -1,23 +1,23 @@
 ---
 title: FIK-detaljer i betalingsudligningskladden | Microsoft Docs
-description: "Feltet Transaktionstekst på siden Betalingsudligningskladde viser oplysninger om automatisk udligning af betalinger ved hjælp af den danske FIK-standard."
+description: Feltet Transaktionstekst på siden Betalingsudligningskladde viser oplysninger om automatisk udligning af betalinger ved hjælp af den danske FIK-standard.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 13a585127ef2dc5e91a0546bb8059540faa53e37
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826578"
 ---
 # <a name="fik-details-in-the-payment-reconciliation-journal"></a>FIK-detaljer i betalingsudligningskladden
 Feltet **Transaktionstekst** på siden **Betalingsudligningskladde** viser oplysninger om automatisk udligning af betalinger ved hjælp af den danske FIK-standard. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](../../receivables-how-reconcile-payments-auto-application.md).  
@@ -36,4 +36,3 @@ Feltet **Transaktionstekst** på siden **Betalingsudligningskladde** viser oplys
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Afstemme betalinger ved hjælp af automatisk udligning](../../receivables-how-reconcile-payments-auto-application.md)
-

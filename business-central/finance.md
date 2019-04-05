@@ -1,8 +1,8 @@
 ---
-title: "Økonomistyring | Microsoft Docs"
-description: "Få mere at vide om opgaver til konfiguration af finans i din virksomhed, der dækker alle dine regnskabs-, revisions- og bogholderibehov."
+title: Økonomistyring | Microsoft Docs
+description: Få mere at vide om opgaver til konfiguration af finans i din virksomhed, der dækker alle dine regnskabs-, revisions- og bogholderibehov.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: edupont
+ms.openlocfilehash: d095e710d33882cc39772c35a495b39e08e0c729
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e4cda1f4770117065d1650a0c51dbd46fdf8baac
-ms.contentlocale: da-dk
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832524"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
@@ -33,7 +33,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Få dine debitorer til at sende betaling, før du sender til dem, eller send betaling til dine kreditorer, før de sender til dig.|[Fakturere forudbetalinger](finance-invoice-prepayments.md)|
 | Afstemme bankkonti og overføre beløb mellem bankkonti. |[Håndtere bankkonti](bank-manage-bank-accounts.md) |
 |Opret koncerninterne partnere, og behandl transaktioner, manuelt eller automatisk, mellem juridiske enheder inden for samme virksomhed.|[Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)|
-|Kombinerer finansposter fra flere regnskaber i ét virtuelt "konsolideret regnskab" til finansielle analyser.|[Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)|
+|Kombiner finansposter fra flere regnskaber i ét virtuelt konsolideret regnskab til finansielle analyser.|[Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)|
 |Analysér omkostningerne til virksomhedens drift ved at fordele faktiske og budgetterede omkostninger for operationer, afdelinger, produkter og projekter til omkostningssteder.|[Regnskab for omkostninger](finance-manage-cost-accounting.md)|
 |Styre lager- og produktionsomkostninger, rapportere omkostninger og afstemme omkostninger med finansposterne.|[Administrere lageromkostninger](finance-manage-inventory-costs.md)|
 | Forstå finans og kontoplanen. |[Om Finans og kontoplanen](finance-general-ledger.md) |
@@ -58,10 +58,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Køb](purchasing-manage-purchasing.md)  
 [Afslutte regnskabsperioder](year-close-years-periods.md)  
 [Administrere projekter](projects-manage-projects.md)    
-[Import af data fra andre økonomisystemer](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Import af data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

@@ -7,7 +7,7 @@
     <Node Name="" DisplayName="Synkronisere med kontakter i Microsoft Outlook" Page="admin-synchronize-outlook-contacts.html"/>
     <Node Name="" DisplayName="Bruge Business Central som din virksomheds indbakke i Outlook" Page="admin-outlook.html"/>
     <Node Name="" DisplayName="Aktivere virksomhedens data til Power BI" Page="admin-powerbi.html"/>
-    <Node Name="" DisplayName="Bruge Business Central som en Power Bi-datakilde" Page="across-how-use-financials-data-source-powerbi.html"/>
+    <Node Name="" DisplayName="Bruge Business Central som en Power BI-datakilde" Page="across-how-use-financials-data-source-powerbi.html"/>
     <Node Name="" DisplayName="Tilpasse Business Central ved brug af udvidelser" Page="ui-extensions.html"/>
   </Node>
   <Node Name="" DisplayName="Tip" Page="ui-work-product.html">
@@ -278,7 +278,7 @@
     <Node Name="" DisplayName="Administrere målgrupper" Page="marketing-segments.html"/>
     <Node Name="" DisplayName="Registrere interaktioner" Page="marketing-interactions.html"/>
     <Node Name="" DisplayName="Administrere salgsleads" Page="marketing-manage-sales-opportunities.html"/>
-    <Node Name="" DisplayName="Administration af kunder og salg, der er oprettet i Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
+    <Node Name="" DisplayName="Administration af debitorer og salgsordrer, der er oprettet i Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
   </Node>
   <Node Name="" DisplayName="Personale" Page="hr-manage-human-resources.html">
     <Node Name="" DisplayName="Sådan gør du: Registrere medarbejdere" Page="hr-how-register-employees.html"/>

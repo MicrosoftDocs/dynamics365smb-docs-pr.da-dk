@@ -1,18 +1,18 @@
 ---
-title: "Sådan udskrives en rapport til afstemning af moms | Microsoft Docs"
-description: "I Business Central kan du bruge rapporten Momsafstemning til at få vist en oversigt over finanskonti med deres grundlæggende beløb og momsbeløb. Disse beløb er grupperet efter moms-type for at hjælpe med afstemningen for afregning af moms."
+title: Sådan udskrives en rapport til afstemning af moms | Microsoft Docs
+description: I Business Central kan du bruge rapporten Momsafstemning til at få vist en oversigt over finanskonti med deres grundlæggende beløb og momsbeløb. Disse beløb er grupperet efter moms-type for at hjælpe med afstemningen for afregning af moms.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
 ms.openlocfilehash: d6bb5d9ce63733fa10605c6edb4be3fe9aae4aed
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/20/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826582"
 ---
 # <a name="print-vat-reconciliation-reports"></a>Udskrive rapporter til afstemning af moms
 I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan du bruge rapporten **Momsafstemning** til at få vist en oversigt over finanskonti med deres grundlæggende beløb og momsbeløb. Disse beløb er grupperet efter moms-type for at hjælpe med afstemningen for afregning af moms.  
@@ -32,4 +32,3 @@ I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan du bruge rapporten **Mom
 
 ## <a name="see-also"></a>Se også  
  [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
-

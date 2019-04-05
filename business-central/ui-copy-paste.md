@@ -1,6 +1,6 @@
 ---
-title: "Kopiere og indsætte data"
-description: "Kopier felter og rækker fra Business Central-sider, og indsæt dem et andet sted."
+title: Kopiere og indsætte data
+description: Kopier felter og rækker fra Business Central-sider, og indsæt dem et andet sted.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6f731940714a754275611026749afa4d79a94443
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853067"
 ---
-
-# <a name="copying-and-pasting-in-included365finincludesd365finmdmd"></a>Kopiere og indsætte i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="copying-and-pasting"></a>Kopiere og indsætte
 Du kan kopiere en eller flere rækker fra en liste eller et enkelt felt på en side og derefter indsætte det, du har kopieret på den samme side, en anden side eller et eksternt dokument (som Microsoft Excel og e-mails i Outlook). Kort sagt, når du vil kopiere, skal du trykke på CTRL + C (cmd + C i macOS) på tastaturet. Når du vil indsætte, skal du trykke på CTRL + V (cmd + V i macOS).
 
 Der er mange andre tastaturgenveje til kopiering og indsætning, som hjælper dig med spare tid, når du indtaster data. Du kan finde flere oplysninger om dem i [Tastaturgenveje](keyboard-shortcuts.md#CopyRows).
@@ -72,4 +71,3 @@ Når du indsætter i [!INCLUDE[d365fin](includes/d365fin_md.md)], kontrolleres h
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.md)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Behandle indgående og udgående IC-transaktioner | Microsoft Docs"
+title: Behandle indgående og udgående IC-transaktioner | Microsoft Docs
 description: IC-transaktioner, som du modtager fra koncerninterne partnere, vises i IC-indbakken, hvor du behandle dem manuelt eller automatisk.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853277"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere IC-indbakken og -udbakken
 Alle IC-transaktioner, som du modtager elektronisk fra koncerninterne partnere, vises i den koncerninterne indbakke.  
@@ -43,7 +43,7 @@ Du kan bruge feltet **Vis transaktionskilde** til at filtrere siden **Koncernint
 #### <a name="returned-from-intercompany-partner"></a>Returneret fra koncernintern partner  
  Hvis transaktionen blev afvist af din koncerninterne partner, har du kun mulighed for at annullere transaktionen i indbakken. Derefter skal du oprette rettelseslinjer eller tilbageføre kladden eller dokumentet i regnskabet.  
 
-## <a name="re-creating-inbox-entries"></a>Gendanne indbakkeposter  
+## <a name="recreating-inbox-entries"></a>Gendanne indbakkeposter  
  Hvis du har accepteret en transaktion i indbakken, men efterfølgende har slettet dokumentet eller kladden i stedet for at bogføre den/det, kan du gendanne indbakkeposten og acceptere dokumentet eller kladden igen.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Få vist en oversigt over IC-transaktioner i en periode  
@@ -105,4 +105,3 @@ Følgende procedure beskriver, hvordan du gendanner transaktioner i indbakken, m
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

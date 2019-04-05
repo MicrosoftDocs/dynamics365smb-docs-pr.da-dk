@@ -1,6 +1,6 @@
 ---
 title: Den intelligente cloud | Microsoft Docs
-description: "Få en kopi i skyen af dine data, så du er forbundet med den intelligente cloud."
+description: Få en kopi i skyen af dine data, så du er forbundet med den intelligente cloud.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,15 +11,14 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2018
 ms.author: bmeier
+ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abf01698e25ae04a2e34696fb2443ff7d413a26
-ms.contentlocale: da-dk
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852121"
 ---
-
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodlongincludesprodlongmd"></a>Din adgang til den intelligente cloud med [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Din adgang til den intelligente cloud med [!INCLUDE[prodshort](includes/prodshort.md)]
 
 Som bruger af [!INCLUDE[prodshort](includes/prodshort.md)] online har du fuld adgang til scenarier, der er baseret på den intelligente cloud, du kan f.eks. redigere data i Excel og overføre ændringerne tilbage til [!INCLUDE[prodshort](includes/prodshort.md)], eller når du får vist dataene i Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-first service, men også de kunder, der udelukkende skal køre deres arbejdsbelastning lokalt eller på den intelligente edge, der er forbundet med skyen, kan gøre dette.  
 
@@ -53,4 +52,3 @@ Når din Dynamics 365-videresalgspartner har fået den rigtige licens til din lo
 [Udvidelsen Intelligent cloud i Business Central](ui-extensions-intelligent-cloud.md)  
 [Datareplikeringsudvidelse](ui-extensions-data-replication.md)  
 [Oprette forbindelse til Intelligent cloud](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)  
-

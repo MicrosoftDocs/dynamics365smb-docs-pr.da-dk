@@ -1,8 +1,8 @@
 ---
-title: "Oprette og køre en kørsel | Microsoft Docs"
-description: "Du kører kørsler for at behandle data og opdatere oplysninger, f.eks. for at foretage periodiske regnskabsaktiviteter eller udføre beregninger."
+title: Oprette og køre en kørsel | Microsoft Docs
+description: Du kører kørsler for at behandle data og opdatere oplysninger, f.eks. for at foretage periodiske regnskabsaktiviteter eller udføre beregninger.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 260cd7761b130bbe3748de3cc109a9f4f56c1384
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 7357ae501c4b53ae66869bbbc1ce415a3996f542
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853254"
 ---
 # <a name="run-batch-jobs"></a>Afvikle kørsler
 En kørsel er en rutine, hvor data behandles i bundter, f.eks. kørslen **Kursreguler valutabeholdninger**. Der findes kørsler, som udfører periodiske regnskabsaktiviteter, som f.eks. opgørelse af resultatopgørelsen ved afslutning af regnskabsåret. Mange kørsler udfører beregninger, som f.eks. beregningen af rentenotaer, kursjusteringer og beregning af salgspriser.
@@ -31,6 +31,5 @@ En kørsel minder om en rapport med den undtagelse, at kørslen bruger resultate
 4. Vælg **OK** for at starte kørslen.
 
 ## <a name="see-also"></a>Se også
-[Søgning i, filtrering og sortering af data](ui-enter-criteria-filters.md)  
+[Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

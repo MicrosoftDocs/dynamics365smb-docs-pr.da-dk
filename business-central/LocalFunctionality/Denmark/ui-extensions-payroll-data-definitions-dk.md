@@ -1,25 +1,24 @@
 ---
-title: "Definitioner af løndata (DK) | Microsoft Docs"
-description: "Denne udvidelse gør det nemt at udveksle data med løntjenesteudbydere i Danmark."
+title: Definitioner af løndata (DK) | Microsoft Docs
+description: Denne udvidelse gør det nemt at udveksle data med løntjenesteudbydere i Danmark.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 14e5ea39a8f5d4f84076740389167bad4cc96392
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826580"
 ---
-
 # <a name="the-payroll-data-definitions-dk-extension"></a>Udvidelsen Definitioner af løndata (DK)
 Hvis dit firma bruger løntjenesteudbyderne Danløn, Dataløn, Lønservice, Multiløn eller Proløn i Danmark, kan udvidelsen Definitioner af løndata(DK) hjælpe dig med hurtigt og nøjagtigt at registrere løntransaktioner fra disse udbydere. Udvidelsen indeholder dataudvekslingsdefinitioner, der gør det muligt at importere løntransaktioner i filer, som udbyderne sender til dig. Du kan finde flere oplysninger om dataudvekslingsdefinitioner under [Konfigurere dataudvekslingsdefinitioner](../../across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -34,4 +33,3 @@ Når du har installeret udvidelsen, er det næste trin at angive formatet for l�
 
 ## <a name="see-also"></a>Se også
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
-

@@ -1,8 +1,8 @@
 ---
-title: "Planlægge en rapport til kørsel på en bestemt dato og et bestemt klokkeslæt | Microsoft Docs"
-description: "Få mere at vide om, hvordan du angiver en rapport i en opgavekø og planlægger, at den skal afvikles på en bestemt dato og tidspunkt."
+title: Planlægge en rapport til kørsel på en bestemt dato og et bestemt klokkeslæt | Microsoft Docs
+description: Få mere at vide om, hvordan du angiver en rapport i en opgavekø og planlægger, at den skal afvikles på en bestemt dato og tidspunkt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,23 +12,32 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 706464cf1b9a264f7575156c7835540ce3c254b0
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852420"
 ---
-# <a name="working-with-reports"></a>Arbejde med rapporter
+# <a name="working-with-reports-and-batch-jobs"></a>Arbejde med rapporter og kørsler
 En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse og kan udskrives. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
+
+Kørsler udfører mere eller mindre det samme som rapporter, men med henblik på at udføre en proces. F.eks. opretter kørslen **Opret rykkere** rykkerdokumenter til debitorer med forfaldne betalinger.  
+
+> [!NOTE]
+> I dette emne omtales hovedsageligt "rapport", men lignende oplysninger gælder for kørsler.
 
 Du kan finde rapporter under fanen **Rapporter** på markerede sider, eller du kan bruge søgefunktionen ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") til at finde rapporter efter navn.
 
 
-## <a name="specifying-the-data-to-include-in-the-report"></a>Angiver dataene, der skal medtages i rapporten
+## <a name="specifying-the-data-to-include-in-the-report"></a>Angive dataene, der skal medtages i rapporten
 Når du åbner en rapport, får du typisk vist en side, hvor du kan angive forskellige indstillinger og filtre, som bestemmer, hvad der skal med i rapporten. Denne side kaldes rapportanmodningssiden. For eksempel gør rapportanmodningssiden det muligt at oprette en rapport for en bestemt debitor, et bestemt datointerval eller sorteringsrækkefølge for oplysninger i rapporten. Her er et eksempel på en rapportanmodningsside:
 
 ![Rapportindstillinger](media/report_options.png "Rapportindstillinger")
+
+> [!Caution]
+> Sektionen **Vis resultater** på en anmodningsside indeholder en generel filtreringsfunktion for rapporter. Disse filtre er valgfrie.<br /><br /> Nogle rapporter ignorerer disse filtre, hvilket vil sige, at uanset hvilket filter der er angivet i sektionen **Vis resultater**, er resultatet af rapporten det samme. Det er ikke muligt at vise en oversigt over, hvilke felter ignoreres i rapporterne, så du må prøve dig frem med filtrene, når du bruger dem.<br /><br />
+**Eksempel**: Når du bruger kørslen **Opret rykkere**, bliver et filter for feltet **Debitorposter** i **Niv. for sidst udstedte rykker** ignoreret, fordi filtrene er fastsat for kørslen.
 
 ### <a name="SavedSettings"></a>Bruge gemte indstillinger
 I nogle rapporter, afhængigt af hvordan de er designet, kan rapportsiden indeholde sektionen **Gemte indstillinger**, der indeholder en eller flere poster i feltet **Brug standardværdier fra**. Posterne i feltet kaldes *gemte indstillinger*. En gemt indstilling er grundlæggende en foruddefineret gruppe af indstillinger og filtre, som du kan anvende i rapporten, før du ser et rapporteksempel eller sender rapporten til en fil. Posten for gemte indstillinger, som kaldes **Sidst anvendte indstillinger og filtre**, er altid tilgængelig. Denne post konfigurerer rapporten til at bruge indstillinger og filtre, der blev brugt sidste gang, du så på rapporten.
@@ -47,9 +56,9 @@ Du kan tilføje flere filtre ved at indstille **Tilføj**-felterne. Når du har 
 
 Afhængigt af hvilken type felt, du filtrerer, kan du angive filterkriterier for at søge efter et nøjagtigt match, delvist match, værdiintervaller og meget mere. Du kan få hjælp til at indstille filtre her:
 -   [Filtrering](ui-enter-criteria-filters.md#FilterCriteria)
--   [Angive datointervaller](ui-enter-date-ranges.md)
+-   [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md)
 
-## <a name="previewing-a-report"></a>Visning af et rapporteksempel
+## <a name="previewing-a-report"></a>Visning af en rapport
 Vælg **Vis udskrift** for at se rapporten i internetbrowseren. Peg på et område i rapporten for at få vist menulinjen.  
 
 ![Værktøjslinje til visning af rapporteksempel](media/report_viewer.png "Værktøjslinje til visning af rapporteksempel")
@@ -88,4 +97,3 @@ Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvor den arrangere
 [Angive printervalg for rapporter](ui-specify-printer-selection-reports.md)  
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

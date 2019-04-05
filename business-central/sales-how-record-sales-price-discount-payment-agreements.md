@@ -1,6 +1,6 @@
 ---
-title: "Konfigurere særlige salgspriser og rabatter for kunder | Microsoft Docs"
-description: "Beskriver, hvordan du definerer de alternative pris- og rabataftaler, som du vil anvende på salgsdokumenter, når du sælger til forskellige kunder."
+title: Konfigurere særlige salgspriser og rabatter for kunder | Microsoft Docs
+description: Beskriver, hvordan du definerer de alternative pris- og rabataftaler, som du vil anvende på salgsdokumenter, når du sælger til forskellige kunder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 11/28/2018
 ms.author: sgroespe
+ms.openlocfilehash: 7a0034bfbbd62ccf3278febea0ad9d083d7482bc
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: b0af8e6d6dd477ebabbfc1fa05e8d57378eee226
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853208"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere specialsalgspriser og -rabatter
 De forskellige pris- og rabataftaler, der gælder ved salg til forskellige debitorer, skal defineres, så de aftalte regler og værdier anvendes i de salgsdokumenter, der oprettes for debitorerne.
 
-Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger i afsnittet "Beregning af bedste pris".
+Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger under [Beregning af bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Med hensyn til priser kan du få en særlig salgspris indsat på salgslinjerne, hvis en bestemt kombination af kunde, vare, minimumantal, enhed eller start-/slutdato findes.
 
@@ -144,4 +144,3 @@ Hvis du vil masseopdatere varepriser, f.eks. forøge alle varepriser med en proc
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

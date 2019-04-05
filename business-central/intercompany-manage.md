@@ -2,7 +2,7 @@
 title: Transaktioner mellem virksomheder i den samme organisation | Microsoft Docs
 description: Du kan forenkle forretningsgange og transaktioner mellem virksomheder i den samme organisation med Intercompany-funktionaliteten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/18/2018
 ms.author: sgroespe
+ms.openlocfilehash: 1d707aeec37b3c6c0ee027d0266e9cc386fb5d3a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c68e4bd69c854ecd99cfb833c941066d9a805da
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852098"
 ---
 # <a name="managing-intercompany-transactions"></a>Administrere Intercompany-transaktioner (IC)
 Organisationen består muligvis af flere virksomheder, men har måske ikke det tilsvarende antal regnskabs- og administrationsgrupper. Med Intercompany-funktionen kan du handle med datterselskaber og interne partnerorganisationer på samme måde som med dine eksterne leverandører og kunder. Du angiver kun oplysninger om intercompany-transaktioner én gang i de relevante bilag. Du kan bruge de funktioner, du allerede kender, f.eks. likviditetsstyring. Tilknytningsfunktioner i kontoplanerne og dimensioner er med til at sikre, at oplysningerne vises de rigtige steder.  
@@ -35,6 +35,8 @@ Når du angiver en transaktion, skal du ikke angive kontiene for et individuelt 
 
  Når du har oprettet forretningspartnere som debitorer og kreditorer i systemet og tildelt dem Intercompany-partnerkoder, er det muligt at udveksle IC-købs- og salgsbilag, herunder varer og varegebyrer. Intercompany-funktionen muliggør intercompany-transaktioner mellem flere databaser, f.eks. i forskellige lande såvel som flere valutaer, forskellige kontoplaner, forskellige dimensioner og forskellige varenumre.  
 
+Konsolidering af finansielle oplysninger kan især være relevant i forbindelse med interne processer. Du kan finde flere oplysninger i [Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md).
+
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
  |Hvis du vil |Se|
@@ -50,5 +52,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

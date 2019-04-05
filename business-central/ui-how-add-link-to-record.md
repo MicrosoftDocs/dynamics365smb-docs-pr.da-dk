@@ -1,23 +1,23 @@
 ---
-title: "Sådan sammenkædes poster med eksterne oplysninger eller programmer | Microsoft Docs"
-description: "Indsæt et hyperlink i et dokument eller websted til en bestemt post, f.eks. en debitor eller et dokument."
+title: Sådan sammenkædes poster med eksterne oplysninger eller programmer | Microsoft Docs
+description: Indsæt et hyperlink i et dokument eller websted til en bestemt post, f.eks. en debitor eller et dokument.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 3fbd9fa2e68ab84c7abb82bdef42b10e9e2cc93e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853300"
 ---
-# <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Sådan føjes links til websteder, dokumenter eller programmer på poster
+# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Føje links til websteder, dokumenter eller programmer på poster
 På en bestemt post, f.eks. en debitor, et dokument eller en salgsordre, kan du tilføje et link til et eksternt dokument, websted eller program. Det kan også være, at du ønsker et link, der åbner en ny tom mail til en bestemt modtager, når du vælger det. På kortsiden på nogle poster, f.eks. debitor- og kreditorkort, er der et felt **Hjemmeside**, hvor du kan angive en URL-adresse (internetadresse). Hvis du vil medtage andre links, kan du bruge den metode, der er beskrevet i denne artikel.
 
 Et andet eksempel kan være, når du modtager en trykt faktura fra kreditorer. Du kan scanne den og gemme den som en .pdf-fil på et SharePoint-websted. Derefter kan du oprette et link fra en købsfaktura i [!INCLUDE[d365fin_md](includes/d365fin_md.md)] til den tilsvarende faktura i SharePoint. Eller du kan oprette et link fra et varekort til den tilsvarende side i kreditorens onlinekatalog.
@@ -35,7 +35,7 @@ Et andet eksempel kan være, når du modtager en trykt faktura fra kreditorer. D
     -   Hvis du vil sammenkæde med en fil på din computer eller dit netværk, skal du angive den fulde sti og filnavn, f.eks. **C: Min dokumentfaktura1.doc**.
     -   Hvis du vil sammenkæde med et websted, skal du angive URL-adressen (internetadressen), f.eks. **www.microsoft.com**.
     -   Hvis du vil sammenkæde med et websted, skal du angive URL-adressen (internetadressen), f.eks. **www.microsoft.com**.
-    -   Hvis du vil sammenkæde med et program, skal du angive en bestemt streng for at åbne programmet. Hvis du f.eks. vil åbne OneNote med en bestemt side, skal du angive **onenote:///C:Min dokumenttest.one**. Eller hvis du vil åbne Outlook med en ny tom mail til et bestemt alias, skal du angive **mailto:testalias**.  
+    -   Hvis du vil sammenkæde med et program, skal du angive en bestemt streng for at åbne programmet. Hvis du f.eks. vil åbne OneNote med en bestemt side, skal du angive **OneNote:///C:Min dokumenttest.one**. Eller hvis du vil åbne Outlook med en ny tom mail til et bestemt alias, skal du angive **mailto:testalias**.  
 
 5.  Angiv oplysninger om linket i feltet **Beskrivelse**.  
 
@@ -55,4 +55,3 @@ Hvis du sletter en enkelt post, f.eks. en salgsordrelinje, en salgsordre eller e
 
 ## <a name="see-also"></a>Se også  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

@@ -1,23 +1,23 @@
 ---
 title: Gennemgang - Salg, montering og levering af pakker | Microsoft Docs
-description: "For at støtte en for JIT-lagerstrategi og muligheden for at tilpasse produkter til debitorkrav, kan montageordrer automatisk oprettes og tilknyttes, så snart salgsordrelinjen er oprettet. Kæden mellem salgsbehov og montagelevering giver salgsordrebehandlere mulighed for at tilpasse montageelementet automatisk og love leveringsdatoer i henhold til komponentens tilgængelighed. Desuden bogføres montageforbrug og afgang automatisk med leverancen af den tilknyttede salgsordre."
+description: For at støtte en for JIT-lagerstrategi og muligheden for at tilpasse produkter til debitorkrav, kan montageordrer automatisk oprettes og tilknyttes, så snart salgsordrelinjen er oprettet. Kæden mellem salgsbehov og montagelevering giver salgsordrebehandlere mulighed for at tilpasse montageelementet automatisk og love leveringsdatoer i henhold til komponentens tilgængelighed. Desuden bogføres montageforbrug og afgang automatisk med leverancen af den tilknyttede salgsordre.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852696"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
 
@@ -27,7 +27,7 @@ For at støtte en for JIT-lagerstrategi og muligheden for at tilpasse produkter 
 
 Der findes specielle funktioner til at dække levering af montage til ordre-mængder, både i grundlæggende og avancerede lagerkonfigurationer. Når medarbejdere, der er ansvarlige for montering, afslutter monteringsdele eller montage til ordre-mængde, registrerer de det i feltet **Levér antal** på lagerleverancelinjen i avancerede konfigurationer og vælger **Bogfør lev.**. Resultatet er, at den tilsvarende montageafgang bogføres, herunder det relaterede komponentforbrug, og en salgsleverance for mængden bogføres for den tilknyttede salgsordre. Denne gennemgang viser processen for det avancerede lager.  
 
-I grundlæggende lagerkonfigurationer bogfører den ansvarlige lagermedarbejder et lagerpluk for salgsordrelinjerne, når en montage til ordre-mængde er klar til at blive leveret. Derefter oprettes en flytning (lager) for komponenterne, og montageoutputtet og salgsordreleverancen bogføres. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)" i Pluk (lager).  
+I grundlæggende lagerkonfigurationer bogfører den ansvarlige lagermedarbejder et lagerpluk for salgsordrelinjerne, når en montage til ordre-mængde er klar til at blive leveret. Derefter oprettes en flytning (lager) for komponenterne, og montageoutputtet og salgsordreleverancen bogføres. Du kan finde flere oplysninger i [Håndtere montageordrevarer i Pluk (lager)](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang  
 Denne gennemgang viser følgende opgaver:  
@@ -106,7 +106,7 @@ Fjern standardleveringstiden for interne processer ved at følge disse trin:
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionsopsætning**, og vælg derefter det relaterede link.  
 2.  På siden **Produktionsopsætning** i oversigtspanelet **Planlægning** skal du fjerne værdien i feltet **Standardsikkerhedstid**.  
 
-Opret lager for montagekomponenter ved at følge afsnittet "Forberede eksempeldata" i denne gennemgang.  
+Opret lager for montagekomponenter ved at følge [Klargøre eksempeldata](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
 
 ## <a name="story"></a>Historie  
 Den 23. januar modtager Susanne, der er salgsordrebehandler en ordre fra Enhedsbutikken på tre enheder af pakke B, som er et ATO-element. Alle tre enheder er tilpasset og skal indeholde det stærke grafikkort og en ekstra RAM-blok. Diskdrevene er opgraderet til DVD, fordi cd-drev ikke er tilgængelige. Susanne ved, at enhederne kan samles med det samme, så hun bevarer den foreslåede afsendelsesdato, der er den 23. januar.  
@@ -135,7 +135,7 @@ Sammy pakker de ti ATS-enheder med de fem ATO-enheder, som Linda samlede tidlige
 
 Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og den tilknyttede montageordre.  
 
-## <a name="setting-up-the-sample-data"></a>Oprette eksempeldata  
+## <a name="prepare-sample-data"></a>Klargøre eksempeldata  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerkladder**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Kladdenavn**, og vælg derefter standardkladden.  
@@ -443,4 +443,3 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
  [Designoplysninger: Internt lagerflow](design-details-internal-warehouse-flows.md)   
  [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)   
  [Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)
-

@@ -1,5 +1,5 @@
 ---
-title: "Anvende og ændre gemte indstillinger i rapporter | Microsoft Docs"
+title: Anvende og ændre gemte indstillinger i rapporter | Microsoft Docs
 description: Beskriver foruddefinerede indstillinger og filtre, der bruges til at tilpasse en rapport og til at generere de korrekte data.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cbbb072c4be3ec41684e426451c394cfa978c390
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853113"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrere gemte indstillinger i rapporter
 Når brugerne kører en rapport, får de normalt vist en side, hvor de kan angive bestemte indstillinger og filtre for at ændre, hvilke data der skal medtages i den genererede rapport. Denne side kaldes rapportanmodningssiden. En rapport kan medtage én eller flere *gemte indstillinger*, som brugerne kan anvende til rapporten fra anmodningssiden. *Gemte indstillinger* er grundlæggende foruddefinerede indstillinger og filtre. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data. Du kan finde flere oplysninger om, hvordan gemte indstillinger bruges, under [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).
 
 Hvis du har de nødvendige tilladelser, kan du få vist, oprette og redigere de gemte indstillinger for alle rapporter for alle brugere i virksomheden. Du kan tildele gemte indstillinger for en rapport til enkelte brugere eller alle brugere i virksomheden.
 
-<!-- 
+<!--
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -53,5 +53,4 @@ Fra siden **Rapportindstillinger** kan du:
 > Funktionen for gemte indstillinger for rapporter er kun tilgængelig, når [egenskaben SaveValues](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) for rapportens anmodningsside er indstillet til `Yes`. Egenskaben **SaveValues** indstilles i udviklingsmiljøet.  
 
 ## <a name="see-also"></a>Se også
-[Arbejde med rapporter](ui-work-report.md)  
-
+[Arbejde med rapporter og kørsler](ui-work-report.md)  

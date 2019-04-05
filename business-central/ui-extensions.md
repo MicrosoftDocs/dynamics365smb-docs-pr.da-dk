@@ -1,7 +1,7 @@
 ---
 title: Installation af udvidelser til tilpasning af Business Central | Microsoft Docs
-description: "Få mere at vide om tilføjelse af funktioner og tilpasning af Business Central ved at installere udvidelser."
-documentationcenter: 
+description: Få mere at vide om tilføjelse af funktioner og tilpasning af Business Central ved at installere udvidelser.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 11/27/2018
 ms.author: edupont
+ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 8b68012cc6032d14071ec0eb30c0efaf947344a0
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852443"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central ved brug af udvidelser
 Du kan ændre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.
@@ -58,7 +58,7 @@ Microsoft tilbyder følgende udvidelser:
 * [Import af Quickbooks-lønfiler](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
 * [Britiske GetAddress.io-postnumre](ui-extensions-getaddressio.md)  
-* [Overførsel af QuickBooks Online-data](ui-extensions-quickbooks-online-data-migration.md)  
+* [QuickBooks Online Dataoverførsel](ui-extensions-quickbooks-online-data-migration.md)  
 * [Revisorportal](ui-extensions-accountant-portal.md)  
 * [Billedanalyse](ui-extensions-image-analyzer.md)  
 * [Betalinger og afstemninger (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
@@ -70,7 +70,8 @@ Microsoft tilbyder følgende udvidelser:
 >  Der findes ingen nye udvidelser i AppSource umiddelbart efter, at vi har oplyst om en opdatering. Du kan holde øje med udvidelser på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).
 
 ## <a name="see-also"></a>Se også
-[Udvide Dynamics 365 Business Central](about-develop-extensions.md)  
+[Udvidelse af Dynamics 365 Business Central](about-develop-extensions.md)  
+[Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)  
 [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Overførsel af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
@@ -79,4 +80,3 @@ Microsoft tilbyder følgende udvidelser:
 [Introduktion](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

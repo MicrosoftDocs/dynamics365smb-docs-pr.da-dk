@@ -1,6 +1,6 @@
 ---
-title: "Om søgning og filtrering i Business Central"
-description: "Svar på ofte stillede spørgsmål om søgning og filtrering."
+title: Om søgning og filtrering i Business Central
+description: Svar på ofte stillede spørgsmål om søgning og filtrering.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852052"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>Om søgning og filtrering i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="searching-and-filtering-faq"></a>Ofte stillede spørgsmål om søgning og filtrering
 Denne artikel indeholder svar på almindelige spørgsmål om søgning og filtrering.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Der er forskel på søgning og filtrering?
@@ -30,7 +29,7 @@ Ja.
 Søgning og filtrering er blevet stærkt optimeret for brugere, der ønsker at kunne arbejde effektivt med deres data uden brug af mus. Der findes en række genvejstaster, som kan bruges i rækkefølge, så arbejdet kan udføres med høj hastighed. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Findes filterruden på alle lister?
-Filterruden findes på sider, hvor listen udgør det primære indhold på siden, f.eks. regneark og oversigtssider, herunder lister kan åbnes fra navigationslinjen. Filterruden er endnu ikke tilgængelig for integrerede lister, f.eks. salgslinjer på salgsordrer eller lister med dynamiske kolonner (såkaldte matrixsider). 
+Filterruden findes på sider, hvor listen udgør det primære indhold på siden, f.eks. regneark og oversigtssider, herunder lister kan åbnes fra navigationslinjen. Filterruden er endnu ikke tilgængelig for integrerede lister, f.eks. salgslinjer på salgsordrer eller lister med dynamiske kolonner (såkaldte matrixsider).
 
 ## <a name="how-can-i-save-my-filters"></a>Hvordan kan jeg gemme min filtre?
 
@@ -57,4 +56,3 @@ Som lokal administrator kan du øge fristen på søgninger ved at ændre indstil
 ## <a name="see-also"></a>Se også
 [Introduktion](product-get-started.md)  
 [Sortering, søgning og filtrering i lister](ui-enter-criteria-filters.md)
-

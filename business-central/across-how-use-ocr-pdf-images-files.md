@@ -1,7 +1,7 @@
 ---
-title: "Bruge OCR til at ændre PDF-filer til e-fakturaer | Microsoft Docs"
-description: "Beskriver, hvordan du kan bruge en OCR-tjeneste til at omdanne indgående PDF- eller billedfiler til elektroniske dokumenter."
-documentationcenter: 
+title: Bruge OCR til at ændre PDF-filer til e-fakturaer | Microsoft Docs
+description: Beskriver, hvordan du kan bruge en OCR-tjeneste til at omdanne indgående PDF- eller billedfiler til elektroniske dokumenter.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: d7d8d3d89eb72aed3bcd86e51a025c19ce55a116
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7d74ae2b6ce94d1aa0e30a3234436a940aaa6219
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836108"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter
 Fra PDF-filer eller billedfiler, som du modtager fra dine handelspartnere, kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, der kan konverteres til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. F.eks. når du modtager en faktura i PDF-format fra en leverandør, kan du sende den til tjenesten OCR fra siden **Indgående bilag**. Dette beskrives i den første fremgangsmåde.
@@ -25,7 +25,7 @@ I stedet for at sende filen fra siden **Indgående bilag** kan du sende den til 
 
 Efter nogle sekunder får du filen tilbage fra OCR-tjenesten som en elektronisk faktura, der kan konverteres til en købsfaktura til kreditoren. Dette beskrives i den tredje fremgangsmåde.
 
-Da OCR er baseret på optiske registrering, er det sandsynligt, at OCR-tjenesten fortolker tegn i PDF- eller billedfilerne forkert, første gang programmet f.eks. behandler en bestemt kreditors dokumenter. Det fortolker muligvis virksomhedens logo som leverandørens navn eller fejlfortolker det samlede beløb på en kvittering på grund af layoutet. Hvis du vil undgå disse fejl fremover, kan du rette fejl i en separat version af siden **Indkommende dokument**. Derefter sender du rettelserne til OCR-tjenesten for at lære den at fortolke de bestemte tegn korrekt, næste gang den behandler et PDF- eller billleddokument for samme kreditor. Du kan finde flere oplysninger i afsnittet "Sådan lærer du OCR-tjenesten at undgå fejl".
+Da OCR er baseret på optiske registrering, er det sandsynligt, at OCR-tjenesten fortolker tegn i PDF- eller billedfilerne forkert, første gang programmet f.eks. behandler en bestemt kreditors dokumenter. Det fortolker muligvis virksomhedens logo som leverandørens navn eller fejlfortolker det samlede beløb på en kvittering på grund af layoutet. Hvis du vil undgå disse fejl fremover, kan du rette fejl i en separat version af siden **Indkommende dokument**. Derefter sender du rettelserne til OCR-tjenesten for at lære den at fortolke de bestemte tegn korrekt, næste gang den behandler et PDF- eller billleddokument for samme kreditor. Du kan finde flere oplysninger i [Sådan lærer du OCR-tjenesten at undgå fejl](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
 
 Filtrafikken til og fra OCR-tjenesten afvikles af en dedikeret opgavekøpost, der oprettes automatisk, når du aktiverer den relaterede tjenesteforbindelse. Du kan finde flere oplysninger under [Konfigurere indgående dokumenter](across-how-setup-income-documents.md).
 
@@ -45,7 +45,7 @@ Brug dit mailprogram til at sende en mail til OCR-tjenesteudbyderen med PDF- ell
 Da der ikke findes nogen indgående dokumentposter for filen, oprettes der automatisk en ny post på siden **Indgående bilag**, når du modtager det elektronisk oprettede dokument fra OCR-tjenesten. Du kan finde flere oplysninger under [Oprette indgående dokumentposter](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   Hvis du arbejder på en tablet eller telefon, kan du sende filen til OCR-tjenesten, så snart du har taget et billede af dokumentet, eller du kan oprette et indgående dokument direkte. Du kan finde flere oplysninger i afsnittet "Sådan opretter du indgående bilagsrecords ved at tage et billede" i afsnittet [Oprette indgående bilagsrecords](across-how-create-income-document-records.md).
+>   Hvis du arbejder på en tablet eller telefon, kan du sende filen til OCR-tjenesten, så snart du har taget et billede af dokumentet, eller du kan oprette et indgående dokument direkte. Du kan finde flere oplysninger under [Sådan opretter du en indgående dokumentpost ved at tage et billede](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Sådan modtager du det resulterende elektroniske dokument fra OCR-tjenesten
 Det elektroniske dokument, der oprettes af OCR-tjenesten fra PDF eller billedfilen, modtages automatisk på siden **Indgående bilag** ved den opgavekøpost, som er oprettet, når du aktiverer OCR-tjenesten.
@@ -56,7 +56,7 @@ Hvis du ikke bruger en opgavekø, eller du skal have et færdigt OCR-dokument hu
 >   Hvis OCR-tjenesten er indstillet til at kræve manuel verifikation af behandlede dokumenter, indeholder feltet **OCR-status** **Afventer bekræftelse**. I så fald skal du gøre følgende for at logge på OCR-tjenestens websted for at verificere OCR-dokumentet manuelt.
 
 1. I feltet **OCR-status** skal du vælge hyperlinket **Afventer bekræftelse**.
-2. Log på med legitimationsoplysningerne for din OCR-tjenestekonto på webstedet for OCR-tjenesten. Dette er de legitimationsoplysninger, du brugte, da du konfigurerede tjenesten. Du kan finde flere oplysninger i afsnittet "Sådan konfigureres en OCR-tjeneste" i [Konfigurere indgående bilag](across-how-setup-income-documents.md).
+2. Log på med legitimationsoplysningerne for din OCR-tjenestekonto på webstedet for OCR-tjenesten. Dette er de legitimationsoplysninger, du brugte, da du konfigurerede tjenesten. Du kan finde flere oplysninger i [Sådan konfigureres en OCR-tjeneste](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
 
     Oplysninger om OCR-dokumentet vises med både kildeindholdet fra PDF- eller billedfilen og de resulterende OCR-feltværdier.
 3. Gennemgå forskellige feltværdierne, og rediger eller angiv værdier manuelt i de felter, som OCR-tjenesten har kodet som usikre.
@@ -69,15 +69,13 @@ Nu kan du fortsætte med at oprette dokumentposter for de modtagne elektroniske 
 Følgende fremgangsmåde beskriver, hvordan du opretter en købsfakturapost fra en kreditorfaktura, der er modtaget som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåden er den samme som, når du f.eks. opretter en finanskladdelinje fra en udgiftskvittering eller en salgsreturvareordre fra en kunde.
 
 > [!NOTE]  
->   Felterne **Beskrivelse** og **Nummer** på de oprettede bilagslinjer udfyldes kun, hvis du først har tilknyttet tekst, der findes i OCR-dokumentet, til de to felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan udføre denne tilknytning som varekrydsreferencer for dokumentlinjer af typen vare. Du kan også bruge funktionen Tilknytning af tekst til konto. Du kan finde yderligere oplysninger i afsnittet "Sådan tilknyttes tekst på et indgående dokument til en bestemt leverandør, finanskonto eller bankkonto".
-
-Hvis du vil knytte varenumrene på bilaget til dine beskrivelser kreditorens varer, skal du åbne kortet for hver vare og derefter vælge handlingen **Varereferencer** for at oprette krydsreferencer mellem dine varebeskrivelser og kreditorens varer. Kan finde flere oplysninger i værktøjstippet til handlingen **Krydsreferencer** på varekort.
+>   Felterne **Beskrivelse** og **Nummer** på de oprettede bilagslinjer udfyldes kun, hvis du først har tilknyttet tekst, der findes i OCR-dokumentet, til de to felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan udføre denne tilknytning som varekrydsreferencer for dokumentlinjer af typen vare. Du kan finde flere oplysninger i [Bruge varereferencer](inventory-how-use-item-cross-refs.md). Du kan også bruge funktionen Tilknytning af tekst til konto. Du kan finde yderligere oplysninger i [Sådan tilknyttes tekst på et indgående dokument til en bestemt leverandør, finanskonto eller bankkonto](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Vælg linjen for det indgående dokument, og vælg derefter handlingen **Opret dokument**.
 
 Der oprettes en købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] baseret på oplysningerne i det elektroniske kreditordokument, du har modtaget fra OCR-tjenesten. Oplysningerne indsættes i feltet ny købsfaktura, der er baseret på den tilknytning, du har defineret som en krydsreference eller som en tilknytning mellem tekst og konto.
 
-Enhver valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i oversigtspanelet **Fejl og advarsler**. Du kan finde flere oplysninger i afsnittet "Sådan håndteres fejl ved modtagelse af elektroniske dokumenter".
+Enhver valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i oversigtspanelet **Fejl og advarsler**. Du kan finde flere oplysninger i [Sådan håndteres fejl ved modtagelse af elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Sådan knyttes tekst på et indgående dokument til en bestemt kreditorkonto
 For indgående bilag kan du normalt bruge handlingen **Knyt tekst til konto** for at definere, at en bestemt tekst på en kreditorfaktura, som er modtaget fra OCR-tjenesten, er knyttet til en bestemt kreditorkonto. Fremover betyder enhver del af beskrivelsen af et indgående dokument, der findes som en tilknytningstekst, at feltet **Nr.** på resulterende bilags- eller kladdelinjer af typen Finanskonto udfyldes med den pågældende kreditor.
@@ -124,4 +122,3 @@ Felterne i oversigtspanelet **Finansielle oplysninger** på siden **Indgående d
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

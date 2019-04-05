@@ -1,8 +1,8 @@
 ---
-title: "Oprette og ændre brugerdefinerede layout for rapporter og dokumenter | Microsoft Docs"
-description: "Lær, hvordan du kan oprette dine egne brugerdefinerede layout for at tilpasse udseendet af en rapport, når den vises, udskrives eller gemmes."
+title: Oprette og ændre brugerdefinerede layout for rapporter og dokumenter | Microsoft Docs
+description: Lær, hvordan du kan oprette dine egne brugerdefinerede layout for at tilpasse udseendet af en rapport, når den vises, udskrives eller gemmes.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 2f86eb50422b5d780ea7a0be2f6798c0b2cc3bfd
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 39e4c310e3de5f16066408b96b54042c44c753fd
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852328"
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Oprette og ændre et brugerdefineret rapport- eller dokumentlayout
 Som standard har en rapport et indbygget rapportlayout, som enten kan være et RDLC-rapportlayout eller Word-rapportlayout eller begge typer. Du kan ikke ændre indbyggede layout. Du kan dog oprette dine egne brugerdefinerede layout, der gør det muligt at ændre udseendet af rapporten, når den vises, udskrives eller gemmes. Du kan oprette flere brugerdefinerede rapportlayout til samme rapport og derefter skifte det layout, der bruges af en rapport, efter behov.
@@ -71,11 +71,11 @@ Hvis du vil foretage generelle formaterings- og layoutændringer, f.eks. skifte 
 Hvis du designer et Word-rapportlayout fra bunden eller tilføjer nye datafelter, skal du starte med at tilføje en tabel med rækker og kolonner, der efterhånden indeholder datafelter.
 
 > [!TIP]  
->  Vis tabelgitterlinjer, så du kan se grænserne for tabelceller. Husk at skjule gitterlinjerne, når du er færdig med redigering. Hvis du vil vise eller skjule tabelgitterlinjer, skal du vælge tabellen og derefter vælge på **Vis gitterlinjer** under **Layout** under fanen **Tabel**. 
+>  Vis tabelgitterlinjer, så du kan se grænserne for tabelceller. Husk at skjule gitterlinjerne, når du er færdig med redigering. Hvis du vil vise eller skjule tabelgitterlinjer, skal du vælge tabellen og derefter vælge på **Vis gitterlinjer** under **Layout** under fanen **Tabel**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Integrere skrifttyper i Word-layout for at skabe ensartethed 
+### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Integrere skrifttyper i Word-layout for at skabe ensartethed
 
-For at sikre, at rapporter altid vises og udskrives med de ønskede skrifttyper, uanset hvor brugere åbner eller udskriver rapporter, kan du integrere skrifttyperne i Word-dokumentet. Du skal dog være opmærksom på, at integrering af skrifttyper kan øge størrelsen på Word-filer. Du kan finde flere oplysninger om integrering af skrifttyper i Word i [Integrere skrifttyper i Word, PowerPoint eller Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc). 
+For at sikre, at rapporter altid vises og udskrives med de ønskede skrifttyper, uanset hvor brugere åbner eller udskriver rapporter, kan du integrere skrifttyperne i Word-dokumentet. Du skal dog være opmærksom på, at integrering af skrifttyper kan øge størrelsen på Word-filer. Du kan finde flere oplysninger om integrering af skrifttyper i Word i [Integrere skrifttyper i Word, PowerPoint eller Excel](https://support.office.com/en-us/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
 ###  <a name="RemoveField"></a> Fjernelse af navne- og datafelter i Word-layout  
  Navne- og datafelter i en rapport er indeholdt i indholdskontrolelementer i Word. Følgende figur illustrerer et indholdskontrolelement, når det er markeret i Word-dokumentet.  
@@ -95,13 +95,12 @@ For at sikre, at rapporter altid vises og udskrives med de ønskede skrifttyper,
 ### <a name="adding-data-fields"></a>Tilføje datafelter
 Tilføjelse af datafelter fra en rapports datasæt er mere avanceret og kræver kendskab til rapportdatasættet. Du kan finde oplysninger om tilføjelse af felter til data, etiketter, data og billeder i [Føje felter til et Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
 
-### 
+###
 
 
 ## <a name="see-also"></a>Se også
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md)  
 [Importere og eksportere et brugerdefineret rapport- eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
-[Arbejde med rapporter](ui-work-report.md)  
+[Arbejde med rapporter og kørsler](ui-work-report.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

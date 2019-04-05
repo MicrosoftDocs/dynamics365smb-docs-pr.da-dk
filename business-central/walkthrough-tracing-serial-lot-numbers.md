@@ -1,25 +1,25 @@
 ---
 title: Gennemgang - Sporing af serie-lotnumre | Microsoft Docs
-description: "Når der forekommer fejlbehæftede produkter, skal fejlene identificeres, og de relevante varer må ikke kunne forlade virksomheden. Hvis de fejlbehæftede varer allerede er afsendt, skal du finde ud af, hvem der har modtaget dem, for om nødvendigt at kunne tilbagekalde varerne."
+description: Når der forekommer fejlbehæftede produkter, skal fejlene identificeres, og de relevante varer må ikke kunne forlade virksomheden. Hvis de fejlbehæftede varer allerede er afsendt, skal du finde ud af, hvem der har modtaget dem, for om nødvendigt at kunne tilbagekalde varerne.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: da-dk
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853159"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
 
 **Bemærk**: Denne gennemgang skal udføres på et demoregnskab med indstillingen **Fuld evaluering - Komplette eksempeldata**, der findes i sandkassemiljøet. Du kan finde flere oplysninger i [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md).
 
@@ -50,7 +50,7 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 For at gennemføre denne gennemgang skal du bruge:  
 
 -   [!INCLUDE[d365fin](includes/d365fin_md.md)]-virksomhed.  
--   For at oprette nye varer og adskillige forretningstransaktioner ved at følge trinnene i afsnittet "Klargøring af eksempeldata", senere i denne gennemgang.  
+-   Oprette nye varer og forskellige forretningstransaktioner ved at følge trinnene i [Klargøre eksempeldata](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Historie  
 Ricardo, der er ansvarlig for kvalitetssikring, handler ud fra returnering af salgsvaren 1002, Racercykel. Kunden, Ravel Møbler, klagede over, at stellet var gået i stykker ved svejsningerne. Kvalitetskontrolteknikeren har bekræftet, at racerstellet på den returnerede cykel er fejlbehæftet. Den ansvarlige for kvalitetssikring skal nu finde ud af:  
@@ -298,4 +298,3 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
 [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)  
 [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
-

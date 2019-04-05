@@ -1,6 +1,6 @@
 ---
-title: "Spore brugeraktivitet i en ændringslog | Microsoft Docs"
-description: "Du kan aktivere en brugerlog for at få en oversigt over ændringer af data i registrerede tabeller."
+title: Spore brugeraktivitet i en ændringslog | Microsoft Docs
+description: Du kan aktivere en brugerlog for at få en oversigt over ændringer af data i registrerede tabeller.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 11/14/2018
 ms.author: edupont
+ms.openlocfilehash: 2a71909faf66c13a0923a10bfc12369127642875
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 59afb06e9d43bdadc5ceacf563a9e6faf7439b7b
-ms.openlocfilehash: bc56e07a540c24f53b88651ad2b2ff5e1e56a571
-ms.contentlocale: da-dk
-ms.lasthandoff: 12/05/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852880"
 ---
 # <a name="auditing-changes-in-business-central"></a>Ændringer af revision i Business Central
 
@@ -41,7 +41,6 @@ Når du har konfigureret ændringsloggen, aktiveret den og ændret data, kan du 
 ## <a name="see-also"></a>Se også
 [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
-[Brug af Søg efter side eller rapport](ui-search.md)  
+[Bruge Fortæl mig til at finde funktioner og oplysninger](ui-search.md)  
 [Administrere brugere og deres rettigheder](ui-how-users-permissions.md)    
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

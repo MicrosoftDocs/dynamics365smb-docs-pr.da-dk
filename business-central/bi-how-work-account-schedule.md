@@ -1,5 +1,5 @@
 ---
-title: "Oprette finansrapporter ved hjælp af kontoskemaer"
+title: Oprette finansrapporter ved hjælp af kontoskemaer
 description: Beskriver, hvordan du kan bruge kontoskemaer til at oprette forskellige visninger og rapporter til analyse af data for finansiel ydeevne.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/16/2018
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: 6c6ffd488dc903c2a1142727ce205975e27091b2
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852512"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Forberede finansrapporter med kontoskemaer og kontokategorier
 Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Kontoskemaer analyserer tal i finanskonti og sammenligner finansposter med finansbudgetposter. Resultaterne vises i diagrammer på rollecenteret, f.eks. tabellen Likviditet, og i rapporter, f.eks. resultatopgørelsen og balancerapporterne.
@@ -36,7 +36,7 @@ Du kan også sammenligne to eller flere kontoskemaer og kolonnelayout ved hjælp
 * Oprette forskellige rapportlayout og udskrive rapporterne med de aktuelle tal.
 
 ## <a name="account-categories"></a>Kontokategorier
-Du kan bruge kontokategorier til at ændre layoutet af regnskabet. Når du har oprettet kontokategorierne på siden **Finanskontokategorier**, og du vælger handlingen **Opret kontoskemaer** opdateres de underliggende kontoskemaer for de grundlæggende regnskabsrapporter. Næste gang du kører en af disse rapporter, f.eks. rapporten Saldoopgørelse, tilføjes nye totaler og underordnede linjer, baseret på dine ændringer. Du kan finde flere oplysninger i afsnittet "Kontokategorier" i [Om finans- og kontoplanen](finance-general-ledger.md).  
+Du kan bruge kontokategorier til at ændre layoutet af regnskabet. Når du har oprettet kontokategorierne på siden **Finanskontokategorier**, og du vælger handlingen **Opret kontoskemaer** opdateres de underliggende kontoskemaer for de grundlæggende regnskabsrapporter. Næste gang du kører en af disse rapporter, f.eks. rapporten Saldoopgørelse, tilføjes nye totaler og underordnede linjer, baseret på dine ændringer. Du kan finde flere oplysninger i [Kontokategorier](finance-general-ledger.md#account-categories).  
 
 ## <a name="to-create-a-new-account-schedule"></a>Sådan oprettes et nyt kontoskema  
 Du bruger kontoskemaer til at analysere tal i finanskonti eller til at sammenligne finansposter med finansbudgetposter. Du kan f.eks. få vist finansposter som procenter af budgetposter.
@@ -50,10 +50,10 @@ Siden **Kontoskemaoversigt** er der, hvor du kan få vist den finansrapport, som
 3. Du kan også vælge handlingen **Kopiér kontoskema**, udfylde de to felter efter behov, og derefter vælge knappen **OK**.
 4. Udfyld felterne efter behov. I feltet **Standard kolonneformat** skal du vælge et eksisterende layout. Du kan redigere det senere, hvis der er behov for det.
 
-    Du kan bruge kolonneformater til at definere kolonner for forskellige parametre, som de finansielle data i rækkerne vises efter. Du kan f.eks. udforme et kolonneformat til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år med fire kolonner. Du kan finde flere oplysninger i afsnittet "Sådan oprettes et kolonneformat".
+    Du kan bruge kolonneformater til at definere kolonner for forskellige parametre, som de finansielle data i rækkerne vises efter. Du kan f.eks. udforme et kolonneformat til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år med fire kolonner. Du kan finde flere oplysninger i [Sådan oprettes et kolonneformat](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Vælg handlingen **Rediger kontoskema**.
-6. Opret en række for hvert finansielle element, der skal vises i rapporten, f.eks. en række til aktuelle aktiver og en anden række til anlægsaktiver. Du kan finde inspiration i eksisterende kontoskemaer i CRONUS-demonstrationsregnskabet.
+6. Opret en række for hvert finansielle element, der skal vises i rapporten, f.eks. en række til aktuelle aktiver og en anden række til anlægsaktiver. Du kan finde inspiration i eksisterende kontoskemaer i CRONUS-demoregnskabet.
 7. Vælg handlingen **Oversigt** for at få vist den oprettede finansrapport.
 8. På siden **Kontoskemaoversigt** i feltet **Kolonneformatnavn** skal du vælge et andet kolonneformat for at kunne se regnskaber efter andre parametre.
 9. Vælg knappen **OK**.
@@ -199,4 +199,3 @@ Hvis du vil foretage beregninger efter almindelige tidsperioder, skal du angive 
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

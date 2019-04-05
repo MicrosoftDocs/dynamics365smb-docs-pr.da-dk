@@ -2,7 +2,7 @@
 title: Brugerdefinerede og indbyggede layout til rapporter og bilag | Microsoft Docs
 description: Du kan bruge rapportlayout til at tilpasse dokumenter, f.eks. for at tilpasse skrifttype, logo eller sideindstillinger for PDF-filer, som du sender til kunderne.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: solsen
+ms.openlocfilehash: 64c2c714afc3e052d3323dbcbddce4ee3ab5c98d
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3a8f17e86241a49ec65233b42ac0fb647462a8ab
-ms.contentlocale: da-dk
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852397"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentlayout
 Et rapportlayout styrer indholdet og formatet af rapporten, herunder hvilke datafelter i et datasæt der vises i rapporten, og hvordan de er organiseret, teksttypografi, billeder og meget mere. Fra [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienter kan du ændre, hvilket layout der skal bruges i en rapport, oprette et nyt layout eller ændre det aktuelle layout.
@@ -64,5 +64,4 @@ Du kan finde oplysninger om, hvordan du ændrer, hvilket layout der skal bruges,
 [Oprette og ændre et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md)  
 [Importere og eksportere et brugerdefineret rapport- eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
-[Arbejde med rapporter](ui-work-report.md)  
-
+[Arbejde med rapporter og kørsler](ui-work-report.md)  
