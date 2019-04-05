@@ -1,0 +1,36 @@
+---
+title: Udvide din prøveperiode | Microsoft Docs
+description: Hvis du har brug for mere tid til at afgøre, om du vil oprette et abonnement, kan du udvide din prøveperiode.
+services: project-madeira
+documentationcenter: ''
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: ''
+ms.date: 01/16/2018
+ms.author: bholtorf
+ms.openlocfilehash: 95a00ec61db3b65b2be729bf0b68da7af960d6ab
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792649"
+---
+# <a name="need-more-time-to-decide-whether-to-subscribe"></a><span data-ttu-id="c628a-103">Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?</span><span class="sxs-lookup"><span data-stu-id="c628a-103">Need More Time to Decide Whether to Subscribe?</span></span>
+<span data-ttu-id="c628a-104">Det er vigtigt at træffe den rette beslutning, når du vælger et forretningsprogram, og vi ved, at det kan tage tid at undersøge alle kroge af [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="c628a-104">It's important to make the right decision when choosing a business application, and we know that it can take time to explore all of the corners in [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span> <span data-ttu-id="c628a-105">Hvis du har brug for mere tid til at foretage en evaluering, kan du selv udvide prøveperioden med yderligere 30 dage.</span><span class="sxs-lookup"><span data-stu-id="c628a-105">If you need more time to finish your evaluation you can extend the trial period yourself for another 30 days.</span></span> <span data-ttu-id="c628a-106">Når udløbsdatoen for din prøveperiode nærmer sig, vises en meddelelse, når du logger på.</span><span class="sxs-lookup"><span data-stu-id="c628a-106">When the expiration date for your trial period is approaching we will display a notification to alert you when you sign in.</span></span> <span data-ttu-id="c628a-107">Meddelelsen indeholder et link til vejledningen **Udvid prøveperiode**, som du kan bruge til at udvide prøveperioden.</span><span class="sxs-lookup"><span data-stu-id="c628a-107">The notification contains a link to the **Extend Trial Period** guide that you can use to extend your trial period.</span></span> <span data-ttu-id="c628a-108">De ekstra 30 dage begynder, så snart du vælger **Udvid prøveversion** i vejledningen.</span><span class="sxs-lookup"><span data-stu-id="c628a-108">The extra 30 days start the moment you choose **Extend Trial** in the guide.</span></span>
+
+<span data-ttu-id="c628a-109">Hvis du udvider prøveperioden selv, er det en éngangsforteelse.</span><span class="sxs-lookup"><span data-stu-id="c628a-109">Extending the trial period yourself is a one time-thing though.</span></span> <span data-ttu-id="c628a-110">Du kan ikke udvide den to gange, i det mindste ikke selv.</span><span class="sxs-lookup"><span data-stu-id="c628a-110">You cannot extend it twice, at least not yourself.</span></span> <span data-ttu-id="c628a-111">Hvis du allerede har udvidet perioden, kan din Microsoft-partner udvide den for dig igen.</span><span class="sxs-lookup"><span data-stu-id="c628a-111">If you have already extended the period, your Microsoft partner can extend it for you again.</span></span> <span data-ttu-id="c628a-112">Det kan også kun gøres én gang.</span><span class="sxs-lookup"><span data-stu-id="c628a-112">That's also a one-time thing.</span></span> <span data-ttu-id="c628a-113">Hvis du ikke allerede samarbejder med en partner, kan følgende link hjælpe dig med at finde en: [Kontakt en partner](https://go.microsoft.com/fwlink/?linkid=2038439).</span><span class="sxs-lookup"><span data-stu-id="c628a-113">If you are not already working with a partner, the following link will help you find one: [Contact a partner](https://go.microsoft.com/fwlink/?linkid=2038439).</span></span>
+
+## <a name="what-happens-if-my-trial-period-is-expired"></a><span data-ttu-id="c628a-114">Hvad sker der, hvis min prøveperiode er udløbet?</span><span class="sxs-lookup"><span data-stu-id="c628a-114">What happens if my trial period is expired?</span></span>
+<span data-ttu-id="c628a-115">Hvis din første 30-dages prøveperiode er udløbet, kan du selv udvide den og fortsætte.</span><span class="sxs-lookup"><span data-stu-id="c628a-115">If your first 30-day trial period is expired, you can extend it yourself and things will be business as usual.</span></span> <span data-ttu-id="c628a-116">Du skal logge på demoregnskabet og starte vejledningen **Udvid prøveperiode** fra meddelelsen.</span><span class="sxs-lookup"><span data-stu-id="c628a-116">Just sign in to the demonstration company and start the **Extend Trial Period** guide from the notification.</span></span> <span data-ttu-id="c628a-117">Hvis du har oprettet dit eget regnskab, skal du logge af og derefter logge på igen med legitimationsoplysningerne for regnskabet.</span><span class="sxs-lookup"><span data-stu-id="c628a-117">If you have created your own company, sign out and then sign in again with the credentials for that company.</span></span> <span data-ttu-id="c628a-118">Hvis den udvidede prøveperiode er udløbet, kan du [abonnere](https://go.microsoft.com/fwlink/?linkid=828659) på [!INCLUDE[d365fin](includes/d365fin_md.md)] inden for 90 dage og fortsætte med at arbejde i det regnskab, du har oprettet.</span><span class="sxs-lookup"><span data-stu-id="c628a-118">If your extended trial period is expired, you can [subscribe](https://go.microsoft.com/fwlink/?linkid=828659) to [!INCLUDE[d365fin](includes/d365fin_md.md)] within 90 days and continue working in the company you created.</span></span> <span data-ttu-id="c628a-119">Vi sletter dit regnskab og dine data efter 90 dage.</span><span class="sxs-lookup"><span data-stu-id="c628a-119">After 90 days we will delete your company and data.</span></span> 
+
+## <a name="to-extend-your-trial-period"></a><span data-ttu-id="c628a-120">Sådan udvider du din prøveperiode</span><span class="sxs-lookup"><span data-stu-id="c628a-120">To extend your trial period</span></span>
+1. <span data-ttu-id="c628a-121">Log på [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="c628a-121">Sign in to [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
+2. <span data-ttu-id="c628a-122">Vælg **Udvid prøveversion** i meddelelsen øverst i arbejdsområdet.</span><span class="sxs-lookup"><span data-stu-id="c628a-122">In the notification at the top of the workspace, choose **Extend Trial**.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="c628a-123">Se også</span><span class="sxs-lookup"><span data-stu-id="c628a-123">See Also</span></span>
+[<span data-ttu-id="c628a-124">Oprettelse af nye virksomheder</span><span class="sxs-lookup"><span data-stu-id="c628a-124">Creating New Companies</span></span>](about-new-company.md)  
+[<span data-ttu-id="c628a-125">Adgang til en prøveversion</span><span class="sxs-lookup"><span data-stu-id="c628a-125">Access to a Preview</span></span>](across-preview.md)  

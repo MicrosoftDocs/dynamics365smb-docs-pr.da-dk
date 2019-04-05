@@ -1,36 +1,35 @@
 ---
-title: "Designoplysninger – Varesporing | Microsoft Docs"
+title: Designoplysninger – Varesporing | Microsoft Docs
 description: Dette emne indeholder en oversigt over designoplysninger om varesporing.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/12/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 1dce0ea658a2083c3d896fe6324751f63aabce06
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792185"
 ---
-# <a name="design-details-item-tracking"></a><span data-ttu-id="f12d8-103">Designoplysninger: Varesporing</span><span class="sxs-lookup"><span data-stu-id="f12d8-103">Design Details: Item Tracking</span></span>
-<span data-ttu-id="f12d8-104">Efterhånden som flowet af varer i den moderne forsyningskæde bliver stadigt mere kompleks, bliver muligheden for at holde styr på varer mere og mere vigtig for de involverede virksomheder.</span><span class="sxs-lookup"><span data-stu-id="f12d8-104">As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved.</span></span> <span data-ttu-id="f12d8-105">Overvågning af en vares transaktionsflow er et lovkrav inden for medicinsk og kemisk forsyning, men andre virksomheder kan overvåge produkter med garantier eller udløbsdatoer af hensyn til kundeservice.</span><span class="sxs-lookup"><span data-stu-id="f12d8-105">Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.</span></span>  
+# <a name="design-details-item-tracking"></a><span data-ttu-id="2e226-103">Designoplysninger: Varesporing</span><span class="sxs-lookup"><span data-stu-id="2e226-103">Design Details: Item Tracking</span></span>
+<span data-ttu-id="2e226-104">Efterhånden som flowet af varer i den moderne forsyningskæde bliver stadigt mere kompleks, bliver muligheden for at holde styr på varer mere og mere vigtig for de involverede virksomheder.</span><span class="sxs-lookup"><span data-stu-id="2e226-104">As the flow of goods in today’s supply chain becomes more and more complex, the ability to keep track of items is increasingly important to the companies involved.</span></span> <span data-ttu-id="2e226-105">Overvågning af en vares transaktionsflow er et lovkrav inden for medicinsk og kemisk forsyning, men andre virksomheder kan overvåge produkter med garantier eller udløbsdatoer af hensyn til kundeservice.</span><span class="sxs-lookup"><span data-stu-id="2e226-105">Monitoring an item’s transaction flow is a legal requirement in the business of medical and chemical supply, but other businesses may want to monitor products with warranties or expiration dates for customer service reasons.</span></span>  
 
-<span data-ttu-id="f12d8-106">Et varesporingssystem giver en virksomhed mulighed for nem håndtering af serienumre og lotnumre, under hensyntagen til hver enkelt vare: modtaget hvor og hvornår, oplagret hvor og solgt hvor og hvornår.</span><span class="sxs-lookup"><span data-stu-id="f12d8-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f12d8-107">har gradvist udvidet dækningen af disse virksomhedsbehov og indeholder i dag funktioner på tværs af programmet og en fast kerne til udvikling af udvidelser.</span><span class="sxs-lookup"><span data-stu-id="f12d8-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span></span>  
+<span data-ttu-id="2e226-106">Et varesporingssystem giver en virksomhed mulighed for nem håndtering af serienumre og lotnumre, under hensyntagen til hver enkelt vare: modtaget hvor og hvornår, oplagret hvor og solgt hvor og hvornår.</span><span class="sxs-lookup"><span data-stu-id="2e226-106">An item tracking system should provide a company with easy handling of serial and lot numbers, considering each unique piece of merchandise: when and where received, where stored, when and where sold.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="2e226-107">har gradvist udvidet dækningen af disse virksomhedsbehov og indeholder i dag funktioner på tværs af programmet og en fast kerne til udvikling af udvidelser.</span><span class="sxs-lookup"><span data-stu-id="2e226-107">has gradually expanded its coverage of this business requirement and today provides application-wide functionality and a solid core on which to develop extensions.</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="f12d8-108">Dette afsnit indeholder</span><span class="sxs-lookup"><span data-stu-id="f12d8-108">In This Section</span></span>  
-[<span data-ttu-id="f12d8-109">Designoplysninger: Design af varesporing</span><span class="sxs-lookup"><span data-stu-id="f12d8-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
-[<span data-ttu-id="f12d8-110">Designdetaljer: Bogføringsstruktur for varesporing</span><span class="sxs-lookup"><span data-stu-id="f12d8-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
-[<span data-ttu-id="f12d8-111">Designoplysninger: Aktive kontra historiske varesporingsposter</span><span class="sxs-lookup"><span data-stu-id="f12d8-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
-[<span data-ttu-id="f12d8-112">Designoplysninger: Siden Varesporingslinjer</span><span class="sxs-lookup"><span data-stu-id="f12d8-112">Design Details: Item Tracking Lines Page</span></span>](design-details-item-tracking-lines-window.md)  
-[<span data-ttu-id="f12d8-113">Designoplysninger: Tilgængelighed af varesporing</span><span class="sxs-lookup"><span data-stu-id="f12d8-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
-[<span data-ttu-id="f12d8-114">Designoplysninger: Varesporing og planlægning</span><span class="sxs-lookup"><span data-stu-id="f12d8-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
-[<span data-ttu-id="f12d8-115">Designoplysninger: Varesporing og reservationer</span><span class="sxs-lookup"><span data-stu-id="f12d8-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
-[<span data-ttu-id="f12d8-116">Designoplysninger: Varesporing i lageret</span><span class="sxs-lookup"><span data-stu-id="f12d8-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)
-
+## <a name="in-this-section"></a><span data-ttu-id="2e226-108">Dette afsnit indeholder</span><span class="sxs-lookup"><span data-stu-id="2e226-108">In This Section</span></span>  
+[<span data-ttu-id="2e226-109">Designoplysninger: Design af varesporing</span><span class="sxs-lookup"><span data-stu-id="2e226-109">Design Details: Item Tracking Design</span></span>](design-details-item-tracking-design.md)  
+[<span data-ttu-id="2e226-110">Designdetaljer: Bogføringsstruktur for varesporing</span><span class="sxs-lookup"><span data-stu-id="2e226-110">Design Details: Item Tracking Posting Structure</span></span>](design-details-item-tracking-posting-structure.md)  
+[<span data-ttu-id="2e226-111">Designoplysninger: Aktive kontra historiske varesporingsposter</span><span class="sxs-lookup"><span data-stu-id="2e226-111">Design Details: Active versus Historic Item Tracking Entries</span></span>](design-details-active-versus-historic-item-tracking-entries.md)  
+[<span data-ttu-id="2e226-112">Designoplysninger: Siden Varesporingslinjer</span><span class="sxs-lookup"><span data-stu-id="2e226-112">Design Details: Item Tracking Lines Page</span></span>](design-details-item-tracking-lines-window.md)  
+[<span data-ttu-id="2e226-113">Designoplysninger: Tilgængelighed af varesporing</span><span class="sxs-lookup"><span data-stu-id="2e226-113">Design Details: Item Tracking Availability</span></span>](design-details-item-tracking-availability.md)  
+[<span data-ttu-id="2e226-114">Designoplysninger: Varesporing og planlægning</span><span class="sxs-lookup"><span data-stu-id="2e226-114">Design Details: Item Tracking and Planning</span></span>](design-details-item-tracking-and-planning.md)  
+[<span data-ttu-id="2e226-115">Designoplysninger: Varesporing og reservationer</span><span class="sxs-lookup"><span data-stu-id="2e226-115">Design Details: Item Tracking and Reservations</span></span>](design-details-item-tracking-and-reservations.md)  
+[<span data-ttu-id="2e226-116">Designoplysninger: Varesporing i lageret</span><span class="sxs-lookup"><span data-stu-id="2e226-116">Design Details: Item Tracking in the Warehouse</span></span>](design-details-item-tracking-in-the-warehouse.md)

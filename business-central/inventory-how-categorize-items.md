@@ -1,8 +1,8 @@
 ---
 title: Organisere varer i kategorier | Microsoft Docs
-description: "Du kan tildele vareattributter og organisere varerne i kategorier for at gøre det nemmere at søge efter og finde varer."
+description: Du kan tildele vareattributter og organisere varerne i kategorier for at gøre det nemmere at søge efter og finde varer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,40 +10,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: a38b69451e05e2b76f4eaaa06044c8b30214c0f0
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5b684df40599a730054e333f1bdf2e526c840e0b
-ms.contentlocale: da-dk
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: da-DK
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "792712"
 ---
-# <a name="categorize-items"></a><span data-ttu-id="d2ab5-103">Kategorisere varer</span><span class="sxs-lookup"><span data-stu-id="d2ab5-103">Categorize Items</span></span>
-<span data-ttu-id="d2ab5-104">Hvis du vil have en oversigt over dine varer og hjælp til at sortere og finde varer, er det nyttigt at arrangere varerne i varekategorier.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-104">To maintain an overview of your items and to help you sort and find items, it is useful to organize your items in item categories.</span></span>
+# <a name="categorize-items"></a><span data-ttu-id="cac20-103">Kategorisere varer</span><span class="sxs-lookup"><span data-stu-id="cac20-103">Categorize Items</span></span>
+<span data-ttu-id="cac20-104">Hvis du vil have en oversigt over dine varer og hjælp til at sortere og finde varer, er det nyttigt at arrangere varerne i varekategorier.</span><span class="sxs-lookup"><span data-stu-id="cac20-104">To maintain an overview of your items and to help you sort and find items, it is useful to organize your items in item categories.</span></span>
 
-<span data-ttu-id="d2ab5-105">Hvis du vil kunne finde varer ud fra egenskaber, kan du tildele vareattributter til varer og til varekategorier.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-105">To find items by characteristics, you can assign item attributes to items and also to item categories.</span></span> <span data-ttu-id="d2ab5-106">Du kan finde flere oplysninger under [Arbejde med vareattributter](inventory-how-work-item-attributes.md).</span><span class="sxs-lookup"><span data-stu-id="d2ab5-106">For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md).</span></span>
+<span data-ttu-id="cac20-105">Hvis du vil kunne finde varer ud fra egenskaber, kan du tildele vareattributter til varer og til varekategorier.</span><span class="sxs-lookup"><span data-stu-id="cac20-105">To find items by characteristics, you can assign item attributes to items and also to item categories.</span></span> <span data-ttu-id="cac20-106">Du kan finde flere oplysninger under [Arbejde med vareattributter](inventory-how-work-item-attributes.md).</span><span class="sxs-lookup"><span data-stu-id="cac20-106">For more information, see [Work with Item Attributes](inventory-how-work-item-attributes.md).</span></span>
 
-## <a name="to-create-an-item-category"></a><span data-ttu-id="d2ab5-107">Sådan oprettes en varekategori</span><span class="sxs-lookup"><span data-stu-id="d2ab5-107">To create an item category</span></span>
-1. <span data-ttu-id="d2ab5-108">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekategorier**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.</span></span>
-2. <span data-ttu-id="d2ab5-109">På siden **Varekategorier** skal du vælge handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-109">On the **Item Categories** page, choose the **New** action.</span></span>
-3. <span data-ttu-id="d2ab5-110">Udfyld felterne efter behov på siden **Varekategorikort** i oversigtspanelet **Generelt**.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-110">On the **Item Category Card** page, on the **General** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. <span data-ttu-id="d2ab5-111">I oversigtspanelet **Attributter** skal du angive eventuelle vareattributter for varekategorien.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-111">On the **Attributes** FastTab, specify any item attributes for the item category.</span></span> <span data-ttu-id="d2ab5-112">Hvis du vil finde flere oplysninger, skal du se afsnittet "Sådan tildeles vareattributter til en varekategori" i [Arbejde med vareattributter](inventory-how-work-item-attributes.md).</span><span class="sxs-lookup"><span data-stu-id="d2ab5-112">For more information, see the "To assign item attributes to an item category" section in [Work with Item Attributes](inventory-how-work-item-attributes.md).</span></span>
-
-> [!NOTE]  
->   <span data-ttu-id="d2ab5-113">Hvis varekategorikoden har en overordnet varekategori som angivet af feltet **Overordnet kategori**, udfyldes de vareattributter på forhånd i oversigtspanelet **Attributter**, som er tildelt den pågældende overordnede varekategori.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-113">If the item category has a parent item category, as indicated by the **Parent Category** field, then any item attributes that are assigned to that parent item category are prefilled on the **Attributes** FastTab.</span></span>
+## <a name="to-create-an-item-category"></a><span data-ttu-id="cac20-107">Sådan oprettes en varekategori</span><span class="sxs-lookup"><span data-stu-id="cac20-107">To create an item category</span></span>
+1. <span data-ttu-id="cac20-108">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekategorier**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="cac20-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Item Categories**, and then choose the related link.</span></span>
+2. <span data-ttu-id="cac20-109">På siden **Varekategorier** skal du vælge handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="cac20-109">On the **Item Categories** page, choose the **New** action.</span></span>
+3. <span data-ttu-id="cac20-110">Udfyld felterne efter behov på siden **Varekategorikort** i oversigtspanelet **Generelt**.</span><span class="sxs-lookup"><span data-stu-id="cac20-110">On the **Item Category Card** page, on the **General** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. <span data-ttu-id="cac20-111">I oversigtspanelet **Attributter** skal du angive eventuelle vareattributter for varekategorien.</span><span class="sxs-lookup"><span data-stu-id="cac20-111">On the **Attributes** FastTab, specify any item attributes for the item category.</span></span> <span data-ttu-id="cac20-112">Du kan finde flere oplysninger i [Sådan tildeles vareattributter til varekategorier](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).</span><span class="sxs-lookup"><span data-stu-id="cac20-112">For more information, see [To assign item attributes to item categories](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="d2ab5-114">Vareattributter, som du tildeler til en varekategori, anvendes automatisk til den vare, der er tildelt varekategorien.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-114">Item attributes that you assign to an item category will automatically apply to the item that the item category is assigned to.</span></span>
+>   <span data-ttu-id="cac20-113">Hvis varekategorikoden har en overordnet varekategori som angivet af feltet **Overordnet kategori**, udfyldes de vareattributter på forhånd i oversigtspanelet **Attributter**, som er tildelt den pågældende overordnede varekategori.</span><span class="sxs-lookup"><span data-stu-id="cac20-113">If the item category has a parent item category, as indicated by the **Parent Category** field, then any item attributes that are assigned to that parent item category are prefilled on the **Attributes** FastTab.</span></span>
 
-## <a name="to-assign-an-item-category-to-an-item"></a><span data-ttu-id="d2ab5-115">Sådan tildeles en varekategori til en vare</span><span class="sxs-lookup"><span data-stu-id="d2ab5-115">To assign an item category to an item</span></span>
-1. <span data-ttu-id="d2ab5-116">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.</span></span>
-2. <span data-ttu-id="d2ab5-117">Åbn kortet for den vare, du vil tildele til en varekategori.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-117">Open the card for the item that you want to assign to an item category.</span></span>
-3. <span data-ttu-id="d2ab5-118">Vælg opslagsknappen i feltet **Kategorikode**, og vælg en eksisterende varekategori.</span><span class="sxs-lookup"><span data-stu-id="d2ab5-118">Choose the lookup button in the **Item Category Code** field and select an existing item category.</span></span> <span data-ttu-id="d2ab5-119">Du kan også vælge handlingen **Ny** for først at oprette en ny varekategori som beskrevet i afsnittet "Sådan oprettes en varekategori".</span><span class="sxs-lookup"><span data-stu-id="d2ab5-119">Alternatively, choose the **New** action to first create a new item category as explained in the "To create an item category" section.</span></span>
+> [!NOTE]  
+>   <span data-ttu-id="cac20-114">Vareattributter, som du tildeler til en varekategori, anvendes automatisk til den vare, der er tildelt varekategorien.</span><span class="sxs-lookup"><span data-stu-id="cac20-114">Item attributes that you assign to an item category will automatically apply to the item that the item category is assigned to.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d2ab5-120">Se også</span><span class="sxs-lookup"><span data-stu-id="d2ab5-120">See Also</span></span>
-[<span data-ttu-id="d2ab5-121">Arbejde med vareattributter</span><span class="sxs-lookup"><span data-stu-id="d2ab5-121">Work with Item Attributes</span></span>](inventory-how-work-item-attributes.md)  
-[<span data-ttu-id="d2ab5-122">Registrere nye varer</span><span class="sxs-lookup"><span data-stu-id="d2ab5-122">Register New Items</span></span>](inventory-how-register-new-items.md)  
-[<span data-ttu-id="d2ab5-123">Lagerbeholdning</span><span class="sxs-lookup"><span data-stu-id="d2ab5-123">Inventory</span></span>](inventory-manage-inventory.md)  
-<span data-ttu-id="d2ab5-124">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="d2ab5-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="to-assign-an-item-category-to-an-item"></a><span data-ttu-id="cac20-115">Sådan tildeles en varekategori til en vare</span><span class="sxs-lookup"><span data-stu-id="cac20-115">To assign an item category to an item</span></span>
+1. <span data-ttu-id="cac20-116">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="cac20-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Items**, and then choose the related link.</span></span>
+2. <span data-ttu-id="cac20-117">Åbn kortet for den vare, du vil tildele til en varekategori.</span><span class="sxs-lookup"><span data-stu-id="cac20-117">Open the card for the item that you want to assign to an item category.</span></span>
+3. <span data-ttu-id="cac20-118">Vælg opslagsknappen i feltet **Kategorikode**, og vælg en eksisterende varekategori.</span><span class="sxs-lookup"><span data-stu-id="cac20-118">Choose the lookup button in the **Item Category Code** field and select an existing item category.</span></span> <span data-ttu-id="cac20-119">Du kan også vælge handlingen **Ny** for først at oprette en ny varekategori som beskrevet i [Sådan oprettes en varekategori](inventory-how-categorize-items.md#to-create-an-item-category).</span><span class="sxs-lookup"><span data-stu-id="cac20-119">Alternatively, choose the **New** action to first create a new item category as explained in [To create an item category](inventory-how-categorize-items.md#to-create-an-item-category).</span></span>
 
+## <a name="see-also"></a><span data-ttu-id="cac20-120">Se også</span><span class="sxs-lookup"><span data-stu-id="cac20-120">See Also</span></span>
+[<span data-ttu-id="cac20-121">Arbejde med vareattributter</span><span class="sxs-lookup"><span data-stu-id="cac20-121">Work with Item Attributes</span></span>](inventory-how-work-item-attributes.md)  
+[<span data-ttu-id="cac20-122">Registrere nye varer</span><span class="sxs-lookup"><span data-stu-id="cac20-122">Register New Items</span></span>](inventory-how-register-new-items.md)  
+[<span data-ttu-id="cac20-123">Lagerbeholdning</span><span class="sxs-lookup"><span data-stu-id="cac20-123">Inventory</span></span>](inventory-manage-inventory.md)  
+<span data-ttu-id="cac20-124">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="cac20-124">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
