@@ -1,1 +1,0 @@
-Dette er tidligt frigivet funktionalitet, som vi stadig arbejder på. Funktioner og indholdet på denne side kan blive ændret. Du kan læse mere om, hvad der kommer i [Oversigt over Microsoft Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=842139).

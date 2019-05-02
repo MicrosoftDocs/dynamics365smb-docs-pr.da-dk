@@ -1,1 +1,0 @@
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>AVANCERET</b><br />Denne funktion er kun tilgængelig med den avancerede oplevelse. Du kan finde flere oplysninger under [Tilpasse din oplevelse i Finance and Operations, Business edition](../ui-experiences.md) </blockquote>
