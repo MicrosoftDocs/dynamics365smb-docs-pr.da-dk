@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "791985"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953506"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
@@ -101,7 +101,7 @@ I nedenstående fremgangsmåder bør du gennemgå på forhånd, hvilke værdier 
 5. Brug feltet **Gammel værdi** til at angive den værdi, som skal ændres. Brug feltet **Ny værdi** til at angive den værdi, som den gamle værdi skal ændres til. Vælg knappen **OK**.  
 6. Importér debitordataene. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data).
 7. Brug feltet **Antal pakkefejl** til at se, om der er rapporteret fejl. Hvis der er, skal du dykke ned for at få vist fejlene. Siden **Konfigurationspakkeposter** åbnes.
-8. Vælg handlingen **Vis fejl**. Du får vist følgende fejl: **<option> er ikke en gyldig indstilling. Gyldige indstillinger er <valid option list>**. Vælg knappen **OK**.  
+8. Vælg handlingen **Vis fejl**. Du får vist følgende fejl: **XX er ikke en gyldig indstilling. Gyldige indstillinger er: XX**. Vælg knappen **OK**.  
 9. Du kan anvende den tilknytning, som du har oprettet, ved at vælge handlingen **Anvend Data**.  
 
 ### <a name="mapping-example"></a>Eksempel på tilknytning  
@@ -153,7 +153,11 @@ Når debitordata er indsat i dataoverflytningsfilerne i Excel, kan du indlæse f
 
 1. Åbn siden **Konfig.pakkekort**.
 2. Vælg tabellen, hvor du vil importere data, og vælg derefter under fanen **Tabeller** handlingen **Indlæs fra Excel**.
-3. Find og åbn den fil, hvorfra du vil importere data til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Find og åbn den fil, du vil importere data fra.
+4. På siden **Eksempel på import af konfig.pakke** kan du gennemse det indhold, der skal importeres.
+
+    Siden **Eksempel på import af konfig.pakke** indeholder en oversigt over indholdet af Excel-filen, der skal importeres. Den angiver også, om der oprettes en ny konfigurationspakke, eller den eksisterende opdateres, og om nye konfigurationspakkelinjer (tabeller) er oprettet, eller eksisterende er opdateret.    
+5. Vælg handlingen **Importér**.
 
 Data fra filen importeres til konfigurationspakketabellerne. Du kan se antallet af databaseposter, der er blevet importeret, i feltet **Antal pakkerecords**. Desuden kan du se antallet af overflytningsfejl.
 

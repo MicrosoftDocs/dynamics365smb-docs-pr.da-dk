@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
-ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b3012f5f22fc1dbbb78eb655e2d27abe290eb470
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792635"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930674"
 ---
 # <a name="create-contact-persons"></a>Oprette kontaktpersoner
 Du kan oprette et kontaktkort for hver kontaktperson, der arbejder for de virksomheder, du er i interaktion med. Der er ingen begrænsninger på, hvor mange kontaktpersoner du kan oprette for hver virksomhed. Du kan også oprette kontaktkort for personer, som du vil have registreret selvstændigt.

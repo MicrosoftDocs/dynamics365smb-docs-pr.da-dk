@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 6778536df70ef70b1e3e67e956768b0a474acd89
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: bc3cedf31aadb69e380b704f4019a86eb7864882
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853231"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935324"
 ---
 # <a name="detecting-mandatory-fields"></a>Registrere obligatoriske felter
 Når du indtaster data på siderne i [!INCLUDE[d365fin](includes/d365fin_md.md)], er visse felter markeret med en rød stjerne. Den røde stjerne betyder, at feltet skal udfyldes for at fuldføre en bestemt proces, der bruger feltet, f.eks. bogføring af en transaktion, der bruger værdien i feltet.

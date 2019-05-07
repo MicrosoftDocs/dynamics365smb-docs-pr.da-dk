@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9d0a5ab6bebdc9723fe8e3621fdda3cb16d5e6e1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b08864a4cf7f7f198d692a6658ae437856860a51
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792209"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918360"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designoplysninger: Bogføringsdato på post med reguleringsværdi
 Denne artikel indeholder en vejledning til brugere af funktionen Lagerkostmetode i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Denne specifikke artikel giver en vejledning i, hvordan kørslen **Juster kostpris - vareposter** identificerer og tildeler en bogføringsdato til de værdiposter, der er ved at blive oprettet.  
@@ -351,7 +351,7 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
  I anmodningsformularen til kørslen Bogfør lagerregulering skal der angives en bogføringsdato af brugeren. Kørslen kører gennem alle nødvendige værdiposter i filteret, hvis der er nogen, og opretter finansposter med den bogføringsdato, der er angivet i anmodningsformularen.  
 
 ### <a name="version-370b40"></a>Version 3.70.B..4.0  
- I anmodningsformularen til kørslen Bogfør lagerregulering er datofeltet for bogføring i lukket periode tilgængeligt. Programmet bruger den dato, du angiver i dette felt, som bogføringsdatoen for de finansposter, der oprettes for værdiposter, hvis bogføringsdatoer er i lukkede regnskabsperioder. Ellers har finansposterne den samme bogføringsdato som de oprindelige værdiposter. En dato betragtes som værende i en lukket periode, hvis den er tidligere end datoen i feltet Bogf. tilladt fra i Opsætning af Finans. Hvis du bogfører til Finans pr. bogføringsgruppe, har finansposterne den bogføringsdato, der er angivet i feltet Bogføringsdato i anmodningsformularen.  
+ I anmodningsformularen til kørslen Bogfør lagerregulering er datofeltet for bogføring i lukket periode tilgængeligt. Programmet bruger den dato, du angiver i dette felt, som bogføringsdatoen for de finansposter, der oprettes for værdiposter, hvis bogføringsdatoer er i lukkede regnskabsperioder. Ellers har finansposterne den samme bogføringsdato som de oprindelige værdiposter. En dato betragtes som værende i en lukket periode, hvis den er tidligere end datoen i feltet Bogf. tilladt fra i Opsætning af Finans. Hvis du bogfører til F\/inans pr. bogføringsgruppe, har finansposterne den bogføringsdato, der er angivet i feltet Bogføringsdato i anmodningsformularen.  
 
  I version 3 og 4 søger kørslen igennem alle værdiposter for at registrere, om der er nogen poster, hvor kostbeløb (faktisk) er forskellig fra bogført kostværdi. Hvis der registreres en forskel, bogføres forskelsbeløbet på en finanspost. Hvis forventet kostbogføring bruges, behandles de tilsvarende felter på samme måde.  
 

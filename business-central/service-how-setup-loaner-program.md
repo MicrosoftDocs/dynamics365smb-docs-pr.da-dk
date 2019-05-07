@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 46e60bcb217178d94eda195045df0db33873a190
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68ee937b8bf9f9f0784c8e96a78dbc3f0486d50f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792166"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921165"
 ---
 # <a name="set-up-a-loaner-program"></a>Oprette et udlånsprogram
 Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan bruge, mens kundeserviceteamet udfører reparationen. I [!INCLUDE[d365fin](includes/d365fin_md.md)] Kan du konfigurere et udlånsprogram, udlåne varer til dine kunder og spore modtagelser, når kunderne returnerer varerne. Desuden kan du tilføje bemærkninger om udlånsvarer på én af to måder:  

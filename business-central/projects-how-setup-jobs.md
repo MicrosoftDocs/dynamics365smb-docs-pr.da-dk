@@ -1,51 +1,51 @@
 ---
 title: Oprette sagspriser og sagsbogføringsgrupper | Microsoft Docs
 description: Bruges til at oprette oplysninger om almindelige opgaver og oprette priser for sagsvarer, ressourcer og finanskonti og sagsbogføringsgrupper.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: 34dfdb463d3423d823b8f1439361d05296ca3c8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "791984"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918815"
 ---
 # <a name="set-up-jobs"></a>Opsætte sager
-På siden **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
 
-På de individuelle sagskort skal du angvie priser for sagsvarer, sagsressourcer og sagsfinanskonti, og du skal oprette sagsbogføringsgrupper.
+Som projektleder kan du oprette sager, der definerer hvert af de projekter, som du administrerer i [!INCLUDE [prodshort](includes/prodshort.md)]. På siden **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
+
+For hver sag kan du derefter specificere de individuelle jobkort med oplysninger om priser for sagsvarer, sagsressourcer og sagsfinanskonti, og du skal oprette sagsbogføringsgrupper.
 
 ## <a name="to-set-general-information-for-jobs"></a>Sådan angives generelle oplysninger for sager
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagsopsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   Afkrydsningsfeltet **Anvend anvendelseslink som standard** er temmelig komplekst og forklares derfor i følgende afsnit.
+> [!NOTE]
+> Virkningen af feltet **Anvend anvendelseslink som standard** er temmelig komplekst og forklares derfor i følgende afsnit.
 
-## <a name="to-set-up-job-usage-tracking"></a>Sådan definerer du sagsforbrugssporing
+### <a name="to-set-up-job-usage-tracking"></a>Sådan definerer du sagsforbrugssporing
+
 Når du ekspederer en sag, kan du få flere oplysninger om forbruget i forhold til din plan. Det kan du nemt gøre ved at oprette en tilknytning mellem dine sagsplanlægningslinjer og det faktiske forbrug. På denne måde kan du holde styr på dine omkostninger og nemt se, hvor meget arbejde, der mangler at blive udført. Som standard er sagsplanlægningslinjetypen **Budget**, men brug af linjetypen **Både budget og fakturerbar** har samme virkning.
 
-Hvis du markerer afkrydsningsfeltet **Anvend anvendelseslink som standard**, kan du gennemse oplysninger på sagsplanlægningslinjen. Du kan angive antallet af ressourcen, varen eller finanskontoen, og derefter angive, hvilket antal du vil overføre til sagskladde. I feltet **Restantal** på sagsplanlægningslinjen kan du se, hvad der stadig mangler at blive overført og bogført på sagskladden.
+Hvis du markerer feltet **Anvend anvendelseslink som standard**, kan du gennemse oplysninger på sagsplanlægningslinjen. Du kan angive antallet af ressourcen, varen eller finanskontoen, og derefter angive, hvilket antal du vil overføre til sagskladde. I feltet **Restantal** på sagsplanlægningslinjen kan du se, hvad der stadig mangler at blive overført og bogført på sagskladden.
 
-Når afkrydsningsfelt **Anvend anvendelseslink som standard** er markeret, og sagsplanlægningslinjetypen er **Fakturerbar**, opretter Financials en sagsplanlægningslinje af typen **Budget**, når du har bogført kladdelinjen.
+> [!TIP]  
+> Du kan aktivere eller deaktivere sagsforbrugssporing for en bestemt sag. Værdien i feltet **Anvend anvendelseslink som standard** på det enkelte sagskort tilsidesætter indstillingen på siden **Sagsopsætning**.  
 
-> [!NOTE]  
->   Hvis afkrydsningsfeltet **Anvend anvendelseslink som standard** på sagskortet er markeret, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes nye sagsplanlægningslinjer for linjetypen **Budget**, når du bogfører sagskladdelinjerne. Hvis afkrydsningsfeltet **Anvend anvendelseslink som standard** på sagskortet ikke er markeret, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes ingen nye sagsplanlægningslinje, når du bogfører sagskladdelinjerne. Du kan finde flere oplysninger under [Registrere forbrug for sager](projects-how-record-job-usage.md).
+Når afkrydsningsfelt **Anvend anvendelseslink som standard** er markeret, og sagsplanlægningslinjetypen er **Fakturerbar**, oprettes en sagsplanlægningslinje af typen **Budget**, når du har bogført en sagskladdelinje.
+
+> [!IMPORTANT]
+> Hvis sagsforbrugssporing er aktiveret på siden **Sagsopsætning** eller i den individuelle sag, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes nye sagsplanlægningslinjer for linjetypen **Budget**, når du bogfører sagskladdelinjer.  
+>  
+> Hvis sagsforbrugssporing *ikke* er aktiveret på siden **Sagsopsætning** eller i den individuelle sag, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes ingen sagsplanlægningslinjer, når du bogfører sagskladdelinjer. Du kan finde flere oplysninger under [Registrere forbrug for sager](projects-how-record-job-usage.md).
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsopsætning**, og vælg derefter det relaterede link.
-2. Marker eller fjern markeringen af afkrydsningsfeltet **Anvend anvendelseslink som standard**.
-
-> [!NOTE]  
->   Du kan angive en anden indstilling i afkrydsningsfeltet **Anvend anvendelseslink som standard** på de enkelte sagskort. I så fald tilsidesætter indstillingen for denne sag den generelle standardindstilling beskrevet ovenfor.
+2. Markér afkrydsningsfeltet **Anvend anvendelseslink som standard**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Sådan oprettes priser for sagsressourcer
 Du kan oprette specifikke priser for ressourcer for en sag. Det gør du på siden **Ressourcepriser for sag**.
@@ -114,9 +114,11 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 | **Konto til realiseret salg** |Den indtægtskonto, som indeholder den registrerede indtægt for sagen. Det er normalt en kreditafrundingskonto. |
 
 ## <a name="see-also"></a>Se også
+
 [Oprette projektstyring](projects-setup-projects.md)  
+[Video: Sådan oprettes en sag i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Administrere projekter](projects-manage-projects.md)  
 [Finans](finance.md)  
-[Køb](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
+[Køb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

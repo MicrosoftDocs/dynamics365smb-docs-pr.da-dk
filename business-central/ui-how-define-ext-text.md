@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ecf0dab7e8c1215c6e121735fe7507ee28cc25b8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a43cca28bb24c5723d81ca28a3d1f86a38f5ad7c
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792477"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941653"
 ---
 # <a name="add-extended-item-text"></a>Tilføje udvidet varetekst
 Du kan udvide standardtekst for varer ved at indsætte ekstra linjer, og du kan oprette betingelser for brug af ekstra linjer. Du kan gøre dette varekort.

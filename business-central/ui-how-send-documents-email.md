@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 591ec86980240b8ffcfda0cf51debe571e327299
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792972"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938199"
 ---
 # <a name="send-documents-by-email"></a>Sende dokumenter som mail
 For at give oplysningerne i forretningsdokumenter hurtigt til samarbejdspartnere, f.eks betalingsoplysningerne i salgsdokumenter til debitorer, kan du bruge funktionen Rapportlayout til at definere dokumentspecifik tekst, der bliver automatisk indsat i brødteksten i mails. Du kan finde flere oplysninger under [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).
 
-For at aktivere mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du starte den assisterede opsætning **Konfigurer mail** i rollecenteret.
+For at aktivere mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du starte den assisterede opsætningsvejledning **Konfigurer mail** i rollecenteret.
 
 Du kan sende praktisk talt alle dokumenttyper vedhæftet i mails direkte fra siden, der viser dokumentet. Ud over den vedhæftede fil kan du oprette dokumentspecifik brødtekst i mails med grundlæggende oplysninger fra dokumentet og med en foranstående standardtekst, der indeholder en hilsen til modtageren og introducerer dokumentet. Hvis du vil tilbyde kunderne at betale for salg elektronisk ved hjælp af en betalingstjeneste, f.eks PayPal, kan du automatisk få PayPal oplysninger og hyperlink indsat i selve mailen.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 26fe722a863ada2bcd017e2bc614b976a7119a25
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792091"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916370"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere virksomhedens data til Power BI
 Du kan nemt få indsigt i dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data med Power BI og [!INCLUDE[d365fin](includes/d365fin_md.md)]-indholdspakker. Power BI henter dine data og opretter derefter et out-of-the-box dashboard og rapporter baseret på dataene.  
@@ -75,26 +75,26 @@ Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Vis virksomhed i Excel-skabelon
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Finans**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
 - Vis virksomhed i Excel-skabelon
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Sager**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Sagsoversigt
 - Sagsplanlægningslinjer
 - Sagsopgavelinjer
 - Power BI-rapportetiketter
 - Vis virksomhed i Excel-skabelon
 
-**Microsoft Dynamics 365 Business Central - Salg**
+**Microsoft Dynamics 365 Business Central - Sales**
 - Salgsdashboard
 - Vis virksomhed i Excel-skabelon
 - Power BI-rapportetiketter
 
 ## <a name="list-page-reports"></a>Oversigtssiderapporter
 
-**Microsoft Dynamics 365 Business Central – Debitorliste**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Varestatistik efter kunde
 - Power BI-varekøbsoversigt
 - Power BI-varesalgsoversigt
@@ -103,13 +103,13 @@ Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central - Oversigt over finansposter**
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
 - Power BI-finansbeløbsoversigt
 - Budgetteret Power BI-finansbeløb
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Vareliste**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Varestatistik efter kunde
 - Power BI-varekøbsoversigt
 - Power BI-varesalgsoversigt
@@ -117,23 +117,23 @@ Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central-sagsoversigt**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Power BI-sagsoversigt
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Oversigt over købsfakturaer**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Power BI-købsoversigt
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Oversigt over salgsordrer**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Power BI-salgsoversigt
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
 
-**Microsoft Dynamics 365 Business Central – Kreditorliste**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - Power BI-varekøbsoversigt
 - Power BI-varesalgsoversigt
 - Power BI-kreditoroversigt

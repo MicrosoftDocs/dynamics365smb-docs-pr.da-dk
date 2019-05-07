@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "793063"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928065"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortering af, søgning i og filtrering af lister
 Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse poster på en liste. Disse omfatter sortering, søgning og filtrering. Du kan anvende nogle eller alle af disse samtidigt til hurtigt at finde eller analysere dataene.
@@ -36,11 +36,12 @@ Hvis du vil sortere en liste, kan du enten vælge en kolonneoverskriftstekst, hv
 >   Sortering understøttes ikke af billeder, BLOB-felter, FlowFilters og felter, der ikke tilhører en tabel.  
 
 ## <a name="searching"></a>Søgning
-<!--## Searching by using the Quick Filter --> Øverst på hver listeside finder du ikonet ![Søg på liste](media/ui-search/search-list.png "Ikonet Søg på liste") **Søg**, der giver en hurtig og nem måde at reducere posterne på en liste og kun vise de poster, der indeholder de data, du er interesseret i at se.
+<!--## Searching by using the Quick Filter -->
+Øverst på hver oversigtsside finder du en ![Søgeoversigt](media/ui-search/search-list.png "Ikonet Søgeoversigt") **Søg**, der er en hurtig og nem måde at reducere posterne på en liste på og kun viser de poster, der indeholder data, som du er interesseret i at få vist.
 
 Du søger ved at vælge søgeikonet og derefter skrive den tekst, du leder efter, i feltet. Du kan skrive bogstaver, tal og andre symboler.
 
-### <a name="fine-tune-the-search"></a>Finjustere søgningen
+### <a name="fine-tune-the-search"></a>Finjustere søgning
 Generelt forsøger søgningen at matche teksten på tværs af alle felter. Den skelner ikke mellem store og små bogstaver og sammenligner tekst, hvor som helst i feltet (ved begyndelsen, slutningen eller i midten).
 
 Dog kan du foretage en mere nøjagtig søgning ved hjælp af følgende specialtegn:
@@ -55,27 +56,6 @@ Dog kan du foretage en mere nøjagtig søgning ved hjælp af følgende specialte
 
 Følgende tabel indeholder nogle eksempler, der forklarer, hvordan du kan bruge søgningen.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Søgekriterier|Finder...|
 |---------------|----------|
 |`man`<br />eller <br />`Man`|Alle poster med felter, der indeholder teksten **man**, uanset store eller små bogstaver. F.eks. **Manchester**, **manual** eller **Sportsman**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > Du kan trykke på F3 for at aktivere og deaktivere søgefeltet. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).
 
-## <a name="filtering"></a>Filtrering
+## <a name="Filtering"> </a>Filtrering
 Filtrering giver en mere avanceret og fleksibel må de at kontrollere, hvilke poster der vises på en liste. Der er to vigtige forskelle mellem søgning eller filtrering, som beskrevet i nedenstående tabel.
 
 || **Søgning** | **Filtrering** |
@@ -98,13 +78,14 @@ Filtrering giver en mere avanceret og fleksibel må de at kontrollere, hvilke po
 Filtrering giver dig mulighed at få vist poster for bestemte konti eller kunder, datoer, beløb og andre oplysninger ved at angive filterkriterier. Det er kun poster, der svarer til kriterierne, som vises. Hvis du angiver kriterier for flere felter, vises kun poster, der svarer til alle kriterier.
 
 ### <a name="working-in-the-filter-pane"></a>Arbejde i filterruden
+
+Du får vist filterruden ved at vælge ![Ikonet Filterrude](media/open-filter-pane-icon.png "Ikonet Filterrude") øverst på listen eller ved at trykke på **Shift+F3**. For lister i rollecenteret kan du også vælge pil ned tæt på sidetitlen på navigationslinjen over listen og derefter vælge **Vis Filterrude** som vist her.
+
+![Vis Filterrude](media/open-filter-pane.png "Vis Filterrude")
+
 Filterruden viser de aktuelle filtre på en liste, og gør det muligt at angive dine egne brugerdefinerede filtre i en eller flere felter. Følgende figur viser et eksempel på filterruden for en liste over salgstilbud.
 
 ![Oversigt over Filterrude](media/filter-pane-overview.png "Filterikon")
-
-Hvis du vil have vist filterruden, skal du bruge tastaturgenvejen **Skift + F3**. Du kan også vælge pil ned tæt på sidetitlen på navigationslinjen over listen for lister i rollecentret, og derefter vælge **Vis Filterrude**.
-
-![Vis Filterrude](media/open-filter-pane.png "Vis Filterrude")
 
 En filterrude er inddelt i tre afsnit: **Visninger**, **Filtrer listen efter** og **Filtrer totaler efter**:
 
@@ -137,7 +118,7 @@ Du kan nu skrive eller vælge filterkriterierne i feltet. Den typen felt, du fil
 Kolonner, som allerede indeholder filtre, er angivet med ![Filterikonet](media/ui-search/filter-icon.png "Filterikonet") i kolonneoverskriften. Hvis du vil fjerne et filter, skal du markere kolonneoverskriften og derefter vælge **Ryd filter**.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Angivelse af filterkriterier uden filterruden
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Angivelse af filterkriterier uden brug af filterruden
 Du kan angive simple filtre direkte på listen uden at skulle bruge filterruden.
 Med et eller flere felter markere i en række skal du bruge tastaturgenvejen **Alt + F3** til at få vist kun de poster, der har den samme værdi. Du kan derefter vælge et andet felt og bruge den samme genvej igen for at fortsatte med at præcisere filtrene. Hvis det valgte felt allerede er filtreret, kan du bruge **Alt + F3** til at fjerne filteret.
 
@@ -248,7 +229,7 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 Når du angiver filterkriterier, kan du også skrive ord, der har en særlig betydning, kaldet filtertokens. Når du har angivet et tokenordet, erstattes ordet af den eller de værdier, det repræsenterer. Det gør filtrering nemmere ved at reducere behovet for at navigere til andre sider for at søge efter værdier, du vil føje til filteret. Tabellerne nedenfor beskriver nogle af de tegn, du kan skrive som filterkriterier.
 
 > [!TIP]
-> Din organisation bruger muligvis brugerdefinerede tokens. For at få mere at vide om det komplette sæt tokens, der er tilgængelige for dig, eller tilføje flere brugerdefinerede tokens, skal du kontakte din administrator. Du kan finde tekniske oplysninger i [Tilføje filtertokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Din organisation bruger muligvis brugerdefinerede tokens. For at få mere at vide om det komplette sæt tokens, der er tilgængelige for dig, eller tilføje flere brugerdefinerede tokens, skal du kontakte din administrator. Du kan finde tekniske oplysninger i [Tilføje filtertokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
 ### <a name="me-or-userid-records-assigned-to-you"></a>(%me eller %userid) Poster, der er tildelt til dig

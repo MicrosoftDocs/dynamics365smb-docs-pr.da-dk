@@ -10,23 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 688c448f920a032a0f137bab7abdb9de51af1f96
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792399"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927514"
 ---
 # <a name="design-details-table-structure"></a>Designoplysninger: Tabelstruktur
-Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspostlagring og -bogføring er omdesignet.  
+Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionsposter lagres og bogføres.  
 
-## <a name="new-tables"></a>Nye tabeller  
- Tre nye tabeller er blevet udviklet til at administrere dimensionsgruppeposter.  
-
-### <a name="table-480-dimension-set-entry"></a>Tabel 480 Dimensionsgruppepost  
- Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikke slette eller redigere dem.
+## <a name="table-480-dimension-set-entry"></a>Tabel 480, Dimensionsgruppepost  
+Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikke slette eller redigere dem.
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +34,8 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
 |5|**Dimensionsnavn**|Tekst 30|CalcField. Opslag i tabel 348.|  
 |6|**Dimensionsværdinavn**|Tekst 30|CalcField. Opslag i tabel 349.|  
 
-### <a name="table-481-dimension-set-tree-node"></a>Tabel 481 Trænode for dimensionsgruppe  
- Denne tabel kan ikke ændres. Det bruges til at søge efter en dimensionsgruppe. Hvis dimensionssættet ikke findes, oprettes et nyt sæt.  
+## <a name="table-481-dimension-set-tree-node"></a>Tabel 481, Trænode for dimensionsgruppe  
+Denne tabel kan ikke ændres. Det bruges til at søge efter en dimensionsgruppe. Hvis dimensionssættet ikke findes, oprettes et nyt sæt.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +44,8 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
 |3|**Dimensionsgruppe-id**|Heltal|AutoIncrement. Bruges i felt 1 i tabel 480.|  
 |4|**I brug**|Boolesk|Falsk, hvis ikke i brug.|  
 
-### <a name="table-482-reclas-dimension-set-buffer"></a>Tabel 482 Ompost. dimensionsgruppebuffer  
- Tabellen bruges, når du ændrer en dimensionsværdikode, for eksempel i en varepost, ved hjælp af siden **Vareomposteringskladde**.  
+## <a name="table-482-reclas-dimension-set-buffer"></a>Tabel 482 Ompost. dimensionsgruppebuffer  
+Denne tabel bruges, når du ændrer en dimensionsværdikode, for eksempel i en varepost, ved hjælp af siden **Vareomposteringskladde**.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
@@ -61,33 +58,30 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
 |7|**Dimensionsværdinavn**|Tekst 30|CalcField. Opslag i tabel 349.|  
 |8|**Nyt dimensionsværdinavn**|Tekst 30|CalcField. Opslag i tabel 349.|  
 
-## <a name="modified-tables"></a>Ændrede tabeller  
- Alle transaktions- og budgettabeller er blevet ændret til at administrere dimensionsgruppeposter.  
-
-### <a name="changes-to-transaction-and-budget-tables"></a>Ændringer af transaktion og budgettabeller  
- Et nyt felt er blevet føjet til alle transaktions- og budgettabeller.  
+## <a name="transaction-and-budget-tables"></a>Transaktion og budgettabeller  
+Ud over de andre dimensionsfelter i tabellen er dette felt også vigtigt:  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 
-### <a name="changes-to-table-83-item-journal-line"></a>Ændringer i tabel 83-varekladdelinje  
- Der er tilføjet to nye felter i tabel 83 **Varekladdelinje**.  
+### <a name="table-83-item-journal-line"></a>Tabel 83, Varekladdelinje  
+Ud over de andre dimensionsfelter i tabellen er disse felter også vigtige.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 |481|**Nyt dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 
-### <a name="changes-to-table-349-dimension-value"></a>Ændringer i tabel 349-dimensionsværdi  
- Et nyt felt er blevet føjet til tabel 349 **Dimensionsværdi**.  
+### <a name="table-349-dimension-value"></a>Tabel 349, Dimensionsværdi  
+Ud over de andre dimensionsfelter i tabellen er disse felter også vigtige.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensionsværdi-id**|Heltal|AutoIncrement. Bruges til referencer i tabel 480 og 481.|  
 
-### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabeller, der får nyt dimensionsgruppe-id i felt 480  
- Et nyt felt, 480 **Dimensionsgruppe-id**, er blevet føjet til følgende tabeller. For de tabeller, der gemmer bogførte data, indeholder feltet kun en skrivebeskyttet visning af dimensioner, som er markeret som Detailudledning. For de tabeller, der gemmer arbejdsdokumenuer, kan feltet redigeres. De buffertabeller, der bruges internt, behøver ikke redigerbare eller ikke-redigerbare egenskaber.  
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabeller, der indeholder feltet Dimensionsgruppe-id
+ Feltet **Dimensionsgruppe-id** (480), der findes i følgende tabeller. For de tabeller, der gemmer bogførte data, indeholder feltet kun en skrivebeskyttet visning af dimensioner, som er markeret som Detailudledning. For de tabeller, der gemmer arbejdsdokumenuer, kan feltet redigeres. De buffertabeller, der bruges internt, behøver ikke redigerbare eller ikke-redigerbare egenskaber.  
 
  Felt 480 kan ikke redigeres i følgende tabeller.  
 
@@ -143,7 +137,7 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
 |6660|**Returvaremodt.hoved**|  
 |6661|**Returvaremodt.linje**|  
 
- Felt 480 kan redigeres i følgende tabeller.  
+Felt 480 kan redigeres i følgende tabeller.  
 
 |Tabelnr.|Tabelnavn|  
 |---------------|----------------|  
@@ -177,7 +171,7 @@ Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspost
 |7134|**Varebudgetpost**|  
 |99000829|**Planlægning - komponent**|  
 
- Felt 480 er føjet til følgende buffertabeller.  
+Felt 480 findes i følgende buffertabeller.  
 
 |Tabelnr.|Tabelnavn|  
 |---------------|----------------|  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/22/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 22db82f79da3ce58db04d7941cc8bf6cc6269166
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f45c359dcd65a4eae428208a17c392077d24f073
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "793091"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921454"
 ---
 # <a name="managing-data-encryption"></a>Administration af datakryptering
 Du kan kryptere data på [!INCLUDE[d365fin](includes/d365fin_md.md)]-serveren ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på den [!INCLUDE[d365fin](includes/d365fin_md.md)]-serverforekomst, som opretter forbindelse til databasen.

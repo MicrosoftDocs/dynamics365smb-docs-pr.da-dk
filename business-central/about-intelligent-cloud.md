@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 4bd30c2912c8a690431221e7983f5fe53b543322
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852121"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920909"
 ---
 # <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Din adgang til den intelligente cloud med [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -38,7 +38,7 @@ I din [!INCLUDE[prodshort](includes/prodshort.md)] online-virksomhed viser siden
 Ved siden af KPI-diagrammer kan få du indsigt i potentielle problemområder, herunder forfaldne betalinger. Vælg hver indsigt for at dykke ned i dataene.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligent cloudindsigt](media/across-intelligent-cloud/intelligentcloudinsights.png " viser siden Intelligent cloudindsigt i Business Central")
+> ![Intelligent cloudindsigt](media/across-intelligent-cloud/intelligentcloudApril19.png " viser siden Intelligent cloudindsigt i Business Central")
 
 Siden opretter også forbindelse til Power BI, hvor du kan få endnu flere oplysninger.
 

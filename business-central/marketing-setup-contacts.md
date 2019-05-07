@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792283"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918143"
 ---
-# <a name="setting-up-contacts"></a>Konfigurere kontakter
+# <a name="set-up-contacts"></a>Opsætning af kontakter
 Når du opretter kontakter, kan du angive specifikke oplysninger, f.eks. den branche som kontakten tilhører og dine forretningsmæssige forhold til kontakterne.
 
 Før du opretter kontakter og registrerer oplysninger om forretningsforhold, skal du definere forskellige koder, som skal bruges til at tildele oplysningerne til virksomheder og personer. Der kan defineres koder til mailgrupper, brancher, forretningsforhold, webkilder, kompetenceniveau og ansvarsområder. Du kan oprette dem ved at vælge handlingen **Ny**, som du kan få vist på listerne fra kontaktkortet.  
@@ -151,10 +151,10 @@ Hvis du vil synkronisere kontaktkortet med et tilknyttet debitor-, kreditor- ell
 
 Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Søge efter dublerede kontakter, når der oprettes kontakter
-Du kan vælge at lade programmet søge automatisk efter dubletter, hver gang du opretter en kontaktvirksomhed, eller du kan vælge at søge manuelt, når du har oprettet kontakten. Du kan også vælge at lade programmet opdatere søgestrenge automatisk, hver gang du har ændret kontaktoplysninger eller oprettet en kontakt. Du kan angive hitprocenten til søgning, dvs. den procentdel identiske strenge som to kontakter skal have, før de betragtes som dubletter.
+## <a name="searching-for-duplicate-contacts"></a>Søgning efter dublerede kontakter
+Du kan vælge at lade programmet søge automatisk efter dubletter, hver gang du opretter en kontakt, eller du kan vælge at søge manuelt, når du har oprettet kontakten. Du kan også vælge at lade programmet opdatere søgestrenge automatisk, hver gang du har ændret kontaktoplysninger eller oprettet en kontakt. Du kan angive hitprocenten til søgning, dvs. den procentdel identiske strenge som to kontakter skal have, før de betragtes som dubletter. Du opretter dette i oversigtspanelet **Dubletter** på siden **Marketingopsætning**.
 
-Du opretter dette i oversigtspanelet **Dubletter** på siden **Marketingopsætning**.
+Når du har fundet en dubleret kontakt, kan du bruge siden **Flet dublet** til at flette den med en eksisterende kontaktpost, du vil beholde. Du kan finde flere oplysninger i [Flette dublerede poster](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

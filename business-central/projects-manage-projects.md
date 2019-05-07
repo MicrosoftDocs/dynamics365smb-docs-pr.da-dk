@@ -1,23 +1,19 @@
 ---
 title: Sagsopgaver, der bruger ressourcer og timesedler | Microsoft Docs
 description: Beskriver, hvordan du bruger ressourcer, timesedler og sager til at administrere projekter.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "793267"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921024"
 ---
 # <a name="project-management"></a>Projektstyring
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du udføre almindelige projektstyringsopgaver, som f.eks. konfiguration af en sag og planlægning af en ressource samt anskaffelsen af de oplysninger, der er nødvendige til administration af budgetter og overvågning af status. Du kan spore maskin- og medarbejdertimer på projektet ved hjælp af timeregistreringer. Som projektleder har du et godt overblik, ikke kun over individuelle sager, men også over allokeringen af medarbejdere, maskiner og andre ressourcer, der bruges i alle projekter.
@@ -38,13 +34,18 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Bogfør forbruget af materialer, ressourcer og andre udgifter ved igangværende arbejde for at overvåge arbejdets økonomiske værdi og føre korrekt regnskab, selvom du bogfører sagsudgifter, inden du fakturerer sagen. |[Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md) |
 | Registrer løbende sagsomkostninger for ressourceforbrug, materialer og sagsrelaterede indkøb, og fakturer kunden, enten når sagen er afsluttet eller i henhold til en faktureringsplan. |[Fakturere sager](projects-how-invoice-jobs.md) |
 
+## <a name="get-started-with-projects"></a>Kom i gang med projekter
+
+Projektstyring er kompliceret nok i forvejen, og det kan være ekstra kompliceret at skulle lære at oprette sager og administrere igangværende arbejde i et nyt værktøj. For at hjælpe dig i gang med projektstyring i [!INCLUDE [prodshort](includes/prodshort.md)] kan du se [en video om oprettelse af sager](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-kanalen.  
+
 ## <a name="see-also"></a>Se også
+
 [Konfigurere projektstyring](projects-setup-projects.md)  
-[Ændre, hvilke funktioner der vises](ui-experiences.md)      
-[Køb](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)    
+[Video: Sådan oprettes en sag i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Ændre, hvilke funktioner der vises](ui-experiences.md)  
+[Køb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

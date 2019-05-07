@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: cda5dc10951981a5d2e496c6cd27bb84b875ede0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792676"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912798"
 ---
 # <a name="application-compliance"></a>Programoverholdelse
 Dette indhold indeholder oplysninger om programoverholdelse i relation til [!INCLUDE[d365fin](../includes/d365fin_md.md)], f.eks. internationale standarder for finansiel rapportering, lokal funktionalitet, GDPR og meget mere. Tillid til en løsning til virksomhedsadministration er nøglen til at køre en effektiv virksomhed. Med Business Central har virksomheder muligheder for at strømline forretningsprocesser, samtidig med at de ensartet og omkostningseffektivt følger de stigende krav til regulering og rapportering.

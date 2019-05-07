@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: d223bdc490c2ac45353d0e7f8aff6816c1ce5f51
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "793435"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938222"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Saldi mellem omkostningstype, omkostningssted og omkostningsobjekt
 Når du konfigurerer omkostningsregnskab, skal du sørge for, at alle poster er tildelt til en pristype samt et omkostningssted eller et omkostningsobjekt. Det betyder, at hver omkostningspost skal have pristype samt en omkostningsstedskode eller et omkostningsobjekt tildelt. Denne regel sikrer, at hver omkostningspost vises i enten omkostningssteder eller omkostningsobjekter, men aldrig begge steder.  

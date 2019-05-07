@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 4e47858bf1f7253f8fb8951fe8ea3cb611138852
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "793122"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935799"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling  
 Det er vigtigt med effektiv styring af skyldige beløb for virksomhedens samlede finansielle tilstand. Udvidelsen Forudsigelse af forsinket betaling kan hjælpe dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategier ved at forudsige, om salgsfakturaer bliver betalt til tiden. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden.
@@ -55,7 +55,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 ## <a name="building-your-own-predictive-model"></a>Oprettelse af din egen forudsigelsesmodel
 Er du interesseret i at udvikle din egen forudsigelsesmodel? Du kan bruge Azure Machine Learning Studio til at oprette din egen forudsigelsesmodel og bruge den i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil bruge din egen model, skal du abonnere Azure Machine Learning. Du kan finde flere oplysninger i [Dokumentationen til Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-Vi tilbyder dog en nemmere måde for dig at oprette og bruge dine egen forudsigelsesmodel. Du kan dele data fra dine fakturaer med vores forudsigelsesforsøg i Azure Machine Learning og lade vores forsøg oprette og oplære en forudsigelsesmodel ud fra dine data. Hvis du vil dele dine data, skal du på siden **Opsætning af forudsigelse af forsinket betaling** vælge handlingen **Opret min model**. Herefter baseres forudsigelserne på din model og dine data, ikke på vores.  
+Vi tilbyder dog en nemmere måde for dig at oprette og bruge dine egen forudsigelsesmodel. Du kan dele data fra dine fakturaer med vores [Forudsigelsesforsøg for Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) i Azure Machine Learning og lade vores forsøg oprette og oplære en forudsigelsesmodel ud fra dine data. Hvis du vil dele dine data, skal du på siden **Opsætning af forudsigelse af forsinket betaling** vælge handlingen **Opret min model**. Herefter baseres forudsigelserne på din model og dine data, ikke på vores.  
 
 > [!Note]
 >   Kvaliteten af modellen er vigtig. Når vores forudsigelsesforsøg bruger dine data til at oplære en model, bestemmer det en kvalitetsværdi for modellen som en procentdel. Modelkvaliteten angiver, hvor nøjagtig modellens forudsigelser forventes at være. Flere faktorer kan have indflydelse på kvaliteten af en model. Disse faktorer kan f.eks. være, at der ikke var nok data, eller at dataene ikke var tilstrækkeligt varierede. Du kan få vist kvaliteten af den model, du aktuelt bruger, på siden **Opsætning af forudsigelse af forsinket betaling**. Du kan også angive en mindstegrænse for modelkvaliteten. Modeller med en kvalitetsværdi under grænsen giver ikke forudsigelser.  

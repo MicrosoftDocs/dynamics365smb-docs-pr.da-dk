@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac8d1f84c3daacbee931d559e6f67f4351df73c5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "793329"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920838"
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
 For at gøre det lettere at analysere dokumenter som f.eks. salgsordrer kan du bruge dimensioner. Dimensioner er attributter og værdier, der kategoriserer poster, så du kan spore og analysere dem. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
@@ -48,12 +48,12 @@ Du kan definere dimensioner og dimensionsværdier for at kategorisere kladder og
 
 Du kan også angive værdier for dimensioner. Værdier kan f.eks. være afdelinger i virksomheden. Dimensionsværdierne kan oprettes i en hierarkisk struktur - ligesom kontoplanen - så data kan opdeles i forskellige granularitetsniveauer, og dimensionsdelmængder kan lægges sammen. Du kan angive det antal dimensioner og dimensionsværdier, som du har brug for, og de kan bruges af alle i virksomheden.
 
-Du kan også oprette nogle globale dimensioner og genvejsdimensioner:  
+Når dimensioner og værdier konfigureres, kan du definere globale dimensioner og genvejsdimensioner på siden **Regnskabsopsætning**, der altid vil kunne vælges som felter på kladde- og dokumentlinjer, uden at siden **Dimensioner** skal åbnes først. Du kan finde flere oplysninger i [Sådan konfigureres globale dimensioner og genvejsdimensioner](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
 * **Globale dimensioner** bruges som filtre, f.eks. i rapporter og kørsler. Du kan kun bruge to globale dimensioner, så vælg dimensioner, du bruger ofte.
 * **Genvejsdimensioner** er tilgængelige som felter på kladde- og dokumentlinjer. Du kan oprette op til seks af disse.  
 
-### <a name="setting-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Oprette standarddimensioner for kunder, leverandører og andre konti
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Sådan konfigureres standarddimensioner for kunder, leverandører og andre konti
 Du kan tildele en standarddimension for en specifik konto. Dimensionen kopieres til kladden eller dokumentet, når du angiver kontonummeret på en linje, men du kan slette og ændre koden på linjen, hvis det er relevant. Du kan også oprette en dimension, der kræves til bogføring af en post med en bestemt type konto.  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensioner**, og vælg derefter det relaterede link.  
@@ -102,15 +102,21 @@ For at undgå bogføringsposter med modstridende eller irrelevante dimensioner k
 >   
 >  Hvis du vil have vist navnet på dimensionen i stedet for koden, skal du markere feltet **Vis kolonnenavn**.
 
-### <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Få et overblik over dimensioner, der bruges flere gange
-Siden **Standarddimensioner - flere** angiver, hvordan en gruppe af konti bruger dimensioner og dimensionsværdier. Det kan du gøre ved at markere flere konti og derefter angive standarddimensioner og dimensionsværdier for alle de konti, du har markeret i kontooversigten. Når du har angivet standarddimensioner for de markerede konti, foreslår programmet, at de samme dimensioner og dimensionsværdier benyttes, hver gang en af disse konti benyttes, f.eks. på en kladdelinje. Det gør det nemmere for brugeren at bogføre poster, eftersom felterne med dimensioner udfyldes automatisk. Det er dog muligt manuelt at ændre de dimensionsværdier, der bliver foreslået, eksempelvis på kladdelinjer.
+### <a name="to-set-up-global-and-shortcut-dimensions"></a>Sådan oprettes globale dimensioner og genvejsdimensioner
+Globale dimensioner og genvejsdimensioner kan bruges som filter overalt i [!INCLUDE[d365fin](includes/d365fin_md.md)], herunder i rapporter, kørsler og analysevisninger. Globale dimensioner og genvejsdimensioner er altid tilgængelige, så de kan indsættes direkte, uden at siden **Dimensioner** først skal åbnes. På kladde- og dokumentlinjer kan du vælge globale dimensioner og genvejsdimensioner i et felt på linjen. Du kan også oprette to globale dimensioner og otte genvejsdimensioner. Vælg de dimensioner, du oftest benytter.
 
-Siden **Standarddimensioner-flere** indeholder følgende felter:
-|Felt|Beskrivelse|
-|----------------------------------|---------------------------------------|  
-|**Dimensionskode**|Viser alle de dimensioner, der har været defineret som standarddimensioner for en eller flere af de markerede konti. Hvis du klikker på feltet, får du vist en oversigt over alle tilgængelige dimensioner. Hvis du markerer en dimension og klikker på OK, bliver den valgte dimension defineret som standarddimension for alle de markerede konti.|
-|**Dimensionsværdikode**|Viser enten en enkelt dimensionsværdi eller ordet (Konflikt). Hvis feltet indeholder en dimensionsværdi, har alle markerede konti den samme standarddimensionsværdi for en dimension. Hvis der står (Konflikt) i feltet, så er det ikke alle de markerede konti, der har den samme standarddimensionsværdi for en dimension. Hvis du klikker på feltet, får du vist en oversigt over alle de dimensionsværdier, der kan benyttes i forbindelse med en dimension. Hvis du markerer en dimensionsværdi og klikker på OK, bliver den markerede dimensionsværdi defineret som standarddimensionsværdi for alle de markerede konti.|
-|**Værdibogføring**|Viser enten en enkelt værdibogføringsregel eller ordet (Konflikt). Hvis der vises en værdibogføringsregel i feltet, så har alle markerede konti den samme værdibogføringsregel for en dimensionsværdi. Hvis der står (Konflikt) i feltet, så er det ikke alle de markerede konti, der har den samme værdibogføringsregel for en dimensionsværdi. Hvis du klikker på feltet Værdibogføring, får du vist en liste med værdibogføringsregler. Hvis du markerer en værdibogføringsregel, bliver den anvendt på alle de markerede konti.|
+> [!Important]  
+> Hvis du ændrer en global dimension eller en genvejsdimension, kræver det, at alle poster bogført med dimensionen er opdateret. Du kan udføre denne opgave med funktionen **Rediger globale dimensioner**, men det kan være tidskrævende og kan påvirke ydeevnen. Derfor skal du vælge de globale dimensioner og genvejsdimensioner omhyggeligt, så du ikke behøver at ændre dem senere.
+
+> [!Note]
+> Når du tilføjer eller ændrer en global dimension eller genvejsdimension, logges du automatisk ud og ind igen, så den nye værdi er forberedt til brug i hele programmet.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.
+2. Udfyld felterne i oversigtspanelet **Dimensioner**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### <a name="to-change-global-dimensions"></a>Sådan ændres globale dimensioner
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rediger globale dimensioner**, og vælg derefter det relaterede link.
+2. Placer markøren over handlinger og felter på siden for at se, hvordan du kan ændre globale dimensioner og genvejsdimensioner.
 
 ### <a name="example-of-dimension-setup"></a>Eksempel på dimensionsopsætning
 Lad os antage, at dit firma vil kunne spore transaktioner baseret på virksomhedens struktur og geografiske placeringer. Til det formål kan du oprette to dimensioner på siden **Dimensioner**:
@@ -137,7 +143,8 @@ For **OMRÅDE** tilføjer du følgende dimensionsværdier:
 | 80 |Uden for EU |Standard |
 | 90 |Europa, total |Til-sum |
 
-For de to vigtigste geografiske områder, Nord- og Sydamerika og Europa, tilføjer du underkategorier for områder ved at indrykke dimensionsværdierne. Derved kan du rapportere salg eller udgifter i områder, og få vist totaler for større geografiske områder. Du kan også vælge at bruge lande eller områder som dimensionsværdier, eller områder eller byer, afhængigt af din virksomhed.  
+For de to vigtigste geografiske områder, Nord- og Sydamerika og Europa, tilføjer du underkategorier for områder ved at indrykke dimensionsværdierne. Derved kan du rapportere salg eller udgifter i områder, og få vist totaler for større geografiske områder. Du kan også vælge at bruge lande eller områder som dimensionsværdier, eller områder eller byer, afhængigt af din virksomhed.
+
 > [!NOTE]  
 >   Hvis du vil oprette et hierarki, skal koderne være i alfabetisk orden. Dette omfatter koderne for de dimensionsværdier, der er angivet i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -149,7 +156,18 @@ For **AFDELING** tilføjer du følgende dimensionsværdier:
 | PROD |Produktion |Standard |
 | SALG |Salg |Standard |
 
-Med denne opsætning tilføjer du derefter to dimensioner som de to globale dimensioner på siden **Opsætning af Finans**. Det betyder, at du kan bruge OMRÅDE og AFDELING som filtre til finansposter samt i rapporter og kontoskemaer. Begge globale dimensioner kan også bruges som genvejsdimensioner på postlinjer og i bilagshoveder.  
+Med denne opsætning kan du tilføje dine to dimensioner som de to globale dimensioner på siden **Opsætning af Finans**. Det betyder, at du kan bruge OMRÅDE og AFDELING som filtre til finansposter samt i rapporter og kontoskemaer. Begge globale dimensioner kan også bruges som genvejsdimensioner på postlinjer og i bilagshoveder.
+
+## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Få et overblik over dimensioner, der bruges flere gange
+Siden **Standarddimensioner - flere** angiver, hvordan en gruppe af konti bruger dimensioner og dimensionsværdier. Det kan du gøre ved at markere flere konti og derefter angive standarddimensioner og dimensionsværdier for alle de konti, du har markeret i kontooversigten. Når du har angivet standarddimensioner for de markerede konti, foreslår programmet, at de samme dimensioner og dimensionsværdier benyttes, hver gang en af disse konti benyttes, f.eks. på en kladdelinje. Det gør det nemmere for brugeren at bogføre poster, eftersom felterne med dimensioner udfyldes automatisk. Det er dog muligt manuelt at ændre de dimensionsværdier, der bliver foreslået, eksempelvis på kladdelinjer.
+
+Siden **Standarddimensioner-flere** indeholder følgende felter:
+
+|Felt|Beskrivelse|
+|-----|-----------|  
+|**Dimensionskode**|Viser alle de dimensioner, der har været defineret som standarddimensioner for en eller flere af de markerede konti. Hvis du klikker på feltet, får du vist en oversigt over alle tilgængelige dimensioner. Hvis du markerer en dimension og klikker på OK, bliver den valgte dimension defineret som standarddimension for alle de markerede konti.|
+|**Dimensionsværdikode**|Viser enten en enkelt dimensionsværdi eller ordet (Konflikt). Hvis feltet indeholder en dimensionsværdi, har alle markerede konti den samme standarddimensionsværdi for en dimension. Hvis der står (Konflikt) i feltet, så er det ikke alle de markerede konti, der har den samme standarddimensionsværdi for en dimension. Hvis du klikker på feltet, får du vist en oversigt over alle de dimensionsværdier, der kan benyttes i forbindelse med en dimension. Hvis du markerer en dimensionsværdi og klikker på OK, bliver den markerede dimensionsværdi defineret som standarddimensionsværdi for alle de markerede konti.|
+|**Værdibogføring**|Viser enten en enkelt værdibogføringsregel eller ordet (Konflikt). Hvis der vises en værdibogføringsregel i feltet, så har alle markerede konti den samme værdibogføringsregel for en dimensionsværdi. Hvis der står (Konflikt) i feltet, så er det ikke alle de markerede konti, der har den samme værdibogføringsregel for en dimensionsværdi. Hvis du klikker på feltet Værdibogføring, får du vist en liste med værdibogføringsregler. Hvis du markerer en værdibogføringsregel, bliver den anvendt på alle de markerede konti.|
 
 ## <a name="using-dimensions"></a>Bruge dimensioner
 I et dokument, f.eks en salgsordre, kan du tilføje dimensionsoplysninger for en individuel dokumentlinje og for selve dokumentet. På siden **Salgsordre** kan du f.eks. angive dimensionsværdier for de første to genvejsdimensioner på de enkelte salgslinjer, og du kan tilføje flere dimensionsoplysninger, hvis du vælger knappen **Dimensioner**.  
@@ -158,8 +176,8 @@ Hvis du i stedet arbejder i en kladde, kan du tilføje dimensionsoplysninger til
 
 Du kan angive standarddimensioner for konti eller kontotyper, så dimensioner og dimensionsværdier udfyldes automatisk.
 
-## <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Sådan får du vist globale dimensioner på sider med poster  
-Globale dimensioner er altid defineret og navngivet i det overordnede regnskab. Du kan se de globale dimensioner for dit regnskab ved at åbne siden **Regnskabsopsætning**.  
+### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Sådan får du vist globale dimensioner på sider med poster  
+Globale dimensioner er altid \-defineret og navngivet i det overordnede regnskab. Du kan se de globale dimensioner for dit regnskab ved at åbne siden **Regnskabsopsætning**.  
 
 Du kan se, om der er globale dimensioner for poster, når du åbner en side med poster. De to globale dimensioner adskiller sig fra resten af dimensionerne, fordi du kan bruge dem som filtre overalt i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -169,7 +187,27 @@ Du kan se, om der er globale dimensioner for poster, når du åbner en side med 
 4.  Hvis du vil have vist alle dimensioner for en post, skal du vælge den og derefter vælge handlingen **Dimensioner**.  
 
 > [!NOTE]  
->  Siden **Postdimensioner** viser dimensioner for en post ad gangen. Når du ruller gennem finansposter, ændres indholdet på siden **Postdimensioner** løbende.  
+>  Siden **Postdimensioner** viser dimensioner for en post ad gangen. Når du ruller gennem finansposter, ændres indholdet på siden **Postdimensioner** løbende.
+
+## <a name="troubleshooting-dimensions-errors"></a>Fejlfinding af dimensioner
+Når du bogfører dokumenter eller kladdelinjer, der indeholder dimensioner, kan der opstå flere fejl, der typisk vedrører forkert dimensionsopsætning eller -tildeling.
+
+> [!NOTE]
+> På følgende liste over mulige fejlmeddelelser er *%X*-koder pladsholdere for de datavariabler, som findes i den aktuelle meddelelse i brugergrænsefladen afhængig af konteksten. *%1 %2 er f.eks. spærret.* Kan vises i brugergrænsefladen som "Dimensionskode AREA er spærret.".  
+
+|Udsted|Fejlmeddelelse|Mulig løsning|
+|-----|-------------|-----------------|
+|Spærret dimension|%1 %2 er spærret.|– Find ikke-bogførte bilag, der indeholder dimensionsgruppen med den dimension, der er spærret, og fjern spærringen.<br />– Fjern dimensionsgruppelinjen for den dimension, der er spærret.|
+|Slettet dimension|%1 %2 blev ikke fundet.|– Gendan den manglende dimension.<br />– Find ikke-bogførte bilag, der indeholder dimensionsgruppen med den manglende dimension, og tilføj den.<br />– Fjern dimensionsgruppelinjen for den manglende dimension.|
+|Spærret dimensionsværdi|%1 %2 - %3 er spærret.|– Find ikke-bogførte bilag, der indeholder dimensionsgruppen med den dimensionsværdi, der er spærret, og fjern spærringen.<br />– Fjern dimensionsgruppelinjen for den dimensionsværdi, der er spærret.|
+|Slettet dimensionsværdi|   %1 for %2 mangler.|– Gendan den manglende dimensionsværdi.<br />– Find ikke-bogførte bilag, der indeholder dimensionsgruppen med den manglende dimensionsværdi, og tilføj den.<br />– Fjern dimensionsgruppelinjen for den manglende dimensionsværdi.|
+|Forbudt dimensionsværdi|Dimensionsværditypen for %1 %2 - %3 må ikke være %4.|– Ret feltet **Dimensionsværditype** på siden **Dimensionsværdier** til **Standard** eller **Fra-sum**.<br />– Fjern dimensionsgruppelinjen for den dimensionsværdi, der er spærret.|
+|Spærret dimensionskombination|Dimensionerne %1 og %2 kan ikke bruges samtidig.|– Find ikke-bogførte bilag, der indeholder dimensionsgruppen med den dimensionskombination, der er spærret, og fjern spærringen.<br />– Ret en af de modstridende linjer i rettighedssæt for dimensionskombinationen.|
+|Spærret dimensionsværdikombination|Dimensionskombinationerne %1 - %2 og %3 - %4 kan ikke bruges samtidig.|– Find ikke-bogførte bilag, der indeholder dimensionsgruppen med den dimensionsværdikombination, der er spærret, og fjern spærringen.<br />– Ret en af de modstridende linjer i rettighedssæt for dimensionsværdikombinationen.|
+|Tom dimensionsværdikode for standarddimensionen hvor feltet **Værdibogføring** indeholder **Tvungen kode**|– Angiv %1 for %2 %3.<br />– Vælg %1 til %2 %3 for %4 %5.|– Ret feltet **Værdibogføring** på siden **Standarddimension**.<br />– Angiv en ikke-tom dimensionsværdi for den modstridende dimension i dimensionsgruppen.|
+|Forkert dimensionsværdikode for standarddimensionen hvor feltet **Værdibogføring** indeholder **Samme kode**|– Vælg %1 %2 til %3 %4.<br />– Vælg %1 %2 til %3 %4 for %5 %6|– Ret feltet **Værdibogføring** på siden **Standarddimension**.<br />– Angiv den krævede dimensionsværdi for den modstridende dimension i dimensionsgruppen.|
+|Ikke-tom dimensionsværdikode for tom standarddimension hvor feltet **Værdibogføring** indeholder **Samme kode**|– %1 %2 skal være tom.<br />– %1 %2 skal være tom for %3 %4.|– Ret feltet **Værdibogføring** på siden **Standarddimension**.<br />– Angiv en tom dimensionsværdikode for den modstridende dimension i dimensionsgruppen.|
+|Uventet dimensionsværdi for standarddimensionen hvor feltet **Værdibogføring** indeholder **Ingen kode**|– %1 %2 må ikke angives.<br />– %1 %2 må ikke angives for %3 %4|– Ret feltet **Værdibogføring** på siden **Standarddimension**.<br />– Fjern den uoverensstemmende linje fra dimensionsgruppen.|
 
 ## <a name="see-also"></a>Se også
 [Business Intelligence](bi.md)  

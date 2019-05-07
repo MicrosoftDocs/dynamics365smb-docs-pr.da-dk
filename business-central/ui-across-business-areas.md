@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853090"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939458"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](across-business-functionality.md).
@@ -40,6 +40,7 @@ I følgende tabel vises disse generelle forretningsområder med links til emner,
 |Vedhæfte billeder, dokumenter og andre typer filer til alle kort, f.eks. vare- og jobkortet og vedhæfte filer til alle typer salgs- og købsdokumenter.|[Vedhæfte filer til kort og dokumenter](across-attach-document-master-data.md)|
 |Arbejde med dine Business Central-data i Excel.|[Eksportere forretningsdata til Excel](about-export-data.md)|
 |Forstå, hvad der sker, når du vælger handlingen **Bogfør**.|[Bogføring af dokumenter og kladder](ui-post-documents-journals.md)|
+|Gennemgå resultatet af bogføring, før du bogfører.|[Vise bogføringsresultater](ui-how-preview-post-results.md)| 
 |Få at vide, hvordan du arbejder med finanskladder, som bruges til at bogføre til finanskonti og andre konti, f.eks. bank-, debitor-, kreditor- og anlægskonti. |[Arbejde med finanskladder](ui-work-general-journals.md) |
 | Planlæg en rapport til at køre på en bestemt dato og et bestemt klokkeslæt. |[Planlægge kørsel af en rapport](ui-work-report.md#ScheduleReport) |
 |Lad systemet hjælpe dig med at udføre opgaver hurtigere og mere korrekt ved at forhåndsudfylde felter eller hele linjer med data, som du normalt selv skal beregne og angive.|[Lade Business Central foreslå værdier](ui-let-system-suggest-values.md)|

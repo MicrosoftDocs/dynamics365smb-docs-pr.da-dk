@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f374daae5d7135324ef4fc3da4845a992aa0ccb5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: e16ebdd8fc7b1b147b17d395241b6e67bb008fd1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792384"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911336"
 ---
 # <a name="design-details"></a>Designoplysninger
 Dette indhold indeholder detaljerede tekniske oplysninger om komplekse programfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -25,12 +25,12 @@ Dette indhold indeholder detaljerede tekniske oplysninger om komplekse programfu
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Få mere at vide om designet til lagrings- og bogføringsdimensioner, herunder kodeeksempler på at overflytte og opgradere dimensionskode.|[Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)|  
 |Lær, hvordan planlægningssystemet fungerer, og hvordan du justerer algoritmer for at opfylde planlægningsbehov i forskellige miljøer.|[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)|  
 |Forstå mekanismerne i prisberegningsprogrammet, f.eks. kostmetode og kostregulering, samt hvilke regnskabsprincipper, de er designet til.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|  
 |Lær om de centrale principper bag avancerede og grundlæggende lagerfunktioner, og hvordan de integreres med andre forsyningskædefunktioner.|[Designoplysninger: Logistik](design-details-warehouse-management.md)|  
 |Få mere at vide om historisk og aktuelt design af varesporingsfunktionalitet, og hvordan den integreres med reservationssystemet for at medtage serienumre/lotnumre i disponeringsberegninger.|[Designoplysninger: Varesporing](design-details-item-tracking.md)|  
-|Få mere at vide om funktionen for bogføringslinjer til finanskladder, herunder de seneste forenklinger til design af codeunit 12.|[Designoplysninger: Bogføringslinje i finanskladde](design-details-general-journal-post-line.md)|  
+|Få mere at vide om funktionen for bogføringslinjer til finanskladder, herunder de seneste forenklinger til design af codeunit 12.|[Designoplysninger: Bogføringslinje i finanskladde](design-details-general-journal-post-line.md)|
+|Få mere at vide om designet til lagrings- og bogføringsdimensioner, herunder kodeeksempler på at overflytte og opgradere dimensionskode.|[Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)| 
 
 ## <a name="see-also"></a>Se også  
  [Planlægning](production-planning.md)   
@@ -40,4 +40,3 @@ Dette indhold indeholder detaljerede tekniske oplysninger om komplekse programfu
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-  

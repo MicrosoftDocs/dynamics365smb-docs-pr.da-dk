@@ -1,6 +1,6 @@
 ---
 title: Sådan angiver du data i felter | Microsoft Docs
-description: Der er mange generelle funktioner, der hjælper dig med at indtaste data på en hurtig og nem måde. De generelle funktioner til indtastning af data er beskrevet i dette emne.
+description: Få mere at vide om generelle funktioner, der hjælper dig med at indtaste data i felter.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,27 +8,66 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: f1bd2fb92f787d52c5bbab8c2210b9d424c1ffd5
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852489"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929069"
 ---
 # <a name="entering-data"></a>Angivelse af data
-Der er mange generelle funktioner, der hjælper dig med at indtaste data på en hurtig og nem måde. De generelle funktioner til indtastning af data er beskrevet i denne artikel.  
 
-Eksemplerne i denne artikel bruger demodata.
+Der er mange generelle funktioner, der hjælper dig med at indtaste data data lettere, hurtigere og mere nøjagtigt. De generelle funktioner til indtastning af data er beskrevet i denne artikel.  
+
+<!-- The examples in this article use the demonstration data.-->
+
+## <a name="keyboard-shortcuts"></a>Tastaturgenveje
+
+Der er adskillige tastaturgenveje, du kan bruge, når du vil arbejde uden mus, og som gør dataindtastning hurtigere, især i forbindelse med store poster og gentagne indtastningsopgaver.
+
+Du kan finde flere oplysninger om genveje i [Tastaturgenveje](keyboard-shortcuts.md). Nogle af genvejene er beskrevet i denne artikel.
+
+## <a name="QuickEntry"></a>Fremskynde dataindtastning ved hjælp af genveje
+
+Genvej er en funktion, der er designet til dataindtastning med brug af tastatur. Genvej fungerer på felter (f.eks. på kortider) og i lister (rækker og kolonner). Det er nyttige, når du udfører gentagne indtastningsopgaver, der kræver oprettelse af flere poster i rækkefølge, f.eks. en kørsel med salgsordrer eller registrering af nye varer.
+
+Du er muligvis allerede fortrolig med brugen af tabulatortasten til at navigere fra ét felt på en side til næste redigerbare felt. En ulempe ved at bruge tabulatortasten er, at den altid går til næste felt i rækkefølge. <!-- even if the field is non-editable or seldom filled it in.-->Genvej gør det muligt at ændre denne fremgangsmåde. Med genvej kan du bruge Enter-tasten til udelukkende at navigere blandt de felter, du er interesseret i, og overspringe ikke-redigerbare felter og felter, som du normalt ikke udfylder. Du har muligvis allerede bemærket denne funktionsmåde på nogle sider. Det skyldes, at programmet allerede angiver, hvilke felter der skal medtages, når du trykker på Enter, og hvilke der skal springes over. Du kan tilpasse genvej ved at tilpasse dit arbejdsområde og optimere den måde, du indtaster data på hver side.
+
+### <a name="how-quick-entry-works"></a>Sådan fungerer genvej
+
+Hvert felt kan markeres som enten *medtaget i genvej* eller *udelukket fra genvej*. Felter, der indgår i genvej, medtages i stien, når du trykker på Enter. Felter, der er udelukket fra genvej, medtages ikke.
+
+Når du er færdig med at angive data i et felt, du blot trykke på Enter for at bekræfte ændringerne og gå til næste felt. Hvis du vil vende retningen og gå til det forrige felt, skal du trykke på Shift+Enter. Du kan finde flere oplysninger om genveje i [Tastaturgenveje i genvej](keyboard-shortcuts.md#QuickEntry).
+
+#### <a name="tips-and-tricks"></a>Tip
+Følgende indeholder nyttige oplysninger om brugen af genvej.
+
+- Den findes i alle redigerbare felter.
+- Den kan også bruges på tværs af kolonner og rækker.
+- Den forhindrer ikke adgang til andre elementer på en side, f.eks. handlinger. De er stadig tilgængelige ved hjælp af tabulatortasten og Shift+Tab.  
+- Oversigtspanelerne behøver ikke at blive udvidet for at få genvej til at fungere. Hvis næste genvejsfelt er placeret i et skjult oversigtspanel, udvides det pågældende oversigtspanel automatisk og fokuserer på det angivne felt.
+- Genvej fungerer, uanset om felter skal udfyldes. Det er derfor en god ide at sikre, at obligatoriske felter er medtaget i genvej.
+- Som standard medtages de fleste felter automatisk i genvej. Så til at starte med skal du derfor sandsynligvis udelukke felter fra genvej.
+
+### <a name="how-to-change-quick-entry-fields"></a>Sådan ændres genvejsfelter
+
+Hvis du vil ændre, hvilke felter der medtages i eller udelukkes fra genvej på en side, kan du bruge tilpasning.
+
+1. Start tilpasning ved at vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "ikonet Indstillinger til rollecenter") og derefter **Tilpas**.
+2. Markér et felt, du vil ændre, eller markér på lister den tilsvarende kolonneoverskrift, og vælg derefter enten **Medtag i genvej** eller **Udeluk fra genvej**.
+
+Du kan finde flere oplysninger om tilpasning under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Obligatoriske felter
+
 Når du indtaster data på sider, er visse felter markeret med en rød stjerne. Den røde stjerne betyder, at feltet skal udfyldes for at fuldføre en bestemt proces, der bruger feltet, f.eks. bogføring af en transaktion, der bruger værdien i feltet.  
 
 Selv om feltet indeholder en rød stjerne, er du ikke tvunget til at udfylde feltet, før du fortsætter til andre felter eller lukker siden. Den røde stjerne tjener kun som en påmindelse om, at du vil blive blokeret fra at udføre en bestemt proces.  
 
+## <a name="finding-data-as-you-type"></a>Søge efter data mens du skriver
 
-## <a name="finding-data-as-you-type"></a>Søge efter data mens du skriver  
  Når du begynder at indtaste tegn i et felt, vises en rulleliste med mulige feltværdier. Listen ændres, når du skriver flere tegn, og du kan vælge den korrekte værdi, når den vises.  
 
  Mange felter har en knap med en nedadgående pil, som du kan vælge. Når du vælger pilen, vises en liste med data, som du kan vælge at indtaste i feltet. Knappen har to funktioner afhængigt af felttypen:  
@@ -37,32 +76,37 @@ Selv om feltet indeholder en rød stjerne, er du ikke tvunget til at udfylde fel
 
 -   Rullemenu – viser det sæt indstillinger, der findes til feltet. Du kan kun vælge én af indstillingerne.  
 
-<!--Onprem ## Copy Fields or Lines  
- Depending on the type of writable document, you can copy individual line fields or whole lines to other lines in the document. Read-only data, such as posted entries, cannot be copied.  
+## <a name="copying-and-pasting-fields-and-lines"></a>Kopiere og indsætte felter og linjer
 
- Several database dependencies are used to determine if fields or lines can be copied. One way to determine these dependencies is to view the shortcut menu. The content of the shortcut menu indicates which copy functions are supported by displaying either of these functions:  
+Du kan kopiere en eller flere rækker fra en liste eller et enkelt felt på en side og derefter indsætte det, du har kopieret på den samme side, en anden side eller et eksternt dokument (som Microsoft Excel og e-mails i Outlook). Kort sagt, når du vil kopiere, skal du trykke på CTRL + C (cmd + C i macOS) på tastaturet. Når du vil indsætte, skal du trykke på CTRL + V (cmd + V i macOS).
 
--   Copy Cell  
+Hvis du på en liste vil kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række, skal du bare trykke på F8.
 
--   Copy Rows  
+Du kan finde flere oplysninger i [Kopiere og indsætte i Business Central](ui-copy-paste.md).
 
--   Paste Rows  
+## <a name="Focus"></a>Fokusere på linjevarer
 
- For example, database records, such as lines on a sales order, and master data, such as cards on the **Items** page, cannot be duplicated. For this kind of data, the shortcut menu typically has the **Copy Cell** or **Copy Rows**  functions. If the **Paste** function is not available this indicates that you can only paste the data into external documents. Single fields on a sales line, however, can be copied to the same column in other sales lines.  
+Når du arbejder med dokumenter, som indeholder en del med linjevarer, f.eks. en salgsordre eller fakturaside, kan du skifte visningen til udelukkende at fokusere på linjevarer, hvilket reelt udvider delen med linjevarer, så den optager ret meget af hele arbejdsområdet – og skjuler andre dele af siden undtagen handlingsområdet øverst. Det giver dig et bedre overblik over linjevarerne og giver mere plads til at arbejde med dem. Dette er især nyttige, når du arbejder med store lister med linjevarer, og der ønskes hurtig dataindtastning.
 
- Journal lines are very flexible and can be copied freely in the same journal, indicated by the presence of **Paste** on the shortcut menu.  
+En anden fordel er, at det også indeholder avancerede filterfunktioner, som på andre lister, så det bliver endnu nemmere at gennemse og søge gennem linjevarer.
 
-> [!NOTE]  
->   If you copy a journal line or document line, the fields that are not in your view are not copied to the new line.
+### <a name="switch-the-focus-on-and-off"></a>Slå fokus til og fra
 
-#### To copy previous field  
+Når du vil fokusere på linjevarer, skal du markeret et vilkårligt sted i delen med linjevarer og derefter vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") i øverste højre hjørne eller trykke på Ctrl+Shift+F12.
 
--   To enter the value of the field immediately above the active field, select **Copy Previous** from the shortcut menu.-->
+For at vende tilbage til normal visning skal du vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") eller trykke på Ctrl+Shift+F12 igen.
 
-## <a name="entering-quantities-by-calculation"></a>Angive mængder ved beregning  
- Når du angiver tal i mængdefelter, f.eks. i feltet **Antal** på en varekladdelinje, kan du angive formlen i stedet for summen af mængden.  
+### <a name="filtering-the-line-items"></a>Filtrere linjevarerne
 
-## <a name="examples"></a>Eksempler  
+Du starter filtrering ved at vælge ![Ikonet Filterrude](media/open-filter-pane-icon.png "Ikonet Filterrude") øverst på listen eller ved at trykke på **Shift+F3** for at åbne filterruden. Du arbejder med filterruden, på samme måde som du arbejder med andre lister. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#Filtering).
+
+Filtrering er især nyttig, når du får vist og analyserer længere dokumenter. Antag f.eks., at du åbner en bogført salgsfaktura og filtrerer linjevarerne for at få vist alle linjevarer med en individuel rabat over 5 % eller filtrerer for udelukkende at få vist cykeltilbehør med 'pro' i navnet.
+
+## <a name="entering-quantities-by-calculation"></a>Angive mængder ved beregning
+
+Når du angiver tal i mængdefelter, f.eks. i feltet **Antal** på en varekladdelinje, kan du angive formlen i stedet for summen af mængden.  
+
+### <a name="examples"></a>Eksempler  
 
 -   Hvis du skriver 19+19, beregnes feltet til 38.  
 
@@ -73,6 +117,7 @@ Selv om feltet indeholder en rød stjerne, er du ikke tvunget til at udfylde fel
 -   Hvis du skriver 12/4, beregnes feltet til 3.  
 
 ## <a name="entering-negative-numbers"></a>Angivelse af negative tal
+
 Du kan angive negative tal på to måder. Tallet -20,5 kan angives som:  
 
 -   -20,5  
@@ -85,13 +130,17 @@ Du kan angive negative tal på to måder. Tallet -20,5 kan angives som:
  Hvis det sidste tegn i udtrykket er et **+** eller et **-**, registreres hele udtrykket med det tegn. Eksempel, **10-20+** medfører 10 og ikke -10.  
 
 ## <a name="entering-dates-and-times"></a>Indtaste datoer og tidspunkter
+
 Du kan angive datoer og klokkeslæt i alle de felter, der er angivet specielt til datoer (datofelter). Du kan angive datoer med eller uden separatorer.
 
 > [!NOTE]  
 > Måden, du angiver datoer og klokkeslæt på, afhænger af dine indstillinger i **Område**. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).  
 
-### <a name="entering-dates"></a>Angive datoer  
- I et datofelt kan du indtaste to, fire, seks eller otte cifre:  
+### <a name="entering-dates"></a>Angive datoer
+
+For datofelter kan du enten bruge datavælgeren, som gør det muligt at vælge en dato i en kalender, eller du kan angive datoer manuelt. Denne sektion indeholder en kort oversigt over, hvordan du angiver datoer. Du kan finde flere oplysninger i [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md).
+
+Hvis du vil indtaste datoen manuelt, kan du indtaste to, fire, seks eller otte cifre:  
 
 -   Hvis du kun indtaster to tal, fortolkes dette som dagen og måneden og året indsættes ud fra arbejdsdatoen.  
 
@@ -99,24 +148,22 @@ Du kan angive datoer og klokkeslæt i alle de felter, der er angivet specielt ti
 
 -   Hvis datoen falder inden for 01-01-1930 og 31-12-2029, kan du nøjes med to tal for året, ellers skal året angives med fire cifre.  
 
- Du kan også indtaste datoen som en ugedag efterfulgt af ugenummeret og evt. året (f.eks. betyder Man25 eller man25 mandag i uge 25).  
+Du kan også indtaste datoen som en ugedag efterfulgt af ugenummeret og evt. året (f.eks. betyder Man25 eller man25 mandag i uge 25).  
 
- I stedet for en bestemt dato kan du indtaste én af to koder.  
+I stedet for en bestemt dato kan du indtaste én af disse koder.  
 
 |Kode|Resultat|  
 |--------------|----------------|  
-|d|Dette er dags dato (computerens systemdato).|  
-|a|Dette er den arbejdsdato, der er angivet i programmet. Hvis du vil ændre arbejdsdatoen, kan du se i [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md). Det er en fordel at anvende en arbejdsdato, hvis du har mange transaktioner at udføre på en dato, der ikke er dags dato.|  
+|d|Dette angiver dags dato (computerens systemdato).|  
+|p|Dette angiver en regnskabsperiode, hvor `p`betyder den første regnskabsperiode, `p2` betyder den anden regnskabsperiode osv. |
+|a|Dette angiver den arbejdsdato, der er angivet i programmet. Hvis du vil ændre arbejdsdatoen, kan du se i [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md). Det er en fordel at anvende en arbejdsdato, hvis du har mange transaktioner at udføre på en dato, der ikke er dags dato.|
+|c|Dette angiver, at datoen efter `c`er en ultimodato, f.eks. `C123101`.|  
 
-<!--Onprem ## Closing Date  
- When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
+## <a name="entering-times"></a>Angive klokkeslæt
 
- To specify that a date is a closing date, put C just before the date: C123101. -->
+Når du angiver klokkeslæt, kan du indsætte en vilkårlig separator mellem tidsenhederne, men det er ikke påkrævet. Det er ikke nødvendigt at skrive minutter, sekunder eller AM/PM.  
 
-## <a name="entering-times"></a>Angive klokkeslæt  
- Når du angiver klokkeslæt, kan du indsætte en vilkårlig separator mellem tidsenhederne, men det er ikke påkrævet. Det er ikke nødvendigt at skrive minutter, sekunder eller AM/PM.  
-
- I den følgende tabel kan du se, hvordan du kan indtaste klokkeslæt, og hvordan de fortolkes.  
+I den følgende tabel kan du se, hvordan du kan indtaste klokkeslæt, og hvordan de fortolkes.  
 
 |Post|Fortolkning|  
 |---------------|------------------------|  
@@ -130,10 +177,11 @@ Du kan angive datoer og klokkeslæt i alle de felter, der er angivet specielt ti
 
  Du skal skrive to tal for hver tidsenhed, hvis du ikke angiver en separator.  
 
-## <a name="entering-datetimes"></a>Angive dato/klokkeslæt  
- Når du angiver dato/klokkeslæt skal du angive et mellemrum mellem datoen og klokkeslættet.  
+## <a name="entering-datetimes"></a>Angive dato/klokkeslæt
 
- I den følgende tabel kan du se, hvordan du kan skrive dato og klokkeslæt, og hvordan de fortolkes.  
+Når du angiver dato/klokkeslæt skal du angive et mellemrum mellem datoen og klokkeslættet.  
+
+I den følgende tabel kan du se, hvordan du kan skrive dato og klokkeslæt, og hvordan de fortolkes.  
 
 |Post|Fortolkning|  
 |---------------|------------------------|  
@@ -158,10 +206,11 @@ Du kan angive datoer og klokkeslæt i alle de felter, der er angivet specielt ti
 |ti 10:30|Tirsdag i den aktuelle uge 10:30:00|  
 |ti 3:3:3|Tirsdag i den aktuelle uge 03:03:03|  
 
-## <a name="entering-duration"></a>Angivelse af varighed  
- Du angiver varighed ved at skrive et tal efterfulgt af en måleenhed.  
+## <a name="entering-duration"></a>Angivelse af varighed
 
- Her er nogle eksempler.  
+Du angiver varighed ved at skrive et tal efterfulgt af en måleenhed.  
+
+Her er nogle eksempler.  
 
 |Varighed|Enhed**|  
 |------------------|-------------------------|  
@@ -192,70 +241,72 @@ Du kan angive datoer og klokkeslæt i alle de felter, der er angivet specielt ti
 |**Sample expression**|**Entries included**|  
 |---------------------------|--------------------------|  
 |12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|  -->
+|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
-## <a name="using-date-formulas"></a>Bruge datoformler  
- En datoformel er en kort, forkortet kombination af bogstaver og tal, der angiver, hvordan datoer skal beregnes. Du kan indtaste datoformler i forskellige datoberegningsfelter og i gentagelsesintervalfelter i gentagelseskladder.  
+## Using Date Formulas
+
+ A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
 
 > [!NOTE]  
->  I alle formlens datafelter indgår en dag automatisk til at dække i dag som den dag, hvor perioden starter. Tilsvarende, hvis du f.eks. indtaster 1U, så er perioden faktisk otte dage, fordi i dag er inkluderet. Du skal indtaste 6D eller 1U-1D for at angive en periode på syv dage (en rigtig uge), der medtager periodens startdato.  
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
 
- Her følger et par eksempler på brugen af datoformler:  
+ Here are some examples of how date formulas can be used:  
 
--   Datoformlen i gentagelsesintervalfeltet i en gentagelseskladde afgør, hvor tit posten på kladdelinjen skal bogføres.  
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
 
--   Datoformlen i feltet Respitperiode for et bestemt rykkerniveau afgør det tidsrum, der skal gå fra forfaldsdatoen (eller fra datoen for den forrige rykker), før der oprettes en rykker.  
+-   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
 
--   Datoformlen i feltet Forfaldsdatoformel afgør, hvordan forfaldsdatoen på rykkeren beregnes.  
+-   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
 
- Datoformlen kan indeholde op til 20 tegn (både tal og bogstaver). Du kan bruge følgende bogstaver som forkortelser for tidsangivelser.  
-
-|||  
-|-|-|  
-|L|Løbende|  
-|D|Dag(e)|  
-|U|Uge(r)|  
-|M|Måned(er)|  
-|K|Kvartal(er)|  
-|Å|År|  
-
- Datoformlen kan opbygges på tre måder.  
-
- Følgende eksempel viser aktuelle plus en tidsenhed.  
+ The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
 
 |||  
 |-|-|  
-|LU|Løbende uge|  
-|LM|Løbende måned|  
+|C|Current|  
+|D|Day(s)|  
+|W|Week(s)|  
+|M|Month(s)|  
+|Q|Quarter(s)|  
+|Y|Year(s)|  
 
- Følgende eksempel viser et tal og en tidsenhed. Tallet må ikke være større end 9999.  
+ You can construct a date formula in three ways.  
 
-|||  
-|-|-|  
-|10D|10 dage fra i dag|  
-|2U|2 uger fra i dag|  
-
- Følgende eksempel viser en tidsenhed og et tal.  
-
-|||  
-|-|-|  
-|D10|Den næste 10. dage i en måned|  
-|UD4|Den næste 4. dag i en uge (torsdag)|  
-
- Følgende eksempel viser, hvordan du kan kombinere de tre formler efter behov.  
+ The following example shows how current plus a time unit.  
 
 |||  
 |-|-|  
-|LM+10D|Løbende måned plus 10 dage|  
+|CW|Current week|  
+|CM|Current month|  
 
- Følgende eksempel viser, hvordan du kan bruge et minustegn til at angive en dato i fortiden.  
+ The following example shows how a number and a time unit. A number cannot be larger than 9999.  
 
 |||  
 |-|-|  
-|-1Å|1 år siden fra i dag|  
+|10D|10 days from today|  
+|2W|2 weeks from today|  
 
-<!--OnPrem > [!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->  
+ The following example shows how a time unit and a number.  
+
+|||  
+|-|-|  
+|D10|The next 10th day of a month|  
+|WD4|The next 4th day of a week (Thursday)|  
+
+ The following example shows how you can combine these three forms as needed.  
+
+|||  
+|-|-|  
+|CM+10D|Current month + 10 days|  
+
+ The following example shows how you can use a minus sign to indicate a date in the past.  
+
+|||  
+|-|-|  
+|-1Y|1 year ago from today|
+
+[!CAUTION]  
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
+
 ## <a name="see-also"></a>Se også  
  [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

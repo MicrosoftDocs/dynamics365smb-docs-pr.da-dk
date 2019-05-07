@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 59db444b6ce498d987d4aeb4361e119001acd2a3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b857e2da860a677af9a4dc20072f921d8406898d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792450"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920886"
 ---
 # <a name="create-segments"></a>Oprette målgrupper
 Du kan oprette målgrupper for at vælge en gruppe kontakter, hvis du f.eks. vil oprette en interaktion, der vedrører flere forskellige kontakter, f.eks. en direct mail.

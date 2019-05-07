@@ -1,21 +1,21 @@
 ---
 title: Bruge fakturering og Business Central | Microsoft Docs
 description: Løsning, der giver adgang til Microsoft Invoicing, når du har fået Dynamics 365 Business Central.
-author: edupont04
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 11/26/2018
-ms.author: edupont
-ms.openlocfilehash: 95213b7d5881945bb2880e6288eef1b415427ca5
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.search.keywords: Invoicing, Office 365
+ms.date: 04/01/2019
+ms.author: bholtorf
+ms.openlocfilehash: 0173d64e140cfea91bf7f08d821c2d30cf0eb7b3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792825"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "911264"
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Bruge den samme Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] og Microsoft Invoicing
 Når du tilmelder dig en prøveversion af [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du gå til en 30-dages evalueringsfase, påbegynde et abonnement eller afslutte din brug af [!INCLUDE[d365fin](includes/d365fin_md.md)]. I alle tilfælde kan du, hvis du logger på Office-portalen, se et felt med navnet **Microsoft Invoicing**, som du skal klikke på. Dette er en del af Office 365 Business Premium-abonnementet, så ikke alle ser dette felt i Office-portalen.  
@@ -25,19 +25,21 @@ Hvis du åbner Microsoft Invoicing, vises en meddelelse om, at du ikke kan få a
 En lignende meddelelse vises, hvis du installerer mobilappen til Invoicing.  
 
 ## <a name="workaround"></a>Løsning
-Invoicing og [!INCLUDE[d365fin](includes/d365fin_md.md)] har en fælles platform. Det betyder, at du genkendes som en eksisterende bruger af [!INCLUDE[d365fin](includes/d365fin_md.md)], når du klikker på Invoicing i Business center. Det skyldes, at Invoicing ikke kan bruge den samme virksomhed som [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Invoicing og [!INCLUDE[d365fin](includes/d365fin_md.md)] har en fælles platform. Det betyder, at du genkendes som en eksisterende bruger af [!INCLUDE[d365fin](includes/d365fin_md.md)], når du klikker på Invoicing i Office-portalen. Det skyldes, at Invoicing ikke kan bruge den samme virksomhed som [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Så du skal logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] og omdøbe din eksisterende virksomhed og derefter oprette en ny virksomhed, som du kan bruge i Invoicing. Ingen data flyttes eller overskrives under denne løsningsprocedure.
 
 ### <a name="to-rename-your-company"></a>Sådan omdøber du din virksomhed
-1.  Log på dit [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomheder**, og vælg derefter det relaterede link.  
-3.  På siden **Virksomheder** skal du vælge knappen **Rediger liste**.  
-4.  Giv posten *Min virksomhed* et andet navn.  
+1. Log på [!INCLUDE[d365fin](includes/d365fin_md.md)].
+2. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "ikonet Indstillinger for rollecenter") og derefter vælge **Indstillinger**.
+3. I feltet **Virksomhed**, skal du vælge en anden leverandør.
+4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomheder**, og vælg derefter det relaterede link.  
+5. På siden **Virksomheder** skal du vælge **Rediger liste**.  
+6. Giv posten *Min virksomhed* et andet navn.  
 
     Vent nogle minutter. Vi foretager en række ændringer i den underliggende database, og det tager et stykke tid.
-5.  Når systemet er klar igen, skal du vælge knappen **Opret ny virksomhed**.  
-6.  I den dialogboks, der vises, skal du angive navnet som *Min virksomhed* og vælge indstillingen **Produktion – Kun konfigurationsdata**.  
+7.  Når systemet er klar igen, skal du vælge knappen **Opret ny virksomhed**.  
+8.  I den dialogboks, der vises, skal du angive navnet som *Min virksomhed* og vælge indstillingen **Produktion – Kun konfigurationsdata**.  
 
 Der går igen nogle minutter. Når processen er fuldført, kan du få adgang til Invoicing som en del af din Office 365 Business Premium-oplevelse.  
 

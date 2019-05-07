@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852282"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916145"
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
 
@@ -49,12 +49,15 @@ Hvis du har adgang til Microsoft CustomerSource, kan du få adgang til webstedet
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sælges via partnere, og du kan kontakte din forhandlerpartner for at få hjælp til tekniske problemer. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp.  
 
-Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[d365fin](includes/d365fin_md.md)], har du ikke en forhandlerpartner, og du ikke kan kontakte Microsofts supportteam.  
-
-Du kan finde en Business Central-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Du kan finde flere oplysninger i [Hjælp og support](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Hvorfor beskriver hjælper funktioner, som jeg ikke kan få adgang til?
-Hvis indstillingen Oplevelse på siden **Virksomhedsoplysninger** er indstillet til **Essential**, er elementer i brugergrænsefladen til funktionerne Produktion og Service Management ikke synlige for dig, fordi de kræver oplevelsen **Premium**. Der er indsat en tekstnote i vigtige emner i Hjælp for disse funktionsområder. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
+Hvis indstillingen Oplevelse på siden **Virksomhedsoplysninger** er indstillet til **Essential**, er elementer i brugergrænsefladen til funktionerne Produktion og Service Management ikke synlige for dig, fordi de kræver oplevelsen **Premium**. Der er indsat en tekstnote i vigtige emner i Hjælp for disse funktionsområder. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Hvor er knappen Gem?
+
+Der er ingen *Gem*-knap på siderne, som der er i andre programmer, som du kender måske. I [!INCLUDE[d365fin](includes/d365fin_md.md)] gemmes de ændringer, du foretager i et felt, automatisk, så snart du flytter til næste felt eller lukker siden, så længe der ikke er nogen fejl. Når du ændrer et felt og flytter til et andet felt, vises teksten **Gemmer** i øverste højre hjørne af siden, og det ændres hurtigt til **Gemt**, hvis der ikke opstår fejl. Hvis der opstår en fejl, ændres teksten til **Ikke gemt**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Hvilken mailadresse kan jeg bruge til [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kræver, at du bruger en arbejds- eller skolemailadresse til at tilmelde dig. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke mailadresser, som leveres af forbrugermailtjenester eller telekommunikationsudbydere. Dette omfatter outlook.com, hotmail.com, gmail.com og andre.  

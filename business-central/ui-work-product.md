@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: afaab918f2959ee32315988c81dee987499aa05a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852236"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926886"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.
@@ -39,7 +39,7 @@ I følgende tabel vises nogle af den generelle funktionalitet med links til emne
 |Lære, hvordan du arbejder med Excel fra næsten hvor som helst i [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Få vist og redigere i Excel](across-work-with-excel.md)|
 |Få besked om bestemte hændelser eller ændringer i status, f.eks. når du er ved at fakturere en kunde, der har en forfaldent beløb.|[Administration af meddelelser](ui-smart-notifications.md)|
 | Ændre grundlæggende indstillinger, f.eks virksomhed, arbejdsdato og rollecenter. |[Ændring af grundlæggende indstillinger](ui-change-basic-settings.md) |
-| Ændre, hvilke felter og handlinger der vises i brugergrænsefladen, så det passer til virksomhedens forretningsprocesser. |[Tilpasning [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+| Ændre hvilke elementer i brugergrænsefladen der vises som egnet til dine præferencer og hvor|[Tilpasse dit arbejdsområde](ui-personalization-user.md) |
 |Definere, få vist, udskrive eller gemme rapporter og angive og udføre kørsler.|[Arbejde med rapporter og kørsler](ui-work-report.md)|
 | Administrere indholdet og formatet af rapporter og dokumenter, herunder hvilke datafelter i et datasæt der vises i rapporten, og hvordan de er organiseret, teksttypografi, billeder og meget mere.|[Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md) |
 |Få mere at vide om funktioner og muligheder, der gør [!INCLUDE[d365fin](includes/d365fin_md.md)] direkte tilgængelig for personer med handicap.|[Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)|
@@ -55,3 +55,4 @@ Her er en kort video om, hvordan du bevæger dig rundt i [!INCLUDE[d365fin](incl
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

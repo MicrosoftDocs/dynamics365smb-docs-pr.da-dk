@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852075"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969828"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til virksomhedens behov.
@@ -27,7 +27,7 @@ Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælp
 > [!NOTE]
 > Du kan oprette en ny virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, der er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Du kan finde flere oplysninger i [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan konfigureres manuelt ud over den assisterede opsætning. I det følgende kan du se nogle af de funktioner, som du kan konfigurere manuelt.
+Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan konfigureres manuelt ud over den assisterede opsætningsvejledning. I det følgende kan du se nogle af de funktioner, som du kan konfigurere manuelt.
 
 | Hvis du vil | Se |
 | --- | --- |
@@ -48,7 +48,7 @@ Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan k
 |Få indsigt i dine Business Central-data med Power BI og Business Central-indholdspakker.|[Aktivere virksomhedens data til Power BI](admin-powerbi.md)|
 |Brug dine Business Central-data som en del af en arbejdsproces i Microsoft Flow.|[Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)|
 |Gør dine Business Central-data tilgængelige som en datakilde i PowerApps.|[Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af PowerApps](across-how-use-financials-data-source-powerapps.md)|
-|Du kan bruge dedikerede Quickbooks-overførselsvejledninger.|[Skifte fra en QuickBooks App Business Central](across-quickbooks-to-business-edition.md)|
+|Du kan bruge dedikerede Quickbooks-overførselsvejledninger.|[Skifte fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)|
 |Få adgang til dine Business Central-data fra mobilenheden.|[Få Business Central på din mobilenhed](install-mobile-app.md)|
 |Foretag massefakturering af aftaler, der er oprettet i Bookings.|[Massefakturering for Microsoft Bookings](finance-bookings.md)|
 |Konfigurer en SMTP-server til at aktivere mailkommunikation til og fra [!INCLUDE[d365fin](includes/d365fin_md.md)].| [Konfigurere mail manuelt eller ved hjælp af den assisterede opsætning](admin-how-setup-email.md)|
@@ -58,18 +58,18 @@ Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan k
 For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Der er flere oplysninger i [Administration](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Se også
+
 [Opsætning](admin-setup-and-administration.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Lagerbeholdning](inventory-manage-inventory.md)    
+[Lagerbeholdning](inventory-manage-inventory.md)  
 [Projektstyring](projects-manage-projects.md)  
-[Anlægsaktiver](fa-manage.md)    
+[Anlægsaktiver](fa-manage.md)  
 [Montagestyring](assembly-assemble-items.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Opsætning](admin-setup-and-administration.md)  
 [Oprettelse af nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Introduktion](product-get-started.md)  
 

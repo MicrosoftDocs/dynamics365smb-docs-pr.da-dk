@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9518c0b249ffe73b90082bd14f350e8fb464d1c9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 53b696861178957a389e03a09ef4f78552ca0c7f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792130"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928861"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologi i omkostningsregnskab
 Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.  

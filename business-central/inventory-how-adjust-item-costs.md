@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd48be8b92a03d50bc590d579de940599da6aa7e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792050"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941676"
 ---
 # <a name="adjust-item-costs"></a>Regulere varepriser
 Kostprisen for en vare (lagerværdi), du køber og senere sælger, kan ændres i varens levetid, fordi f.eks. en fragtomkostning føjes til købsprisen, når du har solgt varen. Omkostningsregulering er især relevant i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Hvis du altid vil kende den korrekte lagerværdi, skal varepriser regelmæssigt reguleres. Dette sikrer, at salgs- og indtjeningsstatistikkerne er opdateret, og at finansielle nøgletal er korrekte. Du kan finde flere oplysninger i [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md).
@@ -28,7 +28,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] reguleres varepriser automatisk, h
 
 Du kan også bruge en funktion til at regulere omkostningerne for en eller flere varer manuelt. Dette er nyttigt, når du f.eks. ved, at varepriser er ændret af andre årsager end varetransaktioner.
 
-Varepriser reguleres efter FIFO eller den gennemsnitlige kostmetode, afhængigt af dit valg i den assisterede opsætning **Konfigurer min virksomhed** eller i feltet **Kostmetode** på varekortet. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
+Varepriser reguleres efter FIFO eller den gennemsnitlige kostmetode, afhængigt af dit valg i den assisterede opsætningsvejledning **Konfigurer min virksomhed** eller i feltet **Kostmetode** på varekortet. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
 
 Hvis du bruger kostmetoden FIFO, er en vares kostpris er den faktiske værdi af alle modtagelser af varen. Lager vurderes ud fra den forudsætning, at de første varer, der lægges på lager, bliver solgt først.
 

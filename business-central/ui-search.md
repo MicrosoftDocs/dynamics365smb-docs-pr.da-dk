@@ -1,34 +1,36 @@
 ---
 title: Finde funktioner og oplysninger | Microsoft Docs
-description: I dette emne beskrives, hvordan du kan bruge søgninger til at finde handlinger, sider, rapporter, dokumentation og data.
-author: SusanneWindfeldPedersen
+description: I dette emne beskrives det, hvordan du kan bruge handlinger, sider, rapporter, dokumentation og data samt andre programmer og konsulenttjenester.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 309146e68abe91a89f761be0957ae27718ee2a0d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792914"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934415"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Bruge Fortæl mig til at finde funktioner og oplysninger  
-I dette emne beskrives de forskellige måder, som Fortæl mig-funktionen kan hjælpe dig med hurtigt at finde en handling, side eller rapport eller lære, hvordan du gør noget i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du er usikker på det.  
+I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se komme til f.eks. handlinger, sider eller rapporter, finde oplysninger om, hvordan du udfører en bestemt opgave og finder flere apps og konsulenttjenester til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+  
 
-> [!VIDEO https://www.youtube.com/embed/W8egYiS445o]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-## <a name="find-pages-reports-actions-and-documentation"></a>Finde sider, rapporter, handlinger og dokumentation 
-Når du har brug for hjælp til at finde en side, rapport eller en artikel i vores dokumentation eller en handling på den side, der er åben, kan du bruge ikonet ![Fortæl mig, hvad du vil foretage dig](media/ui-search/search.png "Søg efter side eller rapport") **Fortæl mig, hvad du vil foretage dig** for at søge efter den ved hjælp af dens navn. Du kan også bruge ALT + Q for at begynde at bruge Fortæl mig.
+Når du har brug for hjælp til at finde noget, kan du bruge ikonet ![Fortæl mig, hvad du vil foretage dig](media/ui-search/search.png "Søg efter side eller rapport") **Fortæl mig, hvad du vil foretage dig** for at søge efter det. Du kan også bruge ALT + Q for at begynde at bruge Fortæl mig.
 
-Når du begynder at skrive tegn, viser [!INCLUDE[d365fin](includes/d365fin_md.md)] med det samme søgeresultater på en rulleliste. Resultaterne på listen ændres, mens du skriver flere tegn. Den anden kolonne på rullelisten angiver den generelle kategori for resultatet.   
+Når du begynder at skrive tegn, viser [!INCLUDE[d365fin](includes/d365fin_md.md)] med det samme søgeresultater. Resultaterne på listen ændres, mens du skriver flere tegn. Hvis du opdager det, når du indtaster ordet "produkt", og resultaterne omfatter "varer", skyldes det, at Fortæl mig bruger synonymer og alternative søgeord for at gøre det nemmere at finde handlinger, sider og rapporter. 
+
+Kolonnen til højre angiver den generelle kategori for resultatet. F.eks. om det skal åbne en oversigtsside, eller om det er en administrativ opgave.  
 
 > [!NOTE]  
->   Når du trykker på **Enter** på tastaturet, åbner [!INCLUDE[d365fin](includes/d365fin_md.md)] det resultat, der står først på listen. Hvis du vil bruge tastaturet, kan du bruge tabulatortasten og piletasterne til at vælge et element i resultaterne.
+>   Hvis du vil bruge tastaturet, kan du bruge tabulatortasten og piletasterne til at vælge et element i resultaterne. Hvis du trykker på **Enter** på tastaturet uden at vælge et resultat, åbner [!INCLUDE[d365fin](includes/d365fin_md.md)] det resultat, der står først på listen.
 
 ### <a name="find-an-action-on-the-current-page"></a>Finde en handling på den aktuelle side
 I sektionen **På den aktuelle side** kan du finde og udføre handlinger på den side, der er åben. Hvis f.eks. siden Salgstilbud er åben, og du skriver "debitor", indeholder sektionen en handling, der åbner debitorkortet for den debitor, der er valgt i salgstilbuddet. 
@@ -47,6 +49,9 @@ Under **Dokumentation** vises artikler fra den [!INCLUDE[d365fin](includes/d365f
 
 > [!NOTE]  
 >   Dokumentationen til udvidelser fra tredjepart er ikke medtaget i resultaterne. 
+
+### <a name="get-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Få mere funktionalitet ved at søge efter en app i Microsoft AppSource
+Vores partnercommunity har travlt med at udvikle apps, der føjer funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. I sektionen **Hent fra Microsoft AppSource** vises apps til [!INCLUDE[d365fin](includes/d365fin_md.md)], der er tilgængelige i Microsoft AppSource, og som er relateret til det nøgleord, du har søgt efter.
 
 ## <a name="searching-for-data"></a>Søgning efter data
 Funktionen **Fortæl mig, hvad du vil foretage dig** søger ikke efter data, f.eks debitornavne, adresser eller transaktioner. I stedet kan du søge efter data i oversigtssider ved at vælge ikonet ![Søgeoversigt](media/ui-search/search-list.png "Ikonet Søgeoversigt") **Søg** i venstre hjørne af oversigtshovedet. Søgningen gælder kun for den oversigt, du har åbnet. Du kan finde flere oplysninger under [Sorterings-, søgnings- og filtreringsoversigter](ui-enter-criteria-filters.md).

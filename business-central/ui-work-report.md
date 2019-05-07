@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852420"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921405"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Arbejde med rapporter og kørsler
 En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse og kan udskrives. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
@@ -50,9 +50,9 @@ Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapport
 ### <a name="setting-options-and-filters"></a>Valg af indstillinger og filtre
 Hvis du vil begrænse eller præcisere de data, der indgår i en rapport, yderligere, kan du angive flere indstillinger og filtre.
 
-Med filtre kan du få vist data, der er baseret på bestemte kriterier. Filtre er grupperet efter den enhed, de tilhører, f.eks. **Debitor** i ovenstående illustration. Du definerer et filter ved at indstille feltet **Hvor** til det felt, du vil filtrere på, og derefter tilføje kriterierne i feltet **er:**. F.eks. i ovenstående illustration er der et enkelt filter, der opretter rapporten for debitoren, hvis **Nr.** er lig med **01121212**.
+Med filtre kan du få vist data, der er baseret på bestemte kriterier. Filtre er grupperet efter den enhed, de tilhører, f.eks. **Debitor** i ovenstående illustration. Du definerer et filter ved at indstille feltet **Hvor** til det felt, du vil filtrere på, og derefter tilføje kriterierne i feltet **er:**.
 
-Du kan tilføje flere filtre ved at indstille **Tilføj**-felterne. Når du har mere end ét filter, er det kun de resultater, der opfylder kriterierne for alle filtre, der medtages i rapporten.
+Du kan tilføje flere filtre ved at klikke på felterne **Og** og **er**. Når du har mere end ét filter, er det kun de resultater, der opfylder kriterierne for alle filtre, der medtages i rapporten.
 
 Afhængigt af hvilken type felt, du filtrerer, kan du angive filterkriterier for at søge efter et nøjagtigt match, delvist match, værdiintervaller og meget mere. Du kan få hjælp til at indstille filtre her:
 -   [Filtrering](ui-enter-criteria-filters.md#FilterCriteria)
@@ -70,7 +70,7 @@ Brug menulinjen til at:
 -   Tilpasse til siden
 -   Vælg tekst
 
-    Du kan kopiere tekst fra en rapport og derefter indsætte den et andet sted, f.eks. som en side i [!INCLUDE[d365fin](includes/d365fin_md.md)] eller Microsoft Word.  Ved hjælp af musen f.eks., skal du trykke og holde nede på det sted, hvor du vil starte, og derefter bevæge musen for at markere et eller flere ord, sætninger eller afsnit. Du kan derefter trykke på højre museknap og vælge **Kopier**. Du kan indsætte den markerede tekst, hvor du ønsker.
+    Du kan kopiere tekst fra en rapport og derefter indsætte den et andet sted, f.eks. som en side i [!INCLUDE[d365fin](includes/d365fin_md.md)] eller Microsoft Word.  Ved hjælp af musen f.eks., skal du trykke og holde nede på det sted, hvor du vil starte, og derefter bevæge musen for at markere et eller flere ord, sætninger eller afsnit. Du kan derefter trykke på højre museknap og vælge **Kopiér**. Du kan derefter indsætte den markerede tekst, hvor du ønsker.
 -   Panorer over dokumentet
 
     Du kan flytte det synlige område af rapporten i en vilkårlig retning, så du kan se andre områder eller rapporten. Dette er nyttigt, når du har zoomet ind for at få vist detaljer.  Ved hjælp af musen f.eks. skal du trykke på og holde museknappen nede et vilkårligt sted i rapporteksemplet og derefter bevæge musen.

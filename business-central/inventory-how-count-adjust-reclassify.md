@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "792517"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929401"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Tælle, justere og ompostere inventar
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Tælle, justere og ompostere inventar ved hjælp af kladder
 Mindst én gang hvert regnskabsår skal der foretages lageropgørelse, dvs. alle varer i lagerbeholdningen optælles for at se, om det antal, der er registreret i databasen, svarer til det faktiske fysiske antal på lagerstederne. Når det faktiske fysiske antal kendes, skal det bogføres til Finans som en del af lagervurderingen ved periodeafslutning.
 
 Selvom alle varer på lageret optælles mindst en gang om året, har du måske besluttet, at nogle varer skal optælles oftere. Det kan være fordi, der er tale om særligt dyre vare, eller fordi de har en stor omsætningshastighed og udgør hovedparten af salget. Du kan tildele særlige optællingsperioder til de pågældende varer til dette formål. Du kan finde flere oplysninger i [Sådan udføres periodisk optælling](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge
 
 ## <a name="to-perform-a-physical-inventory"></a>Sådan foretages en lageropgørelse
 Du skal foretage en lageropgørelse ved udgangen af hvert regnskabsår eller oftere, dvs. tælle antallet af fysiske varer, for at kontrollere, om det antal, der er registreret, er det samme som det fysiske antal varer, der er på lager. Hvis der er forskelle, skal du bogføre dem på de relevante varekonti, før du foretager en værdiansættelse af lageret.
+
+> [!NOTE]
+> Denne procedure beskriver, hvordan du foretager en lageropgørelse ved hjælp af en kladde, siden **Lageropgørelseskladde**. Du kan også udføre opgaven ved hjælp af dokumenter, siderne **Lageropgørelsesordre** og **Registrering af lageropgørelse**, som giver mere styring og understøtter distribution af optælling til flere medarbejdere. Du kan finde flere oplysninger under [Lageroptælling ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Bemærk, at dokumentbaserede funktioner ikke kan bruges til at optælle varer på placeringer, lagerposter.
 
 Ud over den fysiske optællingsopgave omfatter hele processen følgende tre opgaver:
 
@@ -222,6 +226,7 @@ Følgende eksempel er baseret på en lokationskode. Trinene er de samme for andr
 Du kan finde oplysninger om overførsel af varer med fuld kontrol over de antal, der er leveret og modtaget, i [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Se også
+[Lageroptælling ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md)  
 [Lager](inventory-manage-inventory.md)
 [Lokalitetsstyring](warehouse-manage-warehouse.md)    
 [Salg](sales-manage-sales.md)  

@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
-ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "793313"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932829"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Oprette forbindelse fra Power BI til Dynamics 365 Business Central-indholdspakker
 Du kan nemt få indsigt i dine Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data med Power BI og Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-indholdspakker. Power BI henter dine data og opretter derefter et out-of-the-box dashboard og rapporter baseret på dataene.
@@ -33,7 +33,7 @@ Du kan også komme i gang fra Dynamics 365 Business Edition. I rollecentret kan 
 ![Vælg indholdspakker fra onlinetjenester](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Vælg **Apps** under fanen **Apps til Power BI-apps**, vælg den **Microsoft Dynamics 365 Business Central**-indholdspakke, du vil bruge, og vælg derefter **Hent nu**.  
 ![Vælg Dynamics 365 Business Central, og vælg Hent nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
-4. Når du bliver bedt om det, skal du angive navnet på *din virksomhed* i [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Dette er ikke det viste navn. Virksomhedsnavnet findes på siden 'Virksomheder' i din [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-forekomst. 
+4. Når du bliver bedt om det, skal du angive navnet på *virksomheden* i [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Dette er ikke det viste navn. Virksomhedsnavnet findes på siden 'Virksomheder' i din [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-forekomst. 
 ![Vælg Dynamics 365 Business Central, og vælg Hent nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
 5. Når der er oprettet forbindelse, indlæses et dashboard, en rapport og et datasæt automatisk i dit Power BI-arbejdsområde. Når dette er fuldført, opdateres felterne med data fra din [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-virksomhed.
 ![Vælg Dynamics 365 Business Central, og vælg Hent nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
@@ -46,7 +46,7 @@ Du kan også komme i gang fra Dynamics 365 Business Edition. I rollecentret kan 
 - Selv om dit datasæt planlægges til at blive opdateret dagligt, kan du ændre tidsplanen for opdatering eller prøve at opdatere det på behov ved hjælp af **Opdater nu**.
 
 ## <a name="system-requirements"></a>Systemkrav
-Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data i Power BI, skal du have rettigheder til de webtjenester, der bruges til at hente data. De webtjenester, der er nødvendige for hver indholdspakke, omfatter:
+Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data i Power BI, skal du have rettigheder til de webtjenester, der bruges til at hente data. De webtjenester, der er nødvendige for hver indholdspakke omfatter:
 
 ## <a name="role-center-reports"></a>Rollecenter-rapporter
 
@@ -55,26 +55,26 @@ Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Vis virksomhed i Excel-skabelon
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Finans**
+**Microsoft Dynamics 365 Business Central – Finance**
 - PowerBIFinance
 - Vis virksomhed i Excel-skabelon
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Sager**
+**Microsoft Dynamics 365 Business Central – Jobs**
 - Sagsoversigt
 - Sagsplanlægningslinjer
 - Sagsopgavelinjer
 - Power BI-rapportetiketter
 - Vis virksomhed i Excel-skabelon
 
-**Microsoft Dynamics 365 Business Central - Salg**
+**Microsoft Dynamics 365 Business Central - Sales**
 - Salgsdashboard
 - Vis virksomhed i Excel-skabelon
 - Power BI-rapportetiketter
 
 ## <a name="list-page-reports"></a>Oversigtssiderapporter 
 
-**Microsoft Dynamics 365 Business Central – Debitorliste**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Varestatistik efter kunde
 - Power BI-varekøbsoversigt
 - Power BI-varesalgsoversigt
@@ -83,13 +83,13 @@ Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter 
 
-**Microsoft Dynamics 365 Business Central - Oversigt over finansposter**
+**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
 - Power BI-finansbeløbsoversigt
 - Budgetteret Power BI-finansbeløb
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Vareliste**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Varestatistik efter kunde
 - Power BI-varekøbsoversigt
 - Power BI-varesalgsoversigt
@@ -97,23 +97,23 @@ Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central-sagsoversigt**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Power BI-sagsoversigt
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Oversigt over købsfakturaer**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Power BI-købsoversigt
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Oversigt over salgsordrer**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Power BI-salgsoversigt
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
 
-**Microsoft Dynamics 365 Business Central – Kreditorliste**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - Power BI-varekøbsoversigt
 - Power BI-varesalgsoversigt
 - Power BI-kreditoroversigt
@@ -121,7 +121,7 @@ Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Power BI-rapportetiketter
 
 ## <a name="web-services"></a>Webtjeneste
-En nem måde at finde webtjenesterne på er at søge efter webtjenester i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. På listen skal du sørge for, at feltet Publicer er markeret for de webtjenester, der er anført ovenfor.
+En nem måde at finde webtjenesterne på er at søge efter webtjenester i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. På listen skal du sørge for at feltet Publicer er markeret for de webtjenester, der er anført ovenfor.
 
 ## <a name="troubleshooting"></a>Fejlfinding
 Power BI-dashboardet er baseret på de publicerede webtjenester, der er anført ovenfor, og viser data fra demoregnskabet eller dit eget regnskab, hvis du indlæser data fra dit aktuelle økonomisystem. Men hvis noget går galt indeholder dette afsnit en løsning til de mest almindelige problemer.
