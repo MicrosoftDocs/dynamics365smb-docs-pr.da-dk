@@ -13,11 +13,11 @@ ms.search.keywords: personalization
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924872"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244373"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Få vist lister på forskellige måder
 I højre hjørne af en vilkårlig liste i projektet [!INCLUDE[d365fin](includes/d365fin_md.md)] findes ikoner, som du kan bruge til at skifte visning på listen. En liste kan ses som en detaljeret oversigt, hvilket er standardvisningen. Men du kan også skifte til en feltvisning, der viser færre oplysninger om en bestemt post og stabler posterne som felter. Denne visning er nyttig, når du vil have et overblik over flere poster, og er især nyttig på mindre enheder, fordi den gør det nemmere at trykke på hver post.

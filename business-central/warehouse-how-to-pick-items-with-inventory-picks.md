@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d4340172164401e736bf070b8bf6f3da97cfacb6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921047"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248774"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plukke varer med Pluk fra lager
 Når en lokation er sat op til at kræve pluk, men ikke leverance, skal du bruge siden **Pluk (lager)** til at registrere og bogføre pluk- og leveranceoplysninger for kildedokumenterne. De udgående kildedokumenter kan være en salgsordre, en købsreturvareordre, en udgående overflytning eller en produktionsordre, hvor komponenterne er klar til at blive plukket.

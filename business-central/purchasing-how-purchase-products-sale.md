@@ -11,11 +11,11 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8579a05d60465a769dd34548ec00bb547d4ace5b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932899"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252408"
 ---
 # <a name="purchase-items-for-a-sale"></a>Købe varer til et salg
 Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.

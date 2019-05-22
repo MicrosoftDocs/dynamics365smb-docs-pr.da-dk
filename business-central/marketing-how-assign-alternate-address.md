@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: 22530c8e1bd3f148f5f158e6210668020c24d387
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941558"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237999"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Definere alternative adresser for kontakter
 Du kan tildele en alternativ adresse, som en kontaktperson i perioder får sendt post til, f.eks. et sommerhus. Du kan også tildele en eller flere datointervaller til hver af kontaktpersonens alternative adresser og på den måde angive, hvornår en bestemt adresse er gyldig.

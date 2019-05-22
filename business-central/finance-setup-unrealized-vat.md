@@ -11,11 +11,11 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 69e4d4f4e924edd7eea45da73a3b0b5f71dd8cc0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928789"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243748"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter
 Hvis du bruger bogføringsmetoder, der er baseret på kontanter, kan du konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at håndtere urealiseret moms.

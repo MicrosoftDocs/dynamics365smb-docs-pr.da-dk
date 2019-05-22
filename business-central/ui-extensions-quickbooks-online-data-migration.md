@@ -11,11 +11,11 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: e84632605c528bd2c968beb6b6bc0dca05c74502
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927756"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250407"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Udvidelsen QuickBooks Online-dataoverførsel
 Denne udvidelse er inkluderet i den assisterede opsætningsvejledning **Dataoverførsel** for at hjælpe dig med at overføre vigtige forretningsdata fra QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. F.eks. er dette nyttigt, når virksomheden vokser, og du har besluttet at opgradere din virksomheds administrationsapp ved at starte med at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)].

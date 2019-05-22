@@ -11,11 +11,11 @@ ms.search.keywords: tasks, work
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 90ec163e5a58ffc95de1af14f30dfcd7f8c8acc8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932997"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241069"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Føje bemærkninger til kort og dokumenter
 Du kan føje ekstra oplysninger til finanskonti, debitorkort eller salgsordrer for at kommunikere forventninger eller særaftaler til andre brugere.

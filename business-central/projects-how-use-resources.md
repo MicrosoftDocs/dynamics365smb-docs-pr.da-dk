@@ -13,11 +13,11 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fc51b47b71d37daaccc4133d648c90b84d5a3494
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911761"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251741"
 ---
 # <a name="use-resources-for-jobs"></a>Bruge ressourcer til sager
 Du registrerer forbruget af ressourcer i jobkladden, for at holde styr på omkostninger, priser og de arbejdstyper, der er knyttet til sagerne. Du kan finde flere oplysninger under [Registrere forbrug for sager](projects-how-record-job-usage.md).

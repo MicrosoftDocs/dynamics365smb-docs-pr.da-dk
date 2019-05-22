@@ -11,11 +11,11 @@ ms.search.keywords: availability, localization
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 68543b9ab74ed713ae0e4db0778c27b1e31c4f77
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918329"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241359"
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombineret oversættelsesstrategi inklusive både Microsoft-styrede såvel som partnerstyrede modeller. I dette afsnit kan du se beskrivelser af funktioner, der gælder for de lande, hvor Microsoft leverer overholdelse af lovmæssige krav og andre lokale funktioner.  

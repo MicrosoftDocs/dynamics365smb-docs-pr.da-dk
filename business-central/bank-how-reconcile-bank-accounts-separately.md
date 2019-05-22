@@ -13,11 +13,11 @@ ms.search.keywords: bank account balance, bank statement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932028"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245092"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Afstemme bankkonti separat
 Når du vil afstemme bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] med kontoudtog fra banken, skal du begynde med at udfylde den venstre rude på siden **Bankkontoafstemning** med bankkontoudtogoplysninger, som du derefter matcher (afstemmer) med bankkontoposter i højre rude. En smart måde at udfylde bankkontoudtogslinjer er ved at importere en bankkontoudtogsfil eller et -feed.

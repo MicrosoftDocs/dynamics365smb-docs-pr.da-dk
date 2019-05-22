@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.openlocfilehash: 562664ad0fd443c3363d103572022e6d819ed357
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914274"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241778"
 ---
 # <a name="manage-notification-templates"></a>Administrere notifikationsskabeloner
 Notifikationer sendes til arbejdsgangsbrugere for at give dem besked om trin, de skal foretage, eller informere dem om statussen for trin i arbejdsgangen. Du konfigurerer, hvem der modtager besked og hvornår, ved opsætning af godkendelsesbrugere, brugernes notifikationsplan og de involverede arbejdsgangssvar for at definere notifikationsmodtageren. Du kan finde flere oplysninger i [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md).  

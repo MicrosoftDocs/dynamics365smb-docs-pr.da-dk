@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940046"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247440"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Rediger tabeltilknytninger til synkronisering
 En integrationstabeltilknytning kæder en tabel i [!INCLUDE[d365fin](includes/d365fin_md.md)] sammen med en integrationstabel for [!INCLUDE[crm_md](includes/crm_md.md)] enheden. For hver enhed i [!INCLUDE[crm_md](includes/crm_md.md)] du vil synkronisere med tilsvarende data i [!INCLUDE[d365fin](includes/d365fin_md.md)]], skal der være en tilsvarende integrationstabeltilknytning. En integrationstabeltilknytning indeholder flere indstillinger, som du kan bruge til at styre, hvordan records i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel og en [!INCLUDE[crm_md](includes/crm_md.md)]-enhed synkroniseres med de tilsvarende integrationssynkroniseringsjobs.  

@@ -11,11 +11,11 @@ ms.search.keywords: customization, personalization
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 3e7b00d54a9c655a77b7b7f4854e59993866427e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941511"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251212"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrere gemte indstillinger i rapporter
 Når brugerne kører en rapport, får de normalt vist en side, hvor de kan angive bestemte indstillinger og filtre for at ændre, hvilke data der skal medtages i den genererede rapport. Denne side kaldes rapportanmodningssiden. En rapport kan medtage én eller flere *gemte indstillinger*, som brugerne kan anvende til rapporten fra anmodningssiden. *Gemte indstillinger* er grundlæggende foruddefinerede indstillinger og filtre. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data. Du kan finde flere oplysninger om, hvordan gemte indstillinger bruges, under [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).

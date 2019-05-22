@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3d210bff8b48da7947f6755748c3304420eefeb1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925851"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251051"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Opret komplekse moduler ved hjælp af bedste praksis
 Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for at ny forretningssoftware kan fungere effektivt.  

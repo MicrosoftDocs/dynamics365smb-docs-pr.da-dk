@@ -3,22 +3,21 @@ title: Konfigurere marketing- og kontaktadministrationsoplysninger | Microsoft D
 description: Du kan konfigurere marketing- og kontaktadministration i Business Central for at optimere relationer med kundeemner eller kunder og forbedre kampagner og salgsfremstød.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2019
-ms.author: jswymer
-redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 40c7777cc630602b77392e636e4c29c4ec6c0696
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.date: 04/24/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "933999"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446849"
 ---
 # <a name="setting-up-relationship-management"></a>Opsætning af Relationsstyring
 Før du begynder arbejde med dine kontakter og marketinginteresser, er der nogle beslutninger og trin, der skal tages for at definere, hvordan bestemte aspekter af kontakter skal håndteres marketingområdet. F.eks. kan du bestemme, om kontaktkortet skal synkroniseres med debitorkortet, kreditorkortet og bankkontokortet, hvordan nummerserier defineres, eller hvad standardhilsenen skal være, når du skriver til dine kontakter.
@@ -27,7 +26,7 @@ Når du administrerer dine kontaktpersoner og har en strategi på plads, så du 
 
 Du kan konfigurere marketing og administration af kontakter fra siden **Marketingopsætning**. Når du vil åbne siden **Marketingopsætning**, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Marketingopsætning** og derefter vælge det relaterede link.
 
-## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Kopiere bestemte oplysninger automatisk fra kontaktvirksomheder til kontaktpersonerne
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Kopiere bestemte oplysninger automatisk fra kontaktvirksomheder til kontaktpersoner
 En del af virksomhedsoplysningerne er identiske med oplysningerne om de kontaktpersoner, som arbejder i virksomhederne, f.eks. adresseoplysningerne. I sektionen **Overførte oplysninger** på siden **Marketingopsætning** kan du indstille programmet til automatisk at kopiere bestemte felter fra kontaktvirksomhedskortet til kontaktkortet, hver gang du opretter en kontakt for en virksomhed. F.eks. kan du vælge at kopiere sælgerkode, adresseoplysninger (adresse, adresse 2, by, postnummer og region), kommunikationsoplysninger (telefaxnummer, tilbagesvar og telefonnummer) og mere.
 
 Hvis du ændrer et af disse felter på virksomhedskortet, ændres det tilsvarende felt på kontaktkortet automatisk, medmindre du har ændret feltet på kontaktkortet manuelt.

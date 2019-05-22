@@ -11,11 +11,11 @@ ms.search.keywords: find
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 309146e68abe91a89f761be0957ae27718ee2a0d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934415"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249901"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Bruge Fortæl mig til at finde funktioner og oplysninger  
 I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se komme til f.eks. handlinger, sider eller rapporter, finde oplysninger om, hvordan du udfører en bestemt opgave og finder flere apps og konsulenttjenester til [!INCLUDE[d365fin](includes/d365fin_md.md)].  

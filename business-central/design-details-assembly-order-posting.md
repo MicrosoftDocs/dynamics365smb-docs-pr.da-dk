@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941768"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246013"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designoplysninger: Bogføring af montageordre
 Montageordrebogføring er baseret på de samme principper, som når der bogføres lignende aktiviteter af salgsordrer og produktionsforbrug/afgang. Dog kombineres principperne, fordi montageordrer har egen brugergrænseflade til bogføring, ligesom den for salgsordrer, mens faktisk postbogføring sker i baggrunden som direkte vare- og ressourcekladdeposteringer, ligesom for produktionsforbrug, afgang og kapacitet.  

@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 814e67d24abd6cfaeed48471ce9fc60b2bdfaab8
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939320"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244974"
 ---
 # <a name="enable-workflows"></a>Aktivere arbejdsgange
 Når du har oprettet en arbejdsgang, og du er sikker på, at den er klar til at starte, skal du aktivere arbejdsgangen.  

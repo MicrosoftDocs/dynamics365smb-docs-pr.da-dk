@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: ec0dbdd999f2a1bf1f243fec565535752482de41
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916324"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248567"
 ---
 # <a name="create-bin-contents"></a>Oprette placeringsindhold
 Når du har oprettet placeringerne, kan du oprette placeringsindholdet. Du kan med andre ord sætte de varer op, som du vil opbevare på en bestemt placering, og angive regler, der styrer anbringelse af en bestemt vare på placeringen. Du kan gøre dette manuelt på siden **Placeringsindhold** eller automatisk med siden **Opret placeringsindholdskladde**.

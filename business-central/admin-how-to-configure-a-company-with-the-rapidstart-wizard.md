@@ -13,16 +13,16 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919267"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239908"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Konfigurere en virksomhed med guiden RapidStart
 Du kan hurtigt konfigurere en ny virksomhed, som du har oprettet ved hjælp af guiden RapidStart Services-konfiguration.
 
-I følgende procedure har du angivet debitoren med konfigurationspakken, der derefter installeres på en computer. Debitoren åbner den nye virksomhed, som ikke indeholder nogen debitordata. Du eller kunden følger derefter trinnene i guiden RapidStart Services, der er beskrevet i denne fremgangsmåde, for at levere grundlæggende oplysninger om virksomheden. Guiden importerer konfigurationspakken og anvender derefter pakken til virksomheden.  
+I følgende procedure har du angivet debitoren med konfigurationspakken, der derefter installeres på en computer. Debitoren åbner den nye virksomhed, som ikke indeholder nogen debitordata. Du eller debitoren følger derefter trinnene i guiden RapidStart Services, der er beskrevet i denne fremgangsmåde, for at levere grundlæggende oplysninger om virksomheden. Guiden importerer konfigurationspakken og anvender derefter pakken til virksomheden.  
 
 ## <a name="to-configure-a-new-company"></a>Konfigurere en ny virksomhed  
 1. I rollecenteret RapidStart Services-implementering skal du vælge handlingen **Guiden RapidStart**.  

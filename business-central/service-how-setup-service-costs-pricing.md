@@ -13,11 +13,11 @@ ms.search.keywords: service, cost, service order
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8683d82b4a6f56f415f3b66efa5be11b003fe878
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926602"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251960"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Konfigurere prissætning og ekstra omkostninger for services
 Du kan bruge prisfastsætningsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] til at konfigurere og tilpasse programmet, så du kan anvende og regulerer priser på serviceartikler, reparationer og ordrer. Disse prisbeslutninger kan derefter let overføres til fakturaprocessen.  

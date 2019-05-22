@@ -12,11 +12,11 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: cf401500c34d8d40acc153a591229684770afa64
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917472"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250063"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Udvidelsen Overførsel af data med Dynamics GP 
 Udvidelsen gør det nemt at overføre debitorer, kreditorer, lagervarer, finanskonti, åbne transaktioner for tilgodehavender og skyldige beløb fra Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis din virksomhed bruger Dynamics GP i dag, kan du eksportere de relevante poster og derefter åbne en assisteret opsætningsvejledning for at tilføje dataene i [!INCLUDE[prodshort](includes/prodshort.md)]. Udvidelsen til overførsel fungerer på alle understøttede versioner af Microsoft Dynamics GP. Du kan finde flere oplysninger under [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).

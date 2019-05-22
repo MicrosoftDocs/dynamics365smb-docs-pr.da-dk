@@ -11,11 +11,11 @@ ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940049"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240276"
 ---
 # <a name="count-inventory-using-documents"></a>Varelageroptælling ved hjælp af dokumenter
 Du kan udføre en status over dine varer på varelager ved hjælp af varelagerdokumenter og varelageroptællingsdokumenter. Siden **Varelageropgørelse** benyttes til at organisere det fulde varelageroptællingsprojekt, for eksempel en pr. lokation. Siden **Registrering af varelager** benyttes til at kommunikere og registrere den faktiske optælling af varerne. Du kan oprette flere registreringer på en ordre, f.eks. til at distribuere varegrupper til forskellige medarbejdere.

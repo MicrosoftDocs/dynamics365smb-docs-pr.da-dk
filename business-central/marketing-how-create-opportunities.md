@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 50b61129a6684cda7a6cb20f4bfb3cf44dcad7cf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936495"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239173"
 ---
 # <a name="create-sales-opportunities"></a>Oprette salgsleads
 Du kan oprette leads for de salgslaeds du har for dine kontakter. Alle leads skal knyttes til en sælger eller indkøber og skal have en kontakt.

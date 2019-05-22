@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: df77998dc9e5ee06531f3be158a7d9ca2604fc05
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914734"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248684"
 ---
 # <a name="setting-up-warehouse-management"></a>Sådan konfigureres logistikfunktioner
 En virksomheds distributionsstrategi afspejles i konfigurationen af virksomhedens lagerprocesser. Dette omfatter bl.a. angivelse af, hvordan forskellige varer håndteres på forskellige lagerlokationer, f.eks. graden af placeringsstyring, og hvilket omfang af arbejdsgange der kræves mellem lageraktiviteterne.  

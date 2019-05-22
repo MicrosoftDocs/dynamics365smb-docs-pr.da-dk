@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: adb6cb718f0f63eb5b12b62f1d40f1d8ea0c70d1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915913"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250798"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ændre det årlige beløb på servicekontrakter eller kontrakttilbud
 Du kan ændre det årlige beløb på en servicekontrakt eller et kontrakttilbud til det korrekte beløb, der faktureres årligt.  
@@ -108,7 +108,7 @@ Hvis du ændrer **Årligt beløb** til 60, beregnes avanceprocentandelen for hve
 
 * Vare 1-5/(5 + 5,1 +12,7) = 0,2193 %  
 * Vare 2 – 5,1/(5 + 5,1 + 12,7) = 0,2237  
-* Vare 3-12,7/(5 + 5,1 12,7) = 0,557  
+* Vare 3-12,7/(5 + 5,1 + 12,7) = 0,557  
 
 Feltværdien **Linjebeløb** opdateres på hver kontraktlinje ved brug af følgende formel: Linjebeløb = linjebeløb + differencen mellem de nye og de beregnede årlige beløb ganget med den procentvise andel. Derefter opdateres feltværdierne **Linjerabatbeløb**, **Linjerabatpct.** og **Avance** ved hjælp af formlerne, der er beskrevet i fremgangsmåden ovenfor.  
 
@@ -135,7 +135,7 @@ Hvis du ændrer **Årligt beløb** til 60, beregnes avanceprocentandelen for hve
 
 * Vare 1-5/(5 + 5,1 +12,7) = 0,2193 %  
 * Vare 2 – 5,1/(5 + 5,1 + 12,7) = 0,2237  
-* Vare 3-12,7/(5 + 5,1 12,7) = 0,557  
+* Vare 3-12,7/(5 + 5,1 + 12,7) = 0,557  
 
 Feltværdien **Linjebeløb** opdateres på hver kontraktlinje ved brug af følgende formel: Linjebeløb = linjebeløb + differencen mellem de nye og de beregnede årlige beløb ganget med den procentvise andel. Derefter opdateres feltværdierne **Linjerabatbeløb**, **Linjerabatpct.** og **Avance** ved hjælp af formlerne, der er beskrevet i fremgangsmåden ovenfor.  
 
@@ -173,7 +173,7 @@ Værdien i feltet **Årligt beløb** svarer til indholdet i feltet **Beregnet å
 
 * Vare 1 – 5/(5 + 5,1 +1 2,7) = 0,2193 %  
 * Vare 2 – 5,1/(5 + 5,1 + 12,7) = 0,2237  
-* Vare 3-12,7/(5 + 5,1 12,7) = 0,557  
+* Vare 3-12,7/(5 + 5,1 + 12,7) = 0,557  
 
 Feltværdien **Linjebeløb** opdateres på hver kontraktlinje ved brug af følgende formel: Linjebeløb = linjebeløb + differencen mellem de nye og de beregnede årlige beløb ganget med den procentvise andel. Derefter opdateres feltværdierne **Linjerabatbeløb**, **Linjerabatpct.** og **Avance** ved hjælp af formlerne i trin 3 i fremgangsmåden ovenfor.  
 

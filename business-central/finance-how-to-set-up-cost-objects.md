@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.openlocfilehash: 725ad9ed12dd32dc1cc3257c266efa274ea964a0
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923267"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239621"
 ---
 # <a name="set-up-cost-objects"></a>Oprette omkostningsemner
 Omkostningsobjekter er en virksomheds projekter, produkter eller tjenester. Diagrammet over omkostningsobjekter er lig dimensionsoplysningerne for regnskabet. Du kan angive diagrammet over omkostningsobjekter på følgende måder:  

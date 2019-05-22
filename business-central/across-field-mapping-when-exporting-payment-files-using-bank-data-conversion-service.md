@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a322fe99a76555d438033919a2f6a1ace4e108db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922523"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240903"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Feltkobling, når du eksporterer betalingsfiler ved hjælp af tjeneste til konvertering af bankdata
 Når du eksporterer betalingsfiler ved hjælp af funktionen Tjeneste til konvertering af bankdata, bliver de data, du eksporterer, eksponeret for udbyderen af tjenesten til konvertering af bankdata. Serviceudbyderen er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger om, hvordan tjenesten til konvertering af bankdata fungerer, i [Om Data Exchange Framework](across-about-the-data-exchange-framework.md).  

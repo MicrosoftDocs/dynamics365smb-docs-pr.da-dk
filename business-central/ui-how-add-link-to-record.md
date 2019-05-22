@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
 ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "990173"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250338"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Føje links til websteder, dokumenter eller programmer på poster
 På en bestemt post, f.eks. en debitor, et dokument eller en salgsordre, kan du tilføje et link til et eksternt dokument, websted eller program. Det kan også være, at du ønsker et link, der åbner en ny tom mail til en bestemt modtager, når du vælger det. På kortsiden på nogle poster, f.eks. debitor- og kreditorkort, er der et felt **Hjemmeside**, hvor du kan angive en URL-adresse (internetadresse). Hvis du vil medtage andre links, kan du bruge den metode, der er beskrevet i denne artikel.  

@@ -13,11 +13,11 @@ ms.search.keywords: task, process
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 0b9bf37f9054d767938b851e399a1b2c347f77c3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937382"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249257"
 ---
 # <a name="run-batch-jobs"></a>Afvikle kørsler
 En kørsel er en rutine, hvor data behandles i bundter, f.eks. kørslen **Kursreguler valutabeholdninger**. Der findes kørsler, som udfører periodiske regnskabsaktiviteter, som f.eks. opgørelse af resultatopgørelsen ved afslutning af regnskabsåret. Mange kørsler udfører beregninger, som f.eks. beregningen af rentenotaer, kursjusteringer og beregning af salgspriser.

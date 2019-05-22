@@ -11,11 +11,11 @@ ms.search.keywords: Ceridian, Quickbooks, salary
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: c483b50e7f1456c06ace27d3893c04a3d59e6ab8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924967"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243821"
 ---
 # <a name="import-payroll-transactions"></a>Importér løntransaktioner
 For at tage højde for lønbetalinger og relaterede transaktioner, skal du importere og bogføre finansielle transaktioner, der er foretaget af din lønningssystemudbyder i finansbogholderiet. For at gøre dette skal du først importere en fil, som du modtager fra lønningsystemudbyderen, på siden **Finanskladde**. Derefter knytter du de eksterne konti i lønningslistefilen til de relevante finanskonti. Til sidst skal du bogføre lønningstransaktionerne i overensstemmelse med kontotilknytningen.

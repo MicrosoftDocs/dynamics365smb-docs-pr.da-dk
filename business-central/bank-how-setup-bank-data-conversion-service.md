@@ -11,11 +11,11 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 38c1ee9b37513b270dcad09238df4f841a961d1a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927538"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245020"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Konfigurere tjenesten til konvertering af bankdata
 En global udbyder af tjenester til konvertering af betalingsoplysninger til ethvert dataformat, som din bank kræver, er forbundet og klar til at blive aktiveret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kaldes for tjenesten til konvertering af bankdata i [!INCLUDE[d365fin](includes/d365fin_md.md)].

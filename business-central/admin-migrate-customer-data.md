@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953506"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247159"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
@@ -28,7 +28,7 @@ Siderne **Overflytningsoversigt** og **Konfig.kladde** giver adgang til funktion
 Når du opretter et nyt virksomhed, kan du importere virksomhedsindstillinger for det nye virksomhed. Du indlæser indstillingerne fra en .rapidstart-fil, som leverer pakkens indhold i komprimeret format. Der importeres et tilsvarende sæt tabeller for standarddataoverflytning. Datasæt indeholder masterdatatabeller og opsætningsdatatabeller. Din første opgave i dataoverflytningen er at vurdere, om standardopsætning for overflytningen opfylder behovene i det nye virksomhed.
 
 > [!NOTE]  
->  Du kan ikke omdøbe en fil, der ikke allerede er en RapidStart Services-konfigurationspakke, til en .rapidstart-pakkefil og derefter forsøge at indlæse den. Hvis du prøver at gøre det, modtager du en fejlmeddelelse.  
+>  Du kan ikke omdøbe en fil, der ikke allerede er en RapidStart Services-konfigurationspakke, til en .rapidstart-konfigurationspakkefil og derefter forsøge at importere den. Hvis du prøver at gøre det, modtager du en fejlmeddelelse.  
 
 Før du begynder, skal du sørge for, at du er på rollecenteret RapidStart Services-implementering.
 
@@ -82,7 +82,7 @@ Når du har fastlagt de tabeller, du vil overføre debitordata til, skal du eksp
 Hvis tallen er tom, indeholder den resulterende dataoverflytningsfil tomme celler for de felter, du markerede, da du valgte eller oprettede overflytningstabeller for din nye virksomhed. Hvis den markerede dataoverflytningstabel indeholder data, udlæses de.  
 
 ## <a name="to-map-values-to-be-used-during-import"></a>Sådan tilknytter du værdier, der skal bruges under import
-Når du anvender data, som du har indlæst fra Excel eller fra en RapidStart-pakke, behandler og håndterer [!INCLUDE[d365fin](includes/d365fin_md.md)] tilknytningen på basis af tabelrelationer:  
+Når du anvender data, som du har importeret fra Excel eller fra en RapidStart-pakke, behandler og håndterer [!INCLUDE[d365fin](includes/d365fin_md.md)] tilknytningen på basis af tabelrelationer:  
 
 - Hvis du defineret en kobling direkte for et felt i en tabel, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] bruge den.  
 

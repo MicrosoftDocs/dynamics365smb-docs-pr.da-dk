@@ -11,11 +11,11 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 5c83a5bc7fbe91b9ff0592c5129f5a7dd5887c2c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928365"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250039"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>Udvidelsen Britiske GetAddress.io-postnumre
 Den britiske GetAddress.io-postnummerudvidelse kan spare tid og forhindre fejl, når du angiver adresser for enheder som debitorer, kreditorer, bankkonti og medarbejdere. Når du opretter en debitor, skal du f.eks. blot vælge et postnummer, så viser [!INCLUDE[d365fin](includes/d365fin_md.md)] en liste over adresser. Vælg den ønskede adresse, så udfyldes adressefelterne med det samme.  

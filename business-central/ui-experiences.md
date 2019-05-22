@@ -12,11 +12,11 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912410"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251419"
 ---
 # <a name="changing-which-features-are-displayed"></a>Ændre, hvilke funktioner der vises
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjælpe dig med at køre din virksomhed, uanset hvilken branche du arbejder i. Kernen i [!INCLUDE[d365fin](includes/d365fin_md.md)] er finansiel rapportering og salgs- og købsprocesser. Du føjer oplevelser til i henhold til dine forretningsmæssige behov ved at tilføje udvidelser fra AppSource eller ved at ændre indstillingen for oplevelse for virksomheden. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md) eller i [Valg af en brugergrænseflade til at vise eller skjule funktioner](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).

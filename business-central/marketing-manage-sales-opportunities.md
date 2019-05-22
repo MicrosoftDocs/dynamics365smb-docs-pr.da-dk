@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 19f7c77a115f473238441b8c67417e53c0896625
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 3a719e7b2d44a6cf67335b938a0899a52fcde41b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915472"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446826"
 ---
 # <a name="managing-sales-opportunities"></a>Administrere salgsleads
 Alle indgående leads kan anses for at være et salgslead. Du kan oprette leads og knytte dem til en sælger, så du kan holde styr på muligt salg.
@@ -30,7 +30,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | --- | --- |
 | Konfigurer de salgsprocesser, som du normalt følger, og de forskellige faser i hver salgsproces for leads. |[Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Oprette salgs-leads, som du har fra dine kontakter. |[Oprette salgsmuligheder](marketing-how-create-opportunities.md) |
-| Flyt et salgslead via salgsprocessen til afslutning. |[Behandling af salgsleads](marketing-processing-sales-opportunities.md) |
+| Flyt et salgslead via salgsprocessen til afslutning. |[Behandle salgsleads](marketing-processing-sales-opportunities.md) |
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

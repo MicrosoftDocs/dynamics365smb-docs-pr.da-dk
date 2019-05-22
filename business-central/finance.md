@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: edupont
-ms.openlocfilehash: 1a2a48f357a553f8cd7836e0dd02ccaf8078c0db
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911548"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446964"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
@@ -33,10 +33,10 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Få dine debitorer til at sende betaling, før du sender til dem, eller send betaling til dine kreditorer, før de sender til dig.|[Fakturere forudbetalinger](finance-invoice-prepayments.md)|
 | Afstemme bankkonti og overføre beløb mellem bankkonti. |[Håndtere bankkonti](bank-manage-bank-accounts.md) |
 |Opret koncerninterne partnere, og behandl transaktioner, manuelt eller automatisk, mellem juridiske enheder inden for samme virksomhed.|[Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)|
-|Kombiner finansposter fra flere regnskaber i ét virtuelt konsolideret regnskab til finansielle analyser.|[Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)|
 |Analysér omkostningerne til virksomhedens drift ved at fordele faktiske og budgetterede omkostninger for operationer, afdelinger, produkter og projekter til omkostningssteder.|[Regnskab for omkostninger](finance-manage-cost-accounting.md)|
 |Styre lager- og produktionsomkostninger, rapportere omkostninger og afstemme omkostninger med finansposterne.|[Administrere lageromkostninger](finance-manage-inventory-costs.md)|
 | Forstå finans og kontoplanen. |[Om Finans og kontoplanen](finance-general-ledger.md) |
+|Kombiner finansposter fra flere regnskaber i ét virtuelt konsolideret regnskab til finansielle analyser.|[Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)|
 | Tilføje dimensioner for mere detaljeret business intelligence. |[Arbejde med dimensioner](finance-dimensions.md) |
 | Opret finansbudgetter for at estimere forskellige finansielle aktiviteter og tildele dimensioner i forbindelse med business intelligence. |[Oprette finansbudgetter](finance-how-create-budgets.md) |
 |Registrere indtægter eller udgifter direkte i finansregnskabet uden at bogføre dedikerede forretningsdokumenter.|[Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)|
@@ -47,10 +47,13 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Realisere indtægter og udgifter i andre perioder end dem, hvor transaktionerne blev bogført. |[Periodisere indtægter og udgifter](finance-how-defer-revenue-expenses.md)|
 |Få mere at vide om, hvordan du bruger flere valutaer og opdaterer valutakurser automatisk. |[Opdatere valutakurser](finance-how-update-currencies.md)|
 | Importere løntransaktioner fra din lønningslisteudbyder i finansbogholderiet. |[Importér løntransaktioner](finance-how-import-payroll-transactions.md)|
-| Overvåge pengestrømme ind og ud af din virksomhed. |[Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md) |
-| Arbejde med regnskabsopgørelser og oversigter i Excel. |[Analysere regnskaber i Excel](finance-analyze-excel.md) |
-| Forberede at lukke et regnskabsår eller periode. |[Afslutning af år og perioder](year-close-years-periods.md) |
+|Brug funktioner til at beregne moms på salgs- og købstransaktioner, så du kan rapportere beløbene til skattemyndighederne.|[Arbejde moms af salg og køb](finance-work-with-vat.md)|
 |Udarbejd en rapport over moms fra salg, og send rapporten til en skattemyndighed i EU. | [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
+|Manuelt konvertere servicekontrakterne for at ændre deres momssats.|[Konvertere servicekontrakter, som omfatter momsbeløb](service-how-to-convert-service-contracts.md)|
+| Overvåge pengestrømme ind og ud af din virksomhed. |[Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md) |
+|Bruge kontoskemaer til at foretage pengestrømsbudgetter for at følge en hel procedure.|[Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Arbejde med regnskabsopgørelser og oversigter i Excel. |[Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md) |
+|Lær at bruge rollecenteret Regnskabsmedarbejder, invitere en ekstern revisor og bruge Accountant Hub til at administrere konti for flere klienter.|[Revisoroplevelser i Business Central](finance-accounting.md)|  
 
 ## <a name="see-also"></a>Se også
 [Konfigurere Finans](finance-setup-finance.md)  

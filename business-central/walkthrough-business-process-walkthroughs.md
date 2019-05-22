@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 33f8f1b0844532e32c391c3c474ad555204a600c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927993"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249119"
 ---
 # <a name="business-process-walkthroughs"></a>Gennemgang af forretningsprocesser
 Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som du kan udføre ved hjælp af demovirksomheden CRONUS Danmark A/S. Gennemgangene består af flere procedurer, hvoraf nogle normalt udføres af én bruger, mens andre indføjer flere forskellige brugerroller. Med henblik på at simulere arbejdsmiljøet, indeholder nogle af gennemgangene installationstrin, der er nødvendige for at gennemføre øvelserne som beskrevet. Disse trin kan give indblik i, hvilken type oplysninger brugerne skal dele med deres virksomheds it-teknikere.  

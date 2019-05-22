@@ -13,11 +13,11 @@ ms.search.keywords: warehouse, stock
 ms.date: 04/01/2019
 ms.author: SorenGP
 ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934323"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238505"
 ---
 # <a name="setting-up-inventory"></a>Opsætning af lagerbeholdning
 Før du kan administrere lageraktiviteter og lageromkostningsberegning, skal du konfigurere de regler og værdier, der definerer virksomhedens lagerpolitikker.

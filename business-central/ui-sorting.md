@@ -11,11 +11,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: ui-enter-criteria-filters
 ms.openlocfilehash: ae8bec7c0d9d7f23c607037588663d926237d352
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928481"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247946"
 ---
 # <a name="sorting"></a>Sortering
 Sorteringsfunktionen gør det nemt og hurtigt for dig at overskue dine oplysninger. Hvis du har mange kunder, f.eks. kan du vælge at sortere dem efter **Kundenr.**, **Debitorbogføringsgruppe**, **Valutakode**, **Lande-/områdekode** eller **Momsregistreringsnr.** for at få det nødvendige overblik.

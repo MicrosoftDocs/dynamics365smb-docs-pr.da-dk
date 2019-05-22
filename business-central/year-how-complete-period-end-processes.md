@@ -13,11 +13,11 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: cbbfb06052f8286822f4ab722d00706de303dc02
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939504"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248682"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversigt over opgaver til afslutning af regnskabsperioder
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tvinger dig ikke at lukke perioder, men der er mange periodeafslutnings- (månedsafslutning) aktiviteter, du kan udføre. Dette emne indeholder en oversigt over valgfrie processer og aktiviteter til afslutning af perioder.  

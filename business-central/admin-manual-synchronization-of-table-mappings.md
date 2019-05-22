@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "940062"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245727"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkroniser tabeltilknytninger manuelt
 En integreret tabeltilknytning knytter en [!INCLUDE[d365fin](includes/d365fin_md.md)] tabel (record-type), f.eks. kunde, med en [!INCLUDE[crm_md](includes/crm_md.md)] enhed, f.eks. en konto. Synkronisering af en integreret tabeltilknytning muliggør synkronisering af data i alle records i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen [!INCLUDE[crm_md](includes/crm_md.md)]-enheden, der er sammenkædet. Afhængigt af konfigurationen af tabeltilknytningen kan synkronisering skabe og sammenkæde nye records i destinationsløsningen til records i ikke sammenkædede records i kilden.  

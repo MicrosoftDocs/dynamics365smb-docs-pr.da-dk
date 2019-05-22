@@ -11,11 +11,11 @@ ms.search.keywords: configure, initialize
 ms.date: 04/05/2019
 ms.author: edupont
 ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969828"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251005"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til virksomhedens behov.
@@ -25,7 +25,7 @@ F.eks er din kontoplan på forhånd udfyldt med en række bogføringskonti, der 
 Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger om, hvordan du får adgang til alle assisterede og manuelle opsætningssider, i [Bliv klar til at handle](ui-get-ready-business.md).
 
 > [!NOTE]
-> Du kan oprette en ny virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, der er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Du kan finde flere oplysninger i [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Du kan oprette en ny virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Du kan finde flere oplysninger i [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan konfigureres manuelt ud over den assisterede opsætningsvejledning. I det følgende kan du se nogle af de funktioner, som du kan konfigurere manuelt.
 

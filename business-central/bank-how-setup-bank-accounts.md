@@ -13,11 +13,11 @@ ms.search.keywords: Yodlee, feed, stream
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e3ccc70405b286929c9d267e76c3ba76fd2e7e4a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931481"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247351"
 ---
 # <a name="set-up-bank-accounts"></a>Sådan oprettes bankkonti
 Brug bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] til at holde styr på dine banktransaktioner. Konti kan være i den lokale valuta eller i fremmed valuta. Når du har oprettet bankkonti, kan du også bruge funktionen til kontrol af udskrevne check.

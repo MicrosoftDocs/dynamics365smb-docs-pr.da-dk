@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 99b1b5d5f725a598cc8be77f390d1fcf1c1a4033
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "925273"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250361"
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Tilgængelighedsfunktioner og tastaturgenveje i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[d365fin](includes/d365fin_md.md)] direkte tilgængelig for personer med handicap. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter følgende funktioner i Hjælp til handicappede:  

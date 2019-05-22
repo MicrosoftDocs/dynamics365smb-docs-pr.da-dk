@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 35395ad71dbc0717410ed5a910f5bcd0170b1d8c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936784"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252247"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Oprette gentagne salgs- og købslinjer
 Hvis du ofte har brug at oprette salgs- og købslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende salgs- og købsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.  
@@ -33,14 +33,21 @@ Følgende procedure viser, hvordan du arbejder med standardsalgslinjer på en sa
 > [!NOTE]
 > Du kan ikke definere priser på standardsalgslinjer, fordi priser, rabatter osv. beregnes ud fra de faktiske salgsdokumenter, når du har indsat standardsalgslinjerne.
 
-## <a name="to-assign-standard-sales-lines-to-a-customers"></a>Sådan tildeles standardsalgslinjer til en debitor
+## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Sådan tildeles en debitor standardsalgslinjer
 Tildele en eller flere standardsalgslinjer til en debitor, så de kan indsættes i salgsdokumenter for den pågældende debitor.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
 2. Åbn jobkortet for den relevante debitor.
 3. Vælg handlingen **Tilbagevendende salgslinjer**.
 4. På siden **Tilbagevendende salgslinjer** skal du vælge koder for de gentagne salgslinjer, som du vil kunne indsætte i salgsdokumenter for kunden.
-5. Udfyld de ekstra felter for at definere, hvornår, hvordan og hvor de gentagne salgslinjer skal bruges. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Udfyld de ekstra felter for at definere, hvornår, hvordan og hvor de gentagne salgslinjer skal bruges.
+6. I de fire felter hvor du vælger, hvordan linjerne indsættes på fire dokumenttyper, skal du vælge en af følgende indstillinger:
+
+|Indstilling|Description|
+|-|-|
+|**Manuelt**|Du skal manuelt søge efter og indsætte en gentaget salgslinje, som findes for debitoren.|
+|**Automatisk**|Hvis der findes flere gentagne salgslinjer for debitoren, får du en notifikation om, hvorfra du kan vælge den, der skal indsættes. Hvis der kun findes én gentagen salgslinje, indsættes den automatisk.|
+|**Spørg altid**|Der vises en meddelelse, og alle eksisterende tilbagevendende salgslinjer vises, så du kan vælge én af dem.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Sådan indsættes tilbagevendende salgslinjer i en salgsfaktura
 Hvis der findes tilbagevendende salgslinjerne for debitoren, kan du indsætte dem i alle typer salgsdokumenter, f.eks. en salgsfaktura. Hvis du har aktiveret den pågældende meddelelse, får du besked, hvis der findes tilbagevendende salgslinjer.

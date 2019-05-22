@@ -4,21 +4,20 @@ description: Når du konfigurerer omkostningsregnskab, skal du sørge for, at al
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/01/2017
 ms.author: sgroespe
-redirect_url: finance-set-up-cost-accounting
 ms.openlocfilehash: 8b64941b6c17468b598d419053c05e1d32dac7ce
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938222"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239011"
 ---
 # <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Saldi mellem omkostningstype, omkostningssted og omkostningsobjekt
 Når du konfigurerer omkostningsregnskab, skal du sørge for, at alle poster er tildelt til en pristype samt et omkostningssted eller et omkostningsobjekt. Det betyder, at hver omkostningspost skal have pristype samt en omkostningsstedskode eller et omkostningsobjekt tildelt. Denne regel sikrer, at hver omkostningspost vises i enten omkostningssteder eller omkostningsobjekter, men aldrig begge steder.  

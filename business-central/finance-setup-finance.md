@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 68128de48b014e7ca44fba3909cf72dcf0d87135
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: c64b58c036395764191c05f47f8327c6479a4c6f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920409"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447033"
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
 For at du kan komme hurtigt i gang, omfatter [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurationer for de fleste økonomiske processer. Du kan ændre konfigurationerne, så de passer til din virksomhed. På rollecenteret kan du f.eks. bruge en assisteret opsætningsvejledning til at angive satsen for salgsmoms for din lokation.  
@@ -44,7 +44,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Oprette business intelligence (BI)-diagrammer til at analysere likviditet. |[Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md) |
 |Aktivere fakturering af en debitor, der ikke er sat op i systemet.|[Konfigurere kontantkunder](finance-how-to-set-up-cash-customers.md)|
 | Oprette Intrastatrapportering og sende rapporten til en myndighed | [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
-|Forbered rapporten Konsolideret råbalance i rollecenteret Regnskabsmedarbejder for at få et økonomisk overblik på tværs af flere regnskaber.|[Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)|
 |Kontrollér, at en post i en finanskladde knyttes til flere forskellige konti, når du bogfører kladden, enten efter antal, procent eller beløb.|[Bruge fordelingsnøgler i finanskladder](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Se også

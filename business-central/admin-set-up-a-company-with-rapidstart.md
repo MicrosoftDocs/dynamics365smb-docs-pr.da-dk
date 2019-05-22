@@ -1,6 +1,6 @@
 ---
-title: Oprette en virksomhed med RapidStart Services | Microsoft Docs
-description: Du kan oprette en ny virksomhed i Business Central med RapidStart Services, der er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver.
+title: Oprette en virksomhed med RapidStart Services| Microsoft Docs
+description: Du kan oprette en ny virksomhed i Business Central med RapidStart Services, der er et værktøj, som er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,16 +13,16 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914777"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244296"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Oprette en virksomhed med RapidStart Services
-Du kan oprette en ny virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, der er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver.  
+Du kan oprette en ny virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver.  
 
-RapidStart services hjælper dig med at få et overblik over konfigurationen af din nye virksomhed ved hjælp af et regneark, hvor du kan konfigurere de tabeller, der ofte er involveret i konfigurationsprocessen for nye virksomheder. Når du gør dette, kan du oprette et spørgeskema til at hjælpe dine kunder gennem indsamlingen af konfigurationsoplysninger. Dine kunder har mulighed for at bruge spørgeskemaet til at konfigurere programområder, eller de kan åbne konfigurationssiden direkte og foretage konfigurationen der. Det vigtigste er, at RapidStart services hjælper dig som debitor med at forberede virksomheden med standardopsætningsdata, som du kan finjustere og tilpasse. Endelig kan du, når du bruger RapidStart services, konfigurere og overflytte eksisterende debitordata, f.eks. en liste over kunder eller varer, til den nye virksomhed.
+RapidStart Services hjælper med at få et overblik over konfigurationen af din nye virksomhed ved hjælp af et regneark, hvor du kan konfigurere de tabeller, der ofte er involveret i konfigurationsprocessen for nye virksomheder. Når du gør dette, kan du oprette et spørgeskema til at hjælpe dine kunder gennem indsamlingen af konfigurationsoplysninger. Dine kunder har mulighed for at bruge spørgeskemaet til at konfigurere programområder, eller de kan åbne konfigurationssiden direkte og foretage konfigurationen der. Det vigtigste er, at RapidStart Services hjælper dig som debitor med at forberede virksomheden med standardopsætningsdata, som du kan finjustere og tilpasse. Endelig kan du, når du bruger RapidStart Services, konfigurere og overflytte eksisterende debitordata, f.eks. en liste over kunder eller varer, til den nye virksomhed.
 
 Du kan bruge følgende komponenter til at sætte skub i opsætningen af din virksomhed:  
 
@@ -37,9 +37,9 @@ Du kan bruge følgende komponenter til at sætte skub i opsætningen af din virk
 
  Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
-|**For at**|**Skal du se**|  
+|**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Oprette RapidStart Services' primære brugergrænseflade.|[Bruge rollecenteret RapidStart Services-implementering](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
+|Oprette den primære brugergrænseflade i RapidStart Services.|[Bruge rollecenteret RapidStart Services-implementering](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)|  
 |Oprette en ny virksomhed og importere grundlæggende opsætningsdata og skabeloner.|[Konfigurere virksomhedskonfiguration](admin-set-up-company-configuration.md)|  
 |Installér den konfigurerede pakke hos din kunde til implementering.|[Anvende konfigurationer på nye virksomheder](admin-apply-configuration-to-new-companies.md)|
 |Definer og valider kundens opsætningsværdier for alle centrale områder, f.eks. firmaoplysninger, finans, lager, salg eller produktion.|[Indsaml debitoropsætningsværdier](admin-gather-customer-setup-values.md)|  

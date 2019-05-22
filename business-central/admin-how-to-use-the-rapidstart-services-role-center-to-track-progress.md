@@ -1,6 +1,6 @@
 ---
-title: Sådan bruges RapidStart Services-rolleimplementeringscenter | Microsoft Docs
-description: Når du bruger RapidStart Services, anbefales det, at du sporer dit arbejde og bruger RapidStart Services-rolleimplementeringscenter, som indeholder den korrekte kontekst til dit konfigurationsarbejde.
+title: Sådan bruges rollecenteret RapidStart Services-implementering | Microsoft Docs
+description: Når du bruger RapidStart Services, anbefales du at registrere dit arbejde og bruge rollecenteret RapidStart Services-implementering, som indeholder den korrekte kontekst til dit konfigurationsarbejde.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912069"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245162"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Bruge rollecenteret RapidStart Services-implementering
-Når du bruger RapidStart Services, anbefales det, at du bruger rollecenteret RapidStart Services-implementering, som indeholder den korrekte kontekst til dit konfigurationsarbejde. Du kan finde flere oplysninger under [Sådan ændres rollecentret](ui-change-basic-settings.md#to-change-role-center).
+Når du bruger RapidStart Services, anbefales du at bruge rollecenteret RapidStart Services-implementering, som indeholder den korrekte kontekst til dit konfigurationsarbejde. Du kan finde flere oplysninger under [Sådan ændres rollecentret](ui-change-basic-settings.md#to-change-role-center).
 
 Når du fortsætter med dit arbejde, kan du tildele hver tabel den status, som afspejler, hvor du befinder dig i processen. [!INCLUDE[d365fin](includes/d365fin_md.md)] holder derefter styr på status for tabellen i delen **Aktiviteter** i rollecenteret.  
 
@@ -35,7 +35,7 @@ Når du føjer en tabel til konfigurationsregnearket, angives dens status til to
 Når du vender tilbage til rollecenteret, opdateres felterne i delen **Aktiviteter**, så de afspejler dine ændringer.  
 
 ## <a name="to-track-the-status-of-a-configuration-project"></a>Spore status for et konfigurationsprojekt  
-- Åbn RapidStart Services-rollecenter.  
+- Åbn rollecentret RapidStart Services.  
 
 I delen **Konfigurationsområder** vises fuldførelsesstatistikker for de områder og grupper, du har konfigureret. Hvis du ikke har oprettet nogen grupper eller områder, har denne del ingen data.  
 

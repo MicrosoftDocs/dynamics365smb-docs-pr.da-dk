@@ -10,12 +10,13 @@ ms.workload: na
 ms.search.keywords: accountant, accounting
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: b6577c183e708b02699161a98197ad60ac1006fd
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+redirect_url: finance-accounting
+ms.openlocfilehash: 4b56e6923d1d554bb27a4c0f82f0226dea51f280
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934346"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446895"
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere din eksterne revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnskabsaflæggelse, kan du invitere ham eller hende indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)], så de kan samarbejde med dig om dine regnskabsdata.

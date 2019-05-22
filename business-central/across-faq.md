@@ -8,11 +8,11 @@ ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916145"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245886"
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
 

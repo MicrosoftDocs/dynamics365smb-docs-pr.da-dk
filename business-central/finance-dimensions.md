@@ -13,11 +13,11 @@ ms.search.keywords: analysis, history, track
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920838"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244718"
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
 For at gøre det lettere at analysere dokumenter som f.eks. salgsordrer kan du bruge dimensioner. Dimensioner er attributter og værdier, der kategoriserer poster, så du kan spore og analysere dem. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  

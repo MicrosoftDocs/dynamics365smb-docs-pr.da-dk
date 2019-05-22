@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: d55d8d5ab916cee6600deaf891702a625d76d7ee
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940053"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245681"
 ---
 # <a name="view-the-status-of-a-synchronization"></a>Se status på en synkronisering
 Du kan få vist status for de enkelte synkroniseringsjob, der er udført for [!INCLUDE[crm_md](includes/crm_md.md)]-integration. Dette omfatter synkroniseringsjob, der er kørt fra opgavekøen, og manuelle synkroniseringsjob, der er udført på poster fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette er nyttigt under fejlfinding af synkroniseringsproblemer, fordi det giver dig adgang til oplysninger om de specifikke fejl.

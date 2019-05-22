@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: fb9c540819279d042685ad69c790e36e71dcfbed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936761"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238275"
 ---
 # <a name="set-up-mailing-groups-for-contacts"></a>Oprette mailgrupper til kontakter
 Du kan bruge mailgrupper til at angive grupper af kontakter, som skal modtage de samme oplysninger. F.eks. kan du oprette en mailgruppe til de kontakter, du vil sende en meddelelse til om at skifte kontor, og en anden gruppe om at sende gaver til andre kontakter.

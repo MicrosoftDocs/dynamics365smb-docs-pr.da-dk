@@ -11,11 +11,11 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0eb1c99d38467969f072659996b0f598ba9d6576
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929885"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1254041"
 ---
 # <a name="make-check-payments"></a>Foretage betalinger med check
 Du kan udstede elektroniske og manuelle check [!INCLUDE[d365fin](includes/d365fin_md.md)]. Udbetalingskladden bruges i begge tilfælde, når der udstedes checks til leverandører/kreditorer. Du kan også annullere checks og se checkposter.

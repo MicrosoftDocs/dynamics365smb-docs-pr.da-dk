@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: e003f429122bd31ee35ef9b843682bfe8866407a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926459"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246695"
 ---
 # <a name="set-up-company-configuration"></a>Konfigurere virksomhedskonfiguration
 Implementeringsprocessen, der begynder med Microsoft-partneren. Partneren er ansvarlig for at gennemtænke konfigurationsdetaljerne og oprettelse af en pakke, der let kan anvendes af en kunde. Før du opretter en ny virksomhed, skal du planlægge, hvordan den konfigureres. Du skal overveje grundlæggende konfigurationsdata og de datatyper, som din [!INCLUDE[d365fin](includes/d365fin_md.md)]-løsning kræver. Du kan samle alle disse oplysninger i konfigurationspakker.
 
-RapidStart Services giver dig også de værktøjer, du skal bruge til at overflytte ældre data, f.eks. kunder og kreditorer.  
+RapidStart Services giver dig også de værktøjer, du skal bruge til at overflytte ældre data, f.eks. debitorer og kreditorer.  
 
-Vi anbefaler, at du opretter konfigurationspakker med de fleste af de konfigurationstabeller, som allerede udfyldt, så kunder behøver kun at ændre nogle få indstillinger, når pakken er installeret. Når du f.eks. opretter en ny virksomhed, udfyldes tabellerne **Nummerserie** og **Nummerserielinje**, med et sæt nummerserie og starttal. De tilsvarende **Nummerserie**-felter i opsætningstabellerne udfyldes også automatisk. Du behøver ikke at indtaste nummerserier og andre grundlæggende opsætningsdata. Du kan også manuelt ændre alle standarddata, der bruges med RapidStart Services ved at bruge konfigurationsregnearket.  
+Vi anbefaler, at du opretter konfigurationspakker med de fleste af de konfigurationstabeller, som allerede udfyldt, så kunder behøver kun at ændre nogle få indstillinger, når pakken er installeret. Når du f.eks. opretter en ny virksomhed, udfyldes tabellerne **Nummerserie** og **Nummerserielinje**, med et sæt nummerserie og starttal. De tilsvarende **Nummerserie**-felter i opsætningstabellerne udfyldes også automatisk. Du behøver ikke at indtaste nummerserier og andre grundlæggende opsætningsdata. Du kan også manuelt ændre alle standarddata, der bruges til RapidStart Services, ved at bruge konfigurationsregnearket.  
 
 Konfigurationspakkerne bygger på en forudkonfigureret virksomhed. Når du har konfigureret en virksomhed, der opfylder dine behov, kan du oprette en konfigurationspakke, der indeholder relevante data fra denne virksomhed. Du kan derefter oprette en ny virksomhed, der skal konfigureres på samme måde.  
 

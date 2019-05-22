@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
 ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932829"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247394"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Oprette forbindelse fra Power BI til Dynamics 365 Business Central-indholdspakker
 Du kan nemt få indsigt i dine Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data med Power BI og Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-indholdspakker. Power BI henter dine data og opretter derefter et out-of-the-box dashboard og rapporter baseret på dataene.

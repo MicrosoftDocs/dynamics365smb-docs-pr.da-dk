@@ -12,11 +12,11 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916995"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241382"
 ---
 # <a name="extending-included365finincludesd365finmdmd"></a>Udvidelse af [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er en løsning til virksomhedsadministration, som hjælper virksomheder med at sammenkæde deres finansielle oplysninger, salgs-, service- og driftsoplysninger for at strømline deres forretningsprocesser, forbedre interaktioner med kunderne og træffe bedre beslutninger. [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængelig i skyen og for brugere på tværs af flere forskellige enheder, som altid er opdaterede. Ved hjælp af denne moderne virksomhedsplatform du kan nemt og hurtigt tilpasse, udvide og udvikle programmer, så de passer til dine behov – med begrænset eller ingen kodeudvikling.  

@@ -12,11 +12,11 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: fe1673a5d829c9c71a45383b291405e5a5121ae8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932761"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250752"
 ---
 # <a name="the-image-analyzer-extension"></a>Billedanalyseudvidelsen
 Billedanalyseudvidelsen bruger effektiv billedanalyse fra Computer Vision API'en til Computer Vision API til at registrere attributter i de billeder, du importerer til varer og kontaktpersoner, så du let kan gennemse og tildele dem. For varer kan attributterne dreje sig om, hvorvidt varen er et bord eller en bil, og om den er rød eller blå. For kontaktpersoner kan attributterne vedrøre køn eller alder.

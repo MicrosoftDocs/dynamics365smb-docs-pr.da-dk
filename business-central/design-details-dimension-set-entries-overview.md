@@ -11,11 +11,11 @@ ms.search.keywords: dimension
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9706b5cc2438c49c143b7ded27447b4d6403e0dc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "911572"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246789"
 ---
 # <a name="dimension-set-entries-overview"></a>Oversigt over dimensionsgruppeposter
 Dette emne beskriver, hvordan dimensionsgruppeposter gemmes og bogføres i [!INCLUDE[d365fin](includes/d365fin_md.md)].  

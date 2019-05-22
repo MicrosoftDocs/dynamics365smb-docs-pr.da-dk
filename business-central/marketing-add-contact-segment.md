@@ -13,11 +13,11 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 00f1f0c7f81741c509e8c2707c38dbaa23087c93
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "933020"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239264"
 ---
 # <a name="add-contacts-to-segments"></a>Tilføje kontakter til målgrupper
 Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne på siden **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.

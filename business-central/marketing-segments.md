@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: jswymer
-ms.openlocfilehash: b0994b431d32e3e4c4bd992e0f4acc155ad50076
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 0392e39957455702bb1aae8eef38d872f803ee42
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "928157"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446803"
 ---
 # <a name="managing-segments"></a>Administrere målgrupper
 Du opretter målgrupper for at vælge en gruppe kontaktpersoner i overensstemmelse med bestemte kriterier. F.eks. kan en målgruppe være den branche, som kontaktpersonerne arbejder i, eller dine forretningsmæssige relationer med kontaktpersonerne. Du kan oprette en målgruppe for at vælge de kontaktpersoner, som er målet med en kampagne.
@@ -27,13 +27,13 @@ Der er to hovedopgaver i oprettelse af en målgruppe:
 * Angiv generelle oplysninger om målgruppen. Du skal oprette målgruppen, før du kan vælge kontaktpersoner i gruppen.
 * Vælg de kontaktpersoner, der skal inkluderes i målgruppen.
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne. 
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 | Hvis du vil | Se |
 | --- | --- |
 | Oprette målgrupper, som gør det muligt for dig at vælge en gruppe kontakter. F.eks., direct mail. |[Oprette målgrupper](marketing-how-create-segment.md) |
 | Administrere de kontakter, der er tildelt til målgrupper. |[Tilføje kontakter til målgrupper](marketing-add-contact-segment.md) |
-| Få mere at vide om brugen af interaktioner og målgrupper, herunder logføring. |[Administrere interaktion og målgrupper](marketing-interaction-segments.md) |
+| Få mere at vide om brugen af interaktioner for målgrupper, herunder logføring. |[Administrere interaktioner for målgrupper](marketing-interaction-segments.md) |
 
 ## <a name="see-also"></a>Se også
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  

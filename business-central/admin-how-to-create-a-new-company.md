@@ -1,6 +1,6 @@
 ---
 title: Sådan oprettes en nyt virksomhed | Microsoft Docs
-description: For at du kan bruge RapidStart Services, er tabeller og sider oprettet, men der er ingen data i dem.
+description: For at du kan bruge RapidStart Services bliver tabeller og sider oprettet, men der er ingen data i dem.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 8b534af530a7ce6d91a71ca7802938fe3573c2c2
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932076"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240788"
 ---
 # <a name="create-a-new-company"></a>Oprette en ny virksomhed
 Hvis du vil bruge RapidStart Services til [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du først oprette en ny virksomhed, som du ønsker at udføre en kundeimplementering for. Når du opretter en ny virksomhed, oprettes standardtabellerne og -siderne i [!INCLUDE[d365fin](includes/d365fin_md.md)], men der er ingen data i dem.
@@ -35,7 +35,7 @@ Brug følgende fremgangsmåde for at oprette en ny virksomhed, og brug pakken BA
 
 ## <a name="to-create-a-new-company"></a>Sådan oprettes en ny virksomhed  
 1. Oprette en ny virksomhed. Du kan finde flere oplysninger om oprettelse af pluk under [Oprettelse af nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).
-2. Du kan nu importere konfigurationspakken, du har eksporteret fra demonstrationsvirksomheden CRONUS Danmark A/S fra rollecentret RapidStart Services-implementering.
+2. Du kan nu importere konfigurationspakken, du har eksporteret fra demonstrationsvirksomheden CRONUS Danmark A/S, fra rollecentret RapidStart Services-implementering.
 
 Når du opretter en ny virksomhed, udfyldes nogle tabeller automatisk, selvom der ikke anvendes nogen virksomhedsskabelon. Du kan f.eks. gennemse standardkoderne for bogføring og batchposteringer på siden **Kildekode**. Hvis du angiver en lokal version af [!INCLUDE[d365fin](includes/d365fin_md.md)], bør du gennemgå denne tabel og overveje eventuelle problemer med lokalt sprog.
 

@@ -13,11 +13,11 @@ ms.search.keywords: machinery, buildings
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fabff17b66dd3d5a8c57537df34bddedba0d7248
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914629"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243844"
 ---
 # <a name="fixed-assets"></a>Anlægsaktiver
 I Anlæg i [!INCLUDE[d365fin](includes/d365fin_md.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.

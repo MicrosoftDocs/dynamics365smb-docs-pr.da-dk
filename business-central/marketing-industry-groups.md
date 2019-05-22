@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
 ms.openlocfilehash: 6f4fd9ef35c9a5287b01740861ad0b835c319ff4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921575"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239172"
 ---
 # <a name="set-up-industry-groups-for-contact-companies"></a>Angive brancher for kontaktvirksomheder
 Du bruger brancher til at angive, hvilken branchetype dine kontakter tilhører, f.eks. detailbranchen eller automobilbranchen.

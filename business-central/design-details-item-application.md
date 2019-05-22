@@ -11,11 +11,11 @@ ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9da76eb0058d2215e6437b52cf68720e663dd4c7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "929547"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246474"
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
 Når du bogfører en lagertransaktion, registreres antalsbogføringen i vareposterne og værdibogføringen i værdiposterne. Du kan finde flere oplysninger i [Designoplysninger: Varekladde](design-details-inventory-posting.md).  

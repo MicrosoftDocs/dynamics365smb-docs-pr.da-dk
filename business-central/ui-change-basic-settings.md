@@ -11,11 +11,11 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: d95d2f609129e4bdba35deda726323dbed2ba67a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916218"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1250959"
 ---
 # <a name="changing-basic-settings"></a>Ændring af grundlæggende indstillinger
 På siden [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med dine brugerindstillinger i Business Central"), kan du få vist og ændre grundlæggende indstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ændringer, du foretager, påvirker kun dit arbejdsområde, ikke arbejdsområder for andre brugere.  

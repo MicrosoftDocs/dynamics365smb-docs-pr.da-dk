@@ -13,11 +13,11 @@ ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: c709539b24aa1f94c86dee26dd63adead39c892b
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915596"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252350"
 ---
 # <a name="prioritize-vendors"></a>Tildele kreditorer prioritet
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan foreslå forskellige betalinger til kreditorer. Det kan f.eks. være betalinger, som snart forfalder, eller som omfatter rabat. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).

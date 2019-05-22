@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7ebdf239e592faedd1502c8fff50dd91e474352f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: d92d732b99eedb06eb0185d1227252e1ace95334
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917715"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446872"
 ---
 # <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportere omkostninger og afstemme med regnskabet
 Ved afslutningen af regnskabsperioder, hvad enten de er månedlige, årlige eller andet, skal der udføres en række handlinger til omkostningsstyring og revision, så der rapporteres en korrekt og afstemt lagerværdi til regnskabsafdelingen. Bortset fra den bogføringsrutine, der overfører de enkelte poster med vareværdi til dedikerede finanskonti, stilles adskillige rapporter, sporingsfunktioner og et specielt afstemningsværktøj til rådighed for den revisor eller controller, der er ansvarlig for dette forretningskritiske arbejde.  
@@ -31,7 +31,6 @@ Ved afslutningen af regnskabsperioder, hvad enten de er månedlige, årlige elle
 |Have vist lagerværdien af valgte varer, herunder deres faktiske og forventede kostpris på den angivne dato.|**Lagerværdi – kostspecifikation**, rapport|  
 |Bruge en rapport til at analysere årsagerne til kostprisuoverensstemmelser eller få indsigt i vareforbruget for solgte varer.|**Grundlag for kostprisfordeling**, rapport|  
 |Periodisk bogføre værdiposterne for varetransaktioner fra lagerposter til relaterede finansposter for at afstemme de to posttyper.|[Afstemme lagerværdier med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
-|Bruge én side til at revidere afstemningen mellem lagerposterne og finansposterne.|[Afstemme lagerværdier med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Fastlægge det VIA-beløb, der skal bogføres til balancekonti ved periodeafslutningsrapportering.|[Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md)|
 
 ## <a name="see-also"></a>Se også  

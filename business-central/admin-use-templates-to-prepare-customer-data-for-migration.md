@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912433"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247229"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Forberede overflytning af debitordata
 Når du har indløst og anvendt opsætningsdataene i den nye database, kan du starte overflytningen af debitorens eksisterende masterdata, som varer og debitornumre og -navne. Hvis du vil sikre, at disse data oprettes hurtigt og præcist i det nye virksomhed, skal du bruge skabeloner til at strukturere dataene.  

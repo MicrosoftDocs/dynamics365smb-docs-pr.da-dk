@@ -11,11 +11,11 @@ ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 0e55201f283db010917fb516dfa666d4fa06f483
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "922572"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1237513"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

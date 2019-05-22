@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 04/01/2019
-ms.openlocfilehash: eb9d4ec76c0dbbd59763f7622ca51137c9563a91
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969874"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447010"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektion af sider i Business Central
 
@@ -22,7 +22,7 @@ Sideinspektionsfunktionen giver mulighed at få oplysninger om en side, giver di
 
 ## <a name="working-with-page-inspection"></a>Arbejde med sideinspektion
 
-Hvis du vil inspicere en side, skal du vælge ![ikonet Indstillinger](media/ui-experience/settings_icon_small.png) i øverste højre hjørne vælge og derefter klikke på **Inspicer**. Du kan også bruge tastaturgenvejen **Ctrl+Alt+F1**.
+Du starter sideinspektion fra siden **Hjælp og Support**. Vælg spørgsmålstegnet i øverste højre hjørne, vælg **Hjælp og support**, og vælg derefter **Undersøg sider og data**. Du kan også bare bruge tastaturgenvejen **Ctrl+Alt+F1**.
 
 Ruden **Sideinspektion** åbnes på siden. Følgende figur illustrerer ruden **Sideinspektion** på siden **Salgsordre**.
 
@@ -34,7 +34,7 @@ Bruge tastaturgenvejen eller pegeredskabet til at flytte fokus til forskellige e
 
 Du kan finde flere oplysninger om, hvad der vises i sideinspektionen, i [Inspektion og fejlfinding af sider](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) i hjælpen til Business Central-udviklere og it-eksperter.
 
-Hvis du ikke kan se de oplysninger, du forventer at se, i ruden **Sideinspektion**, har du sandsynligvis ikke har de nødvendige rettigheder som beskrevet i næste sektion.
+Hvis du ikke kan se de oplysninger, du forventer at se, i ruden **Sideinspektion**, har du sandsynligvis ikke de nødvendige rettigheder som beskrevet i næste afsnit.
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Styring af adgang til oplysninger om sideinspektion
 

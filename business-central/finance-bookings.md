@@ -11,11 +11,11 @@ ms.search.keywords: invoicing, bookings
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: faa7946dd376dd8e0f89e35cd798a6de45a3248d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916564"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242901"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis dit firma bruger Bookings-appen i Office 365, kan du udstede flere fakturaer ad gangen for aftaler. Siden **Ikke-fakturerede Bookings** i [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en oversigt over virksomhedens udførte reservationer. På denne side kan du hurtigt vælge de aftaler, som du vil fakturere, og oprette udkast til fakturaer for de ydede services.  

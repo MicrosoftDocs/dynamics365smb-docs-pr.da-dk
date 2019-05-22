@@ -12,17 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 7ef4416c695543cb93fcf0bed9501bfa4d04985d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: eedb7a319a11b740f6afa869d162f15c167ccc6d
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917184"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446780"
 ---
-# <a name="managing-interactions-with-contacts"></a>Administration af interaktioner med kontakter
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, fax, mail, telefon, møder osv.
-
-I relationsstyringsområdet kan du registrere alle de interaktioner, du har med kontakter. Det sætter dig i stand til at holde styr på de salgs- og marketingstiltag, du har iværksat i forbindelse med kontakterne, og til at forbedre de fremtidige forretningsinteraktioner med dem. Konfiguration af programmet til at registrere interaktioner består af disse opgaver:
+# <a name="record-interactions-with-contacts"></a>Registrere interaktioner med kontakter
+Konfiguration af programmet til at registrere interaktioner består af disse opgaver:
 
 * Konfiguration af interaktionsskabeloner  
 * Oprettelse af interaktioner i kontakter eller målgrupper  

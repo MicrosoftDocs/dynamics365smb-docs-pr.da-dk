@@ -11,11 +11,11 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 382bee236225c1038430bb2243c6c54b56ef772e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935942"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240998"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdata til Excel
 Hvis du vil arbejde med dine data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel, kan du åbne alle lister i Excel og arbejde med dem der. På samme måde, hvis du vil annullere dit abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du eksportere dataene til Excel, så du kan tage dem med dig.

@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941630"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245855"
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
 Når du konfigurerer en ny virksomhed, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data). 
 
 For at hjælpe din kunde med at bruge konfigurationspakken, kan du føje et spørgeskema eller et spørgeskemasæt til pakken. Spørgeskemaet kan hjælpe kunden med at forstå de forskellige konfigurationsindstillinger. Typisk oprettes spørgeskemaer for større konfigurationstabeller, hvor en kunde muligvis kræver yderligere vejledning om, hvordan der vælges en relevant indstilling. Du kan finde flere oplysninger i [Indsaml debitoropsætningsværdier](admin-gather-customer-setup-values.md).
 
-Sørg for, at du er på rollecenteret RapidStart Services-implementering. Du kan finde flere oplysninger i [Bruge rollecenteret RapidStart Services-implementering](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
+Kontrollér, at du er på rollecenteret RapidStart Services-implementering. Du kan finde flere oplysninger i [Bruge rollecentret RapidStart Services-implementering](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
 
 > [!IMPORTANT]  
 >  Ved eksport og import af konfigurationspakker mellem to virksomhedsdatabaser, skal databaserne har samme skema for at sikre, at alle data er blevet overført. Dette betyder, at databaserne skal have den samme tabel- og feltstruktur, hvor tabellerne har samme primære nøgler, og felter har samme id'er og datatyper.  
@@ -77,7 +77,7 @@ Pakken oprettes i en .rapidstart-fil, som leverer pakkens indhold i komprimeret 
 Du kan gemme filen med et navn, der er beskrivende for dig, men du kan ikke ændre filtypenavnet. Den skal være .rapidstart.  
 
 ### <a name="to-copy-a-configuration-package"></a>Kopiere en konfigurationspakke  
-Når du har oprettet en pakke, der opfylder de fleste af dine behov, kan du bruge den som grundlag for oprettelse af tilsvarende pakker. Dette kan øge gennemførselstiden og forbedre gentagelserne i RapidStart Services.
+Når du har oprettet en pakke, der opfylder de fleste af dine behov, kan du bruge den som grundlag for oprettelse af tilsvarende pakker. Dette kan gøre gennemførselstiden hurtigere og forbedre gentagelsesaspektet af RapidStart Services.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 2. Vælg en pakke på listen, og vælg derefter handlingen **Kopiér pakke**.  

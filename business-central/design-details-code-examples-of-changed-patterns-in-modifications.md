@@ -14,11 +14,11 @@ ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
 ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915643"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243430"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Designoplysninger: Kodeeksempler af ændrede mønstre i Ændringer
 Dette emne indeholder kodeeksempler til at vise ændrede mønstre i dimensionskodeændring og overflytning for fem forskellige scenarier. Det sammenligner kodeeksempler i tidligere versioner med kodeeksempler i Business Central.

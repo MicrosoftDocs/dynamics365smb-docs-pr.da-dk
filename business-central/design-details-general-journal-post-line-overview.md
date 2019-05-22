@@ -13,11 +13,11 @@ ms.search.keywords: design, general ledger, post
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 5fac91190e5a4cea0648f618ea2a9af0afc65fb6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917572"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246543"
 ---
 # <a name="general-journal-post-line-overview"></a>Oversigt over bogføringslinje i finanskladde
 Codeunit 12 **Finanskladde-Bogføringslinje** er det vigtigste udligningsobjekt til finansbogføring og er det eneste sted at indsætte finans-, moms- og debitor-og kreditorposter. Denne codeunit bruges også til alle handlinger med Udlign, Annuller udligning og Tilbagefør.  

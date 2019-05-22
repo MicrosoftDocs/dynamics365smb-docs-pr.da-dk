@@ -13,11 +13,11 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d2efe0d6d630f3548a41e164f0d71cb98fe09240
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915163"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253213"
 ---
 # <a name="set-up-time-sheets"></a>Konfigurere timesedler
 Timesedler i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndterer tidsregistrering i ugentlige intervaller på syv dage. Du kan bruge til at registrere den tid, der er brugt på sager, og du kan bruge dem til at registrere simpel ressourcetidsregistrering. Før du kan bruge timesedler, skal du angive, hvordan du vil have dem oprettet og konfigureret.

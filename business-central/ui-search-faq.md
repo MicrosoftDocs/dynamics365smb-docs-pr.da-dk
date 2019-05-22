@@ -11,11 +11,11 @@ ms.search.keywords: find
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "937577"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248002"
 ---
 # <a name="tell-me-faq"></a>Ofte stillede spørgsmål om Fortæl mig
 Dette emne indeholder svar på spørgsmål, som vores avancerede brugere ofte stiller om den nye Fortæl mig-funktion, som erstatter den tidligere sidesøgefunktion, der også kaldes **Søg efter side eller rapport**.

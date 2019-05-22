@@ -12,11 +12,11 @@ ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: 82b2dd880618f8ee7f44203db5638ef6da12c5cc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923831"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247785"
 ---
 # <a name="add-and-view-notes-on-records"></a>Tilføje og se noter i poster
  Du <!--OnPrem and your colleagues -->kan føje noter til poster i programmet. Mange sider, især dem, der viser en liste over poster, f.eks. siden **Salgsordrer**, omfatter handlingen **Noter** eller faktaboksen **Noter**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

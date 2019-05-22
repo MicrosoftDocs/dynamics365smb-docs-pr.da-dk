@@ -11,11 +11,11 @@ ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 337f1e679ba2f0b1fcfc0ceb8b3f0ea45ca86ecc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935632"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242979"
 ---
 # <a name="design-details-general-journal-post-line"></a>Designoplysninger: Bogføringslinje i finanskladde
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges til at omdesigne funktionen til finanskladders bogføringslinjer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ombygningen gør codeunit 12 enklere og nemmere at vedligeholde. Dokumentationen starter med at beskrive en grundlæggende oversigt over det nye design. Derefter beskrives den tekniske arkitektur for at vise de ændringer, der stammer fra ombygningen.  

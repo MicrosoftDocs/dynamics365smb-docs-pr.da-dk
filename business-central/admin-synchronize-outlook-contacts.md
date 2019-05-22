@@ -11,11 +11,11 @@ ms.search.keywords: contacts, Office 365
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 93acc30c501b099b829a304650b09b356d2243e7
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924281"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244189"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisere kontaktpersoner i Business Central med kontaktpersoner i Microsoft Outlook
 Du kan se de samme kontaktpersoner i [!INCLUDE[d365fin](includes/d365fin_md.md)] som i Outlook, hvis du har oprettet synkronisering af kontaktpersoner. Hvis du er sælger, udfører du måske noget af dit arbejde i Outlook og noget af dit arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis kontakterne er identiske begge steder, gør det dit arbejde mere enkelt.  

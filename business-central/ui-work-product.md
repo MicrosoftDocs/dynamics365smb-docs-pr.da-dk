@@ -11,11 +11,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: be056212ecfd610cbd7753a6ffc9babb08100359
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "926886"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249725"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.

@@ -13,16 +13,16 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: daf11bb8f219367506cff4fff46caa4f75ec6c86
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938984"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239862"
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiere data til nye virksomheder
 Du kan kopiere værdier, der ofte bruges fra en eksisterende virksomhed til en ny, så længe begge virksomheder er i den samme database. Hvis du f.eks. har en standardliste med symptomkoder, der er fælles for alle dine servicestyringsimplementeringer, kan du nemt kopiere koderne fra én virksomhed til en anden.  
 
-## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Kopiere data til en ny virksomhed ved brug af RapidStart Services  
+## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Sådan kopierer du data til en ny virksomhed ved brug af RapidStart Services  
 1. Åbn det nye regnskab.  
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 3. Vælg **Kopiér data fra virksomhed**.  

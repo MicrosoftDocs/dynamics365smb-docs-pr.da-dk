@@ -12,11 +12,11 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: f3c08748cb6adc0abe90606ab4182a002dbb6dbf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "913914"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249834"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Business Central-udvidelser fra andre leverandører
 På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvidelser til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af andre virksomheder. Vi henviser til disse virksomheders websteder, som indeholder yderligere oplysninger om de udvidelser, som ikke er udgivet af Microsoft. Du kan finde disse oplysninger på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
