@@ -1,1 +1,1 @@
-<span data-ttu-id="c500d-101">Dynamics 365 for Sales</span><span class="sxs-lookup"><span data-stu-id="c500d-101">Dynamics 365 for Sales</span></span>
+<span data-ttu-id="84b8b-101">Dynamics 365 for Sales</span><span class="sxs-lookup"><span data-stu-id="84b8b-101">Dynamics 365 for Sales</span></span>

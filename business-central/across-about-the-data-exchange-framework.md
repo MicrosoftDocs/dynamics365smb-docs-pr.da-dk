@@ -11,25 +11,25 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3c68b40f22503ced21130f57feec7c06b6b2c9f5
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "924352"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245938"
 ---
-# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a><span data-ttu-id="4b39d-103">Om Data Exchange Framework i [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="4b39d-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
-<span data-ttu-id="4b39d-104">Filformatet til udveksling af data i bankfiler, elektroniske dokumenter, valutakurser og andet i ERP-systemer afhænger af udbyderen af datafilen eller streamen og landet/området.</span><span class="sxs-lookup"><span data-stu-id="4b39d-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="4b39d-105">understøtter forskellige bankfilformater og datatjenestestandarder.</span><span class="sxs-lookup"><span data-stu-id="4b39d-105">supports various bank file formats and data service standards.</span></span> <span data-ttu-id="4b39d-106">For at understøtte andre elektroniske dokumentformater kan du bruge dataudvekslingsstrukturen.</span><span class="sxs-lookup"><span data-stu-id="4b39d-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="4b39d-107">Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="4b39d-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span></span>    
+# <a name="about-the-data-exchange-framework-in-included365finincludesd365finmdmd"></a><span data-ttu-id="94fa1-103">Om Data Exchange Framework i [!INCLUDE[d365fin](includes/d365fin_md.md)]</span><span class="sxs-lookup"><span data-stu-id="94fa1-103">About the Data Exchange Framework in [!INCLUDE[d365fin](includes/d365fin_md.md)]</span></span>
+<span data-ttu-id="94fa1-104">Filformatet til udveksling af data i bankfiler, elektroniske dokumenter, valutakurser og andet i ERP-systemer afhænger af udbyderen af datafilen eller streamen og landet/området.</span><span class="sxs-lookup"><span data-stu-id="94fa1-104">The format of files for exchange of data in bank files, electronic documents, currency exchange rates, and other with ERP systems vary depending on the provider of the data file or stream and on the country/region.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="94fa1-105">understøtter forskellige bankfilformater og datatjenestestandarder.</span><span class="sxs-lookup"><span data-stu-id="94fa1-105">supports various bank file formats and data service standards.</span></span> <span data-ttu-id="94fa1-106">For at understøtte andre elektroniske dokumentformater kan du bruge dataudvekslingsstrukturen.</span><span class="sxs-lookup"><span data-stu-id="94fa1-106">To provide support for other electronic document formats, you use the data exchange framework.</span></span> <span data-ttu-id="94fa1-107">Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).</span><span class="sxs-lookup"><span data-stu-id="94fa1-107">For more information, see [Exchanging Data Electronically](across-data-exchange.md).</span></span>    
 
- <span data-ttu-id="4b39d-108">Følgende diagrammer viser arkitektur af dataudvekslingsstrukturen.</span><span class="sxs-lookup"><span data-stu-id="4b39d-108">The following diagrams show the architecture of the data exchange framework.</span></span>  
+ <span data-ttu-id="94fa1-108">Følgende diagrammer viser arkitektur af dataudvekslingsstrukturen.</span><span class="sxs-lookup"><span data-stu-id="94fa1-108">The following diagrams show the architecture of the data exchange framework.</span></span>  
 
  ![Dataudvekslingsstruktur &#45; Import](media/across-data-exchange/dataexchangeframework_import.png)  
 
  ![Dataudvekslingsstruktur &#45; Eksport](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## <a name="see-also"></a><span data-ttu-id="4b39d-111">Se også</span><span class="sxs-lookup"><span data-stu-id="4b39d-111">See Also</span></span>  
-[<span data-ttu-id="4b39d-112">Udveksle data elektronisk</span><span class="sxs-lookup"><span data-stu-id="4b39d-112">Exchanging Data Electronically</span></span>](across-data-exchange.md)  
-[<span data-ttu-id="4b39d-113">Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner</span><span class="sxs-lookup"><span data-stu-id="4b39d-113">Use XML Schemas to Prepare Data Exchange Definitions</span></span>](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
-[<span data-ttu-id="4b39d-114">Konfigurere dataudveksling</span><span class="sxs-lookup"><span data-stu-id="4b39d-114">Setting Up Data Exchange</span></span>](across-set-up-data-exchange.md)  
-[<span data-ttu-id="4b39d-115">Udveksle data</span><span class="sxs-lookup"><span data-stu-id="4b39d-115">Exchanging Data</span></span>](across-exchange-data.md)  
-[<span data-ttu-id="4b39d-116">Indgående bilag</span><span class="sxs-lookup"><span data-stu-id="4b39d-116">Incoming Documents</span></span>](across-income-documents.md)  
-[<span data-ttu-id="4b39d-117">Generelle forretningsfunktioner</span><span class="sxs-lookup"><span data-stu-id="4b39d-117">General Business Functionality</span></span>](ui-across-business-areas.md)  
+## <a name="see-also"></a><span data-ttu-id="94fa1-111">Se også</span><span class="sxs-lookup"><span data-stu-id="94fa1-111">See Also</span></span>  
+[<span data-ttu-id="94fa1-112">Udveksle data elektronisk</span><span class="sxs-lookup"><span data-stu-id="94fa1-112">Exchanging Data Electronically</span></span>](across-data-exchange.md)  
+[<span data-ttu-id="94fa1-113">Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner</span><span class="sxs-lookup"><span data-stu-id="94fa1-113">Use XML Schemas to Prepare Data Exchange Definitions</span></span>](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[<span data-ttu-id="94fa1-114">Konfigurere dataudveksling</span><span class="sxs-lookup"><span data-stu-id="94fa1-114">Setting Up Data Exchange</span></span>](across-set-up-data-exchange.md)  
+[<span data-ttu-id="94fa1-115">Udveksle data</span><span class="sxs-lookup"><span data-stu-id="94fa1-115">Exchanging Data</span></span>](across-exchange-data.md)  
+[<span data-ttu-id="94fa1-116">Indgående bilag</span><span class="sxs-lookup"><span data-stu-id="94fa1-116">Incoming Documents</span></span>](across-income-documents.md)  
+[<span data-ttu-id="94fa1-117">Generelle forretningsfunktioner</span><span class="sxs-lookup"><span data-stu-id="94fa1-117">General Business Functionality</span></span>](ui-across-business-areas.md)  

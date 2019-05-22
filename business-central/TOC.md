@@ -1,5 +1,6 @@
-# [Introduktion](product-get-started.md)
 # [Velkommen til Business Central](index.md)
+# Introduktion
+## [Oversigt](product-get-started.md)
 ## [Nyheder](product-news.md)
 ## [Minimumkrav](product-requirements.md)
 ## [Ofte stillede spørgsmål](across-faq.md)
@@ -13,9 +14,10 @@
 ## [Besøg vores videobibliotek](across-videos.md)
 ## [Blive forhandler af](product-sell.md)
 ## [Udvide Business Central](about-develop-extensions.md)
-### [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)
+## [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)
 
-# [Arbejde med Business Central](ui-work-product.md)
+# Arbejde med Business Central
+## [Oversigt](ui-work-product.md)
 ## [Finde funktioner og oplysninger](ui-search.md)
 ## [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
 ## [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)
@@ -28,27 +30,33 @@
 ## [Få vist og redigere i Excel](across-work-with-excel.md)  
 ## [Administration af meddelelser](ui-smart-notifications.md)
 ## [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)
-## [Tilpasse dit arbejdsområde](ui-personalization-user.md)
+## Tilpasse Business Central
+### [Tilpasse dit arbejdsområde](ui-personalization-user.md)
 ### [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md)
 ### [Få vist lister på forskellige måder](across-display-lists-different-views.md)
-## [Arbejde med rapporter og kørsler](ui-work-report.md)
+## Udskrive rapporter og afvikle kørsler
+### [Arbejde med rapporter og kørsler](ui-work-report.md)
 ### [Angive printervalg for rapporter](ui-specify-printer-selection-reports.md)
 ### [Planlægge kørsel af en rapport eller planlægge en kørsel](ui-work-report.md#ScheduleReport)
 ### [Administrere gemte indstillinger i rapporter](reports-saving-reusing-settings.md)
 ### [Vise testrapporter inden bogføring](ui-how-view-test-reports-posting.md)
 ### [Afvikle kørsler](ui-how-run-batch-jobs.md)
-## [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)
+## Ændre udseendet af dokumenter
+### [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)
 ### [Opdatere rapport- eller dokumentlayout](ui-update-report-layouts.md)
 ### [Foretage ændringer af et Word-rapportlayout](ui-how-create-custom-report-layout.md)
 ### [Importere og eksportere et rapport- eller dokumentlayout](ui-how-import-and-export-report-layout.md)
 ### [Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md)
 ### [Føje felter til et Word-rapportlayout](ui-how-add-fields-word-report-layout.md)
-## [Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)
+## Bruge tastaturgenveje
+### [Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)
 ### [Tastaturgenveje](keyboard-shortcuts.md)
 ### [Hurtig reference til tastaturgenveje](keyboard-shortcuts-cheatsheet.md)
 
-# [Konfigurere Business Central](setup.md)
-## [Konfigurere Finans](finance-setup-finance.md)
+# Konfigurere Business Central
+## [Oversigt](setup.md)
+## Konfigurere Finans
+### [Oversigt](finance-setup-finance.md)
 ### [Definere betalingsformer](finance-payment-methods.md)
 ### [Konfigurere bogføringsgrupper](finance-posting-groups.md)
 ### [Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
@@ -65,16 +73,17 @@
 ### [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)
 ### [Konfigurere kontantkunder](finance-how-to-set-up-cash-customers.md)
 ### [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)
-### [Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)
 ### [Bruge fordelingsnøgler i finanskladder](ui-how-use-allocation-keys-general-journals.md)
 
-## [Konfigurere banktransaktioner](bank-setup-banking.md)
+## Konfigurere banktransaktioner
+### [Oversigt](bank-setup-banking.md)
 ### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
 ### [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
 ### [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md)
 ### [Definere checklayout](finance-how-define-check-layouts.md)
 
-## [Konfigurere salg](sales-setup-sales.md)
+## Konfigurere salg
+### [Oversigt](sales-setup-sales.md)
 ### [Registrere nye debitorer](sales-how-register-new-customers.md)
 ### [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md)
 ### [Registrere specialsalgspriser og -rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
@@ -83,13 +92,15 @@
 ### [Sende dokumenter som mail](ui-how-send-documents-email.md)
 ### [Oprette speditører](sales-how-to-set-up-shipping-agents.md)
 
-## [Opsætning af indkøb](purchasing-setup-purchasing.md)
+## Opsætning af indkøb
+### [Oversigt](purchasing-setup-purchasing.md)
 ### [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)
 ### [Registrere særlige købspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### [Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md)
 ### [Oprette indkøbere](purchasing-how-setup-purchasers.md)
 
-## [Opsætning af lagerbeholdning](inventory-setup-inventory.md)
+## Opsætning af lagerbeholdning
+### [Oversigt](inventory-setup-inventory.md)
 ### [Konfigurere generelle lageroplysninger](inventory-how-setup-general.md)
 ### [Arbejde med ansvarscentre](inventory-responsibility-centers.md)
 ### [Opsætte lokationer](inventory-how-setup-locations.md)
@@ -98,21 +109,24 @@
 ### [Oprette vareenheder](inventory-how-setup-units-of-measure.md)
 ### [Opsætte lagervarer](inventory-how-to-set-up-stockkeeping-units.md)
 ### [Kategorisere varer](inventory-how-categorize-items.md)
-### [Importér flere varebilleder](inventory-how-import-item-pictures.md)
+### [Importere flere varebilleder](inventory-how-import-item-pictures.md)
 
-## [Konfigurere projektstyring](projects-setup-projects.md)
+## Konfigurere projektstyring
+### [Oversigt](projects-setup-projects.md)
 ### [Konfigurere ressourcer](projects-how-setup-resources.md)
 ### [Konfigurere timesedler](projects-how-setup-time-sheets.md)
 ### [Opsætte sager](projects-how-setup-jobs.md)
 
-## [Opsætning af anlægsaktiver](fa-setup.md)
+## Opsætning af anlægsaktiver
+### [Oversigt](fa-setup.md)
 ### [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md)
 ### [Opsætte afskrivning af anlægsaktiv](fa-how-setup-depreciation.md)
 ### [Definere afskrivningsmetoder](fa-depreciation-methods.md)
 ### [Definere anlægsforsikring](fa-how-setup-insurance.md)
 ### [Definere anlægsreparation](fa-how-setup-maintenance.md)
 
-## [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)
+## Sådan konfigureres logistikfunktioner
+### [Oversigt](warehouse-setup-warehouse.md)
 ### [Designoplysninger: Oversigt over logistik](design-details-warehouse-overview.md)
 ### [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md)
 ### [Oprette placeringer](warehouse-how-to-create-individual-bins.md)
@@ -129,7 +143,8 @@
 ### [Aktivere ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)
 
-## [Konfigurere produktion](production-configure-production-processes.md)
+## Konfigurere produktion
+### [Oversigt](production-configure-production-processes.md)
 ### [Oprette arbejdscenterkalendere](production-how-to-create-work-center-calendars.md)
 ### [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md)
 ### [Oprette ruter](production-how-to-create-routings.md)
@@ -140,7 +155,8 @@
 ### [Konfigurere standardrutelinjer](production-how-set-up-standard-routing-lines.md)
 ### [Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)
 
-## [Konfigurere Service](service-setup-service.md)
+## Konfigurere Service
+### [Oversigt](service-setup-service.md)
 ### [Oprette serviceartikler](service-how-to-create-service-items.md)
 ### [Konfigurere standardservicekoder](service-how-setup-service-coding.md)
 ### [Konfigurere serviceprocesser](service-setup-service-processes.md)
@@ -155,22 +171,24 @@
 ### [Oprette et udlånsprogram](service-how-setup-loaner-program.md)
 ### [Opsætte servicekontrakter](service-how-setup-service-contracts.md)
 
-## [Konfigurere komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)
-### [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)
-### [Oprette bedste fremgangsmåder: Planlægningsparametre](setup-best-practices-planning-parameters.md)
-### [Oprette bedste fremgangsmåder: Global planlægningsopsætning](setup-best-practices-global-planning-setup.md)
-#### [Oprette bedste fremgangsmåder: Genbestillingspolitikker](setup-best-practices-reordering-policies.md)
+## Konfigurere komplekse moduler ved hjælp af bedste praksis
+### [Oversigt](set-up-complex-application-areas-using-best-practices.md)
+### Oprette bedste fremgangsmåder: Forsyningsplanlægning
+#### [Oversigt](setup-best-practices-supply-planning.md)
 #### [Oprette bedste fremgangsmåder: Planlægningsparametre](setup-best-practices-planning-parameters.md)
 #### [Oprette bedste fremgangsmåder: Global planlægningsopsætning](setup-best-practices-global-planning-setup.md)
+#### [Oprette bedste fremgangsmåder: Genbestillingspolitikker](setup-best-practices-reordering-policies.md)
 ### [Konfigurere bedste fremgangsmåde: kostmetode](setup-best-practices-costing-method.md)
-### [Oprette bedste fremgangsmåder: Genbestillingspolitikker](setup-best-practices-reordering-policies.md)
 
-## [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)
+## Oprette en virksomhed med RapidStart Services
+### [Oversigt](admin-set-up-a-company-with-rapidstart.md)
 ### [Bruge rollecenteret RapidStart Services-implementering](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md)
-### [Konfigurere virksomhedskonfiguration](admin-set-up-company-configuration.md)
+### Konfigurere virksomhedskonfiguration
+#### [Oversigt](admin-set-up-company-configuration.md)
 #### [Administrere virksomhedskonfigurationen i et regneark](admin-how-to-manage-company-configuration-in-a-worksheet.md)
 #### [Forberede en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md)
-### [Anvende konfigurationer på nye virksomheder](admin-apply-configuration-to-new-companies.md)
+### Anvende konfigurationer på nye virksomheder
+#### [Oversigt](admin-apply-configuration-to-new-companies.md)
 #### [Oprette en ny virksomhed](admin-how-to-create-a-new-company.md)
 #### [Konfigurere nye virksomheder](admin-how-to-configure-new-companies.md)
 #### [Konfigurere en virksomhed med guiden RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
@@ -181,13 +199,16 @@
 ### [Overflytte debitordata](admin-migrate-customer-data.md)
 ### [Oprette brugerdefinerede virksomhedsskabeloner](admin-how-to-create-custom-company-configuration-packages.md)
 ### [Tip: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-## [Bruge Business Central som din virksomheds indbakke i Outlook](admin-outlook.md)
+## Bruge Outlook sammen med Business Central
+### [Bruge Business Central som din virksomheds indbakke i Outlook](admin-outlook.md)
 ### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Bruge Business Central uden Outlook](admin-no-outlook.md)
-## [Aktivere virksomhedens data til Power BI](admin-powerbi.md)
+## Bruge Power BI sammen med Business Central
+### [Aktivere virksomhedens data til Power BI](admin-powerbi.md)
 ### [Vise listedata i Power BI-rapporter i Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Bruge Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)
-## [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)
+## Bruge Flow sammen med Business Central
+### [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)
 ### [Fejlfinding af integration med Microsoft Flow - URL-adresse til anmodning er for lang](across-troubleshooting-how-use-financials-data-source-flow.md)
 ## [Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af PowerApps](across-how-use-financials-data-source-powerapps.md)
 ## [Skifte fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
@@ -199,7 +220,8 @@
 ## [Oprette nummerserie](ui-create-number-series.md)
 ## [Opsætning af basiskalendere](across-how-to-assign-base-calendars.md)
 
-# [Generelle forretningsfunktioner](ui-across-business-areas.md)
+# Generelle forretningsfunktioner
+## [Oversigt](ui-across-business-areas.md)
 ## [Føje bemærkninger til kort og dokumenter](across-how-use-comments.md)
 ## [Spor dokumentlinjer](across-how-to-track-document-lines.md)
 ## [Sende dokumenter som mail](ui-how-send-documents-email.md)
@@ -215,7 +237,71 @@
 ## [Du kan bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
 ## [Lade Business Central foreslå værdier](ui-let-system-suggest-values.md)
 
-# [Opsætning](admin-setup-and-administration.md)
+## Indgående bilag
+### [Oversigt](across-income-documents.md)
+### [Konfigurere indgående bilag](across-how-setup-income-documents.md)
+### Behandle indgående bilag
+#### [Oversigt](across-process-income-documents.md)
+#### [Oprette indgående dokumentposter](across-how-create-income-document-records.md)
+#### [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
+#### [Oprette indgående dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)
+#### [Finde bogførte dokumenter uden indgående dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
+#### [Administrere mange indgående dokumentposter](across-how-manage-many-income-document-records.md)
+
+## Workflow
+### [Oversigt](across-workflow.md)
+### Opsætte workflows
+#### [Oversigt](across-set-up-workflows.md)
+#### [Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md)
+#### [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)
+#### [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)
+#### [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Oprette og ændre et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md)
+#### [Konfigurere mail](admin-how-setup-email.md)
+#### [Oprette arbejdsgange](across-how-to-create-workflows.md)
+#### [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Eksportere og importere workflows](across-how-to-export-and-import-workflows.md)
+#### [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Gennemgang: Implementering af nye workflowhændelser og -responser](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
+### Anvende workflows
+#### [Oversigt](across-use-workflows.md)
+#### [Aktivere arbejdsgange](across-how-to-enable-workflows.md)
+#### [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)
+#### [Begrænse og tillade brugen af en record](across-how-to-restrict-and-allow-usage-of-a-record.md)
+#### [Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)
+#### [Slette arbejdsgange](across-how-to-delete-workflows.md)
+
+## Udveksle data elektronisk
+### [Oversigt](across-data-exchange.md)
+### [Om Data Exchange Framework](across-about-the-data-exchange-framework.md)
+### Konfigurere dataudveksling
+#### [Oversigt](across-set-up-data-exchange.md)
+#### [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)
+#### [Konfigurere indgående bilag](across-how-setup-income-documents.md)
+#### [Opdatere valutakurser](finance-how-update-currencies.md)
+#### [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)
+#### [Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)
+#### [Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md)
+#### [Konfigurere tjenesten til bankkontoudtog](bank-how-setup-bank-statement-service.md)
+#### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
+#### [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
+#### [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
+### Udveksle data
+#### [Oversigt](across-exchange-data.md)
+#### [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md)
+#### [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
+#### [Modtage og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)
+#### [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
+#### [Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)
+#### [Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Opdatere valutakurser](finance-how-update-currencies.md)
+#### [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
+#### [Feltkobling, når du eksporterer betalingsfiler ved hjælp af tjeneste til konvertering af bankdata](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+
+# Opsætning
+## [Oversigt](admin-setup-and-administration.md)
 ## [Forstå profiler og rollecentre](admin-users-profiles-roles.md)
 ## [Administrere brugere og deres rettigheder](ui-how-users-permissions.md)
 ## [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md)
@@ -230,15 +316,19 @@
 ## [Udvide din prøveversion](admin-extend-trial.md)
 ## [Inspicere sider](across-inspect-page.md)
 ## [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md)
-## [Integration med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integration med Dynamics 365 for Sales
+### [Oversigt](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ### [Konfiguration af integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Konfigurere en Dynamics 365 for Sales-forbindelse](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkronisere Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Rediger tabeltilknytninger til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkroniser tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-## [Tilpasse Business Central](ui-customizing-overview.md)
-### [Tilpasse ved hjælp af udvidelser](ui-extensions.md)
+## Tilpasse Business Central
+### [Oversigt](ui-customizing-overview.md)
+### Tilpasse ved hjælp af udvidelser
+#### [Oversigt](ui-extensions.md)
+#### [Tilpasse ved hjælp af udvidelser](ui-extensions.md)
 #### [Ceridian løn](ui-extensions-ceridian-payroll.md)
 #### [Datareplikering](ui-extensions-data-replication.md)
 #### [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
@@ -262,9 +352,12 @@
 ### [Administrere tilpasning som administrator](ui-personalization-manage.md)
 ### [Oprette en farvet indikator på køindikatorer](admin-how-set-up-colored-indicator-on-cues.md)
 
-# [Finans](finance.md)
-## [Administrere tilgodehavender](receivables-manage-receivables.md)
-### [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+# Finans
+## [Oversigt](finance.md)
+## Administrere tilgodehavender
+### [Oversigt](receivables-manage-receivables.md)
+### Udligne betalinger automatisk og afstemme bankkonti
+#### [Oversigt](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)
 #### [Gennemse eller udligne betalinger manuelt efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md)
 #### [Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md)
@@ -278,8 +371,10 @@
 ### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Udvidelsen Forudsigelse af forsinket betaling](ui-extensions-late-payment-prediction.md)
 
-## [Administrere skyldige beløb](payables-manage-payables.md)
-### [Foretage betaling](payables-make-payments.md)
+## Administrere skyldige beløb
+### [Oversigt](payables-manage-payables.md)
+### Foretage betaling
+#### [Oversigt](payables-make-payments.md)
 #### [Arbejde med finanskladder](ui-work-general-journals.md)
 #### [Registrere betalinger og refusioner](payables-how-post-payments-refunds.md)
 #### [Lav forslag](payables-how-suggest-vendor-payments.md)
@@ -287,7 +382,8 @@
 #### [Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Afregne købsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)
-### [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### Udligne betalinger automatisk og afstemme bankkonti
+#### [Oversigt](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)
 #### [Gennemse eller udligne betalinger manuelt efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md)
 #### [Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md)
@@ -302,22 +398,26 @@
 ### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Udvidelsen Forudsigelse af forsinket betaling](ui-extensions-late-payment-prediction.md)
 
-## [Fakturere forudbetalinger](finance-invoice-prepayments.md)
+## Fakturere forudbetalinger
+### [Oversigt](finance-invoice-prepayments.md)
 ### [Oprette forudbetalinger](finance-set-up-prepayments.md)
 ### [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md)
 ### [Rette forudbetalinger](finance-how-to-correct-prepayments.md)
 
-## [Håndtere bankkonti](bank-manage-bank-accounts.md)
+## Håndtere bankkonti
+### [Oversigt](bank-manage-bank-accounts.md)
 ### [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Afstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md)  
 ### [Overføre bankbeløb](bank-how-transfer-bank-funds.md)
 
-## [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)
+## Administrere Intercompany-transaktioner (IC)
+### [Oversigt](intercompany-manage.md)
 ### [Konfigurere mellemregning](intercompany-how-setup.md)
 ### [Arbejde med koncerninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)
 ### [Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md)
 
-## [Regnskab for omkostninger](finance-manage-cost-accounting.md)
+## Regnskab for omkostninger
+### [Oversigt](finance-manage-cost-accounting.md)
 ### [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)
 ### [Om omkostningsregnskab](finance-about-cost-accounting.md)
 ### [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)
@@ -326,7 +426,8 @@
 ### [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)
 ### [Sletning af omkostningsbudgetposter](finance-how-to-delete-cost-budget-entries.md)
 
-## [Administrere lageromkostninger](finance-manage-inventory-costs.md)
+## Administrere lageromkostninger
+### [Oversigt](finance-manage-inventory-costs.md)
 ### [Om lagerkostmetode](finance-learn-about-costing.md)
 ### [Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)
 ### [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
@@ -338,11 +439,14 @@
 ### [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)
 ### [Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)
 ### [Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-### [Rapportere omkostninger og afstemme med regnskabet](finance-report-costs-and-reconcile-with-the-general-ledger.md)
-#### [Afstemme lagerværdier med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+### Rapportere omkostninger og afstemme med regnskabet
+#### [Oversigt](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+#### [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 #### [Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md)
 
-## [Afslutning af år og perioder](year-close-years-periods.md)
+## Afslutning af år og perioder
+### [Oversigt](year-close-years-periods.md)
+### [Arbejde med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
 ### [Angive bogføringsperioder](finance-how-specify-posting-periods.md)
 ### [Ultimoperioder](year-how-complete-period-end-processes.md)
 ### [Opdatere valutakurser](finance-how-update-currencies.md)
@@ -355,10 +459,7 @@
 ### [Nulstille resultatopgørelseskonti](year-close-income-statement.md)
 ### [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)
 
-## [Revisoroplevelser i Business Central](finance-accounting.md)
-### [Invitere din eksterne revisor indenfor i Business Central](finance-invite-external-accountant.md)  
 ## [Om Finans og kontoplanen](finance-general-ledger.md)
-## [Arbejde med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
 ## [Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)
 ## [Arbejde med dimensioner](finance-dimensions.md)
 ## [Oprette finansbudgetter](finance-how-create-budgets.md)
@@ -368,15 +469,18 @@
 ## [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)
 ## [Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)
 ## [Periodisere indtægter og udgifter](finance-how-defer-revenue-expenses.md)
+## [Opdatere valutakurser](finance-how-update-currencies.md)
 ## [Importér løntransaktioner](finance-how-import-payroll-transactions.md)
+## [Arbejde med moms af salg og køb](finance-work-with-vat.md)
 ## [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)
-## [Arbejde moms af salg og køb](finance-work-with-vat.md)
 ## [Konvertere servicekontrakter, som omfatter momsbeløb](service-how-to-convert-service-contracts.md)
-## [Analysere regnskaber i Excel](finance-analyze-excel.md)
 ## [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)
 ## [Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+## [Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md)
+## [Revisoroplevelser i Business Central](finance-accounting.md)
 
-# [Business Intelligence](bi.md)
+# Business Intelligence
+## [Oversigt](bi.md)
 ## [Analysere faktiske beløb sammenlignet med budgetterede beløb](bi-how-analyze-actual-versus-budget.md)
 ## [Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
 ## [Konfigurere og udgive KPI-webtjenester, der er baseret på kontoskemaer](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -384,7 +488,8 @@
 ## [Oprette analyserapporter](bi-how-create-analysis-views-reports.md)
 ## [Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md)
 
-# [Salg](sales-manage-sales.md)
+# Salg
+## [Oversigt](sales-manage-sales.md)
 ## [Registrere nye debitorer](sales-how-register-new-customers.md)
 ## [Oprette salgstilbud](sales-how-make-offers.md)
 ## [Fakturere salg](sales-how-invoice-sales.md)
@@ -403,7 +508,8 @@
 ## [Oprette et forecast](production-how-to-create-a-forecast.md)
 ## [Flette dublerede poster](sales-how-merge-duplicate-records.md)
 
-# [Køb](purchasing-manage-purchasing.md)
+# Indkøb
+## [Oversigt](purchasing-manage-purchasing.md)
 ## [Registrere køb](purchasing-how-record-purchases.md)
 ## [Anmode om tilbud](purchasing-how-request-quotes.md)
 ## [Købe varer til et salg](purchasing-how-purchase-products-sale.md)
@@ -415,7 +521,8 @@
 ## [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)
 ## [Flette dublerede poster](sales-how-merge-duplicate-records.md)
 
-# [Lagerbeholdning](inventory-manage-inventory.md)
+# Lagerbeholdning
+## [Oversigt](inventory-manage-inventory.md)
 ## [Registrere nye varer](inventory-how-register-new-items.md)
 ## [Arbejde med styklister](inventory-how-work-BOMs.md)
 ## [Kategorisere varer](inventory-how-categorize-items.md)
@@ -432,7 +539,8 @@
 ## [Spærre for varer](inventory-how-block-items.md)
 ## [Arbejde med ansvarscentre](inventory-responsibility-centers.md)
 
-# [Projektstyring](projects-manage-projects.md)
+# Projektstyring
+## [Oversigt](projects-manage-projects.md)
 ## [Oprette sager](projects-how-create-jobs.md)
 ## [Bruge ressourcer til sager](projects-how-use-resources.md)
 ## [Bruge timesedler for sager](projects-how-use-time-sheets.md)
@@ -443,7 +551,8 @@
 ## [Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md)
 ## [Fakturere sager](projects-how-invoice-jobs.md)
 
-# [Anlægsaktiver](fa-manage.md)
+# Anlægsaktiver
+## [Oversigt](fa-manage.md)
 ## [Anskaffede anlægsaktiver](fa-how-acquire.md)
 ## [Vedligeholde anlægsaktiver](fa-how-maintain.md)
 ## [Forsikring af anlægsaktiver](fa-how-insure.md)
@@ -453,34 +562,43 @@
 ## [Afhænde eller lade anlægsaktiver udgå](fa-how-dispose-retire.md)
 ## [Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md)
 
-# [Relationsstyring](marketing-relationship-management.md)
+# Relationsstyring
+## [Oversigt](marketing-relationship-management.md)
 ## [Opsætning af Relationsstyring](marketing-setup-marketing.md)
-## [Administrere kontakter](marketing-contacts.md)
+## Administrere kontakter
+### [Oversigt](marketing-contacts.md)
 ### [Opsætning af kontakter](marketing-setup-contacts.md)
 ### [Oprette kontakter](marketing-create-contact-companies.md)
+### [Bruge profilspørgeskemaer til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md)
 ### [Flette dublerede poster](sales-how-merge-duplicate-records.md)
-### [Oprette kontaktpersoner](marketing-create-contact-persons.md)
-## [Administrere målgrupper](marketing-segments.md)
+## Administrere målgrupper
+### [Oversigt](marketing-segments.md)
 ### [Oprette målgrupper](marketing-how-create-segment.md)
 ### [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md)
-### [Administrere interaktion og målgrupper](marketing-interaction-segments.md)
-## [Administrere interaktioner](marketing-interactions.md)
-## [Administration af marketingkampagner](marketing-campaigns.md)
+### [Administrere interaktioner for målgrupper](marketing-interaction-segments.md)
+## Administrere interaktioner
+### [Oversigt](marketing-interactions-overview.md)
+### [Registrere interaktioner med kontakter](marketing-interactions.md)
 ### [Oprette interaktioner for kontakter og målgrupper](marketing-how-create-interactions.md)
 ### [Automatisk registrere interaktioner med kontakter](marketing-auto-record-interactions.md)
-## [Administrere salgsleads](marketing-manage-sales-opportunities.md)
+## Administrere salgsleads
+### [Oversigt](marketing-manage-sales-opportunities.md)
 ### [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Oprette salgsmuligheder](marketing-how-create-opportunities.md)
-### [Behandling af salgsleads](marketing-processing-sales-opportunities.md)
-## [Bruge profilspørgeskemaer til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md)
-## [Brug af Dynamics 365 for Sales fra Business Central](marketing-integrate-dynamicscrm.md)
+### [Behandle salgsleads](marketing-processing-sales-opportunities.md)
+## [Administration af marketingkampagner](marketing-campaigns.md)
+## Integration med Dynamics 365 for Sales
+### [Brug af Dynamics 365 for Sales fra Business Central](marketing-integrate-dynamicscrm.md)
 ### [Sammenkæde og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [Se status på en synkronisering](admin-how-to-view-synchronization-status.md)
-# [Personale](hr-manage-human-resources.md)
+
+# Personale
+## [Oversigt](hr-manage-human-resources.md)
 ## [Registrere medarbejdere](hr-how-register-employees.md)
 ## [Administrere medarbejderfravær](hr-how-manage-absence.md)
 
-# [Skabelon](production-planning.md)
+# Planlægning
+## [Oversigt](production-planning.md)
 ## [Om planlægningsfunktionen](production-about-planning-functionality.md)
 ## [Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)
 ## [Planlægge med eller uden lokationer](production-planning-with-without-locations.md)
@@ -493,7 +611,8 @@
 ## [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md)
 ## [Ændre planlægningsforslag i en grafisk visning](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
 
-# [Montagestyring](assembly-assemble-items.md)
+# Montagestyring
+## [Oversigt](assembly-assemble-items.md)
 ## [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md)
 ## [Oprette tilbud på montage til ordre-salg](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ## [Montere varer](assembly-how-to-assemble-items.md)
@@ -505,7 +624,8 @@
 ## [Arbejde med styklister](inventory-how-work-BOMs.md)
 ## [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)
 
-# [Produktion](production-manage-manufacturing.md)
+# Produktion
+## [Oversigt](production-manage-manufacturing.md)
 ## [Om produktionsordrer](production-about-production-orders.md)
 ## [Oprette produktionsordrer](production-how-to-create-production-orders.md)
 ## [Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)
@@ -518,10 +638,12 @@
 ## [Bogføre kapaciteter](production-how-to-post-capacities.md)
 ## [Om de færdige produktionsomkostninger](finance-about-finished-production-order-costs.md)
 
-# [Logistik](warehouse-manage-warehouse.md)
+# Logistik
+## [Oversigt](warehouse-manage-warehouse.md)
 ## [Modtage varer](warehouse-how-receive-items.md)
 ## [Afsende varer direkte](warehouse-how-to-cross-dock-items.md)
-## [Lægge varer på lager](warehouse-put-away-items.md)
+## Lægge varer på lager
+### [Oversigt](warehouse-put-away-items.md)
 ### [Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 ### [Lægge varer på lager med Læg-på-lager (logistik)](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
 ### [Lægge produktions- eller montageafgange på lager](warehouse-how-to-put-away-production-output.md)
@@ -529,13 +651,15 @@
 ### [Plukke og lægge på lager uden et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 ### [Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
 ### [Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-## [Flytte varer](warehouse-move-items.md)
+## Flytte varer
+### [Oversigt](warehouse-move-items.md)
 ### [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
 ### [Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md)
 ### [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 ### [Beregn genopfyldning](warehouse-how-to-calculate-bin-replenishment.md)
 ### [Planlægge lagerbevægelser i kladder](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)
-## [Plukke varer](warehouse-pick-items.md)
+## Plukke varer
+### [Oversigt](warehouse-pick-items.md)
 ### [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)
 ### [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)
 ### [Plukke til produktion eller montage i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md)
@@ -549,17 +673,21 @@
 ## [Finde dine lageropgaver](warehouse-how-to-find-your-warehouse-assignments.md)
 ## [Brug ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)
 
-# [Service Management](service-service.md)
-## [Planlægning af service](service-plan-service.md)
+# Service Management
+## [Oversigt](service-service.md)
+## Planlægning af service
+### [Oversigt](service-plan-service.md)
 ### [Serviceprisstyring](service-service-price-management.md)
 ### [Serviceordrestatus og reparationsstatus](service-service-order-status-and-repair-status.md)
 ### [Allokeringsstatus og reparationsstatus for serviceartikler](service-allocation-status-and-repair-status.md)
 ### [Visning af servicestatistik](service-service-statistics.md)
-## [Opfylde servicekontrakter](service-fulfill-service-contracts.md)
+## Opfylde servicekontrakter
+### [Oversigt](service-fulfill-service-contracts.md)
 ### [Flere kontrakter](service-multiple-contracts.md)
 ### [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)
 ### [Ændre det årlige beløb på servicekontrakter eller kontrakttilbud](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
-## [Levering af service](service-deliver-service.md)
+## Levering af service
+### [Oversigt](service-deliver-service.md)
 ### [Oprette servicetilbud](service-how-to-create-service-quotes.md)
 ### [Oprette serviceordrer](service-how-to-create-service-orders.md)
 ### [Oprette servicefakturaer eller -kreditnotaer](service-how-create-invoices.md)
@@ -569,62 +697,8 @@
 ### [Bogføre serviceordrer og kreditnotaer](service-how-to-post-service-orders.md)
 ### [Udlåne og modtage udlånsvarer](service-how-to-lend-receive-loaners.md)
 
-## [Indgående bilag](across-income-documents.md)
-### [Konfigurere indgående bilag](across-how-setup-income-documents.md)
-### [Behandle indgående bilag](across-process-income-documents.md)
-#### [Oprette indgående dokumentposter](across-how-create-income-document-records.md)
-#### [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
-#### [Oprette indgående dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)
-#### [Finde bogførte dokumenter uden indgående dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
-#### [Administrere mange indgående dokumentposter](across-how-manage-many-income-document-records.md)
-
-## [Workflow](across-workflow.md)
-### [Opsætte workflows](across-set-up-workflows.md)
-#### [Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md)
-#### [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)
-#### [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)
-#### [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Oprette og ændre et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md)
-#### [Konfigurere mail](admin-how-setup-email.md)
-#### [Oprette arbejdsgange](across-how-to-create-workflows.md)
-#### [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Eksportere og importere workflows](across-how-to-export-and-import-workflows.md)
-#### [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Gennemgang: Implementering af nye workflowhændelser og -responser](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)
-### [Anvende workflows](across-use-workflows.md)
-#### [Aktivere arbejdsgange](across-how-to-enable-workflows.md)
-#### [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)
-#### [Begrænse og tillade brugen af en record](across-how-to-restrict-and-allow-usage-of-a-record.md)
-#### [Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)
-#### [Slette arbejdsgange](across-how-to-delete-workflows.md)
-
-## [Udveksle data elektronisk](across-data-exchange.md)
-### [Om Data Exchange Framework](across-about-the-data-exchange-framework.md)
-### [Konfigurere dataudveksling](across-set-up-data-exchange.md)
-#### [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)
-#### [Konfigurere indgående bilag](across-how-setup-income-documents.md)
-#### [Opdatere valutakurser](finance-how-update-currencies.md)
-#### [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
-#### [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md)
-#### [Konfigurere tjenesten til bankkontoudtog](bank-how-setup-bank-statement-service.md)
-#### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
-#### [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-#### [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
-### [Udveksle data](across-exchange-data.md)
-#### [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md)
-#### [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
-#### [Modtage og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)
-#### [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
-#### [Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)
-#### [Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
-#### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Opdatere valutakurser](finance-how-update-currencies.md)
-#### [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Feltkobling, når du eksporterer betalingsfiler ved hjælp af tjeneste til konvertering af bankdata](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
-
-# [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)
+# Gennemgang af forretningsprocesser
+## [Oversigt](walkthrough-business-process-walkthroughs.md)
 ## [Gennemgang: Gennemførsel af en salgskampagne](walkthrough-conducting-a-sales-campaign.md)
 ## [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ## [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
@@ -639,8 +713,10 @@
 ## [Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)
 ## [Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
-# [Designoplysninger](design-details-application-design.md)
-## [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
+# Designoplysninger
+## [Oversigt](design-details-application-design.md)
+## Designoplysninger: Forsyningsplanlægning
+### [Oversigt](design-details-supply-planning.md)
 ### [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
 ### [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  
 ### [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
@@ -649,7 +725,8 @@
 ### [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)  
 ### [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)  
 ### [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)
-## [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
+## Designoplysninger: Lagerkostmetode
+### [Oversigt](design-details-inventory-costing.md)
 ### [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 ### [Designoplysninger: Vareudligning](design-details-item-application.md)  
 ### [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -668,7 +745,8 @@
 ### [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)
 ### [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md)  
 ### [Designoplysninger: Regulering](design-details-revaluation.md)
-## [Designoplysninger: Logistik](design-details-warehouse-management.md)
+## Designoplysninger: Logistik
+### [Oversigt](design-details-warehouse-management.md)
 ### [Designoplysninger: Oversigt over logistik](design-details-warehouse-overview.md)  
 ### [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 ### [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)  
@@ -676,7 +754,8 @@
 ### [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)  
 ### [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)  
 ### [Designoplysninger: Integration med lager](design-details-integration-with-inventory.md)
-## [Designoplysninger: Varesporing](design-details-item-tracking.md)
+## Designoplysninger: Varesporing
+### [Oversigt](design-details-item-tracking.md)
 ### [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)  
 ### [Designdetaljer: Bogføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md)  
 ### [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -685,21 +764,25 @@
 ### [Designoplysninger: Varesporing og planlægning](design-details-item-tracking-and-planning.md)  
 ### [Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 ### [Designoplysninger: Varesporing i lageret](design-details-item-tracking-in-the-warehouse.md)
-## [Designoplysninger: Bogføringslinje i finanskladde](design-details-general-journal-post-line.md)
+## Designoplysninger: Bogføringslinje i finanskladde
+### [Oversigt](design-details-general-journal-post-line.md)
 ### [Oversigt over bogføringslinje i finanskladde](design-details-general-journal-post-line-overview.md)  
 ### [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)  
 ### [Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)  
 ### [Designoplysninger: Ændringer i Codeunit 12: Kobling af globale variabler for bogføringslinje i finanskladde](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
 ### [Designoplysninger – Codeunit 12-ændringer i procedurer for bogføring af finanskladder](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
-## [Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)
+## Designoplysninger: Dimensionsgruppeposter
+### [Oversigt](design-details-dimension-set-entries.md)
 ### [Designoplysninger: Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)  
 ### [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
 ### [Designoplysninger: Tabelstruktur](design-details-table-structure.md)  
 
-# [Lokal funktionalitet](about-localization.md)
+# Lokal funktionalitet
+## [Oversigt](about-localization.md)
 
-## [Australien](LocalFunctionality/Australia/australia-local-functionality.md)
-### Moms og skat
+## Australien
+### [Oversigt](LocalFunctionality/Australia/australia-local-functionality.md)
+### Skat
 #### [Skat](LocalFunctionality/Australia/tax.md)
 #### [A-skat](LocalFunctionality/Australia/withholding-tax.md)
 #### [Konfigurere A-skat](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
@@ -730,8 +813,9 @@
 #### [Australske virksomhedsnumre og reguleringsnoter](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 #### [Angive Australian Business Numbers (ABN)](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
 
-## [Østrig](LocalFunctionality/Austria/austria-local-functionality.md)
-### Moms og skat
+## Østrig
+### [Oversigt](LocalFunctionality/Austria/austria-local-functionality.md)
+### Moms
 #### [Oprette en momsangivelse](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
 #### [Momsrapportering](LocalFunctionality/Austria/vat-reporting.md)
 ### Banktransaktioiner og betalinger
@@ -750,8 +834,9 @@
 #### [Udskrive oplysninger om opsætning af Finans](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Udskrive salgs- og købsordrer under massebogføring](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
-## [Belgien](LocalFunctionality/Belgium/belgium-local-functionality.md)
-### Moms og skat
+## Belgien
+### [Oversigt](LocalFunctionality/Belgium/belgium-local-functionality.md)
+### Moms
 #### [Belgisk moms](LocalFunctionality/Belgium/belgian-vat.md)
 #### [Oprette ikke-fradragsberettiget moms](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 #### [Oprette manuelle rettelser af moms](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
@@ -804,8 +889,9 @@
 #### [Begrænse bogføringsperioden](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 #### [Angive arbejdsdatoen som bogføringsdato](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 
-## [Canada](LocalFunctionality/Canada/canada-local-functionality.md)
-### Moms og skat
+## Canada
+### [Oversigt](LocalFunctionality/Canada/canada-local-functionality.md)
+### Skat
 #### [Rapportering af salgsmoms på varer eller ydelser i Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
 #### [Rapportering af salgsmoms i Canada](LocalFunctionality/Canada/ca-sales-tax.md)
 #### [Oprette urealiseret moms og kontantrabatter på salg](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -818,13 +904,16 @@
 #### [Udskrive fejlfindingsrapporter](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 #### [Arbejde med GIFI-koder](LocalFunctionality/Canada/work-gifi-codes.md)
 
-## [Tjekkiet](LocalFunctionality/Czech/czech-local-functionality.md)
-### Moms og skat
+## Tjekkiet
+### [Oversigt](LocalFunctionality/Czech/czech-local-functionality.md)
+### Moms
 #### [Kontrolrapporten moms](LocalFunctionality/Czech/vat-control-report.md)
 ### Banktransaktioiner og betalinger
 #### [Registrering af salg (EET)](LocalFunctionality/Czech/eet.md)
-## [Danmark](LocalFunctionality/Denmark/denmark-local-functionality.md)
-### Moms og skat
+
+## Danmark
+### [Oversigt](LocalFunctionality/Denmark/denmark-local-functionality.md)
+### Moms
 #### [Udskrive rapporter til afstemning af moms](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 #### [Momsindberetning](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ### Banktransaktioiner og betalinger
@@ -839,8 +928,9 @@
 ### Løn
 #### [Definitioner af løndata (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 
-## [Finland](LocalFunctionality/Finland/finland-local-functionality.md)
-### Moms og skat
+## Finland
+### [Oversigt](LocalFunctionality/Finland/finland-local-functionality.md)
+### Moms
 #### [Udskrive finske Intrastat-rapporter](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
 #### [Udskrive momsoplysninger på fakturaer](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
 #### [Moms-listeangivelser i Finland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
@@ -855,8 +945,9 @@
 #### [Automatiske koder for konti](LocalFunctionality/Finland/automatic-account-codes.md)
 #### [Bogføre afskrivningsforskelle](LocalFunctionality/Finland/posting-depreciation-differences.md)
 
-## [Frankrig](LocalFunctionality/France/france-local-functionality.md)
-### Moms og skat
+## Frankrig
+### [Oversigt](LocalFunctionality/France/france-local-functionality.md)
+### Moms
 #### [Eksportere finansposter til skattemæssige revision](LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md)
 #### [Eksportere finansposter til en XML-fil](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 #### [Krav til rapporteringsdeklaration for handel med varer](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
@@ -892,8 +983,9 @@
 #### [Hurtigere afskrivning](LocalFunctionality/France/accelerated-depreciation.md)
 #### [Beregne hurtigere afskrivning](LocalFunctionality/France/how-to-calculate-accelerated-depreciation.md)
 
-## [Tyskland](LocalFunctionality/Germany/germany-local-functionality.md)
-### Moms og skat
+## Tyskland
+### [Oversigt](LocalFunctionality/Germany/germany-local-functionality.md)
+### Moms
 #### [Konfigurere rapporter til moms og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 #### [Konfigurere momsrapporter](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
 #### [Momsrapportering](LocalFunctionality/Germany/vat-reporting.md)
@@ -936,8 +1028,9 @@
 #### [Kopiere eksisterende varer til nye varer](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Certificering af Business Central til tysk marked (dokumentet er på tysk)](https://go.microsoft.com/fwlink/?linkid=875256)
 
-## [Island](LocalFunctionality/Iceland/iceland-local-functionality.md)
-### Moms og skat
+## Island
+### [Oversigt](LocalFunctionality/Iceland/iceland-local-functionality.md)
+### Moms
 #### [Islandske momsregler for betingede rabatter](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Udskrive momsoversigtsoplysninger for dokumenter](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Særlig dataafgang og rapporter til skattemyndighederne](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -947,8 +1040,9 @@
 #### [Tilknytte IRS-numre til kontoplanen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 #### [Slette bogførte fakturaer og kreditnotaer](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
-## [Italien](LocalFunctionality/Italy/italy-local-functionality.md)
-### Moms og skat
+## Italien
+### [Oversigt](LocalFunctionality/Italy/italy-local-functionality.md)
+### Moms
 #### [Italiensk moms](LocalFunctionality/Italy/italian-vat.md)
 #### [Sende momsangivelser](LocalFunctionality/Italy/how-to-submit-vat-statements.md)
 #### [Rette momstransaktionsrapporter](LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md)
@@ -984,8 +1078,9 @@
 #### [Konfigurere kladdetyper og -navne](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
 #### [Rapportere samhandel med debitorer og kreditorer i sortlistede lande og områder](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
-## [Mexico](LocalFunctionality/Mexico/mexico-local-functionality.md)
-### Moms og skat
+## Mexico
+### [Oversigt](LocalFunctionality/Mexico/mexico-local-functionality.md)
+### Skat
 #### [Mexicansk salgsmoms](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Oprette forbrugsafgift og købsmoms](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Oprette urealiseret moms og kontantrabatter på salg](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1003,8 +1098,9 @@
 #### [Konfigurere PAC-webtjeneste](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 #### [Udskrive fejlfindingsrapporter](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 
-## [Nederlandene](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-### Moms og skat
+## Nederlandene
+### [Oversigt](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
+### Moms
 #### [Oprette en revisionsfil til momsmyndigheden](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
 #### [Konfigurere momskategorier](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
 #### [Elektroniske moms- og ICP-opgørelser](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1040,8 +1136,9 @@
 #### [Importere postnumre](LocalFunctionality/Netherlands/how-to-import-post-codes.md)
 #### [Importere opdatering af postnumre](LocalFunctionality/Netherlands/how-to-import-post-code-updates.md)
 
-## [New Zealand](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)  
-### [Moms og skat](LocalFunctionality/NewZealand/tax.md)
+## New Zealand
+### [Oversigt](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)
+### Skat
 #### [A-skat](LocalFunctionality/NewZealand/withholding-tax.md)
 #### [Konfigurere A-skat](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)
 #### [Konfigurere indtægtstyper for A-skat](LocalFunctionality\NewZealand\how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -1070,8 +1167,9 @@
 #### [Angive newzealandske virksomhedsnumre](LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers.md)  
 #### [Newzealandske IRD-numre (Inland Revenue Department) og reguleringsnoter](LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes.md)
 
-## [Norge](LocalFunctionality/Norway/norway-local-functionality.md)
-### Moms og skat
+## Norge
+### [Oversigt](LocalFunctionality/Norway/norway-local-functionality.md)
+### Moms
 #### [Norsk momsrapportering](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norske momskoder](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Sådan bruges én momskode i kladder](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1116,8 +1214,9 @@
 #### [Oprette KID-numre i salgsdokumenter](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
 #### [Konfigurere dokumentudskrivning](LocalFunctionality/Norway/how-to-set-up-document-printing.md)
 
-## [Spanien](LocalFunctionality/Spain/spain-local-functionality.md)
-### Moms og skat
+## Spanien
+### [Oversigt](LocalFunctionality/Spain/spain-local-functionality.md)
+### Moms
 #### [Momsrapporter](LocalFunctionality/Spain/vat-reports.md)
 #### [Rapport 340](LocalFunctionality/Spain/report-340.md)  
 #### [Oprette rapport 340](LocalFunctionality/Spain/how-to-create-report-340.md)  
@@ -1163,8 +1262,9 @@
 #### [Angive NACE-koder](LocalFunctionality/Spain/how-to-enter-nace-codes.md)
 #### [Angive grænser for forfaldsdatoer](LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md)
 
-## [Sverige](LocalFunctionality/Sweden/sweden-local-functionality.md)
-### Moms og skat
+## Sverige
+### [Oversigt](LocalFunctionality/Sweden/sweden-local-functionality.md)
+### Moms
 #### [Oprette købstransaktioner fra tredjeparts-EU-land](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
 ### Grundlæggende Finans
 #### [Automatiske koder for konti](LocalFunctionality/Sweden/automatic-account-codes.md)  
@@ -1172,8 +1272,9 @@
 #### [Importere og eksportere data i standardimport-/-eksportformat](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
 #### [Udskrive balance- og resultatopgørelsesrapporter](LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md)  
 
-## [Schweiz](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
-### Moms og skat
+## Schweiz
+### [Oversigt](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
+### Moms
 #### [Oprette og udskrive en schweizisk momsangivelse](LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md)
 #### [Udskrive schweiziske momsangivelser (ældre versioner)](LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md)
 #### [Schweizisk moms](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
@@ -1215,8 +1316,9 @@
 #### [Schweiziske købsdokumenter og salgsordrer](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 #### [Udskrive salgs- og købsordrer under massebogføring](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
-## [Storbritannien](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
-### Moms og skat
+## Storbritannien
+### [Oversigt](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
+### Moms
 #### [Oprette moms digitalt - indsendelse af momsangivelse](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 #### [Ændre momsopsætning i kladder](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
 #### [Udskrive momsrevisionsrapporter](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
@@ -1235,7 +1337,8 @@
 #### [Angive eksterne bilagsnumre](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 #### [Udskrive rapporter om direkte salgs- og købsoplysninger](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
-## [USA](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
+## USA
+### [Oversigt](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 ### Skat
 #### [Salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 #### [Rapportering af salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
@@ -1250,7 +1353,8 @@
 #### [Sådan administreres oplysninger om debitorkredit](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Udskrive fejlfindingsrapporter](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Sende lovgivningsmæssige påmindelser](submit-regulatory-alerts.md)
-# [Overholdelse](compliance/compliance-overview.md)
+# Overholdelse
+## [Oversigt](compliance/compliance-overview.md)
 ## [Programoverholdelse](compliance/compliance-application-compliance.md)
 ## [Tjenesteoverholdelse](compliance/compliance-service-compliance.md)
 ## [Certificeringer](compliance/compliance-certifications.md)

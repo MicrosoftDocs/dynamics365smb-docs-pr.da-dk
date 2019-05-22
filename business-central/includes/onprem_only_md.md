@@ -1,1 +1,1 @@
-<span data-ttu-id="93774-101">Isabel-funktionerne er kun tilgængelig for lokale installationer.</span><span class="sxs-lookup"><span data-stu-id="93774-101">The Isabel features are available only for on-premises deployments.</span></span>
+<span data-ttu-id="1a693-101">Isabel-funktionerne er kun tilgængelig for lokale installationer.</span><span class="sxs-lookup"><span data-stu-id="1a693-101">The Isabel features are available only for on-premises deployments.</span></span>

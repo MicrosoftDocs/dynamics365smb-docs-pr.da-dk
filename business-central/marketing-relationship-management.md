@@ -3,38 +3,35 @@ title: Relationsstyring | Microsoft Docs
 description: Relationsstyringsfunktionerne i Business Central understøtter din salgsindsats, og du kan få adgang til oplysninger om kontakter og kundeemner, så du kan betjene kunderne effektivt.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: d041afe8840be52c04a54f80fc77eebdc621001a
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.date: 05/02/2019
+ms.author: sgroespe
+ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953408"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446734"
 ---
-# <a name="managing-relationships"></a><span data-ttu-id="16ade-103">Styre relationer</span><span class="sxs-lookup"><span data-stu-id="16ade-103">Managing Relationships</span></span>
-<span data-ttu-id="16ade-104">Relationsstyringsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjælper dig med at styre og understøtte din salgsindsats.</span><span class="sxs-lookup"><span data-stu-id="16ade-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="16ade-105">Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.</span><span class="sxs-lookup"><span data-stu-id="16ade-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
+# <a name="managing-relationships"></a><span data-ttu-id="e102b-103">Styre relationer</span><span class="sxs-lookup"><span data-stu-id="e102b-103">Managing Relationships</span></span>
+<span data-ttu-id="e102b-104">Relationsstyringsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjælper dig med at styre og understøtte din salgsindsats.</span><span class="sxs-lookup"><span data-stu-id="e102b-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="e102b-105">Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.</span><span class="sxs-lookup"><span data-stu-id="e102b-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
 
-<span data-ttu-id="16ade-106">Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt.</span><span class="sxs-lookup"><span data-stu-id="16ade-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="16ade-107">stiller med rettidigt at stille en præcis oversigt til rådighed over dine kontaktoplysninger, så du kan betjene dine vordende kunder mere effektivt og øge kundetilfredsheden.</span><span class="sxs-lookup"><span data-stu-id="16ade-107">provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
+<span data-ttu-id="e102b-106">Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt.</span><span class="sxs-lookup"><span data-stu-id="e102b-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="e102b-107">stiller med rettidigt at stille en præcis oversigt til rådighed over dine kontaktoplysninger, så du kan betjene dine vordende kunder mere effektivt og øge kundetilfredsheden.</span><span class="sxs-lookup"><span data-stu-id="e102b-107">provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
 
-<span data-ttu-id="16ade-108">Se følgende emner for at komme i gang:</span><span class="sxs-lookup"><span data-stu-id="16ade-108">To get started, see the following topics:</span></span>
+<span data-ttu-id="e102b-108">Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.</span><span class="sxs-lookup"><span data-stu-id="e102b-108">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>  
 
-[<span data-ttu-id="16ade-109">Administrere kontakter</span><span class="sxs-lookup"><span data-stu-id="16ade-109">Managing Contacts</span></span>](marketing-contacts.md)  
-[<span data-ttu-id="16ade-110">Administrere målgrupper</span><span class="sxs-lookup"><span data-stu-id="16ade-110">Managing Segments</span></span>](marketing-segments.md)  
-[<span data-ttu-id="16ade-111">Registrere interaktioner</span><span class="sxs-lookup"><span data-stu-id="16ade-111">Recording Interactions</span></span>](marketing-interactions.md)  
-[<span data-ttu-id="16ade-112">Administration af marketingkampagner</span><span class="sxs-lookup"><span data-stu-id="16ade-112">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)  
-[<span data-ttu-id="16ade-113">Administrere salgsleads</span><span class="sxs-lookup"><span data-stu-id="16ade-113">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)  
-[<span data-ttu-id="16ade-114">Integration med Dynamics 365 for Sales</span><span class="sxs-lookup"><span data-stu-id="16ade-114">Integrating with Dynamics 365 for Sales</span></span>](marketing-integrate-dynamicscrm.md)
-
-## <a name="see-also"></a><span data-ttu-id="16ade-115">Se også</span><span class="sxs-lookup"><span data-stu-id="16ade-115">See Also</span></span>
-[<span data-ttu-id="16ade-116">Salg</span><span class="sxs-lookup"><span data-stu-id="16ade-116">Sales</span></span>](sales-manage-sales.md)  
-<span data-ttu-id="16ade-117">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="16ade-117">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+| <span data-ttu-id="e102b-109">Hvis du vil</span><span class="sxs-lookup"><span data-stu-id="e102b-109">To</span></span> | <span data-ttu-id="e102b-110">Skal du se</span><span class="sxs-lookup"><span data-stu-id="e102b-110">See</span></span> |
+| --- | --- |
+|<span data-ttu-id="e102b-111">Definere standardindstillinger for brug af kontakter og interaktioner og oprette nummerserier.</span><span class="sxs-lookup"><span data-stu-id="e102b-111">Define default settings for the use of contacts and interactions and set up number series.</span></span>|[<span data-ttu-id="e102b-112">Opsætning af Relationsstyring</span><span class="sxs-lookup"><span data-stu-id="e102b-112">Setting Up Relationship Management</span></span>](marketing-setup-marketing.md)|
+|<span data-ttu-id="e102b-113">Definere de eksterne enheder, som du har forretningsforhold til, f.eks. kunder, mulige kunder, leverandører, advokater og konsulenter, enten som Persontype eller Virksomhedstype.</span><span class="sxs-lookup"><span data-stu-id="e102b-113">Define the external entities that you have business relations with, such as customers, prospective customers, vendors, lawyers, and consultants, either as Person type or Company type.</span></span>|[<span data-ttu-id="e102b-114">Administrere kontakter</span><span class="sxs-lookup"><span data-stu-id="e102b-114">Managing Contacts</span></span>](marketing-contacts.md)|
+|<span data-ttu-id="e102b-115">Administrere alle typer kommunikation mellem din virksomhed og dine kontakter, f.eks. via e-mail, brev, telefon, møder.</span><span class="sxs-lookup"><span data-stu-id="e102b-115">Manage all types of communications between your company and your contacts, such as by email, letter, telephone, meetings.</span></span>|[<span data-ttu-id="e102b-116">Administrere interaktioner</span><span class="sxs-lookup"><span data-stu-id="e102b-116">Managing Interactions</span></span>](marketing-interactions.md)|
+|<span data-ttu-id="e102b-117">Definere målgrupper for at vælge en gruppe kontakter i overensstemmelse med bestemte kriterier, f.eks. den branche, som kontakterne arbejder i.</span><span class="sxs-lookup"><span data-stu-id="e102b-117">Define segments to select a group of contacts according to specific criteria, such as the industry that the contacts belong to.</span></span>|[<span data-ttu-id="e102b-118">Administrere målgrupper</span><span class="sxs-lookup"><span data-stu-id="e102b-118">Managing Segments</span></span>](marketing-segments.md)|
+|<span data-ttu-id="e102b-119">Behandle indgående leads ved at oprette salgsmuligheder og knytte dem til sælgere, så du kan holde styr på muligt salg.</span><span class="sxs-lookup"><span data-stu-id="e102b-119">Process incoming leads by creating opportunities and associating them to salespeople so that you can keep track of potential sales.</span></span>|[<span data-ttu-id="e102b-120">Administrere salgsleads</span><span class="sxs-lookup"><span data-stu-id="e102b-120">Managing Sales Opportunities</span></span>](marketing-manage-sales-opportunities.md)|
+|<span data-ttu-id="e102b-121">Oprette marketingplaner for at identificere, tiltrække og holde på kunderne.</span><span class="sxs-lookup"><span data-stu-id="e102b-121">Create marketing plans to identify, attract, and retain customers.</span></span>|[<span data-ttu-id="e102b-122">Administration af marketingkampagner</span><span class="sxs-lookup"><span data-stu-id="e102b-122">Managing Marketing Campaigns</span></span>](marketing-campaigns.md)|
+|<span data-ttu-id="e102b-123">Bruge Dynamics 365 for Sales for Customer Engagement og nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien.</span><span class="sxs-lookup"><span data-stu-id="e102b-123">Use Dynamics 365 for Sales for customer engagement and enjoy seamless integration in the lead-to-cash process by using Business Central for backend activities such as processing orders, managing inventory, and doing your finances.</span></span>|[<span data-ttu-id="e102b-124">Integration med Dynamics 365 for Sales</span><span class="sxs-lookup"><span data-stu-id="e102b-124">Integrating with Dynamics 365 for Sales</span></span>](marketing-integrate-dynamicscrm.md)|
