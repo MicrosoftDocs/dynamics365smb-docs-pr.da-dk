@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247488"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620972"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere virksomhedens data til Power BI
 Du kan nemt få indsigt i dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data med Power BI og [!INCLUDE[d365fin](includes/d365fin_md.md)]-indholdspakker. Power BI henter dine data og opretter derefter et out-of-the-box dashboard og rapporter baseret på dataene.  
 
-Du skal have en gyldig konto til Dynamics 365 og til Power BI. Desuden skal du hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/), hvis du vil oprette dine egne Power BI rapporter. Power BI-indholdspakker kræver tilladelser til de tabeller, hvor data hentes fra. Yderligere oplysninger om kravene beskrives nedenfor.  
+Du skal have en gyldig konto til [!INCLUDE[prodshort](includes/prodshort.md)] og til Power BI. Desuden skal du hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/), hvis du vil oprette dine egne Power BI rapporter. Power BI-indholdspakker kræver tilladelser til de tabeller, hvor data hentes fra. Yderligere oplysninger om kravene beskrives nedenfor.  
 
 > [!IMPORTANT]
 > Indholdspakkerne, der er beskrevet i denne artikel, er designet til at bruge Azure Active Directory som godkendelsesmetode. Hvis du bruger [!INCLUDE [prodshort](includes/prodshort.md)] i det lokale miljø og bruger en anden godkendelsesmekanisme, kan Power BI ikke oprette forbindelse til dataene.  
@@ -28,15 +28,8 @@ Du skal have en gyldig konto til Dynamics 365 og til Power BI. Desuden skal du h
 Microsoft er udgivet følgende indholdspakker:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Debitoroversigt  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finans  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Vareliste  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sager  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sagsoversigt  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Købsfakturaer  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Salg  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Salgsordreoversigt  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Kreditoroversigt  
 
 ## <a name="using-the-dashboards"></a>Brug af dashboards
 Hver indholdspakke indeholder rapporter, som du kan dykke ned i:
@@ -88,64 +81,9 @@ Hvis du vil importere dine [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.m
 - Vis virksomhed i Excel-skabelon
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Sagsoversigt
-- Sagsplanlægningslinjer
-- Sagsopgavelinjer
-- Power BI-rapportetiketter
-- Vis virksomhed i Excel-skabelon
-
 **Microsoft Dynamics 365 Business Central - Sales**
 - Salgsdashboard
 - Vis virksomhed i Excel-skabelon
-- Power BI-rapportetiketter
-
-### <a name="list-page-reports"></a>Oversigtssiderapporter
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Varestatistik efter kunde
-- Power BI-varekøbsoversigt
-- Power BI-varesalgsoversigt
-- Salgsdashboard
-- Power BI-debitoroversigt
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
-- Power BI-finansbeløbsoversigt
-- Budgetteret Power BI-finansbeløb
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Items List**
-- Varestatistik efter kunde
-- Power BI-varekøbsoversigt
-- Power BI-varesalgsoversigt
-- Salgsdashboard
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Power BI-sagsoversigt
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Power BI-købsoversigt
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Power BI-salgsoversigt
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-
-**Microsoft Dynamics 365 Business Central – Vendors List**
-- Power BI-varekøbsoversigt
-- Power BI-varesalgsoversigt
-- Power BI-kreditoroversigt
-- ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
 ## <a name="web-services"></a>Webtjeneste
@@ -158,8 +96,7 @@ Power BI-dashboardet er baseret på de publicerede webtjenester, der er anført 
 Det er en normal fejl at angive fælles virksomhedens visningsnavn i stedet for navnet på virksomheden. Du kan finde navnet på virksomheden ved at søge efter **virksomheder**. Brug derefter feltet **Navn**, når du angiver navnet på virksomheden.
 
 ### <a name="incorrect-user-name-and-password"></a>Forkert brugernavn og adgangskode  
-Brugernavnet og adgangskoden, der bruges til at oprette forbindelse, skal være de samme, som bruges til at oprette forbindelse til din Microsoft Office 365-konto.  
-
+Brugernavnet og adgangskoden, der bruges til at logge på Power BI, skal være de samme, som bruges til at oprette forbindelse til din Microsoft Office 365-konto.  
 Indholdspakkerne kræver også, at du har en Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto. Når du har indtastet dine legitimationsoplysninger, får du automatisk vist alle Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-lejere, du har adgang til. Hvis du ikke har en licenseret eller prøveversion af Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto, får du vist en fejlmeddelelse.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Nøglen svarer ikke nogen rækker i tabellen

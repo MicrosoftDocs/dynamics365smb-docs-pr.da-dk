@@ -1,8 +1,6 @@
 ---
 title: Planlægge en rapport til kørsel på en bestemt dato og et bestemt klokkeslæt | Microsoft Docs
 description: Få mere at vide om, hvordan du angiver en rapport i en opgavekø og planlægger, at den skal afvikles på en bestemt dato og tidspunkt.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 04/01/2019
+ms.date: 05/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 508a6406fe11099f19ce46c70147d62ba74278d1
+ms.sourcegitcommit: f4beaa63e2f32e2947de1c794c5619ed40a47301
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250683"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1586148"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Arbejde med rapporter og kørsler
 En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse og kan udskrives. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
@@ -88,7 +86,12 @@ Du kan planlægge en rapport til at køre på en bestemt dato og et bestemt klok
 Du kan planlægge en rapport, når du åbner en rapport. Du vælger handlingen **Skema**, og derefter angiver du oplysninger som printer og dato og klokkeslæt. Rapporten føjes derefter til opgavekøen og køres på det angivne tidspunkt. Når rapporten er behandlet, fjernes elementet fra jobkøen. Hvis du har gemt den behandlede rapport til en fil, er den tilgængelig i området **Rapportindbakke**.
 
 ## <a name="PrintReport"></a>Udskrive en rapport
-Du kan udskrive en rapport fra knappen **Udskriv** på siden Indstillinger, der vises, når du åbner rapporten eller på menulinjen i Vis udskrift.
+Du kan udskrive en rapport fra knappen **Udskriv** på siden Indstillinger, der vises, når du åbner rapporten eller på menulinjen i Vis udskrift.  
+
+### <a name="printing-reports-in-thai"></a>Udskrive rapporter på thailandsk
+Knappen **Udskriv** er specifik for Thai-versionen af [!INCLUDE[prodshort](includes/prodshort.md)], men kan ikke udskrive rapporter korrekt pga. begrænsninger i den tjeneste, der genererer PDF-filen, som kan udskrives. Du kan i stedet åbne rapporten i Word og derefter gemme rapporten som en PDF-fil, der kan udskrives.  
+
+Du kan også bede administratoren om at oprette et Word-rapportlayout til de mest anvendte rapporter. Du kan finde flere oplysninger under [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).  
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Ændre layoutet og udseendet af en rapport
 Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvor den arrangeres, og hvilken typografi der anvendes. Hvis du vil skifte til et andet layout, kan du se [Ændre, hvilket layout der aktuelt bruges i en rapport](ui-how-change-layout-currently-used-report.md). Eller du kan tilpasse din egen rapportlayout, skal du se [Oprette et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md).

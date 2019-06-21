@@ -10,7 +10,7 @@
 ## [Afprøve en eksempelversion](across-preview.md)
 ## [Opsige, fjerne eller nulstille Business Central](admin-cancel.md)
 ## [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
-## [Din adgang til den intelligente cloud med Business Central](about-intelligent-cloud.md)
+## [Din adgang til den intelligente sky med Business Central](about-intelligent-cloud.md)
 ## [Besøg vores videobibliotek](across-videos.md)
 ## [Blive forhandler af](product-sell.md)
 ## [Udvide Business Central](about-develop-extensions.md)
@@ -51,7 +51,7 @@
 ## Bruge tastaturgenveje
 ### [Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)
 ### [Tastaturgenveje](keyboard-shortcuts.md)
-### [Hurtig reference til tastaturgenveje](keyboard-shortcuts-cheatsheet.md)
+### [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)
 
 # Konfigurere Business Central
 ## [Oversigt](setup.md)
@@ -155,7 +155,7 @@
 ### [Konfigurere standardrutelinjer](production-how-set-up-standard-routing-lines.md)
 ### [Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)
 
-## Konfigurere Service
+## Konfigurere Servicestyring
 ### [Oversigt](service-setup-service.md)
 ### [Oprette serviceartikler](service-how-to-create-service-items.md)
 ### [Konfigurere standardservicekoder](service-how-setup-service-coding.md)
@@ -318,7 +318,7 @@
 ## [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md)
 ## Integration med Dynamics 365 for Sales
 ### [Oversigt](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Konfiguration af integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Konfigurere brugerkonti til integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Konfigurere en Dynamics 365 for Sales-forbindelse](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkronisere Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
 ### [Rediger tabeltilknytninger til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
@@ -330,11 +330,11 @@
 #### [Oversigt](ui-extensions.md)
 #### [Tilpasse ved hjælp af udvidelser](ui-extensions.md)
 #### [Ceridian løn](ui-extensions-ceridian-payroll.md)
-#### [Datareplikering](ui-extensions-data-replication.md)
 #### [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
 #### [Vigtig forretningsindsigt](ui-extensions-essential-business-insights.md)
 #### [Billedanalyse](ui-extensions-image-analyzer.md)
-#### [Intelligent cloud](ui-extensions-intelligent-cloud.md)
+#### [Intelligent sky](ui-extensions-data-replication.md)
+#### [Intelligent sky basis](ui-extensions-intelligent-cloud.md)
 #### [Microsoft Pay-betalinger](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
 #### [Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)
@@ -347,6 +347,7 @@
 #### [DK – C5-dataoverførsel](ui-extensions-c5-data-migration.md)
 #### [DK – Tax File Formats](ui-extensions-tax-file-formats-dk.md)
 #### [UK – GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+#### [Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
 #### [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)
 ### [Ændre, hvilke funktioner der vises](ui-experiences.md)
 ### [Administrere tilpasning som administrator](ui-personalization-manage.md)
@@ -673,7 +674,7 @@
 ## [Finde dine lageropgaver](warehouse-how-to-find-your-warehouse-assignments.md)
 ## [Brug ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)
 
-# Service Management
+# Servicestyring
 ## [Oversigt](service-service.md)
 ## Planlægning af service
 ### [Oversigt](service-plan-service.md)
@@ -959,8 +960,8 @@
 #### [Arkivere betalingsfølgesedler](LocalFunctionality/France/how-to-archive-payment-slips.md)
 #### [Oprette betalingsfølgesedler](LocalFunctionality/France/how-to-create-payment-slips.md)
 #### [Eksportere betalinger](LocalFunctionality/France/how-to-export-payments.md)
-#### [Eksportere eller importere parametre for betalingsopsætning](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-#### [Payment Management](LocalFunctionality/France/payment-management.md)
+#### [Eksportere eller importere parametre for opsætning af betalingsstyring](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
+#### [Betalingsstyring](LocalFunctionality/France/payment-management.md)
 #### [Bogføre betalingsboner](LocalFunctionality/France/how-to-post-payment-slips.md)
 ### Grundlæggende Finans
 #### [Udligne finansposter](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -992,11 +993,7 @@
 #### [Oprette momsrapporter](LocalFunctionality/Germany/how-to-create-vat-reports.md)
 #### [Rette momsrapporter](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 #### [Salgsmoms Avanceret notifikationer](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
-#### [Oprette og sende forudgående momsoplysninger](LocalFunctionality/Germany/how-to-create-and-submit-sales-vat-advance-notifications.md)
-#### [Elektronisk afsendelse af forudgående momsoplysninger til ELSTER](LocalFunctionality/Germany/electronic-submission-of-sales-vat-advance-notifications-to-elster.md)
 #### [Angive moms-listeangivelse - skat](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
-#### [ELSTER-transmissionsoversigt](LocalFunctionality/Germany/elster-transmission-overview.md)
-#### [Fejlmeddelelser for Elster Transfer Handler](LocalFunctionality/Germany/error-messages-of-the-elstertransferhandler.md)    
 ### Banktransaktioiner og betalinger
 #### [Udskrive listerapporter for kreditorbetalinger](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
 ### Grundlæggende Finans

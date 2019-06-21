@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240575"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621202"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -105,8 +105,8 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 |Skift + Page Up<br />(Skift +Fn + pil op)|Udvid markeringen af rækker til at omfatte alle synlige rækker oven over den aktuelle markering af rækker.|Ikke tilgængelig.|
 |Skift + Page Down<br />(Skift + Fn + pil ned)|Udvid markeringen af rækker til at omfatte alle synlige rækker under den aktuelle markering af rækker.|Ikke tilgængelig.|
 |Ctrl+C<br />(Cmd + C)|Kopiér de markerede rækker til Udklipsholder.|Ikke tilgængelig.|
-|Ctrl+V<br />(Cmd + V)|Indsætte de markerede rækker fra Udklipsholder til den aktuelle side eller et eksternt dokument som Microsoft Excel eller e-mails i Outlook.<br /><br />Du kan kun gøre dette på lister, der kan redigeres.|Ikke tilgængelig.|
-|F8|Kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række.<br /><br />Du kan kun gøre dette på lister, der kan redigeres. Med denne genvej efterfulgt af Tab kan du hurtigt udfylde felterne i linjeelementer, som du vil give den samme værdi som rækken ovenfor.|Ikke tilgængelig.||
+|Ctrl+V<br />(Cmd + V)|Indsætte de markerede rækker fra Udklipsholder til den aktuelle side eller et eksternt dokument som Microsoft Excel eller e-mails i Outlook. Du kan kun gøre dette på lister, der kan redigeres.|Ikke tilgængelig.|
+|F8|Kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række. Du kan kun gøre dette på lister, der kan redigeres. Med denne genvej efterfulgt af Tab kan du hurtigt udfylde felterne i linjeelementer, som du vil give den samme værdi som rækken ovenfor.|Ikke tilgængelig.|
 
 ### <a name="KeyboardFilter"></a>Søge i og filtrere lister
 

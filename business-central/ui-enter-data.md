@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252454"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621156"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -39,7 +39,7 @@ Du er muligvis allerede fortrolig med brugen af tabulatortasten til at navigere 
 
 Hvert felt kan markeres som enten *medtaget i genvej* eller *udelukket fra genvej*. Felter, der indgår i genvej, medtages i stien, når du trykker på Enter. Felter, der er udelukket fra genvej, medtages ikke.
 
-Når du er færdig med at angive data i et felt, du blot trykke på Enter for at bekræfte ændringerne og gå til næste felt. Hvis du vil vende retningen og gå til det forrige felt, skal du trykke på Shift+Enter. Du kan finde flere oplysninger om genveje i [Tastaturgenveje i genvej](keyboard-shortcuts.md#QuickEntry).
+Når du er færdig med at angive data i et felt, du blot trykke på Enter for at bekræfte ændringerne og gå til næste felt. Hvis du vil vende retningen og gå til det forrige felt, skal du trykke på Shift+Enter. Du kan finde flere oplysninger om genveje i [Hurtig reference til tastaturgenveje til felter](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tip
 Følgende indeholder nyttige oplysninger om brugen af genvej.
@@ -90,7 +90,7 @@ Når du arbejder med dokumenter, som indeholder en del med linjevarer, f.eks. en
 
 En anden fordel er, at det også indeholder avancerede filterfunktioner, som på andre lister, så det bliver endnu nemmere at gennemse og søge gennem linjevarer.
 
-### <a name="switch-the-focus-on-and-off"></a>Slå fokus til og fra
+### <a name="switching-the-focus-on-and-off"></a>Slå fokus til og fra
 
 Når du vil fokusere på linjevarer, skal du markeret et vilkårligt sted i delen med linjevarer og derefter vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") i øverste højre hjørne eller trykke på Ctrl+Shift+F12.
 

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 30396e25dbf251e674744d1ba797c100b5762a46
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238022"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620857"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Brug af Dynamics 365 for Sales fra Business Central
 Hvis du bruger Dynamics 365 for Sales til Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
@@ -78,7 +78,11 @@ Salgstilbud, der aktiveres i [!INCLUDE[crm_md](includes/crm_md.md)], overføres 
 Alternativt kan du manuelt konvertere aktiverede salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Behandl i [!INCLUDE[d365fin](includes/d365fin_md.md)]** på siden **Salgstilbud – Dynamics 365 for Sales**.
 I sådanne salgstilbud overføres og knyttes feltet **Navn** i det oprindelige tilbud til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Desuden overføres feltet **Gælder til** i tilbud og tilknyttes feltet **Tilbud gyldigt til** i salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Salgstilbud gennemgår mange revisioner, mens de er under udarbejdelse. Både manuel og automatisk behandling af salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)] sikrer, at tidligere versioner af salgstilbud arkiveres, før nye ændringer af salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] behandles.  
+Salgstilbud gennemgår mange revisioner, mens de er under udarbejdelse. Både manuel og automatisk behandling af salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)] sikrer, at tidligere versioner af salgstilbud arkiveres, før nye ændringer af salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] behandles. 
+
+## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Håndtere bogførte salgsfakturaer, debitorbetalinger og statistik
+Når en salgsordre er opfyldt, oprettes der fakturaer for den. Når du fakturerer en salgsordre, kan du overføre bogført salgsfaktura til [!INCLUDE[crm_md](includes/crm_md.md)], hvis du vælger **Opret faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på siden Bogført salgsfaktura. Bogførte fakturaer overføres til [!INCLUDE[crm_md](includes/crm_md.md)] med statussen **Faktureret**. Når der modtages debitorbetaling for salgsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)], ændres status for salgsfaktura til **Betalt** med Statusårsag **Delvis**, hvis det er en delvis betaling eller **Afsluttet**, hvis den er endeligt betalt, når du kører **Opdater kontostatistik** på debitorsiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Opdater kontostatistik** opdaterer også værdier typen Saldo og Salg i alt i [!INCLUDE[d365fin](includes/d365fin_md.md)] faktaboksen Kontostatistik i [!INCLUDE[crm_md](includes/crm_md.md)].
+Du kan også få planlagt opgaver (Debitorstatistik og POSTEDSALESINV-INV) til automatisk at køre begge processer i baggrunden. 
 
 ## <a name="see-also"></a>Se også
 [Forberede integration med Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  

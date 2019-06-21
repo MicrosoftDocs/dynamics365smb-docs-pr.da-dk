@@ -1,6 +1,6 @@
 ---
-title: Intelligent cloud basis | Microsoft Docs
-description: Du kan bruge udvidelsen Intelligent cloud til at oprette en kopi til skyen af dine data, så du har forbindelse til den intelligente cloud.
+title: Intelligent sky basis | Microsoft Docs
+description: Brug Intelligent sky basisudvidelsen til at oprette forbindelse fra din lokale løsning med Business Central online.
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -11,18 +11,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9139855aa90aa0505f8735660d233475cc42bf91
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 72456035c2412eca65100708890e281f7d49a5be
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250200"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594352"
 ---
-# <a name="intelligent-cloud-base-extension"></a>Intelligent cloud basisudvidelsen
+# <a name="intelligent-cloud-base-extension"></a>Intelligent sky basisudvidelsen
 
-Denne udvidelse fører dig gennem processen med at konfigurere og administrere dit intelligente cloudmiljø.Når dit intelligente cloudmiljø er konfigureret, kan du administrere datareplikeringer fra din lokale løsning til din [!INCLUDE[prodshort](includes/prodshort.md)]-skylejer. Udvidelsen fungerer sammen med en datareplikeringsudvidelsen, der er tilgængelig til din specifikke lokale løsning.Du kan finde flere oplysninger i [Din adgang til den intelligente cloud](about-intelligent-cloud.md).  
+Denne udvidelse fører dig gennem processen med at konfigurere og administrere dit intelligente skymiljø.Når dit intelligente skymiljø er konfigureret, kan du administrere datareplikeringer fra din lokale løsning til din [!INCLUDE[prodshort](includes/prodshort.md)]-skylejer. Udvidelsen fungerer sammen med en datareplikeringsudvidelsen, der er tilgængelig til din specifikke lokale løsning.Du kan finde flere oplysninger i [Intelligent indsigt](about-intelligent-cloud.md).  
 
 ## <a name="see-also"></a>Se også
 
-[Din adgang til den intelligente cloud](about-intelligent-cloud.md)  
-[Udvidelsen Intelligent cloud i Business Central](ui-extensions-data-replication.md)  
+[Intelligent indsigt](about-intelligent-cloud.md)  
+[Datareplikeringsudvidelse](ui-extensions-data-replication.md)  

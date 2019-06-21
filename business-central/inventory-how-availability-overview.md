@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: SorenGP
-ms.openlocfilehash: ab3e23f9d3128045e722bf2677b1b687b2218b10
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f1c7fbe75dfa9767e5a5dfbfbe354fbd3f9448b5
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243166"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620995"
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
@@ -26,9 +26,11 @@ Du kan få vist disponeringen for alle varer pr. lokation, og du kan få vist di
 > [!NOTE]  
 >   Visninger af tilgængelighed pr. lokation kræver, at du har lager på mere end én lokation. Der er flere oplysninger i [Opsætte lokationer](inventory-how-setup-locations.md).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tilgængelighedstal vises i to forskellige felter, med hver sin definition:
+Hvis du bruger lageraktivitet, varierer tilgængeligheden afhængigt af allokeringer på placeringsniveauet, når lageraktiviteter som pluk og bevægelser forekommer, og når lagerreservationssystemet pålægger begrænsninger, der skal overholdes. En meget kompleks algoritme kontrollerer, at alle betingelser er opfyldt, før der tildeles antal til pluk for udgående forløb. Du kan finde flere oplysninger i [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md).
 
-* Feltet **Lager** viser den faktiske lagerbeholdning i dag ud fra de bogførte vareposter.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver tilgængelighedstal typisk vist i to forskellige felter, med hver sin definition:
+
+* Feltet **Lager**, som også kaldes **Lagerbeholdning**, viser den faktiske lagerbeholdning i dag ud fra de bogførte vareposter.
 * Feltet **Planlagt disponibel balance** beregnes og viser lagerbeholdningen plus fastlagte tilgange minus bruttobehovet. (I [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer fastlagte tilgange antal på købsordrer og indgående overflytningsordrer. Bruttobehov omfatter antal på salgsordrer og udgående overflytningsordrer).
 
 > [!TIP]  

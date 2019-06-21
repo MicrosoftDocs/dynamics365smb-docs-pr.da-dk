@@ -1,21 +1,21 @@
 ---
 title: Sortering af, søgning i og filtrering af lister | Microsoft Docs
 description: Arbejde effektivt på lister ved at søge på tværs af dine data, sorterer kolonner og præcisere resultater ved at bruge effektive filtersymboler og tastaturgenveje.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/03/2019
+ms.author: sgroespe
+ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253949"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621179"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortering af, søgning i og filtrering af lister
 Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse poster på en liste. Disse omfatter sortering, søgning og filtrering. Du kan anvende nogle eller alle af disse samtidigt til hurtigt at finde eller analysere dataene.
@@ -41,7 +41,7 @@ Hvis du vil sortere en liste, kan du enten vælge en kolonneoverskriftstekst, hv
 
 Du søger ved at vælge søgeikonet og derefter skrive den tekst, du leder efter, i feltet. Du kan skrive bogstaver, tal og andre symboler.
 
-### <a name="fine-tune-the-search"></a>Finjustere søgning
+### <a name="fine-tuning-the-search"></a>Finjustering af søgningen
 Generelt forsøger søgningen at matche teksten på tværs af alle felter. Den skelner ikke mellem store og små bogstaver og sammenligner tekst, hvor som helst i feltet (ved begyndelsen, slutningen eller i midten).
 
 Dog kan du foretage en mere nøjagtig søgning ved hjælp af følgende specialtegn:

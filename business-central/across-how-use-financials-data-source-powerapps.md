@@ -1,8 +1,6 @@
 ---
 title: Bruge dine data til at oprette en app | Microsoft Docs
 description: Du kan gøre dine Business Central-data tilgængelige som datakilde og angive en OData URL-adresse til dine webtjenester for at oprette en forretningsapp ved hjælp af PowerApps.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 04/01/2019
+ms.date: 05/13/2019
 ms.author: edupont
-ms.openlocfilehash: be1f5c64cefdcd4cb9a14c0c2f1c559e426ce0f8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 67d7129e32ccde3154a02dd12b806d712f470833
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240460"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540265"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af PowerApps
 Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige som en datakilde i PowerApps.  
@@ -27,34 +25,29 @@ Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige
 
 ## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>Sådan tilføjes [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde i PowerApps
 1. Gå til [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) i din webbrowser, og log på.
-2. Vælg **Ny app** i den venstre navigationsrude.
-3. Vælg din editor, PowerApps Studio til Windows eller PowerApps Studio til web.
+2. På startsiden skal du vælge skabelonen **Start fra data** for at oprette en ny lærreds-app. Denne app vil blive udformet til brug på en mobilenhed, men du kan også vælge at bruge en anden skabelon.
 
-   PowerApps Studio til Windows er et skrivebordsprogram, der bruges til at oprette og publicere PowerApps. PowerApps Studio til web er onlineløsningen, der bruges til at oprette og publicere PowerApps.
-4. Næste trin til oprettelse af en PowerApp er at vælge dataene. Vælg ikonet med pilen, og vælg derefter indstillingen **Ny forbindelse** øverst til venstre side på siden.
-5. Vælg **Dynamics 365 Business Central** på listen over tilgængelige forbindelser.
-6. PowerApps viser en forbindelsesside, hvor du bliver bedt om de oplysninger, der kræves for at oprette forbindelse til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Hvis du vil oprette forbindelse, skal du angive en OData URL-adresse, brugernavn, adgangskode og firmanavn.
+    Næste trin til oprettelse af en PowerApp er at vælge dataene. Vælg ikonet med pilen, og vælg derefter indstillingen **Ny forbindelse** øverst til venstre side på siden.
+3. Vælg **Business Central**på listen over tilgængelige forbindelser, og vælg derefter knappen **Opret**.
 
-   For *OData URL-adressen* kan du kopiere OData V4 URL-adressen på en af de webtjenester, der er angivet på siden **Webtjeneste** i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. `https://mycompany.businesscentral.dynamics.com:7048/MS/ODataV4/`.  
+    PowerApps opretter forbindelse til din [!INCLUDE [prodshort](includes/prodshort.md)] ved hjælp af de legitimationsoplysninger, du er logget på med. Hvis du ikke er administrator af din [!INCLUDE [prodshort](includes/prodshort.md)], skal du muligvis logge på med en anden konto.  
 
-   Som *Virksomhedsnavn* skal du bruge det navn, der vises i feltet **Navn** på siden **Virksomhedsoplysninger** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-version indeholder flere virksomheder, skal du vælge det relevante virksomhedsnavn på listen på siden **Virksomheder**. I begge tilfælde skal du sørge for, at det navn, du angiver i guiden PowerApps, er nøjagtigt det samme som den tekst, der vises i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. `My Company`.
+4. Hvis du har mere end én virksomhed i din [!INCLUDE [prodshort](includes/prodshort.md)], skal du vælge den virksomhed, du vil oprette forbindelse til. PowerApps viser derefter en liste over *tabeller*, der er tilgængelige fra [!INCLUDE [prodshort](includes/prodshort.md)]. Disse såkaldte tabeller er en del af [!INCLUDE [prodshort](includes/prodshort.md)] API'en. Du behøver ikke selv at konfigurere slutpunkterne - [!INCLUDE [prodshort](includes/prodshort.md)]-connectoren til PowerApps gør det for dig.  
 
-   Som brugernavn og adgangskode skal du bruge navnet og webserviceadgangsnøglen, der er angivet for din konto på siden **Brugere** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dit brugernavn er f.eks. *Administrator*, og den webtjenesteadgangsnøgle, der fungerer som din adgangskode, er *EgzeUFQ9Uv0o5O0lUMyqCzo1ueUW9yRF3SsLU =*.
-7. Vælg knappen **Forbindelse** for at forsætte. PowerApps viser et standarddatasæt for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vælg **Standard**-datasættet.
+    Hvis du vil medtage data fra andre tabeller i [!INCLUDE [prodshort](includes/prodshort.md)] i din app, skal du samarbejde med en udvikler om at definere en brugerdefineret API i [!INCLUDE [prodshort](includes/prodshort.md)] og derefter bruge denne API via en brugerdefineret connector i PowerApps. Du kan finde flere oplysninger i [Oprette en brugerdefineret connector fra bunden](/connectors/custom-connectors/define-blank).  
 
-   PowerApps viser en liste over tabeller, der er tilgængelige fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Disse tabeller, eller slutpunkter, repræsenterer de webtjenester, som du har publiceret fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Nu har du oprettet forbindelse til dine [!INCLUDE [prodshort](includes/prodshort.md)]-data og er klar til at opbygge din PowerApp. Du kan tilføje yderligere skærmbilleder og oprette forbindelse til flere data fra dit [!INCLUDE [prodshort](includes/prodshort.md)]. Du kan finde flere oplysninger i [Oprette en lærreds-app fra en skabelon i PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
 
-   Du kan også vælge at oprette en ny URL-adresse for webtjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at bruge handlingen **Opret datasæt** på siden **Webtjenester** ved hjælp af guiden Assisteret opsætning for **Konfigurer rapporteringsdata** eller ved at vælge handlingen **Rediger i Excel** på en af listerne.
-8. Vælg den tabel, du vil bruge til din PowerApp, og vælg derefter knappen **Opret forbindelse**.
-9. Gentag fremgangsmåden for at føje flere [!INCLUDE[d365fin](includes/d365fin_md.md)]-data til din Power BI-datamodel.
+Når du har designet og opbygget din app, kan du dele den med dine kolleger. Du kan finde flere oplysninger i [Gemme og udgive en lærreds-app i PowerApps](/powerapps/maker/canvas-apps/save-publish-app).  
 
-   > [!NOTE]  
-   >    Når du har oprettet forbindelse til [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du ikke igen spurgt om OData URL-adresse, brugernavn og adgangskode.
-
-Nu har du oprettet forbindelse til dine Business Central-data og er klar til at opbygge din PowerApp. Du kan finde flere oplysninger i [PowerApps-dokumentationen](https://powerapps.microsoft.com/tutorials/getting-started/).
+> [!NOTE]
+> Hvis du vil oprette forbindelse til [!INCLUDE [prodshort](includes/prodshort.md)] i det lokale miljø, skal du vælge **Business Central til det lokale miljø**-connectoren i trin 3.  
 
 ## <a name="see-also"></a>Se også
+
+[Oprette en lærreds-app fra en skabelon i PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Introduktion](product-get-started.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finans](finance.md)  
+[Introduktion til udvikling af Connect-apps til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

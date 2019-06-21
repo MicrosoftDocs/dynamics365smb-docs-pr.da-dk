@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e13d59e939e71a252e08afc26d2fb1ec76b247c9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8c98e4b893783c795a49e05ab04dc70b03161c6a
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238528"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594241"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Spærre varer mod salg eller køb
 Du kan spærre for, at en vare angives på salgs- eller købslinjer og for, at den bogføres i nogen posteringer.  
@@ -28,7 +28,10 @@ Tabellen nedenfor viser, hvad der sker, når varer spærres.
 |--------------------|------------|  
 |**Spærret salg**|Du kan ikke angive varen i et salgsdokument eller i en salgsvarekladde.|  
 |**Spærret køb**|Du kan ikke angive varen i et købsdokument, i en købsvarekladde eller i købsplanlægningsprocesser.|  
-|**Spærret**|Du kan ikke bruge varen til nogen varetransaktioner. Du kan finde flere oplysninger om spærring af en vare i alle sammenhænge på varekortet.|  
+|**Spærret**|Du kan ikke bruge varen til nogen varetransaktioner.|  
+
+> [!NOTE]
+> Blokerede varer kan returneres. Det betyder, at ingen af indstillingerne ovenfor gælder, når varen bruges på returvareordrer og kreditnotaer.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Sådan spærrer du for, at en vare kan angives på salgslinjer  
 

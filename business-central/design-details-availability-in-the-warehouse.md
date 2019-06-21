@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246860"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620926"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designoplysninger: Tilgængelighed i lageret
 Systemet skal holde en konstant kontrol over varedisponering på lageret, så udgående ordrer kan flyde effektivt og levere optimale leverancer.  
 
- Tilgængeligheden varierer afhængigt af allokeringer på placeringsniveauet, når lageraktiviteter som pluk og bevægelser forekommer, og når lagerreservationssystemet pålægger begrænsninger, der skal overholdes. En meget kompleks algoritme kontrollerer, at alle betingelser er opfyldt, før der tildeles antal til pluk for udgående forløb.  
+Tilgængeligheden varierer afhængigt af allokeringer på placeringsniveauet, når lageraktiviteter som pluk og bevægelser forekommer, og når lagerreservationssystemet pålægger begrænsninger, der skal overholdes. En meget kompleks algoritme kontrollerer, at alle betingelser er opfyldt, før der tildeles antal til pluk for udgående forløb.
+
+Hvis en eller flere af betingelserne ikke er opfyldt, kan der vises forskellige fejlmeddelelser, herunder "Der er intet at håndtere" . Meddelelsen "Der er intet at håndtere" kan blive vist af mange forskellige årsager, både i udgående og indgående strømme, hvor en direkte eller indirekte anvendt bilagslinje indeholder feltet **Håndteringsantal**.
+
+> [!NOTE]
+> Der bliver snart publiceret oplysninger her om mulige årsager og løsninger til "Der er intet at håndtere". .
 
 ## <a name="bin-content-and-reservations"></a>Placeringsindhold og reservationer  
  I en installation af logistik findes vareantal både som lagerposter, i logistikmodulet, og som vareposter i modulet Lagerbeholdning. Disse to typer indeholder forskellige oplysninger om, hvor varer findes, og om de er tilgængelige. Lagerposter definerer en vares tilgængelighed efter placering og placeringstype, samlet kaldet placeringsindhold. Vareposter definerer en varedisponering ved sin reservation til udgående dokumenter.  
@@ -72,4 +77,5 @@ Systemet skal holde en konstant kontrol over varedisponering på lageret, så ud
  ![Disponibel til reservation pr. lagerstedsallokering](media/design_details_warehouse_management_availability_3.png "Disponibel til reservation pr. lagerstedsallokering")  
 
 ## <a name="see-also"></a>Se også  
- [Designoplysninger: Logistik](design-details-warehouse-management.md)
+ [Designoplysninger: Logistik](design-details-warehouse-management.md)  
+ [Vise varedisponering](inventory-how-availability-overview.md)

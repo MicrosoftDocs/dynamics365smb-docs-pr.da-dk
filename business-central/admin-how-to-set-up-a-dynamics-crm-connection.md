@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 28ce599b2067faa904f917f8fce7390202c98d7b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245753"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621041"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Oprette forbindelse til Dynamics 365 for Sales
 Hvis der skal integreres med [!INCLUDE[crm_md](includes/crm_md.md)], skal du konfigurere en forbindelse mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]. 
@@ -54,7 +54,10 @@ Den assisterede opsætningsvejledning **Konfigurer Dynamics 365 for Sales-forbin
 |**Adgangsnøgle til Dynamics 365 Business Central OData-webtjeneste**|Adgangsnøglen til brugerkontoen, som [!INCLUDE[crm_md](includes/crm_md.md)] bruger til at hente oplysninger om varetilgængelighed fra [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af OData-webtjenesten. Nøglen er knyttet til den bruger, der er valgt i feltet **Brugernavn til Dynamics 365 Business Central OData-webtjeneste**. For at få nøglen skal du vælge knappen **Slå værdi op** ved siden af brugernavnet, vælge brugeren, vælge **Administrer** og derefter **Rediger**. På brugerkortet skal du vælge **Handlinger**, **Godkendelse** og derefter klikke på **Ændr webtjenestenøgle**.|
 |**Aktivér integration af salgsordrer**|Når brugere opretter salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], kopieres ordrerne til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kræver, at du angiver legitimationsoplysninger for en administratorbrugerkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Håndtering af salgsordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Aktivér Dynamics 365 for Sales-forbindelse**|Aktivér forbindelsen til [!INCLUDE[crm_md](includes/crm_md.md)].|
-|**Dynamics 365 SDK Version**|Det er kun relevant, hvis du integrerer med en lokal version af [!INCLUDE[crm_md](includes/crm_md.md)]. Det er det Dynamics 365 software development kit (også kaldet Xrm), du bruger til at forbinde [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen skal være kompatibel med den version af SDK, som bruges af [!INCLUDE[crm_md](includes/crm_md.md)], og være lig med eller nyere end den version, der bruges af [!INCLUDE[crm_md](includes/crm_md.md)].|
+|**Dynamics 365 SDK-version**|Det er kun relevant, hvis du integrerer med en lokal version af [!INCLUDE[crm_md](includes/crm_md.md)]. Det er det Dynamics 365 software development kit (også kaldet Xrm), du bruger til at forbinde [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen skal være kompatibel med den version af SDK, som bruges af [!INCLUDE[crm_md](includes/crm_md.md)], og være lig med eller nyere end den version, der bruges af [!INCLUDE[crm_md](includes/crm_md.md)].|
+
+> [!Note]
+> Den assisterede opsætningsvejledning **Konfigurere Dynamics 365 for Sales-forbindelse** tildeler automatisk **Integrationsadministrator** og **Integrationsbruger** sikkerhedsroller til den brugerkonto, der bruges til integration. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Sådan oprettes eller vedligeholdes forbindelsen manuelt
 Følgende procedure beskriver, hvordan du kan udfylde felterne på siden **Konfiguration af Microsoft Dynamics 365 for Sales-forbindelse** manuelt. Det er også den side, hvor du administrerer indstillingerne til integration.
@@ -67,7 +70,7 @@ Følgende procedure beskriver, hvordan du kan udfylde felterne på siden **Konfi
 |**Dynamics 365 for Sales URL-adresse**|URL-adressen til din forekomst af [!INCLUDE[crm_md](includes/crm_md.md)]. Når du vil hente URL-adressen, skal du åbne [!INCLUDE[crm_md](includes/crm_md.md)], kopiere URL-adressen fra adresselinjen i din webbrowser og derefter indsætte URL-adressen i feltet. [!INCLUDE[d365fin](includes/d365fin_md.md)] sikrer, at formatet er korrekt.|
 |**Brugernavn** og **Adgangskode**|Legitimationsoplysninger for den brugerkonto, der er dedikeret til integration. Du kan finde flere oplysninger i [Konfigurere brugerkonti til integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).|
 |**Aktiveret**|Begynd at bruge integrationen. Hvis du ikke kan aktivere forbindelse nu, gemmes forbindelsesindstillingerne, men brugerne vil ikke kunne få adgang til [!INCLUDE[crm_md](includes/crm_md.md)] data fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan vende tilbage til denne side og aktivere forbindelsen senere.  |
-|**Dynamics 365 SDK Version**|Hvis du integrerer med en lokal version af [!INCLUDE[crm_md](includes/crm_md.md)], er det Dynamics 365 software development kit (også kaldet Xrm), du bruger til at forbinde [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Den version, du har valgt, skal være kompatibel med den version af SDK, som bruges af [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen er lig med eller nyere end den version, der bruges af [!INCLUDE[crm_md](includes/crm_md.md)].|
+|**Dynamics 365 SDK-version**|Hvis du integrerer med en lokal version af [!INCLUDE[crm_md](includes/crm_md.md)], er det Dynamics 365 software development kit (også kaldet Xrm), du bruger til at forbinde [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Den version, du har valgt, skal være kompatibel med den version af SDK, som bruges af [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen er lig med eller nyere end den version, der bruges af [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 > [!Note]
 > Hvis du forbinder en lokal version af [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)], og du vil konfigurere en forbindelse til en forekomst af [!INCLUDE[crm_md](includes/crm_md.md)] med en bestemt godkendelsestype, skal du udfylde felterne i oversigtspanelet **Detaljer om godkendelsestype**. Du kan finde flere oplysninger i [Brug forbindelsesstrenge i XRM-værktøjer til at oprette forbindelse til Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). Dette trin er ikke obligatorisk, når du opretter forbindelse for en onlineversion af [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -103,6 +106,10 @@ Følgende procedure beskriver, hvordan du kan udfylde felterne på siden **Konfi
     >  Hvis datakryptering ikke er aktiveret i [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du spurgt, om du vil aktivere den. Du aktiverer datakryptering ved at vælge **Ja** og angive de nødvendige oplysninger. Ellers skal du vælge **Nej**. Du kan aktivere datakryptering senere. Du kan finde flere oplysninger i [Kryptere data i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) i hjælp til udviklere og it-eksperter.  
 
 7. Hvis [!INCLUDE[crm_md](includes/crm_md.md)]-synkronisering ikke allerede er konfigureret, bliver du spurgt, om du vil bruge standardkonfigurationen for synkronisering. Afhængigt af om du vil bevare poster justeret i [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du vælge **Ja** eller **Nej**. 
+
+> [!Note]
+> Når du opretter forbindelse til Dynamics 365 for Sales fra siden **Konfiguration af Microsoft Dynamics 365 for Sales**, kan det være nødvendigt, at du [tildeler **Integrationsadministrator** og **Integrationsbruger** sikkerhedsroller](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til den brugerkonto, der bruges til integration. 
+
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>Sådan afbrydes forbindelsen fra [!INCLUDE[crm_md](includes/crm_md.md)]  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Microsoft Dynamics 365 for Sales Konfiguration af forbindelse,** og vælg derefter det tilhørende link.

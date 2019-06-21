@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: 0e55201f283db010917fb516dfa666d4fa06f483
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5687002f8df8a618998f9a022fd47bad9f594ee6
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237513"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594146"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Funktionen Tilgængelighed
 
-* Moms og skat
+* Moms
     * [Udskrive rapporter til afstemning af moms](how-to-print-vat-reconciliation-reports.md) **Tilgængelig nu**
     * [Momsindberetning](vat-vies-reporting.md) **Tilgængelig nu**
 

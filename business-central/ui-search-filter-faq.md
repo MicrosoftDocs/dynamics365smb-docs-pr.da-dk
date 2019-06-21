@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/05/2019
+ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249042"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620834"
 ---
 # <a name="searching-and-filtering-faq"></a>Ofte stillede spørgsmål om søgning og filtrering
 Denne artikel indeholder svar på almindelige spørgsmål om søgning og filtrering.
@@ -27,7 +27,7 @@ Ja.
 Søgning og filtrering er blevet stærkt optimeret for brugere, der ønsker at kunne arbejde effektivt med deres data uden brug af mus. Der findes en række genvejstaster, som kan bruges i rækkefølge, så arbejdet kan udføres med høj hastighed. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Findes filterruden på alle lister?
-Filterruden findes på sider, hvor listen udgør det primære indhold på siden, f.eks. regneark og oversigtssider, herunder lister kan åbnes fra navigationslinjen. Filterruden er endnu ikke tilgængelig for integrerede lister, f.eks. salgslinjer på salgsordrer eller lister med dynamiske kolonner (såkaldte matrixsider).
+Filterruden findes på sider, hvor listen udgør det primære indhold på siden, f.eks. regneark og oversigtssider, herunder lister kan åbnes fra navigationslinjen. Filterruden er endnu ikke tilgængelig for lister, der vises som dele, f.eks. faktabokse eller Rollecenter-dele. Når en liste integreres på en side, f.eks. salgslinjer i en salgsordre, er filterruden tilgængelig, når der fokuseres på den pågældende liste med knappen fokustilstand. Du kan finde flere oplysninger i [Fokusere på linjevarer](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Hvordan kan jeg gemme min filtre?
 
