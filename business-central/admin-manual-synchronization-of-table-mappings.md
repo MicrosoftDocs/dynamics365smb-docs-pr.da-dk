@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245727"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629546"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkroniser tabeltilknytninger manuelt
 En integreret tabeltilknytning knytter en [!INCLUDE[d365fin](includes/d365fin_md.md)] tabel (record-type), f.eks. kunde, med en [!INCLUDE[crm_md](includes/crm_md.md)] enhed, f.eks. en konto. Synkronisering af en integreret tabeltilknytning muliggør synkronisering af data i alle records i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen [!INCLUDE[crm_md](includes/crm_md.md)]-enheden, der er sammenkædet. Afhængigt af konfigurationen af tabeltilknytningen kan synkronisering skabe og sammenkæde nye records i destinationsløsningen til records i ikke sammenkædede records i kilden.  
@@ -95,4 +95,4 @@ Ved at ændre integrationstabeltilknytningen på forhånd kan du konfigurere syn
 
 ## <a name="see-also"></a>Se også  
 [Synkronisering af Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Konfigurere Dynamics 365 for Sales-integration i Business Central](admin-setting-up-integration-with-dynamics-sales.md)   
+[Konfigurere brugerkonti til integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   

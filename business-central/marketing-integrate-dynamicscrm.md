@@ -9,20 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3cc053158581d4fc9b87dc3e505a23ed809c1c8f
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620857"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726855"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Brug af Dynamics 365 for Sales fra Business Central
 Hvis du bruger Dynamics 365 for Sales til Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
 
+Før du kan bruge integrationsfunktionerne, skal du oprette forbindelsen og definere brugere i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger under [Integration med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+
 > [!NOTE]
-> I dette emnet antages det, at du bruger onlineversioner af [!INCLUDE[d365fin](includes/d365fin_md.md)] og Salg. Du kan blande onlineversioner og lokale versioner, men det kræver speciel konfiguration. Du kan finde flere oplysninger i [Forberedelse af integration med Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Følgende fremgangsmåde beskriver processen med at integrere onlineversioner af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 for Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Ved integration af programmerne kan du få adgang til data i Salg fra [!INCLUDE[d365fin](includes/d365fin_md.md)] og omvendt i nogle tilfælde. Du kan arbejde med og synkronisere datatyper, der er fælles for begge tjenester, f.eks. debitorer, kontakter og salgsoplysninger, og holde dataene opdaterede i begge programmer.  
 
@@ -73,19 +75,22 @@ Hvis beskrivelsen af varen på den oprindelige salgsordre er meget lang, oprette
 
 Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesdato eller Ønsket leveringsdato, der er tilknyttet i SALGSORDRE-ORDRE **Integrationstabelkoblinger** synkroniseres regelmæssigt til [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som frigivelse af en salgsordre og levering eller fakturering af en salgsordre bogføres på salgsordrens tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Introduktion til aktivitetsopdateringer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
+
 ## <a name="handling-sales-quotes-data"></a>Håndtering af data i salgstilbud
 Salgstilbud, der aktiveres i [!INCLUDE[crm_md](includes/crm_md.md)], overføres til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du markerer afkrydsningsfeltet **Behandl tilbud automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**.
 Alternativt kan du manuelt konvertere aktiverede salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Behandl i [!INCLUDE[d365fin](includes/d365fin_md.md)]** på siden **Salgstilbud – Dynamics 365 for Sales**.
 I sådanne salgstilbud overføres og knyttes feltet **Navn** i det oprindelige tilbud til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Desuden overføres feltet **Gælder til** i tilbud og tilknyttes feltet **Tilbud gyldigt til** i salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Salgstilbud gennemgår mange revisioner, mens de er under udarbejdelse. Både manuel og automatisk behandling af salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)] sikrer, at tidligere versioner af salgstilbud arkiveres, før nye ændringer af salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] behandles. 
+Salgstilbud gennemgår mange revisioner, mens de er under udarbejdelse. Både manuel og automatisk behandling af salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)] sikrer, at tidligere versioner af salgstilbud arkiveres, før nye ændringer af salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] behandles.
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Håndtere bogførte salgsfakturaer, debitorbetalinger og statistik
-Når en salgsordre er opfyldt, oprettes der fakturaer for den. Når du fakturerer en salgsordre, kan du overføre bogført salgsfaktura til [!INCLUDE[crm_md](includes/crm_md.md)], hvis du vælger **Opret faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på siden Bogført salgsfaktura. Bogførte fakturaer overføres til [!INCLUDE[crm_md](includes/crm_md.md)] med statussen **Faktureret**. Når der modtages debitorbetaling for salgsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)], ændres status for salgsfaktura til **Betalt** med Statusårsag **Delvis**, hvis det er en delvis betaling eller **Afsluttet**, hvis den er endeligt betalt, når du kører **Opdater kontostatistik** på debitorsiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. **Opdater kontostatistik** opdaterer også værdier typen Saldo og Salg i alt i [!INCLUDE[d365fin](includes/d365fin_md.md)] faktaboksen Kontostatistik i [!INCLUDE[crm_md](includes/crm_md.md)].
-Du kan også få planlagt opgaver (Debitorstatistik og POSTEDSALESINV-INV) til automatisk at køre begge processer i baggrunden. 
+Når en salgsordre er opfyldt, oprettes der fakturaer for den. Når du fakturerer en salgsordre, kan du overføre den bogførte salgsfaktura til [!INCLUDE[crm_md](includes/crm_md.md)], hvis du markerer afkrydsningsfeltet **Opret faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på siden **Bogført salgsfaktura**. Bogførte fakturaer overføres til [!INCLUDE[crm_md](includes/crm_md.md)] med status **Faktureret**.
+
+Når der modtages debitorbetaling for salgsfakturaen i [!INCLUDE[d365fin](includes/d365fin_md.md)], ændres status for salgsfaktura til **Betalt** med **Statusårsag**-feltet indstillet til **Delvis**, hvis det er en delvis betaling eller **Afsluttet**, hvis den er endeligt betalt, når du vælger handlingen **Opdater kontostatistik** på debitorsiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Funktionen **Opdater kontostatistik** opdaterer også værdier, f.eks. **Saldo** og **Salg i alt** i **[!INCLUDE[d365fin](includes/d365fin_md.md)]-faktaboksen Kontostatistik** i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan også få de planlagte opgaver Debitorstatistik og POSTEDSALESINV-INV til automatisk at køre begge processer i baggrunden.
 
 ## <a name="see-also"></a>Se også
-[Forberede integration med Dynamics 365 for Sales On-Premises](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)  
+[Integration med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Relationsstyring](marketing-relationship-management.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  

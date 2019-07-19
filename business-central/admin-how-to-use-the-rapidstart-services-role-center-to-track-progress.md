@@ -1,8 +1,6 @@
 ---
 title: Sådan bruges rollecenteret RapidStart Services-implementering | Microsoft Docs
 description: Når du bruger RapidStart Services, anbefales du at registrere dit arbejde og bruge rollecenteret RapidStart Services-implementering, som indeholder den korrekte kontekst til dit konfigurationsarbejde.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
+ROBOTS: NOINDEX
+ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245162"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726901"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Bruge rollecenteret RapidStart Services-implementering
 Når du bruger RapidStart Services, anbefales du at bruge rollecenteret RapidStart Services-implementering, som indeholder den korrekte kontekst til dit konfigurationsarbejde. Du kan finde flere oplysninger under [Sådan ændres rollecentret](ui-change-basic-settings.md#to-change-role-center).

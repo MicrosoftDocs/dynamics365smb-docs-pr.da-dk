@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250338"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629753"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Føje links til websteder, dokumenter eller programmer på poster
 På en bestemt post, f.eks. en debitor, et dokument eller en salgsordre, kan du tilføje et link til et eksternt dokument, websted eller program. Det kan også være, at du ønsker et link, der åbner en ny tom mail til en bestemt modtager, når du vælger det. På kortsiden på nogle poster, f.eks. debitor- og kreditorkort, er der et felt **Hjemmeside**, hvor du kan angive en URL-adresse (internetadresse). Hvis du vil medtage andre links, kan du bruge den metode, der er beskrevet i denne artikel.  
@@ -35,10 +35,9 @@ Et andet eksempel kan være, når du modtager en trykt faktura fra kreditorer. D
 
 4.  I feltet **Hyperlinkadresse** skal du angive
 
-    -   Hvis du vil sammenkæde med en fil på din computer eller dit netværk, skal du angive den fulde sti og filnavn, f.eks. **C: Min dokumentfaktura1.doc**.
+    -   Hvis du vil sammenkæde med en fil på din computer eller dit netværk, skal du angive den fulde sti og filnavn, f.eks. **C:\Mine dokumenter\faktura1.doc**.
     -   Hvis du vil sammenkæde med et websted, skal du angive URL-adressen (internetadressen), f.eks. **www.microsoft.com**.
-    -   Hvis du vil sammenkæde med et websted, skal du angive URL-adressen (internetadressen), f.eks. **www.microsoft.com**.
-    -   Hvis du vil sammenkæde med et program, skal du angive en bestemt streng for at åbne programmet. Hvis du f.eks. vil åbne OneNote med en bestemt side, skal du angive **OneNote:///C:Min dokumenttest.one**. Eller hvis du vil åbne Outlook med en ny tom mail til et bestemt alias, skal du angive **mailto:testalias**.  
+    -   Hvis du vil sammenkæde med et program, skal du angive en bestemt streng for at åbne programmet. Hvis du f.eks. vil åbne OneNote med en bestemt side, skal du angive **onenote:///C:\Mine dokumenter/test.one**. Eller hvis du vil åbne Outlook med en ny tom mail til et bestemt alias, skal du angive **mailto:testalias**.  
 
 5.  Angiv oplysninger om linket i feltet **Beskrivelse**.  
 

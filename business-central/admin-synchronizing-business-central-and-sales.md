@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540219"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629615"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synkronisering af data i Business Central og Dynamics 365 for Sales
 Når du integrerer [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du bedt om at synkronisere dataene i bestemte felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (f.eks. kunder, kontakter og sælgere) med tilsvarende records i [!INCLUDE[d365fin](includes/d365fin_md.md)] (f.eks. konti, kontakter og brugere). Afhængigt af record-typen kan du synkronisere data fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)], eller omvendt. Du kan finde flere oplysninger under [Integration med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -77,7 +77,7 @@ Følgende tabel viser tilknytninger fra [!INCLUDE[d365fin](includes/d365fin_md.m
 I følgende tabel beskrives de regler, der styrer synkroniseringen mellem programmerne,
 
 > [!NOTE]  
-> Ændringer af data i [!INCLUDE[crm_md](includes/crm_md.md)], der blev foretaget af [!INCLUDE[crm_md](includes/crm_md.md)]-forbindelsesbrugerkontoen synkroniseres ikke. Derfor anbefales det, at du ikke ændrer data, når du benytter denne konto. Du kan finde flere oplysninger under [Konfiguration af integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Ændringer af data i [!INCLUDE[crm_md](includes/crm_md.md)], der blev foretaget af [!INCLUDE[crm_md](includes/crm_md.md)]-forbindelsesbrugerkontoen synkroniseres ikke. Derfor anbefales det, at du ikke ændrer data, når du benytter denne konto. Du kan finde flere oplysninger i [Konfigurere brugerkonti til integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Sortbord|Regel|
 |-----|----|

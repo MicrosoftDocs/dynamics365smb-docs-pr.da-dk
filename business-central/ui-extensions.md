@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: d03d1aa3910dc73dc61c61bdd66725e8e8af3c66
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621110"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629868"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central ved brug af udvidelser
 Du kan ændre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.
@@ -48,24 +48,28 @@ Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af [andre virks
 
 Microsoft tilbyder følgende udvidelser:  
 
-* [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
-* [Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)  
-* [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)  
-* [Ceridian løn](ui-extensions-ceridian-payroll.md)  
-* [Import af Quickbooks-lønfiler](ui-extensions-quickbooks-payroll.md)  
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
-* [Britiske GetAddress.io-postnumre](ui-extensions-getaddressio.md)  
-* [QuickBooks Online Dataoverførsel](ui-extensions-quickbooks-online-data-migration.md)  
-* [Revisorportal](ui-extensions-accountant-portal.md)  
-* [Billedanalyse](ui-extensions-image-analyzer.md)  
-* [Betalinger og afstemninger (DK)](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [C5-dataoverførsel](ui-extensions-c5-data-migration.md)  
-* [Vigtig forretningsindsigt](ui-extensions-essential-business-insights.md)  
-* [Forudsigelser af forsinkede betalinger](ui-extensions-late-payment-prediction.md  )
-* [Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
+* [Revisiorportal til Business Central](ui-extensions-accountant-portal.md)
+* [Ceridian løn](ui-extensions-ceridian-payroll.md)
+* [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Vigtig forretningsindsigt](ui-extensions-essential-business-insights.md)
+* [Billedanalyse](ui-extensions-image-analyzer.md)
+* [Intelligent sky](ui-extensions-data-replication.md)
+* [Intelligent sky basis](ui-extensions-intelligent-cloud.md)
+* [Forudsigelser af forsinkede betalinger](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Dataoverførsel](ui-extensions-quickbooks-online-data-migration.md)
+* [Import af Quickbooks-lønfiler](ui-extensions-quickbooks-payroll.md)
+* [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK – C5-dataoverførsel](ui-extensions-c5-data-migration.md)
+* [DK - Betalinger og afstemninger](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK – Tax File Formats](ui-extensions-tax-file-formats-dk.md)
+* [UK – GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
+* [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)
 
 > [!NOTE]  
 >  Der findes ingen nye udvidelser i AppSource umiddelbart efter, at vi har oplyst om en opdatering. Du kan holde øje med udvidelser på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

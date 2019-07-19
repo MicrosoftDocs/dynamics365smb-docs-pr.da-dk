@@ -1,1 +1,1 @@
-Dette er tidligt frigivet funktionalitet, som vi stadig arbejder på. Funktioner og indholdet på denne side kan blive ændret. Hvis du vil vide, hvad der kommer, kan du se [Produktbemærkninger til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).
+Dette er tidligt frigivet funktionalitet, som vi stadig arbejder på. Funktioner og indholdet på denne side kan blive ændret. Hvis du vil vide, hvad der kommer, kan du se [Frigivelsesplan for Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).

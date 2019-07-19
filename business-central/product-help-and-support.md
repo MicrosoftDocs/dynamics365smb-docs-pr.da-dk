@@ -1,18 +1,18 @@
 ---
 title: Hjælp og support
-description: Få hjælp til produkter, vejledning og assistance, og få mere at vide om teknisk support til Business Central.
+description: Få hjælp til produkter, vejledning, tip til fejlfinding og assistance, og få mere at vide om teknisk support til Business Central.
 author: edupont04
 ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2019
-ms.openlocfilehash: e9051ae5c12a787eb40732ad133e8d21932df50d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/03/2019
+ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253673"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726947"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
@@ -47,7 +47,7 @@ På [Business Central blog](https://community.dynamics.com/business/b/financials
 
 ### <a name="capabilities-coming-soon"></a>Funktioner, der lanceres snart
 
-[!INCLUDE[prodshort](includes/prodshort.md)] opdateres med større funktionalitetsopdateringer hver 6. måned og med månedlige serviceopdateringer. Vælg linket for at se de seneste lanceringsopslag. Du kan også få et overblik over kommende eller nyligt lancerede funktioner i lanceringsnoter i Dynamics 365 på [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes)  
+[!INCLUDE[prodshort](includes/prodshort.md)] opdateres med større funktionalitetsopdateringer hver 6. måned og med månedlige serviceopdateringer. Vælg linket for at se de seneste frigivelsesplan. Du kan også få et overblik over kommende eller nyligt lancerede funktioner i frigivelsesplanen i Dynamics 365 på [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes)  
 
 Se [!INCLUDE[prodshort](includes/prodshort.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) for at få et langsigtet overblik, der viser generelle prioriteringer for [!INCLUDE[prodshort](includes/prodshort.md)] i de kommende år.  
 

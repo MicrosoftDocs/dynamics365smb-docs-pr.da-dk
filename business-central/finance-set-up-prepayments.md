@@ -5,19 +5,19 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
-ms.date: 04/01/2019
+ms.date: 06/24/2019
 ms.author: edupont
-ms.openlocfilehash: e8a6e0834b259358de5c07d3f83a7b5477a0d3a7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 77e53c7492a1c9ab5bd1e4d150b291ebd2b61917
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244695"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701148"
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
 Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger. Funktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer og til at sikre, at alle delvise betalinger bogføres i forhold til en faktura. Du kan finde flere oplysninger i [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md).
 
-Inden du kan bogføre forudbetalingsfakturaer, skal du oprette bogføringskonti i finansposterne, og du skal oprette nummerserier for forudbetalingsdokumenterne.  
+Inden du kan bogføre forudbetalingsfakturaer, skal du oprette bogføringskonti i finansposterne, og du skal oprette nummerserier for forudbetalingsdokumenterne. Du skal angive en konto til forudbetalinger, der vedrører salg, og en konto til forudbetalinger, der vedrører køb. Du kan angive de samme bogføringskonti, der skal bruges til alle forudbetalinger, der vedrører alle virksomhedsbogføringsgrupper eller generelle produktbogføringsgrupper, eller du kan angive bestemte konti til bestemte bogføringsgrupper til henholdsvis salg og køb. Dette afhænger af virksomhedens krav til sporing af forudbetalinger.  
 
 Du kan definere den procentdel af linjebeløbet, der skal faktureres for forudbetaling - for en debitor eller kreditor, for alle varer eller udvalgte varer. Når du har fuldført opsætningen, kan du generere forudbetalingsfakturaer fra salgs- og købsordrer. Du kan bruge standardprocenterne for hver salgs- eller indkøbslinje, eller du kan ændre beløbene efter behov. Du kan f.eks. angive et samlet beløb til hele ordren.  
 
@@ -33,7 +33,10 @@ Eftersom det forudbetalte beløb tilhører køberen, indtil han har modtaget var
     - **Forudbetalingskonto for salg**  
     - **Forudbetalingskonto for køb**  
 
-Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du gøre det på siden **Finanskontooversigt**.  
+> [!TIP]
+> Hvis du ikke kan se felterne på siden **Bogføringsopsætning**, skal du bruge det vandrette rullepanel nederst på siden til at rulle til højre.  
+
+Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du åbne siden **Finanskontooversigt** fra det relevante kontofelt.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Sådan oprettes nummerserier til forudbetalingsdokumenter  
 
@@ -50,7 +53,7 @@ Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du gøre 
     - **Bogførte forudbetalingskreditnotanr.**
 
 > [!NOTE]  
->  Du kan bruge samme nummerserie til forudbetalingsfakturaer som til almindelige fakturaer, eller du kan bruge forskellige serier. Hvis du bruger forskellige serier, må der ikke være ens numre i serierne; dvs. numre, der optræder i begge serier.  
+> Du kan bruge samme nummerserie til forudbetalingsfakturaer som til almindelige fakturaer, eller du kan bruge forskellige serier. Hvis du bruger forskellige serier, må der ikke være ens numre i serierne; dvs. numre, der optræder i begge serier.  
 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Sådan opretter forudbetalingsprocenter til varer, debitorer og kreditorer  
 Hvis du opretter en standardforudbetalingsprocent til en vare, kan den bruges til alle kunder, en bestemt kunde eller en debitorprisgruppe.  
@@ -67,7 +70,9 @@ Til en kunde eller leverandør kan du oprette én standardforudbetalingsprocent,
 4. Gentag trinene for andre debitorer eller for kreditorer.  
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Sådan afgøres det, hvilken forudbetalingsprocent der har højeste prioritet  
+
 I en ordre kan der være én forudbetalingsprocent i salgshovedet og en anden procent for varerne på linjerne. For at afgøre, hvilken forudbetalingsprocent der gælder for hver enkelt salgslinje, søger systemet efter forudbetalingsprocenten i følgende rækkefølge, hvorefter den første standardprocent, der bliver fundet, anvendes:  
+
 1. En forudbetalingsprocent for varen på linjen og for den kunde, som ordren vedrører.  
 2. En forudbetalingsprocent for varen på linjen og for den debitorprisgruppe, som kunden tilhører.  
 3. En forudbetalingsprocent for varen på linjen for alle kunder.  

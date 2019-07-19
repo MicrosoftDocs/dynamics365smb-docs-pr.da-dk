@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: def9338cea3a1998aafac671e304c55f83fdece7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7ca4f01d261915e2ecf6416ee1d9e85f50c73fb0
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242464"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629707"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbejde med betalingstolerancer og kontantrabattolerancer
 Du kan angive en betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen. Du kan angive en kontantrabattolerance til at give kontantrabat, efter at kontantrabatdatoen er overskredet.  
@@ -218,7 +218,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Regler for flere betalingstolerancer 2")  
+![Regler for flere betalingstolerancer 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regler for flere betalingstolerancer 2")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -229,7 +229,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regler for flere betalingstolerancer 3")  
+![Regler for flere betalingstolerancer 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Regler for flere betalingstolerancer 3")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4854dc38fe395fb36381cda0e2c177e9e3abf591
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245886"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629477"
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
 
@@ -38,7 +38,10 @@ Fra community-startsiden kan du også finde links til vores blogs, hvor du kan o
 Endelig kan du kontakte din [!INCLUDE[d365fin](includes/d365fin_md.md)]-videresalgspartner. Du kan finde flere oplysninger i afsnittet [hvordan kan jeg få teknisk support?](across-faq.md#how-do-i-get-technical-support-for-).  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Hvorfor kan jeg ikke finde denne funktionalitet i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Har du læst om en ny funktionalitet i produktbemærkningerne eller på vores blog for nylig? I så fald er dine [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke blevet opgraderet til den seneste version endnu. Hvis funktionaliteten er udgivet som en udvidelse i AppSource, er der en forsinkelse mellem den udvidelse, der annonceres, og dens tilgængelighed på AppSource.  
+Har du læst om en ny funktionalitet i frigivelsesplanen eller på vores blog for nylig? I så fald er dine [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke blevet opgraderet til den seneste version endnu. Hvis funktionaliteten er udgivet som en udvidelse i AppSource, er der en forsinkelse mellem den udvidelse, der annonceres, og dens tilgængelighed på AppSource.  
+
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Er der forskel på en lokal installation og skyversionen af Business Central?
+Ja. Nogle skybaserede funktioner kan køre lokal i visse tilfælde, og andre understøttes ikke overhovedet. Du kan finde flere oplysninger i [Funktioner, der ikke implementeres i lokale installationer af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan jeg få uddannelse i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Ja, det kan du. Men i øjeblikket skal du spørge din videresalgspartner. Hvis du ikke ved, hvem det er, kan du finde en Business Central-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145).  

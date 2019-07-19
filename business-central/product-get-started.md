@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: eae085d430fb7341b8ac62f26033d68d9ea155cf
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254076"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629937"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Introduktion til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Tilmelding er nemt, og du kan overflytte eksisterende forretningsdata fra dit gamle system. For at hjælpe dig med dit abonnement, kan du finde en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -23,7 +23,7 @@ ms.locfileid: "1254076"
 Når du tilmelder dig eksempelversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)], får du adgang til et demoregnskab. Demoregnskabet indeholder eksempeldata, men du kan oprette dine egne salgsdokumenter f.eks eller oprette en bankkonto.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Lære [!INCLUDE[d365fin](includes/d365fin_md.md)] at kende
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] er nogle ting genkendelige for dig, mens andet måske er nyt. I demonstrationsregnskabet forklarer visuelle vejledninger de grundlæggende funktioner og hjælper dig med at afprøve daglige opgaver som oprettelse af en salgsfaktura og visning af en rapport. Hvis du forlader en vejledning, f.eks. for selv at undersøge [!INCLUDE[d365fin](includes/d365fin_md.md)], men vil vende tilbage til den, skal du gå tilbage til Rollecenter og starte introduktionsguiden. Hvis du vil have yderligere hjælp, kan du finde en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] er nogle ting genkendelige for dig, mens andet måske er nyt. I demonstrationsregnskabet forklarer visuelle vejledninger de grundlæggende funktioner og hjælper dig med at afprøve daglige opgaver som oprettelse af en salgsfaktura og visning af en rapport. Hvis du forlader en vejledning, f.eks. for selv at undersøge [!INCLUDE[d365fin](includes/d365fin_md.md)], men vil vende tilbage til den, skal du gå tilbage til Rollecenter og starte introduktionsguiden. Kontakt en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner, hvis du har brug for yderligere hjælp.  
 
 > [!TIP]  
 > Du kan vende tilbage til Rollecenter ved at vælge firmanavnet i øverste venstre hjørne.
@@ -36,7 +36,11 @@ Du kan finde hurtige og nyttige tip i:
 
 Du kan finde flere oplysninger i [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](across-business-functionality.md). Hvis du vil have en oversigt over nuværende og kommende funktioner, kan du kigge nærmere på vores produktbemærkninger under [Produktbemærkninger til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
+Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](across-business-functionality.md).
+
+Før du kan bruge funktionen, skal du foretage en vis opsætning. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md). Bemærk, at nogle opsætninger delvist kan udføres ved hjælp af assisterede opsætningsvejledninger.
+
+Hvis du vil have en oversigt over nuværende og kommende funktioner, kan du kigge nærmere på vores frigivelsesplan under [Frigivelsesplan til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Rollecentrene
 Siden Rollecenter er baseret på et rollecentreret design, som giver hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige rollecentre ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).
@@ -96,7 +100,7 @@ Hvis du er revisor, kan du tilmelde dig [!INCLUDE[d365acc_long](includes/d365acc
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobilenhed](install-mobile-app.md)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  
 [Dokumentation til Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Microsoft Dynamics 365 Business Central Produktbemærkninger](https://go.microsoft.com/fwlink/?linkid=2047422)  
+[Microsoft Dynamics 365 Business Central Frigivelsesplan](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

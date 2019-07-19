@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: d314b8ce94c5f8251298f0322acd2cdc4f6b15d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9248d39ed447f8c590db708567790edfd64da0db
+ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246720"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "1717580"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruge Business Central som din virksomheds Indbakke i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introducerer muligheden for at administrere forretningsinteraktioner med kunder og leverandører direkte i Microsoft Outlook. Med Outlook-tilføjelsesprogrammerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se finansielle data, der er relateret til debitorer og kreditorer samt oprette og sende finansielle dokumenter, f.eks tilbud og fakturaer.  
 
 ## <a name="getting-the-add-in"></a>Få tilføjelsesprogrammet
-Det er nemt at komme i gang med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet til Outlook. I den assisterende opsætningsvejledning **Konfigurer din virksomheds indbakke i Outlook** kan du oprette forbindelsen til dig selv eller til din virksomhed. Hvis virksomheden bruger Office 365, skal du angive dit Office 365-brugernavn og din adgangskode. Hvis organisationen ikke bruger Office 365, skal du angive oplysninger om den Exchange Server, du bruger. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammerne føjes derefter automatisk til Outlook.  
+Det er nemt at komme i gang med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet til Outlook. I den assisterende opsætningsvejledning **Konfigurer din virksomhedsindbakke i Outlook** kan du oprette forbindelsen til dig selv eller til din virksomhed, hvis virksomheden bruger Office 365. Du skal blot angive dit brugernavn og din adgangskode til Office 365. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammerne føjes derefter automatisk til Outlook. Du kan finde flere oplysninger i [Minimumkrav til Outlook](product-requirements.md#outlook).  
 
 Når du åbner Outlook, vises en mail fra Dynamics 365 Business Central-administratoren. Det nye tilføjelsesprogram føjes til Outlook-båndet, og i Outlook Web-appen kan du se [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet lige over eller under brødteksten i mailen. Tilføjelsesprogrammerne opdateres med jævne mellemrum, og du får besked, når en ny version er klar i Outlook.  
 
@@ -41,16 +41,16 @@ I nogle tilfælde kan det være praktisk at kunne se flere felter, end du kan i 
 Nogle virksomheder registrerer alle fakturerbare aftaler i Outlook-kalenderen. Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du oprette fakturaen til kunden direkte fra emnet i kalenderen: Åbn aftalen, og derefter kan du åbne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet, søge efter eksisterende oplysninger eller oprette en faktura eller et andet salgsdokument dér.  
 
 ## <a name="doing-quick-document-lookup"></a>Foretage hurtigt dokumentopslag
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet Document Links giver dig hurtig adgang til dokumenter, der nævnes i mails. Tilføjelsesprogrammet kan bruges i en mail, hvis der findes et gyldigt bilagsnummer i selve meddelelsen. Når tilføjelsesprogrammet åbnes, giver det hurtig adgang til dokumentet.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet Dokumentlinks giver dig hurtig adgang til dokumenter, der nævnes i mails. Tilføjelsesprogrammet kan bruges i en mail, hvis der findes et gyldigt bilagsnummer i selve meddelelsen. Når tilføjelsesprogrammet åbnes, giver det hurtig adgang til dokumentet.  
 
-F.eks. hvis du modtager en mail, hvor der i teksten står *S-QUO100*, identificerer [!INCLUDE[d365fin](includes/d365fin_md.md)] det som et salgstilbud, og så kan du åbne dette dokument i Outlook. I Outlook skal du vælge knappen **Document Links** umiddelbart oven over brødteksten i mailen. I Outlook-webappen skal du vælge teksten *S-QUO1001* i brødteksten i mailen.  
+F.eks. hvis du modtager en mail, hvor der i teksten står *S-QUO100*, identificerer [!INCLUDE[d365fin](includes/d365fin_md.md)] det som et salgstilbud, og så kan du åbne dette dokument i Outlook. I Outlook skal du vælge knappen **Dokumentlinks** umiddelbart oven over brødteksten i mailen. I Outlook-webappen skal du vælge teksten *S-QUO1001* i brødteksten i mailen.  
 
-I tilføjelsesprogrammet Document Links kan du redigere og foretage handlinger i dokumentet, ligesom du kan i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+I tilføjelsesprogrammet Dokumentlinks kan du redigere og foretage handlinger i dokumentet, ligesom du kan i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="adding-the-add-ins-manually"></a>Manuel tilføjelse af tilføjelsesprogrammerne
 I nogle tilfælde bliver tilføjelsesprogrammerne ikke føjet automatisk til Outlook. Selvom du eller en kollega har kørt den assisterede opsætningsvejledning på vegne af virksomheden, bliver [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke vist i Outlook. Hvis du oplever dette problem, kan du tilføje [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammer manuelt.  
 
-Først skal du kontrollere, at du har adgang til tilføjelsesprogrammerne på din Office 365-konto. Åbn Outlook Web Access i en webbrowser, og føj derefter `/owa/#path=/options/manageapps` til URL-adresse på adresselinjen. Dermed åbnes siden **Administrere tilføjelsesprogrammer**, hvor du kan aktivere [!INCLUDE[d365fin](includes/d365fin_md.md)] til din Outlook. Derefter, når du går tilbage til Outlook, skulle [!INCLUDE[d365fin](includes/d365fin_md.md)] være tilgængeligt.  
+Først skal du kontrollere, at du har adgang til tilføjelsesprogrammerne på din Office 365-konto. Åbn Outlook i en webbrowser, og føj derefter `/owa/#path=/options/manageapps` til URL-adressen på adresselinjen. Dermed åbnes siden **Administrere tilføjelsesprogrammer**, hvor du kan aktivere [!INCLUDE[d365fin](includes/d365fin_md.md)] til din Outlook. Derefter, når du går tilbage til Outlook, skulle [!INCLUDE[d365fin](includes/d365fin_md.md)] være tilgængeligt.  
 
 På samme måde kan du i Outlook-skrivebordsklienten kontrollere, at [!INCLUDE[d365fin](includes/d365fin_md.md)] er angivet på siden **Administrer tilføjelsesprogrammer**.  
 

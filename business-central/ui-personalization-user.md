@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253719"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632725"
 ---
 # <a name="personalizing-your-workspace"></a>Tilpasse dit arbejdsområde
 
@@ -60,7 +60,7 @@ Afhængigt af sidens type og det siden indeholder, kan du gøre forskellige ting
 |Vise et felt i overskriften til et oversigtspanel, når oversigtspanelet er skjult.|Vælg pilespidsen, og vælg <b>Vis, når skjult</b>. <br /> <br />Hvis du ikke kan se denne indstilling, er den allerede angivet. Hvis det er tilfældet, og feltet ikke skal vises i overskriften til oversigtspanelet, skal du vælge <b>Vis altid</b>.|*Oversigtspanel* er det udtryk, der bruges om en gruppe felter, der vises under en fælles overskrift. Brug indstillingen <b>Vis, når skjult</b> for at få vist de vigtigste felter. Hvis du vælger et felt i overskriften, åbnes oversigtspanelet og fokuserer på det valgte felt.<br /><br />Denne indstilling kan kun anvendes, hvis en side har mere end et oversigtspanel. Hvis der kun er ét oversigtspanel, kan det ikke skjules, så indstiillingen <b>Vis, når skjult</b> er ikke tilgængelig.|
 |Angiv, at et felt kun skal vises, når du vælger **Vis mere**.|Vælg pilespidsen, og vælg <b>Vis under "Vis flere"</b>. <br /> <br />Hvis du ikke kan se indstillingen <b>Vis under "Vis flere"</b>, er den allerede angivet. I så fald skal du vælge <b>Vis altid</b> for at få vist et felt hele tiden, og ikke kun når du vælger **Vis mere**.||
 |Flytte den fastlåste rude i en liste til en anden kolonne. |Vælg pilespidsen for den kolonne, som du vil bruge som den sidste kolonne i den fastlåste rude, og vælg derefter <b>Angiv låst rude</b>.<br /><br/>Hvis du vil flytte den fastlåste rude tilbage til den oprindelige tiltænkte placering, skal du vælge pilespidsen for den aktuelle kolonne i den låste rude og vælge <b>Ryd låst rude</b>. Bemærk: Du kan ikke fjerne denne låste rude.|Den fastlåste rude angiver de kolonner, der altid vises i venstre side, selv når du ruller vandret.|  
-|Ændre kolonnebredden.|Træk i kolonnes højre ramme i rækken med kolonneoverskriften. <br /><br />Dobbeltklik på højre ramme for at maksimere kolonnebredden, så den passer til den længste tekstlinje i kolonnen.||
+|Ændre kolonnebredden.|Træk i kanten mellem kolonnerne i oversigtshovedet. <br /><br />Du kan dobbeltklikke på kanten mellem kolonneoverskrifter for at tilpasse automatisk for at få en læsevenlig bredde.||
 |Spring et felt over, når du trykker på Enter.|Vælg pilespidsen ved siden af feltet eller kolonneoverskriften på en liste, og vælg **Udeluk fra genvej**. <br /><br /> Hvis du ikke kan se denne indstilling, er det allerede angivet, at feltet skal springes over. I det tilfælde skal du stoppe med at springe feltet over og vælge **Medtag i genvej**. |Se [Fremskynde dataindtastning ved hjælp af genveje](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Tilpasning af handlinger
