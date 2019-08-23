@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 06/26/2019
 ms.author: solsen
-ms.openlocfilehash: 217310522d7e54eeaa9dbd50df4ff89b0d68517d
-ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
+ms.openlocfilehash: 10ccbc7546aa5d03c3837997a721c63c3ce465da
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711079"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796661"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -72,7 +72,7 @@ Du kan aktivere og prøve alle de avancerede funktionerne i [!INCLUDE[d365fin](i
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-Når du har aktiveret de avancerede funktioner i en sandkasselejer, kan du få adgang til alle standardprofiler og rollecentre. Du kan også oprette en evalueringsvirksomhed, der er fuldt defineret, herunder med demodata og adgang til avancerede områder af produktet.
+Når du har aktiveret de avancerede funktioner i en sandkasselejer, kan du få adgang til alle standardprofiler (roller) og rollecentre. Du kan også oprette en evalueringsvirksomhed, der er fuldt defineret, herunder med demodata og adgang til avancerede områder af produktet.
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

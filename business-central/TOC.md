@@ -106,6 +106,7 @@
 ### [Arbejde med ansvarscentre](inventory-responsibility-centers.md)
 ### [Opsætte lokationer](inventory-how-setup-locations.md)
 ### [Registrere nye varer](inventory-how-register-new-items.md)
+### [Kopiere eksisterende varer for at oprette nye varer](inventory-how-copy-items.md)
 ### [Om varetyper](inventory-about-item-types.md)
 ### [Oprette vareenheder](inventory-how-setup-units-of-measure.md)
 ### [Opsætte lagervarer](inventory-how-to-set-up-stockkeeping-units.md)
@@ -302,7 +303,7 @@
 
 # Opsætning
 ## [Oversigt](admin-setup-and-administration.md)
-## [Forstå profiler og rollecentre](admin-users-profiles-roles.md)
+## [Forstå brugere, roller og profiler](admin-users-profiles-roles.md)
 ## [Administrere brugere og deres rettigheder](ui-how-users-permissions.md)
 ## [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md)
 ## [Svare på anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md)
@@ -834,7 +835,6 @@
 #### [Udstede leveringsrykkere](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 #### [Udskrive testrapporter for leveringsrykkere](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Generelt
-#### [Kopiere eksisterende varer til nye varer](LocalFunctionality/Austria/how-to-copy-existing-items-to-new-items.md)
 #### [Udskrive oplysninger om opsætning af Finans](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 #### [Udskrive salgs- og købsordrer under massebogføring](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
@@ -856,7 +856,6 @@
 #### [Udligne CODA-udtog](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 #### [Automatisk overføre og bogføre CODA-udtog](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 #### [CODA-bankkontoudtog](LocalFunctionality/Belgium/coda-bank-statements.md)
-#### [Hente CODA-filer fra en Isabel Server](LocalFunctionality/Belgium/how-to-download-coda-files-from-an-isabel-server.md)
 #### [Belgisk Electronic Banking](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 #### [Konfigurere Electronic Banking](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
 #### [Konfigurere eksportprotokoller](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
@@ -866,8 +865,6 @@
 #### [Oprette betalingskladdeskabeloner og -navne](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 #### [Kontrollere elektroniske betalinger](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
 #### [Generere betalingsforslag](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-#### [Isabel 6](LocalFunctionality/Belgium/isabel-6.md)
-#### [Overføre betalingsfiler til en Isabel Server](LocalFunctionality/Belgium/how-to-upload-payment-files-to-an-isabel-server.md)
 #### [Importere CODA-kontoudtog](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### [Administrere elektroniske betalingslinjer](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
 #### [Manuelt overføre og bogføre CODA-udtog](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
@@ -883,7 +880,6 @@
 #### [Eksportere og bogføre domiciler](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 #### [Oprette domicileringsforslag](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 #### [Opsummere betalingslinjer og generelle kladdelinjer](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
-#### [Arkivere IBS-logposter](LocalFunctionality/Belgium/how-to-archive-ibs-log-entries.md)
 ### Grundlæggende Finans
 #### [Udligne og annullere udligning af finansposter](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Oprette finanskladder](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -1025,7 +1021,6 @@
 #### [Medtage virksomheders registreringsnumre i salgsrapporter og købsrapporter](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 #### [Udskrive salgs- og købsordrer under massebogføring](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Udskrive oplysninger om opsætning af Finans](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
-#### [Kopiere eksisterende varer til nye varer](LocalFunctionality/Germany/how-to-copy-existing-items-to-new-items.md)
 #### [Certificering af Business Central til tysk marked (dokumentet er på tysk)](https://go.microsoft.com/fwlink/?linkid=875256)
 
 ## Island
@@ -1242,7 +1237,7 @@
 #### [Fremgangsmåde: frigive, spore og afskrive anlæg](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
 #### [Fremgangsmåde: få vist bogførte poster for et anlægsgebyr](LocalFunctionality/Russia/How-to-View-Posted-Entries-on-a-Fixed-Asset-Charge.md)
 #### [Fremgangsmåde: oprette en immateriel anlægskonto](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
-#### [Fremgangsmåde: konto for omkostninger ved afhændelse af et anlægsaktiv](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md) 
+#### [Fremgangsmåde: konto for omkostninger ved afhændelse af et anlægsaktiv](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 #### [Anlæg, der ikke kan afskrives](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
 ### Moms
 #### [Oversigt](LocalFunctionality/Russia/VAT.md)
@@ -1376,7 +1371,6 @@
 #### [Udskrive testrapporter for leveringsrykkere](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
 ### Lagerbeholdning
 #### [Schweizisk flytning (lager)](LocalFunctionality/Switzerland/swiss-inventory-management.md)
-#### [Kopiere eksisterende varer til nye varer](LocalFunctionality/Switzerland/how-to-copy-existing-items-to-new-items.md)
 #### [Udskrive en lagerplukliste fra en salgsordre](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 ### Generelt    
 #### [Importere schweiziske postnumre](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)

@@ -1,22 +1,21 @@
 ---
-title: Om bogføring af salgsdokumenter | Microsoft Docs
-description: Få mere at vide om de forskellige bogføringsfunktioner, der bruges til at bogføre salgsdokumenter.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+title: Bogføring af salgsdokumenter | Microsoft Docs
+description: Lære mere om de forskellige bogføringsfunktioner til bogføring af salgsdokumenter, og hvordan du kan opdatere bogførte dokumenter.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.reviewer: edupont
 ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: d1b2d29c4c5b8397bd6e9e05088e7ea50d68fd20
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.author: sgroespe
+ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247900"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796891"
 ---
 # <a name="posting-sales"></a>Bogføring af salg
 I **Prod.bogf.gruppe** på et salgsdokument kan du vælge mellem følgende bogføringsfunktioner:
@@ -40,10 +39,12 @@ For hver salgsordrelinje oprettes der en varepost i tabellen **Varepost** (hvis 
 > [!IMPORTANT]  
 >   Når du bogfører en ordre, har du mulighed for både at oprette en leverance og en faktura. Det kan gøres på samme tid eller hver for sig. Du kan også oprette en delleverance og en delfaktura ved at udfylde felterne **Lever (antal)** og **Fakturer (antal)** på de enkelte salgsordrelinjer, før du bogfører. Bemærk, at du ikke kan oprette en faktura for noget, der ikke er leveret. Dvs., før du kan fakturere, skal der være registreret en leverance, eller du skal vælge at sende og fakturere på samme tid.
 
-Når bogføringen er gennemført, fjernes de bogførte salgslinjer fra ordren. Der vises en meddelelse, når bogføringen er gennemført. Herefter kan du se de bogførte poster på forskellige sider, der indeholder bogførte poster, f.eks. **Debitorposter**, **Finansposter**, **Vareposter**, **Bogf. salgsleverancer** og **Bogf. salgsfakturaer**.
+Når bogføringen er gennemført, fjernes de bogførte salgslinjer fra ordren. Der vises en meddelelse, når bogføringen er gennemført. Herefter kan du se de bogførte poster på forskellige sider, der indeholder bogførte poster, f.eks. **Debitorposter**, **Finansposter**, **Vareposter**, **Bogf. salgsleverancer** og **Bogf. salgsfakturaer**.  
 
 ## <a name="see-also"></a>Se også
+
 [Salg](sales-manage-sales.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
+[Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  
+[Bruge Fortæl mig til at finde funktioner og oplysninger](ui-search.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

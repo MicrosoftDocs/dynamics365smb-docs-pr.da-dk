@@ -9,21 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/31/2019
 ms.author: soalex
-ms.openlocfilehash: b18fa9511d8d79a2954dca57250a04905e5d0efa
-ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
+ms.openlocfilehash: ac7f649e25393e4d75644736f61b8930855b8e3b
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "1717603"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796638"
 ---
 # <a name="certifications"></a>Certificeringer  
 Dette indhold indeholder oplysninger om certificeringer i relation til [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
 ## <a name="country-certifications-and-accreditations"></a>Landecertificeringer og -godkendelser
 I visse lande skal regnskabssoftware certificeres for at være i overensstemmelse med lokale skatteregulativer og finansielle krav. Nogle lande udfører dette som et årligt tilbagevendende krav og andre som et engangskrav, der skal opfyldes. Nedenfor vises en oversigt over de aktuelle lande, hvor Business Central har opnået certificeringer. Bemærk, at kun nogle lande har dette krav.  
-- Frankrig (skatterevisionscertificering) [(link til certificering på fransk)](https://services.infocert.org/certificats/CERTIF-07-181-R16.pdf) 
+- Frankrig (skatterevisionscertificering) [(link til certificering på fransk)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf) 
 - Tyskland (dækker også Østrig og Schweiz) [(link til certificering på tysk)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
 
 > [!NOTE]  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238896"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796845"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
 Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
@@ -55,34 +55,42 @@ Selvom du måske har oprettet en eller flere kombinationer til håndtering af im
 
 Hvis en kontantrabat er beregnet på basis af et fakturabeløb, der er inkl. moms, tilbagefører du momsen af kontantrabatten, når rabatten er tildelt. Bemærk, at du skal aktivere feltet **Reguler moms ved kontantrabat** for både opsætning af finanskontiene generelt og momsbogføringsopsætning for en bestemt kombination af en momsvirksomhedsbogføringsgruppe og en momsproduktbogføringsgruppe.  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>Sådan angives moms manuelt i salgsbilag  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Sådan indstilles systemet for manuel momspostering i salgsdokumenter
+I det følgende beskrives, hvordan du aktiverer manuelle momsændringer i salgsdokumenter. Trinnene er de samme på siden **Købsopsætning**.
+
 1. På siden **Opsætning af Finans** skal du angive **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
 2. På siden **Salgsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>Sådan reguleres moms for et salgsdokument  
+### <a name="to-adjust-vat-for-a-sales-document"></a>Sådan reguleres moms for et salgsdokument  
 1. Åbn den relevante Salgsordre.  
 2. Vælg handlingen **Statistik**.  
-3. Vælg oversigtspanelet **Fakturering**.  
+3. I oversigtspanelet **Fakturering** skal du vælge værdien i feltet **Antal skattelinjer**.
+4. Rediger feltet **Momsbeløb**.   
 
-    > [!NOTE]  
-    >  Det samlede momsbeløb på fakturaen, grupperet efter moms-id, vises på linjerne. Du kan justere beløbet manuelt i feltet **Momsbeløb** på linjerne for hvert moms-id. Når du retter i feltet **Momsbeløb**, kontrolleres det, at du ikke har ændret momsen med mere end det beløb, du har angivet som den maksimalt tilladte difference. Hvis beløbet er uden for **den maksimalt tilladte momsdifference**, vises der en advarsel, hvor den maksimalt tilladte difference vises. Du vil ikke kunne fortsætte, før beløbet ændres, så det ligger inden for de acceptable parametre. Klik på **OK** , og angiv et andet **momsbeløb**, som ligger inden for det tilladte. Hvis momsdifferencen er lig med eller lavere end den maksimalt tilladte, deles momsen proportionalt mellem de dokumentlinjer, der har det samme moms-id.  
+> [!NOTE]  
+> Det samlede momsbeløb på fakturaen, grupperet efter moms-id, vises på linjerne. Du kan justere beløbet manuelt i feltet **Momsbeløb** på linjerne for hvert moms-id. Når du retter i feltet **Momsbeløb**, kontrolleres det, at du ikke har ændret momsen med mere end det beløb, du har angivet som den maksimalt tilladte difference. Hvis beløbet er uden for **den maksimalt tilladte momsdifference**, vises der en advarsel, hvor den maksimalt tilladte difference vises. Du vil ikke kunne fortsætte, før beløbet ændres, så det ligger inden for de acceptable parametre. Klik på **OK** , og angiv et andet **momsbeløb**, som ligger inden for det tilladte. Hvis momsdifferencen er lig med eller lavere end den maksimalt tilladte, deles momsen proportionalt mellem de dokumentlinjer, der har det samme moms-id.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Manuel momsberegning ved hjælp af kladder  
 Du kan også justere momsbeløb i finans-, salgs- og købskladder. Det kan f.eks. være nødvendigt, når du angiver en kreditorfaktura i kladden, og der er en forskel mellem det momsbeløb, som [!INCLUDE[d365fin](includes/d365fin_md.md)] har beregnet, og momsbeløbet på kreditorfakturaen.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Før du manuelt angiver moms i en finanskladde  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Sådan indstilles systemet til manuel momspostering i finanskladder
+Du skal udføre følgende trin, før du manuelt indtaster moms i en finanskladde.  
+
 1. På siden **Opsætning af Finans** skal du angive **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
 2. På siden **Finanskladdetyper** skal du markere afkrydsningsfeltet **Tillad momsdifference** for den relevante kladde.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Før du manuelt angiver moms i salgs- og købskladder  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Sådan indstilles systemet til manuel momspostering i salgs- og købskladder
+Du skal udføre følgende trin, før du manuelt indtaster moms i en salgs- eller købskladde.
+
 1. På siden **Købsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
-2. Når du har fuldført konfigurationen som beskrevet ovenfor, kan du justere værdien i feltet **Momsbeløb** på finanskladdelinjen eller værdien i feltet **Modkontos momsbeløb** på salgs- eller købskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, at differencen ikke er større end det angivne maksimum.  
+2. Gentag trin 1 for siden **Salgsopsætning**.
+3. Når du har fuldført konfigurationen som beskrevet ovenfor, kan du justere værdien i feltet **Momsbeløb** på finanskladdelinjen eller værdien i feltet **Modkontos momsbeløb** på salgs- eller købskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, at differencen ikke er større end det angivne maksimum.  
 
     > [!NOTE]  
     > Hvis differencen er større, bliver der vist en advarsel med den maksimalt tilladte difference. Hvis du vil fortsætte, skal du justere beløbet. Vælg **OK**, og angiv derefter et beløb, som ligger inden for det tilladte. Hvis momsforskellen er lig med eller lavere end det maksimalt tilladte, viser [!INCLUDE[d365fin](includes/d365fin_md.md)] differencen i feltet **Momsdifference**.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>Sådan bogføres importmoms på købsfakturaer
-I stedet for at bruge en finanskladde, når du bogfører en faktura med importmoms, kan du bruge en købsfaktura.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Sådan bogføres importmoms på købsfakturaer
+I stedet for at bruge kladder, når du bogfører en faktura med importmoms, kan du bruge en købsfaktura.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurere Indkøb til at bogføre fakturaer med importmoms  
 1. Opret et kreditorkort for den importmyndighed, der sender dig fakturaen med importmoms. Du skal vælge de samme indstillinger til **Virksomhedsbogføringsgruppe** og **Momsvirksomhedsbogf.gruppe** som til den finanskonto, der bruges til importmoms.  
@@ -102,7 +110,7 @@ I stedet for at bruge en finanskladde, når du bogfører en faktura med importmo
 6. Angiv momsbeløbet i feltet **Købspris Ekskl. moms**.  
 7. Bogfør fakturaen.  
 
-## <a name="to-process-certificates-of-supply"></a>Sådan behandles leveringscertifikater
+## <a name="processing-certificates-of-supply"></a>Behandling af leveringscertifikater
 Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende kunden et leveringscertifikat, som kunden skal underskrive og returnere til dig. Der er følgende procedurer for behandling af leveringscertifikater for salgsleverancer, men de samme trin gælder for serviceleverancer af varer og returvareleverancer til kreditorer.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Sådan får du vist leveringscertifikatdetaljer  

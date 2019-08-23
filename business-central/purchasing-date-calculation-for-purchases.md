@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 436af4a8e802b76a1f657a0ec0f2b097ac5bea0c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e7dfe565fc533ca5a724675c925cf6a415c49b94
+ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251695"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1737093"
 ---
 # <a name="date-calculation-for-purchases"></a>Beregning af forfaldsdato for køb
 [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato. Dette er den dato, du kan forvente, at varer, der er bestilt på en bestemt dato, er disponible til pluk.  
@@ -33,6 +33,9 @@ Hvis der står en ønsket modtagelsesdato på købslinjen, bruges denne dato som
 - Ønsket modtagelsesdato + Indgående lagerekspeditionstid + Sikkerhedstid = Forventet modtagelsesdato  
 
 Hvis du har indtastet en ønsket modtagelsesdato på købsordrehovedet, kopieres denne dato til det tilsvarende felt på alle ordrelinjerne. Du kan ændre eller fjerne datoen på en eller flere linjer.  
+
+> [!Note]
+> Hvis processen er baseret på bagudrettet beregning, f.eks. hvis du bruger den ønskede modtagelsesdato til at hente ordredatoen, anbefales det, at du bruger datoformler med faste varigheder, f.eks. "5D" for fem dage eller "1U" for én uge. Datoformler uden faste varigheder, f.eks. "AU" for aktuelle uge eller AM for den aktuelle måned, kan resultere i forkerte datoberegninger. Du kan finde flere oplysninger om datoformler i [Arbejde med kalenderdatoer og-klokkeslæt](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Beregning uden en ønsket leveringsdato  
 Hvis du angiver en købslinje uden en ønsket leveringsdato, udfyldes feltet **Ordredato** automatisk med datoen fra feltet **Ordredato** på købshovedet. Denne dato kan enten være en indtastet dato eller arbejdsdatoen. Med ordredatoen som udgangspunkt beregnes følgende datoer derefter automatisk til købsordrelinjen.  

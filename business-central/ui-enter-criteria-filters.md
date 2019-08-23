@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 06/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c86cd9018caa59106468121e1d763d0974c96e
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 5f3bab58a2387f5bf21042da782756f7b36d4792
+ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629914"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1740498"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortering af, søgning i og filtrering af lister
 Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse poster på en liste. Disse omfatter sortering, søgning og filtrering. Du kan anvende nogle eller alle af disse samtidigt til hurtigt at finde eller analysere dataene.
@@ -128,10 +128,15 @@ Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#Keyboar
 
 
 ## <a name="FilterCriteria"> </a>Filterkriterier og -symboler
-Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer at bruger i feltet. Derudover kan du bruge nogle specialtegn til at filtrere resultaterne yderligere. Følgende tabeller viser de tegn, der kan bruges i filtre. Ved datoer og klokkeslæt kan du også se [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md) for at få flere oplysninger.
+Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer at bruger i feltet. Derudover kan du bruge nogle specialtegn (eller operatorer) til at filtrere resultaterne yderligere. Følgende tabeller viser de tegn, der kan bruges i filtre. Ved datoer og klokkeslæt kan du også se [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md) for at få flere oplysninger.
 
 > [!IMPORTANT]  
->  Der kan være tilfælde, hvor feltværdierne indeholder disse symboler, og du vil filtrere efter dem. Hvis du vil gøre dette, skal du medtage det filterudtryk, der indeholder symbolet i anførselstegn ("). Hvis du f.eks. vil filtrere efter poster, der starter med teksten *S&R*, er filterudtrykket `'S&R*'`.  
+>  Der kan være tilfælde, hvor feltværdierne indeholder disse symboler, og du vil filtrere efter dem. Hvis du vil gøre dette, skal du medtage det filterudtryk, der indeholder symbolet i anførselstegn ("). Hvis du f.eks. vil filtrere efter poster, der starter med teksten *S&R*, er filterudtrykket `'S&R*'`.
+
+I de følgende afsnit beskrives det, hvordan du bruger de forskellige operatorer.
+
+> [!NOTE]
+> Hvis der er mere end 200 operatorer i et enkelt filter, vil systemet automatisk gruppere nogle udtryk i parenteser `()` med henblik på behandling. Det har ingen indflydelse på filteret eller resultaterne.  
 
 ### <a name="-interval"></a>(..) Interval
 
@@ -145,7 +150,7 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 |`23..`|Fra 23-aktuel måned-aktuelt år 0.00.00 til sluttidspunktet|  
 |`22..23`|Fra den 23-aktuel måned-aktuelt år 0.00.00 til 22-aktuel måned-aktuelt år 22.59.59|  
 
-### <a name="124-eitheror"></a>(&#124;) Enten/eller  
+### <a name="124-eitheror"></a>(&#124;) Enten/eller 
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  

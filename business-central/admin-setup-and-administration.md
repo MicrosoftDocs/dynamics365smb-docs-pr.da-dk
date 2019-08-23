@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: edupont
-ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 41917ece38cf553582438d7c57ca3e09b82b21e9
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247182"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796703"
 ---
 # <a name="administration"></a>Opsætning
 Centrale administrationsopgaver udføres som regel af én rolle i firmaet. Omfanget af disse opgaver kan afhænge af firmaets størrelse og administratorens jobansvar. Disse opgaver kan omfatte styring af databasesynkronisering af job og e-mail-køer, oprettelse af brugere og tilpasning af brugergrænsefladen.  
@@ -33,7 +33,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Tilføj brugere, administrer tilladelser og få adgang til data og tildel roller.|[Forstå profiler og rollecentre](admin-users-profiles-roles.md)|  
+|Tilføj brugere, administrer tilladelser og få adgang til data og tildel roller.|[Forstå brugere, profiler (roller) og rollecentre](admin-users-profiles-roles.md)|  
 |Tildele tilladelser til brugere, ændre tilladelsessæt og gruppere brugere pr. tilladelser.|[Administrere brugere og deres rettigheder](ui-how-users-permissions.md)|
 |Klassificere datafølsomheder for felter så du kan svare på anmodninger fra dataemner vedrørende deres personlige oplysninger.|[Klassificere datafølsomhed](admin-classifying-data-sensitivity.md)|
 |Svare på anmodninger fra dataemner vedrørende deres personlige oplysninger.|[Svare på anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md)|

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 468f2f213d2f9dafb38d76706da578b417d01ca9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 854af39ef866d0d8959410c928acf65d65ffcb3d
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240184"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870542"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 Varer er, blandt andre produkter, grundlaget for din virksomhed og de varer eller tjenester, som du handler med. Hver vare skal registreres som et varekort.
@@ -33,6 +33,8 @@ Varer, som du tilbyder til dine kunder, men som du ikke vil administrere i dit s
 
 > [!NOTE]  
 > Hvis der er en vareskabelon til forskellige varetyper, vises der en side, når du opretter et nyt varekort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én vareskabelon, bruger nye varekort altid denne skabelon.
+
+Følgende fremgangsmåde beskriver, hvordan du opretter et varekort fra bunden. Du kan også oprette nye varekort ved at kopiere eksisterende kort. Du kan finde flere oplysninger i [Kopiere eksisterende elementer for at oprette nye varer](inventory-how-copy-items.md).
 
 ## <a name="to-create-a-new-item-card"></a>Sådan oprettes et nyt varekort
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  

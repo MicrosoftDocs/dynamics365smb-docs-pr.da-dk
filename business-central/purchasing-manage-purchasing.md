@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 738cbfece41121eb05aeb598f9ea4367173f29a5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: e49632655eebc0ab5d818e67fecd599d6d079cce
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251833"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796754"
 ---
 # <a name="purchasing"></a>Indkøb
 Du kan oprette en købsfaktura eller købsordre for at registrere omkostningerne ved køb og spore gæld. Hvis du vil styre en lagerbeholdning, benyttes købsfakturaer også til dynamisk at opdatere lagerniveauer, så du kan minimere lageromkostningerne og yde bedre kundeservice. Købsomkostningerne, herunder serviceudgifter og lagerværdier, der stammer fra bogføring af købsfakturaer, bidrager til avancebeløb og andre finansielle nøgletal i dit Rollecenter.
@@ -37,6 +37,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Oprette en købsfaktura for at registrere din aftale med en kreditor om at købe produkter på bestemte leverings- og betalingsbetingelser. |[Registrere køb](purchasing-how-record-purchases.md) |
 |Oprette en købsrekvisition for at afspejle en tilbudsanmodning fra en leverandør, som du senere kan konvertere til en købsordre.|[Anmode om tilbud](purchasing-how-request-quotes.md)|
 | Opret en købsfaktura for alle eller markerede linjer i en salgsfaktura. |[Købe varer til et salg](purchasing-how-purchase-products-sale.md) |
+|Forstå, hvad der sker, når du bogfører købsdokumenter.|[Bogføring af køb](ui-post-purchases.md)|
 | Udfør en handling på en ubetalt bogført købsfaktura for automatisk at oprette en kreditnota og enten annullere købsfakturaen eller gendanne den, så du kan foretage rettelser. |[Rette eller annullere ubetalte salgsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Opret en købskreditnota for at tilbageføre en bestemt bogført købsfaktura, så den afspejler, hvilke produkter du returnerer til kreditoren, og hvilke indbetalte beløb der skal opkræves. |[Behandle købsreturvarer eller annulleringer](purchasing-how-register-new-vendors.md) |
 |Forberede fakturering af flere leverancer fra den samme leverandør på én gang ved at kombinere leverancer på én faktura.|[Kombinere modtagelser på én enkelt faktura](purchasing-how-to-combine-receipts.md)|

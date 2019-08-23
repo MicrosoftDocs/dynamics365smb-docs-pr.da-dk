@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 04/01/2019
+ms.date: 07/22/2019
 ms.author: bholtorf
-ms.openlocfilehash: c9eace037f6a30fafdd5bc2a3af0af83da73b3f5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3f4741485a032dfef8b724ff4a18ed58c640778e
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244396"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796868"
 ---
 # <a name="defining-payment-methods"></a>Definere betalingsformer
-Betalingsformer definerer, hvordan du foretrækker, at debitorer skal betale dig, og hvordan du foretrækker at betale dine kreditorer. Metoden kan variere for hver debitor eller kreditor. Eksempler på typiske betalingsformer er **bank**, **kontant**, **check** eller **konto**. 
+Betalingsformer definerer, hvordan du foretrækker, at debitorer skal betale dig, og hvordan du foretrækker at betale dine kreditorer. Metoden kan variere for hver debitor eller kreditor. Eksempler på typiske betalingsformer er **bank**, **kontant**, **check** eller **konto**.
 
 Du kan knytte en betalingsmetode til debitorer og kreditorer, så den samme metode altid bruges på de salgs- og købsdokumenter, du opretter til dem. Du kan om nødvendigt ændre metoden på salgs- eller købsdokumentet. F.eks. hvis du vil betale en bestemt købsfaktura kontant og frem for med check. Dette ændrer ikke den betalingsmetode, der som standard er knyttet til kreditoren.
 
-De samme betalingsmetoder bruges til salgs- og købsdokumenter. F.eks. bruges en _kontant_-betalingsmetode både ved indbetalinger, du foretager, og når du modtager betalinger. [!INCLUDE[d365fin](includes/d365fin_md.md)] ved, at når du opretter en salgsfaktura, forventer du at modtage betaling, og det modsatte for købsfakturaer. 
+De samme betalingsmetoder bruges til salgs- og købsdokumenter. F.eks. bruges en _kontant_-betalingsmetode både ved indbetalinger, du foretager, og når du modtager betalinger. [!INCLUDE[d365fin](includes/d365fin_md.md)] ved, at når du opretter en salgsfaktura, forventer du at modtage betaling, og det modsatte for købsfakturaer.
 
 Kreditnotaer for returneringer er dog undtagelser, fordi pengene flyder den modsatte vej, dvs. fra dig til dine kunder og fra din leverandør til dig. Derfor tildeles der ikke en standardbetalingsmetode til kreditnotaer. Der er dog en løsning, hvis du har angivet betalingsbetingelser for debitoren eller kreditoren. Selvom feltet **Beregn kont.rabat på kred.notaer** ikke er beregnet til dette, og du markerer afkrydsningsfeltet på siden **Betalingsbetingelser**, tilføjes en standardbetalingsmetode, når du opretter en kreditnota.
 
@@ -34,8 +34,9 @@ Kreditnotaer for returneringer er dog undtagelser, fordi pengene flyder den mods
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Sådan tildeles en betalingsmetode til en debitor eller kreditor
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.
-2. I feltet **Betalingsform** skal du vælge metoden, der skal bruges som standard til debitoren eller kreditoren.
+2. I feltet **Betalingsformkode** skal du vælge metoden, der skal bruges som standard for debitoren eller kreditoren.
 
 ## <a name="see-also"></a>Se også
+[Registrere nye debitorer](sales-how-register-new-customers.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

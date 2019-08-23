@@ -1,8 +1,6 @@
 ---
 title: Få vist brugerdefinerede Power BI-rapporter | Microsoft Docs
 description: Du kan bruge Power BI-rapporter til at få ekstra indsigt i data på lister.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2019
+ms.date: 07/08/2019
 ms.author: edupont
-ms.openlocfilehash: 29c7b7656632d2103a16025848a6ddc82650353e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: acf9462db8b4f559a5fbc40381b4e5009cdac088
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241598"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755191"
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Vise listedata i Power BI-rapporter i Business Central 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder et faktaboks-kontrolelement på en række vigtige sider, der giver ekstra indsigt i oplysningerne på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post. Du kan oprette brugerdefinerede rapporter, der kan vises i kontrolelementet, men du skal følge nogle særlige regler, når du opretter rapporterne, for at sikre, at de giver den ønskede funktionalitet.  
+# <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Vise listedata i Power BI-rapporter i Business Central
+
+[!INCLUDE[prodlong](includes/prodlong.md)] indeholder et faktaboks-kontrolelement på en række vigtige sider, der giver ekstra indsigt i oplysningerne på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post. Du kan oprette brugerdefinerede rapporter, der kan vises i kontrolelementet, men du skal følge nogle særlige regler, når du opretter rapporterne, for at sikre, at de giver den ønskede funktionalitet.  
 
 > [!NOTE]  
->   Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til Power BI. Desuden skal du hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md).  
+> Du skal have en gyldig konto til [!INCLUDE[prodshort](includes/prodshort.md)] og til Power BI. Hvis du vil oprette brugerdefinerede rapporter, skal du også hente [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Rapportdatasæt
 Når du opretter rapporten i Power BI Desktop, skal du angive den kilde- eller datatjeneste, der indeholder de data, der er relateret til den liste, du vil knytte rapporten til. Hvis du f.eks. vil oprette en rapport i tilknytning til salgslisten, skal du sikre, at datasættet indeholder salgsrelaterede oplysninger.  
@@ -50,7 +49,7 @@ Hvis du på samme måde vil have, at baggrunden for rapporten kombineres med bag
 Med Power BI kan du oprette en enkelt rapport med flere sider. Grafik, der skal vises på [!INCLUDE[d365fin](includes/d365fin_md.md)]-oversigtssider, skal findes på den første side i rapporten i Power BI.  
 
 > [!NOTE]  
->  Power BI-faktaboksen kan kun indeholde den første side i rapporten. Hvis du vil have vist andre sider, skal du udvide rapporten og bruge fanerne nederst i rapporten til at navigere til andre sider.  
+> Power BI-faktaboksen kan kun indeholde den første side i rapporten. Hvis du vil have vist andre sider, skal du udvide rapporten og bruge fanerne nederst i rapporten til at navigere til andre sider.  
 
 ## <a name="saving-your-report"></a>Gemme rapporten
 
@@ -72,7 +71,9 @@ Denne sektion indeholder en løsning på de mest almindelige problemer, der kan 
 Kontroller, at rapportstørrelse er indstillet til 325 x 310 pixel. Gem rapporten, og opdater derefter oversigtssiden.  
 
 ## <a name="see-also"></a>Se også
+
+[Aktivere virksomhedens data til Power BI](admin-powerbi.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Introduktion](product-get-started.md)    
-[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)    
+[Introduktion](product-get-started.md)  
+[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finans](finance.md)  

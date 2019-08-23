@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a620b7ed9d06cdd8adf7b12bea2b55aecea32bcc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 927c16f0fb1d12ff1202e4e675b97078d354375f
+ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251120"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1737116"
 ---
 # <a name="date-calculation-for-sales"></a>Beregning af forfaldsdato for salg
 [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk den tidligst mulige dato, som en vare eller en salgsordrelinje kan sendes på.
@@ -27,14 +27,15 @@ Hvis debitoren har anmodet om en bestemt leveringsdato, beregnes den dato, hvor 
 Hvis debitoren ikke anmoder om en bestemt leveringsdato, beregnes den dato, hvor varen kan leveres. Udgangspunktet er den dato, hvor varen er disponibel for pluk.
 
 ## <a name="calculating-a-requested-delivery-date"></a>Beregning med en ønsket leveringsdato
-Hvis der står en ønsket leveringsdato på salgsordrelinjen, bruges denne dato som udgangspunkt for følgende beregninger.
+Hvis du angiver en ønsket leveringsdato på salgsordrelinjen, bliver denne dato til udgangspunktet for de efterfølgende beregninger.
 
 - ønsket leveringsdato– transporttid = planlagt afsendelsesdato
 - planlagt afsendelsesdato – udgående lagerekspeditionstid = planlagt afsendelsesdato
 
-Hvis varen er disponibel til pluk på afsendelsesdatoen, kan salgsprocessen fortsættes.
+Hvis varen er disponibel til pluk på afsendelsesdatoen, kan salgsprocessen fortsættes. Ellers vises der en advarsel om, at varen ikke er på lager.
 
-Hvis varen ikke er disponibel til pluk på afsendelsesdatoen, vises en advarsel om, at varen ikke er på lager.
+> [!Note]
+> Hvis processen er baseret på bagudrettet beregning, f.eks. hvis du bruger den ønskede leveringsdato til at hente den planlagte afsendelsesdato, anbefales det, at du bruger datoformler med faste varigheder, f.eks. "5D" for fem dage eller "1U" for én uge. Datoformler uden faste varigheder, f.eks. "AU" for aktuelle uge eller AM for den aktuelle måned, kan resultere i forkerte datoberegninger. Du kan finde flere oplysninger om datoformler i [Arbejde med kalenderdatoer og-klokkeslæt](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Beregning af den tidligst mulige leveringsdato
 Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis ikke den ønskede leveringsdato kan imødekommes, vil den tidligste dato for varernes tilgængelighed blive beregnet. Datoen kan derefter indtastes i feltet Afsendelsesdato på linjen, og den dato, som du planlægger at levere varer samt den dato, hvor de leveres til debitor beregnes ved hjælp af følgende formler.

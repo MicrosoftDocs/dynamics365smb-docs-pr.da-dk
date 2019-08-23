@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: SorenGP
-ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53214df635c637e265c6d302498beee08e9b806c
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238505"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870519"
 ---
 # <a name="setting-up-inventory"></a>Opsætning af lagerbeholdning
 Før du kan administrere lageraktiviteter og lageromkostningsberegning, skal du konfigurere de regler og værdier, der definerer virksomhedens lagerpolitikker.
@@ -32,6 +32,7 @@ Når du har oprettet dit lager, kan du administrere forskellige lagerprocesser i
 |Konfigurere en effektiv distributionsmodel med en kombination af forskellige lokationer og ansvarscentre, der er knyttet til forretningspartnere eller medarbejdere.|[Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
 | Organisere dit lager på flere lokationer, herunder overflytningsruter. |[Opsætte lokationer](inventory-how-register-new-items.md) |
 | Opret varekort for lager-, ikke-lager- eller servicevarer, som du handler med. |[Registrere nye varer](inventory-how-register-new-items.md) |
+|Brug funktionen **Kopiér vare** til hurtigt at oprette et nyt varekort baseret på et eksisterende kort.|[Kopiere eksisterende varer for at oprette nye varer](inventory-how-copy-items.md)|
 |Lære, hvordan du udfylder feltet **Type** på varekort i henhold til forretningsformål.|[Om varetyper](inventory-about-item-types.md)|
 |Oprette flere enheder for en vare, der kan bruges som alternative vareenheder, f.eks. ved salg, køb eller produktionstransaktioner.|[Oprette vareenheder](inventory-how-setup-units-of-measure.md)|
 |Som et supplement til varekort kan du registrere oplysninger om dine varer på en bestemt lokation eller af en bestemt variant.|[Opsætte lagervarer](inventory-how-to-set-up-stockkeeping-units.md)|

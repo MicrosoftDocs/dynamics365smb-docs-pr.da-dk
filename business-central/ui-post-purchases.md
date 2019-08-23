@@ -1,22 +1,21 @@
 ---
 title: Om bogføring af købsdokumenter | Microsoft Docs
-description: Få mere at vide om de forskellige bogføringsfunktioner, der bruges til at bogføre købsdokumenter.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Lære mere om de forskellige bogføringsfunktioner til bogføring af købsdokumenter, og hvordan du kan opdatere bogførte dokumenter.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: cc3d2e5b0f3425c329e5567e7d00908cb7f5c7d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.reviewer: edupont
+ms.date: 07/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247838"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796914"
 ---
 # <a name="posting-purchases"></a>Bogføring af køb
 I **Prod.bogf.gruppe** på et købsdokument kan du vælge mellem følgende bogføringsfunktioner:
@@ -45,7 +44,9 @@ Du kan enten bogføre eller bogføre og udskrive. Hvis du vælger at bogføre og
 Når bogføringen er gennemført, fjernes de bogførte købslinjer fra ordren. Der vises en meddelelse, når bogføringen er gennemført. Herefter kan du se de bogførte poster på forskellige sider, der indeholder bogførte poster, f.eks. **Kreditorposter**, **Finansposter**, **Vareposter**, **Købsleverance** og **Bogf. købsfakturaer**.
 
 ## <a name="see-also"></a>Se også
+
 [Køb](purchasing-manage-purchasing.md)  
 [Bogføre dokumenter og kladder](ui-post-documents-journals.md)  
+[Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Bruge Fortæl mig til at finde funktioner og oplysninger](ui-search.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

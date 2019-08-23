@@ -9,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.reviewer: edupont
+ms.date: 07/16/2019
 ms.author: soalex
-ms.openlocfilehash: a4dd426cbbe8aa45e3128814886e4d43797c46b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1b1c0e0260db1dd8fec21ab2552b553ea2591df2
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244589"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755162"
 ---
 # <a name="service-compliance"></a>Tjenesteoverholdelse
 Dette indhold indeholder oplysninger om tjenesteoverholdelse i relation til [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -25,12 +26,18 @@ Business Central er en skybaseret tjeneste med global dækning og stor skala, de
 
 Du skal finde en detaljeret oversigt over [tilbud med cloud-overholdelse til Business Central her](https://aka.ms/d365-compliance-list).
 
-Hvis du er interesseret i den komplette liste over tilbud med overholdelse fra Microsoft, kan du læse [denne side](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
+Hvis du er interesseret i den komplette liste over tilbud med overholdelse fra Microsoft, skal du se [Microsofts sikkerhedscenter](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
 
-## <a name="see-also"></a>Se også  
+## <a name="service-terms"></a>Servicebetingelser
+
+[!INCLUDE [prodshort](../includes/prodshort.md)] online styres af [politikken for moderne livscyklus](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). Betingelserne i serviceniveauaftalen er beskrevet i det dokument, du kan hente fra afsnittet **Serviceniveauaftaler for Microsoft Online Services** på siden [Licensbetingelser](https://www.microsoft.com/en-us/licensing/product-licensing/products).  
+
+Derudover kan du overvåge lejeres tilstand og angive opgraderingsvinduer i [Lejeradministrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+
+## <a name="see-also"></a>Se også
+
 [Overholdelse](compliance-overview.md)  
 [Programoverholdelse](compliance-application-compliance.md)  
 [Certificeringer](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
- 
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

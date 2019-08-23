@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f80d2e1a1a864d5aaff0660d21603f91c5ce229
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c0f2f591bf43113b160bd81cd37b03d6efc8d41e
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251511"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796766"
 ---
 # <a name="sales"></a>Salg
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.
@@ -42,6 +42,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Opret et salgstilbud, hvor du f.eks. tilbyder produkter på betingelser, der kan forhandles, før du konverterer tilbuddet til en salgsfaktura. |[Oprette salgstilbud](sales-how-make-offers.md) |
 | Opret en salgsfaktura for at registrere din aftale med en debitor om at sælge produkter på bestemte leverings- og betalingsbetingelser. |[Fakturere salg](sales-how-invoice-sales.md) |
 | Behandl en salgsordre, der involverer delvis levering eller direkte levering. |[Sælge produkter](sales-how-sell-products.md) |
+|Forstå, hvad der sker, når du bogfører salgsdokumenter.|[Bogføring af salg](ui-post-sales.md)|
 |Du kan oprette standardsalgs- eller købslinjer, som du hurtigt kan indsætte i dokumenter, f.eks. for tilbagevendende genbestillingsordrer.|[Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)|  
 | Knyt en salgsordre til en købsordre for at sælge en vare med direkte levering, som skal leveres direkte fra leverandøren til kunden. |[Foretage direkte leveringer](sales-how-drop-shipment.md) |
 |Få en katalogvare sendt fra en leverandør til dit lagersted, så du kan levere varen til kunden.|[Oprette specialordrer](sales-how-to-create-special-orders.md)|
