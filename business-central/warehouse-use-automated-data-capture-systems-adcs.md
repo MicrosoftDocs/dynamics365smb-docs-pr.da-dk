@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 08/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 20ef2d88bb5f96326962efb53fd724b8fc706dc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 23561ba8ec0a93f8409abab483385a65d9853900
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248476"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917433"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Brug ADCS (Automated Data Capture Systems)
 
 > [!NOTE]
 > I standardversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer ADCS kun i forbindelse med lokale installationer. Men en Microsoft-partner kan få det til at fungere i onlineinstallationer ved hjælp af PowerApps eller lignende.
 
-Du kan bruge ADCS-systemet (Automatic Data Capture System) til at registrere varebevægelser på lagerstedet og registrere bestemte kladdeaktiviteter, bl.a. regulering af vareantal på lagerkladden og lageropgørelser.  
+Du kan bruge ADCS-systemet (Automatic Data Capture System) til at registrere varebevægelser på lagerstedet og registrere bestemte kladdeaktiviteter, bl.a. regulering af vareantal på lagerkladden og lageropgørelser. ADCS omfatter typisk stregkodescanning. 
 
 Hvis du vil bruge ADCS, skal du give hver enkelt vare, der er gemt i lageret, et vare-id. Du skal også konfigurere miniformularer, funktioner til håndholdt, dataudvekslinger og angive indstillinger for felter, der styrer ADCS. Du angiver, om du vil bruge ADCS på lokationskortet for et lagersted.
 
@@ -100,7 +100,7 @@ Når du har oprettet en miniformular, er næste trin at oprette funktioner og kn
     </xsl:template>  
     ```  
 2.  I udviklingsmiljøet i [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du åbne tabellen 7702 og tilføje en kode, der repræsenterer den nye tast. I dette eksempel skal du oprette en tast, der hedder **F6**.  
-3.  Tilføj en C/AL-kode til den relevante funktion af den miniformular-specifikke codeunit til håndtering af funktionstasten.  
+3.  Tilføj C/AL-kode til den relevante funktion af den miniformular-specifikke codeunit til håndtering af funktionstasten.  
 
 ### <a name="to-customize-miniform-functions"></a>Sådan tilpasses miniformularfunktioner  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Miniformularer**, og vælg derefter det relaterede link.  

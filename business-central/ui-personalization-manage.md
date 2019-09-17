@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
+ms.date: 08/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 37cdf2d7dcc46b1286cbb7a5ad620547e364309e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250591"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887733"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Administrere tilpasning som administrator
 
- Brugere kan tilpasse deres arbejdsområde, så det passer til deres egne præferencer. Som administrator kan du styre og administrere tilpasning ved at:
+Brugere kan tilpasse deres arbejdsområde, så det passer til deres egne præferencer. Som administrator kan du styre og administrere tilpasning ved at:
 
 -   Aktivere eller deaktivere tilpasningsfunktionen for hele programmet (kun for lokal installation).
 -   Aktivere eller deaktivere tilpasningsfunktionen for brugere med en bestemt profil.
@@ -71,6 +71,9 @@ Du kan forhindre alle brugere, der tilhører en bestemt profil, i at tilpasse de
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Profiler**, og vælg derefter det relaterede link.
 2. Vælg den profil på listen, der skal ændres.
 3. Markér afkrydsningsfeltet **Deaktiver tilpasning**, og vælg derefter knappen **OK**.
+
+> [!NOTE]  
+> I Business Central online kan du kun deaktivere tilpasning for en lejerprofil, ikke for systemprofiler. 
 
 ## <a name="to-clear-user-personalizations"></a>Sådan fjernes brugertilpasninger
 

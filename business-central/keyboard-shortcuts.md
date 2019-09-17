@@ -1,21 +1,21 @@
 ---
 title: Tastaturgenveje
 description: Den komplette liste over tastaturgenvejskombinationer, som gør det muligt for dig at arbejde effektivt med dine data.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621202"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985906"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -170,6 +170,12 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |Esc|Lukke kalenderen uden en markering, bevare dags dato.|
 |Page Down|Flytte til næste måned.|
 |Page Up|Flytte til forrige måned.|  
+
+## <a name="keyboard-shortcuts-in-date-fields"></a>Tastaturgenveje i datofelter
+|Tryk på disse taster<br />(i macOS)|For at gøre følgende|
+|-----------------|-------|
+|d|Angiv dags dato. "D" betyder "i dag".|
+|a|Angiv arbejdsdatoen. Du kan finde flere oplysninger i [Arbejdsdato](ui-change-basic-settings.md#work-date).|
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Brug af genvejstaster i rapportfremviseren
 

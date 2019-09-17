@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796891"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921426"
 ---
 # <a name="posting-sales"></a>Bogføring af salg
-I **Prod.bogf.gruppe** på et salgsdokument kan du vælge mellem følgende bogføringsfunktioner:
+I menuen **Bogføring** i et salgsdokument kan du vælge mellem følgende bogføringsfunktioner:
 
 * **Bogfør**
-* **Testrapport**
+* **Bogfør og ny**
 * **Bogfør og send**
-* **Bogfør og udskriv**
-* **Bogfør og mail**
-* **Massebogfør**
 * **Vis bogføring**
+* **Kladdefaktura**
+* **Proformafaktura**
+* **Testrapport**
 
 Når du har udfyldt alle linjer og har indsat alle oplysninger i salgsordren, kan du bogføre den. Dette opretter en leverance og en faktura.
 
@@ -41,9 +41,11 @@ For hver salgsordrelinje oprettes der en varepost i tabellen **Varepost** (hvis 
 
 Når bogføringen er gennemført, fjernes de bogførte salgslinjer fra ordren. Der vises en meddelelse, når bogføringen er gennemført. Herefter kan du se de bogførte poster på forskellige sider, der indeholder bogførte poster, f.eks. **Debitorposter**, **Finansposter**, **Vareposter**, **Bogf. salgsleverancer** og **Bogf. salgsfakturaer**.  
 
-## <a name="see-also"></a>Se også
+Du kan redigere bestemte felter i bogførte salgsdokumenter, f. eks **Pakkesporingsnr.** . Du kan finde flere oplysninger under [Redigere bogførte dokumenter](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
+[Redigere bogførte dokumenter](across-edit-posted-document.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  
 [Bruge Fortæl mig til at finde funktioner og oplysninger](ui-search.md)  

@@ -217,9 +217,9 @@
 ## [Massefakturering for Microsoft Bookings](finance-bookings.md)
 ## [Bruge samme Office 365-konto i Business Central og i Microsoft Invoicing](about-reuse-company-invoicing.md)
 ## [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)
-## [Konfigurere mail](admin-how-setup-email.md)
+## [Konfigurer mail](admin-how-setup-email.md)
 ## [Oprette nummerserie](ui-create-number-series.md)
-## [Opsætning af basiskalendere](across-how-to-assign-base-calendars.md)
+## [Konfigurere basiskalendere](across-how-to-assign-base-calendars.md)
 
 # Generelle forretningsfunktioner
 ## [Oversigt](ui-across-business-areas.md)
@@ -234,6 +234,7 @@
 ## [Eksportere forretningsdata til Excel](about-export-data.md)
 ## [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)
 ## [Vise bogføringsresultater](ui-how-preview-post-results.md)
+## [Redigere bogførte dokumenter](across-edit-posted-document.md)
 ## [Arbejde med finanskladder](ui-work-general-journals.md)
 ## [Du kan bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
 ## [Lade Business Central foreslå værdier](ui-let-system-suggest-values.md)
@@ -590,10 +591,12 @@
 ### [Oversigt](marketing-manage-sales-opportunities.md)
 ### [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Oprette salgsmuligheder](marketing-how-create-opportunities.md)
-### [Behandle salgsleads](marketing-processing-sales-opportunities.md)
-## [Administration af marketingkampagner](marketing-campaigns.md)
-## Samarbejde med kunder via Dynamics 365 for Sales
-### [Brug af Dynamics 365 for Sales fra Business Central](marketing-integrate-dynamicscrm.md)
+### [Spore udveksling af mails](marketing-set-up-email-logging.md)
+
+### [Behandling af salgsleads](marketing-processing-sales-opportunities.md)
+### [Konfigurer maillogføring](marketing-set-up-email-logging.md)
+## [Bruge profilspørgeskemaer til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md)
+## [Brug af Dynamics 365 for Sales fra Business Central](marketing-integrate-dynamicscrm.md)
 ### [Sammenkæde og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [Se status på en synkronisering](admin-how-to-view-synchronization-status.md)
 

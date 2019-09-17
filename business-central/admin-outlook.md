@@ -3,19 +3,19 @@ title: Bruge Business Central sammen med Outlook | Microsoft Docs
 description: Denne tjeneste er tæt integreret med Office 365, så du kan administrere alle dine forretningsaktiviteter og sende og modtage mail til og fra kunder og leverandører direkte i Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 08/14/2019
 ms.author: edupont
-ms.openlocfilehash: 578f33dace52383ce588494d35c875ceaf6ffc21
-ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
+ms.openlocfilehash: 70299f86a1ebc3251780eb05f8b68afeff23fa5e
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1740452"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887687"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruge Business Central som din virksomheds Indbakke i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introducerer muligheden for at administrere forretningsinteraktioner med kunder og leverandører direkte i Microsoft Outlook. Med Outlook-tilføjelsesprogrammerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se finansielle data, der er relateret til debitorer og kreditorer samt oprette og sende finansielle dokumenter, f.eks tilbud og fakturaer.  
@@ -53,9 +53,9 @@ I tilføjelsesprogrammet Dokumentlinks kan du redigere og foretage handlinger i 
 ## <a name="adding-the-add-ins-manually"></a>Manuel tilføjelse af tilføjelsesprogrammerne
 I nogle tilfælde bliver tilføjelsesprogrammerne ikke føjet automatisk til Outlook. Selvom du eller en kollega har kørt den assisterede opsætningsvejledning på vegne af virksomheden, bliver [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke vist i Outlook. Hvis du oplever dette problem, kan du tilføje [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammer manuelt.  
 
-Først skal du kontrollere, at du har adgang til tilføjelsesprogrammerne på din Office 365-konto. Du skal blot åbne Outlook i en browser, gå til **Indstillinger**, og derefter vælge **Administrer tilføjelsesprogrammer.** Derved åbnes siden **Administrer tilføjelsesprogrammer**, hvor du kan aktivere [!INCLUDE[prodshort](includes/prodshort.md)] for din Outlook. Derefter, når du går tilbage til Outlook, skulle [!INCLUDE[prodshort](includes/prodshort.md)] være tilgængeligt.  
+Først skal du kontrollere, at du har adgang til tilføjelsesprogrammerne på din Office 365-konto. Åbn ganske enkelt Outlook i en browser, åbn en meddelelse, vælg **Flere handlinger** (...) øverst i meddelelsen, og vælg derefter **Hent tilføjelsesprogrammer** nederst på listen. Derved åbnes siden **Tilføjelsesprogrammer til Outlook**, hvor du kan aktivere [!INCLUDE[prodshort](includes/prodshort.md)] for Outlook. Derefter, når du går tilbage til Outlook, skulle [!INCLUDE[prodshort](includes/prodshort.md)] være tilgængeligt.  
 
-På samme måde kan du i Outlook-skrivebordsklienten kontrollere, at [!INCLUDE[d365fin](includes/d365fin_md.md)] er angivet på siden **Administrer tilføjelsesprogrammer**.  
+På samme måde kan du i Outlook-skrivebordsklienten kontrollere, at [!INCLUDE[d365fin](includes/d365fin_md.md)] er angivet på siden **Hent tilføjelsesprogrammer**.  
 
 I begge tilfælde, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] stadig ikke er tilgængelig, skal du hente manifest for tilføjelsesprogram-filerne. Du kan få flere oplysninger ved at kontakte Office 365-administratoren.
 

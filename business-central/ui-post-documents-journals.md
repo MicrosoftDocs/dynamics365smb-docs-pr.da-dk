@@ -3,22 +3,22 @@ title: Oversigt over bogføring af dokumenter og kladder | Microsoft Docs
 description: Beskriver bogføring af handlinger og de måder, du kan bogføre dokumenter og kladder.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: c9f7a6e3539efa1a1923f05796c03ad70bbb5e58
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/24/2019
+ms.author: sgroespe
+ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247905"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921357"
 ---
-# <a name="post-documents-and-journals"></a>Bogføre dokumenter og kladder
+# <a name="posting-documents-and-journals"></a>Bogføring af dokumenter og kladder
 Bogføringen repræsenterer regnskabshandlingen, som registrerer forretningstransaktioner i forskellige virksomhedsfinanskonti.
 
 Næsten alle dokumenter og kladder i [!INCLUDE[d365fin](includes/d365fin_md.md)] har en **Bogføring**-gruppe, hvor du kan vælge mellem forskellige bogføringshandlinger, f.eks **Bogfør**, **Vis bogføring**, **Bogfør og send**, **Bogfør og mail**.
@@ -34,6 +34,6 @@ Følgende tabel beskriver relaterede opgaver med links til de emner, der beskriv
 | Vis en rapport med de poster, der oprettes, når du bogfører. |[Vise testrapporter inden bogføring](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Se også
+[Redigere bogførte dokumenter](across-edit-posted-document.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 07/17/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: 77be24dce0d34c712b87649f9ced21b947c77cbe
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796914"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921334"
 ---
 # <a name="posting-purchases"></a>Bogføring af køb
 I **Prod.bogf.gruppe** på et købsdokument kan du vælge mellem følgende bogføringsfunktioner:
@@ -43,10 +43,12 @@ Du kan enten bogføre eller bogføre og udskrive. Hvis du vælger at bogføre og
 
 Når bogføringen er gennemført, fjernes de bogførte købslinjer fra ordren. Der vises en meddelelse, når bogføringen er gennemført. Herefter kan du se de bogførte poster på forskellige sider, der indeholder bogførte poster, f.eks. **Kreditorposter**, **Finansposter**, **Vareposter**, **Købsleverance** og **Bogf. købsfakturaer**.
 
-## <a name="see-also"></a>Se også
+Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks feltet **Betalingsreference**. Du kan finde flere oplysninger under [Redigere bogførte dokumenter](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Se også
+[Redigere bogførte dokumenter](across-edit-posted-document.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Bogføre dokumenter og kladder](ui-post-documents-journals.md)  
+[Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
 [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Bruge Fortæl mig til at finde funktioner og oplysninger](ui-search.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

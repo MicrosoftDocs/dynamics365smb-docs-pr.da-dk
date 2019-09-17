@@ -13,12 +13,12 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 5bb5e5713ed23877006ebb913e01416feac69266
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243430"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970897"
 ---
 # <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a>Designoplysninger: Kodeeksempler af ændrede mønstre i Ændringer
 Dette emne indeholder kodeeksempler til at vise ændrede mønstre i dimensionskodeændring og overflytning for fem forskellige scenarier. Det sammenligner kodeeksempler i tidligere versioner med kodeeksempler i Business Central.
@@ -197,4 +197,3 @@ GetSalesHeader;
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)   
 [Designoplysninger: Tabelstruktur](design-details-table-structure.md)   
-[Designoplysninger: Kodeenhed 408 Dimensionsstyring](design-details-codeunit-408-dimension-management.md)

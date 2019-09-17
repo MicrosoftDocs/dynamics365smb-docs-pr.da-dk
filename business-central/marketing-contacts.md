@@ -10,19 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446941"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985735"
 ---
 # <a name="managing-contacts"></a>Administrere kontakter
-Forskellige grupper i dit firma vil have forretningsrelationer med forskellige andre firmaer. En sælger kan f.eks. regelmæssigt møde mulige kunder og registrere resultaterne af disse besøg ved ugens afslutning.
-
-Alle eksterne enheder, som du har forretningsforhold til (f.eks. kunder, mulige kunder, leverandører, advokater og konsulenter) bør registreres som kontaktpersoner. Hvis disse data registrere på ét centralt sted, kan alle grupper i firmaet få vist oplysningerne og anvende dem effektivt. Kommunikationen med kontaktpersonerne vil være bedre, hvis alle oplysninger er let tilgængelige. Det ville f.eks. være interessant for en marketingmedarbejder at vide, hvilke andre produkter en bestemt kunde har købt, før medarbejderen forsøger at gøre kunden interesseret i et nyt produkt.
+Medarbejderne i din virksomhed har regelmæssigt møder med mulige forretningsrelationer, der kan udvikle sig til formelle relationer. Alle disse eksterne kontaktpersoner og deres detaljerede oplysninger skal registreres i systemet, så kommunikationen bliver mere vellykket, og så de nemt kan konverteres til formelle kunde-, kreditor- eller bankrelationer.
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 

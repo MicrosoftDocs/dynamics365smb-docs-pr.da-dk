@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7a87023445ea10aa19cc0cc4f60d76ce4cf3e365
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9555aabe515757b71426ddca2f90b37e561f96e2
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251213"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985810"
 ---
 # <a name="make-drop-shipments"></a>Foretage direkte leveringer
 En direkte levering er en levering af varer fra en af dine leverandører direkte til din kunde.
 
-Når en salgsordre er markeret til direkte levering, og du opretter en købsordre, som angiver kunden i feltet **Sælg til kundenr.**, kan du sammenkæde de to dokumenter og dermed bede leverandøren levere direkte til kunden.
+Når en salgsordre er markeret til direkte levering, og du opretter en købsordre, der angiver kunden i feltet **Leveres til**, **Debitoradresse**, kan du sammenkæde de to dokumenter og dermed give kreditoren besked om at levere direkte til debitoren.
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Sådan oprettes en salgsordre til direkte levering
 Hvis du vil forberede en direkte levering, skal du oprette en salgsordre for en vare som normalt, bortset fra at du skal angive på salgslinjen, at salget kræver direkte levering.
@@ -34,7 +34,8 @@ Hvis du vil forberede en direkte levering, skal du oprette en salgsordre for en 
 Hvis du vil forberede en direkte levering af den vare, der skal sælges, kan du oprette en købsordre som normalt, bortset fra skal du angive på købsordren, at den skal leveres til kunden, ikke til dig selv.
 
 1. Opret en indkøbsordre. Du skal ikke udfylde nogen felter på linjerne. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
-2. I feltet **Kundenr** skal du vælge den kunde, som du sælger til.
+2. Vælg **Debitoradresse** i feltet **Leveres til**.
+3. Vælg den kunde, du sælger til, i feltet **Debitor**.
 3. Vælg handlingen **Direkte leveringer**, og vælg derefter handlingen **Hent salgsordre**.
 4. På siden **Salgsoversigt** skal du vælge den salgsordre, du forberedt i [Sådan oprettes en salgsordre til direkte levering](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 5. Vælg knappen **OK**.

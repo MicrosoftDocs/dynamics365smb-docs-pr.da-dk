@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/06/2019
 ms.author: bholtorf
-ms.openlocfilehash: dfcb664d352683566df233d6b9b95900f2d76a5a
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 37728cb92e4b87346cf2be0e2ddc50b5a3b5f25e
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629638"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917387"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Oprette forbindelse til Dynamics 365 for Sales
 Hvis der skal integreres med [!INCLUDE[crm_md](includes/crm_md.md)], skal du konfigurere en forbindelse mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -34,7 +34,7 @@ Før du begynder at oprette forbindelse til programmerne, er der nogle oplysning
 > [!Note]
 > I fremgangsmåden nedenfor beskrives proceduren for onlineversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-## <a name="set-up-test-and-enable-a-connection-to-includecrmmdincludescrmmdmd"></a>Konfigurere, teste og aktivere en forbindelse til [!INCLUDE[crm_md](includes/crm_md.md)]  
+## <a name="set-up-test-and-enable-a-connection-to-includecrm_mdincludescrm_mdmd"></a>Konfigurere, teste og aktivere en forbindelse til [!INCLUDE[crm_md](includes/crm_md.md)]  
 For alle andre godkendelsestyper end Office 365-godkendelse kan du konfigurere forbindelse til Dynamics 365 for Sales på siden **Konfiguration af Microsoft Dynamics 365 for Sales-forbindelse**. I forbindelse med Office 365-godkendelse kan du også bruge den assisterede opsætningsvejledning **Konfigurer Dynamics 365 for Sales-forbindelse**, som hjælper dig med at angive de nødvendige oplysninger.
 
 ### <a name="to-use-an-assisted-setup-guide"></a>Sådan bruges en assisteret opsætningsvejledning
@@ -52,7 +52,7 @@ Den assisterede opsætningsvejledning **Konfigurer Dynamics 365 for Sales-forbin
 |**URL-adresse til Dynamics 365 Business Central OData-webtjeneste**|Hvis du aktiverer Webtjenesten Varedisponering, er URL-adressen for OData-webtjenesten udfyldt.|
 |**Brugernavn til Dynamics 365 Business Central OData-webtjeneste**|Navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugerkontoen, som [!INCLUDE[crm_md](includes/crm_md.md)] bruger til at hente oplysninger om varetilgængelighed i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af OData-webtjenesten.|
 |**Adgangsnøgle til Dynamics 365 Business Central OData-webtjeneste**|Adgangsnøglen til brugerkontoen, som [!INCLUDE[crm_md](includes/crm_md.md)] bruger til at hente oplysninger om varetilgængelighed fra [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af OData-webtjenesten. Nøglen er knyttet til den bruger, der er valgt i feltet **Brugernavn til Dynamics 365 Business Central OData-webtjeneste**. For at få nøglen skal du vælge knappen **Slå værdi op** ved siden af brugernavnet, vælge brugeren, vælge **Administrer** og derefter **Rediger**. På brugerkortet skal du vælge **Handlinger**, **Godkendelse** og derefter klikke på **Ændr webtjenestenøgle**.|
-|**Aktivér integration af salgsordrer**|Når brugere opretter salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], kopieres ordrerne til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kræver, at du angiver legitimationsoplysninger for en administratorbrugerkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Håndtering af salgsordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
+|**Aktivér integration af salgsordrer**|Når der oprettes salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)] og opfyldes ordrer i [!INCLUDE[d365fin](includes/d365fin_md.md)], integreres processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Dette kræver, at du angiver legitimationsoplysninger for en administratorbrugerkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Håndtering af salgsordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Aktivér Dynamics 365 for Sales-forbindelse**|Aktivér forbindelsen til [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365 SDK-version**|Det er kun relevant, hvis du integrerer med en lokal version af [!INCLUDE[crm_md](includes/crm_md.md)]. Det er det Dynamics 365 software development kit (også kaldet Xrm), du bruger til at forbinde [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen skal være kompatibel med den version af SDK, som bruges af [!INCLUDE[crm_md](includes/crm_md.md)], og være lig med eller nyere end den version, der bruges af [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -89,7 +89,7 @@ Følgende procedure beskriver, hvordan du kan udfylde felterne på siden **Konfi
 
 |Felt|Beskrivelse|
 |-----|-----|
-|**Salgsordreintegration er aktiveret**|Brugerne skal kunne afsende salgsordrer og aktiverede tilbud i [!INCLUDE[crm_md](includes/crm_md.md)] og derefter få vist og behandle dem i [!INCLUDE[d365fin](includes/d365fin_md.md)].|
+|**Salgsordreintegration er aktiveret**|Brugerne skal kunne afsende salgsordrer og aktiverede tilbud i [!INCLUDE[crm_md](includes/crm_md.md)] og derefter få vist og behandle dem i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette integrerer processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
 |**Opret salgsordrer automatisk**|Opret en salgsordre i [!INCLUDE[d365fin](includes/d365fin_md.md)], når en bruger opretter og sender en i [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Behandl salgstilbud automatisk**|Behandl et salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)], når en bruger opretter og aktiverer et i [!INCLUDE[crm_md](includes/crm_md.md)].|
 
@@ -115,7 +115,7 @@ Følgende procedure beskriver, hvordan du kan udfylde felterne på siden **Konfi
 > Når du opretter forbindelse til Dynamics 365 for Sales fra siden **Konfiguration af Microsoft Dynamics 365 for Sales**, kan det være nødvendigt, at du [tildeler **Integrationsadministrator** og **Integrationsbruger** sikkerhedsroller](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til den brugerkonto, der bruges til integration.
 
 
-### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>Sådan afbrydes forbindelsen fra [!INCLUDE[crm_md](includes/crm_md.md)]  
+### <a name="to-disconnect-from-includecrm_mdincludescrm_mdmd"></a>Sådan afbrydes forbindelsen fra [!INCLUDE[crm_md](includes/crm_md.md)]  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Microsoft Dynamics 365 for Sales Konfiguration af forbindelse,** og vælg derefter det tilhørende link.
 2. Fjern markeringen i afkrydsningsfeltet **Aktiveret** på siden **Konfiguration af Microsoft Dynamics 365 for Sales-forbindelse**.  
 

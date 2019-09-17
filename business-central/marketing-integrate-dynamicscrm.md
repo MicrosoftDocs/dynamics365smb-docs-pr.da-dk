@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 716e195b4e8c5b4150d7a288918c3fb84f6ac713
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.openlocfilehash: d0f1dfd88b30a4ec2e3a9bfd3366005a93d97f82
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726855"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917364"
 ---
 # <a name="using-dynamics-365-for-sales-from-business-central"></a>Brug af Dynamics 365 for Sales fra Business Central
 Hvis du bruger Dynamics 365 for Sales til Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
@@ -65,7 +65,7 @@ Når du vil kontrollere status for individuelle sager i en fuld synkronisering, 
 Fra siden **Konfiguration af Microsoft Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne siden **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] og Salg, som skal synkroniseres.
 
 ## <a name="handling-sales-order-data"></a>Håndtering af salgsordredata
-Salgsordrer, som personer indsender i [!INCLUDE[crm_md](includes/crm_md.md)], overføres til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du markerer afkrydsningsfeltet **Opret salgsordrer automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**.
+Salgsordrer, som folk indsender i [!INCLUDE[crm_md](includes/crm_md.md)], overføres automatisk til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du markerer afkrydsningsfeltet **Opret salgsordrer automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**.
 Alternativt kan du manuelt konvertere sendte salgsordrer fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Opret i [!INCLUDE[d365fin](includes/d365fin_md.md)]**, der er tilgængelig på siden **Salgsordrer – Dynamics 365 for Sales**.
 På sådanne salgsordrer overføres og knyttes feltet **Navn** på den oprindelige ordre til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -74,6 +74,9 @@ Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede 
 Hvis beskrivelsen af varen på den oprindelige salgsordre er meget lang, oprettes der en ekstra salgsordrelinje af typen **Bemærkning** for at holde hele teksten i salgsordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesdato eller Ønsket leveringsdato, der er tilknyttet i SALGSORDRE-ORDRE **Integrationstabelkoblinger** synkroniseres regelmæssigt til [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som frigivelse af en salgsordre og levering eller fakturering af en salgsordre bogføres på salgsordrens tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Introduktion til aktivitetsopdateringer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+
+> [!NOTE]  
+> Periodisk synkronisering, der er baseret på SALESORDER-ORDER **Integrationstabeltilknytning** , fungerer kun, når salgsordreintegration er aktiveret. Du kan finde flere oplysninger i [Forbundet til Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Kun salgsordrer, der er oprettet fra sendte salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
