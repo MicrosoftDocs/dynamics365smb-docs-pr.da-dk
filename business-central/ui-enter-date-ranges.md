@@ -2,21 +2,21 @@
 title: Angive datoer og klokkeslæt i Business Central | Microsoft Docs
 description: Få at vide, hvordan du angiver datoer og tidspunkter med forskellige produktivitetstip som oversigter, udtryk og områder. Filtrer lister eller rapporter ned til en bestemt dato eller tidsperioder.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: c7e80edfd796056176d37ad12a56c76e64bb44e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250936"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000759"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbejde med kalenderdatoer og klokkeslæt
 
@@ -24,7 +24,7 @@ I [!INCLUDE[d365fin](includes/d365fin_long_md.md)] er der flere måder til at an
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollere internationale og sproglige indstillinger
 
-Siden [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med dine brugerindstillinger i Business Central") angiver det **Land/område** og **Sprog**, du bruger i systemet. Disse indstillinger påvirker måden, du angiver datoer og klokkeslæt på. 
+Siden [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med dine brugerindstillinger i Business Central") angiver det **Land/område** og **Sprog**, du bruger i systemet. Disse indstillinger påvirker måden, du angiver datoer og klokkeslæt på.
 
 -   Indstillingen **Område** bestemmer, hvordan datoer, klokkeslæt, tal og valutaer vises og formateres.
 
@@ -33,7 +33,7 @@ Siden [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "G
 > [!NOTE]
 > [!INCLUDE[d365fin](includes/d365fin_long_md.md)] anvender den gregorianske kalender.
 
-<!-- 
+<!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
@@ -43,7 +43,7 @@ I et datofelt kan du angive en dato i standardformatet for din land/områdeindst
 
 Bemærk, at det format, som datoer vises i på udskrevne rapporter eller dokumenter sendt med e-mails, ikke påvirkes af dit personlige valg af land/område.
 
-For at arbejde mere produktivt med datoer og klokkeslæt kan du bruge de metoder og formater, der er beskrevet i følgende afsnit. 
+For at arbejde mere produktivt med datoer og klokkeslæt kan du bruge de metoder og formater, der er beskrevet i følgende afsnit.
 
 ### <a name="picking-dates-from-the-calendar"></a>Vælge datoer i kalenderen
 
@@ -55,9 +55,9 @@ Se også [Tastaturgenveje i kalenderdatovælgeren](keyboard-shortcuts.md#calenda
 
 ### <a name="day-week-year-pattern"></a>Mønsteret dag\-uge\-år
 
-Du kan angive en dato som en ugedag efterfulgt af et ugenummer og eventuelt et år. F.eks. betyder `Mon25` eller `mon25` Monday i uge 25. Hvis du ikke angiver et år, bruges året fra arbejdsdatoen.
+Du kan angive en dato som en ugedag efterfulgt af et ugenummer og eventuelt et år. F.eks. betyder Man25 eller man25 mandag i uge 25. Hvis du ikke angiver et år, bruges året fra arbejdsdatoen.
 
-I stedet for at skrive hele ordet for den pågældende dag i ugen kan du skrive en del af ordet fra begyndelsen. Hvis der opstår konflikter (f.eks. med `s`, som kan være Saturday eller Sunday), vurderes dagene i overensstemmelse med lande/områdeindstillingen. Input vurderes først mod `workdate` og `today`, så husk dette, når du laver forkortelser. F.eks. betyder `t` allerede today så det ikke kan betyde Tuesday eller Thursday.
+I stedet for at skrive hele ordet for den pågældende dag i ugen kan du skrive en del af ordet fra begyndelsen. Hvis der opstår konflikter (f.eks. med t, som kan være tirsdag eller torsdag), vurderes dagene i overensstemmelse med lande/områdeindstillingen. Input vurderes først mod arbejdsdag samt dags dato, så husk dette, når du laver forkortelser. F.eks. betyder d allerede dags dato, så det ikke kan betyde tirsdag eller torsdag.
 
 Ugenummereringen er altid ISO 8601, hvor er uge 1 uge er den uge, som 4. januar indgår i, eller ugen med den første torsdag i året.
 
@@ -73,11 +73,11 @@ I et datofelt kan du indtaste to, fire, seks eller otte cifre:
 
 ### <a name="today"></a>I dag
 
-Angiv ordet for `today` på det valgte sprog i indstillingen **Sprog**. Dette indstiller datoen til dags dato. I stedet for at angive hele ordet kan du angive en del af det fra begyndelsen, f.eks. `t` eller `tod`, så længe det ikke også er begyndelsen på et andet ord.
+Angiv ordet for i dag på det valgte sprog i indstillingen **Sprog**. Dette indstiller datoen til dags dato. I stedet for at angive hele ordet kan du angive en del af det fra begyndelsen, f.eks. d eller dags , så længe det ikke også er begyndelsen på et andet ord.
 
 ### <a name="period"></a>Periode
 
-For at filtrere på en bestemt regnskabsperiode skal du i et datofelt skrive bogstavet `p` eller ordet `period` efterfulgt af et tal, der identificerer regnskabsperioden, f.eks. `p2` eller `period4`. Regnskabsperioden passer til regnskabsåret for den aktuelle arbejdsdato, der er angivet i dit rollecenter. F.eks., hvis arbejdsdatoen er **21-03-20**, filtrerer `p1`, eller blot `p`, på den første regnskabsperiode i regnskabsåret 2020 (f.eks. `01/01/20..01/31/20`). `p15` filtrerer på den 15. regnskabsperiode fra starten på regnskabsåret 2020 (f.eks. `03/01/21..03/31/21`). 
+For at filtrere på en bestemt regnskabsperiode skal du i et datofelt skrive bogstavet p eller ordet periode efterfulgt af et tal, der identificerer regnskabsperioden, f.eks. p2 eller periode4. Regnskabsperioden passer til regnskabsåret for den aktuelle arbejdsdato, der er angivet i dit rollecenter. Hvis arbejdsdatoen f.eks. er **21-03-20**, så filtrerer p1, eller blot p, på den første regnskabsperiode i regnskabsåret 2020 (f.eks. 01-01-20..31-01-20). p15 filtrerer på den 15. regnskabsperiode fra starten på regnskabsåret 2020 (f.eks. 01-03-21..31-03-21).
 
 Regnskabsperioden defineres på siden **Regnskabsperioder**. Hvis du vil se eller ændre regnskabsperioderne, skal du åbne siden [her](https://businesscentral.dynamics.com/?page=100).
 
@@ -95,7 +95,7 @@ Se også [Ændring af grundlæggende indstillinger, f.eks. arbejdsdatoen](ui-cha
 
 Ved afslutning af et regnskabsår kan du bruge ultimodatoer til at angive, at posten er en ultimopost. I teknisk forstand er en ultimodato en hvilken som helst dato mellem to datoer, f.eks. 31. december og 1. januar.
 
-Hvis en dato skal være en ultimodato, skal du indsætte et `C` lige foran datoen, f.eks. `C123101`. Dette kan bruges sammen med alle datomønstre.
+Hvis en dato skal være en ultimodato, skal du indsætte et U lige foran datoen, f.eks. U120131. Dette kan bruges sammen med alle datomønstre.
 
 ### <a name="examples"></a>Eksempler
 
@@ -103,24 +103,24 @@ Følgende tabel indeholder eksempler på datoer i alle formater. Det forudsætte
 
 |**Post**      |**Fortolkning**      |
 |---------------|------------------------|
-|`2018.12.31.`|2018.12.31.|
-|`181231`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`18.12.31.`|2018.12.31.|
-|`20181231`|2018.12.31.|
-|`18/12,31`|2018.12.31.|
-|`11`|arbejdsdatoår.abejdsdatomåned.11.|
-|`1112`|arbejdsdatoår.11.12.|
-|`t` eller `today`|dags dato|
-|`p4`|datointerval, der indeholder den fjerde regnskabsperiode, f.eks. `04/01/20..04/30/20`|
-|`w` eller `workdate`|arbejdsdatoen|
-|`m` eller `Monday`|Mandag i ugen for arbejdsdatoen|
-|`tu` eller `Tuesday`|Tirsdag i ugen for arbejdsdatoen|
-|`sa` eller `Saturday`|Lørdag i ugen for arbejdsdatoen|
-|`s` eller `Sunday`|Søndag i ugen for arbejdsdatoen|
-|`t23`|Tirsdag i uge 23 i året for arbejdsdatoen|
-|`t 23`|Tirsdag i uge 23 i året for arbejdsdatoen|
-|`t-1`|Tirsdag i uge 1 i året for arbejdsdatoen|
+|2018.12.31.|31-12-2018.|
+|181231|31-12-2018.|
+|18.12.31.|31-12-2018.|
+|18.12.31.|31-12-2018.|
+|20181231|31-12-2018.|
+|18/12,31|31-12-2018.|
+|11|arbejdsdatoår.abejdsdatomåned.11.|
+|1112|arbejdsdatoår.11.12.|
+|d eller dags dato|dags dato|
+|p4|datointerval, der indeholder den fjerde regnskabsperiode, f.eks. 01-04-20..30-04-20|
+|a eller arbejdsdato|arbejdsdatoen|
+|m eller mandag|Mandag i ugen for arbejdsdatoen|
+|ti eller tirsdag|Tirsdag i ugen for arbejdsdatoen|
+|lø eller lørdag|Lørdag i ugen for arbejdsdatoen|
+|s eller søndag|Søndag i ugen for arbejdsdatoen|
+|ti23|Tirsdag i uge 23 i året for arbejdsdatoen|
+|ti 23|Tirsdag i uge 23 i året for arbejdsdatoen|
+|ti-1|Tirsdag i uge 1 i året for arbejdsdatoen|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Angive intervaller
 
@@ -128,17 +128,17 @@ På lister, i totaler og rapporter kan angive filtre for datoer, klokkeslæt og 
 
 |**Betydning**|**Eksempeludtryk (dato)**|**Data, der indgår i filteret**|
 |-----------|---------------------|--------------------|
-|Interval|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Records med datoer fra og med 15-12-00 til og med 15-01-01.<br /><br />Records med datoen 15 12 00 eller tidligere.<br /><br />Datointerval, der indeholder den anden, tredje og fjerde regnskabsperiode, f.eks. `01/01/20..04/30/20`.|
-|Enten/ eller|`12 15 00|12 16 00`|Records med datoen 15 12 00 eller 16 12 00. Hvis der er records med datoer på begge dage, vises de alle.|
-|Kombination|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Records med datoerne 15-12-00 eller poster fra og med 01-12-00 til og med 10-12-00.  \nRecords med datoer den 14-12-00 eller tidligere eller den 30-12-00 eller senere, dvs. alle records, undtagen dokumenter med datoer fra og med 15-12-00 til og med 29-12-00.|
+|Interval|15-12-00..15-01-01<br /><br />..15-12-00<br /><br />p1..p4|Records med datoer fra og med 15-12-00 til og med 15-01-01.<br /><br />Records med datoen 15 12 00 eller tidligere.<br /><br />Datointerval, der indeholder den anden, tredje og fjerde regnskabsperiode, f.eks. 01-01-20--30-04-20.|
+|Enten/ eller|15-12-00|16-12-00|Records med datoen 15 12 00 eller 16 12 00. Hvis der er records med datoer på begge dage, vises de alle.|
+|Kombination|15-12-00|01-12-00..10-12-00  \n..14-12-00|30-12-00..|Records med datoerne 15-12-00 eller poster fra og med 01-12-00 til og med 10-12-00.  \Records med datoer den 14-12-00 eller tidligere eller den 30-12-00 eller senere, dvs. alle records, undtagen dem med datoer mellem og inklusive 15-12-00 til og med 29-12-00.|
 
-Du kan bruge de gyldige formater i datointervalfiltre. F.eks. resulterer `mon14 3..t 4p`, der anvendes på et dato og klokkeslætsfelt, i et filter fra kl. 3 mandag i uge 14 for den igangværende arbejdsdatos år, begge inklusive, indtil i dag kl. 16 inklusive.
+Du kan bruge de gyldige formater i datointervalfiltre. F.eks. resulterer man14 03..d 16, der anvendes på et dato og klokkeslætsfelt, i et filter fra kl. 3 mandag i uge 14 for den igangværende arbejdsdatos år, begge inklusive, indtil i dag kl. 16 inklusive.
 
 ## <a name="using-date-formulas"></a>Bruge datoformler
 En datoformel er en kort, forkortet kombination af bogstaver og tal, der angiver, hvordan datoer skal beregnes. Du kan angive datoformler i forskellige datoberegningsfelter eller filtre.
 
 > [!NOTE]
->  I alle formlens datafelter indgår en dag automatisk til at dække i dag som den dag, hvor perioden starter. Tilsvarende, hvis du f.eks. indtaster `1W`, så er perioden faktisk otte dage, fordi i dag er inkluderet. Du skal indtaste `6D` eller `1W-1D` for at angive en periode på syv dage \(en rigtig uge\), der medtager periodens startdato.
+>  I alle formlens datafelter indgår en dag automatisk til at dække i dag som den dag, hvor perioden starter. Tilsvarende, hvis du f.eks. indtaster 1U, så er perioden faktisk otte dage, fordi i dag er inkluderet. Du skal indtaste 6D eller 1U-1D for at angive en periode på syv dage \(en rigtig uge\), der medtager periodens startdato.
 
 Her følger et par eksempler på brugen af datoformler:
 
@@ -152,50 +152,50 @@ Datoformlen kan indeholde op til 20 tegn (både tal og bogstaver). Du kan bruge 
 
 |  Bogstav  |  Betyder  |
 |----------|----------------------|
-|`C`|Løbende|
-|`D`|Dag\(e\)|
-|`W`|Uge\(r\)|
-|`M`|Måned\(er\)|
-|`Q`|Kvartal\(er\)|
-|`Y`|År\(\)|
+|L|Løbende|
+|D|Dag\(e\)|
+|U|Uge\(r\)|
+|M|Måned\(er\)|
+|K|Kvartal\(er\)|
+|Å|År\(\)|
 
 Datoformlen kan opbygges på tre måder.
 
-Følgende eksempel viser, hvordan du skal bruge `C` for aktuel og en tidsenhed.
+Følgende eksempel viser, hvordan du skal bruge A for aktuel og en tidsenhed.
 
 |  Udtryk  |  Betyder  |
 |--------------|-----------|
-|`CW`|Løbende uge|
-|`CM`|Løbende måned|
+|LU|Løbende uge|
+|LM|Løbende måned|
 
 Følgende eksempel viser, hvordan du skal bruge et tal og en tidsenhed. Tallet må ikke være større end 9999.
 
 |  Udtryk  |  Betyder  |
 |--------------|-----------|
-|`10D`|10 dage fra i dag|
-|`2W`|2 uger fra i dag|
+|10D|10 dage fra i dag|
+|2U|2 uger fra i dag|
 
 Følgende eksempel viser, hvordan du skal bruge en tidsenhed og et tal.
 
 |  Udtryk  |  Betyder  |
 |--------------|-----------|
-|`D10`|Den næste 10. dage i en måned|
-|`WD4`|Den næste 4. dag i en uge \(torsdag\)|
+|D10|Den næste 10. dage i en måned|
+|UD4|Den næste 4. dag i en uge \(torsdag\)|
 
 Følgende eksempel viser, hvordan du kan kombinere de tre formler efter behov.
 
 |  Udtryk  |  Betyder  |
 |--------------|-----------|
-|`CM+10D`|Løbende måned \+ 10 dage|
+|LM+10D|Løbende måned \+ 10 dage|
 
 Følgende eksempel viser, hvordan du kan bruge et minustegn til at angive en dato i fortiden.
 
 |  Udtryk  |  Betyder  |
 |--------------|-----------|
-|`-1Y`|1 år siden fra i dag|
+|-1Å|1 år siden fra i dag|
 
 > [!IMPORTANT]
->  Hvis lokationen bruger en basiskalender, fortolkes den datoformel, du f.eks. indtaster i feltet **Transporttid**, i overensstemmelse med kalenderens arbejdsdage. For eksempel betyder `1W` syv arbejdsdage.
+>  Hvis lokationen bruger en basiskalender, fortolkes den datoformel, du f.eks. indtaster i feltet **Transporttid**, i overensstemmelse med kalenderens arbejdsdage. For eksempel betyder 1U syv arbejdsdage.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -294,26 +294,26 @@ I den følgende tabel kan du se, hvordan du kan indtaste klokkeslæt, og hvordan
 
 |**Post**      |**Fortolkning**      |
 |---------------|------------------------|
-|`05:23:17`|05:23:17|
-|`5`|05:00:00|
-|`5AM`|05:00:00|
-|`5P`|17:00:00|
-|`12`|12:00:00|
-|`12A`|00:00:00|
-|`12P`|12:00:00|
-|`17`|17:00:00|
-|`5:30`|05:30:00|
-|`0530`|05:30:00|
-|`5:30:5`|05:30:05|
-|`053005`|05:30:05|
-|`5:30:5,50`|05:30:05,5|
-|`053005050`|05:30:05.05|
+|05:23:17|05:23:17|
+|5|05:00:00|
+|5AM|05:00:00|
+|5P|17:00:00|
+|12|12:00:00|
+|12A|00:00:00|
+|12P|12:00:00|
+|17|17:00:00|
+|5:30|05:30:00|
+|0530|05:30:00|
+|5:30:5|05:30:05|
+|053005|05:30:05|
+|5:30:5.50|05:30:05,5|
+|053005050|05:30:05.05|
 
-Du skal være opmærksom på, at millisekunder fortolkes som decimalformat. Altså betyder f.eks. `3`, `30` og `300` alle 300 millisekunder, mens `03` betyder `30` og `003` betyder 3 millisekunder.
+Du skal være opmærksom på, at millisekunder fortolkes som decimalformat. Altså betyder f.eks. 3, 30 og 300 alle 300 millisekunder, mens 03 betyder 30 og 003 betyder 3 millisekunder.
 
-Du kan ikke bruge `24:00` til at angive midnat eller bruge værdier større end 24:00.
+Du kan ikke bruge 24:00 til at angive midnat eller bruge værdier større end 24:00.
 
-Ordet for 'time" på det sprog, som [!INCLUDE[d365fin](includes/d365fin_long_md.md)] bruger, vurderes til det aktuelle tidspunkt på din computer eller en mobilenhed. Du kan angive en del af ordet fra begyndelsen, f.eks. `t` eller `TIM`.
+Ordet for 'time" på det sprog, som [!INCLUDE[d365fin](includes/d365fin_long_md.md)] bruger, vurderes til det aktuelle tidspunkt på din computer eller en mobilenhed. Du kan angive en del af ordet fra begyndelsen, f.eks. t eller TIM.
 
 ## <a name="entering-combined-dates-and-times"></a>Indtaste kombinerede datoer og tidspunkter
 Når du angiver dato/klokkeslæt, som en dato og klokkeslæt kombineret i ét felt, skal du angive et mellemrum mellem datoen og klokkeslættet. Datodelen kan kun indeholde mellemrum i form af officielle datoseparatorer af lande/områdeindstillingerne. Tid, der kan indeholde mellemrum omkring AM/PM-symbolet.
@@ -324,27 +324,27 @@ Følgende tabel viser eksempler på dato/klokkeslætskombinationer. Lande/områd
 
 |**Post**      |**Fortolkning**      |
 |---------------|------------------------|
-|`08-01-2016 05:48:12 PM`|08\-01\-2016 17:48:12|
-|`131202 132455`|13\-12\-2002 13:24:55|
-|`1-12-02 10`|01\-12\-2002 10:00:00|
-|`1.12.02 5`|01\-12\-2002 05:00:00|
-|`1.12.02`|01\-12\-2002 00:00:00|
-|`11 12`|11\-arbejdsdatomåned\-abejdsdatoår 12:00:00|
-|`1112 12`|11\-12\-arbejdsdatoår 12:00:00|
-|`t` eller `today`|dags dato 00:00:00|
-|`t 10:30`|dags dato 10:30:00|
-|`t 3:3:3`|dags dato 03:03:03|
-|`w` eller `workdate`|arbejdsdato 00:00:00|
-|`m` eller `Monday`|Mandag i ugen for arbejdsdatoen 00:00:00|
-|`tu` eller `Tuesday`|Tirsdag i ugen for arbejdsdatoen 00:00:00|
-|`sa` eller `Saturday`|Lørdag i ugen for arbejdsdatoen 00:00:00|
-|`s` eller `Sunday`|Søndag i ugen for arbejdsdatoen 00:00:00|
-|`tu 10:30`|Tirsdag i ugen for arbejdsdatoen 10:30:00|
-|`tu 3:3:3`|Tirsdag i ugen for arbejdsdatoen 03:03:03|
-|`t23 t`|Tirsdag i uge 23 i året for arbejdsdatoen, det aktuelle tidspunkt på dagen|
-|`t23`|Tirsdag i uge 23 i året for arbejdsdatoen|
-|`t 23`|Dags dato 23:00:00|
-|`t-1`|Tirsdag i uge 1 i året for arbejdsdatoen|
+|08-01-2016 05:48:12 PM|08\-01\-2016 17:48:12|
+|131202 132455|13\-12\-2002 13:24:55|
+|1-12-02 10|01\-12\-2002 10:00:00|
+|1.12.02 5|01\-12\-2002 05:00:00|
+|1.12.02|01\-12\-2002 00:00:00|
+|11 12|11\-arbejdsdatomåned\-abejdsdatoår 12:00:00|
+|1112 12|11\-12\-arbejdsdatoår 12:00:00|
+|d eller dags dato|dags dato 00:00:00|
+|d 10:30|dags dato 10:30:00|
+|d 3:3:3|dags dato 03:03:03|
+|a eller arbejdsdato|arbejdsdato 00:00:00|
+|m eller mandag|Mandag i ugen for arbejdsdatoen 00:00:00|
+|ti eller tirsdag|Tirsdag i ugen for arbejdsdatoen 00:00:00|
+|lø eller lørdag|Lørdag i ugen for arbejdsdatoen 00:00:00|
+|s eller søndag|Søndag i ugen for arbejdsdatoen 00:00:00|
+|ti 10:30|Tirsdag i ugen for arbejdsdatoen 10:30:00|
+|ti 3:3:3|Tirsdag i ugen for arbejdsdatoen 03:03:03|
+|ti23 t|Tirsdag i uge 23 i året for arbejdsdatoen, det aktuelle tidspunkt på dagen|
+|ti23|Tirsdag i uge 23 i året for arbejdsdatoen|
+|ti 23|Dags dato 23:00:00|
+|ti-1|Tirsdag i uge 1 i året for arbejdsdatoen|
 
 ## <a name="entering-duration"></a>Angivelse af varighed
 Nogle felter i programmet repræsenterer en varighed eller et forløbet tidsrum i stedet for en bestemt dato eller klokkeslæt. Du angiver varighed ved at skrive et tal efterfulgt af en måleenhed.
@@ -353,19 +353,18 @@ Her er nogle eksempler.
 
 |**Varighed**|**Enhed**|
 |------------|-------------------|
-|`2h`|2 timer|
-|`6h 30 m`|6 timer 30 min|
-|`6.5h`|6 timer 30 min|
-|`90m`|1 time 30 min|
-|`2d 6h 30m`|2 dage 6 timer 30 min|
-|`2d 6h 30m 56s 600ms`|2 dage 6 timer 30 min 56 sek 600 msek|
+|2t|2 timer|
+|6t 30 m|6 timer 30 min|
+|6,5t|6 timer 30 min|
+|90m|1 time 30 min|
+|2d 6t 30m|2 dage 6 timer 30 min|
+|2d 6t 30m 56s 600ms|2 dage 6 timer 30 min 56 sek 600 msek|
 
 Du kan også skrive et tal, der automatisk konverteres til en varighed. Det tal, du skriver, konverteres i overensstemmelse med den standardmåleenhed, der er angivet i feltet Varighed.
 
 Du kan se, hvilken måleenhed, der anvendes i feltet Varighed, ved at skrive et tal og se, hvilken måleenhed tallet konverteres til.
 
-Hvis måleenheden f.eks. er timer, konverteres tallet `5` til 5 timer.
-
+Hvis måleenheden f.eks. er timer, konverteres tallet 5 til 5 timer.
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
