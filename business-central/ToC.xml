@@ -13,7 +13,7 @@
   <Node Name="" DisplayName="Tip" Page="ui-work-product.html">
     <Node Name="" DisplayName="Arbejde med Business Central" Page="ui-work-product.html"/>
     <Node Name="" DisplayName="Brug af Søg efter side eller rapport" Page="ui-search.html"/>
-    <Node Name="" DisplayName="Ændring af grundlæggende indstillinger" Page="ui-change-basic-settings.html"/>
+    <Node Name="" DisplayName="Ændre grundlæggende indstillinger" Page="ui-change-basic-settings.html"/>
     <Node Name="" DisplayName="Fremgangsmåde: Ændre rollecentret" Page="change-role.html"/>
     <Node Name="" DisplayName="Tilpasse Business Central" Page="ui-customizing-overview.html"/>
     <Node Name="" DisplayName="Lade Business Central foreslå værdier" Page="ui-let-system-suggest-values.html"/>
@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Arbejde med dimensioner" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="Fremgangsmåde: Oprette budgetter" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Fremgangsmåde: Bogføre transaktioner direkte i finansposterne" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="Sådan tilbageføres poster" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Fremgangsmåde: Tilbageføre kladdeposteringer og annullere modtagelser/leverancer" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Fremgangsmåde: Allokere omkostninger og indtægter" Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Fremgangsmåde: Bruge varegebyrer til at angive ekstra handelsomkostninger" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Fremgangsmåde: Registrere og refundere medarbejdernes udgifter" Page="finance-how-record-reimburse-employee-expenses.html"/>
