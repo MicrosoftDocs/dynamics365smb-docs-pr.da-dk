@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755965"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313605"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
@@ -43,7 +43,7 @@ Hvis du benytter en prøveversion af [!INCLUDE [prodshort](includes/prodshort.md
 
 ### <a name="blog"></a>Blog
 
-Vi taler om nye funktioner på [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), hvornår de bliver tilgængelige, og om særlige ting gør sig gældende.  
+Vi taler om nye funktioner på [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), hvornår de bliver tilgængelige, og om særlige ting gør sig gældende.  
 
 ### <a name="capabilities-coming-soon"></a>Funktioner, der lanceres snart
 
@@ -66,24 +66,24 @@ Sørg for at søge listen over indsendte forslag igennem. Chancen for, at nogen 
 
 ## <a name="troubleshooting"></a>Fejlfinding
 
-Sektionen **Fejlfinding** viser teknisk information, som din administrator eller [!INCLUDE[prodshort](includes/prodshort.md)]-partner kan benytte for at give brugere adgang. Dette omfatter information om den seneste fejlbesked, den nuværende version af [!INCLUDE[prodshort](includes/prodshort.md)], og et link til siden **Sideinspektion**. Se [Inspektion af sider i Business Central](across-inspect-page.md) for yderligere information.  
+Sektionen **Fejlfinding** viser teknisk information, som din administrator eller [!INCLUDE[prodshort](includes/prodshort.md)]-partner kan benytte for at give brugere adgang. Dette omfatter information om den seneste fejlbesked, den nuværende version af dit [!INCLUDE[prodshort](includes/prodshort.md)], og et link til siden **Sideinspektion**. Se [Inspektion af sider i Business Central](across-inspect-page.md) for yderligere information.  
 
 ## <a name="report-a-problem"></a>Rapporter et problem
 
-Din [!INCLUDE[prodshort](includes/prodshort.md)]-detailpartner forventes at kunne hjælpe dig med teknisk support. [!INCLUDE[prodshort](includes/prodshort.md)] sælges gennem partnere, og denne sektion gør det nemt for dig at kontakte din detailforhandler, hvis de har angivet deres support-e-mailadresse. Hvis din [!INCLUDE[prodshort](includes/prodshort.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp.  
+Din [!INCLUDE[prodshort](includes/prodshort.md)]-detailpartner kan hjælpe dig med teknisk support. [!INCLUDE[prodshort](includes/prodshort.md)] sælges gennem partnere, og denne sektion gør det nemt for dig at kontakte din detailforhandler, hvis de har angivet deres supportkontaktoplysninger. Hvis din [!INCLUDE[prodshort](includes/prodshort.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp.  
 
 > [!NOTE]
 > Denne sektion er kun tilgængelig, hvis du har betalt for et [!INCLUDE [prodshort](includes/prodshort.md)]-abonnement. Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[prodshort](includes/prodshort.md)], har du ikke en forhandlerpartner, og du ikke kan kontakte Microsofts supportteam. Du kan finde en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-### <a name="support-email-address"></a>E-mailadresse til support
+### <a name="support-contacts"></a>Supportkontrakter
 
-E-mailadressen, der vises i sektionen **Rapporter et problem**, kan være til en person eller et team. Hvis du er [!INCLUDE[prodshort](includes/prodshort.md)]-detailforhandleren for en lejer, kan du angive denne e-mailadresse på siden **Kontaktinfo-kort** til Support. Se [Konfigurer teknisk support](/dynamics365/business-central/dev-itpro/technical-support) i udvikler- og ITpro-indhold for [!INCLUDE [prodshort](includes/prodshort.md)] for at få yderligere information.  
+I afsnittet **Rapportér et problem** vises en mailadresse eller et hyperlink, som du kan bruge til at få kontakt med personen eller teamet hos kundesupport. Hvis du er [!INCLUDE[prodshort](includes/prodshort.md)]-detailforhandleren for en lejer, kan du angive dine foretrukne supportkontaktoplysninger i Administration. Du kan finde flere oplysninger under [Konfigurer supportoplevelsen](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) i ITpro-indholdet til [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Vælg linket for at gøre din partner opmærksom på et problem. Dette åbner en ny e-mail i din fortrukne e-mail-editor, og du kan så tilføje den tekniske information om din Azure Active Directory-lejer og enhver anden information, du finder relevant.  
+Hvis du vil advare din partner mod et problem, skal du vælge hyperlinket for enten at sende en e-mail eller åbne sit supportwebsted under en ny fane i browseren. Derefter kan du tilføje de tekniske oplysninger om din Azure Active Directory-lejer fra afsnittet **Fejlfinding** og andre oplysninger, som du finder relevante.  
 
 ## <a name="see-also"></a>Se også
 
 [Blog post: Find de rigtige ressourcer, og giv feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central developer og ITpro docs](/dynamics365/business-central/dev-itpro/)  
 [Hjælp og support for partnere](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Konfigurer teknisk support](/dynamics365/business-central/dev-itpro/technical-support)  
+[Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)  

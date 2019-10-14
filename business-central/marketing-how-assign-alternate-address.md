@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 22530c8e1bd3f148f5f158e6210668020c24d387
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c88d0dbc26ab0a6560072b9995c13da71db5f3da
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237999"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309216"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Definere alternative adresser for kontakter
 Du kan tildele en alternativ adresse, som en kontaktperson i perioder får sendt post til, f.eks. et sommerhus. Du kan også tildele en eller flere datointervaller til hver af kontaktpersonens alternative adresser og på den måde angive, hvornår en bestemt adresse er gyldig.

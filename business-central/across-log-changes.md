@@ -1,6 +1,6 @@
 ---
-title: Spore brugeraktivitet i en ændringslog | Microsoft Docs
-description: Du kan aktivere en brugerlog for at få en oversigt over ændringer af data i registrerede tabeller.
+title: Overvågning af ændringer | Microsoft Docs
+description: Du kan aktivere en brugerlog for at få en oversigt over ændringer af data i registrerede tabeller. Du kan også spore aktiviteter med bestemte typer aktivitetslogge.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240437"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304921"
 ---
 # <a name="auditing-changes-in-business-central"></a>Ændringer af revision i Business Central
 
@@ -38,9 +38,15 @@ Hvis du på siden **Opsætning af ændringslog** vælger handlingen **Tabeller**
 
 Når du har konfigureret ændringsloggen, aktiveret den og ændret data, kan du få vist og filtrere ændringerne på siden **Ændringslogposter**. Hvis du vil slette poster, kan du gøre det på siden **Slet ændringslogposter**, hvor du kan angive filtre baseret på datoer og tidspunkter.  
 
+## <a name="working-with-activity-logs"></a>Arbejde med aktivitetslogge
+
+Fra nogle sider i [!INCLUDE [prodshort](includes/prodshort.md)] kan du få vist en aktivitetslog, der viser status og eventuelle fejl i filer, som du eksporterer fra eller importerer til [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+Oplysningerne vises på siden **Aktivitetslog** i overensstemmelse med den kontekst, de åbnes fra. Du kan åbne vinduet fra siderne **Opsætning af dokumentudvekslingstjeneste**, **Indgående dokument**, **Bogført salgsfaktura** og **Bogført salgskreditnota**. Du kan tømme listen med logposter eller blot rydde oversigten over poster, der er ældre end 7 dage.  
+
 ## <a name="see-also"></a>Se også
-[Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
+[Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
-[Bruge Fortæl mig til at finde funktioner og oplysninger](ui-search.md)  
-[Administrere brugere og deres rettigheder](ui-how-users-permissions.md)    
+[Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
+[Administrere brugere og rettigheder](ui-how-users-permissions.md)    
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244718"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302376"
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
 For at gøre det lettere at analysere dokumenter som f.eks. salgsordrer kan du bruge dimensioner. Dimensioner er attributter og værdier, der kategoriserer poster, så du kan spore og analysere dem. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
@@ -50,7 +50,7 @@ Du kan også angive værdier for dimensioner. Værdier kan f.eks. være afdeling
 
 Når dimensioner og værdier konfigureres, kan du definere globale dimensioner og genvejsdimensioner på siden **Regnskabsopsætning**, der altid vil kunne vælges som felter på kladde- og dokumentlinjer, uden at siden **Dimensioner** skal åbnes først. Du kan finde flere oplysninger i [Sådan konfigureres globale dimensioner og genvejsdimensioner](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
-* **Globale dimensioner** bruges som filtre, f.eks. i rapporter og kørsler. Du kan kun bruge to globale dimensioner, så vælg dimensioner, du bruger ofte.
+* **Globale dimensioner** bruges som filtre, f.eks. i rapporter, kørsler og XMLporte. Du kan kun bruge to globale dimensioner, så vælg dimensioner, du bruger ofte.
 * **Genvejsdimensioner** er tilgængelige som felter på kladde- og dokumentlinjer. Du kan oprette op til seks af disse.  
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Sådan konfigureres standarddimensioner for kunder, leverandører og andre konti

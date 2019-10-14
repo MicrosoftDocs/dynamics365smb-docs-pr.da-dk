@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Odata, Power App, SOAP
-ms.date: 05/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 67d7129e32ccde3154a02dd12b806d712f470833
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 4b8005154afb988cf25c6a04b7beeaafd199afca
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540265"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305015"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-powerapps"></a>Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af PowerApps
 Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige som en datakilde i PowerApps.  
@@ -23,18 +23,20 @@ Du kan gøre dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgængelige
 > [!NOTE]  
 >   Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til PowerApps.  
 
-## <a name="to-add-included365finincludesd365finmdmd-as-a-data-source-in-powerapps"></a>Sådan tilføjes [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde i PowerApps
+## <a name="to-add-included365finincludesd365fin_mdmd-as-a-data-source-in-powerapps"></a>Sådan tilføjes [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde i PowerApps
 1. Gå til [powerapps.microsoft.com](https://powerapps.microsoft.com/en-us/) i din webbrowser, og log på.
-2. På startsiden skal du vælge skabelonen **Start fra data** for at oprette en ny lærreds-app. Denne app vil blive udformet til brug på en mobilenhed, men du kan også vælge at bruge en anden skabelon.
+2. Vælg **Apps** på startsiden, **Opret en app** og **Lærred** for at oprette en ny lærreds-app. Denne app vil blive udformet til brug på en mobilenhed, men du kan også vælge at bruge en anden skabelon.
 
     Næste trin til oprettelse af en PowerApp er at vælge dataene. Vælg ikonet med pilen, og vælg derefter indstillingen **Ny forbindelse** øverst til venstre side på siden.
 3. Vælg **Business Central**på listen over tilgængelige forbindelser, og vælg derefter knappen **Opret**.
 
     PowerApps opretter forbindelse til din [!INCLUDE [prodshort](includes/prodshort.md)] ved hjælp af de legitimationsoplysninger, du er logget på med. Hvis du ikke er administrator af din [!INCLUDE [prodshort](includes/prodshort.md)], skal du muligvis logge på med en anden konto.  
 
-4. Hvis du har mere end én virksomhed i din [!INCLUDE [prodshort](includes/prodshort.md)], skal du vælge den virksomhed, du vil oprette forbindelse til. PowerApps viser derefter en liste over *tabeller*, der er tilgængelige fra [!INCLUDE [prodshort](includes/prodshort.md)]. Disse såkaldte tabeller er en del af [!INCLUDE [prodshort](includes/prodshort.md)] API'en. Du behøver ikke selv at konfigurere slutpunkterne - [!INCLUDE [prodshort](includes/prodshort.md)]-connectoren til PowerApps gør det for dig.  
+4.  PowerApps viser en liste over *Miljøer og regnskaber*, der er tilgængelige fra [!INCLUDE [prodshort](includes/prodshort.md)]. Vælg det miljø og regnskab, der indeholder de data, du vil oprette forbindelse til. Derefter vises en liste over API'er. Vælg den **API**, du vil oprette forbindelse til.
 
-    Hvis du vil medtage data fra andre tabeller i [!INCLUDE [prodshort](includes/prodshort.md)] i din app, skal du samarbejde med en udvikler om at definere en brugerdefineret API i [!INCLUDE [prodshort](includes/prodshort.md)] og derefter bruge denne API via en brugerdefineret connector i PowerApps. Du kan finde flere oplysninger i [Oprette en brugerdefineret connector fra bunden](/connectors/custom-connectors/define-blank).  
+Disse såkaldte tabeller er en del af [!INCLUDE [prodshort](includes/prodshort.md)] API'en. Du behøver ikke selv at konfigurere slutpunkterne – [!INCLUDE [prodshort](includes/prodshort.md)]-connectoren til PowerApps gør det for dig.  
+
+    If you want to include data from other tables in [!INCLUDE [prodshort](includes/prodshort.md)] in your app, then you must work with a developer to define a custom API in [!INCLUDE [prodshort](includes/prodshort.md)] and then consume that custom API through a custom connector in PowerApps. For more information, see [Create a custom connector from scratch](/connectors/custom-connectors/define-blank).  
 
 Nu har du oprettet forbindelse til dine [!INCLUDE [prodshort](includes/prodshort.md)]-data og er klar til at opbygge din PowerApp. Du kan tilføje yderligere skærmbilleder og oprette forbindelse til flere data fra dit [!INCLUDE [prodshort](includes/prodshort.md)]. Du kan finde flere oplysninger i [Oprette en lærreds-app fra en skabelon i PowerApps](/powerapps/maker/canvas-apps/get-started-test-drive).  
 

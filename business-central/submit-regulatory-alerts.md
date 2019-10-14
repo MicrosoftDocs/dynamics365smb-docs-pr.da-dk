@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: d4ceef0780306015795c0a2406245514c2a26de5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 482c0e9f7fe0fa787ab9d3e45f22abd07d009b3e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250315"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315704"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende påmindelser om lande-/områdespecifikke lovgivningsmæssige funktioner
 
@@ -21,13 +21,21 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Sådan sendes en lovgivningsmæssig påmindelse i LCS
 
-1. Gå til https://lcs.dynamics.com, og log på. Du får vist de projekter, du har adgang til.
+1. Gå til https://lcs.dynamics.com, og log på  
 
-2. Vælg projektet **Lovgivningsmæssige påmindelser - globale**. Projektet åbnes, og der vises forskellige elementer, der vedrører dette projekt.
+    Du får vist de projekter, du har adgang til.
 
-3. Vælg **påmindelsestjenesten** i højre side af sektionen **Flere værktøjer**. Der vises en liste over påmindelser med overskriften **Afsendelse af lovgivningsmæssige påmindelser i Dynamics**
+2. Vælg projektet **Lovgivningsmæssige påmindelser - globale**
 
-4. Du kan tilføje en ny påmindelse ved at klikke på plustegnet **(+)** øverst på listen. Du får vist vejledning med 4 trin til at oprette påmindelsen. Der er følgende trin i vejledningen:
+    Projektet åbnes, og der vises en række forskellige ting, der er relateret til dette projekt
+
+3. Vælg **påmindelsestjenesten** i højre side af sektionen **Flere værktøjer**.
+
+    Du får vist en liste over påmindelser med overskriften **Afsendelse af lovgivningsmæssige påmindelser i Dynamics**
+
+4. Du kan tilføje en ny påmindelse ved at klikke på plustegnet **(+)** øverst på listen
+
+    Du får vist vejledning med 4 trin til at oprette påmindelsen. Der er følgende trin i vejledningen:
     - Søg efter eksisterende elementer
 
         Søg efter alle oplysninger, du mener er relevante for den påmindelse, du vil oprette. Hvis du ikke kan finde nogen relevante søgeresultater, kan du vælge knappen **Send lovgivningsmæssig påmindelse** nederst på siden for at fortsætte med at sende påmindelser.
@@ -44,7 +52,7 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
         |Beskrivelse  | Angiv en kort oversigt over lovgivningen. Beskrivelsen skal fokusere på problemer, der er relevante for ERP (enterprise resource planning), så brugere kan forstå kravene på højt niveau uden at skulle læse lovgivning først.|
         |Land/område  | Angiv det land eller område, som lovgivningen vedrører.|
         |Branche| Angiv branchen, hvis kravet gælder kun for bestemte brancher. F.eks. vælg **Offentlig sektor**, **Detail** eller **Produktion**.|
-        |Funktionsreference  | Dette er ikke relevant for Dynamics 365 Business Central, men du kan angive en reference til funktionen, hvis du kender til den. Oversigten over funktioner for bestemte lande findes på [Lokaliseringsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Funktionsreference  | Dette er ikke relevant for Dynamics 365 Business Central, men du kan angive en reference til funktionen, hvis du kender til den. Oversigten over funktioner for bestemte lande findes på [Lokaliseringsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) på CustomerSource-webstedet. |
         |Dato for retshåndhævelse  | Angiv den dato, hvor de berørte kunder skal begynde at overholde lovgivningen.|
         |Myndighedernes offentliggørelsesdato  | Angiv den dato, hvor myndighederne offentliggjorde ændringen.|
         |Seneste arkiveringsdato  | Vælg datoen for den første indsendelse af den nye eller ændrede rapport.|
@@ -66,7 +74,9 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
 
 ## <a name="see-also"></a>Se også
 
-[Velkommen til Business Central](index.md)  
+[Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Ændre sprog og landestandard](about-locale-language.md)  
 [Introduktion](product-get-started.md)  
+[Velkommen til Business Central](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

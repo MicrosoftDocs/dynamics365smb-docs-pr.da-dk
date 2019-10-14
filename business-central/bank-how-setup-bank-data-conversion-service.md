@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38c1ee9b37513b270dcad09238df4f841a961d1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 04c9a867e43a1228839eaf95b3b31e5ab3421fe6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245020"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304056"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Konfigurere tjenesten til konvertering af bankdata
 En global udbyder af tjenester til konvertering af betalingsoplysninger til ethvert dataformat, som din bank kræver, er forbundet og klar til at blive aktiveret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kaldes for tjenesten til konvertering af bankdata i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -24,7 +24,7 @@ Du kan eksportere betalingslinjer fra siden **Udbetalingskladde** til en fil ell
 
 Du kan indlæse bankkontoudtogsfiler på siden **Betalingsudligningskladde** ved hjælp af tjenesten til konvertering af bankdata for at konvertere en fil, du modtager fra banken, til en datastrøm, som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importere. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Du kan også bruge tjenesten Envestnet Yodlee Bank Feeds i stedet for at indlæse bankkontoudtog med tjenesten til konvertering af bankdata. Du kan finde flere oplysninger under [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
+Du kan også bruge tjenesten Envestnet Yodlee Bank Feeds i stedet for at indlæse bankkontoudtog med tjenesten til konvertering af bankdata. Du kan finde flere oplysninger i [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen bankkonto og dine kreditorers bankkonti. Du kan finde flere oplysninger i [Oprette bankkonti](bank-how-setup-bank-accounts.md).
 

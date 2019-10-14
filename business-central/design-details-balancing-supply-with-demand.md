@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 13ab8097b9c6d75f838a58c347af31d560fa9374
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1bef0ad2a94e64ecf95614707b6746e6a381fcb0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242878"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307392"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Designoplysninger: Afstemning af forsyning med behov
 Kernen i planlægningssystemet omfatter udlignende efterspørgsel og udbud ved at foreslå brugerhandlinger for at revidere forsyningsordrer, når der er ubalance. Dette sker pr. kombination af variant og lokation.  
@@ -107,9 +107,9 @@ Der er to grunde til dette:
 -   Planlægningssystemet skal være i stand til at begrunde sine forslag om at alle behov er dækket, og at ingen forsyningsordrer er overflødige.  
 -   Dynamisk oprettede ordresporingsbindinger skal regelmæssigt afstemmes.  
 
-I tidens løb bliver dynamiske ordresporingslinks uafstemte, da hele ordresporingsnetværket ikke omarrangeres, før et behov eller en forsyningshændelse faktisk er lukket.  
+I tidens løb bliver dynamiske ordresporingsbindinger uafstemte, fordi det samlede ordresporingsnetværk ikke omarrangeres, før en behovs- eller forsyningshændelse faktisk er lukket.  
 
-Før udligning af forsyning med behov, sletter programmet alle eksisterende ordresporingsbindinger. Under den udlignende procedure, når en behov- eller forsyningshændelse er lukket, etablerer det derefter nye ordresporingsbindinger mellem behov og forsyning.  
+Før udligning af forsyning med behov, sletter programmet alle eksisterende ordresporingsbindinger. Under den udlignende procedure, når en behovs- eller forsyningshændelse er lukket, etablerer det derefter nye ordresporingsbindinger mellem forsyning og behov.  
 
 > [!NOTE]  
 >  Selvom varen ikke er konfigureret til dynamisk ordresporing, opretter planlægningssystemet afstemte ordresporingsbindinger, som forklaret ovenfor.  

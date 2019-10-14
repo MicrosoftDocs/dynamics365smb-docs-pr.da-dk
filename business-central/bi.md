@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 21042f9eb55413a6627dab830091686e06c34acc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246906"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308329"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Firmaer opfanger en stor mængde data under de daglige aktiviteter. Disse data, som f.eks. afspejler organisationens salgstal, køb, driftsudgifter, medarbejderlønninger og budgetter, kan for beslutningstagere blive værdifulde oplysninger eller "business intelligence", dvs. forretningsindsigt. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en række funktioner, som kan være nyttige, når du skal indsamle, analysere og dele virksomhedens data.

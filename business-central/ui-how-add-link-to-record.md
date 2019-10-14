@@ -1,59 +1,83 @@
 ---
-title: Sådan sammenkædes poster med eksterne oplysninger eller programmer | Microsoft Docs
+title: Føje vedhæftede filer, links og noter til poster | Microsoft Docs
 description: Indsæt et hyperlink i et dokument eller websted til en bestemt post, f.eks. en debitor eller et dokument.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/12/2019
-ms.author: jswymer
-ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629753"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315271"
 ---
-# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Føje links til websteder, dokumenter eller programmer på poster
-På en bestemt post, f.eks. en debitor, et dokument eller en salgsordre, kan du tilføje et link til et eksternt dokument, websted eller program. Det kan også være, at du ønsker et link, der åbner en ny tom mail til en bestemt modtager, når du vælger det. På kortsiden på nogle poster, f.eks. debitor- og kreditorkort, er der et felt **Hjemmeside**, hvor du kan angive en URL-adresse (internetadresse). Hvis du vil medtage andre links, kan du bruge den metode, der er beskrevet i denne artikel.  
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 
-> [!IMPORTANT]
-> I øjeblikket er denne funktion kun tilgængelig på [!INCLUDE [prodshort](includes/prodshort.md)] i lokale installationer med den ældre Dynamics NAV Windows-klient.  
+I faktaboksen på de fleste kort og i dokumenter kan du vedhæfte filer, tilføje links og skrive noter. Ved links og noter kan du også gøre dette på listesiden ved først at vælge den relaterede linje.
 
-Et andet eksempel kan være, når du modtager en trykt faktura fra kreditorer. Du kan scanne den og gemme den som en .pdf-fil på et SharePoint-websted. Derefter kan du oprette et link fra en købsfaktura i [!INCLUDE[d365fin_md](includes/d365fin_md.md)] til den tilsvarende faktura i SharePoint. Eller du kan oprette et link fra et varekort til den tilsvarende side i kreditorens onlinekatalog.
+Hvis du vil have vist eller ændre nogen af disse typer vedhæftede oplysninger, skal du først åbne fanen **Vedhæftede filer** i faktaboksen. Nummeret bag fanetitlen angiver, hvor mange vedhæftede filer, links eller noter der findes for kortet eller dokumentet.
 
-## <a name="to-add-a-link-on-a-record"></a>Sådan tilføjes et link til en post   
+Vedhæftede filer, links og noter forbliver tilknyttede, når kortet eller dokumentet behandles i andre tilstande, f.eks. fra en igangværende salgsordre til en bogført salgsfaktura. Bemærk dog, at ingen af de vedhæftede filtyper er output fra systemet, f.eks. ved udskrivning eller lagring til en fil.
 
-1.  Åbn den post, du vil oprette linket til, f.eks. et debitorkort eller en salgsordre. Hvis linket skal knyttes til en bestemt linje, f.eks. en kladdelinje, skal du placere markøren på linjen.  
+## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Sådan vedhæftes en fil til en købsfaktura
+Du kan vedhæfte alle filtyper, der indeholder tekst, billeder eller video, på et kort eller et dokument. Det er nyttigt, når du f.eks. vil gemme en kreditorfaktura som PDF-fil på den relaterede købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-2.  Vælg handlingen **Links** for at åbne siderne **Links**, der viser de aktuelle kæder, der føjes til posten.
+> [!NOTE]
+> Filer, der er vedhæftet med funktionen Indgående bilag, medtages ikke under fanen **Vedhæftede filer**. Du kan finde flere oplysninger i [Indgående bilag](across-income-documents.md).
 
-3. Hvis du vil tilføje et nyt link, skal du vælge **+ny**.
+Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle andre understøttede dokumenter og kort.
 
-4.  I feltet **Hyperlinkadresse** skal du angive
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+2. Åbn den salgsordre, som du vil vedhæfte en fil til.
+3. Åbn fanen **Vedhæftede filer** i faktaboksen.
+4. Vælg værdien bag feltet **Dokumenter**, f.eks. "0".
+5. På siden **Vedhæftede bilag** i feltet **Vedhæftet fil** skal du vælge knappen **Vælg fil**.
+5. Vælg en fil fra en placering, og vælg derefter knappen **Åbn**.
 
-    -   Hvis du vil sammenkæde med en fil på din computer eller dit netværk, skal du angive den fulde sti og filnavn, f.eks. **C:\Mine dokumenter\faktura1.doc**.
-    -   Hvis du vil sammenkæde med et websted, skal du angive URL-adressen (internetadressen), f.eks. **www.microsoft.com**.
-    -   Hvis du vil sammenkæde med et program, skal du angive en bestemt streng for at åbne programmet. Hvis du f.eks. vil åbne OneNote med en bestemt side, skal du angive **onenote:///C:\Mine dokumenter/test.one**. Eller hvis du vil åbne Outlook med en ny tom mail til et bestemt alias, skal du angive **mailto:testalias**.  
+Filen er nu vedhæftet til købsfakturaen.
 
-5.  Angiv oplysninger om linket i feltet **Beskrivelse**.  
+## <a name="to-add-a-link-from-an-item-card"></a>Sådan tilføjes et link fra et varekort
+Du kan føje et link fra et kort eller et dokument til en hvilken som helst URL-adresse eller sti. Det er nyttigt, når du f.eks. vil knytte et varekort til leverandørens varekatalog.
 
-6.  Vælg knappen **Gem**.  
+Den følgende procedure er baseret på et varekort. Trinene er de samme for alle andre understøttede kort og dokumenter.
 
-## <a name="to-delete-a-link-from-a-record"></a>Sådan slettes et link fra en post  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+2. Marker den vare, du vil tilføje en kæde fra, og vælg derefter fanen **Vedhæftede filer** i faktaboksen.
+3. Vælg ikonet **+** i **Links**.
+4. I feltet **Hyperlinkadresse** skal du angive linket.
 
-Hvis du vil slette et link, kan du på siden **Links** vælge **...** og derefter **Slet**.
+    - Hvis du vil sammenkæde med en fil på din computer eller dit netværk, skal du angive den fulde sti og filnavn, f.eks. **C:\Dokumenter\faktura1.doc**.
+    - Hvis du vil sammenkæde med et websted, skal du angive URL-adressen (internetadressen), f.eks. **www.microsoft.com**.
+    - Hvis du vil sammenkæde med et program, skal du angive en bestemt streng for at åbne programmet. Hvis du f.eks. vil åbne Outlook med en ny tom mail til et bestemt alias, skal du angive **mailto:testalias**.  
 
-Hvis du sletter en enkelt post, f.eks. en salgsordrelinje, en salgsordre eller en debitor, så slettes alle links med tilknytning til denne post. Men hvis du sletter poster med en kørsel, f.eks. kørslen **Slet fakturerede salgsordrer**, så lagres linksene stadig i databasen. Hvis du vil slette linkene fra databasen, skal du køre codeunit **Slet underordnede postlinks**. For at gøre dette skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet uafhængige posttilknytninger**, og vælg derefter det relaterede link.   
+5. Angiv eventuelle oplysninger om linket i feltet **Beskrivelse**.  
+6. Vælg knappen **OK**.
 
-<!-- ### To run delete orphaned record links  
+Linket er nu knyttet til varekortet.  
 
-1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
+## <a name="to-write-a-note-on-a-sales-order"></a>Sådan skrives en note i en salgsordre
+Du kan skrive en note til et dokument eller et kort, for f.eks. at kommunikere særlige instruktioner til andre brugere af dokumentet eller kortet. Du kan medtage fillinks og URL-adresser i noter.
 
-2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+> [!NOTE]
+> Noterne under fanen **Vedhæftede filer** er ikke relateret til interne notefunktioner, som hovedsageligt bruges til kommunikation mellem brugere af arbejdsgangen. Du kan finde flere oplysninger i [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md).
+
+Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle andre understøttede dokumenter og kort.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+2. Marker den salgsordre, du vil skrive en note om, og vælg derefter fanen **Vedhæftede filer** i faktaboksen.
+3. Vælg ikonet **+** i sektionen **Noter**.
+4. Skriv en tekst i feltet **Note**, f.eks. "Dette er en vigtig bestilling".
+5. Vælg knappen **OK**.
+
+Noten knyttes nu til salgsordren.
 
 ## <a name="see-also"></a>Se også  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Indgående bilag](across-income-documents.md)  
+[Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)  

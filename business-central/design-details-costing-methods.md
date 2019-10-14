@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 6f009b0e43a3d3424782f5c3f052033c813e3f18
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621064"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303634"
 ---
 # <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
 Kostmetoden afgør, om en faktisk eller en budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen. Sammen med bogføringsdatoen og rækkefølgen har kostmetoden også indflydelse på, hvordan kostprisforløbet registreres.
@@ -28,7 +28,7 @@ Kostmetoden afgør, om en faktisk eller en budgetteret værdi føres som aktiv o
 
 Følgende metoder understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
-|Kostmetode|Description|Hvornår skal den bruges|  
+|Kostmetode|Beskrivelse|Hvornår skal den bruges|  
 |--------------------|---------------------------------------|-----------------|  
 |FIFO|En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af FIFO-reglen.<br /><br /> I lagerværdien forudsættes det, at de første varer, der lægges på lager, bliver solgt først.|I virksomhedsmiljøer, hvor produktomkostninger er stabile.<br /><br /> (Når priser stiger, viser balancen højere værdi. Dette betyder, at skatteforpligtelserne øges, men kreditvurderinger og muligheden for at låne penge forbedres.)<br /><br /> For varer med en begrænset hyldelevetid, fordi de ældste varer skal sælges, inden de overskrider deres sidste salgsdato.|  
 |LIFO|En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af LIFO-reglen.<br /><br /> I lagerværdien forudsættes det, at de sidste varer, der lægges på lager, bliver solgt først.|Forbudt i mange lande/områder, da det kan bruges til at holde avancen nede.<br /><br /> (Når priser stiger, falder værdien på resultatopgørelsen. Dette betyder, at skatteforpligtelserne reduceres, men muligheden for at låne penge forringes.)|  
@@ -162,6 +162,7 @@ Følgende metoder understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
  [Designoplysninger: Afvigelse](design-details-variance.md)   
  [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md)   
- [Designoplysninger: Vareudligning](design-details-item-application.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
+ [Designoplysninger: Vareudligning](design-details-item-application.md)  
+ [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

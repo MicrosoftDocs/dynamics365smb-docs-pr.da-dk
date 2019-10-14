@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 369fcd1905d701f7262e1b4d444dc20321b393e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241382"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300877"
 ---
-# <a name="extending-included365finincludesd365finmdmd"></a>Udvidelse af [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="extending-included365finincludesd365fin_mdmd"></a>Udvidelse af [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er en løsning til virksomhedsadministration, som hjælper virksomheder med at sammenkæde deres finansielle oplysninger, salgs-, service- og driftsoplysninger for at strømline deres forretningsprocesser, forbedre interaktioner med kunderne og træffe bedre beslutninger. [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængelig i skyen og for brugere på tværs af flere forskellige enheder, som altid er opdaterede. Ved hjælp af denne moderne virksomhedsplatform du kan nemt og hurtigt tilpasse, udvide og udvikle programmer, så de passer til dine behov – med begrænset eller ingen kodeudvikling.  
 
 Der er mange fordele ved at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som platform for appudviklere, f.eks.:
@@ -30,7 +30,7 @@ Der er mange fordele ved at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] so
 * Øget forretningsværdi og forøget volumen af handlen med eksisterende og nye kunder
 * Opnå mere ved hjælp af en platform, som giver en moderne oplevelse og skalerbarhed  
 * Få praktisk indsigt i dine lister via Cloud Partner-portalen eller Office-appudgivelsesprocessen
-* Bundt med intelligente business-apps som PowerApps, Flow, Power BI, Cortana Intelligence og mange andre  
+* Bundt med intelligente business-apps som PowerApps, Flow, Power BI, Azure AI og mange andre  
 
 Overfør dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjenester til Microsoft AppSource som:
 
@@ -41,9 +41,9 @@ Med de nye udviklingsværktøjer kan du aktivere oprette udvidelser til [!INCLUD
 
 Find oplysninger om apps og konsulentbistand, der aktuelt findes på [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
-For at hjælpe brugerne hurtigt i gang har Microsoft tilføjet et katalog over konsulenttjenestetilbud til løsninger, der er baseret på [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI og PowerApps til AppSource. Få mere at vide om [Konsulenttjenester](/dynamics-nav/developer/readiness/readiness-consulting).
+For at hjælpe brugerne hurtigt i gang har Microsoft tilføjet et katalog over konsulenttjenestetilbud til løsninger, der er baseret på [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI og PowerApps til AppSource. Få mere at vide om [Konsulenttjenester](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
-## <a name="choosing-which-services-to-offer-with-included365finincludesd365finmdmd"></a>Vælge de tjenester, du vil tilbyde, med [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Vælge de tjenester, du vil tilbyde, med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ### <a name="integrate-a-3rd-party-solution"></a>Integrere en tredjepartsløsning
 [!INCLUDE[d365fin](includes/d365fin_md.md)] viser mange API'er, der kan bruges med [Connect-apps](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) til at foretage en gnidningsløs integration mellem tjenesten og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan samle dine tjenester med en [!INCLUDE[d365fin](includes/d365fin_md.md)] og give kunderne en integreret oplevelse. Få mere at vide om [Integrere med en tredjepartsløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
@@ -55,7 +55,7 @@ Opret en app, der er specialiseret til en bestemt branche. Med [Appen Integrer](
 Udvid oplevelsen og funktionaliteten af [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at oprette en [Tilføjelsesprogram-app](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-add-on-apps), som kan integreres med brugeroplevelsen af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Opret en brugergrænseflade, der er baseret på, hvordan du gerne vil have dine data til at strømme mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og dine tjenester. Få mere at vide om [Udvikling af en horisontal løsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-horizontal).
 
 ### <a name="development-of-a-localization-solution"></a>Udvikling af en lokaliseringsløsning
-Overhold lokale lovgivningsmæssige krav kompetencer ved at udvikle til [!INCLUDE[d365fin](includes/d365fin_md.md)], som tilpasser funktionsområder til det lokale markeds krav sammen med [Dynamics 365-oversættelsestjeneste](/dynamics365/unified-operations/dev-itpro/lifecycle-services/translation-service-overview). Juster kernekompetencerne i de lokale lovgivningsmæssige krav, og forlæng eksisterende funktioner for at kunne konkurrere på dit lokale marked. Få mere at vide om [Udvikling af en oversættelsesløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
+Overhold lokale lovgivningsmæssige krav kompetencer ved at udvikle til [!INCLUDE[d365fin](includes/d365fin_md.md)], som tilpasser funktionsområder til det lokale markeds krav sammen med [Dynamics 365-oversættelsestjeneste](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Juster kernekompetencerne i de lokale lovgivningsmæssige krav, og forlæng eksisterende funktioner for at kunne konkurrere på dit lokale marked. Få mere at vide om [Udvikling af en oversættelsesløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Forhandlerløsning
 Da hver virksomhed er unik, kan du med [Tilpasse lejere](/dynamics-nav/developer/readiness/readiness-customizing-tenants) matche, hvordan du arbejder med dine strømlinede virksomhedsprocesser og din terminologi, og hvordan dine medarbejdere oprette forbindelse og samarbejder. Desuden kan du forhandle og tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] til dine kunders individuelle behov ved at yde [Konsulenttjenester](/dynamics-nav/developer/readiness/readiness-consulting). Eller du kan bruge Microsoft Flow, Power Apps og Power BI til at oprette [Tilpassede workflows](/dynamics-nav/developer/readiness/readiness-no-code), apps og rapporter til brancheindsigt uden at skulle skrive kode. Få mere at vide om [Dynamics 365 Reseller (VAR'er)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
@@ -76,7 +76,7 @@ Klar til at gå i gang-programmet er designet til at hjælpe dig i at overføre 
 
 Få flere oplysninger om, hvordan du kan oprette et [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilbud i detaljerne for [Programmet Klar til at gå i gang](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go). Hvis du har spørgsmål eller kommentarer til **Klar til at gå i gang**-programtilbuddet, kan du [kontakte os](mailto:dyn365bep@microsoft.com).
 
-## <a name="included365finincludesd365finmdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra Microsoft
+## <a name="included365finincludesd365fin_mdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-udvidelser fra Microsoft
 Standardversionen af produktet indeholder et stigende antal udvidelser, der er udviklet af Microsoft. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).
 
 ## <a name="see-also"></a>Se også

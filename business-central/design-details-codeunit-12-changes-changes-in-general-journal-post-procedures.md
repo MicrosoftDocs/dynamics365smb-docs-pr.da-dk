@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243407"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307344"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Codeunit 12-ændringer: Ændringer i procedurer for bogføring af finanskladder
 Følgende ændringer er implementeret i denne version af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -163,7 +163,7 @@ Følgende ændringer er implementeret i denne version af [!INCLUDE[d365fin](incl
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Opdateret|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Opdateret|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Opdateret|  
-|IncludeVATAmount||Flyttet til tabel 81 Finanskladdelinje|  
+|IncludeVATAmount||Flyttet til tabel 81 kladdelinje|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Opdateret|  
 ||TotalVATAmountOnJnlLines|Tilføjet|  
 ||SetGLRegReverse|Tilføjet|  

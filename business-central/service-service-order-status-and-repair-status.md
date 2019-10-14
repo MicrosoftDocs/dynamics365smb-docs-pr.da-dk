@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9b6c7278ae17e9d2b71b8c32f7bb58356fc4e544
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f55e33490bb70fae2b37eda6fe0b43f982fe8493
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249832"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311592"
 ---
 # <a name="service-order-status-and-repair-status"></a>Serviceordrestatus og reparationsstatus
 Der er en særlig relation mellem feltet **Status** på siden **Serviceordre** og den serviceartikelreparationsstatus, der er repræsenteret af feltet **Reparationsstatuskode** på siden **Serviceordre** i Service. Serviceordrens status afspejler reparationsstatus for alle serviceartikler i serviceordren.  

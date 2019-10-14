@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 68543b9ab74ed713ae0e4db0778c27b1e31c4f77
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a22fe178668892472b05bcb554989dce0cc3d46d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241359"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300805"
 ---
-# <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="local-functionality-in-included365fin_longincludesd365fin_long_mdmd"></a>Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombineret oversættelsesstrategi inklusive både Microsoft-styrede såvel som partnerstyrede modeller. I dette afsnit kan du se beskrivelser af funktioner, der gælder for de lande, hvor Microsoft leverer overholdelse af lovmæssige krav og andre lokale funktioner.  
 
 Du kan finde en oversigt over aktuelt understøttede markeder under [International tilgængelighed af Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability).  

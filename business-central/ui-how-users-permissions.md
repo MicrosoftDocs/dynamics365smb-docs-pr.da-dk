@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 51c8c4207d9b5311698c7c5575fc67d8c5b2df9d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250108"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310896"
 ---
-# <a name="managing-users-and-permissions"></a>Administrere brugere og deres rettigheder
+# <a name="manage-users-and-permissions"></a>Administrere brugere og rettigheder
 Når du vil tilføje brugere i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal din virksomheds Office 365-administrator først oprette brugerne i Office 365 Administration. Du kan finde flere oplysninger under [Føje brugere til Office 365 til virksomheder](https://aka.ms/CreateOffice365Users).
 
 Når brugerne er oprettet i Office 365, kan de importeres til siden **Brugere** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Brugere tildeles rettighedssæt afhængigt af den plan, der er tildelt til brugeren i Office 365. Du kan finde detaljerede oplysninger om licenser i [Licensvejledning til Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
@@ -28,15 +28,23 @@ Et rettighedssæt er en samling tilladelser til bestemte objekter i databasen. A
 
 Fra siden **Brugerkort** kan du åbne siden **Gældende rettigheder** for at se, hvilke rettigheder brugeren har, og hvilke rettighedssæt de er tildelt gennem. Her kan du også ændre rettighedsdetaljer for rettighedssæt af typen **Brugerdefineret**. Du kan finde flere oplysninger i [Sådan får du vist en oversigt over en brugers rettigheder](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-Administratorer kan bruge siden **Brugeropsætning** til at definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på.
+## <a name="users-in-on-premises-deployments"></a>Brugere i lokale installationer
+Ved lokale installationer af [!INCLUDE[d365fin](includes/d365fin_md.md)] kan administratoren vælge mellem forskellige godkendelse af legitimationsoplysninger for brugere. Når du derefter opretter en bruger, angiver du forskellige oplysninger, afhængigt af den type legitimationsoplysninger, du bruger i den specifikke [!INCLUDE[server](includes/server.md)]-forekomst. Du kan finde flere oplysninger i [Godkendelse og typer af legitimationsoplysninger](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i sektionen Administration af udvikler- og ITPro-indholdet til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-En anden metode, der definerer, hvad brugerne har adgang til, er indstillingen Oplevelse. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
+## <a name="profiles"></a>Profiler
+Når brugerne er tilføjet, kan du angive, hvad de skal kunne se i brugergrænsefladen, og hvordan de skal interagere med de tilladte funktioner via sider. Du kan gøre dette via profiler, som afspejler de roller eller afdelinger, som du tildeler til forskellige typer brugere. Du kan finde flere oplysninger i [Administrere profiler](admin-users-profiles-roles.md) og [Tilpasning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
 
 ## <a name="to-add-a-user-in-business-central"></a>Sådan tilføjes en bruger i Business Central
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Hent brugere fra Office 365**.
 
 Nye brugere, der er oprettet for dit Office 365-abonnement, tilføjes på siden **Brugere**.
+
+## <a name="to-edit-or-delete-a-user"></a>Sådan redigeres eller slettes en bruger
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
+2. Vælg den bruger, som du vil redigere, og vælg derefter handlingen **Rediger**.
+3. På siden **Brugerkort** kan du ændre oplysningerne efter behov.    
+4. Hvis du vil slette en bruger, skal du markere den pågældende bruger og derefter vælge handlingen **Slet**.
 
 ## <a name="to-group-users-in-user-groups"></a>Sådan grupperes brugere i brugergrupper
 Du kan oprette brugergrupper, så du bedre kan administrere rettighedssæt for grupper af brugere i virksomheden.
@@ -110,7 +118,7 @@ En bruger kan f.eks. have tilladelse til at køre codeunit 80, salg-post Codeuni
 
 Men brugeren behøver ikke at have fuld adgang til tabellen Salgslinje for at køre codeunit'en. Hvis brugeren har indirekte rettighed til tabellen Salgslinje, kører codeunit'en Salgs-post korrekt. Når en bruger har indirekte rettighed, kan brugeren kun redigere tabellen Salgslinje ved at køre codeunit'en salgs-post eller et andet objekt, der har rettighed til at ændre tabellen Salgslinje. Brugeren kan kun redigere tabellen Salgslinje, når det sker fra understøttede funktionalitetsområder. Brugeren kan ikke køre funktionen ved et uheld eller skadeligt ved andre metoder.
 
-### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Sådan begrænses en brugers adgang til bestemte poster i en tabel
+## <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Sådan begrænses en brugers adgang til bestemte poster i en tabel
 Når det drejer sig om postbaseret sikkerhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge filtrene til at begrænse en brugers adgang til data i en tabel. Du kan oprette sikkerhedsfiltre for tabeldata. Et sikkerhedsfilter beskriver et sæt af poster i en tabel, som en bruger har adgang til. For eksempel kan du angive, at en bruger kun skal kunne læse poster, der indeholder oplysninger om en bestemt kunde. Det betyder, at brugeren ikke kan få adgang til de poster, der indeholder oplysninger om andre kunder. Du kan finde flere oplysninger under [Bruge sikkerhedsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i hjælpen til udviklere og it-eksperter.
 
 
@@ -174,9 +182,14 @@ Følgende procedure beskriver, hvordan du tildeler rettighedssæt til en bruger 
 > [!NOTE]  
 > Når du redigerer et rettighedssæt, gælder ændringerne også for andre brugere, som rettighedssættet er tildelt til.
 
+## <a name="to-remove-a-users-access-to-the-system"></a>Sådan fjernes en brugers adgang til systemet
+
+Som administrator kan du fjerne en brugers adgang til systemet ved at indstille feltet **Status** til **Deaktiveret**. Alle referencer til brugeren bevares, men brugeren kan ikke længere logge på systemet, og aktive sessioner for brugeren afsluttes. Hvis du vil give brugeren adgang igen, skal du indstille feltet **Tilstand** til **Aktiveret**.
+
 ## <a name="see-also"></a>Se også
 [Sikkerhed og beskyttelse i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
-[Forstå brugere, profiler og rollecentre](admin-users-profiles-roles.md)  
+[Administrere profiler](admin-users-profiles-roles.md)  
+[Tilpasning [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Blive klar til at handle](ui-get-ready-business.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Opsætning](admin-setup-and-administration.md)  

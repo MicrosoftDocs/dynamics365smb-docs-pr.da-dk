@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e7ac55b54aca4187de23292865b70c8acf47d33d
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 9f84e224afa474cffd6c2956bd9ebf24169ce105
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858308"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301419"
 ---
 # <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Med dets mange funktioner og rige tilpasningsmuligheder giver [!INCLUDE[d365fin](includes/d365fin_md.md)] virksomheden mulighed for at styre forretningsaspekter, herunder bl.a. finans, produktion, salg, levering, projektstyring og service. Virksomheden kan nemt tilføje funktioner, der er relevante for driftsområdet, også funktioner, der er tilpasset højt specialiserede brancher.
@@ -35,7 +35,8 @@ ms.locfileid: "1858308"
 [Ressourcer til hjælp og support](product-help-and-support.md)  
 [Overholdelse](compliance/compliance-overview.md)  
 [Dokumentation til Dynamics 365](/dynamics365/)  
-[Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/)
+[Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
+[Dynamics 365 Business Central på Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

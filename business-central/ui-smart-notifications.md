@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6e78a03e17348545805d0be889b62a2cb8187197
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249211"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315008"
 ---
-# <a name="managing-notifications"></a>Administration af meddelelser
+# <a name="manage-notifications"></a>Administrere notifikationer
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du få hjælp til at arbejde mere effektivt ved at få besked om bestemte hændelser eller ændringer af status, når du er ved at fakturere en kunde, der har et forfaldent beløb, eller den disponible lagerbeholdning f.eks. er lavere end det antal, du er ved at sælge. Disse notifikationer skal vises som diskrete tip i forbindelse med den opgave, du udfører, og du kan vælge at ignorere notifikationen eller få vist detaljer om problemet.  
 
 Hvis du vælger at få vist detaljer om en notifikation, kan du gribe ind for at løse problemet, f.eks at kontakte til kunden, købe mere ind til lager osv. Du vælger selv, hvad du vil gøre, og [!INCLUDE[d365fin](includes/d365fin_md.md)] giver dig råd og anbefalinger.  

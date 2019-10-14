@@ -4,20 +4,20 @@ description: Beskriver, hvordan du bruger diagrammerne Kassebeholdningsproces, I
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 06/02/2017
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 40e180222968f3ede5a69530e05bf5c0a74fdeb3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 32d9b8a733c3edb2717fca724769feba3ea26321
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239057"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306456"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysere pengestrømme i din virksomhed
 Penge styrer, som man siger. Diagrammer i rollecenteret Regnskabsmedarbejder giver indsigt, som kan hjælpe dig med at træffe beslutninger vedrørende dine pengestrømme.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c64b58c036395764191c05f47f8327c6479a4c6f
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 127d0dd747fa29926852be9e99e36d992e7d0ea1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1447033"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305696"
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
 For at du kan komme hurtigt i gang, omfatter [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurationer for de fleste økonomiske processer. Du kan ændre konfigurationerne, så de passer til din virksomhed. På rollecenteret kan du f.eks. bruge en assisteret opsætningsvejledning til at angive satsen for salgsmoms for din lokation.  

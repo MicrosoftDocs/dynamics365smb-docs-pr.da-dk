@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 48dd62ab962c2a3ee0ad243a9e7d00d953c60dca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0f378494a30553e005eb01d90e33cadf9c53c7d0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244534"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308476"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobilenhed
 Få adgang til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra din mobilenhed. Du kan navigere gennem virksomhedens data, og f.eks bruge funktioner som sende til Excel eller Office 365, se opdaterede diagrammer og nøgletal, sende mails med salgstilbud og fakturaer og vedhæfte billeder med kameraet. Benyt følgende fremgangsmåde til at downloade appen og komme i gang.

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253006"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313056"
 ---
 # <a name="subcontract-manufacturing"></a>Produktion hos underleverandør
 Det er almindeligt for mange produktionsvirksomheder at placere udvalgte operationer hos underleverandører. Det er normal procedure i mange produktionsvirksomheder, selvom det hos nogle virksomheder måske kun sker engang imellem, mens det hos andre er en integreret del af produktionsprocessen.
 
-Programmet omfatter flere værktøjer til håndtering af arbejde, der udføres af underleverandører:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] omfatter flere værktøjer til håndtering af arbejde, der udføres af underleverandører:  
 
 - Arbejdscenter med tildelt leverandør: Denne funktion giver dig mulighed for at oprette et arbejdscenter, der har en leverandør (underleverandør) tilknyttet. Dette kaldes et arbejdscenter med underleverance. Du kan angive et arbejdscenter med underleverance til en ruteoperation, så du let kan behandle den aktivitet, der foregår hos underleverandøren. Desuden kan de omkostninger, der er forbundet med operationen, angives på rute- eller arbejdscenterniveau.  
 - Arbejdscenteromkostninger baseret på enheder eller tid: Denne funktion giver dig mulighed for at angive, om de omkostninger, der er forbundet med arbejdscentret, er baseret på produktionstiden eller på en engangspris pr. enhed. Selvom underleverandører ofte bruger en engangspris pr. enhed som udgangspunkt, når de fakturerer deres arbejde, kan programmet håndtere begge indstillinger (produktionstid og engangspris pr. enhed).  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b02aa262089d5c341fb3b535f2af82c7085e99ee
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6a99066c784a6526bf06c816431b912b1db73f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252960"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313422"
 ---
 # <a name="about-production-orders"></a>Om produktionsordrer
 Produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer. Produktionsordrer dirigerer arbejdet via ruter gennem forskellige arbejdscentre eller produktionsressourcer på produktionsstedet.  
@@ -63,7 +63,7 @@ Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](pr
 Produktionsordrer, der oprettes på anden måde, reserveres og spores ikke automatisk.   
 
 ## <a name="production-order-status"></a>Produktionsordrestatus  
-Produktionsordrestatus kontrollerer produktionsordrens vej gennem processen. Produktionens form og indhold dikteres af ordrens status. Produktionsordrer vises i forskellige sider i henhold til deres status. Du kan ikke ændre en produktionsordres status manuelt, men kun bruge funktionen **Skift status**.  
+Produktionsordrestatus kontrollerer produktionsordrens vej gennem programmet. Produktionens form og indhold dikteres af ordrens status. Produktionsordrer vises i forskellige sider i henhold til deres status. Du kan ikke ændre en produktionsordres status manuelt, men kun bruge funktionen **Skift status**.  
 
 ### <a name="simulated-production-order"></a>Simuleret produktionsordre  
 En simuleret produktionsordre kendetegnes ved følgende:  

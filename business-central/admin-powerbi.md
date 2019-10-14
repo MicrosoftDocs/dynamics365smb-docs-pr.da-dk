@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 4223d3eba6253f87aee3f86b3a9dfe4107d48947
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755260"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307968"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere virksomhedens data til Power BI
 
@@ -27,7 +27,7 @@ Du skal have en gyldig konto til [!INCLUDE[prodshort](includes/prodshort.md)] og
 > [!IMPORTANT]
 > Apps Power BI, der er beskrevet i denne artikel, er designet til at bruge Azure Active Directory som godkendelsesmetode, medmindre andet er angivet. Hvis du vil installere en Power BI-app, skal du også have en Power BI Pro-licens.  Når Power BI-appen er installeret, kan den deles med brugere med en hvilken som helst licenstype.
 
-Microsoft har udgivet følgende apps for Power BI:
+[!INCLUDE [prodlong](includes/prodlong.md)] har udgivet følgende apps til Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
@@ -64,7 +64,7 @@ Apps er designet til at arbejde med data fra alle de virksomheder, du har i din 
 <!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
 4. Vælg **Apps** under fanen **Apps for Power BI**, vælg den **Microsoft Dynamics 365 Business Central**-app, du ønsker at bruge, og vælg derpå **Hent nu**.  
 <!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
-5. Når du bliver bedt om det, skal du angive navnet på den virksomhed i din [!INCLUDE[prodshort](includes/prodshort.md)], som du vil oprette forbindelse til. Dette er ikke det viste navn. Virksomhedsnavnet findes på siden **Virksomheder** i din [!INCLUDE[prodshort](includes/prodshort.md)]-forekomst.  
+5. Når du bliver bedt om det, skal du angive navnet på det miljø og den virksomhed i din [!INCLUDE[prodshort](includes/prodshort.md)]-app, som du vil oprette forbindelse til. Hvis du ikke har oprettet flere miljøer, skal du angive **Produktion**. Ved virksomhedsparameteren skal du sørge for at indtaste navnet og ikke visningsnavnet. Virksomhedsnavnet findes på siden **Virksomheder** i din [!INCLUDE[prodshort](includes/prodshort.md)]-forekomst.  
 
     > [!NOTE]
     > Hvis du opretter forbindelse til [!INCLUDE [prodshort](includes/prodshort.md)] on-premises, skal du angive parameteren for *Webtjeneste-URL*. Find dette på siden **Webtjeneste** i [!INCLUDE [prodshort](includes/prodshort.md)]. Din [!INCLUDE [server](includes/server.md)]-forekomst skal være konfigureret til basisgodkendelse, og du skal angive en bruger og denne brugers web-adgangsnøgle som deres adgangskode. I følgende eksempel skal du erstatte *myserver:7048* med dit [!INCLUDE [server](includes/server.md)] navn og *CRONUS%20OS* med dit firmanavn.  
@@ -148,7 +148,7 @@ Hvis du vil importere dine [!INCLUDE[prodshort](includes/prodshort.md)]-data i P
 - Power BI-rapportetiketter
 
 > [!NOTE]
-> [!INCLUDE [prodshort](includes/prodshort.md)]On-Premises bruger samme webtjeneste-slutpunkter som [!INCLUDE [prodshort](includes/prodshort.md)]online.
+> [!INCLUDE [prodshort](includes/prodshort.md)] On-Premises bruger samme webtjeneste-slutpunkter som [!INCLUDE [prodshort](includes/prodshort.md)] online.
 
 ## <a name="web-services"></a>Webtjeneste
 
@@ -162,6 +162,10 @@ Power BI-dashboardet er baseret på de publicerede webtjenester, der er anført 
 
 Der er ikke blevet oprettet en Power BI-konto. Fo at have en gyldig Power BI-konto skal du have en licens, og du skal tidligere have været logget på Power BI, for at Power BI-arbejdsområdet er blevet oprettet.  
 
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Meddelelse: Der er ingen aktiverede rapporter. Vælg Vælg rapport for at få vist en oversigt over de rapporter, du kan få vist.
+
+Denne meddelelse vises, hvis standardrapporten ikke er blevet implementeret i Power BI-arbejdsområdet, eller hvis rapporten blev installeret, men ikke er blevet opdateret. Hvis dette sker, skal du gå til rapporten i dit Power BI-arbejdsområde, vælge **Datasæt**, **Indstillinger** og derefter manuelt opdatere legitimationsoplysningerne. Når datasættet er opdateret, skal du gå tilbage til Business Central og vælge rapporten manuelt på siden **Vælg rapporter**. 
+
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Du skal have Power BI-en Pro-licens for at kunne installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
 
 Power BI-apps kan kun installeres af brugere, der har en Power BI-Pro-licens. Når Power BI-appen er installeret, kan du dele den med brugere, der ikke har en Power BI-Pro-licens.  
@@ -170,6 +174,7 @@ Power BI-apps kan kun installeres af brugere, der har en Power BI-Pro-licens. N�
 
 Denne fejl angiver, at en eller flere af parametrene er ugyldige.
 
+- Den angivne miljøparameter passer ikke til noget eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-produktions- eller sandkassemiljø. 
 - Den angivne virksomhedsparameter passer ikke til nogen eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-virksomheder Kontrollér virksomhedsnavnet på siden **Virksomheder** i [!INCLUDE [prodshort](includes/prodshort.md)]
 - Hvis der oprettes forbindelse til [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. du har angivet en ugyldig URL-adresse. Du kan kontrollere URL-adressen på siden **Webtjeneste** i [!INCLUDE [prodshort](includes/prodshort.md)]  
 - En port er ikke åben, så anmodningen kan passere gennem firewall'en.
@@ -200,10 +205,10 @@ Power BI-appen viser kun data fra den [!INCLUDE [prodshort](includes/prodshort.m
 
 ## <a name="see-also"></a>Se også
 
-[Kom i gang med Power BI](/power-bi/service-get-started)  
-[Power BI- grundlæggende begreber](/power-bi/service-basic-concepts)  
-[Apps i Power BI](/power-bi/consumer/end-user-app)  
+[Power BI for forbrugere](/power-bi/consumer/end-user-consumer)  
+[Power BI-tjenestens nye udseende](/power-bi/service-new-look)  
 [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Power BI-dokumentation](/power-bi/)  
 [Business Intelligence](bi.md)  
 [Introduktion](product-get-started.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  

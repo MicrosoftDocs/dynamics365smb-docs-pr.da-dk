@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248002"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310752"
 ---
 # <a name="tell-me-faq"></a>Ofte stillede spørgsmål om Fortæl mig
-Dette emne indeholder svar på spørgsmål, som vores avancerede brugere ofte stiller om den nye Fortæl mig-funktion, som erstatter den tidligere sidesøgefunktion, der også kaldes **Søg efter side eller rapport**.
+I dette emne besvares spørgsmål, som erfarne brugere ofte stiller om funktionen Fortæl mig.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Kan alle handlinger fra min aktuelle side registreres i Fortæl mig?
 Nej. Handlinger i dele, f.eks. en salgslinjedelen eller faktabokse, vises ikke i Fortæl mig.
@@ -32,8 +32,8 @@ Handlinger, sider og rapporter, der stammer fra udvidelser, hentes af Fortæl mi
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Hvordan adskiller denne funktion sig fra det, der tidligere blev kaldt sidesøgning?
 Sidesøgning er blevet udviklet til Fortæl mig for at hjælpe dig med at få arbejdet gjort hurtigt. Sidesøgning kan kun hjælpe dig med at navigere til sider eller rapporter. På et teknisk plan er Fortæl mig ikke længere baseret på det ældre MenuSuite-princip.
 
-### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Jeg bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] til det lokale miljø. Omfatter det Fortæl mig?
-Du kan bruge Fortæl mig i den lokale webklient til at finde handlinger, sider og rapporter, men ikke dokumentation eller apps og konsulenttjenester i AppSource. Brugere, der opretter forbindelse til [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Dynamics NAV-klienten fortsætter med at bruge sidesøgning.
+### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Jeg bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] til det lokale miljø. Omfatter det Fortæl mig?
+Du kan bruge Fortæl mig i den lokale webklient til at finde handlinger, sider og rapporter, men ikke dokumentation eller apps og konsulenttjenester i AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Er Fortæl mig tilgængelig for alle formfaktorer?
 Fortæl mig er kun tilgængelig i webklienten eller Windows-skrivebordsappen.
@@ -41,5 +41,14 @@ Fortæl mig er kun tilgængelig i webklienten eller Windows-skrivebordsappen.
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Findes dokumentationsresultaterne på alle sprog?
 Hjælpeartikler vises på det sprog, du har angivet i **Mine indstillinger**, hvis Hjælp er tilgængelig på det pågældende sprog.
 
+### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Hvorfor vises der ikke et bogmærkeikon for mine søgeresultater?
+Bogmærkeikonet vises ikke i vinduet Fortæl mig, når tilpasning er deaktiveret for en brugerrolle.
+
+### <a name="is-the-bookmark-icon-available-for-reports"></a>Er bogmærkeikonet tilgængeligt for rapporter?
+Nej. Du kan kun oprette et bogmærke til et link til en side eller søgeresultater, der vises i sektionen **Sider og opgaver** i vinduet Fortæl mig.
+
+
 ## <a name="see-also"></a>Se også  
-[Finde funktioner og oplysninger](ui-search.md)
+[Gemme og tilpasse listevisninger](ui-views.md)  
+[Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
+[Søge efter sider fra en funktionsoversigt](ui-role-explorer.md)

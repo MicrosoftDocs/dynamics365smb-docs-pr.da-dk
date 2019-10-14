@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
-ms.date: 10/23/2017
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8faba6940469265959d09f807d2d3c1afe6199af
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1237976"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300397"
 ---
-# <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Fejlfinding [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
+# <a name="troubleshooting-include-d365acc_longincludesd365acc_long_mdmd"></a>Fejlfinding [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
 Tilmelding til [!INCLUDE [d365acc](includes/d365acc_md.md)] er nemt og kan udføres hurtigt. Det er også nemt at føje kunder til dashboardet, men denne artikel vedrører problemer, der eventuelt opstår undervejs.
 
-## <a name="what-email-address-can-i-use-with-include-d365accincludesd365accmdmd"></a>Hvilken mailadresse kan jeg bruge til [!INCLUDE [d365acc](includes/d365acc_md.md)]?
+## <a name="what-email-address-can-i-use-with-include-d365accincludesd365acc_mdmd"></a>Hvilken mailadresse kan jeg bruge til [!INCLUDE [d365acc](includes/d365acc_md.md)]?
 [!INCLUDE [d365acc](includes/d365acc_md.md)] kræver, at du bruger en arbejds- eller skolemailadresse til at tilmelde dig. [!INCLUDE [d365acc](includes/d365acc_md.md)] understøtter ikke mailadresser, som leveres af forbrugermailtjenester eller telekommunikationsudbydere. Dette omfatter outlook.com, hotmail.com, gmail.com og andre.  
 
 Hvis du forsøger at tilmelde dig med en privat mailadresse, får du en meddelelse om, at du skal bruge en arbejds- eller skolemailadresse.  

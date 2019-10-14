@@ -3,23 +3,23 @@ title: Ændre udseendet af en rapport ved at vælge et andet layout | Microsoft 
 description: Du kan bruge forskellige layout til en rapport og skifte mellem layout for at ændre udseendet af en rapport.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: f24f1cd24a31ddbd0b455b876821ae0173a677c3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 07de4be7bc516cf9f4b802a48dc59293b1992f5f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249424"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315248"
 ---
-# <a name="change-which-layout-is-currently-used-on-a-report"></a>Ændre, hvilket layout der aktuelt bruges i en rapport
+# <a name="change-the-current-report-layout"></a>Ændre det aktuelle rapportlayout
 En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem efter behov.
 
 Afhængig af de layout, der er tilgængelige for en rapport, kan du vælge at bruge et indbygget RDLC-rapportlayout, et indbygget Word-rapportlayout eller et brugerdefineret layout. Find flere oplysninger om RDLC- og Word-rapportlayout, indbyggede og brugerdefinerede layout og mere under [Administration af rapportlayout](ui-manage-report-layouts.md).
@@ -35,10 +35,11 @@ Afhængig af de layout, der er tilgængelige for en rapport, kan du vælge at br
    * RDLC (indbygget), bruger det indbyggede RDLC-rapportlayout i rapporten.
    * Word (indbygget), bruger det indbyggede Word-rapportlayout i rapporten.
    * Brugerdefineret, bruger et brugerdefineret layout i rapporten.  
-     Du kan se, hvilke brugerdefinerede layout der er tilgængelige for rapporten i faktaboksen Rapportlayoutdel. Hvis der ikke er nogen brugerdefinerede layout for rapporten, skal du først oprette ét. Hvis du vælger denne indstilling, kan du gå til den næste procedure for at angive et brugerdefineret layout, du vil bruge.
 
-    > [!NOTE]  
-    >   Hvis du vælger **RDLC (indbygget)** eller **Word (indbygget)** , og du får en fejlmeddelelse om, at rapporten ikke har et layout med den angivne type, skal du vælge en anden layoutindstilling eller oprette en brugerdefineret rapport af den type, du vil bruge.
+Du kan se, hvilke brugerdefinerede layout der er tilgængelige for rapporten i faktaboksen **Rapportlayoutdel**. Hvis der ikke er nogen brugerdefinerede layout for rapporten, skal du først oprette ét. Hvis du vælger denne indstilling, kan du gå til den næste procedure for at angive et brugerdefineret layout, du vil bruge.
+
+> [!NOTE]
+> Hvis du vælger **RDLC (indbygget)** eller **Word (indbygget)** , og du får en fejlmeddelelse om, at rapporten ikke har et layout med den angivne type, skal du vælge en anden layoutindstilling eller oprette en brugerdefineret rapport af den type, du vil bruge.
 
 Hvis du har valgt et indbygget RDLC- eller Word-rapportlayout, kræves ingen yderligere handling, og layoutet bruges, næste gang rapporten køres.
 

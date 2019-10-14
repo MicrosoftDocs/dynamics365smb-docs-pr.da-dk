@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446964"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301536"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
@@ -40,7 +40,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Tilføje dimensioner for mere detaljeret business intelligence. |[Arbejde med dimensioner](finance-dimensions.md) |
 | Opret finansbudgetter for at estimere forskellige finansielle aktiviteter og tildele dimensioner i forbindelse med business intelligence. |[Oprette finansbudgetter](finance-how-create-budgets.md) |
 |Registrere indtægter eller udgifter direkte i finansregnskabet uden at bogføre dedikerede forretningsdokumenter.|[Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)|
-|Bogfør tilbageførselslinjer for at fortryde værdibogføringer i den generelle kladde eller antalsbogføringer på købs- og salgsdokumenter. |[Tilbageføre poster](finance-how-reverse-journal-posting.md)|
+|Bogfør tilbageførselslinjer for at fortryde værdibogføringer i den generelle kladde eller antalsbogføringer på købs- og salgsdokumenter. |[Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)|
 |Allokere en post i en finanskladden til forskellige konti, når du bogfører kladden. |[Fordele omkostninger og indtægter](year-allocate-costs-income.md) |
 | Tildel ekstra omkostninger såsom fragt og håndtering, som du har under handel, til de varer, der er involveret, så omkostningerne afspejles i lagerværdien. |[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md) |
 |Bogfør medarbejderes personlige udgifter for virksomhedsrelaterede aktiviteter, og refunder medarbejdere ved at foretage betaling til deres bankkonto.|[Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)|

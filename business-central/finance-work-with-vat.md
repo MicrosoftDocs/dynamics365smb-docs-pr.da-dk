@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796845"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301560"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
 Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
@@ -45,7 +45,7 @@ Følgende tabel indeholder en oversigt over, hvordan salgsprisbeløbene for et s
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |Ingen markering|Ingen markering|**Salgsprisen** på varekortet kopieres til feltet **med salgsprisen ekskl. moms** i salgslinjerne.|  
 |Ingen markering|Markering|Momsbeløbet pr. salgsenhed beregnes og lægges til **salgsprisen** på varekortet. Den samlede salgspris indsættes derefter i feltet **med salgsprisen inkl. moms** på salgslinjerne.|  
-|Markering|Ingen markering|Programmer beregner momsbeløbet, der er medtaget i **Salgsprisen** på varekortet ved hjælp af momsprocenten relateret til feltet Momsvirksomhedsbogf.gruppe. Bogføring Gr. (Pris) og Modkontos momsprod.bogf.gr. Kombination af bogføringsgruppe. **Salgsprisen** på varekortet, reduceret med momsbeløbet, angives derefter i feltet **Enhed pris ekskl. MOMS** i salgslinjerne.|  
+|Markering|Ingen markering|Programmer beregner momsbeløbet, der er medtaget i **Salgsprisen** på varekortet ved hjælp af momsprocenten relateret til kombinationen af Momsvirks.bogf.gruppe (pris) og Momsproduktbogf.gruppe. **Salgsprisen** på varekortet, reduceret med momsbeløbet, angives derefter i feltet **Enhed pris ekskl. MOMS** i salgslinjerne.|  
 |Markering|Markering|**Salgsprisen** på varekortet kopieres til feltet **med salgsprisen inkl. moms** i salgslinjerne.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Manuel korrektion af momsbeløb i salgs- og købsdokumenter  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ede085fca1595c7349501d9a8cbbd09e4e14e897
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246883"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303865"
 ---
 # <a name="application-compliance"></a>Programoverholdelse
 Dette indhold indeholder oplysninger om programoverholdelse i relation til [!INCLUDE[d365fin](../includes/d365fin_md.md)], f.eks. internationale standarder for finansiel rapportering, lokal funktionalitet, GDPR og meget mere. Tillid til en løsning til virksomhedsadministration er nøglen til at køre en effektiv virksomhed. Med Business Central har virksomheder muligheder for at strømline forretningsprocesser, samtidig med at de ensartet og omkostningseffektivt følger de stigende krav til regulering og rapportering.
@@ -46,15 +46,18 @@ Business Central leverer integrerede driftsmæssige og finansielle oplysninger i
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Få kontrol over vigtige oplysninger, processer og rapporter
 
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Styre overholdelse af de standarder, der har betydning
+
 Levere integrerede oplysninger, justerede processer og let anvendelige værktøjer, der hjælper dine medarbejdere med at opfylde de forventninger til og standarder for økonomistyring, der betyder noget for din specifikke virksomhed.
 
 ### <a name="tailor-account-schedules-to-your-needs"></a>Skræddersy kontoskemaer til dine behov
+
 - Definere strukturen i dit regnskabs kontoplan baseret på forretningsbehov og gældende lovgivningsmæssige standarder
 - Oprette konti og håndtere komplekse processer, der er relateret til en række forretningsmæssige aktiviteter, herunder lagerværdi, udenlandske valutaer, segmentrapportering og afvigelser fra lokale GAAP'er.
 - Styre detaljeringsniveauet for hver registreret transaktion, og vælg detaljerede registrering for bestemte typer transaktioner, f.eks. anlægsaktiver og kreditorer.
-- Skræddersy beregninger, der vises i forbindelse med regnskabsaflæggelse, eller eksportér oplysningerne til Microsoft® Office Excel® til videre analyse.
+- Skræddersy beregninger, der vises i forbindelse med regnskabsaflæggelse, eller eksportér oplysningerne til Microsoft Excel til videre analyse.
 
 ### <a name="improve-information-validity"></a>Forbedre oplysningers gyldighed
+
 - Konfigurere datafelter til kun at acceptere oplysninger i det korrekte format, f.eks. det korrekte antal decimaler eller alfanumeriske mønstre.
 - Hjælpe med til at sikre at oplysninger er fuldstændige med programstyring, f.eks. krav om at et kreditorfakturanummer angives, før en købsordre kan bogføres.
 - Reducere risikoen for upræcise oplysninger eller uautoriseret adgang, så du beskytter følsomme oplysninger ved hjælp af adgang til oplysninger baseret på jobrolle.
@@ -69,9 +72,10 @@ Levere integrerede oplysninger, justerede processer og let anvendelige værktøj
 - Sæt fart i overførslen af finansielle oplysninger til debitorer, aktionærer, offentlige myndigheder og offentligheden med XML-baserede XBRL-dokumenter, der understøtter udveksling af finansielle oplysninger på tværs af forskellig software og teknologier, herunder internettet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Hjælp til at sikre klare revisionsspor
+
 - Spor dokumenter og oplysninger både fremad og bagud gennem systemet fra den oprindelige kilde til de endelige regnskaber, og tilbage.
 - Identificere, hvordan, hvornår og af hvem oplysninger blev indtastet eller redigeret, og på hvilken konto de finansielle poster er blevet bogført.
-- Søge efter databaseændringer, herunder tidligere og reviderede data i løsningens ændringslog.
+- Søge efter databaseændringer, herunder tidligere og reviderede data i løsningens [Ændringslog](../across-log-changes.md).
 - Forøge revisionssporets gennemsigtighed og brugbarhed og give hurtigere adgang til oplysninger til tredjepartsrevisorer med analyse, opslag, register og navigation
 
 ## <a name="compliance-and-local-functionality"></a>Overholdelse og lokal funktionalitet
@@ -89,7 +93,8 @@ Microsoft opretter oversatte versioner af Business Central til bestemte lande. D
 > **Basel II: Konsekvenser for rapportering og analyse**  
 > Basel II, der er udviklet af Den Internationale Betalingsbank, hjælper med til at give sikkerhed i det finansielle system på tre vigtige områder: minimumskapitalkrav, proces med gennemgang af tilsynsførende og markedsdisciplin. Selvom aftalen gælder finansielle institutioner og ikke er målrettet mod små og mellemstore virksomheder, har Basel II muligvis nogle følger for disse organisationer med hensyn til rapportering og analyse.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Overholdelse](compliance-overview.md)  
 [Tjenesteoverholdelse](compliance-service-compliance.md)  
 [Certificeringer](compliance-certifications.md)  

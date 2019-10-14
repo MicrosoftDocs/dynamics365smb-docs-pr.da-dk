@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858285"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313578"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Introduktion til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Tilmelding er nemt, og du kan overflytte eksisterende forretningsdata fra dit gamle system. For at hjælpe dig med dit abonnement, kan du finde en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -42,8 +42,10 @@ Før du kan bruge funktionen, skal du foretage en vis opsætning. Du kan også f
 
 Hvis du vil have en oversigt over nuværende og kommende funktioner, kan du kigge nærmere på vores frigivelsesplan under [Frigivelsesplan til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
+Du kan også finde eLearning-indhold på [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
+
 ## <a name="the-role-centers"></a>Rollecentrene
-Siden Rollecenter er baseret på et rollecentreret design, som giver hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige rollecentre ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).
+Siden Rollecenter er baseret på et rollecentreret design, som giver hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Se de forskellige rollecentre ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, vælge **Indstillinger** og derefter vælge det rollecenter, du vil undersøge. Log på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
 
 Hvert Rollecenter indeholder knappen **Installation og udvidelser**. Her kan du få adgang til en liste over assisterede opsætningsvejledninger, som kan hjælpe dig i gang med at definere markerede områder hurtigt. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningssider, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
@@ -65,7 +67,7 @@ På siden **Assisteret opsætning** kan du finde følgende sammen med oplevelsen
 | Konfigurer rapportering |Konfigurerer datasæt, som du kan bruge til at oprette effektive rapporter ved hjælp af f.eks. Excel eller Power BI. |
 | Konfigurer et godkendelsesworkflow for vare |Gør det muligt at sende en notifikation til en godkender, når en bruger ændrer eller opretter en vare. |
 | Konfigurer et godkendelsesworkflow for betaling |Gør det muligt for en bruger, der sender betalingskladdelinjer til godkendelse, at sende en meddelelse til godkenderen. |
-| Konfigurere Konnektor til Business Central |Opretter forbindelse til Dynamics 365 for Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
+| Opsætte Konnektor til Business Central |Opretter forbindelse til Dynamics 365 Sales, som gør det muligt at synkronisere data, f.eks oplysninger om kontakter og salgsordrer. |
 | Konfigurere salgsafgifter |Hjælper dig i gang med standardskattegrupper og tildeler skatteområdekoder, som du kan tildele til debitorer og kreditorer for automatisk at beregne salgsafgifter i salgs- eller købsdokumenter. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Afprøvning af funktioner i dit eget regnskab
@@ -99,6 +101,7 @@ Hvis du er revisor, kan du tilmelde dig [!INCLUDE[d365acc_long](includes/d365acc
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som min virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på din mobilenhed](install-mobile-app.md)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  
+[Dynamics 365 Business Central på Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 [Dokumentation til Dynamics 365](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central Frigivelsesplan](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

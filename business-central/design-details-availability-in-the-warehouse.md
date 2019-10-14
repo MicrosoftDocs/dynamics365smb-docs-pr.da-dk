@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 67e30773683fbf8497a1668e1c4ca3d176e0781e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620926"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303792"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designoplysninger: Tilgængelighed i lageret
 Systemet skal holde en konstant kontrol over varedisponering på lageret, så udgående ordrer kan flyde effektivt og levere optimale leverancer.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240276"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309912"
 ---
 # <a name="count-inventory-using-documents"></a>Varelageroptælling ved hjælp af dokumenter
 Du kan udføre en status over dine varer på varelager ved hjælp af varelagerdokumenter og varelageroptællingsdokumenter. Siden **Varelageropgørelse** benyttes til at organisere det fulde varelageroptællingsprojekt, for eksempel en pr. lokation. Siden **Registrering af varelager** benyttes til at kommunikere og registrere den faktiske optælling af varerne. Du kan oprette flere registreringer på en ordre, f.eks. til at distribuere varegrupper til forskellige medarbejdere.
@@ -94,7 +94,7 @@ Når du har afsluttet en varelageroptælling, opdateres feltet **Optælling af a
 
 For at se forventet antal og enhver registreret difference for varer med varesporing, vælges handlingen **Linjer**, og derefter vælges handlingen **Varesporingslinje** for at udvælge forskellige visninger for serie- og lotnumre, der er findes i varelageroptællingen.
 
-Du kan også vælge handlingen **Difference i varelageropgørelse** for at få vist enhver difference mellem det forventede antal og det optalte antal.
+Du kan også vælge handlingen **Difference i lageropgørelsesordre** for at få vist eventuelle forskelle mellem det forventede antal og det optalte antal.
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Sådan findes dobbeltoprettede linjer til varelageropgørelse
 

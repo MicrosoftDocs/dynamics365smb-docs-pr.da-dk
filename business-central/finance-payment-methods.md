@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 07/22/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 3f4741485a032dfef8b724ff4a18ed58c640778e
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: e5b58fa76525274f34595fecb2a84632bb7af50b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796868"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301848"
 ---
 # <a name="defining-payment-methods"></a>Definere betalingsformer
 Betalingsformer definerer, hvordan du foretrækker, at debitorer skal betale dig, og hvordan du foretrækker at betale dine kreditorer. Metoden kan variere for hver debitor eller kreditor. Eksempler på typiske betalingsformer er **bank**, **kontant**, **check** eller **konto**.

@@ -1,6 +1,6 @@
 ---
 title: Synkronisering og dataintegration | Microsoft Docs
-description: Synkroniseringen kopierer data mellem Dynamics 365 for Sales-poster og Business Central-records og holder data i begge systemer opdateret.
+description: Synkroniseringen kopierer data mellem Dynamics 365 Sales-poster og Business Central-poster og holder data i begge systemer opdateret.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917456"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304226"
 ---
-# <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synkronisering af data i Business Central og Dynamics 365 for Sales
-Når du integrerer [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du bedt om at synkronisere dataene i bestemte felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (f.eks. kunder, kontakter og sælgere) med tilsvarende records i [!INCLUDE[d365fin](includes/d365fin_md.md)] (f.eks. konti, kontakter og brugere). Afhængigt af record-typen kan du synkronisere data fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)], eller omvendt. Du kan finde flere oplysninger under [Integration med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Synkronisering af data i Business Central og Dynamics 365 Sales
+Når du integrerer [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du bedt om at synkronisere dataene i bestemte felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (f.eks. kunder, kontakter og sælgere) med tilsvarende records i [!INCLUDE[d365fin](includes/d365fin_md.md)] (f.eks. konti, kontakter og brugere). Afhængigt af record-typen kan du synkronisere data fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)], eller omvendt. Du kan finde flere oplysninger under [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Synkroniseringen bruger følgende elementer:
 
@@ -77,11 +77,11 @@ Følgende tabel viser tilknytninger fra [!INCLUDE[d365fin](includes/d365fin_md.m
 I følgende tabel beskrives de regler, der styrer synkroniseringen mellem programmerne,
 
 > [!NOTE]  
-> Ændringer af data i [!INCLUDE[crm_md](includes/crm_md.md)], der blev foretaget af [!INCLUDE[crm_md](includes/crm_md.md)]-forbindelsesbrugerkontoen synkroniseres ikke. Derfor anbefales det, at du ikke ændrer data, når du benytter denne konto. Du kan finde flere oplysninger i [Konfigurere brugerkonti til integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Ændringer af data i [!INCLUDE[crm_md](includes/crm_md.md)], der blev foretaget af [!INCLUDE[crm_md](includes/crm_md.md)]-forbindelsesbrugerkontoen synkroniseres ikke. Derfor anbefales det, at du ikke ændrer data, når du benytter denne konto. Du kan finde flere oplysninger i [Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Sortbord|Regel|
 |-----|----|
-|Kunder (Debitorer)|Før du kan synkronisere en debitor med en konto, skal den sælger, der er tildelt debitoren, være sammenkædet med en bruger i [!INCLUDE[crm_md](includes/crm_md.md)]. Når du derfor kører KUNDER – Dynamics 365 for Sales-synkroniseringsjobbet, og du konfigurerer det til at oprette nye records, skal du sørge for at synkronisere sælgere med [!INCLUDE[crm_md](includes/crm_md.md)]-brugere, før du synkroniserer debitorer med konti [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />KUNDER – Dynamics 365 for Sales-synkroniseringsjobbet synkroniserer kun Sales-konti, der har relationstypen Debitor.|
+|Kunder (Debitorer)|Før du kan synkronisere en debitor med en konto, skal den sælger, der er tildelt debitoren, være sammenkædet med en bruger i [!INCLUDE[crm_md](includes/crm_md.md)]. Når du derfor kører KUNDER – Dynamics 365 Sales-synkroniseringsjobbet, og du konfigurerer det til at oprette nye poster, skal du sørge for at synkronisere sælgere med [!INCLUDE[crm_md](includes/crm_md.md)]-brugere, før du synkroniserer debitorer med konti i [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />KUNDER – Dynamics 365 Sales-synkroniseringsjobbet synkroniserer kun Sales-konti, der har relationstypen Debitor.|
 |Kontakter|Kun kontakter i [!INCLUDE[crm_md](includes/crm_md.md)], der er knyttet til en konto, oprettes i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Værdien Sælgerkode definerer ejeren af det sammenkædede enhed i [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Valutaer|Valutaer sammenkædes med transaktionsvalutaer i [!INCLUDE[crm_md](includes/crm_md.md)], baseret på ISO-koder. Kun valutaer, der har en ISO-standardkoder, sammenkædes og synkroniseres med transaktionsvalutaer.|
 |Enheder|Måleenheder synkroniseres med enhedsgrupper i [!INCLUDE[crm_md](includes/crm_md.md)]. Der kan kun være én måleenhed defineret i enhedsgruppen.|
@@ -97,4 +97,4 @@ I følgende tabel beskrives de regler, der styrer synkroniseringen mellem progra
 ## <a name="see-also"></a>Se også  
 [Sammenkæd og synkroniser records manuelt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
-[Integration med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

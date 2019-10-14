@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bfcf6190250ba05ac5556d5c7543df6c4e9fa34e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244882"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304728"
 ---
 # <a name="visit-our-video-library"></a>Besøg vores videobibliotek
 Du må have tålmodighed, mens vi genopbygger vores bibliotek med "Sådan gør du"-videoer. En følge af de seneste forbedringer i [!INCLUDE[d365fin](includes/d365fin_md.md)] er, at vi er nødt til at genskabe indholdet, så det afspejler produktet nøjagtigt.
@@ -42,7 +42,7 @@ Blot for at nævne et par eksempler på de videoer, vi opdaterer, der viser, hvo
 
 * Overflytter virksomhedsdata fra en anden økonomiapp til [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Opretter dimensioner, så du kan spore og analysere forskellige dokumenter og enheder
-* Forbinde [!INCLUDE[d365fin](includes/d365fin_md.md)] med Dynamics 365 for Sales
+* Oprette forbindelse fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til Dynamics 365 Sales
 * Konfigurer godkendelsesworkflow  
 * Bruge Power BI med [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Konfigurerer e-mail og sender dokumenter direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)]  

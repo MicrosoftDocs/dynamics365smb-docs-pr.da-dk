@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: f088e1319684b9a18a2b0c8ab5305f73747f6889
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 79ed5e1b7200a668be2aa078531fd68e0131b6ff
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446918"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302576"
 ---
-# <a name="accountant-experiences-in-included365finlongincludesd365finlongmdmd"></a>Revisoroplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Revisoroplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Enhver virksomhed skal føre regnskab og godkende det. Nogle virksomheder benytter en ekstern revisor, mens andre har kvalificerede regnskabsmedarbejdere. Uanset hvilken model du benytter, kan du bruge rollecenteret **Regnskabsmedarbejder** som din startside i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Herfra kan du få adgang til alle sider, du skal bruge i dit arbejde.  
 
 ## <a name="accountant-role-center"></a>Rollecenteret Regnskabsmedarbejder
@@ -26,9 +26,12 @@ Rollecenteret er et dashboard med aktivitetsfelter, der viser nøgletal i realti
 Hvis du ikke kender [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åbne en liste over videoer direkte fra dit rollecenter. Du kan også starte en guide, som f.eks. **Introduktion**, der udpeger vigtige områder.  
 
 ## <a name="accountant-hub"></a>Accountant Hub
-Hvis du er revisor og har mange kunder, kan du bruge [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for at få et bedre overblik over dine kunder. Her har du adgang til de enkelte kunders lejer i [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan bruge rollecenteret Regnskabsmedarbejder som beskrevet ovenfor. Du kan finde flere oplysninger under [Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).
+Hvis du er revisor og har mange kunder, kan du bruge [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for at få et bedre overblik over dine kunder. Her har du adgang til de enkelte kunders lejer i [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan bruge rollecenteret Regnskabsmedarbejder som beskrevet ovenfor. Du kan finde flere oplysninger under [Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
-## <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere din eksterne revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] er i øjeblikket i offentlig prøveversion på et begrænset antal markeder.
+
+## <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Invitere din eksterne revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnskabsaflæggelse, kan du invitere ham eller hende indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)], så de kan samarbejde med dig om dine regnskabsdata.
 
 Når din revisor har fået adgang til dit [!INCLUDE[d365fin](includes/d365fin_md.md)], kan han eller hun bruge rollecenteret **Regnskabsmedarbejder**, der giver nem adgang til de mest relevante sider for deres arbejde.  
@@ -38,7 +41,7 @@ Vi har gjort det nemt for dig at invitere din eksterne revisor. Du skal blot åb
 ![Inviter din revisor indenfor](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Dette kræver, at du har oprettet SMTP-mail. Du kan gøre dette selv eller bede din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Desuden du skal være logget på [!INCLUDE[d365fin](includes/d365fin_md.md)] som brugeradministrator, og ikke som virksomhedsejer eller andre brugere. Endelig skal du have forladt prøvevirksomheden, så du har en Azure Active Directory-administrator.  
+> Dette kræver, at du har oprettet SMTP-mail. Du kan gøre dette selv eller bede din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Desuden du skal være logget på [!INCLUDE[d365fin](includes/d365fin_md.md)] som brugeradministrator, og ikke som virksomhedsejer eller andre brugere. Endelig skal du have forladt prøvevirksomheden, så du har en Azure Active Directory-administrator.  
 
 > [!IMPORTANT]  
 > Revisorens mailadresse skal være en arbejdsadresse, der er baseret på Azure Active Directory. Hvis revisoren bruger en anden type mail, så kan invitationen ikke sendes.  

@@ -1,5 +1,5 @@
 ---
-title: Sådan angiver du data i felter | Microsoft Docs
+title: Sådan angives data i Business Central | Microsoft Docs
 description: Få mere at vide om generelle funktioner, der hjælper dig med at indtaste data i felter.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000783"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311376"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -39,23 +39,23 @@ Du er muligvis allerede fortrolig med brugen af tabulatortasten til at navigere 
 
 Hvert felt kan markeres som enten *medtaget i genvej* eller *udelukket fra genvej*. Felter, der indgår i genvej, medtages i stien, når du trykker på Enter. Felter, der er udelukket fra genvej, medtages ikke.
 
-Når du er færdig med at angive data i et felt, du blot trykke på Enter for at bekræfte ændringerne og gå til næste felt. Hvis du vil vende retningen og gå til det forrige felt, skal du trykke på Shift+Enter. Du kan finde flere oplysninger om genveje i [Hurtig reference til tastaturgenveje til felter](keyboard-shortcuts.md#QuickEntry).
+Når du er færdig med at angive data i et felt, du blot trykke på Enter for at bekræfte ændringerne og gå til næste felt. Hvis du vil vende retningen og gå til det forrige felt, skal du trykke på Skift+Enter. Du kan finde flere oplysninger om genveje i [Genveje for felter](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tip
 Følgende indeholder nyttige oplysninger om brugen af genvej.
 
 - Den findes i alle redigerbare felter.
 - Den kan også bruges på tværs af kolonner og rækker.
-- Den forhindrer ikke adgang til andre elementer på en side, f.eks. handlinger. De er stadig tilgængelige ved hjælp af tabulatortasten og Shift+Tab.  
+- Den forhindrer ikke adgang til andre elementer på en side, f.eks. handlinger. De er stadig tilgængelige ved hjælp af tabulatortasten og Skift+Tab.  
 - Oversigtspanelerne behøver ikke at blive udvidet for at få genvej til at fungere. Hvis næste genvejsfelt er placeret i et skjult oversigtspanel, udvides det pågældende oversigtspanel automatisk og fokuserer på det angivne felt.
 - Genvej fungerer, uanset om felter skal udfyldes. Det er derfor en god ide at sikre, at obligatoriske felter er medtaget i genvej.
 - Som standard medtages de fleste felter automatisk i genvej. Så til at starte med skal du derfor sandsynligvis udelukke felter fra genvej.
 
-### <a name="how-to-change-quick-entry-fields"></a>Sådan ændres genvejsfelter
+### <a name="to-change-quick-entry-fields"></a>Sådan ændres genvejsfelter
 
 Hvis du vil ændre, hvilke felter der medtages i eller udelukkes fra genvej på en side, kan du bruge tilpasning.
 
-1. Start tilpasning ved at vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "ikonet Indstillinger til rollecenter") og derefter **Tilpas**.
+1. Start tilpasning ved at vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "ikonet Indstillinger til rollecenter") og derefter handlingen **Tilpas**.
 2. Markér et felt, du vil ændre, eller markér på lister den tilsvarende kolonneoverskrift, og vælg derefter enten **Medtag i genvej** eller **Udeluk fra genvej**.
 
 Du kan finde flere oplysninger om tilpasning under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
@@ -76,31 +76,42 @@ Selv om feltet indeholder en rød stjerne, er du ikke tvunget til at udfylde fel
 
 -   Rullemenu – viser det sæt indstillinger, der findes til feltet. Du kan kun vælge én af indstillingerne.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Kopiere og indsætte felter og linjer
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Ofte stillede spørgsmål om kopiering og indsætning af felter og linjer
 
 Du kan kopiere en eller flere rækker fra en liste eller et enkelt felt på en side og derefter indsætte det, du har kopieret på den samme side, en anden side eller et eksternt dokument (som Microsoft Excel og e-mails i Outlook). Kort sagt, når du vil kopiere, skal du trykke på CTRL + C (cmd + C i macOS) på tastaturet. Når du vil indsætte, skal du trykke på CTRL + V (cmd + V i macOS).
 
 Hvis du på en liste vil kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række, skal du bare trykke på F8.
 
-Du kan finde flere oplysninger i [Kopiere og indsætte i Business Central](ui-copy-paste.md).
+Du kan finde flere oplysninger i [Ofte stillede spørgsmål om kopiering og indsætning](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Filtrere linjevarer
+
+Du starter filtrering ved at vælge ![Ikonet Filterrude](media/open-filter-pane-icon.png "Ikonet Filterrude") øverst på listen eller ved at trykke på Skift+F3 for at åbne filterruden. Du arbejder med filterruden, på samme måde som du arbejder med andre lister. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#Filtering).
+
+Filtrering er især nyttig, når du får vist og analyserer længere dokumenter. Antag f.eks., at du åbner en bogført salgsfaktura og filtrerer linjevarerne for at få vist alle linjevarer med en individuel rabat over 5 % eller filtrerer for udelukkende at få vist cykeltilbehør med 'pro' i navnet.
 
 ## <a name="Focus"></a>Fokusere på linjevarer
 
-Når du arbejder med dokumenter, som indeholder en del med linjevarer, f.eks. en salgsordre eller fakturaside, kan du skifte visningen til udelukkende at fokusere på linjevarer, hvilket reelt udvider delen med linjevarer, så den optager ret meget af hele arbejdsområdet – og skjuler andre dele af siden undtagen handlingsområdet øverst. Det giver dig et bedre overblik over linjevarerne og giver mere plads til at arbejde med dem. Dette er især nyttige, når du arbejder med store lister med linjevarer, og der ønskes hurtig dataindtastning.
+Når du arbejder med dokumenter, der indeholder en del af en linjevarepost, f.eks. en salgsordre eller fakturaside, kan du ændre visningen, så der kun fokuseres på linjevarerne. Derefter udvides delen med linjevarer, så den fylder næsten hele arbejdsområdet, og så andre dele af siden bortset fra handlingsområdet øverst skjules. Det giver dig et bedre overblik over linjevarerne og giver mere plads til at arbejde med dem.
 
-En anden fordel er, at det også indeholder avancerede filterfunktioner, som på andre lister, så det bliver endnu nemmere at gennemse og søge gennem linjevarer.
+Dette er især nyttigt, når du arbejder med store lister med linjevarer, og når der ønskes hurtig dataindtastning. En anden fordel er, at det også indeholder avancerede filterfunktioner, som på andre lister, så det bliver endnu nemmere at gennemse og søge gennem linjevarer.
 
 ### <a name="switching-the-focus-on-and-off"></a>Slå fokus til og fra
 
-Når du vil fokusere på linjevarer, skal du markeret et vilkårligt sted i delen med linjevarer og derefter vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") i øverste højre hjørne eller trykke på Ctrl+Shift+F12.
+Når du vil fokusere på linjevarer, skal du markeret et vilkårligt sted i delen med linjevarer og derefter vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") i øverste højre hjørne eller trykke på Ctrl+Skift+F12.
 
-For at vende tilbage til normal visning skal du vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") eller trykke på Ctrl+Shift+F12 igen.
+For at vende tilbage til normal visning skal du vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") eller trykke på Ctrl+Skift+F12 igen.
 
-### <a name="filtering-the-line-items"></a>Filtrere linjevarerne
+## <a name="multitasking-across-multiple-pages"></a>Multitasking på tværs af flere sider
+Når du arbejder på flere opgaver ad gangen eller administrerer afbrydelser af den aktuelle opgave, f.eks. besvarer et indgående opkald, kan du åbne en kort- eller dokumentside i et nyt vindue. Det giver dig mulighed for at holde et vindue åbent for en igangværende opgave, mens du starter eller udfører en anden opgave i et eller flere andre vinduer.
 
-Du starter filtrering ved at vælge ![Ikonet Filterrude](media/open-filter-pane-icon.png "Ikonet Filterrude") øverst på listen eller ved at trykke på **Shift+F3** for at åbne filterruden. Du arbejder med filterruden, på samme måde som du arbejder med andre lister. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#Filtering).
+Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn nyt vindue") i øverste højre hjørne eller trykke på Alt+Skift+W.
 
-Filtrering er især nyttig, når du får vist og analyserer længere dokumenter. Antag f.eks., at du åbner en bogført salgsfaktura og filtrerer linjevarerne for at få vist alle linjevarer med en individuel rabat over 5 % eller filtrerer for udelukkende at få vist cykeltilbehør med 'pro' i navnet.
+> [!NOTE]
+> Når du åbner andre sider fra et kort eller et dokument, der er åbnet i et nyt vindue, åbnes disse sider i et nyt vindue, selvom du ikke vælger ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn nyt vindue").
+
+> [!NOTE]
+> Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger under [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Angive mængder ved beregning
 
@@ -134,7 +145,7 @@ Du kan angive negative tal på to måder. Tallet -20,5 kan angives som:
 Du kan angive datoer og klokkeslæt i alle de felter, der er angivet specielt til datoer (datofelter). Du kan angive datoer med eller uden separatorer.
 
 > [!NOTE]  
-> Måden, du angiver datoer og klokkeslæt på, afhænger af dine indstillinger i **Område**. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).  
+> Måden, du angiver datoer og klokkeslæt på, afhænger af dine indstillinger i **Område**. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Angive datoer
 
@@ -185,7 +196,7 @@ I den følgende tabel kan du se, hvordan du kan skrive dato og klokkeslæt, og h
 
 |Post|Fortolkning|  
 |---------------|------------------------|  
-|131202 132455|13-12-02 13:24:55|  
+|`131202` 132455|13-12-02 13:24:55|  
 |1-12-02 10|01-12-02 10:00:00|  
 |1.12.02 5|01-12-02 05:00:00|  
 |1.12.02|01-12-02 00:00:00|  

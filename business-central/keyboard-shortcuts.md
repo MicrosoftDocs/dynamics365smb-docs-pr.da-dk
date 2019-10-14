@@ -8,31 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/06/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e6919dd3e09fcf13bf07b051abfea90a5a35eb01
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985906"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309456"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prodshort](includes/prodshort.md)].
 
 > [!TIP]
-> Du kan få en hurtig udskriftsvenlig oversigt over de mest populære genveje [se referenceartiklen her](keyboard-shortcuts-cheatsheet.md) eller klikke på følgende billede:
+> Du kan få vist en hurtig oversigt, som du kan udskrive, over de mest populære genveje for pc-brugere i [Tastaturgenveje (kun pc)](keyboard-shortcuts-cheatsheet.md). Hvis du vil se en grafisk fremstilling, skal du vælge følgende billede:
 >
 >[ ![Højreklik, og vælg Gem billede som for at downloade til udskrivning](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
 
 ## <a name="overview"></a>Oversigt
-Tastaturgenveje giver større tilgængelighed, hvilket kan gøre det lettere og mere effektivt at navigere til forskellige områder og elementer på en side.
+Tastaturgenveje giver større tilgængelighed, hvilket kan gøre det lettere og mere effektivt at navigere til forskellige områder og elementer på en side. Genvejene understøttes af de fleste webbrowsere, men funktionsmåden kan variere en smule.
 
-Tastaturgenveje understøttes af de fleste webbrowsere, men funktionen kan variere en smule.
+> [!NOTE]
+> De tastaturgenveje, der beskrives her, henviser til et amerikansk tastaturlayout. Tasterne kan være anderledes på andre tastaturlayout.
 
-De tastaturgenveje, der beskrives her, henviser til et amerikansk tastaturlayout. Tasterne kan være anderledes på andre tastaturlayout.
+De fleste genveje er de samme, uanset om operativsystemet er Windows eller macOS. Nogle genveje adskiller sig dog fra genvejene i macOS. De er angivet i parentes i de følgende afsnit.
 
-De fleste af genvejene er de samme, uanset om operativsystemet er Windows eller macOS. Der er dog nogle genveje, der er anderledes for macOS. De er angivet i parentes i tabellerne i de følgende afsnit.
+> [!NOTE]
+> Ud over de globale tastaturgenveje, der er beskrevet i dette emne, er der en række tilgængelige forretningsspecifikke genveje. I f.eks. den generiske version af [!INCLUDE[prodshort](includes/prodshort.md)] bogfører F9 et dokument, og Ctrl+F7 viser de finansielle posteringer for en post. (Disse kan være anderledes i din løsning). Tastaturgenvejene vises i værktøjstippet for den pågældende handling.
 
 ##  <a name="Keyboard"></a> Generelle tastaturgenveje
 Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til forskellige elementer på en side, f.eks. handlinger rullelister, opslag og mere. Du kan finde oplysninger om tastaturgenveje til navigation mellem poster, når du er på en liste, i næste afsnit.
@@ -40,19 +42,26 @@ Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til for
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |----------------|-----------|
 |Alt+Pil ned|Åbne en rulleliste eller slå en værdi for et felt op.|    
-|Alt+Højrepil|Se de transaktioner, der resulterede i en beregnet værdi i et felt.|  
+|Alt+Pil op|Vise værktøjstip for et felt eller en kolonneoverskrift i en tabel. Hvis feltet indeholder valideringsfejl, skal du trykke på Alt + pil op for at få vist valideringsfejlen. Tryk på Esc eller Alt+pil op for at lukke værktøjstippet.|
 |Alt+F2|Vise eller skjule faktaboksruden.|
-|ALT + Q<br />(Ctrl+Alt+Q)|Åbne feltet **Fortæl mig, hvad du vil foretage dig**, der kan hjælpe dig med at finde en side, en rapport, en handling på den aktuelle side eller en artikel i dokumentationen.|
-|Alt+T|Åbn siden **Mine indstillinger**.|
-|Alt+Pil op|Vis værktøjstip for et felt eller en kolonneoverskrift i en tabel. Hvis feltet indeholder valideringsfejl, skal du trykke på "Alt + pil op" for at få vist valideringsfejlen. Tryk på "Esc" eller "Alt + pil op" for at lukke værktøjstippet.|
+|Alt+Skift+F2|Skifte mellem **Detaljer** og **Vedhæftede filer** i faktaboksruden.|
+|Alt+O|Tilføje en ny note i den valgte post, også selvom faktaboksruden ikke er åben.|
+|ALT + Q<br />(Ctrl+option+Q)|Åbne vinduet **Fortæl mig**. Du kan finde flere oplysninger i [Søge efter sider og oplysninger med Fortæl mig](ui-search.md).|
+|Alt+N |Åbne en side for at oprette en ny post. (Svarer til at vælge **Ny** og **+**-handlinger).
+|Alt+Skift+N |Lukke en nyoprettet side og åbne en ny for at oprette en ny post.
+|Alt+T|Åbne siden **Mine indstillinger**.|
+|Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit"). Dette bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
+|Skift+F12|Åbne funktionsoversigten. Du kan finde flere oplysninger i [Søge efter sider fra en funktionsoversigt](ui-role-explorer.md).|
+|Ctrl+Alt+Skift+C|Få vist oplysninger på virksomhedskortet.|
 |Ctrl+Alt+F1|Åbne og lukke sideinspektionsruden. Sideinspektionsruden viser oplysninger om siden, f.eks. dens kildetabel, felter, udvidelser og meget mere.<br /><br />Du kan finde flere oplysninger under [Inspektion af sider](across-inspect-page.md).|
 |Ctrl+C |Kopiere værdien i feltet. Hvis feltet er i fokus, og du ikke har markeret tekst i feltet, kopieres hele værdien. Hvis du har markeret tekst i feltet, så kopieres kun den markerede tekst.|
-|Ctrl+F1|Åbn hjælpen til Business Central for siden.|
-|Ctrl+F5|Genindlæs [!INCLUDE[prodshort](includes/prodshort.md)]-programmet.<br/><br />Dette svarer til at vælge opdater/genindlæs i programmet.|
-|F5|Opdater oplysningerne på den aktuelle side.<br /><br />Bruges til at sikre, at dataene på siden er opdateret med de ændringer, der er foretaget af andre, mens du arbejder.|
-|Ctrl+F12|Skift mellem visning med bredt og smalt layout.|
+|Ctrl+F1|Åbne hjælpen til Business Central for siden.|
+|Ctrl+F12|Skifte mellem visning med bredt og smalt layout.|
+|Ctrl+klik|Navigere under tilpasning, når handlingen er fremhævet med en pilespids. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).|  
+|Ctrl+F5|Genindlæse [!INCLUDE[prodshort](includes/prodshort.md)]-programmet. (Svarer til at vælge opdater/genindlæs i browseren).|
+|F5|Opdatere oplysningerne på den aktuelle side.<br /><br />Bruges til at sikre, at dataene på siden er opdateret med de ændringer, der er foretaget af andre, mens du arbejder.|
 |Indsæt|Aktivere eller få adgang til det element eller kontrolelement, der er i fokus.|
-|Esc|Luk den aktuelle side eller rullemenu.|
+|Esc|Lukke den aktuelle side eller rullelisten.|
 |Tab|Flytte fokus til det næste kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
 |Skift+Tab|Flytte fokus til det forrige kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
 
@@ -65,75 +74,78 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 -->
 ### <a name="general"></a>Generelt
 
-|Tryk på disse taster<br />(i macOS)|Sådan gør du i en listevisning|Sådan gør du i en feltvisning |
+|Tryk på disse taster<br />(i macOS)|For at gøre følgende i en listevisning|For at gøre følgende i en feltvisning |
 |-----------------|-------|-------|
-|Alt+F7 |Sortér den markerede kolonne i stigende eller faldende rækkefølge.|Ikke tilgængelig.|
-|Shift+F10 |Åbn en menu med indstillinger, der er tilgængelige for den valgte række.|Ikke tilgængelig.|
-|Alt+N |Åbn en side til oprettelse af en ny post – på samme måde som ved valg af handlingen **Ny**. |Samme.|
+|Alt+F7 |Sortere den markerede kolonne i stigende eller faldende rækkefølge.|Ikke tilgængelig.|
+|Alt+N|Indsætte en ny linje i en redigerbar liste, f.eks. siden **Finansbudgetter**.|Samme.|
+|Skift+F10 |Åbne en menu med indstillinger, der er tilgængelige for den valgte række.|Samme.|
 
 ### <a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
 
-|Tryk på disse taster<br />(i macOS)|Sådan gør du i en listevisning |Sådan gør du i en feltvisning |
+|Tryk på disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
 |-----------------|-------|-------|
-|Ctrl+Home<br />(Fn + Ctrl + venstre pil)|Markér den første række på listen. Fokus forbliver i den samme kolonne.|Flytte til det første felt i første række. |
-|Ctrl+End<br />(Fn + Ctrl + højre pil)|Markér den sidste række på listen. Fokus forbliver i den samme kolonne.|Flytte til det sidste felt i sidste række.|
-|Start<br />(Fn +venstre pil)|Flytte til det første felt i en række.|Flytte til det første felt i en række.|
-|End<br />(Fn + højre pil)|Flytte til det sidste felt i rækken.|Flytte til det sidste felt i en række.|
-|Indsæt|Åbne den record, som er knyttet til feltet.<br /><br />Kun er relevant, hvis der er knyttet en kortside til posten.|Åbner recorden.<br /><br />Er kun relevant, hvis der er knyttet en kortside til posten.|
-|Ctrl+Enter|Flytte fokus til det næste element uden for listen.|Flyt fokus til det næste element uden for listen.|
-|Pil ned|Flyt i den samme kolonne til feltet i rækken nedenfor. |Flyt i den samme kolonne til feltet i rækken nedenfor. |
-|Pil op|Flyt i den samme kolonne til feltet i rækken ovenover.| Flyt i den samme kolonne til feltet i rækken ovenover.  |
-|Højrepil|På en skrivebeskyttet liste skal du i den samme række flytte til det næste felt til højre.<br /><br />På en redigerbar liste skal du flytte til højre i det aktuelle felt.| Flyt i den samme række til det næste felt til højre. |
-|Venstre pil|På en skrivebeskyttet liste skal du i den samme række flytte til det forrige felt til venstre. <br /><br />På en redigerbar liste skal du flytte til venstre i det aktuelle felt.| Flyt i den samme række til det forrige felt til venstre. |
-|Page Up<br />(Fn + pil op)|Rul for at vise rækkesættene over de aktuelle rækker i visningen. |Ruller for at vise feltsættet over de aktuelle felter i visningen. |
-|Page Down<br />(Fn + pil ned)|Rull for at vise rækkesættene under de aktuelle rækker i visningen.|Rull for at vise feltsættet under de aktuelle felter i visningen.|
+|Ctrl+Home<br />(Fn+Ctrl+venstre pil)|Markere den første række på listen. Fokus forbliver i den samme kolonne.|Flytte til det første felt i den første række. |
+|Ctrl+End<br />(Fn+Ctrl+højre pil)|Markere den sidste række på listen. Fokus forbliver i den samme kolonne.|Flytte til det sidste felt i den sidste række.|
+|Home<br />(Fn+venstre pil)|Flytte til det første felt i en række.|Flytte til det første felt i en række.|
+|End<br />(Fn+højre pil)|Flytte til det sidste felt i rækken.|Flytte til det sidste felt i en række.|
+|Enter|Åbne den record, som er knyttet til feltet.<br /><br />Kun er relevant, hvis der er knyttet en kortside til posten.|Åbne posten.<br /><br />Er kun relevant, hvis der er knyttet en kortside til posten.|
+|Ctrl+Enter|Flytte fokus til det næste element uden for listen.|Flytte fokus til det næste element uden for listen.|
+|Pil ned|Flytte i den samme kolonne til feltet i rækken nedenfor. |Flytte i den samme kolonne til feltet i rækken nedenfor. |
+|Pil op|Flytte i den samme kolonne til feltet i rækken ovenover.| Flytte i den samme kolonne til feltet i rækken ovenover.  |
+|Højrepil|På en skrivebeskyttet liste skal du i den samme række flytte til det næste felt til højre.<br /><br />På en redigerbar liste skal du flytte til højre i det aktuelle felt.| Flytte i den samme række til det næste felt til højre. |
+|Venstre pil|På en skrivebeskyttet liste skal du i den samme række flytte til det forrige felt til venstre. <br /><br />På en redigerbar liste skal du flytte til venstre i det aktuelle felt.| Flytte i den samme række til det forrige felt til venstre. |
+|Page Up<br />(Fn+pil op)|Rulle for at vise rækkesættene over de aktuelle rækker i visningen. |Rulle for at vise feltsættet over de aktuelle felter i visningen. |
+|Page Down<br />(Fn+pil ned)|Rulle for at vise rækkesættene under de aktuelle rækker i visningen.|Rulle for at vise feltsættet under de aktuelle felter i visningen.|
 |Tab|På en redigerbar liste skal du i den samme række flytte til det næste felt til højre.|Ikke tilgængelig.||
 |Skift+Tab|På en redigerbar liste skal du i den samme række flytte til det forrige felt til venstre. | Ikke tilgængelig. |
 
 ### <a name="CopyRows"></a>Markere, kopiere og indsætte
 
-|Tryk på disse taster<br />(i macOS)|Sådan gør du i en listevisning |Sådan gør du i en feltvisning |
+|Tryk på disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
 |-----------------|-------|-------|
-|Ctrl + klik<br />(Cmd + klik)|Udvid markeringen af rækker til at omfatte den række, som du har klikket på.|Ikke tilgængelig.|
-|Skift + klik|Udvid markeringen af rækker til at omfatte den række, som du har klikket på, og alle rækker imellem.<br /><br />Du kan bruge denne, efter at du har brugt Ctrl + pil op eller Ctrl + pil ned, til at udvide dit valg.|Ikke tilgængelig.|
-|Ctrl+Pil op<br />(Ctrl + Cmd + Pil op)|Flytter fokus til rækken ovenover og beholder markeringen af den aktuelle række.|Ikke tilgængelig.|
-|Ctrl+Pil ned<br />(Ctrl + Cmd + Pil ned)|Flytter fokus til rækken nedenfor og beholder markeringen af den aktuelle række.|Ikke tilgængelig.|
-|Ctrl + Mellemrumstast<br />(Ctrl + Cmd + mellemrum)|Udvid markeringen af rækker, så den omfatter den række, der fokuseres på.<br /><br />Du kan bruge denne, efter at du har brugt Ctrl + Pil op eller Ctrl + Pil ned, til at udvide din markering.|Ikke tilgængelig.|
-|Ctrl+A|Markér alle rækker.|Ikke tilgængelig.|
-|Skift + pil op|Udvid markeringen af rækker til at omfatte rækken ovenover.|Ikke tilgængelig.|
-|Skift+pil ned|Udvid markeringen af rækker til at omfatte rækken nedenfor.|Ikke tilgængelig.|
-|Skift + Page Up<br />(Skift +Fn + pil op)|Udvid markeringen af rækker til at omfatte alle synlige rækker oven over den aktuelle markering af rækker.|Ikke tilgængelig.|
-|Skift + Page Down<br />(Skift + Fn + pil ned)|Udvid markeringen af rækker til at omfatte alle synlige rækker under den aktuelle markering af rækker.|Ikke tilgængelig.|
-|Ctrl+C<br />(Cmd + C)|Kopiér de markerede rækker til Udklipsholder.|Ikke tilgængelig.|
+|Ctrl + klik<br />(Cmd + klik)|Udvide markeringen af rækker til at omfatte den række, som du har klikket på.|Ikke tilgængelig.|
+|Skift + klik|Udvide markeringen af rækker til at omfatte den række, som du har klikket på, og alle rækker imellem.<br /><br />Du kan bruge denne, efter at du har brugt Ctrl + pil op eller Ctrl + pil ned, til at udvide dit valg.|Ikke tilgængelig.|
+|Ctrl+Pil op<br />(Ctrl + Cmd + Pil op)|Flytte fokus til rækken ovenover og beholder markeringen af den aktuelle række.|Ikke tilgængelig.|
+|Ctrl+Pil ned<br />(Ctrl + Cmd + Pil ned)|Flytte fokus til rækken nedenfor og beholde markeringen af den aktuelle række.|Ikke tilgængelig.|
+|Ctrl + Mellemrumstast<br />(Ctrl + Cmd + mellemrum)|Udvide markeringen af rækker, så den omfatter den række, der fokuseres på.<br /><br />Du kan bruge denne, efter at du har brugt Ctrl + Pil op eller Ctrl + Pil ned, til at udvide din markering.|Ikke tilgængelig.|
+|Ctrl+A|Markere alle rækker.|Ikke tilgængelig.|
+|Ctrl+C<br />(Cmd + C)|Kopiere de markerede rækker til Udklipsholder.|Ja, men kun for et enkelt markeret felt.|
 |Ctrl+V<br />(Cmd + V)|Indsætte de markerede rækker fra Udklipsholder til den aktuelle side eller et eksternt dokument som Microsoft Excel eller e-mails i Outlook. Du kan kun gøre dette på lister, der kan redigeres.|Ikke tilgængelig.|
+|Skift + pil op|Udvide markeringen af rækker til at omfatte rækken ovenover.|Ikke tilgængelig.|
+|Skift+pil ned|Udvide markeringen af rækker til at omfatte rækken nedenfor.|Ikke tilgængelig.|
+|Skift + Page Up<br />(Skift +Fn + pil op)|Udvide markeringen af rækker til at omfatte alle synlige rækker oven over den aktuelle markering af rækker.|Ikke tilgængelig.|
+|Skift + Page Down<br />(Skift + Fn + pil ned)|Udvide markeringen af rækker til at omfatte alle synlige rækker under den aktuelle markering af rækker.|Ikke tilgængelig.|
 |F8|Kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række. Du kan kun gøre dette på lister, der kan redigeres. Med denne genvej efterfulgt af Tab kan du hurtigt udfylde felterne i linjeelementer, som du vil give den samme værdi som rækken ovenfor.|Ikke tilgængelig.|
 
 ### <a name="KeyboardFilter"></a>Søge i og filtrere lister
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |-----------------|-------|
-|F3|Skifter søgefeltet.<ul><li>Aktivér søgefeltet, så du kan begynde at skrive søgeteksten.</li><li>Hvis søgefeltet allerede er aktiveret, vender F3 tilbage til listen uden at rydde søgeteksten.</li><ul>|
-|Shift+F3|Åbn og luk filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Skift + F3 den og fokuserer på handlingen **+ Filter** under **Filtrer listen efter**, hvor du ved at trykke på Enter kan begynde at tilføje et feltfilter.</li><li>Hvis filterruden allerede er åben, lukker Skift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>|
-|Ctrl+Shift+F3|Åbn og luk filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Ctrl + Skift + F3 den og fokuserer på handlingen **+ Filter** under **Filtrer totaler efter**, hvor du ved at trykke på Enter kan begynde at tilføje et filter for totaler.</li><li>Hvis filterruden allerede er åben, lukker Ctrl + Skift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>  |
+|F3|Skifter søgefeltet.<ul><li>Aktivere søgefeltet, så du kan begynde at skrive søgeteksten.</li><li>Hvis søgefeltet allerede er aktiveret, vender F3 tilbage til listen uden at rydde søgeteksten.</li><ul>|
+|Skift+F3|Åbne og lukke filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Skift + F3 den og fokuserer på handlingen **+ Filter** under **Filtrer listen efter**, hvor du ved at trykke på Enter kan begynde at tilføje et feltfilter.</li><li>Hvis filterruden allerede er åben, lukker Skift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>|
+|Ctrl+Skift+F3|Åbne og lukke filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Ctrl + Skift + F3 den og fokuserer på handlingen **+ Filter** under **Filtrer totaler efter**, hvor du ved at trykke på Enter kan begynde at tilføje et filter for totaler.</li><li>Hvis filterruden allerede er åben, lukker Ctrl + Skift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>  |
 |Alt+F3|Slå filtrering til den valgte værdi til/fra.<ul><li>Anvender et kolonnefilter på den valgte feltværdi på listen. Det har samme effekt, som hvis du vælger **Filtrer til denne værdi** i en kolonneoverskrift. Det åbner filterruden, indstiller filteret til den valgte værdi, mens fokus forbliver på cellen på listen.</li><li>Hvis kolonnen allerede er filtreret, fjerner Alt + F3 filteret i den pågældende kolonne.</li></ul> |
-|Skift+Alt+F3|Åbne filterruden, og tilføj et filter til den valgte kolonne på listen. Fokus er på det nye filterfelt, som gør det muligt at begynde at skrive filterkriterierne med det samme.<br /><br /> Det har samme effekt, som hvis du vælger **Filter** i kolonneoverskriften.<br /><br />Hvis der allerede er et filter i feltet, tilføjes et nyt filter. |
-|Ctrl + Skift + Alt + F3|Nulstil filtre. Dette har samme effekts, som hvis du vælger **Nulstil filtre** i filterruden, og det gælder for feltfiltre og filtre for totaler.<br /><br /> Filtre vender tilbage til standardfiltrene for den aktuelle visning. Hvis den aktuelle visning er **Alle**, er dette det samme som at vende tilbage til en ufiltreret visning med alle poster. |
-|Ctrl+Enter|Skift fokus fra filterruden tilbage til listen.|
+|Skift+Alt+F3|Åbne filterruden og tilføje et filter til den valgte kolonne på listen. Fokus er på det nye filterfelt, som gør det muligt at begynde at skrive filterkriterierne med det samme.<br /><br /> Det har samme effekt, som hvis du vælger **Filter** i kolonneoverskriften.<br /><br />Hvis der allerede er et filter i feltet, tilføjes et nyt filter. |
+|Ctrl + Skift + Alt + F3|Nulstille filtre. Dette har samme effekts, som hvis du vælger **Nulstil filtre** i filterruden, og det gælder for feltfiltre og filtre for totaler.<br /><br /> Filtre vender tilbage til standardfiltrene for den aktuelle visning. Hvis den aktuelle visning er **Alle**, er dette det samme som at vende tilbage til en ufiltreret visning med alle poster. |
+|Ctrl+Enter|Skifte fokus fra filterruden tilbage til listen.|
 
 ## <a name="keyboard-shortcuts-in-cards-and-documents"></a>Tastaturgenveje i kort og dokumenter
 
-Følgende genvejstaster er tilgængelige på kortsider (f.eks. **Debitor**) og dokumentationssider (f.eks. **Salgsordre**) for at få vist og redigere poster.
+Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, og dokumentationssider, f.eks. **Salgsordre** og bruges til at få vist og redigere poster.
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |----------------|-----------|
-|Alt+F6|Skjul og udvid det aktuelle oversigtspanel.|
-|Alt+N |Åbn en side til oprettelse af en ny post – på samme måde som ved valg af handlingen **Ny**. |
-|Alt+Shift+N |Luk den aktuelle kortside, og opret en ny enhed. Det svarer til at vælge Tilbage-pil og derefter handlingen **Ny**.|
-|Ctrl+Pil ned|Åbn den næste post for en enhed.|
-|Ctrl+Pil op |Åbn den forrige post for en enhed.|
-|Ctrl+Shift+F12 |Maksimer delen med varelinjer på en dokumentside, f.eks. en salgsordre eller en faktura. Andre dele af siden er skjult, og delen med varelinjer udvides til hele arbejdsområdet. Tryk igen på tasterne for at vende tilbage til normal visning.<br /><br />Du kan finde flere oplysninger i [Fokusere på linjevarer](ui-enter-data.md#Focus).|
-|F6|Flyt til næste oversigtspanel eller del (delside).|
-|Shift+F6|Flyt til forrige oversigtspanel eller del (delside).|
+|Alt+F6|Slå skjul/udvid til og fra i det aktuelle oversigtspanel.|
+|Alt+N |Åbne en side og oprette en ny post – på samme måde som ved valg af handlingen **Ny**. |
+|Alt+Skift+N |Lukke en side og åbne en ny side for at oprette en ny post – på samme måde som ved valg af handlingen **OK og ny**. |
+|Alt+Skift+W |Åbne det aktuelle kort eller dokument i et nyt vindue. Du kan finde flere oplysninger under [Multitasking på tværs af flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Pil ned|Åbne den næste post for en enhed.|
+|Ctrl+Pil op |Åbne den forrige post for en enhed.|
+|Ctrl+Insert |Indsætte en ny linje i dokumenter.|
+|Ctrl+Delete |Slette linjen i dokumenter, kladder og regneark.|
+|Ctrl+Skift+F12 |Maksimere delen med linjevarer på en dokumentside. Tryk igen på tasterne for at vende tilbage til normal visning. Du kan finde flere oplysninger i [Fokusere på linjevarer](ui-enter-data.md#Focus).|
+|F6|Flytte til det næste oversigtspanel eller den næste del (delside).|
+|Skift+F6|Flytte til forrige oversigtspanel eller del (delside).|
 
 ## <a name="QuickEntry"></a>Genvej for felter
 
@@ -141,17 +153,9 @@ Følgende genveje vedrører genvejsfunktionen i kort, dokumenter og oversigtssid
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|Kommentarer|
 |-----------------|-------|-------|
-|Indsæt|Bekræft værdien i det aktuelle felt, og gå til næste genvejsfelt.||
-|Shift+Enter|Bekræft værdien i det aktuelle felt, og gå til forrige genvejsfelt.||
-|Ctrl+Shift+Enter|Bekræft værdien i den aktuelle kolonne, og gå til næste genvejsfelt uden for listen.<br /><br />Denne genvej gælder for integrerede lister på en side, f.eks. linjevarer i en salgsordre. Den giver dig mulighed for hurtigt at komme ud af listen og fortsætte med at indtaste data i andre felter på siden.|
-
-## <a name="keyboard-shortcuts-in-worksheets"></a>Tastaturgenveje i kladder
-
-Følgende genvejstaster er kun tilgængelige på kladdesider, f.ek.s **Varekladder**.
-
-|Tryk på disse taster<br />(i macOS)|For at gøre følgende|  
-|----------------|-----------|  
-|Ctrl+Delete| Slet en linjevare.|
+|Enter|Bekræfte værdien i det aktuelle felt, og gå til næste genvejsfelt.||
+|Skift+Enter|Bekræfte værdien i det aktuelle felt, og gå til forrige genvejsfelt.||
+|Ctrl+Skift+Enter|Bekræfte værdien i den aktuelle kolonne, og gå til næste genvejsfelt uden for listen.<br /><br />Denne genvej gælder for integrerede lister på en side, f.eks. linjevarer i en salgsordre. Den giver dig mulighed for hurtigt at komme ud af listen og fortsætte med at indtaste data i andre felter på siden.|
 
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tastaturgenveje i kalenderen (datovælger)
 
@@ -159,7 +163,7 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |-----------------|-------|
-|Ctrl+Home|Åbne kalenderen, hvis den er lukket.|
+|Ctrl+Home|Åbne kalenderen, hvis den er lukket. **Bemærk**: Dette fungerer ikke, hvis datofeltet er i et gitter, hvor Ctrl + Home hopper til den første række.|
 |Ctrl+Home<br />(Cmd + Home)|Flytte til den aktuelle måned, dags dato.|
 |Ctrl+Venstre pil<br />(Cmd + venstre pil)|Flytte til forrige dag.|
 |Ctrl+Højre pil<br />(Cmd + højrepil)|Flytte til næste dag.|
@@ -174,25 +178,25 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Tastaturgenveje i datofelter
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |-----------------|-------|
-|d|Angiv dags dato. "D" betyder "i dag".|
-|a|Angiv arbejdsdatoen. Du kan finde flere oplysninger i [Arbejdsdato](ui-change-basic-settings.md#work-date).|
+|d|Angive dags dato. "D" betyder "i dag".|
+|a|Angive arbejdsdatoen. Du kan finde flere oplysninger i [Arbejdsdato](ui-change-basic-settings.md#work-date).|
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Brug af genvejstaster i rapportfremviseren
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |-----------------|-------|
-|Pil ned|Rul ned på siden.|  
-|Pil op|Rul op på siden.|
+|Pil ned|Rulle ned på siden.|  
+|Pil op|Rulle op på siden.|
 |Ctrl + 0 (nul)<br />(Cmd + 0)|Passer til hele siden på siden. |
 |Ctrl+Home<br />(Cmd + Home)|Gå til den første side i rapporten.|
 |Ctrl+End<br />(Cmd + Home)|Gå til den sidste side i rapporten.|
-|Venstre pil|Rul til venstre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
-|Højrepil|Rul til højre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
+|Venstre pil|Rulle til venstre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
+|Højrepil|Rulle til højre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
 |Page Down<br />(Fn + pil ned)|Gå til den næste side i rapporten.|
 |Page Up<br />(Fn + Pil op)|Gå til den forrige side i rapporten.|
 
 ## <a name="see-also"></a>Se også
-
+[Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)  
 [Hjælpefunktioner](ui-accessibility.md)  
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

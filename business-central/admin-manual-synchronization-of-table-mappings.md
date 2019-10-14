@@ -1,6 +1,6 @@
 ---
 title: Manuel synkronisering af tabeltilknytninger | Microsoft Docs
-description: Synkroniseringen kopierer data mellem Dynamics 365 for Sales-records og Business Central for at holde begge systemer opdateret.
+description: Synkroniseringen kopierer data mellem Dynamics 365 Sales-records og Business Central for at holde begge systemer opdateret.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 4aa56deaef4cd32f58fe4ad17abbc72a58b94ed9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629546"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307930"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkroniser tabeltilknytninger manuelt
 En integreret tabeltilknytning knytter en [!INCLUDE[d365fin](includes/d365fin_md.md)] tabel (record-type), f.eks. kunde, med en [!INCLUDE[crm_md](includes/crm_md.md)] enhed, f.eks. en konto. Synkronisering af en integreret tabeltilknytning muliggør synkronisering af data i alle records i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen [!INCLUDE[crm_md](includes/crm_md.md)]-enheden, der er sammenkædet. Afhængigt af konfigurationen af tabeltilknytningen kan synkronisering skabe og sammenkæde nye records i destinationsløsningen til records i ikke sammenkædede records i kilden.  
@@ -39,13 +39,13 @@ Om der bliver oprettet en record, og hvor, den evt. oprettes, afhænger af synkr
 
 Jobbene køres i følgende rækkefølge for at undgå sammenkædning af afhængigheder mellem enheder.  
 
-1.  VALUTA - Dynamics 365 for Sales-synkroniseringsjob  
-2.  SÆLGERE – Dynamics 365 for Sales-synkroniseringsjob  
-3.  MÅLEENHED - Dynamics 365 for Sales-synkroniseringsjob  
-4.  DEBITOR - Dynamics 365 for Sales-synkroniseringsjob  
-5.  KONTAKTER - Dynamics 365 for Sales-synkroniseringsjob  
-6.  RESSOURCE-PRODUKT - Dynamics 365 for Sales-synkroniseringsjob  
-7.  VARE-PRODUKT - Dynamics 365 for Sales-synkroniseringsjob  
+1.  VALUTA – Dynamics 365 Sales-synkroniseringsjob  
+2.  SÆLGERE – Dynamics 365 Sales-synkroniseringsjob  
+3.  MÅLEENHED – Dynamics 365 Sales-synkroniseringsjob  
+4.  KUNDE – Dynamics 365 Sales-synkroniseringsjob  
+5.  KONTAKTER – Dynamics 365 Sales-synkroniseringsjob  
+6.  RESSOURCE-PRODUKT – Dynamics 365 Sales-synkroniseringsjob  
+7.  VARE - PRODUKT – Dynamics 365 Sales-synkroniseringsjob  
 
 > [!IMPORTANT]  
 >  Du benytter typisk kun fuldstændig synkronisering, når du første gang konfigurerer integration mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)], og kun én af løsningerne indeholder data, som du vil kopiere til den anden løsning. En fuldstændig synkronisering kan være nyttig i et demo-miljø. Da fuldstændig synkronisering oprettes automatisk og forbinder records mellem løsningerne, gør det hurtigere at begynde at arbejde med synkronisering af data mellem records. På den anden side bør du kun udføre en fuldstændig synkronisering, hvis du ønsker en record i [!INCLUDE[d365fin](includes/d365fin_md.md)] for hver record i [!INCLUDE[crm_md](includes/crm_md.md)] for de givne tabeltilknytninger. Ellers kan der opstå uønskede eller dobbeltoprettede records i enten [!INCLUDE[d365fin](includes/d365fin_md.md)] eller [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -54,7 +54,7 @@ Jobbene køres i følgende rækkefølge for at undgå sammenkædning af afhængi
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
 
 ### <a name="to-run-a-full-synchronization"></a>Sådan kører du en fuldstændig synkronisering  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Microsoft Dynamics 365 for Sales Konfiguration af forbindelse,** og vælg derefter det tilhørende link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af Microsoft Dynamics 365 Sales-forbindelse,** og vælg derefter det tilhørende link.
 2.  Vælg handlingen **Kør fuld synkronisering,** og derefter vælge knappen **Ja**.  
 3.  Når fuld synkronisering er fuldført, kan du angive, om du vil tillade, at alle planlagte synkroniseringsjobs opretter nye records?  
 
@@ -65,15 +65,15 @@ Jobbene køres i følgende rækkefølge for at undgå sammenkædning af afhængi
 Du kan få vist resultaterne af fuld synkronisering på siden **Integrationssynkroniseringsjobs**. Du kan finde flere oplysninger under [Se status på en synkronisering](admin-how-to-view-synchronization-status.md).  
 
 ## <a name="synchronizing-all-modified-records"></a>Synkroniser alle ændrede records
-Du kan benytte siden **Microsoft Dynamics 365 for Sales Forbindelseskonfiguration** for at synkronisere ændringer af data i alle integrationstabeltilknytninger. Dette er det samme som en fuld synkronisering. Det vil synkronisere data i alle sammenkædede records i [!INCLUDE[d365fin](includes/d365fin_md.md)] tabeller og [!INCLUDE[crm_md](includes/crm_md.md)] enheder, der er defineret i tabeltilknytningerne. Som standard synkroniseres kun records, der er blevet ændret siden sidste gang, de blev synkroniseret. Tabeltilknytningerne synkroniseres i følgende rækkefølge for at undgå sammenkædning af afhængigheder mellem enhederne:  
+Du kan benytte siden **Microsoft Dynamics 365 Sales-forbindelseskonfiguration** for at synkronisere ændringer af data i alle integrationstabeltilknytninger. Dette er det samme som en fuld synkronisering. Det vil synkronisere data i alle sammenkædede records i [!INCLUDE[d365fin](includes/d365fin_md.md)] tabeller og [!INCLUDE[crm_md](includes/crm_md.md)] enheder, der er defineret i tabeltilknytningerne. Som standard synkroniseres kun records, der er blevet ændret siden sidste gang, de blev synkroniseret. Tabeltilknytningerne synkroniseres i følgende rækkefølge for at undgå sammenkædning af afhængigheder mellem enhederne:  
 
-1.  VALUTA - Dynamics 365 for Sales-synkroniseringsjob  
-2.  SÆLGERE – Dynamics 365 for Sales-synkroniseringsjob  
-3.  MÅLEENHED - Dynamics 365 for Sales-synkroniseringsjob  
-4.  DEBITOR - Dynamics 365 for Sales-synkroniseringsjob  
-5.  KONTAKTER - Dynamics 365 for Sales-synkroniseringsjob  
-6.  RESSOURCE-PRODUKT \- Dynamics 365 for Sales-synkroniseringsjob  
-7.  VARE-PRODUKT - Dynamics 365 for Sales-synkroniseringsjob  
+1.  VALUTA – Dynamics 365 Sales-synkroniseringsjob  
+2.  SÆLGERE – Dynamics 365 Sales-synkroniseringsjob  
+3.  MÅLEENHED – Dynamics 365 Sales-synkroniseringsjob  
+4.  KUNDE – Dynamics 365 Sales-synkroniseringsjob  
+5.  KONTAKTER – Dynamics 365 Sales-synkroniseringsjob  
+6.  RESSOURCE-PRODUKT \- Dynamics 365 Sales-synkroniseringsjob  
+7.  VARE - PRODUKT – Dynamics 365 Sales-synkroniseringsjob  
 
 Du kan få vist resultaterne af den fulde synkronisering på siden **Integrationssynkroniseringsjobs**. Du kan finde flere oplysninger under [Se status på en synkronisering](admin-how-to-view-synchronization-status.md).  
 
@@ -81,7 +81,7 @@ Du kan få vist resultaterne af den fulde synkronisering på siden **Integration
 >  Ved at ændre integrationstabeltilknytningen på forhånd kan du konfigurere synkroniseringen med filtre til at styre, hvilke records der skal synkroniseres, eller konfigurere den til at oprette nye records i destinationsløsningen til ikke sammenkædede records i kilden. Du kan finde flere oplysninger i [Rediger tabeltilknytninger til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-records-for-all-tables"></a>Synkroniser records for alle tabeller  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Microsoft Dynamics 365 for Sales Konfiguration af forbindelse,** og vælg derefter det tilhørende link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af Microsoft Dynamics 365 Sales-forbindelse,** og vælg derefter det tilhørende link.
 2.  Vælg handlingen **Synkroniser ændrede records**, og vælg derefter **Ja**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Synkroniser individuelle tabeltilknytninger
@@ -94,5 +94,5 @@ Ved at ændre integrationstabeltilknytningen på forhånd kan du konfigurere syn
 2.  Vælg handlingen **Synkroniser ændrede records**, og vælg derefter **Ja**.  
 
 ## <a name="see-also"></a>Se også  
-[Synkronisering af Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Konfigurere brugerkonti til integration med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+[Synkronisering af Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
+[Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   

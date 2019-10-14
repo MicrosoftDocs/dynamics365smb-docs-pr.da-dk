@@ -1,1 +1,1 @@
-Hent [uddannelse!](/dynamics365/get-started/training/)
+Hent [uddannelse!](/learn/browse/?products=dynamics-business-central)

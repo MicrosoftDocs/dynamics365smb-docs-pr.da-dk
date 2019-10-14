@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 933323815f0ee31e8bd281dd00ac2d604dd914db
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: c33ef33a9eb660e7cde7da2d1e8a6dad76f18dd7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540313"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301704"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
 Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide midler, kan du få et overblik vha. diagrammerne i rollecenteret Regnskabsmedarbejder:  
@@ -56,9 +56,9 @@ For at hjælpe dig i gang findes der i forvejen nogle konti- og pengestrømsops�
 Du konfigurerer dem ved at søge efter **pengestrømskonti**, vælge linket og derefter udfylde felterne. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Gentag disse trin for **pengestrømskonti**.  
 
 ## <a name="set-up-cash-flow-forecasts"></a>Konfigurere pengestrømsprognoser
-Diagrammet **Pengestrømsprognose** bruger pengestrømskonti, pengestrømsopsætninger og pengestrømsbudgetter. Nogle får du leveret, men du kan oprette dine egne ved hjælp af en assisteret opsætningsvejledning. Vejledningen hjælper dig med f.eks. at angive, hvor ofte prognosen skal opdateres, de konti, den skal baseres på, oplysninger om, hvornår du betaler skatter, og om du skal aktivere [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
+Diagrammet **Pengestrømsprognose** bruger pengestrømskonti, pengestrømsopsætninger og pengestrømsbudgetter. Nogle får du leveret, men du kan oprette dine egne ved hjælp af en assisteret opsætningsvejledning. Vejledningen hjælper dig med f.eks. at angive, hvor ofte prognosen skal opdateres, de konti, den skal baseres på, oplysninger om, hvornår du betaler skatter, og om du skal aktivere [Azure AI](https://azure.microsoft.com/en-us/overview/ai-platform/).  
 
-Pengestrømsprognoser kan bruge Cortana Intelligence til at medtage dokumenter med forfaldsdato i fremtiden. Resultatet er en mere omfattende forudsigelse. Forbindelsen til Cortana Intelligence er allerede konfigureret for dig. Du skal blot aktivere den. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], vises en meddelelse i en blå linje med et link til standardpengestrømsopsætningen. Meddelelsen vises kun én gang. Hvis du lukker den, men beslutter at aktivere Cortana Intelligence, kan du bruge den assisterende opsætningsvejledning eller en manuel fremgangsmåde.  
+Pengestrømsprognoser kan bruge Azure AI til at medtage dokumenter med forfaldsdato i fremtiden. Resultatet er en mere omfattende forudsigelse. Forbindelsen til Azure AI allerede konfigureret for dig. Du skal blot aktivere den. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], vises en meddelelse i en blå linje med et link til standardpengestrømsopsætningen. Meddelelsen vises kun én gang. Hvis du lukker den, men beslutter at aktivere Azure AI, kan du bruge den assisterende opsætningsvejledning eller en manuel fremgangsmåde.  
 
 > [!NOTE]  
 >   Du kan også vælge at bruge din egen prognosewebtjeneste. Du kan finde flere oplysninger i [Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser](#AnchorText).  
@@ -73,23 +73,23 @@ Sådan bruges den assisterede opsætningsvejledning:
 Sådan bruges en manuel proces:  
 
 1. I rollecenteret Regnskabsmedarbejder skal du søge efter **Pengestrømskonfiguration** og derefter vælge det relaterede link.  
-2. Udvid **Cortana Intelligence**-oversigtspanelet, og marker derefter afkrydsningsfeltet **Cortana Intelligence Aktiveret**.  
+2. Udvid oversigtspanelet **Azure AI**, og marker derefter afkrydsningsfeltet **Azure AI aktiveret**.  
 3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
 4. På siden **Pengestrømsprognose** skal du vælge handlingen **Genberegn prognose**.  
 
 > [!TIP]  
->   Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Cortana Intelligence ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  
+>   Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Azure AI ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  
 
 ## <a name="AnchorText"> </a>Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser.
-Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel til Microsoft Business Central**. Denne prognosemodel er tilgængelig online i Cortana Intelligence-galleriet. Sådan bruges modellen:  
+Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel til Microsoft Business Central**. Denne prognosemodel er tilgængelig online i Azure AI-galleriet. Sådan bruges modellen:  
 
-1. Åbn en webbrowser, og gå til [Cortana Intelligence-galleriet](https://go.microsoft.com/fwlink/?linkid=828352).  
+1. Åbn en webbrowser, og gå til [Azure AI-galleriet](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Søg efter **Prognosemodel til Microsoft Business Central**, og åbn derefter modellen i Azure Machine Learning Studio.  
 3. Brug din Microsoft-konto til at tilmelde dig et arbejdsområde og derefter kopiere modellen.  
 4. Kør modellen, og udgiv den som en webtjeneste.  
 5. Notér URL-adressen for API og API-nøglen. Du skal bruge disse legitimationsoplysninger til en pengestrømsopsætning.  
 6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pengestrømskonfiguration**, og vælg derefter det relaterede link.  
-7. Udvid oversigtspanelet **Cortana Intelligence**, og udfyld derefter felterne.  
+7. Udvid oversigtspanelet **Azure AI**, og udfyld derefter felterne.  
 
 ## <a name="see-also"></a>Se også
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  

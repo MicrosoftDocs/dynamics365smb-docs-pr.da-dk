@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 046d2469c13358942fec767b58f6e9ffe46e7799
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 6fab25e6f8a3e840dd0b40f616b2a21abe13a9ad
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243453"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302303"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisere indtægter og udgifter
 For at genkende en indtægt eller udgift i en periode ud over den periode, hvor transaktionen blev bogført, kan du bruge funktionen til automatisk periodisering af indtægter og udgifter inden for et angivet skema.
@@ -78,7 +78,7 @@ Eksempel: Bogføringsdatoen er 06-02-2016. Hvis du angiver "Udgifter udskudt for
 1. På siden **Salgsfaktura** skal du vælge handlingen **Vis bogføring**.
 2. På siden **Vis bogføring** skal du vælge handlingen **Finanspost** og derefter vælge handlingen **Vis relaterede poster**.
 
-Finansposter, der skal bogføres på den angivne periodiseringskonto, f.eks, Ikke-indtjent indtægt, er angivet med den beskrivelse, som du har angivet i feltet **Periodebeskr.** i periodiseringsskabelonen, f.eks. Udgifter udskudt for februar 2016".
+Finansposter, der skal bogføres på den angivne periodiseringskonto, f.eks. Ikke-indtjent indtægt, angives med den beskrivelse, som du har angivet i feltet **Periodebeskr.** i periodiseringsskabelonen, f.eks. "Udgifter udskudt for februar 2016".
 
 ## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Sådan vises bogførte periodiseringer i rapporten Oversigt over salgsperiodisering
 > [!NOTE]  

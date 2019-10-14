@@ -1,6 +1,6 @@
 ---
 title: Rediger tabeltilknytninger til synkronisering | Microsoft Docs
-description: Lær, hvordan du ændrer de tilknytninger til tabeller, der bruges til synkronisering af data mellem Business Central og Dynamics 365 for Sales.
+description: Lær, hvordan du ændrer de tilknytninger til tabeller, der bruges til synkronisering af data mellem Business Central og Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540196"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308066"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Rediger tabeltilknytninger til synkronisering
 En integrationstabeltilknytning kæder en tabel i [!INCLUDE[d365fin](includes/d365fin_md.md)] sammen med en integrationstabel for [!INCLUDE[crm_md](includes/crm_md.md)] enheden. For hver enhed i [!INCLUDE[crm_md](includes/crm_md.md)] du vil synkronisere med tilsvarende data i [!INCLUDE[d365fin](includes/d365fin_md.md)]], skal der være en tilsvarende integrationstabeltilknytning. En integrationstabeltilknytning indeholder flere indstillinger, som du kan bruge til at styre, hvordan records i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel og en [!INCLUDE[crm_md](includes/crm_md.md)]-enhed synkroniseres med de tilsvarende integrationssynkroniseringsjobs.  
@@ -33,7 +33,7 @@ En integrationstabeltilknytning kæder en tabel i [!INCLUDE[d365fin](includes/d3
 ## <a name="creating-new-records"></a>Sådan oprettes nye records  
  Som standard synkroniseres kun records i [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)], der er sammenkædet gennem integrationssynkroniseringsjob. Du kan konfigurere tabeltilknytninger, så nye records oprettes på destinationen (f.eks. [!INCLUDE[d365fin](includes/d365fin_md.md)]) for hver record i kilden (f.eks. [!INCLUDE[crm_md](includes/crm_md.md)]), der ikke allerede er sammenkædet.  
 
- F.eks. benytter SÆLGERE - Dynamics 365 for Sales-synkroniseringsjobbet tabeltilknytningen SÆLGERE. Synkroniseringsjobbene kopierer data fra bruger-records i [!INCLUDE[crm_md](includes/crm_md.md)] til sælger-records i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du har konfigureret tabeltilknytningen til at oprette nye records for hver bruger i [!INCLUDE[crm_md](includes/crm_md.md)], der ikke allerede er sammenkædet med en sælger i [!INCLUDE[d365fin](includes/d365fin_md.md)], oprettes en ny sælger-record i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ SÆLGERE – Dynamics 365 Sales-synkroniseringsjob bruger f.eks. tabeltilknytningen SÆLGERE. Synkroniseringsjobbene kopierer data fra bruger-records i [!INCLUDE[crm_md](includes/crm_md.md)] til sælger-records i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du har konfigureret tabeltilknytningen til at oprette nye records for hver bruger i [!INCLUDE[crm_md](includes/crm_md.md)], der ikke allerede er sammenkædet med en sælger i [!INCLUDE[d365fin](includes/d365fin_md.md)], oprettes en ny sælger-record i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Sådan oprettes nye records under synkronisering  
 1. Vælg ![elpære-ikonet, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig")-ikon, gå til **Integration af tabeltilknytning**, og vælg derefter det tilhørende link.
@@ -59,6 +59,6 @@ Hvis du installerer standardsynkroniseringsopsætningen, oprettes og bruges for 
 3.  Konfigurer feltet **Kode for int. tbl. konfigurationsskabelon** til den konfigurationsskabelon, der skal bruges til nye records i [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="see-also"></a>Se også  
-[Om integration Dynamics 365 Business Central med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Synkronisering af Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
+[Om integration af Dynamics 365 Business Central med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Synkronisering af Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

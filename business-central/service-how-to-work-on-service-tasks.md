@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251166"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311640"
 ---
 # <a name="work-on-service-tasks"></a>Arbejde med serviceopgaver
 Når du har oprettet en serviceordre eller et servicetilbud, registreret serviceartikellinjer og allokeret ressourcer til serviceartiklerne i ordren eller tilbuddet, kan du begynde at reparere og vedligeholde serviceartiklerne.  
@@ -100,7 +100,7 @@ Når du har repareret en serviceartikel, kan du registrere både fejlkoden og l�
 2. Vælg den linje, der indeholder den relevante serviceartikel, og vælg derefter handlingen **Artikelkladde**.  
 3. På siden **Serviceartikelkladde** skal du vælge **Fejl/løsn.koderelationer**. Siden **Fejl/løsn.koderelationer** åbner.  
 
-  >  [!Note]
+  >  [!NOTE]
   >  Der sættes automatisk filtre på de relationer, der vises på siden, fordi serviceartikelgruppen og fejlkoderne kopieres fra siden **Serviceartikelkladde**.  
 
 4. Udfyld linjen. Vælg kombinationen af fejl- og løsningskoder, og vælg derefter **OK** for at kopiere den til serviceartiklen. Hvis der ikke kan findes en passende kombination, kan du oprette en ny kombination på siden.  

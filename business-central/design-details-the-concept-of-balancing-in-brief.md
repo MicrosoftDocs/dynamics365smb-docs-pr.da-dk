@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 8684389c75299dc57a2056041b50ebde37a0bea1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: af63bf59def37fe873cb66366864855db52bd245
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239287"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302952"
 ---
 # <a name="design-details-the-concept-of-balancing-in-brief"></a>Designoplysninger: Kort om begrebet Justering
 Behov afhænger af en virksomheds kunder. Forsyning er, hvad virksomheden kan oprette og fjerne for at skabe balance. Planlægningssystemet starter med det uafhængige behov og sporer derefter baglæns til forsyningen.  

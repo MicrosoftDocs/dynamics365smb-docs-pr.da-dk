@@ -2,28 +2,28 @@
 title: Konfigurere mail i Business Central | Microsoft Docs
 description: Beskriver, hvordan du bruger virksomhedens SMTP-server til at sende og modtage mails i Business Central eller alternativt kan bruge de mailserverindstillinger, der blev oprettet med Office 365-abonnementet.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985930"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304608"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
 Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne på siden SMTP-mailopsætning.
 
 I stedet for at angive detaljer om SMTP-serveren manuelt kan du bruge funktionen **Apply Office 365 Server-indstillinger**, der bruger oplysninger fra dit abonnement på Office 365.
 
-Du kan enten oprette mail manuelt, eller du kan få hjælp af den assisterede opsætningsvejledning **Mailopsætning**. Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).  
+Du kan enten oprette mail manuelt, som beskrevet nedenfor, eller du kan få hjælp af den assisterede opsætningsvejledning **Mailopsætning**. Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Sådan konfigurer du mail
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **SMTP-mailopsætning**, og vælg derefter det relaterede link.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985882"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316640"
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
 Likviditetsstyring omfatter kontrol af, om forfaldne beløb er betalt til tiden. Hvis debitorer har forfaldne betalinger, kan du begynde med at sende rapporten Kontoudtog som en påmindelse. Alternativt kan du udstede rykkere.
@@ -161,6 +161,11 @@ Desuden kan udstedelse af en rykker medføre momsposteringer.
 
 Rykkeren udskrives enten eller sendes til en mail, der er angivet som en vedhæftet PDF-fil.
 
+### <a name="to-cancel-an-issued-reminder"></a>Sådan annulleres en udstedt rykker
+Hvis rykkere er blevet udstedt ved en fejl, kan du annullere dem, før de sendes. Det kan du gøre enten en for en eller som en kørsel.
+1. På siden **Udstedte rykkere** skal du vælge en eller flere linjer for udstedte rykkere, som du vil annullere, og derefter vælge handlingen **Annuller**.
+2. På siden **Annuller udstedte rykkere** skal du udfylde felterne efter behov, og derefter vælge knappen **OK**.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Sådan konfigurerer du rentebetingelser
 Du skal også definere en kode for hver renteberegningsmetode. Du kan så angive denne kode i feltet **Rentebetingelseskode** på debitor- eller kreditorkortene.
 
@@ -243,6 +248,11 @@ Desuden kan udstedelse af en rentenota medføre momsposteringer.
 4. Vælg knappen **OK**.
 
 Rentenotaen udskrives enten eller sendes til en mail, der er angivet som en vedhæftet PDF-fil.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Sådan annulleres den udstedte rentenota
+Hvis rentenotaer er blevet udstedt ved en fejl, kan du annullere dem, før de sendes. Det kan du gøre enten en for en eller som en kørsel.
+1. På siden **Udstedte rentenotaer** skal du vælge en eller flere linjer for udstedte rentenotaer, som du vil annullere, og derefter vælge handlingen **Annuller**.
+2. På siden **Annuller udstedte rentenotaer** skal du udfylde felterne efter behov, og derefter vælge knappen **OK**.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Sådan får du vist rykker- og rentenotaposter  
 Når du udsteder en rykker, oprettes der en rykkerpost på siden **Rykker-/rentenotaposter** for hver rykkerlinje, der indeholder en debitorpost. Derefter kan du få vist en oversigt over de oprettede rykkerposter for en bestemt debitor.    

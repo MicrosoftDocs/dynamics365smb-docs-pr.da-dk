@@ -7,22 +7,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 08/22/2019
+ms.search.keywords: barcode
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 23561ba8ec0a93f8409abab483385a65d9853900
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: 459c3f9ff695fe4cbee2dd1cb23e3cc5b989f939
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917433"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310032"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Brug ADCS (Automated Data Capture Systems)
 
 > [!NOTE]
 > I standardversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer ADCS kun i forbindelse med lokale installationer. Men en Microsoft-partner kan få det til at fungere i onlineinstallationer ved hjælp af PowerApps eller lignende.
 
-Du kan bruge ADCS-systemet (Automatic Data Capture System) til at registrere varebevægelser på lagerstedet og registrere bestemte kladdeaktiviteter, bl.a. regulering af vareantal på lagerkladden og lageropgørelser. ADCS omfatter typisk stregkodescanning. 
+Du kan bruge ADCS-systemet (Automatic Data Capture System) til at registrere varebevægelser på lagerstedet og registrere bestemte kladdeaktiviteter, bl.a. regulering af vareantal på lagerkladden og lageropgørelser. ADCS omfatter typisk scanning af en stregkode.
 
 Hvis du vil bruge ADCS, skal du give hver enkelt vare, der er gemt i lageret, et vare-id. Du skal også konfigurere miniformularer, funktioner til håndholdt, dataudvekslinger og angive indstillinger for felter, der styrer ADCS. Du angiver, om du vil bruge ADCS på lokationskortet for et lagersted.
 

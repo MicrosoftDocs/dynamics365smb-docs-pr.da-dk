@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245286"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300781"
 ---
 # <a name="changing-language-and-locale"></a>Ændre sprog og landestandard
 
@@ -23,7 +23,7 @@ ms.locfileid: "1245286"
 
 Hvis du f.eks. bruger den canadiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du se brugergrænsefladen på engelsk og fransk, men det er stadig den canadiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] i alle andre aspekter. Det er ikke det samme, som f.eks. [!INCLUDE[d365fin](includes/d365fin_md.md)] i Storbritannien.  
 
-Du kan ændre sproget i brugergrænsefladen ved at gå til siden **Indstillinger**. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md#language).  
+Du kan ændre sproget i brugergrænsefladen ved at gå til siden **Indstillinger**. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md#language).  
 
 Ændring af de tekster, der er arkiveret som programdata, er ikke en del af flersprogsfunktionen. Det er et spørgsmål om programdesign. Eksempler på sådanne tekster er navnene på varer på lager eller bemærkningerne om en kunde. Disse teksttyper oversættes altså ikke.  
 
@@ -38,9 +38,9 @@ Du kan ændre landestandarden under den browserfane, du bruger til at arbejde i 
 > [!IMPORTANT]  
 >  Når du ændrer landestandarden, vises der en lang række sprog og landestandarder. Men indstillingen for landestandard bruges i den aktuelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Du kan ændre landestandarden ved at gå til siden **Mine indstillinger**. Du kan finde flere oplysninger under [Ændring af grundlæggende indstillinger](ui-change-basic-settings.md).  
+Du kan ændre landestandarden ved at gå til siden **Mine indstillinger**. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Sprog i [!INCLUDE[d365fin](includes/d365fin_md.md)] Hjælp
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Sprog i [!INCLUDE[d365fin](includes/d365fin_md.md)] Hjælp
 Indholdet af Hjælp til den grundlæggende funktionalitet i [!INCLUDE[d365fin](includes/d365fin_md.md)] udgives til webstedet Microsoft Docs og findes på en række forskellige sprog. Hvis du åbner dokumenter fra [!INCLUDE[d365fin](includes/d365fin_md.md)], vises indholdet på dit eget sprog. Hvis en bestemt side ikke endnu er tilgængelig på dit eget sprog, vises den på engelsk.
 
 ### <a name="how-do-i-change-the-language"></a>Hvordan kan jeg ændre sproget?
@@ -50,5 +50,5 @@ Det er nemt – rul til bunden af webbrowsersiden, og vælg globussymbolet i ned
 > Listen viser alle sprog, der understøttes af webstedet Microsoft Docs. [!INCLUDE[d365fin](includes/d365fin_md.md)] findes i et begrænset antal lande/områder, men indholdet af Hjælp gøres tilgængeligt på flere sprog. Indholdet af Hjælp er ikke tilgængeligt på alle sprog, der understøtter webstedet for Microsoft Docs.
 
 ## <a name="see-also"></a>Se også  
-[Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
+[Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Introduktion](product-get-started.md)  

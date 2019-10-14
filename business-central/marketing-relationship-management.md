@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 39e8a4bce8174116bbe7b63908007aa7873acc02
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 54cdb205f26de16397890e08b8918c66998af9b9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446734"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308785"
 ---
 # <a name="managing-relationships"></a>Styre relationer
 Relationsstyringsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.
@@ -34,4 +34,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Definere målgrupper for at vælge en gruppe kontakter i overensstemmelse med bestemte kriterier, f.eks. den branche, som kontakterne arbejder i.|[Administrere målgrupper](marketing-segments.md)|
 |Behandle indgående leads ved at oprette salgsmuligheder og knytte dem til sælgere, så du kan holde styr på muligt salg.|[Administrere salgsleads](marketing-manage-sales-opportunities.md)|
 |Oprette marketingplaner for at identificere, tiltrække og holde på kunderne.|[Administration af marketingkampagner](marketing-campaigns.md)|
-|Bruge Dynamics 365 for Sales for Customer Engagement og nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien.|[Integration med Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Bruge Dynamics 365 Sales for Customer Engagement og nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien.|[Integration med Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|

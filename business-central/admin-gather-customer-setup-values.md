@@ -1,8 +1,6 @@
 ---
 title: Indsaml debitoropsætningsværdier | Microsoft Docs
-description: Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i Business Central og derefter give den til kunden som en Excel- (.xls) eller XML-fil.
-services: project-madeira
-documentationcenter: ''
+description: Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i Business Central og derefter give den til kunden som en Excel- (.xlsx) eller XML-fil.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245568"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304632"
 ---
 # <a name="gather-customer-setup-values"></a>Indsaml debitoropsætningsværdier
 Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i [!INCLUDE[d365fin](includes/d365fin_md.md)] og derefter give det til kunden som en Excel- eller XML-fil.  
@@ -75,7 +73,7 @@ Du kan bruge konfigurationsspørgeskemaet til at strukturere og dokumentere en d
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg derefter det relaterede link.  
 3. Vælg spørgeskemaet for virksomheden, og vælg derefter handlingen **Udlæs til Excel** og eventuelt handlingen **Udlæs til XML**.
 4. Få kunden til at udfylde konfigurationsspørgeskemaet ved at angive svarene i Excel-projektmappen. Der er et regneark for hvert spørgsmålsområde i spørgeskemaet.   
-5. Vælg handlingen **Indlæs fra Excel**, og vælg .xlsx-filen med kundens svar.  
+5. Gem Excel-projektmappen som *XML-data*. Vælg handlingen **Indlæs fra XML**, og vælg .xml-filen med kundens svar.
 6. Vælg handlingen **Spørgeområder** for at begynde processen med at validere og anvende svarene på konfigurationsspørgeskemaet.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>Sådan udfyldes et spørgeskema fra konfigurationsregnearket  

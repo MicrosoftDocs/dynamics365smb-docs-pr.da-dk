@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a26cafc11479d7065645947f63fa93d28ddb824f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246013"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307440"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designoplysninger: Bogføring af montageordre
 Montageordrebogføring er baseret på de samme principper, som når der bogføres lignende aktiviteter af salgsordrer og produktionsforbrug/afgang. Dog kombineres principperne, fordi montageordrer har egen brugergrænseflade til bogføring, ligesom den for salgsordrer, mens faktisk postbogføring sker i baggrunden som direkte vare- og ressourcekladdeposteringer, ligesom for produktionsforbrug, afgang og kapacitet.  
@@ -96,11 +96,11 @@ Dette aktiveres ved følgende datastruktur.
 
 Desuden bogføres gruppefelter på montageordrehovedet og montageordrelinjerne som standard på følgende måde.  
 
-|Enhed|Type|Bogføringsgruppe|Produktbogføringsgruppe|  
+|Enhed|Type|Bogføringsgruppe|Finans- Produktbogføringsgruppe|  
 |------------|----------|-------------------|------------------------------|  
-|Montageordrehoved|Vare|Varebogføringsgruppe|Produktbogføringsgruppe|  
-|Montageordrelinje|Vare|Varebogføringsgruppe|Produktbogføringsgruppe|  
-|Montageordrelinje|Ressource||Produktbogføringsgruppe|  
+|Montageordrehoved|Vare|Varebogføringsgruppe|Finans- Produktbogføringsgruppe|  
+|Montageordrelinje|Vare|Varebogføringsgruppe|Finans- Produktbogføringsgruppe|  
+|Montageordrelinje|Ressource||Finans- Produktbogføringsgruppe|  
 
 Derfor er det kun faktiske omkostninger, der bogføres i Finans, og der udfyldes ingen mellemregningskonto fra montageordrebogføring. Du kan finde flere oplysninger i [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 

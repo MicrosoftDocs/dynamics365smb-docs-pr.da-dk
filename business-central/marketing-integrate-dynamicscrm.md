@@ -1,6 +1,6 @@
 ---
-title: Administrere kunder ved hjælp af Dynamics 365 for Sales| Microsoft Docs
-description: Du kan bruge Dynamics 365 for Sales fra Business Central til at tilknytte data og få gnidningsløs integration og synkronisering i lead-til-kontant-processen.
+title: Administrere kunder ved hjælp af Dynamics 365 Sales | Microsoft Docs
+description: Du kan bruge Dynamics 365 Sales fra Business Central til at tilknytte data og få gnidningsløs integration og synkronisering i lead-til-kontant-processen.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -9,22 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d0f1dfd88b30a4ec2e3a9bfd3366005a93d97f82
-ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
+ms.openlocfilehash: de3456884d3c5f46ef246aa6fcd02bec5b001377
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917364"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309000"
 ---
-# <a name="using-dynamics-365-for-sales-from-business-central"></a>Brug af Dynamics 365 for Sales fra Business Central
-Hvis du bruger Dynamics 365 for Sales til Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
+# <a name="using-dynamics-365-sales-from-business-central"></a>Bruge Dynamics 365 Sales fra Business Central
+Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
 
-Før du kan bruge integrationsfunktionerne, skal du oprette forbindelsen og definere brugere i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger under [Integration med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+Før du kan bruge integrationsfunktionerne, skal du oprette forbindelsen og definere brugere i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger under [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
 > [!NOTE]
-> Følgende fremgangsmåde beskriver processen med at integrere onlineversioner af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 for Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Følgende fremgangsmåde beskriver processen med at integrere onlineversioner af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Ved integration af programmerne kan du få adgang til data i Salg fra [!INCLUDE[d365fin](includes/d365fin_md.md)] og omvendt i nogle tilfælde. Du kan arbejde med og synkronisere datatyper, der er fælles for begge tjenester, f.eks. debitorer, kontakter og salgsoplysninger, og holde dataene opdaterede i begge programmer.  
 
@@ -33,14 +33,14 @@ For eksempel kan en sælger i Salg bruge prislisterne fra [!INCLUDE[d365fin](inc
 Omvendt kan ordrebehandlere i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndtere salgsordrer, der automatisk eller manuelt overføres fra salg. De kan f.eks. oprette og bogføre salgsordrelinjer for varer eller ressourcer, der er angivet i Salg, som rekvirerede produkter. Du kan finde flere oplysninger i [Håndtering af salgsordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] kan kun integreres med Dynamics 365 for Sales. Andre programmer i Dynamics 365, der ændrer standardarbejdsprocessen eller datamodellen i Salg, for eksempel Project Service Automation, kan bryde integrationen mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og Salg.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] kan kun integreres med Dynamics 365 Sales. Andre programmer i Dynamics 365, der ændrer standardarbejdsprocessen eller datamodellen i Salg, for eksempel Project Service Automation, kan bryde integrationen mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og Salg.
 
 ### <a name="coupling-records"></a>Sammenkæde poster
 Du kan vælge de data, der skal synkroniseres, ved hjælp af den assisterede opsætningsvejledning. Senere kan du også indstille synkroniseringen for bestemte poster. Dette betegnes *sammenkædning*. Du kan f.eks. sammenkæde en bestemt konto i Salg med en bestemt debitor i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I dette afsnit beskrives det, hvad du skal tage højde for, når du sammenkæder poster.
 
 Hvis du f.eks. vil have vist konti i Salg som debitorer i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du sammenkæde de to typer poster. For at gøre det skal du bruge handlingen **Konfigurer sammenkædning** på oversigtssiden **Kunder (Debitorer)** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Derefter skal du angive, hvilke [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder der svarer til hvilke konti i Salg.
 
-Du kan også oprette (og sammenkæde) en konto i Salg baseret på f.eks. en debitorpost i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af **Opret konti i Dynamics 365 for Sales**, eller omvendt, ved hjælp af **Opret kreditor i [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+Du kan også oprette (og sammenkæde) en konto i Sales baseret på f.eks. en debitorpost i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af **Opret konti i Dynamics 365 Sales**, eller omvendt, ved hjælp af **Opret kreditor i [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 
 Når du opretter sammenkædning mellem to poster, kan du også manuelt anmode om, at en aktuel post, f.eks. en kunde, skal overskrives med det samme af kontodata fra Salg (eller fra [!INCLUDE[d365fin](includes/d365fin_md.md)]) ved hjælp af handlingen **Synkroniser nu**. Handlingen **Synkroniser nu**, som vil spørge dig, om Salg eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-postdata skal overskrives.
 
@@ -58,9 +58,9 @@ I nogle tilfælde skal du sammenkæde bestemte datasæt før andre datasæt som 
 I Salg afhænger salgsordrer af ekstra oplysninger som f.eks. kunder, enheder, valutaer, debitorprisgrupper og varer og/eller ressourcer. For at integration med salgsordrer skal fungere, skal du sammenkæde kunder, måleenheder, valutaer, debitorprisgrupper og varer og/eller ressourcer.
 
 ### <a name="fully-synchronizing-records"></a>Fuld synkronisering af poster
-I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen **Kør fuld synkronisering** for at starte synkronisering af alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster med alle relaterede poster i Salg. På siden **Dynamics 365 for Sales Fuld synkroniseringsgennemgang** skal du vælge handlingen **Start**. Det kan tage et stykke tid at fuldføre fuld synkronisering, men du kan fortsætte med at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)], mens den kører i baggrunden.
+I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen **Kør fuld synkronisering** for at starte synkronisering af alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster med alle relaterede poster i Salg. På siden **Fuld synkroniseringsgennemsyn af Dynamics 365 Sales** skal du vælge handlingen **Start**. Det kan tage et stykke tid at fuldføre fuld synkronisering, men du kan fortsætte med at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)], mens den kører i baggrunden.
 
-Når du vil kontrollere status for individuelle sager i en fuld synkronisering, skal du på siden **Dynamics 365 for Sales Fuld synkroniseringsgennemgang** vælge en post for at få vist detaljer. Opdater siden for at opdatere status under synkroniseringen.
+Når du vil kontrollere status for individuelle sager i en fuld synkronisering, skal du på siden **Fuld synkroniseringsgennemgang af Dynamics 365 Sales** vælge en post for at få vist detaljer. Opdater siden for at opdatere status under synkroniseringen.
 
 Fra siden **Konfiguration af Microsoft Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne siden **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] og Salg, som skal synkroniseres.
 
@@ -82,7 +82,7 @@ Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesda
 
 ## <a name="handling-sales-quotes-data"></a>Håndtering af data i salgstilbud
 Salgstilbud, der aktiveres i [!INCLUDE[crm_md](includes/crm_md.md)], overføres til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du markerer afkrydsningsfeltet **Behandl tilbud automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**.
-Alternativt kan du manuelt konvertere aktiverede salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Behandl i [!INCLUDE[d365fin](includes/d365fin_md.md)]** på siden **Salgstilbud – Dynamics 365 for Sales**.
+Alternativt kan du manuelt konvertere aktiverede salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Behandl i [!INCLUDE[d365fin](includes/d365fin_md.md)]** på siden **Salgstilbud – Dynamics 365 Sales**.
 I sådanne salgstilbud overføres og knyttes feltet **Navn** i det oprindelige tilbud til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Desuden overføres feltet **Gælder til** i tilbud og tilknyttes feltet **Tilbud gyldigt til** i salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Salgstilbud gennemgår mange revisioner, mens de er under udarbejdelse. Både manuel og automatisk behandling af salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)] sikrer, at tidligere versioner af salgstilbud arkiveres, før nye ændringer af salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] behandles.
@@ -93,11 +93,11 @@ Når en salgsordre er opfyldt, oprettes der fakturaer for den. Når du fakturere
 Når der modtages debitorbetaling for salgsfakturaen i [!INCLUDE[d365fin](includes/d365fin_md.md)], ændres status for salgsfaktura til **Betalt** med **Statusårsag**-feltet indstillet til **Delvis**, hvis det er en delvis betaling eller **Afsluttet**, hvis den er endeligt betalt, når du vælger handlingen **Opdater kontostatistik** på debitorsiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Funktionen **Opdater kontostatistik** opdaterer også værdier, f.eks. **Saldo** og **Salg i alt** i **[!INCLUDE[d365fin](includes/d365fin_md.md)]-faktaboksen Kontostatistik** i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan også få de planlagte opgaver Debitorstatistik og POSTEDSALESINV-INV til automatisk at køre begge processer i baggrunden.
 
 ## <a name="see-also"></a>Se også
-[Integration med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Relationsstyring](marketing-relationship-management.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
-[Administrere brugere og deres rettigheder](ui-how-users-permissions.md)    
-[Onboarding af din organisation og dine brugerne til Dynamics 365 (online)](/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online)  
+[Administrere brugere og rettigheder](ui-how-users-permissions.md)    
+[Oversigt over Sales og Salgshub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

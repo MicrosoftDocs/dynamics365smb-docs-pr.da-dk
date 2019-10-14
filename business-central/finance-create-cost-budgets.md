@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b1fdcfb61d9836676a69c9912fd624bd078b950
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239770"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2306408"
 ---
 # <a name="creating-cost-budgets"></a>Oprette omkostningsbudgetter
 Budgettering i omkostningsregnskab minder om budgettering i regnskabet. Et omkostningsbudget oprettes baseret på omkostningstyper, ligesom et budget for regnskabet oprettes baseret på finanskonti.  

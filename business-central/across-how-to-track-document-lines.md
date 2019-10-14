@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2e308fc6bd84e608f641bca1b94b8e6b226a30fb
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1c5190daaa7954e50db903d64455f07f3e3e6627
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241140"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308331"
 ---
 # <a name="track-document-lines"></a>Spor dokumentlinjer
 Du kan se dokumenter, der er relateret til salgsordrelinjer og indkøbsordrelinjer, herunder fra arkiverede ordrelinjer. Relaterede dokumenter, som du kan spore omfatter tilbud, leverancer, modtagelser og rammeordrer. Dette hjælper dig med at identificere dokumenter, der bruges til at behandle ordrer.  

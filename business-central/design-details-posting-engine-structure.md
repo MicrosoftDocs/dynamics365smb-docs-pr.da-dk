@@ -4,27 +4,27 @@ description: Bogføringsgrænsefladen og visse andre funktioner i codeunit 12 br
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 76d59049191f91131df014771ef8546326a51439
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b4bc639675591bb91ad2fa4e56f4e3ed88fed975
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238689"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303072"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designoplysninger: Bogføringsprogramstruktur
 Bogføringsgrænsefladen og visse andre funktioner i codeunit 12 bruger bogføringsfunktioner til at forberede og indsætte finansposter og momsposter. Bogføringsprogrammet er også ansvarlig for oprettelse af finansregister.  
   
  Funktionerne i følgende tabel giver en standardramme til design af bogføringsprocedurer (f.eks. Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry og Reverse) og udelt adgang til tabel 17, Finanspost.  
   
-|Rutine|Description|  
+|Rutine|Beskrivelse|  
 |-------------|---------------------------------------|  
 |StartPosting|Initialiserer bufferen TempGLEntryBuf for bogføring, låser finanspost- og momsposttabeller og initialiserer regnskabsperiode, finansjournal og valutakurs. Bør kun kaldes én gang, så NextEntryNo er 0.|  
 |ContinuePosting|Kontrollerer og bogfører urealiseret moms for tidligere transaktionsforøgelse NextTransactionNo og forbereder bogføring af næste linje.|  

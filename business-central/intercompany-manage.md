@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 42a02a5ec6a519b43df1b147cd4ba94006bdcae0
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8e7a26f3086249e1e36fe302e75141c44bbb46d7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241865"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308568"
 ---
 # <a name="managing-intercompany-transactions"></a>Administrere Intercompany-transaktioner (IC)
 Organisationen består muligvis af flere virksomheder, men har måske ikke det tilsvarende antal regnskabs- og administrationsgrupper. Med Intercompany-funktionen kan du handle med datterselskaber og interne partnerorganisationer på samme måde som med dine eksterne leverandører og kunder. Du angiver kun oplysninger om intercompany-transaktioner én gang i de relevante bilag. Du kan bruge de funktioner, du allerede kender, f.eks. likviditetsstyring. Tilknytningsfunktioner i kontoplanerne og dimensioner er med til at sikre, at oplysningerne vises de rigtige steder.  
@@ -29,7 +29,7 @@ Der er fire overordnede formål med Intercompany-funktioner:
 - Komplet revisionssporing og fuld synlighed af forretningsaktiviteter og transaktionsoversigter  
 - Effektive og besparende transaktioner med søster- og datterselskaber  
 
-Du har den fulde kontrol over alle transaktionsbilag. Du kan f.eks. afvise et bilag, der er sendt til dig, og på denne måde tilbageføre forkerte bogføringer. Eller når du foretager et køb fra en partner eller et datterselskab, kan du opdatere købsordren, så længe den sælgende virksomhed ikke har afsendt nogen varer.  
+Du har den fulde kontrol over alle transaktionsbilag. Du kan f.eks. afvise et bilag, der er sendt til dig, og på denne måde tilbageføre kladdeposteringer og annullere forkerte modtagelser/leverancer. Eller når du foretager et køb fra en partner eller et datterselskab, kan du opdatere købsordren, så længe den sælgende virksomhed ikke har afsendt nogen varer.  
 
 Når du angiver en transaktion, skal du ikke angive kontiene for et individuelt sæt af profiler, men blot oplyse partnervirksomhedens id. Intercompany-funktionen opretter finanslinjer, som resulterer i afstemning af profilerne i de to virksomheder, der er involveret i en transaktion. I tilgodehavender og skyldige beløb tildeler du en koncernintern partnerkode til alle kunder og leverandører. Fra det øjeblik af vil alle de ordrer og fakturaer, der oprettes på baggrund af transaktioner med disse virksomheder, resultere i tilsvarende bilag i partnervirksomheden, som igen resulterer i korrekt afstemning af kontiene.  
 

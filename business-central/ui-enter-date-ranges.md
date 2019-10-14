@@ -9,22 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000759"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315584"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbejde med kalenderdatoer og klokkeslæt
 
 I [!INCLUDE[d365fin](includes/d365fin_long_md.md)] er der flere måder til at angive datoer og klokkeslæt, herunder effektive funktioner, der fremskynder indtastning af data og hjælper dig med at skrive komplekse kalenderudtryk. Der er forskellige steder i programmet, hvor du kan angive datoer og klokkeslæt i felterne. På en salgsordre kan du f.eks. angive afsendelsesdatoen. Når du filtrerer lister eller rapportdata, kan du angive datoer og klokkeslæt for kun at finde de data, du er interesseret i.
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollere internationale og sproglige indstillinger
-
-Siden [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med dine brugerindstillinger i Business Central") angiver det **Land/område** og **Sprog**, du bruger i systemet. Disse indstillinger påvirker måden, du angiver datoer og klokkeslæt på.
+Siden **Mine indstillinger** angiver det **Område** og **Sprog**, du bruger i programmet. Disse indstillinger påvirker måden, du angiver datoer og klokkeslæt på.
 
 -   Indstillingen **Område** bestemmer, hvordan datoer, klokkeslæt, tal og valutaer vises og formateres.
 
@@ -51,7 +50,7 @@ De felter, der viser et kalenderikon, kan angives ved hjælp af kalenderdatovæl
 
 ![Datofelter](media/ui-date-field.png "Eksempel på et datofelt")
 
-Se også [Tastaturgenveje i kalenderdatovælgeren](keyboard-shortcuts.md#calendarshortcuts)
+Se også [Tastaturgenveje i kalenderdatovælgeren](keyboard-shortcuts.md#calendarshortcuts).
 
 ### <a name="day-week-year-pattern"></a>Mønsteret dag\-uge\-år
 
@@ -85,11 +84,11 @@ Regnskabsperioden defineres på siden **Regnskabsperioder**. Hvis du vil se elle
 
 Med arbejdsdatofunktionen kan du registrere transaktioner ved hjælp af en anden dato end dags dato.
 
-Ordet for 'workdate' (arbejdsdato) på det sprog, der er angivet i indstillingen **Sprog**, indstiller datoen til den aktuelt angivne arbejdsdato, der er angivet på siden [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med dine brugerindstillinger i Business Central"). I stedet for at skrive hele ordet kan du skrive en del af ordet fra begyndelsen, f.eks. 'a' eller 'arbejds'.
+Ordet for 'workdate' (arbejdsdato) på det sprog, der er angivet i indstillingen **Sprog**, indstiller datoen til den aktuelt angivne arbejdsdato, der er angivet på siden **Mine indstillinger**. I stedet for at skrive hele ordet kan du skrive en del af ordet fra begyndelsen, f.eks. 'a' eller 'arbejds'.
 
 Hvis du ikke har angivet en arbejdsdato, bliver dags dato brugt som arbejdsdato. Det er en fordel at anvende en arbejdsdato, hvis du har mange transaktioner at udføre på en dato, der ikke er dags dato.
 
-Se også [Ændring af grundlæggende indstillinger, f.eks. arbejdsdatoen](ui-change-basic-settings.md#work-date).
+Se også [Ændre grundlæggende indstillinger, f.eks. arbejdsdatoen](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Ultimodato
 
@@ -129,8 +128,8 @@ På lister, i totaler og rapporter kan angive filtre for datoer, klokkeslæt og 
 |**Betydning**|**Eksempeludtryk (dato)**|**Data, der indgår i filteret**|
 |-----------|---------------------|--------------------|
 |Interval|15-12-00..15-01-01<br /><br />..15-12-00<br /><br />p1..p4|Records med datoer fra og med 15-12-00 til og med 15-01-01.<br /><br />Records med datoen 15 12 00 eller tidligere.<br /><br />Datointerval, der indeholder den anden, tredje og fjerde regnskabsperiode, f.eks. 01-01-20--30-04-20.|
-|Enten/ eller|15-12-00|16-12-00|Records med datoen 15 12 00 eller 16 12 00. Hvis der er records med datoer på begge dage, vises de alle.|
-|Kombination|15-12-00|01-12-00..10-12-00  \n..14-12-00|30-12-00..|Records med datoerne 15-12-00 eller poster fra og med 01-12-00 til og med 10-12-00.  \Records med datoer den 14-12-00 eller tidligere eller den 30-12-00 eller senere, dvs. alle records, undtagen dem med datoer mellem og inklusive 15-12-00 til og med 29-12-00.|
+|Enten/ eller|15 12 00\|16 12 00|Records med datoen 15 12 00 eller 16 12 00. Hvis der er records med datoer på begge dage, vises de alle.|
+|Kombination|15 12 00\|01 12 00..10 12 00  <br /><br />..14 12 00\|30 12 00..|Records med datoerne 15-12-00 eller poster fra og med 01-12-00 til og med 10-12-00.  <br /><br />Records med datoer den 14-12-00 eller tidligere eller den 30-12-00 eller senere, dvs. alle records, undtagen dokumenter med datoer fra og med 15-12-00 til og med 29-12-00.|
 
 Du kan bruge de gyldige formater i datointervalfiltre. F.eks. resulterer man14 03..d 16, der anvendes på et dato og klokkeslætsfelt, i et filter fra kl. 3 mandag i uge 14 for den igangværende arbejdsdatos år, begge inklusive, indtil i dag kl. 16 inklusive.
 

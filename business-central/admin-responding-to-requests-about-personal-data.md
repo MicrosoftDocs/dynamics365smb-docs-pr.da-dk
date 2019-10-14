@@ -5,18 +5,18 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4f96ddb96d9f0b816a4fd6651d4c1453bbf65ca1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244905"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307848"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Svare på anmodninger om personlige oplysninger  
-Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til den generelle forordning om databeskyttelse (GDPR) f.eks. har indbyggere i EU-lande ret til at anmode om eksport, sletning og ændring af deres personlige data. Dette kaldes en *Dataemneanmodning*. Hvis du har klassificeret følsomheden i dine data og er sikker på, at de er korrekte, kan en administrator svare på anmodninger ved hjælp af indstillingerne under **Beskyttelse af personlige oplysninger** i rollecenteret **Administrer brugere, brugergrupper og tilladelser** eller, hvis du bruger Windows-klienten, i rollecenteret **It-chef**. Du kan finde flere oplysninger om at klassificere data og klassificere datafølsomheden i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] under [Klassificering af data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md).  
+Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til den generelle forordning om databeskyttelse (GDPR) f.eks. har indbyggere i EU-lande ret til at anmode om eksport, sletning og ændring af deres personlige data. Dette kaldes en *Dataemneanmodning*. Hvis du har klassificeret følsomheden af dine data og er sikker på, at de er korrekte, kan en administrator reagere på anmodninger ved hjælp af indstillingerne under fanen **Beskyttelse af personlige oplysninger** i rollecenteret **It-chef**. Du kan finde flere oplysninger om at klassificere data og klassificere datafølsomheden i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] under [Klassificering af data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Typer af anmodninger
 
@@ -51,7 +51,7 @@ Hvis du har en situation, hvor du skal eksportere data, der ikke er klassificere
 -   Føje denne tabel og relation manuelt til Rapid Start-pakken og eksportere dem direkte fra Rapid Start-pakken – det er derfor vi generere en Rapid Start-pakke, så du kan ændre den i situationer som denne.
 
 ## <a name="handling-data-about-minors"></a>Håndtering af data om mindreårige
-Hvis en kontakts alder er under myndighedsalderen i henhold til lovgivningen i dit område, kan du angive dette, ved at markere afkrydsningsfeltet **Mindreårig** på kortet **Kontakt**. Når du gør dette, markeres afkrydsningsfeltet **Beskyttelse af personlige oplysninger spærret** automatisk. Når du modtager samtykke fra den mindreåriges forældre eller værge, kan du markere afkrydsningsfeltet **Forældresamtykke modtaget** for at fjerne spærringen af kontakten. Selvom du kan behandle personlige oplysninger for mindreårige, kan du ikke bruge profileringsfunktionen i Dynamics 365 for Sales.
+Hvis en kontakts alder er under myndighedsalderen i henhold til lovgivningen i dit område, kan du angive dette, ved at markere afkrydsningsfeltet **Mindreårig** på kortet **Kontakt**. Når du gør dette, markeres afkrydsningsfeltet **Beskyttelse af personlige oplysninger spærret** automatisk. Når du modtager samtykke fra den mindreåriges forældre eller værge, kan du markere afkrydsningsfeltet **Forældresamtykke modtaget** for at fjerne spærringen af kontakten. Selvom du kan behandle personlige oplysninger for mindreårige, kan du ikke bruge profileringsfunktionen i Dynamics 365 Sales.
 
 > [!Note]
 > Ændringsloggen kan f.eks. registrere oplysninger om, hvornår og af hvem afkrydsningsfeltet **Forældresamtykke modtaget** blevet markeret. En administrator kan oprette dette ved hjælp af guiden **Opsætning af ændringslog** guide og også markere afkrydsningsfeltet **Logfør ændring af Forældresamtykke modtaget** på kortet **Kontakt**. Du kan finde flere oplysninger i [Logføre ændringer](across-log-changes.md).  

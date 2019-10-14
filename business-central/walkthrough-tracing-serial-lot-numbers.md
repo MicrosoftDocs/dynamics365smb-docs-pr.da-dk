@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 913537f5fad5732c729a5e00894400bedcf949b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249028"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310488"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
 
@@ -78,7 +78,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 2.  Vælg handlingen **Ny**.  
 3.  I feltet **Nummer** skal du skrive **2000**, og derefter udfylde de følgende felter.  
 
-    |Beskrivelse|Basisenhed|Produktbogføringsgruppe|Momsproduktbogf.gruppe|Varebogføringsgruppe|Varesporingskode|  
+    |Beskrivelse|Basisenhed|Finans- Produktbogføringsgruppe|Momsproduktbogf.gruppe|Varebogføringsgruppe|Varesporingskode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
     |Racerstel|STK|RÅVARE|MOMS25|RÅVARE|LOTALLE|  
 
@@ -90,7 +90,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 6.  Vælg **Ny**.  
 7.  I feltet **Nummer** skal du skrive **1002**, og derefter udfylde de følgende felter.  
 
-    |Beskrivelse|Basisenhed|Produktbogføringsgruppe|Momsproduktbogf.gruppe|Varebogføringsgruppe|Genbestillingssystem|Varesporingskode|  
+    |Beskrivelse|Basisenhed|Finans- Produktbogføringsgruppe|Momsproduktbogf.gruppe|Varebogføringsgruppe|Genbestillingssystem|Varesporingskode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Racercykel|STK|DETAIL|MOMS25|FÆRDIG|Prod.ordre|SNALLE|  
 

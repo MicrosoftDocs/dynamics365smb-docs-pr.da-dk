@@ -9,17 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a650bb8dec324e94801da828d7e967b514ae3ca1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 65d4562e133d8fa2383bd1fb5092ea001d577396
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251373"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311400"
 ---
 # <a name="create-number-series"></a>Oprette nummerserie
 For hver af de virksomheder, som du opretter, skal du knytte entydige id-koder til ting som finanskonti, debitor- og kreditorkonti, fakturaer og andre dokumenter. Nummereringen er ikke kun vigtig til identifikation. Et veludviklet nummereringssystem gør det også nemmere at administrere og foretage analyse i virksomheden og kan reducere antallet af dataindtastningsfejl.
+
+> [!Important]
+> Der er som standard ikke tilladt huller i nummerserier, fordi den nøjagtige historik over økonomiske transaktioner i henhold til lovgivningen skal være tilgængelig for revision og derfor skal følge en ubrudt rækkefølge uden slettede numre.<br /><br />
+Hvis du vil tillade huller i visse nummerserier, skal du først rådføre dig med din revisor eller regnskabschef for at sikre, at du overholder de juridiske krav i dit land/område. Du kan finde flere oplysninger under [Huller i nummerserier](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
 >   Det anbefales, at du bruger samme nummerseriekoder, som du kan se vist på siden **Nummerserieoversigt** i demoregnskabet CRONUS. Koder som *K-FAK+* giver muligvis ikke mening for dig, men [!INCLUDE[d365fin](includes/d365fin_md.md)] har en række standardindstillinger, som afhænger af disse nummerseriekoder.
@@ -30,6 +34,9 @@ Normalt vil du indstille dine nummerserier til automatisk at indsætte det næst
 
 Hvis du vil bruge mere end én nummerseriekode til en type stamdata - hvis du f.eks. vil bruge forskellige nummerserier til forskellige varekategorier - kan du bruge nummerserierelationer.
 
+## <a name="gaps-in-number-series"></a>Huller i nummerserier
+Ikke alle de poster, du opretter i [!INCLUDE[d365fin](includes/d365fin_md.md)], er økonomiske transaktioner, der skal bruge fortløbende nummerering. Debitorkort, salgstilbud og lageraktiviteter er eksempler på poster, der tildeles et nummer fra en nummerserie, men som ikke er underlagt økonomisk revision og/eller kan slettes. For disse nummerserier kan du markere afkrydsningsfeltet **Tillad huller i numre** på siden **Nummerserielinjer**. Du kan finde flere oplysninger i [Sådan opretter du en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
+
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Egenskaberne for feltet Nummer på dokumenter og kort
 På salgs-, købs- og overførselsdokumenter og på alle kort kan **Nummer** udfyldes automatisk eller manuelt fra en nummerserie og kan konfigureres til at være usynligt.
 
@@ -38,9 +45,9 @@ Feltet **Nummer** kan udfyldes på tre måder:
 1. Hvis der kun findes én nummerserie for typen af dokument eller kort, hvor afkrydsningsfeltet **Standardnumre** er markeret, og afkrydsningsfeltet **Manuel nummerering** ikke er markeret, udfyldes feltet automatisk med det næste nummer i serien, og feltet **Nummer** kan ikke ses.
 
     > [!NOTE]  
-    > Hvis nummerserien ikke fungerer, f.eks. fordi der ikke er flere tal, er feltet **Nummer** synligt, og du kan manuelt angive et nummer eller løse problemerne på siden **Nummerserieoversigt**.
+    > Hvis nummerserien ikke fungerer, f.eks. fordi der ikke er flere tal, er feltet **Nummer** synligt, og du kan manuelt angive et nummer eller løse problemerne på siden **Nummerserie**.
 
-2. Hvis der findes mere end én nummerserie for typen af dokument eller kort, og afkrydsningsfeltet **Standardnumre** ikke er markeret for den nummerserie, der aktuelt er tildelt, er feltet **Nummer** synligt, og kan du slå siden **Nummerserieoversigt** op og vælge den nummerserie, du vil bruge. Det næste nummer i serien indsættes derefter i feltet **Nummer** .
+2. Hvis der findes mere end én nummerserie for typen af dokument eller kort, og afkrydsningsfeltet **Standardnumre** ikke er markeret for den nummerserie, der aktuelt er tildelt, er feltet **Nummer** synligt, og kan du slå siden **Nummerserie** op og vælge den nummerserie, du vil bruge. Det næste nummer i serien indsættes derefter i feltet **Nummer** .
 
 3. Hvis du ikke har defineret en nummerserie for denne type dokument eller kort, eller hvis feltet **Manuel nummerering** er markeret for nummerserien, er feltet **Nummer** synligt, og du skal angive et nummer manuelt. Du kan bruge op til 20 tegn (både tal og bogstaver).
 
@@ -53,6 +60,9 @@ Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Nummerserie**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne på den nye linje efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Vælg handlingen **Linjer**.
+5. På siden **Nummerserielinjer** skal du udfylde felterne for at definere den faktiske brug og indholdet af den nummerserie, du oprettede i trin 2.
+6. Gentag trin 5 for så mange forskellige anvendelser af nummerserien, du har brug for. Feltet **Startdato** angiver, hvilken nummerserielinje der er aktiv.
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Sådan definerer du, hvor en nummerserie skal bruges
 Følgende procedure viser, hvordan du konfigurerer nummerserieren for området Salg. Trinene er som for andre områder.

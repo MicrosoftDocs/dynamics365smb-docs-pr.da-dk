@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c09eedbb812df909a43e514dc462dcf8c1cf182a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249303"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314840"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer
 Denne gennemgang beskriver, hvordan du kan bruge kontoskemaer til at foretage likviditetsforecasts. Kontoskemaer udfører beregninger, der ikke kan foretages direkte i diagrammet for kassekonti. I kontoskemaerne kan du oprette subtotaler for likviditetsindbetalinger og -udbetalinger. Disse subtotaler kan medtages i nye totaler, der kan bruges i forbindelse med udarbejdelse af likviditetsforecasts.  
@@ -67,10 +67,11 @@ Efter opsætning af et kontoskemanavn, definerer Ken hver linje, der vises i kas
     > [!NOTE]  
     >  Ved hjælp af funktionen **Indsæt CF-konti** kan du hurtigt markere pengestrømskonti fra diagrammet for pengestrømkonti og kopiere dem til linjer i kontoskemaet.  
 
-    |Rækkenr.|Beskrivelsen|Sammentællingstype|Sammentælling|Rækketypen|Beløbstype|Vis|  
-    |-------|-----------|-------------|--------|--------|---  ------|----| |C10|Beløb|Bevægelse|Poster|Nettobeløb|Altid|  
+    |Rækkenr.|Beskrivelse|Sammentællingstype|Sammentælling|Rækketype|Beløbstype|Vis|  
+    |-------|-----------|-------------|--------|--------|-----------|----|
+    |C10|Beløb|Bevægelse|Poster|Nettobeløb|Altid|  
     |C20|Beløb til dato|Saldo til dato|Poster|Nettobeløb|Altid|  
-    |C30|Helt regnskabsår|Helt regnskabsår|Poster|Nettobeløb|Altid|  
+    |C30|Hele regnskabsåret|Hele regnskabsåret|Poster|Nettobeløb|Altid|  
 
 4.  Vælg knappen **OK**.  
 
