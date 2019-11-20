@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309456"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774839"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prodshort](includes/prodshort.md)].
 
+Du kan finde en oversigt over de mest populære tastaturgenveje under [Tastaturgenveje (kun pc)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> Du kan få vist en hurtig oversigt, som du kan udskrive, over de mest populære genveje for pc-brugere i [Tastaturgenveje (kun pc)](keyboard-shortcuts-cheatsheet.md). Hvis du vil se en grafisk fremstilling, skal du vælge følgende billede:
+> Hvis du vil have vist en grafisk oversigt over de mest benyttede genveje, skal du vælge følgende billede og hente PDF-filen.
 >
->[ ![Højreklik, og vælg Gem billede som for at downloade til udskrivning](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## <a name="overview"></a>Oversigt
 Tastaturgenveje giver større tilgængelighed, hvilket kan gøre det lettere og mere effektivt at navigere til forskellige områder og elementer på en side. Genvejene understøttes af de fleste webbrowsere, men funktionsmåden kan variere en smule.
@@ -47,11 +49,11 @@ Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til for
 |Alt+Skift+F2|Skifte mellem **Detaljer** og **Vedhæftede filer** i faktaboksruden.|
 |Alt+O|Tilføje en ny note i den valgte post, også selvom faktaboksruden ikke er åben.|
 |ALT + Q<br />(Ctrl+option+Q)|Åbne vinduet **Fortæl mig**. Du kan finde flere oplysninger i [Søge efter sider og oplysninger med Fortæl mig](ui-search.md).|
-|Alt+N |Åbne en side for at oprette en ny post. (Svarer til at vælge **Ny** og **+**-handlinger).
-|Alt+Skift+N |Lukke en nyoprettet side og åbne en ny for at oprette en ny post.
+|Alt+N |Åbne en side for at oprette en ny post. (Svarer til at vælge **Ny** og **+**-handlinger).|
+|Alt+Skift+N |Lukke en nyoprettet side og åbne en ny for at oprette en ny post. På samme måde bogfører Alt+F9 et dokument og opretter et nyt.|
 |Alt+T|Åbne siden **Mine indstillinger**.|
-|Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit"). Dette bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
-|Skift+F12|Åbne funktionsoversigten. Du kan finde flere oplysninger i [Søge efter sider fra en funktionsoversigt](ui-role-explorer.md).|
+|Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit-knap"). Dette bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
+|Skift+F12|Åbn Rollestifinder, en funktionsoversigt. Du kan finde flere oplysninger i [Søge efter sider med Rollestifinder](ui-role-explorer.md).|
 |Ctrl+Alt+Skift+C|Få vist oplysninger på virksomhedskortet.|
 |Ctrl+Alt+F1|Åbne og lukke sideinspektionsruden. Sideinspektionsruden viser oplysninger om siden, f.eks. dens kildetabel, felter, udvidelser og meget mere.<br /><br />Du kan finde flere oplysninger under [Inspektion af sider](across-inspect-page.md).|
 |Ctrl+C |Kopiere værdien i feltet. Hvis feltet er i fokus, og du ikke har markeret tekst i feltet, kopieres hele værdien. Hvis du har markeret tekst i feltet, så kopieres kun den markerede tekst.|

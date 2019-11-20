@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: a01fb01fb6a4e18bb3cfd46693885f7891989804
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304440"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649712"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruge Business Central som din virksomheds Indbakke i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introducerer muligheden for at administrere forretningsinteraktioner med kunder og leverandører direkte i Microsoft Outlook. Med Outlook-tilføjelsesprogrammerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se finansielle data, der er relateret til debitorer og kreditorer samt oprette og sende finansielle dokumenter, f.eks tilbud og fakturaer.  
@@ -27,6 +27,8 @@ Når du derpå åbner Outlook, vises en mailmeddelelse fra *Dynamics 365 Busines
 
 > [!TIP]
 > Hvis du bruger den nye Outlook i en browser, kan [!INCLUDE [prodshort](includes/prodshort.md)]-tilføjelsesprogrammerne være skjult under **Flere handlinger**.
+
+Hvis du arbejder med mere end ét [!INCLUDE [prodshort](includes/prodshort.md)]-regnskab, kan du nemt skifte mellem firmaer i Outlook.
 
 Nogle virksomheder, der bruger Office 365, begrænser brugernes adgang til at implementere tilføjelser. Derfor skal du kontrollere, at du har et Office 365-abonnement, der omfatter mail, hvor du kan implementere tilføjelser. Hvis du vil prøve tilføjelsesprogrammet alligevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 

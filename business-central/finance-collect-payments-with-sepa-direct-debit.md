@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fe015afa5508117fb7425042972e967d7a652485
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302496"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554298"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Indhente betalinger med SEPA Direct Debit
 Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet med kundens samtykke.  
@@ -43,12 +43,12 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 * Konfigurer den Direct Debit-betalingsaftale, der afspejler din aftale med kunden om opkrævning af deres betalinger i en bestemt periode i aftalen.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Sådan konfigureres din bankkonto til SEPA-Direct Debit  
-1. I feltet **Søg** skal du indtaste **Bankkonti** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.  
 2. Åbn den bankkonto, du vil bruge til Direct Debit.  
 3. I oversigtspanelet **Overfør** i feltet **SEPA Direct Debit-format** skal du vælge indstillingen for SEPA Direct Debit.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Sådan konfigureres kundens betalingsform til SEPA-Direct Debit  
-1. I feltet **Søg** skal du angive **Betalingsformer** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingsformer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Definer en betalingsform. Udfyld de Direct Debit\-specifikke felter som beskrevet i følgende tabel.  
 
@@ -61,16 +61,16 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
     >  Angiv ikke en værdi i feltet **Kontonr.**.  
 
 4. Vælg knappen **OK** for at lukke siden **Betalingsformer**.  
-5. I feltet **Søg** skal du indtaste **Debitorer** og derefter vælge det relaterede link.  
+5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
 6. Åbn kortet for den kunde, som du vil konfigurere til SEPA Direct Debit-opkrævning.  
 7. Vælg feltet **Betalingsformskode**, og vælg derefter den betalingsformskode, du har angivet i trin 3.  
 8. Gentag trin 6 og 7 for alle de debitorer, som du vil konfigurere til SEPA Direct Debit-opkrævning.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Sådan konfigureres den Direct Debit-betalingsaftale, der repræsenterer kundeaftalen  
-1. I feltet **Søg** skal du indtaste **Debitorer** og derefter vælge det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
 2. Åbn kortet for den kunde, som du vil konfigurere til SEPA Direct Debit.  
 3. Vælg handlingen **Bankkonti**.  
-4. På siden **Debitors bankkontooversigt** skal du vælge den debitorbankkonto, som skal bruge Direct Debiter, og derefter vælge **Direct Debit-betalingsaftaler** under fanen **Startside** i gruppen **Proces**.  
+4. På siden **Debitors bankkontooversigt** skal du vælge den debitorbankkonto, som skal bruge Direct Debiter, og derefter vælge handlingen **Direct Debit-betalingsaftaler** under fanen Startside i gruppen Proces.  
 5. På siden **SEPA Direct Debit-betalingsaftaler** skal du udfylde felterne som beskrevet i følgende tabel.  
 
     |Felt|Beskrivelse|  
@@ -97,7 +97,7 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 ### <a name="to-create-a-direct-debit-collection"></a>Sådan oprettes en direkte debiteringsopkrævning  
 
  1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Direct Debit-opkrævninger**, og vælg derefter det relaterede link.  
- 2. Vælg **Opret Direct Debit-opkrævning** i gruppen **Ny** under fanen **Startside** på siden **Direct Debit-opkrævninger**.  
+ 2. På siden **Direct Debit-opkrævninger** skal du vælge handlingen **Opret Direct Debit-opkrævning**.  
  3. På siden **Opret Direct Debit-opkrævning** skal du udfylde felterne som beskrevet i følgende tabel.  
 
      |Felt|Beskrivelse|  
@@ -115,8 +115,8 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
       Der føjes en Direct Debit-opkrævning til siden **Direct Debit-opkrævninger**, og der oprettes en eller flere poster med Direct Debit-opkrævning.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Sådan eksporteres en post i en direkte debiteringsopkrævning til en bankfil  
- 1. Vælg **Poster i Direct Debit-opkrævning** i gruppen **Behandle** under fanen **Startside** på siden **Direct Debit-opkrævninger**.  
- 2. På siden **Poster i Direct Debit-opkrævning** skal du markere den post, du vil eksportere, og derefter vælge **Opret fil til Direct Debit-fil** under fanen **Startside** i gruppen **Behandl**.  
+ 1. På siden **Direct Debit-opkrævninger** skal du vælge handlingen **Poster i Direct Debit-opkrævning**.  
+ 2. På siden **Poster i Direct Debit-opkrævning** skal du markere den post, du vil eksportere, og derefter vælge handlingen **Opret fil til Direct Debit**.  
  3. Gem eksportfilen på det sted, hvorfra du sender eller overfører den til din elektroniske bank.  
 
       På siden **Poster i Direct Debit-opkrævning** ændres feltet **Status for Direct Debit-opkrævning** til Fil oprettet. På siden **SEPA Direct Debit-betalingsaftaler** opdateres feltet **Debettæller** med et styk.  
@@ -125,12 +125,12 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Sådan afvises en post i en direkte debiteringsopkrævning  
 
- * På siden **Poster i Direct Debit-opkrævning** skal du markere den post, der ikke blev behandlet korrekt, og derefter vælge **Afvis post** under fanen **Startside** i gruppen **Behandl**.  
+ * På siden **Poster i Direct Debit-opkrævning** skal du markere den post, der ikke blev behandlet korrekt, og derefter vælge handlingen **Afvis post**.  
 
       På siden **Poster i Direct Debit-opkrævning** ændres feltet **Status** til **Afvist**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Sådan lukkes en direkte debiteringsopkrævning  
- *  På siden **Poster i Direct Debit-opkrævning** skal du markere den post, der blev behandlet korrekt, og derefter vælge **Luk opkrævning** under fanen **Startside** i gruppen **Behandl**.  
+ *  På siden **Poster i Direct Debit-opkrævning** skal du markere den post, der ikke blev behandlet korrekt, og derefter vælge handlingen **Luk opkrævning**.  
 
       Den relaterede direkte debiteringsopkrævning er lukket.  
 

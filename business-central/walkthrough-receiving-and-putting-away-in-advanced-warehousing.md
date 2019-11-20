@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4b6626f13e04e3014df3c792e5ace05575b430c4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314696"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553888"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger
 
@@ -136,7 +136,7 @@ På siden **Læg-på-lager (logistik)** kan du administrere læg-på-lager-aktiv
 
 ### <a name="to-put-the-items-away"></a>Sådan lægges varerne på lager  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.  
-2.  Vælg det eneste læg-på-lager-dokument i oversigten, og vælg derefter **Rediger** på fanen **Startside** i gruppen **Administrer**.  
+2.  Vælg det eneste læg-på-lager-dokument i oversigten, og vælg derefter handlingen **Rediger**.  
 
     Lagerets læg-på-lager-dokument åbnes med i alt otte Hent eller Placer-linjer til de fire købsordrelinjer.
 

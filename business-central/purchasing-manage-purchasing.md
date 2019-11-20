@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2019
+ms.date: 10/08/2019
 ms.author: sgroespe
-ms.openlocfilehash: 001a0ed999641529249ceb90913633f34c48b827
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f4cf7026ad3a12262c8e88b9360bcac3ac079b3
+ms.sourcegitcommit: cf36611ca187bb2996a514e9ff395086cd6b3275
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312360"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "2566964"
 ---
 # <a name="purchasing"></a>Indkøb
 Du kan oprette en købsfaktura eller købsordre for at registrere omkostningerne ved køb og spore gæld. Hvis du vil styre en lagerbeholdning, benyttes købsfakturaer også til dynamisk at opdatere lagerniveauer, så du kan minimere lageromkostningerne og yde bedre kundeservice. Købsomkostningerne, herunder serviceudgifter og lagerværdier, der stammer fra bogføring af købsfakturaer, bidrager til avancebeløb og andre finansielle nøgletal i dit Rollecenter.
@@ -44,6 +44,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Konvertere eksempelvis elektroniske fakturaer fra dine leverandører til købsfakturaer i Business Central.|[Modtage og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Lær, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner, hvornår du skal bestille en vare for at modtage den på en bestemt dato.|[Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)|
 |Løse forvirring, når der findes to eller flere poster for samme kreditor.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
+|Administrer dit tilsagn til en kreditor om at købe store mængder, der leveres i portioner over en periode.|[Arbejde med rammekøbsordrer](sales-how-to-create-blanket-sales-orders.md)|
 
 ## <a name="see-also"></a>Se også
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315271"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649784"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 
@@ -52,9 +52,7 @@ Den følgende procedure er baseret på et varekort. Trinene er de samme for alle
 3. Vælg ikonet **+** i **Links**.
 4. I feltet **Hyperlinkadresse** skal du angive linket.
 
-    - Hvis du vil sammenkæde med en fil på din computer eller dit netværk, skal du angive den fulde sti og filnavn, f.eks. **C:\Dokumenter\faktura1.doc**.
-    - Hvis du vil sammenkæde med et websted, skal du angive URL-adressen (internetadressen), f.eks. **www.microsoft.com**.
-    - Hvis du vil sammenkæde med et program, skal du angive en bestemt streng for at åbne programmet. Hvis du f.eks. vil åbne Outlook med en ny tom mail til et bestemt alias, skal du angive **mailto:testalias**.  
+    Linket skal være en gyldig URL-adresse til internettet eller intranettet.
 
 5. Angiv eventuelle oplysninger om linket i feltet **Beskrivelse**.  
 6. Vælg knappen **OK**.
@@ -69,7 +67,7 @@ Du kan skrive en note til et dokument eller et kort, for f.eks. at kommunikere s
 
 Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle andre understøttede dokumenter og kort.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
 2. Marker den salgsordre, du vil skrive en note om, og vælg derefter fanen **Vedhæftede filer** i faktaboksen.
 3. Vælg ikonet **+** i sektionen **Noter**.
 4. Skriv en tekst i feltet **Note**, f.eks. "Dette er en vigtig bestilling".

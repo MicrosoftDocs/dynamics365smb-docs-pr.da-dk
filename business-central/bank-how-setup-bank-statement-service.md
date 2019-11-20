@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e688eb8aacba049c91cd0dcd83522e5bd5eec4f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 277a35063bb006dc1dfe284c64a153c8ca0d71da
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307584"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692892"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurere tjenesten Envestnet Yodlee Bank Feeds
 Du kan importere elektroniske bankkontoudtog fra din bank, så du hurtigt kan udfylde siden **Betalingsudligningskladde** og kan udligne betalinger og afstemme bankkontoen. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -28,6 +28,7 @@ Du kan importere elektroniske bankkontoudtog fra din bank, så du hurtigt kan ud
 > [!NOTE]
 > Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i onlineversionen af Business Central. Hvis du vil bruge denne funktionalitet lokalt, skal du have en cobrand-konto hos Envestnet Yodlee.<br /><br />
 > Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i USA og Canada.
+> Kun banker, der er hjemmehørende i disse lande, understøttes, selvom bankerne fra andre lande kan blive vist i Envestnet Yodlee Bank Feeds-vinduet til bankvalg i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]
 > Kontakt Microsoft Support for at få teknisk hjælp til funktionen Envestnet Yodlee. Kontakt ikke Envestnet Yodlee. Du kan finde flere oplysninger under [Konfigurere teknisk support til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).

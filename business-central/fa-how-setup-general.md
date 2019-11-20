@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 20e934c3556f408a48e595e6c5ef4f46809aa742
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302712"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554250"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Angive generelle oplysninger om anlægsaktiver
 Før du kan administrere anlægsaktiver, skal du oprette standardfinanskonti, allokeringsnøgler, kladdetyper og -navne for bogføring og ompostering af anlægsaktiver, og du kan klassificere anlægsaktiver i arter, f.eks materielle og immaterielle.
@@ -105,7 +105,7 @@ Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[d365fin](includes
 
     Aktivér finansintegration ved hjælp af de næste trin. Først skal sikre dig, at finansintegration er deaktiveret for alle afskrivningsprofiler, og derefter skal du bogføre åbningsposter og endelig aktivere finansintegration.  
 4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
-5. Vælg den relevante afskrivningsprofil. På fanen **Startside** i gruppen **Administrer** skal du vælge **Rediger** for at åbne siden **Afskrivningsprofilkort**.
+5. Vælg det relevante afskrivningsprofilkort, og vælg derefter handlingen **Rediger** for at åbne siden **Afskrivningsprofilkort**.
 6. På oversiftspanelet **Integration** skal du sørge for, at alle felter er tomme, ved at fjerne alle markeringer. Hvis du har mere end én afskrivningsprofil, skal du deaktivere finansintegration for hver enkelt.  
 7. Skriv følgende linjer for hvert aktiv i anlægskladden:
    * En linje med anskaffelsen.

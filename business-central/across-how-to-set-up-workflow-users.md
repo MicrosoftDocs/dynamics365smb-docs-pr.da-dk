@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ee8080689c948daa14d05e8b970de63da749746e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88919a3665aff5f9d9ae7a6ead1fa19581119977
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305208"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775399"
 ---
 # <a name="set-up-workflow-users"></a>Oprette brugere til arbejdsgange
 Før du kan oprette arbejdsgange, skal du konfigurere de brugere, der indgår i arbejdsgangene. Dette er nødvendigt f.eks. for at angive, hvem der skal modtage en besked om at udføre trin i en arbejdsgang.  
@@ -40,7 +40,7 @@ Workflowbrugere, der fungerer som godkendelsesbrugere, både godkendelsesanmoder
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
-    |**Brugernavn**|Angiv den bruger, der skal indgå i arbejdsgange.<br /><br /> Brugeren skal findes på siden **Brugeropsætning**. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).|  
+    |**Brugernavn**|Angiv den bruger, der skal indgå i arbejdsgange.<br /><br /> Brugeren skal findes på siden **Brugeropsætning**. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).|  
     |**Rækkefølgenr.**|Angiv den rækkefølge, som arbejdsgangsbruger deltager i en arbejdsgang i forhold til andre brugere. Dette felt kan bruges, f.eks. til at angive, hvornår brugeren godkender i forhold til andre godkendere, når du bruger indstillingen **Brugergruppe for workflow** i feltet **Godkendertype** i den relaterede workflowrespons. **TIP:** For at definere, at en godkendelsesanmodning ikke godkendes, før flere lige godkendere har godkendt den, uanset et godkendelseshierarki, skal du oprette en simpel arbejdsganggruppe ved at tildele det samme nummer i rækkefølgen til de relevante godkendere.|  
 6. Gentag trin 5 for at føje flere arbejdsgangbrugere til brugergruppen.  
 7. Gentag trin 2 til 6 for at tilføje flere arbejdsgangbrugergrupper.  

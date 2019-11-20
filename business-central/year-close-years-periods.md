@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 3d236654bb5ee2786d8cfaf3479a883b01795a4a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0862806e6ad92dd3988c4a23090e3db7657fde1a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314384"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554592"
 ---
 # <a name="closing-years-and-periods"></a>Afslutning af år og perioder
 Ved afslutningen af et regnskabsår er der en række administrative opgaver, du skal udføre, som f.eks. kontrol af, at alle dokumenter og kladder er bogført, og at valutadata er opdateret, at bøger er afsluttet og meget mere. De faktiske opgaver afhænger af din virksomhed.
@@ -31,7 +31,7 @@ Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at l
 | Få et overblik over aktiviteter, der almindeligvis udføres i slutningen af perioden, f.eks at alle dokumenter og kladder er bogført eller kørsel af kontoskemaer. |[Ultimoperioder](year-how-complete-period-end-processes.md) |
 | Opdatere valutakurser og regulere kurserne for bogførte debitor-, kreditor- og bankposter. |[Opdatere valutakurser](finance-how-update-currencies.md) |
 | Allokere omkostninger og indtægter mellem konti og dimensioner. |[Allokere omkostninger og indtægter](year-allocate-costs-income.md) |
-| Forbered, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, i skattemyndighedernes webtjeneste. |[Fremgangsmåde: Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
+| Forbered, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, i skattemyndighedernes webtjeneste. |[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
 | Udskrive rapporter for at bekræfte finans-, debitor-, kreditor- og banksaldi, inden en periode afsluttes. |[Forberede rapporter før afslutning](year-prepare-preclose-reports.md) |
 | Afslutte regnskabsperioder og -år, overføre resultatopgørelsessaldi til balancekonti og bogføre årsafslutningens lukningspost. |[Afslutningregnskab](year-close-books.md) |
 | Udskrive rapporter, der kan være til nytte, når du skal oprette regnskabsopgørelser. |[Forberedelse af ultimoopgørelser](year-prepare-close-statement.md) |

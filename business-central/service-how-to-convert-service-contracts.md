@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 777133cb15b6949eafe20abf325556cd8b16bb9a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316043"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554784"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter, som omfatter momsbeløb
 Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal disse kontrakter konverteres manuelt. Dette emne beskriver flere alternative metoder, der kan bruges til konvertering af servicekontrakter.  
@@ -32,9 +32,9 @@ Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal diss
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontraktstyring**, og vælg derefter det relaterede link.  
 2. Under **Lister** skal du vælge **Servicekontrakter**.  
 3. Opret en ny forudbetalt servicekontrakt. Angiv en startdato til **01.01.2017** og et fakturaperiodeåret for debitor **20000**.  
-4. Denne kontrakt skal underskrives. Under fanen **Startside** i gruppen **Behandle** skal du vælge **Underskriv kontakt**.  
+4. Hvis du vil underskrive kontrakten, skal du vælge handlingen **Underskriv kontrakt**.  
 5. Opret en servicefaktura.
-6. Fakturaen er angivet som en ikke-bogførte servicefaktura. For at se servicefakturaen skal du vælge **Service**, vælge **Kontraktstyring** og derefter vælge **Service fakturaer**.  
+6. Fakturaen er angivet som en ikke-bogførte servicefaktura. For at se servicefakturaen skal du vælge handlingen **Service**, vælge handlingen **Kontraktstyring** og derefter vælge handlingen **Servicefakturaer**.  
 7. Bogfør servicefakturaen.  
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ Følgende procedure beskriver, hvordan du opretter en ny kreditnota ved hjælp a
 1. Du kan køre momssatsændringsværktøjet på 1 juli 2017. Den generelle produktbogføringsgruppe eller momsproduktbogføringsgruppen ændres. Du kan finde flere oplysninger i [Arbejde med moms af salg og køb](finance-work-with-vat.md).  
 2. Når du har kørt momssatsændringsværktøjet skal du angive en kontraktudløbsdato for servicekontrakten. Du kan nu slette servicekontraktlinjen og oprette en ny linje, der er identisk med den gamle.  
 3. Opret en ny faktura for perioden januar 2017 til december 2012 ved hjælp af den nye momssats.  
-4. For at oprette en anden kreditnota skal du på siden **Servicekreditnotaer** vælge **Ny** for at oprette en ny servicekreditnota.  
+4. Hvis du vil oprette en anden kreditnota skal du på siden **Servicekreditnotaer** vælge handlingen **Ny** for at oprette en ny servicekreditnota.  
 5. Vælg handlingen **Hent forudbetalte kontraktposter**.  
 6. Når konverteringen er fuldført, vil moms og serviceposter være korrekte.  
 

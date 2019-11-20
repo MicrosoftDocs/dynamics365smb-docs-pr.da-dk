@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 127d0dd747fa29926852be9e99e36d992e7d0ea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305696"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798495"
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
 For at du kan komme hurtigt i gang, omfatter [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurationer for de fleste økonomiske processer. Du kan ændre konfigurationerne, så de passer til din virksomhed. På rollecenteret kan du f.eks. bruge en assisteret opsætningsvejledning til at angive satsen for salgsmoms for din lokation.  
@@ -33,7 +33,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette kontoskemaer og definere kontokategorier for at definere indholdet af finansielle diagrammer og rapporter, f.eks. balancen og årsopgørelsesrapporter.|[Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)|
 |Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Konfigurere regnskabsperioder. |[Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md) |
-| Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)|
+| Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Konfigurere moms](finance-setup-vat.md)|
 |Forbered håndtering af urealiseret moms i forbindelse med bogføringsmetoder, der er baseret på kontanter.|[Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter](finance-setup-unrealized-vat.md)|
 | Angive salgs- og købsfunktioner til at håndtere betalinger i fremmed valuta.|[Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Definere en eller flere ekstra valutaer, så beløbene automatisk rapporteres i både RV og den ekstra rapporteringsvaluta i hver finanspost og i andre poster.|[Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)|

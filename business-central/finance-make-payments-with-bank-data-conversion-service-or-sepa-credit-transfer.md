@@ -1,7 +1,7 @@
 ---
-title: Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel | Microsoft Docs
+title: Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel | Microsoft Docs
 description: Du kan behandle betalinger til dine kreditorer ved at eksportere en fil sammen med betalingsoplysningerne fra kladdelinjerne.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,15 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c1089a48cee57f6e42e48d995ed9c9ae7fd8fd80
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.author: bholtorf
+ms.openlocfilehash: 35904d33c7e456e3797dae0835ed7462a65f4a7f
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302008"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692844"
 ---
-# <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel
 På sien **Udbetalingskladde** kan du behandle betalinger til dine kreditorer ved at eksportere en fil sammen med betalingsoplysningerne fra kladdelinjerne. Derefter kan du uploade filen til din elektroniske bank, hvor de relaterede pengeoverførsler behandles. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter SEPA-kreditoverførselsformatet, men i dit land/område anvendes der muligvis andre formater til elektroniske betalinger.
 
 I den generelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver en global udbyder af tjenester til konvertering af bankoplysninger til ethvert filformat, som kræves af din bank, konfigureret og tilsluttet. I nordamerikanske versioner kan den samme tjeneste bruges til at sende betalingsfiler som elektronisk pengeoverførsel (EFT), men med en lidt anderledes proces. Se trin 6 i [Sådan eksporterer du betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).   
@@ -27,8 +27,8 @@ I den generelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver en
 > [!NOTE]  
 >  Når du har kontrolleret, at betalingerne er behandlet af banken, kan du fortsætte med at bogføre udbetalingskladdens linjer.  
 
-## <a name="setting-up-the-bank-data-conversion-service"></a>Konfigurere tjenesten til konvertering af bankdata
-Aktiver funktionen Tjeneste til konvertering af bankdata for at konvertere en fil med bankkontoudtog til et format, som du kan importere, eller for at få dine eksporterede betalingsfiler konverteret tilbage til det format, som din bank kræver. Du kan finde flere oplysninger under [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-statement-service.md).
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere AMC Banking 365 Fundamentals-udvidelsen
+Aktiver AMC Banking 365 Fundamentals-udvidelsen for at konvertere en fil med bankkontoudtog til et format, som du kan importere, eller for at få dine eksporterede betalingsfiler konverteret tilbage til det format, som din bank kræver. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Konfigurere SEPA-kreditoverførsel
 Fra siden **Udbetalingskladde** kan du eksportere betalinger til en fil til overførsel til din elektroniske bank til behandling af de relaterede pengeoverførsler. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter SEPA-kreditoverførselsformatet, men i dit land/område anvendes der muligvis andre formater til elektroniske betalinger.  
@@ -64,7 +64,7 @@ Før du kan behandle betalingen elektronisk ved eksport af betalingsfiler i form
 1. Indtast **Udbetalingskladder** i feltet **Søg**, og vælg derefter det relaterede link.  
 2. Åbn den betalingskladde, som du kan bruge til at behandle betalinger, ved at eksportere filer i formatet SEPA-kreditoverførsler.  
 3. Vælg rulle\-knappen i feltet **Kladdenavn**.  
-4. På siden **Finanskladdenavne** under fanen **Startside** skal du i gruppen **Administrer** vælge **Rediger liste**.  
+4. På siden **Finanskladdenavne** skal du vælge handlingen **Rediger liste**.  
 5. Markér afkrydsningsfeltet **Tillad eksport af betaling** på linjen for den betalingskladde, som du vil bruge til eksport af betalinger.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Sådan forbindes dataudvekslingsdefinitionen for en eller flere betalingstyper med den eller de relevante betalingsmetode(r)  
@@ -80,10 +80,10 @@ Udfyld betalingskladdelinjerne for forfaldne betalinger til kreditorer med mulig
 ## <a name="exporting-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
 Når du er klar til at bogføre betalinger til dine kreditorer eller refusioner til dine medarbejdere, kan du eksportere en fil med betalingsoplysningerne på kladdelinjerne på siden **Udbetalingskladde**. Derefter kan du overføre filen til din bank for at behandle de relaterede pengeoverførsler.
 
-I den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] er tjenesten til konvertering af bankdata konfigureret og tilsluttet. I nordamerikanske versioner kan den samme tjeneste bruges til at sende betalingsfiler som elektronisk pengeoverførsel (EFT), men med en lidt anderledes proces. Se trin 6 i [Sådan eksporterer du betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
+AMC Banking 365 Fundamentals-udvidelsen er tilgængelig i standardversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)]. I nordamerikanske versioner kan den samme udvidelse bruges til at sende betalingsfiler som elektronisk pengeoverførsel (EFT), men med en lidt anderledes proces. Se trin 6 i [Sådan eksporterer du betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
->   Inden du kan udlæse betalingsfiler fra betalingskladden, du skal angive det elektroniske format for den bankkonto, der anvendes, og du skal aktivere tjenesten til konvertering af bankdata. Du kan finde flere oplysninger i [Oprette bankkonti](bank-how-setup-bank-accounts.md) og [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md). Desuden skal du markere afkrydsningsfeltet **Tillad eksport af betaling** på siden **Finanskladdenavne**. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
+>   Inden du kan eksportere betalingsfiler fra betalingskladden, skal du angive det elektroniske format for den bankkonto, der anvendes, og du skal aktivere AMC Banking 365 Fundamentals-udvidelsen. Du kan finde flere oplysninger i [Konfigurere bankkonti](bank-how-setup-bank-accounts.md) og [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md). Desuden skal du markere afkrydsningsfeltet **Tillad eksport af betaling** på siden **Finanskladdenavne**. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 Brug siden **Kreditoverførselsjournaler** til at få vist de betalingsfiler, som er eksporteret fra betalingskladden. På denne side kan du også udlæse betalingsfiler igen i tilfælde af tekniske fejl eller filændringer. Bemærk dog, at de eksporterede EFT-filer ikke vises på denne side og ikke kan reeksporteres.  
 
@@ -102,7 +102,7 @@ I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Frem
     Eventuelle fejlmeddelelser vises i faktaboksen **Fejl i betalingsfil**, hvor du også kan vælge en fejlmeddelelse for at se detaljerede oplysninger. Du skal løse alle fejl, før betalingsfilen kan eksporteres.
 
     > [!TIP]  
-    >   Når du bruger tjenesten til konvertering af bankdata, angiver en fælles fejlmeddelelse, at bankkontonummeret ikke har den længde, der kræves af din bank. For at undgå eller løse fejlen skal du fjerne værdien i feltet **IBAN** på siden **Bankkontokort** og derefter bruge feltet **Bankkontonr.** til at angive et bankkontonummer i det format, som kræves af din bank.
+    >   Når du bruger AMC Banking 365 Fundamentals-udvidelsen, angiver en fælles fejlmeddelelse, at bankkontonummeret ikke har den længde, der kræves af din bank. For at undgå eller løse fejlen skal du fjerne værdien i feltet **IBAN** på siden **Bankkontokort** og derefter bruge feltet **Bankkontonr.** til at angive et bankkontonummer i det format, som kræves af din bank.
 
 5. På siden **Gem som** skal du angive den placering, filen eksporteres til, og derefter vælge **Gem**.
 
@@ -139,7 +139,7 @@ Du kan eksportere betalingsfiler igen fra siden **Kreditoverførselsjournaler**.
 Når elektronisk betaling er behandlet af banken, kan du bogføre betalingerne. Du kan finde flere oplysninger under [Foretage betalinger](payables-make-payments.md).
 
 ## <a name="see-also"></a>Se også  
-[Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-statement-service.md)  
+[Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)  
 [Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)   
 [Arbejde med finanskladder](ui-work-general-journals.md)  

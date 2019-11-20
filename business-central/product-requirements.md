@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3a5fc25004ce7dd838369ff178b8d613fb984acd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313512"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649760"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumkrav til brug af Business Central
 Før du åbner [!INCLUDE [prodshort](includes/prodshort.md)] online, anbefales det, at du kontrollerer, at din computer eller mobilenhed opfylder eller overstiger minimumsystemkravene til produktet. Denne artikel indeholder kravene.  
@@ -33,9 +33,9 @@ Før du åbner [!INCLUDE [prodshort](includes/prodshort.md)] online, anbefales d
 **Enhedsstørrelse:** [!INCLUDE[d365fin](includes/d365fin_md.md)] understøttes på smartphones med en minimumskærmstørrelse på 4" og tablets med en minimumskærmstørrelse på 7".  
 
 ## <a name="outlook"></a>Outlook
-**Outlook-programmer:** For at kunne bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2016 eller nyere, Outlook-webappen, OWA til iPhone, OWA til iPad eller OWA til Android. Organisationen skal også bruge Office 365. Du kan ikke bruge [!INCLUDE [prodshort](includes/prodshort.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø.  
-**Webbrowsere:** Når du bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook-webappen (OWA), kræver tilføjelsesprogrammet, at computeren kører en af de anførte understøttede webbrowsere, der er angivet tidligere i denne artikel.  
-**Platforme:** Når du bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-tilføjelsesprogrammet i OWA til iPhone, OWA til iPad og OWA til Android, kræver tilføjelsesprogrammet, at mobilenheden kører en af de anførte understøttede mobilenheder til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Outlook-programmer:** For at kunne bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2016 eller nyere, Outlook i en browser, Outlook til iPhone, Outlook til iPad eller Outlook til Android. Organisationen skal også bruge Office 365. Du kan ikke bruge [!INCLUDE [prodshort](includes/prodshort.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø.  
+**Webbrowsere:** Når du bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds indbakke i en browser, kræver tilføjelsesprogrammet, at computeren kører en af de anførte understøttede webbrowsere, der er angivet tidligere i denne artikel.  
+**Platforme:** Når du bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-tilføjelsesprogrammet i Outlook til iPhone, Outlook til iPad eller Outlook til Android, kræver tilføjelsesprogrammet, at mobilenheden kører en af de anførte understøttede mobilenheder til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Rediger i Excel:** Når du vil bruge Excel-tilføjelsesprogrammet til at foretage ændringer i Excel og overføre ændringer til [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du bruge Excel 2016 eller nyere. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  

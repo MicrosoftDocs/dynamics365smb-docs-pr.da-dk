@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dbbc8ff96f381a5e52c67eac9dfe2c91ee17eb5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303984"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692724"
 ---
 # <a name="setting-up-banking"></a>Konfigurere banktransaktioner
 Når du bruger bankkontokort kan du holde styr på dine bankkonti i alle valutaer. Når du har oprettet bankkontiene, får du også mulighed for at udskrive check.
@@ -28,7 +28,7 @@ Hvis du vil bruge elektroniske tjenester til at indlæse bankkontoudtog og udlæ
 | --- | --- |
 | Oprette bankkontokort for hver af dine bankkonti, så du kan holde styr på banktransaktioner. |[Konfigurere bankkonti](bank-how-setup-bank-accounts.md) |
 | Konfigurer en ekstern tjeneste, hvor du kan indlæse bankkontoudtog som bankfeeds til betalingsudligning og bankafstemning. |[Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md) |
-| Konfigurer en ekstern tjeneste, hvor du kan udlæse dine betalinger til banken til behandling og indlæse bankkontoudtog som bankfiler til betalingsudligning og bankafstemning. |[Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md) |
+| Konfigurer en ekstern tjeneste, hvor du kan udlæse dine betalinger til banken til behandling og indlæse bankkontoudtog som bankfiler til betalingsudligning og bankafstemning. |[Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Se også
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  

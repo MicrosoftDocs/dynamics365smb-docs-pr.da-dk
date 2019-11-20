@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309312"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798567"
 ---
 # <a name="create-contacts"></a>Oprette kontakter
 Du møder regelmæssigt personer fra andre virksomheder, hvilket kan udvikle sig til forretningsforhold, f.eks. en kunderelation. Når en sådan ny kontakt opstår, skal der registreres flest mulige oplysninger på et kontaktkort, så kommunikationen kan fortsættes.
 
 Du kan oprette en kontakt som typen **Virksomhed**, f. eks. hvis relationen ikke er en enkelt person, men en enhed, f. eks. en kontrahent eller bank. Du kan også oprette en kontakt som typen **Person**. Funktionen er mere eller mindre den samme for begge typer, og begge kan ændres, efterhånden som relationen udvikles.
 
-Når et kontaktkort konverteres til et debitorkort, bliver kontakten eller kontaktvirksomheden f. eks. navnet på debitoren. Kontaktkortet slettes ikke, og data på de to kort synkroniseres fremad, efterhånden som du kæder dem sammen.
+Når et kontaktkort konverteres til et debitorkort, bliver kontakten eller kontaktvirksomheden f. eks. navnet på debitoren. Kontaktkortet slettes ikke, og data på de to kort synkroniseres fremad, hvis du kæder dem sammen.
 
 ## <a name="person-or-company"></a>Person eller virksomhed
 Du kan beslutte, om du vil oprette en kontakt som en person eller en virksomhed. Det afhænger typisk af, om du kender navnet på kontaktpersonen på tidspunktet for oprettelsen. Det gør du, når du udfylder feltet **Type** på siden **Kontaktkort**. Du kan også have kontaktkort for både en virksomhed og en eller flere personer, der arbejder i virksomheden. Det sker automatisk, når du udfylder feltet **Virksomhedsnavn** på et kontaktkort af typen **Person**.
@@ -45,7 +45,7 @@ Hvis du har debitorer, kreditorer og bankkonti, som du vil oprette kontaktkort f
 > [!NOTE]  
 > Før du kan oprette kontakter baseret på eksisterende data, skal du angive en forretningsrelationskode for debitorer, kreditorer eller bankkonti i oversigtspanelet **Interaktioner** på siden **Marketingopsætning**. Der er flere oplysninger i [Opsætning af kontakter](marketing-setup-contacts.md).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv en af følgende, afhængigt af hvad du vil oprette kontakter ud fra, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv et af følgende, afhængigt af hvad du vil oprette kontakter ud fra, og vælg derefter det relaterede link.
    * **Opret kontakter fra debitorer**
    * **Opret kontakter fra kreditorer**
    * **Opret kontakter fra bankkonti**

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 26be6007c195964758e070d3d1b1e03800d4be4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e8306ad65b41784e853dfc46a41c2deee997180
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316688"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577227"
 ---
 # <a name="register-new-vendors"></a>Registrere nye kreditorer
 Kreditorer leverer de produkter, du sælger. Hver kreditor, som du køber fra, skal registreres som et kreditorkort.
@@ -28,6 +28,8 @@ Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe p
 
 > [!NOTE]  
 >   Hvis der er kreditorskabeloner til forskellige kreditortyper, vises der automatisk en side, når du opretter et nyt kreditorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én kreditorskabelon, bruger nye kreditorkort altid denne skabelon.
+<br><br>
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PZtd]
 
 ## <a name="to-create-a-new-vendor-card"></a>Sådan oprettes et nyt kreditorkort
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorer**, og vælg derefter det relaterede link.  

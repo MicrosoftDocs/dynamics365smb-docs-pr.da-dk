@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315224"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553814"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importere og eksportere et rapport- eller dokumentlayout
 Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som en fil til og fra en placering på din computer og netværket. For eksempel kan du eksportere et rapportlayout og derefter sende filen til en anden person for redigering. Denne person kan derefter foretage ændringer af layoutet og returnere filen til dig, så du kan importere det tilbage.  
@@ -29,11 +29,11 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
 
-2.  Vælg rækken med den rapport, der indeholder det brugerdefinerede rapportlayout, du vil eksportere, og brug derefter fanen **Startside** til at vælge **Brugerdefinerede layout** i gruppen **Proces**.  
+2.  Vælg rækken med den rapport, der indeholder det brugerdefinerede rapportlayout, du vil eksportere, og vælg derefter handlingen **Brugerdefinerede layout**.  
 
-3.  På siden **Rapportlayout** skal du markere det rapportlayout, du vil eksportere til en fil, og derefter vælge **Eksportér layout** under fanen **Startside** i gruppen **Proces**.  
+3.  På siden **Rapportlayout** skal du markere det rapportlayout, du vil eksportere til en fil, og derefter vælge handlingen **Eksportér layout**.  
 
-4.  Brug dialogboksen **Udlæs fil** til at vælge **Gem**, og gem derefter filen til en placering på din computer eller netværket.  
+4.  Brug dialogboksen **Udlæs fil** til at vælge knappen **Gem**, og gem derefter filen til en placering på din computer eller netværket.  
 
 ### <a name="to-import-a-report-layout-file"></a>Sådan importerer du en rapportlayoutfil  
 
@@ -43,11 +43,11 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
 2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
 
-3.  Vælg rækken med den rapport, du vil importere rapportlayoutet til, og brug derefter fanen **Startside** til at vælge **Brugerdefinerede layout** i gruppen **Proces**.  
+3.  Vælg rækken med den rapport, du vil importere rapportlayoutet i, og vælg derefter handlingen **Brugerdefinerede layout**.  
 
-4.  På siden **Rapportlayout** skal du markere det rapportlayout, du vil importere filen til, og derefter vælge **Importér layout** under fanen **Startside** i gruppen **Proces**.  
+4.  På siden **Rapportlayout** skal du markere det rapportlayout, du vil importere filen i, og derefter vælge handlingen **Importér layout**.  
 
-5.  Brug dialogboksen **Importér** til at vælge det dokument, der definerer rapportlayoutet, og vælg derefter **Åbn**.  
+5.  Brug dialogboksen **Importér** til at vælge det dokument, der definerer rapportlayoutet, og vælg derefter knappen **Åbn**.  
 
  Det oprindelige brugerdefinerede rapportlayout erstattes med det importerede rapportlayout.  
 

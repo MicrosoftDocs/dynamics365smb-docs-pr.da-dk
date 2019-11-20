@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2019
-ms.openlocfilehash: 22471a6e0281f6f7aa4e9c9bbf0b2d9c5a0fd710
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8d25dc4c27be6069782ff30e785f884ee406d2e4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309288"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553938"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruge profilspørgeskemaer til at klassificere forretningskontakter
 Du kan definere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler. Du kan i det enkelte spørgeskema definere forskellige spørgsmål, du vil stille dine kontaktpersoner.  
@@ -24,11 +24,11 @@ Du kan også køre spørgeskemaet for at besvare nogle af spørgsmålene automat
 
 ## <a name="to-add-a-profile-questionnaire"></a>Sådan tilføjes et profilspørgeskema
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af spørgeskema**, og vælg derefter det relaterede link.  
-2.  Under fanen **Startside** i gruppen **Ny** skal du vælge **Ny**.  
+2.  Vælg handlingen **Ny**.  
 3.  Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Sådan føjes spørgsmål til et profilspørgeskema
-1.  Vælg det relevante profilspørgeskema, og gå til fanen **Start**, og vælg **Rediger opsætning af spørgeskema** i gruppen **Proces**.  
+1.  Vælg det relevante profilspørgeskema, og vælg handlingen **Rediger opsætning af spørgeskema**.  
 2.  I den første tomme linje skal du i feltet **Type** vælge **Spørgsmål** og skrive dit spørgsmål i feltet **Beskrivelse**. Udfyld de andre felter på linjen.  
 3.  Vælg **Svar** i den næste tomme linje i feltet **Type**, og skriv svaret i feltet **Beskrivelse**.  
 4.  Vælg prioriteten i feltet **Prioritet**. I felterne **Fra-værdi** og **Til-værdi** defineres et interval. Kontakter, der modtager point inden for det angivne interval, får svaret.  

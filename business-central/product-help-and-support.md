@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 10/01/2019
-ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/06/2019
+ms.openlocfilehash: e1c7d5f7880f283c0b26679572202aaa769a1227
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313605"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767653"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
@@ -73,7 +73,7 @@ Sektionen **Fejlfinding** viser teknisk information, som din administrator eller
 Din [!INCLUDE[prodshort](includes/prodshort.md)]-detailpartner kan hjælpe dig med teknisk support. [!INCLUDE[prodshort](includes/prodshort.md)] sælges gennem partnere, og denne sektion gør det nemt for dig at kontakte din detailforhandler, hvis de har angivet deres supportkontaktoplysninger. Hvis din [!INCLUDE[prodshort](includes/prodshort.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp.  
 
 > [!NOTE]
-> Denne sektion er kun tilgængelig, hvis du har betalt for et [!INCLUDE [prodshort](includes/prodshort.md)]-abonnement. Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[prodshort](includes/prodshort.md)], har du ikke en forhandlerpartner, og du ikke kan kontakte Microsofts supportteam. Du kan finde en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145).  
+> Denne sektion er kun tilgængelig, hvis du har betalt for et [!INCLUDE [prodshort](includes/prodshort.md)]-abonnement. Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[prodshort](includes/prodshort.md)], har du ikke en forhandlerpartner, og du ikke kan kontakte Microsofts supportteam. Du kan finde en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner).  
 
 ### <a name="support-contacts"></a>Supportkontrakter
 
@@ -83,6 +83,8 @@ Hvis du vil advare din partner mod et problem, skal du vælge hyperlinket for en
 
 ## <a name="see-also"></a>Se også
 
+[Undervisningskatalog for Business Central](readiness/readiness-learning-catalog.md)  
+[Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner)  
 [Blog post: Find de rigtige ressourcer, og giv feedback](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central developer og ITpro docs](/dynamics365/business-central/dev-itpro/)  
 [Hjælp og support for partnere](/dynamics365/business-central/dev-itpro/help-and-support)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cffa7d23b7c09561914cc00a8a4b9820ed743c29
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304921"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775351"
 ---
 # <a name="auditing-changes-in-business-central"></a>Ændringer af revision i Business Central
 
@@ -48,5 +48,5 @@ Oplysningerne vises på siden **Aktivitetslog** i overensstemmelse med den konte
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
-[Administrere brugere og rettigheder](ui-how-users-permissions.md)    
+[Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)    
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

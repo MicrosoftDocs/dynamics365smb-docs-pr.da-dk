@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313056"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553790"
 ---
 # <a name="subcontract-manufacturing"></a>Produktion hos underleverandør
 Det er almindeligt for mange produktionsvirksomheder at placere udvalgte operationer hos underleverandører. Det er normal procedure i mange produktionsvirksomheder, selvom det hos nogle virksomheder måske kun sker engang imellem, mens det hos andre er en integreret del af produktionsprocessen.
@@ -61,7 +61,7 @@ Siden **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved at
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Sådan oprettes købsordre på underleverance  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Underleverandørkladde**, og vælg derefter det relaterede link.  
-2.  Vælg **Udfør aktionsmeddelelse** i gruppen **Proces** under fanen **Handlinger**.  
+2.  Vælg handlingen **Udfør aktionsmeddelelse**.  
 3.  Vælg feltet **Udskriv ordrer**, hvis du vil udskrive købsordren, når den oprettes.  
 4.  Vælg knappen **OK**.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70dd0d0e25bca02b87a56a3537ee885d5b802dcc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b38a48c4b9a57a863518a6cd701176a0635b552b
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304177"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774695"
 ---
 # <a name="administration"></a>Opsætning
 Centrale administrationsopgaver udføres som regel af én rolle i firmaet. Omfanget af disse opgaver kan afhænge af firmaets størrelse og administratorens jobansvar. Disse opgaver kan omfatte styring af databasesynkronisering af job og e-mail-køer, oprettelse af brugere og tilpasning af brugergrænsefladen.  
@@ -33,7 +33,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Tildele tilladelser til brugere, ændre tilladelsessæt og gruppere brugere pr. tilladelser.|[Administrere brugere og rettigheder](ui-how-users-permissions.md)|
+|Definere, hvem der kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], ved at oprette brugere i Office 365 Administration i henhold til produktlicenserne.|[Oprette brugere i henhold til licenser](ui-how-users-permissions.md)| 
+|Tildele tilladelser til brugere, ændre tilladelsessæt og gruppere brugere for at opnå nem styring af tilladelser.|[Tildele tilladelser til brugere og grupper](ui-how-users-permissions.md)|
 |Tilføj brugere, administrer tilladelser og få adgang til data og tildel roller.|[Administrere profiler](admin-users-profiles-roles.md)|
 |Klassificere datafølsomheder for felter så du kan svare på anmodninger fra dataemner vedrørende deres personlige oplysninger.|[Klassificere datafølsomhed](admin-classifying-data-sensitivity.md)|
 |Svare på anmodninger fra dataemner vedrørende deres personlige oplysninger.|[Svare på anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md)|
@@ -42,7 +43,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Angive engangsanmodninger eller gentagne anmodninger om at køre rapporter eller kodeenheder.|[Brug af opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)|  
 |Administrere, slette eller komprimere dokumenter|[Slette dokumenter](admin-manage-documents.md)|  
 |Vis sider, kodeenheder og forespørgsler som webtjenester.|[Udgive en webtjeneste](across-how-publish-web-service.md)|
-|Som en del af oprettelsen af Connect-apps mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og tredjepartsløsninger via REST API'erne skal du definere skabeloner, der bruges til at udfylde tomme egenskaber for en enhed, når du opretter en BOGF-handling via et API.|[Konfiguration af API-skabeloner](admin-configuring-api-template.md)|
+|Som en del af oprettelsen af Connect Apps mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og tredjepartsløsninger via REST API'erne skal du definere skabeloner, der bruges til at udfylde tomme egenskaber for en enhed, når du opretter en BOGF-handling via et API.|[Konfiguration af API-skabeloner](admin-configuring-api-template.md)|
 |Krypter data på [!INCLUDE[d365fin](includes/d365fin_md.md)] Server ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på serveren.|[Administration af datakryptering](admin-manage-data-encryption.md)|
 |Opret forbindelse fra Dynamics 365 Sales til [!INCLUDE[d365fin](includes/d365fin_md.md)] for at opnå problemfri integration mellem debitorrelationer og ordrebehandling i lead-til-kontant-processen.|[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ændre, hvilke felter og handlinger der vises i brugergrænsefladen, så det passer til virksomhedens forretningsprocesser, og så løsningen kan udvides med apps.|[Tilpasning [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 415cabbb859bfc49477f69b19ad4a4daf1137837
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314840"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554688"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer
 Denne gennemgang beskriver, hvordan du kan bruge kontoskemaer til at foretage likviditetsforecasts. Kontoskemaer udfører beregninger, der ikke kan foretages direkte i diagrammet for kassekonti. I kontoskemaerne kan du oprette subtotaler for likviditetsindbetalinger og -udbetalinger. Disse subtotaler kan medtages i nye totaler, der kan bruges i forbindelse med udarbejdelse af likviditetsforecasts.  
@@ -61,7 +61,7 @@ Efter opsætning af et kontoskemanavn, definerer Ken hver linje, der vises i kas
 
 ### <a name="to-set-up-account-schedule-lines"></a>Opsætning af kontoskemalinjer  
 
-1.  På siden **Kontoskemanavne** skal du vælge det nye **forecast**-kontoskemanavn, du har oprettet. Under fanen **Startside** i gruppen **Proces** skal du vælge **Rediger kontoskema**.  
+1.  Vælg det nye **Forecast**-kontoskemanavn, du har oprettet, på siden **Kontoskemanavne**, og vælg derefter handlingen **Rediger kontoskema**.  
 2.  På siden **Kontoskema** skal du angive hver linje nøjagtigt som vist i følgende tabel.  
 
     > [!NOTE]  

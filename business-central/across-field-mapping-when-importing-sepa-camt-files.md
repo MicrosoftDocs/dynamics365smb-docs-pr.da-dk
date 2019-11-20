@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4e179b8dae0fda5c0a2c045fc61fb58101bfec07
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e4c3b60bca16e1f1e72e728d02b07ded11cada09
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300493"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692580"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Feltkobling, når du importerer SEPA-CAMT-filer
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter de regionale SEPA-standarder for import af SEPA-kontoudtog fra banken (CAMT-format). Du kan finde flere oplysninger under [Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter de regionale SEPA-standarder for import af SEPA-kontoudtog fra banken (CAMT-format). Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
 
  SEPA CAM-standarden har selv lokale variationer. Derfor er du muligvis nødt til at ændre udvekslingsopsætningen for generiske data (repræsenteret af koden **SEPA CAMT** på siden **Bogføringsudvekslingsdefinitioner**) for at tilpasse den til en lokal variant af standarden. Følgende tabeller viser tilknytningen af element til felt for tabel 81, 273 og 274 i implementeringen af SEPA CAMT i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
@@ -61,6 +61,6 @@ ms.locfileid: "2300493"
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Udveksle data elektronisk](across-data-exchange.md)  
-[Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md)   
+[Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)   
 [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  

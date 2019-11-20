@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88a1e6cc711888a3cf68744d0ea6bbfdee41aea3
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310752"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695091"
 ---
 # <a name="tell-me-faq"></a>Ofte stillede spørgsmål om Fortæl mig
 I dette emne besvares spørgsmål, som erfarne brugere ofte stiller om funktionen Fortæl mig.
@@ -51,4 +51,4 @@ Nej. Du kan kun oprette et bogmærke til et link til en side eller søgeresultat
 ## <a name="see-also"></a>Se også  
 [Gemme og tilpasse listevisninger](ui-views.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
-[Søge efter sider fra en funktionsoversigt](ui-role-explorer.md)
+[Søge efter sider med Rollestifinder](ui-role-explorer.md)

@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: edupont
-ms.openlocfilehash: e22b93182627a5954b2aa2f1fb1fa4938d89be89
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 70bd78244c4d8570a5e9b8fbe2d1e8a4c74d7530
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300733"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695115"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365fin_mdmd"></a>Oprettelse af nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver beholdere til forretningsdata, der hører til en afdeling eller en juridisk enhed, kaldet en *virksomhed*. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], får du angivet et demoregnskab og en tom virksomhed, *Min virksomhed*. Det er nemt at skifte mellem virksomhederne – du skal bare gå til **Mine indstillinger** og flytte til den anden virksomhed. Men du kan også oprette nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)], afhængigt af dine forretningsmæssige behov. Når du opretter en ny virksomhed, hjælper en assisterede opsætningsvejledning dig med at få styr på det grundlæggende. Du kan derefter indlæse relevante data fra dit gamle system eller en anden virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver beholdere til forretningsdata, der hører til en afdeling eller en juridisk enhed, kaldet en *virksomhed*. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], får du angivet et demoregnskab og en tom virksomhed, *Min virksomhed*. Det er nemt at skifte mellem virksomhederne: Du skal bare gå til **Mine indstillinger** og flytte til den anden virksomhed. Men du kan også oprette nye virksomheder i [!INCLUDE[d365fin](includes/d365fin_md.md)], afhængigt af dine forretningsmæssige behov. Når du opretter en ny virksomhed, hjælper en assisterede opsætningsvejledning dig med at få styr på det grundlæggende. Du kan derefter indlæse relevante data fra dit gamle system eller en anden virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="create-new-company"></a>Opret ny virksomhed
-Hvis du vil indsætte en virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge den assisterende opsætningsvejledning **Opret ny virksomhed** for at komme i gang. Opsætningsguiden er tilgængelig fra siden **Virksomheder** og fra opslag i feltet **Virksomhed** i **Mine indstillinger**.  
+## <a name="creating-a-new-company"></a>Oprette en ny virksomhed
+Hvis du vil indsætte en virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge den assisterende opsætningsvejledning **Opret ny virksomhed** for at komme i gang. Opsætningsguiden er tilgængelig fra siden **Virksomheder** og fra opslag i feltet **Virksomhed** på siden **Mine indstillinger**.  
 
 Opsætningsguiden indeholder tre skabeloner:
 
@@ -39,6 +39,12 @@ Hvis du vil komme hurtigt i gang med en ny virksomhed, kan du vælge **Produktio
 >   Når du opretter en ny virksomhed, tager det nogle minutter, før du kan få adgang til den i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Opsætningsstatussen på siden **Virksomheder** vises som standard, når den nye virksomhed er klar til dig. Derefter kan du skifte til den nye virksomhed ved hjælp af **Mine indstillinger**.  
 
 Under din 30-dages prøveperiode kan du oprette et ubegrænset antal nye virksomheder, men de er kun tilgængelige under prøveperioden. Kontakt din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner for at få yderligere oplysninger.  
+
+## <a name="copying-a-company"></a>Kopiere et regnskab
+På siden **Virksomheder** kan du bruge handlingen **Kopiér** til at oprette endnu en virksomhed baseret på indholdet af en eksisterende virksomhed. Det er f. eks. nyttigt, hvis du vil teste en virksomhed uden at afbryde produktionsdata.
+
+> [!Important]
+> Denne funktion kan ikke bruges til at tage en sikkerhedskopi af en virksomhed. Når du tager en sikkerhedskopi af virksomheden, begynder den at eksportere databasen som en. bacpac-fil. Du kan finde flere oplysninger under [Eksportere databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjælpen til udviklere og it-eksperter.
 
 ## <a name="company-setup"></a>Virksomhedsopsætning
 Når du logger på en ny virksomhed, kører guiden **Virksomhedsopsætning** automatisk og hjælper dig i gang. Du bliver bedt om at angive oplysninger om virksomheden, f.eks. adresse, bankoplysninger og lagerets kostmetode. Vi beder dig om disse oplysninger, fordi de bruges som udgangspunkt for mange områder i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du så derefter ikke behøver at oprette manuelt senere.  

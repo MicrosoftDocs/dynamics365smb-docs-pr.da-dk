@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ce236dd274baa02cafac8bfdcb7f7cb1d08ce46
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310584"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553962"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
 
@@ -150,19 +150,19 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
     |80203|PLUK|V-01-0001|20|  
     |80209|PLUK|V-01-0001|20|  
 
-4.  Under fanen **Startside** skal du i gruppen **Registrering** vælge **Registrer** og derefter vælge knappen **Ja**.  
+4.  Vælg handlingen **Registrer**, og vælg derefter knappen **Ja**.  
 
     Synkroniser derefter de nye lagerposter med lageret.  
 
 5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link. Siden **Varekladde** åbnes.  
-6.  Under fanen **Handlinger** i gruppen **Funktioner** vælges **Beregn lagerregulering**.  
+6.  Vælg handlingen **Beregn regulering (logistik)**.  
 7.  På siden **Beregn lagerregulering** skal du vælge knappen **OK**.  
-8.  På siden **Varekladde** under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Bogfør** og derefter vælge knappen **Ja**.  
+8.  På siden **Varekladde** skal du vælge handlingen **Bogfør** og derefter vælge knappen **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Oprette montageelementer  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
-2.  Under fanen **Startside** i gruppen **Administrer** skal du vælge **Ny**.  
+2.  Vælg handlingen **Ny**.  
 3.  Opret det første montageelement baseret på følgende oplysninger.  
 
     |Felt|Værdi|  
@@ -177,7 +177,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
     > [!NOTE]  
     >  Pakke A, leveres typisk af montage til lager og har derfor en genbestilllingsmetode for at gøre det til en del af den generelle forsyningsplanlægning.  
 
-4.  Vælg knappen **Montage** i gruppen **Montage/Produktion** under fanen **Naviger**, og vælg derefter **Montagestykliste**.  
+4.  Vælg handlingen **Montage**, og vælg derefter **Montagestykliste**.  
 5.  Definer en montagestykliste for pakke A med følgende oplysninger.  
 
     |**Type**|**Nummer**|**Antal pr.**|  
@@ -200,7 +200,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
     > [!NOTE]  
     >  Pakke B leveres normalt af montage til ordre og har derfor ikke en genbestilllingsmetode, fordi det ikke bør være en del af den generelle forsyningsplanlægning.  
 
-7.  Vælg knappen **Montage** i gruppen **Montage/Produktion** under fanen **Naviger**, og vælg derefter **Montagestykliste**.  
+7.  Vælg handlingen **Montage**, og vælg derefter **Montagestykliste**.  
 8.  Definer en montagestykliste for pakke B med følgende oplysninger.  
 
     |**Type**|**Nummer**|**Antal pr.**|  
@@ -213,7 +213,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 ### <a name="selling-the-assembly-items"></a>Sælge montageelementerne  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
-2.  Under fanen **Startside** i gruppen **Administrer** skal du vælge **Ny**.  
+2.  Vælg handlingen **Ny**.  
 3.  Opret to salgsordrelinjer for debitor 62000, Enhedsbutikken, på datoen for arbejde med følgende oplysninger.  
 
     |**Type**|**Beskrivelse**|**Antal**|Antal til montage til ordre|Afsendelsesdato|  
@@ -259,14 +259,14 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
      Dernæst skal du ændre afsendelsesdatoen af den anden salgsordrelinje ifølge montageplanen.  
 
 15. På salgsordrelinjen for 15 enheder af pakke A skal du angive **27-01-2014** i feltet **Afsendelsesdato**.  
-16. Under fanen **Handlinger** i gruppen **Frigiv** skal du vælge **Frigiv**.  
-17. Vælg **Opret lagerleverance** i gruppen **Lagersted** under fanen **Handlinger**.  
+16. Vælg handlingen **Frigivelse**.  
+17. Vælg handlingen **Opret lagerleverance**.  
 18. Luk salgsordren.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planlægge for utilgængelige ATS-elementer  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
-2.  Under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Beregn totalplan**.  
+2.  Vælg handlingen **Beregn totalplan**.  
 3.  På siden **Beregn plan** skal du angive følgende filtre.  
 
     |Startdato|Afslutningsdato|Nej.|  
@@ -277,7 +277,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     En ny planlægningslinjen oprettes for den nødvendige montageordre på ti enheder, forfaldsdato den 27. januar. Der kræves ingen ændres, så du kan nu oprette ordren.  
 
-5.  Vælg **Udfør aktionsmeddelelse** i gruppen **Proces** under fanen **Handlinger**.  
+5.  Vælg handlingen **Udfør aktionsmeddelelse**.  
 6.  På siden **Udfør aktionsmeddelelse** skal du vælge feltet **Montageordre** og derefter vælge **Opret montageordrer**.  
 7.  Vælg knappen **OK**.  
 
@@ -298,7 +298,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Opret dernæst et plukdokument for alle ATO-montagekomponenter, der er nødvendige på lagerleverancen.  
 
-3.  Under fanen **Handlinger** skal du i gruppen **Funktioner** vælge **Opret pluk** og derefter vælge knappen **OK**.  
+3.  Vælg handlingen **Opret pluk**, og vælg derefter knappen **OK**.  
 
     Dernæst skal du udføre vælgerens opgave.  
 
@@ -309,8 +309,8 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Dernæst skal du registrere plukket uden at ændre standardoplysningerne.  
 
-6.  Under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Autofyld håndteringsantal**.  
-7.  Under fanen **Start** i gruppen **Registrering** skal du vælge **Registrer pluk**.  
+6.  Vælg handlingen **Autofyld håndteringsantal**.  
+7.  Vælg handlingen **Registrer pluk**.  
 
     Vend tilbage for at foretage leveringsopgaver.  
 
@@ -335,7 +335,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 12. Luk siden **Montageordre** for at vende tilbage til siden **Lagerleverance**.  
 13. På leverancelinjen for tre enheder af pakke B skal du i feltet **Lever antal** indtaste **3**.  
-14. Vælg **Bogfør lev.** og derefter **Levér** i gruppen **Bogføring** under fanen **Handlinger**.  
+14. Vælg handlingen **Bogfør lev.**, og vælg derefter knappen **Lever**.  
 
     Sammen med denne lagerleverancebogføring, bogføres det fulde forbrug og afgangsmængder for den relaterede montageordre, og feltet **Restantal** er tomt. Salgsordrelinjen for pakke B opdateres for at vise, at de tre enheder er leveret.  
 
@@ -358,7 +358,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Registrer derefter, at montageordren er fuldført.  
 
-3.  Under fanen **Naviger** i gruppen **Lagersted** skal du vælge **Ordremont.lagerleverancelinje**.  
+3.  Vælg handlingen **Ordremont.lagerleverancelinje**.  
 4.  På siden **Ordremont.lagerleverancelinje** i feltet **Lever antal** skal du angive **5** og derefter lukke siden.  
 
     På siden **Montageordre** skal du bemærke, at felterne **Antal til montage** og **Antal til forbrug** nu udfyldes med de mængder til afgang og forbrug, der skal bogføres i forbindelse med forsendelsen.  
@@ -374,8 +374,8 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Dernæst skal du oprette et plukdokument for at hente de nødvendige komponenter.  
 
-3.  Under fanen **Handlinger** i gruppen **Frigiv** skal du vælge **Frigiv**.  
-4.  Under fanen **Handlinger** skal du i gruppen **Lagersted** vælge **Opret pluk (logistik)** og derefter vælge knappen **OK**.  
+3.  Vælg handlingen **Frigiv**.  
+4.  Vælg handlingen **Opret pluk (logistik)**, og vælg derefter knappen **OK**.  
 
     Dernæst skal du udføre vælgerens opgave.  
 
@@ -384,12 +384,12 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
      Fortsæt med at registrere plukket uden at ændre standardoplysningerne.  
 
-7.  Under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Autofyld håndteringsantal**.  
-8.  Under fanen **Start** i gruppen **Registrering** skal du vælge **Registrer pluk**.  
+7.  Vælg handlingen **Autofyld håndteringsantal**.  
+8.  Vælg handlingen **Registrer pluk**.  
 
     Gå tilbage til montageordren for at udføre den sidste montageopgave.  
 
-9. I **Montageordre** skal du vælge **Bogfør** og derefter knappen **Ja** i gruppen **Bogføring** under fanen **Handlinger**.  
+9. Under **Montageordre** skal du vælge handlingen **Bogfør** og derefter vælge knappen **Ja**.  
 
     Bemærk, at montageordren fjernes fra listen over åbne ordrer.  
 
@@ -402,7 +402,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Derefter skal du vælge de resterende elementer.  
 
-3.  Under fanen **Handlinger** skal du i gruppen **Funktioner** vælge **Opret pluk** og derefter vælge knappen **OK**.  
+3.  Vælg handlingen **Opret pluk**, og vælg derefter knappen **OK**.  
 
     Dernæst skal du udføre vælgerens sidste opgave for denne lagerleverance.  
 
@@ -413,8 +413,8 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Registrer derefter plukket uden at ændre standardoplysningerne.  
 
-6.  Under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Autofyld håndteringsantal**.  
-7.  Under fanen **Startside** skal du i gruppen **Registrering** vælge **Registrer pluk** og derefter vælge knappen **Ja**.  
+6.  Vælg handlingen **Autofyld håndteringsantal**.  
+7.  Vælg handlingen **Registrer pluk**, og vælg derefter knappen **Ja**.  
 
     Gå tilbage til lagerleverancen for at udføre den sidste montageopgave.  
 
@@ -422,7 +422,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     På siden **Lagerleverance** på linjen for ti enheder af pakke A, skal du bemærke, at felterne **Lever antal** og **Plukket antal** nu indeholder **10**.  
 
-9. Vælg **Bogfør lev.** og derefter **Levér** i gruppen **Bogføring** under fanen **Handlinger**.  
+9. Vælg handlingen **Bogfør lev.**, og vælg derefter **Lever**.  
 
     Lagerleverancedokumentet fjernes, hvilket angiver, at de involverede lageraktiviteter er fuldført. Dernæst skal du bekræfte, at salgsordren er blevet behandlet.  
 

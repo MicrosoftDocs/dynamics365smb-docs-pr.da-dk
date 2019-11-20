@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311640"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553766"
 ---
 # <a name="work-on-service-tasks"></a>Arbejde med serviceopgaver
 Når du har oprettet en serviceordre eller et servicetilbud, registreret serviceartikellinjer og allokeret ressourcer til serviceartiklerne i ordren eller tilbuddet, kan du begynde at reparere og vedligeholde serviceartiklerne.  
@@ -31,7 +31,7 @@ Hvis du vil spore ændringer og have vist grafiske oversigter over serviceaktivi
 2. Hvis du vil se en liste over serviceopgaver, som en bestemt ressource eller ressourcegruppe er allokeret til, skal du udfylde feltet **Ressourcefilter** eller feltet **Ressourcegruppefilter** og trykke på Enter.  
 3. Hvis du vil have vist en liste over serviceopgaver, der har en eller flere bestemte svardatoer inden for en bestemt periode, skal du udfylde feltet **Svardatofilter** og trykke på Enter.  
 4. Hvis du vil se en liste over serviceopgaver med en bestemt allokeringsstatus eller reparationsstatus, skal du udfylde feltet **Allokeringsstatusfilter** eller feltet **Reparationsstatuskodefilter** og trykke på Enter.  
-5. Markér navnet på den serviceopgave, du vil arbejde på. Vælg **Serviceartikelkld.** i gruppen **Serviceopgaver** under fanen **Naviger**. Siden **Serviceartikelkladde** åbnes.  
+5. Markér navnet på den serviceopgave, du vil arbejde på. Vælg handlingen **Varekladde**. Siden **Serviceartikelkladde** åbnes.  
 6. Registrer standardtekster, reservedele, ressourcetimer og omkostninger ved hjælp af de tilsvarende indstillinger i feltet **Type**: <Blank>, **Vare**, **Ressource** og **Omkostning**.  
 7. Vælg den relevante status i feltet **Reparationsstatus**.  
 
@@ -43,7 +43,7 @@ Når der udføres service på en serviceordre, kan du registrere detaljerne ved 
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Åbn serviceordren, du vil registrere service for, og vælg varelinjen.  
-3. Vælg **Handlinger**, vælg **Linje**, og vælg derefter **Serviceartikelkladde.**  
+3. Vælg handlingen **Serviceartikelkladde**  
 4. Angiv de varer, der er brugt, de omkostninger, der er påløbet, og den tid, der er forbrugt på servicen, på linjerne.  
 
    > [!NOTE]  

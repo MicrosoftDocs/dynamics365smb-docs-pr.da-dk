@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310536"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554616"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gennemgang: Opsætning og fakturering af salgsforudbetalinger
 
@@ -169,7 +169,7 @@ Den næste dag ringer kunden til Susan med ændringer til ordren. Kunden vil ger
 2.  Gå til linjen for vare **1100** i feltet **Antal**, og indtast **2**.  
 
     Rul for at få vist forudbetalingsfelterne. Feltet **Forudbetaling - Linjebeløb ekskl. moms** indeholder nu **630**, og feltet **Forudbetalt beløb faktureret ekskl. moms** indeholder **315**. Dette viser, at der er et yderligere forudbetalingsbeløb, der endnu ikke er faktureret.  
-3.  For at bogføre det ekstra forudbetalingsbeløb skal du på **Handlinger**, i gruppen **Bogføring** vælge **Forudbetaling** og derefter vælge **Bogfør forudbetalingsfaktura**.  
+3.  Hvis du bogfører en faktura for det yderligere forudbetalingsbeløb, skal du vælge handlingen **Bogfør forudbetalingsfaktura**.  
 
 ## <a name="applying-the-prepayments"></a>Påføre forudbetalinger  
 Debitor betaler forudbetalingsbeløbet, og Arne, der arbejder i regnskabsafdelingen, registrerer betalingen og påføre den på forudbetalingsfakturaerne.  

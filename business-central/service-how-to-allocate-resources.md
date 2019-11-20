@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c0acb72f9c083b262251f249d1004b333b911c3c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b6b5173f23d2315bbaeb01018ae4ee1ba26712b6
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316040"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554813"
 ---
 # <a name="allocate-resources"></a>Allokere ressourcer
 Det vigtigste element i servicestyring er de mennesker, der leverer servicen. Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at tildele de relevante personer til de relevante job. Opgaverne kan baseres på servicezoner, hvor personerne befinder sig, eller hvor servicen finder sted. Du kan desuden gruppere ressourcerne, når der reageres på serviceanmodninger. Du kan finde flere oplysninger i [Definere ressourceallokering](service-how-setup-resource-allocation.md).
@@ -46,7 +46,7 @@ Du kan ofte få brug for at se listen over serviceordrer eller servicetilbud, so
 6. Vælg en ressource, du vil allokere. Du kan basere valget på, om ressourcen er klar til opgaven, om den er placeret i kundezonen, og/eller om ressourcen foretrækkes af kunden.  
 7. Angiv en dato, hvor ressourcen har nok ledige timer til opgaven, og som er tæt på serviceordrens svardato.  
 8. Angiv det antal timer, du vil allokere ressourcen til serviceopgaver, i feltet **Antal til fordeling**.  
-9. Vælg **Alloker** i gruppen **Funktioner** under fanen **Handlinger** for at allokere den valgte ressourcegruppe på den valgte dato.  
+9. Vælg handlingen **Alloker** for at allokere den valgte ressource på den valgte dag.  
 
      Feltet **Status** indstilles automatisk til **Aktiv**.  
 
@@ -80,7 +80,7 @@ Du kan genallokere ressourcer direkte fra den serviceordre eller det servicetilb
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Åbn den relevante serviceordre.  
-3. Vælg den serviceartikellinje, der svarer til den serviceopgave, du vil allokere en ressource til.  Vælg **Handlinger**, vælg **Linje**, og vælg derefter **Ressourceallokeringer**.  
+3. Vælg den serviceartikellinje, der svarer til den serviceopgave, du vil allokere en ressource til, og vælg derefter handlingen **Ressourceallokeringer**.  
 4. Vælg en allokeringspost med den serviceopgave, som du vil genallokere ressourcen til, på siden **Ressourceallokeringer**. Vælg den relevante ressource i feltet **Ressourcenr.**. Dette overskriver det ressourcenummer, der i forvejen var i feltet.  
 5. Tryk på Enter. Der åbnes en dialogboks, hvor du bliver spurgt, om du vil genallokere posten. Udfyld eventuelt feltet **Årsagskode**, og vælg knappen **Ja** for at bekræfte genallokeringen.  
 6. Udfyld felterne **Allokeringsdato** og **Allokerede timer**. Posten indeholder nu den nye ressource, og status for posten er **Aktiv**.
@@ -90,7 +90,7 @@ Hvis den ressource, der er allokeret til en serviceopgave, ikke kan udføre arbe
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreoversigt**, og vælg derefter det relaterede link.  
 2. Vælg **Genallokering nødvendig** i feltet **Allokeringsfilter**. På siden **Ordreoversigt** vises de serviceordrer, som indeholder serviceopgaver, der skal genallokeres.  
-3. Vælg den relevante serviceordre. Vælg **Ressourceallokeringer** i gruppen **Skabelon** under fanen **Naviger**. Siden **Ressourceallokeringer** åbnes.  
+3. Vælg den relevante serviceordre, og vælg derefter handlingen **Ressourceallokeringer**. Siden **Ressourceallokeringer** åbnes.  
 4. Marker allokeringsposten med den serviceopgave, du vil genallokere en ressource til.  
 5. Vælg den relevante ressource i feltet **Ressourcenr.**. Dermed overskrives det ressourcenummer, der i forvejen var i feltet.  
 6. Tryk på Enter. Dialogboksen **Genallokering af poster** åbnes. Angiv, om du vil genallokere denne post. Udfyld eventuelt feltet **Årsagskode**, og vælg knappen **Ja** for at bekræfte genallokeringen.  
@@ -106,7 +106,7 @@ Hvis den ressource, der er allokeret til en serviceopgave, ikke kan udføre arbe
 ## <a name="to-register-resource-hours"></a>Sådan registreres ressourcetimer  
 Når du arbejder med serviceartikler i serviceordrer, har du brug for at registrere de ressourcetimer, der anvendes på serviceydelsen. Følgende fremgangsmåde viser, hvordan ressourcetimerne skal registreres på siden **Serviceartikelkladde**.  
 
-Du kan bruge samme fremgangsmåde til at registrere timerne på siden **Servicelinjer**, som du kan åbne fra siden Serviceordre. Åbn det relevante servicekort, og vælg **Handlinger**, vælg **Ordre**, og vælg derefter **Servicelinjer**.  
+Du kan bruge samme fremgangsmåde til at registrere timerne på siden **Servicelinjer**, som du kan åbne fra siden Serviceordre. Åbn det relevante servicekort, og vælg handlingen **Servicelinjer**.  
 
 Hvis samme ressource arbejder på alle serviceartiklerne i serviceordren, kan du registrere de samlede ressourcetimer for kun én serviceartikel og derefter opdele ressourcelinjen for at tildele ressourcetimer til de andre serviceartikler.
 
@@ -121,9 +121,9 @@ Følgende fremgangsmåde viser, hvordan ressourcelinjerne på siden **Servicefak
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Åbn den relevante serviceordre.  
-3. Vælg **Handlinger** i oversigtspanelet **Linjer**, vælg **Ordre**, og vælg derefter **Servicelinjer**. Siden **Servicelinjer** åbnes.  
+3. I oversigtspanelet **Linjer** skal du vælge handlingen **Servicelinjer**. Siden **Servicelinjer** åbnes.  
 4. Vælg den ressourcelinje, du vil opdele. Oplysningerne i feltet **Antal** opdeles automatisk mellem alle serviceartiklerne i ordren.  
-5. Under fanen **Handlinger** skal du vælge handlingen **Opdel ressourcelinje**. Vælg **Ja** for at bekræfte.  
+5. Vælg handlingen **Opdel ressourcelinje**. Vælg **Ja** for at bekræfte.  
 
     Der oprettes ressourcelinjer for de andre serviceartikler i ordren med samme ressourcenummer som den linje, du har opdelt. Antallet er det antal, der er angivet for den opdelte linje delt med antallet af serviceartikler i ordren.  
 

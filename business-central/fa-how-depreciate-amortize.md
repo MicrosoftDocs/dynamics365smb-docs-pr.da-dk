@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bf9de93ca218d00cc1db467c74e0af9942f21d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302832"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554274"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
 Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner og udstyr, over anlæggets afskrivningslevetid. For hvert anlæg skal du definere, hvordan det skal afskrives.  
@@ -51,7 +51,7 @@ Du kan når som helst, f.eks. en gang om måneden, udføre kørslen **Beregn afs
 2. Opret en første kladdelinje, og udfyld felterne efter behov.  
 3. I feltet **Anlægsbogføringstype** skal du vælge **Afskrivning**.  
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af afskrivning. Du kan finde flere oplysninger i [Sådan oprettes anlægsbogføringsgrupper](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. På fanen **Startside** skal du vælge **Bogfør** for at bogføre kladden.  
+5. Vælg handlingen **Bogfør** for at bogføre kladden.  
 
 Hvis du har defineret anlægsallokeringsnøgler for at kunne allokere beløb til forskellige afdelinger eller projekter, allokeres beløbene under bogføringen. Du kan finde flere oplysninger i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
 
@@ -62,7 +62,7 @@ Hvis et anlæg bruges af flere afdelinger, kan periodisk afskrivning allokeres a
 2. Opret en første linje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Allokering**.  
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af allokering.  
-5. På fanen **Startside** skal du vælge **Bogfør** for at bogføre kladden.  
+5. Vælg handlingen **Bogfør** for at bogføre kladden.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Bruge kopilister til at forberede bogføring af flere afskrivningsprofiler
 Når du udfylder kladdelinjer, der skal bogføres til en afskrivningsprofil, kan du kopiere linjerne til en særskilt kladde, så du kan bogføre i en anden afskrivningsprofil. Du kan finde flere oplysninger i [Sådan bogføres poster til forskellige afskrivningsprofiler](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).

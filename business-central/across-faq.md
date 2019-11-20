@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ms.author: edupont
-ms.openlocfilehash: bfe2c4bec0627aee83d0ca25db975c76b7f803ab
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300565"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775495"
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
 
@@ -28,16 +28,14 @@ Du kan tilmelde dig en gratis prøveversion, så du kan danne dig et indtryk af 
 
 Du kan få hjælp til at blive klar til at foretage handler i [!INCLUDE [prodshort](includes/prodshort.md)] ved at starte assisterede opsætningsvejledninger, videoer eller emner i Hjælp for valgte opsætningsopgaver. Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).  
 
-Når du er klar til at købe [!INCLUDE [prodshort](includes/prodshort.md)], kan du finde en [!INCLUDE [prodshort](includes/prodshort.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145).  
-
-[!INCLUDE [prodshort](includes/prodshort.md)] sælges og implementeres via et globalt netværk af Dynamics 365-partnere med brancheekspertise. Kontakt en partner for at få en detaljeret vurdering, konsulenttjenester og yderligere priser. Du kan finde flere oplysninger i afsnittet **prissætning** på siden [Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+Når du er klar til at købe [!INCLUDE [prodshort](includes/prodshort.md)], kan du finde en [!INCLUDE [prodshort](includes/prodshort.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](#findpartner).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Hvad skal jeg gøre, hvis jeg har spørgsmål?
 Hvis du har spørgsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)], som du ikke kan finde et svar på i denne dokumentation, kan du spørge Business Central-community. Du kan finde flere oplysninger i [Dynamics 365 Business Central Community](https://community.dynamics.com/business).  
 
 Fra community-startsiden kan du også finde links til vores blogs, hvor du kan også finde tip og trick. Du kan finde flere oplysninger i [Microsoft Dynamics 365 Business Central på Dynamics 365-](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) bloggen og den ældre [Dynamics 365 Business Central blog](https://community.dynamics.com/business/b/financials).  
 
-Endelig kan du kontakte din [!INCLUDE[d365fin](includes/d365fin_md.md)]-videresalgspartner. Du kan finde flere oplysninger i afsnittet [hvordan kan jeg få teknisk support?](across-faq.md#how-do-i-get-technical-support-for-).  
+Endelig kan du kontakte din [!INCLUDE[d365fin](includes/d365fin_md.md)]-videresalgspartner. Du kan finde flere oplysninger i afsnittene [Hvordan kan jeg få teknisk support?](across-faq.md#how-do-i-get-technical-support-for-) og [Hvordan finder jeg en videresalgspartner?](#findpartner).  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Hvorfor kan jeg ikke finde denne funktionalitet i min [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Har du læst om en ny funktionalitet i frigivelsesplanen eller på vores blog for nylig? I så fald er dine [!INCLUDE[d365fin](includes/d365fin_md.md)] muligvis ikke blevet opgraderet til den seneste version endnu. Du kan kontrollere, hvilken version dit [!INCLUDE[d365fin](includes/d365fin_md.md)] er baseret på, på siden [Hjælp og support](product-help-and-support.md).  
@@ -48,15 +46,17 @@ Hvis funktionaliteten er udgivet som en udvidelse i AppSource, er der desuden en
 Ja. Nogle skybaserede funktioner kan køre lokal i visse tilfælde, og andre understøttes ikke overhovedet. Du kan finde flere oplysninger i [Funktioner, der ikke implementeres i lokale installationer af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Kan jeg få uddannelse i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Ja, det kan du. Du kan finde gratis eLearning-indhold på [Microsoft Learn-webstedet](/learn/browse/?products=dynamics-business-central). Du kan også tale med din videresalgspartner om yderligere uddannelse. Hvis du ikke ved, hvem det er, kan du finde en Business Central-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Ja, det kan du. Du kan finde gratis eLearning-indhold på [Microsoft Learn-webstedet](/learn/browse/?products=dynamics-business-central). Du kan finde flere oplysninger under [Undervisningskatalog for Business Central](readiness/readiness-learning-catalog.md). Du kan også tale med din videresalgspartner om yderligere uddannelse. Hvis du ikke ved, hvem det er, kan du se afsnittet [Hvordan finder jeg en videresalgspartner](#findpartner).  
 
-Du kan finde flere oplysninger om kurser, der leveres af Microsoft, på siden [Microsoft Dynamics 365-uddannelse](/dynamics365/get-started/training/index#dynamics-365-customers).  
+Du kan finde flere oplysninger om kurser i hele Dynamics 365, der leveres af Microsoft, på siden [Microsoft Dynamics 365-uddannelse](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+Der findes yderligere indhold i [!INCLUDE [prodshort](includes/prodshort.md)]-community'et, f.eks. [Microsoft Dynamics 365 Business Central-feltvejledningen](https://leanpub.com/dynamics), der er skrevet af en partner.  
 
 ## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Hvordan kan jeg få teknisk support til [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] sælges via partnere, og du kan kontakte din forhandlerpartner for at få hjælp til tekniske problemer. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp.  
 
-Du kan finde flere oplysninger i [Hjælp og support](product-help-and-support.md).  
+Du kan finde flere oplysninger i afsnittene [Hjælp og support?](product-help-and-support.md) og [Hvordan finder jeg en videresalgspartner?](#findpartner).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Hvorfor beskriver hjælper funktioner, som jeg ikke kan få adgang til?
 Hvis indstillingen Oplevelse på siden **Virksomhedsoplysninger** er indstillet til **Essential**, er elementer i brugergrænsefladen til funktionerne Produktion og Service Management ikke synlige for dig, fordi de kræver oplevelsen **Premium**. Der er indsat en tekstnote i vigtige emner i Hjælp for disse funktionsområder. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
@@ -84,10 +84,12 @@ Hvis du ikke har et Office 365-abonnement, og du ikke ønsker at købe et, så k
 [!INCLUDE[d365fin](includes/d365fin_md.md)] online er fuldt integreret med Office 365, så du kan flytte frit mellem Office 365-apps og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du f.eks. åbne data i Excel, udskrive rapporter ved hjælp af Word, og du kan f.eks. arbejde med dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Du kan finde flere oplysninger i [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan jeg udvide min 30 dages prøveperiode som "Ny virksomhed"?
-Ja. Når udløbsdatoen for din prøveperiode nærmer sig, vises en meddelelse, når du logger på. Meddelelsen indeholder et link til vejledningen **Udvid prøveperiode**, som du kan bruge til at udvide prøveperioden. De ekstra 30 dage begynder, så snart du vælger **Udvid prøveversion** i vejledningen. Du kan udvide prøveperioden én gang selv. Herefter kan en Microsoft-partner udvide den med endnu 30 dage. Du kan finde flere oplysninger i [Udvide din prøveperiode](admin-extend-trial.md). Hvis du vil kontakte en Microsoft partner i dit land/område nu, kan du se en oversigt over telefonnumre i [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  
+Ja. Når udløbsdatoen for din prøveperiode nærmer sig, vises en meddelelse, når du logger på. Meddelelsen indeholder et link til vejledningen **Udvid prøveperiode**, som du kan bruge til at udvide prøveperioden. De ekstra 30 dage begynder, så snart du vælger **Udvid prøveversion** i vejledningen. Du kan udvide prøveperioden én gang selv. Herefter kan en Microsoft-partner udvide den med endnu 30 dage. Du kan finde flere oplysninger i [Udvide din prøveperiode](admin-extend-trial.md). 
 
 > [!NOTE]
 > Det kan tage op til to arbejdsdage at foretage udvidelsen af prøveperioden.  
+
+Du kan finde flere oplysninger om at finde en partner i [Hvordan finder jeg en videresalgspartner?](#findpartner).  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Vores administrator har flyttet mig til en anden plan for at give mig en anden rolle, men jeg kan stadig se det samme startskærmbillede i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 Dette er en smule kompliceret, men det ser ud til, at din administrator ikke har ændre din tildelte rolle og har tildelt brugergrupper, der svarer til den nye licens. I praksis bestemmes adgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)] af den plantype (licens), du har – den angiver rettigheder, din tildelte rolle og dit standardstartskærmbillede. Du kan ændre din nuværende rolle manuelt i Mine indstillinger, men hvis du er blevet flyttet til en anden plan, f.eks. flyttet fra forretningsplanen til teammedlemsplanen, vises det gamle startskærmbillede måske, fordi dine rettigheder ikke er blevet ændret.  
@@ -96,16 +98,32 @@ Dette er en smule kompliceret, men det ser ud til, at din administrator ikke har
 Ja, men afhængigt af hvordan du tilmeldte dig [!INCLUDE[d365fin](includes/d365fin_md.md)], kan dine data blive slettet eller bevaret. Du kan finde flere oplysninger i [Annullere [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kan jeg bruge multifaktorgodkendelse?
-Ja. Hvis du gør det, kan du få brug for en app-adgangskode, så du kan sende e-mails. App-adgangskoder giver en app eller en enhed adgang til din e-mailkonto. Fremgangsmåden for at få en app-adgangskode afhænger af din e-mailudbyder. Du kan finde flere oplysninger i hjælpen fra udbyderen. F.eks. hvis du bruger Outlook, kan du se [Oprette en app-adgangskode til Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).
+Ja. Hvis du gør det, kan du få brug for en app-adgangskode, så du kan sende e-mails. App-adgangskoder giver en app eller en enhed adgang til din e-mailkonto. Fremgangsmåden for at få en app-adgangskode afhænger af din e-mailudbyder. Du kan finde flere oplysninger i hjælpen fra udbyderen. F.eks. hvis du bruger Outlook, kan du se [Oprette en app-adgangskode til Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+
+## <a name="findpartner"></a>Hvordan finder jeg en videresalgspartner?
+
+[!INCLUDE [prodshort](includes/prodshort.md)] sælges og implementeres via et globalt netværk af Dynamics 365-partnere med brancheekspertise. Kontakt en partner for at få en detaljeret vurdering, konsulenttjenester og yderligere priser. Du kan finde flere oplysninger i afsnittet **prissætning** på siden [Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+
+Når du er klar til at købe [!INCLUDE [prodshort](includes/prodshort.md)], kan du finde en [!INCLUDE [prodshort](includes/prodshort.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan også finde løsninger og tjenester fra partnere i [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=845998).  
+
+Hvis du vil have vejledning fra Microsoft, skal du kontakte [Microsoft-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+Din videresalgspartner kan også hjælpe dig med at håndtere teknisk support. Du kan finde flere oplysninger i [Ressourcer til hjælp og support](product-help-and-support.md).  
 
 ## <a name="see-also"></a>Se også
 
 [Introduktion](product-get-started.md)  
+[Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)  
+[Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.md)  
+[Ofte stillede spørgsmål om listevisninger](ui-views-faq.md)  
+[Ændre sprog og landestandard](about-locale-language.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] uden Outlook](admin-no-outlook.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Få svar på spørgsmål](product-get-started.md#getting-answers-to-questions)  
-[Administrere brugere og rettigheder](ui-how-users-permissions.md)  
+[Ressourcer til hjælp og support](product-help-and-support.md)  
+[Undervisningskatalog for Business Central](readiness/readiness-learning-catalog.md)  
+[Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

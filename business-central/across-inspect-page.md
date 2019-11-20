@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 10/01/2019
-ms.openlocfilehash: 7bc5186103f05ad827d15933f586e2fac9b4a584
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ce3187199a0402961b1206077c4d1613093f1919
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304873"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775375"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektion af sider i Business Central
 
@@ -38,7 +38,7 @@ Hvis du ikke kan se de oplysninger, du forventer at se, i ruden **Sideinspektion
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Styring af adgang til oplysninger om sideinspektion
 
-Som administrator kan du styre adgang til alle detaljer, der vises i ruden **Sideinspektion**, ved at konfigurere de rettigheder, som brugere har. Hvis du vil tildele en bruger rettigheder til alle detaljer, skal du give vedkommende rettigheden **Udfør** til **System** objekt **5330**. Du kan give denne rettighed ved hjælp af et rettighedssæt (f.eks. **D365-fejlfinding**) eller en brugergruppe (f.eks. **D365-fejlfinding**). Du kan finde flere oplysninger om rettigheder i [Administrere brugere og rettigheder](ui-how-users-permissions.md).
+Som administrator kan du styre adgang til alle detaljer, der vises i ruden **Sideinspektion**, ved at konfigurere de rettigheder, som brugere har. Hvis du vil tildele en bruger rettigheder til alle detaljer, skal du give vedkommende rettigheden **Udfør** til **System** objekt **5330**. Du kan give denne rettighed ved hjælp af et rettighedssæt (f.eks. **D365-fejlfinding**) eller en brugergruppe (f.eks. **D365-fejlfinding**). Du kan finde flere oplysninger om rettigheder i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
 
 Brugere, der ikke tildeles rettigheder i **Systemobjekt 5330**, kan stadig få adgang til ruden **Sideinspektion**, men de får kun vist felterne **Side** og **Tabel**, der viser grundlæggende oplysninger, som de kan videregive til deres supportteam.
 

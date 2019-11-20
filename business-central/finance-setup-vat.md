@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: bholtorf
-ms.openlocfilehash: 46fbc3e9c2553a7c45fe571a74126c534d442b7c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301632"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798519"
 ---
-# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
+# <a name="set-up-value-added-tax"></a>Konfigurere moms
 Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydelser. Momsbeløbet, der skal betales, kan variere afhængigt af flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] konfigurerer du moms til at angive de satser, der bruges til at beregne momsbeløb baseret på følgende:
 
 * Hvem du sælger til  
@@ -36,14 +36,14 @@ Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enke
 Du anbefales at bruge den assisterede momsopsætningsvejledning, når du konfigurerer moms i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 For at starte vejledningen skal du gøre følgende:
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Assisteret opsætning**.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Assisteret opsætning**.  
 2. Vælg **Konfigurer moms**.
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Sådan defineres momsregistreringsnumre for dit land eller område
 For at sikre, at brugere angiver gyldige momsregistreringsnumre, kan du definere formater til momsregistreringsnumre, som bruges i de lande eller områder, hvor du handler. [!INCLUDE[d365fin](includes/d365fin_md.md)] viser en fejlmeddelelse, når en bruger laver en fejl eller bruger et format, der er forkert for landet eller området.
 
 For at oprette momsregistreringsnumre, skal du gøre følgende:
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lande/områder**.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Lande/områder**.
 2. Vælg landet eller området, og vælg derefter handlingen **SE/CVR-nr.formater**.
 3. I feltet **Formater** skal du angive formatet ved at angive et eller flere af følgende tegn:  
 
@@ -82,7 +82,7 @@ Du kan definere et ubegrænset antal kombinationer. Hvis du vil gruppere kombina
 
 Hvis du vil kombinere momsbogføringsopsætninger, skal du gøre følgende:
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af momsbogføring**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Sådan tildeles momsbogføringsgrupper til flere enheder som standard
@@ -93,7 +93,7 @@ Hvis du vil anvende de samme momsbogføringsgrupper på flere enheder, kan du ko
 
 Momsvirksomheds- eller produktbogføringsgruppen tildeles, når du vælger en virksomheds- eller produktbogføringsgruppe til en debitor, kreditor, vare eller ressource.
 
-## <a name="to-assign-vat-posting-groups-to-individual-accounts-customers-vendors-items-and-resources"></a>Sådan tildeles momsbogføringsgrupper til individuelle konti, debitorer, kreditorer, varer og ressourcer
+## <a name="assigning-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Tildele momsbogføringsgrupper til konti, debitorer, kreditorer, varer og ressourcer
 I følgende afsnit beskrives, hvordan du tildeler momsbogføringsgrupper til individuelle poster.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Sådan tildeles momsbogføringsgrupper til individuelle finanskonti
@@ -115,13 +115,11 @@ I følgende afsnit beskrives, hvordan du tildeler momsbogføringsgrupper til ind
 * Udvid oversigtspanelet **Fakturering** på **Ressource**-kortet.  
 3. Vælg momsproduktbogføringsgruppen.  
 
-## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Opsætning af momsangivelsesskabeloner og momsangivelsesnavne
-Skattemyndighederne kan ændre, og gør det også, kravene til bogføring af moms. **Momsangivelsesskabeloner** og **Momsangivelsesnavne** kan hjælpe dig med at forberede kommende ændringer og foretage en problemfri overgang til de nye krav. Du kan bruge momsangivelsesskabeloner til at definere felterne, der skal medtages i momsangivelsen, og omvendt definere beregningerne, og du kan oprette en ny momsangivelsesskabelon, når kravene ændres. F.eks kan én skabelon beregne moms for dette år baseret på de aktuelle krav, og en anden kan beregne moms på basis af kravene for næste år. Skabeloner er også en metode til at opbevare en historik over momsangivelsesformater, så du f.eks. kan gå tilbage for at se, hvordan du beregnede moms i tidligere år.
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Konfigurere momsangivelsestyper og momsangivelsesnavne
+Skattemyndighederne kan ændre, og gør det også, kravene til bogføring af moms. Momsangivelsestyper og momsangivelsesnavne kan hjælpe dig med at forberede kommende ændringer og foretage en problemfri overgang til de nye krav. Du kan bruge momsangivelsesskabeloner til at definere felterne, der skal medtages i momsangivelsen, og omvendt definere beregningerne, og du kan oprette en ny momsangivelsesskabelon, når kravene ændres. F.eks kan én skabelon beregne moms for dette år baseret på de aktuelle krav, og en anden kan beregne moms på basis af kravene for næste år. Skabeloner er også en metode til at opbevare en historik over momsangivelsesformater, så du f.eks. kan gå tilbage for at se, hvordan du beregnede moms i tidligere år.
 
-## <a name="how-to-define-and-preview-vat-statements"></a>Sådan definerer du og får vist eksempler på momsangivelser
-Momsangivelser giver dig mulighed for at beregne momsangivelsesbeløb for en bestemt periode, f.eks. et kvartal. Når du har defineret en momsangivelse, kan du få vist et eksempel på den for at sikre, at det passer til dine behov.
-
-Hvis du vil definere en momsangivelse, skal du gøre følgende:
+## <a name="to-define-a-vat-statements"></a>Sådan defineres momsangivelser
+Momsangivelser giver dig mulighed for at beregne momsangivelsesbeløb for en bestemt periode, f.eks. et kvartal.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsangivelser**, og vælg derefter det relaterede link.  
 2. Vælg feltet **Navn**, og vælg derefter **Ny** på siden **Momsangivelsesnavne**.
@@ -131,17 +129,20 @@ Hvis du vil definere en momsangivelse, skal du gøre følgende:
 > Du kan filtrere de oplysninger, som angivelsen omfatter, afhængigt af hvad du vælger i feltet **Type**. **Kontosammentælling** er nyttig, når du vil se momsen fra en bestemt konto.
 **Momspostsammentælling** henter moms i de konti, der er knyttet til valgene i felterne **Bogføringstype**, **Momsvirksomhedsbogf.gruppe** og/eller **Momsproduktbogf.gruppe**. **Rækkesammentælling** giver dig mulighed for at angive en værdi eller hurtigt filtrere kriterier i feltet **Rækkesammentælling**. Du kan finde flere oplysninger under [Søgning i, filtrering og sortering af data](ui-enter-criteria-filters.md). **Beskrivelse** bruges ofte til at føje en note til angivelsen. Du kan f.eks. bruge den som en overskrift, når du har brugt Rubriksammentælling.
 
-Hvis du vil have vist et eksempel på momsangivelsen, skal du gøre følgende:
+## <a name="to-preview-the-vat-statement"></a>Sådan får du vist momsangivelsen
+Når du har defineret en momsangivelse, kan du få vist et eksempel på den for at sikre, at det passer til dine behov.
 
 1. Vælg **Eksempel**.
 2. Opret et datofilter for at begrænse angivelsen til en konkret periode. Du kan finde yderligere oplysninger om, hvordan du tilpasser siden til at vise datofiltret, under [Søgning i, filtrering og sortering af data](ui-enter-criteria-filters.md).
 3. Du kan vælge forskellige indstillinger for at angive den type momsposter, der skal medtages i angivelsen.
 4. På de linjer, hvor der står **Momspostsammentælling** i feltet **Type**, kan du få vist en oversigt over momsposter ved at vælge beløbet i feltet **Kolonnebeløb**.   
 
-## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Sådan oprettes klausuler til forklaring af brugen af ikke-standard momssatser
+## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Oprette klausuler, der forklarer momsfritagelse eller ikke-standard-momssatser
 Du konfigurerer en momsklausul til at beskrive oplysninger om den moms, der skal anvendes. Oplysningerne kan være påkrævet som påbudt af myndighederne. Når du har konfigureret en momsklausul og tilknyttet den til en momsbogføringsgruppe, vises momsklausulen på udskrevne salgsdokumenter, der bruger momsbogføringsopsætningsgruppen.
 
 Hvis det er nødvendigt, kan du også angive, hvordan momsklausuler skal oversættes til andre sprog. Når du derefter opretter og udskriver et salgsdokument, der indeholder et moms-id, vil det udskrevne dokument indeholde den oversatte momsklausul. Den sprogkode, der er angivet på debitorkortet, bestemmer sproget.
+
+Når ikke-standard-momssatsen anvendes i forskellige typer dokumenter, f. eks. fakturaer eller kreditnotaer, skal virksomheder normalt angive en fritagelsestekst (momsklausul) om, hvorfor der er beregnet en nedsat moms eller ingen moms. Du kan definere forskellige momsklausuler, der skal indgå i forretningsdokumenter, f. eks. faktura eller kreditnota. Dette gøres på siden **Momsklausuler efter dok.type**.
 
 Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en genereret rapport. Men [!INCLUDE[d365fin](includes/d365fin_md.md)] bevarer ikke en oversigt over ændringen. På rapporten udskrives og vises momsklausulbeskrivelserne for alle linjer i rapporten sammen med momsbeløbet og momsgrundbeløbet. Hvis en momsklausul ikke er defineret for alle linjer i salgsdokumentet, så udelades hele sektionen, når rapporten udskrives.
 
@@ -149,12 +150,14 @@ Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en g
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsklausuler**, og vælg derefter det relaterede link.  
 2. Oprette en ny linje på siden **Momsklausuler**.  
 3. Angiv et id for klausulen i feltet **Kode**. Du bruger koden til at tildele klausulen til momsbogføringsgrupper.  
-4. I feltet **Beskrivelse** skal du angive den tekst, du vil have vist i dokumenter, som kan inkludere moms. I feltet **Beskrivelse 2** skal du angive supplerende tekst, hvis det er nødvendigt. Teksten vises på nye linjer.  
-5. Valgfrit: Hvis du vil tildele momsklausulen til en momsbogføringsopsætning med det samme, skal du vælge **Opsætning** og derefter vælge klausulen. Hvis du vil vente, kan du tildele klausulen senere på siden Momsbogføringsopsætning.  
-6. Valgfrit: Hvis du vil angive, hvordan momsklausulen skal oversættes, skal du vælge handlingen **Oversættelser**.
+4. I feltet **Beskrivelse** skal du angive den momsfritagelse, du vil have vist i dokumenter, som kan inkludere moms. I feltet **Beskrivelse 2** skal du angive supplerende tekst, hvis det er nødvendigt. Teksten vises på nye dokumentlinjer.
+5. Vælg handlingen **Beskrivelse efter dokumenttype**.
+6. Udfyld felterne på siden **Momsklausuler efter dok.type** for at angive, hvilken momsfritagelsestekst der skal vises for hvilken dokumenttype.  
+7. Valgfrit: Hvis du vil tildele momsklausulen til en momsbogføringsopsætning med det samme, skal du vælge **Opsætning** og derefter vælge klausulen. Hvis du vil vente, kan du tildele klausulen senere på siden **Momsbogf.opsætning**.  
+8. Valgfrit: Hvis du vil angive, hvordan momsklausulen skal oversættes, skal du vælge handlingen **Oversættelser**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Sådan tildeles en momsklausul til en momsbogføringsopsætning
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af momsbogføring**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.  
 2. I kolonnen **Momsklausul** skal du vælge den klausul, der skal bruges til hver momsbogføringsopsætning, den gælder for.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Sådan angives oversættelser af momsklausuler
@@ -169,7 +172,7 @@ Du kan bruge funktionen Importmoms, når du skal bogføre et dokument, hvor hele
 Når du vil konfigurere koder for importmoms, skal du gøre følgende:  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsproduktbogf.grupper**, og vælg derefter det relaterede link.  
 2. På siden Momsproduktbogf.grupper. skal du oprette en ny momsproduktbogføringsgruppe for importmoms.  
-3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af momsbogføring**, og vælg derefter det relaterede link.  
+3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.  
 4. På siden Opsætning af momsbogføring skal du oprette en ny linje eller bruge en eksisterende momsvirksomhedsbogføringsgruppe kombineret med den nye momsproduktbogføringsgruppe til importmoms.  
 5. I feltet **Momsberegningstype** skal du vælge **Momskorrektion**.  
 6. Angiv den finanskonto, der skal bruges til bogføring af importmoms, i feltet **Købsmomskonto**. Alle andre konti er valgfrie.  
@@ -240,7 +243,7 @@ Før du konfigurerer momssatsændringsværktøj, skal du foretage følgende forb
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Sådan konfigureres produktbogføringsgruppekonvertering  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af ændring af momssats**, og vælg derefter det relaterede link.  
-2. På siden **Konfiguration af ændring af momssats** under fanen **Startside** i gruppen **Behandl** skal du vælge enten **Momsproduktbogf.gruppekonv.** eller **Gen. produktbogf.gruppekonv.**.  
+2. På siden **Konfiguration af ændring af momssats** skal du vælge enten **Momsproduktbogf.gruppekonv.** eller **Gen. produktbogf.gruppekonv.**.  
 3. Angiv den aktuelle bogføringsgruppe i feltet **Fra kode**.  
 4. Angiv den nye bogføringsgruppe i feltet **Til kode**.  
 
@@ -261,12 +264,12 @@ Du bruger momssatsændringsværktøjet til at administrere ændringer i standard
     >  Fjern markeringen af afkrydsningsfeltet **Momssatsændringsværktøjet afsluttet**. Afkrydsningsfelt vælges automatisk, når konverteringen af momssatsændring er afsluttet.  
 
 4. Vælg handlingen **Konverter**.  
-5. Når konverteringen er afsluttet, skal du på fanen **Startside** i gruppen **Behandl** vælge **Ændringslogposter for momssats** for at få vist resultaterne af konverteringen.  
+5. Når konverteringen er afsluttet, skal du vælge handlingen **Ændringslogposter for momssats** for at få vist resultaterne af konverteringen.  
 
 > [!IMPORTANT]  
 >  Efter konverteringen er feltet **Konverteret** valgt i tabellen **Momssatsændringslogpost**, og feltet **Konverteringsdato** i tabellen **Momssatsændringslogpost** viser konverteringsdatoen.  
 
 ## <a name="see-also"></a>Se også  
 [Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)  
-[Fremgangsmåde: Rapportere moms til en skattemyndighed](finance-how-report-vat.md)  
-[Arbejde moms af salg og køb](finance-work-with-vat.md)  
+[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
+[Arbejde med moms af salg og køb](finance-work-with-vat.md)  

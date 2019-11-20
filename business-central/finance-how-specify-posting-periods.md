@@ -13,12 +13,12 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 14ffdb7d4be38949a31aebeb86e6312a5e3128aa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e51853d3378fe07680667f38bf729673da40a3c7
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306144"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767510"
 ---
 # <a name="specify-posting-periods"></a>Angive bogføringsperioder
 Brug bogføringsperioder til at angive, hvornår brugerne kan bogføre i finansregnskabet.  
@@ -28,7 +28,7 @@ Brug bogføringsperioder til at angive, hvornår brugerne kan bogføre i finansr
 2. På siden **Opsætning af Finans** skal du definere perioden ved at angive datoer i felterne **Bogf. tilladt fra** og **Bogf. tilladt til**.  
 
 > [!NOTE]  
->   Disse bogføringsperioder gælder for hele virksomheden og alle brugere. Hvis du vil tillade undtagelser, kan du angive forskellige bogføringsperioder for bestemte brugere på siden **Brugeropsætning**. Disse bogføringsperioder tilsidesætter dem, der er angivet på siden **Opsætning af Finans**. Du kan finde flere oplysninger i [Sådan opsættes tidsbegrænsninger for brugere](ui-how-users-permissions.md#to-set-up-user-time-constraints).
+>   Disse bogføringsperioder gælder for hele virksomheden og alle brugere. Hvis du vil tillade undtagelser, kan du angive forskellige bogføringsperioder for bestemte brugere på siden **Brugeropsætning**. Disse bogføringsperioder tilsidesætter dem, der er angivet på siden **Opsætning af Finans**. Du kan finde flere oplysninger i [Sådan opsættes tidsbegrænsninger for brugere](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

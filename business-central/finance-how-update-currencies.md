@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7376abd7806eb664bbfcbf3f3505df00ababba9e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c971a3cd11f34db0ff04cd66096d74909cca3651
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305808"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577251"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 Da virksomheder handler i alt flere lande, bliver det mere vigtigt, at de kan handle eller rapportere finansielle oplysninger i mere end én valuta. Du skal oprette koder for hver valuta, du bruger, hvis du foretager køb og salg i andre valutaer end din lokale valuta, eller hvis du registrerer finanstransaktioner i forskellige valutaer.
@@ -46,6 +46,8 @@ Reguleringsposterne tildeles standarddimensionerne fra de konti, de bogføres p�
 
 > [!Important]
 > Før du kan bruge kørslen, skal du indtaste de kursreguleringer, som den udenlandske valutabeholdning skal reguleres efter. Det kan du gøre på siden **Valutakurser**.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q24s]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Sådan konfigureres en valutakurstjeneste
 Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks. FloatRates.

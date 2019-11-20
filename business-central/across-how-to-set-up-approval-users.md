@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3071577689c7f292b27aef72291d9bfdd36c473a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 067db27e9b0000d39af06e877193e241d05bc4cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305280"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554469"
 ---
 # <a name="set-up-approval-users"></a>Konfigurere godkendelsesbrugere
 Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive workflowbrugere, der er involveret i godkendelsesprocessen. På siden **Konfiguration af godkendelsesbruger** skal du også angive beløbsgrænser for bestemte typer anmodninger og angive stedfortrædende godkendere, som godkendelsesanmodninger skal uddelegeres til, når den oprindelige godkender er fraværende.  
@@ -49,10 +49,10 @@ Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive wor
     |**Ubegrænset anmodningsgodkendelse**|Angiv, at brugeren i feltet **Bruger-id** kan godkende alle købsrekvisitioner uanset deres beløb.<br /><br /> Hvis du markerer dette afkrydsningsfelt, kan du ikke udfylde feltet **Godkendelsesgrænse for anmodet beløb**.|  
     |**Stedfortræder**|Vælg bruger-id'et for den bruger, der skal godkende anmodninger fra brugeren, i feltet **Bruger-id**, hvis brugeren i **Godkender-id** ikke er tilgængelig. **Bemærk:** Stedfortræderen kan enten være brugeren i feltet **Stedfortræder**, den direkte godkender eller godkendelsesadministratoren, i nævnte rækkefølge. Du kan finde flere oplysninger under [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).|  
     |**Mailadresse**|Angiv mailadressen for brugeren i feltet **Bruger-id**.|  
-    |**Godkendelsesadministrator**|Angiv den bruger, der har tilladelse til at genåbne godkendelsesarbejdsgange, f.eks. ved at uddelegere godkendelsesanmodninger til nye stedfortrædende godkendere og slette forfaldne godkendelsesanmodninger.|  
+    |**Godkendelsesadministrator**|Angiv den bruger, der har tilladelse til at genåbne godkendelsesarbejdsgange, f.eks. ved at uddelegere godkendelsesanmodninger til nye stedfortrædende godkendere og slette forfaldne godkendelsesanmodninger.|
 
-    > [!NOTE]  
-    >  Funktionen af feltet **Godkenders grænsetype** gælder kun for funktionalitetsområde, hvor grænser kan defineres, nemlig godkendelser af salg og køb. Alle andre godkendelsestyper, hvor grænser ikke gælder, fungerer altid som beskrevet for indstillingen **Direkte godkender**.  
+    > [!Note]
+    > Kun én person kan være godkendelsesadministrator.|  
 
 3. Hvis du vil teste brugeropsætningen af godkendelsen, skal du vælge handlingen **Brugeropsætning af godkendelser - kontrol**.  
 4. Gentag trin 2 og 3 for hver bruger, du vil angive som en godkendelsesbruger.  

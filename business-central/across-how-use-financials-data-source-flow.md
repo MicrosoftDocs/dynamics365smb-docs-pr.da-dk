@@ -12,12 +12,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 86178bafa806fb8cba531d5b78157437c242d432
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a46692503b19ddad57c4a68d0f29b588d84f5c9e
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305020"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775447"
 ---
 # <a name="using-included365finincludesd365fin_mdmd-in-an-automated-workflow"></a>Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i et automatisk workflow
 Du kan bruge dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del af en arbejdsproces i Microsoft Flow.
@@ -81,7 +81,7 @@ Du kan finde flere oplysninger i [Flow-dokumentationen](/flow/getting-started).
 [Introduktion](product-get-started.md)  
 [Workflow](across-workflow.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Administrere brugere og rettigheder](ui-how-users-permissions.md)   
+[Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)   
 [Administrere [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-workflows](across-use-workflows.md)  
 [Brugeropsætning af godkendelser](across-how-to-set-up-approval-users.md)  
 [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

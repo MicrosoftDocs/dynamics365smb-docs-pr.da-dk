@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: dcb1f7e94aacb07bb314aa5053d789877e3b49a8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e3d77e5f9a018325855594da62fc4a45f711e30b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306552"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554226"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Overføre, opdele eller kombinere anlægsaktiver
 Anlægsomposteringskladden bruges til at overføre, opdele og kombinere anlægsaktiver. Du kan få vist eller udskrive resultaterne af anlægsompostering med rapporten **Anlæg - bogført værdi 02**.
@@ -59,7 +59,7 @@ Du kan kombinere flere anlægsaktiver til ét anlægsaktiv, f.eks. når du skal 
 2. Opret en omposteringskladde, hvor feltet **Anlægsnr.** viser det oprindelige anlægsaktiv, der skal flyttes/kombineres, og feltet **Nyt anlægsnr.** indeholder det nye anlægsaktiv, det skal kombineres med.
 3. Lad feltet **Ompost.pct. (anskaffelse)** være tomt for at flytte/kombinere hele anskaffelsesprisen.    
 4. Markér afkrydsningsfelterne **Omposter anskaffelse** og **Omposter afskrivning**.
-5. På fanen **Handlinger** skal du vælge **Omposter**.
+5. Vælg handlingen **Ompostér**.
 
     Der oprettes nu to linjer i anlægskassekladden ved hjælp af den type og det navn, du har angivet på siden **Anlægskladdeopsætning** for den angivne afskrivningsprofil. Du kan finde flere oplysninger i [Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).   
 6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.

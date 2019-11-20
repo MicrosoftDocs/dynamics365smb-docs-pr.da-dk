@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 24f9720c0dfb1641db347d6eca37d7e4f4c3a2ab
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301560"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554178"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
 Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
@@ -96,7 +96,7 @@ I stedet for at bruge kladder, når du bogfører en faktura med importmoms, kan 
 1. Opret et kreditorkort for den importmyndighed, der sender dig fakturaen med importmoms. Du skal vælge de samme indstillinger til **Virksomhedsbogføringsgruppe** og **Momsvirksomhedsbogf.gruppe** som til den finanskonto, der bruges til importmoms.  
 2. Opret en **Produktbogføringsgruppe** til importmomsen, og opret en **Momsproduktbogf.gruppe**, der skal bruges som standard til den tilhørende **Produktbogføringsgruppe**.  
 3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
-4. Markér finanskontoen for importmoms og vælg derefter **Rediger** i gruppen **Administrer** under fanen **Startside**.  
+4. Vælg finanskontoen til importmoms, og vælg derefter handlingen **Rediger**.  
 5. På oversigtspanelet **Bogføring** skal du vælge opsætningen **Produktbogføringsgruppe** for at importere moms. [!INCLUDE[d365fin](includes/d365fin_md.md)] udfylder automatisk feltet **Momsproduktbogf.gruppe**.  
 6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 7. Opret en kombination af **Virksomhedsbogføringsgruppe** til momsmyndighederne og **Produktbogføringsgruppe** til importmoms. Til denne nye kombination skal du i feltet **Købskonto** vælge finanskontoen for importmoms.  
@@ -181,4 +181,4 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringsce
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)   
-[Fremgangsmåde: Rapportere moms til en skattemyndighed](finance-how-report-vat.md)   
+[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)   

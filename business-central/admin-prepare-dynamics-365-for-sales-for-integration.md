@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54f2a90939a47cc34f7dbcea3509b5e0b0f2d598
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304368"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775303"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration med Dynamics 365 Sales
 Rollen Sælger betragtes ofte som et af de mest udadvendte i en virksomhed. Det kan imidlertid være en fordel for sælgere at kunne se indad i virksomheden og se, hvad der foregår i back end. Ved at integrere [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] kan du give dine sælgere denne indsigt ved at gøre det muligt for dem at få vist oplysninger i [!INCLUDE[d365fin](includes/d365fin_md.md)], når de arbejder i [!INCLUDE[crm_md](includes/crm_md.md)]. Ved udarbejdelse af et salgstilbud kan det f.eks. være nyttigt at vide, om der er tilstrækkelig lagerbeholdning til at opfylde ordren. Du kan finde flere oplysninger i [Bruge Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
@@ -52,7 +52,7 @@ Som standard importerer den assisterede opsætningsvejledning **Konfigurer Dynam
 * Systemadministrator  
 * Løsningsoptimerer  
 
-Du kan finde flere oplysninger i [Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Oprette brugere i Microsoft Dynamics 365 (online) og tildele sikkerhedsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) og [Administrere brugere og rettigheder](ui-how-users-permissions.md).  
+Du kan finde flere oplysninger i [Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Oprette brugere i Microsoft Dynamics 365 (online) og tildele sikkerhedsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) og [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
 Denne konto bruges kun én gang under opsætningen. Når løsningen er importeret til [!INCLUDE[d365fin](includes/d365fin_md.md)], er kontoen ikke længere nødvendig. Integrationen fortsætter med at bruge den brugerkonto, der er oprettet specielt til integrationen.
 

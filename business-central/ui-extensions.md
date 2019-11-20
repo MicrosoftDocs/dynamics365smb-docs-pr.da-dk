@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
+ms.date: 10/14/2019
 ms.author: edupont
-ms.openlocfilehash: c4e8fe698aa93a110cb2cb2df5f094a79cc20bb7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 072a7a371e8314acddb6d42aec5e263dabdfa9c1
+ms.sourcegitcommit: 659cbd179d207b21fce2e365d60b423680d5156a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311016"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622325"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central ved brug af udvidelser
 Du kan ændre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.
@@ -69,6 +69,7 @@ Microsoft tilbyder følgende udvidelser:
 * [Import af Quickbooks-lønfiler](ui-extensions-quickbooks-payroll.md)
 * [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [AMC Banking 365 Fundamentals-udvidelse](ui-extensions-amc-banking.md)
 * [DK – C5-dataoverførsel](ui-extensions-c5-data-migration.md)
 * [DK - Betalinger og afstemninger](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK – Tax File Formats](ui-extensions-tax-file-formats-dk.md)

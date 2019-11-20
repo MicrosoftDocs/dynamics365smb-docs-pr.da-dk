@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3d9d602690b8d4ca7714b328759a705204c740ee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306048"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554130"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne og genanvende vareposter
 På siden **Udligningskladde** kan du få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagertransaktioner.  
@@ -61,7 +61,7 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Sådan udlignes en vareudligning igen ved brug af applikationskladden  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
 2.  Siden **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
-3.  For at udligne poster igen, som et blevet fjernet, efter at kladden blev åbnet, skal du vælge den varepost, som du igen vil udligne. På fanen **Handlinger** i gruppen **Funktioner** vælges **Udlign igen**.  
+3.  For at udligne poster igen, som har været fjernet, siden kladden blev åbnet, skal du vælge den varepost, som du vil udligne igen og derefter vælge handlingen **Udlign igen**.  
 
     > [!NOTE]  
     >  Denne udligning af den oprindelige balance sker også automatisk, når du lukker siden **Udligningskladde** .  

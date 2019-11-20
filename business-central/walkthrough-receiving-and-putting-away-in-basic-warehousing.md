@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 597f14f07f7e8ac690dce8a5473d01ec68d1669a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314732"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554640"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger
 
@@ -126,7 +126,7 @@ På siden **Læg-på-lager** kan du administrere alle indgående lageraktivitete
 3.  Vælg feltet **Kildedokument**, og vælg derefter **Købsordre**.  
 4.  Vælg feltet **Kildenr.**, vælg linjen til købet fra kreditor 10000, og vælg knappen **OK**.  
 
-    Du kan også gå til fanen **Handlinger** i gruppen **Funktioner** og vælge **Hent kildedokument** og derefter vælge købsordren.  
+    Du kan også vælge handlingen **Hent kildedokument** og derefter vælge købsordren.  
 
 5.  Vælg handlingen **Autofyld håndteringsantal**.  
 

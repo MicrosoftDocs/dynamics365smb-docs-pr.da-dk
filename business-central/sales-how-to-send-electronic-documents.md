@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8b48dab5b644696bc30dd1748370697ac408f387
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 26b2e5bf479f3343f66bd852078b337ad87e852a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316280"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554808"
 ---
 # <a name="send-electronic-documents"></a>Sende elektroniske dokumenter
 Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter afsendelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. En udbyder af dokumentudvekslingstjenester sender elektroniske dokumenter mellem handelspartnere. For at understøtte andre elektroniske dokumentformater kan du bruge dataudvekslingsstrukturen.  
@@ -30,7 +30,7 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
 
 2.  Opret en ny salgsfaktura.  
 
-3.  Når salgsfakturaen er klar til blive faktureret, skal du bruge fanen **Handlinger** i gruppen **Bogføring** og vælge **Bogfør og send**.  
+3.  Når salgsfakturaerne er klar til at blive faktureret, skal du vælge handlingen **Bogfør og send**.  
 
      Hvis kundens standardafsendelsesprofil er **Elektronisk dokument**, bliver den vist i dialogboksen **Bekræftelse af bogfør og send**, og du skal bare klikke på knappen **Ja** for at bogføre og sende fakturaen elektronisk i det valgte format.  
 
@@ -47,7 +47,7 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
      Salgsfakturaen bogføres og sendes til kunden som et elektronisk dokument i PEPPOL-format.  
 
     > [!NOTE]  
-    >  Du kan også sende en bogført salgsfaktura som et elektronisk dokument. Fremgangsmåden er den samme som beskrevet i dette emne for ikke-bogførte salgsdokumenter. På siden **Bogført salgsfaktura** under fanen **Handlinger** i gruppen **Generelt** skal du vælge **Aktivitetslog** for at få vist status for det elektroniske dokument. Du kan finde flere oplysninger **Aktivitetslog**.  
+    >  Du kan også sende en bogført salgsfaktura som et elektronisk dokument. Fremgangsmåden er den samme som beskrevet i dette emne for ikke-bogførte salgsdokumenter. På siden **Bogført salgsfaktura** skal du vælge handlingen **Aktivitetslog** for at få vist statussen for det elektroniske dokument. Du kan finde flere oplysninger **Aktivitetslog**.  
 
 ## <a name="see-also"></a>Se også  
 [Fakturere salg](sales-how-invoice-sales.md)  

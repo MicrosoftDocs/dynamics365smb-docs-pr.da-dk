@@ -1,6 +1,6 @@
 ---
 title: Feltkobling til eksport af bankbetalingsfiler | Microsoft Docs
-description: Når du eksporterer betalingsfiler ved hjælp af funktionen Tjeneste til konvertering af bankdata, bliver de data, du eksporterer, eksponeret for udbyderen af tjenesten til konvertering af bankdata.
+description: Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, eksponeres de data, du eksporterer, for tjenesteudbyderen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ca6b3722220e008a3a8132054eed7ba29afd11f3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300517"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692624"
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Feltkobling, når du eksporterer betalingsfiler ved hjælp af tjeneste til konvertering af bankdata
-Når du eksporterer betalingsfiler ved hjælp af funktionen Tjeneste til konvertering af bankdata, bliver de data, du eksporterer, eksponeret for udbyderen af tjenesten til konvertering af bankdata. Serviceudbyderen er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger om, hvordan tjenesten til konvertering af bankdata fungerer, i [Om Data Exchange Framework](across-about-the-data-exchange-framework.md).  
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Felttilknytning ved eksport af betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen
+Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, eksponeres de data, du eksporterer, for tjenesteudbyderen. Serviceudbyderen er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger om AMC Banking 365 Fundamentals i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Når du eksporterer betalingsfiler ved hjælp af funktionen Tjeneste til konvertering af bankdata, vil nogle af virksomhedens data blive eksponeret for udbyderen af tjenesten. Serviceudbyderen, AMC Consult A/S, er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger i [AMC's politik for beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Når du eksporterer betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen vil nogle af virksomhedens data blive eksponeret for tjenesteudbyderen. Serviceudbyderen, AMC Consult A/S, er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger i [AMC's politik for beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Følgende tabel viser felterne i [!INCLUDE[d365fin](includes/d365fin_md.md)], fra hvilke data kan eksporteres til serviceudbyderen.  
+Følgende tabel viser de felter i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvorfra du kan eksportere data.  
 
-|Koblet felt|Felt i tabel|Sortbord|Beskrivelse|  
+|Koblet felt|Felt i tabel|Sortbord|Description|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Kreditornummer|Kreditornummer|Bankkonto|Det id, der er tildelt din virksomhed af banken for at opkræve betalinger|  
 |Afsenders bankkontonr.|Bankkontonr./IBAN|Bankkonto|Dit firmas bankkontonummer (IBAN eller andet), der er angivet på bankkontokortet|  
@@ -65,10 +65,10 @@ Følgende tabel viser felterne i [!INCLUDE[d365fin](includes/d365fin_md.md)], fr
 |Afsenderbanks postnummer|Postnr.|Bankkonto|Afsenderens bankkontopostnummer, der er angivet på bankkontokortet|  
 |Finanskladdetype|Kladdetypenavn|Finanskladdelinje|Finanskladdeskabelonen, der bruges til betalingslinjen|  
 |Finanskladdenavn|Kladdenavn|Finanskladdelinje|Finanskladdenavnet, der bruges til betalingslinjen|  
-|Afsenderbanks navn - datakonvertering|Banknavn - datakonvertering|Bankkonto|Afsenderens bankkontonavn, der er anmodet om af tjenesten til konvertering af bankdata og angivet på bankkontokortet|  
+|Afsenderbanks navn - datakonvertering|Banknavn - datakonvertering|Bankkonto|Afsenderens bankkontonavn, der er anmodet om af AMC Banking 365 Fundamentals-udvidelsen og angivet på bankkontokortet|  
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Udveksle data elektronisk](across-data-exchange.md)
-[Konfigurere tjenesten til konvertering af bankdata](bank-how-setup-bank-data-conversion-service.md)   
+[Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)   
 [Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

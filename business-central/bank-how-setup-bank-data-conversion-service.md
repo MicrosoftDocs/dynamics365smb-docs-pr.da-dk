@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 04c9a867e43a1228839eaf95b3b31e5ab3421fe6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c36c50387418f25f3d16f46cefcf275742e69d3
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304056"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692748"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Konfigurere tjenesten til konvertering af bankdata
 En global udbyder af tjenester til konvertering af betalingsoplysninger til ethvert dataformat, som din bank kræver, er forbundet og klar til at blive aktiveret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kaldes for tjenesten til konvertering af bankdata i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -53,7 +53,7 @@ Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen b
 2. På siden **Opsætning af tjeneste til konvertering af bankdata** skal du vælge handlingen **Banknavn - datakonverteringsoversigt** for at åbne listen over banknavne, der repræsenterer bankdataformater, der understøttes af konverteringstjenesten.
 3. På siden **Banknavn - datakonverteringsoversigt** skal du vælge handlingen **Opdater liste over banknavne**.
 
-Listen over bankdataformater, der understøttes af tjenesten til konvertering af bankdata, er nu opdateret. Dette er listen over banknavne, der er filtreret efter det land/område, som du kan vælge i feltet **Banknavn - datakonvertering** på siden **Bankkontokort**.
+Listen over bankdataformater, der understøttes af AMC Banking 365 Fundamentals-udvidelsen, er nu opdateret. Dette er listen over banknavne, der er filtreret efter det land/område, som du kan vælge i feltet **Banknavn - datakonvertering** på siden **Bankkontokort**.
 
 > [!NOTE]  
 >   Opdatering af understøttede bankdataformater opstår også, når du vælger eller angiver en værdi i feltet **Banknavn - datakonvertering** på bankkontoen.

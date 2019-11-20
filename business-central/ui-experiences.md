@@ -9,23 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2019
+ms.date: 10/08/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5866ce2bc125d7e21c6dbdf93984a87b07ae46b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c9223176968d048d167b3b8509cab26343ee9f1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311352"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775327"
 ---
 # <a name="change-which-features-are-displayed"></a>Ændre, hvilke funktioner der vises
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjælpe dig med at køre din virksomhed, uanset hvilken branche du arbejder i. Kernen i [!INCLUDE[d365fin](includes/d365fin_md.md)] er finansiel rapportering og salgs- og købsprocesser. Du føjer oplevelser til i henhold til dine forretningsmæssige behov ved at ændre indstillingen **Oplevelse** for din virksomhed som beskrevet nedenfor eller ved at tilføje udvidelser fra AppSource. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er designet til at hjælpe dig med at køre din virksomhed uanset størrelse og kompleksitet. I kernen af produktet finder du væsentlige funktioner som f.eks. finansiel rapportering, salg, køb og lagerstyring. I takt med at kompleksiteten øges, kan du f.eks. aktivere funktionen til produktions- og servicestyring.
 
-## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Valg af en brugergrænseflade til at vise eller skjule funktioner
-Brugeroplevelsen bestemmer, hvor mange af de grundlæggende funktioner der er tilgængelige, når du og dine kolleger bruger [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan vælge brugeroplevelsen for din virksomhed i feltet **Oplevelse** på siden **Virksomhedsoplysninger**.
-
-> [!NOTE]  
-> Denne indstilling gælder for alle brugere i virksomheden. Brugere kan tilpasse deres egne oplevelse yderligere ved at ændre sidelayout og -indhold. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).  
+Du kan definere niveauet for produktkompleksiteten, og dermed hvilke funktioner virksomhedens brugere får adgang til, ved at ændre indstillingen **Oplevelse** på siden **Virksomhedsoplysninger**. Bemærk, at indstillingen Oplevelse også kan ændres ved at tilføje visse udvidelser fra AppSource. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).
 
 Følgende tabel viser de oplevelser, der i øjeblikket er tilgængelige.
 
@@ -34,23 +30,24 @@ Følgende tabel viser de oplevelser, der i øjeblikket er tilgængelige.
 | **Essential** |Viser alle handlinger og felter for alle almindelige forretningsfunktioner.|
 | **Premium** |Viser alle handlinger og felter for alle forretningsfunktioner, herunder produktion og service.|
 
-> [!NOTE]  
-> De oplevelser, du kan vælge i [!INCLUDE[d365fin](includes/d365fin_md.md)] afhænger af din løsningslicens, der kaldes en plan. Du kan oplysninger om planerne **Essentiel** og **Premium** under [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på Microsoft Dynamics 365-marketingwebstedet. Se også [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensvejledning](https://go.microsoft.com/fwlink/?linkid=2068931) (kræver adgang til CustomerSource eller PartnerSource).
+De oplevelser, der kan vælges i [!INCLUDE[d365fin](includes/d365fin_md.md)], afspejler de løsningslicenser, der kaldes planer, som er defineret for produktet. Du kan finde oplysninger om planerne Essentiel og Premium under [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på Microsoft Dynamics 365 Marketing-webstedet. Se også [[!INCLUDE[d365fin](includes/d365fin_md.md)] Licensvejledning](https://go.microsoft.com/fwlink/?linkid=2068931) (kræver adgang til CustomerSource eller PartnerSource).
 
 > [!IMPORTANT]  
-> Alle almindelige brugere i en løsning skal have tildelt den samme plan, Essential eller Premium, før oplevelsen kan vælges til virksomheden. Derfor kan én bruger ikke få adgang til Premium-funktioner, hvis en eller flere andre brugere kun har adgang til Essential-funktioner. Dette gælder ikke for mere særlige brugere af typen teammedlem, intern administrator, ekstern bogholder og uddelegeret administrator, der kan hver tildeles en anden plan end andre brugere i løsningen.
+> Alle almindelige brugere i en løsning skal have tildelt den samme plan, Essential eller Premium, før oplevelsen kan vælges til virksomheden. Derfor kan én bruger ikke få adgang til Premium-funktioner, hvis en eller flere andre brugere kun har adgang til Essential-funktioner. Dette gælder ikke for mere særlige brugere af typen teammedlem, intern administrator, ekstern bogholder og uddelegeret administrator, der kan hver tildeles en anden plan end andre brugere i løsningen.<br /><br /> Kun brugere af type Evaluation eller Premium kan ændre værdien i feltet **Oplevelse** fra Essential til Premium.
+
+Før du angiver en indstilling for en virksomheds oplevelse, skal du angive brugernes adgang til bestemte funktioner og sider ved at tildele tilladelsessæt. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
+
+Indstillingen **Oplevelse** gælder for alle brugere i en virksomhed, men de enkelte brugere kan tilpasse deres egne oplevelser yderligere ved at ændre sidelayout og indhold. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivere Premium-funktioner, når du har opgraderet en plan
 Brugere tildeles til planer i Office 365 Administration i forbindelse med generelt arbejde for at oprette Business Central-brugere. Du kan finde flere oplysninger under [Føje brugere til Office 365 til virksomheder](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
-
-Derefter kan du definere, hvilke bestemte funktioner og sider i oplevelsen, disse brugere kan få adgang til, ved at tildele tilladelsessæt. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Sådan opdateres planændringer i brugergrupper
 Når du har ændret brugerplaner i Office 365 Administration, f.eks. tildelt flere brugere til Premium-planen, skal du afspejle ændringen i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Log på som administrator.
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
-3. Du kan vælge handlingen **Brugergrupper** på siden **Opdater alle brugergrupper**.
+3. Vælg handlingen **Opdater alle brugergrupper** på siden **Brugergrupper**.
 
 Alle nye oplysninger om planer for brugere og de tilknyttede brugergrupper opdateres nu i overensstemmelse med ændringerne i planen.
 
@@ -60,13 +57,13 @@ Du kan nu fortsætte med at vælge den nye oplevelse.
 2. Vælg Premium i feltet **Oplevelse** i oversigtspanelet **Brugeroplevelse** på siden **Virksomhedsoplysninger**.
 
 ## <a name="help-assumes-premium-experience"></a>Hjælpen forudsætter Premium-oplevelse
-Alle beskrivelser af funktioner i dokumentationen til [!INCLUDE[d365fin](includes/d365fin_md.md)] antager **Premium**-oplevelsen, hvilket betyder, at beskrivelserne dækker det fulde omfang af elementerne i brugergrænsefladen. En tekstnote indsættes i vigtige emner i Hjælp for funktionsområderne Produktion og Serviceadministration med angivelse af, at de kræver **Premium**-oplevelsen.
+Alle beskrivelser af funktioner i dokumentationen til [!INCLUDE[d365fin](includes/d365fin_md.md)] antager **Premium**-oplevelsen, hvilket betyder, at beskrivelserne dækker det fulde omfang af elementerne i brugergrænsefladen.
 
 ## <a name="see-also"></a>Se også
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
-[Tilpasse Business Central](ui-customizing-overview.md)
+[Tilpasse Business Central](ui-customizing-overview.md)  
+[Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 [Oprettelse af nye virksomheder](about-new-company.md)  
-[Administrere brugere og rettigheder](ui-how-users-permissions.md)    
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]-licensvejledning](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)

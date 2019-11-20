@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00ed408bcdc5b98a7c23a8083109b140db175ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305112"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554442"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
 Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstrukturen i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge XML-skemaer til at definere, hvilke dataelementer du vil udveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan udføre dette arbejde på siden **XML-skemafremviser** ved at indlæse XML-skemafilen, vælge de relevante dataelementer og derefter initialisere enten en dataudvekslingsdefinition eller en XMLport.  
@@ -40,9 +40,9 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 1.  Sørg for, at den pågældende XML-skemafil er tilgængelig. Filtypenavnet er .xsd.  
 
-2.  I feltet **Søg** skal du indtaste **XML-skemaer** og derefter vælge det relaterede link.  
+2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XML-skemaer**, og vælg derefter det relaterede link.  
 
-3.  Under fanen **Startside** i gruppen **Ny** skal du vælge **Ny**.  
+3.  Vælg handlingen **Ny**.  
 
 4.  Udfyld felterne som beskrevet i følgende tabel.  
 
@@ -53,7 +53,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
      Feltet **Målnavneområde** angiver navneområdet i den XML-skemafil, der er indlæst for linjen.  
 
-5.  Under fanen **Startside** i gruppen **Proces** skal du vælge **Indlæs skema** og derefter vælge XML-skemafilen.  
+5.  Vælg handlingen **Indlæs skema**, og vælg derefter XML-skemafilen.  
 
      Når filen er indlæst, udfyldes resten af felterne på linjen med oplysninger fra filen, og afkrydsningsfeltet **Skema er indlæst** markeres.  
 
@@ -62,7 +62,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Sådan markeres eller fjernes markeringen af noder i et XML-skema  
 
-1.  I feltet **Søg** skal du indtaste **XML-skemafremviser** og derefter vælge det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XML-skemafremviser**, og vælg derefter det relaterede link.  
 
 2.  Udfyld felterne i sidehovedet som beskrevet i følgende tabel.  
 
@@ -77,7 +77,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
      Alternativt kan du højreklikke på en node og derefter vælge **Udvid alle**.  
 
-4.  Brug fanen **Startside** og gruppen **Vis** til at vælge en af følgende handlinger for at ændre, hvilke noder der vises.  
+4.  Vælg en af følgende handlinger for at ændre, hvilke noder der vises.  
 
     |**Handling**|Beskrivelse|  
     |----------------|---------------------------------------|  
@@ -85,7 +85,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
     |**Skjul ikke-obligatoriske**|Der vises kun de noder, der repræsenterer elementer, der kræves i henhold til XML-skemaet. Disse noder er typisk angivet med **1** i feltet **MinOccurs**.<br /><br /> Vælg **Vis alle** for at tilbageføre visningen.|  
     |**Skjul ikke-valgte**|Kun noder, hvor afkrydsningsfeltet **Markeret** er markeret, vises.<br /><br /> Vælg **Vis alle** for at tilbageføre visningen.|  
 
-5.  Under fanen **Startside** i gruppen **Administrer** skal du vælge **Rediger**.  
+5.  Vælg handlingen **Rediger**.  
 
 6.  I afkrydsningsfeltet **Markeret** skal du angive for hver enkelt node, om elementet skal understøttes i dataudvekslingsdefinitionen for den relaterede SEPA-bankfil.  
 
@@ -100,13 +100,13 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Sådan oprettes en dataudvekslingsdefinition, der er baseret på et XML-skema  
 
-1.  I feltet **Søg** skal du indtaste **XML-skemaer** og derefter vælge det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XML-skemaer**, og vælg derefter det relaterede link.  
 
-2.  Vælg det relevante XML-skema, og vælg **Åbn XML-skemafremviser** i gruppen **Proces** under fanen **Startside**.  
+2.  Vælg det relevante XML-skema, og vælg derefter handlingen **Åbn XML-skemafremviser**.  
 
 3.  Sørg for, at de relevante noder er valgt. Du kan finde flere oplysninger i afsnittet "Sådan markeres eller fjernes markeringen af noder i et XML-skema".  
 
-4.  På siden **XML-skemafremviser** under fanen **Startside** skal du i gruppen **Proces** vælge **Generer dataudvekslingsdefinition**.  
+4.  På siden **XML-skemafremviser** skal du vælge handlingen **Generer dataudvekslingsdefinition**.  
 
  Der oprettes en dataudvekslingsdefinition på siden **Bogføringsudvekslingsdefinition**, som du kan afslutte ved at angive, hvilke elementer i filen, der skal knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -115,15 +115,15 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Sådan oprettes en XMLport, der er baseret på et XML-skema  
 
-1.  I feltet **Søg** skal du indtaste **XML-skemaer** og derefter vælge det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XML-skemaer**, og vælg derefter det relaterede link.  
 
-2.  Vælg det relevante XML-skema, og vælg **Åbn XML-skemafremviser** i gruppen **Proces** under fanen **Startside**.  
+2.  Vælg det relevante XML-skema, og vælg derefter handlingen **Åbn XML-skemafremviser**.  
 
 3.  I feltet **Nyt XMLport-nr.** skal du angive det nummer, der tildeles det nye XMLport-objekt, når det er oprettet.  
 
 4.  Sørg for, at de relevante noder er valgt. Du kan finde flere oplysninger i afsnittet "Sådan markeres eller fjernes markeringen af noder i et XML-skema".  
 
-5.  Brug fanen **Startside** og gruppen **Proces** til at vælge **Generér XMLport**, og gem derefter objektet som en .txt-fil på en passende placering.  
+5.  Vælg handlingen **Generér XMLport**, og gem derefter objektet som en .txt-fil på en passende placering.  
 
 6. Indlæs den nye XMLport til [!INCLUDE[d365fin](includes/d365fin_md.md)]-udviklingsmiljøet, og kompiler den.
 

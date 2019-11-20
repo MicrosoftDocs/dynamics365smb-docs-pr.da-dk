@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315872"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553838"
 ---
 # <a name="viewing-service-statistics"></a>Visning af servicestatistik
 Du kan bruge statistikker til at analysere servicedokumenter og fastslå, hvor godt du administrerer dine serviceprocesser. Du kan analysere servicekontrakter, -artikler, -tilbud, -ordrer, -fakturaer og -kreditnotaer ved at vælge handlingen **Statistik**. For serviceartikler og -kontrakter, kan du også bruge vinduet **Serviceartikel - Trendscape** eller **Kontrakt - Trendscape** til at få vist en oversigt over serviceposterne for en bestemt serviceartikel.   
@@ -93,7 +93,7 @@ Der bliver genereret en gevinst/tabspost for kontrakten, når et kontrattilbud k
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Visning af statistik for bogførte servicedokumenter
 Funktionen Servicestatistik bruges til at få et statistisk overblik over indholdet af bogførte servicedokumenter, f.eks. en bogført leverance, faktura og kreditnota.  
 
-De statistiske oplysninger vises på statistiksiden til det tilsvarende bogførte servicedokument. Du kan åbne den relevante statistikside fra bogført serviceleverance, bogført servicefaktura eller bogført servicekreditnota dokumenter. Vælg **Statistik** i gruppen **Proces** under fanen **Startside** for hver af disse dokumenttyper. F.eks. fra siden **Bogførte servicefakturaer** under fanen **Startside** i gruppen **Behandl** skal du vælge **Statistik**.  
+De statistiske oplysninger vises på statistiksiden til det tilsvarende bogførte servicedokument. Du kan åbne den relevante statistikside fra bogført serviceleverance, bogført servicefaktura eller bogført servicekreditnota dokumenter. For hver af disse dokumenttyper skal du vælge handlingen **Statistik**. Du kan f.eks. vælge **Statistik** på siden **Bogførte servicefakturaer**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistik for bogførte serviceleverancer  
 På siden **Statistik for serviceleverance** kan du se en oversigt over en bogført serviceleverance. Den omfatter oplysninger om det fysiske indhold af leverancen, f.eks. antallet af leverede varer, ressourcetidsforbrug eller omkostninger samt vægt og rumfang af de leverede varer.  

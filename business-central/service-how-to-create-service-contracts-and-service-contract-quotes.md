@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bdb6339715fd656a7c8e25b7d35b337c17da1b97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311688"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553912"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbejde med servicekontrakter og servicekontrakttilbud
 Du kan oprette en servicekontrakt manuelt eller ud fra et servicekontrakttilbud. Du kan bruge et servicekontrakttilbud som en forløber for en servicekontrakt, hvor din virksomhed giver kunden et tilbud og opnår kundens godkendelse, inden du kan konvertere det til en servicekontrakt. Proceduren for oprettelse af en servicekontrakt eller et servicekontrakttilbud er meget ens.  
@@ -73,7 +73,7 @@ Du kan bruge en kontraktservicekreditnota, når en debitor annullerer en forudbe
 
  Hvis du automatisk vil oprette en kreditnota, når du fjerner linjer fra en servicekontrakt, skal du vælgeafkrydsningsfeltet **Kreditnotaer automatisk** i oversigtspanelet **Fakturadetaljer** på siden **Servicekontrakt**.  
 
- Hvis du manuelt vil oprette en kreditnota, når du fjerner linjer fra en servicekontrakt på siden **Servicekontrakt** under fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Kreditnota**.  
+ Hvis du manuelt vil oprette en kreditnota, når du fjerner linjer fra en servicekontrakt på siden **Servicekontrakt**, skal du vælge handlingen **Kreditnota**.  
 
 ## <a name="updating-and-evaluating-contracts"></a>Opdatere og evaluere kontrakter
 Nogle gange skal du ændre betingelserne i en kontrakt, efter at den er blevet oprettet. I de fleste tilfælde skal du åbne den relevante kontrakt på siden **Servicekontrakt** og ændre den efter behov.  
@@ -99,12 +99,12 @@ Du kan få brug for at fjerne kontraktlinjer fra servicekontrakten, hvis du fjer
 4. Vælg den kontraktlinje, du vil fjerne. Udfyld feltet **Udløbsdato for kontrakt** med datoen for, hvornår du vil fjerne linjen. Du kan f.eks. indtaste den dato, hvor serviceartiklen brød sammen.  
 5. Vælg handlingen **Fjern kontraktlinjer**. Siden **Fjern linjer fra kontrakt** åbnes.  
 6. Udfyld standardfiltrene: **Kontraktnr.**, **Serviceartikelnr.** og **Kontrakttype**. Du kan evt. tilføje flere filtre eller ændre eksisterende filtre.  
-7. Udfyld felterne i oversigtspanelet **Indstillinger**. Vælg **Slet linjer** i feltet **Handling**.  
+7. Udfyld felterne på oversigtspanelet **Indstillinger**, og vælg derefter handlingen **Slet linjer**.  
 
 > [!NOTE]  
 >  Hvis kontrakten ikke er detaljeret, skal du opdatere værdien i feltet **Årligt beløb** i oversigtspanelet **Fakturadetaljer** på siden **Servicekontrakt** for at afspejle fjernelsen af serviceartiklen fra kontrakten.  
 >   
->  Hvis kontrakten er detaljeret og forudbetalt, og du har bogført fakturaer for kontrakten, kan du oprette en kreditnota for kontrakten. Under fanen **Handlinger** i gruppen **Funktion** skal du vælge **Opret kreditnota**. Dette er unødvendigt, hvis afkrydsningsfeltet **Kreditnotaer automatisk** i oversigtspanelet **Fakturadetaljer** er markeret. I dette tilfælde oprettes der automatisk en kreditnota, når du fjerner en kontraktlinje.
+>  Hvis kontrakten er detaljeret og forudbetalt, og du har bogført fakturaer for kontrakten, kan du oprette en kreditnota for kontrakten. Vælg handlingen **Opret kreditnota**. Dette er unødvendigt, hvis afkrydsningsfeltet **Kreditnotaer automatisk** i oversigtspanelet **Fakturadetaljer** er markeret. I dette tilfælde oprettes der automatisk en kreditnota, når du fjerner en kontraktlinje.
 
 ## <a name="service-line-cost-and-value"></a>Omkostninger og værdi for servicelinje
 På en servicekontraktlinje beregnes beløbene i **Linjekostpris** og **Linjeværdi** som beskrevet i følgende tabeller.
@@ -150,7 +150,7 @@ Du skal måske skifte indehaver af en servicekontrakt. Hvis en serviceartikel i 
 4. I felterne **Kontraktnr.** og **Serviceartikelnr.** kan du se numrene på de kontrakter og serviceartikler, der tilhører den valgte debitor. Hvis debitoren har mere end én kontrakt med mere end én serviceartikel, angives værdien i disse felter til **Flere**. Hvis du vil se en liste over relaterede kontrakter eller serviceartikler, skal du markere disse feltværdier.  
 5. I feltet **Nyt debitornr.** skal du vælge den nye debitor.  
 6. I feltet **Ny lev.adr.kode** skal du vælge adressen.  
-7. Vælg **OK** for at skifte debitor og leveringsadressekode i servicekontrakterne.  
+7. Vælg knappen **OK** for at skifte debitor og/eller leveringsadressekode i servicekontrakterne.  
 8. Vælg handlingen **Lås kontrakt** for at låse kontrakten og sikre, at ændringerne kommer med i kontrakterne.  
 
 ## <a name="to-update-a-service-contract-price"></a>Opdateres en servicekontraktpris  

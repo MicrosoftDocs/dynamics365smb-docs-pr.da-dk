@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ed3790a5e74528866ef226872be99db9dec7d4f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312384"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553862"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Modtage og konvertere elektroniske dokumenter
 Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. For at modtage en faktura fra en kreditor som et elektronisk PEPPOL-dokument, skal du behandle dokumentet på siden Indgående bilag for at konvertere det til en købsfaktura eller finanskladdelinje i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -43,7 +43,7 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.  
 
-2.  Vælg linjen med den indgående dokumentpost, der repræsenterer en ny indgående elektronisk faktura. Under fanen **Start** i gruppen **Administrer** skal du derefter vælge **Rediger**.  
+2.  Vælg linjen med den indgående dokumentpost, der repræsenterer en ny indgående elektronisk faktura, og vælg derefter handlingen **Rediger**.  
 
      På siden **Indgående bilagskort** tilknyttes den relaterede XML-fil, og de fleste felter er udfyldt med oplysninger fra den elektroniske faktura. Du kan finde flere oplysninger under [Oprette indgående dokumentposter](across-how-create-income-document-records.md).  
 
@@ -51,7 +51,7 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
 
 4.  Du kan knytte tekst på kreditorfakturaen til en bestemt debetkonto ved at vælge **Knyt tekst til konto** i gruppen **Generelt** under fanen **Handlinger** og derefter udfylde siden **Kladde til tilknytning af tekst til konto**.  
 
-5.  Under fanen **Handlinger** i gruppen **Generelt** skal du vælge **Opret bilag**.  
+5.  Vælg handlingen **Opret bilag**.  
 
      Der oprettes en købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] baseret på oplysningerne i det elektronisk dokument.  
 

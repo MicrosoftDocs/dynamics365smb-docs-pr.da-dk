@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314816"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554712"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gennemgang: Administration af projekter med sager
 
@@ -173,7 +173,7 @@ I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes
     |1020|Udvikling|Konto|  
     |1090|Konsulentydelse i alt|Til-sum|  
 
-3.  Vælg **Indryk sagsopgaver** i gruppen **Funktioner** under fanen **Handlinger** for at vise, at nogle opgaver er underkategorier til andre opgaver.  
+3.  Vælg handlingen **Indryk sagsopgaver** for at vise, at nogle opgaver er underkategorier til andre opgaver.  
 
  En planlægningslinje være en af følgende typer:  
 
@@ -261,7 +261,7 @@ Linjerne er nu bogført.
 4.  Udfyld bogføringsdatoen, og angiv, om du vil oprette én faktura pr. opgave eller kun én enkelt faktura for alle opgaver, i oversigtspanelet **Indstillinger**.  
 5.  Vælg knappen **OK** for at oprette fakturaen, og vælg knappen **OK** på bekræftelsessiden.  
 
- Når Tina opretter fakturaen, kan hun få adgang til den fra **Salg og Marketing** under **Ordrebehandling** og foretage yderligere behandling.  
+ Når Tina opretter fakturaen, kan hun f.eks. få adgang til den fra rollecenteret **Salgsordrebehandler**. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Sådan bogføres en ny salgsfaktura  
 

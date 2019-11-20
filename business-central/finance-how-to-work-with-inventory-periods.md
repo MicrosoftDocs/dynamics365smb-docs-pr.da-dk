@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64c47b78555e1364bbc0e1d4be97ed4910bca04a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305832"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554034"
 ---
 # <a name="work-with-inventory-periods"></a>Arbejde med lagerperioder
 Lagerperioder definerer en tidsperiode, hvor du kan bogføre ændringer i lageret. En lagerperiode er defineret af periodens slutdato. Når du lukker en lagerperiode kan du ikke bogføre ændringer af lageret, hverken forventede eller fakturerede, før denne slutdato. Desuden kan du ikke bogføre nye værdier til lageret før denne slutdato. Hvis der er åbne poster i den lukkede periode, dvs. positive antal, der endnu ikke er blevet udlignet med udgående transaktioner, kan du stadig udligne udgående antal med disse poster, selvom perioden er lukket.  
 
-Følgende afsnit beskriver, hvordan du kan:  
+Følgende afsnit beskriver, hvordan du kan:
 
 * Opret lagerperioder.  
 * Luk lagerperioder.  
@@ -45,7 +45,7 @@ Du kan lukke alle lagerperioder, hvis følgende gør sig gældende:
 Det betyder, at alle udgående transaktionsantal, f.eks. dem fra salgsordrer, udgående overflytninger, salgsfakturaer, købsreturvarer eller købskreditnotaer, skal være anvendt på eksisterende antal i lagerbeholdningen.  
 
 ### <a name="to-close-an-inventory-period"></a>Sådan lukkes en lagerperiode  
-1. Før du lukker en lagerperiode, skal du udføre kørslen **Juster kostværdi – vareposter** for at sikre, at alle kostprisreguleringer er bogført. På fanen **Handlinger** i gruppen **Funktioner** vælges **Juster kostpris - vareposter**.  
+1. Før du lukker en lagerperiode, skal du vælge handlingen **Juster kostpris – vareposter** for at sikre, at alle kostprisreguleringer er bogført.
 
      Udfør rapporten **Luk lagerperiode - kontrol** for at kontrollere, om der er nogen udgående vareposter i lagerperioden eller nogen varer, hvor kostprisen endnu ikke er blevet reguleret.  
 2. Vælg handlingen **Luk lagerperiode – kontrol**.  

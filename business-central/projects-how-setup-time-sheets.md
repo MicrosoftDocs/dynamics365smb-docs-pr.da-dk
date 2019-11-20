@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7fe47c3ae0faed5fbb8ca1c60314c774abf8143a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 63702465c9e2e7646adb3b91af43939b09d120e5
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312720"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775519"
 ---
 # <a name="set-up-time-sheets"></a>Konfigurere timesedler
 Timesedler i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndterer tidsregistrering i ugentlige intervaller på syv dage. Du kan bruge til at registrere den tid, der er brugt på sager, og du kan bruge dem til at registrere simpel ressourcetidsregistrering. Før du kan bruge timesedler, skal du angive, hvordan du vil have dem oprettet og konfigureret.
@@ -42,7 +42,7 @@ Når du har oprettet timesedler, kan du oprette timesedler for ressourcer, tilde
 
 ## <a name="to-assign-a-time-sheet-administrator"></a>Sådan tildeles en timeseddeladministrator
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning**, og vælg derefter det relaterede link.  
-2. Tilføj en ny bruger, hvis brugerlisten ikke omfatter den person, som du ønsker, skal være timeseddeladministrator. Du kan finde flere oplysninger i [Administrere brugere og rettigheder](ui-how-users-permissions.md).
+2. Tilføj en ny bruger, hvis brugerlisten ikke omfatter den person, som du ønsker, skal være timeseddeladministrator. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
 3. Vælg en bruger, der skal være timeseddeladministrator, og marker derefter afkrydsningsfeltet **Timeseddeladm.**.  
 
 > [!TIP]  

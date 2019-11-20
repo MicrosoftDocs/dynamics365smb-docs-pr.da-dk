@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f054e9be11de6a71e9fe490bcc3d7f47dafff89d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cbab5a90341fa3e04d47c8846b2f139febadcdf4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314164"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553742"
 ---
 # <a name="create-production-boms"></a>Oprette produktionsstyklister
 En produktionsstykliste indeholder masterdata, som beskriver de komponenter og halvfabrikata, som anvendes til fremstilling af en overordnet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens produktionsstykliste beregningen af materialebehov, som repræsenteret på siden **Prod.ordrekomponenter**.
@@ -59,7 +59,7 @@ Startdatoen angiver starten på en periode, hvor versionen er gyldig. I alle and
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionsstykliste**, og vælg derefter det relaterede link.  
 2.  Vælg produktionsstyklisten, der skal kopieres, og vælg derefter handlingen **Versioner**.  
-3.  Under fanen **Startside** i gruppen **Ny** skal du vælge **Ny**.  
+3.  Vælg handlingen **Ny**.  
 4. Udfyld felterne efter behov.
 5. I feltet **Versionskode** skal du angive en entydig identifikation af versionen. Alle kombinationer af tal og bogstaver er tilladt.  
 

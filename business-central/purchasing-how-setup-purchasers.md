@@ -12,15 +12,17 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57a3acf17b91a8a2a8ffcbc8b070955086a80a0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: af9673eb790b6e1e89607214b23476e5b415aca3
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316736"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577179"
 ---
 # <a name="set-up-purchasers"></a>Oprette indkøbere
 Hvis der er mange indkøbere ansat i virksomheden, kan du oprette dem på en side og tildele dem en kode. Du kan så bruge koderne til at lave statistikker og analysere oplysninger i rapporter.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q7hU]
 
 ## <a name="to-set-up-purchasers"></a>Sådan oprettes indkøbere
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere/indkøbere**, og vælg derefter det relaterede link.

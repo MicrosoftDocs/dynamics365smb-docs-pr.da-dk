@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d79ef7c076ec3a529aeb0c679b8b61658ef65af5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6089a51a0ef27175988ed0c00fdb353cd3c7e96c
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315344"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692940"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Udvidelsen Envestnet Yodlee Bank Feeds
 Med tjenesten Envestnet Yodlee Bank Feeds kan du knytte systembankkontoen til din onlinebankkonto for hurtigt at afstemme indbetalinger til bankkonti. Det betyder, at det seneste bankkontoudtog automatisk eller manuelt indlæses i udligningskladden, hvilket sikrer, at du altid behandler de seneste betalinger med minimal risiko for fejl.
@@ -25,7 +25,9 @@ Med tjenesten Envestnet Yodlee Bank Feeds kan du knytte systembankkontoen til di
 Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i USA og Canada.
 
 > [!NOTE]
-> Denne funktionalitet understøttes kun i onlineversionen af Business Central. Hvis du vil bruge denne funktionalitet lokalt, skal du have en cobrand-konto hos Envestnet Yodlee.<br /><br />
+> Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i onlineversionen af Business Central. Hvis du vil bruge denne funktionalitet lokalt, skal du have en cobrand-konto hos Envestnet Yodlee.<br /><br />
+> Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i USA og Canada.
+> Kun banker, der er hjemmehørende i disse lande, understøttes, selvom bankerne fra andre lande kan blive vist i Envestnet Yodlee Bank Feeds-vinduet til bankvalg i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]
 > På grund af det nye betalingstjenestedirektiv i Europa (PSD2) kan du efter den 14. september 2019 ikke længere automatisk importere bankkontoudtog fra banker i Storbritannien til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vi overvejer evt. at tilbyde denne funktion igen i fremtiden.

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0ed17b601df17ae85424013b6053ef1901082c10
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0091f7ae1e6b22b6228ad903af783fb790faf99d
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300541"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692604"
 ---
 # <a name="exchanging-data"></a>Udveksle data
 Du kan udveksle data mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne filer eller streams i forbindelse med almindelige forretningsrelaterede opgaver, f.eks. afsendelse og modtagelse af elektroniske dokumenter og importere og eksportere bankfiler.  
 
-Før du kan sende og modtage elektroniske dokumenter eller importere og eksportere bankfiler, skal du konfigurere dataudvekslingsstrukturen for at behandle involverede filer eller streams. Derudover skal du oprette relaterede områder. De omfatter stamdata for debitorer, som du sender elektroniske fakturaer til og tjenesten til konvertering af bankdata, hvis du distribuere bankfilkonverteringer til en ekstern internetudbyder. Du kan finde flere oplysninger i [Konfiguration af dataudveksling](across-set-up-data-exchange.md).  
+Før du kan sende og modtage elektroniske dokumenter eller importere og eksportere bankfiler, skal du konfigurere dataudvekslingsstrukturen for at behandle datafiler eller -streams. Derudover skal du definere relaterede områder, f. eks. debitorer, som du sender elektroniske fakturaer til, og AMC Banking 365 Fundamentals-udvidelsen, hvis du distribuerer bankfiler til en ekstern tjenesteudbyder. Du kan finde flere oplysninger i [Konfiguration af dataudveksling](across-set-up-data-exchange.md).  
 
  Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
@@ -35,7 +35,7 @@ Før du kan sende og modtage elektroniske dokumenter eller importere og eksporte
 |Bed din bank om at overføre beløb fra din kundes bankkonti til dit firmas konto i overensstemmelse med konfigurationen af SEPA Direct Debit.|[Oprette poster i SEPA Direct Debit-opkrævning, og eksportere til en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
 |Brug en udbyder af valutakurstjenester til at opdatere siden **Valutaer**.|[Opdatere valutakurser](finance-how-update-currencies.md)|  
 |Få vist, hvilke elementer der er knyttet til felterne i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved import af SEPA CAMT-sætningsfiler.|[Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)|  
-|Se, hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er knyttet til filelementer, når du eksporterer betalingsfiler ved at bruge funktionen Tjeneste til konvertering af bankdata.|[Feltkobling, når du eksporterer betalingsfiler ved hjælp af tjeneste til konvertering af bankdata](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
+|Se, hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er knyttet til filelementer, når du eksporterer betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen.|[Felttilknytning ved eksport af betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
