@@ -12,28 +12,28 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c50367647e4d0e4a02cec3b43cd29ef8def68f78
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7392ec07c59974869dce6c1e8172eb48701e1d26
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305904"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554010"
 ---
-# <a name="settle-purchase-invoices-promptly"></a><span data-ttu-id="b6087-103">Afregne købsfakturaer omgående</span><span class="sxs-lookup"><span data-stu-id="b6087-103">Settle Purchase Invoices Promptly</span></span>
-<span data-ttu-id="b6087-104">Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bogføre betalingen, når du bogfører fakturaen.</span><span class="sxs-lookup"><span data-stu-id="b6087-104">If you need to pay the vendor by cash or check, you can post the payment when you post the invoice.</span></span>  
-  
-### <a name="to-settle-purchase-invoices-promptly"></a><span data-ttu-id="b6087-105">Sådan afregnes købsfakturaer omgående</span><span class="sxs-lookup"><span data-stu-id="b6087-105">To settle purchase invoices promptly</span></span>  
-1. <span data-ttu-id="b6087-106">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="b6087-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="b6087-107">Vælg **Ny** under fanen **Startside**.</span><span class="sxs-lookup"><span data-stu-id="b6087-107">On the **Home** tab, choose **New**.</span></span>  
-3.  <span data-ttu-id="b6087-108">Du kan afregne kontant eller via bankoverførsel ved at angive nummeret på finanskontoen eller bankkontoen i feltet **Modkonto**.</span><span class="sxs-lookup"><span data-stu-id="b6087-108">To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.</span></span>  
-  
+# <a name="settle-purchase-invoices-promptly"></a><span data-ttu-id="c6dcd-103">Afregne købsfakturaer omgående</span><span class="sxs-lookup"><span data-stu-id="c6dcd-103">Settle Purchase Invoices Promptly</span></span>
+<span data-ttu-id="c6dcd-104">Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bogføre betalingen, når du bogfører fakturaen.</span><span class="sxs-lookup"><span data-stu-id="c6dcd-104">If you need to pay the vendor by cash or check, you can post the payment when you post the invoice.</span></span>  
+
+### <a name="to-settle-purchase-invoices-promptly"></a><span data-ttu-id="c6dcd-105">Sådan afregnes købsfakturaer omgående</span><span class="sxs-lookup"><span data-stu-id="c6dcd-105">To settle purchase invoices promptly</span></span>  
+1. <span data-ttu-id="c6dcd-106">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="c6dcd-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Invoices**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="c6dcd-107">Vælg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="c6dcd-107">Choose the **New** action.</span></span>  
+3.  <span data-ttu-id="c6dcd-108">Du kan afregne kontant eller via bankoverførsel ved at angive nummeret på finanskontoen eller bankkontoen i feltet **Modkonto**.</span><span class="sxs-lookup"><span data-stu-id="c6dcd-108">To pay either in cash or by bank transfer, enter the number of the general ledger cash account or the bank account in the **Bal. Account No.** field.</span></span>  
+
 > [!IMPORTANT]  
->  <span data-ttu-id="b6087-109">Felterne **Modkontotype** og **Modkonto** er ikke med i standardopsætningen for et fakturahoved.</span><span class="sxs-lookup"><span data-stu-id="b6087-109">The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header.</span></span> <span data-ttu-id="b6087-110">Disse felter skal derfor først indsættes med designfunktionerne, for at du kan bogføre betalingen af en faktura.</span><span class="sxs-lookup"><span data-stu-id="b6087-110">In order to post the payment of an invoice, you must first insert them with the design facilities.</span></span>  
-  
+>  <span data-ttu-id="c6dcd-109">Felterne **Modkontotype** og **Modkonto** er ikke med i standardopsætningen for et fakturahoved.</span><span class="sxs-lookup"><span data-stu-id="c6dcd-109">The **Bal. Account Type** and **Bal. Account No.** fields are not included in the standard layout of the invoice header.</span></span> <span data-ttu-id="c6dcd-110">Disse felter skal derfor først indsættes med designfunktionerne, for at du kan bogføre betalingen af en faktura.</span><span class="sxs-lookup"><span data-stu-id="c6dcd-110">In order to post the payment of an invoice, you must first insert them with the design facilities.</span></span>  
+
 > [!NOTE]  
->  <span data-ttu-id="b6087-111">Hvis du ofte afregner købsfakturaer kontant, kan det muligvis svare sig at oprette en specifik betalingsform med en tilknyttet modkonto og angive betalingsformen i feltet **Betalingsform** på kreditorkortet.</span><span class="sxs-lookup"><span data-stu-id="b6087-111">If you frequently pay purchase invoices in cash, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card.</span></span> <span data-ttu-id="b6087-112">Modkontonummeret indsættes automatisk på fakturahovedet, hver gang du opretter en ny faktura.</span><span class="sxs-lookup"><span data-stu-id="b6087-112">The balancing account number is inserted automatically on the invoice header every time you create a new invoice.</span></span>  
-  
-## <a name="see-also"></a><span data-ttu-id="b6087-113">Se også</span><span class="sxs-lookup"><span data-stu-id="b6087-113">See Also</span></span>  
-[<span data-ttu-id="b6087-114">Administrere skyldige beløb</span><span class="sxs-lookup"><span data-stu-id="b6087-114">Managing Payables</span></span>](payables-manage-payables.md)  
-[<span data-ttu-id="b6087-115">Køb</span><span class="sxs-lookup"><span data-stu-id="b6087-115">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-<span data-ttu-id="b6087-116">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b6087-116">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+>  <span data-ttu-id="c6dcd-111">Hvis du ofte afregner købsfakturaer kontant, kan det muligvis svare sig at oprette en specifik betalingsform med en tilknyttet modkonto og angive betalingsformen i feltet **Betalingsform** på kreditorkortet.</span><span class="sxs-lookup"><span data-stu-id="c6dcd-111">If you frequently pay purchase invoices in cash, it is a good idea to set up a specific payment method with a balancing account and enter this method in the **Payment Method** field on the vendor card.</span></span> <span data-ttu-id="c6dcd-112">Modkontonummeret indsættes automatisk på fakturahovedet, hver gang du opretter en ny faktura.</span><span class="sxs-lookup"><span data-stu-id="c6dcd-112">The balancing account number is inserted automatically on the invoice header every time you create a new invoice.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="c6dcd-113">Se også</span><span class="sxs-lookup"><span data-stu-id="c6dcd-113">See Also</span></span>  
+[<span data-ttu-id="c6dcd-114">Administrere skyldige beløb</span><span class="sxs-lookup"><span data-stu-id="c6dcd-114">Managing Payables</span></span>](payables-manage-payables.md)  
+[<span data-ttu-id="c6dcd-115">Køb</span><span class="sxs-lookup"><span data-stu-id="c6dcd-115">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+<span data-ttu-id="c6dcd-116">[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c6dcd-116">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
