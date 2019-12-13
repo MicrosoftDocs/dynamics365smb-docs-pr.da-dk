@@ -1,8 +1,6 @@
 ---
 title: Sådan sletter du workflows | Microsoft Docs
 description: Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den. Alle forekomster af trin i arbejdsgangen, der er defineret i arbejdsgangen, skal have status **Afsluttet**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,33 +10,33 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0cdec04115ebfe089ee89cdc5db8cf28e3963eb8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d01d6bc81629985a95f0508ec103368e2aea92e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305424"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881164"
 ---
-# <a name="delete-workflows"></a><span data-ttu-id="14e33-104">Slette arbejdsgange</span><span class="sxs-lookup"><span data-stu-id="14e33-104">Delete Workflows</span></span>
-<span data-ttu-id="14e33-105">Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den.</span><span class="sxs-lookup"><span data-stu-id="14e33-105">If you are certain that a workflow is no longer being used, you can delete it.</span></span> <span data-ttu-id="14e33-106">Alle forekomster af trin i arbejdsgangen, der er defineret i arbejdsgangen, skal have status **Afsluttet**.</span><span class="sxs-lookup"><span data-stu-id="14e33-106">All workflow step instances that are defined in the workflow must have status **Completed**.</span></span>  
+# <a name="delete-workflows"></a><span data-ttu-id="a8f41-104">Slette arbejdsgange</span><span class="sxs-lookup"><span data-stu-id="a8f41-104">Delete Workflows</span></span>
+<span data-ttu-id="a8f41-105">Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den.</span><span class="sxs-lookup"><span data-stu-id="a8f41-105">If you are certain that a workflow is no longer being used, you can delete it.</span></span> <span data-ttu-id="a8f41-106">Alle forekomster af trin i arbejdsgangen, der er defineret i arbejdsgangen, skal have status **Afsluttet**.</span><span class="sxs-lookup"><span data-stu-id="a8f41-106">All workflow step instances that are defined in the workflow must have status **Completed**.</span></span>  
 
 > [!CAUTION]  
->  <span data-ttu-id="14e33-107">Når du sletter en arbejdsgang, mistes alle oplysninger i arbejdsgangen.</span><span class="sxs-lookup"><span data-stu-id="14e33-107">When you delete a workflow, all information in the workflow will be lost.</span></span>  
+>  <span data-ttu-id="a8f41-107">Når du sletter en arbejdsgang, mistes alle oplysninger i arbejdsgangen.</span><span class="sxs-lookup"><span data-stu-id="a8f41-107">When you delete a workflow, all information in the workflow will be lost.</span></span>  
 
- <span data-ttu-id="14e33-108">På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne.</span><span class="sxs-lookup"><span data-stu-id="14e33-108">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="14e33-109">Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder.</span><span class="sxs-lookup"><span data-stu-id="14e33-109">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="14e33-110">Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden.</span><span class="sxs-lookup"><span data-stu-id="14e33-110">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="14e33-111">Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="14e33-111">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
+ <span data-ttu-id="a8f41-108">På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne.</span><span class="sxs-lookup"><span data-stu-id="a8f41-108">On the **Workflow** page, you create a workflow by listing the involved steps on the lines.</span></span> <span data-ttu-id="a8f41-109">Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder.</span><span class="sxs-lookup"><span data-stu-id="a8f41-109">Each step consists of a workflow event, moderated by event conditions, and a workflow response, moderated by response options.</span></span> <span data-ttu-id="a8f41-110">Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden.</span><span class="sxs-lookup"><span data-stu-id="a8f41-110">You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code.</span></span> <span data-ttu-id="a8f41-111">Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).</span><span class="sxs-lookup"><span data-stu-id="a8f41-111">For more information, see [Create Workflows](across-how-to-create-workflows.md).</span></span>  
 
-## <a name="to-delete-a-workflow"></a><span data-ttu-id="14e33-112">Sådan slettes en arbejdsgang</span><span class="sxs-lookup"><span data-stu-id="14e33-112">To delete a workflow</span></span>  
-1.  <span data-ttu-id="14e33-113">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Workflows**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="14e33-113">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="14e33-114">Vælg den arbejdsgang du vil slette.</span><span class="sxs-lookup"><span data-stu-id="14e33-114">Select the workflow that you want to delete.</span></span>  
-3.  <span data-ttu-id="14e33-115">Vælg handlingen **Slet**.</span><span class="sxs-lookup"><span data-stu-id="14e33-115">Choose the **Delete** action.</span></span>  
-4.  <span data-ttu-id="14e33-116">Du kan også åbne den arbejdsgang du vil slette.</span><span class="sxs-lookup"><span data-stu-id="14e33-116">Alternatively, open the workflow that you want to delete.</span></span>  
-5.  <span data-ttu-id="14e33-117">På siden **Workflow** skal du vælge handlingen **Slet**.</span><span class="sxs-lookup"><span data-stu-id="14e33-117">On the **Workflow** page, choose the **Delete** action.</span></span>  
+## <a name="to-delete-a-workflow"></a><span data-ttu-id="a8f41-112">Sådan slettes en arbejdsgang</span><span class="sxs-lookup"><span data-stu-id="a8f41-112">To delete a workflow</span></span>  
+1.  <span data-ttu-id="a8f41-113">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdsgange**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="a8f41-113">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Workflows**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="a8f41-114">Vælg den arbejdsgang du vil slette.</span><span class="sxs-lookup"><span data-stu-id="a8f41-114">Select the workflow that you want to delete.</span></span>  
+3.  <span data-ttu-id="a8f41-115">Vælg handlingen **Slet**.</span><span class="sxs-lookup"><span data-stu-id="a8f41-115">Choose the **Delete** action.</span></span>  
+4.  <span data-ttu-id="a8f41-116">Du kan også åbne den arbejdsgang du vil slette.</span><span class="sxs-lookup"><span data-stu-id="a8f41-116">Alternatively, open the workflow that you want to delete.</span></span>  
+5.  <span data-ttu-id="a8f41-117">På siden **Workflow** skal du vælge handlingen **Slet**.</span><span class="sxs-lookup"><span data-stu-id="a8f41-117">On the **Workflow** page, choose the **Delete** action.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="14e33-118">Se også</span><span class="sxs-lookup"><span data-stu-id="14e33-118">See Also</span></span>  
- <span data-ttu-id="14e33-119">[Oprette arbejdsgange](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="14e33-119">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
- <span data-ttu-id="14e33-120">[Aktivere arbejdsgange](across-how-to-enable-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="14e33-120">[Enable Workflows](across-how-to-enable-workflows.md) </span></span>  
- <span data-ttu-id="14e33-121">[Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="14e33-121">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
- <span data-ttu-id="14e33-122">[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="14e33-122">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
- <span data-ttu-id="14e33-123">[Opsætte workflows](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="14e33-123">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
- <span data-ttu-id="14e33-124">[Anvende workflows](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="14e33-124">[Using Workflows](across-use-workflows.md) </span></span>  
- [<span data-ttu-id="14e33-125">Workflow</span><span class="sxs-lookup"><span data-stu-id="14e33-125">Workflow</span></span>](across-workflow.md)   
+## <a name="see-also"></a><span data-ttu-id="a8f41-118">Se også</span><span class="sxs-lookup"><span data-stu-id="a8f41-118">See Also</span></span>  
+ <span data-ttu-id="a8f41-119">[Oprette arbejdsgange](across-how-to-create-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="a8f41-119">[Create Workflows](across-how-to-create-workflows.md) </span></span>  
+ <span data-ttu-id="a8f41-120">[Aktivere arbejdsgange](across-how-to-enable-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="a8f41-120">[Enable Workflows](across-how-to-enable-workflows.md) </span></span>  
+ <span data-ttu-id="a8f41-121">[Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md) </span><span class="sxs-lookup"><span data-stu-id="a8f41-121">[View Archived Workflow Step Instances](across-how-to-view-archived-workflow-step-instances.md) </span></span>  
+ <span data-ttu-id="a8f41-122">[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span><span class="sxs-lookup"><span data-stu-id="a8f41-122">[Walkthrough: Setting Up and Using a Purchase Approval Workflow](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md) </span></span>  
+ <span data-ttu-id="a8f41-123">[Opsætte workflows](across-set-up-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="a8f41-123">[Setting Up Workflows](across-set-up-workflows.md) </span></span>  
+ <span data-ttu-id="a8f41-124">[Anvende workflows](across-use-workflows.md) </span><span class="sxs-lookup"><span data-stu-id="a8f41-124">[Using Workflows](across-use-workflows.md) </span></span>  
+ [<span data-ttu-id="a8f41-125">Workflow</span><span class="sxs-lookup"><span data-stu-id="a8f41-125">Workflow</span></span>](across-workflow.md)   
