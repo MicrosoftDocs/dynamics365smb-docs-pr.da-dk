@@ -1,8 +1,6 @@
 ---
 title: Forberede overførsel af debitordata | Microsoft Docs
 description: Når du har indløst og anvendt opsætningsdataene i den nye database, kan du starte overflytningen af debitorens eksisterende masterdata, som varer og debitornumre og -navne. Hvis du vil sikre, at disse data oprettes hurtigt og præcist i det nye virksomhed, skal du bruge skabeloner til at strukturere dataene.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307757"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896081"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Forberede overflytning af debitordata
 Når du har indløst og anvendt opsætningsdataene i den nye database, kan du starte overflytningen af debitorens eksisterende masterdata, som varer og debitornumre og -navne. Hvis du vil sikre, at disse data oprettes hurtigt og præcist i det nye virksomhed, skal du bruge skabeloner til at strukturere dataene.  
@@ -34,9 +32,12 @@ Men du kan oprette en skabelonstruktur til og anvende den på alle tabeller i [!
 > [!TIP]  
 >  Du kan også bruge dataskabeloner til daglige operationer til at oprette nye poster, der er baseret på skabeloner. Disse dataskabeloner fungerer kun til de understøttede masterdatatabeller. Du kan f.eks. finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
 
-Når du importerer debitordata, f.eks. for varer, fra en fil, indsamles de obligatoriske feltdata, som du har angivet, fra den tilknyttede dataskabelon. Når du opretter en ny vare, kan du kun angive generelle oplysninger som varenavn, -beskrivelse og -pris, derefter skal du indsamle resten af de obligatoriske feltdata fra en valgt dataskabelon.  
+Når du importerer debitordata, f.eks. for varer, fra en fil, indsamles de obligatoriske feltdata, som du har angivet, fra den tilknyttede dataskabelon. Når du opretter en ny vare, kan du kun angive generelle oplysninger som varenavn, -beskrivelse og -pris, derefter skal du indsamle resten af de obligatoriske feltdata fra en valgt dataskabelon.
 
 Når du opretter en ny masterdatapost, f.eks. et debitorkort, er nogle felter obligatoriske og skal udfyldes. Du kan gruppere de fleste obligatoriske felter, f.eks. bogføringsgrupper og betalingsbetingelser, for at sikre, at oprette masterdata registreres lettere og mere stabilt. Du kan f.eks. gruppere obligatoriske felter til tabel 18, **Kunde**, som typerne **indenlandsk**, **udenlandsk** eller **eksport**.
+
+> [!NOTE]
+> Felter af typen Blob kan ikke eksporteres/importeres ved hjælp af Excel.
 
 ## <a name="to-select-a-data-template"></a>Sådan vælges en dataskabelon
 Når du vælger en eksisterende dataskabelon, skal du vurdere, om skabelonerne, der blev oprettet til den nye virksomhed, er tilstrækkelige til kunden. Gennemgå de angivne felter og værdier for at bestemme, hvilke skabeloner, der passer til en ny virksomhed.  
@@ -61,7 +62,7 @@ Du kan hurtigt oprette en ny dataskabelon ved at kopiere oplysninger fra en eksi
 2. Vælg handlingen **Ny**.
 3. Udfyld feltet **Kode**.
 4. Vælg handlingen **Kopiér konfigurationsskabelon**.
-5. På siden **Konfigurationsskabelon** skal du vælge en eksisterende skabelon, du vil kopiere, og derefter vælge knappen **OK**.
+5. På siden **Konfigurationsskabeloner** skal du vælge en eksisterende skabelon, du vil kopiere, og derefter vælge knappen **OK**.
 
 Tabel-ID, tabelnavn og linjerne i den eksisterende dataskabelon indsættes i den nye skabelon.
 
@@ -118,7 +119,7 @@ Følgende trin illustrerer, hvordan du opretter et varekort fra en varedataskabe
 2. Markér skabelonen **Vare**, og vælg derefter handlingen **Rediger**. Yderligere oplysninger finder du under [Sådan oprettes en dataskabelon](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Vælg handlingen **Opret forekomst**. Der oprettes et varekort.  
 4. Vælg knappen **OK**.  
-5. For at få vist det nye varekort skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Varer** og derefter vælge det relaterede link.  
+5. For at få vist det nye varekort skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 6. Åbn det nye varekort.  
 7. Udvid de forskellige oversigtspaneler, og kontrollér, at oplysningerne er oprettet korrekt på dem.  
 

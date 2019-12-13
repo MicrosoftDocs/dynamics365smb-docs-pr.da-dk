@@ -11,17 +11,17 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: f63c266cb73f3f1cd96e13949fd6cc8b441673f6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 91fa7316332f81703bce1193d4ae813572a6b8b9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315464"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882130"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Business Central-udvidelser fra andre leverandører
-På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvidelser til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af andre virksomheder. Vi henviser til disse virksomheders websteder, som indeholder yderligere oplysninger om de udvidelser, som ikke er udgivet af Microsoft. Du kan finde disse oplysninger på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
+På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvidelser til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af andre virksomheder. Vi henviser til disse virksomheders websteder, som indeholder yderligere oplysninger om de udvidelser, som ikke er udgivet af Microsoft. Du kan finde disse oplysninger på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
-Oversigten over udvidelserne fra andre firmaer vokser hver måned. Så hold øje med [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1) og få apps, der kan hjælpe dig med at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Oversigten over udvidelserne fra andre firmaer vokser hver måned. Så hold øje med [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1) og få apps, der kan hjælpe dig med at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  

@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Afstemning af efterspørgsel og udbud | Microsoft Docs
 description: Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for at forstå, hvordan systemet fungerer, og de vigtigste af disse er at sikre, at enhver efterspørgsel opfyldes at et tilstrækkeligt udbud, og at ethvert udbud tjener et formål.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303768"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882898"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designoplysninger: Afstemning mellem behov og forsyning
 Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for at forstå, hvordan systemet fungerer, og de vigtigste er for at sikre, at:  
@@ -263,9 +261,9 @@ Der er to grunde til dette:
 -   Planlægningssystemet skal være i stand til at begrunde sine forslag om at alle behov er dækket, og at ingen forsyningsordrer er overflødige.  
 -   Dynamisk oprettede ordresporingsbindinger skal regelmæssigt afstemmes.  
 
-I tidens løb bliver dynamiske ordresporingslinks uafstemte, da hele ordresporingsnetværket ikke omarrangeres, før et behov eller en forsyningshændelse faktisk er lukket.  
+I tidens løb bliver dynamiske ordresporingsbindinger uafstemte, fordi det samlede ordresporingsnetværk ikke omarrangeres, før en behovs- eller forsyningshændelse faktisk er lukket.  
 
-Før udligning af forsyning med behov, sletter programmet alle eksisterende ordresporingsbindinger. Under den udlignende procedure, når en behov- eller forsyningshændelse er lukket, etablerer det derefter nye ordresporingsbindinger mellem behov og forsyning.  
+Før udligning af forsyning med behov, sletter programmet alle eksisterende ordresporingsbindinger. Under den udlignende procedure, når en behovs- eller forsyningshændelse er lukket, etablerer det derefter nye ordresporingsbindinger mellem forsyning og behov.  
 
 > [!NOTE]  
 >  Selvom varen ikke er konfigureret til dynamisk ordresporing, opretter planlægningssystemet afstemte ordresporingsbindinger, som forklaret ovenfor.

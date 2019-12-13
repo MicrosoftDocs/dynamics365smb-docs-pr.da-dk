@@ -8,15 +8,15 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2019
-ms.openlocfilehash: f2b5e3ded5c89f241d0c49ee8c6f9d196c6bae43
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7578cdff40111adcbf2401e6bed33ddf47641107
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308208"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880972"
 ---
 # <a name="classifying-data-sensitivity"></a>Klassificere datafølsomhed
-For at klassificere de felter, der indeholder følsomme eller personlige data, kan en Microsoft-partner angive egenskaben ```DataClassification``` på felter. Dette kræver adgang til databasetabellerne, enten via udviklingsmiljøet eller ved at køre et Windows PowerShell-script. Du kan finde flere oplysninger i [Klassificere data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data).  
+For at klassificere de felter, der indeholder følsomme eller personlige data, kan en Microsoft-partner angive egenskaben ```DataClassification``` på felter. Dette kræver adgang til databasetabellerne, enten via udviklingsmiljøet eller ved at køre et Windows PowerShell-script. Du kan finde flere oplysninger i [Klassificere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Du kan tilføje et andet niveau i klassificering som en kunde ved at angive følsomhedsniveauer for de data, du gemmer i standardfelter og brugerdefinerede felter. Klassificeringen af datafølsomhed hjælper med til at sikre, at du ved, hvor du opbevarer personlige data i systemet, og gør det nemmere at besvare anmodninger fra registrerede. Hvis en kontakt eller kunde f.eks. beder dig om at eksportere deres personlige data. Du kan finde flere oplysninger i [Besvare anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md).
 
@@ -48,4 +48,5 @@ Med regnearket Klassificering af data kan du f.eks. gøre følgende:
 > Vi har defineret prøvefølsomhedsklassificeringer for tabellerne og felterne i demoregnskabet Cronus. Du kan bruge disse klassificeringer som inspiration, når du klassificerer dine egne tabeller og felter.
 
 ## <a name="see-also"></a>Se også
-[Klassificering af Data](https://docs.microsoft.com/en-us/dynamics-nav/classifying-data)  
+
+[Klassificering af Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  

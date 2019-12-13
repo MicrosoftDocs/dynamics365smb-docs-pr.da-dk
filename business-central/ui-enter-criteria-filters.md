@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e61ffff9e081d561eb637a398f0bcb05ff69f70
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315608"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882178"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse poster på en liste eller i en rapport eller XMLport. Disse omfatter sortering, søgning og filtrering. Du kan anvende nogle eller alle af disse samtidigt til hurtigt at finde eller analysere dataene.
@@ -23,7 +23,7 @@ Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse
 I forbindelse med rapporter og XMLporte kan du angive filtre på lister for at afgrænse, hvilke data der skal medtages i rapporten eller XMLport, men du kan ikke sortere og søge.
 
 > [!TIP]
-> Når du får vist dataene som felter, kan du søge og bruge grundlæggende filtrering. Når du vil bruge et komplet sæt af effektive funktioner til sortering, søgning eller filtrering, skal du vælge ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Pil til venstre Vis som liste") for at få vist posterne som en liste.
+> Når du får vist dataene som felter, kan du søge og bruge grundlæggende filtrering. Når du vil bruge et komplet sæt af effektive funktioner til sortering, søgning eller filtrering, skal du vælge ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Vis som liste pil til venstre") for at få vist posterne som en liste.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -111,7 +111,7 @@ Filterruden viser de aktuelle filtre på en liste, og gør det muligt at angive 
   Nogle lister, der viser beregnede felter, som beløb og antal, indeholder sektionen **Filtrer totaler efter**, hvor du kan justere forskellige dimensioner, der påvirker beregninger. Når du vil tilføje et filter, skal du vælge handlingen **+ Filter**, skrive navnet på det felt, du vil filtrere listen efter, eller vælge et felt på rullelisten.
 
   > [!NOTE]
-  > Filtre i sektionen **Filtrer totaler efter** styres af FlowFilters i sideopsætningen. Du kan finde tekniske oplysninger i [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filtre i sektionen **Filtrer totaler efter** styres af FlowFilters i sideopsætningen. Du kan finde tekniske oplysninger i [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 Du kan angive et enkelt filter direkte på en liste under brug af filterruden, dvs. et filter, hvor der kun vises poster med den samme værdi som i den markerede celle. Vælg en celle på listen, vælg rullepilen, og vælg derefter handlingen **Filtrer til denne værdi**. Du kan også trykke på **Alt+F3**.
 
@@ -127,7 +127,7 @@ Både i filterruden og på en anmodningsside angiver du filterkriterierne i felt
 
 Filterfeltets type er bestemmende for, hvilke kriterier du kan angive. For eksempel kan du, når du filtrerer et felt, der har faste værdier, kun vælge mellem disse værdier. Du kan finde yderligere oplysninger om særlige filtersymboler i [Filterkriterier](#FilterCriteria) og [Filtertokens](#FilterTokens).
 
-Kolonner, som allerede indeholder filtre, er angivet med ikonet ![Filterikonet](media/ui-search/filter-icon.png "Filterikonet") i kolonneoverskriften. Hvis du vil fjerne et filter, skal du vælge rullepilen og derefter vælge handlingen **Ryd filter**.
+Kolonner, som allerede indeholder filtre, er angivet med ikonet ![Filter](media/ui-search/filter-icon.png "Filter-ikon") i kolonneoverskriften. Hvis du vil fjerne et filter, skal du vælge rullepilen og derefter vælge handlingen **Ryd filter**.
 
 > [!TIP]
 > Fremskynd søgning efter og analyse af dine data ved hjælp af kombinationer af genvejstaster. For f.eks. at markere et felt skal du bruge **Skift + Alt + F3** for at føje dette felt til filterruden, angive filterkriterierne, bruge **Ctrl + Enter** for at vende tilbage til rækkerne, vælge et andet felt og bruge **Alt + F3** til at filtrere til værdien. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).

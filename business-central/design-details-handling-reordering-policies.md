@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Håndtering af genbestillingsmetoder | Microsoft Docs
 description: Oversigt over opgaver til at definere en genbestillingsmetode i forsyningsplanlægning.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307152"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880468"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designoplysninger: Håndtering af genbestillingsmetoder
 En genbestillingsmetode skal defineres for, at en vare kan være en del af forsyningsplanlægning. Der findes følgende fire genbestillingsmetoder:  
@@ -69,7 +67,7 @@ Følgende sekvens beskriver, hvordan det planlagte lagerniveau bestemmes:
 
 Nedenstående viser en grafisk illustration af dette princip:  
 
-![Bestemme det planlagte lagerniveau](media/nav_app_supply_planning_2_projected_inventory.png "Bestemme det planlagte lagerniveau")  
+![Bestemmelse af det forventede lagerniveau](media/nav_app_supply_planning_2_projected_inventory.png "Bestemmelse af det forventede lagerniveau")  
 
 1. Forsyning **Sa** af 4 (faste) lukker behov **Da** af -3.  
 2. CloseDemand: Opret en påmindelse om reducering af -3 (ikke vist).  
@@ -96,7 +94,7 @@ For genbestillingspolitikker, der bruger et genbestillingspunkt, kan du angive e
 
 Begrebet interval afspejler den manuelle proces til hyppig kontrol af lagerniveauet i stedet for hver transaktion. Brugeren skal definere frekvensen (intervallet). Brugeren samler f.eks. alle varebehov fra en kreditor for at foretage en ugentlig bestilling.  
 
-![Eksempel på interval ved planlægning](media/nav_app_supply_planning_2_reorder_cycle.png "Eksempel på interval ved planlægning")  
+![Eksempel på et interval i planlægningen](media/nav_app_supply_planning_2_reorder_cycle.png "Eksempel på et interval i planlægningen")  
 
 Intervallet bruges normalt til at undgå en overlapningseffekt. For eksempel en afstemt række af behov og forsyning, hvor et tidligt behov annulleres, eller et ny oprettes. Resultatet ville være, at hver forsyningsordre (undtagen den sidste) skal omplanlægges.
 
@@ -105,7 +103,7 @@ Når du bruger metoderne Maks. antal og Fast genbestil.antal, fokuserer planlæg
 
 *Bemærk: Den forventede lagerbeholdning [xx] er højere end overløbsniveauet [xx] på forfaldsdatoen [xx].*  
 
-![Lageroverløbsniveau](media/supplyplanning_2_overflow1_new.png "Lageroverløbsniveau")  
+![Overløbsniveau for lagerbeholdning](media/supplyplanning_2_overflow1_new.png "Overløbsniveau for lagerbeholdning")  
 
 ###  <a name="calculating-the-overflow-level"></a>Beregning af overløbsniveau  
 Overløbsniveauet beregnes på forskellige måder afhængig af planlægningsopsætningen.  
@@ -181,7 +179,7 @@ I dette scenario ændrer en kunde en salgsordre fra 70 til 40 stykker mellem to 
 #### <a name="resulting-planning-lines"></a>Resulterende planlægningslinjer  
  Der oprettes en planlægningslinje (advarsel) for at reducere køb med 30 fra 90 til 60 for at bevare den projekterede lagerbeholdning på 100 i henhold til overløbsniveauet.  
 
-![Planlægge efter overløbsniveau](media/nav_app_supply_planning_2_overflow2.png "Planlægge efter overløbsniveau")  
+![Planlæg i overensstemmelse med overløbsniveau](media/nav_app_supply_planning_2_overflow2.png "Planlæg i overensstemmelse med overløbsniveau")  
 
 > [!NOTE]  
 >  Uden overløbsfunktionen vises der ingen advarsel, hvis den projekterede lagerbeholdning ligger over maks. Dette kan medføre en overflødig forsyning på 30.
@@ -195,7 +193,7 @@ Genbestillingspunktet udtrykker det forventede behov under leveringstiden for va
 
  I følgende illustration repræsenterer forsynings-id en akutordre for at justere for negativt lager.  
 
- ![Planlægningsforslag om at undgå negativt lager i nødsituation](media/nav_app_supply_planning_2_negative_inventory.png "Planlægningsforslag om at undgå negativt lager i nødsituation")  
+ ![Forslag til nødplanlægning for at undgå negativt lager](media/nav_app_supply_planning_2_negative_inventory.png "Forslag til nødplanlægning for at undgå negativt lager")  
 
 1.  Forsyning **A**, oprindeligt planlagte lagerbeholdning, er under genbestillingspunkt.  
 2.  En ny ordre, der er planlagt fremad, oprettes (**C**).  
@@ -296,5 +294,5 @@ Da forsyningsordreantallet er baseret på det faktiske behov, kan det være smar
 [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)   
 [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
-[Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
+[Designoplysninger: Afstemning af behov og efterspørgsel](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)

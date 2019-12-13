@@ -1,7 +1,6 @@
 ---
-title: Forbinde dataene med Flow | Microsoft Docs
+title: Forbind dine data med Power Automate| Microsoft Docs
 description: Du kan gøre dine Business Central-data tilgængelige som datakilde og angive en OData URL-adresse til dine webtjenester for at oprette et automatiseret workflow.
-documentationcenter: ''
 author: bmeier90
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,55 +8,57 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.keywords: workflow, Odata, Power App, SOAP
-ms.date: 10/01/2019
+ms.search.keywords: workflow, OData, Power App, SOAP
+ms.date: 11/20/2019
 ms.author: bmeier
-ms.openlocfilehash: a46692503b19ddad57c4a68d0f29b588d84f5c9e
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 24ca66c2d533f4a3e30eb1ebaca817915b95c370
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775447"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832018"
 ---
-# <a name="using-included365finincludesd365fin_mdmd-in-an-automated-workflow"></a>Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i et automatisk workflow
-Du kan bruge dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del af en arbejdsproces i Microsoft Flow.
+# <a name="using-includeprodshortincludesprodshortmd-in-an-automated-workflow"></a>Bruge [!INCLUDE[prodshort](includes/prodshort.md)] i et automatisk workflow
+
+Du kan bruge dine [!INCLUDE[prodshort](includes/prodshort.md)]-data som en del af en arbejdsproces i Microsoft Power Automate.
 
 > [!NOTE]
-> Ud over Microsoft Flow kan du bruge funktionen Workflow i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vær opmærksom på, at selvom det er to separate workflowsystemer, tilføjes en Flow-skabelon, du opretter med Microsoft Flow, på listen over workflows i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Workflow](across-workflow.md).  
+> Ud over Power Automate kan du bruge funktionen Workflow i [!INCLUDE[prodshort](includes/prodshort.md)]. Vær opmærksom på, at selv om det er to separate workflowsystemer, tilføjes en hvilken som helst workflow-skabelon, du opretter med Power Automate, på listen over workflows i [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan finde flere oplysninger i [Workflow](across-workflow.md).  
 
 > [!NOTE]  
-> Du skal have en gyldig konto til [!INCLUDE[d365fin](includes/d365fin_md.md)] og til Flow.  
+> Du skal have en gyldig konto til [!INCLUDE[prodshort](includes/prodshort.md)] og til Power Automate.  
 
-## <a name="to-add-included365finincludesd365fin_mdmd-as-a-data-source-in-flow"></a>Sådan tilføjes [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde i Flow
-1. Gå til [flow.microsoft.com](https://flow.microsoft.com/en-us/) i din webbrowser, og log på.
-2. Vælg **Mine Flows** på båndet øverst på siden.
-3. Der er tre måder at oprette et flow på. **Start fra skabelon**, **Start fra grunden** og **Start fra en connector**. En skabelon er et foruddefineret flow, der er oprettet for dig. Hvis du vil bruge skabelonen, skal du blot vælge den og oprette en forbindelse for hver tjeneste, skabelonen bruger. Med indstillingerne **Start fra grunden** og **Start fra en connector** kan du oprette et nyt flow helt fra grunden.
-4. Hvis du vil oprette fra grunden, skal du på siden **Mine Flows** vælge indstillingerne **Start fra grunden** og **Automatiseret flow**.
-5. Søg efter **Konnektor til [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**.
+## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-automate"></a>Sådan tilføjes [!INCLUDE[prodshort](includes/prodshort.md)] som en datakilde i Power Automate
+
+1. Gå til [flow.microsoft.com](https://flow.microsoft.com) i din webbrowser, og log på.
+2. Vælg **Mine flows** på båndet øverst på siden.
+3. Der er tre måder at oprette et flow på: **Start fra skabelon**, **Start fra bunden** og **Start fra en connector**. En skabelon er et foruddefineret flow, der er oprettet for dig. Hvis du vil bruge skabelonen, skal du blot vælge den og oprette en forbindelse for hver tjeneste, skabelonen bruger. Med indstillingerne **Start fra bunden** og **Start fra en connector** kan du oprette et nyt flow helt fra bunden.
+4. Hvis du vil starte fra bunden, skal du på siden **Mine flows** vælge indstillingerne **Start fra bunden** og **Automatiseret flow**.
+5. Søg efter **Konnektor til [!INCLUDE[prodlong](includes/prodlong.md)]**.
 6. Angiv et navn, og vælg den udløser, du vil bruge til flowet.
-7. På listen over tilgængelige udløsere, skal du vælge en af de [!INCLUDE[d365fin](includes/d365fin_md.md)]-udløsere, der er tilgængelige:  
-    
-    *Når der anmodes om godkendelse af en kreditor*    
-    *Når der anmodes om godkendelse af en finanskladdelinje*    
-    *Når en post slettes*    
-    *Når en post ændres*    
-    *Når en post oprettes*    
-    *Når en post redigeres*    
-    *Når der anmodes om godkendelse af en finanskladdekørsel*   
-    *Når der anmodes om godkendelse af en debitor*   
-    *Når der anmodes om godkendelse af en vare*    
-    *Når der anmodes om godkendelse af et købsdokument* eller     
-     *Når der anmodes om godkendelse af et salgsdokument*.
-     
-8. Du bliver bedt om at vælge et miljø eller en virksomhed i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer samt de betingelser i dine data, du vil overvåge.
+7. På listen over tilgængelige udløsere, skal du vælge en af de [!INCLUDE[prodshort](includes/prodshort.md)]-udløsere, der er tilgængelige:  
 
-> [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)]-connectoren til Microsoft Flow understøtter flere produktions- og sandkassemiljøer. Hvis du ikke har oprettet flere produktions- eller sandkassemiljøer, er **Produktion** den eneste tilgængelige indstilling. 
+    *Når der anmodes om godkendelse af en kreditor*  
+    *Når der anmodes om godkendelse af en finanskladdelinje*  
+    *Når en post slettes*  
+    *Når en post ændres*  
+    *Når en post oprettes*  
+    *Når en post redigeres*  
+    *Når der anmodes om godkendelse af en finanskladdekørsel*  
+    *Når der anmodes om godkendelse af en debitor*  
+    *Når der anmodes om godkendelse af en vare*  
+    *Når der anmodes om godkendelse af et købsdokument* eller  
+    *Når der anmodes om godkendelse af et salgsdokument*.
 
-Nu har du oprettet forbindelse til dine Business Central-data og er klar til at opbygge dit flow.
+8. Power Automate anmoder dig om at vælge et miljø og en virksomhed i din [!INCLUDE[prodshort](includes/prodshort.md)]-lejer samt de betingelser i dine data, som du vil holde øje med.
+
+    > [!NOTE]
+    > [!INCLUDE[prodshort](includes/prodshort.md)]-connectoren til Power Automate understøtter flere produktions- og sandkassemiljøer. Hvis du ikke har oprettet flere produktions- eller sandkassemiljøer, er **Produktion** den eneste tilgængelige indstilling.  
+
+    Nu har du oprettet forbindelse til dine Business Central[!INCLUDE [prodshort](includes/prodshort.md)]-data og er klar til at opbygge dit flow.
 
 9. Hvis du vil oprette fra en skabelon, skal du vælge indstillingen **Start fra skabelon**.
-10. Søg efter **Skabeloner til [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]**.
+10. Søg efter **Skabeloner til [!INCLUDE[prodlong](includes/prodlong.md)]**.
 11. På listen over tilgængelige skabeloner, skal du vælge en af skabelonerne og derefter vælge **Opret**.  
 
     *Anmode om godkendelse af Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-salgsordre*  
@@ -72,17 +73,18 @@ Nu har du oprettet forbindelse til dine Business Central-data og er klar til at 
     *Anmode om godkendelse af Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-kreditor*  
     *Anmode om godkendelse af Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-finanskladdekørsel* eller    
     *Anmode om godkendelse af Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-finanskladdelinjer*.  
-12. Flow viser en liste over de tjenester, der er anvendt i Flow-skabelonen og vil automatisk forsøge at oprette forbindelse til disse tjenester. Hvis du ikke tidligere har oprettet forbindelse til en tjeneste, bliver du bedt om at logge på hver af de tjenester, du har brug for at oprette forbindelse til. Der vises en grøn markering ud for hver enkelt tjeneste, når der er oprettet en forbindelse. Vælg **Fortsæt**.
-13. Flow beder dig om at vælge et miljø eller en virksomhed i din [!INCLUDE[d365fin_md](includes/d365fin_md.md)]-lejer. Da hvert trin i flowet er uafhængigt af det næste, kan du blive nødt til at definere miljøet og virksomheden flere gange, når du bruger en [!INCLUDE[d365fin_md](includes/d365fin_md.md)] Flow-skabelon.
+12. Power Automate viser en liste over de tjenester, der er anvendt i flow-skabelonen og vil automatisk forsøge at oprette forbindelse til disse tjenester. Hvis du ikke tidligere har oprettet forbindelse til en tjeneste, bliver du bedt om at logge på hver af de tjenester, du har brug for at oprette forbindelse til. Der vises en grøn markering ud for hver enkelt tjeneste, når der er oprettet en forbindelse. Vælg **Fortsæt**.
+13. Power Automate vil anmode dig om at vælge et miljø og en virksomhed i din [!INCLUDE[prodshort](includes/prodshort.md)]-lejer. Da hvert trin i flowet er uafhængigt af det næste, kan du blive nødt til at definere miljøet og virksomheden flere gange, når du bruger en [!INCLUDE[prodshort](includes/prodshort.md)] Power Automate-skabelon.
 
-Du kan finde flere oplysninger i [Flow-dokumentationen](/flow/getting-started).
+Du kan finde flere oplysninger under [Dokumentation for Power Automate](/power-automate/getting-started).
 
 ## <a name="see-also"></a>Se også
+
 [Introduktion](product-get-started.md)  
 [Workflow](across-workflow.md)  
-[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)   
-[Administrere [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-workflows](across-use-workflows.md)  
+[Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
+[Administrere [!INCLUDE[prodlong](includes/prodlong.md)]-workflows](across-use-workflows.md)  
 [Brugeropsætning af godkendelser](across-how-to-set-up-approval-users.md)  
-[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Opsætning af [!INCLUDE[prodshort](includes/prodshort.md)]](setup.md)  
 [Finans](finance.md)  

@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Internt lagerflow | Microsoft Docs
 description: Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af komponenter og at lægge færdigvarer på lager til produktions- eller montageordrer og ad hoc-bevægelser, f.eks. placeringsgenopfyldninger, uden relation til kildedokumenter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bce55cda1ba5fd5dd89ad75b224651df719d76d5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55f58acc0f65469261903c28b71942010d44c695
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303456"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880348"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designoplysninger: Internt lagerflow
 Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af komponenter og at lægge færdigvarer på lager til produktions- eller montageordrer og ad hoc-bevægelser, f.eks. placeringsgenopfyldninger, uden relation til kildedokumenter. Omfanget og arten af de involverede aktiviteter varierer mellem grundlæggende og avancerede logistikfunktioner.  
@@ -116,7 +114,7 @@ Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af 
 
  Følgende illustration viser, når feltet **Placeringskode** på komponentlisten udfyldes i overensstemmelse med konfiguration af din lokation eller maskine/arbejdscenter.  
 
- ![Oversigt over hvornår/hvordan feltet Placeringskode skal udfyldes](media/binflow.png "Oversigt over hvornår/hvordan feltet Placeringskode skal udfyldes")  
+ ![Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes](media/binflow.png "Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes")  
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Logistik](design-details-warehouse-management.md)

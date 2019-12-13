@@ -7,12 +7,12 @@ ms.date: 11/06/2019
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: solsen
-ms.openlocfilehash: 4aa15d32143b909b206a10d8ae11906abfddc47b
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 8608fbc4198f4e3daf9fe0edd1f261367f3fcb55
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767840"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832259"
 ---
 # <a name="pre-sales-learning-catalog"></a>Undervisningskatalog for førsalgspartnere
 
@@ -39,7 +39,7 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 
 | Indhold                                                                                                                                | Description                                                                                                                                                                                                                                                                                      | Format                                | Længde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Kun partnere) Denne session vil skitsere værdien for Business Central. Business Central tilbyder fremragende værdi, fordi det integreres med andre Microsoft Cloud Services, herunder Office 365, og kan tilpasses eller udvides til specifikke brancher med PowerApps, Microsoft Flow og Power BI. | Video                                 | 8 minutter og 5 sekunder |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Kun partnere) Denne session vil skitsere værdien for Business Central. Business Central tilbyder fremragende værdi, fordi det integreres med andre Microsoft Cloud Services, herunder Office 365, og kan tilpasses eller udvides til specifikke branchers behov med Power Apps, Power Automate og Power BI. | Video                                 | 8 minutter og 5 sekunder |
 | [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/) | Udforske Dynamics 365 Business Central-funktioner                                                                                                                                                                                                                                                        | Websted                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Dette modul viser programfunktioner, fordele og eksempler på Dynamics 365 Business Central-handlinger.                                                                                                                                                                                                | Gratis onlinelæringssti i dit eget tempo | 24 minutter          |
 

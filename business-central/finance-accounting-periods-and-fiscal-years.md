@@ -1,8 +1,6 @@
 ---
 title: Arbejde med regnskabsperioder og regnskabsår | Microsoft Docs
 description: Lær, hvordan du arbejder med regnskabsperioder, der kan definere, hvornår virksomheden rapporterer finansielle resultater.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d70694a571c051f6160a721c8fa06c91fe9c42d3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aab482918eacb7bea068a5c5f536c9e88bdd7b2c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302616"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879844"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbejde med regnskabsperioder og regnskabsår
 Regnskabsperioder, der kaldes også rapporteringsperioder, er tidsperioder, hvor en virksomhed eller organisation rapporterer finansielle resultater, f.eks. ved at generere deres resultatopgørelse eller balance. Typisk henviser regnskabsperioder til virksomhedens regnskabsår, der kan indeholde flere regnskabsperioder, f.eks. måneder eller kvartaler.
@@ -44,7 +42,7 @@ Brug **Opret regnskabsår**-kørslen til at opdele et regnskabsår i perioder af
 ### <a name="how-to-create-accounting-periods-manually"></a>Sådan oprettes regnskabsperioder manuelt
 Hvis regnskabsperioderne i regnskabsåret, der har forskellig varigheder som 4-4-5-kalender, der anvendes i detail, du kan oprette det manuelt.  
   
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Søg efter side eller rapport"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
 2. I feltet **Startdato** kan du angive den dato, hvor regnskabsåret begynder. Feltet **Navn** viser navnet på måneden.  
 3. Marker afkrydsningsfeltet **Nyt regnskabsår** for at angive, at dette er den første periode i året. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger denne periode til at bestemme, hvilke perioder der skal lukkes ved udgangen af året.
 4. Gentag trin 2 og 3 for hver resterende periode.  
@@ -55,7 +53,7 @@ Lukning af regnskabsåret er en af opgaverne, når regnskaberne skal afsluttes. 
 > [!NOTE]  
 >  Du skal altid være mindst ét åbent regnskabsår. Når du lukker et år, skal du sikre dig, der er oprettet et nyt år. Bemærk også, at når du har afsluttet ét regnskabsår, er det ikke muligt at ændre startdatoen for det efterfølgende år.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Søg efter side eller rapport"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Afslut år**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bogføre poster til et afsluttet regnskabsår

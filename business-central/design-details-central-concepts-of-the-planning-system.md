@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Centrale begreber i planlægningssystemet | Microsoft Docs
 description: Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den periode, der skal planlægges for, og derefter foreslår mulige handlinger, brugeren kan udføre, på basis af udbud og efterspørgselssituation og varens planlægningsparametre.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303744"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880588"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designoplysninger: Centrale begreber i planlægningssystemet
 Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den relevante periode, der skal planlægges. Ifølge hver vares laveste-niveau-kode (styklisteposition) kalder kørslen en kodeenhed, der beregner en forsyningsplan ved at afstemme forsyning-behov-sæt og foreslå mulige handlinger, som brugeren kan foretage. De foreslåede handlinger vises som linjer i planlægningskladden eller indkøbskladden.  
 
-![Indhold af siden Planlægningskladde](media/NAV_APP_supply_planning_1_planning_worksheet.png "Indhold af siden Planlægningskladde")  
+![Indhold på siden Planlægningskladde](media/NAV_APP_supply_planning_1_planning_worksheet.png "Indhold på siden Planlægningskladde")  
 
 Planlæggeren i en virksomhed, f.eks. en indkøber eller produktionsplanlægger, formodes at være brugeren af planlægningssystemet. Planlægningssystemet hjælper brugeren ved at udføre omfattende, men temmeligt enkle beregninger af en plan. Brugeren kan derefter koncentrere sig om at løse mere komplekse problemer, f.eks. når ting er anderledes. end de plejer.  
 
@@ -57,7 +55,7 @@ Hvis brugeren f.eks. indtaster eller ændrer en salgsordre, vil det dynamiske or
 
 Dynamisk ordresporing kan derfor betragtes som et værktøj, der hjælper brugeren med at vurdere, om forsyningsordreforslag skal accepteres. Fra forsyningssiden kan en bruger se, hvilke behov der har oprettet forsyningen, og fra behovssiden, hvilken forsyning der skal dække behovet.  
 
-![Eksempel på en dynamisk ordresporing](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Eksempel på en dynamisk ordresporing")  
+![Eksempel på dynamisk ordresporing](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Eksempel på dynamisk ordresporing")  
 
 Du kan finde flere oplysninger i [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -101,7 +99,7 @@ Dette understøttes ved hjælp af lagervarer, hvor individuelle planlægningspar
 
 Et element kan håndteres på enhver lokation i princippet, men programmets tilgang til begrebet lokation er meget streng. En salgsordre på ét sted kan f.eks. ikke opfyldes af et antal på lager på en anden lokation. Antal på lager skal først overflyttes til den lokation, der er angivet på salgsordren.  
 
-![Planlægning af lagervarer](media/NAV_APP_supply_planning_1_SKU_planning.png "Planlægning af lagervarer")  
+![Planlægning af lagervarer pr. lokation](media/NAV_APP_supply_planning_1_SKU_planning.png "Planlægning af lagervarer pr. lokation")  
 
 Du kan finde flere oplysninger i [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md).  
 
@@ -113,7 +111,7 @@ Du kan finde flere oplysninger i [Designoplysninger: Prioritering af ordrer](des
 ## <a name="demand-forecasts-and-blanket-orders"></a>Behovsprognoser og rammeordrer  
 Forecasts og rammesalgsordrer repræsenterer begge forventet behov. Den rammeordre, som dækker en debitors tiltænkte køb over en bestemt tidsperiode, skal mindske usikkerheden af det samlede forecast. Rammeordren er en debitorspecifik prognose i tillæg til den uspecificerede prognose, som vist nedenfor.  
 
-![Planlægning med prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlægning med prognoser")  
+![Planlægning ved hjælp af prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlægning ved hjælp af prognoser")  
 
 Du kan finde flere oplysninger i afsnittet "Forecastbehov reduceres af salgsordrer" i [Designoplysninger: Indlæsning af lagerprofiler](design-details-loading-the-inventory-profiles.md).  
 
@@ -202,7 +200,7 @@ Dog omfatter planlægningssystemet stadig reserverede mængder i den planlagte l
 
 Følgende illustration viser, hvordan reservationer kan hæmme den mest velegnede plan.  
 
-![Planlægning med reservationer](media/NAV_APP_supply_planning_1_reservations.png "Planlægning med reservationer")  
+![Planlægning ved hjælp af reservationer](media/NAV_APP_supply_planning_1_reservations.png "Planlægning ved hjælp af reservationer")  
 
 Du kan finde flere oplysninger i [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md).  
 

@@ -1,8 +1,6 @@
 ---
 title: Sådan foretages direkte afsendelse | Microsoft Docs
 description: Funktionerne i forbindelse med direkte afsendelse er tilgængelige, hvis du har sat lokationen op til at kræve lagermodtagelse og læg-på-lager.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 717f6db3e8d53a8b2d75b9a27749e353e5ff28bc
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310368"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876795"
 ---
 # <a name="cross-dock-items"></a>Afsende varer direkte
 Funktionerne i forbindelse med direkte afsendelse er tilgængelige, hvis du har sat lokationen op til at kræve lagermodtagelse og læg-på-lager.  
@@ -43,14 +41,14 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
 
     Hvis du bruger zoner, kan du oprette en zone til direkte afsendelsesplaceringer og markere feltet **Dir.afs.placeringszone**. Du kan finde flere oplysninger i [Oprette lokationer til brug af placeringer](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokation**, og vælg derefter det relaterede link.  
+2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokation**, og vælg dernæst det relaterede link.  
 3.  På siden **Lokation** skal du vælge den lokation, hvor du vil opsætte lagerstedet til direkte afsendelse og derefter vælge handlingen **Rediger**.  
 4.  I oversigtspanelet **Lager** skal du markere afkrydsningsfeltet **Brug dir. afsendelse** og udfylde feltet **Beregn forfaldsdato - dir. afsend** med den tid, der skal søges efter muligheder for direkte afsendelse.
 
     Indstillingen **Brug dir. afsendelse** er kun tilgængelig, hvis du har markeret felterne **Kræv modtagelse**, **Kræv leverance**, **Kræv pluk** og **Kræv læg-på-lager**.  
 
 5.  Hvis du bruger placeringer, skal du angive koden for den placering, der som standard skal bruges som direkte afsendelsesplacering, i feltet **Dir.afs.placeringskode** i oversigtspanelet **Placeringer**.  
-6.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagervare (pr. lok.)**, og vælg det relaterede link.  
+6.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagervare**, og vælg dernæst det relaterede link.  
 7.  For hver vare eller lagervare, som du vil kunne afsende direkte, skal du vælg varen og derefter vælge handlingen **Rediger**.
 8. På siden **Lagervarekort** skal du markere afkrydsningsfeltet **Brug dir. afsendelse**.  
 
@@ -58,7 +56,7 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
 >  Direkte afsendelse kan kun udføres, hvis lokationen kræver lagermodtagelse og læg-på-lager.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Sådan afsendes varer direkte uden at få vist muligheder  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelse**, og vælg derefter det relaterede link.  
 2.  Opret en lagermeddelelse for de varer, der er modtaget, og som måske kan afsendes direkte. Du kan finde flere oplysninger i [Modtage varer](warehouse-how-receive-items.md).  
 3.  Udfyld feltet **Modtag (antal)**, og vælg derefter handlingen **Beregn direkte afsendelse**.  
 
@@ -75,7 +73,7 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
 7.  Hvis du vil registrere varerne til direkte afsendelse som lagt på plads og som disponible til pluk, skal du vælge handlingen **Registrer**.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Sådan afsendes varer direkte efter kontrol af mulighederne  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelse**, og vælg derefter det relaterede link.  
 2.  Opret en lagermeddelelse for de varer, der er modtaget, og som måske kan afsendes direkte. Du kan finde flere oplysninger i [Modtage varer](warehouse-how-receive-items.md).  
 
     Du vil se de linjer i kildedokument, hvor varen bestilles, før du bogfører modtagelsen.  

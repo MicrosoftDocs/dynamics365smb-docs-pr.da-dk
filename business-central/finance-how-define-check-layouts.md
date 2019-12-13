@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fea52bfa75d953b96aecc0f3e354806324f77d83
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306312"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808573"
 ---
 # <a name="select-a-check-layout"></a>Vælge et checklayout
 Du kan udforme dine checks i overensstemmelse med de lokale myndigheders standarder. Checkbilleder kan udskrives på engelsk, fransk eller spansk.
@@ -36,10 +36,10 @@ Checks er designet til udskrivning i amerikanske og canadiske checkbilledformate
 
 Når du har oprettet checklayout, kan du udskrive check på siden **Udbetalingskladde**. Du kan finde flere oplysninger i [Arbejde med checks](payables-how-work-checks.md).
 
-Hvis du vil ændre et af disse standardchecklayout, skal du bruge enten Word eller RDLC-integration til at gøre det. Du kan finde flere oplysninger under [Oprette og ændre et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md).
+Hvis du vil ændre et af disse standardchecklayout, skal du bruge enten Word eller RDLC-integration til at gøre det. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Se også
-[Oprette og ændre et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md)  
+[Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Håndtere bankkonti](bank-manage-bank-accounts.md)   
 [Fuldførelse af periodeafslutningsprocesser](year-how-complete-period-end-processes.md)  

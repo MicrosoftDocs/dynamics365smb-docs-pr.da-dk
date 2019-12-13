@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 09edf4a84720085d0accb008b0ae29f47fa38f60
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775303"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808765"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration med Dynamics 365 Sales
 Rollen Sælger betragtes ofte som et af de mest udadvendte i en virksomhed. Det kan imidlertid være en fordel for sælgere at kunne se indad i virksomheden og se, hvad der foregår i back end. Ved at integrere [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] kan du give dine sælgere denne indsigt ved at gøre det muligt for dem at få vist oplysninger i [!INCLUDE[d365fin](includes/d365fin_md.md)], når de arbejder i [!INCLUDE[crm_md](includes/crm_md.md)]. Ved udarbejdelse af et salgstilbud kan det f.eks. være nyttigt at vide, om der er tilstrækkelig lagerbeholdning til at opfylde ordren. Du kan finde flere oplysninger i [Bruge Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
@@ -34,7 +34,7 @@ Nedenfor følger en oversigt over trinnene til integration af [!INCLUDE[crm_md](
 > [!Note]  
 > Disse opgaver kræver sikkerhedsrollen **Systemadministrator** i [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1. I Office 365-administrationscenteret skal du oprette en brugerkonto til at oprette forbindelse til og synkronisere data med [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+1. I Microsoft 365 Administration skal du oprette en brugerkonto til at oprette forbindelse til og synkronisere data med [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 2. Tildel licenser til [!INCLUDE[crm_md](includes/crm_md.md)] til de [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere, der skal bruge de integrerede apps.
 

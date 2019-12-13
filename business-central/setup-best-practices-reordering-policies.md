@@ -1,8 +1,6 @@
 ---
 title: Konfigurere bedste fremgangsmåder - Genbestillingsmetoder | Microsoft Docs
 description: Feltet Genbestillingsmetode på varekortene tilbyder fire forskellige planlægningsmetoder, der bestemmer, hvordan individuelle planlægningsparametre skal arbejde sammen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46e4b5861242258769548cae5f214a8d7cb8f9a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311520"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882226"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Oprette bedste fremgangsmåder: Genbestillingspolitikker
 Feltet **Genbestillingsmetode** på varekortene tilbyder fire forskellige planlægningsmetoder, der bestemmer, hvordan individuelle planlægningsparametre skal arbejde sammen.  
@@ -32,7 +30,7 @@ Feltet **Genbestillingsmetode** på varekortene tilbyder fire forskellige planl�
 
 ABC-klassificeringen angiver, at der kan spares besvær og penge ved at anvende løsere kontrol på varer med lav værdivolumen i forhold til varer med høj værdivolumen. Følgende illustration viser, hvilken genbestillingsmetode i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er bedst egnet til henholdsvis A-, B- og C-elementer.
 
-![ABC-klassificering](media/abc_classification.png "abc_classification")
+![ABC-klassificering](media/abc_classification.png "ABC-klassificering")
 
 Følgende tabel indeholder de bedste fremgangsmåder til at vælge mellem de fire politikker.  
 

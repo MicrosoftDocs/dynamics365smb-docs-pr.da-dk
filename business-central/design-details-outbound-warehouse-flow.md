@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Udgående lagerflow | Microsoft Docs
 description: Det udgående flow fra lageret begynder med en anmodning fra frigivne kildedokumenter om at bringe varerne ud af lagerlokationen, enten for at blive leveret til en ekstern part eller et andet sted i virksomheden. Fra lagerområdet udføres lageraktiviteterne på forskellige kompleksitetsniveauer for at bringe varerne ud til afsendelsesområderne.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c5a3ce2049b1686da04842f7c73abb2255369ffa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 973c248473f2f2eebc10e095f619b51e48de7886
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306984"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880108"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designoplysninger: Udgående lagerflow
 Det udgående flow fra lageret begynder med en anmodning fra frigivne kildedokumenter om at bringe varerne ud af lagerlokationen, enten for at blive leveret til en ekstern part eller et andet sted i virksomheden. Fra lagerområdet udføres lageraktiviteterne på forskellige kompleksitetsniveauer for at bringe varerne ud til afsendelsesområderne.  

@@ -1,8 +1,6 @@
 ---
 title: Sådan køres fuld planlægning, MPS og MRP | Microsoft Docs
 description: At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hovedproduktionsplanen (MPS) på basis af eksisterende og forventet efterspørgsel. Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning – materialebehovsplanlægning) efter anmodning, eller begge dele kan beregnes på én gang.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 226fb329b852075a26ad42e2f08a11f2f97ea733
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9a9ba92be649c8272822c3c332c6c4c330910df8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313128"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883186"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Køre fuld planlægning, MPS eller MRP
 At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hovedproduktionsplanen (MPS) på basis af eksisterende og forventet efterspørgsel. Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning – materialebehovsplanlægning) efter anmodning, eller begge dele kan beregnes på én gang.  
@@ -47,7 +45,7 @@ Hver planlagt metode, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] klad
 >  Funktionen Hent aktionsmeddelelser kan udføres mellem totalplanlægning og nettoplanlægning, fordi den giver et umiddelbart indtryk af, hvilke følgevirkninger en planændring vil få. Men det er ikke meningen, at denne fremgangsmåde skal bruges i stedet for fuld totalplanlægning eller nettoplanlægning.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Sådan beregnes planlægningskladden  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægningskladder**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan** for at åbne siden **Beregn Plan**.  
 3.  I oversigtspanelet **Indstillinger** skal du udfylde felterne som beskrevet i følgende tabel.  
 

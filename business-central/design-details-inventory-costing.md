@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 10/01/2019
+ms.date: 11/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc37aa410c9e9ba823894fad961b68897468b9ca
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 667adfcc9c470a9d4dbf26923fe5e6edfc7ed85a
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303432"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832187"
 ---
 # <a name="design-details-inventory-costing"></a>Designoplysninger: Lagerkostmetode
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,6 +38,6 @@ Lagerkostmetode, også kendt som "omkostningsstyring", vedrører registrering og
 [Designoplysninger: Bogføring af produktionsordre](design-details-production-order-posting.md)  
 [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)  
 [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md)  
-[Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)
+[Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)  
 [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md)  
 [Designoplysninger: Regulering](design-details-revaluation.md)

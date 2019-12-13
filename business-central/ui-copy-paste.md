@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315656"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882250"
 ---
 # <a name="copy-and-paste-faq"></a>Ofte stillede spørgsmål om kopiering og indsætning
 Du kan kopiere en eller flere rækker (poster) fra en liste eller et enkelt felt på en side og derefter indsætte det, du har kopieret på den samme side, en anden side eller et eksternt dokument (som Microsoft Excel og e-mails i Outlook). Kort sagt, når du vil kopiere, skal du trykke på CTRL + C (cmd + C i macOS) på tastaturet. Når du vil indsætte, skal du trykke på CTRL + V (cmd + V i macOS).
@@ -38,7 +38,7 @@ Du kan kopiere en enkelt række ved at markere den og derefter trykke på Ctrl +
 
 Hvis du vil kopiere flere rækker, kan du:
 - Tryk på Ctrl + klik på en anden række, eller tryk på Skift + klik for at markere rækken og alle rækker indimellem. Se [Tastaturgenveje](keyboard-shortcuts.md#CopyRows) for flere mus- og tastaturkombinationer til markering af rækker.
-- Vælg ![Vis flere indstillinger](media/show-more-options-icon.png "Ikonet Vis flere indstillinger") i den første kolonne for at vælge **Vælg flere**, marker afkrydsningsfeltet ud for hver række, du vil kopiere, og tryk på Ctrl + C.
+- Vælg ![Vis flere indstillinger](media/show-more-options-icon.png "Vis ikonet flere indstillinger") i den første kolonne for at vælge **Vælg flere**, marker afkrydsningsfeltet ud for hver række, du vil kopiere, og tryk på Ctrl + C.
 
 ## <a name="how-do-i-paste-rows"></a>Hvordan indsætter jeg rækker?
 Marker en tom række, med fokus i en celle, og tryk derefter på Ctrl + V.
@@ -56,7 +56,7 @@ Ja. Dette indsættes som en flot formateret tabel, som bevarer indrykning, numer
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>I hvilke lister kan jeg kopiere og indsætte rækker?
 Du kan kopiere rækker i enhver liste, herunder regneark, faktabokse eller lister, der er integrerede på en side (som linjer i en salgsordre). Men hvis du vil indsætte rækker, skal listen kunne redigeres.
 
-På nogle sider kan programdesignet forhindre, at du kan indsætte rækker. Kontakt systemadministratoren eller programudvikleren for at ændre [egenskaben Redigerbar](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) på siden eller [egenskaben PasteIsValid](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) i kildetabellen.
+På nogle sider kan programdesignet forhindre, at du kan indsætte rækker. Kontakt systemadministratoren eller programudvikleren for at ændre [egenskaben Redigerbar](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) på siden eller [egenskaben PasteIsValid](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) i kildetabellen.
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>I hvilke klienter findes kopiere og indsætte?
 Kopier og indsæt findes i browseren eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-appen til Windows 10.

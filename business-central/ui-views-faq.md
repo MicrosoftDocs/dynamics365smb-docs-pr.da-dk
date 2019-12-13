@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316829"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881986"
 ---
 # <a name="list-views-faq"></a>Ofte stillede spørgsmål om listevisninger
 I dette emne besvares spørgsmål, som vores erfarne brugere ofte stiller om, hvordan de kan arbejde med listevisninger og gemme filtre.  
@@ -58,7 +58,7 @@ Nogle systemvisninger kan have entydige layout af kolonnerne på listen. De kan 
 ### <a name="what-does-the-show-system-filters-link-do"></a>Hvad gør linket Vis systemfiltre?
 På nogle listesider viser filterruden **Vis systemfiltre** nederst i filterruden, når siden indeholder filtre, der er angivet af systemet. Disse specialfiltre bruges typisk til at vise poster, der er baseret på den aktuelle kontekst, f.eks. når en liste over ordrer skal filtreres for en bestemt kunde.
 
-Systemfiltre indstilles af udviklere ved hjælp af filtergruppe 0. Tekniske oplysninger om systemfiltre finder du i [Filtergruppefunktion](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+Systemfiltre indstilles af udviklere ved hjælp af filtergruppe 0. Tekniske oplysninger om systemfiltre finder du i [Filtergruppetyper](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>Der er flere visninger på min side, men jeg har ikke oprettet dem. Hvor kommer de fra?
 De visninger, du kan se på en liste, er en kombination af dine personlige visninger og systemvisninger. Systemvisninger kan stamme fra forretningsprogrammet, fra udvidelser eller kan være rollespecifikke, hvis listen er tilpasset til din rolle.

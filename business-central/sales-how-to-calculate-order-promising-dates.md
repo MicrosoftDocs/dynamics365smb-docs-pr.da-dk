@@ -1,8 +1,6 @@
 ---
 title: Sådan beregnes ordrebekræftelsesdatoer | Microsoft Docs
 description: Beregning af leveringstid er et værktøj, du kan bruge til at beregne den tidligst mulige dato, en vare er disponibel til afsendelse eller levering. Funktionen opretter også indkøbskladdelinjer for de datoer, du godkender.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 575d83652dde83c9b12358788a96d00c70ffcda3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0bd5943f9c917f02fd319c07e51c95afb2de0a75
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316328"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882970"
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekræftelsesdatoer
 En virksomhed skal være i stand til at informere deres kunder om leveringsdatoer for ordren. Med siden **Beregning af lev.tid - linjer** kan du gøre dette fra en salgsordrelinje.  
@@ -78,7 +76,7 @@ Ordrebehandler afslutter LE-processen ved at acceptere datoerne. Det betyder, at
 Foruden den eksterne beregning af leveringstid, som du kan udføre på siden **Beregning af lev.tid - linjer**, kan du også love interne eller eksterne leveringsdatoer for stykliste-elementer. Du kan finde flere oplysninger i [Vise tilgængeligheden af varer](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Sådan defineres beregning af leveringstid  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætn. af beregn. af lev.tid**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætn. af beregn. af levetid**, og vælg derefter det relaterede link.  
 2. Angiv et nummer og en tidsenhedskode i feltet **Responstid**. Marker én af følgende koder.  
 
     |Kode|Beskrivelse|  
@@ -96,14 +94,14 @@ Foruden den eksterne beregning af leveringstid, som du kan udføre på siden **B
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Sådan indtastes indgående lagerekspeditionstid på siden Lageropsætning  
 Hvis du vil inkludere lagerekspeditionstiden i beregningen af leveringstiden på købslinjen, kan du angive det som standardindstilling for lageret og for din lokation.    
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Lager**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropsætning**, og vælg derefter det relaterede link.  
 2. På oversigtspanelet **Generelt**, i feltet **Indgående lagerekspeditionstid**, og angiv det antal dage, du vil inkludere i beregningen af leveringstiden.  
 
 > [!NOTE]  
 >  Hvis du har udfyldt feltet **Indgående lagerekspeditionstid** på **Lokationskort** for din lokation, bruges dette felt som standardekspeditionstid for indgående lageraktiviteter.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Sådan angives indgående lagerekspeditionstid på lokationskort  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokation**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokation**, og vælg dernæst det relaterede link.  
 2.  Åbn det relevante lokationskort.  
 3.  Gå til oversigtspanelet **Lagersted**, feltet **Indgående lagerekspeditionstid**, og angiv det antal dage, du vil inkludere i beregningen af leveringstiden.  
 
@@ -113,14 +111,14 @@ Hvis du vil inkludere lagerekspeditionstiden i beregningen af leveringstiden på
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Sådan indtastes udgående lagerekspeditionstid på siden Lageropsætning  
 Hvis du vil have, at beregningen af leveringstiden på salgslinjen skal indeholde en udgående lagerekspeditionstid, kan du angive dette som en standardindstilling for lageret.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Lager**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropsætning**, og vælg derefter det relaterede link.  
 2. Gå til oversigtspanelet **Generel**, feltet **Udgående lagerekspeditionstid**, og angiv det antal dage, du vil inkludere i beregningen af leveringstiden.  
 
 > [!NOTE]  
 >  Hvis du har udfyldt feltet **Udgående lagerekspeditionstid** på Lokationskortet for din lokation, indsættes automatisk indholdet af dette felt som standardekspeditionstid for udgående lageraktiviteter.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Sådan angives udgående Lagerekspeditionstid på lokationskort  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
 2.  Åbn det relevante lokationskort.  
 3.  Gå til oversigtspanelet **Lagersted**, feltet **Udgående lagerekspeditionstid**, og angiv det antal dage, du vil inkludere i beregningen af leveringstiden.  
 

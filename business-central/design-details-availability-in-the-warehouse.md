@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Tilgængelighed i lageret | Microsoft Docs
 description: Systemet skal holde en konstant kontrol over varedisponering på lageret, så udgående ordrer kan flyde effektivt og levere optimale leverancer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 67e30773683fbf8497a1668e1c4ca3d176e0781e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3cf793197ad607071df22aacb2fb98f96ac54597
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303792"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880612"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designoplysninger: Tilgængelighed i lageret
 Systemet skal holde en konstant kontrol over varedisponering på lageret, så udgående ordrer kan flyde effektivt og levere optimale leverancer.  
@@ -74,7 +72,7 @@ Hvis en eller flere af betingelserne ikke er opfyldt, kan der vises forskellige 
 
  Følgende diagram viser de forskellige elementer i beregningen.  
 
- ![Disponibel til reservation pr. lagerstedsallokering](media/design_details_warehouse_management_availability_3.png "Disponibel til reservation pr. lagerstedsallokering")  
+ ![Disponibel for reservation pr. lagertildeling](media/design_details_warehouse_management_availability_3.png "Disponibel for reservation pr. lagertildeling")  
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Logistik](design-details-warehouse-management.md)  

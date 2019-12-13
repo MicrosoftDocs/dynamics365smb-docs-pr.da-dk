@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Varesporing i lageret | Microsoft Docs
 description: Serienummer og lotnummer håndteres primært som lageropgave, så alle indgående og udgående lagerdokumenter har derfor standardfunktioner til at tildele og markere varesporingsnumre. Da reservationssystemet er baseret på vareposter, understøttes lageraktivitetsdokumenter, der kun registrerer lagerposter, dog ikke fuldt ud.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 29572552f376aaa292b8584ba7f8373fe8a65c45
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b7fdb0d6495f1512e1ab3bf80eb76a5dad9d87e5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303298"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880180"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Designoplysninger: Varesporing i lageret
 Serienummer og lotnummer håndteres primært som lageropgave, så alle indgående og udgående lagerdokumenter har derfor standardfunktioner til at tildele og markere varesporingsnumre.  

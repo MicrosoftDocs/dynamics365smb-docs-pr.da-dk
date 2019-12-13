@@ -1,8 +1,6 @@
 ---
 title: Sådan oprettes kladden Primosaldi | Microsoft Docs
 description: Business Central indeholder flere batchjob, der kan hjælpe dig med at overføre ældre kontosaldi til en nylig konfigureret virksomhed. Du kan nemt overføre disse data med posteringer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 837845bfa31217e071d7237591d34eb3a049bad0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebf6d29a388ed3c66159a8c8a8e8fd65abe709ed
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304536"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878837"
 ---
 # <a name="create-journal-opening-balances"></a>Oprette kladden Primosaldi
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder flere batchjob, der kan hjælpe dig med at overføre ældre kontosaldi til en nylig konfigureret virksomhed. Du kan nemt overføre disse data til debitorkladden, kreditorkladden, varekladden og finanskladden.

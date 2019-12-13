@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: edupont
-ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311472"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832355"
 ---
 # <a name="setting-up-included365finincludesd365fin_mdmd"></a>Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til virksomhedens behov.
@@ -46,8 +46,8 @@ Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan k
 |Overfør oplysninger om debitorer, kreditorer, lagerbeholdning og bankkonti fra et andet system til [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).|
 |Brug Business Central Outlook-tilføjelsesprogrammer til at se finansielle data, der er relateret til debitorer og kreditorer, eller opret og send finansielle dokumenter, f.eks tilbud og fakturaer.|[Bruge Business Central som din virksomheds indbakke i Outlook](admin-outlook.md)|
 |Få indsigt i dine Business Central-data med Power BI og Business Central-indholdspakker.|[Aktivere virksomhedens data til Power BI](admin-powerbi.md)|
-|Brug dine Business Central-data som en del af en arbejdsproces i Microsoft Flow.|[Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)|
-|Gør dine Business Central-data tilgængelige som en datakilde i PowerApps.|[Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Brug dine Business Central-data som en del af en arbejdsproces i Power Automate.|[Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)|
+|Gør dine Business Central-data tilgængelige som en datakilde i Power Apps.|[Opret forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Du kan bruge dedikerede Quickbooks-overførselsvejledninger.|[Skifte fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)|
 |Få adgang til dine Business Central-data fra mobilenheden.|[Få Business Central på din mobilenhed](install-mobile-app.md)|
 |Foretag massefakturering af aftaler, der er oprettet i Bookings.|[Massefakturering for Microsoft Bookings](finance-bookings.md)|

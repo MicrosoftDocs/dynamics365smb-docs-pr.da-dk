@@ -1,8 +1,6 @@
 ---
 title: Opsætning af fakturaafrunding | Microsoft Docs
 description: Du kan afrunde fakturabeløb, når du opretter fakturaer. Derudover kan lokale regler eller skikke kræve, at du afrunder på en bestemt måde, f.eks. til et beløb, der er deleligt med 0,05.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 399216085913c576007bd5996cef4f3192362c4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bb114e6ea550ca5cc453c8319e72da5b11cec6e8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305640"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882466"
 ---
 # <a name="set-up-invoice-rounding"></a>Opsætning af fakturaafrunding
 Hvis du vil afrunde fakturabeløb, når du opretter fakturaer, kan du bruge funktionen til automatisk afrunding. Når en faktura afrundes, tilføjes en ekstra linje med afrundingsbeløbet og bogføres sammen med de andre fakturalinjer.
@@ -59,7 +57,7 @@ Før du kan bruge den automatiske fakturaafrundingsfunktion, skal du oprette afr
 ## <a name="activate-the-invoice-rounding-function"></a>Aktivere fakturaafrundingsfunktionen  
 For at sikre, at salgs- og købsfakturaer afrundes automatisk, skal du aktivere fakturaafrundingsfunktionen. Du aktiverer fakturaafrunding separat for salgs- og købsfakturaer.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Salg** eller **Opsætning af Køb**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsopsætning** eller **Købsopsætning**, og vælg derefter det relaterede link.  
 2. På oversigtspanelet **Generelt** skal du vælge afkrydsningsfeltet **Fakturaafrunding**.  
 
 ## <a name="see-also"></a>Se også  

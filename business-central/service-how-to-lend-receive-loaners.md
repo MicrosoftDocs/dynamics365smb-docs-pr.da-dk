@@ -1,8 +1,6 @@
 ---
 title: Sådan udlånes serviceartikler som erstatninger | Microsoft Docs
 description: Du kan udlåne lånevarer til kunderne for midlertidigt at erstatte de serviceartikler, du har modtaget til reparation.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab7950ca4b7d9239c6ab011fcff8a34392f8b800
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4b8ba590f2ee02fd0b9381381f5590641e46ac51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311664"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882370"
 ---
 # <a name="lend-and-receive-loaners"></a>Udlåne og modtage udlånsvarer
 Du kan låne varer til kunderne for midlertidigt at erstatte de serviceartikler, du har modtaget til reparation.  
@@ -40,7 +38,7 @@ Når du modtager en udlånt vare fra en kunde, skal du registrere modtagelsen. D
 ## <a name="to-register-loaner-comments"></a>Sådan registreres bemærkninger til udlånte varer  
 Du kan bruge siden **Generelt Servicebemærkninger** til at registrere bemærkninger til registrerede udlånte varer.  
   
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lånere**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udlånsvarer**, og vælg derefter det relaterede link.  
 2. Åbn det relevante udlånsvarekort.  
 3. Vælg handlingen **Bemærkninger**. Siden **Generelt Servicebemærkninger** åbnes.  
 4. Angiv en dato i feltet **Dato**.  

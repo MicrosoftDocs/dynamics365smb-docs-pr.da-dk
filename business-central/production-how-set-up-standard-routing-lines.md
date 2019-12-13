@@ -1,8 +1,6 @@
 ---
 title: 'Fremgangsmåde: Oprette standardopgaver for operationer | Microsoft Docs'
 description: Du kan angive beskrivelser af standardopgaver.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 203b42ed7b9e4650cdf837825603ff4f4a5edf5e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a967136064b59cb0ff8ef7bdd9a3e8b684e54a8f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314212"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878019"
 ---
 # <a name="set-up-standard-routing-lines"></a>Konfigurere standardrutelinjer
 Brugen af standardoperationer forenkler oprettelse og vedligeholdelse af ruter. De giver dig mulighed for hurtigt at tilknytte ekstra oplysninger til gentagne operationer.

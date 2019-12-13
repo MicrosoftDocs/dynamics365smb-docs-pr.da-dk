@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Overførsler i planlægning | Microsoft Docs
 description: Dette emne beskriver, hvordan overflytningsordrer bruges som en forsyningskilde ved planlægning af lagerniveauer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 72a9455810b017510947b78e40c88116e9935d20
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 697630e03e3bbb59518ea3405524ad6de3765d7a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306720"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879988"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designoplysninger: Overførsler i planlægning
 Overflytningsordrer er også en forsyningskilde, når du arbejder på lagervareniveauet. Ved at bruge flere lokationer (lagre) kan lagervaregenbestillingssystemet indstilles til Overførsel, hvilket indebærer, at lokationen genopfyldes ved at overføre varer fra en anden lokation. I en situation med flere lagersteder kan virksomheder have en kæde af overførsler, hvor forsyningen til lokationen GRØN overføres fra GUL, og levering til GUL overføres fra RØD og så videre. I begyndelsen af kæden er der et genbestillingssystem for produktionsordre eller indkøb.  
@@ -33,7 +31,7 @@ En overflytningsordre ligner en hvilken som helst anden ordre i programmet. I vi
 
 Et grundlæggende aspekt, der gør overførsler i planlægning forskellig fra købs-og produktionsordrer, er, at en flytteordrelinje repræsenterer behov og forsyning på samme tid. Den udgående del, som leveres fra den gamle lokation, er behov. Den indgående del, der skal modtages på den nye lokation, er forsyning på den pågældende lokation.  
 
-![Indhold på siden Overflytningsordre](media/nav_app_supply_planning_7_transfers3.png "Indhold på siden Overflytningsordre")  
+![Indhold af siden Overflytningsordre](media/nav_app_supply_planning_7_transfers3.png "Indhold af siden Overflytningsordre")  
 
 Det betyder, at når systemet manipulerer på forsyningssiden af overflytningen, så skal der ske en lignende ændring på behovssiden.  
 
@@ -49,7 +47,7 @@ I planlægningsproceduren bør behovet for overførslen kun tages i betragtning,
 ## <a name="planning-sequence"></a>Planlægningssekvens  
 Følgende illustration viser, hvordan en række overførsler kunne se ud.  
 
-![Eksempel på et enkelt overflytningsflow](media/nav_app_supply_planning_7_transfers4.png "Eksempel på et enkelt overflytningsflow")  
+![Eksempel på enkle overflytningsflow](media/nav_app_supply_planning_7_transfers4.png "Eksempel på enkle overflytningsflow")  
 
 I dette eksempel bestiller en kunde varen på lokationen Grøn. Lokationen Grøn leveres via overførsel fra centrallageret Rød. Centrallageret Rød forsynes via overflytning fra produktion på lokationen Blå.  
 
@@ -90,19 +88,19 @@ Hvis f.eks. en overflytningsordrelinje af 117 stykker reserveres mod en salgslin
 ## <a name="changing-quantity-in-a-transfer-chain"></a>Ændring af antal i en overførselskæde  
 I følgende eksempel er udgangspunktet en afbalanceret situation med en overførselskæde, der leverer en salgsordre på 27 på lokation Rød med en tilsvarende indkøbsordre på lokation Blå, overført via lokation Pink. Der er derfor, udover køb og salg, to overflytningsordrer: BLÅ-PINK og PINK-RØD.  
 
-![Ændring af antallet i overflytningsplanlægning 1](media/nav_app_supply_planning_7_transfers9.png "Ændring af antallet i overflytningsplanlægning 1")  
+![Ændre antallet i overflytningsplanlægning 1](media/nav_app_supply_planning_7_transfers9.png "Ændre antallet i overflytningsplanlægning 1")  
 
 Nu vælger planlæggeren Pink lokation til at reservere købet.  
 
-![Ændring af antallet i overflytningsplanlægning 2](media/nav_app_supply_planning_7_transfers10.png "Ændring af antallet i overflytningsplanlægning 2")  
+![Ændre antallet i overflytningsplanlægning 2](media/nav_app_supply_planning_7_transfers10.png "Ændre antallet i overflytningsplanlægning 2")  
 
 Det betyder normalt, at planlægningssystemet ignorerer købsordren og overførselsbehovet. Så længe de stemmer, er der ikke noget problem. Men hvad sker der, når kunden på lokationen RØD delvist fortryder sin bestilling og ændrer den til 22?  
 
-![Ændring af antallet i overflytningsplanlægning 3](media/nav_app_supply_planning_7_transfers11.png "Ændring af antallet i overflytningsplanlægning 3")  
+![Ændre antallet i overflytningsplanlægning 3](media/nav_app_supply_planning_7_transfers11.png "Ændre antallet i overflytningsplanlægning 3")  
 
 Når planlægningssystemet kører igen, skal det slippe af med overskydende forsyning. Reservationen vil dog låse købet og overførslen til et antal af 27.  
 
-![Ændring af antallet i overflytningsplanlægning 4](media/nav_app_supply_planning_7_transfers12.png "Ændring af antallet i overflytningsplanlægning 4")  
+![Ændre antallet i overflytningsplanlægning 4](media/nav_app_supply_planning_7_transfers12.png "Ændre antallet i overflytningsplanlægning 4")  
 
 PINK-RØD overflytning er blevet reduceret til 22. Den indgående del af BLÅ-PINK overflytning er ikke reserveret, men da den udgående del er reserveret, er det ikke muligt at reducere antallet under 27.  
 

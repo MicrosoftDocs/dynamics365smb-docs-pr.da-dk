@@ -9,23 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: solsen
-ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4f711e2bf06d0072fb063fd3d8ab5cb1e0813b68
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775591"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809101"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
 Tillykke, du lige har startet din første virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-For at blive klar til at handle kan gå til siden **Virksomhedshjælp**, hvor du kan starte assisterede opsætningsvejledninger, videoer eller emner i Hjælp for valgte opsætningsopgaver. Du åbner siden fra diagrammet i **Virksomhedsleder**-rollecenteret ved at vælge rullepilen **Virksomhedshjælp** og derefter vælge handlingen **Vis konfigurations- og hjælperessourcer**. Når du opdaterer siden, erstattes diagrammet med opsætningen og hjælperessourcer.
+For at blive klar til at handle kan du besøge siden **Assisteret opsætning**, hvor du kan starte assisterede opsætningsguides, videoer eller hjælpeemner for valgte opsætningsopgaver. Du kan få adgang til siden fra rollecenteret for Business Manager ved at vælge handlingen **Opsætning og udvidelser** og derefter handlingen **Assisteret opsætning**.
 
-Du kan også få vist listen over assisterede opsætningsvejledninger ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Assisteret opsætning** og derefter vælge det relaterede link.
+Du kan også få vist listen over assisterede opsætningsguides for alle roller ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Assisteret opsætning** og derefter vælge det relaterede link.
 
-I rollecenteret i navigationslinjen øverst kan du finde menuen **Installation og udvidelser**. Her kan du få adgang til en oversigt over assisterede opsætningsvejledninger, der kan hjælpe dig i gang. Når du har overført data såsom kreditorer, debitorer og varer fra dit eksisterende økonomisystem, er du klar til at begynde. Men afhængigt af dine behov skal du overveje, om den assisterede opsætning kan hjælpe dig.
+Når du har overført data såsom kreditorer, debitorer og varer fra dit eksisterende økonomisystem, er du klar til at begynde. Men afhængigt af dine behov skal du overveje, om andre assisterede opsætningsguides på listen kan hjælpe dig.
 
 Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningssider, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
@@ -49,7 +49,9 @@ Brug pilene til at skjule en del af siden og få mere plads til at se specifikke
 Under **Virksomhedsindstillinger** kan du se og redigere opsætningsoplysninger om den aktuelle virksomhed, meget af det er udfyldt på forhånd, hvis du fuldførte den assisterede opsætning **Konfigurer virksomhed**, da du oprettede [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ændre virksomhedens logo, kontaktoplysninger, bankindstillinger eller momsoplysninger, kan du gøre det på denne side.    
 
 ## <a name="adding-users-and-permissions"></a>Tilføje brugere og rettigheder
-Hvis du vil tilføje flere brugere, kan dette gøres fra Office 365 Administration. Du kan finde flere oplysninger under [Føje brugere til Office 365 til virksomheder](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Når brugerne er oprettet i Office 365, kan de importeres på siden **Brugere** ved hjælp af handlingen **Hent brugere fra Office 365**. Du kan derefter fortsætte med at give tilladelser til brugere og organisere dem i brugergrupper. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
+Hvis du vil tilføje flere brugere, kan dette gøres fra Microsoft Office 365 Administration. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
+
+Når brugere er oprettet i Microsoft 365, kan de importeres på siden **Brugere** ved hjælp af handlingen **Hent nye brugere fra Office 365**. Du kan derefter fortsætte med at give tilladelser til brugere og organisere dem i brugergrupper. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Sådan får du hjælp
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du finde værktøjstip, der kan hjælpe med at føre dig gennem de forskellige forretningsprocesser. For hvert feltværktøjstip kan du trykke på Ctrl+F1 eller vælge linket **Få mere at vide** for at åbne hjælpen til den pågældende side. Spørgsmålstegnet i øverste højre hjørne henviser også til produkthjælp.
@@ -60,6 +62,7 @@ Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs-
 ## <a name="see-also"></a>Se også
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md)
+[Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prøveversioner og abonnementer](across-preview.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

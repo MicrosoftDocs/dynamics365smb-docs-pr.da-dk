@@ -1,8 +1,6 @@
 ---
 title: Sådan ændres planlægningsforslag i en grafisk visning | Microsoft Docs
 description: En typisk planlægningsaktivitet er at ændre eller tilføje planlægningskladdelinjer for at ændre de foreslåede forsyningsordrer, før du registrerer dem ved at køre funktionen **Udfør aktionsmeddelelse**. Et alternativ til at gøre dette i planlægningskladden er at bruge en grafisk visning.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313368"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877923"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ændre planlægningsforslag i en grafisk visning
 En typisk planlægningsaktivitet er at ændre eller tilføje planlægningskladdelinjer for at ændre de foreslåede forsyningsordrer, før du registrerer dem ved at køre funktionen **Udfør aktionsmeddelelse**. Et alternativ til at gøre dette i planlægningskladden er at bruge en grafisk visning.

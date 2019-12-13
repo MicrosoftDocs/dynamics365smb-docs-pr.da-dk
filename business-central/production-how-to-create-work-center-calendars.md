@@ -1,8 +1,6 @@
 ---
 title: Sådan opsættes produktionskalendere | Microsoft Docs
 description: En arbejdscenterkalender angiver de arbejdsdage og -timer, arbejdsskift, fridage og fravær, der bestemmer arbejdscentrets tilgængelige bruttokapacitet i henhold til centrets definerede værdier for effektivitet og kapacitet. Du skal udføre nogle forberedende opgaver, før du kan oprette og aktivere en arbejdscenterkalender.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1663f9092c21e1955f3e2531efc9935ba1c68982
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cc40361150d8368c46f9045451c0d542eff13779
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314068"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877947"
 ---
 # <a name="set-up-shop-calendars"></a>Konfigurere produktionskalendere
 En arbejdscenter- eller produktionsressourcekalender angiver de arbejdsdage og -timer, arbejdsskift, fridage og det fravær, der bestemmer arbejdscentrets tilgængelige bruttokapacitet, målt i tid, i henhold til centrets definerede værdier for effektivitet og kapacitet.

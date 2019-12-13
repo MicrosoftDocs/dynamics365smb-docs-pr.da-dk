@@ -1,8 +1,6 @@
 ---
 title: Overføre debitordata | Microsoft Docs
 description: Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til Business Central ved hjælp af RapidStart Services. Du kan bruge Excel .xlsx-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304404"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896177"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
+
+> [!NOTE]
+> Felter af typen Blob kan ikke eksporteres/importeres ved hjælp af Excel.
 
 Siderne **Overflytningsoversigt** og **Konfig.kladde** giver adgang til funktioner og visninger til at udføre alle de opgaver, der er relateret med dataoverflytning. Vi anbefaler, at du overflytter én tabel ad gangen for at håndtere afhængigheder i dine data. Ved overflytning berører du også masterdatatabeller, der indeholder oplysninger om debitorer, kreditorer, varer, kontaktpersoner og regnskab.  
 
@@ -39,7 +40,7 @@ Før du begynder, skal du sørge for, at du er på rollecenteret RapidStart Serv
 >   
 > Tabeller, der har forskellige primære nøgler, og felter, der har forskellige datatyper, vil heller ikke blive importeret korrekt. Hvis konfigurationspakken indeholder tabellen **50000 Customer**, hvor primærnøgle **Code20**, og databasen, som du importerer pakken til, indeholder tabellen **50000 debitorbankkonto**, der har primærnøglen **Code20 + kode 20**, importeres data ikke.  
 
-1. Åbn det nye regnskab.  
+1. Åbn den nye virksomhed.  
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Indlæs pakke**. Gå til den .rapidstart-pakkefil, du vil indlæse, og vælg derefter handlingen **Åbn**. Under indlæsning dekomprimeres pakkeindholdet, og pakkeposten oprettes.  
 

@@ -1,8 +1,6 @@
 ---
 title: Sådan føjer du felter til et Word-rapportlayout | Microsoft Docs
 description: Beskriver, hvor du tilføjer felter fra et rapportdatasæt til et eksisterende Word-rapportlayout for en rapport.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0c16dbebe7f2bbfa5efebb246149d395d051b353
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315320"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877011"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Føje felter til et Word-rapportlayout
 Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder. I dette emne beskrives fremgangsmåden for tilføjelse af felter fra et rapportedatasæt i et eksisterende Word-rapportlayout for en rapport. Du kan tilføje felter ved hjælp af den Word-tilpassede XML-del for rapporten og tilføje indholdskontrolelementer, der er knyttet til felterne i rapportens datasæt. Tilføjelse af felter kræver, at du har kendskab til rapportens datasæt, så du kan identificere de felter, du vil føje til layoutet.  
@@ -25,7 +23,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
 > [!NOTE]  
 >  Du kan ikke ændre indbyggede rapportlayout<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-##  <a name="OpenXMLPart"></a>Sådan åbner du den brugerdefinerede XML-del for rapporten i Word  
+##  <a name="OpenXMLPart"></a> Sådan åbner du den brugerdefinerede XML-del for rapporten i Word  
   
 1.  Hvis det ikke allerede åbnet, skal du åbne Word-rapportlayoutdokumentet i Word.  
   
@@ -39,7 +37,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
   
 4.  I ruden **XML-tilknytning** på rullelisten **Brugerdefineret XML-del** skal du vælge den brugerdefinerede XML-del for at tilføje ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> rapport, som typisk findes sidst på listen. Navnet på den brugerdefinerede XML-del har følgende format:  
   
-     urn:microsoft-dynamics-nav/reports/*rapportnavn*/*ID*  
+     urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
      *rapportnavn* er det navn, der er knyttet til rapporten<!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]-->.  
   
@@ -101,7 +99,7 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Overskrift|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|Specifikation af XML-navneområde. `<reportname>` er det navn, der er knyttet til rapporten. `<id>` er det id, der er knyttet til rapporten.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Indeholder alle navne til rapporten.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Etiketelementer, der er relateret til kolonner, har formatet `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />-  Etiketelementer har formatet `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Navne vises i alfabetisk rækkefølge.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Indeholder alle navne til rapporten.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Etiketelementer, der er relateret til kolonner, har formatet `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Etiketelementer har formatet `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Navne vises i alfabetisk rækkefølge.|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Øverste dataelement og kolonner. Kolonnerne vises i alfabetisk rækkefølge.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Dataelementer og kolonner, der er indlejret i dataelementet på øverste niveau. Kolonnerne vises i alfabetisk rækkefølge under det respektive dataelement.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Lukker element.|  
@@ -113,7 +111,7 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
   
  Følgende figur illustrerer den simple brugerdefinerede XML-del fra det foregående afsnit i ruden **XML-tilknytning** i et Word-dokument.  
   
- ![Klip af ruden XML-tilknytning i Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Klip af XML-tilknytningsruden i Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Hvis du vil føje et navn eller felt til layoutet, skal du indsætte et indholdskontrolelement, der er knyttet til elementet i ruden **XML-tilknytning**.  
   

@@ -1,8 +1,6 @@
 ---
 title: Administrere datakryptering | Microsoft Docs
 description: Du kan kryptere data på Business Central Server ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på serveren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3199e044a85377284c97cdebf18907bdf429f649
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4ff0778bce5d995261892c4f98235661a795baa0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304449"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879174"
 ---
 # <a name="managing-data-encryption"></a>Administration af datakryptering
 Du kan kryptere data på [!INCLUDE[d365fin](includes/d365fin_md.md)]-serveren ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på den [!INCLUDE[d365fin](includes/d365fin_md.md)]-serverforekomst, som opretter forbindelse til databasen.

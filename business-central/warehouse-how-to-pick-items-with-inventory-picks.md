@@ -1,8 +1,6 @@
 ---
 title: Sådan plukkes varer med Pluk fra lager | Microsoft Docs
 description: Når en lokation, du vil plukke fra, er sat op til at kræve pluk men ikke leverance, bruges plukdokumenterne til at registrere og bogføre pluk- og leveranceoplysninger for kildedokumenterne.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 66b4d9c3f9f84e9342cffd9446a4b3992ff62a57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f6f157de1d3d65eddf7e2db9c40f27ec56443de
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310272"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876627"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plukke varer med Pluk fra lager
 Når en lokation er sat op til at kræve pluk, men ikke leverance, skal du bruge siden **Pluk (lager)** til at registrere og bogføre pluk- og leveranceoplysninger for kildedokumenterne. De udgående kildedokumenter kan være en salgsordre, en købsreturvareordre, en udgående overflytning eller en produktionsordre, hvor komponenterne er klar til at blive plukket.
@@ -36,7 +34,7 @@ Du kan oprette et pluk på tre måder:
 ## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Sådan anmoder du om et lagerpluk ved at frigive kildedokumentet  
 I forbindelse med salgsordrer, købsreturvareordrer og udgående overflytningsordrer opretter du lageranmodningen ved at frigive ordren. Nedenfor kan du se, hvordan du gør det fra en salgsordre.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
 2. Vælg den salgsordre, du vil frigive, og vælg derefter handlingen **Frigiv**.
 
 I forbindelse med produktionsordrer opretter du automatisk lageranmodningen til pluk af komponenter, kaldet *træk* når status på produktionsordren ændres til **Frigivet**, eller når den frigivne produktionsordre oprettes. Du kan finde flere oplysninger i [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md).
@@ -45,7 +43,7 @@ Når lageranmodningen er oprettet, kan en lagermedarbejder, der er tildelt til p
 
 ## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Sådan oprettes et pluk på basis af kildedokumentet
 Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette et ny lagerpluk baseret på det frigivne kildedokument.
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk (lager)**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerpluk**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3. I feltet **Kildedokumentet** skal du vælge den kildedokumenttype, du plukker fra.  
 4. Vælg kildedokumentet i feltet **Kildenr.**.  
@@ -69,7 +67,7 @@ Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette et ny lagerpluk
 >  I grundlæggende lageropsætninger plukkes varer, der er monteret til salgsordrer, fra den tilknyttede salgsordre som beskrevet i dette emne. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)" i Pluk (lager).  
 
 ## <a name="to-record-the-inventory-picks"></a>Sådan registreres lagerpluk  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk (lager)**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerpluk**, og vælg derefter det relaterede link.  
 2. I feltet **Placeringskode** på pluklinjerne, foreslås den placering, som varerne skal plukkes fra, pr. varens standardplacering. Du kan eventuelt ændre placeringen på denne side.  
 3. Udfør plukaktiviteten, og angiv oplysningerne for den faktiske mængde, der er lagt på lager, i feltet **Håndteringsantal**.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 79e09037208233b378a4b464acce996537375e6c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554274"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879960"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
 Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner og udstyr, over anlæggets afskrivningslevetid. For hvert anlæg skal du definere, hvordan det skal afskrives.  
@@ -40,25 +40,35 @@ Du kan når som helst, f.eks. en gang om måneden, udføre kørslen **Beregn afs
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Vælg knappen **OK**.  
 
-    Kørslen beregner afskrivningen og opretter linjer i anlægskassekladden.  
+    Kørslen beregner afskrivningen og opretter linjer i anlægskassekladden.
+
 4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 
     I feltet **Antal afskrivningsdage** på siden **Anlægskassekladde** kan du se, hvor mange afskrivningsdage, der er blevet beregnet.  
 5. Vælg handlingen **Bogfør**.  
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Sådan bogføres afskrivning manuelt fra anlægskassekladden
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskasseklade**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.  
 3. I feltet **Anlægsbogføringstype** skal du vælge **Afskrivning**.  
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af afskrivning. Du kan finde flere oplysninger i [Sådan oprettes anlægsbogføringsgrupper](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Vælg handlingen **Bogfør** for at bogføre kladden.  
 
+Feltet **Bogfør værdi** på siden **Anlægskort** opdateres tilsvarende.
+
 Hvis du har defineret anlægsallokeringsnøgler for at kunne allokere beløb til forskellige afdelinger eller projekter, allokeres beløbene under bogføringen. Du kan finde flere oplysninger i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
+
+## <a name="to-manage-the-ending-book-value"></a>Sådan administreres den slutbogførte værdi
+I feltet **Slutbogført værdi** på siden **Anlægsafskrivningsprofiler** kan du angive den bogførte værdi, som anlægsaktivet skal have på den aktuelle afskrivningsprofil, når det er blevet afskrevet fuldt ud. Du kan gøre dette manuelt, eller du kan udfylde feltet **Standard slutbogført værdi** på den relaterede side **Afskrivningsprofil**, som derefter bruges til automatisk at udfylde feltet.
+
+> [!NOTE]
+> Hvis den sidste afskrivning betyder, at feltet **Bogført værdi** på siden **Anlægskort** bliver nul, reduceres den sidste afskrivning automatisk med denne værdi.<br /><br />
+> Hvis værdien i feltet **Bogført værdi** er større end nul efter den seneste afskrivning, eksempelvis på grund af et afrundingsproblem eller fordi der findes en skrapværdi, ignoreres værdien i feltet **Slutbogført værdi** på siden **Anlægsafskrivningsprofiler**. Du kan finde flere oplysninger under [Sådan bogføres skrapværdien sammen med anskaffelsesprisen](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Sådan beregnes allokeringer i anlægskassekladden
 Hvis et anlæg bruges af flere afdelinger, kan periodisk afskrivning allokeres automatisk på disse afdelinger ud fra en brugerdefineret allokeringstabel.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskasseklade**, og vælg derefter det relaterede link.  
 2. Opret en første linje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Allokering**.  
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af allokering.  
@@ -74,7 +84,7 @@ Når du udfylder kladdelinjer, der skal bogføres til en afskrivningsprofil, kan
 >   Hvis du har markeret afkrydsningsfeltet **Brug kopiliste**, skal du ikke bruge nummerserier i kladden. Det skyldes, at nummerserien til anlægskassekladden ikke bruger nummerserien til anlægskladden.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Sådan bogføres poster til forskellige afskrivningsprofiler
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskassekladde**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskasseklade**, og vælg derefter det relaterede link.  
 2. I den kladde, som du vil bogføre afskrivning med, skal du markere afkrydsningsfeltet **Brug kopiliste**.  
 3. Udfyld de resterende felter efter behov.  
 4. Vælg handlingen **Bogfør**.  

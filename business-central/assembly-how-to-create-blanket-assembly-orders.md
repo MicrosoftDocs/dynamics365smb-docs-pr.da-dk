@@ -1,8 +1,6 @@
 ---
 title: Sådan oprettes rammemontageordrer | Microsoft Docs
 description: Opret rammesalgsordrer for tilpassede montageelementer, før du regelmæssigt opretter de faktiske salgsordrer i overensstemmelse med rammeordreaftalen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eea8c80f1f1796ad0d552b6e832565b400f4cce7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d15ecfe1d334c07c757cba10647267ae89fea629
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304106"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880876"
 ---
 # <a name="create-blanket-assembly-orders"></a>Oprette rammemontageordrer
 Du kan bruge montagestyring til at tilpasse et montageelement på anmodning af en debitor under salgsprocessen. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  

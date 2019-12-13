@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649712"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879126"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruge Business Central som din virksomheds Indbakke i Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] introducerer muligheden for at administrere forretningsinteraktioner med kunder og leverandører direkte i Microsoft Outlook. Med Outlook-tilføjelsesprogrammerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se finansielle data, der er relateret til debitorer og kreditorer samt oprette og sende finansielle dokumenter, f.eks tilbud og fakturaer.  
 
 ## <a name="getting-the-add-in"></a>Få tilføjelsesprogrammet
@@ -26,9 +27,13 @@ Det er nemt at komme i gang med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilf
 Når du derpå åbner Outlook, vises en mailmeddelelse fra *Dynamics 365 Business Central Administration*. De nye tilføjelsesprogrammer føjes til Outlook-båndet, og i browseren kan du se [!INCLUDE[prodshort](includes/prodshort.md)]-tilføjelsesprogrammerne lige over eller under brødteksten i mailen. Tilføjelsesprogrammerne opdateres med jævne mellemrum, og du får besked, når en ny version er klar i Outlook.  
 
 > [!TIP]
-> Hvis du bruger den nye Outlook i en browser, kan [!INCLUDE [prodshort](includes/prodshort.md)]-tilføjelsesprogrammerne være skjult under **Flere handlinger**.
+> Hvis du bruger den nye Outlook online, kan [!INCLUDE [prodshort](includes/prodshort.md)]-tilføjelsesprogrammerne være skjult under **Flere handlinger**. Hvis du ofte bruger tilføjelsesprogrammet, kan du fastgøre det, så det altid er synligt med det samme. Du kan finde flere oplysninger under [Sådan bruger du tilføjelsesprogrammer i Outlook online](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Hvis du arbejder med mere end ét [!INCLUDE [prodshort](includes/prodshort.md)]-regnskab, kan du nemt skifte mellem firmaer i Outlook.
+Hvis du arbejder med mere end ét [!INCLUDE [prodshort](includes/prodshort.md)]-regnskab, kan du nemt skifte mellem firmaer i Outlook. På tilføjelsesprogrammets handlingslinje skal du vælge **Flere handlinger**, hvorefter du kan se indstillingen for at skifte mellem virksomheder.  
+
+<!--TEMP-->
+> [!NOTE]
+> Skift mellem virksomheder kræver frigivelsesbølge 2 i 2019 [!INCLUDE [prodshort](includes/prodshort.md)] eller nyere, som annonceret i [frigivelsesplanen](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Nogle virksomheder, der bruger Office 365, begrænser brugernes adgang til at implementere tilføjelser. Derfor skal du kontrollere, at du har et Office 365-abonnement, der omfatter mail, hvor du kan implementere tilføjelser. Hvis du vil prøve tilføjelsesprogrammet alligevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ Tilføjelsesprogrammerne er designet til at blive brugt sammen med Office 365. H
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Minimumkrav til Outlook](product-requirements.md#outlook)  
-[Bruge tilføjelsesprogrammer i Outlook på internettet](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Bruge tilføjelsesprogrammer i Outlook på internettet](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

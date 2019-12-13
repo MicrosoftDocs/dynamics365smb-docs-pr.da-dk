@@ -1,8 +1,6 @@
 ---
 title: Sådan aktiverer du workflows | Microsoft Docs
 description: Når du har oprettet en arbejdsgang, og du er sikker på, at den er klar til at starte, skal du aktivere arbejdsgangen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6a59947f212d0634c6b6918e751db6d8278925c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48e95e17938c240862c8c5391bf328aa78bae7aa
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305400"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881140"
 ---
 # <a name="enable-workflows"></a>Aktivere arbejdsgange
 Når du har oprettet en arbejdsgang, og du er sikker på, at den er klar til at starte, skal du aktivere arbejdsgangen.  
@@ -25,7 +23,7 @@ Når du har oprettet en arbejdsgang, og du er sikker på, at den er klar til at 
  På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Sådan aktiveres en arbejdsgang  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Workflows**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdsgange**, og vælg derefter det relaterede link.  
 2.  Åbn den arbejdsgang, du vil aktivere.  
 3.  På siden **Workflow** skal du markere afkrydsningsfeltet **Aktiveret**.  
 

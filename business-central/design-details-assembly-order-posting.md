@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Bogføring af montageordre | Microsoft Docs
 description: Montageordrebogføring er baseret på de samme principper, som når der bogføres lignende aktiviteter af salgsordrer og produktionsforbrug/afgang. Dog kombineres principperne, fordi montageordrer har egen brugergrænseflade til bogføring, ligesom den for salgsordrer, mens faktisk postbogføring sker i baggrunden som direkte vare- og ressourcekladdeposteringer, ligesom for produktionsforbrug, afgang og kapacitet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4a64e6bf09914ebd24e7d00ac54a286a33cd2026
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307440"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880636"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designoplysninger: Bogføring af montageordre
 Montageordrebogføring er baseret på de samme principper, som når der bogføres lignende aktiviteter af salgsordrer og produktionsforbrug/afgang. Dog kombineres principperne, fordi montageordrer har egen brugergrænseflade til bogføring, ligesom den for salgsordrer, mens faktisk postbogføring sker i baggrunden som direkte vare- og ressourcekladdeposteringer, ligesom for produktionsforbrug, afgang og kapacitet.  
@@ -40,7 +38,7 @@ I følgende diagram vises strukturen af vare- og ressourceposter, der stammer fr
 
 I følgende diagram vises, hvordan montagedata flyder ind i vareposter ved bogføring:  
 
-![Montagerelateret postflow ved bogføring](media/design_details_assembly_posting_2.png "Montagerelateret postflow ved bogføring")  
+![Montagerelateret posteringsflow under bogføring](media/design_details_assembly_posting_2.png "Montagerelateret posteringsflow under bogføring")  
 
 ## <a name="posting-sequence"></a>Bogføringssekvens  
 Bogføringen af en montageordre forekommer i følgende rækkefølge:  
@@ -71,7 +69,7 @@ Funktionen til registrering af ordreniveau bruges i konverteringsscenarier, prod
 
 I følgende illustration vises reguleringspoststrukturen, og hvordan montagekostpriser reguleres.  
 
-![Montagerelateret postflow ved kostreguleringen](media/design_details_assembly_posting_3.png "Montagerelateret postflow ved kostreguleringen")  
+![Montagerelateret posteringsflow under omkostningstilpasning](media/design_details_assembly_posting_3.png "Montagerelateret posteringsflow under bogføring")  
 
 ### <a name="performing-the-adjustment"></a>Udførelse af regulering  
 Spredningen af registrerede justeringer fra materiale- og ressourceomkostninger på montageafgangsposter er udført af kørslen **Reguler kostværdi – vareposter**. Den indeholder funktionen Foretag justering af flere niveauer, som består af følgende to elementer:  
@@ -79,7 +77,7 @@ Spredningen af registrerede justeringer fra materiale- og ressourceomkostninger 
 -   Foretag justering af montageordre – der videresender omkostninger fra materiale- og ressourceforbrug til montagens afgangspost. Linje 5 og 6 i nedenstående algoritme er ansvarlige for dette.  
 -   Foretag reguleringer af enkelt niveau – som videresender omkostninger for individuelle varer, der benytter deres kostmetode. Linje ni og 10 i nedenstående algoritme er ansvarlige for dette.  
 
-![Oversigt over omkostningsreguleringsalgoritmen til montagebogføring](media/design_details_assembly_posting_4.jpg "Oversigt over omkostningsreguleringsalgoritmen til montagebogføring")  
+![Oversigt over omkostningstilpasningsalgoritmen til montagebogføring](media/design_details_assembly_posting_4.jpg "Oversigt over omkostningstilpasningsalgoritmen til montagebogføring")  
 
 > [!NOTE]  
 >  Elementet til justeringer af igangværende arbejde på linje 7 og 8 er ansvarlig for videresendelse af materiale til produktion og udnyttelse af kapaciteten til output af ikke-færdige produktionsordrer. Dette kan ikke bruges ved regulering af montageordreomkostninger, da begrebet Igangværende arbejde ikke gælder for montage.  

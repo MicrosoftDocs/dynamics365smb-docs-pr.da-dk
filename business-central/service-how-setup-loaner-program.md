@@ -1,8 +1,6 @@
 ---
 title: 'Sådan gør du: Oprette udlånsvarer | Microsoft Docs'
 description: Du kan definere udlånsvarer, som du kan låne ud til kunderne som erstatning for de serviceartikler, der er til reparation.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: aa614e87a6414cb0d96f1130f02d40898cc2f2e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311856"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877467"
 ---
 # <a name="set-up-a-loaner-program"></a>Oprette et udlånsprogram
 Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan bruge, mens kundeserviceteamet udfører reparationen. I [!INCLUDE[d365fin](includes/d365fin_md.md)] Kan du konfigurere et udlånsprogram, udlåne varer til dine kunder og spore modtagelser, når kunderne returnerer varerne. Desuden kan du tilføje bemærkninger om udlånsvarer på én af to måder:  
@@ -26,7 +24,7 @@ Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan br
 * Angive en bemærkning for en serviceartikel om behovet for en udlånsvare.  
 
 ## <a name="to-set-up-a-loaner"></a>Sådan defineres udlånsvarer  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lånere**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udlånsvarer**, og vælg derefter det relaterede link.  
 2. Opret et nyt udlånsvarekort. 
 3. I feltet **Nummer** skal du skrive et nummer på udlånsvaren. Du kan også, hvis du har opsat en nummerserie for udlånsvarer på siden **Serviceopsætning**, trykke på Enter. Det næste tilgængelige udlånsvarenummer angives derefter automatisk.  
 4. Udfyld felterne **Beskrivelse**, **Beskrivelse 2** og **Serienr.**.  

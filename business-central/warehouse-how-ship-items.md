@@ -1,8 +1,6 @@
 ---
 title: Sådan leverer du varer | Microsoft Docs
 description: Afhængigt af konfigurationen af lagerstedet, kan du enten registrere leverance på det relaterede udgående forretningsdokument, f.eks. en salgsordre, direkte, eller du kan bruge lagerleverancedokumenter, der accepterer et workflow og kan integreres med forskellige lageraktiviteter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2bde69033ee208082662fa771616ac0b124d73e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314672"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876771"
 ---
 # <a name="ship-items"></a>Afsende varer
 Når du leverer varer fra et lagersted, der ikke er konfigureret til lagerleverancebehandling, skal du blot registrere leverancen på det relaterede forretningsbilag f.eks. en salgsordre, serviceordre, købsordre, returvareordre eller udgående overflytningsordre.
@@ -29,7 +27,7 @@ Når du leverer varer fra et lagersted, der er konfigureret til lagerleverance, 
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Sådan leveres varer med en salgsordre
 Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er tilsvarende fremgangsmåde for købsreturvareordrer, serviceordrer og udgående overflytningsordrer.  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
 2. Åbn en eksisterende salgsordre eller opret en ny. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 3. Angiv det modtagne antal i feltet **Lever (antal)**.
 

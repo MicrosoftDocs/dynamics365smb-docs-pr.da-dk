@@ -1,8 +1,6 @@
 ---
 title: Sådan bogføres serviceordrer | Microsoft Docs
 description: Når du har oprettet en serviceordre, angivet alle de nødvendige oplysninger og foretaget eventuelle ændringer, kan du bogføre serviceordren. Ordren skal indeholde mindst én serviceartikellinje og én servicelinje, inden du kan bogføre den. Hvis ordren indeholder mere end én ordrelinje, bogføres alle linjerne på én gang.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 05ee230bd8a68d08223ec9942fd410c4a6b3ce39
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: cc2f6261b778c9cd4fc62ae2c0b44003a3b1bf80
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554736"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877203"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bogføre serviceordrer og kreditnotaer
 Når du har oprettet en serviceordre, angivet alle de nødvendige oplysninger og foretaget eventuelle ændringer, kan du bogføre serviceordren. Ordren skal indeholde mindst én serviceartikellinje og én servicelinje, inden du kan bogføre den. Hvis ordren indeholder mere end én ordrelinje, bogføres alle linjerne på én gang.  
@@ -108,7 +106,7 @@ Du kan flere oplysninger om forsendelse af servicelinjeartikler i avanceret lage
 ## <a name="to-undo-posted-consumption"></a>Sådan fortrydes bogført forbrug  
 Du kan annullere forbruget i serviceordrerne. F.eks. fordi det er bogført ved en fejltagelse.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte serviceleverancer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte serviceforsendelser**, og vælg derefter det relaterede link.  
 2. Åbn den bogførte serviceleverance, som det fejlagtige forbrug er bogført for.  
 3. Vælg handlingen **Serviceleverancelinjer**.  
 4. Vælg de linjer, der indeholder det forkerte forbrug, og vælg derefter handlingen **Fortryd forbrug**.  

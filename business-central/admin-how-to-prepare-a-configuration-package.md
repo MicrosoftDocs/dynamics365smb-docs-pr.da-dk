@@ -1,8 +1,6 @@
 ---
 title: Sådan forberedes en konfigurationspakke | Microsoft Docs
 description: Når du konfigurerer en ny virksomhed, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f74b3472b081d7968336fd16b6ef6addccff861
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307992"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879222"
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
 Når du konfigurerer en ny virksomhed, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data). 

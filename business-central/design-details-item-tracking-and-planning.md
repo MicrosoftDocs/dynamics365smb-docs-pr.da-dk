@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Varesporing og planlægning | Microsoft Docs
 description: Da de er gemt i reservationssystemet, er varesporingsnumre fuldt koordineret med ordresporingsposter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0b83cc4daea4e37dae1e1ef7437276205b76cbe5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bc6b919a2c54fc4c500f46b1ad7972350b72e1e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303336"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880252"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Designoplysninger: Varesporing og planlægning
 Da de er gemt i reservationssystemet, er varesporingsnumre fuldt koordineret med ordresporingsposter. Dette betyder, at varer, der har varesporingsposter, kan blive tildelt varesporingsnumre. Varer, der har varesporingsnumre, kan derimod blive ordresporingsposter. Du kan finde flere oplysninger i [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md).

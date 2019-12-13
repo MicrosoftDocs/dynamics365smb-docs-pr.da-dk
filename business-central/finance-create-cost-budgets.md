@@ -1,8 +1,6 @@
 ---
 title: Oprette omkostningsbudgetter | Microsoft Docs
 description: Dette emne indeholder en oversigt over, hvor du kan oprette og analysere omkostningsbudgetter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306408"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879820"
 ---
 # <a name="creating-cost-budgets"></a>Oprette omkostningsbudgetter
 Budgettering i omkostningsregnskab minder om budgettering i regnskabet. Et omkostningsbudget oprettes baseret på omkostningstyper, ligesom et budget for regnskabet oprettes baseret på finanskonti.  
@@ -26,7 +24,7 @@ Et omkostningsbudget oprettes for en bestemt periode, f.eks. et regnskabsår. Du
 
 Brug følgende sider til at oprette og analysere omkostningsbudgetter. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") for at finde en side, og læs derefter værktøjstippet for hvert.
 
-|Hvis du vil|Se|  
+|Hvis du vil|Skal du se|  
 |--------|---------|  
 |Overføre budgetter fra regnskabet.|Kørslen **Kopier finansbudget til omk.regnskab**|  
 |Kopiere omkostningsbudgetter.|Kørslen **Kopier omkostningsbudget**|  

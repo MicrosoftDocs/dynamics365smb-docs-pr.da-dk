@@ -1,8 +1,6 @@
 ---
 title: Konfigurere ressourceallokering | Microsoft Docs
 description: Få at vide, hvordan systemet kan hjælpe med at sikre, at den person, du tildeler en serviceydelse, har de nødvendige kvalifikationer til at udføre ydelsen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ee97797c9dabab188f1e6a2bbf2cb1f9846e7321
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f12e81a76712b8fa7704f3819b942ee0ba9773
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316160"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877443"
 ---
 # <a name="set-up-resource-allocation"></a>Opsætte ressourceallokering
 Det er vigtigt at finde en ressource, der er kvalificeret til at udføre arbejdet, for at sikre, at en serviceopgave udføres korrekt. Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)], så det er nemt at allokere en person, der har de korrekte kvalifikationer til sagen. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kalder vi det _ressourceallokering_. Du kan allokere ressourcer, alt efter deres færdigheder og tilgængelighed, eller om de er i samme servicezone som kunden. 
@@ -33,7 +31,7 @@ Når du vil bruge ressourceallokering, skal du angive:
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-skills-to-service-items-and-resources"></a>Sådan tildeles kvalifikationer til serviceartikler og ressourcer
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicevarer** eller **Ressourcer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceartikler** eller **Ressourcer**, og vælg derefter det relaterede link.  
 2. Åbn kortet for serviceartiklen eller ressourcen, og vælg derefter en af følgende:  
   
     * Vælg **Ressourcekvalifikationer** for serviceartikler.  
@@ -44,7 +42,7 @@ Når du vil bruge ressourceallokering, skal du angive:
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-zones-to-customers-and-resources"></a>Sådan tildeles zoner til kunder og ressourcer 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder** eller **Ressourcer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer** eller **Ressourcer**, og vælg derefter det relaterede link.  
 2. Åbn kortet for serviceartiklen eller ressourcen, og vælg derefter en af følgende:  
   
     * For kunder skal du vælge en zone i feltet **Servicezonekode**.  

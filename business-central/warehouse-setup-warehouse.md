@@ -1,8 +1,6 @@
 ---
 title: Konfigurere lagerprocesser | Microsoft Docs
 description: En virksomheds distributionsstrategi afspejles i konfigurationen af virksomhedens lagerprocesser. Dette omfatter bl.a. angivelse af, hvordan forskellige varer håndteres på forskellige lagerlokationer, f.eks. graden af placeringsstyring, og hvilket omfang af arbejdsgange der kræves mellem lageraktiviteterne.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a5987b6933ee7e9e57424b3cae02ab3466f863ea
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1ddcb7c2cfab292fb5f0346f509b35d92f41c5cc
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314432"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881457"
 ---
 # <a name="setting-up-warehouse-management"></a>Sådan konfigureres logistikfunktioner
 En virksomheds distributionsstrategi afspejles i konfigurationen af virksomhedens lagerprocesser. Dette omfatter bl.a. angivelse af, hvordan forskellige varer håndteres på forskellige lagerlokationer, f.eks. graden af placeringsstyring, og hvilket omfang af arbejdsgange der kræves mellem lageraktiviteterne.  

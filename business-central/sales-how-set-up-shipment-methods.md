@@ -1,8 +1,6 @@
 ---
 title: Sådan oprettes leveringsformer | Microsoft Docs
 description: Du kan angive en kode for hver leveringsform, du tilbyder, og angive oplysninger om dem.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: be65cd62cec984cd2571b6e88998dc169741f376
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75a3e689083e64f446e84b2bc3b1d26961e3d898
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312072"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877539"
 ---
 # <a name="set-up-shipment-methods"></a>Oprette leveringsformer
 Leveringsformerne, der også kaldes incoterms, afhænger ofte af varerne, kunderne og leverandørerne. En kunde, der bor på en ø, vælger måske, at varerne altid skal flyves eller sejles til øen. Nogle kunder kan kræve levering næste dag. Det ønsker at afhente ordren. På debitor- og kreditorkortene kan du derfor angive den ønskede leveringsform.
@@ -25,7 +23,7 @@ Leveringsformerne, der også kaldes incoterms, afhænger ofte af varerne, kunder
 Du opretter beskrivelsen og koden for hver leveringsform på siden **Leveringsformer**. Du kan f.eks. oprette koden FOB (Free on board) og skrive Free on Board i feltet **Beskrivelse**. Du kan indtaste koden i **Leveringskode**-felterne et andet sted i systemet, f.eks. på et debitorkort. Når du derefter opretter nye ordrer, fakturaer, kreditnotaer osv., bruges den beskrivelse, som koden repræsenterer, automatisk af systemet. Du kan ændre dette i dokumentet efter behov.
 
 ## <a name="to-set-up-a-shipment-code"></a>Sådan defineres en leveringskode
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leveringsformer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsendelsesformer**, og vælg derefter det relaterede link.
 2. På siden **Leveringsformer** skal du vælge handlingen **Ny**.
 3. Angiv en kode og en beskrivelse af leveringsformen på den nye linje.
 

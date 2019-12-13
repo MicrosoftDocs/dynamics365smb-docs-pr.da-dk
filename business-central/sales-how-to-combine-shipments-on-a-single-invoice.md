@@ -1,8 +1,6 @@
 ---
 title: Sådan kombineres leverancer på én enkelt faktura | Microsoft Docs
 description: Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6a9f4d6ee49b8958b3dcc33697db5ce0d77ae2c8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: febf38da727cb7f41fa6d6c4bacf36877a8df1f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312024"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882903"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leverancer på én enkelt faktura
 Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.  
@@ -38,7 +36,7 @@ Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktio
 7. Vælg handlingen **Bogfør** for at fakturere kladden.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du automatisk leverancer på én enkelt faktura  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Samlet lev. til salgsfaktura**, og vælg derefter det relaterede link. Kørselssiden åbnes.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Tillad samlefaktura**, og vælg derefter det relaterede link. Kørselssiden åbnes.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Markér afkrydsningsfeltet **Bogfør fakturaer**.  
 4.  Vælg knappen **OK**.  
@@ -51,7 +49,7 @@ Når leverancer samles på en faktura og bogføres, oprettes der en bogført sal
 
 Når du fakturerer leverancer på denne måde, findes de ordrer, som leverancerne er bogført fra, stadig, selvom de er leveret og faktureret i fuldt omfang.   
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet fakturerede salgsordrer**, og vælg det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet fakturerede salgsordrer**, og vælg dernæst det relaterede link.  
 2. I feltet **Nummer** skal du angive, hvilke ordrer der skal slettes.  
 3. Vælg knappen **OK**.  
 

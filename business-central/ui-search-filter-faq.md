@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695187"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876867"
 ---
 # <a name="searching-and-filtering-faq"></a>Ofte stillede spørgsmål om søgning og filtrering
 Denne artikel indeholder svar på almindelige spørgsmål om søgning og filtrering.
@@ -47,7 +47,7 @@ Hos Microsoft lytter vi hele tiden til feedback fra vores forskellige grupper af
 
 Der er en frist for, hvor lang tid en søgehandling kan tage. Du skal først forsøge at ændre søgekriterierne og søge igen. Hvis du bruger [!INCLUDE[prodshort](includes/prodshort.md)] i dit lokale miljø, kan du kontakte systemadministratoren, fordi en administrator kan øge fristen for søgninger.
 
-Som lokal administrator kan du øge fristen på søgninger ved at ændre indstillingen **Timeout for søgning** for [!INCLUDE[prodshort](includes/prodshort.md)]-serveren. Du kan finde flere oplysninger i [Konfiguration af Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) i hjælpen til Business Central-udviklere og it-eksperter.
+Som lokal administrator kan du øge fristen på søgninger ved at ændre indstillingen **Timeout for søgning** for [!INCLUDE[prodshort](includes/prodshort.md)]-serveren. Du kan finde flere oplysninger i [Konfiguration af Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) i hjælpen til Business Central-udviklere og it-eksperter.
 
 ## <a name="see-also"></a>Se også
 [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)  

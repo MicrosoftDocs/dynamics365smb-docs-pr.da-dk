@@ -1,8 +1,6 @@
 ---
 title: Betalingstolerance og kontantrabattolerance | Microsoft Docs
 description: Du kan angive betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3bed8b9298b668e627691be11598ca8c78238db
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 229602a4ca5eb7b2da926171a7ba86a8d103b133
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305736"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879604"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbejde med betalingstolerancer og kontantrabattolerancer
 Du kan angive en betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen. Du kan angive en kontantrabattolerance til at give kontantrabat, efter at kontantrabatdatoen er overskredet.  
@@ -124,7 +122,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for en enkelt betalingstolerance 1](media/singlePmtTolRules(Pre1503).gif "Regler for en enkelt betalingstolerance 1")  
+![Betingelser for en enkelt betalingstolerance 1](media/singlePmtTolRules(Pre1503).gif "Betingelser for en enkelt betalingstolerance 1")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -135,7 +133,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for en enkelt betalingstolerance 2](media/singlePmtTolRules(GracePeriod).gif "Regler for en enkelt betalingstolerance 2")  
+![Betingelser for en enkelt betalingstolerance 2](media/singlePmtTolRules(GracePeriod).gif "Betingelser for en enkelt betalingstolerance 2")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -146,7 +144,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for en enkelt betalingstolerance 3](media/singlePmtTolRules(Post0120).gif "Regler for en enkelt betalingstolerance 3")  
+![Betingelser for en enkelt betalingstolerance 3](media/singlePmtTolRules(Post0120).gif "Betingelser for en enkelt betalingstolerance 3")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -207,7 +205,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer 1](media/multiplePmtTolRules(Pre1503).gif "Regler for flere betalingstolerancer 1")  
+![Flere betalingstolerancebetingelser 1](media/multiplePmtTolRules(Pre1503).gif "Flere betalingstolerancebetingelser 1")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -218,7 +216,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regler for flere betalingstolerancer 2")  
+![Flere betalingstolerancebetingelser 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Flere betalingstolerancebetingelser 2")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -229,7 +227,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Regler for flere betalingstolerancer 3")  
+![Flere betalingstolerancebetingelser 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Flere betalingstolerancebetingelser 3")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -240,7 +238,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Regler for flere betalingstolerancer 4")  
+![Flere betalingstolerancebetingelser 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Flere betalingstolerancebetingelser 4")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -251,7 +249,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Regler for flere betalingstolerancer 5](media/multiplePmtTolRules(Post0122).gif "Regler for flere betalingstolerancer 5")  
+![Flere betalingstolerancebetingelser 5](media/multiplePmtTolRules(Post0122).gif "Flere betalingstolerancebetingelser 5")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 

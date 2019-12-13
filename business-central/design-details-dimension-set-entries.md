@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Dimensionsgruppeposter | Microsoft Docs
 description: Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges til at omdesigne funktionen til dimensionspostlagring og -bogføring.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 250d5fc071ee3b87397143dd887fbc382051ad03
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 75f161252492826433b26871ec01057804e4aaf7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307200"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880492"
 ---
 # <a name="design-details-dimension-set-entries"></a>Designoplysninger: Dimensionsgruppeposter
 Denne dokumentation indeholder detaljeret teknisk indsigt i begreber og principper i funktionaliteten i dimensionspostlagring og -bogføring i [!INCLUDE[d365fin](includes/d365fin_md.md)] .

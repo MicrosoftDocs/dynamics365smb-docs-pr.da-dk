@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308400"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879198"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Du kan bruge opgavekøer til at planlægge opgaver
 Opgavekøer i [!INCLUDE[d365fin](includes/d365fin_md.md)] giver brugerne mulighed for at planlægge og køre specifikke rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange. Det kan f.eks. være en god idé at køre rapporten **Sælger - salgsstatistik** ugentlig for at spore salget pr. sælger hver uge, eller at køre kodeenheden **Behandl servicekø for mail** dagligt for at sikre, at afventende mail til debitorer om deres serviceordrer sendes ud tids nok.
@@ -33,7 +33,7 @@ Du kan opnå dette ved at indstille opgavekøen til at køre forskellige massebo
 
 Nedenstående fremgangsmåde beskriver, hvordan du konfigurerer baggrundsbogføring af salgsordrer. Trinene er de samme for køb og service.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af salg og tilgodehavender**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsopsætning**, og vælg derefter det relaterede link.
 2. På siden **Salgsopsætning** skal du markere afkrydsningsfeltet **Bogfør med opgavekøen**.
 3. Hvis du vil filtrere opgavekøposter for salgsordrebogføring, skal du vælge feltet **Opgavekøkategorikode** og derefter vælge kategorien **Salgsbogføring**.
 
@@ -111,6 +111,9 @@ Når en opgavekø aktiveres manuelt, køres den med legitimationsoplysningerne f
 
 ## <a name="using-job-queues-effectively"></a>Effektiv brug af opgavekøer  
 Opgavekøposten har mange felter, hvis formål er at overføre parametre i en codeunit, du har angivet til kørsel sammen med en opgavekø. Det betyder også, at codeunits, der skal køres via opgavekøen, skal angives med opgavekøposten som en parameter i udløseren **OnRun**. Dette giver et ekstra niveau af sikkerhed, da dette forhindrer brugerne i at køre vilkårlige kodeenheder via opgavekøen. Hvis brugeren skal overføre parametre til en rapport, er den eneste måde at gøre dette ved at placere rapportudførelsen i en codeunit, som derefter analyserer inputparametrene og skriver dem i rapporten, før den udføres.  
+
+## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Sådan planlægger du synkronisering mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]
+Hvis du har integreret [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)], kan du bruge opgavekøen til at planlægge, hvornår du vil synkronisere data for de poster, du har kombineret i de to forretningsapps. Afhængigt af den retning og de regler, du har defineret for integrationen, kan synkroniseringsopgaverne også oprette nye poster i destinationsappen, så de svarer til dem i kilden. Hvis en sælger f.eks. opretter en ny kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], kan synkroniseringsopgaven oprette kontakten for den sammenkoblede sælger i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Planlægning af synkronisering mellem Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>Se også  
 [Opsætning](admin-setup-and-administration.md)  

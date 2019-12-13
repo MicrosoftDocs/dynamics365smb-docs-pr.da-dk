@@ -1,8 +1,6 @@
 ---
 title: Planlægning med eller uden lokationer | Microsoft Docs
 description: Det er vigtigt at forstå planlægning med eller uden lokationskoder på behovslinjer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c2ef599e5b02df894ed9b7057892454932d7ff16
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b5c5c12dedfe3f35737888017ed02e0f7d464443
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312960"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877659"
 ---
 # <a name="planning-with-or-without-locations"></a>Planlægge med eller uden lokationer
 Med hensyn til planlægning med eller uden lokationskoder på behovslinjer fungerer planlægningssystemet på samme ukomplicerede måde, når:  

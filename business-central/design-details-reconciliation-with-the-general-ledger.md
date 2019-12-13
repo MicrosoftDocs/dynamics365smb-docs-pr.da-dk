@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger – Afstemning med Finans | Microsoft Docs
 description: Dette emne beskriver afstemning med Finans, når du bogfører lagertransaktioner, f.eks. salgsleverancer, produktionsoutput eller nedreguleringer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d1d69b2aa03be59ec68e8198c794aca52ed7cb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b87ff4652d8d73001c02c864efa638d80c8c9949
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306816"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880060"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designoplysninger: Afstemning med Finans
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, produktionsafgang eller nedreguleringer, registreres ændringen i antal og værdi for lageret i vareposterne og værdiposterne. Det næste trin i processen er at bogføre lagerværdierne på lagerkontiene i finansregnskabet.  

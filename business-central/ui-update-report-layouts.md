@@ -1,25 +1,23 @@
 ---
 title: Holde et rapportlayout opdateret | Microsoft Docs
 description: Du har muligvis behov for at opdatere et brugerdefineret rapportlayout, der bruges i en rapport. Dette er påkrævet, når der er sket en designændring af rapportens datasæt, eksempelvis et felt, der bruges i layoutet, er blevet fjernet fra datasættet i rapporten.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7a9389134c57d60999be2019a1e4394f8c3a00e5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314984"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876939"
 ---
-# <a name="updating-report-or-document-layouts"></a>Opdatere rapport- eller dokumentlayout
+# <a name="update-custom-report-layouts"></a>Opdater brugerdefinerede rapportlayouts
 Nogle gange skal du opdatere et brugerdefineret rapportlayout, der bruges i en rapport. Dette er påkrævet, når der er sket en designændring af rapportens datasæt, eksempelvis et felt, der bruges i layoutet, er blevet fjernet fra datasættet i rapporten. Hvis et rapportlayout kræver opdatering, får du en fejlmeddelelse, når du forsøger at se, udskrive eller gemme rapporten.  
 
 Du kan automatisk opdatere et rapportlayout fra den fejlmeddelelse, der vises, når du kører rapporten, ved at vælge knappen **Ja** på fejlmeddelelsen. Eller før du kører rapporter, kan du opdatere specifikke rapportlayout eller alle tilpassede rapportlayout, der kunne blive påvirket af datasætændringer.  
@@ -30,7 +28,7 @@ Ikke alle ændringer af rapportdatasæt kan opdateres automatisk i rapportlayout
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Sådan opdaterer du ét eller flere brugerdefinerede rapportlayout  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportlayout**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportlayouts**, og vælg derefter det relaterede link.  
 
 2.  Hvis du vil opdatere en bestemt rapport, skal du på siden **Rapportlayout** vælge layoutet på listen og derefter vælge handlingen **Opdater layout**. Eller hvis du vil opdatere alle brugerdefinerede rapportlayout for virksomheden, skal du vælge handlingen **Opdater alle layout**.  
 

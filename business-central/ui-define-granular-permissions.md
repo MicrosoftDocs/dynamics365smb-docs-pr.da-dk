@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac77368b30d442d6524b5231252ba5f370d50233
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774719"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809344"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 [!INCLUDE[d365fin](includes/d365fin_md.md)]-sikkerhedssystemet giver dig mulighed for at styre, hvilke objekter en bruger kan få adgang til inden for hver database eller hvert miljø. Du kan angive for hver bruger, om de kan læse, ændre eller indtaste data i de valgte databaseobjekter. Du kan finde flere oplysninger ved at se [Datasikkerhed](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjælp til udviklere og it-eksperter for [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
-Før du tildeler rettigheder til brugere og brugergrupper, skal du definere, hvem der kan logge på, ved at oprette brugere ifølge licensen, som det er defineret i Office 365 Administration. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
+Før du tildeler rettigheder til brugere og brugergrupper, skal du definere, hvem der kan logge på, ved at oprette brugere ifølge licensen, som det er defineret i Microsoft 365 Administration. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)]er der to niveauer af rettigheder til databaseobjekter:
 - Overordnede rettigheder ifølge licensen, også kaldet berettigelser.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4dd32dee8a670a5774de3b9c4afe8367cc44d0fb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 924876abbe532384d568c6c260b22397f98a40ad
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302548"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879892"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365fin_mdmd"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis dit firma bruger Bookings-appen i Office 365, kan du udstede flere fakturaer ad gangen for aftaler. Siden **Ikke-fakturerede Bookings** i [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en oversigt over virksomhedens udførte reservationer. På denne side kan du hurtigt vælge de aftaler, som du vil fakturere, og oprette udkast til fakturaer for de ydede services.  
@@ -42,4 +42,4 @@ Understøttelse af faktureringsaftaler fra Bookings er lettere end den fulde arb
 [Finans](finance.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Microsoft Bookings](https://products.office.com/en-us/business/scheduling-and-booking-app)  
+[Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  

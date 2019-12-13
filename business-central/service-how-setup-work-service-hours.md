@@ -1,8 +1,6 @@
 ---
 title: Sådan defineres arbejdstimer og serviceåbningstider | Microsoft Docs
 description: Du kan angive de almindelige serviceåbningstider i din virksomhed. Serviceåbningstiderne bruges til at beregne svardato og -tidspunkt for serviceordrer og tilbud og til at udsende advarsler vedr. svartid.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3adc4f10e8a5b9d26440bf47170f117de7e17310
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6aaf78756f091d70a1a33532afbafb14a5b29bc7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311756"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877275"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Konfigurere arbejdstimer og serviceåbningstider
 Et servicestyringssystem bruges typisk til at holde styr på ressourcetimer og serviceordrestatus med det formål at kunne estimere arbejdsbelastning og servicebehov. [!INCLUDE[d365fin](includes/d365fin_md.md)] har indbyggede værktøjer, som kan tilpasses til at registrere denne type oplysninger.  
@@ -29,7 +27,7 @@ Når du arbejder på en serviceordre, vil du gerne kunne opdatere dens status, s
 ## <a name="to-set-up-default-service-hours"></a>Sådan angives standardserviceåbningstider  
 Du kan bruge siden **Standardserv.åbningstider** til at angive almindelige serviceåbningstider i din virksomhed. Serviceåbningstiderne bruges til at beregne svardato og -tidspunkt for serviceordrer og tilbud og til at udsende advarsler vedr. svartid. Standardserviceåbningstiderne anvendes automatisk til servicekontrakter, medmindre du angiver særlige serviceåbningstider for en kontrakt.  
   
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Standardserv.åbningstider**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Standardserviceåbningstider**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,7 +36,7 @@ Du kan bruge siden **Standardserv.åbningstider** til at angive almindelige serv
 ## <a name="to-set-up-work-hour-templates"></a>Sådan oprettes arbejdstidsskabeloner
 Du kan bruge siden **Arbejdstidsskabelon** til at oprette skabeloner, der indeholder den typiske arbejdstid i din virksomhed. Du kan f.eks. oprette skabeloner for teknikere, der arbejder på fuld tid eller på deltid. Du kan bruge arbejdstidsskabeloner, når du føjer kapacitet til ressourcer.  
   
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdstidsskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Skabeloner for arbejdstid**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
@@ -49,7 +47,7 @@ Du kan bruge siden **Serviceåbningstider** til at angive specifikke serviceåbn
   
 Hvis du ikke angiver specifikke serviceåbningstider for servicekontrakten, anvendes standardserviceåbningstiderne.  
   
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontrakter**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontakter**, og vælg derefter det relaterede link.  
 2. Åbn den servicekontrakt, du vil angive specifikke serviceåbningstider for, og vælg **Serviceåbningstider**.  
 4. Hvis du vil angive serviceåbningstider baseret på standardserviceåbningstider, skal du vælge handlingen **Kopier stand.serv.åbningstider**.  
 5. Rediger felterne i posterne for serviceåbningstider. Indsæt eller slet poster for at konfigurere serviceåbningstider for kontrakten. Bemærk, at felterne **Dag**, **Starttidspunkt** og **Sluttidspunkt** er påkrævede for hver linje.  

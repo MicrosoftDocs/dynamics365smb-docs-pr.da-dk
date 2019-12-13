@@ -1,8 +1,6 @@
 ---
 title: Konfigurere bedste fremgangsmåder- Forsyningsplanlægning | Microsoft Docs
 description: Forsyningsplanlægning er et vigtigt område. Når forsyningsplanlægningen oprettes og bruges korrekt, hjælper den en virksomhed med at undgå at løbe tør og reducerer både bestillings- og lageromkostningerne.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2cfb83468cd952f1528783a62a08732af2b9aeb9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cbda83a386aa288cb6a845fd16c2c7dfb5c24e5f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315728"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882192"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Oprette bedste fremgangsmåder: Forsyningsplanlægning
 Forsyningsplanlægning er et vigtigt område. Når forsyningsplanlægningen oprettes og bruges korrekt, hjælper den en virksomhed med at undgå at løbe tør og reducerer både bestillings- og lageromkostningerne.  

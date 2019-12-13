@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d52f1dce42bb8c3b84ff335eb07b6a12154fbcf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316875"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832090"
 ---
 # <a name="add-a-page-action-to-your-role-center"></a>Føje en sidehandling til rollecenteret
 Med det nye bogmærkeikon kan du tilføje et handlingslink til en side fra navigationsmenuen i dit rollecenter. Du kan tilføje bogmærket fra målsiden, dvs. den side, du vil have handlingen i rollecenteret til at åbne.
@@ -33,6 +33,9 @@ En handling med navn efter siden, føjes nu til navigationsmenuen i dit rollecen
 2. Peg på søgeresultatet for siden **Salgsordrer**, og vælg derefter ikonet ![Bogmærke](media/ui_bookmark_icon.png "Bogmærke").
 
 Hvis der allerede findes et bogmærke for siden, er ikonet mørkt, og der står "Med bogmærke" i værktøjstippet.
+
+> [!NOTE]  
+> Når et bogmærke tilføjes, bogmærkes oversat tekst, der var tilgængelig på daværende tidspunkt, også. Hvis der tilføjes ny oversat tekst senere, opdateres linket med bogmærket ikke.
 
 ## <a name="see-also"></a>Se også
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  

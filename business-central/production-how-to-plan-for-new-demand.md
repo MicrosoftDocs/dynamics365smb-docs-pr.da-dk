@@ -1,8 +1,6 @@
 ---
 title: Sådan planlægges ordre for ordre | Microsoft Docs
 description: Denne planlægningsopgave kan udføres på siden **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ecc317449642dafe43f294ecefba386ba7e08f51
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aa0d9039ff48d05e0a96ceb5480b40cde864499c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313344"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883210"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planlægge efter nyt behov ordre for ordre
 Denne planlægningsopgave kan udføres på siden **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.  
@@ -82,7 +80,7 @@ Der vises planlægningslinjer på siden i overensstemmelse med filteret **Produk
     Disse to felter er afhængige af hinanden i overensstemmelse med feltet **Standardsikkerhedstid**, som du kan finde på siden **Produktionsopsætning**. Forfaldsdatoen er som standard den samme som behovsdatoen, men du kan ændre dem efter eget ønske.  
 
 > [!NOTE]  
->   Hvis du skriver en senere dato end behovsdatoen, modtager du en advarselsmeddelelse.  
+>  Hvis du skriver en senere dato end behovsdatoen, modtager du en advarselsmeddelelse.  
 
 ## <a name="to-make-supply-orders"></a>Sådan laves forsyningsordrer  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. Du kan udføre disse trin for en planlagt, fastlagt eller frigivet produktionsordre.  

@@ -1,20 +1,20 @@
 ---
 title: Fejlfinding af problemer med selvbetjeningstilmelding | Microsoft Docs
 description: Få mere at vide om de almindeligste årsager til, hvorfor du muligvis ikke kan fuldføre tilmeldingen til Business Central, og hvordan du løser problemet.
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: edupont
-ms.openlocfilehash: d9021cb67176a8fbbb977234e38d02f375a80831
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2a1f923fed08b27152688ecc05c0aa9ff627eed
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310656"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809173"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Fejlfinding af selvbetjeningstilmelding
 Tilmelding til [!INCLUDE[d365fin](includes/d365fin_md.md)] er nemt og kan udføres hurtigt. Du kan oprette en gratis konto, selvom du en eksisterende virksomhed. Denne artikel løser problemer, der måtte opstå under tilmeldingen.
@@ -28,7 +28,7 @@ Hvis du forsøger at tilmelde dig med en privat mailadresse, får du en meddelel
 I mange tilfælde kan registrering til [!INCLUDE[d365fin](includes/d365fin_md.md)] gøres ved at følge tilmeldingsprocessen. Der er flere årsager til, hvorfor du ikke muligvis ikke kan fuldføre selvbetjeningstilmelding. Tabellen nedenfor indeholder en oversigt over nogle af de mest almindelige årsager til, at du ikke kan fuldføre tilmeldingen, og hvordan du kan løsning disse problemer.
 
 | Symptom/fejlmeddelelse | Årsag og løsning |
-| --- | --- |
+| --------------------- | -------------------- |
 | Ved Office 365-mailadresser, der ikke er registreret i et understøttet land, modtager du en meddelelse som den følgende under tilmeldingen:<br /><br />**Det virkede ikke, vi understøtter ikke dit land eller område endnu.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter aktuelt kun Office 365-mailkonti, der er registreret i et begrænset antal markeder. Du kan finde flere oplysninger i [Tilgængelighed i område](#regional-availability) |
 | Private mailadresser, f.eks nancy@gmail.com, understøttes ikke. Du modtager en meddelelse som den følgende under tilmeldingen:<br /><br />**Du har indtastet en privat mailadresse: Du skal angive din arbejdsmailadresse, så vi kan opbevare virksomhedens data sikkert.**<br> eller <br> **Det ligner en privat mailadresse. Angiv din arbejdsmailadresse, så vi kan oprette forbindelse mellem dig og andre i virksomheden. Og du behøver ikke at bekymre dig. Vi dele ikke din adresse med nogen.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke mailadresser, som leveres af forbrugermailtjenester eller telekommunikationsudbydere. Prøv igen at bruge en mailadresse, der er tildelt af dit arbejde eller din skole, for at fuldføre tilmeldingen. Hvis du stadig ikke kan tilmelde dig og mener, at du kan udføre en mere avanceret opsætning, kan du registrere dig til et nyt Office 365-prøveabonnement og bruge denne mailadresse til at tilmelde dig. |
 | .gov- eller .mil-mailadresser Du modtager en meddelelse som den følgende under tilmeldingen:<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] er ikke tilgængelig: [!INCLUDE[d365fin](includes/d365fin_md.md)] er ikke tilgængelig for brugere med .gov eller .mil-mailadresser på nuværende tidspunkt. Brug en anden arbejdsmailadresse, eller besøg os igen senere.** <br>eller <br>**Vi kan ikke afslutte din tilmelding. Det ser ud til, at [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke aktuelt er tilgængelig for din skole eller dit arbejde.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke .gov- eller .mil-adresser på nuværende tidspunkt. |
@@ -37,29 +37,15 @@ I mange tilfælde kan registrering til [!INCLUDE[d365fin](includes/d365fin_md.md
 | Hvis din Office 365-konto er registreret i et understøttet land, og du tilmelder dig til [!INCLUDE[d365fin](includes/d365fin_md.md)], mens du er i et andet land, modtager du en meddelelse som følgende under tilmeldingen:<br /><br />**Det virkede ikke, vi understøtter ikke dit land eller område endnu.**| Virksomhedens Office 365-abonnement er registreret til et bestemt land i Office 365 -administrationsportalen. Tilmeldingsoplevelsen for [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger det sprog og den landekode, som din aktuelle webbrowser bruger, og derfor du kan få en fejlmeddelelse, selvom du befinder dig i et understøttet land. Bed administratoren om at kontrollere det land, der er angivet i organisationsprofilen i den [Office 365-administrationsportalen](https://portal.office.com/adminportal/home#/companyprofile). Du skal muligvis bruge en anden konto til [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Tilgængelighed i område
-Du kan finde en oversigt over aktuelt understøttede markeder under [International tilgængelighed af Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability) og på landingssiden [Lokal funktionalitet](about-localization.md).
 
-<!-- [!INCLUDE[d365fin](includes/d365fin_md.md)] is currently available in the following markets:
+[!INCLUDE [prodshort](includes/prodshort.md)] fås i en række lande eller områder med lokalisering fra Microsoft eller en godkendt lokaliseringspartner. Du kan finde en komplet liste over de aktuelt understøttede lande og regioner under [Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-| Europe | North America |
-| --- | --- |
-| Australia | Canada |
-| Austria | |
-| Belgium | United States |
-| Denmark | |
-| Germany | |
-| Finland | |
-| France | |
-| Italy | |
-| Netherlands | |
-| New Zealand | |
-| Spain | |
-| Sweden | |
-| Switzerland | |
-| United Kingdom | |
--->
+Du kan finde en oversigt over aktuelt understøttede markeder for hele Dynamics 365 under [International tilgængelighed af Microsoft Dynamics 365](/dynamics365/get-started/availability). Du kan finde en oversigt over lokal funktionalitet i [!INCLUDE [prodshort](includes/prodshort.md)] på startsiden [Lokal funktionalitet](about-localization.md).  
 
 ## <a name="see-also"></a>Se også
+
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Lokal funktionalitet](about-localization.md)  
+[Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[International tilgængelighed af Microsoft Dynamics 365](/dynamics365/get-started/availability)  

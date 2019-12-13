@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: get-started-article
 ms.search.keywords: setup wizard, accountant
-ms.date: 10/01/2019
+ms.date: 11/25/2019
 ms.author: edupont
-ms.openlocfilehash: 38116469ff0143aa61e5f6b1b1814901d5a24165
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fefc6c01d51793a23d7f69f9dff99e9a7329025c
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300325"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2831994"
 ---
 # <a name="welcome-to-include-d365acc_longincludesd365acc_long_mdmd"></a>Velkommen til [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -25,6 +25,9 @@ Hvis du er revisor og har mange kunder, kan du bruge [!INCLUDE [d365acc](include
 Du kan få adgang til [!INCLUDE [d365acc](includes/d365acc_md.md)] ved at tilmelde dig fra [Dynamics 365 – Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants). Det er gratis, og det er hurtigt at komme i gang og føje kunder til dashboardet. Du kan finde flere oplysninger under [Introduktion til Accountant Hub](get-started.md).  
 
 I den aktuelle version af [!INCLUDE [d365acc](includes/d365acc_md.md)] kan du tilføje kunder, der bruger [!INCLUDE [d365fin](includes/d365fin_long_md.md)] til at køre virksomheden. Du kan finde flere oplysninger i [Føje klienter til dashboardet](add-client.md).  
+
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] er i øjeblikket i offentlig prøveversion på et begrænset antal markeder.
 
 ## <a name="see-also"></a>Se også
 [Kom i gang med Accountant Hub](get-started.md)  

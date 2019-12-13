@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: b96b5cbff2ec182ab1a7254ee3384a6d1869e3c4
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775423"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809029"
 ---
 # <a name="manage-profiles"></a>Administrere profiler
 Alle brugere af [!INCLUDE[d365fin](includes/d365fin_md.md)] tildeles en profil, der afspejler deres forretningsrolle, den afdeling, de arbejder i, eller en anden kategorisering. Med profilerne kan administratorer definere og styre centralt, hvad forskellige brugertyper der kan se og foretage sig i brugergrænsefladen, så de kan udføre deres forretningsopgaver på en effektiv måde.
@@ -22,7 +22,7 @@ Alle brugere af [!INCLUDE[d365fin](includes/d365fin_md.md)] tildeles en profil, 
 
 Som administrator kan du oprette og administrere profiler på siden **Profiler (roller)**. Hver profil har et kort, hvor du kan administrere forskellige indstillinger for den relaterede rolle, f.eks. rollenavnet, brugerindstillingerne, og hvilket rollecenter profilen bruger. Du kan finde flere oplysninger om brugerindstillinger og rollecentre i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
 
-Når du vil administrere brugerprofiler, skal de pågældende brugere først være oprettet og tilføjet via Office 365 Administration. Du kan derefter tildele rettigheder til hver bruger eller brugergruppe for at definere, hvilke funktioner de har tilladelse til at få vist og/eller redigere. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
+Når du vil administrere brugerprofiler, skal de pågældende brugere først være oprettet og tilføjet via Microsoft 365 Administration. Du kan derefter tildele rettigheder til hver bruger eller brugergruppe for at definere, hvilke funktioner de har tilladelse til at få vist og/eller redigere. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Sidetilpasning
 Du kan tilpasse sidelayout for en profil, så alle brugere, som profilen er tildelt til, kan se de tilpassede sider. Som administrator kan du tilpasse sider ved at bruge de samme funktioner som brugerne, når de foretager tilpasning. Du kan finde flere oplysninger under [Tilpasse sider til profiler](ui-personalization-manage.md).

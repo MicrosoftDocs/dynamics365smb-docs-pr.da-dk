@@ -1,8 +1,6 @@
 ---
 title: Designoplysninger - Reservation, ordresporing og aktionsmeddelelser | Microsoft Docs
 description: Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallelle funktionerne for ordresporing og aktionsmeddelelser.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1408c3e97ffd54f516bf18823442f3f986131038
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306840"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878433"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designoplysninger: Reservation, ordresporing og aktionsmeddelelser
 Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallelle funktionerne for ordresporing og aktionsmeddelelser.  
@@ -31,7 +29,7 @@ Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallell
 
  Reservationssystemet udgør også det strukturelle grundlag for varesporingssystemet. Du kan finde flere oplysninger i [Designoplysninger: varesporing](design-details-item-tracking.md).  
 
- Hvis du ønsker yderligere oplysninger om, hvordan reservationssytemet fungerer, kan du se hvidbogen "Reservationsposttabel" på [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ Hvis du ønsker yderligere oplysninger om, hvordan reservationssytemet fungerer, kan du se hvidbogen "Reservationsposttabel" på [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Reservation  
  En reservation er et fast link, der forbinder et bestemt behov og en bestemt forsyning med hinanden. Denne tilknytning påvirker den efterfølgende lagertransaktion direkte og sikrer en korrekt udligning af vareposter i forbindelse med kostberegning. En reservation tilsidesætter standardomkostningsmetoden for en vare. Du kan finde flere oplysninger i "Designoplysninger: Kostmetoder".  
@@ -137,7 +135,7 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  Følgende ordresporingsposter findes i tabellen **Reservationspost** på basis af data i tabellen.  
 
- ![Ordresporingsposter i tabellen Reservationspost](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Ordresporingsposter i tabellen Reservationspost](media/supply_planning_RTAM_1.png "forsyningsplanlægning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Løbenumre 8 og 9  
  For komponentbehovet for henholdsvis LOTA og LOTB oprettes der ordresporingslinks fra behovet i tabel 5407, **Prod.ordrekomponent**, til forsyningen i tabel 32 **Varepost**. Feltet **Reservationsstatus** indeholder **Sporing** for at angive, at disse poster er dynamiske ordresporingsbindinger mellem forsyning og behov.  
@@ -155,7 +153,7 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  Nu findes følgende ordresporingsposter i tabellen **Reservationspost**.  
 
- ![Ordresporingsposter i tabellen Reservationspost](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Ordresporingsposter i tabellen Reservationspost](media/supply_planning_RTAM_2.png "forsyningsplanlægning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Løbenumre 8 og 9  
  Ordresporingsposter til de to lotter af den komponent, der afspejler behovet i tabel 5407, ændres fra en reservationsstatus **Sporing** til **Overskud**. Årsagen er, at de forsyninger, som de var knyttet til tidligere, i tabel 32, er anvendt af overflytningsordren ved leverancen.  
@@ -169,7 +167,7 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  Nu findes følgende ordresporingsposter i tabellen **Reservationspost**.  
 
- ![Ordresporingsposter i tabellen Reservationspost](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Ordresporingsposter i tabellen Reservationspost](media/supply_planning_RTAM_3.png "forsyningsplanlægning_RTAM_3")  
 
  Ordresporingsposterne svarer nu til det første punkt i scenariet, før overflytningsordren blev bogført som kun leveret, bortset fra at komponentens poster nu har reservationsstatussen **Overskud**. Dette skyldes, at komponenten stadig er på lokation RØD, som er et tegn på, at feltet **Lokationskode** på produktionsordrekomponentlinjen indeholder **RØD** som angivet i opsætningsfeltet **Komponenter på lokation**. Den forsyning, der er allokeret til dette behov tidligere, er blevet overført til lokationen BLÅ og kan nu ikke fuldt spores, medmindre komponentbehov på produktionsordrelinjen ændres til lokationen BLÅ.  
 
@@ -177,14 +175,14 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  Nu findes følgende ordresporingsposter i tabellen **Reservationspost**.  
 
- ![Ordresporingsposter i tabellen Reservationspost](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Ordresporingsposter i tabellen Reservationspost](media/supply_planning_RTAM_4.png "forsyningsplanlægning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Løbenummer 21 og 22  
  Eftersom komponentbehovet er blevet ændret til lokationen Blå, og leveringen er tilgængelig som vareposter på lokationen Blå, er alle ordresporingsposter til de to lotnumre nu fuldt registreret, angivet ved reservationsstatus **Sporing**.  
 
  Feltet **Lotnr.** er nu udfyldt i ordresporingsposten for tabel 5407, fordi lotnumrene blev tildelt på produktionsordrelinjerne.  
 
- Hvis du ønsker flere eksempler på ordresporingsposter i tabellen **Reservationspost**, kan du se hvidbogen "Reservationsposttabel" på [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348) (kræver logon).
+ Hvis du ønsker flere eksempler på ordresporingsposter i tabellen **Reservationspost**, kan du se hvidbogen "Reservationsposttabel" på [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (kræver logon).
 
 ## <a name="action-messaging"></a>Aktionsmeddelelser  
  Når ordresporingssystemet registrerer en ubalance i ordrenetværket, oprettes der automatisk en aktionsmeddelelse for at give brugeren besked. Aktionsmeddelelser er systemgenererede kald til brugerhandling, som angiver detaljerne omkring ubalancen, og forslagene til, hvordan der genoprettes balance i ordrenetværket. De vises som planlægningslinjer på siden **Planlægningskladde**, når du vælger **Hent aktionsmeddelelser**. Desuden vises der aktionsmeddelelser i planlægningslinjer, der er oprettet af kørslen for at afspejle planlægningssystemets forslag om at gendanne balance i ordrenetværket. I begge tilfælde køres forslagene på ordrenetværk, når du vælger **Udfør aktionsmeddelelse**.  

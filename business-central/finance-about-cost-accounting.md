@@ -1,8 +1,6 @@
 ---
 title: Om omkostningsregnskab | Microsoft Docs
 description: Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 053a0ca21ff26b53cabcc8894ed1cd0e48c904b0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ab142468f152b6430d5454c29a5b663be954412
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302664"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879868"
 ---
 # <a name="about-cost-accounting"></a>Om omkostningsregnskab
 Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Omkostningsregnskabsoplysninger er udviklet til at analysere:  
@@ -39,7 +37,7 @@ Omkostningsregnskab har følgende hovedkomponenter:
 
 Følgende diagram viser arbejdsprocessen i omkostningsregnskab.  
 
-![Oversigt over regnskaber](media/costaccountingoverview.png "CostAccountingOverview")  
+![Oversigt over omkostningsregnskab](media/costaccountingoverview.png "OversigtOverOmkostningsregnskab")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Omkostningstyper, omkostningssteder og omkostningsobjekter  
 Du definerer omkostningstyper, omkostningssteder og omkostningsobjekter for at analysere, hvad omkostningerne er, hvor omkostningerne kommer fra, og hvem skal bære omkostningerne.  

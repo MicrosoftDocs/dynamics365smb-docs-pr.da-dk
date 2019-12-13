@@ -1,8 +1,6 @@
 ---
 title: Opsætning for serviceartikler og serviceartikelkomponenter | Microsoft Docs
 description: Få mere at vide om de ting, du skal konfigurere, før du kan bruge serviceartikler, herunder standardværdier som f.eks. svartid, kontraktrabatprocent og serviceprisgruppe.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 41c2a4ea5a79f7fe66eaae93c7bffa2c7bbe3d2e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 196f3d73827f03ce03e4990039779d8f814295ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316112"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877395"
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Konfigurere serviceartikler og serviceartikelkomponenter
 Hvis du vil arbejde med serviceartikler, skal du oprette følgende
@@ -41,7 +39,7 @@ Du tildeler serviceartikelgrupper til varer på **Vare**-kortet og til servicear
 ## <a name="to-set-up-service-item-components"></a>Sådan defineres serviceartikelkomponenter
 En serviceartikel kan bestå af flere komponenter, som kan udskiftes med reservedele, når varen repareres. Komponenterne defineres på siden **Komponentoversigt – serviceart**. Hvis du desuden vil definere komponenter for serviceartikler, som er styklister, kan du kopiere styklistevarerne og oprette dem som serviceartikelkomponenter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicevarer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceartikler**, og vælg derefter det relaterede link.
 2. Åbn den serviceartikel, som du vil definere komponenter for.  
 3. Vælg handlingen **Komponenter**. Siden **Komponentoversigt - serviceart.** åbnes.  
 4. Tilføj en ny komponent.  
@@ -49,7 +47,7 @@ En serviceartikel kan bestå af flere komponenter, som kan udskiftes med reserve
 6. I feltet **Nummer** skal du vælge den artikel eller serviceartikel, som er en komponent i serviceartiklen.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Sådan defineres serviceartikelkomponenter fra styklister
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicevarer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceartikler**, og vælg derefter det relaterede link.  
 2. Åbn den serviceartikel, som du vil definere komponenter for ud fra en stykliste.  
 3. Vælg handlingen **Komponenter**. Siden **Komponentoversigt - serviceart.** åbnes.  
 4. Vælg handlingen **Kopier fra stykliste**.  

@@ -8,39 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2019
+ms.date: 11/14/2019
 ms.author: edupont
-ms.openlocfilehash: 60c6574706aa873549f40a875eb5f4ac390ca93a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0df60e72db192f72cbda18882f99f6f66aabe4f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304680"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878625"
 ---
-# <a name="unsubscribe-remove-or-reset-included365finincludesd365fin_mdmd"></a>Opsige, fjerne eller nulstille [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Hvis du ikke længere vil bruge [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke din konto eller hente de licenser, der er fjernet fra din konto. Du skal bruge en anden fremgangsmåde, hvis du i øjeblikket bruger den gratis prøveversion, eller hvis du har et månedligt abonnement som en del af en Office 365-konto.  
+# <a name="unsubscribe-or-remove-includeprodshortincludesprodshortmd"></a>Opsig eller slet [!INCLUDE[prodshort](includes/prodshort.md)]
 
-På samme måde kan du nulstille den virksomhed, som du kan bruge i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan få et hurtigt overblik i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-bloggen](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
+Hvis du ikke længere vil bruge [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke din konto eller hente de licenser, der er fjernet fra din konto. Du skal bruge en anden fremgangsmåde, hvis du i øjeblikket bruger den gratis prøveversion, eller hvis du har et abonnement.  
+
+## <a name="closing-your-free-trial-of-includeprodshortincludesprodshortmd"></a>Lukke en gratis prøveversion af [!INCLUDE[prodshort](includes/prodshort.md)]
+
+Hvis du har tilmeldt dig den gratis prøveversion og ikke vil fortsætte med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen når som helst. Vi anbefaler, at du eksporterer eventuelle data, før du lukker din konto. 
+
+Du skal bede din Office 365-administrator om at fjerne prøveabonnementet fra din virksomhedskonto i [Microsoft 365 Administration](https://admin.microsoft.com/). 
+
+Hvis du har tilmeldt dig [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af en ikke-Office 365-virksomhedskonto, har du ikke en Office 365-administrator. I stedet skal du opsige abonnementet ved at ringe til [!INCLUDE[d365fin](includes/d365fin_md.md)]-annulleringsteamet ved at sende en mail til cancelbusinesscentra@microsoft.com. Du skal medtage navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer i meddelelsen, så vi kan identificere dig. Du kan finde disse oplysninger på siden **Hjælp og support**. Du kan finde flere oplysninger i [Ressourcer til hjælp og support](product-help-and-support.md).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365fin_mdmd-from-your-office-365-experience"></a>Opsige abonnement ved at fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Office 365-oplevelsen
-Hvis du har tegnet abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af en eksisterende Office 365-virksomhedskonto, skal du bede administratoren af Office 365 om at fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensen fra din brugerkonto. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fjernes fra din brugerkonto, og andre i virksomheden fortsætter abonnementet, har de stadig adgang til dine delte data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-virksomheden.  
 
-Hvis din virksomhed ønsker at opsige abonnementet på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan Office 365-administratoren fjerne abonnementet fra virksomhedens konto.  
+Hvis din virksomhed abonnerer på [!INCLUDE [prodshort](includes/prodshort.md)], men du som bruger ikke længere har brug for adgang, skal du bede administratoren eller din Dynamics 365-videresalgspartner om at fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-licensen fra din Office 365-brugerkonto. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fjernes fra din brugerkonto, og andre i virksomheden fortsætter abonnementet, har dine kollegaer stadig adgang til dine delte data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-virksomheden.  
 
-Brugerkonti og licenser administreres i [Office-portalen](https://portal.office.com). Kun administratorer kan fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-licenser fra brugerkonti eller fjerne abonnementet fra din virksomheds konto.  
+Hvis din virksomhed ønsker at opsige abonnementet på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan Dynamics 365-videresalgspartneren fjerne det betalte abonnement fra virksomhedskontoen. Du kan finde flere oplysninger under [Administration af Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i indholdet til udviklere og it-eksperter.  
 
-## <a name="closing-your-free-trial-of-included365finincludesd365fin_mdmd"></a>Lukke en gratis prøveversion af [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Hvis du har tilmeldt dig den gratis prøveversion og ikke vil fortsætte med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen når som helst. Vi anbefaler, at du eksporterer eventuelle data, før du lukker din konto.  
-
-For at lukke din konto skal du i øjeblikket kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-annulleringsteamet ved at sende en mail til cancelbusinesscentra@microsoft.com. Du skal medtage navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer i meddelelsen, så vi kan identificere dig. Det er nemmest at gøre dette ved at kopiere URL-adressen fra startsiden i dit [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-## <a name="unsubscribing-from-included365finincludesd365fin_mdmd-without-office-365"></a>Ophæve abonnementet på [!INCLUDE[d365fin](includes/d365fin_md.md)] uden Office 365
-Hvis du har tilmeldt dig [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af en ikke-Office 365-virksomhedskonto, har du ikke en Office 365-administrator. I stedet skal du opsige abonnementet ved at ringe til [!INCLUDE[d365fin](includes/d365fin_md.md)]-annulleringsteamet ved at sende en mail til cancelbusinesscentra@microsoft.com. Du skal medtage navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer i meddelelsen, så vi kan identificere dig. Det er nemmest at gøre dette ved at kopiere URL-adressen fra startsiden i dit [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-## <a name="resetting-your-included365finincludesd365fin_mdmd-experience"></a>Nulstilling af projekt [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelsen
-Hvis du har tilføjet data i din gratis [!INCLUDE[d365fin](includes/d365fin_md.md)]-prøveversion, og du vil begynde forfra med en ny oplevelse, kan du oprette en ny virksomhed og nulstille den første virksomhed. Hvis du åbner siden **Virksomheder**, kan du oprette en kopi af den aktuelle virksomhed, logge af og derefter logge på den nye virksomhed og derefter nulstille den oprindelige virksomhed.  
-> [!NOTE]  
->   Når du nulstiller en virksomhed, som du deler med andre fra din virksomhed, skal du sikre dig, at andre ikke er logget på, når du nulstiller virksomheden.  
+Brugerkonti og licenser administreres i [Microsoft 365 Administration](https://admin.microsoft.com/). Kun administratorer kan fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-licenser fra brugerkonti eller fjerne abonnementet fra din virksomheds konto.  
 
 ## <a name="removing-included365finincludesd365fin_mdmd-from-your-app-launcher"></a>Fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra din appstarter
 Hvis du vil skjule [!INCLUDE[d365fin](includes/d365fin_md.md)] fra din appstarter, kan du helt enkelt frigøre den. Der fjernes ingen data, og abonnementet annulleres ikke.  
@@ -49,5 +44,5 @@ Hvis du vil skjule [!INCLUDE[d365fin](includes/d365fin_md.md)] fra din appstarte
 [Introduktion](product-get-started.md)  
 [Oprettelse af nye virksomheder](about-new-company.md)  
 [Eksportere forretningsdata til Excel](about-export-data.md)  
-[Office-portal](https://portal.office.com)  
+[Microsoft 365 Administration](https://admin.microsoft.com/)  
 [Hvor længe varer prøveperioden, og hvordan kan jeg annullere?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
