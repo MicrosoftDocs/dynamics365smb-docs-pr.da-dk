@@ -9,16 +9,27 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 01/08/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8dc710cb95e82e535a1ee694f3aeb510be0a03b5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 336aa735b703d7924914f4180ce46fd00ea23479
+ms.sourcegitcommit: 70fe73040126960c813804d001b646f81cbf2f38
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311160"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943279"
 ---
 # <a name="the-microsoft-pay-extension"></a>Udvidelsen Microsoft Pay
+
+> [!IMPORTANT]
+> Med ikrafttræden den 8. februar 2020 vil ændringer i Microsoft Pay-tjenesten påvirke Microsoft Pay-udvidelsen i Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. På grund af de ændringer vil **Betal nu**-betalingslinks, som  Microsoft Pay-udvidelsen genererer for fakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)], ikke åbne Microsoft Pay efter den 8. februar. Kunder, der bruger udvidelsen, skal ændre deres konfiguration af betalingstjenester for at begynde at bruge PayPal-udvidelsen i stedet.<br /></br>
+>
+> Fra den 8. januar viser vi en meddelelse i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Meddelelsen vil indeholde et link til de indstillinger, du skal ændre, og til flere oplysninger. Efter den 8. februar vil Microsoft Pay-udvidelsen ikke længere være tilgængelig i [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+>
+> Ændringerne påvirker følgende versioner af Business Central:
+> - Microsoft Dynamics 365 Business Central, oktober 2018
+> - Microsoft Dynamics 365 Business Central, april 2019
+> - Microsoft Dynamics 365 Business Central, frigivelsesbølge 2 i 2019
+
 Kunder kræver hele tiden bedre kundeservice, både med hensyn til produkternes kvalitet, men også med hensyn til leverings- og betalingstjenester. Tjenesten Microsoft Pay hjælper dig med at øge din kundeservice.
 
 Microsoft Pay-udvidelsen føjer et Microsoft Pay-link til dine salgsdokumenter, så kunderne nemt kan betale ved hjælp af Microsoft Pay. Derefter kan du sende dokumenterne via e-mail for at yde højere kundeservice og reducere den tid, det tager for kundernes betalinger at gå ind på din bankkonto.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 11/11/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798519"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953679"
 ---
 # <a name="set-up-value-added-tax"></a>Konfigurere moms
 Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydelser. Momsbeløbet, der skal betales, kan variere afhængigt af flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] konfigurerer du moms til at angive de satser, der bruges til at beregne momsbeløb baseret på følgende:
@@ -37,7 +37,8 @@ Du anbefales at bruge den assisterede momsopsætningsvejledning, når du konfigu
 
 For at starte vejledningen skal du gøre følgende:
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Assisteret opsætning**.  
-2. Vælg **Konfigurer moms**.
+2. Vælg **Konfigurer moms**, og fuldfør trinnene.
+3. Når du har fuldført den assisterede opsætning, skal du gå til **Momsbogf.opsætning** og kontrollere, om du er nødt til at udfylde yderligere felter i henhold til din lokale landeversion. Du kan finde flere oplysninger i [Lokal funktionalitet i Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Sådan defineres momsregistreringsnumre for dit land eller område
 For at sikre, at brugere angiver gyldige momsregistreringsnumre, kan du definere formater til momsregistreringsnumre, som bruges i de lande eller områder, hvor du handler. [!INCLUDE[d365fin](includes/d365fin_md.md)] viser en fejlmeddelelse, når en bruger laver en fejl eller bruger et format, der er forkert for landet eller området.
@@ -269,7 +270,10 @@ Du bruger momssatsændringsværktøjet til at administrere ændringer i standard
 > [!IMPORTANT]  
 >  Efter konverteringen er feltet **Konverteret** valgt i tabellen **Momssatsændringslogpost**, og feltet **Konverteringsdato** i tabellen **Momssatsændringslogpost** viser konverteringsdatoen.  
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også  
-[Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)  
+[Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)      
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  
+[Lokal funktionalitet i Business Central](about-localization.md)

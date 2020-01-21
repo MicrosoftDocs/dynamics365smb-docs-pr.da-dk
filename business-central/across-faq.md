@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/06/2019
+ms.date: 12/12/2019
 ms.author: edupont
-ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896181"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910924"
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
 
@@ -111,7 +111,7 @@ Hvis du vil have vejledning fra Microsoft, skal du kontakte [Microsoft-salgsteam
 Din videresalgspartner kan også hjælpe dig med at håndtere teknisk support. Du kan finde flere oplysninger i [Ressourcer til hjælp og support](product-help-and-support.md).
 
 ## <a name="is-the-windows-client-supported"></a>Understøttes Windows-klienten?
-De første udgivelser af [!INCLUDE[prodshort](includes/prodshort.md)] i lokale miljøer omfattede en installeret klient afledt af Microsoft Dynamics NAV. Fra og med frigivelsesbølge 2 i 2019 vil denne ældre komponent, der refereres til som "Windows-klienten", ikke længere være tilgængelig for [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan finde flere oplysninger i [Ofte stillede spørgsmål om Windows-klient og Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
+De første udgivelser af [!INCLUDE[prodshort](includes/prodshort.md)] i lokale miljøer omfattede en installeret klient afledt af Microsoft Dynamics NAV. Fra og med frigivelsesbølge 2 i 2019 vil denne ældre komponent, der refereres til som "Windows-klienten", ikke længere være tilgængelig for [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan finde flere oplysninger i [Ofte stillede spørgsmål om Windows-klient og Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Se også
 [Introduktion](product-get-started.md)  

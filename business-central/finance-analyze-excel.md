@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302545"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952573"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysere regnskaber i Microsoft Excel
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se KPI'er og få vist en oversigt over virksomhedens økonomiske tilstand. Du kan også åbne lister i Excel og analysere dataene der. Men du kan også eksportere tunge regnskabsopgørelser, f.eks. balancen eller resultatopgørelsen, til Excel, analysere dataene og udskrive rapporterne.  
@@ -40,6 +40,8 @@ I Excel kan se du en fane, hvor dataene er opstillet for dig i det første regne
 Din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse indeholder et tilføjelsesprogram til Excel. Afhængigt af dit abonnement er du logget på automatisk, eller du skal angive de samme login-oplysninger, du bruger til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Med tilføjelsesprogrammet kan du få nye data fra [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan overføre ændringerne tilbage i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Men muligheden for at sende data tilbage til databasen er deaktiveret for Excel-regnskabsrapporter på listen ovenfor.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

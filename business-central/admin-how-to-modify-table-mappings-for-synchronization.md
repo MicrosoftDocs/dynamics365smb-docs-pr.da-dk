@@ -1,6 +1,6 @@
 ---
-title: Rediger tabeltilknytninger til synkronisering | Microsoft Docs
-description: Lær, hvordan du ændrer de tilknytninger til tabeller, der bruges til synkronisering af data mellem Business Central og Dynamics 365 Sales.
+title: Tilknytning af tabeller og felter til synkronisering | Microsoft Docs
+description: Få mere at vide om, hvordan du kan tilknytte tabeller og felter til synkronisering af data mellem Business central og Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,48 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 10/01/2019
+ms.date: 12/18/2019
 ms.author: bholtorf
-ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 371bd80c04917495ea1b35f214d10d716ed5f9ad
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308066"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943109"
 ---
-# <a name="modify-table-mappings-for-synchronization"></a>Rediger tabeltilknytninger til synkronisering
-En integrationstabeltilknytning kæder en tabel i [!INCLUDE[d365fin](includes/d365fin_md.md)] sammen med en integrationstabel for [!INCLUDE[crm_md](includes/crm_md.md)] enheden. For hver enhed i [!INCLUDE[crm_md](includes/crm_md.md)] du vil synkronisere med tilsvarende data i [!INCLUDE[d365fin](includes/d365fin_md.md)]], skal der være en tilsvarende integrationstabeltilknytning. En integrationstabeltilknytning indeholder flere indstillinger, som du kan bruge til at styre, hvordan records i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel og en [!INCLUDE[crm_md](includes/crm_md.md)]-enhed synkroniseres med de tilsvarende integrationssynkroniseringsjobs.  
+# <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilknytning af tabeller og felter til synkronisering
+Grundlaget for synkronisering af data i [!INCLUDE[d365fin](includes/d365fin_md.md)] med data i [!INCLUDE[crm_md](includes/crm_md.md)] er at tilknytte de tabeller og felter, der indeholder dataene, til hinanden. Tilknytningen sker via integrationstabeller. 
+
+## <a name="mapping-integration-tables"></a>Integrationstabeller til tilknytning
+En integrationstabel er en tabel i databasen [!INCLUDE[d365fin](includes/d365fin_md.md)], der repræsenterer en enhed som f.eks. en konti i [!INCLUDE[crm_md](includes/crm_md.md)]. Integrationstabeller omfatter felter, der svarer til felterne i tabellen for enheden [!INCLUDE[crm_md](includes/crm_md.md)]. Integrationstabellen Konto opretter f.eks. forbindelse til objektet Konti i [!INCLUDE[crm_md](includes/crm_md.md)]. Der skal være en integrationstabel, der tilknytter hver enhed i [!INCLUDE[crm_md](includes/crm_md.md)], som du vil synkronisere med data i [!INCLUDE[d365fin](includes/d365fin_md.md)]].
+
+Når du opretter forbindelsen mellem appsene, opretter [!INCLUDE[d365fin](includes/d365fin_md.md)] nogle standardtabel- og felttilknytninger. Hvis du vil, kan du ændre tabelknytningerne. Du kan finde flere oplysninger i [Standard salgsenhedstilknytning til synkronisering](admin-synchronizing-business-central-and-sales.md#standard-sales-entity-mapping-for-synchronization). Hvis du har ændret standardtilknytningerne og vil gendanne dine ændringer, skal du på siden **Opsætning af Dynamics 365-forbindelse** vælge **Brug standardopsætning af synkronisering**.
+
+> [!Note]
+> Hvis du bruger en lokal version af [!INCLUDE[d365fin](includes/d365fin_md.md)], gemmes integrationstabellens tilknytninger i tabellen 5335 Integrationstabeltilknytninger og kan ses og redigeres fra side 5335 Integrationstabeltilknytninger. Komplekse tilknytninger og synkroniseringsregler defineres i codeunit 5341. 
+
+### <a name="synchronization-rules"></a>Synkroniseringsregler
+En integrationstabeltilknytning indeholder også regler, der styrer, hvordan integrationssynkroniseringsjob synkroniserer poster i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel og et objekt i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger under [Synkroniseringsregler](admin-synchronizing-business-central-and-sales.md#synchronization-rules). 
+
+## <a name="mapping-integration-fields"></a>Felter til integrationstilknytning
+Tilknytningstabeller er kun det første trin. Du skal også tilknytte felterne i tabellerne. Integrationsfelttilknytninger sammenkæder felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller med tilsvarende felter i [!INCLUDE[crm_md](includes/crm_md.md)] og bestemmer, om data skal synkroniseres i hver tabel. Den standardtabeltilknytning, som [!INCLUDE[d365fin](includes/d365fin_md.md)] giver, omfatter felttilknytninger, men du kan ændre dem, hvis du vil. Du kan finde flere oplysninger i  [Visning af enhedstilknytninger](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).
+
+> [!Note]
+> Hvis du bruger en lokal version af [!INCLUDE[d365fin](includes/d365fin_md.md)], defineres integrationsfelttilknytninger i tabellen 5336 Integrationsfelttilknytning.
+
+## <a name="coupling-records"></a>Sammenkæde poster
+Sammenkædning knytter poster i [!INCLUDE[crm_md](includes/crm_md.md)] til poster i [!INCLUDE[d365fin](includes/d365fin_md.md)]. F.eks. sammenkædes [!INCLUDE[crm_md](includes/crm_md.md)]-konti typisk med kunder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sammenkædning af poster giver følgende fordele:
+
+* Den gør synkroniseringen mulig.
+* Brugere kan åbne poster i én forretningsapp på den anden. Dette kræver, at [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrationsløsningen er installeret i [!INCLUDE[crm_md](includes/crm_md.md)].
+
+Sammenkædninger kan konfigureres automatisk ved hjælp af synkroniseringsjob eller manuelt ved at redigere posten i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du finder flere oplysninger under [Synkronisering af data i [!INCLUDE[d365fin](includes/d365fin_md.md)]i [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md) og [Sammenkæd og synkroniser records manuelt](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)manuelt.
 
 ## <a name="filtering-records"></a>Filtrering af records  
- Hvis du ikke vil synkronisere alle records for en bestemt enhed i [!INCLUDE[crm_md](includes/crm_md.md)] eller tabel i [!INCLUDE[d365fin](includes/d365fin_md.md)], du kan indstille filtre for at begrænse antallet af records, der synkroniseres. Du indstiller filtre på siden **Integrationstilknytninger til tabeller**.  
+Hvis du ikke vil synkronisere alle records for en bestemt enhed i [!INCLUDE[crm_md](includes/crm_md.md)] eller tabel i [!INCLUDE[d365fin](includes/d365fin_md.md)], du kan indstille filtre for at begrænse antallet af records, der synkroniseres. Du indstiller filtre på siden **Integrationstilknytninger til tabeller**.  
 
 #### <a name="to-filter-records-for-synchronization"></a>Sådan filtrerer du records til synkronisering  
-1. Vælg ![elpære-ikonet, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig")-ikon, gå til **Integration af tabeltilknytning**, og vælg derefter det tilhørende link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
 
 2.  Du filtrerer [!INCLUDE[d365fin](includes/d365fin_md.md)] records ved at indstille feltet **Tabelfiltrering**.  
 
@@ -36,7 +61,7 @@ En integrationstabeltilknytning kæder en tabel i [!INCLUDE[d365fin](includes/d3
  SÆLGERE – Dynamics 365 Sales-synkroniseringsjob bruger f.eks. tabeltilknytningen SÆLGERE. Synkroniseringsjobbene kopierer data fra bruger-records i [!INCLUDE[crm_md](includes/crm_md.md)] til sælger-records i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du har konfigureret tabeltilknytningen til at oprette nye records for hver bruger i [!INCLUDE[crm_md](includes/crm_md.md)], der ikke allerede er sammenkædet med en sælger i [!INCLUDE[d365fin](includes/d365fin_md.md)], oprettes en ny sælger-record i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Sådan oprettes nye records under synkronisering  
-1. Vælg ![elpære-ikonet, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig")-ikon, gå til **Integration af tabeltilknytning**, og vælg derefter det tilhørende link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
 
 2.  Fjern markeringen i feltet **Synkroniser kun sammenkædede records** i tabeltilknytningsposten på listen.  
 
@@ -52,7 +77,7 @@ Hvis du installerer standardsynkroniseringsopsætningen, oprettes og bruges for 
 -   **CRMACCOUNT** bruges til at oprette og synkronisere nye konti i [!INCLUDE[crm_md](includes/crm_md.md)], baseret på en konto i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Sådan angiver du konfigurationsskabeloner i en tabeltilknytning  
-1. Vælg ![elpære-ikonet, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig")-ikon, gå til **Integration af tabeltilknytning**, og vælg derefter det tilhørende link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
 
 2.  I tabeltilknytningsposten på listen i feltet **Kode til tabelkonfigurationsskabelon**, skal du vælge den konfigurationsskabelon, der skal bruges til nye records i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

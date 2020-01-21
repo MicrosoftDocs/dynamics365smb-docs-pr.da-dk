@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 39fc89ee98ecd76bf292074466b1b70989a2f2e2
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 64dd9d1e4645b845c02872a8bc09f0925f4fa33c
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879011"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910548"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Konfigurere brugerkonti til integration med Dynamics 365 Sales
 Denne artikel indeholder en oversigt over opsætning af de brugerkonti, der kræves til at integrere [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -34,7 +34,7 @@ Du skal oprette en dedikeret brugerkonto i dit Office 365-abonnement, som både 
 > Brug ikke administratorkontoen til [!INCLUDE[crm_md](includes/crm_md.md)] til synkronisering. Hvis du gør det, afbrydes synkroniseringen.
 > For at undgå konstant synkronisering synkroniseres ændringer af data, der er foretaget af brugerkontoen til integration, desuden ikke. <!--What changes would this account make?--> Når der er oprettet forbindelse, anbefales det at angive adgangstilstanden til brugerkontoen til integration til ikke-interaktiv tilstand i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Oprette en ikke-interaktiv brugerkonto](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
-## <a name="setting-up-accounts-sales-people"></a>Konfigurere konti for sælgere
+## <a name="setting-up-accounts-for-salespeople"></a>Konfigurere konti for sælgere
 Du skal oprette brugerkonti i [!INCLUDE[crm_md](includes/crm_md.md)] for sælgere fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. For at gøre dette nemmere har Microsoft 365 Administration en Excel-skabelon, du kan bruge. På siden **Aktive brugere** skal du vælge **Flere** og derefter **Importér flere brugere**. Vælg **Download en CSV-fil kun med overskrifter**, og angiv derefter oplysningerne til sælgerne. Du kan få vist et eksempel ved at vælge **Download en CSV-fil med overskrifter og eksempler på brugeroplysninger**. Når du angiver oplysninger om brugerne, er næste trin i processen til import at tildele brugerlicenser til Dynamics 365 Customer Engagement-planen.  
 
 Når du importerer brugerne og tildeler dem licenser til Dynamics 365 Customer Engagement, skal du tildele brugerne til rollen **Sælger** i [!INCLUDE[crm_md](includes/crm_md.md)].

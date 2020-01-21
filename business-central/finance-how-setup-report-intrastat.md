@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 62fc3227c02656713afa1f890f7ea8acbce524be
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554154"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952766"
 ---
 # <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 Alle virksomheder i EU skal rapportere deres handel med andre EU-lande/områder. Du skal rapportere bevægelsen af varer til statistikmyndighederne i Danmark hver måned, og rapporten skal indleveres til skattemyndighederne. Dette omtales Intrastatrapportering. Du skal bruge siden **Intrastatkladde** til at udfærdige periodiske Intrastatrapporter.  
@@ -74,7 +74,7 @@ Alle varer, du køber eller sælger, skal have en varekode.
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Sådan angiver du, hvilke Intrastatrapportfelter der skal udfyldes
 I nogle lande, f.eks. Spanien og Storbritannien, kræver myndighederne, at Intrastatrapporter omfatter f.eks. leveringsformen for køb eller visse andre værdier, når salgsordren er over en bestemt grænse. På siden **Intrastat, opsætning** kan du vælge **Opsætning af Intrastatkontrolliste** for at gøre felter obligatoriske på siden **Intrastatkladde**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastat, Opsætning**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastat, opsætning**, og vælg derefter det relaterede link.
 2. Vælge handlingen **Opsætning af Intrastatkontrolliste**.
 3. På siden **Opsætning af Intrastatkontrolliste** skal du klikke på **Feltnavn** for at vælge det Intrastatrapportfelt, du vil gøre obligatorisk.
 
@@ -120,6 +120,8 @@ Da du skal sende en Intrastatrapport hver måned, og du opretter en ny kladde fo
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastatkladder**, og vælg derefter det relaterede link.  
 2. Vælg feltet **Kladdenavn** for at få vist indstillingerne.  
 3. Vælg de kladder, der skal slettes, og vælg derefter knappen **Slet**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Økonomistyring](finance.md)

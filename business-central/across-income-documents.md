@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3ff7d711e7a8f7bfe7acf44c8cd648dcb7a591e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 54ff8fe435012d1a6f00c70540f8dfccdc5901bc
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304848"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952862"
 ---
 # <a name="incoming-documents"></a>Indgående bilag
 Nogle forretningstransaktioner registreres ikke i [!INCLUDE[d365fin](includes/d365fin_md.md)] fra begyndelsen. I stedet sendes et eksternt forretningsdokument til din virksomhed som en vedhæftet fil i mail eller som en papirkopi, som du indscanne i en fil. Dette er typisk for køb, hvor sådanne indgående dokumentfiler repræsenterer betalingskvitteringer for udgifter eller mindre køb.
@@ -43,6 +43,8 @@ Det indgående dokument kan bestå af følgende primære aktiviteter:
 | --- | --- |
 | Konfigurer funktionen indgående dokumenter og oprette OCR tjenesten. |[Konfigurere indgående bilag](across-how-setup-income-documents.md) |
 | Opret indgående dokumentposter, tilknyt filer, brug OCR til at omdanne PDF-filer til elektroniske dokumenter, konverter elektroniske dokumenter til bilagsposter, overvåg bogførte salgs- og købsdokumenter fra indgående dokumentposter. |[Behandle indgående bilag](across-process-income-documents.md) |
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesincoming-documents-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315104"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953343"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
@@ -37,14 +37,14 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Sådan tilpasses en side via banneret **Tilpas**
 1. Åbn en side, du vil tilpasse.
-2. I øverste højre hjørne skal du vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "ikonet Indstillinger til rollecenter") og derefter vælge handlingen **Tilpas**.
+2. I øverste højre hjørne skal du vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter vælge handlingen **Tilpas**.
 
     Banneret **Tilpasning** vises øverst for at angive, at du kan begynde at foretage ændringer.
 
     > [!NOTE]
     > Hvis du vil navigere under tilpasningen, skal du bruge Ctrl + klikke på en handling, hvis den er fremhævet af pilespidsen.
 
-    Hvis du får vist ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst") eller ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning spærret") på banneret, kan du ikke tilpasse siden. Du kan finde flere detaljer i [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md).
+    Hvis du får vist ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst") eller ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning blokeret") på banneret, kan du ikke tilpasse siden. Du kan finde flere detaljer i [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md).
 
 3. Hvis du vil tilføje et felt, skal du vælge handlingen **+ Felt**.
 4. Træk og slip et felt på den ønskede placering på siden i sideruden **Føj felt til side**.
@@ -56,7 +56,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 
 |Hvad vil du foretage dig?|Hvordan du gør det|Kommentarer|
 |----|------------|-------|
-|Flytte noget, f.eks. et felt, en kolonne i listen, et felt, en handling eller en del|Peg et vilkårligt sted i det, du vil flytte, og træk det til den nye placering. Placeringen angives med enten en fed vandret eller lodret linje.<br /><br />![Kan ikke flytte her-ikon](media/personalization-cannot-move-here.png "Tilpasningstilstand – kan ikke flytte her-ikon"), betyder det, at du ikke kan flytte elementet til den valgte placering.|Dele er underinddelinger eller områder på en side, der indeholder elementer, f.eks. flere felter, en anden side, et diagram eller felter.<br /><br />Du kan finde flere oplysninger om tilpasning af handlinger i [Tilpasning af handlinger](ui-personalization-user.md#Actions). |
+|Flytte noget, f.eks. et felt, en kolonne i listen, et felt, en handling eller en del|Peg et vilkårligt sted i det, du vil flytte, og træk det til den nye placering. Placeringen angives med enten en fed vandret eller lodret linje.<br /><br />![Kan ikke flytte her-ikon](media/personalization-cannot-move-here.png "Tilpasningstilstand – kan ikke flytte her-ikon") angiver, at du ikke kan flytte elementet til den valgte placering.|Dele er underinddelinger eller områder på en side, der indeholder elementer, f.eks. flere felter, en anden side, et diagram eller felter.<br /><br />Du kan finde flere oplysninger om tilpasning af handlinger i [Tilpasning af handlinger](ui-personalization-user.md#Actions). |
 |Skjule noget, f.eks. et felt, en kolonne i listen, et felt, en handling eller en del.|Vælg pilespidsen, vælg <b>Skjul</b>.|Elementet vises nedtonet, når du er i tilpasningstilstand. Hvis det felt, du skjuler, også vises i overskriften til oversigtspanelet, når oversigtspanelet er skjult, vises feltet ikke længere der.|
 |Vise skjulte handlinger og felter.|For et nedtonet (skjult) element skal du vælge pilespidsen og derefter vælge <b>Vis</b>.|Det skjulte element er igen synligt.|
 |Tilføje et felt eller en kolonne.|Vælg handlingen <b>+ Felt</b> i banneret <b>Tilpas</b>.<br /></br>Ruden <b>Tilføj felt til side</b> vises til højre. Den viser de felter, du kan føje til siden.<br /><br />Hvis du vil tilføje et felt, skal du trække det fra ruden til den ønskede placering. Placeringen angives med enten en fed vandret eller lodret linje.|Hver side indeholder et foruddefineret sæt felter, der kan vises. Brug denne fremgangsmåde til at tilføje felter eller kolonner, der ikke tidligere er vist, eller til at vise felter, du har skjult.|
@@ -115,6 +115,8 @@ Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 - Ændringer, du foretager, træder i kraft på alle dine rollecentre. Hvis du f.eks. foretager en ændring på listen Debitorer, når rollecenteret er angivet til virksomhedsleder, vises også ændringen i også på siden **Debitorer**, når Rollecenter er indstillet til Salgsordrebehandler.
 - Ændringer af en side i en rude træder i kraft på siden, overalt hvor den vises.  
 - Du kan kun tilføje felter og kolonner fra en foruddefineret liste, der er baseret på siden. Du kan ikke oprette nye felter og kolonner.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Tilpasse sider til profiler](ui-personalization-manage.md)  

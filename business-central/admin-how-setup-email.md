@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 11/15/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1f24e6da71d32e162b107b0e0b9e01cb68cc302
-ms.sourcegitcommit: 23577ae8ecaaf09b58716c2b9f65e39c188e3661
+ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2810809"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910828"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
 Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne på siden SMTP-mailopsætning.
@@ -30,7 +30,7 @@ Du kan enten oprette mail manuelt, som beskrevet nedenfor, eller du kan få hjæ
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
-    > Hvis du bruger en konto, der kræver tofaktorgodkendelse, skal den adgangskode, du angiver i feltet **Adgangskode**, være den samme, som du bruger til dit abonnement på Office 365, og det skal være af typen **Appadgangskode**. Du kan finde flere oplysninger under [Administration af appadgangskoder til totrinsbekræftelse](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+    > Hvis du bruger en konto, der kræver tofaktorgodkendelse, skal den adgangskode, du angiver i feltet **Adgangskode**, være den samme, som du bruger til dit abonnement på Office 365, og det skal være af typen **Appadgangskode**. Du kan finde flere oplysninger under [Administration af appadgangskoder til totrinsbekræftelse](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords).
 3. Du kan også vælge handlingen **Anvend Office 365 Server-indstillinger** for at indsætte de oplysninger, der er allerede defineret til Office 365-abonnementet.
 4. Når alle felter er udfyldt korrekt, kan du vælge handlingen **Test mailopsætning**.
 5. Når testen er gennemført, skal du lukke siden.
@@ -51,7 +51,7 @@ Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INC
 2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **SMTP-mailopsætning** og dernæst vælge det relaterede link.
 3. Angiv erstatningsadressen i feltet **Send som**.
 4. Kopiér eller notér adressen i feltet **bruger-id**.
-5. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter**, og angiv derefter adressen fra feltet **bruger-id** i feltet **Send som**. Du kan finde flere oplysninger i [Administrere tilladelser for modtagere](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter**, og angiv derefter adressen fra feltet **bruger-id** i feltet **Send som**. Du kan finde flere oplysninger under [Brug af EAC til at tildele tilladelser til individuelle postkasser](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Sådan bruges erstatningsadressen i godkendelsesarbejdsgange
 1. I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **SMTP-mailopsætning** og dernæst vælge det relaterede link.

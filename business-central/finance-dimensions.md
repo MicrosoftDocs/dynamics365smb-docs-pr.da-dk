@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302376"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952622"
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
 For at gøre det lettere at analysere dokumenter som f.eks. salgsordrer kan du bruge dimensioner. Dimensioner er attributter og værdier, der kategoriserer poster, så du kan spore og analysere dem. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
@@ -56,7 +56,7 @@ Når dimensioner og værdier konfigureres, kan du definere globale dimensioner o
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Sådan konfigureres standarddimensioner for kunder, leverandører og andre konti
 Du kan tildele en standarddimension for en specifik konto. Dimensionen kopieres til kladden eller dokumentet, når du angiver kontonummeret på en linje, men du kan slette og ændre koden på linjen, hvis det er relevant. Du kan også oprette en dimension, der kræves til bogføring af en post med en bestemt type konto.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensioner**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensioner**, og vælg dernæst det relaterede link.  
 2.  På siden **Dimensioner** skal du vælge den relevante dimension og derefter vælge handlingen **Kontotype-standarddim**.  
 4.  Udfyld felterne for hver ny linje, du vil oprette. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -83,7 +83,7 @@ Forskellige kontotyper, f.eks. en debitorkonto eller en varekonto, kan have fors
 ### <a name="to-set-up-dimension-combinations"></a>Sådan oprettes kombinationer af dimensioner  
 For at undgå bogføringsposter med modstridende eller irrelevante dimensioner kan du blokere eller begrænse bestemte kombinationer af to dimensioner. Hvis en dimensionskombination er blokeret, kan du ikke bogføre dimensionerne i samme post, uanset hvad dimensionsværdierne er. En begrænset dimensionskombination tillader bogføring af begge dimensioner i samme post, men kun med visse kombinationer af dimensionsværdier.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensionskombinationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensionskombinationer**, og vælg dernæst det relaterede link.  
 2.  På siden **Dimensionskombinationer** skal du vælge feltet med dimensionskombinationen og vælge en af følgende indstillinger.  
 
     |Felt|Beskrivelse|
@@ -115,7 +115,7 @@ Globale dimensioner og genvejsdimensioner kan bruges som filter overalt i [!INCL
 2. Udfyld felterne i oversigtspanelet **Dimensioner**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Sådan ændres globale dimensioner
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rediger globale dimensioner**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rediger globale dimensioner**, og vælg dernæst det relaterede link.
 2. Placer markøren over handlinger og felter på siden for at se, hvordan du kan ændre globale dimensioner og genvejsdimensioner.
 
 ### <a name="example-of-dimension-setup"></a>Eksempel på dimensionsopsætning
@@ -208,6 +208,8 @@ Når du bogfører dokumenter eller kladdelinjer, der indeholder dimensioner, kan
 |Forkert dimensionsværdikode for standarddimensionen hvor feltet **Værdibogføring** indeholder **Samme kode**|– Vælg %1 %2 til %3 %4.<br />– Vælg %1 %2 til %3 %4 for %5 %6|– Ret feltet **Værdibogføring** på siden **Standarddimension**.<br />– Angiv den krævede dimensionsværdi for den modstridende dimension i dimensionsgruppen.|
 |Ikke-tom dimensionsværdikode for tom standarddimension hvor feltet **Værdibogføring** indeholder **Samme kode**|– %1 %2 skal være tom.<br />– %1 %2 skal være tom for %3 %4.|– Ret feltet **Værdibogføring** på siden **Standarddimension**.<br />– Angiv en tom dimensionsværdikode for den modstridende dimension i dimensionsgruppen.|
 |Uventet dimensionsværdi for standarddimensionen hvor feltet **Værdibogføring** indeholder **Ingen kode**|– %1 %2 må ikke angives.<br />– %1 %2 må ikke angives for %3 %4|– Ret feltet **Værdibogføring** på siden **Standarddimension**.<br />– Fjern den uoverensstemmende linje fra dimensionsgruppen.|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Business Intelligence](bi.md)  

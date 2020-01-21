@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9700b3453e43b1f692d1e98c2feab225b57e7c01
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 0b93073c8d8c6ad639d27644719c4c5b40cda6fe
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882586"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952646"
 ---
 # <a name="accounting-for-costs"></a>Regnskab for omkostninger
 Omkostningsregnskab bruges til at hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Se følgende emner for at komme i gang med omkostningsregnskab.  
@@ -28,8 +28,9 @@ Omkostningsregnskab bruges til at hjælpe dig med at forstå omkostningerne til 
 |Overføre finansposter til omkostningsposter.|[Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)|  
 |Alloker omkostninger.|[Definere og allokere omkostninger](finance-define-and-allocate-costs.md)|  
 |Lær om processerne ved oprettelse af omkostningsbudgetter.|[Oprette omkostningsbudgetter](finance-create-cost-budgets.md)|
-|Annullere omkostningsbudgetposter fra omkostningsbudgetregistret.|[Sletning af omkostningsbudgetposter](finance-how-to-delete-cost-budget-entries.md)| 
+|Annullere omkostningsbudgetposter fra omkostningsbudgetregistret.|[Sletning af omkostningsbudgetposter](finance-how-to-delete-cost-budget-entries.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-cost-accounting-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også  
 [Finans](finance.md)  

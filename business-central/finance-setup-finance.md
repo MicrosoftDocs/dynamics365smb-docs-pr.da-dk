@@ -10,19 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: fc8f52e5ef9fdeb8a2add9cf030a348012f25366
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798495"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953655"
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
-For at du kan komme hurtigt i gang, omfatter [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurationer for de fleste økonomiske processer. Du kan ændre konfigurationerne, så de passer til din virksomhed. På rollecenteret kan du f.eks. bruge en assisteret opsætningsvejledning til at angive satsen for salgsmoms for din lokation.  
+Før du kan begynde at køre din virksomhed, skal du angive regler og standarder for, hvordan du vil administrere finansprocesser for den pågældende virksomhed. Du starter med at definere kernen i regnskabets poster- kontoplanen. Derefter definerer du bogføringsgrupper, som gør det mere effektivt, når du skal tildele standardkonti til finanspostering til kunder, leverandører og varer.
 
-Der er dog nogle ting, du selv skal angive. Det kan f.eks. være, hvis du vil bruge dimensioner som udgangspunkt for business intelligence.  
+Noget opsætning af finans kan udføres automatisk med assisterede opsætningsvejledninger, mens andet skal udføres manuelt. Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).
+
+Du kan bruge dimensioner til at føje forskellige typer oplysninger til hver transaktion. Du kan konfigurere de grundlæggende dimensioner i regnskabet, f.eks. Projekter og Afdelinger. Senere kan du tilføje flere dimensioner, når du får brug for dem, og du kan definere midlertidige dimensioner til brug i en begrænset periode, f.eks. i forbindelse med en salgskampagne. Du kan finde flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
+
+Mange af opsætningsopgaverne skal være fuldført, før du kan begynde at registrere finansielle transaktioner, men de fleste indstillinger kan ændres på et senere tidspunkt. Nogle af opsætningsopgaverne er valgfri, f.eks. kan du kun definere Intercompany-bogføring og konsolidering, hvis du arbejder med flere regnskaber. Nogle opsætningsopgaver, f.eks. angivelse af den periode, hvor bogføring er tilladt, skal måske gentages periodisk.  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -46,11 +50,13 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Oprette Intrastatrapportering og sende rapporten til en myndighed | [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
 |Kontrollér, at en post i en finanskladde knyttes til flere forskellige konti, når du bogfører kladden, enten efter antal, procent eller beløb.|[Bruge fordelingsnøgler i finanskladder](ui-how-use-allocation-keys-general-journals.md)|
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
-[Håndtere bankkonti](bank-manage-bank-accounts.md)  
+[Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
-[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

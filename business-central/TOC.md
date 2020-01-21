@@ -5,6 +5,15 @@
 ## [Minimumkrav](product-requirements.md)
 ## [Ofte stillede spørgsmål](across-faq.md)
 ## [Ressourcer til hjælp og support](product-help-and-support.md)
+## [Blive klar til at handle](ui-get-ready-business.md)
+## [Oversigt over forretningsfunktioner](across-business-functionality.md)
+## [Din adgang til den intelligente sky med Business Central](about-intelligent-cloud.md)
+## [Besøg vores videobibliotek](across-videos.md)
+## Prøveversioner og abonnementer
+### [Oversigt](across-preview.md)
+### [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
+### [Udvide din prøveversion](admin-extend-trial.md)
+### [Opsig eller fjern Business Central](admin-cancel.md)
 ## Find undervisning
 ### [Undervisningskatalog](readiness/readiness-learning-catalog.md)
 ### [Undervisningskatalog for forretningsbeslutningstagere](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +22,6 @@
 ### [Undervisningskatalog for funktionelle konsulenter](readiness/readiness-learning-functional-consultants.md)
 ### [Undervisningskatalog for førsalgspartnere](readiness/readiness-learning-presales.md)
 ### [Undervisningskatalog for sælgere](readiness/readiness-learning-sales.md)
-
-## [Blive klar til at handle](ui-get-ready-business.md)
-## [Oversigt over forretningsfunktioner](across-business-functionality.md)
-## [Prøveversioner og abonnementer](across-preview.md)
-### [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
-### [Opsig eller fjern Business Central](admin-cancel.md)
-## [Din adgang til den intelligente sky med Business Central](about-intelligent-cloud.md)
-## [Besøg vores videobibliotek](across-videos.md)
 ## Forhandlere og partnere
 ### [Blive forhandler af](product-sell.md)
 ### [Udvide Business Central](about-develop-extensions.md)
@@ -225,8 +226,8 @@
 ### [Bruge Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)
 ## Bruge Power Automate sammen med Business Central
 ### [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)
-## Anvend Power Apps sammen med Business Central
-### [Opret forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps](across-how-use-financials-data-source-powerapps.md)
+## Bruge Power Apps sammen med Business Central
+### [Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps](across-how-use-financials-data-source-powerapps.md)
 ## [Skifte fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
 ## [Få Business Central på din mobilenhed](install-mobile-app.md)
 ## [Massefakturering for Microsoft Bookings](finance-bookings.md)
@@ -314,7 +315,7 @@
 #### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Opdatere valutakurser](finance-how-update-currencies.md)
 #### [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Feltkobling, når du eksporterer betalingsfiler ved hjælp af tjeneste til konvertering af bankdata](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Felttilknytning for AMC Banking365 Fundamentals-udvidelse](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Opsætning
 ## [Oversigt](admin-setup-and-administration.md)
@@ -369,8 +370,8 @@
 ### [Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Konfigurere en Dynamics 365 Sales-forbindelse](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkronisering af Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Rediger tabeltilknytninger til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Synkroniser tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)
+### [Tilknytning af tabeller og felter til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Synkronisere tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Fejlfinding i forbindelse med synkroniseringsfejl](admin-troubleshoot-sales-synchronization.md)
 
@@ -383,7 +384,8 @@
 #### [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)
 #### [Gennemse eller udligne betalinger manuelt efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md)
 #### [Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md)
-#### [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Knytte tekst på tilbagevendende betalinger til automatisk udligning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md)
 ### [Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter](receivables-how-apply-sales-transactions-manually.md)
 ### [Indhente udestående beløb](receivables-collect-outstanding-balances.md)
@@ -415,7 +417,7 @@
 ### [Afstemme kreditorbetalinger med udbetalingskladden eller fra kreditorposter](payables-how-apply-purchase-transactions-manually.md)
 ### [Indhente udestående beløb](receivables-collect-outstanding-balances.md)
 ### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-### [Blokere debitorer](receivables-how-block-customers.md)
+### [Spærre kreditorer](payables-how-block-vendors.md)
 ### [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)
 ### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Udvidelsen Forudsigelse af forsinket betaling](ui-extensions-late-payment-prediction.md)
@@ -426,11 +428,10 @@
 ### [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md)
 ### [Rette forudbetalinger](finance-how-to-correct-prepayments.md)
 
-## Håndtere bankkonti
+## Bankkontoafstemning
 ### [Oversigt](bank-manage-bank-accounts.md)
+### [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)
 ### [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Afstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md)  
-### [Overføre bankbeløb](bank-how-transfer-bank-funds.md)
 
 ## Administrere Intercompany-transaktioner (IC)
 ### [Oversigt](intercompany-manage.md)
@@ -499,6 +500,7 @@
 ## [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)
 ## [Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md)
+## [Overføre bankbeløb](bank-how-transfer-bank-funds.md)
 ## [Revisoroplevelser i Business Central](finance-accounting.md)
 
 # Business Intelligence
@@ -924,10 +926,29 @@
 
 ## Tjekkiet
 ### [Oversigt](LocalFunctionality/Czech/czech-local-functionality.md)
+### Grundlæggende Finans  
+#### [Finans](LocalFunctionality/Czech/finance.md)
+#### [Handlinger ved årsafslutning](LocalFunctionality/Czech/year-close-operations.md)
+#### [Udligning af finansposter](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Valutakursopdatering](LocalFunctionality/Czech/exchange-rate-update.md)
 ### Moms
+#### [Finans – moms](LocalFunctionality/Czech/finance-vat.md)
 #### [Kontrolrapporten moms](LocalFunctionality/Czech/vat-control-report.md)
-### Banktransaktioiner og betalinger
+### Anlægsaktiver
+#### [Anlægsaktiver](LocalFunctionality/Czech/fixed-assets.md)
+### Banktransaktioner og betalinger
+#### [Bankfunktion](LocalFunctionality/Czech/bank-feature.md)
+#### [Likviditetsstyring](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Registrering af salg (EET)](LocalFunctionality/Czech/eet.md)
+#### [Forskudsbetalinger](LocalFunctionality/Czech/advances.md)
+### Likviditet
+#### [Likviditet](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Lager
+#### [Lagerbeholdning](LocalFunctionality/Czech/inventory.md)
+### Generelt
+#### [Udvidet brugerkontrol](LocalFunctionality/Czech/general.md)
+#### [Bedste fremgangsmåder](LocalFunctionality/Czech/best-practices.md)
 
 ## Danmark
 ### [Oversigt](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1092,6 +1113,7 @@
 ## Mexico
 ### [Oversigt](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Skat
+#### [Oprette og generere DIOT-rapporter](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Mexicansk salgsmoms](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Oprette forbrugsafgift og købsmoms](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Oprette urealiseret moms og kontantrabatter på salg](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1423,7 +1445,6 @@
 #### [Udvidelsen Britiske GetAddress.io-postnumre](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Konfigurere britisk GetAddress.io-postnummerudvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Angive eksterne bilagsnumre](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Udskrive rapporter om direkte salgs- og købsoplysninger](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## USA
 ### [Oversigt](LocalFunctionality/UnitedStates/united-states-local-functionality.md)

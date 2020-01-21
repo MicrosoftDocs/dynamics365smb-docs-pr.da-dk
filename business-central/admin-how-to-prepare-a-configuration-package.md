@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879222"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910608"
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
 Når du konfigurerer en ny virksomhed, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data). 
 
 For at hjælpe din kunde med at bruge konfigurationspakken, kan du føje et spørgeskema eller et spørgeskemasæt til pakken. Spørgeskemaet kan hjælpe kunden med at forstå de forskellige konfigurationsindstillinger. Typisk oprettes spørgeskemaer for større konfigurationstabeller, hvor en kunde muligvis kræver yderligere vejledning om, hvordan der vælges en relevant indstilling. Du kan finde flere oplysninger i [Indsaml debitoropsætningsværdier](admin-gather-customer-setup-values.md).
 
-Kontrollér, at du er på rollecenteret RapidStart Services-implementering. Du kan finde flere oplysninger i [Bruge rollecentret RapidStart Services-implementering](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## <a name="before-you-create-a-configuration-package"></a>Før du opretter en konfigurationspakke
+Der er nogle ting, du skal overveje, før du opretter en konfigurationspakke, fordi de vil påvirke dig eller din kundes mulighed for at importere den. 
 
-> [!IMPORTANT]  
->  Ved eksport og import af konfigurationspakker mellem to virksomhedsdatabaser, skal databaserne har samme skema for at sikre, at alle data er blevet overført. Dette betyder, at databaserne skal have den samme tabel- og feltstruktur, hvor tabellerne har samme primære nøgler, og felter har samme id'er og datatyper.  
->   
->  Du kan indlæse konfigurationspakker, der er eksporteret fra en database med et andet skema end måldatabasen. Men tabeller eller felter i konfigurationspakken, der mangler i måldatabasen, importeres ikke. Tabeller med forskellige primære nøgler og felter med forskellige datatyper importeres heller ikke korrekt. Hvis konfigurationspakken indeholder tabellen **50000 kunder**, hvor primærnøglen er **Code20**, og databasen, som du importerer pakken til, indeholder tabellen **50000 debitorbankkonto**, der har primærnøglen **Code20 + Code 20**, så importeres data ikke.  
+### <a name="tables-that-contain-posted-entries"></a>Tabeller, der indeholder bogførte poster
+Du kan ikke importere data til tabeller, der indeholder bogførte poster, f.eks. tabellerne for debitor-, kreditor- og vareposter, så du bør ikke medtage disse data i konfigurationspakken. Du kan føje poster til disse tabeller, når du har importeret konfigurationspakken, ved hjælp af kladder til bogføring af posterne. Du finder flere oplysninger i [Bogføring af dokumenter og kladder](ui-post-documents-journals.md).
+
+### <a name="licensing"></a>Licensering
+Licensen skal indeholde de tabeller, du opdaterer. Hvis du er usikker, kan siden **Konfigurationskladden** hjælpe. Hvis licensen indeholder tabellen, er afkrydsningsfeltet **Tabel, der er givet i licens** markeret.  
+
+### <a name="permissions"></a>Rettigheder
+Processen med at oprette og importere en konfigurationspakke omfatter følgende gældende rettigheder for alle tabeller i pakken: 
+
+* Den bruger, der eksporterer data til konfigurationspakken, skal have gældende rettigheder for **Læse**.
+* Den bruger, der importerer data til konfigurationspakken, skal have gældende rettigheder for **Indsæt** og **Rediger**.
+
+### <a name="database-schema"></a>Databaseskema
+Ved eksport og import af konfigurationspakker mellem to virksomhedsdatabaser, skal databaserne har samme skema for at sikre, at alle data er blevet overført. Dette betyder, at databaserne skal have den samme tabel- og feltstruktur, hvor tabellerne har samme primære nøgler, og felter har samme id'er og datatyper.  
+
+Du kan indlæse konfigurationspakker, der er eksporteret fra en database med et andet skema end måldatabasen. Men tabeller eller felter i konfigurationspakken, der mangler i måldatabasen, importeres ikke. Tabeller med forskellige primære nøgler og felter med forskellige datatyper importeres heller ikke korrekt. Hvis konfigurationspakken indeholder tabellen **50000 kunder**, hvor primærnøglen er **Code20**, og databasen, som du importerer pakken til, indeholder tabellen **50000 debitorbankkonto**, der har primærnøglen **Code20 + Code 20**, så importeres data ikke.  
 
 ## <a name="to-create-a-configuration-package"></a>Oprette en konfigurationspakke  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  

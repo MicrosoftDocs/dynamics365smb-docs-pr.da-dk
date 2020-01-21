@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774839"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911115"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til for
 |Esc|Lukke den aktuelle side eller rullelisten.|
 |Tab|Flytte fokus til det næste kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
 |Skift+Tab|Flytte fokus til det forrige kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
+|J og N|Aktivér knapperne **Ja** og **Nej** i dialogbokse. Dette er sprogunderstøttet. Tryk for eksempel på J i Tyskland for at aktivere en **Ja**-knap.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastaturgenveje på lister
 
@@ -141,6 +142,7 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 |Alt+N |Åbne en side og oprette en ny post – på samme måde som ved valg af handlingen **Ny**. |
 |Alt+Skift+N |Lukke en side og åbne en ny side for at oprette en ny post – på samme måde som ved valg af handlingen **OK og ny**. |
 |Alt+Skift+W |Åbne det aktuelle kort eller dokument i et nyt vindue. Du kan finde flere oplysninger under [Multitasking på tværs af flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Gem og luk siden.|
 |Ctrl+Pil ned|Åbne den næste post for en enhed.|
 |Ctrl+Pil op |Åbne den forrige post for en enhed.|
 |Ctrl+Insert |Indsætte en ny linje i dokumenter.|

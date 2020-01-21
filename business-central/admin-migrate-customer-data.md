@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896177"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918210"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
@@ -31,13 +31,13 @@ Når du opretter et nyt virksomhed, kan du importere virksomhedsindstillinger fo
 > [!NOTE]  
 >  Du kan ikke omdøbe en fil, der ikke allerede er en RapidStart Services-konfigurationspakke, til en .rapidstart-konfigurationspakkefil og derefter forsøge at importere den. Hvis du prøver at gøre det, modtager du en fejlmeddelelse.  
 
-Før du begynder, skal du sørge for, at du er på rollecenteret RapidStart Services-implementering.
+Før du starter, skal du sikre dig, at du har tilladelse til at køre RapidStart Services-objekterne. Du kan f.eks. have rettighedssættet SUPER eller være en intern eller delegeret administrator. Vi anbefaler også, at du er i et rollecenter med links til RapidStart Services, f.eks. rollecentret Administration. Du kan finde flere oplysninger under [Sådan ændres rollen](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
->  Ved eksport og import af konfigurationspakker mellem to virksomhedsdatabaser, skal databaserne har samme skema for at sikre, at alle data er blevet overført. Dette betyder, at databaserne skal have den samme tabel- og feltstruktur, hvor tabellerne har samme primære nøgler, og felter har samme id'er og datatyper.  
->   
+> Ved eksport og import af konfigurationspakker mellem to virksomhedsdatabaser, skal databaserne har samme skema for at sikre, at alle data er blevet overført. Dette betyder, at databaserne skal have den samme tabel- og feltstruktur, hvor tabellerne har samme primære nøgler, og felter har samme id'er og datatyper.  
+>
 >  Du kan indlæse konfigurationspakker, der er eksporteret fra en database med et andet skema end måldatabasen. Men tabeller eller felter i konfigurationspakken, der mangler i måldatabasen, importeres ikke.
->   
+>
 > Tabeller, der har forskellige primære nøgler, og felter, der har forskellige datatyper, vil heller ikke blive importeret korrekt. Hvis konfigurationspakken indeholder tabellen **50000 Customer**, hvor primærnøgle **Code20**, og databasen, som du importerer pakken til, indeholder tabellen **50000 debitorbankkonto**, der har primærnøglen **Code20 + kode 20**, importeres data ikke.  
 
 1. Åbn den nye virksomhed.  
@@ -56,7 +56,11 @@ Før du begynder, skal du sørge for, at du er på rollecenteret RapidStart Serv
 Hvis tabellerne ikke opfylder dine behov, kan du oprette en eller flere nye dataoverflytningsfiler. Hvis filerne opfylder dine behov, kan du fortsætte med dataoverflytningen ved hjælp af Excel- eller XML-filer.
 
 ## <a name="to-create-a-data-migration-file"></a>Sådan oprettes en dataoverflytningsfil
-Du kan oprette nye dataoverflytningsfiler og tilpasse dem til din virksomheds behov. Bemærk, at en fil kun kan bruges til at overflytte et felt, hvis dets egenskab **FieldClass** er indstillet til **Normal**.  
+
+Du kan oprette nye dataoverflytningsfiler og tilpasse dem til din virksomheds behov.  
+
+> [!TIP]
+> En fil kan kun bruges til at overflytte et felt, hvis dens egenskab **FieldClass** er indstillet til **Normal**.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakke**, og vælg derefter det relaterede link.  
 2. Vælg og åbn den pakke, du vil bruge til at overføre data, og vælg derefter handlingen **Hent tabeller**. Siden **Hent pakketabel** åbnes.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809344"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943205"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 [!INCLUDE[d365fin](includes/d365fin_md.md)]-sikkerhedssystemet giver dig mulighed for at styre, hvilke objekter en bruger kan få adgang til inden for hver database eller hvert miljø. Du kan angive for hver bruger, om de kan læse, ændre eller indtaste data i de valgte databaseobjekter. Du kan finde flere oplysninger ved at se [Datasikkerhed](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjælp til udviklere og it-eksperter for [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -120,7 +120,7 @@ I hvert af felterne for de fem adgangstyper **Læserettighed**, **Indsætteretti
 |Indstilling|Beskrivelse|Placeringsniveau|
 |------|-----------|
 |**Ja**|Brugeren kan udføre handlingen på det pågældende objekt.|Højeste|
-|**Indirekte**|Brugeren kan udføre handlingen på det pågældende objekt, men kun via et relateret objekt, som brugeren har fuld adgang til.|Næsthøjeste|
+|**Indirekte**|Brugeren kan udføre handlingen på det pågældende objekt, men kun via et relateret objekt, som brugeren har fuld adgang til. Du kan finde flere oplysninger om indirekte rettigheder [Rettighedsegenskab](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i hjælpen til udviklere og it-eksperter|Næsthøjeste|
 |**Tomt**|Brugeren kan ikke udføre handlingen på det pågældende objekt.|Laveste|
 
 ### <a name="example---indirect-permission"></a>Eksempel - indirekte rettighed

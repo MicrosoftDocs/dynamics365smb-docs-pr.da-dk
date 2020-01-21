@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 0e47446455da81dc7ca197e769154d4a3dc5f4a1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1583c17b63df4c4db37eec20ab204ef235d47512
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300853"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952959"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdata til Excel
 Hvis du vil arbejde med dine data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel, kan du åbne alle lister i Excel og arbejde med dem der. På samme måde, hvis du vil annullere dit abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du eksportere dataene til Excel, så du kan tage dem med dig.
@@ -66,9 +66,11 @@ Det anbefales, at du også overvejer at eksportere data fra følgende sider:
 > [!NOTE]  
 >   Hvis du har oprettet mere end én virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du eksportere de relevante data fra hver virksomhed.
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Se også
 [Annullere dit abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
-[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
 [Finans](finance.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  

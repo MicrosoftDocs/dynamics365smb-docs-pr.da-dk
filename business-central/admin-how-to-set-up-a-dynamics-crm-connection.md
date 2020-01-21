@@ -10,22 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879279"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910732"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Konfigurere en forbindelse til Dynamics 365 Sales
-Hvis der skal integreres med [!INCLUDE[crm_md](includes/crm_md.md)], skal du konfigurere en forbindelse mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
+Dette emne beskriver, hvordan du konfigurerer en forbindelse mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Før du starter
-Før du begynder at oprette forbindelse til programmerne, er der nogle oplysninger, der kan være nyttige at have ved hånden:  
+Før du opretter forbindelsen, er der nogle oplysninger, du skal have klar:  
 
-* En URL-adresse til din [!INCLUDE[crm_md](includes/crm_md.md)]-app. Du kan hurtigt få URL-adressen ved at åbne [!INCLUDE[crm_md](includes/crm_md.md)] og kopiere URL-adressen og indsætte den i feltet **URL-adresse til Dynamics 365 Sales** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] retter formateringen for dig.  
+* En URL-adresse til din [!INCLUDE[crm_md](includes/crm_md.md)]-app. Du kan hurtigt få URL-adressen ved at åbne [!INCLUDE[crm_md](includes/crm_md.md)], kopiere URL-adressen og indsætte den i feltet **URL-adresse til Dynamics 365 Sales** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] retter formateringen for dig.  
 * Et brugernavn og adgangskode for en brugerkonto, der udelukkende bruges til integrationen.  
 * Brugernavn og adgangskode til den konto, der har administratorrettigheder.  
 

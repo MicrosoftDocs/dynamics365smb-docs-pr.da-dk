@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301536"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911091"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
@@ -31,7 +31,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Udligne indgående betalinger, afstemme bankkonti under betalingsudligning og indhente udestående beløb. |[Administrere tilgodehavender](receivables-manage-receivables.md) |
 | Foretage indbetalinger, udligne udgående betalinger og arbejde med check. |[Administrere skyldige beløb](payables-manage-payables.md) |
 |Få dine debitorer til at sende betaling, før du sender til dem, eller send betaling til dine kreditorer, før de sender til dig.|[Fakturere forudbetalinger](finance-invoice-prepayments.md)|
-| Afstemme bankkonti og overføre beløb mellem bankkonti. |[Håndtere bankkonti](bank-manage-bank-accounts.md) |
+| Afstemme bankkonti og overføre beløb mellem bankkonti. |[Bankkontoafstemning](bank-manage-bank-accounts.md) |
 |Opret koncerninterne partnere, og behandl transaktioner, manuelt eller automatisk, mellem juridiske enheder inden for samme virksomhed.|[Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)|
 |Analysér omkostningerne til virksomhedens drift ved at fordele faktiske og budgetterede omkostninger for operationer, afdelinger, produkter og projekter til omkostningssteder.|[Regnskab for omkostninger](finance-manage-cost-accounting.md)|
 |Styre lager- og produktionsomkostninger, rapportere omkostninger og afstemme omkostninger med finansposterne.|[Administrere lageromkostninger](finance-manage-inventory-costs.md)|

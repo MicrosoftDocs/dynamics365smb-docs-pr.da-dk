@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/24/2019
+ms.date: 01/13/2020
 ms.author: jswymer
-ms.openlocfilehash: 99fe339426b755b70983d8ec9345858357043347
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 9fd5c6c242932d75addcfa5c1811bdd1aff99a94
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808741"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953033"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visning og redigering i Excel fra Business Central
 
@@ -25,9 +25,9 @@ Med sider, der viser en liste over poster i rækker og kolonner, f.eks. en liste
 
 - Med denne handling respekterer Excel eventuelle filtre på siden, som begrænser, hvilke poster der vises. Det betyder, at Excel-projektmappen indeholder de samme rækker og kolonner, der vises på siden i [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- Du kan foretage ændringer af posterne i Excel, men du kan ikke publicere ændringerne tilbage til [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan kun gemme ændringerne til en Excel-fil på computeren. 
+- Du kan foretage ændringer af posterne i Excel, men du kan ikke publicere ændringerne tilbage til [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan kun gemme ændringerne til en Excel-fil på computeren.
 
-- Denne handling fungerer både på Windows og macOS. 
+- Denne handling fungerer både på Windows og macOS.
 
 > [!NOTE]
 > For [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø er handlingen **Åbn i Excel** tilgængelig som standard. Men hvis du konfigurerer [!INCLUDE [prodshort](includes/prodshort.md)] i det lokale miljø til redigering af data i Excel, erstattes handlingen **Åbn i Excel** med handlingen **Rediger i Excel**.
@@ -48,10 +48,12 @@ Dette blev udvidet i frigivelsesbølge 2 i 2019. Du kan finde flere oplysninger 
 > [!NOTE]
 > For [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø er denne funktion er kun tilgængelig for webklienten.
 
-### <a name="see-the-differences-between-the-options"></a>Se forskellene mellem indstillingerne 
+### <a name="see-the-differences-between-the-options"></a>Se forskellene mellem indstillingerne
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Arbejde med Business Central](ui-work-product.md)  

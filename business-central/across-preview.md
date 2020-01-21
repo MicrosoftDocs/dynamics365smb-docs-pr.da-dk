@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
-ms.openlocfilehash: 8905a7dccc96f85a3803b1cf89862718d6a0df2e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879399"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2942962"
 ---
 # <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prøveversioner og abonnementer
 
@@ -29,7 +29,7 @@ Hvis du oplever på problemer, kan siden [Ofte stillede spørgsmål](across-faq.
 
 ### <a name="try-out-your-own-company"></a>Afprøve din egen virksomhed
 
-Hvis du vil afprøve [!INCLUDE [prodshort](includes/prodshort.md)] med dine egne data, kan du skifte til en gratis 30-dages prøveversion med en tom virksomhed, så du kan indlæse dine egne data.  
+Hvis du vil afprøve [!INCLUDE [prodshort](includes/prodshort.md)] med dine egne data, kan du skifte til en gratis 30-dages prøveversion med en tom virksomhed. Den assisterede opsætningsvejledning **Konfigurer min virksomhed** kan hjælpe dig med at angive grundlæggende oplysninger om din virksomhed. Du kan også importere data fra din eksisterende løsning til virksomhedsadministration, så du kan [!INCLUDE [prodshort](includes/prodshort.md)] evaluere med dine egne data.  
 
 Hvis 30 dage ikke er nok til, at du kan træffe en beslutning, kan du forlænge prøveversionen. Du kan finde flere oplysninger under [Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?](admin-extend-trial.md).  
 
@@ -72,11 +72,11 @@ Du kan også kontakte [[!INCLUDE[d365fin](includes/d365fin_md.md)]-salgsteamet](
 
 ## <a name="getting-started-with-sandboxes"></a>Introduktion til sandkasser
 
-Sandkassemiljøer kan være en måde, hvorpå du kan øve dig i at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan betragte en sandkasse som et ikke-produktionsmiljø, du kan bruge oven på din produktionsforekomst af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Sandkassemiljøer kan være en måde, hvorpå du kan øve dig i at bruge [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan betragte en sandkasse som et ikke-produktionsmiljø, du kan bruge oven på din produktionsforekomst af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du f.eks. vil modtage den gratis onlineundervisning fra [Microsoft Learn](/learn/browse/?products=dynamics-business-central), kan din administrator oprette et sandkassemiljø, så du og dine kolleger kan øve jer her fremfor i produktionsmiljøet.  
 
-En sandkasse giver dig mulighed for sikkert at opbygge og teste udvidelser og udvikle nye funktioner for at tilpasse tjenesten, uden at det påvirker dataene og indstillingerne i produktionsmiljø. Hvis du f.eks. vil modtage den gratis onlineundervisning fra [Microsoft Learn](/learn/browse/?products=dynamics-business-central), kan du oprette et sandkassemiljø og øve dig i dette fremfor i dit produktionsmiljø.  
+Hvis du er udvikler, giver en sandkasse dig mulighed for sikkert at opbygge og teste udvidelser og udvikle nye funktioner for at tilpasse tjenesten, uden at det påvirker dataene og indstillingerne i produktionsmiljø.  
 
-Lige nu kan alle kunder bruge en sandkasse. Du kan finde flere oplysninger om, hvordan du kommer i gang med en sandkasse, i [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md).  
+Lige nu kan alle kunder bruge en sandkasse, herunder organisationer, der har tilmeldt sig en prøveversion. Du kan finde flere oplysninger om, hvordan du kommer i gang med en sandkasse, i [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Sandkasser oprettet på denne måde indeholder demonstrationsdata for den fiktive virksomhed, CRONUS. Der kopieres ikke eller på anden måde overføres data fra produktionsmiljøet.  
@@ -96,6 +96,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## <a name="see-also"></a>Se også
 
 [Introduktion](product-get-started.md)  
+[Udvide din prøveversion](admin-extend-trial.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.md)  
 [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner)  

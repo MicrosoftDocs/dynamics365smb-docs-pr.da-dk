@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4fc9ffe9205e8f075f1b133686c2b869495bf42a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304632"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910852"
 ---
 # <a name="gather-customer-setup-values"></a>Indsaml debitoropsætningsværdier
 Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i [!INCLUDE[d365fin](includes/d365fin_md.md)] og derefter give det til kunden som en Excel- eller XML-fil.  
@@ -29,6 +29,11 @@ Når kunden har udfyldt spørgeskemaet, importerer du filen til kundens nye [!IN
 
 ## <a name="to-create-a-configuration-questionnaire"></a>Sådan oprettes et konfigurationsspørgeskema
 Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og behovet for konfiguration. Du kan oprette et nyt spørgeskema eller redigere et eksisterende spørgeskema ved at tilføje nye spørgsmål eller spørgeområder.  
+
+<!-- A configuration questionnaire has the following structure
+* The name of the questionnaire itself
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Du kan kun oprette spørgeskemaer til tabeller af opsætningstypen. Du kan f.eks. bruge værktøjet til at angive oplysninger på følgende sider:  
 
@@ -45,10 +50,33 @@ Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og be
 -   Logistikopsætning  
 
 > [!NOTE]  
->  For at få vist en komplet liste over opsætningstabeller skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning**, og vælg derefter det relaterede link. Til at afgøre omfanget af overflytning af data i poster, skal du bruge funktionerne til overflytning. Du kan finde flere oplysninger i [Overflytning af debitordata](admin-migrate-customer-data.md).  
+>  For at få vist en komplet liste over opsætningstabeller skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Opsætning** og derefter vælge det relaterede link. Til at afgøre omfanget af overflytning af data i poster, skal du bruge funktionerne til overflytning. Du kan finde flere oplysninger i [Overflytning af debitordata](admin-migrate-customer-data.md).  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg det relaterede link.  
-2. Vælg handlingen **Ny**. Siden **Konfig.spørgeskema** åbnes.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.   
+3. Gå til siden **Konfigurationsspørgeskema**, og angiv følgende i feltet **kode**... 
+<!--4. In the **Name** field, enter...
+5. Choose the **Question Areas** action. .
+6. On the **Config. Question Areas** page, in the **Code** field, enter...
+  
+    > [!Note]  
+    > The code is alphanumeric, and must start with a letter of the alphabet.
+7. In the Table ID field, choose the table to which to apply the answer to the question. Your selection will determine the fields that are available for the questions, and thereby the answer selections.
+  
+    > [!Tip]
+    > The list of table objects is long. If you know the name of the table, use **Search** in the upper left to find it in the list.
+8. In the **Description** field, enter text that indicates the subject of the question group.
+9. In the **No.** field, enter a number to define where the question appears in the sequence of questions.
+10. In the **Field ID** field, choose the field the the customer's answer will be applied to. You can choose from the fields on the table you chose in the **Table ID** field.
+  
+    When you choose a field, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
+11. To add more questions to the questionnaire, repeat steps seven through 10.
+
+> [!Tip]
+> If at some point you change a question, or add a new one, choose the **Update Questions** action to update the list.
+
+-->
+
 3. Vælg handlingen **Spørgsmålsområder**. Siden **Spørgsmålsområder** åbnes.  
 4. Vælg handlingen **Ny**. Siden **Konfig.spørgsmålsområde** åbnes.  
 5. I feltet **Tabel-id** skal du vælge id'et på den tabel, du vil indsamle oplysninger om. Feltet **Tabelnavn** udfyldes automatisk.  
@@ -111,7 +139,7 @@ Når du har indlæst og valideret oplysninger fra et konfigurationsspørgeskema,
 - Hvis du vil anvende svar kun for et bestemt **Spørgsmålsområde**, skal du vælge handlingen **Spørgeområder**, vælge et **Spørgsmålsområde** på listen og derefter vælge handlingen **Anvend svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Sådan kontrollerer du, at svarene er blevet anvendt korrekt  
-1. Kontrollér opsætningssiderne for de forskellige funktionelle områder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. For at finde siden skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive navnet på opsætningssiden og derefter vælge det relaterede link.  
+1. Kontrollér opsætningssiderne for de forskellige funktionelle områder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde siden ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive navnet på opsætningssiden og derefter vælge det relaterede link.  
 2. Kontrollér, at felterne er blevet udfyldt med de korrekte data fra de forskellige spørgsmålsområder i konfigurationsspørgeskemaet.  
 
 Du har nu konfigureret opsætning med debitorens forretningsmæssige oplysninger og regler.

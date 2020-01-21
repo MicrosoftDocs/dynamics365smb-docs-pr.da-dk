@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878982"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918162"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Tip: RapidStart Services
 Når du konfigurerer virksomheder ved hjælp af RapidStart Services, er der nogle tip og tricks, som du kan bruge til at hjælpe dig med, at implementeringen går problemfrit.  
@@ -30,10 +30,10 @@ Du skal overveje at definere standardsvar for at angive de bedste fremgangsmåde
 Vi anbefaler, at du bruger de leverede værktøjer til dataoverflytning til at overflytte journalposter. Hvis du bruger et batchjob til at oprette kladdelinjer, har dette et begrænset omfang og opretter kun præ-standardfelter i en kladde. Resten af kladden skal derefter udfyldes manuelt.  
 
 ## <a name="migrating-transactions"></a>Overflytning af transaktioner  
-Vi anbefaler, at du overflytter startsaldoer i følgende rækkefølge.  
+Vi anbefaler, at du overflytter startsaldoer i følgende rækkefølge. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Overflytte startsaldoer for regnskab uden brug af underregnskaber i finans. Brug af specifikke primosaldo modregningskonti, én opsat for hvert underregnskab. Konfigurer modregningskontiene til at aktivere direkte bogføring.  
-2.  Overflyt åbne debitorposter.  
+2.  Overflyt åbne debitorposter.  <!--work on these-->
 3.  Overflyt åbne vareposter.  
 4.  Overflyt åbne anlægsposter.  
 

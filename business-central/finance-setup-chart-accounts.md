@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: ee789f35118c054fec8129106db0ad60cc48141c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 901650c2ed61867cdcccd093d54b10fe24ce30a9
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879461"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911067"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
 Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
@@ -39,7 +39,7 @@ Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstilli
 
 ## <a name="see-also"></a>Se også
 [Finans- og kontoplanen](finance-general-ledger.md)  
-[Håndtere bankkonti](bank-manage-bank-accounts.md)  
+[Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Arbejde med kontoskemaer](bi-how-work-account-schedule.md)  
