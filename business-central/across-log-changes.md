@@ -42,7 +42,7 @@ Når du har konfigureret ændringsloggen, aktiveret den og ændret data, kan du 
 
 Fra nogle sider i [!INCLUDE [prodshort](includes/prodshort.md)] kan du få vist en aktivitetslog, der viser status og eventuelle fejl i filer, som du eksporterer fra eller importerer til [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Oplysningerne vises på siden **Aktivitetslog** i overensstemmelse med den kontekst, de åbnes fra. Du kan åbne vinduet fra siderne **Opsætning af dokumentudvekslingstjeneste**, **Indgående dokument**, **Bogført salgsfaktura** og **Bogført salgskreditnota**. Du kan tømme listen med logposter eller blot rydde oversigten over poster, der er ældre end 7 dage.  
+Oplysningerne vises på siden **Aktivitetslog** i overensstemmelse med den kontekst, de åbnes fra. Du kan åbne vinduet fra siderne **Opsætning af dokumentudvekslingstjeneste**, **Indgående bilag**, **Bogført salgsfaktura** og **Bogført salgskreditnota**. Du kan tømme listen med logposter eller blot rydde oversigten over poster, der er ældre end 7 dage.  
 
 ## <a name="see-also"></a>Se også
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  

@@ -22,9 +22,9 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
 
  Ud over at modtage elektroniske dokumenter direkte fra handelspartnere kan du modtage elektroniske dokumenter fra en OCR-tjeneste, der har omdannet dine PDF- eller billedfiler til elektroniske dokumenter.  
 
- Før du kan modtage elektroniske dokumenter via dokumentudvekslingstjenesten, skal du konfigurere forskellige stamdata, som firmaoplysninger, kreditorer, varer og måleenheder. Disse bruges til at identificere forretningspartnere og varer ved konvertering af data i elementerne i den indgående dokumentfil til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md).  
+ Før du kan modtage elektroniske dokumenter via dokumentudvekslingstjenesten, skal du konfigurere forskellige stamdata, som firmaoplysninger, kreditorer, varer og måleenheder. Disse bruges til at identificere forretningspartnere og varer ved konvertering af data i elementerne i den indgående bilagsfil til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md).  
 
- Før du kan modtage elektroniske dokumenter via OCR-tjenesten, skal du konfigurere og aktivere den forudkonfigurerede tjenesteforbindelse. Du kan finde flere oplysninger under [Konfigurere indgående dokumenter](across-how-setup-income-documents.md).  
+ Før du kan modtage elektroniske dokumenter via OCR-tjenesten, skal du konfigurere og aktivere den forudkonfigurerede tjenesteforbindelse. Du kan finde flere oplysninger under [Konfigurere indgående bilag](across-how-setup-income-documents.md).  
 
  Trafikken af elektroniske dokumenter ind og ud af [!INCLUDE[d365fin](includes/d365fin_md.md)] styres af opgavekøfunktionen. Før du kan modtage elektroniske dokumenter, skal den relevante opgavekø startes.  
 
@@ -43,9 +43,9 @@ Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtt
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.  
 
-2.  Vælg linjen med den indgående dokumentpost, der repræsenterer en ny indgående elektronisk faktura, og vælg derefter handlingen **Rediger**.  
+2.  Vælg linjen med den indgående bilagspost, der repræsenterer en ny indgående elektronisk faktura, og vælg derefter handlingen **Rediger**.  
 
-     På siden **Indgående bilagskort** tilknyttes den relaterede XML-fil, og de fleste felter er udfyldt med oplysninger fra den elektroniske faktura. Du kan finde flere oplysninger under [Oprette indgående dokumentposter](across-how-create-income-document-records.md).  
+     På siden **Indgående bilagskort** tilknyttes den relaterede XML-fil, og de fleste felter er udfyldt med oplysninger fra den elektroniske faktura. Du kan finde flere oplysninger under [Oprette indgående bilagsposter](across-how-create-income-document-records.md).  
 
 3.  I feltet **Dataudvekslingstype** skal du vælge **PEPPOL – faktura** eller **OCR – faktura** afhængigt af kilden til det elektroniske dokument.  
 

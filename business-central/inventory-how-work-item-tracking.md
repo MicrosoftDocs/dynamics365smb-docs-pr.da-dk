@@ -1,6 +1,6 @@
 ---
 title: Tildele serienumre og lotnumre til varer til sporing | Microsoft Docs
-description: Du kan tilføje serienumre og lotnumre til ethvert udgående eller indgående dokument, og dets posterede varesporing vises i de tilknyttede vareposter.
+description: Du kan tilføje serienumre og lotnumre til ethvert udgående eller indgående bilag, og dets posterede varesporing vises i de tilknyttede vareposter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -18,7 +18,7 @@ ms.lasthandoff: 10/01/2019
 ms.locfileid: "2309600"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbejde med serienumre og lotnumre
-Du kan tildele serienumre og lotnumre til ethvert udgående eller indgående dokument, og dets posterede varesporing vises i de tilknyttede vareposter. Du kan udføre arbejdet på siden **Varesporingslinjer**, som du kan åbne fra et indgående eller udgående dokument.
+Du kan tildele serienumre og lotnumre til ethvert udgående eller indgående bilag, og dets posterede varesporing vises i de tilknyttede vareposter. Du kan udføre arbejdet på siden **Varesporingslinjer**, som du kan åbne fra et indgående eller udgående dokument.
 
 Matrixen for mængdefelter øverst på siden **Varesporingslinjer** viser mængder og summer for de varesporingsnumre, der defineres på linjerne. Mængderne skal svare til mængderne på dokumentlinjen, der er angivet med 0 i felterne **Udefineret**.
 
@@ -112,7 +112,7 @@ Hvis du vil knytte specielle oplysninger til et bestemt varesporingsnummer, f.ek
 Du kan ikke redigere serienumre, lotnumre eller mængder. For at gøre det skal du ompostere den pågældende varepost. Hvis du vil have yderligere oplysninger om dette, skal du se [Sådan omposteres lot- eller serienumre](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Sådan tildeles serie- eller lotnumre under indgående transaktioner  
-Mange virksomheder ønsker at holde styr på varer, lige så snart de modtager dem. I denne situation er købsordren ofte det centrale dokument, selvom varesporing kan håndteres fra alle indgående dokumenter, og de tilhørende poster kan ses i de tilknyttede vareposter.  
+Mange virksomheder ønsker at holde styr på varer, lige så snart de modtager dem. I denne situation er købsordren ofte det centrale dokument, selvom varesporing kan håndteres fra alle indgående bilag, og de tilhørende poster kan ses i de tilknyttede vareposter.  
 
 De nøjagtige regler for håndtering af varesporingsnumre i din virksomhed bestemmes af opsætningen på siden **Varesporingskode**.  
 

@@ -48,7 +48,7 @@ Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at
 |Overflyt lagervarer mellem lokationer med overflytningsordrer for at styre lageraktiviteter eller med vareomposteringskladden.|[Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)|
 |Reservere lagervarer eller indgående varer til salgsordrer, købsordrer, serviceordrer, montageordrer eller produktionsordrer.|[Reservere varer](inventory-how-to-reserve-items.md)|
 |Konfigurer en kreditors eller debitors egen beskrivelse for en vare, så du kan nemt indsætte deres varebeskrivelse i handelsdokumenter.|[Bruge varereferencer](inventory-how-use-item-cross-refs.md)|
-|Tildel serienumre eller lotnumre til en udgående eller indgående dokument- eller kladdelinje, for eksempel for at spore varer i tilfælde af tilbagekaldelser.|[Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)|
+|Tildel serienumre eller lotnumre til en udgående eller indgående bilags- eller kladdelinje, for eksempel for at spore varer i tilfælde af tilbagekaldelser.|[Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)|
 |Konfigurer en kreditors eller debitors egen varebeskrivelse på dit varekort, så du hurtigt kan indsætte deres varebeskrivelse i handelsdokumenter.|[Bruge varereferencer](inventory-how-use-item-cross-refs.md)|
 |Find, hvor et serie- eller lotnummer blev brugt i forsyningskæden, f.eks. i tilfælde af tilbagekaldelse.|[Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)|
 |Spær for, at varer kan angives på salgs- eller købslinjer eller for, at de bogføres i nogen posteringer.|[Spærre for varer](inventory-how-block-items.md)|

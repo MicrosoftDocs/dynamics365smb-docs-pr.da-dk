@@ -19,23 +19,23 @@ ms.contentlocale: da-DK
 ms.lasthandoff: 10/01/2019
 ms.locfileid: "2301680"
 ---
-# <a name="find-posted-documents-without-incoming-document-records"></a>Finde bogførte dokumenter uden indgående dokumentposter
-Fra på siderne **Kontoplan** og **Finansposter** kan du bruge en søgefunktionen til at finde finansposter for bogførte og købs- og salgsdokumenter, som ikke har indgående dokument poster og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede dokument filer.
+# <a name="find-posted-documents-without-incoming-document-records"></a>Finde bogførte dokumenter uden indgående bilagsposter
+Fra på siderne **Kontoplan** og **Finansposter** kan du bruge en søgefunktionen til at finde finansposter for bogførte og købs- og salgsbilag, som ikke har indgående bilagsposter og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede bilagsfiler.
 
-## <a name="to-find-posted-documents-without-incoming-document-records"></a>Sådan findes bogførte dokumenter uden indgående dokumentposter
+## <a name="to-find-posted-documents-without-incoming-document-records"></a>Sådan findes bogførte bilag uden indgående bilagsposter
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.
-2. Vælg en linje for en finanskonto, for hvis finansposter du vil se bogførte købs- og salgsdokumenter uden indgående dokumentposter, og vælg derefter handlingen **Bogførte dokumenter uden indgående bilag**.
+2. Vælg en linje for en finanskonto, for hvis finansposter du vil se bogførte købs- og salgsbilag uden indgående bilagsposter, og vælg derefter handlingen **Bogførte bilag uden indgående bilag**.
 3. Alternativt kan du vælge handlingen **Poster**.
-4. På siden **Finansposter** skal du vælge handlingen **Bogførte dokumenter uden indgående dokumenter**.
+4. På siden **Finansposter** skal du vælge handlingen **Bogførte bilag uden indgående bilag**.
 
-Siden **Bogførte dokumenter uden indgående dokument** åbnes og viser bogførte købs- åbnes og salgsdokumenter uden indgående dokumentposter repræsenteret af finansposter på den finanskonto, som du åbnede siden for. Siden kan vise højst 1000 linjer. Som standard indeholder feltet **Datofilter** derfor et filter, der begrænser linjerne til poster med bogføringsdatoer fra begyndelsen af den aktuelle regnskabsperiode til arbejdsdatoen.
+Siden **Bogførte bilag uden indgående bilag** åbnes og viser bogførte købs- åbnes og salgsbilag uden indgående bilagsposter repræsenteret af finansposter på den finanskonto, som du åbnede siden for. Siden kan vise højst 1000 linjer. Som standard indeholder feltet **Datofilter** derfor et filter, der begrænser linjerne til poster med bogføringsdatoer fra begyndelsen af den aktuelle regnskabsperiode til arbejdsdatoen.
 
-## <a name="to-connect-found-documents-to-existing-incoming-document-records"></a>Sådan knyttes fundne dokumenter med eksisterende indgående bilagsposter
-1. På siden **Bogførte dokumenter uden indgående dokument** skal du vælge linjen for et bogført dokument, du vil knytte til en eksisterende indgående dokumentpost og derefter vælge handlingen **Vælg indgående bilag**.
-2. Vælg den indgående dokumentpost, som du vil knytte til det bogførte fundne dokument, på siden **Indgående bilag**, og vælg derefter **OK**.
-3. På siden **Bogførte dokumenter uden indgående dokument** er den valgte indgående dokumentpost nu tilknyttet det bogførte dokument, som du kan se i faktaboksen **Indgående bilagsfiler**.
+## <a name="to-connect-found-documents-to-existing-incoming-document-records"></a>Sådan knyttes fundne bilag til eksisterende indgående bilagsposter
+1. På siden **Bogførte bilag uden indgående bilag** skal du vælge linjen for et bogført dokument, du vil knytte til en eksisterende indgående bilagspost og derefter vælge handlingen **Vælg indgående bilag**.
+2. Vælg den indgående bilagspost, som du vil knytte til det bogførte fundne bilag, på siden **Indgående bilag**, og vælg derefter **OK**.
+3. På siden **Bogførte bilag uden indgående bilag** er den valgte indgående bilagspost nu tilknyttet det bogførte bilag, som du kan se i faktaboksen **Indgående bilagsfiler**.
 
-Hvis der ikke findes en relevant indgående dokument post på siden **Indgående bilag** kan du oprette den. Du kan finde flere oplysninger under [Oprette indgående dokumentposter](across-how-create-income-document-records.md).
+Hvis der ikke findes en relevant indgående bilagspost på siden **Indgående bilag** kan du oprette den. Du kan finde flere oplysninger under [Oprette indgående bilagsposter](across-how-create-income-document-records.md).
 
 ## <a name="see-also"></a>Se også
 [Behandle indgående bilag](across-process-income-documents.md)  

@@ -1,6 +1,6 @@
 ---
-title: Angive, hvilke indgående dokumenter der skal vises | Microsoft Docs
-description: Tilpas standardvisningen af indgående dokumenter, f.eks. e-fakturaer, for at forbedre din oversigt over behandlede og ikke-behandlede poster.
+title: Angive, hvilke indgående bilag der skal vises | Microsoft Docs
+description: Tilpas standardvisningen af indgående bilag, f.eks. e-fakturaer, for at forbedre din oversigt over behandlede og ikke-behandlede poster.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -19,34 +19,34 @@ ms.contentlocale: da-DK
 ms.lasthandoff: 10/01/2019
 ms.locfileid: "2305568"
 ---
-# <a name="manage-many-incoming-document-records"></a>Administrere mange indgående dokumentposter
-Efterhånden som du opretter eller behandler indgående dokumentposter, kan antal linjer på siden **Indkommende dokumenter** vokse til et omfang, hvor du mister overblikket. Derfor kan du indstille indgående dokumentposter til Behandlet for at fjerne dem fra standardvisningen. Når du vælger handlingen **Vis alle**, kan du få vist både behandlede og ikke-behandlede poster.
+# <a name="manage-many-incoming-document-records"></a>Administrere mange indgående bilagsposter
+Efterhånden som du opretter eller behandler indgående bilagsposter, kan antal linjer på siden **Indgående bilag** vokse til et omfang, hvor du mister overblikket. Derfor kan du indstille indgående bilagsposter til Behandlet for at fjerne dem fra standardvisningen. Når du vælger handlingen **Vis alle**, kan du få vist både behandlede og ikke-behandlede poster.
 
 > [!NOTE]  
->   Du kan ikke redigere oplysningerne, vedhæfte filer eller udføre andre processer på indgående dokumentposter, der er indstillet til Behandlet. Du skal først indstille dem til Ikke-behandlet.
+>   Du kan ikke redigere oplysningerne, vedhæfte filer eller udføre andre processer på indgående bilagsposter, der er indstillet til Behandlet. Du skal først indstille dem til Ikke-behandlet.
 
-Afkrydsningsfeltet **Behandlet** markeres automatisk på indgående dokumentposter, der er blevet behandlet, men du kan også markere eller fjerne markeringen i feltet manuelt. Afhængigt af din forretningsproces kan en indgående dokumentpost blive behandlet, når der er oprettet et relateret dokument til den, eller der er vedhæftet en fil.
+Afkrydsningsfeltet **Behandlet** markeres automatisk på indgående bilagsposter, der er blevet behandlet, men du kan også markere eller fjerne markeringen i feltet manuelt. Afhængigt af din forretningsproces kan en indgående bilagspost blive behandlet, når der er oprettet et relateret bilag til den, eller der er vedhæftet en fil.
 
 > [!NOTE]  
->   Når du åbner siden **Indkommende dokumenter** med handlingen **Indkommende dokumenter** i Rollecenter, vises kun ikke-behandlede indgående dokumentposter som standard. I dette emne omtales det som "standardvisningen".
+>   Når du åbner siden **Indgående bilag** med handlingen **Indgående bilag** i Rollecenter, vises kun ikke-behandlede indgående bilagsposter som standard. I dette emne omtales det som "standardvisningen".
 
-## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Sådan fjernes indgående dokumentposter fra standardvisningen
-1. På siden **Indkommende dokumenter** skal du vælge en eller flere linjer for indgående dokumentposter, du vil fjerne fra standardvinduet.
+## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Sådan fjernes indgående bilagsposter fra standardvisningen
+1. På siden **Indgående bilag** skal du vælge en eller flere linjer for indgående bilagsposter, du vil fjerne fra standardvinduet.
 2. Vælg handlingen **Indstil til behandlet**.
 
-    Indgående dokumentposter fjernes fra standardvisningen og afkrydsningsfeltet **Behandlet** markeres på linjerne.
+    Indgående bilagsposter fjernes fra standardvisningen og afkrydsningsfeltet **Behandlet** markeres på linjerne.
 
 > [!NOTE]  
 >   Du kan også udføre handlingen for den individuelle post på siden **Indgående bilagskort**.
 
-## <a name="to-view-all-incoming-document-records"></a>Sådan vises alle indgående dokumentposter
-1. På siden **Indgående dokumenter** skal du vælge handlingen **Vis alle**.
+## <a name="to-view-all-incoming-document-records"></a>Sådan vises alle indgående bilagsposter
+1. På siden **Indgående bilag** skal du vælge handlingen **Vis alle**.
 
-Alle indgående dokumentposter vises, herunder dem, hvor feltet **Behandlet** ikke er markeret.
+Alle indgående bilagsposter vises, herunder dem, hvor feltet **Behandlet** ikke er markeret.
 
-## <a name="to-add-incoming-document-records-to-the-default-view"></a>Sådan føjes indgående dokumentposter til standardvisningen
-1. På siden **Indgående dokumenter** skal du vælge handlingen **Vis alle**.
-2. Vælg en eller flere linjer for indgående dokumentposter, der skal vises i standardvisningen.
+## <a name="to-add-incoming-document-records-to-the-default-view"></a>Sådan føjes indgående bilagsposter til standardvisningen
+1. På siden **Indgående bilag** skal du vælge handlingen **Vis alle**.
+2. Vælg en eller flere linjer for indgående bilagsposter, der skal vises i standardvisningen.
 3. Vælg handlingen **Indstil til ikke-behandlet**.  
 
 > [!NOTE]  
