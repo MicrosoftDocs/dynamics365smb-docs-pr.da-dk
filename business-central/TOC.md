@@ -259,11 +259,11 @@
 ### [Konfigurere indgående bilag](across-how-setup-income-documents.md)
 ### Behandle indgående bilag
 #### [Oversigt](across-process-income-documents.md)
-#### [Oprette indgående dokumentposter](across-how-create-income-document-records.md)
+#### [Oprette indgående bilagsposter](across-how-create-income-document-records.md)
 #### [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
-#### [Oprette indgående dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)
-#### [Finde bogførte dokumenter uden indgående dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
-#### [Administrere mange indgående dokumentposter](across-how-manage-many-income-document-records.md)
+#### [Oprette indgående bilagsposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)
+#### [Finde bogførte dokumenter uden indgående bilagsposter](across-how-find-posted-documents-without-income-document-records.md)
+#### [Administrere mange indgående bilagsposter](across-how-manage-many-income-document-records.md)
 
 ## Workflow
 ### [Oversigt](across-workflow.md)
