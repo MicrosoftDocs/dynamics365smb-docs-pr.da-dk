@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 71d62cdd0e21d0eb2d10f5b33e30be91e92d0928
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883378"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999924"
 ---
 # <a name="create-a-demand-forecast"></a>Oprette en behovsprognose
 Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.  
@@ -51,18 +51,18 @@ Det kan angives i produktionsopsætningen, hvis du vil filtrere prognoser efter 
 
 ## <a name="to-create-a-demand-forecast"></a>Sådan oprettes en behovsprognose
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Behovsprognose**, og vælg derefter det relaterede link.  
-2.  Vælg på oversigtspanelet **Generelt** en prognose i feltet **Navn på behovsprognose**. Hvis der er flere forecasts i systemet, kan du skelne imellem dem vha. navnet og forecasttypen.  
-3.  Vælg i feltet **Lokationsfilter** den lokation, som dette forecast skal gælde for.  
-4.  I feltet **Forecasttype** skal du vælge **Salgsvare**, **Komponent** eller **Begge**. Hvis du vælger **Salgsvare** eller **Komponent**, kan du redigere antallet efter periode. Hvis du vælger **Begge**, kan du ikke redigere antallet, men du kan vælge pilen til rullelisten og få vist behovsprognoseposter.  
-5.  Angiv et **Datofilter**, hvis du vil begrænse den mængde data, der skal vises.  
-6.  I oversigtspanelet **Matrix for efterspørgselsprognose** skal du angive det prognosticerede antal for forecasts for **Salgsvarer** eller **Komponenter** for de forskellige perioder.  
-7.  På oversigtspanelet **Matrixindstillinger** kan du angive tidsintervallet i feltet **Vis efter** for at ændre den periode, der er vist i den enkelte kolonne. Du kan vælge mellem følgende intervaller: **Dag**, **Uge**, **Måned**, **Kvartal**, **År** eller **Regnskabsperiode**, som opsætning i finansstyringen.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Behovsprognose**, og vælg derefter det relaterede link.  
+2. Vælg på oversigtspanelet **Generelt** en prognose i feltet **Navn på behovsprognose**. Hvis der er flere forecasts i systemet, kan du skelne imellem dem vha. navnet og forecasttypen.  
+3. Vælg i feltet **Lokationsfilter** den lokation, som dette forecast skal gælde for.
+4. I feltet **Vis efter** for at ændre den periode, der vises i hver kolonne. Du kan vælge mellem følgende intervaller: **Dag**, **Uge**, **Måned**, **Kvartal**, **År** eller **Regnskabsperiode**, som opsætning i finansområde.    
 
-    > [!NOTE]  
-    >  Du bør overveje, hvilket tidsinterval du vil bruge til fremtidige forecasts, så tidsintervallet er konsistent hele vejen igennem. Når du angiver et forecastantal, gælder det kun den første dag i det tidsinterval, du vælger. Hvis du f.eks. vælger en måned, skal du angive forecastantallet på den første dag i måneden. Hvis du vælger et kvartal, skal du angive forecastantallet på den første dag i den første måned i kvartalet.  
+> [!NOTE]  
+>  Du bør overveje, hvilket tidsinterval du vil bruge til fremtidige forecasts, så tidsintervallet er konsistent hele vejen igennem. Når du angiver et forecastantal, gælder det kun den første dag i det tidsinterval, du vælger. Hvis du f.eks. vælger en måned, skal du angive forecastantallet på den første dag i måneden. Hvis du vælger et kvartal, skal du angive forecastantallet på den første dag i den første måned i kvartalet.
 
-8.  Vælg i feltet **Vis som**, hvordan forecastantal vises for tidsintervallet. Hvis du vælger **Bevægelse**, vises bevægelsen i saldoen for tidsintervallet. Hvis du vælger **Saldo til dato**, viser siden saldoen pr. den sidste dag i tidsintervallet.  
+5. Vælg i feltet **Vis som**, hvordan forecastantal vises for tidsintervallet. Hvis du vælger **Bevægelse**, vises bevægelsen i saldoen for tidsintervallet. Hvis du vælger **Saldo til dato**, viser siden saldoen pr. den sidste dag i tidsintervallet.  
+6. I feltet **Forecasttype** skal du vælge **Salgsvare**, **Komponent** eller **Begge**. Hvis du vælger **Salgsvare** eller **Komponent**, kan du redigere antallet efter periode. Hvis du vælger **Begge**, kan du ikke redigere antallet, men du kan vælge pilen til rullelisten og få vist behovsprognoseposter.  
+7. Angiv et **Datofilter**, hvis du vil begrænse den mængde data, der skal vises.  
+8. I oversigtspanelet **Matrix for efterspørgselsprognose** skal du angive de budgetterede antal ved at indtaste et antal i den celle, der repræsenterer en vare på en bestemt dato eller i en bestemt periode. Bemærk, at opslagsknappen i tomme celler åbner en tom side, der angiver, at du skal angive en værdi manuelt.   
 
 > [!NOTE]  
 >  Du kan også redigere et eksisterende forecast. Klik på siden **Matrix for efterspørgselsprognose**, vælg handlingen **Kopiér behovsprognose**, og udfyld siden **Behovsprognose** med en eksisterende pronose. Antal kan redigeres efter behov.  

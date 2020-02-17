@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881188"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991828"
 ---
 # <a name="create-workflows"></a>Oprette arbejdsgange
 Du kan oprette arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
@@ -59,7 +59,7 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
         |**Giv afsender besked**|Angiv, om godkendelsesanmoderen er blevet underrettet i stedet for modtageren af godkendelsesanmodningen. Hvis du markerer afkrydsningsfeltet, bliver feltet **Modtagers bruger-ID** deaktiveret, da anmoderen til godkendelsen, afsenderen, får besked i stedet. Navnet på workflowresponset ændres tilsvarende til **Opret notifikation til &lt;afsender&gt;**. Hvis afkrydsningsfeltet ikke er markeret, angives navnet på workflowresponset til **Opret notifikation til &lt;bruger&gt;**.
         |**Modtagers bruger-id**|Angiv den bruger, som notifikationen skal sendes til. Bemærk: Denne indstilling er kun tilgængelig for workflowrespons med en pladsholder for en bestemt bruger. Notifikationsmodtageren defineres typisk af godkendelsesbrugeropsætningen, når det drejer sig om arbejdsgangssvar uden pladsholdere for brugere.|  
         |**Notifikationsposttype**|Angiver, om notifikationen fra en arbejdsgang udløses af en postændring, en godkendelsesanmodning eller data vedrørende forfaldsdato.|
-        |**Side, der linkes til**|Angiv en anden side i [!INCLUDE[d365fin](includes/d365fin_md.md)], som linket i notifikationen åbner i stedet for standardsiden.|  
+        |**Side, der linkes til**|Angiv en anden side i [!INCLUDE[d365fin](includes/d365fin_md.md)], som linket i notifikationen åbner i stedet for standardsiden.<br /><br />Bemærk, at siden skal have samme kildetabel som den record, det drejer sig om.|  
         |**Brugerdefineret link**|Angiv URL-adressen på et link, der føjes til notifikationen ud over standardlinket til en side i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Hvis du vil angive indstillinger for et workflowrespons, der involverer oprettelse af en godkendelsesanmodning, skal du udfylde felterne som beskrevet i følgende tabel.  
 
@@ -91,7 +91,7 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
 >  Undlad at aktivere en arbejdsgang, før du er sikker på, at arbejdsgangen er fuldført, og at arbejdsgangstrin involveret kan begynde.  
 
 > [!TIP]  
->  For at se relationer mellem de tabeller, der bruges i workflows, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "T"Fortæl mig, hvad du vil foretage dig") og angiv derefter **Workflow - tabelrelationer**.  
+>  For at se relationer mellem de tabeller, der bruges i workflows, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angiv derefter **Workflow - tabelrelationer**.  
 
 ## <a name="see-also"></a>Se også  
 [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)   

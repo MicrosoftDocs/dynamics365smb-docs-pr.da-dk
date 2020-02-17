@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/13/2020
+ms.date: 01/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953463"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991972"
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
 Likviditetsstyring omfatter kontrol af, om forfaldne beløb er betalt til tiden. Hvis debitorer har forfaldne betalinger, kan du begynde med at sende rapporten Kontoudtog som en påmindelse. Alternativt kan du udstede rykkere.
@@ -216,7 +216,10 @@ En rentenota svarer til en faktura. Du kan udfylde et hoved manuelt og lade prog
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udsted rentenotaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov.  
 3. Vælg handlingen **Foreslå rentenotalinjer**.
-4. På siden **Foreslå rentenotalinjer** skal du angive et filter på oversigtspanelet **Debitorpost**, hvis du kun vil oprette rentenotaer for specifikke poster.  
+4. På siden **Foreslå rentenotalinjer** skal du angive et filter på oversigtspanelet **Debitorpost**, hvis du kun vil oprette rentenotaer for specifikke poster.
+
+    > [!NOTE]
+    > Selvom de vises, vil valg af filtrene **Betaling** og **Kreditnota** dom **Dokumenttype** ikke have nogen virkning, fordi funktionen **Selvom de vises, vil valg** kun håndterer positive beløb.
 5.  Vælg **OK** for at starte kørslen.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Sådan opdateres tekster til rentenotaer  

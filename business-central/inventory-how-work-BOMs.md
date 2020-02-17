@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: d47290db285090ce9c22f3ccb5535bf47fd0c8e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 266b2e67b8ab3814e940dce183865aaf2a021a94
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309672"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030120"
 ---
 # <a name="work-with-bills-of-material"></a>Arbejde med styklister
 Du kan bruge styklister til at strukturere overordnede varer, der skal samles eller fremstilles af ressourcer eller produktionsressourcer fra komponenter. En montagestykliste kan også bruges til at sælge en overordnet vare som en pakke bestående af dens komponenter.
@@ -54,7 +54,14 @@ Montagestyklister oprettes ad to omgange:
 2. På siden **Varekort** for et montageelement skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
 3. På siden **Montagestykliste** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Sådan får du vist komponenterne for et montageelement indrykket i overensstemmelse med styklistestrukturen
+## <a name="to-edit-assembly-boms"></a>Sådan redigeres montagestyklister
+Du kan til enhver tid redigere linjerne på en montagestykliste. Men vær opmærksom på, at styklisten kan være i brug ved igangværende salg eller montager af den overordnede, som kan være påvirket af ændringen. Vælg **Indgår-i** for at se, hvilke varer den bruges i, og om salgs- eller montageordrer kan blive påvirket.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+2. Vælg værdien **Ja**  i kolonnen **Montagestykliste**.
+3. Gå til siden **Montagestykliste**, og vælg handlingen **Rediger liste**, og rediger derefter felter efter behov.
+
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Sådan får du vist komponenter og ressourcer indrykket i overensstemmelse med styklistestrukturen
 Fra siden **Montagestykliste** kan du åbne en separat side, der viser komponenterne og evt. ressourcer, der er indrykket i henhold til deres placering på styklisten under montageelementet.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.

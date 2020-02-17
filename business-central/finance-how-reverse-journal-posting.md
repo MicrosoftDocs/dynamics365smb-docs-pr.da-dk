@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 12/16/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 416ca6f99dec55a9eb0c9a70e9974d2e7bcb348c
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 0e38ec4c70fdbf81b29d96ad9db80cd7efdd2c82
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910440"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999851"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Tilbageføre kladdeposteringer og annullere modtagelser/leverancer
 Hvis du vil tilbageføre en fejlpostering i en kladde, skal du vælge posten og oprette en modpost (poster, der er identiske med den originale post, men med modsat fortegn i beløbsfeltet) med det samme bilagsnummer og den samme bogføringsdato som den oprindelige post. Når du har tilbageført en post, skal du oprette den korrekte post.
@@ -34,7 +34,7 @@ Hvis du har oprettet en bogføring af et forkert positivt antal som f.eks. en sa
 Du kan tilbageføre poster fra alle **Poster**-sider: Følgende procedure er baseret på siden **Finansposter**.
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansposter**, og vælg derefter det relaterede link.
 2. Marker den post, du vil tilbageføre, og vælg derefter handlingen **Tilbagefør transaktion**. Bemærk, at den skal stamme fra en kladdepost.
-3. På siden **Tilbagefør transaktionsposter** skal du vælge den relevante post og derefter vælge handlingen **Tilbagefør**.
+3. Vælg handlingen **Tilbagefør** på siden **Tilbagefør transaktionsposter**.
 4. Vælg knappen **Ja** i bekræftelsesmeddelelsen.
 
 > [!NOTE]

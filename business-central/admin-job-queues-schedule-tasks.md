@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879198"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999779"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Du kan bruge opgavekøer til at planlægge opgaver
 Opgavekøer i [!INCLUDE[d365fin](includes/d365fin_md.md)] giver brugerne mulighed for at planlægge og køre specifikke rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange. Det kan f.eks. være en god idé at køre rapporten **Sælger - salgsstatistik** ugentlig for at spore salget pr. sælger hver uge, eller at køre kodeenheden **Behandl servicekø for mail** dagligt for at sikre, at afventende mail til debitorer om deres serviceordrer sendes ud tids nok.
@@ -31,6 +31,11 @@ Du kan opnå dette ved at indstille opgavekøen til at køre forskellige massebo
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter baggrundsbogføring for alle salg, køb og servicedokumenter.
 
+> [!NOTE]
+> Nogle job ændrer de samme data og bør ikke køres på samme tid, fordi det kan forårsage konflikter. Baggrundsopgaver for salgsdokumenter vil f.eks. forsøge at ændre de samme data på samme tid. Jobkøkategorier er med til at forhindre denne type konflikter ved at sikre, at et andet job, der tilhører den samme opgavekø, ikke køres, før den afsluttes. Et job, der tilhører en salgsjobkøkategori, vil f.eks. vente på, at alle andre salgsrelaterede job er udført. Du angiver en jobkøstrategi i oversigtspanelet **Baggrundsbogføring** på siden **Salgsopsætning**. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] viser jobkøkategorier for salg, køb og bogføring i Finans. Det anbefales, at du altid angiver en af disse eller en af dem, du opretter. Hvis der opstår fejl pga. konflikter, skal du overveje at oprette en kategori for alle de forskellige salgs-, købs- og finanskladder.
+
 Nedenstående fremgangsmåde beskriver, hvordan du konfigurerer baggrundsbogføring af salgsordrer. Trinene er de samme for køb og service.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsopsætning**, og vælg derefter det relaterede link.
@@ -41,7 +46,7 @@ Nedenstående fremgangsmåde beskriver, hvordan du konfigurerer baggrundsbogfør
 4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opgavekøposter**, og vælg derefter det relaterede link.
 5. På siden **Opgavekøposter** skal du vælge handlingen **Ny**.
 6. I feltet **Objekttype, der skal aktiveres** skal du vælge **Codeunit**.  
-7. I feltet **Objekt-id, der skal køres** skal du vælge 88, **Salgsbogføring via opgavekø**.
+7. I feltet **Objekt-id, der skal køres** skal du vælge **88**. Felterne Beskrivelse og Objektoverskrift, der skal køres viser Salgspost via jobkø.
 
     Ingen andre felter er relevante for dette scenarie.
 8. Vælg handlingen **Angiv status til Klar**.

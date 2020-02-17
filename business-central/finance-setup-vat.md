@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 1bdd140e43a29894978f7fa0f0a88957d7e102c3
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953679"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030144"
 ---
 # <a name="set-up-value-added-tax"></a>Konfigurere moms
 Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydelser. Momsbeløbet, der skal betales, kan variere afhængigt af flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] konfigurerer du moms til at angive de satser, der bruges til at beregne momsbeløb baseret på følgende:
@@ -116,28 +116,6 @@ I følgende afsnit beskrives, hvordan du tildeler momsbogføringsgrupper til ind
 * Udvid oversigtspanelet **Fakturering** på **Ressource**-kortet.  
 3. Vælg momsproduktbogføringsgruppen.  
 
-## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Konfigurere momsangivelsestyper og momsangivelsesnavne
-Skattemyndighederne kan ændre, og gør det også, kravene til bogføring af moms. Momsangivelsestyper og momsangivelsesnavne kan hjælpe dig med at forberede kommende ændringer og foretage en problemfri overgang til de nye krav. Du kan bruge momsangivelsesskabeloner til at definere felterne, der skal medtages i momsangivelsen, og omvendt definere beregningerne, og du kan oprette en ny momsangivelsesskabelon, når kravene ændres. F.eks kan én skabelon beregne moms for dette år baseret på de aktuelle krav, og en anden kan beregne moms på basis af kravene for næste år. Skabeloner er også en metode til at opbevare en historik over momsangivelsesformater, så du f.eks. kan gå tilbage for at se, hvordan du beregnede moms i tidligere år.
-
-## <a name="to-define-a-vat-statements"></a>Sådan defineres momsangivelser
-Momsangivelser giver dig mulighed for at beregne momsangivelsesbeløb for en bestemt periode, f.eks. et kvartal.
-
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsangivelser**, og vælg derefter det relaterede link.  
-2. Vælg feltet **Navn**, og vælg derefter **Ny** på siden **Momsangivelsesnavne**.
-3. Udfyld de påkrævede felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!Tip]
-> Du kan filtrere de oplysninger, som angivelsen omfatter, afhængigt af hvad du vælger i feltet **Type**. **Kontosammentælling** er nyttig, når du vil se momsen fra en bestemt konto.
-**Momspostsammentælling** henter moms i de konti, der er knyttet til valgene i felterne **Bogføringstype**, **Momsvirksomhedsbogf.gruppe** og/eller **Momsproduktbogf.gruppe**. **Rækkesammentælling** giver dig mulighed for at angive en værdi eller hurtigt filtrere kriterier i feltet **Rækkesammentælling**. Du kan finde flere oplysninger under [Søgning i, filtrering og sortering af data](ui-enter-criteria-filters.md). **Beskrivelse** bruges ofte til at føje en note til angivelsen. Du kan f.eks. bruge den som en overskrift, når du har brugt Rubriksammentælling.
-
-## <a name="to-preview-the-vat-statement"></a>Sådan får du vist momsangivelsen
-Når du har defineret en momsangivelse, kan du få vist et eksempel på den for at sikre, at det passer til dine behov.
-
-1. Vælg **Eksempel**.
-2. Opret et datofilter for at begrænse angivelsen til en konkret periode. Du kan finde yderligere oplysninger om, hvordan du tilpasser siden til at vise datofiltret, under [Søgning i, filtrering og sortering af data](ui-enter-criteria-filters.md).
-3. Du kan vælge forskellige indstillinger for at angive den type momsposter, der skal medtages i angivelsen.
-4. På de linjer, hvor der står **Momspostsammentælling** i feltet **Type**, kan du få vist en oversigt over momsposter ved at vælge beløbet i feltet **Kolonnebeløb**.   
-
 ## <a name="setting-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Oprette klausuler, der forklarer momsfritagelse eller ikke-standard-momssatser
 Du konfigurerer en momsklausul til at beskrive oplysninger om den moms, der skal anvendes. Oplysningerne kan være påkrævet som påbudt af myndighederne. Når du har konfigureret en momsklausul og tilknyttet den til en momsbogføringsgruppe, vises momsklausulen på udskrevne salgsdokumenter, der bruger momsbogføringsopsætningsgruppen.
 
@@ -178,24 +156,6 @@ Når du vil konfigurere koder for importmoms, skal du gøre følgende:
 5. I feltet **Momsberegningstype** skal du vælge **Momskorrektion**.  
 6. Angiv den finanskonto, der skal bruges til bogføring af importmoms, i feltet **Købsmomskonto**. Alle andre konti er valgfrie.  
 
-## <a name="to-verify-vat-registration-numbers"></a>Sådan kontrollere SE/CVR-numre
-Det er vigtigt, at de momsregistreringsnumre, du har for debitorer, kreditorer og kontakter, er gyldige. F.eks. ændrer virksomheder nogle gange deres status for skattetilsvar, og i visse lande kan skattemyndighederne måske bede dig om at indsende rapporter, f.eks. rapportering af EU-salg med de momsnumre, du bruger, når du handler.
-
-Kommissionen har VIES-tjenesten til kontrol af momsnumre på deres websted, som er offentlig og gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare dig for et trin, idet du kan bruge VIES-tjenesten til at validere og spore momsnumre for kunder, leverandører og kontakter direkte fra debitor-, kreditor- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] hedder **Service for validering af SE/CVR-nr. for EU**. Tjenesten findes på siden **Serviceforbindelser**, og du kan begynde at bruge den med det samme. Tjenesteforbindelsen er gratis, og tilmelding er ikke nødvendig.
-
-> [!Note]
-> For at aktivere service for validering af SE/CVR-nr. for EU skal du have administratorrettigheder.
-
-Når du bruger tjenesteforbindelsen, registrerer vi en oversigt over momsnumre og kontrol for hver debitor, kreditor eller kontaktperson, i **Log over SE/CVR-nr.**, så du nemt kan spore dem. Loggen er specifik for hver debitor. Eksempelvis er loggen nyttig, hvis du vil bevise, at du har kontrolleret, at det aktuelle momsnummer er korrekt. Når du kontrollerer et momsnummer, afspejler kolonnen **Anmodnings-id** i loggen, at du har udført en handling.
-
-Du kan få vist Log over SE/CVR-nr. på debitor-, kreditor- eller kontaktkort på oversigtspanelet **Fakturering** ved at vælge opslagsknappen i feltet **SE/CVR-nr.**  
-
-Tjenesten kan også spare dig tid, når du opretter en debitor eller kreditor. Hvis du kender debitorens momsnummer, kan du angive det i feltet **SE/CVR-nr.** på debitor- eller kreditorkortene, og vi vil udfylde debitornavnet for dig. Nogle lande angiver også virksomhedsadresser i et struktureret format. I disse lande udfylder vi også adressen.  
-
-Der er et par ting at bemærke om VIES-tjenesten til kontrol af momsnumre:
-
-* Tjenesten bruger HTTP-protokollen, hvilket betyder, at data, der overføres via tjenesten, ikke er krypterede.  
-* Du kan opleve nedetid for denne tjeneste, som Microsoft ikke kan holdes ansvarlig for. Tjenesten er en del af et bredt EU-netværk af nationale momsregistre.
 
 ## <a name="using-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Sådan bruges modtagermoms for handel mellem EU-lande eller -områder
 Nogle virksomheder skal bruge modtagermoms, når de handler med andre virksomheder. Denne regel gælder f.eks. for køb fra EU-lande/områder og salg til EU-lande/områder.  
@@ -219,61 +179,16 @@ Når du bogfører salg til en debitor i et andet EU-land/område, beregnes momsb
 ## <a name="understanding-vat-rounding-for-documents"></a>Om momsafrunding for bilag
 Beløb i de bilag, som endnu ikke er blevet bogført, afrundes og vises, så de svarer til de endelige afrundingsbeløb, som bogføres. Moms beregnes for et helt dokument, hvilket betyder, at moms, der beregnes, er baseret på summen af alle linjer med samme moms-id i dokumentet.
 
-## <a name="understanding-the-vat-rate-conversion-process"></a>Forstå processen til konvertering af momssatsændring.  
-Momssatsændringsværktøjet udfører momssatskonverteringer for stamdata, kladder og ordrer på forskellige måder. De valgte masterdata og kladder opdateres af den nye generelle produktbogføringsgruppe eller momsproduktbogføringsgruppe. Hvis en ordre er blevet helt eller delvist leveret, bevarer de leverede varer den aktuelle generelle produktbogføringsgruppe eller momsproduktbogføringsgruppe. En ny ordrelinje oprettes for de ikke-leverede varer og opdateres for at justere aktuelle og nye momsbogføringsgrupper eller generelle produktbogføringsgrupper. Desuden opdateres oplysninger om varegebyrtildeling, reservationer og varesporingsoplysninger tilsvarende.  
 
-Der er imidlertid et par ting, som værktøjet ikke konverterer:
 
-* Salgs- eller købsordrer og fakturaer, hvor leverancer er blevet bogført. Disse dokumenter bogføres ved hjælp af den aktuelle momssats.  
-* Dokumenter, der har bogførte forudbetalingsfakturaer. For eksempel har du foretaget eller modtaget forudbetalinger på fakturaer, der ikke er afsluttet, før du bruger momssatsændringsværktøjet. I dette tilfælde vil der være en difference mellem det momsbeløb, der er forfaldent, og den moms, der er betalt i forudbetalinger, når fakturaen er fuldført. Momssatsændringsværktøj springer disse dokumenter over, og du skal opdatere dem manuelt.  
-* Direkte leveringer eller specialordrer.  
-* Salgs- eller købsordrer med lagerintegration, hvis de er delvist leveret eller modtaget.  
-* Servicekontrakter.  
 
-### <a name="to-prepare-vat-rate-change-conversions"></a>Sådan forberedes momssatsændringskonverteringer  
-Før du konfigurerer momssatsændringsværktøj, skal du foretage følgende forberedelser.
-
-* Hvis du har transaktioner, der bruger forskellige satser, skal de adskilles i forskellige grupper ved enten at oprette nye finanskonti for hver sats eller ved hjælp af datafiltre til gruppering af transaktioner i henhold til sats.  
-* Hvis du opretter nye finanskonti, skal du oprette nye generelle bogføringsgrupper.  
-* For at reducere antallet af dokumenter, der konverteres, skal du postere så mange dokumenter som muligt og reducere antallet af dokumenter, der ikke posteres, til et minimum.  
-* Sikkerhedskopiering af data.
-
-### <a name="to-set-up-the-vat-rate-change-tool"></a>Sådan konfigureres momssatsændringsværktøjet  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af ændring af momssats**, og vælg derefter det relaterede link.  
-2. På oversigtspanelerne **Stamdata**, **Kladder** og **Dokumenter** skal du vælge en bogføringsgruppeværdi i indstillingslisten for nødvendige felter.  
-
-### <a name="to-set-up-product-posting-group-conversion"></a>Sådan konfigureres produktbogføringsgruppekonvertering  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af ændring af momssats**, og vælg derefter det relaterede link.  
-2. På siden **Konfiguration af ændring af momssats** skal du vælge enten **Momsproduktbogf.gruppekonv.** eller **Gen. produktbogf.gruppekonv.**.  
-3. Angiv den aktuelle bogføringsgruppe i feltet **Fra kode**.  
-4. Angiv den nye bogføringsgruppe i feltet **Til kode**.  
-
-### <a name="to-perform-vat-rate-change-conversion"></a>Sådan udføres konvertering af momssatsændring  
-Du bruger momssatsændringsværktøjet til at administrere ændringer i standardmomssatsen. Du udfører momsproduktbogføringsgruppekonverteringer og generelle produktbogføringsgruppekonverteringer for at ændre momssatser og opretholde nøjagtig momsafregning. Afhængigt af din opsætning foretages følgende ændringer:  
-
-* Moms- og generelle bogføringsgrupper konverteres.  
-* Ændringer implementeres i finanskonti, debitorer, kreditorer, åbne dokumenter, kladdelinjer osv.  
-
-> [!IMPORTANT]  
->  Inden du foretager konvertering af momssatsændringen, kan du teste konverteringen. Det gør du ved at følge fremgangsmåde nedenfor, men sørg for at fjerne markeringen i afkrydsningsfelterne **Udfør konvertering** og **Momssatsændringsværktøjet afsluttet**. Under testkonverteringen ryddes feltet **Konverteret** i tabellen **Momssatsændringslogpost** og feltet **Konverteringsdato** i tabellen **Momssatsændringslogpost** er tomt. Når konverteringen er afsluttet, skal du vælge **Ændringslogposter for momssats** for at få vist resultaterne af prøvekonverteringen. Kontroller hver post, før du udfører konverteringen. Kontroller især transaktioner, som bruger en gammel momssats.     
-
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momssatsændring**, og vælg derefter linket **Konfiguration af ændring af momssats**.  
-2. Kontroller, at du allerede har oprettet momsproduktbogføringsgruppekonverteringen eller den generelle produktbogføringsgruppekonvertering.  
-3. Markér afkrydsningsfeltet **Udfør konvertering**.  
-
-    > [!IMPORTANT]  
-    >  Fjern markeringen af afkrydsningsfeltet **Momssatsændringsværktøjet afsluttet**. Afkrydsningsfelt vælges automatisk, når konverteringen af momssatsændring er afsluttet.  
-
-4. Vælg handlingen **Konverter**.  
-5. Når konverteringen er afsluttet, skal du vælge handlingen **Ændringslogposter for momssats** for at få vist resultaterne af konverteringen.  
-
-> [!IMPORTANT]  
->  Efter konverteringen er feltet **Konverteret** valgt i tabellen **Momssatsændringslogpost**, og feltet **Konverteringsdato** i tabellen **Momssatsændringslogpost** viser konverteringsdatoen.  
+## <a name="see-also"></a>Se også
+[Konfigurere momsangivelsestyper og momsangivelsesnavne](finance-how-setup-vat-statement.md)   
+[Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)      
+[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)      
+[Arbejde moms af salg og køb](finance-work-with-vat.md)    
+[Arbejde med Momssatsændringsværktøj](finance-how-use-vat-rate-change-tool.md)    
+[Kontrollere SE/CVR-numre](finance-how-validate-vat-registration-number.md)  
+[Lokal funktionalitet i Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Se også  
-[Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)      
-[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
-[Arbejde med moms af salg og køb](finance-work-with-vat.md)  
-[Lokal funktionalitet i Business Central](about-localization.md)

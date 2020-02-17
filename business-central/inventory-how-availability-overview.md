@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: SorenGP
-ms.openlocfilehash: 73ed7ac7ef80aa9e85f4d87ee1adbd5ba53ba44f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308592"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991900"
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
@@ -53,7 +53,7 @@ Du får vist tilgængeligheden for en vare i overensstemmelse med planlagte vare
 Du får vist disponeringen for en vare over tid for angivne perioder på siden **Varedisponering pr. periode**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
-2. Åbn kortet for en vare, som du vil have vist tilgængeligheden for.
+2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Periode**.
 
     Siden **Varedisponering pr. periode** viser, hvordan lagerbeholdningen for varen udvikler sig over tid, vist for en periode, du vælger, f.eks. Dag, Uge eller Kvartal.
@@ -63,7 +63,7 @@ Du får vist disponeringen for en vare over tid for angivne perioder på siden *
 På siden **Varedisponering pr. lokation** får du vist disponeringen for en vare på de forskellige steder, hvor den opbevares.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
-2. Åbn kortet for en vare, som du vil have vist tilgængeligheden for.
+2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Lokation**.
 
     Siden **Varedisponering pr. lokation** viser, hvordan lagerbeholdningen for varen udvikler sig i fremtiden, vist for hver lokation, hvor varen opbevares.
@@ -91,13 +91,16 @@ På hver linje på siden for både overordnede og underordnede varer angiver fø
 |**Kan blive overordnet**|Viser, hvor mange enheder af halvfabrikata af topvaren, du kan fremstille. Feltet angiver, hvor mange umiddelbart overordnede enheder, du kan samle. Værdien er baseret på tilgængeligheden af varen på linjen.|
 |**Kan blive topvare**|Viser, hvor mange enheder af topvaren, du kan fremstille. Feltet angiver, hvor mange enheder af styklistevaren på øverste linje, du kan samle. Værdien er baseret på tilgængeligheden af varen på linjen.|
 
-### <a name="item-availability-by-bom-level-page"></a>Siden Varedisponering pr. styklisteniveau
+### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Sådan vises disponeringen af en vare efter behov for dens overordnede
 Siden **Varedisponering pr. styklisteniveau** viser oplysninger for varen på det kort eller den dokumentlinje, som siden åbnes for. Elementet vises altid på den øverste linje. Du kan få vist oplysninger for andre varer eller for alle varer ved at ændre værdien i feltet **Varefilter**.
 
 > [!NOTE]  
 >   Som standard viser tilgængelighedstallene på linjerne den samlede tilgængelighed af alle varer under topvaren. Disse tal vises i feltet **Disponibelt antal** og fokuserer på topvaren. Oplysninger om, hvor mange halvfabrikata, du kan fremstille kan dog blive skævt. Hvis du ønsker at få en angivelse af, hvor mange af de viste halvfabrikata, du kan fremstille, skal du rydde feltet **Vis samlet disponering** og derefter se tallet i feltet **Kan blive overordnet**.
 
 Feltet **Flaskehals** angiver, hvilken vare i styklistestrukturen, der begrænser dig i at fremstille en større mængde end den mængde, der vises i feltet **Kan blive topvare**. For eksempel kan flaskehalsvaren være en købt komponent med en forventet modtagelsesdato, der er for sen til, at der kan oprettes supplerende enheder af topvaren efter datoen i feltet **Behovsdato**.
+
+### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Sådan vises disponeringen for en vare pr. enhed
+Siden **Disponering af vare efter enhed** viser disponeringen af en vare opdelt i de forskellige enheder, den opbevares i.
 
 ## <a name="assembly-availability-page"></a>Siden Montagedisponering
 Siden **Montagedisponering** indeholder detaljerede disponeringsoplysninger for montageelementet. Vinduet åbnes:

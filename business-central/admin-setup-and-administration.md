@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: f71c3fa29ab12c13395c07d5919fc14e86511e75
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953559"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999683"
 ---
 # <a name="administration"></a>Opsætning
 Centrale administrationsopgaver udføres som regel af én rolle i firmaet. Omfanget af disse opgaver kan afhænge af firmaets størrelse og administratorens jobansvar. Disse opgaver kan omfatte styring af databasesynkronisering af job og e-mail-køer, oprettelse af brugere og tilpasning af brugergrænsefladen.  
@@ -24,7 +24,7 @@ Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for a
 
 Uanset om du bruger RapidStart Services til at implementere opsætningsværdier, eller du angiver dem manuelt i den nye virksomhed, kan du basere dine opsætningsbeslutninger på generelle anbefalinger for udvalgte opsætningsfelter, der erfaringsmæssigt kan gøre løsningen ineffektiv, hvis de defineres forkert.  
 
-Superbruger eller administrator kan konfigurere Data Exchange Framework så brugere kan eksportere og importere data i bank og løn filer, f.eks. til forskellige likviditetsstyringsprocesser.
+Superbruger eller administrator kan konfigurere Data Exchange Framework så brugere kan eksportere og importere data i bank og løn filer, f.eks. til forskellige likviditetsstyringsprocesser. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).
 
 > [!NOTE]
 > Du kan oprette en ny virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Du kan finde flere oplysninger i [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

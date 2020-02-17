@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554298"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030192"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Indhente betalinger med SEPA Direct Debit
 Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet med kundens samtykke.  
@@ -32,7 +32,10 @@ Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med 
 >  Hvis du vil samle betalinger ved hjælp af SEPA Direct Debit, skal valutaen på salgsfakturaen være i EURO.  
 
 ## <a name="setting-up-sepa-direct-debit"></a>Konfigurere SEPA Direct Debit
-Fra siden **Direct Debit-opkrævninger** kan du eksportere instruktioner til din netbank for at udføre en direkte debiteringsopkrævning fra debitorens bankkonto til din bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter SEPA Direct Debit-formatet, men i dit land/område anvendes der muligvis andre formater til elektroniske betalinger.  
+Fra siden **Direct Debit-opkrævninger** kan du eksportere instruktioner til din netbank for at udføre en direkte debiteringsopkrævning fra debitorens bankkonto til din bankkonto ifølge SEPA Direct Debit-format.
+
+> [!NOTE]
+> Den globale version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter kun SEPA-debetformatet. Versionen for dit land/område kan understøtte andre formater til elektronisk betaling. Se under **Lokal funktionalitet** i indholdsfortegnelsen.  
 
 For at aktivere eksport af bankfilformater, der ikke umiddelbart understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurere en dataudvekslingsdefinition ved hjælp af dataudvekslingsstrukturen. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -61,7 +64,7 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
     >  Angiv ikke en værdi i feltet **Kontonr.**.  
 
 4. Vælg knappen **OK** for at lukke siden **Betalingsformer**.  
-5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
+5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder**, og vælg derefter det relaterede link.  
 6. Åbn kortet for den kunde, som du vil konfigurere til SEPA Direct Debit-opkrævning.  
 7. Vælg feltet **Betalingsformskode**, og vælg derefter den betalingsformskode, du har angivet i trin 3.  
 8. Gentag trin 6 og 7 for alle de debitorer, som du vil konfigurere til SEPA Direct Debit-opkrævning.  
@@ -112,7 +115,7 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 
  4. Vælg knappen **OK**.  
 
-      Der føjes en Direct Debit-opkrævning til siden **Direct Debit-opkrævninger**, og der oprettes en eller flere poster med Direct Debit-opkrævning.  
+Der føjes en Direct Debit-opkrævning til siden **Direct Debit-opkrævninger**, og der oprettes en eller flere poster med Direct Debit-opkrævning.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Sådan eksporteres en post i en direkte debiteringsopkrævning til en bankfil  
  1. På siden **Direct Debit-opkrævninger** skal du vælge handlingen **Poster i Direct Debit-opkrævning**.  

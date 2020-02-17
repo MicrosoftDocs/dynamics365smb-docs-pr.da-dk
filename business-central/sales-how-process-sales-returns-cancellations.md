@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953994"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991924"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle salgsreturvarer eller annulleringer
 Hvis en debitor ønsker at returnere varer eller få refunderet varer eller serviceydelser, som du har solgt og modtaget betaling for, skal du oprette og bogføre en salgskreditnota, der angiver den ønskede ændring. Du kan oprette salgskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte salgsfakturaoplysninger, eller du kan oprette en ny salgskreditnota med kopierede fakturaoplysninger.
@@ -32,6 +32,9 @@ Ud over den oprindelige bogførte salgsfaktura kan du anvende salgskreditnotaen 
 Du kan sende den bogførte salgskreditnota til debitoren for at bekræfte returneringen eller annulleringen og kommunikere, at den tilhørende værdi vil blive refunderet, f.eks. når varerne returneres.
 
 Bogføringen af kreditnotaen gendanner også de varegebyrer, der er tildelt til det bogførte dokument, så varens værdiposter er de samme, som før varegebyret blev tildelt.
+
+> [!NOTE]
+> Bogholderiaspekter af salgsreturvarer, f.eks. betalinger til debitorer som refusion, anses for at være bogholderiarbejde og beskrives ikke her. Du kan finde flere oplysninger under [Administrere skyldige beløb](payables-manage-payables.md).
 
 ## <a name="inventory-costing"></a>Lagerkostmetode
 Hvis du vil bevare korrekt lagerværdi, skal du typisk placere returnerede varer tilbage i lagerbeholdningen med den kostpris, som de blev solgt til, og ikke til deres aktuelle kostpris. Dette omtales som præcis kostprisudligning.
@@ -220,5 +223,6 @@ Du kan også slette individuelle salgsreturordrer manuelt.
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
+[Administrere skyldige beløb](payables-manage-payables.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 01/14/2020
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: c41f331ebd1d49d03e8cf5177911c37accb05882
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 820439f8b18026d8a92a07dfe320423381847cb7
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953367"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030264"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere specialsalgspriser og -rabatter
 De forskellige pris- og rabataftaler, der gælder ved salg til forskellige debitorer, skal defineres, så de aftalte regler og værdier anvendes i de salgsdokumenter, der oprettes for debitorerne.
@@ -49,6 +49,10 @@ Da salgspriser og salgslinjerabatter er baseret på en kombination af vare og de
 
     På siden **Salgslinjerabatter** er feltet **Salgstype** på forhånd udfyldt med **Debitor**, og feltet **Salgskode** er udfyldt med debitornummeret.
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Udfyld en linje for hver kombination, som yder en salgslinjerabat til kunden.
+
+> [!Note]
+> Når du åbner vinduerne **Salgspriser** og **Salgslinjerabatter** fra en bestemt kunde, er felterne **Salgstypefilter**  og **Salgskodefilter** angivet for debitoren og kan ikke ændres eller fjernes, hvilket er angivet med den grå værdi i feltet **Salgskodefilter.**<br /><br />
+> Hvis du vil oprette priser eller linjerabatter for alle debitorer, en debitorprisgruppe eller en kampagne, skal du åbne vinduerne fra et varekort. Du kan alternativt bruge siden **Salgspriskladde** til salgspriser. Du kan finde flere oplysninger [Sådan masseopdateres varepriser](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Sådan oprettes en fakturarabat for en debitor
 Når du har besluttet, hvilke kunder der skal have fakturarabatter, skal du angive fakturarabatkoden på debitorkortene og definere betingelserne for hver kode.
@@ -89,7 +93,7 @@ Du kan knytte rabatter til bestemte fakturabeløb på siderne **Deb./fakt.-rabat
 Du kan også knytte et servicegebyr til et bestemt fakturabeløb i tillæg til eller i stedet for rabatprocenten.  
 
 > [!TIP]  
->  Det anbefales, at du forbereder en skitse over den rabatstruktur, der skal anvendes, før du begynder at indtaste oplysninger i programmet. Det gør det nemmere at se, hvilke debitorer der kan knyttes til samme fakturarabatside. Jo færre sider, du har sat op, jo hurtigere kan du indtaste stamoplysningerne.
+>  Det anbefales, at du forbereder en skitse over den rabatstruktur, der skal anvendes, før du begynder at indtaste oplysninger. Det gør det nemmere at se, hvilke debitorer der kan knyttes til samme fakturarabatside. Jo færre sider, du har sat op, jo hurtigere kan du indtaste stamoplysningerne.
 
 Du finder flere oplysninger om rabatter under [Konfigurere rabatter for dine kunder](/learn/modules/customer-discounts-dynamics-365-business-central/index) på Microsoft Learn.  
 
@@ -116,7 +120,7 @@ Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat 
 Hvis der ikke kan beregnes en særpris for varen på linjen, indsættes seneste indirekte omkostning eller enhedsprisen fra varekortet.
 
 ## <a name="to-copy-sales-prices"></a>Sådan kopieres salgspriser  
-Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til brug for en debitorprisgruppe, skal du køre **Forslå salgspris på kladde**. kørsel. Du kan tilføje en handling til kørslen på siden **Salgspriskladde**.    
+Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til brug for en debitorprisgruppe, skal du køre **Forslå salgspris på kladde**. batchjob, som du starter fra siden **Salgspriskladde**.    
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgspriskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Foreslå salgspris på kld.** .  

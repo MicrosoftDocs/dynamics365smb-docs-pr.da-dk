@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: fe7d9406f07eeadc0a6fb052556735eb7efeb815
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 2565133adfab4fb5f6febeeccb69c4f3d6f59e71
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953175"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991876"
 ---
 # <a name="posting-purchases"></a>Bogføring af køb
 I **Prod.bogf.gruppe** på et købsdokument kan du vælge mellem følgende bogføringsfunktioner:
@@ -41,9 +41,13 @@ Inden du starter på selve bogføringen, kan du udskrive en kontrolrapport med a
 
 Du kan enten bogføre eller bogføre og udskrive. Hvis du vælger at bogføre og udskrive, udskrives der en rapport, når ordren bogføres. Du kan også vælge funktionen **Massebogfør**, der giver mulighed for at bogføre flere ordrer samtidig. Du kan finde flere oplysninger i [Bogføre flere dokumenter på én gang](ui-batch-posting.md).
 
+## <a name="viewing-ledger-entries"></a>Visning af finansposter
 Når bogføringen er gennemført, fjernes de bogførte købslinjer fra ordren. Der vises en meddelelse, når bogføringen er gennemført. Herefter kan du se de bogførte poster på forskellige sider, der indeholder bogførte poster, f.eks. **Kreditorposter**, **Finansposter**, **Vareposter**, **Købsleverance** og **Bogf. købsfakturaer**.
 
-Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks feltet **Betalingsreference**. Du kan finde flere oplysninger under [Redigere bogførte dokumenter](across-edit-posted-document.md).
+I de fleste tilfælde kan du åbne finansposter fra det berørte kort eller dokument. Du kan f.eks. på siden **Kreditorkort** vælge handlingen **Poster**.
+
+## <a name="editing-ledger-entries"></a>Redigering af finansposter
+Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks feltet **Betalingsreference**. Du kan finde flere oplysninger under [Redigere bogførte dokumenter](across-edit-posted-document.md). Er det mere kritiske felter, der påvirker overvågningssporet, skal du tilbageføre eller annullere bogføring. Du kan finde flere oplysninger i [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md). 
 
 ## <a name="see-related-training-at-microsoft-learnlearnmodulesreceive-invoice-dynamics-d365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 

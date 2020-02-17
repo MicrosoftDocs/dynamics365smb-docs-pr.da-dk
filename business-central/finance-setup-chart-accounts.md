@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: edupont
-ms.openlocfilehash: 901650c2ed61867cdcccd093d54b10fe24ce30a9
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 780b42f779fa436716144e4bc598255d913427ed
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911067"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999803"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
 Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
-Men du kan ændre standardkontiene, og du kan tilføje nye konti. 
+Men du kan ændre standardkontiene, og du kan tilføje nye konti.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9]
@@ -36,6 +36,8 @@ Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstilli
 >   * Hvis feltet **Kontroller brug af finanskonto** på siden **Opsætning af Finans** er markeret, må kontoen ikke bruges i nogen bogføringsgrupper eller bogføringsopsætning.  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] forhindrer, at du kan slette en finanskonto, der indeholder data, der skal bruges i kontoplanen.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschart-accounts-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Finans- og kontoplanen](finance-general-ledger.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: bholtorf
-ms.openlocfilehash: d187398fe615574785a17b4a7eb122b7a18c557e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b38f5f97c7b5be46f1d6cd4d1bc898e72060417e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879676"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999615"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Afregne købsfakturaer omgående
 Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bogføre betalingen, når du bogfører fakturaen.  
@@ -26,7 +26,7 @@ Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bog
 3.  Du kan afregne kontant eller via bankoverførsel ved at angive nummeret på finanskontoen eller bankkontoen i feltet **Modkonto**.  
 
 > [!IMPORTANT]  
->  Felterne **Modkontotype** og **Modkonto** er ikke med i standardopsætningen for et fakturahoved. Disse felter skal derfor først indsættes med designfunktionerne, for at du kan bogføre betalingen af en faktura.  
+>  Felterne **Modkontotype** og **Modkonto** er ikke med i standardopsætningen for et fakturahoved. Disse felter skal derfor først indsættes med designfunktionerne, for at du kan bogføre betalingen af en faktura. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md). 
 
 > [!NOTE]  
 >  Hvis du ofte afregner købsfakturaer kontant, kan det muligvis svare sig at oprette en specifik betalingsform med en tilknyttet modkonto og angive betalingsformen i feltet **Betalingsform** på kreditorkortet. Modkontonummeret indsættes automatisk på fakturahovedet, hver gang du opretter en ny faktura.  

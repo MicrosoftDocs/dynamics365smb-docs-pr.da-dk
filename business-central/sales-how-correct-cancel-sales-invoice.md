@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: c20dcb73b52a42d6070fdbcb32c726d2181c8c6b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 95653acf28c553d8331e2c086b7e84f1518bc3c0
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316472"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992044"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Rette eller annullere ubetalte salgsfakturaer
 Du kan rette eller annullere en bogført salgsfaktura. Dette er nyttigt, hvis du laver en fejl, eller hvis debitoren anmoder om en ændring.
@@ -54,6 +54,9 @@ Når du retter eller annullerer en bogført salgsfaktura, anvendes den rettede s
 
     En salgskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte salgsfaktura. Feltet **Annulleret** på den første bogførte salgsfaktura ændres til **Ja**.
 4. Vælg **Vis rettelseskreditnota** for at få vist den bogførte salgskreditnota, som gør den oprindelige bogførte salgsfaktura ugyldig.
+
+### <a name="partial-invoice-posting-also-supported"></a>Delvis fakturabogføring understøttes også
+Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindelige salgsordrelinje, så den afspejler det annullerede fakturerede antal. Felterne **Fakturer anta** og **Fakt. antal** på den relaterede salgsordrelinje nulstilles til værdierne før den delvise fakturabogføring.
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

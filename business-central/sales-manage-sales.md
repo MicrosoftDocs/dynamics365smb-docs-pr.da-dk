@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 01/13/2020
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0d5c47a7dbd4339eff85bd6fe70078f5e56009aa
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e6a616bcfc78f0d46ea7e57639a9f27ddfa3d656
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954087"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999875"
 ---
 # <a name="sales"></a>Salg
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.
@@ -27,6 +27,8 @@ Du kan forhandle med debitoren ved først at oprette et salgstilbud, som du kan 
 Du kan nemt rette eller annullere en bogført salgsfaktura, før den er betalt. Dette er nyttigt, hvis du vil rette en skrivefejl, eller hvis debitoren anmoder om en ændring i ordreprocessen. Hvis den bogførte faktura betales, skal du oprette en salgskreditnota eller en salgsreturvareordre for at tilbageføre salget.
 
 Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. Microsoft-funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] giver dig en præcis oversigt over dine kontaktoplysninger, så du kan betjene dine potentielle kunder mere effektivt og øge kundetilfredsheden. Du kan finde flere oplysninger i [Relationsstyring](marketing-relationship-management.md).
+
+Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien. Du kan finde flere oplysninger i [Bruge Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
 
 I de situationer, hvor debitoren skal betale, før produkterne leveres, f.eks i detailbranchen, skal du vente på betalingsmodtagelse, før du leverer produkterne. I de fleste tilfælde kan du behandle indgående betalinger nogle uger efter levering ved at udligne betalingerne på de relaterede bogførte ubetalte salgsfakturaer. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 

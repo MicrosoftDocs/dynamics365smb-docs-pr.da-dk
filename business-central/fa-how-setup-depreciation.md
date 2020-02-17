@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: db3a3cf0426c97ebebff9c4a486975c44b8d6510
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4f11ac5080c8601ce8ae46178bf5c1ed8bb646e1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302736"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999567"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
- Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md).
+ Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning såsom saldoafskrivning. Du kan definere afskrivningsmetoden for anlægsaktivet med feltet **Afskrivningsmetode** på siden **Anlægskort**. Du kan finde yderligere oplysninger om de forskellige metoder under [Afskrivningsmetoder ](fa-depreciation-methods.md).
 
- Når du har oprettet de relevante afskrivningsprofiler, skal du tildele en eller flere afskrivningsprofiler til hvert anlægsaktiv. En afskrivningsprofil, der er tildelt til et anlægsaktiv, kaldes en anlægsafskrivningsprofil. Derfor kaldes siden for tildelte afskrivningsprofiler **Anlægsafskrivningsprofiler**.
+ I de afskrivningsprofiler, du definerer de forskellige afskrivninger, skal der beregnes for de forskellige anlægsaktiver. I hver enkelt bog kan du angive individuelle afskrivningsbetingelser. For en profil kan du f.eks. angive, at anlægsaktivet skal afskrives over 3 år, og i en anden profil over fem år.
+
+ Når du har oprettet de relevante afskrivningsprofiler, skal du tildele en eller flere afskrivningsprofiler til hvert anlægsaktiv. En afskrivningsprofil, der er tildelt til et anlægsaktiv, kaldes en anlægsafskrivningsprofil. Du kan opsætte et ubegrænset antal afskrivningsprofiler for et anlæg. 
 
 ## <a name="to-create-a-depreciation-book"></a>Sådan oprettes en afskrivningsprofil
 I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives. Du kan definere flere afskrivningsprofiler for at tage højde for forskellig slags afskrivningsmetoder.  
@@ -35,7 +37,7 @@ I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives
 5. Gentag trin 2 til 4 for hver afskrivningsmetode eller bogføringsmetode, du vil tildele til anlægsaktiver som en afskrivningsprofil.
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Sådan tildeles en afskrivningsprofil til et anlægsaktiv
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.
 2. Vælg det anlægsaktiv, som du vil konfigurere en anlægsafskrivningsprofil for.
 3. I oversigtspanelet **Afskrivningsprofil** skal du udfylde felterne efter behov.
 4. Hvis du vil tildele mere end én afskrivningsprofil til anlægsaktivet, skal du vælge handlingen **Tilføj flere afskrivningsprofiler**.
@@ -47,7 +49,7 @@ I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Sådan tildeles en afskrivningsprofil til flere anlægsaktiver med en kørsel
 Hvis du vil tildele en afskrivningsprofil til flere anlægsaktiver, kan du bruge kørslen **Opret anlægsafskr.profiler** til at oprette anlægsafskrivningsprofiler.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsaktiver**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.
 2. Vælg det anlægsaktiv, som du vil tildele en afskrivningsprofil, og vælg derefter handlingen **Rediger**.
 3. På siden **Afskrivningsprofilkort** skal du vælge handlingen **Opret anlægsafskr.profiler**.
 4. På siden **Opret anlægsafskr.profiler** skal du udfylde feltet **Afskrivningsprofil**.
@@ -78,7 +80,7 @@ For hver afskrivningsprofil skal du definere en standardopsætning med typer og 
 4. Vælg den kladdetype eller kørsel i de andre felter, som skal bruges som standard.  
 
 ## <a name="see-also"></a>Se også
-[Opsætning af anlægsaktiver](fa-setup.md)  
+[Opsætning af Anlægsaktiver](fa-setup.md)  
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  

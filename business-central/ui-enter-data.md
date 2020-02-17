@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311376"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992074"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -55,7 +55,7 @@ Følgende indeholder nyttige oplysninger om brugen af genvej.
 
 Hvis du vil ændre, hvilke felter der medtages i eller udelukkes fra genvej på en side, kan du bruge tilpasning.
 
-1. Start tilpasning ved at vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "ikonet Indstillinger til rollecenter") og derefter handlingen **Tilpas**.
+1. Start tilpasning ved at vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter handlingen **Tilpas**.
 2. Markér et felt, du vil ændre, eller markér på lister den tilsvarende kolonneoverskrift, og vælg derefter enten **Medtag i genvej** eller **Udeluk fra genvej**.
 
 Du kan finde flere oplysninger om tilpasning under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
@@ -105,13 +105,14 @@ For at vende tilbage til normal visning skal du vælge ![Ikonet Fokustilstand](m
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking på tværs af flere sider
 Når du arbejder på flere opgaver ad gangen eller administrerer afbrydelser af den aktuelle opgave, f.eks. besvarer et indgående opkald, kan du åbne en kort- eller dokumentside i et nyt vindue. Det giver dig mulighed for at holde et vindue åbent for en igangværende opgave, mens du starter eller udfører en anden opgave i et eller flere andre vinduer.
 
-Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn nyt vindue") i øverste højre hjørne eller trykke på Alt+Skift+W.
+Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne eller trykke på Alt+Skift+W.
 
 > [!NOTE]
-> Når du åbner andre sider fra et kort eller et dokument, der er åbnet i et nyt vindue, åbnes disse sider i et nyt vindue, selvom du ikke vælger ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn nyt vindue").
+> Når du åbner andre sider fra et kort eller et dokument, der er åbnet i et nyt vindue, åbnes disse sider i et nyt vindue, selvom du ikke vælger ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue").
 
 > [!NOTE]
-> Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger under [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger under [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Det samme kan forekomme i andre browsere, f.eks. Firefox. Du kan finde flere oplysninger under [Indstillinger for blokering af pop op-vinduer i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 ## <a name="entering-quantities-by-calculation"></a>Angive mængder ved beregning
 
