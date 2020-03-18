@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ce48121b36ecd3f153d846f346c52b39a0c64bb
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 154d72032171fa6fbe223ba4f152f868d577c8c7
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999900"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076703"
 ---
 # <a name="about-the-data-exchange-framework"></a>Om Data Exchange Framework
 Du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
@@ -40,13 +40,13 @@ Som administrator eller Microsoft-partner kan du bruge strukturen i nye integrat
   For at kunne modtage f.eks. en faktura som et elektronisk OCR-dokument skal du behandle den, som når du modtager et elektronisk PEPPOL-dokument. Modtagelse og konvertering af elektroniske PEPPOL-dokumenter fra OCR udføres af Data Exchange Framework, som er repræsenteret ved dataudvekslingsdefinitionen **OCR - Faktura**.  
 
  ## <a name="bank-files"></a>Bankfiler  
- Formatet af filer til udveksling af bankdata med ERP-systemer afhænger af leverandøren af filen og landet eller området. Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter import og eksport af SEPA-bankfiler (Single Euro Payments Area), og AMC Banking 365 Fundamentals-udvidelse gør det muligt at oprette forbindelse til en tjeneste til konvertering af bankdata, der leveres af en ekstern udbyder, AMC Consult. For at understøtte andre elektroniske dokumentformater kan du bruge Data Exchange Framework.  
+ Formatet af filer til udveksling af bankdata med ERP-systemer afhænger af leverandøren af filen og landet eller området. Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter import og eksport af SEPA-bankfiler (Single Euro Payments Area), og AMC Banking 365 Fundamentals-udvidelse gør det muligt at oprette forbindelse til en AMC Banking 365 Fundamentals-udvidelse, der leveres af en ekstern udbyder, AMC Consult. For at understøtte andre elektroniske dokumentformater kan du bruge Data Exchange Framework.  
 
- Hvis du vil eksportere SEPA-kreditoverførsler, skal du vælge knappen **Eksportér betalinger til fil** på siden **Udbetalingskladde** og derefter uploade filen for at behandle betalingerne i din bank. Du skal først konfigurere forskellige stamdata, såsom bankkonto, kreditorer og betalingsmetoder. Datakonvertering og eksport af SEPA-bankdata udføres af en dedikeret codeunit og XMLport, som repræsenteres bankeksport-/importkonfigurationen i **SEPA Kreditoverførsel**. Du kan også du kan konfigurere AMC Banking 365 Fundamentals-udvidelsen til at udføre eksporten repræsenteret af dataudvekslingsdefinitionen **Tjeneste til konvertering af bankdata - Kreditoverførsel**.  
+ Hvis du vil eksportere SEPA-kreditoverførsler, skal du vælge knappen **Eksportér betalinger til fil** på siden **Udbetalingskladde** og derefter uploade filen for at behandle betalingerne i din bank. Du skal først konfigurere forskellige stamdata, såsom bankkonto, kreditorer og betalingsmetoder. Datakonvertering og eksport af SEPA-bankdata udføres af en dedikeret codeunit og XMLport, som repræsenteres bankeksport-/importkonfigurationen i **SEPA Kreditoverførsel**. Du kan også du kan konfigurere AMC Banking 365 Fundamentals-udvidelsen til at udføre eksporten repræsenteret af **AMC Banking 365 Fundamentals-udvidelsen – Kreditoverførsel**-dataudvekslingsdefinitionen.  
 
  For at eksportere instruktioner til direkte SEPA-debitering skal du vælge knappen **Udlæs Direct Debit-fil** på siden **Direct Debit-opkrævninger** og derefter sende til din bank for at modtage de relevante debitorbetalinger automatisk. Først skal du konfigurere bankkonti, debitorer, Direct Debit-betalingsaftaler og betalingsmetoder. Datakonvertering og eksport af SEPA-bankdata udføres af en dedikeret codeunit og XMLport, som repræsenteres bankeksport-/importkonfigurationen i **SEPA Direct Debit**.  
 
- Hvis du vil indlæse SEPA-bankkontoudtog, skal du vælge knappen Importér bankkontoudtog på siderne **Betalingsudligningskladde** og **Bankkontoafstemning**, og derefter fortsætter du og anvender hver bankkontoudtogpost til betalinger eller bankposter, enten manuelt eller automatisk. Du skal først konfigurere bankkonti. Import og konvertering af SEPA-bankdata udføres af Data Exchange Framework, som er repræsenteret ved dataudvekslingsdefinitionen **SEPA CAMT**. Du kan også du kan konfigurere AMC Banking 365 Fundamentals-udvidelsen til at udføre importen repræsenteret af dataudvekslingsdefinitionen **Tjeneste til konvertering af bankdata - Bankkontoudtog**.  
+ Hvis du vil indlæse SEPA-bankkontoudtog, skal du vælge knappen Importér bankkontoudtog på siderne **Betalingsudligningskladde** og **Bankkontoafstemning**, og derefter fortsætter du og anvender hver bankkontoudtogpost til betalinger eller bankposter, enten manuelt eller automatisk. Du skal først konfigurere bankkonti. Import og konvertering af SEPA-bankdata udføres af Data Exchange Framework, som er repræsenteret ved dataudvekslingsdefinitionen **SEPA CAMT**. Du kan også du kan konfigurere AMC Banking 365 Fundamentals-udvidelsen til at udføre importen repræsenteret af **AMC Banking 365 Fundamentals-udvidelsen – Bankkontoudtog**-dataudvekslingsdefinitionen.  
 
  Desuden understøtter de lokale versioner af [!INCLUDE[d365fin](includes/d365fin_md.md)] forskellige andre filformater til import og eksport af bankdata, løntransaktioner og andre data. Du kan finde flere oplysninger i afsnittet "Lokal funktionalitet" i Hjælp i dine landeversion af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

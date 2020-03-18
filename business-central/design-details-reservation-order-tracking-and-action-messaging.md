@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878433"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076945"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designoplysninger: Reservation, ordresporing og aktionsmeddelelser
 Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallelle funktionerne for ordresporing og aktionsmeddelelser.  
@@ -80,7 +80,7 @@ Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallell
 
 -   En produktionsordre med flere niveauer, hvor feltet **Produktionsmetode** af de involverede overordnede og underordnede elementer er indstillet til **Fremstil-til-ordre**. Planlægningssystemet opretter reservationer mellem den overordnede produktionsordre og de underliggende produktionsordrer for at sikre, at de behandles sammen. Sådan en reservationsbinding tilsidesætter varens standardkostmetode og udligningsmetode.  
 
--   En produktion, montage eller købsordre, hvor feltet **Genbestillingsmetode** på den pågældende vare er angivet til **Ordre**. Planlægningssystemet opretter en reservation mellem behovet og den planlagte forsyning for at sikre, at den specifikke forsyning oprettes. Du kan finde yderligere oplysninger i [Designoplysninger: Ordre](design-details-order.md).  
+-   En produktion, montage eller købsordre, hvor feltet **Genbestillingsmetode** på den pågældende vare er angivet til **Ordre**. Planlægningssystemet opretter en reservation mellem behovet og den planlagte forsyning for at sikre, at den specifikke forsyning oprettes. Du kan finde flere oplysninger i [Ordre](design-details-handling-reordering-policies.md#order).  
 
 -   En produktionsordre, der er oprettet ud fra en salgsordre med funktionen **Salgsordreplanlægning**, knyttes til salgsordren med en automatisk reservation.  
 

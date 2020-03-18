@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/14/2020
 ms.author: bholtorf
-ms.openlocfilehash: 54c6c346e0a1624230b11b0410a3b9c19b6a222b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 733c5c9ece0374bafda86f1d6dde03a9699cf8bf
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881480"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076399"
 ---
 # <a name="create-electronic-documents-by-using-oioubl"></a>Oprette elektroniske dokumenter ved hjælp af OIOUBL
 Når du sælger varer eller tjenesteydelser til en kunde i den offentlige sektor, skal du sende dokumenter elektronisk. I [!INCLUDE[d365fin](../../includes/d365fin_md.md)], kan du oprette elektroniske dokumenter til fakturaer, kreditnotaer, rykkere og rentenotaer. Før du kan oprette elektroniske dokumenter, skal du have angivet filplaceringer og oplysninger om kunderne. Du kan få flere oplysninger i [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md).  
@@ -44,7 +44,8 @@ Når du har bogført et dokument, kan du oprette en elektronisk faktura i OIOUBL
 3.  Vælg handlingen **Opret elektronisk <*dokumenttype*>**.  
 4.  På siden **Opret elektronisk <*dokumenttype*>** kan du angive yderligere filtre og derefter vælge knappen **OK**.  
 
-En XML-fil oprettes og gemmes på den lokation, som er defineret på siden **Salgsopsætning**. Du kan nu sende dokumentet til kunden.  
+Derved oprettes en XML-fil, der gemmes på standardplaceringen for hentning på din enhed.
+
 
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  

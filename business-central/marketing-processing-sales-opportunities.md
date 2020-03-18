@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: dc88bfaac0fe65bfa5e5053529c5724b76787cac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92e2ad3723e2cb2b3b24f179d39462a98e9cc106
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308786"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076583"
 ---
 # <a name="process-sales-opportunities"></a>Behandle salgsleads
 Når du opretter et lead, er der flere funktioner til administration af et lead og til at flytte det til afslutning.
@@ -27,7 +27,7 @@ De eksisterende salgsmuligheder er tilgængelige på siden **Salgsmulighedsovers
 
 | For at få vist salgsleads for | Så |
 | --- | --- |
-| Alle sælgere og kontakter |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsmulighedsoversigt**, og vælg derefter det relaterede link. |
+| Alle sælgere og kontakter |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leadoversigt**, og vælg derefter det relaterede link. |
 | En bestemt sælger |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere**, og vælg derefter det relaterede link. Vælg sælgeren, vælg handlingen **Leads**, og vælg derefter handlingen **Oversigt**. |
 | En bestemt kontakt |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link. Vælg kontakten på listen, og vælg derefter handlingen **Leads**. |
 
@@ -50,7 +50,7 @@ Du kan oprette salgstilbud for kontakter, der ikke er registreret som debitorer.
 2. Udfyld de relevante felter.
 
 ## <a name="to-create-sales-orders-for-opportunities"></a>Sådan oprettes salgsordrer til leads
-Du kan oprette salgsordrer ud fra de tilbud, som du har oprettet til leads. Før du kan oprette salgsordrer til dine kontaktpersoner, skal du oprette kontaktpersonen som debitor. Du kan finde flere oplysninger under [Oprette en debitor, kreditor eller bankkonto fra en kontakt](marketing-how-create-contacts-new-customers-vendors-bank-accounts.md).
+Du kan oprette salgsordrer ud fra de tilbud, som du har oprettet til leads. Før du kan oprette salgsordrer til dine kontaktpersoner, skal du oprette kontaktpersonen som debitor. Du kan finde flere oplysninger i [Oprette kontakter](marketing-create-contact-companies.md).
 
 1. På siden **Salgsmulighedsoversigt** skal du finde den salgsmulighed, du har oprettet et salgstilbud til.
 2. Vælg handlingen **Tildel salgstilbud**. Siden **Salgstilbud**, der indeholder det salgstilbud, som du har knyttet til salgsmuligheden, åbnes.
@@ -65,7 +65,7 @@ Når du vil slette lukkede salgsmuligheder fra siden **Salgsmulighedsoversigt**,
 
 Du sletter lukkede leads med kørslen **Slet lukkede leads** ved at følge disse trin:
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet salgsmuligheder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet leads**, og vælg derefter det relaterede link.
 2. I afsnittet **Lead** skal angive filtre, der angiver de lukkede leads, der skal slettes.
 3. Vælg knappen **OK**.
 

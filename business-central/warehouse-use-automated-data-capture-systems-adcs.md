@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832331"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097788"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Brug ADCS (Automated Data Capture Systems)
 
 > [!NOTE]
-> I standardversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer ADCS kun i forbindelse med lokale installationer. Men en Microsoft-partner kan få det til at fungere i onlineinstallationer ved hjælp af Power Apps eller lignende.
+> ADCS-løsningen (Automated Data Capture System) gør det muligt for [!INCLUDE[d365fin](includes/d365fin_md.md)] at kommunikere med håndholdte enheder via webtjenester. Du skal arbejde med en Microsoft-partner, som kan sørge for forbindelsen mellem webtjenesten og den håndholdte enhed. 
 
 Du kan bruge ADCS-systemet (Automatic Data Capture System) til at registrere varebevægelser på lagerstedet og registrere bestemte kladdeaktiviteter, bl.a. regulering af vareantal på lagerkladden og lageropgørelser. ADCS omfatter typisk scanning af en stregkode.
 
@@ -32,7 +32,23 @@ Ved opsætningen af miniformularer skal du definere, hvilke oplysninger der skal
 - Tekstoplysninger.  
 - Meddelelser til at vise bekræftelser eller fejl om aktiviteter, der er udført og registreret af brugeren af den håndholdte enhed.
 
-Du kan finde flere oplysninger i [Konfiguration af Automated Data Capture System](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjælpen til udviklere og it-eksperter.
+## <a name="to-enable-web-services-for-adcs"></a>Sådan aktiveres webtjenester til ADCS
+Hvis du vil bruge Automated Data Capture System, skal du aktivere ADCS-webtjenesten.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>Sådan aktiveres og publiceres ADCS-webtjenesten  
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Webtjenester**, og vælg derefter det relaterede link.
+2. Vælg handlingen **Ny**.  
+3. Indtast følgende oplysninger på en ny linje på siden **Webtjenester**:  
+
+    |Felt|Værdi|  
+    |---------------------------------|-----------|  
+    |**Objekttype**|Codeunit|  
+    |**Objekt-id**|7714|  
+    |**Tjenestenavn**|**Vigtigt** i forbindelse med ADCS: Det er nødvendigt at navngive tjenesten **ADCS**.|  
+
+5. Marker afkrydsningsfeltet **Publiceret**.  
+6. Vælg knappen **OK**.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Sådan opsætter du et lager til brug af ADCS  
 Hvis du vil bruge ADCS, skal du angive, hvilke lokationer på lagerstedet der bruger teknologien.  
@@ -79,7 +95,8 @@ Du kan tilføje enhver bruger som ADCS-bruger (Automated Data Capture System). N
 ## <a name="to-create-and-customize-miniforms"></a>Sådan oprettes og tilpasses miniformularer
 Du kan bruge miniformularer til at beskrive de oplysninger, som du vil vise på en håndholdt enhed. Du kan f.eks. oprette miniformularer, der understøtter lageraktiviteten at plukke varer. Når du opretter en miniformular, kan du føje funktioner til den for almindelige handlinger, en bruger udfører med håndholdte enheder, f.eks flytte en linje op eller ned.  
 
-Hvis du vil implementere eller ændre funktionaliteten af en miniformular-funktion, skal du oprette en ny codeunit eller redigere en eksisterende, så den krævede handling eller det krævede svar udføres. Du kan lære mere om ADCS-funktionaliteten ved at undersøge codeunits såsom 7705, som er codeunit til håndtering af logonfunktionalitet. Codeunit 7705 viser, hvordan en miniformular af korttypen fungerer.  
+> [!NOTE] 
+> Hvis du vil implementere eller ændre funktionaliteten af en miniformular-funktion, skal du oprette en ny codeunit til feltet **Håndtering af Codeunit**, så den krævede handling eller det krævede svar udføres. Du kan få mere at vide om ADCS-funktionaliteten ved at undersøge kodeenheder som 7705, 7706, 7712 og 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Sådan oprettes en miniformular til ADCS  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Miniformularer**, og vælg derefter det relaterede link.  
@@ -92,25 +109,11 @@ Hvis du vil implementere eller ændre funktionaliteten af en miniformular-funkti
 
 Når du har oprettet en miniformular, er næste trin at oprette funktioner og knytte funktioner til forskellige tastaturinput.  
 
-### <a name="to-add-support-for-a-function-key"></a>Sådan tilføjes understøttelse af en funktionstast  
-1.  Tilføj kode i lighed med følgende eksempel til .xsl-filen for den pågældende plug-in. Dette opretter en funktion for tasten **F6**. Oplysninger om tasterækkefølgen kan fås fra producenten af enheden.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  I udviklingsmiljøet i [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du åbne tabellen 7702 og tilføje en kode, der repræsenterer den nye tast. I dette eksempel skal du oprette en tast, der hedder **F6**.  
-3.  Tilføj C/AL-kode til den relevante funktion af den miniformular-specifikke codeunit til håndtering af funktionstasten.  
-
 ### <a name="to-customize-miniform-functions"></a>Sådan tilpasses miniformularfunktioner  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Miniformularer**, og vælg derefter det relaterede link.  
 2.  Vælg en miniformular på listen, og vælg derefter handlingen **Rediger**.  
 3.  Vælg handlingen **Funktioner**.  
 4.  På rullelisten **Funktionskode** skal du vælge en kode til at repræsentere den funktion, du vil knytte til miniformularen. For eksempel kan du vælge ESC, som tilknytter funktionalitet, når der trykkes på ESC-tasten.  
-
-I udviklingsmiljøet i [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du redigere koden for feltet **Håndtering af Codeunit** for at oprette eller redigere kode, som kan udføre den krævede handling eller det krævede svar.
-
-Du kan finde flere oplysninger i [Konfiguration af Automated Data Capture System](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjælpen til udviklere og it-eksperter.
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  

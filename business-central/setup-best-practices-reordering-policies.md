@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e128e5a4f08364ccea9ae0aa4e284943688404c4
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882226"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076434"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Oprette bedste fremgangsmåder: Genbestillingspolitikker
 Feltet **Genbestillingsmetode** på varekortene tilbyder fire forskellige planlægningsmetoder, der bestemmer, hvordan individuelle planlægningsparametre skal arbejde sammen.  
@@ -43,10 +43,6 @@ Følgende tabel indeholder de bedste fremgangsmåder til at vælge mellem de fir
 
 ## <a name="see-also"></a>Se også  
  [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)   
- [Designoplysninger: Genbestillingsmetoder](design-details-reordering-policies.md)   
- [Designoplysninger: Ordre](design-details-order.md)   
- [Designoplysninger: Lot-for-lot](design-details-lot-for-lot.md)   
- [Designoplysninger: Fast genbestil.antal](design-details-fixed-reorder-qty.md)   
- [Designoplysninger: Maks. antal](design-details-maximum-qty.md)   
+ [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

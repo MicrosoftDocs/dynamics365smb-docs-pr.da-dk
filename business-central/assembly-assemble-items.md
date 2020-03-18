@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 946b14c6d3a480bda217b9d78330343a8d772de1
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953871"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097716"
 ---
 # <a name="assembly-management"></a>Montagestyring
 For at støtte virksomheder, som leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, indeholder [!INCLUDE[d365fin](includes/d365fin_md.md)] funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.  
 
  Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
 
- Montageordrer er interne ordrer, ligesom produktionsordrer, der bruges til at administrere montageprocessen og til at forbinde salgskravene med de involverede lageraktiviteter. Montageordrer adskiller sig fra andre ordretyper, da de omfatter både afgang og forbrug, når de bogføres. Montageordrehovedet fungerer på samme måde en salgsordrelinje, og montageordrelinjerne fungerer på samme måde som forbrugskladdelinjer.  
+ Montageordrer er interne ordrer, ligesom produktionsordrer, der bruges til at administrere montageprocessen og til at forbinde salgskravene med de involverede lageraktiviteter. Montageordrer adskiller sig fra andre ordretyper, da de omfatter både afgang og forbrug, når de bogføres. Montageordrehovedet fungerer på samme måde en afgangskladdelinje, og montageordrelinjerne fungerer på samme måde som forbrugskladdelinjer.  
 
  For at støtte en for JIT-lagerstrategi og muligheden for at tilpasse produkter til debitorkrav, kan montageordrer automatisk oprettes og kædes sammen, så snart salgsordrelinjen er oprettet. Sammenkædningen mellem salgsbehovet og montageleveringen gør det muligt for salgsordrebehandleren at tilpasse montageelementet løbende, love leveringsdatoer ifølge komponenttilgængeligheden og bogføre afgang og levering af montageelementet direkte fra deres salgsordregrænseflade. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -46,7 +46,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Få mere at vide om forskellen mellem montagestyklister og produktionsstyklister og de involverede behandlingsforskelle.|[Arbejde med styklister](inventory-how-work-BOMs.md)|
 |Lær, hvordan montageforbrug og afgang håndteres, når du bogfører montageordrer, og hvordan de afledte omkostninger for varen og ressourcen behandles og fordeles i regnskabet.|[Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også  
 [Arbejde med styklister](inventory-how-work-BOMs.md)  

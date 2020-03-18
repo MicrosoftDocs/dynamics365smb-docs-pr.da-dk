@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 01/13/2020
+ms.date: 02/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953343"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071978"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
@@ -58,13 +58,14 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 |----|------------|-------|
 |Flytte noget, f.eks. et felt, en kolonne i listen, et felt, en handling eller en del|Peg et vilkårligt sted i det, du vil flytte, og træk det til den nye placering. Placeringen angives med enten en fed vandret eller lodret linje.<br /><br />![Kan ikke flytte her-ikon](media/personalization-cannot-move-here.png "Tilpasningstilstand – kan ikke flytte her-ikon") angiver, at du ikke kan flytte elementet til den valgte placering.|Dele er underinddelinger eller områder på en side, der indeholder elementer, f.eks. flere felter, en anden side, et diagram eller felter.<br /><br />Du kan finde flere oplysninger om tilpasning af handlinger i [Tilpasning af handlinger](ui-personalization-user.md#Actions). |
 |Skjule noget, f.eks. et felt, en kolonne i listen, et felt, en handling eller en del.|Vælg pilespidsen, vælg <b>Skjul</b>.|Elementet vises nedtonet, når du er i tilpasningstilstand. Hvis det felt, du skjuler, også vises i overskriften til oversigtspanelet, når oversigtspanelet er skjult, vises feltet ikke længere der.|
-|Vise skjulte handlinger og felter.|For et nedtonet (skjult) element skal du vælge pilespidsen og derefter vælge <b>Vis</b>.|Det skjulte element er igen synligt.|
+|Vise skjulte handlinger og dele.|For et nedtonet (skjult) element skal du vælge pilespidsen og derefter vælge <b>Vis</b>.|Det skjulte element er synligt igen.|
 |Tilføje et felt eller en kolonne.|Vælg handlingen <b>+ Felt</b> i banneret <b>Tilpas</b>.<br /></br>Ruden <b>Tilføj felt til side</b> vises til højre. Den viser de felter, du kan føje til siden.<br /><br />Hvis du vil tilføje et felt, skal du trække det fra ruden til den ønskede placering. Placeringen angives med enten en fed vandret eller lodret linje.|Hver side indeholder et foruddefineret sæt felter, der kan vises. Brug denne fremgangsmåde til at tilføje felter eller kolonner, der ikke tidligere er vist, eller til at vise felter, du har skjult.|
 |Vise et felt i overskriften til et oversigtspanel, når oversigtspanelet er skjult.|Vælg pilespidsen, og vælg derefter <b>Vis, når skjult</b>. <br /> <br />Hvis du ikke kan se denne indstilling, er den allerede angivet. Hvis det er tilfældet, og feltet ikke skal vises i overskriften til oversigtspanelet, skal du vælge <b>Vis altid</b>.|*Oversigtspanel* er det udtryk, der bruges om en gruppe felter, der vises under en fælles overskrift. Brug indstillingen <b>Vis, når skjult</b> for at få vist de vigtigste felter. Hvis du vælger et felt i overskriften, åbnes oversigtspanelet og fokuserer på det valgte felt.<br /><br />Denne indstilling kan kun anvendes, hvis en side har mere end et oversigtspanel. Hvis der kun er ét oversigtspanel, kan det ikke skjules, så indstiillingen <b>Vis, når skjult</b> er ikke tilgængelig.|
 |Angiv, at et felt kun skal vises, når du vælger **Vis mere**.|Vælg pilespidsen, og vælg derefter <b>Vis under "Vis flere"</b>. <br /> <br />Hvis du ikke kan se indstillingen <b>Vis under "Vis flere"</b>, er den allerede angivet. I så fald skal du vælge <b>Vis altid</b> for at få vist et felt hele tiden, og ikke kun når du vælger **Vis mere**.||
 |Flytte den fastlåste rude i en liste til en anden kolonne. |Vælg pilespidsen for den kolonne, som du vil bruge som den sidste kolonne i den fastlåste rude, og vælg derefter <b>Angiv låst rude</b>.<br /><br/>Hvis du vil flytte den fastlåste rude tilbage til den oprindelige tiltænkte placering, skal du vælge pilespidsen for den aktuelle kolonne i den låste rude og vælge <b>Ryd låst rude</b>. Bemærk: Du kan ikke fjerne denne låste rude.|Den fastlåste rude angiver de kolonner, der altid vises i venstre side, selv når du ruller vandret.|  
 |Spring et felt over, når du trykker på Enter.|Vælg pilespidsen ved siden af feltet eller kolonneoverskriften på en liste, og vælg **Udeluk fra genvej**. <br /><br /> Hvis du ikke kan se denne indstilling, er det allerede angivet, at feltet skal springes over. I det tilfælde skal du stoppe med at springe feltet over og vælge **Medtag i genvej**. |Se [Fremskynde dataindtastning ved hjælp af genveje](ui-enter-data.md#QuickEntry)|
-|Omarrangere og fjerne visninger, der repræsenterer filtrerede lister.|Vælg pilespidsen ud for en visning, og vælg derefter **Flyt**, **Fjern** eller **Skjul**.|Se [Gemme og tilpasse listevisninger](ui-views.md)|
+|Omarrangere og fjerne visninger, der repræsenterer filtrerede lister.|Vælg pilespidsen ud for en visning, og vælg derefter **Flyt**, **Fjern** eller **Skjul**.|Se [Gemme og tilpasse listevisninger](ui-views.md)|  
+|Føje en ny handling til en side eller en rapport i dit rollecenter.|Vælg bogmærkeikonet på rapportanmodningssiden eller i vinduet Fortæl mig på målsiden.|Se [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)|
 
 ## <a name="Actions"></a>Tilpasning af handlinger
 
@@ -75,6 +76,9 @@ Der er et par ord, du skal kende for at få en bedre forståelse af handlingstil
 En *handlingsgruppe* er et element, som kan vise andre handlinger eller grupper, når det udvides. For eksempel på siden **Salgsordrer** er den **Funktioner**-handling, der vises, når du vælger handlingen **Handlinger** en handlingsgruppe.
 
 En *fremhævet kategori* er en handlingsgruppe, der vises foran den lodrette linje `|` på handlingslinjen. Kategorierne omfatter typisk de mest almindeligt anvendte handlinger, så du hurtigt kan finde dem. For eksempel er handlingerne **Ordre**, **Frigivelse** og **Bogføring** på siden **Salgsordrer** fremhævede kategorier.
+
+> [!NOTE]
+> Du kan ikke tilpasse handlingslinjen, der vises i dele på siden (f.eks. salgslinjedelen på siden **Salgsordre**).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Sådan fjernes, skjules og vises handlinger og handlingsgrupper
 Når du vil vise eller skjule en handling, definerer indstillingerne under pilespidsen, hvad du kan gøre, afhængigt af handlingstilstanden.
@@ -90,8 +94,8 @@ Når du vil vise eller skjule en handling, definerer indstillingerne under piles
 ### <a name="to-move-actions-and-action-groups"></a>Sådan flyttes handlinger og handlingsgrupper
 Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret linje mellem to handlinger eller en kant omkring en handlingsgruppe. Der findes følgende begrænsninger:
 
-    - Du kan flytte enkelte handlinger til de fremhævede kategorier, men du kan ikke ændre rækkefølgen af handlinger i kategorien.
-    - Du kan ikke flytte en handlingsgruppe til en fremhævet kategori.
+- Du kan flytte enkelte handlinger til de fremhævede kategorier, men du kan ikke ændre rækkefølgen af handlinger i kategorien.
+- Du kan ikke flytte en handlingsgruppe til en fremhævet kategori.
 
 1. Hvis du vil flytte en handling eller handlingsgruppe, skal du trække og slippe den på den ønskede placering på samme måde som med feltet og kolonner.
 2. Hvis du vil flytte en handling eller handlingsgruppe til en anden handlingsgruppe, der er tom, skal du trække handlingen eller handlingsgruppen og slippe den i feltet **Slip en handling her**.
@@ -104,6 +108,7 @@ På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsænd
 
 |Indstilling|Det gør den|
 |------|------------
+|**Kun menuen Navigation**|Fjerner alle tilpasningsændringer, du har foretaget i navigationsmenuen, som er delt på tværs af rollecenteret og andre sider. Dette omfatter alle nye handlinger, der er tilføjet som bogmærker, og eventuelle ændringer af links og grupper i menuen.|  
 |**Kun handlinger**|Fjerne alle de tilpasningsændringer, du nogensinde har foretaget for handlingslinjen på siden.|
 |**Kun felter, kolonner og dele**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget for siden undtagen dem på handlingslinjen. Dette omfatter ændringer af felter, kolonner, dele og fliser. |
 |**Alle**|Fjerner alle de tilpasningsændringer, du har foretaget på siden, så siden får sit oprindelige udseende. Dette omfatter ændringer af handlingslinje, felter, kolonner, dele og fliser.|
@@ -116,7 +121,7 @@ Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 - Ændringer af en side i en rude træder i kraft på siden, overalt hvor den vises.  
 - Du kan kun tilføje felter og kolonner fra en foruddefineret liste, der er baseret på siden. Du kan ikke oprette nye felter og kolonner.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Tilpasse sider til profiler](ui-personalization-manage.md)  

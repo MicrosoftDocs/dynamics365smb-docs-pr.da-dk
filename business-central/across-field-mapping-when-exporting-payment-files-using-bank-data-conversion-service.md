@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49ed61472966ca06f996296d3d97365a6c223983
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: f5b1d0e6d5466ee44ffcd1249087a743f01bf109
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692624"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076727"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Felttilknytning ved eksport af betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen
 Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, eksponeres de data, du eksporterer, for tjenesteudbyderen. Serviceudbyderen er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger om AMC Banking 365 Fundamentals i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
@@ -25,7 +25,7 @@ Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, 
 
 Følgende tabel viser de felter i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvorfra du kan eksportere data.  
 
-|Koblet felt|Felt i tabel|Sortbord|Description|  
+|Koblet felt|Felt i tabel|Sortbord|Beskrivelse|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Kreditornummer|Kreditornummer|Bankkonto|Det id, der er tildelt din virksomhed af banken for at opkræve betalinger|  
 |Afsenders bankkontonr.|Bankkontonr./IBAN|Bankkonto|Dit firmas bankkontonummer (IBAN eller andet), der er angivet på bankkontokortet|  
@@ -71,4 +71,4 @@ Følgende tabel viser de felter i [!INCLUDE[d365fin](includes/d365fin_md.md)], h
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Udveksle data elektronisk](across-data-exchange.md)
 [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)   
-[Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+[Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   

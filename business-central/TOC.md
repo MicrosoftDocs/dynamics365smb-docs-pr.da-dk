@@ -47,7 +47,7 @@
 ### [Tilpasse dit arbejdsområde](ui-personalization-user.md)
 ### [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md)
 ### [Gemme og tilpasse listevisninger](ui-views.md)
-### [Føje en sidehandling til rollecenteret](ui-bookmarks.md)
+### [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)
 ### [Få vist lister på forskellige måder](across-display-lists-different-views.md)
 ## Udskrive rapporter og afvikle kørsler og XMLporte
 ### [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)
@@ -64,6 +64,7 @@
 ### [Opdater brugerdefinerede rapportlayouts](ui-update-report-layouts.md)
 ### [Angiv dokumentlayout for debitorer og leverandører](ui-define-customer-vendor-document-layouts.md)
 ### [Føje felter til et Word-rapportlayout](ui-how-add-fields-word-report-layout.md)
+### [Tilgængelige skrifttyper](ui-fonts.md)
 ## Bruge tastaturgenveje
 ### [Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)
 ### [Tastaturgenveje](keyboard-shortcuts.md)
@@ -297,8 +298,7 @@
 #### [Konfigurere indgående bilag](across-how-setup-income-documents.md)
 #### [Opdatere valutakurser](finance-how-update-currencies.md)
 #### [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
 #### [Konfigurere tjenesten til bankkontoudtog](bank-how-setup-bank-statement-service.md)
 #### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
@@ -310,8 +310,8 @@
 #### [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
 #### [Modtage og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
-#### [Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)
-#### [Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Opdatere valutakurser](finance-how-update-currencies.md)
 #### [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
@@ -403,7 +403,7 @@
 #### [Registrere betalinger og refusioner](payables-how-post-payments-refunds.md)
 #### [Lav forslag](payables-how-suggest-vendor-payments.md)
 #### [Foretage betalinger med check](payables-how-work-checks.md)
-#### [Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Afregne købsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)
 ### Udligne betalinger automatisk og afstemme bankkonti
@@ -918,7 +918,6 @@
 #### [Oprette forbrugsafgift og købsmoms](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Banktransaktioiner og betalinger
 #### [Oprette indbetalinger](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Administrere oplysninger om debitorkredit](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
 #### [Foretage elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Generelt
 #### [Udskrive fejlfindingsrapporter](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
@@ -1064,7 +1063,6 @@
 ## Island
 ### [Oversigt](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### Moms
-#### [Islandske momsregler for betingede rabatter](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Udskrive momsoversigtsoplysninger for dokumenter](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Særlig dataafgang og rapporter til skattemyndighederne](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Elektronisk fakturering
@@ -1459,7 +1457,6 @@
 #### [Afstemme bankkonti](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 #### [Foretage elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Generelt
-#### [Sådan administreres oplysninger om debitorkredit](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Udskrive fejlfindingsrapporter](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Sende lovgivningsmæssige påmindelser](submit-regulatory-alerts.md)
 # Overholdelse

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 10/01/2019
+ms.date: 02/20/2020
 ms.author: edupont
-ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: df141f15eda20b1c3ce17e12e726f79a20532915
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911121"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097740"
 ---
 # <a name="select-a-check-layout"></a>Vælge et checklayout
 Du kan udforme dine checks i overensstemmelse med de lokale myndigheders standarder. Checkbilleder kan udskrives på engelsk, fransk eller spansk.
@@ -38,8 +38,50 @@ Når du har oprettet checklayout, kan du udskrive check på siden **Udbetalingsk
 
 Hvis du vil ændre et af disse standardchecklayout, skal du bruge enten Word eller RDLC-integration til at gøre det. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).
 
+## <a name="using-micr-and-security-fonts"></a>Bruge MICR og sikkerhedsskrifttyper
+Onlineversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder forudinstallerede skrifttyper på de servere, der kan bruges, når checklayout defineres. Følgende dispositioner viser, hvilke skrifttyper der er tilgængelige og indeholder hyperlinks til detaljerede oplysninger fra tredjepartsleverandører af skrifttyperne.
+
+> [!Important]
+> MICR og sikkerhedsskrifttyper til checks i Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] licenseres i en skrifttypepakke fra IDAutomation.com, Inc. Disse produkter må kun anvendes som led i og i forbindelse med Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+I opdatering 15.3 og nyere er der installeret MICR-skrifttyper (Magnetic Ink Character Recognition), som kan bruges. Både E-13B- og CMC-7-standarder understøttes. Ud over MICR-skrifttyper er særlige sikkerhedsskrifttyper tilgængelige, så du kan oprette tekst, navne, beløb og valutasymbolerne dollar, euro, pund og yen, som er svære at ændre, når en check først er udskrevet.
+
+> [!NOTE]
+> Af hensyn til sikkerheden og af juridiske årsager kan du ikke overføre brugerdefinerede skrifttyper til [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljøet.
+
+### <a name="micr-e-13b-specifications"></a>MICR E-13B-specifikationer
+Følgende opsummerer specifikationer for de MICR E-13B-skrifttyper, som kan være nyttige, når du kalibrerer skrifttyper til at kunne bruges i checklayout på specifikke MICR-printere.
+
+![MICR E-13B-specifikationer](media/font_MICR_E-13B_Specifications.png "MICR E-13B-specifikationer")
+
+Den komplette specifikation af MICR E-13B-skrifttyper findes i leverandørens dokumentation her: (https://www.idautomation.com/micr-fonts/e13b/).
+
+### <a name="micr-cmc-7-specifications"></a>MICR CMC-7-specifikationer
+Følgende CMC-7-skrifttyper er tilgængelige i [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+
+- IDAutomationCMC7
+- IDAutomationCMC7n10
+- IDAutomationCMC7n25
+-   IDAutomationCMC7n40
+
+Følgende opsummerer specifikationer for de MICR CMC-7-skrifttyper, som kan være nyttige, når du kalibrerer skrifttyper til at kunne bruges i checklayout på specifikke MICR-printere.
+
+![MICR CMC-7-specifikationer](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-specifikationer")
+
+Den komplette specifikation af MICR CMC-7-skrifttyper findes i leverandørens dokumentation her: (http://www.idautomation.com/micr-fonts/cmc7/).
+
+### <a name="secure-font-specifications"></a>Specifikationer for sikre skrifttyper
+Følgende opsummerer specifikationer for sikkerhedsskrifttyper til checks, som kan være nyttige, når du kalibrerer skrifttyper til at kunne bruges i checklayout på specifikke MICR-printere.
+
+![Specifikationer for sikkerhedsskrifttyper til checks](media/font_check-security-font_Specifications.png "Specifikationer for sikkerhedsskrifttyper til checks")
+
+Den komplette specifikation af sikkerhedsskrifttyper til checks findes i leverandørens dokumentation her: (https://www.idautomation.com/security-fonts/).
+
+Skrifttyper til andre formål er også tilgængelige i [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan finde flere oplysninger i [Tilgængelige skrifttyper](ui-fonts.md)
+
 ## <a name="see-also"></a>Se også
 [Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)  
+[Skrifttyper i Business Central](ui-fonts.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)   
 [Fuldførelse af periodeafslutningsprocesser](year-how-complete-period-end-processes.md)  

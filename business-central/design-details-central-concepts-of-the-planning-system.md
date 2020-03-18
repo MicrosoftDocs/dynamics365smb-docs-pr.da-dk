@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880588"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076510"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designoplysninger: Centrale begreber i planlægningssystemet
 Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den relevante periode, der skal planlægges. Ifølge hver vares laveste-niveau-kode (styklisteposition) kalder kørslen en kodeenhed, der beregner en forsyningsplan ved at afstemme forsyning-behov-sæt og foreslå mulige handlinger, som brugeren kan foretage. De foreslåede handlinger vises som linjer i planlægningskladden eller indkøbskladden.  
@@ -46,7 +46,7 @@ Alle forsyninger og behov før startdatoen for planlægningsperioden vil blive b
 
 Med andre ord antages det, at planen for fortiden er udført i overensstemmelse med den givne plan.  
 
-Du kan finde flere oplysninger i [Designoplysninger: Håndtering af ordrer før planlægningsstartdatoen](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Du kan finde flere oplysninger i [Håndtering af ordrer før planlægningsstartdatoen](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamisk ordresporing (udligning)  
 Dynamisk ordresporing med samtidig oprettelse af aktionsmeddelelser i planlægningskladden er ikke en del af forsyningsplanlægningssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Denne funktion sammenkæder, behovet og det antal, der kan dække det, i realtid, hver gang et nyt behov eller en ny forsyning oprettes eller ændres.  
@@ -76,7 +76,7 @@ Derimod vedrører planlægningssystemet alle behov og forsyninger for en bestemt
 
 Efter planlægningskørslen forbliver ingen aktionsmeddelelser i tabellen Aktionsmeddelelsespost, fordi de er blevet erstattet af de foreslåede handlinger i planlægningskladden  
 
-Du kan finde flere oplysninger under Ordresporingsbindinger under planlægning i [Designoplysninger: Afstemning af forsyning med behov](design-details-balancing-supply-with-demand.md).  
+Du kan finde flere oplysninger under Ordresporingsbindinger under planlægning i [Afstemning af forsyning med behov](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Rækkefølge og prioritet i planlægningen  
 Når du opretter en plan, er rækkefølgen af beregningerne vigtig for at få arbejdet gjort inden for en rimelig tidsramme. Desuden spiller prioriteringen af krav og ressourcer en vigtig rolle for at opnå de bedste resultater.  
@@ -90,7 +90,7 @@ I et produktionsmiljø medfører behovet for en færdig salgbar vare afledte beh
 
 Tallene viser, i hvilken rækkefølge systemet giver forslag til forsyningsordrer på øverste niveau og under antagelse af, at brugeren accepterer disse forslag, og for alle varer på lavere niveauer.  
 
-Du kan finde flere oplysninger om overvejelser i forbindelse med produktion i [Designoplysninger: Indlæsning af lagerprofiler](design-details-loading-the-inventory-profiles.md).  
+Du kan finde flere oplysninger om overvejelser i forbindelse med produktion i [Indlæsning af lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ### <a name="locations--transfer-level-priority"></a>Lokationer / prioritet af overførselsniveau  
 Virksomheder, der gør forretning på mere end én lokation, kan være nødt til at planlægge individuelt for hver lokation. En vares sikkerhedslagerniveau og dens genbestillingsmetode kan f.eks. variere fra én lokation til en anden. I så fald skal planlægningsparametrene angives pr. vare og pr. lokation.  
@@ -106,14 +106,14 @@ Du kan finde flere oplysninger i [Designoplysninger: Overførsler i planlægning
 ### <a name="order-priority"></a>Prioritering for ordrer  
 Inden for en given SKU repræsenterer den anmodede eller tilgængelige dato den højeste prioritet. Behovene i dag skal behandles før behovene for de kommende dage. Men bortset fra denne slags prioritet sorteres de forskellige behov og forsyningstyper efter forretningsmæssig vigtighed for at beslutte, hvilke behov der skal opfyldes, før andre opfyldes. På forsyningssiden fortæller ordreprioriteten, hvilken forsyningskilde der skal anvendes, før der anvendes andre forsyningskilder.  
 
-Du kan finde flere oplysninger i [Designoplysninger: Prioritering af ordrer](design-details-prioritizing-orders.md).  
+Du kan finde flere oplysninger i [Prioritering af ordrer](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Behovsprognoser og rammeordrer  
 Forecasts og rammesalgsordrer repræsenterer begge forventet behov. Den rammeordre, som dækker en debitors tiltænkte køb over en bestemt tidsperiode, skal mindske usikkerheden af det samlede forecast. Rammeordren er en debitorspecifik prognose i tillæg til den uspecificerede prognose, som vist nedenfor.  
 
 ![Planlægning ved hjælp af prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlægning ved hjælp af prognoser")  
 
-Du kan finde flere oplysninger i afsnittet "Forecastbehov reduceres af salgsordrer" i [Designoplysninger: Indlæsning af lagerprofiler](design-details-loading-the-inventory-profiles.md).  
+Du kan finde flere oplysninger i afsnittet "Forecastbehov reduceres af salgsordrer" i [Indlæsning af lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ## <a name="planning-assignment"></a>Planlægningsopgave  
 Der skal foretages planlægning for alle varer, men der er ingen grund til at beregne en plan for en vare, medmindre der er sket en ændring i mønstret for behov eller forsyning, siden sidst en plan blev beregnet.  
@@ -171,9 +171,9 @@ Serie- eller lotnumrevarer uden specifik opsætning af varesporing kan have seri
 
 Behov-forsyning med serie-/lotnumre, specifikke eller ikke-specifikke, betragtes som høj prioritet og er derfor fritaget fra den frosne zone, hvilket betyder, at de er en del af planlægningen, selvom de forfalder før planlægningens startdato.  
 
-Du kan finde flere oplysninger i afsnittet "Serienumre/lotnumre indlæses efter specifikationsniveau" i [Designoplysninger: Indlæsning af lagerprofiler](design-details-loading-the-inventory-profiles.md).  
+Du kan finde flere oplysninger i afsnittet "Serienumre/lotnumre indlæses efter specifikationsniveau" i [Indlæsning af lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-Du kan finde flere oplysninger om, hvordan planlægningssystemet afstemmer attributter, under "Serienumre/lotnumre og ordre-til-ordre-links er fritaget fra den frosne zone" i [Designoplysninger: Håndtering af ordrer før planlægningsstartdatoen](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Hvis du ønsker yderligere oplysninger om, hvordan planlægningssystemet afstemmer attributter, kan du se [Serienumre/lotnumre og ordre-til-ordre-links er fritaget fra den frosne zone](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Ordre-til-ordre-links  
 Ordre-til-ordre-indkøb betyder, at en vare er købt, monteret eller produceret udelukkende til at dække et bestemt behov. Normalt relateres det til A-varer og motivationen for at vælge denne metode kan være, at behovet er sjældent, leveringstiden er ubetydelig, eller de påkrævede attributter varierer.  
@@ -223,14 +223,14 @@ Denne advarsel vises i to tilfælde:
 -   Når lageret er negativt på den planlagte startdato.  
 -   Når der er antedaterede forsyning- eller behovshændelser.  
 
-Hvis varens lager er negativt på den planlagte startdato, foreslås der en nødforsyning for den negative mængde, som skal ankomme på den planlagte startdato. Advarslen angiver startdatoen og mængden for nødordren. Du kan finde flere oplysninger i [Designoplysninger: Håndtering af forventet negativt lager](design-details-handling-projected-negative-inventory.md).  
+Hvis varens lager er negativt på den planlagte startdato, foreslås der en nødforsyning for den negative mængde, som skal ankomme på den planlagte startdato. Advarslen angiver startdatoen og mængden for nødordren. Du kan finde flere oplysninger i [Håndtering af forventet negativt lager](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Evt. dokumentlinjer med forfaldsdatoer før den planlagte startdato konsolideres i én nødforsyningsordre, så varen kan ankomme på den planlagte startdato.  
 
 ### <a name="exception"></a>Undtagelse  
 Advarslen om undtagelsen vises, hvis det forventede disponible lager kommer under sikkerhedslageret. Planlægningssystemet foreslår en forsyningsordre, der skal opfylde behovet på forfaldsdatoen. Advarslen angiver varens sikkerhedslager og den dato, hvor det overtrædes.  
 
-Overskridelse af niveauet for sikkerhedslageret anses for at være en undtagelse, fordi det ikke bør forekomme, hvis genbestillingspunktet er angivet korrekt. Du kan finde flere oplysninger i [Designoplysninger: Genbestillingspunktets rolle](design-details-the-role-of-the-reorder-point.md).  
+Overskridelse af niveauet for sikkerhedslageret anses for at være en undtagelse, fordi det ikke bør forekomme, hvis genbestillingspunktet er angivet korrekt. Du kan finde flere oplysninger i [Genbestillingspunktets rolle](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 Generelt sikrer exceptionelle ordreforslag, at den planlagte disponible beholdning aldrig er lavere end niveauet for sikkerhedslageret. Dette betyder, at det foreslåede antal lige akkurat er nok til at dække sikkerhedslageret uden at tage hensyn til planlægningsparametrene. Men i nogle eksempler tages der hensyn til ordremodifikatorer.  
 
@@ -242,7 +242,7 @@ Denne advarsel vises i tre tilfælde:
 
 -   Når den planlagte startdato ligger før arbejdsdatoen.  
 -   Når planlægningslinjen foreslår ændring af en en frigivet købs- eller produktionsordre.  
--   Den planlagte beholdning overskrider overløbsniveauet på forfaldsdatoen. Du kan finde flere oplysninger i [Designoplysninger: Forblive under overløbsniveauet](design-details-staying-under-the-overflow-level.md).  
+-   Den planlagte beholdning overskrider overløbsniveauet på forfaldsdatoen. Du kan finde flere oplysninger i [Forblive under overløbsniveauet](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  På planlægningslinjer med advarsler er feltet **Accepter aktionsmeddelelse** ikke markeret, fordi planlæggeren forventes at undersøge disse linjer nærmere, før planen udføres.  

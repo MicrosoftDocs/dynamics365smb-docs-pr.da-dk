@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 0cafffa57e5e8d532b4f60fa3aafccadb23d24bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cad6f64ee74dd2c359f16e1bb723282c2a703b97
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311208"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076485"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Udvidelsen Betalinger og afstemninger (DK)
 Foretag hurtige, fejlfrie betalinger ved at eksportere filer, der er formateret specielt til udveksling med dine kreditorer eller bank. Disse filer giver hurtigere betaling og afstemningsprocesser og fjerner fejl, der kan ske, når du manuelt angivet oplysningerne på en banks websted.  
@@ -53,7 +53,7 @@ Det kræver nogle trin at komme i gang.
 
 Desuden skal du tildele kreditorer til en indenlandsk **Virksomhedsbogføringsgruppe** og en **Kreditorbogføringsgruppe**. Indstillingen land/område for kreditoren skal være Danmark (DK). Du kan finde flere oplysninger under [Konfigurere bogføringsgrupper](finance-posting-groups.md).  
 
-### <a name="to-allow-included365finincludesd365fin_mdmd-to-export-payment-data"></a>Sådan tillader du [!INCLUDE[d365fin](includes/d365fin_md.md)] at eksportere betalingsdata
+### <a name="to-allow-d365fin-to-export-payment-data"></a>Sådan tillader du [!INCLUDE[d365fin](includes/d365fin_md.md)] at eksportere betalingsdata
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladde**, og vælg derefter det relaterede link.  
 2. På siden **Rediger udbetalingskladde** skal du vælge kørslen **Bank**.  
 3. Vælg afkrydsningsfeltet **Tillad eksport af betaling**.  
@@ -67,7 +67,7 @@ Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!IN
 |Tillader meddelelse til modtager? | Ja |Nej |Nej | Ja |
 |Indeholder betalingsreferencenummer? | Nej | Ja, 16 cifre. | Ja, 15 cifre. | Nej|
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.  
 2. Åbn kortet, udvid fanen **Betalinger** og vælg betalingsformen i feltet **Betalingsform**.  
 3. Afhængigt af dit valg, skal du udfylde andre felter. Se overstående tabel for en beskrivelse af kombinationerne.  
 
@@ -100,8 +100,6 @@ Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!IN
 
 ## <a name="see-also"></a>Se også
 [Tilpasse Business Central til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved brug af udvidelser](ui-extensions.md)  
-[Oprette poster i SEPA Direct Debit-opkrævning, og eksportere til en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
-[Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
-[Bogføre SEPA Direct Debit-betalingskvitteringer](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Bogføre SEPA Direct Debit-betalingskvitteringer](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  

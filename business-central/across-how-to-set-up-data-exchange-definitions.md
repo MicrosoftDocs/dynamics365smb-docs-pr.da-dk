@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/07/2020
+ms.date: 02/11/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a2e134c072fd27d08c9ad2c90858eef507fe5e4
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: dfd06fce9aab0de6afb725ab4625138b62305a1a
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030168"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076778"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
@@ -110,7 +110,7 @@ Dette beskrives i følgende fremgangsmåder.
 > [!NOTE]  
 >  Den bestemte tilknytning afhænger af forretningsformålet med den datafil, der skal udveksles, og af lokale variationer. Selv SEPA-bankstandarden har lokale variationer. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter import af SEPA CAMT-bankkontoudtogsfiler out\-of\-the\-box. Dette repræsenteres ved registreringskoden til dataudvekslingsdefinitionen **SEPA CAMT** på siden **Dataudvekslingsdefinitioner**. Du kan finde oplysninger om den specifikke felttilknytning for denne SEPA CAMT-understøttelse i [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 > [!TIP]
 > Nogle gange er værdierne i de felter, du vil tilknytte, forskellige. For eksempel er sprogkoden for USA i én forretningsapp "U.S.", mens den i den anden er "US". Det betyder, at du skal transformere værdien, når du udveksler data. Dette sker gennem transformationsregler, som du definerer for felterne. Du kan finde flere oplysninger under [Transformationsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
@@ -124,7 +124,7 @@ Dette beskrives i følgende fremgangsmåder.
     |**Navn**|Angiv et navn for tilknytningsopsætningen.|  
     |**Codeunit til førtilknytning**|Angiv den kodeenhed, der klargør tilknytningen mellem felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data.|  
     |**Koblings-codeunit**|Angiv den kodeenhed, der bruges til at knytte de angivne kolonner eller XML-dataelementer til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Codeunit til eftertilknytning**|Angiv den kodeenhed, der fuldfører tilknytningen mellem felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data. **Bemærk:** Når funktionen Tjeneste til konvertering af bankdata anvendes, konverterer kodeenheden eksporterede data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til et generisk format, der er klar til eksport. I forbindelse med import konverterer kodeenheden eksterne data til et format, der er klar til import i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit til eftertilknytning**|Angiv den kodeenhed, der fuldfører tilknytningen mellem felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data. **Bemærk:** Når funktionen AMC Banking 365 Fundamentals-udvidelsen anvendes, konverterer codeunit eksporterede data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til et generisk format, der er klar til eksport. I forbindelse med import konverterer kodeenheden eksterne data til et format, der er klar til import i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  Brug oversigtspanelet **Feltkobling** til at angive, hvilke kolonner der knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at udfylde felterne som beskrevet i følgende tabel.  
 
@@ -139,12 +139,12 @@ Dette beskrives i følgende fremgangsmåder.
     |**Titel på målfelt**|Er kun synlig, når afkrydsningsfeltet **Brug som midlertidig tabel** er markeret.<br /><br /> Angiv det navn i feltet i måltabellen, som værdien i feltet **Kolonnetitel** er knyttet til, når du bruger en midlertidig tabel til dataimport.|  
     |**Eventuelt**|Er kun synlig, når afkrydsningsfeltet **Brug som midlertidig tabel** er markeret.<br /><br /> Angiv, om tilknytningen skal ignoreres, hvis feltet er tomt. Hvis du ikke markerer dette afkrydsningsfelt, opstår der en fejl i eksporten, hvis feltet er tomt.|  
 
-Dataudvekslingsdefinitionen er nu klar til at blive aktiveret for brugere. Du kan finde flere oplysninger i [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md), [Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md) og [Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+Dataudvekslingsdefinitionen er nu klar til at blive aktiveret for brugere. Du kan finde flere oplysninger i [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Opsætte SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md) og [Foretage indbetalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Transformationsregler
 Hvis værdierne i de felter, du tilknytter, er forskellige, skal du bruge transformationsregler til dataudvekslingsdefinitioner for at gøre dem ens. Du kan definere transformationsregler for dataudvekslingsdefinitioner ved at åbne en eksisterende definition eller oprette en ny definition og derefter i oversigtspanelet **Linjedefinitioner** vælge **Administrer** og derefter **Felttilknytning**. Der findes foruddefinerede regler, men du kan også oprette dine egne. I følgende tabel beskrives de typer af transformationer, du kan udføre.
 
-|Indstilling|Description|
+|Indstilling|Beskrivelse|
 |---------|---------|
 |**Store bogstaver**|Skriv alle bogstaver med stort.|
 |**Små bogstaver**|Gør alle bogstaver små.|
@@ -157,7 +157,7 @@ Hvis værdierne i de felter, du tilknytter, er forskellige, skal du bruge transf
 |**Datoformatering**|Angiv, hvordan datoer skal vises. Du kan f.eks. transformere DD-MM-ÅÅÅÅ til ÅÅÅÅ-MM-DD.|
 |**Formatering af decimaler**|Definer regler for placering af decimaler og afrundingspræcision.|
 |**Regulært udtryk – match**|Brug et regulært udtryk til at finde en eller flere værdier. Dette svarer til indstillingerne **Understreng** og **Regulært udtryk – erstat**.|
-|**Brugerdefineret**|Dette er en avanceret indstilling, der kræver assistance fra en udvikler. Den muliggør en integrationshændelse, som du kan abonnere på, hvis du vil bruge din egen transformationskode. Hvis du er udvikler og vil bruge denne indstilling, skal du se [eksemplet](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) nedenfor.|
+|**Brugerdefineret**|Dette er en avanceret indstilling, der kræver assistance fra en udvikler. Den muliggør en integrationshændelse, som du kan abonnere på, hvis du vil bruge din egen transformationskode. Hvis du er udvikler og vil bruge denne indstilling, skal du læse afsnittet "Tip til udviklere: eksempel på indstillingen Brugerdefineret" nedenfor.|
 |**Formatering af dato/klokkeslæt**|Definer, hvordan dags dato skal vises, samt tidspunktet på dagen.|
 
 #### <a name="tip-for-developers-example-of-the-custom-option"></a>Tip til udviklere: eksempel på indstillingen Brugerdefineret
@@ -196,8 +196,7 @@ Når du har oprettet dataudvekslingsdefinitionen for en bestemt datafil, kan du 
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
-[Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)  
-[Konfigurere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)  
-[Foretage indbetalinger med tjenesten til konvertering af bankdata eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
+[Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Indgående bilag](across-income-documents.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
