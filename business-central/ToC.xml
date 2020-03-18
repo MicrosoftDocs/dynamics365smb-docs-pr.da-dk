@@ -44,7 +44,7 @@
     </Node>
     <Node Name="" DisplayName="Konfigurere banktransaktioner" Page="bank-setup-banking.html">
       <Node Name="" DisplayName="Fremgangsmåde: Oprette bankkonti" Page="bank-how-setup-bank-accounts.html"/>
-      <Node Name="" DisplayName="Fremgangsmåde: Konfigurere tjenesten til konvertering af bankdata" Page="bank-how-setup-bank-data-conversion-service.html"/>
+      <Node Name="" DisplayName="Fremgangsmåde: Konfigurere AMC Banking 365 Fundamentals-udvidelsen" Page="bank-how-setup-bank-data-conversion-service.html"/>
     </Node>
     <Node Name="" DisplayName="Konfigurere salg" Page="sales-setup-sales.html">
       <Node Name="" DisplayName="Fremgangsmåde: Registrere nye debitorer" Page="sales-how-register-new-customers.html"/>
