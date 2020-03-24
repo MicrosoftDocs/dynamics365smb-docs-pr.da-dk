@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa4ce82cd1a156561fa2dc929c45e231730fb084
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: e37341605465a23427b1011e3830ae62b37a46ed
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991996"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076873"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel
 På sien **Udbetalingskladde** kan du behandle betalinger til dine kreditorer ved at eksportere en fil sammen med betalingsoplysningerne fra kladdelinjerne. Derefter kan du uploade filen til din elektroniske bank, hvor de relaterede pengeoverførsler behandles. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter SEPA-kreditoverførselsformatet, men i dit land/område anvendes der muligvis andre formater til elektroniske betalinger.
@@ -142,7 +142,6 @@ Når elektronisk betaling er behandlet af banken, kan du bogføre betalingerne. 
 
 ## <a name="see-also"></a>Se også  
 [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)  
-[Opsætte SEPA-kreditoverførsel](finance-how-to-set-up-sepa-credit-transfer.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)   
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
