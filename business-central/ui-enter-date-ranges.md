@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315584"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194399"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbejde med kalenderdatoer og klokkeslæt
 
@@ -48,7 +48,7 @@ For at arbejde mere produktivt med datoer og klokkeslæt kan du bruge de metoder
 
 De felter, der viser et kalenderikon, kan angives ved hjælp af kalenderdatovælgeren. Aktiver kalenderikonet for at få vist kalenderdatovælgeren, eller tryk på Ctrl + Home-tastaturgenvejen i feltet.
 
-![Datofelter](media/ui-date-field.png "Eksempel på et datofelt")
+![Datofelter1](media/ui-date-field.png "Eksempel på et datofelt")
 
 Se også [Tastaturgenveje i kalenderdatovælgeren](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -121,7 +121,7 @@ Følgende tabel indeholder eksempler på datoer i alle formater. Det forudsætte
 |ti 23|Tirsdag i uge 23 i året for arbejdsdatoen|
 |ti-1|Tirsdag i uge 1 i året for arbejdsdatoen|
 
-##  <a name="BKMK_SettingDateRanges"></a> Angive intervaller
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Angive intervaller
 
 På lister, i totaler og rapporter kan angive filtre for datoer, klokkeslæt og dato/klokkeslæt, der indeholder en startværdi og eventuelt en slutværdi for kun at få vist dataene i det pågældende interval. Standardreglerne gælder for den måde, du angiver datointervaller på.
 

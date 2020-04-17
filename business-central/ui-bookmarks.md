@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/12/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 644a4a64fa80ff98a073f28393fd0b8bb0e6ad54
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 5d70097cb570217cd4a7be0538474252c31ef46e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3072027"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194639"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bogmærke en side eller en rapport i rollecenteret
 Med bogmærkeikonet kan du tilføje en handling, der åbner en side eller en rapport fra navigationsmenuen i dit rollecenter. På den måde kan du hurtigt få adgang til dit foretrukne indhold eller dine forretningsopgaver. Du kan tilføje bogmærket fra målsiden eller rapporten, dvs. det skærmbillede, du vil have linket i rollecenteret til at åbne.

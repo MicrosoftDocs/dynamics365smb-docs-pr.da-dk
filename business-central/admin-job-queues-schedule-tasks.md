@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: fc2c2de39c3391a430adda72a841b01897235f68
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999779"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196683"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Du kan bruge opgavekøer til at planlægge opgaver
 Opgavekøer i [!INCLUDE[d365fin](includes/d365fin_md.md)] giver brugerne mulighed for at planlægge og køre specifikke rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange. Det kan f.eks. være en god idé at køre rapporten **Sælger - salgsstatistik** ugentlig for at spore salget pr. sælger hver uge, eller at køre kodeenheden **Behandl servicekø for mail** dagligt for at sikre, at afventende mail til debitorer om deres serviceordrer sendes ud tids nok.
@@ -117,8 +117,8 @@ Når en opgavekø aktiveres manuelt, køres den med legitimationsoplysningerne f
 ## <a name="using-job-queues-effectively"></a>Effektiv brug af opgavekøer  
 Opgavekøposten har mange felter, hvis formål er at overføre parametre i en codeunit, du har angivet til kørsel sammen med en opgavekø. Det betyder også, at codeunits, der skal køres via opgavekøen, skal angives med opgavekøposten som en parameter i udløseren **OnRun**. Dette giver et ekstra niveau af sikkerhed, da dette forhindrer brugerne i at køre vilkårlige kodeenheder via opgavekøen. Hvis brugeren skal overføre parametre til en rapport, er den eneste måde at gøre dette ved at placere rapportudførelsen i en codeunit, som derefter analyserer inputparametrene og skriver dem i rapporten, før den udføres.  
 
-## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Sådan planlægger du synkronisering mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]
-Hvis du har integreret [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)], kan du bruge opgavekøen til at planlægge, hvornår du vil synkronisere data for de poster, du har kombineret i de to forretningsapps. Afhængigt af den retning og de regler, du har defineret for integrationen, kan synkroniseringsopgaverne også oprette nye poster i destinationsappen, så de svarer til dem i kilden. Hvis en sælger f.eks. opretter en ny kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], kan synkroniseringsopgaven oprette kontakten for den sammenkoblede sælger i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Planlægning af synkronisering mellem Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+## <a name="scheduling-synchronization-between-d365fin-and-d365fin"></a>Sådan planlægger du synkronisering mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)]
+Hvis du har integreret [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[d365fin](includes/cds_long_md.md)], kan du bruge opgavekøen til at planlægge, hvornår du vil synkronisere data for de poster, du har kombineret i de to forretningsapps. Afhængigt af den retning og de regler, du har defineret for integrationen, kan synkroniseringsopgaverne også oprette nye poster i destinationsappen, så de svarer til dem i kilden. Hvis en sælger f.eks. opretter en ny kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], kan synkroniseringsopgaven oprette kontakten for den sammenkoblede sælger i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Planlægning af synkronisering mellem Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>Se også  
 [Opsætning](admin-setup-and-administration.md)  

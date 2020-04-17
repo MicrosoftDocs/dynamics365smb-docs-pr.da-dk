@@ -1,8 +1,6 @@
 ---
 title: Afslutte regnskabsperioder for et regnskabsår | Microsoft Docs
 description: Beskriver, hvordan du afslutter regnskabsperioder, der indgår i regnskabsåret.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ba6cd85d50f9d2b4d98fb45cbd38bcc57e08e3a2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a696f45446f93dba2dedb0976ff646dd6e4b12b1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313804"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195871"
 ---
 # <a name="close-accounting-periods"></a>Afslutte regnskabsperioder
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder.
@@ -39,7 +37,8 @@ Selvom et regnskabsår er afsluttet, kan du stadig bogføre finansposter i det. 
 Når et regnskabsår er afsluttet, skal du lukke resultatopgørelseskontiene og overføre årets resultat til resultatkontoen i balancen. Du kan gentage dette, hver gang du bogfører i det afsluttede regnskabsår.
 
 ## <a name="see-also"></a>Se også
+
 [Afslutningregnskab](year-close-books.md)  
 [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  
-[Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md)  
+[Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

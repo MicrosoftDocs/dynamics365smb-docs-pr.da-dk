@@ -5,23 +5,23 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: setup wizard
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4ae2faf57007bef9525134fbdc1232e8c0103d56
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954255"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190151"
 ---
-# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Introduktion til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-d365fin_long"></a>Introduktion til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Tilmelding er nemt, og du kan overflytte eksisterende forretningsdata fra dit gamle system.  
 
 For at hjælpe dig med dit abonnement, kan du finde en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner her. Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner).  
 
 Når du tilmelder dig [!INCLUDE [prodshort](includes/prodshort.md)], får du adgang til et demoregnskab. Demoregnskabet indeholder eksempeldata, men du kan eksempelvis oprette nye salgsdokumenter eller oprette en bankkonto. Hvis du vil bruge [!INCLUDE [prodshort](includes/prodshort.md)] til at hjælpe med din virksomhed, skal du dog kontakte en [!INCLUDE [prodshort](includes/prodshort.md)]-videresalgspartner og købe et abonnement. Du kan finde flere oplysninger om prøveversioner og abonnementer i [Prøveversioner og abonnementer](across-preview.md).  
 
-## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Lære [!INCLUDE[d365fin](includes/d365fin_md.md)] at kende
+## <a name="get-to-know-d365fin"></a>Lære [!INCLUDE[d365fin](includes/d365fin_md.md)] at kende
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er nogle ting genkendelige for dig, mens andet måske er nyt. Du kan finde hurtige og nyttige tip i:  
 
@@ -38,20 +38,20 @@ I demonstrationsregnskabet omfatter rollecentrene Business Manager og Revisor fe
 
 Når du er klar til at begynde at arbejde og vil kigge på nogle af de forretningsprocesser, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter, skal du se under [Forretningsfunktioner](across-business-functionality.md).
 
-Før du kan bruge funktionen, skal du foretage en vis opsætning. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Før du kan bruge funktionen, skal du foretage en vis opsætning. For at komme i gang skal du bare vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen**Assisteret opsætning**. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 > [!TIP]
-> Visse opsætninger kan delvist udføres ved hjælp af assisterede opsætningsguides.
+> Visse opsætninger kan delvist udføres ved hjælp af assisterede opsætningsguides. Andre kræver manuel opsætning, og du kan finde en liste på siden **Avancerede indstillinger**.
+
+<!--Some Role Center pages provide a **Setup and Extensions** button. Here you have access to a list of assisted setup guides that can help you get started by setting selected areas up quickly. If an area is not covered by an assisted setup, choose the **Manual Setup** action to access setup pages where you can fill in setup fields for all areas manually. For more information, see also [Setting Up [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+
+> [!NOTE]
+> The list of setup guides, extensions, and services that are available differ depending on the user experience you choose for your company. The **Essential** experience gives access to fewer than the **Premium** experience does. The first time you sign in, you use the Essential experience. For more information, see [Change Which Features are Displayed](ui-experiences.md).  -->
 
 Hvis du vil have en oversigt over nuværende og kommende funktioner, kan du kigge nærmere på vores frigivelsesplan under [Frigivelsesplan til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Rollecentrene
 Siden Rollecenter er baseret på et rollecentreret design, som giver hurtig adgang til de forretningsprocesser og intelligence-værktøjer, du behøver for at udføre dit arbejde. F.eks. kan en bogholder overvåge betalinger og godkendelser og få vist diagrammer over finansydeevne. Find ud af, hvad din nuværende rolle giver adgang til med rollestifinderen. Du kan finde flere oplysninger i [Søge efter sider med Rollestifinder](ui-role-explorer.md). Se de forskellige Rollecentre ved at vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") i øverste højre hjørne, og vælg **Mine indstillinger** og derefter vælge det Rollecenter, du vil undersøge. Du bliver automatisk logget af og på igen for at anvende ændringen. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).  
-
-Visse Rollecentersider har en knap for **Installation og udvidelser**. Her kan du få adgang til en liste over assisterede opsætningsvejledninger, som kan hjælpe dig i gang med at definere markerede områder hurtigt. Hvis et område ikke dækkes af en assisterede opsætning, skal du vælge handlingen **Manuel opsætning** for at få adgang til opsætningssider, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
-
-> [!NOTE]
-> Oversigten over opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**. Første gang du logger på, bruger du oplevelsen Essential. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
 
 ## <a name="trying-things-out-in-your-own-company"></a>Afprøvning af funktioner i dit eget regnskab
 Overvejer du at tegne abonnement? Du kan nemt gå fra demonstrationsregnskabet og oprette og arbejde i dit eget regnskab. På denne måde kan du danne dig et bedre indtryk, inden du evt. tegner abonnement. Vi leverer økonomiopsætninger. Du skal blot oprette og indlæse dine debitorer, kreditorer og de produkter eller serviceydelser, du sælger. Derefter er du klar til at bogføre fakturaer og bruge business intelligence-værktøjer til at analysere din virksomhed. Du kan bruge dit regnskab gratis i en 30-dages prøveperiode. Hvis du tegner abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] i dette tidsrum, er du allerede i gang. Du kan fortsætte med det arbejde, du lavede i prøveperioden.  
@@ -77,7 +77,7 @@ Gå til oplysninger om de andre Dynamics 365-apps ved at vælge [Dynamics 365](/
 
 <!--COMMENTINGOUTTOREDUCENOISEIf you are an accountant, you can sign up for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] and have seamless integration with [!INCLUDE[d365fin](includes/d365fin_md.md)]. For more information, see [Welcome to Dynamics 365 — Accountant Hub](/dynamics365/accountants/index).-->
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsget-started-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 02/12/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: a23851dfbca688c5935d967a66ad6ebc8a0abe5e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071906"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195335"
 ---
 # <a name="tell-me-faq"></a>Ofte stillede spørgsmål om Fortæl mig
 I dette emne besvares spørgsmål, som erfarne brugere ofte stiller om funktionen Fortæl mig.

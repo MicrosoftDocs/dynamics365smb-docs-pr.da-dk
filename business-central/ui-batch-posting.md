@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 15b0afcf04ad279000de227523f977fdb695fe01
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 32998248de254facdb225d60a0c8b55066b2707c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316783"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192095"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bogføre flere dokumenter på én gang
 I stedet for at bogføre individuelle dokumenter ét ad gangen, kan du vælge flere ikke-bogførte dokumenter i en oversigt til bogføring med det samme eller til baggrundsbogføring i henhold til en plan, f.eks. ved dagens slutning. Dette kan være nyttigt, hvis det kun er en supervisor, der kan bogføre dokumenter, der er oprettet af andre brugere, eller for at undgå, at der opstår problemer med systemydeevnen under bogføring i arbejdstiden.
@@ -23,7 +23,7 @@ I stedet for at bogføre individuelle dokumenter ét ad gangen, kan du vælge fl
 ## <a name="to-post-multiple-purchase-orders-immediately"></a>Sådan bogføres flere købsordrer med det samme
 Følgende procedure beskriver, hvordan flere købsordrer kan bogføres med det samme. Trinene er de samme for alle købs- og salgsdokumenter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.
 2. Fortsæt med at vælge alle de ordrer, der skal bogføres, på siden **Købsordrer**:
 3. I feltet **Nummer** skal du vælge de tre lodrette prikker for at åbne genvejsmenuen og derefter vælge handlingen **Markér flere**.
 4. Marker afkrydsningsfeltet for alle de linjer, der repræsenterer ordrer, som du vil bogføre på samme tid.
@@ -36,7 +36,7 @@ Følgende procedure beskriver, hvordan du kan massebogføre flere købsordrer. F
 > [!NOTE]
 > Massebogføring af dokumenter sker i baggrunden, sådan som det er defineret af en opgavekøpost, som først skal konfigureres. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
 2. Fortsæt med at vælge alle de ordrer, der skal bogføres, på siden **Købsordrer**:
 3. I feltet **Nummer** skal du vælge de tre lodrette prikker for at åbne genvejsmenuen og derefter vælge handlingen **Markér flere**.
 4. Marker afkrydsningsfeltet for alle de linjer, der repræsenterer ordrer, som du vil bogføre på samme tid.

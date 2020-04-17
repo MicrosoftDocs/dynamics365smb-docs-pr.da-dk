@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 4027fd2d7ce3e514aa451279c8800453ba62711b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553888"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195647"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger
 
@@ -71,7 +71,7 @@ Opsætningen af siden **Lokationskort** definerer flows i virksomheden.
 
 ### <a name="to-review-the-location-setup"></a>Sådan gennemgås lokationsopsætningen  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
 2.  Åbn lokationskortet HVID.  
 3.  Bemærk, at i oversigtspanelet **Lagersted** er afkrydsningsfeltet **Styret læg-på-lager og pluk** markeret.  
 
@@ -86,7 +86,7 @@ Købsordrer er den mest almindelige type indgående kildedokument.
 
 ### <a name="to-create-the-purchase-orders"></a>Sådan oprettes købsordrerne  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Opret en købsordre for kreditor 10000 på arbejdsdatoen (23. januar) med følgende købsordrelinjer.  
 
@@ -117,7 +117,7 @@ Købsordrer er den mest almindelige type indgående kildedokument.
 På siden **Lagermodtagelse** kan du administrere flere indgående ordrer til kildedokumenter, f.eks. en købsordre.  
 
 ### <a name="to-receive-the-items"></a>Sådan modtages varerne  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelse**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Angiv HVID i feltet **Lokationskode**.  
 4.  Vælg handlingen **Brug filtre til at hente kildedok.**.  

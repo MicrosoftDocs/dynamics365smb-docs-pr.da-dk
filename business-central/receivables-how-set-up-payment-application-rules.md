@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 04d43437a6b16ed88c638c81de30729c33276df7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953439"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191927"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Konfigurere regler for automatisk udligning af betalinger
 På siden **Regler for betalingsudligning** skal du konfigurere regler, der styrer, hvordan betalingstekst (på en banktransaktion) automatisk matches med tekst på åbne poster i følgende to processer:
@@ -81,7 +81,7 @@ Følgende tabel viser, hvilke betalingsudligningsregler, der er angivet i den ge
 | Lav              | 4        | Nej                    | Nej                             | En afstemning                      |
 | Lav              | 5        | Nej                    | Nej                             | Flere afstemninger               |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesreconciliation-journals-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  

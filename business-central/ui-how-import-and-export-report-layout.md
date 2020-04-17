@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: aa7abc6ffeacfac3bdf8298a518bf0c4a45e41b0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954021"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195623"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importere og eksportere brugerdefinerede rapportlayouts
 Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som en fil til og fra en placering på din computer og netværket. For eksempel kan du eksportere et rapportlayout og derefter sende filen til en anden person for redigering. Denne person kan derefter foretage ændringer af layoutet og returnere filen til dig, så du kan importere det tilbage.  
@@ -49,7 +49,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
  Det oprindelige brugerdefinerede rapportlayout erstattes med det importerede rapportlayout.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også  
  [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   

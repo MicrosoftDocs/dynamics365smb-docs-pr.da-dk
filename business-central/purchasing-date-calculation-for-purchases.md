@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 27442dc72356570e9e8e2d3030bbb9180fb17e23
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7b39bcd593489e40d218cf29a3d288dd128cce04
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877611"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192767"
 ---
 # <a name="date-calculation-for-purchases"></a>Beregning af forfaldsdato for køb
 [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato. Dette er den dato, du kan forvente, at varer, der er bestilt på en bestemt dato, er disponible til pluk.  

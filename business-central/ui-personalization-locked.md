@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9774c3472a70967f6b0250e2f02e817f26e9b710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315128"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195719"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Hvorfor er en side låst mod tilpasning
 
-Der er to forhold, der forhindrer dig i at tilpasse en side. Enten er siden låst (som angivet af ikonet ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst")), eller den er spærret (som angivet af ikonet ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning spærret")).
+Der er to forhold, der forhindrer dig i at tilpasse en side. Enten er siden låst (angivet med ikonet ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst")), eller også er den spærret (angivet med ikonet![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning blokeret")).
 
 ## <a name="locked-from-personalizing"></a>Låst mod tilpasning
 
-Hvis ikonet ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst") findes i banneret **Tilpasning**, når du åbner en side, betyder det, at du i øjeblikket er forhindret i at foretage flere tilpasningsændringer af siden.
+Hvis du kan se ikonet ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst") i banneret **Tilpasning**, når du åbner en side, betyder det, at du i øjeblikket ikke kan udføre flere tilpasningsændringer på siden.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -48,7 +48,7 @@ Før du låser siden op, skal du være opmærksom på følgende:
 
 ## <a name="blocked-from-personalizing"></a>Spærret mod tilpasning
 
-Hvis ikonet ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning spærret") i banneret **Tilpasning**, betyder det, at du er afskåret fra at foretage nogen form for tilpasning af siden.
+Hvis du kan se ikonet ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning blokeret") i banneret **Tilpasning**, betyder det, at du ikke kan foretage nogen form for tilpasning af siden.
 
 <!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 

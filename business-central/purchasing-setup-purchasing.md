@@ -1,8 +1,6 @@
 ---
 title: Oversigt over opgaver til opsætning af køb | Microsoft Docs
 description: Beskriver de opgaver, der definerer virksomhedens indkøbspolitikker, og som du bruger til at oprette dine indkøbsprocesser.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 34d3dc87da0c8f20558a6e32b9c979f84f9a0018
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953991"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190895"
 ---
 # <a name="setting-up-purchasing"></a>Opsætning af indkøb
 Før du kan administrere købsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens købspolitikker.
@@ -35,8 +33,9 @@ Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes 
 | Tildele kreditorer prioritet |[Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md) |
 | Oprette indkøbere |[Oprette indkøbere](purchasing-how-setup-purchasers.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
+
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

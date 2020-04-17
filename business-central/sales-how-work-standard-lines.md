@@ -10,31 +10,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a85fb48251d5c1465dcd4be7aaf868d857a07fd4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e85d870c73a4c7e5baec449c63f80cc5a4dadf5e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311952"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195263"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Oprette gentagne salgs- og købslinjer
 Hvis du ofte har brug at oprette salgs- og købslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende salgs- og købsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.  
 
 Følgende procedure viser, hvordan du arbejder med standardsalgslinjer på en salgsfaktura. Det fungerer på samme måde for alle andre salgsdokumenter og for alle købsdokumenter.  
 
-## <a name="to-set-up-standard-sales-lines"></a>Sådan opretter du standardsalgslinjer  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Standardsalgslinjer**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Ny** på siden **Standardsalgslinjer**.  
+## <a name="to-set-up-recurring-sales-lines"></a>Sådan opretter du gentagne salgslinjer  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Gentagne salgslinjer**, og vælg derefter det relaterede link.  
+2. På siden **Gentagne salgslinjer** skal du vælge **Ny**.  
 3. Udfyld felterne efter behov i oversigtspanelet **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. I oversigtspanelet **Linjer** skal du angive oplysninger i felterne for at forberede salgslinjer, der afspejler de standardlinjer, du forventer at bruge som tilbagevendende linjerne på salgsdokumenter.  
 
 > [!NOTE]
-> Du kan ikke definere priser på standardsalgslinjer, fordi priser, rabatter osv. beregnes ud fra de faktiske salgsdokumenter, når du har indsat standardsalgslinjerne.
+> Du kan ikke definere priser på gentagne salgslinjer, fordi priser, rabatter osv. beregnes ud fra de faktiske salgsdokumenter, når du har indsat de gentagne salgslinjer.
 
-## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Sådan tildeles en debitor standardsalgslinjer
-Tildele en eller flere standardsalgslinjer til en debitor, så de kan indsættes i salgsdokumenter for den pågældende debitor.
+## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Sådan tildeles en gentagne salgslinjer til en debitor
+Tildele en eller flere gentagne salgslinjer til en debitor, så de kan indsættes i salgsdokumenter for den pågældende debitor.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
 2. Åbn jobkortet for den relevante debitor.
@@ -50,7 +50,7 @@ Tildele en eller flere standardsalgslinjer til en debitor, så de kan indsættes
 |**Spørg altid**|Der vises en meddelelse, og alle eksisterende tilbagevendende salgslinjer vises, så du kan vælge én af dem.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Sådan indsættes tilbagevendende salgslinjer i en salgsfaktura
-Hvis der findes tilbagevendende salgslinjerne for debitoren, kan du indsætte dem i alle typer salgsdokumenter, f.eks. en salgsfaktura. Hvis du har aktiveret den pågældende meddelelse, får du besked, hvis der findes tilbagevendende salgslinjer.
+Hvis der findes gentagne salgslinjerne for debitoren, kan du indsætte dem eller få dem indsat i alle typer salgsdokumenter, f.eks. en salgsfaktura. Hvis du har aktiveret indstillingen **Spørg altid** , får du besked, hvis der findes gentagne salgslinjer.
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fakturaer**, og vælg derefter det relaterede link.
 2. Åbn den salgsfaktura, som du vil indsætte en eller flere standardsalgslinjer i.
 3. Vælg handlingen **Hent tilbagevendende salgslinjer**.

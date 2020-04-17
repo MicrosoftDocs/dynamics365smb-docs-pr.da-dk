@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dc739c364b7e1fba5ab7c885c8c32052fd8f2dc9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 53bc7faefc01399ae8db1d0763bc6ec91745b7b5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314888"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195287"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gennemgang: Gennemførsel af en salgskampagne
 En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del af oprettelsen af en kampagne er at vælge målgruppen for kampagnen. Til dette formål kan du i [!INCLUDE[d365fin](includes/d365fin_md.md)] oprette en målgruppe eller en gruppe af kontakter ved hjælp af filtre.  
@@ -148,7 +148,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
 9. De vedhæftede filer sendes. Når processen er færdig, skal du vælge knappen **OK** for den meddelelse, der angiver, at målgruppen er registreret.  
 
-     Brevene udskrives automatisk, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er flyttet til listen over registrerede målgrupper. For at se listen skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Gemte målgrupper**, og vælg derefter det relaterede link.  
+     Brevene udskrives automatisk, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er flyttet til listen over registrerede målgrupper. Du kan se denne liste ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Gemte målgrupper** og derefter vælge det relaterede link.  
 
 10. Når målgruppen er registreret, registreres hvert brev, der er sendt, som en interaktion, som du kan se i logfilen.  
 
@@ -165,7 +165,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 7.  Markér afkrydsningsfeltet **Opret opfølgningsmålgruppe**.  
 8.  Vælg knappen **OK**.  
 
-     Brevene sendes automatisk pr. mail, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er gemt på listen over registrerede målgrupper. For at se listen skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Gemte målgrupper**, og vælg derefter det relaterede link.  
+     Brevene sendes automatisk pr. mail, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er gemt på listen over registrerede målgrupper. Du kan se denne liste ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Gemte målgrupper** og derefter vælge det relaterede link.  
 
 ## <a name="registering-campaign-responses"></a>Registrere kampagnesvar  
  I løbet af de næste par uger svarer kundeemnerne på brevet. Marketingchefen ønsker at holde styr på svarene og registrerer disse interaktioner.  

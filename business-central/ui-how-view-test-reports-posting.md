@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: ab2bcb78479e91c111868c21bd3019c7971d9ffb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e91332cd90ded6560f34bc2378eaf6e286b2eb43
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310872"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195503"
 ---
 # <a name="view-test-reports-before-posting"></a>Vise testrapporter inden bogføring
 Når du er klar til at bogføre et dokument, f.eks en ordre, faktura eller en kreditnota, kan du teste dokumentet for at sikre, at der ingen problemer findes, der vil blokere for bogføringen.

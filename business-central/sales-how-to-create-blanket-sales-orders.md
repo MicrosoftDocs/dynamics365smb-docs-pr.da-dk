@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: edd9e1d65c4bbfadf5c74e296ed1a9c6cffd1dfb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d6037b7310eba798696d0aca7881b4927f1d14b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316352"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194831"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbejde med rammesalgsordrer
 En rammesalgsordre udgør rammen om en langsigtet aftale mellem dig og en kunde.
@@ -29,20 +29,21 @@ Det kan f.eks. være relevant at bruge en rammesalgsordre, når en kunder ringer
 > [!NOTE]
 > Rammekøbsordrer fungerer på samme måde som rammesalgsordrer. Denne dokumentation dækker kun rammesalgsordrer.
 
-## <a name="to-create-a-blanket-sales-order"></a>Sådan oprettes en rammesalgsordre.  
+## <a name="to-create-a-blanket-sales-order"></a>Sådan oprettes en rammesalgsordre.
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Lad feltet **Ordredato** være tomt. Når de enkelte salgsordrer oprettes på basis af rammeordren, angives salgsordrens ordredato til den faktiske arbejdsdato.
-5. I oversigtspanelet **Linjer** skal du oprette separate linjer for hver enkelt leverance. Hvis kunden f.eks. skal have 1000 enheder fordelt jævnt over fire uger, kan du angive fire separate linjer på 250 enheder hver.   
+4. Lad feltet **Ordredato** være tomt. Når de enkelte salgsordrer oprettes på basis af rammeordren, angives salgsordrens ordredato til den faktiske arbejdsdato.
+5. I oversigtspanelet **Linjer** skal du oprette separate linjer for hver enkelt leverance. Hvis kunden f.eks. skal have 1000 enheder fordelt jævnt over fire uger, kan du angive fire separate linjer på 250 enheder hver.  
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Sådan oprettes en salgsordre med udgangspunkt i en rammesalgsordre  
 
-1.  Når du skal oprette en ordre til en af linjerne i rammesalgsordren, skal du fjerne antallet i feltet **Lever (antal)** på alle de linjer, som ikke skal leveres på nuværende tidspunkt.  
-2.  Når du er klar til at oprette ordrer, skal du vælge handlingen **Lav ordre** og derefter vælge **Ja**. Der vises en meddelelse med besked om, at rammeordren har fået tildelt et ordrenummer. Bemærk, at rammeordren ikke er slettet.  
-3.  Vælg knappen **OK**.  
-4.  Hvis du vil se resultatet af de foregående trin, skal du vælge handlingen **Linje**, vælge handlingen **Ikkebogførte linjer** og derefter vælge handlingen **Ordrer**.  
-5.  Markér den relevante salgsordre på siden **Salgslinjer**, vælg handlingen **Linje** og derefter vælge handlingen **Vis dokument**.  
+1. Når du skal oprette en ordre til en af linjerne i rammesalgsordren, skal du fjerne antallet i feltet **Lever (antal)** på alle de linjer, som ikke skal leveres på nuværende tidspunkt.  
+2. Når du er klar til at oprette ordrer, skal du vælge handlingen **Lav ordre** og derefter vælge **Ja**. Der vises en meddelelse med besked om, at rammeordren har fået tildelt et ordrenummer. Bemærk, at rammeordren ikke er slettet.  
+3. Vælg knappen **OK**.  
+4. Hvis du vil se resultatet af de foregående trin, skal du vælge handlingen **Linje**, vælge handlingen **Ikkebogførte linjer** og derefter vælge handlingen **Ordrer**.  
+5. Markér den relevante salgsordre på siden **Salgslinjer**, vælg handlingen **Linje** og derefter vælge handlingen **Vis dokument**.  
 
 Følgende gælder for salgsordrer, når de er oprettet ud fra rammesalgsordrer:  
 

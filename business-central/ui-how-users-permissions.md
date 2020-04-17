@@ -8,52 +8,52 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 7509b60a72ee520d7adcd739034e23326882daf1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030048"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195527"
 ---
 # <a name="create-users-according-to-licenses"></a>Oprette brugere i henhold til licenser
-I det følgende beskrives, hvordan du som administrator opretter brugere og definerer, hvem der kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], og hvilke grundlæggende rettigheder forskellige brugertyper har i henhold til licenserne.
+Dette emne handler om, hvordan administratorer opretter brugere og definerer, hvem der kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], og hvilke tilladelser der gives til forskellige brugertyper har i henhold til licenserne.
 
-Når der oprettes brugere i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du fortsætte med at tildele specifikke rettigheder til brugere via rettighedssæt og organisere brugere i brugergrupper, så rettighederne er nemme at administrere. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
+Når du opretter brugere i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du give dem bestemte tilladelser via tilladelsessæt og organisere brugere i brugergrupper. Brugergrupper gør det nemmere at administrere tilladelser for flere brugere på én gang. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> Processen med at administrere brugere og licenser afhænger af, om din løsning er installeret online eller i det lokale miljø. I onlineinstallationer kan du f.eks. kun deaktivere og aktivere en bruger, der er føjet til [!INCLUDE[d365fin](includes/d365fin_md.md)]. I lokale installationer kan du oprette, redigere og slette brugere.  
+> Processen med at administrere brugere og licenser afhænger af, om [!INCLUDE[d365fin](includes/d365fin_md.md)] er installeret online eller i det lokale miljø. Du kan f. eks. kun administrere brugere i online-installationer, når de er tilføjet i [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Office 365. I lokale installationer kan du oprette, redigere og slette brugere direkte.  
 
 ## <a name="managing-users-and-licenses-in-online-deployments"></a>Administrere brugere og licenser i onlineinstallationer
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] online er antallet af brugere defineret af abonnementet og føjet til din lejer i Microsoft Partnercenter , som regel af din Microsoft-partner. Du kan finde flere oplysninger i [Tilføje en ny kunde](https://docs.microsoft.com/partner-center/add-a-new-customer) og [Oprette, afbryde eller annullere kundeabonnementer](https://docs.microsoft.com/partner-center/create-a-new-subscription) i Hjælp til Microsoft Partnercenter.
+I onlineversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)] er antallet af brugere defineret af abonnementet og føjet til din lejer i Microsoft Partnercenter , som regel af din Microsoft-partner. Du kan finde flere oplysninger i [Tilføje en ny kunde](https://docs.microsoft.com/partner-center/add-a-new-customer) og [Oprette, afbryde eller annullere kundeabonnementer](https://docs.microsoft.com/partner-center/create-a-new-subscription) i Hjælp til Microsoft Partnercenter.
 
-Hvis du vil definere, hvem der kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], skal produktlicenserne tildeles til brugere ifølge de roller, som de skal udføre i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kan gøres på følgende måder:
+Hvis du vil definere, hvem der kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du tildele produktlicenserne til brugere i henhold til de roller, som de skal udføre i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kan gøres på følgende måder:
 - Virksomhedens Office 365-administrator kan gøre det i [Microsoft 365 Administration](https://admin.microsoft.com). Du kan finde flere oplysninger i [Tilføje brugere enkeltvis eller samlet i Office 365](https://aka.ms/CreateOffice365Users).  
 - En Microsoft-partner kan tildele licenser i Microsoft 365 Administration eller i Microsoft Partnercenter. Du kan finde flere oplysninger i [Brugeradministrationsopgaver for debitorkonti](https://docs.microsoft.com/partner-center/assign-licenses-to-users) i Hjælp til Microsoft Partnercenter.
 
-Du kan finde flere oplysninger under [Administration af Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i hjælpen til udviklere og it-eksperter.
+Du kan få flere oplysninger i [Administration af Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i hjælpen til udviklere og it-eksperter.
 
-Når brugere med en [!INCLUDE[d365fin](includes/d365fin_md.md)]-licens er oprettet i Office 365, kan de importeres på siden **Brugere** i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af handlingen **Hent nye brugere fra Office 365**.
+Når brugere tildeles en [!INCLUDE[d365fin](includes/d365fin_md.md)]-licens i Office 365, kan du importere dem til siden **Brugere** i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af handlingen **Hent nye brugere fra Office 365**.
 
-### <a name="to-add-a-user-in-business-central"></a>Sådan tilføjes en bruger i Business Central
-Hvis du vil føje brugere fra Microsoft 365 Administration til [!INCLUDE[d365fin](includes/d365fin_md.md)] online, skal du bruge en dedikeret importfunktion.  
+### <a name="to-add-a-user-or-update-user-information-in-business-central"></a><a name="adduser"></a>Sådan tilføjer du en bruger eller opdaterer brugeroplysninger i Business Central
+Du kan bruge dedikerede importfunktioner til at tilføje nye brugere eller opdatere brugeroplysninger i [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Microsoft 365 Administration.  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Hent nye brugere fra Office 365**.
+2. Afhængigt af hvad du vil gøre, skal du enten vælge handlingen **Hent nye brugere fra Office 365** eller **Opdater brugere fra Office 365**.
 
-Nye brugere, der er oprettet for dit Office 365-abonnement, tilføjes på siden **Brugere**. Brugere tildeles rettighedssæt i henhold til den licens der er tildelt til brugeren i Office 365. Du kan derefter fortsætte med at give mere detaljerede rettigheder til brugere og organisere dem i brugergrupper, så rettighederne er nemme at administrere. Du kan finde flere oplysninger i [Tildele rettighedssæt til brugere](ui-define-granular-permissions.md#to-assign-permission-sets-to-users).
+De nye brugere og brugeroplysninger i dit Office 365-abonnement tilføjes på siden **Brugere** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan få flere oplysninger om synkronisering af brugeroplysninger med Office 365 i [Synkronisering med Office 365](ui-how-users-permissions.md#synchronization-with-office-365).
 
 > [!NOTE]
 > Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnskabsaflæggelse, kan du invitere vedkommende indenfor i din Business Central, så de kan samarbejde med dig om dine regnskabsdata. Du kan finde flere oplysninger i [Inviter din eksterne revisor til at deltage i din Business Central](finance-accounting.md#inviteaccountant)
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Sådan fjernes en brugers adgang til systemet
-I onlineinstallationer kan du fjerne en brugers adgang til systemet ved at indstille feltet **Status** til **Deaktiveret**. Alle referencer til brugeren bevares, men brugeren kan ikke længere logge på systemet, og aktive sessioner for brugeren afsluttes.
+I onlineinstallationer kan du fjerne en brugers adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Alle referencer til brugeren bevares, men brugeren kan ikke logge ind, og aktive sessioner for brugeren stoppes.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
 2. Åbn siden **Brugerkort** for den relevante bruger, og vælg derefter **Deaktiveret** i feltet **Tilstand**.
 3. Hvis du vil give brugeren adgang igen, skal du indstille feltet **Tilstand** til **Aktiveret**.
 
-Ud over at deaktivere en bruger kan du fjerne tildelingen af licensen fra en bruger i Microsoft 365 Administration. Brugeren kan derefter ikke logge på. Du kan finde flere oplysninger i [Fjerne tildeling af licenser fra brugere](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
+Du kan også fjerne licensen fra en bruger i Microsoft 365 Administration. Brugeren kan derefter ikke logge på. Du kan få flere oplysninger i [Fjerne licenser fra brugere](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
 ### <a name="to-change-the-assigned-license-for-a-user"></a>Sådan ændres den tildelte licens for en bruger
 Nogle gange kan det være nødvendigt at ændre den licens, som en bruger har fået tildelt. Du beslutter f.eks. at bruge modulet Servicestyring og har derfor brug for at opgradere alle Essential-licenser til Premium. Eller hvis en brugers ansvarsområde er ændret, og du har brug for at erstatte en Teammedlem-licens med Essential.
@@ -63,88 +63,87 @@ Nogle gange kan det være nødvendigt at ændre den licens, som en bruger har f�
 3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
 4. Vælg handlingen **Brugerens standardbrugergrupper gendannes** på siden **Brugere**.
 
-Brugerne flyttes til en korrekt brugergruppe, og rettighedssættene opdateres. Du kan finde flere oplysninger i [Administrere rettigheder gennem brugergrupper](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
+Brugerne flyttes til en korrekt brugergruppe, og rettighedssættene opdateres. Du kan finde flere oplysninger i [Administrere rettigheder gennem brugergrupper](ui-define-granular-permissions.md).
 
 > [!NOTE]
-> Alle almindelige brugere i en løsning skal tildeles samme licens, Essential eller Premium.
-> Du kan finde oplysninger om licenser i [Licensvejledning til Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
+> Alle brugere skal tildeles den samme licens, enten Essential eller Premium. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
 ### <a name="synchronization-with-office-365"></a>Synkronisering med Office 365
-Når en licens er tildelt til en bruger i Office 365, kan du oprette brugeren i [!INCLUDE[d365fin](includes/d365fin_md.md)] på to måder. Systemet vil gøre det automatisk, når brugeren logger på første gang, eller administratoren kan tilføje brugeren ved at vælge handlingen **Hent brugere fra Office 365** på siden **Brugere**.
+Når du fjerner tildelingen af en licens til [!INCLUDE[d365fin](includes/d365fin_md.md)] for en bruger i Office 365, kan du oprette brugeren i [!INCLUDE[d365fin](includes/d365fin_md.md)] på to måder. 
 
-I begge tilfælde oprettes der automatisk en række ekstra indstillinger. Disse er angivet i den anden og tredje kolonne i nedenstående tabel.
+* Administratoren kan tilføje brugeren ved at vælge handlingen **Opdater brugere fra Office 365** på siden **Brugere**.
+* Licensoplysningerne opdateres automatisk, når brugeren logger på for første gang.
 
-Hvis du ændrer brugeren efterfølgende i Office 365, og du har brug for at synkronisere ændringerne med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge forskellige handlinger på siden **Brugere**, afhængigt af hvad du vil synkronisere. Disse er angivet i de sidste tre kolonner i nedenstående tabel.
+I begge tilfælde oprettes der automatisk en række indstillinger. Disse er angivet i den anden og tredje kolonne i nedenstående tabel.
 
-|Hvad sker der, når:|Der logges på første gang|Brugere hentes fra Office 365|Brugere opdateres fra Office 365|Brugerens standardbrugergrupper gendannes|Brugergrupper opdateres|
+Hvis du ændrer brugeroplysningerne i Office 365, kan du opdatere [!INCLUDE[d365fin](includes/d365fin_md.md)], så de afspejler ændringen. Afhængigt af hvad du vil opdatere, skal du bruge en af handlingerne på siden **Brugere**. Handlingerne er beskrevet i de sidste tre kolonner i nedenstående tabel.
+
+|Hvad sker der, når:|Første bruger, første login|Brugere hentes fra Office 365|Brugere opdateres fra Office 365|Brugerens standardbrugergrupper gendannes|Brugergrupper opdateres|
 |-|-|-|-|-|-|
 |Omfang:|Aktuelle bruger|Nye brugere i Office 365|Flere markerede brugere|Enkelt valgte bruger (undtagen aktuel)|Flere markerede brugere|
-|Opret den nye bruger, og tildel rettighedssættet SUPER.<br /><br />Platform|**X**|**X**| | | |
-|Opdater brugerposten baseret på faktiske oplysninger i Office 365: stat, fuldt navn, e-mail-adresse for kontaktperson, godkendelsesmail.<br /><br />Codeunit "Azure AD Graf bruger".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
-|Synkroniser brugerplaner (licenser) med licenser og roller tildelt i Office 365.<br /><br />Codeunit "Azure AD Graf bruger".UpdateUserPlans|**X**|**X**| |**X**|**X**|
-|Føj brugeren til brugergruppen i henhold til de aktuelle brugerplaner. Tilbagekald rettighedssættet SUPER. (Der kræves mindst én SUPER. Undlad at tilbagekalde [administratorer](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Rettighedsadministrator". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Overskriv: Fjern brugeren fra andre grupper. Fjern manuelt tildelte rettighedssæt.|**X**<br /><br />Yderligere: Bevar det aktuelle medlemskab i brugergruppen og tildelte rettighedssæt. Føj kun bruger til grupper, hvis det er nødvendigt.|
+|Opret den nye bruger, og tildel rettighedssættet SUPER.<br /><br /><!--Platform-->|**X**|| | | |
+|Opdater brugerposten baseret på faktiske oplysninger i Office 365: stat, fuldt navn, e-mail-adresse for kontaktperson, godkendelsesmail.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**| |
+|Synkroniser brugerplaner (licenser) med licenser og roller tildelt i Office 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**| |**X**|**X**|
+|Føj brugeren til brugergruppen i henhold til de aktuelle brugerplaner. Fjern SUPER-tilladelsessættet for alle andre brugere end den første bruger, der skal logge på, og [administratorer](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Der kræves mindst én SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**| |**X**<br /><br />Fjerner manuelt tildelte brugergrupper og tilladelser.|**X**<br /><br />Opdater brugergruppetildelinger.|
 
 ## <a name="the-device-license"></a>Enhedslicensen
-Med Dynamics 365 Business Central-enhedslicensen kan flere brugere bruge en enhed, der er licenseret med enhedslicensen, til at betjene en enhed på et salgssted, enhed på produktionsplacering eller lagerenhed. Du kan finde oplysninger i [Licensvejledning til Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
+Dynamics 365 Business Central-enhedslicensen giver flere brugere mulighed for at benytte en enhed, der er dækket af licensen, på samme tid. Dette kan f. eks. være en salgssteds-, produktionsområde- eller lagerenhed. Når du har købt et antal enhedslicenser, kan op til det pågældende antal brugere, som er knyttet til Dynamics 365 Business Central-gruppen af enhedsbrugere, logge ind på samme tid. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
-Enhedslicensen implementeres som en model med samtidige brugere. Når du har købt X antal enhedslicenser, kan op til X antal brugere fra den udpegede gruppe kaldet Dynamics 365 Business Central-enhedsbrugere* logge ind samtidigt.
-
-Din virksomheds Office 365-administrator eller Microsoft-partner skal oprette den udpegede enhedsgruppe og tilføje enhedsbrugere som medlemmer af den pågældende gruppe. Det kan de gøre i [Microsoft 365 Administration](https://admin.microsoft.com/) eller på [Azure- portalen](https://portal.azure.com/).
+Din virksomheds Office 365-administrator eller Microsoft-partner kan oprette Dynamics 365 Business Central-gruppen af enhedsbrugere og tilføje enhedsbrugere som medlemmer i [Microsoft 365 Administration](https://admin.microsoft.com/) eller på [Azure-portalen](https://portal.azure.com/).
 
 ### <a name="device-user-limitations"></a>Begrænsninger på enhedsbrugere
 Brugere med enhedslicensen kan ikke udføre følgende opgaver i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
 
--   Konfigurere job, der skal køres som planlagte opgaver i opgavekøen. Enhedsbrugere er samtidige brugere, og vi kan derfor ikke sikre, at den involverede bruger findes i systemet, når en opgave udføres, hvilket er påkrævet.
+- Konfigurere job, der skal køres som planlagte opgaver i opgavekøen. Enhedsbrugere er samtidige brugere, og vi kan derfor ikke sikre, at den involverede bruger findes i systemet, når en opgave udføres, hvilket er påkrævet.
 
--   En enhedsbruger må ikke være den første bruger, der logger på. En bruger af typen administrator, fuld bruger eller ekstern revisor skal være den første, der logger på, så vedkommende kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]. Der er flere oplysninger under [Administration](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+- En enhedsbruger må ikke være den første bruger, der logger på. En bruger af typen administrator, fuld bruger eller ekstern revisor skal være den første, der logger på, så vedkommende kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]. Der er flere oplysninger under [Administration](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
 ### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Sådan oprettes en gruppe af Dynamics 365 Business Central-enhedsbrugere
-1.  Gå til siden **Grupper** i Microsoft 365 Administration.
-2.  Vælg handlingen **Tilføj en gruppe**.
-3.  Gå til siden **Vælg en gruppetype**, vælg handlingen **Sikkerhed**, og vælg derefter handlingen **Tilføj**.
-4.  Gå til siden **Grundlæggende**, og skriv *Dynamics 365 Business Central-enhedsbrugere* som navnet på gruppen.
-
-    > [!Note]
-    > Navnet på gruppen skal være stavet nøjagtigt som ovenfor, også i en opsætning, der ikke er på dansk.
+1. Gå til siden **Grupper** i Microsoft 365 Administration.
+2. Vælg handlingen **Tilføj en gruppe**.
+3. Gå til siden **Vælg en gruppetype**, vælg handlingen **Sikkerhed**, og vælg derefter handlingen **Tilføj**.
+4. På siden **Grundlæggende** skal du angive **Dynamics 365 Business Central-enhedsbrugere** som navnet på gruppen.
+  
+   >[!Note]
+   >Navnet på gruppen skal staves på engelsk, nøjagtigt som det vises i trin 4, også selvom du bruger et andet sprog.
 5. Vælg knappen **Luk**.
 
 > [!NOTE]
 > Du kan også oprette en gruppe af typen Office 365. Du finder flere oplysninger i [Sammenlign grupper](https://docs.microsoft.com/office365/admin/create-groups/compare-groups)
 
 ### <a name="to-add-members-to-the-group"></a>Sådan føjes medlemmer til gruppen
-1.  Gå til Microsoft 365 Administration, og opdater siden **Grupper**, så din nye gruppe vises.
-2.  Vælg gruppen **Dynamics 365 Business Central-enhedsbrugere**, og vælg derefter handlingen **Vis alle og administrer medlemmer**.
-3.  Vælg handlingen **Tilføj medlemmer**.
-4.  Vælg de brugere, som du vil tilføje, og vælg derefter knappen **Gem**.
-5.  Vælg knappen **Luk** tre gange.
+1. Gå til Microsoft 365 Administration, og opdater siden **Grupper**, så din nye gruppe vises.
+2. Vælg gruppen **Dynamics 365 Business Central-enhedsbrugere**, og vælg derefter handlingen **Vis alle og administrer medlemmer**.
+3. Vælg handlingen **Tilføj medlemmer**.
+4. Vælg de brugere, som du vil tilføje, og vælg derefter knappen **Gem**.
+5. Vælg knappen **Luk** tre gange.
 
-Du kan føje så mange brugere til gruppen Dynamics 365 Business Central-enhedsbrugere, som du har brug for. Antallet af enheder, som brugerne kan logge på samtidigt, er defineret af antallet af købte enhedslicenser.
+Du kan føje så mange brugere til gruppen Dynamics 365 Business Central-enhedsbrugere, som du har brug for. Men antallet af enheder, som brugerne kan logge på samtidig, er defineret af antallet af købte enhedslicenser.
 
 > [!NOTE]
 > Du behøver ikke tildele en [!INCLUDE[d365fin](includes/d365fin_md.md)]-licens til brugere, der er medlemmer af gruppen Dynamics 365 Business Central-enhedsbrugere.
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Administrer brugere og licenser i Installationer på stedet
-I installationer i det lokale miljø er der angivet et antal licenserede brugere i licensfilen (. flf). Når administratoren eller Microsoft-partneren overfører licensfilen, kan administratoren angive, hvilke brugere der kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)].
+I installationer i det lokale miljø er der angivet et antal brugerlicenser i licensfilen (. flf). Når en administrator eller Microsoft-partneren overfører licensfilen, kan administratoren angive, hvilke brugere der kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 I forbindelse med installationer i det lokale miljø opretter redigerer og sletter administratoren brugere direkte fra siden **Brugere.**
 
-### <a name="to-edit-or-delete-a-user-on-premises"></a>Sådan redigeres eller slettes en bruger i det lokale miljø
+### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Sådan redigeres eller slettes en bruger i en lokal installation
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
 2. Vælg den bruger, som du vil redigere, og vælg derefter handlingen **Rediger**.
 3. På siden **Brugerkort** kan du ændre oplysningerne efter behov.    
 4. Hvis du vil slette en bruger, skal du markere den pågældende bruger og derefter vælge handlingen **Slet**.
 
 > [!NOTE]
-> Ved lokale installationer af [!INCLUDE[d365fin](includes/d365fin_md.md)] kan administratoren vælge mellem forskellige godkendelse af legitimationsoplysninger for brugere. Når du derefter opretter en bruger, angiver du forskellige oplysninger, afhængigt af den type legitimationsoplysninger, du bruger i den specifikke [!INCLUDE[server](includes/server.md)]-forekomst.<br /><br />
-> Du kan finde flere oplysninger i [Godkendelse og typer af legitimationsoplysninger](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i sektionen Administration af udvikler- og ITPro-indholdet til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> I lokale installationer skal en administrator angive, hvordan en brugers legitimationsoplysninger skal godkendes i forekomsten af [!INCLUDE[server](includes/server.md)] . Når du opretter en bruger, skal du angive den type legitimationsoplysninger, som du bruger.<br /><br />
+> Du kan finde flere oplysninger i [Godkendelse og typer af legitimationsoplysninger](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i afsnittet Administration i Udvikler- og it-ekspertindholdet til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Se også
-[Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
+[Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Tilpasning [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Blive klar til at handle](ui-get-ready-business.md)  
 [Opsætning](admin-setup-and-administration.md)  
 [Føje brugere til Office 365 til virksomheder](https://aka.ms/CreateOffice365Users)  
-[Licensvejledning til Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)  
 [Sikkerhed og beskyttelse i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjælp til udviklere og it-eksperter

@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953288"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194591"
 ---
 # <a name="change-basic-settings"></a>Ændre grundlæggende indstillinger
 
 På siden **Mine indstillinger** kan du se og ændre grundlæggende indstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. De ændringer, du foretager, påvirker kun dit arbejdsområde, ikke arbejdsområder for andre brugere.  
 
-## <a name="role-center"></a> Rollecenter
+## <a name="role-center"></a><a name="role-center"></a> Rollecenter
 Rollecenteret repræsenterer startsiden, et startskærmbillede, der er beregnet til en bestemt rolles behov i en organisation. Afhængigt af din rolle giver Rollecenter dig et overblik over arbejde, din afdeling eller personlige opgaver. Du kan også navigere til de daglige opgaver, og find arbejde, der er tildelt til dig.
 
 -   Øverst i navigationen kan du skifte mellem debitorer, kreditorer, varer og andre vigtige lister med oplysninger. Her kan du også starte opgaver, f.eks. oprette en ny salgsfaktura direkte fra Rollecenter.
@@ -34,7 +34,7 @@ Standardrollen er **Virksomhedsleder**, men du kan vælge en anden rolle for at 
 2. På siden **Mine indstillinger** skal du i feltet **Rolle** vælge den rolle, du vil bruge som standard. Vælg f.eks **Regnskabsmedarbejder**.
 3. Vælg knappen **OK**.
 
-## <a name="company"></a>Virksomhed
+## <a name="company"></a><a name="company"></a>Virksomhed
 En virksomhed fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Der kan være flere virksomheder i en database, men du kan vælge kun ét ad gangen.
 
 Standardfirmaet kaldes CRONUS og indeholder kun demonstrationsdata. Du kan oprette en ny virksomhed med brugerdefinerede data. Du kan finde flere oplysninger under [Oprettelse af nye virksomheder](about-new-company.md).
@@ -42,7 +42,7 @@ Standardfirmaet kaldes CRONUS og indeholder kun demonstrationsdata. Du kan opret
 ## <a name="to-change-the-company-name"></a>Sådan ændres virksomhedsnavnet
 Virksomhedsnavnet vises altid i øverste venstre hjørne og fungerer som en handling, som du kan vælge for at gå tilbage til rollecenteret. Du kan ændre dette navn på siden **Virksomhedsoplysninger**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
+1. Vælg ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter vælge handlingen **Virksomhedsoplysninger**.
 2. I feltet **Navn** skal du angive det nye virksomhedsnavn.
 3. Forlad siden. Systemet genstarter og viser den nye virksomhed i øverste venstre hjørne.
 
@@ -55,7 +55,7 @@ Du kan tilføje et tilpasset kort i øverste højre hjørne, som du kan vælge f
 > [!NOTE]
 > Hvis der er defineret et virksomhedskort, kan du ikke ændre virksomhedsnavnet som beskrevet i [Sådan ændres virksomhedsnavnet](ui-change-basic-settings.md#to-change-the-company-name)
 
-## <a name="work-date"></a>Arbejdsdato
+## <a name="work-date"></a><a name="work-date"></a>Arbejdsdato
 Den mest almindeligt anvendte arbejdsdato er dags dato. Du skal muligvis midlertidigt ændre arbejdsdatoen for at kunne udføre opgaver, f.eks. udføre transaktioner for en dato, der ikke er dags dato.
 
 > [!TIP]  
@@ -72,19 +72,21 @@ Når arbejdsdatoen ikke er indstillet til dags dato, vises der to typer indikato
 - Hvis du afviser rykkeren, vises arbejdsdatoen i sidetitlen.  
 --> Hvis arbejdsdatoen ikke er sat til den aktuelle dag (i dag), vises den aktuelle arbejdsdato i øverste venstre hjørne af siden, på alle de sider, hvor du kan redigere data.
 
-## <a name="region"></a> Område
+## <a name="region"></a><a name="region"></a> Område
 
 Indstillingen **Område** bestemmer, hvordan datoer, klokkeslæt, tal og valutaer vises og formateres.
 
-## <a name="language"></a> Sprog
+## <a name="language"></a><a name="language"></a> Sprog
 Ændrer det viste sprog. Dette felt vises kun, hvis der er mere end ét sprog, du kan vælge mellem.
 
 Det første sprog afhænger enten af administratoren eller af browserindstillingerne, når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det sprog, du har angivet, vil blive brugt på alle enheder, som du logger på fra, f.eks. en telefon eller tablet.
 
+Du kan installere flere sprog til [!INCLUDE[prodshort](includes/prodshort.md)] ved at hente dem fra AppSource. Alle understøttede grænsefladesprog vises på listen, men administratoren skal installere det relevante sprogprogram til lejeren, før brugerne kan vælge det nye sprog i [!INCLUDE[prodshort](includes/prodshort.md)].  
+
 ## <a name="changing-when-i-receive-notifications"></a>Ændre, hvornår jeg modtager notifikationer
 Vælg dette link for at få vist eller ændre de notifikationer, du får om bestemte hændelser eller ændringer af status, når du er ved at fakturere en kunde, der har et forfaldent beløb, eller den disponible lagerbeholdning er lavere end det antal, du er ved at sælge. Du kan finde flere oplysninger under [Administration af meddelelser](ui-smart-notifications.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Oprettelse af nye virksomheder](about-new-company.md)  

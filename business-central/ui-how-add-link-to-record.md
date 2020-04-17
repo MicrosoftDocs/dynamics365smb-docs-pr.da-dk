@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953271"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193862"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 
@@ -34,7 +34,7 @@ Du kan vedhæfte alle filtyper, der indeholder tekst, billeder eller video, på 
 > [!NOTE]
 > Filer, der er vedhæftet med funktionen Indgående bilag, medtages ikke under fanen **Vedhæftede filer**. Du kan finde flere oplysninger i [Indgående bilag](across-income-documents.md).
 
-Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle andre understøttede dokumenter og kort.
+Følgende procedure er baseret på en købsfaktura. Trinene er de samme for alle andre understøttede dokumenter og kort.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Åbn den salgsordre, som du vil vedhæfte en fil til.
@@ -44,6 +44,16 @@ Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle a
 5. Vælg en fil fra en placering, og vælg derefter knappen **Åbn**.
 
 Filen er nu vedhæftet til købsfakturaen.
+
+## <a name="to-save-a-document-as-a-pdf-attachment"></a>Sådan gemmer du et dokument som en vedhæftet PDF-fil
+Når du har brug for at gemme et dokument som en fil, kan du bruge handlingen **Vedhæft som PDF** til at hente det aktuelle dokumentindhold som en PDF-fil, der er vedhæftet dokumentets faktaboks. Det er f. eks. nyttigt, når dokumenter følger flere trin i en proces, f. eks. en salgsproces eller en godkendelsesproces, og du vil henvise til en udskrift af det forrige trin.
+
+Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme for alle understøttede dokumenter.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
+2. Vælg en salgsordre, og vælg derefter handlingen **Vedhæft som PDF**.
+
+En PDF-fil med det aktuelle indhold i salgsordren tilføjes på fanen **Vedhæftede filer** i faktaboksen. 
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Sådan tilføjes et link fra et varekort
 Du kan føje et link fra et kort eller et dokument til en hvilken som helst URL-adresse eller sti. Det er nyttigt, når du f.eks. vil knytte et varekort til leverandørens varekatalog.

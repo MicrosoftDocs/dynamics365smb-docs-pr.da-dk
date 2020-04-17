@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d32f614ce86f6ad1b3f846631d3b4062788b755a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 74031e19332bb258323559a51fa22c486c880edb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312336"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192023"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter
 Når du modtager en kontaktrefusion fra en debitor, eller du foretager en kontantrefusion, skal du vælge, om betalingen skal udlignes eller refunderes for at lukke en eller flere åbne debet- eller kreditposter. Du kan angive det beløb, du vil udligne. Du kan f.eks. udligne delbetalinger til debitorposter. Når du lukker debitorposter, sikrer du, at oplysninger som debitorstatistik, kontoudtog og rentenotaer er korrekte.
@@ -117,7 +117,7 @@ Indbetalingskladden er en form for finanskladde, og derfor kan den bruges, når 
 8. Vælg **OK** for at bogføre udligningen.
 
     Hvis den bogførte udligning har resulteret i lukkede debitorposter, vil der ikke længere være en markering for disse poster i feltet **Åbn**.    
-9. Hvis du vil se finansposter, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder (Debitorer)**, og vælg derefter det relaterede link. Find kortet for den relevante debitor for at få vist posterne.  
+9. Du kan se vareposter ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder (Debitorer)**, og vælg derefter det relaterede link. Find kortet for den relevante debitor for at få vist posterne.  
 
 På oversigten over poster kan du se, at afkrydsningsfeltet **Åben** ikke er markeret på den linje, der indeholder finansposten, der blev fuldt udlignet.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b2dde922cb737a53aec1c8fa2c0e3068c6dfc46b
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 71aa4e1264a4738e0e9a69e9394ee42eeafe3b93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882106"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194375"
 ---
 # <a name="the-accountant-portal-for-business-central-extension"></a>Udvidelsen Revisorportal til Business Central
 Programmet er blevet udfaset. Det anbefales, at du ikke installerer denne udvidelse, men tilmelder dig [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] på [Business Central for revisorer på Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants) i stedet.

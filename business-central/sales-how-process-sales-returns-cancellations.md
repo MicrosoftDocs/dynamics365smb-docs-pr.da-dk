@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b0b3179e8931dbf4c647a7bf66ed1b9de45589ce
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991924"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193583"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle salgsreturvarer eller annulleringer
 Hvis en debitor ønsker at returnere varer eller få refunderet varer eller serviceydelser, som du har solgt og modtaget betaling for, skal du oprette og bogføre en salgskreditnota, der angiver den ønskede ændring. Du kan oprette salgskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte salgsfakturaoplysninger, eller du kan oprette en ny salgskreditnota med kopierede fakturaoplysninger.
@@ -44,7 +44,7 @@ Der findes to funktioner til at tildele præcis kostprisudligning automatisk.
 |Funktion|Beskrivelse|  
 |------------------|---------------------------------------|  
 |Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** på siden **Salgsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til salgsreturvareordren. Yderligere oplysninger finder du i [Sådan oprettes en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
-|Funktionen **Kopiér dokument** på siderne **Salgskreditnota** og **Salgsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Salgsopsætning**.|
+|Funktionen **Kopiér fra dokument** på siderne **Salgskreditnota** og **Salgsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Salgsopsætning**.|
 
 Hvis du vil tildele præcis kostprisudligning manuelt, skal du vælge feltet **Udlign-fra varepost** på en vilkårlig type returdokumentlinje, og derefter vælge nummeret på den oprindelige salgspost. På den måde knyttes salgskreditnotaen eller salgsreturvareordren til den oprindelige salgspost, og varen værdiansættes til den oprindelige kostpris.
 
@@ -76,7 +76,7 @@ De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgskreditnotaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny** for at åbne en ny tom salgskreditnota.
 3. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
-4. Vælg handlingen **Kopier linjer**.
+4. Vælg handlingen **Kopier fra dokument**.
 5. På siden **Kopier salgsdokument** skal du vælge **Bogført faktura** i feltet **Dokumenttype**.
 6. Vælg feltet **Bilagsnr.** for at åbne siden **Bogf. salgsfakturaer**, og vælg derefter den bogførte salgsfaktura, der indeholder linjer, som du vil tilbageføre.
 7. Marker afkrydsningsfeltet **Genberegn linjer**, hvis du vil opdatere de kopierede bogførte salgsfakturalinjer med eventuelle ændringer i varepris og kostpris, siden fakturaen blev bogført.
@@ -90,7 +90,7 @@ De bogførte salgsdokumenter, som du tilknytter kreditnotaen, tilbageføres nu, 
 4. I oversigtspanelet **Linjer** skal du udfylde linjerne manuelt eller kopiere oplysninger fra andre dokumenter for at udfylde linjerne automatisk:
 
     - Brug funktionen **Hent bogførte bilagslinjer, der skal tilbageføres**, hvis du vil kopiere en eller flere bogførte bilagslinjer fra et eller flere bogførte dokumenter. Denne funktion tilbagefører altid de eksakte beløb fra den bogførte bilagslinje. Denne funktion beskrives i følgende trin.    
-    - Brug funktionen **Kopier dokument**, så et eksisterende dokument kopieres til returvareordren. Du kan kopiere hele dokumentet med denne funktion. Det kan være et bogført dokument eller et dokument, der endnu ikke er bogført. Funktionen muliggør kun præcis kostprisudligning, når afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Salgsopsætning**.  
+    - Brug funktionen **Kopiér fra dokument**, så et eksisterende dokument kopieres til returvareordren. Du kan kopiere hele dokumentet med denne funktion. Det kan være et bogført dokument eller et dokument, der endnu ikke er bogført. Funktionen muliggør kun præcis kostprisudligning, når afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Salgsopsætning**.  
 
 5. Vælg handlingen **Hent bogførte bilagslinjer, der skal tilbageføres**.
 6. Marker afkrydsningsfeltet **Vis kun linjer, der kan tilbageføres** øverst på siden **Bogførte salgsdokumentlinjer**, hvis du kun vil se linjer med antal, der endnu ikke er returneret, eller hvis det er købslinjer. Hvis et antal i en bogført salgsfaktura f.eks. allerede er returneret, vil du måske ikke returnere det antal i et nyt salgsreturvaredokument.
@@ -218,7 +218,7 @@ Når returvaremodtagelser samles på en kreditnota og bogføres, oprettes der en
 
 Du kan også slette individuelle salgsreturordrer manuelt.   
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

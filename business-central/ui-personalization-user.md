@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071978"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195383"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
@@ -35,7 +35,7 @@ Du kan nemt ændre kolonnestørrelsen i en liste ved at trække i kanten mellem 
 
 Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden, på din konto og vises, uanset hvilken enhed du logger på.
 
-## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Sådan tilpasses en side via banneret **Tilpas**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Du kan begynde at tilpasse en side via banneret **Tilpasning**
 1. Åbn en side, du vil tilpasse.
 2. I øverste højre hjørne skal du vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter vælge handlingen **Tilpas**.
 
@@ -52,7 +52,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 6. Vælg elementet, og vælg derefter enten **Flyt**, **Fjern**, **Skjul**, **Vis**, **Vis under "Vis flere"**, **Vis, når skjult**, **Vis altid**, **Angiv/Ryd låst rude** eller **Medtag/Udeluk fra genvej**, afhængigt af typen og tilstanden for brugergrænsefladeelementet. Du kan finde flere oplysninger under [Hvad kan du tilpasse](#What).
 7. Når du er færdig med at ændre layoutet for en eller flere sider, skal du vælge knappen **Udført** på banneret **Tilpas**.
 
-## <a name="What"></a>Hvad kan du tilpasse
+## <a name="what-you-can-personalize"></a><a name="What"></a>Hvad kan du tilpasse
 
 |Hvad vil du foretage dig?|Hvordan du gør det|Kommentarer|
 |----|------------|-------|
@@ -67,9 +67,10 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 |Omarrangere og fjerne visninger, der repræsenterer filtrerede lister.|Vælg pilespidsen ud for en visning, og vælg derefter **Flyt**, **Fjern** eller **Skjul**.|Se [Gemme og tilpasse listevisninger](ui-views.md)|  
 |Føje en ny handling til en side eller en rapport i dit rollecenter.|Vælg bogmærkeikonet på rapportanmodningssiden eller i vinduet Fortæl mig på målsiden.|Se [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)|
 
-## <a name="Actions"></a>Tilpasning af handlinger
 
-Tilpasning gør det muligt at bestemme, hvilke handlinger der skal vises på handlingslinjen og i rollecentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper. Tilpasning af handlingslinjen foretages stort set på samme måde som med andre elementer i brugergrænsefladen. Men hvad du kan gøre med en handling eller en gruppe, afhænger af hvor handlingen eller gruppen er placeret. Den bedste måde at finde ud af det på, er ved at vælge tilpasningstilstand og derefter følge pilespidserne.
+## <a name="personalizing-actions"></a><a name="Actions"></a>Tilpasning af handlinger
+
+Tilpasning gør det muligt at bestemme, hvilke handlinger der skal vises på navigations- handlingslinjerne samt i rollecentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper. Tilpasning af navigations- og handlingslinjerne foretages stort set på samme måde som med andre elementer i brugergrænsefladen. Men hvad du kan gøre med en handling eller en gruppe, afhænger af hvor handlingen eller gruppen er placeret. Den bedste måde at finde ud af det på, er ved at vælge tilpasningstilstand og derefter følge pilespidserne.
 
 Der er et par ord, du skal kende for at få en bedre forståelse af handlingstilpasning: *handlingsgruppe* og *fremhævet kategori*.  
 
@@ -87,9 +88,9 @@ Når du vil vise eller skjule en handling, definerer indstillingerne under piles
 
 |Indstilling|Det gør den|
 |------|------------
-|**Fjern**|Denne indstilling vises, hvis den valgte handling også er vist et andet sted på handlingslinjen. Hvis du vælger denne indstilling, slettes handlingen fra den valgte placering, så den ikke længere vises. Handlingen eller handlingsgruppen forbliver på de andre placeringer. |
-|**Skjul**|Denne indstilling vises, hvis handlingen eller handlingsgruppen ikke er placeret andre steder på handlingslinjen. Som det er tilfældet med **Fjern**, forsvinder handlingen eller handlingsgruppen fra handlingslinjen, hvis du vælger denne indstilling. Men i tilpasningstilstand vises handlingen eller handlingsgruppen stadig på den aktuelle placering, bortset fra at den er nedtonet.|
-|**Vis**|Denne indstilling vises, hvis handlingen eller handlingsgruppen tidligere har været skjult (nedtonet). Vælges denne indstilling, vises handlingen eller handlingsgruppen på handlingslinjen.|
+|**Fjern**|Denne indstilling vises, hvis den valgte handling også er vist et andet sted på navigations- eller handlingslinjen. Hvis du vælger denne indstilling, slettes handlingen fra den valgte placering, så den ikke længere vises. Handlingen eller handlingsgruppen forbliver på de andre placeringer. |
+|**Skjul**|Denne indstilling vises, hvis handlingen eller handlingsgruppen ikke er placeret andre steder på navigations- eller handlingslinjen. Som det er tilfældet med **Fjern**, forsvinder handlingen eller handlingsgruppen fra navigations- eller handlingslinjen, hvis du vælger denne indstilling. Men i tilpasningstilstand vises handlingen eller handlingsgruppen stadig på den aktuelle placering, bortset fra at den er nedtonet.|
+|**Vis**|Denne indstilling vises, hvis handlingen eller handlingsgruppen tidligere har været skjult (nedtonet). Vælges denne indstilling, vises handlingen eller handlingsgruppen på navigations- eller handlingslinjen.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Sådan flyttes handlinger og handlingsgrupper
 Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret linje mellem to handlinger eller en kant omkring en handlingsgruppe. Der findes følgende begrænsninger:
@@ -100,6 +101,18 @@ Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret l
 1. Hvis du vil flytte en handling eller handlingsgruppe, skal du trække og slippe den på den ønskede placering på samme måde som med feltet og kolonner.
 2. Hvis du vil flytte en handling eller handlingsgruppe til en anden handlingsgruppe, der er tom, skal du trække handlingen eller handlingsgruppen og slippe den i feltet **Slip en handling her**.
 
+
+## <a name="personalizing-parts"></a><a name="Parts"></a>Tilpasning af dele
+
+Dele er områder på en side, der typisk består af flere felter, diagrammer eller andet indhold, og som kan identificeres med en farvet ramme, når der sættes fokus på delen. Et rollecenters startskærm har f. eks. flere dele. På grund af den veldefinerede grænse kan du tilpasse hele delen og dens indhold.
+
+- Træk og slip en del til den ønskede placering for at flytte den. En farvet linje angiver gyldige placeringer på skærmen. Faktabokse kan f. eks. kun flyttes til siden af andre faktabokse i faktaboksruden.
+- Du kan skjule en del ved at vælge indstillingen **Skjul** under pilespidsen.
+- Når du begynder at tilpasse eller navigere til en ny side, vil alle dele, der aktuelt er skjult, blive vist på siden med karakteristiske detaljer, der angiver, at de er skjulte. Du kan vise denne del igen ved at vælge indstillingen **Vis** under pilespidsen.
+
+Du kan fjerne alle de tilpasningsændringer, du har foretaget i en enkelt del, ved at vælge indstillingen **Fjern tilpasning** under delens pilespids. Hvis du fjerner markering af en del, påvirker det kun, om en del er ændret, ikke placeringen eller synligheden af delen på siden.  
+
+
 ## <a name="to-clear-personalization"></a>Sådan fjernes tilpasning
 På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsændringer, du har foretaget på en side i tidens løb.
 
@@ -109,9 +122,9 @@ På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsænd
 |Indstilling|Det gør den|
 |------|------------
 |**Kun menuen Navigation**|Fjerner alle tilpasningsændringer, du har foretaget i navigationsmenuen, som er delt på tværs af rollecenteret og andre sider. Dette omfatter alle nye handlinger, der er tilføjet som bogmærker, og eventuelle ændringer af links og grupper i menuen.|  
-|**Kun handlinger**|Fjerne alle de tilpasningsændringer, du nogensinde har foretaget for handlingslinjen på siden.|
-|**Kun felter, kolonner og dele**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget for siden undtagen dem på handlingslinjen. Dette omfatter ændringer af felter, kolonner, dele og fliser. |
-|**Alle**|Fjerner alle de tilpasningsændringer, du har foretaget på siden, så siden får sit oprindelige udseende. Dette omfatter ændringer af handlingslinje, felter, kolonner, dele og fliser.|
+|**Kun handlinger**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget på navigations- eller handlingslinjerne på siden.|
+|**Kun felter, kolonner og dele**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget for siden undtagen dem på navigations- eller handlingslinjen. Dette omfatter ændringer af felter, kolonner, dele og fliser. |
+|**Alle**|Fjerner alle de tilpasningsændringer, du har foretaget på siden, så siden får sit oprindelige udseende. Dette omfatter ændringer af navigations- og handlingslinjer, felter, kolonner, dele og fliser.|
 
 ## <a name="additional-points-of-interest"></a>Flere punkter af særlig interesse
 Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.

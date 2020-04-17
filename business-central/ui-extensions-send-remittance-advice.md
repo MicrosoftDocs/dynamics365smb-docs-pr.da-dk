@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8f60d3768690514f0995e01d8e0ee08f95ae098c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 439f9997e9ee70ff290a42e5044a9dbaff1112de
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311088"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190343"
 ---
 # <a name="send-remittance-advice"></a>Send remitteringsadvis
 Når der anvendes remitteringsadvis til at underrette kreditorerne om betalinger, kan du nu sende mails med flere remitteringsadviser fra udbetalingskladden og sende igen, når der er foretaget betalinger fra kreditorposter, ved hjælp af dokumentafsendelsesprofiler.

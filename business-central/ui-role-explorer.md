@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774791"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195359"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Søge efter sider med Rollestifinder
 Du kan få vist en oversigt over alle de forretningsfunktioner, der er tilgængelige for din rolle, og for andre roller, hvis du går et trin videre. I følgende dokumentation henvises der til denne funktionsoversigt som *Rollestifinder*.
@@ -27,7 +27,9 @@ Du kan åbne Rollestifinder fra rollecenteret og alle listesider og fra vinduet 
 - Vælg ![Menuknappen](media/ui_menu_button.png "Menuknap") til højre for navigationslinjen i dit rollecenter eller på en listeside, eller tryk på Skift+F12.
 - I vinduet **Fortæl mig** skal du vælge handlingen **udforskning** nederst.
 
-Hvis du vil se en oversigt over forretningsfunktioner, der er tilgængelige for alle andre roller, ud over din egen, skal du vælge knappen **Udforsk alle** på den side, der viser Rollestifinder.
+Vælg handlingen **Find** øverst i rollestifinderen for hurtigt at finde de funktionsnavne, der indeholder et bestemt udtryk.
+
+Vælg handlingen **Udforsk alle** øverst i rollestifinderen for at se en oversigt over alle forretningsfunktioner, der er tilgængelige for alle roller, blandt andet din egen.
 
 > [!NOTE]
 > Kun Rollecenter-handlinger for profiler, hvor afkrydsningsfeltet **Vis i Rollestifinder** er markeret, vises i den udvidede version af Rollestifinder (vises med **Udforsk alle**-handlingen). Du kan finde flere oplysninger under [Administrere profiler](admin-users-profiles-roles.md).

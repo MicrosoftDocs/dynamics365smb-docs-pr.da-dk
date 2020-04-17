@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6522d2ab515cc32144b2860038f7c71dcd4b53e9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ecf6b203b7dd3264c3499f8b60bbdb29698e647
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315896"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192455"
 ---
 # <a name="service-posting"></a>Bogføring af tjenesten
 Servicebogføringsfunktionen gør det muligt at behandle dokumenter effektivt og hele tiden bevare en gennemført kundeservicepolitik. Du kan oprette og opdatere bogførte dokumenter og oprette poster både inden for serviceområdet og i andre moduler for at sikre korrekt opdatering.  
@@ -49,7 +49,7 @@ Når du bogfører en servicefaktura, en serviceleverance eller en servicekreditn
 
 I følgende procedure bruges en bogført servicefaktura som eksempel, men der kan anvendes samme fremgangsmåde på bogførte serviceleverancer og bogførte kreditnotaer.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogført servicefaktura**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte servicefaktura**, og vælg derefter det relaterede link.  
 2. Åbn den bogførte servicefaktura, som du vil se.  
 3. For at få et overblik over den bogførte faktura skal du vælge handlingen **Statistik**.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/14/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f28d1c11889d496072d57cfdb70f3c743037bff3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b0ff7e3de9de21a37c0cacf6ff1d4b0a4871f61d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954278"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190271"
 ---
 # <a name="block-vendors"></a>Spær kreditorer
 Du kan spærre en kreditor, for eksempel på grund af insolvens, så kreditoren ikke kan føjes til købsdokumenter, eller ingen betalinger kan bogføres for kreditoren.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 53bc73248b8c69e8c2fcd03270f7698f7f6f503a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: fc2a3a372ac82ce936418f793cdd33eb3b0ea4b9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953535"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193950"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle købsreturvarer eller annulleringer
 Hvis du skal returnere varer til din kreditor eller annullere serviceydelser, som du har købt, kan du oprette og bogføre en købskreditnota, der angiver den ønskede ændring for den oprindelige købsfaktura. Du kan oprette købskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte købsfakturaoplysninger, eller du kan oprette en ny købskreditnota med kopierede fakturaoplysninger.
@@ -43,7 +43,7 @@ Der findes to funktioner til at tildele præcis kostprisudligning automatisk.
 |Funktion|Beskrivelse|  
 |------------------|---------------------------------------|  
 |Funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** på siden **Købsreturvareordre**|Kopierer linjer for et eller flere bogførte bilag, der skal tilbageføres, til købsreturvareordren. Yderligere oplysninger finder du i [Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
-|Funktionen **Kopiér dokument** på siderne **Købskreditnota** og **Købsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Købsopsætning**.|
+|Funktionen **Kopiér fra dokument** på siderne **Købskreditnota** og **Købsreturvareordre**|Kopierer både sidehoved og linjerne i et og samme bogførte dokument, der skal tilbageføres.<br /><br /> Kræver, at afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Købsopsætning**.|
 
 Hvis du vil tildele præcis kostprisudligning manuelt, skal du vælge feltet **Udlign-fra varepost** på en vilkårlig type returdokumentlinje, og derefter vælge nummeret på den oprindelige købspost. På den måde knyttes købskreditnotaen eller købsreturvareordren til den oprindelige købspost, og varen værdiansættes til den oprindelige kostpris.
 
@@ -73,7 +73,7 @@ Købskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogfø
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købskreditnotaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny** for at åbne en ny tom købskreditnota.
 3. I feltet **Kreditor** skal du indtaste navnet på en eksisterende kreditor.
-4. Vælg handlingen **Kopier linjer**.
+4. Vælg handlingen **Kopier fra dokument**.
 5. På siden **Kopier købsdokument** skal du vælge **Bogført faktura** i feltet **Dokumenttype**.
 6. Vælg feltet **Bilagsnr.** for at åbne siden **Bogf. købsfakturaer**, og vælg derefter den bogførte købsfaktura, der indeholder linjer, som du vil tilbageføre.
 7. Marker afkrydsningsfeltet **Genberegn linjer**, hvis du vil opdatere de kopierede bogførte købsfakturalinjer med eventuelle ændringer i varepris og kostpris, siden fakturaen blev bogført.
@@ -87,7 +87,7 @@ Købskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogfø
 4. I oversigtspanelet **Linjer** skal du udfylde linjerne manuelt eller kopiere oplysninger fra andre dokumenter for at udfylde linjerne automatisk:
 
     - Brug funktionen **Hent bogførte bilagslinjer, der skal tilbageføres**, hvis du vil kopiere en eller flere bogførte bilagslinjer fra et eller flere bogførte dokumenter. Denne funktion tilbagefører altid de eksakte beløb fra den bogførte bilagslinje. Denne funktion beskrives i følgende trin.    
-    - Brug funktionen **Kopier dokument**, så et eksisterende dokument kopieres til returvareordren. Du kan kopiere hele dokumentet med denne funktion. Det kan være et bogført dokument eller et dokument, der endnu ikke er bogført. Funktionen muliggør kun præcis kostprisudligning, når afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Salgsopsætning**.  
+    - Brug funktionen **Kopiér fra dokument**, så et eksisterende dokument kopieres til returvareordren. Du kan kopiere hele dokumentet med denne funktion. Det kan være et bogført dokument eller et dokument, der endnu ikke er bogført. Funktionen muliggør kun præcis kostprisudligning, når afkrydsningsfeltet **Obl. beløbstilbageførsel** er markeret på siden **Salgsopsætning**.  
 
 4. Vælg handlingen **Hent bogførte bilagslinjer, der skal tilbageføres**.
 5. Marker afkrydsningsfeltet **Vis kun linjer, der kan tilbageføres** øverst på siden **Bogførte købsdokumentlinjer**, hvis du kun vil se linjer med antal, der endnu ikke er returneret, eller hvis det er købslinjer. Hvis et antal i en bogført købsfaktura f.eks. allerede er returneret, vil du måske ikke medtage det antal i et nyt købsreturvaredokument.
@@ -181,7 +181,7 @@ Når returleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 2.  Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
 3.  Du kan også slette de individuelle købsreturvareordrer manuelt.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  

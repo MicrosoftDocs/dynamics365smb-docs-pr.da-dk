@@ -9,38 +9,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1e45a480e8fdcc508de8ac82a6d2860147d76cec
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991780"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196731"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Bruge Dynamics 365 Sales fra Business Central
 Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
 
-Før du kan bruge integrationsfunktionerne, skal du oprette forbindelsen og definere brugere i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger under [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
+Før du kan bruge integrationsfunktionerne, skal din systemadministrator oprette forbindelsen og definere brugere i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger under [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
 > [!NOTE]
 > Følgende fremgangsmåde beskriver processen med at integrere onlineversioner af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Ved integration af programmerne kan du få adgang til data i Salg fra [!INCLUDE[d365fin](includes/d365fin_md.md)] og omvendt i nogle tilfælde. Du kan arbejde med og synkronisere datatyper, der er fælles for begge tjenester, f.eks. debitorer, kontakter og salgsoplysninger, og holde dataene opdaterede i begge programmer.  
 
-For eksempel kan en sælger i Salg bruge prislisterne fra [!INCLUDE[d365fin](includes/d365fin_md.md)], når vedkommende opretter en salgsordre. Når sælgeren føjer varen til salgsordrelinjen i Salg, kan vedkommende også få vist lagerniveauet (tilgængelighed) af varen fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
+For eksempel kan en sælger i [!INCLUDE[crm_md](includes/crm_md.md)] bruge prislisterne fra [!INCLUDE[d365fin](includes/d365fin_md.md)], når vedkommende opretter en salgsordre. Når sælgeren føjer varen til salgsordrelinjen i [!INCLUDE[crm_md](includes/crm_md.md)], kan vedkommende se varens lagerniveau (tilgængelighed) fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Omvendt kan ordrebehandlere i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndtere salgsordrer, der automatisk eller manuelt overføres fra salg. De kan f.eks. oprette og bogføre salgsordrelinjer for varer eller ressourcer, der er angivet i Salg, som rekvirerede produkter. Du kan finde flere oplysninger i [Håndtering af salgsordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+Omvendt kan ordrebehandlere i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndtere salgsordrer, der automatisk eller manuelt overføres fra [!INCLUDE[crm_md](includes/crm_md.md)]. De kan f.eks. oprette og bogføre salgsordrelinjer for varer eller ressourcer, der er angivet i [!INCLUDE[crm_md](includes/crm_md.md)], som rekvirerede produkter. Du kan finde flere oplysninger i [Håndtering af salgsordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] kan kun integreres med Dynamics 365 Sales. Andre programmer i Dynamics 365, der ændrer standardarbejdsprocessen eller datamodellen i Salg, for eksempel Project Service Automation, kan bryde integrationen mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og Salg.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] kan kun integreres med [!INCLUDE[crm_md](includes/crm_md.md)]. Andre programmer i Dynamics 365, der ændrer standardarbejdsprocessen eller datamodellen i [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel Project Service Automation, kan bryde integrationen mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### <a name="coupling-records"></a>Sammenkæde poster
-Du kan vælge de data, der skal synkroniseres, ved hjælp af den assisterede opsætningsvejledning. Senere kan du også indstille synkroniseringen for bestemte poster. Dette betegnes *sammenkædning*. Du kan f.eks. sammenkæde en bestemt konto i Salg med en bestemt debitor i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I dette afsnit beskrives det, hvad du skal tage højde for, når du sammenkæder poster.
+## <a name="coupling-records"></a>Sammenkæde poster
+Du kan vælge de data, der skal synkroniseres, ved hjælp af den assisterede opsætningsvejledning. Senere kan du også indstille synkroniseringen for bestemte poster. Dette betegnes *sammenkædning*. Du kan f.eks. sammenkæde en bestemt konto i [!INCLUDE[crm_md](includes/crm_md.md)] med en bestemt debitor i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I dette afsnit beskrives det, hvad du skal tage højde for, når du sammenkæder poster.
 
-Hvis du f.eks. vil have vist konti i Salg som debitorer i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du sammenkæde de to typer poster. For at gøre det skal du bruge handlingen **Konfigurer sammenkædning** på oversigtssiden **Kunder (Debitorer)** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Derefter skal du angive, hvilke [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder der svarer til hvilke konti i Salg.
+Hvis du f.eks. vil se [!INCLUDE[crm_md](includes/crm_md.md)]-konti som debitorer i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du sammenkæde de to typer poster. For at gøre det skal du bruge handlingen **Konfigurer sammenkædning** på oversigtssiden **Kunder (Debitorer)** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Derefter skal du angive, hvilke [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder der svarer til hvilke konti i [!INCLUDE[crm_md](includes/crm_md.md)].
 
-Du kan også oprette (og sammenkæde) en konto i Sales baseret på f.eks. en debitorpost i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af **Opret konti i Dynamics 365 Sales**, eller omvendt, ved hjælp af **Opret kreditor i [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+Du kan også oprette (og sammenkæde) en konto i [!INCLUDE[crm_md](includes/crm_md.md)] baseret på f.eks. en debitorpost i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af **Opret konto i Dynamics 365 Sales** eller omvendt ved hjælp af **Opret kreditor i [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 
 Når du opretter sammenkædning mellem to poster, kan du også manuelt anmode om, at en aktuel post, f.eks. en kunde, skal overskrives med det samme af kontodata fra Salg (eller fra [!INCLUDE[d365fin](includes/d365fin_md.md)]) ved hjælp af handlingen **Synkroniser nu**. Handlingen **Synkroniser nu**, som vil spørge dig, om Salg eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-postdata skal overskrives.
 
@@ -48,17 +48,17 @@ I nogle tilfælde skal du sammenkæde bestemte datasæt før andre datasæt som 
 
 |Data|Hvad skal sammenkædes først|
 |-----|----|
-|Debitorer og konti|Sammenkæd sælgere med brugere af Salg|
-|Varer og ressourcer|Sammenkæd måleenhed med Salg-enhedsgrupper|
-|Priser på varer og ressourcer|Sammenkæd debitorprisgrupper med Salg-priser|
+|Debitorer og konti|Sammenkæd sælgere med brugere af [!INCLUDE[crm_md](includes/crm_md.md)]|
+|Varer og ressourcer|Sammenkæd enheder med [!INCLUDE[crm_md](includes/crm_md.md)]-enhedsgrupper|
+|Priser på varer og ressourcer|Sammenkæd debitorprisgrupper med [!INCLUDE[crm_md](includes/crm_md.md)] -priser|
 
 > [!NOTE]  
 > Hvis du bruger priser i udenlandsk valuta, eller dine kunder gør det, skal du sørge for at sammenkæde valutaer med Salg-transaktionsvalutaer.
 
-I Salg afhænger salgsordrer af ekstra oplysninger som f.eks. kunder, enheder, valutaer, debitorprisgrupper og varer og/eller ressourcer. For at integration med salgsordrer skal fungere, skal du sammenkæde kunder, måleenheder, valutaer, debitorprisgrupper og varer og/eller ressourcer.
+I [!INCLUDE[crm_md](includes/crm_md.md)] afhænger salgsordrer af ekstra oplysninger som f.eks. kunder, enheder, valutaer, debitorprisgrupper og varer og/eller ressourcer. For at integration med salgsordrer skal fungere, skal du sammenkæde kunder, måleenheder, valutaer, debitorprisgrupper og varer og/eller ressourcer.
 
-### <a name="fully-synchronizing-records"></a>Fuld synkronisering af poster
-I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen **Kør fuld synkronisering** for at starte synkronisering af alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster med alle relaterede poster i Salg. På siden **Fuld synkroniseringsgennemsyn af Dynamics 365 Sales** skal du vælge handlingen **Start**. Det kan tage et stykke tid at fuldføre fuld synkronisering, men du kan fortsætte med at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)], mens den kører i baggrunden.
+## <a name="fully-synchronizing-records"></a>Fuld synkronisering af poster
+I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen **Kør fuld synkronisering** for at starte synkronisering af alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster med alle relaterede poster i [!INCLUDE[crm_md](includes/crm_md.md)]. På siden **Fuld synkroniseringsgennemsyn af Dynamics 365 Sales** skal du vælge handlingen **Start**. Det kan tage et stykke tid at fuldføre fuld synkronisering, men du kan fortsætte med at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)], mens den kører i baggrunden.
 
 Når du vil kontrollere status for individuelle sager i en fuld synkronisering, skal du på siden **Fuld synkroniseringsgennemgang af Dynamics 365 Sales** vælge en post for at få vist detaljer. Opdater siden for at opdatere status under synkroniseringen.
 
@@ -73,10 +73,10 @@ Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede 
 
 Hvis beskrivelsen af varen på den oprindelige salgsordre er meget lang, oprettes der en ekstra salgsordrelinje af typen **Bemærkning** for at holde hele teksten i salgsordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesdato eller Ønsket leveringsdato, der er tilknyttet i SALGSORDRE-ORDRE **Integrationstabelkoblinger** synkroniseres regelmæssigt til [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som frigivelse af en salgsordre og levering eller fakturering af en salgsordre bogføres på salgsordrens tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Introduktion til aktivitetsopdateringer](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesdato eller Ønsket leveringsdato, der er tilknyttet i SALGSORDRE-ORDRE **Integrationstabelkoblinger**, synkroniseres regelmæssigt til [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som frigivelse af en salgsordre og levering eller fakturering af en salgsordre bogføres på salgsordrens tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Introduktion til aktivitetsopdateringer](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> Periodisk synkronisering, der er baseret på SALESORDER-ORDER **Integrationstabeltilknytning** , fungerer kun, når salgsordreintegration er aktiveret. Du kan finde flere oplysninger i [Oprette forbindelse til Dynamics 365 Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Kun salgsordrer, der er oprettet fra sendte salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodisk synkronisering, der er baseret på SALESORDER-ORDER **Integrationstabeltilknytning** , fungerer kun, når salgsordreintegration er aktiveret. Du kan få oplysninger i [Forbindelsesindstillinger på siden Opsætning af salgsforbindelse](admin-prepare-dynamics-365-for-sales-for-integration.md). Kun salgsordrer, der er oprettet fra sendte salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

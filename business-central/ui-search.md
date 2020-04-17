@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 13b3e82d184e83841ea5daeb32c735e5383b3e02
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 37ee56fef2f7424e0655303f2a6111a8b3eae94f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953943"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195311"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Søge efter sider og oplysninger med Fortæl mig  
 I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se komme til f.eks. handlinger, sider eller rapporter, finde oplysninger om, hvordan du udfører en bestemt opgave og finder flere apps og konsulenttjenester til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -63,7 +63,7 @@ Funktionen **Fortæl mig, hvad du vil foretage dig** søger ikke efter data, f.e
 ## <a name="questions"></a>Spørgsmål?
 Vi har vist Fortæl mig til en række interessenter, noteret de spørgsmål, de havde fælles, og lavet vores noter om til en oversigt over ofte stillede spørgsmål. Hvis du er interesseret, kan du se [Fortæl mig – ofte stillede spørgsmål](ui-search-faq.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesuser-interface-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Arbejde med Business Central](ui-work-product.md)  

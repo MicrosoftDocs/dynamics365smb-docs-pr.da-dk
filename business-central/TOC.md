@@ -28,7 +28,7 @@
 
 # Arbejde med Business Central
 ## [Oversigt](ui-work-product.md)
-## [Udskriftsvenligt oversigtsark](ui-work-product.md)
+## [Udskriftsvenligt oversigtsark](ui-work-product.md#cheatsheet)
 ## [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)
 ## [Søge efter sider med Rollestifinder](ui-role-explorer.md)
 ## [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Administrere vedhæftede filer, links og noter på kort og dokumenter](ui-how-add-link-to-record.md)
 ## [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)
 ## [Administrere notifikationer](ui-smart-notifications.md)
+## [Tip til ydeevne for erhvervsbrugere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Tilpasse Business Central
 ### [Tilpasse dit arbejdsområde](ui-personalization-user.md)
 ### [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Få vist lister på forskellige måder](across-display-lists-different-views.md)
 ## Udskrive rapporter og afvikle kørsler og XMLporte
 ### [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)
-### [Angive printervalg for rapporter](ui-specify-printer-selection-reports.md)
+### [Installation af printere](ui-specify-printer-selection-reports.md)
 ### [Planlægge en rapport til kørsel](ui-work-report.md#ScheduleReport)
 ### [Administrere gemte indstillinger for rapporter og kørsler](reports-saving-reusing-settings.md)
 ### [Vise testrapporter inden bogføring](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Konfigurere bogføringsgrupper](finance-posting-groups.md)
 ### [Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
 ### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md)
+### [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
 ### [Konfigurere moms](finance-setup-vat.md)
 ### [Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter](finance-setup-unrealized-vat.md)
 ### [Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -320,8 +321,9 @@
 # Opsætning
 ## [Oversigt](admin-setup-and-administration.md)
 ## [Oprette brugere i henhold til licenser](ui-how-users-permissions.md)
-## [Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md)
+## [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)
 ## [Administrere profiler](admin-users-profiles-roles.md)
+## [Installation af printere](ui-specify-printer-selection-reports.md)
 ## [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md)
 ## [Svare på anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md)
 ## [Oprettelse af nye virksomheder](about-new-company.md)
@@ -367,13 +369,17 @@
 #### [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)
 ## Integration med Dynamics 365 Sales
 ### [Oversigt](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Konfigurere en Dynamics 365 Sales-forbindelse](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synkronisering af Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+## Integration med Common Data Service
+### [Oversigt](admin-common-data-service.md)
+### [Modeller for ejerskab af data](admin-cds-company-concept.md)
+### [Konfigurere brugerkonti til integration med Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Opret forbindelse til Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synkronisere Business Central og Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Tilknytning af tabeller og felter til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkronisere tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Fejlfinding i forbindelse med synkroniseringsfejl](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finans
 ## [Oversigt](finance.md)
@@ -511,6 +517,7 @@
 ## [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)
 ## [Oprette analyserapporter](bi-how-create-analysis-views-reports.md)
 ## [Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md)
+## [Administrere formål med adgang til database](admin-data-access-intent.md)
 
 # Salg
 ## [Oversigt](sales-manage-sales.md)
@@ -1390,7 +1397,7 @@
 #### [Schweizisk moms](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Momssatser for Schweiz](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banktransaktioiner og betalinger
-#### QR-kode på schweiziske betalingsfølgesedler
+#### QR-Bill-administration (LocalFunctionality/Schweiz/ui-extensions-qr-bill-management.md)
 #### [Lukke en LSV-opkrævning](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Eksportere betalinger vha. LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Importere ESR-betalinger](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)

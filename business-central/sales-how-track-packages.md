@@ -9,20 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f65708a0827a0e428c8bd7e0369c26268bb6ed32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4dfb4a530ebcbfd9bcede5e6280fa33360b952a6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316256"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192623"
 ---
 # <a name="track-packages"></a>Spore pakker
 En række speditørfirmaer giver mulighed for på internettet at spore pakker, som de håndterer på virksomhedens vegne. Hvis du bruger mere end én af disse speditører, kan du oprette grundlæggende oplysninger og bruge den automatiske sporingsfunktion for forsendelser. Du kan finde flere oplysninger under [Oprette speditører](sales-how-to-set-up-shipping-agents.md).  
 
 ## <a name="to-track-a-package"></a>Sådan spores en pakke
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogført salgsleverance**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsleverancer**, og vælg derefter det relaterede link.
 2. Åbn den relevante leverance.
 3. I feltet **Pakkesporingsnr.** skal du angive det pakkenummer, du har modtaget fra speditøren.
 4. Vælg handlingen **Pakkesporing**.

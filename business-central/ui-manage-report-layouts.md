@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 79e3f15169f592c5e90aacfd3307794f226adeb2
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 419c6d48d7370f7bcd6dc21c21ed3bd8d3833b00
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953199"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195455"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentlayout
 Et rapportlayout styrer indholdet og formatet af rapporten, herunder hvilke datafelter i et datasæt der vises i rapporten, og hvordan de er organiseret, teksttypografi, billeder og meget mere. Fra [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienter kan du ændre, hvilket layout der skal bruges i en rapport, oprette et nyt layout eller ændre det aktuelle layout.
@@ -58,7 +58,7 @@ Processen til oprettelse af Word-rapportlayout og RDLC-rapportlayout er den samm
 
 Du kan finde oplysninger om, hvordan du ændrer, hvilket layout der skal bruges, i [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Opdater brugerdefinerede rapportlayouts](ui-update-report-layouts.md)  

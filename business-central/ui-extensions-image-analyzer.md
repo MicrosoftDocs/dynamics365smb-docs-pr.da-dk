@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5e7312e6e660d74089b0dce43ddf015be60ab446
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f5b472dca560ba12eb0461842878d622c6eaee3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315488"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194183"
 ---
 # <a name="the-image-analyzer-extension"></a>Billedanalyseudvidelsen
 Billedanalyseudvidelsen bruger effektiv billedanalyse fra Computer Vision API'en til Computer Vision API til at registrere attributter i de billeder, du importerer til varer og kontaktpersoner, så du let kan gennemse og tildele dem. For varer kan attributterne dreje sig om, hvorvidt varen er et bord eller en bil, og om den er rød eller blå. For kontaktpersoner kan attributterne vedrøre køn eller alder.
@@ -46,7 +46,7 @@ Billedanalyseudvidelsen er indbygget i [!INCLUDE[d365fin](includes/d365fin_md.md
 1. Gør ét af følgende for at aktivere billedanalyseudvidelsen:
 
 * Åbn et vare- eller kontaktkort. Vælg **Analysér billeder** på meddelelseslinjen, og følg derefter trinnene i den assisterende opsætningsvejledning.  
-* Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalyse**. Marker afkrydsningsfeltet **Aktivér billedanalyse**, og fuldfør derefter trinnene i den assisterende opsætningsvejledning.  
+* Vælg ikonet ![Elpære, der åbner funktionen Fortæl Mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg **Opsætning af billedanalyse**. Marker afkrydsningsfeltet **Aktivér billedanalyse**, og fuldfør derefter trinnene i den assisterende opsætningsvejledning.  
 
     > [!TIP]  
     > På siden **Opsætning af billedanalyse** kan du også ændre graden af tillid for attributforslag. Hvis du f.eks. ønsker en større grad af tillid, kan du angive en højere procentsats.
@@ -87,7 +87,7 @@ Du kan få vist antallet af analyser, du har udført, og hvor mange du stadig ka
 2. **Grænsetype**, **Grænseværdi** og **Udførte analyser** oplyser om forbruget.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Sådan afslutter du brugen af billedanalyseudvidelsen
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalysatoren**.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl Mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg **Opsætning af billedanalysatoren**.  
 2. Fjern markeringen i afkrydsningsfeltet **Aktiver billedanalyse**.  
 
 ## <a name="see-also"></a>Se også

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 01/29/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e6a616bcfc78f0d46ea7e57639a9f27ddfa3d656
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 184c3f1d20790efe984f890c1a88c03698d66ba6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999875"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194807"
 ---
 # <a name="sales"></a>Salg
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.
@@ -57,7 +57,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Registrere dine estimater for fremtidigt salg specificeret efter vare og periode, så det hovedsageligt fungerer som input til produktionsplanlægning.|[Oprette et forecast](production-how-to-create-a-forecast.md)|
 |Løse forvirring, når der findes to eller flere poster for samme debitor.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathssell-items-services-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Konfigurere salg](sales-setup-sales.md)  

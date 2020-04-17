@@ -2,15 +2,15 @@
 title: Undervisningskatalog for førsalgspartnere
 description: Find al tilgængelig undervisning i Business Central.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: fa20bdc9852098ac3d1a78d2038fcf4182ce2f1f
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: e5341a17626b693cf49d74d398ee5bb657ba3afd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097812"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190732"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Undervisningskatalog for førsalgspartnere
 
@@ -18,7 +18,7 @@ Er du ansvarlig for at demonstrere nøglefunktioner for kunder? 
 
 Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det mest grundlæggende til det mest avancerede. Hvis indholdet findes i flere formater, giver vi dig besked om det, så du kan vælge det format, der bedst imødekommer dine behov. 
 
-## Kom i gang<a name="get-started"></a>
+## <a name="get-started"></a>Kom i gang<a name="get-started"></a>
 
 | Indhold                                                                                                                              | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Længde             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -28,27 +28,27 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 | [Business Central YouTube-afspilningsliste](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-landingsside for Dynamics 365 Business Central-videoer                                                                                                                                                                                                                                    | YouTube-videoer                        |                    |
 | [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Udforske Dynamics 365 Business Central-funktioner                                                                                                                                                                                                                                               | Websted                               |                    |
 
-## Udvid din virksomhed<a name="grow"></a>
+## <a name="grow-your-business"></a>Udvid din virksomhed<a name="grow"></a>
 
 | Indhold                                                                                                                                | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Længde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Overbevisende samtaler med kundeemner (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)                                             | Lyt til Errol Schoenfish, direktør for Product Marketing, når han gennemgår, hvordan du får overbevisende samtaler med kundeemner om Microsoft Dynamics 365 Business Central.                                                                                                                        | Video                                 | 11 minutter og 16 sekunder |
 | [Dynamics 365 Business Central - Sådan gør du det virkeligt](https://mbspartner.microsoft.com/D365/Videos/101787)                                                                   | Lyt til Errol Schoenfish, direktør for Product Marketing, når han taler om, hvordan du kommer i gang med at aktivere demoer til Microsoft Dynamics 365 Business Central.                                                                                                                                           | Video                                 | 12 minutter og 29 sekunder |
 
-## Forretningsværdi<a name="busvalue"></a>
+## <a name="business-value"></a>Forretningsværdi<a name="busvalue"></a>
 
 | Indhold                                                                                                                                | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Længde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/) | Udforske Dynamics 365 Business Central-funktioner                                                                                                                                                                                                                                                        | Websted                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Dette modul viser programfunktioner, fordele og eksempler på Dynamics 365 Business Central-handlinger.                                                                                                                                                                                                | Gratis onlinelæringssti i dit eget tempo | 24 minutter          |
 
-## Nyheder<a name="whatsnew"></a>
+## <a name="whats-new"></a>Nyheder<a name="whatsnew"></a>
 
 | Indhold                                                                                                                                | Beskrivelse                                 | Format                                | Længde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365: Plan for frigivelsesbølge 2 i 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/)                                                               | Dynamics 365-frigivelsesplanen (tidligere produktbemærkninger) til frigivelsesbølge 2 i 2019 beskriver alle nye funktioner, der frigives fra oktober 2019 til og med marts 2020.                                                                                                                                          | Websted og hvidbog, der kan downloades  |                       |
 
-## Demo<a name="demo"></a>
+## <a name="demo"></a>Demo<a name="demo"></a>
 
 | Indhold                                                                                                                                                           | Beskrivelse                                                                                                                                                                                                                                                     | Format                           | Længde                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|--------------------------|

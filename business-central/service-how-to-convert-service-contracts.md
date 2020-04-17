@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: ed1f0d928299a1f72b40be6e7fe1ac1567c4906c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554784"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194927"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter, som omfatter momsbeløb
 Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal disse kontrakter konverteres manuelt. Dette emne beskriver flere alternative metoder, der kan bruges til konvertering af servicekontrakter.  
@@ -67,4 +67,4 @@ Følgende procedure beskriver, hvordan du opretter en ny kreditnota ved hjælp a
 [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finans](finance.md)  
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
-[Arbejde moms af salg og køb](finance-work-with-vat.md)  
+[Arbejde med moms af salg og køb](finance-work-with-vat.md)  

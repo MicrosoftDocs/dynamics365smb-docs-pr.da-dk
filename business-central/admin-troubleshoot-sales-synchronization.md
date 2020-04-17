@@ -10,19 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 489e66165c5441ea63043a30dee8af314ef5d815
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
+ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991804"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3196539"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Fejlfinding i forbindelse med synkroniseringsfejl
-Der skal flyttes mange forskellige dele, når [!INCLUDE[d365fin](includes/d365fin_md.md)] skal integreres med [!INCLUDE[crm_md](includes/crm_md.md)], og nogle gange går tingene forkert. I dette emne beskrives nogle af de mest almindelige fejl, der opstår, og der angives oplysninger om, hvordan de kan løses.
+Der skal flyttes mange forskellige dele, når [!INCLUDE[d365fin](includes/d365fin_md.md)] skal integreres med Common Data Service, og nogle gange går tingene forkert. I dette emne beskrives nogle af de mest almindelige fejl, der opstår, og der angives oplysninger om, hvordan de kan løses.
 
 Fejl opstår ofte, fordi en bruger har udført handlinger på sammenkædede poster, eller fordi, der er noget galt med den måde, integrationen er konfigureret på. Fejl, der vedrører sammenkædede poster, kan brugerne selv løse. Disse fejl skyldes handlinger som f.eks. sletning af en post i en, men ikke begge forretningsapps med efterfølgende synkronisering. Du kan finde flere oplysninger under [Se status på en synkronisering](admin-how-to-view-synchronization-status.md).
+
+## <a name="example"></a>Eksempel
+I denne video vises et eksempel på, hvordan du retter fejl, der er opstået under synkronisering med Sales. Denne proces vil være den samme for alle integrationer. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
@@ -38,19 +41,19 @@ Du skal rette fejlene manuelt, men du kan få visse former for hjælp på siden.
 * Felterne **Kilde** og **Destination** kan indeholde links til den post, hvor fejlen blev fundet. Klik på linket for at åbne posten og undersøge fejlen.  
 * Handlingerne **Slet poster, der er ældre end syv dage** og **Slet alle poster** rydder op på listen. Du bruger typisk disse handlinger, når du har fundet årsagen til en fejl, der påvirker mange poster. Men gå forsigtigt frem. Disse handlinger kan muligvis slette fejl, der stadig er relevante.
 
-Tidsstemplerne på poster kan somme tider forårsage konflikter. I tabellen "CRM-integrationsrecord" gemmes tidsstemplerne "Sidste synkr. ændret den" og "Sidst synkr. CRM-ændret den" for den sidste integration, der er udført i begge retninger for en post. Disse tidsstempler sammenlignes med tidsstempler i Business Central og salgsposter. I Business Central findes tidsstemplet i tabellen Integrationsrecord.
+Tidsstemplerne på poster kan somme tider forårsage konflikter. I tabellen "CDS-integrationsrecord" gemmes tidsstemplerne "Sidste synkr. ændret den" og "Sidst synkr. CDS-ændret den" for den sidste integration, der er udført i begge retninger for en post. Disse tidsstempler sammenlignes med tidsstempler i Business Central og salgsposter. I Business Central findes tidsstemplet i tabellen Integrationsrecord.
 
-Du kan filtrere efter records, der skal synkroniseres, ved at sammenligne recordstempler i felterne "Synkr. rettet på filter"og "Synch. Int. Tbl." i "Integrationstabeltilknytning" Rettet på feltnr.”.
+Du kan filtrere efter poster, der skal synkroniseres, ved at sammenligne poststempler i felterne "Synkr. rettet på filter"og "Synch. Int. Tbl." i "Integrationstabeltilknytning". Rettet på feltnr.".
 
 Konfliktfejlmeddelelsen "Kan ikke opdatere kunderecord, fordi den har en senere ændringsdato end kontorecorden eller "Kan ikke opdatere kontorrecorden, fordi den har en senere ændringsdato end kunderecorden" kan ske, hvis en record har et tidsstempel, der er større end integrationstabeltilknytning Synkr. rettet på filter, men ikke ligger før tidstemplet på Salgsintegrationsrecord. Det betyder, at kilderecorden er blevet synkroniseret manuelt og ikke af opgavekøposten. 
 
-Konflikten opstår, fordi destinationsrecorden også blev ændret – poststemplet er nyere end salgsintegrationsrecordens tidsstempel. Destinationskontrollen sker kun i forbindelse med tovejstabeller. 
+Konflikten opstår, fordi destinationsposten også blev ændret – posttidsstemplet er nyere end salgsintegrationspostens tidsstempel. Destinationskontrollen sker kun i forbindelse med tovejstabeller. 
 
 Disse records er nu flyttet til siden "Synkroniserede poster, der springes over", som du kan åbne fra siden Konfiguration af Microsoft Dynamics-forbindelse i Business central. Her kan du angive de ændringer, du vil beholde, og derefter synkronisere recordsene igen.
 
 ## <a name="see-also"></a>Se også
-[Integration med [!INCLUDE[crm_md](includes/crm_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Konfigurere brugerkonti til integration med [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
-[Oprette en forbindelse til [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
+[Integration med Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Konfigurere brugerkonti til integration med Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)  
+[Oprette en forbindelse til Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Sammenkæde og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Se status på en synkronisering](admin-how-to-view-synchronization-status.md)  

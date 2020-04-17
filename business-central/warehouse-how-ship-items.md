@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a2bde69033ee208082662fa771616ac0b124d73e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 950e471b635c6b188ef6bc0e0a08331df47c86bf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876771"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193295"
 ---
 # <a name="ship-items"></a>Afsende varer
 Når du leverer varer fra et lagersted, der ikke er konfigureret til lagerleverancebehandling, skal du blot registrere leverancen på det relaterede forretningsbilag f.eks. en salgsordre, serviceordre, købsordre, returvareordre eller udgående overflytningsordre.

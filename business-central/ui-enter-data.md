@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992074"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194423"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -29,7 +29,7 @@ Der er adskillige tastaturgenveje, du kan bruge, når du vil arbejde uden mus, o
 
 Du kan finde flere oplysninger om genveje i [Tastaturgenveje](keyboard-shortcuts.md). Nogle af genvejene er beskrevet i denne artikel.
 
-## <a name="QuickEntry"></a>Fremskynde dataindtastning ved hjælp af genveje
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Fremskynde dataindtastning ved hjælp af genveje
 
 Genvej er en funktion, der er designet til dataindtastning med brug af tastatur. Genvej fungerer på felter (f.eks. på kortider) og i lister (rækker og kolonner). Det er nyttige, når du udfører gentagne indtastningsopgaver, der kræver oprettelse af flere poster i rækkefølge, f.eks. en kørsel med salgsordrer eller registrering af nye varer.
 
@@ -86,11 +86,11 @@ Du kan finde flere oplysninger i [Ofte stillede spørgsmål om kopiering og inds
 
 ## <a name="filtering-line-items"></a>Filtrere linjevarer
 
-Du starter filtrering ved at vælge ![Ikonet Filterrude](media/open-filter-pane-icon.png "Ikonet Filterrude") øverst på listen eller ved at trykke på Skift+F3 for at åbne filterruden. Du arbejder med filterruden, på samme måde som du arbejder med andre lister. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#Filtering).
+Du starter filtrering ved at vælge ![Ikonet Filterrude](media/open-filter-pane-icon.png "Ikonet Filterrude") øverst på listen eller ved at trykke på Skift+F3 for at åbne filterruden. Du arbejder med filterruden, på samme måde som du arbejder med andre lister. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#filtering).
 
 Filtrering er især nyttig, når du får vist og analyserer længere dokumenter. Antag f.eks., at du åbner en bogført salgsfaktura og filtrerer linjevarerne for at få vist alle linjevarer med en individuel rabat over 5 % eller filtrerer for udelukkende at få vist cykeltilbehør med 'pro' i navnet.
 
-## <a name="Focus"></a>Fokusere på linjevarer
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fokusere på linjevarer
 
 Når du arbejder med dokumenter, der indeholder en del af en linjevarepost, f.eks. en salgsordre eller fakturaside, kan du ændre visningen, så der kun fokuseres på linjevarerne. Derefter udvides delen med linjevarer, så den fylder næsten hele arbejdsområdet, og så andre dele af siden bortset fra handlingsområdet øverst skjules. Det giver dig et bedre overblik over linjevarerne og giver mere plads til at arbejde med dem.
 
@@ -113,6 +113,11 @@ Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du væl
 > [!NOTE]
 > Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger under [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Det samme kan forekomme i andre browsere, f.eks. Firefox. Du kan finde flere oplysninger under [Indstillinger for blokering af pop op-vinduer i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+
+En anden måde at multitaske på er at åbne [!INCLUDE[d365fin](includes/d365fin_md.md)] på to eller flere browserfaner. Når du gør det, skal du oprette en ny fane og derefter kopiere/indsætte URL-adressen til den oprindelige fane på den nye fane. Derved oprettes en ny session.   
+
+> [!NOTE]
+> Brug ikke funktionen **Dupliker** i browseren til at oprette den nye fane, da det kan medføre, at handlinger på en fane blokerer handlinger på andre faner, fordi de er en del af samme session.
 
 ## <a name="entering-quantities-by-calculation"></a>Angive mængder ved beregning
 

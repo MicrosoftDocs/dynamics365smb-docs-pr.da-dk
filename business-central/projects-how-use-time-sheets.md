@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0df593988b7db1f7f02a4c8868df448b8fb1bbc0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3bc9a348dba8b9265730dd2723b045a10809139b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312672"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191087"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Bruge timesedler for sager
 Du bruger kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Du skal have tilladelser for at kunne oprette timesedler.
@@ -144,7 +144,7 @@ Når du har bogført timesedler, kan du arkivere dem til fremtidig reference. Al
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Flyt timesedler til arkiv**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
-3. Hvis du vil gennemgå arkiverede timesedler, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arkiver for timesedler** eller **Arkiver for leders timesedler**, og vælg derefter det relaterede link.
+3. Hvis du vil gennemgå arkiverede timesedler, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Arkiver for timesedler** eller **Arkiver for leders timesedler** og derefter vælge det relaterede link.
 
 ## <a name="see-also"></a>Se også
 [Projektstyring](projects-manage-projects.md)  
