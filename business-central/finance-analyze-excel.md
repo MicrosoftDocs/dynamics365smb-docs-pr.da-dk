@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: d20dc2ba62a5b13042fe864963f1d483c383563f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952573"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183976"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysere regnskaber i Microsoft Excel
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se KPI'er og få vist en oversigt over virksomhedens økonomiske tilstand. Du kan også åbne lister i Excel og analysere dataene der. Men du kan også eksportere tunge regnskabsopgørelser, f.eks. balancen eller resultatopgørelsen, til Excel, analysere dataene og udskrive rapporterne.  
@@ -36,12 +36,12 @@ Lad os antage, at du vil lære mere om din pengestrøm. Du kan åbne rapporten P
 
 I Excel kan se du en fane, hvor dataene er opstillet for dig i det første regneark. De data, der blev eksporteret, findes også i andre regneark i de tilfælde, der er behov for. Du kan udskrive rapporten med det samme, eller du kan ændre den, indtil du har den oversigt og de oplysninger, du skal bruge. Brug tilføjelsesprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel til at filtrere og analysere data.  
 
-## <a name="the-included365finincludesd365fin_mdmd-excel-add-in"></a>Tilføjelsesprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel
+## <a name="the-d365fin-excel-add-in"></a>Tilføjelsesprogrammet [!INCLUDE[d365fin](includes/d365fin_md.md)] Excel
 Din [!INCLUDE[d365fin](includes/d365fin_md.md)]-oplevelse indeholder et tilføjelsesprogram til Excel. Afhængigt af dit abonnement er du logget på automatisk, eller du skal angive de samme login-oplysninger, du bruger til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Med tilføjelsesprogrammet kan du få nye data fra [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan overføre ændringerne tilbage i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Men muligheden for at sende data tilbage til databasen er deaktiveret for Excel-regnskabsrapporter på listen ovenfor.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

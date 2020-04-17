@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef36a7c26b6d0fafb272989ccfc77fc4e54bf9e4
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 62626d7ff081da64d64299cafb4b5e8c5483f182
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953607"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182488"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobilenhed
 Få adgang til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra din mobilenhed. Du kan navigere gennem virksomhedens data, og f.eks bruge funktioner som sende til Excel eller Office 365, se opdaterede diagrammer og nøgletal, sende mails med salgstilbud og fakturaer og vedhæfte billeder med kameraet. Benyt følgende fremgangsmåde til at downloade appen og komme i gang.
@@ -29,7 +29,7 @@ Få adgang til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra din mob
 
 Du skulle nu have adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)] og skulle kunne se og redigere data.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Introduktion](product-get-started.md)  

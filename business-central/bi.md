@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308329"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185992"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Firmaer opfanger en stor mængde data under de daglige aktiviteter. Disse data, som f.eks. afspejler organisationens salgstal, køb, driftsudgifter, medarbejderlønninger og budgetter, kan for beslutningstagere blive værdifulde oplysninger eller "business intelligence", dvs. forretningsindsigt. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en række funktioner, som kan være nyttige, når du skal indsamle, analysere og dele virksomhedens data.
@@ -37,6 +37,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette analysevisninger for at analysere data vha. dimensioner.|[Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)|
 |Oprette nye analyserapporter for salg, køb og lager og oprette analyseskabeloner.|[Oprette analyserapporter](bi-how-create-analysis-views-reports.md)|
 |Aktivere global finansiel rapportering til internationale revisionsfirmaer ved eXtensible Business Reporting Language.|[Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md)|
+|Rediger formål for adgang til databaser på rapporter, sider af typen API og forespørgsler for at reducere belastningen og forbedre ydeevnen.|[Administrere formål med adgang til database](admin-data-access-intent.md)|
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)    

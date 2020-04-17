@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 37dfdf4805e5d11f2ede11f8b0454407debe9940
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e45850539b84e2762d93140e47ae336f2ec6efda
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306960"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184888"
 ---
 # <a name="design-details-planning-parameters"></a>Designoplysninger: Planlægningsparametre
 I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -86,19 +86,19 @@ I nedenstående eksempler repræsenterer sorte pile eksisterende forsyning (op) 
 
 **Eksempel 1**: Den ændrede dato er uden for ændringsperioden, hvilket forårsager, at den eksisterende forsyning bliver annulleret. Der foreslås en ny forsyning til at dække behovet i akkumuleringsperioden for lot.  
 
-![Ændringsperiode og akkumuleringsperiode for lot](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Ændringsperiode og akkumuleringsperiode for lot")  
+![Ændringsperiode og Akkumuleringsperiode for lot](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Ændringsperiode og Akkumuleringsperiode for lot")  
 
 **Eksempel 2**: Den ændrede dato er inden for ændringsperioden, hvilket forårsager, at den eksisterende forsyning skal omplanlægges. Der foreslås en ny forsyning til at dække behovet uden for akkumuleringsperioden for lot.  
 
-![Ændringsperiode, akkumuleringsperiode for lot og omplanlæg](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Ændringsperiode, akkumuleringsperiode for lot og omplanlæg")  
+![Ændringsperiode, Akkumuleringsperiode for lot og ændring](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Ændringsperiode, Akkumuleringsperiode for lot og ændring")  
 
 **Eksempel 3**: Der er et behov i bufferperioden, og forsyningsantallet i akkumuleringsperioden for lot svarer til forsyningsantallet. Næste behov er uafdækket, og der foreslås en ny forsyning.  
 
-![Bufferperiode og akkumuleringsperiode for lot](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Bufferperiode og akkumuleringsperiode for lot")  
+![Bufferperiode og Akkumuleringsperiode for lot](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Bufferperiode og Akkumuleringsperiode for lot")  
 
 **Eksempel 4**: Der er et behov i bufferperioden, og forsyningen forbliver på samme dato. Den aktuelle forsyningsmængde er dog ikke nok til at dække efterspørgslen i akkumuleringsperioden for lot, så en handling, der skifter mængde af den eksisterende forsyningsordre, foreslås.  
 
-![Bufferperiode, Akkumuleringsperiode for lot og Ret antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Bufferperiode, Akkumuleringsperiode for lot og Ret antal")  
+![Bufferperiode, Akkumuleringsperiode for lot og Rediger antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Bufferperiode, Akkumuleringsperiode for lot og Rediger antal")  
 
 **Standardværdier:** Standardværdien for feltet **Interval** og de tre felter for genbestillingsperioden er tomme. For alle felter, undtagen feltet **Bufferperiode**, betyder det 0D (nul dage). Hvis feltet **Bufferperiode** er tomt, bruges den globale værdi i feltet **Standardbufferperiode** på siden **Produktionsopsætning**.  
 
@@ -116,5 +116,5 @@ Hvis indstillingen **Fremstil-til-ordre** bruges, vil planlægningssystemet anal
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
-[Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
+[Designoplysninger: Afstemning af behov og efterspørgsel](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)

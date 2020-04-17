@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e118ad07537cdaa0d6ed526ab8e91461cd430f08
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3fe943fd3c2925f1c80107e23b389cd09958a47b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303000"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184696"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designoplysninger: Søgning efter dimensionskombinationer
 Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!INCLUDE[d365fin](includes/d365fin_md.md)], om det redigerede sæt dimensioner findes. Hvis det ikke findes, oprettes der et nyt sæt, og dimensionens kombinations-ID returneres.  
@@ -26,7 +26,7 @@ Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!
 ### <a name="example-1"></a>Eksempel 1  
  I følgende diagram præsenteres et søgetræ med seks dimensionsgrupper. Kun den distinkte dimensionsopsætningspost vises i diagrammet.  
 
- ![Eksempel på træstruktur for dimension](media/nav2013_dimension_tree.png "Eksempel på træstruktur for dimension")  
+ ![Eksempel på dimensionstræstruktur](media/nav2013_dimension_tree.png "Eksempel på dimensionstræstruktur")  
 
  I følgende tabel beskrives en komplet liste over dimensionsgruppeposter, der udgør hver dimensionsgruppe.  
 
@@ -45,7 +45,7 @@ Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!
 
  Først opdaterer [!INCLUDE[d365fin](includes/d365fin_md.md)] også tabellen **Trænode for dimensionsgruppe** for at sikre, at søgetræet ligner følgende diagram. Dermed bliver dimensionsgruppe 7 underordnet dimensionsgruppe 5.  
 
- ![Eksempel på træstruktur for dimension i NAV 2013](media/nav2013_dimension_tree_example2.png "Eksempel på træstruktur for dimension i NAV 2013")  
+ ![Eksempel på dimensionstræstruktur i NAV 2013](media/nav2013_dimension_tree_example2.png "Eksempel på dimensionstræstruktur i NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Søgning efter dimensionsgruppe-id  
  På et konceptuelt niveau kombineres og bruges **Overordnet id**, **Dimension** og **Dimensionsværdi** i søgetræet som den primære nøgle, fordi [!INCLUDE[d365fin](includes/d365fin_md.md)] gennemgår træet i samme rækkefølge som dimensionsposterne. Funktionen GET (post) bruges til at søge efter dimensionsgruppe-id. Følgende kodeeksempel viser, hvordan du kan finde dimensionsgruppe-id, når der er tre dimensionsværdier.  

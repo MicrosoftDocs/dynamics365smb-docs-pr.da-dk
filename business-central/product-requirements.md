@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/17/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911235"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190079"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumkrav til brug af Business Central
 Før du åbner [!INCLUDE [prodshort](includes/prodshort.md)] online, anbefales det, at du kontrollerer, at din computer eller mobilenhed opfylder eller overstiger minimumsystemkravene til produktet. Denne artikel indeholder kravene.  
@@ -30,7 +30,7 @@ Før du åbner [!INCLUDE [prodshort](includes/prodshort.md)] online, anbefales d
 
 ### <a name="other-supported-browsers"></a>Andre understøttede browsere
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug med Internet Explorer 11 (build 11.0.9600.17239) til Windows 10 (32-bit og 64-bit versioner). Det anbefales, at du opgraderer til den seneste version af Internet Explorer, der understøttes af din version af Windows. 
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug med Internet Explorer 11 (build 11.0.9600.17239) til Windows 10 (32-bit og 64-bit versioner). Det anbefales, at du opgraderer til den seneste version af Internet Explorer, der understøttes af din version af Windows. Du kan også åbne den nye Edge-browser og stadig få adgang til websteder, der kræver Internet Explorer. Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Mobilenheder
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] til Windows kan installeres på enheder med mindst 1 GB RAM og Windows 10, Home, Pro, Enterprise eller Education (32-bit og 64-bit versioner).  

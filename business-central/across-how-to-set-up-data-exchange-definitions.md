@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: dfd06fce9aab0de6afb725ab4625138b62305a1a
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 44069b903df5426ae2aa3e851404c2b9e01f3979
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076778"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188176"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
@@ -139,7 +139,7 @@ Dette beskrives i følgende fremgangsmåder.
     |**Titel på målfelt**|Er kun synlig, når afkrydsningsfeltet **Brug som midlertidig tabel** er markeret.<br /><br /> Angiv det navn i feltet i måltabellen, som værdien i feltet **Kolonnetitel** er knyttet til, når du bruger en midlertidig tabel til dataimport.|  
     |**Eventuelt**|Er kun synlig, når afkrydsningsfeltet **Brug som midlertidig tabel** er markeret.<br /><br /> Angiv, om tilknytningen skal ignoreres, hvis feltet er tomt. Hvis du ikke markerer dette afkrydsningsfelt, opstår der en fejl i eksporten, hvis feltet er tomt.|  
 
-Dataudvekslingsdefinitionen er nu klar til at blive aktiveret for brugere. Du kan finde flere oplysninger i [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Opsætte SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md) og [Foretage indbetalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+Dataudvekslingsdefinitionen er nu klar til at blive aktiveret for brugere. Du kan få flere oplysninger i [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Opsætte SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md) og [Foretage indbetalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Transformationsregler
 Hvis værdierne i de felter, du tilknytter, er forskellige, skal du bruge transformationsregler til dataudvekslingsdefinitioner for at gøre dem ens. Du kan definere transformationsregler for dataudvekslingsdefinitioner ved at åbne en eksisterende definition eller oprette en ny definition og derefter i oversigtspanelet **Linjedefinitioner** vælge **Administrer** og derefter **Felttilknytning**. Der findes foruddefinerede regler, men du kan også oprette dine egne. I følgende tabel beskrives de typer af transformationer, du kan udføre.

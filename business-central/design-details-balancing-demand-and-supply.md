@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076408"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185704"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designoplysninger: Afstemning mellem behov og forsyning
 Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for at forstå, hvordan systemet fungerer, og de vigtigste er for at sikre, at:  
@@ -99,7 +99,7 @@ Under justering anser planlægningssystemet forsyning, der har serienumre/lotnum
 
 En anden grund til, at serie-/lotnummereret forsyning er ufleksibel er, at serie-/lotnumre generelt tildeles så sent i processen, at det ville være forvirrende, hvis der foreslås ændringer.  
 
-Afstemning af serienumre/lotnumre overholder ikke den [frosne Zone](design-details-dealing-with-orders-before-the-planning-starting-date.md). Hvis behov og forsyning ikke er synkroniseret, kan planlægningssystemet foreslå ændringer eller foreslå nye ordrer, uanset den planlagte startdato.  
+Afstemning af serienumre/lotnumre overholder ikke den *frosne zone*. Hvis behov og forsyning ikke er synkroniseret, kan planlægningssystemet foreslå ændringer eller foreslå nye ordrer, uanset den planlagte startdato.  
 
 ### <a name="order-to-order-links-are-never-broken"></a>Ordre-til-ordre-links er aldrig brudt  
 Ved planlægning af en ordre-til-ordre-vare må den tilknyttede forsyning ikke bruges til andre behov end det, den oprindeligt var tiltænkt. Sammenkædede behov bør ikke være dækket af andre tilfældige forsyninger, selv om den aktuelt er tilgængelig i tid og antal. En montageordre, der er knyttet til en salgsordre i et montage-til-ordre-scenarie, kan f.eks. ikke bruges til at dække andre behov.  
@@ -117,7 +117,7 @@ Denne udligning påvirker også timingen. Den begrænsede horisont, der er givet
 ### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Komponentbehov er indlæst i overensstemmelse med ændringer af produktionsordrer  
 Ved håndtering af produktionsordrer skal planlægningssystemet overvåge de nødvendige komponenter, før de indlæses i behovsprofilen. Komponentlinjer, der skyldes en ændret produktionsordre, erstatter dem fra den oprindelige ordre. Dette sikrer, at planlægningssystemet definerer, at planlægningslinjer for komponentbehov aldrig kopieres.  
 
-###  <a name="BKMK_SafetyStockMayBeConsumed"></a> Sikkerhedslager kan forbruges  
+###  <a name="safety-stock-may-be-consumed"></a><a name="BKMK_SafetyStockMayBeConsumed"></a> Sikkerhedslager kan forbruges  
 Sikkerhedslageret er primært en behovstype og indlæses derfor i lagerprofilen på planlægningens startdato.  
 
 Sikkerhedslager er et lagerantal, der er lagt til side for at kompensere for usikkerheden i behov under leveringstiden for genopfyldning. Det kan dog forbruges, hvis det er nødvendigt at tage fra det for at opfylde et behov. I dette tilfælde, vil planlægningssystemet sikre, at sikkerhedslageret hurtigt fyldes igen ved at foreslå en forsyningsordre den dag, hvor sikkerhedslageret opbruges. Denne planlægningslinje vil vise ikonet Undtagelsesadvarsel, som forklarer planlæggeren, at sikkerhedslageret er blevet helt eller delvist opbrugt ved brug af en undtagelsesordre for det manglende antal.  

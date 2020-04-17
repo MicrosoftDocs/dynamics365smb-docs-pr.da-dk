@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: df0956167908c214385b40e3ccb2f20a10d4458b
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910828"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187264"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
-Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne på siden SMTP-mailopsætning.
+Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne på siden **SMTP-mailopsætning**.
 
 I stedet for at angive detaljer om SMTP-serveren manuelt kan du bruge funktionen **Apply Office 365 Server-indstillinger**, der bruger oplysninger fra dit abonnement på Office 365.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 273da0c35e6c4ca376f38ceede1568f5df5b4b15
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9345c30b1419e49300746076c48c8d44e9d4a6d1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953079"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189935"
 ---
 # <a name="receive-items"></a>Modtage varer
 Når varer ankommer til et lagersted, der ikke er konfigureret til behandling af lagermodtagelser, skal du blot registrere modtagelsen på det relaterede forretningsbilag f.eks. en købsordre, en salgsreturvareordre eller en indgående overflytningsordre.
@@ -28,8 +28,14 @@ Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsv
 2. Åbn en eksisterende købsordre eller opret en ny. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 3. Angiv det modtagne antal i feltet **Modtag (antal)**.
 
-    Værdien i feltet **Modtaget antal** opdateres. Hvis det er en delvis modtagelse, er værdien lavere end værdien i feltet **Antal**.
+  > [!NOTE]
+  > Hvis det modtagne antal er større end det, der er bestilt på købsordren ifølge feltet **Antal**, og kreditoren må tillade overmodtagelser, skal du bruge feltet **Overmodtagelse** øverst for at håndtere mere end det maksimale antal. Du kan finde flere oplysninger i [Sådan modtager du flere varer end det bestilte antal](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
 4. Vælg handlingen **Bogfør**.
+
+  Værdien i feltet **Modtaget antal** opdateres. Hvis det er en delvis modtagelse, er værdien lavere end værdien i feltet **Antal**.
+
+> [!NOTE]
+> Hvis du bruger et lagerdokument til at bogføre modtagelsen, kan du ikke bruge handlingen **Bogfør** i købsordren. I stedet har en lagermedarbejder allerede bogført antallet på købsordren som modtaget. Du kan finde flere oplysninger i [Sådan modtages varer med en lagermodtagelse](warehouse-how-receive-items.md#to-receive-items-with-a-warehouse-receipt).
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Sådan modtages varer med en lagermodtagelse
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelse**, og vælg derefter det relaterede link.  
@@ -40,7 +46,7 @@ Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsv
     I forbindelse med lageropsætning med styret læg-på-lager og pluk: Hvis der på lokationen er en standardzone og -placering til modtagelser, udfyldes felterne **Zonekode** og **Placeringskode** automatisk, men du kan ændre dem efter behov.  
 
     > [!NOTE]  
-    >  Hvis du vil modtage varer med en anden lagerklassekode end placeringens klassekode i feltet **Placeringskode** i dokumenthovedet, skal du slette indholdet i feltet **Placeringskode** i hovedet, inden du henter kildedokumentlinjerne for varerne.  
+    > Hvis du vil modtage varer med en anden lagerklassekode end placeringens klassekode i feltet **Placeringskode** i dokumenthovedet, skal du slette indholdet i feltet **Placeringskode** i hovedet, inden du henter kildedokumentlinjerne for varerne.  
 3.  Vælg handlingen **Hent kildedokumenter**. Siden **Kildedokumenter** åbnes.
 
     Fra en ny eller en åben lagermodtagelse kan du bruge siden **Filtre til at hente kildedok.** til at hente de frigivne kildedokumentlinjer, der definerer, hvilke varer der skal modtages eller leveres.
@@ -73,9 +79,45 @@ Hvis du ikke bruger læg-på-lager, men placeringer, registreres varernes læg-p
 > [!NOTE]  
 >  Hvis du bruger funktionen **Bogfør og udskriv**, bogfører du både modtagelsen og udskriver en læg-på-lager-instruktion, der viser, hvor du vil lægge varerne på plads i lageret.  
 >   
->  Hvis din lokation bruger styret læg-på-lager og pluk, anvendes læg-på-lager-skabelonen til at beregne den bedste placering for varerne. Dette udskrives på læg-på-lager-instruktionen.  
+>  Hvis din lokation bruger styret læg-på-lager og pluk, anvendes læg-på-lager-skabelonen til at beregne den bedste placering for varerne. Dette udskrives på læg-på-lager-instruktionen.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesreceive-invoice-dynamics-d365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
+## <a name="to-receive-more-items-than-ordered"></a>Sådan modtager du flere varer end det bestilte antal
+Når du modtager flere varer, end du har bestilt, kan det være en god idé at modtage dem i stedet for at annullere modtagelsen. Det kan f.eks. være billigere at lade de overskydende varer indgå i lagerbeholdningen frem for at returnere dem, eller også kan leverandøren måske tilbyde en rabat mod, at du beholder dem.
+
+### <a name="to-set-up-over-receipts"></a>Sådan konfigureres overmodtagelser
+Du skal angive en procentdel,, som gør det muligt at overskride det bestilte antal ved modtagelse. Du kan definere dette under en overmodtagelseskode, som indeholder procentdelen i feltet **Tolerance-% for overmodtagelse**. Derefter tildeler du koden til kortene for de relevante varer og/eller kreditorer.  
+
+Følgende afsnit handler om, hvordan du opretter og tildeler en overmodtagelseskode til en vare. Trinene er de samme for en kreditor.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+2. Åbn kortet for en vare, som du har mistanke om kan blive leveret med et højere antal end det bestilte.
+2. Klik på søgeknappen i feltet **Overmodtagelseskode**.
+3. Vælg handlingen **Ny**.
+4. På siden **Overmodtagelseskoder** kan du oprette en eller flere nye linjer, der definerer forskellige politikker for overmodtagelse. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+5. Vælg en linje, og tryk på **OK**.
+
+Overmodtagelseskoden knyttes til varen. En købsordre eller lagermodtagelse for varen giver nu mulighed for at modtage mere end det bestilte antal i henhold til den angivne toleranceprocent for overlevering.
+
+> [!NOTE]
+> Du kan oprette en godkendelsesproces for at kræve, at overmodtagelser skal godkendes, før de kan behandles. Hvis det er tilfældet, skal du markere afkrydsningsfeltet **Godkendelse kræves** på siden **Overmodtagelseskoder**. Et dedikeret arbejdsgangssvar, **Godkend overmodtagelse** er angivet i standard-procesdataene til dette formål. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).
+
+### <a name="to-perform-an-over-receipt"></a>Sådan udføres en overmodtagelse
+På købslinjer og lagermodtagelseslinjer bruges feltet **Overmodtagelsesantal** til at registrere overmodtagne mængder, dvs. mængder, der overstiger værdien i feltet **Antal**, det bestilte antal.
+
+Når du håndterer en overmodtagelse, kan du enten øge værdien i feltet **Modtag (antal)** til det faktisk modtagne antal. Feltet **Overmodtagelsesantal** opdateres derefter, så det overskydende antal vises. Du kan også angive det overskydende antal i feltet **Overmodtagelsesantal**. Feltet **Modtag (antal)** opdateres derefter, så det bestilte antal plus det overskydende antal vises. Følgende fremgangsmåde beskriver, hvordan du udfylder feltet **Modtag (antal)**.  
+
+1. På en købsordre eller et lagermodtagelsesdokument, hvor det modtagne antal er højere end det bestilte, skal du angive det faktisk modtagne antal i feltet **Modtag (antal)**.
+
+    Hvis stigningen ligger inden for den tolerance, der er angivet i overmodtagelseskoden, opdateres feltet **Overmodtagelsesantal**, så det viser det antal, der angiver, hvilken værdi i feltet **Antal**, der overskrides.
+
+    Hvis forøgelsen er større end den angivne tolerance, er overmodtagelse ikke tilladt. Hvis det er tilfældet, kan du undersøge, om der findes en anden overmodtagelseskode, der tillader det. Ellers er det kun det bestilte antal, der kan modtages, og overskydende antal skal håndteres på en anden måde, f. eks. ved at returnere den til leverandøren.
+
+2. Bogfør modtagelsen ligesom enhver anden modtagelse.
+
+> [!NOTE]
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder ikke funktioner til automatisk start af den økonomiske administration af overmodtagelser. Du skal håndtere dette manuelt efter aftale med leverandøren, f. eks. ved at leverandøren videresender en ny eller opdateret faktura.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  

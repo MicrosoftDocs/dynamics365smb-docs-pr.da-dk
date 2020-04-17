@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f295ab10d30f5a22f924ec3ad76548375f929b7c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 043ebc240b2e7108c88e78c4504dfaffbe21de53
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315440"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189767"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Udvidelsen PayPal Payments Standard
 Kunder kræver hele tiden bedre kundeservice, både med hensyn til produkternes kvalitet, men også med hensyn til leverings- og betalingsindstillinger. Tjenesten PayPal Payments Standard hjælper dig med at øge din kundeservice.

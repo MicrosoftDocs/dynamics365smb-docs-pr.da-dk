@@ -1,7 +1,6 @@
 ---
 title: Periodisere indtægter og udgifter | Microsoft Docs
 description: For at genkende indtægter og udgifter i perioder ud over den periode, hvor transaktionen blev bogført, kan du automatisk periodisere eller udskyde dem inden for et angivet skema.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6fab25e6f8a3e840dd0b40f616b2a21abe13a9ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0b94dfe59d8d75e8371bcb02c7c306eaa187f8a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302303"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183688"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisere indtægter og udgifter
 For at genkende en indtægt eller udgift i en periode ud over den periode, hvor transaktionen blev bogført, kan du bruge funktionen til automatisk periodisering af indtægter og udgifter inden for et angivet skema.
@@ -54,7 +53,9 @@ For begge typer periodisering skal du vælge **Balance** i feltet **Type**, og n
 Eksempel: Bogføringsdatoen er 06-02-2016. Hvis du angiver "Udgifter udskudt for %4 %6", vil den viste beskrivelse være "Udgifter udskudt for februar 2016".
 
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Sådan tildeles en periodiseringsskabelon til en vare
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Periodiseringsskabeloner**, og vælg derefter det relaterede link.
+> [!NOTE]  
+>   Trinnene i denne procedure er de samme, som når du knytter en periodiseringsskabelon til en finanskonto eller en ressource.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Vare**, og vælg derefter det relaterede link.
 2. Åbn kortet for den vare, for hvilken indtægter eller udgifter skal udskydes til de regnskabsperioder, hvor varen blev solgt eller købt.
 3. I feltet **Standardperiodiseringsskabelon** skal du vælge den relevante periodiseringsskabelon.
 

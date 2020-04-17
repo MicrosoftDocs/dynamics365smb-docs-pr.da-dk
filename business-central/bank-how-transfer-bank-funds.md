@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 12/13/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3618ad87377ebc47f183292207d2f25dc6c3ed34
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: a21cabaf2f3edc9e8f1f261a9f9169c3cb611b61
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910416"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186208"
 ---
 # <a name="transfer-bank-funds"></a>Overføre bankbeløb
 Undertiden kan du have brug for at overføre et beløb fra én bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] til en anden. Hvis du vil gøre dette, skal du bogføre på en transaktion på siden **Finanskladde**. Opgaven afhænger af, om bankkontiene bruger samme valuta eller forskellige valutaer.

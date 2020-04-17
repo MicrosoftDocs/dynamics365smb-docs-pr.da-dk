@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 54ff8fe435012d1a6f00c70540f8dfccdc5901bc
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 352ebe98ee15547a16365901134b6dd198dc74c2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952862"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187792"
 ---
 # <a name="incoming-documents"></a>Indgående bilag
 Nogle forretningstransaktioner registreres ikke i [!INCLUDE[d365fin](includes/d365fin_md.md)] fra begyndelsen. I stedet sendes et eksternt forretningsdokument til din virksomhed som en vedhæftet fil i mail eller som en papirkopi, som du indscanne i en fil. Dette er typisk for køb, hvor sådanne indgående bilagsfiler repræsenterer betalingskvitteringer for udgifter eller mindre køb.
@@ -44,7 +44,7 @@ Det indgående bilag kan bestå af følgende primære aktiviteter:
 | Konfigurer funktionen indgående bilag og oprette OCR tjenesten. |[Konfigurere indgående bilag](across-how-setup-income-documents.md) |
 | Opret indgående bilagsposter, tilknyt filer, brug OCR til at omdanne PDF-filer til elektroniske dokumenter, konverter elektroniske dokumenter til bilagsposter, overvåg bogførte salgs- og købsdokumenter fra indgående bilagsposter. |[Behandle indgående bilag](across-process-income-documents.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesincoming-documents-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  

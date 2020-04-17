@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303504"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185152"
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
 Når du bogfører en lagertransaktion, registreres antalsbogføringen i vareposterne og værdibogføringen i værdiposterne. Du kan finde flere oplysninger i [Designoplysninger: Varekladde](design-details-inventory-posting.md).  
@@ -189,7 +189,7 @@ Følgende tabel viser effekten af præcis kostprisudligning i værdiposterne for
 Når du udfører kørslen **Juster kostpris - vareposter**, videreføres de forøgede omkostninger på købsposten på grund af varegebyret til salgsposten (løbenummer 2). Salgsposten overfører derefter denne forøgede omkostning til salgskreditposten (løbenummer 3). Det endelige resultat er, at omkostningerne er tilbageført korrekt.  
 
 > [!NOTE]  
->  Hvis du arbejder med returvareordrer eller kreditnotaer, og du har indstillet feltet **Obl. beløbstilbageførsel** på enten siden **Købsopsætning** eller siden **Salgsopsætning**, som det nu er relevant for dig, udfylder [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk disse felter, når du bruger funktionen **Kopiér dokument**. Hvis du bruger funktionen **Hent bogførte bilagslinjer**, udfyldes felterne altid automatisk.  
+>  Hvis du arbejder med returvareordrer eller kreditnotaer, og du har indstillet feltet **Obl. beløbstilbageførsel** på enten siden **Købsopsætning** eller siden **Salgsopsætning**, som det nu er relevant for dig, udfylder [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk disse felter, når du bruger funktionen **Kopiér fra dokument**. Hvis du bruger funktionen **Hent bogførte bilagslinjer**, udfyldes felterne altid automatisk.  
 
 > [!NOTE]  
 >  Hvis du bogfører en transaktion med en fast udligning, og den varepost, du udligner, er lukket, dvs. restantallet er nul, annulleres den gamle udligning automatisk, og derefter udlignes vareposten igen med den faste udligning, du har angivet.  

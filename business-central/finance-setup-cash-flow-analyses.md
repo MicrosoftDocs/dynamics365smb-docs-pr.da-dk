@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc2bd353a80bf72f8bb9a0d282bec7c216fc0fa
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 7ac0630857eb775a904e2bbf5d4a21a89efb73c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953703"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182800"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
 Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide midler, kan du få et overblik vha. diagrammerne i rollecenteret Regnskabsmedarbejder:  
@@ -30,7 +30,7 @@ Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide mid
 Dette emne beskriver, hvor data i diagrammerne kommer fra, og om nødvendigt, hvad du skal gøre for at begynde at bruge diagrammerne.  
 <br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Diagrammerne Kassebeholdningsproces og Indtægter og udgifter
 Diagrammere **Kassebeholdningsproces** og **Indtægter og udgifter** er klar til brug, baseret på kontoplanen og kontoskemaer. Kontiene er, hvor dataene kommer fra, og kontoskemaer beregner forholdet mellem salg og tilgodehavender. Der findes allerede nogle konti og kontoskemaer. Du kan bruge dem, som der er, ændre dem og tilføje nye. Hvis du tilføjer finanskonti i kontoplanen, f.eks. ved at importere dem fra QuickBooks, skal du oprette en tilknytning til kontiene på siden **Kontoskemaer** for følgende kontoskemanavne:  
@@ -61,7 +61,7 @@ Du konfigurerer dem ved at søge efter **pengestrømskonti**, vælge linket og d
 ## <a name="set-up-cash-flow-forecasts"></a>Konfigurere pengestrømsprognoser
 Diagrammet **Pengestrømsprognose** bruger pengestrømskonti, pengestrømsopsætninger og pengestrømsbudgetter. Nogle får du leveret, men du kan oprette dine egne ved hjælp af en assisteret opsætningsvejledning. Vejledningen hjælper dig med f.eks. at angive, hvor ofte prognosen skal opdateres, de konti, den skal baseres på, oplysninger om, hvornår du betaler skatter, og om du skal aktivere [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
-Pengestrømsprognoser kan bruge Azure AI til at medtage dokumenter med forfaldsdato i fremtiden. Resultatet er en mere omfattende forudsigelse. Forbindelsen til Azure AI allerede konfigureret for dig. Du skal blot aktivere den. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], vises en meddelelse i en blå linje med et link til standardpengestrømsopsætningen. Meddelelsen vises kun én gang. Hvis du lukker den, men beslutter at aktivere Azure AI, kan du bruge den assisterende opsætningsvejledning eller en manuel fremgangsmåde.  
+Pengestrømsprognoser kan bruge Azure AI til at forudsige fremtidige dokumenter. Resultatet er en mere omfattende prognose. Forbindelsen til Azure AI allerede konfigureret for dig. Du skal blot aktivere den. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], vises en meddelelse i en blå linje med et link til standardpengestrømsopsætningen. Meddelelsen vises kun én gang. Hvis du lukker den, men beslutter at aktivere Azure AI, kan du bruge den assisterende opsætningsvejledning eller en manuel fremgangsmåde.  
 
 > [!NOTE]  
 >   Du kan også vælge at bruge din egen prognosewebtjeneste. Du kan finde flere oplysninger i [Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser](#AnchorText).  
@@ -83,7 +83,39 @@ Sådan bruges en manuel proces:
 > [!TIP]  
 >   Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Azure AI ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  
 
-## <a name="AnchorText"> </a>Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser.
+## <a name="design-details"></a>Designoplysninger
+Abonnementer på [!INCLUDE[d365fin](includes/d365fin_md.md)] giver adgang til flere prognosewebtjenester i alle områder, hvor [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængelig. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
+
+Disse webtjenester har ingen status, hvilket betyder, at de kun bruger data til at beregne forudsigelser efter behov. De gemmer ikke data.
+
+> [!NOTE]  
+>   Du kan bruge din egen prognosewebtjeneste. Du kan finde flere oplysninger i [Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser](#AnchorText). 
+
+### <a name="data-required-for-forecast"></a>Data, der kræves i forbindelse med prognoser
+Webtjenester kræver historiske data fra tilgodehavender, skyldige beløb og skat for at udarbejde prognoser om fremtidige indtægter og udgifter.
+
+#### <a name="receivables"></a>Tilgodehavender:
+Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Debitorposter**, hvor:
+- Dokumenttypen er faktura eller kreditnota.
+- Forfaldsdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Pengestrømskonfiguration** og arbejdsdatoen.
+
+Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
+
+#### <a name="payables"></a>Skyldige beløb:
+Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Kreditorposter**, hvor:
+- Dokumenttypen er "Faktura" eller "Kreditnota".
+- Forfaldsdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Pengestrømskonfiguration** og arbejdsdatoen.
+
+Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
+
+#### <a name="tax"></a>Skat:
+Felterne **Dokumentdato** og **Beløb** på siden **Momsvareposter (skat)**, hvor:
+- Dokumenttypen er "salg".
+- Dokumentdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Pengestrømskonfiguration** og arbejdsdatoen.
+
+Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Dokumentdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
+
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser.
 Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel til Microsoft Business Central**. Denne prognosemodel er tilgængelig online i Azure AI-galleriet. Sådan bruges modellen:  
 
 1. Åbn en webbrowser, og gå til [Azure AI-galleriet](https://go.microsoft.com/fwlink/?linkid=828352).  
@@ -94,7 +126,7 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af pengestrøm**, og vælg derefter det relaterede link.  
 7. Udvid oversigtspanelet **Azure AI**, og udfyld derefter felterne.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  

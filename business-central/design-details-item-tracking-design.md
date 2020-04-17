@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6065c90035ec644de3557ebb04047092972f1542
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cda50dc7c3a0377c36f7bce4eca9c1c5cb5b093e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303288"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185056"
 ---
 # <a name="design-details-item-tracking-design"></a>Designoplysninger: Design af varesporing
 I den første version af Varesporing i [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 er serie- eller lotnumre registreret direkte i vareposter. Dette design leverede komplette tilgængelighedsoplysninger og simpel sporing af historiske poster, men det manglede fleksibilitet og funktionalitet.  
@@ -30,7 +30,7 @@ Med tilføjelsen af serie- eller lotnumre håndterer reservationssystemet perman
 
 I følgende diagram beskrives udformningen af varesporingsfunktionen i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-![Eksempel på varesporingsflow](media/design_details_item_tracking_design.png "Eksempel på varesporingsflow")  
+![Eksempel på flow for varesporing](media/design_details_item_tracking_design.png "Eksempel på flow for varesporing")  
 
 Objektet til central bogføring er ændret for at håndtere entydig underklassifikation af en bilagslinje i form af serie- eller lotnumre, og særlige relationstabeller er tilføjet for at oprette en-til-mange-relationer mellem bogførte dokumenter og deres opdelte vareposter og værdiposter.  
 

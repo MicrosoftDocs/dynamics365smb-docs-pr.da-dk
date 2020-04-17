@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 01/25/2020
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: fc7a0c6f750958cb35b2a85ed9d548f2e8219484
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991900"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182320"
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
@@ -43,7 +43,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver tilgængelighedstal typisk 
 Du får vist tilgængeligheden for en vare i overensstemmelse med planlagte varetransaktioner på siden **Disponering pr. hændelse**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
-2. Åbn kortet for en vare, som du vil have vist tilgængeligheden for.
+2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Hændelse**.
 
     Siden **Varedisponering pr. hændelse** viser, hvordan lagerantallet for varen udvikler sig over tid i overensstemmelse med planlagt levering og modtagelse. Siden giver en komprimeret visning, der viser én linje med akkumulerede oplysninger pr. tidsinterval, hvor lagermængderne ændres. Tidsintervaller, hvor der ikke opstod nogen begivenheder, vises ikke. Du kan udvide hver linje for at få vist detaljer om den eller de begivenheder, der forårsagede det akkumulerede antal på linjen.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bd82b37992a7664df1a85f7f5734e79a1e7c233e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300613"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188760"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Få vist lister på forskellige måder
 I højre hjørne af en vilkårlig liste i [!INCLUDE[d365fin](includes/d365fin_md.md)] findes ikoner, som du kan bruge til at vælge, hvordan listen med poster skal vises. En liste kan vises som detaljerede rækker, hvilket er ideelt, når du skal arbejde med mange felter eller redigere felter på listen. Men du kan også vælge at få vist poster som felter, hvilket er mere kompakt og viser færre felter i den pågældende post. Dette er nyttigt, når du vil have et overblik over flere poster, og er især nyttig på mindre enheder, fordi visningen er kompakt, og det er nemmere at trykke på posterne.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 00aef090b99ee41962ed59fd6050b6f17be77ed5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: db3d7dd3b7efdd10aa22e3aa4ca0ff445428bbd2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305064"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187960"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Føje bemærkninger til kort og dokumenter
 Du kan føje ekstra oplysninger til finanskonti, debitorkort eller salgsordrer for at kommunikere forventninger eller særaftaler til andre brugere.

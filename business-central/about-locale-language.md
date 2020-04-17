@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/22/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 2d98f433acbe5905d9807bf7e7ded8708ed22d3b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692700"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189017"
 ---
 # <a name="changing-language-and-locale"></a>Ændre sprog og landestandard
 
@@ -44,7 +44,7 @@ Du kan ændre landestandarden ved at gå til siden **Mine indstillinger**. Du ka
 
 Du kan kontrollere, hvilken version af [!INCLUDE [prodshort](includes/prodshort.md)] din virksomhed er baseret på, på siden **Hjælp og support**. Hvis du vil basere en virksomhed på en anden version, kan administratoren oprette et nyt produktionsmiljø. Du kan finde flere oplysninger i [Oprette et nyt produktionsmiljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i Indhold til udviklere og it-eksperter.  
 
-## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Sprog i [!INCLUDE[d365fin](includes/d365fin_md.md)] Hjælp
+## <a name="languages-of-the-d365fin-help"></a>Sprog i [!INCLUDE[d365fin](includes/d365fin_md.md)] Hjælp
 Indholdet af Hjælp til den grundlæggende funktionalitet i [!INCLUDE[d365fin](includes/d365fin_md.md)] udgives til webstedet Microsoft Docs og findes på en række forskellige sprog. Hvis du åbner dokumenter fra [!INCLUDE[d365fin](includes/d365fin_md.md)], vises indholdet på dit eget sprog. Hvis en bestemt side ikke endnu er tilgængelig på dit eget sprog, vises den på engelsk.
 
 ### <a name="how-do-i-change-the-language"></a>Hvordan kan jeg ændre sproget?

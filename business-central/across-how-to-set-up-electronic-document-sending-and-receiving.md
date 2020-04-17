@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 94f3a735887d4af23b3ec27ffb04e874dbc1924c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 198200c4a2f595f642d03255f3b6f03c23ce3a47
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952910"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188128"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurere afsendelse og modtagelse af elektroniske dokumenter
 Som et alternativ til at sende vedhæftede filer i en mail, kan du sende og modtage forretningsdokumenter elektronisk. Med et elektronisk dokumentet menes en standard\-kompatibel fil, der repræsenterer et forretningsdokument, f.eks en faktura fra en kreditor, som kan modtages og konverteres til en købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Udvekslingen af elektroniske forretningsdokumenter mellem to handelspartnere udføres af en ekstern udbyder af dokumentudvekslingstjenester. Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter afsendelse og modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. En større udbyder af dokumentudvekslingstjenester er forudkonfigureret og klar til at blive konfigureret til din virksomhed.  
@@ -136,7 +136,7 @@ Emnet indeholder følgende procedurer:
     |---------------------------------|---------------------------------------|  
     |**Finanskonto til ikke-varelinjer**|Angiver den finanskonto, der indsættes automatisk på indkøbslinjer, der er oprettet fra elektroniske dokumenter, når den indgående bilagslinje ikke indeholder en vare, der kan identificeres. En indgående bilagslinje, der ikke har en GTIN eller kreditors varenummer, konverteres til en købslinje af typen **Finanskonto**, og feltet **Nr.** på købslinjen vil indeholde den konto, som du vælger i feltet **Finanskonto til ikke-varelinjer**.<br /><br /> Hvis du lader feltet **Finanskonto til ikke-varelinjer** stå tomt, og det indgående bilag indeholder linjer uden identificerbare varer, bliver indkøbsdokumentet ikke oprettet. En fejlmeddelelse beder dig om at udfylde feltet **Finanskonto til ikke-varelinjer**, inden du kan udføre opgaven.|  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også  
 [Udveksle data elektronisk](across-data-exchange.md)   

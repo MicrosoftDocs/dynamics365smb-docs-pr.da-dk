@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 57e0bef687225ff6a510aa54ec1c5c938ea96ab4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554250"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184288"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Angive generelle oplysninger om anlægsaktiver
 Før du kan administrere anlægsaktiver, skal du oprette standardfinanskonti, allokeringsnøgler, kladdetyper og -navne for bogføring og ompostering af anlægsaktiver, og du kan klassificere anlægsaktiver i arter, f.eks materielle og immaterielle.
@@ -91,7 +91,7 @@ Du kan bruge anlægsgruppekoder til at gruppere anlægsaktiver i kategorier, f.e
 ## <a name="to-set-up-fixed-asset-location-codes"></a>Sådan angives anlægslokationskoder
 Du kan bruge anlægslokationskoder til at registrere anlæggets lokation, f.eks. salgsafdelingen, receptionen, administrationen, produktionen eller lagerstedet. Disse oplysninger er nyttige i forbindelse med forsikring og lagerstedet.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægslokationer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægslokationer**, og vælg dernæst det relaterede link.
 2. Angiv koder og navne for de anlægslokationer, du vil oprette.
 
 ## <a name="to-register-opening-entries"></a>Sådan registreres åbningsposter
@@ -118,7 +118,7 @@ Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[d365fin](includes
 Hvis anlægsaktiverne ikke er integreret med finansposterne, skal du springe trin 6 og 8 over.
 
 ## <a name="see-also"></a>Se også
-[Opsætning af anlægsaktiver](fa-setup.md)  
+[Opsætning af Anlægsaktiver](fa-setup.md)  
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  

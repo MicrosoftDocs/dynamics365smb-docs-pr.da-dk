@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991852"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184024"
 ---
-# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Revisoroplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-d365fin_long"></a>Revisoroplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Enhver virksomhed skal føre regnskab og godkende det. Nogle virksomheder benytter en ekstern revisor, mens andre har kvalificerede regnskabsmedarbejdere. Uanset hvilken model du benytter, kan du bruge rollecenteret **Regnskabsmedarbejder** som din startside i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Herfra kan du få adgang til alle sider, du skal bruge i dit arbejde.  
 
 ## <a name="accountant-role-center"></a>Rollecenteret Regnskabsmedarbejder
@@ -25,7 +25,7 @@ Rollecenteret er et dashboard med aktivitetsfelter, der viser nøgletal i realti
 
 Hvis du ikke kender [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åbne en liste over videoer direkte fra dit rollecenter. Du kan også starte en guide, som f.eks. **Introduktion**, der udpeger vigtige områder.  
 
-## <a name="inviteaccountant"></a>Inviter din eksterne revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Inviter din eksterne revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnskabsaflæggelse, kan din administrator invitere ham eller hende indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)], så de kan samarbejde med dig om dine regnskabsdata. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder tre licenser af typen Ekstern revisor. Du kan finde flere oplysninger om licenser i [Licensvejledning til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Når din revisor har fået adgang til dit [!INCLUDE[d365fin](includes/d365fin_md.md)], kan han eller hun bruge rollecenteret **Regnskabsmedarbejder**, der giver nem adgang til de mest relevante sider for deres arbejde.  
@@ -61,7 +61,7 @@ Hvis din administrator eller videresalgspartner ikke vil bruge guiden **Inviter 
 
 Derefter skal du tildele den nye gæstebruger en licens til [!INCLUDE [prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-include-prodshortincludesprodshortmd"></a>Sådan giver du din revisor adgang til [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Sådan giver du din revisor adgang til [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. Gå til Azure-portalen, og vælg **Profil**og derefter **Rediger** på den bruger, der netop er tilføjet.
 2. Opdater feltet **Brugsplacering** til det relevante land, og vælg derefter **Gem.**
@@ -73,7 +73,7 @@ Derefter skal du tildele den nye gæstebruger en licens til [!INCLUDE [prodshort
 
 Hvis det lykkes, tildeles licensen til gæstebrugeren, og gæstekontoen oprettes.
 
-### <a name="importing-the-new-user-into-include-prodshortincludesprodshortmd"></a>Import af den nye bruger til [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Import af den nye bruger til [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Revisoren modtager en e-mail, der giver vedkommende besked om, at han eller hun har fået adgang til dit Active Directory. Derefter skal du give vedkommende adgang til den rigtige virksomhed i [!INCLUDE [prodshort](includes/prodshort.md)].
 
@@ -83,7 +83,7 @@ Revisoren modtager en e-mail, der giver vedkommende besked om, at han eller hun 
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Hent nye brugere fra Office 365**.
 
-Denne importerer den brugerkonto, som du oprettede på Azure-portalen, til virksomheden. Du kan finde flere oplysninger under [Sådan tilføjes en bruger i Business Central](ui-how-users-permissions.md#to-add-a-user-in-business-central).  
+Denne importerer den brugerkonto, som du oprettede på Azure-portalen, til virksomheden. Du kan finde flere oplysninger under [Sådan tilføjes en bruger i Business Central](ui-how-users-permissions.md#adduser).  
 
 Hvis du vil give adgang til flere virksomheder, skal du logge ind på hver virksomhed og gentage denne proces. Alternativt kan du opdatere rettighedsgrupperne for revisorens brugerprofil i [!INCLUDE [prodshort](includes/prodshort.md)], f.eks. ved at tildele dem *D365 Bus Premium*-brugergruppen. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 

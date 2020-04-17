@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9432436aa3adbc0723be4a5a042e35ef90f88d04
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0052b0995e295c0adba7daa9f0ab674d174ec7fc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305088"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188056"
 ---
 # <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
 Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en person i organisationen, sendes en godkendelsesanmodning som en del af en arbejdsgang. Afhængigt af hvordan arbejdsgangen er konfigureret, får den relevante godkender derefter besked om, at posten kræver godkendelse.
@@ -31,7 +31,7 @@ Grundlæggende godkendelsesworkflows for købsdokumenter, salgsdokumenter, udbet
 Følgende opgave udføres af en godkendelsesbruger.
 
 1. På siden, hvor posten vises, kan du vælge handlingen **Send godkendelsesanmodning**.
-2. For at få vist alle dine godkendelsesanmodninger skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Godkendelsesanmodningsposter** og derefter vælge det relaterede link.  
+2. For at få vist alle dine godkendelsesanmodninger skal du vælge ![ikonet Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Godkendelsesanmodningsposter** og derefter vælge det relaterede link.  
 
 Godkendelsespostens status opdateres fra **Oprettet** til **Åben**. Postens status, f.eks. en købsfaktura, opdateres fra **Åben** til **Afventer godkendelse** og forbliver låst mod behandling, indtil alle godkendere har godkendt posten.
 

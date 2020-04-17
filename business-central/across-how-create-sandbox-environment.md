@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/10/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7d189ab6fa5aff518b643c797b7600570fcad43e
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 59b659ca458e6cfe7c13ef5094dbbf80a144c369
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910632"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188560"
 ---
-# <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Opret et sandkassemiljø i [!INCLUDE [prodshort](includes/prodshort.md)]
+# <a name="creating-a-sandbox-environment-in-prodshort"></a>Opret et sandkassemiljø i [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Med [!INCLUDE [prodshort](includes/prodshort.md)] kan du nemt oprette et sikkert miljø, hvor du kan teste, træne eller foretage fejlfinding uden at forstyrre virksomhedens arbejdsprocesser eller forretningsdata. Et sådant ikke-produktionsmiljø kaldes en *sandkasse*. Isoleret fra produktion er et sandkassemiljø stedet, hvor du sikkert kan udforske, lære, demonstrere, udvikle og teste tjenesten uden risiko for at påvirke data og indstillinger i dit produktionsmiljø.  
 
@@ -26,7 +26,7 @@ Administratoren kan oprette sandkassemiljøer i [Administrationscenter](/dynamic
 > [!NOTE]
 > Teknisk set er sandkassemiljøer meget forskellige fra produktionsmiljøer, selvom administratoren opretter en sandkasse, som inkluderer produktionsdata. Du kan ikke bruge en sandkasse til benchmarking, og du kan f.eks. ikke anmode om at eksportere databaser. Hvis du vil oprette en sandkasse til benchmarking, kan administratoren oprette et dedikeret produktionsmiljø i Administrationscenter. Du kan finde flere oplysninger i [Miljøtyper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
 
-## <a name="to-create-a-sandbox-environment-in-your-include-prodshortincludesprodshortmd"></a>Sådan opretter du et sandkassemiljø i din [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Sådan opretter du et sandkassemiljø i din [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. Log ind på din produktionsforekomst af [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

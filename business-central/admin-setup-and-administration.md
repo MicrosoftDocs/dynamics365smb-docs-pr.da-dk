@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/30/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f71c3fa29ab12c13395c07d5919fc14e86511e75
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 9094d2f77dff8372ece8bd5a5b434f63042d3adc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999683"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186640"
 ---
 # <a name="administration"></a>Opsætning
 Centrale administrationsopgaver udføres som regel af én rolle i firmaet. Omfanget af disse opgaver kan afhænge af firmaets størrelse og administratorens jobansvar. Disse opgaver kan omfatte styring af databasesynkronisering af job og e-mail-køer, oprettelse af brugere og tilpasning af brugergrænsefladen.  
@@ -36,6 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Angiv, hvem der kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], ved at oprette brugere i Microsoft 365 Administration i henhold til produktlicenserne.|[Oprette brugere i henhold til licenser](ui-how-users-permissions.md)|
 |Tildele tilladelser til brugere, ændre tilladelsessæt og gruppere brugere for at opnå nem styring af tilladelser.|[Tildele tilladelser til brugere og grupper](ui-how-users-permissions.md)|
 |Tilføj brugere, administrer tilladelser og få adgang til data og tildel roller.|[Administrere profiler](admin-users-profiles-roles.md)|
+|Opsættelse af printere og angivelse af, hvilke rapporter der skal udskrives på hvilke printere.|[Installation af printere](ui-specify-printer-selection-reports.md)|
 |Klassificere datafølsomheder for felter så du kan svare på anmodninger fra dataemner vedrørende deres personlige oplysninger.|[Klassificere datafølsomhed](admin-classifying-data-sensitivity.md)|
 |Svare på anmodninger fra dataemner vedrørende deres personlige oplysninger.|[Svare på anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md)|
 |Oprette en ny koncernvirksomhed ved hjælp af skabeloner|[Oprettelse af nye virksomheder](about-new-company.md)|
@@ -48,7 +49,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Opret forbindelse fra Dynamics 365 Sales til [!INCLUDE[d365fin](includes/d365fin_md.md)] for at opnå problemfri integration mellem debitorrelationer og ordrebehandling i lead-til-kontant-processen.|[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ændre, hvilke felter og handlinger der vises i brugergrænsefladen, så det passer til virksomhedens forretningsprocesser, og så løsningen kan udvides med apps.|[Tilpasning [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsdeploy-configure-dynamics-365-business-central"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Forretningsfunktioner](across-business-functionality.md)  

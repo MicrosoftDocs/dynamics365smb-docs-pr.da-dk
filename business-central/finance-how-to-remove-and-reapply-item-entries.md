@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882682"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183328"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne og genanvende vareposter
 På siden **Udligningskladde** kan du få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagertransaktioner.  
@@ -28,7 +28,7 @@ Følgende scenarier kræver muligvis, at du fortryder en udligning eller udligne
 - Du har oprettet en forkert fast udligning.
 - Du skal returnere en vare, der allerede er udlignet et salg for.
 
-Brug om muligt et dokument til at udligne en varepost igen. Hvis du f.eks. skal håndtere en købsreturvareordre, hvor salget allerede er udlignet, kan du udligne igen ved at oprette og bogføre købsreturvareordredokumentet ved hjælp af den korrekte udligning i feltet **Udl.varepostløbenr.** på købsreturvareordrelinjen. Du kan bruge funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** eller funktionen **Kopier linjer** i købsreturvareordredokumentet for at gøre det nemmere. Når du bogfører dokumentet, udlignes vareposten automatisk igen. Du kan finde flere oplysninger i [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
+Brug om muligt et dokument til at udligne en varepost igen. Hvis du f.eks. skal håndtere en købsreturvareordre, hvor salget allerede er udlignet, kan du udligne igen ved at oprette og bogføre købsreturvareordredokumentet ved hjælp af den korrekte udligning i feltet **Udl.varepostløbenr.** på købsreturvareordrelinjen. Du kan bruge funktionen **Hent bogførte bilagslinjer, der skal tilbageføres** eller funktionen **Kopiér fra dokument** i købsreturvareordredokumentet for at gøre det nemmere. Når du bogfører dokumentet, udlignes vareposten automatisk igen. Du kan finde flere oplysninger i [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
 
 Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en fast udligning, skal du bruge siden **Udligningskladde** til at rette en udligning.
 

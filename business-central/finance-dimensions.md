@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952622"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183784"
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
 For at gøre det lettere at analysere dokumenter som f.eks. salgsordrer kan du bruge dimensioner. Dimensioner er attributter og værdier, der kategoriserer poster, så du kan spore og analysere dem. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
@@ -209,7 +209,7 @@ Når du bogfører dokumenter eller kladdelinjer, der indeholder dimensioner, kan
 |Ikke-tom dimensionsværdikode for tom standarddimension hvor feltet **Værdibogføring** indeholder **Samme kode**|– %1 %2 skal være tom.<br />– %1 %2 skal være tom for %3 %4.|– Ret feltet **Værdibogføring** på siden **Standarddimension**.<br />– Angiv en tom dimensionsværdikode for den modstridende dimension i dimensionsgruppen.|
 |Uventet dimensionsværdi for standarddimensionen hvor feltet **Værdibogføring** indeholder **Ingen kode**|– %1 %2 må ikke angives.<br />– %1 %2 må ikke angives for %3 %4|– Ret feltet **Værdibogføring** på siden **Standarddimension**.<br />– Fjern den uoverensstemmende linje fra dimensionsgruppen.|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Business Intelligence](bi.md)  

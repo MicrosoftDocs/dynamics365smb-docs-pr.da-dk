@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6fbb4e458b0e4f9068b234748a3921dbca6b3222
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1041dda83552af3c2c805c08518600d89f0467fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300589"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188728"
 ---
 # <a name="edit-posted-documents"></a>Redigere bogførte dokumenter
 Nogle gange er det nødvendigt at opdatere et bogført dokument, da oplysninger, der er relevante for dokumentet, er ændret. I et bogført salgsdokument, kan det f. eks. være speditørens pakkesporingsnummer. I et bogført købsdokument kan det være en betalingsreferencetekst.
@@ -37,7 +37,7 @@ Følgende yderligere dokumenter kan redigeres i de valgte landeversioner:
 ## <a name="to-edit-a-posted-sales-shipment"></a>Sådan redigeres en bogført salgsleverance
 I det følgende forklares det, hvordan du kan redigere en bogført salgsleverance. Fremgangsmåden er den samme for de andre understøttede dokumenter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsleverancer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogført salgsleverancer**, og vælg derefter det relaterede link.
 2. Vælg det dokument, som du vil redigere, og vælg derefter handlingen **Opdater dokument**. Du kan også åbne dokumentet og derefter vælge handlingen.
 3. På siden **Bogført salgsleverance - Opdater** skal du f.eks. redigere feltet **Pakkesporingsnr.** .
 4. Vælg knappen **OK**.

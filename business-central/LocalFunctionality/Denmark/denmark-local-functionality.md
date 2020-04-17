@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: fc6f051362e65c6ade7b99a201eaa79603617074
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 42499c99d244cc3dbf96f01b20ed14a70b3b5fe7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301362"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180825"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  

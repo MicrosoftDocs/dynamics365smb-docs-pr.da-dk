@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b469458490d08475d81f767a88a99c84a4daad6
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: defa6662a66e23d70d519861dbacd6d5036da589
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953223"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189959"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Sådan opretter og ændrer du Brugerdefinerede rapportlayouts
 Som standard har en rapport et indbygget rapportlayout, som enten kan være et RDLC-rapportlayout eller Word-rapportlayout eller begge typer. Du kan ikke ændre indbyggede layout. Du kan dog oprette dine egne brugerdefinerede layout, der gør det muligt at ændre udseendet af rapporten, når den vises, udskrives eller gemmes. Du kan oprette flere brugerdefinerede rapportlayout til samme rapport og derefter skifte det layout, der bruges af en rapport, efter behov.
@@ -51,7 +51,7 @@ Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debi
 
 Det brugerdefinerede layout er oprettet. Du kan nu redigere det brugerdefinerede layout efter behov.
 
-## <a name="ModifyCustomLayout"></a>Redigere et brugerdefineret layout
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Redigere et brugerdefineret layout
 Hvis du vil ændre et rapportlayout, skal du først eksportere rapportlayoutet som en fil til en placering på din computer eller netværket og derefter åbne det eksporterede dokument og foretage ændringerne. Når du er færdig med at foretage ændringerne, skal du importere rapportlayoutet.
 
 ### <a name="to-modify-a-custom-layout"></a>Sådan ændres et brugerdefineret layout
@@ -70,7 +70,7 @@ Hvis du vil ændre et rapportlayout, skal du først eksportere rapportlayoutet s
 
 5. I dialogboksen **Importér** skal du markere **Vælg** for at finde og vælge rapportlayoutdokumentet, og derefter skal du vælge **Åbn**.
 
-##  <a name="MakeChangesToLayout"></a> Sådan opretter og ændrer du Brugerdefinerede rapportlayouts  
+##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Sådan opretter og ændrer du Brugerdefinerede rapportlayouts  
 Hvis du vil foretage generelle formaterings- og layoutændringer, f.eks. skifte skrifttype, tilføje og redigere en tabel eller fjerne et datafelt, skal du blot bruge de grundlæggende funktioner til redigering i Word, som du gør med ethvert Word-dokument.
 
 Hvis du designer et Word-rapportlayout fra bunden eller tilføjer nye datafelter, skal du starte med at tilføje en tabel med rækker og kolonner, der efterhånden indeholder datafelter.
@@ -82,7 +82,7 @@ Hvis du designer et Word-rapportlayout fra bunden eller tilføjer nye datafelter
 
 For at sikre, at rapporter altid vises og udskrives med de ønskede skrifttyper, uanset hvor brugere åbner eller udskriver rapporter, kan du integrere skrifttyperne i Word-dokumentet. Du skal dog være opmærksom på, at integrering af skrifttyper kan øge størrelsen på Word-filer. Du kan finde flere oplysninger om integrering af skrifttyper i Word i [Integrere skrifttyper i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="RemoveField"></a> Fjernelse af navne- og datafelter i Word-layout  
+###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Fjernelse af navne- og datafelter i Word-layout  
  Navne- og datafelter i en rapport er indeholdt i indholdskontrolelementer i Word. Følgende figur illustrerer et indholdskontrolelement, når det er markeret i Word-dokumentet.  
 
  ![Indholdskontrol af felter i Word-rapportlayout](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
@@ -100,7 +100,7 @@ For at sikre, at rapporter altid vises og udskrives med de ønskede skrifttyper,
 ### <a name="adding-data-fields"></a>Tilføje datafelter
 Tilføjelse af datafelter fra en rapports datasæt er mere avanceret og kræver kendskab til rapportdatasættet. Du kan finde oplysninger om tilføjelse af felter til data, etiketter, data og billeder i [Føje felter til et Word-rapportlayout](ui-how-add-fields-word-report-layout.md).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Administration af rapportlayout](ui-manage-report-layouts.md)  

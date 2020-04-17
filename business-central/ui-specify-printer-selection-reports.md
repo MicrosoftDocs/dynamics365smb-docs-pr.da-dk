@@ -3,49 +3,84 @@ title: Oprette rapporter, der skal udskrives på bestemte printere | Microsoft D
 description: Få mere at vide om, hvordan du angiver en printer til en rapport og bruger siden Printervalg.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 10/01/2019
-ms.author: solsen
-ms.openlocfilehash: 0c3a57906c32751639585e542a60d931174d594b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315032"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189479"
 ---
-# <a name="specify-printer-selection-for-reports"></a>Angive printervalg for rapporter
-Denne side er tom, fordi du endnu ikke kan angive bestemte printere til bestemte rapporter. Vi arbejder på løsning af dette.
+# <a name="set-up-printers"></a>Installation af printere
+Da [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-tjeneste, kan den ikke nå lokale printere med forbindelse til brugernes maskiner. Men den kan oprette forbindelse til cloud-kompatible printere. I den generelle version af [!INCLUDE[prodshort](includes/prodshort.md)] er der installeret en cloud-printer med navnet **Mailprinter** som en udvidelse, og den er klar til brug efter den første installation.
 
-I mellemtiden, når du vil udskrive en rapport, er du nødt til at hente rapporten som et PDF-dokumentet først ved at vælge knappen **Send til**. Du kan vælge den type fil, du vil hente rapporten som, og her skal du vælge **PDF-dokument**. Nu, du kan enten åbne et PDF-dokument med det samme og udskrive det, eller gemme det og udskrive det senere.
+Hvis der ikke er installeret og konfigureret en cloud-printer, eller hvis der opstår fejl på en installeret printer, vil udskrivningen som standard benytte browserens udskriftsindstillinger. Dette angives med denne værdi i feltet **Printer** på rapportanmodningssiden: *(ingen, håndteres af browseren)*.
 
-<!--
+På siden **Printerstyring** kan du se de printere, der er konfigurerede. Når du har installeret en eller flere printere, kan du åbne siden **Printervalg** og definere på din brugerkonto, hvilke specifikke rapporter der skal udskrives på hvilken printer.
 
-You can set up reports so that they must be printed on a specific printer. The following are some uses of printer selection:
+Når en printer er konfigureret og knyttet til bestemte rapporter, kan du udskrive en rapport ved at trykke på knappen **Udskriv** på rapport anmodningssiden. Du kan få flere oplysninger [Udskrive en rapport](ui-work-report.md#PrintReport).
 
-- You can print reports on special company letterhead.
-- You can print reports on different paper sizes.
-- You can print reports on the default printer of a specified employee.
+## <a name="to-set-up-a-printer"></a>Sådan installerer du en printer
+På siden **Printerstyring** kan du se de printere, der er installeret, og du kan få adgang til siden med **Indstillinger** for hver enkelt printer for at redigere en eksisterende opsætning eller installere en ny printer.
 
-You use the **Printer Selections** page to set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.
+Følgende fremgangsmåde beskriver, hvordan du konfigurerer den eksisterende **Mailprinter**, som er en udvidelse, der er installeret i forvejen.
 
-The following table describes the combination of values to specify when you set up printer selections for a report.
+> [!NOTE]
+> Mailfunktionen skal være konfigureret, før du kan bruge mailudskrivning. Du kan finde flere oplysninger i [Konfigurer mail](admin-how-setup-email.md).
 
-|To                                                 |Set the following values                                             |
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Printerstyring**, og vælg derefter det relaterede link.
+2. Markér linjen for **Mailprinter**-printeren, og vælg derefter handlingen **Rediger printerindstillinger**.
+3. På siden **Indstillinger** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > Du skal vælge den relevante papirstørrelse til en printer manuelt, da der ikke kan gemmes en lokal printer eller brugerindstillinger.
+    >
+    > Vær opmærksom på, at udvidelsen Mailprinter som standard er indstillet til **A4**-papirformat, som ikke passer til f.eks. USA.
+4. Du kan vælge en standardprinter på siden **Printerstyring** ved at vælge **Angiv som min standardprinter**.
+
+### <a name="privacy-notice"></a>Erklæring om beskyttelse af personlige oplysninger
+Hvis du bruger udvidelsen Mailprinter, sendes alle eller nogle udskriftsjob til den mailadresse, du har angivet under konfigurationen af printeren. Det anbefales på det kraftigste, at et entydigt mail-ID kun bindes til en printerenhed ved hjælp af hardwareproducentens officielle tjenester, f. eks. HP ePrint, KonicaMinolta EveryonePrint eller Epson Email Print.
+
+Du skal træffe alle de nødvendige forholdsregler for beskyttelse af personlige oplysninger, herunder sørge for, at mail-udskriftsløsningen har korrekt konfigurerede tilladelser, indstillinger for beskyttelse af personlige oplysninger og opbevaringspolitikker. Det er dit ansvar at angive en korrekt, bekræftet og aktiv mailadresse. Du kan finde flere oplysninger i [Microsofts erklæring om beskyttelse af personlige oplysninger](https://privacy.microsoft.com/en-us/privacystatement).
+
+## <a name="to-select-which-printers-print-which-reports"></a>Sådan vælger du, hvilke printere der skal udskrives hvilke rapporter
+På siden **Printervalg** kan du angive på din brugerkonto, hvilke rapporter der skal udskrives med hvilken printer. Dette er nyttigt, hvis du arbejder med forskellige rapporter, som kræver forskellige printere på grund af deres placering i virksomheden eller deres udskrivningsmuligheder.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Printervalg**, og vælg derefter det relaterede link. Du kan også vælge en printer på siden **Printerstyring** og derefter vælge handlingen **Printervalg**.
+2. Vælg handlingen **Ny** for at tilføje et printervalg til en bestemt rapport.
+3. Udfyld felterne efter behov.
+
+Den angivne rapport er nu indstillet til at blive udskrevet på den valgte printer som standard.
+
+> [!NOTE]
+> Når du udskriver den pågældende rapport, kan du tilsidesætte denne opsætning ved at vælge en anden printer på anmodningssiden **Udskriftsindstillinger**.
+
+> [!NOTE]
+> Hvis du ikke angiver en rapport for en bestemt printer på siden **Printervalg**, udskrives den på virksomhedens standardprinter i henhold til definitionen på siden **Printerstyring**.
+
+Du eller administratoren kan også bruge siden **Printervalg** til at angive andre variationer af udskrivningen for brugere og rapporter. I følgende tabel beskrives den kombination af værdier, som skal bruges til at angive forskellige printeropsætninger for en rapport.
+
+|Hvis du vil                                                 |Angiv følgende værdier                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
-|Print a report to a specific printer for all users |Specify values in the **Report ID** and **Printer Name** fields and leave the **User ID** field blank.|
-|Print all reports to a specific printer for a specific user|Specify values in the **User ID** and **Printer Name** fields and leave the **Report ID** field blank.|
-|Set the default printer for all reports|Specify a value in the **Printer Name** field and leave the **User ID** and **Report ID** fields blank.|
-|Print a specific report to the user’s default printer|Specify a value in the **Report ID** field and leave the **Printer Name** and **User ID** fields blank.|
-|Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
--->
+|Udskriv en rapport til en bestemt printer for alle brugere |Angiv værdier i felterne **Rapport-id** og **Printernavn**, og lad feltet **Bruger-id** stå tomt.|
+|Udskriv alle rapport til en bestemt printer for en bestemt bruger|Angiv værdier i felterne **Bruger-id** og **Printernavn**, og lad feltet **Rapport-id** stå tomt.|
+|Angiv standardprinteren for alle rapporter|Angiv en værdi i feltet **Printernavn**, og lad felterne **Bruger-id** og **Rapport-id** stå tomme.|
+|Udskriv en bestemt rapport til brugerens standardprinter|Angiv en værdi i feltet **Rapport-id**, og lad felterne **Printernavn** og **Bruger-id** stå tomme.|
+|Udskriv en bestemt rapport til en bestemt printer for en bestemt bruger|Angiv værdier i alle tre felter.|
+
+> [!NOTE]
+> Mere bestemte printervalg tilsidesætter mere generelle printervalg. Et printervalg, der har værdier i felterne **Bruger-id**, **Rapport-id**og **Printernavn**, har f. eks. højere prioritet end et printervalg, hvor der ikke er angivet værdier i felterne **Bruger-ID** eller **Rapport-ID**.
 
 ## <a name="see-also"></a>Se også
+[Udskrive en rapport](ui-work-report.md#PrintReport)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Afvikle kørsler](ui-how-run-batch-jobs.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  

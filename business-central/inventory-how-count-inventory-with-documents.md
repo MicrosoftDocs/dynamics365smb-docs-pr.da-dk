@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309912"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182200"
 ---
 # <a name="count-inventory-using-documents"></a>Varelageroptælling ved hjælp af dokumenter
 Du kan udføre en status over dine varer på varelager ved hjælp af varelagerdokumenter og varelageroptællingsdokumenter. Siden **Varelageropgørelse** benyttes til at organisere det fulde varelageroptællingsprojekt, for eksempel en pr. lokation. Siden **Registrering af varelager** benyttes til at kommunikere og registrere den faktiske optælling af varerne. Du kan oprette flere registreringer på en ordre, f.eks. til at distribuere varegrupper til forskellige medarbejdere.
@@ -36,9 +36,9 @@ Optælling af varelager ved hjælp af dokumenter består af følgende overordned
 ## <a name="to-create-a-physical-inventory-order"></a>Sådan oprettes en varelageropgørelse
 En varelageropgørelse er et komplet dokument, der består af et varelageropgørelsesoverskrift og nogle varelageropgørelseslinjer. Oplysningerne på et varelageropgørelseshoved beskriver, hvordan varelageret statusopgøres. Linjerne på varelageropgørelsen indeholder oplysninger om varerne og deres placeringer.
 
-For at oprette linjer til varelageropgørelse benytter du typisk funktionen **Beregn linjer** for at afspejle den nuværende lagerstatus som linjer på opgørelsen. Alternativt kan du bruge funktionen **"Kopier dokument** for at udfylde linjerne med indholdet fra en anden åben eller bogført varelageropgørelse. Den følgende procedure beskriver kun, hvordan du benytter funktionen **Beregn linjer**.
+For at oprette linjer til varelageropgørelse benytter du typisk funktionen **Beregn linjer** for at afspejle den nuværende lagerstatus som linjer på opgørelsen. Alternativt kan du bruge funktionen **"Kopiér fra dokument** for at udfylde linjerne med indholdet fra en anden åben eller bogført varelageropgørelse. Den følgende procedure beskriver kun, hvordan du benytter funktionen **Beregn linjer**.
 
-1. Vælg ![lyspæren, der åbner Fortæl mig-funktionen](media/ui-search/search_small.png "Fortæl mig, hvad du ønsker at foretage dig"), angiv **Varelageropgørelser**, og vælg så det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld de obligatoriske felter i **Generel** Oversigtspanel. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg handlingen **Beregn linjer**.
@@ -98,7 +98,7 @@ Du kan også vælge handlingen **Difference i lageropgørelsesordre** for at få
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Sådan findes dobbeltoprettede linjer til varelageropgørelse
 
-1. Vælg ![lyspæren, der åbner Fortæl mig-funktionen](media/ui-search/search_small.png "Fortæl mig, hvad du ønsker at foretage dig"), angiv **Varelageropgørelser**, og vælg så det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Åbn varelageropgørelsen, som du ønsker at se dobbelt oprettede linjer for.
 3. Vælg handlingen **Vis dobbelt oprettede linjer**.
 
@@ -111,7 +111,7 @@ Når du har færdigudarbejdet en varelageropgørelse og ændret dens status til 
 - Hver lageropgørelseslinje er blevet optalt af mindst en varelagerregistreringslinje.
 - Afkrydsningsfelterne **I registreringslinjer** og **Antal forventet beregnet** er valgt for alle linjer i varelageropgørelsesordren.
 
-1. Vælg ![lyspæren, der åbner Fortæl mig-funktionen](media/ui-search/search_small.png "Fortæl mig, hvad du ønsker at foretage dig"), angiv **Varelageropgørelser**, og vælg så det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Vælg den varelageropgørelse, som du vil afslutte, og vælg derefter handlingen **Rediger**.
 
     På siden **Varelageropgørelse** kan du se det registrerede antal i feltet **Antal registreret (basis)**.
@@ -125,7 +125,7 @@ De aktuelle vareposter i regnskabet opdateres sideløbende med alle aktuelle var
 ### <a name="to-view-posted-physical-inventory-orders"></a>Sådan vises bogførte varelageropgørelser
 Efter bogføringen vil varelageropgørelsen blive slettet, og du kan få vist og vurdere dokumentet som en bogført lageropgørelsesordre med dets lageropgørelsesregistreringer og enhver kommentar, der er evt. er tilføjet.
 
-1. Vælg ![lyspæren, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du ønsker at foretage dig"), angiv **Bogførte lageropgørelsesordrer**, og vælg så det tilhørende link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Vælg den bogførte lageropgørelsesordre, som du vil se, på siden **Bogførte varelageropgørelser**, og vælg så handlingen **Vis**.
 3. Vælg handlingen **Registreringer** for at åbne en liste over relaterede registreringer af varelageropgørelser.
 

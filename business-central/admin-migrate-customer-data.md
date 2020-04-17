@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/19/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 48ce8c293b5af411763a8730c9f7d16113062d9a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097692"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186841"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e0074d3e3a1869a8f377c6ff3d8faad97f781077
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 37ca9da29fdfc19253850e431362dfd199a20484
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076631"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187648"
 ---
 # <a name="setting-up-data-exchange"></a>Konfigurere dataudveksling
 Før du kan sende og modtage elektroniske dokumenter eller importere og eksportere bankfiler, skal du konfigurere dataudvekslingsstrukturen for at behandle involverede filer. Derudover skal du definere relaterede områder, f. eks. debitorer, som du sender elektroniske fakturaer til, eller AMC Banking 365 Fundamentals-udvidelsen, hvis du bruger den eksterne tjenesteudbyder til at konvertere dine bankfiler. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
@@ -30,7 +30,7 @@ Før du kan sende og modtage elektroniske dokumenter eller importere og eksporte
 |Indstille den forudkonfigurerede OCR-tjeneste til at omdanne PDF- eller billedfiler til elektroniske dokumenter, der kan konverteres til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Konfigurere indgående bilag](across-how-setup-income-documents.md)|  
 |Opret en af to forudkonfigurerede tjenester for opdaterede valutakurser for at få vist de seneste valutakurser på siden **Valutaer**.|[Opdatere valutakurser](finance-how-update-currencies.md)|  
 |Konfigurer forskellige stamdata, såsom firmaoplysninger, debitorer, kreditorer, varer og enheder, der er relateret til tilknytning af data i [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
-|Oprette en bankkonto, en kreditor og en betalingskladde til SEPA-kreditoverførslen.|[Oprette SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
+|Oprette en bankkonto, en kreditor og en betalingskladde til SEPA-kreditoverførslen.|[Opsætte SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Udarbejd bankkontoformater, betalingsformer og kundeaftaler til SEPA Direct Debit.|[Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)|  
 |Konfigurer brugergodkendelse og URL-adressen på den AMC Banking 365 Fundamentals-udvidelsesudbyder, der skal have bankfiler, der er konverteret til din banks format.|[Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)|  
 |Konfigurer en ekstern tjeneste, hvor du kan indlæse bankkontoudtog som bankfeeds.|[Konfigurere tjenesten til bankkontoudtog](bank-how-setup-bank-statement-service.md)|  

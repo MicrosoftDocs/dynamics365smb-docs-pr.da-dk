@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1eaa4339512ebc243a7ba8b7e3193c943aeebaef
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2e770792bea2c4ddbc66128f20726d58654737d1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878529"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185032"
 ---
 # <a name="design-details-item-tracking"></a>Designoplysninger: Varesporing
 Efterhånden som flowet af varer i den moderne forsyningskæde bliver stadigt mere kompleks, bliver muligheden for at holde styr på varer mere og mere vigtig for de involverede virksomheder. Overvågning af en vares transaktionsflow er et lovkrav inden for medicinsk og kemisk forsyning, men andre virksomheder kan overvåge produkter med garantier eller udløbsdatoer af hensyn til kundeservice.  

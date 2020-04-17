@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: efd4d06d0d16b81ca3640af46a797c359098cc08
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 91e2f135f97e8d1e80edce3c6e45e08a080e826f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306660"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184720"
 ---
 # <a name="design-details-warehouse-management"></a>Designoplysninger: Logistik
 Denne dokumentation giver et overblik over de begreber og principper, der bruges i logistikfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det forklarer designet bag centrallagerfunktioner, og hvordan logistik integreres med andre funktioner i forsyningskæden.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953799"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183712"
 ---
 # <a name="create-gl-budgets"></a>Oprette finansbudgetter
 Du kan have flere budgetter for identiske tidsperioder ved at oprette budgetter med separate navne. Ført opretter du budgetnavnene og angiver budgettal. Derefter medtages budgetnavnene på alle de budgetposter, du opretter.  
@@ -48,7 +48,7 @@ Som for praktisk talt alle andre sider kan du eksportere data på budgetsider ti
 > [!NOTE]
 > Den kontoplanen, som finansbudgetter er baseret på, har linjer kontotypen Overskrift, der indeholder summen af linjerne nedenunder. Når du eksporterer et finansbudget, eksporteres data på alle linjer uanset kontotypen. Det er dog kun data på linjer med kontotypen Bogføring, der kan importeres tilbage. Tilsvarende: <br /><br /> **Når du importerer et finansbudget, slettes alle de værdier, der findes på overskriftslinjer.** <br /><br /> Dette sker for at undgå forkerte totaler efter import af data, der er oprettet eller redigeret i Excel.<br /><br /> **Scenarie**: Du ved, at de nye budgetterede lønomkostninger vil være RV 1.200.000. Du vil tillade lønafdelingens budget for de tre specifikke linjer (af kontotypen Bogføring) for fuldtidsmedarbejdere, deltidsmedarbejdere og midlertidig hjælp. De tre linjer er grupperet under overskriftslinjen Løn.<br /><br />Du indtaster 1.200.000 i overskriftslinjen, eksporterer budgettet til Excel og sender det derefter til lønafdelingen og beder dem om at fordele RV 1.200.000.<br /><br /> Lønafdelingen fordeler beløbet på de tre bogføringskonti. Når du importerer tilbage i finansbudgettet, udfyldes de tre konti med de nye Excel-data, der tilsammen giver RV 1.200.000, og overskriftslinjen er tom.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Eksportere forretningsdata til Excel](about-export-data.md)  

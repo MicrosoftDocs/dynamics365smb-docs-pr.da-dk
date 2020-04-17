@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2455cbf74520ddbc2ddb6ba6ae2e02064370ac2d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc026d34c39b7f045100e16024d971493041fb80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302472"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183856"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidering af finansielle oplysninger fra flere regnskaber
 Hvis du har mere end én virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan rapporten Konsolideret råbalance i Rollecenteret Regnskabsmedarbejder give dig et overblik over virksomheden samlede finansielle tilstand.  
@@ -54,7 +54,7 @@ Hvis du har brug for mere avancerede indstillinger til din konsolidering, kan du
 [!INCLUDE[d365fin](includes/d365fin_md.md)] giver dig mulighed for at oprette en liste over regnskaber, der skal konsolideres, kontrollere regnskabsdataene, før du konsoliderer dem, importere filer og oprette konsolideringsrapporter.  
 
 1. Log på det konsoliderede regnskab.
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forretningsenheder**, og vælg derefter det relaterede link.  
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
 3. Vælg **Ny**, og udfyld de påkrævede felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!IMPORTANT]
@@ -84,7 +84,7 @@ I følgende tabel beskrives de valutakursmetoder, du kan bruge til konti.
 
 Gør følgende for at angive valutakurser for koncernvirksomheder:
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forretningsenheder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
 2. Vælg koncernvirksomheden på siden **Koncernvirksomhedsoversigt**, og vælg derefter handlingen **Gennemsnitskurs (manuel)**.   
 3. På siden **Ret valutakurs** er indholdet af feltet **Associeret valutakurs** blevet kopieret fra tabellen **Valutakurs**, men du kan ændre oplysningerne efter behov. Luk siden.  
 4. Vælg handlingen **Ultimokurs**.  
@@ -110,7 +110,7 @@ Hvis du kun ejer en del af en virksomhed, kan du medtage en procentdel af hver t
 Du kan teste dataene, inden du overfører dem til det konsoliderede regnskab. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om der er forskelle mellem oplysningerne i koncernvirksomhederne og den konsoliderede virksomhed. F.eks., om kontonumre eller dimensionskoder er anderledes. Du skal rette fejlene, før du kan køre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.   
 
 1. Åbn det konsoliderede regnskab.  
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forretningsenheder**, og vælg derefter det relaterede link.  
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
 3. Gør ét af følgende:  
 
     * For at teste en fil, skal du vælge handlingen **Kontroller fil**, angive navnet på filen, der skal kontrollere, og derefter vælge **Udskriv**.  
