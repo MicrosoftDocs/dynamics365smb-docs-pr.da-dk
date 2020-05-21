@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181726"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262210"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -33,21 +33,22 @@ Tastaturgenveje giver større tilgængelighed, hvilket kan gøre det lettere og 
 > [!NOTE]
 > De tastaturgenveje, der beskrives her, henviser til et amerikansk tastaturlayout. Tasterne kan være anderledes på andre tastaturlayout.
 
-De fleste genveje er de samme, uanset om operativsystemet er Windows eller macOS. Nogle genveje adskiller sig dog fra genvejene i macOS. De er angivet i parentes i de følgende afsnit.
+De fleste genveje er de samme, uanset om operativsystemet er Windows eller macOS. Nogle genveje adskiller sig dog fra genvejene i macOS. Disse genveje er angivet i parentes i de følgende afsnit.
 
 > [!NOTE]
 > Ud over de globale tastaturgenveje, der er beskrevet i dette emne, er der en række tilgængelige forretningsspecifikke genveje. I f.eks. den generiske version af [!INCLUDE[prodshort](includes/prodshort.md)] bogfører F9 et dokument, og Ctrl+F7 viser de finansielle posteringer for en post. (Disse kan være anderledes i din løsning). Tastaturgenvejene vises i værktøjstippet for den pågældende handling.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle tastaturgenveje
-Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til forskellige elementer på en side, f.eks. handlinger rullelister, opslag og mere. Du kan finde oplysninger om tastaturgenveje til navigation mellem poster, når du er på en liste, i næste afsnit.
+I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og adgang til forskellige elementer på en side. Elementer omfatter ting som handlinger, rullelister, opslag og meget mere. Du kan finde oplysninger om tastaturgenveje til navigation mellem poster, når du er på en liste, i næste afsnit.
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |----------------|-----------|
 |Alt+Pil ned|Åbne en rulleliste eller slå en værdi for et felt op.|    
 |Alt+Pil op|Vise værktøjstip for et felt eller en kolonneoverskrift i en tabel. Hvis feltet indeholder valideringsfejl, skal du trykke på Alt + pil op for at få vist valideringsfejlen. Tryk på Esc eller Alt+pil op for at lukke værktøjstippet.|
+|F2|Du kan skifte mellem at markere hele feltværdien eller placere markøren i slutningen af feltets værdi.|
 |Alt+F2|Vise eller skjule faktaboksruden.|
 |Alt+Skift+F2|Skifte mellem **Detaljer** og **Vedhæftede filer** i faktaboksruden.|
-|Alt+O|Tilføje en ny note i den valgte post, også selvom faktaboksruden ikke er åben.|
+|Alt+O|Du kan tilføje en ny note i den valgte post, også selvom faktaboksruden ikke er åben.|
 |ALT + Q<br />(Ctrl+option+Q)|Åbne vinduet **Fortæl mig**. Du kan finde flere oplysninger i [Søge efter sider og oplysninger med Fortæl mig](ui-search.md).|
 |Alt+N |Åbne en side for at oprette en ny post. (Svarer til at vælge **Ny** og **+**-handlinger).|
 |Alt+Skift+N |Lukke en nyoprettet side og åbne en ny for at oprette en ny post. På samme måde bogfører Alt+F9 et dokument og opretter et nyt.|
@@ -61,12 +62,12 @@ Følgende tabel beskriver tastaturgenveje til at navigere og give adgang til for
 |Ctrl+F12|Skifte mellem visning med bredt og smalt layout.|
 |Ctrl+klik|Navigere under tilpasning, når handlingen er fremhævet med en pilespids. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).|  
 |Ctrl+F5|Genindlæse [!INCLUDE[prodshort](includes/prodshort.md)]-programmet. (Svarer til at vælge opdater/genindlæs i browseren).|
-|F5|Opdatere oplysningerne på den aktuelle side.<br /><br />Bruges til at sikre, at dataene på siden er opdateret med de ændringer, der er foretaget af andre, mens du arbejder.|
+|F5|Opdatere oplysningerne på den aktuelle side.<br /><br />Du kan bruge denne tast til at sikre, at dataene på siden er opdateret med de ændringer, der er foretaget af andre, mens du arbejder.|
 |Indsæt|Aktivere eller få adgang til det element eller kontrolelement, der er i fokus.|
 |Esc|Lukke den aktuelle side eller rullelisten.|
 |Tab|Flytte fokus til det næste kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
 |Skift+Tab|Flytte fokus til det forrige kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
-|J og N|Aktivér knapperne **Ja** og **Nej** i dialogbokse. Dette er sprogunderstøttet. Tryk for eksempel på J i Tyskland for at aktivere en **Ja**-knap.|
+|J og N|Aktivere knapperne **Ja** og **Nej** i dialogbokse. De aktuelle nøgler varierer, alt efter det aktuelle sprog der er angivet i **Mine indstillinger**. Tryk f. eks. på J for at aktivere knappen **Ja**, når du bruger tysk.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastaturgenveje på lister
 
@@ -127,8 +128,8 @@ Der er gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prodshort](
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |-----------------|-------|
 |F3|Skifter søgefeltet.<ul><li>Aktivere søgefeltet, så du kan begynde at skrive søgeteksten.</li><li>Hvis søgefeltet allerede er aktiveret, vender F3 tilbage til listen uden at rydde søgeteksten.</li><ul>|
-|Skift+F3|Åbne og lukke filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Skift + F3 den og fokuserer på handlingen **+ Filter** under **Filtrer listen efter**, hvor du ved at trykke på Enter kan begynde at tilføje et feltfilter.</li><li>Hvis filterruden allerede er åben, lukker Skift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>|
-|Ctrl+Skift+F3|Åbne og lukke filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Ctrl + Skift + F3 den og fokuserer på handlingen **+ Filter** under **Filtrer totaler efter**, hvor du ved at trykke på Enter kan begynde at tilføje et filter for totaler.</li><li>Hvis filterruden allerede er åben, lukker Ctrl + Skift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>  |
+|Shift+F3|Åbne og lukke filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Shift + F3 den og fokuserer på handlingen **Filter** under **Filtrér listen efter**. Herefter kan du bare trykke på ENTER for at begynde at tilføje et feltfilter.</li><li>Hvis filterruden allerede er åben, lukker Shift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>|
+|Ctrl+Shift+F3|Åbne og lukke filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Ctrl+ Shift + F3 den og fokuserer på handlingen **Filter** under **Filtrér totaler efter**. Herefter kan du bare trykke på ENTER for at begynde at tilføje et filter for totaler.</li><li>Hvis filterruden allerede er åben, lukker Ctrl + Shift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>  |
 |Alt+F3|Slå filtrering til den valgte værdi til/fra.<ul><li>Anvender et kolonnefilter på den valgte feltværdi på listen. Det har samme effekt, som hvis du vælger **Filtrer til denne værdi** i en kolonneoverskrift. Det åbner filterruden, indstiller filteret til den valgte værdi, mens fokus forbliver på cellen på listen.</li><li>Hvis kolonnen allerede er filtreret, fjerner Alt + F3 filteret i den pågældende kolonne.</li></ul> |
 |Skift+Alt+F3|Åbne filterruden og tilføje et filter til den valgte kolonne på listen. Fokus er på det nye filterfelt, som gør det muligt at begynde at skrive filterkriterierne med det samme.<br /><br /> Det har samme effekt, som hvis du vælger **Filter** i kolonneoverskriften.<br /><br />Hvis der allerede er et filter i feltet, tilføjes et nyt filter. |
 |Ctrl + Skift + Alt + F3|Nulstille filtre. Dette har samme effekts, som hvis du vælger **Nulstil filtre** i filterruden, og det gælder for feltfiltre og filtre for totaler.<br /><br /> Filtre vender tilbage til standardfiltrene for den aktuelle visning. Hvis den aktuelle visning er **Alle**, er dette det samme som at vende tilbage til en ufiltreret visning med alle poster. |
@@ -140,7 +141,7 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |----------------|-----------|
-|Alt+F6|Slå skjul/udvid til og fra i det aktuelle oversigtspanel eller del (delside).|
+|Alt+F6|Slå skjul/udvid til og fra i det aktuelle oversigtspanel eller den aktuelle del (delside).|
 |Alt+N |Åbne en side og oprette en ny post – på samme måde som ved valg af handlingen **Ny**. |
 |Alt+Skift+N |Lukke en side og åbne en ny side for at oprette en ny post – på samme måde som ved valg af handlingen **OK og ny**. |
 |Alt+Skift+W |Åbne det aktuelle kort eller dokument i et nyt vindue. Du kan finde flere oplysninger under [Multitasking på tværs af flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|

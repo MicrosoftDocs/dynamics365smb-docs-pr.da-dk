@@ -1,8 +1,6 @@
 ---
 title: Få mere at vide om Finans og kontoplan | Microsoft Docs
 description: Beskriver finans, kontoplanen og kontokategorier.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: ce221fed4704a278e7227affe13516303613c9cf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183760"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372539"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Om Finans og kontoplanen
+
 Finansregnskabet gemmer de finansielle data, og kontoplanen viser de konti, som alle finansposter bogføres til. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Finansopsætning og bogføringsopsætning
+
 Opsætningen af finansmodulet er kernen i økonomiprocesser, fordi den definerer, hvordan du bogfører data.  
 
 På siden **Opsætning af Finans** angiver du, hvordan du vil behandle bestemte regnskabsopgaver i virksomheden, f.eks.:  
@@ -31,9 +31,13 @@ På siden **Opsætning af Finans** angiver du, hvordan du vil behandle bestemte 
 * Adresseformater  
 * Økonomirapportering  
 
-Desuden kan du på siden **Bogføringsopsætning** angive, hvordan du vil oprette kombinationer af virksomheds- og produktbogføringsgrupper. Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. Udfyld en linje for hver kombination af virksomheds- og produktbogføringsgrupper. Du kan finde flere oplysninger under [Opsætning af bogføringsgrupper](finance-posting-groups.md)  
+Desuden kan du på siden **Bogføringsopsætning** angive, hvordan du vil oprette kombinationer af virksomheds- og produktbogføringsgrupper. Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. Udfyld en linje for hver kombination af virksomheds- og produktbogføringsgrupper. Du kan finde flere oplysninger i [Opsætning af bogføringsgrupper](finance-posting-groups.md).  
+
+> [!TIP]
+> Siden **Regnskabsopsætning** indeholder generiske felter og felter, der er specifikke for dit land eller område. Hvis du ikke er sikker på, hvad et felt betyder, anbefaler vi, at du spørger din bogholder, om det er relevant for din virksomhed.  
 
 ## <a name="the-chart-of-accounts"></a>Kontoplan
+
 Kontoplanen viser alle finanskonti. Fra kontoplanen kan du gøre ting som at:  
 
 * Vise rapporter med finansposter og saldi.  
@@ -45,6 +49,7 @@ Kontoplanen viser alle finanskonti. Fra kontoplanen kan du gøre ting som at:
 Du kan tilføje, ændre eller slette finanskonti. Men for at forhindre afvigelser kan du ikke slette en finanskonto, hvis dens data bruges i kontoplanen.  
 
 ## <a name="account-categories"></a>Kontokategorier
+
 Du kan tilpasse strukturen i regnskabsopgørelser ved at knytte finanskonti til kontokategorier.  
 
 Siden **Finanskontokategorier** viser dine kategorier og underkategorier, og de finanskonti, der er knyttet til dem. Du kan oprette nye underkategorier og tildele disse kategorier til eksisterende konti.  
@@ -62,6 +67,7 @@ F.eks. har standardsaldoopgørelsen en underkategori for Kassebeholdning under O
 Næste gang du genererer kontoskemaer viser din kontoopgørelse den samlede saldo for kontant og to linjer med saldi for kontantbeholdning og checkkontoen.  
 
 ## <a name="see-also"></a>Se også
+
 [Finans](finance.md)  
 [Konfigurere eller ændre kontoplanen](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  

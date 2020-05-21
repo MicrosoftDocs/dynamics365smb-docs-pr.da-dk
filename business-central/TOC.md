@@ -70,6 +70,7 @@
 ### [Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)
 ### [Tastaturgenveje](keyboard-shortcuts.md)
 ### [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)
+## [Fejlfinding: Adgang til kamera og placering](ui-troubleshooting-camera-location.md)
 
 # Konfigurere Business Central
 ## [Oversigt](setup.md)
@@ -82,6 +83,7 @@
 ### [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
 ### [Konfigurere moms](finance-setup-vat.md)
 ### [Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter](finance-setup-unrealized-vat.md)
+### [Oprette kilde- og årsagskoder til revisionsspor](finance-setup-trail-codes.md)
 ### [Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
 ### [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)
 ### [Opdatere valutakurser](finance-how-update-currencies.md)
@@ -335,7 +337,10 @@
 ## [Administration af datakryptering](admin-manage-data-encryption.md)
 ## [Udvide din prøveversion](admin-extend-trial.md)
 ## [Inspicere sider](across-inspect-page.md)
+## [Sådan ser du databaselåse](admin-view-database-locks.md)
+## [Sådan ser du tabeloplysninger](admin-view-table-information.md)
 ## [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md)
+## [Aktivering af nye funktioner på forhånd](admin-feature-management.md)
 ## Tilpasse Business Central
 ### [Oversigt](ui-customizing-overview.md)
 ### [Tilpasse sider til profiler](ui-personalization-manage.md)
@@ -525,6 +530,7 @@
 ## [Oprette salgstilbud](sales-how-make-offers.md)
 ## [Fakturere salg](sales-how-invoice-sales.md)
 ## [Sælge produkter](sales-how-sell-products.md)
+## [Udskrive pluklisten](sales-how-print-picking-list.md)
 ## [Bogføring af salg](ui-post-sales.md)
 ## [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)
 ## [Foretage direkte leveringer](sales-how-drop-shipment.md)
@@ -642,7 +648,7 @@
 ## [Køre fuld planlægning, MPS eller MRP](production-how-to-run-mps-and-mrp.md)
 ## [Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md)
 ## [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md)
-## [Ændre planlægningsforslag i en grafisk visning](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)
+<!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 # Montagestyring
 ## [Oversigt](assembly-assemble-items.md)
@@ -816,7 +822,7 @@
 ## Australien
 ### [Oversigt](LocalFunctionality/Australia/australia-local-functionality.md)
 ### Skat
-#### [Skat](LocalFunctionality/Australia/tax.md)
+#### [Oversigt](LocalFunctionality/Australia/tax.md)
 #### [A-skat](LocalFunctionality/Australia/withholding-tax.md)
 #### [Konfigurere A-skat](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
 #### [Konfigurere indtægtstyper for A-skat](LocalFunctionality/Australia/how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -874,7 +880,7 @@
 #### [Udskrive periodiske momsrapporter](LocalFunctionality/Belgium/how-to-print-periodic-vat-reports.md)
 #### [Konfigurere belgiske varekoder](LocalFunctionality/Belgium/how-to-set-up-belgian-tariff-numbers.md)
 #### [Belgisk Intrastat-rapportering](LocalFunctionality/Belgium/belgian-intrastat-reporting.md)
-#### [Konfigurere Intrastat-virksomhedsnumre](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)    
+#### [Konfigurere Intrastat-virksomhedsnumre](LocalFunctionality/Belgium/how-to-set-up-intrastat-establishment-numbers.md)
 #### [Udskrive rapporten Intrastat-blanket](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 #### [Konfigurere opgørelsestyper](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 #### [Eksportere tredjeparts Intrastat-opgørelser](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
@@ -1241,7 +1247,7 @@
 #### [Konfigurere OCR-betalinger](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 #### [Importere og bogføre betalinger til OCR](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 #### [Udskrive testrapport for OCR-kladde](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-### Grundlæggende Finans    
+### Grundlæggende Finans
 #### [Udligne finansposter i lukkede perioder](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
 ### Generelt
 #### [Tilbagevendende ordrer](LocalFunctionality/Norway/recurring-orders.md)  
@@ -1427,7 +1433,7 @@
 ### Lagerbeholdning
 #### [Schweizisk flytning (lager)](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Udskrive en lagerplukliste fra en salgsordre](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-### Generelt    
+### Generelt
 #### [Importere schweiziske postnumre](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Schweiziske købsdokumenter og salgsordrer](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 

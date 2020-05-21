@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3d2770cd261215144edfe0992d0bb2b269971df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 815956fe6eefa069a9930043d4a0c93a725b4fc1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182224"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272058"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Tælle, justere og ompostere inventar ved hjælp af kladder
 Mindst én gang hvert regnskabsår skal der foretages lageropgørelse, dvs. alle varer i lagerbeholdningen optælles for at se, om det antal, der er registreret i databasen, svarer til det faktiske fysiske antal på lagerstederne. Når det faktiske fysiske antal kendes, skal det bogføres til Finans som en del af lagervurderingen ved periodeafslutning.
@@ -94,6 +94,9 @@ Når du bogfører lagerplaceringsopgørelsen, bogfører du hverken på varekladd
 4. Vælg knappen **Udskriv**.
 
 Medarbejderne kan nu fortsætte med at optælle lagerbeholdningen og registrere eventuelle afvigelser på den udskrevne rapport.
+
+> [!NOTE]
+> Det kan tage flere dage, før udskrevne rapporter vender tilbage, så de kan blive behandlet og bogført. Når du angiver og bogfører den faktiske optalte lagerbeholdning, justeres lagerbeholdningen, så den afspejler forskellen mellem den forventede og den faktiske optalte lagerbeholdning. Du skal gemme de oprindeligt beregnede kladdelinjer og ikke genberegne den forventede lagerbeholdning, fordi den forventede lagerbeholdning kan blive ændret, hvilket medfører forkerte lagerniveauer. Hvis du skal udstede flere rapporter, f. eks. for forskellige lokationer eller varegrupper, skal du oprette og føre separate kladdenavne.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Sådan angives og bogføres den faktiske optalte lagerbeholdning i grundlæggende lageropsætninger
 1. På hver linje på siden **Lageropgørelseskladde**, hvor den faktiske lagerbeholdning, der er optalt manuelt, afviger fra det beregnede antal, skal du indtaste den faktiske lagerbeholdning i feltet **Antal (optalt)**.

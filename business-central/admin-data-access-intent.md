@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: jswymer
-ms.openlocfilehash: 33b5a3ff604b0ddf7525b89d7a8a82bcfdd7f653
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196373"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333904"
 ---
 # <a name="managing-database-access-intent"></a>Administration af formål med adgang til database 
 
@@ -29,7 +29,7 @@ Når objekter køres, bestemmer formålet med adgang til databasen, om der skal 
 
 På siden **Liste over formål med adgang til database** kan du tilsidesætte det foruddefinerede formål med adgang til database for objekter, når de køres.
 
-I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan få flere oplysninger om read-scale out og formål med adgang til databaser i [!INCLUDE[d365fin](includes/d365fin_md.md)] i [Sådan bruger du read scale-out til at forbedre ydeevnen](https://review.docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview?branch=tfs337368-readscaleout) i [!INCLUDE[d365fin](includes/d365fin_md.md)] Hjælp til udviklere og it-eksperter.
+I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan få flere oplysninger om read-scale out og formål med adgang til databaser i [!INCLUDE[prodshort](includes/prodshort.md)] i [Sådan bruger du read scale-out til at forbedre ydeevnen](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prodshort](includes/prodshort.md)] Hjælp til udviklere og administratorer.
 
 ## <a name="to-change-the-database-access-intent"></a>Sådan ændrer du formålet med adgang til databaser
 

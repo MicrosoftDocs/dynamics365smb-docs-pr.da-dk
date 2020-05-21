@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50e548a2e2272e0771a754f0ea2aee318433f761
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8ff874a076aa1a0bba09e1277cb19ee6553eaa8b
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192220"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271914"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Oprette bedste fremgangsmåder: Planlægningsparametre
 Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds forsyningskæde. Det er meget vigtigt at angive de korrekte planlægningsparametre til omkostningseffektiv lagerstyring og høj kundeservice.  
@@ -26,7 +26,7 @@ Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds
 |-----------------|-------------------|-------------|  
 |Genbestillingsmetode||Du kan finde flere oplysninger i [Oprette bedste fremgangsmåder: Genbestillingspolitikker](setup-best-practices-reordering-policies.md).|  
 |Reserver|Vælg **Aldrig**, når varen er planlagt ved hjælp af et genbestillingspunkt.<br /><br /> I produktion skal du vælge **Aldrig** for at tillade planlægningssystemet at dække alle behov.<br /><br /> Vælg **Eventuelt** for varer, du vil reservere til kunder med topprioritet.<br /><br /> Vælg **Altid** for ikke-entydige elementer som elementer af typen Diverse, der er indgået til specifikke krav.|Reservationer modvirker generelt formålet med planlægning, der er at skabe balance mellem efterspørgsel og udbud. Derfor skal varer, der er angivet til planlægning normalt ikke reserveres.<br /><br /> Hvis brugeren reserverer en lagerantal til fremtidige behov, forstyrres planlægningsgrundlaget, og genbestillingspunktet fungerer muligvis ikke korrekt. Selvom det planlagte beholdningsniveau er acceptabelt med hensyn til genbestillingspunkt, er mængderne muligvis ikke tilgængelige på grund af reservationen.|  
-|Bufferperiode|Indstil med hensyn til leverandørens fleksibilitet.<br /><br /> En længere periode gør det muligt at yde bedre kundeservice, men medfører også flere ændringshandlinger.|Hvis leverandøren accepterer ændringer af ordrer i sidste øjeblik, skal du bruge en længere periode, men vær forberedt på flere ændringshandlinger. Hvis leverandøren kræver fast planlægning, skal du afkorte perioden så meget som muligt.<br /><br /> Du kan finde oplysninger om feltet **Bufferperiode** under [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md).|  
+|Bufferperiode|Indstil med hensyn til leverandørens fleksibilitet.<br /><br /> En kortere periode gør det muligt at reducere arbejdskapitalen, da du undgår for stor lagerbeholdning, men det vil også medføre flere handlinger for ændring af tidsplanen.|Hvis leverandøren accepterer ændringer af ordrer i sidste øjeblik, skal du bruge en kortere periode, men vær forberedt på flere ændringshandlinger. Hvis leverandøren kræver fast planlægning, skal du forlænge perioden så meget som muligt.<br /><br /> Du kan finde oplysninger om feltet **Bufferperiode** under [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md).|  
 |Medtag lager|Vælg altid, når du bruger en Lot-for-Lot genbestillingsmetode.|Vælg ikke kun i særlige situationer, f.eks når lagervarer ikke er salgbare.|  
 |Sikkerhedstid|Indstillingen skal ligge mellem 1D og 6D.<br /><br /> Angiv en sikkerhedstid på mindst én dag for at sikre, at leverancer er tilgængelige på dagen, før der er behov for dem.<br /><br /> Hvis du bruger en ny leverandør, skal du definere en længere tid, indtil deres leveringsevne er kendt.<br /><br /> Definer længere sikkerhedstider for kritiske komponenter i produktion.|Levering, som er planlagt af systemet for at undgå, at varen ikke er på lager, vil ankomme på samme dag, som varen ikke længere er på lager. Dette kan være flere timer for sent, hvis der f.eks. er efterspørgsel om morgenen, og leveringen ankommer om eftermiddagen. **Bemærk:** Feltet **Sikkerhedstid** bruger basiskalenderen. Derfor er 14 D ikke nødvendigvis to uger.|  
 |Sikkerhedslager|Bruges til varer med store efterspørgselsudsving.<br /><br /> I produktion, bruges til kritiske komponenter.<br /><br /> Bruges til varer, der er omfattet af serviceaftaler.|Hvis feltet **Genbestillingspunkt** ikke er udfyldt, så fungerer sikkerhedslageret også som et genbestillingspunkt.|  

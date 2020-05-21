@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
-ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190679"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262114"
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
 Likviditetsstyring omfatter kontrol af, om forfaldne beløb er betalt til tiden. Hvis debitorer har forfaldne betalinger, kan du begynde med at sende rapporten Kontoudtog som en påmindelse. Alternativt kan du udstede rykkere.
@@ -123,11 +123,12 @@ På siden **Rykker** skal du udfylde oversigtspanelet **Generelt** manuelt og la
 4. Vælg handlingen **Foreslå rykkerlinjer**.
 5. I kørslen **Foreslå rykkerlinjer** skal du udfylde felterne for at angive, hvordan og hvem rykkerne oprettes til.
 6. Marker afkrydsningsfeltet **Medtag afventende poster**, hvis rykkere skal indeholde forfaldne åbne poster, som er i venteposition.
+7. Marker afkrydsningsfeltet **Kun poster med forfaldne beløb**, hvis rykkere kun skal indeholde forfaldne åbne poster. Kun fakturaer og betalinger vises, da de er poster, hvor kundernes betalinger kan være forfaldne.
 
     > [!Important]
-    > Afventende åbne poster indsættes uanset indstillingen i afkrydsningsfeltet Kun poster med forfaldne beløb.
+    > Afventende åbne poster indsættes, uanset hvilken indstilling der er markeret i afkrydsningsfeltet **Kun poster med forfaldne beløb**.
 
-7. Vælg knappen **OK**.
+8. Vælg knappen **OK**.
 
 ## <a name="to-replace-reminder-texts"></a>Sådan erstattes rykkertekst  
 Du kan angive den tekst, der angives i rykkere, på flere måder. I nogle tilfælde kan du have brug for at erstatte start- og slutteksten, der er angivet for det aktuelle niveau, med tekst fra et andet niveau.

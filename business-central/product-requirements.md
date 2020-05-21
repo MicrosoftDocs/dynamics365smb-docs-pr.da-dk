@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190079"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372588"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumkrav til brug af Business Central
 Før du åbner [!INCLUDE [prodshort](includes/prodshort.md)] online, anbefales det, at du kontrollerer, at din computer eller mobilenhed opfylder eller overstiger minimumsystemkravene til produktet. Denne artikel indeholder kravene.  
@@ -24,13 +24,14 @@ Før du åbner [!INCLUDE [prodshort](includes/prodshort.md)] online, anbefales d
 
 ### <a name="recommended-browsers"></a>Anbefalede browsere
 
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug sammen med den aktuelle version af det nye Microsoft Edge.  
 **Chrome til Windows og Firefox til Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug med den aktuelle version af disse skrivebordsbrowsere.  
-**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug med den aktuelle version af Safari på OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug med den aktuelle version af Microsoft Edge.
+**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug sammen med den aktuelle version af Safari til macOS.  
 
 ### <a name="other-supported-browsers"></a>Andre understøttede browsere
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug med Internet Explorer 11 (build 11.0.9600.17239) til Windows 10 (32-bit og 64-bit versioner). Det anbefales, at du opgraderer til den seneste version af Internet Explorer, der understøttes af din version af Windows. Du kan også åbne den nye Edge-browser og stadig få adgang til websteder, der kræver Internet Explorer. Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](/deployedge/edge-ie-mode).
+Den tidligere version af **Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug sammen med den tidligere version af Microsoft Edge.  
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug med Internet Explorer 11 (build 11.0.9600.17239) til Windows 10 (32-bit og 64-bit versioner). Det anbefales, at du opgraderer til den seneste version af Internet Explorer, der understøttes af din version af Windows. Du kan også åbne den nye Edge-browser og stadig få adgang til andre websteder, der kræver Internet Explorer. Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Mobilenheder
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] til Windows kan installeres på enheder med mindst 1 GB RAM og Windows 10, Home, Pro, Enterprise eller Education (32-bit og 64-bit versioner).  
@@ -45,6 +46,13 @@ Før du åbner [!INCLUDE [prodshort](includes/prodshort.md)] online, anbefales d
 
 ## <a name="excel"></a>Excel
 **Rediger i Excel:** Når du vil bruge Excel-tilføjelsesprogrammet til at foretage ændringer i Excel og overføre ændringer til [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du bruge Excel 2016 eller nyere. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  
+
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Sådan bruger du Business Central-administrationscenter
+Administrationscenteret er designet til at fungere sammen med den aktuelle version af følgende browsere:
+- Det nye Microsoft Edge
+- Chrome til Windows
+- Firefox til Windows
+- Safari til macOS
 
 ## <a name="using-business-central-on-premises"></a>Brug af Business Central til det lokale miljø
 

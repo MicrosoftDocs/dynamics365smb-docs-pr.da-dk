@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189479"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272082"
 ---
 # <a name="set-up-printers"></a>Installation af printere
 Da [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-tjeneste, kan den ikke nå lokale printere med forbindelse til brugernes maskiner. Men den kan oprette forbindelse til cloud-kompatible printere. I den generelle version af [!INCLUDE[prodshort](includes/prodshort.md)] er der installeret en cloud-printer med navnet **Mailprinter** som en udvidelse, og den er klar til brug efter den første installation.
@@ -27,6 +27,9 @@ Hvis der ikke er installeret og konfigureret en cloud-printer, eller hvis der op
 På siden **Printerstyring** kan du se de printere, der er konfigurerede. Når du har installeret en eller flere printere, kan du åbne siden **Printervalg** og definere på din brugerkonto, hvilke specifikke rapporter der skal udskrives på hvilken printer.
 
 Når en printer er konfigureret og knyttet til bestemte rapporter, kan du udskrive en rapport ved at trykke på knappen **Udskriv** på rapport anmodningssiden. Du kan få flere oplysninger [Udskrive en rapport](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Ændring størrelsen på udskriftsjob
+Cloud-udskrivning er udviklet til dokumenter med en rimelig størrelse. De fleste cloud-tjenester, herunder PrintNode og HP ePrint, har en begrænsning på 10 MB pr. job. Hvis du skal udskrive større rapporter, skal du muligvis opdele dem i flere udskrifter.
 
 ## <a name="to-set-up-a-printer"></a>Sådan installerer du en printer
 På siden **Printerstyring** kan du se de printere, der er installeret, og du kan få adgang til siden med **Indstillinger** for hver enkelt printer for at redigere en eksisterende opsætning eller installere en ny printer.

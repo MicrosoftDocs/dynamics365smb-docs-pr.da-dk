@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d456fba507977121809124d1de0d23a098406f5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193862"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324410"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 
@@ -40,10 +40,16 @@ Følgende procedure er baseret på en købsfaktura. Trinene er de samme for alle
 2. Åbn den salgsordre, som du vil vedhæfte en fil til.
 3. Åbn fanen **Vedhæftede filer** i faktaboksen.
 4. Vælg værdien bag feltet **Dokumenter**, f.eks. "0".
-5. På siden **Vedhæftede bilag** i feltet **Vedhæftet fil** skal du vælge knappen **Vælg fil**.
+5. På siden **Vedhæftede bilag** i feltet **Vedhæftet fil** skal du vælge handlingen **Vælg fil**.
 5. Vælg en fil fra en placering, og vælg derefter knappen **Åbn**.
 
 Filen er nu vedhæftet til købsfakturaen.
+
+## <a name="to-view-an-attached-file"></a>Sådan ser du en vedhæftet fil
+1. Åbn fanen **Vedhæftede filer** i faktaboksen.
+2. Vælg værdien bag feltet **Dokumenter**, f.eks. "1".
+3. På siden **Vedhæftede bilag** skal du vælge handlingen **Eksempel**.
+4. Åbne den overførte file.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>Sådan gemmer du et dokument som en vedhæftet PDF-fil
 Når du har brug for at gemme et dokument som en fil, kan du bruge handlingen **Vedhæft som PDF** til at hente det aktuelle dokumentindhold som en PDF-fil, der er vedhæftet dokumentets faktaboks. Det er f. eks. nyttigt, når dokumenter følger flere trin i en proces, f. eks. en salgsproces eller en godkendelsesproces, og du vil henvise til en udskrift af det forrige trin.
@@ -53,7 +59,7 @@ Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme f
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
 2. Vælg en salgsordre, og vælg derefter handlingen **Vedhæft som PDF**.
 
-En PDF-fil med det aktuelle indhold i salgsordren tilføjes på fanen **Vedhæftede filer** i faktaboksen. 
+En PDF-fil med det aktuelle indhold i salgsordren tilføjes på fanen **Vedhæftede filer** i faktaboksen.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Sådan tilføjes et link fra et varekort
 Du kan føje et link fra et kort eller et dokument til en hvilken som helst URL-adresse eller sti. Det er nyttigt, når du f.eks. vil knytte et varekort til leverandørens varekatalog.

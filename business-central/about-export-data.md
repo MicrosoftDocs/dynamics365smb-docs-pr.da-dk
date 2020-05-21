@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 04/01/2020
+ms.date: 05/04/2020
 ms.author: edupont
-ms.openlocfilehash: 6e7968f7e37e2bf1e1495331cf863aef34e7e7e4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eb11098292f9d83fcd0a4b23bde9c1813f4c6c8e
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188961"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333880"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdata til Excel
 Hvis du vil arbejde med dine data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel, kan du åbne alle lister i Excel og arbejde med dem der. På samme måde, hvis du vil annullere dit abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du eksportere dataene til Excel, så du kan tage dem med dig.
@@ -64,7 +64,14 @@ Det anbefales, at du også overvejer at eksportere data fra følgende sider:
 * Sælgere  
 
 > [!NOTE]  
->   Hvis du har oprettet mere end én virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du eksportere de relevante data fra hver virksomhed.
+> Hvis du har oprettet mere end én virksomhed i [!INCLUDE[prodshort](includes/prodshort.md)], skal du eksportere de relevante data fra hver virksomhed.
+
+> [!NOTE]
+> Du skal have mindst én af følgende tilladelser for at kunne åbne eller redigere data i Excel:
+>    - Tilladelsessæt *D365 Excel-eksporthandling*  
+>    - Systemtilladelse 6110 *Tillad handlingen Eksporter til Excel*.  
+
+Du kan finde flere oplysninger i [Sådan får du vist en oversigt over en brugers rettigheder](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

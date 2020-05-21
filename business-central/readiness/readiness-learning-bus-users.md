@@ -2,15 +2,15 @@
 title: Undervisningskatalog for forretningsbrugere
 description: Find al tilgængelig undervisning i Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190847"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271938"
 ---
 # <a name="business-users-learning-catalog"></a>Undervisningskatalog for forretningsbrugere
 
@@ -33,7 +33,7 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 | [Bruge omkostningsregnskab i Microsoft Dynamics 365 Business Central](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | Skal du bruge omkostningsregnskab i din virksomhed? Denne læringssti kan hjælpe dig med at komme i gang med omkostningsregnskab i Business Central. Den forklarer opsætning af omkostningsregnskab, oprettelse af stamdata til omkostningsregnskab, overførsel af transaktioner og allokering af omkostninger til en gruppe af konti.   | Gratis onlinelæringssti i dit eget tempo | 3 timer og 16 minutter |
 | [Bruge kladder i Microsoft Dynamics 365 Business Central](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | Har du brug for at oprette og bogføre kladdeposter i Business Central? Så er denne sti for dig. Opsætning af finanskladdetyper, oprettelse af kladdetransaktioner, herunder gentagelsestransaktioner og bogføringstransaktioner behandles alle i modulerne for denne læringssti.                  | Gratis onlinelæringssti i dit eget tempo | 2 timer og 1 minut   |
 | [Afstemme bankkonti i Microsoft Dynamics 365 Business Central](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | Vil du finde ud af, hvordan du kan afstemme bankkonti i Business Central? Funktionen til bankafstemning og afstemningskladderne gennemgås i denne læringssti.                                                                                                                           | Gratis onlinelæringssti i dit eget tempo | 1 time og 3 minutter   |
-| [Bruge flere valutaer i Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Arbejder du med flere valutaer? Hvis du gør det, vil denne sti hjælpe dig med at forstå de trin, du skal udføre for at oprette og bruge flere valutaer, behandle betalinger og fakturaer i forskellige valutaer og justere valutakurser, når det er nødvendigt.                                             | Gratis onlinelæringssti i dit eget tempo | 3 timer og 4 minutter  |
+| [Bruge flere valutaer i Microsoft Dynamics 365 Business Central](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Arbejder du med flere valutaer? Hvis du gør det, vil denne sti hjælpe dig med at forstå de trin, du skal udføre for at oprette og bruge flere valutaer, behandle betalinger og fakturaer i forskellige valutaer og justere valutakurser, når det er nødvendigt.                                             | Gratis onlinelæringssti i dit eget tempo | 3 timer og 4 minutter  |
 | [Oprette finansrapporter i Microsoft Dynamics 365 Business Central](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | Er du ansvarlig for at generere finansrapporter fra Business Central? Denne læringssti beskriver oprettelse af budgetter og brug af kontoskemaer, dimensioner og XBRL (eXtensible Business Reporting Language) til at generere de finansrapporter, der typisk er nødvendige i de fleste virksomheder. | Gratis onlinelæringssti i dit eget tempo | 3 timer og 44 minutter |
 | [Behandle finansielle periodiske aktiviteter i Microsoft Dynamics 365 Business Central](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Har du ansvaret for periode- og årsafslutningsprocesser? Gennemfør dette modul, som beskriver, hvordan du sender rykkere og rentenotaer til debitorer. Det beskriver også Intrastat-behandling og -rapportering og afslutning af et regnskabsår.                                                     | Gratis onlinelæringssti i dit eget tempo | 3 timer og 3 minutter  |
 ## <a name="trade"></a>Handel<a name="trade"></a>

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9e485f2051cb045db6f106377521973a45546ad7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2ff842cc12ea820c9a2fe180cd4dd2eef3ecc18f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193655"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324314"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.  
@@ -109,6 +109,7 @@ Du kan også oprette direkte betalte fakturaer for ikke-registrerede kunder ved 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
+[Udskrive pluklisten](sales-how-print-picking-list.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Massefakturering fra Microsoft Bookings i Business Central](finance-bookings.md)  

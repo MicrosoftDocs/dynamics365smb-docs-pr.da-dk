@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: d559eb54b727a60c2135a10ec23fc31b33241832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190631"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324338"
 ---
 # <a name="setting-up-manufacturing"></a>Konfigurere produktion
 Hvis du vil konvertere materialer til fremstillede færdigvarer, skal produktionsressourcer, f.eks. styklister, ruter, maskinoperatører og maskiner, konfigureres i systemet.
@@ -24,11 +24,14 @@ Operatører og maskiner repræsenteres i systemet af produktionsressourcer, der 
 
 Når du har defineret en produktion, kan du planlægge og udføre produktionsordrer. Du kan finde flere oplysninger i [Planlægning](production-planning.md) og [Produktion](production-manage-manufacturing.md).  
 
+
+
  Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Konfigurere produktionsfunktioner som f.eks. angivelse af produktionsarbejdstimer og valg af planlægningsprincipper.|Siden **Produktionsopsætning**.|  
+|Konfigurere produktionsfunktioner som f.eks. angivelse af produktionsarbejdstimer og valg af planlægningsparametre.|Siden **Produktionsopsætning**.|
+|På fanen **Planlægning** på siden **Produktionsopsætning** skal du angive globale planlægningsparametre, der tilsidesætter parametre, som er angivet på individuelle varekort.|[Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)|
 |Definer en standardarbejdsuge i produktionen med hensyn til start- og sluttidspunkter for hver enkelt arbejdsdag og relaterede arbejdsskift.|[Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md)|  
 |Organiser faste værdier og behov for produktionsressourcer som arbejdscentre eller produktionsressourcer for at styre outputtet af den udførte produktion.|[Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md)|
 |Organiser produktionsoperationer i den rækkefølge, der kræves, og tildel dem til arbejdscentre eller produktionsressourcer med de nødvendige arbejdstider.|[Oprette ruter](production-how-to-create-routings.md)|

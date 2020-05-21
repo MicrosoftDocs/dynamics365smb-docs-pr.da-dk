@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
 ms.date: 01/17/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccd371711a53c598279fcc981c5581be5ee9bdaf
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196841"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324050"
 ---
 # <a name="data-ownership-models"></a>Modeller for ejerskab af data
 [!INCLUDE[d365fin](includes/cds_long_md.md)] kræver, at du angiver en ejer af de data, du gemmer. Du kan få flere oplysninger i [Ejerskab af objekter](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) i Power Apps-dokumentationen. Når du konfigurerer integrationen mellem [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du vælge en af to ejerskabsmodeller til poster, der er synkroniserede:
@@ -34,6 +34,9 @@ Da forretningsenheder ikke har nogen juridiske og forretningsmæssige konsekvens
 * Vi opretter en standard-virksomhedsafdeling, der har samme navn som virksomheden. Cronus International Ltd. har for eksempel (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Vi opretter en særskilt ejergruppe med samme navn som virksomheden og knytter den til afdelingen. Navnet på teamet har præfikset "BCI-". BCI - Cronus International Ltd. har for eksempel (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Poster, der oprettes og synkroniseres til [!INCLUDE[d365fin](includes/cds_long_md.md)], knyttes til den "BCI-ejer"-gruppe, som er knyttet til afdelingen.
+
+> [!NOTE]
+> Hvis du omdøber et firma i [!INCLUDE[d365fin](includes/d365fin_md.md)], opdateres navnene på virksomheden, forretningen og det team, som vi opretter automatisk i [!INCLUDE[d365fin](includes/cds_long_md.md)], ikke. Da det kun er virksomheds-id'et, der bruges til integration, påvirker dette ikke synkroniseringen. Hvis navnene skal stemme overens, skal du opdatere virksomheden, afdelingen og teamet i [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 Følgende billede viser et eksempel på dataopsætning i [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -56,11 +59,17 @@ Synkroniseringen bestemmer, hvilket team der skal eje regnskaber. Dette styres a
 > [!NOTE]
 > Posterne bliver skrivebeskyttet, når en virksomhed er blevet tilføjet og gemt. Derfor skal du sørge for at vælge den rigtige virksomhed.
 
-### <a name="choosing-a-different-business-unit"></a>Sådan vælger du en anden afdeling
-Du kan ændre den valgte afdeling. Hvis du vælger en anden afdeling, vil f. eks den, som du har oprettet tidligere i CDS, beholde sit oprindelige navn. Det vil sige, at den ikke får et suffiks med virksomheds-id'et. Vi opretter et team, der bruger navngivningskonventionen.
+## <a name="choosing-a-different-business-unit"></a>Sådan vælger du en anden afdeling
+Du kan vælge en ny afdeling, hvis du bruger ejerskabsmodellen Teams. Hvis du bruger ejerskabsmodellen Person, vælges standardafdelingen altid. 
+
+Hvis du vælger en anden afdeling, f. eks den, som du har oprettet tidligere i [!INCLUDE[d365fin](includes/cds_long_md.md)], beholder den sit oprindelige navn. Det vil sige, at den ikke får et suffiks med virksomheds-id'et. Vi opretter et team, der bruger navngivningskonventionen.
+
+Når du ændrer en afdeling, kan du kun vælge de afdelinger, der er ét niveau under rodafdelingen.
 
 ## <a name="person-ownership"></a>Personejerskab
-Hvis du vælger modellen Personejerskab, skal du angive hver sælger, der skal eje nye poster. Afdelingen og teamet oprettes som beskrevet i det foregående afsnit.  
+Hvis du vælger modellen Personejerskab, skal du angive hver sælger, der skal eje nye poster. Afdelingen og teamet oprettes som beskrevet i sektionen [Teamejerskab](admin-cds-company-concept.md#team-ownership).
+
+Standardafdelingen bruges, når ejerskabsmodellen Person vælges, og du kan ikke vælge en anden afdeling. Det team, der er knyttet til standardafdelingen, vil eje poster for fælles objekter, f. eks. produktobjekter, som ikke er knyttet til bestemte sælgere.
 
 ## <a name="see-also"></a>Se også
 [Om [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

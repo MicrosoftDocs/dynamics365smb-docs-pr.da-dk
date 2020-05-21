@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: d54a75372fb60a9a7d5903182ced3ff45f1b0848
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f65503bf00afbe03c542bb486b32b4c18de7c198
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187360"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339894"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?
 Det er vigtigt at træffe den rette beslutning, når du vælger et forretningsprogram, og vi ved, at det kan tage tid at undersøge alle kroge af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du har brug for mere tid til at foretage en evaluering, kan du selv forlænge prøveperioden med yderligere 30 dage. Når udløbsdatoen for din prøveperiode nærmer sig, vises en meddelelse, når du logger på. Meddelelsen indeholder et link til vejledningen **Udvid prøveperiode**, som du kan bruge til at udvide prøveperioden. De ekstra 30 dage begynder, så snart du vælger **Udvid prøveversion** i vejledningen.
@@ -25,7 +25,7 @@ Hvis du udvider prøveperioden selv, er det en éngangsforteelse. Du kan ikke ud
 
 ## <a name="to-extend-your-trial-period"></a>Sådan udvider du din prøveperiode
 
-1. Log på [!INCLUDE[prodshort](includes/prodshort.md)].
+1. Log ind i [!INCLUDE[prodshort](includes/prodshort.md)] på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
     Log på med den mailkonto, som du brugte, da du tilmeldte dig prøveversionen.  
 
@@ -34,13 +34,17 @@ Hvis du udvider prøveperioden selv, er det en éngangsforteelse. Du kan ikke ud
 
     Hvis du har afvist notifikationen, skal du logge ud og derefter logge ind igen.
 
-Hvis organisationen har et forhandlersamarbejde med en partner, kan vedkommende logge på din [!INCLUDE [prodshort](includes/prodshort.md)] som delegeret administrator og køre den samme vejledning til **Forlængelse af prøveperiode**. Vedkommende kan også kontakte Microsofts supportafdeling for at forlænge prøveperioden. Få flere oplysninger i [Forlængelse af prøveperioder (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
-
 ## <a name="what-happens-if-my-trial-period-is-expired"></a>Hvad sker der, hvis min prøveperiode er udløbet?
 
 Hvis din første 30-dages prøveperiode er udløbet, kan du selv udvide den som beskrevet ovenfor og fortsætte, som du plejer. Du skal logge på demoregnskabet og starte vejledningen **Udvid prøveperiode** fra meddelelsen.  
 
-Hvis du har oprettet dit eget regnskab, skal du logge af og derefter logge på igen med legitimationsoplysningerne for regnskabet. Hvis den udvidede prøveperiode er udløbet, kan du [abonnere](https://go.microsoft.com/fwlink/?linkid=828659) på [!INCLUDE[d365fin](includes/d365fin_md.md)] inden for 90 dage og fortsætte med at arbejde i det regnskab, du har oprettet. Vi sletter dit regnskab og dine data efter 90 dage.  
+Hvis du har oprettet dit eget regnskab, skal du logge af og derefter logge på igen med legitimationsoplysningerne for regnskabet.  
+
+Hvis organisationen har et forhandlersamarbejde med en partner, kan vedkommende logge på din [!INCLUDE [prodshort](includes/prodshort.md)] som delegeret administrator og køre den samme vejledning til **Forlængelse af prøveperiode**. Få flere oplysninger i [Forlængelse af prøveperioder (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
+
+Men efter denne anden forlængelse, der har givet din organisation en prøveperiode på op til 90 dage, skal du enten abonnere på [!INCLUDE [prodshort](includes/prodshort.md)] eller annullere [!INCLUDE [prodshort](includes/prodshort.md)]. Hvis du beslutter dig for ikke at fortsætte, anbefaler vi, at du eksporterer alle de data, som du har brug for i dit regnskab.
+
+Når den forlængede prøveperiode er udløbet, kan du [abonnere](https://go.microsoft.com/fwlink/?linkid=828659) på [!INCLUDE[prodshort](includes/prodshort.md)] inden for 90 dage og fortsætte med at arbejde i det regnskab, du har oprettet. 90 dage efter udløbet af den forlængede prøveperiode sletter vi dit regnskab og dine data, medmindre du opretter et abonnement.  
 
 ## <a name="see-also"></a>Se også
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194471"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324026"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 [!INCLUDE[d365fin](includes/d365fin_md.md)]-sikkerhedssystemet giver dig mulighed for at styre, hvilke objekter en bruger kan få adgang til inden for hver database eller hvert miljø. Du kan angive for hver bruger, om de kan læse, ændre eller indtaste data i de valgte databaseobjekter. Du kan finde flere oplysninger ved at se [Datasikkerhed](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjælp til udviklere og it-eksperter for [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -106,6 +106,26 @@ Du kan også bruge en kopieringsfunktion til hurtigt at overføre alle rettighed
 
 Det nye rettighedssæt, der indeholder alle rettigheder for det kopierede rettighedssæt, tilføjes som en ny linje på siden **Rettighedssæt**. Du kan nu ændre rettigheden i det nye rettighedssæt. Bemærk, at linjerne sorteres alfabetisk inden for hver type.
 
+### <a name="to-export-and-import-a-permission-set"></a>Sådan eksporteres og importeres et tilladelsessæt
+Hvis du hurtigt vil oprette tilladelser, kan du importere tilladelsessæt, som du har eksporteret fra en anden [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer.
+
+I miljøer med flere lejere indlæses et tilladelsessæt i en bestemt lejer, dvs. omfanget af importen er "lejer".
+
+1. I lejer 1 på siden **Rettighedssæt** skal du vælge linjen eller de linjer til rettighedssættene, der skal eksporteres, og derefter vælge handlingen **Eksportér rettighedssæt**.
+
+    En XML-fil oprettes i mappen Overførsler på din computer. Som standard hedder filen "Export Permission Sets.xml"
+
+2. I lejer 2 på siden **Rettighedssæt** skal du vælge handlingen **Importer rettighedssæt**.
+3. På dialogsiden **Importer rettighedssæt** skal du overveje, om du vil flette eksisterende rettighedssæt med nye rettighedssæt i XML-filen.
+
+    Hvis du markerer afkrydsningsfeltet **Opdater eksisterende tilladelser**, flettes de eksisterende rettighedssæt med samme navn som dem i XML-filen med de importerede rettighedssæt.
+
+    Hvis du ikke markerer afkrydsningsfeltet **Opdater eksisterende tilladelser**, springes rettighedssæt med samme navn som dem i XML-filen over, når der importeres. Hvis det er tilfældet, vil du få besked om, hvilke rettighedssæt der springes over.
+
+4. På dialogsiden **Import** skal du finde og vælge den .xml-fil, der skal importeres, og derefter vælge handlingen **Åbn**.
+
+Rettighedssættene importeres.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Sådan oprettes eller redigeres rettigheder manuelt
 Denne fremgangsmåde beskriver, hvordan du kan tilføje eller redigere rettigheder manuelt. Du kan også få en rettighed oprettet automatisk på grundlag af dine handlinger i brugergrænsefladen. Du kan finde flere oplysninger i [Sådan opretter eller redigerer du rettigheder ved at registrere dine handlinger](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -187,6 +207,9 @@ Følgende procedure beskriver, hvordan du tildeler rettighedssæt til en brugerg
 2. På siden **Brugere** skal du vælge den relevante bruger og derefter vælge handlingen **Rettighedssæt efter brugergruppe**.
 3. På siden **Rettighedssæt efter brugergruppe** skal du markere afkrydsningsfeltet **[brugergruppenavn]** på en linje for det relevante rettighedssæt for at tildele sættet til brugergruppen.
 4. Marker afkrydsningsfeltet **Alle brugergrupper** for at tildele rettighedssættet til alle brugergrupper.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Sådan fjernes forældede rettigheder fra alle rettighedssæt
+1. På siden **Rettighedssæt** skal du vælge handlingen **Fjern forældede rettigheder**.
 
 ## <a name="to-set-up-user-time-constraints"></a>Sådan opsættes tidsbegrænsninger for brugere
 Administratorer kan definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på. Administratorer kan også knytte ansvarscentre til brugere. Du kan finde flere oplysninger i [Arbejde med ansvarscentre](inventory-responsibility-centers.md).

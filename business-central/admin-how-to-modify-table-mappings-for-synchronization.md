@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: d8377e5042ac647386e1b3b02e1f97d2e14eb3ae
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196515"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271986"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilknytning af tabeller og felter til synkronisering
 Grundlaget for synkronisering af data i [!INCLUDE[d365fin](includes/d365fin_md.md)] med data i [!INCLUDE[d365fin](includes/cds_long_md.md)] er at tilknytte de tabeller og felter, der indeholder dataene, til hinanden. Tilknytningen sker via integrationstabeller. 
 
 ## <a name="mapping-integration-tables"></a>Integrationstabeller til tilknytning
-En integrationstabel er en tabel i databasen [!INCLUDE[d365fin](includes/d365fin_md.md)], der repræsenterer en enhed som f.eks. en konti i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Integrationstabeller omfatter felter, der svarer til felterne i tabellen for enheden [!INCLUDE[d365fin](includes/cds_long_md.md)]. Integrationstabellen Konto opretter f.eks. forbindelse til objektet Konti i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Der skal være en integrationstabel, der tilknytter hver enhed i [!INCLUDE[d365fin](includes/cds_long_md.md)], som du vil synkronisere med data i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+En integrationstabel er en tabel i databasen [!INCLUDE[d365fin](includes/d365fin_md.md)], der repræsenterer en enhed som f.eks. en konti i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integrationstabeller omfatter felter, der svarer til felterne i tabellen for enheden [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integrationstabellen Konto opretter f.eks. forbindelse til objektet Konti i [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Der skal være en integrationstabel, der tilknytter hver enhed i [!INCLUDE [cds_short_md](includes/cds_short_md.md)], som du vil synkronisere med data i [!INCLUDE[prodshort](includes/prodshort.md)].
 
 Når du opretter forbindelsen mellem appsene, opretter [!INCLUDE[d365fin](includes/d365fin_md.md)] nogle standardtabel- og felttilknytninger. Hvis du vil, kan du ændre tabelknytningerne. Få flere oplysninger i [Standard-objekttilknytning til synkronisering](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Hvis du har ændret standardtilknytningerne og vil gendanne dine ændringer, skal du på siden **[!INCLUDE[d365fin](includes/cds_long_md.md)]-forbindelsesopsætning** vælge **Brug standardopsætning af synkronisering**.
 

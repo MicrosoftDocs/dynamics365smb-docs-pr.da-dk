@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: fc7a0c6f750958cb35b2a85ed9d548f2e8219484
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182320"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324242"
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
@@ -34,7 +34,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver tilgængelighedstal typisk 
 * Feltet **Planlagt disponibel balance** beregnes og viser lagerbeholdningen plus fastlagte tilgange minus bruttobehovet. (I [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer fastlagte tilgange antal på købsordrer og indgående overflytningsordrer. Bruttobehov omfatter antal på salgsordrer og udgående overflytningsordrer).
 
 > [!TIP]  
->   Den planlagte disponible balance er især relevant at få vist på siderne **Varedisponering pr. periode** og **Varedisponering pr. hændelse**, da de indeholder datedimensionen.  
+>   Den planlagte disponible saldo er især relevant at få vist på siderne **Varedisponering pr. periode** og **Varedisponering pr. hændelse**, da de indeholder datodimensionen.  
 
 > [!NOTE]  
 >   De følgende procedurer beskriver, hvordan du får vist avancerede tilgængelighedsoplysninger fra varelisten og varekortet. Du kan også få adgang til oplysninger fra salgsdokumentlinjer for varen på linjen. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
@@ -80,9 +80,9 @@ Du får vist disponeringen for alle dine varer på tværs af alle dine lokatione
 3. Vælg værdien i feltet **Beholdning** for at få vist de vareposter, der udgør værdien.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Sådan får du vist tilgængeligheden af en vare ud fra brugen af den på montage- eller produktionsstyklister
-Hvis en vare findes på montage- eller produktionsstyklister, enten som en overordnet vare eller som en komponent, kan du se, hvor mange enheder af den der er påkrævet, på siden **Varedisponering pr. styklisteniveau**. Siden angiver, hvor mange enheder af en overordnet vare, du kan fremstille, baseret på tilgængeligheden af underordnede varer eller underliggende linjer. En vare med en montage- eller produktionsstykliste vises på siden som en linje, der kan skjules. Du kan udvide denne linje for at få vist de underliggende komponenter og halvfabrikata på lavere niveau med deres egne styklister.
+Hvis en vare er en del af montage- eller produktionsstyklister, enten som en overordnet vare eller som en komponent, kan du se, hvor mange enheder af den der er påkrævet, på siden **Varedisponering pr. styklisteniveau**. Siden angiver, hvor mange enheder af en overordnet vare du kan fremstille, baseret på tilgængeligheden af underordnede varer eller underliggende linjer. En vare med en montage- eller produktionsstykliste vises på siden som en linje, der kan skjules. Du kan udvide denne linje for at få vist de underliggende komponenter og halvfabrikata på lavere niveau med deres egne styklister.
 
-Du kan bruge siden til at finde ud af, om du kan opfylde en salgsordre for en vare på en bestemt dato ved at kigge på den aktuelle tilgængelighed og de mængder, der kan leveres med dens komponenter. Du kan også bruge siden til at identificere flaskehalse i relaterede styklister.
+Du kan f.eks. bruge siden til at finde ud af, om du kan opfylde en salgsordre for en vare på en bestemt dato ved at kigge på den aktuelle tilgængelighed og de mængder, der kan leveres med dens komponenter. Du kan også bruge siden til at identificere flaskehalse i relaterede styklister.
 
 På hver linje på siden for både overordnede og underordnede varer angiver følgende nøglefelter tilgængelighedstallene. Du kan bruge disse tal til at love, hvor mange enheder af en overordnet vare, du kan levere, hvis du starter den relaterede montageproces.
 
@@ -99,8 +99,11 @@ Siden **Varedisponering pr. styklisteniveau** viser oplysninger for varen på de
 
 Feltet **Flaskehals** angiver, hvilken vare i styklistestrukturen, der begrænser dig i at fremstille en større mængde end den mængde, der vises i feltet **Kan blive topvare**. For eksempel kan flaskehalsvaren være en købt komponent med en forventet modtagelsesdato, der er for sen til, at der kan oprettes supplerende enheder af topvaren efter datoen i feltet **Behovsdato**.
 
-### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Sådan vises disponeringen for en vare pr. enhed
-Siden **Disponering af vare efter enhed** viser disponeringen af en vare opdelt i de forskellige enheder, den opbevares i.
+## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Sådan vises disponeringen for en vare pr. enhed
+Siden **Disponering af vare efter enhed** viser disponeringen af en vare opdelt i de enheder, den opbevares i.
+
+> [!NOTE]  
+> Hvis du vil holde disse oplysninger ajourførte, skal du konvertere Vareenheder. Hvis du f.eks. køber en vare i en enhed, f. eks. kasser, og du sælger varer i en anden enhed, f. eks. styk, skal du bruge en varekladde til at konvertere enhederne eller "pakke varer ud". Du kan bruge en kladdelinje for en vare med nedregulering til at reducere lagerbeholdningen i købets måleenhed, f. eks. kasser, og en opregulering for at øge lagerbeholdningen i salgsenheder, f. eks. stykker. 
 
 ## <a name="assembly-availability-page"></a>Siden Montagedisponering
 Siden **Montagedisponering** indeholder detaljerede disponeringsoplysninger for montageelementet. Vinduet åbnes:

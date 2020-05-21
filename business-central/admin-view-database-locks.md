@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 1153ffc97d0f22c889ff23c5a27a8c0446b17018
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: abee0f31d66f648f4b0be567d8599b31c536a193
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196372"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324098"
 ---
 # <a name="viewing-database-locks"></a>Sådan ser du databaselåse
 
@@ -29,8 +29,8 @@ Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "
 
 Siden **Databaselåse** viser et øjebliksbillede af alle aktuelle databaselåse.
 
-Få flere oplysninger om låsning af databaser i [Overvågning af databaselåsninger](/dynamics365/business-central/a/dev-itpro/administration/monitor-database-locks) i hjælp til Business Central-udviklere og it-eksperter.
+Få flere oplysninger om låsning af databaser i [Overvågning af databaselåsninger](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) i hjælp til Business Central-udviklere og it-eksperter.
 
 ## <a name="see-also"></a>Se også
 
-[Overvåg låsninger af databaser](/dynamics365/business-central/a/dev-itpro/administration/monitor-database-locks) 
+[Overvåg låsninger af databaser](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
