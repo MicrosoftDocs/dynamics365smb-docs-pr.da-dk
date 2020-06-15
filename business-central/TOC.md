@@ -99,7 +99,7 @@
 ### [Oversigt](bank-setup-banking.md)
 ### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
 ### [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
-### [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
+### [Brug af AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
 ### [Vælge et checklayout](finance-how-define-check-layouts.md)
 
 ## Konfigurere salg
@@ -302,7 +302,7 @@
 #### [Opdatere valutakurser](finance-how-update-currencies.md)
 #### [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
+#### [Brug af AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
 #### [Konfigurere tjenesten til bankkontoudtog](bank-how-setup-bank-statement-service.md)
 #### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
 #### [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -318,7 +318,7 @@
 #### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Opdatere valutakurser](finance-how-update-currencies.md)
 #### [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Felttilknytning for AMC Banking365 Fundamentals-udvidelse](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Felttilknytning for AMC Banking 365 Fundamentals-udvidelsen](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Opsætning
 ## [Oversigt](admin-setup-and-administration.md)
@@ -544,6 +544,7 @@
 ## [Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)
 ## [Oprette et forecast](production-how-to-create-a-forecast.md)
 ## [Flette dublerede poster](sales-how-merge-duplicate-records.md)
+## [Arbejde med tilbagevendende indtægt](finance-recurring-invoicing.md)
 
 # Indkøb
 ## [Oversigt](purchasing-manage-purchasing.md)
