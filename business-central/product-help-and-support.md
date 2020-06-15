@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: b78c728cd92ed8c4bc4e41da189c4ddfd877b1b6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/04/2020
+ms.openlocfilehash: 787d2ec0d838e89943dc375db8d43c33be193d0b
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190127"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428367"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
@@ -68,9 +68,11 @@ Sørg for at søge listen over indsendte forslag igennem. Chancen for, at nogen 
 
 Sektionen **Fejlfinding** viser teknisk information, som din administrator eller [!INCLUDE[prodshort](includes/prodshort.md)]-partner kan benytte for at give brugere adgang. Dette omfatter information om den seneste fejlbesked, den nuværende version af dit [!INCLUDE[prodshort](includes/prodshort.md)], og et link til siden **Sideinspektion**. Se [Inspektion af sider i Business Central](across-inspect-page.md) for yderligere information.  
 
+Som den interne administrator har du adgang til administrationen, hvor du kan fortsætte fejlfindingen. Du kan finde flere oplysninger under [Finde tekniske oplysninger](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) i administrationsindholdet.  
+
 ## <a name="report-a-problem"></a>Rapporter et problem
 
-Din [!INCLUDE[prodshort](includes/prodshort.md)]-detailpartner kan hjælpe dig med teknisk support. [!INCLUDE[prodshort](includes/prodshort.md)] sælges gennem partnere, og denne sektion gør det nemt for dig at kontakte din detailforhandler, hvis de har angivet deres supportkontaktoplysninger. Hvis din [!INCLUDE[prodshort](includes/prodshort.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp.  
+Din [!INCLUDE[prodshort](includes/prodshort.md)]-detailpartner kan hjælpe dig med teknisk support. [!INCLUDE[prodshort](includes/prodshort.md)] sælges gennem partnere, og denne sektion gør det nemt for dig at kontakte din detailforhandler, hvis de har angivet deres supportkontaktoplysninger. Hvis din [!INCLUDE[prodshort](includes/prodshort.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp. Du kan finde flere oplysninger under [Eskalere supportproblemer til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) i administrationsindholdet.  
 
 > [!NOTE]
 > Denne sektion er kun tilgængelig, hvis du har betalt for et [!INCLUDE [prodshort](includes/prodshort.md)]-abonnement. Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[prodshort](includes/prodshort.md)], har du ikke en forhandlerpartner, og du ikke kan kontakte Microsofts supportteam. Du kan finde en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner).  

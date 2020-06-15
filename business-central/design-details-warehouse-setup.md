@@ -8,47 +8,49 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbcadecf7648a1ddd6d41d968dcdf26d78b79001
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cd2a282e95e324e3adbf06cb72c53467f63c227b
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184528"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435227"
 ---
 # <a name="design-details-warehouse-setup"></a>Designoplysninger: Opsætning af lager
+
 Lagerfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen. Desuden styrer programobjekter i licensen, hvilket UI-dokument der skal bruges til de understøttede lageraktiviteter.  
 
 Der findes følgende lagerrelaterede moduler:  
 
--   Grundlæggende lagerbeholdning (4010)  
--   Placering (4170)  
--   Læg-på-lager (4180)  
--   Lagermodtagelse (4190)  
--   Pluk (4200)  
--   Lagerleverance (4210)  
--   Logistiksystemer (4620)  
--   Interne pluk og læg-på-lager (4630)  
--   Automated Data Capture System (4640) 
--   Opsætning af placering (4660)  
+- Grundlæggende lagerbeholdning (4010)  
+- Placering (4170)  
+- Læg-på-lager (4180)  
+- Lagermodtagelse (4190)  
+- Pluk (4200)  
+- Lagerleverance (4210)  
+- Logistiksystemer (4620)  
+- Interne pluk og læg-på-lager (4630)  
+- Automated Data Capture System (4640)
+- Opsætning af placering (4660)  
 
 Du kan finde flere oplysninger om hvert begreb i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prisark](https://go.microsoft.com/fwlink/?LinkId=238341) (kræver PartnerSource-konto).  
 
 Følgende tabel viser, hvilke moduler der er nødvendige for at definere forskellige lagerkompleksitetsniveauer, hvilke dokumenter til brugergrænsefladen der understøtter hvert niveau, og hvilke lokationskoder der afspejler disse niveauer i [!INCLUDE[d365fin](includes/d365fin_md.md)]-demodatabasen.  
 
 |Kompleksitetsniveau|Beskrivelse|Brugergrænsefladedokument|CRONUS-lokation|Mindste modulkrav|  
-|----------------------|---------------------------------------|-----------------|---------------------------------|---------------------------------|  
+|----------------|-----------|-----------|---------------|---------------------------|  
 |1|Ingen dedikeret lageraktivitet.<br /><br /> Modtag/levér-bogføring fra ordrer.|Ordre|BLÅ|Grundlæggende lagerbeholdning|  
 |2|Ingen dedikeret lageraktivitet.<br /><br /> Modtag/levér-bogføring fra ordrer.<br /><br /> Placeringskode er påkrævet.|Ordre, med placeringskode|SØLV|Grundlæggende lagerbeholdning/Placering|  
 |3 <br /><br /> **Bemærk:** Selvom indstillingerne kaldes **Kræv pluk** og **Kræv læg-på-lager**, kan du bogføre modtagelser og leverancer direkte fra kildeforretningsdokumenterne på lokationer, hvor du kan markerer disse afkrydsningsfelter.|Grundlæggende lageraktivitet, ordre-for-ordre.<br /><br /> Modtag/levér-bogføring fra lager, læg-på-lager/plukdokumenter. <br /><br /> Placeringskode er påkrævet.|Lager, læg-på lager/flytning (lager)/lagerpluk med placeringskode|(SØLV + Kræv læg-på-lager eller Kræv læg-på-lager)|Grundlæggende lagerbeholdning/Placering/Læg-på-lager/Pluk|  
 |4|Avanceret lageraktivitet for flere ordrer.<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer.|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Plukkladde|GRØN|Grundlæggende lagerbeholdning/Lagermodtagelse/Læg-på-lager/Pluk/Lagerleverance|  
 |5|Avanceret lageraktivitet for flere ordrer.<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer.<br /><br /> Placeringskode er påkrævet.|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Plukkladde/Læg på lager-kladde, med placeringskode|(GRØN + Tvungen placering)|Grundlæggende lagerbeholdning/Placering/Lagermodtagelse/Læg-på-lager/Pluk/Lagerleverance|  
-|6 <br /><br /> **Bemærk**: Dette niveau omtales som "Logistik", da det kræver de mest avancerede detaljerede logistiksystemer.|Avanceret lageraktivitet for flere ordrer<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer<br /><br /> Placeringskode er påkrævet.<br /><br /> Zone/klassekode er valgfrit.<br /><br /> Lagermedarbejdere, der er styret af arbejdsproces<br /><br /> Planlægning af placeringsgenbestilling<br /><br /> Placeringsniveau<br /><br /> Opsætning af placering efter kapacitet<br /><br /> Allokering  <!-- Hand-held device integration -->|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Bevægelse (logistik)/Plukkladde/Læg på lager-kladde/Internt lagerpluk/Internt læg-på-lager, med placering/klasse/zonekode<br /><br /> Forskellige kladder til styring af placering<br /><br /> ADCS-skærme|HVID|Grundlæggende lagerbeholdning/Placering/Læg-på-lager/Lagermodtagelse/Pluk/Lagerleverance/Logistik/Internt pluk og læg-på lager/Placeringsopsætning/<!-- Automated Data Capture System/ -->Opsætning af placering|  
+|6 <br /><br /> **Bemærk**: Dette niveau omtales som "Logistik", da det kræver de mest avancerede detaljerede logistiksystemer.|Avanceret lageraktivitet for flere ordrer<br /><br /> Konsolideret modtag/levér-bogføring baseret på lagerstedets læg-på-lager-/plukregistreringer<br /><br /> Placeringskode er påkrævet.<br /><br /> Zone/klassekode er valgfrit.<br /><br /> Lagermedarbejdere, der er styret af arbejdsproces<br /><br /> Planlægning af placeringsgenbestilling<br /><br /> Placeringsniveau<br /><br /> Opsætning af placering efter kapacitet<br /><br /> Allokering <!-- Hand-held device integration -->|Lagermodtagelse/Læg-på-lager (logistik)/Pluk (logistik)/Pluk (logistik)/Bevægelse (logistik)/Plukkladde/Læg på lager-kladde/Internt lagerpluk/Internt læg-på-lager, med placering/klasse/zonekode<br /><br /> Forskellige kladder til styring af placering<br /><br /> ADCS-skærme|HVID|Grundlæggende lagerbeholdning/Placering/Læg-på-lager/Lagermodtagelse/Pluk/Lagerleverance/Logistik/Internt pluk og læg-på lager/Placeringsopsætning/<!-- Automated Data Capture System/ -->Opsætning af placering|  
 
-Se eksempler på, hvordan brugergrænsefladeelementer bruges afhængigt af kompleksitetsniveauet på lageret, i [Designoplysninger: Indgående lagerflow](design-details-outbound-warehouse-flow.md).  
+Se eksempler på, hvordan brugergrænsefladeelementer bruges afhængigt af kompleksitetsniveauet på lageret, i [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a>Placering og placeringsindhold  
+## <a name="bin-and-bin-content"></a>Placering og placeringsindhold
+
 En placering er en lagerenhed, der er beregnet til at indeholde adskilte dele. Det er den mindste containerenhed i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Antal varer på placeringer kaldes placeringsindhold. Et opslag fra feltet **Vare** eller feltet **Placeringskode** i enhver lagerrelateret dokumentlinje viser den beregnede beholdning af varen på placeringen.  
 
 Placeringsindhold kan gives egenskaben Fast, Dedikeret eller Standard for at definere, hvordan du kan bruge placeringsindholdet. Placeringer uden nogen af disse egenskaber kaldes løse placeringer.  
@@ -64,7 +66,8 @@ Egenskaben for standardplacering bruges af systemet til at foreslå placeringer 
 
 Der kan kun være en standardplacering pr. vare pr. lokation.  
 
-## <a name="bin-type"></a>Placeringstype  
+## <a name="bin-type"></a>Placeringstype
+
 I logistikinstallationer kan du begrænse de lageraktiviteter, der er tilladt for en placering, ved at tildele en placeringstype. Der findes følgende placeringstyper:  
 
 |Placeringstype|Beskrivelse|  
@@ -79,9 +82,10 @@ I logistikinstallationer kan du begrænse de lageraktiviteter, der er tilladt fo
 For alle placeringstyper, undtagen PLUK, LPLPLUK og LÆGPÅLAGER, tillades ingen andre aktiviteter for placeringen, end dem der er defineret af placeringstypen. For eksempel kan en placering af typen **Modtag** kun bruges til at modtage varer eller plukke varer fra.  
 
 > [!NOTE]  
->  Kun bevægelse kan gøres på placeringer af typen MODTAG og KK. Ligeledes kan kun bevægelser foretages fra placeringer af typen LEVER og KK.  
+> Kun bevægelse kan gøres på placeringer af typen MODTAG og KK. Ligeledes kan kun bevægelser foretages fra placeringer af typen LEVER og KK.  
 
-## <a name="bin-ranking"></a>Placeringsniveau  
+## <a name="bin-ranking"></a>Placeringsniveau
+
 I avancerede lagerfunktioner kan du automatisere og optimere, hvordan varerne samles i læg-på-lager- og plukkladder ved at rangere placeringer, så varer foreslås taget eller anbragt i henhold til rangkriterier for at bruge lagerplads optimalt i avanceret logistik.  
 
 Læg-på-lager-processer er optimeret efter placeringsniveau ved at foreslå placeringer på højt niveau før placeringer på lavt niveau. På samme måde bliver plukprocesser optimeret ved først at foreslå varer fra placeringsindhold med højt placeringsniveau. Desuden foreslås placeringsgenbestillinger fra placeringer på lavt placeringsniveau til placeringer på højt placeringsniveau.  
@@ -98,9 +102,10 @@ Hvis du vil angive en maksimal mængde af en bestemt vare, der skal gemmes i en 
 Før du kan angive kapacitetsbegrænsninger for placeringsindhold på en placering, skal du først sikre dig, at varens måleenheder og dimensioner er blevet indstillet på varekortet.  
 
 > [!NOTE]  
->  Det er kun muligt at operere med flere måleenheder i logistikinstallationer. I alle andre konfigurationer kan placeringsindhold kun være i basismåleenheden. I alle transaktioner med en måleenhed, der er højere end varens grundlæggende måleenhed, konverteres antallet til den grundlæggende enhed.  
+> Det er kun muligt at operere med flere måleenheder i logistikinstallationer. I alle andre konfigurationer kan placeringsindhold kun være i basismåleenheden. I alle transaktioner med en måleenhed, der er højere end varens grundlæggende måleenhed, konverteres antallet til den grundlæggende enhed.  
 
-## <a name="zone"></a>Zone  
+## <a name="zone"></a>Zone
+
 Placeringer kan grupperes i zoner til at styre, hvordan arbejdsprocessen for lageraktiviteter ledes i avanceret logistik.  
 
 En zone kan være en modtagelseszone eller en lagerzone, og hver zone kan bestå af en eller flere placeringer.  
@@ -114,19 +119,23 @@ Når du arbejder med lagerklasser og en standardplacering for modtagelse/afsende
 
 Klassekoden fremhæves kun i indgående strømme på indgående linjer, hvor vareklassekoden ikke stemmer overens med standardmodtagelsesplacering. Hvis der ikke er tildelt korrekte standardplaceringer, kan antallet ikke modtages.  
 
-## <a name="location"></a>Lokation  
+## <a name="location"></a>Lokation
+
 En lokation er en fysisk struktur eller et sted, hvor lagerbeholdning modtages, opbevares og forsendes, muligvis organiseret efter placering. En lokation kan være et lagersted, en bil, et showroom, en fabrik eller et område på en fabrik.  
 
-## <a name="first-expired-first-out"></a>Først udløbet først ude  
+## <a name="first-expired-first-out"></a>Først udløbet først ude
+
 Hvis du markerer afkrydsningsfeltet **Pluk i overensstemmelse med FEFO** i oversigtspanelet **Placeringsmetode** på lokationskortet, bliver varesporede varer plukket i henhold til deres udløbsdato. Varer med den tidligste udløbsdato plukkes først.  
 
 Lageraktiviteter i alle pluk- og bevægelsesdokumenter er sorteret i overensstemmelse med FEFO, medmindre de pågældende varer allerede har tildelte serienumre/lotnumre. Hvis det kun er en del af antallet på linjen, der er tildelt lot-/serienumre, bestemmes det resterende antal, der skal plukkes, vha. FEFO-metoden.  
 
 Når der plukkes varer efter FEFO-metoden, samles de tilgængelige varer, der udløber først, på en midlertidig varesporingsliste, der er baseret på udløbsdatoen. Hvis der er to varer med samme udløbsdato, vælges varen med det laveste lot- eller serienummer. Hvis lot- eller serienumrene er ens, vælges den vare først, der blev registreret først. Standardkriterierne for udvælgelse af varer på plukplaceringer, f.eks. Placeringsniveau og Nedbrydning, anvendes på denne midlertidige FEFO-varesporingsliste.  
 
-## <a name="put-away-template"></a>Læg-på-lager-skabelon  
+## <a name="put-away-template"></a>Læg-på-lager-skabelon
+
 Læg-på-lager-skabelonen kan tildeles til en vare og en lokation. Læg-på-lager-skabelonen angiver en række prioriterede regler, der skal overholdes ved oprettelse af læg-på-lager-aktiviteter. En læg-på-lager-skabelon kan f.eks. kræve, at varen placeres på en placering med placeringsindhold, der svarer til enheden, og hvis der ikke findes en lignende placering med tilstrækkelig kapacitet, skal varen placeres på en tom placering.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Designoplysninger: Logistik](design-details-warehouse-management.md)   
 [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)

@@ -4,18 +4,15 @@ description: Publicer objekter som webtjenester for at gøre dem umiddelbart til
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/21/2020
+ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: 3a0526451bb386f38eaf93c10ffd86937ea7b765
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324074"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402449"
 ---
 # <a name="publish-a-web-service"></a>Udgive en webtjeneste
 
@@ -23,7 +20,8 @@ Webtjenester er en nem måde at gøre programfunktionalitet tilgængelig for en 
 
 Du kan oprette en webtjeneste i [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten. Du skal derefter publicere webtjenesten, så den er tilgængelig for serviceanmodninger via netværket. Brugere kan se webtjenester ved at pege på en browser på serverplaceringen og anmode om en oversigt over tilgængelige tjenester. Når du publicerer en webtjeneste, bliver den straks tilgængelig over netværket for godkendte brugere. Alle godkendte brugere kan få adgang til metadata til webtjenester, men kun brugere med tilstrækkelige -tilladelser kan få adgang til de faktiske data.
 
-## <a name="creating-and-publishing-a-web-service"></a>Oprettelse og publicering af en webtjeneste  
+## <a name="creating-and-publishing-a-web-service"></a>Oprettelse og publicering af en webtjeneste
+
 Følgende trin forklarer, hvordan du opretter og publicerer en webtjeneste.  
 
 ### <a name="to-create-and-publish-a-web-service"></a>Sådan oprettes og publiceres en webtjeneste  
@@ -71,3 +69,4 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 
 [Opsætning](admin-setup-and-administration.md)  
 [Business Centrale-webtjenester til udviklere](/dynamics365/business-central/dev-itpro/webservices/web-services)  
+[Anmodningsgrænser for OData](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  

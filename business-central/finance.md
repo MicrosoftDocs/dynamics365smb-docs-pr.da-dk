@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8424d94b25ce56ceae65b04e41071c1a70f520ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182608"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410743"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
@@ -45,6 +45,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Tildel ekstra omkostninger såsom fragt og håndtering, som du har under handel, til de varer, der er involveret, så omkostningerne afspejles i lagerværdien. |[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md) |
 |Bogfør medarbejderes personlige udgifter for virksomhedsrelaterede aktiviteter, og refunder medarbejdere ved at foretage betaling til deres bankkonto.|[Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)|
 | Realisere indtægter og udgifter i andre perioder end dem, hvor transaktionerne blev bogført. |[Periodisere indtægter og udgifter](finance-how-defer-revenue-expenses.md)|
+| Få mere at vide om de tilgængelige muligheder for at automatisere afsendelse af abonnementsfakturaer til kunder og registrering af tilbagevendende indtægter. |[Tilbagevendende indtægter (abonnement)](finance-recurring-invoicing.md)|
 |Få mere at vide om, hvordan du bruger flere valutaer og opdaterer valutakurser automatisk. |[Opdatere valutakurser](finance-how-update-currencies.md)|
 | Importere løntransaktioner fra din lønningslisteudbyder i finansbogholderiet. |[Importér løntransaktioner](finance-how-import-payroll-transactions.md)|
 |Brug funktioner til at beregne moms på salgs- og købstransaktioner, så du kan rapportere beløbene til skattemyndighederne.|[Arbejde moms af salg og køb](finance-work-with-vat.md)|

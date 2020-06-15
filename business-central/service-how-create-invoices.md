@@ -8,21 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5303974c1f7e9c4b2386980c949b67df7d60f457
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189911"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402488"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Oprette servicefakturaer eller -kreditnotaer
-En nøgleegenskab i [!INCLUDE[d365fin](includes/d365fin_md.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan sende en faktura til kunderne på et valgfrit tidspunkt eller oprette fakturaer periodisk.  
-  
-Hvis du vil oprette en faktura direkte, kan du bruge siden **Servicekontrakt**. Du kan også konfigurere systemet, så en feltservicetekniker kan oprette en faktura for service, der ikke er tilknyttet en kontrakt eller en ordre.  
+En nøgleegenskab i [!INCLUDE[prodshort](includes/prodshort.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan konfigurere [!INCLUDE[prodshort](includes/prodshort.md)], så en feltservicetekniker kan oprette en faktura for en service, der ikke er tilknyttet en kontrakt eller en ordre. Du kan også vælge at konfigurere [!INCLUDE[prodshort](includes/prodshort.md)], så du fakturerer servicekontrakter med jævne mellemrum. Fakturaperioden for den enkelte kontrakt definerer, hvor ofte kontrakten faktureres.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Sådan faktureres en servicekontrakt fra siden Servicekontrakt   
+## <a name="to-invoice-several-service-contracts"></a>Sådan fakturerer du flere servicekontrakter
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret servicekontraktfakturaer**, og vælg derefter det relaterede link.  
 2. Angiv de filtre, som du vil bruge.  
 3. Angiv den dato, du vil bruge som bogføringsdato på de oprettede servicefakturaer, i feltet **Bogføringsdato**.  
@@ -30,9 +29,17 @@ Hvis du vil oprette en faktura direkte, kan du bruge siden **Servicekontrakt**. 
 5. Vælg **Opret fakturaer** i feltet **Handling**.  
 6. Vælg **OK** for at oprette servicefakturaerne.  
   
-  > [!NOTE]  
-  >  Du kan ikke oprette servicefakturaer for servicekontrakten, når værdien i feltet **Ændringsstatus** er indstillet til **Åben**.  
+Du kan også fakturere en servicekontrakt direkte fra siden **Servicekontrakt**, hvis den næste faktureringsdato på kontrakten ligger tidligere end arbejdsdatoen.
+
+## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Sådan faktureres en servicekontrakt fra siden Servicekontrakt   
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontakter**, og vælg derefter det relaterede link.  
+2. Vælg den servicekontrakt, der skal faktureres, og åbn kontraktkortet.  
+3. Vælg handlingen **Opret servicefaktura**. 
+4. Vælg **Ja** for at oprette servicefakturaerne.  
   
+  > [!NOTE]  
+  > Du kan ikke oprette servicefakturaer for servicekontrakten, når værdien i feltet **Ændringsstatus** er indstillet til **Åben**.  
+
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Sådan bogføres fakturaer fra serviceordrer  
 I fremgangsmåden nedenfor er det beskrevet, hvordan du kan definere den del af en service, som kunden skal opkræves for.  
 
@@ -42,9 +49,9 @@ I fremgangsmåden nedenfor er det beskrevet, hvordan du kan definere den del af 
 4. Find de nødvendige poster, og angiv de antal, som du vil opkræve kunden for, i feltet **Fakturer (antal)**.  
   
    > [!NOTE]  
-   >  Du kan fakturere kunden helt eller delvist for den registrerede service. Hvis du vælger at fakturere kunden fuldt ud, skal værdien i feltet **Lever (antal)** svare til værdien i feltet **Antal**. Du kan bogføre en komplet faktura sammen med en komplet leverance, og du kan bogføre en komplet faktura for en allerede bogført komplet leverance, der hverken er faktureret eller forbrugt tidligere.  
-   >   
-   >  Når du bogfører en delvis faktura, kan du angiv det antal, der skal faktureres, på to måder. Hvis du vil bogføre servicen med indstillingen **Lever og fakturer**, skal værdien i feltet **Fakturer (antal)** svare til værdien i feltet **Lever (antal)**. Hvis du vil fakturere en allerede bogført leverance, må det antal, der skal faktureres, ikke være højere end værdien i feltet **Leveret (antal)**.  
+   > Du kan fakturere kunden helt eller delvist for den registrerede service. Hvis du vælger at fakturere kunden fuldt ud, skal værdien i feltet **Lever (antal)** svare til værdien i feltet **Antal**. Du kan bogføre en komplet faktura sammen med en komplet leverance, og du kan bogføre en komplet faktura for en allerede bogført komplet leverance, der hverken er faktureret eller forbrugt tidligere.  
+   >  
+   > Når du bogfører en delvis faktura, kan du angiv det antal, der skal faktureres, på to måder. Hvis du vil bogføre servicen med indstillingen **Lever og fakturer**, skal værdien i feltet **Fakturer (antal)** svare til værdien i feltet **Lever (antal)**. Hvis du vil fakturere en allerede bogført leverance, må det antal, der skal faktureres, ikke være højere end værdien i feltet **Leveret (antal)**.  
   
 5. Vælg **Bogfør**, og derefter enten **Faktura** eller **Lever og fakturer**. Du kan finde flere oplysninger om disse indstillinger i [Bogføring i Service](service-service-posting.md).  
   
@@ -70,7 +77,7 @@ Når du har bogført en serviceordre vha. indstillingen **Fakturer** eller **Lev
 6. Udfyld feltet **Bilagsdato**. Den dato, du angiver her, vil blive vist på den udskrevne faktura og anvendes til beregning af forfaldsdatoen.  
 7. Udfyld servicelinjerne i fakturaen. Udfyld felterne **Type**, **Nummer** og **Antal** for at registrere varer, ressourcer og omkostninger, der er anvendt til servicen. 
 
-## <a name="to-invoice-posted-shipment-lines"></a>Sådan faktureres bogførte leverancelinjer  
+## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Sådan opretter du en faktura, der kombinerer bogførte leverancelinjer fra en eller flere serviceordrer 
 Der kan være brug for at oprette en servicefaktura for den service, der allerede er leveret fra en eller flere serviceordrer, men som endnu ikke er faktureret eller forbrugt. Du kan udfylde fakturalinjerne automatisk med de valgte bogførte leverancelinjer for en bestemt kunde.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicefakturaer**, og vælg derefter det relaterede link.  
@@ -79,14 +86,6 @@ Der kan være brug for at oprette en servicefaktura for den service, der allered
 4. Bogfør servicefakturaen.  
   
  Den bogførte servicefaktura og de tilsvarende poster oprettes. De leverancedokumenter, der tidligere er bogført, opdateres med de bogførte antal og de relevante antal på servicelinjerne i kildeordrerne.  
-
-## <a name="to-create-a-combined-invoice"></a>Oprette en kombineret faktura  
-Du kan fakturere kunden for service, der er leveret ifølge forskellige serviceordrer. Der oprettes fakturalinjer for varer, ressourcetimer eller omkostninger, der allerede er leveret fra forskellige serviceordrer men endnu ikke faktureret.  
-
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicefakturaer**, og vælg derefter det relaterede link.  
-2. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Vælg handlingen **Hent salgsleverancelinjer**. På siden **Hent serviceleverancelinjer** vises alle leverede men ikke fakturerede linjer for den angivne kunde.  
-4. Vælg linjerne for den service, der faktureres, og vælg derefter **OK** for at føje serviceleverancelinjerne til fakturaen.  
 
 ## <a name="to-create-a-service-credit-memo"></a>Sådan oprettes servicekreditnotaer  
 Et servicekreditnotadokument bruges normalt, når en kunde returnerer en vare, men det kan også bruges til at yde kunden en vis kompensation eller til at korrigere en fejlbehæftet faktura.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195047"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402546"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ændre det årlige beløb på servicekontrakter eller kontrakttilbud
 Du kan ændre det årlige beløb på en servicekontrakt eller et kontrakttilbud til det korrekte beløb, der faktureres årligt.  
@@ -80,45 +80,7 @@ Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, 
     * Linjerabatprocent = Linjerabatbeløb/Linjeværdi * 100.  
     * Avance = Linjebeløb - Linjekostpris  
 
-### <a name="distribution-based-on-line-amount"></a>Fordeling baseret på linjebeløb
-Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, kan du blive nødt til at fordele differencen mellem det nye og det beregnede årlige beløb på kontraktlinjerne. Fordeling baseret på linjebeløb er en automatisk metode, som kan hjælpe med at fordele differencen mellem det nye og det beregnede beløb mellem linjebeløbene på kontraktlinjerne. Fordelingen foretages proportionalt i forhold til andelene af linjebeløbet i det beregnede årlige beløb. Følgende procedure for fordeling for hver kontraktlinje beskriver hovedidéen bag denne metode:  
-
-1. Andelen af linjebeløbprocenten beregnes på følgende måde: Indholdet af feltet **Linjebeløb** divideres med værdierne i feltet **Beregnet årligt beløb** på alle kontraktlinjerne.  
-2. Feltet **Linjebeløb** opdateres ved at lægge differencen mellem de nye og de beregnede årlige beløb ganget med den procentvise andel af linjebeløb til feltets værdi.  
-3. Indholdet i felterne **Linjerabatbeløb**, **Linjerabatpct.** og **Avance** opdateres i forhold til den nye værdi i feltet **Linjerabatbeløb** på følgende måde:  
-
-    * Linjerabatbeløb = Linjeværdi - Linjebeløb.  
-    * Linjerabatprocent = Linjerabatbeløb/Linjeværdi * 100.  
-    * Avance = Linjebeløb - Linjekostpris  
-
 Trinnene gentages for hver kontraktlinje.  
-
-#### <a name="example"></a>Eksempel  
-Afkrydsningsfeltet **Tillad beløb, der ikke stemmer** er ikke markeret i den servicekontrakt, der indeholder tre kontraktlinjer med følgende oplysninger.  
-
-|Vare|Linjekostpris|Linjeværdi|Linjerabatpct.|Linjerabatbeløb|Linjebeløb|Avance|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Vare 1|15.00|17.00|3.00|0.51|25.00|1.49|  
-|Vare 2|20,00|23.00|Ingen|0.00|55.10|3.00|  
-|Vare 3|24.00|27.00|3.00|0.81|112.70|2.19|  
-
-Værdien i feltet **Årligt beløb** svarer til indholdet i feltet **Beregnet årligt beløb**, som altid er angivet til summen af linjebeløbene. I dette tilfælde er det lig med følgende: 16,49 + 23,00 + 26,19 = 65,68.  
-
-Hvis du ændrer **Årligt beløb** til 60, beregnes avanceprocentandelen for hver kontraktlinje:  
-
-* Vare 1-5/(5 + 5,1 +12,7) = 0,2193 %  
-* Vare 2 – 5,1/(5 + 5,1 + 12,7) = 0,2237  
-* Vare 3-12,7/(5 + 5,1 + 12,7) = 0,557  
-
-Feltværdien **Linjebeløb** opdateres på hver kontraktlinje ved brug af følgende formel: Linjebeløb = linjebeløb + differencen mellem de nye og de beregnede årlige beløb ganget med den procentvise andel. Derefter opdateres feltværdierne **Linjerabatbeløb**, **Linjerabatpct.** og **Avance** ved hjælp af formlerne, der er beskrevet i fremgangsmåden ovenfor.  
-
-Kontraktlinjerne indeholder derefter følgende data.  
-
-|Vare|Linjekostpris|Linjeværdi|Linjerabatpct.|Linjerabatbeløb|Linjebeløb|Avance|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Vare 1|15.00|17.00|11.41|1.94|15.06|0.06|  
-|Vare 2|20,00|23.00|8.65|1.99|21.01|1.01|  
-|Vare 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Linjerabatprocent = Linjerabatbeløb/Linjeværdi * 100.  
 
 #### <a name="example"></a>Eksempel  
 Afkrydsningsfeltet **Tillad beløb, der ikke stemmer** er ikke markeret i den servicekontrakt, der indeholder tre kontraktlinjer med følgende oplysninger.  

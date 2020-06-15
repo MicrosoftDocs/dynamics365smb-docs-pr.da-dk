@@ -1,8 +1,6 @@
 ---
 title: Oprette en sagssalgsfaktura for at fakturere for en sag | Microsoft Docs
 description: Beskriver, hvordan du fakturerer debitorer for diverse udgifter, efterhånden som et projekt skrider frem.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2020
+ms.date: 05/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 277e5e6cb212202f930ed49012184aa67a23d03f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191255"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402475"
 ---
 # <a name="invoice-jobs"></a>Fakturere sager
 I løbet af projektet kan der akkumuleres sagsomkostninger fra ressourceforbrug, materialer og sagsrelaterede indkøb. Efterhånden som status for sagen ændrer sig, bogføres disse transaktioner i sagskladden. Det er vigtigt, at alle omkostninger er registreret i sagskladden, før du fakturerer kunden.
@@ -28,19 +26,24 @@ I løbet af projektet kan der akkumuleres sagsomkostninger fra ressourceforbrug,
 Du kan fakturere hele sagen fra siden **Sagsopgavelinjer** eller kun fakturere de valgte fakturerbare linjer fra siden **Planlægningslinjer**. Faktureringen kan foretages, når sagen er afsluttet, eller med bestemte intervaller, efterhånden som status for sagen ændres, baseret på en faktureringsplan.
 
 > [!NOTE]  
->   Hvis du vælger **Fakturerbar** i feltet **Linjetype for sag** på købsdokumenter for sagsrelaterede indkøb, oprettes der sagsplanlægningslinjer, som er klar til blive faktureret til kunden. Du kan finde flere oplysninger i [Administrere projektforsyninger](projects-how-manage-project-supplies.md).
+> Hvis du vælger **Fakturerbar** i feltet **Linjetype for sag** på købsdokumenter for sagsrelaterede indkøb, oprettes der sagsplanlægningslinjer, som er klar til blive faktureret til kunden. Du kan finde flere oplysninger i [Administrere projektforsyninger](projects-how-manage-project-supplies.md).
 
-## <a name="to-create-and-post-a-job-sales-invoice"></a>Sådan oprettes og bogføres en salgsfaktura for en sag
+## <a name="to-create-multiple-job-sales-invoices"></a>Sådan opretter du flere salgsfakturaer for sager
 Du kan oprette en faktura for en sag eller for en eller flere sagsopgaver for en debitor, når det arbejde, der skal faktureres, er udført, eller når den fakturadato, som er angivet i et fakturaskema, nås.
 
-Fra siden **Sager** kan du fakturere en kunde ved at markere sagen og derefter vælge handlingen **Opret salgsfaktura for sag**. Følgende procedure viser, hvordan du kan bruge en kørsel til at fakturere flere sager.  
+Følgende procedure viser, hvordan du kan bruge en kørsel til at fakturere flere sager.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret salgsfaktura for sag**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan angive filtre, hvis du vil begrænse de sager, som kørslen skal behandle.
 4. Vælg **OK** for at starte oprette fakturaen.  
 
-## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Sådan opretter du flere salgsfakturaer fra sagsplanlægningslinjer
+Du kan gennemse og bogføre oprettede fakturaer i vinduet **Salgsfakturaer**.
+
+> [!NOTE]
+> Du kan også fakturere en kunde ved at markere sagen og derefter vælge handlingen **Opret salgsfaktura for sag**. 
+
+## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Sådan opretter og bogfører du salgsfakturaer for sager fra sagsplanlægningslinjer
 Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt angive antallet af varen, ressourcen eller finanskontoen, som du vil fakturere.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.
@@ -50,11 +53,9 @@ Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt
 5. Vælg handlingen **Opret salgsfaktura**.
 6. På siden **Opret salgsfaktura** skal du angive bogføringsdatoen, og om du vil oprette en ny faktura eller føje denne faktura til en eksisterende.
 7. Vælg knappen **OK**.  
-
-    Du kan se antallet på sagsplanlægningslinjen i feltet **Antal overført til faktura**.
 8. På siden **Sagsplanlægningslinjer** skal du vælge **Salgsfakturaer/kreditnotaer**.
 
-    Siden **Salgsfaktura** åbnes og viser det antal, du har overført til fakturaen.  
+    Siden **Salgsfaktura** åbnes og viser det antal, du har overført til fakturaen.
 9. Foretag yderligere ændringer, og vælg derefter handlingen **Bogfør**.
 
 > [!NOTE]  

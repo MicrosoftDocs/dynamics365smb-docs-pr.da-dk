@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/11/2020
+ms.date: 06/01/2020
 ms.author: edupont
-ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 1aaf04237261481f21d10d5e7966666132ff1a8e
+ms.sourcegitcommit: c5fcc204a1ba8aaf153ce3ad5d150295b144c0e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372612"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3413639"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Revisoroplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Enhver virksomhed skal føre regnskab og godkende det. Nogle virksomheder benytter en ekstern revisor, mens andre har kvalificerede regnskabsmedarbejdere. Uanset hvilken model du benytter, kan du bruge rollecenteret **Regnskabsmedarbejder** som din startside i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Herfra kan du få adgang til alle sider, du skal bruge i dit arbejde.  
@@ -87,12 +87,12 @@ Denne importerer den brugerkonto, som du oprettede på Azure-portalen, til virks
 
 Hvis du vil give adgang til flere virksomheder, skal du logge ind på hver virksomhed og gentage denne proces. Alternativt kan du opdatere rettighedsgrupperne for revisorens brugerprofil i [!INCLUDE [prodshort](includes/prodshort.md)], f.eks. ved at tildele dem *D365 Bus Premium*-brugergruppen. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
-## <a name="accountant-hub"></a>Accountant Hub
+<!--## Accountant Hub
 
-Hvis du er revisor og har mange kunder, kan du bruge [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for at få et bedre overblik over dine kunder. Her har du adgang til de enkelte kunders lejer i [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan bruge rollecenteret Regnskabsmedarbejder som beskrevet ovenfor. Du kan finde flere oplysninger under [Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
+If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
 
 > [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] er i øjeblikket i offentlig prøveversion på et begrænset antal markeder.
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
 
 ## <a name="see-also"></a>Se også
 
@@ -101,8 +101,6 @@ Hvis du er revisor og har mange kunder, kan du bruge [!INCLUDE[d365acc_long](inc
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
-[Analysere regnskaber i Excel](finance-analyze-excel.md)  
+[Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)  
-[Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Dynamics 365 - Accountant Hub på Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants)  
