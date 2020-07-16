@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5a13d461bd4764173e7d674ef35f5fa32f11318b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 09bf4d364afdff27dc97396a2d88ea0a934379fb
+ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184000"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "3542688"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysere pengestrømme i din virksomhed
-Penge styrer, som man siger. Diagrammer i rollecenteret Regnskabsmedarbejder giver indsigt, som kan hjælpe dig med at træffe beslutninger vedrørende dine pengestrømme.  
+Diagrammer i rollecenteret Regnskabsmedarbejder giver indsigt, som kan hjælpe dig med at træffe beslutninger vedrørende dine pengestrømme.  
 
 | For at besvare spørgsmål som de følgende | Skal du bruge dette diagram |
 | --- | --- |

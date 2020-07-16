@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f150535e8d3441bddd0144b14592592f405b201
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186016"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528934"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Forberede finansrapporter med kontoskemaer og kontokategorier
 Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Kontoskemaer analyserer tal i finanskonti og sammenligner finansposter med finansbudgetposter. Resultaterne vises i diagrammer på rollecenteret, f.eks. tabellen Likviditet, og i rapporter, f.eks. resultatopgørelsen og balancerapporterne.
@@ -71,7 +71,7 @@ Du kan bruge kolonneformater til at angive, hvilke kolonner der skal med i den r
 > En udskrevet/vist/gemt version af et kontoskema kan vise højst fem kolonner. Hvis kontoskemaet kun er beregnet til analyse på siden **Kontoskemaoversigt**, kan du oprette så mange kolonner, du vil.
 
 1. På siden **Kontoskemaer** skal du vælge det relevante kontoskema og derefter vælge handlingen **Rediger opsætning af kolonneformat**.
-2. På siden **Kolonneformater** skal du oprette en række til hver kolonne, som finansielle data vises efter i finansrapporten. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På siden **Kolonneformater** skal du oprette en række til hver kolonne, som finansielle data vises efter i finansrapporten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vælg knappen **OK**.
 4. Åbn siden **Kontoskemaoversigt** fra tid til anden for at kontrollere, at det nye kolonneformat fungerer korrekt.
 

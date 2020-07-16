@@ -1,6 +1,6 @@
 ---
 title: Sådan forberedes en konfigurationspakke | Microsoft Docs
-description: Når du konfigurerer en ny virksomhed, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken.
+description: Lær nu, hvordan du konfigurerer en RapidStart-konfigurationspakke, som kan hjælpe med at oprette nye virksomheder på basis af eksisterende data.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,41 +8,48 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: f37ba62f786611d30b179c543855b689eb747f45
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187058"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535968"
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
-Når du konfigurerer en ny virksomhed, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data). 
+
+Når du konfigurerer en ny virksomhed, der er baseret på en konfigurationspakke, genkendes og behandles tabelrelationer. Data importeres og anvendes i den rigtige rækkefølge. Dimensionstabeller importeres også, hvis de er inkluderet i konfigurationspakken. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data).  
 
 For at hjælpe din kunde med at bruge konfigurationspakken, kan du føje et spørgeskema eller et spørgeskemasæt til pakken. Spørgeskemaet kan hjælpe kunden med at forstå de forskellige konfigurationsindstillinger. Typisk oprettes spørgeskemaer for større konfigurationstabeller, hvor en kunde muligvis kræver yderligere vejledning om, hvordan der vælges en relevant indstilling. Du kan finde flere oplysninger i [Indsaml debitoropsætningsværdier](admin-gather-customer-setup-values.md).
 
 ## <a name="before-you-create-a-configuration-package"></a>Før du opretter en konfigurationspakke
-Der er nogle ting, du skal overveje, før du opretter en konfigurationspakke, fordi de vil påvirke dig eller din kundes mulighed for at importere den. 
+
+Der er nogle ting, du skal overveje, før du opretter en konfigurationspakke, fordi de vil påvirke dig eller din kundes mulighed for at importere den.  
 
 ### <a name="tables-that-contain-posted-entries"></a>Tabeller, der indeholder bogførte poster
+
 Du kan ikke importere data til tabeller, der indeholder bogførte poster, f.eks. tabellerne for debitor-, kreditor- og vareposter, så du bør ikke medtage disse data i konfigurationspakken. Du kan føje poster til disse tabeller, når du har importeret konfigurationspakken, ved hjælp af kladder til bogføring af posterne. Du finder flere oplysninger i [Bogføring af dokumenter og kladder](ui-post-documents-journals.md).
 
 ### <a name="licensing"></a>Licensering
+
 Licensen skal indeholde de tabeller, du opdaterer. Hvis du er usikker, kan siden **Konfigurationskladden** hjælpe. Hvis licensen indeholder tabellen, er afkrydsningsfeltet **Tabel, der er givet i licens** markeret.  
 
 ### <a name="permissions"></a>Rettigheder
-Processen med at oprette og importere en konfigurationspakke omfatter følgende gældende rettigheder for alle tabeller i pakken: 
 
-* Den bruger, der eksporterer data til konfigurationspakken, skal have gældende rettigheder for **Læse**.
-* Den bruger, der importerer data til konfigurationspakken, skal have gældende rettigheder for **Indsæt** og **Rediger**.
+Processen med at oprette og importere en konfigurationspakke omfatter følgende gældende rettigheder for alle tabeller i pakken:  
+
+- Den bruger, der eksporterer data til konfigurationspakken, skal have gældende rettigheder for **Læse**.
+- Den bruger, der importerer data til konfigurationspakken, skal have gældende rettigheder for **Indsæt** og **Rediger**.
 
 ### <a name="database-schema"></a>Databaseskema
+
 Ved eksport og import af konfigurationspakker mellem to virksomhedsdatabaser, skal databaserne har samme skema for at sikre, at alle data er blevet overført. Dette betyder, at databaserne skal have den samme tabel- og feltstruktur, hvor tabellerne har samme primære nøgler, og felter har samme id'er og datatyper.  
 
 Du kan indlæse konfigurationspakker, der er eksporteret fra en database med et andet skema end måldatabasen. Men tabeller eller felter i konfigurationspakken, der mangler i måldatabasen, importeres ikke. Tabeller med forskellige primære nøgler og felter med forskellige datatyper importeres heller ikke korrekt. Hvis konfigurationspakken indeholder tabellen **50000 kunder**, hvor primærnøglen er **Code20**, og databasen, som du importerer pakken til, indeholder tabellen **50000 debitorbankkonto**, der har primærnøglen **Code20 + Code 20**, så importeres data ikke.  
 
-## <a name="to-create-a-configuration-package"></a>Oprette en konfigurationspakke  
+## <a name="to-create-a-configuration-package"></a>Oprette en konfigurationspakke
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. På oversigtspanelet **Generelt** skal du udfylde resten af felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -66,28 +73,32 @@ Angiv, hvilke felter der er inkluderet i pakken. Alle felter er inkluderet som s
 
 Når du har finjusteret listen over felter, der skal medtages i en tabel, kan du kontrollere dine resultater i Excel.  
 
-### <a name="to-filter-and-review-your-dataset"></a>Filtrere og gennemgå dit datasæt  
+### <a name="to-filter-and-review-your-dataset"></a>Filtrere og gennemgå dit datasæt
+
 1. For at filtrere efter et bestemt sæt poster, der skal medtages i pakken, skal du under fanen **Linjer** vælge handlingen **Filtre** og derefter angive de ønskede filterværdier.  
 2. På pakkekortet skal du under fanen **Linjer** vælge handlingen **Udlæs til Excel**.  
 3. Bekræft de meddelelser, der aktiverer eksport af data til Excel. Den navngivne .xlsx-fil åbnes. Gennemse de poster, der er blevet udlæst.  
 4. Luk Excel.  
 
-### <a name="to-include-a-template-for-application-to-a-table"></a>Medtage en skabelon til ansøgning til en tabel  
-For visse tabeller som f.eks. en tabel, der skal indeholde masterdata, kan du angive en skabelon, der skal anvendes til data. Skabelonen kan medtage de ønskede felter, du vil anvende på alle masterdata, og som du aldrig vil variere. F.eks. kan du oprette en skabelon, der kan bruges sammen med debitordata. Skabelonen kan indeholde alle de obligatoriske felter, som derefter giver mulighed for ensartet import af standardiserede oplysninger. Oplysninger, der ikke kan standardiseres, som f.eks. debitornavn, behandles derefter, når du foretager en import af debitordata.
+### <a name="to-include-a-template-for-application-to-a-table"></a>Medtage en skabelon til ansøgning til en tabel
+
+For visse tabeller som f.eks. en tabel, der skal indeholde masterdata, kan du angive en skabelon, der skal anvendes til data. Skabelonen kan medtage de ønskede felter, du vil anvende på alle masterdata, og som du aldrig vil variere. F.eks. kan du oprette en skabelon, der kan bruges sammen med debitordata. Skabelonen kan indeholde alle de obligatoriske felter, som derefter giver mulighed for ensartet import af standardiserede oplysninger. Oplysninger, der ikke kan standardiseres, som f.eks. debitornavn, behandles derefter, når du foretager en import af debitordata. Du kan finde flere oplysninger i [Forberede overflytning af debitordata med skabeloner](admin-use-templates-to-prepare-customer-data-for-migration.md).  
 
 1. På siden **Konfig.pakkekort** skal du vælge en tabel, og derefter vælge feltet **Dataskabelon**. Der vises en liste over skabeloner, der er baseret på den viste tabel.
 2. Vælg en skabelon, og vælg derefter knappen **OK**.  
 
 Når pakken er fuldført, skal du følge den næste procedure for at gemme pakken til en fil. Derefter kan du give pakken til en kunde eller partner, der kan bruge den.
 
-### <a name="to-save-and-export-a-configuration-package"></a>Gemme og eksportere en konfigurationspakke  
+### <a name="to-save-and-export-a-configuration-package"></a>Gemme og eksportere en konfigurationspakke
+
 - På siden **Konfig.pakkekort** skal du vælge handlingen **Udlæs pakke**.  
 
 Pakken oprettes i en .rapidstart-fil, som leverer pakkens indhold i komprimeret format. Konfigurationsspørgeskemaer, konfigurationsskabeloner og konfigurationsregneark føjes automatisk til pakken, medmindre du udtrykkeligt vælger at udelukke dem.  
 
 Du kan gemme filen med et navn, der er beskrivende for dig, men du kan ikke ændre filtypenavnet. Den skal være .rapidstart.  
 
-### <a name="to-copy-a-configuration-package"></a>Kopiere en konfigurationspakke  
+### <a name="to-copy-a-configuration-package"></a>Kopiere en konfigurationspakke
+
 Når du har oprettet en pakke, der opfylder de fleste af dine behov, kan du bruge den som grundlag for oprettelse af tilsvarende pakker. Dette kan gøre gennemførselstiden hurtigere og forbedre gentagelsesaspektet af RapidStart Services.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
@@ -97,33 +108,37 @@ Når du har oprettet en pakke, der opfylder de fleste af dine behov, kan du brug
 5. Vælg knappen **OK**.
 
 ## <a name="to-customize-a-configuration-package"></a>Sådan tilpasses en konfigurationspakke
+
 Brug konfigurationsregnearket til at indsamle og kategorisere de oplysninger, du vil bruge til at konfigurere en ny virksomhed og arrangere tabeller på en logisk måde. Formateringen i regnearket er baseret på et enkelt hierarki: Områder indeholder grupper, som til gengæld indeholder tabeller. Områder og grupper er valgfri, men er nødvendige, hvis du vil have en oversigt over konfigurationsprocessen i rollecenteret RapidStart Services.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
-2.  I feltet **Linjetype** skal du vælge **Område**. I feltet **Navn** skal du angive et beskrivende navn.  
-3.  I feltet **Linjetype** skal du vælge **Gruppe**. I feltet **Navn** skal du angive et beskrivende navn.  
-4.  I feltet **Linjetype** skal du vælge **Tabel**. I feltet **Tabel-id** skal du vælge den tabel, du vil medtage i regnearket.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
+2. I feltet **Linjetype** skal du vælge **Område**. I feltet **Navn** skal du angive et beskrivende navn.  
+3. I feltet **Linjetype** skal du vælge **Gruppe**. I feltet **Navn** skal du angive et beskrivende navn.  
+4. I feltet **Linjetype** skal du vælge **Tabel**. I feltet **Tabel-id** skal du vælge den tabel, du vil medtage i regnearket.  
 
 Du kan nu tildele tabeller til bestemte konfigurationspakker, du har oprettet eller planlægger at oprette. Du kan finde flere oplysninger i [Sådan tildeles tabel til en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
-## <a name="to-work-with-promoted-tables"></a>Arbejde med opgraderede tabeller  
-1. Markér afkrydsningsfeltet **Opgraderet tabel** for at angive en tabel, der ofte bruges under installationen af en typisk kunde, f.eks. tabellen **Finanskonto**. Når en tabel har denne betegnelse, kan en kunde let filtrere sit regneark for at se listen over netop opgraderede tabeller, der kræver opmærksomhed.  
+## <a name="to-work-with-promoted-tables"></a>Arbejde med opgraderede tabeller
+
+1. Markér afkrydsningsfeltet **Opgraderet tabel** for at angive en tabel, der ofte bruges under installationen af en typisk kunde, f.eks. tabellen **Finanskonto**. Når en tabel har denne betegnelse, kan en kunde let filtrere sit regneark for kun at se listen over opgraderede tabeller, der kræver opmærksomhed.  
 2. Hvis du vil se den filtrerede visning af handlingen **Kun opdateret**. Liste over tabeller indeholder de tabeller, der har afkrydsningsfeltet markeret.  
 
-## <a name="to-assign-a-table-to-a-configuration-package"></a>Tildele en tabel til en konfigurationspakke  
+## <a name="to-assign-a-table-to-a-configuration-package"></a>Tildele en tabel til en konfigurationspakke
+
 Når du har defineret de tabeller, der skal behandles som en del af konfigurationen, kan du let tildele tabellerne til konfigurationspakkerne. Du kan kun tildele en tabel til én pakke. I følgende procedure kan du tildele pakken inden for rammerne af konfigurationsregnearket.  
 
 > [!NOTE]  
->  Du kan også oprette en pakke direkte og føje tabeller til den. Du kan finde flere oplysninger i [Sådan oprettes en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
+> Du kan også oprette en pakke direkte og føje tabeller til den. Du kan finde flere oplysninger i [Sådan oprettes en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
 2. I konfigurationsregnearket skal du vælge en linje eller gruppe af linjer, du vil tildele til en konfigurationspakke, og derefter vælge handlingen **Tildel pakke**.  
-3.  Vælg en pakke på listen, eller vælg handlingen **Ny** for at oprette en ny pakke, og vælg derefter knappen **OK**.  
+3. Vælg en pakke på listen, eller vælg handlingen **Ny** for at oprette en ny pakke, og vælg derefter knappen **OK**.  
 
     Hvis en tabel ikke allerede er indeholdt i pakken, føjes den nu til den. Pakkekodefeltet på kladdelinjen udfyldes med koden for den pakke, som tabellen er tildelt til.  
 4. Hvis du vælger en eksisterende pakke, kan du se, hvor mange tabeller der allerede findes i pakken ved at gennemgå oplysningerne i feltet **Antal tabeller**.
 
 ## <a name="to-review-or-customize-existing-database-data"></a>Sådan gennemgår eller tilpasser du de eksisterende databasedata
+
 Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få vist og tilpasse tilgængelige databasedata, så de passer til debitorens behov. Databasetabellen skal have en tilknyttet side.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
@@ -133,9 +148,10 @@ Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få 
     >  Sørg for, at hver enkelt tabel har fået tildelt et side-id. For standardtabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] angives værdien automatisk. For brugerdefinerede tabeller skal du angive id'et.
 
 3. Vælg handlingen **Databasedata**. Siden for den relaterede side åbnes.
-4. Gennemse de tilgængelige oplysninger. Rediger dem efter behov ved at slette poster, der ikke er relevante, eller ved tilføje nye.    
+4. Gennemse de tilgængelige oplysninger. Rediger dem efter behov ved at slette poster, der ikke er relevante, eller ved tilføje nye.  
 
-## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Sådan kopieres data fra et testmiljø til et produktionsmiljø  
+## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Sådan kopieres data fra et testmiljø til et produktionsmiljø
+
 Når du har undersøgt og afprøvet alle konfigurationsoplysninger, kan du fortsætte med at kopiere data til produktionsmiljøet. Du kan oprette en ny virksomhed i samme database.
 
 1. Åbn og initialiser den nye virksomhed.  
@@ -145,8 +161,10 @@ Når du har undersøgt og afprøvet alle konfigurationsoplysninger, kan du forts
 5. Marker den virksomhed, du vil kopiere data fra, og vælg derefter knappen **OK**. En liste over tabeller, der er valgt under konfigurationsregnearket, åbnes. Det er kun tabeller, der indeholder poster, der medtages på denne liste.
 6. Vælg de tabeller, som du ønsker at kopiere data fra, og vælg derefter handlingen **Kopiér data**. På siden **Kopiér virksomhedsdata** skal du vælge knappen **OK**.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
+[Forberede overflytning af debitordata med skabeloner](admin-use-templates-to-prepare-customer-data-for-migration.md)  
 [Indsaml debitoropsætningsværdier](admin-gather-customer-setup-values.md)  
-[Konfigurere virksomhedskonfiguration](admin-set-up-company-configuration.md)  
+[Opsætning af Virksomhedskonfiguration](admin-set-up-company-configuration.md)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Opsætning](admin-setup-and-administration.md)
+[Opsætning](admin-setup-and-administration.md)  

@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 04/01/2020
+ms.date: 06/09/2020
 ms.author: soalex
-ms.openlocfilehash: 42499c99d244cc3dbf96f01b20ed14a70b3b5fe7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 98d0efac9ad4a16e84617e9ed88c3d990c2b5f3a
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180825"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454321"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
+
 Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Funktionen Tilgængelighed
@@ -41,6 +42,8 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
     * [Definitioner af løndata (DK)](ui-extensions-payroll-data-definitions-dk.md) **Tilgængelig nu**
 
 ## <a name="see-also"></a>Se også
-[Arbejde med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)
+
+[Arbejde med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

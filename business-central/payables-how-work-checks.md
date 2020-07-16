@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190223"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503794"
 ---
 # <a name="make-check-payments"></a>Foretage betalinger med check
+
 Du kan udstede elektroniske og manuelle check [!INCLUDE[d365fin](includes/d365fin_md.md)]. Udbetalingskladden bruges i begge tilfælde, når der udstedes checks til leverandører/kreditorer. Du kan også annullere checks og se checkposter.
 
 Følgende procedure viser, hvordan du kan betale en kreditor med en computercheck ved at udligne betalingen til den relevante kreditorfaktura, udskrive checken og derefter bogføre betalingen som betalt. Dette resulterer i positive kreditorposter, udlignet til negative bankposter og fysiske checks til behandling i banken.
@@ -30,7 +31,8 @@ Du kan betale med to checktyper. Ved begge typer skal feltet **Modkontotype** el
 > [!NOTE]  
 > Du kan kontrollere, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. Du kan finde flere oplysninger under [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
 
-Printeren skal være konfigureret korrekt med checkformater, og du skal definere hvilket checklayout, der skal bruges. Du kan finde flere oplysninger under [Vælge et checklayout](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> Printeren skal være konfigureret korrekt med checkformater, og du skal definere hvilket checklayout, der skal bruges. Du kan finde flere oplysninger under [Vælge et checklayout](finance-how-define-check-layouts.md). Du kan også sende checken som PDF-fil, f.eks.  
 
 Du kan udskrive op til 10 fakturaer på en side til en checktalon. Hvis en check skal gælde for mere end 10 fakturaer, annullere vi checken på første side, når du udskriver talonen, og skriver ordet ANNULLERET på checken. Vi udskriver derefter resten af fakturaerne og det samlede checkbeløb på den anden side.
 
@@ -43,7 +45,7 @@ I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Frem
 4. I feltet **Bankbetalingstype** skal du vælge **Computercheck**.
 5. Vælg handlingen **Udskriv check**.
 6. På siden **Check** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Vælg knappen **Send til**, vælg indstillingen **PDF-dokument**, og vælg derefter knappen **OK**.
+7. Hvis printeren er indstillet til at udskrive checks, skal du vælge knappen **Udskriv**. Vælg ellers knappen **Send til**, vælg indstillingen **PDF-dokument**, vælg knappen **OK**, og udskriv derefter PDF-dokumentet.
 
     Den fysiske check kan nu sendes til behandling i banken. Fortsæt med at bogføre betalingen som udlignet til leverandøren og dermed betalt i systemet.
 8. Vælg handlingen **Bogfør**.

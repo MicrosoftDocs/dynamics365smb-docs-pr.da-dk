@@ -1,25 +1,25 @@
 ---
 title: Gennemgang - Sporing af serie-lotnumre | Microsoft Docs
-description: Når der forekommer fejlbehæftede produkter, skal fejlene identificeres, og de relevante varer må ikke kunne forlade virksomheden. Hvis de fejlbehæftede varer allerede er afsendt, skal du finde ud af, hvem der har modtaget dem, for om nødvendigt at kunne tilbagekalde varerne.
-author: SorenGP
+description: I dette emne beskrives de handlinger, der skal udføres for at stoppe salget af en defekt vare.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc2a67623a55026557855b8247bf0565918e3f3c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2020
+ms.author: bholtorf
+ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193343"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528131"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
 
-**Bemærk**: Denne gennemgang skal udføres på et demoregnskab med indstillingen **Fuld evaluering - Komplette eksempeldata**, der findes i sandkassemiljøet. Du kan finde flere oplysninger i [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Når der forekommer fejlbehæftede produkter, skal fejlene identificeres, og de relevante varer må ikke kunne forlade virksomheden. Hvis de fejlbehæftede varer allerede er afsendt, skal du finde ud af, hvem der har modtaget dem, for om nødvendigt at kunne tilbagekalde varerne.  
 
@@ -27,34 +27,38 @@ Den første opgave i forbindelse med administrationen af fejlbehæftede varer er
 
 Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, om der er foretaget planlægning for de sporede varer i åbne dokumenter, som f.eks. ikke-bogførte salgsordrer eller forbrugskladder. Dette arbejde udføres på siden **Naviger**. Du kan bruge funktionen Naviger til at søge efter alle typer databaseposter.  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang  
+## <a name="about-this-walkthrough"></a>Om denne gennemgang
+
 Denne gennemgang viser, hvordan fejlbehæftede varer identificeres, hvilken leverandør der leverede dem, og hvor de bruges, så de pågældende ordrer kan stoppes eller tilbagekaldes.  
 
 Denne gennemgang illustrerer følgende opgaver:  
 
--   Sporing af brug til oprindelsen.  
--   Sporing af oprindelse til brug.  
--   Søgning efter aktuelle poster, der indeholder det sporede serie-/lotnummer.  
+- Sporing af brug til oprindelsen.  
+- Sporing af oprindelse til brug.  
+- Søgning efter aktuelle poster, der indeholder det sporede serie-/lotnummer.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
--   Ansvarlig for kvalitetssikring  
--   Lagerchef  
--   Ordrebehandler  
--   Indkøbsagent  
+- Ansvarlig for kvalitetssikring  
+- Lagerchef  
+- Ordrebehandler  
+- Indkøbsagent  
 
-## <a name="prerequisites"></a>Forudsætninger  
+## <a name="prerequisites"></a>Forudsætninger
+
 For at gennemføre denne gennemgang skal du bruge:  
 
--   [!INCLUDE[d365fin](includes/d365fin_md.md)]-virksomhed.  
--   Oprette nye varer og forskellige forretningstransaktioner ved at følge trinnene i [Klargøre eksempeldata](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)]-virksomhed.  
+- Oprette nye varer og forskellige forretningstransaktioner ved at følge trinnene i [Klargøre eksempeldata](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
-## <a name="story"></a>Historie  
+## <a name="story"></a>Historie
+
 Ricardo, der er ansvarlig for kvalitetssikring, handler ud fra returnering af salgsvaren 1002, Racercykel. Kunden, Ravel Møbler, klagede over, at stellet var gået i stykker ved svejsningerne. Kvalitetskontrolteknikeren har bekræftet, at racerstellet på den returnerede cykel er fejlbehæftet. Den ansvarlige for kvalitetssikring skal nu finde ud af:  
 
--   Hvilket racerstellet, der er fejlbehæftet.  
--   Hvilken indkøbsordre det fejlbehæftede lot blev modtaget via.  
+- Hvilket racerstellet, der er fejlbehæftet.  
+- Hvilken indkøbsordre det fejlbehæftede lot blev modtaget via.  
 
 Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returnerede racercykel, vare 1002, havde serienummeret SN1. Ved at bruge denne grundlæggende oplysning skal han finde ud af, hvor racercyklen sidst blev brugt, og derefter skal han spore den tilbage til den tidligste oprindelse for at finde ud af, hvilket lotnummer den fejlbehæftede komponent, racerstellet, kom fra.  
 
@@ -62,31 +66,32 @@ Resultaterne af denne første varesporingsopgave kan identificere, hvilke racers
 
 De første to opgaver i forbindelse med administrationen af fejlbehæftede varer udføres på siden **Varesporing**. Den sidste opgave udføres på siden **Naviger** i sammen med siden **Varesporing**.  
 
-## <a name="prepare-sample-data"></a>Klargøre eksempeldata  
+## <a name="prepare-sample-data"></a>Klargøre eksempeldata
+
 Du skal oprette følgende nye punkter:  
 
--   2000, Racerstel: lotspecifik sporing, komponent af 1002  
--   1002, Racercykel: serienummerspecifik sporing  
+- 2000, Racerstel: lotspecifik sporing, komponent af 1002  
+- 1002, Racercykel: serienummerspecifik sporing  
 
 Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktioner med de to varer.  
 
 ### <a name="to-create-the-items"></a>Sådan oprettes varerne  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**.  
-3.  I feltet **Nummer** skal du skrive **2000**, og derefter udfylde de følgende felter.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+3. I feltet **Nummer** skal du skrive **2000**, og derefter udfylde de følgende felter.  
 
     |Beskrivelse|Basisenhed|Finans- Produktbogføringsgruppe|Momsproduktbogf.gruppe|Varebogføringsgruppe|Varesporingskode|  
-    |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
+    |-----------|--------------------|------------------------|-----------------------|--------------------|------------------|  
     |Racerstel|STK|RÅVARE|MOMS25|RÅVARE|LOTALLE|  
 
     > [!NOTE]  
     >  Hvis du vil angive basisenheden, skal du vælge knappen **Ny** og derefter vælge **PSC** på siden **Vareenheder**.  
 
-4.  Alle andre felter indeholder godkendte standarddata eller behøver ikke blive udfyldt.  
-5.  Klik på knappen **OK** for at oprette det første nye varekort, 2000.  
-6.  Vælg **Ny**.  
-7.  I feltet **Nummer** skal du skrive **1002**, og derefter udfylde de følgende felter.  
+4. Alle andre felter indeholder godkendte standarddata eller behøver ikke blive udfyldt.  
+5. Klik på knappen **OK** for at oprette det første nye varekort, 2000.  
+6. Vælg **Ny**.  
+7. I feltet **Nummer** skal du skrive **1002**, og derefter udfylde de følgende felter.  
 
     |Beskrivelse|Basisenhed|Finans- Produktbogføringsgruppe|Momsproduktbogf.gruppe|Varebogføringsgruppe|Genbestillingssystem|Varesporingskode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
@@ -97,32 +102,33 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Du skal derefter definere produktionsopsætningen for varen.
 
-9. Gå til oversigtspanelet **Genbestilling**, og indtast **1000** i feltet **Rutenr.**.  
-10. Vælg feltet **Produktionsstkl.nr.**, og vælg derefter **Avanceret**.  
-11. På siden **Prod.styklisteoversigt** skal du vælge den første linje, **1000**, og derefter vælge handlingen **Rediger**.  
-12. På siden **Produktionsstykliste** skal du ændre værdi til **Under udvikling** i feltet **Status**.  
-13. Gå til en tom linje, indtast **2000** i feltet **Nummer**, og indtast derefter **1** i feltet **Antal pr.**.  
-14. Skift værdien i **Status** tilbage til **Godkendt**.  
-15. Vælg knappen **OK** for at indsætte produktionsstyklisten på varekortet og lukke siden **Produktionsstykliste**.  
+8. Gå til oversigtspanelet **Genbestilling**, og indtast **1000** i feltet **Rutenr.**.  
+9. Vælg feltet **Produktionsstkl.nr.**, og vælg derefter **Avanceret**.  
+10. På siden **Prod.styklisteoversigt** skal du vælge den første linje, **1000**, og derefter vælge handlingen **Rediger**.  
+11. På siden **Produktionsstykliste** skal du ændre værdi til **Under udvikling** i feltet **Status**.  
+12. Gå til en tom linje, indtast **2000** i feltet **Nummer**, og indtast derefter **1** i feltet **Antal pr.**.  
+13. Skift værdien i **Status** tilbage til **Godkendt**.  
+14. Vælg knappen **OK** for at indsætte produktionsstyklisten på varekortet og lukke siden **Produktionsstykliste**.  
 
     Derefter skal du købe racerstel fra Custom Metals Incorporated.  
 
-### <a name="to-purchase-components"></a>Købe komponenter  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**.  
-3.  Opret en købsordre for kreditoren Custom Metals Incorporated ved at udfylde følgende linjefelter.  
+### <a name="to-purchase-components"></a>Købe komponenter
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+3. Opret en købsordre for kreditoren Custom Metals Incorporated ved at udfylde følgende linjefelter.  
 
     |Vare|Antal|Lotnr.|  
-    |----------|--------------|-------------|  
+    |----|--------|-------|  
     |2000|10|LOT1|  
 
-4.  Hvis du vil angive lotnummeret, skal du vælg handlingen **Varesporingslinjer**.  
-5.  På siden **Varesporingslinjer** skal du udfylde felterne **Lotnr.** og **Antal (basis)** og derefter lukke siden.  
-6.  Angiv en værdi i feltet **Kreditors fakturanr.**.  
-7.  Vælg handlingen **Bogfør**, vælg indstillingen **Modtag og fakturer**, og vælg derefter knappen **OK**.  
+4. Hvis du vil angive lotnummeret, skal du vælg handlingen **Varesporingslinjer**.  
+5. På siden **Varesporingslinjer** skal du udfylde felterne **Lotnr.** og **Antal (basis)** og derefter lukke siden.  
+6. Angiv en værdi i feltet **Kreditors fakturanr.**.  
+7. Vælg handlingen **Bogfør**, vælg indstillingen **Modtag og fakturer**, og vælg derefter knappen **OK**.  
 
     Dernæst skal du købe racerstel fra Schmeichel Møbler A/S.  
-8.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
+8. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
 9. Vælg handlingen **Ny**.
 10. Opret en købsordre for kreditoren, Schmeichel Møbler A/S, ved at udfylde følgende linjefelter.  
 
@@ -137,23 +143,24 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Dernæst skal producere to racercykler, SN1 og SN2.  
 
-### <a name="to-produce-end-items"></a>Fremstille færdigvarer  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
-2.  Vælg gruppen **Ny**.  
-3.  Opret en ny frigivet produktionsordre ved at udfylde følgende felter.  
+### <a name="to-produce-end-items"></a>Fremstille færdigvarer
 
-    |-|-|-|  
-    |Kildenr.|Antal| Serienr.|  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
+2. Vælg gruppen **Ny**.  
+3. Opret en ny frigivet produktionsordre ved at udfylde følgende felter.  
+
+    |Kildenr.|Antal|Serienr.|  
+    |----------|--------|----------|  
     |1002|2|SN1|  
     |1002|2|SN2|  
 
-4.  Vælg handlingen **Opdater produktionsordre**, og vælg derefter knappen **OK** for at udfylde linjen.  
-5.  Hvis du vil angive serienumre, skal du vælg handlingen **Varesporingslinjer**.  
-6.  På siden **Varesporingslinjer** skal du udfylde felterne **Serienr.** og **Antal (basis)** og derefter lukke siden.  
+4. Vælg handlingen **Opdater produktionsordre**, og vælg derefter knappen **OK** for at udfylde linjen.  
+5. Hvis du vil angive serienumre, skal du vælg handlingen **Varesporingslinjer**.  
+6. På siden **Varesporingslinjer** skal du udfylde felterne **Serienr.** og **Antal (basis)** og derefter lukke siden.  
 
     Derefter skal du bogføre forbruget af racerstel fra LOT1.  
-7.  På siden **Frigivet produktionsordre** skal du vælge handlingen **Produktionskladde**.  
-8.  Vælg forbrugslinjen for vare 2000 på siden **Produktionskladde**, og vælg handlingen **Varesporingslinjer**.
+7. På siden **Frigivet produktionsordre** skal du vælge handlingen **Produktionskladde**.  
+8. Vælg forbrugslinjen for vare 2000 på siden **Produktionskladde**, og vælg handlingen **Varesporingslinjer**.
 9. På siden **Varesporingslinjer** skal du vælge feltet **Lotnr.**, vælge **LOT1** og derefter vælge knappen **OK**.  
 10. Lad alle andre standardindstillinger stå på siden **Produktionskladde**, og vælg derefter handlingen **Bogfør**.  
 
@@ -240,9 +247,9 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Du kan spore følgende transaktionsoversigt:  
 
-    -   Det første bogførte bilag tilbage i kæden af transaktioner er udleveringsbogføringen af SN1 fra den første frigivne produktionsordre.  
-    -   Det næste bogførte bilag tilbage efter dette er forbrugsbogføringen fra den første frigivne produktionsordre. Her kan den ansvarlige for kvalitetssikring se, at det er racerstellet fra LOT1, der blev anvendt.  
-    -   Det laveste bogførte bilag i denne kæde er den bogførte købsleverance, som racerstellene med LOT1 blev modtaget på lageret med.  
+    - Det første bogførte bilag tilbage i kæden af transaktioner er udleveringsbogføringen af SN1 fra den første frigivne produktionsordre.  
+    - Det næste bogførte bilag tilbage efter dette er forbrugsbogføringen fra den første frigivne produktionsordre. Her kan den ansvarlige for kvalitetssikring se, at det er racerstellet fra LOT1, der blev anvendt.  
+    - Det laveste bogførte bilag i denne kæde er den bogførte købsleverance, som racerstellene med LOT1 blev modtaget på lageret med.  
 
     Den ansvarlige for kvalitetssikringen har nu fastlagt, hvilket lot de fejlbehæftede racerstel kommer fra, og kan se, hvilken kreditor der leverede dem, nemlig Custom Metals Incorporated.  
 

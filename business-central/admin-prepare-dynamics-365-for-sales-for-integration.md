@@ -1,8 +1,6 @@
 ---
 title: Integrere med Dynamics 365 Sales | Microsoft Docs
 description: Få at vide, hvordan du gør Dynamics 365 Business Central klar til integration med Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: bholtorf
-ms.openlocfilehash: b4e3181564f351979bcb22512ab02a9a43456bde
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: c42393145fc921c85570e0829c0953757981b53e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196563"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529009"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration med Dynamics 365 Sales
+
 Rollen Sælger betragtes ofte som et af de mest udadvendte i en virksomhed. Det kan imidlertid være en fordel for sælgere at kunne se indad i virksomheden og se, hvad der foregår i back end. Ved at integrere [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] kan du give dine sælgere denne indsigt ved at gøre det muligt for dem at få vist oplysninger i [!INCLUDE[d365fin](includes/d365fin_md.md)], når de arbejder i [!INCLUDE[crm_md](includes/crm_md.md)]. Ved udarbejdelse af et salgstilbud kan det f.eks. være nyttigt at vide, om der er tilstrækkelig lagerbeholdning til at opfylde ordren. Du kan finde flere oplysninger i [Bruge Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
-> Dette emne beskriver processen med at integrere onlineversionerne af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] via [!INCLUDE[d365fin](includes/cds_long_md.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration.md).
+> Dette emne beskriver processen med at integrere onlineversionerne af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] via [!INCLUDE[d365fin](includes/cds_long_md.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-common-data-service"></a>Integration via Common Data Service
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan også integreres med [!INCLUDE[d365fin](includes/cds_long_md.md)], hvilket gør det nemt at forbinde og synkronisere data med andre Dynamics 365-programmer såsom [!INCLUDE[crm_md](includes/crm_md.md)] eller endda apps, som du selv opbygger. Hvis det er første gang, du integrerer, anbefaler vi, at du gør det ved hjælp af [!INCLUDE[d365fin](includes/cds_long_md.md)]. Få flere oplysninger i [Integration med Common Data Service](admin-common-data-service.md).
@@ -52,7 +51,7 @@ Du kan bruge en assisteret opsætningsvejledning til at konfigurere forbindelsen
 4. Der er også avancerede indstillinger, der kan forbedre sikkerhed og aktivere ekstra funktioner, f.eks. behandling af salgsordrer og visning af lagerniveauer. Den følgende tabel beskriver de avancerede indstillinger.  
 
 |Felt|Beskrivelse|
-|-----|-----|
+|-----|-----------|
 |**Importér Dynamics 365 Sales-løsning**|Aktivér denne for at installere og konfigurere integrationsløsningen i [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic-->|
 |**Udgiv webtjeneste Varedisponering**|Aktivér brugere, der bruger [!INCLUDE[crm_md](includes/crm_md.md)] til at få vist tilgængeligheden af varer (produkter) på lager i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kræver en [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugerkonto med en adgangsnøgle til webtjenester. Tildeling af nøglen er en totrinsproces. I brugerkontoen i [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du vælge handlingen **Ændr webtjenestenøgle**. I den assisterede opsætningsvejledning Konfigurer Dynamics 365 Sales-forbindelse skal du angive URL-adresse til Dynamics 365 Business Central OData-webtjeneste og angive [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugeroplysninger for at få adgang til tjenesten. Du kan finde flere oplysninger i [OData-webtjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**URL-adresse til Business Central OData-webtjeneste**|Hvis du aktiverer webtjenesten til visning af varetilgængelighed, er URL-adressen for OData-webtjenesten udfyldt.|
@@ -66,9 +65,9 @@ Du kan bruge en assisteret opsætningsvejledning til at konfigurere forbindelsen
 Indtast følgende oplysninger vedrørende forbindelsen fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 |Felt|Description|
-|-----|-----|
+|-----|-----------|
 |**URL-adresse til Dynamics 365 Sales**|URL-adressen for din [!INCLUDE[crm_md](includes/crm_md.md)]-forekomst. Dette gør det muligt for brugere at åbne tilsvarende poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] fra poster i [!INCLUDE[crm_md](includes/crm_md.md)], f.eks. et firma eller produkt. [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster åbnes i [!INCLUDE[d365fin](includes/d365fin_md.md)].|
-|**Webtjenesten Varedisponering er aktiveret**|Giv brugere, der benytter [!INCLUDE[crm_md](includes/crm_md.md)], mulighed for at se tilgængeligheden af varer (produkter) på lager i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du aktiverer dette, skal du også angive et brugernavn og en adgangsnøgle, som [!INCLUDE[crm_md](includes/crm_md.md)] skal bruge til at forespørge OData-webtjenesten om tilgængelighed af varer (produkter). Du kan finde flere oplysninger i [OData-webtjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
+|**Webtjenesten Varedisponering er aktiveret**|Giv brugere, der benytter [!INCLUDE[crm_md](includes/crm_md.md)], mulighed for at se tilgængeligheden af varer (produkter) på lager i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du aktiverer dette, skal du også angive et brugernavn og en adgangsnøgle, som [!INCLUDE[crm_md](includes/crm_md.md)] skal bruge til at forespørge OData-webtjenesten om tilgængelighed af varer (produkter). Du kan finde flere oplysninger i [OData-webtjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**URL-adresse til Dynamics 365 Business Central OData-webtjeneste**|Hvis du aktiverer Webtjenesten Varedisponering, er URL-adressen for OData-webtjenesten udfyldt. Indstil dette felt til URL-adressen på den [!INCLUDE[d365fin](includes/d365fin_md.md)]-forekomst, der skal bruges.<br /><br /> Du kan nulstille feltet til standard-URL-adressen for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at vælge handlingen **Nulstil URL-adresse til webklient**.<br /><br /> Dette felt er kun relevant, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrationsløsningen er installeret i [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Brugernavn til Dynamics 365 Business Central OData-webtjeneste**|Navnet på den brugerkonto, som [!INCLUDE[crm_md](includes/crm_md.md)] bruger til at hente oplysninger om varetilgængelighed fra [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af OData-webtjenesten.|
 |**Adgangsnøgle til Dynamics 365 Business Central OData-webtjeneste**|Adgangsnøglen til brugerkontoen, som [!INCLUDE[crm_md](includes/crm_md.md)] bruger til at hente oplysninger om varetilgængelighed fra [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af OData-webtjenesten. Nøglen er knyttet til den bruger, der er valgt i feltet **Brugernavn til Dynamics 365 Business Central OData-webtjeneste**. For at få nøglen skal du vælge knappen **Slå værdi op** ved siden af brugernavnet, vælge brugeren, vælge **Administrer** og derefter **Rediger**. På brugerkortet skal du vælge **Handlinger**, **Godkendelse** og derefter klikke på **Ændr webtjenestenøgle**.|
@@ -92,7 +91,7 @@ Objekter i [!INCLUDE[crm_md](includes/crm_md.md)], f.eks. ordrer, er integreret 
 Følgende tabel viser standardtilknytningen mellem enheder i [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)], som [!INCLUDE[d365fin](includes/d365fin_md.md)] leverer.
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Synkroniseringsretning|Standardfilter|
-|-------------------------------------------|-----|-------------------------|--------------|
+|-------------------------------------------|--------------------------------------|-----------------|--------------|
 |Enhe.|Enhedsgruppe|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
 |Vare|Produkt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontaktfilter: **Produkttype** er **Salg lager**|
 |Ressource|Produkt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontaktfilter: **Produkttype** er **Tjenester**|
@@ -122,7 +121,7 @@ Følgende tabel viser de regler, der styrer synkroniseringen mellem [!INCLUDE[cr
 |Salgsordrer|Når salgsordreintegration er aktiveret, synkroniseres salgsordrer i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er oprettet fra sendte salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], med salgsordrer i INKLUDER SALG, når de frigives. Inden du synkroniserer ordrer, anbefales det, at du først synkroniserer alle de enheder, der indgår i ordren, f. eks. sælgere og prislister. Feltet Sælgerkode i ordrehovedet definerer ejeren af den sammenkædede enhed i [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 ### <a name="synchronization-jobs-for-a-sales-integration"></a>Synkroniseringsjob for en salgsintegration
-Jobbene køres i følgende rækkefølge for at undgå sammenkædning af afhængigheder mellem enheder. Du kan vælge yderligere job i Common Data Service. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](/dynamics365/business-central/admin-job-queues-schedule-tasks.md).
+Jobbene køres i følgende rækkefølge for at undgå sammenkædning af afhængigheder mellem enheder. Du kan vælge yderligere job i Common Data Service. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
 1. MÅLEENHED – Dynamics 365 Sales-synkroniseringsjob  
 2. RESSOURCE-PRODUKT – Dynamics 365 Sales-synkroniseringsjob  

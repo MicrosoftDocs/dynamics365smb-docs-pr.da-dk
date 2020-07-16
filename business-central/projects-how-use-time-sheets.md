@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 04/01/2020
+ms.date: 06/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3bc9a348dba8b9265730dd2723b045a10809139b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36405d80a021e6d3675a20c0283421c49aabd23b
+ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191087"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499562"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Bruge timesedler for sager
+
 Du bruger kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Du skal have tilladelser for at kunne oprette timesedler.
 
 Du kan kopiere og bruge dine sagsplanlægningslinjer i en timeseddel. På denne måde må du kun indtaste oplysninger på ét sted, og linjeoplysningerne vil altid være korrekte.
@@ -27,16 +28,16 @@ Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den rele
 Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-a-time-sheet"></a>Sådan opretter du en timeseddel
+
 Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Timesedler**, og vælg derefter det relaterede link.
 2. På siden **Timeseddeloversigt** skal du vælge handlingen **Opret timesedler**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   Felterne **Brug timeseddel** og **Bruger-id for timeseddelejer** skal udfyldes på kortet for ressourcen for timesedlen.
-
-1. Vælg knappen **OK**.  
+    > [!NOTE]  
+    > Felterne **Brug timeseddel** og **Bruger-id for timeseddelejer** skal udfyldes på kortet for ressourcen for timesedlen.
+4. Vælg knappen **OK**.  
 
 Du kan se de timesedler, du har oprettet, på siden **Timeseddeloversigt**.
 

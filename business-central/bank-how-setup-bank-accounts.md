@@ -1,8 +1,6 @@
 ---
 title: Oprette bankkonti | Microsoft Docs
 description: Du kan afstemme bankkonti med kontoudtog fra banken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 04/01/2020
+ms.date: 06/16/2020
 ms.author: sgroespe
-ms.openlocfilehash: a220fcc4cd357be6fe899da4a3b48c444b8819fa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: efe8f360e676e3aac4372b8046e724727dd4a9f3
+ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186280"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3459001"
 ---
 # <a name="set-up-bank-accounts"></a>Sådan oprettes bankkonti
 Brug bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] til at holde styr på dine banktransaktioner. Konti kan være i den lokale valuta eller i fremmed valuta. Når du har oprettet bankkonti, kan du også bruge funktionen til kontrol af udskrevne check.<br><br>  
@@ -33,7 +31,7 @@ Brug bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] til at holde styr p
 > For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkontopost med det pågældende beløb. Du kan gøre dette ved at udføre en afstemning af bankkontoen. Du kan finde flere oplysninger i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md). Du kan også implementere primosaldoen som en del af oprettelse af generelle oplysninger i nye virksomheder ved hjælp af den assisterede opsætningsvejledning **Overflyt virksomhedsdata** . Du kan finde flere oplysninger under [Introduktion](product-get-started.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Sådan oprettes bankkontoen for import eller eksport af bankfiler
-Felter i oversigtspanelet **Overførsel** på siden **Bankkontokort** er relateret til indlæsning og udlæsning af bankfeeds og -filer. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Konfigurere tjenesten Envestnet Yodlee Bank Feeds ](bank-how-setup-bank-statement-service.md).
+Felter i oversigtspanelet **Overførsel** på siden **Bankkontokort** er relateret til indlæsning og udlæsning af bankfeeds og -filer. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn kortet for en bankkonto, du vil eksportere eller importere bankfiler for.
@@ -43,14 +41,17 @@ Felter i oversigtspanelet **Overførsel** på siden **Bankkontokort** er relater
 >   Andre fileksporttjenester og deres formater kræver andre konfigurationsværdier på siden **Bankkontokort**. Du får information om forkerte eller manglende konfigurationsværdier, når du prøver at eksportere filen. Så læs omhyggeligt korte beskrivelser af felterne, eller se de relaterede emner med fremgangsmåder. Eksport af en betalingsfil med f.eks. nordamerikansk elektronisk pengeoverførsel (EFT) kræver, at både **Sidste remitteringsadvisnr.** og **Transitnr.** er udfyldt. Du kan finde flere oplysninger i [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 ## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Sådan konfigureres kreditorbankkonti til eksport af bankfiler
+
 Felter i oversigtspanelet **Overførsel** på siden **Kreditors bankkontokort** er relateret til udlæsning af bankfeeds og -filer. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
 2. Åbn kortet for en kreditor, hvis bankkonto du vil eksportere betalingsbankfiler til.
-3. Vælg handlingen **Bankkonti**.
-3. Udfyld felterne efter behov på siden **Kreditors bankkontokort** i oversigtspanelet **Overførsel**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vælg **Naviger**, og vælg derefter handlingen **Bankkonti**.
+4. Vælg den relevante bankkonto på listen **Kreditorbankkonti**, eller tilføj en ny bankkonto.  
+5. Udfyld felterne efter behov på siden **Kreditors bankkontokort** i oversigtspanelet **Overførsel**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se også
+
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Konfigurere bogføringsgrupper](finance-posting-groups.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  

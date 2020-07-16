@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190007"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529034"
 ---
 # <a name="project-management"></a>Projektstyring
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du udføre almindelige projektstyringsopgaver, som f.eks. konfiguration af en sag og planlægning af en ressource samt anskaffelsen af de oplysninger, der er nødvendige til administration af budgetter og overvågning af status. Du kan spore maskin- og medarbejdertimer på projektet ved hjælp af timeregistreringer. Som projektleder har du et godt overblik, ikke kun over individuelle sager, men også over allokeringen af medarbejdere, maskiner og andre ressourcer, der bruges i alle projekter.
@@ -36,7 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="get-started-with-projects"></a>Kom i gang med projekter
 
-Projektstyring er kompliceret nok i forvejen, og det kan være ekstra kompliceret at skulle lære at oprette sager og administrere igangværende arbejde i et nyt værktøj. For at hjælpe dig i gang med projektstyring i [!INCLUDE [prodshort](includes/prodshort.md)] kan du se [en video om oprettelse af sager](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-kanalen.  
+Projektstyring er kompliceret nok i forvejen, og det kan være ekstra kompliceret at skulle lære at oprette sager og administrere igangværende arbejde i et nyt værktøj. For at hjælpe dig i gang med projektstyring i [!INCLUDE[prodshort](includes/prodshort.md)] kan du se [en video om oprettelse af sager](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prodshort](includes/prodshort.md)] YouTube-kanalen.  
 
 ## <a name="see-also"></a>Se også
 

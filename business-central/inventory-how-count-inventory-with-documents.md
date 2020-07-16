@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8152299efea0ef07e1506d5897ff9cd27d21d21a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182200"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529059"
 ---
 # <a name="count-inventory-using-documents"></a>Varelageroptælling ved hjælp af dokumenter
 Du kan udføre en status over dine varer på varelager ved hjælp af varelagerdokumenter og varelageroptællingsdokumenter. Siden **Varelageropgørelse** benyttes til at organisere det fulde varelageroptællingsprojekt, for eksempel en pr. lokation. Siden **Registrering af varelager** benyttes til at kommunikere og registrere den faktiske optælling af varerne. Du kan oprette flere registreringer på en ordre, f.eks. til at distribuere varegrupper til forskellige medarbejdere.
@@ -40,7 +40,7 @@ For at oprette linjer til varelageropgørelse benytter du typisk funktionen **Be
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
-3. Udfyld de obligatoriske felter i **Generel** Oversigtspanel. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfyld de obligatoriske felter i **Generel** Oversigtspanel. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg handlingen **Beregn linjer**.
 5. Vælg påkrævede indstillinger .
 6. Indstil f.eks. filtre til kun at omfatte en delmængde af varer, der skal tælles med i den første optælling.

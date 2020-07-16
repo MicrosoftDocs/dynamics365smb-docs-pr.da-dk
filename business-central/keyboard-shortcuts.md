@@ -1,33 +1,34 @@
 ---
 title: Tastaturgenveje
 description: Den komplette liste over tastaturgenvejskombinationer, som gør det muligt for dig at arbejde effektivt med dine data.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.date: 06/26/2020
+ms.author: bholtorf
+ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262210"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528484"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
+
 Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prodshort](includes/prodshort.md)].
 
 Du kan finde en oversigt over de mest populære tastaturgenveje under [Tastaturgenveje (kun pc)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
-> Hvis du vil have vist en grafisk oversigt over de mest benyttede genveje, skal du vælge følgende billede og hente PDF-filen.
->
-> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
+> Hvis du vil have vist en grafisk oversigt over de mest benyttede genveje, skal du vælge følgende billede og hente PDF-filen.  
+> [ ![Ikon for PDF-filen](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon, der åbner et PDF-dokument")
 
 ## <a name="overview"></a>Oversigt
+
 Tastaturgenveje giver større tilgængelighed, hvilket kan gøre det lettere og mere effektivt at navigere til forskellige områder og elementer på en side. Genvejene understøttes af de fleste webbrowsere, men funktionsmåden kan variere en smule.
 
 > [!NOTE]
@@ -39,11 +40,12 @@ De fleste genveje er de samme, uanset om operativsystemet er Windows eller macOS
 > Ud over de globale tastaturgenveje, der er beskrevet i dette emne, er der en række tilgængelige forretningsspecifikke genveje. I f.eks. den generiske version af [!INCLUDE[prodshort](includes/prodshort.md)] bogfører F9 et dokument, og Ctrl+F7 viser de finansielle posteringer for en post. (Disse kan være anderledes i din løsning). Tastaturgenvejene vises i værktøjstippet for den pågældende handling.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle tastaturgenveje
+
 I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og adgang til forskellige elementer på en side. Elementer omfatter ting som handlinger, rullelister, opslag og meget mere. Du kan finde oplysninger om tastaturgenveje til navigation mellem poster, når du er på en liste, i næste afsnit.
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
-|----------------|-----------|
-|Alt+Pil ned|Åbne en rulleliste eller slå en værdi for et felt op.|    
+|--------------------------------|----------|
+|Alt+Pil ned|Åbne en rulleliste eller slå en værdi for et felt op.|
 |Alt+Pil op|Vise værktøjstip for et felt eller en kolonneoverskrift i en tabel. Hvis feltet indeholder valideringsfejl, skal du trykke på Alt + pil op for at få vist valideringsfejlen. Tryk på Esc eller Alt+pil op for at lukke værktøjstippet.|
 |F2|Du kan skifte mellem at markere hele feltværdien eller placere markøren i slutningen af feltets værdi.|
 |Alt+F2|Vise eller skjule faktaboksruden.|
@@ -79,16 +81,17 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 ### <a name="general"></a>Generelt
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende i en listevisning|For at gøre følgende i en feltvisning |
-|-----------------|-------|-------|
+|--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sortere den markerede kolonne i stigende eller faldende rækkefølge.|Ikke tilgængelig.|
 |Alt+N|Indsætte en ny linje i en redigerbar liste, f.eks. siden **Finansbudgetter**.|Samme.|
 |Skift+F10 |Åbne en menu med indstillinger, der er tilgængelige for den valgte række.|Samme.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
+
 Der er gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prodshort](includes/prodshort.md)], f.eks. listesider og **Linje**dele i dokumenter. Flytning fra én celle til en anden på tværs af et gitter er muligt med tastaturet.
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl+Home<br />(Fn+Ctrl+venstre pil)|Markere den første række på listen. Fokus forbliver i den samme kolonne.|Flytte til det første felt i den første række. |
 |Ctrl+End<br />(Fn+Ctrl+højre pil)|Markere den sidste række på listen. Fokus forbliver i den samme kolonne.|Flytte til det sidste felt i den sidste række.|
 |Home<br />(Fn+venstre pil)|Flytte til det første felt i en række.|Flytte til det første felt i en række.|
@@ -104,11 +107,10 @@ Der er gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prodshort](
 |Tab|På en redigerbar liste skal du i den samme række flytte til det næste felt til højre.|Ikke tilgængelig.||
 |Skift+Tab|På en redigerbar liste skal du i den samme række flytte til det forrige felt til venstre. | Ikke tilgængelig. |
 
-
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Markere, kopiere og indsætte
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl + klik<br />(Cmd + klik)|Udvide markeringen af rækker til at omfatte den række, som du har klikket på.|Ikke tilgængelig.|
 |Skift + klik|Udvide markeringen af rækker til at omfatte den række, som du har klikket på, og alle rækker imellem.<br /><br />Du kan bruge denne, efter at du har brugt Ctrl + pil op eller Ctrl + pil ned, til at udvide dit valg.|Ikke tilgængelig.|
 |Ctrl+Pil op<br />(Ctrl + Cmd + Pil op)|Flytte fokus til rækken ovenover og beholder markeringen af den aktuelle række.|Ikke tilgængelig.|
@@ -126,7 +128,7 @@ Der er gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prodshort](
 ### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Søge i og filtrere lister
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
-|-----------------|-------|
+|--------------------------------|----------|
 |F3|Skifter søgefeltet.<ul><li>Aktivere søgefeltet, så du kan begynde at skrive søgeteksten.</li><li>Hvis søgefeltet allerede er aktiveret, vender F3 tilbage til listen uden at rydde søgeteksten.</li><ul>|
 |Shift+F3|Åbne og lukke filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Shift + F3 den og fokuserer på handlingen **Filter** under **Filtrér listen efter**. Herefter kan du bare trykke på ENTER for at begynde at tilføje et feltfilter.</li><li>Hvis filterruden allerede er åben, lukker Shift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>|
 |Ctrl+Shift+F3|Åbne og lukke filterruden.<ul><li> Hvis filterruden ikke er åben, åbner Ctrl+ Shift + F3 den og fokuserer på handlingen **Filter** under **Filtrér totaler efter**. Herefter kan du bare trykke på ENTER for at begynde at tilføje et filter for totaler.</li><li>Hvis filterruden allerede er åben, lukker Ctrl + Shift + F3 den, men rydder ikke nogen af de filtre, du har tilføjet.</li></ul>  |
@@ -140,7 +142,7 @@ Der er gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prodshort](
 Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, og dokumentationssider, f.eks. **Salgsordre** og bruges til at få vist og redigere poster.
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
-|----------------|-----------|
+|--------------------------------|----------|
 |Alt+F6|Slå skjul/udvid til og fra i det aktuelle oversigtspanel eller den aktuelle del (delside).|
 |Alt+N |Åbne en side og oprette en ny post – på samme måde som ved valg af handlingen **Ny**. |
 |Alt+Skift+N |Lukke en side og åbne en ny side for at oprette en ny post – på samme måde som ved valg af handlingen **OK og ny**. |
@@ -159,7 +161,7 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 Følgende genveje vedrører genvejsfunktionen i kort, dokumenter og oversigtssider. I lister kan genveje ikke bruges, når listen er i feltvisning. Du kan finde flere oplysninger om genveje i [Fremskynde dataindtastning ved hjælp af genveje](ui-enter-data.md#QuickEntry).
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|Kommentarer|
-|-----------------|-------|-------|
+|--------------------------------|----------|-------|
 |Enter|Bekræfte værdien i det aktuelle felt, og gå til næste genvejsfelt.||
 |Skift+Enter|Bekræfte værdien i det aktuelle felt, og gå til forrige genvejsfelt.||
 |Ctrl+Skift+Enter|Bekræfte værdien i den aktuelle kolonne, og gå til næste genvejsfelt uden for listen.<br /><br />Denne genvej gælder for integrerede lister på en side, f.eks. linjevarer i en salgsordre. Den giver dig mulighed for hurtigt at komme ud af listen og fortsætte med at indtaste data i andre felter på siden.|
@@ -169,7 +171,7 @@ Følgende genveje vedrører genvejsfunktionen i kort, dokumenter og oversigtssid
 Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kalender (datovælger), hvor du kan vælge den ønskede dato. Følgende tabel beskriver tastaturgenvejene for kalenderen.
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
-|-----------------|-------|
+|--------------------------------|----------|
 |Ctrl+Home|Åbne kalenderen, hvis den er lukket. **Bemærk**: Dette fungerer ikke, hvis datofeltet er i et gitter, hvor Ctrl + Home hopper til den første række.|
 |Ctrl+Home<br />(Cmd + Home)|Flytte til den aktuelle måned, dags dato.|
 |Ctrl+Venstre pil<br />(Cmd + venstre pil)|Flytte til forrige dag.|
@@ -184,14 +186,14 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Tastaturgenveje i datofelter
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
-|-----------------|-------|
+|--------------------------------|----------|
 |d|Angive dags dato. "D" betyder "i dag".|
 |a|Angive arbejdsdatoen. Du kan finde flere oplysninger i [Arbejdsdato](ui-change-basic-settings.md#work-date).|
 
 ## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Brug af genvejstaster i rapportfremviseren
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
-|-----------------|-------|
+|--------------------------------|----------|
 |Pil ned|Rulle ned på siden.|  
 |Pil op|Rulle op på siden.|
 |Ctrl + 0 (nul)<br />(Cmd + 0)|Passer til hele siden på siden. |
@@ -203,6 +205,7 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |Page Up<br />(Fn + Pil op)|Gå til den forrige side i rapporten.|
 
 ## <a name="see-also"></a>Se også
+
 [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)  
 [Hjælpefunktioner](ui-accessibility.md)  
 [Introduktion](product-get-started.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6db170f8cf0b214a4ec85fc835eb8b98f071f203
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 201716238ddd42ac19cd769a8635d726e27e1509
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187703"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528809"
 ---
 # <a name="auditing-changes-in-business-central"></a>Ændringer af revision i Business Central
 
@@ -40,7 +40,7 @@ Når du har konfigureret ændringsloggen, aktiveret den og ændret data, kan du 
 
 ## <a name="working-with-activity-logs"></a>Arbejde med aktivitetslogge
 
-Fra nogle sider i [!INCLUDE [prodshort](includes/prodshort.md)] kan du få vist en aktivitetslog, der viser status og eventuelle fejl i filer, som du eksporterer fra eller importerer til [!INCLUDE [prodshort](includes/prodshort.md)].  
+Fra nogle sider i [!INCLUDE[prodshort](includes/prodshort.md)] kan du få vist en aktivitetslog, der viser status og eventuelle fejl i filer, som du eksporterer fra eller importerer til [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 Oplysningerne vises på siden **Aktivitetslog** i overensstemmelse med den kontekst, de åbnes fra. Du kan åbne vinduet fra siderne **Opsætning af dokumentudvekslingstjeneste**, **Indgående bilag**, **Bogført salgsfaktura** og **Bogført salgskreditnota**. Du kan tømme listen med logposter eller blot rydde oversigten over poster, der er ældre end 7 dage.  
 

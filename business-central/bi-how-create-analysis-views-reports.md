@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186088"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496821"
 ---
 #  <a name="create-analysis-reports"></a>Oprette analyserapporter
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi.  
@@ -41,9 +41,9 @@ Derefter kan du oprette kolonner som disse:
 - Salg i % af foregående måned  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Opsætte linje- og kolonneformater  
- På siden **Analyserapport** kan du få vist forskellige linje- og kolonneformater alt efter din opsætning. Du opretter linjer eller linjeskabeloner på siden **Analyselinjeskabelon**. På denne side kan du definere navnet på rapporten og de objekter, der skal vises på linjerne i rapporten. Kolonnerne angiver du på siden **Analysekolonneskabeloner**. På denne side kan du definere navnet på kolonneskabelonen og de analyseparametre, der skal vises i rapporten i form af kolonner. På siden **Analysekolonneskabeloner** repræsenterer hver linje en kolonne i rapporten. Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.  
+ På siden **Analyserapport** kan du få vist forskellige linje- og kolonneformater i henhold til de linjer eller linjeskabeloner, som du har oprettet på siden **Analyselinjeskabeloner**. Du kan definere navnet på rapporten og de objekter, der skal vises på linjerne i rapporten. Kolonnerne angiver du på siden **Analysekolonneskabeloner**. Du kan definere navnet på kolonneskabelonen og de analyseparametre, der skal vises i rapporten i form af kolonner. På siden **Analysekolonneskabeloner** repræsenterer hver linje en kolonne i rapporten. Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.  
 
-Programmet samler resultaterne af rapporten i matrixsiden **Analyserapport** på grundlag af de linjer og kolonner, som du har angivet, som i dette eksempel:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] samler resultaterne af rapporten i på siden **Analyserapport** på grundlag af de linjer og kolonner, du har angivet, som i følgende tabel.  
 
 | |Salg indeværende måned|Salg foregående måned|Salg foregående måned i %|  
 |-|-|-|-|  

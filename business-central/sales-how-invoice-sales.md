@@ -8,21 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 04/27/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2ff842cc12ea820c9a2fe180cd4dd2eef3ecc18f
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 692eb7c5856e7c80f8ab047882539276e1829e45
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324314"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534767"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
+
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.  
 
 I nogle situationer skal du bruge en salgsordre i stedet for en salgsfaktura:  
 
 * Hvis du kun vil levere en del af et ordreantal, f.eks. fordi hele antallet ikke er på lager.  
+* Hvis du leverer produkter, efter at du har bogført de tilsvarende salgsfakturaer.
 * Hvis du sælger varer, som leverandøren leverer direkte til kunden. Det kaldes direkte levering. Du kan finde flere oplysninger i [Foretage direkte leveringer](sales-how-drop-shipment.md).  
 
 I alle andre henseender fungerer salgsordrer og salgsfakturaer på samme måde. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).

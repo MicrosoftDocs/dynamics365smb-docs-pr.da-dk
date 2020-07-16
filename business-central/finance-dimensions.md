@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: 2d5285fdfbe8c1a07a766a3fbbe268a4ecbfef0a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262162"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528884"
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
 For at gøre det lettere at analysere dokumenter som f.eks. salgsordrer kan du bruge dimensioner. Dimensioner er attributter og værdier, der kategoriserer poster, så du kan spore og analysere dem. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
@@ -113,7 +113,7 @@ Globale dimensioner og genvejsdimensioner kan bruges som filter overalt i [!INCL
 > Når du tilføjer eller ændrer en global dimension eller genvejsdimension, logges du automatisk ud og ind igen, så den nye værdi er forberedt til brug i hele programmet.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.
-2. Udfyld felterne i oversigtspanelet **Dimensioner**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Udfyld felterne i oversigtspanelet **Dimensioner**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Sådan ændres globale dimensioner
 Når du ændrer en global dimension eller en genvejsdimension, opdateres alle poster, som er bogført i den pågældende dimension. Da denne proces kan være tidskrævende og kan påvirke ydeevnen, kan processen tilpasses databasens størrelse ved hjælp af to forskellige tilstande.  

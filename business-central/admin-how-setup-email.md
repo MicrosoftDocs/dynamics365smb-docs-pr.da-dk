@@ -1,7 +1,6 @@
 ---
 title: Konfigurere mail i Business Central | Microsoft Docs
 description: Beskriver, hvordan du bruger virksomhedens SMTP-server til at sende og modtage mails i Business Central eller alternativt kan bruge de mailserverindstillinger, der blev oprettet med Office 365-abonnementet.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187264"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528383"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
+
 Når du vil sende og modtage mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du udfylde felterne på siden **SMTP-mailopsætning**.
 
 I stedet for at angive detaljer om SMTP-serveren manuelt kan du bruge funktionen **Apply Office 365 Server-indstillinger**, der bruger oplysninger fra dit abonnement på Office 365.
@@ -26,6 +26,7 @@ I stedet for at angive detaljer om SMTP-serveren manuelt kan du bruge funktionen
 Du kan enten oprette mail manuelt, som beskrevet nedenfor, eller du kan få hjælp af den assisterede opsætningsvejledning **Mailopsætning**. Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Sådan konfigurer du mail
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **SMTP-mailopsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ Du kan enten oprette mail manuelt, som beskrevet nedenfor, eller du kan få hjæ
 5. Når testen er gennemført, skal du lukke siden.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Bruge en erstatningsafsenderadresse på udgående mailmeddelelser
+
 Alle udgående mailmeddelelser fra [!INCLUDE[d365fin](includes/d365fin_md.md)] vil bruge standardadressen for den konto, som du har angivet på siden SMTP-mailopsætning, som beskrevet ovenfor. Du kan imidlertid bruge funktionerne **Send som** eller **Send på vegne af** på Exchange-serveren for at ændre afsenderadressen i udgående meddelelser. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger standardkontoen til at godkende til Exchange, men den vil enten erstatte afsenderadressen med den, du angiver, eller ændre den med "på vegne af."
 
 Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INCLUDE[d365fin](includes/d365fin_md.md)].:
@@ -54,6 +56,7 @@ Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INC
 5. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter**, og angiv derefter adressen fra feltet **bruger-id** i feltet **Send som**. Du kan finde flere oplysninger under [Brug af EAC til at tildele tilladelser til individuelle postkasser](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Sådan bruges erstatningsadressen i godkendelsesarbejdsgange
+
 1. I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **SMTP-mailopsætning** og dernæst vælge det relaterede link.
 2. Kopiér eller notér adressen i feltet **bruger-id**.
 3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.
@@ -64,6 +67,13 @@ Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INC
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] bestemmer, hvilken adresse der skal vises i følgende rækkefølge: <br><br> 1. Den adresse, der er angivet i feltet **Mail** på siden **Brugeropsætning af godkendelser** for meddelelser i en arbejdsgang. <br> 2. Den adresse, der er angivet i feltet **Send som** på siden **SMTP-mailopsætning**. <br> 3. Den adresse, der er angivet i feltet **Bruger-id** på siden **SMTP-mailopsætning**.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Konfigurere offentlige mapper og regler maillogføring i Exchange Online
+
+Få mere ud af kommunikationen mellem sælgerne og dine eksisterende eller potentielle kunder ved at spore udveksling af mails og derefter ændre dem til handlingsrettede leads. Du kan finde flere oplysninger under [Spore udveksling af mails mellem sælgere og kontakter](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Derefter opretter du forbindelse mellem [!INCLUDE[prodshort](includes/prodshort.md)] og Exchange Online. Du kan finde flere oplysninger under [Spore udveksling af mails mellem sælgere og kontakter](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Se også
 

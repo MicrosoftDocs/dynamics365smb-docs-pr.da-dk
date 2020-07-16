@@ -1,8 +1,6 @@
 ---
 title: Registrere og refundere medarbejdernes forretningsrelaterede udgifter | Microsoft Docs
 description: Bogfør medarbejdernes udgifter med finanskladden til medarbejderens konto, og bogfør senere en betaling til medarbejderens bankkonto for at refundere for de forretningsrelaterede udgift.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5f943006997e4735d4ec224957442f23e2af1324
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d2ba275d747ced6f4c3adbd642f45d5ed33d8d1
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184072"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503515"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registrere og refundere medarbejdernes udgifter
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter transaktioner for medarbejderen på samme måde som for kreditorer. Derfor findes der medarbejderbogføringsgrupper for at sikre, at medarbejderposter bogføres på de relevante konti i regnskabet.
 
 > [!NOTE]  
 > Medarbejdertransaktioner kan kun bogføres i den lokale valuta. Refusion af betalinger til medarbejdere understøtter ikke rabatter og betalingstolerancer.
 
-Hvis medarbejdere bruger deres egne penge under forretningsaktiviteter, kan du bogføre udgiften til medarbejderens konto. Du kan derefter refundere medarbejderen ved at foretage en betaling til medarbejderens bankkonto, på samme måde som når du betaler leverandører.
+Hvis medarbejdere bruger deres egne penge under forretningsaktiviteter, kan du bogføre udgiften til medarbejderens konto. Du kan derefter refundere medarbejderen ved at foretage en betaling til medarbejderens bankkonto, på samme måde som når du betaler leverandører.  
+
+> [!TIP]
+> I denne artikel forklares det, hvordan du registrerer udgiften i bøgerne og refunderer medarbejderen. Din organisation kan have en portal eller app, som medarbejderne kan sende deres udgiftsrapporter til.
 
 ## <a name="to-record-an-employees-expense"></a>Sådan registrerer du en medarbejders udgift
 Du bogfører medarbejdernes udgifter på siden **Finanskladde**.

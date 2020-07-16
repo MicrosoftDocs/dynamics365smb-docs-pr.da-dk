@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: c9f12f2b15c379ad1f4765f1a20e773150f33b84
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 9650539c44a464aab238914ca5d3d65cb8b5c0b8
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402449"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528181"
 ---
 # <a name="publish-a-web-service"></a>Udgive en webtjeneste
 
@@ -39,7 +39,7 @@ Følgende trin forklarer, hvordan du opretter og publicerer en webtjeneste.
 Når du publicerer en webtjeneste, kan du i felterne **URL-adresse til OData** og **URL-adresse til SOAP** se de URL'er, der er genereret for webtjenesten. Du kan teste webtjenesten straks ved at vælge linksene i felterne **URL-adresse til OData** og **URL-adresse til SOAP**. Du kan vælge at kopiere værdien af feltet og gemme det til senere brug.  
 
 > [!NOTE]
-> Hvis du ikke kan få adgang til de objekter, du fremviser som webtjenester, i [!INCLUDE [prodshort](includes/prodshort.md)] online, skal du markere de metoder, der vises i koden, som `[Scope('OnPrem')]`. Du kan finde flere oplysninger i [Områdeattribut](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
+> Hvis du ikke kan få adgang til de objekter, du fremviser som webtjenester, i [!INCLUDE[prodshort](includes/prodshort.md)] online, skal du markere de metoder, der vises i koden, som `[Scope('OnPrem')]`. Du kan finde flere oplysninger i [Områdeattribut](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute).
 
 Når du udgiver en webtjeneste, er den tilgængelig for eksterne parter. Du kan kontrollere tilgængeligheden af denne webtjeneste ved hjælp af en browser, eller du kan vælge linket på siden **URL-adresse til OData** og **URL-adresse til SOAP** på siden **Webtjenester**. Følgende procedure illustrerer, hvordan du kan kontrollere tilgængeligheden af webtjenesten til senere brug.  
 

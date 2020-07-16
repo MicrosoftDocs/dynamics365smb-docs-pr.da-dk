@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402485"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527981"
 ---
 # <a name="send-documents-by-email"></a>Sende dokumenter som mail
 
@@ -65,7 +65,7 @@ Følgende fremgangsmåde beskriver, hvordan du sender en bogført salgsfaktura s
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokumenter, der er markeret som udskrevne, når de sendes
 
-Nogle dokumenter i [!INCLUDE [prodshort](includes/prodshort.md)] har et felt, der angiver, hvor mange gange dokumentet er blevet udskrevet. Feltet opdateres også, hvis du ikke udskriver dokumentet, men sender det via mail i stedet. Feltet opdateres jævnligt, hvis du faktisk ikke sender dokumentet, f.eks. når din organisation ikke har konfigureret mail, eller hvis den kontakt, du vil sende dokumentet til, ikke har angivet en mailadresse. I alle scenarier vedrørende [!INCLUDE [prodshort](includes/prodshort.md)] udskrives dokumentet, fordi der genereres en PDF-fil.  
+Nogle dokumenter i [!INCLUDE[prodshort](includes/prodshort.md)] har et felt, der angiver, hvor mange gange dokumentet er blevet udskrevet. Feltet opdateres også, hvis du ikke udskriver dokumentet, men sender det via mail i stedet. Feltet opdateres jævnligt, hvis du faktisk ikke sender dokumentet, f.eks. når din organisation ikke har konfigureret mail, eller hvis den kontakt, du vil sende dokumentet til, ikke har angivet en mailadresse. I alle scenarier vedrørende [!INCLUDE[prodshort](includes/prodshort.md)] udskrives dokumentet, fordi der genereres en PDF-fil.  
 
 Brugeren ser måske ikke den genererede fil, men det er grunden til, at feltet opdateres.
 

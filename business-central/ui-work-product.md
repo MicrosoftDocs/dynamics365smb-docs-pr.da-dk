@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189335"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496712"
 ---
 # <a name="working-with-d365fin"></a>Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.
@@ -26,7 +26,7 @@ Du kan f.eks. justere størrelsen og placeringen af en side, udvide bredden af k
 > [!TIP]
 > Hvis du vil have vist en printervenlig oversigt over de mest benyttede funktioner, skal du vælge følgende billede og hente PDF-filen.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [ ![Ikon for PDF-filen](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon, der åbner et PDF-dokument")
 
 ## <a name="links-to-learn-more"></a>Links til flere oplysninger
 

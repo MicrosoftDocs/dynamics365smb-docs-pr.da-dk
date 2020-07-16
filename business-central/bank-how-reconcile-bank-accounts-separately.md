@@ -1,8 +1,6 @@
 ---
 title: Afstemme bankkonti | Microsoft Docs
 description: Beskriver, hvordan dine lagerværdier afstemmes med finansmodulet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: e53c1f7b0b2af4a94579863197ec7348c9b6ff18
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4ccd976829fe1d6e3221964cf9ff97aff1d2c19d
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186304"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484080"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemme bankkonti
+
 Du udfører bankafstemning for at sikre, at dine forskellige forretningstransaktioner og udgifter afspejles korrekt i firmaets regnskabsbøger. Det gør du ved at sammenligne og afstemme poster på dine interne bankkonti med banktransaktioner i din bank og derefter bogføre saldi på dine interne bankkonti for at gøre totaler tilgængelige for økonomichefer. Bankafstemning er også en praktisk måde at opdage og løse manglende betalinger og bogføringsfejl på.
 
 I det følgende beskrives, hvordan du udfører bankafstemning med siden  **Bankkontoafstemning**.
@@ -28,7 +27,7 @@ I det følgende beskrives, hvordan du udfører bankafstemning med siden  **Bankk
 > Du kan også afstemme bankkonti på siden **Betalingsudligningskladde** i forbindelse med betalingsbehandling. Eventuelle åbne bankposter vedrørende de udlignede debitor- eller kreditorposter bliver lukket, når du vælger handlingen **Bogfør betalinger og afstem bankkonti**. Det betyder, at bankkontoen automatisk afstemmes for de betalinger, du bogfører, med kladden. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
-> I nordamerikanske versioner kan du også udføre dette arbejde på siden **Bankafstemningskladde**, der er mere velegnet til checks og indskud, men ikke tilbyder import af bankkontoudtogsfiler. Hvis du vil bruge denne side i stedet for siden **Bankkontoafstemning**, skal du fjerne markeringen i feltet **Bankafstemning med automatisk match** på siden **Regnskabsopsætning**. Du kan finde flere oplysninger i afsnittet "Afstemme bankkonti" under Lokal funktionalitet for USA.
+> I nordamerikanske versioner kan du også udføre dette arbejde på siden **Bankafstemningskladde**, der er mere velegnet til checks og indskud, men ikke tilbyder import af bankkontoudtogsfiler. Hvis du vil bruge denne side i stedet for siden **Bankkontoafstemning**, skal du fjerne markeringen i feltet **Bankafstemning med automatisk match** på siden **Regnskabsopsætning**. Du kan finde flere oplysninger i afsnittet [Afstemme bankkonti](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under Lokal funktionalitet for USA.
 
 Linjerne på siden **Bankkontoafstemning** er opdelt i to ruder. Ruden **Bankkontoudtogslinjer** viser enten importerede banktransaktioner eller poster med udestående betalinger. Ruden **Bankkontoposter** viser finansposterne på en intern bankkonto.
 
@@ -55,6 +54,7 @@ Du kan udfylde ruden **Bankkontoudtogslinjer** på siden **Bankkontoafstemning**
 * Manuelt ved hjælp af funktionen **Foreslå linjer** for at udfylde ruden **Bankkontoudtogslinjer** ifølge fakturaerne i [!INCLUDE[d365fin](includes/d365fin_md.md)], der har udestående betalinger.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Sådan udfyldes bankafstemningslinjer ved at importere et bankkontoudtog
+
 Ruden **Bankkontoudtogslinjer** udfyldes med bankposteringer i henhold til en importeret fil eller strøm, der er leveret af banken.
 
 For at gøre det muligt at importere bankkontoudtog som bankfeeds skal du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank Feeds og derefter knytte dine bankkonti til de relaterede onlinebankkonti. Du kan finde flere oplysninger i [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
@@ -68,7 +68,9 @@ For at gøre det muligt at importere bankkontoudtog som bankfeeds skal du først
 7. Find filen, og vælg derefter knappen **Åbn** for at importere banktransaktionerne til linjerne ind i ruden **Bankkontoudtogslinjer** på siden **Bankkontoafstemning**.
 
 ## <a name="to-fill-bank-reconciliation-lines-with-the-suggest-lines-function"></a>Sådan udfyldes bankafstemningslinjer med funktionen Foreslå linjer
+
 Ruden **Bankkontoudtogslinjer** udfyldes i henhold til fakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)], der har udestående betalinger.  
+
 1. På siden **Bankkontoafstemning** skal du vælge handlingen **Foreslå linjer**.
 2. Angiv den tidligste dato for de poster, der skal afstemmes, i feltet **Startdato**.
 3. Angiv den seneste dato for de poster, der skal afstemmes, i feltet **Slutdato**.
@@ -76,6 +78,7 @@ Ruden **Bankkontoudtogslinjer** udfyldes i henhold til fakturaer i [!INCLUDE[d36
 5. Vælg knappen **OK**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Sådan afstemmes kontoudtogslinjer automatisk med bankposter
+
 Siden **Bankkontoafstemning** indeholder automatisk matchningsfunktionalitet, der er baseret på en sammenligning af tekst i en bankkontoudtogslinje (venstre rude) med tekst i en eller flere bankkontoposter (højre rude). Bemærk, at du kan overskrive den foreslåede automatiske afstemning, og du kan vælge slet ikke at bruge automatisk afstemning. Du kan finde flere oplysninger  [Sådan afstemmes bankkontoudtoglinjer manuelt med bankposter](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 1. På siden **Bankkontoafstemning** skal du vælge **Match automatisk**. Siden **Afstem bankposter** åbnes.
@@ -88,6 +91,7 @@ Siden **Bankkontoafstemning** indeholder automatisk matchningsfunktionalitet, de
 4. For at fjerne et match skal du markere bankkontoudtogslinjen og derefter vælge handlingen **Fjern match**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Sådan afstemmes bankkontoudtoglinjer manuelt med bankposter
+
 1. På siden **Bankkontoafstemning** skal du vælge en ikke-udlignet linje i ruden **Bankkontoudtogslinjer**:
 2. I ruden **Bankkontoposter** skal du vælge en eller flere bankkontoposter, der kan afstemmes med den valgte bankkontoudtogslinje. Hvis du vil vælge flere linjer, skal du trykke på og holde Ctrl-tasten nede.
 3. Vælg handlingen **Match manuelt**.
@@ -97,6 +101,7 @@ Siden **Bankkontoafstemning** indeholder automatisk matchningsfunktionalitet, de
 5. For at fjerne et match skal du markere bankkontoudtogslinjen og derefter vælge handlingen **Fjern match**.
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Sådan oprettes manglende poster, som bankkontoudtogslinjer skal afstemmes med
+
 Undertiden indeholder bankafstemninger beløb med renter eller gebyrer. Sådanne bankkontoudtogslinjer kan ikke afstemmes, fordi der ikke findes nogen relaterede finansposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Derefter skal du bogføre en kladdelinje for hver transaktion for at oprette en relateret post, som de kan afstemmes med.
 
 1. På siden **Bankkontoafstemning** skal du vælge handlingen **Overfør til finanskladde**.  
@@ -105,15 +110,16 @@ Undertiden indeholder bankafstemninger beløb med renter eller gebyrer. Sådanne
     Siden **Finanskladde** åbnes. Det indeholder nye kladdelinjer for alle bankkontoudtogslinje med manglende poster.
 3. Udfyld kladdelinjen med de relevante oplysninger som f.eks. modkonto. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
 4. For at få vist resultatet af bogføringen, inden du bogfører, skal du vælge handlingen **Kontrollér rapport**. Rapporten **Bankkontoudtog** åbnes og viser de samme felter som hovedet på siden **Bankkontoafstemning**.
-4. Vælg handlingen **Bogfør**.
+5. Vælg handlingen **Bogfør**.
 
     Når posten er bogført, skal du afstemme bankkontoudtogslinjen med den.
-5. Opdatere eller genåbne siden **Bankkontoafstemning**. Den nye post vises i ruden **Bankkontoposter**.
-6. Matche bankkontoudtogslinjen med bankkontoposten, manuelt eller automatisk.
+6. Opdatere eller genåbne siden **Bankkontoafstemning**. Den nye post vises i ruden **Bankkontoposter**.
+7. Matche bankkontoudtogslinjen med bankkontoposten, manuelt eller automatisk.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Konfigurere banktransaktioner](bank-setup-banking.md)  

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372588"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528709"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumkrav til brug af Business Central
-Før du åbner [!INCLUDE [prodshort](includes/prodshort.md)] online, anbefales det, at du kontrollerer, at din computer eller mobilenhed opfylder eller overstiger minimumsystemkravene til produktet. Denne artikel indeholder kravene.  
+Før du åbner [!INCLUDE[prodshort](includes/prodshort.md)] online, anbefales det, at du kontrollerer, at din computer eller mobilenhed opfylder eller overstiger minimumsystemkravene til produktet. Denne artikel indeholder kravene.  
 
 ## <a name="browsers"></a>Webbrowsere
 
@@ -40,7 +40,7 @@ Den tidligere version af **Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin
 **Enhedsstørrelse:** [!INCLUDE[d365fin](includes/d365fin_md.md)] understøttes på smartphones med en minimumskærmstørrelse på 4" og tablets med en minimumskærmstørrelse på 7".  
 
 ## <a name="outlook"></a>Outlook
-**Outlook-programmer:** For at kunne bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2016 eller nyere, Outlook i en browser, Outlook til iPhone, Outlook til iPad eller Outlook til Android. Organisationen skal også bruge Office 365. Du kan ikke bruge [!INCLUDE [prodshort](includes/prodshort.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø.  
+**Outlook-programmer:** For at kunne bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2016 eller nyere, Outlook i en browser, Outlook til iPhone, Outlook til iPad eller Outlook til Android. Organisationen skal også bruge Office 365. Du kan ikke bruge [!INCLUDE[prodshort](includes/prodshort.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø.  
 **Webbrowsere:** Når du bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] som din virksomheds indbakke i en browser, kræver tilføjelsesprogrammet, at computeren kører en af de anførte understøttede webbrowsere, der er angivet tidligere i denne artikel.  
 **Platforme:** Når du bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] Outlook-tilføjelsesprogrammet i Outlook til iPhone, Outlook til iPad eller Outlook til Android, kræver tilføjelsesprogrammet, at mobilenheden kører en af de anførte understøttede mobilenheder til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

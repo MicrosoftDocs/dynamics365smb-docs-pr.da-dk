@@ -1,7 +1,7 @@
 ---
 title: Om montage til ordre og montage til lager | Microsoft Docs
 description: Montageelementer kan leveres, enten ved at montere dem, når de er bestilt, eller ved at montere dem for opbevaring på lageret, indtil der er brug for dem på en salgsordre.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186808"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496796"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Om montage til ordre og montage til lager
 Montageelementer kan leveres med følgende to fremgangsmåder:  
@@ -66,11 +66,11 @@ Når du indtaster en montage efter ordre-vare på en salgslinje, oprettes der au
 
  Men i kombinationsscenarier kopieres den fulde værdi i **Lever (antal)** ikke til feltet **Antal til montage** på montageordrehovedet. I stedet for indsættes standardværdien i feltet **Antal til montage**, som beregnes fra feltet **Lever antal** i henhold til en foruddefineret regel, der sikrer levering af montage til ordre-mængder først.  
 
- Hvis du vil afvige fra denne standard, for eksempel fordi du kun vil montere mere eller mindre af mængden i feltet **Lever (antal)**, kan du ændre feltet **Antal til montage**, men kun inden for foruddefinerede regler som illustreret nedenfor  
+ Hvis du vil afvige fra denne standard, for eksempel fordi du kun vil montere mere eller mindre af mængden i feltet **Lever (antal)**, kan du ændre feltet **Antal til montage**, men kun inden for foruddefinerede regler som illustreret nedenfor.  
 
  Som eksempel på, hvorfor det er klogt at ændre mængden, der skal monteres, er, at du vil bogføre leverancen af lagerbeholdninger delvist, inden montageoutput kan leveres.  
 
- Følgende forklarer de regler, der definerer de minimale og maksimale værdier, du kan angive manuelt i **Antal til montage**, for at afvige fra standardværdi i et kombinationsscenarie. Tabellen viser et kombinationsscenarie, hvor feltet **Lever (antal)** på den tilknyttede salgsordrelinje er ændret fra 7 til 4, og **Antal til montage** er derfor sat til standardværdien 4.  
+ Følgende tabel forklarer de regler, der definerer de minimale og maksimale værdier, du kan angive i feltet **Antal til montage**, for at afvige fra standardværdi i et kombinationsscenarie. Tabellen viser et kombinationsscenarie, hvor feltet **Lever (antal)** på den tilknyttede salgsordrelinje er ændret fra 7 til 4, og **Antal til montage** er derfor sat til standardværdien 4.  
 
 ||Salgsordrelinje|Montageordrehoved|  
 |-|----------------------|---------------------------|  

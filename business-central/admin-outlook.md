@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186889"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529259"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruge Business Central som din virksomheds Indbakke i Outlook
 
@@ -27,18 +27,18 @@ Det er nemt at komme i gang med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilf
 Når du derpå åbner Outlook, vises en mailmeddelelse fra *Dynamics 365 Business Central Administration*. De nye tilføjelsesprogrammer føjes til Outlook-båndet, og i browseren kan du se [!INCLUDE[prodshort](includes/prodshort.md)]-tilføjelsesprogrammerne lige over eller under brødteksten i mailen. Tilføjelsesprogrammerne opdateres med jævne mellemrum, og du får besked, når en ny version er klar i Outlook.  
 
 > [!TIP]
-> Hvis du bruger den nye Outlook online, kan [!INCLUDE [prodshort](includes/prodshort.md)]-tilføjelsesprogrammerne være skjult under **Flere handlinger**. Hvis du ofte bruger tilføjelsesprogrammet, kan du fastgøre det, så det altid er synligt med det samme. Du kan finde flere oplysninger under [Sådan bruger du tilføjelsesprogrammer i Outlook online](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+> Hvis du bruger den nye Outlook online, kan [!INCLUDE[prodshort](includes/prodshort.md)]-tilføjelsesprogrammerne være skjult under **Flere handlinger**. Hvis du ofte bruger tilføjelsesprogrammet, kan du fastgøre det, så det altid er synligt med det samme. Du kan finde flere oplysninger under [Sådan bruger du tilføjelsesprogrammer i Outlook online](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Hvis du arbejder med mere end ét [!INCLUDE [prodshort](includes/prodshort.md)]-regnskab, kan du nemt skifte mellem firmaer i Outlook. På tilføjelsesprogrammets handlingslinje skal du vælge **Flere handlinger**, hvorefter du kan se indstillingen for at skifte mellem virksomheder.  
+Hvis du arbejder med mere end ét [!INCLUDE[prodshort](includes/prodshort.md)]-regnskab, kan du nemt skifte mellem firmaer i Outlook. På tilføjelsesprogrammets handlingslinje skal du vælge **Flere handlinger**, hvorefter du kan se indstillingen for at skifte mellem virksomheder.  
 
 <!--TEMP-->
 > [!NOTE]
-> Skift mellem virksomheder kræver frigivelsesbølge 2 i 2019 [!INCLUDE [prodshort](includes/prodshort.md)] eller nyere, som annonceret i [frigivelsesplanen](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Skift mellem virksomheder kræver frigivelsesbølge 2 i 2019 [!INCLUDE[prodshort](includes/prodshort.md)] eller nyere, som annonceret i [frigivelsesplanen](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Nogle virksomheder, der bruger Office 365, begrænser brugernes adgang til at implementere tilføjelser. Derfor skal du kontrollere, at du har et Office 365-abonnement, der omfatter mail, hvor du kan implementere tilføjelser. Hvis du vil prøve tilføjelsesprogrammet alligevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Bruge tilføjelsesprogrammet Kontaktoplysninger
-Antag, at du får en e-mail fra en kunde, som ønsker et tilbud på nogle varer. I Outlook kan du åbne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet direkte. Programmet genkender afsenderen som debitor og åbner debitorkortet for hans firma. Fra dette dashboard kan du få vist oversigtsoplysninger om kunden samt gå i dybden for at få yderligere oplysninger om bestemte dokumenter. Du kan også se nærmere på salgsoversigten for debitoren. Hvis det er en ny kontakt, kan du oprette vedkommende som en ny kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)] uden at forlade Outlook.  
+Antag, at du får en e-mail fra en kunde, som ønsker et tilbud på nogle varer. I Outlook kan du åbne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilføjelsesprogrammet direkte. Programmet genkender afsenderen som debitor og åbner debitorkortet for virksomheden. Fra dette dashboard kan du få vist oversigtsoplysninger om kunden samt gå i dybden for at få yderligere oplysninger om bestemte dokumenter. Du kan også se nærmere på salgsoversigten for debitoren. Hvis det er en ny kontakt, kan du oprette vedkommende som en ny kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)] uden at forlade Outlook.  
 
 I tilføjelsesprogrammet kan du oprette et salgstilbud og sende det tilbage til kunden uden at forlade Outlook. Alle oplysninger, du behøver for at sende salgstilbuddet, er tilgængelige i din virksomheds Indbakke i Outlook.  
 Når du har indtastet dataene, kan du bogføre tilbuddet. Du kan derefter sende det via mail. [!INCLUDE[d365fin](includes/d365fin_md.md)] genererer en .PDF-fil med salgstilbuddet og vedhæfter den i den mailmeddelelse, du laver udkast til i tilføjelsesprogrammet.  
@@ -68,7 +68,7 @@ I begge tilfælde, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] stadig ikke 
 
 ## <a name="using-other-email-accounts"></a>Bruge andre mailkonti
 
-Tilføjelsesprogrammerne er designet til at blive brugt sammen med Office 365. Hvis du bruger [!INCLUDE [prodshort](includes/prodshort.md)] lokalt, vil administratoren vide, om du kan bruge [!INCLUDE [prodshort](includes/prodshort.md)]-tilføjelsesprogrammerne i Outlook. Du kan finde flere oplysninger i [Hvilken mailadresse kan jeg bruge sammen med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) og [Funktioner, der kræver særlige omstændigheder](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Tilføjelsesprogrammerne er designet til at blive brugt sammen med Office 365. Hvis du bruger [!INCLUDE[prodshort](includes/prodshort.md)] lokalt, vil administratoren vide, om du kan bruge [!INCLUDE[prodshort](includes/prodshort.md)]-tilføjelsesprogrammerne i Outlook. Du kan finde flere oplysninger i [Hvilken mailadresse kan jeg bruge sammen med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) og [Funktioner, der kræver særlige omstændigheder](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

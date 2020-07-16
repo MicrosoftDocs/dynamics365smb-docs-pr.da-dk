@@ -8,24 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f12d12bf4fb6a12a0abe52101f30a16a182bd1b2
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183880"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528206"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere moms til skattemyndighederne
-Dette emne beskriver rapporterne i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du kan bruge til at indsende oplysninger om momsbeløb for salg og indkøb til skattemyndigheder i dit område.
+Dette emne beskriver rapporterne i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du kan bruge til at indsende oplysninger om momsbeløb for salg og indkøb til skattemyndigheder i dit område. 
 
 Du kan bruge følgende rapporter:
 
 * Rapportlisterne **Oversigt over EU-salg** fra det Europæiske Fællesskab (EU) viser de momsbeløb, du har indsamlet for salg til momsregistrerede debitorer i EU-lande.  
-* Rapporten **Momsangivelse** inkluderer moms for salg og køb til debitorer i alle lande, der bruger moms.
+* Rapporten **Momsangivelse** inkluderer moms for salg og køb til kunder og fra leverandører i alle lande, der bruger moms.
 
 Du kan få vist en komplet oversigt over momsposter ved hver bogføring, der indebærer moms, hvor der oprettes en post på siden **Momsposter**. Disse poster bruges til at beregne momsafregningsbeløb, f.eks. betaling og refusion, for en bestemt periode. Du kan få vist VAT-poster ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive **Momsposter** og derefter vælge det relaterede link.
+
+> [!NOTE]
+> Hvert [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljø skal behandle lovpligtig rapportering i ét enkelt land. Den hollandske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] håndterer momsrapportering i Holland, men ikke i andre lande. På samme måde håndterer den amerikanske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] 1099 rapportering i USA og understøtter ikke krav om momsindberetning i andre lande, medmindre de er indført via en udvidelse, der leveres af vores partnerøkosystem eller en kundespecifik kodeændring.
 
 ## <a name="about-the-ec-sales-list-report"></a>Om rapporten Oversigt over EU-salg
 I Storbritannien skal alle virksomheder, der sælger varer og tjenester til momsregistrerede kunder, herunder kunder i andre EU-lande, sende en elektronisk udgave af rapporten Oversigt over EU-salg i XML-format via HMRC-webstedet (Her Majesty's Revenue and Customs). Rapporten Oversigt over EU-salg kan kun bruges til EU-lande.
@@ -59,7 +62,7 @@ Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde
 2. Udfyld de påkrævede felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
-    >   Det er en god ide at teste forbindelsen. For at gøre dette skal du vælge afkrydsningsfeltet **Testtilstand**. Forbered og send derefter momsrapporten, som beskrevet i afsnittet _Sådan forbereder og sender du en momsrapport_. I Testtilstand kontrollerer tjenesten, om skattemyndighederne kan modtage rapporten, og statussen for rapporten angiver, om testafsendelsen blev udført. Det er vigtigt at huske, at det ikke er en faktisk afsendelse. For at sende rapporten rigtigt skal du fjerne markeringen i afkrydsningsfeltet **Testtilstand** og derefter gentage afsendelsesprocessen.
+    > Det er en god ide at teste forbindelsen. For at gøre dette skal du vælge afkrydsningsfeltet **Testtilstand**. Forbered og send derefter momsrapporten, som beskrevet i afsnittet _Sådan forbereder og sender du en momsrapport_. I Testtilstand kontrollerer tjenesten, om skattemyndighederne kan modtage rapporten, og statussen for rapporten angiver, om testafsendelsen blev udført. Det er vigtigt at huske, at det ikke er en faktisk afsendelse. For at sende rapporten rigtigt skal du fjerne markeringen i afkrydsningsfeltet **Testtilstand** og derefter gentage afsendelsesprocessen.
 
 ## <a name="to-set-up-vat-reports-in-d365fin"></a>Sådan opsættes momsrapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsrapportkonfiguration**, og vælg derefter det relaterede link.  
@@ -76,7 +79,7 @@ Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde
 4. Hvis du vil validere og forberede rapporten til afsendelse, skal du vælge handlingen **Frigiv**.  
 
     > [!NOTE]  
-    >   [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om rapporten er konfigureret korrekt. Hvis valideringen ikke lykkes, vises fejlene under **Fejl og advarsler**, så du ved, hvad du skal rette. Hvis meddelelsen typisk drejer sig om en manglende indstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke på meddelelsen for at åbne siden med de oplysninger, der skal rettes.  
+    > [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om rapporten er konfigureret korrekt. Hvis valideringen ikke lykkes, vises fejlene under **Fejl og advarsler**, så du ved, hvad du skal rette. Hvis meddelelsen typisk drejer sig om en manglende indstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke på meddelelsen for at åbne siden med de oplysninger, der skal rettes.  
 5. Du sender rapporten ved at vælge handlingen **Send**.  
 
 Når du sender rapporten, overvåger [!INCLUDE[d365fin](includes/d365fin_md.md)] tjenesten og registrerer din kommunikation. Feltet **Status** angiver, hvor rapporten er i processen. F.eks. når myndighederne behandler rapporten, ændres status for rapporten til **Fuldført**. Hvis skattemyndighederne finder fejl i den rapport, du har sendt, bliver status for rapporten **Mislykkedes**. Du kan se fejlene under **Fejl og advarsler**, rette dem og derefter sende rapporten igen. For at få vist en liste over alle EU-salgslisterapporter, skal du gå til siden **Rapporter over EU-salg**.  

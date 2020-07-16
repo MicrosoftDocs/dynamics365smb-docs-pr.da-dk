@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 424951481336855c5142016dbc9409c96c51dbf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 37a69940d6b449a779a6bf8fb9d9729c99aa9ea4
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189340"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454427"
 ---
 # <a name="working-with-general-journals"></a>Arbejde med finanskladder
 
@@ -41,6 +41,9 @@ For hver kladdetype kan du angive din egen private kladde som kladdenavn. F.eks.
 
 > [!TIP]  
 > Hvis du markerer afkrydsningsfeltet **Foreslå modkontobeløb** på linjen for dit kladdenavn på siden **Finanskladdenavne**, udfyldes feltet **Beløb** på f.eks. finanskladdelinjer for samme bilagsnummer automatisk med den værdi, der er nødvendig for at afstemme dokumentet. Du kan finde flere oplysninger i [Lade [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå værdier](ui-let-system-suggest-values.md).
+
+> [!TIP]
+> Hvis du vil tilføje eller fjerne felter i kladder, skal du bruge **Tilpasning**-banneret. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Om hovedkonti og modkonti
 Hvis du har oprettet modkonti for kladdenavnene, udfyldes modkontoen automatisk på siden **Finanskladder**, når du udfylder feltet **Kontonr.**. Hvis ikke, skal du udfylde både feltet **Kontonr.** og feltet **Modkontonr.** manuelt. Et positivt beløb i feltet **Beløb** debiteres på hovedkontoen og krediteres på modkontoen. Et negativt beløb krediteres på hovedkontoen og debiteres på modkontoen.
@@ -161,8 +164,15 @@ Værdier i feltet **Bilagsnr.** ændres, hvor det kræves, så bilagsnummeret p�
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
+
 [Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  
 [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)  
 [Fordele omkostninger og indtægter](year-allocate-costs-income.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
+[Regulere lagerbeholdning i værdireguleringskladden](inventory-how-revalue-inventory.md)  
+[Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)  
+[Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter](receivables-how-apply-sales-transactions-manually.md)  
+[Afstemme kreditorbetalinger med udbetalingskladden eller fra kreditorposter](payables-how-apply-purchase-transactions-manually.md)  
+[Arbejde med koncerninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)  

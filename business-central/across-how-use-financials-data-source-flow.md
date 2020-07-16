@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187936"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528984"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>Bruge [!INCLUDE[prodshort](includes/prodshort.md)] i et automatisk workflow
 
@@ -55,7 +55,7 @@ Du kan bruge dine [!INCLUDE[prodshort](includes/prodshort.md)]-data som en del a
     > [!NOTE]
     > [!INCLUDE[prodshort](includes/prodshort.md)]-connectoren til Power Automate understøtter flere produktions- og sandkassemiljøer. Hvis du ikke har oprettet flere produktions- eller sandkassemiljøer, er **Produktion** den eneste tilgængelige indstilling.  
 
-    Nu har du oprettet forbindelse til dine Business Central[!INCLUDE [prodshort](includes/prodshort.md)]-data og er klar til at opbygge dit flow.
+    Nu har du oprettet forbindelse til dine Business Central[!INCLUDE[prodshort](includes/prodshort.md)]-data og er klar til at opbygge dit flow.
 
 9. Hvis du vil oprette fra en skabelon, skal du vælge indstillingen **Start fra skabelon**.
 10. Søg efter **Skabeloner til [!INCLUDE[prodlong](includes/prodlong.md)]**.

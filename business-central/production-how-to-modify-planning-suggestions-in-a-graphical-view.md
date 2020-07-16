@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/05/2020
 ms.author: sgroespe
-ms.openlocfilehash: 593fd5544f544b793b14fe14e4faf69f13d21ed6
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: 62bd4575c94f97fc363a73ad2fbfce0846c9146a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339942"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528609"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Ændre planlægningsforslag i en grafisk visning
 
-En typisk planlægningsaktivitet er at ændre eller tilføje planlægningskladdelinjer for at ændre de foreslåede forsyningsordrer, før du registrerer dem ved at køre funktionen **Udfør aktionsmeddelelse**. Et alternativ til at gøre dette i planlægningskladden er at bruge en grafisk visning. Dette understøttes dog ikke i [!INCLUDE [prodshort](includes/prodshort.md)] på nuværende tidspunkt.  
+En typisk planlægningsaktivitet er at ændre eller tilføje planlægningskladdelinjer for at ændre de foreslåede forsyningsordrer, før du registrerer dem ved at køre funktionen **Udfør aktionsmeddelelse**. Et alternativ til at gøre dette i planlægningskladden er at bruge en grafisk visning. Dette understøttes dog ikke i [!INCLUDE[prodshort](includes/prodshort.md)] på nuværende tidspunkt.  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 

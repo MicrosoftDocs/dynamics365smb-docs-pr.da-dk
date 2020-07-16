@@ -1,8 +1,6 @@
 ---
 title: Oprette et debitorkort for at registrere nye kunder | Microsoft Docs
 description: Beskriver, hvordan du opretter et debitorkort for at registrere oplysninger om hver ny kunde, du sælger til.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/27/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324266"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503969"
 ---
 # <a name="register-new-customers"></a>Registrere nye debitorer
+
 Debitorer er kilden til din indtægt. Du skal registrere hver debitor, du sælger til som et debitorkort. Debitorkort indeholder de oplysninger, som er en forudsætning for at sælge produkter til debitoren. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) og [Registrere nye varer](inventory-how-register-new-items.md).  
 
 Før du kan registrere nye debitorer, skal du oprette forskellige salgskoder, som du kan vælge mellem, når du udfylder debitorkort. Der er flere oplysninger i [Konfigurere salg](sales-setup-sales.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
+## <a name="adding-new-customers"></a>Tilføje nye debitorer
+
+Hvis du vil registrere en ny debitor, skal du udfylde et debitorkort. Du kan oprette skabeloner til forskellige debitorprofiler, eller du kan tilføje debitorer uden skabeloner.  
+
 > [!NOTE]  
 > Hvis der er debitorskabeloner for forskellige debitortyper, vises der automatisk på side, når du opretter et nyt debitorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én debitorskabelon, bruger nye debitorkort altid denne skabelon.  
 
-## <a name="to-create-a-new-customer-card"></a>Sådan oprettes et nyt debitorkort
+### <a name="to-create-a-new-customer-card"></a>Sådan oprettes et nyt debitorkort
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
 2. På siden **Debitorer** skal du vælge handlingen **Ny**.
 
@@ -44,12 +48,10 @@ I oversigtspanelet **Salgspriser** kan du se specialpriser eller rabatter, som d
 
 Debitoren er nu registreret, og debitorkortet er klar til at blive brugt i salgsdokumenter.
 
-### <a name="deleting-customer-cards"></a>Slette debitorkort
-Hvis du har bogført en postering for en debitor, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette debitorkort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.
+Hvis du vil bruge dette debitorkort som skabelon, når du opretter nye debitorkort, kan du gemme det som en skabelon. Du kan finde flere oplysninger i følgende afsnit.  
 
-Hvis du vil bruge dette debitorkort som skabelon, når du opretter nye debitorkort, kan du gemme det som en skabelon. Du kan finde flere oplysninger i følgende afsnit.
+### <a name="to-save-the-customer-card-as-a-template"></a>Sådan gemmes debitorkortet som en skabelon
 
-## <a name="to-save-the-customer-card-as-a-template"></a>Sådan gemmes debitorkortet som en skabelon
 1. På siden **Debitorkort** skal du vælge handlingen **Gem som skabelon**. Siden **Debitorskabelon** åbnes med debitorkortet som skabelon.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis du vil genbruge dimensioner i kladder, skal du vælge handlingen **Dimensioner**. Siden **Skabeloner til dimensioner** åbnes med alle dimensionsværdikoder, der er konfigureret for debitoren.
@@ -58,10 +60,15 @@ Hvis du vil bruge dette debitorkort som skabelon, når du opretter nye debitorko
 
 Debitorskabelonen føjes til listen over debitorskabeloner, så du kan bruge den til at oprette nye debitorkort.
 
+## <a name="deleting-customer-cards"></a>Slette debitorkort
+
+Hvis du har bogført en postering for en debitor, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette debitorkort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.  
+
 ## <a name="see-also"></a>Se også
+
 [Definere betalingsformer](finance-payment-methods.md)  
 [Flette dublerede poster](sales-how-merge-duplicate-records.md)  
 [Oprette nummerserie](ui-create-number-series.md)  
-[Salg](sales-manage-sales.md)    
-[Konfigurere salg](sales-setup-sales.md)    
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Salg](sales-manage-sales.md)  
+[Konfigurere salg](sales-setup-sales.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

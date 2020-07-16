@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6d277656ab5b159aaca93e03a333ba6232c3bcc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 358c7ed4068ca90637082f61e24bcff25cef61a3
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191166"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527956"
 ---
 # <a name="set-up-jobs"></a>Opsætte sager
 
-Som projektleder kan du oprette sager, der definerer hvert af de projekter, som du administrerer i [!INCLUDE [prodshort](includes/prodshort.md)]. På siden **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
+Som projektleder kan du oprette sager, der definerer hvert af de projekter, som du administrerer i [!INCLUDE[prodshort](includes/prodshort.md)]. På siden **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
 
 For hver sag kan du derefter specificere de individuelle jobkort med oplysninger om priser for sagsvarer, sagsressourcer og sagsfinanskonti, og du skal oprette sagsbogføringsgrupper.
 

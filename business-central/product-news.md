@@ -7,16 +7,16 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d759db09e7e3835a07b9e9138f31da48adc8851
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190103"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528759"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nyheder i Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
 Du kan altid se udgivelsesplanen for at få en oversigt over nye og kommende funktioner. Her kan du i dokumentationen finde emner, der kan hjælpe dig med at lære om nye og eksisterende funktioner i [!INCLUDE[prodlong](includes/prodlong.md)].  
 
@@ -30,7 +30,7 @@ Du kan få vist alle de udvidelser, der tilbydes af [!INCLUDE[d365fin](includes/
 
 Vi taler om nye funktioner på [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/), hvornår de bliver tilgængelige, og om særlige ting gør sig gældende.  
 
-For partnergruppen udgiver vi oplysninger om [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen for partnere](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og i [Professionel hjælp til [!INCLUDE [prodshort](includes/prodshort.md)]](/dynamics365/business-central/dev-itpro/index) for udviklere og it-eksperter.  
+For partnergruppen udgiver vi oplysninger om [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen for partnere](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og i [Professionel hjælp til [!INCLUDE[prodshort](includes/prodshort.md)]](/dynamics365/business-central/dev-itpro/index) for udviklere og it-eksperter.  
 
 ## <a name="see-also"></a>Se også
 

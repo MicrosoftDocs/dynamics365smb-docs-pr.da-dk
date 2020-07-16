@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183544"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528834"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Oprette en ekstra rapporteringsvaluta
 Da virksomheder handler i stadig flere lande, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta.
@@ -103,7 +103,7 @@ For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen
 5. Batchjobbet **Reguler eks. rapport.valuta** åbnes.
 
     Kørslen konverterer RV-beløb i eksisterende poster til den ekstra rapporteringsvaluta. Der bruges en standardvalutakurs i kørslen, som kopieres fra den valutakurs, der er gyldig på arbejdsdagen på siden **Valutakurser**. De afrundingsbeløb, som opstår ved konvertering af RV til en ekstra rapporteringsvaluta, bogføres i de konti til afrundingsgevinst og -tab, der er angivet på siden **Valutaer**. Bogføringsdatoen og bilagsnummeret for disse poster er de samme som for den oprindelige finanspost. Når alle afrundingsposterne er bogført, bogføres der en afrundingspost på ultimodatoen for hvert lukket år i resultatkontoen. Dette er for at sikre, at slutsaldoen i resultatkontiene for hvert lukket år er 0 i både RV og den ekstra rapporteringsvaluta.
-6. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Vælg **OK** for at eksekvere kørslen.  
 
 Når du har udført kørslen, vil beløb i de følgende eksisterende poster være i både RV og i den ekstra rapporteringsvaluta:  

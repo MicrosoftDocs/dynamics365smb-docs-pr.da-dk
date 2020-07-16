@@ -1,8 +1,6 @@
 ---
 title: Oversigt over opgaver til administration af tilgodehavender | Microsoft Docs
 description: Beskrives opgaver til administration af tilgodehavender og udligning af betalinger til debitor- eller kreditorposter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7775ae9f007733d366566dd5137add30e3f62059
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191903"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484207"
 ---
 # <a name="managing-receivables"></a>Administrere tilgodehavender
+
 Almindelige trin i en økonomisk cyklus er at udligne bankkonti, hvilket indebærer, at du udligner indgående betalinger til debitor- eller kreditorposter for at lukke salgsfakturaer og købskreditnotaer som betalte.
 
 Mens de fleste kunder i B2B-miljøer betaler et stykke tid efter levering, og de bogførte salgsfakturaer forbliver åbne, indtil betalingen modtages, hvorefter afdelingen for tilgodehavender kan lukke (udligne) dem, kan nogle salgsfakturaer betales med det samme, for eksempel via PayPal. Disse fakturaer udlignes med det samme som betalte, når de bogføres og vises derfor ikke som betalinger, der skal behandles i Tilgodehavender. Du kan finde flere oplysninger i f.eks. [Fakturere salg](sales-how-invoice-sales.md).  
@@ -32,7 +31,7 @@ Der findes andre sider, hvor du kan udligne betalinger eller afstemme bankkonti:
 * Siden **Betalingsregistrering**, hvor du manuelt kan udligne betalinger modtaget som kontant, med check eller via banktransaktion ud fra en genereret liste over ubetalte salgsdokumenter. Bemærk, at denne funktion kun er tilgængelig for salgsdokumenter. Her kan du kan ikke anvende udgående betalinger, og du kan ikke afstemme bankkonti.
 * Siden **Indbetalingskladde**, hvor du manuelt bogfører indbetalinger til den relevante finans- eller debitorkonto eller anden konto ved at indtaste en betalingslinje. Du kan enten udligne indbetalingen eller refunderingen til en eller flere åbne poster, før du bogfører indbetalingskladden, eller fra debitorposterne. Her kan du ikke afstemme bankkonti.
 
-Siden **Betalingsudligningskladden** og **Bankkontoafstemning** bruger automatisk afstemningslogik, som du kan konfigurere på siden **Regler for betalingsudligning.** Du kan finde flere oplysninger i [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md).
+Siden **Betalingsudligningskladde** og bruger automatisk afstemningslogik, som du kan konfigurere på siden **Regler for betalingsudligning**. Du kan finde flere oplysninger i [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md).  
 
 Andre aspekter af styring af tilgodehavender omfatter indhentning af udestående beløb, herunder rentenotaer og rykkere, og konfiguration af bankkonti, så debitorbetalinger kan trækkes fra den pågældende konto automatisk.
 

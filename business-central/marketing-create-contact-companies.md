@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a6be696756643496954b8ee0940efff7996f352
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181600"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528433"
 ---
 # <a name="create-contacts"></a>Oprette kontakter
 Du møder regelmæssigt personer fra andre virksomheder, hvilket kan udvikle sig til forretningsforhold, f.eks. en kunderelation. Når en sådan ny kontakt opstår, skal der registreres flest mulige oplysninger på et kontaktkort, så kommunikationen kan fortsættes.
@@ -37,7 +37,7 @@ Funktionaliteten er den samme for begge typer, bortset fra at valgmulighederne f
 3. I feltet **Nummer** skal du skrive et nummer på kontakten.
 
     Hvis du har defineret en nummerserie for kontakter på siden **Marketingopsætning**, kan du i stedet trykke på Enter for at indsætte det næste tilgængelige nummer.  
-5. Udfyld de resterende felter efter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Udfyld de resterende felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Sådan oprettes en kontakt fra en debitor, kreditor eller bankkonto.
 Hvis du har debitorer, kreditorer og bankkonti, som du vil oprette kontaktkort for, kan du bruge **Opret kontakter fra**-kørsler til at oprette kontakter på grundlag af de eksisterende data. Når du opretter en kontakt på denne måde, synkroniseres kontaktoplysningerne bagefter med oplysningerne om relateret debitor, kreditor eller bankkonto. Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).

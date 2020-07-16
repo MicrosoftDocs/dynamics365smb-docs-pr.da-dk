@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/27/2020
+ms.date: 07/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9a2fdbaafd2a6668d7fb4edf42c25438bd881e98
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 529985b477da5079beadc5c4014aa9bdfd3ecb6c
+ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324434"
+ms.lasthandoff: 07/03/2020
+ms.locfileid: "3534792"
 ---
 # <a name="sell-products"></a>Sælge produkter
+
 Du opretter en salgsordre eller salgsfaktura for at registrere din aftale med en kunde om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.
 
 > [!NOTE]  
->   Du skal bruge salgsordrer, hvis din salgsproces kræver, at du kan levere dele af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt på én gang. Hvis du sælger varer ved at levere direkte fra leverandøren til kunden som en direkte levering, skal du også bruge salgsordrer. Du kan finde flere oplysninger i [Foretage direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer salgsordrer på samme måde som salgsfakturaer. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md).
+> Brug salgsordrer, hvis din salgsproces kræver, at du kan levere dele af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt på én gang. Hvis du bruger salgsfakturaer, vil [!INCLUDE [prodshort](includes/prodshort.md)] antage, at du leverer hele antallet, når du bogfører fakturaen. Hvis du sælger varer ved at levere direkte fra leverandøren til kunden som en direkte levering, skal du også bruge salgsordrer. Du kan finde flere oplysninger i [Foretage direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer salgsordrer på samme måde som salgsfakturaer. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md).
 
 Du kan forhandle med kunden ved først at oprette et salgstilbud, som du kan konvertere til en salgsordre, når I har aftalt salget. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md).
 

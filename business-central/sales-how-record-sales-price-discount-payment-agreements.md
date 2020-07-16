@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: fa8dd6cf036b49d22510e8d3c096558545d4a3b2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 16d88ee490b5e9115ed22a12297fcf35b5739984
+ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193559"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "3542613"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere specialsalgspriser og -rabatter
+
 De forskellige pris- og rabataftaler, der gælder ved salg til forskellige debitorer, skal defineres, så de aftalte regler og værdier anvendes i de salgsdokumenter, der oprettes for debitorerne.
 
 Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger under [Beregning af bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
@@ -37,6 +38,7 @@ Da salgspriser og salgslinjerabatter er baseret på en kombination af vare og de
 > Hvis du ikke ønsker, at en vare nogensinde skal sælges med rabat, kan du lade rabatfelterne på varekortet være tomme, og medtag ikke varen i nogen opsætningen af linjerabat.
 
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Sådan konfigureres salgspriser for en debitor
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
 2. Åbn det relevante debitorkort, og vælg derefter handlingen **Priser**.
 
@@ -44,6 +46,7 @@ Da salgspriser og salgslinjerabatter er baseret på en kombination af vare og de
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Udfyld en linje for hver kombination, som yder en særlig salgspris til kunden.
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sådan konfigureres salgslinjerabatter for en debitor
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
 2. Åbn det relevante debitorkort, og vælg derefter handlingen **Linjerabatter**.
 
@@ -51,10 +54,12 @@ Da salgspriser og salgslinjerabatter er baseret på en kombination af vare og de
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Udfyld en linje for hver kombination, som yder en salgslinjerabat til kunden.
 
 > [!Note]
-> Når du åbner vinduerne **Salgspriser** og **Salgslinjerabatter** fra en bestemt kunde, er felterne **Salgstypefilter**  og **Salgskodefilter** angivet for debitoren og kan ikke ændres eller fjernes, hvilket er angivet med den grå værdi i feltet **Salgskodefilter.**<br /><br />
+> Når du åbner vinduerne **Salgspriser** og **Salgslinjerabatter** fra en bestemt kunde, er felterne **Salgstypefilter**  og **Salgskodefilter** angivet for debitoren og kan ikke ændres eller fjernes, hvilket er angivet med den grå værdi i feltet **Salgskodefilter.**
+>
 > Hvis du vil oprette priser eller linjerabatter for alle debitorer, en debitorprisgruppe eller en kampagne, skal du åbne vinduerne fra et varekort. Du kan alternativt bruge siden **Salgspriskladde** til salgspriser. Du kan finde flere oplysninger [Sådan masseopdateres varepriser](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Sådan oprettes en fakturarabat for en debitor
+
 Når du har besluttet, hvilke kunder der skal have fakturarabatter, skal du angive fakturarabatkoden på debitorkortene og definere betingelserne for hver kode.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder**, og vælg derefter det relaterede link.
@@ -62,7 +67,7 @@ Når du har besluttet, hvilke kunder der skal have fakturarabatter, skal du angi
 3. Vælg en kode i feltet **Fakturarabatkode** for de fakturarabatbetingelser, som skal bruges til automatisk beregning af fakturarabat til debitoren.
 
 > [!NOTE]  
->   Fakturarabatkoder repræsenteres af eksisterende debitorkort. Det gør det muligt hurtigt at tildele betingelserne for fakturarabatten til debitorer ved at vælge navnet på en anden debitor, der skal have samme betingelser.
+> Fakturarabatkoder repræsenteres af eksisterende debitorkort. Det gør det muligt hurtigt at tildele betingelserne for fakturarabatten til debitorer ved at vælge navnet på en anden debitor, der skal have samme betingelser.
 
 Fortsæt med at angive nye fakturarabatbetingelser for salg.
 
@@ -75,6 +80,7 @@ Fortsæt med at angive nye fakturarabatbetingelser for salg.
 Fakturarabatten er nu oprettet og knyttet til den pågældende debitor. Når du vælger debitorkoden i feltet **Fakturarabatkode** på andre debitorkort, knyttes samme fakturarabat til den pågældende debitor.
 
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Sådan arbejder du med salgsfakturarabatter og servicegebyrer
+
 Når du bruger fakturarabatter, bestemmer fakturabeløbet størrelsen af rabatten.  
 
 På siden **Deb./fakt.rabatter** kan du også føje et servicegebyr til fakturaer over en vis størrelse.  
@@ -93,17 +99,18 @@ Du kan knytte rabatter til bestemte fakturabeløb på siderne **Deb./fakt.-rabat
 Du kan også knytte et servicegebyr til et bestemt fakturabeløb i tillæg til eller i stedet for rabatprocenten.  
 
 > [!TIP]  
->  Det anbefales, at du forbereder en skitse over den rabatstruktur, der skal anvendes, før du begynder at indtaste oplysninger. Det gør det nemmere at se, hvilke debitorer der kan knyttes til samme fakturarabatside. Jo færre sider, du har sat op, jo hurtigere kan du indtaste stamoplysningerne.
+> Det anbefales, at du forbereder en skitse over den rabatstruktur, der skal anvendes, før du begynder at indtaste oplysninger. Det gør det nemmere at se, hvilke debitorer der kan knyttes til samme fakturarabatside. Jo færre sider, du har sat op, jo hurtigere kan du indtaste stamoplysningerne.
 
 Du finder flere oplysninger om rabatter under [Konfigurere rabatter for dine kunder](/learn/modules/customer-discounts-dynamics-365-business-central/index) på Microsoft Learn.  
 
 ## <a name="best-price-calculation"></a>Beregning af bedste pris
+
 Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer.
 
 Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat på en givet dato. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk dette, når enhedsprisen og linjerabatprocenten for varer indsættes på nye dokument- og kladdelinjer.
 
 > [!NOTE]  
->   I det følgende beskrives, hvordan den bedste pris beregnes for salg. Beregningen er den samme for køb.
+> I det følgende beskrives, hvordan den bedste pris beregnes for salg. Beregningen er den samme for køb.
 
 1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer kombinationen af faktureringsdebitoren og varen automatisk og beregner derefter den relevante enhedspris og linjerabatprocent ud fra følgende kriterier:
 
@@ -119,36 +126,39 @@ Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat 
 
 Hvis der ikke kan beregnes en særpris for varen på linjen, indsættes seneste indirekte omkostning eller enhedsprisen fra varekortet.
 
-## <a name="to-copy-sales-prices"></a>Sådan kopieres salgspriser  
-Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til brug for en debitorprisgruppe, skal du køre **Forslå salgspris på kladde**. batchjob, som du starter fra siden **Salgspriskladde**.    
+## <a name="to-copy-sales-prices"></a>Sådan kopieres salgspriser
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgspriskladde**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Foreslå salgspris på kld.** .  
-3.  Udfyld felterne **Salgstype** og **Salgskode** i oversigtspanelet **Salgspriser** med de oprindelige salgspriser, du vil kopiere.  
-4.  Udfyld felterne **Salgstype** og **Salgskode** i den øverste del af siden med den type og det navn, du vil have salgspriserne kopieret til.  
-5.  Hvis kørslen skal oprette nye priser, skal du markere afkrydsningsfeltet **Opret nye priser**.  
-6.  Vælg knappen **OK** for at udfylde linjerne på siden **Salgspriskladde** med de foreslåede nye priser for at angive, at de er gyldige for den valgte salgstype.  
+Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til brug for en debitorprisgruppe, skal du køre **Forslå salgspris på kladde**. batchjob, som du starter fra siden **Salgspriskladde**.  
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgspriskladde**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Foreslå salgspris på kld.** .  
+3. Udfyld felterne **Salgstype** og **Salgskode** i oversigtspanelet **Salgspriser** med de oprindelige salgspriser, du vil kopiere.  
+4. Udfyld felterne **Salgstype** og **Salgskode** i den øverste del af siden med den type og det navn, du vil have salgspriserne kopieret til.  
+5. Hvis kørslen skal oprette nye priser, skal du markere afkrydsningsfeltet **Opret nye priser**.  
+6. Vælg knappen **OK** for at udfylde linjerne på siden **Salgspriskladde** med de foreslåede nye priser for at angive, at de er gyldige for den valgte salgstype.  
 
 > [!NOTE]  
->  Kørslen betyder kun, at der udformes forslag, ikke, at ændringerne bliver gennemført. Hvis du er tilfreds med forslagene, og du vil implementere dem, dvs. indsætte dem på siden **Salgspriser**, skal du vælge handlingen **Implementer prisændringer** på siden **Salgspriskladde**.
+> Kørslen betyder kun, at der udformes forslag, ikke, at ændringerne bliver gennemført. Hvis du er tilfreds med forslagene, og du vil implementere dem, dvs. indsætte dem på siden **Salgspriser**, skal du vælge handlingen **Implementer prisændringer** på siden **Salgspriskladde**.
 
-## <a name="to-bulk-update-item-prices"></a>Sådan masseopdateres varepriser   
-Hvis du vil masseopdatere varepriser, f.eks. forøge alle varepriser med en procentsats, skal du køre **Foreslå varepris på kladde.** kørsel. Du kan finde et link til kørslen på siden **Salgspriskladde**.     
+## <a name="to-bulk-update-item-prices"></a>Sådan masseopdateres varepriser
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgspriskladde**, og vælg derefter det relaterede link.   
-2.  Vælg handlingen **Foreslå varepris på kladde** .   
-3.  I oversigtspanelet **Vare** skal du udfylde **Nummer**. eller **Varebogføringsgruppe** eller andre felter med de oprindelige varepriser, du vil opdatere.   
-4.  Udfyld felterne **Salgstype** og **Salgskode** i den øverste del af siden med den type og det navn, du vil have salgspriserne kopieret til.
-5.  Hvis kørslen automatisk skal justere foreslåede varepriser, skal du angive justeringen i feltet **Ganges med**. F.eks. skal du angive 1,15 i **Ganges med** for 15 % stigning i varepris.  
-6.  Hvis kørslen skal oprette nye priser, skal du markere feltet **Opret nye priser**.   
-7.  Vælg knappen **OK** for at udfylde linjerne på siden **Salgspriskladde** med de foreslåede nye priser for at angive, at de er gyldige for den valgte **Vare**.   
+Hvis du vil masseopdatere varepriser, f.eks. forøge alle varepriser med en procentsats, skal du køre **Foreslå varepris på kladde.** kørsel. Du kan finde et link til kørslen på siden **Salgspriskladde**.  
 
-> [!NOTE]   
->  Kørslen betyder kun, at der udformes forslag, ikke, at ændringerne bliver gennemført. Hvis du er tilfreds med forslagene, og du vil implementere dem, dvs. indsætte dem i tabellen **Salgspris**, kan du bruge kørslen **Implementer prisændring**, der findes under fanen **Handlinger**, i gruppen **Funktioner** på siden **Salgspriskladde**.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgspriskladde**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Foreslå varepris på kladde** .  
+3. I oversigtspanelet **Vare** skal du udfylde **Nummer**. eller **Varebogføringsgruppe** eller andre felter med de oprindelige varepriser, du vil opdatere.  
+4. Udfyld felterne **Salgstype** og **Salgskode** i den øverste del af siden med den type og det navn, du vil have salgspriserne kopieret til.
+5. Hvis kørslen automatisk skal justere foreslåede varepriser, skal du angive justeringen i feltet **Ganges med**. F.eks. skal du angive 1,15 i **Ganges med** for 15 % stigning i varepris.  
+6. Hvis kørslen skal oprette nye priser, skal du markere feltet **Opret nye priser**.  
+7. Vælg knappen **OK** for at udfylde linjerne på siden **Salgspriskladde** med de foreslåede nye priser for at angive, at de er gyldige for den valgte **Vare**.  
+
+> [!NOTE]
+> Kørslen betyder kun, at der udformes forslag, ikke, at ændringerne bliver gennemført. Hvis du er tilfreds med forslagene, og du vil implementere dem, dvs. indsætte dem i tabellen **Salgspris**, kan du bruge kørslen **Implementer prisændring**, der findes under fanen **Handlinger**, i gruppen **Funktioner** på siden **Salgspriskladde**.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

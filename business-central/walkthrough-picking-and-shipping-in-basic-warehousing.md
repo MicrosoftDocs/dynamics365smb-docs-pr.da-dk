@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: ff621150cca478f56edd113832e2253d73f7698c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 475f32dbaf9b4b80a61e1cad542fbf6db79cb029
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195695"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528306"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger
 
-**Bemærk**: Denne gennemgang skal udføres på et demoregnskab med indstillingen **Fuld evaluering - Komplette eksempeldata**, der findes i sandkassemiljøet. Du kan finde flere oplysninger i [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.  
 
@@ -34,100 +34,113 @@ Du kan finde flere oplysninger i [Designoplysninger: Udgående lagerflow](design
 
 Den følgende gennemgang viser metode B i forrige tabel.  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang  
+## <a name="about-this-walkthrough"></a>Om denne gennemgang
+
 I grundlæggende lageropsætninger, hvor lokationen, du vil plukke fra, er sat op til at kræve pluk, men ikke leverance, bruges siden **Pluk (lager)** til at registrere og bogføre pluk- og leveranceoplysninger for de udgående kildedokumenterne. Det udgående kildedokumentet kan være en salgsordre, en købsreturvareordre, en udgående overflytning eller en produktionsordre med komponentbehov.  
 
 Denne gennemgang viser følgende opgaver:  
 
--   Indstilling af SØLV-lokation til pluk fra lager.  
--   Oprettelse af en salgsordre for debitor 10000 til 30 højttalere.  
--   Frigivelse af salgsordren til lagerekspedition.  
--   Oprette et pluk baseret på et frigivet kildedokumentet.  
--   Registrering af lagerbevægelsen fra lageret og på samme tid bogføring af salgsleverancen til kildesalgsordren.  
+- Indstilling af SØLV-lokation til pluk fra lager.  
+- Oprettelse af en salgsordre for debitor 10000 til 30 højttalere.  
+- Frigivelse af salgsordren til lagerekspedition.  
+- Oprette et pluk baseret på et frigivet kildedokumentet.  
+- Registrering af lagerbevægelsen fra lageret og på samme tid bogføring af salgsleverancen til kildesalgsordren.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
--   Lagerchef  
--   Ordrebehandler  
--   Lagermedarbejder  
+- Lagerchef  
+- Ordrebehandler  
+- Lagermedarbejder  
 
-## <a name="prerequisites"></a>Forudsætninger  
-For at gennemføre denne gennemgang skal:  
+## <a name="prerequisites"></a>Forudsætninger
 
--   CRONUS Danmark A/S være installeret.  
--   Du kan oprette dig selv som lagermedarbejder på lokationen SØLV ved at følge disse trin:  
+For at gennemføre denne gennemgang skal du bruge:  
 
-    1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
-    2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
-    3.  Angiv SØLV i feltet **Lokationskode**.  
-    4.  Markér feltet **Standard**.  
+- Til [!INCLUDE[prodshort](includes/prodshort.md)] online en virksomhed, der er baseret på indstillingen **Avanceret evaluering - komplette eksempeldata** i et sandkassemiljø. Til [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø installeret CRONUS International Ltd.  
+- Du kan oprette dig selv som lagermedarbejder på lokationen SØLV ved at følge disse trin:  
 
--   Gør varen LS-81 tilgængelig på SØLV-lokationen ved at følge disse trin:  
+  1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
+  2. Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
+  3. Angiv SØLV i feltet **Lokationskode**.  
+  4. Markér feltet **Standard**.  
 
-    1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.  
-    2.  Åbn standardkladden, og opret derefter to varekladdelinjer med de følgende oplysninger om arbejdsdatoen (23. januar).  
+- Gør varen LS-81 tilgængelig på SØLV-lokationen ved at følge disse trin:  
+
+  1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.  
+  2. Åbn standardkladden, og opret derefter to varekladdelinjer med de følgende oplysninger om arbejdsdatoen (23. januar).  
 
         |Postens type|Varenummer|Lokationskode|Placeringskode|Antal|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Opregulering|LS-81|SØLV|S-01-0001 **Bemærk:** Varens standardplacering i CRONUS|20|  
+        |Opregulering|LS-81|SØLV|S-01-0001|20|  
         |Opregulering|LS-81|SØLV|S-01-0002|20|  
 
-    3.  Vælg handlingen **Bogfør**, og vælg derefter knappen **Ja**.  
+  3. Vælg handlingen **Bogfør**, og vælg derefter knappen **Ja**.  
 
-## <a name="story"></a>Historie  
+## <a name="story"></a>Historie
+
 Ellen, lagerlederen hos CRONUS, konfigurerer lagerstedet SØLV til grundlæggende håndtering af pluk, hvor lagermedarbejdere kan behandle udgående ordrer enkeltvis. Susan, ordrebehandleren, opretter en salgsordre for 30 enheder af varen LS-81, der skal sendes til debitor 10000 på lagerstedet SØLV. John, som arbejder på lageret, skal sørge for, at forsendelsen klargøres og leveres til debitoren. John administrerer alle involverede opgaver på siden **Pluk (lager)**, som automatisk peger på de placeringer, hvor LS-81 opbevares.  
 
-## <a name="setting-up-the-location"></a>Indstilling af lokation  
+## <a name="setting-up-the-location"></a>Indstilling af lokation
+
 Opsætningen af siden **Lokationskort** definerer flows i virksomheden.  
 
-### <a name="to-set-up-the-location"></a>Sådan oprettes lokationen  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
-2.  Åbn lokationskortet SØLV.  
-3.  Markér afkrydsningsfeltet **Kræv pluk**.  
+### <a name="to-set-up-the-location"></a>Sådan oprettes lokationen
 
-## <a name="creating-the-sales-order"></a>Oprettelse af salgsordren  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
+2. Åbn lokationskortet SØLV.  
+3. Markér afkrydsningsfeltet **Kræv pluk** i oversigtspanelet **Lagersted**.  
+
+## <a name="creating-the-sales-order"></a>Oprettelse af salgsordren
+
 Salgsordrer er den mest almindelige type udgående kildedokument.  
 
-### <a name="to-create-the-sales-order"></a>Sådan oprettes salgsordren  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**.  
-3.  Opret en salgsordre for debitor 10000 på arbejdsdatoen (23. januar) med følgende salgsordrelinje.  
+### <a name="to-create-the-sales-order"></a>Sådan oprettes salgsordren
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+3. Opret en salgsordre for debitor 10000 på arbejdsdatoen (23. januar) med følgende salgsordrelinje.  
 
     |Vare|Lokationskode|Antal|  
-    |----------|-------------------|--------------|  
+    |----|-------------|--------|  
     |LS_81|SØLV|30|  
 
      Fortsæt ved at meddele lageret, at salgsordren er klar til lagerekspedition.  
 
-4.  Vælg handlingen **Frigivelse**.  
+4. Vælg handlingen **Frigivelse**.  
 
     John fortsætter ved at vælge og sende de solgte varer.  
 
-## <a name="picking-and-shipping-items"></a>Sådan plukkes og leveres varer  
-På siden **Pluk (lager)** kan du administrere alle udgående lageraktiviteter til et specifikt kildedokument såsom en salgsordre.  
+## <a name="picking-and-shipping-items"></a>Sådan plukkes og leveres varer
 
-### <a name="to-pick-and-ship-items"></a>Sådan foretages pluk og levering af varer  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerpluk**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**.  
-3.  Vælg feltet **Kildedokument**, og vælg derefter **Salgsordre**.  
-4.  Vælg feltet **Kildenr.**, vælg linjen for salget til debitor 10000, og vælg knappen **OK**.  
+På siden **Pluk (lager)** kan du administrere alle udgående lageraktiviteter til et specifikt kildedokument såsom en salgsordre. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+
+### <a name="to-pick-and-ship-items"></a>Sådan foretages pluk og levering af varer
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerpluk**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+
+    Sørg for, at feltet **Nr.** er udfyldt i oversigtspanelet **Generelt**.
+3. Vælg feltet **Kildedokument**, og vælg derefter **Salgsordre**.  
+4. Vælg feltet **Kildenr.**, vælg linjen for salget til debitor 10000, og vælg knappen **OK**.  
 
     Du kan også vælge handlingen **Hent kildedokument** og derefter vælge salgsordren.  
-5.  Vælg handlingen **Autofyld håndteringsantal**.  
+5. Vælg handlingen **Autofyld håndteringsantal**.  
 
-    Du kan også indtaste henholdsvis 10 og 30 på de to lagerpluklinjer i feltet **Håndteringsantal**.  
-6.  Vælg handlingen **Bogfør**, vælg **Lever**, og vælg derefter knappen **OK**.  
+    Du kan også indtaste henholdsvis 10 og 20 på de to lagerpluklinjer i feltet **Håndteringsantal**.  
+6. Vælg handlingen **Bogfør**, vælg **Lever**, og vælg derefter knappen **OK**.  
 
     De 30 højttalere er nu registreret som plukket fra placeringerne S-01-0001 og S-01-0002, og der oprettes en negativ varepost, der afspejler den bogførte salgsleverance.  
 
-## <a name="see-also"></a>Se også  
- [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)   
- [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
- [Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)   
- [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)   
- [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md)   
- [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
- [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)   
- [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a>Se også
+
+[Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)  
+[Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)  
+[Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  
+[Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+[Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md)  
+[Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
+[Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)  
+[Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

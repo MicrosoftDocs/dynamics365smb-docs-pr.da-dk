@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 01629cb7e881de1c679d8c6925eaacc3a5639597
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 0763119e323a8bae6d2b7ce3db0780284befa292
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196467"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484105"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Synkronisering af data i Business Central med Common Data Service
 Når du integrerer [!INCLUDE[d365fin](includes/cds_long_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du bedt om at synkronisere dataene i bestemte felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (f.eks. kunder, kontakter og sælgere) med tilsvarende records i [!INCLUDE[d365fin](includes/cds_long_md.md)] (f.eks. konti, kontakter og brugere). Afhængigt af record-typen kan du synkronisere data fra [!INCLUDE[d365fin](includes/cds_long_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)], eller omvendt. Du kan finde flere oplysninger under [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -44,11 +44,11 @@ Følgende tabel viser standardtilknytningen mellem enheder i [!INCLUDE[d365fin](
 
 |[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]|Synkroniseringsretning|Standardfilter|
 |-------------------------------------------|-----|-------------------------|--------------|
-|Sælger/indkøber|Bruger|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontaktfilter: **Status** er **Nej**, **Brugerlicenseret** er **Ja** og integrationsbrugertilstand er **Nej**|
-|Debitor|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontofilter: **Relationstype** er **Debitor**, og **Status** er **Aktiv**.|
-|Kreditor|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontofilter: **Relationstype** er **Leverandør**, og **Status** er **Aktiv**.|
-|Kontakt|Kontakt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-kontaktfilter: **Type** er **Person**, og kontakten er knyttet til en virksomhed. Sales-kontaktfilter: Kontakten er tildelt til en virksomhed, og den overordnede debitortype er **Konto**.|
-|Valuta|Transaktionsvaluta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Sælger/indkøber|Bruger|[!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]-kontaktfilter: **Status** er **Nej**, **Brugerlicenseret** er **Ja** og integrationsbrugertilstand er **Nej**|
+|Debitor|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]-kontofilter: **Relationstype** er **Debitor**, og **Status** er **Aktiv**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-filter: **Spærret** er tomt (debitor er ikke spærret).|
+|Kreditor|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/cds_long_md.md)]-kontofilter: **Relationstype** er **Kreditor**, og **Status** er **Aktiv**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-filter: **Spærret** er tomt (kreditor er ikke spærret).|
+|Kontakt|Kontakt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-kontaktfilter: **Type** er **Person**, og kontakten er knyttet til en virksomhed. [!INCLUDE[d365fin](includes/cds_long_md.md)]-kontaktfilter: Kontakten er tildelt en virksomhed, og den overordnede debitortype er **Konto**|
+|Valuta|Transaktionsvaluta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[d365fin](includes/cds_long_md.md)]| |
 
 
 ### <a name="tip-for-admins-viewing-entity-mappings"></a>Tip til administratorer: visning af enhedstilknytninger

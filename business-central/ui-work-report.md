@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 04/01/2020
+ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2bafaa9f4bda392309a76470df5290857327e59c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189287"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454325"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbejde med rapporter, kørsler og XMLporte
+
 En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse, og som du kan udskrive eller gemme som en fil. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
 
 Kørsler og XMLporte udfører mere eller mindre det samme som rapporter, men med henblik på at udføre en proces eller eksportere data. F.eks. opretter kørslen **Opret rykkere** rykkerdokumenter til debitorer med forfaldne betalinger.  
@@ -32,9 +33,12 @@ Når du åbner en rapport, en kørsel eller XMLport, får du typisk vist en anmo
 
 Du kan angive filtre i en rapport mere eller mindre på samme måde, som du angiver filtre på lister. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#filtering).
 
-> [!Caution]
-> Sektionen **Filtrer listen efter** på en anmodningsside indeholder en generel filtreringsfunktion for rapporter. Disse filtre er valgfrie.<br /><br /> Nogle rapporter ignorerer disse filtre, hvilket vil sige, at uanset hvilket filter der er angivet i sektionen **Filtrer listen efter**, er resultatet af rapporten det samme. Det er ikke muligt at vise en oversigt over, hvilke felter ignoreres i rapporterne, så du må prøve dig frem med filtrene, når du bruger dem.<br /><br />
-**Eksempel**: Når du bruger kørslen **Opret rykkere**, bliver et filter for feltet **Debitorposter** i **Niv. for sidst udstedte rykker** ignoreret, fordi filtrene er fastsat for kørslen.
+> [!CAUTION]
+> Sektionen **Filtrer listen efter** på en anmodningsside indeholder en generel filtreringsfunktion for rapporter. Disse filtre er valgfrie.
+>
+> Nogle rapporter ignorerer disse filtre, hvilket vil sige, at uanset hvilket filter der er angivet i sektionen **Filtrer listen efter**, er resultatet af rapporten det samme. Det er ikke muligt at vise en oversigt over, hvilke felter ignoreres i rapporterne, så du må prøve dig frem med filtrene, når du bruger dem.
+>
+> **Eksempel**: Når du bruger kørslen **Opret rykkere**, bliver et filter for feltet **Debitorposter** i **Niv. for sidst udstedte rykker** ignoreret, fordi filtrene er fastsat for kørslen.
 
 ## <a name="using-saved-settings"></a><a name="SavedSettings"></a>Bruge gemte indstillinger
 Anmodningssiden kan indeholde sektionen **Gemte indstillinger**, der indeholder en eller flere poster i feltet **Brug standardværdi fra**. En gemt indstilling er grundlæggende en foruddefineret gruppe af indstillinger og filtre, som du kan anvende i rapporten, før du ser et rapporteksempel eller sender rapporten til en fil. Posten for gemte indstillinger, som kaldes **Sidst anvendte indstillinger og filtre**, er altid tilgængelig. Denne post konfigurerer rapporten til at bruge indstillinger og filtre, der blev brugt sidste gang, du brugte rapporten.
@@ -45,28 +49,32 @@ Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapport
 >Hvis du er administrator, kan du oprette og administrere de gemte indstillinger for rapporter for alle brugere. Du kan finde flere oplysninger i [Administrere gemte indstillinger for rapporter og kørsler](reports-saving-reusing-settings.md).
 
 ## <a name="previewing-a-report"></a>Visning af en rapport
+
 Vælg knappen **Eksempel** for at få vist rapporten i. Brug menulinjen i rapporteksemplet til at:
 
--   Bladre gennem sider
--   Zoome ind og ud
--   Tilpasse til siden
--   Vælg tekst
+- Bladre gennem sider
+- Zoome ind og ud
+- Tilpasse til siden
+- Vælg tekst
 
     Du kan kopiere tekst fra en rapport og derefter indsætte den et andet sted, f.eks. som en side i [!INCLUDE[d365fin](includes/d365fin_md.md)] eller Microsoft Word.  Ved hjælp af musen f.eks., skal du trykke og holde nede på det sted, hvor du vil starte, og derefter bevæge musen for at markere et eller flere ord, sætninger eller afsnit. Du kan derefter trykke på højre museknap og vælge **Kopiér**. Du kan derefter indsætte den markerede tekst, hvor du ønsker.
--   Panorer over dokumentet
+- Panorer over dokumentet
 
     Du kan flytte det synlige område af rapporten i en vilkårlig retning, så du kan se andre områder eller rapporten. Dette er nyttigt, når du har zoomet ind for at få vist detaljer.  Ved hjælp af musen f.eks. skal du trykke på og holde museknappen nede et vilkårligt sted i rapporteksemplet og derefter bevæge musen.
 
--   Hent til en PDF-fil på din computer eller netværket.
--   Udskriv
+- Hent til en PDF-fil på din computer eller netværket.
+- Udskriv
 
 ## <a name="saving-a-report"></a>Gemme en rapport
 Du kan gemme en rapport som et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument ved at vælge knappen **Send til**, og derefter vælge den ønskede indstilling.
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planlægge kørsel af en rapport
-Du kan planlægge kørsel af en rapport på en bestemt dato og et bestemt klokkeslæt. Planlagte rapporter og kørsler indsættes i jobkøen og behandles på det planlagte tidspunkt, ligesom andre job. Du vælger indstillingen **Skema**, når du har valgt knappen **Send til**, og derefter angiver du oplysninger som f.eks. printer og klokkeslæt og dato. Rapporten føjes derefter til opgavekøen og køres på det angivne tidspunkt. Når rapporten er behandlet, fjernes elementet fra jobkøen. Du kan finde flere oplysninger i [Brug af opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-Du kan vælge at gemme den behandlede rapport i en fil, f.eks. Excel, Word eller PDF, udskrive den til den ønskede printer eller kun behandle rapporten. Hvis du vælger at gemme rapporten i en fil, bliver den behandlede rapport sendt til området **Rapportindbakke** i dit rollecenter, hvor du kan se den.
+Du kan planlægge kørsel af en rapport på en bestemt dato og et bestemt klokkeslæt. Planlagte rapporter og kørsler indsættes i jobkøen og behandles på det planlagte tidspunkt, ligesom andre job. Du vælger indstillingen **Skema**, når du har valgt knappen **Send til**, og derefter angiver du oplysninger som f.eks. printer og klokkeslæt og dato. Rapporten føjes derefter til opgavekøen og køres på det angivne tidspunkt. Når rapporten er behandlet, fjernes elementet fra jobkøen. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).  
+
+Når du planlægger en rapport til kørsel, kan du angive, at den skal køre hver torsdag, ved at angive feltet **Datoformel for næste kørsel** til f.eks. *D4*. Du kan finde flere oplysninger i [Bruge datoformler](ui-enter-date-ranges.md#using-date-formulas).  
+
+Du kan vælge at gemme den behandlede rapport i en fil, f.eks. Excel, Word eller PDF, udskrive den til den ønskede printer eller kun behandle rapporten. Hvis du vælger at gemme rapporten i en fil, bliver den behandlede rapport sendt til området **Rapportindbakke** i dit rollecenter, hvor du kan se den.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Udskrive en rapport
 Du kan udskrive en rapport ved at vælge knappen **Udskriv** på rapportanmodningssiden eller på menulinjen på siden **Eksempel**.
@@ -89,6 +97,7 @@ Du kan også bede administratoren om at oprette et Word-rapportlayout til de mes
 Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvor den arrangeres, og hvilken typografi der anvendes. Hvis du vil skifte til et andet layout, kan du se [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md). Eller du kan tilpasse din egen rapportlayout, skal du se [Oprette et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Se også
+
 [Installation af printere](ui-specify-printer-selection-reports.md)  
 [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md)  
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  

@@ -1,27 +1,29 @@
 ---
-title: Tilføje ekstra linjer for at definere udvidet tekst til varebeskrivelser | Microsoft Docs
-description: Du kan tilføje ekstra linjer for at udvide standardteksten, der beskriver en vare.
-services: project-madeira
-documentationcenter: ''
+title: Tilføje ekstra linjer for at definere udvidede beskrivelser
+description: Du kan tilføje ekstra linjer for at udvide standardteksten, der beskriver en vare, en finanskonto og andre data.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 07/08/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a8e1d8836f2b554c9af1e69df6359795395e98c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b611a4f2bcabec7cda408790ab659c6cf3f8e97
+ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193462"
+ms.lasthandoff: 07/08/2020
+ms.locfileid: "3542563"
 ---
-# <a name="add-extended-item-text"></a>Tilføje udvidet varetekst
-Du kan udvide standardtekst for varer ved at indsætte ekstra linjer, og du kan oprette betingelser for brug af ekstra linjer. Du kan gøre dette varekort.
+# <a name="add-extended-text"></a>Tilføje udvidet tekst
 
-## <a name="to-define-extended-text-for-an-item-description"></a>Sådan defineres udvidet tekst for en varebeskrivelse
+Du kan udvide beskrivelsen af varer, lagerenheder, finanskonti og ressourcer ved at tilføje ekstra linjer som udvidet tekst. Du kan også oprette betingelser for brugen af de ekstra linjer.  
+
+I følgende afsnit beskrives, hvordan du føjer udvidet tekst til en beskrivelse af en vare. Men de samme trin gælder for lagerenheder, finanskonti og ressourcer.  
+
+## <a name="to-define-extended-text-for-an-description"></a>Sådan defineres udvidet tekst for en beskrivelse
+
 1. Åbn kortet for en vare, du vil føje udvidet tekst til, og vælg derefter handlingen **Udvidet tekst**.
 2. Udfyld felterne **Kode** og **Beskrivelse**.
 3. Vælg **Ny**.
@@ -31,10 +33,14 @@ Du kan udvide standardtekst for varer ved at indsætte ekstra linjer, og du kan 
 7. Markér de relevante afkrydsningsfelter for de dokumenttyper, hvor den udvidede tekst skal udskrives.
 8. Luk siden.
 
+Du kan nu føje denne udvidede tekst til dokumenter. Følgende fremgangsmåde beskriver, hvordan du føjer udvidet tekst til en salgsordre, men samme fremgangsmåde gælder for alle andre dokumenter, du har angivet for den udvidede tekst.  
+
 ## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Sådan tilføjes en udvidet varetekst på en salgsordrelinje
+
 1. Åbn en salgsordre med en salgslinje for en vare, der har udvidet tekst defineret. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 2. Vælg den ønskede linje, og vælg derefter handlingen **Indsæt udv. tekster**.
 
 ## <a name="see-also"></a>Se også
+
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

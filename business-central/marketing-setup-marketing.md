@@ -1,8 +1,6 @@
 ---
 title: Konfigurere marketing- og kontaktadministrationsoplysninger | Microsoft Docs
 description: Du kan konfigurere marketing- og kontaktadministration i Business Central for at optimere relationer med kundeemner eller kunder og forbedre kampagner og salgsfremstød.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 31d0b10e3876b82d07c90daad381f2cf73e45ee4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8fb9975508cccaeb0f5a0dec4d6e43db4df9fc14
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181216"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529134"
 ---
 # <a name="setting-up-relationship-management"></a>Opsætning af Relationsstyring
+
 Før du begynder arbejde med dine kontakter og marketinginteresser, er der nogle beslutninger og trin, der skal tages for at definere, hvordan bestemte aspekter af kontakter skal håndteres marketingområdet. F.eks. kan du bestemme, om kontaktkortet skal synkroniseres med debitorkortet, kreditorkortet og bankkontokortet, hvordan nummerserier defineres, eller hvad standardhilsenen skal være, når du skriver til dine kontakter.
 
 Når du administrerer dine kontaktpersoner og har en strategi på plads, så du kan identificere, tiltrække og holde på kunderne, er det med til at optimere din virksomhed og øge kundetilfredsheden. Et godt system til styring af kontaktpersoner er desuden en hjælp, når du skal oprette og vedligeholde relationer med kunderne. Kommunikation er nøglen til disse relationer. Hvis firmaer skal have succes, er det vigtigt, at de kan tilpasse kommunikationen efter mulige og eksisterende kunder, leverandører og forretningspartnere efter disses behov. Oprettelse af en strategi og definition af, hvordan din virksomhed anvender kontaktoplysninger er et primært trin. Disse oplysninger skal vises for mange forskellige grupper i virksomheden, så et godt system hjælper alle med at blive mere produktive.
@@ -48,7 +47,7 @@ Du kan finde flere oplysninger i [Automatisk registrere interaktioner med kontak
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Synkronisere kontakter med debitorer m.m.
 Du skal vælge en forretningsrelationskode for debitorer, kreditorer og bankkonti, hvis du vil synkronisere kontaktkortet med disse. Du kan f.eks. kun knytte en kontakt til en eksisterende debitor, hvis du har valgt en forretningsrelationskode for debitoren på siden **Marketingopsætning**.
 
-Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
+Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).  
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Tildele en nummerserie til kontakter og leads
 Du kan konfigurere en nummerserie til kontakter og leads. Hvis du har oprettet en nummerserie for kontakter, og du opretter en kontakt og trykker på Enter i feltet Nr. på kontaktkortet, kopieres det næste tilgængelig kontaktnummer automatisk.

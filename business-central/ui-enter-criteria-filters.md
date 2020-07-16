@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50fbfe2cfa10885ad126153b0602bf953a105d9f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 786b782bd1cba3d75ce42776fa5df84ae89e624e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194447"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529109"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse poster på en liste eller i en rapport eller XMLport. Disse omfatter sortering, søgning og filtrering. Du kan anvende nogle eller alle af disse samtidigt til hurtigt at finde eller analysere dataene.
@@ -68,6 +68,9 @@ Følgende tabel indeholder nogle eksempler, der forklarer, hvordan du kan bruge 
 
 > [!TIP]
 > Du kan trykke på **F3** for at aktivere og deaktivere søgefeltet. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> Søgning matcher ikke værdier i billeder, BLOB-felter, FlowFilter, FlowField og andre felter, der ikke er en del af en tabel. 
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtrering
 Filtrering giver en mere avanceret og fleksibel må de at kontrollere, hvilke poster der skal vises på en liste eller medtages i en rapport eller XMLport. Der er to vigtige forskelle mellem søgning eller filtrering, som beskrevet i nedenstående tabel.
