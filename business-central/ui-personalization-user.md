@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262186"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666943"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
@@ -27,6 +27,11 @@ Afhængigt af sidens type og det siden indeholder, kan du udføre forskellige æ
 > [!NOTE]
 > Administratorer kan udføre samme layoutændringer, efterhånden som brugerne kan tilpasse arbejdsområdet til en profil, som tildeles til flere brugere. Du kan finde flere oplysninger under [Tilpasse sider til roller](ui-personalization-manage.md).<br /><br />
 Administratorer kan også tilsidesætte eller deaktivere brugernes tilpasninger, og de kan også definere, hvilke funktioner brugerne skal kunne se i alle eller bestemte regnskaber. Du kan finde flere oplysninger under [Tilpasse Business Central](ui-customizing-overview.md).
+
+## <a name="video-overview"></a>Videooversigt
+I følgende video vises nogle metoder til at tilpasse dit rollecenter.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
 
 ## <a name="to-change-the-width-of-a-column"></a>Sådan ændres kolonnebredden
 Du kan nemt ændre kolonnestørrelsen i en liste ved at trække i kanten mellem to kolonner mod venstre eller højre.

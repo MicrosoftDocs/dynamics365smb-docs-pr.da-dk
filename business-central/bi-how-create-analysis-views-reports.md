@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: ebdd92cf957df4c21d20c7809ddf10096404ba91
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496821"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617675"
 ---
 #  <a name="create-analysis-reports"></a>Oprette analyserapporter
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi.  
@@ -45,7 +45,7 @@ Derefter kan du oprette kolonner som disse:
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] samler resultaterne af rapporten i på siden **Analyserapport** på grundlag af de linjer og kolonner, du har angivet, som i følgende tabel.  
 
-| |Salg indeværende måned|Salg foregående måned|Salg foregående måned i %|  
+|- |Salg indeværende måned|Salg foregående måned|Salg foregående måned i %|  
 |-|-|-|-|  
 |Computere| | | |  
 |Skærme| | | |  

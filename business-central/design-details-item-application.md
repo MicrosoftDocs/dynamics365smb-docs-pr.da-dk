@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185152"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617623"
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
+
 Når du bogfører en lagertransaktion, registreres antalsbogføringen i vareposterne og værdibogføringen i værdiposterne. Du kan finde flere oplysninger i [Designoplysninger: Varekladde](design-details-inventory-posting.md).  
 
 Desuden foretages en vareudligning for at sammenkæde modtageren af omkostningerne til kilden for omkostninger for at videresende omkostninger i overensstemmelse med kostmetoden. Du kan finde flere oplysninger i [Designoplysninger: Kostmetoder](design-details-costing-methods.md).  
@@ -40,15 +41,15 @@ Om der oprettes antals- eller kostprisudligninger, afhænger af retningen af lag
 
 I følgende tabel vises, baseret på de centrale felter på lagerposteringslinjer, hvordan omkostninger strømmer afhængigt af retningen for posteringen. Den angiver også, hvornår og hvorfor vareudligningen er af typen antal eller omkostning.  
 
-||Feltet Udl.varepostløbenr.|Feltet Udlign fra-varepost|  
+|-|Feltet Udl.varepostløbenr.|Feltet Udlign fra-varepost|  
 |-|--------------------------------|----------------------------------|  
 |Udligning for udgående post|Den udgående post trækker omkostningen fra den åbne indgående post.<br /><br /> **Mængdeudligning**|Ikke understøttet|  
 |Udligning for indgående post|Den indgående post trækker omkostningen til den åbne udgående post.<br /><br /> Den indgående post er kilden til omkostninger.<br /><br /> **Mængdeudligning**|Den indgående post trækker omkostningen fra den udgående post. **Bemærk:** Når du foretager denne faste udligning, behandles den indgående transaktion som en salgsreturvare. Derfor forbliver den anvendte udgående post åben. <br /><br /> Den indgående post er IKKE kilden til omkostninger.<br /><br /> **Kostprisudligning**|  
 
 > [!IMPORTANT]  
->  En salgsreturvare anses IKKE for en omkostningskilde, når den anvendes fast.  
->   
->  Salgsposteringen forbliver åben, indtil den rigtige kilde er bogført.  
+> En salgsreturvare anses IKKE for en omkostningskilde, når den anvendes fast.  
+>
+> Salgsposteringen forbliver åben, indtil den rigtige kilde er bogført.  
 
 Følgende oplysninger registreres i en vareudligningspost.  
 

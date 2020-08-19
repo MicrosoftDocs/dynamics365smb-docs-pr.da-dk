@@ -45,6 +45,7 @@
 ## [Skifte til et andet firma eller miljø](ui-organization-switch.md)
 ## [Administrere notifikationer](ui-smart-notifications.md)
 ## [Tip til ydeevne for erhvervsbrugere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+## [Advarsler og fejlmeddelelser](product-error-messages.md)
 ## Tilpasse Business Central
 ### [Tilpasse dit arbejdsområde](ui-personalization-user.md)
 ### [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md)
@@ -1016,21 +1017,21 @@
 #### [Betalingsstyring](LocalFunctionality/France/payment-management.md)
 #### [Bogføre betalingsboner](LocalFunctionality/France/how-to-post-payment-slips.md)
 ### Grundlæggende Finans
+#### [Finansposter](LocalFunctionality/France/general-ledger.md)
 #### [Udligne finansposter](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
 #### [Annullere udligning af finansposter](LocalFunctionality/France/how-to-unapply-general-ledger-entries.md)
-#### [Lukke et år](LocalFunctionality/France/how-to-close-years.md)
-#### [Nulstille resultatopgørelseskonti](LocalFunctionality/France/how-to-close-income-statement-accounts.md)
-#### [Afslutning af regnskabsperioder](LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md)
-#### [Afgiftsmæssig lukning af år](LocalFunctionality/France/how-to-fiscally-close-years.md)
+#### [Udskrive finansrapporter](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
+#### [Vise finansafstemninger](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
+#### [Angive bogføringsperioder](LocalFunctionality/France/how-to-specify-posting-periods.md)
 #### [Regnskabsperioder og regnskabsår](LocalFunctionality/France/fiscal-periods-and-fiscal-years.md)
-#### [Finansposter](LocalFunctionality/France/general-ledger.md)
+#### [Oversigt over årsafslutningsprocesser](LocalFunctionality/France/year-end-processes-overview.md)
+#### [Afslutning af regnskabsperioder](LocalFunctionality/France/how-to-fiscally-close-accounting-periods.md)
+#### [Nulstille resultatopgørelseskonti](LocalFunctionality/France/how-to-close-income-statement-accounts.md)
+#### [Lukke et år](LocalFunctionality/France/how-to-close-years.md)
+#### [Afgiftsmæssig lukning af år](LocalFunctionality/France/how-to-fiscally-close-years.md)
 #### [Åbne en dublet af et nyt regnskabsår](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
 #### [Bogføre årsafslutningsposten](LocalFunctionality/France/how-to-post-the-year-end-closing-entry.md)
-#### [Oversigt over årsafslutningsprocesser](LocalFunctionality/France/year-end-processes-overview.md)
-#### [Udskrive finansrapporter](LocalFunctionality/France/how-to-print-general-ledger-reports.md)
 #### [Genåbne regnskabsperioder](LocalFunctionality/France/how-to-reopen-accounting-periods.md)
-#### [Angive bogføringsperioder](LocalFunctionality/France/how-to-specify-posting-periods.md)
-#### [Vise finansafstemninger](LocalFunctionality/France/how-to-view-ledger-reconciliations.md)
 ### Anlægsaktiver
 #### [Definere hurtigere afskrivning](LocalFunctionality/France/how-to-set-up-accelerated-depreciation.md)
 #### [Hurtigere afskrivning](LocalFunctionality/France/accelerated-depreciation.md)
@@ -1356,7 +1357,6 @@
 #### [Eksportere momsangivelser i tekstformat](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
 #### [Ækvivalensgebyrer](LocalFunctionality/Spain/equivalence-charges-ec-.md)
 ### Banktransaktioiner og betalinger  
-#### [Elektroniske betalinger AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n34.1.md)
 #### [Elektroniske betalinger – AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
 #### [Oprette bankkonti til elektroniske betalinger](LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)
 #### [Betale kreditorer ved hjælp af elektroniske betalinger](LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md)
@@ -1390,7 +1390,7 @@
 ## Sverige
 ### [Oversigt](LocalFunctionality/Sweden/sweden-local-functionality.md)
 ### Moms
-#### [Oprette købstransaktioner fra tredjeparts-EU-land](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
+#### [Oprette købstransaktioner for tredjeparter i EU](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
 ### Grundlæggende Finans
 #### [Automatiske koder for konti](LocalFunctionality/Sweden/automatic-account-codes.md)  
 #### [Oprette automatiske bankbogføringsgrupper](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)

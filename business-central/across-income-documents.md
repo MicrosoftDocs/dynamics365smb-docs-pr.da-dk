@@ -1,8 +1,6 @@
 ---
 title: Arbejde med indgående bilag | Microsoft Docs
 description: Du kan administrere indgående eksterne virksomhedsdokumenter, f.eks. betalingskvitteringer eller PDF-filer, styre OCR-opgaver og konvertere filerne til elektroniske dokumenter og poster.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 352ebe98ee15547a16365901134b6dd198dc74c2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0c0c71de9b560f94427c26ffed944a8155639028
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187792"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676865"
 ---
 # <a name="incoming-documents"></a>Indgående bilag
+
 Nogle forretningstransaktioner registreres ikke i [!INCLUDE[d365fin](includes/d365fin_md.md)] fra begyndelsen. I stedet sendes et eksternt forretningsdokument til din virksomhed som en vedhæftet fil i mail eller som en papirkopi, som du indscanne i en fil. Dette er typisk for køb, hvor sådanne indgående bilagsfiler repræsenterer betalingskvitteringer for udgifter eller mindre køb.
 
-Fra PDF-filer eller billedfiler, der repræsenterer indgående bilag, kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, som derefter kan konverteres til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Fra PDF-filer eller billedfiler, der repræsenterer indgående bilag, kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, som derefter kan konverteres til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vælg en servicepakke, der passer til din organisation og/eller dit land/område. Du kan også oprette poster manuelt, så de repræsenterer eksterne dokumenter.  
 
 På siden **Indgående bilag** kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående bilagsfiler, manuelt eller automatisk, til de relevante købs- og salgsdokumenter eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter.
 
@@ -47,5 +46,6 @@ Det indgående bilag kan bestå af følgende primære aktiviteter:
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

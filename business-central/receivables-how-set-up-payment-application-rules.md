@@ -1,5 +1,5 @@
 ---
-title: Bruge automatisk udligning til at afstemme betalinger | Microsoft Docs
+title: Konfigurere regler for automatisk udligning af betalinger
 description: Gå til siden Regler for betalingsudligning, og konfigurer regler til at styre, hvordan betalinger/banktransaktioner skal udlignes automatisk til deres relaterede åbne poster, når du bruger funktionen Udlign automatisk på siden Betalingsudligningskladde.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191927"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617569"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Konfigurere regler for automatisk udligning af betalinger
+
 På siden **Regler for betalingsudligning** skal du konfigurere regler, der styrer, hvordan betalingstekst (på en banktransaktion) automatisk matches med tekst på åbne poster i følgende to processer:
+
 - Udlign automatisk betalinger til deres relaterede åbne (ubetalte) fakturaer, kreditnotaer eller andre poster, når du bruger funktionen **Udlign automatisk** på siden **Betalingsudligningskladde**. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
 - Afstem automatisk banktransaktioner med deres relaterede interne bankkontoposter, når du vælger handlingen **Afstem automatisk** på siden **Bankkontoafstemning.** Du kan finde flere oplysninger i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).

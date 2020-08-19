@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fdcebe6babdad7d9e07c75ae8ea4fcb3f581de79
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3f63e978b2fe8b2655ade9fa1b8e682f3c503d20
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180822"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677009"
 ---
 # <a name="print-vat-reconciliation-reports"></a>Udskrive rapporter til afstemning af moms
 I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan du bruge rapporten **Momsafstemning** til at få vist en oversigt over finanskonti med deres grundlæggende beløb og momsbeløb. Disse beløb er grupperet efter moms-type for at hjælpe med afstemningen for afregning af moms.  
 
 ### <a name="to-print-a-vat-reconciliation-report"></a>Sådan udskrives en momsafstemningsrapport  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Afstemning af moms**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), åbn **Momsafstemning**, og vælg derefter det relaterede link.  
 2.  I oversigtspanelet **Indstillinger** skal du udfylde felterne som beskrevet i følgende tabel.  
 
     |Felt|Beskrivelse|  

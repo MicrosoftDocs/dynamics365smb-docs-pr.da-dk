@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272082"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549863"
 ---
 # <a name="set-up-printers"></a>Installation af printere
 Da [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-tjeneste, kan den ikke nå lokale printere med forbindelse til brugernes maskiner. Men den kan oprette forbindelse til cloud-kompatible printere. I den generelle version af [!INCLUDE[prodshort](includes/prodshort.md)] er der installeret en cloud-printer med navnet **Mailprinter** som en udvidelse, og den er klar til brug efter den første installation.
@@ -55,7 +55,11 @@ Hvis du bruger udvidelsen Mailprinter, sendes alle eller nogle udskriftsjob til 
 Du skal træffe alle de nødvendige forholdsregler for beskyttelse af personlige oplysninger, herunder sørge for, at mail-udskriftsløsningen har korrekt konfigurerede tilladelser, indstillinger for beskyttelse af personlige oplysninger og opbevaringspolitikker. Det er dit ansvar at angive en korrekt, bekræftet og aktiv mailadresse. Du kan finde flere oplysninger i [Microsofts erklæring om beskyttelse af personlige oplysninger](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>Sådan vælger du, hvilke printere der skal udskrives hvilke rapporter
+
 På siden **Printervalg** kan du angive på din brugerkonto, hvilke rapporter der skal udskrives med hvilken printer. Dette er nyttigt, hvis du arbejder med forskellige rapporter, som kræver forskellige printere på grund af deres placering i virksomheden eller deres udskrivningsmuligheder.
+
+> [!IMPORTANT]
+> For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kan siden **Printervalg** kun bruges til printere, der er defineret af printerudvidelser. Den kan ikke bruges til lokale printere.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Printervalg**, og vælg derefter det relaterede link. Du kan også vælge en printer på siden **Printerstyring** og derefter vælge handlingen **Printervalg**.
 2. Vælg handlingen **Ny** for at tilføje et printervalg til en bestemt rapport.

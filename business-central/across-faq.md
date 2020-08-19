@@ -5,22 +5,22 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528081"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611580"
 ---
 # <a name="frequently-asked-questions"></a>Ofte stillede spørgsmål
 
 Dette afsnit indeholder svar på ofte stillede spørgsmål om tilmelding til og brug af en prøveversion, køb af abonnement og brug af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan også lære, hvordan du får teknisk support.  
 
-## <a name="is-d365fin-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgængeligt i mit land?
+## <a name="is-d365fin-available-in-my-countryregion"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgængeligt i mit land/område?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængeligt på et begrænset antal markeder, men nye lande tilføjes via Microsoft-styret oversættelse eller partnerstyret oversættelse kvartalsvis. Du kan finde flere oplysninger under [Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (kun tilgængelig på engelsk).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængeligt på et begrænset antal markeder, men nye lande/områder tilføjes via Microsoft-styret oversættelse eller partnerstyret oversættelse kvartalsvis. Du kan finde flere oplysninger under [Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (kun tilgængelig på engelsk).  
 
 ## <a name="how-do-i-get-prodshort"></a>Hvordan kan jeg få [!INCLUDE[prodshort](includes/prodshort.md)]?
 
@@ -108,6 +108,10 @@ Når du er klar til at købe [!INCLUDE[prodshort](includes/prodshort.md)], kan d
 Hvis du vil have vejledning fra Microsoft, skal du kontakte [Microsoft-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Din videresalgspartner kan også hjælpe dig med at håndtere teknisk support. Du kan finde flere oplysninger i [Ressourcer til hjælp og support](product-help-and-support.md).  
+
+## <a name="where-do-i-find-that-line-number"></a>Hvor finder jeg det pågældende linjenummer?
+
+Dokumenter som salgsordrer eller købsfakturaer består af overskrifter og linjer. Hver linje har et nummer, som [!INCLUDE [prodshort](includes/prodshort.md)] bruger til at identificere den pågældende linje. Det betyder, at der muligvis vises en advarsel eller en fejlmeddelelse om, at noget er forkert i linjenummer 1000. I standardversionen af [!INCLUDE [prodshort](includes/prodshort.md)] er linjenumre skjulte. Hvis du vil se linjenumrene, skal du tilpasse den aktuelle side og tilføje **Linjenr.** . Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>Hvorfor er nye oplysninger ikke tilgængelige på mit sprog?
 

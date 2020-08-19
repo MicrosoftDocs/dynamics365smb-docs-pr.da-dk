@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 52312113328aadb82a1149ecf03b3e870ae3c288
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f6ce4c0c304fc8255789ec91fb3a00ba78170d6d
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194855"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666918"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leverancer på én enkelt faktura
 Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.  
 
- Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleverance i samme valuta til den samme kunde. Du skal med andre ord have udfyldt to eller flere salgsordrer og bogført dem som leveret, men ikke faktureret. For at kombinere leverancer skal afkrydsningsfeltet **Tillad samlefaktura** være markeret i oversigtspanelet **Levering** på **debitor**-kortet.  
+Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleverance i samme valuta til den samme kunde. Du skal med andre ord oprette to eller flere salgsordrer og bogføre dem som leveret, men ikke faktureret. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du manuelt leverancer på én enkelt faktura  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
@@ -36,10 +36,12 @@ Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktio
 7. Vælg handlingen **Bogfør** for at fakturere kladden.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du automatisk leverancer på én enkelt faktura  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] vælger kun salgsordrer, hvor **Tillad samlefaktura** er valgt. 
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Tillad samlefaktura**, og vælg derefter det relaterede link. Kørselssiden åbnes.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Markér afkrydsningsfeltet **Bogfør fakturaer**.  
-4.  Vælg knappen **OK**.  
+3. Vælg afkrydsningsfeltet **Bogfør fakturaer**.  
+4. Vælg knappen **OK**.  
 
 > [!NOTE]  
 >  Du er nødt til at bogføre fakturaerne manuelt, hvis afkrydsningsfeltet **Bogfør fakturaer** ikke var markeret til kørslen.  

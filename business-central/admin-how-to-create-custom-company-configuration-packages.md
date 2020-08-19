@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8bbd9b07976dc4d54f8bee9f5eb8c23270c5a10c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c133a678d3628fa8274399d22e7f53b73740e3d8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187168"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666843"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Oprette brugerdefinerede virksomhedsskabeloner
 Efterhånden som din virksomhed vokser, vil du sandsynligvis have oprettet et sæt virksomhedstyper, som du kan bruge til de fleste af dine kunder. Du kan strømline implementeringsprocessen ved at gøre disse typiske typer til virksomhedskonfigurationsskabeloner, der kan genbruges.  
@@ -38,6 +38,11 @@ En anden fremgangsmåde er at oprette en pakke, der indeholder de tabeller, der 
 -   Opsætning af varebogføring  
 
 For at få vist en komplet liste over opsætningstabeller skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Manuel opsætning**, og vælg derefter det relaterede link.  
+
+> [!IMPORTANT]
+> Vær forsigtig, hvis du vælger tabeller eller felter, der har samme stinavn, men er adskilt med specialtegn som f.eks .%, &, <, >, (og). F.eks. kan tabellen "XYZ" indeholde felterne "Felt 1" og "Felt 1%".
+>
+> XML-behandleren accepterer kun specialtegn og fjerner dem, den ikke accepterer. Hvis der fjernes et specialtegn som f.eks. %-tegnet i "Felt 1%", er der to eller flere tabeller eller felter med samme navn, og der opstår en fejl, når du eksporterer eller importerer en konfigurationspakke.
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Sådan oprettes en brugerdefineret virksomhedskonfigurationspakke  
 1.  Oprette en ny virksomhed. Du kan finde flere oplysninger i [Oprettelse af ny virksomheder i Business Central](about-new-company.md).  

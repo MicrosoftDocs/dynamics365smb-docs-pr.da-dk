@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2020
+ms.date: 07/13/2020
 ms.author: bmeier
-ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8948864c1e3d00f3955b0952fd70048c13f4585c
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528859"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577252"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Intelligent indsigt med [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
 Som bruger af [!INCLUDE[prodshort](includes/prodshort.md)] online har du fuld adgang til scenarier, der er baseret på den intelligente sky, f.eks. KPI'er, der er baseret på maskinel indlæring, eller når du får vist dataene i Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-first service, men også de kunder, der udelukkende skal køre deres arbejdsbelastning lokalt eller på den intelligente edge, der er forbundet med skyen, kan gøre dette.  
 
-Hvis du er interesseret i [!INCLUDE[prodshort](includes/prodshort.md)], kan du tilmelde dig en gratis prøveversion online, eller du kan vælge at arbejde med en partner for at implementere [!INCLUDE[prodshort](includes/prodshort.md)] lokalt på hardware efter dit eget valg. Du kan derefter vælge at få en intelligent indsigt ved at oprette forbindelse til en lejer i skyen. Data fra din lokalt installerede [!INCLUDE[prodshort](includes/prodshort.md)] kopieres derefter til skyen til brug for intelligente skyscenarier.  
+Hvis du er interesseret i [!INCLUDE[prodshort](includes/prodshort.md)], kan du tilmelde dig en gratis prøveversion online, eller du kan vælge at arbejde med en partner for at implementere [!INCLUDE[prodshort](includes/prodshort.md)] lokalt på hardware efter dit eget valg. Du kan derefter vælge at få en intelligent indsigt ved at oprette forbindelse til en lejer i skyen. Data fra din on-premises installation af [!INCLUDE[prodshort](includes/prodshort.md)] kopieres derefter til skyen til brug for intelligente skyscenarier.  
 
 Når du vil oprette forbindelse til den intelligente sky fra en lokal løsning, skal din systemadministrator angive oplysninger om din database. De værktøjer, der bruges til at forbinde din lokale installation med [!INCLUDE[prodshort](includes/prodshort.md)] online, er de samme, som også bruges til at overføre fra et lokalt miljø til et onlinemiljø. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet for [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -44,11 +44,10 @@ Siden opretter også forbindelse til Power BI, hvor du kan få endnu flere oplys
 
 ## <a name="viewing-intelligent-insights-on-premises"></a>Visning af intelligent indsigt til det lokale miljø
 
-Når din Dynamics 365-videresalgspartner har fået den rigtige licens til din lokale løsning og kan oprette forbindelse til skyen ved hjælp af [!INCLUDE[prodshort](includes/prodshort.md)], kan din administrator oprette forbindelsen. Når det er gjort, kan du få samme indsigt fra skyen i dit lokale program. Afhængigt af din lokale løsning kan siden **Intelligent cloudindsigt** integreres på startsiden eller på en separat side som i [!INCLUDE[prodshort](includes/prodshort.md)] online og til det lokale miljø.  
+Når din Dynamics 365-videresalgspartner har fået den rigtige licens til din lokale løsning og kan oprette forbindelse til skyen ved hjælp af [!INCLUDE[prodshort](includes/prodshort.md)], kan din administrator oprette forbindelsen. Når det er gjort, kan du få samme indsigt fra skyen i dit lokale program. Afhængigt af din lokale løsning kan siden **Intelligent skyindsigt** integreres på startsiden eller på en separat side som i [!INCLUDE[prodshort](includes/prodshort.md)] online og til det lokale miljø.  
 
 ## <a name="see-also"></a>Se også
 
 [Velkommen til Business Central](index.md)  
-[Udvidelsen Intelligent sky i Business Central](ui-extensions-intelligent-cloud.md)  
-[Datareplikeringsudvidelse](ui-extensions-data-replication.md)  
+[Intelligente skyudvidelser til skymigrering](ui-extensions-data-replication.md)  
 [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9568eb93fedc7c9409cbb7efe2f145d4bc98022f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 74ce796e9ce9f7acda8ae7d2c7725f4d3eb4d6ea
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180823"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677180"
 ---
 # <a name="create-electronic-documents-by-using-oioubl"></a>Oprette elektroniske dokumenter ved hjælp af OIOUBL
 Når du sælger varer eller tjenesteydelser til en kunde i den offentlige sektor, skal du sende dokumenter elektronisk. I [!INCLUDE[d365fin](../../includes/d365fin_md.md)], kan du oprette elektroniske dokumenter til fakturaer, kreditnotaer, rykkere og rentenotaer. Før du kan oprette elektroniske dokumenter, skal du have angivet filplaceringer og oplysninger om kunderne. Du kan få flere oplysninger i [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md).  
@@ -23,7 +23,7 @@ Når du sælger varer eller tjenesteydelser til en kunde i den offentlige sektor
 Du kan oprette et elektronisk dokument, når du har bogført et salgs- eller servicedokument. I følgende afsnit beskrives, hvordan du bogfører en salgsfaktura med de nødvendige oplysninger og derefter opretter en elektronisk salgsfaktura, men samme fremgangsmåde gælder for salgs-og servicekreditnotaer og rykkere.  
 
 ## <a name="to-post-a-sales-invoice"></a>Sådan bogføres en salgsfaktura  
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2.  Åbn den salgsfaktura, som du vil bogføre.  
 3.  Kontrollér, at feltet **Eksternt bilagsnr.** indeholder nummeret på det dokument, kunden har leveret. Elektroniske OIOUBL-dokumenter kræver dette nummer.
 
@@ -39,7 +39,7 @@ Du kan oprette et elektronisk dokument, når du har bogført et salgs- eller ser
 ## <a name="to-create-an-electronic-sales-invoice"></a>Sådan oprettes en elektronisk salgsfaktura  
 Når du har bogført et dokument, kan du oprette en elektronisk faktura i OIOUBL-format. Nedenfor beskrives processen for bogførte salgsfakturaer, men proceduren er den samme for andre dokumenter.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 2.  Åbn den relevante bogførte salgsfaktura.  
 3.  Vælg handlingen **Opret elektronisk <*dokumenttype*>**.  
 4.  På siden **Opret elektronisk <*dokumenttype*>** kan du angive yderligere filtre og derefter vælge knappen **OK**.  

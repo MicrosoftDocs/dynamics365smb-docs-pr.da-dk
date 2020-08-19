@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182776"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611663"
 ---
 # <a name="set-up-value-added-tax"></a>Konfigurere moms
+
 Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydelser. Momsbeløbet, der skal betales, kan variere afhængigt af flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] konfigurerer du moms til at angive de satser, der bruges til at beregne momsbeløb baseret på følgende:
 
 * Hvem du sælger til  
@@ -28,22 +29,26 @@ Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydel
 Du kan konfigurere momsberegninger manuelt, men der kan være svært og tidskrævende. For at gøre det nemt for dig har vi lavet en assisteret opsætningsvejledning, **Momsopsætning**, der hjælper dig med fremgangsmåden. Du anbefales at bruge den assisterede opsætningsvejledning, når du konfigurerer moms.
 
 > [!NOTE]  
->   Du kan kun bruge vejledningen, hvis du har oprettet Min virksomhed og ikke har bogført transaktioner, der omfatter moms. Ellers kan du nemt komme til at bruge forskellige momssatser utilsigtet og gøre rapporter vedrørende moms unøjagtige.  
+> Du kan kun bruge vejledningen, hvis du har oprettet Min virksomhed og ikke har bogført transaktioner, der omfatter moms. Ellers kan du nemt komme til at bruge forskellige momssatser utilsigtet og gøre rapporter vedrørende moms unøjagtige.  
 
 Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enkelte trin, indeholder i dette emne beskrivelser af de enkelte trin.
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Sådan bruges den assisterede momsopsætningsvejledning til at konfigurere moms (anbefales)
+
 Du anbefales at bruge den assisterede momsopsætningsvejledning, når du konfigurerer moms i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 For at starte vejledningen skal du gøre følgende:
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Assisteret opsætning**.  
 2. Vælg **Konfigurer moms**, og fuldfør trinnene.
-3. Når du har fuldført den assisterede opsætning, skal du gå til **Momsbogf.opsætning** og kontrollere, om du er nødt til at udfylde yderligere felter i henhold til din lokale landeversion. Du kan finde flere oplysninger i [Lokal funktionalitet i Business Central](about-localization.md)  
+3. Når du har fuldført den assisterede opsætning, skal du gå til siden **Momsbogf.opsætning** og kontrollere, om du er nødt til at udfylde yderligere felter i henhold til de landespecifikke krav for din version af [!INCLUDE [prodshort](includes/prodshort.md)]. Du kan finde flere oplysninger i [Lokal funktionalitet i Business Central](about-localization.md)  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Sådan defineres momsregistreringsnumre for dit land eller område
+
 For at sikre, at brugere angiver gyldige momsregistreringsnumre, kan du definere formater til momsregistreringsnumre, som bruges i de lande eller områder, hvor du handler. [!INCLUDE[d365fin](includes/d365fin_md.md)] viser en fejlmeddelelse, når en bruger laver en fejl eller bruger et format, der er forkert for landet eller området.
 
 For at oprette momsregistreringsnumre, skal du gøre følgende:
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Lande/områder**.
 2. Vælg landet eller området, og vælg derefter handlingen **SE/CVR-nr.formater**.
 3. I feltet **Formater** skal du angive formatet ved at angive et eller flere af følgende tegn:  

@@ -8,23 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/16/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7b39bcd593489e40d218cf29a3d288dd128cce04
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 24da45703f2005efbdb1c1955c01c623151fd5cd
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192767"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611634"
 ---
 # <a name="date-calculation-for-purchases"></a>Beregning af forfaldsdato for køb
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato. Dette er den dato, du kan forvente, at varer, der er bestilt på en bestemt dato, er disponible til pluk.  
 
 Hvis du angiver en ønsket modtagelsesdato på et købsordrehoved, er den beregnede ordredato den dato, hvor ordren skal være placeret for at modtage varerne på den dato, du har anmodet om. Derefter beregnes den dato, hvor varerne er disponible til pluk, og datoen indsættes i feltet **Forventet modt.dato**.  
 
 Hvis du ikke indtaster en ønsket modtagelsesdato, er det ordredatoen på linjen, der bruges som udgangspunkt for beregning af den dato, hvor du kan forvente at modtage varerne samt datoen, hvor varerne er disponible til plukning.  
 
-## <a name="calculating-with-a-requested-receipt-date"></a>Beregning med en ønsket modtagelsesdato  
+## <a name="calculating-with-a-requested-receipt-date"></a>Beregning med en ønsket modtagelsesdato
+
 Hvis der står en ønsket modtagelsesdato på købslinjen, bruges denne dato som udgangspunkt for følgende beregninger.  
 
 - Ønsket modtagelsesdato - Leveringstidsberegning = Ordredato  
@@ -32,10 +34,11 @@ Hvis der står en ønsket modtagelsesdato på købslinjen, bruges denne dato som
 
 Hvis du har indtastet en ønsket modtagelsesdato på købsordrehovedet, kopieres denne dato til det tilsvarende felt på alle ordrelinjerne. Du kan ændre eller fjerne datoen på en eller flere linjer.  
 
-> [!Note]
+> [!NOTE]
 > Hvis processen er baseret på bagudrettet beregning, f.eks. hvis du bruger den ønskede modtagelsesdato til at hente ordredatoen, anbefales det, at du bruger datoformler med faste varigheder, f.eks. "5D" for fem dage eller "1U" for én uge. Datoformler uden faste varigheder, f.eks. "AU" for aktuelle uge eller AM for den aktuelle måned, kan resultere i forkerte datoberegninger. Du kan finde flere oplysninger om datoformler i [Arbejde med kalenderdatoer og-klokkeslæt](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Beregning uden en ønsket leveringsdato  
+## <a name="calculating-without-a-requested-delivery-date"></a>Beregning uden en ønsket leveringsdato
+
 Hvis du angiver en købslinje uden en ønsket leveringsdato, udfyldes feltet **Ordredato** automatisk med datoen fra feltet **Ordredato** på købshovedet. Denne dato kan enten være en indtastet dato eller arbejdsdatoen. Med ordredatoen som udgangspunkt beregnes følgende datoer derefter automatisk til købsordrelinjen.  
 
 - Ordre dato + Leveringstidsberegning = Planlagt modtagelsesdato  
@@ -45,7 +48,15 @@ Hvis du ændrer ordredato på linjen, f.eks. når varerne ikke er disponible hos
 
 Hvis du ændrer ordredatoen på hovedet, kopieres denne dato til feltet **Ordredato** på alle linjerne, og alle relaterede datofelter genberegnes derefter.  
 
-## <a name="see-also"></a>Se også  
- [Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)   
- [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="default-values-for-lead-time-calculation"></a>Standardværdier for beregning af leveringstid
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bruger værdien fra feltet **Leveringstid** på købsordrelinjen til at beregne ordren og de forventede modtagelsesdatoer.  
+
+Du kan angive værdien på linjen manuelt eller lade programmet bruge værdier, der er defineret på kreditorkortet, varekortet, lagervarekortet eller vare/leverandør-kataloget.
+Men værdien af leveringstiden på kreditorkortet bruges kun, hvis der ikke er angivet en leveringsperiode på varekortet, lagervarekortet eller vare/leverandør-kataloget for varen. Dette er også den prioriterede rækkefølge for disse værdier. Hvis de alle er angivet, har leveringstiden fra kreditorkortet den laveste prioritet, og leveringstiden fra vare/leverandør-kataloget har den højeste prioritet.  
+
+## <a name="see-also"></a>Se også
+
+[Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)   
+[Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

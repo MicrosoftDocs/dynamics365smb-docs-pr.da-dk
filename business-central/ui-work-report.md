@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454325"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549888"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbejde med rapporter, kørsler og XMLporte
 
@@ -50,7 +50,7 @@ Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapport
 
 ## <a name="previewing-a-report"></a>Visning af en rapport
 
-Vælg knappen **Eksempel** for at få vist rapporten i. Brug menulinjen i rapporteksemplet til at:
+Vælg knappen **Eksempel** for at få vist rapporten på siden for rapportanmodninger. Brug menulinjen i rapporteksemplet til at:
 
 - Bladre gennem sider
 - Zoome ind og ud
@@ -77,17 +77,32 @@ Når du planlægger en rapport til kørsel, kan du angive, at den skal køre hve
 Du kan vælge at gemme den behandlede rapport i en fil, f.eks. Excel, Word eller PDF, udskrive den til den ønskede printer eller kun behandle rapporten. Hvis du vælger at gemme rapporten i en fil, bliver den behandlede rapport sendt til området **Rapportindbakke** i dit rollecenter, hvor du kan se den.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Udskrive en rapport
+
 Du kan udskrive en rapport ved at vælge knappen **Udskriv** på rapportanmodningssiden eller på menulinjen på siden **Eksempel**.
 
-Da [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-tjeneste, kan den ikke nå lokale printere med forbindelse til brugernes maskiner. Men den kan oprette forbindelse til cloud-kompatible printere. I den generelle version af [!INCLUDE[prodshort](includes/prodshort.md)] er der installeret en cloud-printer med navnet **Mailprinter** som en udvidelse, og den er klar til brug efter den første installation.
+### <a name="printer-selection"></a>Printervalg
 
-Hvis der ikke er installeret og konfigureret en cloud-printer, eller hvis der opstår fejl på en installeret printer, vil udskrivningen som standard benytte browserens udskriftsindstillinger. Dette angives med denne værdi i feltet **Printer** på rapportanmodningssiden: *(ingen, håndteres af browseren)*.
+Rapporten udskrives til den printer, der vises i feltet **Valgt printer** på rapportanmodningssiden. Du kan ikke ændre printeren fra denne side.
 
-På siden **Printerstyring** kan du se de printere, der er konfigurerede. Du kan finde flere oplysninger i [Oprette printere](ui-specify-printer-selection-reports.md).
+Den valgte printer er enten angivet på siden **Printervalg** eller er den standardprinter, der er konfigureret på siden **Printerstyring**. Hvis du vil bruge en anden printer, skal du se [Installation af printere](ui-specify-printer-selection-reports.md).
+
+Hvis der ikke er angivet en printer på siden **Printervalg** eller ingen standardprinter er angivet på siden **Printerstyring**, bruges udskrivningsfunktionen i browseren. I så fald vises **Browser** i feltet **Valgt printer** på rapportanmodningssiden. 
+
+### <a name="browser-printing"></a>Browserudskrivning
+
+Da [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-tjeneste, kan den ikke nå lokale printere med forbindelse til din computer. Men den kan oprette forbindelse til cloud-kompatible printere. I den generelle version af [!INCLUDE[prodshort](includes/prodshort.md)] er der installeret en cloud-printer med navnet **Mailprinter** som en udvidelse, og den er klar til brug efter den første installation.
+
+Hvis der ikke er installeret og konfigureret en cloud-printer, eller hvis der opstår fejl på en installeret printer, vil udskrivningen som standard benytte browserens udskriftsindstillinger.
 
 > [!NOTE]
-> Du kan ikke ændre feltet **Printer** på rapportanmodningssiden. Hvis du vil bruge en anden printer, skal du vælge den på siden **Printerstyring**.
+> Indstillingerne for browserudskrivning fungerer uafhængigt af [!INCLUDE[prodshort](includes/prodshort.md)]. Så alle printerindstillinger, der er oprettet fra printere i [!INCLUDE[prodshort](includes/prodshort.md)], overføres ikke til browserens udskriftsindstillinger.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Udskrive rapporter på thailandsk
 Knappen **Udskriv** er specifik for Thai-versionen af [!INCLUDE[prodshort](includes/prodshort.md)], men kan ikke udskrive rapporter korrekt pga. begrænsninger i den tjeneste, der genererer PDF-filen, som kan udskrives. Du kan i stedet åbne rapporten i Word og derefter gemme rapporten som en PDF-fil, der kan udskrives.  
 

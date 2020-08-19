@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191447"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677304"
 ---
 # <a name="subcontract-manufacturing"></a>Produktion hos underleverandør
 Det er almindeligt for mange produktionsvirksomheder at placere udvalgte operationer hos underleverandører. Det er normal procedure i mange produktionsvirksomheder, selvom det hos nogle virksomheder måske kun sker engang imellem, mens det hos andre er en integreret del af produktionsprocessen.
@@ -71,13 +71,6 @@ Den kladde, der nu udgør købsordren, slettes i kladden. Når en købsordre er 
 
 ## <a name="posting-subcontract-purchase-orders"></a>Bogføre købsordrer på underleverancer  
 Når der er oprettet en købsordre på en underleverance, kan den bogføres. Når ordren modtages, bogføres en kapacitetspost på produktionsordren, og ved fakturering af ordren bogføres de direkte omkostninger, der er forbundet med købsordren, på produktionsordren.  
-
-Når købet er bogført som modtaget, bogføres en afgangskladdelinjepost automatisk for produktionsordren. Dette gælder kun, hvis underleverandøroperationen er den sidste operation på produktionsordreruten.  
-
-> [!CAUTION]  
->  Der ønskes muligvis ikke automatisk bogføring af afgang for en igangværende produktionsordre, når der modtages varer fra underleverandører. Årsagerne til dette kan være, at det forventede afgangsantal, som bogføres, kan være forskelligt fra det faktiske antal, og at bogføringsdatoen for den automatiske afgang er vildledende.  
->   
->  Hvis du vil undgå, at en produktionsordres forventede afgang bogføres, når der modtages køb på underleverancer, skal du sørge for, at underleverandøroperationen ikke er den sidste. Du kan også indsætte en ny sidste operation for det endelige afgangsantal.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Sådan bogføres en købsordre på en underleverance  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.  

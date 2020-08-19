@@ -8,26 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 8566856ade03531ce01f0fca35828d9af4fe785d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188872"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611530"
 ---
 # <a name="local-functionality-in-prodlong"></a>Lokal funktionalitet i [!INCLUDE[prodlong](includes/prodlong.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombineret oversættelsesstrategi inklusive både Microsoft-styrede såvel som partnerstyrede modeller. I dette afsnit kan du se beskrivelser af funktioner, der gælder for de lande, hvor Microsoft leverer overholdelse af lovmæssige krav og andre lokale funktioner.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombineret oversættelsesstrategi inklusive både Microsoft-styrede såvel som partnerstyrede modeller. I dette afsnit kan du se beskrivelser af funktioner, der gælder for de lande/områder, hvor Microsoft leverer overholdelse af lovmæssige krav og andre lokale funktioner.  
 
-Du kan finde en liste over de aktuelt understøttede markeder under [Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
+Du kan finde en liste over de aktuelt understøttede markeder under [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## <a name="local-functionality"></a>Lokal funktionalitet
 
-Du kan finde flere oplysninger om lokal funktionalitet for hvert land ved at vælge det relaterede link:
+Du kan finde flere oplysninger om lokal funktionalitet for hvert land/område ved at vælge det relaterede link:
 
-| Land/område | Land/område | Flere oplysninger |
+| Land/område | Land | Flere oplysninger |
 | --- | --- |--- |
 | Europa |  | |
 |        | Østrig | [Lokal funktionalitet for Østrig](localfunctionality/austria/austria-local-functionality.md) |
@@ -54,11 +54,13 @@ Du kan finde flere oplysninger om lokal funktionalitet for hvert land ved at væ
 |        | New Zealand | [Lokal funktionalitet for New Zealand](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Andre lande/områder
-[!INCLUDE[d365fin](includes/d365fin_md.md)] findes også på andre markeder via oversættelsesapps. Hvis en Microsoft-partner har udviklet en oversættelsesapp til dit land, kan du finde den i [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] findes også på andre markeder via oversættelsesapps. Hvis en Microsoft-partner har udviklet en oversættelsesapp til dit land/område, kan du finde den i [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
+
 [Introduktion](product-get-started.md)  
 [Overholdelse](compliance/compliance-overview.md)  
-[Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Tilgængelighed i lande/områder og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [International tilgængelighed af Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Udvikling af en lokaliseringsløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

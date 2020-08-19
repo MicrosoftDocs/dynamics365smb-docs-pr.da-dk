@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184192"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666793"
 ---
 # <a name="fixed-assets"></a>Anlægsaktiver
 I Anlæg i [!INCLUDE[d365fin](includes/d365fin_md.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
@@ -31,7 +31,7 @@ For hvert aktiv kan du registrere reparationsomkostningerne og den næste servic
 Hvert anlægsaktiv kan tilknyttes én eller flere forsikringspolicer. Du kan derfor let kontrollere, at forsikringspolicebeløbene er i overensstemmelse med værdien af de aktiver, der er knyttet til policen. Det gør det også nemt at overvåge årlige forsikringspræmier.
 
 > [!NOTE]  
->   Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger siden **Anlægskassekladde**. Du kan finde flere oplysninger i [Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
+>   Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af om transaktionerne, der er til regnskabsaflæggelse eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger siden **Anlægskassekladde**. Du kan finde flere oplysninger i [Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
 
 Når du vil begynde at administrere anlægsaktiver, skal du først angive standardværdier, anlægsregnskab, bogføringsgrupper, allokeringsnøgler, kladder og bogføringstyper. Du kan finde flere oplysninger under [Konfigurere anlægsaktiver](fa-setup.md).
 
@@ -48,8 +48,13 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Bogføre salgstransaktioner, have vist salgsposter og bogføre delvist salg. |[Afhænde eller lade anlægsaktiver udgå](fa-how-dispose-retire.md) |
 | Administrere anlægsbudgetter, budgettere anskaffelsesomkostninger, salg af anlægsaktiver og afskrivning. |[Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md) |
 
+## <a name="video-overview"></a>Videooversigt
+Følgende video giver en grundlæggende beskrivelse af anlægsaktiver.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
+
 ## <a name="see-also"></a>Se også
-[Opsætning af anlægsaktiver](fa-setup.md)  
+[Opsætning af Anlægsaktiver](fa-setup.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  

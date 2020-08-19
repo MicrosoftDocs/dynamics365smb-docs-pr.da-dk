@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d6440c4cf2f7b5e41f320fcbb1d72d353ae4f5e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187997"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577374"
 ---
 # <a name="track-document-lines"></a>Spor dokumentlinjer
 Du kan se dokumenter, der er relateret til salgsordrelinjer og indkøbsordrelinjer, herunder fra arkiverede ordrelinjer. Relaterede dokumenter, som du kan spore omfatter tilbud, leverancer, modtagelser og rammeordrer. Dette hjælper dig med at identificere dokumenter, der bruges til at behandle ordrer.  
@@ -28,6 +28,8 @@ Nedenstående procedure beskriver, hvordan du sporer fra en salgsordrelinje. Tri
 3.  Vælg en linjen, og vælg derefter handlingen **Bilagslinjesporing**.
 4. På siden **Bilagslinjesporing** skal du vælge det dokument, du vil have vist, og derefter vælge handlingen **Vis** for at få vist den relaterede linje.
 5. For at få vist hele dokumentet for den valgte dokumentlinje skal du vælge handlingen **Vis dokument**.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

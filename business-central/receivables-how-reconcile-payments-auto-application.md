@@ -1,8 +1,6 @@
 ---
-title: Bruge automatisk udligning til at afstemme betalinger | Microsoft Docs
+title: Afstemme betalinger ved hjælp af automatisk udligning
 description: Beskriver, hvordan du bruger den automatiske udligningsfunktion til at udligne betalinger eller indbetalinger til de relaterede åbne poster og afstemme betalinger.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0acef518c6333061aa9c321b91c47aa1da8df2c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 17d0a3acb019643d7ccf39013dede82e311245b6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191975"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617596"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Afstemme betalinger ved hjælp af automatisk udligning
+
 Siden **Betalingsudligningskladde** angiver betalinger, enten indgående eller udgående, der er registreret som transaktioner på din onlinebankkonto, og som du kan udligne på deres relaterede åbne debitor-, kreditor- og bankkontoposter. Linjerne i kladden udfyldes ved at importere et bankkontoudtog som et bankfeed eller en fil.
 
 > [!NOTE]

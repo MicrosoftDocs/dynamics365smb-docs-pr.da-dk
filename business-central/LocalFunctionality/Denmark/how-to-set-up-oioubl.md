@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 896d54d8c54ddd4dfa96c7649048a3a802c8d159
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 07044d73af98d1537b2b6ccd0869613bcc0ab508
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180821"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677194"
 ---
 # <a name="set-up-oioubl"></a>Konfigurere OIOUBL
 Du skal angive en placering til lagring af OIOUBL-filer (Offentlig Information Online UBL), når du opretter elektroniske dokumenter som f.eks. fakturaer eller kreditnotaer. Du skal også definere betalingsformer, betalingsbetingelser og varegebyrer, og du skal oprette relevante kunder til OIOUBL.  
@@ -31,15 +31,15 @@ Standardprofilen for alle debitorer er profilen Simpel fakturaproces, der er val
 ##<a name="to-set-up-payment-terms"></a>Sådan defineres betalingsbetingelser
 Hvis du angiver betalingsbetingelserne for debitorer, medtages de elektroniske dokumenter rabatter, som du giver for førtidige betalinger.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsbetingelser**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), åbn **Betalingsbetingelser**, og vælg derefter det relaterede link.  
 2.  I feltet **OIOXML-kode** skal du vælge en kode for hver betalingsbetingelse, du vil bruge til elektroniske fakturaer.  
 
 ### <a name="to-set-up-customers-for-oioubl"></a>Sådan konfigureres kunder til OIOUBL  
 Du kan bruge debitorskabelonen **Offentlig kunde (OIOXML)** til at anvende standardindstillinger for OIOUBL til en ny debitor, eller funktionen **Anvend skabelon**, hvis du vil anvende indstillingerne i skabelonen til en eksisterende kunde. Nedenfor beskrives, hvordan du manuelt kan udfylde de obligatoriske felter til OIOUBL. <!--need to check whether this overwrites anything for existing customers-->
 
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kunder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
 2.  Åbn den kunde, du vil konfigurere aktivere til OIOUBL.  
-3.  Angiv debitorens adresse. Sørg for, at du angiver en lande-/ områdekode og kontaktoplysninger for kundeattentionpersonen.  
+3.  Angiv debitorens adresse. Sørg for, at du angiver en lande/områdekode og kontaktoplysninger for kundeattentionpersonen.  
 4.  I feltet **Dokumentafsendelsesprofil**, skal du vælge profilen **OIOUBL**.
 5.  Udfyld felterne i oversigtspanelet **Fakturering** som beskrevet i følgende tabel.  
 
@@ -58,7 +58,7 @@ Du kan bruge debitorskabelonen **Offentlig kunde (OIOXML)** til at anvende stand
 Du kan finde flere oplysninger om, hvordan du opretter en debitor i [Registrere nye debitorer](../../sales-how-register-new-customers.md).
 
 ## <a name="to-set-up-item-charges"></a>Sådan konfigureres varegebyrer  
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varegebyrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varegebyrer**, og vælg derefter det relaterede link.  
 2.  For hvert varegebyr, skal du vælge en kategori i feltet **Gebyrkategori**.  
 
 Endelig skal du angive EAN-numre og kontokoder for de relevante debitorer. Du kan få flere oplysninger i [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md).  

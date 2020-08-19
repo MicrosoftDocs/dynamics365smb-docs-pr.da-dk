@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 252636417dab633b8b95a15f206d1be82fc78a32
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b0ec8e5a23b387c52998369e440462613b7cc1fe
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183184"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666893"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 Da virksomheder handler i alt flere lande, bliver det mere vigtigt, at de kan handle eller rapportere finansielle oplysninger i mere end én valuta. Du skal oprette koder for hver valuta, du bruger, hvis du foretager køb og salg i andre valutaer end din lokale valuta, eller hvis du registrerer finanstransaktioner i forskellige valutaer.
@@ -56,6 +56,9 @@ Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks
 2. Vælg handlingen **Ny**.
 3. På siden **Valutakurstjenester** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Marker afkrydsningsfeltet **Aktiveret** for at aktivere tjenesten.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Sådan opdateres valutakurser fra en tjeneste
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valutaer**, og vælg derefter det relaterede link.

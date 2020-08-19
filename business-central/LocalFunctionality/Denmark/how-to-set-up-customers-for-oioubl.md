@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e0d32d1dffebb2bafa13a8d53316dc430feea1d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 143cc60e17825657cd329967d8113204954c1178
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180820"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677024"
 ---
 # <a name="set-up-customers-for-oioubl"></a>Konfigurere kunder til OIOUBL
 Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for debitorer i den offentlige sektor, skal du tilføje OIOUBL-oplysninger for de relevante debitorer.  
@@ -24,7 +24,7 @@ Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for deb
 
 ### <a name="to-set-up-customers-for-oioubl"></a>Sådan konfigureres kunder til OIOUBL  
 
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kunder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
 2.  Åbn den kunde, du vil konfigurere aktivere til OIOUBL.  
 3.  Udfyld felterne i oversigtspanelet **Fakturering** som beskrevet i følgende tabel.  
 

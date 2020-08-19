@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 05/25/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4da1195333f6b36866f55ee02123f75df4778de0
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 70ce34984a98631d20c2d836164f9328fbb15a2a
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402549"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577172"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Oprette gentagne salgs- og købslinjer
 Hvis du ofte har brug at oprette salgs- og købslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende salgs- og købsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.  
@@ -31,6 +31,8 @@ Følgende procedure viser, hvordan du arbejder med standardsalgslinjer på en sa
 
 > [!NOTE]
 > Du kan ikke definere priser på gentagne salgslinjer, fordi priser, rabatter osv. beregnes ud fra de faktiske salgsdokumenter, når du har indsat de gentagne salgslinjer.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Sådan tildeles en gentagne salgslinjer til en debitor
 

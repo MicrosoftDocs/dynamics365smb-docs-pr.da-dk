@@ -1,7 +1,7 @@
 ---
 title: Sådan forberedes en konfigurationspakke | Microsoft Docs
 description: Lær nu, hvordan du konfigurerer en RapidStart-konfigurationspakke, som kan hjælpe med at oprette nye virksomheder på basis af eksisterende data.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535968"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666993"
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
 
@@ -30,6 +30,12 @@ Der er nogle ting, du skal overveje, før du opretter en konfigurationspakke, fo
 ### <a name="tables-that-contain-posted-entries"></a>Tabeller, der indeholder bogførte poster
 
 Du kan ikke importere data til tabeller, der indeholder bogførte poster, f.eks. tabellerne for debitor-, kreditor- og vareposter, så du bør ikke medtage disse data i konfigurationspakken. Du kan føje poster til disse tabeller, når du har importeret konfigurationspakken, ved hjælp af kladder til bogføring af posterne. Du finder flere oplysninger i [Bogføring af dokumenter og kladder](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Tabelnavne, der indeholder specialtegn
+
+Vær forsigtig, hvis du har tabeller eller felter, der har samme stinavn, men er adskilt med specialtegn som f.eks .%, &, <, >, (og). F.eks. kan tabellen "XYZ" indeholde felterne "Felt 1" og "Felt 1%".
+
+XML-behandleren accepterer kun specialtegn og fjerner dem, den ikke accepterer. Hvis der fjernes et specialtegn som f.eks. %-tegnet i "Felt 1%", er der to eller flere tabeller eller felter med samme navn, og der opstår en fejl, når du eksporterer eller importerer en konfigurationspakke. 
 
 ### <a name="licensing"></a>Licensering
 

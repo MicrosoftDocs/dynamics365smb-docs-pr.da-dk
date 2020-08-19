@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/05/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: f2389dad61a943520cf7e09a5d8e0118b61db5c8
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.openlocfilehash: fc311badfb682bdedb37139bba5618ab60c1d988
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339966"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577147"
 ---
 # <a name="planning"></a>Planlægning
+
 De produktionsoperationer, der kræves for at omdanne tilgange til færdigvarer, skal planlægges dagligt eller ugentligt afhængigt af produkternes omfang og egenskaber. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder funktioner til levering af forventet og faktisk behov fra salg, montage og produktion samt funktioner til distributionsplanlægning ved hjælp af lagervarer og overflytning af lokationer.
 
 > [!NOTE]
-> I dette emne beskrives primært planlægning for virksomheder, der er involveret i produktion eller montagestyring, hvor de resulterende forsyningsordrer kan være enten produktion, montage, overflytning eller købsordrer. Den primære brugergrænseflade for dette planlægningsarbejde er siden **Planlægningskladde**.<br /><br />
+> I dette emne beskrives primært planlægning for virksomheder, der er involveret i produktion eller montagestyring, hvor de resulterende forsyningsordrer kan være enten produktion, montage, overflytning eller købsordrer. Den primære brugergrænseflade for dette planlægningsarbejde er siden **Planlægningskladde**.
+>
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter også forsyningsplanlægning for engrosvirksomheder, hvor de oprettede forsyningsordrer kun være overførsels- og købsordrer. Den primære brugergrænseflade for dette planlægningsarbejde er siden **Indkøbskladde**, som beskrives indirekte i dette emne, da de fleste planlægningsfunktioner gælder for begge kladder.
 
 Planlægning kan betragtes som forberedelsen af forsyningsordrer i købs-, montage- eller produktionsafdelinger til at imødekomme salgs- eller færdigvarebehov. Du kan finde flere oplysninger i [Køb](purchasing-manage-purchasing.md), [Montagestyring](assembly-assemble-items.md) og [Produktion](production-manage-manufacturing.md).
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -38,7 +40,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette en projektproduktionsordre direkte fra en salgsordre med flere linjer, som udgør et produktionsprojekt.|[Planlægge projektordrer](production-how-to-plan-project-orders.md)|
 |Bruge siden **Ordreplanlægning** til manuel planlægning af salgs- eller produktionsbehov for et styklisteniveau ad gangen.|[Planlægge efter nyt behov ordre for ordre](production-how-to-plan-for-new-demand.md)|
 |Brug siden **Planlægningskladde** til at køre både MPS- og MRP-funktionerne for automatisk at oprette enten en overordnet eller en detaljeret forsyningsplan på alle vareniveauer.|[Køre fuld planlægning, MPS eller MRP](production-how-to-run-mps-and-mrp.md)|
-|Køre indkøbskladden for automatisk at oprette en detaljeret forsyningsplan for at dække behovet for varer, der kun kan opfyldes med et et køb eller ene overførsel.|Siden **Indkøbskladde**|  
+|Brug siden **Indkøbskladde** for automatisk at oprette en detaljeret forsyningsplan for at dække behovet for varer, der kun kan opfyldes med et et køb eller ene overførsel.|[Indkøbskladde](production-about-planning-functionality.md#requisition-worksheet)|  
 |Starte eller opdatere en produktionsordre som grovplanlagte operationer i masterproduktionsskemaet.|[Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md)|
 |Genberegne arbejdscenter- eller produktionsressourcekalendere på grund af planlægningsændringer.|[Sådan beregnes en arbejdscenterkalender](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Spore ordrebehov (sporet antal), forecast, rammesalgsordre eller planlægningsparameter (ikkesporet antal), der er årsag til den pågældende planlægningslinje.|[Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md)|
