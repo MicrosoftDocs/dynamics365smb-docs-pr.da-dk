@@ -227,9 +227,17 @@
 ### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Bruge Business Central uden Outlook](admin-no-outlook.md)
 ## Bruge Power BI sammen med Business Central
-### [Aktivere virksomhedens data til Power BI](admin-powerbi.md)
-### [Vise listedata i Power BI-rapporter i Business Central](across-how-use-powerbi-reports-factbox.md)
-### [Bruge Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)
+### [Introduktion](admin-powerbi.md)
+### Administrator
+#### [Oversigt over integration](admin-powerbi-overview.md)
+#### [Aktivering af Power BI-integration](admin-powerbi-setup.md)
+### Designer
+#### [Introduktion til oprettelse af rapporter](across-how-use-financials-data-source-powerbi.md)
+#### [Oprette rapporter til visning af listedata](across-how-use-powerbi-reports-factbox.md)
+### Forbruger
+#### [Arbejde med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
+#### [Arbejde med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
+#### [Bruge Business Central-apps i Power BI](across-powerbi-business-central-apps.md)
 ## Bruge Power Automate sammen med Business Central
 ### [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)
 ## Bruge Power Apps sammen med Business Central
@@ -423,9 +431,7 @@
 #### [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)
 #### [Gennemse eller udligne betalinger manuelt efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md)
 #### [Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md)
-#### [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter](receivables-how-apply-sales-transactions-manually.md)
+#### [Knytte tekst på tilbagevendende betalinger til automatisk udligning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 ### [Afstemme kreditorbetalinger med udbetalingskladden eller fra kreditorposter](payables-how-apply-purchase-transactions-manually.md)
 ### [Indhente udestående beløb](receivables-collect-outstanding-balances.md)
 ### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
@@ -1170,7 +1176,6 @@
 #### [Oprette og eksportere betalingshistorik](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Importere og afstemme bankkontoudtog](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Grundlæggende Finans
-#### [Finansposter](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Udligne og annullere udligning af finansposter](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Nødvendige beskrivelser i finansposter](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Indkøb

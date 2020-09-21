@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 07/21/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 180c28057fd7da133f2f0770ba515d3eabb1af05
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611530"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693120"
 ---
 # <a name="local-functionality-in-prodlong"></a>Lokal funktionalitet i [!INCLUDE[prodlong](includes/prodlong.md)]
 
@@ -27,7 +27,7 @@ Du kan finde en liste over de aktuelt understøttede markeder under [Tilgængeli
 
 Du kan finde flere oplysninger om lokal funktionalitet for hvert land/område ved at vælge det relaterede link:
 
-| Land/område | Land | Flere oplysninger |
+| Område | Land/område | Flere oplysninger |
 | --- | --- |--- |
 | Europa |  | |
 |        | Østrig | [Lokal funktionalitet for Østrig](localfunctionality/austria/austria-local-functionality.md) |
@@ -55,7 +55,7 @@ Du kan finde flere oplysninger om lokal funktionalitet for hvert land/område ve
 
 ### <a name="other-countries"></a>Andre lande/områder
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] findes også på andre markeder via oversættelsesapps. Hvis en Microsoft-partner har udviklet en oversættelsesapp til dit land/område, kan du finde den i [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] findes også på andre markeder via oversættelsesapps. Hvis en Microsoft-partner har udviklet en oversættelsesapp til dit land/område, kan du finde den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Se også
 

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: aabbba7c6cf5aa84797369c8fefad1ef79fa805f
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.openlocfilehash: 558f457291b3e182444eeb78fab24fe80766e70b
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666818"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693070"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobilenhed
 Få adgang til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra din mobilenhed. Du kan navigere gennem virksomhedens data, og f.eks bruge funktioner som sende til Excel eller Office 365, se opdaterede diagrammer og nøgletal, sende mails med salgstilbud og fakturaer og vedhæfte billeder med kameraet. Benyt følgende fremgangsmåde til at downloade appen og komme i gang.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Sådan får du appen på din mobilenhed.
 1. Installer [!INCLUDE[d365fin](includes/d365fin_md.md)]-appen på mobilenheden ved at hente appen fra Windows Store, App Store eller Google Play.  

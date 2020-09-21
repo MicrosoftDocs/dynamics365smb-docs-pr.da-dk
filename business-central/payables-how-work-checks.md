@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503794"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777982"
 ---
 # <a name="make-check-payments"></a>Foretage betalinger med check
 
@@ -47,7 +47,7 @@ I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Frem
 6. På siden **Check** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Hvis printeren er indstillet til at udskrive checks, skal du vælge knappen **Udskriv**. Vælg ellers knappen **Send til**, vælg indstillingen **PDF-dokument**, vælg knappen **OK**, og udskriv derefter PDF-dokumentet.
 
-    Den fysiske check kan nu sendes til behandling i banken. Fortsæt med at bogføre betalingen som udlignet til leverandøren og dermed betalt i systemet.
+    Den fysiske check kan nu sendes til ekspedition hos leverandører. Fortsæt med at bogføre betalingen som udlignet til leverandøren og dermed betalt i systemet.
 8. Vælg handlingen **Bogfør**.
 
 Der oprettes helt udlignede kreditorposter og bankposter.
@@ -61,7 +61,11 @@ Du kan annullere ikke-bogførte checks, når de er blevet udskrevet, ved hjælp 
 1. På siden **Udbetalingskladde** skal du vælge **Annuller Check**, og vælg derefter hvilke checks der skal annulleres.
 
 ## <a name="to-void-checks"></a>Sådan annulleres checks
+
 Når checkbetalingen er blevet bogført, kan du kun annullere checks fra de resulterende bankposter.
+
+> [!IMPORTANT]
+> Hvis checken er udlignet med en faktura, skal du fjerne markeringen først, så fakturaen kan tilbagebetales, og checken kan annulleres. Hvis checken er udskrevet og ikke har betalt en faktura, så vælg **Kun annulleringskontrol** som beskrevet i dette afsnit.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den relevante bankkonto, vælg handlingen **Rediger**, og vælg derefter handlingen **Checkposter**.

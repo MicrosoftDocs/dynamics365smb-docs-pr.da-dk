@@ -8,12 +8,12 @@ ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 42ad388e6c07ca259d4ef6095b9f8c908b509407
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196840"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693020"
 ---
 # <a name="handling-missing-option-values"></a>Håndtering af manglende indstillingsværdier
 [!INCLUDE[d365fin](includes/cds_long_md.md)]indeholder kun tre felter med grupperede indstillinger, der indeholder indstillingsværdier, som du kan knytte til [!INCLUDE[d365fin](includes/d365fin_md.md)]-felter af typen Indstilling<!-- Option type, not enum? @Onat can you vertify this? --> til automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilknyttede indstillinger, og de manglende indstillinger vedhæftes til den relaterede [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel og føjes til systemtabellen **CDS-indstillingstilknytning**, så de kan håndteres manuelt senere. For eksempel ved at tilføje de manglende indstillinger i hvert produkt og derefter opdatere tilknytningen. Dette afsnit handler om, hvordan det fungerer.
@@ -100,6 +100,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!IMPORTANT]  
 > Du skal bruge det samme indstillings-ID fra [!INCLUDE[d365fin](includes/cds_long_md.md)], når du udvider fastteksten [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ellers mislykkes synkroniseringen.
 
+> [!IMPORTANT]  
+> Brug ikke tegnet "," i fasttekstværdier og billedtekster. Dette understøttes ikke i øjeblikket af [!INCLUDE[d365fin](includes/d365fin_md.md)]-kørslen.
+
 > [!NOTE]
 > De første ti tegn i den nye indstillingsværdi og billedteksterne skal være entydige. De to indstillinger med navnet "Overfør 20 arbejdsdage" og "Overfør 20 kalenderdage" vil for eksempel forårsage en fejl, fordi begge har de samme første ti tegn, "Overførsel 2". Du kan f.eks. kalde dem for "TRF20 WD" og "TRF20 CD".
 
@@ -119,7 +122,7 @@ På siden **Integrationstabeltilknytning** skal du vælge linjen for tilknytning
 
 Tabellen **Betalingsbetingelser** i [!INCLUDE[d365fin](includes/d365fin_md.md)] vil herefter have nye poster for [!INCLUDE[d365fin](includes/cds_long_md.md)]-indstillingerne. I følgende tabel er de nye indstillinger angivet med fed skrift. Rækker med kursiv er alle indstillinger, der nu kan synkroniseres. De resterende rækker angiver indstillinger, der ikke anvendes, og de ignoreres under synkroniseringen. Du kan fjerne dem eller udvide CDS-indstillinger med de samme navne.)
 
-| Kode       | Forfaldsdatoberegning | Kont.rabat datoform | Rabat % | Beregn kont.rabat på kred.notaer | Description       |
+| Kode       | Forfaldsdatoberegning | Kont.rabat datoform | Rabat % | Beregn kont.rabat på kred.notaer | Beskrivelse       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
 | 10 DAGE    | 10D                  |                           | 0.         | FALSK                         | Netto 10 dage       |
 | 14 DAGE    | 14D                  |                           | 0.         | FALSK                         | Netto 14 dage       |

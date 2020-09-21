@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529084"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693095"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prøveversioner og abonnementer
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængeligt i et stigende antal lande over hele verden. Hvis du vil lære mere om [!INCLUDE[prodshort](includes/prodshort.md)], kan du tilmelde dig en gratis prøveversion. Når du er klar, kan du tale med en videresalgspartner om at få et abonnement.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængeligt i et stigende antal lande/områder over hele verden. Hvis du vil lære mere om [!INCLUDE[prodshort](includes/prodshort.md)], kan du tilmelde dig en gratis prøveversion. Når du er klar, kan du tale med en videresalgspartner om at få et abonnement.  
 
 Hvis du ikke allerede arbejder med en partner, skal du se [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner).  
 
@@ -25,7 +25,7 @@ Hvis du ikke allerede arbejder med en partner, skal du se [Hvordan finder jeg en
 
 Du kan tilmelde dig en gratis prøveversion [her](https://go.microsoft.com/fwlink/?linkid=847861). Vi anbefaler, at du arbejder med [en videresalgspartner](across-faq.md#findpartner) for at hjælpe din organisation med at komme i gang med [!INCLUDE[prodshort](includes/prodshort.md)].  
 
-Afhængigt af dit land omfatter prøveversionen de sprog og den funktionalitet, som dit land eller region kræver. Du kan finde flere oplysninger under [Ændring af sprog og landestandard](about-locale-language.md).  
+Afhængigt af dit land/område omfatter prøveversionen de sprog og den funktionalitet, som dit land eller område kræver. Du kan finde flere oplysninger under [Ændring af sprog og landestandard](about-locale-language.md).  
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er nogle ting genkendelige for dig, mens andet måske er nyt. Første gang du logger ind på demonstrationsregnskabet, får du adgang til siden Introduktion med hyperlinks til videoer, som kan hjælpe dig med at komme i gang. Du kan finde flere oplysninger under [Introduktion til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
 
@@ -39,9 +39,9 @@ Hvis 30 dage ikke er nok til, at du kan træffe en beslutning, kan du forlænge 
 
 ### <a name="setting-up-your-company-in-prodshort"></a>Opsætning af din virksomhed i [!INCLUDE[prodshort](includes/prodshort.md)]
 
-For at hjælpe dig med at konfigurere din virksomhed viser siden **Assisteret opsætning** de assisterende opsætningsguides, som kan hjælpe dig. Afhængigt af din rolle og dit land viser siden forskellige assisterede installationsvejledninger som illustreret i følgende tabel:
+For at hjælpe dig med at konfigurere din virksomhed viser siden **Assisteret opsætning** de assisterende opsætningsguides, som kan hjælpe dig. Afhængigt af din rolle og dit land/område viser siden forskellige assisterede installationsvejledninger som illustreret i følgende tabel:
 
-| Assisteret opsætning | Description |
+| Assisteret opsætning | Beskrivelse |
 | -------------- | ----------- |
 | Konfigurer min virksomhed |Opretter en ny prøvevirksomhed, hvor du kan indtaste data og afprøve [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Konfigurer godkendelsesworkflow |Gør det muligt at give en godkender besked automatisk, når en bruger forsøger at oprette eller ændre bestemte værdier i dokumenter, kladdelinjer eller kort. Du kan f. eks. opsætte godkendelse af beløb, der overskrider den angivne grænse. |
@@ -68,7 +68,7 @@ Hvis du har tilføjet data i din gratis [!INCLUDE[prodshort](includes/prodshort.
 
 ## <a name="getting-started-with-a-subscription"></a>Introduktion til et abonnement
 
-Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter dig for at abonnere, skal du kontakte en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner). Videresalgspartneren kan hjælpe dig med opsætningen af [!INCLUDE[prodshort](includes/prodshort.md)], således at den passer til din virksomhed, herunder med at importere dataene fra dit forrige system. Du kan også tilpasse [!INCLUDE[prodshort](includes/prodshort.md)] ved at tilføje apps fra [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter dig for at abonnere, skal du kontakte en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner). Videresalgspartneren kan hjælpe dig med opsætningen af [!INCLUDE[prodshort](includes/prodshort.md)], således at den passer til din virksomhed, herunder med at importere dataene fra dit forrige system. Du kan også tilpasse [!INCLUDE[prodshort](includes/prodshort.md)] ved at tilføje apps fra [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prodshort](includes/prodshort.md)] online bruger Office 365. Hvis din virksomhed bruger en anden type e-mail-opsætning, kan videresalgspartneren hjælpe dig med at beslutte, hvordan du vil overføre dataene, eller hvorvidt du bør anvende [!INCLUDE[prodshort](includes/prodshort.md)] lokalt.  
 
@@ -95,7 +95,7 @@ Administratoren af din [!INCLUDE[prodshort](includes/prodshort.md)] og din vider
 [Ofte stillede spørgsmål](across-faq.md)  
 [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner)  
 [Vælge dit Dynamics 365 Business Central-udviklingssandkassemiljø](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
-[Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Forlængelse af prøveperioder (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Sådan kommer du i gang som forhandler af Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 [Forberede demonstrationsmiljøer (som partner)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  

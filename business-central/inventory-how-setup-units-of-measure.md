@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: UOM
 ms.date: 07/06/2020
-ms.author: SorenGP
-ms.openlocfilehash: 7251be2de0cd8b368f0510596b0c695a93acc4b6
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: edupont
+ms.openlocfilehash: 52d1846ce71a651dabfd099ced203648c0242082
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535943"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777787"
 ---
 # <a name="set-up-units-of-measure"></a>Oprette måleenheder
 
@@ -33,7 +33,7 @@ Hvis en vare lagerføres i én enhed, men produceres i en anden, kan der oprette
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Enheder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. En ny tom linje er indsat.  
 3. Udfyld felterne. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
-4. Hvis du ved, at din organisation sælger varer med denne enhed til kunder i andre lande, kan du tilføje oversættelser.  
+4. Hvis du ved, at din organisation sælger varer med denne enhed til kunder i andre lande/områder, kan du tilføje oversættelser.  
     1. Marker den kode, du vil konfigurere oversættelser for, og vælg derefter handlingen **Oversættelser**.
     2. Vælg rullepilen i feltet **Sprogkode** for at se en liste over tilgængelige sprogkoder. Vælg den sprogkode, du vil angive en oversættelse til, og klik derefter på OK for at kopiere koden over i feltet.
     3. Indsæt den relevante tekst i feltet **Beskrivelse**.

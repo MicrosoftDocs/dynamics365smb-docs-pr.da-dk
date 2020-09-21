@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528484"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765942"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -166,7 +166,7 @@ Følgende genveje vedrører genvejsfunktionen i kort, dokumenter og oversigtssid
 |Skift+Enter|Bekræfte værdien i det aktuelle felt, og gå til forrige genvejsfelt.||
 |Ctrl+Skift+Enter|Bekræfte værdien i den aktuelle kolonne, og gå til næste genvejsfelt uden for listen.<br /><br />Denne genvej gælder for integrerede lister på en side, f.eks. linjevarer i en salgsordre. Den giver dig mulighed for hurtigt at komme ud af listen og fortsætte med at indtaste data i andre felter på siden.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Tastaturgenveje i kalenderen (datovælger)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Tastaturgenveje i kalenderen (datovælger)
 
 Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kalender (datovælger), hvor du kan vælge den ønskede dato. Følgende tabel beskriver tastaturgenvejene for kalenderen.
 
@@ -185,12 +185,13 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |Page Up|Flytte til forrige måned.|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Tastaturgenveje i datofelter
+
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
 |d|Angive dags dato. "D" betyder "i dag".|
 |a|Angive arbejdsdatoen. Du kan finde flere oplysninger i [Arbejdsdato](ui-change-basic-settings.md#work-date).|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Brug af genvejstaster i rapportfremviseren
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Brug af genvejstaster i rapportfremviseren
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|

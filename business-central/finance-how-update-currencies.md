@@ -1,30 +1,36 @@
 ---
-title: Opdatere valutakurser | Microsoft Docs
+title: Opdatere valutakurser
 description: Spore beløb i forskellige valutaer ved hjælp af valutakoder, og lad Business Central hjælpe dig med at regulere valutakursen for bogførte poster med en ekstern service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b0ec8e5a23b387c52998369e440462613b7cc1fe
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 35d478faf6d9eddb7240c2c346d6a7deedc583f0
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666893"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3778059"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
-Da virksomheder handler i alt flere lande, bliver det mere vigtigt, at de kan handle eller rapportere finansielle oplysninger i mere end én valuta. Du skal oprette koder for hver valuta, du bruger, hvis du foretager køb og salg i andre valutaer end din lokale valuta, eller hvis du registrerer finanstransaktioner i forskellige valutaer.
+
+Da virksomheder handler i alt flere lande/områder, bliver det mere vigtigt, at de kan handle eller rapportere finansielle oplysninger i mere end én valuta. Du skal oprette koder for hver valuta, du bruger, hvis du foretager køb og salg i andre valutaer end din lokale valuta, eller hvis du registrerer finanstransaktioner i forskellige valutaer.
 
 Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 ## <a name="adjusting-exchange-rates"></a>Regulering af valutakurser
+
 Fordi valutakurser svinger hele tiden, skal ekstra valutaer i systemet reguleres med jævne mellemrum. Hvis der ikke foretages reguleringer, kan de beløb, der er konverterede fra udenlandske (eller ekstra) valutaer, og som er bogførte i regnskabet i RV være vildledende. Derudover skal daglige poster, der er bogført før, en daglig valutakurs angives i programmet, opdateres, efter at de daglige oplysninger om valutakurser angives.
 
-Kørslen **Juster valutakurser** bruges til at regulere valutakursen manuelt for bogførte kunde-, leverandør- og bankkontoposter. Det kan også opdatere ekstra rapporteringsvalutabeløb i finansposter. Du kan også få valutakurserne reguleret automatisk ved hjælp af en tjeneste. Du kan finde flere oplysninger i [Sådan konfigureres en valutakurstjeneste](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service).
+Kørslen **Juster valutakurser** bruges til at regulere valutakursen manuelt for bogførte kunde-, leverandør- og bankkontoposter. Det kan også opdatere ekstra rapporteringsvalutabeløb i finansposter.  
+
+> [!TIP]
+> Du kan bruge en service til automatisk at opdatere valutakurser i systemet. Du kan finde flere oplysninger i [Sådan konfigureres en valutakurstjeneste](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Dette regulerer imidlertid ikke valutakurser for allerede bogførte transaktioner. Hvis du vil opdatere valutakurser for bogførte poster, skal du bruge kørslen **Kursreguler valutabeholdninger**.
 
 ### <a name="effect-on-customers-and-vendors"></a>Indflydelse på debitorer/kreditorer
+
 Det gælder for debitor- og kreditorkonti, at kørslen regulerer valutaen vha. den valutakurs, der er gældende på den bogføringsdato, der er angivet i kørslen. Kørslen beregner forskellene i de enkelte valutaopgørelser og bogfører beløbene på den finanskonto, der er angivet i feltet **Urealiseret gevinstkonto** eller i feltet **Urealiseret tabskonto** på siden **Valutaer**. Modposteringer bogføres automatisk på samlekontoen i finansbogholderiet.
 
 Kørslen gennemgår alle åbne debitor- og kreditorposter. Hvis der er en kursdifference for en post, oprettes der en ny detaljeret debitor- eller leverandørpost, der viser det justerede beløb i debitor- eller leverandørposten.
@@ -58,7 +64,7 @@ Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks
 4. Marker afkrydsningsfeltet **Aktiveret** for at aktivere tjenesten.
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Sådan opdateres valutakurser fra en tjeneste
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valutaer**, og vælg derefter det relaterede link.

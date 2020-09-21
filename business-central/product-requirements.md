@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 05/06/2020
+ms.date: 08/25/2020
 ms.author: edupont
-ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65d8295c6beb4fe918ad11434bc9813c34e81a93
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528709"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731214"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumkrav til brug af Business Central
 Før du åbner [!INCLUDE[prodshort](includes/prodshort.md)] online, anbefales det, at du kontrollerer, at din computer eller mobilenhed opfylder eller overstiger minimumsystemkravene til produktet. Denne artikel indeholder kravene.  
@@ -31,7 +31,10 @@ Før du åbner [!INCLUDE[prodshort](includes/prodshort.md)] online, anbefales de
 ### <a name="other-supported-browsers"></a>Andre understøttede browsere
 
 Den tidligere version af **Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug sammen med den tidligere version af Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug med Internet Explorer 11 (build 11.0.9600.17239) til Windows 10 (32-bit og 64-bit versioner). Det anbefales, at du opgraderer til den seneste version af Internet Explorer, der understøttes af din version af Windows. Du kan også åbne den nye Edge-browser og stadig få adgang til andre websteder, der kræver Internet Explorer. Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](/deployedge/edge-ie-mode).
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er udviklet til brug med Internet Explorer 11 (build 11.0.9600.17239) til Windows 10 (32-bit og 64-bit versioner). Det anbefales, at du opgraderer til den seneste version af Internet Explorer, der understøttes af din version af Windows. Du kan også åbne den nye Microsoft Edge-browser og stadig få adgang til andre websteder, der kræver Internet Explorer. Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](/deployedge/edge-ie-mode).
+
+> [!IMPORTANT]
+> Fra og med april 2021 vil Internet Explorer 11 og den ældre version af Microsoft Edge ikke længere være understøttet. Det anbefales, at du så hurtigt som muligt skifter til en af de anbefalede moderne browsere.
 
 ## <a name="mobile-devices"></a>Mobilenheder
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] til Windows kan installeres på enheder med mindst 1 GB RAM og Windows 10, Home, Pro, Enterprise eller Education (32-bit og 64-bit versioner).  

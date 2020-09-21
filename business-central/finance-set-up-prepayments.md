@@ -7,19 +7,24 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cde057fe727290a816f748b0c115ef865b2465a3
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182824"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701861"
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
 Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger. Funktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer og til at sikre, at alle delvise betalinger bogføres i forhold til en faktura. Du kan finde flere oplysninger i [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md).
 
 Inden du kan bogføre forudbetalingsfakturaer, skal du oprette bogføringskonti i finansposterne, og du skal oprette nummerserier for forudbetalingsdokumenterne. Du skal angive en konto til forudbetalinger, der vedrører salg, og en konto til forudbetalinger, der vedrører køb. Du kan angive de samme bogføringskonti, der skal bruges til alle forudbetalinger, der vedrører alle virksomhedsbogføringsgrupper eller generelle produktbogføringsgrupper, eller du kan angive bestemte konti til bestemte bogføringsgrupper til henholdsvis salg og køb. Dette afhænger af virksomhedens krav til sporing af forudbetalinger.  
 
-Du kan definere den procentdel af linjebeløbet, der skal faktureres for forudbetaling - for en debitor eller kreditor, for alle varer eller udvalgte varer. Når du har fuldført opsætningen, kan du generere forudbetalingsfakturaer fra salgs- og købsordrer. Du kan bruge standardprocenterne for hver salgs- eller indkøbslinje, eller du kan ændre beløbene efter behov. Du kan f.eks. angive et samlet beløb til hele ordren.  
+Du kan definere den procentdel af linjebeløbet, der skal faktureres for forudbetaling - for en debitor eller kreditor, for alle varer eller udvalgte varer. Når du har fuldført opsætningen, kan du generere forudbetalingsfakturaer fra salgs- og købsordrer. Du kan bruge standardprocenterne for hver salgs- eller indkøbslinje, eller du kan ændre beløbene efter behov. Du kan f.eks. angive et samlet beløb for hele ordren.  
+
+> [!NOTE]
+> Det anbefales, at du ikke bruger en forudbetalingsprocent på 100 % i følgende tilfælde:
+> * Hvis du befinder dig i Nordamerika. Grundet beregningsmåden for moms kan en forudbetalingsprocent på 100 % medføre problemer med forudbetalingsfakturaer.
+> * I alle områder hvis du manuelt fratrækker en kontantrabat fra fakturaen. Vil en forudbetalingsprocent på 100 % ikke automatisk efterlade et beløb, hvorfra rabatten skal fratrækkes. 
 
 Eftersom det forudbetalte beløb tilhører køberen, indtil han har modtaget varerne eller tjenesteydelsen, er du nødt til at oprette finanskonti, som forudbetalte beløb kan indsættes på, indtil den endelige faktura bogføres. Salgsforudbetalinger skal registreres på en passivkonto, indtil varerne leveres. Købsforudbetalinger skal registreres på en aktivkonto, indtil varerne modtages. Du skal også oprette en separat finanskonto til hvert moms-id.  
 

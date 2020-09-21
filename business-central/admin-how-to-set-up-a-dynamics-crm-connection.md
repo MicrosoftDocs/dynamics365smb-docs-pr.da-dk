@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: e6ee18367ad229ab56d694d0bbac23e1959b1a5f
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619405"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701988"
 ---
 # <a name="connect-to-common-data-service"></a>Opret forbindelse til Common Data Service
 
@@ -58,7 +58,7 @@ Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på 
 1. Vælg ikonet ![Elpære, der åbner ikonet til funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsæt CDS-forbindelse**, og vælg det relaterede link.
 2. Indtast følgende oplysninger vedrørende forbindelsen fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-    |Felt|Description|
+    |Felt|Beskrivelse|
     |-----|-----|
     |**URL-adresse til miljø**|Hvis du ejer miljøer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)], finder vi dem for dig, når du kører installationsvejledningen. Hvis du vil oprette forbindelse til et andet miljø i en anden lejer, kan du angive administrator-legitimationsoplysninger til miljøet, og dem vil vi registrere. |
     |**Aktiveret**|Begynd at bruge integrationen. Hvis du ikke kan aktivere forbindelse nu, gemmes forbindelsesindstillingerne, men brugerne vil ikke kunne få adgang til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] data fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan vende tilbage til denne side og aktivere forbindelsen senere.  |
@@ -68,10 +68,10 @@ Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på 
     <!--Need to verify the details in this table, are these specific to Sales maybe?-->
     Angiv følgende avancerede indstillinger.
 
-    |Felt|Description|
+    |Felt|Beskrivelse|
     |-----|-----|
     |**[!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere skal tilknyttes CDS-brugere**|Hvis du bruger din ejerskabsmodellen Person, skal du angive, om [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugerkonti skal have tilsvarende brugerkonti i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. **Office 365-godkendelsesmailadresse** for [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugeren skal være den samme som **Primær mail** for [!INCLUDE[crm_md](includes/crm_md.md)]-brugeren.<br /><br /> Hvis du angiver værdien til **Ja**, har [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere, der ikke har en tilsvarende [!INCLUDE[crm_md](includes/crm_md.md)]-brugerkonto, ikke [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrationsfunktioner i brugergrænsefladen. Adgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)] udføres på vegne af [!INCLUDE[crm_md](includes/crm_md.md)]-brugerkontoen.<br /><br /> Hvis du angiver værdien til **Nej**, har alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere [!INCLUDE[crm_md](includes/crm_md.md)]-integrationsfunktioner i brugergrænsefladen. Adgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data udføres på vegne af [!INCLUDE[crm_md](includes/crm_md.md)]-forbindelsesbrugeren (integrations).|
-    |**Den aktuelle Business Central-sælger er tilknyttet en bruger**|Angiver, om din brugerkonto er tilknyttet en konto i [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field|-->
+    |**Den aktuelle Business Central-sælger er tilknyttet en bruger**|Angiver, om din brugerkonto er knyttet til en konto i [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
 4. Du kan teste forbindelsesindstillingerne ved at vælge **Forbindelse** og derefter **Test forbindelse**.  
 

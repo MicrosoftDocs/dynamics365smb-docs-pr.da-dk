@@ -4,13 +4,13 @@ description: Find al tilgængelig undervisning i Business Central.
 author: loreleishannonmsft
 ms.date: 08/10/2020
 ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 547d02d6a1fb76ae5f3ad64feb265b69edf0bf64
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: margoc
+ms.openlocfilehash: 59653a67bd300a8359a82648e3bac6b919d2b233
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676817"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779158"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Undervisningskatalog for førsalgspartnere
 
