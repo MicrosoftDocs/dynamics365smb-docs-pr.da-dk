@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/02/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.author: edupont
+ms.openlocfilehash: b37ded96ebfd541d23b18fdf55ab0fb33ff98c48
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262114"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781431"
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
 Likviditetsstyring omfatter kontrol af, om forfaldne beløb er betalt til tiden. Hvis debitorer har forfaldne betalinger, kan du begynde med at sende rapporten Kontoudtog som en påmindelse. Alternativt kan du udstede rykkere.

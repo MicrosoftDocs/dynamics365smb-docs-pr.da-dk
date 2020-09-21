@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e5d1d56f4035311e3c90d3dba9d4e8d49df48d25
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 79416d72d8ded71025270b4408e8425e0be2c827
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184552"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781156"
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffede anlægsaktiver
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Der skal oprettes en afskrivningsprofil, og den skal tildeles til hvert enkelt anlægsaktiv, før du kan hente det.

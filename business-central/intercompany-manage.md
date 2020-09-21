@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bb8147038b1f6aba0758b36bb139727a65c9c3eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 0499ad80020293e73879061a7bc5f8dfdb3c043c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182368"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780106"
 ---
 # <a name="managing-intercompany-transactions"></a>Administrere Intercompany-transaktioner (IC)
 Organisationen består muligvis af flere virksomheder, men har måske ikke det tilsvarende antal regnskabs- og administrationsgrupper. Med Intercompany-funktionen kan du handle med datterselskaber og interne partnerorganisationer på samme måde som med dine eksterne leverandører og kunder. Du angiver kun oplysninger om intercompany-transaktioner én gang i de relevante bilag. Du kan bruge de funktioner, du allerede kender, f.eks. likviditetsstyring. Tilknytningsfunktioner i kontoplanerne og dimensioner er med til at sikre, at oplysningerne vises de rigtige steder.  
@@ -33,7 +33,7 @@ Du har den fulde kontrol over alle transaktionsbilag. Du kan f.eks. afvise et bi
 
 Når du angiver en transaktion, skal du ikke angive kontiene for et individuelt sæt af profiler, men blot oplyse partnervirksomhedens id. Intercompany-funktionen opretter finanslinjer, som resulterer i afstemning af profilerne i de to virksomheder, der er involveret i en transaktion. I tilgodehavender og skyldige beløb tildeler du en koncernintern partnerkode til alle kunder og leverandører. Fra det øjeblik af vil alle de ordrer og fakturaer, der oprettes på baggrund af transaktioner med disse virksomheder, resultere i tilsvarende bilag i partnervirksomheden, som igen resulterer i korrekt afstemning af kontiene.  
 
- Når du har oprettet forretningspartnere som debitorer og kreditorer i systemet og tildelt dem Intercompany-partnerkoder, er det muligt at udveksle IC-købs- og salgsbilag, herunder varer og varegebyrer. Intercompany-funktionen muliggør intercompany-transaktioner mellem flere databaser, f.eks. i forskellige lande såvel som flere valutaer, forskellige kontoplaner, forskellige dimensioner og forskellige varenumre.  
+ Når du har oprettet forretningspartnere som debitorer og kreditorer i systemet og tildelt dem Intercompany-partnerkoder, er det muligt at udveksle IC-købs- og salgsbilag, herunder varer og varegebyrer. Intercompany-funktionen muliggør intercompany-transaktioner mellem flere databaser, f.eks. i forskellige lande/områder såvel som flere valutaer, forskellige kontoplaner, forskellige dimensioner og forskellige varenumre.  
 
 Konsolidering af finansielle oplysninger kan især være relevant i forbindelse med interne processer. Du kan finde flere oplysninger i [Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md).
 

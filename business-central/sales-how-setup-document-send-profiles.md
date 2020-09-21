@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 32a7a00dc5d348fe6d177986dd0d966fca885528
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 528ee49dda35055872c7ebe2d241456383028434
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193929"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780806"
 ---
 # <a name="set-up-document-sending-profiles"></a>Konfigurere dokumentafsendelsesprofiler
 Du kan oprette hver debitor med en foretrukken metode til afsendelse af salgsdokumenter, så du ikke behøver at vælge en afsendelsesindstilling, hver gang du vælger handlingen **Bogfør og send**.

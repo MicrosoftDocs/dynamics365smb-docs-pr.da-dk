@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6720f207b3bca2e74bccb9b82a5661d98292163d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cee71cea69468a45b2e731632fce3827c54794c1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195407"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781331"
 ---
 # <a name="customize-pages-for-profiles"></a>Tilpasse sider til profiler
 Brugerne kan tilpasse de sider, som udgør deres arbejdsområde, så de passer til deres egne præferencer. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
