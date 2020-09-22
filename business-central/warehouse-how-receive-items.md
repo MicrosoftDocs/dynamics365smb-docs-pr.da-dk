@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/07/2020
-ms.author: sgroespe
-ms.openlocfilehash: 99aab6de06cd50d53b977ed37a863cad28fab8fa
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 038ecb0122e58cfdca3ff62ac93554fab01dcdb6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542639"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786592"
 ---
 # <a name="receive-items"></a>Modtage varer
 
@@ -32,7 +32,8 @@ Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsv
 3. Angiv det modtagne antal i feltet **Modtag (antal)**.
 
   > [!NOTE]
-  > Hvis det modtagne antal er større end det, der er bestilt på købsordren ifølge feltet **Antal**, og kreditoren må tillade overmodtagelser, skal du bruge feltet **Overmodtagelse** øverst for at håndtere mere end det maksimale antal. Du kan finde flere oplysninger i [Sådan modtager du flere varer end det bestilte antal](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+  > Hvis det modtagne antal er større end det, der er bestilt på købsordren ifølge feltet **Antal**, og kreditoren må tillade overmodtagelser, skal du bruge feltet **Overmodtagelse** til at håndtere mere end det maksimale antal. Du kan finde flere oplysninger i [Sådan modtager du flere varer end det bestilte antal](warehouse-how-receive-items.md#to-receive-more-items-than-ordered).
+
 4. Vælg handlingen **Bogfør**.
 
   Værdien i feltet **Modtaget antal** opdateres. Hvis det er en delvis modtagelse, er værdien lavere end værdien i feltet **Antal**.
