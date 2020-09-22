@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4c43429e4436400dc9e3b991b9ccca59a439372a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d61e599b9e86f28de6edcf4ccff5b245503880fe
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191879"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784605"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Administrere gemte indstillinger for rapporter og kørsler
 Når brugerne kører rapporter, får de normalt vist en side, hvor de kan vælge indstillinger og angive filtre for at ændre, hvilke data der skal medtages i den genererede rapport. Denne side kaldes anmodningssiden. En rapport kan medtage én eller flere *gemte indstillinger*, som brugerne kan anvende til rapporten fra anmodningssiden. *Gemte indstillinger* er grundlæggende foruddefinerede indstillinger og filtre. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data. Du kan finde flere oplysninger under [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).

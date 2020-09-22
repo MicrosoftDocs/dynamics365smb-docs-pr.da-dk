@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 265b1e916894b588f296f3737cda04c685734d47
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 22eee9eacbbc3589c41aa70e7619e2097b51aa73
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194903"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784374"
 ---
 # <a name="create-service-items"></a>Oprette serviceartikler
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] refererer termen "serviceartikel" til udstyr eller varer, der kræver service. Når du opretter en serviceordre, kan du angive de varer, der har brug for service. I ordren kan du knytte en serviceartikel til en vare på lageret eller en serviceartikelgruppe.    

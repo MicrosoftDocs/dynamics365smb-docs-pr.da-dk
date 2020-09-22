@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9cc15893963672f14aef33b8bd35560957a826ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 72a184236ffb040b90b5de780f92e140d6838cd0
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183904"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786442"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Indhente betalinger med SEPA Direct Debit
 Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet med kundens samtykke.  

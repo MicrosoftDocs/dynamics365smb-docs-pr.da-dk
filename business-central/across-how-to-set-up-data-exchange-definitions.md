@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 44069b903df5426ae2aa3e851404c2b9e01f3979
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c8a1fb9e6491eb70d71ba86381c5925f939addf2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188176"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785542"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
@@ -124,7 +124,7 @@ Dette beskrives i følgende fremgangsmåder.
     |**Navn**|Angiv et navn for tilknytningsopsætningen.|  
     |**Codeunit til førtilknytning**|Angiv den kodeenhed, der klargør tilknytningen mellem felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data.|  
     |**Koblings-codeunit**|Angiv den kodeenhed, der bruges til at knytte de angivne kolonner eller XML-dataelementer til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Codeunit til eftertilknytning**|Angiv den kodeenhed, der fuldfører tilknytningen mellem felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data. **Bemærk:** Når funktionen AMC Banking 365 Fundamentals-udvidelsen anvendes, konverterer codeunit eksporterede data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til et generisk format, der er klar til eksport. I forbindelse med import konverterer kodeenheden eksterne data til et format, der er klar til import i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit til eftertilknytning**|Angiv den kodeenhed, der fuldfører tilknytningen mellem felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data. **Bemærk:** Når AMC Banking 365 Fundamentals-udvidelsen anvendes, konverterer codeunit eksporterede data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til et generisk format, der er klar til eksport. I forbindelse med import konverterer kodeenheden eksterne data til et format, der er klar til import i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  Brug oversigtspanelet **Feltkobling** til at angive, hvilke kolonner der knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at udfylde felterne som beskrevet i følgende tabel.  
 

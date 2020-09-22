@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5a9a87935e3e76d0a42a63a8c610d1db487ce736
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 6259aaee181ec4b49cc969d3c9477f271a755c3f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194687"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785292"
 ---
 # <a name="set-up-fault-reporting"></a>Konfigurere fejlrapportering
 Med Fejlrapportering kan du angive standarder for registrering af oplysninger om fejl på serviceartikler. F.eks. kan du angive, hvad problemet er, de symptomer, du ser, årsagen til problemet, og hvordan det løses.  

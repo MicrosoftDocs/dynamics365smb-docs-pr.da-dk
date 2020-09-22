@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 82ccc7bc9fc9aa09c9b403f9d5a31bfa25355e3e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 75880e3315933831bf20fa9c5e8ce6a1528b935e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188224"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785092"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurere en dokumentudvekslingstjeneste
 Du kan bruge en ekstern tjenesteudbyder til at udveksle elektroniske dokumenter med dine handelspartnere. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  

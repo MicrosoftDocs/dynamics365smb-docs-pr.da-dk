@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 56190be2caf1c31cf7c78d1a452d03ba7deea58e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 1d8d32239ae464702bb2d41babf720c2f85e17e6
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187480"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785717"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Anvende konfigurationer på nye virksomheder
 Når du har oprettet en konfigurationspakke, er næste trin at udrulle pakken til din kunder til implementering. Du arbejder med konfigurationspakken i en ny tom virksomhed.  

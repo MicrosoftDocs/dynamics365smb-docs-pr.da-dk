@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 04/14/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2d5285fdfbe8c1a07a766a3fbbe268a4ecbfef0a
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: 05c187adbe7a471a5ba2f240ad4e61e083aa0346
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528884"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786367"
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
 For at gøre det lettere at analysere dokumenter som f.eks. salgsordrer kan du bruge dimensioner. Dimensioner er attributter og værdier, der kategoriserer poster, så du kan spore og analysere dem. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
@@ -122,7 +122,7 @@ Når du ændrer en global dimension eller en genvejsdimension, opdateres alle po
 2. Vælg handlingen **Rediger globale dimensioner**.
 3. Øverst på siden skal du vælge en af følgende indstillinger for at definere, i hvilken tilstand batchjobbet skal køres.
 
-    |Indstilling|Description|
+    |Indstilling|Beskrivelse|
     |-|-|
     |**Fortløbende**|(Standard) Hele dimensionsændringen udføres med én transaktion, fordi alle poster tilbageføres til de dimensioner, som de havde før ændringen.<br /><br />Denne indstilling anbefales, hvis virksomheden har forholdsvis få bogførte poster, hvor det vil tage den korteste tid at færdiggøre. Processen låser flere tabeller og blokerer andre brugere, indtil den er færdig. Bemærk: Processen kan muligvis slet ikke fuldføres i denne tilstand i store databaser. Hvis det er tilfældet, skal du bruge indstillingen **Parallel**.|
     |**Parallel**|(Markér feltet **Parallel behandling**.) Dimensionsændringen udføres som flere baggrundssessioner, og operationen deles op i flere transaktioner.<br /><br />Denne indstilling anbefales til store databaser eller virksomheder med mange bogførte poster, hvor det vil tage den korteste tid at færdiggøre. Bemærk: Denne opdateringsproces starter ikke med denne tilstand, hvis der er mere end én aktiv databasesession.|  

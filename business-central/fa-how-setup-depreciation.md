@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4567bdc42cc7ef9434957d77b2675db78a7fd6f2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 4a54ed9896c6d9921d13f2a4c9c43ed1ba5b7eea
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184312"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784655"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
  Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning såsom saldoafskrivning. Du kan definere afskrivningsmetoden for anlægsaktivet med feltet **Afskrivningsmetode** på siden **Anlægskort**. Du kan finde yderligere oplysninger om de forskellige metoder under [Afskrivningsmetoder ](fa-depreciation-methods.md).

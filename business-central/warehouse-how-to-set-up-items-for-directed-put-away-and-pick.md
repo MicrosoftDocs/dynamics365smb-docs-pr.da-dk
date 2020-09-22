@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: fd41813ba17c9e753cf027392b1e77f9052e1bbc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: dfe65a99ca1095e11580a74bdc141eb23f917aaa
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196183"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785592"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Konfigurere varer og lokationer til styret læg-på-lager og pluk
 Når lagerlokationen kræver styret læg-på-lager og pluk, kan du bruge en ny funktion, der hjælper dig med at styre lagerstedet på den mest effektive måde. Hvis du vil have fuldt udbytte af denne funktion, skal du give yderligere oplysninger om varerne, som til gengæld hjælper med at foretage de nødvendige beregninger for at kunne give forslag til de mest effektive måder at styre lageraktiviteter på. Du kan finde flere oplysninger i [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2f6d9b02e3364d34339ea7176c08fdff7de5eb90
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5cddd49089202e83ffbc2f6062c5c69067157df8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195071"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784505"
 ---
 # <a name="set-up-service-offerings"></a>Opsætte servicetilbud
 Når du konfigurerer service, skal du beslutte, hvilke serviceydelser du vil tilbyde kunderne, og fastlægge en plan for disse serviceydelser. En service er en type arbejde, der udføres af en eller flere ressourcer og ydes til en kunde. En service kan f.eks. være en type computerreparation. En serviceartikel er det udstyr eller den artikel, der kræver service, f.eks. den computer, der skal repareres, og som er installeret hos en bestemt kunde. Du kan konfigurere serviceydelser som en del af en gruppe af relaterede reparations- eller vedligeholdelsesydelser.  

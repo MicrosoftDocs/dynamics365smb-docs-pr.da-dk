@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: be0dc308f7d941fe3c41ecbaaf879eacc5405d12
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183736"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785167"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produktionsomkostninger
 Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er en række felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.  

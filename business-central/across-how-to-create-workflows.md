@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd22a5df6dbe713c2ccc5706df99b0b73dd2f792
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e6bdc2c57aaf4dfea8cb5df720217a15b315e4df
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188344"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785042"
 ---
 # <a name="create-workflows"></a>Oprette arbejdsgange
 Du kan oprette arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
@@ -54,7 +54,7 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
 
     1.  Hvis du vil angive indstillinger for et workflowrespons, der involverer afsendelse af en notifikation, skal du udfylde felterne som beskrevet i følgende tabel.  
 
-        |Felt|Description|  
+        |Felt|Beskrivelse|  
         |----------------------------------|---------------------------------------|  
         |**Giv afsender besked**|Angiv, om godkendelsesanmoderen er blevet underrettet i stedet for modtageren af godkendelsesanmodningen. Hvis du markerer afkrydsningsfeltet, bliver feltet **Modtagers bruger-ID** deaktiveret, da anmoderen til godkendelsen, afsenderen, får besked i stedet. Navnet på workflowresponset ændres tilsvarende til **Opret notifikation til &lt;afsender&gt;**. Hvis afkrydsningsfeltet ikke er markeret, angives navnet på workflowresponset til **Opret notifikation til &lt;bruger&gt;**.
         |**Modtagers bruger-id**|Angiv den bruger, som notifikationen skal sendes til. Bemærk: Denne indstilling er kun tilgængelig for workflowrespons med en pladsholder for en bestemt bruger. Notifikationsmodtageren defineres typisk af godkendelsesbrugeropsætningen, når det drejer sig om arbejdsgangssvar uden pladsholdere for brugere.|  

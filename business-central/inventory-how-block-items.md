@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 467b43b14f1905018c2a26a06c15abc5a0a17e99
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.author: edupont
+ms.openlocfilehash: fb80cecd119cf061b3102d94f586da4c103bd21c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410640"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784809"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Spærre varer mod salg eller køb
 Du kan spærre for, at en vare angives på linjer i salgs- eller købsdokumenter og for, at den bogføres i nogen posteringer. Dette er f.eks. nyttigt, hvis en vare har en kendt defekt. Hvis en person vælger en spærret vare på et salgs- eller købsdokument, vil en meddelelse give dem om, at varen er spærret.
 
 Tabellen nedenfor beskriver, hvad der sker, når varer spærres.  
 
-|Indstilling|Description|  
+|Indstilling|Beskrivelse|  
 |--------------------|------------|  
 |**Spærret salg**|Du kan ikke angive varen i et salgsdokument eller i en salgsvarekladde.|  
 |**Spærret køb**|Du kan ikke angive varen i et købsdokument, i en købsvarekladde eller i købsplanlægningsprocesser.|  

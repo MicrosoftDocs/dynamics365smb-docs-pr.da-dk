@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 122c1e602f9f7d1c50115ba1e6ba515694fc84a1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194399"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785417"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbejde med kalenderdatoer og klokkeslæt
 
@@ -56,7 +56,7 @@ Se også [Tastaturgenveje i kalenderdatovælgeren](keyboard-shortcuts.md#calenda
 
 Du kan angive en dato som en ugedag efterfulgt af et ugenummer og eventuelt et år. F.eks. betyder Man25 eller man25 mandag i uge 25. Hvis du ikke angiver et år, bruges året fra arbejdsdatoen.
 
-I stedet for at skrive hele ordet for den pågældende dag i ugen kan du skrive en del af ordet fra begyndelsen. Hvis der opstår konflikter (f.eks. med t, som kan være tirsdag eller torsdag), vurderes dagene i overensstemmelse med lande/områdeindstillingen. Input vurderes først mod arbejdsdag samt dags dato, så husk dette, når du laver forkortelser. F.eks. betyder d allerede dags dato, så det ikke kan betyde tirsdag eller torsdag.
+I stedet for at skrive hele ordet for den pågældende dag i ugen kan du skrive en del af ordet fra begyndelsen. Hvis der opstår konflikter (f.eks. med t, som kan være tirsdag eller torsdag), vurderes dagene i overensstemmelse med indstillingen for land/område. Input vurderes først mod arbejdsdag samt dags dato, så husk dette, når du laver forkortelser. F.eks. betyder d allerede dags dato, så det ikke kan betyde tirsdag eller torsdag.
 
 Ugenummereringen er altid ISO 8601, hvor er uge 1 uge er den uge, som 4. januar indgår i, eller ugen med den første torsdag i året.
 
@@ -98,7 +98,7 @@ Hvis en dato skal være en ultimodato, skal du indsætte et U lige foran datoen,
 
 ### <a name="examples"></a>Eksempler
 
-Følgende tabel indeholder eksempler på datoer i alle formater. Det forudsætter lande/områdeindstillinger, der formaterer datoer i henhold til: **år.måned.dag.**, en uge, der begynder om mandagen, og hvor sproget er engelsk.
+Følgende tabel indeholder eksempler på datoer i alle formater. Det forudsætter indstillinger for land/område, der formaterer datoer i henhold til: **år.måned.dag.**, en uge, der begynder om mandagen, og hvor sproget er engelsk.
 
 |**Post**      |**Fortolkning**      |
 |---------------|------------------------|
@@ -289,7 +289,7 @@ Når du angiver klokkeslæt, kan du indsætte separatorer uden mellemrum, som du
 
 Du behøver kun at skrive de største enheder, du vil behøver, de øvrige indstilles til nul. Du kan også udelade AM/PM-symboler.
 
-I den følgende tabel kan du se, hvordan du kan indtaste klokkeslæt, og hvordan de fortolkes. Det forudsætter lande/områdeindstillinger, der formaterer tidspunkter i overensstemmelse med: **Timer:Minutter:Sekunder.Millisekunder.** og bruger AM og PM-symbolerne 'AM' og 'PM hhv.
+I den følgende tabel kan du se, hvordan du kan indtaste klokkeslæt, og hvordan de fortolkes. Det forudsætter indstillinger for land/område, der formaterer tidspunkter i overensstemmelse med: **Timer:Minutter:Sekunder.Millisekunder.** og bruger AM og PM-symbolerne 'AM' og 'PM hhv.
 
 |**Post**      |**Fortolkning**      |
 |---------------|------------------------|
@@ -315,7 +315,7 @@ Du kan ikke bruge 24:00 til at angive midnat eller bruge værdier større end 24
 Ordet for 'time" på det sprog, som [!INCLUDE[d365fin](includes/d365fin_long_md.md)] bruger, vurderes til det aktuelle tidspunkt på din computer eller en mobilenhed. Du kan angive en del af ordet fra begyndelsen, f.eks. t eller TIM.
 
 ## <a name="entering-combined-dates-and-times"></a>Indtaste kombinerede datoer og tidspunkter
-Når du angiver dato/klokkeslæt, som en dato og klokkeslæt kombineret i ét felt, skal du angive et mellemrum mellem datoen og klokkeslættet. Datodelen kan kun indeholde mellemrum i form af officielle datoseparatorer af lande/områdeindstillingerne. Tid, der kan indeholde mellemrum omkring AM/PM-symbolet.
+Når du angiver dato/klokkeslæt, som en dato og klokkeslæt kombineret i ét felt, skal du angive et mellemrum mellem datoen og klokkeslættet. Datodelen kan kun indeholde mellemrum i form af officielle datoseparatorer af indstillingerne for land/område. Tid, der kan indeholde mellemrum omkring AM/PM-symbolet.
 
 Det er også muligt kun at angive en dato i et dato/klokkeslætsfelt, men det er ikke muligt kun at angive én gang.
 

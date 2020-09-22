@@ -11,16 +11,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: f0b5370b8babf000b1dc2f5b1980ada383788067
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528834"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785742"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Oprette en ekstra rapporteringsvaluta
-Da virksomheder handler i stadig flere lande, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta.
+Da virksomheder handler i stadig flere lande/områder, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta.
 
 Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter.
 
@@ -30,7 +30,7 @@ Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Visning af rapporter og beløb i den ekstra rapporteringsvaluta
 Brug af en ekstra rapporteringsvaluta kan være en hjælp i rapporteringsprocessen for en virksomhed i følgende tilfælde:
 
-- Virksomheder i lande uden for EU, som har et højt antal transaktioner med virksomheder i EU-lande. I dette tilfælde kan virksomheder i lande uden for EU også ønske at rapportere i euro for at gøre regnskabsopgørelserne mere brugbare for EU-handelspartnere.
+- Virksomheder i lande/områder uden for EU, som har et højt antal transaktioner med virksomheder i EU-lande/områder. I dette tilfælde kan virksomheder i lande/områder uden for EU også ønske at rapportere i euro for at gøre regnskabsopgørelserne mere brugbare for EU-handelspartnere.
 - Virksomheder, som også ønsker at vise rapporter i en mere internationalt handlet valuta end deres egen lokale valuta.
 
 Flere finansrapporter er baseret på finansposter. Hvis rapportdata skal vises i rapporten i den ekstra rapporteringsvaluta, skal du blot markere feltet **Vis beløb i ekstra rapporteringsvaluta** på oversigtspanelet **Indstillinger** for den relevante finansrapport.
