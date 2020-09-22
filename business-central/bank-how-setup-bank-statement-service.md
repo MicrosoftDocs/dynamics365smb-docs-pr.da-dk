@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 06/24/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6de088c47fda309d5c4d2832ffe4199cd5331bf8
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.author: edupont
+ms.openlocfilehash: 0fb173ee064b5b62ff110fb33dc8ecbc82d0afcd
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503388"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783245"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurere tjenesten Envestnet Yodlee Bank Feeds
 
@@ -28,12 +28,12 @@ Du kan importere elektroniske bankkontoudtog fra din bank, så du hurtigt kan ud
 > Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i onlineversionen af Business Central. Hvis du vil bruge denne funktion i det lokale miljø, skal du anskaffe en cobrand-konto fra Envestnet, og du skal tilføje kode for at integrere med Yodlee-API'en.
 >
 > Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i USA og Canada.
-> Kun banker, der er hjemmehørende i disse lande, understøttes, selvom bankerne fra andre lande kan blive vist i Envestnet Yodlee Bank Feeds-vinduet til bankvalg i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Kun banker, der er hjemmehørende i disse lande/områder, understøttes, selvom bankerne fra andre lande/områder kan blive vist i Envestnet Yodlee Bank Feeds-vinduet til bankvalg i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]
 > Kontakt Microsoft Support for at få teknisk hjælp til funktionen Envestnet Yodlee. Kontakt ikke Envestnet Yodlee. Du kan finde flere oplysninger under [Konfigurere teknisk support til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
-Tjenesten Envestnet Yodlee Bank Feeds er installeret som en udvidelse af [!INCLUDE[d365fin](includes/d365fin_md.md)] online og er klar til at blive aktiveret i understøttede lande. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).
+Tjenesten Envestnet Yodlee Bank Feeds er installeret som en udvidelse af [!INCLUDE[d365fin](includes/d365fin_md.md)] online og er klar til at blive aktiveret i understøttede lande/områder. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).
 
 Når du har aktiveret bankfeedtjenesten, skal du knytte en bankkonto til onlinebankkontoen, som feedet kommer fra. Du kan knytte bankkonti til online bankkonti i forskellige følgende scenarier:
 

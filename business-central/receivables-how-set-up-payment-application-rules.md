@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 07/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.author: edupont
+ms.openlocfilehash: 255f7c66dc040f10aeae76b5ed08920ad8c1f77f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617569"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782745"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Konfigurere regler for automatisk udligning af betalinger
 
@@ -43,7 +43,7 @@ Udover afstemningskriterierne gælder følgende vedrørende fortegnet foran det 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Regler for betalingsudligning**, og vælg derefter det relaterede link.
 2. Definer en ny eller redigeret regel for betalingsudligning ved at udfylde felterne på en linje, som beskrevet i følgende tabel.
 
-|Felt|Description|
+|Felt|Beskrivelse|
 |-|-|
 |**Matchtillid**|Angiver din tillid til udligningsreglen, du definerer på linjen. <br /></br>En værdi, du angiver i dette felt, vises i feltet i vinduet **Matchtillid** på siden **Betalingsudligningskladde** i henhold til kvaliteten af det automatiske betalingsprogram på kladdelinjen.|
 |**Prioritet**|Angiver prioriteten af udligningsreglen i forhold til andre udligningsregler, der er defineret som linjer på siden **Regler for betalingsudligning**. 1 repræsenterer den højeste prioritet.|

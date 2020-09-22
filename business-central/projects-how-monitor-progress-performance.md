@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 368461d6d29f77586e2ee047f571ef4fae583b14
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 1da98e48ffec3ac8bd6f2e80305d624919d85dbb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192815"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783828"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Overvåge jobstatus og -udførelse
 Efterhånden som status for en sag ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i sagen. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af sager i finansregnskabet under udførelsen af sagen. Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt. Du kan finde flere oplysninger i [Forstå metoder for igangværende arbejde](projects-understanding-wip.md).

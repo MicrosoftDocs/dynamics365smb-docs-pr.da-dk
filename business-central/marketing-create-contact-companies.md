@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: 463b14d5c20818691bcc130281e7cc4247da2c4c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528433"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784153"
 ---
 # <a name="create-contacts"></a>Oprette kontakter
 Du møder regelmæssigt personer fra andre virksomheder, hvilket kan udvikle sig til forretningsforhold, f.eks. en kunderelation. Når en sådan ny kontakt opstår, skal der registreres flest mulige oplysninger på et kontaktkort, så kommunikationen kan fortsættes.

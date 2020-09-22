@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194591"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782439"
 ---
 # <a name="change-basic-settings"></a>Ændre grundlæggende indstillinger
 
@@ -67,10 +67,11 @@ Den mest almindeligt anvendte arbejdsdato er dags dato. Du skal muligvis midlert
 ### <a name="work-date-indication"></a>Angivelse af arbejdsdato
 Når arbejdsdatoen ikke er indstillet til dags dato, vises der to typer indikatorer på sider, der kan redigeres, og hvor arbejdsdatoen derfor er kritisk:
 
-- Der vises en rykker øverst på siden, som angiver, hvad arbejdsdatoen er indstillet til. Rykkeren viser en direkte tilknytning til arbejdsdatoindstillingen på siden **Mine indstillinger**, så du kan ændre datoen efter behov. I rykkeren kan du også vælge at afvise rykkeren for resten af din session. Medmindre du ændrer arbejdsdatoen til "dags dato", vises rykkeren, næste gang du logger på.
+* Der vises en rykker øverst på siden, som angiver, hvad arbejdsdatoen er indstillet til. Rykkeren viser en direkte tilknytning til arbejdsdatoindstillingen på siden **Mine indstillinger**, så du kan ændre datoen efter behov. I rykkeren kan du også vælge at afvise rykkeren for resten af din session. Medmindre du ændrer arbejdsdatoen til "dags dato", vises rykkeren, næste gang du logger på.
 
-- Hvis du afviser rykkeren, vises arbejdsdatoen i sidetitlen.  
---> Hvis arbejdsdatoen ikke er sat til den aktuelle dag (i dag), vises den aktuelle arbejdsdato i øverste venstre hjørne af siden, på alle de sider, hvor du kan redigere data.
+* Hvis du afviser rykkeren, vises arbejdsdatoen i sidetitlen.  
+
+Hvis arbejdsdatoen ikke er sat til den aktuelle dag (i dag), vises den aktuelle arbejdsdato i øverste venstre hjørne af siden, på alle de sider, hvor du kan redigere data.
 
 ## <a name="region"></a><a name="region"></a> Område
 

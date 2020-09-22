@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 04/20/2020
-ms.author: sgroespe
-ms.openlocfilehash: 815956fe6eefa069a9930043d4a0c93a725b4fc1
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.author: edupont
+ms.openlocfilehash: 63d7157bc25aa97e1963efdfeb75364db04a0c95
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272058"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782139"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Tælle, justere og ompostere inventar ved hjælp af kladder
 Mindst én gang hvert regnskabsår skal der foretages lageropgørelse, dvs. alle varer i lagerbeholdningen optælles for at se, om det antal, der er registreret i databasen, svarer til det faktiske fysiske antal på lagerstederne. Når det faktiske fysiske antal kendes, skal det bogføres til Finans som en del af lagervurderingen ved periodeafslutning.

@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c078195f25d28b517a25b23cbb22c78bfb4e9ec4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 774c45d50ac56cb0e950ea8687ee86d24cfb9b0a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192071"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782589"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](across-business-functionality.md).

@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 84f4e6e0cab2080260ec02f3493ce8ca2769b290
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5cc03c8b5fb11ecc0a34d83b1ea6dfaeae791e9d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194519"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782389"
 ---
 # <a name="customize-business-central"></a>Tilpasse Business Central
 Der er forskellige måder at tilpasse programmet på, der giver dig og dine kolleger adgang til de funktioner, den funktionalitet og de data, I har mest brug for, og på en måde, der passer bedst til det daglige arbejde. Hvem der ser ændringerne, afhænger af hvad du gør, som beskrevet i denne tabel.
@@ -31,7 +31,7 @@ Der er forskellige måder at tilpasse programmet på, der giver dig og dine koll
 |Giv mulighed for, at farver i rollecentre kan signalere vigtighed.|Opret køindikatorer, der vises i rollecentre for brugere, for at medtage en indikator, der skifter farve ud fra værdierne i køerne.|Alle brugere i en bestemt virksomhed.|[Oprette en farveindikator på køindikatorer](admin-how-set-up-colored-indicator-on-cues.md)|
 |Installér en udvidelse|Udvidelser kan sammenlignes med små programmer, der tilføjer funktionalitet, ændrer egenskaberne, giver adgang til nye onlinetjenester og meget mere. Microsoft leverer f.eks. en udvidelse, der giver integration med PayPal Payments Standard.|Alle brugere i alle regnskaber.|[Tilpasse ved hjælp af udvidelser](ui-extensions.md)|
 > [!NOTE]
-> Alle beskrivelser af funktioner i dokumentationen til [!INCLUDE[d365fin](includes/d365fin_md.md)] antager **Premium**-oplevelsen, hvilket betyder, at beskrivelserne dækker det fulde omfang af elementerne i brugergrænsefladen. Derfor kan brugere med **Essential**-oplevelsen i visse emner få flere oplysninger om funktioner og elementer i brugergrænsefladen, som ikke vises i brugergrænsefladen. Du kan finde flere oplysninger i
+> Alle beskrivelser af funktioner i dokumentationen til [!INCLUDE[d365fin](includes/d365fin_md.md)] antager **Premium**-oplevelsen, hvilket betyder, at beskrivelserne dækker det fulde omfang af elementerne i brugergrænsefladen. Derfor kan brugere med **Essential**-oplevelsen i visse emner få flere oplysninger om funktioner og elementer i brugergrænsefladen, som ikke vises i brugergrænsefladen. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

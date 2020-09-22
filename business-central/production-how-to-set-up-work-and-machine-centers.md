@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/10/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4e3a6c646605d5c1da26ff0d0795413a53fabe82
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.author: edupont
+ms.openlocfilehash: 96d815a39428abc23c050da02c92d8a46a9111c1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677279"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784128"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbejdscentre og produktionsressourcer
 
@@ -50,7 +50,7 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
 10. Vælg feltet **Specifik kostpris**, hvis du vil definere arbejdscentrets kostpris på den rutelinje, hvor det benyttes. Dette kan være relevant for operationer, hvor kapacitetsomkostningerne er væsentligt anderledes end for andre produktioner på arbejdscentret.  
 11. Vælg i feltet **Trækmetode**, om outputbogføring på dette arbejdscenter skal beregnes og bogføres manuelt eller automatisk med en af følgende metoder.
 
-    |Indstilling|Description|
+    |Indstilling|Beskrivelse|
     |------|-----------|
     |**Manuelt**|Forbrug bogføres manuelt i afgangskladden eller produktionskladden.|
     |**Forlæns**|Forbrug beregnes og bogføres automatisk, når produktionsordren frigives.|

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3e345e3037cb70923a42f1b6684442ba78201c4e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d02b8f9e813690c24b8d4864dbb240a434849e95
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181864"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783386"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbejde med serienumre og lotnumre
 Du kan tildele serienumre og lotnumre til ethvert udgående eller indgående bilag, og dets posterede varesporing vises i de tilknyttede vareposter. Du kan udføre arbejdet på siden **Varesporingslinjer**, som du kan åbne fra et indgående eller udgående dokument.

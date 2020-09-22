@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cc1317961be7896250a883da5c58d1f7eb5cf326
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 603a4bc69accd326ec7cc2540efe39ba7660fdca
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194495"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782364"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Angiv dokumentlayout for debitorer og leverandører
 Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debitor- og leverandørkortene for at angive, hvilke layout der skal bruges til de forskellige typer dokumenter, som du har oprettet for den pågældende debitor eller leverandør. Værdien i feltet **Forbrug** angiver, hvilken proces, dokumentlayoutet skal bruges til, f.eks. **Rykker**, **Forsendelse**og **Bekræftelse**.
