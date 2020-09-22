@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/19/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.author: edupont
+ms.openlocfilehash: f948451001c2e280ea52f92d5d3b58eca6222687
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496712"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789296"
 ---
 # <a name="working-with-d365fin"></a>Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.
@@ -65,7 +65,7 @@ Her er en kort video om, hvordan du bevæger dig rundt i [!INCLUDE[d365fin](incl
 
 - Hvis det er muligt, skal du undgå ældre browsere som f. eks. Internet Explorer og skifte til en af vores anbefalede moderne browsere, f. eks. den nye [ Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer understøttes stadig, men da den nye browser kan benyttes i Windows Server nu, oplever vi, at færre bruger Internet Explorer. Du kan også få [en prøveudgave af Edge i IE-tilstand](https://www.microsoft.com/edge/business). Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer understøttes stadig, men da den nye browser kan benyttes i Windows Server nu, oplever vi, at færre bruger Internet Explorer. Du kan også få [en prøveudgave af Microsoft Edge i IE-tilstand](https://www.microsoft.com/edge/business). Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Sørg for, at din browser altid er opdateret til den nyeste version.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
