@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbc5c7020781705d84388108579693b48d3c2e2f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a577d1fbb3744a7af899957af5ecb3b714bd8296
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787517"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917347"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Designoplysninger: Siden Varesporingslinjer
 Varesporingsposter og reservationsposter oprettes i reservationssystemet, og deres tilgængelighed beregnes dynamisk. Data, der er angivet på siden **Varesporingslinjer**, styres i en midlertidig version af tabellen **Sporingsspecifikation**. Når siden lukkes, bliver de aktive data bundet til tabellen **Reservationspost**, og de historiske data bliver bundet til tabellen **Sporingsspecifikation**. Du kan finde flere oplysninger i [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  

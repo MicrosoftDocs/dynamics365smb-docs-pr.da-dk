@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 07044d73af98d1537b2b6ccd0869613bcc0ab508
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: e16ec4156d7718110908ff187ffd58c38cfaf512
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677194"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920198"
 ---
 # <a name="set-up-oioubl"></a>Konfigurere OIOUBL
 Du skal angive en placering til lagring af OIOUBL-filer (Offentlig Information Online UBL), når du opretter elektroniske dokumenter som f.eks. fakturaer eller kreditnotaer. Du skal også definere betalingsformer, betalingsbetingelser og varegebyrer, og du skal oprette relevante kunder til OIOUBL.  

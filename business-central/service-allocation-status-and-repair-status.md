@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 28dad890968e8d6fc832c7df696ef04c100458fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ba066e9d40959b48901792d7ceff8589525c6d7a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194759"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910401"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Allokeringsstatus og reparationsstatus for serviceartikler
 Der er en særlig relation mellem serviceartiklernes reparationsstatus og allokeringsposternes allokeringsstatus for serviceartiklerne i Service. Allokeringsstatus ændres, når du ændrer reparationsstatus for serviceartiklen til **Udført** eller **Delvist repareret**, og når du konverterer et servicetilbud til en serviceordre. Reparationsstatus for serviceartiklen ændres, når du annullerer serviceartikelallokeringen eller genallokerer serviceartiklen til en anden ressource. Du kan få vist reparationsstatus for serviceartiklerne på siden **Serviceopgaver**, og du kan opdatere reparationsstatussen i feltet **Reparationsstatuskode** på siden **Serviceartikelkladde**. Du kan få vist allokeringsstatus i feltet **Status** på siden **Ressourceallokeringer**.  

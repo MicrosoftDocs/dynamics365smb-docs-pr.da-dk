@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7b5041ecca410616035fcd98df121ad924d405e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 697b83fd7e6e2b220b2851d5a1770ed9f74a9bdd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787492"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917372"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetaljer: Bogføringsstruktur for varesporing
 Med henblik på at tilpasse lageromkostningsfunktionalitet og for at opnå en enklere og mere stabil løsning bruges vareposter som den primære bærer af varesporingsnumre.  

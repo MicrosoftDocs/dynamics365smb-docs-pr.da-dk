@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0f2b5a2ce4fd53d9d487d20f7139d7b36c5387b5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780481"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919584"
 ---
 # <a name="archive-documents"></a>Arkivere dokumenter
 Du kan arkivere salgs- og købsordrer, tilbud, returvareordrer og rammeordrer, f.eks. fordi du vil gemme en kopi af et dokument til senere genbrug. Du kan arkiverer et salgs- eller købsdokument flere gange og gemme en ny arkiveret version hver gang.

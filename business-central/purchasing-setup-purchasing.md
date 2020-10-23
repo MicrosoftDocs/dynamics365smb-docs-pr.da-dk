@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bda110a8d97376b283461bb0c2c6a6b7f334ba4d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 72c947263ccf736d9432c52b6256868ad346ad09
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783270"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918717"
 ---
 # <a name="setting-up-purchasing"></a>Opsætning af indkøb
 Før du kan administrere købsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens købspolitikker.
@@ -32,6 +32,9 @@ Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes 
 | Angiv de forskellige rabatter og specialpriser, som kreditorer yder dig, afhængigt af vare, antal og/eller dato. |[Registrer købspris, rabat og betalingsaftaler](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Tildele kreditorer prioritet |[Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md) |
 | Oprette indkøbere |[Oprette indkøbere](purchasing-how-setup-purchasers.md) |
+
+> [!TIP]
+> Nogle sider kan indeholde felter, der ikke er beskrevet i de artikler, der er angivet her, fordi de gælder for lokal funktionalitet eller tilpasninger, afhængigt af din geografiske placering. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 

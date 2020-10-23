@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d817879ee830bf242ca46143900f66888d5db98c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bbc7314c9f178385fbb882a4615950277b0c0d88
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785267"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915430"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Køre fuld planlægning, MPS eller MRP
 At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hovedproduktionsplanen (MPS) på basis af eksisterende og forventet efterspørgsel. Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning – materialebehovsplanlægning) efter anmodning, eller begge dele kan beregnes på én gang.  

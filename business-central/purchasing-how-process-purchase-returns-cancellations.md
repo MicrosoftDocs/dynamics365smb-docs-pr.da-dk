@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 07/02/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c6bbddbdc6dcfc75fc32ada91a5d6d6ec5bde1e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b3d45d4a058ea21adefafd13e640346e61a249d3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783070"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926868"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle købsreturvarer eller annulleringer
 
@@ -193,4 +193,5 @@ Når returleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 [Køb](purchasing-manage-purchasing.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
 [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 98d0efac9ad4a16e84617e9ed88c3d990c2b5f3a
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 55450538dc3754e3720f6bed79ed92864df1b5a4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454321"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920206"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2c7b7c4175f4c17e01c114f76d0b14834e0409ae
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 9d3f4e86a0da5c26a84ca79b1712f2f240e347a2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617700"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922438"
 ---
 # <a name="synchronizing-data-in-business-central-with-common-data-service"></a>Synkronisering af data i Business Central med Common Data Service
 
@@ -42,6 +42,9 @@ Når synkroniseringen er konfigureret, du kan sammenkæde [!INCLUDE[d365fin](inc
 Enheder i [!INCLUDE[d365fin](includes/cds_long_md.md)], f.eks. konti, er integreret med enheder af samme type i [!INCLUDE[d365fin](includes/d365fin_md.md)], som f.eks. kunder. For at arbejde med [!INCLUDE[d365fin](includes/cds_long_md.md)]-data, opretter du links, kaldet sammenkædninger mellem enheder i [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 Følgende tabel viser standardtilknytningen mellem enheder i [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)], som [!INCLUDE[d365fin](includes/d365fin_md.md)] leverer.
+
+> [!TIP]
+> Du kan nulstille konfigurationsændringer, der er foretaget af integrations tabel-og felttilknytninger, til standardindstillingerne ved at vælge tilknytningerne og derefter vælge **Brug standardopsætning for synkronisering**.
 
 | [!INCLUDE[d365fin](includes/d365fin_md.md)] | [!INCLUDE[d365fin](includes/cds_long_md.md)] | Synkroniseringsretning | Standardfilter |
 |---------------------------------------------|----------------------------------------------|---------------------------|----------------|

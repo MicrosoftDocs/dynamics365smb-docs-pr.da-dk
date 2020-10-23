@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 408a510e311573f6573eee286508b9f05f0088dc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 18c8eb8f379be15bf425a6a2bcd8db6b0c48bcb3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788317"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922163"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designoplysninger: Konti i Finans
 For at afstemme lager og kapacitetsposterne med finansmodulet, bogføres de relaterede værdiposter til forskellige konti i finans. Du kan finde flere oplysninger i [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md).  

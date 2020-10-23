@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 296e150eec01e3aee4ec8ccc32b4bf5299b86d3e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782064"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923816"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 
@@ -92,12 +92,19 @@ Leverandørerne vises nu på siden **Vare/leverandører**, som du åbner fra var
 
 ## <a name="deleting-item-cards"></a>Sletning af varekort
 
-Hvis du har bogført en postering for en vare, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på værdiansættelse eller revision af lageret. Hvis du vil slette varekort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.
+Hvis du har bogført en postering for en vare, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på værdiansættelse eller revision af lageret. Hvis du vil slette varekort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.  
+
+## <a name="manage-inventory-in-warehouses"></a>Administration af lager på lagersteder
+
+Når du registrerer en ny vare, kan du se de felter, der er relateret til lagerstedsstyringen, især i oversigtspanelet **Lagersted**. Hvis organisationen ikke bruger warehouse management capabilities i [!INCLUDE [prodshort](includes/prodshort.md)], kan du ignorere disse felter.  
+
+Hvis organisationen på et senere tidspunkt opsætter logistik, skal du i de fleste tilfælde gå tilbage til hver eksisterende vare for at sikre, at det indeholder de relevante oplysninger i de forskellige felter, så lager processerne kan køre som forventet. Disse oplysninger kan omfatte felter som **Lagerklassekode** eller **Læg på lager-skabelonkode**. Du kan finde flere oplysninger i [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 
 ## <a name="see-also"></a>Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Oprette måleenheder](inventory-how-setup-units-of-measure.md)  
+[Varekoder](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Oprette nummerserie](ui-create-number-series.md)  
 [Konfigurere bogføringsgrupper](finance-posting-groups.md)  

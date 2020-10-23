@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b939f217e4d0122c8663d096b412806a952eea8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: df67abf85f02b26b1ccaa29735cb9dab28a1d076
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779582"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915964"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i grundlæggende lageropsætninger
 Du kan undertiden have brug for at flytte varer mellem interne placeringer ikke modtagelse eller leveranceplacering uden et bestemt krav fra et kildedokument. Du kan udføre disse ad hoc-bevægelser, for eksempel for at omstrukturere lageret, for at bringe elementer til et inspektionsområde eller for at flytte flere elementer til og fra et produktionsområde uden en systemrelation til produktionsordrens kildedokument.  

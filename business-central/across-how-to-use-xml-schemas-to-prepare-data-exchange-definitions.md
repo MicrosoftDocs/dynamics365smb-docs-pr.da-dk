@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e244afdb7690ad10eeb99f0c8004cb171469744b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d2e600f3b2da20540e224cb1405a50adc4a31f25
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781956"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924949"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
 

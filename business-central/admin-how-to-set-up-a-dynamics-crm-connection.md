@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/24/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
-ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
+ms.openlocfilehash: 51f04f690483fd5b0c3f093ac5f8e2694ca3fdd9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3701988"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924624"
 ---
 # <a name="connect-to-common-data-service"></a>Opret forbindelse til Common Data Service
 
@@ -34,7 +34,7 @@ Der er et par oplysninger, som du skal have klar, før du opretter forbindelsen:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Oprette forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-For alle andre godkendelsestyper end Office 365-godkendelse kan du konfigurere din forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Opsætning af CDS-forbindelse**. For Office 365-godkendelse anbefaler vi, at du bruger den assisterede opsætningsvejledning **Konfigurer Common Data Service-forbindelse**. Denne vejledning gør det nemmere at oprette forbindelsen og angive avancerede funktioner, f.eks. ejerskabsmodel og indledende synkronisering.  
+For alle andre godkendelsestyper end Microsoft 365-godkendelse kan du konfigurere din forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Opsæt CDS-forbindelse**. For Microsoft 365-godkendelse anbefaler vi, at du bruger den assisterede opsætningsvejledning **Konfigurer Common Data Service-forbindelse**. Denne vejledning gør det nemmere at oprette forbindelsen og angive avancerede funktioner, f.eks. ejerskabsmodel og indledende synkronisering.  
 
 > [!IMPORTANT]
 > Under konfigurationen af forbindelsen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] bliver administratoren bedt om at give følgende tilladelser til det registrerede Azure-program, der hedder [!INCLUDE[d365fin](includes/d365fin_md.md)]-integration med [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
@@ -70,7 +70,7 @@ Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på 
 
     |Felt|Beskrivelse|
     |-----|-----|
-    |**[!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere skal tilknyttes CDS-brugere**|Hvis du bruger din ejerskabsmodellen Person, skal du angive, om [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugerkonti skal have tilsvarende brugerkonti i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. **Office 365-godkendelsesmailadresse** for [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugeren skal være den samme som **Primær mail** for [!INCLUDE[crm_md](includes/crm_md.md)]-brugeren.<br /><br /> Hvis du angiver værdien til **Ja**, har [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere, der ikke har en tilsvarende [!INCLUDE[crm_md](includes/crm_md.md)]-brugerkonto, ikke [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrationsfunktioner i brugergrænsefladen. Adgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)] udføres på vegne af [!INCLUDE[crm_md](includes/crm_md.md)]-brugerkontoen.<br /><br /> Hvis du angiver værdien til **Nej**, har alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere [!INCLUDE[crm_md](includes/crm_md.md)]-integrationsfunktioner i brugergrænsefladen. Adgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data udføres på vegne af [!INCLUDE[crm_md](includes/crm_md.md)]-forbindelsesbrugeren (integrations).|
+    |**[!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere skal tilknyttes CDS-brugere**|Hvis du bruger din ejerskabsmodellen Person, skal du angive, om [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugerkonti skal have tilsvarende brugerkonti i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. **Microsoft 365-godkendelsesmailadressen** for [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugeren skal være den samme som **Primær mail** for [!INCLUDE[crm_md](includes/crm_md.md)]-brugeren.<br /><br /> Hvis du angiver værdien til **Ja**, har [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere, der ikke har en tilsvarende [!INCLUDE[crm_md](includes/crm_md.md)]-brugerkonto, ikke [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrationsfunktioner i brugergrænsefladen. Adgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)] udføres på vegne af [!INCLUDE[crm_md](includes/crm_md.md)]-brugerkontoen.<br /><br /> Hvis du angiver værdien til **Nej**, har alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugere [!INCLUDE[crm_md](includes/crm_md.md)]-integrationsfunktioner i brugergrænsefladen. Adgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data udføres på vegne af [!INCLUDE[crm_md](includes/crm_md.md)]-forbindelsesbrugeren (integrations).|
     |**Den aktuelle Business Central-sælger er tilknyttet en bruger**|Angiver, om din brugerkonto er knyttet til en konto i [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
 4. Du kan teste forbindelsesindstillingerne ved at vælge **Forbindelse** og derefter **Test forbindelse**.  

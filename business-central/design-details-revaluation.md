@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb3357d2d102dceba9896731c651174a4962bab6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787242"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911001"
 ---
 # <a name="design-details-revaluation"></a>Designoplysninger: Regulering
 Du kan regulere lagerbeholdningen baseret på det værdigrundlag, der mest præcist afspejler værdien af lageret. Du kan også tilbagedatere en værdiregulering, så omkostningerne for vareforbruget opdateres korrekt for varer, der allerede er solgt. Varer, der benytter kostmetoden Standard, der ikke er blevet fuldt faktureret, kan også revalueres.  

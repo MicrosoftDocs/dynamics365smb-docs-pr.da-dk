@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e01994d44498ab6716b9c86219f17f9a15417e34
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a4fa309b776fd0a11fafbde1df9f93b6583eddb0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788665"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916797"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruge varegebyrer til at angive ekstra handelsomkostninger
 For at sikre korrekt værdiansættelse, skal dine lagervarer pålægges evt. ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer. Ved køb består hjemtagelsesprisen for en indkøbt vare af købsprisen til leverandøren og alle ekstra, direkte varegebyrer, som det er muligt at tildele til individuelle leverancer eller returvareleverancer. Ved salg kan det være lige så vigtigt at kende omkostningerne ved forsendelse af solgte varer som at kende omkostningen ved levering af købte varer.

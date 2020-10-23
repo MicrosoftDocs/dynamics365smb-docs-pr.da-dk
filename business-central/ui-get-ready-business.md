@@ -1,24 +1,24 @@
 ---
-title: Velkommen | Microsoft Docs
+title: Bliv klar til at handle
 description: Beskriver de assisterede opsætningsvejledninger, videoer, Hjælp-emner og sider, der hjælper dig i gang med at bruge Business Central.
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 04/01/2020
+ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4eb11d34927c329d35fb8ff9ab2bef7d5b18438c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 439280317792e4baedba18c5a4f05b8eab440921
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193487"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912168"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
+
 Tillykke, du lige har startet din første virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 For at blive klar til at handle kan du besøge siden **Assisteret opsætning**, hvor du kan starte assisterede opsætningsguides, videoer eller hjælpeemner for valgte opsætningsopgaver. For at få adgang til siden skal du bare vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen **Assisteret opsætning**.
@@ -30,12 +30,14 @@ Når du har overført data såsom kreditorer, debitorer og varer fra dit eksiste
 Hvis et område ikke er dækket af en assisteret opsætning, skal du vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen **Avancerede indstillinger**. I **Avancerede indstillinger**giver afsnittet **Manuel opsætning** adgang til opsætningssider, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
-> Oversigten over assisterede opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**.<br /><br />
+> Oversigten over assisterede opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**.
+>
 > Første gang du logger på, bruger du oplevelsen **Essential**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 
 Når du har udført en assisteret opsætningsvejledning, markeres den som **Afsluttet**. Når du vil udføre den assisterede opsætningsvejledning, skal du vælge handlingen **Start opsætning**.
 
 ## <a name="role-center"></a>Rollecenter
+
 Du kan få et overblik over virksomheden i rollecenteret. Navigationslinjen øverst gør det let for dig at få adgang til debitorer, kreditorer, varer osv. Du finder ruden **Aktiviteter** i midten. **Aktiviteter** viser aktuelle data, og du kan klikke eller trykke på det for hurtigt at få adgang til det valgte dokument.
 
 **Nøgletal** kan konfigureres til at vise et valgt diagram for en grafisk visning af f.eks. pengestrøm eller indtægter og udgifter. Du kan også oprette en række **Favoritdebitorer** i rollecenteret for kunder, som du handler med ofte, eller du skal have særlig opmærksomhed på.
@@ -46,23 +48,29 @@ Brug pilene til at skjule en del af siden og få mere plads til at se specifikke
 > Du kan vende tilbage til Rollecenter ved at vælge firmanavnet i øverste venstre hjørne.
 
 ## <a name="company-information"></a>Virksomhedsoplysninger
-Under **Virksomhedsindstillinger** kan du se og redigere opsætningsoplysninger om den aktuelle virksomhed, meget af det er udfyldt på forhånd, hvis du fuldførte den assisterede opsætning **Konfigurer virksomhed**, da du oprettede [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ændre virksomhedens logo, kontaktoplysninger, bankindstillinger eller momsoplysninger, kan du gøre det på denne side.    
+
+Under **Virksomhedsindstillinger** kan du se og redigere opsætningsoplysninger om den aktuelle virksomhed, meget af det er udfyldt på forhånd, hvis du fuldførte den assisterede opsætning **Konfigurer virksomhed**, da du oprettede [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ændre virksomhedens logo, kontaktoplysninger, bankindstillinger eller momsoplysninger, kan du gøre det på denne side.  
 
 ## <a name="adding-users-and-permissions"></a>Tilføje brugere og rettigheder
+
 Hvis du vil tilføje flere brugere, kan dette gøres fra Microsoft Office 365 Administration. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
 
 Når brugere er oprettet i Microsoft 365, kan de importeres på siden **Brugere** ved hjælp af handlingen **Hent opdateringer fra Office 365**. Du kan derefter fortsætte med at give tilladelser til brugere og organisere dem i brugergrupper. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Sådan får du hjælp
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du finde værktøjstip, der kan hjælpe med at føre dig gennem de forskellige forretningsprocesser. For hvert feltværktøjstip kan du trykke på Ctrl+F1 eller vælge linket **Få mere at vide** for at åbne hjælpen til den pågældende side. Spørgsmålstegnet i øverste højre hjørne henviser også til produkthjælp.
+
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du finde værktøjstip, der kan hjælpe med at føre dig gennem de forskellige forretningsprocesser. For hvert feltværktøjstip kan du trykke på **Få mere at vide** for at åbne hjælpen til den pågældende side. På alle sider skal du trykke på CTRL + F1 på tastaturet for at åbne hjælp til den pågældende side. Spørgsmålstegnet i øverste højre hjørne åbner siden **Hjælp og support**, og du kan også komme til hjælp til produktet.
 
 ## <a name="next-steps"></a>Efterfølgende trin
+
 Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs- eller købsdokumenter. Brug sektionen **Handlinger** i dit Rollecenter til hurtigt at oprette et nyt salgstilbud, salgsfaktura, salgsordre, købsfaktura eller betalingsregistrering.
 
 ## <a name="see-also"></a>Se også
+
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
+[Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 [[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prøveversioner og abonnementer](across-preview.md)  
+[Ressourcer til hjælp og support](product-help-and-support.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

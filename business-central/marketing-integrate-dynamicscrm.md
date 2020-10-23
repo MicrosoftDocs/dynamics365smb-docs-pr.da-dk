@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 37e94bcc276ee8526a336e13eabe81c694130196
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196731"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923691"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Bruge Dynamics 365 Sales fra Business Central
 Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
@@ -69,14 +69,17 @@ Salgsordrer, som folk indsender i [!INCLUDE[crm_md](includes/crm_md.md)], overf�
 Alternativt kan du manuelt konvertere sendte salgsordrer fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Opret i [!INCLUDE[d365fin](includes/d365fin_md.md)]**, der er tilgængelig på siden **Salgsordrer – Dynamics 365 for Sales**.
 På sådanne salgsordrer overføres og knyttes feltet **Navn** på den oprindelige ordre til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede produkter, hvilket betyder varer eller ressourcer, der ikke er registreret i nogen af programmerne. I så fald skal du udfylde felterne **Rekvireret produkttype** og **Rekvireret produktnr.** på siden **Opsætning af salg og tilgodehavender**, så sådanne ikke-registrerede produktsalg knyttes til et bestemt vare/ressourcenummer for finansielle analyser.
+Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede produkter, hvilket betyder varer eller ressourcer, der ikke er registreret i nogen af programmerne. I så fald skal du udfylde felterne **Rekvireret produkttype** og **Rekvireret produktnr.** felter på siden **Opsætning af salg og tilgodehavender**, så salg af sådanne ikke-registrerede produkter knyttes til et bestemt vare eller ressourcenummer.
+
+> [!NOTE]
+> Du kan ikke knytte en nedskrivning til en vare eller ressource i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er kombineret med et produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil tillade skrive programmer, anbefales det, at du opretter en vare eller en ressource, der er specielt beregnet til dette formål, og du kan ikke koble det til et produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
 Hvis beskrivelsen af varen på den oprindelige salgsordre er meget lang, oprettes der en ekstra salgsordrelinje af typen **Bemærkning** for at holde hele teksten i salgsordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesdato eller Ønsket leveringsdato, der er tilknyttet i SALGSORDRE-ORDRE **Integrationstabelkoblinger**, synkroniseres regelmæssigt til [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som frigivelse af en salgsordre og levering eller fakturering af en salgsordre bogføres på salgsordrens tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Introduktion til aktivitetsopdateringer](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
+Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesdato eller Ønsket leveringsdato, der er tilknyttet i **SALGSORDRE-ORDRE**-integrationstabelkoblinger synkroniseres regelmæssigt til [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som frigivelse af en salgsordre og levering eller fakturering af en salgsordre bogføres på salgsordrens tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Introduktion til aktivitetsopdateringer](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> Periodisk synkronisering, der er baseret på SALESORDER-ORDER **Integrationstabeltilknytning** , fungerer kun, når salgsordreintegration er aktiveret. Du kan få oplysninger i [Forbindelsesindstillinger på siden Opsætning af salgsforbindelse](admin-prepare-dynamics-365-for-sales-for-integration.md). Kun salgsordrer, der er oprettet fra sendte salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodisk synkronisering, der er baseret på **SALESORDER-ORDE**-integrationstabeltilknytning, fungerer kun, når salgsordreintegration er aktiveret. Du kan få oplysninger i [Forbindelsesindstillinger på siden Opsætning af salgsforbindelse](admin-prepare-dynamics-365-for-sales-for-integration.md). Kun salgsordrer, der er oprettet fra sendte salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
@@ -86,6 +89,8 @@ Alternativt kan du manuelt konvertere aktiverede salgstilbud fra [!INCLUDE[crm_m
 I sådanne salgstilbud overføres og knyttes feltet **Navn** i det oprindelige tilbud til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Desuden overføres feltet **Gælder til** i tilbud og tilknyttes feltet **Tilbud gyldigt til** i salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Salgstilbud gennemgår mange revisioner, mens de er under udarbejdelse. Både manuel og automatisk behandling af salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)] sikrer, at tidligere versioner af salgstilbud arkiveres, før nye ændringer af salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] behandles.
+
+Når du vælger **Behandl** i [!INCLUDE[d365fin](includes/d365fin_md.md)] for et tilbud, der er **vundet**, oprettes der kun en salgsordre i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis der sendes en tilsvarende salgsordre i [!INCLUDE[crm_md](includes/crm_md.md)]. Ellers frigives tilbuddet kun i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis en tilsvarende salgsordre er blevet sendt i [!INCLUDE[crm_md](includes/crm_md.md)] senere, og der oprettes en salgsordre, opdateres **Tilbudsnr.** til salgsordren, og tilbuddet arkiveres.
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Håndtere bogførte salgsfakturaer, debitorbetalinger og statistik
 Når en salgsordre er opfyldt, oprettes der fakturaer for den. Når du fakturerer en salgsordre, kan du overføre den bogførte salgsfaktura til [!INCLUDE[crm_md](includes/crm_md.md)], hvis du markerer afkrydsningsfeltet **Opret faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på siden **Bogført salgsfaktura**. Bogførte fakturaer overføres til [!INCLUDE[crm_md](includes/crm_md.md)] med status **Faktureret**.

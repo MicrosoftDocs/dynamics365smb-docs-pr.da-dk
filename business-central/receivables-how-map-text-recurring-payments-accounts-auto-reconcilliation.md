@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9d931bca385db7c27e3e6a054d11e77da69ab72
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 97903c269856636cff618d5c91125ae9f1ace496
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785192"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926468"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti
 På siden **Tekst til kontotilknytning**, som du kan åbne fra siden **Betalingsudligningskladde**, kan du oprette tilknytninger mellem tekst på betalinger og specifikke debet-, kredit- og modkonti, så disse betalinger bliver bogført på de angivne konti, når du bogfører kladden til betalingsafstemning.
 
 Der findes lignende funktioner til afstemning af overskydende beløb på betalingsudligningskladdelinjer på ad hoc-basis. Du kan finde flere oplysninger i [Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
-Betalinger, der er bogført baseret på tekst-til-kontotilknytning, udlignes ikke på åbne poster, men bliver blot bogført på de angivne konti i tillæg til at oprette finansposter på bankkonti. Derfor er tekst til kontotilknytning velegnet til tilbagevendende indbetalinger eller udgifter såsom hyppige køb af benzin eller bankgebyrer og -renter, der regelmæssigt forekommer på bankens kontoudtog, og ikke behøver et relateret forretningsdokument. Du kan finde flere oplysninger i afsnittet “Eksempel – Tekst-til kontotilknytning for udgift til benzin” i dette emne.
+Betalinger, der er bogført baseret på tekst-til-kontotilknytning, udlignes ikke på åbne poster, men bliver blot bogført på de angivne konti i tillæg til at oprette finansposter på bankkonti. Derfor er tekst til kontotilknytning velegnet til tilbagevendende indbetalinger eller udgifter såsom hyppige køb af benzin eller bankgebyrer og -renter, der regelmæssigt forekommer på bankens kontoudtog, og ikke behøver et relateret forretningsdokument. Der er yderligere oplysninger i "Eksempel: Tekst-til kontotilknytning for udgift til benzin" under dette emne.
 
 > [!NOTE]  
 >   Betalinger på afstemningslinjerne i kladden er kun angivet til bogføring i overensstemmelse med tekst-til-kontotilknytning, hvis den automatiske udligningsfunktion kun kan give en udligningstillid af **Lav** eller **Mellem**. Hvis den automatiske udligningsfunktion indeholder matchtilliden Høj, bliver betalingen automatisk udlignet til en eller flere åbne poster, og betalingen bogføres ikke på de konti, der er angivet på siden **Tekst til kontotilknytning**. Med andre ord tilsidesætter udligningstilliden **Høj** en tekst-til-kontotilknytning.
@@ -48,14 +48,16 @@ På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring
 
 Næste gang du importerer en bankkontofil eller vælge handlingen **Udlign automatisk** på siden **Betalingsudligningskladde**, vil kladdelinjerne til betalinger, der indeholder den angivne tilknytningstekst, indeholde tilknyttede konti i felterne **Kontotype** og **Kontonr.**. Feltet **Matchtillid** indeholder **Høj - Tilknytning af tekst til konto**. Det er på betingelse af, at den automatiske udligningsfunktion kun kan give en udligningstillid af **Lav** eller **Mellem**.
 
-## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Eksempel: Tekst-til kontotilknytning for udgift til benzin
-Hvis du altid vil bogføre brændstofudgifter på Shell-benzinstationer til finanskontoen for benzin (konto 8510), skal du udfylde en linje på siden **Tekst til kontotilknytning** på følgende måde.
+## <a name="example-text-to-account-mapping-for-bank-fees"></a>Eksempel: Tekst-til kontotilknytning for udgift til benzin
+
+Hvis du altid vil bogføre udgifter, der er knyttet til gebyrer fra en bestemt bank, MyBank til finanskontoen for bankens gebyrer og gebyrer (konto 60400), skal du udfylde en linje på **siden til tilknytning af tekst til konto på** følgende måde.
 
 | Koblingstekst | Debetkontonr. | Kreditkontonr. | Modkontokildetype | Modkontokildenr. |
 | --- | --- | --- | --- | --- |
-| Shell |TOM |8510 |Finanskonto |TOM |
+| MyBank |TOM |60400|Finanskonto |TOM |
 
 ## <a name="see-also"></a>Se også
+
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  

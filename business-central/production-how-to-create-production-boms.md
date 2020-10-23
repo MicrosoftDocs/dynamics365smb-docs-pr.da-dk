@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 10795ffc60861766f3fcc4aebcb086ab55a0094f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779931"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919284"
 ---
 # <a name="create-production-boms"></a>Oprette produktionsstyklister
 En produktionsstykliste indeholder masterdata, som beskriver de komponenter og halvfabrikata, som anvendes til fremstilling af en overordnet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens produktionsstykliste beregningen af materialebehov, som repræsenteret på siden **Prod.ordrekomponenter**.

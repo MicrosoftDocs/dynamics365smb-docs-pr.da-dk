@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 633a0872a878843f26d627dcd76e69d1c851ef8a
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: a08845f3465e24036abcb82ea6d2917deda24663
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3460416"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911301"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Administrere brugerindstillinger og præferencer
 
@@ -35,23 +35,23 @@ Som administrator kan du bruge indstillinger i [!INCLUDE[d365fin](includes/d365f
 
 - **Landestandard-id (internationale indstillinger)**  
 
-  Definerer, hvordan datoer og tal præsenteres i [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten, f.eks. om der skal bruges europæiske eller amerikanske datoformater, eller hvordan decimaltegnet og tusindtalsseparatorer vises i beløb. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugerne synkroniseres fra Office 365, bruges de internationale indstillinger fra Office 365, hvis brugeren vil have de samme indstillinger i Office-produkter og [!INCLUDE[d365fin](includes/d365fin_md.md)]. En administrator eller bruger kan ændre disse indstillinger manuelt i [!INCLUDE[d365fin](includes/d365fin_md.md)], men de vil blive nulstillet til værdien fra Office 365, så snart næste synkronisering udføres.
+  Definerer, hvordan datoer og tal præsenteres i [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten, f.eks. om der skal bruges europæiske eller amerikanske datoformater, eller hvordan decimaltegnet og tusindtalsseparatorer vises i beløb. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugerne synkroniseres fra Microsoft 365, bruges de regionale indstillinger fra Microsoft 365, hvis brugeren vil have de samme indstillinger i Office-produkter og [!INCLUDE[d365fin](includes/d365fin_md.md)]. En administrator eller bruger kan ændre disse indstillinger manuelt i [!INCLUDE[d365fin](includes/d365fin_md.md)], men de vil blive nulstillet til værdien fra Microsoft 365, så snart næste synkronisering udføres.
 
 - **Sprog**  
 
-  Definerer det programsprog, som [!INCLUDE[d365fin](includes/d365fin_md.md)] viser tekst, billedtekster og fejlmeddelelser på. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugerne synkroniseres fra Office 365, bruges sprogindstillinger fra Office 365, hvis brugeren vil have de samme indstillinger i Office-produkter og [!INCLUDE[d365fin](includes/d365fin_md.md)]. En administrator eller bruger kan ændre disse indstillinger manuelt i [!INCLUDE[d365fin](includes/d365fin_md.md)], men de vil blive nulstillet til værdien fra Office 365, så snart næste synkronisering udføres.
+  Definerer det programsprog, som [!INCLUDE[d365fin](includes/d365fin_md.md)] viser tekst, billedtekster og fejlmeddelelser på. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-brugerne synkroniseres fra Microsoft 365, bruges de sprogindstillinger fra Microsoft 365, hvis brugeren vil have de samme indstillinger i Office-produkter og [!INCLUDE[d365fin](includes/d365fin_md.md)]. En administrator eller bruger kan ændre disse indstillinger manuelt i [!INCLUDE[d365fin](includes/d365fin_md.md)], men de vil blive nulstillet til værdien fra Microsoft 365, så snart næste synkronisering udføres.
 
-  Hvis sprogindstillingen fra Office 365 passer til et sprog, der understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)], vil dette sprog blive valgt for brugeren.  
+  Hvis sprogindstillingen fra Microsoft 365 passer til et sprog, der understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)], vil dette sprog blive valgt for brugeren.  
 
   > [!NOTE]
   > Du skal muligvis installere en sprogapp til [!INCLUDE[d365fin](includes/d365fin_md.md)] for at få vist sproget korrekt. Det er derfor en god idé at installere de nødvendige sprogapps, før nogen bruger logger på første gang, så de får en god oplevelse fra den første dag. Du kan finde flere oplysninger på listen over [understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
   
 - **Tidszone**  
 
-  Definerer den tidszone, hvor brugeren opholder sig. Denne bliver i øjeblikket ikke synkroniseret fra Office 365 og skal angives manuelt.  
+  Definerer den tidszone, hvor brugeren opholder sig. Denne bliver i øjeblikket ikke synkroniseret fra Microsoft 365 og skal angives manuelt.  
 
 > [!NOTE]
-> Hvis der udføres en Office 365-brugersynkronisering, mens brugerne er logget på [!INCLUDE[d365fin](includes/d365fin_md.md)], skal disse brugere opdatere browseren eller logge af og på igen [!INCLUDE[d365fin](includes/d365fin_md.md)] for at få vist et potentielt andet sprog, der er angivet i synkroniseringshandlingen.
+> Hvis der udføres en Microsoft 365-brugersynkronisering, mens brugerne er logget på [!INCLUDE[d365fin](includes/d365fin_md.md)], skal disse brugere opdatere browseren eller logge af og på igen [!INCLUDE[d365fin](includes/d365fin_md.md)] for at få vist et potentielt andet sprog, der er angivet i synkroniseringshandlingen.
 
 ## <a name="overview-of-all-user-settings"></a>Oversigt over alle brugerindstillinger
 

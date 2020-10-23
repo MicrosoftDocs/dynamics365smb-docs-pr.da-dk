@@ -1,5 +1,5 @@
 ---
-title: Bruge Excel til at importere data til Business Central | Microsoft Docs
+title: Brug Excel til at importere data til Business Central
 description: Brug standardkonfigurationspakken til at tilføje debitordata i Excel og importere dataene tilbage til Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e5f8ed744e6596e59789b1fa1857e124026ab63b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 143d40c1005b3ce6b54f9a2f5abc865b3d76b361
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187816"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924674"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importere virksomhedsdata fra andre økonomisystemer
+
 Når du tilmelder dig [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du oprette en tom virksomhed, så du kan overføre dine egne data og teste den nye virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Afhængigt af hvilket økonomisystem, som virksomheden benytter i dag, kan du overføre oplysninger om debitorer, kreditorer, lagerbeholdning og bankkonti.  
 
 Fra rollecenteret kan du starte en assisterede opsætningsvejledning for at overføre forretningsdataene fra en Excel-fil eller fra andre formater. Hvilken type filer, du kan overføre, afhænger af de udvidelser, der findes. F.eks. kan du overføre data fra QuickBooks, da [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en udvidelse, der håndterer konverteringen fra QuickBooks. Hvis du vil overføre data fra andre økonomisystemer, skal du enten kontrollere, om en udvidelse er tilgængelig for den pågældende løsning, eller importere fra Excel.  
@@ -27,7 +28,7 @@ Fra rollecenteret kan du starte en assisterede opsætningsvejledning for at over
 Du kan importere masterdata og nogle transaktionsdata fra andre økonomisystemer baseret på standardkonfigurationspakken i [!INCLUDE[d365fin](includes/d365fin_md.md)]. På siden **Konfigurationspakker** kan du arbejde med pakken for at importere og validere data, før du anvender pakken.  
 
 > [!TIP]  
-> Du kan også bruge dataoverførselsguiderne til at importere data fra QuickBooks eller Dynamics GP. Du kan finde flere oplysninger i [Overførsel af QuickBooks-data](ui-extensions-quickbooks-data-migration.md) eller [Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).
+> Vi anbefaler at du bruger dataoverførselsguiderne til at importere data fra Dynamics GP, Dynamics NAV eller QuickBooks. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet eller [Overførsel af QuickBooks-data](ui-extensions-quickbooks-data-migration.md).
 
 > [!NOTE]  
 > Til større implementeringsarbejde kan du bruge RapidStart Services til [!INCLUDE[d365fin](includes/d365fin_md.md)], som er omfattende værktøj til oprettelse af nye løsninger, der er baseret på kundernes forretningsbehov og opsætningsdata. RapidStart Services indeholder også funktionalitet til import af forretningsdata. Du kan finde flere oplysninger i [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
@@ -81,8 +82,8 @@ Standardkonfigurationspakken understøtter følgende tabeller:
 
 ## <a name="see-also"></a>Se også
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)  
-[Overførsel af data med Dynamics GP](ui-extensions-dynamicsgp-data-migration.md)  
-[Importér flere varebilleder](inventory-how-import-item-pictures.md)
+[Importere flere varebilleder](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

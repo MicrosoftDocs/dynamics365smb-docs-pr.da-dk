@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f789c5caf0f59b1fdf3b3b10d42210152f32dc97
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6e5e51251f19391eb96a1979a2bb24f7bf894d4b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781656"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926168"
 ---
 # <a name="merge-duplicate-records"></a>Flet dobbeltregistrerede records
 Efterhånden som brugere opretter ny kunde, leverandør eller kontaktkort igennem længere tid, eller der oprettes nye records automatisk under migration, kan en kunde, leverandør eller kontakt være repræsenteret i systemet med mere end en record. I dette tilfælde kan du benytte siden **Flet dobbeltregistrering** fra record-kortet, som du ønsker at beholde. Siden giver dig et overblik over dobbeltregistrerede værdier og leverer funktioner til at udvælge, hvilke værdier, der skal beholdes og slettes henholdsvis, når du fletter to records til en.

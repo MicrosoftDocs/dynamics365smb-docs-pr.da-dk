@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6935f96c39ae378ddd8fa960c574f150bba16328
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777762"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913267"
 ---
 # <a name="create-a-demand-forecast"></a>Oprette en behovsprognose
 Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.  

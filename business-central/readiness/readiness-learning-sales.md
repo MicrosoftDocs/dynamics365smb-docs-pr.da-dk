@@ -1,16 +1,16 @@
 ---
 title: Undervisningskatalog for partnersalg og marketing
-description: Find al tilgængelig undervisning i Business Central.
+description: Find alle tilgængelige indlæringsroller for partnersalg og marketing i Business Central.
 author: loreleishannonmsft
-ms.date: 04/30/2020
+ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: 4b6fd743dd65cacb3d3e9ffa91b46cb9cc69cbd1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781481"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926643"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Undervisningskatalog for partnersalg og marketing
 
@@ -22,7 +22,7 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 
 | Indhold     | Beskrivelse    | Format                                | Længde              |
 |-------------|----------------|---------------------------------------|---------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Kun partnere) Denne session vil skitsere værdien for Business Central. Business Central tilbyder fremragende værdi, fordi det integreres med andre Microsoft Cloud Services, herunder Office 365, og kan tilpasses eller udvides til specifikke brancher med Power Apps, Power Automate og Power BI. | Video                                 | 8 minutter og 5 sekunder |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Kun partnere) Denne session vil skitsere værdien for Business Central. Business Central tilbyder fremragende værdi, fordi det integreres med andre Microsoft Cloud Services, herunder Microsoft 365, og kan tilpasses eller udvides til specifikke branchers behov med Power Apps, Power Automate og Power BI. | Video                                 | 8 minutter og 5 sekunder |
 | [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/) | Udforske Dynamics 365 Business Central-funktioner    | Websted    |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Dette modul viser programfunktioner, fordele og eksempler på Dynamics 365 Business Central-handlinger.    | Gratis onlinelæringssti i dit eget tempo | 24 minutter          |
 
@@ -43,7 +43,6 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 | [Søg efter kundehistorier](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Søg efter kundereferencehistorier om Dynamics 365 Business Central på [https://customer.microsoft.com](https://customer.microsoft.com).  | Websted |                       |
 | [Cloud Solution Provider-program](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Kun partnere) Om Cloud Solution Provider-programmet     | Websted |                       |
 | [Marketing i et skyunivers](https://mbspartner.microsoft.com/OSS/Topic/19) | (Kun partnere) Håndtering af, hvordan du optimerer dine fremgangsmåder og justerer marketingprincipperne til en cloud first-verden, vil være en primær faktor til at bestemme, om organisationen fremadrettet oplever succes eller fiasko. Denne serie videoer og ressourcer giver bedste fremgangsmåder til marketing, vejledning i oprettelse af indhold, praktiske tip og nyttige værktøjer til at anvende cloud marketing-principper til at fremme behovet for dine løsninger. | Emneside | 35 minutter |
-| [Business Central](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)        | (Kun partnere) Håndtering af, hvordan du optimerer dine fremgangsmåder og justerer marketingprincipperne til en cloud first-verden, vil være en primær faktor til at bestemme, om organisationen fremadrettet oplever succes eller fiasko. Denne serie videoer og ressourcer giver bedste fremgangsmåder til marketing, vejledning i oprettelse af indhold, praktiske tip og nyttige værktøjer til at anvende cloud marketing-principper til at fremme behovet for dine løsninger.   | Emneside    | 35 minutter            |
 | [Cloud Solution Provider-program - salg af cloud-løsninger på efterspørgsel](https://docs.microsoft.com/partner-center/csp-overview)  | CSP-programmet (Cloud Solution Provider) hjælper dig med at gå endnu længere end til at videresælge licenser til at være mere involveret i din kundes forretning.   | Websted      |                       |
 | [Cloud Solution Provider-program - sammenlign partnersupportprogrammer](https://partner.microsoft.com/support/partnersupport) | Se denne video for at finde ud af, hvordan du vælger den rigtige partnersupportplan til virksomheden. Se derefter en side om side-sammenligning nedenfor.    | Websted                               |                       |
 | [Cloud SureStep - Hurtigere salg](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Kun partnere) Den accelererede salgsproces med Cloud SureStep er bygget op omkring den moderne købers behov og satser på at udløse et følelsesmæssig oplevelsesdrevet strategisk vendepunkt tidligt i salgsprocessen. Denne serie af videoer og ressourcer forklarer en præskriptiv salgsproces, der er udviklet specifikt som et modspil til den traditionelle ressourceintensive, "demonstrationsorienterede" løsningssalgsmetode, som typisk fører til højt tilpassede produktdemonstrationer, komplekse salgsprocesser og lange implementeringsprojekter. Ressourcebiblioteket indeholder en række brugerdefinerbare skabeloner, så du kan oprette dine egne salgsaktiver for at understøtte accelereret salg. | Websted     |                       |

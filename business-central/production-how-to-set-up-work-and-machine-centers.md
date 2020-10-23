@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 96d815a39428abc23c050da02c92d8a46a9111c1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784128"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910701"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbejdscentre og produktionsressourcer
 
@@ -27,7 +27,10 @@ Du kan knytte forskellige produktionsressourcer til hvert arbejdscenter. En prod
 
 Den planlagte kapacitet for arbejdscentre består af disponeringen i de tilsvarende produktionsressourcer og den supplerende planlagte disponering i arbejdscentret. Den planlagte disponering i arbejdscentergruppen er derfor summen af alle tilsvarende produktionsressourcer og arbejdscentre.  
 
-Tilgængeligheden er lagret i kalenderposter. Før du opretter arbejdscentre eller produktionsressourcer, skal du oprette produktionskalendere. Du kan finde flere oplysninger i [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).  
+Tilgængeligheden er lagret i kalenderposter.  
+
+> [!IMPORTANT]
+> Før du opretter arbejdscentre eller produktionsressourcer, skal du oprette produktionskalendere. Du kan finde flere oplysninger i [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).
 
 ## <a name="to-set-up-a-work-center"></a>Sådan opsættes et arbejdscenter
 

@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d4d7e1ce5da2a59e4a682746035684e76dd55eef
-ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
+ms.openlocfilehash: 77a6d87d56475aa9e649ece545764f3f362d055b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535481"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914485"
 ---
 Brugere supporterer nogle gange mere end én virksomhed og er nødt til at skifte fra arbejde med én virksomhed til en anden i [!INCLUDE [prodshort](prodshort.md)]. F.eks. kan en virksomhed have salgskontorer i byer og flere lande, så den har oprettet en separat afdeling for hvert kontor. De kontorer, der befinder sig i samme land, oprettes som separate virksomheder i et delt miljø. Andre kontorer oprettes som virksomheder i separate miljøer, fordi de er geografisk baseret i andre lande.  
 

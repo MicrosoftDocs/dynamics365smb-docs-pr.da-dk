@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7c8ca5500c6209c579939cdb408a8f6ed685c612
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c53722ad94cf4a2469d314ab30445e4ac5ccc80c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181360"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923592"
 ---
 # <a name="managing-sales-opportunities"></a>Administrere salgsleads
 Alle indgående leads kan anses for at være et salgslead. Du kan oprette leads og knytte dem til en sælger, så du kan holde styr på muligt salg.

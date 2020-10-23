@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/02/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3765942"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922865"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -144,6 +144,7 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
 |Alt+F6|Slå skjul/udvid til og fra i det aktuelle oversigtspanel eller den aktuelle del (delside).|
+|Alt + G|Åbn siden **Find poster** for at finde poster, der er relateret til det bogførte dokument. Fungerer også på lister.|
 |Alt+N |Åbne en side og oprette en ny post – på samme måde som ved valg af handlingen **Ny**. |
 |Alt+Skift+N |Lukke en side og åbne en ny side for at oprette en ny post – på samme måde som ved valg af handlingen **OK og ny**. |
 |Alt+Skift+W |Åbne det aktuelle kort eller dokument i et nyt vindue. Du kan finde flere oplysninger under [Multitasking på tværs af flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -212,3 +213,4 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.md)  
+[Find poster](ui-find-entries.md)  

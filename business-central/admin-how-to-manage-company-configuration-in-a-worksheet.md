@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f44e84342e9cf13d3f41130644f8bddd3809fb2f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fb5ede0362f54f8475807e10e1bad87beffaec02
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783572"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922588"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Administrere virksomhedskonfigurationen i et regneark
 Konfigurationsregnearket er en central placering, hvor du kan planlægge, spore og udføre konfigurationsarbejdet. Du kan oprette et regneark for hver virksomhed, du arbejder med, eller oprette et standardkonfigurationsregneark, der kan bruges til at konfigurere flere identiske virksomheder.  

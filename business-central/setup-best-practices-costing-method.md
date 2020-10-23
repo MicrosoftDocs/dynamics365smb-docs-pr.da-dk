@@ -1,5 +1,5 @@
 ---
-title: 'Konfigurere bedste fremgangsmåder: kostmetode | Microsoft Docs'
+title: Konfigurere bedste praksis - kostmetode
 description: Kostmetode på varekortet definerer, hvordan varens kostprisforløb registreres, og om en faktisk eller budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67f5b167ff3ba1bb29aa08abcd96cc926a5538c0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf342b4cfcc59f51c2aae8ca6e36f25d7f3f5e35
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789446"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912943"
 ---
 # <a name="setup-best-practices-costing-method"></a>Konfigurere bedste fremgangsmåder: kostmetode
+
 **Kostmetode** på varekortet definerer, hvordan varens kostprisforløb registreres, og om en faktisk eller budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.  
 
  Det er vigtigt at indstille den korrekte kostmetode i overensstemmelse med varetype og forretningsmiljø for at sikre økonomiske lagerbeholdninger.  
@@ -28,8 +29,8 @@ ms.locfileid: "3789446"
 |------------------|-------------------|-------------|  
 |FIFO|Bruges, hvor produktomkostninger er stabile.<br /><br /> Bruges for elementer med en begrænset hyldelevetid, fordi de ældste varer skal sælges, inden de overskrider deres sidste salgsdato.|En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af FIFO-reglen.<br /><br /> I lagerværdien forudsættes det, at de første varer, der lægges på lager, bliver solgt først. **Bemærk!** Når priserne stiger, viser balancen højere værdi. Dette betyder, at skatteforpligtelserne øges, men kreditvurderinger og muligheden for at låne penge forbedres.|  
 |LIFO|Bruges, hvor lagerniveauer konsekvent vedligeholdes eller øges over tid.|En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af LIFO-reglen.<br /><br /> I lagerværdien forudsættes det, at de sidste varer, der lægges på lager, bliver solgt først. **Bemærk!** Når priserne stiger, falder værdien på resultatopgørelsen. Dette betyder, at skatteforpligtelserne reduceres, men muligheden for at låne penge forringes. **Vigtigt:** Forbudt i mange lande/områder, da det kan bruges til at holde avancen nede.|  
-|Gennemsnit|Bruges, hvor produktomkostninger er ustabile.<br /><br /> Bruges, hvor lagrer stables eller blandes sammen og der ikke kan skelnes mellem dem, f.eks. kemikalier.|En vares kostpris er den præcise kostpris, som den aktuelle enhed er modtaget til.|  
-|Bestemt|Bruges i produktionen eller handel med varer, der nemt kan identificeres, med forholdsvis høje kostpriser.<br /><br /> Bruges til varer, der er omfattet af regulering.<br /><br /> Bruges for varer med serienumre.|En vares kostpris beregnes som den gennemsnitlige kostpris på hvert enkelt tidspunkt efter et køb.<br /><br /> For værdiansættelse af lageret antages det, at alle lagerbeholdninger sælges samtidig.|  
+|Gennemsnit|Bruges, hvor produktomkostninger er ustabile.<br /><br /> Bruges, hvor lagrer stables eller blandes sammen og der ikke kan skelnes mellem dem, f.eks. kemikalier.|En vares kostpris beregnes som den gennemsnitlige kostpris på hvert enkelt tidspunkt efter et køb.<br /><br /> For værdiansættelse af lageret antages det, at alle lagerbeholdninger sælges samtidig.|
+|Bestemt|Bruges i produktionen eller handel med varer, der nemt kan identificeres, med forholdsvis høje kostpriser.<br /><br /> Bruges til varer, der er omfattet af regulering.<br /><br /> Bruges for varer med serienumre.|En vares kostpris er den præcise kostpris, som den aktuelle enhed er modtaget til.|
 |Standard|Bruges, hvor omkostningsstyring er afgørende.<br /><br /> Bruges i serieproduktion til at evaluere kostpriserne for direkte materialeomkostninger, arbejdsomkostninger og produktionsomkostninger.<br /><br /> Bruges, hvor der er disciplin og personale til at vedligeholde standarderne.|En vares kostpris forudindstilles baseret på forventninger.<br /><br /> Når det faktiske kostbeløb realiseres senere, skal standardkostprisen reguleres til de faktiske omkostninger gennem variansværdier.|  
 
 ## <a name="see-also"></a>Se også  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9ca381bfebcd6db8e67d8153d4d2bc17eeffad81
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.openlocfilehash: f02e78e0b5c7d7f6d3c22cd12e37bdaf74f4b90f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532665"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923616"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spore udveksling af mails mellem sælgere og kontakter
 
@@ -31,7 +31,7 @@ Derefter opretter du forbindelse mellem [!INCLUDE[prodshort](includes/prodshort.
 
 Introduktion til maillogføring i to lette trin:
 
-1. Opret forbindelse mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og Exchange Online for dit Office 365-abonnement. Exchange Online håndterer dine mails. Vi har gjort dette trin lettilgængeligt med en vejledning til assisteret opsætning. Du skal blot bruge dine administratorrettigheder til din administratorkonto i Office 365. Start vejledningen ved at gå til **Assisteret opsætning**, og vælg derefter **Konfigurer maillogføring**.  
+1. Opret forbindelse mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og Exchange Online til dit Microsoft 365-abonnement. Exchange Online håndterer dine mails. Vi har gjort dette trin lettilgængeligt med en vejledning til assisteret opsætning. Du skal blot bruge dine administratorrettigheder til din administratorkonto i Microsoft 365. Start vejledningen ved at gå til **Assisteret opsætning**, og vælg derefter **Konfigurer maillogføring**.  
 
 2. Kontrollér, at der er angivet gyldige mailadresser i [!INCLUDE[d365fin](includes/d365fin_md.md)] for dine sælgere og kontakter, afhængigt af om de er potentielle eller eksisterende kunder. Hvis du vil gøre det, skal du for hver debitor eller sælger åbne kortet **Kontakt** eller **Sælger/indkøber** og se feltet **Mailadresse**.
 
@@ -40,7 +40,7 @@ Introduktion til maillogføring i to lette trin:
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Få vist udveksling af mails i interaktionslogposten
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] opretter en post på siden **Interaktionslog**, hver gang en sælger og en kontakt udveksler en mail. Du kan få vist interaktionsloggen ved at åbne kortet **Kontakt** eller **Sælger/indkøber** for personen, vælge **Naviger**, **Oversigt** og derefter vælge **Interaktionslogposter**. Der er nogle få ting, der kan udføres for hver indtastning i logfilen, f. eks.:
+[!INCLUDE[d365fin](includes/d365fin_md.md)] opretter en post på siden **Interaktionslog**, hver gang en sælger og en kontakt udveksler en mail. Du kan få vist interaktionsloggen ved at åbne kortet **Kontakt** eller **Sælger/indkøber** for personen, og derefter vælge **Oversigt** og **Interaktionslogposter**. Der er nogle få ting, der kan udføres for hver indtastning i logfilen, f. eks.:
 
 - Få vist indholdet af den mail, der blev udvekslet, ved at klikke på handlingen **Vis vedhæftede filer**.
 - Omdanne en mailudveksling til et salgs-lead – hvis en post ser lovende ud, kan du gøre den til en lead og derefter styre forløbet hen imod et salg. Det gør du ved at vælge posten og derefter vælge handlingen **Opret lead**. Du kan finde flere oplysninger under [Administrere salgsleads](marketing-manage-sales-opportunities.md).

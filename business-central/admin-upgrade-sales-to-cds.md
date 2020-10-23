@@ -1,8 +1,6 @@
 ---
-title: Opgradering af en integration med Dynamics 365 Sales | Microsoft Docs
-description: Få at vide, hvordan du gør Dynamics 365 Business Central klar til integration med Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
+title: Opgradering af en integration med Dynamics 365 Sales
+description: Få mere at vide om, hvordan du kan flytte Dynamics 365 Business Central-integrationen med Dynamics 365 Sales til den nyeste version.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 10/01/2019
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 57bb8d6ee48b608074a669109bdd99abf8c452c2
-ms.sourcegitcommit: 351eb465e6dfb3d01c0f3ea406db340f393f47fc
+ms.openlocfilehash: 3bb6b26e011afc515fbd4f492f56b3090c56e860
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3742831"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922363"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Opgradering af en integration med Dynamics 365 Sales
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan integreres med [!INCLUDE[d365fin](includes/cds_long_md.md)], hvilket gør det nemt at forbinde og synkronisere data med andre Dynamics 365-programmer såsom [!INCLUDE[crm_md](includes/crm_md.md)] eller endda apps, som du selv opbygger. Hvis det er første gang, du integrerer, anbefaler vi, at du gør det ved hjælp af [!INCLUDE[d365fin](includes/cds_long_md.md)]. Få flere oplysninger i [Integration med Common Data Service](admin-common-data-service.md).

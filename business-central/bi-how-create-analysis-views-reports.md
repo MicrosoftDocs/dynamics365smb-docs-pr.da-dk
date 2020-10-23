@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 259c8ffdef6df97fb4e2f3e30b110f36e07ba1df
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786192"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913809"
 ---
 #  <a name="create-analysis-reports"></a>Oprette analyserapporter
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 854970fc2d47110375cf905236df19c90db27e33
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181384"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914035"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrere interaktioner med kontakter
 Konfiguration af programmet til at registrere interaktioner består af disse opgaver:

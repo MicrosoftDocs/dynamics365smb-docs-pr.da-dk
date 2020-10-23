@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c4931b6977a4bb5fd17327c0be55f6b67d6f920
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9e191c68606cdafb3e88c6d81ebf6494f969918e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782564"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912842"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Oprette bedste fremgangsmåder: Forsyningsplanlægning
 Forsyningsplanlægning er et vigtigt område. Når forsyningsplanlægningen oprettes og bruges korrekt, hjælper den en virksomhed med at undgå at løbe tør og reducerer både bestillings- og lageromkostningerne.  

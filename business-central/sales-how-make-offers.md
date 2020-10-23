@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7cad06a00b5afcff00d382620bf157c22a19cf26
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c4423dba57993c10276de8f20bb74f5ee45169a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781681"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926193"
 ---
 # <a name="make-sales-quotes"></a>Oprette salgstilbud
 Du opretter et salgstilbud for at registrere dit tilbud til en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende salgstilbuddet til debitoren for at kommunikere tilbuddet. Du kan sende dokumentet i en mail som en vedhæftet PDF-fil. Du kan også få brødteksten i mailen udfyldt med en oversigt over tilbuddet. Du kan finde flere oplysninger under [Sende dokumenter via mail](ui-how-send-documents-email.md).

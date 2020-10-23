@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 29aa67a3b892b07139975cf805ce33960b22bdab
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2f85488cd3e3a764d1fd0c60e4d314d4729f03d2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780156"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915481"
 ---
 # <a name="set-up-intercompany"></a>Konfigurere mellemregning
 Når du vil sende en transaktion (f.eks. en salgskladde) fra én virksomhed og få den tilsvarende transaktion (f.eks. en købskladdelinje) oprettet automatisk i partnervirksomheden, skal de involverede virksomheder enes om en fælles kontoplan og et sæt dimensioner, som skal anvendes i koncerninterne transaktioner. Intercompany-kontoplanen kan f.eks. være en forenklet udgave af moderselskabets kontoplan. Hver virksomhed knytter deres samlede kontoplan til den delte intercompany-kontoplan, og hver virksomhed knytter deres dimensioner til intercompany-dimensionerne.  

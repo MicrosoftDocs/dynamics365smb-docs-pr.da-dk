@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a014a3c75ab0e0b2f27b519287651bf55a572157
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a0d0e5f18acf9830fe77a87f9e1c8982da47c257
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789271"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913117"
 ---
 # <a name="service-posting"></a>Bogføring af tjenesten
 Servicebogføringsfunktionen gør det muligt at behandle dokumenter effektivt og hele tiden bevare en gennemført kundeservicepolitik. Du kan oprette og opdatere bogførte dokumenter og oprette poster både inden for serviceområdet og i andre moduler for at sikre korrekt opdatering.  

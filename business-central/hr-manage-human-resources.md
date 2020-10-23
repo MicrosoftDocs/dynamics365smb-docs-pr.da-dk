@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 86f8a20a2d42b7b84f062ddce702930d89bcbd75
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4842c8215ecc9c256108c7434d779a9f54650bf3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777612"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921888"
 ---
 # <a name="manage-human-resources"></a>Administrere personale
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du føre detaljerede registre over dine medarbejdere. Du kan registrere og vedligeholde medarbejderoplysninger, f.eks. ansættelseskontrakter, fortrolige oplysninger, kvalifikationer og medarbejderkontakter.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3458913"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917072"
 ---
 # <a name="select-a-check-layout"></a>Vælge et checklayout
 Du kan udforme dine checks i overensstemmelse med de lokale myndigheders standarder. Checkbilleder kan udskrives på engelsk, fransk eller spansk.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402488"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925820"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Oprette servicefakturaer eller -kreditnotaer
 En nøgleegenskab i [!INCLUDE[prodshort](includes/prodshort.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan konfigurere [!INCLUDE[prodshort](includes/prodshort.md)], så en feltservicetekniker kan oprette en faktura for en service, der ikke er tilknyttet en kontrakt eller en ordre. Du kan også vælge at konfigurere [!INCLUDE[prodshort](includes/prodshort.md)], så du fakturerer servicekontrakter med jævne mellemrum. Fakturaperioden for den enkelte kontrakt definerer, hvor ofte kontrakten faktureres.

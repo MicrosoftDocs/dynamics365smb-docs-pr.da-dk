@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 249565d7a351cc2064c5bc0daa16d96f30ce24b8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5fee9631f984c8d9a54c42c63359af2386ea17c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782239"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924499"
 ---
 # <a name="assemble-items"></a>Montere elementer
 Hvis feltet **Genbestillingssystem** på varekortet indeholder **Montage**, er standardmetoden til at levere varen at montere den fra definerede komponenter og potentielt af en ressource, der er defineret.  

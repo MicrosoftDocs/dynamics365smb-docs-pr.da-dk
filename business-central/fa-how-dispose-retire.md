@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 06/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 29293e957617fea91c9a8e8b8c1f988b06104494
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.openlocfilehash: 9a155c5b2f616963da34c4d512bcc0f52623f58b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435203"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920718"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Afhænde eller lade anlægsaktiver udgå
 
@@ -45,8 +45,8 @@ Når du sælger eller på anden måde afhænder et anlægsaktiv, skal salgsværd
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.  
 2. Vælg det anlægsaktiv, du vil have vist poster for, og vælg derefter handlingen **Afskrivningsprofiler**.  
 3. Vælg den afskrivningsprofil, du vil have vist poster for, og vælg derefter handlingen **Poster**.  
-4. Vælg en linje med **Salg** i feltet **Anlægsbogføringskategori**, og vælg derefter handlingen **Naviger**.  
-5. På siden **Naviger** skal du vælge finanspostlinjen og derefter vælge handlingen **Vis**.  
+4. Vælg en linje med **Salg** i feltet **Anlægsbogføringskategori**, og vælg derefter handlingen **Find poster**.  
+5. På siden **Find poster** skal du vælge finanspostlinjen og derefter vælge handlingen **Vis relaterede poster**.  
 
 Siden **Finansposter** åbnes, og du kan se de poster, som bogføringen af salget har resulteret i.  
 
@@ -57,4 +57,5 @@ Siden **Finansposter** åbnes, og du kan se de poster, som bogføringen af salge
 [Sådan oprettes anlægsbogføringsgrupper](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Find poster](ui-find-entries.md)  

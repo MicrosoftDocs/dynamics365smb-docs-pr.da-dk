@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f603ce9391a3c971b719a1aae367a2f578166f94
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 34acbbf383048c6ef411797dfb1afcb51f7f6b40
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617807"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912267"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Udvidelsen Overførsel af QuickBooks-data
 

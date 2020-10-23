@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aefbc04e188cc5ac5f87c063819d673fb9cdef8a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c957005251b65e1b6c37bb42946146c6a013cfd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779407"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925418"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlægge læg-på-lager-aktiviteter i kladder
 Hvis lokationen kræver både læg-på-lager og modtagelse, og du vil planlægge læg-på-lager-instruktioner til en række modtagelser – i stedet for at lade medarbejderne følge de instruktioner, der automatisk oprettes til separate bogførte modtagelser – kan du bruge læg-på-lager-kladden.  

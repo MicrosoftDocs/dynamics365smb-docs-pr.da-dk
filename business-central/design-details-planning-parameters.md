@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5d7c419158134c78993c00d6644bb828dd3be1a9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d7eddf4c988c6edc3ae1a0dbfd045fa7b4f5b4b4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787367"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921988"
 ---
 # <a name="design-details-planning-parameters"></a>Designoplysninger: Planlægningsparametre
 I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -26,7 +26,7 @@ Den måde, som planlægningssystemet styrer vareforsyning på, bestemmes af fors
 |-------------|---------------|  
 |Definer, om varen skal planlægges|Genbestillingsmetode = Tom|  
 |Definer, hvornår du skal genbestille|Interval<br /><br /> Genbestillingspunkt<br /><br /> Sikkerhedstid|  
-|Definer, hvor meget du skal genbestille|Sikkerhedslager<br /><br /> Genbestillingsmetode:<br /><br /> -   Fast genbestil.antal og Ordrekvantum<br />-   Maksimalt antal plus maks. lagerbeholdning<br />-   Sorteringsrækkefølge<br />-   Lot-for-Lot|  
+|Definer, hvor meget du skal genbestille|Sikkerhedslager<br /><br /> Genbestillingsmetode:<br /><br /> -   Fast genbestil.antal og Ordrekvantum<br />-   Maks. antal plus Maks. lagerbeholdning<br />-   Ordre<br />-   Lot-for-Lot|  
 |Optimer, hvornår og hvor meget du skal genbestille|Ændringsperiode<br /><br /> Akkumuleringsperiode for lot<br /><br /> Bufferperiode|  
 |Ret forsyningsordrer|Min. ordrestørrelse<br /><br /> Maks. ordrestørrelse<br /><br /> Oprundingsfaktor|  
 |Afgræns den planlagte vare|Produktionsmetode:<br /><br /> -   Fremstil-til-lager<br />-   Fremstil-til-ordre|  

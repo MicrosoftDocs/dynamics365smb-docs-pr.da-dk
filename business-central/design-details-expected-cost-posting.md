@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 176b0e999f10f7cc055ac40431dd3507ed2836f6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d2bd63f38e434d15ba0592126a11c5f92f8611aa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787892"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911126"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designoplysninger: Bogføring af forventet kostpris
 Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omkostninger, som du registrerer, før du modtager fakturaen for varen.  

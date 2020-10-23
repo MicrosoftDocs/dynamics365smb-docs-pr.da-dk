@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b277c8363ec831a803081898ca6bea591140bac
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 45f32a9f5bbdc13148483b689b5793038c675649
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779207"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922996"
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
 Før du kan begynde at køre din virksomhed, skal du angive regler og standarder for, hvordan du vil administrere finansprocesser for den pågældende virksomhed. Du starter med at definere kernen i regnskabets poster- kontoplanen. Derefter definerer du bogføringsgrupper, som gør det mere effektivt, når du skal tildele standardkonti til finanspostering til kunder, leverandører og varer.
@@ -48,6 +48,9 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Oprette Intrastatrapportering og sende rapporten til en myndighed | [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
 |Kontrollér, at en post i en finanskladde knyttes til flere forskellige konti, når du bogfører kladden, enten efter antal, procent eller beløb.|[Bruge fordelingsnøgler i finanskladder](ui-how-use-allocation-keys-general-journals.md)|
 |Definere kilde- og årsagskoder, som du kan bruge til at holde øje med revisionsspor|[Oprette kilde- og årsagskoder til revisionsspor](finance-setup-trail-codes.md)|
+
+> [!TIP]
+> Nogle sider kan indeholde felter, der ikke er beskrevet i de artikler, der er angivet her, fordi de gælder for lokal funktionalitet eller tilpasninger, afhængigt af din geografiske placering. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 

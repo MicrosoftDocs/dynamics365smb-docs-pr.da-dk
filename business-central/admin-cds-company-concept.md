@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
-ms.date: 01/17/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 4f8e5959098e01cd08134a37ae706aa852d88729
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324050"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911652"
 ---
 # <a name="data-ownership-models"></a>Modeller for ejerskab af data
 [!INCLUDE[d365fin](includes/cds_long_md.md)] kræver, at du angiver en ejer af de data, du gemmer. Du kan få flere oplysninger i [Ejerskab af objekter](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) i Power Apps-dokumentationen. Når du konfigurerer integrationen mellem [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du vælge en af to ejerskabsmodeller til poster, der er synkroniserede:
@@ -70,6 +70,8 @@ Når du ændrer en afdeling, kan du kun vælge de afdelinger, der er ét niveau 
 Hvis du vælger modellen Personejerskab, skal du angive hver sælger, der skal eje nye poster. Afdelingen og teamet oprettes som beskrevet i sektionen [Teamejerskab](admin-cds-company-concept.md#team-ownership).
 
 Standardafdelingen bruges, når ejerskabsmodellen Person vælges, og du kan ikke vælge en anden afdeling. Det team, der er knyttet til standardafdelingen, vil eje poster for fælles objekter, f. eks. produktobjekter, som ikke er knyttet til bestemte sælgere.
+
+Når du sætter sælgere i [!INCLUDE[d365fin](includes/d365fin_md.md)] sammen med brugere i [!INCLUDE[d365fin](includes/cds_long_md.md)], [!INCLUDE[d365fin](includes/d365fin_md.md)], tilføjes brugeren til standardteamet i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Du kan kontrollere, at brugerne er tilføjet ved at se på **Standardteammedlem** på siden **Brugere - Common Data Service**. Hvis brugeren ikke er tilføjet, kan du tilføje dem manuelt ved hjælp af handlingen **Tilføj sammenkødede brugere til team**. Du kan finde flere oplysninger under [Synkronisering af data i Business Central med Common Data Service](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>Se også
 [Om [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

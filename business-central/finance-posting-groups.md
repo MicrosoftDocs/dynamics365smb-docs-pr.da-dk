@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c4e8f197635606be92584de64b8e81945dae2376
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9e04dcccfde480ca72d09c65608c309eba09aa6e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182944"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910826"
 ---
 # <a name="setting-up-posting-groups"></a>Konfigurere bogføringsgrupper
 Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. De sparer tid, og du undgå nemmere fejl, når du bogfører transaktioner. Transaktionsværdier går til de konti, der er angivet i bogføringsgruppen for den pågældende enhed. Det eneste krav er, at du har en kontoplan. Du kan finde flere oplysninger i [Konfigurere kontoplanen](finance-setup-chart-accounts.md).  

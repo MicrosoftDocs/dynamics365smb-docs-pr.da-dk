@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ae40390d2aa095739154a635c0e4fdf77933e648
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ff2bd25a76da32ad680bc94cff8801ca5328ad00
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782114"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923841"
 ---
 # <a name="count-inventory-using-documents"></a>Varelageroptælling ved hjælp af dokumenter
 Du kan udføre en status over dine varer på varelager ved hjælp af varelagerdokumenter og varelageroptællingsdokumenter. Siden **Varelageropgørelse** benyttes til at organisere det fulde varelageroptællingsprojekt, for eksempel en pr. lokation. Siden **Registrering af varelager** benyttes til at kommunikere og registrere den faktiske optælling af varerne. Du kan oprette flere registreringer på en ordre, f.eks. til at distribuere varegrupper til forskellige medarbejdere.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03b80cc7dd0ae37ba06f453e07bf585a4728039d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782264"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968301"
 ---
 # <a name="assembly-management"></a>Montagestyring
 For at støtte virksomheder, som leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, indeholder [!INCLUDE[d365fin](includes/d365fin_md.md)] funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.  
@@ -48,10 +48,14 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
+[Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)  
+[Gennemgang: Salg, montering og levering af pakker](walkthrough-selling-assembling-and-shipping-kits.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

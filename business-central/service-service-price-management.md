@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cc5593c1ff9f0de1cfabe5deaa903f6b99dc0e64
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 269c184928417d3e7dbd25e9f4fc94d66ae2547a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192407"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913092"
 ---
 # <a name="service-price-management"></a>Serviceprisstyring
 Funktionen til serviceprisstyring gør det muligt at angive den bedste pris på serviceordrer, at oprette personlige serviceprisaftaler for debitorer, at forbedre servicemedarbejdernes effektivitet og at forbedre faktureringsprocessen.  

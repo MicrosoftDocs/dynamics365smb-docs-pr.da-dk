@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8368d4b1fba14e33cde37ecca0a03107a53f27f2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4a4f4cf4c27ff995be3d0caac25c6ab849a13eec
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194946"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925693"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbejde med servicekontrakter og servicekontrakttilbud
 Du kan oprette en servicekontrakt manuelt eller ud fra et servicekontrakttilbud. Du kan bruge et servicekontrakttilbud som en forløber for en servicekontrakt, hvor din virksomhed giver kunden et tilbud og opnår kundens godkendelse, inden du kan konvertere det til en servicekontrakt. Proceduren for oprettelse af en servicekontrakt eller et servicekontrakttilbud er meget ens.  

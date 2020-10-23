@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b45fe3d89502e5a4e42bc43cc4679afe1b13699d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191687"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923116"
 ---
 # <a name="using-pre-closing-reports"></a>Bruge rapporter før afslutning
 Der findes mange standardrapporter, som du kan bruge til at bekræfte nøjagtigheden af kontiene, inden du afslutter regnskaberne i slutningen af et år eller en periode. Du kan f.eks. bruge rapporten **Debitor - balance** til at bekræfte, at balancen for en debitorbogføringsgruppe er lig med balancen for den tilsvarende finanskonto på en bestemt dato.

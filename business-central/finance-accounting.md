@@ -1,6 +1,6 @@
 ---
-title: Business Central bogholderoplevelse | Microsoft Docs
-description: Få mere at vide om revisorportalen til Business Central og rollecenteret Regnskabsmedarbejder, der understøtter interne og eksterne revisorer i kundevirksomheden.
+title: Revisoroplevelser i Business Central
+description: Få mere at vide om rollecentret Revisor og virksomhedshubben, der understøtter interne og eksterne revisorer i kundevirksomheden.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,43 +8,52 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 06/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f78fbcb4c0f37e9c6230004c70cd9d1625b8768
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 5aaf2b72fc282eceabb6991345a2eac9508bdb13
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528106"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970408"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Revisoroplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+
 Enhver virksomhed skal føre regnskab og godkende det. Nogle virksomheder benytter en ekstern revisor, mens andre har kvalificerede regnskabsmedarbejdere. Uanset hvilken model du benytter, kan du bruge rollecenteret **Regnskabsmedarbejder** som din startside i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Herfra kan du få adgang til alle sider, du skal bruge i dit arbejde.  
 
 ## <a name="accountant-role-center"></a>Rollecenteret Regnskabsmedarbejder
+
 Rollecenteret er et dashboard med aktivitetsfelter, der viser nøgletal i realtid og giver dig hurtig adgang til data. På båndet øverst på siden har du adgang til flere handlinger, f.eks. åbning af mest almindeligt brugt regnskabsrapporter og kontoudtog i Excel. I navigationsruden øverst kan du hurtigt skifte mellem de lister, du bruger mest. Her vises andre områder, f.eks. **Bogførte dokumenter** med de forskellige typer dokumenter, som firmaet har bogført.  
 
 Hvis du ikke kender [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åbne en liste over videoer direkte fra dit rollecenter. Du kan også starte en guide, som f.eks. **Introduktion**, der udpeger vigtige områder.  
 
+## <a name="company-hub"></a>Virksomhedshub
+
+Hvis du arbejder i flere [!INCLUDE [prodshort](includes/prodshort.md)]-firmaer, kan det være nyttigt at bruge siden **Virksomhedshub** til at holde styr på arbejdet.  Du kan finde flere oplysninger i [Administrer arbejde på tværs af flere firmaer i virksomhedens hub](company-hub.md).  
+
 ## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Inviter din eksterne revisor indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)]
+
 Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnskabsaflæggelse, kan din administrator invitere ham eller hende indenfor i din [!INCLUDE[d365fin](includes/d365fin_md.md)], så de kan samarbejde med dig om dine regnskabsdata. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder tre licenser af typen Ekstern revisor. Du kan finde flere oplysninger om licenser i [Licensvejledning til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
-Når din revisor har fået adgang til dit [!INCLUDE[d365fin](includes/d365fin_md.md)], kan han eller hun bruge rollecenteret **Regnskabsmedarbejder**, der giver nem adgang til de mest relevante sider for deres arbejde.  
+Når din revisor har fået adgang til dit [!INCLUDE[d365fin](includes/d365fin_md.md)], kan han eller hun bruge rollecenteret **Regnskabsmedarbejder**, der giver nem adgang til de mest relevante sider for deres arbejde. De kan også bruge virksomheds hubben [!INCLUDE [prodshort](includes/prodshort.md)] til at styre deres arbejde. Du kan finde flere oplysninger i [Administrer arbejde på tværs af flere firmaer i virksomhedens hub](company-hub.md).  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
 
 Vi har gjort det nemt for dig at invitere din eksterne revisor. Du skal blot åbne siden **Brugere** og derefter vælge handlingen **Inviter ekstern revisor** på båndet. En mail er gjort klar til dig, så du blot skal tilføje din revisors arbejds-mail og sende invitationen.  
 
 > [!Note]  
-> Dette kræver, at du har oprettet SMTP-mail. Du kan finde flere oplysninger i [Konfigurer mail](admin-how-setup-email.md).   
+> Dette kræver, at du har oprettet SMTP-mail. Du kan finde flere oplysninger i [Konfigurer mail](admin-how-setup-email.md).  
 
 <!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
-> Revisorens mailadresse skal være en arbejdsadresse, der er baseret på Azure Active Directory. Hvis revisoren bruger en anden type mail, så kan invitationen ikke sendes. 
-> 
-> Da denne opgave kræver adgang, før brugere og licenser kan administreres i Azure Active Directory, skal den bruger, der sender denne invitation, tildeles rollen **Global administrator** eller **Brugeradministrator** i Microsoft 365 Administration. Du kan få flere oplysninger i [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365-administratorindholdet.  
+> Revisorens mailadresse skal være en arbejdsadresse, der er baseret på Azure Active Directory. Hvis revisoren bruger en anden type mail, så kan invitationen ikke sendes.
+>
+> Denne opgave kræver adgang til at administrere brugere og licenser i Azure Active Directory. Den bruger, der sender denne invitation, skal tildeles rollen **Globale administrator** eller **Brugeradministrator** i Microsoft 365 Administration. Du kan få flere oplysninger i [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365-administratorindholdet.  
 
-### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Tilføjelse af din revisor til Office 365 via Azure-portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Tilføjelse af din revisor til Microsoft 365 i Azure-portal
 
-Hvis din administrator eller videresalgspartner ikke vil bruge guiden **Inviter ekstern revisor**, kan vedkommende tilføje en ekstern bruger på Azure-portalen og tildele denne bruger licensen til den eksterne revisor. Du finder flere oplysninger under [Hurtig start: Tilføj gæstebrugere til dit katalog i Azure-portalen](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+Hvis din administrator eller videresalgspartner ikke vil bruge guiden **Inviter ekstern revisor**, kan vedkommende tilføje en ekstern bruger på Azure-portalen og tildele denne bruger licensen til den *Eksterne revisor*. Du finder flere oplysninger under [Hurtig start: Tilføj gæstebrugere til dit katalog i Azure-portalen](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
 #### <a name="to-add-your-accountant-as-a-guest-user"></a>Sådan tilføjer du din revisor som gæstebruger
 
@@ -87,13 +96,6 @@ Denne importerer den brugerkonto, som du oprettede på Azure-portalen, til virks
 
 Hvis du vil give adgang til flere virksomheder, skal du logge ind på hver virksomhed og gentage denne proces. Alternativt kan du opdatere rettighedsgrupperne for revisorens brugerprofil i [!INCLUDE[prodshort](includes/prodshort.md)], f.eks. ved at tildele dem *D365 Bus Premium*-brugergruppen. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
-<!--## Accountant Hub
-
-If you are an accountant with several clients, you can use [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for a better overview of your clients. From there, you can access each client's tenant in [!INCLUDE[d365fin](includes/d365fin_md.md)] and use the Accountant Role Center as described above. For more information see [Welcome to [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
-
-> [!NOTE]
-> [!INCLUDE[d365acc_long_md](includes/d365acc_long_md.md)] is currently in public preview in a limited number of markets.-->
-
 ## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
@@ -102,5 +104,6 @@ If you are an accountant with several clients, you can use [!INCLUDE[d365acc_lon
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md)  
+[Administrere arbejde på tværs af flere regnskaber i virksomhedshub](company-hub.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)  

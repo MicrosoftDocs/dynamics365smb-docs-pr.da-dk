@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e1e6520aeb39a77ecfcbf652b8c328d1595d6f6f
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577197"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922613"
 ---
 # <a name="define-user-tasks"></a>Definere brugeropgaver
 
@@ -27,12 +27,12 @@ Siden **Brugeropgaver** viser alle opgaver, og du kan nemt oprette og tildele ny
 
 Du kan f.eks. oprette en opgave til dig selv eller en kollega for at få vist alle bogførte salgsfakturaer. I så fald skal knytte du opgaven til side 143, **Bogf. salgsfakturaer**. På følgende skærmbillede oprettes der en opgave for MeganB for at gennemgå de bogførte salgsfakturaer.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Eksempel på en brugeropgave":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Eksempel på en brugeropgave&quot;:::
 
 > [!TIP]  
 > Brug opslaget i feltet **Side**, og brug derefter feltet **Søg** til at finde den ønskede side.  
 >
-> Du kan oprette et link til enhver side, men du kan ikke oprette en link til enkelte poster, så du skal bruge beskrivelsen så eksplicit som muligt, f.eks. skrive "Kig nærmere på Kundenr." 10000, og sørg for, at der ikke er forfaldne betalinger".
+> Du kan oprette et link til enhver side, men du kan ikke oprette en link til enkelte poster, så du skal bruge beskrivelsen så eksplicit som muligt, f.eks. skrive &quot;Kig nærmere på Kundenr." 10000, og sørg for, at der ikke er forfaldne betalinger".
 
 ### <a name="picking-up-user-tasks"></a>Hente brugeropgaver
 

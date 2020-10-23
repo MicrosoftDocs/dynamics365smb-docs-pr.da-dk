@@ -1,6 +1,6 @@
 ---
-title: Aktivering af Power BI-integration med Business Central| Microsoft Docs
-description: Du kan nemt få indsigt, business intelligence og nøgletal i dine Business Central-data med Business Central-apps for Power BI.
+title: Aktivering af Power BI-integration med Business Central
+description: Få mere at vide om, hvordan du konfigurerer forbindelsen til Power bi, så du kan få indsigt, Business Intelligence og KPI'er i Business Central-data med de Business Central-apps til Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697745"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927068"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Aktivering af Power BI-integration med [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -27,8 +27,8 @@ Med [!INCLUDE[prodshort](includes/prodshort.md)] får brugerne en gratis Power B
 
 |Power-licens|Se rapporter|Oprette rapporter|Dele rapporter|Opdatere rapporter| [!INCLUDE[prodshort](includes/prodshort.md)]-apps|
 |-------------|--------||
-|Power BI gratis|![check](media/check.png)|![check](media/check.png)|(begrænset)|(begrænset)||
-|Power BI Pro|![check](media/check.png)|![check](media/check.png)|![check](media/check.png)|(omfattende)|![check](media/check.png)|
+|Power BI gratis|![en markering](media/check.png)|![en anden markering](media/check.png)|(begrænset)|(begrænset)||
+|Power BI Pro|![endnu en markering](media/check.png)|![det er en markering](media/check.png)|![endnu en markering](media/check.png)|(omfattende)|![sidste markering](media/check.png)|
 
 Du kan finde flere oplysninger under [Licenser til Power BI-tjenesten for brugere i organisationen](/power-bi/admin/service-admin-licensing-organization) eller [Tilmelde dig Power BI-tjenesten som en person](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

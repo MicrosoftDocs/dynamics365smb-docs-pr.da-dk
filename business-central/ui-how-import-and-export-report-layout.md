@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b44d728414e7b1b4b7d07807abbe4a1dc5769a2e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: eed31b7eebaace7ada63470bf15a2e4efe741325
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782670"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918506"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importere og eksportere brugerdefinerede rapportlayouts
 Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som en fil til og fra en placering på din computer og netværket. For eksempel kan du eksportere et rapportlayout og derefter sende filen til en anden person for redigering. Denne person kan derefter foretage ændringer af layoutet og returnere filen til dig, så du kan importere det tilbage.  

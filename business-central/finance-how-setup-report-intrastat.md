@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 23759b874f7a92bf9ff91cd0822ac8f9bb716ab1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f0c10948aef6db58474de5c627e1ce82f0a13102
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183520"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920518"
 ---
 # <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 Alle virksomheder i EU skal rapportere deres handel med andre EU-lande/områder. Du skal rapportere bevægelsen af varer til statistikmyndighederne i Danmark hver måned, og rapporten skal indleveres til skattemyndighederne. Dette omtales Intrastatrapportering. Du skal bruge siden **Intrastatkladde** til at udfærdige periodiske Intrastatrapporter.  
@@ -42,13 +42,13 @@ I Intrastatkørslen medtages udelukkende vareposter, og ikke finansposter. Hvis 
 
 Du kan eksportere posterne til en fil, du kan sende til Intrastat-myndighederne. Du kan også udskrive en rapport, angive oplysningerne manuelt på formularer fra myndighederne og derefter sende oplysningerne.
 
->  [!Note]
+> [!Note]
 > Vi anbefaler, at du opretter en Intrastatkladde for hver måned.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastatkladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Oprette en skabelon for hver Intrastatblanket, du bruger.  
 3. Vælg handlingen **Navne** for at oprette navne.  
-4. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Opret en skabelon for hver Intrastatblanket, du bruger.  
+4. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Oprette en skabelon for hver Intrastatblanket, du bruger. 
 
 > [!Note]
 > Angiv statistiskperioden i feltet **Statistikperiode** som et firecifret nummer, hvor de første to cifre angiver året og de næste to måneden. Skriv f.eks. 1706 for juni 2017.
@@ -120,6 +120,12 @@ Da du skal sende en Intrastatrapport hver måned, og du opretter en ny kladde fo
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intrastatkladder**, og vælg derefter det relaterede link.  
 2. Vælg feltet **Kladdenavn** for at få vist indstillingerne.  
 3. Vælg de kladder, der skal slettes, og vælg derefter knappen **Slet**.  
+
+## <a name="tariff-numbers"></a>Varekoder
+
+I mange lande har Told·Skat-myndighederne etableret ottecifrede varekoder på de forskellige. For at vareposterne skal indeholde de relevante oplysninger, når de indlæses på Intrastatkladdelinjen, skal du have indtastet oplysningerne om brugstarifnummer på siden **Varekoder**. I dette hæfte skal du finde varekoderne på de varer, du handler med i virksomheden og indsætte dem på siden **Varekoder**.
+
+Du skal oprette alle de varekoder, du bruger, på siden **Varekoder**. Koderne skal indsættes på varekortet, før du begynder at bogføre. Når du har oprettet koderne, skal du indtaste dem i feltet **Varekode** felt på varekortet. Du skal også udfylde feltet **Nettovægt** på varekortet.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 

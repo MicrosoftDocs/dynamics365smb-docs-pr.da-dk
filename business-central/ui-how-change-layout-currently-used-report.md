@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dc74627139ceed4f475686d57b64737e7e42b47
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5a062f9a18b6c0e965a06a7d4b18ff1e983f05db
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789346"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916039"
 ---
 # <a name="change-the-current-report-layout"></a>Ændre det aktuelle rapportlayout
 En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem efter behov.

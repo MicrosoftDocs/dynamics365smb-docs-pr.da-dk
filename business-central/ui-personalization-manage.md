@@ -1,23 +1,18 @@
 ---
 title: Tilpasse sider til roller | Microsoft Docs
 description: Få mere at vide om, hvordan du tilpasser brugergrænsefladen for en profil (rolle), så alle brugere, der har fået tildelt denne rolle, kan se et tilpasset arbejdsområde.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cee71cea69468a45b2e731632fce3827c54794c1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781331"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912067"
 ---
 # <a name="customize-pages-for-profiles"></a>Tilpasse sider til profiler
 Brugerne kan tilpasse de sider, som udgør deres arbejdsområde, så de passer til deres egne præferencer. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
@@ -47,9 +42,12 @@ Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratore
 Tilpasningen af sider er nu registreret for profilen.
 
 ## <a name="to-view-all-customized-pages-for-a-profile"></a>Sådan får du vist alle tilpassede sider for en profil
+
 Du kan få vist en oversigt over, hvilke sider der er tilpasset for en profil, f.eks. hvis du vil planlægge, hvilke sider, der skal tilpasses yderligere eller slettes.
 
-- Vælg handlingen **Tilpassede sider** på siden **Profil (rolle)**.
+- Vælg handlingen **Administrer tilpassede sider** på siden **Profil (rolle)**.
+
+Du kan slette tilpasninger på siden **Brugerdefinerede sider**, og du kan foretage fejlfinding ved at søge efter mulige problemer.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Sådan slettes alle tilpasninger for en profil
 Du kan annullere alle tilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette alle tilpasninger med en anden handling. Du kan finde flere oplysninger under [Sådan slettes alle tilpasninger, der er foretaget af en bruger](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
@@ -61,12 +59,13 @@ Layoutet på siderne i profilen nulstilles til standardlayoutet.
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Sådan slettes tilpasning af bestemte sider for en profil
 Du kan slette enkelte sidetilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette bestemte sidetilpasninger med en anden handling. Du kan finde flere oplysninger i [Sådan slettes tilpasninger for bestemte sider](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-1. Vælg handlingen **Tilpassede sider** på siden **Profil (rolle)**.
-2. På siden **Profiltilpasninger** skal du vælge en eller flere linjer for sidetilpasninger, som du vil slette, og derefter vælge handlingen **Slet**.
+1. Vælg handlingen **Administrer tilpassede sider** på siden **Profil (rolle)**.
+2. På siden **Brugerdefinerede sider** skal du vælge en eller flere linjer for sidetilpasninger, som du vil slette, og derefter vælge handlingen **Slet**.
 
 Layoutet på de valgte sider justeres til de ændringer, du har foretaget.
 
 ## <a name="see-also"></a>Se også
+
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  

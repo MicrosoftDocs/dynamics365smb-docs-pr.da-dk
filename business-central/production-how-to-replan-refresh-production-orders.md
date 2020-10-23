@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48986fc36332c4bbca3f84208261fe8215e58f92
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: edfcb7904f540edad7f471511de9047c511a2cb2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781856"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921588"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Omplanlægge eller forny produktionsordrer direkte
 Funktionen **Docs** på produktionsordrer bruges normalt, når du har tilføjet eller ændret komponenter, der opretter underliggende produktionsordrer. Funktionen beregner ændringer, der er foretaget i komponenter og rutelinjer, og omfatter varer på lavere produktionsstyklisteniveauer, som der muligvis oprettes nye produktionsordrer for.  

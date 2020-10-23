@@ -4,38 +4,46 @@ description: Den følgende tabel indeholder en opgavesekvens med links til de em
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a615e4b605267f12913dbcfee8e8a00e659369e4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780406"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910726"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Opsætte lagerværdi og kostprisberegning
-For at sikre, at lageromkostningerne registreres korrekt, skal du angive forskellige felter og sider, før du begynder at foretage varetransaktioner.
+
+For at sikre, at lageromkostningerne registreres korrekt, skal du angive forskellige felter og sider, før du begynder at foretage varetransaktioner. Virksomheder vælger typisk en bestemt kostmetode og anvender den på lagervarer, f. eks. for at hjælpe dem med at spore værdien på lager.  
+
+> [!TIP]
+> Du kan finde en introduktion til efterkalkulation i [!INCLUDE [prodshort](includes/prodshort.md)], se [Om lagerkostmetode](finance-learn-about-costing.md).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 |**Hvis du vil**|**Se**|  
-|------------|-------------|  
-|Definere en prisberegningsmetode for hver vare, der skal styre, hvordan varens indgående kostpris bruges til at vurdere lagerværdi og kostprisen på solgte varer.|[Registrere nye varer](inventory-how-register-new-items.md)|  
+|------------|-------------|
+|Angiv en standardprisberegningsmetode for hver vare, der skal styre, hvordan varens indgående kostpris bruges til at vurdere lagerværdi og kostprisen på solgte varer.|[Konfigurere generelle lageroplysninger](inventory-how-setup-general.md)|  
+|Angive en kostmetode for individuelle varer, hvis de kræver en anden kostmetode.|[Registrere nye varer](inventory-how-register-new-items.md)|  
 |Kontrollere, at kostprisen automatisk bogføres til finansposterne, hver gang en lagertransaktion bogføres.|Feltet **Aut. lagerværdibogføring** på siden **Lageropsætning**|  
 |Kontrollere, at forventede kostpriser bogføres til finansposterne, så der fra de midlertidige lagerbeholdningskonti kan ses et estimat over forfaldne beløb og kostprisen for de handlede varer, før de reelt faktureres.|Feltet **Bogf. af forventet kostpris** på siden **Lageropsætning**|  
 |Definere systemet, så der automatisk reguleres for eventuelle kostprisændringer, hver gang du bogfører lagertransaktioner.|[Regulere varepriser](inventory-how-adjust-item-costs.md)|  
-|Definere, om gennemsnitskostprisen kun skal beregnes pr. vare for hver lagerenhed og for hver varevariant.|Feltet **Beregn.type for gnsn. kostpris** på siden **Lageropsætning**|  
+|Definere, om gennemsnitskostprisen kun skal beregnes pr. vare for hver lagervare og for hver varevariant.|Feltet **Beregn.type for gnsn. kostpris** på siden **Lageropsætning**|  
 |Vælge den tidsperiode, programmet skal anvende til beregning af den vægtede gennemsnitsomkostning for varer, der bruger gennemsnitsprisberegningsmetoden.|Feltet **Gennemsnitlig omkostningsperiode** på siden **Lageropsætning**|  
 |Definere lagerperioder for at kontrollere lagerværdi over tid ved ikke at tillade bogføring af transaktioner i lukkede lagerperioder.|[Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Sørg for, at salgsopgørelser udlignes til den oprindelige udgående transaktion for at bevare lagerværdi.|Feltet **Obl. præcis kostprisudligning** på siden **Salg og tilgodehavender**|  
 |Sørg for, at returneringer af køb udlignes til den oprindelige indgående transaktion for at bevare lagerværdi.|Feltet **Obl. præcis kostprisudligning** på siden **Køb og tilgodehavender**|
 |Definere afrundingsregler, der skal anvendes ved regulering af eller forslag til varepriser eller standardomkostninger.|Siden **Afrundingsmetode**|  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
+[Konfigurere generelle lageroplysninger](inventory-how-setup-general.md)  
+[Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Konfigurere bedste fremgangsmåder: kostmetode](setup-best-practices-costing-method.md)  
+[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  
+[Designdetaljer: ændre kostmetoden for varer](design-details-changing-costing-methods.md)  
 [Arbejde med Business Central](ui-work-product.md)  
 [Finans](finance.md)  

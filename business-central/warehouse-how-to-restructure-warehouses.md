@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3a0d397695dfdd1d60a13c5e387c0de05127c737
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 280915af533d27efd5067518cd5492815662371d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789121"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910076"
 ---
 # <a name="restructure-warehouses"></a>Omstrukturere lagre
 Det kan eventuelt blive nødvendigt at omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer. Sådanne omstruktureringer foretages som regel sjældent, men der kan opstå situationer, hvor det er nødvendigt med en omklassificering for at opnå en mere effektiv forretningsgang. Eksempler:  

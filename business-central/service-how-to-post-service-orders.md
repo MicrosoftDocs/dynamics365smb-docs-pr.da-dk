@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: db110bd117236fb44cbbd46195b8b1ab8d5d848e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784330"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915306"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bogføre serviceordrer og kreditnotaer
 Når du har oprettet en serviceordre, angivet alle de nødvendige oplysninger og foretaget eventuelle ændringer, kan du bogføre serviceordren. Ordren skal indeholde mindst én serviceartikellinje og én servicelinje, inden du kan bogføre den. Hvis ordren indeholder mere end én ordrelinje, bogføres alle linjerne på én gang.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3570d5e7347745763c8d8e18dfdf65166e7839e0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b29e93d248e939eb9eb1cea97e53cd1718304e80
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782039"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923791"
 ---
 # <a name="revalue-inventory"></a>Regulere lagerbeholdning
 Hvis du vil op- eller nedskrive en vare eller en bestemt varepost, skal du bruge reguleringskladden.

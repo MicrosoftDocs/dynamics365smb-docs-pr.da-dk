@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196539"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922388"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Fejlfinding i forbindelse med synkroniseringsfejl
 Der skal flyttes mange forskellige dele, når [!INCLUDE[d365fin](includes/d365fin_md.md)] skal integreres med Common Data Service, og nogle gange går tingene forkert. I dette emne beskrives nogle af de mest almindelige fejl, der opstår, og der angives oplysninger om, hvordan de kan løses.
@@ -50,6 +50,9 @@ Konfliktfejlmeddelelsen "Kan ikke opdatere kunderecord, fordi den har en senere 
 Konflikten opstår, fordi destinationsposten også blev ændret – posttidsstemplet er nyere end salgsintegrationspostens tidsstempel. Destinationskontrollen sker kun i forbindelse med tovejstabeller. 
 
 Disse records er nu flyttet til siden "Synkroniserede poster, der springes over", som du kan åbne fra siden Konfiguration af Microsoft Dynamics-forbindelse i Business central. Her kan du angive de ændringer, du vil beholde, og derefter synkronisere recordsene igen.
+
+## <a name="remove-couplings-between-records"></a>Fjerne koblinger mellem poster
+Når noget går galt i integrationen, og du har brug for at koble posterne fra, så de ikke længere synkroniseres, kan du gøre det for en eller flere poster ad gangen. På siden **Integrationstilknytninger til tabeller** kan du vælge **Ophævelse af sammenkædning** og derefter **Slet sammenkædning**. Alternativt kan du på siden **Fejl ved sammenkædet datasynkronisering** vælge fejlene og derefter vælge **Fjern koblinger**. 
 
 ## <a name="see-also"></a>Se også
 [Integration med Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  

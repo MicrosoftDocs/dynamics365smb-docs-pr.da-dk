@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219826af340d887b4856841b5600da4448190504
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785867"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916089"
 ---
 # <a name="trace-item-tracked-items"></a>Spore vare via varesporing
-Du kan se, hvor en vare med varesporing blev brugt, herunder hvordan og hvornår den blev modtaget eller fremstillet, overflyttet, solgt, forbrugt eller returneret. Du kan også finde alle aktuelle forekomster af et bestemt serienummer eller lotnummer i databasen. Du kan gøre dette ved hjælp af funktionerne Varesporing og Naviger.  
+Du kan se, hvor en vare med varesporing blev brugt, herunder hvordan og hvornår den blev modtaget eller fremstillet, overflyttet, solgt, forbrugt eller returneret. Du kan også finde alle aktuelle forekomster af et bestemt serienummer eller lotnummer i databasen. Du kan gøre dette ved hjælp af funktionerne Varesporing og [Find poster](ui-find-entries.md).  
 
- Disse funktioner kan især være praktiske i kvalitetskontrol, når du vil finde ud af, hvilke kunder der har modtaget produkter med et bestemt lotnummer, eller du vil finde ud af, hvilken lot en defekt komponent stammer fra.  
+Disse funktioner kan især være praktiske i kvalitetskontrol, når du vil finde ud af, hvilke kunder der har modtaget produkter med et bestemt lotnummer, eller du vil finde ud af, hvilken lot en defekt komponent stammer fra.  
 
  Du kan spore fremad og bagud i en sekvens af bogførte lagertransaktioner for serie- eller lotnummer på siden **Varesporing**.  
 
- På siden **Naviger** kan du ikke se sekvensen af transaktioner, men du kan se alle poster for serie- eller lotnummeret, både bogførte poster og åbne poster.  
+ På siden **Find poster** kan du ikke se sekvensen af transaktioner, men du kan se alle poster for serie- eller lotnummeret, både bogførte poster og åbne poster.  
 
- De to funktioner kan bruges i kombination ved at overføre sporede serienummer eller lotnummer til siden **Naviger** for at afslutte et komplet sporingsscenarie. Du kan finde flere oplysninger i [Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md).  
+ De to funktioner kan bruges i kombination ved at overføre sporede serienummer eller lotnummer til siden **Find poster** for at afslutte et komplet sporingsscenarie. Du kan finde flere oplysninger i [Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## <a name="to-trace-item-tracked-items"></a>Sådan spores varer via varesporing  
 
@@ -57,11 +57,12 @@ Du kan se, hvor en vare med varesporing blev brugt, herunder hvordan og hvornår
 >   
 >  Hvis du vil finde de varesporingslinjer, hvor transaktionsoversigten allerede er sporet, skal du vælge knappen **Gå til allerede sporede**. Den pågældende varesporingslinje er markeret, og alle underliggende linjer er udvidet.  
 
-## <a name="to-find-item-tracked-items-with-navigate"></a>Sådan findes varesporede varer med Naviger  
+## <a name="to-find-item-tracked-items-with-find-entries"></a>Sådan findes varesporede varer med Find poster  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Naviger**, og vælg dernæst det relaterede link.  
-2.  Angiv de varesporingsnumre, du ønsker at spore, i felterne **Serienr.** og **Lotnr.** i oversigtspanelet **Varesporing**.  
-3.  Vælg handlingen **Find** for at finde alle forekomster af serienummer eller lotnummer i databasen.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Find poster**, og vælg dernæst det relaterede link.  
+2. Vælg **Handlinger** > **Find efter** > **Søg efter varereference**.
+3. I felterne **Serienr.** og **Lotnr.** skal du angive de varesporingsnumre, du ønsker at spore.  
+4. Vælg handlingen **Find** for at finde alle forekomster af serienummer eller lotnummer i databasen.  
 
 ## <a name="see-also"></a>Se også  
 [Lagerbeholdning](inventory-manage-inventory.md)  
@@ -69,4 +70,5 @@ Du kan se, hvor en vare med varesporing blev brugt, herunder hvordan og hvornår
 [Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
 [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-[Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)
+[Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)  
+[Find poster](ui-find-entries.md)  

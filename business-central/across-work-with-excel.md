@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 07/03/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: f782b3ce19baa29d9268f3fdf742d2aa6112957f
-ms.sourcegitcommit: 506a433298fc3629231cfa98f64a2d1428094fde
+ms.openlocfilehash: b25413c8f0479aaccfc67ae96f2870690f993dfa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534582"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927268"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visning og redigering i Excel fra Business Central
 
@@ -55,9 +55,10 @@ Hvis du foretager ændringer af tilføjelsesprogrammet, skal du genindlæse det 
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 
+[Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
 [Arbejde med Business Central](ui-work-product.md)  
 [Forbedringer af Excel-integration i frigivelsesbølge 2 i 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  

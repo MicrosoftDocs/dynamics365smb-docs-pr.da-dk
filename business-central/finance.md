@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410743"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970460"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
@@ -54,7 +54,12 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Overvåge pengestrømme ind og ud af din virksomhed. |[Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md) |
 |Bruge kontoskemaer til at foretage pengestrømsbudgetter for at følge en hel procedure.|[Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Arbejde med regnskabsopgørelser og oversigter i Excel. |[Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md) |
-|Lær at bruge rollecenteret Regnskabsmedarbejder, invitere en ekstern revisor og bruge Accountant Hub til at administrere konti for flere klienter.|[Revisoroplevelser i Business Central](finance-accounting.md)|  
+|Lær at bruge rollecenteret Revisor, inviter en ekstern revisor og brug virksomhedshubben til at administrere konti for flere klienter.|[Revisoroplevelser i Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Få en videopræsentation
+I følgende video introduceres nogle af de vigtigste funktioner i forbindelse med styring af økonomien. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Se også
 [Konfigurere Finans](finance-setup-finance.md)  

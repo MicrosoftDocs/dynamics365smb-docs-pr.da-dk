@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 79b57454d0e4ac1bcdad9817b53f1b273e416658
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194159"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915056"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling  
 Det er vigtigt med effektiv styring af skyldige beløb for virksomhedens samlede finansielle tilstand. Udvidelsen Forudsigelse af forsinket betaling kan hjælpe dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategier ved at forudsige, om salgsfakturaer bliver betalt til tiden. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden.

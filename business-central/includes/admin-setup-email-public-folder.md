@@ -2,19 +2,19 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 06/25/2020
+ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: 8c5f4205128d52ec88f432cea7ece98e0310546d
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: a62a1a628f22ff47fa86a64a72f5b1834960dc72
+ms.sourcegitcommit: 428f180604e5afcf94fa0e92a0615f58c88e13cd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528006"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "3931267"
 ---
-Før du kan konfigurere maillogføring, skal du forberede din Exchange Online til [offentlige mapper](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019). Det kan du gøre i [Exchange-administrationen](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019), eller du kan bruge [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps).  
+Før du kan konfigurere maillogføring, skal du forberede din Exchange Online til [offentlige mapper](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Det kan du gøre i [Exchange-administrationen](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ), eller du kan bruge [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
 > [!TIP]
-> Hvis du vil bruge [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps), kan du finde inspiration til, hvordan du opretter et script i et eksempelscript, som vi har publiceret til [BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
+> Hvis du vil bruge [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ), kan du finde inspiration til, hvordan du opretter et script i et eksempelscript, som vi har publiceret til [BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
 
 Følgende liste beskriver de hovedtrin, der indeholder links til flere oplysninger.  
 
@@ -26,7 +26,7 @@ Følgende liste beskriver de hovedtrin, der indeholder links til flere oplysning
   |Valgte roller  |Offentlige mapper            |
   |Valgte medlemmer|Mailen til den brugerkonto, som Business Central bruger til at køre maillogføringsopgaven|
 
-  Du kan finde flere oplysninger i [Administrere rollegrupper](/exchange/permissions/role-groups?view=exchserver-2019).
+  Du kan finde flere oplysninger i [Administrere rollegrupper](/exchange/permissions/role-groups?view=exchserver-2019&preserve-view=true).
 
 - Opret en ny offentlig mappe som postkasse på grundlag af oplysningerne i følgende tabel:
 
@@ -43,15 +43,15 @@ Følgende liste beskriver de hovedtrin, der indeholder links til flere oplysning
     - ```\Email Logging\Queue\```
     - ```\Email Logging\Storage\```
 
-  Du kan finde flere oplysninger i [Oprette en offentlig mappe](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019).
+  Du kan finde flere oplysninger i [Oprette en offentlig mappe](/exchange/collaboration/public-folders/create-public-folders?view=exchserver-2019&preserve-view=true).
 
 - Aktiver den offentlige mappe *Kø* til mail
 
-  Du kan finde flere oplysninger under [Aktivere eller deaktivere en offentlig mappe til mail](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019)
+  Du kan finde flere oplysninger under [Aktivere eller deaktivere en offentlig mappe til mail](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019&preserve-view=true)
 
 - Aktivere afsendelse af mails til den offentlige mappe *Kø* ved hjælp af Outlook eller Exchange Management Shell
 
-  Du kan finde flere oplysninger i [Tillade anonyme brugere at sende mail til en offentlig mappe, der er aktiveret til mail](/exchange/collaboration/public-folders/mail-enable-or-disable?view=exchserver-2019#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder)
+  Du kan finde flere oplysninger i [Tillade anonyme brugere at sende mail til en offentlig mappe, der er aktiveret til mail](/exchange/collaboration/public-folders/mail-enable-or-disable#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?view=exchserver-2019&preserve-view=true)
 
 - Indstil brugeren af maillogføring som ejer af begge offentlige mapper, *Kø* og *Lager*, ved hjælp af Outlook eller Exchange Management Shell på grundlag af oplysningerne i følgende tabel:
 
@@ -69,7 +69,7 @@ Følgende liste beskriver de hovedtrin, der indeholder links til flere oplysning
   |En regel for indgående mail |Logfør mails, der er sendt til denne organisation|*Afsenderen* er placeret *uden for organisationen*, og *modtageren* er placeret *i organisationen*|BCC den mailkonto, der er angivet for den offentlige mappe *Kø*|
   |En regel for udgående mail | Logfør mails, der er sendt fra denne organisation |*Afsenderen* er placeret *inde i organisationen*, og *modtageren* er placeret *uden for organisationen*|BCC den mailkonto, der er angivet for den offentlige mappe *Kø*|
   
-  Du kan finde flere oplysninger i [Administrere regler for mailflow i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) og [Handlinger for mailflowregel i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-action).
+  Du kan finde flere oplysninger i [Administrere regler for mailflow i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) og [Handlinger for mailflowregel i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
 > Hvis du foretager ændringer i Exchange Management Shell, bliver ændringerne synlige i Exchange Administration efter en forsinkelse. De ændringer, der er foretaget i Exchange, vil også være tilgængelige i [!INCLUDE[prodshort](prodshort.md)] efter en forsinkelse.

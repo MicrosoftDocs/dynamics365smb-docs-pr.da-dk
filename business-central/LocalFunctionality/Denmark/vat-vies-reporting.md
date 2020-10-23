@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ebde52175c852ff21a383260292225eef439d9fe
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 287ed3142700ccc5fc7a13b49dc6b00e1e6383ce
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778381"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920188"
 ---
 # <a name="vat-vies-reporting"></a>Momsindberetning
 Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen **Moms - listeangivelse disk**.  

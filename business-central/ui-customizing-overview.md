@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5cc03c8b5fb11ecc0a34d83b1ea6dfaeae791e9d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9a9ef59ddec127b8c87dbfb055870ce033fcd01b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782389"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912592"
 ---
 # <a name="customize-business-central"></a>Tilpasse Business Central
 Der er forskellige måder at tilpasse programmet på, der giver dig og dine kolleger adgang til de funktioner, den funktionalitet og de data, I har mest brug for, og på en måde, der passer bedst til det daglige arbejde. Hvem der ser ændringerne, afhænger af hvad du gør, som beskrevet i denne tabel.

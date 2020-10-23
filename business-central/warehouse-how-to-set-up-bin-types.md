@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e5543c19abb9d40a1ed19b7224a54d584af36635
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: e54c82e2d00c26f191506b8057a730d31fddc867
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783803"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925392"
 ---
 # <a name="set-up-bin-types"></a>Oprette placeringstyper
 Du kan dirigere varestrømmen til placeringer, som du har defineret til særlige lageraktiviteter. Du fastsætter disse aktiviteter ved at tildele placeringstyper, så du angiver, hvordan en placering skal brues.  

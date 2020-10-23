@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 78993c655ff4912e212588269f897a39e8441924
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.openlocfilehash: 0af6881b98aae103a6d37ce16b06dfb316c4a9f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532615"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911526"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?
 
@@ -29,7 +29,7 @@ Hvis du udvider prøveperioden selv, er det en éngangsforteelse. Du kan ikke ud
 
     Log på med den mailkonto, som du brugte, da du tilmeldte dig prøveversionen.  
 
-    Hvis du har tilmeldt dig med en e-mailkonto fra en [30-dages prøveversion af Office 365](/microsoft-365/commerce/sign-up-for-office-365-trial), skal du først forlænge din Office 365-prøveperiode eller købe et Office 365-abonnement. Du kan få flere oplysninger [i Forlæng din prøveperiode til Office 365 for business](/microsoft-365/commerce/extend-your-trial).
+    Hvis du har tilmeldt dig med en e-mailkonto fra en [30-dages prøveversion af Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), skal du først forlænge din Microsoft 365-prøveperiode eller købe et Microsoft 365-abonnement. Du kan få flere oplysninger i [Forlæng din prøveperiode til Microsoft 365 for business](/microsoft-365/commerce/extend-your-trial).
 2. Vælg **Udvid prøveversion** i meddelelsen øverst i arbejdsområdet.
 
     Hvis du har afvist notifikationen, skal du logge ud og derefter logge ind igen.

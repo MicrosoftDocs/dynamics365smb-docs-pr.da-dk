@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693020"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911655"
 ---
 # <a name="handling-missing-option-values"></a>Håndtering af manglende indstillingsværdier
 [!INCLUDE[d365fin](includes/cds_long_md.md)]indeholder kun tre felter med grupperede indstillinger, der indeholder indstillingsværdier, som du kan knytte til [!INCLUDE[d365fin](includes/d365fin_md.md)]-felter af typen Indstilling<!-- Option type, not enum? @Onat can you vertify this? --> til automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilknyttede indstillinger, og de manglende indstillinger vedhæftes til den relaterede [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel og føjes til systemtabellen **CDS-indstillingstilknytning**, så de kan håndteres manuelt senere. For eksempel ved at tilføje de manglende indstillinger i hvert produkt og derefter opdatere tilknytningen. Dette afsnit handler om, hvordan det fungerer.

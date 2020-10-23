@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786092"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922288"
 ---
 # <a name="manage-profiles"></a>Administrere profiler
 
@@ -67,7 +67,7 @@ På siden **Mine indstillinger** kan brugere definere grundlæggende funktioner 
 Som administrator kan du definere disse indstillinger for en profil og dermed anvende indstillingerne for alle brugere af den relaterede rolle.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Profiler (roller)**, og vælg derefter det relaterede link.
-2. Marker linjen for den profil, du vil ændre brugerindstillingerne for, vælg handlingen **Naviger**, og vælg derefter handlingen **Brugertilpasninger**.
+2. Marker linjen for den profil, du vil ændre brugerindstillingerne for, vælg handlingen **Brugertilpasninger**.
 3. På siden **Brugertilpasninger** skal du åbne kortet for den bruger, hvis indstillinger du vil ændre.
 4. På siden **Brugertilpasningskort** kan du redigere felterne efter behov.
 
@@ -139,7 +139,7 @@ Du kan også slette enkelte sidetilpasninger for en profil. Du kan finde flere o
 
 Som administrator af [!INCLUDE[prodshort](includes/prodshort.md)] online kan du administrere brugersessioner i administrationen. Du kan finde flere oplysninger i [Administrere sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrationsindholdet.  
 
-Til [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø kan du f.eks. administrere sessioner ved hjælp af SQL Server Management Studio. Du kan finde flere oplysninger i den [tekniske dokumentation til SQL Server](/sql/sql-server/?view=sql-server-ver15).  
+Til [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø kan du f.eks. administrere sessioner ved hjælp af SQL Server Management Studio. Du kan finde flere oplysninger i den [tekniske dokumentation til SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Se også  
 [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  

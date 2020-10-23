@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f1c082a24348b106a0bcbd0e48084f7ce88b435
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f628ceefb6894f8ca2f05e6345ac4f3b19f3235e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779607"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923250"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger
 Hvis der forekommer varebehandlingsprocesser på lagerlokationen, skal du evt. flytte varer mellem interne placeringer som reaktion på interne kildedokumenter, f.eks. produktion, montage eller serviceordrer på lokationen.  

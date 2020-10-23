@@ -1,6 +1,6 @@
 ---
 title: Gennemgange af forretningsprocesser | Microsoft Docs
-description: Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som du kan udføre ved hjælp af demovirksomheden CRONUS Danmark A/S. Gennemgangene består af flere procedurer, hvoraf nogle normalt udføres af én bruger, mens andre indføjer flere forskellige brugerroller. Med henblik på at simulere arbejdsmiljøet, indeholder nogle af gennemgangene installationstrin, der er nødvendige for at gennemføre øvelserne som beskrevet. Disse trin kan give indblik i, hvilken type oplysninger brugerne skal dele med deres virksomheds it-teknikere.
+description: Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som du kan udføre ved hjælp af demovirksomheden CRONUS Danmark A/S.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d278175606927cc1ee1ee2dda86099f6f080822c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788367"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923316"
 ---
 # <a name="business-process-walkthroughs"></a>Gennemgang af forretningsprocesser
 
@@ -39,7 +39,8 @@ Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som d
 |Planlægge et projekt fra start til slut. **Kræver komplette eksempeldata**|[Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)|  
 |En rapport over omkostningerne for et projekt. **Kræver komplette eksempeldata**|[Gennemgang: Beregning af igangværende arbejder for en sag](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Vælg varer til levering i grundlæggende lageropsætninger. **Kræver komplette eksempeldata**|[Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Udfør defektstyring. **Kræver komplette eksempeldata**|[Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)|  
+|Udfør defektstyring. **Kræver komplette eksempeldata**|[Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)|
+|Eksportér forretningsdata til revisionsformål i Tyskland.|[Gennemgang: Eksportere data til en digital revision](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## <a name="see-also"></a>Se også
 

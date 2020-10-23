@@ -8,22 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617907"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927018"
 ---
 # <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
 
 Kostmetoden afgør, om en faktisk eller en budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen. Sammen med bogføringsdatoen og rækkefølgen har kostmetoden også indflydelse på, hvordan kostprisforløbet registreres.
 
 > [!NOTE]
-> Du kan ikke ændre en vares kostmetode, hvis der findes vareposter for varen.<br /><br />
-> Der offentliggøres snart oplysninger her om løsninger på, hvordan du ændrer en kostmetode i særlige situationer.
+> Du kan ikke ændre en vares kostmetode, hvis der findes vareposter for varen. Du kan finde flere oplysninger i [Design detaljer: Ændre kostmetoden for varer](design-details-changing-costing-methods.md).
 
 Følgende metoder understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -41,7 +40,7 @@ Følgende metoder understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
 
  Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, og om de bruger faktiske omkostninger eller standardomkostninger som værdigrundlag. Den følgende tabel beskriver de forskellige karakteristika. (LIFO-metoden er udelukket, da den minder meget om FIFO-metoden).  
 
-|<!--blank -->|FIFO|Gennemsnit|Standard|Bestemt|  
+|Kategori|FIFO|Gennemsnit|Standard|Bestemt|  
 |-|----------|-------------|--------------|--------------|  
 |Generelle egenskaber|Let at forstå|Baseret på periodeindstillinger: **dag**/**uge**/**måned**/**kvartal**/**regnskabsperiode**.<br /><br /> Kan beregnes pr. vare eller pr. vare/lokation/variant.|Let at bruge, men kræver kvalificeret vedligeholdelse.|Kræver varesporing på både indgående og udgående transaktion.<br /><br /> Bruges typisk til serienummererede varer.|  
 |Udligning/justering|Udligning holder styr på **det resterende antal**.<br /><br /> Justering overfører omkostninger i henhold til antalsudligning.|Udligning holder styr på **det resterende antal**.<br /><br /> Omkostninger beregnes og overføres pr. **værdiansættelsesdato**.|Udligning holder styr på **det resterende antal**.<br /><br /> Udligning er baseret på FIFO.|Alle udligninger er faste.|  

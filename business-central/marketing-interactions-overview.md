@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c35b44eb016604a74cd8fd22fed655b6b5363eaa
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0fcdaf30443151919f0760ad18cce1cb7df25d36
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781606"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923666"
 ---
 # <a name="managing-interactions"></a>Administrere interaktioner
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, mail, telefon, møder osv.

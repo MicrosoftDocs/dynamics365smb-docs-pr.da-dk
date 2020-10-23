@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5698110875799fe39cf3544dce0ea39f7c3dd5ba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 571261190274fc74535e7b18b2c949d7f7714c1b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786217"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917722"
 ---
 # <a name="set-up-company-configuration"></a>Konfigurere virksomhedskonfiguration
 Implementeringsprocessen, der begynder med Microsoft-partneren. Partneren er ansvarlig for at gennemtænke konfigurationsdetaljerne og oprettelse af en pakke, der let kan anvendes af en kunde. Før du opretter en ny virksomhed, skal du planlægge, hvordan den konfigureres. Du skal overveje grundlæggende konfigurationsdata og de datatyper, som din [!INCLUDE[d365fin](includes/d365fin_md.md)]-løsning kræver. Du kan samle alle disse oplysninger i konfigurationspakker.

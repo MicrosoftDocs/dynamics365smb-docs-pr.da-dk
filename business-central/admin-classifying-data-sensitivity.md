@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 04/01/2020
-ms.openlocfilehash: e1b199c16bb39feb4ecbef9b36ccd49a5c32e3c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.openlocfilehash: 8d26a8a2f6ec5ffe17f38d5dc429e50efe08ea7e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187408"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911626"
 ---
 # <a name="classifying-data-sensitivity"></a>Klassificere datafølsomhed
 For at klassificere de felter, der indeholder følsomme eller personlige data, kan en Microsoft-partner angive egenskaben ```DataClassification``` på felter. Dette kræver adgang til databasetabellerne, enten via udviklingsmiljøet eller ved at køre et Windows PowerShell-script. Du kan finde flere oplysninger i [Klassificere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bed657fd2694dc3c1adc44a7dddfd857ab60f3bf
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: f408330e7306a364a5272bc3568858f4765df711
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783480"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917622"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysere data efter dimensioner
 I finansielle analyser er en dimension data, som du kan føje til en post som en slags markør. Disse data bruges til at gruppere poster med ens karakteristika, f.eks. debitorer, regioner, produkter og sælger, og disse grupper kan nemt hentes frem til analyse. Dimensioner kan bruges til poster i kladder, dokumenter og budgetter. Selve udtrykket dimension beskriver, hvordan analysen opstår. En todimensional analyse kan f.eks. være pr. område. Men når der bruges mere end to dimensioner ved oprettelsen af en post, kan du udføre mere komplekse analyser, f.eks. salg pr. salgskampagne pr. kundegruppe pr. område. Du kan finde flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).

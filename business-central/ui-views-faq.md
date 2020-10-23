@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: mikebc
-ms.openlocfilehash: 1433e22f232b032242a4464730b07df376cadaf3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 7b992fe4f5db07605015a88ea69d9a510adbcca4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189311"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925494"
 ---
 # <a name="list-views-faq"></a>Ofte stillede spørgsmål om listevisninger
 I dette emne besvares spørgsmål, som vores erfarne brugere ofte stiller om, hvordan de kan arbejde med listevisninger og gemme filtre.  

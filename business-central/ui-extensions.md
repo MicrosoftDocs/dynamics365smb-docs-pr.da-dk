@@ -1,29 +1,26 @@
 ---
-title: Installation af udvidelser til tilpasning af Business Central | Microsoft Docs
+title: Installation af udvidelser til tilpasning af Business Central
 description: Få mere at vide om tilføjelse af funktioner og tilpasning af Business Central ved at installere udvidelser.
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/12/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2011728e8e036442418c6a2d8b51477b45b02d1e
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: 1077cb2ddfd66f2e05fd1b42fbc71753a51c05c4
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3765917"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970382"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central ved brug af udvidelser
 
 Du kan ændre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.
 
 > [!NOTE]
-> Hvis du vil installere udvidelser fra AppSource eller tilføje udvidelser pr. lejer, skal du have de rigtige rettigheder. Du skal enten være medlem af brugergruppen D365 EXTENSION MGMT, eller du skal have rettighedssættet D365 EXTENSION MGMT. Hvis du er administrator, kan du tildele brugergrupper og rettigheder til andre brugere i virksomheden.<br /><br />
+> Hvis du vil installere udvidelser fra AppSource eller tilføje udvidelser pr. lejer, skal du have de rigtige rettigheder. Du skal enten være medlem af brugergruppen D365 EXTENSION MGMT, eller du skal have rettighedssættet D365 EXTENSION MGMT. Hvis du er administrator, kan du tildele brugergrupper og rettigheder til andre brugere i virksomheden.
+
 Hvis du vil bruge de funktioner, der findes i en udvidelse, f. eks. åbne sider, køre rapporter, vælge handlinger osv., skal du være tildelt de rettighedssæt, der er installeret som en del af udvidelsen.
 
 > [!IMPORTANT]  
@@ -40,7 +37,47 @@ Du kan administrere udvidelserne på siden **Udvidelsesstyring**. Du kan åbne s
 > Hvis du mener, at du skal have adgang til en udvidelse, men ikke kan finde de relevante funktioner, skal du vælge siden **Udvidelsesstyring** – hvis filtypen ikke er angivet der, kan du installere den som beskrevet i følgende afsnit.  
 
 > [!NOTE]  
-> Der findes ingen nye udvidelser i AppSource umiddelbart efter, at vi har oplyst om en opdatering. Du kan holde øje med udvidelser på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
+> Log på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved hjælp af den mailkonto, du bruger til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Brug den samme mailkonto til andre tjenester og produkter for at opnå en ensartet oplevelse.  
+
+Du kan også få adgang til markedspladsen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. På siden **Udvidelsesstyring** kan du se de udvidelser, der er installeret, og du kan åbne siden **Markedsplads for udvidelse** for at se de udvidelser til [!INCLUDE[d365fin](includes/d365fin_md.md)], der er tilgængelige i AppSource. Hvis du vælger linket *Flere apps*, åbnes [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
+
+Hvis du vælger en udvidelse, du kan finde oplysninger om, hvad den gør, og du kan få adgang til hjælp for at få mere at vide om udvidelsen. Når du vælger at hente en udvidelse, skal du acceptere vilkårene for anvendelse. Hvis du henter udvidelsen fra AppSource-webstedet, logges du på [!INCLUDE[d365fin](includes/d365fin_md.md)] for at fuldføre installationen.  
+
+Når du installerer en udvidelse, kan det være nødvendigt at konfigurere den, f.eks. angive en konto til brug sammen med udvidelsen **PayPal Payments Standard til [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+Andre udvidelser føjer simpelthen felter til en eksisterende side, eller de tilføjer en ny side f.eks.   
+
+Hvis du fjerner en udvidelse, og du senere skifter mening, kan du installere den igen. Når du fjerner en udvidelse, som du har brugt, bevares dataene, så de stadig tilgængelige, hvis du installerer udvidelsen igen. Nogle udvidelser er obligatoriske. Du kan ikke fjerne disse fra siden **Udvidelsesstyring**. Hvis du prøver, vises der en fejlmeddelelse.  
+
+Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af [andre virksomheder](ui-extensions-other.md). Alle udvidelser testes, før de bliver tilgængelige for dig, men det anbefales, at du bruger de links, der følger med hver udvidelse, for at få mere at vide om udvidelsen, før du vælger at installere den.  
+
+Microsoft tilbyder følgende udvidelser:  
+
+* [AMC Banking 365 Fundamentals-udvidelse](ui-extensions-amc-banking.md)
+* [Ceridian løn](ui-extensions-ceridian-payroll.md)
+* [Virksomhedshub](ui-extensions-company-hub.md)  
+* [Dynamics GP Dataoverførsel](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Vigtig forretningsindsigt](ui-extensions-essential-business-insights.md)
+* [Billedanalyse](ui-extensions-image-analyzer.md)
+* [Intelligent sky](ui-extensions-data-replication.md)
+* [Intelligent sky basis](ui-extensions-intelligent-cloud.md)  
+* [Forudsigelser af forsinkede betalinger](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online Dataoverførsel](ui-extensions-quickbooks-online-data-migration.md)
+* [Import af Quickbooks-lønfiler](ui-extensions-quickbooks-payroll.md)
+* [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
+* [Momsgruppe](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [DK – C5-dataoverførsel](ui-extensions-c5-data-migration.md)
+* [DK - Betalinger og afstemninger](ui-extensions-payments-reconciliation-formats-dk.md)
+* [DK – Tax File Formats](ui-extensions-tax-file-formats-dk.md)
+* [UK – GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
+
+> [!NOTE]  
+> Der findes ingen nye udvidelser i AppSource umiddelbart efter, at vi har oplyst om en opdatering. Du kan holde øje med udvidelser på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 ## <a name="see-also"></a>Se også
 

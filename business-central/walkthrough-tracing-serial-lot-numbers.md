@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528131"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925443"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
 
@@ -25,7 +25,7 @@ Når der forekommer fejlbehæftede produkter, skal fejlene identificeres, og de 
 
 Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, hvor de fejlbehæftede varer kom fra, og hvor de bruges. Denne undersøgelse er baseret på historiske data og gøres lettere ved at søge på varesporingsposterne ved hjælp af siden **Varesporing**.  
 
-Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, om der er foretaget planlægning for de sporede varer i åbne dokumenter, som f.eks. ikke-bogførte salgsordrer eller forbrugskladder. Dette arbejde udføres på siden **Naviger**. Du kan bruge funktionen Naviger til at søge efter alle typer databaseposter.  
+Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, om der er foretaget planlægning for de sporede varer i åbne dokumenter, som f.eks. ikke-bogførte salgsordrer eller forbrugskladder. Dette arbejde udføres på siden Find poster. Du kan bruge funktionen Find poster til at søge efter alle typer databaseposter.  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang
 
@@ -64,7 +64,7 @@ Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returner
 
 Resultaterne af denne første varesporingsopgave kan identificere, hvilke racerstel der var defekte, og hvilken leverandør der leverede dem. Bagefter, men i det samme overordnede opfølgningsproces, skal den ansvarlige for kvalitetssikring finde alle solgte racercykler, der indeholder racerstel fra det fejlbehæftede parti, så disse ordrer kan stoppes eller tilbagekaldes. Endelig skal den ansvarlige for kvalitetssikring finde alle åbne dokumenter, hvor det fejlbehæftede parti bruges, så der ikke oprettes tilsvarende transaktioner.  
 
-De første to opgaver i forbindelse med administrationen af fejlbehæftede varer udføres på siden **Varesporing**. Den sidste opgave udføres på siden **Naviger** i sammen med siden **Varesporing**.  
+De første to opgaver i forbindelse med administrationen af fejlbehæftede varer udføres på siden **Varesporing**. Den sidste opgave udføres på siden **Find poster** sammen med siden **Varesporing**.  
 
 ## <a name="prepare-sample-data"></a>Klargøre eksempeldata
 
@@ -227,7 +227,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     > [!NOTE]  
     >  Bogfør ikke den sidste salgsordre på fem racerstel.  
 
-    Dermed er klargøringen af data til demonstrationen af varesporings- og navigationsfunktionerne færdig.  
+    Dermed er klargøringen af data til demonstrationen af varesporings- og Find poster-funktionerne færdig.  
 
 ## <a name="tracing-from-usage-to-origin"></a>Sporing fra brug til oprindelse  
  Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returnerede racercykel, vare 1002, har serienummeret SN1. Ved at anvende denne grundlæggende oplysning kan han finde ud af, hvor racercyklen sidst blev brugt, i dette tilfælde som salgsleverance til Ravel Møbler. Den ansvarlige for kvalitetssikringen skal derefter foretage en sporing tilbage til den tidligste oprindelse for at finde ud af, hvilket lotnummer det fejlbehæftede racerstel kom fra, og hvilken leverandør der leverede det.  
@@ -279,27 +279,29 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Han kan samtidig se ud af de tre sidste sporingslinjer, at der er fremstillet to andre varer, SN3 og SN4, med racerstel fra LOT1. Han tager handling for at blokere disse slutvarer på lageret.  
 
-    Dermed er den anden opgave med administration af fejlbehæftede varer ved hjælp af siden **Varesporing** udført. Da siden **Varesporing** kun er baseret på de bogførte poster, skal den ansvarlige for kvalitetssikringen fortsætte til siden **Naviger** for at sikre, at LOT1 ikke er brugt i ikke-bogførte bilag.  
+    Dermed er den anden opgave med administration af fejlbehæftede varer ved hjælp af siden **Varesporing** udført. Da siden **Varesporing** kun er baseret på de bogførte poster, skal den ansvarlige for kvalitetssikringen fortsætte til siden **Find poster** for at sikre, at LOT1 ikke er brugt i ikke-bogførte bilag.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Find alle poster for et serie-/lotnummer  
- Den ansvarlige for kvalitetssikringen brugte siden **Varesporing** til at finde ud af, at LOT1 indeholdt fejlbehæftede racerstel, hvem leverandøren var, og i hvilken bogførte transaktion de er brugt. Han skal nu finde ud af, om LOT1 findes i eventuelle andre åbne bilag, ved integrering af sporingsresultatet til siden **Naviger**, hvor han kan foretage en søgning i alle databaseposter.  
+ Den ansvarlige for kvalitetssikringen brugte siden **Varesporing** til at finde ud af, at LOT1 indeholdt fejlbehæftede racerstel, hvem leverandøren var, og i hvilken bogførte transaktion de er brugt. Han skal nu finde ud af, om LOT1 findes i eventuelle andre åbne bilag, ved integrering af sporingsresultatet til siden **Find poster**, hvor han kan foretage en søgning i alle databaseposter.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Sådan findes alle forekomster af LOT1 i ikke-bogførte poster, som f.eks. åbne ordrer  
 
 1.  Vælg markøren i første sporingslinje på siden **Varesporing**, dvs. købsleverancen for LOT1.  
-2.  Vælg handlingen **Naviger**.  
+2.  Vælg handlingen **Find poster**.  
 
-    Siden **Naviger** er forudindstillet med søgefiltre, der er baseret på sporingsresultatet for LOT1. Den ansvarlige for kvalitetssikring kan genkende de fleste poster som tilhørende bilag, der allerede er identificeret på siden **Varesporing**. Den sidste navigationslinje af typen Produktionsordre refererer til to frigivne produktionsordrer, der har brugt racerstellene fra LOT1.  
+    Siden **Find poster** er forudindstillet med søgefiltre, der er baseret på sporingsresultatet for LOT1. Den ansvarlige for kvalitetssikring kan genkende de fleste poster som tilhørende bilag, der allerede er identificeret på siden **Varesporing**. Den sidste Find poster-linje af typen Produktionsordre refererer til to frigivne produktionsordrer, der har brugt racerstellene fra LOT1.  
 
-    Den anden navigeringslinje af typen **Salgslinje** er en ikke-bogført dokumentlinje, så den undersøger den ansvarlige for kvalitetssikring.  
+    Den anden Find poster-linje af typen **Salgslinje** er en ikke-bogført dokumentlinje, så den undersøger den ansvarlige for kvalitetssikring.  
 
-3.  Vælg den anden navigationslinje for at åbne salgslinjeposten, og vælg handlingen **Vis**. Du kan også vælge værdien i feltet **Antal poster**.  
+3.  Vælg den anden Find poster-linje for at åbne salgslinjeposten, og vælg handlingen **Vis**. Du kan også vælge værdien i feltet **Antal poster**.  
 
     Her kan den ansvarlige for kvalitetssikringen se, at der er en åben salgslinje for de fejlbehæftede racerstel. Han foreslår straks salgsafdelingen, at denne ordre annulleres, og at der startes en ny produktionsordre, der er baseret op fejlfrie racerstel.  
 
- Dermed er denne gennemgang i, hvordan siden **Naviger** bruges til administration af fejlbehæftede varer sammen med siden **Varesporing**, færdig.  
+ Dermed er denne gennemgang i, hvordan siden **Find poster** bruges til administration af fejlbehæftede varer sammen med siden **Varesporing**, færdig.  
 
 ## <a name="see-also"></a>Se også
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
 [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)  
+[Find poster](ui-find-entries.md)  
 [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
+

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787617"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922088"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designoplysninger: Varesporing og reservationer
 
@@ -36,10 +36,11 @@ Reservation af varesporingsnumre falder i to kategorier, som vist i følgende ta
 |Ikke-specifik|Du vælger ikke et bestemt serienummer eller lotnummer, når du reserverer lagervaren fra et behov, f.eks. en salgsordre.<br /><br /> Dette er en tilstand, der er pålagt en reservationspost for serie- eller lotnumre, der ikke er specifikt valgt. **Bemærk!** Behovet har ikke serie- eller lotnumre. <br /><br /> Du ønsker f.eks. at reservere en dåse blå maling fra et hvilket som helst lot til din salgsordre. En dåse blå maling fra et vilkårlig serie- eller lotnummer er leveret til kunden.|  
   
 Den væsentligste forskel mellem specifik og generel reservation defineres af eksistensen af serie- eller lotnumre på behovssiden, som vist i følgende tabel.  
-  
-|<!--blank -->|**Udbud**|**Efterspørgsel**|  
-|**Specifik**|Serienummer eller lotnummer.|Serie- eller lotnummer.|  
-|**Ikke-specifik**|Serienummer eller lotnummer.|Intet serie- eller lotnummer.|  
+
+| Type            | Forsyning                | Behov                   |
+|-----------------|-----------------------|--------------------------|
+| **Bestemt**    | Serie- eller lotnummer. | Serie- eller lotnummer.    |
+| **Ikke-specifik** | Serie- eller lotnummer. | Intet serie- eller lotnummer. |
   
 Når du reserverer lagerbeholdningsantal fra en udgående dokumentlinje for en vare, der har varesporingsnumre tildelt og er defineret til specifik varesporing, fører siden **Reservation** dig gennem forskellige arbejdsgange, afhængigt af behovet for serie- eller lotnumre.  
   

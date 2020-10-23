@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 06/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: da2ea0e51ef65eb432cc67f36db230bfea178c03
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: d47214392e3c0e48f436475a79407a752a95583d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528659"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914560"
 ---
 # <a name="changing-language-and-region"></a>Ændre sprog og geografisk område
 
@@ -26,7 +26,7 @@ Hvis du f.eks. bruger den canadiske version af [!INCLUDE[d365fin](includes/d365f
 Du kan ændre sproget i brugergrænsefladen ved at gå til siden **Indstillinger**. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
-> Valget af sprog nulstilles til indstillingen på din Office 365-profil, hvis administratoren synkroniserer brugere fra Office 365 til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Valget af sprog nulstilles til indstillingen på din Microsoft 365-profil, hvis administratoren synkroniserer brugere fra Microsoft 365 til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Ændring af de tekster, der er arkiveret som programdata, er ikke en del af flersprogsfunktionen. Det er et spørgsmål om programdesign. Eksempler på sådanne tekster er navnene på varer på lager eller bemærkningerne om en kunde. Disse teksttyper oversættes altså ikke.  
 
@@ -36,7 +36,7 @@ Du kan ændre sproget i brugergrænsefladen ved at gå til siden **Indstillinger
 ## <a name="changing-the-region"></a>Ændre området
 Det geografiske område adskiller sig fra både sprog og lovgivningsmæssige krav på lokale markeder. Området bestemmer, hvordan dataene vises med hensyn til kommaseparator, venstre- eller højrejustering og visse andre indstillinger. Området bestemmer også nogle af systemelementerne i browseren, f.eks. handlingen til at oprette en ny vare på en liste.  
 
-Du kan ændre området under den browserfane, du bruger til at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ændringen gælder kun for dig og ikke for andre brugere i virksomheden.  Bemærk, at valget af område nulstilles til din indstilling på din Office-profil, hvis administratoren synkroniserer brugere fra Office 365 til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du kan ændre området under den browserfane, du bruger til at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ændringen gælder kun for dig og ikke for andre brugere i virksomheden.  Bemærk, at valget af område nulstilles til din indstilling på din Office-profil, hvis administratoren synkroniserer brugere fra Microsoft 365 til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!IMPORTANT]  
 >  Når du ændrer området, vises der en lang række sprog og områder. Sproget påvirkes dog ikke af det område, du vælger.  

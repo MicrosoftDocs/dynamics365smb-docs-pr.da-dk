@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 371f9c8629d699d7c07f2d72c99b8b64fac3b4b9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 68271b7f6f90f88af74cee848af82d28abbf339f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780331"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921363"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Bruge timesedler for sager
 
@@ -113,6 +113,27 @@ Når du har godkendt eller afvist en timeseddel, kan den ikke redigeres, medmind
     >   Du kan kun åbne linjer med statussen **Godkendt**. Du kan ikke genåbne linjer med statussen **Afvist**. Du kan ikke genåbne en timeseddel, hvis den er blevet bogført.  
 3. På siden **Timeseddel** skal du vælge handlingen **Åbn igen** og derefter vælge handlingen **Alle sendte linjer** for at åbne alle linjer igen eller handlingen **Kun valgte linjer** for kun at åbne de linjer, der er valgt på siden **Timeseddel**, igen.
 4. Vælg knappen **OK**. Status for timeseddellinjerne er ændringer for **Sendt**.  
+
+## <a name="to-view-and-approve-time-sheets-by-job"></a>Sådan kan du se og godkende en timeseddel efter sag
+
+Du kan for en sag angive en person, der er ansvarlig for sagen. Disse oplysninger er knyttet til timeseddellinjer og kan bruges til at angive en liste over timesedler, som en projektleder skal gennemse og godkende. Teamprojektlederen kan for eksempel være ansvarlig for bestemte sager i din virksomhed. I så fald bør lederen udpeges som **Ansvarlig person** på sagskortet. Du kan se sagsopgaver, der er knyttet til en sag, og antal timer brugt, i denne visning af timeseddeloplysninger.
+
+> [!NOTE]
+> Du skal godkende timesedler i vinduet **Leders timeseddel efter sag**, når du har valgt en indstilling for **Timeseddel efter sagsgodkendelse** på siden **Ressourceopsætning**. Der er flere oplysninger i [Konfigurere ressourcer](projects-how-setup-resources.md).
+
+### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Sådan godkendes eller afvises en timeseddel efter sag
+
+1. Indtast **Leders timeseddel efter sag** i feltet **Søg**, og vælg derefter det relaterede link. Microsoft Dynamics NAV viser en liste over timeseddellinjer, der er knyttet til de job, du har ansvaret for.
+2. Vælg **Godkend** under fanen **Startside**. Vælg **Alle** for at godkende alle linjer. Vælg **Valgte** for kun at godkende markerede linjer.
+
+    > [!NOTE]
+    > Du kan kun godkende timesedler med status **Sendt**.
+
+3. Markér en timeseddellinje, og vælg **Bemærkninger** under fanen **Naviger** for at give yderligere oplysninger om godkendelse eller afvisning. Indtast en dato i feltet **Dato**, og angiv en bemærkning i feltet **Bemærkning**.
+4. Vælg knappen **OK**.
+
+> [!NOTE]
+> Når du har godkendt eller afvist en timeseddellinje efter sag, kan den ikke åbnes igen eller ændres i vinduet **Timeseddel**.
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Sådan bogfører du timeseddellinjer i en ressourcekladde
 Når du har godkendt timeseddelposter for en ressource, kan du bogføre dem i den relevante ressourcekladde.

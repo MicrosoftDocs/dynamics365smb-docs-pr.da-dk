@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 382328e88c828afbf4316eb1f9bab73f6a2b7f95
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527931"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911376"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilknytning af tabeller og felter til synkronisering
 Grundlaget for synkronisering af data i [!INCLUDE[d365fin](includes/d365fin_md.md)] med data i [!INCLUDE[d365fin](includes/cds_long_md.md)] er at tilknytte de tabeller og felter, der indeholder dataene, til hinanden. Tilknytningen sker via integrationstabeller. 
@@ -30,6 +30,17 @@ Når du opretter forbindelsen mellem appsene, opretter [!INCLUDE[d365fin](includ
 
 ### <a name="synchronization-rules"></a>Synkroniseringsregler
 En integrationstabeltilknytning indeholder også regler, der styrer, hvordan integrationssynkroniseringsjob synkroniserer poster i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel og et objekt i [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
+
+### <a name="strategies-for-auto-resolving-conflicts"></a>Strategier til automatisk løsning af konflikter
+Datakonflikter kan nemt forekomme, når forretningsprogrammer udveksler data løbende. Du kan f. eks. slette eller ændre en post i et af programmerne eller begge dele. Du kan reducere antallet af konflikter, som du skal løse manuelt, ved at angive løsningsstrategier, og [!INCLUDE[d365fin](includes/d365fin_md.md)] vil dermed løse konflikterne i overensstemmelse med reglerne i strategierne.
+
+Tilknytninger til integrationstabeller omfatter regler, der styrer, hvordan synkroniseringsjob synkroniserer poster. På siden **Integrationstabeltilknytning** i kolonnerne **Løs sletningskonflikter** og **Løs opdateringskonflikter** kan du angive, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] skal løse de konflikter, der opstår, skal løses, fordi posterne blev slettet i tabeller i et eller et andet forretningsprogram eller blev opdateret i begge. 
+
+I kolonne **Løs sletningskonflikter** kan du vælge, at [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk gendanner slettede poster, fjerner koblingen mellem posterne eller gør ingenting. Hvis du ikke gør noget, skal du løse problemerne manuelt. 
+
+I kolonnen **Løs opdateringskonflikter** kan du vælge, at [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk sender en dataopdatering til integrationstabellen, når du sender data til [!INCLUDE[d365fin](includes/cds_long_md.md)], eller henter en dataopdatering fra integrationstabellen, når der hentes data fra [!INCLUDE[d365fin](includes/cds_long_md.md)], eller du kan vælge ikke at gøre noget. Hvis du ikke gør noget, skal du løse problemerne manuelt.
+
+Når du har angivet strategien på siden **Fejl ved sammenkædet datasynkronisering**, kan du vælge handlingen **Prøv alle igen** for at løse konflikter automatisk. 
 
 ## <a name="mapping-integration-fields"></a>Felter til integrationstilknytning
 Tilknytningstabeller er kun det første trin. Du skal også tilknytte felterne i tabellerne. Integrationsfelttilknytninger sammenkæder felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller med tilsvarende felter i [!INCLUDE[d365fin](includes/cds_long_md.md)] og bestemmer, om data skal synkroniseres i hver tabel. Den standardtabeltilknytning, som [!INCLUDE[d365fin](includes/d365fin_md.md)] giver, omfatter felttilknytninger, men du kan ændre dem, hvis du vil. Du kan finde flere oplysninger i  [Visning af enhedstilknytninger](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).

@@ -1,34 +1,37 @@
 ---
-title: Definere den generelle lageropsætning | Microsoft Docs
-description: Bruges til at definere den generelle lageropsætning, f.eks. nummerserier og lokationer, så du f.eks. kan administrere dit lagersted og din lagerbeholdning.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Definere den generelle lageropsætning
+description: Beskriver, hvordan du definerer den generelle Lageropsætning, så du kan administrere lagerstedet og lagerbeholdningen.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9ca38111f2a5f61bd9a815d7b37dd8696b85a7d0
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 73fbf09cff59556c04b43383c507a01883bbb071
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785667"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923741"
 ---
 # <a name="set-up-general-inventory-information"></a>Konfigurere generelle lageroplysninger
+
 Du kan angive dine generelle lageropsætning på siden **Lageropsætning**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Sådan konfigurerer du generelle lageroplysninger
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropsætning**, og vælg derefter det relaterede link.
 2. På siden **Lageropsætning** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Hvis du vil have detaljerede oplysninger om omkostningsfelterne **Aut. lagerværdibogføring** og **Bogf. af forventet kostpris**, skal du se [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md) og [Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md).
+Hvis du vil have detaljerede oplysninger om omkostningsfelterne **Aut. lagerværdibogføring**, **Bogf. af forventet kostpris** og **Standardmetode for kostprisberegning**, skal du se [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md) og [Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md). Du kan finde flere oplysninger om kostpris i almindelighed under [Administrere lageromkostninger](finance-manage-inventory-costs.md).  
 
 Hvis du automatisk vil inkludere lagerekspeditionstiden i beregningen af leveringstiden på købslinjen, kan du angive det som standardindstilling på siden **Opsætning af Lager** og for din lokation. Du kan finde flere oplysninger i [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).  
+
+> [!NOTE]
+> Funktionen til **Automatisk regulering af kostpris** er som standard aktiveret for at sikre, at lagerværdierne altid er korrekte i finansbogholderiet, som samtidig holder salgs- og overskudsstatistikken ajour. Kostprisændringer fra indgående poster, f.eks. for køb eller produktionsoutput, er tilknyttet de relaterede udgående poster, f.eks. salg eller overførsler. Dette er nyttigt for nye [!INCLUDE[d365fin](includes/d365fin_md.md)] kunder og mindre virksomheder med relativt lave lagertransaktionsniveauer. Men i takt med at virksomhedens vækst vokser, og lagerniveauet stiger, kan det gøre systemets ydeevne langsommere. Hvis du vil minimere reduceret ydeevne under bogføringen, skal du vælge en tidsindstilling for at definere, hvor langt tilbage i forhold til arbejdsdatoen en indgående transaktion må forekomme for at udløse reguleringen af relaterede udgående værdiposter. Alternativt kan du ændre omkostningerne manuelt med kørslen Reguler kostværdi - vareposter.
 
 ## <a name="see-also"></a>Se også
 [Konfigurere lager](inventory-setup-inventory.md)  

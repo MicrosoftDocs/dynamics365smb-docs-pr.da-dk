@@ -1,0 +1,53 @@
+---
+title: Basic Experience Extension | Microsoft-dokumenter
+description: Denne udvidelse er et nyere alternativ til Microsoft Dynamics C5.
+author: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: C5, financials, extension
+ms.date: 10/01/2020
+ms.author: bholtorf
+ms.openlocfilehash: e7377d1413e2f1969543374f1b819e6fc8a2a263
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927624"
+---
+# <a name="the-basic-experience-extension"></a>Basic Experience Extension
+Hvis du har brugt Microsoft Dynamics C5, kan Microsoft-partnere hjælpe dig med at skifte til en mere moderne løsning, der er baseret på [!INCLUDE[d365fin](includes/d365fin_md.md)], så du fortsat kan nyde den samme strømlinede funktionalitet som Dynamics C5.
+
+Denne udvidelse henvender sig til mindre virksomheder og kan understøtte op til tre brugere. Hvis du har brug for flere brugere, skal du opgradere til en [!INCLUDE[d365fin](includes/d365fin_md.md)]-licens og fjerne udvidelsen.
+
+> [!NOTE]
+> Denne udvidelse er kun tilgængelig for debitorer i Danmark og Island. 
+
+## <a name="whats-available"></a>Tilgængelige oplysninger
+I følgende tabel beskrives de funktioner, der er tilgængelige, hvis du installerer Basic Experience-udvidelsen.
+
+|Område  |Funktion  |
+|---------|---------|
+|**Finansposter** |Grundlæggende finans, kontoskemaer, anlægsaktiver, bankstyring, bankafstemning, betalinger, direkte debitering, dimensioner, flere valutaer, budgetter, arbejdsgang, dokumentstyring/OCR, konsolidering, ubegrænsede firmaer|
+|**Kontonr. for tilgodehavender/salg** |Grundlæggende tilgodehavender, salgsfakturering, salgsrabatter, pris, moms, Kontaktstyring |
+|**Kreditorer/indkøb** |Grundlæggende skyldige beløb, købsfakturering |
+|**Projektstyring** |Sager, sagsomkostninger, time sedler, tildeling, opgaver, ressourcer |
+|**Lagerbeholdning** |Basis lager, erstatningsvare, varereferencer |
+
+## <a name="getting-started"></a>Introduktion
+Dette filtypenavn er lidt anderledes end de fleste, og du har brug for hjælp fra en Microsoft-partner for at kunne installere og konfigurere den. Det betyder, at du ved, hvad du kan forvente, men her er en overordnet oversigt over, hvad Microsoft-partneren skal gøre.
+
+1. Oprette en ny [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer. Dette kan enten være en prøveversion eller en version af CSP.
+2. Tilføje mindst én bruger, der er tildelt en grundlæggende Experience licens, i din Azure Active Directory-konto.
+3. Fjerne alle regnskaber, herunder eksemplet med CRONUS-regnskabet.
+4. Oprette en ny virksomhed, der ikke indeholder eksempeldata eller opsætninger.
+5. Tilføje **Demo RapidStart**-pakken. <!--what does the pockage contain?-->
+6. Hente og installere Basic Experience-udvidelsen fra AppSource.
+
+## <a name="migrating-data"></a>Dataoverførsel
+Bring dine Dynamics C5-data sammen. Når din Microsoft-partner har installeret den grundlæggende oplevelse, har du en tom virksomhed. En nem måde at flytte dine data fra Dynamics C5 til Basic Experience på er at bruge det C5-data overflytnings udvidelse, som findes i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Udvidelsen overflytter debitorer, kreditorer, varer og finanskonti og deres poster.
+
+## <a name="see-also"></a>Se også
+[Udvidelsen C5-dataoverførsel](ui-extensions-c5-data-migration.md)

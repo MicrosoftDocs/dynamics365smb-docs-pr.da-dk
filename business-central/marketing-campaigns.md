@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a51fc3a0fdd4ea1e622f3f69f2e6faf9902178bc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dd309537e7f2e5c57f722345f2c33dc7bc6dfebb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181648"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922790"
 ---
 # <a name="managing-marketing-campaigns"></a>Administration af marketingkampagner
 Når du har fastlagt en stærk marketingplan, kan du identificere og tiltrække kunder og holde på dem. En marketingplan består af forskellige kampagner og andre interaktioner i forbindelse med salgs- og marketingaktiviteter. Mens du planlægger en kampagne, skal du beslutte, hvilke kontaktpersoner der skal være målet, hvilken type kampagne kampagnen skal være (f.eks. en messe eller direct mail), og hvilke sælgere der skal udføre de enkelte opgaver.

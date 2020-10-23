@@ -1,24 +1,25 @@
 ---
 title: Bruge finanskladder, der skal bogføres direkte til Finans | Microsoft Docs
 description: Lær, hvordan du kan bruge kladder til at bogføre økonomisk transaktioner på finanskonti og andre konti, f.eks. bank- og kreditorkonti.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/10/2020
+ms.search.keywords: journals, recurring, accrual
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 669985f08dd497ecec925eef126fff262067b947
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785242"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920693"
 ---
 # <a name="working-with-general-journals"></a>Arbejde med finanskladder
 
-De fleste finansposteringer bogføres i finansregnskabet ved hjælp af dedikerede forretningsdokumenter, f.eks. købsfakturaer og salgsordrer. Men du kan også behandle forretningsaktiviteter som f.eks. køb, betaling eller refundering af medarbejderens udgifter ved at bogføre kladdelinjer i de forskellige kladder i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De fleste finansposteringer bogføres i finansregnskabet ved hjælp af dedikerede forretningsdokumenter, f.eks. købsfakturaer og salgsordrer. Men du kan også behandle forretningsaktiviteter som f.eks. køb, betaling ved hjælp af gentagne kladder til at bogføre periodiseringer eller refundering af medarbejderens udgifter ved at bogføre kladdelinjer i de forskellige kladder i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 De fleste kladder er baseret på *Finanskladde*, og du kan behandle alle transaktioner på siden **Finanskladde**. Du kan finde flere oplysninger i [Bogføre transaktioner direkte i finansregnskabet](finance-how-post-transactions-directly.md).  
 
@@ -44,6 +45,27 @@ For hver kladdetype kan du angive din egen private kladde som kladdenavn. F.eks.
 
 > [!TIP]
 > Hvis du vil tilføje eller fjerne felter i kladder, skal du bruge **Tilpasning**-banneret. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+
+### <a name="validating-general-journal-batches"></a>validering af Finanskladdenavne
+Du kan forhindre forsinkelser i bogføringen ved at aktivere en baggrundskontrol, der giver dig besked om, at der er en fejl i den finanskladde, som du arbejder på, som forhindrer, at du bogfører kladden. På siden **Finanskladdenavn** kan du vælge **Baggrundsfejlkontrol** for at [!INCLUDE[d365fin](includes/d365fin_md.md)] validerer finanskladder som f. eks. generelle eller udbetalingskladder, mens du arbejder på dem. 
+
+Når du aktiverer valideringen, vises faktaboksen **kladdekontrol** ud for kladdelinjerne, og derefter vises afgange på den aktuelle linje og på hele batchen. Validering sker, når du indlæser et Finanskladdenavn, og når du vælger en anden kladdelinje. Det **samlede antal problemer** i faktaboksen viser det samlede antal problemer, som [!INCLUDE[d365fin](includes/d365fin_md.md)] har fundet, og du kan vælge den for at åbne en oversigt over problemerne. 
+
+Du kan bruge handlingerne **Vis linjer med problemer** og **Vis alle linjer** til at skifte mellem de kladdelinjer, der har eller ikke har problemer. Faktaboksen med de nye **kladdelinjedetaljer** giver hurtig oversigt og adgang til data fra kladdelinjer, f. eks. finanskonto, debitor eller kreditor, samt Bogføringsopsætning for specifikke konti.     
+
+### <a name="reversing-journals-to-correct-mistakes"></a>Tilbageføre kladder for at rette fejltagelser
+Når du arbejder med kladder med mange linjer, og noget går galt, er det vigtigt, at du har en nem måde at rette fejlene på. Siden **Bogført finanskladde** indeholder et par handlinger, der kan være en hjælp.
+
+* **Kopier udvalgte linjer til kladde** - Kopier kun de linjer, du vælger.
+* **Kopier Finansjournal til Journal** - Kopier alle linjer, der hører til samme Finansjournal.
+
+Du kan bruge disse handlinger til at oprette en kopi af en finanskladdelinje eller et batch og derefter angive følgende:
+
+* Den kladde, som linjerne skal kopieres til
+* Med modsatte fortegn (en tilbageføringskladde)
+* En anden bogføringsdato eller et andet bilagsnummer
+
+Hvis du vil tillade, at kladder kopieres til bogførte finanskladder på siden **Finanskladdetyper**, skal du vælge afkrydsningsfeltet **Kopier til bogførte kladdelinjer**. Når du har tilladt at kopiere bogførte finanskladder, kan du om nødvendigt slå kopiering til for bestemte kladder.
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Om hovedkonti og modkonti
 Hvis du har oprettet modkonti for kladdenavnene, udfyldes modkontoen automatisk på siden **Finanskladder**, når du udfylder feltet **Kontonr.**. Hvis ikke, skal du udfylde både feltet **Kontonr.** og feltet **Modkontonr.** manuelt. Et positivt beløb i feltet **Beløb** debiteres på hovedkontoen og krediteres på modkontoen. Et negativt beløb krediteres på hovedkontoen og debiteres på modkontoen.
@@ -99,6 +121,18 @@ Hvis gentagelsesmetoden i gentagelseskladden er sat til **Saldo** eller **Saldo 
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Eksempel: Fordeling af huslejebetalinger til forskellige afdelinger
 Du betaler husleje hver måned, så du kan indtaste huslejen i indbetalingskonto på en gentagelseskladdelinje. På siden **Fordelinger** kan du opdele udgiften på flere afdelinger (afdelingsdimension), i forhold til det antal kvadratmeter hver afdeling optager. Beregningen er baseret på allokeringsprocenten på hver linje. Du kan f.eks. indtaste forskellige konti på forskellige fordelingslinjer (hvis huslejen også skal fordeles på flere konti) eller indtaste den samme konto, men med forskellige dimensionsværdikoder for dimensionen Afdeling på hver linje.
+
+### <a name="reversal-date-calculation"></a>Tilbagefør datoberegning
+Når du bruger gentagelseskladder til at bogføre periodiseringer i slutningen af en periode, er det vigtigt, at du har fuld kontrol over de tilbageførte poster. På siden **Gentagelseskladder** kan du i feltet **Tilbagefør datoberegning** styre den dato, hvor de tilbageførte poster skal bogføres, når der bruges tilbagevendende gentagelsesmetoder.
+
+#### <a name="example"></a>Eksempel
+Periodiseringer bogføres som regel med faste, variable eller balancegentagede metoder på kladdelinjen. Bogføringsdatoen for det bogførte beløb på kontoen på kladdelinjen beregnes vha. gentagelsesinterval. Bogføringsdatoen for modposten beregnes ved hjælp af feltet **Tilbagefør datoberegning** følgende måde:
+
+* Hvis feltet er tomt, bogføres modposten efterfølgende dag.
+* Hvis feltet indeholder en datoformel (f. eks. **5D** for fem dage), vil modposten blive bogført med en bogføringsdato, der er beregnet vha. beregningen af annulleringsdatoen.
+
+> [!NOTE]
+> Som standard er feltet **Tilbagefør datoberegning** ikke tilgængeligt på siden **Tilbagevendende finanskladder**. Hvis du vil bruge feltet, skal du tilføje det ved at tilpasse siden. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ## <a name="working-with-standard-journals"></a>Arbejde med standardkladder
 Når du har oprettet kladdelinjer, som du ved, at du sandsynligvis skal oprette igen senere, kan du gemme dem som en standardkladde, inden du bogfører kladden. Denne funktion gælder for varekladder og finanskladder.

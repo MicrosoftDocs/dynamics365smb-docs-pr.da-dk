@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787317"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917297"
 ---
 # <a name="design-details-production-order-posting"></a>Designoplysninger: Bogføring af produktionsordre
 I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet. Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md). Men montageordrers kost-flow er mindre kompliceret, især fordi montageomkostninger kun bogføres én gang og derfor ikke opretter lageret for igangværende arbejde.
@@ -44,10 +44,10 @@ Afhængigt af typen af lager repræsenteres forøgelser og reduceringer af forsk
 
 ||Forøgelse|Reducering|  
 |-|---------------|---------------|  
-|**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Afgang af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
-|**VIA-lagerbeholdning**|-   Materialeforbrug<br />-   Kapacitetsforbrug<br />-   Indirekte prod.kostpris|Afgang af færdigvarer (omkostninger af fremstillede varer)|  
-|**Færdigvarelager**|Afgang af færdigvarer (omkostninger af fremstillede varer)|-   Salg (vareforbrug)<br />-   Negativ afgang|  
-|**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Afgang af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
+|**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Output af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
+|**VIA-lagerbeholdning**|-   Materialeforbrug<br />-   Forbrugskapacitet<br />-   Indirekte prod.kostpris|Afgang af færdigvarer (omkostninger af fremstillede varer)|  
+|**Færdigvarelager**|Afgang af færdigvarer (omkostninger af fremstillede varer)|-   Salg (vareforbrug)<br />-   Negativt output|  
+|**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Output af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
 
 Værdierne for forøgelser og reduceringer registreres i de forskellige typer af produceret lager på samme måde som for købt lager. Hver gang en lagerforøgelses- eller lagerreduceringstransaktion finder sted, oprettes der en varepost og en tilsvarende finanspost for beløbet. Du kan finde flere oplysninger i [Designoplysninger: Varekladde](design-details-inventory-posting.md).  
 
