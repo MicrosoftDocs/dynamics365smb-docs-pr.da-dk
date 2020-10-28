@@ -27,7 +27,7 @@ Siden **Brugeropgaver** viser alle opgaver, og du kan nemt oprette og tildele ny
 
 Du kan f.eks. oprette en opgave til dig selv eller en kollega for at få vist alle bogførte salgsfakturaer. I så fald skal knytte du opgaven til side 143, **Bogf. salgsfakturaer**. På følgende skærmbillede oprettes der en opgave for MeganB for at gennemgå de bogførte salgsfakturaer.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Eksempel på en brugeropgave&quot;:::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Eksempel på en brugeropgave":::
 
 > [!TIP]  
 > Brug opslaget i feltet **Side**, og brug derefter feltet **Søg** til at finde den ønskede side.  
