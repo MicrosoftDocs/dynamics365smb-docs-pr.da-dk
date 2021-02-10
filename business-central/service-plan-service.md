@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915256"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757838"
 ---
 # <a name="planning-services"></a>Planlægning af service
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du konfigurere de standardopgaver, du skal bruge for at kunne opfylde virksomhedens krav til kundeservice. For at gøre dette skal du bestemme, hvilke serviceartikler og servicetilbud jeres serviceorganisation skal understøtte, og til hvilken pris.   
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du konfigurere de standardopgaver, du skal bruge for at kunne opfylde virksomhedens krav til kundeservice. For at gøre dette skal du bestemme, hvilke serviceartikler og servicetilbud jeres serviceorganisation skal understøtte, og til hvilken pris.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder også nogle statistikværktøjer, som du kan bruge til at bestemme, hvor godt det går, og til at identificere områder, der kan forbedres.
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder også nogle statistikværktøjer, som du kan bruge til at bestemme, hvor godt det går, og til at identificere områder, der kan forbedres.
   
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
   

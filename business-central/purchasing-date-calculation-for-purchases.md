@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918885"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758588"
 ---
 # <a name="date-calculation-for-purchases"></a>Beregning af forfaldsdato for køb
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato. Dette er den dato, du kan forvente, at varer, der er bestilt på en bestemt dato, er disponible til pluk.  
+[!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato. Dette er den dato, du kan forvente, at varer, der er bestilt på en bestemt dato, er disponible til pluk.  
 
 Hvis du angiver en ønsket modtagelsesdato på et købsordrehoved, er den beregnede ordredato den dato, hvor ordren skal være placeret for at modtage varerne på den dato, du har anmodet om. Derefter beregnes den dato, hvor varerne er disponible til pluk, og datoen indsættes i feltet **Forventet modt.dato**.  
 
@@ -50,7 +50,7 @@ Hvis du ændrer ordredatoen på hovedet, kopieres denne dato til feltet **Ordred
 
 ## <a name="default-values-for-lead-time-calculation"></a>Standardværdier for beregning af leveringstid
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bruger værdien fra feltet **Leveringstid** på købsordrelinjen til at beregne ordren og de forventede modtagelsesdatoer.  
+[!INCLUDE[prod_short](includes/prod_short.md)] bruger værdien fra feltet **Leveringstid** på købsordrelinjen til at beregne ordren og de forventede modtagelsesdatoer.  
 
 Du kan angive værdien på linjen manuelt eller lade programmet bruge værdier, der er defineret på kreditorkortet, varekortet, lagervarekortet eller vare/leverandør-kataloget.
 Men værdien af leveringstiden på kreditorkortet bruges kun, hvis der ikke er angivet en leveringsperiode på varekortet, lagervarekortet eller vare/leverandør-kataloget for varen. Dette er også den prioriterede rækkefølge for disse værdier. Hvis de alle er angivet, har leveringstiden fra kreditorkortet den laveste prioritet, og leveringstiden fra vare/leverandør-kataloget har den højeste prioritet.  
@@ -59,4 +59,4 @@ Men værdien af leveringstiden på kreditorkortet bruges kun, hvis der ikke er a
 
 [Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)   
 [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

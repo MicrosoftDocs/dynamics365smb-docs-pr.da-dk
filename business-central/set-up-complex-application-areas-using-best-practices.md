@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9647dcebb949519c187d7289467e462b66dc32a2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89e7117e7dbc8d0b2865edbd318858e59f6a76f6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912947"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757813"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Opret komplekse moduler ved hjælp af bedste praksis
 Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for at ny forretningssoftware kan fungere effektivt.  
 
  Uanset du bruger RapidStart til at implementere opsætningsværdier, eller du angiver dem manuelt i den nye virksomhed, kan du basere dine opsætningsbeslutninger på generelle anbefalinger for udvalgte opsætningsfelter, der erfaringsmæssigt kan gøre løsningen ineffektiv, hvis de konfigureres forkert.  
 
- Hjælp i [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder oplysninger om de bedste fremgangsmåder til opsætning af nøglefelter i følgende områder:  
+ Hjælp i [!INCLUDE[prod_short](includes/prod_short.md)] indeholder oplysninger om de bedste fremgangsmåder til opsætning af nøglefelter i følgende områder:  
 
 -   [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
 
@@ -31,7 +31,7 @@ Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for a
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

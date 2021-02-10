@@ -10,21 +10,21 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2147240aac15b805a6f64473b5eb2febb38deac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912392"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757563"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Brug af AMC Banking 365 Fundamentals-udvidelsen
-AMC Banking 365 Fundamentals-udvidelsen gør det nemmere og mere nøjagtigt at sende data til dine banker. Udvidelsen forbinder [!INCLUDE[d365fin](includes/d365fin_md.md)] med AMC Banking 365 Fundamentals til Microsoft Dynamics 365 Business Central-tjenesten, som kan konvertere bankdata [!INCLUDE[d365fin](includes/d365fin_md.md)] til formater, der kræves af mere end 600 banker verden over. Det gør det f.eks. nemmere at overføre betalinger og kreditter til kreditorer ved at angive betalingerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] og derefter overføre dem til din bank. Formaterne kan også forenkle bankafstemningsprocesser. Du kan finde flere oplysninger i [AMC Banking til Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
+AMC Banking 365 Fundamentals-udvidelsen gør det nemmere og mere nøjagtigt at sende data til dine banker. Udvidelsen forbinder [!INCLUDE[prod_short](includes/prod_short.md)] med AMC Banking 365 Fundamentals til Microsoft Dynamics 365 Business Central-tjenesten, som kan konvertere bankdata [!INCLUDE[prod_short](includes/prod_short.md)] til formater, der kræves af mere end 600 banker verden over. Det gør det f.eks. nemmere at overføre betalinger og kreditter til kreditorer ved at angive betalingerne i [!INCLUDE[prod_short](includes/prod_short.md)] og derefter overføre dem til din bank. Formaterne kan også forenkle bankafstemningsprocesser. Du kan finde flere oplysninger i [AMC Banking til Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).
 
 > [!Note]
-> AMC Banking har oprettet yderligere udvidelser, som fungerer sammen med [!INCLUDE[d365fin](includes/d365fin_md.md)]. I dette emne beskrives kun Fundamental-udvidelsen.
+> AMC Banking har oprettet yderligere udvidelser, som fungerer sammen med [!INCLUDE[prod_short](includes/prod_short.md)]. I dette emne beskrives kun Fundamental-udvidelsen.
 
 ## <a name="using-our-demonstration-account"></a>Bruge vores demonstrationskonto
-[!INCLUDE[d365fin](includes/d365fin_md.md)] leveres med en demonstrationskonto, som giver dig mulighed for at prøve AMC Banking 365 Fundamentals-udvidelsen. Vi angiver standardindstillinger for oprettelse af forbindelse til AMC Banking, angivelse af de bankkonti, der skal hentes data fra i [!INCLUDE[d365fin](includes/d365fin_md.md)] samt nogle få dataudvekslingsdefinitioner. Du kan få vist forbindelsesindstillingerne på siden **Konfiguration af AMC Banking**. For bankkonti indsætter udvidelsen værdier i felterne **Banknavn**, **Kreditoverførselsmedd.numre**, **Format til import af bankkontoudtog** og **Format til eksport af betaling** på bankkontokort.
+[!INCLUDE[prod_short](includes/prod_short.md)] leveres med en demonstrationskonto, som giver dig mulighed for at prøve AMC Banking 365 Fundamentals-udvidelsen. Vi angiver standardindstillinger for oprettelse af forbindelse til AMC Banking, angivelse af de bankkonti, der skal hentes data fra i [!INCLUDE[prod_short](includes/prod_short.md)] samt nogle få dataudvekslingsdefinitioner. Du kan få vist forbindelsesindstillingerne på siden **Konfiguration af AMC Banking**. For bankkonti indsætter udvidelsen værdier i felterne **Banknavn**, **Kreditoverførselsmedd.numre**, **Format til import af bankkontoudtog** og **Format til eksport af betaling** på bankkontokort.
 
 Vi angiver indstillingerne, men hvis du vil afprøve udvidelsen, skal du køre den assisterende opsætningsvejledning for at anvende dem. Hvis du vil køre guiden, skal du vælge handlingen **Assisteret opsætning** på siden **Konfiguration af AMC Banking**.
 
@@ -48,7 +48,7 @@ For hvert nyt rettighedssæt skal du kun give **læserettighed** til **AMC Banki
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Hvis du vil knytte udvidelsen til AMC Banking
 1. Hent et modul og en serviceplan for AMC Banking. Det kan du gøre ved at besøge siden [AMC-licens](https://license.amcbanking.com/register).
-2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du vælge ![ikonet Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Konfiguration af AMC Banking** og derefter vælge det relaterede link.  
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge ![ikonet Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Konfiguration af AMC Banking** og derefter vælge det relaterede link.  
 3. Vælg handlingen **Assisteret opsætning** på siden **Konfiguration af AMC Banking**.
 4. Udfør trinnene i guiden til assisteret opsætning.
 
@@ -82,8 +82,8 @@ Brug af denne udvidelse går blot ud på at eksportere data på siden **Udbetali
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingsudligningskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Importér banktransaktioner**, og vælg derefter den konverterede fil.  
 
-   [!INCLUDE[d365fin](includes/d365fin_md.md)] opretter en ny betalingsudligningskladde, der indeholder dataene i filen. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   [!INCLUDE[prod_short](includes/prod_short.md)] opretter en ny betalingsudligningskladde, der indeholder dataene i filen. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Introduktion](product-get-started.md)

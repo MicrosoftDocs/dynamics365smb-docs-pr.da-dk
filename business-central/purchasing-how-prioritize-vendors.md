@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 177fb324e39a59abbfc1b50e6ceaa34d4ae06f56
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87d2f7c7fe2d395d16b41b288500f22e16bd0ba0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926893"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758538"
 ---
 # <a name="prioritize-vendors"></a>Tildele kreditorer prioritet
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan foreslå forskellige betalinger til kreditorer. Det kan f.eks. være betalinger, som snart forfalder, eller som omfatter rabat. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] kan foreslå forskellige betalinger til kreditorer. Det kan f.eks. være betalinger, som snart forfalder, eller som omfatter rabat. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
 
 Du skal først at prioritere dine kreditorer ved at tildele numre til dem.
 <br><br>
@@ -31,11 +31,11 @@ Du skal først at prioritere dine kreditorer ved at tildele numre til dem.
 2. Vælg den relevante kreditor, og vælg derefter **Rediger**.
 3. Angiv et nummer i feltet **Prioritet**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] betragter det laveste nummer, bortset fra 0, som den højeste prioritet. Bruger du f.eks. 1, 2 og 3, har 1 den højeste prioritet.
+[!INCLUDE[prod_short](includes/prod_short.md)] betragter det laveste nummer, bortset fra 0, som den højeste prioritet. Bruger du f.eks. 1, 2 og 3, har 1 den højeste prioritet.
 
 Hvis der er en kreditor, du ikke vil tildele prioritet, skal du lade feltet **Prioritet** stå tomt. Hvis du bruger betalingsforslag figurerer den pågældende kreditor i så fald efter alle andre kreditorer, som har et prioritetstal. Der er ingen begrænsninger på, hvor mange prioritetsniveauer du kan angive.
 
 ## <a name="see-also"></a>Se også
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

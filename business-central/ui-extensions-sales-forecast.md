@@ -12,18 +12,18 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a9db4249cdf5814bc04653a1987d17f8f94ecb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e21b0fbf497ebc67654be4bceae560fc3c2fdbc9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918609"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757438"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Udvidelsen Salgs- og lagerprognose
 Lagerstyring håndterer balancen mellem kundeservice og styring af omkostningerne. På én side kræver et lille lager mindre driftskapital, men på den anden side kan manglende lager medføre tabt salg. Udvidelsen Salgs- og lagerprognose forudsiger muligt salg ved hjælp af historiske data og giver et klart overblik over forbruget af lageret. Baseret på prognosen hjælper udvidelsen med at oprette genbestillingsanmodninger til dine leverandører og sparer tid.  
 
 ## <a name="setting-up-forecasting"></a>Konfigurere prognose
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] er forbindelsen til [Azure AI](https://azure.microsoft.com/overview/ai-platform/) allerede konfigureret for dig. Du kan dog konfigurere en prognose, hvis du vil bruge en anden type periode i rapporten, f.eks hvis du vil skifte fra prognose pr. måned til prognose pr. kvartal. Du kan også vælge, hvor mange perioder prognosen skal beregnes for, afhængigt af hvor detaljeret prognosen skal være. Vi anbefaler prognose pr. måned og en horisont på 12 måneder for prognosen. 
+I [!INCLUDE[prod_short](includes/prod_short.md)] er forbindelsen til [Azure AI](https://azure.microsoft.com/overview/ai-platform/) allerede konfigureret for dig. Du kan dog konfigurere en prognose, hvis du vil bruge en anden type periode i rapporten, f.eks hvis du vil skifte fra prognose pr. måned til prognose pr. kvartal. Du kan også vælge, hvor mange perioder prognosen skal beregnes for, afhængigt af hvor detaljeret prognosen skal være. Vi anbefaler prognose pr. måned og en horisont på 12 måneder for prognosen. 
 
 > [!TIP]  
 >   Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Azure AI ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.
@@ -34,7 +34,7 @@ Udvidelsen bruger Azure AI til at forudse fremtidigt salg ud fra din salgsoversi
 Du kan også bruge udvidelsen til at foreslå, hvornår lageret skal øges. Hvis du f.eks. opretter en købsordre for Fabrikam, fordi du vil købe deres nye skrivebordsstol, vil udvidelsen Salgs- og lagerprognose foreslå, at du også øger lageret af LONDON-drejestolen, som du normalt køber hos denne leverandør. Det skyldes, at udvidelsen forudser, at lageret af LONDON-drejestolen vil løbe tørt i de kommende to måneder, så du med fordel kan bestille flere stole allerede nu.  
 
 ## <a name="design-details"></a>Designoplysninger
-Abonnementer på [!INCLUDE[d365fin](includes/d365fin_md.md)] giver adgang til flere prognosewebtjenester i alle områder, hvor [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængelig. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
+Abonnementer på [!INCLUDE[prod_short](includes/prod_short.md)] giver adgang til flere prognosewebtjenester i alle områder, hvor [!INCLUDE[prod_short](includes/prod_short.md)] er tilgængelig. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
 
 Disse webtjenester har ingen status, hvilket betyder, at de kun bruger data til at beregne forudsigelser efter behov. De gemmer ikke data.
 
@@ -46,7 +46,7 @@ Webtjenesten kræver kvantitative data om tidligere salg for at kunne udarbejde 
 -    Posttypen er "Salg".
 - Bogføringsdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Opsætning af salgs- og lagerprognose** og arbejdsdatoen.
 
-Før du bruger webtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Varenr.** og **Bogføringsdato** på grundlag af værdien i feltet **Periodetype** på siden **Opsætning af salgs- og lagerprognose**.
+Før du bruger webtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Varenr.** og **Bogføringsdato** på grundlag af værdien i feltet **Periodetype** på siden **Opsætning af salgs- og lagerprognose**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-sales-and-inventory-forecasts"></a><a name="AnchorText"> </a>Oprette og bruge din egen prognosewebtjeneste til salgs- og lagerprognose
 Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel til Microsoft Business Central**. Denne prognosemodel er tilgængelig online i Azure AI-galleriet. Sådan bruges modellen:  
@@ -63,4 +63,4 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  

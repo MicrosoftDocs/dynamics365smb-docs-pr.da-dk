@@ -1,21 +1,21 @@
 ---
 title: Sortering af, søgning i og filtrering af lister | Microsoft Docs
-description: Arbejde effektivt på lister ved at søge på tværs af dine data, sorterer kolonner og præcisere resultater ved at bruge effektive filtersymboler og tastaturgenveje.
-author: SorenGP
+description: Arbejd effektivt på lister ved at søge på tværs af dine data, sorterer kolonner og præcisere resultater ved at bruge effektive filtersymboler og tastaturgenveje.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.date: 11/16/2020
+ms.author: jswymer
+ms.openlocfilehash: eda7ab79b326f860816504014d6eefa9fb13a600
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912567"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757588"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 
@@ -32,9 +32,12 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Sortering
 
-Sortering gør det nemt og hurtigt for dig at overskue dine oplysninger. Hvis du har mange kunder, f.eks. kan du vælge at sortere dem efter **Kundenr.**, **Debitorbogføringsgruppe**, **Valutakode**, **Lande-/områdekode** eller **Momsregistreringsnr.** for at få det nødvendige overblik.
+Sortering gør det nemt og hurtigt for dig at overskue dine oplysninger. Hvis du har mange kunder, f.eks. kan du vælge at sortere dem efter **Kundenr.**, **vvalutakode** eller **Lande-/områdekode** for at få det nødvendige overblik.
 
-Hvis du vil sortere en liste, kan du enten vælge en kolonneoverskriftstekst, hvor du kan skifte mellem stigende og faldende rækkefølge, eller du kan vælge den nedadgående pil i kolonneoverskriften og derefter vælge handlingen **Stigende** eller **Faldende**.  
+Hvis du vil sortere en liste, kan du enten:
+
+- Vælg en kolonneoverskriftstekst til skift mellem stigende og faldende rækkefølge, eller
+- Vælg rullepilen i kolonneoverskriften, og vælg derefter **stigende** eller **faldende**.  
 
 > [!NOTE]  
 > Sortering understøttes ikke af billeder, BLOB-felter, FlowFilters og felter, der ikke tilhører en tabel.  
@@ -46,11 +49,18 @@ Hvis du vil sortere en liste, kan du enten vælge en kolonneoverskriftstekst, hv
 
 Du søger ved at vælge handlingen **Søg** og derefter skrive den tekst, du leder efter, i feltet. Du kan skrive bogstaver, tal og andre symboler.
 
-### <a name="fine-tuning-the-search"></a>Finjustering af søgningen
-
 Normalt vil søgningen forsøge at matche teksten på tværs af alle felter. Den skelner ikke mellem store og små bogstaver og sammenligner tekst, hvor som helst i feltet, ved begyndelsen, slutningen eller i midten.
 
-Dog kan du foretage en mere nøjagtig søgning ved hjælp af specialtegn.
+> [!TIP]
+> Du kan trykke på **F3** for at aktivere og deaktivere søgefeltet. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> Søgning matcher ikke værdier i billeder, BLOB-felter, FlowFilter, FlowField og andre felter, der ikke er en del af en tabel.
+
+
+### <a name="fine-tuning-the-search-with-filter-criteria"></a>Finjustere søgningen med filterkriterier
+
+Du kan foretage en mere præcis søgning ved hjælp af filteroperatorer, udtryk og filter-tokens. I modsætning til filtrering anvendes alle felter på tværs af alle felter, når de bruges i søgefeltet, så de bliver mindre effektive end filtrering.
 
 - Sæt søgeteksten i enkelte anførselstegn `''` (f.eks. `'man'`) for kun at finde feltværdier, der er identiske med hele teksten, og hvor små og store bogstaver er identiske.
 
@@ -70,11 +80,6 @@ Følgende tabel indeholder nogle eksempler, der forklarer, hvordan du kan bruge 
 |`@Man*`|Alle poster med felter, der begynder med teksten **man**, uanset om der bruges store eller små bogstaver. F.eks. **Manchester** og **manual**, men ikke **Sportsman**.|
 |`@*man`|Alle poster der slutter med teksten **man**, uanset om der er brugt store eller små bogstaver. F.eks. **Sportsman**, men ikke **Manchester** eller **manual**.|
 
-> [!TIP]
-> Du kan trykke på **F3** for at aktivere og deaktivere søgefeltet. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).
-
-> [!NOTE]  
-> Søgning matcher ikke værdier i billeder, BLOB-felter, FlowFilter, FlowField og andre felter, der ikke er en del af en tabel.
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtrering
 
@@ -110,15 +115,15 @@ Filterruden viser de aktuelle filtre på en liste, og gør det muligt at angive 
 
 - **Visninger**
 
-  Nogle lister indeholder sektionen **Visninger**. Visninger er variationer af listen, der er forudkonfigureret med filtre. Du kan definere og gemme så mange visninger, du ønsker, af hver liste, og du har adgang til visningerne på enhver enhed, du logger på. Du kan finde flere oplysninger i [Gemme og tilpasse listevisninger](ui-views.md).
+  Nogle lister indeholder sektionen **Visninger**. Visninger er variationer af listen, der er forudkonfigureret med filtre. Du kan definere og gemme så mange visninger, du ønsker, pr. liste. Visningerne er tilgængelige for dig på alle de enheder, du logger på. Du kan finde flere oplysninger i [Gemme og tilpasse listevisninger](ui-views.md).
 
 - **Filtrer listen efter**
 
-  Det er her, du kan tilføje filtre i bestemte felter for at reducere antallet af viste poster. Når du vil tilføje et filter, skal du vælge handlingen **+ Filter**, skrive navnet på det felt, du vil filtrere listen efter, eller vælge et felt på rullelisten.
+  Det er i denne sektion, du kan tilføje filtre i bestemte felter for at reducere antallet af viste poster. Hvis du vil tilføje et filter, skal du vælge handlingen **+ Filter**. Når du vil tilføje et filter, skal du skrive navnet på det felt, du vil filtrere listen efter, eller vælge et felt på rullelisten.
 
 - **Filtrer totaler efter**
 
-  Nogle lister, der viser beregnede felter, som beløb og antal, indeholder sektionen **Filtrer totaler efter**, hvor du kan justere forskellige dimensioner, der påvirker beregninger. Når du vil tilføje et filter, skal du vælge handlingen **+ Filter**, skrive navnet på det felt, du vil filtrere listen efter, eller vælge et felt på rullelisten.
+  Nogle lister, der viser beregnede felter, som beløb og antal, indeholder sektionen **Filtrer totaler efter**, hvor du kan justere forskellige dimensioner, der påvirker beregninger. Hvis du vil tilføje et filter, skal du vælge handlingen **+ Filter**. Når du vil tilføje et filter, skal du skrive navnet på det felt, du vil filtrere listen efter, eller vælge et felt på rullelisten.
 
   > [!NOTE]
   > Filtre i sektionen **Filtrer totaler efter** styres af FlowFilters i sideopsætningen. Du kan finde tekniske oplysninger i [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
@@ -129,9 +134,9 @@ Du kan angive et enkelt filter direkte på en liste under brug af filterruden, d
 
 For rapporter og XMLporte kan filtrene ses direkte på anmodningssiden. På anmodningssiden vises de senest anvendte filtre på grundlag af dit valg i feltet **Brug standardværdier fra**. Du kan finde flere oplysninger under [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).
 
-**Filter**-hovedsektionen viser de standardfilterfelter, som du kan bruge til at afgrænse, hvilke poster der skal medtages i rapporten eller i XMLport. Når du vil tilføje et filter, skal du vælge handlingen **+ Filter**, skrive navnet på det felt, du vil filtrere efter, eller vælge et felt på rullelisten.
+**Filter**-hovedsektionen viser de standardfilterfelter, som du kan bruge til at afgrænse, hvilke poster der skal medtages i rapporten eller i XMLport. Hvis du vil tilføje et filter, skal du vælge handlingen **+ Filter**. Når du vil tilføje et filter, skal du skrive navnet på det felt, du vil filtrere listen efter, eller vælge et felt på rullelisten.
 
-I sektionen **Filtrer totaler efter** kan du justere forskellige dimensioner, der påvirker beregninger i rapporten eller i XMLport. Når du vil tilføje et filter, skal du vælge handlingen **+ Filter**, skrive navnet på det felt, du vil filtrere efter, eller vælge et felt på rullelisten.
+I sektionen **Filtrer totaler efter** kan du justere forskellige dimensioner, der påvirker beregninger i rapporten eller i XMLport. Hvis du vil tilføje et filter, skal du vælge handlingen **+ Filter**. Når du vil tilføje et filter, skal du skrive navnet på det felt, du vil filtrere listen efter, eller vælge et felt på rullelisten.
 
 ## <a name="entering-filter-criteria"></a>Angivelse af filterkriterier
 
@@ -144,17 +149,17 @@ Kolonner, som allerede indeholder filtre, er angivet med ikonet ![Filter](media/
 > [!TIP]
 > Fremskynd søgning efter og analyse af dine data ved hjælp af kombinationer af genvejstaster. For f.eks. at markere et felt skal du bruge **Skift + Alt + F3** for at føje dette felt til filterruden, angive filterkriterierne, bruge **Ctrl + Enter** for at vende tilbage til rækkerne, vælge et andet felt og bruge **Alt + F3** til at filtrere til værdien. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Filterkriterier og -symboler
+### <a name="filter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Filterkriterier og -operatorer
 
-Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer at bruger i feltet. Derudover kan du bruge nogle specialtegn (eller operatorer) til at filtrere resultaterne yderligere. Følgende tabeller viser de tegn, der kan bruges i filtre. Ved datoer og klokkeslæt kan du også se [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md) for at få flere oplysninger.
+Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer at bruger i feltet. Men der er også en række specielle symboler, som du kan bruge som operatorer for at filtrere resultaterne yderligere. I følgende afsnit beskrives disse symboler, og hvordan de bruges som operatorer i filtre.
 
-> [!IMPORTANT]  
-> Der kan være tilfælde, hvor feltværdierne indeholder disse symboler, og du vil filtrere efter dem. Hvis du vil gøre dette, skal du medtage det filterudtryk, der indeholder symbolet i anførselstegn ("). Hvis du f.eks. vil filtrere efter poster, der starter med teksten *S&R*, er filterudtrykket `'S&R*'`.
+> [!TIP]
+> Du kan finde flere oplysninger om filtrering af dato og klokkeslæt i [Arbejde med kalenderdatoer og-klokkeslæt](ui-enter-date-ranges.md).
 
-I de følgende afsnit beskrives det, hvordan du bruger de forskellige operatorer.
-
-> [!NOTE]
-> Hvis der er mere end 200 operatorer i et enkelt filter, vil systemet automatisk gruppere nogle udtryk i parenteser `()` med henblik på behandling. Det har ingen indflydelse på filteret eller resultaterne.  
+> [!IMPORTANT]
+> - Der kan være situationer, hvor den værdi, der skal filtreres efter, indeholder et symbol, som er en operator. Du kan finde flere oplysninger om håndtering af disse situationer i [Filtrering på værdier, der indeholder symboler](#symbols) for at få flere oplysninger om håndtering af denne situation.
+>
+> - Hvis der er mere end 200 operatorer i et enkelt filter, vil systemet automatisk gruppere nogle udtryk i parenteser `()` med henblik på behandling. Det har ingen indflydelse på filteret eller resultaterne.  
 
 #### <a name="-interval"></a>(..) Interval
 
@@ -214,27 +219,27 @@ I de følgende afsnit beskrives det, hvordan du bruger de forskellige operatorer
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
-|`'man'`|Tekst, der svarer nøjagtigt til man, og der skelnes mellem store og små bogstaver.|  
+|`'man'`|Tekst, der svarer nøjagtigt til **man**, og der skelnes mellem store og små bogstaver.|  
 
 #### <a name="-case-insensitive"></a>(@) Ingen forskel på store og små bogstaver  
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
-|`@man*`|Tekst, der starter med man, og der skelnes mellem store og små bogstaver.|  
+|`@man*`|Tekst, der starter med **man**, og der skelnes mellem store og små bogstaver.|  
 
 #### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Mange ukendte tegn
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
-|`*Co*`|Tekst, der indeholder "A/S", og der skelnes mellem store og små bogstaver.|  
-|`*Co`|Tekst, der ender på "A/S", og der skelnes mellem store og små bogstaver.|  
-|`Co*`|Tekst, der begynder med "A/S", og der skelnes mellem store og små bogstaver.|  
+|`*Co*`|Tekst, der indeholder **A/S**, og der skelnes mellem store og små bogstaver.|  
+|`*Co`|Tekst, der ender på **A/S**, og der skelnes mellem store og små bogstaver.|  
+|`Co*`|Tekst, der begynder med **A/S**, og der skelnes mellem store og små bogstaver.|  
 
 #### <a name="-one-unknown-character"></a>(?) Ét ukendt tegn  
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
-|`Hans?n`|Tekst som f.eks. Hansen eller Hanson|  
+|`Hans?n`|Tekst som f.eks. **Hansen** eller **Hanson**|  
 
 #### <a name="combined-format-expressions"></a>Kombinerede formatudtryk  
 
@@ -244,8 +249,23 @@ I de følgende afsnit beskrives det, hvordan du bruger de forskellige operatorer
 |`..1299|1400..`|Medtag poster med et tal mindre end eller lig med 1299, eller tal lig med 1400 eller derover (alle tal undtagen 1300 til og med 1399).|  
 |`>50&<100`|Medtag poster med tal større end 50 og mindre end 100 (tal fra 51 til og med 99).|  
 
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtrere på værdier, der indeholder symboler
+
+Der kan være tilfælde, hvor feltværdier indeholder et af følgende symboler:
+
+- &
+- (
+- )
+- =
+- &#124;
+
+Hvis du vil filtrere efter et af disse symboler, skal du placere filterudtrykket i anførselstegn (' '). Hvis du f.eks. vil filtrere efter poster, der starter med teksten *J & V*, er filterudtrykket `'J & V*'`.
+
+Dette krav er ikke nødvendigt for andre symboler.
+
 ### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Filtertokens
-Når du angiver filterkriterier, kan du også skrive ord, der har en særlig betydning, kaldet filtertokens. Når du har angivet et tokenordet, erstattes ordet af den eller de værdier, det repræsenterer. Det gør filtrering nemmere ved at reducere behovet for at navigere til andre sider for at søge efter værdier, du vil føje til filteret. Tabellerne nedenfor beskriver nogle af de tegn, du kan skrive som filterkriterier.
+
+Når du angiver filterkriterier, kan du også skrive ord, der har en særlig betydning, kaldet filtertokens. Når du har angivet et tokenordet, erstattes ordet af den eller de værdier, det repræsenterer. Med filter-tokens bliver filtrering nemmere ved at reducere behovet for at navigere til andre sider for at søge efter værdier, du vil føje til filteret. Tabellerne nedenfor beskriver nogle af de tegn, du kan skrive som filterkriterier.
 
 > [!TIP]
 > Din organisation bruger muligvis brugerdefinerede tokens. For at få mere at vide om det komplette sæt tokens, der er tilgængelige for dig, eller tilføje flere brugerdefinerede tokens, skal du kontakte din administrator. Du kan finde tekniske oplysninger i [Tilføje filtertokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
@@ -286,4 +306,4 @@ Brug `%myvendors` i kreditorfeltet **Nej** til at vise alle poster for kreditore
 
 [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.md)  
 [Gemme og tilpasse listevisninger](ui-views.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cfc545e328da020ce8ecd4dc7a79e6303902636
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed2cd341010ef8d90e037a9afaa240d755fc3d7a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916547"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759113"
 ---
 # <a name="post-scrap-manually"></a>Bogføre spild manuelt
 Hvis der produceres spild under fremstillingen, kan dette også angives i afgangskladden. 
@@ -36,4 +36,4 @@ Hvis der produceres spild under fremstillingen, kan dette også angives i afgang
 [Planlægning](production-planning.md)      
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

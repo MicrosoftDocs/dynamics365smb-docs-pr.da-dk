@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a0d0e5f18acf9830fe77a87f9e1c8982da47c257
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 158a117202054524aa8014787c813f1cea70681a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913117"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757788"
 ---
 # <a name="service-posting"></a>Bogføring af tjenesten
 Servicebogføringsfunktionen gør det muligt at behandle dokumenter effektivt og hele tiden bevare en gennemført kundeservicepolitik. Du kan oprette og opdatere bogførte dokumenter og oprette poster både inden for serviceområdet og i andre moduler for at sikre korrekt opdatering.  
@@ -26,7 +26,7 @@ Servicebogføringsfunktionen gør det muligt at behandle dokumenter effektivt og
 >  På en placering, der ikke er konfigureret til at kræve lagerekspedition, skal du udføre bogføringsprocesserne direkte fra siden **Servicelinjer**. På lokationer, der involverer lagerekspedition, udføres de beskrevne bogføringsprocesser, undtagen Send og forbrug, indirekte via forskellige lagerleverancefunktioner afhængigt af konfuguration. Du kan finde flere oplysninger i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Lever  
-Med leveringsindstillingen kan du registrere relevante varer og den tid, der er angivet på linjerne i en serviceordre, når du har afsluttet servicen. Der oprettes en bogført leverance, og modulet Lagerbeholdning og andre moduler i [!INCLUDE[d365fin](includes/d365fin_md.md)] opdateres, så det afspejles, at varerne er taget ud af lageret og sendt til kunden. Der oprettes specielt vareposter, værdiposter, serviceposter og garantiposter.  
+Med leveringsindstillingen kan du registrere relevante varer og den tid, der er angivet på linjerne i en serviceordre, når du har afsluttet servicen. Der oprettes en bogført leverance, og modulet Lagerbeholdning og andre moduler i [!INCLUDE[prod_short](includes/prod_short.md)] opdateres, så det afspejles, at varerne er taget ud af lageret og sendt til kunden. Der oprettes specielt vareposter, værdiposter, serviceposter og garantiposter.  
 
 Hvis lokationen er angivet til at kræve lagerekspedition, sker forsendelse og flytning af servicelinjevarefunktioner på samme måde som for andre kildedokumenter. Den eneste forskel er, at servicelinjevarer kan forbruges eksternt eller internt, hvilket kræver de to forskellige frigivelsesfunktioner.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912317"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757488"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Udvidelsen Betalinger og afstemninger (DK)
 
@@ -53,7 +53,7 @@ Det kræver nogle trin at komme i gang.
 
 Desuden skal du tildele kreditorer til en indenlandsk **Virksomhedsbogføringsgruppe** og en **Kreditorbogføringsgruppe**. Indstillingen land/område for kreditoren skal være Danmark (DK). Du kan finde flere oplysninger under [Konfigurere bogføringsgrupper](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>Sådan tillader du [!INCLUDE[d365fin](includes/d365fin_md.md)] at eksportere betalingsdata
+### <a name="to-allow-prod_short-to-export-payment-data"></a>Sådan tillader du [!INCLUDE[prod_short](includes/prod_short.md)] at eksportere betalingsdata
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladde**, og vælg derefter det relaterede link.  
 2. På siden **Rediger udbetalingskladde** skal du vælge kørslen **Bank**.  
@@ -61,7 +61,7 @@ Desuden skal du tildele kreditorer til en indenlandsk **Virksomhedsbogføringsgr
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Sådan angives en betalingsform for en kreditor
 
-Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter.
+Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!INCLUDE[prod_short](includes/prod_short.md)] understøtter.
 
 |Kombination|Type 01 | Type 04 | Type 71 | Type 73 |
 |----|--------|---------|---------|---------|
@@ -87,7 +87,7 @@ Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!IN
 4. I feltet **Betalingsreference** skal du angive tallet på 15 cifre fra kreditorfakturaen.  
 
     > [!Tip]
-    > Du behøver kun at tilføje de sidste 11 cifre i nummeret. [!INCLUDE[d365fin](includes/d365fin_md.md)] tilføjer fire nuller i begyndelsen af nummeret.  
+    > Du behøver kun at tilføje de sidste 11 cifre i nummeret. [!INCLUDE[prod_short](includes/prod_short.md)] tilføjer fire nuller i begyndelsen af nummeret.  
 
 5. Bogfør fakturaen.
 
@@ -105,6 +105,6 @@ Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!IN
 
 ## <a name="see-also"></a>Se også
 
-[Tilpasse Business Central til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved brug af udvidelser](ui-extensions.md)  
+[Tilpasse Business Central til [!INCLUDE[prod_short](includes/prod_short.md)] ved brug af udvidelser](ui-extensions.md)  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  

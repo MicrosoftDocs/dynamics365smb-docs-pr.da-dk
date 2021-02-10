@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915381"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758963"
 ---
 # <a name="subcontract-manufacturing"></a>Produktion hos underleverandør
 Det er almindeligt for mange produktionsvirksomheder at placere udvalgte operationer hos underleverandører. Det er normal procedure i mange produktionsvirksomheder, selvom det hos nogle virksomheder måske kun sker engang imellem, mens det hos andre er en integreret del af produktionsprocessen.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] omfatter flere værktøjer til håndtering af arbejde, der udføres af underleverandører:  
+[!INCLUDE[prod_short](includes/prod_short.md)] omfatter flere værktøjer til håndtering af arbejde, der udføres af underleverandører:  
 
 - Arbejdscenter med tildelt leverandør: Denne funktion giver dig mulighed for at oprette et arbejdscenter, der har en leverandør (underleverandør) tilknyttet. Dette kaldes et arbejdscenter med underleverance. Du kan angive et arbejdscenter med underleverance til en ruteoperation, så du let kan behandle den aktivitet, der foregår hos underleverandøren. Desuden kan de omkostninger, der er forbundet med operationen, angives på rute- eller arbejdscenterniveau.  
 - Arbejdscenteromkostninger baseret på enheder eller tid: Denne funktion giver dig mulighed for at angive, om de omkostninger, der er forbundet med arbejdscentret, er baseret på produktionstiden eller på en engangspris pr. enhed. Selvom underleverandører ofte bruger en engangspris pr. enhed som udgangspunkt, når de fakturerer deres arbejde, kan programmet håndtere begge indstillinger (produktionstid og engangspris pr. enhed).  
@@ -95,4 +95,4 @@ Når købsordren er bogført som faktureret, bogføres den direkte omkostning fo
 [Planlægning](production-planning.md)      
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

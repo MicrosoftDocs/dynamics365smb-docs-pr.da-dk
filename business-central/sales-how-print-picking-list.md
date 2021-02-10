@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 47ae132d862d2c05bef4ea0d0af26688bdd16588
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926143"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758213"
 ---
 # <a name="print-the-picking-list"></a>Udskrive pluklisten
 Du kan udskrive en lagerplukliste direkte i salgsordrer, en salgsfakturaer og andre udgående salgsdokumenter, der bruges til at starte leverance af varer.
@@ -38,4 +38,4 @@ Du kan også gemme pluklisten som et dokument, hvis du f. eks. vil sende den til
 ## <a name="see-also"></a>Se også  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Plukke varer](warehouse-pick-items.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)   
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

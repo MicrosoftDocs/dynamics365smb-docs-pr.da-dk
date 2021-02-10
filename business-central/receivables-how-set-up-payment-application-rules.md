@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b999dd9000ac9833798f827f85bfd945878638
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926393"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758338"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Konfigurere regler for automatisk udligning af betalinger
 
@@ -51,10 +51,10 @@ Udover afstemningskriterierne gælder følgende vedrørende fortegnet foran det 
 |**Bilagsnr./Eksternt bilagsnr. er matchet**|Angiver, om teksten på betalingsudligningskladde skal stemme overens med værdien i feltet **Bilagsnr.** eller **Eksternt bilagsnr.** på den åbne post, før udligningsreglen udligner betalingen med den åbne post.|
 |**Matchende beløb inkl. tolerance**|Angiver, hvor mange poster for en debitor eller kreditor skal svare til beløbet, herunder betalingstolerance, før udligningsreglen skal bruges til automatisk at udligne en betaling til den åbne post.|
 
-Følgende tabel viser, hvilke betalingsudligningsregler, der er angivet i den generelle version af [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Følgende tabel viser, hvilke betalingsudligningsregler, der er angivet i den generelle version af [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
-> Betalingsudligningsregler kan være anderledes i din implementering af [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Betalingsudligningsregler kan være anderledes i din implementering af [!INCLUDE[prod_short](includes/prod_short.md)].
 
 | Matchtillid | Prioritet | Relateret part er matchet | Bilagsnr./Eksternt bilagsnr. Matchet | Matchende beløb inkl. tolerance |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -89,4 +89,4 @@ Følgende tabel viser, hvilke betalingsudligningsregler, der er angivet i den ge
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

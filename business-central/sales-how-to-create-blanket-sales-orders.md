@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d3202f380da6b58ba30fa301c7ea6a24efb91cf5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1308f662073a915e8b6053d080926afaa9cc37af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925918"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758088"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbejde med rammesalgsordrer eller rammekøbsordrer
 
@@ -99,4 +99,4 @@ Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert
 [Salg](sales-manage-sales.md)  
 [Oprette rammemontageordrer](assembly-how-to-create-blanket-assembly-orders.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

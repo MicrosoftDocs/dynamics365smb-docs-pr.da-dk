@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bbc7314c9f178385fbb882a4615950277b0c0d88
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 931ec0f9a329daa30ef3208d0fa4d695f173e9d5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915430"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759013"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Køre fuld planlægning, MPS eller MRP
 At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hovedproduktionsplanen (MPS) på basis af eksisterende og forventet efterspørgsel. Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning – materialebehovsplanlægning) efter anmodning, eller begge dele kan beregnes på én gang.  
@@ -23,7 +23,7 @@ At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hov
 -   MPS defineres som beregning af en hovedplan på basis af et faktisk behov og behovsprognosen. MPS-beregningen bruges til slutvarer, der har en prognose- eller en salgsordrelinje. Disse varer kaldes MPS-varer og identificeres dynamisk, når beregningen begynder.  
 -   MRP defineres som beregning af materialebehov på basis af et faktisk komponentbehov og behovsprognosen på komponentniveau. MRP beregnes kun for varer, der ikke er MPS-varer. Det overordnede formål med MRP er at udarbejde formelle planer med tidsangivelser og opdelt efter varer, så den rigtige vare kan leveres på det rigtige tidspunkt, til det rigtige sted og i det rette antal.  
 
-Der bruges de samme planlægningsalgoritmer til både MPS og MRP. Planlægningsalgoritmerne omhandler modregning, genbrug af eksisterende genbestillingsordrer og aktionsmeddelelser. Under planlægningen tages der højde for, hvad der er brug for, eller hvad der vil blive brug for (efterspørgsel), og hvad der allerede er på lager eller forventes at være på lager (udbud). Når disse antal sammenholdes og modregnes, giver [!INCLUDE[d365fin](includes/d365fin_md.md)] aktionsmeddelelser. Aktionsmeddelelser er forslag til oprettelse af en ny ordre, ændring af en ordre (antal eller dato) eller annullering af en allerede bestilt ordre. Betegnelsen "ordre" omfatter indkøbsordrer, montageordrer, produktionsordrer og overflytningsordrer.
+Der bruges de samme planlægningsalgoritmer til både MPS og MRP. Planlægningsalgoritmerne omhandler modregning, genbrug af eksisterende genbestillingsordrer og aktionsmeddelelser. Under planlægningen tages der højde for, hvad der er brug for, eller hvad der vil blive brug for (efterspørgsel), og hvad der allerede er på lager eller forventes at være på lager (udbud). Når disse antal sammenholdes og modregnes, giver [!INCLUDE[prod_short](includes/prod_short.md)] aktionsmeddelelser. Aktionsmeddelelser er forslag til oprettelse af en ny ordre, ændring af en ordre (antal eller dato) eller annullering af en allerede bestilt ordre. Betegnelsen "ordre" omfatter indkøbsordrer, montageordrer, produktionsordrer og overflytningsordrer.
 
 Links, der er oprettet af planlægningssystemet mellem behov og den relaterede levering, kan spores på siden **Ordresporing**. Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md).   
 
@@ -37,7 +37,7 @@ Et ordentligt planlægningsresultat afhænger af de valgte indstillinger til var
     - **Ændrede planlægningsparametre:** Det kan være ændringer i sikkerhedslager, genbestillingspunkt, stykliste og ændringer i interval eller beregning af leveringstid.  
 -   **Hent aktionsmeddelelser:** Denne funktion kan bruges til planlægning på kort sigt, fordi den udsender aktionsmeddelelser, der giver brugeren besked om ændringer, der måtte være sket, siden den sidste totalplan eller nettoplan blev beregnet.  
 
-Hver planlagt metode, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] kladdeposter, hvor der forudsættes uendelig kapacitet. Der tages ikke hensyn til arbejdscenter- og produktionsressourcekapacitet, når du udvikler tidsplaner.  
+Hver planlagt metode, genererer [!INCLUDE[prod_short](includes/prod_short.md)] kladdeposter, hvor der forudsættes uendelig kapacitet. Der tages ikke hensyn til arbejdscenter- og produktionsressourcekapacitet, når du udvikler tidsplaner.  
 
 > [!IMPORTANT]  
 >  Funktionen Beregn totalplan er den mest almindelige proces. Men funktionerne Beregn plan og Udfør aktionsmeddelelse kan bruges til kørsel af processen Beregn nettoplan.  
@@ -98,10 +98,10 @@ Hvis der ikke er overensstemmelse mellem forsyning og behov, oprettes følgende 
 |Aktionsmeddelelse|Beskrivelse|  
 |--------------------|---------------------------------------|  
 |**Nyt**|Hvis forslagene i aktionsmeddelelserne **Ret antal**, **Omplanlæg** eller **Omplanlæg & ret antal** i eksisterende ordrer ikke er tilstrækkeligt til at imødekomme et behov, oprettes aktionsmeddelelsen **Ny**, som dermed foreslår, at der oprettes en ny ordre. Aktionsmeddelelsen **Ny** oprettes også, hvis der ikke findes eksisterende forsyningsordrer inden for den pågældende vares genbestillingscyklus. Denne parameter bestemmer, hvor mange perioder fremad og bagud i disponeringsprofilen, der skal søges efter en ordre, hvor planlægningen kan ændres.|  
-|**Ret antal**|Hvis der sker en ændring af antallet til det behov, der kan spores til en eller flere forsyningsordrer, oprettes aktionsmeddelelsen **Ret antal**, hvilket angiver, at det tilhørende forsyningsantal skal ændres, så det svarer til behovsændringen. Hvis der opstår et nyt behov, søger [!INCLUDE[d365fin](includes/d365fin_md.md)] efter den nærmeste eksisterende forsyningsordre, der ikke er reserveret, inden for genbestillingscyklen, hvorefter der udstedes en aktionsmeddelelse med forslaget Ret antal til denne ordre.|  
+|**Ret antal**|Hvis der sker en ændring af antallet til det behov, der kan spores til en eller flere forsyningsordrer, oprettes aktionsmeddelelsen **Ret antal**, hvilket angiver, at det tilhørende forsyningsantal skal ændres, så det svarer til behovsændringen. Hvis der opstår et nyt behov, søger [!INCLUDE[prod_short](includes/prod_short.md)] efter den nærmeste eksisterende forsyningsordre, der ikke er reserveret, inden for genbestillingscyklen, hvorefter der udstedes en aktionsmeddelelse med forslaget Ret antal til denne ordre.|  
 |**Omplanlæg**|Hvis datoen i en forsynings- eller behovsordre ændres, og det forrykker balancen i ordrenetværket, udstedes aktionsmeddelelsen **Omplanlæg**. Hvis forholdet mellem behov og forsyning er en-til-en, udstedes en aktionsmeddelelse med forslag om, at forsyningsordren flyttes tilsvarende. Hvis forsyningsordren dækker behov, der stammer fra flere salgsordrer, omplanlægges forsyningsordren til en dato, der er lige med datoen for det første behov.|  
 |**Omplanlæg & ret antal.**|Hvis både datoer og antal i en ordre er ændret, er det nødvendigt at ændre planer, så der tages højde for begge dele. Der udstedes en aktionsmeddelelse, der dækker begge ændringer, **Omplanlæg og ret antal**, for at sikre at balancen i ordrenetværket genoprettes.|  
-|**Annuller**|Hvis et behov slettes, som ellers har været dækket fra ordre til ordre, udstedes der en aktionsmeddelelse med forslag om, at alle tilhørende forsyningsordrer annulleres. Hvis forholdet ikke er ordre-til-ordre, oprettes en aktionsmeddelelse med forslag om, at antallet bør rettes for at reducere forsyningen. Hvis det viser sig, at en forsyningsordre af andre årsager, f.eks. lagerreguleringer, ikke er nødvendig på det tidspunkt, hvor aktionsmeddelelserne oprettes af brugeren, opretter [!INCLUDE[d365fin](includes/d365fin_md.md)] en aktionsmeddelelse med forslag om **Annuller** i kladden.|  
+|**Annuller**|Hvis et behov slettes, som ellers har været dækket fra ordre til ordre, udstedes der en aktionsmeddelelse med forslag om, at alle tilhørende forsyningsordrer annulleres. Hvis forholdet ikke er ordre-til-ordre, oprettes en aktionsmeddelelse med forslag om, at antallet bør rettes for at reducere forsyningen. Hvis det viser sig, at en forsyningsordre af andre årsager, f.eks. lagerreguleringer, ikke er nødvendig på det tidspunkt, hvor aktionsmeddelelserne oprettes af brugeren, opretter [!INCLUDE[prod_short](includes/prod_short.md)] en aktionsmeddelelse med forslag om **Annuller** i kladden.|  
 
 ## <a name="see-also"></a>Se også  
 [Skabelon](production-planning.md)  
@@ -111,4 +111,4 @@ Hvis der ikke er overensstemmelse mellem forsyning og behov, oprettes følgende 
 [Køb](purchasing-manage-purchasing.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

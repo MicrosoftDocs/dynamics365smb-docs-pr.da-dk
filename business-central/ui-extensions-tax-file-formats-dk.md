@@ -12,15 +12,15 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: dced6a3ae539e795c9207acd7eb7873798e570ab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 07c6e22e6bd9729fbf5ba436644834fbeba0d085
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923441"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757413"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Udvidelsen Tax File Formats (DK)
-Hvis du deltager i handel med virksomheder eller interne filialer eller datterselskaber i andre EU-lande, skal du rapportere oplysninger om aktiviteterne til SKAT og til Danmarks Statistik. Hvis du bruger funktionerne til moms- og Intrastat-rapportering i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan denne udvidelse sikre, at filen, du eksporterer, er kompatibel med kravene fra disse virksomheder. Udvidelsen tilføjer afsendelseskodeenhederne MS ECSL Report Export File og Intrastat Export Lines til din konfiguration af momsrapporten, så du kan eksportere data i det nye format med det samme.
+Hvis du deltager i handel med virksomheder eller interne filialer eller datterselskaber i andre EU-lande, skal du rapportere oplysninger om aktiviteterne til SKAT og til Danmarks Statistik. Hvis du bruger funktionerne til moms- og Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)], kan denne udvidelse sikre, at filen, du eksporterer, er kompatibel med kravene fra disse virksomheder. Udvidelsen tilføjer afsendelseskodeenhederne MS ECSL Report Export File og Intrastat Export Lines til din konfiguration af momsrapporten, så du kan eksportere data i det nye format med det samme.
 
 Udvidelsen er gratis, du skal blot installere den.
 

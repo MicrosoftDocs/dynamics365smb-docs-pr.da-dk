@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915306"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757863"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bogføre serviceordrer og kreditnotaer
 Når du har oprettet en serviceordre, angivet alle de nødvendige oplysninger og foretaget eventuelle ændringer, kan du bogføre serviceordren. Ordren skal indeholde mindst én serviceartikellinje og én servicelinje, inden du kan bogføre den. Hvis ordren indeholder mere end én ordrelinje, bogføres alle linjerne på én gang.  
@@ -85,7 +85,7 @@ I følgende fremgangsmåde beskrives det, hvordan du bogfører varer, ressourcet
 Servicen bogføres enten helt eller delvist som forbrugt, afhængigt af værdien i feltet **Antal til forbrug** og de relevante poster oprettes. Derudover opdateres de serviceleverancedokumenter, der tidligere er bogført, i kronologisk rækkefølge med de forbrugte antal. De relevante antal opdateres på servicelinjerne i ordren.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Bogføre leverancer fra serviceordrer  
-Når du har angivet detaljerne i en service, kan du regulere og bogføre antallet af varer, der er anvendt, den tid, der er forbrugt, og de omkostninger, der er påløbet. Som et resultat foretager [!INCLUDE[d365fin](includes/d365fin_md.md)] de nødvendige ændringer i programmet, så den nye lagerstatus og den aktuelle status for den angivne ordrebehandling afspejles.  
+Når du har angivet detaljerne i en service, kan du regulere og bogføre antallet af varer, der er anvendt, den tid, der er forbrugt, og de omkostninger, der er påløbet. Som et resultat foretager [!INCLUDE[prod_short](includes/prod_short.md)] de nødvendige ændringer i programmet, så den nye lagerstatus og den aktuelle status for den angivne ordrebehandling afspejles.  
 
 Følgende procedure viser, hvordan du bogfører leverancen af servicelinje på steder, hvor der ikke er indstillet til at kræve lagerekspedition.  
 
@@ -97,7 +97,7 @@ Følgende procedure viser, hvordan du bogfører leverancen af servicelinje på s
 
 4. Vælg handlingen **Bogfør**. Vælg knappen **Lever** på den side, der vises.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] opretter posterne (i garantipost, varepost, servicepost eller finanspost) og det bogførte serviceleverancedokument, og de relevante felter på servicelinjerne i serviceordren opdateres.  
+[!INCLUDE[prod_short](includes/prod_short.md)] opretter posterne (i garantipost, varepost, servicepost eller finanspost) og det bogførte serviceleverancedokument, og de relevante felter på servicelinjerne i serviceordren opdateres.  
 
 Hvis lokationen er angivet til at kræve lagerekspedition, sker forsendelse og flytning af servicelinjevarefunktion på samme måde som for andre kildedokumenter. Den eneste forskel er, at servicelinjevarer kan forbruges eksternt eller internt, og derfor kræver de to forskellige frigivelsesfunktioner.  
 
