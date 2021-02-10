@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b5441eaf7ea379f7ebdc221c2edef274a36ced4b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 746fd31dfad378bd067e977f2a55a5cf329b7aaa
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921043"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013608"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemme bankkonti
 
@@ -24,14 +24,14 @@ Du udfører bankafstemning for at sikre, at dine forskellige forretningstransakt
 I det følgende beskrives, hvordan du udfører bankafstemning med siden  **Bankkontoafstemning**.
 
 > [!TIP]
-> Du kan også afstemme bankkonti på siden **Betalingsudligningskladde** i forbindelse med betalingsbehandling. Eventuelle åbne bankposter vedrørende de udlignede debitor- eller kreditorposter bliver lukket, når du vælger handlingen **Bogfør betalinger og afstem bankkonti**. Det betyder, at bankkontoen automatisk afstemmes for de betalinger, du bogfører, med kladden. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+> Du kan også afstemme bankkonti på siden **Betalingsudligningskladde**, når du gennemfører betalinger. Eventuelle åbne bankposter vedrørende de udlignede debitor- eller kreditorposter bliver lukket, når du vælger handlingen **Bogfør betalinger og afstem bankkonti**. Det afstemmer automatisk bankkontoen for de betalinger, du bogfører, med kladden. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
 > I nordamerikanske versioner kan du også udføre dette arbejde på siden **Bankafstemningskladde**, der er mere velegnet til checks og indskud, men ikke tilbyder import af bankkontoudtogsfiler. Hvis du vil bruge denne side i stedet for siden **Bankkontoafstemning**, skal du fjerne markeringen i feltet **Bankafstemning med automatisk match** på siden **Regnskabsopsætning**. Du kan finde flere oplysninger i afsnittet [Afstemme bankkonti](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under Lokal funktionalitet for USA.
 
 Linjerne på siden **Bankkontoafstemning** er opdelt i to ruder. Ruden **Bankkontoudtogslinjer** viser enten importerede banktransaktioner eller poster med udestående betalinger. Ruden **Bankkontoposter** viser finansposterne på en intern bankkonto.
 
-Aktiviteten for afstemning af banktransaktioner med interne bankposter kaldes *afstemning.* Du kan vælge at udføre tilsvarende afstemning automatisk ved hjælp af funktionen **Afstem automatisk**. Du kan alternativt manuelt markere linjer i begge ruder for at sammenkæde de enkelte bankkontoudtogslinjer med en eller flere relaterede bankposter og derefter bruge funktionen **Afstem manuelt**. Afkrydsningsfeltet **Udlignet** er markeret på linjer, hvor posterne stemmer. Du kan finde flere oplysninger i [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md).
+Afstemning af banktransaktioner med interne bankposter kaldes *afstemning.* Du kan vælge at udføre tilsvarende afstemning automatisk ved hjælp af funktionen **Afstem automatisk**. Du kan alternativt manuelt markere linjer i begge ruder for at sammenkæde de enkelte bankkontoudtogslinjer med en eller flere relaterede bankposter og derefter bruge funktionen **Afstem manuelt**. Afkrydsningsfeltet **Udlignet** er markeret på linjer, hvor posterne stemmer. Du kan finde flere oplysninger i [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md).
 
 > [!NOTE]  
 > Hvis bankkontoudtogslinjerne vedrører checkposter, kan du ikke bruge afstemningsfunktionerne. I stedet skal du vælge handlingen **Udlign poster** og derefter vælge den relevante checkpost, som bankkontoudtogslinjen skal afstemmes med.
@@ -42,8 +42,8 @@ Alle linjer, der ikke kan afstemmes, hvilket er angivet med en værdi i feltet *
 
 |Difference|Årsag|Løsning|
 |-|-|
-|En transaktion i den interne bankkonto er ikke på bankkontoudtoget.|Banktransaktionen blev ikke foretaget, selvom der blev bogført en bogføring i [!INCLUDE[d365fin](includes/d365fin_md.md)].|Foretag den manglende pengetransaktion (eller bed en debitor om at foretage den), og importer derefter bankkontoudtogsfilen igen, eller angiv transaktionen manuelt.|
-|En postering på bankkontoudtoget findes ikke som et dokument eller en kladdelinje i [!INCLUDE[d365fin](includes/d365fin_md.md)].|En banktransaktion blev foretaget uden en tilsvarende bogføring [!INCLUDE[d365fin](includes/d365fin_md.md)]i, f.eks. bogføring af en kladdelinje for en udgift.|Opret og bogfør den manglende post. Du finder oplysninger om, hvordan du hurtigt starter dette, under [ Sådan oprettes manglende poster, som banktransaktioner skal afstemmes med](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
+|En transaktion i den interne bankkonto er ikke på bankkontoudtoget.|Banktransaktionen blev ikke foretaget, selvom der blev bogført en bogføring i [!INCLUDE[prod_short](includes/prod_short.md)].|Foretag den manglende pengetransaktion (eller bed en debitor om at foretage den), og importer derefter bankkontoudtogsfilen igen, eller angiv transaktionen manuelt.|
+|En postering på bankkontoudtoget findes ikke som et dokument eller en kladdelinje i [!INCLUDE[prod_short](includes/prod_short.md)].|En banktransaktion blev foretaget uden en tilsvarende bogføring [!INCLUDE[prod_short](includes/prod_short.md)]i, f.eks. bogføring af en kladdelinje for en udgift.|Opret og bogfør den manglende post. Du finder oplysninger om, hvordan du hurtigt starter dette, under [ Sådan oprettes manglende poster, som banktransaktioner skal afstemmes med](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
 |En transaktion på den interne bankkonto svarer til en banktransaktion, men nogle oplysninger er for forskellige til at give et match.|Oplysninger såsom beløbet eller kundenavnet blev angivet forskelligt i forbindelse med banktransaktionen eller den interne bogføring.|Gennemse oplysningerne, og match derefter de to manuelt. Du bør eventuelt rette uoverensstemmelsen mellem oplysningerne.||
 
 Du skal løse forskellene, f.eks. ved at oprette manglende poster og rette oplysninger, der ikke svarer til hinanden, eller ved at foretage manglende pengeposteringer, indtil afstemningen af bankkontoen er fuldført og bogført.
@@ -51,7 +51,7 @@ Du skal løse forskellene, f.eks. ved at oprette manglende poster og rette oplys
 Du kan udfylde ruden **Bankkontoudtogslinjer** på siden **Bankkontoafstemning** på følgende måder:
 
 * Automatisk, ved hjælp af funktionen **Importér bankkontoudtog** for at udfylde ruden **Bankkontoudtogslinjer** med banktransaktioner ifølge en importeret fil eller stream, der er leveret af banken.
-* Manuelt ved hjælp af funktionen **Foreslå linjer** for at udfylde ruden **Bankkontoudtogslinjer** ifølge fakturaerne i [!INCLUDE[d365fin](includes/d365fin_md.md)], der har udestående betalinger.
+* Manuelt ved hjælp af funktionen **Foreslå linjer** for at udfylde ruden **Bankkontoudtogslinjer** ifølge fakturaerne i [!INCLUDE[prod_short](includes/prod_short.md)], der har udestående betalinger.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Sådan udfyldes bankafstemningslinjer ved at importere et bankkontoudtog
 
@@ -69,7 +69,7 @@ For at gøre det muligt at importere bankkontoudtog som bankfeeds skal du først
 
 ## <a name="to-fill-bank-reconciliation-lines-with-the-suggest-lines-function"></a>Sådan udfyldes bankafstemningslinjer med funktionen Foreslå linjer
 
-Ruden **Bankkontoudtogslinjer** udfyldes i henhold til fakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)], der har udestående betalinger.  
+Ruden **Bankkontoudtogslinjer** udfyldes i henhold til fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)], der har udestående betalinger.  
 
 1. På siden **Bankkontoafstemning** skal du vælge handlingen **Foreslå linjer**.
 2. Angiv den tidligste dato for de poster, der skal afstemmes, i feltet **Startdato**.
@@ -102,7 +102,7 @@ Siden **Bankkontoafstemning** indeholder automatisk matchningsfunktionalitet, de
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Sådan oprettes manglende poster, som bankkontoudtogslinjer skal afstemmes med
 
-Undertiden indeholder bankafstemninger beløb med renter eller gebyrer. Sådanne bankkontoudtogslinjer kan ikke afstemmes, fordi der ikke findes nogen relaterede finansposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Derefter skal du bogføre en kladdelinje for hver transaktion for at oprette en relateret post, som de kan afstemmes med.
+Undertiden indeholder bankafstemninger beløb med renter eller gebyrer. Sådanne bankkontoudtogslinjer kan ikke afstemmes, fordi der ikke findes nogen relaterede finansposter i [!INCLUDE[prod_short](includes/prod_short.md)]. Derefter skal du bogføre en kladdelinje for hver transaktion for at oprette en relateret post, som de kan afstemmes med.
 
 1. På siden **Bankkontoafstemning** skal du vælge handlingen **Overfør til finanskladde**.  
 2. På siden **Overfør afstemning til fin.kld** skal du angive, hvilken finanskladde du vil bruge, og derefter klikke på knappen **OK**.
@@ -116,6 +116,40 @@ Undertiden indeholder bankafstemninger beløb med renter eller gebyrer. Sådanne
 6. Opdatere eller genåbne siden **Bankkontoafstemning**. Den nye post vises i ruden **Bankkontoposter**.
 7. Matche bankkontoudtogslinjen med bankkontoposten, manuelt eller automatisk.
 
+## <a name="undo-a-bank-account-reconciliation"></a>Fjern en bankkontoafstemning
+Hvis du opdager en fejl i en bogført bankafstemning, kan du bruge handlingen **Fortryd** på siden **Bankkontoudtog** til at rette fejlen. Når du fortryder en bogført bankafstemning, flyttes posterne til siden **Bankafstemning** og markeres som **Åbne**, hvilket betyder, at de ikke er afstemt. Du kan derefter rette bankafstemningen og bogføre den igen.
+
+> [!NOTE]
+> Hvis du vil bruge Annulleringsfunktionen til bogførte bankafstemninger og bankkontoudtog i den nordamerikanske version, skal du slå **Bankafstemning med automatisk match** til på siden **Regnskabsopsætning**. Fortrydelsesfunktionen er ikke tilgængelig for bankkontoudtog, der er bogført fra bankafstemningskladder.
+
+### <a name="reusing-the-bank-statement-number"></a>Genbrug bankkontonummer
+Det bankkontonummer, der bruges til den nye bankafstemning, hentes fra bankkontoen, som er kontoens sidste balance. Du kan ændre værdierne, før du starter på en ny bankafstemning. Men når du opretter en ny bankafstemning, undersøger [!INCLUDE[d365fin](includes/d365fin_md.md)], om kontoudtogsnummeret allerede er knyttet til et bogført bankkontoudtog. Hvis nummeret er i brug, men du ønsker, at det nye bankkontoudtog skal bruge den i stedet, kan du bruge **Skift kontoudtogsnr.** handling på siden **Bankkontoafstemning**.
+
+### <a name="examples"></a>Eksempler
+Her følger nogle få eksempler på, hvordan du kan rette en fejl i en bogført bankafstemning med eller uden brug af det samme kontonummer.
+
+#### <a name="example-1"></a>Eksempel 1
+Du har bankafstemninger for januar, februar og marts. Bankkontonummeret var 100 for marts. Senere opdager du, at marts kun medtager poster indtil den 30., hvilket betyder, at der ikke mangler poster til den 31. Du skal derfor annullere bankkontoafstemningen for marts. I dette tilfælde skal du åbne siden **Bankkontoudtog**, vælge regnskabet for marts og derefter klikke på **Fortryd**. 
+
+Den nye bankafstemning får tildelt kontonummeret 101. Hvis du vil gentildele tallet 100, skal du vælge **Skift Kontoudtogsnr.** og Skriv **100**. 
+
+> [!TIP]
+> Husk at angive den korrekte slutdato for kontoudtog (f. eks. 31. marts) og redigere feltet **Sidste kontoudtog-saldo**. 
+
+#### <a name="example-2"></a>Eksempel 2
+Du har bankafstemninger for januar, februar, juni og juli. Du opdager, at februar var forkert. Lad os antage, at det havde kontonummer 100. Som i eksempel 1 skal du bruge felterne Annuller og Skift Kontoudtogsnr. handlinger for at ændre kontoudtogsnummeret som i eksempel #1 ovenfor, og du kan nu gendanne februars bankafstemninger.  
+
+Når du har bogført den korrigerede bankafstemning for februar, skal du på det tilhørende bankkontokort **Sidste kontoudtogsnr.** feltet viser **100**, og feltet **Sidste kontoudtog-saldo** viser slutsaldoen for februar-opgørelsen. 
+
+Hvis den næste bankafstemning er for marts, tildeler [!INCLUDE[d365fin](includes/d365fin_md.md)] 101 som kontokortnummeret og giver den en korrekt **Sidste kontoudtog-saldo**.
+
+Hvis den næste bankafstemning er for august, skal du overveje at ændre værdierne i feltet **sidste kontoudtogsnr.** og felterne **Sidste kontoudtogssaldo** på **Bankkonto**-kortet, før du opretter den næste bank afstemning, eller bruger feltet Skift kontoudtogsnr. handling, og du kan også ændre værdien i feltet "Sidste kontoudtog-saldo" på siden bankafstemning.
+
+> [!NOTE]
+> Kontoudtogsnummeret er vigtigt, når du foretager bankafstemninger med importerede CAMT-filer, der indeholder Kontoudtogs numre, eller når du afstemmer baseret på udskrevne bankkontoudtog. Hvis du blot henter en række transaktioner fra din online bank, er opgørelses nummeret normalt ikke vigtigt. 
+>
+>Sidste kontoudtog-saldo gemmes på bankkontoen for at minimere fejltagelser, når der udføres bankafstemninger, men den kan også redigeres, så du kan foretage bankafstemninger i den ønskede rækkefølge. Det betyder også, at hvis du fortryder et bankkontoudtog, vil den nye slutsaldo muligvis ikke være saldo sidste kontoudtog på det næste bankkontoudtog. Der er ingen funktion, som gør det muligt at flytte en saldo frem til alle efterfølgende bankkontoudtog, så vær opmærksom på dette, når du bruger Fortryd. 
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
@@ -124,4 +158,4 @@ Undertiden indeholder bankafstemninger beløb med renter eller gebyrer. Sådanne
 [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -8,15 +8,15 @@ ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 5661396629572530b3c639f1e7dcbcbf832abb28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 52e453f8a2d63fbfd8c7e3fa292a8d0a98fcaa3c
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917847"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817150"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Svare på anmodninger om personlige oplysninger  
-Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til den generelle forordning om databeskyttelse (GDPR) f.eks. har indbyggere i EU-lande ret til at anmode om eksport, sletning og ændring af deres personlige data. Dette kaldes en *Dataemneanmodning*. Hvis du har klassificeret følsomheden af dine data og er sikker på, at de er korrekte, kan en administrator reagere på anmodninger ved hjælp af indstillingerne under fanen **Beskyttelse af personlige oplysninger** i rollecenteret **It-chef**. Du kan finde flere oplysninger om at klassificere data og klassificere datafølsomheden i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] under [Klassificering af data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md).  
+Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til den generelle forordning om databeskyttelse (GDPR) f.eks. har indbyggere i EU-lande ret til at anmode om eksport, sletning og ændring af deres personlige data. Dette kaldes en *Dataemneanmodning*. Hvis du har klassificeret følsomheden af dine data og er sikker på, at de er korrekte, kan en administrator reagere på anmodninger ved hjælp af indstillingerne under fanen **Beskyttelse af personlige oplysninger** i rollecenteret **It-chef**. Du kan finde flere oplysninger om at klassificere data og klassificere datafølsomheden i [!INCLUDE[prod_long](includes/prod_long.md)] under [Klassificering af data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Typer af anmodninger
 
@@ -35,13 +35,13 @@ Nedenstående tabel indeholder eksempler på typerne af anmodninger, som du kan 
 Et dataemne kan anmode om, at du midlertidigt stopper behandlingen af deres personlige oplysninger. Du kan imødekomme sådanne anmodninger ved at markere posten som spærret på grund af beskyttelse af personlige oplysninger, så behandlingen af deres data stoppes. Når en post er markeret som spærret, kan du ikke oprette nye posteringer, der bruger denne post. Du kan f.eks. ikke du oprette en ny faktura for en debitor, når enten kunden eller sælgeren er blokeret. Åbn kortet for et dataemne, f.eks. kortene Debitor, Leverandør eller Kontakt, hvis du vil markere et dataemne som spærret, og markér afkrydsningsfeltet **Beskyttelse af personlige oplysninger spærret**. Du skal måske vælge **Vis mere** for at få vist feltet.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Håndtering af dataemneanmodninger i prøveversion
-Bestemte typer personlige oplysninger er en del af din Microsoft 365-konto, og det kræver administratorrettigheder til at eksportere dem, hvis du modtager en dataemneanmodning fra en bruger om denne type personlige data i henhold til den generelle forordning om databeskyttelse (GDPR). Processen til håndtering af dataemneanmodninger er forskellige afhængigt af [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejertypen.  
+Bestemte typer personlige oplysninger er en del af din Microsoft 365-konto, og det kræver administratorrettigheder til at eksportere dem, hvis du modtager en dataemneanmodning fra en bruger om denne type personlige data i henhold til den generelle forordning om databeskyttelse (GDPR). Processen til håndtering af dataemneanmodninger er forskellige afhængigt af [!INCLUDE[prod_short](includes/prod_short.md)]-lejertypen.  
 
-Hvis du har et betalt abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du kontakte organisationens lejeradministrator for at sende en dataemneanmodning. Administratoren har administratorrettigheder og -værktøjer til at imødekomme anmodningen.  
+Hvis du har et betalt abonnement på [!INCLUDE[prod_short](includes/prod_short.md)], skal du kontakte organisationens lejeradministrator for at sende en dataemneanmodning. Administratoren har administratorrettigheder og -værktøjer til at imødekomme anmodningen.  
 
-Hvis du er tilmeldt til [!INCLUDE[d365fin](includes/d365fin_md.md)] fra siden med [prøveversioner](https://trials.dynamics.com/), og din organisations administrator ikke har valgt at gå fra denne prøveoplevelse til et betalt abonnement, kan du udfylde din egen dataemneanmodning på [Siden om beskyttelse af personlige oplysninger for arbejde og skole på Azure-portalen](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Her kan du eksportere og hente dine personlige data.
+Hvis du er tilmeldt til [!INCLUDE[prod_short](includes/prod_short.md)] fra siden med [prøveversioner](https://trials.dynamics.com/), og din organisations administrator ikke har valgt at gå fra denne prøveoplevelse til et betalt abonnement, kan du udfylde din egen dataemneanmodning på [Siden om beskyttelse af personlige oplysninger for arbejde og skole på Azure-portalen](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Her kan du eksportere og hente dine personlige data.
 
-Du kan også lukke din konto på denne side. Vi anbefaler dog, at du kontrollerer, at du har eksporteret og slettet alle data først, for når du sletter din konto betyder det, at du mister adgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du kan også lukke din konto på denne side. Vi anbefaler dog, at du kontrollerer, at du har eksporteret og slettet alle data først, for når du sletter din konto betyder det, at du mister adgangen til [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Du kan stadig markere personer som spærret af hensyn til beskyttelse af personlige oplysninger og eksportere, redigere eller slette transaktioner, som beskrevet andetsteds i denne artikel.  
 

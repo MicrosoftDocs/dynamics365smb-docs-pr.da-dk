@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 5ca69a35aac0ba61591dfdfd71d739726e2fb62f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910126"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760313"
 ---
 # <a name="posting-sales"></a>Bogføring af salg
 
@@ -25,9 +25,10 @@ I menuen **Bogføring** i et salgsdokument kan du vælge mellem følgende bogfø
 * **Bogfør og ny**
 * **Bogfør og send**
 * **Vis bogføring**
-* **Kladdefaktura**
-* **Proformafaktura**
+* **Massebogfør**
 * **Testrapport**
+
+> [Bemærk!] I forbindelse med salgsordrer kan du også se indstillinger, der vedrører forudbetalingsfunktionen. Du kan finde flere oplysninger i [Fakturere forudbetalinger](finance-invoice-prepayments.md). 
 
 Når du har udfyldt alle linjer og har indsat alle oplysninger i salgsordren, kan du bogføre den. Dette opretter en leverance og en faktura.
 
@@ -62,4 +63,4 @@ Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks **Pakkespori
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

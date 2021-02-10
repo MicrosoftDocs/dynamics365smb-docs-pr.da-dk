@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920693"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760089"
 ---
 # <a name="working-with-general-journals"></a>Arbejde med finanskladder
 
-De fleste finansposteringer bogføres i finansregnskabet ved hjælp af dedikerede forretningsdokumenter, f.eks. købsfakturaer og salgsordrer. Men du kan også behandle forretningsaktiviteter som f.eks. køb, betaling ved hjælp af gentagne kladder til at bogføre periodiseringer eller refundering af medarbejderens udgifter ved at bogføre kladdelinjer i de forskellige kladder i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De fleste finansposteringer bogføres i finansregnskabet ved hjælp af dedikerede forretningsdokumenter, f.eks. købsfakturaer og salgsordrer. Men du kan også behandle forretningsaktiviteter som f.eks. køb, betaling ved hjælp af gentagne kladder til at bogføre periodiseringer eller refundering af medarbejderens udgifter ved at bogføre kladdelinjer i de forskellige kladder i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 De fleste kladder er baseret på *Finanskladde*, og du kan behandle alle transaktioner på siden **Finanskladde**. Du kan finde flere oplysninger i [Bogføre transaktioner direkte i finansregnskabet](finance-how-post-transactions-directly.md).  
 
@@ -41,15 +41,15 @@ Der er forskellige finanskladdetyper. Hver kladdetype er repræsenteret af en de
 For hver kladdetype kan du angive din egen private kladde som kladdenavn. F.eks. kan du angive din egen kladdetype som udbetalingskladden med dit personlige layout og dine indstillinger. Følgende tip er et eksempel på, hvordan du kan tilpasse en kladde.
 
 > [!TIP]  
-> Hvis du markerer afkrydsningsfeltet **Foreslå modkontobeløb** på linjen for dit kladdenavn på siden **Finanskladdenavne**, udfyldes feltet **Beløb** på f.eks. finanskladdelinjer for samme bilagsnummer automatisk med den værdi, der er nødvendig for at afstemme dokumentet. Du kan finde flere oplysninger i [Lade [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå værdier](ui-let-system-suggest-values.md).
+> Hvis du markerer afkrydsningsfeltet **Foreslå modkontobeløb** på linjen for dit kladdenavn på siden **Finanskladdenavne**, udfyldes feltet **Beløb** på f.eks. finanskladdelinjer for samme bilagsnummer automatisk med den værdi, der er nødvendig for at afstemme dokumentet. Du kan finde flere oplysninger i [Lade [!INCLUDE[prod_short](includes/prod_short.md)] foreslå værdier](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Hvis du vil tilføje eller fjerne felter i kladder, skal du bruge **Tilpasning**-banneret. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>validering af Finanskladdenavne
-Du kan forhindre forsinkelser i bogføringen ved at aktivere en baggrundskontrol, der giver dig besked om, at der er en fejl i den finanskladde, som du arbejder på, som forhindrer, at du bogfører kladden. På siden **Finanskladdenavn** kan du vælge **Baggrundsfejlkontrol** for at [!INCLUDE[d365fin](includes/d365fin_md.md)] validerer finanskladder som f. eks. generelle eller udbetalingskladder, mens du arbejder på dem. 
+Du kan forhindre forsinkelser i bogføringen ved at aktivere en baggrundskontrol, der giver dig besked om, at der er en fejl i den finanskladde, som du arbejder på, som forhindrer, at du bogfører kladden. På siden **Finanskladdenavn** kan du vælge **Baggrundsfejlkontrol** for at [!INCLUDE[prod_short](includes/prod_short.md)] validerer finanskladder som f. eks. generelle eller udbetalingskladder, mens du arbejder på dem. 
 
-Når du aktiverer valideringen, vises faktaboksen **kladdekontrol** ud for kladdelinjerne, og derefter vises afgange på den aktuelle linje og på hele batchen. Validering sker, når du indlæser et Finanskladdenavn, og når du vælger en anden kladdelinje. Det **samlede antal problemer** i faktaboksen viser det samlede antal problemer, som [!INCLUDE[d365fin](includes/d365fin_md.md)] har fundet, og du kan vælge den for at åbne en oversigt over problemerne. 
+Når du aktiverer valideringen, vises faktaboksen **kladdekontrol** ud for kladdelinjerne, og derefter vises afgange på den aktuelle linje og på hele batchen. Validering sker, når du indlæser et Finanskladdenavn, og når du vælger en anden kladdelinje. Det **samlede antal problemer** i faktaboksen viser det samlede antal problemer, som [!INCLUDE[prod_short](includes/prod_short.md)] har fundet, og du kan vælge den for at åbne en oversigt over problemerne. 
 
 Du kan bruge handlingerne **Vis linjer med problemer** og **Vis alle linjer** til at skifte mellem de kladdelinjer, der har eller ikke har problemer. Faktaboksen med de nye **kladdelinjedetaljer** giver hurtig oversigt og adgang til data fra kladdelinjer, f. eks. finanskonto, debitor eller kreditor, samt Bogføringsopsætning for specifikke konti.     
 
@@ -203,7 +203,7 @@ Værdier i feltet **Bilagsnr.** ændres, hvor det kræves, så bilagsnummeret p�
 [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)  
 [Fordele omkostninger og indtægter](year-allocate-costs-income.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Regulere lagerbeholdning i værdireguleringskladden](inventory-how-revalue-inventory.md)  
 [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)  

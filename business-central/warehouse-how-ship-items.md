@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e5a9c93315c1bc199dbcbfe9076c01828524e96
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911917"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759938"
 ---
 # <a name="ship-items"></a>Afsende varer
 
@@ -38,7 +38,7 @@ Nedenfor kan du se, hvordan du leverer varer fra en salgsordre. Der er tilsvaren
 4. Vælg handlingen **Bogfør**.
 
 > [!NOTE]
-> Hvis din organisation ikke bruger salgsordrer, antager [!INCLUDE [prodshort](includes/prodshort.md)], at du har leveret det fulde antal, når du bogfører salgsfakturaen. Hvis dette strider mod den måde, din organisation arbejder på, anbefales du at bruge salgsordrer og bogføre leverancer som forklaret i denne artikel.
+> Hvis din organisation ikke bruger salgsordrer, antager [!INCLUDE [prod_short](includes/prod_short.md)], at du har leveret det fulde antal, når du bogfører salgsfakturaen. Hvis dette strider mod den måde, din organisation arbejder på, anbefales du at bruge salgsordrer og bogføre leverancer som forklaret i denne artikel.
 
 ## <a name="to-ship-items-with-a-warehouse-shipment"></a>Sådan leveres varer med en lagerleverance
 
@@ -46,7 +46,7 @@ Først skal du oprette et leverancedokument fra et virksomhedskildedokument. Der
 
 ### <a name="to-create-a-warehouse-shipment"></a>Sådan oprettes en lagerleverance
 
-Den medarbejder, der er ansvarlig for leverancen, opretter typisk en lagerleverance. Følgende fremgangsmåde beskriver, hvordan du opretter leverancen manuelt i standardversionen af [!INCLUDE[prodshort](includes/prodshort.md)], men din organisation kan have automatiseret dele af processen, f.eks. ved brug af håndholdte eller tilsluttede scannere, der understøttes af eksterne udbydere.  
+Den medarbejder, der er ansvarlig for leverancen, opretter typisk en lagerleverance. Følgende fremgangsmåde beskriver, hvordan du opretter leverancen manuelt i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)], men din organisation kan have automatiseret dele af processen, f.eks. ved brug af håndholdte eller tilsluttede scannere, der understøttes af eksterne udbydere.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverancer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -105,7 +105,7 @@ Du kan finde flere oplysninger om plukning til lagerleverancer i [Plukke varer t
 Du kan også bruge plukkladden til at samle flere forskellige plukinstruktioner i en enkelt instruktion (til flere leverancer) og på den måde foretage plukkene på lagerstedet mere effektivt. Du kan finde flere oplysninger i [Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Hvis du venter på, at bestemte varer skal ankomme på lagerstedet, og du bruger direkte afsendelsesfunktioner, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] beregne i hver leverance- eller kladdelinje det antal af varen, der findes på den direkte afsendelsesplacering. Feltet opdateres, hver gang du lukker eller åbner leverancedokumentet eller kladden. Du kan finde flere oplysninger under [Afsende varer](warehouse-how-to-cross-dock-items.md).
+> Hvis du venter på, at bestemte varer skal ankomme på lagerstedet, og du bruger direkte afsendelsesfunktioner, vil [!INCLUDE[prod_short](includes/prod_short.md)] beregne i hver leverance- eller kladdelinje det antal af varen, der findes på den direkte afsendelsesplacering. Feltet opdateres, hver gang du lukker eller åbner leverancedokumentet eller kladden. Du kan finde flere oplysninger under [Afsende varer](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Se også
 
@@ -114,4 +114,4 @@ Du kan også bruge plukkladden til at samle flere forskellige plukinstruktioner 
 [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914881"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760238"
 ---
 # <a name="tell-me-faq"></a>Ofte stillede spørgsmål om Fortæl mig
 I dette emne besvares spørgsmål, som erfarne brugere ofte stiller om funktionen Fortæl mig.
@@ -32,7 +32,7 @@ Handlinger, sider og rapporter, der stammer fra udvidelser, hentes af Fortæl mi
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Hvordan adskiller denne funktion sig fra det, der tidligere blev kaldt sidesøgning?
 Sidesøgning er blevet udviklet til Fortæl mig for at hjælpe dig med at få arbejdet gjort hurtigt. Sidesøgning kan kun hjælpe dig med at navigere til sider eller rapporter. På et teknisk plan er Fortæl mig ikke længere baseret på det ældre MenuSuite-princip.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Jeg bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] til det lokale miljø. Omfatter det Fortæl mig?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Jeg bruger [!INCLUDE[prod_short](includes/prod_short.md)] til det lokale miljø. Omfatter det Fortæl mig?
 Du kan bruge Fortæl mig i den lokale webklient til at finde handlinger, sider og rapporter, men ikke dokumentation eller apps og konsulenttjenester i AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Er Fortæl mig tilgængelig for alle formfaktorer?

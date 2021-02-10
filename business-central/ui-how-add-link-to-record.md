@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 447012a66e75e1acf03f2aff1ba6b6922164312f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0d13ffa03e4a123158e2f350ff9eab5e274741b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918559"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760563"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 
@@ -29,7 +29,7 @@ Vedhæftede filer, links og noter forbliver tilknyttede, når kortet eller dokum
 > Når du delvist sender og fakturerer en salgsordre eller indkøbsordre, knyttes den vedhæftede fil kun til den endelige faktura for den pågældende ordre. På samme måde knyttes den vedhæftede fil kun til finansposterne for dokumentet, men ikke til periodiseringsposterne, når du fakturerer ved hjælp af funktionen Udskydelser.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Sådan vedhæftes en fil til en købsfaktura
-Du kan vedhæfte alle filtyper, der indeholder tekst, billeder eller video, på et kort eller et dokument. Det er nyttigt, når du f.eks. vil gemme en kreditorfaktura som PDF-fil på den relaterede købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du kan vedhæfte alle filtyper, der indeholder tekst, billeder eller video, på et kort eller et dokument. Det er nyttigt, når du f.eks. vil gemme en kreditorfaktura som PDF-fil på den relaterede købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > Filer, der er vedhæftet med funktionen Indgående bilag, medtages ikke under fanen **Vedhæftede filer**. Du kan finde flere oplysninger i [Indgående bilag](across-income-documents.md).
@@ -95,6 +95,6 @@ Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle a
 Noten knyttes nu til salgsordren.
 
 ## <a name="see-also"></a>Se også  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Indgående bilag](across-income-documents.md)  
 [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)  

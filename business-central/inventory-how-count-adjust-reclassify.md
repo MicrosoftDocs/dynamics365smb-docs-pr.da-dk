@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 056ed7dd978d4c9cc5c3745997912bd32c40bed8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8909e4428aa97190ea6ccb5b83997657f29ea96f
+ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922915"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "4827089"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Tælle, justere og ompostere inventar ved hjælp af kladder
 Mindst én gang hvert regnskabsår skal der foretages lageropgørelse, dvs. alle varer i lagerbeholdningen optælles for at se, om det antal, der er registreret i databasen, svarer til det faktiske fysiske antal på lagerstederne. Når det faktiske fysiske antal kendes, skal det bogføres til Finans som en del af lagervurderingen ved periodeafslutning.
@@ -57,36 +57,6 @@ Du kan udføre lageropgørelsen på følgende måder afhængigt af logistikopsæ
 > [!NOTE]  
 >   Vareposterne behandles i overensstemmelse med de oplysninger, du har angivet, og der oprettes linjer i lageropgørelseskladden. Bemærk, at feltet **Antal (optalt)** udfyldes automatisk med det samme antal som feltet **Antal (beregnet)**. Med denne funktion er det ikke nødvendigt at indtaste den optalte lagerbeholdning for varer, der er de samme som det beregnede antal. Men hvis det optalte antal afviger fra det, der er indtastet i feltet **Antal (beregnet)**, skal du overskrive det med det antal, der faktisk er optalt.
 
-### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Sådan beregnes den forventede lagerbeholdning i avancerede lageropsætninger
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladde**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Beregn regulering (logistik)**.  
-3.  Indtast numrene på de varer, der skal optælles, og din lokation.
-4. Vælg knappen **OK**, og bogfør eventuelle reguleringer.
-
-    Hvis du ikke gør ovenstående, før du foretager lagerplaceringsopgørelsen, bliver de resultater, som du bogfører på lageropgørelseskladden og varekladden i andet trin af proceduren, kombineret med de tidligere reguleringer af de varer, der er optalt.  
-5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerplacering - opg.kladde**, og vælg derefter det relaterede link.  
-6. Vælg handlingen **Beregn beholdning**. Kørselsanmodningssiden **Lager - beregn beholdning** åbnes.  
-7.  Angiv filtre for, hvilke varer der skal optælles i kladden, og klik derefter på knappen **OK**.
-
-    Der oprettes en linje for hver placering, der overholder filterkriterierne. Du kan stadig slette nogle af linjerne, men hvis du vil bogføre resultaterne som en lageropgørelse, skal du optælle varen på alle de placeringer, hvor den opbevares.  
-
-     Hvis du kun har tid til at tælle varen på nogle af placeringerne og opdager afvigelser, kan du registrere dem og senere bogføre dem på varekladden ved at bruge funktionen **Beregn lagerregulering**.  
-8.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerplaceringsopg.oversigt**, og vælg derefter det relaterede link.  
-9.  Åbn rapportanmodningssiden, og udskriv de oversigter, hvor medarbejderne skal angive de vareantal, som de optæller på hver placering.  
-10. Indtast de optalte antal i feltet **Antal (optalt)** i lageropgørelseskladden, når optællingen er foretaget.  
-
-    > [!NOTE]  
-    >  Feltet **Antal (beregnet)** i lagerplaceringsopgørelseskladden udfyldes automatisk på grundlag af lagerplaceringsregistreringerne, og disse antal kopieres til feltet **Antal (optalt)** på hver linje. Hvis det antal, der er optalt af lagermedarbejderen, afviger fra det, der er indsat af programmet i feltet Antal (optalt), skal du indtaste det antal, der faktisk er optalt.  
-
-11. Når du har indtastet alle de optalte antal, skal du vælge handlingen **Registrer**.  
-
-    Når du registrerer kladden, oprettes der to lagerposter i lagerjournalen for hver linje, der er optalt og registreret:  
-
-    -   Hvis det beregnede og det fysiske antal afviger, registreres der et negativt eller positivt antal for placeringen, og der bogføres et udlignende antal til reguleringsplaceringen for lokationen.  
-    -   Hvis det beregnede og det fysiske antal er ens, registreres der en post på 0 for både placeringen og reguleringsplaceringen. Posterne angiver, at der på registreringsdatoen blev udført en lagerplaceringsopgørelse, og at der ingen uoverensstemmelser var på lageret for varen.  
-
-Når du bogfører lagerplaceringsopgørelsen, bogfører du hverken på varekladden, lageropgørelseskladden eller lagerværdikladden, men posterne er der til øjeblikkelig afstemning, når som helst det er nødvendigt. Hvis du imidlertid gerne vil have en præcis optegnelse over, hvad der foregår på lagerstedet, og du har optalt alle de placeringer, hvor varerne var registreret, skal du med det samme bogføre optællingsresultaterne som værende den fysiske lagerbeholdning. Yderligere oplysninger finder du i [Sådan angives og bogføres den faktiske optalte lagerbeholdning i avancerede lageropsætninger](inventory-how-count-adjust-reclassify.md#to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations).
-
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Sådan udskrives rapporten, der skal bruges til optælling
 1. På siden **Lageropgørelseskladde**, der indeholder den beregnede forventede lagerbeholdning, skal du vælge **Udskriv**.
 2. På siden **Lageropgørelsesoversigt** skal du angive, om rapporten skal vise det beregnede antal, og om rapporten skal indeholde lagervarer med serie- og lotnumre.
@@ -113,17 +83,39 @@ Medarbejderne kan nu fortsætte med at optælle lagerbeholdningen og registrere 
 3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
 4. For at kontrollere lageropgørelsen skal du åbne det relevante varekort og vælge handlingen **Lageropgørelsesposter**.
 
+### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Sådan beregnes den forventede lagerbeholdning i avancerede lageropsætninger
+Synkroniser vareposter og lager, før du foretager lagerplaceringsopgørelsen, ellers bliver de resultater, som du bogfører på lageropgørelseskladden og varekladden i sidste trin af proceduren, kombineret med de tidligere reguleringer af de varer, der er optalt. Du kan finde flere oplysninger i [synkronisere mængder i varekladden og lager](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerplacering - opg.kladde**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Beregn beholdning**. Kørselsanmodningssiden **Lager - beregn beholdning** åbnes.  
+3. Angiv filtre for, hvilke varer der skal optælles i kladden, og klik derefter på knappen **OK**.
+
+    Der oprettes en linje for hver placering, der overholder filterkriterierne. Du kan stadig slette nogle af linjerne, men hvis du vil bogføre resultaterne som en lageropgørelse, skal du optælle varen på alle de placeringer, hvor den opbevares.  
+
+     Hvis du kun har tid til at tælle varen på nogle af placeringerne og opdager afvigelser, kan du registrere dem og senere bogføre dem på varekladden ved at bruge funktionen **Beregn lagerregulering**.  
+
+
+### <a name="to-print-the-report-to-be-used-when-counting"></a>Sådan udskrives rapporten, der skal bruges til optælling
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelsesordrer**, og vælg derefter det relaterede link.  
+2. Åbn rapportanmodningssiden, og udskriv de oversigter, hvor medarbejderne skal angive de vareantal, som de optæller på hver placering.  
+
+Medarbejderne kan nu fortsætte med at optælle lagerbeholdningen og registrere eventuelle afvigelser på den udskrevne rapport.
+
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Sådan angives og bogføres den faktiske optalte lagerbeholdning i avancerede lageropsætninger
+1. Indtast de optalte antal i feltet **Antal (optalt)** i lageropgørelseskladden, når optællingen er foretaget.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladde**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Beregn regulering (logistik)**.  
-3.  Vælg de samme varer, som du netop har optalt ved den fysiske lageropgørelse, og evt. andre elementer, der kræver regulering, og vælg derefter knappen **OK**.  
+    > [!NOTE]  
+    >  Feltet **Antal (beregnet)** i lagerplaceringsopgørelseskladden udfyldes automatisk på grundlag af lagerplaceringsregistreringerne, og disse antal kopieres til feltet **Antal (optalt)** på hver linje. Hvis det antal, der er optalt af lagermedarbejderen, afviger fra det, der er indsat af programmet i feltet Antal (optalt), skal du indtaste det antal, der faktisk er optalt.  
 
-     Siden **Lageropgørelseskladde** åbnes, og der oprettes linjer for disse varer. Bemærk, at de nettomængder, du lige har optalt og registreret placering for placering, nu er klar til at blive konsolideret og synkroniseret som vareposter.  
+2. Når du har indtastet alle de optalte antal, skal du vælge handlingen **Registrer**.  
 
-4.  Bogfør kladden uden at ændre på antallene.  
+    Når du registrerer kladden, oprettes der to lagerposter i lagerjournalen for hver linje, der er optalt og registreret:  
 
-Antallene i varekladden (vareposter) og antallene på lagerstedet (lagerposter) stemmer nu igen overens for de pågældende varer, og programmet har opdateret den sidste optællingsdato for varen eller lagervaren.  
+    -   Hvis det beregnede og det fysiske antal afviger, registreres der et negativt eller positivt antal for placeringen, og der bogføres et udlignende antal til reguleringsplaceringen for lokationen.  
+    -   Hvis det beregnede og det fysiske antal er ens, registreres der en post på 0 for både placeringen og reguleringsplaceringen. Posterne angiver, at der på registreringsdatoen blev udført en lagerplaceringsopgørelse, og at der ingen uoverensstemmelser var på lageret for varen.  
+
+Når du bogfører lagerplaceringsopgørelsen, bogfører du hverken på varekladden, lageropgørelseskladden eller lagerværdikladden, men posterne er der til øjeblikkelig afstemning, når som helst det er nødvendigt. Hvis du imidlertid gerne vil have en præcis optegnelse over, hvad der foregår på lagerstedet, og du har optalt alle de placeringer, hvor varerne var registreret, skal du med det samme bogføre optællingsresultaterne som værende den fysiske lagerbeholdning. Du kan finde flere oplysninger i [synkronisere mængder i varekladden og lager](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
 
 ## <a name="to-perform-cycle-counting"></a>Sådan udføres periodisk optælling
 Selvom alle varer på lageret optælles mindst en gang om året, har du måske besluttet, at nogle varer skal optælles oftere. Det kan være fordi, der er tale om særligt dyre vare, eller fordi de har en stor omsætningshastighed og udgør hovedparten af salget. Du kan tildele særlige optællingsperioder til de pågældende varer til dette formål.
@@ -172,7 +164,7 @@ Når du har foretaget en fysisk optælling af varen i dit lagerområde, kan du b
 3. Angiv det maksimale lagerantal, du vil registrere for varen, i feltet **Ny lagerbeholdning**.
 4. Vælg knappen **OK**.
 
-Varens lager er nu reguleret. Det nye antal vises i feltet **Aktuel lagerbeholdning** på siden **Reguler lager** og i feltet **Lager** på siden **Varekort**.
+Varens lager er nu reguleret. Det nye antal vises i feltet **Beholdning** på siden **Varekort**.
 
 Du kan også bruge funktionen **Reguler lager** som en enkel måde at placere købte varer på lager, hvis du ikke bruger købsfakturaer eller -ordrer til at registrere dine køb. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 
@@ -187,9 +179,6 @@ Hvis du ofte bruger varekladden til at bogføre de samme eller lignende kladdeli
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Vælg handlingen **Bogfør** for at regulere lagerbeholdningen.
-
-> [!NOTE]  
->   Når du har reguleret lageret, skal du opdatere det med den aktuelle, beregnede værdi. Du kan finde flere oplysninger under [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Sådan reguleres placeringsantal i avancerede lageropsætninger  
 Hvis din lokation bruger styret læg-på-lager og pluk, skal du bruge **lagerkladden** til at postere alle positive og negative justeringer i varemængden, som du ved er reelle forøgelse , f.eks. varer, der tidligere er posteret som manglende, og som nu dukker op igen, eller reelle tab, f.eks. skader på varer, uden for det fysiske lager.  
@@ -234,4 +223,4 @@ Du kan finde oplysninger om overførsel af varer med fuld kontrol over de antal,
 [Lokalitetsstyring](warehouse-manage-warehouse.md)    
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

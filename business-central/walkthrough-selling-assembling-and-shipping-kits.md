@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918409"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035502"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
 
@@ -37,7 +37,7 @@ Montageelementer er kendetegnet ved deres genbestillingssystem og montagestyklis
 -   Oprette en montagestykliste, der viser montagekomponenter og den ressource, der indgår i montageelementet.  
 
 ### <a name="selling-customized-assembly-items"></a>Sælge tilpassede montageelementer  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
+[!INCLUDE[prod_short](includes/prod_short.md)] giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
 
 -   Oprette en ren ATO-salgsordrelinje, hvor den fulde mængde ikke er tilgængelig, og som skal samles før afsendelse.  
 -   Tilpasse ATO elementer.  
@@ -79,13 +79,16 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 ## <a name="prerequisites"></a>Forudsætninger  
 Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:  
 
--   Installer [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+-   Installer [!INCLUDE[prod_short](includes/prod_short.md)]  
 -   Opret dig selv som en lagermedarbejder på lokationen HVID ved at følge disse trin:  
 
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
 3.  Angiv HVID i feltet **Lokationskode**.  
 4.  Markér feltet **Standard**.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Forbered placeringen HVID til montagebehandling ved at følge disse trin:  
 

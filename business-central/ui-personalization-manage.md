@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912067"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760338"
 ---
 # <a name="customize-pages-for-profiles"></a>Tilpasse sider til profiler
 Brugerne kan tilpasse de sider, som udgør deres arbejdsområde, så de passer til deres egne præferencer. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
@@ -29,7 +29,7 @@ Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratore
 2. Marker linjen for den profil, du vil tilpasse sider for, og vælg derefter handlingen **Rediger**.
 3. Vælg handlingen **Tilpas sider**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] åbner en ny webbrowserfane for den valgte profil, hvor banneret **Tilpasning** er aktiveret. Banneret **Tilpasning** har samme funktionalitet som banneret **Tilpas**, der er tilgængeligt for brugerne.
+    [!INCLUDE[prod_short](includes/prod_short.md)] åbner en ny webbrowserfane for den valgte profil, hvor banneret **Tilpasning** er aktiveret. Banneret **Tilpasning** har samme funktionalitet som banneret **Tilpas**, der er tilgængeligt for brugerne.
 
 4. Tilpas sider efter den pågældende rolles eller afdelings behov på samme måde som en bruger gør. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
@@ -70,4 +70,4 @@ Layoutet på de valgte sider justeres til de ændringer, du har foretaget.
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

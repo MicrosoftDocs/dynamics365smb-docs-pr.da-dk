@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915989"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760288"
 ---
 # <a name="set-up-printers"></a>Installation af printere
-Da [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-tjeneste, kan den ikke nå lokale printere med forbindelse til brugernes maskiner. Men den kan oprette forbindelse til cloud-kompatible printere. I den generelle version af [!INCLUDE[prodshort](includes/prodshort.md)] er der installeret en cloud-printer med navnet **Mailprinter** som en udvidelse, og den er klar til brug efter den første installation.
+Da [!INCLUDE[prod_short](includes/prod_short.md)] er en cloud-tjeneste, kan den ikke nå lokale printere med forbindelse til brugernes maskiner. Men den kan oprette forbindelse til cloud-kompatible printere. I den generelle version af [!INCLUDE[prod_short](includes/prod_short.md)] er der installeret en cloud-printer med navnet **Mailprinter** som en udvidelse, og den er klar til brug efter den første installation.
 
 Hvis der ikke er installeret og konfigureret en cloud-printer, eller hvis der opstår fejl på en installeret printer, vil udskrivningen som standard benytte browserens udskriftsindstillinger. Dette angives med denne værdi i feltet **Printer** på rapportanmodningssiden: *(ingen, håndteres af browseren)*.
 
@@ -59,7 +59,7 @@ Du skal træffe alle de nødvendige forholdsregler for beskyttelse af personlige
 På siden **Printervalg** kan du angive på din brugerkonto, hvilke rapporter der skal udskrives med hvilken printer. Dette er nyttigt, hvis du arbejder med forskellige rapporter, som kræver forskellige printere på grund af deres placering i virksomheden eller deres udskrivningsmuligheder.
 
 > [!IMPORTANT]
-> For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kan siden **Printervalg** kun bruges til printere, der er defineret af printerudvidelser. Den kan ikke bruges til lokale printere.
+> For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan siden **Printervalg** kun bruges til printere, der er defineret af printerudvidelser. Den kan ikke bruges til lokale printere.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Printervalg**, og vælg derefter det relaterede link. Du kan også vælge en printer på siden **Printerstyring** og derefter vælge handlingen **Printervalg**.
 2. Vælg handlingen **Ny** for at tilføje et printervalg til en bestemt rapport.
@@ -84,10 +84,10 @@ Du eller administratoren kan også bruge siden **Printervalg** til at angive and
 |Udskriv en bestemt rapport til en bestemt printer for en bestemt bruger|Angiv værdier i alle tre felter.|
 
 > [!NOTE]
-> Mere bestemte printervalg tilsidesætter mere generelle printervalg. Et printervalg, der har værdier i felterne **Bruger-id**, **Rapport-id**og **Printernavn**, har f. eks. højere prioritet end et printervalg, hvor der ikke er angivet værdier i felterne **Bruger-ID** eller **Rapport-ID**.
+> Mere bestemte printervalg tilsidesætter mere generelle printervalg. Et printervalg, der har værdier i felterne **Bruger-id**, **Rapport-id** og **Printernavn**, har f. eks. højere prioritet end et printervalg, hvor der ikke er angivet værdier i felterne **Bruger-ID** eller **Rapport-ID**.
 
 ## <a name="see-also"></a>Se også
 [Udskrive en rapport](ui-work-report.md#PrintReport)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Afvikle kørsler](ui-how-run-batch-jobs.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  

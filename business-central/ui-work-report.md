@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: cdb01a2d74dff2fef15c2207f98ba8893f081aca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e4b1615ebf177db94e3dfb372809fa71ed2f1459
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920368"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760163"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbejde med rapporter, kørsler og XMLporte
 
@@ -63,7 +63,7 @@ Brug felterne under **Indstillinger** og **Filtre** til at ændre grænsen for d
 
 ## <a name="previewing-a-report"></a>Visning af en rapport
 
-Når du får vist et eksempel på en rapport, kan du se, hvordan rapporten vil se ud, før du udskriver den. Eksempelvisningen illustrerer rapporten på baggrund af den [printer ](#Printer), der vises i feltet **Printer** på anmodningssiden. Når du har vist eksemplet, kan du gå tilbage til anmodningssiden og foretage ændringer af indstillinger og filtre efter behov.
+Når du får vist et eksempel på en rapport, kan du se, hvordan rapporten vil se ud, før du udskriver den. Eksempelvisningen illustrerer rapporten på baggrund af den [printer](#Printer), der vises i feltet **Printer** på anmodningssiden. Når du har vist eksemplet, kan du gå tilbage til anmodningssiden og foretage ændringer af indstillinger og filtre efter behov.
 
 Hvis du vil se et eksempel på en rapport, skal du vælge knappen **Eksempelvisning** eller **Vis udskrift og luk** på rapportanmodningssiden. Den knap, der vises, afhænger af rapporten, så nogle rapporter indeholder knappen **Eksempelvisning**, mens andre har knappen **Vis udskrift og luk**. Begge knapper åbner et eksempel på rapporten. Forskellen er, at i **Eksempelvisning** forbliver siden åben, så du kan gå tilbage til den, foretage ændringer, vise den igen eller udskrive. Med **Vis udskrift og luk**-anmodningssiden lukkes siden, så du skal åbne rapporten igen for at foretage ændringer eller udskrive.
 
@@ -79,7 +79,7 @@ Brug menulinjen i rapporteksemplet til at:
 - Tilpasse til siden
 - Vælg tekst
 
-    Du kan kopiere tekst fra en rapport og derefter indsætte den et andet sted, f.eks. som en side i [!INCLUDE[d365fin](includes/d365fin_md.md)] eller Microsoft Word.  Ved hjælp af musen f.eks., skal du trykke og holde nede på det sted, hvor du vil starte, og derefter bevæge musen for at markere et eller flere ord, sætninger eller afsnit. Tryk på højre museknap, og vælg **Kopiér**. Indsæt den markerede tekst, hvor du ønsker.
+    Du kan kopiere tekst fra en rapport og derefter indsætte den et andet sted, f.eks. som en side i [!INCLUDE[prod_short](includes/prod_short.md)] eller Microsoft Word.  Ved hjælp af musen f.eks., skal du trykke og holde nede på det sted, hvor du vil starte, og derefter bevæge musen for at markere et eller flere ord, sætninger eller afsnit. Tryk på højre museknap, og vælg **Kopiér**. Indsæt den markerede tekst, hvor du ønsker.
 - Panorer over dokumentet
 
     Du kan flytte det synlige område af rapporten i en vilkårlig retning, så du kan se andre områder eller rapporten. Panorering er nyttigt, når du har zoomet ind for at få vist detaljer.  Ved hjælp af musen f.eks. skal du trykke på og holde museknappen nede et vilkårligt sted i rapporteksemplet og derefter bevæge musen.
@@ -121,12 +121,12 @@ Du kan ikke ændre printeren ved hjælp feltet **Printer**. Hvis du vil skifte p
 <!--
 ### Browser printing
 
-Because [!INCLUDE[prodshort](includes/prodshort.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prodshort](includes/prodshort.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
+Because [!INCLUDE[prod_short](includes/prod_short.md)] is a cloud service, it can't reach local printers connected to your computer. However, it can connect to cloud-enabled printers. In the generic version of [!INCLUDE[prod_short](includes/prod_short.md)], a cloud printer named **Email Printer** is installed as an extension and is ready to use after initial setup.
 
 If a cloud printer is not installed and set up, or if an installed printer fails, then printing will default to the printing options for the browser.
 
 > [!NOTE]
-> The browser printing options work independently of [!INCLUDE[prodshort](includes/prodshort.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prodshort](includes/prodshort.md)] aren't carried over to the browser print options.
+> The browser printing options work independently of [!INCLUDE[prod_short](includes/prod_short.md)]. So any printer settings that might have been set up from printers in [!INCLUDE[prod_short](includes/prod_short.md)] aren't carried over to the browser print options.
 
 <!-- 
 On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
@@ -136,7 +136,7 @@ On the **Printer Management** page, you can see the printers that are set up. Fo
 -->
 ### <a name="printing-reports-in-thai"></a>Udskrive rapporter på thailandsk
 
-Knappen **Udskriv** er specifik for Thai-versionen af [!INCLUDE[prodshort](includes/prodshort.md)], men kan ikke udskrive rapporter korrekt pga. begrænsninger i den tjeneste, der genererer PDF-filen, som kan udskrives. Du kan i stedet åbne rapporten i Word og derefter gemme rapporten som en PDF-fil, der kan udskrives.  
+Knappen **Udskriv** er specifik for Thai-versionen af [!INCLUDE[prod_short](includes/prod_short.md)], men kan ikke udskrive rapporter korrekt pga. begrænsninger i den tjeneste, der genererer PDF-filen, som kan udskrives. Du kan i stedet åbne rapporten i Word og derefter gemme rapporten som en PDF-fil, der kan udskrives.  
 
 Du kan også bede administratoren om at oprette et Word-rapportlayout til de mest anvendte rapporter. Du kan finde flere oplysninger under [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).  
 
@@ -155,11 +155,11 @@ Felterne under **Avanceret** angiver begrænsninger for den genererede rapport t
 |Maksimalt antal dokumenter|500|
 
 > [!NOTE]
-> De maksimale værdier kan være forskellige for [!INCLUDE[d365fin](includes/d365fin_md.md)] on-premises, og en administrator kan ændre dem. Du kan finde flere oplysninger under [Konfiguration af Business Central Server - Rapporter](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Du kan få vist en oversigt over rapporters begrænsninger [!INCLUDE[d365fin](includes/d365fin_md.md)] online i [Driftsgrænser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+> De maksimale værdier kan være forskellige for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, og en administrator kan ændre dem. Du kan finde flere oplysninger under [Konfiguration af Business Central Server - Rapporter](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Du kan få vist en oversigt over rapporters begrænsninger [!INCLUDE[prod_short](includes/prod_short.md)] online i [Driftsgrænser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## <a name="see-also"></a>Se også
 
 [Installation af printere](ui-specify-printer-selection-reports.md)  
 [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md)  
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

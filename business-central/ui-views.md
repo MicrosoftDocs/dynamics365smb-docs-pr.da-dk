@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 93d1fffed38ce57e76b6451be071700c1ce07b2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 37fa84f9d0bb97f7e2b6fe94cc6180ef3eb83689
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925492"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024483"
 ---
 # <a name="save-and-personalize-list-views"></a>Gemme og tilpasse listevisninger
 Når du har indstillet et filter på en liste, og du vil beholde filteret til senere brug, kan du gemme det som en visning. Du kan finde flere oplysninger om filtrering af lister i [Indstille filtre på lister](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
-Hvis der findes visninger, vises gruppen **Visninger** øverst i filterruden. Visninger er variationer af listen, der er forudkonfigureret med filtre. Du kan definere og gemme så mange visninger, du ønsker, af hver liste, og visningerne er tilgængelige, næste gang du åbner listen, fra enhver enhed eller browser.
+Hvis der findes visninger, vises gruppen **Visninger** øverst i filterruden. Visninger er variationer af listen, der er forudkonfigureret med filtre. Du kan definere og gemme så mange visninger, du ønsker, pr. liste. Visningerne er tilgængelige, næste gang du åbner listen, fra alle enheder eller browsere.
 
 ## <a name="to-save-a-view"></a>Sådan gemmes en visning
 1. Åbn en listeside.
@@ -34,6 +34,9 @@ Hvis der findes visninger, vises gruppen **Visninger** øverst i filterruden. Vi
 
 Hvis du ikke tildeler et navn, får visningen navnet **Alle (kopi)**.
 
+> [!TIP]
+> Ikke se ikonet ![Gem visning](media/save_view_icon.png "Gem visning")? Du kan finde flere oplysninger i [Hvorfor ikke nogen har et Gem-ikon](ui-views-faq.md#save).
+
 ## <a name="to-rename-or-remove-a-view"></a>Sådan omdøbes eller fjernes en visning
 1. Vælg ikonet ![SVis flere indstillinger](media/show-more-options-icon.png "Vis flere indstillinger") i visningen over listen for at se, hvilke indstillinger der er tilgængelige.
 2. Vælg enten handlingen **Omdøb** eller handlingen **Fjern**.
@@ -44,6 +47,6 @@ Efterhånden som antallet af visninger på en side vokser, kan du få brug for y
 ## <a name="see-also"></a>Se også
 [Ofte stillede spørgsmål om listevisninger](ui-views-faq.md)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)    
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)    
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  

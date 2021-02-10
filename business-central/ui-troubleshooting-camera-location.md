@@ -10,16 +10,16 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912017"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760204"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Fejlfinding: Adgang til kamera og placering
 
-Der kan opstå fejl, når du forsøger at få adgang til en enheds kamera- og placeringsoplysninger via [!INCLUDE[prodshort](includes/prodshort.md)]. På listen nedenfor kan du se de mulige årsager til disse fejl, og hvordan du retter dem.
+Der kan opstå fejl, når du forsøger at få adgang til en enheds kamera- og placeringsoplysninger via [!INCLUDE[prod_short](includes/prod_short.md)]. På listen nedenfor kan du se de mulige årsager til disse fejl, og hvordan du retter dem.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>Enhed skal have kamera- og placeringsfunktioner
 
@@ -29,11 +29,11 @@ Hvis din enhed har kamera- og placeringsfunktioner, men der stadig opstår fejl,
 
 ## <a name="access-permissions-not-enabled"></a>Adgangstilladelser er ikke aktiveret
 
-Du skal aktivere generel adgang til kamera og placering i enhedens indstillinger for beskyttelse af personlige oplysninger og give [!INCLUDE[prodshort](includes/prodshort.md)] udtrykkeligt tilladelse til at få adgang til dem. Hvis du f. eks. vil se eller ændre tilladelser for en enhed, der kører i Windows, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter gå til **App-tilladelser**. 
+Du skal aktivere generel adgang til kamera og placering i enhedens indstillinger for beskyttelse af personlige oplysninger og give [!INCLUDE[prod_short](includes/prod_short.md)] udtrykkeligt tilladelse til at få adgang til dem. Hvis du f. eks. vil se eller ændre tilladelser for en enhed, der kører i Windows, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter gå til **App-tilladelser**. 
 
-I forbindelse med mobilenheder skal du give kamera- og placeringsadgangstilladelserne til [!INCLUDE[prodshort](includes/prodshort.md)]-mobilappen. Hvis du vil gøre det for en iOS-enhed, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter vælge **Kamera** eller **Placering**. Hvis du bruger en Android-enhed, skal du vælge **Indstillinger**, vælge **Apps og meddelelser**, **Avanceret**, **Rettighedsadministrator** og derefter **Kamera** eller **Placering**.
+I forbindelse med mobilenheder skal du give kamera- og placeringsadgangstilladelserne til [!INCLUDE[prod_short](includes/prod_short.md)]-mobilappen. Hvis du vil gøre det for en iOS-enhed, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter vælge **Kamera** eller **Placering**. Hvis du bruger en Android-enhed, skal du vælge **Indstillinger**, vælge **Apps og meddelelser**, **Avanceret**, **Rettighedsadministrator** og derefter **Kamera** eller **Placering**.
 
-Hvis du bruger [!INCLUDE[prodshort](includes/prodshort.md)] i en browser, skal du desuden give [!INCLUDE[prodshort](includes/prodshort.md)]-webstedet tilladelse til at få adgang til oplysninger om kamera eller placering. Hvis du vil se eller ændre tilladelserne for et websted i Microsoft Edge-browseren, skal du gå til **Indstillinger**, vælge **Webstedstilladelser** og derefter vælge **Kamera** eller **Placering**. Bemærk, at dette kan være anderledes for andre browsere.
+Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] i en browser, skal du desuden give [!INCLUDE[prod_short](includes/prod_short.md)]-webstedet tilladelse til at få adgang til oplysninger om kamera eller placering. Hvis du vil se eller ændre tilladelserne for et websted i Microsoft Edge-browseren, skal du gå til **Indstillinger**, vælge **Webstedstilladelser** og derefter vælge **Kamera** eller **Placering**. Bemærk, at dette kan være anderledes for andre browsere.
 
 Som standard viser enheden eller browseren en anmodning om at få adgang til disse egenskaber, når brugeren aktiverer dem første gang.
 
@@ -49,7 +49,7 @@ Den eneste undtagelse er at oprette forbindelse til `http://localhost`, der brug
 
 ## <a name="working-with-virtualization-technologies"></a>Arbejde med virtualiseringsteknologier
 
-Når der oprettes forbindelse til [!INCLUDE[prodshort](includes/prodshort.md)] med fjernskrivebordet eller en anden virtualisering, er der muligvis ikke adgang til kameraet eller placeringen. Hvis det er tilfældet, skal du bruge det fysiske system i stedet for.
+Når der oprettes forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] med fjernskrivebordet eller en anden virtualisering, er der muligvis ikke adgang til kameraet eller placeringen. Hvis det er tilfældet, skal du bruge det fysiske system i stedet for.
 
 ## <a name="antivirus-software"></a>Antivirusprogram
 Nogle antivirusprogrammer blokerer som standard for kamera og placering. Husk at kontrollere indstillingerne for dit antivirusprogram.

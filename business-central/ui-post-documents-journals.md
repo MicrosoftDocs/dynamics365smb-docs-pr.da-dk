@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ffba43c94a02a8bf31a09f4705b0f24312e3c17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1a378d4b5a93d1397512739cce898fe7566707c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912042"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760388"
 ---
 # <a name="posting-documents-and-journals"></a>Bogføring af dokumenter og kladder
 Bogføringen repræsenterer regnskabshandlingen, som registrerer forretningstransaktioner i forskellige virksomhedsfinanskonti.
 
-Næsten alle dokumenter og kladder i [!INCLUDE[d365fin](includes/d365fin_md.md)] har en **Bogføring**-gruppe, hvor du kan vælge mellem forskellige bogføringshandlinger, f.eks **Bogfør**, **Vis bogføring**, **Bogfør og send**, **Bogfør og mail**.
+Næsten alle dokumenter og kladder i [!INCLUDE[prod_short](includes/prod_short.md)] har en **Bogføring**-gruppe, hvor du kan vælge mellem forskellige bogføringshandlinger, f.eks **Bogfør**, **Vis bogføring**, **Bogfør og send**, **Bogfør og mail**.
 
 Følgende tabel beskriver relaterede opgaver med links til de emner, der beskriver dem.
 
@@ -37,4 +37,4 @@ Følgende tabel beskriver relaterede opgaver med links til de emner, der beskriv
 ## <a name="see-also"></a>Se også
 [Redigere bogførte dokumenter](across-edit-posted-document.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

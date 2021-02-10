@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6df2078128cbcf9c4e5f59b7815f777d130543e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922690"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759338"
 ---
 # <a name="create-routings"></a>Oprette ruter
 
@@ -46,8 +46,8 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 9. I feltet **Rutebindingskode** skal du skrive en kode for at knytte komponenten til en bestemt operation. Du kan finde flere oplysninger i [Sådan oprettes rutebindinger](production-how-to-create-routings.md#to-create-routing-links).
 10. Angiv de procestider, der kræves for at fuldføre operationen, i felterne **Operationstid** og **Opstillingstid**.
 
-    > [!NOTE]
-    > Opstillingstiden beregnes pr. produktionsordre, hvorimod operationstiden beregnes pr. produceret vare.  
+     > [!NOTE]
+     > Opstillingstiden beregnes pr. produktionsordre, hvorimod operationstiden beregnes pr. produceret vare.  
 
 11. Angiv i feltet **Samtidige kapaciteter**, hvor mange enheder af den valgte ressource, der bruges til at udføre handlingen. F.eks. vil to personer til en pakkehandling vil halvere kørselstiden.  
 12. Fortsæt med at udfylde linjer for alle de operationer, der kræves for at producere den pågældende vare.  
@@ -129,4 +129,4 @@ Gyldigheden i tid for versionen angives i feltet **Startdato**.
 [Skabelon](production-planning.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

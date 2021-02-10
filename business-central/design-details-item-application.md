@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df1baacad6a1bca50c3d1891ab69e920fd375b12
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913659"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035478"
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
 
@@ -23,7 +23,7 @@ Når du bogfører en lagertransaktion, registreres antalsbogføringen i varepost
 
 Desuden foretages en vareudligning for at sammenkæde modtageren af omkostningerne til kilden for omkostninger for at videresende omkostninger i overensstemmelse med kostmetoden. Du kan finde flere oplysninger i [Designoplysninger: Kostmetoder](design-details-costing-methods.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] foretager to typer af vareudligning.  
+[!INCLUDE[prod_short](includes/prod_short.md)] foretager to typer af vareudligning.  
 
 |Udligningstype|Beskrivelse|  
 |----------------------|---------------------------------------|  
@@ -89,7 +89,7 @@ Følgende tabel viser de to vareudligningsposter, der skyldes henholdsvis lagerf
 ## <a name="fixed-application"></a>Fast udligning  
 Du foretager faste udligninger, når du angiver, at kostprisen for en lagerforøgelse skal udlignes med en bestemt lagerreduktion eller vice versa. Den faste udligning har indflydelse på det resterende antal i posterne, men den faste udligning tilbagefører også den præcise kostpris for den oprindelige post, du udligner til eller fra.  
 
-Hvis du vil foretage en fast udligning, skal du bruge felterne **Udl.varepostløbenr.** eller **Udlign fra varepost** på de bilagslinjer, der angiver den varepost, som transaktionslinjen skal udlignes til eller fra. Du kan f.eks. foretage en fast udligning, hvis du vil oprette en kostprisudligning, der angiver, at en salgsreturvareordre skal udlignes med en bestemt salgsleverance for at kostprisen for salgsleverancen kan tilbageføres. I dette tilfælde tilsidesætter [!INCLUDE[d365fin](includes/d365fin_md.md)] kostmetoden og anvender lagerreduktionen eller forøgelsen for en salgsreturvare på den varepost, du angiver. Fordelen ved en fast udligning er, at kostprisen for den oprindelige transaktion overføres til den nye transaktion.  
+Hvis du vil foretage en fast udligning, skal du bruge felterne **Udl.varepostløbenr.** eller **Udlign fra varepost** på de bilagslinjer, der angiver den varepost, som transaktionslinjen skal udlignes til eller fra. Du kan f.eks. foretage en fast udligning, hvis du vil oprette en kostprisudligning, der angiver, at en salgsreturvareordre skal udlignes med en bestemt salgsleverance for at kostprisen for salgsleverancen kan tilbageføres. I dette tilfælde tilsidesætter [!INCLUDE[prod_short](includes/prod_short.md)] kostmetoden og anvender lagerreduktionen eller forøgelsen for en salgsreturvare på den varepost, du angiver. Fordelen ved en fast udligning er, at kostprisen for den oprindelige transaktion overføres til den nye transaktion.  
 
 ### <a name="example--fixed-application-in-purchase-return"></a>Eksempel – Fast udligning i købsreturvare  
 Følgende eksempel, som illustrerer virkningen af fast udligning af en købsreturvare, der bruger kostmetoden FIFO, er baseret på følgende scenario:  
@@ -126,6 +126,8 @@ Følgende eksempel, som illustrerer virkningen af fast udligning, er baseret på
 5. Lagerantallet er 0, og lagerværdien er også 0,00  
 
 Følgende tabel viser effekten af scenariet på værdiposterne for varen.  
+
+I følgende tabel vises resultatet af scenariet for varens værdiposter, efter bogføringen er afsluttet, og kostreguleringen er udført.
 
 |Bogføringsdato|Vareposttype|Værdiansat antal|Kostbeløb (faktisk)|Udl.varepostløbenr.|Værdisat efter gnsn. kostpris|Varepostløbenr.|Løbenummer|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
@@ -190,7 +192,7 @@ Følgende tabel viser effekten af præcis kostprisudligning i værdiposterne for
 Når du udfører kørslen **Juster kostpris - vareposter**, videreføres de forøgede omkostninger på købsposten på grund af varegebyret til salgsposten (løbenummer 2). Salgsposten overfører derefter denne forøgede omkostning til salgskreditposten (løbenummer 3). Det endelige resultat er, at omkostningerne er tilbageført korrekt.  
 
 > [!NOTE]  
->  Hvis du arbejder med returvareordrer eller kreditnotaer, og du har indstillet feltet **Obl. beløbstilbageførsel** på enten siden **Købsopsætning** eller siden **Salgsopsætning**, som det nu er relevant for dig, udfylder [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk disse felter, når du bruger funktionen **Kopiér fra dokument**. Hvis du bruger funktionen **Hent bogførte bilagslinjer**, udfyldes felterne altid automatisk.  
+>  Hvis du arbejder med returvareordrer eller kreditnotaer, og du har indstillet feltet **Obl. beløbstilbageførsel** på enten siden **Købsopsætning** eller siden **Salgsopsætning**, som det nu er relevant for dig, udfylder [!INCLUDE[prod_short](includes/prod_short.md)] automatisk disse felter, når du bruger funktionen **Kopiér fra dokument**. Hvis du bruger funktionen **Hent bogførte bilagslinjer**, udfyldes felterne altid automatisk.  
 
 > [!NOTE]  
 >  Hvis du bogfører en transaktion med en fast udligning, og den varepost, du udligner, er lukket, dvs. restantallet er nul, annulleres den gamle udligning automatisk, og derefter udlignes vareposten igen med den faste udligning, du har angivet.  
@@ -203,30 +205,30 @@ Følgende eksempel, som illustrerer, hvordan overførselsposter anvendes, er bas
 
 1. Brugeren køber varen til en pris på RV 10,00.  
 2. Brugeren køber varen igen til en pris på RV 20,00.  
-3. Brugeren overflytter varer fra lokationen BLÅ til RØD.  
+3. Brugeren overflytter varer fra lokationen EAST til WEST.  
 
 Følgende tabel viser effekten af overførslen på værdiposterne for varen.  
 
-|Bogføringsdato|Vareposttype|Lokationskode|Værdiansat antal|Kostbeløb (faktisk)|Løbenummer|  
+|Bogføringsdato|Vareposttype|Lokationskode|Værdiansat antal|Kostbeløb (faktisk)|Løbenr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Køb|BLÅ|1|10.00|1|  
-|01-01-20|Køb|BLÅ|1|20.00|2|  
-|02-01-20|Overførsel|BLÅ|-1|15.00|3|  
-|02-01-20|Overførsel|RØD|1|15.00|4|  
+|01-01-20|Køb|EAST|1|10,00|1|  
+|01-01-20|Køb|EAST|1|20,00|2|  
+|02-01-20|Overførsel|EAST|-1|15.00|3|  
+|02-01-20|Overførsel|WEST|1|15.00|4|  
 
 ### <a name="example--standard-costing-method"></a>Eksempel – standardkostmetode  
 Følgende eksempel, som illustrerer, hvordan overførselsposter anvendes, er baseret på følgende scenario for en vare, der bruger kostmetoden Standard og en gennemsnitlig omkostningsperiode på en dag.  
 
 1. Brugeren køber varen til en standardpris på RV 10,00.  
-2. Brugeren overfører varen fra lokationen BLÅ til RØD med en standardkostpris på RV 12,00.  
+2. Brugeren overfører varen fra lokationen EAST til WEST med en standardkostpris på RV 12,00.  
 
 Følgende tabel viser effekten af overførslen på værdiposterne for varen.  
 
-|Bogføringsdato|Vareposttype|Lokationskode|Værdiansat antal|Kostbeløb (faktisk)|Løbenummer|  
+|Bogføringsdato|Vareposttype|Lokationskode|Værdiansat antal|Kostbeløb (faktisk)|Løbenr.|  
 |-------------------------------------|-----------------------------------------------|--------------------------------------|-----------------------------------------|------------------------------------------------|----------------------------------|  
-|01-01-20|Køb|BLÅ|1|10.00|1|  
-|02-01-20|Overførsel|BLÅ|-1|10,00|2|  
-|02-01-20|Overførsel|RØD|1|10,00|3|  
+|01-01-20|Køb|EAST|1|10,00|1|  
+|02-01-20|Overførsel|EAST|-1|10,00|2|  
+|02-01-20|Overførsel|WEST|1|10,00|3|  
 
 Da værdien af den oprindelige lagerforøgelse er RV 10,00, er overførslen værdisat til denne kostpris, ikke RV 12,00.  
 
@@ -238,7 +240,7 @@ På grund af den måde, som kostprisen på en vare beregnes, kan en forkert vare
 * Du ønsker at tilsidesætte den udligning, der oprettes automatisk, når du bogfører, i henhold til varens kostmetode.  
 * Du skal returnere en vare, hvor salget allerede er udlignet manuelt, uden at bruge funktionen **Hent bogførte bilagslinjer, der skal tilbageføres**, og du skal derfor fortryde udligningen.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en funktion, der analyserer og korrigerer vareudligninger. Dette arbejde udføres på siden **Udligningskladde**.  
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder en funktion, der analyserer og korrigerer vareudligninger. Dette arbejde udføres på siden **Udligningskladde**.  
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -248,4 +250,4 @@ På grund af den måde, som kostprisen på en vare beregnes, kan en forkert vare
 [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

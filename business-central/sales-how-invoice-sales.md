@@ -1,5 +1,5 @@
 ---
-title: Oprette en salgsfaktura eller salgsordre | Microsoft Docs
+title: Oprette en salgsfaktura eller en salgsordre
 description: Beskriver, hvordan du opretter en salgsnota, en salgsfaktura eller salgsordre for at registrere en aftale med en kunde om at sælge produkter i henhold til bestemte betingelser.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2020
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b417ed7a4ef520ab652a66ac6f961c7c2f1a970e
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926218"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035402"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 
@@ -94,6 +94,10 @@ Dialogboksen **Bekræftelse af bogfør og send** viser debitorens foretrukne met
 
 De relaterede vare- og debitorposter oprettes nu i systemet, og salgsfakturaen udlæses som et PDF-dokument. Salgsfakturaen fjernes fra listen over salgsfakturaer og erstattes med et nyt bilag i oversigten over bogførte salgsfakturaer.  
 
+### <a name="calculating-invoice-discounts-on-sales"></a>Beregning af fakturarabatter på salg
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
 ## <a name="registering-payments"></a>Registrere betalinger
 
 Afhængigt af dine forretningsmæssige behov kan du modtage betaling og registrere den på forskellige måder: manuelt, automatisk og ved hjælp af betalingstjenester.  
@@ -106,13 +110,18 @@ I forretningsmiljøer hvor debitor betaler med det samme, f.eks. via PayPal elle
 
 Du kan også oprette direkte betalte fakturaer for ikke-registrerede kunder ved først at oprette et "kontantkunde"-kort, som du så peger hen på salgsfakturaen. Der er flere oplysninger under [Oprette kontantkunder](finance-how-to-set-up-cash-customers.md).  
 
+> [!TIP]
+> Hvis du vil sende rykkere til kunder om forfaldne betalinger, skal du oprette rykkerniveauer og-betingelser. Du kan finde flere oplysninger i [Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md).  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Udskrive pluklisten](sales-how-print-picking-list.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
+[Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Massefakturering fra Microsoft Bookings i Business Central](finance-bookings.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

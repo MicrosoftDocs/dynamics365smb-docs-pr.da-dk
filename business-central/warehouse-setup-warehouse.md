@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 94c793441d413820f3dd752179c0268147fc2f8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c96691ada97f0ee91b53d9cde303c2413e99025e
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920216"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024383"
 ---
 # <a name="setting-up-warehouse-management"></a>Sådan konfigureres logistikfunktioner
 En virksomheds distributionsstrategi afspejles i konfigurationen af virksomhedens lagerprocesser. Dette omfatter bl.a. angivelse af, hvordan forskellige varer håndteres på forskellige lagerlokationer, f.eks. graden af placeringsstyring, og hvilket omfang af arbejdsgange der kræves mellem lageraktiviteterne.  
@@ -40,10 +40,11 @@ En virksomheds distributionsstrategi afspejles i konfigurationen af virksomheden
 |Konfigurere et lagersted til automatisk først at foreslå varer, der udløber først.|[Aktivere pluk af varer efter FEFO](warehouse-picking-by-fefo.md)|
 |Få idéer til, hvordan du kan reorganisere lokationer, placeringer eller zoner for at opnå mere effektive lageraktiviteter.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|
 |Integrere stregkodebrugere i din lagerstyringsløsning. Kun til lokal installation.|[Brug ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

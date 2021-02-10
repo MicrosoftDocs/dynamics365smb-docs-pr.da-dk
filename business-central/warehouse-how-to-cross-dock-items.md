@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c67f55e1de336e7a191b1d10affe0134110a70b5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923241"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759838"
 ---
 # <a name="cross-dock-items"></a>Afsende varer direkte
 Funktionerne i forbindelse med direkte afsendelse er tilgængelige, hvis du har sat lokationen op til at kræve lagermodtagelse og læg-på-lager.  
@@ -60,7 +60,7 @@ Der foretages ingen separate registreringer om varer, der afsendes direkte, men 
 2.  Opret en lagermeddelelse for de varer, der er modtaget, og som måske kan afsendes direkte. Du kan finde flere oplysninger i [Modtage varer](warehouse-how-receive-items.md).  
 3.  Udfyld feltet **Modtag (antal)**, og vælg derefter handlingen **Beregn direkte afsendelse**.  
 
-    Udgående kildedokumenter med bestilling på de varer, der er planlagt til afsendelse fra lagerstedet inden for tidsrummet i datoformlen, identificeres.  [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner antal, så du kan afsende så meget som muligt direkte og undgå at lægge varerne på lager. Værdien i feltet **Antal til dir. afsend.** er derfor summen af alle de udgående linjer med bestilling på varen inden for tidshorisonten minus det antal varer, der allerede er blevet placeret i området til direkte afsendelse, eller det er værdien i feltet **Modtag (antal)** på modtagelseslinjen, alt efter hvilken af disse værdier der er mindst. Du kan ikke afsende flere varer direkte, end du har modtaget.  
+    Udgående kildedokumenter med bestilling på de varer, der er planlagt til afsendelse fra lagerstedet inden for tidsrummet i datoformlen, identificeres.  [!INCLUDE[prod_short](includes/prod_short.md)] beregner antal, så du kan afsende så meget som muligt direkte og undgå at lægge varerne på lager. Værdien i feltet **Antal til dir. afsend.** er derfor summen af alle de udgående linjer med bestilling på varen inden for tidshorisonten minus det antal varer, der allerede er blevet placeret i området til direkte afsendelse, eller det er værdien i feltet **Modtag (antal)** på modtagelseslinjen, alt efter hvilken af disse værdier der er mindst. Du kan ikke afsende flere varer direkte, end du har modtaget.  
 
 4.  Hvis du vil afsende det foreslåede antal direkte, skal du bogføre modtagelsen. Du kan også øge eller nedsætte vareantallet til direkte afsendelse til en højere eller lavere værdi, før du bogfører modtagelsen.  
 
@@ -104,4 +104,4 @@ Hvis du ikke benytter placeringer, skal du selv med mellemrum huske at kontrolle
 [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

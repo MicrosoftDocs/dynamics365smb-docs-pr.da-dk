@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: a2c8071abc075caf359d942da5a3638ef811d126
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 28b796a001d1bd1d981ab84bc13607158733c502
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925613"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760463"
 ---
 # <a name="view-test-reports-before-posting"></a>Vise testrapporter inden bogføring
 Når du er klar til at bogføre et dokument, f.eks en ordre, faktura eller en kreditnota, kan du teste dokumentet for at sikre, at der ingen problemer findes, der vil blokere for bogføringen.
@@ -33,4 +33,4 @@ Alle dele af købsfakturaen testes og resultatet vises i en rapport. Hvis rappor
 
 ## <a name="see-also"></a>Se også
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

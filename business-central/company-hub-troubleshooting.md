@@ -1,6 +1,6 @@
 ---
 title: Fejlfinding i virksomhedens hub
-description: Få at vide, hvordan du kan løse eventuelle problemer med virksomhedshubben i Dynamics 365 Business Central.
+description: Få mere at vide om, hvordan du kan løse problemer, når du arbejder i virksomheden i Dynamics 365 Business Central for at administrere arbejde på tværs af flere firmaer.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f348de3e8116efd789f85f1b011ecc7013bf2b1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94bd2c0270263a1382094e559b4e70753f9bb91f
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927629"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013578"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Fejlfinding i virksomhedens hub
 
@@ -37,11 +37,11 @@ Der kan være nogle årsager til, at du ikke kan oprette forbindelse til en virk
   På dashboardet skal du vælge menupunktet **Værktøjer** og derefter vælge **Kontroller fejl**. Dermed åbnes en liste med tekniske oplysninger, så du skal måske kontakte systemadministratoren, hvis du får vist fejl. Meddelelsen "*Serveren har afvist kundens legitimationsoplysninger*" angiver f.eks., at du ikke har adgang.  
 - Du har ikke adgang til alle regnskaber i miljøet, som du forsøger at oprette forbindelse til.
 
-  I [!INCLUDE [prodshort](includes/prodshort.md)] kan en organisation have flere forretningsenheder kaldet virksomheder, og du har muligvis ikke adgang til alle virksomheder. Arbejd sammen med administratoren for at sikre, at du har adgang til de virksomheder, som du ønsker at arbejde i.  
+  I [!INCLUDE [prod_short](includes/prod_short.md)] kan en organisation have flere forretningsenheder kaldet virksomheder, og du har muligvis ikke adgang til alle virksomheder. Arbejd sammen med administratoren for at sikre, at du har adgang til de virksomheder, som du ønsker at arbejde i.  
 
 ## <a name="data-does-not-refresh"></a>Data opdateres ikke
 
-Når du tilføjer en virksomhed eller anmoder om en opdatering af dataene, henter [!INCLUDE [prodshort](includes/prodshort.md)] dataene. Men du skal selv opdatere siden, f.eks. ved at vælge handlingen **Genindlæs alle virksomheder**, opdatere browsersiden, navigere væk fra dashboardet og derefter tilbage igen eller noget lignende.  
+Når du tilføjer en virksomhed eller anmoder om en opdatering af dataene, henter [!INCLUDE [prod_short](includes/prod_short.md)] dataene. Men du skal selv opdatere siden, f.eks. ved at vælge handlingen **Genindlæs alle virksomheder**, opdatere browsersiden, navigere væk fra dashboardet og derefter tilbage igen eller noget lignende.  
 
 Hvis du har tilføjet et regnskab, men det ikke vises på listen, kan du også bruge handlingen **Genindlæs alle virksomheder** for at opdatere listen.
 

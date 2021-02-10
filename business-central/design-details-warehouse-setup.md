@@ -10,35 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44cbc7d42827b92f8983aa47b94d76760ddda8d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924250"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035427"
 ---
 # <a name="design-details-warehouse-setup"></a>Designoplysninger: Opsætning af lager
 
-Lagerfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen. Desuden styrer programobjekter i licensen, hvilket UI-dokument der skal bruges til de understøttede lageraktiviteter.  
+Lagerfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)] indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen. Desuden styrer programobjekter i licensen, hvilket UI-dokument der skal bruges til de understøttede lageraktiviteter.  
+<!--
+The following warehouse-related granules exist:  
 
-Der findes følgende lagerrelaterede moduler:  
-
-- Grundlæggende lagerbeholdning (4010)  
-- Placering (4170)  
-- Læg-på-lager (4180)  
-- Lagermodtagelse (4190)  
-- Pluk (4200)  
-- Lagerleverance (4210)  
-- Logistiksystemer (4620)  
-- Interne pluk og læg-på-lager (4630)  
+- Basic Inventory (4010)  
+- Bin (4170)  
+- Put Away (4180)  
+- Warehouse Receipt (4190)  
+- Pick (4200)  
+- Warehouse Shipment (4210)  
+- Warehouse Management Systems (4620)  
+- Internal Picks and Put-aways (4630)  
 - Automated Data Capture System (4640)
-- Opsætning af placering (4660)  
+- Bin Setup (4660)  
 
-Du kan finde flere oplysninger om hvert begreb i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prisark](https://go.microsoft.com/fwlink/?LinkId=238341) (kræver PartnerSource-konto).  
+For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
 
-Følgende tabel viser, hvilke moduler der er nødvendige for at definere forskellige lagerkompleksitetsniveauer, hvilke dokumenter til brugergrænsefladen der understøtter hvert niveau, og hvilke lokationskoder der afspejler disse niveauer i [!INCLUDE[d365fin](includes/d365fin_md.md)]-demodatabasen.  
+Følgende tabel viser, hvilke moduler der er nødvendige for at definere forskellige lagerkompleksitetsniveauer, hvilke dokumenter til brugergrænsefladen der understøtter hvert niveau, og hvilke lokationskoder der afspejler disse niveauer i [!INCLUDE[prod_short](includes/prod_short.md)]-demodatabasen.  
 
-|Kompleksitetsniveau|Beskrivelse|Brugergrænsefladedokument|CRONUS-lokation|Mindste modulkrav|  
+[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
+|Kompleksitetsniveau|Description|Brugergrænsefladedokument|Lokationseksempel|Mindste modulkrav|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|Ingen dedikeret lageraktivitet.<br /><br /> Modtag/levér-bogføring fra ordrer.|Ordre|BLÅ|Grundlæggende lagerbeholdning|  
 |2|Ingen dedikeret lageraktivitet.<br /><br /> Modtag/levér-bogføring fra ordrer.<br /><br /> Placeringskode er påkrævet.|Ordre, med placeringskode|SØLV|Grundlæggende lagerbeholdning/Placering|  
@@ -51,7 +53,7 @@ Se eksempler på, hvordan brugergrænsefladeelementer bruges afhængigt af kompl
 
 ## <a name="bin-and-bin-content"></a>Placering og placeringsindhold
 
-En placering er en lagerenhed, der er beregnet til at indeholde adskilte dele. Det er den mindste containerenhed i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Antal varer på placeringer kaldes placeringsindhold. Et opslag fra feltet **Vare** eller feltet **Placeringskode** i enhver lagerrelateret dokumentlinje viser den beregnede beholdning af varen på placeringen.  
+En placering er en lagerenhed, der er beregnet til at indeholde adskilte dele. Det er den mindste containerenhed i [!INCLUDE[prod_short](includes/prod_short.md)]. Antal varer på placeringer kaldes placeringsindhold. Et opslag fra feltet **Vare** eller feltet **Placeringskode** i enhver lagerrelateret dokumentlinje viser den beregnede beholdning af varen på placeringen.  
 
 Placeringsindhold kan gives egenskaben Fast, Dedikeret eller Standard for at definere, hvordan du kan bruge placeringsindholdet. Placeringer uden nogen af disse egenskaber kaldes løse placeringer.  
 

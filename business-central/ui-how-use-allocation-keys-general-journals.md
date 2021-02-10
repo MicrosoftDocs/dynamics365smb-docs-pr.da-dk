@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: af18a94f5cf6b24b0da24821499e3866487207be
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84ea436a7e7edc6851b97b718b66195edddd2da2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918534"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760488"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Bruge fordelingsnøgler i finanskladder
 Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.
@@ -46,4 +46,4 @@ Du kan allokere en post i en finanskladde til flere forskellige konti, når du b
 ## <a name="see-also"></a>Se også
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

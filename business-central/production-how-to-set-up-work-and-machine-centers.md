@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910701"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817277"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbejdscentre og produktionsressourcer
 
@@ -68,11 +68,14 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
     > [!NOTE]  
     > Hvis du vælger at bruge Dage, skal du huske, at 1 dag = 24 timer - og ikke 8 (arbejdstimer).
 
-13. I feltet **Kapacitet** skal du angive, om arbejdscentret har mere end én maskine eller person, der arbejder samtidigt. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-installation ikke omfatter funktionaliteten Produktionsressource, skal værdien i dette felt være **1**.  
+13. I feltet **Kapacitet** skal du angive, om arbejdscentret har mere end én maskine eller person, der arbejder samtidigt. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-installation ikke omfatter funktionaliteten Produktionsressource, skal værdien i dette felt være **1**.  
 14. Angiv den procentdel af den forventede standardafgang, som arbejdscentret normalt producerer, i feltet **Effektivitet**. Hvis du angiver **100**, betyder det, at arbejdscentret har en faktisk afgang, der er den samme som standardafgangen.  
 15. Markér afkrydsningsfeltet **Fælles kalender**, hvis du også bruger produktionsressourcer. Dette sikrer, at kalenderposter er akkumuleres fra produktionsressourcekalendere.  
 16. Vælg en produktionskalender i feltet **Produktionskalenderkode**. Du kan finde flere oplysninger i [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).  
-17. I feltet **Køtid** skal du angive et fast tidsrum, der skal forløbe, før det tildelte arbejde kan begynde på arbejdscentret. Bemærk, at køtiden lægges til andre ikke-produktive tidselementer, f.eks. ventetid og transporttid, som du kan definere på rutelinjer, der benytter dette arbejdscenter.  
+17. I feltet **Køtid** skal du angive et fast tidsrum, der skal forløbe, før det tildelte arbejde kan begynde på arbejdscentret. 
+
+> [!NOTE]
+> Brug køtid til at angive en buffer mellem den tid, en komponent ankommer til en produktionsressource eller et arbejdscenter, og hvornår driften faktisk starter. F. eks. leveres en del til en produktionsressource kl. 10:00, men det tager en time at montere det på maskinen, så driften kan ikke starte før kl. 11:00. For at kunne redegøre for den pågældende time skal køtiden være én time. Værdien i feltet **Køtid** på det specifikke produktionsressource- eller arbejdscenterkort plus summen af værdien i felterne **Opstillingstid**, **Driftstid**, **Ventetid** og **Transporttid** på varerutelinjen lægges sammen for at vise varens produktionstid. Dermed får du den nøjagtige overordnede produktionstid.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Eksempel - Du kan knytte forskellige produktionsressourcer til et arbejdscenter
 
@@ -88,7 +91,7 @@ Hvis kapaciteter i arbejdscentre ikke skal bidrage til den samlede kapacitet, sk
 
 Du skal oprette produktionsressourcer, som du betragter som kritiske, og udpege dem som i stand til at håndtere en begrænset belastning i stedet for den ubegrænsede belastning, som andre ressourcer kan håndtere. En kapacitetsbegrænset ressource kan f.eks. være et arbejdscenter eller en produktionsressource, der er identificeret som flaskehals, og som du derfor vil tildele en begrænset (endelig) belastning for.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter ikke detaljeret produktionskontrol. Det planlægger en mulig udnyttelse af ressourcer ved at tilbyde en grov plan, men det opretter og vedligeholder ikke automatisk detaljerede planer, der er baseret på prioriteter eller optimeringsregler.
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter ikke detaljeret produktionskontrol. Det planlægger en mulig udnyttelse af ressourcer ved at tilbyde en grov plan, men det opretter og vedligeholder ikke automatisk detaljerede planer, der er baseret på prioriteter eller optimeringsregler.
 
 På siden **Kapacitetsbegrænsede ressourcer** kan du foretage en opsætning, der undgår overbelastning af bestemte ressourcer og sikrer, at ingen kapacitet er ikke-allokeret, hvis det kan forbedre gennemløbstiden for en produktionsordre. I feltet **Aktionsgrænse (% af den samlede kapacitet)** kan du tilføje aktionsgrænsetid for ressourcer for at begrænse tab på opdeling af operationer. Dette gør det muligt for systemet at planlægge belastning på den sidst mulige dag ved at overskride den kritiske belastningsprocent en smule, hvis dette kan reducere antallet af operationer, der er opdelt.
 
@@ -111,4 +114,4 @@ Ved planlægning med kapacitetsbegrænsede ressourcer sikrer systemet, at der ik
 [Skabelon](production-planning.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

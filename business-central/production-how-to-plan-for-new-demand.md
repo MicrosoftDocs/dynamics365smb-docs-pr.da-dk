@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43e93d44a1fb4e3fe840313ebff9171cebddf4f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62f5254da05749c2da4690e7d49488af852ac67a
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919159"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013840"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planlægge efter nyt behov ordre for ordre
 Denne planlægningsopgave kan udføres på siden **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.  
@@ -109,6 +109,7 @@ Når du er færdig med planlægningsarbejdet på siden **Ordreplanlægning**, og
 >  De forsyningsordrer, du opretter, kan medføre nye afhængige behov, f.eks. for underliggende produktionsordrer. Du bør derfor vælge **Beregn plan** igen for at finde og løse dem, før du går nedad på listen.  
 
 ## <a name="see-also"></a>Se også  
+[Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)  
 [Skabelon](production-planning.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
@@ -116,4 +117,4 @@ Når du er færdig med planlægningsarbejdet på siden **Ordreplanlægning**, og
 [Køb](purchasing-manage-purchasing.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

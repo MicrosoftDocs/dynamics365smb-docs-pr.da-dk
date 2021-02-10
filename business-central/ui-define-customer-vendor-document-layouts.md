@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6b517c9b34d7046e8a4aae49f0392edf28cf4341
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed8b60c5b49502251f6ab6e61d22fd860af0915f
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912542"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024534"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Angiv dokumentlayout for debitorer og leverandører
-Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debitor- og leverandørkortene for at angive, hvilke layout der skal bruges til de forskellige typer dokumenter, som du har oprettet for den pågældende debitor eller leverandør. Værdien i feltet **Forbrug** angiver, hvilken proces, dokumentlayoutet skal bruges til, f.eks. **Rykker**, **Forsendelse**og **Bekræftelse**.
+Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debitor- og leverandørkortene for at angive, hvilke layout der skal bruges til de forskellige typer dokumenter, som du har oprettet for den pågældende debitor eller leverandør. Værdien i feltet **Forbrug** angiver, hvilken proces, dokumentlayoutet skal bruges til, f.eks. **Rykker**, **Forsendelse** og **Bekræftelse**.
 
 Ud over at konfigurere, hvilket layout der skal bruges til hvilket dokument, kan du spare tid, når du sender dokumenter til forskellige debitor- eller leverandørkontakter, ved at konfigurere, hvilket specifikke kontaktpersoners e-mail-adresser, der skal bruges i forbindelse med bestemte dokumenter. F.eks. vil der blive sendt kontoudtog til revisionskontakter, salgsordrer til din kundes indkøbere og købsordrer til leverandørernes sælgere eller account managers.
 

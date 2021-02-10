@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7c9d67168308491daef838e91c5a1b84645b222a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 04ae13561f44d544d38b04e3a881a0e707b441b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920418"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760513"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Udføre kørsler og XMLporte
 En kørsel er en rutine, hvor data behandles i bundter, f.eks. kørslen **Kursreguler valutabeholdninger**. Der findes kørsler, som udfører periodiske regnskabsaktiviteter, som f.eks. opgørelse af resultatopgørelsen ved afslutning af regnskabsåret. Mange kørsler udfører beregninger, som f.eks. beregningen af rentenotaer, kursjusteringer og beregning af salgspriser.
@@ -35,4 +35,4 @@ Du kan planlægge, hvornår en kørsel skal udføres. Du kan finde flere oplysni
 ## <a name="see-also"></a>Se også
 [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
 [Du kan bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

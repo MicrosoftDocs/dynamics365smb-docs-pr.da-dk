@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89ee34bac855e40bc44f1e32764968cfd36324a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923316"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760108"
 ---
 # <a name="business-process-walkthroughs"></a>Gennemgang af forretningsprocesser
 
 Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som du kan udføre ved hjælp af demovirksomheden CRONUS Danmark A/S. Gennemgangene består af flere procedurer, hvoraf nogle normalt udføres af én bruger, mens andre indføjer flere forskellige brugerroller. Med henblik på at simulere arbejdsmiljøet, indeholder nogle af gennemgangene installationstrin, der er nødvendige for at gennemføre øvelserne som beskrevet. Disse trin kan give indblik i, hvilken type oplysninger brugerne skal dele med deres virksomheds it-teknikere.  
 
- Gennemgangene er komplette scenarier og bør udføres fra start til slut for at give optimalt udbytte. Mange af dem er baseret på [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstrationer og giver dig mulighed for at prøve disse procedurer selv, i dit eget tempo.  
+ Gennemgangene er komplette scenarier og bør udføres fra start til slut for at give optimalt udbytte. Mange af dem er baseret på [!INCLUDE[prod_short](includes/prod_short.md)]-demonstrationer og giver dig mulighed for at prøve disse procedurer selv, i dit eget tempo.  
 
 > [!NOTE]
-> Nogle gennemgange kræver eksempeldata, der ikke er tilgængelige i standarddemonstrationsvirksomheden i [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan finde flere oplysninger i [Sådan opretter du en virksomhed med komplette eksempeldata i en sandkasse](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Nogle gennemgange kræver eksempeldata, der ikke er tilgængelige i standarddemonstrationsvirksomheden i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Sådan opretter du en virksomhed med komplette eksempeldata i en sandkasse](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Hvis du vil|Skal du se|  
 |--------|---------|  
@@ -44,6 +44,6 @@ Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som d
 
 ## <a name="see-also"></a>Se også
 
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e916192ad9aa14ebcb254a140614b84091ddc922
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917497"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013625"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designoplysninger: Centrale begreber i planlægningssystemet
 Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den relevante periode, der skal planlægges. Ifølge hver vares laveste-niveau-kode (styklisteposition) kalder kørslen en kodeenhed, der beregner en forsyningsplan ved at afstemme forsyning-behov-sæt og foreslå mulige handlinger, som brugeren kan foretage. De foreslåede handlinger vises som linjer i planlægningskladden eller indkøbskladden.  
@@ -49,7 +49,7 @@ Med andre ord antages det, at planen for fortiden er udført i overensstemmelse 
 Du kan finde flere oplysninger i [Håndtering af ordrer før planlægningsstartdatoen](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamisk ordresporing (udligning)  
-Dynamisk ordresporing med samtidig oprettelse af aktionsmeddelelser i planlægningskladden er ikke en del af forsyningsplanlægningssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Denne funktion sammenkæder, behovet og det antal, der kan dække det, i realtid, hver gang et nyt behov eller en ny forsyning oprettes eller ændres.  
+Dynamisk ordresporing med samtidig oprettelse af aktionsmeddelelser i planlægningskladden er ikke en del af forsyningsplanlægningssystemet i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne funktion sammenkæder, behovet og det antal, der kan dække det, i realtid, hver gang et nyt behov eller en ny forsyning oprettes eller ændres.  
 
 Hvis brugeren f.eks. indtaster eller ændrer en salgsordre, vil det dynamiske ordresporingssystem søge efter en relevant forsyning, der kan dække behovet. Dette kan være fra lagerbeholdning eller fra en forventet forsyningsordre (f.eks. en købsordre eller en produktionsordre). Når der findes en forsyningskilde opretter systemet opretter en kæde mellem behov og forsyning og viser den på skrivebeskyttede sider, der åbnes fra de involverede dokumentlinjer. Når der ikke bliver fundet tilstrækkelige forsyninger, opretter det dynamiske ordresporingssystem aktionsmeddelelser i planlægningskladden med forslag til forsyningsplanlægning, der afspejler den dynamiske balance. Derfor tilbyder det dynamiske ordresporingssystem et meget grundlæggende planlægningssystem, der kan være til hjælp både for planlæggeren og andre roller i den interne forsyningskæde.  
 
@@ -76,12 +76,12 @@ Derimod vedrører planlægningssystemet alle behov og forsyninger for en bestemt
 
 Efter planlægningskørslen forbliver ingen aktionsmeddelelser i tabellen Aktionsmeddelelsespost, fordi de er blevet erstattet af de foreslåede handlinger i planlægningskladden  
 
-Du kan finde flere oplysninger under Ordresporingsbindinger under planlægning i [Afstemning af forsyning med behov](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
+Hvis du ønsker yderligere oplysninger, kan du se [Ordresporingsbindinger under planlægning](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Rækkefølge og prioritet i planlægningen  
 Når du opretter en plan, er rækkefølgen af beregningerne vigtig for at få arbejdet gjort inden for en rimelig tidsramme. Desuden spiller prioriteringen af krav og ressourcer en vigtig rolle for at opnå de bedste resultater.  
 
-Planlægningssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)] er behovstyret. Varer med højt niveau bør planlægges før varer med lavt niveau, fordi planen for varer med højt niveau kan generere yderligere behov for varerne på lavere niveau. Det betyder for eksempel, at detaillokationer bør planlægges før distributionscentre planlægges, fordi planen for en retaillokation kan omfatte yderligere behov fra distributionscentret. På en nærmere afvejning betyder dette også, at en salgsordre ikke skal udløse en ny forsyningsordre, hvis en allerede frigiven forsyningsordre kan dække salgsordren. Desuden må en forsyning med et bestemt lotnummer ikke allokeres for at dække et generisk behov, hvis et andet behov kræver denne specifikke lot.  
+Planlægningssystemet i [!INCLUDE[prod_short](includes/prod_short.md)] er behovstyret. Varer med højt niveau bør planlægges før varer med lavt niveau, fordi planen for varer med højt niveau kan generere yderligere behov for varerne på lavere niveau. Det betyder for eksempel, at detaillokationer bør planlægges før distributionscentre planlægges, fordi planen for en retaillokation kan omfatte yderligere behov fra distributionscentret. På en nærmere afvejning betyder dette også, at en salgsordre ikke skal udløse en ny forsyningsordre, hvis en allerede frigiven forsyningsordre kan dække salgsordren. Desuden må en forsyning med et bestemt lotnummer ikke allokeres for at dække et generisk behov, hvis et andet behov kræver denne specifikke lot.  
 
 ### <a name="item-priority--low-level-code"></a>Vareprioritet/laveste-niveau-kode  
 I et produktionsmiljø medfører behovet for en færdig salgbar vare afledte behov for komponenter, der udgør den færdige vare. Styklistestrukturen styrer komponentstrukturen og kan omfatte flere niveauer af halvfabrikata. Planlægning af en vare på ét niveau vil medføre afledte behov for komponenter på næste niveau osv. I sidste ende vil dette resultere i afledte behov for købte varer. Derfor planlægger planlægningssystemet efter varer i rækkefølge efter deres placering i det samlede styklistehierarki, med start ved færdige, salgbare varer på det højeste niveau, og fortsætter ned i produktstrukturen til varerne på lavere niveau (i henhold til laveste-niveau-koden).  
@@ -93,12 +93,12 @@ Tallene viser, i hvilken rækkefølge systemet giver forslag til forsyningsordre
 Du kan finde flere oplysninger om overvejelser i forbindelse med produktion i [Indlæsning af lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 #### <a name="optimizing-performance-for-low-level-calculations"></a>Optimere ydeevnen for beregninger med lavt niveau
-Beregninger af laveste-niveau-kode kan påvirke systemets ydeevne. Du kan mindske virkningen ved at deaktivere **Bberegningen af dynamisk laveste-niveau-kode** på siden **Produktionsopsætning**. Når du gør det, foreslår [!INCLUDE[d365fin](includes/d365fin_md.md)], at du opretter en tilbagevendende opgavekøpost, der opdaterer laveste-niveau-koder dagligt. Du kan sikre dig, at jobbet køres uden for arbejdstiden ved at angive et starttidspunkt for feltet **Tidligste startdato/klokkeslæt**.
+Beregninger af laveste-niveau-kode kan påvirke systemets ydeevne. Du kan mindske virkningen ved at deaktivere **Bberegningen af dynamisk laveste-niveau-kode** på siden **Produktionsopsætning**. Når du gør det, foreslår [!INCLUDE[prod_short](includes/prod_short.md)], at du opretter en tilbagevendende opgavekøpost, der opdaterer laveste-niveau-koder dagligt. Du kan sikre dig, at jobbet køres uden for arbejdstiden ved at angive et starttidspunkt for feltet **Tidligste startdato/klokkeslæt**.
 
 Du kan også aktivere logik, som øger hastigheden på laveste-niveau-kode, ved at vælge **Optimer beregning af laveste niveau-kode** på siden **Produktionsopsætning**. 
 
 > [!IMPORTANT]
-> Hvis du vælger at optimere ydeevnen, bruges [!INCLUDE[d365fin](includes/d365fin_md.md)] der nye beregningsmetoder til beregning af laveste-niveau-koder. Hvis du har et filtypenavn, der er afhængigt af de hændelser, der bruges i de gamle beregninger, fungerer udvidelsen måske ikke.   
+> Hvis du vælger at optimere ydeevnen, bruges [!INCLUDE[prod_short](includes/prod_short.md)] der nye beregningsmetoder til beregning af laveste-niveau-koder. Hvis du har et filtypenavn, der er afhængigt af de hændelser, der bruges i de gamle beregninger, fungerer udvidelsen måske ikke.   
 
 ### <a name="locations--transfer-level-priority"></a>Lokationer / prioritet af overførselsniveau  
 Virksomheder, der gør forretning på mere end én lokation, kan være nødt til at planlægge individuelt for hver lokation. En vares sikkerhedslagerniveau og dens genbestillingsmetode kan f.eks. variere fra én lokation til en anden. I så fald skal planlægningsparametrene angives pr. vare og pr. lokation.  
@@ -121,7 +121,7 @@ Forecasts og rammesalgsordrer repræsenterer begge forventet behov. Den rammeord
 
 ![Planlægning ved hjælp af prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlægning ved hjælp af prognoser")  
 
-Du kan finde flere oplysninger i afsnittet "Forecastbehov reduceres af salgsordrer" i [Indlæsning af lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Hvis du ønsker yderligere oplysninger, kan du se [Forecastbehov reduceres af salgsordrer](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
 ## <a name="planning-assignment"></a>Planlægningsopgave  
 Der skal foretages planlægning for alle varer, men der er ingen grund til at beregne en plan for en vare, medmindre der er sket en ændring i mønstret for behov eller forsyning, siden sidst en plan blev beregnet.  
@@ -136,12 +136,12 @@ For flere lokationer finder tildelingen sted på niveauet for vare pr. lokations
 
 Den komplette liste over grunde til at tildele en vare i planlægning kan du finde i [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md).  
 
-Planlægningsindstillingerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] er:  
+Planlægningsindstillingerne i [!INCLUDE[prod_short](includes/prod_short.md)] er:  
 
 -   Beregn totalplan – beregner alle valgte varer, uanset om det er nødvendigt eller ej.  
 -   Beregn nettoplan – beregner kun de valgte varer, hvor der er foretaget ændringer i behov- og forsyningsmønstre, og som derfor er blevet tildelt planlægning.  
 
-Nogle brugere mener, at nettoplanlægning skal udføres i farten, f.eks. når salgsordrer angives. Men det kan være forvirrende, fordi dynamisk ordresporing og aktionsmeddelelser også beregnes løbende. [!INCLUDE[d365fin](includes/d365fin_md.md)] tilbyder desuden disponibel til levering-kontrol i realtid og viser pop op-advarsler, når du angiver salgsordrer, hvis behovet ikke kan opfyldes gennem den aktuelle forsyningsplan.  
+Nogle brugere mener, at nettoplanlægning skal udføres i farten, f.eks. når salgsordrer angives. Men det kan være forvirrende, fordi dynamisk ordresporing og aktionsmeddelelser også beregnes løbende. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyder desuden disponibel til levering-kontrol i realtid og viser pop op-advarsler, når du angiver salgsordrer, hvis behovet ikke kan opfyldes gennem den aktuelle forsyningsplan.  
 
 Udover disse overvejelser planlægger planlægningssystemet kun for de varer, som brugeren har udarbejdet med passende planlægningsparametre. I modsat fald antages det, at brugeren kommer til at planlægge varer halvautomatisk eller manuelt ved hjælp af funktionen Ordreplanlægning.  
 
@@ -179,7 +179,7 @@ Serie- eller lotnumrevarer uden specifik opsætning af varesporing kan have seri
 
 Behov-forsyning med serie-/lotnumre, specifikke eller ikke-specifikke, betragtes som høj prioritet og er derfor fritaget fra den frosne zone, hvilket betyder, at de er en del af planlægningen, selvom de forfalder før planlægningens startdato.  
 
-Du kan finde flere oplysninger i afsnittet "Serienumre/lotnumre indlæses efter specifikationsniveau" i [Indlæsning af lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Hvis du ønsker yderligere oplysninger, kan du se afsnittet ["Serienumre/lotnumre indlæses efter specifikationsniveau](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
 
 Hvis du ønsker yderligere oplysninger om, hvordan planlægningssystemet afstemmer attributter, kan du se [Serienumre/lotnumre og ordre-til-ordre-links er fritaget fra den frosne zone](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
@@ -270,13 +270,13 @@ Feltet kan manuelt indstilles af brugeren, men i nogle tilfælde angives det aut
 Du kan finde flere oplysninger om, hvordan dette felt bruges, i [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Ordreplanlægning  
-Basisforsyningens planlægningsværktøj, der er repræsenteret af siden **Ordreplanlægning**, er designet til manuel beslutningstagning. Den tager ikke højde for nogen planlægningsparametre og er derfor ikke beskrevet yderligere i dette dokument. Hvis du vil have flere oplysninger om funktionen Ordreplanlægning, kan du gå til Hjælp i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Basisforsyningens planlægningsværktøj, der er repræsenteret af siden **Ordreplanlægning**, er designet til manuel beslutningstagning. Den tager ikke højde for nogen planlægningsparametre og er derfor ikke beskrevet yderligere i dette dokument. Du kan finde flere oplysninger i [Planlægning af ny behovsordre efter ordre](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Det anbefales ikke at bruge Ordreplanlægning, hvis firmaet anvender allerede planlægning eller indkøbskladder. Forsyningsordrer, der er oprettet via siden **Ordreplanlægning**, kan ændres eller slettes under de automatiske planlægningskørsler. Dette skyldes, at den automatiske planlægningskørsel bruger planlægningsparametre, og disse parametre kan muligvis ikke tages i betragtning af den bruger, der oprettede den manuelle plan af siden Ordreplanlægning.  
 
 ##  <a name="finite-loading"></a>Belastningsbegrænsning  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er et standard ERP-system, ikke et ekspeditions- eller shop floor control-system. Det planlægger en mulig udnyttelse af ressourcer ved at tilbyde en grov plan, men det opretter og vedligeholder ikke automatisk detaljerede planer, der er baseret på prioriteter eller optimeringsregler.  
+[!INCLUDE[prod_short](includes/prod_short.md)] er et standard ERP-system, ikke et ekspeditions- eller shop floor control-system. Det planlægger en mulig udnyttelse af ressourcer ved at tilbyde en grov plan, men det opretter og vedligeholder ikke automatisk detaljerede planer, der er baseret på prioriteter eller optimeringsregler.  
 
 Den tilsigtede brug af funktionen kapacitetsbegrænsede ressourcer er 1): for at undgå overbelastning af bestemte ressourcer og 2): at sikre, at ingen kapacitet er ikke-allokeret, hvis det kunne sætte skub i en produktionsordre. Funktionen indeholder ingen faciliteter eller muligheder for at prioritere eller optimere operationer, som man kunne forvente at finde i et afsendelsessystem. Det kan dog fastsætte grove kapacitetsoplysninger, der er nyttige til at identificere flaskehalse og undgå overbelastning af ressourcer.  
 
@@ -287,7 +287,7 @@ Ved planlægning med kapacitetsbegrænsede ressourcer sikrer systemet, at der ik
 
 Aktionsgrænse for tid kan føjes til ressourcer for at minimere opdeling af funktionen. Dette gør det muligt for systemet at planlægge belastning på den sidst mulige dag ved at overskride den kritiske belastningsprocent en smule, hvis dette kan reducere antallet af operationer, der er opdelt.  
 
-Dette afslutter beskrivelsen af de centrale begreber vedrørende forsyningsplanlægning i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I de følgende afsnit undersøges disse begreber nærmere, og de placeres i forbindelse med kerneplanlægningsprocedurer, justering af efterspørgsel og udbud samt brugen af genbestillingsmetoder.  
+Dette afslutter beskrivelsen af de centrale begreber vedrørende forsyningsplanlægning i [!INCLUDE[prod_short](includes/prod_short.md)]. I de følgende afsnit undersøges disse begreber nærmere, og de placeres i forbindelse med kerneplanlægningsprocedurer, justering af efterspørgsel og udbud samt brugen af genbestillingsmetoder.  
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)   

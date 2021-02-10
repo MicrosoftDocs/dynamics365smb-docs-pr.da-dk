@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914831"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760092"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gennemgang: Gennemførsel af en salgskampagne
-En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del af oprettelsen af en kampagne er at vælge målgruppen for kampagnen. Til dette formål kan du i [!INCLUDE[d365fin](includes/d365fin_md.md)] oprette en målgruppe eller en gruppe af kontakter ved hjælp af filtre.  
+En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del af oprettelsen af en kampagne er at vælge målgruppen for kampagnen. Til dette formål kan du i [!INCLUDE[prod_short](includes/prod_short.md)] oprette en målgruppe eller en gruppe af kontakter ved hjælp af filtre.  
 
  Du bruger disse funktioner i Salg & Marketing til omhyggelig planlægning af dine marketingaktiviteter og til administration af dine interaktioner med kontakter og kunder. Du kan oprette kampagner og målgrupper med dine kontakter til mailadresselister og andre typer interaktion med dine kontakter og kundeemner.  
 
@@ -42,7 +42,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 -   Marketingmedarbejder  
 
 ## <a name="prerequisites"></a>Forudsætninger  
- Før du kan udføre opgaverne i denne gennemgang, skal du installere [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Før du kan udføre opgaverne i denne gennemgang, skal du installere [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="story"></a>Historie  
  Marketingmanager i salgsafdelingen for CRONUS er ansvarlig for planlægning af kampagner og for at udføre dem. Han træffer også beslutninger om, hvilke handelsmesser, de skal deltage i, og han evaluerer kampagnefremskridt.  
@@ -198,4 +198,4 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 ## <a name="see-also"></a>Se også  
 [Relationsstyring](marketing-relationship-management.md)  
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

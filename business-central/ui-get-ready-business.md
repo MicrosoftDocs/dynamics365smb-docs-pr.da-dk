@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 439280317792e4baedba18c5a4f05b8eab440921
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 188672083fabd15bc7c1758459fc1ebd7b65a409
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912168"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4816975"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
 
-Tillykke, du lige har startet din første virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Tillykke, du lige har startet din første virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 For at blive klar til at handle kan du besøge siden **Assisteret opsætning**, hvor du kan starte assisterede opsætningsguides, videoer eller hjælpeemner for valgte opsætningsopgaver. For at få adgang til siden skal du bare vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen **Assisteret opsætning**.
 
@@ -27,7 +27,7 @@ Du kan også få vist listen over assisterede opsætningsguides for alle roller 
 
 Når du har overført data såsom kreditorer, debitorer og varer fra dit eksisterende økonomisystem, er du klar til at begynde. Men afhængigt af dine behov skal du overveje, om andre assisterede opsætningsguides på listen kan hjælpe dig.
 
-Hvis et område ikke er dækket af en assisteret opsætning, skal du vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen **Avancerede indstillinger**. I **Avancerede indstillinger**giver afsnittet **Manuel opsætning** adgang til opsætningssider, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Hvis et område ikke er dækket af en assisteret opsætning, skal du vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen **Avancerede indstillinger**. I **Avancerede indstillinger** giver afsnittet **Manuel opsætning** adgang til opsætningssider, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > Oversigten over assisterede opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**.
@@ -49,7 +49,7 @@ Brug pilene til at skjule en del af siden og få mere plads til at se specifikke
 
 ## <a name="company-information"></a>Virksomhedsoplysninger
 
-Under **Virksomhedsindstillinger** kan du se og redigere opsætningsoplysninger om den aktuelle virksomhed, meget af det er udfyldt på forhånd, hvis du fuldførte den assisterede opsætning **Konfigurer virksomhed**, da du oprettede [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ændre virksomhedens logo, kontaktoplysninger, bankindstillinger eller momsoplysninger, kan du gøre det på denne side.  
+Under **Virksomhedsindstillinger** kan du se og redigere opsætningsoplysninger om den aktuelle virksomhed, meget af det er udfyldt på forhånd, hvis du fuldførte den assisterede opsætning **Konfigurer virksomhed**, da du oprettede [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ændre virksomhedens logo, kontaktoplysninger, bankindstillinger eller momsoplysninger, kan du gøre det på denne side.  
 
 ## <a name="adding-users-and-permissions"></a>Tilføje brugere og rettigheder
 
@@ -59,7 +59,7 @@ Når brugere er oprettet i Microsoft 365, kan de importeres på siden **Brugere*
 
 ## <a name="getting-help"></a>Sådan får du hjælp
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du finde værktøjstip, der kan hjælpe med at føre dig gennem de forskellige forretningsprocesser. For hvert feltværktøjstip kan du trykke på **Få mere at vide** for at åbne hjælpen til den pågældende side. På alle sider skal du trykke på CTRL + F1 på tastaturet for at åbne hjælp til den pågældende side. Spørgsmålstegnet i øverste højre hjørne åbner siden **Hjælp og support**, og du kan også komme til hjælp til produktet.
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du finde værktøjstip, der kan hjælpe med at føre dig gennem de forskellige forretningsprocesser. For hvert feltværktøjstip kan du trykke på **Få mere at vide** for at åbne hjælpen til den pågældende side. På alle sider skal du trykke på CTRL + F1 på tastaturet for at åbne hjælp til den pågældende side. Spørgsmålstegnet i øverste højre hjørne åbner siden **Hjælp og support**, og du kan også komme til hjælp til produktet.
 
 ## <a name="next-steps"></a>Efterfølgende trin
 
@@ -68,9 +68,9 @@ Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs-
 ## <a name="see-also"></a>Se også
 
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prøveversioner og abonnementer](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversioner og abonnementer](across-preview.md)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

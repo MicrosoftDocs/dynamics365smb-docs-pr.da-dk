@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6a8298caadec82b191d345e6b7c75b95187b2fe5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f5b4e07f128551e978dffb2dedeb3e0257eea1ea
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921738"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024558"
 ---
 # <a name="setting-up-inventory"></a>Opsætning af lagerbeholdning
 Før du kan administrere lageraktiviteter og lageromkostningsberegning, skal du konfigurere de regler og værdier, der definerer virksomhedens lagerpolitikker.
@@ -38,12 +38,14 @@ Når du har oprettet dit lager, kan du administrere forskellige lagerprocesser i
 |Som et supplement til varekort kan du registrere oplysninger om dine varer på en bestemt lokation eller af en bestemt variant.|[Opsætte lagervarer](inventory-how-to-set-up-stockkeeping-units.md)|
 | Tildel varer til kategorier, og giv dem attributter, der kan hjælpe dig og kunderne med at finde varer. |[Kategorisere varer](inventory-how-categorize-items.md) |
 |Importér flere varebilleder i én omgang fra en zip-fil, hvor filerne er navngivet efter varenumre.|[Importere flere varebilleder](inventory-how-import-item-pictures.md)|
+|Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
+
 [Administrere lager](inventory-manage-inventory.md)  
 [Administrere indkøb](purchasing-manage-purchasing.md)  
 [Administrere salg](sales-manage-sales.md)    
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)

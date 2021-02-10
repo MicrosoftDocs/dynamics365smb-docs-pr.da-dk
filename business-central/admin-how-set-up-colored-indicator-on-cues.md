@@ -1,5 +1,5 @@
 ---
-title: Angive farvede symboler for at tilpasse visuelle signaler om en køindikators aktivitet til virksomheden eller individuelle brugere | Microsoft Docs
+title: Indstille tilpassede farvede indikatorer for en køindikators aktivitet
 description: Som administrator kan du oprette køindikatorer, der vises i rollecentre for brugere, for at medtage en indikator, der skifter farve ud fra dataværdierne i køerne.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 1d296f51aa307d3a3336f7a999eb02c51acc18e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c2ffd8e39f09e501964c659efa1d711da5370c0e
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911451"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013967"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Oprette en farvet indikator på køindikatorer for firmaet eller individuelle brugere
 Som administrator kan du oprette køindikatorer, der vises i rollecentre for brugere, for at medtage en indikator, der skifter farve ud fra dataværdierne i køerne.  

@@ -1,5 +1,5 @@
 ---
-title: Sådan oprettes produktionsstyklister | Microsoft Docs
+title: Sådan oprettes produktionsstyklister
 description: En produktionsstykliste indeholder masterdata, som beskriver de komponenter og halvfabrikata, som anvendes til fremstilling af en overordnet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens produktionsstykliste beregningen af materialebehov, som repræsenteret på siden **Prod.ordrekomponenter**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919284"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838478"
 ---
 # <a name="create-production-boms"></a>Oprette produktionsstyklister
+
 En produktionsstykliste indeholder masterdata, som beskriver de komponenter og halvfabrikata, som anvendes til fremstilling af en overordnet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens produktionsstykliste beregningen af materialebehov, som repræsenteret på siden **Prod.ordrekomponenter**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter også montagestyklister. Du kan bruge montageordrer til at oprette slutvarer fra komponenter i en enkel proces, der kan udføres af en eller flere grundlæggende ressourcer, som ikke er produktions- eller arbejdscentre, eller uden nogen ressourcer. En montageproces kunne f.eks. være at plukke to vinflasker og én kaffesæk og pakke dem som en gave. Du kan finde flere oplysninger i [Montagestykliste eller produktionsstyklister](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter også montagestyklister. Du kan bruge montageordrer til at oprette slutvarer fra komponenter i en enkel proces, der kan udføres af en eller flere grundlæggende ressourcer, som ikke er produktions- eller arbejdscentre, eller uden nogen ressourcer. En montageproces kunne f.eks. være at plukke to vinflasker og én kaffesæk og pakke dem som en gave. Du kan finde flere oplysninger i [Montagestykliste eller produktionsstyklister](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Før du kan oprette en rute, skal følgende betingelser være opfyldt:  
 
@@ -48,7 +49,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 12.  Du kan nu knytte den nye produktionsstykliste til kortet for den pågældende overordnede vare. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
->  Hvis du vil genberegne varens standardkostpris fra varekortet, skal du vælge handlingen **Produktion** og derefter vælge handlingen **Beregn standardkostpris**.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Hvis du vil genberegne varens standardkostpris fra varekortet, skal du vælge handlingen **Produktion** og derefter vælge handlingen **Beregn standardkostpris**.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Sådan oprettes en ny version af en produktionsstykliste
 Nye versioner af produktionsstyklister anvendes, når f.eks. en vare erstattes af en anden vare, eller når en kunde bestiller en speciel version af et produkt. Versionsprincippet gør det muligt at administrere flere versioner af en produktionsstykliste. Ruteversionens struktur svarer til rutens struktur. Forskellen ligger i versionernes tidsmæssige gyldighed. Gyldigheden bestemmes af startdatoen.  
@@ -96,4 +97,4 @@ I en produktionsstykliste skal der anvendes 70 metaldele med dimensionerne læng
 [Planlægning](production-planning.md)   
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

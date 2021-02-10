@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912492"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840249"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -24,7 +24,7 @@ Der er mange generelle funktioner, der hjælper dig med at indtaste data lettere
 Eksemplerne i denne artikel bruger demodata.
 
 ## <a name="working-with-editable-fields"></a>Arbejde med redigerbare felter
-Felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan indeholde forskellige redigerbare data, f. eks. tekst eller valutabeløb. Redigerbare felter viser typisk et indtastningsfelt, hvor du kan indtaste eller vælge en værdi. Ikke-redigerbare felter vises typisk med grå baggrund.   
+Felter i [!INCLUDE[prod_short](includes/prod_short.md)] kan indeholde forskellige redigerbare data, f. eks. tekst eller valutabeløb. Redigerbare felter viser typisk et indtastningsfelt, hvor du kan indtaste eller vælge en værdi. Ikke-redigerbare felter vises typisk med grå baggrund.   
 
 Visse redigerbare felter indeholder en vælger, der kan hjælpe dig med at angive en værdi.  
 
@@ -44,7 +44,7 @@ Hvis du vil ændre værdien i et felt, skal du først fremhæve feltet. Du kan f
 - Tryk på **Tab**. Handlingen vælger hele værdien.
 - Venstreklik med musen eller den tilsvarende inputenhed. Denne handling markerer kun hele feltværdien, hvis feltet er på en liste.  
 
-Når du interagerer med felter i brugergrænsefladen, prioriterer [!INCLUDE[d365fin](includes/d365fin_md.md)] typisk markering af hele feltværdien for at gøre det lettere for dig at erstatte denne værdi.
+Når du interagerer med felter i brugergrænsefladen, prioriterer [!INCLUDE[prod_short](includes/prod_short.md)] typisk markering af hele feltværdien for at gøre det lettere for dig at erstatte denne værdi.
 
 Når hele feltværdien vælges:
 - Erstat værdien ved blot at skrive for at angive en ny værdi. Hvis feltet indeholder en vælger, kan du aktivere det med tastaturgenvejen **Alt+pil ned**.
@@ -85,7 +85,7 @@ Følgende liste indeholder nyttige oplysninger om brugen af genveje.
 - Den findes i alle redigerbare felter.
 - Den kan også bruges på tværs af kolonner og rækker.
 - Den forhindrer ikke adgang til andre elementer på en side, f.eks. handlinger. Disse elementer er stadig tilgængelige ved hjælp af Tab og Shift+Tab.  
-- Det er ikke nødvendigt at udvide oversigtspanelet for at få genveje til at fungere. Hvis det næste genvejsfelt er placeret i et skjult oversigtspanel, udvides det pågældende oversigtspanel automatisk og fokuserer på det valgte felt. [!INCLUDE[d365fin](includes/d365fin_md.md)] husker, at oversigtspanelet skal udvides, næste gang du besøger siden.  
+- Det er ikke nødvendigt at udvide oversigtspanelet for at få genveje til at fungere. Hvis det næste genvejsfelt er placeret i et skjult oversigtspanel, udvides det pågældende oversigtspanel automatisk og fokuserer på det valgte felt. [!INCLUDE[prod_short](includes/prod_short.md)] husker, at oversigtspanelet skal udvides, næste gang du besøger siden.  
 - Genveje fungerer, uanset om felter skal udfyldes eller ej. Det er derfor en god ide at sikre, at obligatoriske felter er medtaget i genvej.
 - Som standard medtages de fleste felter automatisk i genvej. Så til at starte med skal du derfor sandsynligvis udelukke felter fra genvej.
 
@@ -120,7 +120,7 @@ Du kan kopiere en eller flere rækker fra en liste eller et enkelt felt på en s
 
 Hvis du på en liste vil kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række, skal du bare trykke på F8.
 
-Du kan finde flere oplysninger i [Ofte stillede spørgsmål om kopiering og indsætning](ui-copy-paste.md).
+Du kan finde flere oplysninger i [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrere linjevarer
 
@@ -162,7 +162,7 @@ Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du væl
 > Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger under [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Det samme kan forekomme i andre browsere som f.eks. Firefox. Du kan finde flere oplysninger under [Indstillinger for blokering af pop op-vinduer i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-En anden måde at multitaske på er at åbne [!INCLUDE[d365fin](includes/d365fin_md.md)] på to eller flere browserfaner. Når du gør det på denne måde, skal du oprette en ny fane og derefter kopiere/indsætte URL-adressen til den oprindelige fane på den nye fane. Derved oprettes en ny session.   
+En anden måde at multitaske på er at åbne [!INCLUDE[prod_short](includes/prod_short.md)] på to eller flere browserfaner. Når du gør det på denne måde, skal du oprette en ny fane og derefter kopiere/indsætte URL-adressen til den oprindelige fane på den nye fane. Derved oprettes en ny session.   
 
 > [!NOTE]
 > Brug ikke funktionen **Dupliker** i browseren til at oprette den nye fane, da det kan medføre, at handlinger på en fane blokerer handlinger på andre faner, fordi de er en del af samme session.
@@ -294,4 +294,4 @@ Her er nogle eksempler.
 
 ## <a name="see-also"></a>Se også  
  [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

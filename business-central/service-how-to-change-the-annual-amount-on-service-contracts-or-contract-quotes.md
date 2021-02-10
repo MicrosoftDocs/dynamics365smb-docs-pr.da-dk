@@ -1,5 +1,5 @@
 ---
-title: Sådan ændrer du det årlige beløb på servicekontrakter eller kontrakttilbud | Microsoft Docs
+title: Ændre det årlige beløb på servicekontrakter eller kontrakttilbud
 description: Du kan ændre det beløb, der vil blive faktureret pr. år på servicekontrakter eller servicekontrakttilbud.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aecd53065e9567678a2d87c8d6bd21956c6251c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62a571ea35f70b26ac37aa23256d5af7b8e5320e
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925718"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013892"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ændre det årlige beløb på servicekontrakter eller kontrakttilbud
 Du kan ændre det årlige beløb på en servicekontrakt eller et kontrakttilbud til det korrekte beløb, der faktureres årligt.  

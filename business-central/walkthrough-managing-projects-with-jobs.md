@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12d168b24ad28c3895ee7800b0ab5fed99861ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05f45c0c7041771a63dc7b7c7a6b61512d67af2a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923291"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760063"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gennemgang: Administration af projekter med sager
 
@@ -68,7 +68,7 @@ Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager
 -   Opret eksempeldata ved at bruge trinnene i følgende afsnit.  
 
 ## <a name="story"></a>Historie  
-I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulentvirksomhed, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Per er projektleder hos CRONUS. Han bruger sager til at give ham et overblik over igangværende sager, som CRONUS har startet, samt de sager, der er afsluttet. Det er som regel ham, der indgår aftaler med kunderne og indtaster sagens hovedkomponenter, hvilket er opgave- og planlægningslinjer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Han konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Per kan også lide, den måde [!INCLUDE[d365fin](includes/d365fin_md.md)] aktiverer kopiering af sager og betaling af afdrag.
+I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulentvirksomhed, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Per er projektleder hos CRONUS. Han bruger sager til at give ham et overblik over igangværende sager, som CRONUS har startet, samt de sager, der er afsluttet. Det er som regel ham, der indgår aftaler med kunderne og indtaster sagens hovedkomponenter, hvilket er opgave- og planlægningslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Han konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Per kan også lide, den måde [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer kopiering af sager og betaling af afdrag.
 
  Tina, der er medlem af projekttemaet og rapporterer til Per, er ansvarlig for overvågning af sagen dag for dag. Hun indtaster sit eget arbejde i tillæg til det arbejde, der udføres af teknikere på hver opgave. Hun registrerer de varer, som de har brugt, og de omkostninger, som de har afholdt.  
 
@@ -480,7 +480,7 @@ Ved at sammenligne priser, sagsopgavelinjer og sagsplanlægningslinjer for de to
 3.  Vælg handlingen **Opret salgsfaktura/kreditnota**. På salgsfakturaen kan du se, at det kun er udbetalingen, der er inkluderet på fakturaen. Du kan nu sende den til kunden som aftalt.  
 
 ## <a name="next-steps"></a>Efterfølgende trin  
- Denne gennemgang har taget dig gennem nogle af de grundlæggende trin til at arbejde med sager i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du har lært, hvordan du opretter en ny sag, kopierer en sag og hvordan du håndterer betalinger. Du har også fået vist en demonstration af, hvordan du kan registrere timer og oprette fakturaer.  
+ Denne gennemgang har taget dig gennem nogle af de grundlæggende trin til at arbejde med sager i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært, hvordan du opretter en ny sag, kopierer en sag og hvordan du håndterer betalinger. Du har også fået vist en demonstration af, hvordan du kan registrere timer og oprette fakturaer.  
 
 ## <a name="see-also"></a>Se også  
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)   
@@ -488,4 +488,4 @@ Ved at sammenligne priser, sagsopgavelinjer og sagsplanlægningslinjer for de to
  [Bruge ressourcer](projects-how-use-resources.md)   
  [Overvåge status og udførelse](projects-how-monitor-progress-performance.md)   
  [Fakturere sager](projects-how-invoice-jobs.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

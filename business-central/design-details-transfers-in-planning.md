@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920893"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035577"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designoplysninger: Overførsler i planlægning
 Overflytningsordrer er også en forsyningskilde, når du arbejder på lagervareniveauet. Ved at bruge flere lokationer (lagre) kan lagervaregenbestillingssystemet indstilles til Overførsel, hvilket indebærer, at lokationen genopfyldes ved at overføre varer fra en anden lokation. I en situation med flere lagersteder kan virksomheder have en kæde af overførsler, hvor forsyningen til lokationen GRØN overføres fra GUL, og levering til GUL overføres fra RØD og så videre. I begyndelsen af kæden er der et genbestillingssystem for produktionsordre eller indkøb.  
 
 ![Eksempel på overflytningsflow](media/nav_app_supply_planning_7_transfers1.png "Eksempel på overflytningsflow")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Ved sammenligning af en situation, hvor en forsyningsordre stilles direkte over for en behovsordre, med en situation, hvor salgsordren leveres gennem en kæde af lagervareoverflytninger, er det indlysende, at planlægningsopgaven i den sidstnævnte situation kan blive meget kompleks. Hvis behov ændres, kan det forårsage en effekt gennem kæden, fordi al overførsel af ordrer og indkøb/produktionsordre i den modsatte ende af kæden skal manipuleres for at genoprette balancen mellem behov og forsyning.  
 

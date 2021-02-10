@@ -1,5 +1,5 @@
 ---
-title: Sådan oprettes en behovsprognose | Microsoft Docs
+title: Sådan oprettes en behovsprognose
 description: Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 63009574c6d569cfc0ac20a6f474a11e2f8d5cb9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c009a4d21cac95645edd7b94f22659f155fe6a34
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913267"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013688"
 ---
 # <a name="create-a-demand-forecast"></a>Oprette en behovsprognose
 Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.  
@@ -47,7 +47,41 @@ Eftersom formålet med et komponentforecast er at angive flere muligheder for en
  Forecastperioden træder i kraft på den angivne startdato og er gældende, indtil det næste forecast træder i kraft. I tidsintervalsiden har du flere muligheder for at indsætte behovet på en bestemt dato i en periode. Derfor anbefales det, at du undlader at ændre forecastperioden, medmindre du vil flytte alle forecastoplysninger til periodens startdato.  
 
 ## <a name="forecast-by-locations"></a>Forecast opdelt efter lokationer  
-Det kan angives i produktionsopsætningen, hvis du vil filtrere prognoser efter lokationer, når du beregner en plan. Hvis du får vist lokationsbaserede forecasts enkeltvis, skal du være opmærksom på, at det ikke er sikkert, at den overordnede forecast i så fald giver et korrekt billede.
+
+Det kan angives på siden **Produktionsopsætning**, hvordan du vil håndtere lokationer, der er defineret på estimater, når du beregner en plan. 
+
+### <a name="use-forecast-by-locations"></a>Brug forecast på lokationer
+
+Hvis du vælger feltet **Brug forecast pr. lokation**, skal [!INCLUDE[prod_short](includes/prod_short.md)] respektere de lokationskoder, der er angivet for hver efterspørgselsprognosepost, og beregne restbudgettet for hver lokation.  
+
+Overvej dette eksempel: Virksomheden køber og sælger varer på to lokationer: EAST og WEST. For begge lokationer har du konfigureret en metode til at genbestille lot-til-Lot. Du opretter forecast for de to lokationer:
+
+- 10 stykker af lokation EAST
+- 4 stykker af lokation WEST
+
+Derefter skal du oprette en salgsordre med et antal på 12 på lokationen WEST. Planlægningssystemet vil foreslå, at du gør følgende:
+
+- Genopfyld 10 enheder for lokation EAST, baseret på data fra din forecast.  
+- Genopfyld 12 enheder for lokationen WEST ud fra salgsordren. De 4 stk., der blev angivet i din forecast, forbruges fuldt ud af det faktiske behov fra salgsordren. Hvis du ønsker yderligere oplysninger, kan du se [Forecastbehov reduceres af salgsordrer](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+
+> [!NOTE]  
+>  Hvis du får vist lokationsbaserede forecasts enkeltvis, skal du være opmærksom på, at det ikke er sikkert, at den overordnede forecast i så fald giver et korrekt billede.
+
+### <a name="do-not-use-forecast-by-locations"></a>Brug ikke forecast på lokationer
+Hvis du deaktiverer **Brug forecast pr. lokation**, vil [!INCLUDE[prod_short](includes/prod_short.md)] ignorere de lokationskoder, der er angivet for hver efterspørgselsprognosepost, og beregne forecasts for tomme lokationer.  
+
+Overvej dette eksempel: Virksomheden køber og sælger varer på to lokationer: EAST og WEST. For begge lokationer har du konfigureret en metode til at genbestille lot-til-Lot. Du opretter forecast for de to lokationer:
+
+- 10 stykker af lokation EAST
+- 4 stykker af lokation WEST
+
+Derefter skal du oprette en salgsordre med et antal på 12 på lokationen WEST. Planlægningssystemet vil foreslå, at du gør følgende:
+
+- Genopfyld 12 enheder for lokationen WEST baseret på salgsordren. 
+- Genbestille 2 enheder for den tomme lokation. De 10 og 4 stk., der blev angivet i din forecast, forbruges delvis ud af det faktiske behov fra salgsordren. [!INCLUDE[prod_short](includes/prod_short.md)] ignorerede de lokationskoder, der er angivet af brugeren og anvender i stedet en tom lokation.
+
+> [!NOTE]  
+>  Du kan angive et filter på lokationer, men placeringsbaserede resultater passer muligvis ikke til planlægningsresultaterne uden filtre.
 
 ## <a name="to-create-a-demand-forecast"></a>Sådan oprettes en behovsprognose
 
@@ -74,4 +108,4 @@ Det kan angives i produktionsopsætningen, hvis du vil filtrere prognoser efter 
 [Køb](purchasing-manage-purchasing.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
