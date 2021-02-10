@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73fbf09cff59556c04b43383c507a01883bbb071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e3ecf8d206e50244c19a820bdb67d2992cbefe36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923741"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746362"
 ---
 # <a name="set-up-general-inventory-information"></a>Konfigurere generelle lageroplysninger
 
@@ -31,12 +31,12 @@ Hvis du vil have detaljerede oplysninger om omkostningsfelterne **Aut. lagervær
 Hvis du automatisk vil inkludere lagerekspeditionstiden i beregningen af leveringstiden på købslinjen, kan du angive det som standardindstilling på siden **Opsætning af Lager** og for din lokation. Du kan finde flere oplysninger i [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> Funktionen til **Automatisk regulering af kostpris** er som standard aktiveret for at sikre, at lagerværdierne altid er korrekte i finansbogholderiet, som samtidig holder salgs- og overskudsstatistikken ajour. Kostprisændringer fra indgående poster, f.eks. for køb eller produktionsoutput, er tilknyttet de relaterede udgående poster, f.eks. salg eller overførsler. Dette er nyttigt for nye [!INCLUDE[d365fin](includes/d365fin_md.md)] kunder og mindre virksomheder med relativt lave lagertransaktionsniveauer. Men i takt med at virksomhedens vækst vokser, og lagerniveauet stiger, kan det gøre systemets ydeevne langsommere. Hvis du vil minimere reduceret ydeevne under bogføringen, skal du vælge en tidsindstilling for at definere, hvor langt tilbage i forhold til arbejdsdatoen en indgående transaktion må forekomme for at udløse reguleringen af relaterede udgående værdiposter. Alternativt kan du ændre omkostningerne manuelt med kørslen Reguler kostværdi - vareposter.
+> Funktionen til **Automatisk regulering af kostpris** er som standard aktiveret for at sikre, at lagerværdierne altid er korrekte i finansbogholderiet, som samtidig holder salgs- og overskudsstatistikken ajour. Kostprisændringer fra indgående poster, f.eks. for køb eller produktionsoutput, er tilknyttet de relaterede udgående poster, f.eks. salg eller overførsler. Dette er nyttigt for nye [!INCLUDE[prod_short](includes/prod_short.md)] kunder og mindre virksomheder med relativt lave lagertransaktionsniveauer. Men i takt med at virksomhedens vækst vokser, og lagerniveauet stiger, kan det gøre systemets ydeevne langsommere. Hvis du vil minimere reduceret ydeevne under bogføringen, skal du vælge en tidsindstilling for at definere, hvor langt tilbage i forhold til arbejdsdatoen en indgående transaktion må forekomme for at udløse reguleringen af relaterede udgående værdiposter. Alternativt kan du ændre omkostningerne manuelt med kørslen Reguler kostværdi - vareposter.
 
 ## <a name="see-also"></a>Se også
 [Konfigurere lager](inventory-setup-inventory.md)  
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)    
 [Administrere lager](inventory-manage-inventory.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)

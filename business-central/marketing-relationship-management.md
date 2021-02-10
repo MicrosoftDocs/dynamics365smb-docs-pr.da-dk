@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 00ffaf4cefa87ad530a94495386998d65be4fdc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6c1539b19274c4e31fa66b31af17be5429c719f5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923516"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745962"
 ---
 # <a name="managing-relationships"></a>Styre relationer
-Relationsstyringsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.
+Relationsstyringsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.
 
-Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. [!INCLUDE[d365fin](includes/d365fin_md.md)] stiller med rettidigt at stille en præcis oversigt til rådighed over dine kontaktoplysninger, så du kan betjene dine vordende kunder mere effektivt og øge kundetilfredsheden.
+Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. [!INCLUDE[prod_short](includes/prod_short.md)] stiller med rettidigt at stille en præcis oversigt til rådighed over dine kontaktoplysninger, så du kan betjene dine vordende kunder mere effektivt og øge kundetilfredsheden.
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 

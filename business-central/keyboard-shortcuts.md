@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922865"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746112"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
-Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prodshort](includes/prodshort.md)].
+Denne artikel indeholder en oversigt over nogle af de tastaturgenvejskombinationer, du kan bruge, når du arbejder med [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Du kan finde en oversigt over de mest populære tastaturgenveje under [Tastaturgenveje (kun pc)](keyboard-shortcuts-cheatsheet.md).
 
@@ -37,7 +37,7 @@ Tastaturgenveje giver større tilgængelighed, hvilket kan gøre det lettere og 
 De fleste genveje er de samme, uanset om operativsystemet er Windows eller macOS. Nogle genveje adskiller sig dog fra genvejene i macOS. Disse genveje er angivet i parentes i de følgende afsnit.
 
 > [!NOTE]
-> Ud over de globale tastaturgenveje, der er beskrevet i dette emne, er der en række tilgængelige forretningsspecifikke genveje. I f.eks. den generiske version af [!INCLUDE[prodshort](includes/prodshort.md)] bogfører F9 et dokument, og Ctrl+F7 viser de finansielle posteringer for en post. (Disse kan være anderledes i din løsning). Tastaturgenvejene vises i værktøjstippet for den pågældende handling.
+> Ud over de globale tastaturgenveje, der er beskrevet i dette emne, er der en række tilgængelige forretningsspecifikke genveje. I f.eks. den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] bogfører F9 et dokument, og Ctrl+F7 viser de finansielle posteringer for en post, når du åbner posten i et kort. (Disse kan være anderledes i din løsning). Tastaturgenvejene vises i værktøjstippet for den pågældende handling.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle tastaturgenveje
 
@@ -63,7 +63,7 @@ I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og ad
 |Ctrl+F1|Åbne hjælpen til Business Central for siden.|
 |Ctrl+F12|Skifte mellem visning med bredt og smalt layout.|
 |Ctrl+klik|Navigere under tilpasning, når handlingen er fremhævet med en pilespids. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).|  
-|Ctrl+F5|Genindlæse [!INCLUDE[prodshort](includes/prodshort.md)]-programmet. (Svarer til at vælge opdater/genindlæs i browseren).|
+|Ctrl+F5|Genindlæse [!INCLUDE[prod_short](includes/prod_short.md)]-programmet. (Svarer til at vælge opdater/genindlæs i browseren).|
 |F5|Opdatere oplysningerne på den aktuelle side.<br /><br />Du kan bruge denne tast til at sikre, at dataene på siden er opdateret med de ændringer, der er foretaget af andre, mens du arbejder.|
 |Indsæt|Aktivere eller få adgang til det element eller kontrolelement, der er i fokus.|
 |Esc|Lukke den aktuelle side eller rullelisten.|
@@ -88,7 +88,7 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
 
-Der er gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prodshort](includes/prodshort.md)], f.eks. listesider og **Linje**dele i dokumenter. Flytning fra én celle til en anden på tværs af et gitter er muligt med tastaturet.
+Der er gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. listesider og **Linje** dele i dokumenter. Flytning fra én celle til en anden på tværs af et gitter er muligt med tastaturet.
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -206,11 +206,19 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |Page Down<br />(Fn + pil ned)|Gå til den næste side i rapporten.|
 |Page Up<br />(Fn + Pil op)|Gå til den forrige side i rapporten.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Genvejstaster til at zoome ind og ud
+
+|Tryk på disse taster|For at gøre følgende|
+|--------------------------------|----------|
+|Ctrl++|Zoom ind på den aktuelle side.|  
+|Ctrl+-|Zoom ud på den aktuelle side.|  
+|Ctrl+0|Zoom ind eller ud til 100% på den aktuelle side.|  
+
 ## <a name="see-also"></a>Se også
 
 [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)  
 [Hjælpefunktioner](ui-accessibility.md)  
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.md)  
 [Find poster](ui-find-entries.md)  

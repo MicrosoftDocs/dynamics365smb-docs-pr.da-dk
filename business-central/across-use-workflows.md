@@ -1,6 +1,6 @@
 ---
-title: Anvende workflows | Microsoft Docs
-description: Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.
+title: Anvende workflows
+description: Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Få mere at vide om de forskellige trin, du skal udføre for at begynde at bruge arbejdsgange.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d608841bf5d5586bd0ef84ef554055517def0eb8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 375d53975bca97d16b3857056d44b9eada5cca97
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917947"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752996"
 ---
 # <a name="using-workflows"></a>Anvende workflows
 Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
@@ -38,4 +38,4 @@ Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, de
 ## <a name="see-also"></a>Se også  
 [Opsætte workflows](across-set-up-workflows.md)   
 [Workflow](across-workflow.md)   
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: b734d867401697b1c554f321d5b153f093dd5cd8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968301"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753230"
 ---
 # <a name="assembly-management"></a>Montagestyring
-For at støtte virksomheder, som leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, indeholder [!INCLUDE[d365fin](includes/d365fin_md.md)] funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.  
+For at støtte virksomheder, som leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, indeholder [!INCLUDE[prod_short](includes/prod_short.md)] funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.  
 
  Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
 
@@ -56,6 +56,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 [Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)  
 [Gennemgang: Salg, montering og levering af pakker](walkthrough-selling-assembling-and-shipping-kits.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

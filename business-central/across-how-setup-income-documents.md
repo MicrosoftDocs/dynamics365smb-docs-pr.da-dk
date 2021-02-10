@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0be6c730664d5162bd2359e029f9a387eae0d5d8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3a43c32d90a7c27af56ed55a4625b3dc3faf498b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915906"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754888"
 ---
 # <a name="set-up-incoming-documents"></a>Konfigurere indgående bilag
 
@@ -23,7 +23,7 @@ Hvis du opretter finanskladdelinjer fra indgående bilagsposter, skal du på sid
 
 Hvis du ikke ønsker, at brugere kan oprette fakturaer eller finanskladdelinjer fra indgående bilagsposter, medmindre bilagene først er godkendt, skal du konfigurere workflowgodkendere.
 
-Hvis du vil aktivere PDF-og billedfiler til elektroniske dokumenter, som du kan konvertere til f.eks. købsfakturaer, skal du først definere OCR-funktionen og aktivere tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vælg en servicepakke, der passer til din organisation og/eller dit land/område. Du kan også oprette poster manuelt, så de repræsenterer eksterne dokumenter.  
+Hvis du vil aktivere PDF-og billedfiler til elektroniske dokumenter, som du kan konvertere til f.eks. købsfakturaer, skal du først definere OCR-funktionen og aktivere tjenesten i [!INCLUDE[prod_short](includes/prod_short.md)]. Vælg en servicepakke, der passer til din organisation og/eller dit land/område. Du kan også oprette poster manuelt, så de repræsenterer eksterne dokumenter.  
 
 Når funktionen Indgående bilag er konfigureret, kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående bilagsfiler, manuelt eller automatisk, til de relevante købs- og salgsbilag eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter. Du kan finde flere oplysninger i [Behandle indgående bilag](across-process-income-documents.md).
 
@@ -57,4 +57,4 @@ Du kan finde flere oplysninger i [Bruge OCR til at gøre PDF- og billedfiler til
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

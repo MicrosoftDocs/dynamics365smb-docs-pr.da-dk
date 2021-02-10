@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b2cebfbee991bcb9aa9c9bebe9e9112a024c429
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8d23cd7ca8badf10bc8c734d84b5142d34ad4362
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918934"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748814"
 ---
 # <a name="understanding-wip-methods"></a>Forstå VIA -metoder
 Efterhånden som status for en sag ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i sagen. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af sager i finansregnskabet under udførelsen af sagen. Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt.
 
 Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien i finansregnskabet. Du kan finde flere oplysninger under [Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter følgende metoder til beregning og registrering af værdien af igangværende arbejde.
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter følgende metoder til beregning og registrering af værdien af igangværende arbejde.
 
 | VIA-metode | Beregningsformel | Beregningsbeskrivelse |
 | --- | --- | --- |
@@ -39,4 +39,4 @@ Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

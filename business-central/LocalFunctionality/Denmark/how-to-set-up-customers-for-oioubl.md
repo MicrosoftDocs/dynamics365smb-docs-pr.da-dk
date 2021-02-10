@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8332a80d541275f164e9fcd73c5b56a640eb787
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 973f99e6c783ce0f64b98659557d83d826731f11
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920194"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749670"
 ---
 # <a name="set-up-customers-for-oioubl"></a>Konfigurere kunder til OIOUBL
 Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for debitorer i den offentlige sektor, skal du tilføje OIOUBL-oplysninger for de relevante debitorer.  
@@ -31,7 +31,7 @@ Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for deb
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Angiv debitorens GLN-lokationsnummer, der entydigt identificerer faktureringsadressen. Et GLN har en fast længde på 13 cifre. Det omfatter et tildelt præfiks for virksomheden, en placeringsreference og et kontrolciffer.|  
-    |**Kontokode**|Angiv kontokoden for kunden.<br /><br /> Kunder i den offentlige sektor angiver en kontokode, når de afgiver en bestilling eller rekvisition. Baseret på værdien i dette felt medtages kontokoden i OIOUBL-dokumenter, du opretter i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Ifølge **Lov om Offentlige Betalinger** og relaterede love har kunden ret til at tilbageholde betaling, indtil der modtages en faktura med den relevante kontokode.|  
+    |**Kontokode**|Angiv kontokoden for kunden.<br /><br /> Kunder i den offentlige sektor angiver en kontokode, når de afgiver en bestilling eller rekvisition. Baseret på værdien i dette felt medtages kontokoden i OIOUBL-dokumenter, du opretter i [!INCLUDE[prod_short](../../includes/prod_short.md)]. Ifølge **Lov om Offentlige Betalinger** og relaterede love har kunden ret til at tilbageholde betaling, indtil der modtages en faktura med den relevante kontokode.|  
     |**OIOUBL-profilkode**|Angiver den profil, som denne kunde kræver for elektroniske dokumenter, hvis den er anderledes end den standardprofil, du har angivet på siden **Salgsopsætning**.|  
     |**OIOUBL-profilkode kræves**|Angiver, om debitoren kræver en profilkode til elektroniske bilag. **Tip:** Hvis feltet **OIOUBL-profilkode kræves** er markeret, kan du ikke bogføre et salgsdokument for debitoren, medmindre du har angivet en profil.|  
 

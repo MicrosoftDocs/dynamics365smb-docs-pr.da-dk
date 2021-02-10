@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f5a1933e803322367b241e772d796f1365f9d11
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e801c3d4915e2d433aa7b82d4ac240b40ff96848
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915456"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746162"
 ---
 # <a name="set-up-stockkeeping-units"></a>Opsætte lagervarer
 Du kan bruge lagervarer til at registrere oplysninger om dine varer på en bestemt lokation eller med en bestemt variantkode.  
@@ -46,4 +46,4 @@ Brug kørslen **Opret lagervare**, hvis du vil oprette flere lagerførte varer.
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

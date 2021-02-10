@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915881"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754788"
 ---
 # <a name="create-workflows"></a>Oprette arbejdsgange
 Du kan oprette arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
 
 På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en workflowhændelse, begrænset af hændelsesbetingelser, og et workflowrespons med responsmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden.  
 
-Når du opretter workflows, kan du kopiere trinene fra eksisterende workflows eller workflowskabeloner. Workflowskabeloner repræsenterer workflows, som ikke kan redigeres, og som findes i den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden for arbejdsgangsskabeloner, som er tilføjet af Microsoft, har "MS" foran som f.eks. i "MS PIW". Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
+Når du opretter workflows, kan du kopiere trinene fra eksisterende workflows eller workflowskabeloner. Workflowskabeloner repræsenterer workflows, som ikke kan redigeres, og som findes i den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)]. Koden for arbejdsgangsskabeloner, som er tilføjet af Microsoft, har "MS" foran som f.eks. i "MS PIW". Du kan finde flere oplysninger i [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikke understøttes, skal en Microsoft-partner implementere dem ved at tilpasse programkoden.  
 
@@ -59,8 +59,8 @@ Hvis et virksomhedsscenarie kræver workflowhændelser eller et respons, der ikk
         |**Giv afsender besked**|Angiv, om godkendelsesanmoderen er blevet underrettet i stedet for modtageren af godkendelsesanmodningen. Hvis du markerer afkrydsningsfeltet, bliver feltet **Modtagers bruger-ID** deaktiveret, da anmoderen til godkendelsen, afsenderen, får besked i stedet. Navnet på workflowresponset ændres tilsvarende til **Opret notifikation til &lt;afsender&gt;**. Hvis afkrydsningsfeltet ikke er markeret, angives navnet på workflowresponset til **Opret notifikation til &lt;bruger&gt;**.
         |**Modtagers bruger-id**|Angiv den bruger, som notifikationen skal sendes til. Bemærk: Denne indstilling er kun tilgængelig for workflowrespons med en pladsholder for en bestemt bruger. Notifikationsmodtageren defineres typisk af godkendelsesbrugeropsætningen, når det drejer sig om arbejdsgangssvar uden pladsholdere for brugere.|  
         |**Notifikationsposttype**|Angiver, om notifikationen fra en arbejdsgang udløses af en postændring, en godkendelsesanmodning eller data vedrørende forfaldsdato.|
-        |**Side, der linkes til**|Angiv en anden side i [!INCLUDE[d365fin](includes/d365fin_md.md)], som linket i notifikationen åbner i stedet for standardsiden.<br /><br />Bemærk, at siden skal have samme kildetabel som den record, det drejer sig om.|  
-        |**Brugerdefineret link**|Angiv URL-adressen på et link, der føjes til notifikationen ud over standardlinket til en side i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+        |**Side, der linkes til**|Angiv en anden side i [!INCLUDE[prod_short](includes/prod_short.md)], som linket i notifikationen åbner i stedet for standardsiden.<br /><br />Bemærk, at siden skal have samme kildetabel som den record, det drejer sig om.|  
+        |**Brugerdefineret link**|Angiv URL-adressen på et link, der føjes til notifikationen ud over standardlinket til en side i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     2.  Hvis du vil angive indstillinger for et workflowrespons, der involverer oprettelse af en godkendelsesanmodning, skal du udfylde felterne som beskrevet i følgende tabel.  
 
         |Felt|Beskrivelse|  

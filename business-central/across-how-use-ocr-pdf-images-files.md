@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa24a1530d9e1d74e688f2ec9b44e1d615919c7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e0195ea3cf635da2e0088e5f20b729017ced776d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924774"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753096"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter
-Fra PDF-filer eller billedfiler, som du modtager fra dine handelspartnere, kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, der kan konverteres til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. F.eks. når du modtager en faktura i PDF-format fra en leverandør, kan du sende den til tjenesten OCR fra siden **Indgående bilag**. Dette beskrives i den første fremgangsmåde.
+Fra PDF-filer eller billedfiler, som du modtager fra dine handelspartnere, kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, der kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. F.eks. når du modtager en faktura i PDF-format fra en leverandør, kan du sende den til tjenesten OCR fra siden **Indgående bilag**. Dette beskrives i den første fremgangsmåde.
 
 I stedet for at sende filen fra siden **Indgående bilag** kan du sende den til OCR-tjenesten via mail. Når du får det elektroniske dokument retur, oprettes der automatisk en relateret indgående bilagspost. Dette beskrives i den anden fremgangsmåde.
 
@@ -60,22 +60,22 @@ Hvis du ikke bruger en opgavekø, eller du skal have et færdigt OCR-dokument hu
 
     Oplysninger om OCR-dokumentet vises med både kildeindholdet fra PDF- eller billedfilen og de resulterende OCR-feltværdier.
 3. Gennemgå forskellige feltværdierne, og rediger eller angiv værdier manuelt i de felter, som OCR-tjenesten har kodet som usikre.
-4. Vælg knappen **OK**. OCR-processen fuldføres, og det resulterende elektroniske dokument sendes til siden **Indgående bilag** i [!INCLUDE[d365fin](includes/d365fin_md.md)] i overensstemmelse med opgavekøplanen.
+4. Vælg knappen **OK**. OCR-processen fuldføres, og det resulterende elektroniske dokument sendes til siden **Indgående bilag** i [!INCLUDE[prod_short](includes/prod_short.md)] i overensstemmelse med opgavekøplanen.
 5. Gentag trin 4 for andre OCR-dokumenter der skal bekræftes.
 
-Nu kan du fortsætte med at oprette dokumentposter for de modtagne elektroniske dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)] manuelt eller automatisk. Der er flere oplysninger i næste procedure. Du kan også forbinde den nye indgående bilagspost med eksisterende bogførte eller ikke-bogførte bilag, så kildefilen er nem at få adgang til fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Fremgangsmåde: Behandle indgående bilag](across-process-income-documents.md).
+Nu kan du fortsætte med at oprette dokumentposter for de modtagne elektroniske dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] manuelt eller automatisk. Der er flere oplysninger i næste procedure. Du kan også forbinde den nye indgående bilagspost med eksisterende bogførte eller ikke-bogførte bilag, så kildefilen er nem at få adgang til fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Fremgangsmåde: Behandle indgående bilag](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Sådan oprettes en købsfaktura fra et elektronisk dokument, der er modtaget fra OCR-tjenesten
 Følgende fremgangsmåde beskriver, hvordan du opretter en købsfakturapost fra en kreditorfaktura, der er modtaget som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåden er den samme som, når du f.eks. opretter en finanskladdelinje fra en udgiftskvittering eller en salgsreturvareordre fra en kunde.
 
 > [!NOTE]  
->   Felterne **Beskrivelse** og **Nummer** på de oprettede bilagslinjer udfyldes kun, hvis du først har tilknyttet tekst, der findes i OCR-dokumentet, til de to felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan udføre denne tilknytning som varekrydsreferencer for dokumentlinjer af typen vare. Du kan finde flere oplysninger i [Bruge varereferencer](inventory-how-use-item-cross-refs.md). Du kan også bruge funktionen Tilknytning af tekst til konto. Du kan finde yderligere oplysninger i [Sådan tilknyttes tekst på et indgående bilag til en bestemt leverandør, finanskonto eller bankkonto](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   Felterne **Beskrivelse** og **Nummer** på de oprettede bilagslinjer udfyldes kun, hvis du først har tilknyttet tekst, der findes i OCR-dokumentet, til de to felter i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan udføre denne tilknytning som varekrydsreferencer for dokumentlinjer af typen vare. Du kan finde flere oplysninger i [Bruge varereferencer](inventory-how-use-item-cross-refs.md). Du kan også bruge funktionen Tilknytning af tekst til konto. Du kan finde yderligere oplysninger i [Sådan tilknyttes tekst på et indgående bilag til en bestemt leverandør, finanskonto eller bankkonto](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Vælg linjen for det indgående bilag, og vælg derefter handlingen **Opret dokument**.
 
-Der oprettes en købsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] baseret på oplysningerne i det elektroniske kreditordokument, du har modtaget fra OCR-tjenesten. Oplysningerne indsættes i feltet ny købsfaktura, der er baseret på den tilknytning, du har defineret som en krydsreference eller som en tilknytning mellem tekst og konto.
+Der oprettes en købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)] baseret på oplysningerne i det elektroniske kreditordokument, du har modtaget fra OCR-tjenesten. Oplysningerne indsættes i feltet ny købsfaktura, der er baseret på den tilknytning, du har defineret som en krydsreference eller som en tilknytning mellem tekst og konto.
 
-Enhver valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i oversigtspanelet **Fejl og advarsler**. Du kan finde flere oplysninger i [Sådan håndteres fejl ved modtagelse af elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
+Enhver valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[prod_short](includes/prod_short.md)], vises i oversigtspanelet **Fejl og advarsler**. Du kan finde flere oplysninger i [Sådan håndteres fejl ved modtagelse af elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Sådan knyttes tekst på et indgående bilag til en bestemt kreditorkonto
 For indgående bilag kan du normalt bruge handlingen **Knyt tekst til konto** for at definere, at en bestemt tekst på en kreditorfaktura, som er modtaget fra OCR-tjenesten, er knyttet til en bestemt kreditorkonto. Fremover betyder enhver del af beskrivelsen af et indgående bilag, der findes som en tilknytningstekst, at feltet **Nr.** på resulterende bilags- eller kladdelinjer af typen Finanskonto udfyldes med den pågældende kreditor.
@@ -121,4 +121,4 @@ Felterne i oversigtspanelet **Finansielle oplysninger** på siden **Indgående b
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

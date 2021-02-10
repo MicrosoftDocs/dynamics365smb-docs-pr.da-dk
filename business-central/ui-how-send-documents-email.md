@@ -8,70 +8,63 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 72ed1cba131e76eba2020e4cca9c900b9b2ed45c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f318825b87b0c9aa51ef8493ba89a74a02384b73
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923416"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756863"
 ---
-# <a name="send-documents-by-email"></a>Sende dokumenter som mail
+# <a name="send-documents-and-emails"></a>Sende dokumenter og e-mails
+Du kan nemt dele oplysninger og dokumenter, f. eks. salgs-og købsordrer og fakturaer, via e-mail direkte fra [!INCLUDE[prod_short](includes/prod_short.md)] ] uden at skulle åbne en e-mailapp. 
 
-For at give oplysningerne i forretningsdokumenter hurtigt til samarbejdspartnere, f.eks betalingsoplysningerne i salgsdokumenter til debitorer, kan du bruge funktionen Rapportlayout til at definere dokumentspecifik tekst, der bliver automatisk indsat i brødteksten i mails. Du kan finde flere oplysninger under [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).
+Du kan sende næsten alle typer dokumenter som vedhæftede PDF-filer. Du kan også oprette et rapportlayout, der indeholder oplysninger fra dokumentet i e-mail-teksten, sammen med tekst, som gør e-mailen mere brugervenlig, f. eks. en standardhilsen. Du kan finde flere oplysninger under [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
-For at aktivere mails fra [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du starte den assisterede opsætningsvejledning **Konfigurer mail** i rollecenteret.
+Når du sender fakturaer, kan du gøre det nemmere for kunderne at foretage betalinger via en betalingstjeneste, som f. eks. PayPal, ved automatisk at tilføje oplysninger og en kæde til tjenesten i e-mailen. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
-Du kan sende praktisk talt alle dokumenttyper vedhæftet i mails direkte fra siden, der viser dokumentet. Ud over den vedhæftede fil kan du oprette dokumentspecifik brødtekst i mails med grundlæggende oplysninger fra dokumentet og med en foranstående standardtekst, der indeholder en hilsen til modtageren og introducerer dokumentet. Hvis du vil tilbyde kunderne at betale for salg elektronisk ved hjælp af en betalingstjeneste, f.eks PayPal, kan du automatisk få PayPal oplysninger og hyperlink indsat i selve mailen.
+For at aktivere mails fra [!INCLUDE[prod_short](includes/prod_short.md)] skal du starte den assisterede opsætningsvejledning **Konfigurer mail** i rollecenteret. Du kan finde flere oplysninger i [Konfigurer mail](admin-how-setup-email.md).
 
-Fra alle understøttede dokumenter starter du mailen ved at vælge handlingen **Send** i bogførte dokumenter eller **Bogfør og send** i ikke-bogførte dokumenter.
-
-Hvis feltet **Mail** på siden **Send bilag til** indstilles til **Ja (Bed om indstillinger)**, åbnes siden **Send mail** forhåndsudfyldt med kontaktpersonen i feltet **Til:** og dokumentet vedhæftet som PDF-fil. I feltet **Tekst** kan du enten indtaste tekst manuelt, eller du kan få udfyldt feltet med dokumentspecifikke brødtekst i mail, som du har oprettet.
-
-Følgende procedure beskriver, hvordan du konfigurerer rapporten **Salg - faktura**, så den kan bruges til dokumentspecifik brødtekst i mail, når du sender mails med bogførte salgsfakturaer.
-
-## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Sådan oprettes dokumentspecifik brødtekst i mail til salgsfakturaer
-
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportvalg - Salg**, og vælg derefter det relaterede link.
-2. På siden **Rapportvalg - salg** skal du vælge **faktura** i feltet **Forbrug**.
-3. På en ny linje i feltet **Rapport-ID** skal du vælge f.eks. standardrapport 1306.
-4. Markér afkrydsningsfeltet **Brug til brødtekst i mail**.
-5. Vælg feltet **Layoutkode for brødtekst i mail**, og vælg derefter et layoutformat på rullelisten.
-
-    Rapportlayout angiver formatet og indholdet af brødteksten i mailen, herunder standardtekst, som går forud for de centrale dokumentoplysninger i selve mailens brødtekst. Du kan se alle tilgængelige rapportlayout, hvis du vælger knappen **Vælg fra komplet liste** på listen.
-6. For at få vist eller redigere layoutet, som brødteksten i mailen er baseret på, skal du vælge layoutet på siden **Rediger Layout** og derefter vælge handlingen **Tilpassede rapportlayouts**.
-7. Hvis du vil tilbyde kunderne at betale for salg elektronisk, kan du konfigurere den relaterede betalingstjeneste, f.eks PayPal, og derefter kan du også automatisk få PayPal oplysninger og hyperlink indsat i selve mailen. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via PayPal](sales-how-enable-payment-service-extensions.md).
-8. Vælg knappen **OK**.
-
-Nu, når du vælger, f.eks. **Send**-handlingen på siden **Bogført salgsfaktura**, indeholder brødtekst i mail dokumentoplysningerne i rapporten 1306 med foranstående standardtekst, hvor typografierne er i overensstemmelse med det rapportlayout, som du valgte under trin 5.
-
-Følgende fremgangsmåde beskriver, hvordan du sender en bogført salgsfaktura som mailmeddelelse med dokumentet vedhæftet som en PDF-fil og med dokumentspecifik brødtekst i mail.
+> [!NOTE]
+> [!INCLUDE[prod_short](includes/prod_short.md)]] understøtter kun udgående mailkommunikation. Du kan heller ikke modtage svar fra appen.
 
 ## <a name="to-send-documents-by-email"></a>Sådan sendes dokumenter som mail
+Denne fremgangsmåde beskriver, hvordan du vedhæfter en bogført-salgsfaktura til en e-mail som PDF-fil og med dokumentspecifik e-mail-tekst. <!--update this-->
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.
-2. Vælg den relevante bogførte salgsfaktura, og vælg derefter handlingen **Send**. Siden **Send bilag til** åbnes.
+2. Vælg den relevante bogførte salgsfaktura, og vælg derefter handlingen **Udskriv/Send**.
 3. I feltet **Mail** skal du vælge **Ja (Bed om indstillinger)**. Du kan finde flere oplysninger under [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
-4. Vælg knappen **OK**. Siden **Send mail** åbnes.
+    
+    Hvis feltet **Mail** på siden **Send bilag til** indstilles til **Ja (Bed om indstillinger)**, åbnes siden **Send mail** forhåndsudfyldt med kontaktpersonen i feltet **Til:** og dokumentet vedhæftet som PDF-fil. I feltet **Tekst** kan du enten indtaste tekst manuelt, eller du kan få udfyldt feltet med dokumentspecifikke brødtekst i mail, som du har oprettet.
+
+4. Vælg knappen **OK**.
 5. I feltet **Til:** skal du angive en gyldig mailadresse. Standardværdien er kundens mailadresse.
 6. Brug feltet **Emne** til at indtaste en sigende emnetekst. Standardværdien er debitornavnet og fakturanummeret.
 7. I feltet **Vedhæftet fil** er den genererede faktura som standard vedhæftet som en PDF-fil.
 8. Brug feltet **Tekst** til at indtaste en kort meddelelse til modtageren.
 
-    Hvis en dokumentspecifik brødtekst i mail er angivet på siden **Rapportvalg - salg**, udfyldes **Brødtekst** automatisk. Du kan finde flere oplysninger i [Sådan oprettes dokumentspecifik brødtekst i mail til salgsfakturaer](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
+    Hvis en dokumentspecifik tekst i mail er angivet på siden **Rapportvalg - salg**, udfyldes **Brødtekst** automatisk. Der er flere oplysninger i [Angiv genanvendelig e-mailtekst og layout til salgs-og købsdokumenter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
 9. Vælg knappen **OK** for at sende mailen.
 
 > [!NOTE]  
 > Hvis du ikke vil angive mailindstillinger, hver gang du sender en mail med et dokument, kan du vælge indstillingen **Ja (Brug standardindstillinger)** i feltet **Mail** på siden **Send bilag til**. I så fald åbnes siden **Send mail** ikke. Se trin 4. Du kan finde flere oplysninger under [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).  
 
+## <a name="to-compose-and-send-an-email"></a>Sådan skrives og sendes en e-mail
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **E-mailkonti**, og vælg derefter det relaterede link.
+2. Vælg den konto, e-mailen skal sendes fra, og vælg derefter handlingen **Sammensæt e-mail**.
+
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokumenter, der er markeret som udskrevne, når de sendes
+Nogle dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt, der angiver, hvor mange gange dokumentet er blevet udskrevet. Tallet i feltet <!--"that field?" need a name...--> opdateres også, hvis du sender dokumentet med e-mail, fordi der er genereret en PDF-fil til den. Nummeret opdateres, selvom du ikke sender e-mailen. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-Nogle dokumenter i [!INCLUDE[prodshort](includes/prodshort.md)] har et felt, der angiver, hvor mange gange dokumentet er blevet udskrevet. Feltet opdateres også, hvis du ikke udskriver dokumentet, men sender det via mail i stedet. Feltet opdateres jævnligt, hvis du faktisk ikke sender dokumentet, f.eks. når din organisation ikke har konfigureret mail, eller hvis den kontakt, du vil sende dokumentet til, ikke har angivet en mailadresse. I alle scenarier vedrørende [!INCLUDE[prodshort](includes/prodshort.md)] udskrives dokumentet, fordi der genereres en PDF-fil.  
+## <a name="sent-emails-and-your-email-outbox"></a>Sendte mails og din mail Udbakke
+[!INCLUDE[prod_short](includes/prod_short.md)]] gemmer de mails, som du sender, på siden **Sendt post**. På den måde kan du sende mails igen eller sende dem videre til en anden. Hvis du ikke kan finde en mail i dine sendt post, skal du lede efter den på siden **Mailudbakke**. 
 
-Brugeren ser måske ikke den genererede fil, men det er grunden til, at feltet opdateres.
+> [!NOTE]
+> Afhængigt af det filtypenavn, din virksomhed bruger til e-mail, kan administratorer få vist en liste over meddelelser, som alle har sendt, men ikke indholdet af meddelelserne
+
+**E-mailudbakke** er det sted, hvor du kan finde de e-mails, du har gemt som kladder, og e-mails, der ikke kunne sendes, f. eks. hvis e-mailadressen er ugyldig. I forbindelse med meddelelser, som ikke kunne sendes, kan du vælge **Vis fejl** eller **Undersøg fejl** for at løse problemet.
 
 ## <a name="see-also"></a>Se også
-
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
 [Konfigurere mail](admin-how-setup-email.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

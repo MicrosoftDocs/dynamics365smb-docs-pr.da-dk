@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c11553dc3a48a2fdf0df65258914d36f9c2efbd
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6ca289f723af83758c96537e3d4b5a1c0117cc7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914360"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753488"
 ---
 # <a name="exchanging-data-electronically"></a>Udveksle data elektronisk
 Du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
 
-I standardversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)] er dataudvekslingsstrukturen brugt i funktioner som f. eks. elektroniske dokumenter, import/eksport af bankfiler og opdateringer af valutakurser. Du kan finde flere oplysninger under [Om dataudvekslingsstrukturen](across-about-the-data-exchange-framework.md).
+I standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er dataudvekslingsstrukturen brugt i funktioner som f. eks. elektroniske dokumenter, import/eksport af bankfiler og opdateringer af valutakurser. Du kan finde flere oplysninger under [Om dataudvekslingsstrukturen](across-about-the-data-exchange-framework.md).
 
 Som administrator eller Microsoft-partner kan du bruge strukturen i nye integrationsfunktioner ved at definere, hvilke data der skal udveksles og hvordan. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 

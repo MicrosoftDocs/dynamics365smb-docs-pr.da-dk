@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1222f3b7ed3c71ded3f653bb121b920c170c40f5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8cb3aa1df0c67af09f0353504abceb2529df9f2f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924252"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751400"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designoplysninger: Kendt problem med vareudligning
-Denne artikel vedrører et problem, hvor lagerniveauet er nul, selvom der findes åbne vareposter [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Denne artikel vedrører et problem, hvor lagerniveauet er nul, selvom der findes åbne vareposter [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Artiklen starter ved at angive typiske symptomer på problemet, efterfulgt af de grundlæggende oplysninger om vareudligning til at understøtte de beskrevne årsager til problemet. I slutningen af artiklen er en løsning til at løse sådanne åbne vareposter.  
 

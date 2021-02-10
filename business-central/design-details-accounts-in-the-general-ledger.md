@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18c8eb8f379be15bf425a6a2bcd8db6b0c48bcb3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5129a8b8116eab9996a47ad82b2579658a45b8b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922163"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751876"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designoplysninger: Konti i Finans
 For at afstemme lager og kapacitetsposterne med finansmodulet, bogføres de relaterede værdiposter til forskellige konti i finans. Du kan finde flere oplysninger i [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md).  
@@ -99,4 +99,4 @@ Følgende tabel viser, hvordan beløbene, der skal bogføres i finansregnskabet,
  [Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

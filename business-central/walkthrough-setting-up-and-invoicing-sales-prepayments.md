@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914806"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756413"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gennemgang: Opsætning og fakturering af salgsforudbetalinger
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kan f.eks. kræve et depositum, før du fremstiller varer efter ordre, eller du kan kræve betaling, før du sender varerne til en kunde. Du bruger forudbetalingsfunktionen i [!INCLUDE[d365fin](includes/d365fin_md.md)] til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.  
+Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kan f.eks. kræve et depositum, før du fremstiller varer efter ordre, eller du kan kræve betaling, før du sender varerne til en kunde. Du bruger forudbetalingsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.  
 
  Der kan defineres forudbetalingskrav for en debitor eller kreditor for alle varer eller udvalgte varer. Når du har fuldført den påkrævede opsætning, kan du generere forudbetalingsfakturaer fra salgs- og købsordrer for det beregnede forudbetalingsbeløb. Du kan ændre standardbeløbene på fakturaen efter behov. Du kan f.eks. sende yderligere forudbetalingsfakturaer, hvis der føjes ekstra varer til ordren.  
 
@@ -43,7 +43,7 @@ Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg elle
 -   Administrator af tilgodehavender (Arne)  
 
 ## <a name="story"></a>Historie  
- Pia er regnskabschef. Hun træffer beslutninger om, hvilke kunder der skal betale et depositum, inden varerne produceres eller leveres. Pia indstiller [!INCLUDE[d365fin](includes/d365fin_md.md)] til at beregne forudbetalinger automatisk.  
+ Pia er regnskabschef. Hun træffer beslutninger om, hvilke kunder der skal betale et depositum, inden varerne produceres eller leveres. Pia indstiller [!INCLUDE[prod_short](includes/prod_short.md)] til at beregne forudbetalinger automatisk.  
 
  Susan er salgsordrebehandler. Når en kunde ringer for at afgive en ordre, indtaster hun ordren i systemet, mens kunden er i telefonen. På denne måde kan hun få bekræftet pris- og betalingsbetingelserne med kunden med det samme, og hun kan foretage ændringer i ordren, mens hun forhandler med kunden.  
 
@@ -208,14 +208,14 @@ Arne kan få vist oversigten for at kontrollere, at salgsfakturaen blev oprettet
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 
 ## <a name="next-steps"></a>Efterfølgende trin  
-Denne gennemgang har ført dig gennem trinnene i, hvordan du indstiller [!INCLUDE[d365fin](includes/d365fin_md.md)] til at håndtere forudbetalinger. Du har oprettet standardprocenter for forudbetaling for debitorer og varer, og du har også brugt forskellige andre metoder til beregning af forudbetalinger på en ordre. Du har prøvet at tildele forudbetalingsbeløb til ordren, og du har fået programmet til at beregne forudbetalingsbeløbet beregnet som en procent af hele ordren.  
+Denne gennemgang har ført dig gennem trinnene i, hvordan du indstiller [!INCLUDE[prod_short](includes/prod_short.md)] til at håndtere forudbetalinger. Du har oprettet standardprocenter for forudbetaling for debitorer og varer, og du har også brugt forskellige andre metoder til beregning af forudbetalinger på en ordre. Du har prøvet at tildele forudbetalingsbeløb til ordren, og du har fået programmet til at beregne forudbetalingsbeløbet beregnet som en procent af hele ordren.  
 
 Du har også bogført en forudbetalingsfaktura, oprettet endnu en forudbetalingsfaktura, når ordren er ændret, og bogført den endelige faktura for restbeløbet.  
 
-Forudbetalingsfunktionen i [!INCLUDE[d365fin](includes/d365fin_md.md)] gør det nemmere at oprette og gennemtvinge regler for forudbetaling for debitorer og varer, og den giver dig mulighed for at bogføre hver betaling for en faktura.  
+Forudbetalingsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] gør det nemmere at oprette og gennemtvinge regler for forudbetaling for debitorer og varer, og den giver dig mulighed for at bogføre hver betaling for en faktura.  
 
 ## <a name="see-also"></a>Se også  
 [Fakturere forudbetalinger](finance-invoice-prepayments.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)

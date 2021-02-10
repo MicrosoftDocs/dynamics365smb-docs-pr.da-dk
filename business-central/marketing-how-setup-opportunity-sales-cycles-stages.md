@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d9263f2dda3a944b49ee449ef5f71bb56eb201f2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9ed05b047732a171970219c9a24f5fdd6f96f0b1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925128"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755388"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Konfigurere salgsprocesser og -procesfaser for leads
 Før du kan begynde at bruge salgsleads, skal du definere salgsprocesser og salgsprocesfaser. En salgsproces består af en række faser, der går fra den første kontakt til afslutningen af et salg. Hvert trin kan have bestemte krav, der skal opfyldes, f.eks kræve et salgstilbud, før et lead kan gå til næste fase. Du kan også angive, om en fase kan springes over. Du kan definere så mange salgsprocesser, der er behov for, og du kan definere så mange salgsprocesfaser, det er nødvendigt, i en salgsproces.
@@ -65,4 +65,4 @@ Når du har oprettet en opgave, kan du tildele den til et salgslead og dermed ti
 ## <a name="see-also"></a>Se også
 [Behandling af salgsleads](marketing-processing-sales-opportunities.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

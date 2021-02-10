@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b10d8e8c8dd6142a4b9ed2c9604fd4e9c7e9c74
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923716"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746262"
 ---
 # <a name="set-up-units-of-measure"></a>Oprette måleenheder
 
-Som en del af opsætningen af [!INCLUDE [prodshort](includes/prodshort.md)] kan du konfigurere generelle måleenheder på siden **Måleenheder**. Når du derefter registrerer nye varer, skal du angive basisenheden på **Varekortet**. Men du kan også tilføje måleenheder senere.  
+Som en del af opsætningen af [!INCLUDE [prod_short](includes/prod_short.md)] kan du konfigurere generelle måleenheder på siden **Måleenheder**. Når du derefter registrerer nye varer, skal du angive basisenheden på **Varekortet**. Men du kan også tilføje måleenheder senere.  
 
 Du kan konfigurere flere enheder for en vare, så du kan knytte enheder til varen til følgende formål:
 
@@ -50,9 +50,9 @@ Når du registrerer en ny vare, kan du vælge basisenheden på listen over de m�
 5. Vælg handlingen **Ny**. En ny tom linje er indsat.
 6. I feltet **Kode** skal du indtaste navnet på enheden. Du kan også vælge feltet for at vælge mellem de enhedskoder, der er i databasen.
 7. I feltet **Antal pr. enhed** kan du indtaste, hvor mange enheder, målt i basisenheder, den nye måleenhed indeholder.
-8. I felterne **Højde**, **Bredde**, **Længde** og **Vægt** kan du angive nøjagtige oplysninger om størrelsen af én enhed, så [!INCLUDE [prodshort](includes/prodshort.md)] kan beregne, hvor mange af de enkelte vareenheder der kan anbringes på en bestemt placering. Feltet **Rummål** beregnes automatisk ud fra **Højde**, **Bredde** og **Længde**.
+8. I felterne **Højde**, **Bredde**, **Længde** og **Vægt** kan du angive nøjagtige oplysninger om størrelsen af én enhed, så [!INCLUDE [prod_short](includes/prod_short.md)] kan beregne, hvor mange af de enkelte vareenheder der kan anbringes på en bestemt placering. Feltet **Rummål** beregnes automatisk ud fra **Højde**, **Bredde** og **Længde**.
 
-    Hvis et af disse felter indeholder en anden værdi end 0, bruges dette mål i alle processer, der omfatter placering af varer: læg-på-lager, bevægelser, modtagelser, leverancer, pluk og reguleringer. [!INCLUDE [prodshort](includes/prodshort.md)] kontrollerer summen af hvert fysiske mål på varer, der lægges på plads, og på varer, der allerede findes på placeringen, op imod den maksimale størrelse eller andet mål, der kan være på placeringen, ifølge den placeringskapacitetsregel, som er valgt på lokationskortet for varen. Det vil sige, at du skal bruge samme måleenhed for hver dimension på alle vareenheder - brug f.eks. kilogram eller pund som vægt, men vær konsekvent.
+    Hvis et af disse felter indeholder en anden værdi end 0, bruges dette mål i alle processer, der omfatter placering af varer: læg-på-lager, bevægelser, modtagelser, leverancer, pluk og reguleringer. [!INCLUDE [prod_short](includes/prod_short.md)] kontrollerer summen af hvert fysiske mål på varer, der lægges på plads, og på varer, der allerede findes på placeringen, op imod den maksimale størrelse eller andet mål, der kan være på placeringen, ifølge den placeringskapacitetsregel, som er valgt på lokationskortet for varen. Det vil sige, at du skal bruge samme måleenhed for hver dimension på alle vareenheder - brug f.eks. kilogram eller pund som vægt, men vær konsekvent.
 9. Gentag trin 5 til 7 for at oprette alle de alternative enheder, du ønsker at bruge i forskellige processer til denne vare.
 
     I feltet **Basisenhed** nederst i vinduet kan du vise eller ændre varens basisenhed. Du kan også ændre basisenheden i feltet **Basisenhed** på varekortet. På siden **Basisenhed** skal basisenheden have værdien **1** i feltet **Antal pr. enhed på**.
@@ -86,4 +86,4 @@ Hvis du normalt køber eller sælger i andre enheder end basisenheden, kan du an
 [Administrere lager](inventory-manage-inventory.md)  
 [Administrere indkøb](purchasing-manage-purchasing.md)  
 [Administrere salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

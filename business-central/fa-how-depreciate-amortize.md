@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8686b0d7f739b292f733239b7348428dbed56be3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3eb4cffd4e67c4cd375619ec8b36e17e6ee527b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920743"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749439"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
 Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner og udstyr, over anlæggets afskrivningslevetid. For hvert anlæg skal du definere, hvordan det skal afskrives.  
@@ -25,7 +25,7 @@ Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner o
 * Automatisk ved at udføre kørslen **Beregn afskrivning**.  
 * Manuelt ved at bruge anlægskassekladden.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan beregne daglig afskrivning, så du kan beregne afskrivningen for enhver periode. Du kan derfor analysere aktuelle driftsresultater f.eks. hver måned, hvert kvartal eller år. I beregningen anvendes et standardår på 360 dage og en standardmåned på 30 dage. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] kan beregne daglig afskrivning, så du kan beregne afskrivningen for enhver periode. Du kan derfor analysere aktuelle driftsresultater f.eks. hver måned, hvert kvartal eller år. I beregningen anvendes et standardår på 360 dage og en standardmåned på 30 dage. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md).  
 
 Hvis flere afdelinger bruger et anlægsaktiv, kan periodisk afskrivning allokeres automatisk til disse afdelinger ud fra en brugerdefineret allokeringstabel.  
 
@@ -111,4 +111,4 @@ De kopierede linjer oprettes enten i anlægskassekladden eller anlægskladden, a
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

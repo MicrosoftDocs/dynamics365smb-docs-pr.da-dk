@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f2f9602cb050639651a17ea6728eb40762f1ea6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f99a41a60b446f0f225d6112e07f37ded0dd2a78
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918684"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748039"
 ---
 # <a name="create-service-orders"></a>Oprette serviceordrer
 Du kan bruge siden **Serviceordre** til at oprette dokumenter, hvor du indtaster oplysninger om en serviceydelse, f.eks. reparation og vedligeholdelse, for serviceartikler efter kundeforespørgsel.  
@@ -52,7 +52,7 @@ Du kan automatisk oprette serviceordrer til reparation af serviceartikler basere
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Sådan konverteres servicetilbud til serviceordrer
 Når en kunde har accepteret et servicekontrakttilbud, skal du konvertere det til en serviceordre. Tilbuddet slettes, og der oprettes en ny serviceordre med samme beskrivelse som servicetilbuddet. Serviceordrens svardato og -tidspunkt genberegnes, og status angives til **Igangsat**. Reparationsstatus for serviceartiklerne i ordren ændres til **Ingen tidl. serv**.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] søger allokeringsposter for alle de serviceartikler i servicetilbuddet, der har status **Aktiv**. Hvis der bliver fundet sådanne allokeringsposter, opdateres deres allokeringsstatus til **Genallokering nødvendig**. Når du genallokerer artiklerne i serviceordren, opdateres status for de allokeringsposter, der er registreret for tilbuddet, til **Udført.**   
+[!INCLUDE[prod_short](includes/prod_short.md)] søger allokeringsposter for alle de serviceartikler i servicetilbuddet, der har status **Aktiv**. Hvis der bliver fundet sådanne allokeringsposter, opdateres deres allokeringsstatus til **Genallokering nødvendig**. Når du genallokerer artiklerne i serviceordren, opdateres status for de allokeringsposter, der er registreret for tilbuddet, til **Udført.**   
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontrakttilbud**, og vælg derefter det relaterede link.  
 2. Vælg det servicetilbud, der skal konverteres til en serviceordre.  

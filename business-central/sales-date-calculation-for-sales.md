@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8f272b73f7cc5940f2e0b845c62fd28395b6923
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 26782d211d205bb5414c5bd423ccf240f70f197e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926318"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748464"
 ---
 # <a name="date-calculation-for-sales"></a>Beregning af forfaldsdato for salg
-[!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk den tidligst mulige dato, som en vare eller en salgsordrelinje kan sendes på.
+[!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk den tidligst mulige dato, som en vare eller en salgsordrelinje kan sendes på.
 
 Hvis debitoren har anmodet om en bestemt leveringsdato, beregnes den dato, hvor varen skal være disponibel til pluk automatisk for at leveringen kan gennemføres rettidigt.
 
@@ -45,4 +45,4 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 ## <a name="see-also"></a>Se også  
  [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)   
  [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

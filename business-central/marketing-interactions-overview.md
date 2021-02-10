@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0fcdaf30443151919f0760ad18cce1cb7df25d36
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6d11b1298e55eb6d034ee173df70ad77478f4c1d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923666"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755363"
 ---
 # <a name="managing-interactions"></a>Administrere interaktioner
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, mail, telefon, møder osv.
+I [!INCLUDE[prod_short](includes/prod_short.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, mail, telefon, møder osv.
 
 Du kan registrere alle de interaktioner, du har med kontakter. Det sætter dig i stand til at holde styr på de salgs- og marketingtiltag, du har iværksat over for kontakterne, og til at forbedre de fremtidige forretningsinteraktioner med dem.
 

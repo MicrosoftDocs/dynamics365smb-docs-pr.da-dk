@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 19b6cb69d33d76d4263ad75a666eba14deaeeae8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 757f7cd38a6325df0e8dc0d283d58c42a8ab823e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925943"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748264"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leverancer på én enkelt faktura
 Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.  
@@ -36,7 +36,7 @@ Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleve
 7. Vælg handlingen **Bogfør** for at fakturere kladden.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du automatisk leverancer på én enkelt faktura  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] vælger kun salgsordrer, hvor **Tillad samlefaktura** er valgt. 
+[!INCLUDE[prod_short](includes/prod_short.md)] vælger kun salgsordrer, hvor **Tillad samlefaktura** er valgt. 
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Tillad samlefaktura**, og vælg derefter det relaterede link. Kørselssiden åbnes.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,4 +61,4 @@ Gentag trin 1 til 3 for eventuelle andre berørte dokumenter, f.eks. rammesalgso
 
 ## <a name="see-also"></a>Se også  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

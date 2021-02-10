@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4da451f6715c1569d49638e93ef67327562112be
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cd3bf23b72d34bb0c36f00e4b6be02b4abaafbe1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918022"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753313"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Oprette indgående bilagsposter direkte fra bilag og poster
-Du kan gemme eksterne forretningsbilag i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at knytte dokumentfilerne til de relaterede indgående bilagsposter. Hvis dokumentet, f.eks en købsfaktura, ikke startede som en indgående bilagspost, kan du stadig oprette og knytte en indgående bilagspost til det senere. Du kan også tilknytte indgående bilagsfiler til bogførte købs- og salgsdokumenter og til kreditor-, debitor- og finansposter ved hjælp af faktaboksen **Indgående bilagsfiler** f.eks. på siderne **Bogf. købsfakturaer** og **Kreditorposter**.
+Du kan gemme eksterne forretningsbilag i [!INCLUDE[prod_short](includes/prod_short.md)] ved at knytte dokumentfilerne til de relaterede indgående bilagsposter. Hvis dokumentet, f.eks en købsfaktura, ikke startede som en indgående bilagspost, kan du stadig oprette og knytte en indgående bilagspost til det senere. Du kan også tilknytte indgående bilagsfiler til bogførte købs- og salgsdokumenter og til kreditor-, debitor- og finansposter ved hjælp af faktaboksen **Indgående bilagsfiler** f.eks. på siderne **Bogf. købsfakturaer** og **Kreditorposter**.
 
 Fra på siderne **Kontoplan** og **Finansposter** kan du bruge en søgefunktionen til at finde finansposter for bogførte og købs- og salgsdokumenter, som ikke har indgående bilagsposter og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede bilagsfiler. Du kan finde flere oplysninger under [Finde bogførte bilag uden indgående bilagsposter](across-how-find-posted-documents-without-income-document-records.md).
 
@@ -50,4 +50,4 @@ Forbindelsen til det bogførte bilag er fjernet. Du kan nu fortsætte med at kny
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

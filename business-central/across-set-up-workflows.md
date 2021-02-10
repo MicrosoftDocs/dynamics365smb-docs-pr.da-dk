@@ -1,6 +1,6 @@
 ---
-title: Opsætte workflows | Microsoft Docs
-description: Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.
+title: Opsætning af arbejdsgange
+description: Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Få mere at vide om de forskellige trin, du skal tage.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,23 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/14/2020
 ms.author: edupont
-ms.openlocfilehash: cfceeb302c825d32d132d446882e98b7f6b07e27
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a104065d8f52ca9d1bb9221cd43917253c640ca4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913934"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754215"
 ---
-# <a name="setting-up-workflows"></a>Opsætte workflows
+# <a name="set-up-workflows"></a>Opsætning af arbejdsgange
+
 Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).  
 
  Inden du kan bruge arbejdsprocesser, skal du oprette arbejdsgangbrugere og godkendelsesbrugere, angive, hvordan brugere modtager notifikationer om trin i arbejdsgange, og derefter oprette arbejdsgange, eventuelt efter tilpasning af koder.  
 
  På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden.  
 
- Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal en Microsoft-partner implementere dem ved at tilpasse programkoden. Du kan finde flere oplysninger i [Gennemgang: Implementering af nye workflowhændelser og -responser](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) i hjælpen til udviklere og it-eksperter.
+ Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal en Microsoft-partner implementere dem med en kode, eller der kan konfigureres et workflow ved hjælp af Power Automate. Du kan finde flere oplysninger i [Brug af [!INCLUDE[prod_short](includes/prod_short.md)] i en automatiseret arbejdsproces](across-how-use-financials-data-source-flow.md) eller [Hændelser i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjælpen til udviklere.
 
  Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
@@ -35,12 +36,11 @@ Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, de
 |Angiv, hvordan arbejdsgang brugere skal have besked om trin i arbejdsgangen, herunder godkendelsesanmodninger.|[Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)|  
 |Angiv, om brugerne får besked via e-mail, og noter, hvor ofte notifikationer sendes.|[Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
 |Tilpas indholdet af e-mailmeddelelserne ved at tilpasse rapport 1320, Notifikationsmail.|[Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)|  
-|Konfigurer en SMTP-server til at aktivere mailkommunikation til og fra [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Konfigurere mail](admin-how-setup-email.md)|
+|Konfigurer en SMTP-server til at aktivere mailkommunikation til og fra [!INCLUDE[prod_short](includes/prod_short.md)]|[Konfigurere mail](admin-how-setup-email.md)|
 |Angiv de forskellige trin i en arbejdsgang ved at forbinde arbejdsgangshændelser med arbejdsgangsvar.|[Oprette arbejdsgange](across-how-to-create-workflows.md)|  
 |Brug workflowskabeloner til at oprette nye workflows.|[Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Del workflows med andre [!INCLUDE[d365fin](includes/d365fin_md.md)]-databaser.|[Eksportere og importere workflows](across-how-to-export-and-import-workflows.md)|  
+|Del workflows med andre [!INCLUDE[prod_short](includes/prod_short.md)]-databaser.|[Eksportere og importere workflows](across-how-to-export-and-import-workflows.md)|  
 |Lær, hvordan du konfigurerer en arbejdsgang til godkendelse af salgsdokumenter ved at følge en hel procedure.|[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Tilføj understøttelse af et forretningsscenarie, der kræver nye workflowhændelser eller -responses ved at tilpasse programkoden.|[Gennemgang: Implementering af nye workflowhændelser og -responser](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
 
 ## <a name="example-of-an-approval-workflow"></a>Eksempel på et godkendelsesworkflow
 Denne video viser, hvordan du konfigurerer et workflow, der kræver, at en person anmoder om en andens godkendelse, før vedkommende kan ændre oplysninger om en eksisterende kunde eller oprette en ny kunde.  

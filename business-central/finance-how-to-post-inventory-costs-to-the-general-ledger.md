@@ -1,6 +1,6 @@
 ---
 title: Sådan bogfører du kostpriser i finansregnskabet | Microsoft Docs
-description: Bruges til at styre de fysiske produkter, som du handler med, f.eks. håndtering af lagerbeholdning på lagerstedet.
+description: Ved afslutningen af regnskabsperioder, hvad enten de er månedlige, årlige eller andet, skal der udføres en række handlinger til omkostningsstyring og revision, så der rapporteres en korrekt og afstemt lagerværdi til regnskabsafdelingen. Bortset fra den bogføringsrutine, der overfører de enkelte poster med vareværdi til dedikerede finanskonti, stilles adskillige rapporter, sporingsfunktioner og et specielt afstemningsværktøj til rådighed for den revisor eller controller, der er ansvarlig for dette forretningskritiske arbejde.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad6c8d2084c2bffb38f1c98855e837b9ba13e8fe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919484"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746812"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Afstemme lagerværdier med finansregnskabet
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet.
@@ -69,9 +69,21 @@ De næste kolonner viser totalerne for de samme kontotyper beregnet ud fra finan
 
 Vælg beløbet i en af totalerne for at se de poster i lagerrapporten, der blev brugt til at beregne totalerne. For lagertotalerne er posterne i lagerrapporten summen af værdiposterne for varerne. For finanstotalerne er posterne i lagerrapporten summen fra finansposterne.
 
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportere omkostninger og afstemme med regnskabet
+Andre rapporter, sporingsfunktioner og et særligt afstemnings værktøj er tilgængelige for den revisor eller controller, der er ansvarlig for at rapportere en korrekt og afstemt lagerværdi til finansafdelingen.
+
+Den følgende tabel beskriver dem.    
+
+|**Hvis du vil**|**Se**|  
+|------------|-------------|  
+|Have vist lagerværdien for de valgte varer, herunder oplysninger om antal og værdi af lagertilgange og -afgange i en valgt periode.|**Lagerværdirapport**|  
+|Have vist lagerværdien for valgte produktionsordrer i lageret for igangværende arbejde (VIA), f.eks. antal og værdi af forbrug, kapacitetsudnyttelse og output i igangværende produktionsordrer.|**Lagerværdi – igangværende arbejde**, rapport|  
+|Have vist lagerværdien af valgte varer, herunder deres faktiske og forventede kostpris på den angivne dato.|**Lagerværdi – kostspecifikation**, rapport|  
+|Bruge en rapport til at analysere årsagerne til kostprisuoverensstemmelser eller få indsigt i vareforbruget for solgte varer.|**Grundlag for kostprisfordeling**, rapport|  
+
 ## <a name="see-also"></a>Se også  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)    
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)

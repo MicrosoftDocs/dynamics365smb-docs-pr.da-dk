@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2020
-ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 65c27bee86d273c467709f1e238b996829d73f37
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919334"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755438"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruge profilspørgeskemaer til at klassificere forretningskontakter
 Du kan definere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler. Du kan i det enkelte spørgeskema definere forskellige spørgsmål, du vil stille dine kontaktpersoner.  
@@ -46,7 +46,7 @@ Du kan automatisk klassificere kontakter efter debitor-, kreditor- og kontaktopl
 > [!NOTE]
 > Det er kun kontakter, der er registrerede som debitorer, som kan få tildelt en klassificering ud fra debitordata, og kun kontakter registreret som kreditorer kan tildeles en klassificering ud fra kreditordata. Klassificeringen opdateres ikke automatisk. Det kan derfor være nødvendigt at opdatere profilspørgeskemaerne, hvis du har opdateret de debitor-, kreditor- eller kontaktdata, som de er baseret på.  
 
-Hvis du har angivet automatisk besvarede profilspørgsmål, udfylder [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk de korrekte svar for kontakterne, når du tildeler en kontakt et profilspørgeskema med de pågældende spørgsmål.  
+Hvis du har angivet automatisk besvarede profilspørgsmål, udfylder [!INCLUDE[prod_short](includes/prod_short.md)] automatisk de korrekte svar for kontakterne, når du tildeler en kontakt et profilspørgeskema med de pågældende spørgsmål.  
 
 ## <a name="example"></a>Eksempel
 Du kan klassificere kontakter efter deres købsbeløb.
@@ -103,28 +103,28 @@ Det gør du ved at udfylde siden **Opsætn. af profilspørgeskema** på følgend
 <td><p>Spørgsmål</p></td>
 <td><p>ABC-klassificering</p></td>
 <td><p>Indsæt markering ved at klikke</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
 <td><p>T</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>500,000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Svar</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
 <td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
 <td><p>U</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 <td><p>99,999</p></td>
 </tr>
 </tbody>

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b759aef09fc2a19ac06a829a64a9ed0ea9b1efa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3b90cb523449367672be71abe0a7cf02effcde5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926494"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748539"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Afstemme betalinger ved hjælp af automatisk udligning
 
@@ -24,7 +24,7 @@ Siden **Betalingsudligningskladde** angiver betalinger, enten indgående eller u
 > [!NOTE]
 > Siden indeholder automatisk matchningsfunktionalitet, der anvender betalinger på de relaterede åbne poster baseret på en sammenligning af tekst i en bankkontoudtogslinje (kladdelinje) med tekst i en eller flere åbne poster. Bemærk, at du kan overskrive de foreslåede automatiske udligninger, og du kan vælge slet ikke at bruge automatisk udligning. Du kan finde flere oplysninger i trin 7.
 
-En betalingsudligningskladde er relateret til en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], der afspejler den onlinebankkonto, hvor betalingstransaktionerne registreres. Eventuelle åbne bankposter vedrørende de udlignede debitor- eller kreditorposter bliver lukket, når du vælger handlingen **Bogfør betalinger og afstem bankkonti**. Det betyder, at bankkontoen automatisk afstemmes for de betalinger, du bogfører, med kladden.
+En betalingsudligningskladde er relateret til en bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)], der afspejler den onlinebankkonto, hvor betalingstransaktionerne registreres. Eventuelle åbne bankposter vedrørende de udlignede debitor- eller kreditorposter bliver lukket, når du vælger handlingen **Bogfør betalinger og afstem bankkonti**. Det betyder, at bankkontoen automatisk afstemmes for de betalinger, du bogfører, med kladden.
 
 Hvis du vil indlæse bankkontoudtog, som banken sender som feeds, skal du først aktivere tjenesten Envestnet Yodlee Bank Feeds og derefter knytte bankkontoen til den relaterede onlinebankkonto. Betalingsudligningskladden registrerer derefter automatisk bankfeeds, når du klikker på handlingen **Importér banktransaktioner**. Du kan desuden konfigurere en bankkonto til automatisk at indlæse nye feeds til bankkontoudtog hver time. Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt indlæses ikke. Du kan finde flere oplysninger i [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -75,4 +75,4 @@ Du kan sammenligne værdien i feltet **Saldo på bankkonto efter bogføring** me
 ## <a name="see-also"></a>Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -8,17 +8,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926943"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748839"
 ---
 # <a name="project-management"></a>Projektstyring
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du udføre almindelige projektstyringsopgaver, som f.eks. konfiguration af en sag og planlægning af en ressource samt anskaffelsen af de oplysninger, der er nødvendige til administration af budgetter og overvågning af status. Du kan spore maskin- og medarbejdertimer på projektet ved hjælp af timeregistreringer. Som projektleder har du et godt overblik, ikke kun over individuelle sager, men også over allokeringen af medarbejdere, maskiner og andre ressourcer, der bruges i alle projekter.
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du udføre almindelige projektstyringsopgaver, som f.eks. konfiguration af en sag og planlægning af en ressource samt anskaffelsen af de oplysninger, der er nødvendige til administration af budgetter og overvågning af status. Du kan spore maskin- og medarbejdertimer på projektet ved hjælp af timeregistreringer. Som projektleder har du et godt overblik, ikke kun over individuelle sager, men også over allokeringen af medarbejdere, maskiner og andre ressourcer, der bruges i alle projekter.
 
-Før du kan bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager. Der er flere oplysninger under [Konfigurere projektstyring](projects-setup-projects.md).  
+Før du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager. Der er flere oplysninger under [Konfigurere projektstyring](projects-setup-projects.md).  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -36,7 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="get-started-with-projects"></a>Kom i gang med projekter
 
-Projektstyring er kompliceret nok i forvejen, og det kan være ekstra kompliceret at skulle lære at oprette sager og administrere igangværende arbejde i et nyt værktøj. For at hjælpe dig i gang med projektstyring i [!INCLUDE[prodshort](includes/prodshort.md)] kan du se [en video om oprettelse af sager](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prodshort](includes/prodshort.md)] YouTube-kanalen.  
+Projektstyring er kompliceret nok i forvejen, og det kan være ekstra kompliceret at skulle lære at oprette sager og administrere igangværende arbejde i et nyt værktøj. For at hjælpe dig i gang med projektstyring i [!INCLUDE[prod_short](includes/prod_short.md)] kan du se [en video om oprettelse af sager](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-kanalen.  
 
 ## <a name="see-also"></a>Se også
 
@@ -46,6 +46,6 @@ Projektstyring er kompliceret nok i forvejen, og det kan være ekstra komplicere
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

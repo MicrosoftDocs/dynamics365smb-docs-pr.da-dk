@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 55450538dc3754e3720f6bed79ed92864df1b5a4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e0aac63dd10cb70acee908f3b97fdbc66275b583
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920206"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749676"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 
-Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
+Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Funktionen Tilgængelighed
 
@@ -34,8 +34,7 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 * Elektronisk fakturering
     * [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md) **Tilgængelig nu**
     * [Konfigurere elektronisk fakturering i OIOUBL](how-to-set-up-oioubl.md) **Tilgængelig nu**
-    * [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md) **Tilgængelig nu***
-    * [Udvidelsen OIOUBL til elektronisk fakturering](ui-extensions-oioubl.md) **Tilgængelig nu**
+    * [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md) **Tilgængelig nu** _ _ [OIOUBL-udvidelsen til elektronisk fakturering](ui-extensions-oioubl.md) **Tilgængelig nu**
     * [Oprette elektroniske dokumenter i et OIOUBL-format](how-to-create-electronic-documents-by-using-oioubl.md) **Tilgængelig nu**
 
 * Løn
@@ -43,7 +42,7 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 
 ## <a name="see-also"></a>Se også
 
-[Arbejde med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

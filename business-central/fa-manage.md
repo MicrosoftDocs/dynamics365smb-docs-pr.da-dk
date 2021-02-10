@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920618"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747237"
 ---
 # <a name="fixed-assets"></a>Anlægsaktiver
-I Anlæg i [!INCLUDE[d365fin](includes/d365fin_md.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
+I Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
 
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Derefter kan du begynde at anskaffe, vedligeholde og sælge anlægsaktiverne. Du kan også konfigurere budgetterede aktiver. Dermed kan du inkludere eventuelle forventede anskaffelser og salg i rapporterne.
 
-For at holde styr på anlægsaktivers afskrivninger og andre finansielle transaktioner i relation til anlægsaktiver, skal du oprette en eller flere afskrivningsprofiler for hvert anlægsaktiv i din virksomhed. Afskrivning udføres ved at køre en rapport for at beregne den periodiske afskrivning og udfylde en kladde med de resulterende poster, der er klar til at blive bogført. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter forskellige afskrivningsmetoder. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md). Du kan definere flere afskrivningsprofiler pr. anlægsaktiv til forskellige formål, f.eks en til rapportering af moms og en anden til intern rapportering.
+For at holde styr på anlægsaktivers afskrivninger og andre finansielle transaktioner i relation til anlægsaktiver, skal du oprette en eller flere afskrivningsprofiler for hvert anlægsaktiv i din virksomhed. Afskrivning udføres ved at køre en rapport for at beregne den periodiske afskrivning og udfylde en kladde med de resulterende poster, der er klar til at blive bogført. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter forskellige afskrivningsmetoder. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md). Du kan definere flere afskrivningsprofiler pr. anlægsaktiv til forskellige formål, f.eks en til rapportering af moms og en anden til intern rapportering.
 
 For hvert aktiv kan du registrere reparationsomkostningerne og den næste servicedato. Det er vigtigt at holde styr på reparationsomkostningerne af hensyn til budgetteringen og for at kunne træffe beslutningen, om et anlægsaktiv skal udskiftes eller ej.
 
@@ -58,7 +58,7 @@ Følgende video giver en grundlæggende beskrivelse af anlægsaktiver.
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

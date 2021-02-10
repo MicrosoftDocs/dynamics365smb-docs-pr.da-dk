@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b29f96f37448c2ca6eb02330946171adb5f04b9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4b112bf05c1bbc6110ce3b5a439c81a96759d1bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925568"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756763"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
@@ -143,6 +143,6 @@ Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 
 ## <a name="see-also"></a>Se også
 [Tilpasse sider til profiler](ui-personalization-manage.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  

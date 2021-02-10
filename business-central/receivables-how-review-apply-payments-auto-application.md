@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 386947106aedd8d0a264d04bd28c064a0f43655f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bcb3ffbf7bab30b71cea7c2f1005124415ab2ae4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926418"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748514"
 ---
 # <a name="review-or-apply-payments-manually-after-automatic-application"></a>Gennemse eller udligne betalinger manuelt efter automatisk udligning
 For hver kladdelinje, der repræsenterer en betaling på siden **Betalingsudligningskladde**, kan du åbne siden **Betalingsudligning** for at få vist alle åbne kandidatposter for betalingen og se detaljerede oplysninger for hver post om den dataafstemning, som en betalingsudligning er baseret på. Her kan du manuelt udligne betalinger eller udligne betalinger igen, der er udlignet automatisk til en forkert post. Du kan finde flere oplysninger om automatisk udligning i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
->   Når den bankkonto, som du afstemmer betalinger for, er sat op til den lokale valuta, viser siden **Betalingsudligning** alle åbne poster i den lokale valuta, herunder åbne poster for dokumenter, der oprindeligt blev faktureret i udenlandsk valuta. Betalinger, der er udlignet til poster med de omregnede valutaer, kan derfor blive bogført med andre beløb end i det oprindelige dokument på grund af de potentielt forskellige valutakurser, der bruges af henholdsvis banken og [!INCLUDE[d365fin](includes/d365fin_md.md)].
+>   Når den bankkonto, som du afstemmer betalinger for, er sat op til den lokale valuta, viser siden **Betalingsudligning** alle åbne poster i den lokale valuta, herunder åbne poster for dokumenter, der oprindeligt blev faktureret i udenlandsk valuta. Betalinger, der er udlignet til poster med de omregnede valutaer, kan derfor blive bogført med andre beløb end i det oprindelige dokument på grund af de potentielt forskellige valutakurser, der bruges af henholdsvis banken og [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Vi anbefaler derfor, at du ser efter udenlandske valutakoder i feltet **Valutakode** på siden **Betalingsudligning** for at kontrollere, om udligninger er baseret på omregnede valutaer. Gennemgå det oprindelige dokumentbeløb i udenlandsk valuta og se den valutakurs, der bruges, ved at vælge feltet **Udlign.løbenr.** og derefter bruge genvejsmenuen til at vælge knappen Specificer for at åbne siden **Debitorposter** eller siden **Kreditorposter**.
 
-Eventuelle justeringer af gevinster og tab, der kræves på grund af valutaomregninger, behandles ikke automatisk af [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Eventuelle justeringer af gevinster og tab, der kræves på grund af valutaomregninger, behandles ikke automatisk af [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]  
 >   Du kan udligne poster med et andet fortegn end tegnet for betalingen. For eksempel skal du for at lukke en kreditnota med negativt fortegn og dens relaterede faktura med positivt fortegn først udligne kreditnotaen med fakturaen og derefter udligne betalingen med fakturaen med reduceret restbeløb.
@@ -52,4 +52,4 @@ Siden **Udligningsbeløb** lukkes, og på siden **Betalingsudligningskladde** æ
 ## <a name="see-also"></a>Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

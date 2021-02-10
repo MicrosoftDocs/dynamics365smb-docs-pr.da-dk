@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 65331f8c60c57bd87e3a459012a9a5678d033790
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: eabb6962dba09e7837e271f3ad2d6b14313941e3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920568"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746912"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere moms til skattemyndighederne
-Dette emne beskriver rapporterne i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du kan bruge til at indsende oplysninger om momsbeløb for salg og indkøb til skattemyndigheder i dit område. 
+Dette emne beskriver rapporterne i [!INCLUDE[prod_short](includes/prod_short.md)], som du kan bruge til at indsende oplysninger om momsbeløb for salg og indkøb til skattemyndigheder i dit område. 
 
 Du kan bruge følgende rapporter:
 
@@ -28,7 +28,7 @@ Du kan bruge følgende rapporter:
 Du kan få vist en komplet oversigt over momsposter ved hver bogføring, der indebærer moms, hvor der oprettes en post på siden **Momsposter**. Disse poster bruges til at beregne momsafregningsbeløb, f.eks. betaling og refusion, for en bestemt periode. Du kan få vist VAT-poster ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive **Momsposter** og derefter vælge det relaterede link.
 
 > [!NOTE]
-> Hvert [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljø skal behandle lovpligtig rapportering i ét enkelt land. Den hollandske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] håndterer momsrapportering i Holland, men ikke i andre lande. På samme måde håndterer den amerikanske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] 1099 rapportering i USA og understøtter ikke krav om momsindberetning i andre lande, medmindre de er indført via en udvidelse, der leveres af vores partnerøkosystem eller en kundespecifik kodeændring.
+> Hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø skal behandle lovpligtig rapportering i ét enkelt land. Den hollandske version af [!INCLUDE[prod_short](includes/prod_short.md)] håndterer momsrapportering i Holland, men ikke i andre lande. På samme måde håndterer den amerikanske version af [!INCLUDE[prod_short](includes/prod_short.md)] 1099 rapportering i USA og understøtter ikke krav om momsindberetning i andre lande, medmindre de er indført via en udvidelse, der leveres af vores partnerøkosystem eller en kundespecifik kodeændring.
 
 ## <a name="about-the-ec-sales-list-report"></a>Om rapporten Oversigt over EU-salg
 I Storbritannien skal alle virksomheder, der sælger varer og tjenester til momsregistrerede kunder, herunder kunder i andre EU-lande, sende en elektronisk udgave af rapporten Oversigt over EU-salg i XML-format via HMRC-webstedet (Her Majesty's Revenue and Customs). Rapporten Oversigt over EU-salg kan kun bruges til EU-lande.
@@ -41,7 +41,7 @@ Rapporten indeholder én linje for hver type transaktion med kunden og viser det
 
 B2B-varer og -tjenesteydelser angiver, om du har solgt en vare eller en tjeneste, og de styres af indstillingen **EU-service** i momsbogføringsopsætningen. B2B-triangulerede varer angiver, om du har drevet handel med tredjepart, og styres af indstillingen **Trekantshandel** i salgsdokumenter, f.eks. salgsordrer, fakturaer, kreditnotaer osv.  
 
-Når skattemyndighederne gennemser rapporten, sender de en e-mail til kontaktpersonen for virksomheden. I [!INCLUDE[d365fin](includes/d365fin_md.md)] angives kontaktpersonen på siden **Virksomhedsoplysninger**. Før du sender rapporten, skal du kontrollere, at der er valgt en kontaktperson.
+Når skattemyndighederne gennemser rapporten, sender de en e-mail til kontaktpersonen for virksomheden. I [!INCLUDE[prod_short](includes/prod_short.md)] angives kontaktpersonen på siden **Virksomhedsoplysninger**. Før du sender rapporten, skal du kontrollere, at der er valgt en kontaktperson.
 
 ## <a name="about-the-vat-return-report"></a>Om rapporten Momsopgørelse
 Du kan bruge denne rapport til at sende moms for salgs- og købsdokumenter, f.eks. købs- og salgsordrer, fakturaer og kreditnotaer. Oplysningerne i rapporten er opstillet på samme måde som i listeangivelsen fra SKAT.  
@@ -54,9 +54,9 @@ For momsopgørelsen kan du angive, at posterne skal omfatte:
 * Send kun poster fra de angivne perioder, eller medtag også poster fra tidligere perioder. Dette er nyttigt for at opdatere en momsopgørelse, som du allerede har sendt, f.eks. hvis en leverandør sender dig en forsinket faktura.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Sådan opretter du forbindelse til din skattemyndigheds webtjeneste
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder serviceforbindelser til skattemyndighedernes websteder. Hvis du f.eks. befinder dig i Storbritannien, kan du aktivere serviceforbindelsen **GovTalk** for at sende rapporterne Oversigt over EU-salg og Momsopgørelsen elektronisk. Hvis du vil sende rapporten manuelt, for eksempel ved at indtaste dataene på skattemyndighedens websted, er dette ikke påkrævet.   
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder serviceforbindelser til skattemyndighedernes websteder. Hvis du f.eks. befinder dig i Storbritannien, kan du aktivere serviceforbindelsen **GovTalk** for at sende rapporterne Oversigt over EU-salg og Momsopgørelsen elektronisk. Hvis du vil sende rapporten manuelt, for eksempel ved at indtaste dataene på skattemyndighedens websted, er dette ikke påkrævet.   
 
-Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde [!INCLUDE[d365fin](includes/d365fin_md.md)] med skattemyndighedens webtjeneste. Dette kræver, at du opretter en konto hos skattemyndighederne. Når du har en konto, kan du aktivere en tjenesteforbindelse, som vi leverer i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde [!INCLUDE[prod_short](includes/prod_short.md)] med skattemyndighedens webtjeneste. Dette kræver, at du opretter en konto hos skattemyndighederne. Når du har en konto, kan du aktivere en tjenesteforbindelse, som vi leverer i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg derefter det relaterede link.
 2. Udfyld de påkrævede felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -64,7 +64,7 @@ Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde
     > [!NOTE]  
     > Det er en god ide at teste forbindelsen. For at gøre dette skal du vælge afkrydsningsfeltet **Testtilstand**. Forbered og send derefter momsrapporten, som beskrevet i afsnittet _Sådan forbereder og sender du en momsrapport_. I Testtilstand kontrollerer tjenesten, om skattemyndighederne kan modtage rapporten, og statussen for rapporten angiver, om testafsendelsen blev udført. Det er vigtigt at huske, at det ikke er en faktisk afsendelse. For at sende rapporten rigtigt skal du fjerne markeringen i afkrydsningsfeltet **Testtilstand** og derefter gentage afsendelsesprocessen.
 
-## <a name="to-set-up-vat-reports-in-d365fin"></a>Sådan opsættes momsrapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-prod_short"></a>Sådan opsættes momsrapporter i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momsrapportkonfiguration**, og vælg derefter det relaterede link.  
 2. For at vil lade brugerne ændre rapporten og sende den igen skal du markere afkrydsningsfeltet **Modificer sendte rapporter**.  
 3. Vælg den nummerserie, der skal bruges til hver rapport.  
@@ -79,10 +79,10 @@ Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde
 4. Hvis du vil validere og forberede rapporten til afsendelse, skal du vælge handlingen **Frigiv**.  
 
     > [!NOTE]  
-    > [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om rapporten er konfigureret korrekt. Hvis valideringen ikke lykkes, vises fejlene under **Fejl og advarsler**, så du ved, hvad du skal rette. Hvis meddelelsen typisk drejer sig om en manglende indstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke på meddelelsen for at åbne siden med de oplysninger, der skal rettes.  
+    > [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer, om rapporten er konfigureret korrekt. Hvis valideringen ikke lykkes, vises fejlene under **Fejl og advarsler**, så du ved, hvad du skal rette. Hvis meddelelsen typisk drejer sig om en manglende indstilling i [!INCLUDE[prod_short](includes/prod_short.md)], kan du klikke på meddelelsen for at åbne siden med de oplysninger, der skal rettes.  
 5. Du sender rapporten ved at vælge handlingen **Send**.  
 
-Når du sender rapporten, overvåger [!INCLUDE[d365fin](includes/d365fin_md.md)] tjenesten og registrerer din kommunikation. Feltet **Status** angiver, hvor rapporten er i processen. F.eks. når myndighederne behandler rapporten, ændres status for rapporten til **Fuldført**. Hvis skattemyndighederne finder fejl i den rapport, du har sendt, bliver status for rapporten **Mislykkedes**. Du kan se fejlene under **Fejl og advarsler**, rette dem og derefter sende rapporten igen. For at få vist en liste over alle EU-salgslisterapporter, skal du gå til siden **Rapporter over EU-salg**.  
+Når du sender rapporten, overvåger [!INCLUDE[prod_short](includes/prod_short.md)] tjenesten og registrerer din kommunikation. Feltet **Status** angiver, hvor rapporten er i processen. F.eks. når myndighederne behandler rapporten, ændres status for rapporten til **Fuldført**. Hvis skattemyndighederne finder fejl i den rapport, du har sendt, bliver status for rapporten **Mislykkedes**. Du kan se fejlene under **Fejl og advarsler**, rette dem og derefter sende rapporten igen. For at få vist en liste over alle EU-salgslisterapporter, skal du gå til siden **Rapporter over EU-salg**.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Visning af kommunikationen med skattemyndighederne
 I nogle lande udveksler du meddelelser med skattemyndighederne, når du sender rapporter. Du kan få vist først og sidste meddelelse, du har sendt eller modtaget, ved at vælge handlingerne **Download afsendelsesmeddelelse** og **Download svarmeddelelse**.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f78a4e0220ac3c933a6b00300dee4b389c5ea4cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9b58caa880dce813439a2ce4ab2b9da8dccddae5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911942"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756338"
 ---
 # <a name="receive-items"></a>Modtage varer
 
@@ -123,7 +123,7 @@ Når du håndterer en overmodtagelse, kan du enten øge værdien i feltet **Modt
 2. Bogfør modtagelsen ligesom enhver anden modtagelse.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder ikke funktioner til automatisk start af den økonomiske administration af overmodtagelser. Du skal håndtere dette manuelt efter aftale med leverandøren, f. eks. ved at leverandøren videresender en ny eller opdateret faktura.
+> [!INCLUDE[prod_short](includes/prod_short.md)] indeholder ikke funktioner til automatisk start af den økonomiske administration af overmodtagelser. Du skal håndtere dette manuelt efter aftale med leverandøren, f. eks. ved at leverandøren videresender en ny eller opdateret faktura.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 
@@ -134,4 +134,4 @@ Når du håndterer en overmodtagelse, kan du enten øge værdien i feltet **Modt
 [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

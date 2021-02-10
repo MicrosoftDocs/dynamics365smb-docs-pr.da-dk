@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d778b29a5789d015b26b504ea8699ac64a92286c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54f72fdfdea362cee6f3e3833f9d0e46cb9ac22a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911101"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751601"
 ---
 # <a name="general-journal-post-line-overview"></a>Oversigt over bogføringslinje i finanskladde
 Codeunit 12 **Finanskladde-Bogføringslinje** er det vigtigste udligningsobjekt til finansbogføring og er det eneste sted at indsætte finans-, moms- og debitor-og kreditorposter. Denne codeunit bruges også til alle handlinger med Udlign, Annuller udligning og Tilbagefør.  
   
-Mens codeunit er blevet forbedret i hver udgave i de sidste ti år, er dens arkitektur i det væsentlige uændret. Codeunit blev meget stor med ca. 7.600 kodelinjer. Med denne version af [!INCLUDE[d365fin](includes/d365fin_md.md)] er arkitekturen ændret, og codeunit er gjort enklere og nemmere at vedligeholde. Denne dokumentation indeholder ændringerne og oplysninger, du skal bruge til opgradering.  
+Mens codeunit er blevet forbedret i hver udgave i de sidste ti år, er dens arkitektur i det væsentlige uændret. Codeunit blev meget stor med ca. 7.600 kodelinjer. Med denne version af [!INCLUDE[prod_short](includes/prod_short.md)] er arkitekturen ændret, og codeunit er gjort enklere og nemmere at vedligeholde. Denne dokumentation indeholder ændringerne og oplysninger, du skal bruge til opgradering.  
   
 ## <a name="old-architecture"></a>Gammel arkitektur  
 Den gamle arkitektur havde følgende funktioner:  
@@ -34,7 +34,7 @@ Den gamle arkitektur havde følgende funktioner:
 * Bogføring, Udlign, Annuller udligning, Tilbagefør, Kontantrabat og Tolerance samt Valutakursregulering blev samlet i codeunit 12 ved hjælp af en lang liste af globale variabler.  
   
 ### <a name="new-architecture"></a>Ny arkitektur  
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] har codeunit 12 følgende forbedringer:  
+I [!INCLUDE[prod_short](includes/prod_short.md)] har codeunit 12 følgende forbedringer:  
   
 * Codeunit 12 er blevet inddelt i mindre procedurer (alle under 100 kodelinjer).  
 * Standardiserede mønstre for søgning på finanskonti er implementeret ved hjælp af hjælpefunktioner fra bogføringsgruppetabeller.  

@@ -10,36 +10,36 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c2b663208a1bed8522ea532efdb2dee0d519b646
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 94fe9b960b61e4607bf285cd1e9ee8f1af1be916
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912517"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747780"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-sikkerhedssystemet giver dig mulighed for at styre, hvilke objekter en bruger kan få adgang til inden for hver database eller hvert miljø. Du kan angive for hver bruger, om de kan læse, ændre eller indtaste data i de valgte databaseobjekter. Du kan finde flere oplysninger ved at se [Datasikkerhed](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjælp til udviklere og it-eksperter for [!INCLUDE[d365fin](includes/d365fin_md.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)]-sikkerhedssystemet giver dig mulighed for at styre, hvilke objekter en bruger kan få adgang til inden for hver database eller hvert miljø. Du kan angive for hver bruger, om de kan læse, ændre eller indtaste data i de valgte databaseobjekter. Du kan finde flere oplysninger ved at se [Datasikkerhed](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i hjælp til udviklere og it-eksperter for [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Før du tildeler rettigheder til brugere og brugergrupper, skal du definere, hvem der kan logge på, ved at oprette brugere ifølge licensen, som det er defineret i Microsoft 365 Administration. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)]er der to niveauer af rettigheder til databaseobjekter:
+I [!INCLUDE[prod_short](includes/prod_short.md)]er der to niveauer af rettigheder til databaseobjekter:
 
 - Overordnede rettigheder ifølge licensen, også kaldet berettigelser.
-- Mere detaljerede rettigheder, der er tildelt i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+- Mere detaljerede rettigheder, der er tildelt i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Hvis du vil gøre det nemmere at administrere rettigheder for flere brugere, kan du organisere dem i brugergrupper og dermed tildele eller ændre et rettighedssæt for mange brugere i én handling. Du kan finde flere oplysninger i [Administrere rettigheder gennem brugergrupper](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 
 > [!NOTE]
 > En ekstra metode til at definere, hvilke funktioner en bruger har adgang til, er ved at indstille feltet **Oplevelse** på siden **Virksomhedsoplysninger**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 >
-> Du kan også definere, hvad brugere ser i brugergrænsefladen, og hvordan de interagerer med de tilladte funktioner via sider. Du kan gøre dette via profiler, som du tildeler til forskellige typer brugere, i henhold til deres jobrolle eller afdeling. Du kan finde flere oplysninger i [Administrere profiler](admin-users-profiles-roles.md) og [Tilpasning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md).
+> Du kan også definere, hvad brugere ser i brugergrænsefladen, og hvordan de interagerer med de tilladte funktioner via sider. Du kan gøre dette via profiler, som du tildeler til forskellige typer brugere, i henhold til deres jobrolle eller afdeling. Du kan finde flere oplysninger i [Administrere profiler](admin-users-profiles-roles.md) og [Tilpasning af [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
 ## <a name="to-assign-permission-sets-to-users"></a>Sådan tildeles rettighedssæt til brugere
 
-Et rettighedssæt er en samling rettigheder til bestemte databaseobjekter. Alle brugere skal være tildelt et eller flere rettighedssæt, før de kan få adgang til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Et rettighedssæt er en samling rettigheder til bestemte databaseobjekter. Alle brugere skal være tildelt et eller flere rettighedssæt, før de kan få adgang til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)]-løsning indeholder typisk et antal foruddefinerede rettighedssæt, der er tilføjet af Microsoft eller din løsningsudbyder. Du kan også tilføje nye rettighedssæt, der er skræddersyet til at opfylde din organisations behov. Du kan finde flere oplysninger i [Sådan oprettes eller redigeres et rettighedssæt](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning indeholder typisk et antal foruddefinerede rettighedssæt, der er tilføjet af Microsoft eller din løsningsudbyder. Du kan også tilføje nye rettighedssæt, der er skræddersyet til at opfylde din organisations behov. Du kan finde flere oplysninger i [Sådan oprettes eller redigeres et rettighedssæt](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Hvis du ikke vil begrænse en brugers adgang mere, end det allerede er defineret af licensen, kan du tildele et særligt rettighedssæt, der kaldes SUPER, til brugeren. Dette rettighedssæt sikrer, at brugeren kan få adgang til alle de objekter, der er angivet i licensen.
@@ -97,7 +97,7 @@ Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **
 Rettighedssæt fungerer som objektbeholdere for rettigheder, så du let kan håndtere flere rettigheder i én post.
 
 > [!NOTE]  
-> En [!INCLUDE[d365fin](includes/d365fin_md.md)]-løsning indeholder typisk et antal foruddefinerede rettighedssæt, der er tilføjet af Microsoft eller din softwareleverandør. Disse rettighedssæt er af typen **System** eller **Udvidelse**. Du kan ikke oprette eller redigere disse typer rettighedssæt eller rettighederne i dem. Du kan dog kopiere dem for at definere dine egne rettighedssæt og rettigheder.
+> En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning indeholder typisk et antal foruddefinerede rettighedssæt, der er tilføjet af Microsoft eller din softwareleverandør. Disse rettighedssæt er af typen **System** eller **Udvidelse**. Du kan ikke oprette eller redigere disse typer rettighedssæt eller rettighederne i dem. Du kan dog kopiere dem for at definere dine egne rettighedssæt og rettigheder.
 >
 > Rettighedssæt, som brugerne opretter fra grunden eller som kopier, er af typen **Brugerdefineret** og kan redigeres.
 
@@ -122,7 +122,7 @@ Det nye rettighedssæt, der indeholder alle rettigheder for det kopierede rettig
 
 ### <a name="to-export-and-import-a-permission-set"></a>Sådan eksporteres og importeres et tilladelsessæt
 
-Hvis du hurtigt vil oprette tilladelser, kan du importere tilladelsessæt, som du har eksporteret fra en anden [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejer.
+Hvis du hurtigt vil oprette tilladelser, kan du importere tilladelsessæt, som du har eksporteret fra en anden [!INCLUDE[prod_short](includes/prod_short.md)]-lejer.
 
 I miljøer med flere lejere indlæses et tilladelsessæt i en bestemt lejer, dvs. omfanget af importen er "lejer".
 
@@ -162,7 +162,7 @@ I hvert af felterne for de fem adgangstyper **Læserettighed**, **Indsætteretti
 ### <a name="example---indirect-permission"></a>Eksempel - indirekte rettighed
 
 Du kan tildele en indirekte rettighed for kun at bruge et objekt gennem et andet objekt.
-En bruger kan f.eks. have tilladelse til at køre codeunit 80, salg-post Codeunit Salgs-post udfører mange opgaver, herunder ændring af tabel 37, Salgslinje. Når brugeren bogfører et salgsdokument, codeunit Salgs-post, kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)], om brugeren har rettighed til at ændre tabellen Salgslinje. Hvis ikke, kan codeunit'en ikke udføre sine opgaver, og brugeren får en fejlmeddelelse. I så fald kører codeunit'en korrekt.
+En bruger kan f.eks. have tilladelse til at køre codeunit 80, salg-post Codeunit Salgs-post udfører mange opgaver, herunder ændring af tabel 37, Salgslinje. Når brugeren bogfører et salgsdokument, codeunit Salgs-post, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)], om brugeren har rettighed til at ændre tabellen Salgslinje. Hvis ikke, kan codeunit'en ikke udføre sine opgaver, og brugeren får en fejlmeddelelse. I så fald kører codeunit'en korrekt.
 
 Men brugeren behøver ikke at have fuld adgang til tabellen Salgslinje for at køre codeunit'en. Hvis brugeren har indirekte rettighed til tabellen Salgslinje, kører codeunit'en Salgs-post korrekt. Når en bruger har indirekte rettighed, kan brugeren kun redigere tabellen Salgslinje ved at køre codeunit'en salgs-post eller et andet objekt, der har rettighed til at ændre tabellen Salgslinje. Brugeren kan kun redigere tabellen Salgslinje, når det sker fra understøttede funktionalitetsområder. Brugeren kan ikke køre funktionen ved et uheld eller skadeligt ved andre metoder.
 
@@ -176,14 +176,14 @@ Men brugeren behøver ikke at have fuld adgang til tabellen Salgslinje for at k�
 6. På siden **Rettigheder** skal du vælge handlingen **Registrer rettigheder** og derefter vælge handlingen **Start**.
 
     Der startes en registreringsproces, som registrerer alle dine handlinger i brugergrænsefladen.
-7. Gå til de forskellige sider og aktiviteter i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du vil give brugerne med dette rettighedssæt adgang til. Du skal udføre de opgaver, som du vil registrere rettigheder for.
+7. Gå til de forskellige sider og aktiviteter i [!INCLUDE[prod_short](includes/prod_short.md)], som du vil give brugerne med dette rettighedssæt adgang til. Du skal udføre de opgaver, som du vil registrere rettigheder for.
 8. Når du vil afslutte registreringen, skal du vende tilbage til siden **Rettigheder** og derefter vælge handlingen **Stop**.
 9. Vælg knappen **Ja** for at føje de registrerede rettigheder til det nye rettighedssæt.
 10. Angiv, om brugerne skal kunne indsætte, redigere eller slette poster i de registrerede tabeller for hvert objekt på listen over registrerede elementer.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Sikkerhedsfiltre - Sådan begrænses en brugers adgang til bestemte poster i en tabel
 
-Når det drejer sig om postbaseret sikkerhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruge filtrene til at begrænse en brugers adgang til data i en tabel. Du kan oprette sikkerhedsfiltre for tabeldata. Et sikkerhedsfilter beskriver et sæt af poster i en tabel, som en bruger har adgang til. For eksempel kan du angive, at en bruger kun skal kunne læse poster, der indeholder oplysninger om en bestemt kunde. Det betyder, at brugeren ikke kan få adgang til de poster, der indeholder oplysninger om andre kunder. Du kan finde flere oplysninger under [Bruge sikkerhedsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i hjælpen til udviklere og it-eksperter.
+Når det drejer sig om postbaseret sikkerhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge filtrene til at begrænse en brugers adgang til data i en tabel. Du kan oprette sikkerhedsfiltre for tabeldata. Et sikkerhedsfilter beskriver et sæt af poster i en tabel, som en bruger har adgang til. For eksempel kan du angive, at en bruger kun skal kunne læse poster, der indeholder oplysninger om en bestemt kunde. Det betyder, at brugeren ikke kan få adgang til de poster, der indeholder oplysninger om andre kunder. Du kan finde flere oplysninger under [Bruge sikkerhedsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i hjælpen til udviklere og it-eksperter.
 
 ## <a name="to-manage-permissions-through-user-groups"></a>Sådan administreres rettigheder via brugergrupper
 
@@ -245,12 +245,20 @@ Administratorer kan definere perioder, hvor angivne brugere kan bogføre, og de 
 3. I feltet **Bruger-ID** skal du angive ID'et for en bruger, eller vælge feltet for at få vist alle aktuelle Windows-brugere i systemet.
 4. Udfyld felterne efter behov.
 
+
+## <a name="viewing-permission-changes-telemetry"></a>Få vist ændringer af telemetri 
+
+Du kan oprette [!INCLUDE[prod_short](includes/prod_short.md)] for at sende ændringer, der er udført for at få tilladelse til en Application Insights-ressource i Microsoft Azure. Derefter kan du bruge Azure Monitor til at oprette rapporter og konfigurere påmindelser i de indsamlede data. Du kan finde flere oplysninger i følgende artikler i [!INCLUDE[prod_short](includes/prod_short.md)] hjælp til udviklere og it-eksperter:
+
+- [Overvåge og analysere telemetri - aktivere Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
+- [Analysere feltovervågningstelemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
 ## <a name="see-also"></a>Se også
 
 [Oprette brugere i henhold til licenser](ui-how-users-permissions.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
-[Tilpasning [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
+[Tilpasning [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Blive klar til at handle](ui-get-ready-business.md)  
 [Opsætning](admin-setup-and-administration.md)  
 [Føje brugere til Microsoft 365 for Business](https://aka.ms/CreateOffice365Users)  

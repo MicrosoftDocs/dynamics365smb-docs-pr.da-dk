@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e7d6380465eed64a7086b9348e1a2261555a024
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 99111bce195e4436aac597cc4eb2e5f8f3ef77cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913884"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747287"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sælge varer, der er monteret til ordre
 Hvis feltet **Montagepolitik** på varekortet til et montageelement er **Montage efter ordre**, kan varen ikke forventes at være på lager og skal samles specifikt til en salgsordre. Når du indtaster varen på en salgsordrelinje, bliver der automatisk oprettet en montageordre, hvorefter den knyttes til salgsordren.  
@@ -62,4 +62,4 @@ I denne procedure behandler du salg af et element, der skal samles i henhold til
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

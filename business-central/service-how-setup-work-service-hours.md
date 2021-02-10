@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03ad2bea6ed87b5f27bea9210a03c8760c87ffcf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 043d745b0676a6fe939a6d236fefe4dad01ca742
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910151"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748014"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Konfigurere arbejdstimer og serviceåbningstider
-Et servicestyringssystem bruges typisk til at holde styr på ressourcetimer og serviceordrestatus med det formål at kunne estimere arbejdsbelastning og servicebehov. [!INCLUDE[d365fin](includes/d365fin_md.md)] har indbyggede værktøjer, som kan tilpasses til at registrere denne type oplysninger.  
+Et servicestyringssystem bruges typisk til at holde styr på ressourcetimer og serviceordrestatus med det formål at kunne estimere arbejdsbelastning og servicebehov. [!INCLUDE[prod_short](includes/prod_short.md)] har indbyggede værktøjer, som kan tilpasses til at registrere denne type oplysninger.  
   
 Når du angiver virksomhedens standardservicetimer, kan du beregne responstiden for serviceordrer eller sende advarsler og påmindelser, når der indløber servicebesøg. Påmindelsesfunktionen implementeres i forbindelse med Job Scheduler.   
   

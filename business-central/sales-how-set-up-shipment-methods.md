@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 48a75bd1d5a47e6e91ed64868f15743713e40ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f1916724c995f875d15b931e919d07d2253dcdb1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926043"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748290"
 ---
 # <a name="set-up-shipment-methods"></a>Oprette leveringsformer
 Leveringsformerne, der også kaldes incoterms, afhænger ofte af varerne, kunderne og leverandørerne. En kunde, der bor på en ø, vælger måske, at varerne altid skal flyves eller sejles til øen. Nogle kunder kan kræve levering næste dag. Det ønsker at afhente ordren. På debitor- og kreditorkortene kan du derfor angive den ønskede leveringsform.
@@ -36,4 +36,4 @@ Du opretter beskrivelsen og koden for hver leveringsform på siden **Leveringsfo
 [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

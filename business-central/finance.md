@@ -1,8 +1,6 @@
 ---
-title: Økonomistyring | Microsoft Docs
-description: Få mere at vide om opgaver til konfiguration af finans i din virksomhed, der dækker alle dine regnskabs-, revisions- og bogholderibehov.
-services: project-madeira
-documentationcenter: ''
+title: Økonomistyring
+description: Få mere at vide om, hvordan Business Central understøtter dine behov for økonomistyring, regnskab, revision eller bogholderi.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970460"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750276"
 ---
 # <a name="finance"></a>Finans
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
 
 Standardkonfigurationen indeholder en kontoplan og standardbogføringsgrupper, som gør det mere effektivt at tildele standardfinanskonti til debitorer, kreditorer og varer.  
 
@@ -57,18 +56,20 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Lær at bruge rollecenteret Revisor, inviter en ekstern revisor og brug virksomhedshubben til at administrere konti for flere klienter.|[Revisoroplevelser i Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Få en videopræsentation
+
 I følgende video introduceres nogle af de vigtigste funktioner i forbindelse med styring af økonomien. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Se også
+
 [Konfigurere Finans](finance-setup-finance.md)  
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Afslutte regnskabsperioder](year-close-years-periods.md)  
-[Administrere projekter](projects-manage-projects.md)    
+[Administrere projekter](projects-manage-projects.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

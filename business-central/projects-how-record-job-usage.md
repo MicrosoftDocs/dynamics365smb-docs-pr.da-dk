@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b5bbf87d8241d57c40c028a06d7af6269c5af6d6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84c10ffa100607c2f2dfca361de83361f8441928
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910601"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748914"
 ---
 # <a name="record-usage-for-jobs"></a>Registrere forbrug for sager
 
@@ -103,4 +103,4 @@ Når du har bogført sagskladdelinjer, kan du se de planlægningslinjer, der er 
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

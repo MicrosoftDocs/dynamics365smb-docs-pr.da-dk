@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 06e498444879a9b77b1418c44f4dd39395c8a4b5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910176"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756888"
 ---
 # <a name="preview-posting-results"></a>Vise bogføringsresultater
 På hvert dokument og kladde, som kan bogføres, kan du vælge knappen **Vis bogføring** for at se de forskellige typer poster, der oprettes, når du bogfører dokumentet eller kladden.
@@ -30,5 +30,5 @@ På hvert dokument og kladde, som kan bogføres, kan du vælge knappen **Vis bog
 
 ## <a name="see-also"></a>Se også
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)

@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b548d6d8426fefa01bb45d3d1fdedaeb98966ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920543"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746887"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Oprette en ekstra rapporteringsvaluta
 Da virksomheder handler i stadig flere lande/områder, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta.
 
-Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter.
+Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter.
 
 > [!Warning]
 > Funktionen Ekstra rapporteringsvaluta må ikke bruges som grundlag for oversættelse af regnskabsopgørelser. Det er ikke et værktøj, som kan udføre oversættelse af udenlandske datterselskabers regnskabsopgørelser som en del af en virksomhedskonsolidering. Funktionen Ekstra regnskabsvaluta må kun bruges til at udarbejde rapporter i en anden valuta, som hvis den pågældende valuta var virksomhedens lokale valuta.
@@ -59,7 +59,7 @@ For at konfigurere en ekstra rapporteringsvaluta, skal du følge disse trin:
 |**Afrundingskonto (tab)**|Den finanskonto, hvor negative afrundingsbeløb bogføres, hvis du bogfører i modulet Finans i både LV og ekstra rapporteringsvaluta.|
 
 > [!NOTE]  
->  Der kan opstå afrundingsbeløb, når [!INCLUDE[d365fin](includes/d365fin_md.md)] afrunder de debet- og kreditbeløb, som er blevet konverteret fra RV til en ekstra rapporteringsvaluta.  
+>  Der kan opstå afrundingsbeløb, når [!INCLUDE[prod_short](includes/prod_short.md)] afrunder de debet- og kreditbeløb, som er blevet konverteret fra RV til en ekstra rapporteringsvaluta.  
 
 For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen skal reguleres, så der tages hensyn til udsving i valutakurserne mellem RV og den ekstra rapporteringsvaluta.  
 
@@ -98,7 +98,7 @@ For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen
 ### <a name="to-activate-the-additional-reporting-currency"></a>Sådan aktiveres den ekstra rapporteringsvaluta  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. På siden **Regnskabsopsætning** skal du vælge feltet **Ekstra rapporteringsvaluta** for at vælge den ekstra valuta, du vil rapportere i.  
-3. Når du forlader feltet, vises der via [!INCLUDE[d365fin](includes/d365fin_md.md)] en bekræftelsesmeddelelse, der beskriver konsekvensen af at aktivere den ekstra rapporteringsvaluta.  
+3. Når du forlader feltet, vises der via [!INCLUDE[prod_short](includes/prod_short.md)] en bekræftelsesmeddelelse, der beskriver konsekvensen af at aktivere den ekstra rapporteringsvaluta.  
 4. Tryk på knappen **Ja** for at bekræfte, at du vil aktivere valutaen.  
 5. Batchjobbet **Reguler eks. rapport.valuta** åbnes.
 
@@ -126,4 +126,4 @@ Derudover vil beløbene i alle fremtidige poster af samme type være registreret
 ## <a name="see-also"></a>Se også
 [Opdatere valutakurser](finance-how-update-currencies.md)  
 [Afslutning af år og perioder](year-close-years-periods.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

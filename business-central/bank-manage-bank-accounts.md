@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d5610e86ea06b6edd2ef0ae4cb7c1473dd096e9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7eb749c17ea9f17b3ef7c7c29c5dc9037fcbaf9c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924349"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752326"
 ---
 # <a name="reconciling-bank-accounts"></a>Bankkontoafstemning
 
@@ -26,7 +26,7 @@ Du kan udføre opgaven adskilt på siden **Bankkontoafstemning**, hvor du sammen
 > [!NOTE]  
 > I nordamerikanske versioner kan du også udføre bankafstemning på siden **Bankafstemningskladde**, der er mere velegnet til checks og indskud, men ikke kan bruges til import af bankkontoudtogsfiler. Hvis du vil bruge denne side i stedet for siden **Bankkontoafstemning**, skal du fjerne markeringen i feltet **Bankafstemning med automatisk match** på siden **Regnskabsopsætning**. Du kan finde flere oplysninger i afsnittet [Afstemme bankkonti](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under Lokal funktionalitet for USA.
 
-Før du kan administrere dine bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du konfigurere hver bankkonto som et bankkontokort. Desuden skal du oprette elektroniske tjenester, som du kan bruge til import af bankens kontoudtog og eksport af betalingsfilen. Der er flere oplysninger i [Konfigurere banktransaktioner](bank-setup-banking.md).
+Før du kan administrere dine bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)], skal du konfigurere hver bankkonto som et bankkontokort. Desuden skal du oprette elektroniske tjenester, som du kan bruge til import af bankens kontoudtog og eksport af betalingsfilen. Der er flere oplysninger i [Konfigurere banktransaktioner](bank-setup-banking.md).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -48,5 +48,5 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Overføre bankbeløb](bank-how-transfer-bank-funds.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)

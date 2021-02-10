@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: d167d55196f651ea3b6286ba969829042fabefaf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f09db27d711e7fa2cd8c2d6679ce5cd21ab11b94
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925868"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747939"
 ---
 # <a name="set-up-a-loaner-program"></a>Oprette et udlånsprogram
-Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan bruge, mens kundeserviceteamet udfører reparationen. I [!INCLUDE[d365fin](includes/d365fin_md.md)] Kan du konfigurere et udlånsprogram, udlåne varer til dine kunder og spore modtagelser, når kunderne returnerer varerne. Desuden kan du tilføje bemærkninger om udlånsvarer på én af to måder:  
+Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan bruge, mens kundeserviceteamet udfører reparationen. I [!INCLUDE[prod_short](includes/prod_short.md)] Kan du konfigurere et udlånsprogram, udlåne varer til dine kunder og spore modtagelser, når kunderne returnerer varerne. Desuden kan du tilføje bemærkninger om udlånsvarer på én af to måder:  
   
 * Angive en bemærkning om selve udlånsvaren.  
 * Angive en bemærkning for en serviceartikel om behovet for en udlånsvare.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 38e983f1491d4836db6a2d3f294d29e1b03c53d9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2ffddd60158a328916b891f0730c1f25684b04a1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920668"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749389"
 ---
 # <a name="insure-fixed-assets"></a>Forsikring af anlægsaktiver
 En forsikringspolice for et anlægsaktiv repræsenteres af et forsikringskort. Du kan knytte et anlægsaktiv til en forsikringspolice eller flere anlægsaktiver til en forsikringspolice.
@@ -70,7 +70,7 @@ Du kan bruge kørslen **Indekser forsikring** til at opdatere værdien af de anl
 5. Åbn den relevante forsikringskladde, gennemse de oprettede værdier, og bogfør dem til forsikringsposterne.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Sådan overvåges forsikringsdækning
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder dedikerede rapporter og statistiksider, så du kan analysere forsikringspolicerne og om anlægsaktiverne er over- eller underforsikrede.  
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder dedikerede rapporter og statistiksider, så du kan analysere forsikringspolicerne og om anlægsaktiverne er over- eller underforsikrede.  
 
 ### <a name="overview-of-insurance-policies"></a>Oversigt over forsikringspolicer
 Hvis du vil have et overblik over dine forsikringspolicer, skal du åbne en eksempelvisning af rapporten **Forsikring - stamoplysninger** eller udskrive rapporten. Rapporten indeholder alle policer og de vigtigste felter fra forsikringskortene.  
@@ -118,4 +118,4 @@ Anlægsaktivet vil blive skilt fra den forkerte forsikringspolice på den anden 
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7af0cc7e84ea94c12b6e7aa4988c081f135f52c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 08b28c30ba6ef1bf80d4562f198eeeb4aa07394c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913417"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747112"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Indhente betalinger med SEPA Direct Debit
 Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet med kundens samtykke.  
@@ -35,9 +35,9 @@ Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med 
 Fra siden **Direct Debit-opkrævninger** kan du eksportere instruktioner til din netbank for at udføre en direkte debiteringsopkrævning fra debitorens bankkonto til din bankkonto ifølge SEPA Direct Debit-format.
 
 > [!NOTE]
-> Den globale version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter kun SEPA-debetformatet. Versionen for dit land/område kan understøtte andre formater til elektronisk betaling. Se under **Lokal funktionalitet** i indholdsfortegnelsen.  
+> Den globale version af [!INCLUDE[prod_short](includes/prod_short.md)] understøtter kun SEPA-debetformatet. Versionen for dit land/område kan understøtte andre formater til elektronisk betaling. Se under **Lokal funktionalitet** i indholdsfortegnelsen.  
 
-For at aktivere eksport af bankfilformater, der ikke umiddelbart understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du konfigurere en dataudvekslingsdefinition ved hjælp af dataudvekslingsstrukturen. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
+For at aktivere eksport af bankfilformater, der ikke umiddelbart understøttes i [!INCLUDE[prod_short](includes/prod_short.md)], kan du konfigurere en dataudvekslingsdefinition ved hjælp af dataudvekslingsstrukturen. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
 Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner for direkte debitering i SEPA Direct Debit-format, skal du udføre følgende konfigurationstrin:  
 

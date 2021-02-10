@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b40af343751d99d3e16f2a6ac7a57f85d40a2ba4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fe03f25c4f9024cb82b83af915e69073d2fdcf1e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913774"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751501"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designoplysninger: Bogføringsdato på post med reguleringsværdi
-Denne artikel indeholder en vejledning til brugere af funktionen Lagerkostmetode i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Denne specifikke artikel giver en vejledning i, hvordan kørslen **Juster kostpris - vareposter** identificerer og tildeler en bogføringsdato til de værdiposter, der er ved at blive oprettet.  
+Denne artikel indeholder en vejledning til brugere af funktionen Lagerkostmetode i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne specifikke artikel giver en vejledning i, hvordan kørslen **Juster kostpris - vareposter** identificerer og tildeler en bogføringsdato til de værdiposter, der er ved at blive oprettet.  
 
 Først gennemgås konceptet i processen, hvordan kørslen identificerer og tildeler en bogføringsdato til den værdipost, der er ved at blive oprettet. Derefter beskrives nogle scenarier, som vi i supportteamet støder på fra tid til anden, og endelig vises der en oversigt over de begreber, der er brugt fra version 3.0.  
 

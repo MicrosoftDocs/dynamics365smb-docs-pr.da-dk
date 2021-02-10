@@ -7,16 +7,16 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca0ca5f756d0d7423c92ca25034038fa1fb05727
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922288"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745979"
 ---
 # <a name="manage-profiles"></a>Administrere profiler
 
-Alle brugere af [!INCLUDE[d365fin](includes/d365fin_md.md)] tildeles en profil, der afspejler deres forretningsrolle, den afdeling, de arbejder i, eller en anden kategorisering. Med profilerne kan administratorer definere og styre centralt, hvad forskellige brugertyper der kan se og foretage sig i brugergrænsefladen, så de kan udføre deres forretningsopgaver på en effektiv måde.
+Alle brugere af [!INCLUDE[prod_short](includes/prod_short.md)] tildeles en profil, der afspejler deres forretningsrolle, den afdeling, de arbejder i, eller en anden kategorisering. Med profilerne kan administratorer definere og styre centralt, hvad forskellige brugertyper der kan se og foretage sig i brugergrænsefladen, så de kan udføre deres forretningsopgaver på en effektiv måde.
 
 > [!NOTE]
 > Den typiske forretningsbrug af en profil er en rolle. En profil har derfor navnet *Profil (rolle)* i brugergrænsefladen.
@@ -81,14 +81,14 @@ Når der oprettes en profil, kan du markere forskellige afkrydsningsfelter, der 
     - **Vis i Rollestifinder** for at angive, om handlinger til forretningsfunktioner, der er medtaget i profilen, skal vises i den udvidede visning af rolle Stifinder, en funktionsoversigt. Du kan finde flere oplysninger i [Søge efter sider med Rollestifinder](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Sådan eksporterer du profiler
-Du kan eksportere profiler fra [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis de for eksempel skal genbruges i en anden lejer. Profilerne eksporteres til en zip-fil, som indeholder .al-filer, der kan genbruges til udvikling af udvidelser. Du kan finde flere oplysninger i [Bruge klienten til at oprette profiler og sidetilpasninger](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Du kan eksportere profiler fra [!INCLUDE[prod_short](includes/prod_short.md)], hvis de for eksempel skal genbruges i en anden lejer. Profilerne eksporteres til en zip-fil, som indeholder .al-filer, der kan genbruges til udvikling af udvidelser. Du kan finde flere oplysninger i [Bruge klienten til at oprette profiler og sidetilpasninger](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * På siden **Profiler (roller)** skal du vælge handlingen **Eksporter profiler**.
 
 En zip-fil med. al-filerne til alle profiler eksporteres.
 
 ## <a name="to-import-profiles"></a>Sådan importerer du profiler
-Du kan importere profiler, der er blevet eksporteret fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Trinnene er mere eller mindre de modsatte af trinene til eksport af profiler. Få flere oplysninger i [Sådan eksporter du profiler](admin-users-profiles-roles.md#to-export-profiles).
+Du kan importere profiler, der er blevet eksporteret fra [!INCLUDE[prod_short](includes/prod_short.md)]. Trinnene er mere eller mindre de modsatte af trinene til eksport af profiler. Få flere oplysninger i [Sådan eksporter du profiler](admin-users-profiles-roles.md#to-export-profiles).
 
 1. På siden **Profiler (roller)** skal du vælge handlingen **Importer profiler**.
 2. Følg trinene i vejledningen **Importer profiler**.
@@ -127,7 +127,7 @@ Du kan slette tilpasninger, som en eller flere brugere har foretaget på bestemt
     Siden **Tilpasning af brugersider** viser alle de sider, der er blevet tilpasset, og den bruger, de tilhører.
 
     > [!Note]
-    > En markering i feltet **Ældre tilpasning** angiver, at tilpasningen blev udført i en ældre version af [!INCLUDE[d365fin](includes/d365fin_md.md)], som håndterede tilpasning anderledes. Brugere, som forsøger at tilpasse siderne, er blokeret fra at gøre det, medmindre de vælger at låse siden op. Du kan finde flere oplysninger i [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md).
+    > En markering i feltet **Ældre tilpasning** angiver, at tilpasningen blev udført i en ældre version af [!INCLUDE[prod_short](includes/prod_short.md)], som håndterede tilpasning anderledes. Brugere, som forsøger at tilpasse siderne, er blokeret fra at gøre det, medmindre de vælger at låse siden op. Du kan finde flere oplysninger i [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md).
 
 2. Marker linjen for den sidetilpasning, du vil slette, og vælg derefter handlingen **Slet**.
 
@@ -137,9 +137,9 @@ Du kan også slette enkelte sidetilpasninger for en profil. Du kan finde flere o
 
 ## <a name="managing-user-sessions"></a>Administrere brugersessioner
 
-Som administrator af [!INCLUDE[prodshort](includes/prodshort.md)] online kan du administrere brugersessioner i administrationen. Du kan finde flere oplysninger i [Administrere sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrationsindholdet.  
+Som administrator af [!INCLUDE[prod_short](includes/prod_short.md)] online kan du administrere brugersessioner i administrationen. Du kan finde flere oplysninger i [Administrere sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrationsindholdet.  
 
-Til [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø kan du f.eks. administrere sessioner ved hjælp af SQL Server Management Studio. Du kan finde flere oplysninger i den [tekniske dokumentation til SQL Server](/sql/sql-server).  
+Til [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø kan du f.eks. administrere sessioner ved hjælp af SQL Server Management Studio. Du kan finde flere oplysninger i den [tekniske dokumentation til SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Se også  
 [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  

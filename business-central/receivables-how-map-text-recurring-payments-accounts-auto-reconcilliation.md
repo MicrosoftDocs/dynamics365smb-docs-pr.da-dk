@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97903c269856636cff618d5c91125ae9f1ace496
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e389d31d6f9a28c9cff12950c37f01c1cf51004
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926468"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748564"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti
 På siden **Tekst til kontotilknytning**, som du kan åbne fra siden **Betalingsudligningskladde**, kan du oprette tilknytninger mellem tekst på betalinger og specifikke debet-, kredit- og modkonti, så disse betalinger bliver bogført på de angivne konti, når du bogfører kladden til betalingsafstemning.
@@ -61,5 +61,5 @@ Hvis du altid vil bogføre udgifter, der er knyttet til gebyrer fra en bestemt b
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

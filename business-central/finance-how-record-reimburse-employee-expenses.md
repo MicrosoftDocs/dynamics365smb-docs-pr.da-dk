@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e88cc5ad2eaf449d22dd0c9840a4fc33ae0f56f7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d19fceae0fd5c9b72910880d0f87b21206e8f47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916164"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750826"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registrere og refundere medarbejdernes udgifter
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter transaktioner for medarbejderen på samme måde som for kreditorer. Derfor findes der medarbejderbogføringsgrupper for at sikre, at medarbejderposter bogføres på de relevante konti i regnskabet.
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter transaktioner for medarbejderen på samme måde som for kreditorer. Derfor findes der medarbejderbogføringsgrupper for at sikre, at medarbejderposter bogføres på de relevante konti i regnskabet.
 
 > [!NOTE]  
 > Medarbejdertransaktioner kan kun bogføres i den lokale valuta. Refusion af betalinger til medarbejdere understøtter ikke rabatter og betalingstolerancer.
@@ -59,4 +59,4 @@ Du udligner medarbejderbetalinger til deres relaterede åbne medarbejderposter p
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -11,16 +11,16 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d02740b0f4c73b96be9268cfdf5e4c3de157d5d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23a0c72775dbddc89a81105de3b2ed79d1f09432
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924524"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753766"
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-prodshort"></a>Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]
 
-I denne artikel kan du læse om de forskellige aspekter ved Power BI-integration med [!INCLUDE[prodshort](includes/prodshort.md)] som hjælp til at forstå implementering og brug.
+I denne artikel kan du læse om de forskellige aspekter ved Power BI-integration med [!INCLUDE[prod_short](includes/prod_short.md)] som hjælp til at forstå implementering og brug.
 
 ## <a name="components"></a>Komponenter
 
@@ -30,39 +30,39 @@ I følgende tabel beskrives de vigtigste komponenter, der indgår i Power BI-int
 |---------|-----------|
 |Power BI|En skybaseret rapporttjeneste, der er baseret på vært og administration.|
 |Power BI Desktop|Et oprettelsesværktøj til opbygning af rapporter og dashboards, og du kan køre rapporter. Den kan hentes gratis på Microsoft Store og installeres lokalt.|
-|[!INCLUDE[prodshort](includes/prodshort.md)]|Online eller lokal løsning med connectorer til Power BI og mulighed for at integrere en Power BI-del.|
+|[!INCLUDE[prod_short](includes/prod_short.md)]|Online eller lokal løsning med connectorer til Power BI og mulighed for at integrere en Power BI-del.|
 
 ## <a name="whats-available-from-the-start"></a>Hvad er tilgængeligt fra begyndelsen
 
 Følgende tabel beskriver de tilgængelige funktioner.
 
-|Funktion|[!INCLUDE[prodshort](includes/prodshort.md)] online eller lokal understøttelse|
+|Funktion|[!INCLUDE[prod_short](includes/prod_short.md)] online eller lokal understøttelse|
 |-------|---------------------|
 |Power BI-connectorer|Begge dele. Forskellige connectorer til online og lokal version. Samme connector, der bruges til Power BI Desktop og Power BI-service |
-|Integreret oplevelse ved visning af en bestemt rapport i en faktaboks i [!INCLUDE[prodshort](includes/prodshort.md)]|Begge dele. Kræver konfiguration for at vise rapporter lokalt.|
-|Power BI-rapportstyring fra [!INCLUDE[prodshort](includes/prodshort.md)]|Online|
+|Integreret oplevelse ved visning af en bestemt rapport i en faktaboks i [!INCLUDE[prod_short](includes/prod_short.md)]|Begge dele. Kræver konfiguration for at vise rapporter lokalt.|
+|Power BI-rapportstyring fra [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Standardrapporter fra Power BI i rollecentre, der er udrullet til Power BI|Online|
 |Power BI-apps på Microsoft AppSource|Online.|
 
 ## <a name="architecture"></a>Arkitektur
 
-[!INCLUDE[prodshort](includes/prodshort.md)] integreres med Power BI via en connector, der bruger OData. Datakilden til Power BI-rapporter vises som OData-webtjenester.
+[!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en connector, der bruger OData. Datakilden til Power BI-rapporter vises som OData-webtjenester.
 
 ![Power BI-arkitektur til integration med Business Central](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Generelt flow
 
-I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når der oprettes forbindelse mellem [!INCLUDE[prodshort](includes/prodshort.md)] og Power BI.
+I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når der oprettes forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI.
 
 ![Power BI-arbejdsgang til integration med Business Central](./media/power-bi-flow.png)
 
 1. Bruger tilmelder sig en Power BI-konto.
-2. Bruger opretter forbindelse til Power BI fra [!INCLUDE[prodshort](includes/prodshort.md)].
-3. [!INCLUDE[prodshort](includes/prodshort.md)] kontrollerer licensen.
-4. [!INCLUDE[prodshort](includes/prodshort.md)] installerer standardrapporter til Power BI-tjenesten. Dette trin forekommer kun for [!INCLUDE[prodshort](includes/prodshort.md)] online.
-5. [!INCLUDE[prodshort](includes/prodshort.md)] gør rapporter i Power BI tilgængelige for valg i [!INCLUDE[prodshort](includes/prodshort.md)]. Standardrapporter vises automatisk i Power BI-dele.
+2. Bruger opretter forbindelse til Power BI fra [!INCLUDE[prod_short](includes/prod_short.md)].
+3. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer licensen.
+4. [!INCLUDE[prod_short](includes/prod_short.md)] installerer standardrapporter til Power BI-tjenesten. Dette trin forekommer kun for [!INCLUDE[prod_short](includes/prod_short.md)] online.
+5. [!INCLUDE[prod_short](includes/prod_short.md)] gør rapporter i Power BI tilgængelige for valg i [!INCLUDE[prod_short](includes/prod_short.md)]. Standardrapporter vises automatisk i Power BI-dele.
 6. Bruger opretter en rapport i Power BI Desktop.
-7. Bruger udgiver rapporten til Power BI-tjenesten. Rapporterne kan derefter vælges i [!INCLUDE[prodshort](includes/prodshort.md)].
+7. Bruger udgiver rapporten til Power BI-tjenesten. Rapporterne kan derefter vælges i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -76,9 +76,9 @@ I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når
 [Business Intelligence](bi.md)  
 [Introduktion](product-get-started.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

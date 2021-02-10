@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d1988bd3bbd9424f48431927dd6416eab636adf1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 622e9833af12db9cecdb09f4358d5c7716bbb994
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914410"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753513"
 ---
 # <a name="business-functionality"></a>Forretningsfunktioner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også.
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[prod_short](includes/prod_short.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 | Hvis du vil | Se |
 | --- | --- |
@@ -40,12 +40,12 @@ ms.locfileid: "3914410"
 |Planlæg serviceopkald og opret serviceordrer, og spor reservedele og forsyninger.|[Service Management](service-service.md)|
 |Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
 |Lad brugerne udveksle data med eksterne kilder i daglige opgaver, f.eks. afsendelse eller modtagelse af elektroniske dokumenter, import og eksport af bankfiler og opdatering af valutakurser.|[Udveksle data elektronisk](across-data-exchange.md)|
-|Registrer eksterne dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], herunder deres vedhæftede filer, og opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
+|Registrer eksterne dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], herunder deres vedhæftede filer, og opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
 
 ## <a name="see-also"></a>Se også
 
 [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Opsætning](admin-setup-and-administration.md)  
-[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

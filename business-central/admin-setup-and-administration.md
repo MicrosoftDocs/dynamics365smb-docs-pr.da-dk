@@ -10,31 +10,31 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 197a98e7bf41dacdd330b420d1e8cdbc7bba4516
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2541dca19d9a6dc34f2b2f521111a808661232d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922463"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755038"
 ---
 # <a name="administration"></a>Opsætning
 
 Centrale administrationsopgaver udføres som regel af én rolle i firmaet. Omfanget af disse opgaver kan afhænge af firmaets størrelse og administratorens jobansvar. Disse opgaver kan omfatte styring af databasesynkronisering af job og e-mail-køer, oprettelse af brugere og tilpasning af brugergrænsefladen.  
 
-Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for at ny forretningssoftware kan fungere effektivt. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en række opsætningsvejledninger, som hjælper dig med opsætningen af basisoplysninger. Du kan finde flere oplysninger under [Konfigurere Business Central](setup.md).
+Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for at ny forretningssoftware kan fungere effektivt. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en række opsætningsvejledninger, som hjælper dig med opsætningen af basisoplysninger. Du kan finde flere oplysninger under [Konfigurere Business Central](setup.md).
 
 Uanset om du bruger RapidStart Services til at implementere opsætningsværdier, eller du angiver dem manuelt i den nye virksomhed, kan du basere dine opsætningsbeslutninger på generelle anbefalinger for udvalgte opsætningsfelter, der erfaringsmæssigt kan gøre løsningen ineffektiv, hvis de defineres forkert.  
 
 Superbruger eller administrator kan konfigurere Data Exchange Framework så brugere kan eksportere og importere data i bank og løn filer, f.eks. til forskellige likviditetsstyringsprocesser. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).
 
 > [!NOTE]
-> Du kan oprette en ny virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services, som er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Du kan finde flere oplysninger i [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Du kan oprette en ny virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services, som er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Du kan finde flere oplysninger i [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Angiv, hvem der kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], ved at oprette brugere i Microsoft 365 Administration i henhold til produktlicenserne.|[Oprette brugere i henhold til licenser](ui-how-users-permissions.md)|
+|Angiv, hvem der kan logge på [!INCLUDE[prod_short](includes/prod_short.md)], ved at oprette brugere i Microsoft 365 Administration i henhold til produktlicenserne.|[Oprette brugere i henhold til licenser](ui-how-users-permissions.md)|
 |Tildele tilladelser til brugere, ændre tilladelsessæt og gruppere brugere for at opnå nem styring af tilladelser.|[Tildele tilladelser til brugere og grupper](ui-how-users-permissions.md)|
 |Tilføj brugere, administrer tilladelser og få adgang til data og tildel roller.|[Administrere profiler](admin-users-profiles-roles.md)|
 |Administrere brugerindstillinger, f.eks. virksomhed, rolle, sprog, område og tidszone.|[Brugerindstillinger](admin-manage-user-settings-preferences.md)|
@@ -46,10 +46,10 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Angive engangsanmodninger eller gentagne anmodninger om at køre rapporter eller kodeenheder.|[Brug af opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)|  
 |Administrere, slette eller komprimere dokumenter|[Slette dokumenter](admin-manage-documents.md)|  
 |Vis sider, kodeenheder og forespørgsler som webtjenester.|[Udgive en webtjeneste](across-how-publish-web-service.md)|
-|Som en del af oprettelsen af Connect Apps mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og tredjepartsløsninger via REST API'erne skal du definere skabeloner, der bruges til at udfylde tomme egenskaber for en enhed, når du opretter en BOGF-handling via et API.|[Konfiguration af API-skabeloner](admin-configuring-api-template.md)|
-|Krypter data på [!INCLUDE[d365fin](includes/d365fin_md.md)] Server ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på serveren.|[Administration af datakryptering](admin-manage-data-encryption.md)|
-|Opret forbindelse fra Dynamics 365 Sales til [!INCLUDE[d365fin](includes/d365fin_md.md)] for at opnå problemfri integration mellem debitorrelationer og ordrebehandling i lead-til-kontant-processen.|[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
-|Ændre, hvilke felter og handlinger der vises i brugergrænsefladen, så det passer til virksomhedens forretningsprocesser, og så løsningen kan udvides med apps.|[Tilpasning [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
+|Som en del af oprettelsen af Connect Apps mellem [!INCLUDE[prod_short](includes/prod_short.md)] og tredjepartsløsninger via REST API'erne skal du definere skabeloner, der bruges til at udfylde tomme egenskaber for en enhed, når du opretter en BOGF-handling via et API.|[Konfiguration af API-skabeloner](admin-configuring-api-template.md)|
+|Krypter data på [!INCLUDE[prod_short](includes/prod_short.md)] Server ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på serveren.|[Administration af datakryptering](admin-manage-data-encryption.md)|
+|Opret forbindelse fra Dynamics 365 Sales til [!INCLUDE[prod_short](includes/prod_short.md)] for at opnå problemfri integration mellem debitorrelationer og ordrebehandling i lead-til-kontant-processen.|[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
+|Ændre, hvilke felter og handlinger der vises i brugergrænsefladen, så det passer til virksomhedens forretningsprocesser, og så løsningen kan udvides med apps.|[Tilpasning [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 |Overvåge brug og foretage fejlfinding af sessioner.|[Miljøtelemetri i Business Central Administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
 |Administrere brugersessioner, herunder annullering af en session, hvis brugeren er spærret.|[Administration af sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|  
 
@@ -59,7 +59,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 [Forretningsfunktioner](across-business-functionality.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Introduktion](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

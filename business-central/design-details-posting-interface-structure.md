@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: posting, interface, design
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 231148c304c5f2dabba5c69c442dfd0cfdc6397d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e306b0caeb58bfe7bd04f93ac64d8b593f70f695
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921938"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751251"
 ---
 # <a name="design-details-posting-interface-structure"></a>Designoplysninger: Bogføring af grænsefladestruktur
-I [!INCLUDE[d365fin](includes/d365fin_md.md)]-bogføringens grænsefladestruktur er der flere globale procedurer, der bruger den samme struktur:  
+I [!INCLUDE[prod_short](includes/prod_short.md)]-bogføringens grænsefladestruktur er der flere globale procedurer, der bruger den samme struktur:  
   
 * RunWithCheck- og RunWithoutCheck-kaldeprocedurekode – generisk bogføringsgrænseflade for finanskladdelinje.  
 * CustPostApplyCustLedgEntry – bogfør debitorudligning, kaldes fra codeunit 226 CustEntry-Udlign bogførte poster.  

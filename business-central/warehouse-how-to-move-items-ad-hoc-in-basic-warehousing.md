@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: df67abf85f02b26b1ccaa29735cb9dab28a1d076
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 926d7076ba8b9ae78f718afcab434d012d885233
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915964"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756213"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i grundlæggende lageropsætninger
 Du kan undertiden have brug for at flytte varer mellem interne placeringer ikke modtagelse eller leveranceplacering uden et bestemt krav fra et kildedokument. Du kan udføre disse ad hoc-bevægelser, for eksempel for at omstrukturere lageret, for at bringe elementer til et inspektionsområde eller for at flytte flere elementer til og fra et produktionsområde uden en systemrelation til produktionsordrens kildedokument.  
@@ -75,4 +75,4 @@ I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af v
 [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

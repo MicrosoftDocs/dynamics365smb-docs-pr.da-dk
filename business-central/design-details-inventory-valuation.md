@@ -1,6 +1,6 @@
 ---
 title: Designoplysninger – Lagerværdi | Microsoft Docs
-description: Lagerværdi XE "Lagerværdi" er bestemmelse af de omkostninger, der er tildelt en lagervare, som udtrykt ved følgende ligning.
+description: Lagerværdi er bestemmelsen af kostprisen for en lagervare.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15ad8d52508148449fcb82c8c4b3b5b3c42b8443
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad2698338f717541665cc5b53f6196c02f694562
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913684"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751426"
 ---
 # <a name="design-details-inventory-valuation"></a>Designoplysninger: Lagerværdi
-Lagerværdi XE "Lagerværdi" er bestemmelse af de omkostninger, der er tildelt en lagervare, som udtrykt ved følgende ligning.  
+Lagerværdi er bestemmelse af de omkostninger, der er tildelt en lagervare, som udtrykt ved følgende ligning.  
 
 Afslutningslager = begyndelseslager + nettokøb – produktionspris  
 
-Beregningen af lagerværdien bruger feltet **Kostbeløb (faktisk)** i værdiposterne for varen. Posterne er klassificeret i henhold til den posttype XE "Posttype", der svarer til omkostningskomponenter, direkte omkostninger, indirekte omkostninger, afvigelse, værdiregulering og afrunding. Du kan finde flere oplysninger i [Designoplysninger: Omkostningskomponenter](design-details-cost-components.md).  
+Beregningen af lagerværdien bruger feltet **Kostbeløb (faktisk)** i værdiposterne for varen. Posterne er klassificeret i henhold til den posttype, der svarer til omkostningskomponenter, direkte omkostninger, indirekte omkostninger, afvigelse, værdiregulering og afrunding. Du kan finde flere oplysninger i [Designoplysninger: Omkostningskomponenter](design-details-cost-components.md).  
 
-Poster udlignes med hinanden, enten ved fast udligning XE "Udligning, fast" eller i henhold til det forventede generelle kostprisforløb, der er defineret af omkostningsmetoden XE "Metode; omkostning" XE "Omkostningsmetode". En post på lagerreducering kan anvendes til mere end én tilgangspost med forskellige bogføringsdatoer og eventuelle andre anskaffelsesomkostninger XE "Anskaffelse". Du kan finde flere oplysninger i [Designoplysninger: Vareudligning](design-details-item-application.md). Beregning af lagerværdien XE "Lagerværdi" for en given dato er derfor baseret på en opsummering af positive og negative værdiposter.  
+Poster udlignes med hinanden, enten ved fast udligning eller i henhold til det forventede generelle kostprisforløb, der er defineret af kostmetoden. En post på lagerreducering kan anvendes til mere end én tilgangspost med forskellige bogføringsdatoer og eventuelle andre anskaffelsesomkostninger. Du kan finde flere oplysninger i [Designoplysninger: Vareudligning](design-details-item-application.md). Beregning af lagerværdien for en given dato er derfor baseret på en opsummering af positive og negative værdiposter.  
 
 ## <a name="inventory-valuation-report"></a>Lagerværdirapport  
 For at beregne lagerværdien i rapporten **Lagerværdi** begynder rapporten at beregne varens lagerværdi på en angivet startdato. Derefter tilføjes værdien af lagerforøgelser, og værdien af lagerreduceringer fratrækkes op til en bestemt slutdato. Slutresultatet er lagerværdien på slutdatoen. Rapporten beregner disse værdier ved at addere værdierne i feltet **Kostbeløb (faktisk)** i værdiposterne med bogføringsdatoerne som filtre.  
@@ -58,4 +58,4 @@ Formålet med VIA-lagerværdi er at bestemme værdien af de varer, hvis produkti
 [Designoplysninger: Bogføring af produktionsordrer](design-details-production-order-posting.md)
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

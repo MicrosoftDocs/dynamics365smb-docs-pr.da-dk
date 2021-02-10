@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e75dc8824965d3bfdf3c12ba5b0787e9fb066532
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6ff52767bbd0a5661cad2dd80abb20885f3fca6d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919634"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754938"
 ---
 # <a name="manage-many-incoming-document-records"></a>Administrere mange indgående bilagsposter
 Efterhånden som du opretter eller behandler indgående bilagsposter, kan antal linjer på siden **Indgående bilag** vokse til et omfang, hvor du mister overblikket. Derfor kan du indstille indgående bilagsposter til Behandlet for at fjerne dem fra standardvisningen. Når du vælger handlingen **Vis alle**, kan du få vist både behandlede og ikke-behandlede poster.
@@ -56,4 +56,4 @@ Alle indgående bilagsposter vises, herunder dem, hvor feltet **Behandlet** ikke
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

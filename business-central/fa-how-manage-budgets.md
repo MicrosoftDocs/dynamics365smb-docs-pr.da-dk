@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: forecast
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 75b7363ca6ee2c940f245fea4d62cf83611c43dc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5388ec2846a7560a6aa09db8e584702180ad247c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915606"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749339"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Administrere budgetter for anlægsaktiver
 Du kan konfigurere budgetterede anlægsaktiver. Du kan f.eks. inkludere forventede anskaffelser og salg i rapporterne.  
@@ -62,4 +62,4 @@ Du kan bruge rapporten **Anlæg - forventet værdi** til at beregne den fremtidi
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

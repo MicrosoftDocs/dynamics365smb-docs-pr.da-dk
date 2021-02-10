@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 194e9acb40233e23470aee6e61f6cabc503cea72
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910751"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746637"
 ---
 # <a name="setting-up-cost-accounting"></a>Konfigurere omkostningsregnskab
 Før du begynder at arbejde med omkostningsregnskab, skal du udføre opsætningsopgaver.
@@ -87,8 +87,8 @@ Der er et n:1 forhold mellem finanskonti og pristyper. Flere finanskonti kan til
 En pristype kan ikke have en relation til finanskonti, hvis en af følgende betingelser er opfyldt:  
 
 * Konti til operationelt regnskab, f.eks, Beregn Renter og afskrivning, henter kun omkostninger fra operationelt regnskab.  
-* Hjælpeomkostningstyper, f.eks. 9901, 9902 og 9903 i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen, bruges som kredit- og debetkonti for tildelinger.  
-* Hjælpekontoen, 9920 i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen, indeholder faktiske periodiseringer, der viser forskellen mellem omkostningerne og udgifterne fra finansregnskabet.
+* Hjælpeomkostningstyper, f.eks. 9901, 9902 og 9903 i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen, bruges som kredit- og debetkonti for tildelinger.  
+* Hjælpekontoen, 9920 i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen, indeholder faktiske periodiseringer, der viser forskellen mellem omkostningerne og udgifterne fra finansregnskabet.
 
 ## <a name="setting-up-cost-centers"></a>Konfigurere Omkostningssteder
 Omkostningssteder er afdelinger, der er ansvarlige for omkostninger og indtægter. Diagrammet over omkostningssteder er lig dimensionsoplysningerne for regnskabet. Du kan angive diagrammet over omkostningssteder på følgende måder:  
@@ -157,7 +157,7 @@ Du kan oprette og vedligeholde omkostningsemner enten på **Omkostningsemnekorte
 >  Hvis du har angivet definitioner i felterne **I alt fra/til** for **Til-sum**-omkostningsemner, før du kører indrykningsfunktionen, skal du angive dem igen. Funktionen overskriver værdierne i alle **Til-sum**-felter.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definition af omkostningssteder og omkostningsobjekter for kontoplanen
-Du kan automatisk overføre posterne udgifter og indtægter fra regnskabet til omkostningsregnskab, enten for hver bogføring til regnskab eller med et batchjob. Når du foretager overførslen, overfører [!INCLUDE[d365fin](includes/d365fin_md.md)] kun de poster, der allerede er knyttet til et omkostningssted eller et omkostningsobjekt. For at oprette en relevant overførsel skal du sikre omkostningssteder og omkostningsobjekter er korrekt defineret.  
+Du kan automatisk overføre posterne udgifter og indtægter fra regnskabet til omkostningsregnskab, enten for hver bogføring til regnskab eller med et batchjob. Når du foretager overførslen, overfører [!INCLUDE[prod_short](includes/prod_short.md)] kun de poster, der allerede er knyttet til et omkostningssted eller et omkostningsobjekt. For at oprette en relevant overførsel skal du sikre omkostningssteder og omkostningsobjekter er korrekt defineret.  
 
 ### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definere standarddimensionsværdier for finanskonti  
 For hver enkelt finanskonto kan du definere standarddimensionsværdier i tabellen **Standarddimension**. Følgende eksempel viser, hvordan du definerer, at der altid skal være et omkostningssted DEPARTMENT, men aldrig et omkostningsobjekt PROJECT, når du bogfører til en finanskonto.  
@@ -182,4 +182,4 @@ For hver enkelt finanskonto kan du definere standarddimensionsværdier i tabelle
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
 [Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)   
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

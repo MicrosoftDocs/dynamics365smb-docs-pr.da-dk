@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: check, clearing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e75a5541654a6577417a37c0cef23302b37b649
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8856ee09ae728d685d3f57786abc29d9aca93778
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916947"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750851"
 ---
 # <a name="export-a-positive-pay-file"></a>Eksportere en Positive Pay-fil
 Du kan sikre dig, at din bank kun afregner validerede checks og beløb, ved at eksportere en Positive Pay-fil, der indeholder relevante betalingsoplysninger, checknummer og betalingsbeløb, som du sender til banken som reference, når du behandler betalinger.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er konfigureret til at understøtte Positive Pay-filer for Bank of America og City Bank.
+[!INCLUDE[prod_short](includes/prod_short.md)] er konfigureret til at understøtte Positive Pay-filer for Bank of America og City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Sådan konfigureres en bankkonto til Positive Pay
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
@@ -64,4 +64,4 @@ Sådan reeksporteres Positive Pay-filer
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

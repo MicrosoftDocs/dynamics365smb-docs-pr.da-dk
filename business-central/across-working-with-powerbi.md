@@ -10,31 +10,31 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 28e332137346aae320b73c326bb3a41d3b7e7097
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a747a0bdb67187597cc33185b418844247b2e2b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927193"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752971"
 ---
-# <a name="working-with-power-bi-reports-in-prodshort"></a>Arbejde med Power BI-rapporter i [!INCLUDE [prodshort](includes/prodshort.md)]
+# <a name="working-with-power-bi-reports-in-prod_short"></a>Arbejde med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
-I denne artikel får du nogle grundlæggende oplysninger om visning af Power BI-rapporter i [!INCLUDE [prodshort](includes/prodshort.md)].
+I denne artikel får du nogle grundlæggende oplysninger om visning af Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="overview"></a>Oversigt
 
-Power BI-rapporter giver dig indblik i din [!INCLUDE[prodshort](includes/prodshort.md)]. Forskellige sider i [!INCLUDE [prodshort](includes/prodshort.md)] omfatter en Power BI-del af en rapport, der kan vise Power BI-rapporter. Rollecenteret er en typisk side, hvor du kan se en Power BI-del af rapporten. Nogle listesider som **Elementer** indeholder også en Power BI-del.
+Power BI-rapporter giver dig indblik i din [!INCLUDE[prod_short](includes/prod_short.md)]. Forskellige sider i [!INCLUDE [prod_short](includes/prod_short.md)] omfatter en Power BI-del af en rapport, der kan vise Power BI-rapporter. Rollecenteret er en typisk side, hvor du kan se en Power BI-del af rapporten. Nogle listesider som **Elementer** indeholder også en Power BI-del.
 
-[!INCLUDE [prodshort](includes/prodshort.md)] arbejder sammen med Power BI-tjenesten. Rapporter til visning i [!INCLUDE [prodshort](includes/prodshort.md)] gemmes i en Power BI-tjeneste. I [!INCLUDE [prodshort](includes/prodshort.md)] kan du udskifte den rapport, der vises i Power BI-delen, til enhver Power BI-rapport, der er tilgængelig i Power BI-servicen. Første gang, du logger på [!INCLUDE [prodshort](includes/prodshort.md)], og indtil du opretter forbindelse til en Power BI-tjeneste, vil dele være tomme, som vist her:
+[!INCLUDE [prod_short](includes/prod_short.md)] arbejder sammen med Power BI-tjenesten. Rapporter til visning i [!INCLUDE [prod_short](includes/prod_short.md)] gemmes i en Power BI-tjeneste. I [!INCLUDE [prod_short](includes/prod_short.md)] kan du udskifte den rapport, der vises i Power BI-delen, til enhver Power BI-rapport, der er tilgængelig i Power BI-servicen. Første gang, du logger på [!INCLUDE [prod_short](includes/prod_short.md)], og indtil du opretter forbindelse til en Power BI-tjeneste, vil dele være tomme, som vist her:
 
 ![Power BI-del i Business Central](./media/power-bi-part.png)
 
 ## <a name="prerequisites"></a>Forudsætninger
 
-Hvis du bruger [!INCLUDE[prodshort](includes/prodshort.md)] on-premises, skal det aktiveres til Power BI-integration. Denne opgave udføres typisk af en administrator. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prodshort](includes/prodshort.md)] on-premises til Power BI-integration](admin-powerbi-setup.md#setup).
+Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, skal det aktiveres til Power BI-integration. Denne opgave udføres typisk af en administrator. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] on-premises til Power BI-integration](admin-powerbi-setup.md#setup).
 
 > [!NOTE]
-> [!INCLUDE[prodshort](includes/prodshort.md)] online er allerede konfigureret til at blive integreret med Power BI.
+> [!INCLUDE[prod_short](includes/prod_short.md)] online er allerede konfigureret til at blive integreret med Power BI.
 
 ## <a name="get-ready"></a>Gør dig klar
 
@@ -42,24 +42,24 @@ Tilmeld dig Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du 
 
 ## <a name="connect-to-power-bi---one-time-only"></a>Kun oprette forbindelse til Power BI én gang
 
-Når du første gang logger på [!INCLUDE [prodshort](includes/prodshort.md)], kan du få vist en tom Power BI-del på en side, som vist i det forrige billede. Det første, du skal gøre, er at oprette forbindelse til din Power BI-konto. Når du har oprettet forbindelse, kan du se rapporter. Du behøver kun at udføre dette trin én gang.
+Når du første gang logger på [!INCLUDE [prod_short](includes/prod_short.md)], kan du få vist en tom Power BI-del på en side, som vist i det forrige billede. Det første, du skal gøre, er at oprette forbindelse til din Power BI-konto. Når du har oprettet forbindelse, kan du se rapporter. Du behøver kun at udføre dette trin én gang.
 
 Hvis du vil oprette forbindelse til Power BI, skal du vælge linket **Kom i gang med Power BI** i **Power BI-rapporter**-delen.
 
-Under tilslutningsprocessen kommunikerer [!INCLUDE [prodshort](includes/prodshort.md)] med Power BI-tjenesten for at afgøre, om du har en gyldig Power BI-konto og -licens. Når licensen er kontrolleret, vises Power BI-standardrapporten på siden. Hvis der ikke vises en rapport, kan du vælge en rapport fra delen.
+Under tilslutningsprocessen kommunikerer [!INCLUDE [prod_short](includes/prod_short.md)] med Power BI-tjenesten for at afgøre, om du har en gyldig Power BI-konto og -licens. Når licensen er kontrolleret, vises Power BI-standardrapporten på siden. Hvis der ikke vises en rapport, kan du vælge en rapport fra delen.
 
 > [!TIP]
-> Med [!INCLUDE [prodshort](includes/prodshort.md)] online overfører dette trin automatisk Power BI-standardrapporter, der er anvendt i [!INCLUDE [prodshort](includes/prodshort.md)], til dit Power BI-arbejdsområde.
+> Med [!INCLUDE [prod_short](includes/prod_short.md)] online overfører dette trin automatisk Power BI-standardrapporter, der er anvendt i [!INCLUDE [prod_short](includes/prod_short.md)], til dit Power BI-arbejdsområde.
 
-##### <a name="from-prodshort-on-premises"></a>Fra [!INCLUDE [prodshort](includes/prodshort.md)] on-premises
+##### <a name="from-prod_short-on-premises"></a>Fra [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
-Oprettelse af forbindelse til Power BI fra [!INCLUDE [prodshort](includes/prodshort.md)] ligner online. Du vil dog på siden **AZURE ACTIVE DIRECTORY-TJENESTETILLADELSER** blive bedt om at give adgang til Power BI-tjenester. Hvis du vil tildele adgang, skal du vælge **Godkend Azure-tjenester** og derefter **Acceptér**.
+Oprettelse af forbindelse til Power BI fra [!INCLUDE [prod_short](includes/prod_short.md)] ligner online. Du vil dog på siden **AZURE ACTIVE DIRECTORY-TJENESTETILLADELSER** blive bedt om at give adgang til Power BI-tjenester. Hvis du vil tildele adgang, skal du vælge **Godkend Azure-tjenester** og derefter **Acceptér**.
 
 Når forbindelsen er oprettet, kan du vælge en rapport fra Power BI-delen på siderne.
 
 ## <a name="show-power-bi-reports-on-list-pages"></a>Vise Power BI-rapporter på listesider
 
-[!INCLUDE[prodlong](includes/prodlong.md)] indeholder en Power BI-faktaboks på flere nøglelistesider. Denne faktaboks giver yderligere indblik i dataene på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post. Hvis du ikke kan se denne del, skal du på handlingslinjen vælge **Handlinger** > **Vis** > **Vis/skjul Power BI-rapporter**. Du kan finde flere oplysninger under [Oprette Power BI-rapporter til visning af listedata i [!INCLUDE[prodshort](includes/prodshort.md)]](across-how-use-powerbi-reports-factbox.md).
+[!INCLUDE[prod_long](includes/prod_long.md)] indeholder en Power BI-faktaboks på flere nøglelistesider. Denne faktaboks giver yderligere indblik i dataene på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post. Hvis du ikke kan se denne del, skal du på handlingslinjen vælge **Handlinger** > **Vis** > **Vis/skjul Power BI-rapporter**. Du kan finde flere oplysninger under [Oprette Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 ## <a name="select-power-bi-reports"></a>Vælge Power BI-rapporter
 
@@ -86,18 +86,18 @@ Hvis du vil redigere en rapport, skal du vælge handlingen **Administrer rapport
 Når du går tilbage til rollecenteret, vises den opdaterede rapport. Hvis du har brugt **Gem som**, skal du vælge **Vælg rapport** og derefter aktivere den nye rapport for at se den.
 
 > [!NOTE]
-> Denne funktion er ikke tilgængelig for [!INCLUDE [prodshort](includes/prodshort.md)] on-premises.
+> Denne funktion er ikke tilgængelig for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.
 
 ## <a name="upload-reports"></a><a name="upload"></a>Overføre rapporter
 
-Power BI-rapporter kan distribueres blandt brugere som .pbix-filer. Hvis du har nogen .pbix-filer, kan du overføre og dele dem med alle brugere af [!INCLUDE [prodshort](includes/prodshort.md)]. Rapporterne deles inden for hver virksomhed i [!INCLUDE [prodshort](includes/prodshort.md)].  
+Power BI-rapporter kan distribueres blandt brugere som .pbix-filer. Hvis du har nogen .pbix-filer, kan du overføre og dele dem med alle brugere af [!INCLUDE [prod_short](includes/prod_short.md)]. Rapporterne deles inden for hver virksomhed i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 For at overføre en rapport skal du vælge handlingen **Overfør rapport** fra kommandorullelisten i delen **Power BI-rapporter**. Find derefter den .pbix-fil, der definerer de rapporter, du vil dele. Du kan ændre filens standardnavn.  
 
 Når rapporten overføres til Power BI-arbejdsområdet, overføres den automatisk til andre brugeres Power BI-arbejdsområder.
 
 > [!NOTE]
-> Hvis du overfører en rapport, kræver det, at du har SUPER-brugerrettigheder i [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan heller ikke overføre rapporter med [!INCLUDE [prodshort](includes/prodshort.md)] on-premises. Med on-premises kan du overføre rapporter direkte til dit Power BI-arbejdsområde. Du kan finde flere oplysninger i [Arbejde med [!INCLUDE [prodshort](includes/prodshort.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md).
+> Hvis du overfører en rapport, kræver det, at du har SUPER-brugerrettigheder i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan heller ikke overføre rapporter med [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. Med on-premises kan du overføre rapporter direkte til dit Power BI-arbejdsområde. Du kan finde flere oplysninger i [Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md).
 
 ## <a name="fixing-problems"></a>Løse problemer
 
@@ -109,7 +109,7 @@ Der er ikke blevet oprettet en Power BI-konto. Fo at få en gyldig Power BI-kont
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Meddelelse: Der er ingen aktiverede rapporter. Vælg Vælg rapport for at få vist en oversigt over de rapporter, du kan få vist.
 
-Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power BI-arbejdsområdet. Eller den blev installeret, men blev ikke opdateret korrekt. Gå til rapporten i dit Power BI-arbejdsområde, vælg **Datasæt**, **Indstillinger**, og opdater derefter legitimationsoplysningerne manuelt. Når datasættet er opdateret, skal du gå tilbage til [!INCLUDE[prodshort](includes/prodshort.md)] og vælge rapporten manuelt på siden **Vælg rapporter**.
+Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power BI-arbejdsområdet. Eller den blev installeret, men blev ikke opdateret korrekt. Gå til rapporten i dit Power BI-arbejdsområde, vælg **Datasæt**, **Indstillinger**, og opdater derefter legitimationsoplysningerne manuelt. Når datasættet er opdateret, skal du gå tilbage til [!INCLUDE[prod_short](includes/prod_short.md)] og vælge rapporten manuelt på siden **Vælg rapporter**.
 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
@@ -117,9 +117,9 @@ Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power B
 ## <a name="see-also"></a>Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
-[Oprette Power BI-rapporter, der viser [!INCLUDE [prodlong](includes/prodlong.md)]-data](across-how-use-financials-data-source-powerbi.md)  
-[Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prodshort](includes/prodshort.md)]](admin-powerbi-overview.md)  
-[Arbejde med [!INCLUDE [prodshort](includes/prodshort.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
+[Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
+[Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
+[Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
 [Power BI for forbrugere](/power-bi/consumer/end-user-consumer)  
 [Power BI-tjenestens nye udseende](/power-bi/service-new-look)  
 [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -127,9 +127,9 @@ Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power B
 [Business Intelligence](bi.md)  
 [Introduktion](product-get-started.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

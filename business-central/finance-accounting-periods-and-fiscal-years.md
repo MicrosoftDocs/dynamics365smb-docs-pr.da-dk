@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6d62db7673a37cd115caedc778b3fea1cf5b3ce8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ae13b3c24e73f9b73335291b2911f16d6acf29d0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916239"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751101"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbejde med regnskabsperioder og regnskabsår
 
@@ -23,7 +23,7 @@ Regnskabsperioder, der kaldes også rapporteringsperioder, er tidsperioder, hvor
 
 For mange virksomheder falder regnskabsåret ikke sammen med kalenderåret. For eksempel kan regnskabsåret slutte den 30 juni i stedet for 31. december. For nyoprettede virksomheder kan regnskabsåret i realiteten være længere end 12 måneder.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kræver kun regnskabsperioder, hvis du vil lukke en resultatopgørelse eller udføre opgaver til komprimering af data. 
+[!INCLUDE[prod_short](includes/prod_short.md)] kræver kun regnskabsperioder, hvis du vil lukke en resultatopgørelse eller udføre opgaver til komprimering af data. 
 
 Du kan bruge regnskabsperioder i forbindelse med rapportering. F.eks. når du gennemgår bogførte poster på siden **Saldo/Budget**, hvor du kan angive rapporteringsintervallet. En af de indstillinger kan du angive for at rapportere regnskabsperiode. Du kan også oprette et kontoskema, der sammenligner resultaterne for forskellige perioder.
 
@@ -48,7 +48,7 @@ Hvis regnskabsperioderne i regnskabsåret, der har forskellig varigheder som 4-4
   
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
 2. I feltet **Startdato** kan du angive den dato, hvor regnskabsåret begynder. Feltet **Navn** viser navnet på måneden.  
-3. Marker afkrydsningsfeltet **Nyt regnskabsår** for at angive, at dette er den første periode i året. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger denne periode til at bestemme, hvilke perioder der skal lukkes ved udgangen af året.
+3. Marker afkrydsningsfeltet **Nyt regnskabsår** for at angive, at dette er den første periode i året. [!INCLUDE[prod_short](includes/prod_short.md)] bruger denne periode til at bestemme, hvilke perioder der skal lukkes ved udgangen af året.
 4. Gentag trin 2 og 3 for hver resterende periode.  
 
 ## <a name="closing-a-fiscal-year"></a>Afslutning af regnskabsår

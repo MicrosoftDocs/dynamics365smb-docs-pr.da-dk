@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927625"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750976"
 ---
 # <a name="set-up-company-consolidation"></a>Konfigurere virksomhedskonsolidering
 
@@ -33,7 +33,7 @@ Afhængigt af kompleksiteten af virksomhederne kan konsolideringen konfigureres 
 Hvis din konsolidering er enkel, f.eks. fordi du er eneejer af de koncernvirksomheder, der skal konsolideres, hjælper den assisterede opsætningsvejledning **Virksomhedskonsolidering** dig gennem følgende trin:
 
 * Vælg, om du vil oprette et nyt konsolideret regnskab, eller om du vil konsolidere data i et regnskab, som du allerede har oprettet til konsolideringen. Regnskabet må ikke indeholde transaktioner.
-* Få vist resultaterne. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, at masterdata og transaktioner kan overføres til det konsoliderede regnskab.
+* Få vist resultaterne. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer, at masterdata og transaktioner kan overføres til det konsoliderede regnskab.
 
 Hvis du vil bruge den assisterede opsætningsvejledning, skal du gøre følgende:
 
@@ -70,7 +70,7 @@ Følgende liste illustrerer nøgleaspekter i det konsoliderede regnskab.
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Tilføj virksomhedsenheder
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] giver dig mulighed for at oprette en liste over de virksomhedsenheder, der skal konsolideres, kontrollere regnskabsdataene, før du konsoliderer dem, importere filer og oprette konsolideringsrapporter.  
+[!INCLUDE[prod_short](includes/prod_short.md)] giver dig mulighed for at oprette en liste over de virksomhedsenheder, der skal konsolideres, kontrollere regnskabsdataene, før du konsoliderer dem, importere filer og oprette konsolideringsrapporter.  
 
 1. Log på det konsoliderede regnskab.
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
@@ -88,7 +88,7 @@ Kontoplanen for en virksomhed, der skal konsolideres, skal angive konti for kons
 
 Hvis kontoplanen i koncernvirksomheden er anderledes end det konsoliderede regnskab, skal du forberede finanskonti til konsolidering. Du kan angive de konti, hvor debet og kredit skal posteres, og metoden, der skal bruges til at oversætte valutaer i det konsoliderede regnskab. Det er f.eks. nyttigt, hvis du ofte udfører rapporten.
 
-1. I hver virksomhedsenhed [!INCLUDE [prodshort](includes/prodshort.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive **Kontoplan**, og vælg derefter det relaterede link.  
+1. I hver virksomhedsenhed [!INCLUDE [prod_short](includes/prod_short.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive **Kontoplan**, og vælg derefter det relaterede link.  
 2. Åbn kortet for kontoen, og udfyld derefter felterne på oversigtspanelet **Konsolidering**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Angiv kurser for konsolideringer
@@ -136,5 +136,5 @@ Hvis du kun ejer en del af en virksomhed, kan du medtage en procentdel af hver t
 
 [Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)  
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eksportere forretningsdata til Excel](about-export-data.md)

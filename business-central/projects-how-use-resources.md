@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fef4421cafa8d0f7fd18d24ab7a78a814702513e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c753e38566971c044da3337f0f35f1609bd489c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918984"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748864"
 ---
 # <a name="use-resources-for-jobs"></a>Bruge ressourcer til sager
 Du registrerer forbruget af ressourcer i jobkladden, for at holde styr på omkostninger, priser og de arbejdstyper, der er knyttet til sagerne. Du kan finde flere oplysninger under [Registrere forbrug for sager](projects-how-record-job-usage.md).
@@ -73,4 +73,4 @@ Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, k
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)     
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

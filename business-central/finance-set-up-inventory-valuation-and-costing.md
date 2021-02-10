@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910726"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750451"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Opsætte lagerværdi og kostprisberegning
 
 For at sikre, at lageromkostningerne registreres korrekt, skal du angive forskellige felter og sider, før du begynder at foretage varetransaktioner. Virksomheder vælger typisk en bestemt kostmetode og anvender den på lagervarer, f. eks. for at hjælpe dem med at spore værdien på lager.  
 
 > [!TIP]
-> Du kan finde en introduktion til efterkalkulation i [!INCLUDE [prodshort](includes/prodshort.md)], se [Om lagerkostmetode](finance-learn-about-costing.md).
+> Du kan finde en introduktion til efterkalkulation i [!INCLUDE [prod_short](includes/prod_short.md)], se [Om lagerkostmetode](finance-learn-about-costing.md).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 

@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926643"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367955"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Undervisningskatalog for partnersalg og marketing
 
@@ -39,11 +39,10 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 
 | Indhold   | Beskrivelse        | Format                                | Længde                |
 |-----------|--------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central - Overbevisende samtaler med kundeemner (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Kun partnere) Lyt til Errol Schoenfish, direktør for Product Marketing, når han gennemgår, hvordan du får overbevisende samtaler med kundeemner om Microsoft Dynamics 365 Business Central.   | Video    | 11 minutter og 15 sekunder |
-| [Søg efter kundehistorier](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Søg efter kundereferencehistorier om Dynamics 365 Business Central på [https://customer.microsoft.com](https://customer.microsoft.com).  | Websted |                       |
+| [Dynamics 365 Business Central - Overbevisende samtaler med kundeemner (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Kun partnere) Lyt til Errol Schoenfish, tidligere direktør for Product Marketing, når han gennemgår, hvordan du får overbevisende samtaler med kundeemner om Microsoft Dynamics 365 Business Central.   | Video    | 11 minutter og 15 sekunder |
 | [Cloud Solution Provider-program](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Kun partnere) Om Cloud Solution Provider-programmet     | Websted |                       |
 | [Marketing i et skyunivers](https://mbspartner.microsoft.com/OSS/Topic/19) | (Kun partnere) Håndtering af, hvordan du optimerer dine fremgangsmåder og justerer marketingprincipperne til en cloud first-verden, vil være en primær faktor til at bestemme, om organisationen fremadrettet oplever succes eller fiasko. Denne serie videoer og ressourcer giver bedste fremgangsmåder til marketing, vejledning i oprettelse af indhold, praktiske tip og nyttige værktøjer til at anvende cloud marketing-principper til at fremme behovet for dine løsninger. | Emneside | 35 minutter |
 | [Cloud Solution Provider-program - salg af cloud-løsninger på efterspørgsel](https://docs.microsoft.com/partner-center/csp-overview)  | CSP-programmet (Cloud Solution Provider) hjælper dig med at gå endnu længere end til at videresælge licenser til at være mere involveret i din kundes forretning.   | Websted      |                       |
 | [Cloud Solution Provider-program - sammenlign partnersupportprogrammer](https://partner.microsoft.com/support/partnersupport) | Se denne video for at finde ud af, hvordan du vælger den rigtige partnersupportplan til virksomheden. Se derefter en side om side-sammenligning nedenfor.    | Websted                               |                       |
 | [Cloud SureStep - Hurtigere salg](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Kun partnere) Den accelererede salgsproces med Cloud SureStep er bygget op omkring den moderne købers behov og satser på at udløse et følelsesmæssig oplevelsesdrevet strategisk vendepunkt tidligt i salgsprocessen. Denne serie af videoer og ressourcer forklarer en præskriptiv salgsproces, der er udviklet specifikt som et modspil til den traditionelle ressourceintensive, "demonstrationsorienterede" løsningssalgsmetode, som typisk fører til højt tilpassede produktdemonstrationer, komplekse salgsprocesser og lange implementeringsprojekter. Ressourcebiblioteket indeholder en række brugerdefinerbare skabeloner, så du kan oprette dine egne salgsaktiver for at understøtte accelereret salg. | Websted     |                       |
-| [Supplement til overgangspartnerens strategiplan (juli 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Dette supplement til overgangspartnerens strategiplan har en række opdaterede og nye retningslinjer for partnere til sikring af deres eksisterende kundebase mod konkurrenter og nye SaaS-aktører.  | PowerPoint-slideshow | 15 slides |
+| [Supplement til overgangspartnerens strategiplan (juli 2019) ](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Dette supplement til overgangspartnerens strategiplan har en række opdaterede og nye retningslinjer for partnere til sikring af deres eksisterende kundebase mod konkurrenter og nye SaaS-aktører.  | PowerPoint-slideshow | 15 slides |

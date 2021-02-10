@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18fcc084b1ac15747fde64a2aa93e37591d7f95f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e15f8419c4b7fa10bcec0b672beb05d076d1bb3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916897"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750557"
 ---
 # <a name="about-inventory-costing"></a>Om lagerkostmetode
 Administration af lagerkostmetoder vedrører registrering og rapportering af virksomhedens driftsomkostninger. Den omfatter rapportering af produktionsomkostninger og lageromkostninger, dvs. værdien af varer.  
@@ -33,11 +33,11 @@ Administration af lagerkostmetoder vedrører registrering og rapportering af vir
 |Kunne skelne forventede omkostninger (endnu ikke faktureret) fra faktiske omkostninger og lære, hvordan de håndteres i finansposterne.|[Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md)|  
 |Forstå omkostningsreguleringsmekanismen, som sikrer, at omkostningerne sendes videre, selvom lagertransaktioner forekommer med uregelmæssige mellemrum.|[Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)|  
 |Læse om årsagen til, at standardomkostninger ofte bruges af produktionsvirksomheder som værdigrundlag for komponenter og varer.|[Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)|  
-|Forstå, hvordan værdien af lageret afspejles i finansposterne.|[Rapportere omkostninger og afstemme med regnskabet](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
+|Forstå, hvordan værdien af lageret afspejles i finansposterne.|[Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Lære, hvordan varegebyrer, f.eks. for fragt og forsikring, kan føje ekstra omkostningskomponenter til en vares enhedspris.|[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)|  
 |Læse, hvordan lagerperioder hjælper en virksomhed med at styre lagerværdi over tid, hvis der defineres kortere perioder, hvor der kan være lukket for bogføringer, efterhånden som regnskabsåret skrider frem.|[Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Forstå alle mekanismerne i prisberegningsprogrammet, herunder hvad der sker, når du bogfører montage og produktionstransaktioner.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Se også
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)    
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

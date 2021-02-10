@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d01d332457d85c0450cdf98c79778b18eba304e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923916"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746787"
 ---
 # <a name="managing-vat-rate-changes"></a>Styre ændringer af momssats
 
-Momssatser kan ændres i henhold til lokal lovgivning. Eventuelle ændringer i moms påvirker dine data i [!INCLUDE[d365fin](includes/d365fin_md.md)], uanset om momssatsen bliver lavere, højere eller fjernet. Moms er knyttet til mange objekter i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. debitorer, kreditorer, varer, ressourcer, varegebyrer og finanskonti. Ændringer af momssatser sker normalt på en bestemt dato, hvorfra du skal have ændret momsopsætningen, bogføringsgrupperne osv. for at sikre, at der oprettes nye salgsordrer og købsordrer med den nye momssats.
+Momssatser kan ændres i henhold til lokal lovgivning. Eventuelle ændringer i moms påvirker dine data i [!INCLUDE[prod_short](includes/prod_short.md)], uanset om momssatsen bliver lavere, højere eller fjernet. Moms er knyttet til mange objekter i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. debitorer, kreditorer, varer, ressourcer, varegebyrer og finanskonti. Ændringer af momssatser sker normalt på en bestemt dato, hvorfra du skal have ændret momsopsætningen, bogføringsgrupperne osv. for at sikre, at der oprettes nye salgsordrer og købsordrer med den nye momssats.
 
 ## <a name="changing-vat-rates"></a>Ændre momssatser
 

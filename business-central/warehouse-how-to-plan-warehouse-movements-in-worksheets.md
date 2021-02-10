@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b5293ace8fe0fc59b0e1f499574355397fb2d84
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1ae0386c4fc2e3ac216d4228c94e7447a808cf50
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923216"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756113"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planlægge lagerbevægelser i kladder
 Planlæg bevægelser i en kladde vha. funktionen Placeringsgenopfyldning eller manuelt ved at planlægge de linjer, som du vil oprette bevægelsesinstruktioner til.  
@@ -26,7 +26,7 @@ Efterhånden som lagerstedet afsender varer, bliver der færre og færre varer p
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn genopfyldning**.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] opretter automatisk linjer, der præcist angiver, hvordan du skal flytte varer fra placeringer med lavt placeringsniveau til placeringer med højt placeringsniveau.  
+    [!INCLUDE[prod_short](includes/prod_short.md)] opretter automatisk linjer, der præcist angiver, hvordan du skal flytte varer fra placeringer med lavt placeringsniveau til placeringer med højt placeringsniveau.  
 
     > [!NOTE]  
     >  Der foreslås en bevægelse i henhold til FEFO, når du aktiverer funktionen **Opret bevægelse**, hvis følgende betingelser er opfyldt for en vare:  
@@ -71,4 +71,4 @@ Du kan også bruge bevægelseskladden til at planlægge andre former for varebev
 [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

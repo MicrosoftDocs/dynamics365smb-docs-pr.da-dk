@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b57790cc9b38f5c1aae4ce5b136011c677ca15a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7f7fbfd75665b6d1cac845d1658ceab471f97525
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925243"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755613"
 ---
 # <a name="closing-years-and-periods"></a>Afslutning af år og perioder
 
@@ -40,6 +40,6 @@ Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at l
 ## <a name="see-also"></a>Se også
 
 [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

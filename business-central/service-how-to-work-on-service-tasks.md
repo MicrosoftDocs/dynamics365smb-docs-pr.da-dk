@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de32dea618259d8a7ecde20e47f6f258f12f525a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21f4dc7f2f0fa6602f02720fc441d1007d0f6bfe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913192"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747989"
 ---
 # <a name="work-on-service-tasks"></a>Arbejde med serviceopgaver
 Når du har oprettet en serviceordre eller et servicetilbud, registreret serviceartikellinjer og allokeret ressourcer til serviceartiklerne i ordren eller tilbuddet, kan du begynde at reparere og vedligeholde serviceartiklerne.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder siden **Serviceopgaver**, der giver et overblik over alle de serviceartikler, der skal behandles. Du betragte dette vindue som dit servicedashboard, hvor du kan se, hvilke ordrer der venter, søge efter og registrere reservedele og holde lageret opdateret.  
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder siden **Serviceopgaver**, der giver et overblik over alle de serviceartikler, der skal behandles. Du betragte dette vindue som dit servicedashboard, hvor du kan se, hvilke ordrer der venter, søge efter og registrere reservedele og holde lageret opdateret.  
 
-Hvis du vil spore ændringer og have vist grafiske oversigter over serviceaktiviteterne, kan du bruge statistikværktøjerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] til hurtigt at opstille automatisk genererede diagrammer og analyser.  
+Hvis du vil spore ændringer og have vist grafiske oversigter over serviceaktiviteterne, kan du bruge statistikværktøjerne i [!INCLUDE[prod_short](includes/prod_short.md)] til hurtigt at opstille automatisk genererede diagrammer og analyser.  
 
 ## <a name="to-work-on-a-service-task"></a>Sådan arbejdes med serviceopgaver  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceopgaver**, og vælg derefter det relaterede link.

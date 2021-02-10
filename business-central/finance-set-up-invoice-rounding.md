@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 233785c6d118ef9c23fef56ec113e008226c1a17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 302552a32e2c6322c156a22095c926dee40b4cf7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916114"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746587"
 ---
 # <a name="set-up-invoice-rounding"></a>Opsætning af fakturaafrunding
 Hvis du vil afrunde fakturabeløb, når du opretter fakturaer, kan du bruge funktionen til automatisk afrunding. Når en faktura afrundes, tilføjes en ekstra linje med afrundingsbeløbet og bogføres sammen med de andre fakturalinjer.
@@ -37,7 +37,7 @@ Du skal oprette finanskonti eller konti, hvor afrundingsdifferencer kan bogføre
 
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Sådan opsættes finanskonti til fakturaafrundingsdifferencer  
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
-2. På siden **Kontoplan** skal du opsætte kontoen og kalde den **Fakturaafrunding** eller noget tilsvarende. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger kontonavnet som tekst på fakturaer, der afrundes.  
+2. På siden **Kontoplan** skal du opsætte kontoen og kalde den **Fakturaafrunding** eller noget tilsvarende. [!INCLUDE[prod_short](includes/prod_short.md)] bruger kontonavnet som tekst på fakturaer, der afrundes.  
 3. Afhængigt af om du bruger moms eller sales tax, skal du i feltet **Momsproduktbogf.gruppe** eller **Momsprod.bogf.gruppe** vælge en bogføringsgruppe til afrundede beløb. Du kan oprette en ny gruppekode, som kan anvendes til fakturaafrunding.
 4. Lad feltet **Bogføringstype** og enten feltet **Momsvirksomhedsbogf.gruppe** eller **Momsvirk.bogf.gruppe** stå tomme. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 

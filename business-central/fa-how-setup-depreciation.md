@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a08c4dbdb54343f1ec2a66064508496517617555
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921895"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749265"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
  Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning såsom saldoafskrivning. Du kan definere afskrivningsmetoden for anlægsaktivet med feltet **Afskrivningsmetode** på siden **Anlægskort**. Du kan finde yderligere oplysninger om de forskellige metoder under [Afskrivningsmetoder ](fa-depreciation-methods.md).
@@ -60,7 +60,7 @@ Hvis du vil tildele en afskrivningsprofil til flere anlægsaktiver, kan du bruge
 7. Vælg knappen **OK**.
 
 ## <a name="to-set-up-depreciation-posting-types"></a>Sådan defineres bogføringstyper for afskrivning
-For hver afskrivningsprofil skal du angive, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] skal håndtere forskellige bogføringstyper. For eksempel skal det angives, om bogføringen skal være debet eller kredit, og om bogføringstypen skal medtages i afskrivningsgrundlaget.  
+For hver afskrivningsprofil skal du angive, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] skal håndtere forskellige bogføringstyper. For eksempel skal det angives, om bogføringen skal være debet eller kredit, og om bogføringstypen skal medtages i afskrivningsgrundlaget.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
 2. Vælg den afskrivningsprofil, du vil konfigurere, og vælg derefter handlingen **Anlægsbogf.typeopsætning**.
@@ -84,4 +84,4 @@ For hver afskrivningsprofil skal du definere en standardopsætning med typer og 
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

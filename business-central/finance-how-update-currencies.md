@@ -7,18 +7,18 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9027fe7cb01efe2e06ef52154f30f2fa8fb41b83
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 568f50a80d430580a22f8e68552fe6e492cfd153
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924124"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750626"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 
 Da virksomheder handler i alt flere lande/områder, bliver det mere vigtigt, at de kan handle eller rapportere finansielle oplysninger i mere end én valuta. Du skal oprette koder for hver valuta, du bruger, hvis du foretager køb og salg i andre valutaer end din lokale valuta, eller hvis du registrerer finanstransaktioner i forskellige valutaer.
 
-Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
+Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 ## <a name="adjusting-exchange-rates"></a>Regulering af valutakurser
 
@@ -77,4 +77,4 @@ Værdien i feltet **Valutakurs** på siden **Valutaer** opdateres med den senest
 ## <a name="see-also"></a>Se også
 [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)  
 [Afslutning af år og perioder](year-close-years-periods.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf4a825c8d035b4dab6f6e8b8fc3472eb48ddf6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 672e94526eabacf088acf771bdfca1e2b2361922
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910376"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748051"
 ---
 # <a name="delivering-service"></a>Levering af service
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder funktioner, der kan hjælpe dig med at levere service i henhold til de kontrakter, der er oprettet, og de serviceordrer, virksomheden har forpligtet sig til at opfylde. Virksomhedens serviceteknikere eller serviceekspedient vil se, at udestående serviceordrer er lette at finde, når de bruger **Ordreoversigt**. **Ordreoversigten** giver et samlet overblik over, hvilke ordrer der er igangsat, og hvilke ordrer der er fuldført.  
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner, der kan hjælpe dig med at levere service i henhold til de kontrakter, der er oprettet, og de serviceordrer, virksomheden har forpligtet sig til at opfylde. Virksomhedens serviceteknikere eller serviceekspedient vil se, at udestående serviceordrer er lette at finde, når de bruger **Ordreoversigt**. **Ordreoversigten** giver et samlet overblik over, hvilke ordrer der er igangsat, og hvilke ordrer der er fuldført.  
   
 De udestående serviceordrer kan også findes ved hjælp af siden **Serviceopgaver**. I denne oversigt over virksomhedens serviceforpligtelser kan du se, hvor i serviceprocessen en ordre befinder sig, og ændre statussen, så den afspejler interaktion med kunden.  
   
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
 
-Et serviceadministrationsprogram skal have en grænseflade for en kundes serviceforespørgsel. Serviceforespørgslen omdannes som regel til en serviceordre. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder værktøjer, der bruges til at oprette en ordre både direkte som svar på en kundeforespørgsel eller som en del af kontraktprocessen, hvis programmet er konfigureret på denne måde.  
+Et serviceadministrationsprogram skal have en grænseflade for en kundes serviceforespørgsel. Serviceforespørgslen omdannes som regel til en serviceordre. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder værktøjer, der bruges til at oprette en ordre både direkte som svar på en kundeforespørgsel eller som en del af kontraktprocessen, hvis programmet er konfigureret på denne måde.  
   
 Hvis det er nødvendigt, kan du administrere et udlånsprogram for kunderne. Du kan også bestemme prisstrukturen, anbringe servicepristilbud i logiske grupper og oprette prisreguleringer.  
   

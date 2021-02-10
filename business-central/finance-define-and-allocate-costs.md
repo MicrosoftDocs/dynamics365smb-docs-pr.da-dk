@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 802706f3b501b7c0bdc7959573d5a7c830a7bf90
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913317"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747062"
 ---
 # <a name="defining-and-allocating-costs"></a>Definere og allokere omkostninger
 Allokering af omkostninger flytter omkostninger og indtægter mellem omkostningstyper, omkostningssteder og omkostningsobjekter. Du kan angive så mange tildelinger, som du har brug for. Hver allokering består af:  
@@ -78,7 +78,7 @@ Metoden statisk allokering er baseret på en endelig værdi, for eksempel anvend
 Dette emne beskriver, hvordan du definerer tre nye fordelingsmålsomkostningsobjekter til fordelingskilden PROD-omkostningssted ved hjælp af det etablerede fordelingsforhold 5:2:4. De tre målomkostningsobjekter er ACCESSO, PAINT og FITTINGS.  
 
 > [!NOTE]  
->  I eksemplet bruges demonstrationsdataene i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  I eksemplet bruges demonstrationsdataene i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Sådan defineres fordelingskilden PROD-omkostningssted på oversigtspanelet Generelt  
 
@@ -109,13 +109,13 @@ Dette emne beskriver, hvordan du definerer tre nye fordelingsmålsomkostningsobj
 15. På den tredje linje i feltet **Fordeling** skal du angive fordelingsforholdet **4**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk feltet **Procent** ved hjælp af en procentsats , der er afhængig af alle tre fordelingsforhold, der er angivet i feltet **Fordeling** for alle tre linjer.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk feltet **Procent** ved hjælp af en procentsats , der er afhængig af alle tre fordelingsforhold, der er angivet i feltet **Fordeling** for alle tre linjer.
 
 ## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenarie 2: Definition af dynamiske fordelinger baseret på solgte varer
 I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp af metoden til dynamisk fordeling. I dette eksempel skal du ændre dynamisk fordeling af omkostningerne for omkostningsstedet SALES til understøttelse af det nye omkostningsobjekt IT-UDSTYR. IT_UDSTYR-pakker har varenumre i området fra 8904-W til 8924-W. Du bruger salgstal for det foregående år til at beregne det andelen. Allokeringen bogføres til hjælpeomkostningstypen 9903.  
 
 > [!NOTE]  
->  I eksemplet bruges demonstrationsdataene i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  I eksemplet bruges demonstrationsdataene i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Sådan defineres dynamiske fordelinger baseret på varer, der er solgt i det foregående år  
 
@@ -135,7 +135,7 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
 14. Vælg handlingen **Beregn fordelingsnøgle** for at beregne det andelen.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger salgstal fra de foregående år til at beregne andelen af 1596,50 RV med 100 procent for IT-UDSTYR-pakkerne. Det betyder, at alle varer, der er solgt sidste år, tildeles omkostningsobjektet IT-UDSTYR.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] bruger salgstal fra de foregående år til at beregne andelen af 1596,50 RV med 100 procent for IT-UDSTYR-pakkerne. Det betyder, at alle varer, der er solgt sidste år, tildeles omkostningsobjektet IT-UDSTYR.
 
 ## <a name="see-also"></a>Se også  
  [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)   

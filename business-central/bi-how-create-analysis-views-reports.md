@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 41c10e142d2a64a7e86a0bf3604af649978bef83
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913809"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752201"
 ---
 #  <a name="create-analysis-reports"></a>Oprette analyserapporter
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi.  
@@ -43,7 +43,7 @@ Derefter kan du oprette kolonner som disse:
 ## <a name="setting-up-line-and-column-layouts"></a>Opsætte linje- og kolonneformater  
  På siden **Analyserapport** kan du få vist forskellige linje- og kolonneformater i henhold til de linjer eller linjeskabeloner, som du har oprettet på siden **Analyselinjeskabeloner**. Du kan definere navnet på rapporten og de objekter, der skal vises på linjerne i rapporten. Kolonnerne angiver du på siden **Analysekolonneskabeloner**. Du kan definere navnet på kolonneskabelonen og de analyseparametre, der skal vises i rapporten i form af kolonner. På siden **Analysekolonneskabeloner** repræsenterer hver linje en kolonne i rapporten. Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] samler resultaterne af rapporten i på siden **Analyserapport** på grundlag af de linjer og kolonner, du har angivet, som i følgende tabel.  
+[!INCLUDE[prod_short](includes/prod_short.md)] samler resultaterne af rapporten i på siden **Analyserapport** på grundlag af de linjer og kolonner, du har angivet, som i følgende tabel.  
 
 |- |Salg indeværende måned|Salg foregående måned|Salg foregående måned i %|  
 |-|-|-|-|  
@@ -105,4 +105,4 @@ Du kan anvende analyserapporter til at analysere dynamikken i dine salg i henhol
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

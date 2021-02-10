@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a761d1127e2a0568e59a329fd3e187beffb6b7e5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 84be9f847d466588e25dad81754bcf64f367b4c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918072"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753363"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Felttilknytning ved eksport af betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen
 Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, eksponeres de data, du eksporterer, for tjenesteudbyderen. Serviceudbyderen er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger om AMC Banking 365 Fundamentals-udvidelsen under [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
@@ -23,7 +23,7 @@ Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, 
 > [!CAUTION]  
 >  Når du eksporterer betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen, vil nogle af virksomhedens data blive eksponeret for tjenesteudbyderen. Serviceudbyderen, AMC Consult A/S, er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger i [AMC's politik for beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Følgende tabel viser de felter i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvorfra du kan eksportere data.  
+Følgende tabel viser de felter i [!INCLUDE[prod_short](includes/prod_short.md)], hvorfra du kan eksportere data.  
 
 |Koblet felt|Felt i tabel|Sortbord|Beskrivelse|  
 |------------------|--------------------|-----------|---------------------------------------|  

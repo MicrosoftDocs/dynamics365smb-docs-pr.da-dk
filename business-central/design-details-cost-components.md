@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 470c8231eeb471de344542087c7ade68c91f55bc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d8e2d00e82f2ed5342e3c06dfaf54d8d6a88e941
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920918"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751742"
 ---
 # <a name="design-details-cost-components"></a>Designoplysninger: Kostkomponenter
 Omkostningskomponenter er forskellige typer af omkostninger, der udgør værdien af en lagerforøgelse eller -reducering.  
@@ -44,4 +44,4 @@ Omkostningskomponenter er forskellige typer af omkostninger, der udgør værdien
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
  [Designoplysninger: Afvigelse](design-details-variance.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

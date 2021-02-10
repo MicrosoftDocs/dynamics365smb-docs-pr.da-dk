@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d063b4b6a78f9a75cdb16050ffe14305df27d95
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9908544b55e09f5a6578eec0cba000a763e917
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916672"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749115"
 ---
 # <a name="making-payments"></a>Foretage betaling
 
@@ -45,4 +45,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

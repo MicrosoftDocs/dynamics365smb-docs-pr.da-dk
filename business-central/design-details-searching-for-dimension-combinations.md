@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c8fb1026c871efc1ce61b26e587399f91bdf718f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c3867c45f659f054a3bdee1605f2d8541e72dec1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910901"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751126"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designoplysninger: Søgning efter dimensionskombinationer
-Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!INCLUDE[d365fin](includes/d365fin_md.md)], om det redigerede sæt dimensioner findes. Hvis det ikke findes, oprettes der et nyt sæt, og dimensionens kombinations-ID returneres.  
+Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!INCLUDE[prod_short](includes/prod_short.md)], om det redigerede sæt dimensioner findes. Hvis det ikke findes, oprettes der et nyt sæt, og dimensionens kombinations-ID returneres.  
 
 ## <a name="building-search-tree"></a>Oprettelse af søgetræ  
- Tabel 481 **Trænode for dimensionsgruppe** bruges, når [!INCLUDE[d365fin](includes/d365fin_md.md)] evaluerer, om der allerede findes et sæt dimensioner i tabel 480 **Dimensionsgruppepost**. Evalueringen udføres ved rekursivt at gennemgå søgningstræet startende på øverste niveau, der er nummereret 0. Det øverste niveau 0 repræsenterer et dimensionssæt uden nogen dimensionssætposter. Underordnede til denne dimensionsgruppe repræsenterer dimensionsgrupper med kun én dimensionsgruppepost. Underordnede til disse dimensionsgrupper repræsenterer dimensionsgruppe med to underordnede, osv.  
+ Tabel 481 **Trænode for dimensionsgruppe** bruges, når [!INCLUDE[prod_short](includes/prod_short.md)] evaluerer, om der allerede findes et sæt dimensioner i tabel 480 **Dimensionsgruppepost**. Evalueringen udføres ved rekursivt at gennemgå søgningstræet startende på øverste niveau, der er nummereret 0. Det øverste niveau 0 repræsenterer et dimensionssæt uden nogen dimensionssætposter. Underordnede til denne dimensionsgruppe repræsenterer dimensionsgrupper med kun én dimensionsgruppepost. Underordnede til disse dimensionsgrupper repræsenterer dimensionsgruppe med to underordnede, osv.  
 
 ### <a name="example-1"></a>Eksempel 1  
  I følgende diagram præsenteres et søgetræ med seks dimensionsgrupper. Kun den distinkte dimensionsopsætningspost vises i diagrammet.  
@@ -41,14 +41,14 @@ Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!
 |Gruppe 6|AREA 40, PROJ VW|  
 
 ### <a name="example-2"></a>Eksempel 2  
- Dette eksempel viser, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] evaluerer, om en dimensionsgruppe, der består af dimensionsgruppeposterne AREA 40, DEPT PROD, findes.  
+ Dette eksempel viser, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] evaluerer, om en dimensionsgruppe, der består af dimensionsgruppeposterne AREA 40, DEPT PROD, findes.  
 
- Først opdaterer [!INCLUDE[d365fin](includes/d365fin_md.md)] også tabellen **Trænode for dimensionsgruppe** for at sikre, at søgetræet ligner følgende diagram. Dermed bliver dimensionsgruppe 7 underordnet dimensionsgruppe 5.  
+ Først opdaterer [!INCLUDE[prod_short](includes/prod_short.md)] også tabellen **Trænode for dimensionsgruppe** for at sikre, at søgetræet ligner følgende diagram. Dermed bliver dimensionsgruppe 7 underordnet dimensionsgruppe 5.  
 
  ![Eksempel på dimensionstræstruktur i NAV 2013](media/nav2013_dimension_tree_example2.png "Eksempel på dimensionstræstruktur i NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Søgning efter dimensionsgruppe-id  
- På et konceptuelt niveau kombineres og bruges **Overordnet id**, **Dimension** og **Dimensionsværdi** i søgetræet som den primære nøgle, fordi [!INCLUDE[d365fin](includes/d365fin_md.md)] gennemgår træet i samme rækkefølge som dimensionsposterne. Funktionen GET (post) bruges til at søge efter dimensionsgruppe-id. Følgende kodeeksempel viser, hvordan du kan finde dimensionsgruppe-id, når der er tre dimensionsværdier.  
+ På et konceptuelt niveau kombineres og bruges **Overordnet id**, **Dimension** og **Dimensionsværdi** i søgetræet som den primære nøgle, fordi [!INCLUDE[prod_short](includes/prod_short.md)] gennemgår træet i samme rækkefølge som dimensionsposterne. Funktionen GET (post) bruges til at søge efter dimensionsgruppe-id. Følgende kodeeksempel viser, hvordan du kan finde dimensionsgruppe-id, når der er tre dimensionsværdier.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  
@@ -60,7 +60,7 @@ EXIT(DimSet.ID);
 
 ```  
 
-Men for at bevare muligheden for, at [!INCLUDE[d365fin](includes/d365fin_md.md)] kan omdøbe både en dimension og en dimensionsværdi, er tabel 349, **Dimensionsværdi**, udvidet med et heltalsfelt, **Dimensionsværdi-id**. Denne tabel konverterer feltparret, **Dimension** og **Dimensionsværdi**, til en heltalsværdi. Heltalsværdien ændres ikke, når du omdøber dimensionen og dimensionsværdien.  
+Men for at bevare muligheden for, at [!INCLUDE[prod_short](includes/prod_short.md)] kan omdøbe både en dimension og en dimensionsværdi, er tabel 349, **Dimensionsværdi**, udvidet med et heltalsfelt, **Dimensionsværdi-id**. Denne tabel konverterer feltparret, **Dimension** og **Dimensionsværdi**, til en heltalsværdi. Heltalsværdien ændres ikke, når du omdøber dimensionen og dimensionsværdien.  
 
 ```  
 DimSet."Parent ID" := 0;  // 'root'  

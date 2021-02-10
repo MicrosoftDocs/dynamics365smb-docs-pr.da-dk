@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: e87809d33fb7fd511912cf6d384db0e488a8ff2d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e90fe0282af79f36fde145e22ae28818c4575bce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911601"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754063"
 ---
 # <a name="configuring-api-templates"></a>Konfiguration af API-skabeloner
-API-biblioteket til [!INCLUDE[d365fin_md](includes/d365fin_md.md)] giver en forenklet fremstilling af de underliggende objekter. Det er ikke alle egenskaber i programmet, der vises ved hjælp af den tilknyttede API. På siden **API-opsætning** kan du definere skabeloner, der bruges til at angive tomme egenskaber for en enhed, når du opretter en BOGF-handling via API'et. 
+API-biblioteket til [!INCLUDE[prod_short_md](includes/prod_short.md)] giver en forenklet fremstilling af de underliggende objekter. Det er ikke alle egenskaber i programmet, der vises ved hjælp af den tilknyttede API. På siden **API-opsætning** kan du definere skabeloner, der bruges til at angive tomme egenskaber for en enhed, når du opretter en BOGF-handling via API'et. 
 
 Hvis en konfigurationsskabelon defineres for vareobjektet, når der oprettes en ny post ved hjælp af varer-API'et, bliver egenskaber for den nye vare, der ikke er defineret i API-kaldet, f.eks. udfyldt med oplysninger fra den valgte skabelon. Hvis der f.eks. ikke er angivet en værdi i feltet **Produktbogføringsgruppe** ved hjælp af API'et, men der er angivet en værdi i den valgte skabelon, bliver værdien for bogføringsgruppen i skabelonen anvendt på den nye vare. 
 
@@ -44,7 +44,7 @@ Den definerede skabelon anvendes på en ny post, der oprettes via API'et, hvis o
 
 ## <a name="see-also"></a>Se også
 [API-dokumentation](/dynamics-nav/fin-graph)  
-[Udvikle Connect-apps til [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Udvikle Connect-apps til [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Aktivere API'erne](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Slutpunkter for API'erne](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  

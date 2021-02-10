@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09dfddfe26ee0e9b1cc6ca01661657a3b7fff411
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 044b09cb2dced1100665a6d5705f6e43672b5f12
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924899"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754588"
 ---
 # <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
 Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en person i organisationen, sendes en godkendelsesanmodning som en del af en arbejdsgang. Afhængigt af hvordan arbejdsgangen er konfigureret, får den relevante godkender derefter besked om, at posten kræver godkendelse.
@@ -85,4 +85,4 @@ Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle å
 [Salg](sales-manage-sales.md)    
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

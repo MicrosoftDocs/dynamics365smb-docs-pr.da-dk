@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fb5ede0362f54f8475807e10e1bad87beffaec02
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e90d17b2892744c768cd0383f91962fe51d2a0de
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922588"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752646"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Administrere virksomhedskonfigurationen i et regneark
 Konfigurationsregnearket er en central placering, hvor du kan planlægge, spore og udføre konfigurationsarbejdet. Du kan oprette et regneark for hver virksomhed, du arbejder med, eller oprette et standardkonfigurationsregneark, der kan bruges til at konfigurere flere identiske virksomheder.  
 
-Det første trin i at udarbejde en konfigurationspakke er at vælge en virksomhed, du allerede har oprettet og ændret, så den passer til de fleste af dine løsningsbehov. Denne virksomhed tjener som udgangspunkt for konfiguration af arbejde på nye selskaber. I regnearket skal du angive de tabeller, du ønsker, at din konfiguration skal styre og håndtere. Da de fleste tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] har relationer og afhængigheder af andre tabeller, skal du også medtage disse relaterede tabeller efter behov. Sammen fungerer disse tabeller som den struktur, du opbygger en ny virksomhed omkring. Efterfølgende trin kan hjælpe dig med at pakke og derefter installere din konfiguration.  
+Det første trin i at udarbejde en konfigurationspakke er at vælge en virksomhed, du allerede har oprettet og ændret, så den passer til de fleste af dine løsningsbehov. Denne virksomhed tjener som udgangspunkt for konfiguration af arbejde på nye selskaber. I regnearket skal du angive de tabeller, du ønsker, at din konfiguration skal styre og håndtere. Da de fleste tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] har relationer og afhængigheder af andre tabeller, skal du også medtage disse relaterede tabeller efter behov. Sammen fungerer disse tabeller som den struktur, du opbygger en ny virksomhed omkring. Efterfølgende trin kan hjælpe dig med at pakke og derefter installere din konfiguration.  
 
 Som en hjælp til at registrere og gennemse dit arbejde skal du bruge faktaboksen **Konfig.pakketabel** til at se oplysninger om poster. Brug faktaboksen **Konfig. relateret tabel** til at overvåge tabelrelationer.  
 
 Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger for din konfiguration.  
 
 ## <a name="to-open-the-configuration-worksheet"></a>Åbne konfigurationsregnearket  
-1.  I [!INCLUDE[d365fin](includes/d365fin_md.md)] skal du åbne den virksomhed, der er udgangspunkt for konfigurationen og derefter åbne dens rollecenter for RapidStart Services-implementering.  
+1.  I [!INCLUDE[prod_short](includes/prod_short.md)] skal du åbne den virksomhed, der er udgangspunkt for konfigurationen og derefter åbne dens rollecenter for RapidStart Services-implementering.  
 2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Føje en tabel til regnearket  
@@ -62,7 +62,7 @@ Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger f
     |**Medtag kun licenserede tabeller**|Markér afkrydsningsfeltet for kun at medtage de tabeller, som den licens, som du opretter regnearket under, giver dig adgang til.|
 
 3. I oversigtspanelet **Objekt** kan du efter behov angive filtre for at angive de tabeltyper, du vil medtage eller udelade.  
-4. Vælg knappen **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller føjes til kladden. Hver post på listen har en linje af typen **Tabel**.  
+4. Vælg knappen **OK**. [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller føjes til kladden. Hver post på listen har en linje af typen **Tabel**.  
 5. Du kan fjerne dublerede tabeloplysninger, som kan være resultatet af handlingen **Hent tabeller** ved at vælge handlingen **Slet dubletlinjer**. Dette vil fjerne dublerede tabeller, der har den samme kode til pakken.  
 6. Du kan føje tabeller til det regneark, der er relateret til en tabel, du har valgt. Gennemgå oplysningerne i faktaboksen **Relaterede tabeller** for at se, om der mangler tabeller. Hvis du vil føje relaterede tabeller til en bestemt tabel, skal du markere tabellen på listen og derefter vælge handlingen **Hent relaterede tabeller**.  
 
@@ -97,7 +97,7 @@ Følgende procedure beskriver, hvordan du tilføjer område- og gruppebetegnelse
 4. I feltet **Linjetype** skal du vælge **Gruppe**. Indtast et navn til området i feltet **Navn**. Gruppenavnet indrykkes automatisk.  
 5. Hvis du vil flytte tabeller til den relevante kategori, skal du vælge handlingen **Flyt op** eller **Flyt ned**. Du kan også slette en kladdelinje og indsætte tabellen igen på den krævede placering.  
 
-Nogle [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller, der er standard, og dataene i dem vil sandsynligvis ikke blive ændret fra implementering til implementering. Som en følge deraf kan du for at hjælpe din kunde fjerne disse tabeller fra regnearket, efter du har inkluderet dem i konfigurationspakken. Så snart tabellerne er tilføjet, forbliver de en del af konfigurationspakken.  
+Nogle [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller, der er standard, og dataene i dem vil sandsynligvis ikke blive ændret fra implementering til implementering. Som en følge deraf kan du for at hjælpe din kunde fjerne disse tabeller fra regnearket, efter du har inkluderet dem i konfigurationspakken. Så snart tabellerne er tilføjet, forbliver de en del af konfigurationspakken.  
 
 ## <a name="to-remove-a-standard-table-in-the-worksheet"></a>Fjerne en standardtabel i regnearket  
 Når du har føjet alle de nødvendige tabeller til en konfigurationspakke, kan du bestemme, hvilke tabeller der ikke kræver kundens opmærksomhed.  
@@ -114,11 +114,11 @@ Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få 
 1.  På siden **Konfigurationskladde** skal du identificere de tabeller, hvis data du ønsker at se eller tilpasse.  
 
     > [!NOTE]  
-    >  Sørg for, at hver enkelt tabel har fået tildelt et side-id. For standardtabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] angives værdien automatisk. For brugerdefinerede tabeller skal du angive id'et.  
+    >  Sørg for, at hver enkelt tabel har fået tildelt et side-id. For standardtabeller i [!INCLUDE[prod_short](includes/prod_short.md)] angives værdien automatisk. For brugerdefinerede tabeller skal du angive id'et.  
 
 2.  Vælg handlingen **Databasedata**.  
 
-     Siden [!INCLUDE[d365fin](includes/d365fin_md.md)] for siden åbnes.  
+     Siden [!INCLUDE[prod_short](includes/prod_short.md)] for siden åbnes.  
 
 3.  Gennemse de tilgængelige oplysninger. Rediger dem efter behov ved at slette poster, der ikke er relevante, eller ved tilføje nye.
 

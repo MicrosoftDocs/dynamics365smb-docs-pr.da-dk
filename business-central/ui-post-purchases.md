@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 687a63e1d53db4c120070de0a353b3501a335d27
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 78657265e45aa9eb01d56a65aab8366c24b3d39a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914931"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756738"
 ---
 # <a name="posting-purchases"></a>Bogføring af køb
 På et købsdokument kan du vælge mellem følgende bogføringshandlinger:
@@ -61,4 +61,4 @@ Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks feltet **Bet
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
 [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

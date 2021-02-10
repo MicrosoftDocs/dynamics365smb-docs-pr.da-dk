@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9063126f0b8bd1b9ef8deadcbeb0451b3009f10d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e70d34effb16c7fc4daa3bde19cf1fb0ac03902c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919459"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750301"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Overførsel og bogføring af omkostningsposter
 Inden du definerer omkostningsfordelinger, skal du forstå, hvordan omkostningsposter kommer fra følgende kilder:  
@@ -76,25 +76,25 @@ I omkostningsregnskab kan du overføre finansposter til en pristype ved hjælp a
 |Måned|Alle finansposter i den samme kalendermåned overføres som én post til den tilsvarende pristype.|  
 
 > [!IMPORTANT]  
->  Hvis du har markeret afkrydsningsfeltet **Automatisk overførsel fra finans** på siden **Konfiguration af omkostningsregnskab**, opdaterer [!INCLUDE[d365fin](includes/d365fin_md.md)] omkostningsregnskabet efter hver bogføring i regnskabet. Kombinerede poster er ikke mulige.
+>  Hvis du har markeret afkrydsningsfeltet **Automatisk overførsel fra finans** på siden **Konfiguration af omkostningsregnskab**, opdaterer [!INCLUDE[prod_short](includes/prod_short.md)] omkostningsregnskabet efter hver bogføring i regnskabet. Kombinerede poster er ikke mulige.
 
 ## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultater af overførsel af finansposter til omkostningsposter.
-Under overførslen af regnskabsposter til omkostningsposter opretter [!INCLUDE[d365fin](includes/d365fin_md.md)] forbindelser i posterne i tabellen **Finanspost**, tabellen **Omkostningspost** og tabellen **Omkostningsregister** for at gøre det muligt at spore forbindelserne mellem omkostningsposter og regnskabsposter.  
+Under overførslen af regnskabsposter til omkostningsposter opretter [!INCLUDE[prod_short](includes/prod_short.md)] forbindelser i posterne i tabellen **Finanspost**, tabellen **Omkostningspost** og tabellen **Omkostningsregister** for at gøre det muligt at spore forbindelserne mellem omkostningsposter og regnskabsposter.  
 
 ### <a name="general-ledger-entries"></a>Finansposter  
-For hver regnskabspost, der overføres til omkostningsregnskab, udfylder [!INCLUDE[d365fin](includes/d365fin_md.md)] omkostningsfeltet **Løbenr.**.  
+For hver regnskabspost, der overføres til omkostningsregnskab, udfylder [!INCLUDE[prod_short](includes/prod_short.md)] omkostningsfeltet **Løbenr.**.  
 
 ### <a name="cost-entries"></a>Omkostningsposter  
-For hver omkostningspost gemmer [!INCLUDE[d365fin](includes/d365fin_md.md)] løbenummeret på den tilsvarende regnskabspost i feltet **Finansløbenr.** i tabellen **Omkostningspost**.  
+For hver omkostningspost gemmer [!INCLUDE[prod_short](includes/prod_short.md)] løbenummeret på den tilsvarende regnskabspost i feltet **Finansløbenr.** i tabellen **Omkostningspost**.  
 
-For samlede omkostningsposter gemmer [!INCLUDE[d365fin](includes/d365fin_md.md)] løbenummer på den sidste regnskabspost, som er posten med det højeste løbenummer.  
+For samlede omkostningsposter gemmer [!INCLUDE[prod_short](includes/prod_short.md)] løbenummer på den sidste regnskabspost, som er posten med det højeste løbenummer.  
 
 Feltet **Finanskonto** i tabellen **Omkostningspost** indeholder nummeret på den finanskonto, som omkostningsposten stammer fra.  
 
-For enkelte omkostningsposter overfører [!INCLUDE[d365fin](includes/d365fin_md.md)] bogføringsteksten fra regnskabsposten til tekstfeltet **Beskrivelse**. For kombinerede poster viser tekstfeltet, at disse poster er overfører som kombinerede poster. For eksempel kan teksten for en kombineret post for oktober 2013 være **Kombinerede poster, oktober 2013**.  
+For enkelte omkostningsposter overfører [!INCLUDE[prod_short](includes/prod_short.md)] bogføringsteksten fra regnskabsposten til tekstfeltet **Beskrivelse**. For kombinerede poster viser tekstfeltet, at disse poster er overfører som kombinerede poster. For eksempel kan teksten for en kombineret post for oktober 2013 være **Kombinerede poster, oktober 2013**.  
 
 ### <a name="cost-register"></a>Omkostningsregister  
-I tabellen **Omkostningsregister** opretter [!INCLUDE[d365fin](includes/d365fin_md.md)] en post med kildeoverførsel fra regnskabet. Posten registrerer det første og sidste løbenummer for de finansposter, der overføres, foruden første og sidste postnummer på de omkostningsposter, der er oprettet.
+I tabellen **Omkostningsregister** opretter [!INCLUDE[prod_short](includes/prod_short.md)] en post med kildeoverførsel fra regnskabet. Posten registrerer det første og sidste løbenummer for de finansposter, der overføres, foruden første og sidste postnummer på de omkostningsposter, der er oprettet.
 
 ## <a name="see-also"></a>Se også  
  [Om omkostningsregnskab](finance-about-cost-accounting.md)   

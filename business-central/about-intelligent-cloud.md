@@ -10,25 +10,25 @@ ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2020
-ms.author: bmeier
-ms.openlocfilehash: 28bc5ac96d8a14ba57b4defa0140a065f81b0221
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: a186166e73d4c6dcda01bbda6ac2c88a18b2babb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914585"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753713"
 ---
-# <a name="intelligent-insights-with-prodshort-online"></a>Intelligent indsigt med [!INCLUDE[prodshort](includes/prodshort.md)] Online
+# <a name="intelligent-insights-with-prod_short-online"></a>Intelligent indsigt med [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-Som bruger af [!INCLUDE[prodshort](includes/prodshort.md)] online har du fuld adgang til scenarier, der er baseret på den intelligente sky, f.eks. KPI'er, der er baseret på maskinel indlæring, eller når du får vist dataene i Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-first service, men også de kunder, der udelukkende skal køre deres arbejdsbelastning lokalt eller på den intelligente edge, der er forbundet med skyen, kan gøre dette.  
+Som bruger af [!INCLUDE[prod_short](includes/prod_short.md)] online har du fuld adgang til scenarier, der er baseret på den intelligente sky, f.eks. KPI'er, der er baseret på maskinel indlæring, eller når du får vist dataene i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] er en cloud-first service, men også de kunder, der udelukkende skal køre deres arbejdsbelastning lokalt eller på den intelligente edge, der er forbundet med skyen, kan gøre dette.  
 
-Hvis du er interesseret i [!INCLUDE[prodshort](includes/prodshort.md)], kan du tilmelde dig en gratis prøveversion online, eller du kan vælge at arbejde med en partner for at implementere [!INCLUDE[prodshort](includes/prodshort.md)] lokalt på hardware efter dit eget valg. Du kan derefter vælge at få en intelligent indsigt ved at oprette forbindelse til en lejer i skyen. Data fra din on-premises installation af [!INCLUDE[prodshort](includes/prodshort.md)] kopieres derefter til skyen til brug for intelligente skyscenarier.  
+Hvis du er interesseret i [!INCLUDE[prod_short](includes/prod_short.md)], kan du tilmelde dig en gratis prøveversion online, eller du kan vælge at arbejde med en partner for at implementere [!INCLUDE[prod_short](includes/prod_short.md)] lokalt på hardware efter dit eget valg. Du kan derefter vælge at få en intelligent indsigt ved at oprette forbindelse til en lejer i skyen. Data fra din on-premises installation af [!INCLUDE[prod_short](includes/prod_short.md)] kopieres derefter til skyen til brug for intelligente skyscenarier.  
 
-Når du vil oprette forbindelse til den intelligente sky fra en lokal løsning, skal din systemadministrator angive oplysninger om din database. De værktøjer, der bruges til at forbinde din lokale installation med [!INCLUDE[prodshort](includes/prodshort.md)] online, er de samme, som også bruges til at overføre fra et lokalt miljø til et onlinemiljø. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet for [!INCLUDE[prodshort](includes/prodshort.md)].  
+Når du vil oprette forbindelse til den intelligente sky fra en lokal løsning, skal din systemadministrator angive oplysninger om din database. De værktøjer, der bruges til at forbinde din lokale installation med [!INCLUDE[prod_short](includes/prod_short.md)] online, er de samme, som også bruges til at overføre fra et lokalt miljø til et onlinemiljø. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Visning af intelligent skyindsigt i [!INCLUDE[prodshort](includes/prodshort.md)] online
+## <a name="viewing-intelligent-cloud-insights-in-prod_short-online"></a>Visning af intelligent skyindsigt i [!INCLUDE[prod_short](includes/prod_short.md)] online
 
-I din [!INCLUDE[prodshort](includes/prodshort.md)] online-virksomhed viser siden **Intelligent skyindsigt** fire vigtige steder, der er af interesse for de fleste virksomheder:
+I din [!INCLUDE[prod_short](includes/prod_short.md)] online-virksomhed viser siden **Intelligent skyindsigt** fire vigtige steder, der er af interesse for de fleste virksomheder:
 
 - Tilgængelig kassebeholdning
 - Salgsrentabilitet
@@ -44,7 +44,7 @@ Siden opretter også forbindelse til Power BI, hvor du kan få endnu flere oplys
 
 ## <a name="viewing-intelligent-insights-on-premises"></a>Visning af intelligent indsigt til det lokale miljø
 
-Når din Dynamics 365-videresalgspartner har fået den rigtige licens til din lokale løsning og kan oprette forbindelse til skyen ved hjælp af [!INCLUDE[prodshort](includes/prodshort.md)], kan din administrator oprette forbindelsen. Når det er gjort, kan du få samme indsigt fra skyen i dit lokale program. Afhængigt af din lokale løsning kan siden **Intelligent skyindsigt** integreres på startsiden eller på en separat side som i [!INCLUDE[prodshort](includes/prodshort.md)] online og til det lokale miljø.  
+Når din Dynamics 365-videresalgspartner har fået den rigtige licens til din lokale løsning og kan oprette forbindelse til skyen ved hjælp af [!INCLUDE[prod_short](includes/prod_short.md)], kan din administrator oprette forbindelsen. Når det er gjort, kan du få samme indsigt fra skyen i dit lokale program. Afhængigt af din lokale løsning kan siden **Intelligent skyindsigt** integreres på startsiden eller på en separat side som i [!INCLUDE[prod_short](includes/prod_short.md)] online og til det lokale miljø.  
 
 ## <a name="see-also"></a>Se også
 

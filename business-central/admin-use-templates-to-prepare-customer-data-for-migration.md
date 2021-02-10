@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922338"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745912"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Forberede overflytning af debitordata med skabeloner
 
@@ -28,7 +28,7 @@ Du opretter typisk dataskabeloner til følgende masterdatatabeller:
 - **Vare**  
 - **Kreditor**  
 
-Men du kan oprette en skabelonstruktur til og anvende den på alle tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Men du kan oprette en skabelonstruktur til og anvende den på alle tabeller i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > Du kan også bruge dataskabeloner til daglige operationer til at oprette nye poster, der er baseret på skabeloner. Disse dataskabeloner fungerer kun til de understøttede masterdatatabeller. Du kan f.eks. finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
@@ -87,7 +87,7 @@ Tabel-ID, tabelnavn og linjerne i den eksisterende dataskabelon indsættes i den
 3. Angiv en passende værdi i feltet **Standardværdi**. I nogle tilfælde vil du måske bruge en værdi, der ikke er en værdi, der er tilgængelig i databasen. Hvis det er tilfældet, kan du markere afkrydsningsfeltet **Spring relationskontrol over** for at gøre det muligt at anvende data uden fejl.
 
     > [!TIP]  
-    > Da feltet **Standardværdi** ikke har opslag til de tilsvarende [!INCLUDE[d365fin](includes/d365fin_md.md)]-feltindstillinger, skal du kopiere den ønskede værdi fra den relaterede side og indsætte den i skabelonen.
+    > Da feltet **Standardværdi** ikke har opslag til de tilsvarende [!INCLUDE[prod_short](includes/prod_short.md)]-feltindstillinger, skal du kopiere den ønskede værdi fra den relaterede side og indsætte den i skabelonen.
 
 4. Marker afkrydsningsfeltet **Obligatorisk**, hvis brugerne skal udfylde det pågældende felt.
 
@@ -98,7 +98,7 @@ Tabel-ID, tabelnavn og linjerne i den eksisterende dataskabelon indsættes i den
 
 ## <a name="to-export-to-a-template-in-excel"></a>Sådan udlæses til en skabelon i Excel
 
-Du kan hurtigt oprette en Excel-projektmappe, der skal fungere som en skabelon, der er baseret på strukturen i en eksisterende databasetabel. Derefter kan du bruge skabelonen til at indsamle debitordata i et ensartet format til senere import i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du kan hurtigt oprette en Excel-projektmappe, der skal fungere som en skabelon, der er baseret på strukturen i en eksisterende databasetabel. Derefter kan du bruge skabelonen til at indsamle debitordata i et ensartet format til senere import i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
 2. Tilføj en tabel på listen, eller vælg en eksisterende tabel. Du kan finde flere oplysninger i [Administrere virksomhedskonfigurationen i et regneark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -122,7 +122,7 @@ Når du anvender data fra en skabelon i Excel til en tabel, der også har en kon
 Enhver post, hvis data anvendes på denne måde, er fuldført, da den består af data, der er angivet af brugeren i Excel, plus de standardværdier, der er angivet af konfigurationsskabelonen.
 
 > [!NOTE]
-> Hvis dataene i tabellerne i konfigurationspakken indeholder datoer, f.eks. bogføringsdatoer på fakturaer, medtages datoerne i den tidszone, der er angivet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> Hvis dataene i tabellerne i konfigurationspakken indeholder datoer, f.eks. bogføringsdatoer på fakturaer, medtages datoerne i den tidszone, der er angivet i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Sådan opretter du en post fra en konfigurationsskabelon
 
@@ -140,7 +140,7 @@ Følgende trin illustrerer, hvordan du opretter et varekort fra en varedataskabe
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Bruge en konfigurationsskabelon på en post
 
-Du kan anvende en dataskabelon på enhver post, der er i [!INCLUDE[d365fin](includes/d365fin_md.md)], og bruge denne teknik til at ændre eller redigere en post. Men når du gør dette, overskriver du eksisterende værdier i posten med dem fra skabelonen. Derfor skal du være omhyggelig, når du anvender en skabelon til en eksisterende poster.
+Du kan anvende en dataskabelon på enhver post, der er i [!INCLUDE[prod_short](includes/prod_short.md)], og bruge denne teknik til at ændre eller redigere en post. Men når du gør dette, overskriver du eksisterende værdier i posten med dem fra skabelonen. Derfor skal du være omhyggelig, når du anvender en skabelon til en eksisterende poster.
 
 > [!WARNING]  
 > Funktionen **Anvend skabelonen** overskriver eksisterende data i en post. Hvis denne funktion bruges ved overflytning af masterdata, overskrives de importerede data, når du opretter poster.

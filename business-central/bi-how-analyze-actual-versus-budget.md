@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 587e41ebb4e700b376e555e761a4aa221b49b6c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a2a8ba7de175ae717dae42da44b719a9c920a15
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917647"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752251"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysere faktiske beløb sammenlignet med budgetterede beløb
 Som et led i indsamling, analyse og deling af virksomhedens data kan du få vist faktiske beløb sammenlignet med budgetterede beløb for alle konti og for flere perioder.
@@ -41,7 +41,7 @@ budget med dimensioner kan du filtrere poster og få vist et bestemt budget.
 >   Hvis du vil ændre budgettet, kan du redigere budgetposterne. Vælg et beløb for at få vist de underliggende finansbudgetposter.
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Sådan får du vist aktuelle og budgetterede beløb for alle konti  
-Du kan få vist finansbudgetter og sammenligne dem med faktiske tal i flere områder af [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du kan få vist finansbudgetter og sammenligne dem med faktiske tal i flere områder af [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
 2. På siden **Kontoplan** skal du vælge handlingen **Finans - saldi/budget**.
@@ -72,4 +72,4 @@ Du kan få vist et antal perioder for en enkelt konto i stedet for at få vist a
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

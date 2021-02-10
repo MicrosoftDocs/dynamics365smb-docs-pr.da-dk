@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8d764bcbf1a7f6a2bc97130eddbdc1a644f9f1c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 70fb5f5e1670dfbee3d8313099924321368f4e81
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914160"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750152"
 ---
 # <a name="adjust-item-costs"></a>Regulere varepriser
 Kostprisen for en vare (lagerværdi), du køber og senere sælger, kan ændres i varens levetid, fordi f.eks. en fragtomkostning føjes til købsprisen, når du har solgt varen. Omkostningsregulering er især relevant i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Hvis du altid vil kende den korrekte lagerværdi, skal varepriser regelmæssigt reguleres. Dette sikrer, at salgs- og indtjeningsstatistikkerne er opdateret, og at finansielle nøgletal er korrekte. Du kan finde flere oplysninger i [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md).
 
 Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardkostprisen for varer, der følger standardkostmetoden. For varer, der følger andre kostmetoder, baseres værdien på en beregning af lagerbeholdningen (fakturerede kostpriser og forventede kostpriser) divideret med varebeholdningen. Der er flere oplysninger i [Om kostværdi pr. enhed](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] reguleres varepriser automatisk, hver gang der forekommer en lagertransaktion, f.eks. når du bogfører en købsfaktura for en vare.
+I [!INCLUDE[prod_short](includes/prod_short.md)] reguleres varepriser automatisk, hver gang der forekommer en lagertransaktion, f.eks. når du bogfører en købsfaktura for en vare.
 
 Du kan også bruge en funktion til at regulere omkostningerne for en eller flere varer manuelt. Dette er nyttigt, når du f.eks. ved, at varepriser er ændret af andre årsager end varetransaktioner.
 
@@ -60,10 +60,10 @@ Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardk
 ## <a name="unit-cost-calculation-for-purchases"></a>Beregne kostpris ved køb  
  Når du køber varer, overføres værdien i feltet **Sidste købspris** på varekortet altid til feltet **Købspris** på en købslinje eller til linjen Pris på en serviceartikelkladdelinje.  
 
- Det, du vælger i feltet **Kostmetode**, har indflydelse på, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner indholdet i felterne **Kostpris** på linjerne.  
+ Det, du vælger i feltet **Kostmetode**, har indflydelse på, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner indholdet i felterne **Kostpris** på linjerne.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Kostmetoden FIFO, LIFO, Serienummer eller Gennemsnit  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner indholdet af feltet **Kostpris RV** på købslinjen og indholdet af feltet **Kostpris** på serviceartikelkladdelinjen beregnes efter følgende formel:  
+ [!INCLUDE[prod_short](includes/prod_short.md)] beregner indholdet af feltet **Kostpris RV** på købslinjen og indholdet af feltet **Kostpris** på serviceartikelkladdelinjen beregnes efter følgende formel:  
 
  Kostpris (RV) = (Direkte kostpris - (Fakturarabatbeløb/Antal)) x (1 + Omkostningspct./100) + IPO-bidrag  
 
@@ -78,11 +78,11 @@ Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardk
 ## <a name="unit-cost-calculation-for-sales"></a>Beregne kostpris ved salg  
  Når du sælger varer, overføres kostprisen altid fra feltet Kostpris på varekortet til salgslinjen eller serviceartikelkladdelinjen.  
 
- Når du bogfører overføres kostprisen til salgsfakturaposten, og den kan ses på varens postoversigt. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger kostprisen fra kildedokumentlinjen til beregne indholdet af feltet **Kostbeløb faktisk** eller, hvis det er relevant, feltet **Kostbeløb forventet** i den værdipost, der er forbundet med denne varepost.  
+ Når du bogfører overføres kostprisen til salgsfakturaposten, og den kan ses på varens postoversigt. [!INCLUDE[prod_short](includes/prod_short.md)] bruger kostprisen fra kildedokumentlinjen til beregne indholdet af feltet **Kostbeløb faktisk** eller, hvis det er relevant, feltet **Kostbeløb forventet** i den værdipost, der er forbundet med denne varepost.  
 
 ## <a name="see-also"></a>Se også
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

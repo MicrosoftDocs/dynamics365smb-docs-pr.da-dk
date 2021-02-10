@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e4bf13885ccd7888e1750f4351741150df7b7df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923816"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746212"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 
@@ -25,7 +25,7 @@ Varekort indeholder de oplysninger, der kræves for at købe, opbevare, sælge, 
 
 Varekortet kan være af typen **Lager**, **Service** eller **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke spores på lageret. Du kan finde flere oplysninger i [Om varetyper](inventory-about-item-types.md).
 
-En vare kan struktureres som en overordnet vare med underliggende underordnede varer på en stykliste. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en stykliste enten være en montagestykliste eller en produktionsstykliste, afhængigt af dens anvendelse. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
+En vare kan struktureres som en overordnet vare med underliggende underordnede varer på en stykliste. I [!INCLUDE[prod_short](includes/prod_short.md)] kan en stykliste enten være en montagestykliste eller en produktionsstykliste, afhængigt af dens anvendelse. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
 
 Hvis du køber den samme vare fra flere forskellige leverandører, kan du forbinde disse leverandører på varekortet. Leverandørerne vises derefter på siden **Vare/leverandører**, så du nemt kan vælge en anden leverandør.
 
@@ -96,7 +96,7 @@ Hvis du har bogført en postering for en vare, kan du ikke slette kortet, da pos
 
 ## <a name="manage-inventory-in-warehouses"></a>Administration af lager på lagersteder
 
-Når du registrerer en ny vare, kan du se de felter, der er relateret til lagerstedsstyringen, især i oversigtspanelet **Lagersted**. Hvis organisationen ikke bruger warehouse management capabilities i [!INCLUDE [prodshort](includes/prodshort.md)], kan du ignorere disse felter.  
+Når du registrerer en ny vare, kan du se de felter, der er relateret til lagerstedsstyringen, især i oversigtspanelet **Lagersted**. Hvis organisationen ikke bruger warehouse management capabilities i [!INCLUDE [prod_short](includes/prod_short.md)], kan du ignorere disse felter.  
 
 Hvis organisationen på et senere tidspunkt opsætter logistik, skal du i de fleste tilfælde gå tilbage til hver eksisterende vare for at sikre, at det indeholder de relevante oplysninger i de forskellige felter, så lager processerne kan køre som forventet. Disse oplysninger kan omfatte felter som **Lagerklassekode** eller **Læg på lager-skabelonkode**. Du kan finde flere oplysninger i [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 
@@ -110,4 +110,4 @@ Hvis organisationen på et senere tidspunkt opsætter logistik, skal du i de fle
 [Konfigurere bogføringsgrupper](finance-posting-groups.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

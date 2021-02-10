@@ -10,37 +10,37 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f4927fb91195e88e71a73a6fce774d9dfb0ff685
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7c5954bfd8b8186638c3a696d355fdeb4b7c9d59
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924424"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752376"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurere tjenesten Envestnet Yodlee Bank Feeds
 
 Du kan importere elektroniske bankkontoudtog fra din bank, så du hurtigt kan udfylde siden **Betalingsudligningskladde** og kan udligne betalinger og afstemme bankkontoen. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!IMPORTANT]
-> På grund af betalingstjenestedirektivet i Europa (PSD2) kan du efter den 14. september 2019 ikke længere automatisk importere bankkontoudtog fra banker i Storbritannien til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vi overvejer evt. at tilbyde denne funktion igen i fremtiden.
+> På grund af betalingstjenestedirektivet i Europa (PSD2) kan du efter den 14. september 2019 ikke længere automatisk importere bankkontoudtog fra banker i Storbritannien til [!INCLUDE[prod_short](includes/prod_short.md)]. Vi overvejer evt. at tilbyde denne funktion igen i fremtiden.
 
 > [!NOTE]
 > Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i onlineversionen af Business Central. Hvis du vil bruge denne funktion i det lokale miljø, skal du anskaffe en cobrand-konto fra Envestnet, og du skal tilføje kode for at integrere med Yodlee-API'en.
 >
 > Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i USA og Canada.
-> Kun banker, der er hjemmehørende i disse lande/områder, understøttes, selvom bankerne fra andre lande/områder kan blive vist i Envestnet Yodlee Bank Feeds-vinduet til bankvalg i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Kun banker, der er hjemmehørende i disse lande/områder, understøttes, selvom bankerne fra andre lande/områder kan blive vist i Envestnet Yodlee Bank Feeds-vinduet til bankvalg i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]
 > Kontakt Microsoft Support for at få teknisk hjælp til funktionen Envestnet Yodlee. Kontakt ikke Envestnet Yodlee. Du kan finde flere oplysninger under [Konfigurere teknisk support til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/technical-support).
 
-Tjenesten Envestnet Yodlee Bank Feeds er installeret som en udvidelse af [!INCLUDE[d365fin](includes/d365fin_md.md)] online og er klar til at blive aktiveret i understøttede lande/områder. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md).
+Tjenesten Envestnet Yodlee Bank Feeds er installeret som en udvidelse af [!INCLUDE[prod_short](includes/prod_short.md)] online og er klar til at blive aktiveret i understøttede lande/områder. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md).
 
 Når du har aktiveret bankfeedtjenesten, skal du knytte en bankkonto til onlinebankkontoen, som feedet kommer fra. Du kan knytte bankkonti til online bankkonti i forskellige følgende scenarier:
 
-* Der findes ikke en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] for din onlinebankkonto. Derfor skal du oprette bankkontoen ved at tilknytte den fra onlinebankkontoen.
-* Der findes en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du kan tilknytte en onlinebankkonto.
+* Der findes ikke en bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)] for din onlinebankkonto. Derfor skal du oprette bankkontoen ved at tilknytte den fra onlinebankkontoen.
+* Der findes en bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)], som du kan tilknytte en onlinebankkonto.
 * Tilknytningen skal fjernes fra en tilknyttet bankkonto, fordi du ikke længere vil bruge bankfeedtjenesten for kontoen.
-* Onlinebankkonti er ændret, og du kan opdatere oplysninger om bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+* Onlinebankkonti er ændret, og du kan opdatere oplysninger om bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Når bankfeedtjenesten er aktiveret, kan du indstille en bankkonto til automatisk at importere nye kontoudtog fra banken til siden **Betalingsudligningskladde** hver anden time. Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt på siden **Betalingsudligningskladde** importeres ikke. Du kan finde flere oplysninger i afsnittet “Sådan aktiveres automatisk import af kontoudtog fra banken”.
 
@@ -66,22 +66,22 @@ Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede on
 3. På siden **Tilknytning af online bankkonto** i ruden **Tilknyt konto** skal du bruge søgefunktionen til at finde den bank, hvor du har en eller flere online bankkonti.
 4. Vælg bankens navn. Ruden **Log på** åbnes.
 5. Angiv det brugernavn og den adgangskode, som du bruger til at logge på onlinebanken, og vælg derefter knappen **Næste**.  
-6. Bankfeedtjenesten forbereder at knytte den første onlinebankkonto i den angivne bank til en ny bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+6. Bankfeedtjenesten forbereder at knytte den første onlinebankkonto i den angivne bank til en ny bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)].
 
     > [!NOTE]  
-    > Hvis du har mere end én onlinebankkonto i banken, skal du oprette flere bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] for kontiene. Se trin 8 til 10.  
+    > Hvis du har mere end én onlinebankkonto i banken, skal du oprette flere bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)] for kontiene. Se trin 8 til 10.  
 
     Når processen er fuldført, vises bankens navn i ruden **Mine konti** på fanen **Tilknyttet**. Tallet i parentes angiver, hvor mange online bankkonti der er tilknyttet.  
 7. Vælg knappen **OK**.
 
     Hvis du kun sammenkæder én onlinebankkonto, åbnes siden **Bankkontokort** og viser navnet på onlinebankkontoen. Hvis det er tilfældet, er processen med at tilknytte bankkontoen fuldført. Nu mangler du kun at konfigurere bankkontoen. Du kan finde flere oplysninger i [Oprette bankkonti](bank-how-setup-bank-accounts.md).
 
-    Hvis du tilknytter mere end én onlinebankkonto, åbnes siden **Tilknytning af bankkonto** og viser de onlinebankkonti, der endnu ikke er knyttet til bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I dette tilfælde skal du følge det næste trin.  
+    Hvis du tilknytter mere end én onlinebankkonto, åbnes siden **Tilknytning af bankkonto** og viser de onlinebankkonti, der endnu ikke er knyttet til bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)]. I dette tilfælde skal du følge det næste trin.  
 8. På siden **Tilknytning af bankkonto** skal du vælge linjen for en onlinebankkonto og derefter vælge handlingen **Sammenkæd med ny bankkonto**.  
 
     Siden **Bankkontokort** for en ny bankkonto åbnes og viser navnet på onlinebankkontoen.
 
-    Hvis der findes allerede en bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du vil knytte den ekstra onlinebankkonto til, skal du følge næste trin.  
+    Hvis der findes allerede en bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)], som du vil knytte den ekstra onlinebankkonto til, skal du følge næste trin.  
 9. På siden **Tilknytning af bankkonto** skal du vælge linjen for en onlinebankkonto og derefter vælge handlingen **Sammenkæd med eksisterende bankkonto**.
 10. Brug siden **Bankkontooversigt** til at vælge den bankkonto, som du vil oprette en tilknytning til, og vælg derefter knappen **OK**.
 
@@ -91,7 +91,7 @@ Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede on
 3. Vælg bankens navn. Ruden **Log på** åbnes.
 4. Angiv det brugernavn og den adgangskode, som du bruger til at logge på onlinebanken, og vælg derefter knappen **Næste**.  
 
-    Bankfeedtjenesten forbereder at knytte din bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] til den relaterede onlinebankkonto.  
+    Bankfeedtjenesten forbereder at knytte din bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)] til den relaterede onlinebankkonto.  
 
     Når processen er fuldført, vises bankens navn i ruden **Mine konti** på fanen **Tilknyttet**. Hvis banken har mere end en bankkonto, knyttes den bankkonto, som du valgte i trin 2.  
 5. Vælg knappen **OK**.
@@ -129,5 +129,5 @@ Hver time viser siden **Betalingsudligningskladde** nye betalinger, der foretage
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

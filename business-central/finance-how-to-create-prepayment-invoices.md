@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 57284dc738ba35c9865bd25f9c180827d4c59c94
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5f227cc73531111ae15f69d6fba5ac541e28560c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913367"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746862"
 ---
 # <a name="create-prepayment-invoices"></a>Oprette forudbetalingsfakturaer
 
@@ -63,7 +63,7 @@ Følgende procedure beskriver, hvordan du fakturerer en forudbetaling for en sal
 Du kan udstede flere forudbetalingsfakturaer til ordren. I så fald skal du øge forudbetalingsbeløbet på en eller flere linjer, justere dokumentdatoen, hvis det er nødvendigt, og bogføre forudbetalingsfakturaen. Der oprettes en ny faktura, som dækker differencen mellem de forudbetalte beløb, der er faktureret indtil videre, og det nye forudbetalingsbeløb.  
 
 > [!NOTE]  
-> Hvis du befinder dig i USA, kan du ikke ændre forudbetalingsprocenten, når forudbetalingsfakturaen er blevet bogført. Dette forhindres i den amerikanske version af [!INCLUDE[d365fin](includes/d365fin_md.md)], fordi beregningen af moms ellers ville være forkert.  
+> Hvis du befinder dig i USA, kan du ikke ændre forudbetalingsprocenten, når forudbetalingsfakturaen er blevet bogført. Dette forhindres i den amerikanske version af [!INCLUDE[prod_short](includes/prod_short.md)], fordi beregningen af moms ellers ville være forkert.  
 
  Når du er klar til at bogføre resten af fakturaen, skal du benytte samme fremgangsmåde som med alle andre fakturaer, hvorefter det forudbetalte beløb automatisk trækkes fra det forfaldne beløb.  
 
@@ -72,4 +72,4 @@ Du kan udstede flere forudbetalingsfakturaer til ordren. I så fald skal du øge
 [Fakturere forudbetalinger](finance-invoice-prepayments.md)  
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

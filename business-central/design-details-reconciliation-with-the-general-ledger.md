@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f3a90142081ad0bc3096bdde1830924c2998d68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917272"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751226"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designoplysninger: Afstemning med Finans
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, produktionsafgang eller nedreguleringer, registreres ændringen i antal og værdi for lageret i vareposterne og værdiposterne. Det næste trin i processen er at bogføre lagerværdierne på lagerkontiene i finansregnskabet.  
@@ -123,4 +123,4 @@ Du kan finde flere oplysninger om forholdet mellem kontotyperne og de forskellig
 [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40c5b81ec3cb4022e45358020b816cb9d368bb82
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914135"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746338"
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
@@ -28,10 +28,10 @@ Du kan få vist disponeringen for alle varer pr. lokation, og du kan få vist di
 
 Hvis du bruger lageraktivitet, varierer tilgængeligheden afhængigt af allokeringer på placeringsniveauet, når lageraktiviteter som pluk og bevægelser forekommer, og når lagerreservationssystemet pålægger begrænsninger, der skal overholdes. En meget kompleks algoritme kontrollerer, at alle betingelser er opfyldt, før der tildeles antal til pluk for udgående forløb. Du kan finde flere oplysninger i [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver tilgængelighedstal typisk vist i to forskellige felter, med hver sin definition:
+I [!INCLUDE[prod_short](includes/prod_short.md)] bliver tilgængelighedstal typisk vist i to forskellige felter, med hver sin definition:
 
 * Feltet **Lager**, som også kaldes **Lagerbeholdning**, viser den faktiske lagerbeholdning i dag ud fra de bogførte vareposter.
-* Feltet **Planlagt disponibel balance** beregnes og viser lagerbeholdningen plus fastlagte tilgange minus bruttobehovet. (I [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer fastlagte tilgange antal på købsordrer og indgående overflytningsordrer. Bruttobehov omfatter antal på salgsordrer og udgående overflytningsordrer).
+* Feltet **Planlagt disponibel balance** beregnes og viser lagerbeholdningen plus fastlagte tilgange minus bruttobehovet. (I [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer fastlagte tilgange antal på købsordrer og indgående overflytningsordrer. Bruttobehov omfatter antal på salgsordrer og udgående overflytningsordrer).
 
 > [!TIP]  
 >   Den planlagte disponible saldo er især relevant at få vist på siderne **Varedisponering pr. periode** og **Varedisponering pr. hændelse**, da de indeholder datodimensionen.  

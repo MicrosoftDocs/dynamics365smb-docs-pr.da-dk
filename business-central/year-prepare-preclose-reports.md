@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7f9421ec564c9117da41674bb22fb3fc58c6a2a4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923116"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755513"
 ---
 # <a name="using-pre-closing-reports"></a>Bruge rapporter før afslutning
 Der findes mange standardrapporter, som du kan bruge til at bekræfte nøjagtigheden af kontiene, inden du afslutter regnskaberne i slutningen af et år eller en periode. Du kan f.eks. bruge rapporten **Debitor - balance** til at bekræfte, at balancen for en debitorbogføringsgruppe er lig med balancen for den tilsvarende finanskonto på en bestemt dato.
@@ -39,5 +39,5 @@ Klik for at se en rapport, vælg ikonet ![Elpære, der åbner funktionen Fortæl
 
 ## <a name="see-also"></a>Se også
 [Afslutning af år og perioder](year-close-years-periods.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

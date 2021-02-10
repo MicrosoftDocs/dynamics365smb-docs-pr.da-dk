@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79f893007ab2c81140744a042fed24d1b932a4da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60080b0a8982420ff2f3a6654d496395733bc425
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917203"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749214"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Definere anlægsreparation
 For at administrere vedligeholdelse af anlæg, skal du først angive nogle generelle reparationsoplysninger, en bogføringskonto for reparationsomkostninger og reparationskoder for forskellige typer arbejde, f.eks rutineeftersyn eller reparation.
@@ -49,4 +49,4 @@ Hvis du vil bogføre reparationsudgifter, skal du først angive et kontonummer p
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

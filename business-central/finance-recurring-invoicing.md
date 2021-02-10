@@ -11,17 +11,17 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910801"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750476"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Arbejde med tilbagevendende indtægt i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Arbejde med tilbagevendende indtægt i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mange virksomheder skifter fra en forretningsindtægtsmodel, hvor indtægten kommer fra en kundes engangskøb, til en abonnementsmodel, hvor indtægten sker på en tilbagevendende basis, så der er uafbrudt adgang til levering af en vare eller en service.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] giver følgende muligheder for at automatisere, hvordan du afsender abonnementsfakturaer til kunder og registrerer tilbagevendende indtægter. 
+[!INCLUDE[prod_short](includes/prod_short.md)] giver følgende muligheder for at automatisere, hvordan du afsender abonnementsfakturaer til kunder og registrerer tilbagevendende indtægter. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Registrere indtægt via en finansgentagelseskladde
 
@@ -31,7 +31,7 @@ En gentagelseskladde er en finanskladde med specifikke felter til styring af tra
 
 Med denne mulighed kan du angive fleksible faktureringsperioder med [datoformler](ui-enter-date-ranges.md#using-date-formulas).
 
-Men hvis du vælger denne mulighed, kan du ikke udskrive og sende fakturaer i standardversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Men hvis du vælger denne mulighed, kan du ikke udskrive og sende fakturaer i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Du kan finde flere oplysninger under [Arbejde med gentagelseskladder](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -57,7 +57,7 @@ Hvis du ofte har brug at oprette salgs- og købslinjer med næsten ens oplysning
 
 Med denne indstilling kan du tildele samme gentagelseslinjer til flere kunder. Du kan definere gyldighedsperioden for tilbagevendende salgslinjer for en specifik kunde. Du kan tildele flere gentagelseslinjer for den samme kunde, og alle disse vil blive medtaget i fakturaen.
 
-Det er imidlertid ikke muligt at angive faste priser for varer, da [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger faktiske priser og rabatter, der er gældende på bilagsdatoen, og forsøger derefter at finde den bedste kombination, der giver den laveste pris.  
+Det er imidlertid ikke muligt at angive faste priser for varer, da [!INCLUDE[prod_short](includes/prod_short.md)] bruger faktiske priser og rabatter, der er gældende på bilagsdatoen, og forsøger derefter at finde den bedste kombination, der giver den laveste pris.  
 
 Du kan finde flere oplysninger i [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ Denne indstilling kræver imidlertid en Premium-licens. Konfiguration af service
 Du kan finde flere oplysninger under [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md) og [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Relaterede funktioner
-Der er flere relaterede funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Der er flere relaterede funktioner i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Rammesalgsordrer
 
@@ -103,7 +103,7 @@ Med denne mulighed kan du vælge mellem faste og "bedste" priser.
 
 Dette er dog kun tilgængeligt i Norge. Gyldighedsperioden kan defineres på tilbagevendende grupperingsniveau.
 
-Du kan finde flere oplysninger under [Tilbagevendende ordrer (Norge)](/localfunctionality/norway/recurring-orders.md).
+Du kan finde flere oplysninger i [Gentagelse af ordrer](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Tilbagevendende indtægt og abonnementsfakturering fra andre udbydere
 
@@ -120,4 +120,4 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvid
 [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md)  
-[Tilbagevendende ordrer (Norge)](/localfunctionality/norway/recurring-orders.md)  
+[Tilbagevendende ordrer (Norge)](LocalFunctionality/Norway/recurring-orders.md)  

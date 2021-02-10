@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb6abdb25db5567a49e394b3f13f257e3a97cf1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca9f3dc4cbc21cad8a2369ed4c29ab6682723cc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921168"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754688"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
-Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
+Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
 
 Som forberedelse til oprettelse af en dataudvekslingsdefinition for en datafil eller -stream, kan du bruge det relaterede XML-skema til at definere, hvilke dataelementer der skal indgå, i oversigtspanelet **Kolonnedefinitioner**. Se trin 6 i [Sådan beskrives formateringen af linjer og kolonner i filen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Du kan finde flere oplysninger i [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
@@ -37,7 +37,7 @@ Dette emne indeholder følgende procedurer:
 Opretter en dataudvekslingsdefinition, der omfatter to opgaver:  
 
 1. På siden **Dataudvekslingsdefinition** skal du beskrive formateringen af linjer og kolonner i filen.  
-2. På siden **Dataudvekslingskobling** skal du knytte kolonner i datafilen til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+2. På siden **Dataudvekslingskobling** skal du knytte kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Dette beskrives i følgende fremgangsmåder.  
 
@@ -55,7 +55,7 @@ Dette beskrives i følgende fremgangsmåder.
     |**Navn**|Angiv et navn for dataudvekslingsdefinitionen.|  
     |**Filtype**|Angiv hvilken filtype, som dataudvekslingsdefinitionen bruges til. Du kan vælge mellem fire filtyper:<br /><br /> -   **XML**: Lagdelte strenge bestående af indhold og markeringer omgivet af koder, der angiver funktionen.<br />-   **Variabeltekst**: Poster har variabel længde og adskilles af et tegn, f.eks komma eller semi\-kolon. Også kendt som *afgrænset fil*.<br />-   **Fast tekst**: Poster har samme længde ved brug af numeriske tegn, og hver post er placeret på en separat linje. Også kendt som *fil med fast bredde*.<br />- **JSON**: Lagdelte strenge bestående af indhold i JavaScript.|  
     |**Type**|Angiv, hvilken type forretningsaktiviteter dataudvekslingsdefinitionen bruges til, f.eks. **eksport af betaling**.|  
-    |**Codeunit til datahåndtering**|Angiv den kodeenhed, der overfører data til og fra tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit til datahåndtering**|Angiv den kodeenhed, der overfører data til og fra tabellerne i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Valideringscodeunit**|Angiv den kodeenhed, der bruges til at validere data mod foruddefinerede forretningsregler.|  
     |**Læser/skriver codeunit**|Angiv den kodeenhed, der behandler importerede data før tilknytning og eksporterede data efter tilknytning.|  
     |**Læser/skriver XMLport**|Angiv den XMLport, hvor en importeret datafil eller tjeneste indsættes før tilknytning, og hvor de eksporterede data findes, når de skrives til en datafil eller tjeneste efter tilknytning.|  
@@ -95,7 +95,7 @@ Dette beskrives i følgende fremgangsmåder.
     |**Kolonnenr.**|Angiv det nummer, der afspejler kolonnens placering på linjen i filen.<br /><br /> For XML-filer, skal du angive det tal, der afspejler elementtypen i den fil, der indeholder dataene.|  
     |**Navn**|Angiv navnet på kolonnen.<br /><br /> For XML-filer skal du angive koden, der markerer de data, der skal udveksles.|  
     |**Datatype**|Angiv, om data, der skal udveksles, er af typen **Tekst**, **Dato** eller **Decimal**.|  
-    |**Dataformat**|Angiv dataformatet, hvis relevant. Det kan f.eks. være **MM-dd-åååå**, hvis datatypen er **Dato**. **Bemærk:** Hvis du vil eksportere, skal du angive dataformatet i overensstemmelse med [!INCLUDE[d365fin](includes/d365fin_md.md)]. I forbindelse med import skal du angive dataformatet i overensstemmelse med .NET Framework. Du kan finde flere oplysninger i [Standarddato- og tidsformatstrenge](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Dataformat**|Angiv dataformatet, hvis relevant. Det kan f.eks. være **MM-dd-åååå**, hvis datatypen er **Dato**. **Bemærk:** Hvis du vil eksportere, skal du angive dataformatet i overensstemmelse med [!INCLUDE[prod_short](includes/prod_short.md)]. I forbindelse med import skal du angive dataformatet i overensstemmelse med .NET Framework. Du kan finde flere oplysninger i [Standarddato- og tidsformatstrenge](https://go.microsoft.com/fwlink/?LinkID=323466).|  
     |**Dataformatering**|Angiv dataformatets kultur, hvis relevant. Det kan f.eks. være **en-US**, hvis datatypen er **Decimal**, så du sikrer, at komma bruges som .000-separator i henhold til det amerikanske format. Du kan finde flere oplysninger i [Standarddato- og tidsformatstrenge](https://go.microsoft.com/fwlink/?LinkID=323466). **Bemærk:** Dette felt er kun relevant for import.|  
     |**Længde**|Angiv længden af fast bredde for linjen, der indeholder kolonnen, hvis datafilen er af typen **Fast tekst**.|  
     |**Beskrivelse**|Angiv en beskrivelse af kolonnen, hvis du ønsker flere oplsyninger.|  
@@ -103,14 +103,14 @@ Dette beskrives i følgende fremgangsmåder.
     |**Identifikator for minustegn**|Angiv den værdi, der bruges i datafilen til at identificere negative beløb i datafiler, der ikke kan indeholde negative tegn. Dette id bruges derefter til at tilbageføre de identificerede beløb til negative tegn under import. **Bemærk:** Dette felt er kun relevant for import.|  
     |**Konstant**|Angiv de data, du vil eksportere i denne kolonne, som f.eks. ekstra oplysninger om betalingstypen. **Bemærk:** Dette felt er kun relevant for eksport.|  
 
-9. Gentag trin 8 for hver kolonne eller hvert XML-element i den datafil, der indeholder data, du vil udveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+9. Gentag trin 8 for hver kolonne eller hvert XML-element i den datafil, der indeholder data, du vil udveksle med [!INCLUDE[prod_short](includes/prod_short.md)].  
 
- Det næste trin i oprettelsen af en definition til udveksling af data er at beslutte, hvilke kolonner eller XML-elementer i datafilen, der skal knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Det næste trin i oprettelsen af en definition til udveksling af data er at beslutte, hvilke kolonner eller XML-elementer i datafilen, der skal knyttes til hvilke felter i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!NOTE]  
->  Den bestemte tilknytning afhænger af forretningsformålet med den datafil, der skal udveksles, og af lokale variationer. Selv SEPA-bankstandarden har lokale variationer. [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter import af SEPA CAMT-bankkontoudtogsfiler out\-of\-the\-box. Dette repræsenteres ved registreringskoden til dataudvekslingsdefinitionen **SEPA CAMT** på siden **Dataudvekslingsdefinitioner**. Du kan finde oplysninger om den specifikke felttilknytning for denne SEPA CAMT-understøttelse i [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Den bestemte tilknytning afhænger af forretningsformålet med den datafil, der skal udveksles, og af lokale variationer. Selv SEPA-bankstandarden har lokale variationer. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter import af SEPA CAMT-bankkontoudtogsfiler out\-of\-the\-box. Dette repræsenteres ved registreringskoden til dataudvekslingsdefinitionen **SEPA CAMT** på siden **Dataudvekslingsdefinitioner**. Du kan finde oplysninger om den specifikke felttilknytning for denne SEPA CAMT-understøttelse i [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-prod_short"></a>Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]  
 > [!TIP]
 > Nogle gange er værdierne i de felter, du vil tilknytte, forskellige. For eksempel er sprogkoden for USA i én forretningsapp "U.S.", mens den i den anden er "US". Det betyder, at du skal transformere værdien, når du udveksler data. Dette sker gennem transformationsregler, som du definerer for felterne. Du kan finde flere oplysninger under [Transformationsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
@@ -120,13 +120,13 @@ Dette beskrives i følgende fremgangsmåder.
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Tabel-id**|Angiv den tabel, der indeholder felterne, til eller fra hvilke data udveksles i henhold til tilknytningen.|  
-    |**Brug som midlertidig tabel**|Angiv, om den tabel, du vælger i feltet **Tabel-id**, er en midlertidig tabel, hvor de importerede data gemmes, før de knyttes til måltabellen.<br /><br /> Du kan bruge en midlertidige tabel, når dataudvekslingsdefinitionen bruges til at importere og konvertere elektroniske dokumenter, f.eks kreditorfakturaer til købsfakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).|  
+    |**Brug som midlertidig tabel**|Angiv, om den tabel, du vælger i feltet **Tabel-id**, er en midlertidig tabel, hvor de importerede data gemmes, før de knyttes til måltabellen.<br /><br /> Du kan bruge en midlertidige tabel, når dataudvekslingsdefinitionen bruges til at importere og konvertere elektroniske dokumenter, f.eks kreditorfakturaer til købsfakturaer i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).|  
     |**Navn**|Angiv et navn for tilknytningsopsætningen.|  
-    |**Codeunit til førtilknytning**|Angiv den kodeenhed, der klargør tilknytningen mellem felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data.|  
-    |**Koblings-codeunit**|Angiv den kodeenhed, der bruges til at knytte de angivne kolonner eller XML-dataelementer til felter i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Codeunit til eftertilknytning**|Angiv den kodeenhed, der fuldfører tilknytningen mellem felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data. **Bemærk:** Når AMC Banking 365 Fundamentals-udvidelsen anvendes, konverterer codeunit eksporterede data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til et generisk format, der er klar til eksport. I forbindelse med import konverterer kodeenheden eksterne data til et format, der er klar til import i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Codeunit til førtilknytning**|Angiv den kodeenhed, der klargør tilknytningen mellem felter i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data.|  
+    |**Koblings-codeunit**|Angiv den kodeenhed, der bruges til at knytte de angivne kolonner eller XML-dataelementer til felter i [!INCLUDE[prod_short](includes/prod_short.md)].|  
+    |**Codeunit til eftertilknytning**|Angiv den kodeenhed, der fuldfører tilknytningen mellem felter i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data. **Bemærk:** Når AMC Banking 365 Fundamentals-udvidelsen anvendes, konverterer codeunit eksporterede data fra [!INCLUDE[prod_short](includes/prod_short.md)] til et generisk format, der er klar til eksport. I forbindelse med import konverterer kodeenheden eksterne data til et format, der er klar til import i [!INCLUDE[prod_short](includes/prod_short.md)].|  
 
-3.  Brug oversigtspanelet **Feltkobling** til at angive, hvilke kolonner der knyttes til hvilke felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved at udfylde felterne som beskrevet i følgende tabel.  
+3.  Brug oversigtspanelet **Feltkobling** til at angive, hvilke kolonner der knyttes til hvilke felter i [!INCLUDE[prod_short](includes/prod_short.md)] ved at udfylde felterne som beskrevet i følgende tabel.  
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  

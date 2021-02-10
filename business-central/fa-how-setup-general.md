@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4c75ec6637999e11d9741974ed844222401e4298
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920643"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749239"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Angive generelle oplysninger om anlægsaktiver
 Før du kan administrere anlægsaktiver, skal du oprette standardfinanskonti, allokeringsnøgler, kladdetyper og -navne for bogføring og ompostering af anlægsaktiver, og du kan klassificere anlægsaktiver i arter, f.eks materielle og immaterielle.
@@ -51,7 +51,7 @@ Allokeringsnøgler gælder for anlægsarter og ikke for de enkelte anlægsaktive
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Sådan defineres anlægskladdetyper
 En type er et foruddefineret format for en kladde. Typen indeholder oplysninger om sporingskoder, rapporter og nummerserier. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] opretter automatisk en anlægskladdetype, første gang du åbner siden **Anlægskladde**, men du kan definere flere kladdetyper.  
+[!INCLUDE[prod_short](includes/prod_short.md)] opretter automatisk en anlægskladdetype, første gang du åbner siden **Anlægskladde**, men du kan definere flere kladdetyper.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
@@ -64,7 +64,7 @@ Du kan angive flere kladdenavne, som er individuelle kladder for hver kladdetype
 3. På siden **Anlægskladdenavne** skal du udfylde felterne efter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Sådan defineres anlægsomposteringskladdetyper
-Du kan bruge dedikerede omposteringskladder, når du skal overføre, opdele eller kombinere anlægsaktiver. [!INCLUDE[d365fin](includes/d365fin_md.md)] opretter automatisk en anlægsomposteringskladdetype, første gang du åbner siden **Anlægsompost.kladde**, men du kan definere flere omposteringskladdetyper. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
+Du kan bruge dedikerede omposteringskladder, når du skal overføre, opdele eller kombinere anlægsaktiver. [!INCLUDE[prod_short](includes/prod_short.md)] opretter automatisk en anlægsomposteringskladdetype, første gang du åbner siden **Anlægsompost.kladde**, men du kan definere flere omposteringskladdetyper. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsompost.kladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
@@ -95,7 +95,7 @@ Du kan bruge anlægslokationskoder til at registrere anlæggets lokation, f.eks.
 2. Angiv koder og navne for de anlægslokationer, du vil oprette.
 
 ## <a name="to-register-opening-entries"></a>Sådan registreres åbningsposter
-Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du konfigurere finansmodulet, før du konfigurerer anlægsaktiver. Hvordan du gør dette afhænger af, om anlægsaktiverne er integreret med regnskabet.  
+Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)], skal du konfigurere finansmodulet, før du konfigurerer anlægsaktiver. Hvordan du gør dette afhænger af, om anlægsaktiverne er integreret med regnskabet.  
 
  Følgende fremgangsmåde bruges, hvis anlægstransaktioner skal bogføres til finansposterne.  
 
@@ -110,7 +110,7 @@ Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[d365fin](includes
 7. Skriv følgende linjer for hvert aktiv i anlægskladden:
    * En linje med anskaffelsen.
    * En linje med den akkumulerede afskrivning i slutningen af det foregående regnskabsår.
-   * En linje med den akkumulerede afskrivning fra begyndelsen af det aktuelle regnskabsår til den dato, hvor [!INCLUDE[d365fin](includes/d365fin_md.md)] er indstillet til at starte afskrivningen.
+   * En linje med den akkumulerede afskrivning fra begyndelsen af det aktuelle regnskabsår til den dato, hvor [!INCLUDE[prod_short](includes/prod_short.md)] er indstillet til at starte afskrivningen.
 
     Hvis du har andre åbningsposter, kan du også angive dem nu, f.eks. nedskrivning og opskrivning.  
 8. Når du har angivet og bogført kladdelinjerne for hvert anlæg, skal du aktivere finansintegration i afskrivningsprofilerne.
@@ -122,4 +122,4 @@ Hvis anlægsaktiverne ikke er integreret med finansposterne, skal du springe tri
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

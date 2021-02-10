@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: af42c1b65480a1ae28387b7207eca09a79bfe75d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7021b09fd113ec87ff8d155fff24b31ca497bc42
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924449"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752401"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere AMC Banking 365 Fundamentals-udvidelsen
-En global udbyder af tjenester til konvertering af betalingsoplysninger til ethvert dataformat, som din bank kræver, er forbundet og klar til at blive aktiveret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette omtales i [!INCLUDE[d365fin](includes/d365fin_md.md)] som AMC Banking 365 Fundamentals-udvidelsen.
+En global udbyder af tjenester til konvertering af betalingsoplysninger til ethvert dataformat, som din bank kræver, er forbundet og klar til at blive aktiveret i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette omtales i [!INCLUDE[prod_short](includes/prod_short.md)] som AMC Banking 365 Fundamentals-udvidelsen.
 
 Du kan eksportere betalingslinjer fra siden **Udbetalingskladde** til en fil eller en datastrøm, som du derefter overfører til din bank til automatisk behandling, så du ikke behøver at foretage elektroniske betalinger individuelt. Du kan finde flere oplysninger i [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-Du kan indlæse bankkontoudtogsfiler på siden **Betalingsudligningskladde** ved hjælp af AMC Banking 365 Fundamentals-udvidelsen for at konvertere en fil, du modtager fra banken, til en datastrøm, som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importere. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Du kan indlæse bankkontoudtogsfiler på siden **Betalingsudligningskladde** ved hjælp af AMC Banking 365 Fundamentals-udvidelsen for at konvertere en fil, du modtager fra banken, til en datastrøm, som [!INCLUDE[prod_short](includes/prod_short.md)] kan importere. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Du kan også bruge Envestnet Yodlee Bank Feeds-tjenesten i stedet for at indlæse bankkontoudtog med AMC Banking 365 Fundamentals-udvidelsen. Du kan finde flere oplysninger i [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -40,7 +40,7 @@ Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen b
 3. I feltet **URL-adresse til tilmelding** skal du vælge browserknappen for at åbne serviceudbyderens tilmeldingsside.  
 4. Angiv brugernavnet og adgangskoden til din virksomheds abonnement på tjenesten på tilmeldingssiden af bankens dataserviceudbyder, og fuldfør derefter tilmeldingsprocessen som angivet af serviceudbyderen.
 
-    Din virksomhed er nu tilmeldt AMC Banking 365 Fundamentals-udvidelsen. Fortsæt med at angive det brugernavn og adgangskode, du har angivet for tjenesten i de relaterede konfigurationsfelter i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    Din virksomhed er nu tilmeldt AMC Banking 365 Fundamentals-udvidelsen. Fortsæt med at angive det brugernavn og adgangskode, du har angivet for tjenesten i de relaterede konfigurationsfelter i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 5. På siden **Opsætning af tjeneste til konvertering af bankdata** skal du i feltet **Brugernavn** angive den samme værdi, som du har angivet som logonnavnet på serviceudbyderens side i trin 4.
 6. I feltet **Adgangskode** skal du angive den samme værdi, som du har angivet i feltet **Adgangskode** på serviceudbyderens side i trin 4.
@@ -63,4 +63,4 @@ Du har nu tilmeldt dig AMC Banking 365 Fundamentals-udvidelsen. Fortsæt med at 
 ## <a name="see-also"></a>Se også
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f8d0109b42eb75f022bac580c2bef006f311157
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914235"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750426"
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
 Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger. Funktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer og til at sikre, at alle delvise betalinger bogføres i forhold til en faktura. Du kan finde flere oplysninger i [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md).
@@ -93,4 +93,4 @@ Med andre ord bruges forudbetalingsprocenten på kundekortet kun, hvis der ikke 
 [Beregne moms af varer og ydelser på forudbetalinger i New Zealand](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Om Finans og kontoplanen](finance-general-ledger.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

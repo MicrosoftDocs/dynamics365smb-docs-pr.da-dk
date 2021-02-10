@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 201138673bdc085d6097117b947359802ec17921
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925820"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748076"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Oprette servicefakturaer eller -kreditnotaer
-En nøgleegenskab i [!INCLUDE[prodshort](includes/prodshort.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan konfigurere [!INCLUDE[prodshort](includes/prodshort.md)], så en feltservicetekniker kan oprette en faktura for en service, der ikke er tilknyttet en kontrakt eller en ordre. Du kan også vælge at konfigurere [!INCLUDE[prodshort](includes/prodshort.md)], så du fakturerer servicekontrakter med jævne mellemrum. Fakturaperioden for den enkelte kontrakt definerer, hvor ofte kontrakten faktureres.
+En nøgleegenskab i [!INCLUDE[prod_short](includes/prod_short.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så en feltservicetekniker kan oprette en faktura for en service, der ikke er tilknyttet en kontrakt eller en ordre. Du kan også vælge at konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så du fakturerer servicekontrakter med jævne mellemrum. Fakturaperioden for den enkelte kontrakt definerer, hvor ofte kontrakten faktureres.
 
 ## <a name="to-invoice-several-service-contracts"></a>Sådan fakturerer du flere servicekontrakter
 

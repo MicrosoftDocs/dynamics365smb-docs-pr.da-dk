@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 401f471fe8af79c2373547a7ec6f51dc6366bd78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e64ee514f8b837f2c9e1114511122bcf6e160a64
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923039"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746562"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
 Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide midler, kan du få et overblik vha. diagrammerne i rollecenteret Regnskabsmedarbejder:  
@@ -61,7 +61,7 @@ Du konfigurerer dem ved at søge efter **pengestrømskonti**, vælge linket og d
 ## <a name="set-up-cash-flow-forecasts"></a>Konfigurere pengestrømsprognoser
 Diagrammet **Pengestrømsprognose** bruger pengestrømskonti, pengestrømsopsætninger og pengestrømsbudgetter. Nogle får du leveret, men du kan oprette dine egne ved hjælp af en assisteret opsætningsvejledning. Vejledningen hjælper dig med f.eks. at angive, hvor ofte prognosen skal opdateres, de konti, den skal baseres på, oplysninger om, hvornår du betaler skatter, og om du skal aktivere [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
-Pengestrømsprognoser kan bruge Azure AI til at forudsige fremtidige dokumenter. Resultatet er en mere omfattende prognose. Forbindelsen til Azure AI allerede konfigureret for dig. Du skal blot aktivere den. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], vises en meddelelse i en blå linje med et link til standardpengestrømsopsætningen. Meddelelsen vises kun én gang. Hvis du lukker den, men beslutter at aktivere Azure AI, kan du bruge den assisterende opsætningsvejledning eller en manuel fremgangsmåde.  
+Pengestrømsprognoser kan bruge Azure AI til at forudsige fremtidige dokumenter. Resultatet er en mere omfattende prognose. Forbindelsen til Azure AI allerede konfigureret for dig. Du skal blot aktivere den. Når du logger på [!INCLUDE[prod_short](includes/prod_short.md)], vises en meddelelse i en blå linje med et link til standardpengestrømsopsætningen. Meddelelsen vises kun én gang. Hvis du lukker den, men beslutter at aktivere Azure AI, kan du bruge den assisterende opsætningsvejledning eller en manuel fremgangsmåde.  
 
 > [!NOTE]  
 >   Du kan også vælge at bruge din egen prognosewebtjeneste. Du kan finde flere oplysninger i [Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser](#AnchorText).  
@@ -84,7 +84,7 @@ Sådan bruges en manuel proces:
 >   Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Azure AI ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  
 
 ## <a name="design-details"></a>Designoplysninger
-Abonnementer på [!INCLUDE[d365fin](includes/d365fin_md.md)] giver adgang til flere prognosewebtjenester i alle områder, hvor [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængelig. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
+Abonnementer på [!INCLUDE[prod_short](includes/prod_short.md)] giver adgang til flere prognosewebtjenester i alle områder, hvor [!INCLUDE[prod_short](includes/prod_short.md)] er tilgængelig. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
 
 Disse webtjenester har ingen status, hvilket betyder, at de kun bruger data til at beregne forudsigelser efter behov. De gemmer ikke data.
 
@@ -99,21 +99,21 @@ Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Debitorposter**, hvor:
 - Dokumenttypen er faktura eller kreditnota.
 - Forfaldsdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Pengestrømskonfiguration** og arbejdsdatoen.
 
-Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
+Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
 
 #### <a name="payables"></a>Skyldige beløb:
 Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Kreditorposter**, hvor:
 - Dokumenttypen er "Faktura" eller "Kreditnota".
 - Forfaldsdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Pengestrømskonfiguration** og arbejdsdatoen.
 
-Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
+Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
 
 #### <a name="tax"></a>Skat:
 Felterne **Dokumentdato** og **Beløb** på siden **Momsvareposter (skat)**, hvor:
 - Dokumenttypen er "salg".
 - Dokumentdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Pengestrømskonfiguration** og arbejdsdatoen.
 
-Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Dokumentdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
+Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Dokumentdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser.
 Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel til Microsoft Business Central**. Denne prognosemodel er tilgængelig online i Azure AI-galleriet. Sådan bruges modellen:  
@@ -131,4 +131,4 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 ## <a name="see-also"></a>Se også
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

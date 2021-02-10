@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0479efcd967c7188e38fff2fb1da76e461a1bda6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c7f7da76bdea02f640bdb0ffaf5f1b8da16494cf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919584"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754863"
 ---
 # <a name="archive-documents"></a>Arkivere dokumenter
 Du kan arkivere salgs- og købsordrer, tilbud, returvareordrer og rammeordrer, f.eks. fordi du vil gemme en kopi af et dokument til senere genbrug. Du kan arkiverer et salgs- eller købsdokument flere gange og gemme en ny arkiveret version hver gang.
@@ -65,4 +65,4 @@ Nedenstående procedure beskriver, hvordan du sletter arkiverede salgsordrer. Tr
 [Spor dokumentlinjer](across-how-to-track-document-lines.md)  
 [Salg](sales-manage-sales.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

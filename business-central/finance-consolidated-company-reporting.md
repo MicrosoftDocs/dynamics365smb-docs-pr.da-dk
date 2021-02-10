@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913392"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747087"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidering af finansielle oplysninger fra flere regnskaber
 
-Nogle organisationer bruger [!INCLUDE [prodshort](includes/prodshort.md)] i flere afdelinger eller juridiske enheder. Andre bruger [!INCLUDE [prodshort](includes/prodshort.md)] i datterselskaber, der skal rapportere til overordnede organisationer. I begge tilfælde bruger bogholderen indbyggede værktøjer til at konsolidere de finansielle data.  
+Nogle organisationer bruger [!INCLUDE [prod_short](includes/prod_short.md)] i flere afdelinger eller juridiske enheder. Andre bruger [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaber, der skal rapportere til overordnede organisationer. I begge tilfælde bruger bogholderen indbyggede værktøjer til at konsolidere de finansielle data.  
 
 Du kan konsolidere finansposterne fra to eller flere separate regnskaber (datterselskaber) til et konsolideret regnskab. Hvert enkelt regnskab, der er involveret i en konsolidering, kaldes en koncernvirksomhed. Det kombinerede regnskab kaldes det konsoliderede regnskab.  
 
-Du kan indlæse data til det konsoliderede regnskab fra andre regnskaber i samme [!INCLUDE [prodshort](includes/prodshort.md)]-lejer, fra lejer eller fra filer.  
+Du kan indlæse data til det konsoliderede regnskab fra andre regnskaber i samme [!INCLUDE [prod_short](includes/prod_short.md)]-lejer, fra lejer eller fra filer.  
 
 Hvis en koncernvirksomheds resultatopgørelse er i en anden valuta end de øvrige i det konsoliderede regnskab, skal du oprette valutakurser for konsolideringen.  
 
@@ -42,7 +42,7 @@ Du opretter det konsoliderede regnskab på samme måde, som du opretter andre re
 
 ## <a name="trial-balance"></a>Råbalance
 
-Hvis du har mere end én virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan rapporten **Konsolideret råbalance** give dig et overblik over virksomheden samlede finansielle tilstand.  
+Hvis du har mere end én virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan rapporten **Konsolideret råbalance** give dig et overblik over virksomheden samlede finansielle tilstand.  
 
 Rapporten kombinerer finansposter fra alle dine regnskaber i et nyt virksomhed, som du opretter til at indeholder de konsoliderede data. Dette regnskab kaldes typisk det "konsoliderede regnskab". Det konsoliderede regnskab er kun en beholder til de konsoliderede data og har ingen direkte forretningsdata. De regnskaber, du inkluderer i det konsoliderede regnskab, bliver **koncernvirksomheder** i rapporten. Du kan finde flere oplysninger i [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md).  
 
@@ -52,7 +52,7 @@ Den faktiske *konsolidering* er at overføre tallene fra koncernvirksomhederne t
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Sådan kontrolleres dataene, før du konsoliderer
 
-Du kan teste dataene, inden du overfører dem til det konsoliderede regnskab. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om der er forskelle mellem oplysningerne i koncernvirksomhederne og den konsoliderede virksomhed. F.eks., om kontonumre eller dimensionskoder er anderledes. Du skal rette fejlene, før du kan køre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.  
+Du kan teste dataene, inden du overfører dem til det konsoliderede regnskab. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer, om der er forskelle mellem oplysningerne i koncernvirksomhederne og den konsoliderede virksomhed. F.eks., om kontonumre eller dimensionskoder er anderledes. Du skal rette fejlene, før du kan køre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.  
 
 1. Åbn det konsoliderede regnskab.  
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
@@ -118,5 +118,5 @@ De udlæste poster indeholder følgende felter: **Kontonr.**, **Bogføringsdato*
 
 [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eksportere forretningsdata til Excel](about-export-data.md)

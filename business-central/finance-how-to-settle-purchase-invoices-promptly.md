@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: bac023393d95623a2731ef1b2ada7d30b135063b
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: fb442c7b1e9e7bdcb727ca6de157657e370e254f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968355"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746837"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Afregne købsfakturaer omgående
 
@@ -36,4 +36,4 @@ Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bog
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

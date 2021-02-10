@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cd37ecbadda34238d9fb7e74ef26f1bb218073a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc805db942ce9ebf178b49468129a83bb20a325e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923141"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756038"
 ---
 # <a name="create-bin-contents"></a>Oprette placeringsindhold
 
@@ -33,7 +33,7 @@ Vælg feltet **Fast**, hvis det er nødvendigt. Hvis placeringen skal fungere so
 
 Hvis du bruger styret læg-på-lager og pluk, og du har angivet de korrekte dimensionsoplysninger for hver vares måleenhed, kontrolleres det maksimale antal, du har angivet på siden **Placeringsindhold**, i forhold til placeringens fysiske kapacitet. Herefter benyttes minimums- og maksimumsantallet, når der beregnes genopfyldning, og der foreslås læg-på-lager-aktiviteter.  
 
-Hvis du markerer feltet **Fast**, knytter du permanent varen til placeringen, hvilket betyder, at [!INCLUDE[d365fin](includes/d365fin_md.md)] altid vil forsøge at lægge den pågældende vare på placeringen, hvis der er plads til den, og at registreringen af tilknytningen bevares, selvom det aktuelle antal på placeringen er 0. Der kan anbringes andre varer på placeringen, selvom en bestemt vare er fast tilknyttet placeringen.  
+Hvis du markerer feltet **Fast**, knytter du permanent varen til placeringen, hvilket betyder, at [!INCLUDE[prod_short](includes/prod_short.md)] altid vil forsøge at lægge den pågældende vare på placeringen, hvis der er plads til den, og at registreringen af tilknytningen bevares, selvom det aktuelle antal på placeringen er 0. Der kan anbringes andre varer på placeringen, selvom en bestemt vare er fast tilknyttet placeringen.  
 
 > [!NOTE]  
 > Du kan oprette flere placeringsindhold ad gangen på siden **Opr.kladde til placeringsindh.**.  
@@ -65,4 +65,4 @@ I denne kladde kan du arbejde med placeringsindholdslinjer for flere placeringer
 [Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

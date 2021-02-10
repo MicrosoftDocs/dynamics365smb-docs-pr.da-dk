@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 77534395d868b1ea82317c32aaed0e70d222e1e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ffe9e73312142f8cb7848620fd4acbfbb2db9798
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911476"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752771"
 ---
 # <a name="gather-customer-setup-values"></a>Indsaml debitoropsætningsværdier
-Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i [!INCLUDE[d365fin](includes/d365fin_md.md)] og derefter give det til kunden som en Excel- eller XML-fil.  
+Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i [!INCLUDE[prod_short](includes/prod_short.md)] og derefter give det til kunden som en Excel- eller XML-fil.  
 
 Du kan ændre alle standardværdier i et spørgeskema, så de bedre opfylder kundens behov.  
 
 > [!TIP]  
 >  Du kan finde flere oplysninger om definition af konfigurationsværdier i felterne til forsyningsplanlægning i [Oprette bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md).  
 
-Når kunden har udfyldt spørgeskemaet, importerer du filen til kundens nye [!INCLUDE[d365fin](includes/d365fin_md.md)]-virksomhed. Du og din kunde validerer svarene til spørgeskemaet, før du anvender dem i regnskabet.
+Når kunden har udfyldt spørgeskemaet, importerer du filen til kundens nye [!INCLUDE[prod_short](includes/prod_short.md)]-virksomhed. Du og din kunde validerer svarene til spørgeskemaet, før du anvender dem i regnskabet.
 
 ## <a name="to-create-a-configuration-questionnaire"></a>Sådan oprettes et konfigurationsspørgeskema
 Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og behovet for konfiguration. Du kan oprette et nyt spørgeskema eller redigere et eksisterende spørgeskema ved at tilføje nye spørgsmål eller spørgeområder.  
@@ -69,7 +69,7 @@ Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og be
 9. In the **No.** field, enter a number to define where the question appears in the sequence of questions.
 10. In the **Field ID** field, choose the field the the customer's answer will be applied to. You can choose from the fields on the table you chose in the **Table ID** field.
   
-    When you choose a field, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
+    When you choose a field, [!INCLUDE[prod_short](includes/prod_short.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
 11. To add more questions to the questionnaire, repeat steps seven through 10.
 
 > [!Tip]
@@ -92,7 +92,7 @@ Du kan også slette eventuelle spørgsmål, du ikke vil medtage i spørgeskemaet
 >  Efter behov, kan du også definere standardsvar i feltet **Svar**. Disse værdier bruges som standard til brugerdefineret installation. Den person, der udfylder spørgeskemaet, kan dog redigere og opdatere svaret.  
 
 ## <a name="to-complete-the-configuration-questionnaire"></a>Sådan udfyldes konfigurationsspørgeskemaet
-Du kan bruge konfigurationsspørgeskemaet til at strukturere og dokumentere en detaljeret diskussion om kundens specifikke behov. Du også bruge det til at indsamle opsætningsdata fra kunden for at konfigurere de relevante [!INCLUDE[d365fin](includes/d365fin_md.md)]-opsætningstabeller, såsom regnskab, lager og kunder.  
+Du kan bruge konfigurationsspørgeskemaet til at strukturere og dokumentere en detaljeret diskussion om kundens specifikke behov. Du også bruge det til at indsamle opsætningsdata fra kunden for at konfigurere de relevante [!INCLUDE[prod_short](includes/prod_short.md)]-opsætningstabeller, såsom regnskab, lager og kunder.  
 
 > [!NOTE]  
 >  Du kan også oprette dit eget konfigurationsspørgeskema, som opfylder dine behov.  
@@ -113,23 +113,23 @@ Den følgende procedure er en alternativ måde til at få adgang til konfigurati
 4. Vælg knappen **OK** for at lukke spørgeskemaet.
 
 ## <a name="to-validate-the-configuration-questionnaire"></a>Sådan valideres konfigurationsspørgeskemaet
-Det er vigtigt at validere konfigurationsspørgeskemaet, før du anvender det på [!INCLUDE[d365fin](includes/d365fin_md.md)]-formatet. Det er en måde at sikre, at dataformateringen bevaers under import fra Excel.  
+Det er vigtigt at validere konfigurationsspørgeskemaet, før du anvender det på [!INCLUDE[prod_short](includes/prod_short.md)]-formatet. Det er en måde at sikre, at dataformateringen bevaers under import fra Excel.  
 
 En almindelig valideringsopgave er at kontrollere, at tekststrenge ikke er indsat i datofelter. Denne revisionsproces er nødvendig, fordi formatet for svaret i spørgeskemaet ikke valideres automatisk, når funktionen **Anvend svar** køres.  
 
 > [!NOTE]  
->  Validering af konfigurationsspørgeskemaet er generelt en manuel proces. Der er dog kontrol for regionale formateringsuoverensstemmelser. Desuden vil du få fejl, hvis strukturen i din [!INCLUDE[d365fin](includes/d365fin_md.md)]-database ikke stemmer overens med strukturen i overflytningsdatabasen.  
+>  Validering af konfigurationsspørgeskemaet er generelt en manuel proces. Der er dog kontrol for regionale formateringsuoverensstemmelser. Desuden vil du få fejl, hvis strukturen i din [!INCLUDE[prod_short](includes/prod_short.md)]-database ikke stemmer overens med strukturen i overflytningsdatabasen.  
 
 1. På siden **Konfigurationsspørgeskema** skal du vælge det relevante spørgeskema og derefter vælge handlingen **Spørgsmålsområder**.  
 2. Åbn det relevante spørgsmålsområde.  
 3. For hvert spørgsmål skal du kontrollere, at værdien i feltet **Svar** svarer til det format, der er anført i feltet **Svarindstilling**. Kontrollér f.eks., at adressen på en virksomhed er i tekstformat.  
-4. Hvis du finder fejl, kan du foretage fejlfinding og foretage rettelser i Excel ved at udlæse spørgeskemaet og derefter indlæse det igen. Du kan også rette fejl direkte i [!INCLUDE[d365fin](includes/d365fin_md.md)], efterhånden som du gennemgår svarene på siden **Konfig.spørgsmålsområde**.  
+4. Hvis du finder fejl, kan du foretage fejlfinding og foretage rettelser i Excel ved at udlæse spørgeskemaet og derefter indlæse det igen. Du kan også rette fejl direkte i [!INCLUDE[prod_short](includes/prod_short.md)], efterhånden som du gennemgår svarene på siden **Konfig.spørgsmålsområde**.  
 5. Gentag disse trin for hvert spørgsmålsområde.  
 
 Når du har fuldført din validering, er dataene klar til at blive anvendt til databasen.  
 
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Sådan anvendes svar fra konfigurationsspørgeskemaet
-Når du har indlæst og valideret oplysninger fra et konfigurationsspørgeskema, kan du overføre eller anvende opsætningsdata til de tilsvarende tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
+Når du har indlæst og valideret oplysninger fra et konfigurationsspørgeskema, kan du overføre eller anvende opsætningsdata til de tilsvarende tabeller i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsspørgeskema**, og vælg derefter det relaterede link. Siden **Konfig.spørgeskema** åbnes.  
 2. Vælg et konfigurationsspørgeskema på listen, og vælg derefter handlingen **Rediger liste**.  
@@ -139,7 +139,7 @@ Når du har indlæst og valideret oplysninger fra et konfigurationsspørgeskema,
 - Hvis du vil anvende svar kun for et bestemt **Spørgsmålsområde**, skal du vælge handlingen **Spørgeområder**, vælge et **Spørgsmålsområde** på listen og derefter vælge handlingen **Anvend svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Sådan kontrollerer du, at svarene er blevet anvendt korrekt  
-1. Kontrollér opsætningssiderne for de forskellige funktionelle områder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde siden ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive navnet på opsætningssiden og derefter vælge det relaterede link.  
+1. Kontrollér opsætningssiderne for de forskellige funktionelle områder i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde siden ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive navnet på opsætningssiden og derefter vælge det relaterede link.  
 2. Kontrollér, at felterne er blevet udfyldt med de korrekte data fra de forskellige spørgsmålsområder i konfigurationsspørgeskemaet.  
 
 Du har nu konfigureret opsætning med debitorens forretningsmæssige oplysninger og regler.

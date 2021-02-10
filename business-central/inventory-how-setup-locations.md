@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81ee1ad91bd4ec887d85e940152f18e99a6d464c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdfee54927dd6e966f1fd1ac0b4e40ba9df1135
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923766"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750076"
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
 Hvis du køber, gemme eller sælger varer i mere end ét område eller lagersted, skal du oprette hver lokation med et lokationskort og definere overflytningsruter.
@@ -47,6 +47,6 @@ Du kan nu overflytte lagervarer mellem to lokationer. Du kan finde flere oplysni
 ## <a name="see-also"></a>Se også
 [Administrere lager](inventory-manage-inventory.md)  
 [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)    
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)

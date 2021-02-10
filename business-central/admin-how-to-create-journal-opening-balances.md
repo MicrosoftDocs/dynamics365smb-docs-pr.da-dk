@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915756"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753963"
 ---
 # <a name="create-journal-opening-balances"></a>Oprette kladden Primosaldi
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder flere batchjob, der kan hjælpe dig med at overføre ældre kontosaldi til en nylig konfigureret virksomhed. Du kan nemt overføre disse data til debitorkladden, kreditorkladden, varekladden og finanskladden.
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder flere batchjob, der kan hjælpe dig med at overføre ældre kontosaldi til en nylig konfigureret virksomhed. Du kan nemt overføre disse data til debitorkladden, kreditorkladden, varekladden og finanskladden.
 
 Det første trin er at oprette en konfigurationspakke, der omfatter konfigurationstabellerne for disse kladder. I følgende procedure antages det, at dette trin er udført. Du kan finde flere oplysninger i [Konfigurere virksomhedskonfiguration](admin-set-up-company-configuration.md). Proceduren beskriver de efterfølgende trin, som omfatter anvendelse af den pakke, der leveres af en partner.  
 
@@ -44,7 +44,7 @@ Før du starter, skal du kontrollere, at du du bruger rollecentersiden Administr
 10. Gentag trinene for at importere og bogføre eventuelle andre primosaldi.  
 
 > [!TIP]
-> Du kan bruge de samme kørsler til at tilføje primosaldi, hver gang du registrerer en ny debitor eller kreditor, som du har handlet med, men som ikke er registreret i [!INCLUDE [prodshort](includes/prodshort.md)]. Du skal blot søge efter den relevante opgave og derefter vælge det relevante link.
+> Du kan bruge de samme kørsler til at tilføje primosaldi, hver gang du registrerer en ny debitor eller kreditor, som du har handlet med, men som ikke er registreret i [!INCLUDE [prod_short](includes/prod_short.md)]. Du skal blot søge efter den relevante opgave og derefter vælge det relevante link.
 
 ## <a name="see-also"></a>Se også
 

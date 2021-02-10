@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e5e51251f19391eb96a1979a2bb24f7bf894d4b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 04034406154dddfabe44a9fd62e0a793981e7f69
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926168"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748354"
 ---
 # <a name="merge-duplicate-records"></a>Flet dobbeltregistrerede records
 Efterhånden som brugere opretter ny kunde, leverandør eller kontaktkort igennem længere tid, eller der oprettes nye records automatisk under migration, kan en kunde, leverandør eller kontakt være repræsenteret i systemet med mere end en record. I dette tilfælde kan du benytte siden **Flet dobbeltregistrering** fra record-kortet, som du ønsker at beholde. Siden giver dig et overblik over dobbeltregistrerede værdier og leverer funktioner til at udvælge, hvilke værdier, der skal beholdes og slettes henholdsvis, når du fletter to records til en.
@@ -67,4 +67,4 @@ Den følgende procedure er baseret på et kundekort. Trinnene er de samme for le
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opsætning af kontakter](marketing-setup-contacts.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

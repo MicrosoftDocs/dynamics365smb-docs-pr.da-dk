@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3b0b01eb85cc6b24cc665e340da1d479517924a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 650f45093688825565eb664ebca7daaa3e972140
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914856"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756513"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gennemgang: Beregning af igangværende arbejder for en sag
 
@@ -38,7 +38,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
  I denne gennemgang bruges projektteammedlemmet (Tina) som person.  
 
 ## <a name="prerequisites"></a>Forudsætninger  
- Før du kan udføre opgaverne i denne gennemgang, skal du installere [!INCLUDE[d365fin](includes/d365fin_md.md)] på din computer.  
+ Før du kan udføre opgaverne i denne gennemgang, skal du installere [!INCLUDE[prod_short](includes/prod_short.md)] på din computer.  
 
 ## <a name="story"></a>Historie  
  I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulentvirksomhed, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af arbejdet hos CRONUS er projektorienteret, og Tina, som er med i projektteamet, bruger sager til at få en oversigt over hver igangværende sag, som CRONUS har startet samt de sager, der er afsluttet. Nogle af sagerne kan være meget langvarige og løbe over flere måneder. Tina kan bruge en VIA-konto til at registrere igangværende arbejde og spore omkostningerne hele vejen gennem sagen.  
@@ -156,11 +156,11 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
     >  Antag, at Tina beregnede og bogførte igangværende arbejde for en sag med forkerte datoer. Ved at følge de tidligere beskrevne metode kan hun tilbageføre de forkerte bogføringer, rette datoerne og genposterer i regnskabet.  
 
 ## <a name="next-steps"></a>Efterfølgende trin  
- Denne gennemgang har taget dig gennem trinnene til beregning af igangværende arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I større sager kan det være nyttigt regelmæssigt at overføre omkostningerne til en konto for igangværende arbejde, mens sagen fuldføres. Denne gennemgang har vist dig, hvordan du kan udelade opgavelinjerne i en beregning. Den viser også, hvornår du skal genberegne. Endelig viser denne gennemgang, hvordan du bogfører igangværende arbejde i regnskab. Der er også et eksempel på, hvordan du tilbagefører en bogføring for igangværende arbejde i regnskab .  
+ Denne gennemgang har taget dig gennem trinnene til beregning af igangværende arbejde i [!INCLUDE[prod_short](includes/prod_short.md)]. I større sager kan det være nyttigt regelmæssigt at overføre omkostningerne til en konto for igangværende arbejde, mens sagen fuldføres. Denne gennemgang har vist dig, hvordan du kan udelade opgavelinjerne i en beregning. Den viser også, hvornår du skal genberegne. Endelig viser denne gennemgang, hvordan du bogfører igangværende arbejde i regnskab. Der er også et eksempel på, hvordan du tilbagefører en bogføring for igangværende arbejde i regnskab .  
 
 ## <a name="see-also"></a>Se også  
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)   
  [Forstå VIA -metoder](projects-understanding-wip.md)   
  [Overvåge status og udførelse](projects-how-monitor-progress-performance.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

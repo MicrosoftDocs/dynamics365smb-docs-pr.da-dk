@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5b24fe2373e8f6fd71008a5d155e985d2aaa460f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924074"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746612"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
-Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
+Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
 
 Der er dog nogle opgaver i forbindelse med moms, der kan udføres manuelt. Du kan f.eks. rette et bogførte beløb, hvis du opdager, at en leverandør anvender en anden afrundingsmetode.
 
@@ -26,7 +26,7 @@ Der er dog nogle opgaver i forbindelse med moms, der kan udføres manuelt. Du ka
 Du kan beregne og vise momsbeløb i salgs- og købsdokumenter forskelligt, afhængigt af den type debitor eller kreditor, du handler med. Du kan også tilsidesætte det beregnede momsbeløb for at have det samme momsbeløb som det, der er beregnet af kreditoren i en given transaktion.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Salgspris og linjebeløb inkl./ekskl. moms i salgsdokumenter  
-Når du vælger et varenummer i feltet **Nummer** i et salgsdokument, udfylder [!INCLUDE[d365fin](includes/d365fin_md.md)] også feltet **Salgspris**. Salgsprisen stammer fra enten **Vare**-kortet eller fra de varesalgspriser, der er tilladt for varen og debitoren. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner kun **Linjebeløb**, når du angiver et antal for linjen.  
+Når du vælger et varenummer i feltet **Nummer** i et salgsdokument, udfylder [!INCLUDE[prod_short](includes/prod_short.md)] også feltet **Salgspris**. Salgsprisen stammer fra enten **Vare**-kortet eller fra de varesalgspriser, der er tilladt for varen og debitoren. [!INCLUDE[prod_short](includes/prod_short.md)] beregner kun **Linjebeløb**, når du angiver et antal for linjen.  
 
 Hvis du sælger til detailhandelsvirksomheder, skal priserne på salgsdokumenterne evt. være inkl. moms. For at gøre dette skal du markere afkrydsningsfeltet **Priser inkl. moms** på dokumentet.  
 
@@ -69,7 +69,7 @@ I det følgende beskrives, hvordan du aktiverer manuelle momsændringer i salgsd
 > Det samlede momsbeløb på fakturaen, grupperet efter moms-id, vises på linjerne. Du kan justere beløbet manuelt i feltet **Momsbeløb** på linjerne for hvert moms-id. Når du retter i feltet **Momsbeløb**, kontrolleres det, at du ikke har ændret momsen med mere end det beløb, du har angivet som den maksimalt tilladte difference. Hvis beløbet er uden for **den maksimalt tilladte momsdifference**, vises der en advarsel, hvor den maksimalt tilladte difference vises. Du vil ikke kunne fortsætte, før beløbet ændres, så det ligger inden for de acceptable parametre. Klik på **OK** , og angiv et andet **momsbeløb**, som ligger inden for det tilladte. Hvis momsdifferencen er lig med eller lavere end den maksimalt tilladte, deles momsen proportionalt mellem de dokumentlinjer, der har det samme moms-id.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Manuel momsberegning ved hjælp af kladder  
-Du kan også justere momsbeløb i finans-, salgs- og købskladder. Det kan f.eks. være nødvendigt, når du angiver en kreditorfaktura i kladden, og der er en forskel mellem det momsbeløb, som [!INCLUDE[d365fin](includes/d365fin_md.md)] har beregnet, og momsbeløbet på kreditorfakturaen.  
+Du kan også justere momsbeløb i finans-, salgs- og købskladder. Det kan f.eks. være nødvendigt, når du angiver en kreditorfaktura i kladden, og der er en forskel mellem det momsbeløb, som [!INCLUDE[prod_short](includes/prod_short.md)] har beregnet, og momsbeløbet på kreditorfakturaen.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Sådan indstilles systemet til manuel momspostering i finanskladder
 Du skal udføre følgende trin, før du manuelt indtaster moms i en finanskladde.  
@@ -82,10 +82,10 @@ Du skal udføre følgende trin, før du manuelt indtaster moms i en salgs- eller
 
 1. På siden **Købsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
 2. Gentag trin 1 for siden **Salgsopsætning**.
-3. Når du har fuldført konfigurationen som beskrevet ovenfor, kan du justere værdien i feltet **Momsbeløb** på finanskladdelinjen eller værdien i feltet **Modkontos momsbeløb** på salgs- eller købskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, at differencen ikke er større end det angivne maksimum.  
+3. Når du har fuldført konfigurationen som beskrevet ovenfor, kan du justere værdien i feltet **Momsbeløb** på finanskladdelinjen eller værdien i feltet **Modkontos momsbeløb** på salgs- eller købskladdelinjen. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer, at differencen ikke er større end det angivne maksimum.  
 
     > [!NOTE]  
-    > Hvis differencen er større, bliver der vist en advarsel med den maksimalt tilladte difference. Hvis du vil fortsætte, skal du justere beløbet. Vælg **OK**, og angiv derefter et beløb, som ligger inden for det tilladte. Hvis momsforskellen er lig med eller lavere end det maksimalt tilladte, viser [!INCLUDE[d365fin](includes/d365fin_md.md)] differencen i feltet **Momsdifference**.  
+    > Hvis differencen er større, bliver der vist en advarsel med den maksimalt tilladte difference. Hvis du vil fortsætte, skal du justere beløbet. Vælg **OK**, og angiv derefter et beløb, som ligger inden for det tilladte. Hvis momsforskellen er lig med eller lavere end det maksimalt tilladte, viser [!INCLUDE[prod_short](includes/prod_short.md)] differencen i feltet **Momsdifference**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Sådan bogføres importmoms på købsfakturaer
 I stedet for at bruge kladder, når du bogfører en faktura med importmoms, kan du bruge en købsfaktura.  
@@ -95,7 +95,7 @@ I stedet for at bruge kladder, når du bogfører en faktura med importmoms, kan 
 2. Opret en **Produktbogføringsgruppe** til importmomsen, og opret en **Momsproduktbogf.gruppe**, der skal bruges som standard til den tilhørende **Produktbogføringsgruppe**.  
 3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
 4. Vælg finanskontoen til importmoms, og vælg derefter handlingen **Rediger**.  
-5. På oversigtspanelet **Bogføring** skal du vælge opsætningen **Produktbogføringsgruppe** for at importere moms. [!INCLUDE[d365fin](includes/d365fin_md.md)] udfylder automatisk feltet **Momsproduktbogf.gruppe**.  
+5. På oversigtspanelet **Bogføring** skal du vælge opsætningen **Produktbogføringsgruppe** for at importere moms. [!INCLUDE[prod_short](includes/prod_short.md)] udfylder automatisk feltet **Momsproduktbogf.gruppe**.  
 6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 7. Opret en kombination af **Virksomhedsbogføringsgruppe** til momsmyndighederne og **Produktbogføringsgruppe** til importmoms. Til denne nye kombination skal du i feltet **Købskonto** vælge finanskontoen for importmoms.  
 
@@ -139,7 +139,7 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
     >  Alternativt kan du udskrive et certifikat fra siden **Leveringscertifikat**.  
 
 4. Markér afkrydsningsfeltet **Udskriv linjedetaljer** for at medtage oplysninger fra linjerne på leverancedokumentet i certifikatet.  
-5. Markér afkrydsningsfeltet **Opret leveringscertifikater, hvis de ikke allerede er oprettet** for at få [!INCLUDE[d365fin](includes/d365fin_md.md)] til at oprette certifikater til bogførte leverancer, der ikke har ét på tidspunktet for udførelsen. Når du markerer afkrydsningsfeltet, oprettes nye certifikater for alle bogførte leverancer, der ikke har certifikater i det valgte område.  
+5. Markér afkrydsningsfeltet **Opret leveringscertifikater, hvis de ikke allerede er oprettet** for at få [!INCLUDE[prod_short](includes/prod_short.md)] til at oprette certifikater til bogførte leverancer, der ikke har ét på tidspunktet for udførelsen. Når du markerer afkrydsningsfeltet, oprettes nye certifikater for alle bogførte leverancer, der ikke har certifikater i det valgte område.  
 6. Som standard er filterindstillingerne for det leverancedokument, du har valgt. Udfyld filtreringsoplysningerne for at vælge et bestemt certifikat for levering, som du vil udskrive.  
 7. På siden **Leveringscertifikat** skal du vælge knappen **Udskriv** for at udskrive rapporten eller vælge handlingen **Vis udskrift** for at se den på skærmen.  
 
@@ -155,7 +155,7 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
 
    Hvis kunden ikke har returneret det signerede forsyningscertifikat, skal du vælge **Ikke modtaget**. Feltet **Modtagelsesdato** opdateres. Modtagelsesdatoen er som standard angivet til den aktuelle arbejdsdato.  
 
-   Du kan ændre datoen for at afspejle den dato, hvor du modtog kundens signerede leveringscertifikat. Du kan også føje et link til det signerede certifikat ved hjælp af almindelig [!INCLUDE[d365fin](includes/d365fin_md.md)]-sammenkædning.  
+   Du kan ændre datoen for at afspejle den dato, hvor du modtog kundens signerede leveringscertifikat. Du kan også føje et link til det signerede certifikat ved hjælp af almindelig [!INCLUDE[prod_short](includes/prod_short.md)]-sammenkædning.  
 
    Hvis kunden ikke returnerer det signerede forsyningscertifikat, skal du vælge **Ikke modtaget**. Du skal derefter tilsende kunden en ny faktura, der inkluderer moms, fordi den oprindelige faktura ikke vil blive accepteret af skattemyndighederne.  
 
@@ -169,7 +169,7 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringsce
 
    Hvis kunden ikke har returneret det signerede forsyningscertifikat, skal du vælge **Ikke modtaget**. Feltet **Modtagelsesdato** opdateres. Modtagelsesdatoen er som standard angivet til den aktuelle arbejdsdato.  
 
-   Du kan ændre datoen for at afspejle den dato, hvor du modtog det signerede leveringscertifikat. Du kan også føje et link til det signerede certifikat ved hjælp af almindelig [!INCLUDE[d365fin](includes/d365fin_md.md)]-dokumentsammenkædning.  
+   Du kan ændre datoen for at afspejle den dato, hvor du modtog det signerede leveringscertifikat. Du kan også føje et link til det signerede certifikat ved hjælp af almindelig [!INCLUDE[prod_short](includes/prod_short.md)]-dokumentsammenkædning.  
 
     > [!NOTE]  
     >  Du kan ikke oprette et nyt leveringscertifikat på siden **Leveringscertifikat**, når du navigerer til det ved hjælp af denne procedure. Hvis du vil oprette et certifikat til en forsendelse, der ikke var sat op til at kræve ét, skal du åbne den bogførte salgsleverance og bruge den ene af de to fremgangsmåder, der er beskrevet ovenfor:  

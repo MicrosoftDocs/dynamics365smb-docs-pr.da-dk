@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a1f6002f0c57530282b5688c0fe81c36a1d4e7e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b9a2064605d34e4c78bbd9cae5cddbaead70f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912917"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747864"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Oprette bedste fremgangsmåder: Planlægningsparametre
 Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds forsyningskæde. Det er meget vigtigt at angive de korrekte planlægningsparametre til omkostningseffektiv lagerstyring og høj kundeservice.  
@@ -45,4 +45,4 @@ Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
  [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

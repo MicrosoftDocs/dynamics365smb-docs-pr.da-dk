@@ -11,17 +11,17 @@ ms.workload: na
 ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 3a9bdba3d416610b7b137e16f20a4497b834beec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8d680d80dca8fae08ef4ecf5d88c97f983b47167
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921093"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754263"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Skifte fra en QuickBooks-app til Dynamics 365 Business Central
-Flere og flere voksende virksomheder skifter fra finansapps som QuickBooks Desktop og QuickBooks Online, som er beregnet til nystartede og andre mindre virksomheder, til [!INCLUDE[d365fin](includes/d365fin_md.md)], som også understøtter større og mere komplekse organisationer. 
+Flere og flere voksende virksomheder skifter fra finansapps som QuickBooks Desktop og QuickBooks Online, som er beregnet til nystartede og andre mindre virksomheder, til [!INCLUDE[prod_short](includes/prod_short.md)], som også understøtter større og mere komplekse organisationer. 
 
-Når de skifter, ønsker virksomhederne typisk at tage deres forretningsdata med sig, så de ikke starter helt forfra. Som en hjælp til at overføre data tilbyder [!INCLUDE[d365fin](includes/d365fin_md.md)] indbyggede udvidelser, der overfører data som debitorer, kreditorer, lagervarer og finanskonti. Nedenstående udvidelser er installeret og klar til brug som en integreret del af den assisterende opsætningsvejledning **Dataoverførsel**.
+Når de skifter, ønsker virksomhederne typisk at tage deres forretningsdata med sig, så de ikke starter helt forfra. Som en hjælp til at overføre data tilbyder [!INCLUDE[prod_short](includes/prod_short.md)] indbyggede udvidelser, der overfører data som debitorer, kreditorer, lagervarer og finanskonti. Nedenstående udvidelser er installeret og klar til brug som en integreret del af den assisterende opsætningsvejledning **Dataoverførsel**.
 
 * Overførsel af QuickBooks-data 
 * QuickBooks Online-dataoverførsel

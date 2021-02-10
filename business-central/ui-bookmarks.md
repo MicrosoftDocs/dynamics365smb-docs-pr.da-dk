@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1bcbd23658ff2a74ae0ab88b6020e1d859f37355
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912692"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747714"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bogmærke en side eller en rapport i rollecenteret
 Med bogmærkeikonet kan du tilføje en handling, der åbner en side eller en rapport fra navigationsmenuen i dit rollecenter. På den måde kan du hurtigt få adgang til dit foretrukne indhold eller dine forretningsopgaver. Du kan tilføje bogmærket fra målsiden eller rapporten, dvs. det skærmbillede, du vil have linket i rollecenteret til at åbne.
@@ -81,6 +81,6 @@ Når du tilføjer en ny handling, bogmærkes oversat tekst, der var tilgængelig
 
 ## <a name="see-also"></a>Se også
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  

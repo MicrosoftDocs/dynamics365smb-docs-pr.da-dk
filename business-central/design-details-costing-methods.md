@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927018"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751701"
 ---
 # <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
 
@@ -24,7 +24,7 @@ Kostmetoden afgør, om en faktisk eller en budgetteret værdi føres som aktiv o
 > [!NOTE]
 > Du kan ikke ændre en vares kostmetode, hvis der findes vareposter for varen. Du kan finde flere oplysninger i [Design detaljer: Ændre kostmetoden for varer](design-details-changing-costing-methods.md).
 
-Følgende metoder understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Følgende metoder understøttes i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 | Kostmetode | Description | Hvornår skal den bruges |
 |--|--|--|
@@ -163,4 +163,4 @@ Følgende metoder understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
  [Designoplysninger: Vareudligning](design-details-item-application.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

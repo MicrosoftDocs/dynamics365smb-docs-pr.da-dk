@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aaffac8fe7e10d0155649c960803f65a8136c46d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56cf606151f687cf48138b3e14758d7febc47db6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911076"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751574"
 ---
 # <a name="design-details-general-journal-post-line"></a>Designoplysninger: Bogføringslinje i finanskladde
-Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges til at omdesigne funktionen til finanskladders bogføringslinjer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ombygningen gør codeunit 12 enklere og nemmere at vedligeholde. Dokumentationen starter med at beskrive en grundlæggende oversigt over det nye design. Derefter beskrives den tekniske arkitektur for at vise de ændringer, der stammer fra ombygningen.  
+Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges til at omdesigne funktionen til finanskladders bogføringslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Ombygningen gør codeunit 12 enklere og nemmere at vedligeholde. Dokumentationen starter med at beskrive en grundlæggende oversigt over det nye design. Derefter beskrives den tekniske arkitektur for at vise de ændringer, der stammer fra ombygningen.  
 
 ## <a name="in-this-section"></a>Dette afsnit indeholder  
 [Oversigt over bogføringslinje i finanskladde](design-details-general-journal-post-line-overview.md)  

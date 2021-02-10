@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fd26f288ee6128539c9a8dd415d98126d693c3fe
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2eb3b42c5b76487d579065b9a60ae614bbb71dda
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926618"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748614"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Udligne betalinger automatisk og afstemme bankkonti
-Rutinemæssigt skal du afstemme dine bank-, debet- og kreditkonti ved at udligne betalinger, der er registreret på din bankkonto, til deres relaterede åbne (ubetalte) fakturaer og kreditnotaer eller andre åbne poster i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Rutinemæssigt skal du afstemme dine bank-, debet- og kreditkonti ved at udligne betalinger, der er registreret på din bankkonto, til deres relaterede åbne (ubetalte) fakturaer og kreditnotaer eller andre åbne poster i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Du kan udføre denne opgave på siden **Betalingsudligningskladde** ved f.eks. at importere en bankkontoudtogsfil eller et -feed for hurtigt at registrere betalinger. Betalinger udlignes til åbne debitor- eller kreditorposter baseret på sammenligninger i betalingstekst og oplysninger i poster. Du kan gennemse og ændre automatiske programmer, før du bogfører kladden. Du kan vælge at lukke alle åbne bankposter vedrørende de udlignede poster, når du bogfører kladden. Bankkontoen udlignes automatisk, når alle betalinger er udlignet.
 
@@ -30,7 +30,7 @@ Du kan også afstemme bankkonti uden at udligne betalinger samtidigt. Du kan udf
 
 For at gøre det muligt at importere bankkontoudtog som feeds, skal du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank Feeds og derefter knytte dine bankkonti til de relaterede onlinebankkonti. Du kan finde flere oplysninger i [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
-Du kan også bruge AMC Banking 365 Fundamentals-udvidelsen til at konvertere en bankudtogsfil fra ethvert filformat til en datastrøm, som du kan importere i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
+Du kan også bruge AMC Banking 365 Fundamentals-udvidelsen til at konvertere en bankudtogsfil fra ethvert filformat til en datastrøm, som du kan importere i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
@@ -48,4 +48,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

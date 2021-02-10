@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 83bb0691baada420d8360736b613d1fbb33690e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a9a44faea1f92159930124992c9c070880d0c9eb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922063"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751301"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designoplysninger: Udgående lagerflow
 
@@ -37,7 +37,7 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
 
  Processer og brugergrænsefladedokumenter i udgående lagerstrømme er forskellige for grundlæggende og avancerede lageropsætninger. Den væsentligste forskel er, at aktiviteter udføres ordre for ordre i grundlæggende lageropsætninger, og de er fælles for flere ordrer i avancerede lageropsætninger. Du kan finde flere oplysninger om forskellige lagerkompleksitetsniveauer i [Designoplysninger: Oversigt over logistik](design-details-warehouse-setup.md)  
 
- I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner, afhængigt af kompleksitetsniveauet på lageret.  
+ I [!INCLUDE[prod_short](includes/prod_short.md)] kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner, afhængigt af kompleksitetsniveauet på lageret.  
 
 |Metode|Udgående proces|Placering|Pluk|Leverancer|Kompleksitetsniveau (Se [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md))|  
 |------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  

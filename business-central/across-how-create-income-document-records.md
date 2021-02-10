@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5858ce15a9b8ff1c5042df21dd8572a2ddff3139
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 722e69389413dc06db4f2b7fd2f8447d9033d030
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919711"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753288"
 ---
 # <a name="create-incoming-document-records"></a>Oprette indgående bilagsposter
 På siden **Indgående bilag** kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående bilagsfiler, manuelt eller automatisk, til de relevante købs- og salgsdokumenter eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter.
 
-Når du vil registrere et eksternt dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du først oprette eller fuldføre en indgående bilagspost. Du kan gøre dette manuelt, eller du kan tage et billede af det eksterne bilag og derefter oprette den indgående bilagspost med billedfilen vedhæftet.
+Når du vil registrere et eksternt dokument i [!INCLUDE[prod_short](includes/prod_short.md)], skal du først oprette eller fuldføre en indgående bilagspost. Du kan gøre dette manuelt, eller du kan tage et billede af det eksterne bilag og derefter oprette den indgående bilagspost med billedfilen vedhæftet.
 
 Før du kan bruge funktionen Indgående bilag, skal du foretage den nødvendige opsætning. Du kan finde flere oplysninger under [Konfigurere indgående bilag](across-how-setup-income-documents.md).
 
@@ -36,7 +36,7 @@ Hvis du godkender den indgående bilagspost, markeres afkrydsningsfeltet **Frigi
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Sådan opretter du en indgående bilagspost ved at tage et billede
 > [!NOTE]  
->   Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
+>   Følgende procedure gælder kun for [!INCLUDE[prod_short](includes/prod_short.md)] tablet- og telefonklienter.
 
 1. På applinjen skal du vælge feltet **Opret indgående bilag fra kamera** og derefter gå til trin 4.
 2. Du kan også vælge alternativknappen på applinjen, vælge **Indgående bilag** og derefter vælge **Alle**.
@@ -47,7 +47,7 @@ Hvis du godkender den indgående bilagspost, markeres afkrydsningsfeltet **Frigi
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Sådan vedhæfter du et billede til en indgående bilagspost ved at tage et billede
 > [!NOTE]  
->   Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
+>   Følgende procedure gælder kun for [!INCLUDE[prod_short](includes/prod_short.md)] tablet- og telefonklienter.
 
 1. På applinjen skal du vælge alternativknappen, vælg **Indgående bilag** og vælg derefter **Alle**.
 2. Åbn kortet for en eksisterende indgående bilagspost.
@@ -69,4 +69,4 @@ Hvis du godkender den indgående bilagspost, markeres afkrydsningsfeltet **Frigi
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

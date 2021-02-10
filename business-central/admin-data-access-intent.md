@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 98105cb3e3634169b31a850f20a65a3854b006b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6d79f5b2851df85ea9f19faeeb941eccfd1b397b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911551"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752821"
 ---
 # <a name="managing-database-access-intent"></a>Administration af formål med adgang til database 
 
@@ -23,13 +23,13 @@ Som superbruger eller administrator kan du ændre formålet med adgang til datab
 
 ## <a name="overview"></a>Oversigt
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan konfigureres til at bruge skrivebeskyttede kopier af den primære database (læse-skrive). Hvis du bruger kopien af brugerdatabasen, reduceres den primære databases belastning. I nogle tilfælde vil det også forbedre ydeevnen, når data vises i klienten. Kopier er nyttige for objekter, f. eks. rapporter, forespørgsler og API-sider, som kun bruges til at se data, ikke til at ændre data.
+[!INCLUDE[prod_short](includes/prod_short.md)] kan konfigureres til at bruge skrivebeskyttede kopier af den primære database (læse-skrive). Hvis du bruger kopien af brugerdatabasen, reduceres den primære databases belastning. I nogle tilfælde vil det også forbedre ydeevnen, når data vises i klienten. Kopier er nyttige for objekter, f. eks. rapporter, forespørgsler og API-sider, som kun bruges til at se data, ikke til at ændre data.
 
 Når objekter køres, bestemmer formålet med adgang til databasen, om der skal bruges en skrivebeskyttet kopi, hvis den er tilgængelig, eller den primære database. Rapporter, API-sider og forespørgsler udvikles med et foruddefineret formål med adgang til databasen (få flere oplysninger i [egenskaben DatabaseAccessIntent](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property)).
 
 På siden **Liste over formål med adgang til database** kan du tilsidesætte det foruddefinerede formål med adgang til database for objekter, når de køres.
 
-I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan få flere oplysninger om read-scale out og formål med adgang til databaser i [!INCLUDE[prodshort](includes/prodshort.md)] i [Sådan bruger du read scale-out til at forbedre ydeevnen](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prodshort](includes/prodshort.md)] Hjælp til udviklere og administratorer.
+I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan få flere oplysninger om read-scale out og formål med adgang til databaser i [!INCLUDE[prod_short](includes/prod_short.md)] i [Sådan bruger du read scale-out til at forbedre ydeevnen](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prod_short](includes/prod_short.md)] Hjælp til udviklere og administratorer.
 
 ## <a name="to-change-the-database-access-intent"></a>Sådan ændrer du formålet med adgang til databaser
 
@@ -55,7 +55,7 @@ I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan f�
 ## <a name="see-also"></a>Se også
 [Forretningsfunktioner](across-business-functionality.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Introduktion](product-get-started.md)    
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

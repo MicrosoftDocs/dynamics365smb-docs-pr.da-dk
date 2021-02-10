@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 3181fe2bfa72897a4e8db8dd1bae6b0f235c6eaa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca92d9535a9a15d46d93de6febdfd169c3d7d17a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923166"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755538"
 ---
 # <a name="post-the-year-end-closing-entry"></a>Bogføre årsafslutningsposten
 Når du har udført kørslen **Nulstil resultatopgørelse** for at oprette årsafslutningens lukkepost eller -poster, skal du åbne den kladde, du angav i kørslen, og derefter gennemse og bogføre posterne.
@@ -35,4 +35,4 @@ Når du har udført kørslen **Nulstil resultatopgørelse** for at oprette årsa
 [Afslutte regnskabsperioder](year-close-account-periods.md)  
 [Afslutningregnskab](year-close-books.md)  
 [Nulstil resultatopgørelse](year-close-income-statement.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

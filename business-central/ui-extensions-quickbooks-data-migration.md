@@ -10,16 +10,16 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34acbbf383048c6ef411797dfb1afcb51f7f6b40
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36b6eb6970daef6ea2e3aafc28ed232942707728
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912267"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757113"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Udvidelsen Overførsel af QuickBooks-data
 
-Denne udvidelse gør det nemt at overflytte debitorer, kreditorer, varer og konti fra QuickBooks til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis din virksomhed bruger QuickBooks i dag, kan du eksportere de relevante oplysninger og derefter åbne en assisteret opsætningsvejledning for at overføre dataene til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Denne udvidelse gør det nemt at overflytte debitorer, kreditorer, varer og konti fra QuickBooks til [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis din virksomhed bruger QuickBooks i dag, kan du eksportere de relevante oplysninger og derefter åbne en assisteret opsætningsvejledning for at overføre dataene til [!INCLUDE[prod_short](includes/prod_short.md)].  
 Du kan finde flere oplysninger under [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).
 
 ## <a name="data-from-quickbooks-desktop"></a>Data fra QuickBooks Desktop
@@ -50,7 +50,7 @@ Det er en vigtig del af overførslen at angive de konti, transaktioner skal over
 Business Central kræver, at finanskonti har kontonumre tilknyttet. Sørg for, at kontonumre er tildelt til kontiene i QuickBooks.
 Hvis der er transaktioner i QuickBooks, der har momsbeløb, du skal oprette en momskonto for dine skatteregioner i Business Central, før du kan bogføre transaktioner.
 
-For at få data ud af programmet QuickBooks Desktop skal du hente værktøjet Microsoft-dataeksportværktøjet.  Instruktioner til værktøjet findes i dataoverførselsguiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Værktøjet opretter forbindelse til programmet QuickBooks og eksportere de relevante oplysninger til en .zip-fil.  
+For at få data ud af programmet QuickBooks Desktop skal du hente værktøjet Microsoft-dataeksportværktøjet.  Instruktioner til værktøjet findes i dataoverførselsguiden i [!INCLUDE[prod_short](includes/prod_short.md)]. Værktøjet opretter forbindelse til programmet QuickBooks og eksportere de relevante oplysninger til en .zip-fil.  
 
 > [!NOTE]
 > I øjeblikket fungerer dataeksportværktøjet kun sammen med QuickBooks 2017 og 2018.
@@ -69,4 +69,4 @@ Kontroller primosaldi for konti i finansbogholderiet. QuickBooks gemmer ikke den
 ## <a name="see-also"></a>Se også
 
 [Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  

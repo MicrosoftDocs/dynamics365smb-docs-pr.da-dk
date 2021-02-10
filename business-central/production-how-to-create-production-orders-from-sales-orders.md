@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac927f9ef676cbfa433265346f69c92552802fce
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aafd30be751440c9afd124f07ada43d57b799555
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919234"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748964"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Oprette produktionsordrer fra salgsordrer
 Du kan oprette produktionsordrer til producerede varer direkte fra salgsordrer.  
@@ -38,4 +38,4 @@ Du kan også vælge at oprette en projektproduktionsordre. Du kan finde flere op
 [Køb](purchasing-manage-purchasing.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

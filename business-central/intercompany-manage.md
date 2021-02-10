@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 070ffe0a25791f8fee51e0e4279a3886a3f18135
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 44f6fa0f4f5b957a3164fb8cda68c0397f639bc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924024"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750101"
 ---
 # <a name="managing-intercompany-transactions"></a>Administrere Intercompany-transaktioner (IC)
 Organisationen består muligvis af flere virksomheder, men har måske ikke det tilsvarende antal regnskabs- og administrationsgrupper. Med Intercompany-funktionen kan du handle med datterselskaber og interne partnerorganisationer på samme måde som med dine eksterne leverandører og kunder. Du angiver kun oplysninger om intercompany-transaktioner én gang i de relevante bilag. Du kan bruge de funktioner, du allerede kender, f.eks. likviditetsstyring. Tilknytningsfunktioner i kontoplanerne og dimensioner er med til at sikre, at oplysningerne vises de rigtige steder.  
@@ -39,16 +39,17 @@ Konsolidering af finansielle oplysninger kan især være relevant i forbindelse 
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
- |Hvis du vil |Se|
- |---|---|
- |Opret koncerninterne kreditorer og debitorer som såkaldte koncerninterne partnere, og konfigurer en koncernintern (IC) kontoplan.|[Konfigurere mellemregning](intercompany-how-setup.md)|
- |Bruge IC-dokumenter eller -kladder til at bogføre transaktioner med koncerninterne partnere.|[Arbejde med koncerninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)|
- |Organisere og behandle indgående og udgående transaktioner, som du udveksler med dine koncerninterne partnere.|[Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md)|
+|Hvis du vil |Se|
+|---|---|
+|Opret koncerninterne kreditorer og debitorer som såkaldte koncerninterne partnere, og konfigurer en koncernintern (IC) kontoplan.|[Konfigurere mellemregning](intercompany-how-setup.md)|
+|Bruge IC-dokumenter eller -kladder til at bogføre transaktioner med koncerninterne partnere.|[Arbejde med koncerninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)|
+|Organisere og behandle indgående og udgående transaktioner, som du udveksler med dine koncerninterne partnere.|[Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md)|
+|Brug IC-bogføringer til at fordele omkostninger mellem partnerfirmaer.|[Allokere omkostninger til IC-partnere](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

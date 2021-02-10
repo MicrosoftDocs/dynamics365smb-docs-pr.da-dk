@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: affea21b7f6c6d59c609321d7bd3ceebfc6bedd1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ea9974a8fb63d4e119cdc8b78930fd94777e6a38
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920843"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749564"
 ---
 # <a name="design-details-warehouse-management"></a>Designoplysninger: Logistik
-Denne dokumentation giver et overblik over de begreber og principper, der bruges i logistikfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det forklarer designet bag centrallagerfunktioner, og hvordan logistik integreres med andre funktioner i forsyningskæden.  
+Denne dokumentation giver et overblik over de begreber og principper, der bruges i logistikfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)]. Det forklarer designet bag centrallagerfunktioner, og hvordan logistik integreres med andre funktioner i forsyningskæden.  
 
 Med henblik på at skelne mellem forskellige kompleksitetsniveauer af logistik er dette dokument opdelt i to generelle grupper, grundlæggende og avancerede lageropsætninger, angivet ved titlerne på afsnittene. Denne simple differentiering dækker forskellige kompleksitetsniveauer, som defineret af produktdetaljer og lokationsopsætning. Du kan finde flere oplysninger i [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 

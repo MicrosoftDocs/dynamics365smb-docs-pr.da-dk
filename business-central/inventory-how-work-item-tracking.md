@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 510958f185f748f1c8d122d2f199e164b7e45fba
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921863"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746087"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbejde med serienumre og lotnumre
 Du kan tildele serienumre og lotnumre til ethvert udgående eller indgående bilag, og dets posterede varesporing vises i de tilknyttede vareposter. Du kan udføre arbejdet på siden **Varesporingslinjer**, som du kan åbne fra et indgående eller udgående dokument.
@@ -36,7 +36,7 @@ I enkle processer har lagervarerne allerede serie- eller lotnumre, som f.eks. bl
 I visse situationer vedr. lagervare med serie - eller lotnumre defineres bestemte serie- eller lotnumre på kildedokumentet, f.eks. en salgsordre, som lagermedarbejderen skal respektere under den udgående lageradministration. Dette kan skyldes, at debitor har anmodet om et bestemt lot under ordreprocessen. Når lagerplukdokumentet er oprettet fra et udgående kildedokument, hvor der allerede er defineret serie- eller lotnumre, er alle felterne på siden **Varesporingslinjer** under lagerpluk skrivebeskyttede, undtagen feltet **Håndteringsantal**. I så fald angiver pluklinjerne for lageret varesporingsnumrene på de enkelte Hent- og Placer-linjer. Antallet er allerede opdelt i entydige serie- eller lotnummerkombinationer, fordi salgsordren angiver de varesporingsnumre, der skal leveres.  
 
 ## <a name="item-tracking-availability"></a>Tilgængelighed af varesporing
-Når du arbejder med serie- og lotnumre, beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] disponeringsoplysningerne for lot- og serienumre, og oplysningerne vises på de forskellige sider til varesporing. På denne måde kan du se, hvor meget af et lot- eller serienummer der i øjeblikket bruges i andre dokumenter. Dette reducerer fejl og usikkerhed, der skyldes dobbelte tildelinger.
+Når du arbejder med serie- og lotnumre, beregner [!INCLUDE[prod_short](includes/prod_short.md)] disponeringsoplysningerne for lot- og serienumre, og oplysningerne vises på de forskellige sider til varesporing. På denne måde kan du se, hvor meget af et lot- eller serienummer der i øjeblikket bruges i andre dokumenter. Dette reducerer fejl og usikkerhed, der skyldes dobbelte tildelinger.
 
 På siden **Varesporingslinjer** vises et advarselsikon i feltet **Lotnr.disponering** eller feltet **Serienr.disponering**, hvis nogle eller alle af det valgte antal allerede bruges i andre dokumenter, eller hvis lot- eller serienummeret ikke er tilgængeligt.
 
@@ -88,28 +88,6 @@ Det kan være praktisk at angive særlige garantier for bestemte varer i varespo
     |---------------------------------|---------------------------------------|  
     |**Garantiophørsformel**|Angiver den sidste dag for garantien på varen.|  
     |**Man. angivelse af garantiophør**|Angiver, at du manuelt skal angive en garantidato på varesporingslinjen.|  
-
-## <a name="to-record-serial-or-lot-number-information"></a>Sådan registreres oplysninger om serie- eller lotnumre  
-Hvis du vil knytte specielle oplysninger til et bestemt varesporingsnummer, f.eks. for kvalitetssikring, kan du gøre dette på serie- eller lotnr.oplysningskortet.
-
-1. Åbn et dokument, der har tildelte serie- eller lotnumre.
-2. Åbn siden **Varesporingslinjer** for dokumentet.
-3. Vælg f.eks. handlingen **Serienr.oplysningskort**.  
-
-    Felterne **Serienr.** og **Lotnr.** er udfyldt på forhånd fra varesporingslinjen.  
-4. Angiv korte oplysninger i feltet **Beskrivelse**, for eksempel om varens tilstand.  
-5. Vælg handlingen **Kommentar** for at oprette en separat kommentar.  
-6. Markér afkrydsningsfeltet **Spærret** for at udelade serienummeret eller lotnummeret i alle transaktioner.  
-
-## <a name="to-modify-existing-serial-or-lot-number-information"></a>Sådan ændres eksisterende serie-/lotnummeroplysninger  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
-2. Vælg en vare, der har en varesporingskode og har serie- eller lotnummeroplysninger.
-3. På siden **Varekort** skal du vælge handlingen **Poster** og derefter klikke på **Poster**.
-4. Vælg feltet **Lotnr.** eller **Serienr.**. Hvis der findes oplysninger for varesporingsnummeret, åbnes siden **Oversigt over lotnr.oplysninger** eller **Oversigt over serienr.oplysninger**.  
-5. Vælg et kort, og vælg derefter handlingen **Lotnr.oplysningskort/Serienr.oplysningskort**.  
-6. Rediger den korte beskrivelsestekst, kommentarposten eller feltet **Spærret**.  
-
-Du kan ikke redigere serienumre, lotnumre eller mængder. For at gøre det skal du ompostere den pågældende varepost. Hvis du vil have yderligere oplysninger om dette, skal du se [Sådan omposteres lot- eller serienumre](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Sådan tildeles serie- eller lotnumre under indgående transaktioner  
 Mange virksomheder ønsker at holde styr på varer, lige så snart de modtager dem. I denne situation er købsordren ofte det centrale dokument, selvom varesporing kan håndteres fra alle indgående bilag, og de tilhørende poster kan ses i de tilknyttede vareposter.  
@@ -236,6 +214,34 @@ I disse situationer kopieres de eksisterende varesporingslinjer automatisk til f
 
 Du kan ikke ændre felterne **Serienr.** og **Lotnr.** Du kan imidlertid slette hele linjer eller ændre mængder, så de svarer til de ændringer, der er foretaget på kildelinjen.  
 
+## <a name="to-record-serial-or-lot-number-information"></a>Sådan registreres oplysninger om serie- eller lotnumre  
+Hvis du vil knytte specielle oplysninger til et bestemt varesporingsnummer, f.eks. for kvalitetssikring, kan du gøre dette på serie- eller lotnr.oplysningskortet.
+
+1. Åbn et dokument, der har tildelte serie- eller lotnumre.
+2. Åbn siden **Varesporingslinjer** for dokumentet.
+3. Vælg f.eks. handlingen **Serienr.oplysningskort**.  
+
+    Felterne **Serienr.** og **Lotnr.** er udfyldt på forhånd fra varesporingslinjen.  
+4. Angiv korte oplysninger i feltet **Beskrivelse**, for eksempel om varens tilstand.  
+5. Vælg handlingen **Kommentar** for at oprette en separat kommentar.  
+6. Markér afkrydsningsfeltet **Spærret** for at udelade serienummeret eller lotnummeret i alle transaktioner.  
+
+Hvis du opretter serienumre i bulk ved hjælp af funktionen **Opret brugerdefineret serienr.** eller **Tildel serienr. antal**-handlinger, kan du aktivere **Opret Serienr. oplysninger**, og der oprettes et oplysningskort for hver sporingslinje.
+
+Alternativelly du kan oprette et oplysningskort, når du bogfører kladder eller bilag på siden **Varesporingskode**, aktivere **Opret serienumreoplysninger ved bogføring** eller skifte til **Opret serienumreoplysninger ved bogføring**. 
+
+Du kan ændre oprettede serie- eller lotnumre på et senere tidspunkt.
+
+## <a name="to-modify-existing-serial-or-lot-number-information"></a>Sådan ændres eksisterende serie-/lotnummeroplysninger  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
+2. Vælg en vare, der har en varesporingskode og har serie- eller lotnummeroplysninger.
+3. På siden **Varekort** skal du vælge handlingen **Poster** og derefter klikke på **Poster**.
+4. Vælg feltet **Lotnr.** eller **Serienr.**. Hvis der findes oplysninger for varesporingsnummeret, åbnes siden **Oversigt over lotnr.oplysninger** eller **Oversigt over serienr.oplysninger**.  
+5. Vælg et kort, og vælg derefter handlingen **Lotnr.oplysningskort/Serienr.oplysningskort**.  
+6. Rediger den korte beskrivelsestekst, kommentarposten eller feltet **Spærret**.  
+
+Du kan ikke redigere serienumre, lotnumre eller mængder. For at gøre det skal du ompostere den pågældende varepost. Hvis du vil have yderligere oplysninger om dette, skal du se [Sådan omposteres lot- eller serienumre](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
+
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Sådan omposteres serie- eller lotnumre  
 Ompostering af varesporing for en vare betyder, at et lot- eller serienummer ændres til et nyt lot- eller serienummer, eller at udløbsdatoen ændres til en ny udløbsdato. Hvis du arbejder med lotter, kan du også samle flere lotter i en enkelt lot. Disse opgaver udføres ved hjælp af vareomposteringskladden.
 
@@ -268,4 +274,4 @@ Ompostering af varesporing for en vare betyder, at et lot- eller serienummer æn
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
 [Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

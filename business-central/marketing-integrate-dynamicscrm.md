@@ -11,38 +11,38 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 37e94bcc276ee8526a336e13eabe81c694130196
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7234536ff432140b1606ffe685bb0225f4963612
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923691"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755313"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Bruge Dynamics 365 Sales fra Business Central
-Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[d365fin](includes/d365fin_md.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
+Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[prod_short](includes/prod_short.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
 
 Før du kan bruge integrationsfunktionerne, skal din systemadministrator oprette forbindelsen og definere brugere i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger under [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
 
 > [!NOTE]
-> Følgende fremgangsmåde beskriver processen med at integrere onlineversioner af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
+> Følgende fremgangsmåde beskriver processen med at integrere onlineversioner af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-Ved integration af programmerne kan du få adgang til data i Salg fra [!INCLUDE[d365fin](includes/d365fin_md.md)] og omvendt i nogle tilfælde. Du kan arbejde med og synkronisere datatyper, der er fælles for begge tjenester, f.eks. debitorer, kontakter og salgsoplysninger, og holde dataene opdaterede i begge programmer.  
+Ved integration af programmerne kan du få adgang til data i Salg fra [!INCLUDE[prod_short](includes/prod_short.md)] og omvendt i nogle tilfælde. Du kan arbejde med og synkronisere datatyper, der er fælles for begge tjenester, f.eks. debitorer, kontakter og salgsoplysninger, og holde dataene opdaterede i begge programmer.  
 
-For eksempel kan en sælger i [!INCLUDE[crm_md](includes/crm_md.md)] bruge prislisterne fra [!INCLUDE[d365fin](includes/d365fin_md.md)], når vedkommende opretter en salgsordre. Når sælgeren føjer varen til salgsordrelinjen i [!INCLUDE[crm_md](includes/crm_md.md)], kan vedkommende se varens lagerniveau (tilgængelighed) fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
+For eksempel kan en sælger i [!INCLUDE[crm_md](includes/crm_md.md)] bruge prislisterne fra [!INCLUDE[prod_short](includes/prod_short.md)], når vedkommende opretter en salgsordre. Når sælgeren føjer varen til salgsordrelinjen i [!INCLUDE[crm_md](includes/crm_md.md)], kan vedkommende se varens lagerniveau (tilgængelighed) fra [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Omvendt kan ordrebehandlere i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndtere salgsordrer, der automatisk eller manuelt overføres fra [!INCLUDE[crm_md](includes/crm_md.md)]. De kan f.eks. oprette og bogføre salgsordrelinjer for varer eller ressourcer, der er angivet i [!INCLUDE[crm_md](includes/crm_md.md)], som rekvirerede produkter. Du kan finde flere oplysninger i [Håndtering af salgsordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+Omvendt kan ordrebehandlere i [!INCLUDE[prod_short](includes/prod_short.md)] håndtere salgsordrer, der automatisk eller manuelt overføres fra [!INCLUDE[crm_md](includes/crm_md.md)]. De kan f.eks. oprette og bogføre salgsordrelinjer for varer eller ressourcer, der er angivet i [!INCLUDE[crm_md](includes/crm_md.md)], som rekvirerede produkter. Du kan finde flere oplysninger i [Håndtering af salgsordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
 
 > [!IMPORTANT]  
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] kan kun integreres med [!INCLUDE[crm_md](includes/crm_md.md)]. Andre programmer i Dynamics 365, der ændrer standardarbejdsprocessen eller datamodellen i [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel Project Service Automation, kan bryde integrationen mellem [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
+> [!INCLUDE[prod_short](includes/prod_short.md)] kan kun integreres med [!INCLUDE[crm_md](includes/crm_md.md)]. Andre programmer i Dynamics 365, der ændrer standardarbejdsprocessen eller datamodellen i [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel Project Service Automation, kan bryde integrationen mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="coupling-records"></a>Sammenkæde poster
-Du kan vælge de data, der skal synkroniseres, ved hjælp af den assisterede opsætningsvejledning. Senere kan du også indstille synkroniseringen for bestemte poster. Dette betegnes *sammenkædning*. Du kan f.eks. sammenkæde en bestemt konto i [!INCLUDE[crm_md](includes/crm_md.md)] med en bestemt debitor i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I dette afsnit beskrives det, hvad du skal tage højde for, når du sammenkæder poster.
+Du kan vælge de data, der skal synkroniseres, ved hjælp af den assisterede opsætningsvejledning. Senere kan du også indstille synkroniseringen for bestemte poster. Dette betegnes *sammenkædning*. Du kan f.eks. sammenkæde en bestemt konto i [!INCLUDE[crm_md](includes/crm_md.md)] med en bestemt debitor i [!INCLUDE[prod_short](includes/prod_short.md)]. I dette afsnit beskrives det, hvad du skal tage højde for, når du sammenkæder poster.
 
-Hvis du f.eks. vil se [!INCLUDE[crm_md](includes/crm_md.md)]-konti som debitorer i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du sammenkæde de to typer poster. For at gøre det skal du bruge handlingen **Konfigurer sammenkædning** på oversigtssiden **Kunder (Debitorer)** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Derefter skal du angive, hvilke [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder der svarer til hvilke konti i [!INCLUDE[crm_md](includes/crm_md.md)].
+Hvis du f.eks. vil se [!INCLUDE[crm_md](includes/crm_md.md)]-konti som debitorer i [!INCLUDE[prod_short](includes/prod_short.md)], skal du sammenkæde de to typer poster. For at gøre det skal du bruge handlingen **Konfigurer sammenkædning** på oversigtssiden **Kunder (Debitorer)** i [!INCLUDE[prod_short](includes/prod_short.md)]. Derefter skal du angive, hvilke [!INCLUDE[prod_short](includes/prod_short.md)]-kunder der svarer til hvilke konti i [!INCLUDE[crm_md](includes/crm_md.md)].
 
-Du kan også oprette (og sammenkæde) en konto i [!INCLUDE[crm_md](includes/crm_md.md)] baseret på f.eks. en debitorpost i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af **Opret konto i Dynamics 365 Sales** eller omvendt ved hjælp af **Opret kreditor i [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+Du kan også oprette (og sammenkæde) en konto i [!INCLUDE[crm_md](includes/crm_md.md)] baseret på f.eks. en debitorpost i [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af **Opret konto i Dynamics 365 Sales** eller omvendt ved hjælp af **Opret kreditor i [!INCLUDE[prod_short](includes/prod_short.md)]**.
 
-Når du opretter sammenkædning mellem to poster, kan du også manuelt anmode om, at en aktuel post, f.eks. en kunde, skal overskrives med det samme af kontodata fra Salg (eller fra [!INCLUDE[d365fin](includes/d365fin_md.md)]) ved hjælp af handlingen **Synkroniser nu**. Handlingen **Synkroniser nu**, som vil spørge dig, om Salg eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-postdata skal overskrives.
+Når du opretter sammenkædning mellem to poster, kan du også manuelt anmode om, at en aktuel post, f.eks. en kunde, skal overskrives med det samme af kontodata fra Salg (eller fra [!INCLUDE[prod_short](includes/prod_short.md)]) ved hjælp af handlingen **Synkroniser nu**. Handlingen **Synkroniser nu**, som vil spørge dig, om Salg eller [!INCLUDE[prod_short](includes/prod_short.md)]-postdata skal overskrives.
 
 I nogle tilfælde skal du sammenkæde bestemte datasæt før andre datasæt som vist i følgende tabel.
 
@@ -58,23 +58,23 @@ I nogle tilfælde skal du sammenkæde bestemte datasæt før andre datasæt som 
 I [!INCLUDE[crm_md](includes/crm_md.md)] afhænger salgsordrer af ekstra oplysninger som f.eks. kunder, enheder, valutaer, debitorprisgrupper og varer og/eller ressourcer. For at integration med salgsordrer skal fungere, skal du sammenkæde kunder, måleenheder, valutaer, debitorprisgrupper og varer og/eller ressourcer.
 
 ## <a name="fully-synchronizing-records"></a>Fuld synkronisering af poster
-I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen **Kør fuld synkronisering** for at starte synkronisering af alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster med alle relaterede poster i [!INCLUDE[crm_md](includes/crm_md.md)]. På siden **Fuld synkroniseringsgennemsyn af Dynamics 365 Sales** skal du vælge handlingen **Start**. Det kan tage et stykke tid at fuldføre fuld synkronisering, men du kan fortsætte med at arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)], mens den kører i baggrunden.
+I slutningen af den assisterede opsætningsvejledning kan du vælge handlingen **Kør fuld synkronisering** for at starte synkronisering af alle [!INCLUDE[prod_short](includes/prod_short.md)]-poster med alle relaterede poster i [!INCLUDE[crm_md](includes/crm_md.md)]. På siden **Fuld synkroniseringsgennemsyn af Dynamics 365 Sales** skal du vælge handlingen **Start**. Det kan tage et stykke tid at fuldføre fuld synkronisering, men du kan fortsætte med at arbejde i [!INCLUDE[prod_short](includes/prod_short.md)], mens den kører i baggrunden.
 
 Når du vil kontrollere status for individuelle sager i en fuld synkronisering, skal du på siden **Fuld synkroniseringsgennemgang af Dynamics 365 Sales** vælge en post for at få vist detaljer. Opdater siden for at opdatere status under synkroniseringen.
 
-Fra siden **Konfiguration af Microsoft Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne siden **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] og Salg, som skal synkroniseres.
+Fra siden **Konfiguration af Microsoft Dynamics 365-forbindelse** kan du få oplysninger om fuld synkronisering, når som helst. Her kan du også åbne siden **Integrationstabelkoblinger** for at få vist detaljer om tabellerne i [!INCLUDE[prod_short](includes/prod_short.md)] og Salg, som skal synkroniseres.
 
 ## <a name="handling-sales-order-data"></a>Håndtering af salgsordredata
-Salgsordrer, som folk indsender i [!INCLUDE[crm_md](includes/crm_md.md)], overføres automatisk til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du markerer afkrydsningsfeltet **Opret salgsordrer automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**.
-Alternativt kan du manuelt konvertere sendte salgsordrer fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Opret i [!INCLUDE[d365fin](includes/d365fin_md.md)]**, der er tilgængelig på siden **Salgsordrer – Dynamics 365 for Sales**.
-På sådanne salgsordrer overføres og knyttes feltet **Navn** på den oprindelige ordre til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Salgsordrer, som folk indsender i [!INCLUDE[crm_md](includes/crm_md.md)], overføres automatisk til [!INCLUDE[prod_short](includes/prod_short.md)], hvis du markerer afkrydsningsfeltet **Opret salgsordrer automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**.
+Alternativt kan du manuelt konvertere sendte salgsordrer fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Opret i [!INCLUDE[prod_short](includes/prod_short.md)]**, der er tilgængelig på siden **Salgsordrer – Dynamics 365 for Sales**.
+På sådanne salgsordrer overføres og knyttes feltet **Navn** på den oprindelige ordre til feltet **Eksternt bilagsnummer** i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede produkter, hvilket betyder varer eller ressourcer, der ikke er registreret i nogen af programmerne. I så fald skal du udfylde felterne **Rekvireret produkttype** og **Rekvireret produktnr.** felter på siden **Opsætning af salg og tilgodehavender**, så salg af sådanne ikke-registrerede produkter knyttes til et bestemt vare eller ressourcenummer.
 
 > [!NOTE]
-> Du kan ikke knytte en nedskrivning til en vare eller ressource i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er kombineret med et produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil tillade skrive programmer, anbefales det, at du opretter en vare eller en ressource, der er specielt beregnet til dette formål, og du kan ikke koble det til et produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. 
+> Du kan ikke knytte en nedskrivning til en vare eller ressource i [!INCLUDE[prod_short](includes/prod_short.md)], der er kombineret med et produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil tillade skrive programmer, anbefales det, at du opretter en vare eller en ressource, der er specielt beregnet til dette formål, og du kan ikke koble det til et produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
-Hvis beskrivelsen af varen på den oprindelige salgsordre er meget lang, oprettes der en ekstra salgsordrelinje af typen **Bemærkning** for at holde hele teksten i salgsordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Hvis beskrivelsen af varen på den oprindelige salgsordre er meget lang, oprettes der en ekstra salgsordrelinje af typen **Bemærkning** for at holde hele teksten i salgsordren i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesdato eller Ønsket leveringsdato, der er tilknyttet i **SALGSORDRE-ORDRE**-integrationstabelkoblinger synkroniseres regelmæssigt til [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som frigivelse af en salgsordre og levering eller fakturering af en salgsordre bogføres på salgsordrens tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Introduktion til aktivitetsopdateringer](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
@@ -84,25 +84,25 @@ Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesda
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
 ## <a name="handling-sales-quotes-data"></a>Håndtering af data i salgstilbud
-Salgstilbud, der aktiveres i [!INCLUDE[crm_md](includes/crm_md.md)], overføres til [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis du markerer afkrydsningsfeltet **Behandl tilbud automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**.
-Alternativt kan du manuelt konvertere aktiverede salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Behandl i [!INCLUDE[d365fin](includes/d365fin_md.md)]** på siden **Salgstilbud – Dynamics 365 Sales**.
-I sådanne salgstilbud overføres og knyttes feltet **Navn** i det oprindelige tilbud til feltet **Eksternt bilagsnummer** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Desuden overføres feltet **Gælder til** i tilbud og tilknyttes feltet **Tilbud gyldigt til** i salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Salgstilbud, der aktiveres i [!INCLUDE[crm_md](includes/crm_md.md)], overføres til [!INCLUDE[prod_short](includes/prod_short.md)], hvis du markerer afkrydsningsfeltet **Behandl tilbud automatisk** på siden **Konfiguration af Microsoft Dynamics 365-forbindelse**.
+Alternativt kan du manuelt konvertere aktiverede salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjælp af handlingen **Behandl i [!INCLUDE[prod_short](includes/prod_short.md)]** på siden **Salgstilbud – Dynamics 365 Sales**.
+I sådanne salgstilbud overføres og knyttes feltet **Navn** i det oprindelige tilbud til feltet **Eksternt bilagsnummer** i [!INCLUDE[prod_short](includes/prod_short.md)]. Desuden overføres feltet **Gælder til** i tilbud og tilknyttes feltet **Tilbud gyldigt til** i salgstilbud i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Salgstilbud gennemgår mange revisioner, mens de er under udarbejdelse. Både manuel og automatisk behandling af salgstilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)] sikrer, at tidligere versioner af salgstilbud arkiveres, før nye ændringer af salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] behandles.
+Salgstilbud gennemgår mange revisioner, mens de er under udarbejdelse. Både manuel og automatisk behandling af salgstilbud i [!INCLUDE[prod_short](includes/prod_short.md)] sikrer, at tidligere versioner af salgstilbud arkiveres, før nye ændringer af salgstilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] behandles.
 
-Når du vælger **Behandl** i [!INCLUDE[d365fin](includes/d365fin_md.md)] for et tilbud, der er **vundet**, oprettes der kun en salgsordre i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis der sendes en tilsvarende salgsordre i [!INCLUDE[crm_md](includes/crm_md.md)]. Ellers frigives tilbuddet kun i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis en tilsvarende salgsordre er blevet sendt i [!INCLUDE[crm_md](includes/crm_md.md)] senere, og der oprettes en salgsordre, opdateres **Tilbudsnr.** til salgsordren, og tilbuddet arkiveres.
+Når du vælger **Behandl** i [!INCLUDE[prod_short](includes/prod_short.md)] for et tilbud, der er **vundet**, oprettes der kun en salgsordre i [!INCLUDE[prod_short](includes/prod_short.md)], hvis der sendes en tilsvarende salgsordre i [!INCLUDE[crm_md](includes/crm_md.md)]. Ellers frigives tilbuddet kun i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis en tilsvarende salgsordre er blevet sendt i [!INCLUDE[crm_md](includes/crm_md.md)] senere, og der oprettes en salgsordre, opdateres **Tilbudsnr.** til salgsordren, og tilbuddet arkiveres.
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Håndtere bogførte salgsfakturaer, debitorbetalinger og statistik
 Når en salgsordre er opfyldt, oprettes der fakturaer for den. Når du fakturerer en salgsordre, kan du overføre den bogførte salgsfaktura til [!INCLUDE[crm_md](includes/crm_md.md)], hvis du markerer afkrydsningsfeltet **Opret faktura i [!INCLUDE[crm_md](includes/crm_md.md)]** på siden **Bogført salgsfaktura**. Bogførte fakturaer overføres til [!INCLUDE[crm_md](includes/crm_md.md)] med status **Faktureret**.
 
-Når der modtages debitorbetaling for salgsfakturaen i [!INCLUDE[d365fin](includes/d365fin_md.md)], ændres status for salgsfaktura til **Betalt** med **Statusårsag**-feltet indstillet til **Delvis**, hvis det er en delvis betaling eller **Afsluttet**, hvis den er endeligt betalt, når du vælger handlingen **Opdater kontostatistik** på debitorsiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Funktionen **Opdater kontostatistik** opdaterer også værdier, f.eks. **Saldo** og **Salg i alt** i **[!INCLUDE[d365fin](includes/d365fin_md.md)]-faktaboksen Kontostatistik** i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan også få de planlagte opgaver Debitorstatistik og POSTEDSALESINV-INV til automatisk at køre begge processer i baggrunden.
+Når der modtages debitorbetaling for salgsfakturaen i [!INCLUDE[prod_short](includes/prod_short.md)], ændres status for salgsfaktura til **Betalt** med **Statusårsag**-feltet indstillet til **Delvis**, hvis det er en delvis betaling eller **Afsluttet**, hvis den er endeligt betalt, når du vælger handlingen **Opdater kontostatistik** på debitorsiden i [!INCLUDE[prod_short](includes/prod_short.md)]. Funktionen **Opdater kontostatistik** opdaterer også værdier, f.eks. **Saldo** og **Salg i alt** i **[!INCLUDE[prod_short](includes/prod_short.md)]-faktaboksen Kontostatistik** i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan også få de planlagte opgaver Debitorstatistik og POSTEDSALESINV-INV til automatisk at køre begge processer i baggrunden.
 
 ## <a name="see-also"></a>Se også
 [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Relationsstyring](marketing-relationship-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)    
 [Oversigt over Sales og Salgshub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

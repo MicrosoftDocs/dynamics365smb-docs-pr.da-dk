@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51f60e938ddb8ffd53b37b5664cf6e1ba8ba396f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920943"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751776"
 ---
 # <a name="design-details-cost-adjustment"></a>Designoplysninger: Omkostningsregulering
 
@@ -38,7 +38,7 @@ Lagerværdien skal reguleres, før de relaterede værdiposter kan afstemmes med 
 
 Opgaven med at registrere, om der skal ske en omkostningsregulering udføres primært af rutinen Varekladde – Bogfør linje, mens opgaven med at beregne og generere omkostningsreguleringsposter, udføres af kørslen **Juster kostpris - vareposter**.  
 
-For at kunne overføre omkostninger bestemmer registreringsmekanismen, hvilke kilder der er ændret i omkostninger, og til hvilke destinationer disse omkostninger skal overføres. Der findes følgende tre registreringsfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+For at kunne overføre omkostninger bestemmer registreringsmekanismen, hvilke kilder der er ændret i omkostninger, og til hvilke destinationer disse omkostninger skal overføres. Der findes følgende tre registreringsfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Vareudligningspost  
 * Gennemsnitlige kostregulerede indførselssteder  
@@ -82,7 +82,7 @@ Det er en god ide at køre automatisk kostregulering, når du bogfører, da kost
 
 Da det er vigtigt at holde en vares kostpris opdateret, anbefales det, at du udfører kørslen **Juster kostpris - vareposter** så ofte som muligt uden for normal arbejdstid. Du kan også bruge automatisk kostregulering. Dette sikrer, at kostprisen opdateres dagligt for varer.  
 
-Uanset om du kører omkostningsregulering manuelt eller automatisk, er reguleringsprocessen og følgerne ens. [!INCLUDE[d365fin](includes/d365fin_md.md)]beregner værdien af den indgående overflytning, og sender udgiften til en udgående transaktion, f.eks. salg eller forbrug, som er blevet udlignet med den indgående overflytning. Kostregulering opretter værdiposter, der indeholder reguleringsbeløb og beløb, der kompenserer for afrunding.  
+Uanset om du kører omkostningsregulering manuelt eller automatisk, er reguleringsprocessen og følgerne ens. [!INCLUDE[prod_short](includes/prod_short.md)]beregner værdien af den indgående overflytning, og sender udgiften til en udgående transaktion, f.eks. salg eller forbrug, som er blevet udlignet med den indgående overflytning. Kostregulering opretter værdiposter, der indeholder reguleringsbeløb og beløb, der kompenserer for afrunding.  
 
 De nye regulerings- og afrundingsværdiposter har bogføringsdatoen for den relaterede faktura. Undtagelserne er, hvis værdiposterne ligger i en lukket regnskabsperiode eller lagerperiode, eller hvis bogføringsdatoen ligger tidligere end datoen i feltet **Bogf. tilladt fra** på siden **Opsætning af Finans**. Hvis dette sker, tildeler kørslen bogføringsdato som den første dato i den næste åbne periode.  
 
@@ -188,4 +188,4 @@ Hvis du har oprettet den automatiske kostregulering for posteringer, der forekom
 [Designoplysninger: Bogføring af produktionsordre](design-details-production-order-posting.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

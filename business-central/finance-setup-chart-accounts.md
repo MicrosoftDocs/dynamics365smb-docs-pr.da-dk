@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb588d67976a0eb6eee9cac9c66672ac3dd06c69
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b20c4680393fa13b260beca366c7e4ba04abb291
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922991"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750376"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
-Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
+Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
 Men du kan ændre standardkontiene, og du kan tilføje nye konti.
 <br><br>  
 
@@ -35,7 +35,7 @@ Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstilli
 >   * Feltet **Tillad sletning af finanskonti før** skal være indstillet på siden **Opsætning af Finans**, og der må ikke bogføres poster på kontoen på eller efter den pågældende dato.  
 >   * Hvis feltet **Kontroller brug af finanskonto** på siden **Opsætning af Finans** er markeret, må kontoen ikke bruges i nogen bogføringsgrupper eller bogføringsopsætning.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] forhindrer, at du kan slette en finanskonto, der indeholder data, der skal bruges i kontoplanen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] forhindrer, at du kan slette en finanskonto, der indeholder data, der skal bruges i kontoplanen.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -45,6 +45,6 @@ Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstilli
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Arbejde med kontoskemaer](bi-how-work-account-schedule.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]

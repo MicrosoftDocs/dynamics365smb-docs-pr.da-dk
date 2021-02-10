@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 006681473227ccf371c66708e5855da1bf868ddc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915581"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750675"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne og genanvende vareposter
 På siden **Udligningskladde** kan du få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagertransaktioner.  
@@ -36,7 +36,7 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
 > Det er vigtigt at overveje følgende ting, når du arbejder med applikationskladden:
     - Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle elementerne, før du udligner udligningsposterne igen eller lukker siden **Applikationskladde**. Brugere, der forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost modtager følgende fejlmeddelelse: "Du kan ikke udføre denne handling, fordi posterne for vare XXX ikke er udlignede i Applikationskladden af bruger XXX."
     - Du bør kun foretage genudligninger uden for normal arbejdstid, så der ikke opstår konflikter, hvis andre brugere bogfører transaktioner med de samme varer.
-    - Når du lukker udligningskladden, udfører [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontrol for at sikre, at alle poster er udlignet. Hvis du f.eks. fjerner en antalsudligning, men ikke opretter en ny udligning, og du derefter lukker applikationskladden, oprettes en ny udligning. Dette er med til at bevare kostprisen. Hvis du fjerner en fast udligning, oprettes en ny fast udligning dog ikke automatisk, når du lukker kladden. Dette skal du gøre manuelt ved at oprette en ny udligning i kladden.
+    - Når du lukker udligningskladden, udfører [!INCLUDE[prod_short](includes/prod_short.md)] en kontrol for at sikre, at alle poster er udlignet. Hvis du f.eks. fjerner en antalsudligning, men ikke opretter en ny udligning, og du derefter lukker applikationskladden, oprettes en ny udligning. Dette er med til at bevare kostprisen. Hvis du fjerner en fast udligning, oprettes en ny fast udligning dog ikke automatisk, når du lukker kladden. Dette skal du gøre manuelt ved at oprette en ny udligning i kladden.
     - Det er muligt at fjerne udligninger fra mere end en post ad gangen i applikationskladden. Da udligning af poster har indflydelse på hele sættet af poster, der er disponible for udligningen, er det ikke muligt at oprette en udligning for mere end en post ad gangen.
     - Applikationskladden kan ikke foretage en udligning i følgende situationer: Hvis der ikke er nok varer på lageret til udligningen, kan applikationskladden ikke foretage udligningen, når du forsøger at udligne en lagerreduktionspost uden varesporingsoplysninger til en lagerforøgelsespost med varesporingsoplysninger.
 
@@ -77,4 +77,4 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
  [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
  [Designoplysninger: Vareudligning](design-details-item-application.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipt
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 370a9894daf271be8cb3ed3043a509ab2565f40c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5f0ba926208d831cac4d5e3b54c5a8e83a9d92c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926568"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748589"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter
 Når du modtager en kontaktrefusion fra en debitor, eller du foretager en kontantrefusion, skal du vælge, om betalingen skal udlignes eller refunderes for at lukke en eller flere åbne debet- eller kreditposter. Du kan angive det beløb, du vil udligne. Du kan f.eks. udligne delbetalinger til debitorposter. Når du lukker debitorposter, sikrer du, at oplysninger som debitorstatistik, kontoudtog og rentenotaer er korrekte.
@@ -158,4 +158,4 @@ Hvis du retter en udligning, oprettes og bogføres der automatisk korrigerende p
 ## <a name="see-also"></a>Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

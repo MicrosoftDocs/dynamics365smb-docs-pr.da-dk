@@ -9,20 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2020
+ms.date: 12/04/2020
 ms.author: edupont
-ms.openlocfilehash: 2f16af0f87cae376fd1ed96b02cad3a64adc94cc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c68596af28753cb9825d930e55beff4e3f72c2c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915081"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757188"
 ---
 # <a name="intelligent-cloud-base-extension"></a>Intelligent sky basisudvidelsen
 
-Denne udvidelse fører dig gennem processen med at konfigurere og administrere dit intelligente skymiljø.Når dit intelligente skymiljø er konfigureret, kan du administrere datareplikeringer fra din lokale løsning til din [!INCLUDE[prodshort](includes/prodshort.md)]-skylejer. Udvidelsen fungerer sammen med en datareplikeringsudvidelsen, der er tilgængelig til din specifikke lokale løsning.Du kan finde flere oplysninger i [Intelligent indsigt](about-intelligent-cloud.md).  
+Du kan bruge denne udvidelse til at konfigurere en forbindelse mellem den lokale løsning og dit [!INCLUDE [prod_short](includes/prod_short.md)]-onlinemiljø, enten fordi du overfører til skyen, eller at du opretter forbindelse til intelligent skyen fra den lokale løsning.  
+
+Når forbindelsen er konfigureret, kan du overføre data eller administrere data replikeringer fra den lokale løsning til din [!INCLUDE[prod_short](includes/prod_short.md)]-skylejer. Udvidelsen fungerer sammen med en datareplikeringsudvidelsen, der er tilgængelig til din specifikke lokale løsning. Du kan finde flere oplysninger i [Kørsel af skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
 ## <a name="see-also"></a>Se også
 
 [Intelligent indsigt](about-intelligent-cloud.md)  
-[Datareplikeringsudvidelse](ui-extensions-data-replication.md)  
+[Køre skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[Intelligente skyudvidelser til skymigrering](ui-extensions-data-replication.md)  

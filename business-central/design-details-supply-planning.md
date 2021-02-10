@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 19b692183d377bbe2bcf420608cb02c1ec52dd9b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed874c647dd5c3526df38a3c4d6ee43293737786
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910931"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751076"
 ---
 # <a name="design-details-supply-planning"></a>Designoplysninger: Forsyningsplanlægning
-Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for forsyningsplanlægningsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for forsyningsplanlægningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Det forklarer, hvordan planlægningssystemet fungerer, og hvordan du justerer algoritmer for at opfylde planlægningsbehov i forskellige miljøer. Det introducerer først centrale løsningsbegreber og beskriver derefter logikken i den centrale mekanisme, forsyningsafstemning, før du fortsætter med at forklare, hvordan lagerplanlægningen udføres med brug af genbestillingsmetoder.  
 

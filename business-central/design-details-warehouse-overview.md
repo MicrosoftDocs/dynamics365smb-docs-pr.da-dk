@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b265f8a910ba4d6e36856ce6d4485532b4e1337a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8842bd23f6d2d470599afe9b4382b35cec3d9251
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920818"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749539"
 ---
 # <a name="design-details-warehouse-overview"></a>Designoplysninger: Oversigt over logistik
 Alle oplysninger skal spores for hver transaktion eller bevægelse på lageret for at understøtte den fysiske håndtering af varerne på zone- og placeringsniveauet. Dette administreres i tabellen **Lagerpost**. Hver transaktion gemmes i en lagerjournal.  
@@ -31,7 +31,7 @@ Følgende illustration viser typiske lagerstrømme.
 ![Oversigt over lagerstedsprocesser](media/design_details_warehouse_management_overview.png "Oversigt over lagerstedsprocesser")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grundlæggende eller avanceret logistik  
-Lagerfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan implementeres i forskellige kompleksitetsniveauer, afhængig af virksomhedens processer og ordrevolumen. Den væsentligste forskel er, at aktiviteter udføres ordre for ordre i basislogistik, når de er fælles for flere ordrer i avanceret logistik.  
+Lagerfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)] kan implementeres i forskellige kompleksitetsniveauer, afhængig af virksomhedens processer og ordrevolumen. Den væsentligste forskel er, at aktiviteter udføres ordre for ordre i basislogistik, når de er fælles for flere ordrer i avanceret logistik.  
 
  Med henblik på at skelne mellem de forskellige kompleksitetsniveauer refererer denne dokumentation til to almindelige betegnelser, Grundlæggende og Avanceret logistik. Denne simple differentiering dækker flere forskellige kompleksitetsniveauer, som defineret af produktdetaljer og lokationsopsætning, hver understøttet af forskellige brugergrænsefladedokumenter. Du kan finde flere oplysninger i [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 
@@ -69,7 +69,7 @@ Lagerfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan implementeres 
 Hvis du ønsker yderligere oplysninger om de enkelte dokumenter, kan du se de respektive emner.  
 
 ### <a name="terminology"></a>Terminologi  
-For at opnå overensstemmelse med økonomiske begreber køb og salg, henviser [!INCLUDE[d365fin](includes/d365fin_md.md)]-lagerdokumentation til følgende vilkår for vareflowet på lageret.  
+For at opnå overensstemmelse med økonomiske begreber køb og salg, henviser [!INCLUDE[prod_short](includes/prod_short.md)]-lagerdokumentation til følgende vilkår for vareflowet på lageret.  
 
 |Begreb|Beskrivelse|  
 |----------|---------------------------------------|  

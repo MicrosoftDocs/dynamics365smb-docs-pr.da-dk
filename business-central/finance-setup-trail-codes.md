@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fc491b060d6a4b1039376b0051ef58da104ff1d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914210"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750351"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Oprette kilde- og årsagskoder til revisionsspor
 
@@ -94,6 +94,6 @@ Når fakturaen er bogført, kopieres årsagskoden til hver finans-, debitor- og 
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
-[Arbejde med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

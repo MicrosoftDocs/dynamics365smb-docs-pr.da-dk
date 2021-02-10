@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1d1eb5a29a1e83b3dad454426327f03786b8f644
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3fa97eb12cc7343c1cfb659736ed6ad6b43d0633
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921763"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755463"
 ---
 # <a name="inventory"></a>Lagerbeholdning
 For hvert fysisk produkt, som du vil handle med, skal du oprette et varekort af typen **Lager**. De varer, du tilbyder kunderne, men ikke lagerfører, kan du registrere som katalogvarer, som du kan konvertere til lagervarer, når det er nødvendigt. Du kan øge eller mindske antallet af en vare på lager ved at bogføre direkte til vareposterne, f.eks. efter en fysisk optælling eller hvis du ikke registrerer indkøb.
@@ -33,7 +33,11 @@ Planlægning af varer til opfyldelse af behov dækkes som en del af forsyningspl
 ## <a name="inventory-reconciliation"></a>Lagerafstemning
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet. Du kan finde flere oplysninger i [Afstemme kostpriser med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Du kan finde flere oplysninger i [Regulere varepriser](inventory-how-adjust-item-costs.md).
+Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Du kan finde flere oplysninger i [Regulere varepriser](inventory-how-adjust-item-costs.md).  
+
+## <a name="related-tasks"></a>Relaterede emner
+
+I følgende tabel beskrives relaterede opgaver.
 
 |Hvis du vil |Skal du se |
 |---|----|
@@ -53,14 +57,14 @@ Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at
 |Find, hvor et serie- eller lotnummer blev brugt i forsyningskæden, f.eks. i tilfælde af tilbagekaldelse.|[Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)|
 |Spær for, at varer kan angives på salgs- eller købslinjer eller for, at de bogføres i nogen posteringer.|[Spærre for varer](inventory-how-block-items.md)|
 |Administrer forretningsaktiviteter på salgskontorer, indkøbsafdelinger eller fabriksplanlægningskontor på tværs af flere lokationer.|[Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
+|Bruge ressourcer med specifikke kvalifikationer til forskellige tjenester og serviceartikler.|[Opsætte ressourceallokering](service-how-setup-resource-allocation.md)|
 
+## <a name="see-also"></a>Se også
 
-
-## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Salg](sales-manage-sales.md)    
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Generelle forretningsfunktioner](ui-across-business-areas.md)
+[Salg](sales-manage-sales.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Generelle forretningsfunktioner](ui-across-business-areas.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

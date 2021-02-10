@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 42a8fd05fe74276c5b570253b67be20189201071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6b86bf4be6a925913e3e2a0a70cf2066e8956681
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922138"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751551"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designoplysninger: Indgående lagerflow
 Den indgående strøm i et lager begynder, når der ankommer varer på lageret i virksomheden, som enten er modtaget fra eksterne kilder eller fra et andet sted i firmaet. En medarbejder registrerer varerne, typisk ved at scanne en stregkode. Fra modtagelsesområdet udføres lageraktiviteterne på forskellige kompleksitetsniveauer for at bringe varerne ind i lagerområdet.  
@@ -35,7 +35,7 @@ De sidste to udgør indgående strømme til lageret fra interne operationsområd
 
 Processer og brugergrænsefladedokumenter i indgående lagerstrømme er forskellige for grundlæggende og avancerede lageropsætninger. Den væsentligste forskel er, at aktiviteter udføres ordre for ordre i grundlæggende lageropsætninger, og de er fælles for flere ordrer i avancerede lageropsætninger. Du kan finde flere oplysninger om forskellige lagerkompleksitetsniveauer i [Designoplysninger: Oversigt over logistik](design-details-warehouse-setup.md)  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner, afhængigt af kompleksitetsniveauet på lageret.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner, afhængigt af kompleksitetsniveauet på lageret.  
 
 |Metode|Indgående proces|Placering|Modtagelser|Læg-på-lager-aktiviteter|Kompleksitetsniveau (Se [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  

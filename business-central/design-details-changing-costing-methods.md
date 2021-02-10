@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917522"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751726"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designdetaljer: ændre kostmetoden for varer
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ikke ændre en kostmetode for en vare, efter at du har medtaget varen i en transaktion. Når du f.eks. har købt eller solgt varen. Hvis der er knyttet en forkert kostmetode til varen eller varerne, kan du måske ikke finde problemet, før du foretager en regnskabsaflæggelse.
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ikke ændre en kostmetode for en vare, efter at du har medtaget varen i en transaktion. Når du f.eks. har købt eller solgt varen. Hvis der er knyttet en forkert kostmetode til varen eller varerne, kan du måske ikke finde problemet, før du foretager en regnskabsaflæggelse.
 
 Dette emne beskriver, hvordan du kan løse dette problem. Den anbefalede metode er at erstatte den vare, der har den forkerte kostmetode, med en ny vare, og bruge en montageordre til at overføre lagerbeholdningen fra den gamle vare til den nye.
 
@@ -35,7 +35,7 @@ Kostmetoderne styrer omkostningsberegninger, når varer købes, modtages på lag
 
 *bruttoavance* = *omsætning - VAREFORBRUG*
 
-Når du opretter lagervarer, skal du tildele en kostmetode. Metoden kan variere fra virksomhed til virksomhed og fra vare til vare, så det er vigtigt at vælge den rigtige. Følgende kostmetoder understøttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+Når du opretter lagervarer, skal du tildele en kostmetode. Metoden kan variere fra virksomhed til virksomhed og fra vare til vare, så det er vigtigt at vælge den rigtige. Følgende kostmetoder understøttes i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 * Gennemsnit
 * FIFO
@@ -60,7 +60,7 @@ I dette afsnit beskrives følgende fremgangsmåde for at ændre den kostmetode, 
 
 ### <a name="define-a-default-costing-method"></a>Definere en standardkostmetode
 
-For at undgå fremtidige fejl kan du angive en standardkostmetode for nye varer. Når en person opretter en ny vare, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå standardkostmetoden. Du kan angive standardmetoden i feltet **Standardmetode for kostprisberegning** på siden **Lageropsætning**. 
+For at undgå fremtidige fejl kan du angive en standardkostmetode for nye varer. Når en person opretter en ny vare, vil [!INCLUDE[prod_short](includes/prod_short.md)] foreslå standardkostmetoden. Du kan angive standardmetoden i feltet **Standardmetode for kostprisberegning** på siden **Lageropsætning**. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identificere de varer, der skal have ændret kostmetoden, og nummerere dem igen
 
@@ -84,7 +84,7 @@ Hvis du vil gøre de nye elementer fuldt anvendelige, skal du manuelt kopiere no
 |     |Standardkladder         |Kontrollér, om standardkladder refererer til den oprindelige vare, og overfør dataene til den nye vare, når det er nødvendigt. Disse oplysninger findes i standardkladderne, som er tilgængelige i varekladden.          |
 |Salg     |Forudbetalingsprocenter - salg         | Kontrollér, om der er defineret forudbetalingsprocenter for salg af den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist forudbetalingsprocenter, skal du vælge **Salg** på siden **Varekort** og derefter **Forudbetalingsprocenter**.        |
 |Køb     |Forudbetalingsprocenter - køb         |Kontrollér, om der er defineret forudbetalingsprocenter for køb af den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist forudbetalingsprocenter, skal du vælge **Køb** på siden **Varekort** og derefter **Forudbetalingsprocenter**.                 |
-|Lageragersted     |Placeringsindhold         |Gennemgå det placeringsindhold, der er defineret for den oprindelige vare. Hvis der er kolonner som Min. Antal, Maks. Antal, Standard og Dedikeret, der er blevet angivet individuelt, skal du manuelt oprette placeringsindhold til den nye vare. Hvis ikke, kræves der ingen handling. [!INCLUDE[d365fin](includes/d365fin_md.md)] vedligeholder posterne, når du registrerer lagerdokumenter og kladder.|
+|Lageragersted     |Placeringsindhold         |Gennemgå det placeringsindhold, der er defineret for den oprindelige vare. Hvis der er kolonner som Min. Antal, Maks. Antal, Standard og Dedikeret, der er blevet angivet individuelt, skal du manuelt oprette placeringsindhold til den nye vare. Hvis ikke, kræves der ingen handling. [!INCLUDE[prod_short](includes/prod_short.md)] vedligeholder posterne, når du registrerer lagerdokumenter og kladder.|
 |Sag     |Sagspriser         |Kontrollér, om der er defineret sagspriser for den oprindelige vare, og overfør dataene til den nye vare. Disse oplysninger er tilgængelige på siden **Jobkort** i delen **Sagsdetaljer - antal priser** i **faktaboksruden**.         |
 |Tjeneste     |Ressourcekvalifikation for service         |Kontrollér, om der er defineret ressourcekvalifikationer for service for den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist ressourcekvalifikationer, skal du bruge handlingen **Ressourcekvalifikationer** på siden **Varekort**.          |
 |     |Serviceartikelkomponenter         |Kontrollér, om der er defineret komponenter for den oprindelige service, og overfør dataene til den nye vare. Hvis du vil have vist serviceartikelkomponenter, skal du bruge **Serviceartikel**-handlingen på siden **Varekort** til at åbne listen over relaterede serviceartikler og derefter vælge handlingen **Komponenter**.          |
@@ -169,7 +169,7 @@ Når lagerbeholdningen for den oprindelige vare er nul, kan du spærre varen for
 
 ## <a name="summary"></a>Oversigt
 
-Ændring af kostmetoden for varer, der er brugt i transaktioner, er en proces og ikke en standardhandling i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan bruge de trin, der er beskrevet i dette emne, som en skabelon til processen.
+Ændring af kostmetoden for varer, der er brugt i transaktioner, er en proces og ikke en standardhandling i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan bruge de trin, der er beskrevet i dette emne, som en skabelon til processen.
 
 Processen kan være tidskrævende, fordi der er flere manuelle trin. Hvis du imidlertid har tid til at fuldføre det, minimerer du fejlene i Finans.
 

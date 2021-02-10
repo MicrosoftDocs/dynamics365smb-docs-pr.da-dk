@@ -11,19 +11,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5885674316e082323462cbad9fce3f20590f06d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 748316c411c4b04947685c6053e9c53aa9102c35
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915031"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747564"
 ---
 # <a name="the-microsoft-pay-extension"></a>Udvidelsen Microsoft Pay
 
 > [!IMPORTANT]
-> Med ikrafttræden den 8. februar 2020 vil ændringer i Microsoft Pay-tjenesten påvirke Microsoft Pay-udvidelsen i Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. På grund af de ændringer vil **Betal nu**-betalingslinks, som  Microsoft Pay-udvidelsen genererer for fakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)], ikke åbne Microsoft Pay efter den 8. februar. Kunder, der bruger udvidelsen, skal ændre deres konfiguration af betalingstjenester for at begynde at bruge PayPal-udvidelsen i stedet.<br /></br>
+> Med ikrafttræden den 8. februar 2020 vil ændringer i Microsoft Pay-tjenesten påvirke Microsoft Pay-udvidelsen i Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. På grund af de ændringer vil **Betal nu**-betalingslinks, som  Microsoft Pay-udvidelsen genererer for fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)], ikke åbne Microsoft Pay efter den 8. februar. Kunder, der bruger udvidelsen, skal ændre deres konfiguration af betalingstjenester for at begynde at bruge PayPal-udvidelsen i stedet.<br /></br>
 >
-> Fra den 8. januar viser vi en meddelelse i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Meddelelsen vil indeholde et link til de indstillinger, du skal ændre, og til flere oplysninger. Efter den 8. februar vil Microsoft Pay-udvidelsen ikke længere være tilgængelig i [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+> Fra den 8. januar viser vi en meddelelse i [!INCLUDE[prod_short](includes/prod_short.md)]. Meddelelsen vil indeholde et link til de indstillinger, du skal ændre, og til flere oplysninger. Efter den 8. februar vil Microsoft Pay-udvidelsen ikke længere være tilgængelig i [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
 >
 > Ændringerne påvirker følgende versioner af Business Central:
 > - Microsoft Dynamics 365 Business Central, oktober 2018
@@ -42,9 +42,9 @@ Microsoft Pay-udvidelsen giver følgende fordele:
 - Linket til Microsoft Pay kan integreres automatisk på alle fakturadokumenter eller af brugeren.
 - Da denne funktion er udviklet som en udvidelse, kan du altid aktivere den, når og hvis dine forretningsprocesser kræver det.
 
-Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du skal kontakte betalingstjenesten for at få en konto. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
+Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du skal kontakte betalingstjenesten for at få en konto. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

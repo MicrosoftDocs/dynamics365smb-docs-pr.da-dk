@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fac8f33b973135cc9aceff649a9046153bd45253
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925793"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748097"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Konfigurere prissætning og ekstra omkostninger for services
-Du kan bruge prisfastsætningsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] til at konfigurere og tilpasse programmet, så du kan anvende og regulerer priser på serviceartikler, reparationer og ordrer. Disse prisbeslutninger kan derefter let overføres til fakturaprocessen.  
+Du kan bruge prisfastsætningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] til at konfigurere og tilpasse programmet, så du kan anvende og regulerer priser på serviceartikler, reparationer og ordrer. Disse prisbeslutninger kan derefter let overføres til fakturaprocessen.  
   
 I overensstemmelse med implementeringen kan du konfigurere prisgrupper og knytte dem til bestemte tidsperioder, debitorer eller en bestemt valuta. Du kan konfigurere faste priser, minimum- eller maksimumspriser, afhængigt af de servicekontrakter du har med kunderne. Når du regulerer priserne, kan du desuden få vist og godkende ændringer, før de bogføres i Finans.  
 

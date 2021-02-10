@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f294fdce544de36992c3b6793ee397dfc271a319
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917897"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752696"
 ---
 # <a name="configure-new-companies"></a>Konfigurere nye virksomheder
 Hvis du vil konfigurere en ny virksomhed i løsningsimplementeringen, følger du typisk tre faser. I den første fase indlæser du konfigurationspakken, der er en .rapidstart-fil med konfigurationsoplysningerne. I anden fase skal du ændre konfigurationsoplysningerne og derefter anvende dem på din nye virksomhed. I den endelige fase skal du finde og rette eventuelle fejl.  
@@ -31,7 +31,7 @@ Før du importerer en konfigurationspakke, er det en god ide at kontrollere, at 
 * Den bruger, der importerer konfigurationspakken, har gældende rettigheder for Indsæt og Rediger til alle de tabeller, som pakken opdateres med. Du kan finde flere oplysninger i [Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md) 
 
 ## <a name="to-import-a-configuration-package"></a>Importere en konfigurationspakke  
-1. Åbn den nye virksomhed i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
+1. Åbn den nye virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Indlæs pakke**.  
 4. Gå til det sted, hvor du har gemt .rapidstart-filen med konfigurationspakken, og vælg derefter knappen **Åbn**.  

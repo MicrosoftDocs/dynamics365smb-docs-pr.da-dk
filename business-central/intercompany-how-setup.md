@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2020
+ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 2f85488cd3e3a764d1fd0c60e4d314d4729f03d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81e19144e309e98c7887f264ac914202690977cc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915481"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750126"
 ---
 # <a name="set-up-intercompany"></a>Konfigurere mellemregning
+
 Når du vil sende en transaktion (f.eks. en salgskladde) fra én virksomhed og få den tilsvarende transaktion (f.eks. en købskladdelinje) oprettet automatisk i partnervirksomheden, skal de involverede virksomheder enes om en fælles kontoplan og et sæt dimensioner, som skal anvendes i koncerninterne transaktioner. Intercompany-kontoplanen kan f.eks. være en forenklet udgave af moderselskabets kontoplan. Hver virksomhed knytter deres samlede kontoplan til den delte intercompany-kontoplan, og hver virksomhed knytter deres dimensioner til intercompany-dimensionerne.  
 
 Du skal også oprette en koncernintern partnerkode for hver partnervirksomhed, der er aftalt mellem alle virksomheder, og derefter tildele dem til henholdsvis debitor- og kreditorkort ved at udfylde feltet **Koncernintern partnerkode**.  
@@ -36,7 +37,7 @@ Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du ud
 3. På siden **Koncerninterne partnere** skal du udfylde felterne efter behov.
 
 > [!NOTE]
-> I [!INCLUDE[d365fin](includes/d365fin_md.md)] online kan du ikke bruge filplaceringer til at overføre transaktioner til partnerne, fordi [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke har adgang til dit lokale netværk. Hvis du vælger **Filplacering** i feltet **Overførselstype**, er feltet **Mappesti** ikke tilgængeligt. I stedet bliver filen downloadet til mappen Overførsler på din computer. Derefter kan du sende filen til en person i partnervirksomheden, f.eks. via mail. Hvis du vil have en mere direkte proces, anbefales du at vælge **Mail** i stedet.
+> I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du ikke bruge filplaceringer til at overføre transaktioner til partnerne, fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har adgang til dit lokale netværk. Hvis du vælger **Filplacering** i feltet **Overførselstype**, er feltet **Mappesti** ikke tilgængeligt. I stedet bliver filen downloadet til mappen Overførsler på din computer. Derefter kan du sende filen til en person i partnervirksomheden, f.eks. via mail. Hvis du vil have en mere direkte proces, anbefales du at vælge **Mail** i stedet.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Sådan konfigureres koncerninterne kreditorer og koncerninterne debitorer
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
@@ -90,7 +91,11 @@ Når du derefter angiver en finanskonto i feltet **Modkontonr.** på en koncerni
 3. Gentag trin 2 for hver konto, som du ofte angiver i feltet **Modkontonr.** på en linje i en IC-kladde eller et IC-dokument.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Sådan konfigureres koncerninterne dimensioner
+
 Før du og dine koncerninterne partnere vil kunne udveksle transaktioner med tilknyttede dimensioner, skal I aftale, hvilke dimensioner I alle skal bruge. Moderselskabet i en koncern kan f.eks. oprette en forenklet version af deres eget sæt dimensioner og udlæse disse IC-dimensioner fra databasen til en XML-fil, hvorefter den kan distribueres til hver virksomhed i koncernen. Datterselskaberne i koncernen kan derefter indlæse XML-filen på siden **Koncerninterne dimensioner** i deres eget regnskab og knytte de koncerninterne dimensioner her til dimensionerne på siden **Dimensioner**.  
+
+> [!NOTE]
+> Hvert regnskab i [!INCLUDE [prod_short](includes/prod_short.md)] skal knytte dimensioner til IC-dimensioner for udgående dokumenter og knytte IC-dimensioner til deres egne dimensioner for indgående dokumenter. Denne tilknytning er med til at sikre konsistens i alle virksomheder. Du kan finde flere oplysninger i afsnittet [Oversigt over tilknytning af intercompany-dimensioner til regnskabets dimensioner ](#to-map-intercompany-dimensions-to-your-companys-dimensions).
 
 Hvis din virksomhed er moderselskabet og har det definerende sæt koncerninterne dimensioner, som skal bruges i koncernen som fælles reference, skal du følge proceduren: [Sådan defineres koncerninterne dimensioner](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
@@ -113,9 +118,11 @@ Når der findes en fil til de definerende koncerninterne dimensioner, kan koncer
 Linjerne på siderne **Koncerninterne dimensioner** og **Koncerninterne dimensionsværdier** indlæses.  
 
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Sådan knyttes IC-dimensioner til dimensioner i regnskabet
-Når du har defineret eller importeret de dimensioner, som du og dine koncerninterne partnerne har aftalt at bruge, skal du knytte hver koncerninterne dimension til en af dimensionerne i dit eget regnskab og omvendt. På siden **Koncerninterne dimensioner** angiver du, hvordan koncerninterne dimensioner på indgående transaktioner skal oversættes til dimensioner fra din virksomheds liste over dimensioner. På siden **Dimensioner** angiver du, hvordan dine dimensioner skal oversættes til IC-dimensioner på udgående transaktioner.
+Når du har defineret eller importeret de dimensioner, som du og dine koncerninterne partnerne har aftalt at bruge, skal du knytte hver koncerninterne dimension til en af dimensionerne i dit eget regnskab og omvendt. På siden **Koncerninterne dimensioner** angiver du, hvordan koncerninterne dimensioner på *indgående transaktioner* skal oversættes til dimensioner fra din virksomheds liste over dimensioner. På siden **Dimensioner** angiver du, hvordan dine dimensioner skal oversættes til IC-dimensioner på *udgående transaktioner*.
 
-Hvis nogle af de koncerninterne dimensioner har samme kode som de tilsvarende dimensioner i listen over dimensioner i din egen virksomhed, kan du få programmet til automatisk at knytte dimensionerne sammen, og derefter kan du tilknytte kontiene automatisk.
+Hvis nogle af de koncerninterne dimensioner har samme kode som de tilsvarende dimensioner i listen over dimensioner i din egen virksomhed, kan du få programmet til automatisk at knytte dimensionerne sammen, og derefter kan du tilknytte kontiene automatisk.  
+
+I følgende trin skal du først knytte IC-dimensionerne til dimensioner for indgående dokumenter på siden **IC-dimensioner**. Derefter knytter du dimensioner til IC-dimensioner for udgående dokumenter på siden **Dimensioner**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.
 2. På siden **Koncerninterne dimensioner** skal du markere de linjer, som du vil tilknytte automatisk, og derefter vælge handlingen **Knyt til dim. med samme kode**.
@@ -133,8 +140,9 @@ Hvis nogle af de koncerninterne dimensioner har samme kode som de tilsvarende di
 10. Udfyld feltet **Knyt til IC-dim. med samme kode** på siden **Dimensionsværdier**.
 
 ## <a name="see-also"></a>Se også
+
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 953be4038a65917e10bca1921d9ff4f80f584b28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d92b4d5ad8b473f517af9fba5e1097e2452d1446
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920767"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749464"
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffede anlægsaktiver
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Der skal oprettes en afskrivningsprofil, og den skal tildeles til hvert enkelt anlægsaktiv, før du kan hente det.
@@ -48,7 +48,7 @@ Når du vælger **Udfør**, udfyldes feltet **Bogført værdi** på siden **Anl�
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Sådan konfigureres en komponentliste for et hovedanlæg
 Du kan gruppere anlægsaktiverne i hovedanlæg og de tilhørende komponenter. Du kan f.eks. have en produktionsmaskine, som består af mange dele, som du vil gruppere på denne måde.  
 
-Både hovedanlægget og alle dets komponenter skal oprettes som individuelle anlægskort. Når du har oprettet en komponentliste, udfylder [!INCLUDE[d365fin](includes/d365fin_md.md)] felterne **Hovedanlæg/underanl.** og **Hovedanlæg/underanl.** på anlægskortene.
+Både hovedanlægget og alle dets komponenter skal oprettes som individuelle anlægskort. Når du har oprettet en komponentliste, udfylder [!INCLUDE[prod_short](includes/prod_short.md)] felterne **Hovedanlæg/underanl.** og **Hovedanlæg/underanl.** på anlægskortene.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.
 2. Vælg det anlægsaktiv, der er hovedanlægget, og vælg derefter handlingen **Hovedanlæg**.
@@ -70,7 +70,7 @@ Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at o
 4. Vælg handlingen **Bogfør**.  
 
 > [!TIP]  
->   Hvis du udfylder feltet **Forsikringsnr.** i anlægskassekladden, når du bogfører en anskaffelse, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] også bogføre anskaffelsesprisen på anlægsaktivet på forsikringsposterne. Du kan finde flere oplysninger i [Forsikre anlægsaktiver](fa-how-insure.md).
+>   Hvis du udfylder feltet **Forsikringsnr.** i anlægskassekladden, når du bogfører en anskaffelse, vil [!INCLUDE[prod_short](includes/prod_short.md)] også bogføre anskaffelsesprisen på anlægsaktivet på forsikringsposterne. Du kan finde flere oplysninger i [Forsikre anlægsaktiver](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Sådan annulleres bogføringen af en anskaffelsespris for et anlægsaktiv
 Hvis du laver en fejl under bogføring af en anskaffelsespris, kan du fjerne posten vha. kørslen **Annuller anlægsposter** og derefter bogføre den korrekte anskaffelsespost. De forkerte poster overføres til siden **Anlægsfejlposter**.
@@ -103,4 +103,4 @@ Du kan bogføre skrapværdien sammen med anskaffelsesprisen fra en anlægskladde
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67a6e963800bf5f0ce8e1a293463d53b51470ee5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a210792a187bde0217917659f118c58a6a135df2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914781"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756529"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer
 Denne gennemgang beskriver, hvordan du kan bruge kontoskemaer til at foretage likviditetsforecasts. Kontoskemaer udfører beregninger, der ikke kan foretages direkte i diagrammet for kassekonti. I kontoskemaerne kan du oprette subtotaler for likviditetsindbetalinger og -udbetalinger. Disse subtotaler kan medtages i nye totaler, der kan bruges i forbindelse med udarbejdelse af likviditetsforecasts.  
@@ -32,7 +32,7 @@ Denne gennemgang beskriver følgende opgaver:
 ### <a name="prerequisites"></a>Forudsætninger  
 For at gennemføre denne gennemgang skal:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] være installeret  
+- [!INCLUDE[prod_short](includes/prod_short.md)] være installeret  
 - Likviditetskladdelinjerne registreres.  
 
 ## <a name="roles"></a>Roller  
@@ -89,4 +89,4 @@ Ken er nu klar til at tildele kolonneformatet til kontoskemanavnet.
 ## <a name="see-also"></a>Se også  
  [Arbejde med kontoskemaer](bi-how-work-account-schedule.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

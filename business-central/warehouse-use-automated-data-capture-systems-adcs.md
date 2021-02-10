@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925343"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755713"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Brug ADCS (Automated Data Capture Systems)
 
 > [!NOTE]
-> ADCS-løsningen (Automated Data Capture System) gør det muligt for [!INCLUDE[d365fin](includes/d365fin_md.md)] at kommunikere med håndholdte enheder via webtjenester. Du skal arbejde med en Microsoft-partner, som kan sørge for forbindelsen mellem webtjenesten og den håndholdte enhed. 
+> ADCS-løsningen (Automated Data Capture System) gør det muligt for [!INCLUDE[prod_short](includes/prod_short.md)] at kommunikere med håndholdte enheder via webtjenester. Du skal arbejde med en Microsoft-partner, som kan sørge for forbindelsen mellem webtjenesten og den håndholdte enhed. 
 
 Du kan bruge ADCS-systemet (Automatic Data Capture System) til at registrere varebevægelser på lagerstedet og registrere bestemte kladdeaktiviteter, bl.a. regulering af vareantal på lagerkladden og lageropgørelser. ADCS omfatter typisk scanning af en stregkode.
 
@@ -28,7 +28,7 @@ Hvis du vil bruge ADCS, skal du give hver enkelt vare, der er gemt i lageret, et
 
 Ved opsætningen af miniformularer skal du definere, hvilke oplysninger der skal vises ud fra lagerstedets specifikke behov. Følgende er eksempler på oplysninger, som du kan få vist:  
 
-- Data fra tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks en liste over plukdokumenter, som brugeren kan vælge.  
+- Data fra tabeller i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks en liste over plukdokumenter, som brugeren kan vælge.  
 - Tekstoplysninger.  
 - Meddelelser til at vise bekræftelser eller fejl om aktiviteter, der er udført og registreret af brugeren af den håndholdte enhed.
 
@@ -121,4 +121,4 @@ Når du har oprettet en miniformular, er næste trin at oprette funktioner og kn
 [Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

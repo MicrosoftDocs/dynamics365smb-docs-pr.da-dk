@@ -1,25 +1,25 @@
 ---
-title: Validere et SE/CVR-nr. | Microsoft Docs
-description: Valider et SE/CVR-nr.
-author: andregu
+title: Valider et SE/CVR-nr.
+description: Lad Business Central bruge liste tjenesten til at validere momsregistreringsnummeret automatisk.
+author: kielkenny
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 130449368e5b96e3c9e6cb6274dcd6e06f568114
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 80e955e96a64c5a0bd91d0a72297b32d67ff4ab6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916972"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750552"
 ---
-# <a name="validate-a-vat-registration-number"></a>Valider et SE/CVR-nr.
+# <a name="validate-vat-registration-numbers"></a>Valider et SE/CVR-nr.
 
 Det er vigtigt, at de momsregistreringsnumre, du har for debitorer, kreditorer og kontakter, er gyldige. F.eks. ændrer virksomheder nogle gange deres status for skattetilsvar, og i visse lande/områder kan skattemyndighederne måske bede dig om at indsende rapporter, f.eks. rapportering af EU-salg med de momsnumre, du bruger, når du handler.
 
-Kommissionen har VIES-tjenesten til kontrol af momsnumre på deres websted, som er offentlig og gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare dig for et trin, idet du kan bruge VIES-tjenesten til at validere og spore momsnumre for kunder, leverandører og kontakter direkte fra debitor-, kreditor- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] hedder **Service for validering af SE/CVR-nr. for EU**. Tjenesten findes på siden **Serviceforbindelser**, og du kan begynde at bruge den med det samme. Tjenesteforbindelsen er gratis, og tilmelding er ikke nødvendig.
+Kommissionen har VIES-tjenesten til kontrol af momsnumre på deres websted, som er offentlig og gratis. [!INCLUDE[prod_short](includes/prod_short.md)] kan spare dig for et trin, idet du kan bruge VIES-tjenesten til at validere og spore momsnumre for kunder, leverandører og kontakter direkte fra debitor-, kreditor- og kontaktkort. Tjenesten i [!INCLUDE[prod_short](includes/prod_short.md)] hedder **Service for validering af SE/CVR-nr. for EU**. Tjenesten findes på siden **Serviceforbindelser**, og du kan begynde at bruge den med det samme. Tjenesteforbindelsen er gratis, og tilmelding er ikke nødvendig.
 
 ## <a name="to-verify-vat-registration-numbers"></a>Sådan kontrollere SE/CVR-numre
 

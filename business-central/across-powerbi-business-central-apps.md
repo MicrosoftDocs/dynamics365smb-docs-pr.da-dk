@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 292f78f16b77940fa16a6ffc25bd79dbca0684e3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 479fa9897d817075aec8d2d6fd9431dbe49ab162
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915856"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754313"
 ---
-# <a name="using-the-prodshort-apps-in-power-bi"></a>Bruge [!INCLUDE [prodshort](includes/prodshort.md)]-apps i Power BI
+# <a name="using-the-prod_short-apps-in-power-bi"></a>Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-apps i Power BI
 
-> **GÆLDER FOR:** [!INCLUDE [prodlong](includes/prodlong.md)] online 
+> **GÆLDER FOR:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
-[!INCLUDE [prodlong](includes/prodlong.md)] udgiver følgende Power BI-apps, som indeholder detaljerede dashboards til visning af data:
+[!INCLUDE [prod_long](includes/prod_long.md)] udgiver følgende Power BI-apps, som indeholder detaljerede dashboards til visning af data:
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Sales
+- [!INCLUDE [prod_long](includes/prod_long.md)] - CRM  
+- [!INCLUDE [prod_long](includes/prod_long.md)] - Finance  
+- [!INCLUDE [prod_long](includes/prod_long.md)] - Sales
 
 ## <a name="overview"></a>Oversigt
 
@@ -36,10 +36,10 @@ Hver app indeholder flere rapporter, som du kan se detaljerede data i, herunder 
 - Fastgør en brugerdefineret visning til dashboardet for fortsat sporing.  
   Du kan opdatere dataene manuelt, og kan du oprette en tidsplan for opdatering. Du kan finde flere oplysninger i [Konfiguration af planlagt opdatering](/power-bi/refresh-scheduled-refresh).  
 
-Apps er designet til at arbejde med data fra alle de virksomheder i [!INCLUDE[prodshort](includes/prodshort.md)]. Når du installerer Power BI-app'en, angiver du en eller flere parametre for at oprette forbindelse til din [!INCLUDE [prodshort](includes/prodshort.md)].  
+Apps er designet til at arbejde med data fra alle de virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]. Når du installerer Power BI-app'en, angiver du en eller flere parametre for at oprette forbindelse til din [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Du kan også oprette dine egne rapporter og dashboards i Power BI baseret på dine [!INCLUDE[prodshort](includes/prodshort.md)]-data. Du kan finde flere oplysninger under [Forbinde dine virksomhedsdata med Power BI](across-how-use-financials-data-source-powerbi.md). 
+> Du kan også oprette dine egne rapporter og dashboards i Power BI baseret på dine [!INCLUDE[prod_short](includes/prod_short.md)]-data. Du kan finde flere oplysninger under [Forbinde dine virksomhedsdata med Power BI](across-how-use-financials-data-source-powerbi.md). 
 
 ## <a name="prerequisites"></a>Forudsætninger
 
@@ -47,25 +47,25 @@ Power BI-apps kræver tilladelser til de tabeller, hvor der hentes data fra, og 
     
 |App | Webtjenester|
 |----|-------------|
-|[!INCLUDE[prodshort](includes/prodshort.md)] – CRM| <ul><li>Salgsmuligheder</li><li>Vis virksomhedsoplysninger i Excel-skabelon</li><li>Power BI-rapportetiketter</li></ul>|
-|[!INCLUDE[prodshort](includes/prodshort.md)] – Finance| <ul><li>PowerBIFinance</li><li>Vis virksomhedsoplysninger i Excel-skabelon</li><li>Power BI-rapportetiketter</li></ul>|
-|[!INCLUDE[prodshort](includes/prodshort.md)] – Sales| <ul><li>Varestatistik efter kunde</li><li>Salgsdashboard</li><li>Vis virksomhedsoplysninger i Excel-skabelon</li><li>Power BI-rapportetiketter</li></ul>|
+|[!INCLUDE[prod_short](includes/prod_short.md)] – CRM| <ul><li>Salgsmuligheder</li><li>Vis virksomhedsoplysninger i Excel-skabelon</li><li>Power BI-rapportetiketter</li></ul>|
+|[!INCLUDE[prod_short](includes/prod_short.md)] – Finance| <ul><li>PowerBIFinance</li><li>Vis virksomhedsoplysninger i Excel-skabelon</li><li>Power BI-rapportetiketter</li></ul>|
+|[!INCLUDE[prod_short](includes/prod_short.md)] – Sales| <ul><li>Varestatistik efter kunde</li><li>Salgsdashboard</li><li>Vis virksomhedsoplysninger i Excel-skabelon</li><li>Power BI-rapportetiketter</li></ul>|
 
 > [!TIP]
-> En nem måde at finde webtjenesterne på er at søge efter *webtjenester* i [!INCLUDE[prodshort](includes/prodshort.md)]. På siden **Webtjenester** skal du sørge for, at feltet **Udgiv** er markeret for de webtjenester, der er angivet ovenfor. Du kan finde flere oplysninger under [Udgive en webtjeneste](across-how-publish-web-service.md).
+> En nem måde at finde webtjenesterne på er at søge efter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Webtjenester** skal du sørge for, at feltet **Udgiv** er markeret for de webtjenester, der er angivet ovenfor. Du kan finde flere oplysninger under [Udgive en webtjeneste](across-how-publish-web-service.md).
 
 ## <a name="get-ready"></a>Gør dig klar
 
 Tilmeld dig Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du tilmelder dig, skal du bruge din mailadresse og adgangskode.
 
-## <a name="install-a-prodshort-app-in-power-bi"></a>Installere en [!INCLUDE[prodshort](includes/prodshort.md)]-app i Power BI
+## <a name="install-a-prod_short-app-in-power-bi"></a>Installere en [!INCLUDE[prod_short](includes/prod_short.md)]-app i Power BI
 
 1. Åbn browseren, gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com), og log på din konto.
 2. Vælg **Hent data** nederst i venstre navigationsrude.  
 
     ![Navigere til Hent data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    Du kan også komme i gang inde fra [!INCLUDE [prodshort](includes/prodshort.md)]. Naviger til **Rapportvalg** i afsnittet Power BI fra startsiden. Vælg enten **Service** eller **Min virksomhed** på båndet. Enten er organisationsgalleriet i Power BI eller Microsoft AppSource åbnet, filtreret til kun at vise apps, der relaterer til [!INCLUDE[prodshort](includes/prodshort.md)].
+    Du kan også komme i gang inde fra [!INCLUDE [prod_short](includes/prod_short.md)]. Naviger til **Rapportvalg** i afsnittet Power BI fra startsiden. Vælg enten **Service** eller **Min virksomhed** på båndet. Enten er organisationsgalleriet i Power BI eller Microsoft AppSource åbnet, filtreret til kun at vise apps, der relaterer til [!INCLUDE[prod_short](includes/prod_short.md)].
 
 3. I feltet **Tjenester** skal du vælge **Hent**.
 
@@ -76,18 +76,18 @@ Tilmeld dig Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du 
 
     Bagefter vil appen væge tilgængelig fra **Apps** i navigationsmenuen i Power BI.
 
-## <a name="connect-the-prodshort-app-to-your-data"></a>Forbinde [!INCLUDE[prodshort](includes/prodshort.md)]-appen med dine data
+## <a name="connect-the-prod_short-app-to-your-data"></a>Forbinde [!INCLUDE[prod_short](includes/prod_short.md)]-appen med dine data
 
 1. Vælg Business Central-appen under **Apps**, og vælg derefter **Opret forbindelse**.
-2. Når du bliver bedt om det, skal du udfylde **Virksomhedsnavn** og **Miljø** med oplysninger om den [!INCLUDE[prodshort](includes/prodshort.md)]-forekomst, som du vil oprette forbindelse til.
+2. Når du bliver bedt om det, skal du udfylde **Virksomhedsnavn** og **Miljø** med oplysninger om den [!INCLUDE[prod_short](includes/prod_short.md)]-forekomst, som du vil oprette forbindelse til.
 
-    - Fo **Virksomhedsnavn** skal du sørge for at bruge det fulde navn, ikke det viste navn. Virksomhedsnavnet findes på siden **Virksomheder** i [!INCLUDE[prodshort](includes/prodshort.md)]. 
+    - Fo **Virksomhedsnavn** skal du sørge for at bruge det fulde navn, ikke det viste navn. Virksomhedsnavnet findes på siden **Virksomheder** i [!INCLUDE[prod_short](includes/prod_short.md)]. 
     - Hvis du ikke har oprettet flere miljøer, skal du angive **Produktion** for **Miljø**.
 
 3. Vælg **Næste**.
 4. Vælg **Log på**.
-5. Skriv brugernavnet og adgangskoden for at logge på [!INCLUDE[prodshort](includes/prodshort.md)], når du bliver bedt om det .
-6. Når forbindelsen er oprettet, føjes der et dashboard og rapporter til dit Power BI-arbejdsområde. Når dette er fuldført, viser felterne data fra din [!INCLUDE[prodshort](includes/prodshort.md)]-virksomhed.
+5. Skriv brugernavnet og adgangskoden for at logge på [!INCLUDE[prod_short](includes/prod_short.md)], når du bliver bedt om det .
+6. Når forbindelsen er oprettet, føjes der et dashboard og rapporter til dit Power BI-arbejdsområde. Når dette er fuldført, viser felterne data fra din [!INCLUDE[prod_short](includes/prod_short.md)]-virksomhed.
 
     ![Vælg Dynamics 365 Business Central, og vælg Hent nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
@@ -101,9 +101,9 @@ Der er ikke blevet oprettet en Power BI-konto. Du skal have en licens for at få
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Meddelelse: Der er ingen aktiverede rapporter. Vælg Vælg rapport for at få vist en oversigt over de rapporter, du kan få vist.
 
-Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power BI-arbejdsområdet. Eller rapporten blev installeret, men blev ikke opdateret. Hvis dette problem opstår, skal du gå til rapporten i dit Power BI-arbejdsområde, vælge **Datasæt**, **Indstillinger** og derefter opdatere legitimationsoplysningerne manuelt. Når datasættet er opdateret, skal du gå tilbage til [!INCLUDE[prodshort](includes/prodshort.md)] og vælge rapporten manuelt på siden **Vælg rapporter**.
+Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power BI-arbejdsområdet. Eller rapporten blev installeret, men blev ikke opdateret. Hvis dette problem opstår, skal du gå til rapporten i dit Power BI-arbejdsområde, vælge **Datasæt**, **Indstillinger** og derefter opdatere legitimationsoplysningerne manuelt. Når datasættet er opdateret, skal du gå tilbage til [!INCLUDE[prod_short](includes/prod_short.md)] og vælge rapporten manuelt på siden **Vælg rapporter**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Du skal have Power BI-en Pro-licens for at kunne installere [!INCLUDE[prodshort](includes/prodshort.md)]-appen i Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prod_short-app-in-power-bi"></a>Du skal have Power BI-en Pro-licens for at kunne installere [!INCLUDE[prod_short](includes/prod_short.md)]-appen i Power BI
 
 Du skal have en [Power BI Pro-licens](/power-bi/service-features-license-type) for at kunne dele indholdet, og de personer, du deler det med, skal også. Indholdet skal være i et arbejdsområde med en [Premium-kapacitet](/power-bi/service-premium-what-is). Du kan få flere oplysninger i [Sådan deler du dit arbejde i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -111,22 +111,22 @@ Du skal have en [Power BI Pro-licens](/power-bi/service-features-license-type) f
 
 Denne fejl angiver, at en eller flere af parametrene er ugyldige.
 
-- Den angivne miljøparameter passer ikke til noget eksisterende [!INCLUDE[prodshort](includes/prodshort.md)]-produktions- eller sandkassemiljø.
-- Den angivne virksomhedsparameter passer ikke til nogen eksisterende [!INCLUDE[prodshort](includes/prodshort.md)]-virksomheder. Kontrollér virksomhedsnavnet på siden **Virksomheder** i [!INCLUDE[prodshort](includes/prodshort.md)]
-- Hvis du opretter forbindelse til [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø, angav du en ugyldig URL-adresse. Du kan kontrollere URL-adressen på siden **Webtjeneste** i [!INCLUDE[prodshort](includes/prodshort.md)]  
+- Den angivne miljøparameter passer ikke til noget eksisterende [!INCLUDE[prod_short](includes/prod_short.md)]-produktions- eller sandkassemiljø.
+- Den angivne virksomhedsparameter passer ikke til nogen eksisterende [!INCLUDE[prod_short](includes/prod_short.md)]-virksomheder. Kontrollér virksomhedsnavnet på siden **Virksomheder** i [!INCLUDE[prod_short](includes/prod_short.md)]
+- Hvis du opretter forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, angav du en ugyldig URL-adresse. Du kan kontrollere URL-adressen på siden **Webtjeneste** i [!INCLUDE[prod_short](includes/prod_short.md)]  
 - En port er ikke åben, så anmodningen kan passere gennem firewall'en.
 
 ### <a name="cant-sign-in"></a>Kan ikke logge på
 
-Hvis fejlmeddelelsen "logon mislykkedes" vises, efter at du har brugt dine legitimationsoplysninger for [!INCLUDE[prodshort](includes/prodshort.md)] til at logge på, kan det skyldes en af følgende situationer:
+Hvis fejlmeddelelsen "logon mislykkedes" vises, efter at du har brugt dine legitimationsoplysninger for [!INCLUDE[prod_short](includes/prod_short.md)] til at logge på, kan det skyldes en af følgende situationer:
 
-- Den konto, du bruger, har ikke rettigheder til at hente [!INCLUDE[prodshort](includes/prodshort.md)]-data fra din konto. Kontrollér, at du har tilladelse til de nødvendige data i [!INCLUDE[prodshort](includes/prodshort.md)], og prøv igen.
-- Du har valgt en anden godkendelsestype end basis, hvis der oprettes forbindelse til [!INCLUDE[prodshort](includes/prodshort.md)] on-premises.
+- Den konto, du bruger, har ikke rettigheder til at hente [!INCLUDE[prod_short](includes/prod_short.md)]-data fra din konto. Kontrollér, at du har tilladelse til de nødvendige data i [!INCLUDE[prod_short](includes/prod_short.md)], og prøv igen.
+- Du har valgt en anden godkendelsestype end basis, hvis der oprettes forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
 - Du har ikke angivet et gyldigt brugernavn eller en gyldig adgangskode.
 
 ### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Meddelelse: Datakilden kan ikke opdateres, fordi legitimationsoplysningerne er ugyldige. Opdater dine legitimationsoplysninger, og prøv igen
 
-For [!INCLUDE[prodshort](includes/prodshort.md)] on-premises kan problemet skyldes, at URL-adressen til OData kun er synlig for det lokale netværk.
+For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan problemet skyldes, at URL-adressen til OData kun er synlig for det lokale netværk.
 
 ### <a name="incorrect-company-name"></a>Forkert virksomhedsnavn
 
@@ -142,7 +142,7 @@ Når Power BI-appen er installeret, og dine data vises i Power BI, bemærker du 
 
 ### <a name="i-only-see-data-for-a-single-company"></a>Jeg kan kun se data for en enkelt virksomhed
 
-Power BI-appen viser kun data fra den [!INCLUDE[prodshort](includes/prodshort.md)]-virksomhed, der blev defineret, da Power BI-appen blev installeret. Du kan føje data fra yderligere virksomheder til rapporterne ved at tilføje nye forespørgsler, der bruger forskellige virksomheder som datakilde.  
+Power BI-appen viser kun data fra den [!INCLUDE[prod_short](includes/prod_short.md)]-virksomhed, der blev defineret, da Power BI-appen blev installeret. Du kan føje data fra yderligere virksomheder til rapporterne ved at tilføje nye forespørgsler, der bruger forskellige virksomheder som datakilde.  
 
 ### <a name="what-now"></a>Hvad nu?
 
@@ -156,9 +156,9 @@ Power BI-appen viser kun data fra den [!INCLUDE[prodshort](includes/prodshort.md
 ## <a name="see-also"></a>Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
-[Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prodshort](includes/prodshort.md)]](admin-powerbi-overview.md)  
-[Arbejde med [!INCLUDE [prodshort](includes/prodshort.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
-[Oprette Power BI-rapporter, der viser [!INCLUDE [prodlong](includes/prodlong.md)]-data](across-how-use-financials-data-source-powerbi.md)  
+[Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
+[Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
+[Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI for forbrugere](/power-bi/consumer/end-user-consumer)  
 [Power BI-tjenestens nye udseende](/power-bi/service-new-look)  
 [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
@@ -166,9 +166,9 @@ Power BI-appen viser kun data fra den [!INCLUDE[prodshort](includes/prodshort.md
 [Business Intelligence](bi.md)  
 [Introduktion](product-get-started.md)  
 [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

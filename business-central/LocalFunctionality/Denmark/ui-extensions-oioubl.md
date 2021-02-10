@@ -10,24 +10,24 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 997caaf213e30998f6b54180ef80e28db4343ba2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 329767ec708ef54f5382fa67a570abe7af3f9706
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920192"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749664"
 ---
 # <a name="the-oioubl-extension-for-electronic-invoicing-in-denmark"></a>Udvidelsen OIOUBL til elektronisk fakturering i Danmark
 Når du sælger varer eller tjenesteydelser til debitorer i den danske offentlige sektor, skal du sende dokumenter til kunden elektronisk i en XML-fil, der er struktureret til at opfylde kravene i en eller flere OIOUBL-profiler (Offentlig oplysninger Online - Universal Business Language).  
 
-Udvidelsen OIOUBL i [!INCLUDE[d365fin](../../includes/d365fin_md.md)] gør det nemt at oprette disse XML-dokumenter for bogførte salgs- og servicefakturaer, kreditnotaer og udstedte rykkere (som omfatter rentenotaer).  
+Udvidelsen OIOUBL i [!INCLUDE[prod_short](../../includes/prod_short.md)] gør det nemt at oprette disse XML-dokumenter for bogførte salgs- og servicefakturaer, kreditnotaer og udstedte rykkere (som omfatter rentenotaer).  
 
 De aktuelle krav til at sende elektroniske fakturaer er baseret på UBL version 2.0-standarden. Du kan finde flere oplysninger på webstedet [https://aka.ms/OasisUblSite](https://aka.ms/OasisUblSite).
 
 Du kan få yderligere oplysninger om OIOUBL generelt på webstedet med [OIOUBL-onlinedokumentationen](http://www.oioubl.info/classes/da/index.html) og webstedet til [Digitaliseringsstyrelsenl](https://digst.dk/).  
 
 ## <a name="getting-started-with-the-oioubl-extension"></a>Kom i gang med udvidelsen OIOUBL  
-Som standard er OUOUBL-udvidelsen installeret i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Men, der er et par ting, du skal gøre, før du kan bruge udvidelsen:
+Som standard er OUOUBL-udvidelsen installeret i [!INCLUDE[prod_short](../../includes/prod_short.md)]. Men, der er et par ting, du skal gøre, før du kan bruge udvidelsen:
 
 * Konfigurere betalingsformer, betalingsbetingelser og varegebyrer.
 * Konfigurere kunder til OIOUBL ved at angive en kontokode, OILUBL-profilen, der skal bruges til at udveksle dokumenter, og kundens geografiske placeringsnummer (GLN).

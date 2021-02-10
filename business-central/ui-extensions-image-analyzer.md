@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3957936f7a95ce493443ed86c791ebceee6b56b9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915131"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757238"
 ---
 # <a name="the-image-analyzer-extension"></a>Billedanalyseudvidelsen
 
@@ -23,13 +23,13 @@ Billedanalyseudvidelsen bruger effektiv billedanalyse fra Computer Vision API'en
 
 Billedanalysefunktionen foreslår attributter baseret på koder, der bliver fundet af Computer Vision API og et tillidsniveau. Som standard foreslås attributter kun, hvis der er mindst 80 % sikkerhed for, at attributten er korrekt. Du kan angive et andet tillidsniveau, hvis det er nødvendigt. Du kan finde flere oplysninger om, hvordan koder og tillidsniveauer fastlægges i [Computer Vision-API](https://go.microsoft.com/fwlink/?linkid=851476).  
 
-Billedanalyseudvidelsen er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men der er en grænse for, hvor mange varer du kan analysere i en bestemt periode. Som standard kan du analysere 100 billeder pr. måned.
+Billedanalyseudvidelsen er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men der er en grænse for, hvor mange varer du kan analysere i en bestemt periode. Som standard kan du analysere 100 billeder pr. måned.
 
 Når du har aktiveret udvidelsen, kører billedanalysefunktionen, hver gang du importerer et billede til en vare eller kontaktperson. Du får vist attributter, tillidsniveau og oplysninger med det samme og kan beslutte, hvad der skal gøres med hver attribut. Hvis du har importeret billeder, før du aktiverede billedanalyseudvidelsen, skal du gå til varen eller kontakten og vælge handlingen **Analysér billede**.  
 
 ## <a name="privacy-notice"></a>Erklæring om beskyttelse af personlige oplysninger
 
-Denne udvidelse bruger Computer Vision-API'en fra Microsoft Cognitive Services, som kan have forskellige niveauer af overensstemmelsesforpligtelser i forhold til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Når du aktiverer udvidelsen Image Analyzer filtypen, sendes debitordata, f.eks. et billede af en kontaktperson, til Computer Vision-API'en. Ved at installere denne udvidelse, accepterer du, at dette begrænsede sæt af data sendes til Computer Vision-API'en. Bemærk, at du til enhver tid kan deaktivere og fjerne udvidelsen Image Analyzer for at afbryde brugen af denne funktion. Du kan finde flere oplysninger i [Microsofts sikkerhedscenter](https://go.microsoft.com/fwlink/?linkid=851463).
+Denne udvidelse bruger Computer Vision-API'en fra Microsoft Cognitive Services, som kan have forskellige niveauer af overensstemmelsesforpligtelser i forhold til [!INCLUDE[prod_short](includes/prod_short.md)]. Når du aktiverer udvidelsen Image Analyzer filtypen, sendes debitordata, f.eks. et billede af en kontaktperson, til Computer Vision-API'en. Ved at installere denne udvidelse, accepterer du, at dette begrænsede sæt af data sendes til Computer Vision-API'en. Bemærk, at du til enhver tid kan deaktivere og fjerne udvidelsen Image Analyzer for at afbryde brugen af denne funktion. Du kan finde flere oplysninger i [Microsofts sikkerhedscenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Krav
 
@@ -41,7 +41,7 @@ Der er nogle krav til billederne:
 
 ## <a name="to-enable-image-analyzer"></a>Sådan aktiveres billedanalysefunktionen
 
-Billedanalyseudvidelsen er indbygget i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du skal blot aktivere den.
+Billedanalyseudvidelsen er indbygget i [!INCLUDE[prod_short](includes/prod_short.md)]. Du skal blot aktivere den.
 
 > [!NOTE]  
 > Du skal være administrator for at aktivere billedanalyseudvidelsen. Kontroller, at du har fået tildelt brugerrettighedssættet **SUPER**.
@@ -102,5 +102,5 @@ Du kan få vist antallet af analyser, du har udført, og hvor mange du stadig ka
 ## <a name="see-also"></a>Se også
 
 [Arbejde med vareattributter](inventory-how-work-item-attributes.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Introduktion](product-get-started.md)  

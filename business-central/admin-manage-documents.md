@@ -6,20 +6,23 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05e5078253d63fac61039d26cc0d700e96c7d21a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911276"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753863"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrere lager ved at slette dokumenter eller komprimere data
 
 En central rolle, f.eks. som programadministrator, skal regelmæssigt håndtere store mængder akkumulerede oversigtsdokumenter, der skal slettes eller komprimeres.  
 
+> [!TIP]
+> Du kan finde flere oplysninger om, hvordan du reducerer mængden af data, der er gemt i en database, i afsnittet om [Reduktion af data, der er gemt i Business central-databaser](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) i Developer and IT Pro Help.
+
 ## <a name="delete-documents"></a>Slet dokumenter
 
-Du kan i visse situationer have behov for at slette fakturaer. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer, om de slettede købsordrer er fuldt faktureret. Du kan kun slette ordrer, hvis de er blevet fuldt faktureret og modtaget.  
+Du kan i visse situationer have behov for at slette fakturaer. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer, om de slettede købsordrer er fuldt faktureret. Du kan kun slette ordrer, hvis de er blevet fuldt faktureret og modtaget.  
 
 Returvareordrer slettes normalt, når de er faktureret. Når en faktura bogføres, overføres den til siden **Bogført købskreditnota**. Hvis afkrydsningsfeltet **Returvarekvit. på kreditnota** er markeret på siden **Købsopsætning**, overføres den også til siden **Bogført returvareleverance**. Du kan slette dokumenter ved hjælp af kørslen **Slet fakt. købsreturvareordrer**. Før du sletter, kontrollerer kørslen, om købsreturvareordreordrer er fuldt leveret og faktureret.  
 
@@ -31,13 +34,13 @@ Serviceordrer slettes ikke automatisk i programmet, men hvis det samlede antal i
 
 ## <a name="compress-data-with-date-compression"></a>Komprimer data med datokomprimering
 
-Du kan komprimere data i [!INCLUDE [prodshort](includes/prodshort.md)], så du sparer plads i databasen, hvilket i [!INCLUDE [prodshort](includes/prodshort.md)] online kan endda spare penge. Komprimeringen er baseret på datoer og fungerer ved at kombinere flere gamle poster til en ny post. Du kan kun komprimere poster fra afsluttede regnskabsår, og der indgår kun kreditorposter, hvor der står **Nej** i feltet *Åben*.  
+Du kan komprimere data i [!INCLUDE [prod_short](includes/prod_short.md)], så du sparer plads i databasen, hvilket i [!INCLUDE [prod_short](includes/prod_short.md)] online kan endda spare penge. Komprimeringen er baseret på datoer og fungerer ved at kombinere flere gamle poster til en ny post. Du kan kun komprimere poster fra afsluttede regnskabsår, og der indgår kun kreditorposter, hvor der står **Nej** i feltet *Åben*.  
 
 Kreditorposter fra forrige regnskabsår kan f.eks. komprimeres, så der kun er én kreditpost og én debetpost pr. konto pr. måned. Beløbet i den nye post er summen af alle de komprimerede poster. Den tildelte dato er startdatoen for den komprimerede periode, typisk den første dag i måneden (hvis posterne komprimeres pr. måned). Efter komprimeringen kan du stadig se bevægelserne på hver konto i det forrige regnskabsår.
 
 Antallet af poster, der kommer ud af en datokomprimeringskørsel, afhænger af, hvilke filtre du indstiller, hvilke filtre der kombineres og hvilken periodelængde, du vælger. Der vil altid være mindst én post. Når kørslen er færdig, kan du se resultatet på siden **Datokompr.journaler**.
 
-Du kan komprimere følgende datatyper [!INCLUDE [prodshort](includes/prodshort.md)] ved hjælp af batchjob:
+Du kan komprimere følgende datatyper [!INCLUDE [prod_short](includes/prod_short.md)] ved hjælp af batchjob:
 
 * Bankkontoposter
 
@@ -47,6 +50,9 @@ Du kan komprimere følgende datatyper [!INCLUDE [prodshort](includes/prodshort.m
   Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsdato**, **Kreditornr.**, **Dokumenttype**, **Valutakode**, **Bogføringsgruppe**, **Beløb**, **Resterende beløb**, **Oprindeligt beløb (LCY)**, **Resterende beløb (LCY)**, **Beløb (LCY)**, **Køb (LCY)**, **Fakturarabat (LCY)**, **Ydet kont.rabat (LCY)** og **Mulig kontantrabat**.
 
   Desuden kan du bruge funktionen **Bevar feltindhold** til at bevare oplysningerne i følgende felter: **Dokumentnr.**, **Kreditornr.**, **Indkøberkode**, **Global dimension 1-kode** og **Global dimension 2-kode**.
+
+> [!NOTE]
+> Når du har kørt datokomprimering, er alle finanskonti låst. Du kan f. eks. ikke annullere udligning af kreditor-eller bankposter for en konto i den periode, hvor datoerne er komprimeret.
 
 <!--* General ledger entries
 * Customer ledger entries-->

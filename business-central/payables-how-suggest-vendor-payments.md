@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8a18e56af1edde2dfef116ca3545c7d511e6bf3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 96db04d8bc647b16b3d615132ce68e5f094bf273
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916721"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749164"
 ---
 # <a name="suggest-vendor-payments"></a>Lav forslag
 På siden **Udbetalingskladde** kan du bruge kørslen **Lav kreditorbetalingsforslag** til at foreslå betalingslinjer. Linjer til betalinger, som snart forfalder, eller betalinger, hvor en kontantrabat er tilgængelig, foreslås baseret på dine indstillinger.
@@ -56,4 +56,4 @@ Du kan manuelt oprette betalingslinjer ved at bruge forfaldsdatoen til at beregn
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Foretage betaling](payables-make-payments.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

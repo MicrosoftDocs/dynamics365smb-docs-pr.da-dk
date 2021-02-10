@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 104049b15cb379e65f84b9d1280ee52c4b2215f0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3dc4baf66b2ad01cece291f633698ec524d2c000
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926368"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748489"
 ---
 # <a name="managing-receivables"></a>Administrere tilgodehavender
 
@@ -23,7 +23,7 @@ Almindelige trin i en økonomisk cyklus er at udligne bankkonti, hvilket indebæ
 
 Mens de fleste kunder i B2B-miljøer betaler et stykke tid efter levering, og de bogførte salgsfakturaer forbliver åbne, indtil betalingen modtages, hvorefter afdelingen for tilgodehavender kan lukke (udligne) dem, kan nogle salgsfakturaer betales med det samme, for eksempel via PayPal. Disse fakturaer udlignes med det samme som betalte, når de bogføres og vises derfor ikke som betalinger, der skal behandles i Tilgodehavender. Du kan finde flere oplysninger i f.eks. [Fakturere salg](sales-how-invoice-sales.md).  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] er en af hurtigste måder at registrere betalinger på med siden **Betalingsudligningskladde** ved at importere en bankkontoudtogsfil eller et -feed. Betalingerne udlignes til åbne debitor- eller kreditorposter baseret på sammenligninger af data i betalingstekst og oplysninger i poster. Du kan gennemse og ændre de fundne data, før du bogfører kladden, og lukke bankposter for poster, når du bogfører kladden. Bankkontoen er udlignet, når alle betalinger er udlignet.
+I [!INCLUDE[prod_short](includes/prod_short.md)] er en af hurtigste måder at registrere betalinger på med siden **Betalingsudligningskladde** ved at importere en bankkontoudtogsfil eller et -feed. Betalingerne udlignes til åbne debitor- eller kreditorposter baseret på sammenligninger af data i betalingstekst og oplysninger i poster. Du kan gennemse og ændre de fundne data, før du bogfører kladden, og lukke bankposter for poster, når du bogfører kladden. Bankkontoen er udlignet, når alle betalinger er udlignet.
 
 Der findes andre sider, hvor du kan udligne betalinger eller afstemme bankkonti:
 
@@ -45,7 +45,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Minde debitorer om forfaldne beløb, beregne rente, oprette rentenotaer og håndtere tilgodehavender. |[Indhente udestående beløb](receivables-collect-outstanding-balances.md) |
 |Du kan kun opkræve betalinger direkte fra kundens bankkonto i euro med kundens samtykke.|[Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)|
 |Bloker, at en debitor angives i dokumenter eller bogføres, for eksempel på grund af insolvens.|[Blokere debitorer](receivables-how-block-customers.md)|
-|Du kan sikre dig, at du kender omkostningerne for leverede varer ved at tildele ekstra vareomkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har efter salg af varer.|[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)|
 |Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Forudsige, hvornår betalinger bliver foretaget for salgsdokumenter. | [Udvidelsen Forudsigelse af forsinket betaling](ui-extensions-late-payment-prediction.md) |
 
@@ -54,7 +53,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

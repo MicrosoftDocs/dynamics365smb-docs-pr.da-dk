@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968329"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749951"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbejde med ansvarscentre
 
@@ -53,7 +53,7 @@ Du kan angive dette ved at knytte ansvarscentre til brugere i tre funktionsmodul
 5. Angiv det ansvarscenter, hvor brugeren har opgaver i relation til servicestyring, i feltet **Filter til serviceansvarscenter**.  
 
 > [!NOTE]  
-> Brugere vil stadig være i stand til at få vist alle bogførte dokumenter og poster og altså ikke kun dem, der har relation til deres ansvarscenter.
+> Brugerne kan kun få vist de bogførte dokumenter, der er relateret til deres eget ansvarscenter. De kan dog få vist alle poster og navigere til andre bogførte dokumenter fra posterne.
 
 ## <a name="see-also"></a>Se også
 
@@ -62,4 +62,4 @@ Du kan angive dette ved at knytte ansvarscentre til brugere i tre funktionsmodul
 [Lager](inventory-manage-inventory.md)[Logistik](warehouse-manage-warehouse.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

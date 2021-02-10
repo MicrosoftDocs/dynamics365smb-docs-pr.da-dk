@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8628953230b27ae84ee363d41c43873c81cb11c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1e65f73e0c876cd19750d88144e93c1157268e28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919526"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751051"
 ---
 # <a name="about-cost-accounting"></a>Om omkostningsregnskab
 Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Omkostningsregnskabsoplysninger er udviklet til at analysere:  
@@ -72,4 +72,4 @@ De fleste rapporter og statistikker er baseret på bogførte omkostningsposter. 
  [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
  [Finans](finance.md)   
  [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

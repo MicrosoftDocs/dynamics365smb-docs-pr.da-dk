@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22b8ae947ceb82753aa0e881ba8b0ebf603cca9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912992"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747889"
 ---
 # <a name="setting-up-service-management"></a>Konfigurere Service
-Før du kan begynde at bruge Service-funktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er et par ting, du skal konfigurere. Du kan f.eks. oprette koder for standardservice, symptom- og fejlkoder, og de serviceartikler og serviceartikeltyper efter de behov, som virksomhedens debitorservice kræver.  
+Før du kan begynde at bruge Service-funktionerne i [!INCLUDE[prod_short](includes/prod_short.md)], der er et par ting, du skal konfigurere. Du kan f.eks. oprette koder for standardservice, symptom- og fejlkoder, og de serviceartikler og serviceartikeltyper efter de behov, som virksomhedens debitorservice kræver.  
 
 Når du konfigurerer service, skal du beslutte, hvilke serviceydelser du vil tilbyde kunderne, og fastlægge en plan for disse serviceydelser. En service er en type arbejde, der udføres af en eller flere ressourcer og ydes til en kunde. En service kan f.eks. være en type computerreparation. En serviceartikel er det udstyr eller den artikel, der har brug for service, f.eks. den computer, der skal repareres, og som er installeret hos en bestemt kunde. Du kan konfigurere serviceydelser som en del af en gruppe af relaterede reparations- eller vedligeholdelsesydelser.  
   
