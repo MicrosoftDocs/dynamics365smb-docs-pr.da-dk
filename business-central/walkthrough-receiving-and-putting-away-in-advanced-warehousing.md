@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c200d178a00716de99bd88475346ff4396c9bebf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 88255d775b52aef089431fd3125a899ffafa3747
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918384"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035652"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.  
 
 |Metode|Indgående proces|Placering|Modtagelser|Læg-på-lager-aktiviteter|Kompleksitetsniveau (Se [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -44,6 +44,8 @@ Denne gennemgang viser følgende opgaver.
 -   Oprettelse og bogføring af et lagermodtagelsesdokument for flere købsordrelinjer fra bestemte kreditorer.  
 -   Registrering af en læg-på-lager-aktivitet for de modtagne varer.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 ## <a name="roles"></a>Roller  
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 

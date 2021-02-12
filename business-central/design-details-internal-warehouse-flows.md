@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd07d7d25bea1e49ffa4927a717088663c5d48da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911026"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035727"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designoplysninger: Internt lagerflow
 Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af komponenter og at lægge færdigvarer på lager til produktions- eller montageordrer og ad hoc-bevægelser, f.eks. placeringsgenopfyldninger, uden relation til kildedokumenter. Omfanget og arten af de involverede aktiviteter varierer mellem grundlæggende og avancerede logistikfunktioner.  
@@ -90,7 +90,7 @@ Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af 
 ## <a name="flushing-production-components-in-the-warehouse"></a>Træk af produktionskomponenter i lageret  
  Hvis det er angivet på varekortet, bliver komponenter, der plukkes med lagerpluk, bogført som forbrugt af produktionsordren, når lagerpluk er registreret. Ved hjælp af metoden **Pluk + Forlæns** og trækmetoden **Pluk + Baglæns**, udløser plukregistreringen den relaterede forbrugsbogføring henholdsvis, når den første handling starter, eller når den sidste handling afsluttes.  
 
- Forestil dig følgende scenarie, der er baseret på [!INCLUDE[d365fin](includes/d365fin_md.md)]-demodatabasen, lokationen HVID.  
+ Forestil dig følgende scenarie, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)]-demodatabasen.  
 
  Der findes en produktionsordre for 15 stk. af vare LS-100. Nogle af varerne på komponentlisten skal trækkes manuelt i en forbrugskladde, og andre varer på listen kan plukkes og trækkes automatisk ved hjælp af metoden **pluk + baglæns**.  
 

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918484"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035752"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.  
 
 |Metode|Indgående proces|Placering|Pluk|Leverancer|Kompleksitetsniveau (Se [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -33,6 +33,9 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de udgående processer for plu
 Du kan finde flere oplysninger i [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)  
 
 Den følgende gennemgang viser metode B i forrige tabel.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang
 
@@ -46,6 +49,9 @@ Denne gennemgang viser følgende opgaver:
 - Oprette et pluk baseret på et frigivet kildedokumentet.  
 - Registrering af lagerbevægelsen fra lageret og på samme tid bogføring af salgsleverancen til kildesalgsordren.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Roller
 
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
@@ -58,7 +64,7 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 
 For at gennemføre denne gennemgang skal du bruge:  
 
-- Til [!INCLUDE[prodshort](includes/prodshort.md)] online en virksomhed, der er baseret på indstillingen **Avanceret evaluering - komplette eksempeldata** i et sandkassemiljø. Til [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø installeret CRONUS International Ltd.  
+- Til [!INCLUDE[prod_short](includes/prod_short.md)] online en virksomhed, der er baseret på indstillingen **Avanceret evaluering - komplette eksempeldata** i et sandkassemiljø. Til [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø installeret CRONUS International Ltd.  
 - Du kan oprette dig selv som lagermedarbejder på lokationen SØLV ved at følge disse trin:  
 
   1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
@@ -143,4 +149,4 @@ På siden **Pluk (lager)** kan du administrere alle udgående lageraktiviteter t
 [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)  
 [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

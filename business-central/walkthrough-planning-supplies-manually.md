@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918459"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035627"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gennemgang: Manuel planlægning af forsyninger
 
@@ -38,10 +38,10 @@ Denne gennemgang viser processen med at planlægge forsyningsordrer til opfyldni
 -   Salgsordrebehandler  
 
 ## <a name="prerequisites"></a>Forudsætninger  
- Inden du begynder denne gennemgang, skal du installere [!INCLUDE[d365fin](includes/d365fin_md.md)]. Der skal foretages følgende ændringer i databasen:  
+ Inden du begynder denne gennemgang, skal du installere [!INCLUDE[prod_short](includes/prod_short.md)]. Der skal foretages følgende ændringer i databasen:  
 
 -   Slet alle eksisterende salgsordrer på cykler.  
--   Opret én salgsordre på ti cykler på lokationen BLÅ.  
+-   Opret én salgsordre på ti cykler på lokationen EAST.  
 -   Slet alle planlagte og fastlagte produktionsordrer. Slet ikke startede ordrer med poster, der allerede er bogførte.  
 
  Du skal som hovedregel bruge de foreslåede data i denne gennemgang, da disse data indeholder de nødvendige poster.  
@@ -148,7 +148,7 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 4.  Vælg **OK**-knappen for at registrere de ti varer, der er til disposition.  
 
     > [!NOTE]  
-    >  Det foreslåede køb i behovslinjen er erstattet med en overførsel fra lokationen GRØN. Funktionen **Lav ordrer** opretter en overflytningsordre fra GRØN til den påkrævede lokation. Feltet **Erstatning findes** fungerer på samme måde.  
+    >  Det foreslåede køb i behovslinjen er erstattet med en overførsel fra lokationen MAIN. Funktionen **Lav ordrer** opretter en overflytningsordre fra MAIN til den påkrævede lokation. Feltet **Erstatning findes** fungerer på samme måde.  
 
 5.  Vælg handlingen **Lav ordrer**. Siden **Opret forsyningsordrer** åbnes.  
 6.  På oversigtspanelet **Ordreplanlægning**, i feltet **Lav ordrer for**, skal du vælge muligheden **Den aktive ordre**.  

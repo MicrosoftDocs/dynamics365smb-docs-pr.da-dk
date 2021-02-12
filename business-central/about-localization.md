@@ -1,6 +1,6 @@
 ---
-title: Lokal funktionalitet i Business Central | Microsoft Docs
-description: Få mere at vide om lokal tilgængelighed og overholdelse af lovmæssige krav for Dynamics 365 Business Central.
+title: Lokal funktionalitet i Business Central
+description: Få mere at vide om lokal tilgængelighed og overholdelse af Business Central for de lande, hvor Microsoft leverer den lokale funktionalitet.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b7e6aeb4db5e189bf8f985b55cf226c94a9aa1de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cce4a885fd4b183149e2d072daf556bdbe0e5fca
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914511"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068404"
 ---
-# <a name="local-functionality-in-prodlong"></a>Lokal funktionalitet i [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="local-functionality-in-prod_long"></a>Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombineret oversættelsesstrategi inklusive både Microsoft-styrede såvel som partnerstyrede modeller. I dette afsnit kan du se beskrivelser af funktioner, der gælder for de lande/områder, hvor Microsoft leverer overholdelse af lovmæssige krav og andre lokale funktioner.  
+[!INCLUDE[prod_short](includes/prod_short.md)] har en kombineret oversættelsesstrategi inklusive både Microsoft-styrede såvel som partnerstyrede modeller. I dette afsnit kan du se beskrivelser af funktioner, der gælder for de lande/områder, hvor Microsoft leverer overholdelse af lovmæssige krav og andre lokale funktioner.  
 
 Du kan finde en liste over de aktuelt understøttede markeder under [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
@@ -55,7 +55,7 @@ Du kan finde flere oplysninger om lokal funktionalitet for hvert land/område ve
 
 ### <a name="other-countries"></a>Andre lande/områder
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] findes også på andre markeder via oversættelsesapps. Hvis en Microsoft-partner har udviklet en oversættelsesapp til dit land/område, kan du finde den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[prod_short](includes/prod_short.md)] findes også på andre markeder via oversættelsesapps. Hvis en Microsoft-partner har udviklet en oversættelsesapp til dit land/område, kan du finde den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## <a name="see-also"></a>Se også
 
