@@ -73,3 +73,6 @@ Du kan registrere medarbejderfravær dagligt eller med andre intervaller, der op
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

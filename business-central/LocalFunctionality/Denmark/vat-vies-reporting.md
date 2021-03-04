@@ -26,3 +26,6 @@ Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser m
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
  [Udskrive rapporter til afstemning af moms](how-to-print-vat-reconciliation-reports.md)    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

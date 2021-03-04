@@ -295,3 +295,6 @@ Dette afslutter beskrivelsen af de centrale begreber vedrørende forsyningsplanl
 [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)   
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

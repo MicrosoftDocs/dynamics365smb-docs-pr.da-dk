@@ -51,3 +51,6 @@ Kampagner udføres af sælgere, og du skal oprette aktiviteter, der repræsenter
 [Administrere målgrupper](marketing-segments.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Arbejde med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

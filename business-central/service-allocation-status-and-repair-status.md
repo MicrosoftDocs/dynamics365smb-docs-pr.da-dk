@@ -70,3 +70,6 @@ Der oprettes en ny allokeringspost, som indeholder den nye ressource og har stat
 [Opsætte ressourceallokeringer](service-how-setup-resource-allocation.md)  
 [Allokere ressourcer](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -150,3 +150,6 @@ På siden **Pluk (lager)** kan du administrere alle udgående lageraktiviteter t
 [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)  
 [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

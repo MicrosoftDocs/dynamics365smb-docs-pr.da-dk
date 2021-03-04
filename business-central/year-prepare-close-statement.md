@@ -38,3 +38,6 @@ Klik for at se en rapport, vælg ikonet ![Elpære, der åbner funktionen Fortæl
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

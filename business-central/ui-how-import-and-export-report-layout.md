@@ -55,3 +55,6 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
  [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   
  [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
  [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

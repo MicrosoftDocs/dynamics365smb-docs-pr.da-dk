@@ -162,3 +162,6 @@ Der føjes en Direct Debit-opkrævning til siden **Direct Debit-opkrævninger**,
 ## <a name="see-also"></a>Se også  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Service Management](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

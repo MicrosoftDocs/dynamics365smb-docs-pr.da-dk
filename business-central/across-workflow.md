@@ -42,3 +42,6 @@ Alle workflowskabeloner, som du opretter med, Power Automate, føjes til listen 
 [Køb](purchasing-manage-purchasing.md)  
 [Administrere projekter](projects-manage-projects.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

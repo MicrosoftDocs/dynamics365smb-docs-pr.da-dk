@@ -93,3 +93,6 @@ Følgende tabel viser felterne i oversigtspanelet **Indstillinger**, der er tilg
 ## <a name="see-also"></a>Se også
 
 [Opsætning](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

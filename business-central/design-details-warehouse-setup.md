@@ -141,3 +141,6 @@ Læg-på-lager-skabelonen kan tildeles til en vare og en lokation. Læg-på-lage
 
 [Designoplysninger: Logistik](design-details-warehouse-management.md)   
 [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

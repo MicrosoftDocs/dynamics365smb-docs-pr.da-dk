@@ -43,3 +43,6 @@ Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for deb
 [Konfigurere OIOUBL](how-to-set-up-oioubl.md)   
 [Oprette elektroniske dokumenter ved hjælp af OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)   
 [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

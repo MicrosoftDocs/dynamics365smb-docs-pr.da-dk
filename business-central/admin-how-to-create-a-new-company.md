@@ -76,3 +76,6 @@ Ud over konfigurationsdatatabeller har [!INCLUDE[prod_short](includes/prod_short
 [Anvende konfigurationer på nye virksomheder](admin-apply-configuration-to-new-companies.md)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

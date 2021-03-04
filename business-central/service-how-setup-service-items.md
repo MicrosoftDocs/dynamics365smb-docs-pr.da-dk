@@ -63,3 +63,6 @@ Du kan oprette serviceplaceringer, der identificerer, hvor du gemmer dine servic
 ## <a name="see-also"></a>Se også
 [Definere koder for standardservices](service-how-setup-service-coding.md)   
 [Konfigurere fejlfinding](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

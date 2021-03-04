@@ -56,3 +56,6 @@ Når den forlængede prøveperiode er udløbet, kan du [abonnere](https://go.mic
 [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner)  
 [Forlængelse af prøveperioder (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Sådan kommer du i gang som forhandler af Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

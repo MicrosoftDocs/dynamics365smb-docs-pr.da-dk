@@ -64,3 +64,6 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 [Salg](sales-manage-sales.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

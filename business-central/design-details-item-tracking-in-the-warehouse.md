@@ -31,3 +31,6 @@ Dog tager reservationssystemet lageraktiviteter i betragtning ved beregning af t
 [Designoplysninger: Integration med lager](design-details-integration-with-inventory.md)  
 [Designoplysninger - Lagertilgængelighed](design-details-availability-in-the-warehouse.md)  
 [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

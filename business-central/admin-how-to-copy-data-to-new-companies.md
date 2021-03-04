@@ -31,3 +31,6 @@ Du kan kopiere værdier, der ofte bruges fra en eksisterende virksomhed til en n
 [Anvende konfigurationer på nye virksomheder](admin-apply-configuration-to-new-companies.md)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

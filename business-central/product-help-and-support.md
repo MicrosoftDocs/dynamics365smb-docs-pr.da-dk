@@ -141,3 +141,6 @@ På docs.microsoft.com findes også indhold til andre produkter og andre typer i
 [Business Central-udvikler- og administrationsdokumenter](/dynamics365/business-central/dev-itpro/)  
 [Hjælp og support for partnere](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

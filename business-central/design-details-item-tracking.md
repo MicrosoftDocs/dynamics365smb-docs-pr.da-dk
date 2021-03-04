@@ -31,3 +31,6 @@ Et varesporingssystem giver en virksomhed mulighed for nem håndtering af serien
 [Designoplysninger: Varesporing og planlægning](design-details-item-tracking-and-planning.md)  
 [Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 [Designoplysninger: Varesporing i lageret](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

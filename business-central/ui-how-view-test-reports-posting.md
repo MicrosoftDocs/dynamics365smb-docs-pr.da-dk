@@ -34,3 +34,6 @@ Alle dele af købsfakturaen testes og resultatet vises i en rapport. Hvis rappor
 ## <a name="see-also"></a>Se også
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

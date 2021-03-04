@@ -93,3 +93,6 @@ Du kan finde flere oplysninger i [Sådan konfigureres baggrundsbogføring med op
 [Konfigurere Business Central](setup.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Analysere Job Queue Lifecycle Trace Telemetry](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

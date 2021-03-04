@@ -46,3 +46,6 @@ Følgende procedure viser, hvordan du kan lukke disse poster ved at udføre to k
 [Opsætte lagerværdi og kostprisberegning](finance-set-up-inventory-valuation-and-costing.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

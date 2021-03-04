@@ -66,3 +66,6 @@ Når du konfigurerer brugere i godkendelsesworkflows, skal du angive på siderne
  [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)   
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

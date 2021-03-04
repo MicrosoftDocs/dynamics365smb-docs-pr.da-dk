@@ -43,3 +43,6 @@ Du kan bruge en ekstern tjenesteudbyder til at udveksle elektroniske dokumenter 
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Udveksle data elektronisk](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

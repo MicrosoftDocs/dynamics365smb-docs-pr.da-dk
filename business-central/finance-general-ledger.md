@@ -71,3 +71,6 @@ Næste gang du genererer kontoskemaer viser din kontoopgørelse den samlede sald
 [Finans](finance.md)  
 [Konfigurere eller ændre kontoplanen](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

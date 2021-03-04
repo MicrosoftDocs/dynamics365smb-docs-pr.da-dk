@@ -56,3 +56,6 @@ Med tilføjelsesprogrammet kan du få nye data fra [!INCLUDE [prod_short](includ
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Arbejde med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -120,3 +120,6 @@ De udlæste poster indeholder følgende felter: **Kontonr.**, **Bogføringsdato*
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eksportere forretningsdata til Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

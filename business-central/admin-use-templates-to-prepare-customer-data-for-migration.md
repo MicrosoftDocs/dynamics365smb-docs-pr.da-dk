@@ -158,3 +158,6 @@ Standardværdierne fra den valgte debitorskabelon indsættes i debitorkortet.
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)  
 [Registrere nye debitorer](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

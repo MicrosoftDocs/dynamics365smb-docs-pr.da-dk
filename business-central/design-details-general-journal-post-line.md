@@ -29,3 +29,6 @@ Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og princ
 
 ## <a name="see-also"></a>Se også  
 [Arbejde med finanskladder](ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs-
 [Ressourcer til hjælp og support](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

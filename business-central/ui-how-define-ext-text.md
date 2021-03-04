@@ -44,3 +44,6 @@ Du kan nu føje denne udvidede tekst til dokumenter. Følgende fremgangsmåde be
 
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

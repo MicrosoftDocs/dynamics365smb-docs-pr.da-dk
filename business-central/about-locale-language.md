@@ -61,3 +61,6 @@ Det er nemt – rul til bunden af webbrowsersiden, og vælg globussymbolet i ned
 [Ressourcer til hjælp og support](product-help-and-support.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Introduktion](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

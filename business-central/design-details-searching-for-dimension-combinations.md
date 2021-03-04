@@ -78,3 +78,6 @@ EXIT(DimSet.ID);
  [Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)   
  [Designoplysninger: Tabelstruktur](design-details-table-structure.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

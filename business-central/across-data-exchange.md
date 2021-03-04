@@ -39,3 +39,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Udveksle data](across-exchange-data.md)  
 [Indgående bilag](across-income-documents.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

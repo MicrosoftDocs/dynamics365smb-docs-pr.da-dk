@@ -199,3 +199,6 @@ Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](incl
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[prod_short](includes/prod_short.md)] på min mobilenhed](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

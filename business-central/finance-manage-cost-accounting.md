@@ -36,3 +36,6 @@ Omkostningsregnskab bruges til at hjælpe dig med at forstå omkostningerne til 
 [Finans](finance.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

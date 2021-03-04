@@ -118,3 +118,6 @@ Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af 
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Logistik](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

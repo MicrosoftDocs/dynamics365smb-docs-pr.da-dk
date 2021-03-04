@@ -108,3 +108,6 @@ Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!IN
 [Tilpasse Business Central til [!INCLUDE[prod_short](includes/prod_short.md)] ved brug af udvidelser](ui-extensions.md)  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -59,3 +59,6 @@ I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan f√
 [Introduktion](product-get-started.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

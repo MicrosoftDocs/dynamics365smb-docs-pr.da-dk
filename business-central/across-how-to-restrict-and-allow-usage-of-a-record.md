@@ -41,3 +41,6 @@ Følgende fremgangsmåde beskriver, hvordan du kan begrænse bogføring af købs
 ## <a name="see-also"></a>Se også  
 [Oprette arbejdsgange](across-how-to-create-workflows.md)   
 [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

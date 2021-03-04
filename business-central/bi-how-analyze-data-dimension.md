@@ -83,3 +83,6 @@ Du kan opdatere en analyse vha. følgende fremgangsmåde, som startes på siden 
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

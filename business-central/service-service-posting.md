@@ -58,3 +58,6 @@ I følgende procedure bruges en bogført servicefaktura som eksempel, men der ka
 ## <a name="see-also"></a>Se også  
 [Postere serviceordrer](service-how-to-post-service-orders.md)   
 [Oprette serviceordrer](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

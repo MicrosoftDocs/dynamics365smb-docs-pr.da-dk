@@ -59,3 +59,6 @@ Du konfigurerer forskellige aspekter af arbejdsgangsnotifikationer følgende ste
 [Konfigurere mail](admin-how-setup-email.md)  
 [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

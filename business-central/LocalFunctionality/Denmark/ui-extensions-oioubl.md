@@ -39,3 +39,6 @@ Du kan få flere oplysninger i [Konfigurere udvidelsen OIOUBL](how-to-set-up-oio
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Konfigurere OIOUBL-udvidelsen](how-to-set-up-oioubl.md)  
 [Oprette elektroniske dokumenter i et OIOUBL-format](how-to-create-electronic-documents-by-using-oioubl.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

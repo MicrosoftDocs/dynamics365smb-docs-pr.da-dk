@@ -150,3 +150,6 @@ Kontraktlinjerne indeholder derefter følgende data.
 ## <a name="see-also"></a>Se også  
 [Oprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Konfigurere Service](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

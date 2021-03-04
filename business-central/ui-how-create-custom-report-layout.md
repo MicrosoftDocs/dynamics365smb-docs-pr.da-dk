@@ -119,3 +119,6 @@ Tilføjelse af datafelter fra en rapports datasæt er mere avanceret og kræver 
 [Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

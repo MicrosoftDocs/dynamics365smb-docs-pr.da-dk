@@ -34,3 +34,6 @@ Når du installerer udvidelsen i [!INCLUDE [prod_short](includes/prod_short.md)]
 [Administrere arbejde på tværs af flere regnskaber i virksomhedshub](company-hub.md)  
 [Revisoroplevelser i Business Central](finance-accounting.md)  
 [Finans](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

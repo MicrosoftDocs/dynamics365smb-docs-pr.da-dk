@@ -48,3 +48,6 @@ Hvis du vil masseslette alle eller nogle brugeropgaver, kan du bruge rapporten *
 
 [Søge efter en side eller rapport](ui-search.md)  
 [Revisoroplevelser i [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

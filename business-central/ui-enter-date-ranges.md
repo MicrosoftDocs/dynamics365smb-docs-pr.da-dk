@@ -369,3 +369,6 @@ Hvis måleenheden f.eks. er timer, konverteres tallet 5 til 5 timer.
 [Arbejde med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)  
 [Indtaste kriterier i filtre](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

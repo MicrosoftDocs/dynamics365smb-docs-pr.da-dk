@@ -50,3 +50,6 @@ Når du vil bruge konti for urealiseret moms, skal du gøre følgende:
 
 ## <a name="see-also"></a>Se også
 [Opsætning af moms](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

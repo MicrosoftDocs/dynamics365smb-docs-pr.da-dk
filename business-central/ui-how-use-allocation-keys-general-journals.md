@@ -47,3 +47,6 @@ Du kan allokere en post i en finanskladde til flere forskellige konti, når du b
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

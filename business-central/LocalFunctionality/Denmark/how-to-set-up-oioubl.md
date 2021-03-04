@@ -67,3 +67,6 @@ Endelig skal du angive EAN-numre og kontokoder for de relevante debitorer. Du ka
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md)   
 [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

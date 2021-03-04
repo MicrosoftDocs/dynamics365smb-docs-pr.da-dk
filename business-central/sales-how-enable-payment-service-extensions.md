@@ -45,3 +45,6 @@ Microsoft Pay-, PayPal Payments Standard- og WorldPay Payments Standard-udvidels
 [Salg](sales-manage-sales.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

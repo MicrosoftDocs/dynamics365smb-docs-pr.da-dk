@@ -42,3 +42,6 @@ Hvis du er administrator eller superbruger, kan du hjælpe andre ved at søge ef
 [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Introduktion](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

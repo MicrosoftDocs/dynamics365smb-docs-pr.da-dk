@@ -30,3 +30,6 @@ Med henblik på at skelne mellem forskellige kompleksitetsniveauer af logistik e
 [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)  
 [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)  
 [Designoplysninger: Integration med lager](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

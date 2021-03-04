@@ -47,3 +47,6 @@ Du kan overføre workflows til andre [!INCLUDE[prod_short](includes/prod_short.m
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Der kan aktiveres datasynkronisering mellem kontakter og relaterede debitorer, k
 [Administrere kontakter](marketing-contacts.md)  
 [Konfigurere kontakter](marketing-setup-contacts.md)  
 [Arbejde med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

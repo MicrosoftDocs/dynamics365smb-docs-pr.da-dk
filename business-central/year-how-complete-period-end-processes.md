@@ -63,3 +63,6 @@ Koncernintern
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Afslutningregnskab](year-close-books.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

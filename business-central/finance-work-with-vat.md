@@ -182,3 +182,6 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringsce
 ## <a name="see-also"></a>Se også  
 [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)   
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

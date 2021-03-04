@@ -187,3 +187,6 @@ Hvis du efterlader kladdelinjen uden at bogføre den, vil den tilføre værdi ti
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

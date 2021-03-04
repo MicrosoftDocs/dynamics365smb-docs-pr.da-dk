@@ -88,3 +88,6 @@ Du kan finde flere oplysninger under [Dokumentation for Power Automate](/power-a
 [Brugeropsætning af godkendelser](across-how-to-set-up-approval-users.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finans](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

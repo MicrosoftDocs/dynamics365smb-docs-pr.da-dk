@@ -82,3 +82,6 @@ Du kan finde flere oplysninger i [Sådan får du vist en oversigt over en bruger
 [Finans](finance.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

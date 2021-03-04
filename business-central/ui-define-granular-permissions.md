@@ -263,3 +263,6 @@ Du kan oprette [!INCLUDE[prod_short](includes/prod_short.md)] for at sende ændr
 [Opsætning](admin-setup-and-administration.md)  
 [Føje brugere til Microsoft 365 for Business](https://aka.ms/CreateOffice365Users)  
 [Sikkerhed og beskyttelse i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjælp til udviklere og it-eksperter
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

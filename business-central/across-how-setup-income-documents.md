@@ -58,3 +58,6 @@ Du kan finde flere oplysninger i [Bruge OCR til at gøre PDF- og billedfiler til
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

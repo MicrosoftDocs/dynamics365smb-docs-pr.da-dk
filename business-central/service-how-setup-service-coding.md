@@ -39,3 +39,5 @@ Når der foretages standardservice, skal der ofte oprettes servicedokumenter, de
 ## <a name="see-also"></a>Se også
 
 [Service Management](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -110,3 +110,6 @@ I miljøer med standardkostpriser er omkostninger for en produktionsordre basere
  [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md) [Finans](finance.md)  
  [Arbejde med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

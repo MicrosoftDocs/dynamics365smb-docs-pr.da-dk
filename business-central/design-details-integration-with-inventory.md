@@ -48,3 +48,5 @@ Modulet Logistik og modulet Lager interagerer med hinanden på det fysiske lager
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Logistik](design-details-warehouse-management.md)   
  [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -105,3 +105,6 @@ Processen med at opdatere eller beregne standardkostpriser består typisk af fø
  [Arbejde med styklister](inventory-how-work-BOMs.md)   
  [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)   
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

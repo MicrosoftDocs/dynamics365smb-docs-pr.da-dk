@@ -53,3 +53,6 @@ Denne video viser, hvordan du konfigurerer et workflow, der kræver, at en perso
  [Workflow](across-workflow.md)   
  [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Arbejde med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

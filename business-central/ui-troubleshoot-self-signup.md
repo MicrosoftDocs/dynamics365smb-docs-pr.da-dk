@@ -49,3 +49,6 @@ Du kan finde en oversigt over aktuelt understøttede markeder for hele Dynamics 
 [Lokal funktionalitet](about-localization.md)  
 [Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [International tilgængelighed af Microsoft Dynamics 365](/dynamics365/get-started/availability)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

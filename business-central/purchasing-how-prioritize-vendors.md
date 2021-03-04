@@ -39,3 +39,6 @@ Hvis der er en kreditor, du ikke vil tildele prioritet, skal du lade feltet **Pr
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

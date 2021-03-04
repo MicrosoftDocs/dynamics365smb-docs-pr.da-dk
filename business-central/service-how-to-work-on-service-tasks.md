@@ -107,3 +107,6 @@ Når du har repareret en serviceartikel, kan du registrere både fejlkoden og l�
 [Definere fejlrapportering](service-how-setup-fault-reporting.md)
 [Allokeringsstatus og reparationsstatus](service-allocation-status-and-repair-status.md)  
 [Bogføring af tjenesten](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

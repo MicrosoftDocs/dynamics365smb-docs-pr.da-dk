@@ -110,3 +110,6 @@ Lagerposter oprettes og læg-på-lager-linjerne slettes, hvis de er fuldt håndt
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

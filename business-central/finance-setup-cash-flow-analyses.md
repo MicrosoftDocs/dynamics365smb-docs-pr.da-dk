@@ -132,3 +132,6 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -219,3 +219,6 @@ Forudbetalingsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)] gør d
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

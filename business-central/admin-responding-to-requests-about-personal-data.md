@@ -62,3 +62,6 @@ Hvis en kontakts alder er under myndighedsalderen i henhold til lovgivningen i d
 [Eksportere forretningsdata til Excel](about-export-data.md)  
 [Logføre ændringer](across-log-changes.md)  
 [Dataemneanmodninger for GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

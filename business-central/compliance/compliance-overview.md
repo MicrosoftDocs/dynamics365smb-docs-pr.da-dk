@@ -35,3 +35,6 @@ I dette afsnit kan du læse mere om vores tilgang til overholdelse set ud fra ap
 |Lære om vilkårene for serviceniveauaftalen og andre vilkår for service|[Servicebetingelser](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

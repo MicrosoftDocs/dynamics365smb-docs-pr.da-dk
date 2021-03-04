@@ -132,3 +132,6 @@ Følgende procedure beskriver leverancebogføring direkte fra en serviceordre p�
 ## <a name="see-also"></a>Se også  
 [Bogføring i Service](service-service-posting.md)  
 [Oprette en serviceordre](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -100,3 +100,6 @@ Købet afspejles nu i lagerposter, ressourceposter og finansposter, og kreditorb
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Forberede direkte leveringer](sales-how-drop-shipment.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

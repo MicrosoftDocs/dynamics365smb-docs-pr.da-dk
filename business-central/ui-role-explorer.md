@@ -45,3 +45,6 @@ De handlinger, der åbner sider, er organiseret under noder, der er navngivet ef
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

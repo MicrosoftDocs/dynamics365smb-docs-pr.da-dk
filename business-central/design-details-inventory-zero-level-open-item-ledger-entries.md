@@ -151,3 +151,6 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Vareudligning](design-details-item-application.md)   
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

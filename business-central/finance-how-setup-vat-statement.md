@@ -51,3 +51,6 @@ Når du har defineret en momsangivelse, kan du få vist et eksempel på den for 
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  
 [Lokal funktionalitet i Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

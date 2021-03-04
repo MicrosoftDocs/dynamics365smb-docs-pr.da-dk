@@ -46,3 +46,6 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] har codeunit 12 følgende forbe
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)   
 [Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Levering af service](service-deliver-service.md)  
 [Konfigurere Service](service-setup-service.md)  
 [Oprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

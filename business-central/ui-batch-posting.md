@@ -126,3 +126,6 @@ Salgsordrer, der falder inden for de definerede filtre, bogføres alle hverdage 
 [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,3 +52,6 @@ I forbindelse med forsyningsplanlægning fungerer lotstørrelsesindstillingen fo
 [Arbejde med produktionskladdeenheder](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Oprette ruter](production-how-to-create-routings.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,3 +52,6 @@ På siden **Logførte målgrupper**, kan du vælge at oprette en opfølgende må
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Oprette og administrere kontakter](marketing-contacts.md)  
 [Arbejde med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

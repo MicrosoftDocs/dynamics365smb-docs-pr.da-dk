@@ -59,3 +59,6 @@ ms.locfileid: "3921713"
 > Hvis du vil have en grafisk printervenlig version, skal du vælge følgende billede og hente PDF-filen.
 >
 > [![Ikon, der åbner et PDF-dokument](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

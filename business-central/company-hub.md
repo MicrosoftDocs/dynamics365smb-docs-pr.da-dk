@@ -94,3 +94,6 @@ Administratorer kan bruge den samme assisterede opsætningsvejledning til at fø
 [Revisoroplevelser i Business Central](finance-accounting.md)  
 [Virksomhedshub til udvidelsen af Business Central](ui-extensions-company-hub.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

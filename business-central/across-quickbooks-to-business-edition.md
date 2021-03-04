@@ -37,3 +37,6 @@ Hvis du er klar til at komme i gang nu, skal du vælge ikonet ![Elpære, der åb
 ## <a name="see-also"></a>Se også
 [Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

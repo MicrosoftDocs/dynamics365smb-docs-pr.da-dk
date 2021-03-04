@@ -48,3 +48,6 @@ Du kan finde flere oplysninger i emnet om OIOUBL-profiler i afsnittet Ofte still
  [Konfigurere OIOUBL](how-to-set-up-oioubl.md)  
  [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md)  
  [Oprette elektroniske dokumenter ved hjælp af OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

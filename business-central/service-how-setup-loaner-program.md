@@ -35,3 +35,6 @@ Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan br
 [Konfigurere Service](service-setup-service.md)  
 [Levering af service](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

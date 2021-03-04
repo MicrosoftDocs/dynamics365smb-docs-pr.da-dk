@@ -49,3 +49,6 @@ Når du har oprettet dit lager, kan du administrere forskellige lagerprocesser i
 [Administrere salg](sales-manage-sales.md)    
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

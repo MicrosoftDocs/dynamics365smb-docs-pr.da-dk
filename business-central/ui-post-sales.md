@@ -64,3 +64,6 @@ Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks **Pakkespori
 [Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

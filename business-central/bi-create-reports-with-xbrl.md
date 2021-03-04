@@ -114,3 +114,6 @@ Når en taksonomi ændres, skal du opdatere den aktuelle taksonomi i overensstem
 [Finans](finance.md)    
 [Business Intelligence](bi.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
  [Designoplysninger: Vareudligning](design-details-item-application.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

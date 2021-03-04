@@ -55,3 +55,6 @@ Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengest
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

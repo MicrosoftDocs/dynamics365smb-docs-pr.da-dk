@@ -228,3 +228,6 @@ Du kan også slette individuelle salgsreturordrer manuelt.
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

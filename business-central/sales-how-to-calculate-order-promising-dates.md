@@ -145,3 +145,6 @@ Før en vare kan indgå i beregningen af ordrebekræftelsen, skal den markeres s
 [Salg](sales-manage-sales.md)  
 [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

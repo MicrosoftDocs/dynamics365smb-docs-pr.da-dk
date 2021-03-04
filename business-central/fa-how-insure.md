@@ -119,3 +119,6 @@ Anlægsaktivet vil blive skilt fra den forkerte forsikringspolice på den anden 
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

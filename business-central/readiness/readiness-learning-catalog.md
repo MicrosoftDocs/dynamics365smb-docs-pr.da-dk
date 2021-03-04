@@ -77,3 +77,6 @@ Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for 
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

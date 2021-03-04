@@ -32,3 +32,5 @@ Regler for indtastning af data på siden **Varesporingslinjer** understøtter og
   
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

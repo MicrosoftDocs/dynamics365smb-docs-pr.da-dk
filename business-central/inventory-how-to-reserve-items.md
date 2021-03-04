@@ -99,3 +99,6 @@ Følgende procedure er baseret på en salgsordre.
 [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

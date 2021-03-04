@@ -68,3 +68,6 @@ Følgende procedure beskriver, hvordan du opretter en ny kreditnota ved hjælp a
 [Finans](finance.md)  
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

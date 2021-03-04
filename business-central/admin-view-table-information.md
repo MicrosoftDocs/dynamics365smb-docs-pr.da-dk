@@ -40,3 +40,6 @@ Følgende tabel indeholder en beskrivelse af de oplysninger, der er angivet for 
 
 [Inspicere sider](across-inspect-page.md)  
 [Artikler om ydeevne til udviklere](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -200,3 +200,6 @@ Du kan når som helst arkivere servicekontrakter og kontrakttilbud for at regist
 [Opsætte servicekontrakter](service-how-setup-service-contracts.md)  
 [Service Management](service-service.md)  
 [Konvertere servicekontrakter, som omfatter momsbeløb](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

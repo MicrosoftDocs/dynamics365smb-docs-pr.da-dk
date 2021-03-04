@@ -68,3 +68,6 @@ Nogle dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt, d
 [Konfigurere mail](admin-how-setup-email.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

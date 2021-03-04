@@ -37,3 +37,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)        
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

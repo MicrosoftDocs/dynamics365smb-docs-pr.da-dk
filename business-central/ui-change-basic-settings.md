@@ -93,3 +93,6 @@ Vælg dette link for at få vist eller ændre de notifikationer, du får om best
 [Oprettelse af nye virksomheder](about-new-company.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

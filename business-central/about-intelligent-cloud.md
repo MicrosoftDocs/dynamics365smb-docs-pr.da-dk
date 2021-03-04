@@ -51,3 +51,6 @@ Når din Dynamics 365-videresalgspartner har fået den rigtige licens til din lo
 [Velkommen til Business Central](index.md)  
 [Intelligente skyudvidelser til skymigrering](ui-extensions-data-replication.md)  
 [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

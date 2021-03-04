@@ -36,3 +36,6 @@ Du kan planlægge, hvornår en kørsel skal udføres. Du kan finde flere oplysni
 [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
 [Du kan bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

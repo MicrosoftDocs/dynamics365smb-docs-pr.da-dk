@@ -130,3 +130,6 @@ Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke
 [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)  
 [Workflow](across-workflow.md)  
 [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

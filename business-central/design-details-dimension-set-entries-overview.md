@@ -50,3 +50,6 @@ Ved at gemme dimensionsgrupper én gang i databasen gemmes der plads i databasen
 [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   
 [Designoplysninger: Tabelstruktur](design-details-table-structure.md)   
 [Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

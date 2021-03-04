@@ -183,3 +183,6 @@ For hver enkelt finanskonto kan du definere standarddimensionsværdier i tabelle
 [Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)   
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

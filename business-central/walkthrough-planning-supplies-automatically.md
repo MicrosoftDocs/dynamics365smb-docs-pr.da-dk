@@ -267,3 +267,6 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)   
  [Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)   
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

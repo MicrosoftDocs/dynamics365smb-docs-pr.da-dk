@@ -35,3 +35,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Behandle indgående leads ved at oprette salgsmuligheder og knytte dem til sælgere, så du kan holde styr på muligt salg.|[Administrere salgsleads](marketing-manage-sales-opportunities.md)|
 |Oprette marketingplaner for at identificere, tiltrække og holde på kunderne.|[Administration af marketingkampagner](marketing-campaigns.md)|
 |Bruge Dynamics 365 Sales for Customer Engagement og nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien.|[Integration med Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

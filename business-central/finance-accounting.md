@@ -109,3 +109,6 @@ Hvis du vil give adgang til flere virksomheder, skal du logge ind på hver virks
 [Administrere arbejde på tværs af flere regnskaber i virksomhedshub](company-hub.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -29,3 +29,5 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
   
 ## <a name="see-also"></a>Se også  
 [Konfigurere Service](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

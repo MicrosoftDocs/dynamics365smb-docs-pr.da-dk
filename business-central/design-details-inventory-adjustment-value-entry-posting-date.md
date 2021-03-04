@@ -365,3 +365,6 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  
 [Designoplysninger: Vareudligning](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

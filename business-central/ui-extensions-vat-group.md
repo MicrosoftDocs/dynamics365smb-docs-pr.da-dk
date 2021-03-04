@@ -115,3 +115,6 @@ Når moms gruppens momsgruppe er blevet sendt til myndighederne på vegne af hel
 ## <a name="see-also"></a>Se også
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  
 [Konfigurere moms](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

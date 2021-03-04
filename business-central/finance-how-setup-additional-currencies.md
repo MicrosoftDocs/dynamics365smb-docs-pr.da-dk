@@ -127,3 +127,6 @@ Derudover vil beløbene i alle fremtidige poster af samme type være registreret
 [Opdatere valutakurser](finance-how-update-currencies.md)  
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

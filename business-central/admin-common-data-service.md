@@ -67,3 +67,6 @@ Når forbindelsen opsættes, oprettes de integrationstabeltilknytninger, der er 
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

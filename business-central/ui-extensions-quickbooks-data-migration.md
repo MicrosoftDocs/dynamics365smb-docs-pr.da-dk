@@ -70,3 +70,6 @@ Kontroller primosaldi for konti i finansbogholderiet. QuickBooks gemmer ikke den
 
 [Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
  [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)   
  [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Ved beregning af en hovedplan eller en MRP gælder følgende begrænsninger:
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
 [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)   
 [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

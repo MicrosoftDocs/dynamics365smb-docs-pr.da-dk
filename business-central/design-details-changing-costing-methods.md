@@ -182,3 +182,6 @@ Vi anbefaler følgende:
 
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Oversigt](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

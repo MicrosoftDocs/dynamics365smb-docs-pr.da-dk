@@ -305,3 +305,6 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 [Find poster](ui-find-entries.md)  
 [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

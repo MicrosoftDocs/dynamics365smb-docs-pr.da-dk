@@ -35,3 +35,6 @@ Når du har oprettet en arbejdsgang, og du er sikker på, at den er klar til at 
  [Anvende workflows](across-use-workflows.md)   
  [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

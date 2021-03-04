@@ -70,3 +70,6 @@ Hvis du godkender den indgående bilagspost, markeres afkrydsningsfeltet **Frigi
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

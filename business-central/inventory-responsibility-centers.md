@@ -63,3 +63,6 @@ Du kan angive dette ved at knytte ansvarscentre til brugere i tre funktionsmodul
 [Logistik](warehouse-manage-warehouse.md)  
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
  [Forstå VIA -metoder](projects-understanding-wip.md)   
  [Overvåge status og udførelse](projects-how-monitor-progress-performance.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

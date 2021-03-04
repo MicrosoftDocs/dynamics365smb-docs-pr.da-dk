@@ -40,3 +40,6 @@ Den følgende tabel beskriver indstillingerne for spærring af kunder.
 [Registrere nye debitorer](sales-how-register-new-customers.md)  
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

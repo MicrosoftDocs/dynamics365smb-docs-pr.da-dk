@@ -56,3 +56,5 @@ Før du kan arbejde med kontrakter, skal du angive følgende:
 
 ## <a name="see-also"></a>Se også
 [Konfigurere Service](service-setup-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

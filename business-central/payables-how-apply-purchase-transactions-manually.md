@@ -121,3 +121,6 @@ Hvis du annullerer en fejlagtig udligning, oprettes og bogføres der automatisk 
 [Gæld](payables-manage-payables.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

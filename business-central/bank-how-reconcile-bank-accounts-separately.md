@@ -159,3 +159,6 @@ Hvis den næste bankafstemning er for august, skal du overveje at ændre værdie
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ I følgende tabel beskrives den indsigt, som udvidelsen sender til hvert rollece
 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

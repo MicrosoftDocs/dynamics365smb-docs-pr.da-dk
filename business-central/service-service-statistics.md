@@ -112,3 +112,6 @@ Du kan bruge siden **Statistik for servicekreditnotaer** til at få et statistis
 [Oprette serviceordrer](service-how-to-create-service-orders.md)   
 [Oprette serviceartikler](service-how-to-create-service-items.md)   
 [Planlægning af service](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

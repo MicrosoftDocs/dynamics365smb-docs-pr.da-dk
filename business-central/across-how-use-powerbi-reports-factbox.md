@@ -89,3 +89,6 @@ Kontroller, at rapportstørrelse er indstillet til 325 x 310 pixel. Gem rapporte
 [Introduktion](product-get-started.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finans](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

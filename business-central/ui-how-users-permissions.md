@@ -157,3 +157,6 @@ I forbindelse med installationer i det lokale miljø opretter redigerer og slett
 [Opsætning](admin-setup-and-administration.md)  
 [Føje brugere til Microsoft 365 for Business](https://aka.ms/CreateOffice365Users)  
 [Sikkerhed og beskyttelse i Business Central (administration)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

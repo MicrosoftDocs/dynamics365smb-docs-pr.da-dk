@@ -52,3 +52,6 @@ Du kan finde flere oplysninger under [Vælge et checklayout](finance-how-define-
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Vælge et checklayout](finance-how-define-check-layouts.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

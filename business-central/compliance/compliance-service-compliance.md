@@ -39,3 +39,6 @@ Hvis du er interesseret i den komplette liste over tilbud med overholdelse fra M
 [Certificeringer](compliance-certifications.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

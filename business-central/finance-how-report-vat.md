@@ -121,3 +121,6 @@ I følgende tabel beskrives kodeenheder, du skal oprette til rapporten.
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

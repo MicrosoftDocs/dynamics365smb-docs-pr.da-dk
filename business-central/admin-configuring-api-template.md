@@ -49,3 +49,5 @@ Den definerede skabelon anvendes på en ny post, der oprettes via API'et, hvis o
 [Slutpunkter for API'erne](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

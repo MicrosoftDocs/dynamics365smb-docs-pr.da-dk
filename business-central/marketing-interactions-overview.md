@@ -31,3 +31,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Konfigurere systemet til at registrere interaktioner. |[Opsætning af kontakter](marketing-setup-contacts.md) |
 |Oprette interaktioner for at registrere al interaktion og kommunikation, som du har med kontakter og målgrupper, f.eks. mail.|[Oprette interaktioner for kontakter og målgrupper](marketing-how-create-interactions.md)|
 |Konfigurere systemet til automatisk at registrere interaktioner for salgs-, købs- og servicedokumenter, f.eks. når et dokumenter er oprettet, bogført eller udskrevet.|[Automatisk registrere interaktioner med kontakter](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

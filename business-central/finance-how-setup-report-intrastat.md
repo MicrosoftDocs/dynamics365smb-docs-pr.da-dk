@@ -131,3 +131,6 @@ Du skal oprette alle de varekoder, du bruger, på siden **Varekoder**. Koderne s
 
 ## <a name="see-also"></a>Se også
 [Økonomistyring](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

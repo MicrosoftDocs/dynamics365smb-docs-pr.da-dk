@@ -98,3 +98,6 @@ Noten knyttes nu til salgsordren.
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Indgående bilag](across-income-documents.md)  
 [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

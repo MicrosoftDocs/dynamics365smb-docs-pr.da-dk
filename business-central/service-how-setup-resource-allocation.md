@@ -83,3 +83,6 @@ Hvis du vil ændre kvalifikationskoder, der er tildelt til varer, for eksempel f
 [Definere koder for standardservices](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

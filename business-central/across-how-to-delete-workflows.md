@@ -40,3 +40,6 @@ Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

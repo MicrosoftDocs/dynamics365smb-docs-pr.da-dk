@@ -186,3 +186,6 @@ Felt 480 findes i følgende buffertabeller.
  [Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)   
  [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

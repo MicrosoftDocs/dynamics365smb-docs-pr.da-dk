@@ -143,3 +143,6 @@ Du kan annullere ressourceallokeringer til serviceopgaver uden at genallokere op
 ## <a name="see-also"></a>Se også
 [Opsætte ressourceallokering](service-how-setup-resource-allocation.md)  
 [Allokeringsstatus og reparationsstatus](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

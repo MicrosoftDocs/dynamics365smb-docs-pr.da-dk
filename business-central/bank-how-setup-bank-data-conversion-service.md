@@ -64,3 +64,6 @@ Du har nu tilmeldt dig AMC Banking 365 Fundamentals-udvidelsen. Fortsæt med at 
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

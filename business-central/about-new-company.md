@@ -77,3 +77,6 @@ Du kan ikke ændre navnet, når først du har oprettet en virksomhed. Men du kan
 [Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Introduktion](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

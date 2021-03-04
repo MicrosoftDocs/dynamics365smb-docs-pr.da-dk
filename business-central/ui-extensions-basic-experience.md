@@ -51,3 +51,5 @@ Bring dine Dynamics C5-data sammen. Når din Microsoft-partner har installeret d
 
 ## <a name="see-also"></a>Se også
 [Udvidelsen C5-dataoverførsel](ui-extensions-c5-data-migration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

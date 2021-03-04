@@ -46,3 +46,6 @@ Hvis du vil skjule [!INCLUDE[prod_short](includes/prod_short.md)] fra din appsta
 [Eksportere forretningsdata til Excel](about-export-data.md)  
 [Microsoft 365 Administration](https://admin.microsoft.com/)  
 [Hvor længe varer prøveperioden, og hvordan kan jeg annullere?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

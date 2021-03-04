@@ -50,3 +50,6 @@ Bogmærkeikonet vises ikke i vinduet Fortæl mig, når tilpasning er deaktiveret
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
 [Søge efter sider med Rollestifinder](ui-role-explorer.md)  
 [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

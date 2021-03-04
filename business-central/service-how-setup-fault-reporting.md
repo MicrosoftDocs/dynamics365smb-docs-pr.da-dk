@@ -47,3 +47,6 @@ Du skal samle oplysninger sammen vedr. fejl/løsningskoderelationer, så du kan 
 ## <a name="see-also"></a>Se også
 [Konfigurere Service](service-setup-service.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

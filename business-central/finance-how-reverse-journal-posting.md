@@ -85,3 +85,6 @@ Følgende beskriver, hvordan du kan fortryde en bogført returvareleverance af v
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

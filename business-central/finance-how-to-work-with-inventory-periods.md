@@ -69,3 +69,6 @@ Når du har lukket lagerperioden, kan du ikke slette den. Du kan dog genåbne de
 [Finans](finance.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejde med Financials](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

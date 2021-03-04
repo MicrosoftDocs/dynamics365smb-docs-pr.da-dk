@@ -50,3 +50,6 @@ Med regnearket Klassificering af data kan du f.eks. gøre følgende:
 ## <a name="see-also"></a>Se også
 
 [Klassificering af Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

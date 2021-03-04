@@ -444,3 +444,6 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
  [Designoplysninger: Internt lagerflow](design-details-internal-warehouse-flows.md)   
  [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)   
  [Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

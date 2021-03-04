@@ -32,3 +32,6 @@ I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du bruge rapporten **
 
 ## <a name="see-also"></a>Se også  
  [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -161,3 +161,6 @@ På siden **Læg-på-lager (logistik)** kan du administrere læg-på-lager-aktiv
  [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)   
  [Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

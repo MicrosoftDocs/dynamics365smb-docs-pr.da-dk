@@ -101,3 +101,6 @@ Administratoren af din [!INCLUDE[prod_short](includes/prod_short.md)] og din vid
 [Forberede demonstrationsmiljøer (som partner)](/dynamics365/business-central/dev-itpro/administration/demo-environment)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

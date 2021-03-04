@@ -106,3 +106,6 @@ Når der modtages debitorbetaling for salgsfakturaen i [!INCLUDE[prod_short](inc
 [Oversigt over Sales og Salgshub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

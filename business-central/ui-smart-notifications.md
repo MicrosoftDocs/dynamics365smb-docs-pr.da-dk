@@ -40,3 +40,6 @@ Det er kun dig, der kan aktivere eller deaktivere notifikationer og angive betin
 ## <a name="see-also"></a>Se også
 
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

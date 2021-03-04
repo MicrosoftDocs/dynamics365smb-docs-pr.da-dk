@@ -84,3 +84,6 @@ Hvis du vil gennemse bogførte checks, for eksempel for at kontrollere flere che
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

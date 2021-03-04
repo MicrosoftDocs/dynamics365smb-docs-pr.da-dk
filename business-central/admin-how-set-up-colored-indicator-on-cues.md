@@ -64,3 +64,6 @@ Hvis du vil konfigurere indikatoren, kan du angive op til to tærskelværdier, d
     |**Underordnet**|Grå|  
 
 ## <a name="see-also"></a>Se også
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

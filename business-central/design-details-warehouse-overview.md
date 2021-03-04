@@ -79,3 +79,6 @@ For at opnå overensstemmelse med økonomiske begreber køb og salg, henviser [!
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Logistik](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

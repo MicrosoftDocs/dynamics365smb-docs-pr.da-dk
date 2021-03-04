@@ -38,3 +38,6 @@ Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underligg
 ## <a name="see-also"></a>Se også  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

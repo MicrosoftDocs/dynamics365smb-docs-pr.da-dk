@@ -199,3 +199,6 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 [Relationsstyring](marketing-relationship-management.md)  
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

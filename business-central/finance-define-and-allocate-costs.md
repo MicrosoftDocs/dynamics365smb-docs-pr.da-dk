@@ -143,3 +143,6 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
  [Regnskab for omkostninger](finance-manage-cost-accounting.md)   
  [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)   
  [Om omkostningsregnskab](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

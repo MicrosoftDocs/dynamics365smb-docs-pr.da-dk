@@ -42,3 +42,6 @@ Når et regnskabsår er afsluttet, skal du lukke resultatopgørelseskontiene og 
 [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  
 [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

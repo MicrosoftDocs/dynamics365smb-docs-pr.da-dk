@@ -46,3 +46,6 @@ Du kan bruge siden **Generelt Servicebemærkninger** til at registrere bemærkni
   
 ## <a name="see-also"></a>Se også  
 [Oprette et udlånsprogram](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

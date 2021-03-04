@@ -60,3 +60,6 @@ Men værdien af leveringstiden på kreditorkortet bruges kun, hvis der ikke er a
 [Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)   
 [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

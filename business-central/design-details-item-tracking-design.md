@@ -45,3 +45,6 @@ Du kan finde flere oplysninger i [Designoplysninger: Bogføringsstruktur for var
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

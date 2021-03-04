@@ -42,3 +42,6 @@ Før du kan sende og modtage elektroniske dokumenter eller importere og eksporte
 [Udveksle data elektronisk](across-data-exchange.md)  
 [Indgående bilag](across-income-documents.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Efterhånden som antallet af visninger på en side vokser, kan du få brug for y
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

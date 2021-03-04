@@ -295,3 +295,6 @@ Her er nogle eksempler.
 ## <a name="see-also"></a>Se også  
  [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

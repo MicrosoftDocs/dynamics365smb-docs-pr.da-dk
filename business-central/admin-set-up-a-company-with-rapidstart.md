@@ -49,3 +49,6 @@ Du kan bruge følgende komponenter til at sætte skub i opsætningen af din virk
 [Opsætning](admin-setup-and-administration.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

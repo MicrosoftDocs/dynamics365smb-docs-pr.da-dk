@@ -48,3 +48,5 @@ Kodeenhed 22 gentages via varesporingsnumrene og opdeler bogføringen i de respe
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)   
 [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

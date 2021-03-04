@@ -93,3 +93,6 @@ Skrifttyper til andre formål er også tilgængelige i [!INCLUDE[prod_short](inc
 [Fuldførelse af periodeafslutningsprocesser](year-how-complete-period-end-processes.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

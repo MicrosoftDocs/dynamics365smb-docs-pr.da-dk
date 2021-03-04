@@ -87,3 +87,6 @@ Standardkonfigurationspakken understøtter følgende tabeller:
 [Importere flere varebilleder](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

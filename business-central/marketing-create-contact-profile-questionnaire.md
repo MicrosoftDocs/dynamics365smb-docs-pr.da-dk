@@ -158,3 +158,6 @@ Når du tildeler et profilspørgeskema med disse spørgsmål til en kontakt, udf
 
 ## <a name="see-also"></a>Se også
 [Oprettelse af kontakter](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

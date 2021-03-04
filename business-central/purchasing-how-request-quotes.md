@@ -38,3 +38,6 @@ Købsrekvisitionen fjernes fra databasen. En købsfaktura eller indkøbsordre op
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

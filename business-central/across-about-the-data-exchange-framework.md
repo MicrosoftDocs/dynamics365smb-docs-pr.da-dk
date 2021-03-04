@@ -66,3 +66,6 @@ Ved al udveksling af data i XML-filer kan du forberede dataudvekslingsopsætning
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Indgående bilag](across-income-documents.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

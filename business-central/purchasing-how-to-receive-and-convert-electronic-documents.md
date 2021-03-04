@@ -65,3 +65,6 @@ Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] underst√
 [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Udveksle data elektronisk](across-data-exchange.md)   
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

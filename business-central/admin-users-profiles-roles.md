@@ -145,3 +145,6 @@ Til [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø kan du f.
 [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 [Tilpasse sider til profiler](ui-personalization-manage.md)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

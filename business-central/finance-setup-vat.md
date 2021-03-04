@@ -197,3 +197,6 @@ Beløb i de bilag, som endnu ikke er blevet bogført, afrundes og vises, så de 
 [Lokal funktionalitet i Business Central](about-localization.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

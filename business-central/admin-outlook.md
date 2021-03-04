@@ -82,3 +82,6 @@ Tilføjelsesprogrammerne er designet til at blive brugt sammen med Microsoft 365
 [Køb](purchasing-manage-purchasing.md)  
 [Minimumkrav til Outlook](product-requirements.md#outlook)  
 [Bruge tilføjelsesprogrammer i Outlook på internettet](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

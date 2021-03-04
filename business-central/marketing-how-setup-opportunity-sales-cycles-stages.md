@@ -66,3 +66,6 @@ Når du har oprettet en opgave, kan du tildele den til et salgslead og dermed ti
 [Behandling af salgsleads](marketing-processing-sales-opportunities.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

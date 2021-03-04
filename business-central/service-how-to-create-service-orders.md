@@ -110,3 +110,6 @@ Serviceordrer slettes ikke automatisk i programmet, men hvis det samlede antal i
 [Konfigurere Service](service-setup-service.md)  
 [Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md)  
 [Allokere ressourcer](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

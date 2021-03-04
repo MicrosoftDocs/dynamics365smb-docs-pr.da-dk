@@ -76,3 +76,6 @@ Når du har foretaget en markering, skal du indtaste de relevante søgeoplysning
 [Arbejde med Business Central](ui-work-product.md)  
 [Føje en sidehandling til rollecenteret](ui-bookmarks.md)  
 [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

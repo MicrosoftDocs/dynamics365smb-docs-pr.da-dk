@@ -62,3 +62,6 @@ Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] underst�
 [Udveksle data elektronisk](across-data-exchange.md)  
 [Ofte stillede spørgsmål om elektronisk fakturering](faq-electronic-invoicing.yml)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

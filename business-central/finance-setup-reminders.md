@@ -103,3 +103,6 @@ Angiv en af koderne på hvert enkelt kundekort, når du har oprettet rykkerbetin
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Konfiguration af Rentebetingelser](finance-setup-finance-charges.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

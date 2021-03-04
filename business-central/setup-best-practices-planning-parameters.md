@@ -46,3 +46,6 @@ Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
  [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

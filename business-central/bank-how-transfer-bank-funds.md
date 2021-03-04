@@ -58,3 +58,6 @@ Hvis du vil overføre beløb mellem bankkonti, der bruger forskellige valutaer, 
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

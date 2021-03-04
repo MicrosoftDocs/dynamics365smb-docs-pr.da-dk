@@ -40,3 +40,5 @@ Du kan bruge et servicetilbud som foreløbig kladde til en serviceordre og deref
 [Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

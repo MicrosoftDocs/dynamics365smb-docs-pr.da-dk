@@ -62,3 +62,6 @@ Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når
 [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)  
 [Konfigurere Service](service-setup-service.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Ken er nu klar til at tildele kolonneformatet til kontoskemanavnet.
  [Arbejde med kontoskemaer](bi-how-work-account-schedule.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -24,3 +24,6 @@ Denne dokumentation indeholder detaljeret teknisk indsigt i begreber og principp
 [Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)  
 [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
 [Designoplysninger: Tabelstruktur](design-details-table-structure.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

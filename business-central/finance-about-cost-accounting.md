@@ -73,3 +73,6 @@ De fleste rapporter og statistikker er baseret på bogførte omkostningsposter. 
  [Finans](finance.md)   
  [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

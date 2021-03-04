@@ -34,3 +34,6 @@ Feltet **Transaktionstekst** på siden **Betalingsudligningskladde** viser oplys
 ## <a name="see-also"></a>Se også  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Afstemme betalinger ved hjælp af automatisk udligning](../../receivables-how-reconcile-payments-auto-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Følgende tabel viser de felter i [!INCLUDE[prod_short](includes/prod_short.md)]
 [Udveksle data elektronisk](across-data-exchange.md)
 [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)   
 [Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

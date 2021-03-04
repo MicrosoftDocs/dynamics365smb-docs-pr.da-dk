@@ -101,3 +101,6 @@ I tabellen **Omkostningsregister** opretter [!INCLUDE[prod_short](includes/prod_
  [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)   
  [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)   
  [Regnskab for omkostninger](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

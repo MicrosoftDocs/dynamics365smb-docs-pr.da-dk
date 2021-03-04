@@ -191,3 +191,6 @@ Følgende ændringer er implementeret i denne version af [!INCLUDE [navnow_md](i
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Ændringer i Codeunit 12: Kobling af globale variabler for bogføringslinje i finanskladde](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

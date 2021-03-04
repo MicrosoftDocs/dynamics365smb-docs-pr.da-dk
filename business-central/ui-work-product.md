@@ -78,3 +78,6 @@ Her er en kort video om, hvordan du bevæger dig rundt i [!INCLUDE[prod_short](i
 [Tip til ydeevne for erhvervsbrugere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

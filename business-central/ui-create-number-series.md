@@ -87,3 +87,6 @@ Når du derefter opretter noget, der kræver et nummer, kan du bruge de relation
 ## <a name="see-also"></a>Se også
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

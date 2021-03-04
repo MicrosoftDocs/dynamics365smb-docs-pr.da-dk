@@ -41,3 +41,6 @@ Lagerkostmetode, også kendt som "omkostningsstyring", vedrører registrering og
 [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)  
 [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md)  
 [Designoplysninger: Regulering](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

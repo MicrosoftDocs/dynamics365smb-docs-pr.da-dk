@@ -46,3 +46,6 @@ Brugere, der ikke tildeles rettigheder i **Systemobjekt 5330**, kan stadig få a
 ## <a name="see-also"></a>Se også
 
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

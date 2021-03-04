@@ -57,3 +57,6 @@ Du kan manuelt oprette betalingslinjer ved at bruge forfaldsdatoen til at beregn
 [Foretage betaling](payables-make-payments.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

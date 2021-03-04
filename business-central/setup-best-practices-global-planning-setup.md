@@ -35,3 +35,6 @@ Oversigtpanelet **Planlægning** på siden **Produktionsopsætning** indeholder 
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

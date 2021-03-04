@@ -38,3 +38,6 @@ Brug følgende sider til at oprette og analysere omkostningsbudgetter. Vælg iko
 [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)   
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

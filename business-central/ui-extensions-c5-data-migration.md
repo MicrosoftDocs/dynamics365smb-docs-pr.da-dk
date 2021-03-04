@@ -161,3 +161,6 @@ Du kan stoppe overførslen af data ved at vælge **Stop alle overførsler**. Hvi
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Introduktion](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

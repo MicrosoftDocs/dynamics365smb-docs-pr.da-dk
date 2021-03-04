@@ -29,3 +29,6 @@ Du kan sende dokumenter som f.eks. fakturaer som mail ved hjælp af din virksomh
 [Bruge Business Central som din virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få Business Central på min mobilenhed](install-mobile-app.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

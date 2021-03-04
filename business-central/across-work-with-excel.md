@@ -62,3 +62,6 @@ Hvis du foretager ændringer af tilføjelsesprogrammet, skal du genindlæse det 
 [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
 [Arbejde med Business Central](ui-work-product.md)  
 [Forbedringer af Excel-integration i frigivelsesbølge 2 i 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

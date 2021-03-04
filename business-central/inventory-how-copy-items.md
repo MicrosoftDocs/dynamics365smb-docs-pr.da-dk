@@ -39,3 +39,6 @@ Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen **Kopiér
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

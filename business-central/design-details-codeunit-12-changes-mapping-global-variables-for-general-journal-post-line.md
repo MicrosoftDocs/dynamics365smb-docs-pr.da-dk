@@ -110,3 +110,6 @@ Følgende ændringer er implementeret i denne version af [!INCLUDE [navnow_md](i
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger – Codeunit 12-ændringer i procedurer for bogføring af finanskladder](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

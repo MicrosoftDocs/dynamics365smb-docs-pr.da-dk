@@ -46,3 +46,6 @@ Business Central som en cloudbaseret service har også opnået certificeringer s
 [Tjenesteoverholdelse](compliance-service-compliance.md)  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

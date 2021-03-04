@@ -50,3 +50,6 @@ Hvis du har tilføjet et regnskab, men det ikke vises på listen, kan du også b
 [Administrere arbejde på tværs af flere regnskaber i virksomhedshub](company-hub.md)  
 [Tilføj firmaer til virksomhedens hub](company-hub-add-company.md)  
 [Revisoroplevelser i Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

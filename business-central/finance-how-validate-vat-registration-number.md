@@ -49,3 +49,6 @@ Der er et par ting at bemærke om VIES-tjenesten til kontrol af momsnumre:
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  
 [Lokal funktionalitet i Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

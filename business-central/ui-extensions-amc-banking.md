@@ -87,3 +87,6 @@ Brug af denne udvidelse går blot ud på at eksportere data på siden **Udbetali
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Introduktion](product-get-started.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

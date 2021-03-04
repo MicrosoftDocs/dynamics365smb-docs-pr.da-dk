@@ -91,3 +91,6 @@ Du eller administratoren kan også bruge siden **Printervalg** til at angive and
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Afvikle kørsler](ui-how-run-batch-jobs.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

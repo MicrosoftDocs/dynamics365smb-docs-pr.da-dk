@@ -79,3 +79,6 @@ Jo flere produkt- og virksomhedsbogføringsgrupper, du har, jo flere linjer ser 
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

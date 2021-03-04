@@ -79,3 +79,6 @@ Hvis du vil installere Business Central i det lokale miljø, skal du kontrollere
 
 [Introduktion](product-get-started.md)  
 [Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

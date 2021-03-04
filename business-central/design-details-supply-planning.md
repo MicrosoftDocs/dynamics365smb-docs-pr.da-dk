@@ -31,3 +31,6 @@ Det forklarer, hvordan planlægningssystemet fungerer, og hvordan du justerer al
 [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)  
 [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)  
 [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

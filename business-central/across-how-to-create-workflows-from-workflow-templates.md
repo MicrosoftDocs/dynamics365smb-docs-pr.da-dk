@@ -45,3 +45,6 @@ På siden **Workflow** opretter du et workflow ved at angive de involverede trin
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

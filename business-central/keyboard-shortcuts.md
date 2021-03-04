@@ -222,3 +222,6 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.md)  
 [Find poster](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

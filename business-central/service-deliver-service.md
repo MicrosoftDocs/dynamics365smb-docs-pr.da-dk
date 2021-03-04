@@ -46,3 +46,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Planlægning af service](service-plan-service.md)  
 [Opfylde servicekontrakter](service-fulfill-service-contracts.md)  
 [Administrere projekter](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

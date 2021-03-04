@@ -233,3 +233,6 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

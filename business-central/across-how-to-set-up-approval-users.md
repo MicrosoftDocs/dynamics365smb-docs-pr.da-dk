@@ -63,3 +63,6 @@ Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive wor
 [Opsætte workflows](across-set-up-workflows.md)   
 [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Workflow](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

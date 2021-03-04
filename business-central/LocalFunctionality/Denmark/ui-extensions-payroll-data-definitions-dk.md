@@ -31,3 +31,6 @@ Når du har installeret udvidelsen, er det næste trin at angive formatet for l�
 
 ## <a name="see-also"></a>Se også
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

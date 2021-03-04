@@ -47,3 +47,6 @@ Når du har tilføjet dine miljøer, vises virksomhederne automatisk. Men hvis d
 
 [Administrere arbejde på tværs af flere regnskaber i virksomhedshub](company-hub.md)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

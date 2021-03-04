@@ -55,3 +55,6 @@ Derved oprettes en XML-fil, der gemmes på standardplaceringen for hentning på 
  [Konfigurere OIOUBL](how-to-set-up-oioubl.md)   
  [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md)   
  [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

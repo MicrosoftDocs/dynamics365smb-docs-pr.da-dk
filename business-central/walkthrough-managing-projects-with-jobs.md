@@ -489,3 +489,6 @@ Ved at sammenligne priser, sagsopgavelinjer og sagsplanlægningslinjer for de to
  [Overvåge status og udførelse](projects-how-monitor-progress-performance.md)   
  [Fakturere sager](projects-how-invoice-jobs.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

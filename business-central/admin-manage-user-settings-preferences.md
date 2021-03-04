@@ -71,3 +71,6 @@ Administratorer har mulighed for at angive eller ændre disse indstillinger for 
 [Introduktion](product-get-started.md)  
 [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 [Ændre sprog og landestandard](about-locale-language.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

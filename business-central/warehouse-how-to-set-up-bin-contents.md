@@ -66,3 +66,6 @@ I denne kladde kan du arbejde med placeringsindholdslinjer for flere placeringer
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

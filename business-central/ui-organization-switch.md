@@ -48,3 +48,6 @@ Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du hur
 
 [Business Central Administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

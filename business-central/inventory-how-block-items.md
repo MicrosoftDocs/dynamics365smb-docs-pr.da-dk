@@ -48,3 +48,6 @@ Når du bruger funktionen **Kopier fra dokument** til at oprette nye dokumenter,
 ## <a name="see-also"></a>Se også  
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

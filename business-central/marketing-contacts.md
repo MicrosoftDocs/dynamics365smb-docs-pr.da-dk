@@ -37,3 +37,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)  
 [Arbejde med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

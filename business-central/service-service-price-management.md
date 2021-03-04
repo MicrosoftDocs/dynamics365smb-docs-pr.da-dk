@@ -67,3 +67,6 @@ Følgende tabel beskriver beregningerne.
 ## <a name="see-also"></a>Se også  
 [Konfigurere prissætning og ekstra omkostninger for services](service-how-setup-service-costs-pricing.md)  
 [Konfigurere Service](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

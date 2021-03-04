@@ -161,3 +161,6 @@ Når du har fundet en dubleret kontakt, kan du bruge siden **Flet dublet** til a
 [Oprette kontakter](marketing-create-contact-companies.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

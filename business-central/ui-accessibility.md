@@ -81,3 +81,6 @@ Du kan finde flere oplysninger om tilgængelighedsfunktioner i Microsoft-produkt
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Du kan benytte siden **Integrationstabeltilknytninger** for at køre et synkroni
 ## <a name="see-also"></a>Se også  
 [Synkronisering af Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Opsætning af brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

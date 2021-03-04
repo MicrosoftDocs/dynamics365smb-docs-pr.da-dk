@@ -38,3 +38,6 @@ Du kan ikke slette en enkelt post eller flere poster i midten af listen over jou
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)
 [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

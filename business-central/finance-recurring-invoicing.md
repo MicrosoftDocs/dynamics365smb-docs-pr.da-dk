@@ -121,3 +121,6 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvid
 [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md)  
 [Tilbagevendende ordrer (Norge)](LocalFunctionality/Norway/recurring-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

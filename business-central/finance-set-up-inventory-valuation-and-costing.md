@@ -47,3 +47,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Designdetaljer: ændre kostmetoden for varer](design-details-changing-costing-methods.md)  
 [Arbejde med Business Central](ui-work-product.md)  
 [Finans](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

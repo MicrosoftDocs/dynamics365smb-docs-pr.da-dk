@@ -87,3 +87,6 @@ Hvis du normalt køber eller sælger i andre enheder end basisenheden, kan du an
 [Administrere indkøb](purchasing-manage-purchasing.md)  
 [Administrere salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

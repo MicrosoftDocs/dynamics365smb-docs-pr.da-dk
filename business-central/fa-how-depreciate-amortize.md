@@ -112,3 +112,6 @@ De kopierede linjer oprettes enten i anlægskassekladden eller anlægskladden, a
 [Opsætning af anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

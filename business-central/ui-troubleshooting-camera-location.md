@@ -57,3 +57,6 @@ Nogle antivirusprogrammer blokerer som standard for kamera og placering. Husk at
 ## <a name="see-also"></a>Se også
 [Implementering af kameraet i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementering af placeringen i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Når du udsteder en rentenota, viser notaen renterne med flere rentesatser for e
 ## <a name="see-also"></a>Se også  
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Konfigurere Finans](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

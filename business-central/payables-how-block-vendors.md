@@ -37,3 +37,6 @@ Den følgende tabel beskriver indstillingerne for spærring af kreditorer.
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Foretage betaling](payables-make-payments.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

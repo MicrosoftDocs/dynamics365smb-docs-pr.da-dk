@@ -56,3 +56,6 @@ Du kan finde flere oplysninger under [Afstemning mellem behov og forsyning](desi
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
 [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

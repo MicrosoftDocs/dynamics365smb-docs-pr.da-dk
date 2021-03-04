@@ -34,3 +34,6 @@ Brug bogføringsperioder til at angive, hvornår brugerne kan bogføre i finansr
 [Finans](finance.md)  
 [Fuldførelse af periodeafslutningsprocesser](year-how-complete-period-end-processes.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Du kan ikke oprette en faktura uden et debitornummer. Det gælder også, hvis du
 [Registrere nye debitorer](sales-how-register-new-customers.md)    
 [Finans](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ I **Rapportvalget-salg** og **Rapportvalg-køb**-sider kan du f. eks. oprette e-
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
 [Angiv dokumentlayout for debitorer og leverandører](ui-define-customer-vendor-document-layouts.md)  
 [Installation af printere](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -307,3 +307,6 @@ Brug `%myvendors` i kreditorfeltet **Nej** til at vise alle poster for kreditore
 [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.md)  
 [Gemme og tilpasse listevisninger](ui-views.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

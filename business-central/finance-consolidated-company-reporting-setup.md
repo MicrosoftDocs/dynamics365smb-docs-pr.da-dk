@@ -138,3 +138,6 @@ Hvis du kun ejer en del af en virksomhed, kan du medtage en procentdel af hver t
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eksportere forretningsdata til Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

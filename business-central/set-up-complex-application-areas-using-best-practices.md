@@ -35,3 +35,6 @@ Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for a
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

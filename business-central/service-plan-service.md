@@ -41,3 +41,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)  
 [Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)  
 [Konfigurere Service](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

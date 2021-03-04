@@ -61,3 +61,6 @@ Du kan bruge alternative adresser til at holde styr på medarbejdernes opholdsst
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

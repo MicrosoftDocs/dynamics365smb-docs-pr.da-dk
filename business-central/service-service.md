@@ -49,3 +49,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

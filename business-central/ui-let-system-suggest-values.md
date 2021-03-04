@@ -44,3 +44,6 @@ På siden skal du først og fremmest udfylde afkrydsningsfeltet **Betaling foret
 ## <a name="see-also"></a>Se også
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Finans](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

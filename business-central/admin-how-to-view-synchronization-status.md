@@ -55,3 +55,6 @@ Du kan bruge siden **Fejl ved sammenkædet datasynkronisering** til at se status
 ## <a name="see-also"></a>Se også  
 [Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Bruge Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

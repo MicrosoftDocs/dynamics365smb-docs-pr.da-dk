@@ -56,3 +56,6 @@ Felter i oversigtspanelet **Overførsel** på siden **Kreditors bankkontokort** 
 [Konfigurere bogføringsgrupper](finance-posting-groups.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

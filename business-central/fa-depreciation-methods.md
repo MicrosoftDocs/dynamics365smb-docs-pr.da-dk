@@ -357,3 +357,6 @@ Når du indtaster en post i B1 i anlægskassekladden og markerer afkrydsningsfel
 [Finans](finance.md)  
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

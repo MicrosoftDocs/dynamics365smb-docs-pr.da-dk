@@ -44,3 +44,6 @@ Siderne **Varesporingslinjer** og **Varesporingsoversigt** indeholder dynamiske 
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Varesporing](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

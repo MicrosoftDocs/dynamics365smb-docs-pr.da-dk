@@ -28,3 +28,5 @@ I [!INCLUDE[prod_short](includes/prod_short.md)]-bogføringens grænsefladestruk
   
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

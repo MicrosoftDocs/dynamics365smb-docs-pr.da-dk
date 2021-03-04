@@ -27,3 +27,6 @@ Du kan finde flere oplysninger i [Kryptere data i Dynamics 365 Business Central]
 
 ## <a name="see-also"></a>Se også  
 [Opsætning](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -163,3 +163,6 @@ Felterne under **Avanceret** angiver begrænsninger for den genererede rapport t
 [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md)  
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

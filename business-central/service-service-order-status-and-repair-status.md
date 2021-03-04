@@ -94,3 +94,6 @@ Hvis én serviceartikel f.eks. har reparationsstatus **Ingen tidl. serv.** tilkn
 
 [Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)  
 [Konfigurere Service](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -197,3 +197,6 @@ Virksomhedens kundedatabase er nu indstillet, og grundlæggende data er nu impor
 ## <a name="see-also"></a>Se også  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

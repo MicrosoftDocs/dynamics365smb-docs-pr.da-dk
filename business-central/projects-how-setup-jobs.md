@@ -122,3 +122,6 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

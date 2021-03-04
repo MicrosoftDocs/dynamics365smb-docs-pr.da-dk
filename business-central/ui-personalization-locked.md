@@ -59,3 +59,6 @@ Det skyldes, at det rollecenter eller den rolle, der aktuelt er knyttet til brug
 [Tilpasse sider til profiler](ui-personalization-manage.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

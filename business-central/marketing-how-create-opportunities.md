@@ -46,3 +46,6 @@ Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan fi
 [Salg](sales-manage-sales.md)  
 [Oprette og administrere kontakter](marketing-contacts.md)  
 [Arbejde med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

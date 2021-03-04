@@ -53,3 +53,6 @@ Gentag trin 1 til 3 for eventuelle andre berørte dokumenter, f.eks. rammekøbso
 [Køb](purchasing-manage-purchasing.md)  
 [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

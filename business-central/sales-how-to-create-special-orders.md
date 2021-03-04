@@ -49,3 +49,6 @@ En indkøbsordre, der er oprettet som en specialordre for en salgsordre, respekt
 [Foretage direkte leveringer](sales-how-drop-shipment.md)   
 [Designoplysninger: Genbestillingsmetoder](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

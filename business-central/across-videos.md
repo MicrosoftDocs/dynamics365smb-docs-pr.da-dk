@@ -32,3 +32,6 @@ Du kan også få vist vores "Sådan gør du"-videoer samt meget andet indhold p�
 
 [Introduktion](product-get-started.md)  
 [Dynamics 365-kanal på YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

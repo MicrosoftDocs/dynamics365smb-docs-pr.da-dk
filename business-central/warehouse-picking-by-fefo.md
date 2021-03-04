@@ -49,3 +49,6 @@ Hvis feltet **Nøje bogføring af udløbsdato** er markeret, er det kun varer, d
 [Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

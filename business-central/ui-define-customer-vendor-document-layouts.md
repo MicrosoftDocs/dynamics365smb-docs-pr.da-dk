@@ -62,3 +62,6 @@ Kontaktpersonens e-mail-adresse indsættes nu på dokumentlayoutlinjen, så det 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  
 [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

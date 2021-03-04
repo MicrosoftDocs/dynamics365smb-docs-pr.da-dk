@@ -98,3 +98,6 @@ Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab 
 [Introduktion til docs.microsoft.com (oprindeligt blogindlæg)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

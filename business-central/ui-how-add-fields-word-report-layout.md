@@ -123,3 +123,6 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
   
 ## <a name="see-also"></a>Se også  
  [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

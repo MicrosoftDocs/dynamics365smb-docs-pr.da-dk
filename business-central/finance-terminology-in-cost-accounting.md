@@ -51,3 +51,6 @@ Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.
  [Om omkostningsregnskab](finance-about-cost-accounting.md)   
  [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

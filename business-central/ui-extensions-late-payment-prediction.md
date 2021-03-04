@@ -111,3 +111,6 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 [Dokumentation til Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)  
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

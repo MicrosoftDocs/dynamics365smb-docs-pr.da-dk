@@ -67,3 +67,6 @@ Når du ændrer layoutet, kan du prøve at opdatere layoutet igen.
 ## <a name="see-also"></a>Se også  
  [Administration af rapportlayout](ui-manage-report-layouts.md)  
  [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

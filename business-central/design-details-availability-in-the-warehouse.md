@@ -77,3 +77,6 @@ Hvis en eller flere af betingelserne ikke er opfyldt, kan der vises forskellige 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Logistik](design-details-warehouse-management.md)  
  [Vise varedisponering](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,5 @@ Bogføringsgrænsefladen og visse andre funktioner i codeunit 12 bruger bogføri
   
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

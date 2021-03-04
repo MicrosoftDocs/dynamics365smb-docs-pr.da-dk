@@ -58,3 +58,6 @@ Hvis du ikke angiver specifikke serviceåbningstider for servicekontrakten, anve
 [Om allokeringsstatus og reparationsstatus](service-allocation-status-and-repair-status.md)  
 [Konfigurere Service](service-setup-service.md)  
 [Om serviceordre- og reparationsstatus](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

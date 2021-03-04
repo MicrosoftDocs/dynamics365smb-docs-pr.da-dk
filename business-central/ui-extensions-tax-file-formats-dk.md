@@ -26,3 +26,6 @@ Udvidelsen er gratis, du skal blot installere den.
 
 ## <a name="see-also"></a>Se også
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

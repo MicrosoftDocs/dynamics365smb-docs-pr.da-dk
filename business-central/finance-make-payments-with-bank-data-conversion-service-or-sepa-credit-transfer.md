@@ -158,3 +158,6 @@ Når elektronisk betaling er behandlet af banken, kan du bogføre betalingerne. 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

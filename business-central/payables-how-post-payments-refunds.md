@@ -57,3 +57,6 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Vi har vist Fortæl mig til en række interessenter, noteret de spørgsmål, de 
 ## <a name="see-also"></a>Se også
 [Arbejde med Business Central](ui-work-product.md)  
 [Føje en sidehandling til rollecenteret](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

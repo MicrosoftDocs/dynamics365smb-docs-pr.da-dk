@@ -59,3 +59,6 @@ Siden **Finansposter** åbnes, og du kan se de poster, som bogføringen af salge
 [Introduktion](product-get-started.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Find poster](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

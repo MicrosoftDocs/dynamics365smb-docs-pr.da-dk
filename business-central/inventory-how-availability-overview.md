@@ -129,3 +129,6 @@ Hvis en eller flere montagekomponenter ikke er tilgængelig, afspejles dette i f
 [Sælge produkter](sales-how-sell-products.md)      
 [Arbejde med Business Central](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

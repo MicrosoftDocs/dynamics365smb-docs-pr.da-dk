@@ -92,3 +92,6 @@ Visse udvidelser er påkrævet. Du kan ikke fjerne disse fra siden **Udvidelsess
 [Introduktion](product-get-started.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

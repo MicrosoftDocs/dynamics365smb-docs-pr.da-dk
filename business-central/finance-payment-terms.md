@@ -47,3 +47,6 @@ Efter du har angivet betalingsbetingelserne, kan du tildele dem til debitorer og
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

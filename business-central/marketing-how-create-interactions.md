@@ -54,3 +54,6 @@ Hvis du har markeret afkrydsningsfeltet **Opret opfølgningsmålgruppe**, oprett
 [Administrere kontakter](marketing-contacts.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Arbejde med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

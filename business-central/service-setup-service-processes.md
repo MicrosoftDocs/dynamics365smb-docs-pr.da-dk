@@ -37,3 +37,6 @@ Følgende er nogle eksempler på de indstillinger, du kan anvende på Service-pr
 [Konfigurere ekstra omkostninger for tjenester](service-how-setup-service-costs-pricing.md)  
 [Konfigurere fejlfinding](service-how-setup-troubleshooting.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

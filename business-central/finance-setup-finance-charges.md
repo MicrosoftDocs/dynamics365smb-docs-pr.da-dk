@@ -73,3 +73,6 @@ Hver kode i tabellen Rentebetingelser er desuden kædet sammen med en undertabel
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

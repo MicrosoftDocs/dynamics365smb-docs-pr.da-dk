@@ -40,3 +40,6 @@ Siden **Arkiverede workflowtrininstanser** åbnes og viser alle arkiverede workf
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
