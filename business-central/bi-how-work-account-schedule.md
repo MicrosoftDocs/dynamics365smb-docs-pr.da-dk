@@ -3,21 +3,21 @@ title: Oprette finansrapporter ved hjælp af kontoskemaer
 description: Beskriver, hvordan du kan bruge kontoskemaer til at oprette forskellige visninger og rapporter til analyse af data for finansiel ydeevne.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 58bc5001400a1a6ed03f5780a71b2f1ab96c43bc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 584a3aa295ab3ec59a6f6a1e34017d0f9a67bc5c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752151"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389220"
 ---
-# <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Forberede finansrapporter med kontoskemaer og kontokategorier
+# <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Forberede Financial Reporting med kontoskemaer og kontokategorier
 
 Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Kontoskemaer analyserer tal i finanskonti og sammenligner finansposter med finansbudgetposter. Resultaterne vises i diagrammer på rollecenteret, f.eks. tabellen Likviditet, og i rapporter, f.eks. resultatopgørelsen og balancerapporterne.
 

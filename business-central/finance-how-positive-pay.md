@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8856ee09ae728d685d3f57786abc29d9aca93778
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: bf57ec93a7c238ecdfe177f77fc85d2ff8249994
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750851"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390621"
 ---
 # <a name="export-a-positive-pay-file"></a>Eksportere en Positive Pay-fil
 Du kan sikre dig, at din bank kun afregner validerede checks og beløb, ved at eksportere en Positive Pay-fil, der indeholder relevante betalingsoplysninger, checknummer og betalingsbeløb, som du sender til banken som reference, når du behandler betalinger.

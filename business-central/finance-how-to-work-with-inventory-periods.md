@@ -3,19 +3,19 @@ title: Sådan arbejder du med lagerperioder | Microsoft Docs
 description: Du kan styre den tidsramme, hvor brugere kan bogføre ændringer af lageret ved at definere lagerperioder.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca5104a8d4268c9f4822e98150a3e969c6c66d48
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a2419cba4ff67d1857c1e1ec971a607f4fd355
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924149"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389795"
 ---
 # <a name="work-with-inventory-periods"></a>Arbejde med lagerperioder
 Lagerperioder definerer en tidsperiode, hvor du kan bogføre ændringer i lageret. En lagerperiode er defineret af periodens slutdato. Når du lukker en lagerperiode kan du ikke bogføre ændringer af lageret, hverken forventede eller fakturerede, før denne slutdato. Desuden kan du ikke bogføre nye værdier til lageret før denne slutdato. Hvis der er åbne poster i den lukkede periode, dvs. positive antal, der endnu ikke er blevet udlignet med udgående transaktioner, kan du stadig udligne udgående antal med disse poster, selvom perioden er lukket.  

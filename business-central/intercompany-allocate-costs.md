@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4c83569cf8aaa53e733754f05704d8b258d8dc50
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0ebed6a95212fdcf00b54af823684ae139e29638
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750201"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388470"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allokere omkostninger til IC-partnere
 Når du bruger Intercompany-bogføringer til at overføre dokumenter mellem partner firmaer, har momsrelaterede indstillinger (primært den momsvirksomhedsbogføringsgruppe), der er tildelt debitor-eller kreditorkontiene (associeret med IC-partneren), at bestemme, om og hvordan moms skal beregnes og registreres. Du kan også foretage omkostningsfordelinger direkte fra en købsordre til partnervirksomheder. Hvis du f. eks. registrerer en købsfaktura fra en ekstern leverandør, og du vil distribuere nogle eller alle omkostninger til en eller flere IC-partnere.

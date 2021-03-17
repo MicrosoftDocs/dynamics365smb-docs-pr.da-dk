@@ -3,19 +3,19 @@ title: Plukke varer | Microsoft Docs
 description: Lageraktiviteten plukning af varer, før de afsendes eller forbruges kan udføres på forskellige måder, afhængigt af hvordan lagerfunktionerne er konfigureret. Opsætningens detaljeringsgrad kan variere fra ingen lagerfunktioner over grundlæggende lageropsætninger for ordre-for-ordre-håndtering i kun en eller flere aktiviteter til avancerede konfigurationer, hvor alle lageraktiviteter skal udføres i en styret arbejdsgang.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b9e4bf86ec68ad06a22c0a9dcca37eecffb0316b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 45bc4c666abe150b2269f16ca6e433393b2ac2df
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755788"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382250"
 ---
 # <a name="pick-items"></a>Plukke varer
 

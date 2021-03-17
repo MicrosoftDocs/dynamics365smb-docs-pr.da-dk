@@ -3,19 +3,19 @@ title: Om beregning af standardkostpris | Microsoft Docs
 description: Et system til standardkostpriser bestemmer lagerkostprisen på basis af nogle rimelige historiske eller forventede omkostninger. Undersøgelser af tidligere og fremtidige omkostningsdata kan derefter danne grundlag for standardkostpriser.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 167f99d7a7a0df7727e8c50df376b847e5dfefcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917198"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376626"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning af standardomkostning
 Mange produktionsvirksomheder vælger en værdiansættelse for standardkostpriser. Dette gælder også for virksomheder, der udfører let produktion som montage og kitting. Et system til standardkostpriser bestemmer lagerkostprisen på basis af nogle rimelige historiske eller forventede omkostninger. Undersøgelser af tidligere og fremtidige omkostningsdata kan derefter danne grundlag for standardkostpriser. Standardkostpriserne er fastfrosne, indtil der træffes en beslutning om, at de skal ændres. De faktiske omkostninger til at fremstille et produkt kan afvige fra de forventede standardomkostninger. Af hensyn til styringen sammenlignes den faktiske kostpris med standardkostprisen for en bestemt vare, og forskellene, eller *afvigelser*, identificeres og analyseres.  

@@ -3,19 +3,19 @@ title: Gemme og tilpasse listevisninger | Microsoft Docs
 description: Få at vide, hvordan du kan oprette dine egne visninger af filtrerede lister.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37fa84f9d0bb97f7e2b6fe94cc6180ef3eb83689
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 04a7040f23304408fb30d65590663de43d447cd4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024483"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392420"
 ---
 # <a name="save-and-personalize-list-views"></a>Gemme og tilpasse listevisninger
 Når du har indstillet et filter på en liste, og du vil beholde filteret til senere brug, kan du gemme det som en visning. Du kan finde flere oplysninger om filtrering af lister i [Indstille filtre på lister](ui-enter-criteria-filters.md#setting-filters-on-lists).

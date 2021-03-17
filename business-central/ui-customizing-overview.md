@@ -4,19 +4,19 @@ description: Få mere at vide om tilpasning af Business Central og tilføjelse a
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ec80608757a8865cdea62af54ceda855e673942a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 38022164846c9463a91179a6d71b9ebb8e4bd2a2
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747639"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385920"
 ---
 # <a name="customize-business-central"></a>Tilpasse Business Central
 Der er forskellige måder at tilpasse programmet på, der giver dig og dine kolleger adgang til de funktioner, den funktionalitet og de data, I har mest brug for, og på en måde, der passer bedst til det daglige arbejde. Hvem der ser ændringerne, afhænger af hvad du gør, som beskrevet i denne tabel.

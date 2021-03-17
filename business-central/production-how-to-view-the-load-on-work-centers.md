@@ -3,19 +3,19 @@ title: Sådan vises belastning på arbejdscentre og produktionsressourcer | Micr
 description: Fra **arbejdscenterkortet** kan du få vist belastningen på arbejdscentrene som følge af frigivne produktionsordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 54b32e4befaf510c1c0d1714e580d4e7939be8a5
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 139ef613a1931d551fea9b7454c7d1f8c141e1e0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758888"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383271"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Vise belastningen på arbejdscentre og produktionsressourcer
 På siderne **Arbejdscenterkort** og **Prod.ress.kort** kan du få vist arbejdspladsbelastningen som følge af planlagte og frigivne produktionsordrer.    

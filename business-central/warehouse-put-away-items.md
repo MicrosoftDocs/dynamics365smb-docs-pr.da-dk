@@ -3,19 +3,19 @@ title: Lægge varer på lager | Microsoft Docs
 description: Den lageraktivitet, der omfatter at lægge varer på lager, efter at de er modtaget eller udlagret, udføres på forskellige måder, afhængigt af hvordan logistikfunktionerne er konfigureret.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fbd192b5999d566271163c9653c3bcdfe0dbba1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 095c53e915a2613d06282809eb83f0601b5a368c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755763"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382175"
 ---
 # <a name="putting-items-away"></a>Lægge varer på lager
 Den lageraktivitet, der omfatter at lægge varer på lager, efter at de er modtaget eller udlagret, udføres på forskellige måder, afhængigt af hvordan logistikfunktionerne er konfigureret. Detaljeringsgraden kan variere fra ingen lagerfunktioner over grundlæggende lageropsætninger for ordre-for-ordre-håndtering i kun en eller flere aktiviteter til avancerede konfigurationer, hvor alle lageraktiviteter skal udføres i en styret arbejdsgang. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).

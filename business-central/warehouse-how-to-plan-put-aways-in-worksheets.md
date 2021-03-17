@@ -3,19 +3,19 @@ title: Sådan planlægges læg-på-lager-aktiviteter i kladder | Microsoft Docs
 description: Hvis lokationen kræver både læg-på-lager og modtagelse, og du vil planlægge læg-på-lager-instruktioner til en række modtagelser – i stedet for at lade medarbejderne følge de instruktioner, der automatisk oprettes til separate bogførte modtagelser – kan du bruge læg-på-lager-kladden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b6837c9acec83654c7d85e98e93c00e30e50eb1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1cf1a782a0c36e3f87935c8b2b965deb4ad04e9a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759738"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383646"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlægge læg-på-lager-aktiviteter i kladder
 Hvis lokationen kræver både læg-på-lager og modtagelse, og du vil planlægge læg-på-lager-instruktioner til en række modtagelser – i stedet for at lade medarbejderne følge de instruktioner, der automatisk oprettes til separate bogførte modtagelser – kan du bruge læg-på-lager-kladden.  

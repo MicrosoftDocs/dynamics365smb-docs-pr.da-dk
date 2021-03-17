@@ -3,19 +3,19 @@ title: Betalingsudligning med Envestnet Yodlee Bank Feeds-udvidelsen
 description: Beskriver udvidelsen Envestnet Yodlee Bank Feeds, der sammenkæder med bankkonti, så du hurtigt kan afstemme betalinger.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d8a04218e44c4a40d96f5e84677434c51f6ef5f3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 946958669f4554869e171286927bf498fe62a7ed
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757388"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5394020"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Udvidelsen Envestnet Yodlee Bank Feeds
 

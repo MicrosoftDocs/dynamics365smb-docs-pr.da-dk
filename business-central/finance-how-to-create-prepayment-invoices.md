@@ -3,19 +3,19 @@ title: Sådan opretter du forudbetalingsfakturaer | Microsoft Docs
 description: Få at vide, hvordan du håndterer situationer, hvor du eller din leverandør kræver forudbetaling.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5f227cc73531111ae15f69d6fba5ac541e28560c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 3a1f79f089ef8633ca51be35930c5de5c2401b29
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746862"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387395"
 ---
 # <a name="create-prepayment-invoices"></a>Oprette forudbetalingsfakturaer
 

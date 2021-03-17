@@ -3,19 +3,19 @@ title: Tilgængelige skrifttyper
 description: Onlineversionen af Business Central indeholder forudinstallerede skrifttyper på de servere, der kan bruges ved generering af rapporter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: 534e0d7c86dd49b9790cd7f8d5d644b56e8b28d4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756963"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493250"
 ---
 # <a name="available-fonts"></a>Tilgængelige skrifttyper
 
@@ -26,7 +26,7 @@ Onlineversionen af [!INCLUDE[prod_short](includes/prod_short.md)] indeholder for
 
 ## <a name="document-fonts"></a>Dokumentskrifttyper
 
-Følgende skrifttyper er installeret og tilgængelige til brug i Word og RDLC-dokumentrapporter:
+Følgende skrifttyper er installeret og tilgængelige til brug i både Word og RDLC-dokumentrapporter:
 
 * Arial
 * Consolas
@@ -46,6 +46,17 @@ MICR-skrifttyper (Magnetic Ink Character Recognition) er installeret og klar til
 Ud over MICR-skrifttyper er særlige sikkerhedsskrifttyper tilgængelige, så du kan oprette tekst, navne, beløb og valutasymbolerne dollar, euro, pund og yen, som er svære at ændre, når en check først er udskrevet.  
 
 Du kan finde flere oplysninger under [Vælge et checklayout](finance-how-define-check-layouts.md).  
+
+## <a name="fonts-for-barcodes"></a>Skrifttyper til stregkoder
+De skrifttyper, der bruges til at oprette endimensionelle stregkoder, er installeret og tilgængelige til brug i både Word-og RDLC-rapportlayout.
+
+Følgende stregkode-symbologier understøttes:
+* Kode 3 af 9 (kode 39)
+* Kode 128
+* Kode 93
+* Codabar
+* MSI
+* Interleaved 2 af 5
 
 ## <a name="see-also"></a>Se også
 

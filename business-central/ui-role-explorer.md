@@ -3,19 +3,19 @@ title: Udforske og navigere på sider pr. rolle | Microsoft Docs
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756689"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470308"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Søge efter sider med Rollestifinder
 Du kan få vist en oversigt over alle de forretningsfunktioner, der er tilgængelige for din rolle, og for andre roller, hvis du går et trin videre. I følgende dokumentation henvises der til denne funktionsoversigt som *Rollestifinder*.
@@ -39,7 +39,9 @@ De handlinger, der åbner sider, er organiseret under noder, der er navngivet ef
 
 - Hvis du vil udvide/skjule en node, skal du vælge noden. Dette gælder for noder på øverste niveau og underordnede noder.
 - Hvis du vil udvide/skjule alle noder på øverste niveau på siden, skal du vælge handlingen **Vis** eller **Skjul** i øverste højre hjørne.
-- Hvis du vil udvide/skjule en node på øverste niveau og alle underordnede noder, skal du trykke på Ctrl+Skift, mens du vælger handlingen **Vis** eller **Skjul** i øverste højre hjørne.
+- Benyt en af følgende fremgangsmåder for at udvide/minimere alle noder på øverste niveau og alle underordnede noder under den:
+    - Tryk på Ctrl + Skift-tasterne, mens du vælger handlingen **Udvid** eller **Skjul** i øverste højre hjørne.
+    - Vælg **...** i øverste højre hjørne, og vælg derefter handlingen **Udvid alle** eller **Skjul alle**.
 
 ## <a name="see-also"></a>Se også
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  

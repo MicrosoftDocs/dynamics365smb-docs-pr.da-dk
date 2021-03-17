@@ -3,19 +3,19 @@ title: Oprette brugere ifølge licenser | Microsoft Docs
 description: Beskriver, hvordan brugere føjes til Business Central online eller on-premises baseret på licenser.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 217b658e6a4c54996d3f0e9cfa7470f02908b380
-ms.sourcegitcommit: 5d5451ee618f122c926e3189290f3765052f7077
+ms.openlocfilehash: cc6a32653d443d45a8cb037be275ff84e449ca02
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "4846336"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573347"
 ---
 # <a name="create-users-according-to-licenses"></a>Oprette brugere i henhold til licenser
 
@@ -106,7 +106,7 @@ Brugere med enhedslicensen kan ikke udføre følgende opgaver i [!INCLUDE[prod_s
 
 1. Gå til siden **Grupper** i Microsoft 365 Administration.
 2. Vælg handlingen **Tilføj en gruppe**.
-3. Gå til siden **Vælg en gruppetype**, vælg handlingen **Sikkerhed**, og vælg derefter handlingen **Tilføj**.
+3. Gå til siden **Vælg en gruppetype**, vælg muligheden **Sikkerhed**, og vælg derefter handlingen **Tilføj**.
 4. På siden **Grundlæggende** skal du angive **Dynamics 365 Business Central-enhedsbrugere** som navnet på gruppen.
   
    >[!NOTE]

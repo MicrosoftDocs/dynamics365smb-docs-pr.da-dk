@@ -3,17 +3,17 @@ title: Sende lovgivningsmæssige påmindelser | Microsoft Docs
 description: Hvis du kender til ny lovgivning, som du mener kræver understøttelse af funktioner i Business Central, kan du følge denne vejledning for at sende en lovgivningsmæssig påmindelse til produktgruppen.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817252"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380352"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende påmindelser om lande-/områdespecifikke lovgivningsmæssige funktioner
 
@@ -52,7 +52,7 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
         |Beskrivelse  | Angiv en kort oversigt over lovgivningen. Beskrivelsen skal fokusere på problemer, der er relevante for ERP (enterprise resource planning), så brugere kan forstå kravene på højt niveau uden at skulle læse lovgivning først.|
         |Land/område  | Angiv det land eller område, som lovgivningen vedrører.|
         |Branche| Angiv branchen, hvis kravet gælder kun for bestemte brancher. F.eks. vælg **Offentlig sektor**, **Detail** eller **Produktion**.|
-        |Funktionsreference  | Dette er ikke relevant for Dynamics 365 Business Central, men du kan angive en reference til funktionen, hvis du kender til den. Oversigten over funktioner for bestemte lande findes på [Lokaliseringsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) på CustomerSource-webstedet. |
+        |Funktionsreference  | Dette er ikke relevant for Dynamics 365 Business Central, men du kan angive en reference til funktionen, hvis du kender til den. Oversigten over funktioner for bestemte lande findes på [Lokaliseringsportal](https://docs.microsoft.com/dynamics/s-e/) på CustomerSource-webstedet. |
         |Dato for retshåndhævelse  | Angiv den dato, hvor de berørte kunder skal begynde at overholde lovgivningen.|
         |Myndighedernes offentliggørelsesdato  | Angiv den dato, hvor myndighederne offentliggjorde ændringen.|
         |Seneste arkiveringsdato  | Vælg datoen for den første indsendelse af den nye eller ændrede rapport.|

@@ -3,28 +3,28 @@ title: Installation af udvidelser til tilpasning af Business Central
 description: Få mere at vide om tilføjelse af funktioner og tilpasning af Business Central ved at installere udvidelser.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2020
+ms.date: 03/02/2021
 ms.author: edupont
-ms.openlocfilehash: fa72fad5899fab4830bf6c0956eaf99b6c773a53
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757013"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493274"
 ---
-# <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central ved brug af udvidelser
+# <a name="customizing-business-central-online-using-extensions"></a>Tilpasse Business Central Online ved brug af udvidelser
 
-Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.
+Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] online ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.
 
 > [!NOTE]
-> Hvis du vil installere udvidelser fra AppSource eller tilføje udvidelser pr. lejer, skal du have de rigtige rettigheder. Du skal enten være medlem af brugergruppen D365 EXTENSION MGMT, eller du skal have rettighedssættet D365 EXTENSION MGMT. Hvis du er administrator, kan du tildele brugergrupper og rettigheder til andre brugere i virksomheden.
+> Hvis du vil installere udvidelser fra AppSource eller tilføje udvidelser pr. lejer, skal du have de rigtige rettigheder. Du skal enten være medlem af brugergruppen D365 EXTENSION MGT, eller du skal have rettighedssættet D365 EXTENSION MGT. Hvis du er administrator, kan du tildele brugergrupper og rettigheder til andre brugere i virksomheden.
 
 Hvis du vil bruge de funktioner, der findes i en udvidelse, f. eks. åbne sider, køre rapporter, vælge handlinger osv., skal du være tildelt de rettighedssæt, der er installeret som en del af udvidelsen.
 
 > [!IMPORTANT]  
-> Overførsel af udvidelser pr. lejer og installation af AppSource-udvidelser understøttes ikke via siden **Udvidelsesstyring** til lokale installationer.
+> Overførsel af udvidelser pr. lejer og installation af AppSource-udvidelser understøttes ikke via siden **Udvidelsesstyring** til lokale installationer. Du kan ikke installere AppSource-lokalnumre, herunder i Docker-baserede installationer.
 
 Når du starter [!INCLUDE[prod_short](includes/prod_short.md)] første gang, er der allerede installeret nogle udvidelser for dig. Med tiden gøres flere udvidelser tilgængelige for dig, og du kan derefter vælge, om du vil bruge udvidelsen eller ej.
 
@@ -37,7 +37,7 @@ Du kan administrere udvidelserne på siden **Udvidelsesstyring**. Du kan åbne s
 > Hvis du mener, at du skal have adgang til en udvidelse, men ikke kan finde de relevante funktioner, skal du vælge siden **Udvidelsesstyring** – hvis filtypen ikke er angivet der, kan du installere den som beskrevet i følgende afsnit.  
 
 > [!NOTE]  
-> Log på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved hjælp af den mailkonto, du bruger til [!INCLUDE[prod_short](includes/prod_short.md)]. Brug den samme mailkonto til andre tjenester og produkter for at opnå en ensartet oplevelse.  
+> Log på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved hjælp af den mailkonto, du bruger til [!INCLUDE[prod_short](includes/prod_short.md)] online. Brug den samme mailkonto til andre tjenester og produkter for at opnå en ensartet oplevelse.  
 
 Du kan også få adgang til markedspladsen i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Udvidelsesstyring** kan du se de udvidelser, der er installeret, og du kan åbne siden **Markedsplads for udvidelse** for at se de udvidelser til [!INCLUDE[prod_short](includes/prod_short.md)], der er tilgængelige i AppSource. Hvis du vælger linket *Flere apps*, åbnes [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
@@ -77,7 +77,7 @@ Microsoft tilbyder følgende udvidelser:
 * [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
-> Der findes ingen nye udvidelser i AppSource umiddelbart efter, at vi har oplyst om en opdatering. Du kan holde øje med udvidelser på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+> Du kan holde øje med nye udvidelser fra Microsoft og andre leverandører på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 ## <a name="see-also"></a>Se også
 

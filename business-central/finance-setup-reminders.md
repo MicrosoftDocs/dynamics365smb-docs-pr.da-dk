@@ -3,19 +3,19 @@ title: Konfiguration af rykkerbetingelser og -niveauer
 description: Få mere at vide om, hvordan du konfigurere Business Central, så du kan sende en påmindelse til kunden om en betaling, der er forfalden, og lægger gebyrer til betalingen på grund af forsinkelsen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 1bef0a7598846f0ea3fe74b03bbef70bb5c940ef
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 2d8e233fb1796515314c954d883bda7302fdcd9b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035377"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377033"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Konfiguration af rykkerbetingelser og -niveauer
 

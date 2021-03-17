@@ -3,19 +3,19 @@ title: Designoplysninger – Opsætning af lager | Microsoft Docs
 description: Lagerfunktioner i Business Central indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32c3fedfbeea37a1be315d737ac9fe41b5c7c20a
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: b668c21313f09323ec3b367eef59bcc5353320c5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035427"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380602"
 ---
 # <a name="design-details-warehouse-setup"></a>Designoplysninger: Opsætning af lager
 

@@ -4,19 +4,19 @@ description: Få mere at vide, hvad niveauerne Essential og Premium i brugerople
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 354791b9a1bafb07bc1e16530dc1d07c16d1e49d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9e53ef4e33d489de7ff92e537b01b8563e62ba77
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747614"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379629"
 ---
 # <a name="change-which-features-are-displayed"></a>Ændre, hvilke funktioner der vises
 [!INCLUDE[prod_short](includes/prod_short.md)] er designet til at hjælpe dig med at køre din virksomhed uanset størrelse og kompleksitet. I kernen af produktet finder du væsentlige funktioner som f.eks. finansiel rapportering, salg, køb og lagerstyring. I takt med at kompleksiteten øges, kan du f.eks. aktivere funktionen til produktions- og servicestyring.

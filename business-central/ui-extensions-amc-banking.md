@@ -3,19 +3,19 @@ title: Brug af udvidelsen AMC Banking 365 Fundamentals | Microsoft Docs
 description: Du kan let udveksle data med dine banker ved at konvertere dataene til det format, de skal bruge.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a2147240aac15b805a6f64473b5eb2febb38deac
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 19331b3897c6ca0ec848298a105729ecda1d3a87
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757563"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377008"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Brug af AMC Banking 365 Fundamentals-udvidelsen
 AMC Banking 365 Fundamentals-udvidelsen gør det nemmere og mere nøjagtigt at sende data til dine banker. Udvidelsen forbinder [!INCLUDE[prod_short](includes/prod_short.md)] med AMC Banking 365 Fundamentals til Microsoft Dynamics 365 Business Central-tjenesten, som kan konvertere bankdata [!INCLUDE[prod_short](includes/prod_short.md)] til formater, der kræves af mere end 600 banker verden over. Det gør det f.eks. nemmere at overføre betalinger og kreditter til kreditorer ved at angive betalingerne i [!INCLUDE[prod_short](includes/prod_short.md)] og derefter overføre dem til din bank. Formaterne kan også forenkle bankafstemningsprocesser. Du kan finde flere oplysninger i [AMC Banking til Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help).

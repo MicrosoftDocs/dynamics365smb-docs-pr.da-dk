@@ -4,27 +4,28 @@ description: Få mere at vide om at installere og fjerne udvidelser i Business C
 documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: bcd7a60f9e8fd6739a3d09f5aa1b3e6819e3ccc3
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e0bb0f88fd9b8dd4c4bcf853447009e0b898fd7a
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757539"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493299"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installere og fjerne udvidelser i Business Central
 
 Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester. Du kan finde flere oplysninger under [Tilpasse Business Central ved hjælp af udvidelser](ui-extensions.md).
 
 > [!NOTE]
-> Hvis du vil installere udvidelser fra AppSource eller tilføje udvidelser pr. lejer, skal du have de rigtige rettigheder. Du skal enten være medlem af brugergruppen D365 EXTENSION MGMT, eller du skal have rettighedssættet D365 EXTENSION MGMT. Hvis du er administrator, kan du tildele brugergrupper og rettigheder til andre brugere i virksomheden.<br /><br />
-Hvis du vil bruge de funktioner, der findes i en udvidelse, f. eks. åbne sider, køre rapporter, vælge handlinger osv., skal du være tildelt de rettighedssæt, der er installeret som en del af udvidelsen.
+> Hvis du vil installere udvidelser fra AppSource eller tilføje udvidelser pr. lejer, skal du have de rigtige rettigheder. Du skal enten være medlem af brugergruppen D365 EXTENSION MGT, eller du skal have rettighedssættet D365 EXTENSION MGT. Hvis du er administrator, kan du tildele brugergrupper og rettigheder til andre brugere i virksomheden.
+>
+> Hvis du vil bruge de funktioner, der findes i en udvidelse, f. eks. åbne sider, køre rapporter, vælge handlinger osv., skal du være tildelt de rettighedssæt, der er installeret som en del af udvidelsen.
 
 ## <a name="installing-an-extension"></a>Installation af en udvidelse
 

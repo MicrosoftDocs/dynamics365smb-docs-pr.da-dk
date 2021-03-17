@@ -3,19 +3,19 @@ title: Designoplysninger – Internt lagerflow | Microsoft Docs
 description: Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af komponenter og at lægge færdigvarer på lager til produktions- eller montageordrer og ad hoc-bevægelser, f.eks. placeringsgenopfyldninger, uden relation til kildedokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 62764eed0792a20fbc303599a0cfa2baabb638cc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389970"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designoplysninger: Internt lagerflow
 Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af komponenter og at lægge færdigvarer på lager til produktions- eller montageordrer og ad hoc-bevægelser, f.eks. placeringsgenopfyldninger, uden relation til kildedokumenter. Omfanget og arten af de involverede aktiviteter varierer mellem grundlæggende og avancerede logistikfunktioner.  

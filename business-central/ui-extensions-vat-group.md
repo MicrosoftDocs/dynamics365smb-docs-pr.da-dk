@@ -4,19 +4,19 @@ description: Du kan handle med andre virksomheder for at danne en momsgruppe og 
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757038"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498583"
 ---
 # <a name="the-vat-group-management-extension"></a>Udvidelsen til momsgruppestyring
 
@@ -111,6 +111,9 @@ Når moms gruppens momsgruppe er blevet sendt til myndighederne på vegne af hel
 
 > [!NOTE]
 > Medlemmer af momsgruppen kan rette i afsendte momsmeldinger, så længe gruppens repræsentant ikke har frigivet momsreturværdien for gruppen. Hvis du vil foretage en rettelse, skal momsgruppemedlemmet oprette en ny momsreturnering for momsafleveringsperioden og sende den til den ansvarlige for momsgruppen. Momsgruppens repræsentant vil medtage den seneste momsleverance på siden **Momsreturneringer**. 
+
+> [!IMPORTANT]
+> Momsgruppefunktionen understøttes kun på de markeder, hvor [!INCLUDE[prod_short](includes/prod_short.md)], der bruger en momsramme, som består af momsopgørelser og momsreturperioder. Du kan ikke bruge momsgrupper på andre markeder, der har andre implementeringer af lokal momsrapportering, f. eks. Østrig, Tyskland, Italien, Spanien og Schweiz. 
 
 ## <a name="see-also"></a>Se også
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  

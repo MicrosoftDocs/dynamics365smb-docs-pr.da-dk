@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa4cfa543fc7c5cf1ea527468a50bc80afcaeade
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 245e77cb34f3b7b1a8f02c17f17ebd26269d3691
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752126"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389145"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Firmaer opfanger en stor mængde data under de daglige aktiviteter. Disse data, som f.eks. afspejler organisationens salgstal, køb, driftsudgifter, medarbejderlønninger og budgetter, kan for beslutningstagere blive værdifulde oplysninger eller "business intelligence", dvs. forretningsindsigt. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en række funktioner, som kan være nyttige, når du skal indsamle, analysere og dele virksomhedens data.
@@ -32,7 +32,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Hvis du vil | Se |
 | --- | --- |
 |Få vist budgetter, og faktiske beløb sammenlignet med budgetterede beløb for alle konti og for flere perioder.|[Analysere faktiske beløb sammenlignet med budgetterede beløb](bi-how-analyze-actual-versus-budget.md)|
-|Oprette nye kontoskemaer for at definere regnskaber til rapportering eller visning som diagrammer.|[Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)|
+|Oprette nye kontoskemaer for at definere regnskaber til rapportering eller visning som diagrammer.|[Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)|
 |Analyser din finansielle ydeevne ved at konfigurere KPI'er baseret på kontoplaner, som du derefter publicerer som webtjenester. De publicerede kontoskema-KPI'er kan ses på et websted eller importeres i Microsoft Excel ved hjælp af OData-webtjenester.|[Konfigurere og udgive KPI-webtjenester, der er baseret på kontoskemaer](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Oprette analysevisninger for at analysere data vha. dimensioner.|[Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)|
 |Oprette nye analyserapporter for salg, køb og lager og oprette analyseskabeloner.|[Oprette analyserapporter](bi-how-create-analysis-views-reports.md)|

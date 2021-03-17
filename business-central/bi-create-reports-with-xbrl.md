@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 98dd55a41ccd987d810e4fb747b5cb7355a380dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752276"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382625"
 ---
 # <a name="create-reports-with-xbrl"></a>Oprette rapporter med XBRL
 XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist. Talrige ERP-softwarevirksomheder og internationale revisionsfirmaer kan bruge XBRL-initiativerne til global finansiel rapportering. Det globale initiativ er at levere en standard for ensartet rapportering af finansielle oplysninger til banker, investorer og statslige myndigheder. Sådan virksomhedsrapportering kan omfatte:  
@@ -27,7 +27,12 @@ XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sp
  • Ikke-finansielle oplysninger  
  • Lovgivningsmæssige arkiveringer, f.eks. årsregnskaber og kvartalsmæssige regnskabsopgørelser  
 
- Med [!INCLUDE[prod_short](includes/prod_short.md)] kan virksomhederne implementere data i XBRL, og drage fordel af den fleksibilitet og automatisering, det indebærer, både ved indsamling og deling af data.  
+> [!NOTE]
+> Du kan indlæse finansrelaterede skemaer og oprette XBRL-instansdokumenter ved at knytte finansdata fra kontoplanen til de elementer i taksonomier, der er designet til finansrapporter, f. eks. balance, resultatopgørelse osv.
+> 
+> XBRL-funktionerne i Business central support-taksonomier til specifikation 2.1 kan imidlertid indeholde elementer, der ikke understøttes, f. eks. formel linkbaser, iXBRL eller andre strukturelle forskelle. Det anbefales, at du validerer XBRL-egenskaben, før du bruger den til rapportering.
+> 
+> Den fulde understøttelse af taksonomier kan kræve, at der kræves XBRL-mærkning og-værktøjer fra tredjepart. XBRL International Organization indeholder en liste over værktøjer og tjenester, som du kan bruge til XBRL-rapportering. Afhængigt af XBRL-rapporteringskravene for en given taksonomi, kan du få brug for at udforske disse ressourcer. Du kan finde flere oplysninger i [Introduktion til virksomheder](https://go.microsoft.com/fwlink/?linkid=2153466) og [værktøjer og tjenester](https://go.microsoft.com/fwlink/?linkid=2153356).
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) er et XML-baseret sprog til finansiel rapportering. XBRL indeholder en standard for ensartet rapportering for alle brugere af finansielle oplysninger, f.eks. offentlige og private virksomheder, revisorer, analytikere, investorer, interessenter fra kapitalmarkedet og långivere. Standarden benyttes også af andre involverede nøglepartnere, f.eks. udviklere af software og hardwareleverandører.  

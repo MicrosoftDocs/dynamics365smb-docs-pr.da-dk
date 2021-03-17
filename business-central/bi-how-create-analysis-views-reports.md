@@ -3,19 +3,19 @@ title: Oprette analyserapporter | Microsoft Docs
 description: Beskriver, hvordan du opretter nye analyserapporter for salg, køb og lager og opretter analyseskabeloner.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 41c10e142d2a64a7e86a0bf3604af649978bef83
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 023511c44e50318555f7e0ce3ce1f20bd0dfa35e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752201"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382525"
 ---
 #  <a name="create-analysis-reports"></a>Oprette analyserapporter
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi.  

@@ -3,19 +3,19 @@ title: Gennemgang - Manuel planlægning af forsyninger | Microsoft Docs
 description: Denne gennemgang viser processen med at planlægge forsyningsordrer til opfyldning af nye behov. Du kan starte forsyningsplanlægningen med faste intervaller, f.eks. hver morgen eller hver mandag, eller når du får besked om det af salg eller produktion, afhængigt af behovstypen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 604a783f292b04c2609b8415d6b2ec6287f5cfcb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035627"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379798"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gennemgang: Manuel planlægning af forsyninger
 

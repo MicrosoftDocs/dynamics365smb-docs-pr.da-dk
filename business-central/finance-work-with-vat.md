@@ -3,24 +3,27 @@ title: Sådan arbejder du med moms af salg og køb | Microsoft Docs
 description: I dette emne beskrives, hvordan du udfører opgaver som at korrigere bogført moms i EU-lande/områder, hvor der beregnes moms af alle salgs- og købstransaktioner. I dette emne kan du læse, hvordan du gør.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746612"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493088"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
 Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
 
-Der er dog nogle opgaver i forbindelse med moms, der kan udføres manuelt. Du kan f.eks. rette et bogførte beløb, hvis du opdager, at en leverandør anvender en anden afrundingsmetode.
+Der er dog nogle opgaver i forbindelse med moms, der kan udføres manuelt. Du kan f.eks. rette et bogførte beløb, hvis du opdager, at en leverandør anvender en anden afrundingsmetode.  
+
+> [!TIP]
+> Du kan lade [!INCLUDE[prod_short](includes/prod_short.md)] kontrollere momsregistreringsnummeret og andre virksomhedsoplysninger, når du opretter eller opdaterer dokumenter. Du kan finde flere oplysninger i [Validate CVR-numre](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Beregne og vise momsbeløb i salg- og købsdokumenter  
 Du kan beregne og vise momsbeløb i salgs- og købsdokumenter forskelligt, afhængigt af den type debitor eller kreditor, du handler med. Du kan også tilsidesætte det beregnede momsbeløb for at have det samme momsbeløb som det, der er beregnet af kreditoren i en given transaktion.  
@@ -173,15 +176,16 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringsce
 
     > [!NOTE]  
     >  Du kan ikke oprette et nyt leveringscertifikat på siden **Leveringscertifikat**, når du navigerer til det ved hjælp af denne procedure. Hvis du vil oprette et certifikat til en forsendelse, der ikke var sat op til at kræve ét, skal du åbne den bogførte salgsleverance og bruge den ene af de to fremgangsmåder, der er beskrevet ovenfor:  
-    >   
+    >
     > * Sådan opretter du manuelt et leveringscertifikat  
     > * Sådan udskriver du et leveringscertifikat.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også  
-[Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)   
-[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)   
+## <a name="see-also"></a>Se også
 
+[Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)  
+[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
+[Valider et SE/CVR-nr.](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

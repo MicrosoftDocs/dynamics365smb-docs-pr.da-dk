@@ -3,19 +3,19 @@ title: Designoplysninger – Overførsler i planlægning | Microsoft Docs
 description: Dette emne beskriver, hvordan overflytningsordrer bruges som en forsyningskilde ved planlægning af lagerniveauer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 72755bb2b83a3560c79cd004987003d3d7585f6b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035577"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381563"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designoplysninger: Overførsler i planlægning
 Overflytningsordrer er også en forsyningskilde, når du arbejder på lagervareniveauet. Ved at bruge flere lokationer (lagre) kan lagervaregenbestillingssystemet indstilles til Overførsel, hvilket indebærer, at lokationen genopfyldes ved at overføre varer fra en anden lokation. I en situation med flere lagersteder kan virksomheder have en kæde af overførsler, hvor forsyningen til lokationen GRØN overføres fra GUL, og levering til GUL overføres fra RØD og så videre. I begyndelsen af kæden er der et genbestillingssystem for produktionsordre eller indkøb.  

@@ -1,21 +1,21 @@
 ---
-title: Bruge finanskladder, der skal bogføres direkte til Finans | Microsoft Docs
-description: Lær, hvordan du kan bruge kladder til at bogføre økonomisk transaktioner på finanskonti og andre konti, f.eks. bank- og kreditorkonti.
+title: Arbejde med finanskladder, der skal bogføres direkte til Finans
+description: Lær, hvordan du kan bruge kladder til at bogføre økonomisk transaktioner på finanskonti og andre konti, f.eks. bank- og kreditorkonti. Bruge gentagelseskladder til at bogføre periodiseringer og fordele saldi efter dimensionsværdier.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 10/01/2020
+ms.date: 02/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6a2c6ed0c3fe163f64a3eb7d55f8e128f53a50d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760089"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393595"
 ---
 # <a name="working-with-general-journals"></a>Arbejde med finanskladder
 
@@ -74,24 +74,27 @@ Hvis du har oprettet modkonti for kladdenavnene, udfyldes modkontoen automatisk 
 >   Moms beregnes separat for hovedkontoen og modkontoen, så der kan bruges forskellige momsprocentsatser.
 
 ## <a name="working-with-recurring-journals"></a>Arbejde med gentagelseskladder
-En gentagelseskladde er en finanskladde med specifikke felter til styring af transaktioner, som bogføres ofte med få eller ingen ændringer, f.eks. leje, abonnementer, elektricitet og varme. Med disse felter til gentagelsestransaktioner kan du bogføre både faste og variable beløb. Du kan også angive automatiske tilbageførselsposter dagen efter bogføringsdatoen. Du kan også bruge fordelingsnøgler til at opdele de gentagne poster mellem forskellige konti. Du kan finde yderligere oplysninger i [Fordeling af gentagelsesposter på flere konti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
+En gentagelseskladde er en finanskladde med specifikke felter til styring af transaktioner, som bogføres ofte med få eller ingen ændringer, f.eks. leje, abonnementer, elektricitet og varme. Med disse felter til gentagelsestransaktioner kan du bogføre både faste og variable beløb. Du kan også angive automatiske tilbageførselsposter dagen efter bogføringsdatoen. Du kan også bruge fordelingsnøgler til at opdele de gentagne poster mellem forskellige konti. Du kan finde yderligere oplysninger i [Fordeling af gentagelsesposter på flere konti](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Med gentagelseskladder skal poster, der bogføres regelmæssigt, kun indtastes én gang. Det vil sige, at de konti, dimensioner og dimensionsværdier osv., som angives, bevares i kladden efter bogføringen. Hvis du vil foretage ændringer, kan du gøre det ved hver bogføring.
 
 ### <a name="recurring-method-field"></a>Feltet Gentagelsesmetode
+
 Dette felt bestemmer, hvordan beløbet på kladdelinjen bliver behandlet efter bogføringen. Hvis du f.eks. bogfører det samme beløb, hver gang du bogfører linjen, kan du vælge at lade beløbet stå. Eller du kan vælge at lade det slette, fordi konti og tekst i linjen kan genbruges ved hver bogføring, men beløbet hver gang varierer.
 
 | Hvis du vil | Skal du se |
 | --- | --- |
-|Fast|Beløbet på kladdelinjen vil blive stående i posten efter bogføring.|
-|Variabel|Beløbet på kladdelinjen slettes efter bogføring.|
-|Saldo til dato|Det bogførte beløb på kontoen på linjen bliver fordelt mellem de konti, der er defineret for linjen i tabellen Fordeling. Saldoen på kontoen bliver derfor angivet til nul. Husk at udfylde feltet **Fordelingspct.** på siden **Fordelinger**. Du kan finde yderligere oplysninger i [Fordeling af gentagelsesposter på flere konti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
-|Fast med tilbageføring|Beløbet i kladdelinjen bliver stående på linjen efter bogføringen, og der bliver bogført en modpost den følgende dag.|
-|Variabel med tilbageføring|Beløbet i kladdelinjen bliver slettet efter bogføringen, og der bliver bogført en modpost den følgende dag.|
-|Saldo med tilbageføring|Det bogførte beløb på kontoen på linjen bliver fordelt mellem de konti, der er defineret for linjen på siden **Fordelinger**. Saldoen på kontoen angives til nul, og der posteres en modpost den følgende dag.|
+|F Fast|Beløbet på kladdelinjen vil blive stående i posten efter bogføring.|
+|V Variabel|Beløbet på kladdelinjen slettes efter bogføring.|
+|B Saldo|Det bogførte beløb på kontoen på linjen bliver fordelt mellem de konti, der er defineret for linjen i tabellen Fordeling. Saldoen på kontoen bliver derfor angivet til nul. Husk at udfylde feltet **Fordelingspct.** på siden **Fordelinger**. Du kan finde yderligere oplysninger i [Fordeling af gentagelsesposter på flere konti](#allocating-recurring-journal-amounts-to-several-accounts).|
+|RF Fast tilbageførsel|Beløbet i kladdelinjen bliver stående på linjen efter bogføringen, og der bliver bogført en modpost den følgende dag.|
+|RV Variabel til tilbageførsel|Beløbet i kladdelinjen bliver slettet efter bogføringen, og der bliver bogført en modpost den følgende dag.|
+|RB Saldo til tilbageførsel|Det bogførte beløb på kontoen på linjen bliver fordelt mellem de konti, der er defineret for linjen på siden **Fordelinger**. Saldoen på kontoen angives til nul, og der posteres en modpost den følgende dag.|
+|BD Saldo efter dimension|Kladdelinjen tildeler omkostninger, der er baseret på finanskontoens saldo pr. dimension. Du bliver bedt om at angive, hvilke dimensionsfiltre der skal bruges til at beregne finanskontoens saldo efter dimension, hvorfra der skal allokeres omkostninger. Du kan også vælge handlingen **Angiv dimensionsfiltre** senere.|
+|RBD Tilbageført saldo pr. dimension|Kladdelinjen tildeler omkostninger, der er baseret på finanskontoens saldo med tilbageføring pr. dimension. Du bliver bedt om at angive, hvilke dimensionsfiltre der skal bruges til at beregne finanskontoens saldo efter dimension, hvorfra der skal allokeres omkostninger. Du kan også vælge handlingen **Angiv dimensionsfiltre** senere.|
 
 > [!NOTE]  
->  Momsfelter kan kun være udfyldt på gentagelseskladdelinjen eller på allokeringkladdelinjen. Det vil sige, at dette felt kun kan udfyldes på siden **Fordelinger**, hvis det tilsvarende felt på gentagelseskladden ikke er udfyldt.
+> Momsfelter kan kun være udfyldt på gentagelseskladdelinjen eller på allokeringkladdelinjen. Det vil sige, at dette felt kun kan udfyldes på siden **Fordelinger**, hvis det tilsvarende felt på gentagelseskladden ikke er udfyldt.
 
 ### <a name="recurring-frequency-field"></a>Feltet Gentagelsesinterval
 Dette felt bestemmer, hvor ofte posten på kladdelinjen bogføres. Det er en datoformelfelt, og det skal være udfyldt for tilbagevendende kladdelinjer. Du kan finde flere oplysninger i [Bruge datoformler](ui-enter-date-ranges.md#using-date-formulas).
@@ -113,11 +116,19 @@ Fordelen ved dette felt er, at linjen ikke straks slettes fra kladden, og at du 
 Hvis feltet er tomt, bogføres linjen, hver gang du bogfører, indtil den slettes fra kladden.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Tildeling af tilbagevendende kladdebeløb til flere konti
+
 På siden **Finansgentagelseskladde**, kan du vælge handlingen **Fordelinger** for at se eller styre, hvordan beløbene i gentagelseskladdelinjen fordeles på flere konti og dimensioner. Bemærk, at en fordeling fungerer som en modkontolinje til gentagelseskladdelinjen.
 
 Ligesom i en gentagelseskladde kan du nøjes med at indtaste en fordeling én gang. Derefter vil fordelingen blive stående i fordelingskladden efter bogføringen, så du ikke behøver at indtaste beløb og fordeling hver gang, men kan nøjes med at bogføre gentagelseskladdelinjen.
 
-Hvis gentagelsesmetoden i gentagelseskladden er sat til **Saldo** eller **Saldo med tilbageføring**, bliver der ikke taget hensyn til eventuelle dimensionsværdikoder i gentagelseskladden, når kontoen nulstilles. Så hvis du fordeler en gentagelseslinje på forskellige globale dimensionsværdier på siden **Fordelinger**, så vil der kun blive lavet en tilbageførselspost. Hvis du derfor fordeler en gentagelseskladdelinje, som indeholder en dimensionsværdikode, må du ikke indtaste den samme kode på siden **Fordelinger**. Hvis du gør det, vil dimensionsværdierne ikke blive korrekte.
+Hvis *gentagelsesmetoden* i gentagelseskladden er sat til **Saldo** eller **Saldo med tilbageføring** bliver der ikke taget hensyn til eventuelle dimensionsværdikoder i gentagelseskladden, når kontoen nulstilles. Så hvis du fordeler en gentagelseslinje på forskellige globale dimensionsværdier på siden **Fordelinger**, så vil der kun blive lavet en tilbageførselspost. Hvis du derfor fordeler en gentagelseskladdelinje, som indeholder en dimensionsværdikode, må du ikke indtaste den samme kode på siden **Fordelinger**. Hvis du gør det, vil dimensionsværdierne ikke blive korrekte.  
+
+Hvis du vil fordele tilbagevendende kladdebeløb baseret på dimensioner, skal du i stedet angive feltet **Gentagelsesmetode** til **Balancere efter dimension** eller **Tilbageført saldo pr. dimension**. Hvis gentagelsesmetoden i gentagelseskladden er sat til **Saldo efter dimension** eller **Tilbageført saldo pr. dimension**, bliver der ikke taget hensyn til eventuelle dimensionsværdikoder i gentagelseskladden, når kontoen nulstilles. Så hvis du allokerer en gentagelses linje til forskellige dimensionsværdier på siden **Fordelinger**, oprettes der et antal tilbageførte poster, der svarer til det antal kombinationer af dimensionsværdier, som saldoen består af. Hvis du allokerer kontosaldo via gentagelseskladden, der indeholder en dimensionsværdikode, skal du huske at bruge **Saldo efter dimension** eller **Tilbageført saldo pr. dimension** for at sikre, at dimensionsværdierne er korrekt afstemt eller tilbageført fra kildekontoen.  
+
+Din virksomhed har f. eks. nogle forretningsenheder og en hånd af afdelinger, som dine controllere har sat op som dimensioner. For at gøre købsordre processen hurtigere skal du beslutte, om du vil kræve, at kreditorassistenten kun indtaster dimensionerne for koncernvirksomheden. Da hver koncernvirksomhed har specifikke allokeringsnøgler for dimensionen afdeling, f. eks. baseret på antallet af medarbejdere, kan du bruge gentagelsesmetoderne **BD Saldo efter dimension** eller **RBD Tilbageført saldo pr. dimension** til at genfordele omkostningerne for hver koncernvirksomhed til de rigtige afdelinger på grundlag af fordelingsnøglerne.  
+
+> [!NOTE]
+> Dimensioner, som du angiver på fordelingslinjer, beregnes ikke automatisk, og du skal angive, hvilke dimensionsværdier der skal angives på fordelingskontiene. Hvis du vil bevare tilknytningen mellem dimensionen kildekonto og allokerings kontodimensionen, anbefales det, at du bruger funktionen til [Omkostningsberegning](finance-about-cost-accounting.md) i stedet.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Eksempel: Fordeling af huslejebetalinger til forskellige afdelinger
 Du betaler husleje hver måned, så du kan indtaste huslejen i indbetalingskonto på en gentagelseskladdelinje. På siden **Fordelinger** kan du opdele udgiften på flere afdelinger (afdelingsdimension), i forhold til det antal kvadratmeter hver afdeling optager. Beregningen er baseret på allokeringsprocenten på hver linje. Du kan f.eks. indtaste forskellige konti på forskellige fordelingslinjer (hvis huslejen også skal fordeles på flere konti) eller indtaste den samme konto, men med forskellige dimensionsværdikoder for dimensionen Afdeling på hver linje.

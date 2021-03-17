@@ -3,17 +3,17 @@ title: Oprette sagspriser og sagsbogføringsgrupper | Microsoft Docs
 description: Bruges til at oprette oplysninger om almindelige opgaver og oprette priser for sagsvarer, ressourcer og finanskonti og sagsbogføringsgrupper.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 04f5538b7c904b64c921cc50f64924bcaef93401
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758638"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476766"
 ---
 # <a name="set-up-jobs"></a>Opsætte sager
 
@@ -47,44 +47,31 @@ Når afkrydsningsfelt **Anvend anvendelseslink som standard** er markeret, og sa
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsopsætning**, og vælg derefter det relaterede link.
 2. Markér afkrydsningsfeltet **Anvend anvendelseslink som standard**.
 
-## <a name="to-set-up-prices-for-job-resources"></a>Sådan oprettes priser for sagsressourcer
-Du kan oprette specifikke priser for ressourcer for en sag. Det gør du på siden **Ressourcepriser for sag**.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Konfigurere priser for ressourcer, varer og finanskonti for jobs.
+> [!NOTE]
+> I 2020 udgivelsesbølge 2 har vi udgivet nye processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
+Konfigurere priser for varer, ressourcer finanskonti i forhold til jobs. 
+
+#### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
-2. Markér den relevante sag, og vælg derefter handlingen **Ressourcer**.
-3. På siden **Sagsressourcepriser** skal du udfylde felterne efter behov.
+2. Markér den relevante sag, og vælg **Ressource**, **Vare** eller **Finanskonto**.
+3. Udfyld felterne efter behov i **Salgsressourcepriser**, **Salgsvarepriser** eller **Sagsfinanskontopriser**.
 
-De valgfrie oplysninger i felterne **Sagsopgavenr.**, **Arbejdstype**, **Valutakode**, **Linjerabatpct.** og **Kostprisfaktor** bruges i sagsplanlægningslinjerne og forbrugskladderne, når ressourcen angives og tilføjes til sagen.  
+I følgende tabel vises, hvordan oplysningerne i de valgfrie felter bruges på Sagsplanlægningslinjer og kladder, når ressourcen, varen eller finanskontoen vælges for sagen.
 
-Værdien i feltet **Enhedspris** for ressourcen vil blive anvendt i sagsplanlægningslinjerne og sagskladderne, når denne ressource, en ressource, der er tildelt ressourcegruppen, eller en hvilken som helst ressource angives.  
+|Kolonne1  |Kolonne2  |
+|---------|---------|
+|**Sagsressourcer**|Felterne **Sagsopgavenr.**, **Arbejdstype**, **Valutakode**, **Linjerabat i %** og **Kostprisfaktor**. Værdien i feltet **Enhedspris** for ressourcen vil blive anvendt i sagsplanlægningslinjerne og sagskladderne, når denne ressource, en ressource, der er tildelt ressourcegruppen, eller en hvilken som helst ressource angives. Bemærk, at denne pris altid vil tilsidesætte eventuelle priser på den eksisterende **Ressourcesalgspris/Ressourcegruppe**-side.|
+|**Sagsvarepriser**|Felterne **Sagsopgavenr.**, **Valutakode** og **Linjerabat i %**. Værdien i feltet **Enhedspris** for varen bruges i sagsplanlægningslinjerne og sagskladderne, når varen angives. Bemærk, at denne pris altid vil tilsidesætte den normale debitorpris (“bedste pris”-mekanisme) for varer. Hvis du vil bruge den normale debitorpris, skal du ikke oprette sagsvarepriser.|
+|**Finanskonti**|Oplysninger i felterne **Sagsopgavenr.**, **Valutakode**, **Linjerabat i %**, **Kostprisfaktor** og **Kostpris** bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives og tilføjes til sagen. Værdien i feltet **Kostpris** for finanskontosagsudgiften bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives.|
 
-> [!NOTE]  
->   Denne pris vil altid tilsidesætte eventuelle priser på den eksisterende **Ressourcesalgspris/Ressourcegruppe**-side.
-
-## <a name="to-set-up-prices-for-job-items"></a>Sådan oprettes priser for sagsvarer
-Du kan oprette specifikke priser for varer for en sag. Det gør du på siden **Sagsvarepriser**.
-
+---
+#### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
-2. Markér den relevante sag, og vælg derefter handlingen **Vare**.
-3. På siden **Sagsvarepriser** skal du udfylde felterne efter behov.
+2. Markér den relevante sag, og vælg derefter handlingen **Sagsplanlægningslinjer**.
 
-De valgfrie oplysninger i felterne **Sagsopgavenr.**, **Valutakode** og **Linjerabat %** bruges i sagsplanlægningslinjerne og forbrugskladderne, når ressourcen angives og tilføjes til sagen.  
-
-Værdien i feltet **Enhedspris** for varen bruges i sagsplanlægningslinjerne og sagskladderne, når varen angives.  
-
-> [!NOTE]  
->   Prisen vil altid tilsidesætte den normale debitorpris (“bedste pris”-mekanismen) for varer. Hvis du vil bruge den normale debitorpris, skal du ikke oprette sagsvarepriser.
-
-## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Sådan oprettes priser for finanskonti for sag
-Du kan oprette specifikke priser for regnskabsmæssige udgifter for en sag. Det gør du på siden **Sagsfinanskontopriser**.
-
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
-2. Markér den relevante sag, og vælg derefter handlingen **Finanskonto**.  
-3. På siden **Sagsfinanskontopriser** skal du udfylde felterne efter behov.
-
-De valgfrie oplysninger i felterne **Sagsopgavenr.**, **Valutakode**, **Linjerabatpct.**, **Kostprisfaktor** og **Kostpris** bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives og tilføjes til sagen.  
-
-Værdien i feltet **Kostpris** for finanskontosagsudgiften bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives.
+---
 
 ## <a name="to-set-up-job-posting-groups"></a>Sådan oprettes sagsbogføringsgrupper
 Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal bruges til sagsomkostninger. Hvis du vil bogføre sager, skal du oprette konti til bogføring for hver sagsbogføringsgruppe. En bogføringsgruppe repræsenterer en kæde mellem sagen, og hvordan den bør behandles i Finans. Når du opretter en sag, kan du angive en bogføringsgruppe, og som standard knyttes hver opgave, du opretter for sagen, til denne bogføringsgruppe. Når du opretter opgaver, kan du tilsidesætte standardindstillingen og vælge en bogføringsgruppe, der passer bedre.  

@@ -3,19 +3,19 @@ title: Registrere og refundere medarbejdernes forretningsrelaterede udgifter | M
 description: Bogfør medarbejdernes udgifter med finanskladden til medarbejderens konto, og bogfør senere en betaling til medarbejderens bankkonto for at refundere for de forretningsrelaterede udgift.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d19fceae0fd5c9b72910880d0f87b21206e8f47
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 82fc662bee4fd288dda3a5e546fa408b2bef1ce4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750826"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391495"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registrere og refundere medarbejdernes udgifter
 

@@ -3,19 +3,19 @@ title: Sådan oprettes en nyt virksomhed | Microsoft Docs
 description: For at du kan bruge RapidStart Services bliver tabeller og sider oprettet, men der er ingen data i dem.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7583837e515a4fd5fb415fe1b482512e7edf6b5a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 703b70a608bd6b25b9a3218eb59e8666fcd6a0ab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753990"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378319"
 ---
 # <a name="create-a-new-company"></a>Oprette en ny virksomhed
 Hvis du vil bruge RapidStart Services til [!INCLUDE[prod_short](includes/prod_short.md)], skal du først oprette en ny virksomhed, som du ønsker at udføre en kundeimplementering for. Når du opretter en ny virksomhed, oprettes standardtabellerne og -siderne i [!INCLUDE[prod_short](includes/prod_short.md)], men der er ingen data i dem.

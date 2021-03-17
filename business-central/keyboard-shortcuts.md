@@ -3,19 +3,19 @@ title: Tastaturgenveje
 description: Den komplette liste over tastaturgenvejskombinationer, som gør det muligt for dig at arbejde effektivt med dine data.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746112"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470483"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -56,7 +56,6 @@ I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og ad
 |Alt+Skift+N |Lukke en nyoprettet side og åbne en ny for at oprette en ny post. På samme måde bogfører Alt+F9 et dokument og opretter et nyt.|
 |Alt+T|Åbne siden **Mine indstillinger**.|
 |Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit-knap"). Dette bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
-|Skift+F12|Åbn Rollestifinder, en funktionsoversigt. Du kan finde flere oplysninger i [Søge efter sider med Rollestifinder](ui-role-explorer.md).|
 |Ctrl+Alt+Skift+C|Få vist oplysninger på virksomhedskortet.|
 |Ctrl+Alt+F1|Åbne og lukke sideinspektionsruden. Sideinspektionsruden viser oplysninger om siden, f.eks. dens kildetabel, felter, udvidelser og meget mere.<br /><br />Du kan finde flere oplysninger under [Inspektion af sider](across-inspect-page.md).|
 |Ctrl+C |Kopiere værdien i feltet. Hvis feltet er i fokus, og du ikke har markeret tekst i feltet, kopieres hele værdien. Hvis du har markeret tekst i feltet, så kopieres kun den markerede tekst.|
@@ -213,6 +212,18 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |Ctrl++|Zoom ind på den aktuelle side.|  
 |Ctrl+-|Zoom ud på den aktuelle side.|  
 |Ctrl+0|Zoom ind eller ud til 100% på den aktuelle side.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Tastaturgenveje til Rollestifinder
+
+Rollestifinder giver dig et overblik og en hurtig adgang til alle de forretningsfunktioner, der er tilgængelige for din rolle. Du kan finde flere oplysninger i [Søge efter sider med Rollestifinder](ui-role-explorer.md).
+
+|Tryk på disse taster<br />(i macOS)|For at gøre følgende|
+|--------------------------------|----------|
+|Skift+F12|Åbne rollestifinder.|
+|F3|Åbne feltet **Søg** i rollestifinder for at finde funktioner, der er baseret på et givet søgeord eller -udtryk.|
+|F3 eller Ctrl + pil ned|Flytter fokus til den næste fundne funktion i rollestifinder. F3 flytter fokus til feltet **Søg** efter den sidste fundne funktion.|
+|Skift F3 eller Ctrl + pil op|Flytte fokus til den forrige funktion i rollestifinder.|
+|Ctrl+Skift|Du kan udvide eller minimere alle undernoder ud over noder på øverste niveau, når du vælger handlingen **Vis** eller **Skjul**.|
 
 ## <a name="see-also"></a>Se også
 

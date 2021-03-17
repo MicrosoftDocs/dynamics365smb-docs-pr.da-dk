@@ -104,12 +104,13 @@
 #### [Konfigurere betalingsmetoder](finance-payment-methods.md)
 #### [Definere betalingsbetingelser](finance-payment-terms.md)
 #### [Konfigurere bogføringsgrupper](finance-posting-groups.md)
-#### [Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
+#### [Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
 #### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
 #### [Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md)
 #### [Konfiguration af Rentebetingelser](finance-setup-finance-charges.md)
 #### [Konfigurere moms](finance-setup-vat.md)
+#### [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)
 #### [Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter](finance-setup-unrealized-vat.md)
 #### [Valider et SE/CVR-nr.](finance-how-validate-vat-registration-number.md)
 #### [Oprette kilde- og årsagskoder til revisionsspor](finance-setup-trail-codes.md)
@@ -437,6 +438,7 @@
 ##### [Felttilknytning for AMC Banking 365 Fundamentals-udvidelsen](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Finans
 ### [Oversigt for Finance](finance.md)
+### [Finansrapporter](finance-reports.md)
 ### Administrere tilgodehavender
 #### [Oversigt over tilgodehavender](receivables-manage-receivables.md)
 #### Udligne betalinger automatisk og afstemme bankkonti
@@ -560,10 +562,11 @@
 ### [Overføre bankbeløb](bank-how-transfer-bank-funds.md)
 ### [Revisoroplevelser i Business Central](finance-accounting.md)
 
-## Business Intelligence
-### [BI-Oversigt](bi.md)
+## Business Intelligence og Financial Reporting
+### [Oversigt over Business Intelligence og Financial Reporting](bi.md)
+### [Finansrapporter](finance-reports.md)
 ### [Analysere faktiske beløb sammenlignet med budgetterede beløb](bi-how-analyze-actual-versus-budget.md)
-### [Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
+### [Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
 ### [Konfigurere og udgive KPI-webtjenester, der er baseret på kontoskemaer](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)
 ### [Oprette analyserapporter](bi-how-create-analysis-views-reports.md)
@@ -1533,7 +1536,7 @@
 
 # Sikkerhed, beskyttelse af personlige oplysninger, kompatibilitet
 ## Sikkerhed og beskyttelse
-### [Sikkerhed og beskyttelse, oversigt](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Oversigt over sikkerhed og beskyttelse (kun på engelsk)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Beskyttelse af personlige oplysninger
 ### [Beskyttelse af personlige oplysninger (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Overholdelse
@@ -1541,6 +1544,7 @@
 ### [Programoverholdelse](compliance/compliance-application-compliance.md)
 ### [Tjenesteoverholdelse](compliance/compliance-service-compliance.md)
 ### [Certificeringer](compliance/compliance-certifications.md)
+## [Tjenesteoversigt (kun på engelsk)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Udvikling og administration
 ## [Introduktion til udviklings-og administrationsdokumentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)

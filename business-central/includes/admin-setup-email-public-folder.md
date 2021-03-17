@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d58d8d628577f163d36199b8fc5785982aac830a
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749776"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492996"
 ---
 Før du kan konfigurere maillogføring, skal du forberede din Exchange Online til [offentlige mapper](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Det kan du gøre i [Exchange-administrationen](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ), eller du kan bruge [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
@@ -72,4 +72,4 @@ Følgende liste beskriver de hovedtrin, der indeholder links til flere oplysning
   Du kan finde flere oplysninger i [Administrere regler for mailflow i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) og [Handlinger for mailflowregel i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> Hvis du foretager ændringer i Exchange Management Shell, bliver ændringerne synlige i Exchange Administration efter en forsinkelse. De ændringer, der er foretaget i Exchange, vil også være tilgængelige i [!INCLUDE[prod_short](prod_short.md)] efter en forsinkelse.
+> Hvis du foretager ændringer i Exchange Management Shell, bliver ændringerne synlige i Exchange Administration efter en forsinkelse. De ændringer, der er foretaget i Exchange, vil også være tilgængelige i [!INCLUDE[prod_short](prod_short.md)] efter en forsinkelse. Forsinkelsen kan være flere timer.

@@ -3,14 +3,14 @@ title: Undervisningskatalog for Business Central
 description: Undervisningskatalog for Business Central
 author: loreleishannonmsft
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 174ec9f3c51332bec35f1fc7cf49501e8f4b5fc1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c6200a5bd26ffff4611e07aabd33ea305b8a9b99
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926743"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387645"
 ---
 # <a name="business-central-learning-catalog"></a>Undervisningskatalog for Business Central
 

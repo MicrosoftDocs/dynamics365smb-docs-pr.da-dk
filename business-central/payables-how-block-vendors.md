@@ -3,19 +3,19 @@ title: Sådan forhindres køb fra/til kreditorer
 description: Du kan forhindre kreditorer i at blive medtaget i nogen transaktioner eller blot blokere for, at der kan foretages nye betalinger til dem.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9cb31546dcefaba5f15cb630467d759812d48c81
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b1dcda8bed565ef37b712daa15554765a3c45846
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916747"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380477"
 ---
 # <a name="block-vendors"></a>Spær kreditorer
 Du kan spærre en kreditor, for eksempel på grund af insolvens, så kreditoren ikke kan føjes til købsdokumenter, eller ingen betalinger kan bogføres for kreditoren.

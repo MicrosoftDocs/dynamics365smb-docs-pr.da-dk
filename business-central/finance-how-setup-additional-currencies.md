@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b548d6d8426fefa01bb45d3d1fdedaeb98966ce
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9c66c9bbfe9403402238668fb1cd8df72ad21422
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746887"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391295"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Oprette en ekstra rapporteringsvaluta
 Da virksomheder handler i stadig flere lande/områder, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta.

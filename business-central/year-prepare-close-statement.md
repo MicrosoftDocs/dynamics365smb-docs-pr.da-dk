@@ -3,19 +3,19 @@ title: Oversigt over rapporter som hjælp til forberedelsen af regnskabsafslutni
 description: Giver en oversigt over de rapporter, du kan bruge til at samle oplysninger til udarbejdelse af virksomhedens ultimoopgørelser ved regnskabsårets afslutning.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 4b3595e933b40300bfd8eb8f53be5df5b2980623
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 319ab4ec1f56be84bf3045567f4ca1cfe280c1d5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755488"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391870"
 ---
 # <a name="preparing-closing-statements"></a>Forberedelse af ultimoopgørelser
 Der findes en række standardrapporter, som du kan bruge til at samle de oplysninger, der er nødvendige ved forberedelsen af regnskabets ultimoopgørelser.

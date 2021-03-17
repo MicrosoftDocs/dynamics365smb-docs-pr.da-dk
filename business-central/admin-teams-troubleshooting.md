@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046528"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385195"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Fejlfinding af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ Hvis du vil have hjælp til at ændre disse indstillinger, skal du se [Mit kamer
 
 Nogle browsere, f. eks. den nye Microsoft Edge, giver dig mulighed for at vælge, hvilket enheds kamera der skal bruges, når enheden understøtter flere kameraer. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams viser blandede sprog for mine kort og kort detaljer 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams viser blandede sprog for mine kort og kort detaljer
 
 Hvis kort og kort skal vises ensartet på samme sprog i grupper, skal sproget for team klienten og det sprog, du bruger i [!INCLUDE [prod_short](includes/prod_short.md)]-webklienten, være ens.
 
@@ -116,6 +116,21 @@ Du kan finde flere oplysninger om, hvordan sprog fungerer mellem grupper og [!IN
 ## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Jeg har redigeret et felt i detalje vinduet, men ændringen blev ikke gemt
 
 De ændringer, du foretager i et felt i detalje vinduerne, gemmes automatisk, når du forlader feltet. Før du lukker vinduet, efter at du har ændret et felt, skal du trykke på tab eller klikke uden for feltet.
+
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Der vises et nyt felt i Appstarteren. Hvordan fjerner jeg det?
+
+Når du får vist dine apps på Office 365-startsiden (https://home.office.com) eller i appstarteren, vises der et nyt felt med navnet "Business Central Teams Integration Service Connector" efter installation af [!INCLUDE [prod_short](includes/prod_short.md)]-app'en til Teams. Dette felt indeholder ingen værdi i sig selv og kan være sikkert skjult.
+
+Som administrator, der har Azure Active Directory-administratorrettigheder, kan du skjule flisen ved at benytte følgende fremgangsmåde:
+
+1. Log på [Azure Active Directory-administrationscenter](https://aad.portal.azure.com/).
+2. Vælg **virksomhedsapps**, og vælg derefter **Business Central Teams Integration Service Connector**.
+3. Vælg **Egenskaber**, og angiv derefter indstillingen **Synlig for brugere** til **Nej**.
+4. Vælg **Gem**.
+
+> [!NOTE]
+> Det vil vare et stykke tid, før ændringen træder i kraft.
+
 
 ## <a name="see-also"></a>Se også
 

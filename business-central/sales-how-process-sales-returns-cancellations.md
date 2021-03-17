@@ -3,19 +3,19 @@ title: Behandle salgsreturvarer eller annulleringer | Microsoft Docs
 description: Beskriver, hvordan du opretter en salgskreditnota, direkte eller via en salgsreturvareordre, for at behandle en returnering, annullering eller refusion for varer eller tjenester, du har modtaget betaling for.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 701743c385d3afe7e0d514fede60185ecdc7a558
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6a65f67a7ac07196f5b4738c59fa5180e512f89c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748387"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385570"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle salgsreturvarer eller annulleringer
 Hvis en debitor ønsker at returnere varer eller få refunderet varer eller serviceydelser, som du har solgt og modtaget betaling for, skal du oprette og bogføre en salgskreditnota, der angiver den ønskede ændring. Du kan oprette salgskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte salgsfakturaoplysninger, eller du kan oprette en ny salgskreditnota med kopierede fakturaoplysninger.

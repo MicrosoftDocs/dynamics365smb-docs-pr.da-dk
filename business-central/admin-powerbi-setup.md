@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: dd0974c20f8c038fcc0cac27c9ef165b2aadcd36
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 17e41dd44dd4f7f99eabd4904d5ebd7c48d9964d
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752496"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492977"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Aktivering af Power BI-integration med [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -36,26 +36,33 @@ Du kan finde flere oplysninger under [Licenser til Power BI-tjenesten for bruger
 
 I dette afsnit forklares kravene til en installation af [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, der kan integreres med Power BI.
 
-1. OData-webtjenester og ODataV4-slutpunktet er aktiveret.
+1. Konfigurer enten NavUserPassword eller Azure Active Directory-godkendelse for installationen.
+
+    Power BI-integration understøtter ikke Windows-godkendelse.  
+
+2. Aktivere OData-webtjenester og ODataV4-slutpunkt.
 
     OData-webtjenesten skal være aktiveret på [!INCLUDE[server](includes/server.md)], og OData-porten skal være åbnet i firewall. Du kan finde flere oplysninger under [Konfiguration af Business Central Server - OData-webtjenester](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#ODataServices).
-    
+
     Den lokale server skal være tilgængelig fra internettet.
 
-2. [!INCLUDE[prod_short](includes/prod_short.md)]-brugerkonti har adgangsnøgle til webtjenesten.
+3. Tildele [!INCLUDE[prod_short](includes/prod_short.md)]-brugerkonti adgangsnøgle til webtjenesten.
 
-    Der kræves en adgangsnøgle til webtjenester for at få vist [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI. Du kan tildele hver brugerkonto en adgangsnøgle til webtjenesten. Du kan i stedet oprette en specifik konto med en adgangsnøgle til webtjeneste, så alle brugere kan anvende den. Du kan finde flere oplysninger i [Godkendelse af webtjenester](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
+    Der kræves kun en adgangsnøgle til webtjenester for at få vist [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI. Du kan tildele hver brugerkonto en adgangsnøgle til webtjenesten. Du kan i stedet oprette en specifik konto med en adgangsnøgle til webtjeneste, så alle brugere kan anvende den. Du kan finde flere oplysninger i [Godkendelse af webtjenester](/dynamics365/business-central/dev-itpro/webservices/web-services-authentication#generate-a-web-service-access-key).
 
-3. NavUserPassword eller Azure Active Directory-godkendelse er konfigureret.
+4. Oprette en programregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure.
 
-4. Hvis du vil have vist Power BI-rapporter integreret på [!INCLUDE[prod_short](includes/prod_short.md)]-sider, skal et program registreres for [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure.
-
-    Det registrerede program skal have tilladelse til Power BI-tjenester. Du kan finde flere oplysninger i [Registrering af [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø i Azure AD til integration med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    Hvis du vil have vist Power BI-rapporter integreret i [!INCLUDE[prod_short](includes/prod_short.md)]-sider, skal et program registrere til [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure, og det registrerede program skal have tilladelse til Power BI-tjenester. Du kan finde flere oplysninger i [Registrering af [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø i Azure AD til integration med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
     > Hvis din installation benytter NavUserPassword-godkendelse, opretter [!INCLUDE[prod_short](includes/prod_short.md)] forbindelse til den samme Power BI-tjeneste for alle brugere. Du skal angive denne tjenestekonto som en del af registreringen af programmet. Med Azure AD-godkendelse opretter [!INCLUDE[prod_short](includes/prod_short.md)] forbindelse til den Power BI-tjeneste, der er knyttet til de enkelte brugerkonti.
 
     <!-- Windows authentication can also be used but you can't get data from BC in Power BI -->
+5. Foretage den første forbindelse mellem Business central og Power BI.
+
+    Før slutbrugere kan bruge Power BI i [!INCLUDE[prod_short](includes/prod_short.md)], skal en Azure-programadministrator give samtykke til Power BI-tjenesten.
+
+    Hvis du vil oprette den første forbindelse, skal du åbne [!INCLUDE[prod_short](includes/prod_short.md)] og køre **Introduktion til Power BI** fra Rollecenter. Handlingen vil føre dig gennem samtykkeprocessen og kontrollere Power BI-licensen. Når du bliver bedt om at logge på med en Azure admin-konto. Du kan få flere oplysninger i [Tilknyt til Power BI - én gang](across-working-with-powerbi.md#connect)..
 
 ## <a name="publish-data-as-web-services"></a>Udgive data som webtjenester
 
@@ -65,9 +72,6 @@ Du kan finde flere oplysninger om udgivelse af webtjenester under [Udgive en web
 
 > [!TIP]
 > Du kan få mere at vide om, hvad du kan gøre for at sikre den bedste ydeevne af webtjenester, set fra Business Central Server (slutpunktet) og fra forbrugeren (klienten), ved at læse [Skrive effektive webtjenester](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
-
-
-
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

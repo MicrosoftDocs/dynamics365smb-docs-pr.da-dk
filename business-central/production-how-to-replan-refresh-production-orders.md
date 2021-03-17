@@ -3,19 +3,19 @@ title: Sådan omplanlægges eller fornys produktionsordrer direkte | Microsoft D
 description: Produktionsordrelinjer indeholder de varer, der skal produceres i produktionsordren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6f66d96f03146d60422413c3031405da2338a01f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6fbf41975464256c95d13ae9e485f27b5a1eb5f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759063"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392770"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Omplanlægge eller forny produktionsordrer direkte
 Funktionen **Docs** på produktionsordrer bruges normalt, når du har tilføjet eller ændret komponenter, der opretter underliggende produktionsordrer. Funktionen beregner ændringer, der er foretaget i komponenter og rutelinjer, og omfatter varer på lavere produktionsstyklisteniveauer, som der muligvis oprettes nye produktionsordrer for.  

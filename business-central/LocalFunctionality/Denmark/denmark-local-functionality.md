@@ -3,19 +3,19 @@ title: Lokal funktionalitet for Danmark | Microsoft Docs
 description: I dette afsnit beskrives lokale funktioner i Danmark.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: e0aac63dd10cb70acee908f3b97fdbc66275b583
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f2408da6e6982ac97747ea7900ccc9a7e475eca8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749676"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379465"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 
@@ -34,7 +34,8 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 * Elektronisk fakturering
     * [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md) **Tilgængelig nu**
     * [Konfigurere elektronisk fakturering i OIOUBL](how-to-set-up-oioubl.md) **Tilgængelig nu**
-    * [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md) **Tilgængelig nu** _ _ [OIOUBL-udvidelsen til elektronisk fakturering](ui-extensions-oioubl.md) **Tilgængelig nu**
+    * [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md) **Tilgængelig nu***
+    * [Udvidelsen OIOUBL til elektronisk fakturering](ui-extensions-oioubl.md) **Tilgængelig nu**
     * [Oprette elektroniske dokumenter i et OIOUBL-format](how-to-create-electronic-documents-by-using-oioubl.md) **Tilgængelig nu**
 
 * Løn

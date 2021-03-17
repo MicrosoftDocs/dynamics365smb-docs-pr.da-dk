@@ -3,19 +3,19 @@ title: Sådan allokeres ressourcer | Microsoft Docs
 description: Du kan ændre det årlige beløb på en servicekontrakt eller et kontrakttilbud til det korrekte beløb, der faktureres årligt.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1b790743feb2c32bec1cdb45f69ac30c529e02ac
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ba566597b9dcf8d34b677df759c8c31d200b8584
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757956"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380377"
 ---
 # <a name="allocate-resources"></a>Allokere ressourcer
 Det vigtigste element i servicestyring er de mennesker, der leverer servicen. Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at tildele de relevante personer til de relevante job. Opgaverne kan baseres på servicezoner, hvor personerne befinder sig, eller hvor servicen finder sted. Du kan desuden gruppere ressourcerne, når der reageres på serviceanmodninger. Du kan finde flere oplysninger i [Definere ressourceallokering](service-how-setup-resource-allocation.md).

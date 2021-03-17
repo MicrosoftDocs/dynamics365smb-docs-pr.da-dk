@@ -3,19 +3,19 @@ title: Finde funktioner og oplysninger | Microsoft Docs
 description: I dette emne beskrives det, hvordan du kan bruge handlinger, sider, rapporter, dokumentation og data samt andre programmer og konsulenttjenester.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: aa0bfb351cf1777ec7a8c1bde4d495e7455b9531
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6de3033333e997fa335f085499b81e1caa4146d7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760263"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381675"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Søge efter sider og oplysninger med Fortæl mig  
 I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se komme til f.eks. handlinger, sider eller rapporter, finde oplysninger om, hvordan du udfører en bestemt opgave og finder flere apps og konsulenttjenester til [!INCLUDE[prod_short](includes/prod_short.md)].  

@@ -3,19 +3,19 @@ title: Oprette et bogmærke til et link til en side eller en rapport i dit rolle
 description: Få at vide, hvordan du kan føje et hyperlink til dit rollecenter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1bcbd23658ff2a74ae0ab88b6020e1d859f37355
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747714"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376683"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bogmærke en side eller en rapport i rollecenteret
 Med bogmærkeikonet kan du tilføje en handling, der åbner en side eller en rapport fra navigationsmenuen i dit rollecenter. På den måde kan du hurtigt få adgang til dit foretrukne indhold eller dine forretningsopgaver. Du kan tilføje bogmærket fra målsiden eller rapporten, dvs. det skærmbillede, du vil have linket i rollecenteret til at åbne.

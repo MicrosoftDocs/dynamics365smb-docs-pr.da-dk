@@ -3,19 +3,19 @@ title: Sådan konfigureres nye virksomheder | Microsoft Docs
 description: Du kan konfigurere og tilpasse en ny virksomhed, som du har oprettet. Hvis du vil finjustere din implementering, skal du fortsætte i tre faser for at fuldføre konfigurationen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 886f698d2e2e872530fc8d4bee8395c1f7897c83
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752696"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378394"
 ---
 # <a name="configure-new-companies"></a>Konfigurere nye virksomheder
 Hvis du vil konfigurere en ny virksomhed i løsningsimplementeringen, følger du typisk tre faser. I den første fase indlæser du konfigurationspakken, der er en .rapidstart-fil med konfigurationsoplysningerne. I anden fase skal du ændre konfigurationsoplysningerne og derefter anvende dem på din nye virksomhed. I den endelige fase skal du finde og rette eventuelle fejl.  

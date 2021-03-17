@@ -3,23 +3,23 @@ title: Skifte til et andet firma eller miljø | Microsoft Docs
 description: Hvis du arbejder for flere organisationer, kan du hurtigt skifte mellem miljøerne og virksomhederne.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 10/01/2020
+ms.date: 03/04/2020
 ms.author: bholtorf
-ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2847d3240ed12acf356f6c68f4c0fcb67c362f61
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760413"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573447"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skifte til et andet firma eller miljø
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Du kan finde flere oplysninger om under [Oprettelse af nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
-> Hvis du ofte skifter mellem virksomheder, kan det være nemt at miste orienteringen. For at hjælpe dig med at holde styr på det kan du tilføje et kort, der viser navnet på virksomheden, så du hurtigt kan se, at du er på det rigtige sted. Du kan finde flere oplysninger i [Sådan får du vist en virksomheds kort, så du hurtigt kan få adgang til virksomhedsoplysninger](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
+> Hvis du ofte skifter mellem firmaer eller arbejder med [!INCLUDE[prod_short](includes/prod_short.md)] fra en anden app Microsoft Teams, kan det være nemt at miste numre på det sted, hvor du er. For at hjælpe dig med at holde styr på det kan du tilføje et kort, der viser navnet på virksomheden, så du hurtigt kan se, at du er på det rigtige sted. Du kan finde flere oplysninger i [Sådan får du vist en virksomheds kort, så du hurtigt kan få adgang til virksomhedsoplysninger](ui-change-basic-settings.md#badge).
 
 ## <a name="switch-to-another-environment"></a>Skift til et andet miljø
 

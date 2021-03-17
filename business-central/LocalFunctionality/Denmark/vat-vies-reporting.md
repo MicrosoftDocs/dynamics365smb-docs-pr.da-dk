@@ -3,19 +3,19 @@ title: Momsindberetning | Microsoft Docs
 description: Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen Moms - listeangivelse disk.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bc356dc801a26099fdb6ea0f5ec014c3f0b9cf56
-ms.sourcegitcommit: 378754f6bf88ca6bc173ebf764be02c639e6e6c1
+ms.openlocfilehash: 39860359ca4315ebbb32bbdc2ccea1fa931c7322
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "4570895"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379449"
 ---
 # <a name="vat-vies-reporting"></a>Momsindberetning
 Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen **Moms - listeangivelse disk**.  

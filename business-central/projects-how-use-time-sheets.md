@@ -3,19 +3,19 @@ title: Arbejde med timesedler for sager | Microsoft Docs
 description: Beskriver, hvordan du opretter en timeseddel for en sag, kopierer planlægningslinjer til den, angive arbejdstyper, udfylde timesedlen og sender den til godkendelse.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b53768d7a7757f3f3e186e5d241b318a71c770b
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 42357da17222bf6500667bfdf160124e245d6bb0
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758613"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388344"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Bruge timesedler for sager
 

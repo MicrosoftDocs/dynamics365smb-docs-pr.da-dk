@@ -3,19 +3,19 @@ title: Tildeling og administration af opgaver
 description: Få mere at vide om, hvordan du tildeler opgaver til brugere, herunder bogholderen, i Business Central, og hvordan du afhenter og afslutter opgaver.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd8b774f8dea2762df177ae141730cce8285480e
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: 9b461fbb08c323a2c010f54c3b3e6f2f124844f5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068378"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378869"
 ---
 # <a name="define-user-tasks"></a>Definere brugeropgaver
 

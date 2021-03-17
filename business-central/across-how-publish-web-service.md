@@ -3,16 +3,16 @@ title: Vise objekter som webtjenester
 description: Publicer objekter som webtjenester for at gøre dem umiddelbart tilgængelige for din Business Central-løsning.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 10/08/2020
 ms.author: edupont
-ms.openlocfilehash: 2220b5227cfe0e99a53071829096a67b6aeb0521
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 94a4752abc133e59169209b94a145d2195ce783d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754913"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384620"
 ---
 # <a name="publish-a-web-service"></a>Udgive en webtjeneste
 

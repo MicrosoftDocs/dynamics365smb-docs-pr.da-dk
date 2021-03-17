@@ -3,19 +3,19 @@ title: Forudsige forsinket betaling for salgsdokumenter | Microsoft Docs
 description: Brug vores forudsigelsesmodel til at forudsige, om en faktura vil blive betalt til tiden.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6fc4f700f7469c280474e4a1f606ade24ef1266b
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817049"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386845"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling  
 Det er vigtigt med effektiv styring af skyldige beløb for virksomhedens samlede finansielle tilstand. Udvidelsen Forudsigelse af forsinket betaling kan hjælpe dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategier ved at forudsige, om salgsfakturaer bliver betalt til tiden. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden.

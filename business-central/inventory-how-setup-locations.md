@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cdfee54927dd6e966f1fd1ac0b4e40ba9df1135
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 115efd1c3c3d7a84f73716fbdd37f528f81b65c4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750076"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388020"
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
 Hvis du køber, gemme eller sælger varer i mere end ét område eller lagersted, skal du oprette hver lokation med et lokationskort og definere overflytningsruter.

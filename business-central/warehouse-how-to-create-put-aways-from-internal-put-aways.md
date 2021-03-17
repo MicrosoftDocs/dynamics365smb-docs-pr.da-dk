@@ -1,21 +1,21 @@
 ---
-title: Sådan oprettes læg-på-lager-aktiviteter fra interne læg-på-lager-aktiviteter | Microsoft Docs
+title: Oprette læg-på-lager-aktiviteter fra interne læg-på-lager-aktiviteter
 description: Når varer er blevet lagt på plads, og indtil de plukkes til en produktionsordre eller leverance, opbevares de på lagerstedet og indgår i den disponible lagerbeholdning.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5095b4dde92b2d6982bfc8a984f10f5b62454800
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d0f91182196aebf9b0123225603ed303cd39e66f
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756238"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498608"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plukke og lægge på lager uden et kildedokument
 Når varer er blevet lagt på plads, og indtil de plukkes til en produktionsordre eller leverance, opbevares de på lagerstedet og indgår i den disponible lagerbeholdning.  
@@ -35,15 +35,21 @@ Ved hjælp af **Interne pluk**-aktiviteter kan du udføre læg-på-lager-aktivit
 
 ## <a name="to-create-an-internal-pick"></a>Sådan oprettes et internt pluk  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Internt lagerpluk**, og vælg derefter det relaterede link.  
-2.  Udfyld feltet **Nummer**. og **Til placeringskode** i oversigtspanelet **Generelt**. Feltet **Til placeringskode** angiver den placering, hvor varerne skal hentes. I forbindelse med produktion er denne placering placeringen for indgående produktion eller åben produktion. I andre forbindelser skal du vælge en Til placeringskode med en placeringstype, som ikke bruges til pluk, sandsynligvis en leveranceplacering eller specialplacering.  
-3.  Vælg en vare i feltet **Varenr.** , og indtast de antal, der skal plukkes.  
-4. Vælg handlingen **Opret pluk**. Der er nu en lagerplukinstruktion klar til en lagermedarbejder.  
+2. Vælg handlingen **Ny**.
+3. Udfyld feltet **Nummer**. feltet **Lokationskode** og feltet **Til placeringskode** i oversigtspanelet **Generelt**. Feltet **Til placeringskode** angiver den placering, hvor de plukkede varer skal hentes. I forbindelse med produktion er denne placering placeringen for indgående produktion eller åben produktion. I andre forbindelser skal du vælge en placeringskode med en placeringstype, som ikke bruges til pluk, sandsynligvis en leveranceplacering eller specialplacering.  
+4.  Vælg en vare i feltet **Varenr.** , og indtast de antal, der skal plukkes.  
+5. Vælg handlingen **Opret pluk**. Der er nu en lagerplukinstruktion klar til en lagermedarbejder. Alternativt kan du vælge handlingen **Frigiv** og oprette pluk (logistik) ved hjælp af **Plukkladde**. Du kan finde flere oplysninger i [Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md)
 
 ## <a name="to-create-an-internal-put-away"></a>Sådan oprettes en intern læg-på-lager-aktivitet  
 1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intern læg-på-lager-aktivitet**, og vælg derefter det relaterede link.  
-2.  Udfyld feltet **Nummer**. og **Fra placeringskode** i oversigtspanelet **Generelt**. Feltet **Fra placeringskode** angiver stedet for den placering, som varerne returneres fra til lagerstedet, f.eks. fra produktionsenheden.  
-3.  Angiv varenumre og antal på linjerne.  
-4.  Vælg handlingen **Opret læg-på-lager**. Der er nu en læg-på-lager-instruktion klar til en lagermedarbejder.  
+2. Vælg handlingen **Ny**.
+3. Udfyld hovedet for en ny intern læg-på-lager-aktivitet med **Nr.** og **Lokationskode**.
+4. Udfyld en linje for hver vare, der skal flyttes til lagerstedet. Det er kun nødvendigt at udfylde felterne **Varenr.** og **Antal**.
+
+  > [!NOTE]  
+  > Når du vælger feltet **Varenr.**, åbnes vinduet **Placeringsindholdsoversigt** i stedet for **Vareoversigt**. Det er fordi, du lægger en vare på plads, der skal opbevares på en særlig placering - *Placeringsindhold* - ikke bare en vare, og du ved allerede, hvilken placering varen skal tags fra.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
+5. For at udfylde kladdelinjerne med hele placeringsindholdet eller det filtrerede placeringsindhold for placeringer på lokationen skal du vælge handlingen **Hent placeringsindhold**.  
+6. Vælg handlingen **Opret læg-på-lager**. Der er nu en læg-på-lager-instruktion klar til en lagermedarbejder. Alternativt kan du vælge handlingen **Frigiv** og oprette pluk (logistik) ved hjælp af **Plukkladde**. Du kan finde flere oplysninger i [Planlægge læg-på-lager-aktiviteter i kladder](warehouse-how-to-plan-put-aways-in-worksheets.md)
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  

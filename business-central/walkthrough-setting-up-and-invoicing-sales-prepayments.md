@@ -3,19 +3,19 @@ title: Gennemgang - Opsætning og fakturering af salgsforudbetalinger | Microsof
 description: Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kan f.eks. kræve et depositum, før du fremstiller varer efter ordre, eller du kan kræve betaling, før du sender varerne til en kunde. Du bruger forudbetalingsfunktionen i Business Central til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 636950f569944907b76660dbcf61f5e8ad2b4340
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756413"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385420"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gennemgang: Opsætning og fakturering af salgsforudbetalinger
 

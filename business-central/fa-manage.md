@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cc7c1c14384831c50303d26b0514d053e872b876
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747237"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380098"
 ---
 # <a name="fixed-assets"></a>Anlægsaktiver
 I Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.

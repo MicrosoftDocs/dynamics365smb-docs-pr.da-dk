@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 407bf7cd60416a178e9ec8a5d0b154a7583e87e1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6376c38e2580881a6d3fbb7ffd7661302a448c1a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754838"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384520"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Oprette workflows ud fra workflowskabeloner
 For at spare tid ved oprettelse af nye workflows kan du oprette workflows ud fra workflowskabeloner.  

@@ -4,19 +4,19 @@ description: Du kan få vist oplysninger om varedisponeringen eller -beholdninge
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 40c5b81ec3cb4022e45358020b816cb9d368bb82
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 4961845f9b79f9eaca17b5ac6f379f9d1835f26e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746338"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382450"
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.

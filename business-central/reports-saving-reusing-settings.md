@@ -3,19 +3,19 @@ title: Anvende og ændre gemte indstillinger i rapporter | Microsoft Docs
 description: Beskriver foruddefinerede indstillinger og filtre, der bruges til at tilpasse en rapport og til at generere de korrekte data.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9ae0f8e45c940d2a78d4d383a733ad378e90650
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 70b3f391c141aa53dcef258a131d6395782a4488
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926343"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392545"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Administrere gemte indstillinger for rapporter og kørsler
 Når brugerne kører rapporter, får de normalt vist en side, hvor de kan vælge indstillinger og angive filtre for at ændre, hvilke data der skal medtages i den genererede rapport. Denne side kaldes anmodningssiden. En rapport kan medtage én eller flere *gemte indstillinger*, som brugerne kan anvende til rapporten fra anmodningssiden. *Gemte indstillinger* er grundlæggende foruddefinerede indstillinger og filtre. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data. Du kan finde flere oplysninger under [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).

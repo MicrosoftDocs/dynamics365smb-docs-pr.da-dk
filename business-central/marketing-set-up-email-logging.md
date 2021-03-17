@@ -3,19 +3,19 @@ title: Konfigurer maillogføring | Microsoft Docs
 description: Få at vide, hvordan du ændrer mailinteraktioner mellem sælgere og kunder til reelle salgs-leads.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f099072561e5a35f893a42edbbe6f27a5b4722ed
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a431eba8881eb6bb32e01d67f25ea53981da445e
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749801"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470333"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spore udveksling af mails mellem sælgere og kontakter
 
@@ -65,7 +65,7 @@ I følgende trin antages det, at du bruger Azure Active Directory til at adminis
     > Hvis du ikke angiver URL-adressen til omdirigering, kan du gøre det senere ved at vælge **Tilføj en platform** og derefter vælge **Web**-sted for at tilføje webprogrammet og URL-adressen til omdirigering. 
 
 3. Vælg **Manifest** under **Administrer**.
-4. Find egenskaben **requiredResourceAccess** i manifestet, og tilføj følgende kode i kantede parenteser ([]) for at tilføje de nødvendige tilladelser. Du kan finde flere oplysninger i [Registrere dit program](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application).
+4. Find egenskaben **requiredResourceAccess** i manifestet, og tilføj følgende kode i kantede parenteser ([]) for at tilføje de nødvendige tilladelser. Du kan finde flere oplysninger i [Registrere dit program](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#register-your-application).
 
 ```
 {

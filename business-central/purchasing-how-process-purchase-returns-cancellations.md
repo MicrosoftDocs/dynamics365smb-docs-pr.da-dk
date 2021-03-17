@@ -3,19 +3,19 @@ title: Behandle salgsreturvarer eller annulleringer | Microsoft Docs
 description: Beskriver, hvordan du kan oprette og bogføre en købskreditnota, når du returnerer varer til en leverandør eller annullerer købte tjenester.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0f8cc23b4108b460f4a9c6d890dcfd962b23f9e1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 674d178fca457e7b8b1f73d526245d64fbd6d35a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748739"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383121"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle købsreturvarer eller annulleringer
 

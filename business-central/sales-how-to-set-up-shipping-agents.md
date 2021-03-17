@@ -3,19 +3,19 @@ title: Sådan oprettes speditører | Microsoft Docs
 description: Du kan angive en kode for hver speditør og angive oplysninger om dem.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbd27caed8be1e7231f98964890fafed66c7bbbb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 68c271cc452d60cef8b457f5dc1273279d9cb351
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748214"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382946"
 ---
 # <a name="set-up-shipping-agents"></a>Oprette speditører
 Du kan angive en kode for hver speditør og angive oplysninger om dem.  

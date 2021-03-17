@@ -3,19 +3,19 @@ title: Konfigurere virksomhedskonfiguration | Microsoft dokumenter
 description: Implementeringsprocessen, der begynder med Business Central-løsningen, kræver. Du kan samle alle disse oplysninger i konfigurationspakker.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e9b54a28c960ccdaa41c16cce237266e8cb43a88
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 402595c34d69db0a14fce6eac8f3bb9e0896d06b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4745938"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385270"
 ---
 # <a name="set-up-company-configuration"></a>Konfigurere virksomhedskonfiguration
 Implementeringsprocessen, der begynder med Microsoft-partneren. Partneren er ansvarlig for at gennemtænke konfigurationsdetaljerne og oprettelse af en pakke, der let kan anvendes af en kunde. Før du opretter en ny virksomhed, skal du planlægge, hvordan den konfigureres. Du skal overveje grundlæggende konfigurationsdata og de datatyper, som din [!INCLUDE[prod_short](includes/prod_short.md)]-løsning kræver. Du kan samle alle disse oplysninger i konfigurationspakker.

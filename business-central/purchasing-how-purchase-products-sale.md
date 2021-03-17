@@ -3,19 +3,19 @@ title: Købe varer til salg ved at oprette købsfakturaer | Microsoft Docs
 description: Du kan oprette en købsfaktura for en kreditor eller en leverandør fra en salgsfaktura for at købe produkter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44a11933488ef6f7c6a8b007bdd9ae9049a5b3bc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 32ae014f9d98ceb9c338596d859ec14395ceb6f5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758513"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377057"
 ---
 # <a name="purchase-items-for-a-sale"></a>Købe varer til et salg
 Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.

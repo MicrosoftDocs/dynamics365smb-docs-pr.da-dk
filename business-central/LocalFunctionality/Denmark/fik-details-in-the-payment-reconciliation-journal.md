@@ -3,19 +3,19 @@ title: FIK-detaljer i betalingsudligningskladden | Microsoft Docs
 description: Feltet Transaktionstekst på siden Betalingsudligningskladde viser oplysninger om automatisk udligning af betalinger ved hjælp af den danske FIK-standard.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5e396a6b214383c3ee91c2e081f2fdf0d711e29b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 19ffe060b8df87b67f0f53ef5d72128821871c94
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920204"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379463"
 ---
 # <a name="fik-details-in-the-payment-reconciliation-journal"></a>FIK-detaljer i betalingsudligningskladden
 Feltet **Transaktionstekst** på siden **Betalingsudligningskladde** viser oplysninger om automatisk udligning af betalinger ved hjælp af den danske FIK-standard. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](../../receivables-how-reconcile-payments-auto-application.md).  

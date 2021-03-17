@@ -3,19 +3,19 @@ title: Sådan kan du få vist arkiverede forekomster af arbejdsgangstrin | Micro
 description: Alle fuldførte workflowtrininstanser gemmes på siden **Arkiverede workflowtrininstanser**.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 06cc9aa2eb962e8556cb2f026c9be405deb89bef
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d17f7effca056c665c7c489575701ca10884a38e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924924"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379394"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Vise arkiverede forekomster af arbejdsgangstrin
 Alle fuldførte workflowtrininstanser gemmes på siden **Arkiverede workflowtrininstanser**.  

@@ -3,15 +3,15 @@ title: Administrere lager ved at slette dokumenter eller komprimere data
 description: Få mere at vide om, hvordan du kan bevare dine historiske oplysninger ved at komprimere poster eller slette den.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753863"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493043"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrere lager ved at slette dokumenter eller komprimere data
 
@@ -47,7 +47,13 @@ Du kan komprimere følgende datatyper [!INCLUDE [prod_short](includes/prod_short
   Efter komprimering kan du med funktionen **Bevar feltindhold** vælge at bevare indholdet i felterne **Dokumentnr., Vores kontakt**, **Global dimension 1-kode** og **Global dimension 2-kode**.
 * Kreditorposter
 
-  Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsdato**, **Kreditornr.**, **Dokumenttype**, **Valutakode**, **Bogføringsgruppe**, **Beløb**, **Resterende beløb**, **Oprindeligt beløb (LCY)**, **Resterende beløb (LCY)**, **Beløb (LCY)**, **Køb (LCY)**, **Fakturarabat (LCY)**, **Ydet kont.rabat (LCY)** og **Mulig kontantrabat**.
+> [!NOTE]
+> Komprimerede poster for debitorer, kreditorer, bank-og Anlægsposter bogføres en smule anderledes end standard bogføring. Det er at reducere antallet af nye finansposter, der er oprettet ved datokomprimering, og det er specielt vigtigt, når du gemmer oplysninger som f. eks. dimensioner og dokumentnumre. Datokomprimering opretter nye poster på følgende måde:
+>* På siden **Finansposter** oprettes nye poster med nye løbenumre for de komprimerede poster. Feltet **Beskrivelse** indeholder **Datokomprimeret**, så de komprimerede poster nemt kan identificeres. 
+>* På Finanssider, f. eks. siden **Debitorposter** oprettes der en eller flere poster med nye løbenumre. 
+> Bogføringsprocessen skaber huller i nummerserien til poster på siden **Finansposter**. Disse numre tildeles kun poster på finans sider. Det nummerinterval, der er knyttet til posterne, er tilgængeligt på siden **Finansjournal** i felterne **Fra løbenr.** og **Til løbenr.** 
+
+Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsdato**, **Kreditornr.**, **Dokumenttype**, **Valutakode**, **Bogføringsgruppe**, **Beløb**, **Resterende beløb**, **Oprindeligt beløb (LCY)**, **Resterende beløb (LCY)**, **Beløb (LCY)**, **Køb (LCY)**, **Fakturarabat (LCY)**, **Ydet kont.rabat (LCY)** og **Mulig kontantrabat**.
 
   Desuden kan du bruge funktionen **Bevar feltindhold** til at bevare oplysningerne i følgende felter: **Dokumentnr.**, **Kreditornr.**, **Indkøberkode**, **Global dimension 1-kode** og **Global dimension 2-kode**.
 

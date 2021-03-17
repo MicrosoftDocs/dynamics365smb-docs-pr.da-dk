@@ -3,19 +3,19 @@ title: Sådan planlægges ordre for ordre | Microsoft Docs
 description: Denne planlægningsopgave kan udføres på siden **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62f5254da05749c2da4690e7d49488af852ac67a
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 1cc5ab20c89a1f58bf85a769ad45590bf234931c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013840"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381286"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planlægge efter nyt behov ordre for ordre
 Denne planlægningsopgave kan udføres på siden **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.  

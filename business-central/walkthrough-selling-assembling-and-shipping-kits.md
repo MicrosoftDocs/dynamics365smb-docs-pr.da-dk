@@ -3,19 +3,19 @@ title: Gennemgang - Salg, montering og levering af pakker | Microsoft Docs
 description: For at støtte en for JIT-lagerstrategi og muligheden for at tilpasse produkter til debitorkrav, kan montageordrer automatisk oprettes og tilknyttes, så snart salgsordrelinjen er oprettet. Kæden mellem salgsbehov og montagelevering giver salgsordrebehandlere mulighed for at tilpasse montageelementet automatisk og love leveringsdatoer i henhold til komponentens tilgængelighed. Desuden bogføres montageforbrug og afgang automatisk med leverancen af den tilknyttede salgsordre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: a3cfba18f15cf64576fca2cf8a86f7f55652e44f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035502"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385745"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
 

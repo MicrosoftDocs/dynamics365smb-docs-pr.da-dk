@@ -3,19 +3,19 @@ title: Gennemgang - Sporing af serie-lotnumre | Microsoft Docs
 description: I dette emne beskrives de handlinger, der skal udføres for at stoppe salget af en defekt vare.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756363"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385720"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
 
@@ -25,7 +25,7 @@ Når der forekommer fejlbehæftede produkter, skal fejlene identificeres, og de 
 
 Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, hvor de fejlbehæftede varer kom fra, og hvor de bruges. Denne undersøgelse er baseret på historiske data og gøres lettere ved at søge på varesporingsposterne ved hjælp af siden **Varesporing**.  
 
-Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, om der er foretaget planlægning for de sporede varer i åbne dokumenter, som f.eks. ikke-bogførte salgsordrer eller forbrugskladder. Dette arbejde udføres på siden Find poster. Du kan bruge funktionen Find poster til at søge efter alle typer databaseposter.  
+Den første opgave i forbindelse med administrationen af fejlbehæftede varer er at finde ud af, om der er foretaget planlægning for de sporede varer i åbne dokumenter, som f.eks. ikke-bogførte salgsordrer eller forbrugskladder. Dette arbejde udføres på siden **Find poster**. Du kan bruge funktionen Find poster til at søge efter alle typer databaseposter.  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang
 

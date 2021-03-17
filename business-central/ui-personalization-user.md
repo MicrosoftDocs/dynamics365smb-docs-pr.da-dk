@@ -3,19 +3,19 @@ title: Tilpasse sider | Microsoft Docs
 description: Få at vide, hvordan du kan tilpasse brugergrænsefladen, så den passer til din måde at arbejde på i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4b112bf05c1bbc6110ce3b5a439c81a96759d1bf
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 083692ce38e9403705c6d683afb58a17dbecec90
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756763"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393795"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.

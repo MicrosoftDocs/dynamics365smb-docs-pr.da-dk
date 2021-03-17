@@ -1,6 +1,6 @@
 ---
 title: Introduktion til Business Central og Power BI| Microsoft Docs
-description: Du kan nemt få indsigt, business intelligence og nøgletal i dine Business Central-data med Business Central-apps for Power BI.
+description: Få over brug af Power BI for at få indsigt, business intelligence og KPI'er fra Business Central-data.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 51c9e2cd05deba5fd8ace46382ebeb4eb41d13ba
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9768fca2bea274a8124c34e151d399baa23f9f03
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753738"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493113"
 ---
 # <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
 
@@ -24,15 +24,14 @@ Det er nemt at få indblik i dine [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ![Power BI og Business Central](media/power-bi-intro.png)
 
-
 ## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Hvad du kan gøre med Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Du kan arbejde med forskellige funktioner i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Nogle ting kan du foretage dig i Power BI, mens andre ting sker fra [!INCLUDE[prod_short](includes/prod_short.md)]. Nogle funktioner er også tilgængelige med [!INCLUDE[prod_short](includes/prod_short.md)] online, men ikke i det lokale miljø. Følgende tabel giver dig et overblik.
 
 |Funktion|Beskrivelse|Online|I det lokale miljø|Flere oplysninger|
 |-------|-----------|--------------|-----------|----------------|
-|Se [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI|Du kan få vist dine data fra [!INCLUDE[prod_short](includes/prod_short.md)] i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online indeholder nogle foruddefinerede Power BI-rapporter. Eller din organisation har måske oprettet nogle brugerdefinerede rapporter, som er tilgængelige for dig.|![Arbejder online](media/check.png)|![Arbejder i det lokale miljø](media/check.png)|[Se...](across-working-with-powerbi.md)|
-|Se Power BI-rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.| Power BI-rapporter, der viser [!INCLUDE[prod_short](includes/prod_short.md)]-data, kan integreres direkte på dele af [!INCLUDE[prod_short](includes/prod_short.md)]-sider. Du kan ændre delen, så den viser enhver rapport, der er tilgængelig for dig. |![arbejder online](media/check.png)|![Arbejder i det lokale miljø](media/check.png)<sup>[*](#onprem)</sup>|[Se...](across-working-with-business-central-in-powerbi.md).|
+|Se [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI|Du kan få vist dine data fra [!INCLUDE[prod_short](includes/prod_short.md)] i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online indeholder nogle foruddefinerede Power BI-rapporter. Eller din organisation har måske oprettet nogle brugerdefinerede rapporter, som er tilgængelige for dig.|![Arbejder online](media/check.png)|![Arbejder i det lokale miljø](media/check.png)|[Se...](across-working-with-business-central-in-powerbi.md)|
+|Se Power BI-rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.| Power BI-rapporter, der viser [!INCLUDE[prod_short](includes/prod_short.md)]-data, kan integreres direkte på dele af [!INCLUDE[prod_short](includes/prod_short.md)]-sider. Du kan ændre delen, så den viser enhver rapport, der er tilgængelig for dig. |![arbejder online](media/check.png)|![Arbejder i det lokale miljø](media/check.png)<sup>[*](#onprem)</sup>|[Se...](across-working-with-powerbi.md).|
 |Opret rapporter og dashboards i Power BI, som viser [!INCLUDE[prod_short](includes/prod_short.md)]-data.|Brug Power BI Desktop til at oprette dine egne rapporter og dashboards. Du kan udgive rapporterne til din egen Power BI-tjeneste eller dele dem med andre i din organisation.|![Arbejder online](media/check.png)|![arbejder i det lokale miljø](media/check.png)|[Se...](across-how-use-financials-data-source-powerbi.md)
 |[!INCLUDE[prod_short](includes/prod_short.md)]-apps i Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publicerer tre apps til Power BI på Microsoft AppSource. Disse apps opretter detaljerede rapporter og dashboards i din Power BI-tjeneste, så du kan se [!INCLUDE[prod_short](includes/prod_short.md)]-data. Tilgængelige apps omfatter: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Arbejder online](media/check.png)||[Se...](across-powerbi-business-central-apps.md)
 
@@ -47,7 +46,7 @@ Der er nogle få opgaver, der skal udføres, før du kan bruge Power BI sammen m
 2. Udgiv data som webtjenester.
 
     Codeunits, sider og forespørgsler, som du vil bruge som datakilder i Power BI-rapporter, skal udgives som webtjenester. Der udgives mange webtjenester som standard. En nem måde at finde webtjenesterne på er at søge efter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)].
-    
+
     Du kan finde flere oplysninger om udgivelse af webtjenester under [Udgive en webtjeneste](across-how-publish-web-service.md).
 
 3. Få en Power BI-konto.

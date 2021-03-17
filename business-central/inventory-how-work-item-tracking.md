@@ -3,19 +3,19 @@ title: Tildele serienumre og lotnumre til varer til sporing | Microsoft Docs
 description: Du kan tilføje serienumre og lotnumre til ethvert udgående eller indgående bilag, og dets posterede varesporing vises i de tilknyttede vareposter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1ffb80f4571e96dcaa8acfbcb106f7fb582b4783
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746087"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377569"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbejde med serienumre og lotnumre
 Du kan tildele serienumre og lotnumre til ethvert udgående eller indgående bilag, og dets posterede varesporing vises i de tilknyttede vareposter. Du kan udføre arbejdet på siden **Varesporingslinjer**, som du kan åbne fra et indgående eller udgående dokument.
@@ -226,9 +226,9 @@ Hvis du vil knytte specielle oplysninger til et bestemt varesporingsnummer, f.ek
 5. Vælg handlingen **Kommentar** for at oprette en separat kommentar.  
 6. Markér afkrydsningsfeltet **Spærret** for at udelade serienummeret eller lotnummeret i alle transaktioner.  
 
-Hvis du opretter serienumre i bulk ved hjælp af funktionen **Opret brugerdefineret serienr.** eller **Tildel serienr. antal**-handlinger, kan du aktivere **Opret Serienr. oplysninger**, og der oprettes et oplysningskort for hver sporingslinje.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-Alternativelly du kan oprette et oplysningskort, når du bogfører kladder eller bilag på siden **Varesporingskode**, aktivere **Opret serienumreoplysninger ved bogføring** eller skifte til **Opret serienumreoplysninger ved bogføring**. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 Du kan ændre oprettede serie- eller lotnumre på et senere tidspunkt.
 

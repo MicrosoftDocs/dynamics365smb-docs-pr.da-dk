@@ -3,19 +3,19 @@ title: Afstemme kreditorbetalingskvitteringer eller refusioner i udbetalingsklad
 description: For at behandle, matche og afstemme kreditorbetalinger og refusioner manuelt kan du udligne beløbet med en eller flere åbne kreditorposter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f88f7df150f988b0d365b383a89a778a0dc9a15
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: e0fab7592bd8316c2a8f90f2cf21d6874f6396f6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013663"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383871"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Afstemme kreditorbetalinger med udbetalingskladden eller fra kreditorposter
 Når du sender en betaling eller modtager en fra en kreditor, skal du beslutte, om betalingen skal udlignes eller refunderes på en eller flere åbne poster. Du kan f.eks. angive det nøjagtige beløb, som du vil udligne med betalingen, og dermed kun delvist udligne kreditorposter. Det er vigtigt, at du på et vist tidspunkt lukker (udligner) alle kreditorposter for at få korrekte kreditorstatistikker og rapporter over kontoudtog og finansændringer.

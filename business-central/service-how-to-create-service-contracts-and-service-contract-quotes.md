@@ -3,19 +3,19 @@ title: Sådan arbejder du med servicekontrakter og servicekontrakttilbud | Micro
 description: Du kan oprette en servicekontrakt manuelt eller ud fra et servicekontrakttilbud. Du kan oprette en kontrakt baseret på et servicekontrakttilbud.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 60cbb65da2de80ad19bb30e3023a4b3a801244ab
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: dffa11eeb39cd2246ac97284ec4bcfcbb2977539
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747964"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390395"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbejde med servicekontrakter og servicekontrakttilbud
 Du kan oprette en servicekontrakt manuelt eller ud fra et servicekontrakttilbud. Du kan bruge et servicekontrakttilbud som en forløber for en servicekontrakt, hvor din virksomhed giver kunden et tilbud og opnår kundens godkendelse, inden du kan konvertere det til en servicekontrakt. Proceduren for oprettelse af en servicekontrakt eller et servicekontrakttilbud er meget ens.  

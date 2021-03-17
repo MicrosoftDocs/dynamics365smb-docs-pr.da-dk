@@ -3,17 +3,17 @@ title: Om søgning og filtrering i Business Central
 description: Svar på ofte stillede spørgsmål om søgning og filtrering.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 11/16/2020
 ms.author: mikebc
-ms.openlocfilehash: b993fd047db09b1dc412d9927168aa0233c057a6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: debbf621795564344f11609236b2faac397c6762
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756713"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386795"
 ---
 # <a name="searching-and-filtering-faq"></a>Ofte stillede spørgsmål om søgning og filtrering
 Denne artikel indeholder svar på almindelige spørgsmål om søgning og filtrering.

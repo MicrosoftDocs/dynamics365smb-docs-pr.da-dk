@@ -1,23 +1,21 @@
 ---
-title: Flet dobbeltregistreringer på kunder og leverandører | Microsoft Docs
-description: Beskriver, hvordan du opretter et debitorkort for at registrere oplysninger om hver ny kunde, du sælger til.
-services: project-madeira
-documentationcenter: ''
+title: Flette dobbeltregistreringer på kunder og leverandører
+description: Beskriver, hvordan du kan konsolidere oplysninger om debitorer eller kreditorer, når du har dubletter af poster.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 04034406154dddfabe44a9fd62e0a793981e7f69
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f79035d6bfa841f6bf9e82acc4bd4cdc45e1bc28
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748354"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573472"
 ---
 # <a name="merge-duplicate-records"></a>Flet dobbeltregistrerede records
 Efterhånden som brugere opretter ny kunde, leverandør eller kontaktkort igennem længere tid, eller der oprettes nye records automatisk under migration, kan en kunde, leverandør eller kontakt være repræsenteret i systemet med mere end en record. I dette tilfælde kan du benytte siden **Flet dobbeltregistrering** fra record-kortet, som du ønsker at beholde. Siden giver dig et overblik over dobbeltregistrerede værdier og leverer funktioner til at udvælge, hvilke værdier, der skal beholdes og slettes henholdsvis, når du fletter to records til en.

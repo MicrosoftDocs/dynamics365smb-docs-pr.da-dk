@@ -3,19 +3,19 @@ title: Anvende konfiguration på nye virksomheder | Microsoft Docs
 description: Når du har oprettet en konfigurationspakke, er næste trin at udrulle pakken til din kunder til implementering. Du kan bruge konfigurationen med en ny tom virksomhed.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d62d28f74cbbc0971dbe29dbe0cf719eabc9fe6e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc93e248b0691a23b9937579cd16213d1d6c2ae5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927168"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378769"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Anvende konfigurationer på nye virksomheder
 Når du har oprettet en konfigurationspakke, er næste trin at udrulle pakken til din kunder til implementering. Du arbejder med konfigurationspakken i en ny tom virksomhed.  

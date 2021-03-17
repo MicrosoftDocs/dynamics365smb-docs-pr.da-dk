@@ -3,19 +3,19 @@ title: Oprette forretningskontakter
 description: Beskriver opgaverne til oprettelse af kontakter og definition af forretningsrelationer.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 42645a038c3937644fe90ce895ee454e1d1b5d5c
-ms.sourcegitcommit: fe6943d410f5dca4e8b2986f95501009ae982d98
+ms.openlocfilehash: f07bc493a88f7ce46d3845a97774d0971c0fe5ba
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "4827039"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388895"
 ---
 # <a name="create-contacts"></a>Oprette kontakter
 Når du udvikler en forretningsrelation til en person i et andet firma, kan du tilføje dem som en kontakt i [!INCLUDE[prod_short](includes/prod_short.md)]. Tilføj derefter alle oplysninger om dem eller deres firma, som kan være nyttige i forbindelse med fremtidige meddelelser. På siden **Kontaktkort** kan du oprette følgende typer kontakter:

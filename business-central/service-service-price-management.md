@@ -3,19 +3,19 @@ title: Serviceprisstyring | Microsoft Docs
 description: I dette emne beskrives, hvordan du anvender den bedste pris på serviceordrer, at oprette personlige serviceprisaftaler for debitorer, at forbedre servicemedarbejdernes effektivitet og at forbedre faktureringsprocessen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 269c184928417d3e7dbd25e9f4fc94d66ae2547a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6877f50094874ce6e54b3a524254dfcba0c43468
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913092"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476716"
 ---
 # <a name="service-price-management"></a>Serviceprisstyring
 Funktionen til serviceprisstyring gør det muligt at angive den bedste pris på serviceordrer, at oprette personlige serviceprisaftaler for debitorer, at forbedre servicemedarbejdernes effektivitet og at forbedre faktureringsprocessen.  
@@ -29,11 +29,13 @@ Inden prisen for en serviceartikel i en serviceordre reguleres, vises en oversig
 Ved hjælp af statistikker for serviceprisgrupper og standardrapporter kan du holde styr på rentabiliteten for hver serviceprisgruppe.  
   
 ## <a name="service-price-adjustment-groups"></a>Serviceprisreguleringsgrupper  
-Du bruger serviceprisreguleringsgrupper til at oprette forskellige typer prisreguleringer. Du kan f.eks. oprette en serviceprisreguleringsgruppe, der regulerer priserne på reservedele, en, der regulerer priser for arbejdskraft, en, der regulerer priser på omkostninger, osv. Du kan også angive, om serviceprisregulering kun skal anvendes på én specifik vare eller ressource eller på alle varer eller ressourcer.  
+Du bruger serviceprisreguleringsgrupper til at oprette forskellige typer prisreguleringer til servicelinjer. Du kan f.eks. oprette en serviceprisreguleringsgruppe, der regulerer priserne på reservedele, en, der regulerer priser for arbejdskraft, en, der regulerer priser på omkostninger, osv. Du kan også angive, om serviceprisregulering kun skal anvendes på én specifik vare eller ressource eller på alle varer eller ressourcer.  
   
-Hver serviceprisreguleringsgruppe indeholder oplysninger om reguleringer, som du vil foretage på servicelinjerne.  
-  
-Serviceprisreguleringsfunktionen gælder ikke de serviceartikler, der hører til servicekontrakter. Du kan kun regulere servicepriserne på de artikler, der er en del af en serviceordre. Du kan ikke regulere prisen på en serviceartikel, hvis den dækkes af en garanti. Du kan ikke justere prisen på en serviceartikel i en serviceordre, hvis den tilknyttede servicelinje er bogført som faktura, enten helt eller delvist.  
+Serviceprisreguleringsfunktionen gælder ikke de serviceartikler under følgende betingelser:
+
+* Varen hører til servicekontrakter. Du kan kun regulere servicepriserne på de artikler, der er en del af en serviceordre. 
+* Hvis serviceartiklen har en garanti. 
+* Hvis servicelinjen er bogført som faktura, enten helt eller delvist.  
   
 Når du bruger funktionen til serviceprisregulering, erstattes alle rabatter i ordren med værdierne i serviceprisreguleringen.  
   
@@ -48,6 +50,12 @@ Når du tildeler en serviceprisgruppe til en serviceartikel, vil alle særlige s
 Du definerer de faktiske typer serviceprissætning (prisreguleringstype og pris) for en kombination af serviceprisgrupper og debitorprisgrupper. For hver type serviceprissætning skal du vælge en serviceprisreguleringsgruppe. Du skal også angive prisreguleringstypen, fast, maksimum eller minimum, og den faktiske pris.  
   
 Du kan f.eks. definere serviceprissætningstyper for en radioreparationsprisgruppe. For kunder uden prisgruppe kan du bestemme, at du vil have en serviceprisgruppe med maksimumspris på arbejde, arbejdsprisreguleringsgruppen. For kunder i en bestemt prisgruppe kan du bestemme, at du vil have serviceprissætning med fast pris på arbejde, dvs. samme arbejdsprisreguleringsgruppe.  
+
+#### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceartikler**, og vælg derefter det relaterede link.  
+2. Vælg serviceartiklen, udvid oversigtspanelet **Priser og salg**, vælg **Ressource**, **Vare** eller **Finanskonto**.
+3. Udfyld felterne efter behov i **Salgsressourcepriser**, **Salgsvarepriser** eller **Sagsfinanskontopriser**.
+
   
 ## <a name="service-price-adjustment"></a>Serviceprisregulering  
 Ved hjælp af serviceprisreguleringer kan du regulere prisen på en vare, ressource, finanskonto eller omkostning i en serviceordre.  

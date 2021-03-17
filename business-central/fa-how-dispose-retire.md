@@ -3,19 +3,19 @@ title: Afhænde eller lade anlæg udgå | Microsoft Docs
 description: Når du kasserer, sælger eller lader et anlægsaktiv udgå, skal du bogføre en salgsværdi.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 16d052c67a2d9b5513e9dac901dfeddce0527512
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 762f14992f9834c557da7ed193b93a661d6b4b2e
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749414"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381438"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Afhænde eller lade anlægsaktiver udgå
 

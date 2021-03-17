@@ -3,19 +3,19 @@ title: Føje vedhæftede filer, links og noter til poster | Microsoft Docs
 description: Indsæt et hyperlink i et dokument eller websted til en bestemt post, f.eks. en debitor eller et dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d13ffa03e4a123158e2f350ff9eab5e274741b5
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6aa7018a43db8c663c209894e118518c3de2f7cf
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760563"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393875"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 

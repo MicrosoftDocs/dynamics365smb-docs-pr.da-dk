@@ -3,19 +3,19 @@ title: Planlægge sager til at køre automatisk
 description: Planlagte sager styres af opgavekøen. Disse sager kører rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 29b5b3f633b0fd9fcac648f0bf7149b87ae0b20d
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 074a110a4aac42d9b6058e377c45de0c23409bb2
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013942"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470258"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Du kan bruge opgavekøer til at planlægge opgaver
 
@@ -57,7 +57,7 @@ I følgende tabel beskrives værdierne i feltet **Status**.
 2. På siden **Opgavekøposter** skal du vælge en opgavekøpost og derefter vælge **Logposter**-handlingen.  
 
 > [!TIP]
-> Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du også få vist status for opgavekøposter ved hjælp af Application Insights i Microsoft Azure. Du kan finde flere oplysninger i analyse af funktionen [Analyse af Job Queue Lifecycle Trace Telemetry](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace) i [!INCLUDE [prod_short](includes/prod_short.md)] Developer and IT Pro hjælp.
+> Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du også få vist status for opgavekøposter ved hjælp af Application Insights i Microsoft Azure. Du kan finde flere oplysninger i analyse af funktionen [Analyse af Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) i [!INCLUDE [prod_short](includes/prod_short.md)] Developer and Administration-indhold.
 
 ## <a name="the-my-job-queue-part"></a>Delen Min opgavekø
 Delen **Min opgavekø** i dit rollecenter viser de poster i opgavekøen, som du har startet, men som ikke er færdige endnu. Som standard er delen ikke synlig, så du skal føje den til dit rollecenter. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).  
@@ -92,7 +92,7 @@ Du kan finde flere oplysninger i [Sådan konfigureres baggrundsbogføring med op
 [Opsætning](admin-setup-and-administration.md)  
 [Konfigurere Business Central](setup.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
-[Analysere Job Queue Lifecycle Trace Telemetry](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+[Analysere Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

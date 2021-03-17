@@ -3,19 +3,19 @@ title: Åbn vareposter
 description: Få mere at vide om, hvorfor lagerniveauet er nul, selvom der findes åbne vareposter.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8cb3aa1df0c67af09f0353504abceb2529df9f2f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b41403ce77623bc61b564dd4f93cf59b8a09764c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751400"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389820"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designoplysninger: Kendt problem med vareudligning
 Denne artikel vedrører et problem, hvor lagerniveauet er nul, selvom der findes åbne vareposter [!INCLUDE[prod_short](includes/prod_short.md)].  

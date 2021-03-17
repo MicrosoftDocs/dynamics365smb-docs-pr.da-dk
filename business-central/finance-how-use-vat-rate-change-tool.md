@@ -3,18 +3,18 @@ title: Styre ændringer af momssats | Microsoft Docs
 description: Få mere at vide om, hvordan du bruger momssatsændringsværktøjet til Dynamics 365 Business Central.
 author: andregu
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 9d01d332457d85c0450cdf98c79778b18eba304e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6b50f5dc70764cd601648af5182626b143d54874
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746787"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380934"
 ---
 # <a name="managing-vat-rate-changes"></a>Styre ændringer af momssats
 

@@ -1,21 +1,21 @@
 ---
-title: Oprette et debitorkort for at registrere nye kunder | Microsoft Docs
+title: Registrere nye debitorer ved at oprette debitorkort
 description: Beskriver, hvordan du opretter et debitorkort for at registrere oplysninger om hver ny kunde, du sælger til.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748315"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573422"
 ---
 # <a name="register-new-customers"></a>Registrere nye debitorer
 
@@ -64,6 +64,29 @@ Debitorskabelonen føjes til listen over debitorskabeloner, så du kan bruge den
 
 Hvis du har bogført en postering for en debitor, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette debitorkort med poster, skal du kontakte din Microsoft-partner for at gøre dette via kode.  
 
+## <a name="managing-credit-limits"></a>Administrere kreditgrænser
+
+Kreditgrænser, saldobeløb og betalingsbetingelser gør det f.eks. muligt for [!INCLUDE [prod_short](includes/prod_short.md)] at udstede kredit og en forfaldsadvarsel, når du behandler en salgsordre.  Desuden kan du med rykker- og rentebetingelserne fakturere rente og/eller opkrævningsgebyrer.  
+
+Feltet **Kreditmaksimum** på debitorkortet angiver det maksimale beløb, som du tillader, at debitoren overskrider betalings saldoen, før der udstedes advarsler. Når du derefter indtaster oplysninger i kladder, tilbud, ordrer og fakturaer, [!INCLUDE [prod_short](includes/prod_short.md)] tester salgshovedet og de enkelte salgslinjer, om kreditmaksimum er overskredet.
+
+Du kan bogføre, selv om kreditgrænsen er overskredet. Hvis ikke feltet udfyldes, betyder det, at der ikke er nogen kreditgrænse for debitoren.  
+
+Du kan vælge ikke at få vist advarsler om, at debitorens kreditmaksimum er overskredet, og du kan angive, hvilke typer advarsel du vil se.
+
+### <a name="to-specify-credit-limit-warnings"></a>Sådan angiver du advarsler om kreditmaksimum
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsopsætning**, og vælg derefter det relaterede link.
+
+2. I oversigtspanelet **Generelt** i feltet **Kreditmeddelelser** skal du vælge den relevante indstilling som beskrevet i følgende tabel:
+
+    |Indstilling| Description|
+    |------|------------|
+    |**Begge advarsler**| Både feltet **Kreditmaksimum** og feltet **Forf. beløb** på debitorkortet kontrolleres, og der vises en advarsel, hvis kunden har overskredet kreditmaksimum, eller hvis kunden har et forfaldent beløb.|
+    |**Kreditmaksimum**|Værdien i feltet **Kreditmaksimum** på debitorkortet sammenlignes med kundens saldo, og der vises en advarsel, hvis kundens saldo overskrider dette beløb.|
+    |**Forfaldne beløb**|Feltet **Forf. beløb** på debitorens kort kontrolleres, og en advarsel vises, hvis debitorens saldo er forfalden.|
+    |**Ingen advarsel**|Der vises ingen advarsler om debitorens status.|
+
 ## <a name="see-also"></a>Se også
 
 [Definere betalingsformer](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ Hvis du har bogført en postering for en debitor, kan du ikke slette kortet, da 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

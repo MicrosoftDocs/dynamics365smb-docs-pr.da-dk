@@ -3,19 +3,19 @@ title: Konfigurere Service-processer | Microsoft Docs
 description: Få at vide, hvordan du konfigurerer processer, der er med til at sikre, at dine kunder er tilfredse med din kundeservice.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f132b6595038aabfdc37a6408175a5780b4be0f5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7466685a55ac8a5e9eea4bb6fa7eadcc4b6d1155
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913017"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391670"
 ---
 # <a name="configure-service-processes"></a>Konfigurere serviceprocesser
 Følgende er nogle eksempler på de indstillinger, du kan anvende på Service-processer:  

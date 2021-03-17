@@ -3,19 +3,19 @@ title: Oversigt over opgaver til konfiguration af salgsprocesser | Microsoft Doc
 description: Beskriver opgaver til oprettelse af regler og værdier, som du kan bruge til at definere virksomhedens salgspolitikker og -processer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 83b27cbc0b1ddfe3114995218bc29c282d3508ca
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 2a7964b255f78fa599ab58f66cb9425befaa038d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393320"
 ---
 # <a name="setting-up-sales"></a>Konfigurere salg
 Før du kan administrere salgsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens salgspolitikker.

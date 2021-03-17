@@ -3,19 +3,19 @@ title: 'Fremgangsmåde: Begrænse og tillade brug af en post | Microsoft Docs'
 description: Hvis du vil begrænse brugen af en record, f.eks. i bestemte aktiviteter, kan du integrere to arbejdsgangssvar i en arbejdsgang, der styrer forbruget af posten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 519ef244f83937407c17311c7fb7e6bb103431de
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1c748bd115b17acf925a99f89f538cc9eca41bc3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754738"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384395"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Begrænse og tillade brugen af en record
 Hvis du vil begrænse brugen af en record, f.eks. i bestemte aktiviteter, kan du integrere to arbejdsgangssvar i en arbejdsgang, der styrer forbruget af posten. Et arbejdsgangsvar begrænser brugen af posten, som defineret i arbejdsganghændelsen og -betingelserne. Et andet arbejdsgangsvar tillader brug af posten, som defineret i arbejdsganghændelsen og -betingelserne. Der findes to svar i den generelle version af [!INCLUDE[prod_short](includes/prod_short.md)] til dette formål: **Begræns brugen af en record.** og **Tillad brugen af en record**.

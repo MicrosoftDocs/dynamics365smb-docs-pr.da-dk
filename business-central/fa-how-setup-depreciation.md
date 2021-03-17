@@ -1,30 +1,29 @@
 ---
-title: Definere anlægsafskrivning | Microsoft Docs
+title: Opsætte anlægsafskrivning
 description: Du bruger en afskrivningsprofil til at angive, hvordan anlægsaktiver skal afskrives eller nedskrives.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749265"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493224"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
- Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning såsom saldoafskrivning. Du kan definere afskrivningsmetoden for anlægsaktivet med feltet **Afskrivningsmetode** på siden **Anlægskort**. Du kan finde yderligere oplysninger om de forskellige metoder under [Afskrivningsmetoder ](fa-depreciation-methods.md).
 
- I de afskrivningsprofiler, du definerer de forskellige afskrivninger, skal der beregnes for de forskellige anlægsaktiver. I hver enkelt bog kan du angive individuelle afskrivningsbetingelser. For en profil kan du f.eks. angive, at anlægsaktivet skal afskrives over 3 år, og i en anden profil over fem år.
+Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning såsom saldoafskrivning. Du kan definere afskrivningsmetoden for anlægsaktivet med feltet **Afskrivningsmetode** på siden **Anlægskort**. Du kan finde yderligere oplysninger om de forskellige metoder under [Afskrivningsmetoder ](fa-depreciation-methods.md).
 
- Når du har oprettet de relevante afskrivningsprofiler, skal du tildele en eller flere afskrivningsprofiler til hvert anlægsaktiv. En afskrivningsprofil, der er tildelt til et anlægsaktiv, kaldes en anlægsafskrivningsprofil. Du kan opsætte et ubegrænset antal afskrivningsprofiler for et anlæg. 
+Du kan konfigurere de afskrivningsprofiler, du definerer de forskellige afskrivninger, skal der beregnes for de forskellige anlægsaktiver. Hver afskrivningsprofil angiver individuelle afskrivningsbetingelser. For en profil kan du f.eks. angive, at anlægsaktivet skal afskrives over 3 år, og i en anden profil over fem år.
+
+Når du har oprettet de relevante afskrivningsprofiler, skal du tildele en eller flere afskrivningsprofiler til hvert anlægsaktiv. En afskrivningsprofil, der er tildelt til et anlægsaktiv, kaldes en anlægsafskrivningsprofil. Du kan opsætte et ubegrænset antal afskrivningsprofiler for et anlæg.  
 
 ## <a name="to-create-a-depreciation-book"></a>Sådan oprettes en afskrivningsprofil
+
 I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives. Du kan definere flere afskrivningsprofiler for at tage højde for forskellig slags afskrivningsmetoder.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.
@@ -32,9 +31,14 @@ I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives
 3. På siden **Afskrivningsprofilkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af om transaktionerne, der er til finansiel rapportering eller intern administration. Udfør næste trin for at angive, hvilken type kladden der som standard bruges til de forskellige anlægsaktiviteter.
+    > Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af om transaktionerne, der er til finansiel rapportering eller intern administration. Udfør næste trin for at angive, hvilken type kladden der som standard bruges til de forskellige anlægsaktiviteter.
 4. På oversigtspanelet **Integration** skal du markere afkrydsningsfeltet for hvert anlægsaktivitet, hvis transaktioner skal bogføres ved hjælp af siden **Anlægskassekladde**.
 5. Gentag trin 2 til 4 for hver afskrivningsmetode eller bogføringsmetode, du vil tildele til anlægsaktiver som en afskrivningsprofil.
+
+> [!IMPORTANT]
+> Marker feltet **Brug afrunding i per. afskr. afskrivning** for at afrunde de beregnede afskrivningsbeløb til hele tal. Hvis virksomheden f.eks. også anvender fakturaafrunding til hele tal på siden **Regnskabsopsætning**, kan afrunding også indeholder afskrivningsbeløb til hele tal være med til at give gennemsigtighed.
+
+Hvis du f. eks. sælger et anlægsaktiv, hvor afskrivningsprofilen ikke angiver afrunding, men virksomhedens finans opsætning kræver afrunding, vises der en fejlmeddelelse om, at et beløb skal afrundes på en post, når du sælger anlægsaktivet.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Sådan tildeles en afskrivningsprofil til et anlægsaktiv
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.

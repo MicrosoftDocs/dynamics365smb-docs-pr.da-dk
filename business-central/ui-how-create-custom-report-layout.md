@@ -3,19 +3,19 @@ title: Oprette og ændre brugerdefinerede layout for rapporter og dokumenter | M
 description: Lær, hvordan du kan oprette dine egne brugerdefinerede layout for at tilpasse udseendet af en rapport, når den vises, udskrives eller gemmes.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5a8267813a37af08dd057e4c67a04237cd350b54
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c20e8dc0df5eaf851ad90eac15b1af0af76700d6
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760538"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385820"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Sådan opretter og ændrer du Brugerdefinerede rapportlayouts
 
@@ -27,7 +27,7 @@ Som standard har en rapport et indbygget rapportlayout, som enten kan være et R
 Hvis du vil oprette et brugerdefineret layout, kan du enten oprette en kopi af et eksisterende brugerdefineret layout eller tilføje et nyt brugerdefineret layout, som i de fleste tilfælde er baseret på et indbygget layout. Når du tilføjer et nyt brugerdefineret layout, kan du tilføje en RDLC-rapportlayouttype, Word-rapportlayouttype eller begge dele. Det nye brugerdefinerede layout vil automatisk blive baseret på det indbyggede layout for rapporten, hvis det findes. Hvis der er ingen indbyggede layout for typen, bliver et tomt layout oprettet, som du skal ændre og designe fra bunden. Find flere oplysninger om RDLC- og Word-rapportlayout, indbyggede og brugerdefinerede layout og mere under [Administration af rapportlayout](ui-manage-report-layouts.md).  
 
 > [!TIP]
-> Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Se [Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md) for at få flere oplysninger.
+> Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Se [Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md) for at få flere oplysninger.
 
 Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debitor- og leverandørkortene for at angive, at det valgte layout skal bruges til de dokumenter, som du har oprettet for den pågældende debitor eller leverandør. Du kan finde flere oplysninger i [Definition af Dokumentlayouts til debitorer og leverandører](ui-define-customer-vendor-document-layouts.md).
 
@@ -116,7 +116,7 @@ Tilføjelse af datafelter fra en rapports datasæt er mere avanceret og kræver 
 [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md)  
 [Importere og eksportere et brugerdefineret rapport- eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
 [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  
-[Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md) 
+[Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md) 
 [Business Intelligence](bi.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

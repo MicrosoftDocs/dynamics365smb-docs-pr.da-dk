@@ -3,19 +3,19 @@ title: Sådan føjer du felter til et Word-rapportlayout | Microsoft Docs
 description: Beskriver, hvor du tilføjer felter fra et rapportdatasæt til et eksisterende Word-rapportlayout for en rapport.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 8aef21c49c92e7440723a7cdff8ba68c3ae507b6
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756988"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393871"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Føje felter til et Word-rapportlayout
 Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder. I dette emne beskrives fremgangsmåden for tilføjelse af felter fra et rapportedatasæt i et eksisterende Word-rapportlayout for en rapport. Du kan tilføje felter ved hjælp af den Word-tilpassede XML-del for rapporten og tilføje indholdskontrolelementer, der er knyttet til felterne i rapportens datasæt. Tilføjelse af felter kræver, at du har kendskab til rapportens datasæt, så du kan identificere de felter, du vil føje til layoutet.  

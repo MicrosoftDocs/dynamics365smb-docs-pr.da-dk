@@ -3,19 +3,19 @@ title: Konfigurere regler for automatisk udligning af betalinger
 description: Gå til siden Regler for betalingsudligning, og konfigurer regler til at styre, hvordan betalinger/banktransaktioner skal udlignes automatisk til deres relaterede åbne poster, når du bruger funktionen Udlign automatisk på siden Betalingsudligningskladde.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0aad6bce483dba6edf7c6d5ab37033475413d4b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758338"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392595"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Konfigurere regler for automatisk udligning af betalinger
 
@@ -50,8 +50,9 @@ Udover afstemningskriterierne gælder følgende vedrørende fortegnet foran det 
 |**Relateret part er matchet**|Angiver, hvor mange oplysninger om debitoren eller kreditoren, f.eks. adresse, bynavn og bankkontonummer, på kladdelinjen for betalingsafstemning, der skal matche oplysninger om den åbne post, før udligningsreglen bruges til automatisk at udligne betalingen til den åbne post.|
 |**Bilagsnr./Eksternt bilagsnr. er matchet**|Angiver, om teksten på betalingsudligningskladde skal stemme overens med værdien i feltet **Bilagsnr.** eller **Eksternt bilagsnr.** på den åbne post, før udligningsreglen udligner betalingen med den åbne post.|
 |**Matchende beløb inkl. tolerance**|Angiver, hvor mange poster for en debitor eller kreditor skal svare til beløbet, herunder betalingstolerance, før udligningsreglen skal bruges til automatisk at udligne en betaling til den åbne post.|
+|**Gennemsyn er påkrævet**|Angiver, om den automatiske betalingsanmodning anbefales til manuel gennemgang, som brugeren havde før bogføringen. Valg af felter **Linjer, der skal gennemses** på siden **Betalingsudligningskladde** startes en automatiseret oplevelse, hvor du nemt kan få vist flere programmer i en rækkefølge på siden **Anmeldelse af betalingsansøgning**.|
 
-Følgende tabel viser, hvilke betalingsudligningsregler, der er angivet i den generelle version af [!INCLUDE[prod_short](includes/prod_short.md)].
+I følgende tabel beskrives standard betalings reglerne i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
 > Betalingsudligningsregler kan være anderledes i din implementering af [!INCLUDE[prod_short](includes/prod_short.md)].

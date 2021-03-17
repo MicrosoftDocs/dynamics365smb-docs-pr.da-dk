@@ -3,16 +3,16 @@ title: Opsætte forudbetalinger | Microsoft Docs
 description: Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kræver måske et depositum, inden du producerer varerne efter ordre, eller du kræver måske betaling, før du leverer varer til en kunde. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5704444994ba8cdbd6ac4e9d562c781cd4f97d4c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750426"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391470"
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
 Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger. Funktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer og til at sikre, at alle delvise betalinger bogføres i forhold til en faktura. Du kan finde flere oplysninger i [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md).

@@ -3,19 +3,19 @@ title: Bruge Business Central sammen med Outlook | Microsoft Docs
 description: Denne tjeneste er tæt integreret med Microsoft 365, så du kan administrere alle dine forretningsaktiviteter og sende og modtage mail til og fra kunder og leverandører direkte i Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b04a124ea3e55320c1b3f9be37e54898ba3b16d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6d2e396b21f2d5de2bb341e864df031070df1ca4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752521"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377944"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruge Business Central som din virksomheds Indbakke i Outlook
 

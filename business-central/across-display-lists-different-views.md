@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c6771cba5d386c8eec5041aa9cb9a7152827ab9f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9670b1c1d8d1fcb9305877998908014804bc4217
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753463"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384895"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Få vist lister på forskellige måder
 I højre hjørne af en vilkårlig liste i [!INCLUDE[prod_short](includes/prod_short.md)] findes ikoner, som du kan bruge til at vælge, hvordan listen med poster skal vises. En liste kan vises som detaljerede rækker, hvilket er ideelt, når du skal arbejde med mange felter eller redigere felter på listen. Men du kan også vælge at få vist poster som felter, hvilket er mere kompakt og viser færre felter i den pågældende post. Dette er nyttigt, når du vil have et overblik over flere poster, og er især nyttig på mindre enheder, fordi visningen er kompakt, og det er nemmere at trykke på posterne.

@@ -3,19 +3,19 @@ title: Konfigurere finansielle processer | Microsoft Docs
 description: Få mere at vide om opgaver til konfiguration af finans i din virksomhed, der dækker alle dine regnskabs-, revisions- og bogholderibehov.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b18d4406f77594486104e2348487a3380cca0af4
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: a659fd4edfcbeccf65204f30685ce5b3cf527399
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024458"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5381927"
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
 Før du kan begynde at køre din virksomhed, skal du angive regler og standarder for, hvordan du vil administrere finansprocesser for den pågældende virksomhed. Du starter med at definere kernen i regnskabets poster- kontoplanen. Derefter definerer du bogføringsgrupper, som gør det mere effektivt, når du skal tildele standardkonti til finanspostering til kunder, leverandører og varer.
@@ -33,7 +33,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Angiv, hvordan du vil betale for kunder, og hvordan du vil betale kreditorerne. |[Konfigurere betalingsmetoder](finance-payment-methods.md) |
 | Angiv betalingsbetingelser til styring af forfaldsdatoer og til beregning af kontantrabatter.|[Definere betalingsbetingelser](finance-payment-terms.md) |
 | Angiv de bogføringsgrupper, der knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. |[Konfigurere bogføringsgrupper](finance-posting-groups.md)|
-|Oprette kontoskemaer og definere kontokategorier for at definere indholdet af finansielle diagrammer og rapporter, f.eks. balancen og årsopgørelsesrapporter.|[Forberede finansrapporter med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)|
+|Oprette kontoskemaer og definere kontokategorier for at definere indholdet af finansielle diagrammer og rapporter, f.eks. balancen og årsopgørelsesrapporter.|[Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)|
 |Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Konfigurere regnskabsperioder. |[Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md) |
 |Opret rykkerbetingelser, der kan hjælpe dig med at samle for forfaldne betalinger.|[Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md)|

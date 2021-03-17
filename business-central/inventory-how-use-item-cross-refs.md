@@ -3,19 +3,19 @@ title: Bruge varereferencer
 description: Konfigurer referencer mellem de beskrivelser, som du og leverandøren bruger til en vare, så du kan indsætte leverandørens varebeskrivelse på købsdokumenter.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
 ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 7d670f6553a1bd70dcc3d97f90436f36c6627c56
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2f500d7df80235b8f092fc3f0a7ae8fd27cd8aea
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5013788"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377619"
 ---
 # <a name="use-item-cross-references"></a>Bruge varereferencer
 Hvis du har oprettet en reference mellem varebeskrivelsen, du bruger til en vare, og den beskrivelse, som leverandøren af den pågældende vare bruger, indsættes leverandørens varebeskrivelse automatisk i købsdokumenter for leverandøren, når du udfylder feltet **Varereferencenr.** . De samme funktioner gælder for debitorvarenumre i salgsdokumenter.

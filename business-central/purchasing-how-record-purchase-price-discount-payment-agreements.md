@@ -1,23 +1,26 @@
 ---
 title: Specielle og alternative kreditorpriser og -rabatter | Microsoft Docs
 description: Du kan angive forskellige eller alternative priser og rabataftaler og anvende dem på købsdokumenter for kreditorer.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 4fbc36a1dbe9970932718336d21b7ea7c4dc2a71
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.author: bholtorf
+ms.openlocfilehash: f1c036b33d80d3f8a4f7b45e38b823631b93fc53
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748765"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476741"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrere særlige købspriser og rabatter
+> [!NOTE]
+> I 2020 udgivelsesbølge 2 har vi udgivet strømlinede processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, der bruger den version, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
 De forskellige pris- og betalingsaftaler, der gælder, når du køber fra forskellige leverandører, skal defineres, så de aftalte regler og værdier anvendes i de købsdokumenter, der oprettes for leverandørerne.
 
 Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[prod_short](includes/prod_short.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger under [Beregning af bedste pris](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
@@ -34,12 +37,26 @@ Med hensyn til rabatter kan du oprette og bruge to typer købsrabat:
 Da købslinjerabatter og købspriser er baseret på en kombination af vare og leverandør, kan du også angive denne konfiguration fra det varekort, hvor reglerne og værdierne er defineret. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Sådan oprettes en særlig købspris for en kreditor
+
+#### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)  
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
 2. Åbn det relevante kreditorkort, og vælg derefter handlingen **Priser**.
-
-    Feltet **Indkøbstype** er på forhånd udfyldt med **Kreditor**, og feltet **Indkøbskode** er på forhånd udfyldt med kreditornummer.
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Udfyld en linje for hver kombination, som kreditoren yder dig en købslinjerabat for.
+
+#### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
+2. Vælg debitoren, og vælg derefter handlingen **Salgsprislister**. 
+3. Vælg **Ny** for at oprette en ny købsprisliste.
+4. Udfyld felterne efter behov i oversigtspanelerne **Generelt** og **Skat**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Benyt en af følgende fremgangsmåder for at føje elementer til listen:
+   * Hvis du vil tilføje mange varer, skal du vælge **Foreslå linjer** og derefter angive filterkriterier for at angive, hvilke varetyper der skal tilføjes. Du kan også vælge at angive yderligere indstillinger for de varer, der er specifikke for prislisten. Om nødvendigt kan du ændre den.
+   * Hvis du vil kopiere varer fra en anden prisliste, skal du vælge **Kopier linjer** og derefter vælge den prisliste, der skal kopieres.
+   * Hvis du vil tilføje varer manuelt i gitteret, skal du i feltet **Produkttype** vælge den produkttype, som prislisten vedrører. Afhængig af dine valg skal du udfylde de resterende felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Hvis du vil begynde at bruge prislisten, skal du vælge **Aktiv** i feltet **Status**.
+
+---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Sådan oprettes en linjerabat for en kreditor
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
