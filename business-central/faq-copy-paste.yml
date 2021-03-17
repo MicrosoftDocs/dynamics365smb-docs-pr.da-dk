@@ -2,18 +2,12 @@
 metadata:
   title: Ofte stillede spørgsmål om at kopiere og indsætte data
   description: Få svar på ofte stillede spørgsmål om at kopiere og indsætte data fra felter og rækker fra Business Central-sider.
-  author: SorenGP
-  ms.topic: article
-  ms.service: dynamics365-business-central
-  ms.search.keywords: accessibility, shortcuts, keyboarding
-  ms.date: 01/08/2021
-  ms.author: edupont
-  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
-  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.openlocfilehash: 7d3d0e29bb6751913297974f611aa9695677ed66
+  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
   ms.translationtype: HT
   ms.contentlocale: da-DK
-  ms.lasthandoff: 01/15/2021
-  ms.locfileid: "5013917"
+  ms.lasthandoff: 02/15/2021
+  ms.locfileid: "5181825"
 title: Ofte stillede spørgsmål om kopiering og indsætning
 summary: "Du kan kopiere en eller flere rækker (poster) fra en liste eller et enkelt felt på en side og derefter indsætte det, du har kopieret på den samme side, en anden side eller et eksternt dokument (som Microsoft Excel og e-mails i Outlook).  \n\nKort sagt, når du vil kopiere, skal du trykke på CTRL + C (cmd + C i macOS) på tastaturet. Når du vil indsætte, skal du trykke på CTRL + V (cmd + V i macOS). Der er mange andre tastaturgenveje til kopiering og indsætning, som hjælper dig med spare tid, når du indtaster data. Du kan finde flere oplysninger om dem i [Tastaturgenveje](keyboard-shortcuts.md#CopyRows). Denne artikel indeholder svar på almindelige spørgsmål om kopiering og indsætning.  \n"
 sections:
