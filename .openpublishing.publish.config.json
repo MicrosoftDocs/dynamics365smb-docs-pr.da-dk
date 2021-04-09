@@ -21,14 +21,12 @@
     "edupont@microsoft.com",
     "solsen@microsoft.com"
   ],
-  "sync_notification_subscribers": [
-    "buckley.guderian@microsoft.com"
-  ],
+  "sync_notification_subscribers": [],
   "branches_to_filter": [
     "live-sxs"
   ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/dynamics365smb-docs",
-  "git_repository_branch_open_to_public_contributors": "main",
+  "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": false,
@@ -67,6 +65,5 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "need_generate_intellisense": false,
-  "contribution_branch_mappings": {}
+  "need_generate_intellisense": false
 }
