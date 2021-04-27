@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e493aa1a965d4d3cb5a546e8671915ed19fce918
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387070"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773626"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bogføre flere dokumenter på én gang
 
@@ -110,7 +110,7 @@ Følgende procedure viser, hvordan du kan indstille rapporten **Massebogfør sal
 6. På siden **Massebogfør salgsordrer** skal du definere, hvad der skal medtages under den automatiske bogføring af salgsordrer, og derefter vælge **OK** knappen.
 
     > [!IMPORTANT]
-    > Husk at angive strenge filtre. Ellers vil [!INCLUDE [prod_short](includes/prod_short.md)] bogføre alle dokumenterne, selvom de ikke er klar. Overvej at angive et filter på feltet **Status** for værdien *Frigivet* og et filter på feltet **Bogføringsdato** for værdien *..i dag*. Du kan finde flere oplysninger under [Sortering, søgning og filtrering](ui-enter-criteria-filters.md).
+    > Husk at angive strenge filtre. Ellers vil [!INCLUDE [prod_short](includes/prod_short.md)] bogføre alle dokumenterne, selvom de ikke er klar. Overvej at angive et filter på feltet **Status** for værdien *Frigivet* og et filter på feltet **Bogføringsdato** for værdien *..i dag*. Du kan finde flere oplysninger i [Sortering, søgning og filtrering](ui-enter-criteria-filters.md).
 7. Marker alle afkrydsningsfelter fra **Aktiver hver mandag** til og med **Aktiver hver fredag**.
 8. I feltet **Starttidspunkt** skal du angive kl. 16.
 9. Vælg handlingen **Angiv status til Klar**.

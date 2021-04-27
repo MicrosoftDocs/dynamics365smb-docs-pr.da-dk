@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 52f99b262dbfa5568650b72356ec43442fc75284
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378519"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780053"
 ---
 # <a name="define-retention-policies"></a>Definere opbevaringspolitikker
-Administratorer kan definere opbevaringspolitikker for at angive, hvor ofte [!INCLUDE[prod_short](includes/prod_short.md)] skal slette forældede data i tabeller, der indeholder logposter og poster, der er arkiveret. Hvis du f. eks. rydder poster i logfilen, bliver det nemmere at arbejde med de data, der rent faktisk er relevante. Politikker kan omfatte alle data i de tabeller, der ligger ud over udløbsdatoen, eller du kan tilføje filterkriterier, som kun skal indeholde bestemte udløbne data i politikken. 
+Administratorer kan definere opbevaringspolitikker for at angive, hvor ofte [!INCLUDE[prod_short](includes/prod_short.md)] skal slette forældede data i tabeller, der indeholder logposter og poster, der er arkiveret. Hvis du f.eks. rydder poster i logfilen, bliver det nemmere at arbejde med de data, der rent faktisk er relevante. Politikker kan omfatte alle data i de tabeller, der ligger ud over udløbsdatoen, eller du kan tilføje filterkriterier, som kun skal indeholde bestemte udløbne data i politikken. 
 
 ## <a name="required-setups-and-permissions"></a>Krævede opsætninger og tilladelser
 Før du kan oprette med opbevaringspolitikker, skal du angive følgende.
@@ -56,12 +56,12 @@ Hvis du vil anvende en opbevaringspolitik automatisk, skal du blot oprette og ak
 Du kan anvende en politik manuelt vha handlingen **Anvend manuelt** på siden **Opbevaringspolitikker**. Hvis du altid vil anvende en politik manuelt, skal du aktivere den **Manuelt**. Opgavekøposten ignorerer politikken, når den kører.
 
 ## <a name="viewing-retention-policy-log-entries"></a>Se logførte poster for opbevaringspolitikker
-Se aktivitet, der er relateret til opbevaringspolitikker, på siden **Opbevaringspolitiklog**. Der oprettes f. eks. poster, når der anvendes en politik, eller hvis der opstod fejl, når det skete. 
+Se aktivitet, der er relateret til opbevaringspolitikker, på siden **Opbevaringspolitiklog**. Der oprettes f.eks. poster, når der anvendes en politik, eller hvis der opstod fejl, når det skete. 
 
 ## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Medtage din udvidelse i en opbevaringspolitik (kræver hjælp fra en udvikler)
-Opbevaringspolitikker dækker som standard kun tabeller, der er medtaget på den liste over [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller, som vi yder. Du kan fjerne standardtabeller fra listen, og du kan tilføje tabeller, som du ejer. Det vil sige, at du ikke kan tilføje en tabel, som du ikke selv har oprettet. Du kan f. eks. ikke tilføje andre tabeller fra [!INCLUDE[prod_short](includes/prod_short.md)] eller fra en udvidelse, du har købt.
+Opbevaringspolitikker dækker som standard kun tabeller, der er medtaget på den liste over [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller, som vi yder. Du kan fjerne standardtabeller fra listen, og du kan tilføje tabeller, som du ejer. Det vil sige, at du ikke kan tilføje en tabel, som du ikke selv har oprettet. Du kan f.eks. ikke tilføje andre tabeller fra [!INCLUDE[prod_short](includes/prod_short.md)] eller fra en udvidelse, du har købt.
 
-Hvis du vil føje tabeller til listen over tilladte tabeller, skal en udvikler tilføje en kode, f. eks. codeunit til installationsprogrammet til udvidelsen (en codeunit med undertypen *Installation*). 
+Hvis du vil føje tabeller til listen over tilladte tabeller, skal en udvikler tilføje en kode, f.eks. codeunit til installationsprogrammet til udvidelsen (en codeunit med undertypen *Installation*). 
 
 Når en udvikler tilføjer en tabel, kan de angive obligatoriske og standardfiltre. Obligatoriske filtre kan ikke fjernes eller ændres senere, når du tilføjer tabeller for at definere en opbevaringspolitik. Standardfiltre er blot brugervenlige forslag.
 

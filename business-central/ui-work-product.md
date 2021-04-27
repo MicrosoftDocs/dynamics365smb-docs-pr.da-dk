@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393570"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772125"
 ---
 # <a name="working-with-prod_short"></a>Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.
@@ -61,18 +61,18 @@ Her er en kort video om, hvordan du bevæger dig rundt i [!INCLUDE[prod_short](i
 
 ## <a name="choosing-a-desktop-browser"></a>Sådan vælger du en desktopbrowser
 
-[!INCLUDE[prod_short](includes/prod_short.md)] understøtter flere browsere, som hver især har mange forskellige funktioner og muligheder. Browseren spiller en vigtig rolle for, hvor hurtigt brugergrænsefladen reagerer og kan bruges. Se listen over understøttede, anbefalede browsere til [Business Central online](https://go.microsoft.com/fwlink/?linkid=2110804) og browsere til [Business Central lokalt](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter flere browsere, som hver især har mange forskellige funktioner og muligheder. Browseren spiller en vigtig rolle for, hvor hurtigt brugergrænsefladen reagerer og kan bruges. Se listen over understøttede, anbefalede browsere til [Business Central Online](./product-requirements.md) og browsere til [Business Central til det lokale miljø](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
-- Hvis det er muligt, skal du undgå ældre browsere som f. eks. Internet Explorer og skifte til en af vores anbefalede moderne browsere, f. eks. den nye [ Microsoft Edge](https://www.microsoft.com/edge/).  
+- Hvis det er muligt, skal du undgå ældre browsere som f.eks. Internet Explorer og skifte til en af vores anbefalede moderne browsere, f.eks. den nye [ Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer understøttes stadig, men da den nye browser kan benyttes i Windows Server nu, oplever vi, at færre bruger Internet Explorer. Du kan også få [en prøveudgave af Microsoft Edge i IE-tilstand](https://www.microsoft.com/edge/business). Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer understøttes ikke længere. Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Sørg for, at din browser altid er opdateret til den nyeste version.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Konfigurere Business Central](setup.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Tip til ydeevne for erhvervsbrugere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

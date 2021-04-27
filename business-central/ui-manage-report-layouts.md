@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f5bedb69782d77ea64a3779abd26143969925b3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8c62a19a9dda2f9af72f03130c7b3cc5e00c1d41
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390270"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776662"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentlayout
 Et rapportlayout styrer indholdet og formatet af rapporten, herunder hvilke datafelter i et datasæt der vises i rapporten, og hvordan de er organiseret, teksttypografi, billeder og meget mere. Fra [!INCLUDE[prod_short](includes/prod_short.md)]-klienter kan du ændre, hvilket layout der skal bruges i en rapport, oprette et nyt layout eller ændre det aktuelle layout.
@@ -32,7 +32,7 @@ Et rapportlayout indstiller navnlig følgende:
 * Firmaets logo og dets placering.
 * Generelle sideindstillinger såsom margener og baggrundsbilleder.
 
-En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem efter behov. Du kan bruge et af de indbyggede rapportlayout, eller du kan oprette brugerdefinerede rapportlayout og tildele dem dine rapporter. Du kan finde flere oplysninger under [Oprette et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md).
+En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem efter behov. Du kan bruge et af de indbyggede rapportlayout, eller du kan oprette brugerdefinerede rapportlayout og tildele dem dine rapporter. Du kan finde flere oplysninger i [Oprette et brugerdefineret rapport- eller dokumentlayout](ui-how-create-custom-report-layout.md).
 
 Der findes to typer rapportlayout, der kan bruges i rapporter: Word og RDLC.
 

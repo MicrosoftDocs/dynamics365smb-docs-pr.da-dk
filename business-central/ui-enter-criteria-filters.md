@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 11/16/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d682f9e66075348785329cd13a12c3e02d0993c4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385845"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770634"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 
@@ -96,7 +96,7 @@ I forbindelse med lister vises filtrene i en filterrude, der vises til venstre p
 
 ### <a name="filtering-with-option-fields"></a>Filtrere med indstillingsfelter
 
-I forbindelse med "almindelige" felter, der indeholder data, opsætningsdata eller virksomhedsdata, kan du indsætte filtre både ved at vælge data og indtaste filterværdier, og du kan bruge symboler til at angive avancerede filterkriterier. Du kan finde flere oplysninger under [Angivelse af filerkriterier](ui-enter-criteria-filters.md#entering-filter-criteria).
+I forbindelse med "almindelige" felter, der indeholder data, opsætningsdata eller virksomhedsdata, kan du indsætte filtre både ved at vælge data og indtaste filterværdier, og du kan bruge symboler til at angive avancerede filterkriterier. Du kan finde flere oplysninger i [Angivelse af filerkriterier](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 Ved felter af typen **Indstilling** kan du imidlertid kun angive et filter ved at vælge en eller flere indstillinger på en rulleliste med tilgængelige indstillinger. Et eksempel på et indstillingsfelt er feltet **Status** på siden **Salgsordrer**.
 
@@ -132,7 +132,7 @@ Du kan angive et enkelt filter direkte på en liste under brug af filterruden, d
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Angive filtre i rapporter, kørsler og XMLporte
 
-For rapporter og XMLporte kan filtrene ses direkte på anmodningssiden. På anmodningssiden vises de senest anvendte filtre på grundlag af dit valg i feltet **Brug standardværdier fra**. Du kan finde flere oplysninger under [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).
+For rapporter og XMLporte kan filtrene ses direkte på anmodningssiden. På anmodningssiden vises de senest anvendte filtre på grundlag af dit valg i feltet **Brug standardværdier fra**. Du kan finde flere oplysninger i [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).
 
 **Filter**-hovedsektionen viser de standardfilterfelter, som du kan bruge til at afgrænse, hvilke poster der skal medtages i rapporten eller i XMLport. Hvis du vil tilføje et filter, skal du vælge handlingen **+ Filter**. Når du vil tilføje et filter, skal du skrive navnet på det felt, du vil filtrere listen efter, eller vælge et felt på rullelisten.
 

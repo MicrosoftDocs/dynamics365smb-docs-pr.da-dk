@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470308"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783230"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Søge efter sider med Rollestifinder
 Du kan få vist en oversigt over alle de forretningsfunktioner, der er tilgængelige for din rolle, og for andre roller, hvis du går et trin videre. I følgende dokumentation henvises der til denne funktionsoversigt som *Rollestifinder*.
@@ -32,7 +32,7 @@ Vælg handlingen **Find** øverst i rollestifinderen for hurtigt at finde de fun
 Vælg handlingen **Udforsk alle** øverst i rollestifinderen for at se en oversigt over alle forretningsfunktioner, der er tilgængelige for alle roller, blandt andet din egen.
 
 > [!NOTE]
-> Kun Rollecenter-handlinger for profiler, hvor afkrydsningsfeltet **Vis i Rollestifinder** er markeret, vises i den udvidede version af Rollestifinder (vises med **Udforsk alle**-handlingen). Du kan finde flere oplysninger under [Administrere profiler](admin-users-profiles-roles.md).
+> Kun Rollecenter-handlinger for profiler, hvor afkrydsningsfeltet **Vis i Rollestifinder** er markeret, vises i den udvidede version af Rollestifinder (vises med **Udforsk alle**-handlingen). Du kan finde flere oplysninger i [Administrere profiler](admin-users-profiles-roles.md).
 
 ## <a name="to-expandcollapse-nodes-on-the-role-explorer"></a>Sådan udvides/skjules noder i Rollestifinder
 De handlinger, der åbner sider, er organiseret under noder, der er navngivet efter funktionerne eller funktionalitetsområderne. Hver node kan skjules eller udvides individuelt, og du kan skjule/udvide alle noder sammen.

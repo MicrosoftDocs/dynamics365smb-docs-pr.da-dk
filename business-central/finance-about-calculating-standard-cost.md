@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7298cd5408f8c8a1277ce2e1f455e3c923fbe52
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2f4cae6c25a2ea75e93a588ab987acab3835b750
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376626"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781082"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning af standardomkostning
 Mange produktionsvirksomheder vælger en værdiansættelse for standardkostpriser. Dette gælder også for virksomheder, der udfører let produktion som montage og kitting. Et system til standardkostpriser bestemmer lagerkostprisen på basis af nogle rimelige historiske eller forventede omkostninger. Undersøgelser af tidligere og fremtidige omkostningsdata kan derefter danne grundlag for standardkostpriser. Standardkostpriserne er fastfrosne, indtil der træffes en beslutning om, at de skal ændres. De faktiske omkostninger til at fremstille et produkt kan afvige fra de forventede standardomkostninger. Af hensyn til styringen sammenlignes den faktiske kostpris med standardkostprisen for en bestemt vare, og forskellene, eller *afvigelser*, identificeres og analyseres.  
@@ -98,7 +98,7 @@ Processen med at opdatere eller beregne standardkostpriser består typisk af fø
 1.  Opdatering af omkostninger på komponent- og kapacitetsniveau. Du kan finde flere oplysninger i kørslerne **Foreslå kostpris (standard)** og **Foreslå kapacitetskostpris (standard)**.  
 2.  Konsolidering og akkumulering af komponent- og kapacitetsomkostninger til beregning af den samlede montage eller de samlede fremstillingsomkostninger for varerne. Du kan finde flere oplysninger i [Sådan beregnes kostprisen for et montageelement](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
 3.  Implementering af de standardkostpriser, der angives, når du kører de tidligere kørsler. Standardkostpriserne træder ikke i kraft, før de er implementeret. Du kan finde flere oplysninger i kørslen **Implementer std.kostprisændringer**.  
-4.  Implementering af ændringer for at opdatere feltet **Kostpris** på varekortet og udførsel af lagerværdiregulering. Du kan finde flere oplysninger under [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
+4.  Implementering af ændringer for at opdatere feltet **Kostpris** på varekortet og udførsel af lagerværdiregulering. Du kan finde flere oplysninger i [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Kostmetoder](design-details-costing-methods.md)   

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3044d878260dbab4e9d2423398b7654386671638
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380073"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770412"
 ---
 # <a name="setting-up-fixed-assets"></a>Opsætning af anlægsaktiver
 Før du kan arbejde med anlægsaktiver, skal du angive et par ting:  
@@ -24,7 +24,7 @@ Før du kan arbejde med anlægsaktiver, skal du angive et par ting:
 * Hvordan du forsikrer, vedligeholder og afskriver anlægsaktiver.  
 * Hvordan du registrerer omkostninger og andre værdier i finansregnskabet.  
 
-Tabellen nedenfor indeholder links til flere oplysninger. Når du konfigureret disse ting, kan du begynde på forskellige aktiviteter. Du kan finde flere oplysninger under [Anlægsaktiver](fa-manage.md).  
+Tabellen nedenfor indeholder links til flere oplysninger. Når du konfigureret disse ting, kan du begynde på forskellige aktiviteter. Du kan finde flere oplysninger i [Anlægsaktiver](fa-manage.md).  
 
 > [!NOTE]  
 >   Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger siden **Anlægskassekladde**.  
@@ -44,7 +44,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

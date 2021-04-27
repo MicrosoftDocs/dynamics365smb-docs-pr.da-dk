@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5cb0e5616bb2b04fba3c8819f58f8da2f396601d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 333e79076fc8d991cc33129c1786fd6dee83f63a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390970"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774935"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Designoplysninger: Varesporing og planlægning
 Da de er gemt i reservationssystemet, er varesporingsnumre fuldt koordineret med ordresporingsposter. Dette betyder, at varer, der har varesporingsposter, kan blive tildelt varesporingsnumre. Varer, der har varesporingsnumre, kan derimod blive ordresporingsposter. Du kan finde flere oplysninger i [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md).
@@ -49,7 +49,7 @@ Hvis der er tildelt varesporingsnumre på behovssiden eller på forsyningssiden 
 
 Hvis der er tildelt varesporingsnumre på forsyningssiden uden at kræve specifik varesporing, er anses denne forsyning som fastsat af planlægningssystemet. Ingen ændring af størrelse eller omlægning foreslås for denne forsyning, men forsyningen tages i betragtning, når planlægningssystemet forsøger at opfylde bruttobehovet.
 
-Du kan finde flere oplysninger under [Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md).  
+Du kan finde flere oplysninger i [Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md).  
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)  

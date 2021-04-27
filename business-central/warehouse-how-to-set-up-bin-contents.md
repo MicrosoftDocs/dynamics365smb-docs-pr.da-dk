@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f7cfb33d1eb8966817750f89dd992244bf0b5b7f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abe79973022927c899aaa69a7ac28f76e8c8de39
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383621"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771725"
 ---
 # <a name="create-bin-contents"></a>Oprette placeringsindhold
 
@@ -23,7 +23,7 @@ Når du har oprettet placeringerne, kan du oprette placeringsindholdet. Du kan m
 
 ## <a name="to-create-bin-content-manually"></a>Sådan oprettes placeringsindhold manuelt
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det tilknyttede link.  
 2. Marker den lokation, hvor du vil konfigurere placeringsindhold, og vælg derefter handlingen **Placeringer**.  
 3. Marker den placering, hvor du vil konfigurere indholdet, og vælg derefter handlingen **Indhold**.  
 4. For hvert element, du vil gemme i placeringen, skal du udfylde en linje på siden **Placeringsindhold** med de relevante oplysninger. Nogle felter er allerede udfyldt med oplysninger om placeringen.  
@@ -42,7 +42,7 @@ Hvis du markerer feltet **Fast**, knytter du permanent varen til placeringen, hv
 
 Når du har oprettet placeringer, kan du angive, hvilke varer der skal opbevares på hver placering vha. en kladde.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opr.kladde til placeringsindh.**, og vælg dernæst det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opr.kladde til placeringsindh.**, og vælg derefter det tilknyttede link.  
 2. Klik i feltet **Navn** i kladdehovedet, og vælg kladden for den lokation, hvor du vil oprette placeringsindhold.  
 3. Vælg koden for den placering, hvis indhold du vil definere, i feltet **Placeringskode**.  
 

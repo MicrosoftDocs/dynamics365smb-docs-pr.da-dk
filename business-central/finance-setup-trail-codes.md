@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9dab74a6a8debd20de781890c3b391457c6034e3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386895"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773835"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Oprette kilde- og årsagskoder til revisionsspor
 
@@ -29,7 +29,7 @@ Det kan være nyttigt at se, hvordan en bestemt post blev oprettet, f.eks. om po
 
 Når kladder, ordrer, fakturaer eller kreditnotaer bogføres, og når forskellige kørsler udføres, oprettes der poster i regnskabet. Siden **Kildekodedefinition** indeholder adskillige oversigtspaneler med en for hvert modul. Hvert oversigtspanel indeholder kildekoder, der kan anvendes til det pågældende område.
 
-Når du bogfører eller udfører en kørsel, knyttes den korrekte kildekode automatisk til posten. Det vil sige, at når du f.eks. bogfører fra kassekladden, får posten koden *KASSEKLD*. Herefter kan du filtrere siden **Finansposter** for at se, hvilke poster der er bogført fra finanskladden eller fra salgsdokumenter, f. eks.
+Når du bogfører eller udfører en kørsel, knyttes den korrekte kildekode automatisk til posten. Det vil sige, at når du f.eks. bogfører fra kassekladden, får posten koden *KASSEKLD*. Herefter kan du filtrere siden **Finansposter** for at se, hvilke poster der er bogført fra finanskladden eller fra salgsdokumenter, f.eks.
 
 ### <a name="to-define-source-codes"></a>Sådan defineres kildekoder
 

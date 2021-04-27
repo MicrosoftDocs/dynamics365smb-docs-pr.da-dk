@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8401b02677be48d06de2c3dbd67efd1ea8dd18cd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1caf2fb0586cf704e5fc1354b3b4a0be096dc709
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392695"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781734"
 ---
 # <a name="block-customers"></a>Blokere debitorer
 Du kan spærre en debitor, for eksempel på grund af insolvens, så kunden ikke kan føjes til salgsdokumenter, eller ingen transaktioner kan bogføres for debitoren.
 
-Foruden at blokere for en debitor kan du sætte tilgodehavendetransaktioner for kunden på hold i forbindelse med rykkere. Du kan finde flere oplysninger under [Indhente udestående beløb](receivables-collect-outstanding-balances.md).   
+Foruden at blokere for en debitor kan du sætte tilgodehavendetransaktioner for kunden på hold i forbindelse med rykkere. Du kan finde flere oplysninger i [Indhente udestående beløb](receivables-collect-outstanding-balances.md).   
 
 Den følgende tabel beskriver indstillingerne for spærring af kunder.  
 

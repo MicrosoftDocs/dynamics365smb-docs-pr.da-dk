@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 657c473301b52011c1f1cbe2767f3c0ceaeb4725
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e61f4406e754a2cf02aafcda21eec86b55eff053
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379998"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780778"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Arbejde med tilbagevendende indtægt i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -33,7 +33,7 @@ Med denne mulighed kan du angive fleksible faktureringsperioder med [datoformler
 
 Men hvis du vælger denne mulighed, kan du ikke udskrive og sende fakturaer i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Du kan finde flere oplysninger under [Arbejde med gentagelseskladder](ui-work-general-journals.md#working-with-recurring-journals).  
+Du kan finde flere oplysninger i [Arbejde med gentagelseskladder](ui-work-general-journals.md#working-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Oprette flere fakturaer på basis af en sagsgentagelseskladde
 
@@ -47,7 +47,7 @@ Hvis du vælger denne mulighed, følger du standardproceduren for fakturering me
 
 Du skal imidlertid oprette en ny sag og føje linjer til gentagelseskladden. 
 
-Du kan finde flere oplysninger under [Oprette sagskladdelinjer](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) og [Oprette flere salgsfakturaer for sager](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Du kan finde flere oplysninger i [Oprette sagskladdelinjer](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) og [Oprette flere salgsfakturaer for sager](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
 
 ## <a name="create-multiple-invoices-based-on-recurring-sales-lines"></a>Oprette flere fakturaer baseret på tilbagevendende salgslinjer
 
@@ -74,7 +74,7 @@ Med denne mulighed kan du bruge en del af den avancerede servicestyringsfunktion
 
 Denne indstilling kræver imidlertid en Premium-licens. Konfiguration af servicestyring og vedligeholdelse af den vil muligvis ikke give enorme fordele ved enklere abonnementsscenarier.  
 
-Du kan finde flere oplysninger under [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md) og [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts).
+Du kan finde flere oplysninger i [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md) og [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Relaterede funktioner
 Der er flere relaterede funktioner i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -86,11 +86,11 @@ Der indgås ofte en rammeaftale, hvor en kunde har forpligtet sig til at købe e
 
 #### <a name="why-use-this-option"></a>Hvorfor bruge denne mulighed
 
-Med denne mulighed kan du bruge den forventede efterspørgsel, så oplysningerne tages i betragtning i de normale planlægningsrutiner. Du kan finde flere oplysninger under [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
+Med denne mulighed kan du bruge den forventede efterspørgsel, så oplysningerne tages i betragtning i de normale planlægningsrutiner. Du kan finde flere oplysninger i [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
 Standardversionen giver dog ikke mulighed for som standard at behandle flere rammeordrer ad gangen.
 
-Du kan finde flere oplysninger under [Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md).
+Du kan finde flere oplysninger i [Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md).
 
 ### <a name="recurring-orders-norway"></a>Tilbagevendende ordrer (Norge)
 

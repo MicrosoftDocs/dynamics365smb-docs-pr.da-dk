@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c01fb4ba9a134d5f89b2a8e1ac0099e69bbe3ef8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 81fb35e3bfc4e55e0327cb436974cc3d1730e9e6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379294"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777537"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter
 Fra PDF-filer eller billedfiler, som du modtager fra dine handelspartnere, kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, der kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. F.eks. når du modtager en faktura i PDF-format fra en leverandør, kan du sende den til tjenesten OCR fra siden **Indgående bilag**. Dette beskrives i den første fremgangsmåde.
@@ -27,11 +27,11 @@ Efter nogle sekunder får du filen tilbage fra OCR-tjenesten som en elektronisk 
 
 Da OCR er baseret på optiske registrering, er det sandsynligt, at OCR-tjenesten fortolker tegn i PDF- eller billedfilerne forkert, første gang programmet f.eks. behandler en bestemt kreditors dokumenter. Det fortolker muligvis virksomhedens logo som leverandørens navn eller fejlfortolker det samlede beløb på en kvittering på grund af layoutet. Hvis du vil undgå disse fejl fremover, kan du rette fejl i en separat version af siden **Indgående bilag**. Derefter sender du rettelserne til OCR-tjenesten for at lære den at fortolke de bestemte tegn korrekt, næste gang den behandler et PDF- eller billleddokument for samme kreditor. Du kan finde flere oplysninger i [Sådan lærer du OCR-tjenesten at undgå fejl](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
 
-Filtrafikken til og fra OCR-tjenesten afvikles af en dedikeret opgavekøpost, der oprettes automatisk, når du aktiverer den relaterede tjenesteforbindelse. Du kan finde flere oplysninger under [Konfigurere indgående bilag](across-how-setup-income-documents.md).
+Filtrafikken til og fra OCR-tjenesten afvikles af en dedikeret opgavekøpost, der oprettes automatisk, når du aktiverer den relaterede tjenesteforbindelse. Du kan finde flere oplysninger i [Konfigurere indgående bilag](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Sådan sendes en PDF- eller billedfil til OCR-tjenesten fra siden **Indgående bilag**
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.
-2. Opret en ny indgående bilagspost, og vedhæft filen. Du kan finde flere oplysninger under [Oprette indgående bilagsposter](across-how-create-income-document-records.md).  
+2. Opret en ny indgående bilagspost, og vedhæft filen. Du kan finde flere oplysninger i [Oprette indgående bilagsposter](across-how-create-income-document-records.md).  
 3. På siden **Indgående bilag** skal du vælge en eller flere linjer, og derefter skal du vælge handlingen **Send til opgavekø**.
 
     Værdien i feltet **OCR-status** ændres til **Klar**. Den vedhæftede PDF- eller billedfil bliver sendt til OCR-tjenesten af opgavekøen i henhold til planen, forudsat at der ikke er nogen fejl.
@@ -42,10 +42,10 @@ Værdien i feltet **OCR-status** ændres til **Sendt**, forudsat at der ikke er 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Sådan sendes en PDF- eller billedfil til OCR-tjenesten via mail
 Brug dit mailprogram til at sende en mail til OCR-tjenesteudbyderen med PDF- eller billedfilen vedhæftet. Du kan finde oplysninger om, hvilken mailadresse du skal sende til, på OCR-tjenesteudbyderens websted.
 
-Da der ikke findes nogen indgående bilagsposter for filen, oprettes der automatisk en ny post på siden **Indgående bilag**, når du modtager det elektronisk oprettede dokument fra OCR-tjenesten. Du kan finde flere oplysninger under [Oprette indgående bilagsposter](across-how-create-income-document-records.md).
+Da der ikke findes nogen indgående bilagsposter for filen, oprettes der automatisk en ny post på siden **Indgående bilag**, når du modtager det elektronisk oprettede dokument fra OCR-tjenesten. Du kan finde flere oplysninger i [Oprette indgående bilagsposter](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   Hvis du arbejder på en tablet eller telefon, kan du sende filen til OCR-tjenesten, så snart du har taget et billede af bilaget, eller du kan oprette et indgående bilag direkte. Du kan finde flere oplysninger under [Sådan opretter du en indgående bilagspost ved at tage et billede](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+>   Hvis du arbejder på en tablet eller telefon, kan du sende filen til OCR-tjenesten, så snart du har taget et billede af bilaget, eller du kan oprette et indgående bilag direkte. Du kan finde flere oplysninger i [Sådan opretter du en indgående bilagspost ved at tage et billede](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Sådan modtager du det resulterende elektroniske dokument fra OCR-tjenesten
 Det elektroniske dokument, der oprettes af OCR-tjenesten fra PDF eller billedfilen, modtages automatisk på siden **Indgående bilag** ved den opgavekøpost, som er oprettet, når du aktiverer OCR-tjenesten.
@@ -89,7 +89,7 @@ Ud over tilknytning til en kreditorkonto eller finanskonti kan du også knytte t
 6. I feltet **Kreditkontonr.**, skal du angive den finanskonto af kredittypen, der skal indsættes i det oprettede dokument eller den oprettede kladdelinje af typen Finanskonto.
 
     > [!NOTE]
-    > Brug ikke felterne **Modkontokildetype** og **Modkontokildenr.** i forbindelse med indgående bilag. De bruges kun til afstemning af automatisk betaling. Du kan finde flere oplysninger under [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+    > Brug ikke felterne **Modkontokildetype** og **Modkontokildenr.** i forbindelse med indgående bilag. De bruges kun til afstemning af automatisk betaling. Du kan finde flere oplysninger i [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
 7. Gentag trin 2 til 5 for al tekst på indgående bilag, du automatisk vil oprette bilag til.
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 502add82d2f70f6ffd13ae04f7eb6d214105fb63
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5fe04fc290f10324105d4d9ca01e13166bf2ad8f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378594"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773075"
 ---
 # <a name="managing-database-access-intent"></a>Administration af formål med adgang til database 
 
@@ -23,7 +23,7 @@ Som superbruger eller administrator kan du ændre formålet med adgang til datab
 
 ## <a name="overview"></a>Oversigt
 
-[!INCLUDE[prod_short](includes/prod_short.md)] kan konfigureres til at bruge skrivebeskyttede kopier af den primære database (læse-skrive). Hvis du bruger kopien af brugerdatabasen, reduceres den primære databases belastning. I nogle tilfælde vil det også forbedre ydeevnen, når data vises i klienten. Kopier er nyttige for objekter, f. eks. rapporter, forespørgsler og API-sider, som kun bruges til at se data, ikke til at ændre data.
+[!INCLUDE[prod_short](includes/prod_short.md)] kan konfigureres til at bruge skrivebeskyttede kopier af den primære database (læse-skrive). Hvis du bruger kopien af brugerdatabasen, reduceres den primære databases belastning. I nogle tilfælde vil det også forbedre ydeevnen, når data vises i klienten. Kopier er nyttige for objekter, f.eks. rapporter, forespørgsler og API-sider, som kun bruges til at se data, ikke til at ændre data.
 
 Når objekter køres, bestemmer formålet med adgang til databasen, om der skal bruges en skrivebeskyttet kopi, hvis den er tilgængelig, eller den primære database. Rapporter, API-sider og forespørgsler udvikles med et foruddefineret formål med adgang til databasen (få flere oplysninger i [egenskaben DatabaseAccessIntent](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataaccessintent-property)).
 
@@ -56,7 +56,7 @@ I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan f�
 [Forretningsfunktioner](across-business-functionality.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Introduktion](product-get-started.md)    
+[Blive køreklar](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

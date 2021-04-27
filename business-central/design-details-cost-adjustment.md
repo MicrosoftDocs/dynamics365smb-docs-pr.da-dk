@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b00ab8cd91b921a35c3228972e50e8933ed4ee5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 545a3d1ae7e95623edc373404d5d39c92516e6a8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386995"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777894"
 ---
 # <a name="design-details-cost-adjustment"></a>Designoplysninger: Omkostningsregulering
 
@@ -82,7 +82,7 @@ Det er en god ide at køre automatisk kostregulering, når du bogfører, da kost
 
 Da det er vigtigt at holde en vares kostpris opdateret, anbefales det, at du udfører kørslen **Juster kostpris - vareposter** så ofte som muligt uden for normal arbejdstid. Du kan også bruge automatisk kostregulering. Dette sikrer, at kostprisen opdateres dagligt for varer.  
 
-Uanset om du kører omkostningsregulering manuelt eller automatisk, er reguleringsprocessen og følgerne ens. [!INCLUDE[prod_short](includes/prod_short.md)]beregner værdien af den indgående overflytning, og sender udgiften til en udgående transaktion, f.eks. salg eller forbrug, som er blevet udlignet med den indgående overflytning. Kostregulering opretter værdiposter, der indeholder reguleringsbeløb og beløb, der kompenserer for afrunding.  
+Uanset om du kører omkostningsregulering manuelt eller automatisk, er reguleringsprocessen og følgerne ens. [!INCLUDE[prod_short](includes/prod_short.md)] beregner værdien af den indgående transaktion, og sender den pågældende udgift til en udgående transaktion, f.eks. salg eller forbrug, som er blevet udlignet med den indgående transaktion. Kostregulering opretter værdiposter, der indeholder reguleringsbeløb og beløb, der kompenserer for afrunding.  
 
 De nye regulerings- og afrundingsværdiposter har bogføringsdatoen for den relaterede faktura. Undtagelserne er, hvis værdiposterne ligger i en lukket regnskabsperiode eller lagerperiode, eller hvis bogføringsdatoen ligger tidligere end datoen i feltet **Bogf. tilladt fra** på siden **Opsætning af Finans**. Hvis dette sker, tildeler kørslen bogføringsdato som den første dato i den næste åbne periode.  
 

@@ -2,18 +2,18 @@
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: include
-ms.date: 01/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 539ee2eb2c9e4a71eacfb78d95320870128fb1d9
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 95121642b62f33ea1fc160c103ee845816706530
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470283"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778643"
 ---
-Når alle varer er indsat på salgslinjerne, kan du beregne fakturarabatten for det samlede dokument ved at vælge Handlinger og derefter vælge **Beregn fakturarabat**.
+Når alle varer er indsat som linjer, kan du beregne fakturarabatten for hele salgsdokumentet ved at vælge handlingen **Beregn fakturarabat**.
 
-Rabatten er beregnet baseret på samtlige linjer i salgsdokumentet for de varer, hvor der står **Ja** i feltet **Beregn fakturarabat** på salgsordrelinjen. Dette er standardindstillingen for varer. Linjer med varegebyrer er f. eks. ikke medtaget i beregningen af fakturarabatten. Hvis du vil anvende en rabat på disse linjer, skal du angive feltet **Linjerabat i %** på de relevante linjer.  
+Rabatten er beregnet baseret på samtlige linjer i salgsdokumentet for de varer, hvor der står **Ja** i feltet **Beregn fakturarabat** på salgsordrelinjen. Dette er standardindstillingen for varer. Linjer med varegebyrer er f.eks. ikke medtaget i beregningen af fakturarabatten. Hvis du vil anvende en rabat på disse linjer, skal du angive feltet **Linjerabat i %** på de relevante linjer.  
 
 > [!TIP]
 > Hvis feltet **Beregn fakturarabat** er markeret i vinduet **Salgsopsætning**, beregnes fakturarabatten automatisk, når du gør ét af følgende på salgsdokumentet:

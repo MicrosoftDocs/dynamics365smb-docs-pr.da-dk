@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6de3033333e997fa335f085499b81e1caa4146d7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381675"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783180"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Søge efter sider og oplysninger med Fortæl mig  
 I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se komme til f.eks. handlinger, sider eller rapporter, finde oplysninger om, hvordan du udfører en bestemt opgave og finder flere apps og konsulenttjenester til [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -43,7 +43,7 @@ I sektionen **På den aktuelle side** kan du finde og udføre handlinger på den
 ### <a name="finding-a-page-or-a-task"></a>Finde en side eller en opgave
 Resultaterne i sektionen **Gå til sider og opgaver** giver adgang til andre sider, hvor du kan udføre opgaver eller slå oplysninger op. Hvis du ofte bruger disse sider, kan du vælge bogmærkeikonet for at føje et link til en hvilken som helst side i dit rollecenter. Du kan finde flere oplysninger i [Føje en sidehandling til rollecenteret](ui-bookmarks.md).
 
-De sider og opgaver, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**. Første gang du logger på, bruger du oplevelsen **Essential**. Du kan finde flere oplysninger under [Tilpasse din [!INCLUDE[prod_short](includes/prod_short.md)]-oplevelse](ui-experiences.md).
+De sider og opgaver, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**. Første gang du logger på, bruger du oplevelsen **Essential**. Du kan finde flere oplysninger i [Tilpasse din [!INCLUDE[prod_short](includes/prod_short.md)]-oplevelse](ui-experiences.md).
 
 ### <a name="finding-a-report-or-archived-information"></a>Finde en rapport eller arkiverede oplysninger
 Sektionen **Gå til rapporter og analyse** giver adgang til rapporteringsfunktioner. For eksempel kan du åbne rapporten **Balance** på listen eller få adgang til arkiverede dokumenter og andre oplysninger.  
@@ -58,7 +58,7 @@ Under **Dokumentation** vises artikler fra den [!INCLUDE[prod_short](includes/pr
 Vores partnercommunity har travlt med at udvikle apps, der føjer funktioner til [!INCLUDE[prod_short](includes/prod_short.md)]. I sektionen **Hent fra Microsoft AppSource** vises apps til [!INCLUDE[prod_short](includes/prod_short.md)], der er tilgængelige i Microsoft AppSource, og som er relateret til det nøgleord, du har søgt efter.
 
 ## <a name="searching-for-data"></a>Søgning efter data
-Funktionen **Fortæl mig, hvad du vil foretage dig** søger ikke efter data, f.eks debitornavne, adresser eller transaktioner. I stedet kan du søge efter data i oversigtssider ved at vælge ikonet ![Søgeoversigt](media/ui-search/search-list.png "Ikonet Søgeoversigt") Ikonet **Søg** i venstre hjørne af oversigtshovedet. Søgningen gælder kun for den oversigt, du har åbnet. Du kan finde flere oplysninger under [Sorterings-, søgnings- og filtreringsoversigter](ui-enter-criteria-filters.md).
+Funktionen **Fortæl mig, hvad du vil foretage dig** søger ikke efter data, f.eks debitornavne, adresser eller transaktioner. I stedet kan du søge efter data i oversigtssider ved at vælge ikonet ![Søgeoversigt](media/ui-search/search-list.png "Ikonet Søgeoversigt") Ikonet **Søg** i venstre hjørne af oversigtshovedet. Søgningen gælder kun for den oversigt, du har åbnet. Du kan finde flere oplysninger i [Sorterings-, søgnings- og filtreringsoversigter](ui-enter-criteria-filters.md).
 
 ## <a name="questions"></a>Spørgsmål?
 Vi har vist Fortæl mig til en række interessenter, noteret de spørgsmål, de havde fælles, og lavet vores noter om til en oversigt over ofte stillede spørgsmål. Hvis du er interesseret, kan du se [Fortæl mig – ofte stillede spørgsmål](ui-search-faq.md).

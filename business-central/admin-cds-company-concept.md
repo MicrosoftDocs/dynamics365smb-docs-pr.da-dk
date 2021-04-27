@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378719"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773332"
 ---
 # <a name="data-ownership-models"></a>Modeller for ejerskab af data
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] kræver, at du angiver en ejer af de data, du gemmer. Du kan få flere oplysninger i [Ejerskab af objekter](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) i Power Apps-dokumentationen. Når du konfigurerer integrationen mellem [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], skal du vælge en af to ejerskabsmodeller til poster, der er synkroniserede:
-
-* Team 
-* Person (bruger)
-
-Handlinger, der kan udføres på disse poster, kan styres på et brugerniveau. Du kan finde flere oplysninger i [Bruger og teamtabeller](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Vi anbefaler modellen Teamejerskab, da den gør det nemmere at administrere ejerskab for flere personer.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] kræver, at du angiver en ejer af de data, du gemmer. Du kan få flere oplysninger i [Tabeltyper](/powerapps/maker/data-platform/types-of-entities) i Power Apps-dokumentationen. Når du konfigurerer integrationen mellem [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], skal du vælge ejerskabet **Bruger eller team** for de poster, der skal synkroniseres. Handlinger, der kan udføres på disse poster, kan styres på et brugerniveau. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Teamejerskab
 I [!INCLUDE[prod_short](includes/prod_short.md)], en virksomhed en juridisk og virksomhedsmæssig tabel, der kan bruges til at sikre og visualisere forretningsdata. Brugere arbejder altid i en virksomheds kontekst. Det tætteste, som [!INCLUDE[prod_short](includes/cds_long_md.md)] kommer på dette begreb, er virksomhedsafdelingstabeller, som ikke har juridiske eller forretningsmæssige konsekvenser.
@@ -71,9 +66,9 @@ Når du ændrer en afdeling, kan du kun vælge de afdelinger, der er ét niveau 
 ## <a name="person-ownership"></a>Personejerskab
 Hvis du vælger modellen Personejerskab, skal du angive hver sælger, der skal eje nye poster. Afdelingen og teamet oprettes som beskrevet i sektionen [Teamejerskab](admin-cds-company-concept.md#team-ownership).
 
-Standardafdelingen bruges, når ejerskabsmodellen Person vælges, og du kan ikke vælge en anden afdeling. Det team, der er knyttet til standardafdelingen, vil eje poster for fælles tabeller, f. eks. produkttabeller, som ikke er knyttet til bestemte sælgere.
+Standardafdelingen bruges, når ejerskabsmodellen Person vælges, og du kan ikke vælge en anden afdeling. Det team, der er knyttet til standardafdelingen, vil eje poster for fælles tabeller, f.eks. produkttabeller, som ikke er knyttet til bestemte sælgere.
 
-Når du sætter sælgere i [!INCLUDE[prod_short](includes/prod_short.md)] sammen med brugere i [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)], tilføjes brugeren til standardteamet i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan kontrollere, at brugerne er tilføjet ved at se på **Standardteammedlem** på siden **Brugere - Common Data Service**. Hvis brugeren ikke er tilføjet, kan du tilføje dem manuelt ved hjælp af handlingen **Tilføj sammenkødede brugere til team**. Du kan finde flere oplysninger under [Synkronisering af data i Business Central med Dataverse](admin-synchronizing-business-central-and-sales.md).
+Når du sætter sælgere i [!INCLUDE[prod_short](includes/prod_short.md)] sammen med brugere i [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)], tilføjes brugeren til standardteamet i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan kontrollere, at brugerne er tilføjet ved at se på **Standardteammedlem** på siden **Brugere - Common Data Service**. Hvis brugeren ikke er tilføjet, kan du tilføje dem manuelt ved hjælp af handlingen **Tilføj sammenkødede brugere til team**. Du kan finde flere oplysninger i [Synkronisering af data i Business Central med Dataverse](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>Se også
 [Om [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)

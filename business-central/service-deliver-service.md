@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 356ca50a1814756d0ef2ad9c3e478d94af5fd461
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: efb5942dfd58365effdf4d46759ea81f75fe718e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377444"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778318"
 ---
 # <a name="delivering-service"></a>Levering af service
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner, der kan hjælpe dig med at levere service i henhold til de kontrakter, der er oprettet, og de serviceordrer, virksomheden har forpligtet sig til at opfylde. Virksomhedens serviceteknikere eller serviceekspedient vil se, at udestående serviceordrer er lette at finde, når de bruger **Ordreoversigt**. **Ordreoversigten** giver et samlet overblik over, hvilke ordrer der er igangsat, og hvilke ordrer der er fuldført.  

@@ -2,14 +2,14 @@
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10f2088b71aa65b53b6ba284afa32a8f44347a4a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d762d26aeba07366d64fede78bf0107774d88cee
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748189"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770827"
 ---
 > [!TIP]
-> I standardversionen af [!INCLUDE [prod_short](prod_short.md)] er linjenumre skjulte. Hvis du vil se linjenumrene, skal du tilpasse den aktuelle side og tilføje **Linjenr.** . Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+> I standardversionen af [!INCLUDE [prod_short](prod_short.md)] er linjenumre skjulte. Hvis du vil se linjenumrene, skal du tilpasse den aktuelle side og tilføje **Linjenr.** . Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  

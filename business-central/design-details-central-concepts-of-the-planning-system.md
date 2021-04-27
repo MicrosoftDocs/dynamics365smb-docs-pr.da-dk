@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ff18b81f71c8d4877c42f614c5ef485a43b2b494
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fadb982f5100d09884ef330a4ce52348deb7feef
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390670"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775596"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designoplysninger: Centrale begreber i planlægningssystemet
 Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den relevante periode, der skal planlægges. Ifølge hver vares laveste-niveau-kode (styklisteposition) kalder kørslen en kodeenhed, der beregner en forsyningsplan ved at afstemme forsyning-behov-sæt og foreslå mulige handlinger, som brugeren kan foretage. De foreslåede handlinger vises som linjer i planlægningskladden eller indkøbskladden.  
@@ -243,7 +243,7 @@ Overskridelse af niveauet for sikkerhedslageret anses for at være en undtagelse
 Generelt sikrer exceptionelle ordreforslag, at den planlagte disponible beholdning aldrig er lavere end niveauet for sikkerhedslageret. Dette betyder, at det foreslåede antal lige akkurat er nok til at dække sikkerhedslageret uden at tage hensyn til planlægningsparametrene. Men i nogle eksempler tages der hensyn til ordremodifikatorer.  
 
 > [!NOTE]  
->  Planlægningssystemet har måske tilsigtet forbrugt sikkerhedslageret og vil derefter genopfylde det med det samme. Du kan finde flere oplysninger under [Sikkerhedslager kan forbruges](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
+>  Planlægningssystemet har måske tilsigtet forbrugt sikkerhedslageret og vil derefter genopfylde det med det samme. Du kan finde flere oplysninger i [Sikkerhedslager kan forbruges](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### <a name="attention"></a>Bemærk!  
 Denne advarsel vises i tre tilfælde:  

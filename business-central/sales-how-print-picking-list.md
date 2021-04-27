@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 48c1a45e1abc510ce98f405dcdecc5d91d1a9ac5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 705302fac91b29592c26b82d3e64a49bdc001d02
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393720"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778718"
 ---
 # <a name="print-the-picking-list"></a>Udskrive pluklisten
 Du kan udskrive en lagerplukliste direkte i salgsordrer, en salgsfakturaer og andre udgående salgsdokumenter, der bruges til at starte leverance af varer.
@@ -30,10 +30,10 @@ Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme f
 3. Vælg handlingen **Rapport**, og vælg derefter handlingen **Plukliste efter ordre**.  
 4. Klik på **Udskriv** for at udskrive pluklisten, eller klik på **Vis udskrift** for at se den på skærmen.
 
-Du kan også gemme pluklisten som et dokument, hvis du f. eks. vil sende den til en anden person eller tilføje den som en vedhæftet fil i salgsordren. Du kan få flere oplysninger i [Administrere vedhæftede filer, links og noter på kort og dokumenter](ui-how-add-link-to-record.md).
+Du kan også gemme pluklisten som et dokument, hvis du f.eks. vil sende den til en anden person eller tilføje den som en vedhæftet fil i salgsordren. Du kan få flere oplysninger i [Administrere vedhæftede filer, links og noter på kort og dokumenter](ui-how-add-link-to-record.md).
 
 > [!NOTE]
-> Hvis du har brugt funktionen **Udfold stykliste** på salgsordren, vises kun de komponenter, der hører til det relaterede montageelement, i rapporten. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
+> Hvis du har brugt funktionen **Udfold stykliste** på salgsordren, vises kun de komponenter, der hører til det relaterede montageelement, i rapporten. Du kan finde flere oplysninger i [Arbejde med styklister](inventory-how-work-BOMs.md).
 
 ## <a name="see-also"></a>Se også  
 [Lagerbeholdning](inventory-manage-inventory.md)  

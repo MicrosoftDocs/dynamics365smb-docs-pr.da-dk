@@ -5,24 +5,24 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7588c74db57022e9e1fced9262408d0dd37e1181
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8e3926db3bcc1b34e2f75e6b338a86f2ddc2c20b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389245"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783355"
 ---
 # <a name="customize-pages-for-profiles"></a>Tilpasse sider til profiler
-Brugerne kan tilpasse de sider, som udgør deres arbejdsområde, så de passer til deres egne præferencer. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+Brugerne kan tilpasse de sider, som udgør deres arbejdsområde, så de passer til deres egne præferencer. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 Administratorer kan tilpasse sider til en profil i henhold til den tilknyttede forretningsrolle eller -afdeling, f.eks. så alle de brugere, der er tildelt profilen, kan se det tilpassede sidelayout. Administratoren tilpasser sider ved at bruge de samme funktioner som brugerne, når de tilpasser sider.
 
 > [!NOTE]
 > Den typiske forretningsbrug af en profil er en rolle. En profil har derfor navnet *Profil (rolle)* i brugergrænsefladen.
 
-Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratorens udgangspunkt for styring af brugerprofiler for individuelle profilkort. Ud over at tilpasse sidelayoutet kan du styre forskellige andre indstillinger for profiler på siden **Profil (rolle)** for hver profil. Du kan finde flere oplysninger under [Administrere profiler](admin-users-profiles-roles.md).
+Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratorens udgangspunkt for styring af brugerprofiler for individuelle profilkort. Ud over at tilpasse sidelayoutet kan du styre forskellige andre indstillinger for profiler på siden **Profil (rolle)** for hver profil. Du kan finde flere oplysninger i [Administrere profiler](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Sådan tilpasses sider for en profil
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Profiler (roller)**, og vælg derefter det relaterede link.
@@ -31,7 +31,7 @@ Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratore
 
     [!INCLUDE[prod_short](includes/prod_short.md)] åbner en ny webbrowserfane for den valgte profil, hvor banneret **Tilpasning** er aktiveret. Banneret **Tilpasning** har samme funktionalitet som banneret **Tilpas**, der er tilgængeligt for brugerne.
 
-4. Tilpas sider efter den pågældende rolles eller afdelings behov på samme måde som en bruger gør. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+4. Tilpas sider efter den pågældende rolles eller afdelings behov på samme måde som en bruger gør. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
     > [!NOTE]
     > Hvis du vil navigere under tilpasningen, skal du bruge Ctrl + klikke på en handling, hvis den er fremhævet af pilespidsen.
@@ -50,7 +50,7 @@ Du kan få vist en oversigt over, hvilke sider der er tilpasset for en profil, f
 Du kan slette tilpasninger på siden **Brugerdefinerede sider**, og du kan foretage fejlfinding ved at søge efter mulige problemer.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Sådan slettes alle tilpasninger for en profil
-Du kan annullere alle tilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette alle tilpasninger med en anden handling. Du kan finde flere oplysninger under [Sådan slettes alle tilpasninger, der er foretaget af en bruger](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
+Du kan annullere alle tilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette alle tilpasninger med en anden handling. Du kan finde flere oplysninger i [Sådan slettes alle tilpasninger, der er foretaget af en bruger](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
 - På siden **Profil (rolle)** for en tilpasset profil skal du vælge handlingen **Fjern brugerdefinerede sider**.
 

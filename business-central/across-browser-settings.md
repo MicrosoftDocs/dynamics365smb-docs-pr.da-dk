@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, web client, troubleshooting, errors
-ms.date: 01/08/2021
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b5083735be31b635cb3fc3ce404e7f182d04640f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 90625ed6d5664efc9605aeacbc66d8174e55799d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384970"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776293"
 ---
 # <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Konfigurere og foretage fejlfinding i browseren om, hvordan du arbejder med webklienten Business Central
 
@@ -25,7 +25,7 @@ Artiklen indeholder oplysninger om, hvordan du kan konfigurere Microsoft Edge, m
 
 ## <a name="use-a-supported-browser"></a>Brug en understøttet browser
 
-Sørg for at bruge en af de understøttede browsere. Se [Minimumkrav til brug af Business Central](product-requirements.md#recommended-browsers).  
+Sørg for at bruge en af de understøttede browsere. Se [Minimumkrav til brug af Business Central](product-requirements.md#browsers).  
 
 ## <a name="allow-javascript-from-business-central"></a>Tillad JavaScript fra Business Central
 

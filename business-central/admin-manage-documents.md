@@ -4,14 +4,14 @@ description: Få mere at vide om, hvordan du kan bevare dine historiske oplysnin
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: c41e4d871740efde811a6bfc6190605aa4e3f573
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493043"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781207"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrere lager ved at slette dokumenter eller komprimere data
 
@@ -48,9 +48,9 @@ Du kan komprimere følgende datatyper [!INCLUDE [prod_short](includes/prod_short
 * Kreditorposter
 
 > [!NOTE]
-> Komprimerede poster for debitorer, kreditorer, bank-og Anlægsposter bogføres en smule anderledes end standard bogføring. Det er at reducere antallet af nye finansposter, der er oprettet ved datokomprimering, og det er specielt vigtigt, når du gemmer oplysninger som f. eks. dimensioner og dokumentnumre. Datokomprimering opretter nye poster på følgende måde:
+> Komprimerede poster for debitorer, kreditorer, bank-og Anlægsposter bogføres en smule anderledes end standard bogføring. Det er at reducere antallet af nye finansposter, der er oprettet ved datokomprimering, og det er specielt vigtigt, når du gemmer oplysninger som f.eks. dimensioner og dokumentnumre. Datokomprimering opretter nye poster på følgende måde:
 >* På siden **Finansposter** oprettes nye poster med nye løbenumre for de komprimerede poster. Feltet **Beskrivelse** indeholder **Datokomprimeret**, så de komprimerede poster nemt kan identificeres. 
->* På Finanssider, f. eks. siden **Debitorposter** oprettes der en eller flere poster med nye løbenumre. 
+>* På Finanssider, f.eks. siden **Debitorposter** oprettes der en eller flere poster med nye løbenumre. 
 > Bogføringsprocessen skaber huller i nummerserien til poster på siden **Finansposter**. Disse numre tildeles kun poster på finans sider. Det nummerinterval, der er knyttet til posterne, er tilgængeligt på siden **Finansjournal** i felterne **Fra løbenr.** og **Til løbenr.** 
 
 Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsdato**, **Kreditornr.**, **Dokumenttype**, **Valutakode**, **Bogføringsgruppe**, **Beløb**, **Resterende beløb**, **Oprindeligt beløb (LCY)**, **Resterende beløb (LCY)**, **Beløb (LCY)**, **Køb (LCY)**, **Fakturarabat (LCY)**, **Ydet kont.rabat (LCY)** og **Mulig kontantrabat**.
@@ -58,7 +58,7 @@ Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsda
   Desuden kan du bruge funktionen **Bevar feltindhold** til at bevare oplysningerne i følgende felter: **Dokumentnr.**, **Kreditornr.**, **Indkøberkode**, **Global dimension 1-kode** og **Global dimension 2-kode**.
 
 > [!NOTE]
-> Når du har kørt datokomprimering, er alle finanskonti låst. Du kan f. eks. ikke annullere udligning af kreditor-eller bankposter for en konto i den periode, hvor datoerne er komprimeret.
+> Når du har kørt datokomprimering, er alle finanskonti låst. Du kan f.eks. ikke annullere udligning af kreditor-eller bankposter for en konto i den periode, hvor datoerne er komprimeret.
 
 <!--* General ledger entries
 * Customer ledger entries-->

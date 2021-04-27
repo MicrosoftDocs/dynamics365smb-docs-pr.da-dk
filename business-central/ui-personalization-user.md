@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 083692ce38e9403705c6d683afb58a17dbecec90
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393795"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783307"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
@@ -25,8 +25,8 @@ Du kan tilpasse alle typer sider, herunder siden Rollecenter. Du kan finde flere
 Afhængigt af sidens type og det siden indeholder, kan du udføre forskellige ændringer som at flytte eller skjule felter, kolonner, handlinger, hele dele og tilføje nye felter. De fleste tilpasninger skal foretages ved først at aktivere banneret **Tilpas**, men meget enkle justeringer, f.eks. af kolonnebredden, kan udføres med det samme på enhver liste.
 
 > [!NOTE]
-> Administratorer kan udføre samme layoutændringer, efterhånden som brugerne kan tilpasse arbejdsområdet til en profil, som tildeles til flere brugere. Du kan finde flere oplysninger under [Tilpasse sider til roller](ui-personalization-manage.md).<br /><br />
-Administratorer kan også tilsidesætte eller deaktivere brugernes tilpasninger, og de kan også definere, hvilke funktioner brugerne skal kunne se i alle eller bestemte regnskaber. Du kan finde flere oplysninger under [Tilpasse Business Central](ui-customizing-overview.md).
+> Administratorer kan udføre samme layoutændringer, efterhånden som brugerne kan tilpasse arbejdsområdet til en profil, som tildeles til flere brugere. Du kan finde flere oplysninger i [Tilpasse sider til roller](ui-personalization-manage.md).<br /><br />
+Administratorer kan også tilsidesætte eller deaktivere brugernes tilpasninger, og de kan også definere, hvilke funktioner brugerne skal kunne se i alle eller bestemte regnskaber. Du kan finde flere oplysninger i [Tilpasse Business Central](ui-customizing-overview.md).
 
 ## <a name="video-overview"></a>Videooversigt
 I følgende video vises nogle metoder til at tilpasse dit rollecenter.
@@ -54,7 +54,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 3. Hvis du vil tilføje et felt, skal du vælge handlingen **+ Felt**.
 4. Træk og slip et felt på den ønskede placering på siden i sideruden **Føj felt til side**.
 5. Hvis du vil ændre et brugergrænsefladeelement, skal du pege på elementet, f.eks. en handling, et felt eller en del. Elementet fremhæves straks med en pilespids eller kant.
-6. Vælg elementet, og vælg derefter enten **Flyt**, **Fjern**, **Skjul**, **Vis**, **Vis under "Vis flere"**, **Vis, når skjult**, **Vis altid**, **Angiv/Ryd låst rude** eller **Medtag/Udeluk fra genvej**, afhængigt af typen og tilstanden for brugergrænsefladeelementet. Du kan finde flere oplysninger under [Hvad kan du tilpasse](#What).
+6. Vælg elementet, og vælg derefter enten **Flyt**, **Fjern**, **Skjul**, **Vis**, **Vis under "Vis flere"**, **Vis, når skjult**, **Vis altid**, **Angiv/Ryd låst rude** eller **Medtag/Udeluk fra genvej**, afhængigt af typen og tilstanden for brugergrænsefladeelementet. Du kan finde flere oplysninger i [Hvad kan du tilpasse](#What).
 7. Når du er færdig med at ændre layoutet for en eller flere sider, skal du vælge knappen **Udført** på banneret **Tilpas**.
 
 ## <a name="what-you-can-personalize"></a><a name="What"></a>Hvad kan du tilpasse
@@ -65,7 +65,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 |Skjule noget, f.eks. et felt, en kolonne i listen, et felt, en handling eller en del.|Vælg pilespidsen, vælg <b>Skjul</b>.|Elementet vises nedtonet, når du er i tilpasningstilstand. Hvis det felt, du skjuler, også vises i overskriften til oversigtspanelet, når oversigtspanelet er skjult, vises feltet ikke længere der.|
 |Vise skjulte handlinger og dele.|For et nedtonet (skjult) element skal du vælge pilespidsen og derefter vælge <b>Vis</b>.|Det skjulte element er synligt igen.|
 |Tilføje et felt eller en kolonne.|Vælg handlingen <b>+ Felt</b> i banneret <b>Tilpas</b>.<br /></br>Ruden <b>Tilføj felt til side</b> vises til højre. Den viser de felter, du kan føje til siden.<br /><br />Hvis du vil tilføje et felt, skal du trække det fra ruden til den ønskede placering. Placeringen angives med enten en fed vandret eller lodret linje.|Hver side indeholder et foruddefineret sæt felter, der kan vises. Brug denne fremgangsmåde til at tilføje felter eller kolonner, der ikke tidligere er vist, eller til at vise felter, du har skjult.|
-|Vise et felt i overskriften til et oversigtspanel, når oversigtspanelet er skjult.|Vælg pilespidsen, og vælg derefter <b>Vis, når skjult</b>. <br /> <br />Hvis du ikke kan se denne indstilling, er den allerede angivet. Hvis det er tilfældet, og feltet ikke skal vises i overskriften til oversigtspanelet, skal du vælge <b>Vis altid</b>.|*Oversigtspanel* er det udtryk, der bruges om en gruppe felter, der vises under en fælles overskrift. Brug indstillingen <b>Vis, når skjult</b> for at få vist de vigtigste felter. Hvis du vælger et felt i overskriften, åbnes oversigtspanelet og fokuserer på det valgte felt.<br /><br />Denne indstilling kan kun anvendes, hvis en side har mere end et oversigtspanel. Hvis der kun er ét oversigtspanel, kan det ikke skjules, så indstiillingen <b>Vis, når skjult</b> er ikke tilgængelig.|
+|Vise et felt i overskriften til et oversigtspanel, når det er skjult.|Vælg pilespidsen, og vælg derefter <b>Vis, når skjult</b>. <br /> <br />Hvis du ikke kan se denne indstilling, er den allerede angivet. Hvis det er tilfældet, og feltet ikke skal vises i overskriften til oversigtspanelet, skal du vælge <b>Vis altid</b>.|*Oversigtspanel* er det udtryk, der bruges om en gruppe felter, der vises under en fælles overskrift. Brug indstillingen <b>Vis, når skjult</b> for at få vist de vigtigste felter. Hvis du vælger et felt i overskriften, åbnes oversigtspanelet og fokuserer på det valgte felt.<br /><br />Denne indstilling kan kun anvendes, hvis en side har mere end et oversigtspanel. Hvis der kun er ét oversigtspanel, kan det ikke skjules, så indstiillingen <b>Vis, når skjult</b> er ikke tilgængelig.|
 |Angiv, at et felt kun skal vises, når du vælger **Vis mere**.|Vælg pilespidsen, og vælg derefter <b>Vis under "Vis flere"</b>. <br /> <br />Hvis du ikke kan se indstillingen <b>Vis under "Vis flere"</b>, er den allerede angivet. I så fald skal du vælge <b>Vis altid</b> for at få vist et felt hele tiden, og ikke kun når du vælger **Vis mere**.||
 |Flytte den fastlåste rude i en liste til en anden kolonne. |Vælg pilespidsen for den kolonne, som du vil bruge som den sidste kolonne i den fastlåste rude, og vælg derefter <b>Angiv låst rude</b>.<br /><br/>Hvis du vil flytte den fastlåste rude tilbage til den oprindelige tiltænkte placering, skal du vælge pilespidsen for den aktuelle kolonne i den låste rude og vælge <b>Ryd låst rude</b>. Bemærk: Du kan ikke fjerne denne låste rude.|Den fastlåste rude angiver de kolonner, der altid vises i venstre side, selv når du ruller vandret.|  
 |Spring et felt over, når du trykker på Enter.|Vælg pilespidsen ved siden af feltet eller kolonneoverskriften på en liste, og vælg **Udeluk fra genvej**. <br /><br /> Hvis du ikke kan se denne indstilling, er det allerede angivet, at feltet skal springes over. I det tilfælde skal du stoppe med at springe feltet over og vælge **Medtag i genvej**. |Se [Fremskynde dataindtastning ved hjælp af genveje](ui-enter-data.md#QuickEntry)|
@@ -109,9 +109,9 @@ Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret l
 
 ## <a name="personalizing-parts"></a><a name="Parts"></a>Tilpasning af dele
 
-Dele er områder på en side, der typisk består af flere felter, diagrammer eller andet indhold, og som kan identificeres med en farvet ramme, når der sættes fokus på delen. Et rollecenters startskærm har f. eks. flere dele. På grund af den veldefinerede grænse kan du tilpasse hele delen og dens indhold.
+Dele er områder på en side, der typisk består af flere felter, diagrammer eller andet indhold, og som kan identificeres med en farvet ramme, når der sættes fokus på delen. Et rollecenters startskærm har f.eks. flere dele. På grund af den veldefinerede grænse kan du tilpasse hele delen og dens indhold.
 
-- Træk og slip en del til den ønskede placering for at flytte den. En farvet linje angiver gyldige placeringer på skærmen. Faktabokse kan f. eks. kun flyttes til siden af andre faktabokse i faktaboksruden.
+- Træk og slip en del til den ønskede placering for at flytte den. En farvet linje angiver gyldige placeringer på skærmen. Faktabokse kan f.eks. kun flyttes til siden af andre faktabokse i faktaboksruden.
 - Du kan skjule en del ved at vælge indstillingen **Skjul** under pilespidsen.
 - Når du begynder at tilpasse eller navigere til en ny side, vil alle dele, der aktuelt er skjult, blive vist på siden med karakteristiske detaljer, der angiver, at de er skjulte. Du kan vise denne del igen ved at vælge indstillingen **Vis** under pilespidsen.
 

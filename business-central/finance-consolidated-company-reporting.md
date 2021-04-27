@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7274be55600bf2c67ec81aa592940a15bc31162d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2be133009314b714d7b86e6257f642f13720b5e8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381009"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774325"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidering af finansielle oplysninger fra flere regnskaber
 
@@ -103,7 +103,7 @@ Hver konto vises på en separat linje, rapporten følger kontoplanens opbygning.
 Hvis data for en koncernvirksomhed er placeret i en anden database, skal du eksportere dataene til en fil, før de kan medtages i konsolideringen. Regnskaberne skal udlæses separat. Til det formål bruges kørslen **Udlæs konsolideringsposter**.  
 
 > [!TIP]
-> Brug den samme proces til at eksportere konsoliderede data, der skal sendes til Dynamics 365 Finance, f. eks. Hvis den aktuelle afdeling er et datterselskab, og moderselskabet bruger Dynamics 365 Finance.
+> Brug den samme proces til at eksportere konsoliderede data, der skal sendes til Dynamics 365 Finance, f.eks. Hvis den aktuelle afdeling er et datterselskab, og moderselskabet bruger Dynamics 365 Finance.
 
 Når du kører batchjobbet, behandles alle poster i finanskonti. Indhold i felterne **Beløb** sammentælles og udlæses for hver kombination af valgte dimensioner og dato. Den næste kombination af valgte dimensioner og dato med samme kontonummer behandles, og derefter behandles kombinationerne i næste kontonummer osv.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/11/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a14155d0b9dc780fa65bbf1f151e82b8a175984
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0d6e05a52cb4028087e4c52c56fb9d2f5ab78795
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393395"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778844"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Rette eller annullere ubetalte salgsfakturaer
 
@@ -62,7 +62,7 @@ Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindel
 3. På siden **Bogført salgsfaktura** skal du vælge handlingen **Ret**.  
 
     > [!NOTE]
-    > Hvis salgsfakturaen er bogført fra en salgsordre, anbefales det, at du *annullerer* denne salgsfaktura og derefter behandler korrektionen fra den oprindelige salgsordre. Hvis den oprindelige salgsordre er slettet, f. eks. Hvis den er leveret fuldt ud, kan du oprette en ny salgsordre ved hjælp af handlingen **Kopier dokument**. Du kan finde flere oplysninger i [Sådan oprettes en salgskreditnota ved at kopiere en bogført salgsfaktura](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice).
+    > Hvis salgsfakturaen er bogført fra en salgsordre, anbefales det, at du *annullerer* denne salgsfaktura og derefter behandler korrektionen fra den oprindelige salgsordre. Hvis den oprindelige salgsordre er slettet, f.eks. Hvis den er leveret fuldt ud, kan du oprette en ny salgsordre ved hjælp af handlingen **Kopier dokument**. Du kan finde flere oplysninger i [Sådan oprettes en salgskreditnota ved at kopiere en bogført salgsfaktura](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice).
 4. En ny salgsfaktura med de samme oplysninger oprettes, hvor du kan foretage en rettelse. Feltet **Annulleret** på den første bogførte salgsfaktura ændres til **Ja**.
 
     En salgskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte salgsfaktura.

@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: abf02afda9528d3dac3e59b2def34bd89090d9ae
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d84241bf78b1e6f8ae6cfc053a80e030cb960814
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386720"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773000"
 ---
 # <a name="assemble-items"></a>Montere elementer
 Hvis feltet **Genbestillingssystem** på varekortet indeholder **Montage**, er standardmetoden til at levere varen at montere den fra definerede komponenter og potentielt af en ressource, der er defineret.  
 
-Komponenter og ressourcer, der indgår i denne form for montageelement, skal være defineret i en montage stykliste. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).  
+Komponenter og ressourcer, der indgår i denne form for montageelement, skal være defineret i en montage stykliste. Du kan finde flere oplysninger i [Arbejde med styklister](inventory-how-work-BOMs.md).  
 
 Montageelementer kan angives for to forskellige montageprocesser:  
 

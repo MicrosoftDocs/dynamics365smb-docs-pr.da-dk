@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 01/08/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ea421a1e4c1961bd5df2fac9a8112c9969f206ac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393670"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779453"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumkrav til brug af Business Central
 
@@ -23,32 +23,34 @@ Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales 
 
 ## <a name="browsers"></a>Webbrowsere
 
-### <a name="recommended-browsers"></a>Anbefalede browsere
-
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug sammen med den aktuelle version af det nye Microsoft Edge.  
-**Chrome til Windows og Firefox til Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug med den aktuelle version af disse skrivebordsbrowsere.  
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug sammen med den aktuelle version af det nye Microsoft Edge.
+  
+**Chrome til Windows og Firefox til Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug med den aktuelle version af disse skrivebordsbrowsere. 
+ 
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug sammen med den aktuelle version af Safari til macOS.  
-
-### <a name="other-supported-browsers"></a>Andre understøttede browsere
-
-**Microsoft Edge Legacy:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til at fungere med den ældre version af Microsoft Edge, men det anbefales, at du skifter til den nye Edge.  
-**Internet Explorer:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug med Internet Explorer 11 (build 11.0.9600.17239) til Windows 10 (32-bit og 64-bit versioner). Det anbefales, at du opgraderer til den seneste version af Internet Explorer, der understøttes af din version af Windows. Du kan også åbne den nye Microsoft Edge-browser og stadig få adgang til andre websteder, der kræver Internet Explorer. Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](/deployedge/edge-ie-mode).
-
-> [!IMPORTANT]
-> Fra og med april 2021 vil Internet Explorer 11 og den ældre version af Microsoft Edge ikke længere være understøttet. Det anbefales, at du så hurtigt som muligt skifter til en af de anbefalede moderne browsere.
 
 ## <a name="mobile-devices"></a>Mobilenheder
 
-**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] til Windows kan installeres på enheder med mindst 1 GB RAM og Windows 10 S, Home, Pro, Enterprise eller Education (32-bit og 64-bit versioner).  
-**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] til iPad og iPhone kræver iOS 10.0 eller nyere.  
-**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] til Android-tablet og Android-telefon kan installeres på enheder med mindst 1 GB RAM og Android 6.0 eller højere.  
-**Enhedsstørrelse:** [!INCLUDE[prod_short](includes/prod_short.md)] understøttes på smartphones med en minimumskærmstørrelse på 4" og tablets med en minimumskærmstørrelse på 7".  
+**Windows:** Windows 10 S, Home, Pro, Enterprise eller Education (32-bit- og 64-bit-versioner).
 
+**Android (tablet og telefon):** En af de seneste tre overordnede versioner og deres opdateringer.
+
+**iOS (iPad og iPhone):** En af de seneste tre overordnede versioner og deres opdateringer.
+
+<!--
+
+**Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] for Windows can be installed on devices with at least 1 GB of RAM and Windows 10 S, Home, Pro, Enterprise, or Education (32-bit and 64-bit editions).  
+**iOS:** [!INCLUDE[prod_short](includes/prod_short.md)] for iPad and iPhone requires iOS 10.0 or later.  
+**Android:** [!INCLUDE[prod_short](includes/prod_short.md)] for Android tablet and Android phone can be installed on devices with at least 1 GB of RAM and Android 6.0 or higher.  
+**Device size:** [!INCLUDE[prod_short](includes/prod_short.md)] is supported on smart phones with a minimum screen size of 4" and tablets with a minimum screen size of 7".  
+-->
 ## <a name="outlook"></a>Outlook
 
-**Outlook-programmer:** For at kunne bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2019 eller nyere, Outlook på nettet, Outlook til iPhone, Outlook til iPad eller Outlook til Android. Organisationen skal også bruge Microsoft 365. Du kan ikke bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø.  
-**Webbrowsere:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds indbakke i en browser, kræver tilføjelsesprogrammet, at computeren kører en af de anførte understøttede webbrowsere, der er angivet tidligere i denne artikel.  
-**Platforme:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tilføjelsesprogrammet i Outlook til iPhone, Outlook til iPad eller Outlook til Android, kræver tilføjelsesprogrammet, at mobilenheden kører en af de anførte understøttede mobilenheder til [!INCLUDE[prod_short](includes/prod_short.md)].  
+**Outlook-programmer:** For at kunne bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2019 eller nyere, Outlook som webmail, Outlook til iOS eller Outlook til Android. Organisationen skal også bruge Microsoft 365. Du kan ikke bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø. 
+ 
+**Webbrowsere:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds indbakke i en browser, kræver tilføjelsesprogrammet, at computeren kører en af de anførte understøttede webbrowsere, der er angivet tidligere i denne artikel. 
+ 
+**Platforme:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tilføjelsesprogrammet i Outlook til iOS, Outlook til Android, kræver tilføjelsesprogrammet, at mobilenheden kører en af de anførte understøttede mobilenheder til [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="teams"></a>Teams
 
@@ -73,12 +75,11 @@ Administrationscenteret er designet til at fungere sammen med den aktuelle versi
 
 ## <a name="using-business-central-on-premises"></a>Brug af Business Central til det lokale miljø
 
-Hvis du vil installere Business Central i det lokale miljø, skal du kontrollere systemkravene. Du kan finde flere oplysninger i [Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17) og [Installationsoversigt](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Hvis du vil installere Business Central i det lokale miljø, skal du kontrollere systemkravene. Du kan finde flere oplysninger i [Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) og [Installationsoversigt](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Se også
 
-[Introduktion](product-get-started.md)  
-[Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v17)  
-
+[Blive køreklar](ui-get-ready-business.md)  
+[Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 32ae014f9d98ceb9c338596d859ec14395ceb6f5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2d956b7e22e4fe079c47ca8693d717a2b451f146
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377057"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772725"
 ---
 # <a name="purchase-items-for-a-sale"></a>Købe varer til et salg
 Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.
@@ -45,7 +45,7 @@ Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt
 5. Vælg knappen **OK**.
 
     Der oprettes en indkøbsordre for hver vareleverandør på salgsordren, herunder eventuelle ændringer af antal, du har foretaget på siden **Opret købsordrer**.
-7. Fortsæt med at behandle købsordrer eller ordrer, for eksempel ved at redigere eller tilføje købsordrelinjer. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
+7. Fortsæt med at behandle købsordrer eller ordrer, for eksempel ved at redigere eller tilføje købsordrelinjer. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 
 
 ## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Sådan oprettes en købsfaktura fra en salgsordre eller salgsfaktura
@@ -62,7 +62,7 @@ Når du vil oprette en enkelt købsfaktura for en eller flere linjer i et salgsd
 6. På listen over kreditorer, der vises, skal du vælge den kreditor, du vil købe alle varerne fra, og derefter vælge knappen **OK**.
 
     Der oprettes en købsfaktura, der indeholder én, flere end én eller alle linjer på salgsfakturaen.
-7. Fortsæt med at behandle købsfakturaen, for eksempel ved at redigere eller tilføje købsfakturalinjer. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
+7. Fortsæt med at behandle købsfakturaen, for eksempel ved at redigere eller tilføje købsfakturalinjer. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a431eba8881eb6bb32e01d67f25ea53981da445e
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 5c46fc5107413c4b00b7283e29a75d835de5434e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470333"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777669"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spore udveksling af mails mellem sælgere og kontakter
 
@@ -39,10 +39,10 @@ Introduktion til maillogføring i to lette trin:
 > Når du har udført trinnene i programguiden, kan du kontrollere, om forbindelsen er oprettet. Søg efter **Marketingopsætning**, vælg **Proces**, derefter **Funktioner** og derefter **Valider opsætning af maillogføring**.
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Få vist udveksling af mails i interaktionslogposten
-[!INCLUDE[prod_short](includes/prod_short.md)] opretter en post på siden **Interaktionslog**, hver gang en sælger og en kontakt udveksler en mail. Du kan få vist interaktionsloggen ved at åbne kortet **Kontakt** eller **Sælger/indkøber** for personen, og derefter vælge **Oversigt** og **Interaktionslogposter**. Der er nogle få ting, der kan udføres for hver indtastning i logfilen, f. eks.:
+[!INCLUDE[prod_short](includes/prod_short.md)] opretter en post på siden **Interaktionslog**, hver gang en sælger og en kontakt udveksler en mail. Du kan få vist interaktionsloggen ved at åbne kortet **Kontakt** eller **Sælger/indkøber** for personen, og derefter vælge **Oversigt** og **Interaktionslogposter**. Der er nogle få ting, der kan udføres for hver indtastning i logfilen, f.eks.:
 
 - Få vist indholdet af den mail, der blev udvekslet, ved at klikke på handlingen **Vis vedhæftede filer**.
-- Omdanne en mailudveksling til et salgs-lead – hvis en post ser lovende ud, kan du gøre den til en lead og derefter styre forløbet hen imod et salg. Det gør du ved at vælge posten og derefter vælge handlingen **Opret lead**. Du kan finde flere oplysninger under [Administrere salgsleads](marketing-manage-sales-opportunities.md).
+- Omdanne en mailudveksling til et salgs-lead – hvis en post ser lovende ud, kan du gøre den til en lead og derefter styre forløbet hen imod et salg. Det gør du ved at vælge posten og derefter vælge handlingen **Opret lead**. Du kan finde flere oplysninger i [Administrere salgsleads](marketing-manage-sales-opportunities.md).
 
 ## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Tilslutning af lokale versioner til Microsoft Exchange
 Du kan oprette forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange on-premises eller Exchange Online til e-maillogføring. For begge versioner af Exchange er indstillingerne for forbindelsen tilgængelige på siden **Marketingopsætning**. I Exchange Online kan du også bruge en assisteret installationsvejledning. 
@@ -53,7 +53,7 @@ Hvis du vil tilslutte [!INCLUDE[prod_short](includes/prod_short.md)] on-premises
 ### <a name="connecting-to-exchange-online"></a>Forbindelse til Exchange Online
 Hvis du vil oprette forbindelse til Exchange Online, skal du bruge **OAuth2** som **godkendelsestype**. Du kan også registrere et program i Azure Active Directory og angive program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du kan finde flere oplysninger i [Sådan registreres et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
-Du skal konfigurere installationen til at bruge HTTPS. Du kan finde flere oplysninger under [Konfigurere SSL for at sikre forbindelsen til Business Central-webklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren, så den har en anden startside, kan du altid ændre URL-adressen. Klientens hemmelighed gemmes som en krypteret streng i din database.
+Du skal konfigurere installationen til at bruge HTTPS. Du kan finde flere oplysninger i [Konfigurere SSL for at sikre forbindelsen til Business Central-webklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren, så den har en anden startside, kan du altid ændre URL-adressen. Klientens hemmelighed gemmes som en krypteret streng i din database.
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Sådan registrerer du et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online
 I følgende trin antages det, at du bruger Azure Active Directory til at administrere identiteter og adgangsrettigheder. Du kan finde flere oplysninger om registrering af et program i [Hurtig start: Registrere et program på Microsoft-identitetsplatformen](/azure/active-directory/develop/quickstart-register-app). Hvis du ikke bruger Azure Active Directory, kan du se [Bruge en anden tjeneste til identitets- og adgangsstyring](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 

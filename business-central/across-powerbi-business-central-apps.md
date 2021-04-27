@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7defa26581c963241aef7aabd5f01e035ab3f564
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 855f071f624c2a99bd9b637111b67d3a59e61350
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379119"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781307"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-apps i Power BI
 
@@ -39,7 +39,7 @@ Hver app indeholder flere rapporter, som du kan se detaljerede data i, herunder 
 Apps er designet til at arbejde med data fra alle de virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]. Når du installerer Power BI-app'en, angiver du en eller flere parametre for at oprette forbindelse til din [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 > [!NOTE]
-> Du kan også oprette dine egne rapporter og dashboards i Power BI baseret på dine [!INCLUDE[prod_short](includes/prod_short.md)]-data. Du kan finde flere oplysninger under [Forbinde dine virksomhedsdata med Power BI](across-how-use-financials-data-source-powerbi.md). 
+> Du kan også oprette dine egne rapporter og dashboards i Power BI baseret på dine [!INCLUDE[prod_short](includes/prod_short.md)]-data. Du kan finde flere oplysninger i [Forbinde dine virksomhedsdata med Power BI](across-how-use-financials-data-source-powerbi.md). 
 
 ## <a name="prerequisites"></a>Forudsætninger
 
@@ -52,7 +52,7 @@ Power BI-apps kræver tilladelser til de tabeller, hvor der hentes data fra, og 
 |[!INCLUDE[prod_short](includes/prod_short.md)] – Sales| <ul><li>Varestatistik efter kunde</li><li>Salgsdashboard</li><li>Vis virksomhedsoplysninger i Excel-skabelon</li><li>Power BI-rapportetiketter</li></ul>|
 
 > [!TIP]
-> En nem måde at finde webtjenesterne på er at søge efter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Webtjenester** skal du sørge for, at feltet **Udgiv** er markeret for de webtjenester, der er angivet ovenfor. Du kan finde flere oplysninger under [Udgive en webtjeneste](across-how-publish-web-service.md).
+> En nem måde at finde webtjenesterne på er at søge efter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Webtjenester** skal du sørge for, at feltet **Udgiv** er markeret for de webtjenester, der er angivet ovenfor. Du kan finde flere oplysninger i [Udgive en webtjeneste](across-how-publish-web-service.md).
 
 ## <a name="get-ready"></a>Gør dig klar
 
@@ -164,8 +164,8 @@ Power BI-appen viser kun data fra den [!INCLUDE[prod_short](includes/prod_short.
 [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-dokumentation](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Introduktion](product-get-started.md)  
-[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Blive køreklar](ui-get-ready-business.md)  
+[Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  

@@ -9,20 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38022164846c9463a91179a6d71b9ebb8e4bd2a2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a2f4ed751ae630db7cc7f2eb12046492a5c56664
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385920"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773576"
 ---
 # <a name="customize-business-central"></a>Tilpasse Business Central
 Der er forskellige måder at tilpasse programmet på, der giver dig og dine kolleger adgang til de funktioner, den funktionalitet og de data, I har mest brug for, og på en måde, der passer bedst til det daglige arbejde. Hvem der ser ændringerne, afhænger af hvad du gør, som beskrevet i denne tabel.
 
 > [!NOTE]
-> Ud over hvad administratorer kan tilpasse, kan brugere tilpasse deres sider ved at tilføje, flytte eller fjerne felter, låse ruder, dele og andet. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+> Ud over hvad administratorer kan tilpasse, kan brugere tilpasse deres sider ved at tilføje, flytte eller fjerne felter, låse ruder, dele og andet. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 | Hvad kan du gøre    |  Beskrivelse  |  Hvem ser ændringerne  |  Flere oplysninger  |
 |-----|---------------|---------|-------|

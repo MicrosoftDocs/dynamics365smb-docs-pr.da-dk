@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6aa7018a43db8c663c209894e118518c3de2f7cf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393875"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771131"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 
@@ -26,7 +26,9 @@ Hvis du vil have vist eller ændre nogen af disse typer vedhæftede oplysninger,
 Vedhæftede filer, links og noter forbliver tilknyttede, når kortet eller dokumentet behandles i andre tilstande, f.eks. fra en igangværende salgsordre til en bogført salgsfaktura. Ingen af de vedhæftede filtyper er dog output fra systemet, f.eks. ved udskrivning eller lagring til en fil.
 
 > [!NOTE]
-> Når du delvist sender og fakturerer en salgsordre eller indkøbsordre, knyttes den vedhæftede fil kun til den endelige faktura for den pågældende ordre. På samme måde knyttes den vedhæftede fil kun til finansposterne for dokumentet, men ikke til periodiseringsposterne, når du fakturerer ved hjælp af funktionen Udskydelser.
+> Når du delvist sender og fakturerer en salgs- eller købsordre, knyttes den vedhæftede fil kun til den endelige faktura for ordren. På samme måde knyttes den vedhæftede fil til finansposterne for dokumentet, men ikke til periodiseringsposterne, når du fakturerer ved hjælp af funktionen Udskydelser.
+>
+> Hvis du sletter en ordre, før den faktureres, skal du også fjerne den vedhæftede fil. Når du fakturerer købsordrer ved hjælp af handlingen Hent købsleverancelinjer fra en købsfaktura, føjes den vedhæftede fil på købsordrerne ikke til købsfakturaen.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Sådan vedhæftes en fil til en købsfaktura
 Du kan vedhæfte alle filtyper, der indeholder tekst, billeder eller video, på et kort eller et dokument. Det er nyttigt, når du f.eks. vil gemme en kreditorfaktura som PDF-fil på den relaterede købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -52,7 +54,7 @@ Filen er nu vedhæftet til købsfakturaen.
 4. Åbne den overførte file.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>Sådan gemmer du et dokument som en vedhæftet PDF-fil
-Når du har brug for at gemme et dokument som en fil, kan du bruge handlingen **Vedhæft som PDF** til at hente det aktuelle dokumentindhold som en PDF-fil, der er vedhæftet dokumentets faktaboks. Det er f. eks. nyttigt, når dokumenter følger flere trin i en proces, f. eks. en salgsproces eller en godkendelsesproces, og du vil henvise til en udskrift af det forrige trin.
+Når du har brug for at gemme et dokument som en fil, kan du bruge handlingen **Vedhæft som PDF** til at hente det aktuelle dokumentindhold som en PDF-fil, der er vedhæftet dokumentets faktaboks. Det er f.eks. nyttigt, når dokumenter følger flere trin i en proces, f.eks. en salgsproces eller en godkendelsesproces, og du vil henvise til en udskrift af det forrige trin.
 
 Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme for alle understøttede dokumenter.
 

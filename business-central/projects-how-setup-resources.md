@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb248a2fb7ab7234d574a6b6c8b1cbe4b146abac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a502b757dd82db16417a0846b2c89ad07de2d8cb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388422"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780428"
 ---
 # <a name="set-up-resources"></a>Konfigurere ressourcer
 For at kunne administrere ressourceaktiviteterne korrekt skal du oprette ressourcerne og de tilhørende omkostninger og priser. De sagsrelaterede pris-, rabat- og kostfaktorregler oprettes på jobkortet. Du kan angive omkostninger og priser for individuelle ressourcer, ressourcegrupper eller alle tilgængelige ressourcer i virksomheden.
@@ -27,7 +27,7 @@ Når der bruges eller sælges ressourcer i en sag, hentes de tilhørende priser 
 Du kan angive standardbeløbet pr. time, når ressourcen oprettes. Hvis du f.eks. bruger en bestemt maskine i fem timer i en sag, udregnes sagen ud fra beløbet pr. time.
 
 > [!NOTE]
-> Du kan købe eksterne ressourcer, f. eks. for at fakturere en kreditor for udført arbejde. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).<br /><br />
+> Du kan købe eksterne ressourcer, f.eks. for at fakturere en kreditor for udført arbejde. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).<br /><br />
 > I dette tilfælde anbefaler vi, at du navngiver eller grupperer disse eksterne ressourcer for at angive deres formål, så de ikke forveksles med de interne ressourcer.
 
 ## <a name="to-set-up-a-resource"></a>Sådan defineres en ressource

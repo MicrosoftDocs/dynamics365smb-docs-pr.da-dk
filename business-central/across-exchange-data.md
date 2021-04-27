@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e21585ea2cb1f64237bda98283b9115a64aff2e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1b0d690254378de23655c73aaedccd03535ba586
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384845"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776168"
 ---
 # <a name="exchanging-data"></a>Udveksle data
 Du kan udveksle data mellem [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne filer eller streams i forbindelse med almindelige forretningsrelaterede opgaver, f.eks. afsendelse og modtagelse af elektroniske dokumenter og importere og eksportere bankfiler.  
 
-Før du kan sende og modtage elektroniske dokumenter eller importere og eksportere bankfiler, skal du konfigurere dataudvekslingsstrukturen for at behandle datafiler eller -streams. Derudover skal du definere relaterede områder, f. eks. debitorer, som du sender elektroniske fakturaer til, og AMC Banking 365 Fundamentals-udvidelsen, hvis du distribuerer bankfiler til en ekstern tjenesteudbyder. Du kan finde flere oplysninger i [Konfiguration af dataudveksling](across-set-up-data-exchange.md).  
+Før du kan sende og modtage elektroniske dokumenter eller importere og eksportere bankfiler, skal du konfigurere dataudvekslingsstrukturen for at behandle datafiler eller -streams. Derudover skal du definere relaterede områder, f.eks. debitorer, som du sender elektroniske fakturaer til, og AMC Banking 365 Fundamentals-udvidelsen, hvis du distribuerer bankfiler til en ekstern tjenesteudbyder. Du kan finde flere oplysninger i [Konfiguration af dataudveksling](across-set-up-data-exchange.md).  
 
  Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 

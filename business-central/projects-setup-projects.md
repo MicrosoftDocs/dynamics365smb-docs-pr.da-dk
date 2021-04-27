@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae031822f6d52e3fc066935cadab1d2e2ae924ac
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7d2751a75de909e0c2d0e5d081d33a16b8d578ba
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388295"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780303"
 ---
 # <a name="setting-up-project-management"></a>Konfigurere projektstyring
 Før du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager.
 
-Derefter kan du oprette sager og planlægge ressourcer for projekter samt administrere budgetter og spore maskin- og medarbejdertimer ved hjælp af timesedler. Du kan finde flere oplysninger under [Administrere projekter](projects-manage-projects.md).  
+Derefter kan du oprette sager og planlægge ressourcer for projekter samt administrere budgetter og spore maskin- og medarbejdertimer ved hjælp af timesedler. Du kan finde flere oplysninger i [Administrere projekter](projects-manage-projects.md).  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 

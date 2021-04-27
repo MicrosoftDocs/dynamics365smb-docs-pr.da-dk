@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 62ee83919140b89402ddefdca9eb79a08ea91269
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fe6d0d5d4e56eac907e6b29f7958cd690ebaced7
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390320"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781481"
 ---
 # <a name="create-service-orders"></a>Oprette serviceordrer
 Du kan bruge siden **Serviceordre** til at oprette dokumenter, hvor du indtaster oplysninger om en serviceydelse, f.eks. reparation og vedligeholdelse, for serviceartikler efter kundeforespørgsel.  
@@ -47,7 +47,7 @@ Du kan automatisk oprette serviceordrer til reparation af serviceartikler basere
 
 4. I feltet **Handling** skal du vælge **Opret serviceordre**.  
     > [!NOTE]  
-    >  Du kan ikke oprette en ordre med flere serviceartikler, hvis du indstiller feltet  **Én serviceart.linje pr. ordre** på siden **Serviceopsætning**. 
+    >  Du kan ikke oprette en ordre med flere serviceartikler, hvis du indstiller feltet **Én serviceart.linje pr. ordre** på siden **Serviceopsætning**. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Sådan konverteres servicetilbud til serviceordrer
 Når en kunde har accepteret et servicekontrakttilbud, skal du konvertere det til en serviceordre. Tilbuddet slettes, og der oprettes en ny serviceordre med samme beskrivelse som servicetilbuddet. Serviceordrens svardato og -tidspunkt genberegnes, og status angives til **Igangsat**. Reparationsstatus for serviceartiklerne i ordren ændres til **Ingen tidl. serv**.  

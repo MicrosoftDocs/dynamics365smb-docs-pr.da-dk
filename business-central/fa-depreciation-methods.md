@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 02/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59bf311e24f11e062a243026ec35ca4c7b779952
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493324"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774151"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Metoder til afskrivning af anlægsaktiver
 
@@ -154,16 +154,16 @@ Beregningsmetode:
 
 Formlen for beregning af afskrivningsbeløbet er:  
 
-*DA* = *BV* x (1 – (1 –P)<sup>D<sup> 
+*DA* = *BV* x (1 - (1 - P)<sup>D</sup>)
 
 Afskrivningsværdierne er:  
 
 | Dato | Beregning |
 | --- | --- |
-| 30-06-20 |AB = 100.000,00 x (1-(1 - 0,25)<sup>0,5<sup>) = 13.397,46 |
-| 31-12-20 |AB = 86.602,54 x (1-(1 - 0,25)<sup>0,5<sup>) = 11.602,54 |
-| 30-06-21 |AB = 75.000,00 x (1-(1 - 0,25)<sup>0,5<sup>) = 10.048,09 |
-| 31-12-21 |AB = 64.951,91 x (1-(1 - 0,25)<sup>0,5<sup>) = 8.701,91 |
+| 30-06-20 |DA = 100.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 13.397,46 |
+| 31-12-20 |DA = 86.602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11.602,54 |
+| 30-06-21 |DA = 75.000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10.048,09 |
+| 31-12-21 |DA = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91 |
 
 ## <a name="db1sl-depreciation"></a>Afskrivning med Saldo 1/Lineær
 
@@ -205,7 +205,7 @@ Anlægsposterne ser sådan ud:
 
 Beregningsmetode:  
 
-* År 1:  
+* År 1: (2020):  
 
     *Saldobeløb: 25% af 100.000 = 25.000=12.500+12.500*  
 
@@ -371,9 +371,9 @@ Når du indtaster en post i B1 i anlægskassekladden og markerer afkrydsningsfel
 ## <a name="see-also"></a>Se også
 
 [Anlægsaktiver](fa-manage.md)  
-[Opsætning af Anlægsaktiver](fa-setup.md)  
+[Opsætning af anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

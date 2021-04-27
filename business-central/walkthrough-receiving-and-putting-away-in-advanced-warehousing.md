@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 961f51366ea80c870a14f79b8a2e764f8cc98359
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2e4ca4287c0fda629e8c6e5b923a01ba8691563c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379873"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5782830"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger
 
@@ -73,7 +73,7 @@ Opsætningen af siden **Lokationskort** definerer flows i virksomheden.
 
 ### <a name="to-review-the-location-setup"></a>Sådan gennemgås lokationsopsætningen  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det tilknyttede link.  
 2.  Åbn lokationskortet HVID.  
 3.  Bemærk, at i oversigtspanelet **Lagersted** er afkrydsningsfeltet **Styret læg-på-lager og pluk** markeret.  
 

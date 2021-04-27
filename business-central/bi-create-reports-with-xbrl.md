@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98dd55a41ccd987d810e4fb747b5cb7355a380dc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9c806874d1bfea91224f0c458efea8a1da2d87f8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382625"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776837"
 ---
 # <a name="create-reports-with-xbrl"></a>Oprette rapporter med XBRL
 XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist. Talrige ERP-softwarevirksomheder og internationale revisionsfirmaer kan bruge XBRL-initiativerne til global finansiel rapportering. Det globale initiativ er at levere en standard for ensartet rapportering af finansielle oplysninger til banker, investorer og statslige myndigheder. Sådan virksomhedsrapportering kan omfatte:  
@@ -28,9 +28,9 @@ XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sp
  • Lovgivningsmæssige arkiveringer, f.eks. årsregnskaber og kvartalsmæssige regnskabsopgørelser  
 
 > [!NOTE]
-> Du kan indlæse finansrelaterede skemaer og oprette XBRL-instansdokumenter ved at knytte finansdata fra kontoplanen til de elementer i taksonomier, der er designet til finansrapporter, f. eks. balance, resultatopgørelse osv.
+> Du kan indlæse finansrelaterede skemaer og oprette XBRL-instansdokumenter ved at knytte finansdata fra kontoplanen til de elementer i taksonomier, der er designet til finansrapporter, f.eks. balance, resultatopgørelse osv.
 > 
-> XBRL-funktionerne i Business central support-taksonomier til specifikation 2.1 kan imidlertid indeholde elementer, der ikke understøttes, f. eks. formel linkbaser, iXBRL eller andre strukturelle forskelle. Det anbefales, at du validerer XBRL-egenskaben, før du bruger den til rapportering.
+> XBRL-funktionerne i Business central support-taksonomier til specifikation 2.1 kan imidlertid indeholde elementer, der ikke understøttes, f.eks. formel linkbaser, iXBRL eller andre strukturelle forskelle. Det anbefales, at du validerer XBRL-egenskaben, før du bruger den til rapportering.
 > 
 > Den fulde understøttelse af taksonomier kan kræve, at der kræves XBRL-mærkning og-værktøjer fra tredjepart. XBRL International Organization indeholder en liste over værktøjer og tjenester, som du kan bruge til XBRL-rapportering. Afhængigt af XBRL-rapporteringskravene for en given taksonomi, kan du få brug for at udforske disse ressourcer. Du kan finde flere oplysninger i [Introduktion til virksomheder](https://go.microsoft.com/fwlink/?linkid=2153466) og [værktøjer og tjenester](https://go.microsoft.com/fwlink/?linkid=2153356).
 

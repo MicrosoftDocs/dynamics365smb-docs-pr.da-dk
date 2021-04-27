@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fe667f86bbd70bbe3cf3e7560cc8de2bd6315f0d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 69e0b2bf449e707bc881f2d6b36a391e6a7acef3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377994"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781158"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 
@@ -32,7 +32,7 @@ Når du opretter et nyt virksomhed, kan du importere virksomhedsindstillinger fo
 > [!NOTE]  
 >  Du kan ikke omdøbe en fil, der ikke allerede er en RapidStart Services-konfigurationspakke, til en .rapidstart-konfigurationspakkefil og derefter forsøge at importere den. Hvis du prøver at gøre det, modtager du en fejlmeddelelse.  
 
-Før du starter, skal du sikre dig, at du har tilladelse til at køre RapidStart Services-objekterne. Du kan f.eks. have rettighedssætterne SUPER eller D365 RAPIDSTART. Vi anbefaler også, at du er i et rollecenter med links til RapidStart Services, f.eks. rollecentret Administration. Du kan finde flere oplysninger under [Sådan ændres rollen](ui-change-basic-settings.md#to-change-the-role).  
+Før du starter, skal du sikre dig, at du har tilladelse til at køre RapidStart Services-objekterne. Du kan f.eks. have rettighedssætterne SUPER eller D365 RAPIDSTART. Vi anbefaler også, at du er i et rollecenter med links til RapidStart Services, f.eks. rollecentret Administration. Du kan finde flere oplysninger i [Sådan ændres rollen](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > Ved eksport og import af konfigurationspakker mellem to virksomhedsdatabaser, skal databaserne har samme skema for at sikre, at alle data er blevet overført. Dette betyder, at databaserne skal have den samme tabel- og feltstruktur, hvor tabellerne har samme primære nøgler, og felter har samme id'er og datatyper.  

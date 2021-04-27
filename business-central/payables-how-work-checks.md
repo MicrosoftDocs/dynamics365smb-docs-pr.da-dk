@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 137e22e8eb4e426a84d7a84b772ec2ad5d55cbcc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6d2f204daefe5ed9473d64592d67e3c4cf026bce
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387820"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775086"
 ---
 # <a name="make-check-payments"></a>Foretage betalinger med check
 
@@ -29,10 +29,10 @@ Du kan betale med to checktyper. Ved begge typer skal feltet **Modkontotype** el
 - **Manuel check**: Vælg denne mulighed, hvis du har oprettet en check manuelt og vil oprette en tilsvarende checkpost på beløbet. Du kan ikke udskrive checken med denne indstilling.
 
 > [!NOTE]  
-> Du kan kontrollere, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. Du kan finde flere oplysninger under [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
+> Du kan kontrollere, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. Du kan finde flere oplysninger i [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
 
 > [!IMPORTANT]
-> Printeren skal være konfigureret korrekt med checkformater, og du skal definere hvilket checklayout, der skal bruges. Du kan finde flere oplysninger under [Vælge et checklayout](finance-how-define-check-layouts.md). Du kan også sende checken som PDF-fil, f.eks.  
+> Printeren skal være konfigureret korrekt med checkformater, og du skal definere hvilket checklayout, der skal bruges. Du kan finde flere oplysninger i [Vælge et checklayout](finance-how-define-check-layouts.md). Du kan også sende checken som PDF-fil, f.eks.  
 
 Du kan udskrive op til 10 fakturaer på en side til en checktalon. Hvis en check skal gælde for mere end 10 fakturaer, annullere vi checken på første side, når du udskriver talonen, og skriver ordet ANNULLERET på checken. Vi udskriver derefter resten af fakturaerne og det samlede checkbeløb på den anden side.
 

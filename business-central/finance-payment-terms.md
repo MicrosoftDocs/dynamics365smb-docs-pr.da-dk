@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 01/21/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dfed018a58897b5e51f90fcce725c9060c32f3ea
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383396"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783793"
 ---
 # <a name="set-up-payment-terms"></a>Konfiguration af betalingsbetingelser
 
 Betalingsbetingelser bestemmer, hvordan du administrerer forfaldsdatoer og kontantrabatter. Du kan oprette koder og bruge datoformler til at definere betalingsbetingelserne. Når du tilmelder dig første gang til [!INCLUDE [prod_short](includes/prod_short.md)], giver demonstrationsvirksomheden nogle få betalingsmetoder, som virksomheder ofte bruger. Du kan dog tilføje lige så mange, du vil.  
 
-Du kan knytte en betalingsbetingelse til debitorer og kreditorer, så den samme betingelse altid bruges på de salgs- og købsdokumenter, du opretter til dem. Hvis det er nødvendigt, kan du ændre betingelserne på salgs-eller købsdokumentet, f. eks. Hvis du ønsker, at en bestemt kunde skal betale inden for syv dage i stedet for standard 14 dage. Dette ændrer ikke den betalingsbetingelse, der som standard er knyttet til kreditoren. De samme betalingsbetingelser bruges til salgs- og købsdokumenter.
+Du kan knytte en betalingsbetingelse til debitorer og kreditorer, så den samme betingelse altid bruges på de salgs- og købsdokumenter, du opretter til dem. Hvis det er nødvendigt, kan du ændre betingelserne på salgs-eller købsdokumentet, f.eks. Hvis du ønsker, at en bestemt kunde skal betale inden for syv dage i stedet for standard 14 dage. Dette ændrer ikke den betalingsbetingelse, der som standard er knyttet til kreditoren. De samme betalingsbetingelser bruges til salgs- og købsdokumenter.
 
 Når du derefter bogfører en faktura [!INCLUDE [prod_short](includes/prod_short.md)], beregnes kontantrabatten ud fra betalingsbetingelserne. Kontantrabatdatoen, dvs. den seneste dato hvor debitoren kan betale og modtage kontantrabatten, beregnes også på dette tidspunkt.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38092f364d1dee1f34d8aa0c0858ac1bc04d829b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d8dac033ad2f4573d8a7f0047c44ac04eb8e6eb0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378794"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773407"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows i Dynamics 365 Business Central
 
@@ -25,7 +25,7 @@ Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, de
 
  Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en række forudkonfigurerede workflows, som repræsenteres af workflowskabeloner, som du kan kopiere for at oprette workflows. Koden for workflowskabeloner, som er tilføjet af Microsoft, har "MS" foran som f.eks. i "MS-". Du kan finde flere oplysninger på listen med workflowskabeloner på siden Workflowskabeloner.  
 
- Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal du enten bruge Power Automate eller en Microsoft-partner til at tilpasse programkoden. Du kan finde flere oplysninger under [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i et automatisk workflow](across-how-use-financials-data-source-flow.md).
+ Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal du enten bruge Power Automate eller en Microsoft-partner til at tilpasse programkoden. Du kan finde flere oplysninger i [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i et automatisk workflow](across-how-use-financials-data-source-flow.md).
 
 Alle workflowskabeloner, som du opretter med, Power Automate, føjes til listen over workflowskabeloner i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md).  
 

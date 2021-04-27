@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 1e559f5805504ead36ca3c96b4f2d54d4ce0eb39
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3419272afd092d2ddb1374940e556d42709c1534
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384695"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776018"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Opret et sandkassemiljø i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -49,7 +49,7 @@ Der vises en meddelelse om, at dette er et sandkassemiljø, øverst i rollecente
 
 > [!NOTE]
 > Et sandkassemiljø, der oprettes på denne måde, indeholder kun standarddemonstrationsdataene for CRONUS-virksomheden. Der kopieres ikke eller på anden måde overføres data fra produktionsmiljøet.<br /><br />
-> Du kan også oprette et sandkassemiljø, der indeholder produktionsdataene. Dette skal gøres via Administrationscenter. Du kan finde flere oplysninger under [Administrere miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) i hjælpen til udviklere og it-eksperter.  
+> Du kan også oprette et sandkassemiljø, der indeholder produktionsdataene. Dette skal gøres via Administrationscenter. Du kan finde flere oplysninger i [Administrere miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) i hjælpen til udviklere og it-eksperter.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
     ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->

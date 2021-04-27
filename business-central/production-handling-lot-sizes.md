@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d119b5ea35ba41d658226f108f9bd14014ef644
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376733"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779378"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Håndtering af lotstørrelser i produktionen
 Med hensyn til antal korrelerer antallet af varer, du producerer i en produktionsoperation, muligvis ikke til, hvordan de sælges. Du producerer måske hundredvis af varer i et enkelt parti, men sælger hver vare individuelt. Når du konfigurerer dine produktionsruter og styklister, er der få nuancer, du bør overveje med hensyn til lotstørrelser. I dette emne beskrives, hvordan lotstørrelser påvirker omkostningsberegninger og ressourceplanlægning.

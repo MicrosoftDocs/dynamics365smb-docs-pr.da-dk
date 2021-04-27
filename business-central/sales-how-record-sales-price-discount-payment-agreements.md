@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 01/22/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 27c0674ef3bbb611f965fb32d3a9f264d080127a
-ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
+ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476791"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778668"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere specialsalgspriser og -rabatter
 > [!NOTE]
@@ -23,9 +23,9 @@ ms.locfileid: "5476791"
 
 De pris- og rabataftaler, der gælder ved salg til forskellige debitorer, skal defineres, så de aftalte regler og værdier anvendes i salgsdokumenterne.
 
-Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[prod_short](includes/prod_short.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger under [Beregne bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[prod_short](includes/prod_short.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger i [Beregne bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-Med hensyn til priser kan du få en særlig salgspris indsat på salgslinjerne, hvis en bestemt kombination af kunde, vare, minimumantal, enhed eller start-/slutdato findes. Du kan finde flere oplysninger i sektionerne [Sådan konfigureres salgspriser til en debitor](#to-set-up-a-sales-price-for-a-customer)og [Bedste prisberegning](#best-price-calculation).  
+Med hensyn til priser kan du få en særlig salgspris indsat på salgslinjerne, hvis en bestemt kombination af kunde, vare, minimumantal, enhed eller start-/slutdato findes. Du kan finde flere oplysninger i sektionerne [Sådan konfigureres salgspriser til en debitor](#to-set-up-a-sales-price-for-a-customer) og [Bedste prisberegning](#best-price-calculation).  
 
 Med hensyn til rabatter kan du oprette og bruge to typer salgsrabat:
 
@@ -39,7 +39,7 @@ Da salgspriser og salgslinjerabatter er baseret på en kombination af vare og de
 > [!TIP]  
 > Hvis du ikke ønsker, at en vare nogensinde skal sælges med rabat, kan du lade rabatfelterne på varekortet være tomme, og medtag ikke varen i nogen opsætningen af linjerabat.
 
-Felterne **Gælder for type** og **Gælder for nr.** felterne, hvor du kan vælge, hvad denne prisliste skal gælde for, f. eks. debitor eller debitorprisgruppe. Du kan bruge **Vis kolonner til** for at vise eller skjule kolonner, der er relevante for priser, rabatter eller priser og rabatter.
+Felterne **Gælder for type** og **Gælder for nr.** felterne, hvor du kan vælge, hvad denne prisliste skal gælde for, f.eks. debitor eller debitorprisgruppe. Du kan bruge **Vis kolonner til** for at vise eller skjule kolonner, der er relevante for priser, rabatter eller priser og rabatter.
 
 Du kan konfigurere prislister manuelt, eller du kan bruge handlingen **Foreslå linjer** til at oprette nye priser for udvalgte varer, varerabatgrupper, ressourcer og andre produkttyper. Hvis du vælger Foreslå linjer, kan du oprette filtre for at vælge produkter, som du vil oprette nye prisliste linjer til, på siden Opret pris linjer. Du kan også angive, om der skal tages højde for et minimumantal ved beregning af priser, den reguleringsfaktor, der skal gælde for nye prisliste linjer, og den afrundingsmetode, der skal anvendes for priser. med handlingen **Kopier linjer** kan du kopiere eksisterende prisliste linjer mellem prislister.
 

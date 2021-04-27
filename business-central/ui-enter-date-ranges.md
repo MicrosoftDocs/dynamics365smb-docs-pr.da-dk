@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3a48863231c06742e5cc1b2f13d554e65cb8ae91
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381211"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773526"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbejde med kalenderdatoer og klokkeslæt
 
@@ -76,7 +76,7 @@ Angiv ordet for i dag på det valgte sprog i indstillingen **Sprog**. Dette inds
 
 ### <a name="period"></a>Periode
 
-For at filtrere på en bestemt regnskabsperiode skal du i et datofelt skrive bogstavet p eller ordet periode efterfulgt af et tal, der identificerer regnskabsperioden, f.eks. p2 eller periode4. Regnskabsperioden passer til regnskabsåret for den aktuelle arbejdsdato, der er angivet i dit rollecenter. Hvis arbejdsdatoen f.eks. er **21-03-20**, så filtrerer p1, eller blot p, på den første regnskabsperiode i regnskabsåret 2020 (f.eks. 01-01-20..31-01-20). p15 filtrerer på den 15. regnskabsperiode fra starten på regnskabsåret 2020 (f.eks. 01-03-21..31-03-21).
+For at filtrere på en bestemt regnskabsperiode skal du i et datofelt skrive bogstavet p eller ordet periode efterfulgt af et tal, der identificerer regnskabsperioden, f.eks. p2 eller periode4. Regnskabsperioden passer til regnskabsåret for den aktuelle arbejdsdato, der er angivet i dit rollecenter. Hvis arbejdsdatoen f.eks. er **21-03-22**, så filtrerer p1, eller blot p, på den første regnskabsperiode i regnskabsåret 2022 (f.eks. 01-01-22..31-01-22). p15 filtrerer på den 15. regnskabsperiode fra starten af regnskabsåret 2022 (f.eks. 01-03-23 til 31-03-23).
 
 Regnskabsperioden defineres på siden **Regnskabsperioder**. Hvis du vil se eller ændre regnskabsperioderne, skal du åbne siden [her](https://businesscentral.dynamics.com/?page=100).
 
@@ -102,12 +102,12 @@ Følgende tabel indeholder eksempler på datoer i alle formater. Det forudsætte
 
 |**Post**      |**Fortolkning**      |
 |---------------|------------------------|
-|2018.12.31.|31-12-2018.|
-|181231|31-12-2018.|
-|18.12.31.|31-12-2018.|
-|18.12.31.|31-12-2018.|
-|20181231|31-12-2018.|
-|18/12,31|31-12-2018.|
+|2022.12.31.|2022.12.31.|
+|221231|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|22.12.31.|2022.12.31.|
+|20221231|2022.12.31.|
+|22/12,31|2022.12.31.|
 |11|arbejdsdatoår.abejdsdatomåned.11.|
 |1112|arbejdsdatoår.11.12.|
 |d eller dags dato|dags dato|
@@ -194,7 +194,7 @@ Følgende eksempel viser, hvordan du kan bruge et minustegn til at angive en dat
 |-1Å|1 år siden fra i dag|
 
 > [!IMPORTANT]
->  Hvis lokationen bruger en basiskalender, fortolkes den datoformel, du f.eks. indtaster i feltet **Transporttid**, i overensstemmelse med kalenderens arbejdsdage. For eksempel betyder 1U syv arbejdsdage.
+> Hvis lokationen bruger en basiskalender, fortolkes den datoformel, du f.eks. indtaster i feltet **Transporttid**, i overensstemmelse med kalenderens arbejdsdage. For eksempel betyder 1U syv arbejdsdage.
 <!--
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
@@ -314,36 +314,9 @@ Du kan ikke bruge 24:00 til at angive midnat eller bruge værdier større end 24
 
 Ordet for 'time" på det sprog, som [!INCLUDE[prod_short](includes/prod_long.md)] bruger, vurderes til det aktuelle tidspunkt på din computer eller en mobilenhed. Du kan angive en del af ordet fra begyndelsen, f.eks. t eller TIM.
 
-## <a name="entering-combined-dates-and-times"></a>Indtaste kombinerede datoer og tidspunkter
-Når du angiver dato/klokkeslæt, som en dato og klokkeslæt kombineret i ét felt, skal du angive et mellemrum mellem datoen og klokkeslættet. Datodelen kan kun indeholde mellemrum i form af officielle datoseparatorer af indstillingerne for land/område. Tid, der kan indeholde mellemrum omkring AM/PM-symbolet.
+## <a name="entering-combined-dates-and-times"></a>Indtastning af kombineret dato/klokkeslæt
 
-Det er også muligt kun at angive en dato i et dato/klokkeslætsfelt, men det er ikke muligt kun at angive én gang.
-
-Følgende tabel viser eksempler på dato/klokkeslætskombinationer. Lande/områdeindstillinger i eksemplerne viser datoer på dag\-måned\-år-format ved hjælp af AM/PM-symboler, engelsk sprog og søndag som første ugedag.
-
-|**Post**      |**Fortolkning**      |
-|---------------|------------------------|
-|08-01-2016 05:48:12 PM|08\-01\-2016 17:48:12|
-|131202 132455|13\-12\-2002 13:24:55|
-|1-12-02 10|01\-12\-2002 10:00:00|
-|1.12.02 5|01\-12\-2002 05:00:00|
-|1.12.02|01\-12\-2002 00:00:00|
-|11 12|11\-arbejdsdatomåned\-abejdsdatoår 12:00:00|
-|1112 12|11\-12\-arbejdsdatoår 12:00:00|
-|d eller dags dato|dags dato 00:00:00|
-|d 10:30|dags dato 10:30:00|
-|d 3:3:3|dags dato 03:03:03|
-|a eller arbejdsdato|arbejdsdato 00:00:00|
-|m eller mandag|Mandag i ugen for arbejdsdatoen 00:00:00|
-|ti eller tirsdag|Tirsdag i ugen for arbejdsdatoen 00:00:00|
-|lø eller lørdag|Lørdag i ugen for arbejdsdatoen 00:00:00|
-|s eller søndag|Søndag i ugen for arbejdsdatoen 00:00:00|
-|ti 10:30|Tirsdag i ugen for arbejdsdatoen 10:30:00|
-|ti 3:3:3|Tirsdag i ugen for arbejdsdatoen 03:03:03|
-|ti23 t|Tirsdag i uge 23 i året for arbejdsdatoen, det aktuelle tidspunkt på dagen|
-|ti23|Tirsdag i uge 23 i året for arbejdsdatoen|
-|ti 23|Dags dato 23:00:00|
-|ti-1|Tirsdag i uge 1 i året for arbejdsdatoen|
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Angivelse af varighed
 Nogle felter i programmet repræsenterer en varighed eller et forløbet tidsrum i stedet for en bestemt dato eller klokkeslæt. Du angiver varighed ved at skrive et tal efterfulgt af en måleenhed.

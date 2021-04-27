@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 674d178fca457e7b8b1f73d526245d64fbd6d35a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5dbb243225e4e5362a715165f28dff00c6fbf47b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383121"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772750"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle købsreturvarer eller annulleringer
 
@@ -24,7 +24,7 @@ Hvis du skal returnere varer til din kreditor eller annullere serviceydelser, so
 Hvis du ønsker større kontrol over købsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved returnering af varer fra flere købsdokumenter i én købsreturnering, kan du oprette købsreturvareordrer. En købsreturvareordre udsteder automatisk den relaterede købskreditnota. Yderligere oplysninger finder du i [Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 > [!NOTE]  
-> Hvis en bogført købsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte købsfaktura, så du automatisk tilbagefører de pågældende transaktioner. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan heller ikke rette eller annullere købsfakturaer, der er bogført med modtagelser fra mere end én købsordre. Du kan finde flere oplysninger under [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
+> Hvis en bogført købsfaktura endnu ikke er betalt, kan du bruge funktionen **Ret** eller **Annuller** på den bogførte købsfaktura, så du automatisk tilbagefører de pågældende transaktioner. Disse funktioner fungerer kun for ubetalte fakturaer, og de understøtter ikke delvise returneringer eller annulleringer. Du kan heller ikke rette eller annullere købsfakturaer, der er bogført med modtagelser fra mere end én købsordre. Du kan finde flere oplysninger i [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
 Du opretter typisk en købskreditnota eller en købsreturvareordre som reaktion på en kreditnota, der er sendt til dig af en kreditor. Købskreditnotaen eller købsreturvareordren fungerer som din interne dokumentation i kreditnotaprocessen ved regnskabsførelse eller ved styring af leveringen af de involverede varer.
 
@@ -138,7 +138,7 @@ Der kan være tilfælde, hvor du er blevet enig med en leverandør om, at denne 
 1.  På siden **Købsreturvareordre** for en aktiv returproces skal du på en tom linje angive en negativ postering for erstatningsvaren ved at indsætte et negativt beløb i feltet **Antal**.  
 2. Vælg handlingen **Flyt negative linjer**.  
 3. På siden **Flyt negative købslinjer** skal du udfylde felterne efter behov.
-4. Vælg knappen **OK**. Den negative linje slettes fra købsreturvareordren, og der oprettes en ny købsordre. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).  
+4. Vælg knappen **OK**. Den negative linje slettes fra købsreturvareordren, og der oprettes en ny købsordre. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Sådan oprettes et købsnedslag
 

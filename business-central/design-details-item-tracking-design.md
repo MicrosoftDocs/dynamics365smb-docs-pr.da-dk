@@ -1,6 +1,6 @@
 ---
-title: Designoplysninger – Design af varesporing | Microsoft Docs
-description: I dette emne beskrives designet bag varesporing i Business Central.
+title: Designoplysninger – Design af varesporing
+description: I dette emne beskrives designet bag varesporing i Business Central, sådan som det har udviklet sig gennem produktversionerne.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a0c60381634543f367e85a465c4ee74c3396d5ad
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c41b131c538337db81b30956a7871040d11f9ce3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390986"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780928"
 ---
 # <a name="design-details-item-tracking-design"></a>Designoplysninger: Design af varesporing
-I den første version af Varesporing i [!INCLUDE[prod_short](includes/prod_short.md)] 2.60 er serie- eller lotnumre registreret direkte i vareposter. Dette design leverede komplette tilgængelighedsoplysninger og simpel sporing af historiske poster, men det manglede fleksibilitet og funktionalitet.  
 
-Fra [!INCLUDE[prod_short](includes/prod_short.md)] 3.00 fandtes varesporingsfunktionen i en separat objektstruktur med komplicerede links til bogførte dokumenter og vareposter. Dette design var fleksibelt og omfattende i funktionalitet, men varesporingsposter var ikke fuldt inddraget i disponeringsberegningerne.  
+Varesporing i [!INCLUDE[prod_short](includes/prod_short.md)], der er startet med [!INCLUDE [navnow_md](includes/navnow_md.md)]. Varesporingsfunktionen findes i en separat objektstruktur med komplicerede links til bogførte dokumenter og vareposter, og den er integreret i reservationssystemet, som håndterer reservation, ordresporing og aktionsmeddelelser. Du kan få flere oplysninger i [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md) i designdetaljerne for Forsyningsplanlægning.  
 
-Siden [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 er varesporingsfunktionen integreret med reservationssystemet, som håndterer reservation, ordresporing og aktionsmeddelelser. Hvis du ønsker yderligere oplysninger, kan du se "Designoplysninger: Reservation, ordresporing og aktionsmeddelelser" i "Designoplysninger: Forsyningsplanlægning".  
+Dette design omfatter varesporingsposter i samlede disponeringsberegninger i hele systemet, herunder planlægning, produktion og logistik. Serie- og lotnumre anvendes til vareposterne for at sikre nem adgang til historiske data i forbindelse med varesporing. Med 2021 udgivelsesbølge 1, omfatter varesporingen i [!INCLUDE [prod_short](includes/prod_short.md)] pakkenumre.  
 
-Dette seneste design omfatter varesporingsposter i samlede disponeringsberegninger i hele systemet, herunder planlægning, produktion og logistik. Det gamle ide med at overføre serie- og lotnumre på vareposterne introduceres igen for at sikre nem adgang til historiske data af varesporingsformål. I forbindelse med varesporingsforbedringer i [!INCLUDE[prod_short](includes/prod_short.md)] 3.60 blev reservationssystemet udvidet til ikke-ordrenetværksenheder som kladder, fakturaer og kreditnotaer.  
-
-Med tilføjelsen af serie- eller lotnumre håndterer reservationssystemet permanente vareattributter, mens der også håndteres periodiske links mellem forsyning og behov i form af ordresporings- og reservationsposter. Et andet træk ved serienumre eller lotnumre sammenlignet med konventionelle reservationsdata er det faktum, at de kan bogføres enten helt eller delvist. Derfor fungerer tabellen **Reservationspost** (T337) nu med en relateret tabel, tabellen **Sporingsspecifikation** (T336), som administrerer og viser en opsummering på tværs af aktive og bogførte varesporingsantal. Du kan finde flere oplysninger i [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  
+Med tilføjelsen af serie-, lot- og pakkenumre håndterer reservationssystemet permanente vareattributter, mens det også håndterer periodiske links mellem forsyning og behov i form af ordresporings- og reservationsposter. Et andet træk ved serienumre eller lotnumre sammenlignet med konventionelle reservationsdata er det faktum, at de kan bogføres enten helt eller delvist. Derfor fungerer tabellen **Reservationspost** (T337) nu med en relateret tabel, tabellen **Sporingsspecifikation** (T336), som administrerer og viser en opsummering på tværs af aktive og bogførte varesporingsantal. Du kan finde flere oplysninger i [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  
 
 I følgende diagram beskrives udformningen af varesporingsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -43,8 +40,8 @@ Kodeenhed 22 **Varekladde – Bogfør linje** opdeler nu bogføringen i overenss
 
 Du kan finde flere oplysninger i [Designoplysninger: Bogføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](includes/footer-banner.md)]  

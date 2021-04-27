@@ -1,17 +1,17 @@
 ---
-title: Advarsler og fejlmeddelelser | Microsoft Docs
+title: Advarsler og fejlmeddelelser
 description: Få mere at vide om, hvordan du kan foretage fejlfinding og finde løsninger på fejlmeddelelser, når du arbejder i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387166"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779478"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Advarsler og fejlmeddelelser i Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ Mens du arbejder, kan du få vist meddelelser i [!INCLUDE [prod_short](includes/
 
 ## <a name="in-product-user-assistance"></a>Hjælp til brugere i produktet
 
-Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] indeholder beskrivelser af de fleste felter, kolonner og handlinger, som du kan få vist ved at vælge navnet. I kombination med beskrivende billedtekster og instruktioner er disse værktøjstip eller billedforklaringer vores nuværende implementering af *integreret brugerhjælp*, som er et vigtigt princip inden for moderne softwaredesign.  
+Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] indeholder beskrivelser af de fleste felter, kolonner og handlinger, som du kan få vist ved at vælge navnet. I kombination med undervisningstip for vigtige sider, beskrivende billedtekster og instruktioner er disse værktøjstip eller billedforklaringer vores nuværende implementering af *integreret brugerhjælp*, som er et vigtigt princip inden for moderne softwaredesign.  
 
 Hvis du har et spørgsmål om et felt eller et andet element på brugergrænsefladen, skal du vælge navnet for at få vist en kort beskrivelse. Vælg *Få mere at vide*, hvis det ikke er tilstrækkeligt.  
 
@@ -31,7 +31,7 @@ Menupunktet Hjælp i [!INCLUDE[prod_short](includes/prod_short.md)], (spørgsmå
 
 ## <a name="help-others"></a>Hjælpe andre
 
-Hvis du er administrator eller superbruger, kan du hjælpe andre ved at søge efter fejlmeddelelser på siden **Registrering af fejlmeddelelser** eller i administrationen. I mange tilfælde vises en advarsel eller fejlmeddelelse om opsætningen eller manglende tilladelse og lignende problemer, som superbrugeren eller administratoren nemt kan få hjælp til. I andre tilfælde kan det være nødvendigt at undersøge sider for at identificere årsagen. Du kan finde flere oplysninger under [Finde tekniske oplysninger](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) i administrationen for [!INCLUDE [prod_short](includes/prod_short.md)].  
+Hvis du er administrator eller superbruger, kan du hjælpe andre ved at søge efter fejlmeddelelser på siden **Registrering af fejlmeddelelser** eller i administrationen. I mange tilfælde vises en advarsel eller fejlmeddelelse om opsætningen eller manglende tilladelse og lignende problemer, som superbrugeren eller administratoren nemt kan få hjælp til. I andre tilfælde kan det være nødvendigt at undersøge sider for at identificere årsagen. Du kan finde flere oplysninger i [Finde tekniske oplysninger](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) i administrationen for [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="see-also"></a>Se også
 
@@ -41,7 +41,7 @@ Hvis du er administrator eller superbruger, kan du hjælpe andre ved at søge ef
 [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.md)  
 [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

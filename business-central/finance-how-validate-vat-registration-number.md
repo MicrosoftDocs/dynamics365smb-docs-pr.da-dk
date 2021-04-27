@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 02/25/2021
+ms.date: 04/01/2021
 ms.author: andregu
-ms.openlocfilehash: 867ae5e726de5f2f78e4862a2d8c55dbc3d43ca0
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5492913"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770287"
 ---
 # <a name="validate-vat-registration-numbers"></a>Valider et SE/CVR-nr.
 
@@ -46,12 +46,12 @@ Der er et par ting at bemærke om VIES-tjenesten til kontrol af momsnumre:
 
 [!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
-Du kan også kontrollere andre virksomhedsoplysninger, f. eks. adressen, samt se/CVR-nummeret ved hjælp af listetjenesten. Opret i feltet **Se/CVR-nr. Siden validerings skabeloner** en post for hvert land, du vil have valideret nærmere for, og angiv derefter de oplysninger, som du vil have valideret automatisk.  
+Du kan også kontrollere andre virksomhedsoplysninger, f.eks. adressen, samt se/CVR-nummeret ved hjælp af listetjenesten. Opret i feltet **Se/CVR-nr. Siden validerings skabeloner** en post for hvert land, du vil have valideret nærmere for, og angiv derefter de oplysninger, som du vil have valideret automatisk.  
 
-Tilføj f. eks. en post for Spanien, hvor du vil have valideret navn, adresse, by-og postnummer og derefter en anden post for Tyskland, hvor du kun vil have valideringen af postnummeret. Derefter skal du i feltet **Serviceopsætning for validering af SE/CVR-nr. for EU** du angive standardskabelonen.  
+Tilføj f.eks. en post for Spanien, hvor du vil have valideret navn, adresse, by-og postnummer og derefter en anden post for Tyskland, hvor du kun vil have valideringen af postnummeret. Derefter skal du i feltet **Serviceopsætning for validering af SE/CVR-nr. for EU** du angive standardskabelonen.  
 
 > [!NOTE]
-> Kontroller altid, at standardskabelonen passer til dine behov. Du kan ændre standardindstillingen, så den passer til dine behov, f. eks. validering af alle felter eller ingen felter.
+> Kontroller altid, at standardskabelonen passer til dine behov. Du kan ændre standardindstillingen, så den passer til dine behov, f.eks. validering af alle felter eller ingen felter.
 
 Næste gang du angiver et Se/CVR-nummer, validerer service nummeret og de yderligere data, der er fastsat i dine validerings skabeloner. Hvis de angivne værdier er forskellige fra de værdier, der returneres af tjenesten, vises detaljerne på siden **valideringsoplysninger**, hvor du kan acceptere eller nulstille værdierne.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 48547fbe3cb2bb7cf509c1b0720cb6ccfc58cd97
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52a3963267a7f476943f5a6d67f1d51c395ca927
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385870"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776713"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 
@@ -183,7 +183,7 @@ Men brugeren behøver ikke at have fuld adgang til tabellen Salgslinje for at k�
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Sikkerhedsfiltre - Sådan begrænses en brugers adgang til bestemte poster i en tabel
 
-Når det drejer sig om postbaseret sikkerhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge filtrene til at begrænse en brugers adgang til data i en tabel. Du kan oprette sikkerhedsfiltre for tabeldata. Et sikkerhedsfilter beskriver et sæt af poster i en tabel, som en bruger har adgang til. For eksempel kan du angive, at en bruger kun skal kunne læse poster, der indeholder oplysninger om en bestemt kunde. Det betyder, at brugeren ikke kan få adgang til de poster, der indeholder oplysninger om andre kunder. Du kan finde flere oplysninger under [Bruge sikkerhedsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i hjælpen til udviklere og it-eksperter.
+Når det drejer sig om postbaseret sikkerhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge filtrene til at begrænse en brugers adgang til data i en tabel. Du kan oprette sikkerhedsfiltre for tabeldata. Et sikkerhedsfilter beskriver et sæt af poster i en tabel, som en bruger har adgang til. For eksempel kan du angive, at en bruger kun skal kunne læse poster, der indeholder oplysninger om en bestemt kunde. Det betyder, at brugeren ikke kan få adgang til de poster, der indeholder oplysninger om andre kunder. Du kan finde flere oplysninger i [Bruge sikkerhedsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i hjælpen til udviklere og it-eksperter.
 
 ## <a name="to-manage-permissions-through-user-groups"></a>Sådan administreres rettigheder via brugergrupper
 
@@ -261,7 +261,7 @@ Du kan oprette [!INCLUDE[prod_short](includes/prod_short.md)] for at sende ændr
 [Tilpasning [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Blive klar til at handle](ui-get-ready-business.md)  
 [Opsætning](admin-setup-and-administration.md)  
-[Føje brugere til Microsoft 365 for Business](https://aka.ms/CreateOffice365Users)  
+[Føje brugere til Microsoft 365 for Business](/microsoft-365/admin/add-users/add-users)  
 [Sikkerhed og beskyttelse i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjælp til udviklere og it-eksperter
 
 

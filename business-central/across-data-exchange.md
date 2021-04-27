@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: da4c3e6d1537a66c86c79ca4dd4065190c765922
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d3eaa3ba03b661675a659fb78a3f6ec9dec08e52
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384920"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776243"
 ---
 # <a name="exchanging-data-electronically"></a>Udveksle data elektronisk
 Du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
 
-I standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er dataudvekslingsstrukturen brugt i funktioner som f. eks. elektroniske dokumenter, import/eksport af bankfiler og opdateringer af valutakurser. Du kan finde flere oplysninger under [Om dataudvekslingsstrukturen](across-about-the-data-exchange-framework.md).
+I standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er dataudvekslingsstrukturen brugt i funktioner som f.eks. elektroniske dokumenter, import/eksport af bankfiler og opdateringer af valutakurser. Du kan finde flere oplysninger i [Om dataudvekslingsstrukturen](across-about-the-data-exchange-framework.md).
 
 Som administrator eller Microsoft-partner kan du bruge strukturen i nye integrationsfunktioner ved at definere, hvilke data der skal udveksles og hvordan. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 

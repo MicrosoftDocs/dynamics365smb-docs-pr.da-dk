@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/05/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fbe696c8f85327ad775ad3bcf071b3e7ec16dd6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391245"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780931"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -92,9 +92,9 @@ Revisoren modtager en e-mail, der giver vedkommende besked om, at han eller hun 
 
 1. Åbn den [!INCLUDE[prod_short](includes/prod_short.md)]-virksomhed, du vil give revisoren adgang til, på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.  
-3. Vælg handlingen **Hent nye brugere fra Office 365**.
+3. Vælg handlingen **Hent nye brugere fra Microsoft 365**.
 
-Denne importerer den brugerkonto, som du oprettede på Azure-portalen, til virksomheden. Du kan finde flere oplysninger under [Sådan tilføjes en bruger i Business Central](ui-how-users-permissions.md#adduser).  
+Denne importerer den brugerkonto, som du oprettede på Azure-portalen, til virksomheden. Du kan finde flere oplysninger i [Sådan tilføjes en bruger i Business Central](ui-how-users-permissions.md#adduser).  
 
 Hvis du vil give adgang til flere virksomheder, skal du logge ind på hver virksomhed og gentage denne proces. Alternativt kan du opdatere rettighedsgrupperne for revisorens brugerprofil i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. ved at tildele dem *D365 Bus Premium*-brugergruppen. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 

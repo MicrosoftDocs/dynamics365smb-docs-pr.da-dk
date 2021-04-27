@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385545"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781452"
 ---
-# <a name="setting-up-prod_short"></a>Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversigt over opgaver til opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din organisation.
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din organisation.  
 
 F.eks er din kontoplan på forhånd udfyldt med en række bogføringskonti, der er klar til brug. Du kan også ændre kontoplanen efter dine behov. Du kan finde flere oplysninger i [Finans](finance.md).
 
-Ved at klikke på ![Tandhjulsikonet, som bruges til at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png), kan du få adgang til vejledninger med assisteret opsætning, som kan hjælpe dig med at konfigurere visse scenarier og tilføje funktione i [!INCLUDE[prod_short](includes/prod_short.md)]l. Du kan finde flere oplysninger om, hvordan du får adgang til alle assisterede og manuelle opsætningssider, i [Bliv klar til at handle](ui-get-ready-business.md).
+Ved at klikke på ![Tandhjulsikonet, som bruges til at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png), kan du få adgang til vejledninger med assisteret opsætning, som kan hjælpe dig med at konfigurere visse scenarier og tilføje funktione i [!INCLUDE[prod_short](includes/prod_short.md)]l. Du kan finde flere oplysninger om, hvordan du får adgang til alle assisterede og manuelle opsætningssider, i [Bliv klar til at handle](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan konfigureres manuelt ud over den assisterede opsætningsvejledning. I det følgende kan du se nogle af de funktioner, som du kan konfigurere manuelt.
 
@@ -73,7 +76,7 @@ For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[prod_
 [Logistik](warehouse-manage-warehouse.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Oprettelse af nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

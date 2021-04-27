@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cdaaa805ec25529c0675a00a647830019926f216
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378219"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779803"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilknytning af tabeller og felter til synkronisering
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -34,7 +34,7 @@ Når du opretter forbindelsen mellem appsene, opretter [!INCLUDE[prod_short](inc
 En integrationstabeltilknytning indeholder også regler, der styrer, hvordan integrationssynkroniseringsjob synkroniserer poster i en [!INCLUDE[prod_short](includes/prod_short.md)]-tabel og en tabel i [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
 
 ### <a name="strategies-for-auto-resolving-conflicts"></a>Strategier til automatisk løsning af konflikter
-Datakonflikter kan nemt forekomme, når forretningsprogrammer udveksler data løbende. Du kan f. eks. slette eller ændre en række i et af programmerne eller begge dele. Du kan reducere antallet af konflikter, som du skal løse manuelt, ved at angive løsningsstrategier, og [!INCLUDE[prod_short](includes/prod_short.md)] vil dermed løse konflikterne i overensstemmelse med reglerne i strategierne.
+Datakonflikter kan nemt forekomme, når forretningsprogrammer udveksler data løbende. Du kan f.eks. slette eller ændre en række i et af programmerne eller begge dele. Du kan reducere antallet af konflikter, som du skal løse manuelt, ved at angive løsningsstrategier, og [!INCLUDE[prod_short](includes/prod_short.md)] vil dermed løse konflikterne i overensstemmelse med reglerne i strategierne.
 
 Tilknytninger til integrationstabeller omfatter regler, der styrer, hvordan synkroniseringsjob synkroniserer poster. På siden **Integrationstabeltilknytning** i kolonnerne **Løs sletningskonflikter** og **Løs opdateringskonflikter** kan du angive, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] skal løse de konflikter, der opstår, skal løses, fordi posterne blev slettet i tabeller i et eller et andet forretningsprogram eller blev opdateret i begge. 
 
@@ -51,7 +51,7 @@ Tilknytningstabeller er kun det første trin. Du skal også tilknytte felterne i
 > Hvis du bruger en lokal version af [!INCLUDE[prod_short](includes/prod_short.md)], defineres integrationsfelttilknytninger i tabellen 5336 Integrationsfelttilknytning.
 
 ### <a name="handling-differences-in-field-values"></a>Håndtering af forskelle i feltværdier
-Nogle gange er værdierne i de felter, du vil tilknytte, forskellige. For eksempel er sprogkoden for USA i [!INCLUDE[crm_md](includes/crm_md.md)] "U.S.", mens den i [!INCLUDE[prod_short](includes/prod_short.md)] er "US". Det betyder, at du skal transformere værdien, når du synkroniserer data. Dette sker gennem transformationsregler, som du definerer for felterne. Du kan definere transformationsregler på siden **Integrationstabeltilknytninger** ved at vælge **Tilknytning** og derefter **Felter**. Der findes foruddefinerede regler, men du kan også oprette dine egne. Du kan finde flere oplysninger under [Transformationsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+Nogle gange er værdierne i de felter, du vil tilknytte, forskellige. For eksempel er sprogkoden for USA i [!INCLUDE[crm_md](includes/crm_md.md)] "U.S.", mens den i [!INCLUDE[prod_short](includes/prod_short.md)] er "US". Det betyder, at du skal transformere værdien, når du synkroniserer data. Dette sker gennem transformationsregler, som du definerer for felterne. Du kan definere transformationsregler på siden **Integrationstabeltilknytninger** ved at vælge **Tilknytning** og derefter **Felter**. Der findes foruddefinerede regler, men du kan også oprette dine egne. Du kan finde flere oplysninger i [Transformationsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
 ### <a name="handling-missing-option-values-in-mapping"></a>Håndtering af manglende indstillingsværdier i tilknytning
 [!INCLUDE[prod_short](includes/cds_long_md.md)] indeholder kolonner til at vælge indstillinger, som indeholder værdier, du kan knytte til [!INCLUDE[prod_short](includes/prod_short.md)]-felter af typen **Indstilling** for automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilknyttede indstillinger, og de manglende indstillinger vedhæftes til den relaterede [!INCLUDE[prod_short](includes/prod_short.md)]-tabel og føjes til systemtabellen **CDS-indstillingstilknytning**, så de kan håndteres manuelt senere. For eksempel ved at tilføje de manglende indstillinger i hvert produkt og derefter opdatere tilknytningen. Få flere oplysninger i [Håndtering af manglende indstillingsværdier](admin-cds-missing-option-values.md).
@@ -62,7 +62,7 @@ Sammenkædning knytter rækker i [!INCLUDE[prod_short](includes/cds_long_md.md)]
 * Den gør synkroniseringen mulig.
 * Brugere kan åbne poster eller tækker i én forretningsapp på den anden. Dette kræver, at programmerne allerede er integreret.
 
-Sammenkædninger kan konfigureres automatisk ved hjælp af synkroniseringsjob eller manuelt ved at redigere posten i [!INCLUDE[prod_short](includes/prod_short.md)]. Du finder flere oplysninger under [Synkronisering af data i [!INCLUDE[prod_short](includes/prod_short.md)]i [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md) og [Sammenkæd og synkroniser records manuelt](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)manuelt.
+Sammenkædninger kan konfigureres automatisk ved hjælp af synkroniseringsjob eller manuelt ved at redigere posten i [!INCLUDE[prod_short](includes/prod_short.md)]. Du finder flere oplysninger i [Synkronisering af data i [!INCLUDE[prod_short](includes/prod_short.md)]i [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md) og [Sammenkæde og synkronisere poster manuelt](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings).
 
 ## <a name="filtering-records-and-rows"></a>Filtrere poster og rækker  
 Hvis du ikke vil synkronisere alle rækker for en bestemt tabel i [!INCLUDE[prod_short](includes/cds_long_md.md)] eller tabel i [!INCLUDE[prod_short](includes/prod_short.md)], du kan indstille filtre for at begrænse antallet af poster, der synkroniseres. Du indstiller filtre på siden **Integrationstilknytninger til tabeller**.  

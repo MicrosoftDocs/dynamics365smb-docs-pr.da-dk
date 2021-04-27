@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cf053a049d4c491528956a1fb8c816414e2b9820
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ad541c54f696b19e9c37fba88134522cc5b7bb90
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391895"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771650"
 ---
 # <a name="restructure-warehouses"></a>Omstrukturere lagre
 Det kan eventuelt blive nødvendigt at omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer. Sådanne omstruktureringer foretages som regel sjældent, men der kan opstå situationer, hvor det er nødvendigt med en omklassificering for at opnå en mere effektiv forretningsgang. Eksempler:  
@@ -27,7 +27,7 @@ Det kan eventuelt blive nødvendigt at omstrukturere lagerstedet med nye placeri
 Hvis lagerstedet er sat op til at benytte placeringer, men ikke styret læg-på-lager og pluk, skal du omstrukturere lagerstedet ved at oprette nye placeringer, som du vil benytte fremover.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Sådan omstruktureres et grundlæggende lager, der kun bruger placeringer  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det tilknyttede link.  
 2.  På oversigtspanelet **Lagersted** skal du angive feltet **Standardplacering** til **Sidst anv. placering**.  
 3.  Flyt alt indhold fra de nuværende placeringer til de nye placeringer, du lige har oprettet.  
 
@@ -43,7 +43,7 @@ Du har nu tømt de placeringer, hvor varerne plejede at være. Standardplacering
 
 ## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Sådan omstruktureres et avanceret lager, hvor der bruges styret læg-på-lager og pluk  
 
-1.  Opret de nye placeringer, der skal benyttes fremover. Du kan finde flere oplysninger under [Oprette placeringer](warehouse-how-to-create-individual-bins.md).  
+1.  Opret de nye placeringer, der skal benyttes fremover. Du kan finde flere oplysninger i [Oprette placeringer](warehouse-how-to-create-individual-bins.md).  
 2.  Flyt alt indhold fra de nuværende placeringer til de nye placeringer, som du lige har oprettet.  
 
     1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageromposteringskladde**, og vælg derefter det relaterede link.  
@@ -52,7 +52,7 @@ Du har nu tømt de placeringer, hvor varerne plejede at være. Standardplacering
 
 3.  Når gamle placeringer er tømt, skal du genklassificere dem som type **KK**-placeringer for at sikre, at de ikke er inkluderet i vareforløb.  
 
-    1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
+    1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det tilknyttede link.  
     2.  Marker linjen med placeringen, og vælg derefter handlingen **Placeringer**.  
     3.  På siden **Placeringer** i feltet **Placeringstypekode** skal du angive **KK** for hver af gamle placeringer, som du slettede indholdet af i trin 3 i den foregående fremgangsmåde.  
 
@@ -60,7 +60,7 @@ Du har nu fjernet placeringerne fra lagerstedet og omposteret dem som KK-placeri
 
 ## <a name="to-delete-a-bin"></a>Sådan slettes en placering  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det tilknyttede link.  
 2.  Vælg den lokation, hvor der skal slettes placeringer. Vælg handlingen **Placeringer**.  
 3.  Marker linjerne for de placeringer, du vil slette.  
 4.  Vælg handlingen **Slet**.  
@@ -71,7 +71,7 @@ Hvis du vil omdøbe en placering, så alle de tildelte poster også omdøbes, bl
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Sådan omdøbes en placering, og sådan ændres placeringskoden i alle poster  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det tilknyttede link.  
 2.  Vælg den lokation, hvor du vil omdøbe en placering eller ændre placeringskoden, og vælg derefter handlingen **Placeringer**.  
 3.  Vælg den placering, du vil ændre, og angiv en nye placeringskode i feltet **Kode**.  
 4.  Vælg knappen **Ja**.  

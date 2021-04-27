@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10527690d19d019f8a5d94d8c4817f6a3bcd8479
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0ebb62a4ef9ea84ec5bfddc099dfb6120a4e6405
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380173"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774037"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Definere anlægsforsikring
 Hvis du vil administrere forsikringsdækning for anlægsaktiver, skal du først angive nogle generelle forsikringsoplysninger og forsikringskort pr. police.
@@ -42,13 +42,13 @@ Du kan samle oplysninger om hver enkelt forsikringspolice på forsikringskortet.
 3. Udfyld felterne efter behov.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Sådan defineres forsikringskladdetyper
-Første gang du åbner siden **Forsikringskladde** i [!INCLUDE[prod_short](includes/prod_short.md)], oprettes der automatisk en forsikringskladdetype, men du kan oprette flere kladdetyper. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
+Første gang du åbner siden **Forsikringskladde** i [!INCLUDE[prod_short](includes/prod_short.md)], oprettes der automatisk en forsikringskladdetype, men du kan oprette flere kladdetyper. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikringskladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>Sådan defineres forsikringskladdenavne
-Du kan definere navne i en forsikringskladdetype. Værdierne i kladdenavnet bruges som standardværdier, hvis felterne ikke er udfyldt på kladdelinjerne. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
+Du kan definere navne i en forsikringskladdetype. Værdierne i kladdenavnet bruges som standardværdier, hvis felterne ikke er udfyldt på kladdelinjerne. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsikringskladdetyper**, og vælg derefter det relaterede link.  
 2. Markér en forsikringskladdetype, og vælg derefter handlingen **Navne**.
@@ -58,10 +58,10 @@ Du kan definere navne i en forsikringskladdetype. Værdierne i kladdenavnet brug
 >   Tallene har en særlig funktion i kladdenavne. Hvis et kladdetypenavn eller et kladdenavn indeholder et tal, vil tallet automatisk forøges med 1, hver gang kladden bogføres. Hvis du f.eks. angiver HH1 i feltet **Navn**, ændres kladdenavnet til HH2, når kladden HH1 er blevet bogført.
 
 ## <a name="see-also"></a>Se også
-[Opsætning af Anlægsaktiver](fa-setup.md)  
+[Opsætning af anlægsaktiver](fa-setup.md)  
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

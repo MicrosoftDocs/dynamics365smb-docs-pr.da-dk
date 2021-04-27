@@ -3,19 +3,19 @@ title: 'Fejlfinding: Adgang til kamera og placering'
 description: Denne artikel beskriver, hvordan du retter fejl i forbindelse med adgang til kamera- og placeringsoplysninger i Business central.
 author: blrobl
 ms.author: t-blrobl
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
-ms.openlocfilehash: 68ec41a42898688cbebea341782f0e0bc265341a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d6323ef6ce1a278d0dfd5fc0ecb4c7f8e9632aa1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393770"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783080"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Fejlfinding: Adgang til kamera og placering
 
@@ -29,7 +29,7 @@ Hvis din enhed har kamera- og placeringsfunktioner, men der stadig opstår fejl,
 
 ## <a name="access-permissions-not-enabled"></a>Adgangstilladelser er ikke aktiveret
 
-Du skal aktivere generel adgang til kamera og placering i enhedens indstillinger for beskyttelse af personlige oplysninger og give [!INCLUDE[prod_short](includes/prod_short.md)] udtrykkeligt tilladelse til at få adgang til dem. Hvis du f. eks. vil se eller ændre tilladelser for en enhed, der kører i Windows, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter gå til **App-tilladelser**. 
+Du skal aktivere generel adgang til kamera og placering i enhedens indstillinger for beskyttelse af personlige oplysninger og give [!INCLUDE[prod_short](includes/prod_short.md)] udtrykkelig tilladelse til at få adgang til dem. Hvis du f.eks. vil se eller ændre tilladelser for en enhed, der kører i Windows, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter gå til **App-tilladelser**. 
 
 I forbindelse med mobilenheder skal du give kamera- og placeringsadgangstilladelserne til [!INCLUDE[prod_short](includes/prod_short.md)]-mobilappen. Hvis du vil gøre det for en iOS-enhed, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter vælge **Kamera** eller **Placering**. Hvis du bruger en Android-enhed, skal du vælge **Indstillinger**, vælge **Apps og meddelelser**, **Avanceret**, **Rettighedsadministrator** og derefter **Kamera** eller **Placering**.
 
@@ -38,7 +38,7 @@ Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] i en browser, skal
 Som standard viser enheden eller browseren en anmodning om at få adgang til disse egenskaber, når brugeren aktiverer dem første gang.
 
 > [!NOTE]  
-> Nogle ældre browsere giver ikke adgang til kamera og placering. Kameraet er f. eks. ikke tilgængeligt i Internet Explorer eller den ældre Microsoft Edge-browser.
+> Nogle ældre browsere giver ikke adgang til kamera og placering. Kameraet er f.eks. ikke tilgængeligt i Internet Explorer eller den ældre Microsoft Edge-browser.
 
 ## <a name="web-client-connection-not-secure"></a>Webklientens forbindelse er ikke sikker
 

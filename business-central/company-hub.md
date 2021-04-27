@@ -5,18 +5,18 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/29/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d85358c9fa1e4f6fb6d581daed45c4333511b990
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: acc1bf44ddf3886d57729fb28ba81c6e7580ce40
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387470"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775172"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrere arbejde på tværs af flere regnskaber i virksomhedshub
 
-Nogle personer arbejder i flere firmaer i [!INCLUDE [prod_short](includes/prod_short.md)], og nogle arbejder også i mere end én organisation, f. eks. eksterne bogholdere eller medarbejdere og ledere af virksomheder med flere datterselskaber. For disse brugere og mange andre er virksomhedens hub den samme som en landingsside til styring af arbejde på tværs af de forskellige miljøer, som de arbejder i, på tværs af firmaer, miljøer og områder.  
+Nogle personer arbejder i flere firmaer i [!INCLUDE [prod_short](includes/prod_short.md)], og nogle arbejder også i mere end én organisation, f.eks. eksterne bogholdere eller medarbejdere og ledere af virksomheder med flere datterselskaber. For disse brugere og mange andre er virksomhedens hub den samme som en landingsside til styring af arbejde på tværs af de forskellige miljøer, som de arbejder i, på tværs af firmaer, miljøer og områder.  
 
 Du kan få adgang til firma hubben ved at skifte til rollen **Virksomhedshub** i Mine indstillinger eller ved at åbne siden **Virksomhedshub** direkte. Du kan udføre samme arbejde begge steder, men handlinger placeres lidt anderledes i menuer.  
 
@@ -32,7 +32,7 @@ Hvis du bruger **Virksomhedshub**-rollen, viser din startside en liste over virk
 
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for en virksomhed, der er angivet i virksomhedshubben":::
 
-Du kan tilføje nye virksomheder, f. eks. Når du får fat på en ny kunde, eller når virksomheden tilføjer et nyt datterselskab. Du kan finde flere oplysninger i [Tilføj firmaer til virksomhedshub](company-hub-add-company.md).  
+Du kan tilføje nye virksomheder, f.eks. Når du får fat på en ny kunde, eller når virksomheden tilføjer et nyt datterselskab. Du kan finde flere oplysninger i [Tilføj firmaer til virksomhedshub](company-hub-add-company.md).  
 
 > [!TIP]
 > Hvis du vil opdatere dataene i virksomhedshub, skal du have adgang til dataene i de virksomheder, som dataene stammer fra.
@@ -76,7 +76,7 @@ For at der kan opnås adgang til virksomhedens hub, skal du have adgang via ente
 > [!IMPORTANT]
 > Virksomhedens hub er en liste over hele virksomheden, så enhver bruger, der får adgang til virksomhedens hub, kan se alle regnskaber i deres egen [!INCLUDE [prod_short](includes/prod_short.md)]-lejer og alle KPI'er for de virksomheder, de har adgang til.
 
-Hvis du ikke kan finde virksomhedens hub, og du ved, at du har fået adgang til den, skal du kontakte administratoren, hvis den pågældende virksomheds hub står på siden **Administration af udvidelse**. Du kan finde flere oplysninger under [Tilpasse Business Central ved hjælp af udvidelser](ui-extensions.md).  
+Hvis du ikke kan finde virksomhedens hub, og du ved, at du har fået adgang til den, skal du kontakte administratoren, hvis den pågældende virksomheds hub står på siden **Administration af udvidelse**. Du kan finde flere oplysninger i [Tilpasse Business Central ved hjælp af udvidelser](ui-extensions.md).  
 
 ## <a name="set-up-the-company-hub"></a>Konfigurere virksomhedshub
 
@@ -84,7 +84,7 @@ Hvis du vil begynde at bruge virksomhedens hub, skal du tilføje et eller flere 
 
 Men hvis du vil tilføje et regnskab, skal du have fået adgang til en eller flere forekomster af [!INCLUDE [prod_short](includes/prod_short.md)] ud over den virksomhed, som du bruger virksomhedshubben i.  
 
-Hvis du f. eks. er bogholder, kan dine klienter invitere dig til deres [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Inviter din eksterne revisor til at deltage i din Business Central](finance-accounting.md#inviteaccountant).  
+Hvis du f.eks. er bogholder, kan dine klienter invitere dig til deres [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Inviter din eksterne revisor til at deltage i din Business Central](finance-accounting.md#inviteaccountant).  
 
 Administratorer kan bruge den samme assisterede opsætningsvejledning til at føje dig til dem [!INCLUDE [prod_short](includes/prod_short.md)], eller de kan føje dig til den relevante Azure AD-konto i Microsoft 365 Administration. Du kan finde flere oplysninger i [Administrere brugere og grupper](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 

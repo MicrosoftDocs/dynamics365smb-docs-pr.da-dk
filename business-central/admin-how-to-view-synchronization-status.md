@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a54ce7805deafa5d67c3e25b89606a1a40634ad6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b87bd1061adbcaae3a5497fa1af020cfaa412593
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378144"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781257"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Se status på synkroniseringsjob
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -46,7 +46,7 @@ Du kan bruge siden **Fejl ved sammenkædet datasynkronisering** til at se status
 |**Gendan poster** og **Slet poster**|Disse er nyttige, når en post er blevet slettet i en af dine forretningsapps. Slet poster sletter posten i den app eller række, hvor den stadig findes. Gendan poster gendanner posten eller rækken i den forretningsapp, hvor den blev slettet.|
 
 > [!NOTE]
-> Hvis du vil reducere antallet af konflikter, der skal løses, kan du indstille tilknytningerne for integrationstabeller, så disse handlinger anvendes automatisk. Du kan finde flere oplysninger under [Integrationstabeller til tilknytning](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
+> Hvis du vil reducere antallet af konflikter, der skal løses, kan du indstille tilknytningerne for integrationstabeller, så disse handlinger anvendes automatisk. Du kan finde flere oplysninger i [Integrationstabeller til tilknytning](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Sådan får du vist synkroniseringsloggen for en bestemt (manuelt synkroniseret) post
 1. Åbn f.eks. en kunde, en vare eller en anden post, der synkroniserer data mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)].

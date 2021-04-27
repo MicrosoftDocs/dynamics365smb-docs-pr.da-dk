@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6776fcd85ce353dd63cc222a59b6ceef28bcd751
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f3479500118441c980890dcda0777dd62008297f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378369"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779953"
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiere data til nye virksomheder
 Du kan kopiere værdier, der ofte bruges fra en eksisterende virksomhed til en ny, så længe begge virksomheder er i den samme database. Hvis du f.eks. har en standardliste med symptomkoder, der er fælles for alle dine servicestyringsimplementeringer, kan du nemt kopiere koderne fra én virksomhed til en anden.  

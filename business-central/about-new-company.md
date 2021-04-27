@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc318d3de70cb56e722bd02c868fc570fb62692b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: cb1639a57dcfed21b71d9c9cd57cd6090e5e81d7
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385045"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776368"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Oprettelse af nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -44,10 +44,10 @@ Under din 30-dages prøveperiode kan du oprette et ubegrænset antal nye virksom
 
 ## <a name="copying-a-company"></a>Kopiere et regnskab
 
-På siden **Virksomheder** kan du bruge handlingen **Kopiér** til at oprette endnu en virksomhed baseret på indholdet af en eksisterende virksomhed. Det er f. eks. nyttigt, hvis du vil teste en virksomhed uden at afbryde produktionsdata.
+På siden **Virksomheder** kan du bruge handlingen **Kopiér** til at oprette endnu en virksomhed baseret på indholdet af en eksisterende virksomhed. Det er f.eks. nyttigt, hvis du vil teste en virksomhed uden at afbryde produktionsdata.
 
 > [!Important]
-> Denne funktion kan ikke bruges til at tage en sikkerhedskopi af en virksomhed. Når du tager en sikkerhedskopi af virksomheden, begynder den at eksportere databasen som en. bacpac-fil. Du kan finde flere oplysninger under [Eksportere databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjælpen til udvikling og administration.
+> Denne funktion kan ikke bruges til at tage en sikkerhedskopi af en virksomhed. Når du tager en sikkerhedskopi af virksomheden, begynder den at eksportere databasen som en. bacpac-fil. Du kan finde flere oplysninger i [Eksportere databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjælpen til udvikling og administration.
 
 ## <a name="company-setup"></a>Virksomhedsopsætning
 
@@ -61,7 +61,7 @@ Når du har styr på det grundlæggende, kan du oprette de resterende centrale o
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-Du kan finde flere oplysninger under [Skifte til en anden virksomhed eller et andet miljø](ui-organization-switch.md). 
+Du kan finde flere oplysninger i [Skifte til en anden virksomhed eller et andet miljø](ui-organization-switch.md). 
 
 ## <a name="changing-a-companys-name"></a>Ændring af et virksomhedsnavn
 
@@ -74,9 +74,9 @@ Du kan ikke ændre navnet, når først du har oprettet en virksomhed. Men du kan
 
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

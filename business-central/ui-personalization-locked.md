@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41b0989d388ee7ded2619136ded0a03d5830b78b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 24f5dba76e5a3921c0e4c4c621192f7d95c017bf
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387545"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774735"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Hvorfor er en side låst mod tilpasning
 
-Der er to forhold, der forhindrer dig i at tilpasse en side. Enten er siden låst (angivet med ikonet ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst")), eller også er den spærret (angivet med ikonet![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning blokeret")).
+Der er to forhold, der forhindrer dig i at tilpasse en side. Enten er siden låst (som angivet med ikonet for ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst")), eller også er den spærret (angivet med ikonet for ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning blokeret")).
 
 ## <a name="locked-from-personalizing"></a>Låst mod tilpasning
 
@@ -52,7 +52,7 @@ Hvis du kan se ikonet ![Tilpasning spærret](media/personalization-blocked-icon.
 
 <!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 
-Det skyldes, at det rollecenter eller den rolle, der aktuelt er knyttet til brugerkontoen, ændrer denne side specifikt til din rolle. Kontakt din administrator for at få hjælp. Du kan også prøve at skifte til et rollecenter, der omfatter rolletilpasning for denne side. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
+Det skyldes, at det rollecenter eller den rolle, der aktuelt er knyttet til brugerkontoen, ændrer denne side specifikt til din rolle. Kontakt din administrator for at få hjælp. Du kan også prøve at skifte til et rollecenter, der omfatter rolletilpasning for denne side. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
 
 ## <a name="see-also"></a>Se også
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  

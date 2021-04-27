@@ -8,26 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 01/05/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f07bc493a88f7ce46d3845a97774d0971c0fe5ba
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 305d1460b93c1294335b5a8afcf42593c465ebe4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388895"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780794"
 ---
 # <a name="create-contacts"></a>Oprette kontakter
 Når du udvikler en forretningsrelation til en person i et andet firma, kan du tilføje dem som en kontakt i [!INCLUDE[prod_short](includes/prod_short.md)]. Tilføj derefter alle oplysninger om dem eller deres firma, som kan være nyttige i forbindelse med fremtidige meddelelser. På siden **Kontaktkort** kan du oprette følgende typer kontakter:
 
 * **Person** - dette er typisk, når du har haft direkte kontakt med en person og har deres kontaktoplysninger.
-* **Virksomhed** - Hvis kontakten ikke er en enkelt person, men en enhed, f. eks. en kontrahent eller bank. 
+* **Virksomhed** - Hvis kontakten ikke er en enkelt person, men en enhed, f.eks. en kontrahent eller bank. 
 
 De oplysninger, der er relevante for hver kontakttype, er forskellige, så de tilgængelige felter og handlinger er forskellige. Du kan f.eks. kun tildele ansvarsområder til en person og branche til en virksomhed. 
 
-Du kan også ændre værdien i feltet **Type**. Du kan også bruge felterne i oversigtspanelet **Arv** på siden **Marketingopsætning** til at angive de oplysninger, der skal deles mellem en person og deres virksomhed. Du kan finde flere oplysninger under [Konfigurere kontakter](marketing-setup-contacts.md).
+Du kan også ændre værdien i feltet **Type**. Du kan også bruge felterne i oversigtspanelet **Arv** på siden **Marketingopsætning** til at angive de oplysninger, der skal deles mellem en person og deres virksomhed. Du kan finde flere oplysninger i [Konfigurere kontakter](marketing-setup-contacts.md).
 
-Når en kontakt konverteres til en debitor, bliver kontakten eller kontaktvirksomheden f. eks. navnet på debitoren. Kontaktens post bevares, og du kan knytte kontaktpersonen og kunden til hinanden, så deres data synkroniseres frem.
+Når en kontakt konverteres til en debitor, bliver kontakten eller kontaktvirksomheden f.eks. navnet på debitoren. Kontaktens post bevares, og du kan knytte kontaktpersonen og kunden til hinanden, så deres data synkroniseres frem.
 
 ## <a name="to-create-a-contact-manually"></a>Sådan oprettes en kontakt manuelt
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.
@@ -38,7 +38,7 @@ Når en kontakt konverteres til en debitor, bliver kontakten eller kontaktvirkso
 5. Udfyld de resterende felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Sådan oprettes en kontakt fra en debitor, kreditor eller bankkonto.
-Hvis du har debitorer, kreditorer og bankkonti, som du vil oprette kontaktkort for, kan du bruge **Opret kontakter fra**-kørsler til at oprette kontakter på grundlag af de eksisterende data. Når du opretter en kontakt på denne måde, synkroniseres kontaktoplysningerne bagefter med oplysningerne om relateret debitor, kreditor eller bankkonto. Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Hvis du har debitorer, kreditorer og bankkonti, som du vil oprette kontaktkort for, kan du bruge **Opret kontakter fra**-kørsler til at oprette kontakter på grundlag af de eksisterende data. Når du opretter en kontakt på denne måde, synkroniseres kontaktoplysningerne bagefter med oplysningerne om relateret debitor, kreditor eller bankkonto. Du kan finde flere oplysninger i [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
 > Før du kan oprette kontakter baseret på eksisterende data, skal du angive en forretningsrelationskode for debitorer, kreditorer eller bankkonti i oversigtspanelet **Interaktioner** på siden **Marketingopsætning**. Der er flere oplysninger i [Opsætning af kontakter](marketing-setup-contacts.md).
@@ -53,13 +53,13 @@ Hvis du har debitorer, kreditorer og bankkonti, som du vil oprette kontaktkort f
 De næste numre i nummerserien er tildelt de nye kontakter. De forretningsrelationer, som er angivet på siden **Marketingopsætning**, tildeles til de nyoprettede kontakter.
 
 > [!TIP]  
-> Du kan også gøre dette modsat, nemlig ved at oprette en debitor, kreditor eller bankkonto ud fra en kontaktperson. Du kan finde flere oplysninger under [Sådan oprettes en kontakt som debitor, kreditor eller bankkonto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+> Du kan også gøre dette modsat, nemlig ved at oprette en debitor, kreditor eller bankkonto ud fra en kontaktperson. Du kan finde flere oplysninger i [Sådan oprettes en kontakt som debitor, kreditor eller bankkonto](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
 ## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a>Sådan oprettes en debitor, kreditor, ansat eller bankkonto på grundlag af en kontakt
-Hvis du har en debitor, kreditor, ansat eller bankkonto for en virksomhed, du vil oprette en kontakt for, kan du bruge handlingen **Opret som**. Når du opretter en kontakt på denne måde, synkroniseres kontaktoplysningerne bagefter med oplysningerne om relateret debitor, kreditor, ansat eller bankkonto. Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Hvis du har en debitor, kreditor, ansat eller bankkonto for en virksomhed, du vil oprette en kontakt for, kan du bruge handlingen **Opret som**. Når du opretter en kontakt på denne måde, synkroniseres kontaktoplysningerne bagefter med oplysningerne om relateret debitor, kreditor, ansat eller bankkonto. Du kan finde flere oplysninger i [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 > [!NOTE]  
-> Før du kan oprette kunder, debitorer, ansatte eller bankkonti fra kontakter, skal du angive en forretningsrelationskode på siden **Marketingopsætning** på oversigtspanelet **Interaktioner**. Du kan finde flere oplysninger under [Konfigurere kontakter](marketing-setup-contacts.md).
+> Før du kan oprette kunder, debitorer, ansatte eller bankkonti fra kontakter, skal du angive en forretningsrelationskode på siden **Marketingopsætning** på oversigtspanelet **Interaktioner**. Du kan finde flere oplysninger i [Konfigurere kontakter](marketing-setup-contacts.md).
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.
 2. Marker den kontakt, du vil oprette som debitor, kreditor, ansat eller bankkonto.

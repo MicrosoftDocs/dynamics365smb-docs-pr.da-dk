@@ -8,31 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: list, filter, pane, views
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: mikebc
-ms.openlocfilehash: 17d7c909865bc077097ba4299e07ed2dd9cedb22
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c47f7a6ad3f60cf7f2b0cab31e4abc995fdbae12
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5392470"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783007"
 ---
 # <a name="list-views-faq"></a>Ofte stillede spørgsmål om listevisninger
 I dette emne besvares spørgsmål, som vores erfarne brugere ofte stiller om, hvordan de kan arbejde med listevisninger og gemme filtre.  
 
 ### <a name="how-do-views-handle-expressions"></a>Hvordan håndteres udtryk i visninger?
 
-Når du gemmer en visning, der omfatter filtre med udtryk, f.eks. datointervaller, operatorer, nøgleord eller filtertokens, gemmes udtrykket og ikke de resulterende værdier. Hvis du f.eks. gemmer en visning, hvor der filtreres på feltet **Oprettelsesdato** med udtrykket `-1W..today`, vil der altid blive fundet poster i forhold til den aktuelle dato, også hvis visningen åbnes næste måned.
+Når du gemmer en visning, der omfatter filtre med udtryk, f.eks. datointervaller, operatorer, nøgleord eller filtertokens, gemmes udtrykket&mdash;og ikke de resulterende værdier. Hvis du f.eks. gemmer en visning, hvor der filtreres på feltet **Oprettelsesdato** med udtrykket `-1W..today`, vil der altid blive fundet poster i forhold til den aktuelle dato, også hvis visningen åbnes næste måned.
 
 ### <a name="where-are-list-views-saved"></a>Hvor gemmes listevisninger?
 
-På samme måde som når du skjuler et felt eller ændrer på rækkefølgen i din navigationsmenu, er listevisninger en del af brugertilpasningen og gemmes i databasen. Når du rydder alle tilpasninger på en liste, fjernes dine personlige visninger og yderligere tilpasninger, f.eks. ændret rækkefølge i visninger, også permanent. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+På samme måde som når du skjuler et felt eller ændrer på rækkefølgen i din navigationsmenu, er listevisninger en del af brugertilpasningen og gemmes i databasen. Når du rydder alle tilpasninger på en liste, fjernes dine personlige visninger og yderligere tilpasninger, f.eks. ændret rækkefølge i visninger, også permanent. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ### <a name="why-dont-i-have-a-save-icon"></a><a name="save"></a>Hvorfor har jeg ikke ikonet Gem?
 
 Der er en par årsager til, at du ikke kan se menuen Gem ikon og indstillinger ved siden af visninger i filterruden.
 
-En årsag kan være, at tilpasning ikke er aktiveret for din brugerrolle. I dette tilfælde har du stadig Access-systemvisninger, som er standarddele af siderne. Du kan ændre disse visninger, f. eks. ændre eller tilføje filtre. Du kan ikke gemme ændringerne. En anden årsag kan være, at den side, du ser på, er en side med en *projektmappe*-typeside&mdash;ikke en liste.
+En årsag kan være, at tilpasning ikke er aktiveret for din brugerrolle. I dette tilfælde har du stadig Access-systemvisninger, som er standarddele af siderne. Du kan ændre disse visninger, f.eks. ændre eller tilføje filtre. Du kan ikke gemme ændringerne. En anden årsag kan være, at den side, du ser på, er en side med en *projektmappe*-typeside&mdash;ikke en liste.
 
 ### <a name="on-which-page-types-can-i-use-list-views"></a>På hvilke sidetyper kan jeg bruge listevisninger?
 

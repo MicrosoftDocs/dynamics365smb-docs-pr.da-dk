@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1608330b5d2b2955a144498e5c44d40072b22a8b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d179275dd5bd225ace1555bb312b81a9553db0c3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384195"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781332"
 ---
 # <a name="using-prod_short-in-an-automated-workflow"></a>Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i et automatisk workflow
 
@@ -76,13 +76,13 @@ Du kan bruge dine [!INCLUDE[prod_short](includes/prod_short.md)]-data som en del
 12. Power Automate viser en liste over de tjenester, der er anvendt i flow-skabelonen og vil automatisk forsøge at oprette forbindelse til disse tjenester. Hvis du ikke tidligere har oprettet forbindelse til en tjeneste, bliver du bedt om at logge på hver af de tjenester, du har brug for at oprette forbindelse til. Der vises en grøn markering ud for hver enkelt tjeneste, når der er oprettet en forbindelse. Vælg **Fortsæt**.
 13. Power Automate vil anmode dig om at vælge et miljø og en virksomhed i din [!INCLUDE[prod_short](includes/prod_short.md)]-lejer. Da hvert trin i flowet er uafhængigt af det næste, kan du blive nødt til at definere miljøet og virksomheden flere gange, når du bruger en [!INCLUDE[prod_short](includes/prod_short.md)] Power Automate-skabelon.
 
-Du kan finde flere oplysninger under [Dokumentation for Power Automate](/power-automate/getting-started).
+Du kan finde flere oplysninger i [Dokumentation for Power Automate](/power-automate/getting-started).
 
 ## <a name="see-also"></a>Se også
 
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Workflow](across-workflow.md)  
-[Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 [Administrere [!INCLUDE[prod_long](includes/prod_long.md)]-workflows](across-use-workflows.md)  
 [Brugeropsætning af godkendelser](across-how-to-set-up-approval-users.md)  

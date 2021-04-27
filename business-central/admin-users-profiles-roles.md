@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 630ddd66ee0655c4447d0a39df6be22daed6f13b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387495"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776962"
 ---
 # <a name="manage-profiles"></a>Administrere profiler
 
@@ -26,7 +26,7 @@ Som administrator kan du oprette og administrere profiler på siden **Profiler (
 Når du vil administrere brugerprofiler, skal de pågældende brugere først være oprettet og tilføjet via Microsoft 365 Administration. Du kan derefter tildele rettigheder til hver bruger eller brugergruppe for at definere, hvilke funktioner de har tilladelse til at få vist og/eller redigere. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Sidetilpasning
-Du kan tilpasse sidelayout for en profil, så alle brugere, som profilen er tildelt til, kan se de tilpassede sider. Som administrator kan du tilpasse sider ved at bruge de samme funktioner som brugerne, når de foretager tilpasning. Du kan finde flere oplysninger under [Tilpasse sider til profiler](ui-personalization-manage.md).
+Du kan tilpasse sidelayout for en profil, så alle brugere, som profilen er tildelt til, kan se de tilpassede sider. Som administrator kan du tilpasse sider ved at bruge de samme funktioner som brugerne, når de foretager tilpasning. Du kan finde flere oplysninger i [Tilpasse sider til profiler](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>Sådan oprettes en profil
 Hvis du ikke kan kopiere en eksisterende profil, kan du oprette en ny profil manuelt.
@@ -62,7 +62,7 @@ Brugerne kan tildele sig selv en rolle (der repræsenterer en profil) ved at væ
 > Hvis du tildeler en anden profil til en bruger, bevares tilpasninger, der er foretaget af brugeren med den forrige profil.
 
 ## <a name="to-define-user-settings-for-a-profile"></a>Sådan defineres brugerindstillinger for en profil
-På siden **Mine indstillinger** kan brugere definere grundlæggende funktioner for deres konto, f.eks. rollecenter, sprog, og hvilke notifikationer de vil modtage. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
+På siden **Mine indstillinger** kan brugere definere grundlæggende funktioner for deres konto, f.eks. rollecenter, sprog, og hvilke notifikationer de vil modtage. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
 
 Som administrator kan du definere disse indstillinger for en profil og dermed anvende indstillingerne for alle brugere af den relaterede rolle.
 

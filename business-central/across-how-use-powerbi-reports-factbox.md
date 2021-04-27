@@ -8,39 +8,81 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6c818940357ed21a994e7553517989a0c16accec
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a600b24e16172134d4f8e78cf47efa4e262cac09
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379269"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777512"
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Oprette Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Oprettelse af Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_long](includes/prod_long.md)] indeholder et faktaboks-kontrolelement på en række vigtige sider, der giver ekstra indsigt i dataene på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post. Du kan oprette brugerdefinerede rapporter, der skal vises i dette kontrolelement. Der er dog nogle få regler, du skal følge for at sikre, at rapporter fungerer som forventet.  
+[!INCLUDE[prod_long](includes/prod_long.md)] indeholder et kontrolelement for Power BI-faktaboksen på mange nøglelistesider. Formålet med denne faktaboks er at vise Power BI-rapporter, der er relateret til poster på listerne, hvilket giver ekstra indblik i dataene. Formålet er, at rapporten opdateres og filtreres for den valgte post, når du bevæger dig mellem rækkerne på listen.
+
+[!INCLUDE[prod_long](includes/prod_long.md)] er klar med nogle af disse rapporter. Du kan også oprette dine egne brugerdefinerede rapporter, der skal vises i denne faktaboks. Oprettelse af disse rapporter svarer til andre rapporter. Men der er nogle få designregler, som du skal følge for at sikre, at rapporterne vises som forventet. Reglerne beskrives i denne artikel.
+
+> [!NOTE]
+> Generelle oplysninger om oprettelse og udgivelse af Power BI-rapporter til Business Central finder du i [Oprettelse af Power BI-rapporter for at vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md). 
 
 ## <a name="prerequisites"></a>Forudsætninger
 
 - En Power BI-konto.
 - Power BI Desktop.
 
-Du kan finde flere oplysninger om at komme i gang under [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md).
+<!-- 
+For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-## <a name="defining-the-report-data-set"></a>Definere rapportdatasættet
+## <a name="create-a-report-for-a-list-page"></a>Oprette en rapport til en listeside
 
-Angiv den datakilde, der indeholder de data, som vedrører listen. Hvis du f.eks. vil oprette en rapport til salgslisten, skal du sikre, at datasættet indeholder salgsrelaterede oplysninger.  
+1. Start Power BI Desktop.
+2. Vælg **Hent data**, og begynd at vælge datakilden for rapporten.
 
-## <a name="defining-the-report-filter"></a>Definere rapportfilteret
+    I dette trin skal du angive, hvilke listesider for Business Central, der skal indeholde de data, du vil have med i rapporten. Hvis du f.eks. vil oprette en rapport til salgslisten, skal du sikre, at datasættet indeholder salgsrelaterede oplysninger.
 
-Hvis du vil foretage dataopdatering til den valgte post på listen, skal du føje et filter til rapporten. Filteret skal indeholde et felt fra den datakilde, der bruges som *primær nøgle*. I de fleste tilfælde er primærnøglen for en liste feltet **Nr.** .
+    Du kan finde flere oplysninger ved at følge instruktioner i [Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
 
-Du kan definere et filter for rapporten, vælge primærnøglen på listen over tilgængelige felter og derefter trække og slippe direkte i sektionen **Rapportfilter**. Filteret skal være et grundlæggende rapportfilter, som er defineret for alle sider. Det kan ikke være sidefilter, visuelt eller avanceret filter.
+3. Angive rapportfilteret.
 
-![Angive rapportfilteret for rapporten Salgsfakturaaktivitet](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+    Hvis du vil foretage dataopdatering til den valgte post på listen, skal du føje et filter til rapporten. Filteret skal indeholde et felt i den datakilde, der bruges til entydigt at identificere hver post på listen. I forhold til udviklere er dette felt den *primære nøgle*. I de fleste tilfælde er primærnøglen for en liste feltet **Nr.** .
 
-## <a name="setting-the-report-size-and-color"></a>Angive størrelse og farve på rapporten
+    Benyt følgende fremgangsmåde for at angive filteret:
+
+    1. I **Filtre** skal du vælge feltet for den primære nøgle på listen over tilgængelige felter.
+    2. Træk feltet til ruden **Filter**, og slip den i boksen **Filtrer på alle sider**.
+    3. Indstil **Filtertype** til **Grundlæggende filtrering**. Det kan ikke være sidefilter, visuelt eller avanceret filter.
+
+    ![Indstilling af rapportfilteret for rapporten Salgsfakturaaktivitet](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+4. Design rapportlayoutet.
+
+    Opret layoutet ved at trække felter og tilføje visuelle effekter. Du kan finde flere oplysninger i [Arbejde med rapportvisning i Power BI Desktop](/power-bi/create-reports/desktop-report-view) i dokumentationen til Power BI.
+
+5. Se de næste afsnit om at tilpasning af rapporten og brug af flere sider.
+
+6. Gem og navngiv rapporten.
+
+    Det er vigtigt at give rapporten et navn, der indeholder navnet på den listeside, der er tilknyttet rapporten. Hvis rapporten f.eks. oprettes for listesiden **Varer**, skal du medtage ordet *varer* et sted i navnet.  
+
+    Denne navngivningskonvention er ikke et krav. Det gør imidlertid hurtigere at vælge rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]. Når siden til valg af rapporter åbnes fra en listeside, filtreres den automatisk på basis af navnet på siden. Denne filtrering sker for at begrænse de viste rapporter. Brugerne kan rydde filteret for at se en komplet liste over tilgængelige rapporter i Power BI.
+
+7. Udgiv rapporten, når du er færdig.
+
+    Du kan få flere oplysninger [Udgivelse af en rapport](across-how-use-financials-data-source-powerbi.md#publish-reports).
+
+8. Test rapporten.
+
+    Når rapporterne er udgivet til dit arbejdsområde, skal de være tilgængelige fra Power BI-faktaboksen på listesiden i [!INCLUDE[prod_short](includes/prod_short.md)].
+
+    Benyt følgende fremgangsmåde for at teste den.
+
+    1. Åbn [!INCLUDE[prod_short](includes/prod_short.md)], og gå til listesiden.
+    2. Hvis du ikke kan se Power BI-faktaboksen, skal du på handlingslinjen og derefter vælge **Handlinger** > **Vis** > **Vis/skjul Power BI-rapporter**.
+    3. I Power BI-faktaboksen skal du vælge **Vælg rapporter**, markere boksen **Aktivér** for rapporten og derefter klikke på **OK**.
+
+    Hvis rapporten er designet korrekt, vises den.  
+
+## <a name="set-the-report-size-and-color"></a>Angive størrelse og farve for rapporten
 
 Størrelsen på rapporten skal angives til 325 x 310 pixel. Denne størrelse angiver rapportens korrekte skalering på den ledige plads i Power BI-faktaboksens kontrolelementet i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil angive størrelsen på rapporten, skal du placere fokus uden for rapportens layoutområde og derefter vælge malerulleikonet.
 
@@ -48,35 +90,36 @@ Størrelsen på rapporten skal angives til 325 x 310 pixel. Denne størrelse ang
 
 Du kan ændre bredden og højden for rapporten ved at vælge **Brugerdefineret** i feltet **Type**.
 
-Hvis baggrunden for rapporten skal blende i med baggrundsfarven for Power BI-faktabokskontrolelementet, skal du angive baggrundsfarven *#FFFFFF* til rapporten. 
+Hvis baggrunden for rapporten skal passe ind i baggrundsfarven for kontrolelementet for Power BI-faktaboksen, skal du angive rapportens baggrundsfarve til *#FFFFFF* (hvid). 
 
-## <a name="using-reports-with-multiple-pages"></a>Bruge rapporter med flere sider
+> [!TIP]
+> Brug [!INCLUDE [prod_short](includes/prod_short.md)]-temafilen til at oprette rapporter med samme farveskema som [!INCLUDE [prod_short](includes/prod_short.md)]-apps. Du kan finde flere oplysninger i [Brug af [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet](across-how-use-financials-data-source-powerbi.md#theme).
+
+## <a name="reports-with-multiple-pages"></a>Rapporter med flere sider
 
 Med Power BI kan du oprette en enkelt rapport med flere sider. Men i forbindelse med rapporter, der vises med listesider, kan vi ikke anbefale, at de har mere end én side. Power BI-faktaboksen viser kun den første side i rapporten.
 
-## <a name="naming-the-report"></a>Navngive rapporten
+## <a name="fixing-problems"></a>Løsning af problemer
 
-Giv rapporten et navn, der indeholder navnet på den listeside, der er tilknyttet rapporten. Hvis rapporten f.eks. er til **Kreditor**-listesiden, skal du medtage ordet *kreditor* et sted i navnet.  
+Denne sektion indeholder oplysninger om, hvordan du løser problemer, som du kan støde på, når du forsøger at få vist en Power BI-rapport for en listeside i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Denne navngivningskonvention er ikke et krav. Det gør imidlertid hurtigere at vælge rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]. Når siden til valg af rapporter åbnes fra en listeside, filtreres den automatisk på basis af navnet på siden. Denne filtrering sker for at begrænse de viste rapporter. Brugerne kan rydde filteret for at se en komplet liste over tilgængelige rapporter i Power BI.  
+### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Du kan ikke se Power BI-faktaboksen på en listeside
 
-## <a name="fixing-problems"></a>Løse problemer
+Power BI-faktaboksen er som standard skjult. Hvis du vil have vist faktaboksen på en side, skal du vælge **Handlinger** > **Vis** > **Vis/skjul Power BI-rapporter** på handlingslinjen.
 
-Denne sektion indeholder en løsning på de mest almindelige problemer, der kan opstå, når du opretter Power BI-rapporten.  
+### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Du kan ikke se rapporten i ruden Vælg rapport
 
-#### <a name="you-cant-see-a-report-on-the-select-report-page"></a>Du kan ikke se en rapport på siden Vælg rapport
+Det skyldes sandsynligvis, at rapportens navn ikke indeholder navnet på den viste listeside. Ryd filteret for at se en komplet liste over tilgængelige Power BI-rapporter.  
 
-Det skyldes sandsynligvis, at rapportens navn ikke indeholder navnet på listesiden. Ryd filteret for at se en komplet liste over tilgængelige rapporter i Power BI.  
-
-#### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Rapporten er indlæst, men tom og ikke filtreret eller filtreret forkert
+### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Rapporten er indlæst, men tom, ikke filtreret eller filtreret forkert
 
 Kontrollér, at rapportfilteret indeholder den rette primære nøgle. I de fleste tilfælde er dette felt **Nr.** men i tabellen **Finanspost** skal du f.eks. bruge feltet **Løbenr.**
 
-#### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Rapporten indlæses, men viser en side, du ikke forventede
+### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Rapporten indlæses, men viser en side, du ikke forventede
 
 Kontrollér, at den side, du vil have vist, er den første side i rapporten.  
 
-#### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Rapporten vises med en uønsket grå kant, er for lille eller for stor
+### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Rapporten vises med en uønsket grå kant, er for lille eller for stor
 
 Kontroller, at rapportstørrelse er indstillet til 325 x 310 pixel. Gem rapporten, og opdater derefter oversigtssiden.  
 
@@ -84,9 +127,9 @@ Kontroller, at rapportstørrelse er indstillet til 325 x 310 pixel. Gem rapporte
 
 ## <a name="see-also"></a>Se også
 
-[Aktivere virksomhedens data til Power BI](admin-powerbi.md)  
-[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Introduktion](product-get-started.md)  
+[Aktivering af dine virksomhedsdata for Power BI](admin-powerbi.md)  
+[Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finans](finance.md)  
 

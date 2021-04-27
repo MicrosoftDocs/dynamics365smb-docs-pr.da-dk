@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/26/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: ce26aa8923ffd706e0331a7641b443fdf99e25f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470483"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774760"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -57,18 +57,18 @@ I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og ad
 |Alt+T|Åbne siden **Mine indstillinger**.|
 |Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit-knap"). Dette bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
 |Ctrl+Alt+Skift+C|Få vist oplysninger på virksomhedskortet.|
-|Ctrl+Alt+F1|Åbne og lukke sideinspektionsruden. Sideinspektionsruden viser oplysninger om siden, f.eks. dens kildetabel, felter, udvidelser og meget mere.<br /><br />Du kan finde flere oplysninger under [Inspektion af sider](across-inspect-page.md).|
+|Ctrl+Alt+F1|Åbne og lukke sideinspektionsruden. Sideinspektionsruden viser oplysninger om siden, f.eks. dens kildetabel, felter, udvidelser og meget mere.<br /><br />Du kan finde flere oplysninger i [Inspektion af sider](across-inspect-page.md).|
 |Ctrl+C |Kopiere værdien i feltet. Hvis feltet er i fokus, og du ikke har markeret tekst i feltet, kopieres hele værdien. Hvis du har markeret tekst i feltet, så kopieres kun den markerede tekst.|
 |Ctrl+F1|Åbne hjælpen til Business Central for siden.|
 |Ctrl+F12|Skifte mellem visning med bredt og smalt layout.|
-|Ctrl+klik|Navigere under tilpasning, når handlingen er fremhævet med en pilespids. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).|  
+|Ctrl+klik|Navigere under tilpasning, når handlingen er fremhævet med en pilespids. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).|  
 |Ctrl+F5|Genindlæse [!INCLUDE[prod_short](includes/prod_short.md)]-programmet. (Svarer til at vælge opdater/genindlæs i browseren).|
 |F5|Opdatere oplysningerne på den aktuelle side.<br /><br />Du kan bruge denne tast til at sikre, at dataene på siden er opdateret med de ændringer, der er foretaget af andre, mens du arbejder.|
 |Indsæt|Aktivere eller få adgang til det element eller kontrolelement, der er i fokus.|
 |Esc|Lukke den aktuelle side eller rullelisten.|
 |Tab|Flytte fokus til det næste kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
 |Skift+Tab|Flytte fokus til det forrige kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
-|J og N|Aktivere knapperne **Ja** og **Nej** i dialogbokse. De aktuelle nøgler varierer, alt efter det aktuelle sprog der er angivet i **Mine indstillinger**. Tryk f. eks. på J for at aktivere knappen **Ja**, når du bruger tysk.|
+|J og N|Aktivere knapperne **Ja** og **Nej** i dialogbokse. De aktuelle nøgler varierer, alt efter det aktuelle sprog der er angivet i **Mine indstillinger**. Tryk f.eks. på J for at aktivere knappen **Ja**, når du bruger tysk.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Tastaturgenveje på lister
 
@@ -87,7 +87,7 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
 
-Der er gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. listesider og **Linje** dele i dokumenter. Flytning fra én celle til en anden på tværs af et gitter er muligt med tastaturet.
+Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. listesider og dele af **Linjer** i dokumenter. Flytning fra én celle til en anden på tværs af et gitter er muligt med tastaturet.
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -146,7 +146,7 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 |Alt + G|Åbn siden **Find poster** for at finde poster, der er relateret til det bogførte dokument. Fungerer også på lister.|
 |Alt+N |Åbne en side og oprette en ny post – på samme måde som ved valg af handlingen **Ny**. |
 |Alt+Skift+N |Lukke en side og åbne en ny side for at oprette en ny post – på samme måde som ved valg af handlingen **OK og ny**. |
-|Alt+Skift+W |Åbne det aktuelle kort eller dokument i et nyt vindue. Du kan finde flere oplysninger under [Multitasking på tværs af flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Alt+Skift+W |Åbne det aktuelle kort eller dokument i et nyt vindue. Du kan finde flere oplysninger i [Multitasking på tværs af flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|
 |Ctrl+Enter|Gem og luk siden.|
 |Ctrl+Pil ned|Åbne den næste post for en enhed.|
 |Ctrl+Pil op |Åbne den forrige post for en enhed.|
@@ -229,7 +229,7 @@ Rollestifinder giver dig et overblik og en hurtig adgang til alle de forretnings
 
 [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)  
 [Hjælpefunktioner](ui-accessibility.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.md)  
 [Find poster](ui-find-entries.md)  

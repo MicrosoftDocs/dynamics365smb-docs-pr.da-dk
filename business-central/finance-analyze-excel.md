@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 54d4bed11f79aef8e5d4c123dceb479e263e5ec7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 69aaeb21bec95d41aab338caa3013a0947de9ef9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391145"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780878"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysere regnskaber i Microsoft Excel
 
@@ -37,7 +37,7 @@ I Excel kan se du en fane, hvor dataene er opstillet for dig i det første regne
 
 ### <a name="understanding-the-excel-templates"></a>Om Excel-skabeloner
 
-De foruddefinerede Excel-rapporter er baseret på dataene i det aktuelle regnskab. Demoregnskabet har f. eks. oprettet kontoplanen, så du kan få vist tre kontantkonti under de *Aktuelle aktiver*: 10100 **Checkkonto**, 10200 **Opsparingskonto** og 10300 **Kontantbeholdning**. Felterne **Konto underkategori** er angivet til *Kontant*, og det samlede beløb, der vises som *Kontant* i Excel-rapporten **Balance**.  
+De foruddefinerede Excel-rapporter er baseret på dataene i det aktuelle regnskab. Demoregnskabet har f.eks. oprettet kontoplanen, så du kan få vist tre kontantkonti under de *Aktuelle aktiver*: 10100 **Checkkonto**, 10200 **Opsparingskonto** og 10300 **Kontantbeholdning**. Felterne **Konto underkategori** er angivet til *Kontant*, og det samlede beløb, der vises som *Kontant* i Excel-rapporten **Balance**.  
 
 Yderligere ark i Excel-projektmappen viser dataene bag rapporten. Men hvis du vil se, hvad der skjules bag grupperinger i Excel-rapporterne, kan du f.els. gå tilbage til [!INCLUDE [prod_short](includes/prod_short.md)] og angive filtre til listerne.  
 

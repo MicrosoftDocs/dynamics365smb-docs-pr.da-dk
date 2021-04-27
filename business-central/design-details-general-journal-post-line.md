@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7e61b572b2a7a1538d58430cbbcbb19d7cda999
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3ea2ea8a4ef5bbdff70346022ee226fd5e26748d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390070"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777819"
 ---
 # <a name="design-details-general-journal-post-line"></a>Designoplysninger: Bogføringslinje i finanskladde
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges til at omdesigne funktionen til finanskladders bogføringslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Ombygningen gør codeunit 12 enklere og nemmere at vedligeholde. Dokumentationen starter med at beskrive en grundlæggende oversigt over det nye design. Derefter beskrives den tekniske arkitektur for at vise de ændringer, der stammer fra ombygningen.  

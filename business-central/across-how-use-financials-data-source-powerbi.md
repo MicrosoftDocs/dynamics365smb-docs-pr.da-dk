@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7226a8b8c1acd624890cd668cd9a8437e7bd08b7
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384170"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780078"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -31,7 +31,7 @@ Denne artikel beskriver, hvordan du kan komme i gang med at bruge Power BI Deskt
 
 - Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-   Power BI Desktop er et gratis program, du installerer på din lokale computer. Du kan finde flere oplysninger under [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+   Power BI Desktop er et gratis program, du installerer på din lokale computer. Du kan finde flere oplysninger i [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
 - Sørg for, at de data, du vil bruge i rapporten, udgivet som en webtjeneste.
     
@@ -48,9 +48,9 @@ Denne artikel beskriver, hvordan du kan komme i gang med at bruge Power BI Deskt
 
 - Download [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfrit).
 
-    Du kan finde flere oplysninger under [Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet](#theme) i denne artikel.
+    Du kan finde flere oplysninger i [Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet](#theme) i denne artikel.
 
-## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a>Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
+## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
 
 Den første opgave i oprettelsen af rapporter er at tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop. Når forbindelsen er oprettet, kan du starte med at generere rapporten.
 
@@ -86,7 +86,7 @@ Når dataene er indlæst, kan du se dem i den højre navigation på siden. Nu ha
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Oprette rapporter for at vise data, der er knyttet til en liste
 
-Du kan oprette rapporter, der vises i en faktaboks på en [!INCLUDE [prod_short](includes/prod_short.md)]-listeside. Rapporterne kan indeholde data om den post, der er valgt på listen. Oprettelse af disse rapporter minder om andre rapporter, men der er nogle ting, du skal gøre for at sikre, at rapporterne vises som forventet. Du kan finde flere oplysninger under [Oprette Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+Du kan oprette rapporter, der vises i en faktaboks på en [!INCLUDE [prod_short](includes/prod_short.md)]-listeside. Rapporterne kan indeholde data om den post, der er valgt på listen. Oprettelse af disse rapporter minder om andre rapporter, men der er nogle ting, du skal gøre for at sikre, at rapporterne vises som forventet. Du kan finde flere oplysninger i [Oprette Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
 ## <a name="using-the-prod_short-report-theme-optional"></a><a name="theme"></a>Brug af [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfrit)
 
@@ -104,7 +104,7 @@ Temafilen er tilgængelig som en json-fil i Microsoft Power BI Community-temagal
 
 ### <a name="import-the-theme-on-a-report"></a>Indlæse temaet i en rapport
 
-Når du har downloadet [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet, kan du indlæse det i rapporterne. Hvis du vil indlæse temaet, skal du vælge **Vis** > **Temaer** > **Søg efter temaer**. Du kan finde flere oplysninger under [Power BI Desktop - Indlæse brugerdefinerede rapporttemaer](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
+Når du har downloadet [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet, kan du indlæse det i rapporterne. Hvis du vil indlæse temaet, skal du vælge **Vis** > **Temaer** > **Søg efter temaer**. Du kan finde flere oplysninger i [Power BI Desktop - Indlæse brugerdefinerede rapporttemaer](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
 ## <a name="publish-reports"></a>Udgive rapporter
 
@@ -125,7 +125,7 @@ Du kan få rapporter ud til dine kolleger og andre på flere måder:
 
 - Dele rapporter fra Power BI-tjenesten
 
-    Hvis du har en Power BI Pro-licens, kan du dele rapporten med andre direkte fra Power BI-servicen. Du kan finde flere oplysninger under [Power BI - Dele et dashboard eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+    Hvis du har en Power BI Pro-licens, kan du dele rapporten med andre direkte fra Power BI-servicen. Du kan finde flere oplysninger i [Power BI - Dele et dashboard eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -133,8 +133,8 @@ Du kan få rapporter ud til dine kolleger og andre på flere måder:
 
 [Aktivere virksomhedens data til Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  
-[Introduktion](product-get-started.md)  
-[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Blive køreklar](ui-get-ready-business.md)  
+[Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finans](finance.md)  
 [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  

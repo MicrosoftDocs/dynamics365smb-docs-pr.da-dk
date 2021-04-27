@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ec09a0b265672aae22746a9b0e233e028d50bde
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5bf683be6e6d0976464240d08e0546639a46362a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393495"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771900"
 ---
 # <a name="receive-items"></a>Modtage varer
 
@@ -28,7 +28,7 @@ Når der ankommer varer til et lagersted, der er sat op til lagermodtagelse, hen
 Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsvarende fremgangsmåde for salgsreturvareordrer og overflytningsordrer.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.
-2. Åbn en eksisterende købsordre eller opret en ny. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
+2. Åbn en eksisterende købsordre eller opret en ny. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 3. Angiv det modtagne antal i feltet **Modtag (antal)**.
 
   > [!NOTE]
@@ -118,12 +118,12 @@ Når du håndterer en overmodtagelse, kan du enten øge værdien i feltet **Modt
 
     Hvis stigningen ligger inden for den tolerance, der er angivet i overmodtagelseskoden, opdateres feltet **Overmodtagelsesantal**, så det viser det antal, der angiver, hvilken værdi i feltet **Antal**, der overskrides.
 
-    Hvis forøgelsen er større end den angivne tolerance, er overmodtagelse ikke tilladt. Hvis det er tilfældet, kan du undersøge, om der findes en anden overmodtagelseskode, der tillader det. Ellers er det kun det bestilte antal, der kan modtages, og overskydende antal skal håndteres på en anden måde, f. eks. ved at returnere den til leverandøren.
+    Hvis forøgelsen er større end den angivne tolerance, er overmodtagelse ikke tilladt. Hvis det er tilfældet, kan du undersøge, om der findes en anden overmodtagelseskode, der tillader det. Ellers er det kun det bestilte antal, der kan modtages, og overskydende antal skal håndteres på en anden måde, f.eks. ved at returnere den til leverandøren.
 
 2. Bogfør modtagelsen ligesom enhver anden modtagelse.
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] indeholder ikke funktioner til automatisk start af den økonomiske administration af overmodtagelser. Du skal håndtere dette manuelt efter aftale med leverandøren, f. eks. ved at leverandøren videresender en ny eller opdateret faktura.
+> [!INCLUDE[prod_short](includes/prod_short.md)] indeholder ikke funktioner til automatisk start af den økonomiske administration af overmodtagelser. Du skal håndtere dette manuelt efter aftale med leverandøren, f.eks. ved at leverandøren videresender en ny eller opdateret faktura.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index)
 

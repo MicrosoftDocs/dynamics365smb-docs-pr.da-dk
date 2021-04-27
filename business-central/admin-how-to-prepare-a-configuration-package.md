@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6b8e0a46375bce9ffd22b160766925bf803025f0
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f90ba5929cad841e16a6a1a719024fdf085b05be
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378194"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781282"
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
 
@@ -174,7 +174,7 @@ Når du har undersøgt og afprøvet alle konfigurationsoplysninger, kan du forts
 [Opsætning af Virksomhedskonfiguration](admin-set-up-company-configuration.md)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)  
-[Analyserer konfigurations pakkens sporingstelemetri](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  
+[Analyse af konfigurationspakkens sporingstelemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

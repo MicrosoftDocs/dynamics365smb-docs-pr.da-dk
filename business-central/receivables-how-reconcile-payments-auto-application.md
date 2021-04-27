@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 138edf1af85de2e9ac10697ea01d9003f0c3d16b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5c13e41d102e2a7ff2ca80275571a1a05eea225e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393420"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779043"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Afstemme betalinger ved hjælp af automatisk udligning
 
@@ -28,15 +28,15 @@ En betalingsudligningskladde er relateret til en bankkonto i [!INCLUDE[prod_shor
 
 Du kan indlæse banktransaktioner som. csv-bankfiler eller et andet format, som banken tilbyder. Hvis du vil indlæse bankkontoudtog, som banken sender som feeds, skal du først aktivere en dedikeret bankintegrationstjeneste og derefter knytter bankkontoen til den relaterede onlinebankkonto. Betalingsudligningskladden registrerer derefter automatisk bankfeeds, når du klikker på handlingen **Importér banktransaktioner**. Du kan desuden konfigurere en bankkonto til automatisk at indlæse nye feeds til bankkontoudtog hver time. Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt indlæses ikke. Du kan bruge Envestnet Yodlee Bank Feeds-tjenesten til dette, som er forudinstalleret i nogle landeversioner af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md). Du kan også kontakte din Microsoft-partner for at få hjælp til at opfylde virksomhedens eller landenes krav.
 
-Med handlingen **Knyt tekst til konto** kan du oprette tilknytninger mellem tekst på betalinger og specifikke debet-, kredit- og modkonti, så disse betalinger bliver bogført på de angivne konti, når du bogfører kladden til betalingsafstemning. Det er velegnet til f.eks. tilbagevendende indbetalinger eller udgifter såsom hyppige køb af benzin eller bankgebyrer og -renter, der regelmæssigt forekommer på bankens kontoudtog, og ikke behøver et relateret forretningsdokument. (Se trin 10 herunder) Du kan finde flere oplysninger under [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+Med handlingen **Knyt tekst til konto** kan du oprette tilknytninger mellem tekst på betalinger og specifikke debet-, kredit- og modkonti, så disse betalinger bliver bogført på de angivne konti, når du bogfører kladden til betalingsafstemning. Det er velegnet til f.eks. tilbagevendende indbetalinger eller udgifter såsom hyppige køb af benzin eller bankgebyrer og -renter, der regelmæssigt forekommer på bankens kontoudtog, og ikke behøver et relateret forretningsdokument. (Se trin 10 herunder) Du kan finde flere oplysninger i [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-Kladdelinjer må ikke være foreslået af programmet. Dette kan være af forskellig årsag, f. eks. et manglende dokument, eller fordi en debitor har betalt, at der findes en overskydende beløb efter anvendelsen af betalingen på en anden kladdelinje. I sådanne tilfælde kan du bruge handlingen **Overfør difference til konto** til at oprette og bogføre den manglende finanspost, f. eks. et refusion, som kræves for at udligne betalingen. (Se trin 11 herunder) Du kan finde flere oplysninger i [Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md).
+Kladdelinjer må ikke være foreslået af programmet. Dette kan være af forskellig årsag, f.eks. et manglende dokument, eller fordi en debitor har betalt, at der findes en overskydende beløb efter anvendelsen af betalingen på en anden kladdelinje. I sådanne tilfælde kan du bruge handlingen **Overfør difference til konto** til at oprette og bogføre den manglende finanspost, f.eks. et refusion, som kræves for at udligne betalingen. (Se trin 11 herunder) Du kan finde flere oplysninger i [Afstemme betalinger, der ikke kan udlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md).
 
 Du kan bruge funktionen **Udlign automatisk** enten automatisk, når du importerer en bankfil eller -feed med betalingstransaktioner, eller når du aktiverer den for at udligne betalinger til deres relaterede åbne poster, der er baseret på en afstemning af tekst på en bankkontoudtogslinje (kladdelinje) med tekst i en eller flere åbne poster. Denne automatisering er baseret på regler, som du har defineret på siden **Betalingsudligningsregler**, hvor du også kan angive, om et ansøgningsforslag kræver gennemsyn. Du kan finde flere oplysninger i [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md).
 
 På kladdelinjer, hvor betaling er udlignet automatisk til en eller flere åbne poster, har feltet **Matchtillid** en værdi mellem **Lav**, **Mellem** eller **Høj** for at angive kvaliteten af den dataafstemning, som den foreslåede betalingsudligning er baseret på.
 
-Nogle betalingsansøgninger kræver din vurdering som defineret af den anvendte sammenholdelses regel, f. eks. linjer med **Lav** matchtillid. Andre linjer kræver gennemsyn og manuel ændring, fordi der er en værdi i feltet **Difference**. Hvis du vil have vist en eller flere betalingsansøgninger, skal du vælge de **linjer, du vil gennemgå**, eller **linjer med difference** nederst. Siden **Anmeldelse af betalingsansøgning** åbnes med alle relevante oplysninger om den debitor eller kreditor, som betalingen er udlignet med, de tilsvarende detaljer og de handlinger, som linjen skal behandles i, f. eks handlingen **Accepter udligning**. (Se trin 7 og 8 nedenfor.)
+Nogle betalingsansøgninger kræver din vurdering som defineret af den anvendte sammenholdelses regel, f.eks. linjer med **Lav** matchtillid. Andre linjer kræver gennemsyn og manuel ændring, fordi der er en værdi i feltet **Difference**. Hvis du vil have vist en eller flere betalingsansøgninger, skal du vælge de **linjer, du vil gennemgå**, eller **linjer med difference** nederst. Siden **Anmeldelse af betalingsansøgning** åbnes med alle relevante oplysninger om den debitor eller kreditor, som betalingen er udlignet med, de tilsvarende detaljer og de handlinger, som linjen skal behandles i, f. eks handlingen **Accepter udligning**. (Se trin 7 og 8 nedenfor.)
 
 For hver kladdelinje på siden **Betalingsudligningskladde** kan du åbne siden **Betalingsudligning** for at få vist alle åbne kandidatposter for betalingen og se detaljerede oplysninger for hver post om den dataafstemning, som en betalingsudligning er baseret på. Her kan du manuelt udligne betalinger eller udligne betalinger igen, der er udlignet automatisk til en forkert post. (Se trin 10 herunder) Du kan finde flere oplysninger i [Gennemse eller udligne betalinger efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md).
 
@@ -67,7 +67,7 @@ For hver kladdelinje på siden **Betalingsudligningskladde** kan du åbne siden 
 
 9. Hvis du vil ændre en automatisk udligning, skal du vælge en kladdelinje og derefter handlingen **Udlign manuelt**, der skal gennemgås, eller udlign betalingen manuelt på siden **Betalingsudligning**. Du kan finde flere oplysninger i [Gennemse eller udligne betalinger efter automatisk udligning](receivables-how-review-apply-payments-auto-application.md).
 
-10. Vælg en ikke-udlignet kladdelinje for en tilbagevendende indbetaling eller en udgift, f.eks køb af benzin, og vælg derefter handlingen **Knyt tekst til konto**. Du kan finde flere oplysninger under [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+10. Vælg en ikke-udlignet kladdelinje for en tilbagevendende indbetaling eller en udgift, f.eks køb af benzin, og vælg derefter handlingen **Knyt tekst til konto**. Du kan finde flere oplysninger i [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
     Når du er færdig med at knytte betalingstekst til konti, skal du vælge handlingen **Udlign manuelt**.
 

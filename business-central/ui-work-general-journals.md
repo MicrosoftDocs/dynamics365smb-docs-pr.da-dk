@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 02/15/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c6a2c6ed0c3fe163f64a3eb7d55f8e128f53a50d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ba7ed8bba5510e4e17cc645c5dd8f935f50a7fac
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393595"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783005"
 ---
 # <a name="working-with-general-journals"></a>Arbejde med finanskladder
 
@@ -44,14 +44,14 @@ For hver kladdetype kan du angive din egen private kladde som kladdenavn. F.eks.
 > Hvis du markerer afkrydsningsfeltet **Foreslå modkontobeløb** på linjen for dit kladdenavn på siden **Finanskladdenavne**, udfyldes feltet **Beløb** på f.eks. finanskladdelinjer for samme bilagsnummer automatisk med den værdi, der er nødvendig for at afstemme dokumentet. Du kan finde flere oplysninger i [Lade [!INCLUDE[prod_short](includes/prod_short.md)] foreslå værdier](ui-let-system-suggest-values.md).
 
 > [!TIP]
-> Hvis du vil tilføje eller fjerne felter i kladder, skal du bruge **Tilpasning**-banneret. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+> Hvis du vil tilføje eller fjerne felter i kladder, skal du bruge **Tilpasning**-banneret. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>validering af Finanskladdenavne
-Du kan forhindre forsinkelser i bogføringen ved at aktivere en baggrundskontrol, der giver dig besked om, at der er en fejl i den finanskladde, som du arbejder på, som forhindrer, at du bogfører kladden. På siden **Finanskladdenavn** kan du vælge **Baggrundsfejlkontrol** for at [!INCLUDE[prod_short](includes/prod_short.md)] validerer finanskladder som f. eks. generelle eller udbetalingskladder, mens du arbejder på dem. 
+Du kan forhindre forsinkelser i bogføringen ved at aktivere en baggrundskontrol, der giver dig besked om, at der er en fejl i den finanskladde, som du arbejder på, som forhindrer, at du bogfører kladden. På siden **Finanskladdenavn** kan du vælge **Baggrundsfejlkontrol** for at [!INCLUDE[prod_short](includes/prod_short.md)] validerer finanskladder som f.eks. generelle eller udbetalingskladder, mens du arbejder på dem. 
 
 Når du aktiverer valideringen, vises faktaboksen **kladdekontrol** ud for kladdelinjerne, og derefter vises afgange på den aktuelle linje og på hele batchen. Validering sker, når du indlæser et Finanskladdenavn, og når du vælger en anden kladdelinje. Det **samlede antal problemer** i faktaboksen viser det samlede antal problemer, som [!INCLUDE[prod_short](includes/prod_short.md)] har fundet, og du kan vælge den for at åbne en oversigt over problemerne. 
 
-Du kan bruge handlingerne **Vis linjer med problemer** og **Vis alle linjer** til at skifte mellem de kladdelinjer, der har eller ikke har problemer. Faktaboksen med de nye **kladdelinjedetaljer** giver hurtig oversigt og adgang til data fra kladdelinjer, f. eks. finanskonto, debitor eller kreditor, samt Bogføringsopsætning for specifikke konti.     
+Du kan bruge handlingerne **Vis linjer med problemer** og **Vis alle linjer** til at skifte mellem de kladdelinjer, der har eller ikke har problemer. Faktaboksen med de nye **kladdelinjedetaljer** giver hurtig oversigt og adgang til data fra kladdelinjer, f.eks. finanskonto, debitor eller kreditor, samt Bogføringsopsætning for specifikke konti.     
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Tilbageføre kladder for at rette fejltagelser
 Når du arbejder med kladder med mange linjer, og noget går galt, er det vigtigt, at du har en nem måde at rette fejlene på. Siden **Bogført finanskladde** indeholder et par handlinger, der kan være en hjælp.
@@ -125,7 +125,7 @@ Hvis *gentagelsesmetoden* i gentagelseskladden er sat til **Saldo** eller **Sald
 
 Hvis du vil fordele tilbagevendende kladdebeløb baseret på dimensioner, skal du i stedet angive feltet **Gentagelsesmetode** til **Balancere efter dimension** eller **Tilbageført saldo pr. dimension**. Hvis gentagelsesmetoden i gentagelseskladden er sat til **Saldo efter dimension** eller **Tilbageført saldo pr. dimension**, bliver der ikke taget hensyn til eventuelle dimensionsværdikoder i gentagelseskladden, når kontoen nulstilles. Så hvis du allokerer en gentagelses linje til forskellige dimensionsværdier på siden **Fordelinger**, oprettes der et antal tilbageførte poster, der svarer til det antal kombinationer af dimensionsværdier, som saldoen består af. Hvis du allokerer kontosaldo via gentagelseskladden, der indeholder en dimensionsværdikode, skal du huske at bruge **Saldo efter dimension** eller **Tilbageført saldo pr. dimension** for at sikre, at dimensionsværdierne er korrekt afstemt eller tilbageført fra kildekontoen.  
 
-Din virksomhed har f. eks. nogle forretningsenheder og en hånd af afdelinger, som dine controllere har sat op som dimensioner. For at gøre købsordre processen hurtigere skal du beslutte, om du vil kræve, at kreditorassistenten kun indtaster dimensionerne for koncernvirksomheden. Da hver koncernvirksomhed har specifikke allokeringsnøgler for dimensionen afdeling, f. eks. baseret på antallet af medarbejdere, kan du bruge gentagelsesmetoderne **BD Saldo efter dimension** eller **RBD Tilbageført saldo pr. dimension** til at genfordele omkostningerne for hver koncernvirksomhed til de rigtige afdelinger på grundlag af fordelingsnøglerne.  
+Din virksomhed har f.eks. nogle forretningsenheder og en hånd af afdelinger, som dine controllere har sat op som dimensioner. For at gøre købsordre processen hurtigere skal du beslutte, om du vil kræve, at kreditorassistenten kun indtaster dimensionerne for koncernvirksomheden. Da hver koncernvirksomhed har specifikke allokeringsnøgler for dimensionen afdeling, f.eks. baseret på antallet af medarbejdere, kan du bruge gentagelsesmetoderne **BD Saldo efter dimension** eller **RBD Tilbageført saldo pr. dimension** til at genfordele omkostningerne for hver koncernvirksomhed til de rigtige afdelinger på grundlag af fordelingsnøglerne.  
 
 > [!NOTE]
 > Dimensioner, som du angiver på fordelingslinjer, beregnes ikke automatisk, og du skal angive, hvilke dimensionsværdier der skal angives på fordelingskontiene. Hvis du vil bevare tilknytningen mellem dimensionen kildekonto og allokerings kontodimensionen, anbefales det, at du bruger funktionen til [Omkostningsberegning](finance-about-cost-accounting.md) i stedet.
@@ -140,10 +140,10 @@ Når du bruger gentagelseskladder til at bogføre periodiseringer i slutningen a
 Periodiseringer bogføres som regel med faste, variable eller balancegentagede metoder på kladdelinjen. Bogføringsdatoen for det bogførte beløb på kontoen på kladdelinjen beregnes vha. gentagelsesinterval. Bogføringsdatoen for modposten beregnes ved hjælp af feltet **Tilbagefør datoberegning** følgende måde:
 
 * Hvis feltet er tomt, bogføres modposten efterfølgende dag.
-* Hvis feltet indeholder en datoformel (f. eks. **5D** for fem dage), vil modposten blive bogført med en bogføringsdato, der er beregnet vha. beregningen af annulleringsdatoen.
+* Hvis feltet indeholder en datoformel (f.eks. **5D** for fem dage), vil modposten blive bogført med en bogføringsdato, der er beregnet vha. beregningen af annulleringsdatoen.
 
 > [!NOTE]
-> Som standard er feltet **Tilbagefør datoberegning** ikke tilgængeligt på siden **Tilbagevendende finanskladder**. Hvis du vil bruge feltet, skal du tilføje det ved at tilpasse siden. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+> Som standard er feltet **Tilbagefør datoberegning** ikke tilgængeligt på siden **Tilbagevendende finanskladder**. Hvis du vil bruge feltet, skal du tilføje det ved at tilpasse siden. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ## <a name="working-with-standard-journals"></a>Arbejde med standardkladder
 Når du har oprettet kladdelinjer, som du ved, at du sandsynligvis skal oprette igen senere, kan du gemme dem som en standardkladde, inden du bogfører kladden. Denne funktion gælder for varekladder og finanskladder.

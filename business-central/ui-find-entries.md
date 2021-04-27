@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 437e0c076b664ad35d5819783e98d9e91abee982
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393970"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771157"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Finde relaterede poster for bogførte bilag 
 
-I denne artikel kan du læse, hvordan du finder dokumenter og poster, der er relateret til hinanden, på basis af fælles oplysninger, f. eks.:
+I denne artikel kan du læse, hvordan du finder dokumenter og poster, der er relateret til hinanden, på basis af fælles oplysninger, f.eks.:
 
 - Bilagsnummer eller bogføringsdato
 - Forretningskontakttype, nummer eller eksternt bilagsnummer

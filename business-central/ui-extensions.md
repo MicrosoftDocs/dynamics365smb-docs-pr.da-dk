@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493274"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771335"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Tilpasse Business Central Online ved brug af udvidelser
 
@@ -21,7 +21,7 @@ Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] online ved at insta
 > [!NOTE]
 > Hvis du vil installere udvidelser fra AppSource eller tilføje udvidelser pr. lejer, skal du have de rigtige rettigheder. Du skal enten være medlem af brugergruppen D365 EXTENSION MGT, eller du skal have rettighedssættet D365 EXTENSION MGT. Hvis du er administrator, kan du tildele brugergrupper og rettigheder til andre brugere i virksomheden.
 
-Hvis du vil bruge de funktioner, der findes i en udvidelse, f. eks. åbne sider, køre rapporter, vælge handlinger osv., skal du være tildelt de rettighedssæt, der er installeret som en del af udvidelsen.
+Hvis du vil bruge de funktioner, der findes i en udvidelse, f.eks. åbne sider, køre rapporter, vælge handlinger osv., skal du være tildelt de rettighedssæt, der er installeret som en del af udvidelsen.
 
 > [!IMPORTANT]  
 > Overførsel af udvidelser pr. lejer og installation af AppSource-udvidelser understøttes ikke via siden **Udvidelsesstyring** til lokale installationer. Du kan ikke installere AppSource-lokalnumre, herunder i Docker-baserede installationer.
@@ -31,7 +31,7 @@ Når du starter [!INCLUDE[prod_short](includes/prod_short.md)] første gang, er 
 Microsoft leverer f.eks. en udvidelse, der giver integration med PayPal Payments Standard. Denne udvidelse er installeret som standard.
 Men hvis en anden udvidelse, som tilbyder integration med en anden betalingstjeneste, stilles til rådighed, kan du installere nye udvidelse og derefter vælge, hvilken af to de tjenester du vil bruge.  
 
-Du kan administrere udvidelserne på siden **Udvidelsesstyring**. Du kan åbne siden fra Start. Du kan også vælge ikonet **Søg efter side eller rapport** ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), skrive **Udvidelse** i øverste højre hjørne og derefter vælge det relaterede kæde. Du kan finde flere oplysninger under [Installere og fjerne udvidelser](ui-extensions-install-uninstall.md).
+Du kan administrere udvidelserne på siden **Udvidelsesstyring**. Du kan åbne siden fra Start. Du kan også vælge ikonet **Søg efter side eller rapport** ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), skrive **Udvidelse** i øverste højre hjørne og derefter vælge det relaterede kæde. Du kan finde flere oplysninger i [Installere og fjerne udvidelser](ui-extensions-install-uninstall.md).
 
 > [!NOTE]  
 > Hvis du mener, at du skal have adgang til en udvidelse, men ikke kan finde de relevante funktioner, skal du vælge siden **Udvidelsesstyring** – hvis filtypen ikke er angivet der, kan du installere den som beskrevet i følgende afsnit.  
@@ -79,6 +79,27 @@ Microsoft tilbyder følgende udvidelser:
 > [!NOTE]  
 > Du kan holde øje med nye udvidelser fra Microsoft og andre leverandører på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Udvidelser og dataoverførsel
+
+Da følgende udvidelser kommunikerer med andre tjenester, kan de overføre data uden for [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet:
+
+* Udvidelsen AMC Banking 365 Fundamentals
+* Billedanalyse
+* Forudsigelse af forsinket betaling
+* PayPal Payments Standard
+* Salgs- og lagerprognose
+* WorldPay Payments Standard
+
+Dette gælder også nogle funktioner i basisprogrammet, f.eks. følgende funktioner:
+
+* Pengestrømsprognose
+* Dokumentudvekslingstjeneste
+* Dataverse-forbindelser
+* OCR-tjeneste
+* Online Map
+* EU-momsregistreringsnr. Tjeneste
+
 ## <a name="see-also"></a>Se også
 
 [Tilpasse Business Central](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft tilbyder følgende udvidelser:
 [Overførsel af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfiguration af den britiske GetAddress.io-postnummerudvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-udvidelser fra andre leverandører](ui-extensions-other.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

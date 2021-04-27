@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384320"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774682"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
-Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
+Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger i [Udveksle data elektronisk](across-data-exchange.md).  
 
 Som forberedelse til oprettelse af en dataudvekslingsdefinition for en datafil eller -stream, kan du bruge det relaterede XML-skema til at definere, hvilke dataelementer der skal indgå, i oversigtspanelet **Kolonnedefinitioner**. Se trin 6 i [Sådan beskrives formateringen af linjer og kolonner i filen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Du kan finde flere oplysninger i [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
@@ -95,8 +95,8 @@ Dette beskrives i følgende fremgangsmåder.
     |**Kolonnenr.**|Angiv det nummer, der afspejler kolonnens placering på linjen i filen.<br /><br /> For XML-filer, skal du angive det tal, der afspejler elementtypen i den fil, der indeholder dataene.|  
     |**Navn**|Angiv navnet på kolonnen.<br /><br /> For XML-filer skal du angive koden, der markerer de data, der skal udveksles.|  
     |**Datatype**|Angiv, om data, der skal udveksles, er af typen **Tekst**, **Dato** eller **Decimal**.|  
-    |**Dataformat**|Angiv dataformatet, hvis relevant. Det kan f.eks. være **MM-dd-åååå**, hvis datatypen er **Dato**. **Bemærk:** Hvis du vil eksportere, skal du angive dataformatet i overensstemmelse med [!INCLUDE[prod_short](includes/prod_short.md)]. I forbindelse med import skal du angive dataformatet i overensstemmelse med .NET Framework. Du kan finde flere oplysninger i [Standarddato- og tidsformatstrenge](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Dataformatering**|Angiv dataformatets kultur, hvis relevant. Det kan f.eks. være **en-US**, hvis datatypen er **Decimal**, så du sikrer, at komma bruges som .000-separator i henhold til det amerikanske format. Du kan finde flere oplysninger i [Standarddato- og tidsformatstrenge](https://go.microsoft.com/fwlink/?LinkID=323466). **Bemærk:** Dette felt er kun relevant for import.|  
+    |**Dataformat**|Angiv dataformatet, hvis relevant. Det kan f.eks. være **MM-dd-åååå**, hvis datatypen er **Dato**. **Bemærk:** Hvis du vil eksportere, skal du angive dataformatet i overensstemmelse med [!INCLUDE[prod_short](includes/prod_short.md)]. I forbindelse med import skal du angive dataformatet i overensstemmelse med .NET Framework. Du kan finde flere oplysninger i [Standarddato- og tidsformatstrenge](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
+    |**Dataformatering**|Angiv dataformatets kultur, hvis relevant. Det kan f.eks. være **en-US**, hvis datatypen er **Decimal**, så du sikrer, at komma bruges som .000-separator i henhold til det amerikanske format. Du kan finde flere oplysninger i [Standarddato- og tidsformatstrenge](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Bemærk:** Dette felt er kun relevant for import.|  
     |**Længde**|Angiv længden af fast bredde for linjen, der indeholder kolonnen, hvis datafilen er af typen **Fast tekst**.|  
     |**Beskrivelse**|Angiv en beskrivelse af kolonnen, hvis du ønsker flere oplsyninger.|  
     |**Sti**|Angiv placeringen af elementet i det tilknyttede XML-skema.|  
@@ -112,7 +112,7 @@ Dette beskrives i følgende fremgangsmåder.
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-prod_short"></a>Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]  
 > [!TIP]
-> Nogle gange er værdierne i de felter, du vil tilknytte, forskellige. For eksempel er sprogkoden for USA i én forretningsapp "U.S.", mens den i den anden er "US". Det betyder, at du skal transformere værdien, når du udveksler data. Dette sker gennem transformationsregler, som du definerer for felterne. Du kan finde flere oplysninger under [Transformationsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+> Nogle gange er værdierne i de felter, du vil tilknytte, forskellige. For eksempel er sprogkoden for USA i én forretningsapp "U.S.", mens den i den anden er "US". Det betyder, at du skal transformere værdien, når du udveksler data. Dette sker gennem transformationsregler, som du definerer for felterne. Du kan finde flere oplysninger i [Transformationsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
 1. Brug oversigtspanelet **Linjedefinitioner** til at vælge den linje, du vil knytte kolonner til felter for, og vælg derefter **Feltkobling**. Siden **Dataudvekslingskobling** åbnes.  
 2. På oversigtspanelet **Generelt** skal du angive tilknytningsopsætningen ved at udfylde felterne som beskrevet i følgende tabel.  
@@ -120,7 +120,7 @@ Dette beskrives i følgende fremgangsmåder.
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Tabel-id**|Angiv den tabel, der indeholder felterne, til eller fra hvilke data udveksles i henhold til tilknytningen.|  
-    |**Brug som midlertidig tabel**|Angiv, om den tabel, du vælger i feltet **Tabel-id**, er en midlertidig tabel, hvor de importerede data gemmes, før de knyttes til måltabellen.<br /><br /> Du kan bruge en midlertidige tabel, når dataudvekslingsdefinitionen bruges til at importere og konvertere elektroniske dokumenter, f.eks kreditorfakturaer til købsfakturaer i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).|  
+    |**Brug som midlertidig tabel**|Angiv, om den tabel, du vælger i feltet **Tabel-id**, er en midlertidig tabel, hvor de importerede data gemmes, før de knyttes til måltabellen.<br /><br /> Du kan bruge en midlertidige tabel, når dataudvekslingsdefinitionen bruges til at importere og konvertere elektroniske dokumenter, f.eks kreditorfakturaer til købsfakturaer i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Udveksle data elektronisk](across-data-exchange.md).|  
     |**Navn**|Angiv et navn for tilknytningsopsætningen.|  
     |**Codeunit til førtilknytning**|Angiv den kodeenhed, der klargør tilknytningen mellem felter i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data.|  
     |**Koblings-codeunit**|Angiv den kodeenhed, der bruges til at knytte de angivne kolonner eller XML-dataelementer til felter i [!INCLUDE[prod_short](includes/prod_short.md)].|  

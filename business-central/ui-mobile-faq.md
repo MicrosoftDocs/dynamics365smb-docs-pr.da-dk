@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b00eb417f2e51d87a58885a50e1262150837d93
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f92fdec0329286750fd844fc18ed79c7f7c642d5
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385445"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771056"
 ---
 # <a name="mobile-apps-faq"></a>Ofte stillede spørgsmål til mobilapp
 
@@ -61,7 +61,7 @@ Næsten, men ikke helt rigtigt. Se listen i sektionen [Er den samme visning af a
 
 ## <a name="can-i-connect-the-app-to-our-on-premises-solution"></a>Kan jeg tilslutte appen til vores on-premises-løsning?
 
-Ja, det kan du. Det er en lidt anderledes måde at logge på. Du kan finde flere oplysninger under [Tilpasning af Business Central i det lokale miljø](install-mobile-app.md#using-business-central-on-premises).  
+Ja, det kan du. Det er en lidt anderledes måde at logge på. Du kan finde flere oplysninger i [Tilpasning af Business Central i det lokale miljø](install-mobile-app.md#using-business-central-on-premises).  
 
 ## <a name="see-also"></a>Se også
 
