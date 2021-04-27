@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a34e79b1cc77844ce712a6a6df294b2f3218f363
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6330aeb05bf2f0ba84585c0cd8391b7cf3338de4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378744"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786853"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Opsig eller slet [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -33,7 +33,7 @@ Hvis du har tilmeldt dig [!INCLUDE[prod_short](includes/prod_short.md)] ved hjæ
 
 Hvis din virksomhed abonnerer på [!INCLUDE[prod_short](includes/prod_short.md)], men du som bruger ikke længere har brug for adgang, skal du bede administratoren eller din Dynamics 365-videresalgspartner om at fjerne [!INCLUDE[prod_short](includes/prod_short.md)] -licensen fra din Microsoft 365-brugerkonto. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] fjernes fra din brugerkonto, og andre i virksomheden fortsætter abonnementet, har dine kollegaer stadig adgang til dine delte data i [!INCLUDE[prod_short](includes/prod_short.md)]-virksomheden.  
 
-Hvis din virksomhed ønsker at opsige abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)], kan Dynamics 365-videresalgspartneren fjerne det betalte abonnement fra virksomhedskontoen. Du kan finde flere oplysninger under [Administration af Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i indholdet til udviklere og it-eksperter.  
+Hvis din virksomhed ønsker at opsige abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)], kan Dynamics 365-videresalgspartneren fjerne det betalte abonnement fra virksomhedskontoen. Du kan finde flere oplysninger i [Administration af Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i indholdet til udviklere og it-eksperter.  
 
 Brugerkonti og licenser administreres i [Microsoft 365 Administration](https://admin.microsoft.com/). Kun administratorer kan fjerne [!INCLUDE[prod_short](includes/prod_short.md)]-licenser fra brugerkonti eller fjerne abonnementet fra din virksomheds konto.  
 
@@ -41,7 +41,7 @@ Brugerkonti og licenser administreres i [Microsoft 365 Administration](https://a
 Hvis du vil skjule [!INCLUDE[prod_short](includes/prod_short.md)] fra din appstarter, kan du helt enkelt frigøre den. Der fjernes ingen data, og abonnementet annulleres ikke.  
 
 ## <a name="see-also"></a>Se også
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Oprettelse af nye virksomheder](about-new-company.md)  
 [Eksportere forretningsdata til Excel](about-export-data.md)  
 [Microsoft 365 Administration](https://admin.microsoft.com/)  

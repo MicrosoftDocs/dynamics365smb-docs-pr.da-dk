@@ -1,5 +1,5 @@
 ---
-title: Konfigurere mail i Business Central | Microsoft Docs
+title: Konfigurere mail i Business Central
 description: Beskriver, hvordan e-mail-konti sluttes til Business Central, så du kan sende udgående meddelelser uden at skulle åbne en anden app.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.date: 06/15/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470433"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889148"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
-Personer i virksomheder sender oplysninger og dokumenter, f. eks. salgs-og købsordrer og fakturaer, pr. e-mail hver dag. Administratorer kan gøre det nemmere at gøre ved at oprette forbindelse mellem en eller flere e-mail-konti [!INCLUDE[prod_short](includes/prod_short.md)], så du kan sende dokumenter uden at skulle åbne en e-mail-app. Du kan skrive hver enkelt meddelelse individuelt med grundlæggende formateringsværktøjer, f. eks. skrifttyper, typografier, farver osv., og føje vedhæftede filer til op til 100 MB. Administratorer kan også konfigurere rapportlayout, der kun indeholder nøgleoplysninger fra dokumenter. Du kan finde flere oplysninger under [Sende dokumenter via mail](ui-how-send-documents-email.md).
+Personer i virksomheder sender oplysninger og dokumenter, f.eks. salgs-og købsordrer og fakturaer, pr. e-mail hver dag. Administratorer kan gøre det nemmere at gøre ved at oprette forbindelse mellem en eller flere e-mail-konti [!INCLUDE[prod_short](includes/prod_short.md)], så du kan sende dokumenter uden at skulle åbne en e-mail-app. Du kan skrive hver enkelt meddelelse individuelt med grundlæggende formateringsværktøjer, f.eks. skrifttyper, typografier, farver osv., og føje vedhæftede filer til op til 100 MB. Administratorer kan også konfigurere rapportlayout, der kun indeholder nøgleoplysninger fra dokumenter. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
 
 E-mail-funktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] er kun til udgående meddelelser. Du kan ikke modtage svar, dvs. der er ingen indbakke side i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -29,20 +29,20 @@ E-mail-funktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] er kun til 
 Hvis du vil konfigurere mail, skal du have tilladelsen **EMAIL-OPSÆTNING** indstillet. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md). 
 
 ## <a name="adding-email-accounts"></a>Tilføje e-mailkonti
-Du kan tilføje e-mailkonti via udvidelser, der gør det muligt at oprette konti fra forskellige providere [!INCLUDE[prod_short](includes/prod_short.md)]. Standard udvidelserne bruges til at bruge konti fra Microsoft Exchange Online tilstand, men andre udvidelser kan være tilgængelige, så du kan oprette forbindelse mellem konti fra andre leverandører, f. eks. gmail.
+Du kan tilføje e-mailkonti via udvidelser, der gør det muligt at oprette konti fra forskellige providere [!INCLUDE[prod_short](includes/prod_short.md)]. Standard udvidelserne bruges til at bruge konti fra Microsoft Exchange Online tilstand, men andre udvidelser kan være tilgængelige, så du kan oprette forbindelse mellem konti fra andre leverandører, f.eks. gmail.
 
-Når du har tilføjet en e-mailkonto, kan du angive foruddefinerede forretningsscenarier, hvor du kan bruge kontoen til at sende mails. Du kan f. eks. angive, at alle brugere skal sende salgsdokumenter fra én konto til købsdokumenter fra en anden konto. Du kan finde flere oplysninger i [Tildele e-mailscenarier til e-mailkonti](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
+Når du har tilføjet en e-mailkonto, kan du angive foruddefinerede forretningsscenarier, hvor du kan bruge kontoen til at sende mails. Du kan f.eks. angive, at alle brugere skal sende salgsdokumenter fra én konto til købsdokumenter fra en anden konto. Du kan finde flere oplysninger i [Tildele e-mailscenarier til e-mailkonti](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
 I følgende tabel beskrives de e-mail-udvidelser, der som standard er tilgængelige.
 
 |Udvidelse  |Description  |Eksempler på, hvornår du skal bruge  |
 |---------|---------|---------|
-|**Microsoft 365**|Alle sender mails fra en delt postkasse i Exchange Online.|Når alle meddelelser kommer fra samme afdeling, sender salgsorganisationen f. eks. meddelelser fra en sales@cronus.com konto. Dette kræver, at du opretter en delt postkasse i Office 365-administrationscenter. Du kan finde flere oplysninger i [Delte postkasser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365**|Alle sender mails fra en delt postkasse i Exchange Online.|Når alle meddelelser kommer fra samme afdeling, sender salgsorganisationen f.eks. meddelelser fra en sales@cronus.com konto. Dette kræver, at du opretter en delt postkasse i Microsoft 365 Administration. Du kan finde flere oplysninger i [Delte postkasser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |**Aktuel bruger**|Alle sender mail fra den konto, som de bruges til at logge på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillad kommunikation fra individuelle konti.|
 |**Andet (SMTP)**|Brug SMTP-protokollen til at sende mails.|Tillad kommunikation via din SMTP-mailserver. |
 
 > [!NOTE]
-> **Microsoft 365** og de **Aktuelle bruger**-udvidelser bruger de konti, du har oprettet til brugere i Microsoft 365 Administration Center til dit Office 365-abonnement. Hvis du vil sende e-mail ved hjælp af udvidelser, skal brugere have en gyldig licens til Exchange Online. 
+> Udvidelserne **Microsoft 365** og **Aktuelle bruger** bruger de konti, du har oprettet til brugere i Microsoft 365 Administration til dit Microsoft 365-abonnement. Hvis du vil sende e-mail ved hjælp af udvidelser, skal brugere have en gyldig licens til Exchange Online. 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
@@ -51,6 +51,9 @@ Hvis du allerede bruger [!INCLUDE[prod_short](includes/prod_short.md)] og har ko
 
 > [!NOTE]
 > Hvis du har tilpasninger, som er afhængige af den ældre konfiguration af SMTP-mail, er der risiko for, at noget går galt med dine tilpasninger, hvis du begynder at bruge e-mail-udvidelser. Det anbefales, at du opsætter og tester udvidelserne, før du aktiverer funktions parameteren til forbedrede e-mail-funktioner.
+
+> [!IMPORTANT]
+> Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] Online, kan du ikke bruge OAuth 2.0-godkendelsesmetoden.<br> Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, kan du bruge OAuth 2.0 til godkendelse, men du skal oprette en programregistrering i Azure-portalen og derefter køre den assisterede opsætningsvejledning **Opsæt Azure Active Directory** i [!INCLUDE[prod_short](includes/prod_short.md)] for at oprette forbindelse til Azure AD. Du kan finde flere oplysninger i [Oprette en appregistrering til Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Tilføj e-mailkonti
 **Installationsvejledningen til opsætning af e-mail**-support kan hjælpe dig med at komme hurtigt i gang med e-mails.
@@ -61,13 +64,14 @@ Hvis du allerede bruger [!INCLUDE[prod_short](includes/prod_short.md)] og har ko
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurer e-mailkonti**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
+
 <!--
 > [!NOTE]
-> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Tildel e-mailscenarier til e-mailkonti
-E-mail-scenarier er processer, der involverer afsendelse af et dokument, f. eks. en salgs-eller købsordre, eller en notifikation, f. eks. en invitation til en ekstern bogholder. Du kan bruge bestemte e-mail-konti til bestemte scenarier. Du kan f. eks. angive, at alle brugere altid skal sende salgsdokumenter fra én konto, købsdokumenter fra en anden konto, et lagersted eller et produktions dokument fra en tredje konto. Du kan tildele, gentildele og fjerne scenarier, når du vil, men du kan kun knytte et scenario til én e-mail-konto ad gangen. Standardmailkontoen bruges til alle e-mail-scenarier, der ikke er tildelt til en konto.
+E-mail-scenarier er processer, der involverer afsendelse af et dokument, f.eks. en salgs-eller købsordre, eller en notifikation, f.eks. en invitation til en ekstern bogholder. Du kan bruge bestemte e-mail-konti til bestemte scenarier. Du kan f.eks. angive, at alle brugere altid skal sende salgsdokumenter fra én konto, købsdokumenter fra en anden konto, et lagersted eller et produktions dokument fra en tredje konto. Du kan tildele, gentildele og fjerne scenarier, når du vil, men du kan kun knytte et scenario til én e-mail-konto ad gangen. Standardmailkontoen bruges til alle e-mail-scenarier, der ikke er tildelt til en konto.
  
 <!--
 ## To set up email
@@ -89,10 +93,10 @@ Du kan bruge rapporter til at medtage nøgleoplysninger fra salgs-og købsdokume
 2. På siden **Rapportvalg - salg** skal du vælge **faktura** i feltet **Forbrug**.
 3. På en ny linje i feltet **Rapport-ID** skal du vælge f.eks. standardrapport 1306.
 4. Markér afkrydsningsfeltet **Brug til brødtekst i mail**.
-5. Vælg feltet **Layoutkode for brødtekst i mail**, og vælg derefter et layoutformat på rullelisten.
+5. Vælg feltet **Layoutbeskrivelse for brødtekst i mail**, og vælg derefter et layout på rullelisten.
 
-    Rapportlayout angiver formatet og indholdet af brødteksten i mailen, herunder tekst, som indeholder en hilsen eller instruktion forud for dokumentoplysninger. Du kan se alle tilgængelige rapportlayout, hvis du vælger knappen **Vælg fra komplet liste**.
-6. For at få vist eller redigere layoutet, som teksten i mailen er baseret på, skal du vælge layoutet på siden **Rediger Layout** og derefter vælge handlingen **Tilpassede rapportlayouts**.
+    Rapportlayout angiver formatet og indholdet af brødteksten i mailen, herunder tekst, som indeholder en hilsen eller instruktion forud for dokumentoplysninger. Hvis din organisation har mange layout, kan du se alle tilgængelige rapportlayout, hvis du vælger knappen **Vælg fra komplet liste**.
+6. For at få vist eller redigere layoutet, som teksten i mailen er baseret på, skal du vælge layoutet på siden **Brugerdefinerede rapportlayouts** og derefter vælge handlingen **Opdater layouts**.
 7. Hvis du vil tilbyde kunderne at betale for salg elektronisk, kan du konfigurere den relaterede betalingstjeneste, f.eks PayPal, og derefter kan du også automatisk få PayPal oplysninger og hyperlink indsat i selve mailen. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via PayPal](sales-how-enable-payment-service-extensions.md).
 8. Vælg knappen **OK**.
 
@@ -114,7 +118,7 @@ Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INC
 2. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **SMTP-mailopsætning** og dernæst vælge det relaterede link.
 3. Angiv erstatningsadressen i feltet **Send som**.
 4. Kopiér eller notér adressen i feltet **bruger-id**.
-5. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter**, og angiv derefter adressen fra feltet **bruger-id** i feltet **Send som**. Du kan finde flere oplysninger under [Brug af EAC til at tildele tilladelser til individuelle postkasser](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter**, og angiv derefter adressen fra feltet **bruger-id** i feltet **Send som**. Du kan finde flere oplysninger i [Brug af EAC til at tildele tilladelser til individuelle postkasser](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Sådan bruges erstatningsadressen i godkendelsesarbejdsgange
 1. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **SMTP-mailopsætning** og dernæst vælge det relaterede link.
@@ -128,19 +132,19 @@ Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INC
 > [!INCLUDE[prod_short](includes/prod_short.md)] bestemmer, hvilken adresse der skal vises i følgende rækkefølge: <br><br> 1. Den adresse, der er angivet i feltet **Mail** på siden **Brugeropsætning af godkendelser** for meddelelser i en arbejdsgang. <br> 2. Den adresse, der er angivet i feltet **Send som** på siden **SMTP-mailopsætning**. <br> 3. Den adresse, der er angivet i feltet **Bruger-id** på siden **SMTP-mailopsætning**.
 
 ## <a name="set-up-document-sending-profiles"></a>Konfigurere dokumentafsendelsesprofiler
-Du kan oprette en foretrukken metode til afsendelse af salgsdokumenter for hver af dine kunder, så du ikke behøver at vælge en afsender indstilling, som f. eks. om der skal sendes et dokument via e-mail eller som et elektronisk dokument, hver gang du sender et dokument. Du kan finde flere oplysninger under [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
+Du kan oprette en foretrukken metode til afsendelse af salgsdokumenter for hver af dine kunder, så du ikke behøver at vælge en afsender indstilling, som f.eks. om der skal sendes et dokument via e-mail eller som et elektronisk dokument, hver gang du sender et dokument. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
 
 ## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Konfigurere offentlige mapper og regler maillogføring i Exchange Online
-Få mere ud af kommunikationen mellem sælgerne og dine eksisterende eller potentielle kunder ved at spore udveksling af mails og derefter ændre dem til handlingsrettede leads. Du kan finde flere oplysninger under [Spore udveksling af mails mellem sælgere og kontakter](marketing-set-up-email-logging.md).  
+Få mere ud af kommunikationen mellem sælgerne og dine eksisterende eller potentielle kunder ved at spore udveksling af mails og derefter ændre dem til handlingsrettede leads. Du kan finde flere oplysninger i [Spore udveksling af mails mellem sælgere og kontakter](marketing-set-up-email-logging.md).  
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
-Derefter opretter du forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online. Du kan finde flere oplysninger under [Spore udveksling af mails mellem sælgere og kontakter](marketing-set-up-email-logging.md).  
+Derefter opretter du forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online. Du kan finde flere oplysninger i [Spore udveksling af mails mellem sælgere og kontakter](marketing-set-up-email-logging.md).  
 
 ## <a name="setting-up-email-for-business-central-on-premises"></a>Opsætte E-mail til Business Central lokalt 
-[!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan integreres med tjenester, der er baseret på Microsoft Azure. Du kan f. eks. bruge Cortana Intelligence til mere intelligente pengestrømme for at Power BI visualiserer din virksomhed og at Exchange Online sender e-mail. Integrationen med disse tjenester er baseret på en app-registrering i Azure Active Directory. App-registreringen leverer godkendelses-og autorisations tjenester til kommunikation. Hvis du vil bruge e-mail-funktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] lokal adresse, skal du registrerer [!INCLUDE[prod_short](includes/prod_short.md)] som en app i Azure-portalen og derefter oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] App-registreringen. Følgende afsnit beskriver, hvordan.
+[!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan integreres med tjenester, der er baseret på Microsoft Azure. Du kan f.eks. bruge Cortana Intelligence til mere intelligente pengestrømme for at Power BI visualiserer din virksomhed og at Exchange Online sender e-mail. Integrationen med disse tjenester er baseret på en app-registrering i Azure Active Directory. App-registreringen leverer godkendelses-og autorisations tjenester til kommunikation. Hvis du vil bruge e-mail-funktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] lokal adresse, skal du registrerer [!INCLUDE[prod_short](includes/prod_short.md)] som en app i Azure-portalen og derefter oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] App-registreringen. Følgende afsnit beskriver, hvordan.
 
-### <a name="create-an-app-registration-for-prod_short-in-azure-portal"></a>Opret en app-registrering til [!INCLUDE[prod_short](includes/prod_short.md)] i Azure-portalen
+### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Oprette en appregistrering til Business Central i Azure Portal
 De trin, der skal registreres [!INCLUDE[prod_short](includes/prod_short.md)] i Azure-portalen, er beskrevet i [Registrer et program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). De indstillinger, der er specifikke for e-mailegenskaberne, er de delegerede rettigheder, som du tildeler din app-registrering. I følgende tabel vises minimum tilladelserne.
 
 |Navn på API / tilladelse  |Type  |Description  |
@@ -148,16 +152,28 @@ De trin, der skal registreres [!INCLUDE[prod_short](includes/prod_short.md)] i A
 |Microsoft Graph/User. Read |Delegeret|Log på, og Læs brugerprofil.         |
 |Microsoft Graph/mail. skrivebeskyttet |Delegeret|Opret mailmeddelelser.         |
 |Microsoft Graph/mail.Send|Delegeret|Send mail         |
-|Microsoft Graph/offline_access|Delegeret|Vedligehold dataadgangssamtykke. <!--need to verify this-->|
+|Microsoft Graph/offline_access|Delegeret|Vedligehold dataadgangssamtykke.|
 
-> [!TIP]
-> Når du opretter app-registreringen i , skal du angive følgende. Du skal bruge den for at oprette forbindelse [!INCLUDE[prod_short](includes/prod_short.md)] til din app-registrering.
-> 
-> * Program-ID (klient) 
-> * Omdirigerings-URI (valgfri)
-> * Klienthemmelighed
+Hvis du bruger en ældre SMTP-opsætning eller SMTP-forbindelsen og vil bruge OAuth til godkendelse, er tilladelserne lidt anderledes. Følgende tabel viser tilladelserne.
+
+|Navn på API / tilladelse  |Type  |Description  |
+|---------|---------|---------|
+|Microsoft Graph/offline_access|Delegeret|Vedligehold dataadgangssamtykke.|
+|Microsoft Graph/openid|Delegeret|Log brugere på.|
+|Microsoft Graph/User. Read |Delegeret|Log på, og Læs brugerprofil.         |
+|Microsoft Graph/SMTP.Send|Delegeret|Send mails fra postkasser ved hjælp af SMTP-godkendelse.         |
+|Office 365 Exchange Online/User.Read |Delegeret|Log på, og læs brugerprofil.         |
+
+Når du opretter app-registreringen i , skal du angive følgende. Du skal bruge den for at oprette forbindelse [!INCLUDE[prod_short](includes/prod_short.md)] til din app-registrering.
+ 
+* Program-ID (klient) 
+* Omdirigerings-URI (valgfri)
+* Klienthemmelighed
 
 Du kan finde flere oplysninger om registrering af en app i [Hurtig start: registrere et program på Microsoft-identitetsplatformen](/azure/active-directory/develop/quickstart-register-app). 
+
+> [!NOTE]
+Hvis du har problemer med at bruge den ældre SMTP-opsætning til at sende mail, efter at du har forbundet [!INCLUDE[prod_short](includes/prod_short.md)] med din app-registrering, kan det skyldes, at SMTP-godkendelse ikke er aktiveret for din lejer. Det anbefales, at du i stedet bruger mailforbindelser for Microsoft 365 og Aktuel bruger, fordi de bruger mail-API'er for Microsoft Graph. Hvis du skal bruge SMTP-opsætningen, kan du dog aktivere SMTP-godkendelse. Du kan finde oplysninger i [Aktivere eller deaktivere godkendt SMTP-afsendelse for klient (SMTP-godkendelse) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Forbinde [!INCLUDE[prod_short](includes/prod_short.md)] med din appregistrering
 Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge **e-mail-programmets AAD-registrering** vejledning til registrering, der kan oprette forbindelse [!INCLUDE[prod_short](includes/prod_short.md)] til den.
@@ -199,6 +215,7 @@ Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](incl
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[prod_short](includes/prod_short.md)] på min mobilenhed](install-mobile-app.md)
-
+[Få [!INCLUDE[prod_short](includes/prod_short.md)] på min mobilenhed](install-mobile-app.md)
+[Analysere mailtelemetri (administrationsindhold)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,31 +1,32 @@
 ---
-title: Optæl varelager med dokumentbaserede funktioner
-description: Beskriver, hvordan du udfører optælling af varelager ved hjælp af siderne ordreopgørelse og lagerbeholdningsregistrering.
+title: Tælle og justere lageropgørelse
+description: Beskriver, hvordan du udfører optælling af den fysiske lagerbeholdning ved hjælp af siderne Fysiske lageropgørelsesordrer og Registrering af fysiske lageropgørelser og foretager negative eller justeringer af lageropgørelsesdokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be22209240f3bff70619a31f60cb0acac7e51228
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393169"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785944"
 ---
-# <a name="count-inventory-using-documents"></a>Varelageroptælling ved hjælp af dokumenter
+# <a name="count-and-adjust-inventory-using-documents"></a>Tælle og justere lageropgørelse ved hjælp af dokumenter
 
-Du kan udføre en status over dine varer på varelager ved hjælp af varelagerdokumenter og varelageroptællingsdokumenter. Siden **Varelageropgørelse** benyttes til at organisere det fulde varelageroptællingsprojekt, for eksempel en pr. lokation. Siden **Registrering af varelager** benyttes til at kommunikere og registrere den faktiske optælling af varerne. Du kan oprette flere registreringer på en ordre, f.eks. til at distribuere varegrupper til forskellige medarbejdere.
+Du kan udføre en status over dine varer på varelager ved hjælp af varelagerdokumenter og varelageroptællingsdokumenter. Siden **Varelageropgørelse** benyttes til at organisere det fulde varelageroptællingsprojekt, for eksempel en pr. lokation. Siden **Registrering af fysisk lageropgørelse** benyttes til at kommunikere og registrere den faktiske optælling af varer. Du kan oprette flere registreringer på en ordre, f.eks. til at distribuere varegrupper til forskellige medarbejdere.
 
 Rapporten **Registrering af varelager** kan udskrives fra hver registrering og indeholder tomme felter til at indtaste optalt varelager. Når en bruger er færdig med optællingen, og beholdningen er indtastet på siden **Registrering af varelager**, vælger du handlingen **Afslut**. Dette overfører beholdningen til de relaterede linjer på siden **Varelager**. Funktionaliteten sikrer, at antallet af elementer ikke kan registreres to gange.  
 
 > [!NOTE]
-> Denne procedure beskriver, hvordan du foretager en varelageropgørelse ved hjælp af dokumenter, en metode, der giver mere kontrol og understøtter distribution af optælling til flere medarbejdere. Du kan også udføre opgaven ved hjælp af kladder, siderne **Varelageropgørelseskladder** og **Varelagerkladder for lagerbygning**. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Bemærk, at hvis du bruger funktionen Placeringer eller Zoner, kan du ikke benytte varelageropgørelser. Benyt i stedet siden **Varelageropgørelseskladde for varelager** for at optælle dine varelagerenheder, før du synkroniserer dem med vareenheder i regnskabet.
+> Brug af dokumenter til at udføre en fysisk lageropgørelse giver mere kontrol og understøtter distribution af optælling til flere medarbejdere. Du kan også udføre opgaven ved hjælp af kladder, siderne **Varelageropgørelseskladder** og **Varelagerkladder for lagerbygning**. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md). Denne artikel beskriver, hvordan du udfører en fysisk lageropgørelse ved hjælp af dokumenter.
+>
+> Hvis du bruger zoner, kan du ikke bruge fysiske lageropgørelsesordrer. Benyt i stedet siden **Varelageropgørelseskladde for varelager** for at optælle dine varelagerenheder, før du synkroniserer dem med vareposter.
 
 Optælling af varelager ved hjælp af dokumenter består af følgende overordnede trin:
 
@@ -77,7 +78,6 @@ I tilfælde af manuel optælling kan du printe en liste, rapporten: **Lageroptæ
 9. Vælg handlingen **Print** for at forberede det fysiske dokument, som medarbejdere skal benytte til at skrive antal optalte varer ned på.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Sådan afsluttes en varelageroptælling.
-
 Når medarbejderne har optalt varelagerbeholdningerne, skal du klargøre dem til registrering i systemet.
 
 1. Vælg lageroptællingen, som du vil afslutte fra siden **Varelageroptælling**, og vælg så handlingen **Rediger**.
@@ -185,8 +185,52 @@ En lot-sporet vare er angivet i varelagerbeholdningen med "LOT"-nummerserier.
 
 På siden **Varelageropgørelse** indeholder feltet **Negativ beholdning (basis)** *8*. Siden **Varesporingsliste for lageropgørelse** indeholder den positive eller negative beholdning for de individuelle lotnumre for den pågældende ordrelinje.
 
-## <a name="see-also"></a>Se også
+## <a name="inventory-documents"></a>Lageropgørelsesdokumenter
+Følgende dokumenttyper er nyttige til administration af lagerstedet:
 
+- Brug **Lagermodtagelser** til at registrere positive reguleringer af varer baseret på kvalitet, antal og kostpris.
+- Brug **Lagerleverancer** til at afskrive manglende eller beskadigede varer.
+
+Du kan udskrive disse dokumenter på ethvert trin, frigive og åbne dem igen og tildele fælles værdier, herunder dimensioner, i hovedet. Hvis du vil udskrive dokumenterne igen, efter de er blevet bogført, kan du gøre det på siderne **Bogført lagermodtagelse** og **Bogført lagerleverance**.
+
+> [!NOTE]
+> Før du kan bruge disse dokumenter, skal du angive en nummerserie for at oprette deres id'er. Der er flere oplysninger i næste sektion.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Sådan oprettes nummerering for lagerdokumenter
+Følgende procedure viser, hvordan du konfigurerer nummerering for lageropgørelsesdokumenter.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropsætning**, og vælg derefter det tilknyttede link.
+2. I oversigtspanelet **Nummerering** skal du angive nummerserier for dokumenter i følgende felter:
+   - **Lagermodtagelsesnumre**  
+   - **Bogførte lagermodtagelsesnumre**  
+   - **Lagerleverancenumre**  
+   - **Bogførte lagerleverancenumre**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Sådan oprettes og bogføres et lagerdokument
+Følgende fremgangsmåde viser, hvordan du kan oprette, udskrive og bogføre en lagertilgang. Fremgangsmåden er den samme som for lagerleverancer.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelser**, og vælg derefter det tilknyttede link.  
+2. Vælg lokationen i feltet **Lokationskode** i sidehovedet for **Lagermodtagelse** , og udfyld derefter de resterende felter efter behov.
+3. I oversigtspanelet **Linjer** i feltet **Vare** skal du vælge lagervaren. Angiv det antal varer, du vil tilføje, i feltet **Antal**. 
+4. Hvis du vil udskrive en rapport for **Lagermodtagelse** fra siden **Lagermodtagelse**, skal du vælge handlingen **Udskriv**.
+
+Du kan vælge mellem følgende funktioner på siden **Lagermodtagelse**:
+
+- Vælge handlingerne **Frigiv** eller **Genåbn** for at angive status for næste behandlingsfase  
+- Vælge handlingen **Bogfør** for at bogføre lagermodtagelsen, eller vælge **Bogfør og udskriv** for at bogføre modtagelsen og udskrive kontrolrapporten  
+
+## <a name="printing-inventory-documents"></a>Udskrivning af lageropgørelsesdokumenter
+Du kan angive, hvilke rapporter der skal udskrives i forskellige faser, ved at vælge en af følgende indstillinger i feltet **Forbrug** på siden **Rapportvalg - lager**:
+
+- Lagermodtagelse
+- Lagerleverance
+- Bogført lagermodtagelse
+- Bogført lagerleverance
+
+> [!NOTE]
+> De tilgængelige rapporter kan variere afhængigt af dit lands lokalisering. Basisprogrammet indeholder ikke layoutelementer.
+
+## <a name="see-also"></a>Se også
 [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)  
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

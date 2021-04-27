@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae07bc4f1d9f348f08f591e5e4341938ec4b5f16
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3a47c9daeeab036055a0644e1b389735f7440106
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382200"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784063"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Aktivere pluk af varer efter FEFO
 Første-udløbet-først ud (FEFO) er en sorteringsmetode, der sikrer, at de ældste elementer med den tidligste udløbsdato plukkes først.  
@@ -25,22 +25,20 @@ Første-udløbet-først ud (FEFO) er en sorteringsmetode, der sikrer, at de æld
 -   Varen skal have et serie-/lotnummer.  
 -   I opsætningen af varens varesporingskode skal feltet **SN-logistiksporing** eller feltet **Lot-lagersporing** være markeret.  
 -   Varen skal bogføres til lageret med en udløbsdato.  
--   Afkrydsningsfeltet **Kræv pluk** skal være markeret på lokationskortet.  
--   Afkrydsningsfeltet **Vælg i overensstemmelse med FEFO** skal være markeret på lokationskortet.  
--   Afkrydsningsfeltet **Tvungen placering** skal være markeret på lokationskortet.  
+-   På lokationen skal du aktivere **Kræv pluk**, **Pluk i overensstemmelse med FEFO** og **Tvungen placering**.  
 
  Når alle kriterierne er opfyldt, sorteres serie-/lotnummererede varer, som skal plukkes, med de ældste først i alle pluk og bevægelser, undtagen for varer, der bruger SN-specifik eller lotspecifik sporing.  
 
 > [!NOTE]  
-> Hvis nogen varer med serie-/lotnumre bruger specifik sporing, overholdes de først, og under dem vises de resterende, ikke-specifikke serienumre/lotnumre i henhold til FEFO.
+> Hvis varer med serie- eller lotnumre bruger specifik sporing, vises disse først, og dernæst vises de resterende, ikke-specifikke serie - eller lotnumre i overensstemmelse med FEFO.
 <br /><br />
 Hvis der er to varer med serie- eller lotnumre, der har samme udløbsdato, vælges varen med det laveste serie- eller lotnummer.
 <br /><br />
-Når du plukker varer med serie- eller lotnumre på lokationer, der er sat op til styret læg-på-lager, er det kun antal på placeringer af typen *Pluk*, der plukkes i overensstemmelse med FEFO.  
+Når du plukker varer med serie- eller lotnumre på lokationer, der er konfigureret til styret læg-på-lager og pluk, er det kun antal på placeringer af typen *Pluk*, der plukkes i overensstemmelse med FEFO.  
 <br /><br />
-Hvis du vil aktivere bevægelser i henhold til FEFO, skal du enten på siden **Flytning (lager)** eller på siden **Bevægelseskladde** lade feltet **Fra placering** være tomt.  
+Hvis du vil aktivere bevægelser i overensstemmelse med FEFO, skal du lade feltet **Fra placeringskode** være tomt på siden **Flytning (lager)** eller **Bevægelseskladde**.  
 <br /><br />
-Hvis feltet **Nøje bogføring af udløbsdato** er markeret, er det kun varer, der ikke er udløbet, der inkluderes i plukket. Dette gælder, selvom du ikke bruger Vælg i overensstemmelse med FEFO.
+Hvis feltet **Nøje bogføring af udløbsdato** er markeret på **Varesporingskodekortet**, medtages kun varer, der ikke er udløbet, i plukket, og linjerne sorteres efter FEFO-princippet.
 
 ## <a name="see-also"></a>Se også  
 [Plukke varer](warehouse-pick-items.md)   

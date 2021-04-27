@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393295"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784811"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -24,7 +24,7 @@ Der er mange generelle funktioner, der hjælper dig med at indtaste data lettere
 Eksemplerne i denne artikel bruger demodata.
 
 ## <a name="working-with-editable-fields"></a>Arbejde med redigerbare felter
-Felter i [!INCLUDE[prod_short](includes/prod_short.md)] kan indeholde forskellige redigerbare data, f. eks. tekst eller valutabeløb. Redigerbare felter viser typisk et indtastningsfelt, hvor du kan indtaste eller vælge en værdi. Ikke-redigerbare felter vises typisk med grå baggrund.   
+Felter i [!INCLUDE[prod_short](includes/prod_short.md)] kan indeholde forskellige redigerbare data, f.eks. tekst eller valutabeløb. Redigerbare felter viser typisk et indtastningsfelt, hvor du kan indtaste eller vælge en værdi. Ikke-redigerbare felter vises typisk med grå baggrund.   
 
 Visse redigerbare felter indeholder en vælger, der kan hjælpe dig med at angive en værdi.  
 
@@ -34,7 +34,7 @@ Visse redigerbare felter indeholder en vælger, der kan hjælpe dig med at angiv
 |Datovælger       |Denne vælger viser en kalender, der er baseret på de aktuelle regionale indstillinger. Den gør det lettere at vælge en enkelt dato.|
 |Rullemenu          |Rullemenuer giver dig mulighed for at vælge faste værdier eller referenceposter fra en anden tabel|
 |Skifteknap eller afkrydsningsfelt|Nogle felter giver mulighed for at vælge mellem *Ja-* eller *Nej*-værdier. Parameteren bruges til at angive denne værdi og vises altid som et afkrydsningsfelt i lister|
-|Assisteret redigering       |Nogle felter indeholder brugerdefinerede vælgere, der er gode til at søge efter og vælge den bedste værdi til feltet, f. eks. et pop op-vindue|
+|Assisteret redigering       |Nogle felter indeholder brugerdefinerede vælgere, der er gode til at søge efter og vælge den bedste værdi til feltet, f.eks. et pop op-vindue|
 
 
 ### <a name="modifying-a-field-value"></a>Ændring af en feltværdi
@@ -57,7 +57,7 @@ Når markøren vises i slutningen af feltværdien:
 - Brug **Home**, **End**, **venstre pil** og **højrepil** til at flytte markøren inden for værdien. Hvis du redigerer et felt på en liste, fremhæves det forrige felt, når du trykker på **venstre pil** igen, når markøren er i begyndelsen af værdien. Hvis du trykker på **højre pil** igen, når markøren er i slutningen af værdien, fremhæves det næste felt.
 
 > [!NOTE]
-> Når du har angivet en værdi, vil Business Central kun kontrollere, at den er gyldig, når du har klikket uden for feltet eller fokuseret på et andet element, f. eks. det næste felt.  
+> Når du har angivet en værdi, vil Business Central kun kontrollere, at den er gyldig, når du har klikket uden for feltet eller fokuseret på et andet element, f.eks. det næste felt.  
 
 
 ## <a name="keyboard-shortcuts"></a>Tastaturgenveje
@@ -116,7 +116,7 @@ Selv om feltet skal udfyldes, er du ikke tvunget til at udfylde feltet, før du 
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Ofte stillede spørgsmål om kopiering og indsætning af felter og linjer
 
-Du kan kopiere en eller flere rækker fra en liste eller et enkelt felt på en side. Indsæt derefter det, du har kopieret, på den samme side, på en anden side eller i et eksternt dokument. Du kan f. eks. indsætte i Microsoft Excel eller en mail i Outlook. Kort sagt, når du vil kopiere, skal du trykke på CTRL + C (cmd + C i macOS) på tastaturet. Når du vil indsætte, skal du trykke på CTRL + V eller cmd + V i macOS.
+Du kan kopiere en eller flere rækker fra en liste eller et enkelt felt på en side. Indsæt derefter det, du har kopieret, på den samme side, på en anden side eller i et eksternt dokument. Du kan f.eks. indsætte i Microsoft Excel eller en mail i Outlook. Kort sagt, når du vil kopiere, skal du trykke på CTRL + C (cmd + C i macOS) på tastaturet. Når du vil indsætte, skal du trykke på CTRL + V eller cmd + V i macOS.
 
 Hvis du på en liste vil kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række, skal du bare trykke på F8.
 
@@ -145,7 +145,7 @@ For at vende tilbage til normal visning skal du vælge ![Ikonet Fokustilstand](m
 Du kan åbne et kort eller en dokumentside i et nyt vindue. Når du åbner et nyt vindue, kan du:
 
 - Arbejde med flere opgaver samtidig
-- Håndtere afbrydelser af den aktuelle opgave, f. eks. et indgående opkald.
+- Håndtere afbrydelser af den aktuelle opgave, f.eks. et indgående opkald.
 - Holde et vindue åbent for en igangværende opgave, mens du starter eller udfører en anden opgave i vinduer.
 
 Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne eller trykke på Alt+Skift+W.
@@ -159,8 +159,8 @@ Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du væl
 > Når du åbner andre sider fra et kort eller et dokument, der er åbnet i et nyt vindue, åbnes disse sider i et nyt vindue, selvom du ikke vælger ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue").
 
 > [!NOTE]
-> Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger under [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
-> Det samme kan forekomme i andre browsere som f.eks. Firefox. Du kan finde flere oplysninger under [Indstillinger for blokering af pop op-vinduer i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+> Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger i [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Det samme kan forekomme i andre browsere som f.eks. Firefox. Du kan finde flere oplysninger i [Indstillinger for blokering af pop op-vinduer i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
 En anden måde at multitaske på er at åbne [!INCLUDE[prod_short](includes/prod_short.md)] på to eller flere browserfaner. Når du gør det på denne måde, skal du oprette en ny fane og derefter kopiere/indsætte URL-adressen til den oprindelige fane på den nye fane. Derved oprettes en ny session.   
 
@@ -199,7 +199,7 @@ Du kan angive negative tal på to måder. Tallet -20,5 kan angives som:
 Du kan angive datoer og klokkeslæt i alle de felter, der er angivet til datoer (datofelter). Du kan angive datoer med eller uden separatorer.
 
 > [!NOTE]  
-> Måden, du angiver datoer og klokkeslæt på, afhænger af dine indstillinger i **Område**. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).  
+> Måden, du angiver datoer og klokkeslæt på, afhænger af dine indstillinger i **Område**. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Angive datoer
 
@@ -242,34 +242,9 @@ I den følgende tabel kan du se, hvordan du kan indtaste klokkeslæt, og hvordan
 
  Du skal skrive to tal for hver tidsenhed, hvis du ikke angiver en separator.  
 
-## <a name="entering-datetimes"></a>Angive dato/klokkeslæt
+## <a name="entering-combined-datetimes"></a>Indtaste kombineret dato/klokkeslæt
 
-Når du angiver dato/klokkeslæt skal du angive et mellemrum mellem datoen og klokkeslættet.  
-
-I den følgende tabel kan du se, hvordan du kan skrive dato og klokkeslæt, og hvordan de fortolkes.  
-
-|Post|Fortolkning|  
-|---------------|------------------------|  
-|`131202` 132455|13-12-02 13:24:55|  
-|1-12-02 10|01-12-02 10:00:00|  
-|1.12.02 5|01-12-02 05:00:00|  
-|1.12.02|01-12-02 00:00:00|  
-|11 12|11-løbende måned-løbende år 12:00:00|  
-|1112 12|11-12-aktuelt år 12:00:00|  
-|d eller dags dato|dags dato 00:00:00|  
-|d tid|dags dato aktuelt klokkeslæt|  
-|d 10:30|dags dato 10:30:00|  
-|d 3:3:3|dags dato 03:03:03|  
-|a eller arbejdsdato|arbejdsdato 00:00:00|  
-|m eller mandag|Mandag i den aktuelle uge 00:00:00|  
-|ti eller tirsdag|Tirsdag i den aktuelle uge 00:00:00|  
-|on eller onsdag|Onsdag i den aktuelle uge 00:00:00|  
-|to eller torsdag|Torsdag i den aktuelle uge 00:00:00|  
-|f eller fredag|Fredag i den aktuelle uge 00:00:00|  
-|l eller lørdag|Lørdag i den aktuelle uge 00:00:00|  
-|s eller søndag|Søndag i den aktuelle uge 00:00:00|  
-|ti 10:30|Tirsdag i den aktuelle uge 10:30:00|  
-|ti 3:3:3|Tirsdag i den aktuelle uge 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Angivelse af varighed
 

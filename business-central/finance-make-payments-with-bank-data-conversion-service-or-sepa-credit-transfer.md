@@ -1,5 +1,5 @@
 ---
-title: Foretage betalinger med AMC Banking  (US) eller SEPA Credit Transfer (EU)
+title: Foretage betalinger med AMC Banking (USA) eller SEPA Credit Transfer (EU)
 description: Du kan behandle betalinger til dine kreditorer ved at eksportere en fil sammen med betalingsoplysningerne fra kladdelinjerne.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/13/2021
 ms.author: bholtorf
-ms.openlocfilehash: 210dbfd3450d4cc703f73fc2cd078b0155c599da
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d48172569ba8e93410dfb20a22eed785574f3989
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391845"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889227"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel
 
@@ -46,6 +46,9 @@ Før du kan behandle betalingen elektronisk ved eksport af betalingsfiler i form
 * Konfigurere den relaterede finanskladde til at aktivere betalingseksport fra siden **Udbetalingskladde**  
 * Forbinde dataudvekslingsdefinitionen for en eller flere betalingstyper med den eller de relevante betalingsmetode(r)  
 
+> [!TIP]
+> Denne artikel gælder for den generelle version af [!INCLUDE [prod_short](includes/prod_short.md)]. I det aktuelle land/område kan der være tilføjet yderligere obligatoriske felter til de forskellige sider. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Sådan opsættes en konto til SEPA-kreditoverførsler
 
 1. I feltet **Søg** skal du indtaste **Bankkonti** og derefter vælge det relaterede link.  
@@ -64,15 +67,14 @@ Før du kan behandle betalingen elektronisk ved eksport af betalingsfiler i form
 3. I oversigtspanelet **Betaling** i feltet **Betalingsformkode** skal du vælge **BANK**.  
 4. I feltet **Foretrukken bankkontokode** skal du vælge den bank, som pengene skal overføres til, når de behandles af din elektroniske bank.  
 
-     Værdien i feltet **Foretrukken bankkontokode** kopieres til feltet **Modtagers bankkonto** på siden **Udbetalingskladde**.  
+     Hvis du endnu ikke har opsat en bankkonto for denne kreditor, kan du gøre det nu. Du kan finde flere oplysninger i [Konfigurere kreditors bankkonti til eksport af bankfiler](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Værdien i feltet **Foretrukken bankkontokode** kopieres til feltet **Modtagers bankkonto** på siden **Udbetalingskladde**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Sådan opsættes betalingskladden til eksport af betalingsfiler
 
 1. Indtast **Udbetalingskladder** i feltet **Søg**, og vælg derefter det relaterede link.  
-2. Åbn den betalingskladde, som du kan bruge til at behandle betalinger, ved at eksportere filer i formatet SEPA-kreditoverførsler.  
-3. Vælg rulle\-knappen i feltet **Kladdenavn**.  
-4. På siden **Finanskladdenavne** skal du vælge handlingen **Rediger liste**.  
-5. Markér afkrydsningsfeltet **Tillad eksport af betaling** på linjen for den betalingskladde, som du vil bruge til eksport af betalinger.  
+2. Vælg rulle\-knappen i feltet **Kladdenavn**.  
+3. På siden **Finanskladdenavne** skal du vælge handlingen **Rediger liste**.  
+4. Markér afkrydsningsfeltet **Tillad eksport af betaling** på linjen for den betalingskladde, som du vil bruge til eksport af betalinger.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Sådan forbindes dataudvekslingsdefinitionen for en eller flere betalingstyper med den eller de relevante betalingsmetode(r)
 
@@ -82,7 +84,7 @@ Før du kan behandle betalingen elektronisk ved eksport af betalingsfiler i form
 
 ## <a name="preparing-the-payment-journal"></a>Forberede udbetalingskladden
 
-Udfyld betalingskladdelinjerne for forfaldne betalinger til kreditorer med mulighed for at indsætte bogføringsdatoer, der er baseret på forfaldsdatoen for de relaterede købsdokumenter. Du kan finde flere oplysninger under [Administrere skyldige beløb](payables-manage-payables.md).
+Udfyld betalingskladdelinjerne for forfaldne betalinger til kreditorer med mulighed for at indsætte bogføringsdatoer, der er baseret på forfaldsdatoen for de relaterede købsdokumenter. Du kan finde flere oplysninger i [Administrere skyldige beløb](payables-manage-payables.md).
 
 ## <a name="exporting-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
 
@@ -91,7 +93,7 @@ Når du er klar til at bogføre betalinger til dine kreditorer eller refusioner 
 I den generiske version af AMC Banking 365 Fundamentals er [!INCLUDE[prod_short](includes/prod_short.md)]-udvidelsen tilgængelig. I nordamerikanske versioner kan den samme udvidelse bruges til at sende betalingsfiler som elektronisk pengeoverførsel (EFT), men med en lidt anderledes proces. Se trin 6 i [Sådan eksporterer du betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
-> Inden du kan eksportere betalingsfiler fra betalingskladden, skal du angive det elektroniske format for den bankkonto, der anvendes, og du skal aktivere AMC Banking 365 Fundamentals-udvidelsen. Du kan finde flere oplysninger i [Konfigurere bankkonti](bank-how-setup-bank-accounts.md) og [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md). Desuden skal du markere afkrydsningsfeltet **Tillad eksport af betaling** på siden **Finanskladdenavne**. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).  
+> Inden du kan eksportere betalingsfiler fra betalingskladden, skal du angive det elektroniske format for den bankkonto, der anvendes, og du skal aktivere AMC Banking 365 Fundamentals-udvidelsen. Du kan finde flere oplysninger i [Konfigurere bankkonti](bank-how-setup-bank-accounts.md) og [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md). Desuden skal du markere afkrydsningsfeltet **Tillad eksport af betaling** på siden **Finanskladdenavne**. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 Brug siden **Kreditoverførselsjournaler** til at få vist de betalingsfiler, som er eksporteret fra betalingskladden. På denne side kan du også udlæse betalingsfiler igen i tilfælde af tekniske fejl eller filændringer. Bemærk dog, at de eksporterede EFT-filer ikke vises på denne side og ikke kan reeksporteres.  
 
@@ -150,7 +152,7 @@ Du kan eksportere betalingsfiler igen fra siden **Kreditoverførselsjournaler**.
 
 ## <a name="posting-the-payments"></a>Bogføre betalingerne
 
-Når elektronisk betaling er behandlet af banken, kan du bogføre betalingerne. Du kan finde flere oplysninger under [Foretage betalinger](payables-make-payments.md).
+Når elektronisk betaling er behandlet af banken, kan du bogføre betalingerne. Du kan finde flere oplysninger i [Foretage betalinger](payables-make-payments.md).
 
 ## <a name="see-also"></a>Se også
 

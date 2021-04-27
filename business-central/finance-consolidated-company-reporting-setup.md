@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381034"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786244"
 ---
 # <a name="set-up-company-consolidation"></a>Konfigurere virksomhedskonsolidering
 
@@ -30,6 +30,7 @@ Afhængigt af kompleksiteten af virksomhederne kan konsolideringen konfigureres 
 
 ## <a name="simple-consolidation-setup"></a>Simpel konsolideringsopsætning
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Hvis din konsolidering er enkel, f.eks. fordi du er eneejer af de koncernvirksomheder, der skal konsolideres, hjælper den assisterede opsætningsvejledning **Virksomhedskonsolidering** dig gennem følgende trin:
 
 * Vælg, om du vil oprette et nyt konsolideret regnskab, eller om du vil konsolidere data i et regnskab, som du allerede har oprettet til konsolideringen. Regnskabet må ikke indeholde transaktioner.
@@ -46,7 +47,7 @@ Hvis du har brug for mere avancerede indstillinger til din konsolidering, kan du
 
 ### <a name="set-up-the-consolidated-company"></a>Konfigurere det konsoliderede regnskab
 
-Du skal først konfigurere den konsoliderede virksomhed. Du opretter det konsoliderede regnskab på samme måde, som du opretter andre regnskaber. Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).  
+Du skal først konfigurere den konsoliderede virksomhed. Du opretter det konsoliderede regnskab på samme måde, som du opretter andre regnskaber. Du kan finde flere oplysninger i [Blive klar til at handle](ui-get-ready-business.md).  
 
 Følgende liste illustrerer nøgleaspekter i det konsoliderede regnskab.
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a09aa00b23abab7849c4a5099132c9729d7592e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f669944766894e57a772e229a436953953f3892c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389465"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785185"
 ---
 # <a name="design-details"></a>Designoplysninger
 Dette indhold indeholder detaljerede tekniske oplysninger om komplekse programfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -30,16 +30,14 @@ Dette indhold indeholder detaljerede tekniske oplysninger om komplekse programfu
 |Lær om de centrale principper bag avancerede og grundlæggende lagerfunktioner, og hvordan de integreres med andre forsyningskædefunktioner.|[Designoplysninger: Logistik](design-details-warehouse-management.md)|  
 |Få mere at vide om historisk og aktuelt design af varesporingsfunktionalitet, og hvordan den integreres med reservationssystemet for at medtage serienumre/lotnumre i disponeringsberegninger.|[Designoplysninger: Varesporing](design-details-item-tracking.md)|  
 |Få mere at vide om funktionen for bogføringslinjer til finanskladder, herunder de seneste forenklinger til design af codeunit 12.|[Designoplysninger: Bogføringslinje i finanskladde](design-details-general-journal-post-line.md)|
-|Få mere at vide om designet til lagrings- og bogføringsdimensioner, herunder kodeeksempler på at overflytte og opgradere dimensionskode.|[Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)| 
+|Få mere at vide om designet til lagrings- og bogføringsdimensioner, herunder kodeeksempler på at overflytte og opgradere dimensionskode.|[Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)|
 
-## <a name="see-also"></a>Se også  
- [Planlægning](production-planning.md)   
- [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
- [Logistik](warehouse-manage-warehouse.md)   
- [Konfigurere komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Se også
 
- ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+[Skabelon](production-planning.md)  
+[Administrere lageromkostninger](finance-manage-inventory-costs.md)  
+[Logistik](warehouse-manage-warehouse.md)  
+[Konfigurere komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

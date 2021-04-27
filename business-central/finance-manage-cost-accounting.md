@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41c4a56ca390a53a8eabc6af6f5aaa4a3f6cc16d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6505633f7535ed2b9f36d6670d4fdc1d6a6c4172
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391820"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788173"
 ---
 # <a name="accounting-for-costs"></a>Regnskab for omkostninger
 Omkostningsregnskab bruges til at hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Se følgende emner for at komme i gang med omkostningsregnskab.  

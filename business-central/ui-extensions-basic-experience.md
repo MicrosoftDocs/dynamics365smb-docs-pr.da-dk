@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 259fe5539482dfe893c230cb5574e4816788b56e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 19e784695c3864642dd13460e1cb93f6f58d706d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386195"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784786"
 ---
 # <a name="the-basic-experience-extension"></a>Basic Experience Extension
 Hvis du har brugt Microsoft Dynamics C5, kan Microsoft-partnere hjælpe dig med at skifte til en mere moderne løsning, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)], så du fortsat kan nyde den samme strømlinede funktionalitet som Dynamics C5.

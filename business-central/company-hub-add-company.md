@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
-ms.date: 10/29/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 252b2bc892a22349a9d5c84b704c922f7586fddf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6b4ed57dbc6202e44487ca13363b0b34d915d01b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5389170"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786533"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Tilføj virksomheder til virksomhedens hub
 
@@ -32,7 +32,7 @@ Linket bruges, når du vælger virksomheden i virksomhedens hub.
 :::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for en virksomhed, der er angivet i virksomhedshubben":::
 
 > [!TIP]
-> Hvis du arbejder i den gratis prøveversion af [!INCLUDE [prod_short](includes/prod_short.md)], er det nemt at tilføje virksomhederne i din lejer. Du kan finde miljø linket ved at kopiere Azure Active Directory-id fra afsnittet om **Fejlfinding** på siden Hjælp & support. Miljønavnet er sandsynligvis standardværdien, PRODUKTION. Føj disse oplysninger til feltet **Miljølink**, f. eks.```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, og vælg derefter **Test forbindelse**. Evalueringsfirmaet vil blive føjet til oversigten.
+> Hvis du arbejder i den gratis prøveversion af [!INCLUDE [prod_short](includes/prod_short.md)], er det nemt at tilføje virksomhederne i din lejer. Du kan finde miljø linket ved at kopiere Azure Active Directory-id fra afsnittet om **Fejlfinding** på siden Hjælp & support. Miljønavnet er sandsynligvis standardværdien, PRODUKTION. Føj disse oplysninger til feltet **Miljølink**, f.eks.```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, og vælg derefter **Test forbindelse**. Evalueringsfirmaet vil blive føjet til oversigten.
 >
 > Hvis du har flyttet til den 30-dages prøveversion af firmaet, kan du føje det til oversigten ved at vælge handlingen **Genindlæs/Genindlæs alle regnskaber** på listen.
 

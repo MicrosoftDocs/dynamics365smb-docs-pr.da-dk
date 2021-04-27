@@ -1,0 +1,1 @@
+<Token> **GÆLDER FOR:** Business Central 2021 udgivelsesbølge 1 og nyere</Token>

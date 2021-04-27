@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 13ef7eb6cdda472d68758e7e6ef5cb7d73d9fba4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fdd8fced06d8efd5ab6959267bfc0171c4decdd2
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384070"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785056"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Udvidelsen Betalinger og afstemninger (DK)
 
@@ -51,7 +51,7 @@ Det kræver nogle trin at komme i gang.
 * Angiv betalingsformen for hver kreditor. Betalingsformer definerer, hvordan du betaler fakturaer fra kreditoren. F.eks. Bank, Kontant, Check eller Konto.  
 * Angiv den type format, der skal bruges til hver af dine bankkonti. F.eks. NORDEA, DANSKEBANK, SDC osv.  
 
-Desuden skal du tildele kreditorer til en indenlandsk **Virksomhedsbogføringsgruppe** og en **Kreditorbogføringsgruppe**. Indstillingen land/område for kreditoren skal være Danmark (DK). Du kan finde flere oplysninger under [Konfigurere bogføringsgrupper](finance-posting-groups.md).  
+Desuden skal du tildele kreditorer til en indenlandsk **Virksomhedsbogføringsgruppe** og en **Kreditorbogføringsgruppe**. Indstillingen land/område for kreditoren skal være Danmark (DK). Du kan finde flere oplysninger i [Konfigurere bogføringsgrupper](finance-posting-groups.md).  
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>Sådan tillader du [!INCLUDE[prod_short](includes/prod_short.md)] at eksportere betalingsdata
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386845"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787348"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling  
 Det er vigtigt med effektiv styring af skyldige beløb for virksomhedens samlede finansielle tilstand. Udvidelsen Forudsigelse af forsinket betaling kan hjælpe dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategier ved at forudsige, om salgsfakturaer bliver betalt til tiden. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden.
@@ -37,7 +37,7 @@ Hvis du aktiverer udvidelsen, er feltet **Betalinger, der forventes at være for
 
 * **Forsinket betaling** - Angiver, om betalingen for fakturaen forventes at være forsinket.
 * **Forudsigelseskonfidens** - Angiver, hvor pålidelig du kan betragte betalingen som. **Høj** betyder, at forudsigelsen er mindst 90 % sikker, **Mellem** ligger mellem 80 og 90 % og **Lav** er mindre end 80 %.
-* **Forudsigelseskonfidens-%** - Viser den faktiske procent bag sikkerhedsvurderingen. Denne kolonne vises ikke som standard, men du kan tilføje den, hvis du vil. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+* **Forudsigelseskonfidens-%** - Viser den faktiske procent bag sikkerhedsvurderingen. Denne kolonne vises ikke som standard, men du kan tilføje den, hvis du vil. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 > [!Tip]
 > Siden Debitorposter viser også en faktaboks til højre. Mens du gennemgår forudsigelserne, kan oplysningerne i sektionen **Debitoroplysninger** være nyttige. Når du vælger fakturaen på listen, viser sektionen oplysninger om kunden. Den gør dig også i stand til at udføre øjeblikkelige handlinger. Hvis en kunde f.eks. ofte ikke kan betale, kan du åbne debitorkortet fra faktaboksen og spærre for fremtidige salg til kunden.  
@@ -108,7 +108,7 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 8. I oversigtspanelet **Legitimationsoplysninger for min model** skal angive API URL-adressen og API-nøgle til din model.  .  
 
 ## <a name="see-also"></a>Se også  
-[Dokumentation til Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Dokumentation til Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)  
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
 

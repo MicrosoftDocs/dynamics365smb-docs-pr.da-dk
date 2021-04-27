@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 023511c44e50318555f7e0ce3ce1f20bd0dfa35e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 11b90a7aa48927d68d4e32845343dddc56ba77c1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382525"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786633"
 ---
 #  <a name="create-analysis-reports"></a>Oprette analyserapporter
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi.  
@@ -26,7 +26,7 @@ Du kan oprette en tilpasset rapport, der fokuserer på dine nøglekonti med hens
 
 Analyserapporten består af de objekter, som du vil analysere, f.eks. kunder, kundegrupper, sælgere m.m., repræsenteret ved linjer, og analyseparametrene, dvs. den måde, som du vil analysere objekterne på, repræsenteret ved kolonner, f.eks. avanceberegning, periodisk sammenligning af salgsbeløb og -mængder eller af faktiske og budgetterede tal.
 
-Ud over analyserapporter, kan du oprette og få vist ensartede oplysninger i analysevisninger, som er baseret på dimensioner. Du kan finde flere oplysninger under [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md).
+Ud over analyserapporter, kan du oprette og få vist ensartede oplysninger i analysevisninger, som er baseret på dimensioner. Du kan finde flere oplysninger i [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Eksempel  
 Du kan oprette linjer som følgende:  

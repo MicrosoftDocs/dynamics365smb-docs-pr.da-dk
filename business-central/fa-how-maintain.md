@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03f1caebb7213275380ebc1be5068a8448d55cef
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e887a7f2041469487f71f98eb9985e29b221b86e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381136"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788304"
 ---
 # <a name="maintain-fixed-assets"></a>Vedligeholde anlægsaktiver
 Reparationsudgifter er periodisk forekommende rutineomkostninger, der afholdes for at bevare anlægsaktivernes værdi. I modsætning til kapitalforbedringer forøges deres værdi ikke.
@@ -86,9 +86,9 @@ I feltet **Reparationsposter** kan du få vist eller udskrive reparationsposter 
 
 ## <a name="see-also"></a>Se også
 [Anlægsaktiver](fa-manage.md)  
-[Opsætning af Anlægsaktiver](fa-setup.md)  
+[Opsætning af anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

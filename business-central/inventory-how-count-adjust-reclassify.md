@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 67058cf067b8ef647c01bfad79151516a6167a6b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d2052d2d6cc5d06eb001d2b29eb6d5fc79d8b00c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391270"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785969"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Tælle, justere og ompostere inventar ved hjælp af kladder
 Mindst én gang hvert regnskabsår skal der foretages lageropgørelse, dvs. alle varer i lagerbeholdningen optælles for at se, om det antal, der er registreret i databasen, svarer til det faktiske fysiske antal på lagerstederne. Når det faktiske fysiske antal kendes, skal det bogføres til Finans som en del af lagervurderingen ved periodeafslutning.
@@ -24,7 +24,7 @@ Selvom alle varer på lageret optælles mindst en gang om året, har du måske b
 
 Hivs der er brug for en regulering af de registrerede lagerantal i forbindelse med optælling eller af andre årsager, kan du bruge en varekladde til at ændre lageropgørelsesposterne direkte, uden at bogføre forretningstransaktioner. Du kan også justere for en enkelt vare på varekortet.
 
-Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge vareomposteringskladden. Blandt de attributter, der typisk omposteres, er dimensioner og salgskampagnekoder, men du kan også udføre "overførsler mellem systemer" ved at ompostere placerings- og lokationskoder. Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger under [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge vareomposteringskladden. Blandt de attributter, der typisk omposteres, er dimensioner og salgskampagnekoder, men du kan også udføre "overførsler mellem systemer" ved at ompostere placerings- og lokationskoder. Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger i [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > I avancerede lageropsætninger registreres varer på placeringer som lagerposter, ikke som vareposter. Derfor kan du foretage optælling, regulering og ompostering af særlige lagerkladder, der understøtter placeringer. Du kan derefter bruge særlige funktioner til at synkronisere de nye eller ændrede lagerposter med de tilknyttede vareposter, så de afspejler ændringer i lagerbeholdninger og lagerværdier. Dette beskrives i de specifikke procedurer nedenfor, hvis det er relevant.
@@ -33,7 +33,7 @@ Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge
 Du skal foretage en lageropgørelse ved udgangen af hvert regnskabsår eller oftere, dvs. tælle antallet af fysiske varer, for at kontrollere, om det antal, der er registreret, er det samme som det fysiske antal varer, der er på lager. Hvis der er forskelle, skal du bogføre dem på de relevante varekonti, før du foretager en værdiansættelse af lageret.
 
 > [!NOTE]
-> Denne procedure beskriver, hvordan du foretager en lageropgørelse ved hjælp af en kladde, siden **Lageropgørelseskladde**. Du kan også udføre opgaven ved hjælp af dokumenter, siderne **Lageropgørelsesordre** og **Registrering af lageropgørelse**, som giver mere styring og understøtter distribution af optælling til flere medarbejdere. Du kan finde flere oplysninger under [Lageroptælling ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Denne procedure beskriver, hvordan du foretager en lageropgørelse ved hjælp af en kladde, siden **Lageropgørelseskladde**. Du kan også udføre opgaven ved hjælp af dokumenter, siderne **Lageropgørelsesordre** og **Registrering af lageropgørelse**, som giver mere styring og understøtter distribution af optælling til flere medarbejdere. Du kan finde flere oplysninger i [Lageroptælling ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md).<br /><br />
 > Bemærk, at dokumentbaserede funktioner ikke kan bruges til at optælle varer på placeringer, lagerposter.
 
 Ud over den fysiske optællingsopgave omfatter hele processen følgende tre opgaver:
@@ -66,7 +66,7 @@ Du kan udføre lageropgørelsen på følgende måder afhængigt af logistikopsæ
 Medarbejderne kan nu fortsætte med at optælle lagerbeholdningen og registrere eventuelle afvigelser på den udskrevne rapport.
 
 > [!NOTE]
-> Det kan tage flere dage, før udskrevne rapporter vender tilbage, så de kan blive behandlet og bogført. Når du angiver og bogfører den faktiske optalte lagerbeholdning, justeres lagerbeholdningen, så den afspejler forskellen mellem den forventede og den faktiske optalte lagerbeholdning. Du skal gemme de oprindeligt beregnede kladdelinjer og ikke genberegne den forventede lagerbeholdning, fordi den forventede lagerbeholdning kan blive ændret, hvilket medfører forkerte lagerniveauer. Hvis du skal udstede flere rapporter, f. eks. for forskellige lokationer eller varegrupper, skal du oprette og føre separate kladdenavne.
+> Det kan tage flere dage, før udskrevne rapporter vender tilbage, så de kan blive behandlet og bogført. Når du angiver og bogfører den faktiske optalte lagerbeholdning, justeres lagerbeholdningen, så den afspejler forskellen mellem den forventede og den faktiske optalte lagerbeholdning. Du skal gemme de oprindeligt beregnede kladdelinjer og ikke genberegne den forventede lagerbeholdning, fordi den forventede lagerbeholdning kan blive ændret, hvilket medfører forkerte lagerniveauer. Hvis du skal udstede flere rapporter, f.eks. for forskellige lokationer eller varegrupper, skal du oprette og føre separate kladdenavne.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Sådan angives og bogføres den faktiske optalte lagerbeholdning i grundlæggende lageropsætninger
 1. På hver linje på siden **Lageropgørelseskladde**, hvor den faktiske lagerbeholdning, der er optalt manuelt, afviger fra det beregnede antal, skal du indtaste den faktiske lagerbeholdning i feltet **Antal (optalt)**.
@@ -166,15 +166,15 @@ Når du har foretaget en fysisk optælling af varen i dit lagerområde, kan du b
 
 Varens lager er nu reguleret. Det nye antal vises i feltet **Beholdning** på siden **Varekort**.
 
-Du kan også bruge funktionen **Reguler lager** som en enkel måde at placere købte varer på lager, hvis du ikke bruger købsfakturaer eller -ordrer til at registrere dine køb. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
+Du kan også bruge funktionen **Reguler lager** som en enkel måde at placere købte varer på lager, hvis du ikke bruger købsfakturaer eller -ordrer til at registrere dine køb. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
->   Når du har reguleret lageret, skal du opdatere det med den aktuelle, beregnede værdi. Du kan finde flere oplysninger under [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
+>   Når du har reguleret lageret, skal du opdatere det med den aktuelle, beregnede værdi. Du kan finde flere oplysninger i [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Sådan reguleres lagerantallet for flere varer i grundlæggende lageropsætninger
 På siden **Varekladde** kan du bogføre varetransaktionen direkte for at regulere lagerbeholdningen i forbindelse med køb, salg og op- og nedregulering af lageret uden brug af dokumenter.
 
-Hvis du ofte bruger varekladden til at bogføre de samme eller lignende kladdelinjer, f.eks. i forbindelse med materialeforbrug, kan du bruge siden **Standardvarekladde** til at lette denne gentagne opgave. Du kan finde flere oplysninger under [Arbejde med standardkladder](ui-work-general-journals.md#working-with-standard-journals).
+Hvis du ofte bruger varekladden til at bogføre de samme eller lignende kladdelinjer, f.eks. i forbindelse med materialeforbrug, kan du bruge siden **Standardvarekladde** til at lette denne gentagne opgave. Du kan finde flere oplysninger i [Arbejde med standardkladder](ui-work-general-journals.md#working-with-standard-journals).
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -205,7 +205,7 @@ Du skal med jævne mellemrum (som er fastsat af virksomheden) bogføre posterne 
 ## <a name="to-reclassify-an-items-lot-number"></a>Sådan omposteres en vares lotnummer
 Hvis det er nødvendigt at ændre attributter for varekladdeposter, kan du bruge vareomposteringskladden. Blandt de attributter, der typisk omposteres, er dimensioner og salgskampagnekoder, men du kan også udføre "overførsler mellem systemer" ved at ompostere placerings- og lokationskoder.
 
-Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger under [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+Særlig fremgangsmåde anvendes, når du vil ompostere serie- eller lotnumre og deres udløbsdatoer. Du kan finde flere oplysninger i [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 
 Følgende eksempel er baseret på en lokationskode. Trinene er de samme for andre typer vareattributter.
 

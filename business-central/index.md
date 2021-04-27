@@ -7,38 +7,42 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 12/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 836c3957f43d4b2d6ccb5e10bf8ef5efa3ba1177
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 342d58b58945f9d09da406723ea7dd6c86785482
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493198"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786269"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Med dets mange funktioner og rige tilpasningsmuligheder giver [!INCLUDE[prod_short](includes/prod_short.md)] virksomheden mulighed for at styre forretningsaspekter, herunder bl.a. finans, produktion, salg, levering, projektstyring og service. Virksomheden kan nemt tilføje funktioner, der er relevante for driftsområdet, også funktioner, der er tilpasset højt specialiserede brancher.  
 
-Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], skal du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis det ikke er tilfældet, kan du [hente oversigten](https://dynamics.microsoft.com/business-central/overview/), [gå til den rundvisning](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og derefter [starte en gratis prøveperiode](https://go.microsoft.com/fwlink/?linkid=847861). Du kan finde flere oplysninger om onboarding i [!INCLUDE[prod_short](includes/prod_short.md)] under [Introduktion til [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
+Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], skal du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis det ikke er tilfældet, kan du [hente oversigten](https://dynamics.microsoft.com/business-central/overview/), [gå til den rundvisning](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og derefter [starte en gratis prøveperiode](https://go.microsoft.com/fwlink/?linkid=847861). Du kan finde flere oplysninger om onboarding til [!INCLUDE[prod_short](includes/prod_short.md)] i [Blive køreklar](ui-get-ready-business.md).  
 
 > [!TIP]
-> Er du kommet hertil [!INCLUDE [prod_short](includes/prod_short.md)]? Hvis du ikke er sikker på, hvor du skal finde det, du søger efter, kan du *filtrere efter titler* i navigationsruden til venstre, eller du kan bruge **Søg**-feltet øverst i browservinduet.
+> Er du kommet hertil [!INCLUDE [prod_short](includes/prod_short.md)]? Hvis du ikke er sikker på, hvor du skal finde det, du søger efter, kan du **filtrere efter titler** i navigationsruden til venstre, eller du kan bruge feltet **Søg** øverst i browservinduet.  
+>
+> Du kan også bruge søgefunktionerne i [!INCLUDE [prod_short](includes/prod_short.md)] til at finde relevant dokumentation. Du kan finde flere oplysninger i [Søge efter sider og oplysninger med Fortæl mig](ui-search.md).
 
 ## <a name="overview"></a>Oversigt
 
-[!INCLUDE[prod_short](includes/prod_short.md)] er hurtig at implementere, nem at konfigurere, og enkelhed er kendetegnende for nyskabelser i produktdesign, udvikling, implementering og anvendelighed. I navigationspanelet til venstre kan du finde oplysninger om brugen af [!INCLUDE[prod_short](includes/prod_short.md)] i din virksomhed.  
+[!INCLUDE[prod_short](includes/prod_short.md)] er hurtig at implementere, nem at konfigurere, og enkelhed er kendetegnende for nyskabelser i produktdesign, udvikling, implementering og anvendelighed. I navigationspanelet til venstre kan du finde oplysninger om brugen af [!INCLUDE[prod_short](includes/prod_short.md)] i din virksomhed. Du kan finde links til beskrivelser af de mest almindeligt brugte funktioner i sektionen [Forretningsprocesser](#business-processes).  
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
 Du kan også [besøge vores videobibliotek](across-videos.md) eller starte med [Kom i gang med Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)-læringssti på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Medmindre andet er angivet, afspejler indholdet på [Docs.microsoft.com](https://docs.microsoft.com/dynamics365/business-central/)-webstedet den seneste version af [!INCLUDE[prod_short](includes/prod_short.md)] online. Hvis din organisation bruger en anden version af [!INCLUDE[prod_short](includes/prod_short.md)] online, er visse muligheder måske endnu ikke tilgængelige. Hvis din organisation bruger [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, bruger du muligvis en tidligere version. Du kan finde flere oplysninger i [Ofte stillede spørgsmål](across-faq.md).
+> Medmindre andet er angivet, afspejler indholdet på webstedet Docs.microsoft.com den seneste version af [!INCLUDE[prod_short](includes/prod_short.md)] online. Hvis din organisation bruger en anden version af [!INCLUDE[prod_short](includes/prod_short.md)] online, er visse muligheder måske endnu ikke tilgængelige. Hvis din organisation bruger [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, bruger du muligvis en tidligere version. Du kan finde flere oplysninger i [Ofte stillede spørgsmål](across-faq.md).
 
 Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab til [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="business-processes"></a>Forretningsprocesser
 
-- [Introduktion](product-get-started.md)
+- [Blive køreklar](ui-get-ready-business.md)
 - [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
 - [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 - [Opsætning](admin-setup-and-administration.md)
@@ -72,13 +76,15 @@ Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab 
 
 ## <a name="learn"></a>Få mere at vide om
 
-Find gratis e-learning-indhold på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Find gratis e-learning-indhold til [!INCLUDE[prod_short](includes/prod_short.md)] på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+
+Du kan også se videoer af nye og ofte anvendte funktioner i vores videobibliotek. Du kan finde flere oplysninger i [Besøg vores videobibliotek](across-videos.md).  
 
 ## <a name="community-resources"></a>Community-ressourcer
 
 - [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)
 - [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
-- [Microsoft Dynamics 365 frigivelsesplaner](https://go.microsoft.com/fwlink/?linkid=2047422)
+- [Microsoft Dynamics 365-udgivelsesplaner](/dynamics365/release-plans/)
 - [Microsoft Dynamics 365 Business Central-oversigt](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partnernetværk \(kræver medlemskabskonto til Microsoft Partnernetværk\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
@@ -87,19 +93,20 @@ Find gratis e-learning-indhold på [Microsoft Learn](/learn/dynamics365/business
 ## <a name="see-also"></a>Se også
 
 [Dynamics 365 Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Kom i gang med Business Central](product-get-started.md)  
+[Kom i gang med Business Central](ui-get-ready-business.md)  
+[Besøg vores videobibliotek](across-videos.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som min virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[prod_short](includes/prod_short.md)] på din mobilenhed](install-mobile-app.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  
-[Overholdelse](compliance/compliance-overview.md)  
-[Servicebetingelser](compliance/compliance-service-compliance.md#service-terms)  
+[Overholdelse for [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-overview.md)  
+[Betingelser for onlineservice til [!INCLUDE[prod_short](includes/prod_short.md)]](compliance/compliance-service-compliance.md#service-terms)  
 [Vigtige opdateringer i Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timelime)  
 [Dokumentation til Dynamics 365](/dynamics365/)  
 [Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
 [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Introduktion til docs.microsoft.com (oprindeligt blogindlæg)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
+[Introduktion til docs.microsoft.com (oprindeligt blogindlæg)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

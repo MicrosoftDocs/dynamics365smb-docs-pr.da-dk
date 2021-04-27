@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380352"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784836"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende påmindelser om lande-/områdespecifikke lovgivningsmæssige funktioner
 
@@ -52,7 +52,7 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
         |Beskrivelse  | Angiv en kort oversigt over lovgivningen. Beskrivelsen skal fokusere på problemer, der er relevante for ERP (enterprise resource planning), så brugere kan forstå kravene på højt niveau uden at skulle læse lovgivning først.|
         |Land/område  | Angiv det land eller område, som lovgivningen vedrører.|
         |Branche| Angiv branchen, hvis kravet gælder kun for bestemte brancher. F.eks. vælg **Offentlig sektor**, **Detail** eller **Produktion**.|
-        |Funktionsreference  | Dette er ikke relevant for Dynamics 365 Business Central, men du kan angive en reference til funktionen, hvis du kender til den. Oversigten over funktioner for bestemte lande findes på [Lokaliseringsportal](https://docs.microsoft.com/dynamics/s-e/) på CustomerSource-webstedet. |
+        |Funktionsreference  | Dette er ikke relevant for Dynamics 365 Business Central, men du kan angive en reference til funktionen, hvis du kender til den. Listen over funktioner for bestemte lande findes på [Lokaliseringsportal](/dynamics/s-e/) på CustomerSource-webstedet. |
         |Dato for retshåndhævelse  | Angiv den dato, hvor de berørte kunder skal begynde at overholde lovgivningen.|
         |Myndighedernes offentliggørelsesdato  | Angiv den dato, hvor myndighederne offentliggjorde ændringen.|
         |Seneste arkiveringsdato  | Vælg datoen for den første indsendelse af den nye eller ændrede rapport.|
@@ -76,7 +76,7 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
 
 [Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Ændre sprog og landestandard](about-locale-language.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Velkommen til Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

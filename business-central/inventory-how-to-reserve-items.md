@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0d6ea525a690504b013c7d416ce32887d306003
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b8ac375edea3c79f843028caa9ef07f74897fc98
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387970"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785769"
 ---
 # <a name="reserve-items"></a>Reservere varer
 Du kan reservere varer til salgsordrer, købsordrer, serviceordrer, montageordrer og produktionsordrer. Du kan reservere lagervarer eller indgående varer på åbne dokumentlinjer eller kladdelinjer. Du kan udføre arbejdet på siden **Reservation**.
@@ -79,14 +79,14 @@ Du kan have brug for at ændre eller annullere en varereservation.
 4.  Bekræft den efterfølgende meddelelse ved at vælge knappen **OK**.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Sådan reserveres et bestemt serienummer eller lotnummer  
-Fra udgående dokumenter for varer med varesporing, f.eks. salgsordrer eller produktionskomponentlister, kan du reservere bestemte serie- eller lotnumre. Dette kan være relevant, hvis du f.eks. skal bruge produktionskomponenter fra en bestemt lot for at sikre sammenhæng med tidligere produktionskørsler, eller fordi en debitor har anmodet om et bestemt serienummer. Du kan finde flere oplysninger under [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+Fra udgående dokumenter for varer med varesporing, f.eks. salgsordrer eller produktionskomponentlister, kan du reservere bestemte serie- eller lotnumre. Dette kan være relevant, hvis du f.eks. skal bruge produktionskomponenter fra en bestemt lot for at sikre sammenhæng med tidligere produktionskørsler, eller fordi en debitor har anmodet om et bestemt serienummer. Du kan finde flere oplysninger i [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 
 Dette kaldes en bestemt reservation, fordi du reserverer fra antallet af varen X, som tilhører partiet X. Hvis du blot reserverer fra mængder af varen X, er det en normal, ikke-specifik reservation. Hvis du ønsker yderligere oplysninger, kan du se [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md).
 
 Følgende procedure er baseret på en salgsordre.    
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg dernæst det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det tilknyttede link.  
 2. Opret en salgsordrelinje til en vare med varesporing.  
-3. Tildel serie- og lotnumre til salgsordrelinjen. Du kan finde flere oplysninger under [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
+3. Tildel serie- og lotnumre til salgsordrelinjen. Du kan finde flere oplysninger i [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 4. På salgsordrelinjen skal du vælge handlingen **Reserver**.  
 5. Vælg knappen **Ja** for at reservere bestemte serie- eller lotnumre.  
 6. På siden **Varesporingsliste** skal du vælge den kombination af serienummer og lotnummer, du lige har tildelt.  

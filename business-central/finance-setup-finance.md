@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a659fd4edfcbeccf65204f30685ce5b3cf527399
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f93eaa38b07a5135aafa22b21253d1e99a8d0406
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381927"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788098"
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
 Før du kan begynde at køre din virksomhed, skal du angive regler og standarder for, hvordan du vil administrere finansprocesser for den pågældende virksomhed. Du starter med at definere kernen i regnskabets poster- kontoplanen. Derefter definerer du bogføringsgrupper, som gør det mere effektivt, når du skal tildele standardkonti til finanspostering til kunder, leverandører og varer.
 
-Noget opsætning af finans kan udføres automatisk med assisterede opsætningsvejledninger, mens andet skal udføres manuelt. Du kan finde flere oplysninger under [Blive klar til at handle](ui-get-ready-business.md).
+Noget opsætning af finans kan udføres automatisk med assisterede opsætningsvejledninger, mens andet skal udføres manuelt. Du kan finde flere oplysninger i [Blive klar til at handle](ui-get-ready-business.md).
 
 Du kan bruge dimensioner til at føje forskellige typer oplysninger til hver transaktion. Du kan konfigurere de grundlæggende dimensioner i regnskabet, f.eks. Projekter og Afdelinger. Senere kan du tilføje flere dimensioner, når du får brug for dem, og du kan definere midlertidige dimensioner til brug i en begrænset periode, f.eks. i forbindelse med en salgskampagne. Du kan finde flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
 

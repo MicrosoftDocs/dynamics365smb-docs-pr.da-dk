@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1049bef967620571be20d9dc97864c66ee8e4074
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381752"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788073"
 ---
 # <a name="set-up-contacts"></a>Opsætning af kontakter
 Når du opretter kontakter, kan du angive specifikke oplysninger, f.eks. den branche som kontakten tilhører og dine forretningsmæssige forhold til kontakterne.
@@ -149,7 +149,7 @@ Ved kopieringen af felter overskrives de standardværdier, du har defineret. Hvi
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisering af kontakter med debitorer, kreditorer og bankkonti
 Hvis du vil synkronisere kontaktkortet med et tilknyttet debitor-, kreditor- eller bankkontokort, skal du udfylde det relevante felt i sektionen **Forretningsrelationskode for** i oversigtspanelet **Interaktioner** på siden **Marketingopsætning**.  
 
-Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Du kan finde flere oplysninger i [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Søgning efter dublerede kontakter
 Du kan vælge at lade programmet søge automatisk efter dubletter, hver gang du opretter en kontakt, eller du kan vælge at søge manuelt, når du har oprettet kontakten. Du kan også vælge at lade programmet opdatere søgestrenge automatisk, hver gang du har ændret kontaktoplysninger eller oprettet en kontakt. Du kan angive hitprocenten til søgning, dvs. den procentdel identiske strenge som to kontakter skal have, før de betragtes som dubletter. Du opretter dette i oversigtspanelet **Dubletter** på siden **Marketingopsætning**.

@@ -8,43 +8,68 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/08/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: f54fad2912b81d8cac3c0c7210fc6c047ee8451f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: bc4e39727abcb0bfabb9580ad79e47e9c0b4495b
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378919"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882151"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integration
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) er et Microsoft 365-produkt, som du kan bruge til at oprette forbindelse til med andre og samarbejde uden problemer. [!INCLUDE [prod_short](includes/prod_short.md)] tilbyder en app, der har forbindelse Microsoft Teams til dine forretningsdata [!INCLUDE [prod_short](includes/prod_short.md)], så du hurtigt kan dele detaljer på tværs af gruppemedlemmer og reagere hurtigere på forespørgsler.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) er et Microsoft 365-produkt, som du kan bruge til at oprette forbindelse til med andre og samarbejde uden problemer. [!INCLUDE [prod_short](includes/prod_short.md)] tilbyder en app, der forbinder Microsoft Teams med dine forretningsdata i [!INCLUDE [prod_short](includes/prod_short.md)], så du hurtigt kan dele detaljer på tværs af teammedlemmer, søge efter kontakter og reagere hurtigere på forespørgsler.
 
-## <a name="overview"></a>Oversigt
+Appen er tilgængelig på Teams-markedspladsen, og du kan bruge den sammen med din Teams-pc, -mobilapp eller- web.
 
-Med [!INCLUDE [prod_short](includes/prod_short.md)]-appen kan du:
+## <a name="features-overview"></a>Oversigt over funktioner
 
-- Kopiere et hyperlink til en hvilken som helst Business Central-post og sætte den ind i en Teams-samtale, som du kan dele med dine kolleger. Appen udvider derefter linket til et kompakt, interaktivt kort, der viser oplysninger om posten.
-- Når du er i samtalen, kan du og dine kolleger få vist flere oplysninger om posten, redigere data og handle - uden at forlade Teams.
+Appen [!INCLUDE [prod_short](includes/prod_short.md)] for Teams indeholder følgende funktioner.
+
+### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Søge efter detaljer om debitorer, kreditorer og andre kontakter
+
+Uanset hvor du er i Teams, kan du finde oplysninger om debitorer, kreditorer og andre kontakter i [!INCLUDE [prod_short](includes/prod_short.md)]. Denne funktion giver dig ikke kun mulighed for at få vist generelle oplysninger om kontakter, men giver også adgang til interaktionshistorik, relaterede dokumenter og meget mere.
+
+ [![Søge efter Business Central-kontakter fra Teams-kommandoboks](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+
+Du kan også dele kontaktoplysninger i en samtale. Derfra har deltagerne adgang til endnu flere oplysninger om kontakten.
+
+ [![Søge efter Business Central-kontakter fra Teams-meddelelsesboks](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+
+Du kan få flere oplysninger i [Søgning efter kontakter fra Microsoft Teams](across-search-contacts-teams.md).
+
+### <a name="share-records-in-conversations"></a>Dele poster i samtaler
+
+Kopiere et hyperlink til en hvilken som helst Business Central-post og sætte den ind i en Teams-samtale, som du kan dele med dine kolleger. Appen udvider derefter linket til et kompakt, interaktivt kort, der viser oplysninger om posten.
 
 [![Teams-integration med Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
-Appen er tilgængelig på Teams-markedspladsen, og du kan bruge den sammen med Teams-web, desktop eller mobilapp.
+Når du er i samtalen, kan du og dine kolleger få vist flere oplysninger om posten, redigere data og handle - uden at forlade Teams.
+
+Du kan finde flere oplysninger i [Arbejde med Business Central i Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="get-started"></a>Kom i gang
 
-1. Som administrator kan du se [Administration af Microsoft Teams-integration med Business Central](admin-teams-integration.md) for at få oplysninger om opsætning af brugere, så de kan arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
-2. Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams](across-install-app-for-teams.md).
-3. Når appen er installeret, er du klar til at gå i gang. Se [Arbejde med Business Central Data i Teams](across-working-with-teams.md). 
+1. Der kræves en online [!INCLUDE [prod_short](includes/prod_short.md)]-brugerkonto til [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Teams.
+
+    Hvis du ikke er sikker på, om du har en konto, eller hvis du ikke kender dine legitimationsoplysninger til logon, kan du kontakte din virksomheds administrator for at få hjælp til at komme i gang.
+
+    > [!TIP]
+    > Hvis organisationen ikke har et [!INCLUDE [prod_short](includes/prod_short.md)]-abonnement, kan du oprette dig som bruger for at få en gratis prøveversion. Du kan finde flere oplysninger i [Introduktion med en prøveversion](across-preview.md#getting-started-with-a-trial).
+
+2. Som administrator kan du se [Administration af Microsoft Teams-integration med Business Central](admin-teams-integration.md) for at få oplysninger om opsætning af brugere, så de kan arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
+3. Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams](across-install-app-for-teams.md).
+4. Når appen er installeret, er du klar til at gå i gang. Se [Arbejde med Business Central Data i Teams](across-working-with-teams.md). 
 
 ## <a name="see-also"></a>Se også
 
 [Teams, ofte stillede spørgsmål](teams-faq.md)  
 [Fejlfinding i Teams](admin-teams-troubleshooting.md)  
-[Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+[Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
+  
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 

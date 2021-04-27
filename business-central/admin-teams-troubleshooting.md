@@ -8,20 +8,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385195"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882166"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Fejlfinding af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Denne artikel indeholder oplysninger om, hvordan du identificerer og løser problemer, der kan opstå, når du bruger Microsoft Teams med [!INCLUDE [prod_short](includes/prod_short.md)], som typisk bruger eller administrator.
+
+## <a name="the-sign-in-link-doesnt-work"></a>Dette link til logon fungerer ikke
+
+Hvis du forsøger at logge på appen [!INCLUDE [prod_short.md](includes/prod_short.md)] til Teams, umiddelbart efter at du har installeret appen, og linket til logon ikke reagerer, kan det skyldes, at installationen af appen ikke er fuldført. Hvis du vil forsøge at løse problemet, skal du logge af Teams-klienten og derefter logge på igen.
+
+## <a name="the-settings-page-is-empty"></a>Siden Indstillinger er tom
+
+Du skal logge på først for at få adgang til dine indstillinger. Hvis du vil logge på appen, skal du enten indsætte et link til en [!INCLUDE [prod_short.md](includes/prod_short.md)]-post eller søge efter kontakter. Begge disse handlinger vil føre dig gennem en registreringsprocedure, hvorefter du kan bruge siden **Indstillinger**.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Jeg har skiftet regnskab, men det fungerer ikke
+
+Når du skifter regnskab på siden **Indstillinger**, vil du muligvis bemærke, at rullelisten i kommandoboksen angiver, at du stadig søger i det forrige regnskab. Dette problem opstår, når du åbner siden **Indstillinger** direkte fra kommandoboksen. I dette tilfælde skiftes regnskabet korrekt, og du vil faktisk søge i det regnskab, du har skiftet til. Problemet er, at rullelisten i kommandoboksen ikke er blevet opdateret endnu. For at rullelisten skal afspejle det regnskab, du vil søge i, skal du lukke eller frigøre [!INCLUDE [prod_short.md](includes/prod_short.md)] fra kommandoboksen og derefter åbne appen igen.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Fejlen "Noget gik galt" vises ved søgning efter kontakter
+
+Du kan opleve denne fejl, når du søger i et regnskab, der ikke er initialiseret eller ikke er i stand til at svare. Du kan f.eks. ikke søge i et nyt prøveregnskab, hvor vilkårene for anvendelse endnu ikke er blevet accepteret. Du kan løse dette problem ved at logge på [!INCLUDE [prod_short.md](includes/prod_short.md)]-webklienten og reagere på eller lukke de indledende dialogbokse, der vises.
+
+## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Fejlen "Kontaktpersonens API blev ikke fundet" vises under søgning efter kontakter
+
+Dette problem kan skyldes tilpasninger eller branchespecifikke løsninger, som påvirker, ændrer eller ikke angiver en kontakt-API i [!INCLUDE [prod_short.md](includes/prod_short.md)]. Hvis problemet fortsætter, skal du kontakte din administrator eller supportudbyder.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Ingen af mine links udvides til et kort 
 
@@ -36,11 +59,11 @@ Hvis du oplever dette problem, kan du prøve at:
 
 2. Kontroller derefter, at du har logget ind med den korrekte identitet.
 
-    I Teams skal du gå til en vilkårlig chat og under meddelelsesboksen skal du vælge ikonet [!INCLUDE [prod_short](includes/prod_short.md)]. Når vinduet vises, skal du kontrollere, om brugeren har forbindelse, så det passer til det, du bruger til at oprette forbindelse til [!INCLUDE [prod_short](includes/prod_short.md)].
+    I Teams skal du gå til en vilkårlig chat, højreklikke under meddelelsesboksen på ikonet [!INCLUDE [prod_short](includes/prod_short.md)] og derefter vælge **Indstillinger**. Når vinduet vises, skal du kontrollere, om brugeren har forbindelse, så det passer til det, du bruger til at oprette forbindelse til [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Kontroller at kodeenhed 2718 **Page Summary Provider** udgives som en webtjeneste.
 
-    Teams opretter forbindelse til [!INCLUDE [prod_short](includes/prod_short.md)]ved hjælp af et slutpunkt til denne kodeenhed på [!INCLUDE [prod_short](includes/prod_short.md)]-tjenesten. Du kan finde flere oplysninger om udgivelse af webtjenester under [Udgive en webtjeneste](across-how-publish-web-service.md).
+    Teams opretter forbindelse til [!INCLUDE [prod_short](includes/prod_short.md)] ved hjælp af et slutpunkt til denne kodeenhed på [!INCLUDE [prod_short](includes/prod_short.md)]-tjenesten. Du kan finde flere oplysninger om udgivelse af webtjenester under [Udgive en webtjeneste](across-how-publish-web-service.md).
 
 4. Din organisation kan også begrænse, at du indsætter hyperlinks i kort. Kontakt administratoren for at få kendskab til de team politikker, der gælder for dig.
 
@@ -48,10 +71,9 @@ Hvis du oplever dette problem, kan du prøve at:
 
 Et link kan ikke udvides til et kort i følgende situationer:
 
-- Hyperlinket er mål for en side af en type, der ikke repræsenterer en post. Det kan f. eks. være et link til [!INCLUDE [prod_short](includes/prod_short.md)] Rollecenter. Du kan kontrollere sidetypen ved hjælp af side inspektions ruden i webklienten i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om side inspektion under [inspicere sider ](across-inspect-page.md).
-- Hyperlinket er rettet mod en side, som (på et teknisk niveau) ikke er knyttet til en kildetabel i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan kontrollere om en side har en kildetabel ved hjælp af sideinspektionsruden i webklienten i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om side inspektion under [inspicere sider ](across-inspect-page.md). 
-- Teams understøtter ikke linkeksempler i alle funktioner. Når du opretter en chat, at du f. eks. har et møde, eller du er gæst hos en anden organisation.
-- Teams afbryder uovervåget forsøg på at vise kortet efter 15 sekunder, f. eks. pga. netværksproblemer.
+- Hyperlinket er rettet mod en side, som (på et teknisk niveau) ikke er knyttet til en kildetabel i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan kontrollere om en side har en kildetabel ved hjælp af sideinspektionsruden i webklienten i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om sideinspektion i [Inspicere sider](across-inspect-page.md).
+- Teams understøtter ikke linkeksempler i alle sine funktioner. Det kan f.eks. ske, når du åbner en chat, eller du er gæst hos en anden organisation.
+- Teams afbryder uovervåget forsøg på at vise kortet efter 15 sekunder, f.eks. pga. netværksproblemer.
 - Teams kan ikke udvide hyperlinket, hvis du allerede har indsat et hyperlink i den samme meddelelsesboks og har slettet kortet.
 
 Linket skal også indeholde alle de oplysninger, der er nødvendige for at finde posten og få vist det tilsvarende kort. Disse oplysninger omfatter:
@@ -65,11 +87,7 @@ Eksempler:
 
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
-Du kan finde tekniske oplysninger om [!INCLUDE [prod_short](includes/prod_short.md)]-URL-adresser i [webklientens URL-adresse ](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) i [!INCLUDE [prod_short](includes/prod_short.md)]-hjælp til udviklere og it-fagfolk.
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>Kortet vises i meddelelsesboksen, men hvis du vælger knappen detaljer, sker der ingenting. 
-
-Når et hyperlink er udvidet til et kort i boksen meddelelses meddelelse, skal du sende meddelelsen til chatten, før du kan bruge knappen **Detaljer**.
+Du kan finde tekniske oplysninger om URL-adresser for [!INCLUDE [prod_short](includes/prod_short.md)] under [Webklientens URL-adresse](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls) i [!INCLUDE [prod_short](includes/prod_short.md)]-hjælp til udviklere og it-fagfolk.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Vinduet detaljer åbnes, men der vises en fejlmeddelelse, inden detaljer vises
 
@@ -89,7 +107,7 @@ Dette problem kan skyldes et par ting: manglende tilladelser i [!INCLUDE [prod_s
 
     Du kan finde flere oplysninger om minimumskrav til browseren i [Minimumskrav til brug af [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Jeg har problemer med kameraet eller stedet i grupper 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Jeg har problemer med kameraet eller stedet i grupper
 
 Når du bruger [!INCLUDE [prod_short](includes/prod_short.md)]-funktioner i vinduet detaljer, som kræver adgang til din placering eller dit enheds kamera, skal du først give dit samtykke til, at teams kan få adgang til disse enhedsfunktioner.  
 
@@ -101,7 +119,7 @@ Hvis du vil have hjælp til at ændre disse indstillinger, skal du se [Mit kamer
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-appen understøtter ikke placering i Teams-desktopappen. Du kan finde flere oplysninger om placering i [Ofte stillede spørgsmål om Teams](teams-faq.md#location).
 
-Nogle browsere, f. eks. den nye Microsoft Edge, giver dig mulighed for at vælge, hvilket enheds kamera der skal bruges, når enheden understøtter flere kameraer. 
+Nogle browsere, f.eks. den nye Microsoft Edge, giver dig mulighed for at vælge, hvilket enheds kamera der skal bruges, når enheden understøtter flere kameraer. 
 
 ## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams viser blandede sprog for mine kort og kort detaljer
 

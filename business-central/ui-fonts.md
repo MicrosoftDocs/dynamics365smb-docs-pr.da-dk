@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/20/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 0267d4af029410da2107fbb4bbbde2e27c364e31
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493250"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5869969"
 ---
 # <a name="available-fonts"></a>Tilgængelige skrifttyper
 
@@ -45,7 +45,7 @@ MICR-skrifttyper (Magnetic Ink Character Recognition) er installeret og klar til
 
 Ud over MICR-skrifttyper er særlige sikkerhedsskrifttyper tilgængelige, så du kan oprette tekst, navne, beløb og valutasymbolerne dollar, euro, pund og yen, som er svære at ændre, når en check først er udskrevet.  
 
-Du kan finde flere oplysninger under [Vælge et checklayout](finance-how-define-check-layouts.md).  
+Du kan finde flere oplysninger i [Vælge et checklayout](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Skrifttyper til stregkoder
 De skrifttyper, der bruges til at oprette endimensionelle stregkoder, er installeret og tilgængelige til brug i både Word-og RDLC-rapportlayout.
@@ -58,11 +58,13 @@ Følgende stregkode-symbologier understøttes:
 * MSI
 * Interleaved 2 af 5
 
+Du kan finde flere oplysninger i [Stregkodeskrifttyper i Business Central Online.](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
+
 ## <a name="see-also"></a>Se også
 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Vælge et checklayout](finance-how-define-check-layouts.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Stregkodeskrifttyper i Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,18 +5,18 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9d282ea35f7b4bdf317e818504f061d4145404bd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ba15a65317ebf52579c285c93dd59eba1b65ae1b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378994"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787103"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportvalg i Business Central
 
-Du kan angive standardrapporter, der kan anvendes til at udskrive de forskellige dokumenter til salg og køb, f.eks. ordrer, tilbud, fakturaer og kreditnotaer. Hvis du f. eks. har et bestemt layout til salgsfakturaer, kan du angive den rapport i **Rapportvalg - salg**-siden, så de bruges til at sende eller udskrive salgsfakturaer.  
+Du kan angive standardrapporter, der kan anvendes til at udskrive de forskellige dokumenter til salg og køb, f.eks. ordrer, tilbud, fakturaer og kreditnotaer. Hvis du f.eks. har et bestemt layout til salgsfakturaer, kan du angive den rapport i **Rapportvalg - salg**-siden, så de bruges til at sende eller udskrive salgsfakturaer.  
 
 På **Rapportvalg**-siderne kan du angive, hvilken rapport der skal udskrives i forskellige situationer. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder standardkonfigurationer, men du kan selvfølgelig ændre disse standarder. Du kan også tilføje rapporter til **Rapportvalg**-siderne, hvis du f.eks. vil udskrive mere end en rapport pr.dokumenttype.  
 
@@ -32,7 +32,7 @@ På **Rapportvalg**-siderne kan du angive, hvilken rapport der skal udskrives i 
 |Definere rapporter for momsrapportering (Tyskland)|[Konfigurere rapporter til moms og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Din [!INCLUDE [prod_short](includes/prod_short.md)]kan f.eks. omfatte yderligere **Rapportvalg**-sider, afhængigt af f. eks. og branche. Du kan altid kontrollere opsætningen ved at vælge den ![Elpære, der åbner Fortæl mig-funktionsikonet](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og skrive **Rapportvalg** og derefter vælge det relevante link.
+> Din [!INCLUDE [prod_short](includes/prod_short.md)] kan f.eks. omfatte yderligere **Rapportvalg**-sider, afhængigt af f.eks. og branche. Du kan altid kontrollere opsætningen ved at vælge den ![Elpære, der åbner Fortæl mig-funktionsikonet](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og skrive **Rapportvalg** og derefter vælge det relevante link.
 
 Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer følgende **Rapportsektion**-sider:
 
@@ -52,7 +52,7 @@ Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer 
 
 Visse dokumenttyper kan sendes som vedhæftede filer i e-mails, og andre kan ikke. Hver **Rapportvalg**-side viser yderligere felter, hvis typen understøtter e-mail fra kassen.  
 
-I **Rapportvalget-salg** og **Rapportvalg-køb**-sider kan du f. eks. oprette e-mail med følgende felter:
+I **Rapportvalget-salg** og **Rapportvalg-køb**-sider kan du f.eks. oprette e-mail med følgende felter:
 
 |Feltnavn |Description  |
 |-----------|-------------|

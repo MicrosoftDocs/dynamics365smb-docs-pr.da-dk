@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4961845f9b79f9eaca17b5ac6f379f9d1835f26e
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e5be238c74496ca92c0f26ef0c2a1377a6c93466
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382450"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786064"
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
@@ -103,7 +103,7 @@ Feltet **Flaskehals** angiver, hvilken vare i styklistestrukturen, der begrænse
 Siden **Disponering af vare efter enhed** viser disponeringen af en vare opdelt i de enheder, den opbevares i.
 
 > [!NOTE]  
-> Hvis du vil holde disse oplysninger ajourførte, skal du konvertere Vareenheder. Hvis du f.eks. køber en vare i en enhed, f. eks. kasser, og du sælger varer i en anden enhed, f. eks. styk, skal du bruge en varekladde til at konvertere enhederne eller "pakke varer ud". Du kan bruge en kladdelinje for en vare med nedregulering til at reducere lagerbeholdningen i købets måleenhed, f. eks. kasser, og en opregulering for at øge lagerbeholdningen i salgsenheder, f. eks. stykker. 
+> Hvis du vil holde disse oplysninger ajourførte, skal du konvertere Vareenheder. Hvis du f.eks. køber en vare i en enhed, f.eks. kasser, og du sælger varer i en anden enhed, f.eks. styk, skal du bruge en varekladde til at konvertere enhederne eller "pakke varer ud". Du kan bruge en kladdelinje for en vare med nedregulering til at reducere lagerbeholdningen i købets måleenhed, f.eks. kasser, og en opregulering for at øge lagerbeholdningen i salgsenheder, f.eks. stykker. 
 
 ## <a name="assembly-availability-page"></a>Siden Montagedisponering
 Siden **Montagedisponering** indeholder detaljerede disponeringsoplysninger for montageelementet. Vinduet åbnes:

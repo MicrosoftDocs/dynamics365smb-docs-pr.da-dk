@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cbb505865e061bfa8017699a2127206bb25f91b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e20208d50eb65f1a92e6661396bf53007ab88eb8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381977"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786878"
 ---
 # <a name="working-with-business-central-data-in-microsoft-teams"></a>Arbejde med Business Central-data i Microsoft Teams
 
@@ -35,17 +35,17 @@ Med [!INCLUDE [prod_short](includes/prod_short.md)]-appen kan du:
 ## <a name="prerequisites"></a>Forudsætninger
 
 - Du har adgang til Microsoft Teams.
-- Du har installeret [!INCLUDE [prod_short](includes/prod_short.md)]-appen i grupper. Du kan finde flere oplysninger under [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-app til Microsoft Teams](across-install-app-for-teams.md).
+- Du har installeret [!INCLUDE [prod_short](includes/prod_short.md)]-appen i grupper. Du kan finde flere oplysninger i [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-app til Microsoft Teams](across-install-app-for-teams.md).
 
 > [!NOTE]
-> Alle deltagerne i en samtale med Teams vil kunne få vist kort til Business Central-poster, som du sender til samtalen. Men hvis du vil have vist flere detaljer om poster, bruge **Detaljer** eller **Pop-op**-knapper på et kort, skal de have adgang til [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger under [Administrere Microsoft Teams-integration](admin-teams-integration.md#minimum-requirements-1).
+> Alle deltagerne i en samtale med Teams vil kunne få vist kort til Business Central-poster, som du sender til samtalen. Men hvis du vil have vist flere detaljer om poster, bruge **Detaljer** eller **Pop-op**-knapper på et kort, skal de have adgang til [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Administrere Microsoft Teams-integration](admin-teams-integration.md#minimum-requirements-1).
 
 ## <a name="include-a-business-central-card-in-a-teams-conversation"></a>Medtage et Business Central-kort i en samtale med Teams
 
 1. Log ind [!INCLUDE [prod_short](includes/prod_short.md)] for at bruge browseren.
 2. Åbn den post, du vil dele.
 
-    Appen er designet til at vise sider med korttyper fra [!INCLUDE [prod_short](includes/prod_short.md)]. Åbne en side, hvor der vises en enkelt post, f. eks. en vare, kunde eller salgsordre. Du kan ikke bruge den til rollecentre eller sider, hvor der vises flere poster på en liste.
+    Appen er designet til at vise sider med korttyper fra [!INCLUDE [prod_short](includes/prod_short.md)]. Åbne en side, hvor der vises en enkelt post, f.eks. en vare, kunde eller salgsordre. Du kan ikke bruge den til rollecentre eller sider, hvor der vises flere poster på en liste.
 
 3. Kopiere hele URL-adressen fra browserens adresselinje.
 

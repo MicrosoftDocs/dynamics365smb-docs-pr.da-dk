@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cfd44c40b36c83c8a48b6691bfb50134e7295e56
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1f6cd57763d4242e3e435a9ed8b00354c1545e6f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377369"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787373"
 ---
 # <a name="the-company-hub-for-business-central-extension"></a>Virksomhedshub til udvidelsen af Business Central
 
-Dette program indeholder et dashboard med oversigtsdata for hvert regnskab, som brugeren har adgang til på tværs af alle [!INCLUDE [prod_short](includes/prod_short.md)] online, f. eks. en bogholders mange klienter. Startsiden viser de økonomiske nøgletal samt en direkte forbindelse til de enkelte miljøer og regnskaber, så brugerne kan.
+Dette program indeholder et dashboard med oversigtsdata for hvert regnskab, som brugeren har adgang til på tværs af alle [!INCLUDE [prod_short](includes/prod_short.md)] online, f.eks. en bogholders mange klienter. Startsiden viser de økonomiske nøgletal samt en direkte forbindelse til de enkelte miljøer og regnskaber, så brugerne kan.
 
 Et dashboard er et højt specialiseret rollecenter, der giver et bedre overblik over dit arbejde.
 

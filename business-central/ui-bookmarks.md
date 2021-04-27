@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376683"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787473"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bogmærke en side eller en rapport i rollecenteret
 Med bogmærkeikonet kan du tilføje en handling, der åbner en side eller en rapport fra navigationsmenuen i dit rollecenter. På den måde kan du hurtigt få adgang til dit foretrukne indhold eller dine forretningsopgaver. Du kan tilføje bogmærket fra målsiden eller rapporten, dvs. det skærmbillede, du vil have linket i rollecenteret til at åbne.
@@ -60,7 +60,7 @@ Muligheden for at bogmærke en side eller en rapport er en af mange bruger tilpa
 - **Hvorfor kan jeg ikke bogmærke bestemte sider eller rapporter?**  
 Ikke alle sider og rapporter kan gives et bogmærke. Når en side eller en rapport køres i en særlig kontekst, der er omfattet af forretningsprogrammet, vises bogmærkeikonet ikke. F.eks. kan sider, der ikke findes i vinduet **Fortæl mig**, men startes fra andre steder, ikke vise et bogmærkeikon. På samme måde vil rapportanmodningssider, der kun bruges til at indsamle filtre uden at køre rapporten, ikke vise et bogmærkeikon.
 
-Se tekniske oplysninger om [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) og [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+Se tekniske oplysninger om [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) og [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Når mine personlige indstillinger fjernes, slettes mine bogmærker så også?**  
 Ja. Bogmærker findes i navigationsmenuen. Hvis du rydder ændringer i navigationsmenuen fra en side eller rydder alle tilpasninger i rollecenteret, fjernes alle dine nye handlinger permanent.

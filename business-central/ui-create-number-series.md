@@ -9,26 +9,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385945"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5869994"
 ---
 # <a name="create-number-series"></a>Oprette nummerserie
 For hver af de virksomheder, som du opretter, skal du knytte entydige id-koder til ting som finanskonti, debitor- og kreditorkonti, fakturaer og andre dokumenter. Nummereringen er ikke kun vigtig til identifikation. Et veludviklet nummereringssystem gør det også nemmere at administrere og foretage analyse i virksomheden og kan reducere antallet af dataindtastningsfejl.
 
 > [!Important]
 > Der er som standard ikke tilladt huller i nummerserier, fordi den nøjagtige historik over økonomiske transaktioner i henhold til lovgivningen skal være tilgængelig for revision og derfor skal følge en ubrudt rækkefølge uden slettede numre.<br /><br />
-Hvis du vil tillade huller i visse nummerserier, skal du først rådføre dig med din revisor eller regnskabschef for at sikre, at du overholder de juridiske krav i dit land/område. Du kan finde flere oplysninger under [Huller i nummerserier](ui-create-number-series.md#gaps-in-number-series).
+Hvis du vil tillade huller i visse nummerserier, skal du først rådføre dig med din revisor eller regnskabschef for at sikre, at du overholder de juridiske krav i dit land/område. Du kan finde flere oplysninger i [Huller i nummerserier](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
 >   Det anbefales, at du bruger samme nummerseriekoder, som du kan se vist på siden **Nummerserieoversigt** i demoregnskabet CRONUS. Koder som *K-FAK+* giver muligvis ikke mening for dig, men [!INCLUDE[prod_short](includes/prod_short.md)] har en række standardindstillinger, som afhænger af disse nummerseriekoder.
 
 Du kan oprette et nummereringssystem ved at oprette en eller flere koder for hver type stamdata eller dokument. Du kan f.eks. oprette en kode til nummerering af debitorer, en anden kode til nummerering af salgsfakturaer og en anden kode til nummerering af dokumenter i finanskladder. Når du har oprettet en kode, skal du konfigurere mindst én nummerserielinje. Nummerserielinjen indeholder oplysninger som f.eks. det første og sidste nummer i serien og startdatoen. Du kan oprette mere end en nummerserielinje pr. nummerseriekode med en anden startdato for hver linje. Serierne bruges efter hinanden, hvor hver serie starter på den pågældende startdato.
+
+> [!NOTE]
+> Et tals maksimale længde i en nummerserie er 20 tegn. Der kan være situationer, hvor [!INCLUDE[prod_short](includes/prod_short.md)] vil tilføje et nummer med et systemgenereret id. Når dokumenter som f.eks. fakturaer bruges til at udligne transaktioner, f.eks. betalinger, genererer [!INCLUDE[prod_short](includes/prod_short.md)] id'er for de udlignede transaktioner. Id'et består af et nummer fra en nummerserie og et systemtildelt id på seks tegn, f.eks. -12345. Hvis du forventer at skulle behandle mere end 9999 dokumenter i bank- eller GIRO-kladder eller indbetalingskladder, skal du oprette en nummerserie til disse typer dokumenter, hvor numrene indeholder mindre end 14 tegn.
 
 Normalt vil du indstille dine nummerserier til automatisk at indsætte det næste fortløbende nummer på nye kort eller i dokumenter, du opretter. Men du kan også konfigurere en nummerserie til at tillade, at du manuelt angive det nye nummer. Du kan angive dette med afkrydsningsfeltet **Manuel nummerering**.
 

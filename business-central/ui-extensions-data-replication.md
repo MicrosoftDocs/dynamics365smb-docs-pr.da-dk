@@ -1,5 +1,5 @@
 ---
-title: Business Central intelligente skyudvidelser til skymigrering | Microsoft Docs
+title: Udvidelser af skymigrering
 description: Brug skymigreringsudvidelserne til at flytte lokale data til Business Central online. Disse udvidelser flytter data, der findes i den lokale sky, til skyen, så du kan bruge Business Central online med dine eksisterende data.
 author: jenolson
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377344"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889120"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligente skyudvidelser til skymigrering
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Udvidelser af skymigrering for migrering til Business Central Online
 
 Afhængigt af løsningen i det lokale miljø, skal du bruge forskellige filtypenavne til at oprette forbindelse til dine data med [!INCLUDE[prod_short](includes/prod_short.md)] online for at kunne overflytte løsningen til skyen.  
 
@@ -43,8 +43,7 @@ Hvis du bruger Dynamics SL, skal du hente udvidelsen **Intelligent cloudbase**, 
 
 ## <a name="see-also"></a>Se også
 
-[Intelligent indsigt](about-intelligent-cloud.md)  
-[Intelligent sky basisudvidelsen](ui-extensions-intelligent-cloud.md)  
-
+[Udvidelser af skymigreringsbase](ui-extensions-intelligent-cloud.md)  
+[Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386295"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882201"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Styring af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,6 +35,7 @@ I dette afsnit beskrives minimumkrav til [!INCLUDE [prod_short](includes/prod_sh
 
     |Hvad|Teams-licens|[!INCLUDE [prod_short](includes/prod_short.md)]-licens|
     |----|---|---|
+    |Søg efter kontakter i [!INCLUDE [prod_short](includes/prod_short.md)].|![markering](media/check.png "check")|![markering](media/check.png "check")|
     |Indsæt et link til en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale, og send den som et kort.|![markering](media/check.png "check")|![markering](media/check.png "check")|
     |Se et kort over en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![markering](media/check.png "check")||
     |Se flere oplysninger om et kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![markering](media/check.png "check")|![markering](media/check.png "check")|
@@ -49,8 +50,8 @@ Som Teams-administrator kan du administrere alle apps for din organisation, heru
 
 Du kan finde flere oplysninger i følgende artikler i Microsoft Teams-dokumentationen:
 
-- [Administrer dine apps i Microsoft Teams Administration](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [Administrer politikker for app-opsætning i Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Administrere dine apps i Microsoft Teams Administration](/MicrosoftTeams/manage-apps)
+- [Administrere politikker for app-opsætning i Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="in-prod_short"></a>I [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -58,7 +59,7 @@ Du kan finde flere oplysninger i følgende artikler i Microsoft Teams-dokumentat
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] version:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 release Wave 2, opdatering 17.3 eller nyere. Teams-integration understøttes kun [!INCLUDE [prod_short](includes/prod_short.md)] online, men ikke lokalt.
+    [!INCLUDE [prod_short](includes/prod_short.md)] 2021 udgivelsesbølge 1 eller nyere. Teams-integration understøttes kun [!INCLUDE [prod_short](includes/prod_short.md)] online, men ikke lokalt.
 
 - Kode enhed **2718 Page Summary Provider** udgives som en webtjeneste:
 
@@ -66,8 +67,9 @@ Du kan finde flere oplysninger i følgende artikler i Microsoft Teams-dokumentat
 
 - <a name="permissions"></a>Brugerrettigheder:
 
-    De sider og data, som brugerne kan få vist og redigere i en Teams-samtale, kontrolleres oftest af deres tilladelser i [!INCLUDE [prod_short](includes/prod_short.md)].
+    De kontaktsøgninger, sider og data, som brugere kan få vist og redigere i en Teams-samtale, kontrolleres oftest af deres tilladelser i [!INCLUDE [prod_short](includes/prod_short.md)].
     
+    - Hvis du vil søge efter kontakter, skal brugere som minimum have læsetilladelse til tabellen **Kontakter**. 
     - Hvis du vil indsætte et [!INCLUDE [prod_short](includes/prod_short.md)]-hyperlink i en Teams-samtale og få den på et kort, skal brugerne som minimum have læsetilladelse til siden og dens data.
     - Når et kort er sendt til en samtale, kan alle brugere i denne samtale se dette kort uden tilladelse til [!INCLUDE [prod_short](includes/prod_short.md)].
     - Hvis du vil have vist flere detaljer om et kort eller åbne posten i [!INCLUDE [prod_short](includes/prod_short.md)], skal brugere have læsetilladelse til siden og dens data.
@@ -81,7 +83,7 @@ Microsoft Teams indeholder omfattende styring af overholdelse og håndtering af 
 
 ### <a name="understanding-where-prod_short-cards-are-stored"></a>Om, hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort gemmes 
 
-Når et kort er sendt til en chat, kopieres kortet og de felter, der vises på kortet, til team. Disse oplysninger er underlagt team politikkerne for organisationen, f. eks. politikker for opbevaring af data. Når der vises kort detaljer, er ingen af dataene i vinduet detaljer gemt i grupper. Dataene gemmes stadig i [!INCLUDE [prod_short](includes/prod_short.md)] og bliver kun hentet af Teams, når brugeren vælger at få vist detaljerne. 
+Når et kort er sendt til en chat, kopieres kortet og de felter, der vises på kortet, til team. Disse oplysninger er underlagt team politikkerne for organisationen, f.eks. politikker for opbevaring af data. Når der vises kort detaljer, er ingen af dataene i vinduet detaljer gemt i grupper. Dataene gemmes stadig i [!INCLUDE [prod_short](includes/prod_short.md)] og bliver kun hentet af Teams, når brugeren vælger at få vist detaljerne. 
 
 - Du kan finde flere oplysninger om, hvor grupper lagrer disse data, i [Placering af data i Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Du kan få mere at vide om opbevaringspolitikker i grupper under [Opbevaringspolitikker i Microsoft Teams](/microsoftteams/retention-policies).
@@ -92,13 +94,13 @@ Du kan forhindre, at bestemte brugere eller grupper sender kort til chatrum elle
 
 Du kan også bruge informations hinder til at forhindre, at personer eller grupper kommunikerer med hinanden. Du kan finde flere oplysninger i [Informationsbarrierer i Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Funktionerne til forebyggelse af datatab i Microsoft 365 Security & Compliance Center kan ikke anvendes specifikt på kort. Men de kan anvendes på de chatmeddelelser, der indeholder kortene. Du kan spore kommende avancerede funktioner, der omfatter aktivering af DLP til kort, i [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Funktionerne til forebyggelse af datatab i Microsoft 365 Security & Compliance Center kan ikke anvendes specifikt på kort. Men de kan anvendes på de chatmeddelelser, der indeholder kortene. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Reagere på anmodninger om data
 
 Du kan give teammedlemmer og team ejere mulighed for at slette meddelelser, der indeholder følsomme kort, ved at oprette meddelelses politikker, f. eks **Ejere kan slette sendte meddelelser** og **Brugere kan slette sendte meddelelser**. Du kan finde flere oplysninger om denne indstilling under [Administrér meddelelsespolitikker i Teams](/microsoftteams/messaging-policies-in-teams).
 
-Indholdssøgning og opdagelse af overholdelsesfunktioner i i Microsoft 365 Security & Compliance Center kan ikke anvendes specifikt på kort. Men de kan anvendes på de chatmeddelelser, der indeholder kort. Du kan spore kommende kompatibilitetsfunktioner for kort i [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Indholdssøgning og overholdelsesfunktioner i eDiscovery i Microsoft 365 Security & Compliance Center kan også anvendes til kort.
 
 Da kortdata i grupper er en kopi af data i [!INCLUDE [prod_short](includes/prod_short.md)], kan du også bruge [!INCLUDE [prod_short](includes/prod_short.md)]-funktioner til at eksportere en kundes data, hvis der er anmodet om det. Du kan finde flere oplysninger om beskyttelse af personlige oplysninger i [!INCLUDE [prod_short](includes/prod_short.md)] under [Ofte stillede spørgsmål om beskyttelse Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
-ms.date: 02/18/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a69c0b35c87b6da4d8910fb71255767e6d363597
-ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
+ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476815"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787228"
 ---
 # <a name="set-up-prices-and-discounts"></a>Konfigurere priser og rabatter
 > [!NOTE]
@@ -39,7 +39,7 @@ Da salgspriser og salgslinjerabatter er baseret på en kombination af vare og de
 > Hvis du ikke ønsker, at en vare nogensinde skal sælges med rabat, kan du lade rabatfelterne på varekortet være tomme, og medtag ikke varen i nogen opsætningen af linjerabat.
 
 ## <a name="about-price-lists"></a>Om prislister
-Prislister er fleksible og giver dig mulighed for at angive den samarbejdspartner eller-aktivitet, som de gælder for. Du kan f. eks. oprette en prisliste, der gælder for alle kreditorer og debitorer, eller tilbyde special priser eller rabatter for hver forretningspartner, eventuelt baseret på et minimumantal på købs- eller salgsordrer eller en bestemt kombination af debitor, vare, minimumsantal, enhed eller tidsperioder. De priser og rabatter, du definerer, anvendes automatisk på købs- og salgsdokumenter. 
+Prislister er fleksible og giver dig mulighed for at angive den samarbejdspartner eller-aktivitet, som de gælder for. Du kan f.eks. oprette en prisliste, der gælder for alle kreditorer og debitorer, eller tilbyde special priser eller rabatter for hver forretningspartner, eventuelt baseret på et minimumantal på købs- eller salgsordrer eller en bestemt kombination af debitor, vare, minimumsantal, enhed eller tidsperioder. De priser og rabatter, du definerer, anvendes automatisk på købs- og salgsdokumenter. 
 
 ## <a name="set-up-prices"></a>Oprette priser
 
@@ -193,7 +193,7 @@ Hvis du vil opdatere priser for flere varer, skal du oprette en ny prisliste og 
 ---
 
 ## <a name="calculating-the-best-price"></a>Beregne bedste pris
-Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger under [Beregning af bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger i [Beregning af bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 ## <a name="see-also"></a>Se også
 [Konfigurere salg](sales-setup-sales.md)  

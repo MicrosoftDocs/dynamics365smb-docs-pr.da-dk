@@ -10,22 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0ebed6a95212fdcf00b54af823684ae139e29638
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388470"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786319"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allokere omkostninger til IC-partnere
-Når du bruger Intercompany-bogføringer til at overføre dokumenter mellem partner firmaer, har momsrelaterede indstillinger (primært den momsvirksomhedsbogføringsgruppe), der er tildelt debitor-eller kreditorkontiene (associeret med IC-partneren), at bestemme, om og hvordan moms skal beregnes og registreres. Du kan også foretage omkostningsfordelinger direkte fra en købsordre til partnervirksomheder. Hvis du f. eks. registrerer en købsfaktura fra en ekstern leverandør, og du vil distribuere nogle eller alle omkostninger til en eller flere IC-partnere.
+Når du bruger Intercompany-bogføringer til at overføre dokumenter mellem partner firmaer, har momsrelaterede indstillinger (primært den momsvirksomhedsbogføringsgruppe), der er tildelt debitor-eller kreditorkontiene (associeret med IC-partneren), at bestemme, om og hvordan moms skal beregnes og registreres. Du kan også foretage omkostningsfordelinger direkte fra en købsordre til partnervirksomheder. Hvis du f.eks. registrerer en købsfaktura fra en ekstern leverandør, og du vil distribuere nogle eller alle omkostninger til en eller flere IC-partnere.
 
 Du kan allokere omkostninger til en eller flere IC-partnere på følgende måde:
 
 * **IC-finanskladder** – disse kladder er nyttige, når en service købes. F. eks. Når en modervirksomhed betjener en service for at opsætte computersystemer i to datterselskaber. Fakturaen sendes til moderselskabet, men omkostningerne fordeles til partnerne. Du kan finde flere oplysninger i [Arbejde med IC-dokumenter og kladder](intercompany-how-work-documents-journals.md).
-* Købsordrer og fakturaer-brug af købsdokumenter er nyttige, når du f. eks. opererer med køb, f. eks. driftsudgifter, er centraliseret i ét regnskab og derefter allokeret til IC-partnerne.
+* Købsordrer og fakturaer-brug af købsdokumenter er nyttige, når du f.eks. opererer med køb, f.eks. driftsudgifter, er centraliseret i ét regnskab og derefter allokeret til IC-partnerne.
 
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Sådan allokeres omkostninger vha. en IC-finanskladde
 Hvis du vil angive en linje i en IC-finanskladde, skal du følge disse trin. 
