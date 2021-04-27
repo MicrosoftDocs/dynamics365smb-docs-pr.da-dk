@@ -11,29 +11,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f7016bb826b553299c4fbfcb205b35894a87896
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6f1745dfec453f5864b748d0c876e5ef040fc2df
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380959"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775466"
 ---
-# <a name="specify-posting-periods"></a><span data-ttu-id="c93db-103">Angive bogføringsperioder</span><span class="sxs-lookup"><span data-stu-id="c93db-103">Specify Posting Periods</span></span>
-<span data-ttu-id="c93db-104">Brug bogføringsperioder til at angive, hvornår brugerne kan bogføre i finansregnskabet.</span><span class="sxs-lookup"><span data-stu-id="c93db-104">Use posting periods to specify when users can post to the general ledger.</span></span>  
+# <a name="specify-posting-periods"></a><span data-ttu-id="11cca-103">Angive bogføringsperioder</span><span class="sxs-lookup"><span data-stu-id="11cca-103">Specify Posting Periods</span></span>
+<span data-ttu-id="11cca-104">Brug bogføringsperioder til at angive, hvornår brugerne kan bogføre i finansregnskabet.</span><span class="sxs-lookup"><span data-stu-id="11cca-104">Use posting periods to specify when users can post to the general ledger.</span></span>  
 
-## <a name="to-specify-posting-periods"></a><span data-ttu-id="c93db-105">Sådan angives bogføringsperioder</span><span class="sxs-lookup"><span data-stu-id="c93db-105">To specify posting periods</span></span>
-1. <span data-ttu-id="c93db-106">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="c93db-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="c93db-107">På siden **Opsætning af Finans** skal du definere perioden ved at angive datoer i felterne **Bogf. tilladt fra** og **Bogf. tilladt til**.</span><span class="sxs-lookup"><span data-stu-id="c93db-107">On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.</span></span>  
+## <a name="to-specify-posting-periods"></a><span data-ttu-id="11cca-105">Sådan angives bogføringsperioder</span><span class="sxs-lookup"><span data-stu-id="11cca-105">To specify posting periods</span></span>
+1. <span data-ttu-id="11cca-106">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="11cca-106">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **General Ledger Setup**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="11cca-107">På siden **Opsætning af Finans** skal du definere perioden ved at angive datoer i felterne **Bogf. tilladt fra** og **Bogf. tilladt til**.</span><span class="sxs-lookup"><span data-stu-id="11cca-107">On the **General Ledger Setup** page, define the period by entering dates in the **Allow Posting From** and **Allow Posting To** fields.</span></span>  
 
 > [!NOTE]  
->   <span data-ttu-id="c93db-108">Disse bogføringsperioder gælder for hele virksomheden og alle brugere.</span><span class="sxs-lookup"><span data-stu-id="c93db-108">These posting periods apply to the company and to all users.</span></span> <span data-ttu-id="c93db-109">Hvis du vil tillade undtagelser, kan du angive forskellige bogføringsperioder for bestemte brugere på siden **Brugeropsætning**.</span><span class="sxs-lookup"><span data-stu-id="c93db-109">To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page.</span></span> <span data-ttu-id="c93db-110">Disse bogføringsperioder tilsidesætter dem, der er angivet på siden **Opsætning af Finans**.</span><span class="sxs-lookup"><span data-stu-id="c93db-110">These posting periods overrule those specified on the **General Ledger Setup** page.</span></span> <span data-ttu-id="c93db-111">Du kan finde flere oplysninger i [Sådan opsættes tidsbegrænsninger for brugere](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span><span class="sxs-lookup"><span data-stu-id="c93db-111">For more information, see [To set up user time constraints](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span></span>
+>   <span data-ttu-id="11cca-108">Disse bogføringsperioder gælder for hele virksomheden og alle brugere.</span><span class="sxs-lookup"><span data-stu-id="11cca-108">These posting periods apply to the company and to all users.</span></span> <span data-ttu-id="11cca-109">Hvis du vil tillade undtagelser, kan du angive forskellige bogføringsperioder for bestemte brugere på siden **Brugeropsætning**.</span><span class="sxs-lookup"><span data-stu-id="11cca-109">To allow for exceptions, you can define different posting periods for specific users on the **User Setup** page.</span></span> <span data-ttu-id="11cca-110">Disse bogføringsperioder tilsidesætter dem, der er angivet på siden **Opsætning af Finans**.</span><span class="sxs-lookup"><span data-stu-id="11cca-110">These posting periods overrule those specified on the **General Ledger Setup** page.</span></span> <span data-ttu-id="11cca-111">Du kan finde flere oplysninger i [Sådan opsættes tidsbegrænsninger for brugere](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span><span class="sxs-lookup"><span data-stu-id="11cca-111">For more information, see [To set up user time constraints](ui-define-granular-permissions.md#to-set-up-user-time-constraints).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c93db-112">Se også</span><span class="sxs-lookup"><span data-stu-id="c93db-112">See Also</span></span>
-[<span data-ttu-id="c93db-113">Finans</span><span class="sxs-lookup"><span data-stu-id="c93db-113">Finance</span></span>](finance.md)  
-[<span data-ttu-id="c93db-114">Fuldførelse af periodeafslutningsprocesser</span><span class="sxs-lookup"><span data-stu-id="c93db-114">Completing Period-End Processes</span></span>](year-how-complete-period-end-processes.md)  
-<span data-ttu-id="c93db-115">[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c93db-115">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="11cca-112">Se også</span><span class="sxs-lookup"><span data-stu-id="11cca-112">See Also</span></span>
+[<span data-ttu-id="11cca-113">Finans</span><span class="sxs-lookup"><span data-stu-id="11cca-113">Finance</span></span>](finance.md)  
+[<span data-ttu-id="11cca-114">Fuldførelse af periodeafslutningsprocesser</span><span class="sxs-lookup"><span data-stu-id="11cca-114">Completing Period-End Processes</span></span>](year-how-complete-period-end-processes.md)  
+<span data-ttu-id="11cca-115">[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="11cca-115">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

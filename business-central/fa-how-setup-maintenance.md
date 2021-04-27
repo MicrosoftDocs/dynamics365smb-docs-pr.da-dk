@@ -10,46 +10,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b9077224f4a0b0344b565c55dcfb14db1e90722c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b437f7508537ec438bf90c3a1239e2620e9db196
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380148"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775546"
 ---
-# <a name="set-up-fixed-asset-maintenance"></a><span data-ttu-id="faa06-103">Definere anlægsreparation</span><span class="sxs-lookup"><span data-stu-id="faa06-103">Set Up Fixed Asset Maintenance</span></span>
-<span data-ttu-id="faa06-104">For at administrere vedligeholdelse af anlæg, skal du først angive nogle generelle reparationsoplysninger, en bogføringskonto for reparationsomkostninger og reparationskoder for forskellige typer arbejde, f.eks rutineeftersyn eller reparation.</span><span class="sxs-lookup"><span data-stu-id="faa06-104">To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.</span></span>
+# <a name="set-up-fixed-asset-maintenance"></a><span data-ttu-id="de93f-103">Definere anlægsreparation</span><span class="sxs-lookup"><span data-stu-id="de93f-103">Set Up Fixed Asset Maintenance</span></span>
+<span data-ttu-id="de93f-104">For at administrere vedligeholdelse af anlæg, skal du først angive nogle generelle reparationsoplysninger, en bogføringskonto for reparationsomkostninger og reparationskoder for forskellige typer arbejde, f.eks rutineeftersyn eller reparation.</span><span class="sxs-lookup"><span data-stu-id="de93f-104">To manage fixed asset maintenance, you must first set up some general maintenance information, a posting account for maintenance costs, and maintenance codes for types of work, such as Routine Service or Repair.</span></span>
 
-## <a name="to-set-up-general-maintenance-information"></a><span data-ttu-id="faa06-105">Sådan angives generelle reparationsoplysninger</span><span class="sxs-lookup"><span data-stu-id="faa06-105">To set up general maintenance information</span></span>
-<span data-ttu-id="faa06-106">Hvis du definerer felterne til reparation, kan du bogføre reparationsudgifter fra anlægskladden.</span><span class="sxs-lookup"><span data-stu-id="faa06-106">If you set up the fields for maintenance, you can post maintenance expenses from the fixed asset journal.</span></span>
+## <a name="to-set-up-general-maintenance-information"></a><span data-ttu-id="de93f-105">Sådan angives generelle reparationsoplysninger</span><span class="sxs-lookup"><span data-stu-id="de93f-105">To set up general maintenance information</span></span>
+<span data-ttu-id="de93f-106">Hvis du definerer felterne til reparation, kan du bogføre reparationsudgifter fra anlægskladden.</span><span class="sxs-lookup"><span data-stu-id="de93f-106">If you set up the fields for maintenance, you can post maintenance expenses from the fixed asset journal.</span></span>
 
-1. <span data-ttu-id="faa06-107">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="faa06-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
-2. <span data-ttu-id="faa06-108">Vælg det anlægsaktiv, du vil definere forsikringsdækning for, og vælg derefter handlingen **Rediger**.</span><span class="sxs-lookup"><span data-stu-id="faa06-108">Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.</span></span>
-3. <span data-ttu-id="faa06-109">Udfyld felterne efter behov i oversigtspanelet **Reparation**.</span><span class="sxs-lookup"><span data-stu-id="faa06-109">On the **Maintenance** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. <span data-ttu-id="de93f-107">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="de93f-107">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="de93f-108">Vælg det anlægsaktiv, du vil definere forsikringsdækning for, og vælg derefter handlingen **Rediger**.</span><span class="sxs-lookup"><span data-stu-id="de93f-108">Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.</span></span>
+3. <span data-ttu-id="de93f-109">Udfyld felterne efter behov i oversigtspanelet **Reparation**.</span><span class="sxs-lookup"><span data-stu-id="de93f-109">On the **Maintenance** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-maintenance-codes"></a><span data-ttu-id="faa06-110">Sådan defineres reparationskoder</span><span class="sxs-lookup"><span data-stu-id="faa06-110">To set up maintenance codes</span></span>
-<span data-ttu-id="faa06-111">Når du bogfører reparationsudgifter fra en kassekladde, skal du udfylde feltet **Reparationskode** for at registrere, hvilken slags reparation der er blevet udført, f.eks. rutineeftersyn eller reparation.</span><span class="sxs-lookup"><span data-stu-id="faa06-111">When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.</span></span>
+## <a name="to-set-up-maintenance-codes"></a><span data-ttu-id="de93f-110">Sådan defineres reparationskoder</span><span class="sxs-lookup"><span data-stu-id="de93f-110">To set up maintenance codes</span></span>
+<span data-ttu-id="de93f-111">Når du bogfører reparationsudgifter fra en kassekladde, skal du udfylde feltet **Reparationskode** for at registrere, hvilken slags reparation der er blevet udført, f.eks. rutineeftersyn eller reparation.</span><span class="sxs-lookup"><span data-stu-id="de93f-111">When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.</span></span>
 
-1. <span data-ttu-id="faa06-112">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Reparation**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="faa06-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance**, and then choose the related link.</span></span>
-2. <span data-ttu-id="faa06-113">På siden **Reparation** skal du oprette koder for de forskellige typer reparationsarbejde.</span><span class="sxs-lookup"><span data-stu-id="faa06-113">On the **Maintenance** page, set up codes for different types of maintenance work.</span></span>
+1. <span data-ttu-id="de93f-112">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Reparation**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="de93f-112">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Maintenance**, and then choose the related link.</span></span>
+2. <span data-ttu-id="de93f-113">På siden **Reparation** skal du oprette koder for de forskellige typer reparationsarbejde.</span><span class="sxs-lookup"><span data-stu-id="de93f-113">On the **Maintenance** page, set up codes for different types of maintenance work.</span></span>
 
-## <a name="to-set-up-maintenance-expense-accounts"></a><span data-ttu-id="faa06-114">Sådan defineres reparationskonti</span><span class="sxs-lookup"><span data-stu-id="faa06-114">To set up maintenance expense accounts</span></span>
-<span data-ttu-id="faa06-115">Hvis du vil bogføre reparationsudgifter, skal du først angive et kontonummer på siden **Anlægsbogføringsgrupper**.</span><span class="sxs-lookup"><span data-stu-id="faa06-115">To post maintenance costs, you must first enter an account number on the **FA Posting Groups** page.</span></span>
+## <a name="to-set-up-maintenance-expense-accounts"></a><span data-ttu-id="de93f-114">Sådan defineres reparationskonti</span><span class="sxs-lookup"><span data-stu-id="de93f-114">To set up maintenance expense accounts</span></span>
+<span data-ttu-id="de93f-115">Hvis du vil bogføre reparationsudgifter, skal du først angive et kontonummer på siden **Anlægsbogføringsgrupper**.</span><span class="sxs-lookup"><span data-stu-id="de93f-115">To post maintenance costs, you must first enter an account number on the **FA Posting Groups** page.</span></span>
 
-1. <span data-ttu-id="faa06-116">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsbogføringsgrupper**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="faa06-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.</span></span>
-2. <span data-ttu-id="faa06-117">Udfyld feltet **Reparationskonto** for hver enkelt bogføringsgruppe.</span><span class="sxs-lookup"><span data-stu-id="faa06-117">Fill in the **Maintenance Expense Account** field for each posting group.</span></span>
+1. <span data-ttu-id="de93f-116">Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsbogføringsgrupper**, og vælg derefter det relaterede link.</span><span class="sxs-lookup"><span data-stu-id="de93f-116">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **FA Posting Groups**, and then choose the related link.</span></span>
+2. <span data-ttu-id="de93f-117">Udfyld feltet **Reparationskonto** for hver enkelt bogføringsgruppe.</span><span class="sxs-lookup"><span data-stu-id="de93f-117">Fill in the **Maintenance Expense Account** field for each posting group.</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="faa06-118">Hvis du angive, at reparationsomkostningerne skal allokeres til afdelinger eller projekter, skal du definere allokeringsnøgler.</span><span class="sxs-lookup"><span data-stu-id="faa06-118">To define that maintenance costs are allocated to departments or projects, set up an allocation keys.</span></span> <span data-ttu-id="faa06-119">Du kan finde flere oplysninger i [Angive generelle funktioner for anlægsaktiver](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="faa06-119">For more information, see [Set Up General Fixed Assets Features](fa-how-setup-general.md).</span></span>
+>   <span data-ttu-id="de93f-118">Hvis du angive, at reparationsomkostningerne skal allokeres til afdelinger eller projekter, skal du definere allokeringsnøgler.</span><span class="sxs-lookup"><span data-stu-id="de93f-118">To define that maintenance costs are allocated to departments or projects, set up an allocation keys.</span></span> <span data-ttu-id="de93f-119">Du kan finde flere oplysninger i [Angive generelle funktioner for anlægsaktiver](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="de93f-119">For more information, see [Set Up General Fixed Assets Features](fa-how-setup-general.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="faa06-120">Se også</span><span class="sxs-lookup"><span data-stu-id="faa06-120">See Also</span></span>
-[<span data-ttu-id="faa06-121">Opsætning af Anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="faa06-121">Setting Up Fixed Assets</span></span>](fa-setup.md)  
-[<span data-ttu-id="faa06-122">Anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="faa06-122">Fixed Assets</span></span>](fa-manage.md)  
-[<span data-ttu-id="faa06-123">Finans</span><span class="sxs-lookup"><span data-stu-id="faa06-123">Finance</span></span>](finance.md)  
-[<span data-ttu-id="faa06-124">Introduktion</span><span class="sxs-lookup"><span data-stu-id="faa06-124">Getting Started</span></span>](product-get-started.md)  
-<span data-ttu-id="faa06-125">[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="faa06-125">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="de93f-120">Se også</span><span class="sxs-lookup"><span data-stu-id="de93f-120">See Also</span></span>
+[<span data-ttu-id="de93f-121">Opsætning af anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="de93f-121">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="de93f-122">Anlægsaktiver</span><span class="sxs-lookup"><span data-stu-id="de93f-122">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="de93f-123">Finans</span><span class="sxs-lookup"><span data-stu-id="de93f-123">Finance</span></span>](finance.md)  
+[<span data-ttu-id="de93f-124">Blive køreklar</span><span class="sxs-lookup"><span data-stu-id="de93f-124">Getting Ready for Doing Business</span></span>](ui-get-ready-business.md)  
+<span data-ttu-id="de93f-125">[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="de93f-125">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1699d10a0d01d2143f26fe59313d6ba073272eef
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2717196a170aede43bfb56d796b1da9307ff8d3f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385245"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777187"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a><span data-ttu-id="3f1a5-103">Konfigurere brugerkonti til integration med Microsoft Dataverse</span><span class="sxs-lookup"><span data-stu-id="3f1a5-103">Setting Up User Accounts for Integrating with Microsoft Dataverse</span></span>
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a><span data-ttu-id="78f50-103">Konfigurere brugerkonti til integration med Microsoft Dataverse</span><span class="sxs-lookup"><span data-stu-id="78f50-103">Setting Up User Accounts for Integrating with Microsoft Dataverse</span></span>
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-<span data-ttu-id="3f1a5-104">Denne artikel indeholder en oversigt over opsætning af de brugerkonti, der kræves til at integrere [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="3f1a5-104">This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
+<span data-ttu-id="78f50-104">Denne artikel indeholder en oversigt over opsætning af de brugerkonti, der kræves til at integrere [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="78f50-104">This article provides an overview of how to set up the user accounts that are required to integrate [!INCLUDE[prod_short](includes/cds_long_md.md)] with [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
 
-## <a name="setting-up-the-administrator-user-account"></a><span data-ttu-id="3f1a5-105">Opsætning af administratorbrugerkontoen</span><span class="sxs-lookup"><span data-stu-id="3f1a5-105">Setting Up the Administrator User Account</span></span>
-<span data-ttu-id="3f1a5-106">Du skal tilføje din administratorbrugerkonto for [!INCLUDE[prod_short](includes/prod_short.md)] som en bruger i [!INCLUDE[prod_short](includes/cds_long_md.md)].</span><span class="sxs-lookup"><span data-stu-id="3f1a5-106">You must add your administrator user account for [!INCLUDE[prod_short](includes/prod_short.md)] as a user in [!INCLUDE[prod_short](includes/cds_long_md.md)].</span></span> <span data-ttu-id="3f1a5-107">Når du konfigurerer forbindelsen mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], skal vi bruge denne konto én gang for at installere og konfigurere nogle påkrævede komponenter.</span><span class="sxs-lookup"><span data-stu-id="3f1a5-107">When you set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] we will use this account one time to install and configure some required components.</span></span> 
+## <a name="setting-up-the-administrator-user-account"></a><span data-ttu-id="78f50-105">Opsætning af administratorbrugerkontoen</span><span class="sxs-lookup"><span data-stu-id="78f50-105">Setting Up the Administrator User Account</span></span>
+<span data-ttu-id="78f50-106">Du skal tilføje din administratorbrugerkonto for [!INCLUDE[prod_short](includes/prod_short.md)] som en bruger i [!INCLUDE[prod_short](includes/cds_long_md.md)].</span><span class="sxs-lookup"><span data-stu-id="78f50-106">You must add your administrator user account for [!INCLUDE[prod_short](includes/prod_short.md)] as a user in [!INCLUDE[prod_short](includes/cds_long_md.md)].</span></span> <span data-ttu-id="78f50-107">Når du konfigurerer forbindelsen mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], skal vi bruge denne konto én gang for at installere og konfigurere nogle påkrævede komponenter.</span><span class="sxs-lookup"><span data-stu-id="78f50-107">When you set up the connection between [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[prod_short](includes/cds_long_md.md)] we will use this account one time to install and configure some required components.</span></span> 
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a><span data-ttu-id="3f1a5-108">Tilladelser og sikkerhedsroller for brugerkonti i [!INCLUDE[prod_short](includes/cds_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="3f1a5-108">Permissions and Security Roles for User Accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]</span></span>
-<span data-ttu-id="3f1a5-109">Når du installerer CDS-basisintegrationsløsningen, konfigureres tilladelser til integrationsbrugerkontoen.</span><span class="sxs-lookup"><span data-stu-id="3f1a5-109">When you install the CDS Base Integration Solution, permissions for the integration user account are configured.</span></span> <span data-ttu-id="3f1a5-110">Hvis disse tilladelser ændres manuelt, kan du nulstille dem.</span><span class="sxs-lookup"><span data-stu-id="3f1a5-110">If those permissions are changed manually you can reset them.</span></span> <span data-ttu-id="3f1a5-111">Det kan du gøre ved at geninstallere CDS-basisintegrationsløsningen ved at vælge **Geninstaller integrationsløsning** på siden **Opsætning af Common Data Service-forbindelse**.</span><span class="sxs-lookup"><span data-stu-id="3f1a5-111">You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Common Data Service Connection Setup** page.</span></span> <span data-ttu-id="3f1a5-112">Business Central CDS-integrationssikkerhedsrollen er installeret.</span><span class="sxs-lookup"><span data-stu-id="3f1a5-112">The Business Central CDS Integration security role is deployed.</span></span>
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a><span data-ttu-id="78f50-108">Tilladelser og sikkerhedsroller for brugerkonti i [!INCLUDE[prod_short](includes/cds_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="78f50-108">Permissions and Security Roles for User Accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)]</span></span>
+<span data-ttu-id="78f50-109">Når du installerer CDS-basisintegrationsløsningen, konfigureres tilladelser til integrationsbrugerkontoen.</span><span class="sxs-lookup"><span data-stu-id="78f50-109">When you install the CDS Base Integration Solution, permissions for the integration user account are configured.</span></span> <span data-ttu-id="78f50-110">Hvis disse tilladelser ændres manuelt, kan du nulstille dem.</span><span class="sxs-lookup"><span data-stu-id="78f50-110">If those permissions are changed manually you can reset them.</span></span> <span data-ttu-id="78f50-111">Det kan du gøre ved at geninstallere CDS-basisintegrationsløsningen ved at vælge **Geninstaller integrationsløsning** på siden **Opsætning af Common Data Service-forbindelse**.</span><span class="sxs-lookup"><span data-stu-id="78f50-111">You can do that by reinstalling the CDS Base Integration Solution by choosing **Redeploy Integration Solution** on the **Common Data Service Connection Setup** page.</span></span> <span data-ttu-id="78f50-112">Business Central CDS-integrationssikkerhedsrollen er installeret.</span><span class="sxs-lookup"><span data-stu-id="78f50-112">The Business Central CDS Integration security role is deployed.</span></span>
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -121,9 +121,9 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a><span data-ttu-id="3f1a5-113">Se også</span><span class="sxs-lookup"><span data-stu-id="3f1a5-113">See Also</span></span>  
-[<span data-ttu-id="3f1a5-114">Integration med Microsoft Dataverse</span><span class="sxs-lookup"><span data-stu-id="3f1a5-114">Integrating with Microsoft Dataverse</span></span>](admin-common-data-service.md)  
-[<span data-ttu-id="3f1a5-115">Integration med Dynamics 365 Sales</span><span class="sxs-lookup"><span data-stu-id="3f1a5-115">Integrating with Dynamics 365 Sales</span></span>](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+## <a name="see-also"></a><span data-ttu-id="78f50-113">Se også</span><span class="sxs-lookup"><span data-stu-id="78f50-113">See Also</span></span>  
+[<span data-ttu-id="78f50-114">Integration med Microsoft Dataverse</span><span class="sxs-lookup"><span data-stu-id="78f50-114">Integrating with Microsoft Dataverse</span></span>](admin-common-data-service.md)  
+[<span data-ttu-id="78f50-115">Integration med Dynamics 365 Sales</span><span class="sxs-lookup"><span data-stu-id="78f50-115">Integrating with Dynamics 365 Sales</span></span>](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
