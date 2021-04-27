@@ -82,23 +82,22 @@
 ##### [Designoplysninger: Ændringer i Codeunit 12: Kobling af globale variabler for bogføringslinje i finanskladde](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
 ##### [Designoplysninger – Codeunit 12-ændringer i procedurer for bogføring af finanskladder](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Designoplysninger: Dimensionsgruppeposter
-##### [Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries.md)
 ##### [Designoplysninger: Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)  
 ##### [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
 ##### [Designoplysninger: Tabelstruktur](design-details-table-structure.md)  
 
 ## Prøv
 ### [Prøveversioner og abonnementer](across-preview.md)
-### [Kom i gang med Business Central](product-get-started.md)
+### [Blive køreklar](ui-get-ready-business.md)
 ### [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
-### [Udvide din prøveversion](admin-extend-trial.md)
+### [Udvidelse af din prøveversion](admin-extend-trial.md)
 ### [Opsig eller fjern Business Central](admin-cancel.md)
 ## Køb
-### [Blive klar til at handle](ui-get-ready-business.md)
+### [Blive køreklar](ui-get-ready-business.md)
 
 <!--setup-->
 ## Konfigurere Business Central
-### [Konfigurere Business Central](setup.md)
+### [Oversigt over opgaver](setup.md)
 ### Konfigurere Finans
 #### [Konfigurere Finans](finance-setup-finance.md)
 #### [Konfigurere betalingsmetoder](finance-payment-methods.md)
@@ -240,42 +239,51 @@
 #### [Overflytte debitordata](admin-migrate-customer-data.md)
 #### [Oprette brugerdefinerede virksomhedsskabeloner](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tip: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-### Bruge Outlook sammen med Business Central
-#### [Bruge Business Central som din virksomheds indbakke i Outlook](admin-outlook.md)
-#### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-#### [Bruge Business Central uden Outlook](admin-no-outlook.md)
-### Bruge Microsoft Teams sammen med Business Central
-#### [Oversigt](across-teams-overview.md)
-#### [Administration af Teams-integration](admin-teams-integration.md)
-#### [Installation af Business central-app i Teams](across-install-app-for-teams.md)
-#### [Arbejde med Business Central-data i Teams](across-working-with-teams.md)
-#### [Teams, ofte stillede spørgsmål](teams-faq.md)
-#### [Fejlfinding](admin-teams-troubleshooting.md)
-### Bruge Power BI sammen med Business Central
-#### [Introduktion](admin-powerbi.md)
-#### Administrator
-##### [Oversigt over integration](admin-powerbi-overview.md)
-##### [Aktivering af Power BI-integration](admin-powerbi-setup.md)
-#### Designer
-##### [Introduktion til oprettelse af rapporter](across-how-use-financials-data-source-powerbi.md)
-##### [Oprette rapporter til visning af listedata](across-how-use-powerbi-reports-factbox.md)
-#### Forbruger
-##### [Arbejde med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
-##### [Arbejde med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
-##### [Bruge Business Central-apps i Power BI](across-powerbi-business-central-apps.md)
-### Bruge Power Automate sammen med Business Central
-#### [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)
-### Bruge Power Apps sammen med Business Central
-#### [Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps](across-how-use-financials-data-source-powerapps.md)
-### [Skifte fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
-### [Få Business Central på din mobilenhed](install-mobile-app.md)
-### [Massefakturering for Microsoft Bookings](finance-bookings.md)
-### [Bruge samme Microsoft 365-konto i Business Central og i Microsoft Invoicing](about-reuse-company-invoicing.md)
-### [Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)
-### [Konfigurer mail](admin-how-setup-email.md)
+### Opsætning af mail
+#### [Konfigurer mail](admin-how-setup-email.md)
+#### Opsætning af din virksomheds indbakke i Outlook 
+##### [Bruge Business Central som din virksomheds indbakke i Outlook](admin-outlook.md)
+##### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Bruge Business Central uden Outlook](admin-no-outlook.md)
+### Opsætning af rapporter
+#### [Rapportvalg](across-report-selections.md)
+### Opsætning af forbindelser
+#### Bruge Business Central som din virksomheds indbakke i Outlook 
+##### [Oversigt](admin-outlook.md)
+##### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Brug af Business Central uden Outlook](admin-no-outlook.md)
+#### Bruge Microsoft Teams sammen med Business Central
+##### [Oversigt](across-teams-overview.md)
+##### [Administration af Teams-integration](admin-teams-integration.md)
+##### [Installation af Business central-app i Teams](across-install-app-for-teams.md)
+##### [Søgning efter debitorer, kreditorer og kontakter](across-search-contacts-teams.md)
+##### [Arbejde med Business Central-data i Teams](across-working-with-teams.md)
+##### [Ændring af virksomhed og andre indstillinger](across-teams-settings.md)
+##### [Teams, ofte stillede spørgsmål](teams-faq.md)
+##### [Fejlfinding](admin-teams-troubleshooting.md)
+#### Bruge Power BI sammen med Business Central
+##### [Introduktion](admin-powerbi.md)
+##### Administrator
+###### [Oversigt over integration](admin-powerbi-overview.md)
+###### [Aktivering af Power BI-integration](admin-powerbi-setup.md)
+##### Designer
+###### [Introduktion til oprettelse af rapporter](across-how-use-financials-data-source-powerbi.md)
+###### [Oprette rapporter til visning af listedata](across-how-use-powerbi-reports-factbox.md)
+##### Forbruger
+###### [Arbejde med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
+###### [Arbejde med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Bruge Business Central-apps i Power BI](across-powerbi-business-central-apps.md)
+#### Bruge Power Automate sammen med Business Central
+##### [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)
+#### Bruge Power Apps sammen med Business Central
+##### [Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps](across-how-use-financials-data-source-powerapps.md)
+#### [Skifte fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
+#### [Massefakturering for Microsoft Bookings](finance-bookings.md)
+#### [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)
 ### [Oprette nummerserie](ui-create-number-series.md)
-### [Rapportvalg](across-report-selections.md)
 ### [Konfigurere basiskalendere](across-how-to-assign-base-calendars.md)
+### [Installation af printere](ui-specify-printer-selection-reports.md)
+### [Hent Business Central til din mobilenhed](install-mobile-app.md)
 
 ## Ofte stillede spørgsmål
 ### [Ofte stillede spørgsmål](across-faq.md)
@@ -290,8 +298,7 @@
 
 ## Hjælp og support
 ### [Ressourcer til hjælp og support](product-help-and-support.md)
-### [Hjælp-system](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)
-### [Besøg vores videobibliotek](across-videos.md)
+### [Besøge vores videobibliotek](across-videos.md)
 ### [Teknisk support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
 ### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -299,10 +306,10 @@
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Documentation](product-get-started.md)
+#### [Getting Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
@@ -354,8 +361,7 @@
 ### [Tastaturgenveje](keyboard-shortcuts.md)
 ### [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)
 ## [Fejlfinding: Adgang til kamera og placering](ui-troubleshooting-camera-location.md)
-## [Din adgang til den intelligente sky med Business Central](about-intelligent-cloud.md)
-## [Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)
+## [Intelligent indsigt (kun online)](about-intelligent-cloud.md)
 # Forretningsfunktioner
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
 <!--general-->
@@ -618,12 +624,12 @@
 ### [Kategorisere varer](inventory-how-categorize-items.md)
 ### [Arbejde med vareattributter](inventory-how-work-item-attributes.md)
 ### [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md)
-### [Lageroptælling ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md)
-### [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)
+### [Tælle og justere lageropgørelse ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md)
+### [Tælle, justere og ompostere lagerbeholdning ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)
 ### [Vise varedisponering](inventory-how-availability-overview.md)
 ### [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)
 ### [Reservere varer](inventory-how-to-reserve-items.md)
-### [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)
+### [Spore varer med serie-, lot- og pakkenumre](inventory-how-work-item-tracking.md)
 ### [Bruge varereferencer](inventory-how-use-item-cross-refs.md)
 ### [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)
 ### [Spærre for varer](inventory-how-block-items.md)
@@ -865,34 +871,27 @@
 ##### [Konfigurere opgørelsestyper](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Eksportere tredjeparts Intrastat-opgørelser](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
 #### Banktransaktioiner og betalinger
-##### [Oprette bankkonti til CODA](LocalFunctionality/Belgium/how-to-set-up-bank-accounts-for-coda.md)
-##### [Udligne CODA-udtog](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
-##### [Automatisk overføre og bogføre CODA-udtog](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
-##### [CODA-bankkontoudtog](LocalFunctionality/Belgium/coda-bank-statements.md)
-##### [Belgisk Electronic Banking](LocalFunctionality/Belgium/belgian-electronic-banking.md)
-##### [Konfigurere Electronic Banking](LocalFunctionality/Belgium/how-to-set-up-electronic-banking.md)
+##### [Elektroniske banktransaktioner (BE)](LocalFunctionality/Belgium/belgian-electronic-banking.md)
+##### [Elektroniske betalinger (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
 ##### [Konfigurere eksportprotokoller](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
-##### [Belgiske elektronisk betalinger](LocalFunctionality/Belgium/belgian-electronic-payments.md)
-##### [Oprette IBLC-BLWI-transaktionskoder](LocalFunctionality/Belgium/how-to-set-up-iblc-blwi-transaction-codes.md)
+##### [Opsummere betalingslinjer og generelle kladdelinjer](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
 ##### [Oprette leverandører til automatiske betalingsforslag](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Oprette betalingskladdeskabeloner og -navne](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Kontrollere elektroniske betalinger](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Generere betalingsforslag](LocalFunctionality/Belgium/how-to-generate-payment-suggestions.md)
-##### [Importere CODA-kontoudtog](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
-##### [Administrere elektroniske betalingslinjer](LocalFunctionality/Belgium/how-to-manage-electronic-payment-lines.md)
-##### [Manuelt overføre og bogføre CODA-udtog](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
 ##### [Udskrive betalingsfiler](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [SEPA-betalinger](LocalFunctionality/Belgium/sepa-payments.md)
 ##### [Aktivere SEPA-betalinger](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
 ##### [Arkivere ikke-euro SEPA-betalinger](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
-##### [Arkivere SEPA-betalinger](LocalFunctionality/Belgium/how-to-file-sepa-payments.md)
 ##### [Direct Debit ved hjælp af domiciler](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
 ##### [Konfigurere domicileringer](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
 ##### [Redigere og slette linjerne for domiciler](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
 ##### [Kontrollere domiciler](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
 ##### [Eksportere og bogføre domiciler](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
 ##### [Oprette domicileringsforslag](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
-##### [Opsummere betalingslinjer og generelle kladdelinjer](LocalFunctionality/Belgium/summarizing-payment-lines-and-general-journal-lines.md)
+##### [CODA-bankkontoudtog](LocalFunctionality/Belgium/coda-bank-statements.md)
+##### [Udligne CODA-udtog](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
+##### [Automatisk overføre og bogføre CODA-udtog](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
+##### [Manuelt overføre og bogføre CODA-udtog](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
+##### [Importere CODA-kontoudtog](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
 #### Grundlæggende Finans
 ##### [Udligne og annullere udligning af finansposter](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Oprette finanskladder](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
@@ -918,6 +917,8 @@
 
 ### Tjekkiet
 #### [Lokal funktionalitet i den tjekkiske version](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Kernelokalisering til tjekkisk (forlængelse)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
+#### [Avanceret lokaliseringspakke til tjekkisk (udvidelse)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Grundlæggende Finans  
 ##### [Finans](LocalFunctionality/Czech/finance.md)
 ##### [Handlinger ved årsafslutning](LocalFunctionality/Czech/year-close-operations.md)
@@ -928,6 +929,7 @@
 ##### [Kontrolrapporten moms](LocalFunctionality/Czech/vat-control-report.md)
 #### Anlægsaktiver
 ##### [Anlægsaktiver](LocalFunctionality/Czech/fixed-assets.md)
+##### [Lokalisering til tjekkisk for anlæg (udvidelse)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banktransaktioner og betalinger
 ##### [Bankfunktion](LocalFunctionality/Czech/bank-feature.md)
 ##### [Likviditetsstyring](LocalFunctionality/Czech/cash-desk-management.md)
@@ -943,7 +945,6 @@
 #### Generelt
 ##### [Udvidet brugerkontrol](LocalFunctionality/Czech/general.md)
 ##### [Bedste fremgangsmåder](LocalFunctionality/Czech/best-practices.md)
-##### [Kernelokalisering til tjekkisk (forlængelse)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 
 ### Danmark
 #### [Lokal funktionalitet i den danske version](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -969,7 +970,7 @@
 ##### [Udskrive momsoplysninger på fakturaer](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
 ##### [Moms-listeangivelser i Finland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
 #### Banktransaktioiner og betalinger
-##### [Electronic Banking i Finland](LocalFunctionality/Finland/electronic-banking-in-finland.md)
+##### [Elektroniske banktransaktioner i Finland](LocalFunctionality/Finland/electronic-banking-in-finland.md)
 ##### [Generere betalingsfiler](LocalFunctionality/Finland/how-to-generate-payment-files.md)
 ##### [Konfigurere bankreferencefiler](LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md)
 ##### [Betalinger - SEPA-kreditoverf.](LocalFunctionality/Finland/sepa-credit-transfer-payments.md)
@@ -1126,6 +1127,16 @@
 ###### [GST E-Way-veksel](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [GST-input Cedit justering](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [Momsafregning](LocalFunctionality/India/GST-Settelement.md)
+###### [GST E-faktura](LocalFunctionality/India/GST-E-Invoice.md)
+##### GST CESS
+###### [Grundlæggende opsætning af GST Cess](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [GST CESS-beregning](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### GST på Service Management
+###### [GST på Service Management](LocalFunctionality/India/GST-Service-Management.md)
+##### GST-inputservicedistribution
+###### [Oversigt over GST-inputservicedistribution](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
+###### [Proces for GST-inputservicedistribution](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
+###### [Transaktion for GST-inputservicedistribution](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
 #### TDS
 ##### [TDS-oversigt](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS-Transaktioner](LocalFunctionality/India/TDS-Transactions.md)
@@ -1143,9 +1154,23 @@
 ##### [TCS-Grænse](LocalFunctionality/India/TCS-Threshold.md)
 ##### [TCS-regul. post](LocalFunctionality/India/TCS-Adjustment-Entries.md)
 ##### [TCS-betaling til myndighed](LocalFunctionality/India/TCS-Payment-to-Authority.md)
+##### [206C-1H-Oversigt](LocalFunctionality/India/TCS-206C-1H-Overview.md)
+##### [206C-1H-Transaktion](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
 #### Bilagsgrænseflade
 ##### [Oversigt over bilagsgrænseflade](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Transaktion i bilagsgrænseflade](LocalFunctionality/India/Voucher-Interface-Transactions.md)
+#### Anlæg
+##### [Oversigt over anlæg](LocalFunctionality/India/FA_Overview.md)
+##### [Afskrivning af aktiver](LocalFunctionality/India/FA_Depreciation.md)
+#### Gatepost
+##### [Oversigt over gateposter](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
+##### [Indgående translation for gatepost](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
+##### [Udgående translation for gatepost](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
+#### Underleverance
+##### [Oversigt over underleverancer](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
+##### [Transaktioner for underleverancer](LocalFunctionality/India/Subcontracting-Transactions.md)
+##### [Opret GST-ansvar](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
+##### [Rapport for underleverancer](LocalFunctionality/India/Subcontracting-Reports.md)
 
 ### Italien
 #### [Lokal funktionalitet i den italienske version](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1214,7 +1239,7 @@
 ##### [Konfigurere elektroniske moms- og ICP-opgørelser](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Sende elektroniske moms- og ICP-opgørelser](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 #### Banktransaktioiner og betalinger
-##### [Nederlandsk Electronic Banking](LocalFunctionality/Netherlands/dutch-electronic-banking.md)
+##### [Hollandske banktransaktioner](LocalFunctionality/Netherlands/dutch-electronic-banking.md)
 ##### [Telebanking](LocalFunctionality/Netherlands/telebanking.md)
 ##### [Betalingsscenarier](LocalFunctionality/Netherlands/payment-scenarios.md)
 ##### [Betalingsscenarie 1 - indenlandske betalinger (RV til RV)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
@@ -1284,7 +1309,7 @@
 ##### [Beregne proportional moms](LocalFunctionality/Norway/how-to-calculate-proportional-vat.md)
 ##### [Udskrive en momsafstemningsrapport](LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report.md)
 #### Banktransaktioiner og betalinger
-##### [Electronic Banking i Norge](LocalFunctionality/Norway/electronic-banking-in-norway.md)
+##### [Elektroniske banktransaktioner i Norge](LocalFunctionality/Norway/electronic-banking-in-norway.md)
 ##### [Elektroniske betalinger til kreditorer i Norge](LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway.md)
 ##### [Elektronisk EHF-fakturering i Norge](LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md)
 ##### [Oprette debitorer til EHF](LocalFunctionality/Norway/how-to-set-up-customers-for-ehf.md)  
@@ -1585,8 +1610,8 @@
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Vigtig forretningsindsigt](ui-extensions-essential-business-insights.md)
 #### [Billedanalyse](ui-extensions-image-analyzer.md)
-#### [Intelligent sky](ui-extensions-data-replication.md)
-#### [Intelligent sky basis](ui-extensions-intelligent-cloud.md)
+#### [Udvidelser af skymigrering](ui-extensions-data-replication.md)
+#### [Basis for skymigreringsbase](ui-extensions-intelligent-cloud.md)
 #### [Forudsigelser af forsinkede betalinger](ui-extensions-late-payment-prediction.md)
 #### [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 #### [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
@@ -1622,7 +1647,7 @@
 ### [Overflytning fra Business Central lokalt](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Overflytning fra Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
 ### [Overflytning fra Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Ofte stillede spørgsmål om forbindelse til Intelligent sky](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+### [Ofte stillede spørgsmål om migrering til skyen](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
 ## [Administrationsopgaver i Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Udvikling](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Sikkerhed og beskyttelse](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
