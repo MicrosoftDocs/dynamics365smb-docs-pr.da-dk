@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9290bda4437ea43edcaa19d7759f2fdee24e8c4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775061"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938142"
 ---
 # <a name="invoice-jobs"></a>Fakturere sager
 I løbet af projektet kan der akkumuleres sagsomkostninger fra ressourceforbrug, materialer og sagsrelaterede indkøb. Efterhånden som status for sagen ændrer sig, bogføres disse transaktioner i sagskladden. Det er vigtigt, at alle omkostninger er registreret i sagskladden, før du fakturerer kunden.
@@ -61,21 +61,6 @@ Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt
 > [!NOTE]  
 >   Ovenstående fremgangsmåde er ens for at oprette, gennemse og bogføre en sagsrelateret salgskreditnota.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Sådan beregnes og bogføres sagsafslutningsposter
-Når du har fuldført alle aktiviteter for en sag, inklusive bogføring og fakturering af forbrug, skal du opdatere sagen for at få **status** **Afsluttet**. Derefter skal du tilbageføre alt igangværende arbejde, som er blevet bogført i finansregnskabet.
-
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
-2. Vælg en åben sag, og vælg derefter handlingen **Rediger**.
-3. I feltet **Status** skal du vælge **Fuldført**.
-4. Følg hjælpetrinnene for at beregne og bogføre igangværende arbejde. Du kan også følge trin 5 og 6 for at gøre det manuelt.  
-5. Vælg handlingen **Beregn igangværende arbejde**.
-6. På siden **Beregn VIA for sag** skal du udfylde felterne efter behov.  
-
-     Posterne for igangværende arbejde for sagen, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.  
-7. Vælg handlingen **Bogfør VIA - finansafstemning**.
-8. På siden **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
-
-     Sagens VIA-finansposter, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.
 
 ## <a name="see-also"></a>Se også
 [Administrere projekter](projects-manage-projects.md)  

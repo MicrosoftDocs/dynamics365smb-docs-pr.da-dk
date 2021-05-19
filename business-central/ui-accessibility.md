@@ -1,68 +1,50 @@
 ---
 title: Hjælpefunktioner
 description: Tastaturgenveje og andre hjælpefunktioner.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c303c39850e22d3df375838d42703133428b4c7d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
+ms.date: 04/29/2021
+ms.author: jswymer
+ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772350"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961548"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Tilgængelighedsfunktioner og tastaturgenveje
 
 Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[prod_short](includes/prod_short.md)] direkte tilgængelig for personer med handicap. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter følgende funktioner i Hjælp til handicappede:  
 
-- Tastaturgenveje
-
-    Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md).
-
+- Tastaturgenveje. Se [Tastaturgenveje](keyboard-shortcuts.md).
+- Håndbevægelser til touch og pen til tablet og telefoner. Se [Håndbevægelser til touch og pen](touch-gestures.md).
 - Navigation  
-
 - Overskrifter  
-
 - Alternativ tekst til billeder og hyperlinks  
+- Understøttelse af almindelige hjælpeteknologier 
+- Zoome ind og ud på en side
+- Værktøjstip om elementer i brugergrænsefladen
 
-- Understøttelse af almindelige hjælpeteknologier  
+## <a name="navigation"></a><a name="Navigation"></a> Navigation
+  
+Du kan bruge forskellige kombinationer af tab, Skift og piletaster på tastaturet til at flytte mellem elementerne på en side. Elementer omfatter handlinger, felter og kolonner, dele og andre kontrolelementer. Tryk generelt på tab eller Skift + tab for at flytte til næste eller forrige element.
 
-- Brug af genvejstaster til at zoome ind eller ud på en side
+Når du fokuserer på et område, der indeholder handlinger, f. eks. navigationspanelet øverst i Rollecenter eller handlingslinje på andre sider, skal du bruge piletasterne til at flytte gennem de forskellige handlinger og grupper. Tryk på Enter på en gruppe for at åbne dens underliggende handling, og fortsæt derefter med at bruge piletasterne. Tryk på tab eller Skift + tab for at gå ud af handlingsområdet.
 
-<!-- moved to separate article
-##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[prod_short](includes/prod_short.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
-
-|To do this|Press|  
-|----------------|-----------|  
-|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
-|To enable or access the element or control that is in focus.|Enter|  
-|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
-|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
-|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
-|To move focus to the next element outside the list.|Ctrl + Enter|  
-|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
-
--->
-
-## <a name="navigation"></a><a name="Navigation"></a> Navigation  
- Du kan navigere mellem fanerne og handlingerne på båndet, elementerne i navigationslinjen og andre kontrolelementer på [!INCLUDE[prod_short](includes/prod_short.md)]-sider og -rapporter vha. tastaturet. Flytte fokus fra én fane, handling eller kontrolelement til en anden, skal du trykke på Tab for at flytte fremad. Tryk på Skift+Tab for at gå tilbage.  
-
- Ved hjælp af fanerækkefølgen kan du også skifte mellem hovedbrowsersiden og dialogbokse, der anmoder om bekræftelse, for eksempel logonsiden.  
+Ved hjælp af fanerækkefølgen kan du også skifte mellem hovedbrowsersiden og dialogbokse, der anmoder om bekræftelse, for eksempel logonsiden.  
 
 ## <a name="headings-in-content"></a><a name="Headings"></a> Overskrifter i indhold
- 
- HTML-kilden til [!INCLUDE[prod_short](includes/prod_short.md)]-indhold bruger koder til at hjælpe brugerne af hjælpeteknologien med at forstå strukturen og indholdet af siden. På oversigtssider defineres kolonnerne f.eks. i TH-koder, og kolonneoverskrifterne oprettes med TITEL-attributten i koden. Tekster til elementer som oversigtspaneler, faktabokse og felter er inkluderet i overskriftskoder (H1 H2, H3 og H4).  
+
+HTML-kilden til [!INCLUDE[prod_short](includes/prod_short.md)]-indhold bruger koder til at hjælpe brugerne af hjælpeteknologien med at forstå strukturen og indholdet af siden. På oversigtssider defineres kolonnerne f.eks. i TH-koder, og kolonneoverskrifterne oprettes med TITEL-attributten i koden. Tekster til elementer som oversigtspaneler, faktabokse og felter er inkluderet i overskriftskoder (H1 H2, H3 og H4).  
 
 ## <a name="image-and-links"></a><a name="Images"></a> Billede og links
 
- En beskrivende tekst til billeder er angivet med attributten ALT i koden IMG. En beskrivende tekst til hyperlinkser angivet med attributten titel i koden A.  
+En beskrivende tekst til billeder er angivet med attributten ALT i koden IMG. En beskrivende tekst til hyperlinkser angivet med attributten titel i koden A.  
 
 ## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Hjælpeteknologier
 
@@ -70,7 +52,30 @@ Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[prod_shor
 
 ## <a name="zoom"></a><a name="zoom"></a> Zoom
 
-De fleste browsere bruger standardtastaturgenveje til at zoome ind og ud på den aktuelle side. Disse tastaturgenveje er ikke specifikke for [!INCLUDE [prod_short](includes/prod_short.md)], men de fungerer, når du bruger [!INCLUDE [prod_short](includes/prod_short.md)] i en browser. Du kan få vist en liste over understøttede tastaturgenveje under [Tastaturgenveje til zoom ind og ud](keyboard-shortcuts.md#zoomshortcuts).  
+De fleste browsere bruger standardtastaturgenveje til at zoome ind og ud på den aktuelle side. Disse tastaturgenveje er ikke specifikke for [!INCLUDE [prod_short](includes/prod_short.md)], men de fungerer, når du bruger [!INCLUDE [prod_short](includes/prod_short.md)] i en browser. Du kan få vist en liste over understøttede tastaturgenveje under [Tastaturgenveje til zoom ind og ud](keyboard-shortcuts.md#zoomshortcuts).
+
+## <a name="tooltips"></a>Værktøjstips
+
+Værktøjstip er tilgængelige på de fleste elementer i brugergrænsefladen, f. eks. sidefelter og kolonner, handlinger, køindikatorer og diagrammer. Et værktøjstip giver ekstra tekst, der forklarer et element, så du bedre kan forstå formålet. 
+
+Der kan opnås adgang til værktøjstip på forskellige måder, afhængigt af klienten (internettet eller mobil) og den enhed, som du arbejder med. Brug følgende tabel som reference. Nogle værktøjstip kan læses af skærmlæsere. Hvis det er tilfældet, kan du få adgang til værktøjstips som beskrevet i tabellen og derefter bruge skærmlæseren til at navigere til værktøjstippet på samme måde, som du kan med alle andre elementer.
+
+#### <a name="accessing-tooltips"></a>Få adgang til værktøjstips
+
+|Element|Musehandling for webklient|Genvejstast for webklient|Berøringsbevægelse på tablet/telefon for mobilapp|Skærmlæser-understøttelse|
+|-------|-----------------|------------|--------------------------|---------------------|
+|Sidefelter og kolonneoverskrifter|Holde markøren over eller klikke på felttitlen eller kolonneoverskriften|Flyt fokus til felt- eller kolonneoverskriften, og tryk på alt + pil op-tasterne.|Tryk på felttitlen |ja|
+|Diagramelementer, f. eks. en søjle, streg, cirkeludsnit|Placer markøren over elementet|Flytte fokus til et element, f. eks. ved hjælp af piletasterne|Tryk og hold elementet nede|ja|
+|Handlinger|Placer markøren over elementet|ingen|ingen |nummer|
+|Stikordsfliser|Placer markøren over flisen |ingen|ingen|nummer|
+
+
+<!--
+- With a mouse, hover over the element.
+- With keyboard, press the Alt+Up Arrow keys.
+- On a tablet or phone, tap and hold on the element. To learn about more gestures, see [Touch and Pen Gestures](touch-gestures.md)
+
+-->
 
 ## <a name="for-more-accessibility-information"></a>Flere oplysninger om tilgængelighedsfunktioner
 
@@ -81,6 +86,5 @@ Du kan finde flere oplysninger om tilgængelighedsfunktioner i Microsoft-produkt
 [Blive køreklar](ui-get-ready-business.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783768"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935282"
 ---
 # <a name="financial-reports-in-business-central"></a>Finansrapporter i Business Central
 
@@ -24,7 +24,6 @@ I følgende tabel beskrives nogle af nøglerapporterne i Financial Reporting.
 
 |Report |Description  |
 |---------|---------|
-|**Juster kostpris – Vareposter** | Justerer lagerværdierne i vareposter, så du kan bruge den korrekte kostpris til opdatering af finansregnskabet, og så salgs- og indtjeningsstatistikkerne er opdateret. Justeringen af kostprisen overfører kun ændringer fra indgående poster, f.eks. for køb eller produktionsoutput, til de relaterede udgående poster, f.eks. salg eller overførsler.  |
 |**Balance**| Viser kontoplanen med saldi og bevægelser. Du kan vælge at få vist en balance for udvalgte dimensioner. Du kan anvende rapporten ved afslutningen af en regnskabsperiode eller ved årsafslutningen. |
 |**Råbalance efter periode**  | Viser primosaldoen efter finanskonto, bevægelserne i den valgte periode for måned, kvartal eller år og den resulterende ultimosaldo.         |
 |**Balance/budget** | Viser en balance, der sammenlignes med et budget. Du kan vælge at få vist en balance for udvalgte dimensioner. Du kan anvende rapporten ved afslutningen af en regnskabsperiode eller ved årsafslutningen.        |

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 9783d5d25c31bd830931cf3f363359880a6e19bf
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: a26414ae33b0139257c542966ba9ccd934241a66
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882166"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017120"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Fejlfinding af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -42,9 +42,9 @@ Når du skifter regnskab på siden **Indstillinger**, vil du muligvis bemærke, 
 
 Du kan opleve denne fejl, når du søger i et regnskab, der ikke er initialiseret eller ikke er i stand til at svare. Du kan f.eks. ikke søge i et nyt prøveregnskab, hvor vilkårene for anvendelse endnu ikke er blevet accepteret. Du kan løse dette problem ved at logge på [!INCLUDE [prod_short.md](includes/prod_short.md)]-webklienten og reagere på eller lukke de indledende dialogbokse, der vises.
 
-## <a name="the-contacts-api-was-not-found-error-when-searching-for-contacts"></a>Fejlen "Kontaktpersonens API blev ikke fundet" vises under søgning efter kontakter
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Fejlmeddelelsen "Kontaktoversigt over kontakt/Kontaktoversigt blev ikke fundet" under søgning efter kontakter
 
-Dette problem kan skyldes tilpasninger eller branchespecifikke løsninger, som påvirker, ændrer eller ikke angiver en kontakt-API i [!INCLUDE [prod_short.md](includes/prod_short.md)]. Hvis problemet fortsætter, skal du kontakte din administrator eller supportudbyder.
+Dette problem kan skyldes tilpasninger eller brancheløsninger, der påvirker eller ændrer [!INCLUDE [prod_short.md](includes/prod_short.md)], eller de angiver ikke en oversigt over-API til kontakt eller kontakt. Hvis problemet fortsætter, skal du kontakte din administrator eller supportudbyder.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Ingen af mine links udvides til et kort 
 

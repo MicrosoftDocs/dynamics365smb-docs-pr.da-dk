@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784438"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017245"
 ---
 # <a name="process-sales-opportunities"></a>Behandle salgsleads
 Når du opretter et lead, er der flere funktioner til administration af et lead og til at flytte det til afslutning.
@@ -44,7 +44,8 @@ Når forhandlingerne er afsluttet, kan du lukke leads. Når du lukker et lead, k
    I feltet **Leadlukkekode** kan du vælge en af de eksisterende leadlukkekoder eller tilføje en ny kode. Du kan tilføje en ny kode ved at vælge **Vælg fra komplet liste** på listen og derefter vælge **ny**. På den nye tomme linje skal du udfylde felterne **Kode**, **Type** og **Beskrivelse** og derefter vælge knappen **OK**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Sådan oprettes tilbud til leads
-Du kan oprette salgstilbud for kontakter, der ikke er registreret som debitorer.
+> [!NOTE]
+> Du kan kun oprette salgstilbud fra Leads, hvor kontakttypen er Virksomhed.
 
 1. På siden **Salgsmulighedsoversigt** skal du vælge salgsmuligheden og derefter vælge handlingen **Tildel salgstilbud**. Siden **Salgstilbud** åbnes.
 2. Udfyld de relevante felter.

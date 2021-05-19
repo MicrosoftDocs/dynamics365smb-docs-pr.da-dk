@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb3c0684d476fbba2a23a73dd821384d32afbbab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91c64ecbd32ec8fe6a528c87d2e102e1a1322816
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777037"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017220"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Fejlfinding i forbindelse med synkroniseringsfejl
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -27,7 +27,7 @@ Der skal flyttes mange forskellige dele, når [!INCLUDE[prod_short](includes/pro
 Fejl opstår ofte, fordi en bruger har udført handlinger på sammenkædede poster, eller fordi, der er noget galt med den måde, integrationen er konfigureret på. Fejl, der vedrører sammenkædede poster, kan brugerne selv løse. Disse fejl skyldes handlinger som f.eks. sletning af data i en, men ikke begge forretningsapps med efterfølgende synkronisering. Du kan finde flere oplysninger i [Se status på en synkronisering](admin-how-to-view-synchronization-status.md).
 
 ## <a name="example"></a>Eksempel
-I denne video vises et eksempel på, hvordan du retter fejl, der er opstået under synkronisering med Sales. Denne proces vil være den samme for alle integrationer. 
+I denne video vises et eksempel på, hvordan du retter fejl, der er opstået under synkronisering med [!INCLUDE[prod_short](includes/cds_long_md.md)]. Denne proces vil være den samme for alle integrationer. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
@@ -55,6 +55,8 @@ Disse records er nu flyttet til siden "Synkroniserede poster, der springes over"
 
 ## <a name="remove-couplings-between-records"></a>Fjerne koblinger mellem poster
 Når noget går galt i integrationen, og du har brug for at koble posterne fra, så de ikke længere synkroniseres, kan du gøre det for en eller flere poster ad gangen. Du kan fjerne frakoble en eller flere poster fra listesider eller siden **Koblede datasynkroniseringsfejl** ved at vælge en eller flere linjer og vælge **Slet kobling**. Du kan også fjerne alle koblinger for en eller flere tabeltilknytninger på siden **Tilknytninger til integrationstabel**. 
+
+Hvis en enhed med en envejs kobling slettes i [!INCLUDE[prod_short](includes/prod_short.md)], skal du slette den brudte kobling manuelt. Hvis du vil gøre dette, skal du vælge **Søg efter slettet** handling på siden **Fejl i forbindelse med sammenkoblet datasynkronisering** og derefter slette koblingerne.
 
 ## <a name="see-also"></a>Se også
 [Integration med Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  

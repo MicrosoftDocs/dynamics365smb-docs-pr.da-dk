@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f17546a46ec8d502e6fa1b73a49eb1ea0ed762b5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786903"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935257"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
@@ -96,7 +96,7 @@ Hvis du vil dele en rapport i en listerapport eller i en åben rapport, skal du 
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

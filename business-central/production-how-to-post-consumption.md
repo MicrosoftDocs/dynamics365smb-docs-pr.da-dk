@@ -1,6 +1,6 @@
 ---
 title: Massebogføre forbrug
-description: Hvis trækmetoden er **Manuel**, skal du bogføre komponenterne manuelt ved at bruge en forbrugskladde.
+description: Hvis trækmetoden er Manuel, skal du bogføre komponenterne manuelt ved at bruge en forbrugskladde.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,44 +10,41 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 66a19b624c74ec844806c27c490c300746b46704
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0b3ee6ca54e21605b4e9cf340b04656694c9801e
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787898"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935182"
 ---
 # <a name="batch-post-production-consumption"></a>Massebogføre produktionsforbrug
 
 Hvis trækmetoden er **Manuel**, skal du bogføre komponenterne manuelt ved at bruge en forbrugskladde.  
 
 >[!NOTE]
-> Hvis du har markeret feltet **Kræv pluk** på lokationskortet for at angive, at lokationen kræver behandling af lagerpluk, behøver du ikke bruge denne kørsel. [!INCLUDE[prod_short](includes/prod_short.md)] håndterer forbruget, når du bogfører lagerpluk. Du kan finde flere oplysninger i [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md#to-pick-components-in-basic-warehouse-configurations). 
+> Hvis du har markeret feltet **Kræv pluk** på lokationskortet for at angive, at lokationen kræver behandling af lagerpluk, behøver du ikke bruge denne kørsel. [!INCLUDE[prod_short](includes/prod_short.md)] håndterer forbruget, når du bogfører lagerpluk. Du kan finde flere oplysninger i [Plukke til produktion i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md#pick-for-production-in-basic-warehouse-configurations)  
 
 Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at bogføre (*trække*) komponenterne, når du starter eller afslutter produktionsordrer. Du kan finde flere oplysninger i [Aktivere udtrækning af komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Sådan bogføres forbrug for en eller flere produktionsordrelinjer
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forbrugskladde**, og vælg derefter det relaterede link.  
-2.  Udfyld felterne med produktionsordredata og forbrugsdata. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forbrugskladde**, og vælg derefter det relaterede link.  
+2. Udfyld felterne med produktionsordredata og forbrugsdata. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Brug handlingen **Beregn forbrug** til at generere kladdelinjer fra produktionsordrer, der er baseres på den aktuelle afgang (mængden af færdige varer, der er rapporteret), eller den forventede afgang (mængden af færdige varer, du forventer at producere).
 
     > [!NOTE]
     > Hvis du har konfigureret lokationskortet til at kræve behandling af lagerpluk, er det kun de antal, der allerede er plukket via en lageraktivitet, der kan angives i feltet **Antal** på siden **Forbrugskladde**, ikke beregnede antal. Du kan finde flere oplysninger i [Plukke til produktion eller montage i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
-3.  Vælg handlingen **Bogfør** for at bogføre forbruget. De relaterede lagerbeholdninger er reduceret.
-
-
+3. Vælg handlingen **Bogfør** for at bogføre forbruget. De relaterede lagerbeholdninger er reduceret.
 
 ## <a name="see-also"></a>Se også
 
-[Produktion](production-manage-manufacturing.md)    
+[Produktion](production-manage-manufacturing.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
-[Planlægning](production-planning.md)      
+[Skabelon](production-planning.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

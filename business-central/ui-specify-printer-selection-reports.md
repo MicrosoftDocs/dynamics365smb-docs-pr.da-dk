@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 67e6c0fe9a9653d243b7fd221ed004a1f1495ddf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783130"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985408"
 ---
 # <a name="set-up-printers"></a>Installation af printere
 
@@ -36,11 +36,13 @@ For at understøtte dine udskrivningsbehov tilbyder [!INCLUDE[prod_short](includ
 
 Universaludskrivning er en Microsoft 365-abonnementsbaseret tjeneste, der udelukkende kører på Microsoft Azure. Den giver dig centraliseret printerstyring via portalen for Universaludskrivning. [!INCLUDE[prod_short](includes/prod_short.md)] gør det muligt at konfigurere printere i Universaludskrivning for klientbrugere via udvidelsen **Integration af Universaludskrivning**.
 
+![Konfiguration af Universaludskrivning](media/Universal-Print-arch.png)
+
 Den komplette konfiguration kræver, at du arbejder i både Microsoft Azure ved hjælp af [Azure-portalen](https://posrtal.azure.com) og i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Understøttede printere
 
-[!INCLUDE[prod_short](includes/prod_short.md)] understøtter de samme printere som Universaludskrivning, som enten kan være kompatible med Universaludskrivning eller ikke. Ikke-kompatible printere kan ikke kommunikere direkte med Universaludskrivning, så de kræver ekstra connectorsoftware, som leveres af Universaludskrivning. Nogle ældre printere understøttes muligvis ikke.
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter de samme printere som Universaludskrivning, som enten kan være kompatible med Universaludskrivning eller ikke. Ikke-kompatible printere kan ikke kommunikere direkte med Universaludskrivning, så de kræver ekstra connectorsoftware, som leveres af Universaludskrivning. Nogle ældre printere understøttes muligvis ikke. 
 
 <!-- TODO If not installed, go to AppSource -->
 

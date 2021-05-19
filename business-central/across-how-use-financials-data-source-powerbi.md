@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ee7e6a132f463f35206dd9ac4fe75ce1a41fd40d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780078"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961498"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -77,12 +77,16 @@ Den første opgave i oprettelsen af rapporter er at tilføje [!INCLUDE[prod_shor
 
     Guiden Power BI viser en liste over Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]-miljøer, -regnskaber og -datakilder. Disse datakilder repræsenterer de webtjenester, som du har publiceret fra [!INCLUDE [prod_short](includes/prod_short.md)].
 6. Angiv de data, du vil føje til dine datamodel, og vælg derefter knappen **Indlæsning**.
-7. Gentag fremgangsmåden for at tilføje flere [!INCLUDE [prod_short](includes/prod_short.md)] eller andre data til din Power BI-datamodel.
+7. Gentag fremgangsmåden for at tilføje flere [!INCLUDE [prod_short](includes/prod_short.md)] data eller andre data til din Power BI-datamodel.
 
 Når dataene er indlæst, kan du se dem i den højre navigation på siden. Nu har du oprettet forbindelse til dine [!INCLUDE[prod_short](includes/prod_short.md)]-data og er klar til at begynde at oprette din Power BI-rapport.  
 
 > [!TIP]
 > Du kan finde flere oplysninger om brugen af Power BI Desktop under [Introduktion til Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
+
+## <a name="creating-accessible-reports"></a>Oprette tilgængelige rapporter
+
+Det er vigtigt, at du gør dine rapporter brugbare for så mange personer som muligt. Prøv at designe rapporter, så de ikke kræver særlig tilpasning for at imødekomme specifikke behov hos forskellige brugere. Sørg for, at designet gør det muligt for brugere at udnytte standard hjælpeteknologier som f. eks. skærmlæsere. Power BI indeholder forskellige funktioner til hjælp til handicappede, værktøjer og retningslinjer, som kan hjælpe dig med at opnå dette mål. Du kan finde flere oplysninger i [Designe Power BI-rapporter for tilgængelighed](/power-bi/create-reports/desktop-accessibility-creating-reports) i Power BI-dokumentationen.
 
 ## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Oprette rapporter for at vise data, der er knyttet til en liste
 

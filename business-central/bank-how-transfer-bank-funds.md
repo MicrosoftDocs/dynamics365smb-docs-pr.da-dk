@@ -1,8 +1,6 @@
 ---
-title: Overføre bankbeløb | Microsoft Docs
+title: Overføre bankbeløb
 description: Du kan overføre beløb fra én bankkonto til en anden, herunder forskellige valutaer, ved at bogføre transaktionen i finanskladden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,50 +8,71 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 04/01/2021
+ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: dea39ba380eee574205d57ba198f15213c341ea0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779728"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985383"
 ---
 # <a name="transfer-bank-funds"></a>Overføre bankbeløb
+
 Undertiden kan du have brug for at overføre et beløb fra én bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)] til en anden. Hvis du vil gøre dette, skal du bogføre på en transaktion på siden **Finanskladde**. Opgaven afhænger af, om bankkontiene bruger samme valuta eller forskellige valutaer.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Sådan bogføres overførsler mellem bankkonti med samme valutakode
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finanskladde**, og vælg derefter det relaterede link.
 2. Udfyld **Bogføringsdato** og **Bilagsnr.** på en kladdelinje.
 3. Klik på feltet **Kontotype**, og vælg **Bankkonto**.
 4. I feltet **Kontonr.** skal du vælge den bank, hvorfra du vil overføre beløbet.
 5. Angiv det beløb, der skal overføres, i feltet **Beløb**.
-6. Vælg handlingen **Vis flere kolonner** for at få vist alle tilgængelige felter.
-7. I feltet **Modkontotype** skal du vælge **Bankkonto**.
-8. I feltet **Modkontonr.** skal du vælge den bankkonto, hvortil du vil overføre beløbet.
-9. Bogfør journalen.
+
+    Derefter skal du angive modkontoen. Hvis du ikke kan se de relevante felter, skal du vælge handlingen **Vis flere kolonner** for at få vist alle tilgængelige felter.
+6. I feltet **Modkontotype** skal du vælge **Bankkonto**.
+7. I feltet **Modkontonr.** skal du vælge den bankkonto, hvortil du vil overføre beløbet.
+8. Bogfør journalen.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Sådan bogføres overførsler mellem bankkonti med forskellige valutakoder
+
 Hvis du vil overføre beløb mellem bankkonti, der bruger forskellige valutaer, skal du bogføre to finanskladdelinjer.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **FFinanskladde**, og vælg derefter det relaterede link.
 2. Opret to kladdelinjer, og udfyld felterne **Bogføringsdato** og **Bilagsnr.**
 3. På den første kladdelinje skal du vælge **Bankkonto** i feltet **Type**.
 4. I feltet **Kontonr.** skal du vælge den bankkonto, hvorfra du vil overføre beløbet.
-5. I feltet **Beløb** skal du indtaste beløbet i valutaen for bankkontoen. Angiv kreditbeløb med et minus-tegn. Angiv debetbeløb uden et minus-tegn.
-6. I feltet **Modkontotype** skal du vælge **Bankkonto**.
-7. I feltet **Modkontonr.** skal du vælge den bankkonto, hvortil du vil overføre beløbet.
-8. På den anden kladdelinje skal du vælge **Bankkonto** i feltet **Type**.
-9. I feltet **Kontonr.** skal du vælge den bankkonto, hvortil du vil overføre beløbet.
-10. I feltet **Beløb** skal du indtaste beløbet i valutaen for bankkontoen. Angiv kreditbeløb med et minus-tegn. Angiv debetbeløb uden et minus-tegn.
-11. I feltet **Modkontotype** skal du vælge **Bankkonto**.  
-12. I feltet **Modkontonr.** skal du vælge den bankkonto, hvorfra du vil overføre beløbet.
+5. I feltet **Beløb** skal du indtaste beløbet i valutaen for bankkontoen med eller uden et minustegn.
 
-    > [!NOTE]  
-    > Hvis den anvendte valutakurs i kladden er en anden en kursen på siden **Valutakurser**, skal du oprette en tredje linje til kurstab og -gevinster. Indtast **Finanskonto** i feltet **Kontotype**. Angiv finanskontonummeret for kurstab og -gevinster i feltet **Kontonummer**. Angiv kurstab eller -tab i feltet **Beløb** henholdsvis med og uden et minustegn foran kredit og debet.
-13. Bogfør journalen.
+    > [!TIP]
+    > Et beløb uden fortegn er debet, og et beløb med et minustegn er kredit.
+
+    > [!NOTE]
+    > Nogle virksomheder foretrækker at overføre konti på separate kladdelinjer. Andre virksomheder foretrækker at bogføre alt på én kladdelinje vha. en modkonto. Kontakt din lokale ekspert, hvis du ikke er sikker på, hvad du skal gøre.
+    >
+    > Hvis virksomheden foretrækker at bruge en modkonto, skal du angive feltet **Modkontotype** til **Bankkonto** og derefter sætte feltet **Modkonto** til den bankkonto, som du vil overføre fondene til. Gå derefter til trin 9 eller 10.
+    >
+    > Hvis din virksomhed foretrækker at bruge en separat kladdelinje, skal du gå videre til næste trin.
+6. På den anden kladdelinje skal du vælge **Bankkonto** i feltet **Type**.
+7. I feltet **Kontonr.** skal du vælge den bankkonto, hvortil du vil overføre beløbet.
+8. I feltet **Beløb** skal du indtaste beløbet i valutaen for bankkontoen med eller uden et minustegn.
+
+    > [!TIP]
+    > Et beløb uden fortegn er debet, og et beløb med et minustegn er kredit.
+9. Hvis den anvendte valutakurs i kladden er en anden en kursen på siden **Valutakurser**, skal du oprette en ny linje til kurstab og -gevinster.  
+
+    1. Indtast **Finanskonto** i feltet **Kontotype**.  
+
+    2. Angiv finanskontonummeret for kurstab og -gevinster i feltet **Kontonummer**.  
+
+    3. Angiv kurstab eller-gevinst i feltet **Beløb** med eller uden et minustegn.
+
+    > [!TIP]
+    > Et beløb uden fortegn er debet, og et beløb med et minustegn er kredit.
+10. Bogfør journalen.
 
 ## <a name="see-also"></a>Se også
+
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  

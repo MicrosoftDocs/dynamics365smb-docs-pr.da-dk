@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e3b79d6245a0f1b8277c94faa58c24edc66662e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 772052fc88e0b8be7ec5276600b0c237e2d2f8b2
+ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777012"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025804"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Opgradering af en integration med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] kan integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)], hvilket gør det nemt at forbinde og synkronisere data med andre Dynamics 365-programmer såsom [!INCLUDE[crm_md](includes/crm_md.md)] eller endda apps, som du selv opbygger. Hvis det er første gang, du integrerer, anbefaler vi, at du gør det ved hjælp af [!INCLUDE[prod_short](includes/cds_long_md.md)]. Få flere oplysninger i [Integration med Dataverse](admin-common-data-service.md).
@@ -38,6 +38,9 @@ Hvis du allerede har integreret [!INCLUDE[crm_md](includes/crm_md.md)] med [!INC
    > Når du har aktiveret forbindelsen, installeres Business Central-basisintegrationsløsningen til [!INCLUDE[prod_short](includes/prod_short.md)]. Dette muliggør integration med tabeller, der er specifikke for [!INCLUDE[crm_md](includes/crm_md.md)], f.eks. salgsordrer, tilbud og fakturaer.
 5. Vælg **Geninstaller integrationsløsning** for at geninstallere og konfigurere Business Central-integrationsløsning.
 6. På siden **Opsætning af Sales-forbindelse** skal du vælge **Brug standard-synkroniseringsopsætning** for at starte integrationstabeltilknytninger for [!INCLUDE[crm_md](includes/crm_md.md)].
+
+   > [!IMPORTANT]
+   > Når du bruger handlingen **Brug standardsynkronisering af opsætning**, anvendes standardtilknytningerne for integrationstabellen. Alle brugerdefinerede tilknytninger overskrives. Hvis du har brugerdefinerede tilknytninger, som du vil bevare, anbefales det, at du eksporterer dem til Excel eller taler med din Microsoft-partner om andre metoder til at holde styr på dine egne tilknytninger.    
 
 ## <a name="see-also"></a>Se også
 [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

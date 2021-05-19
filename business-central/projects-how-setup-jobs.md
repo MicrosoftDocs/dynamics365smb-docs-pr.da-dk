@@ -1,5 +1,5 @@
 ---
-title: Oprette sagspriser og sagsbogføringsgrupper | Microsoft Docs
+title: Oprette sager, priser og sagsbogføringsgrupper
 description: Bruges til at oprette oplysninger om almindelige opgaver og oprette priser for sagsvarer, ressourcer og finanskonti og sagsbogføringsgrupper.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780453"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938067"
 ---
-# <a name="set-up-jobs"></a>Opsætte sager
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Oprette sager, priser og sagsbogføringsgrupper
 
 Som projektleder kan du oprette sager, der definerer hvert af de projekter, som du administrerer i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
 
@@ -26,26 +26,27 @@ For hver sag kan du derefter specificere de individuelle jobkort med oplysninger
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Virkningen af feltet **Anvend anvendelseslink som standard** er temmelig komplekst og forklares derfor i følgende afsnit.
+> Feltet **Anvend anvendelseslink som standard** angiver, om der som standard knyttes sagsposter til sagsplanlægningslinjer. Marker feltet, hvis du vil anvende indstillingen på alle nye sager, du opretter. Du kan aktivere eller deaktivere sporing af sagsforbrug for et bestemt job ved at ændre værdien i feltet **Anvend anvendelses link** på det enkelte jobkort. Konsekvenser beskrives i følgende afsnit.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Sådan definerer du sagsforbrugssporing
 
-Når du ekspederer en sag, kan du få flere oplysninger om forbruget i forhold til din plan. Det kan du nemt gøre ved at oprette en tilknytning mellem dine sagsplanlægningslinjer og det faktiske forbrug. På denne måde kan du holde styr på dine omkostninger og nemt se, hvor meget arbejde, der mangler at blive udført. Som standard er sagsplanlægningslinjetypen **Budget**, men brug af linjetypen **Både budget og fakturerbar** har samme virkning.
+Når du ekspederer en aktiv sag, kan du få flere oplysninger om forbruget i forhold til din plan. Det kan du nemt gøre ved at oprette en tilknytning mellem dine sagsplanlægningslinjer og det faktiske forbrug. På denne måde kan du holde styr på dine omkostninger og nemt se, hvor meget arbejde, der mangler at blive udført. Som standard er sagsplanlægningslinjetypen *Budget*, men brug af linjetypen **Både budget og fakturerbar** har samme virkning.
 
-Hvis du markerer feltet **Anvend anvendelseslink som standard**, kan du gennemse oplysninger på sagsplanlægningslinjen. Du kan angive antallet af ressourcen, varen eller finanskontoen, og derefter angive, hvilket antal du vil overføre til sagskladde. I feltet **Restantal** på sagsplanlægningslinjen kan du se, hvad der stadig mangler at blive overført og bogført på sagskladden.
+Når du har konfigureret forbrugssporing ved at vælge feltet **Anvend forbrugslink**, kan du gennemse oplysninger på sagsplanlægningslinjen. Du kan angive antallet af ressourcen, varen eller finanskontoen, og derefter angive, hvilket antal du vil overføre til sagskladde. I feltet **Restantal** på sagsplanlægningslinjen kan du se, hvad der stadig mangler at blive overført og bogført på sagskladden.
 
-> [!TIP]  
-> Du kan aktivere eller deaktivere sagsforbrugssporing for en bestemt sag. Værdien i feltet **Anvend anvendelseslink som standard** på det enkelte sagskort tilsidesætter indstillingen på siden **Sagsopsætning**.  
-
-Når afkrydsningsfelt **Anvend anvendelseslink som standard** er markeret, og sagsplanlægningslinjetypen er **Fakturerbar**, oprettes en sagsplanlægningslinje af typen **Budget**, når du har bogført en sagskladdelinje.
+>[!NOTE]
+> Hvis afkrydsningsfeltet **Anvend anvendelseslink** som standard på sagskortet er markeret, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes nye *sagsplanlægningslinjer* for linjetypen *Budget*, når du bogfører sagskladdelinjerne eller købsdokument.  
+> Du kan finde flere oplysninger i [Registrere forbrug for sager](projects-how-record-job-usage.md) og [Administrere stillingsforsyninger](projects-how-manage-project-supplies.md).
 
 > [!IMPORTANT]
-> Hvis sagsforbrugssporing er aktiveret på siden **Sagsopsætning** eller i den individuelle sag, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes nye sagsplanlægningslinjer for linjetypen **Budget**, når du bogfører sagskladdelinjer.  
->  
-> Hvis sagsforbrugssporing *ikke* er aktiveret på siden **Sagsopsætning** eller i den individuelle sag, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes ingen sagsplanlægningslinjer, når du bogfører sagskladdelinjer. Du kan finde flere oplysninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).
+> Hvis feltet **Linjetype** på sagskladdelinjen eller linjen er tomt, oprettes der ingen sagsplanlægningslinjer, når du bogfører sagskladden eller købsdokumentet.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsopsætning**, og vælg derefter det relaterede link.
-2. Markér afkrydsningsfeltet **Anvend anvendelseslink som standard**.
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Konfigurere priser for ressourcer, varer og finanskonti for jobs.
 > [!NOTE]

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776143"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017145"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Ofte stillede spørgsmål om brugen af Business Central
 
@@ -136,8 +136,8 @@ De første udgivelser af [!INCLUDE[prod_short](includes/prod_short.md)] i lokale
 
 [Blive køreklar](ui-get-ready-business.md)  
 [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)  
-[Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.md)  
-[Ofte stillede spørgsmål om listevisninger](ui-views-faq.md)  
+[Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)  
+[Ofte stillede spørgsmål om listevisninger](ui-views-faq.yml)  
 [Ændre sprog og landestandard](about-locale-language.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] uden Outlook](admin-no-outlook.md)  

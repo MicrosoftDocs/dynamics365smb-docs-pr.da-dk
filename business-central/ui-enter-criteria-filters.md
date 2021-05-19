@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770634"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017170"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 
@@ -259,7 +259,7 @@ Der kan være tilfælde, hvor feltværdier indeholder et af følgende symboler:
 - =
 - &#124;
 
-Hvis du vil filtrere efter et af disse symboler, skal du placere filterudtrykket i anførselstegn (' '). Hvis du f.eks. vil filtrere efter poster, der starter med teksten *J & V*, er filterudtrykket `'J & V*'`.
+Hvis du vil filtrere efter et af disse symboler, skal du placere filterudtrykket i anførselstegn (`'<expression with symbol>'`). Hvis du f.eks. vil filtrere efter poster, der starter med teksten *J & V*, er filterudtrykket `'J & V*'`.
 
 Dette krav er ikke nødvendigt for andre symboler.
 
@@ -304,7 +304,7 @@ Brug `%myvendors` i kreditorfeltet **Nej** til at vise alle poster for kreditore
 
 ## <a name="see-also"></a>Se også
 
-[Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.md)  
+[Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)  
 [Gemme og tilpasse listevisninger](ui-views.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
