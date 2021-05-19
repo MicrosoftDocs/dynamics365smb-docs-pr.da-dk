@@ -273,6 +273,7 @@
 ###### [Arbejde med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
 ###### [Arbejde med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Bruge Business Central-apps i Power BI](across-powerbi-business-central-apps.md)
+##### [Ofte stillede spørgsmål](power-bi-faq.md)
 #### Bruge Power Automate sammen med Business Central
 ##### [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)
 #### Bruge Power Apps sammen med Business Central
@@ -288,8 +289,8 @@
 ## Ofte stillede spørgsmål
 ### [Ofte stillede spørgsmål](across-faq.md)
 ### [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
-### [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.md)
-### [Ofte stillede spørgsmål om listevisninger](ui-views-faq.md)
+### [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)
+### [Ofte stillede spørgsmål om listevisninger](ui-views-faq.yml)
 ### [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)
 ### [Ofte stillede spørgsmål til mobilapp](ui-mobile-faq.md)
 ### [Teams, ofte stillede spørgsmål](teams-faq.md)
@@ -321,7 +322,7 @@
 ## [Søge efter sider med Rollestifinder](ui-role-explorer.md)
 ## [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
 ## [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)
-## [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.md)
+## [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)
 ## [Angivelse af data](ui-enter-data.md)
 ## [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)
 ## [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md)
@@ -356,10 +357,11 @@
 ### [Angiv dokumentlayout for debitorer og leverandører](ui-define-customer-vendor-document-layouts.md)
 ### [Føje felter til et Word-rapportlayout](ui-how-add-fields-word-report-layout.md)
 ### [Tilgængelige skrifttyper](ui-fonts.md)
-## Bruge tastaturgenveje
-### [Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)
+## Tilgængelighed, tastaturgenveje og berøringsbevægelser
+### [Tilgængelighed](ui-accessibility.md)
 ### [Tastaturgenveje](keyboard-shortcuts.md)
 ### [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)
+### [Håndbevægelser til touch og pen](touch-gestures.md)
 ## [Fejlfinding: Adgang til kamera og placering](ui-troubleshooting-camera-location.md)
 ## [Intelligent indsigt (kun online)](about-intelligent-cloud.md)
 # Forretningsfunktioner
@@ -429,9 +431,10 @@
 ##### [Konfigurere tjenesten til bankkontoudtog](bank-how-setup-bank-statement-service.md)
 ##### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
 ##### [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Udveksle data
 ##### [Udveksling af data](across-exchange-data.md)
+##### [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md)
 ##### [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
 ##### [Modtage og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -550,6 +553,7 @@
 #### [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md)
 ### [Om Finans og kontoplanen](finance-general-ledger.md)
 ### [Arbejde med dimensioner](finance-dimensions.md)
+### [Fejlfinding og korrigering af dimensioner](finance-troubleshooting-correcting-dimensions.md)
 ### [Oprette finansbudgetter](finance-how-create-budgets.md)
 ### [Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)
 ### [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)
@@ -567,6 +571,7 @@
 ### [Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md)
 ### [Overføre bankbeløb](bank-how-transfer-bank-funds.md)
 ### [Revisoroplevelser i Business Central](finance-accounting.md)
+### [Multi site-og internationale organisationer](finance-multi-site-organizations.md)
 
 ## Business Intelligence og Financial Reporting
 ### [Oversigt over Business Intelligence og Financial Reporting](bi.md)
@@ -705,6 +710,8 @@
 ### [Køre fuld planlægning, MPS eller MRP](production-how-to-run-mps-and-mrp.md)
 ### [Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md)
 ### [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md)
+### [Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)
+### [Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Montagestyring
@@ -745,8 +752,6 @@
 #### [Lægge produktions- eller montageafgange på lager](warehouse-how-to-put-away-production-output.md)
 #### [Planlægge læg-på-lager-aktiviteter i kladder](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Plukke og lægge på lager uden et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Flytte varer
 #### [Flytte varer](warehouse-move-items.md)
 #### [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +775,6 @@
 ### [Brug ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)
-### [Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)
 
 ## Servicestyring
 ### [Service Management](service-service.md)

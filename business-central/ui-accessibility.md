@@ -1,86 +1,90 @@
 ---
 title: Hjælpefunktioner
 description: Tastaturgenveje og andre hjælpefunktioner.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c303c39850e22d3df375838d42703133428b4c7d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
+ms.date: 04/29/2021
+ms.author: jswymer
+ms.openlocfilehash: 5de8096338cef264b599701abf2e21a906417bac
+ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772350"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961548"
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="2eb77-103">Tilgængelighedsfunktioner og tastaturgenveje</span><span class="sxs-lookup"><span data-stu-id="2eb77-103">Accessibility and Keyboard Shortcuts</span></span>
+# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="cab47-103">Tilgængelighedsfunktioner og tastaturgenveje</span><span class="sxs-lookup"><span data-stu-id="cab47-103">Accessibility and Keyboard Shortcuts</span></span>
 
-<span data-ttu-id="2eb77-104">Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[prod_short](includes/prod_short.md)] direkte tilgængelig for personer med handicap.</span><span class="sxs-lookup"><span data-stu-id="2eb77-104">This topic provides information about the features that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="2eb77-105">understøtter følgende funktioner i Hjælp til handicappede:</span><span class="sxs-lookup"><span data-stu-id="2eb77-105">supports the following accessibility features:</span></span>  
+<span data-ttu-id="cab47-104">Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[prod_short](includes/prod_short.md)] direkte tilgængelig for personer med handicap.</span><span class="sxs-lookup"><span data-stu-id="cab47-104">This article provides information about the features that make [!INCLUDE[prod_short](includes/prod_short.md)] readily available to people with disabilities.</span></span> [!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="cab47-105">understøtter følgende funktioner i Hjælp til handicappede:</span><span class="sxs-lookup"><span data-stu-id="cab47-105">supports the following accessibility features:</span></span>  
 
-- <span data-ttu-id="2eb77-106">Tastaturgenveje</span><span class="sxs-lookup"><span data-stu-id="2eb77-106">Keyboard shortcuts</span></span>
+- <span data-ttu-id="cab47-106">Tastaturgenveje.</span><span class="sxs-lookup"><span data-stu-id="cab47-106">Keyboard shortcuts.</span></span> <span data-ttu-id="cab47-107">Se [Tastaturgenveje](keyboard-shortcuts.md).</span><span class="sxs-lookup"><span data-stu-id="cab47-107">See [Keyboard Shortcuts](keyboard-shortcuts.md).</span></span>
+- <span data-ttu-id="cab47-108">Håndbevægelser til touch og pen til tablet og telefoner.</span><span class="sxs-lookup"><span data-stu-id="cab47-108">Touch and pen gestures on tablets and phones.</span></span> <span data-ttu-id="cab47-109">Se [Håndbevægelser til touch og pen](touch-gestures.md).</span><span class="sxs-lookup"><span data-stu-id="cab47-109">See [Touch and Pen Gestures](touch-gestures.md).</span></span>
+- <span data-ttu-id="cab47-110">Navigation</span><span class="sxs-lookup"><span data-stu-id="cab47-110">Navigation</span></span>  
+- <span data-ttu-id="cab47-111">Overskrifter</span><span class="sxs-lookup"><span data-stu-id="cab47-111">Headings</span></span>  
+- <span data-ttu-id="cab47-112">Alternativ tekst til billeder og hyperlinks</span><span class="sxs-lookup"><span data-stu-id="cab47-112">Alternative text for images and links</span></span>  
+- <span data-ttu-id="cab47-113">Understøttelse af almindelige hjælpeteknologier</span><span class="sxs-lookup"><span data-stu-id="cab47-113">Support for common assistive technologies</span></span> 
+- <span data-ttu-id="cab47-114">Zoome ind og ud på en side</span><span class="sxs-lookup"><span data-stu-id="cab47-114">Zoom in or out on any page</span></span>
+- <span data-ttu-id="cab47-115">Værktøjstip om elementer i brugergrænsefladen</span><span class="sxs-lookup"><span data-stu-id="cab47-115">Tooltips on elements in the user interface</span></span>
 
-    <span data-ttu-id="2eb77-107">Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md).</span><span class="sxs-lookup"><span data-stu-id="2eb77-107">For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md)</span></span>
+## <a name="navigation"></a><a name="Navigation"></a> <span data-ttu-id="cab47-116">Navigation</span><span class="sxs-lookup"><span data-stu-id="cab47-116">Navigation</span></span>
+  
+<span data-ttu-id="cab47-117">Du kan bruge forskellige kombinationer af tab, Skift og piletaster på tastaturet til at flytte mellem elementerne på en side.</span><span class="sxs-lookup"><span data-stu-id="cab47-117">You can use different combinations of the Tab, Shift, and arrow keys of your keyboard to move between elements on a page.</span></span> <span data-ttu-id="cab47-118">Elementer omfatter handlinger, felter og kolonner, dele og andre kontrolelementer.</span><span class="sxs-lookup"><span data-stu-id="cab47-118">Elements include actions, fields and columns, parts, and other controls.</span></span> <span data-ttu-id="cab47-119">Tryk generelt på tab eller Skift + tab for at flytte til næste eller forrige element.</span><span class="sxs-lookup"><span data-stu-id="cab47-119">In general, press Tab or Shift+Tab to move to the next or previous element.</span></span>
 
-- <span data-ttu-id="2eb77-108">Navigation</span><span class="sxs-lookup"><span data-stu-id="2eb77-108">Navigation</span></span>  
+<span data-ttu-id="cab47-120">Når du fokuserer på et område, der indeholder handlinger, f. eks. navigationspanelet øverst i Rollecenter eller handlingslinje på andre sider, skal du bruge piletasterne til at flytte gennem de forskellige handlinger og grupper.</span><span class="sxs-lookup"><span data-stu-id="cab47-120">When you focus on an area that contains actions, like the navigation bar on the top of role center or action bar on other pages, use the arrows keys to move through the different actions and groups.</span></span> <span data-ttu-id="cab47-121">Tryk på Enter på en gruppe for at åbne dens underliggende handling, og fortsæt derefter med at bruge piletasterne.</span><span class="sxs-lookup"><span data-stu-id="cab47-121">Press Enter on a group to open its underlying actions, and then continue using the arrows keys.</span></span> <span data-ttu-id="cab47-122">Tryk på tab eller Skift + tab for at gå ud af handlingsområdet.</span><span class="sxs-lookup"><span data-stu-id="cab47-122">Press Tab or Shift+Tab to move out of the action area.</span></span>
 
-- <span data-ttu-id="2eb77-109">Overskrifter</span><span class="sxs-lookup"><span data-stu-id="2eb77-109">Headings</span></span>  
+<span data-ttu-id="cab47-123">Ved hjælp af fanerækkefølgen kan du også skifte mellem hovedbrowsersiden og dialogbokse, der anmoder om bekræftelse, for eksempel logonsiden.</span><span class="sxs-lookup"><span data-stu-id="cab47-123">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the sign-in page.</span></span>  
 
-- <span data-ttu-id="2eb77-110">Alternativ tekst til billeder og hyperlinks</span><span class="sxs-lookup"><span data-stu-id="2eb77-110">Alternative text for images and links</span></span>  
+## <a name="headings-in-content"></a><a name="Headings"></a> <span data-ttu-id="cab47-124">Overskrifter i indhold</span><span class="sxs-lookup"><span data-stu-id="cab47-124">Headings in Content</span></span>
 
-- <span data-ttu-id="2eb77-111">Understøttelse af almindelige hjælpeteknologier</span><span class="sxs-lookup"><span data-stu-id="2eb77-111">Support for common assistive technologies</span></span>  
+<span data-ttu-id="cab47-125">HTML-kilden til [!INCLUDE[prod_short](includes/prod_short.md)]-indhold bruger koder til at hjælpe brugerne af hjælpeteknologien med at forstå strukturen og indholdet af siden.</span><span class="sxs-lookup"><span data-stu-id="cab47-125">The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="cab47-126">På oversigtssider defineres kolonnerne f.eks. i TH-koder, og kolonneoverskrifterne oprettes med TITEL-attributten i koden.</span><span class="sxs-lookup"><span data-stu-id="cab47-126">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="cab47-127">Tekster til elementer som oversigtspaneler, faktabokse og felter er inkluderet i overskriftskoder (H1 H2, H3 og H4).</span><span class="sxs-lookup"><span data-stu-id="cab47-127">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
 
-- <span data-ttu-id="2eb77-112">Brug af genvejstaster til at zoome ind eller ud på en side</span><span class="sxs-lookup"><span data-stu-id="2eb77-112">Use keyboard shortcuts to zoom in or out on any page</span></span>
+## <a name="image-and-links"></a><a name="Images"></a> <span data-ttu-id="cab47-128">Billede og links</span><span class="sxs-lookup"><span data-stu-id="cab47-128">Image and Links</span></span>
 
-<!-- moved to separate article
-##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
- [!INCLUDE[prod_short](includes/prod_short.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
+<span data-ttu-id="cab47-129">En beskrivende tekst til billeder er angivet med attributten ALT i koden IMG.</span><span class="sxs-lookup"><span data-stu-id="cab47-129">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="cab47-130">En beskrivende tekst til hyperlinkser angivet med attributten titel i koden A.</span><span class="sxs-lookup"><span data-stu-id="cab47-130">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
 
-|To do this|Press|  
-|----------------|-----------|  
-|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
-|To enable or access the element or control that is in focus.|Enter|  
-|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
-|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
-|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
-|To move focus to the next element outside the list.|Ctrl + Enter|  
-|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> <span data-ttu-id="cab47-131">Hjælpeteknologier</span><span class="sxs-lookup"><span data-stu-id="cab47-131">Assistive Technologies</span></span>
+
+[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="cab47-132">understøtter forskellige hjælpeteknologier, f.eks. stor kontrast, skærmlæsere og talegenkendelsessoftware.</span><span class="sxs-lookup"><span data-stu-id="cab47-132">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="cab47-133">Nogle hjælpeteknologier fungerer ikke sammen med bestemte elementer på [!INCLUDE[prod_short](includes/prod_short.md)]-sider.</span><span class="sxs-lookup"><span data-stu-id="cab47-133">Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.</span></span>  
+
+## <a name="zoom"></a><a name="zoom"></a> <span data-ttu-id="cab47-134">Zoom</span><span class="sxs-lookup"><span data-stu-id="cab47-134">Zoom</span></span>
+
+<span data-ttu-id="cab47-135">De fleste browsere bruger standardtastaturgenveje til at zoome ind og ud på den aktuelle side.</span><span class="sxs-lookup"><span data-stu-id="cab47-135">Most browsers use standard keyboard shortcuts to zoom in and out on the current page.</span></span> <span data-ttu-id="cab47-136">Disse tastaturgenveje er ikke specifikke for [!INCLUDE [prod_short](includes/prod_short.md)], men de fungerer, når du bruger [!INCLUDE [prod_short](includes/prod_short.md)] i en browser.</span><span class="sxs-lookup"><span data-stu-id="cab47-136">These keyboard shortcuts aren't specific to [!INCLUDE [prod_short](includes/prod_short.md)], but they work when you use [!INCLUDE [prod_short](includes/prod_short.md)] in a browser.</span></span> <span data-ttu-id="cab47-137">Du kan få vist en liste over understøttede tastaturgenveje under [Tastaturgenveje til zoom ind og ud](keyboard-shortcuts.md#zoomshortcuts).</span><span class="sxs-lookup"><span data-stu-id="cab47-137">For a list of supported keyboard shortcuts, see [Keyboard Shortcuts for Zooming In and Out](keyboard-shortcuts.md#zoomshortcuts).</span></span>
+
+## <a name="tooltips"></a><span data-ttu-id="cab47-138">Værktøjstips</span><span class="sxs-lookup"><span data-stu-id="cab47-138">Tooltips</span></span>
+
+<span data-ttu-id="cab47-139">Værktøjstip er tilgængelige på de fleste elementer i brugergrænsefladen, f. eks. sidefelter og kolonner, handlinger, køindikatorer og diagrammer.</span><span class="sxs-lookup"><span data-stu-id="cab47-139">Tooltips are available on most elements in the user interface, like page fields and columns, actions, cues tiles, and charts.</span></span> <span data-ttu-id="cab47-140">Et værktøjstip giver ekstra tekst, der forklarer et element, så du bedre kan forstå formålet.</span><span class="sxs-lookup"><span data-stu-id="cab47-140">A tooltip provides extra text that explains an element to help you better understand its purpose.</span></span> 
+
+<span data-ttu-id="cab47-141">Der kan opnås adgang til værktøjstip på forskellige måder, afhængigt af klienten (internettet eller mobil) og den enhed, som du arbejder med.</span><span class="sxs-lookup"><span data-stu-id="cab47-141">Tooltips are accessed in different ways, depending on the client (web or mobile) and the device that you're working with.</span></span> <span data-ttu-id="cab47-142">Brug følgende tabel som reference.</span><span class="sxs-lookup"><span data-stu-id="cab47-142">Use the following table as a guide.</span></span> <span data-ttu-id="cab47-143">Nogle værktøjstip kan læses af skærmlæsere.</span><span class="sxs-lookup"><span data-stu-id="cab47-143">Some tooltips can be read by screen-readers.</span></span> <span data-ttu-id="cab47-144">Hvis det er tilfældet, kan du få adgang til værktøjstips som beskrevet i tabellen og derefter bruge skærmlæseren til at navigere til værktøjstippet på samme måde, som du kan med alle andre elementer.</span><span class="sxs-lookup"><span data-stu-id="cab47-144">In this case, you access the tooltips as described in the table, then use the screen reader to navigate to the tooltip as you would with any other element.</span></span>
+
+#### <a name="accessing-tooltips"></a><span data-ttu-id="cab47-145">Få adgang til værktøjstips</span><span class="sxs-lookup"><span data-stu-id="cab47-145">Accessing tooltips</span></span>
+
+|<span data-ttu-id="cab47-146">Element</span><span class="sxs-lookup"><span data-stu-id="cab47-146">Element</span></span>|<span data-ttu-id="cab47-147">Musehandling for webklient</span><span class="sxs-lookup"><span data-stu-id="cab47-147">Mouse action for web client</span></span>|<span data-ttu-id="cab47-148">Genvejstast for webklient</span><span class="sxs-lookup"><span data-stu-id="cab47-148">Keyboard shortcut for web client</span></span>|<span data-ttu-id="cab47-149">Berøringsbevægelse på tablet/telefon for mobilapp</span><span class="sxs-lookup"><span data-stu-id="cab47-149">Touch gesture on tablet/phone for mobile app</span></span>|<span data-ttu-id="cab47-150">Skærmlæser-understøttelse</span><span class="sxs-lookup"><span data-stu-id="cab47-150">Screen reader support</span></span>|
+|-------|-----------------|------------|--------------------------|---------------------|
+|<span data-ttu-id="cab47-151">Sidefelter og kolonneoverskrifter</span><span class="sxs-lookup"><span data-stu-id="cab47-151">Page fields and column headings</span></span>|<span data-ttu-id="cab47-152">Holde markøren over eller klikke på felttitlen eller kolonneoverskriften</span><span class="sxs-lookup"><span data-stu-id="cab47-152">Hover over or click the field caption or column heading</span></span>|<span data-ttu-id="cab47-153">Flyt fokus til felt- eller kolonneoverskriften, og tryk på alt + pil op-tasterne.</span><span class="sxs-lookup"><span data-stu-id="cab47-153">Move focus to the field or column heading, and press Alt+Up Arrow keys</span></span>|<span data-ttu-id="cab47-154">Tryk på felttitlen</span><span class="sxs-lookup"><span data-stu-id="cab47-154">Tap the field caption</span></span> |<span data-ttu-id="cab47-155">ja</span><span class="sxs-lookup"><span data-stu-id="cab47-155">yes</span></span>|
+|<span data-ttu-id="cab47-156">Diagramelementer, f. eks. en søjle, streg, cirkeludsnit</span><span class="sxs-lookup"><span data-stu-id="cab47-156">Charts elements, like a bar, line, pie slice</span></span>|<span data-ttu-id="cab47-157">Placer markøren over elementet</span><span class="sxs-lookup"><span data-stu-id="cab47-157">Hover over the element</span></span>|<span data-ttu-id="cab47-158">Flytte fokus til et element, f. eks. ved hjælp af piletasterne</span><span class="sxs-lookup"><span data-stu-id="cab47-158">Move focus to element, for example, by using arrow keys</span></span>|<span data-ttu-id="cab47-159">Tryk og hold elementet nede</span><span class="sxs-lookup"><span data-stu-id="cab47-159">Tap and hold the element</span></span>|<span data-ttu-id="cab47-160">ja</span><span class="sxs-lookup"><span data-stu-id="cab47-160">yes</span></span>|
+|<span data-ttu-id="cab47-161">Handlinger</span><span class="sxs-lookup"><span data-stu-id="cab47-161">Actions</span></span>|<span data-ttu-id="cab47-162">Placer markøren over elementet</span><span class="sxs-lookup"><span data-stu-id="cab47-162">Hover over the action</span></span>|<span data-ttu-id="cab47-163">ingen</span><span class="sxs-lookup"><span data-stu-id="cab47-163">none</span></span>|<span data-ttu-id="cab47-164">ingen</span><span class="sxs-lookup"><span data-stu-id="cab47-164">none</span></span> |<span data-ttu-id="cab47-165">nummer</span><span class="sxs-lookup"><span data-stu-id="cab47-165">no</span></span>|
+|<span data-ttu-id="cab47-166">Stikordsfliser</span><span class="sxs-lookup"><span data-stu-id="cab47-166">Cue tiles</span></span>|<span data-ttu-id="cab47-167">Placer markøren over flisen</span><span class="sxs-lookup"><span data-stu-id="cab47-167">Hover over the tile</span></span> |<span data-ttu-id="cab47-168">ingen</span><span class="sxs-lookup"><span data-stu-id="cab47-168">none</span></span>|<span data-ttu-id="cab47-169">ingen</span><span class="sxs-lookup"><span data-stu-id="cab47-169">none</span></span>|<span data-ttu-id="cab47-170">nummer</span><span class="sxs-lookup"><span data-stu-id="cab47-170">no</span></span>|
+
+
+<!--
+- With a mouse, hover over the element.
+- With keyboard, press the Alt+Up Arrow keys.
+- On a tablet or phone, tap and hold on the element. To learn about more gestures, see [Touch and Pen Gestures](touch-gestures.md)
 
 -->
 
-## <a name="navigation"></a><a name="Navigation"></a> <span data-ttu-id="2eb77-113">Navigation</span><span class="sxs-lookup"><span data-stu-id="2eb77-113">Navigation</span></span>  
- <span data-ttu-id="2eb77-114">Du kan navigere mellem fanerne og handlingerne på båndet, elementerne i navigationslinjen og andre kontrolelementer på [!INCLUDE[prod_short](includes/prod_short.md)]-sider og -rapporter vha. tastaturet.</span><span class="sxs-lookup"><span data-stu-id="2eb77-114">You can navigate between the tabs and actions in the ribbon, elements in the navigation bar, and other controls on [!INCLUDE[prod_short](includes/prod_short.md)] pages and reports using the keyboard.</span></span> <span data-ttu-id="2eb77-115">Flytte fokus fra én fane, handling eller kontrolelement til en anden, skal du trykke på Tab for at flytte fremad.</span><span class="sxs-lookup"><span data-stu-id="2eb77-115">To move the focus from one tab, action, or control to another, press the Tab key to move forward.</span></span> <span data-ttu-id="2eb77-116">Tryk på Skift+Tab for at gå tilbage.</span><span class="sxs-lookup"><span data-stu-id="2eb77-116">Press Shift+Tab to move backward.</span></span>  
+## <a name="for-more-accessibility-information"></a><span data-ttu-id="cab47-171">Flere oplysninger om tilgængelighedsfunktioner</span><span class="sxs-lookup"><span data-stu-id="cab47-171">For more accessibility information</span></span>
 
- <span data-ttu-id="2eb77-117">Ved hjælp af fanerækkefølgen kan du også skifte mellem hovedbrowsersiden og dialogbokse, der anmoder om bekræftelse, for eksempel logonsiden.</span><span class="sxs-lookup"><span data-stu-id="2eb77-117">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the login page.</span></span>  
+<span data-ttu-id="cab47-172">Du kan finde flere oplysninger om tilgængelighedsfunktioner i Microsoft-produkter og hjælpeteknologier på webstedet [Microsoft Hjælp til handicappede](https://go.microsoft.com/fwlink/?LinkId=262160).</span><span class="sxs-lookup"><span data-stu-id="cab47-172">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
 
-## <a name="headings-in-content"></a><a name="Headings"></a> <span data-ttu-id="2eb77-118">Overskrifter i indhold</span><span class="sxs-lookup"><span data-stu-id="2eb77-118">Headings in Content</span></span>
- 
- <span data-ttu-id="2eb77-119">HTML-kilden til [!INCLUDE[prod_short](includes/prod_short.md)]-indhold bruger koder til at hjælpe brugerne af hjælpeteknologien med at forstå strukturen og indholdet af siden.</span><span class="sxs-lookup"><span data-stu-id="2eb77-119">The HTML source for [!INCLUDE[prod_short](includes/prod_short.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="2eb77-120">På oversigtssider defineres kolonnerne f.eks. i TH-koder, og kolonneoverskrifterne oprettes med TITEL-attributten i koden.</span><span class="sxs-lookup"><span data-stu-id="2eb77-120">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="2eb77-121">Tekster til elementer som oversigtspaneler, faktabokse og felter er inkluderet i overskriftskoder (H1 H2, H3 og H4).</span><span class="sxs-lookup"><span data-stu-id="2eb77-121">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
+## <a name="see-also"></a><span data-ttu-id="cab47-173">Se også</span><span class="sxs-lookup"><span data-stu-id="cab47-173">See Also</span></span>
 
-## <a name="image-and-links"></a><a name="Images"></a> <span data-ttu-id="2eb77-122">Billede og links</span><span class="sxs-lookup"><span data-stu-id="2eb77-122">Image and Links</span></span>
-
- <span data-ttu-id="2eb77-123">En beskrivende tekst til billeder er angivet med attributten ALT i koden IMG.</span><span class="sxs-lookup"><span data-stu-id="2eb77-123">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="2eb77-124">En beskrivende tekst til hyperlinkser angivet med attributten titel i koden A.</span><span class="sxs-lookup"><span data-stu-id="2eb77-124">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
-
-## <a name="assistive-technologies"></a><a name="AssistiveTech"></a> <span data-ttu-id="2eb77-125">Hjælpeteknologier</span><span class="sxs-lookup"><span data-stu-id="2eb77-125">Assistive Technologies</span></span>
-
-[!INCLUDE[prod_short](includes/prod_short.md)] <span data-ttu-id="2eb77-126">understøtter forskellige hjælpeteknologier, f.eks. stor kontrast, skærmlæsere og talegenkendelsessoftware.</span><span class="sxs-lookup"><span data-stu-id="2eb77-126">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="2eb77-127">Nogle hjælpeteknologier fungerer ikke sammen med bestemte elementer på [!INCLUDE[prod_short](includes/prod_short.md)]-sider.</span><span class="sxs-lookup"><span data-stu-id="2eb77-127">Some assistive technologies may not work well with certain elements in [!INCLUDE[prod_short](includes/prod_short.md)] pages.</span></span>  
-
-## <a name="zoom"></a><a name="zoom"></a> <span data-ttu-id="2eb77-128">Zoom</span><span class="sxs-lookup"><span data-stu-id="2eb77-128">Zoom</span></span>
-
-<span data-ttu-id="2eb77-129">De fleste browsere bruger standardtastaturgenveje til at zoome ind og ud på den aktuelle side.</span><span class="sxs-lookup"><span data-stu-id="2eb77-129">Most browsers use standard keyboard shortcuts to zoom in and out on the current page.</span></span> <span data-ttu-id="2eb77-130">Disse tastaturgenveje er ikke specifikke for [!INCLUDE [prod_short](includes/prod_short.md)], men de fungerer, når du bruger [!INCLUDE [prod_short](includes/prod_short.md)] i en browser.</span><span class="sxs-lookup"><span data-stu-id="2eb77-130">These keyboard shortcuts are not specific to [!INCLUDE [prod_short](includes/prod_short.md)], but they work when you use [!INCLUDE [prod_short](includes/prod_short.md)] in a browser.</span></span> <span data-ttu-id="2eb77-131">Du kan få vist en liste over understøttede tastaturgenveje under [Tastaturgenveje til zoom ind og ud](keyboard-shortcuts.md#zoomshortcuts).</span><span class="sxs-lookup"><span data-stu-id="2eb77-131">For a list of supported keyboard shortcuts, see [Keyboard Shortcuts for Zooming In and Out](keyboard-shortcuts.md#zoomshortcuts).</span></span>  
-
-## <a name="for-more-accessibility-information"></a><span data-ttu-id="2eb77-132">Flere oplysninger om tilgængelighedsfunktioner</span><span class="sxs-lookup"><span data-stu-id="2eb77-132">For more accessibility information</span></span>
-
-<span data-ttu-id="2eb77-133">Du kan finde flere oplysninger om tilgængelighedsfunktioner i Microsoft-produkter og hjælpeteknologier på webstedet [Microsoft Hjælp til handicappede](https://go.microsoft.com/fwlink/?LinkId=262160).</span><span class="sxs-lookup"><span data-stu-id="2eb77-133">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
-
-## <a name="see-also"></a><span data-ttu-id="2eb77-134">Se også</span><span class="sxs-lookup"><span data-stu-id="2eb77-134">See Also</span></span>
-
-[<span data-ttu-id="2eb77-135">Blive køreklar</span><span class="sxs-lookup"><span data-stu-id="2eb77-135">Getting Ready for Doing Business</span></span>](ui-get-ready-business.md)  
-<span data-ttu-id="2eb77-136">[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2eb77-136">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="2eb77-137">Ofte stillede spørgsmål</span><span class="sxs-lookup"><span data-stu-id="2eb77-137">Frequently Asked Questions</span></span>](across-faq.md)  
-
+[<span data-ttu-id="cab47-174">Blive køreklar</span><span class="sxs-lookup"><span data-stu-id="cab47-174">Getting Ready for Doing Business</span></span>](ui-get-ready-business.md)  
+<span data-ttu-id="cab47-175">[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="cab47-175">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="cab47-176">Ofte stillede spørgsmål</span><span class="sxs-lookup"><span data-stu-id="cab47-176">Frequently Asked Questions</span></span>](across-faq.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
