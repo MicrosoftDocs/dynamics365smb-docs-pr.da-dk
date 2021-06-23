@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778668"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216149"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere specialsalgspriser og -rabatter
 > [!NOTE]
@@ -127,7 +127,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
     > Fakturarabatkoder repræsenteres af eksisterende debitorkort. Det gør det muligt hurtigt at tildele betingelserne for fakturarabatten til debitorer ved at vælge navnet på en anden debitor, der skal have samme betingelser. Hvis du vil oprette debitorspecifikke fakturarabatbetingelser, skal du angive feltet **Fakturarabatkode** til debitorens debitorkode og derefter fortsætte til næste trin.
 
 8. På siden **Debitorkort** skal du vælge handlingen **Fakturarabatter**. Siden **Deb./fakt.-rabatter** åbnes.
-9. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser for DKK.
+9. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser for din lokale valuta.
 10. Alternativt kan du angive det minimumsbeløb, der berettiger til rabatten, i feltet **Min. beløb**.
 11. I feltet **Rabatpct.** skal du angive fakturarabatten som en procentdel af fakturabeløbet.
 12. Gentag trin 5-7 for hver valuta, som debitoren får en personlig fakturarabat for.
@@ -149,7 +149,7 @@ Når du har besluttet, hvilke kunder der skal have fakturarabatter, skal du angi
 Fortsæt med at angive nye fakturarabatbetingelser for salg.
 
 1. På siden **Kunder** skal du vælge handlingen **Fakturarabatter**. Siden **Deb./fakt.-rabatter** åbnes.
-2. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser for DKK.
+2. Angiv koden for den valuta, som fakturarabatbetingelserne på linjen gælder for, i feltet **Valutakode**. Lad feltet stå tomt for at angive fakturarabatbetingelser for din lokale valuta.
 3. Angiv det minimumsbeløb, der berettiger til rabatten, i feltet **Min. beløb**.
 4. I feltet **Rabatpct.** skal du angive fakturarabatten som en procentdel af fakturabeløbet.
 5. Gentag trin 5-7 for hver valuta, som debitoren får en personlig fakturarabat for.

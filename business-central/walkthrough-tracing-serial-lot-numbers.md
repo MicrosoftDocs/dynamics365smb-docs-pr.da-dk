@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5bf9da1a8e561f49ae02e8178c0eb2b8232e93ba
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771950"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216276"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Når der forekommer fejlbehæftede produkter, skal fejlene identificeres, og de relevante varer må ikke kunne forlade virksomheden. Hvis de fejlbehæftede varer allerede er afsendt, skal du finde ud af, hvem der har modtaget dem, for om nødvendigt at kunne tilbagekalde varerne.  
 
@@ -51,7 +51,7 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 For at gennemføre denne gennemgang skal du bruge:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]-virksomhed.  
-- Oprette nye varer og forskellige forretningstransaktioner ved at følge trinnene i [Klargøre eksempeldata](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
+<!-- - To create new items and several business transactions by following the [Prepare Sample Data](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Historie
 

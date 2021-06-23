@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: 58ab2cab2e689af7668fb52d63c055079b4762c6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788379"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215424"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designdetaljer: ændre kostmetoden for varer
 
@@ -76,7 +76,7 @@ Når du har oprettet nye varer og overfører stamdataene, skal du tildele den ko
 
 Hvis du vil gøre de nye elementer fuldt anvendelige, skal du manuelt kopiere nogle masterdata fra andre områder som beskrevet i følgende tabel.
 
-|Område  |Hvad der skal kopieres  |Hvordan det skal kopieres  |
+|Område  |Hvad der skal kopieres  |Sådan kopieres det  |
 |---------|---------|---------|
 |Lager     |Lagervarer         |Kontrollér, om der er angivet en lagervare for den oprindelige vare. Hvis der er angivet planlægningsparametre for hvert lagervarekort, skal du manuelt oprette lagervaren for den nye vare. Hvis der ikke er angivet parametre, kan du bruge kørslen **Opret lagervare** fra siden **Varekort** til at oprette dataene.        |
 |     |Erstatningsvarer         |Kontrollér, om der er defineret erstatningsvarer for den oprindelige vare. Hvis der er det, skal du overføre dataene til den nye vare. Hvis du vil se erstatningsvarer, skal du bruge handlingen **Erstatninger** på siden **Varekort**.         |
