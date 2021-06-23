@@ -11,15 +11,15 @@
 #### [Gennemgang: Gennemførsel af en salgskampagne](walkthrough-conducting-a-sales-campaign.md)
 #### [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-#### [Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)
-#### [Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)
-#### [Gennemgang: Salg, montering og levering af pakker](walkthrough-selling-assembling-and-shipping-kits.md)
+<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)
 #### [Gennemgang: Beregning af igangværende arbejder for en sag](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)
+<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Designoplysninger
@@ -79,8 +79,6 @@
 ##### [Oversigt over bogføringslinje i finanskladde](design-details-general-journal-post-line-overview.md)  
 ##### [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)  
 ##### [Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)  
-##### [Designoplysninger: Ændringer i Codeunit 12: Kobling af globale variabler for bogføringslinje i finanskladde](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Designoplysninger – Codeunit 12-ændringer i procedurer for bogføring af finanskladder](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Designoplysninger: Dimensionsgruppeposter
 ##### [Designoplysninger: Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)  
 ##### [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
@@ -241,10 +239,11 @@
 #### [Tip: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Opsætning af mail
 #### [Konfigurer mail](admin-how-setup-email.md)
-#### Opsætning af din virksomheds indbakke i Outlook 
+#### Konfigurer din virksomheds indbakke i Microsoft Outlook 
 ##### [Bruge Business Central som din virksomheds indbakke i Outlook](admin-outlook.md)
-##### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-##### [Bruge Business Central uden Outlook](admin-no-outlook.md)
+##### [Synkronisere med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
+##### [Optimere Outlook](admin-outlook-optimize.md)
+##### [Brug af Business Central uden Outlook](admin-no-outlook.md)
 ### Opsætning af rapporter
 #### [Rapportvalg](across-report-selections.md)
 ### Opsætning af forbindelser
@@ -257,7 +256,7 @@
 ##### [Administration af Teams-integration](admin-teams-integration.md)
 ##### [Installation af Business central-app i Teams](across-install-app-for-teams.md)
 ##### [Søgning efter debitorer, kreditorer og kontakter](across-search-contacts-teams.md)
-##### [Arbejde med Business Central-data i Teams](across-working-with-teams.md)
+##### [Deling af poster i Teams](across-working-with-teams.md)
 ##### [Ændring af virksomhed og andre indstillinger](across-teams-settings.md)
 ##### [Teams, ofte stillede spørgsmål](teams-faq.md)
 ##### [Fejlfinding](admin-teams-troubleshooting.md)
@@ -287,12 +286,12 @@
 ### [Hent Business Central til din mobilenhed](install-mobile-app.md)
 
 ## Ofte stillede spørgsmål
-### [Ofte stillede spørgsmål](across-faq.md)
+### [Ofte stillede spørgsmål](across-faq.yml)
 ### [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
 ### [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)
 ### [Ofte stillede spørgsmål om listevisninger](ui-views-faq.yml)
 ### [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)
-### [Ofte stillede spørgsmål til mobilapp](ui-mobile-faq.md)
+### [Ofte stillede spørgsmål til mobilapp](ui-mobile-faq.yml)
 ### [Teams, ofte stillede spørgsmål](teams-faq.md)
 ### [Ofte stillede spørgsmål om elektronisk fakturering](faq-electronic-invoicing.yml)
 ### [Minimumkrav](product-requirements.md)
@@ -534,6 +533,10 @@
 #### [Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
+### Administrere likviditet
+#### [Oversigt over likviditet](finance-cash-flow-overview.md)
+#### [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)
+
 ### Afslutning af år og perioder
 #### [Oversigt over årsafslutning](year-close-years-periods.md)
 #### [Arbejde med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
@@ -566,7 +569,6 @@
 ### [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)
 ### [Konvertere servicekontrakter, som omfatter momsbeløb](service-how-to-convert-service-contracts.md)
 ### [Styre ændringer af momssats](finance-how-use-vat-rate-change-tool.md)
-### [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)
 ### [Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md)
 ### [Overføre bankbeløb](bank-how-transfer-bank-funds.md)
@@ -586,6 +588,7 @@
 
 ## Salg
 ### [Salgsoversigt](sales-manage-sales.md)
+### [Salgsrapporter](sales-reports.md)
 ### [Gennemgang: Gennemførsel af en salgskampagne](walkthrough-conducting-a-sales-campaign.md)
 ### [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Registrere nye debitorer](sales-how-register-new-customers.md)
@@ -606,9 +609,11 @@
 ### [Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)
 ### [Flette dublerede poster](sales-how-merge-duplicate-records.md)
 ### [Arbejde med tilbagevendende indtægt](finance-recurring-invoicing.md)
+### [Angive eksterne bilagsnumre](across-enter-external-document-numbers.md)
 
 ## Indkøb
 ### [Købsoversigt](purchasing-manage-purchasing.md)
+### [Købsrapporter](purchase-reports.md)
 ### [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Registrere køb](purchasing-how-record-purchases.md)
 ### [Anmode om tilbud](purchasing-how-request-quotes.md)
@@ -621,9 +626,13 @@
 ### [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)
 ### [Flette dublerede poster](sales-how-merge-duplicate-records.md)
 ### [Arbejde med rammekøbsordrer](sales-how-to-create-blanket-sales-orders.md)
+### [Eksterne bilagsnumre på købsdokumenter](purchasing-ext-doc-no.md)
+### [Angive eksterne bilagsnumre](across-enter-external-document-numbers.md)
+
 
 ## Lager
 ### [Oversigt over lager](inventory-manage-inventory.md)
+### [Lagerbeholdning og lagerrapporter](inventory-WMS-reports.md)
 ### [Registrere nye varer](inventory-how-register-new-items.md)
 ### [Arbejde med styklister](inventory-how-work-BOMs.md)
 ### [Kategorisere varer](inventory-how-categorize-items.md)
@@ -642,6 +651,7 @@
 
 ## Projektstyring
 ### [Oversigt over projektadministration](projects-manage-projects.md)
+### [Projektrapporter](project-reports.md)
 ### [Oprette sager](projects-how-create-jobs.md)
 ### [Bruge ressourcer til sager](projects-how-use-resources.md)
 ### [Bruge timesedler for sager](projects-how-use-time-sheets.md)
@@ -701,21 +711,20 @@
 ## Planlægning
 ### [Produktionsplanlægning](production-planning.md)
 ### [Om planlægningsfunktionen](production-about-planning-functionality.md)
-### [Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)
 ### [Planlægge med eller uden lokationer](production-planning-with-without-locations.md)
 ### [Oprette et forecast](production-how-to-create-a-forecast.md)
 ### [Oprette produktionsordrer fra salgsordrer](production-how-to-create-production-orders-from-sales-orders.md)
-### [Planlægge projektordrer](production-how-to-plan-project-orders.md)
 ### [Planlægge efter nyt behov ordre for ordre](production-how-to-plan-for-new-demand.md)
 ### [Køre fuld planlægning, MPS eller MRP](production-how-to-run-mps-and-mrp.md)
 ### [Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md)
 ### [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md)
-### [Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)
-### [Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)
+<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Montagestyring
 ### [Montere varer](assembly-assemble-items.md)
+### [Montagerapporter](assembly-reports.md)
 ### [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Oprette tilbud på montage til ordre-salg](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Montere varer](assembly-how-to-assemble-items.md)
@@ -729,6 +738,7 @@
 
 ## Produktion
 ### [Oversigt over produktion](production-manage-manufacturing.md)
+### [Produktionsrapporter](production-reports.md)
 ### [Om produktionsordrer](production-about-production-orders.md)
 ### [Oprette produktionsordrer](production-how-to-create-production-orders.md)
 ### [Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)
@@ -743,6 +753,7 @@
 
 ## Logistik
 ### [Logistik](warehouse-manage-warehouse.md)
+### [Lagerbeholdning og lagerrapporter](inventory-WMS-reports.md)
 ### [Modtage varer](warehouse-how-receive-items.md)
 ### [Afsende varer direkte](warehouse-how-to-cross-dock-items.md)
 ### Lægge varer på lager
@@ -773,8 +784,8 @@
 ### [Afsende varer](warehouse-how-ship-items.md)
 ### [Finde dine lageropgaver](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [Brug ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)
-### [Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
 ## Servicestyring
 ### [Service Management](service-service.md)
@@ -840,6 +851,7 @@
 ##### [Bestemme salgspris efter kostpris plus procent](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australske virksomhedsnumre og reguleringsnoter](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Angive Australian Business Numbers (ABN)](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [Betalingstider - rapportering](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Østrig
 #### [Lokal funktionalitet i den østrigske version](LocalFunctionality/Austria/austria-local-functionality.md)
@@ -1544,7 +1556,6 @@
 ##### [Indtaste lovpligtige oplysninger](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [Udvidelsen Britiske GetAddress.io-postnumre](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Konfigurere britisk GetAddress.io-postnummerudvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Angive eksterne bilagsnumre](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### USA
 #### [Lokal funktionalitet i den amerikanske version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1599,6 +1610,7 @@
 ### [Sådan ser du tabeloplysninger](admin-view-table-information.md)
 ### [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md)
 ### [Aktivering af nye funktioner på forhånd](admin-feature-management.md)
+### [Onboarding af brugere med kontrollister](admin-checklist.md)
 ## Tilpasse Business Central
 ### [Oversigt over tilpasning](ui-customizing-overview.md)
 ### [Tilpasse sider til profiler](ui-personalization-manage.md)
