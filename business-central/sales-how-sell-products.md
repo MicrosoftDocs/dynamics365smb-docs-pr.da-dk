@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 206f61a76a072a462fce836637c77a795acabb84
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b32e8faa6b9e56505379d1f06fd5ad79466614
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778609"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115511"
 ---
 # <a name="sell-products"></a>Sælge produkter
 
@@ -40,23 +40,19 @@ Du kan nemt rette eller annullere en bogført salgsfaktura, der er oprettet i fo
 
 Varekortet kan være af typen **Lager**, **Service** og **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke opbevares på lageret. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md). Salgsordreprocessen er den samme for alle tre varetyper.
 
-Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debitoren allerede er registreret. Se trin 2 og 3 i følgende procedure.
+Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debitoren allerede er registreret. Se trin 2 i følgende procedure.
 
 ## <a name="to-create-a-sales-order"></a>Sådan oprettes en salgsordre
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
 2. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
 
-    Andre felter på siden **Salgsordre** er nu udfyldt med standardoplysningerne for den valgte debitor. Hvis debitoren ikke er registreret, skal du følge disse trin:
-3. I feltet **Debitor** skal du indtaste navnet på den nye debitor.
-4. I dialogboksen, hvor du registrerer den nye debitor, skal du trykke på knappen **Ja**.
-5. På siden **Vælg en skabelon til en ny debitor** skal du vælge en skabelon, som det nye debitorkort skal baseres på, og derefter vælge knappen **OK**.
+    Andre felter på siden **Salgsordre** er nu udfyldt med standardoplysningerne for den valgte debitor.  
 
-    Et nyt debitorkort åbnes, udfyldt med oplysninger om den valgte debitorskabelon. Feltet **Navn** udfyldes på forhånd med den nye debitors navn, som du har angivet på salgsordren.
-6. Fortsæt med at udfylde resten af felterne på debitorkortet. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
-7. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til siden **Salgsordre**.
+    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]  
 
     En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.
-8. Udfylde de resterende felter efter behov på siden **Salgsordre**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Udfylde de resterende felter efter behov på siden **Salgsordre**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Hvis du tillader, at kunden betaler med det samme, f.eks. med kreditkort eller via PayPal, skal du udfylde feltet **Betalingsformskode**. Betalingen registreres derefter, når du bogfører salgsordren som faktureret. Hvis du vælger KONTANT, registreres betalingen i en bestemt modkonto.
@@ -64,69 +60,52 @@ Du kan udfylde debitorfelter i salgsordren på to måder, afhængigt af om debit
     Du er nu klar til at udfylde salgsordrelinjerne med lagervarer eller services, som du ønsker at sælge til debitoren.
 
     Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.
-9. I oversigtspanelet **Linjer** skal du i feltet **Vare** indsætte nummeret på en vare eller en service.  
-10. Angiv det antal varer, der skal sælges, i feltet **Antal**.
+4. I oversigtspanelet **Linjer** i feltet **Type** skal du vælge, hvilken type produkt, gebyr eller transaktion, som du vil bogføre for debitoren med salgslinjen.
 
-    > [!NOTE]  
-    >   For varer af typen Service er antallet en tidsenhed, f.eks. timer, der er angivet i feltet **Enhedskode** på linjen.
-
-    Feltet **Linjebeløb** opdateres, så det viser værdien i feltet **Enhedspris** ganget med værdien i feltet **Antal**.
-
-    Prisen og linjebeløbene vises med eller uden moms, afhængigt af hvad du har valgt i feltet **Priser inkl. moms** på debitorkortet.
-11. I feltet **Linjerabatpct.** kan du indtaste en procentdel, hvis du vil give debitoren en rabat på produktet. Værdien i feltet **Linjebeløb** opdateres tilsvarende.
-
-    Hvis du har konfigureret specialvarepriser i oversigtspanelet **Salgspriser og salgslinjerabatter** på debitor- eller varekortet, opdateres linjerabatprocenten, prisen og beløbet på tilbudslinjen automatisk, hvis de aftalte priskriterier opfyldes. Du kan finde flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
-12. Hvis du vil tilføje en kommentar om den tilbudslinje, som kunden kan se på det udskrevne salgstilbud, skal du skrive en tekst i feltet **Beskrivelse** på en tom linje.  
-13. Gentag trin 9 til 12 for hver vare, du ønsker at sælge til debitoren.
-
-    Totalerne under linjerne beregnes automatisk, mens du opretter eller redigerer linjer.
-14. Et nyt debitorkort viser oplysninger om den valgte debitorskabelon. Udfyld de resterende felter. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
-15. Når du er færdig med debitorkortet, skal du vælge **OK** for at vende tilbage til siden **Salgsordre**.
-
-    En række af felterne i salgsordren er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.
-16. Udfylde de resterende felter efter behov på siden **Salgsordre**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-    Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.   
-
-    Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.  
-17. I oversigtspanelet **Linjer** i feltet **Type** skal du vælge, hvilken type produkt, gebyr eller transaktion, som du vil bogføre for debitoren med salgslinjen.
-
-18. I feltet **Nummer** skal du vælge en post, der skal bogføres i overensstemmelse med værdien i feltet **Type**.
+5. I feltet **Nummer** angive nummeret på en vare eller en service.
 
     Lad feltet **Nummer** være tomt i følgende tilfælde:
 
     * Hvis der er tale om en kommentar. Skriv bemærkningen i feltet **Beskrivelse**.
     * Hvis der er tale om en katalogvare. Vælg handlingen **Vælg katalogvarer**. Du kan finde flere oplysninger i [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
-
-19. I feltet **Antal** skal du angive, hvor mange enheder af produktet, gebyret eller transaktion, som linjen skal registrere for debitoren.  
+6. Angiv det antal varer, der skal sælges, i feltet **Antal**.
 
     > [!NOTE]  
-    > Hvis varen er af typen **Service**, eller hvis feltet **Type** indeholder **Ressource**, er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen. Du kan finde flere oplysninger i [Oprette vareenheder](inventory-how-setup-units-of-measure.md).
+    > For varer af typen *Ressource* eller *Service* er antallet en tidsenhed, f.eks. timer, der er angivet i feltet **Enhedskode** på linjen. Du kan finde flere oplysninger i [Oprette vareenheder](inventory-how-setup-units-of-measure.md).
 
-    Værdien i feltet **Linjebeløb** beregnes som *Enhedspris* x *Antal*.  
+    Feltet **Linjebeløb** opdateres, så det viser værdien i feltet **Enhedspris** ganget med værdien i feltet **Antal**.
 
-    Prisen og linjebeløbene er med eller uden moms, afhængigt af hvad du har valgt i feltet **Priser inkl. moms** på debitorkortet.  
-20. Hvis du vil give en rabat, skal du angive en procentdel i feltet **Linjerabatpct.**. Værdien i feltet **Linjebeløb** opdateres tilsvarende.  
+    Prisen og linjebeløbene vises med eller uden moms, afhængigt af hvad du har valgt i feltet **Priser inkl. moms** på debitorkortet.
+7. I feltet **Linjerabatpct.** kan du indtaste en procentdel, hvis du vil give debitoren en rabat på produktet. Værdien i feltet **Linjebeløb** opdateres tilsvarende.
 
-    Hvis der er konfigureret specialvarepriser i oversigtspanelet **Salgspriser og salgslinjerabatter** på debitor- eller varekortet, opdateres linjerabatprocenten, prisen og beløbet på salgslinjen automatisk, hvis priskriterierne er opfyldt. Du kan finde flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).  
-21. Gentag trin 9 til 12 for hvert produkt eller gebyr, du ønsker at sælge til debitoren.  
+    Hvis du har konfigureret specialvarepriser i oversigtspanelet **Salgspriser og salgslinjerabatter** på debitor- eller varekortet, opdateres linjerabatprocenten, prisen og beløbet på tilbudslinjen automatisk, hvis de aftalte priskriterier opfyldes. Du kan finde flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
+8. Hvis du vil tilføje en kommentar om den tilbudslinje, som kunden kan se på det udskrevne salgstilbud, skal du skrive en tekst i feltet **Beskrivelse** på en tom linje.  
+9. Gentag trin 4 til 8 for hver vare, du ønsker at sælge til debitoren.
 
     Totalfelterne under linjerne opdateres automatisk, når du opretter eller redigerer linjer for at få vist de beløb, der skal bogføres i finansposterne.
 
     > [!NOTE]
-    > I meget sjældne tilfælde kan de bogførte beløb afvige fra det, der er vist i totalfelterne. Dette skyldes typisk afrundingsberegninger i relation til moms.<br /><br />Hvis du vil kontrollere de beløb, der faktisk bogføres, kan du bruge siden **Statistik**, som tager højde for afrundingsberegningerne. Hvis du vælger handlingen **Frigiv**, opdateres totalfelterne, så de omfatter afrundingsberegninger.  
-22. I feltet **Fakturarabatbeløb** skal du indtaste et beløb, der trækkes fra den værdi, der vises i feltet **I alt inkl. moms**.
+    > I meget sjældne tilfælde kan de bogførte beløb afvige fra det, der er vist i totalfelterne. Dette skyldes typisk afrundingsberegninger i relation til moms.
+    >
+    > Hvis du vil kontrollere de beløb, der faktisk bogføres, kan du bruge siden **Statistik**, som tager højde for afrundingsberegningerne. Hvis du vælger handlingen **Frigiv**, opdateres totalfelterne, så de omfatter afrundingsberegninger.  
+
+10. Eller angiv i feltet **Fakturarabatbeløb** et beløb, der trækkes fra den værdi, der vises i feltet **I alt inkl. moms**.
 
     Hvis du har konfigureret fakturarabatter til debitoren, indsættes den angivne procentværdi automatisk i feltet **Fakturarabat i %**, hvis kriterierne er opfyldt, og det relaterede beløb indsættes i feltet **Fakturarabat ekskl. moms**. Du kan finde flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
-23. Hvis du kun vil sende en del af ordreantallet, skal du angive dette antal i feltet **Lever antal**. Værdien kopieres til feltet **Fakturer antal**.
-24. Hvis du kun vil fakturere en del af det leverede antal, skal du angive dette antal i feltet **Fakturer antal**. Antallet skal være mindre end værdien i feltet **Lever antal**.   
-25. Når salgsordrelinjerne er fuldført, skal du vælge handlingen **Bogfør og send**.
+11. Hvis du kun vil sende en del af ordreantallet, skal du angive dette antal i feltet **Lever antal**. Værdien kopieres til feltet **Fakturer antal**.
+12. Hvis du kun vil fakturere en del af det leverede antal, skal du angive dette antal i feltet **Fakturer antal**. Antallet skal være mindre end værdien i feltet **Lever antal**.  
+13. Når salgsordrelinjerne er fuldført, skal du vælge handlingen **Bogfør og send**.
 
 Dialogboksen **Bekræftelse af bogfør og send** viser debitorens foretrukne metode til modtagelse af dokumenter. Du kan ændre afsendelsesmetoden ved at vælge opslagsknappen for feltet **Send bilag til**. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
 
-De relaterede vare- og debitorposter oprettes nu i systemet, og salgsordren udlæses som et PDF-dokument. Når salgsordren er bogført fuldstændigt, fjernes den fra listen over salgsordrer og erstattes med nye dokumenter på listen over bogførte salgsfakturaer og oversigten over bogførte salgsleverancer.
+De relaterede vare- og debitorposter oprettes nu i systemet, og salgsordren udlæses som et PDF-dokument. Når salgsordren er bogført fuldstændigt, fjernes den fra listen over salgsordrer og erstattes med nye dokumenter på listen over bogførte salgsfakturaer og oversigten over bogførte salgsleverancer.  
+
+## <a name="external-document-number"></a>Eksterne bilagsnumre
+
+[!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
 ## <a name="see-also"></a>Se også
+
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Udskrive pluklisten](sales-how-print-picking-list.md)  

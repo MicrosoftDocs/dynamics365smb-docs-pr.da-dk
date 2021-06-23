@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017095"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115257"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -36,7 +36,7 @@ Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], skal du log
 Du kan også [besøge vores videobibliotek](across-videos.md) eller starte med [Kom i gang med Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)-læringssti på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Medmindre andet er angivet, afspejler indholdet på webstedet Docs.microsoft.com den seneste version af [!INCLUDE[prod_short](includes/prod_short.md)] online. Hvis din organisation bruger en anden version af [!INCLUDE[prod_short](includes/prod_short.md)] online, er visse muligheder måske endnu ikke tilgængelige. Hvis din organisation bruger [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, bruger du muligvis en tidligere version. Du kan finde flere oplysninger i [Ofte stillede spørgsmål](across-faq.md).
+> Medmindre andet er angivet, afspejler indholdet på webstedet Docs.microsoft.com den seneste version af [!INCLUDE[prod_short](includes/prod_short.md)] online. Hvis din organisation bruger en anden version af [!INCLUDE[prod_short](includes/prod_short.md)] online, er visse muligheder måske endnu ikke tilgængelige. Hvis din organisation bruger [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, bruger du muligvis en tidligere version. Du kan finde flere oplysninger i [Ofte stillede spørgsmål](across-faq.yml).
 
 Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab til [!INCLUDE [prod_short](includes/prod_short.md)].  
 

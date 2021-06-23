@@ -1,6 +1,6 @@
 ---
-title: Sådan oprettes produktionsordrer fra salgsordrer | Microsoft Docs
-description: Du kan oprette produktionsordrer fra salgsordrer i afdelingen Salg & marketing.
+title: Oprette produktionsordrer fra salgsordrer
+description: Du kan oprette produktionsordrer fra salgsordrer
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: 8765bf3af62444712e8de8c40408a30c95f2374e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 438f4d4e1833ba607ceedb9f5d9450c0a4dbb680
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779274"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115232"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Oprette produktionsordrer fra salgsordrer
 Du kan oprette produktionsordrer til producerede varer direkte fra salgsordrer.  
@@ -27,9 +27,22 @@ Du kan oprette produktionsordrer til producerede varer direkte fra salgsordrer.
 3.  Vælg handlingen **Planlægning**. På siden **Salgsordreplanlægning** kan du få vist disponeringen for en salgsordrevare.  
 4.  Vælg handlingen **Opret prod.ordre**.  
 5.  Vælg status og ordretype.  
-6.  Vælg knappen **Ja** for at oprette en produktionsordre.
+6.  Klik på knappen **Ja** for at oprette en eller flere produktionsordrer til de linjer, der har **produktionsordre** i feltet **Genbestillingssystem**.
 
-Du kan også vælge at oprette en projektproduktionsordre. Du kan finde flere oplysninger i [Planlægge projektordrer](production-how-to-plan-project-orders.md).   
+
+> [!NOTE]  
+> Linjer i den oprettede projektproduktionsordre, der har behov for **Prod.ordre** i feltet **Genbestillingssystem**, repræsenterer underliggende produktionsordrer. Når du har oprettet disse produktionsordrer, skal du huske at identificere eventuelle ekspederet komponentbehov for dem ved hjælp af siden **Ordreplanlægning** eller funktionen **Omplanlæg** fra oprettede ordrer. 
+
+## <a name="order-type"></a>Ordretype  
+Du kan vælge mellem to måder at oprette produktionsordrer på, som beskrevet i følgende tabel.
+
+|Indstilling|Beskrivelse|
+|------|-----------|
+|Vareordre|En produktionsordre oprettes for hver enkelt behov produktionsordre, der repræsenteres af a linje i vinduet **Salgsordreplanlægning**.|
+|Projektordre|En produktionsordre oprettes for hver enkelt produktionsordre, der repræsenteres af en linje i vinduet **Salgsordreplanlægning**. |
+
+Når du bruger projektordrer, indeholder feltet **Kildetype** i produktionsordren **Salgshoved**, og ordren indeholder flere linjer, en for hver salgslinjevare, der skal produceres.  
+
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere produktion](production-configure-production-processes.md)  

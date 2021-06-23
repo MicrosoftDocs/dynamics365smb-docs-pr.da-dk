@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e7d15b47124248e27698136fab362e867e81ba47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782880"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214699"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gennemgang: Automatisk planlægning af forsyninger
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen af hovedplanen (MPS) og materialebehovsplanen (MRP) baseret på det faktiske og det prognosticerede behov.  
 
@@ -264,8 +264,8 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
  Hermed er gennemgangen af, hvordan planlægningssystemet bruges til automatisk registrering af behov, beregning af relevante forsyningsordrer iht. behovs- og planlægningsparametre samt efterfølgende automatisk oprettelse af andre typer forsyningsordrer med relevante datoer og antal færdig.  
 
 ## <a name="see-also"></a>Se også  
- [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)   
- [Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)   
+ [Gennemgang af forretningsproces](walkthrough-business-process-walkthroughs.md)   
+<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
 
 

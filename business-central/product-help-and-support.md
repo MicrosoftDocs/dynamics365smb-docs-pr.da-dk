@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 04/09/2021
-ms.openlocfilehash: 0487bd06f6a28313e90d6353aecf123a7fc3a708
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 8f3a5d39cfd9e28233055d902852151581e53e5e
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882251"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115407"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
@@ -78,7 +78,7 @@ Som den interne administrator har du adgang til administrationen, hvor du kan fo
 Din [!INCLUDE[prod_short](includes/prod_short.md)]-detailpartner kan hjælpe dig med teknisk support. Denne sektion gør det nemt for dig at kontakte din distributør, hvis de har angivet deres supportkontaktoplysninger. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp. Du kan finde flere oplysninger i [Eskalere supportproblemer til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) i administrationsindholdet.  
 
 > [!NOTE]
-> Denne sektion er kun tilgængelig, hvis du har betalt for et [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[prod_short](includes/prod_short.md)], har du ikke en forhandlerpartner, og du ikke kan kontakte Microsofts supportteam. Du kan finde en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner).  
+> Denne sektion er kun tilgængelig, hvis du har betalt for et [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[prod_short](includes/prod_short.md)], har du ikke en forhandlerpartner, og du ikke kan kontakte Microsofts supportteam. Du kan finde en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#findpartner).  
 
 ### <a name="support-contacts"></a>Supportkontrakter
 
@@ -163,7 +163,7 @@ Det samme gælder, hvis du bruger [!INCLUDE [prod_short](includes/prod_short.md)
 ## <a name="see-also"></a>Se også
 
 [Undervisningskatalog for Business Central](readiness/readiness-learning-catalog.md)  
-[Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner)  
+[Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#findpartner)  
 [Hjælp-system (kun tilgængeligt på engelsk)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blog post: Find de rigtige ressourcer, og giv feedback](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Central-udvikler- og administrationsdokumenter](/dynamics365/business-central/dev-itpro/)  

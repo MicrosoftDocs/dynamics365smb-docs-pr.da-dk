@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5273539fa1dfa3916443bc3e0bf21efb19a4571b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1dafd874523be75e00e224fd5b1d3f3d33a7e712
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779453"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063498"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumkrav til brug af Business Central
 
@@ -47,7 +47,10 @@ Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales 
 ## <a name="outlook"></a>Outlook
 
 **Outlook-programmer:** For at kunne bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2019 eller nyere, Outlook som webmail, Outlook til iOS eller Outlook til Android. Organisationen skal også bruge Microsoft 365. Du kan ikke bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø. 
- 
+
+> [!IMPORTANT]
+> Fra og med Business central 2021 Release Wave 2 kan du ikke længere logge på den virksomheds specifikke tilføjelsesprogrammet fra Outlook-versioner før 2012.
+  
 **Webbrowsere:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds indbakke i en browser, kræver tilføjelsesprogrammet, at computeren kører en af de anførte understøttede webbrowsere, der er angivet tidligere i denne artikel. 
  
 **Platforme:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tilføjelsesprogrammet i Outlook til iOS, Outlook til Android, kræver tilføjelsesprogrammet, at mobilenheden kører en af de anførte understøttede mobilenheder til [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -63,6 +66,9 @@ Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales 
 ## <a name="excel"></a>Excel
 
 **Rediger i Excel:** Når du vil bruge Excel-tilføjelsesprogrammet til at foretage ændringer i Excel og overføre ændringer til [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge Excel 2019 eller nyere. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  
+
+> [!IMPORTANT]
+> Fra og med Business central 2021 Release Wave 2 kan Excel-tilføjelses funktionen kun understøtte Microsoft Excel version 2012 eller nyere.
 
 ## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Sådan bruger du Business Central-administrationscenter
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 64e3a85a4a57a229d23070d7453729b46979d97e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da7b9e3623f953fca19609702216e8b895d438fb
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785156"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214799"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designoplysninger: Overførsler i planlægning
 Overflytningsordrer er også en forsyningskilde, når du arbejder på lagervareniveauet. Ved at bruge flere lokationer (lagre) kan lagervaregenbestillingssystemet indstilles til Overførsel, hvilket indebærer, at lokationen genopfyldes ved at overføre varer fra en anden lokation. I en situation med flere lagersteder kan virksomheder have en kæde af overførsler, hvor forsyningen til lokationen GRØN overføres fra GUL, og levering til GUL overføres fra RØD og så videre. I begyndelsen af kæden er der et genbestillingssystem for produktionsordre eller indkøb.  

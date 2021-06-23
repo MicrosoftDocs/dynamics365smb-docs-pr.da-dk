@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual
+ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba7ed8bba5510e4e17cc645c5dd8f935f50a7fac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783005"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087715"
 ---
 # <a name="working-with-general-journals"></a>Arbejde med finanskladder
 
@@ -71,7 +71,7 @@ Hvis du vil tillade, at kladder kopieres til bogførte finanskladder på siden *
 Hvis du har oprettet modkonti for kladdenavnene, udfyldes modkontoen automatisk på siden **Finanskladder**, når du udfylder feltet **Kontonr.**. Hvis ikke, skal du udfylde både feltet **Kontonr.** og feltet **Modkontonr.** manuelt. Et positivt beløb i feltet **Beløb** debiteres på hovedkontoen og krediteres på modkontoen. Et negativt beløb krediteres på hovedkontoen og debiteres på modkontoen.
 
 > [!NOTE]  
->   Moms beregnes separat for hovedkontoen og modkontoen, så der kan bruges forskellige momsprocentsatser.
+> Moms beregnes separat for hovedkontoen og modkontoen, så der kan bruges forskellige momsprocentsatser.
 
 ## <a name="working-with-recurring-journals"></a>Arbejde med gentagelseskladder
 En gentagelseskladde er en finanskladde med specifikke felter til styring af transaktioner, som bogføres ofte med få eller ingen ændringer, f.eks. leje, abonnementer, elektricitet og varme. Med disse felter til gentagelsestransaktioner kan du bogføre både faste og variable beløb. Du kan også angive automatiske tilbageførselsposter dagen efter bogføringsdatoen. Du kan også bruge fordelingsnøgler til at opdele de gentagne poster mellem forskellige konti. Du kan finde yderligere oplysninger i [Fordeling af gentagelsesposter på flere konti](#allocating-recurring-journal-amounts-to-several-accounts).
@@ -167,6 +167,7 @@ Når du har oprettet kladdelinjer, som du ved, at du sandsynligvis skal oprette 
 Når du har gemt standardvarekladden, vises siden Varekladde, så du kan bogføre varekladden. Nu kan du hurtigt oprette varekladden, næste gang du har brug for at bogføre de samme eller lignende linjer.
 
 ### <a name="to-reuse-a-standard-journal"></a>Sådan genbruges en standardkladde
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Hent standardkladder**.
 
@@ -181,23 +182,26 @@ Når du har gemt standardvarekladden, vises siden Varekladde, så du kan bogfør
     Hvis du ikke markerede feltet **Gem pris**, da du brugte funktionen **Gem som standardkladde**, indsættes varens aktuelle værdi automatisk i feltet **Pris**, værdien kopieres fra feltet **Kostpris** på varekortet.
 
     > [!NOTE]  
-    >   Hvis du markerede feltet **Gem pris** eller **Gem antal**, skal du kontrollere, at de indsatte værdier er korrekt for denne lagerregulering, inden du bogfører varekladden.
+    > Hvis du markerede feltet **Gem pris** eller **Gem antal**, skal du kontrollere, at de indsatte værdier er korrekt for denne lagerregulering, inden du bogfører varekladden.
 
     Hvis indsatte varekladdelinjer indeholder gemte kostpriser, som du ikke vil bogføre, kan du hurtigt ændre dem til varernes aktuelle værdi på følgende måde:
 
-6. Vælg de varekladdelinjen, som du vil regulere, og vælg derefter handlingen **Genberegn pris**. Derved opdateres feltet Pris med varens aktuelle pris.
-7. Vælg handlingen **Bogfør**.
+5. Vælg de varekladdelinjen, som du vil regulere, og vælg derefter handlingen **Genberegn pris**. Derved opdateres feltet Pris med varens aktuelle pris.
+6. Vælg handlingen **Bogfør**.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Omnummerere bilagsnumre i kladder
+
 Hvis du vil sikre dig, at du ikke får bogføringsfejl pga. bilagets nummerrækkefølge, kan du bruge funktionen **Omnummerer bilagsnumre**, før du bogfører en kladde.
 
 I alle kladder, der er baseret på finanskladden, kan feltet **Bilagsnr** redigeres, så du kan angive forskellige bilagsnumre til forskellige kladdelinjer eller det samme bilagsnummer til relaterede kladdelinjer.
 
-Hvis feltet **Nummerserie** i kladdenavnet er udfyldt, kræver bogføringsfunktionen i finanskladder, at bilagsnummeret på individuelle eller grupperede kladdelinjer er i rækkefølge. Hvis du vil sikre dig, at du ikke får bogføringsfejl pga. bilagets nummerrækkefølge, kan du bruge funktionen **Omnummerer bilagsnumre**, før du bogfører kladden. Hvis relaterede kladdelinjer er grupperet efter bilagsnummer, før du har brugt funktionen, forbliver de grupperet men kan være tildelt et andet bilagsnummer.
+Hvis feltet **Nummerserie** i kladdenavnet er udfyldt, kræver bogføringsfunktionen i finanskladder, at bilagsnummeret på individuelle eller grupperede kladdelinjer er i rækkefølge. Du skal blot vælge funktionen **Omnummerer bilagsnumre**, og relevante **Bilagsnr.**-felterne opdateres derefter. Hvis relaterede kladdelinjer er grupperet efter bilagsnummer, før du har brugt funktionen, forbliver de grupperet men kan være tildelt et andet bilagsnummer.  
 
 Denne funktion fungerer også i filtrerede visninger.
 
 Ved enhver omnummerering af bilagsnumre respekteres relaterede udligninger, f.eks. en betalingsudligning, der er foretaget fra bilaget på kladdelinjen til en kreditorkonto. Derfor opdateres felterne **Udligningsid** og **Udligningsbilagsnr.** muligvis i de berørte finansposteringer.
+
+### <a name="to-renumber-documents-in-journals"></a>Omnummerere bilag i kladder
 
 Følgende procedure er baseret på siden **Kassekladde**, men gælder for alle andre kladder, der er baseret på finanskladden, f.eks. siden **Udbetalingskladde**.
 

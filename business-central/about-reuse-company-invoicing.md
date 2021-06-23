@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 38d4a9be0c801d595ea390780296c7cb920fd003
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 763b4ae19bc83a1fd4a3abc9d6dfd5ee0c386eb1
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776343"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115686"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Bruge den samme MIcrosoft 365-konto i [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
 Når du tilmelder dig en prøveversion af [!INCLUDE[prod_short](includes/prod_short.md)], kan du gå til en 30-dages evalueringsfase, påbegynde et abonnement eller afslutte din brug af [!INCLUDE[prod_short](includes/prod_short.md)]. I alle tilfælde har du måske på et tidspunkt set noget, der hedder **Microsoft Invoicing** og klikket på det. Dette var en app, som var en del af det, der nu hedder Microsoft 365 Business Standard. Dette hed tidligere et Microsoft 365 Business Premium-abonnement. Derfor er det ikke alle, der har set feltet i Microsoft 365.  
@@ -49,7 +49,7 @@ Når du omdøber det oprindelige Min virksomhed, omdøbes de tabeller i database
 Hvis du bruger både Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)], gemmes dataene i to forskellige beholdere (de to virksomheder). Intet deles, så du skal administrere kunder og varer i begge virksomheder.  
 
 ## <a name="see-also"></a>Se også
-[Ofte stillede spørgsmål](across-faq.md)  
+[Ofte stillede spørgsmål](across-faq.yml)  
 [Opsætning](admin-setup-and-administration.md)  
 
 

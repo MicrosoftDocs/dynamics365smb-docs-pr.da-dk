@@ -1,5 +1,5 @@
 ---
-title: Opsætning og brug af workflow for godkendelse af køb | Microsoft Docs
+title: Opsætning og brug af workflow for godkendelse af køb
 description: Du kan automatisere processen med at godkende nye eller ændrede poster, f.eks dokumenter, kladdelinjer og debitorkort, ved at oprette arbejdsgange med fremgangsmåder for de pågældende godkendelser. Før du opretter godkendelsesarbejdsgange, skal du oprette en godkender og erstatte godkenderen for hver godkendelsesbruger. Du kan også angive beløbsgrænser for godkendere for at definere, hvilke salgs- og købsposter, som de er kvalificerede til at godkende. Godkendelsesanmodninger og andre meddelelser kan sendes som mail eller intern note. For hver godkendelsesbrugeropsætning kan du også angive, hvornår der skal modtages notifikationer.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
-ms.openlocfilehash: 11a4bd84395d50a1b39417c5c3abab0dd757e7ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782805"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110975"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gennemgang: Opsætning og brug af workflow for godkendelse af køb
 
@@ -30,11 +30,11 @@ Du kan automatisere processen med at godkende nye eller ændrede poster, f.eks d
 
 Denne gennemgang illustrerer følgende opgaver:  
 
-- Angive indstillinger for godkendelsesbrugere.  
-- Oprette notifikationer til godkendelsesbrugere.  
-- Ændre og aktivere en godkendelsesarbejdsgang.  
-- Anmoder om godkendelse af en købsordre, som Anna.  
-- Modtager en besked og godkender derefter anmodningen, som Søren.  
+- Angive indstillinger for godkendelsesbrugere  
+- Oprette notifikationer til godkendelsesbrugere  
+- Ændre og aktivere en godkendelsesarbejdsgang  
+- Anmoder om godkendelse af en købsordre, som Alicia  
+- Modtager en besked og godkender derefter anmodningen, som Sean  
 
 ## <a name="story"></a>Historie
 
@@ -87,8 +87,8 @@ Opret godkendelsesarbejdsgangen for købsordren ved at kopiere trinnene fra skab
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Sådan oprettes og aktiveres en godkendelsesarbejdsgang for en købsordre
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdsgange**, og vælg derefter det relaterede link.  
-2. På siden **Workflows** skal du vælge handlingen **Nyt workflow fra skabelon**.  
-3. På siden **Workflowskabeloner** skal du vælge workflowskabelonen **Godkendelsesworkflow for købsordre** og derefter vælge knappen **OK**.  
+2. Vælg **Handlinger** på siden **arbejdsprocesser**, vælg **Ny**, og vælg derefter den **nye arbejdsgang fra skabelon**-handling.  
+3. På siden **Workflowskabeloner** skal du vælge workflowskabelonen **Workflow for godkendelse af købsordre**.  
 
     Siden **Workflow** åbnes for et nyt workflow, der indeholder alle oplysninger fra den valgte skabelon. Værdien i feltet **Code** er udvidet med *-01* for at angive, at dette er det første workflow, som oprettes ud fra skabelonen **Godkendelsesworkflow for købsordre**.  
 4. I hovedet af siden **Workflow** skal du markere afkrydsningsfeltet **Aktiveret**.  
@@ -101,8 +101,8 @@ Brug det nye workflow Godkendelsesworkflow for købsordre ved først at logge p�
 
 1. Log ind som Anna.
 2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
-3. Vælg linjen for den åbne købsordre 106001, og vælg derefter handlingen **Rediger**.  
-4. På siden **Indkøbsordre** skal du vælge handlingen **Send godkendelsesanmodning**.  
+3. Marker linjen for at åbne indkøbsordre 106001.  
+4. Vælg **Handlinger** på siden **Indkøbsordre**, derefter **Anmod om godkendelse**, og vælg derefter handlingen **Send godkendelsesanmodning**.  
 
 Bemærk, at værdien i feltet **Status** er ændret til **Afventer godkendelse**.  
 

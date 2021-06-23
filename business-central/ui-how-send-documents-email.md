@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 978989e12fc8c5ac236bb1dda1a8a5d1c2687de2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772275"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063398"
 ---
 # <a name="send-documents-and-emails"></a>Sende dokumenter og e-mails
 Du kan nemt dele oplysninger og dokumenter, f.eks. salgs- og købsordrer og fakturaer, via mail direkte fra [!INCLUDE[prod_short](includes/prod_short.md)]] uden at skulle åbne en mailapp. 
@@ -56,7 +56,7 @@ Denne fremgangsmåde beskriver, hvordan du vedhæfter en bogført-salgsfaktura t
 Nogle dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt, der angiver, hvor mange gange dokumentet er blevet udskrevet. Tallet i feltet <!--"that field?" need a name...--> opdateres også, hvis du sender dokumentet med e-mail, fordi der er genereret en PDF-fil til den. Nummeret opdateres, selvom du ikke sender e-mailen. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>Sendte mails og din mail Udbakke
-[!INCLUDE[prod_short](includes/prod_short.md)]] gemmer de mails, som du sender, på siden **Sendt post**. På den måde kan du sende mails igen eller sende dem videre til en anden. Hvis du ikke kan finde en mail i dine sendt post, skal du lede efter den på siden **Mailudbakke**. 
+[!INCLUDE[prod_short](includes/prod_short.md)] gemmer de mails, som du sender, på siden **Sendt post**. På den måde kan du sende mails igen eller sende dem videre til en anden. Hvis du ikke kan finde en mail i dine sendt post, skal du lede efter den på siden **Mailudbakke**. 
 
 > [!NOTE]
 > Afhængigt af det filtypenavn, din virksomhed bruger til e-mail, kan administratorer få vist en liste over meddelelser, som alle har sendt, men ikke indholdet af meddelelserne

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c43d72e3e87c5a9a9c8512c687a480f3bcd37a43
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778793"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115561"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 
@@ -121,6 +121,10 @@ Du kan også oprette direkte betalte fakturaer for ikke-registrerede kunder ved 
 
 > [!TIP]
 > Hvis du vil sende rykkere til kunder om forfaldne betalinger, skal du oprette rykkerniveauer og-betingelser. Du kan finde flere oplysninger i [Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md).  
+
+## <a name="external-document-numbers"></a>Eksterne bilagsnumre
+
+[!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 

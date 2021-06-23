@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c993a8ad5a856ae45bd5ce7d258592b60ed2ccd3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1ab3c48ae09b75ab9e54e0c9fe9afd49b833f09
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772050"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214674"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gennemgang: Manuel planlægning af forsyninger
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Denne gennemgang viser processen med at planlægge forsyningsordrer til opfyldning af nye behov. Du kan starte forsyningsplanlægningen med faste intervaller, f.eks. hver morgen eller hver mandag, eller når du får besked om det af salg eller produktion, afhængigt af behovstypen. I denne gennemgang kommer du til at bruge siden **Ordreplanlægning**, der er et simpelt forsyningsplanlægningsværktøj, der er baseret på manuel beslutningstagning i stedet for en parameterbaseret automatisk planlægning.  
 
@@ -231,7 +231,7 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 
 ## <a name="see-also"></a>Se også  
  [Gennemgang af forretningsproces](walkthrough-business-process-walkthroughs.md)   
- [Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

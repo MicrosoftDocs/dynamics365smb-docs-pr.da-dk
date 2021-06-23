@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 30ae76f4347a8297a84092573a59835be5569ec4
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: af846556e09a2c1246e5c6769399d2c9d545e4a8
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017195"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115611"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Advarsler og fejlmeddelelser i Dynamics 365 Business Central
 
@@ -36,7 +36,7 @@ Hvis du er administrator eller superbruger, kan du hjælpe andre ved at søge ef
 ## <a name="see-also"></a>Se også
 
 [Ressourcer til hjælp og support](product-help-and-support.md)  
-[Ofte stillede spørgsmål](across-faq.md)  
+[Ofte stillede spørgsmål](across-faq.yml)  
 [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)  
 [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)  
 [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)  

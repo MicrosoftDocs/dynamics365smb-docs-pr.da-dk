@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3685a2145186d3e26da7ba0ad6ace0af0b8c0dd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786778"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215099"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designoplysninger: Bogføringsdato på post med reguleringsværdi
 Denne artikel indeholder en vejledning til brugere af funktionen Lagerkostmetode i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne specifikke artikel giver en vejledning i, hvordan kørslen **Juster kostpris - vareposter** identificerer og tildeler en bogføringsdato til de værdiposter, der er ved at blive oprettet.  
 
-Først gennemgås konceptet i processen, hvordan kørslen identificerer og tildeler en bogføringsdato til den værdipost, der er ved at blive oprettet. Derefter beskrives nogle scenarier, som vi i supportteamet støder på fra tid til anden, og endelig vises der en oversigt over de begreber, der er brugt fra version 3.0.  
+Først gennemgås konceptet i processen, hvordan kørslen identificerer og tildeler en bogføringsdato til den værdipost, der er ved at blive oprettet. Derefter beskrives nogle scenarier, som vi i supportteamet støder på fra tid til anden, og endelig vises der en oversigt over de begreber, der er brugt.  
 
 ## <a name="the-concept"></a>Konceptet  
-Fra version 5.0 tildeler kørslen **Reguler kostværdi – vareposter** en bogføringsdato til den værdipost, der er ved at blive oprettet i følgende trin:  
+Kørslen **Reguler kostværdi – vareposter** tildeler en bogføringsdato til den værdipost, der er ved at blive oprettet i følgende trin:  
 
 1.  Først har bogføringsdatoen for posten, der skal oprettes, den samme dato som den post, den regulerer.  
 
@@ -145,7 +145,7 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 
 3.  Åbn varekladden, opret og bogfør en linje på følgende måde:  
 
-     Dato = 20 December 2013  
+     Dato = 20. december 2013  
 
      Vare = TEST  
 
@@ -155,7 +155,7 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 
 4.  Åbn varekladden, opret og bogfør en linje på følgende måde:  
 
-     Dato = 15. januar 2014  
+     Dato = 15. januar, 2014.  
 
      Vare = TEST  
 
@@ -333,31 +333,17 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
  I dette scenarie kunne det være en mulighed at lade feltet Bogf. tilladt fra i Opsætning af Finans angive en dato i december i et par dage til, og lade bogføringen af det første varegebyr vente for at tillade, at alle omkostninger fra den forrige periode/det forrige regnskabsår blev genkendt i den periode, hvor de hører til, og køre kørslen Juster kostpris - vareposter og derefter flytte den tilladte bogføringsdato til den nye periode\/det nye regnskabsår. Den første varegebyr med bogføringsdatoen 2. januar kan derefter bogføres.  
 
 ## <a name="history-of-adjust-cost--item-entries-batch-job"></a>Oversigt over kørslen Juster kostpris - vareposter  
- Nedenfor vises en oversigt over konceptet for tildeling af bogføringsdatoer til reguleringsværdier i kørslen Juster kostpris - vareposter siden version 3.0.  
+ Nedenfor vises en oversigt over konceptet for tildeling af bogføringsdatoer til reguleringsværdier i kørslen Juster kostpris - vareposterkørsel.  
 
-### <a name="from-version-30370a"></a>Fra version 3.0..3.70.A  
- I anmodningsformularen til kørslen Juster kostpris - vareposter skal der angives en bogføringsdato af brugeren. Kørslen kører gennem alle nødvendige rettelser og oprettet værdiposter med den bogføringsdato, der er angivet i anmodningsformularen. Den foreslåede bogføringsdato, der skal bruges, er dags dato.  
-
-### <a name="version-370b40"></a>Version 3.70.B..4.0  
- I anmodningsformularen til kørslen Juster kostpris - vareposter skal der angives en bogføringsdato for postering i lukket periode af brugeren. Kørslen kører gennem alle nødvendige rettelser og oprettet værdiposter med bogføringsdatoen for den overordnede post (leveringsdatoen for det salg, som reguleringen vedrører). Hvis bogføringsdatoen for den overordnede post ikke inden for tilladte bogføringsdatointerval, tildeles den bogføringsdato, der er angivet som bogføringsdato for postering i lukket periode, til værdireguleringsposten. En dato betragtes som værende i en lukket periode, hvis den er tidligere end datoen i feltet Bogf. tilladt fra i Opsætning af Finans.  
-
-### <a name="from-version-50"></a>Fra version 5.0:  
+### <a name="about-the-request-form-posting-date"></a>Om bogføringsdatoen for anmodningsformularen:  
  Der skal ikke længere angives en bogføringsdato i anmodningsformularen til kørslen Juster kostpris - vareposter. Kørslen kører gennem alle nødvendige rettelser og oprettet værdiposter med den bogføringsdato, der er angivet i den værdipost, som justeres. Hvis bogføringsdatoen ikke er inden for det tilladte bogføringsdatointerval, bruges bogføringsdatoen i feltet Bogf. tilladt fra i Opsætning af Finans, ELLER hvis der anvendes lagerperioder, bruges den seneste dato af disse to. Se det beskrevne koncept ovenfor.  
 
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Oversigt over kørslen Bogfør lagerregulering  
  Kørslen Bogfør lagerregulering er tæt forbundet med kørslen Juster kostpris - vareposter, hvorfor oversigten over denne kørsel opsummeres og deles også her.  
-
-### <a name="from-version-30370a"></a>Fra version 3.0..3.70.A  
- I anmodningsformularen til kørslen Bogfør lagerregulering skal der angives en bogføringsdato af brugeren. Kørslen kører gennem alle nødvendige værdiposter i filteret, hvis der er nogen, og opretter finansposter med den bogføringsdato, der er angivet i anmodningsformularen.  
-
-### <a name="version-370b40"></a>Version 3.70.B..4.0  
- I anmodningsformularen til kørslen Bogfør lagerregulering er datofeltet for bogføring i lukket periode tilgængeligt. Programmet bruger den dato, du angiver i dette felt, som bogføringsdatoen for de finansposter, der oprettes for værdiposter, hvis bogføringsdatoer er i lukkede regnskabsperioder. Ellers har finansposterne den samme bogføringsdato som de oprindelige værdiposter. En dato betragtes som værende i en lukket periode, hvis den er tidligere end datoen i feltet Bogf. tilladt fra i Opsætning af Finans. Hvis du bogfører til F\/inans pr. bogføringsgruppe, har finansposterne den bogføringsdato, der er angivet i feltet Bogføringsdato i anmodningsformularen.  
-
- I version 3 og 4 søger kørslen igennem alle værdiposter for at registrere, om der er nogen poster, hvor kostbeløb (faktisk) er forskellig fra bogført kostværdi. Hvis der registreres en forskel, bogføres forskelsbeløbet på en finanspost. Hvis forventet kostbogføring bruges, behandles de tilsvarende felter på samme måde.  
-
+ 
 ![Faktisk omkostning ift. forventet omkostning](media/helene/TechArticleAdjustcost14.png "Faktisk omkostning ift. forventet omkostning")
 
-### <a name="from-version-50"></a>Fra version 5.0:  
+### <a name="about-the-posting-date"></a>Om bogføringsdato
  Der skal ikke længere angives en bogføringsdato i anmodningsformularen til kørslen Bogfør lagerregulering. Finansposten oprettes med samme bogføringsdato som den tilknyttede værdipost. Med henblik på at udføre kørslen skal det tilladte bogføringsdatointerval tillade bogføringsdatoen for den tilknyttede finanspost. Hvis ikke, skal det tilladte bogføringsdatointerval midlertidigt åbnes igen ved at ændre eller fjerne datoerne i felterne Bogf. tilladt fra og Bogf. tilladt til i Opsætning af Finans. Det er nødvendigt for at undgå problemer med afstemningen, at bogføringsdato på finansposten svarer til bogføringsdatoen for værdiposten.  
 
  Kørslen søger i tabel 5811 - Bogfør værdi for at identificere værdiposterne i området til bogføring i Finans. Tabellen tømmes efter korrekt gennemført kørsel.

@@ -1,5 +1,5 @@
 ---
-title: Sådan udskriver du en lagerplukliste fra en salgsordre
+title: Udskrive en lagerplukliste fra en salgsordre
 description: Du kan udskrive en lagerplukliste direkte i salgsordrer, salg, fakturaer og andre udgående salgsdokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 705302fac91b29592c26b82d3e64a49bdc001d02
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778718"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115457"
 ---
 # <a name="print-the-picking-list"></a>Udskrive pluklisten
+
 Du kan udskrive en lagerplukliste direkte i salgsordrer, en salgsfakturaer og andre udgående salgsdokumenter, der bruges til at starte leverance af varer.
 
 Denne rapport bruges typisk i virksomheder uden dedikeret funktionalitet til lagerstyring, så en lagermedarbejder kan nøjes med at se eller udskrive pluklisten fra det relaterede salgsdokument. I virksomheder med større eller mere komplicerede processer planlægges og udføres plukningen i dedikerede lagerdokumenter. Du kan finde flere oplysninger i [Plukkevarer](warehouse-pick-items.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>Sådan udskriver du en plukliste fra en salgsordre  
-Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme for alle salgsdokumenter, der kan bruges til at starte leverance af varer.
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>Sådan udskriver du en plukliste fra en salgsordre
+
+Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme for alle andre salgsdokumenter, der kan bruges til at starte leverance af varer, f.eks. en overflytningsordre.
 
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Åbn den salgsordre, som du vil plukke varer til.  
@@ -35,10 +37,10 @@ Du kan også gemme pluklisten som et dokument, hvis du f.eks. vil sende den til 
 > [!NOTE]
 > Hvis du har brugt funktionen **Udfold stykliste** på salgsordren, vises kun de komponenter, der hører til det relaterede montageelement, i rapporten. Du kan finde flere oplysninger i [Arbejde med styklister](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Plukke varer](warehouse-pick-items.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
-
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

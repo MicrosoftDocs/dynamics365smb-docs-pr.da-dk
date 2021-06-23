@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a061eb42342859cb6b2d138bee2ba0b6b881d517
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780028"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184270"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?
 
 Det er vigtigt at træffe den rette beslutning, når du vælger et forretningsprogram, og vi ved, at det kan tage tid at undersøge alle kroge af [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du har brug for mere tid til at foretage en evaluering, kan du selv forlænge prøveperioden med yderligere 30 dage. Når udløbsdatoen for din prøveperiode nærmer sig, vises en meddelelse, når du logger på. Meddelelsen indeholder et link til vejledningen **Udvid prøveperiode**, som du kan bruge til at udvide prøveperioden. De ekstra 30 dage begynder, så snart du vælger **Udvid prøveversion** i vejledningen.
 
-Hvis du udvider prøveperioden selv, er det en éngangsforteelse. Du kan ikke udvide den to gange, i det mindste ikke selv. Hvis du allerede har udvidet perioden, kan din Microsoft-partner udvide den for dig igen. Det kan også kun gøres én gang. Hvis du ikke allerede arbejder med en partner, skal du se [Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner).  
+Hvis du udvider prøveperioden selv, er det en éngangsforteelse. Du kan ikke udvide den to gange, i det mindste ikke selv. Hvis du allerede har udvidet perioden, kan din Microsoft-partner udvide den for dig igen. Det kan også kun gøres én gang. Hvis du ikke allerede arbejder med en partner, skal du se [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="to-extend-your-trial-period"></a>Sådan udvider du din prøveperiode
 
@@ -49,11 +49,13 @@ Men efter denne anden forlængelse, der har givet din organisation en prøveperi
 
 Når den forlængede prøveperiode er udløbet, kan du [abonnere](https://go.microsoft.com/fwlink/?linkid=828659) på [!INCLUDE[prod_short](includes/prod_short.md)] inden for 90 dage og fortsætte med at arbejde i det regnskab, du har oprettet. 90 dage efter udløbet af den forlængede prøveperiode sletter vi dit regnskab og dine data, medmindre du opretter et abonnement.  
 
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
 ## <a name="see-also"></a>Se også
 
 [Oprettelse af nye virksomheder](about-new-company.md)  
 [Prøveversioner og abonnementer](across-preview.md)  
-[Hvordan finder jeg en videresalgspartner?](across-faq.md#findpartner)  
+[Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#findpartner)  
 [Forlængelse af prøveperioder (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Sådan kommer du i gang som forhandler af Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

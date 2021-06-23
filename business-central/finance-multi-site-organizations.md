@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfdcdd68baa8fdd73ebc75d46650eeee65a28802
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935409"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087665"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central til internationale organisationer med flere lokationer
 Organisationer med flere lokationer bruger ofte en hub-and-spoke-forretningsmodel, hvor virksomheden eller hovedkontoret administrerer virksomhedens overordnede aktiviteter, mens hvert websted fungerer som en enkelt, selvstændig enhed. Websteder distribueres ofte geografisk og har forskellige behov for at dele oplysninger med hovedkvarteret. Desuden har websteder typisk ikke brug for det samme kompleksitetsniveau, og de mangler ofte ressourcerne til at opretholde et stort system.
@@ -38,8 +38,8 @@ Virksomhedernes behov på steder er ofte forskellige afhængigt af industrien, f
 
 I forbindelse med multinationale organisationer understøtter [!INCLUDE[prod_short](includes/prod_short.md)] lokale juridiske krav og forretningspraksis.
 
-* Hvis der er onlineversioner, er der over [40 lokaliserede landeversioner](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json), som du kan installere som udvidelser fra Microsoft AppSource.  
-* I lokale versioner er [landeversioner](https://docs.microsoft.com/azure/architecture/solution-ideas/articles/business-central) enten tilgængelige som Microsoft-lokaliserede versioner eller tilføjelsesprogrammet af partnerstyrede lokaliseringer.
+* Hvis der er onlineversioner, er der over [40 lokaliserede landeversioner](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json), som du kan installere som udvidelser fra Microsoft AppSource.  
+* I lokale versioner er [landeversioner](/azure/architecture/solution-ideas/articles/business-central) enten tilgængelige som Microsoft-lokaliserede versioner eller tilføjelsesprogrammet af partnerstyrede lokaliseringer.
 
 Et netværk med mere end 4.000 Microsoft-partnere over hele verden tilbyder lokal ekspertise.
 
@@ -80,12 +80,12 @@ API'er og XML-porte gør det nemmere at forbinde forekomster af [!INCLUDE[prod_s
 | **Forretningsbehov** | **Sådan understøttes Business Central** | **Flere oplysninger** |
 |-------------------------|-------------------------|-------------------------|
 | Forbinde tilpassede versioner mellem steder og hovedkvarteret. | API-sider kan vise enhver repræsentation af et objekt, herunder dets tilpasninger. | [Aktivere API'er til Business Central](/dynamics-nav/enabling-apis-for-dynamics-nav) |
-| Versionering og sikkerhed. | API'er bruger ODataV4, som omfatter versionering, webhooks og registrering af ændringer. | [Sikkerhed og beskyttelse](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/security/security-and-protection) |
-| Bogføre og importere XLM-dokumenter | Codeunits kan eksponeres som ubundne handlinger for at understøtte bogføring og indtagelse af XML-dokumenter. I forbindelse med behandling af XML-dokumenter kan XML-porte anvendes. Ubundne handlinger kan også generere et XML- eller JSON-dokument. | [XMLport Objekter](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
+| Versionering og sikkerhed. | API'er bruger ODataV4, som omfatter versionering, webhooks og registrering af ændringer. | [Sikkerhed og beskyttelse](/dynamics365/business-central/dev-itpro/security/security-and-protection) |
+| Bogføre og importere XLM-dokumenter | Codeunits kan eksponeres som ubundne handlinger for at understøtte bogføring og indtagelse af XML-dokumenter. I forbindelse med behandling af XML-dokumenter kan XML-porte anvendes. Ubundne handlinger kan også generere et XML- eller JSON-dokument. | [XMLport Objekter](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Gøre vedligeholdelse nemmere gennem elektronisk dataudveksling. | Der kan tilføjes en elektronisk dataudvekslingsløsning for at fungere som et integrationslag mellem hovedkvarteret og afdelinger. | [Ramme for dataudveksling](across-about-the-data-exchange-framework.md) |
-| Udveksle data mellem forskellige systemer. | Brug XML-porte til at oprette XML-dokumenter, som derefter kan udveksles mellem et hovedkvarter, der bruger ét system og afdelinger, der bruger Business Central. | [XMLport Oversigt](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
+| Udveksle data mellem forskellige systemer. | Brug XML-porte til at oprette XML-dokumenter, som derefter kan udveksles mellem et hovedkvarter, der bruger ét system og afdelinger, der bruger Business Central. | [XMLport Oversigt](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Organisering af komplekse dataudvekslinger. | Brug en kombination af XML-porte med Business Central og Microsoft BizTalk Server til at imødekomme specifikke behov i dine afdelinger.</br>Til komplekse behov skal du bruge en elektronisk dataudvekslingsløsning, der er baseret på BizTalk Server og Commerce Gateway i Business Central i kombination med XML-porte. | [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md) |
-| Opret forbindelse til 3<sup>.</sup> partsløsninger og tjenester. | API'er opretter en punkt-til-punkt-forbindelse mellem Business Central og 3<sup>.</sup> parts løsninger og tjenester. | [API v2.0](https://docs.microsoft.com/dynamics-nav/api-reference/v2.0/) |
+| Opret forbindelse til 3<sup>.</sup> partsløsninger og tjenester. | API'er opretter en punkt-til-punkt-forbindelse mellem Business Central og 3<sup>.</sup> parts løsninger og tjenester. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Forfremme en effektiv intern forsyningskæde

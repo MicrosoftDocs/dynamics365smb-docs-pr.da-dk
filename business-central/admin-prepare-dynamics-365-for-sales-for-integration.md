@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777313"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184495"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -44,7 +44,6 @@ Når du installerer integrationsløsningen, konfigureres tilladelser til integra
 * Dynamics 365 Business Central-produkttilgængelighedsbruger
 
 ### <a name="connection-settings-in-the-setup-guide"></a>Forbindelsesindstillinger i installationsvejledningen
-
 Du kan bruge en assisteret opsætningsvejledning til at konfigurere forbindelsen hurtigt og angive avancerede funktioner som f.eks. sammenkædning mellem poster.
 
 1. Vælg **Installation og udvidelser**, og vælg derefter **Assisteret opsætning**.
@@ -56,18 +55,17 @@ Du kan bruge en assisteret opsætningsvejledning til at konfigurere forbindelsen
 |--|--|
 | **Importér Dynamics 365 Sales-løsning** | Aktivér denne for at installere og konfigurere integrationsløsningen i [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 | **Udgiv webtjeneste Varedisponering** | Aktivér brugere, der bruger [!INCLUDE[crm_md](includes/crm_md.md)] til at få vist tilgængeligheden af varer (produkter) på lager i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette kræver en [!INCLUDE[prod_short](includes/prod_short.md)]-brugerkonto med en adgangsnøgle til webtjenester. Tildeling af nøglen er en totrinsproces. I brugerkontoen i [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge handlingen **Ændr webtjenestenøgle**. I den assisterede opsætningsvejledning Konfigurer Dynamics 365 Sales-forbindelse skal du angive URL-adresse til Dynamics 365 Business Central OData-webtjeneste og angive [!INCLUDE[prod_short](includes/prod_short.md)]-brugeroplysninger for at få adgang til tjenesten. Du kan finde flere oplysninger i [OData-webtjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
-| **URL-adresse til Business Central OData-webtjeneste** | Hvis du aktiverer webtjenesten til visning af varetilgængelighed, er URL-adressen for OData-webtjenesten udfyldt. |
-| **Brugernavn til Business Central OData-webtjeneste** | Navnet på [!INCLUDE[prod_short](includes/prod_short.md)]-brugerkontoen, som [!INCLUDE[crm_md](includes/crm_md.md)] bruger til at hente oplysninger om varetilgængelighed i [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af OData-webtjenesten. |
+|**Brugernavn til Business Central OData-webtjeneste** | Navnet på [!INCLUDE[prod_short](includes/prod_short.md)]-brugerkontoen, som [!INCLUDE[crm_md](includes/crm_md.md)] bruger til at hente oplysninger om varetilgængelighed i [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af OData-webtjenesten. |
 | **Adgangsnøgle til Business Central OData-webtjeneste** | Adgangsnøglen til brugerkontoen, som [!INCLUDE[crm_md](includes/crm_md.md)] bruger til at hente oplysninger om varetilgængelighed fra [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af OData-webtjenesten. Nøglen er knyttet til den bruger, der er valgt i feltet **Brugernavn til Business Central OData OData-webtjeneste**. For at få nøglen skal du vælge knappen **Slå værdi op** ved siden af brugernavnet, vælge brugeren, vælge **Administrer** og derefter **Rediger**. På brugerkortet skal du vælge **Handlinger**, **Godkendelse** og derefter klikke på **Ændr webtjenestenøgle**. |
 | **Aktivér integration af salgsordrer** | Når der oprettes salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)] og opfyldes ordrer i [!INCLUDE[prod_short](includes/prod_short.md)], integreres processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Dette kræver, at du angiver legitimationsoplysninger for en administratorbrugerkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Håndtering af salgsordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
-| **Aktivér CDS-forbindelse** | Aktivér forbindelsen til [!INCLUDE[prod_short](includes/cds_long_md.md)]. |
+|**Aktivér Dynamics 365 Sales-forbindelse** | Aktivér forbindelsen til [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Dynamics 365 SDK-version** | Det er kun relevant, hvis du integrerer med en lokal version af [!INCLUDE[crm_md](includes/crm_md.md)]. Det er det Dynamics 365 software development kit (også kaldet Xrm), du bruger til at forbinde [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen skal være kompatibel med den version af SDK, som bruges af [!INCLUDE[crm_md](includes/crm_md.md)], og være lig med eller nyere end den version, der bruges af [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 ### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Forbindelsesindstillinger på siden Microsoft Dynamics 365-konfiguration af forbindelse
 
 Indtast følgende oplysninger vedrørende forbindelsen fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-| Felt | Description |
+| Felt | Beskrivelse |
 |--|--|
 | **URL-adresse til Dynamics 365 Sales** | URL-adressen for din [!INCLUDE[crm_md](includes/crm_md.md)]-forekomst. Dette gør det muligt for brugere at åbne tilsvarende poster i [!INCLUDE[prod_short](includes/prod_short.md)] fra poster i [!INCLUDE[crm_md](includes/crm_md.md)], f.eks. et firma eller produkt. [!INCLUDE[prod_short](includes/prod_short.md)]-poster åbnes i [!INCLUDE[prod_short](includes/prod_short.md)]. |
 |**URL-adresse til Dynamics 365 Sales**|URL-adressen for din [!INCLUDE[crm_md](includes/crm_md.md)]-forekomst. Dette gør det muligt for brugere at åbne tilsvarende poster i [!INCLUDE[prod_short](includes/prod_short.md)] fra poster i [!INCLUDE[crm_md](includes/crm_md.md)], f.eks. et firma eller produkt. [!INCLUDE[prod_short](includes/prod_short.md)]-poster åbnes i [!INCLUDE[prod_short](includes/prod_short.md)].|
@@ -79,7 +77,7 @@ Indtast følgende oplysninger vedrørende forbindelsen fra [!INCLUDE[crm_md](inc
 
 Udover indstillingerne ovenfor skal du angive følgende indstillinger for [!INCLUDE[crm_md](includes/crm_md.md)].
 
-| Felt | Description |
+| Felt | Beskrivelse |
 |--|--|
 | **Salgsordreintegration er aktiveret** | Brugerne skal kunne afsende salgsordrer og aktiverede tilbud i [!INCLUDE[crm_md](includes/crm_md.md)] og derefter få vist og behandle dem i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette integrerer processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Opret salgsordrer automatisk** | Opret en salgsordre i [!INCLUDE[prod_short](includes/prod_short.md)], når en bruger opretter og sender en i [!INCLUDE[crm_md](includes/crm_md.md)]. |
@@ -141,7 +139,7 @@ Jobbene køres i følgende rækkefølge for at undgå sammenkædning af afhængi
 
 I følgende tabel beskrives standardsynkroniseringsjobbene for Salg.  
 
-|Post for jobkø|Description|Retning|Integrationstabeltilknytning|Standardhyppighed for synkronisering (min.)|Standardangivelse for dvale ved inaktivitet (min.)|  
+|Post for jobkø|Beskrivelse|Retning|Integrationstabeltilknytning|Standardhyppighed for synkronisering (min.)|Standardangivelse for dvale ved inaktivitet (min.)|  
 |---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
 |MÅLEENHED – Dynamics 365 Sales-synkroniseringsjob|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-enhedsgrupper med [!INCLUDE[prod_short](includes/prod_short.md)]-måleenheder.|Fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|MÅLEENHED|30|720<br> (12 timer)|
 |RESSOURCE-PRODUKT – Dynamics 365 Sales-synkroniseringsjob|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produkter med [!INCLUDE[prod_short](includes/prod_short.md)]-ressourcer.|Fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|RESSOURCE-PRODUKT|30|720<br> (12 timer)|
@@ -179,7 +177,7 @@ Microsoft Power Platform-teamet har [meddelt](/power-platform/important-changes-
 
 3.  Opret en app-registrering til [!INCLUDE[prod_short](includes/prod_short.md)] i Azure-portalen. Du kan finde fremgangsmåden i [Registrere et program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). De indstillinger, der er specifikke for oprettelse af forbindelse til [!INCLUDE[crm_md](includes/crm_md.md)], er de uddelegerede tilladelser. I følgende tabel vises og beskrives tilladelserne.
 
-   |Navn på API / tilladelse |Type  |Description  |
+   |Navn på API / tilladelse |Type  |Beskrivelse  |
    |---------|---------|---------|
    |Financials.ReadWrite.All     |Delegeret|Påkrævet til [!INCLUDE[prod_short](includes/prod_short.md)].    |
    |user_impersonation     |Delegeret|Påkrævet til [!INCLUDE[crm_md](includes/crm_md.md)].|
@@ -190,7 +188,7 @@ Microsoft Power Platform-teamet har [meddelt](/power-platform/important-changes-
 7. I feltet **Serveradresse** skal du angive URL-adressen til dit [!INCLUDE[crm_md](includes/crm_md.md)]-miljø og derefter angive brugernavnet og adgangskoden for integrationsbrugeren.
 8. I feltet **Forbindelsesstreng** skal du angive id for app-registrering. Dette felt indeholder to tokens, hvor ID'ET for programmet skal angives.
 
-   |Token           |Description  |
+   |Token           |Beskrivelse  |
    |----------------|-------------|
    |**AppId**       |Angivet til program-id'et.      |
    |**RedirectUri** |Indstil til program-id, men tilføj **app://**-præfikset.         |

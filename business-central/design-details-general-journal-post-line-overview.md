@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777844"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215249"
 ---
 # <a name="general-journal-post-line-overview"></a>Oversigt over bogføringslinje i finanskladde
+
 Codeunit 12 **Finanskladde-Bogføringslinje** er det vigtigste udligningsobjekt til finansbogføring og er det eneste sted at indsætte finans-, moms- og debitor-og kreditorposter. Denne codeunit bruges også til alle handlinger med Udlign, Annuller udligning og Tilbagefør.  
   
-Mens codeunit er blevet forbedret i hver udgave i de sidste ti år, er dens arkitektur i det væsentlige uændret. Codeunit blev meget stor med ca. 7.600 kodelinjer. Med denne version af [!INCLUDE[prod_short](includes/prod_short.md)] er arkitekturen ændret, og codeunit er gjort enklere og nemmere at vedligeholde. Denne dokumentation indeholder ændringerne og oplysninger, du skal bruge til opgradering.  
+I Microsoft Dynamics NAV 2013 R2 blev codeunit omdesignet, fordi den er blevet meget stor med ca. 7.600-kodelinjer. Med denne version af er arkitekturen ændret, og codeunit er gjort enklere og nemmere at vedligeholde. Denne dokumentation beskriver ændringerne og oplysninger, du skal bruge til opgradering.  
   
 ## <a name="old-architecture"></a>Gammel arkitektur  
 Den gamle arkitektur havde følgende funktioner:  
@@ -43,9 +44,11 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] har codeunit 12 følgende forbe
 * Mange hjælpefunktioner, der er overført til tilsvarende debitor- og kreditorposttabeller.  
 * Brug af globale variabler er blevet minimeret, så hver enkelt procedure bruger parametre og indkapsler sin egen programlogik.  
   
-## <a name="see-also"></a>Se også  
-[Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)   
-[Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Se også
+
+[Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)  
+[Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)  
+[Designoplysninger: Bogføringslinje i finanskladde (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

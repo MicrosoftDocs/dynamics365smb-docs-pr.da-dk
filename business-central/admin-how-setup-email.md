@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889148"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063423"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
 Personer i virksomheder sender oplysninger og dokumenter, f.eks. salgs-og købsordrer og fakturaer, pr. e-mail hver dag. Administratorer kan gøre det nemmere at gøre ved at oprette forbindelse mellem en eller flere e-mail-konti [!INCLUDE[prod_short](includes/prod_short.md)], så du kan sende dokumenter uden at skulle åbne en e-mail-app. Du kan skrive hver enkelt meddelelse individuelt med grundlæggende formateringsværktøjer, f.eks. skrifttyper, typografier, farver osv., og føje vedhæftede filer til op til 100 MB. Administratorer kan også konfigurere rapportlayout, der kun indeholder nøgleoplysninger fra dokumenter. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
@@ -35,7 +35,7 @@ Når du har tilføjet en e-mailkonto, kan du angive foruddefinerede forretningss
 
 I følgende tabel beskrives de e-mail-udvidelser, der som standard er tilgængelige.
 
-|Udvidelse  |Description  |Eksempler på, hvornår du skal bruge  |
+|Udvidelse  |Beskrivelse  |Eksempler på, hvornår du skal bruge  |
 |---------|---------|---------|
 |**Microsoft 365**|Alle sender mails fra en delt postkasse i Exchange Online.|Når alle meddelelser kommer fra samme afdeling, sender salgsorganisationen f.eks. meddelelser fra en sales@cronus.com konto. Dette kræver, at du opretter en delt postkasse i Microsoft 365 Administration. Du kan finde flere oplysninger i [Delte postkasser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
 |**Aktuel bruger**|Alle sender mail fra den konto, som de bruges til at logge på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillad kommunikation fra individuelle konti.|
@@ -53,7 +53,7 @@ Hvis du allerede bruger [!INCLUDE[prod_short](includes/prod_short.md)] og har ko
 > Hvis du har tilpasninger, som er afhængige af den ældre konfiguration af SMTP-mail, er der risiko for, at noget går galt med dine tilpasninger, hvis du begynder at bruge e-mail-udvidelser. Det anbefales, at du opsætter og tester udvidelserne, før du aktiverer funktions parameteren til forbedrede e-mail-funktioner.
 
 > [!IMPORTANT]
-> Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] Online, kan du ikke bruge OAuth 2.0-godkendelsesmetoden.<br> Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, kan du bruge OAuth 2.0 til godkendelse, men du skal oprette en programregistrering i Azure-portalen og derefter køre den assisterede opsætningsvejledning **Opsæt Azure Active Directory** i [!INCLUDE[prod_short](includes/prod_short.md)] for at oprette forbindelse til Azure AD. Du kan finde flere oplysninger i [Oprette en appregistrering til Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, kan du bruge OAuth 2.0 til godkendelse, men du skal oprette en programregistrering i Azure-portalen og derefter køre den assisterede opsætningsvejledning **Opsæt Azure Active Directory** i [!INCLUDE[prod_short](includes/prod_short.md)] for at oprette forbindelse til Azure AD. Du kan finde flere oplysninger i [Oprette en appregistrering til Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Tilføj e-mailkonti
 **Installationsvejledningen til opsætning af e-mail**-support kan hjælpe dig med at komme hurtigt i gang med e-mails.
@@ -147,7 +147,7 @@ Derefter opretter du forbindelse mellem [!INCLUDE[prod_short](includes/prod_shor
 ### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Oprette en appregistrering til Business Central i Azure Portal
 De trin, der skal registreres [!INCLUDE[prod_short](includes/prod_short.md)] i Azure-portalen, er beskrevet i [Registrer et program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). De indstillinger, der er specifikke for e-mailegenskaberne, er de delegerede rettigheder, som du tildeler din app-registrering. I følgende tabel vises minimum tilladelserne.
 
-|Navn på API / tilladelse  |Type  |Description  |
+|Navn på API / tilladelse  |Type  |Beskrivelse  |
 |---------|---------|---------|
 |Microsoft Graph/User. Read |Delegeret|Log på, og Læs brugerprofil.         |
 |Microsoft Graph/mail. skrivebeskyttet |Delegeret|Opret mailmeddelelser.         |
@@ -156,7 +156,7 @@ De trin, der skal registreres [!INCLUDE[prod_short](includes/prod_short.md)] i A
 
 Hvis du bruger en ældre SMTP-opsætning eller SMTP-forbindelsen og vil bruge OAuth til godkendelse, er tilladelserne lidt anderledes. Følgende tabel viser tilladelserne.
 
-|Navn på API / tilladelse  |Type  |Description  |
+|Navn på API / tilladelse  |Type  |Beskrivelse  |
 |---------|---------|---------|
 |Microsoft Graph/offline_access|Delegeret|Vedligehold dataadgangssamtykke.|
 |Microsoft Graph/openid|Delegeret|Log brugere på.|

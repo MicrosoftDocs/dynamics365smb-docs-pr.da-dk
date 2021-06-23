@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8129028749f0f0bb6a809d66dbba8d623034769f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782903"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214724"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gennemgang: Administration af projekter med sager
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager. Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer og holde styr på de forskellige omkostninger, der er forbundet med ressourcerne på et bestemt projekt. Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, du ønsker at spore, efterhånden som en sag skrider frem.  
 
@@ -64,11 +64,11 @@ Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager
 ## <a name="prerequisites"></a>Forudsætninger  
  Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:  
 
-- Installer demostrationsdatabasen til CRONUS Danmark A/S.
+- Installer CRONUS-demonstrationsdatabasen.
 - Opret eksempeldata ved at bruge trinnene i følgende afsnit.  
 
 ## <a name="story"></a>Historie  
-I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulentvirksomhed, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Per er projektleder hos CRONUS. Han bruger sager til at give ham et overblik over igangværende sager, som CRONUS har startet, samt de sager, der er afsluttet. Det er som regel ham, der indgår aftaler med kunderne og indtaster sagens hovedkomponenter, hvilket er opgave- og planlægningslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Han konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Per kan også lide, den måde [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer kopiering af sager og betaling af afdrag.
+Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Per er projektleder hos CRONUS. Han bruger sager til at give ham et overblik over igangværende sager, som CRONUS har startet, samt de sager, der er afsluttet. Det er som regel ham, der indgår aftaler med kunderne og indtaster sagens hovedkomponenter, hvilket er opgave- og planlægningslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Han konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Per kan også lide, den måde [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer kopiering af sager og betaling af afdrag.
 
  Tina, der er medlem af projekttemaet og rapporterer til Per, er ansvarlig for overvågning af sagen dag for dag. Hun indtaster sit eget arbejde i tillæg til det arbejde, der udføres af teknikere på hver opgave. Hun registrerer de varer, som de har brugt, og de omkostninger, som de har afholdt.  
 
@@ -396,7 +396,7 @@ Følgende procedurer viser, hvordan du opretter et nyt job, angiver priser og de
 
 4. Tilføj sagsopgavelinjer på kortet **Sag** i sektionen **Opgaver**, som beskrevet i følgende tabel:  
 
-    | Linje | Sagsopgavenr. | Description          | Sagsopgavetype |
+    | Linje | Sagsopgavenr. | Beskrivelse          | Sagsopgavetype |
     |------|--------------|----------------------|---------------|
     | 1    | 1000         | Betaling - afdragsbetaling | Bogføring       |
     | 2    | 2000         | Forbrug                | Konto       |

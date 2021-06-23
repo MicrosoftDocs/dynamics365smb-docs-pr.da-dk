@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 767bbf0160f35b68eebe48c0bcf4fbc4311d3ce0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772668"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115836"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrere køb med købsfakturaer
 
@@ -100,6 +100,10 @@ Købet afspejles nu i lagerposter, ressourceposter og finansposter, og kreditorb
 Du kan nemt rette eller annullere en bogført købsfaktura, før du betaler kreditoren. Dette er nyttigt, hvis du vil rette en skrivefejl, eller hvis du ønsker at ændre købet tidligt i ordreprocessen. Du kan finde flere oplysninger i [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Hvis du allerede har betalt for varer eller tjenester på den bogførte købsfaktura, skal du oprette en købskreditnota for at tilbageføre købet. Du kan finde flere oplysninger i [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
 
 [Åbne listen **Bogførte købsfakturaer**](https://businesscentral.dynamics.com/?page=146) i [!INCLUDE [prod_short](includes/prod_short.md)].
+
+## <a name="external-document-number"></a>Eksterne bilagsnumre
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 

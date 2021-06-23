@@ -1,5 +1,5 @@
 ---
-title: Sådan beregnes ordrebekræftelsesdatoer | Microsoft Docs
+title: Beregne ordrebekræftelsesdatoer
 description: Beregning af leveringstid er et værktøj, du kan bruge til at beregne den tidligst mulige dato, en vare er disponibel til afsendelse eller levering. Funktionen opretter også indkøbskladdelinjer for de datoer, du godkender.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778468"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115586"
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekræftelsesdatoer
-En virksomhed skal være i stand til at informere deres kunder om leveringsdatoer for ordren. Med siden **Beregning af lev.tid - linjer** kan du gøre dette fra en salgsordrelinje.  
+En virksomhed skal være i stand til at informere deres kunder om leveringsdatoer for ordren. Med siden **Beregning af lev.tid - linjer** kan du gøre dette fra en salgsordre.  
 
 Baseret på en vares kendte og forventede rådighedsdatoer vil [!INCLUDE[prod_short](includes/prod_short.md)] øjeblikkeligt beregne leverance- og leveringsdatoer, som derefter kan stilles i udsigt for debitor.  
 
@@ -35,7 +35,7 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 - planlagt afsendelsesdato + transporttid = planlagt leveringsdato  
 
 ## <a name="about-order-promising"></a>Om beregning af leveringstid
-Vha. funktionen Beregning af leveringstid kan du oprette en ordrebekræftelse med en bestemt afsendelses- eller leveringsdato. Den dato, hvor en vare er disponibel til levering eller den første mulige afsendelsesdato for en vare og opretter ordrelinjer for de datoer, som du godkender. Funktionen beregner den tidligst mulige dato, en vare er disponibel til afsendelse eller levering. Funktionen opretter også rekvisitionslinjer, hvis varerne først skal købes, for de datoer, du godkender.
+Vha. funktionen Beregning af leveringstid kan du oprette en ordrebekræftelse med en bestemt afsendelses- eller leveringsdato. Den dato, hvor en vare er disponibel til levering eller den første mulige afsendelsesdato for en vare og opretter ordrelinjer for de datoer, som du godkender. Funktionen beregner den tidligst mulige dato, en vare er disponibel til afsendelse eller levering. Funktionen opretter også rekvisitionslinjer, hvis varerne først skal købes eller produceres, for de datoer, du godkender.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bruger to grundlæggende begreber:  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/26/2021
 ms.author: bholtorf
-ms.openlocfilehash: 00034e8f1be2f88074fb33b53a1c048f81f69ede
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941659"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063473"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Opret forbindelse til Microsoft Dataverse
 
@@ -55,7 +55,7 @@ For alle andre godkendelsestyper end Microsoft 365-godkendelse kan du konfigurer
 ### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Sådan bruger du vejledningen Dataverse-forbindelsesopsætning med assisteret opsætning
 Dataverse-forbindelsesopsætningsvejledning kan gøre det nemmere at oprette forbindelse til programmerne, og det kan også være en hjælp til at starte en første synkronisering. Hvis du vælger at køre første synkronisering, gennemgår [!INCLUDE[prod_short](includes/prod_short.md)] dataene i begge programmer og giver anbefalinger om, hvordan du skal håndtere den første synkronisering. Den følgende tabel beskriver de forskellige anbefalinger.
 
-|Anbefaling  |Description  |
+|Anbefaling  |Beskrivlse  |
 |---------|---------|
 |**Fuld synkronisering**|Dataene findes kun i [!INCLUDE[prod_short](includes/prod_short.md)], eller kun i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Det anbefales at synkronisere alle data fra den tjeneste, der har den til den anden tjeneste.|
 |**Ingen synkronisering**|Dataene findes i begge programmer, og hvis du udfører fuld synkronisering, duplikeres dataene. Det anbefales at koble registreringer.|
@@ -126,7 +126,7 @@ Dataverse skal bruge en af følgende godkendelsestyper:
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Sådan registrerer du et program i Azure AD for at oprette forbindelse fra Business Central til Dataverse
 
-I følgende trin antages det, at du bruger Azure AD til at administrere identiteter og adgangsrettigheder. Du kan finde flere oplysninger om registrering af et program i Azure AD under [Hurtig start: registrere et program på Microsoft-identitetsplatformen](/azure/active-directory/develop/quickstart-register-app). Hvis du ikke bruger Azure AD, kan du se [Bruge en anden tjeneste til identitets- og adgangsstyring](admin-how-to-set-up-a-dynamics-crm-connection.md#using-another-identity-and-access-management-service).  
+I følgende trin antages det, at du bruger Azure AD til at administrere identiteter og adgangsrettigheder. Du kan finde flere oplysninger om registrering af et program i Azure AD under [Hurtig start: registrere et program på Microsoft-identitetsplatformen](/azure/active-directory/develop/quickstart-register-app). 
 
 1. Vælg **Godkendelse** under **Administrer** i navigationsruden på Azure-portalen.  
 2. Tilføj under **URL-adresse til omdirigering** den URL-adresse til omdirigering, der foreslås på siden til **Konfiguration af Dataverse-forbindelse** i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -146,10 +146,6 @@ I følgende trin antages det, at du bruger Azure AD til at administrere identite
 
    > [!NOTE]
    > Hvis du ikke bliver bedt om at logge på med din administratorkonto, skyldes det sandsynligvis, at pop op-vinduer er blokeret. Du kan logge på ved at tillade pop op-vinduer fra `https://login.microsoftonline.com`.
-
-#### <a name="using-another-identity-and-access-management-service"></a>Bruge en anden tjeneste til identitets- og adgangsstyring
-
-Hvis du ikke bruger Azure Active Directory til at administrere identiteter og adgangsrettigheder, skal du have hjælp fra en udvikler. Hvis du foretrækker at gemme app-id'et og hemmeligheden et andet sted, kan du lade felterne Klient-id og Klienthemmelighed være tomme og skrive en udvidelse for at hente id'et og hemmeligheden fra placeringen. Du kan give den hemmelige kørsel ved at abonnere på `OnGetCDSConnectionClientId` og `OnGetCDSConnectionClientSecret`-hændelserne i codeunit 7201 `CDS Integration Impl.`.
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Sådan afbrydes forbindelsen fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 

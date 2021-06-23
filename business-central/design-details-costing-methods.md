@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: a51a708afe800d7ef3c91dfd54b0bc5cf7f1fcbe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9f42e2ba8bf5f281be509bd58c5f88fa53ef7ba1
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779603"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215349"
 ---
 # <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
 
@@ -26,7 +26,7 @@ Kostmetoden afgør, om en faktisk eller en budgetteret værdi føres som aktiv o
 
 Følgende metoder understøttes i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
-| Kostmetode | Description | Hvornår skal den bruges |
+| Kostmetode | Beskrivelse | Hvornår skal den bruges |
 |--|--|--|
 | FIFO | En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af FIFO-reglen.<br /><br /> I lagerværdien forudsættes det, at de første varer, der lægges på lager, bliver solgt først. | I virksomhedsmiljøer, hvor produktomkostninger er stabile.<br /><br /> (Når priser stiger, viser balancen højere værdi. Dette betyder, at skatteforpligtelserne øges, men kreditvurderinger og muligheden for at låne penge forbedres.)<br /><br /> For varer med en begrænset hyldelevetid, fordi de ældste varer skal sælges, inden de overskrider deres sidste salgsdato. |
 | LIFO | En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af LIFO-reglen.<br /><br /> I lagerværdien forudsættes det, at de sidste varer, der lægges på lager, bliver solgt først. | Forbudt i mange lande/områder, da det kan bruges til at holde avancen nede.<br /><br /> (Når priser stiger, falder værdien på resultatopgørelsen. Dette betyder, at skatteforpligtelserne reduceres, men muligheden for at låne penge forringes.) |

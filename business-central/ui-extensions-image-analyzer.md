@@ -1,25 +1,25 @@
 ---
-title: Bruge billedanalyseudvidelsen | Microsoft Docs
+title: Billedanalyseudvidelsen
 description: Med denne udvidelse kan du analysere billeder af kontaktpersoner og varer for at finde attributter, så du hurtigt kan tildele dem i Business Central.
-author: bholtorf
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 04/01/2021
+ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 841ad4ff4963d8cfc6a284859affb60336e805a5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbeffd4175751e08043d79f596027a79c88503bc
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771308"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074608"
 ---
 # <a name="the-image-analyzer-extension"></a>Billedanalyseudvidelsen
 
-Billedanalyseudvidelsen bruger effektiv billedanalyse fra Computer Vision API'en til Computer Vision API til at registrere attributter i de billeder, du importerer til varer og kontaktpersoner, så du let kan gennemse og tildele dem. For varer kan attributterne dreje sig om, hvorvidt varen er et bord eller en bil, og om den er rød eller blå. For kontaktpersoner kan attributterne vedrøre køn eller alder.
+Billedanalyseudvidelsen bruger effektiv billedanalyse fra Computer Vision API'en til Azure Cognitive Services til at registrere attributter i de billeder, du importerer til varer og kontaktpersoner, så du let kan gennemse og tildele dem. For varer kan attributterne dreje sig om, hvorvidt varen er et bord eller en bil, og om den er rød eller blå. For kontaktpersoner kan attributterne vedrøre køn eller alder.
 
 Billedanalysefunktionen foreslår attributter baseret på koder, der bliver fundet af Computer Vision API og et tillidsniveau. Som standard foreslås attributter kun, hvis der er mindst 80 % sikkerhed for, at attributten er korrekt. Du kan angive et andet tillidsniveau, hvis det er nødvendigt. Du kan finde flere oplysninger om, hvordan koder og tillidsniveauer fastlægges i [Computer Vision-API](https://go.microsoft.com/fwlink/?linkid=851476).  
 
@@ -29,7 +29,7 @@ Når du har aktiveret udvidelsen, kører billedanalysefunktionen, hver gang du i
 
 ## <a name="privacy-notice"></a>Erklæring om beskyttelse af personlige oplysninger
 
-Denne udvidelse bruger Computer Vision-API'en fra Microsoft Cognitive Services, som kan have forskellige niveauer af overensstemmelsesforpligtelser i forhold til [!INCLUDE[prod_short](includes/prod_short.md)]. Når du aktiverer udvidelsen Image Analyzer filtypen, sendes debitordata, f.eks. et billede af en kontaktperson, til Computer Vision-API'en. Ved at installere denne udvidelse, accepterer du, at dette begrænsede sæt af data sendes til Computer Vision-API'en. Bemærk, at du til enhver tid kan deaktivere og fjerne udvidelsen Image Analyzer for at afbryde brugen af denne funktion. Du kan finde flere oplysninger i [Microsofts sikkerhedscenter](https://go.microsoft.com/fwlink/?linkid=851463).
+Denne udvidelse bruger Computer Vision-API'en fra Azure Cognitive Services, som kan have forskellige niveauer af overensstemmelsesforpligtelser i forhold til [!INCLUDE[prod_short](includes/prod_short.md)]. Når du aktiverer udvidelsen Image Analyzer filtypen, sendes debitordata, f.eks. et billede af en kontaktperson, til Computer Vision-API'en. Ved at installere denne udvidelse, accepterer du, at dette begrænsede sæt af data sendes til Computer Vision-API'en. Bemærk, at du til enhver tid kan deaktivere og fjerne udvidelsen Image Analyzer for at afbryde brugen af denne funktion. Du kan finde flere oplysninger i [Microsofts sikkerhedscenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Krav
 
@@ -44,9 +44,9 @@ Der er nogle krav til billederne:
 Billedanalyseudvidelsen er indbygget i [!INCLUDE[prod_short](includes/prod_short.md)]. Du skal blot aktivere den.
 
 > [!NOTE]  
-> Du skal være administrator for at aktivere billedanalyseudvidelsen. Kontroller, at du har fået tildelt brugerrettighedssættet **SUPER**.
+> Du skal være administrator for at aktivere billedanalyseudvidelsen. Kontroller, at du har fået tildelt brugerrettighedssættet **SUPER**. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
 
-1. Gør ét af følgende for at aktivere billedanalyseudvidelsen:
+Gør ét af følgende for at aktivere billedanalyseudvidelsen:
 
 * Åbn et vare- eller kontaktkort. Vælg **Analysér billeder** på meddelelseslinjen, og følg derefter trinnene i den assisterende opsætningsvejledning.  
 * Vælg ikonet ![Elpære, der åbner funktionen Fortæl Mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg **Opsætning af billedanalyse**. Marker afkrydsningsfeltet **Aktivér billedanalyse**, og fuldfør derefter trinnene i den assisterende opsætningsvejledning.  
@@ -60,10 +60,25 @@ Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indl�
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg vare, og vælg derefter handlingen **Analysér billede**.  
-3. På siden **Billedanalyseattributter** vises de registrerede attributter, tillidsniveauet og andre oplysninger om attributten. Brug indstillingerne **Handling, der skal udføres** for at angive, hvad der skal gøres med attributten.  
+3. På siden **Billedanalyseattributter** vises de registrerede attributter, tillidsniveauet og andre oplysninger om attributten. Brug **Handlingen til at udføre**-indstillinger for at angive, hvad der skal ske med attributten, eller Vælg **Tilføj til varebeskrivelse** for at føje navnet på attributten til varebeskrivelsen. Det er f.eks. velegnet til hurtigt at tilføje detaljer. 
 
-    > [!TIP]  
-    > Du kan føje navnet på attributten til varebeskrivelsen ved at vælge **Føj til varebeskrivelse**. Det er f.eks. velegnet til hurtigt at tilføje detaljer.  
+Handlingen **Handling, der skal udføres** har følgende muligheder:
+
+  * *Ignorer*
+
+    Der udføres ingen handlinger
+  * *Brug som attribut*
+
+    Værdien føjes til vareattributterne. Du kan finde flere oplysninger i [Arbejde med vareattributter](inventory-how-work-item-attributes.md)
+  * *Bruge som kategori*
+
+    Den markerede værdi tilføjes som en kategori. Yderligere oplysninger findes under [Kategorisere varer](inventory-how-categorize-items.md)
+  * *Føj til blacklist*
+
+    Hvis analysen foreslår en attribut, som du ikke vil have vist, kan du blokere den. Men gå forsigtigt frem. Blokerede attributter foreslås heller ikke for andre varer. Hvis du fortryder blokeringen af en attribut, kan du vælge **Vis blacklistede attributter** og derefter slette attributten fra listen.
+  
+    > [!NOTE]  
+    > Som standard **vareattributter** vises attributter, hvor **konfidensniveauet for score** er større end **tærsklen for konfidensinterval %** defineret i opsætningen af **Image Analyzer**. Hvis du vil se alle fundne attributter, skal du vælge handlingen **Vis alle attributter**.
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Sådan analyseres et billede af en kontaktperson
 
@@ -71,12 +86,20 @@ Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indl�
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.  
 2. Vælg kontaktpersonen, og vælg derefter handlingen **Analysér billede**.  
-3. I oversigtspanelet **Profilspørgeskema** skal du gennemgå forslagene og foretage rettelser, hvis det er nødvendigt.  
+3. I oversigtspanelet **Profilspørgeskema** skal du gennemgå forslagene og foretage rettelser, hvis det er nødvendigt. Du kan finde flere oplysninger i [Bruge profilspørgeskema til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md).  
 
-## <a name="block-suggested-attributes"></a>Blokere foreslåede attributter
-
-Hvis analysen foreslår en attribut, som du ikke vil have vist, kan du blokere den. Men gå forsigtigt frem. Blokerede attributter foreslås heller ikke for andre varer eller kontaktpersoner. Hvis du fortryder blokeringen af en attribut, kan du vælge **Vis blacklistede attributter** og derefter slette attributten fra listen.
-
+    > [!NOTE]  
+    > 
+    > Computer vision API returnerer følgende attributter:
+    > * *alder*
+    >
+    >     En anslået "visuel alder" i år. Det er den måde, gamle en person ser ud i modsætning til den faktiske biologiske alder.
+    > * *køn*
+    >
+    >    Mand eller kvinde.
+    > 
+    > Computerens API returnerer ikke konfidensniveauet for alder og køn.
+  
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Sådan bruger du din egen konto til Computer Vision API'en
 
 Du kan også bruge din egen konto til Computer Vision API'en, f.eks. hvis du vil analysere flere billeder, end vi tillader.  
@@ -99,9 +122,13 @@ Du kan få vist antallet af analyser, du har udført, og hvor mange du stadig ka
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl Mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceforbindelser**, og vælg **Opsætning af billedanalysatoren**.  
 2. Fjern markeringen i afkrydsningsfeltet **Aktiver billedanalyse**.  
 
+Du kan også fjerne udvidelsen fuldstændigt. Du kan altid hente den igen fra AppSource. Du kan finde flere oplysninger i [Installation og fjernelse af udvidelser i Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  
+
 ## <a name="see-also"></a>Se også
 
 [Arbejde med vareattributter](inventory-how-work-item-attributes.md)  
+[Kategorisere varer](inventory-how-categorize-items.md)  
+[Bruge profilspørgeskemaer til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 

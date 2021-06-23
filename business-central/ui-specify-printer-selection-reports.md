@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
-ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985408"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063448"
 ---
 # <a name="set-up-printers"></a>Installation af printere
 
@@ -23,7 +23,7 @@ Udskrivning af dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_s
 
 For at understøtte dine udskrivningsbehov tilbyder [!INCLUDE[prod_short](includes/prod_short.md)] følgende funktioner:
 
-|Funktion|Description|Webklient| Mobilapp|App til Teams|
+|Funktion|Beskrivelse|Webklient| Mobilapp|App til Teams|
 |-------|-----------|----------|-----------|--------------|
 |Universaludskrivning|Universaludskrivning er en printerstyringsløsning, der er tilgængelig som skytjeneste fra Microsoft. Med denne funktion kan du konfigurere printerne i Universaludskrivning og derefter registrere dem med henblik på brug i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne funktion kræver et abonnement på Universaludskrivning og udvidelsen **Integration af universaludskrivning**|![arbejder online](media/check.png)|![arbejder online](media/check.png)|![arbejder online](media/check.png)|
 |Mailudskrift|Med denne funktion kan du konfigurere mailaktiverede printere. [!INCLUDE[prod_short](includes/prod_short.md)] sender derefter udskriftsjob til en printer ved hjælp af printerens mailadresse. Denne funktion kræver mailaktiverede printere og udvidelsen **Send til mail-printer**.|![arbejder online](media/check.png)|![arbejder online](media/check.png)|![arbejder online](media/check.png)|
@@ -38,7 +38,7 @@ Universaludskrivning er en Microsoft 365-abonnementsbaseret tjeneste, der udeluk
 
 ![Konfiguration af Universaludskrivning](media/Universal-Print-arch.png)
 
-Den komplette konfiguration kræver, at du arbejder i både Microsoft Azure ved hjælp af [Azure-portalen](https://posrtal.azure.com) og i [!INCLUDE[prod_short](includes/prod_short.md)].
+Den komplette konfiguration kræver, at du arbejder i både Microsoft Azure ved hjælp af [Azure-portalen](https://portal.azure.com) og i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Understøttede printere
 
@@ -78,7 +78,7 @@ Den komplette konfiguration kræver, at du arbejder i både Microsoft Azure ved 
 
 Før du kan begynde at administrere printere for Universaludskrivning i Business Central, skal du udføre flere opgaver for at Universaludskrivning til at køre i Azure sammen med de printere, du vil bruge.
 
-Du kan finde detaljerede instruktioner i konfigurationen i [Introduktion: Konfigurere Universaludskrivning](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) i dokumentationen til Universaludskrivning. Her er en oversigt over de trin, du skal udføre. De fleste af disse trin udføres på Azure-portalen.
+Du kan finde detaljerede instruktioner i konfigurationen i [Introduktion: Konfigurere Universaludskrivning](/universal-print/fundamentals/universal-print-getting-started) i dokumentationen til Universaludskrivning. Her er en oversigt over de trin, du skal udføre. De fleste af disse trin udføres på Azure-portalen.
 
 1. Tildel licenser til Universaludskrivning til dig selv og andre brugere.
 
@@ -104,29 +104,34 @@ Du kan finde detaljerede instruktioner i konfigurationen i [Introduktion: Konfig
 
     - For andre printere skal du registrere printerne ved hjælp af connectoren for Universaludskrivning. 
 
-      Du kan finde flere oplysninger i [Printerregistrering](/universal-print-connector-printer-registration).
+      Du kan finde flere oplysninger i [Printerregistrering](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Ændre printeregenskaber (valgfrit)
 
     Når en printer er registreret, kan du få vist og ændre printeregenskaberne, f.eks. standardindstillinger.
 
-    Du kan finde flere oplysninger i [Administrere metadataindstillinger for printer](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Du kan finde flere oplysninger i [Administrere printerindstillinger med den universelle udskrivningsportal](/universal-print/portal/configure-printer-settings).
 
-5. Giv brugere tilladelse til printerne.
-
-    Du kan finde flere oplysninger i [Printertilladelser](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Del printerne.
+5. Del printerne.
 
     Alle printere, du vil bruge i [!INCLUDE[prod_short](includes/prod_short.md)], skal deles i Universaludskrivning.
 
-    Du kan finde flere oplysninger i [Dele en printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Du kan finde flere oplysninger i [Dele en printer](/universal-print/portal/share-printers).
+
+6. Giv brugere tilladelse til delte printere.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Du kan finde flere oplysninger i [Printertilladelser](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Aktiver dokumentkonvertering.
 
     Universaludskrivning gengiver indholdet til udskrivning i XPS-format. Nogle ældre printere på markedet understøtter ikke gengivelse af XPS-indhold&mdash;og i mange tilfælde kun PDF-format. Udskrivning til disse printere vil mislykkes, medmindre Universaludskrivning er konfigureret til at konvertere dokumenter til printerens understøttede format.
 
-    Du kan finde flere oplysninger i [Oversigt over dokumentkonvertering](/universal-print/fundamentals/universal-print-document-conversion).
+    Du kan finde flere oplysninger i [Oversigt over dokumentkonvertering](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > Hvis ingen af printerne kræver indholdsgengivelse i PDF-format, anbefales det, at du ikke aktiverer dokumentkonvertering, da det kan påvirke udskriftskvaliteten.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777437"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115358"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruge Business Central som din virksomheds Indbakke i Outlook
 
@@ -68,7 +68,7 @@ I begge tilfælde, hvis [!INCLUDE[prod_short](includes/prod_short.md)] stadig ik
 
 ## <a name="using-other-email-accounts"></a>Bruge andre mailkonti
 
-Tilføjelsesprogrammerne er designet til at blive brugt sammen med Microsoft 365. Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, vil administratoren vide, om du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammerne i Outlook. Du kan finde flere oplysninger i [Hvilken mailadresse kan jeg bruge med [!INCLUDE[prod_short](includes/prod_short.md)]?](across-faq.md#email), og de artiklen [Funktioner, der kræver særlige omstændigheder](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) og [Hvorfor virker Outlook-tilføjelsesprogrammet ikke for mine brugere?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) i afsnittet med generelle ofte stillede spørgsmål i administrationsindholdet.  
+Tilføjelsesprogrammerne er designet til at blive brugt sammen med Microsoft 365. Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, vil administratoren vide, om du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammerne i Outlook. Du kan finde flere oplysninger i [Hvilken mailadresse kan jeg bruge med [!INCLUDE[prod_short](includes/prod_short.md)]?](/dynamics365/business-central/across-faq#email), og de artiklen [Funktioner, der kræver særlige omstændigheder](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) og [Hvorfor virker Outlook-tilføjelsesprogrammet ikke for mine brugere?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) i afsnittet med generelle ofte stillede spørgsmål i administrationsindholdet.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

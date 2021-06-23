@@ -5,20 +5,127 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 04/01/2021
+ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: d6132d84909509a76b196d6ae20d1fb8a2566309
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782301"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184445"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 
-Da virksomheder handler i alt flere lande/områder, bliver det mere vigtigt, at de kan handle eller rapportere finansielle oplysninger i mere end én valuta. Du skal oprette koder for hver valuta, du bruger, hvis du foretager køb og salg i andre valutaer end din lokale valuta, eller hvis du registrerer finanstransaktioner i forskellige valutaer.
+Da virksomheder handler i flere lande/områder, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta. Den lokale valuta (RV) er defineret på siden **Regnskabsopsætning**, som beskrevet i artiklen [opsætning af Finans](finance-setup-finance.md). Når den lokale valuta (RV) er blevet defineret, vises den som en tom valuta, så hvis feltet **Valuta** er tomt, betyder det, at valutaen er RV.  
 
-Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
+Derefter skal du oprette valutakoder for hver valuta, du bruger, hvis du køber eller sælger i andre valutaer end den lokale valuta (RV). Du kan også oprette bankkonti ved hjælp af valutaer. Det er muligt at bogføre finanstransaktioner i forskellige valutaer, men finanstransaktionen bogføres altid i lokal valuta (RV).
+
+> [!Important]
+> Du skal ikke oprette den lokale valutakode både i **regnskabsopsætningen** og på **valuta**-siden. Dette vil skabe forvirring mellem den tomme valuta og koden for RV i valutatabellen, og bankkonti, debitorer og kreditorer kan ved et uheld blive oprettet, nogle med den tomme valuta og nogle med RV-koden.
+
+Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md). Den ekstra rapporteringsvaluta bruges ofte til at lette finansiel rapportering til ejere, som er placeret i lande/områder, som bruger forskellige valutaer end den lokale valuta (RV).
+
+## <a name="currencies"></a>Valutaer
+
+Du kan angive valutakoder i **valutaerne**, herunder yderligere oplysninger og indstillinger, der er nødvendige for hver valutakode.
+
+> [!TIP]
+> Opret valutaerne med den internationale ISO-kode som kode for at forenkle arbejdet med valutaen i fremtiden.
+
+|Felt|Beskrivelse|  
+|---------------------------------|---------------------------------------|  
+|**Kode**|Id for valutaen.|
+|**Beskrivelse**|En fritekstbeskrivelse af valutaen.|
+|**ISO-kode**|Den internationale 3-bogstavkode til den valuta, der er defineret i ISO 4217.|
+|**Numerisk ISO-kode**|Den internationale numeriske reference til den valuta, der er defineret i ISO 4217.|
+|**Valutakursdato**|Den seneste faktiske valutakurs.|
+|**ØMU-valuta**|Angiver, om valutaen er en ØMU-valuta (Economic and Monetary Union) - f.eks. EUR.|
+|**Realiseret finansgevinstkonto**|Den konto, hvor den faktiske gevinst bogføres, når du modtager betalinger til tilgodehavender eller registrerer den faktiske valutakurs på betalinger til kreditorer. Du kan se et eksempel på en valutapostering i eksemplet nedenfor i denne tabel. |
+|**Realiseret finanstabskonto**|Den konto, hvor det faktiske tab bogføres, når du modtager betalinger til tilgodehavender eller registrerer den faktiske valutakurs på betalinger til kreditorer. Du kan se et eksempel på en valutapostering i eksemplet nedenfor i denne tabel. |
+|**Ikke-realiseret finansgevinstkonto**|Den konto, hvor den teoretiske gevinst bogføres, når du foretager en kursregulering.|
+|**Ikke-realiseret finanstabskonto**|Den konto, hvor det teoretiske tab bogføres, når du foretager en kursregulering.|
+|**Afrundingspræcision**|Nogle valutaer har andre formater til fakturabeløb, end det er defineret på siden **Regnskabsopsætning**. Hvis du ændrer afrundingspræcisionen for en valuta, vil alle fakturabeløb i den pågældende valuta afrundet med den opdaterede præcision.|
+|**Decimaler for beløb**|Nogle valutaer har andre formater til fakturabeløb, end det er defineret på siden **Regnskabsopsætning**. Hvis du ændrer afrundingsdecimalen for en valuta, vil alle fakturabeløb i den pågældende valuta afrundet med den opdaterede decimaler.|
+|**Afrundingstype på fakturaer**|Angiver den metode, der skal bruges, hvis beløbene skal afrundes. Indstillingerne er **nærmest**, **op** og **ned**.|
+|**Præcision ved afrunding af enheder eller beløb**|Nogle valutaer har andre formater til enhedsbeløb, end det er defineret på siden **Regnskabsopsætning**. Hvis du ændrer enhedspræcisionen for en valuta, vil alle enhedsbeløb i den pågældende valuta afrundet med den opdaterede præcision.|
+|**Decimalplaceringer for enheder eller beløb**|Nogle valutaer har andre formater til enhedsbeløb, end det er defineret på siden **Regnskabsopsætning**. Hvis du ændrer enhedsafrundingsdecimalen for en valuta, vil alle enhedsbeløb i den pågældende valuta afrundet med den opdaterede decimaler.|
+|**Udlign. afrundingspræcision**|Angiver det interval, der skal gælde som afrundingsdifference, når du udligner poster i forskellige valutaer.|
+|**Konverterings RV afrundet. Debetkonto**|Angiver konverteringsoplysninger, der også skal indeholde en debetkonto, hvis du vil indsætte rettelseslinjer til afrundingsdifferencer i finanskladden vha. funktionen **Indsæt konv. RV-afrund.linjer**.|
+|**Konverterings RV afrundet. Kreditkonto**|Angiver konverteringsoplysninger, der også skal indeholde en kreditkonto, hvis du vil indsætte rettelseslinjer til afrundingsdifferencer i finanskladden vha. funktionen **Indsæt konv. RV-afrund.linjer**.|
+|**Reguleret den**|Datoen for den sidste kursregulering.|
+|**Rettet den**|Datoen for ændringen af valuta opsætningen.|
+|**Betalingstolerance %**|Den maksimale betalingstolerance %, der er angivet for denne valuta. Du kan finde flere oplysninger i [Betalingstolerance og kontantrabattolerance](finance-payment-tolerance-and-payment-discount-tolerance.md). |
+|**Maks. betalingstolerancebeløb**|Det maksimale betalingstolerancebeløb, der er angivet for denne valuta. Du kan finde flere oplysninger i [Betalingstolerance og kontantrabattolerance](finance-payment-tolerance-and-payment-discount-tolerance.md). |
+|**Valutafaktor**|Angiver forholdet mellem den valutaen og den lokale valuta ved hjælp af den aktuelle valutasats.|
+|**Realiseret finansgevinstkonto**|Angiver den finanskonto, hvor kursgevinster skal bogføres for kursreguleringer mellem den lokale valuta (RV) og den ekstra rapporteringsvaluta. Kursgevinster beregnes, når kørslen Kursreguler valutabeholdninger udføres for at regulere finanskonti. Dette felt er muligvis ikke synligt som standard. Den kan hentes ved at tilpasse siden.|
+|**Realiseret finanstabskonto**|Angiver den finanskonto, hvor kurstab skal bogføres for kursreguleringer mellem den lokale valuta (RV) og den ekstra rapporteringsvaluta. Kursgevinster beregnes, når kørslen Kursreguler valutabeholdninger udføres for at regulere finanskonti. Dette felt er muligvis ikke synligt som standard. Den kan hentes ved at tilpasse siden.|
+|**Afrundingskonto (gevinst)**|Angiver den finanskonto, der bruges til at bogføre afrundingsbeløb (afrundingsdifferencer), når der bruges en ekstra rapporteringsvaluta i finansmodulet. Dette felt er muligvis ikke synligt som standard. Den kan hentes ved at tilpasse siden.|
+|**Afrundingskonto (tab)**|Angiver den finanskonto, der bruges til at bogføre afrundingsbeløb (afrundingsdifferencer), når der bruges en ekstra rapporteringsvaluta i finansmodulet. Dette felt er muligvis ikke synligt som standard. Den kan hentes ved at tilpasse siden.|
+|**Maks. momsdifference tilladt**|Det maksimalt tilladte beløb for momsdifferencer i denne valuta. Flere oplysninger i [Manuel korrektion af momsbeløb i salgs- og købsdokumenter](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Dette felt er muligvis ikke synligt som standard. Den kan hentes ved at tilpasse siden.|
+|**Momsafrundingstype**|Angiver afrundingsmetoden for korrigering af momsbeløb manuelt i salgs-og købsdokumenter. Dette felt er muligvis ikke synligt som standard. Den kan hentes ved at tilpasse siden.|
+
+### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en valutapostering for tilgodehavender
+
+I følgende eksempel modtages en faktura den 1. januar med Valutabeløbet på 1000. På det tidspunkt er valutakursen 1,123.
+
+|Dato|Handling|Valutabeløb|Bilagskurs|RV-beløb på dokument|Justeringskurs|Ikke-realiseret finansgevinstbeløb|Betalingssats|Realiseret finansbeløb|  
+|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
+|1/1|**Faktura**|1000|1.123|1123|||||
+|1/31|**Regulering**|1000||1125|1.125|2|||
+|2/15|**Tilbagebetaling af betalingsregulering**|1000||||-2|||
+|2/15|**Betaling**|1000||1120|||1.120|-3|
+
+Ved udgangen af måneden udføres der en kursregulering, hvor kursreguleringen er angivet til 1,125, hvilket udløser en Urealiseret gevinst på 2.
+
+På betalingstidspunktet viser den faktiske valutakurs, der er registreret for bank transaktionen, en valutakurs på 1,120.
+
+Der er en urealiseret transaktion, som derfor bliver tilbageført sammen med betalingen.
+
+Endelig registreres betalingen, og det faktiske tab bogføres på den realiserede tabskonto.
+
+## <a name="available-currency-functions"></a>Tilgængelige Valutafunktioner
+
+I følgende tabel beskrives nøgle handlinger på siden **Valutaer**. Nogle af handlingerne er forklaret i de næste afsnit.  
+
+|Menu|Handling|Beskrivelse|
+|-------------|--------------|------------------------------|
+|**Behandle**|**Foreslå konti**|Bruge konti fra andre valutaer. De mest almindeligt brugte konti indsættes.|
+||Skift betalingstolerance|Rediger den maksimale betalingstolerance og/eller betalingstoleranceprocenten og filtrere efter valuta. Du kan finde flere oplysninger i [Betalingstolerance og kontantrabattolerance](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+||**valutakurser**|Vis opdaterede kurser for de valutaer, som du vil bruge.|
+||**Kursreguler valutabeholdninger**|Reguler finans-, debitor-, kreditor- og bankkontoposter, så de svarer til den opdaterede saldo i situationer, hvor kursen har ændret sig siden bogføringen.|
+||**Valutakursreguleringsjournal**|Få vist resultaterne af kørslen **Kursreguler valutabeholdninger**. Der oprettes én linje for hver valuta eller valutakombination og bogføringsgruppe, der indgår i reguleringen.|
+|**Valutakurstjeneste**|**Valutakurstjenester**|Vis eller rediger konfigurationen af de tjenester, der er konfigureret til at hente opdaterede valutakurser, når du vælger handlingen **Opdater valutakurser**.|
+||**Opdater valutakurser**|Brug de seneste valutakurser fra en tjenesteudbyder.|
+|**Rapporter**|**Valutaopgørelse**|Vis saldi for alle debitorer og kreditorer i såvel udenlandsk valuta som i den lokale valuta. Rapporten indeholder 2 LV-saldi. Det ene er saldoen for udenlandsk valuta omregnet til RV ved hjælp af valutakurs på tidspunktet for transaktion. Det andet er saldoen for udenlandsk valuta omregnet til RV ved hjælp af valutakurs på arbejdsdatoen.|
+
+## <a name="exchange-rates"></a>Valutakurser
+
+Valutakurserne er værktøjet til beregning af den lokale valutaværdi (RV) for hver valuta transaktion. Siden **Valutakurser** indeholder følgende felter:
+
+|Felt|Beskrivelse|  
+|---------------------------------|---------------------------------------|  
+|**Startdata**|Den dato, hvor valuta kursen blev effektueret|  
+|**Valutakode**|Den valutakode, der er knyttet til denne valutakurs|  
+|**Associeret valutakode**|Hvis valutaen er en del af en trekants beregning, kan den relaterede valutakode oprettes her|  
+|**Valutakursbeløb**|Valutakursbeløbet er den kurs, der skal bruges til den valutakode, der er valgt på linjen. Normalt 1 eller 100|  
+|**Associeret valutakursbeløb**|Det forholdsmæssige valutakursbeløb er den kurs, der skal bruges til den forholdsmæssige valutakode.|  
+|**Regul. valutakursbeløb**|Det regulerede valutakursbeløb er den kurs, der skal bruges til den valutakode, der er valgt på linjen til brug af kørslen **Kursreguler. valutabeholdninger**.|  
+|**Ass. regul. valutakursbeløb**|Det forholdsmæssige regulerede valutakursbeløb er den kurs, der skal bruges til den valutakode, der er valgt på linjen til brug af kørslen **Kursreguler. valutabeholdninger**.|  
+|**Fastsæt valutakursbeløb**|Angiver, om valutaens kurs kan ændres på fakturaer og kladdelinjer.|  
+
+Generelt bruges værdierne i felterne **Valutakursbeløb** og **Associeret valutakursbeløb** som standardvaluta kurs på alle nye tilgodehavender og skyldige dokumenter, der er oprettet frem. Dokumentet tildeles valutakurserne i overensstemmelse med den aktuelle arbejdsdato.  
+
+> [!Note]
+> Den faktiske valutakurs beregnes vha. følgende formel:
+> 
+> `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
+
+Reguleringsvalutakursbeløbet for reguleringsvalutakursen eller relations-reguleringen bruges til at opdatere alle åbne bank-, debitor-eller købstransaktioner.  
+
+> [!Note]
+> Den faktiske valutakurs beregnes vha. følgende formel:
+> 
+> `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Regulering af valutakurser
 
@@ -61,7 +168,11 @@ Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valutakurstjenester**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. På siden **Valutakurstjenester** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Marker afkrydsningsfeltet **Aktiveret** for at aktivere tjenesten.
+4. Aktiver tjenesten til ved at slå **Aktiveret** til.
+
+> [!NOTE]
+> Følgende video viser et eksempel på, hvordan du kan oprette forbindelse til en valutakursservice med brug af den europæiske Central Bank. I den målgruppe, der beskriver, hvordan du opretter felttilknytninger, returnerer indstillingen i kolonnen til den **Overordnede node for Valutakode** kun den første valuta, der er fundet i kolonnen **Kilde**. Indstillingen skal være **/gesmes:Envelope/Code/Code/Code**.
+
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]

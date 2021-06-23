@@ -1,5 +1,5 @@
 ---
-title: Vise brugerdefinerede Power BI-rapporter for Business Central-data| Microsoft Docs
+title: Vise brugerdefinerede Power BI-rapporter for Business Central-data
 description: Du kan bruge Power BI-rapporter til at få ekstra indsigt i data på lister.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941609"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087690"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Oprettelse af Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -45,9 +45,9 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 3. Angive rapportfilteret.
 
-    Hvis du vil foretage dataopdatering til den valgte post på listen, skal du føje et filter til rapporten. Filteret skal indeholde et felt i den datakilde, der bruges til entydigt at identificere hver post på listen. I forhold til udviklere er dette felt den *primære nøgle*. I de fleste tilfælde er primærnøglen for en liste feltet **Nr.** .
+    Sådan foretager du dataopdatering til den valgte post på listen ved at føje et filter til rapporten. Filteret skal indeholde et felt i den datakilde, der bruges til entydigt at identificere hver post på listen. I forhold til udviklere er dette felt den *primære nøgle*. I de fleste tilfælde er primærnøglen for en liste feltet **Nr.** .
 
-    Benyt følgende fremgangsmåde for at angive filteret:
+    Sådan kan du benytte følgende fremgangsmåde for at angive filteret:
 
     1. I **Filtre** skal du vælge feltet for den primære nøgle på listen over tilgængelige felter.
     2. Træk feltet til ruden **Filter**, og slip den i boksen **Filtrer på alle sider**.

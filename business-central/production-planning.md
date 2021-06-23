@@ -1,5 +1,5 @@
 ---
-title: Forsyningsplanlægning | Microsoft Docs
+title: Forsyningsplanlægning
 description: Opret en detaljeret, eksekverbar plan og produktionsplanen med endelig montage til salgs- og produktionsbehov.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81befcda5dc4ae9e46ff02e98701fcb9c7a074dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 63e20afbfeda9450c4b636a660549c822cc0e5da
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785394"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115486"
 ---
 # <a name="planning"></a>Planlægning
 
@@ -36,8 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Forstå, hvordan alle aspekter af planlægningssystemet fungerer, og hvordan du justerer algoritmer for at opfylde planlægningsbehov i forskellige miljøer.|[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)|
 |Vide, hvordan planlægningslogikken differentierer mellem behov på lokationer i henhold til lagervareopsætningen og behov uden lokationskoder.|[Planlægge med eller uden lokationer](production-planning-with-without-locations.md)|
 |Lave en prognose over behov afledt af de forventede salgs- og produktionskomponenter.|[Oprette en behovsprognose](production-how-to-create-a-forecast.md)|  
-|Oprette en-til-en-produktionsordrer automatisk fra en salgsordre for at dække det nøjagtige behov for denne salgsordreline.|[Oprette produktionsordrer fra salgsordrer](production-how-to-create-production-orders-from-sales-orders.md)|
-|Oprette en projektproduktionsordre direkte fra en salgsordre med flere linjer, som udgør et produktionsprojekt.|[Planlægge projektordrer](production-how-to-plan-project-orders.md)|
+|Oprette en-til-en- eller projektproduktionsordrer automatisk fra en salgsordre for at dække det nøjagtige behov for denne salgsordreline.|[Oprette produktionsordrer fra salgsordrer](production-how-to-create-production-orders-from-sales-orders.md)|
 |Bruge siden **Ordreplanlægning** til manuel planlægning af salgs- eller produktionsbehov for et styklisteniveau ad gangen.|[Planlægge efter nyt behov ordre for ordre](production-how-to-plan-for-new-demand.md)|
 |Brug siden **Planlægningskladde** til at køre både MPS- og MRP-funktionerne for automatisk at oprette enten en overordnet eller en detaljeret forsyningsplan på alle vareniveauer.|[Køre fuld planlægning, MPS eller MRP](production-how-to-run-mps-and-mrp.md)|
 |Brug siden **Indkøbskladde** for automatisk at oprette en detaljeret forsyningsplan for at dække behovet for varer, der kun kan opfyldes med et et køb eller ene overførsel.|[Indkøbskladde](production-about-planning-functionality.md#requisition-worksheet)|  

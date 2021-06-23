@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771181"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074633"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
 
 Tillykke, du lige har startet din første virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-For at blive klar til at handle kan du besøge siden **Assisteret opsætning**, hvor du kan starte assisterede opsætningsguides, videoer eller hjælpeemner for valgte opsætningsopgaver. For at få adgang til siden skal du bare vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen **Assisteret opsætning**.
+For at blive klar til at handle kan du besøge siden **Assisteret opsætning**, hvor du kan starte assisterede opsætningsguides, videoer eller hjælpeemner for valgte opsætningsopgaver. Hvis du vil have adgang til siden, skal du blot vælge [dette link](https://businesscentral.dynamics.com/?page=1801).  
 
-Du kan også få vist listen over assisterede opsætningsguides for alle roller ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Assisteret opsætning** og derefter vælge det relaterede link.  
+Du kan også vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen **Assisteret opsætning**.
+
+Du kan også få vist listen over assisterede opsætningsvejledninger ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Assisteret opsætning** og derefter vælge det relaterede link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]

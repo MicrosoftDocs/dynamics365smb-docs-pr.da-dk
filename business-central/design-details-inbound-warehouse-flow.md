@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 67c93eddcb84c3cf87edb6f407cea7af5aecda59
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770537"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215174"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designoplysninger: Indgående lagerflow
 Den indgående strøm i et lager begynder, når der ankommer varer på lageret i virksomheden, som enten er modtaget fra eksterne kilder eller fra et andet sted i firmaet. En medarbejder registrerer varerne, typisk ved at scanne en stregkode. Fra modtagelsesområdet udføres lageraktiviteterne på forskellige kompleksitetsniveauer for at bringe varerne ind i lagerområdet.  

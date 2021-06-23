@@ -1,8 +1,6 @@
 ---
-title: Transaktioner mellem virksomheder i den samme organisation | Microsoft Docs
+title: Administrere Intercompany-transaktioner (IC)
 description: Du kan forenkle forretningsgange og transaktioner mellem virksomheder i den samme organisation med Intercompany-funktionaliteten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2021
+ms.date: 06/02/2021
 ms.author: edupont
-ms.openlocfilehash: fbe84deebc00b07536cda6cb36a3a0784450d62f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a69507b32f8782fe876458adb590529bfd64b20
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786144"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184420"
 ---
 # <a name="managing-intercompany-transactions"></a>Administrere Intercompany-transaktioner (IC)
+
 Organisationen består muligvis af flere virksomheder, men har måske ikke det tilsvarende antal regnskabs- og administrationsgrupper. Med Intercompany-funktionen kan du handle med datterselskaber og interne partnerorganisationer på samme måde som med dine eksterne leverandører og kunder. Du angiver kun oplysninger om intercompany-transaktioner én gang i de relevante bilag. Du kan bruge de funktioner, du allerede kender, f.eks. likviditetsstyring. Tilknytningsfunktioner i kontoplanerne og dimensioner er med til at sikre, at oplysningerne vises de rigtige steder.  
 
 Der er fire overordnede formål med Intercompany-funktioner:  
@@ -33,13 +32,16 @@ Du har den fulde kontrol over alle transaktionsbilag. Du kan f.eks. afvise et bi
 
 Når du angiver en transaktion, skal du ikke angive kontiene for et individuelt sæt af profiler, men blot oplyse partnervirksomhedens id. Intercompany-funktionen opretter finanslinjer, som resulterer i afstemning af profilerne i de to virksomheder, der er involveret i en transaktion. I tilgodehavender og skyldige beløb tildeler du en koncernintern partnerkode til alle kunder og leverandører. Fra det øjeblik af vil alle de ordrer og fakturaer, der oprettes på baggrund af transaktioner med disse virksomheder, resultere i tilsvarende bilag i partnervirksomheden, som igen resulterer i korrekt afstemning af kontiene.  
 
- Når du har oprettet forretningspartnere som debitorer og kreditorer i systemet og tildelt dem Intercompany-partnerkoder, er det muligt at udveksle IC-købs- og salgsbilag, herunder varer og varegebyrer. Intercompany-funktionen muliggør intercompany-transaktioner mellem flere databaser, f.eks. i forskellige lande/områder såvel som flere valutaer, forskellige kontoplaner, forskellige dimensioner og forskellige varenumre.  
+Når du har oprettet forretningspartnere som debitorer og kreditorer i systemet og tildelt dem Intercompany-partnerkoder, er det muligt at udveksle IC-købs- og salgsbilag, herunder varer og varegebyrer. [!INCLUDE [prod_short](includes/prod_short.md)] understøtter intercompany-transaktioner mellem flere databaser, f.eks. i forskellige lande/områder såvel som flere valutaer, forskellige kontoplaner, forskellige dimensioner og forskellige varenumre.  
+
+> [!NOTE]
+> Ikke alle typer data kan udveksles mellem virksomheder på denne måde. Købsfakturaer sendes ikke til forretningspartnere via interne processer. Men salgsfakturaer, der sendes via interne processer, oprettes som købsfakturaer i modtagelsesfirmaet.
 
 Konsolidering af finansielle oplysninger kan især være relevant i forbindelse med interne processer. Du kan finde flere oplysninger i [Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md).
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+Den følgende tabel indeholder en opgavesekvens med links til de artikler, der rummer beskrivelserne af opgaverne.
 
-|Hvis du vil |Se|
+|Hvis du vil |Skal du se|
 |---|---|
 |Opret koncerninterne kreditorer og debitorer som såkaldte koncerninterne partnere, og konfigurer en koncernintern (IC) kontoplan.|[Konfigurere mellemregning](intercompany-how-setup.md)|
 |Bruge IC-dokumenter eller -kladder til at bogføre transaktioner med koncerninterne partnere.|[Arbejde med koncerninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)|
@@ -47,6 +49,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Brug IC-bogføringer til at fordele omkostninger mellem partnerfirmaer.|[Allokere omkostninger til IC-partnere](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Se også
+
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
