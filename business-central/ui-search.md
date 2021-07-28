@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783180"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439998"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Søge efter sider og oplysninger med Fortæl mig  
 I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se komme til f.eks. handlinger, sider eller rapporter, finde oplysninger om, hvordan du udfører en bestemt opgave og finder flere apps og konsulenttjenester til [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se k
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Når du har brug for hjælp til at finde noget, kan du bruge ikonet ![Fortæl mig, hvad du vil foretage dig](media/ui-search/search.png "Søge efter side eller rapport") **Fortæl mig, hvad du vil foretage dig** for at søge efter det. Du kan også bruge ALT + Q for at begynde at bruge Fortæl mig.
+Hvis du har brug for hjælp til at finde noget, skal du bruge funktionen ![Fortæl mig, hvad du vil gøre.](media/ui-search/search.png "Søge efter side eller rapport") **Fortæl mig, hvad du vil foretage dig**-ikon for at søge. Du kan også bruge ALT + Q for at begynde at bruge Fortæl mig.
 
 Når du begynder at skrive tegn, viser [!INCLUDE[prod_short](includes/prod_short.md)] med det samme søgeresultater. Resultaterne på listen ændres, mens du skriver flere tegn. Hvis du opdager det, når du indtaster ordet "produkt", og resultaterne omfatter **Varer**, skyldes det, at Fortæl mig bruger synonymer og alternative søgeord for at gøre det nemmere at finde handlinger, sider og rapporter.
 

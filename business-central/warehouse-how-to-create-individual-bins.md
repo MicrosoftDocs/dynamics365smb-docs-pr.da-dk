@@ -1,6 +1,6 @@
 ---
-title: 'Fremgangsmåde: Oprette placeringer | Microsoft Docs'
-description: Den mest effektive metode til at oprette lagerplaceringer er at generere grupper af tilsvarende placeringer i oprettelseskladden, men du kan også oprette placeringer enkeltvist.
+title: 'Fremgangsmåde: Oprette placeringer'
+description: Opret grupper af lignende placeringer i placeringsoprettelseskladden, Opret placeringer individuelt på lokationskortet eller automatisk i placeringsoprettelseskladden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0c426fa5a617a8457a562333d96cc7924ddc6669
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 89b1c6b6252cc91fb10c2698b0a8b4869dc39853
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782705"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440074"
 ---
 # <a name="create-bins"></a>Oprette placeringer
 Den mest effektive metode til at oprette lagerplaceringer er at generere grupper af tilsvarende placeringer i oprettelseskladden, men du kan også oprette placeringer enkeltvist fra lokationskortet. Du kan også bruge en funktion på siden **Placeringsopr.kladde** til at oprette placeringer automatisk.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Sådan oprettes en placering ud fra lokationskortet  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Marker den lokation, du vil oprette en placering fra, og vælg derefter handlingen **Placeringer**.  
 3. Vælg handlingen **Ny**.
 4. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +37,7 @@ Hvis du gør en placering dedikeret, resulterer det i den samme funktionalitet i
 > Varer på dedikerede placeringer er ikke beskyttet, når de plukkes og forbruges som produktions- eller montagekomponenter på siden **Pluk (lager)**. Du kan finde flere oplysninger i [Plukke til produktion eller montage i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md)
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Sådan oprettes individuelle placeringer i placeringsoprettelseskladden  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opr.kladde til placering**, og vælg det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Placeringsopr.kladde**, og vælg derefter det relaterede link.  
 2.  Udfyld de felter på hver linje, der er nødvendige for at navngive og karakterisere de placeringer, som du opretter.  
 3.  Vælg handlingen **Opret placeringer**.  
 
@@ -49,7 +49,7 @@ Du skal på forhånd have taget stilling til, hvilken slags placeringer der er b
 
 Hvis du vil arbejde med siden **Placeringsopr.kladde**, skal du være oprettet som lagermedarbejder på det sted, hvor placeringerne findes. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opr.kladde til placering**, og vælg derefter det tilknyttede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Placeringsopr.kladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn placeringer**.
 3. På siden **Beregn placeringer** i feltet **Placeringsskabelonkode**, og vælg den placeringsskabelon, der skal bruges som model for de placeringer, som du opretter.
 4.  Indtast en beskrivelse af placeringerne.  
@@ -73,9 +73,9 @@ Gentag processen, hvis det er nødvendigt med endnu et sæt placeringer, indtil 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

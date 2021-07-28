@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063423"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439706"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
 Personer i virksomheder sender oplysninger og dokumenter, f.eks. salgs-og købsordrer og fakturaer, pr. e-mail hver dag. Administratorer kan gøre det nemmere at gøre ved at oprette forbindelse mellem en eller flere e-mail-konti [!INCLUDE[prod_short](includes/prod_short.md)], så du kan sende dokumenter uden at skulle åbne en e-mail-app. Du kan skrive hver enkelt meddelelse individuelt med grundlæggende formateringsværktøjer, f.eks. skrifttyper, typografier, farver osv., og føje vedhæftede filer til op til 100 MB. Administratorer kan også konfigurere rapportlayout, der kun indeholder nøgleoplysninger fra dokumenter. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
@@ -23,6 +23,8 @@ Personer i virksomheder sender oplysninger og dokumenter, f.eks. salgs-og købso
 E-mail-funktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] er kun til udgående meddelelser. Du kan ikke modtage svar, dvs. der er ingen indbakke side i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
+> Du kan kun bruge e-mail-faciliteterne [!INCLUDE[prod_short](includes/prod_short.md)] online sammen med Exchange Online. Vi understøtter ikke hybrid scenarier, f. eks. tilslutning af [!INCLUDE[prod_short](includes/prod_short.md)]-online til en lokal version af Exchange.
+> 
 > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, skal du oprette en app-registrering til i Azure-portalen, før du kan konfigurere mail [!INCLUDE[prod_short](includes/prod_short.md)]. App-registreringen gør det muligt [!INCLUDE[prod_short](includes/prod_short.md)] at godkende og godkende din e-mail-udbyder. Du kan finde flere oplysninger i [Opsætning af e-mail til Business Central lokalt](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). I [!INCLUDE[prod_short](includes/prod_short.md)] online håndteres dette for dig.
 
 ## <a name="required-permissions"></a>Nødvendige tilladelser
@@ -37,7 +39,7 @@ I følgende tabel beskrives de e-mail-udvidelser, der som standard er tilgængel
 
 |Udvidelse  |Beskrivelse  |Eksempler på, hvornår du skal bruge  |
 |---------|---------|---------|
-|**Microsoft 365**|Alle sender mails fra en delt postkasse i Exchange Online.|Når alle meddelelser kommer fra samme afdeling, sender salgsorganisationen f.eks. meddelelser fra en sales@cronus.com konto. Dette kræver, at du opretter en delt postkasse i Microsoft 365 Administration. Du kan finde flere oplysninger i [Delte postkasser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md).|
+|**Microsoft 365**|Alle sender mails fra en delt postkasse i Exchange Online.|Når alle meddelelser kommer fra samme afdeling, sender salgsorganisationen f.eks. meddelelser fra en sales@cronus.com konto. Dette kræver, at du opretter en delt postkasse i Microsoft 365 Administration. Du kan finde flere oplysninger i [Delte postkasser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Aktuel bruger**|Alle sender mail fra den konto, som de bruges til at logge på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillad kommunikation fra individuelle konti.|
 |**Andet (SMTP)**|Brug SMTP-protokollen til at sende mails.|Tillad kommunikation via din SMTP-mailserver. |
 
@@ -61,7 +63,7 @@ Hvis du allerede bruger [!INCLUDE[prod_short](includes/prod_short.md)] og har ko
 > [!NOTE]
 > Du skal have en e-mail-standardkonto, selvom du kun tilføjer én konto. Standardkontoen bruges til alle e-mail-scenarier, der ikke er tildelt til en konto. Du kan finde flere oplysninger i [Tildele e-mailscenarier til e-mailkonti](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurer e-mailkonti**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Konfiguration af e-mailkonti**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -75,7 +77,7 @@ E-mail-scenarier er processer, der involverer afsendelse af et dokument, f.eks. 
  
 <!--
 ## To set up email
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
@@ -89,7 +91,7 @@ E-mail-scenarier er processer, der involverer afsendelse af et dokument, f.eks. 
 ## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Angiv genanvendelig e-mailtekst og layout til salgs-og købsdokumenter
 Du kan bruge rapporter til at medtage nøgleoplysninger fra salgs-og købsdokumenter i tekst til e-mails. Denne procedure beskriver, hvordan du opretter rapporten **Salg-faktura** for bogførte salgsfakturaer, men processen svarer til andre rapporter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportvalg - Salg**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsrapportvalg**, og vælg derefter det relaterede link.
 2. På siden **Rapportvalg - salg** skal du vælge **faktura** i feltet **Forbrug**.
 3. På en ny linje i feltet **Rapport-ID** skal du vælge f.eks. standardrapport 1306.
 4. Markér afkrydsningsfeltet **Brug til brødtekst i mail**.
@@ -115,17 +117,17 @@ Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INC
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Sådan opsættes erstatningsafsenderadressen for alle udgående mailmeddelelser
 1. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter** til din Microsoft 365-konto, og kopiér eller notér adressen. Hvis du har brug for en ny adresse, skal du gå til Microsoft 365 administration for at oprette en ny bruger og oprette postkassen.
-2. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **SMTP-mailopsætning** og dernæst vælge det relaterede link.
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af SMTP-mail** og vælg derefter det relaterede link.
 3. Angiv erstatningsadressen i feltet **Send som**.
 4. Kopiér eller notér adressen i feltet **bruger-id**.
-5. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter**, og angiv derefter adressen fra feltet **bruger-id** i feltet **Send som**. Du kan finde flere oplysninger i [Brug af EAC til at tildele tilladelser til individuelle postkasser](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter**, og angiv derefter adressen fra feltet **bruger-id** i feltet **Send som**. Du kan finde flere oplysninger i [Brug af EAC til at tildele tilladelser til individuelle postkasser](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Sådan bruges erstatningsadressen i godkendelsesarbejdsgange
-1. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **SMTP-mailopsætning** og dernæst vælge det relaterede link.
+1. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af SMTP-mail** og vælg derefter det relaterede link.
 2. Kopiér eller notér adressen i feltet **bruger-id**.
-3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.
-4. I **Exchange Administrationscenter** skal du finde postkasserne for hver bruger angivet på siden **Brugeropsætning af godkendelser** og i feltet **Send som** indtaste adressen fra feltet **bruger-id** på siden **SMTP-mailopsætning** i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Administrere tilladelser for modtagere](/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
-5. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **SMTP-mailopsætning** og dernæst vælge det relaterede link.
+3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Godkendelse af brugerkonfiguration**, og vælg derefter det relaterede link.
+4. I **Exchange Administrationscenter** skal du finde postkasserne for hver bruger angivet på siden **Brugeropsætning af godkendelser** og i feltet **Send som** indtaste adressen fra feltet **bruger-id** på siden **SMTP-mailopsætning** i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Administrere tilladelser for modtagere](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true).
+5. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af SMTP-mail** og vælg derefter det relaterede link.
 6. Hvis du vil aktivere erstatning, skal du aktivere funktionen til skift af **Tillad afsendererstatning**.
 
 > [!Note]
@@ -178,7 +180,7 @@ Hvis du har problemer med at bruge den ældre SMTP-opsætning til at sende mail,
 ### <a name="connect-prod_short-to-your-app-registration"></a>Forbinde [!INCLUDE[prod_short](includes/prod_short.md)] med din appregistrering
 Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge **e-mail-programmets AAD-registrering** vejledning til registrering, der kan oprette forbindelse [!INCLUDE[prod_short](includes/prod_short.md)] til den.
 
-1. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **E-mailansøgning til AAD-registrering** og dernæst vælge det relaterede link.
+1. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **e-mail-programmets AAD-registrering**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
@@ -207,7 +209,10 @@ Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](incl
 
 -->
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/set-up-email/)
+
 ## <a name="see-also"></a>Se også
+
 [Delte postkasser i Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

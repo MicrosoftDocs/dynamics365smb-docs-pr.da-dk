@@ -5,16 +5,16 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5c822685ae5723bc6b13f9fedad45dbddefdb956
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6dfba7323eeaad538cf45525d11212a6e5d7438e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776588"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438523"
 ---
-# <a name="post-the-year-end-closing-entry"></a>Bogføre årsafslutningsposten
+# <a name="posting-the-year-end-closing-entry"></a>Bogføring af årsafslutningsposten
 
 Når du har udført kørslen **Nulstil resultatopgørelse** for at oprette årsafslutningens lukkepost eller -poster, skal du åbne den kladde, du angav i kørslen, og derefter gennemse og bogføre posterne.  
 
@@ -23,7 +23,7 @@ Når du har udført kørslen **Nulstil resultatopgørelse** for at oprette årsa
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Sådan bogføre årsafslutningsposten
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finanskladde**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finanskladde**, og vælg derefter det relaterede link.
 2. På siden **Kassekladde** skal du i feltet **Kladdenavn** vælge den kørsel, der indeholder lukkeposterne.
 3. Gennemse posterne.
 4. Vælg handlingen **Bogfør** for at bogføre kladden.

@@ -1,6 +1,6 @@
 ---
 title: Sådan oprettes en nyt virksomhed | Microsoft Docs
-description: For at du kan bruge RapidStart Services bliver tabeller og sider oprettet, men der er ingen data i dem.
+description: Brug RapidStart Services-tabeller og sider til at oprette en ny virksomhed, som du ønsker at udføre en kundeimplementering for.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c21d86c67c6020d1a32da4816246bc7aaf96c2ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779878"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439631"
 ---
 # <a name="create-a-new-company"></a>Oprette en ny virksomhed
 Hvis du vil bruge RapidStart Services til [!INCLUDE[prod_short](includes/prod_short.md)], skal du først oprette en ny virksomhed, som du ønsker at udføre en kundeimplementering for. Når du opretter en ny virksomhed, oprettes standardtabellerne og -siderne i [!INCLUDE[prod_short](includes/prod_short.md)], men der er ingen data i dem.
@@ -26,7 +26,7 @@ Eksempelkonfigurationspakker, herunder lande-/områdespecifikke filer, følger m
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Sådan bruger du eksempelkonfigurationspakken BASICCONFIG  
 1. Åbn regnskabet CRONUS Danmark A/S. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.  
 3. Vælg pakken BASICCONFIG på listen, og vælg derefter handlingen **Udlæs pakke**.  
 
 Brug følgende fremgangsmåde for at oprette en ny virksomhed, og brug pakken BASICCONFIG som en del af proceduren.  

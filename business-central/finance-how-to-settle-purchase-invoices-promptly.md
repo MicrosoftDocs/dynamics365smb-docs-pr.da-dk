@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d7962031aa7dda7dafa96ade8e11339c06ebb305
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 76dff6fb1977ea4333e326f8a3456aeb5530cfd8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784588"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439481"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Afregne købsfakturaer omgående
 
@@ -23,7 +23,7 @@ Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bog
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Sådan afregnes købsfakturaer omgående
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Du kan afregne kontant eller via bankoverførsel ved at angive nummeret på finanskontoen eller bankkontoen i feltet **Modkonto**.  
 

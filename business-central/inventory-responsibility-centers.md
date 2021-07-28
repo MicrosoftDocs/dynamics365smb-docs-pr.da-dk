@@ -1,6 +1,6 @@
 ---
-title: Sådan arbejder du med ansvarscentre | Microsoft Docs
-description: Ansvarscentre gør det muligt at håndtere administrative centre. Et ansvarscenter kan være et kostcenter, et overskudscenter eller et investeringscenter eller et andet administrativt center, der er defineret i firmaet.
+title: 'Fremgangsmåde: Arbejde med ansvarscentre'
+description: Ansvarscenter som administrationscentre kan hjælpe virksomheder med brugerspecifikke visninger af salgs- og købsdokumenter, der er relateret til et bestemt ansvarscenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e552378625325710b50989c513d303acd9c480af
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774785"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439381"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbejde med ansvarscentre
 
@@ -27,12 +27,12 @@ Flere lokationer betyder, at en virksomhed kan nøjes med at bruge en enkelt dat
 
 ## <a name="to-set-up-a-responsibility-center"></a>Sådan oprettes et ansvarscenter
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ansvarscentre**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **ansvarscentre**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Hvis du bruger ansvarscentre til at administrere din virksomhed, kan være nyttigt at have et standardansvarscenter for din virksomhed.
-4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
+4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
 5. I feltet **Ansvarscenter** skal du angive en ansvarscenterkode.
 
 Denne ansvarskode vil blive brugt på alle købs-, salgs- eller servicedokumenter, hvis bruger, debitor eller kreditor ikke har noget standardansvarscenter. På salgs-, købs- eller servicedokumenter kan du altid angive et andet ansvarscenter end standardcenteret.
@@ -46,7 +46,7 @@ Du kan opsætte brugere, så programmet i deres daglige rutine kun henter de dok
 
 Du kan angive dette ved at knytte ansvarscentre til brugere i tre funktionsmoduler: Køb, Salg og Service.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugeropsætning**, og vælg derefter det relaterede link.  
 2. Vælg den bruger, du vil knytte et ansvarscenter til, på siden **Brugeropsætning**. Hvis brugeren ikke er i oversigten, skal du angive en bruger-id i feltet **Bruger-id**.  
 3. Angiv det ansvarscenter, hvor brugeren har opgaver i relation til salg, i feltet **Filter til salgsansvarscenter**.  
 4. Angiv det ansvarscenter, hvor brugeren har opgaver i relation til indkøb, i feltet **Filter til købsansvarscenter**.  
@@ -58,10 +58,10 @@ Du kan angive dette ved at knytte ansvarscentre til brugere i tre funktionsmodul
 ## <a name="see-also"></a>Se også
 
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)
-[Lager](inventory-manage-inventory.md)[Logistik](warehouse-manage-warehouse.md)  
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
+[Lagerbeholdning](inventory-manage-inventory.md)  
 [Logistik](warehouse-manage-warehouse.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 815a4a6d66fad42a5d1467b87eaef7d6a1688ee1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780003"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439656"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Konfigurere en virksomhed med guiden RapidStart
 Du kan hurtigt konfigurere en ny virksomhed, som du har oprettet ved hjælp af guiden RapidStart Services-konfiguration.
@@ -39,7 +39,7 @@ I følgende procedure har du angivet debitoren med konfigurationspakken, der der
     >  Rediger kun dit rollecenter, når du har afsluttet konfigurationen af virksomheden. Hvis du vil overveje og ændre flere konfigurationsoplysninger, skal du først bruge konfigurationsregnearket til at fortsætte arbejdet. Derefter skal du vende tilbage til guiden for at opdatere dit rollecenter eller vælge handlingen **Fuldfør installation**.
 
 7. Vælg knappen **OK**.  
-8. Hvis du vil kontrollere, at konfigurationsoplysningerne er blevet anvendt på den nye virksomhed, skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Virksomhedsoplysninger** og derefter vælge det relaterede link.
+8. Hvis du vil kontrollere, at konfigurationsoplysningerne er blevet anvendt på det nye regnskab, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
 
 Siden **Virksomhedsoplysninger** indeholder oplysninger, du har angivet.   
 

@@ -1,21 +1,21 @@
 ---
-title: Om Data Exchange Framework | Microsoft Docs
-description: Filformatet til udveksling af data i bankfiler, elektroniske dokumenter, valutakurser og andet i ERP-systemer afhænger af udbyderen af datafilen eller streamen og landet/området.
+title: Om Data Exchange Framework
+description: I dette emne forklares det, hvordan du kan bruge data Exchange-strukturen til at styre udvekslingen af data i forretningsdokumenter, f. eks. fakturaer med samarbejdspartnere.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 6ae76aa8f8522b7d93dd442d6d8cc748f1d2dac4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 53c0bcbf03f989175783ebb93228815712c25552
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776318"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439114"
 ---
 # <a name="about-the-data-exchange-framework"></a>Om Data Exchange Framework
 
@@ -25,9 +25,9 @@ Som administrator eller Microsoft-partner kan du bruge strukturen i nye integrat
 
  Følgende diagrammer viser arkitektur af dataudvekslingsstrukturen.  
 
- ![Dataudvekslingsstruktur &#45; Import](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Dataudvekslingsstruktur &#45; Import.](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![Dataudvekslingsstruktur &#45; Eksport](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Dataudvekslingsstruktur &#45; Eksport.](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## <a name="electronic-documents"></a>Elektroniske dokumenter
 

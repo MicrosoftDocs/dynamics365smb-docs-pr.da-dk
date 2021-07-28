@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e0e225df3d3d212165a8a94eaab964b079ca868
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115636"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438923"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -25,7 +25,7 @@ Du kan finde en oversigt over de mest populære tastaturgenveje under [Tastaturg
 
 > [!TIP]
 > Hvis du vil have vist en grafisk oversigt over de mest benyttede genveje, skal du vælge følgende billede og hente PDF-filen.  
-> [ ![Ikon for PDF-filen](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon, der åbner et PDF-dokument")
+> [ ![Ikon for PDF-filen.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon, der åbner et PDF-dokument")
 
 ## <a name="overview"></a>Oversigt
 
@@ -55,7 +55,7 @@ I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og ad
 |Alt+N |Åbne en side for at oprette en ny post. (Svarer til at vælge **Ny** og **+**-handlinger).|
 |Alt+Skift+N |Lukke en nyoprettet side og åbne en ny for at oprette en ny post. På samme måde bogfører Alt+F9 et dokument og opretter et nyt.|
 |Alt+T|Åbne siden **Mine indstillinger**.|
-|Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit-knap"). Dette bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
+|Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit.](media/assist-edit-icon.png "AssistEdit-knap"). knap. Dette bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
 |Ctrl+Alt+Skift+C|Få vist oplysninger på virksomhedskortet.|
 |Ctrl+Alt+F1|Åbne og lukke sideinspektionsruden. Sideinspektionsruden viser oplysninger om siden, f.eks. dens kildetabel, felter, udvidelser og meget mere.<br /><br />Du kan finde flere oplysninger i [Inspektion af sider](across-inspect-page.md).|
 |Ctrl+C |Kopiere værdien i feltet. Hvis feltet er i fokus, og du ikke har markeret tekst i feltet, kopieres hele værdien. Hvis du har markeret tekst i feltet, så kopieres kun den markerede tekst.|

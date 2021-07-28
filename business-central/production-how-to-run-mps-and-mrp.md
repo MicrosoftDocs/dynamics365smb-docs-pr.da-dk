@@ -1,6 +1,6 @@
 ---
-title: Sådan køres fuld planlægning, MPS og MRP | Microsoft Docs
-description: At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hovedproduktionsplanen (MPS) på basis af eksisterende og forventet efterspørgsel. Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning – materialebehovsplanlægning) efter anmodning, eller begge dele kan beregnes på én gang.
+title: 'Fremgangsmåde: Køre fuld planlægning, MPS og MRP'
+description: Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) efter anmodning, eller begge dele kan beregnes på én gang.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e80b7f3c072556453f441d7b9980c7308ed3cb61
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787748"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440324"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Køre fuld planlægning, MPS eller MRP
-At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hovedproduktionsplanen (MPS) på basis af eksisterende og forventet efterspørgsel. Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning – materialebehovsplanlægning) efter anmodning, eller begge dele kan beregnes på én gang.  
+At "køre planlægningskladden" eller at "køre MRP" betyder, at du beregner hovedproduktionsplanen (MPS) på basis af eksisterende og forventet efterspørgsel. Planlægningssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) efter anmodning, eller begge dele kan beregnes på én gang.  
 
 -   MPS defineres som beregning af en hovedplan på basis af et faktisk behov og behovsprognosen. MPS-beregningen bruges til slutvarer, der har en prognose- eller en salgsordrelinje. Disse varer kaldes MPS-varer og identificeres dynamisk, når beregningen begynder.  
 -   MRP defineres som beregning af materialebehov på basis af et faktisk komponentbehov og behovsprognosen på komponentniveau. MRP beregnes kun for varer, der ikke er MPS-varer. Det overordnede formål med MRP er at udarbejde formelle planer med tidsangivelser og opdelt efter varer, så den rigtige vare kan leveres på det rigtige tidspunkt, til det rigtige sted og i det rette antal.  
@@ -45,7 +45,7 @@ Hver planlagt metode, genererer [!INCLUDE[prod_short](includes/prod_short.md)] k
 >  Funktionen Hent aktionsmeddelelser kan udføres mellem totalplanlægning og nettoplanlægning, fordi den giver et umiddelbart indtryk af, hvilke følgevirkninger en planændring vil få. Men det er ikke meningen, at denne fremgangsmåde skal bruges i stedet for fuld totalplanlægning eller nettoplanlægning.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Sådan beregnes planlægningskladden  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægningskladder**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlægningskladdeside**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan** for at åbne siden **Beregn Plan**.  
 3.  I oversigtspanelet **Indstillinger** skal du udfylde felterne som beskrevet i følgende tabel.  
 

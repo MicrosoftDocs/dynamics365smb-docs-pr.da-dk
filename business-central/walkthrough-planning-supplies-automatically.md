@@ -1,6 +1,6 @@
 ---
-title: Gennemgang - Automatisk planlægning af forsyninger | Microsoft Docs
-description: Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen af hovedplanen (MPS) og materialebehovsplanen (MRP) baseret på det faktiske og det prognosticerede behov.
+title: Gennemgang - Automatisk planlægning af forsyninger
+description: Denne gennemgang viser, hvordan du kan bruge forsyningsplanlægningssystemet til automatisk at planlægge købs- og produktionsordrer, der skal bruges til forskellige salgsordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214699"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439356"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gennemgang: Automatisk planlægning af forsyninger
 
@@ -74,7 +74,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-change-selected-planning-parameters"></a>Ændre valgte planlægningsparametre  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagervarer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagervarer**, og vælg derefter det relaterede link.  
 2.  Åbn lagervarekortet EAST for vare 1100, forhjul.  
 3.  Udfyld felterne i oversigtspanelet **Planlægning** som beskrevet i følgende tabel.  
 
@@ -91,7 +91,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-create-the-sales-order"></a>Sådan oprettes salgsordren  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  På siden **Salgsordre** skal du udfylde felterne som beskrevet i følgende tabel.  
 
@@ -103,7 +103,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Sådan oprettes en totalplan for at opfylde behovet på lokationen EAST  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægningskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlægningskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan**.  
 3.  På siden **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 
@@ -126,7 +126,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Beregne MRP for at medtage underliggende komponentbehov  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægningskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlægningskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan**.  
 3.  På siden **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 
@@ -220,7 +220,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
 3.  Accepter tilgængelighedsadvarslen, og vælg knappen **Ja** for at registrere behovsantallet.  
 4.  Fortsæt med at foretage en genplanlægning for at justere den aktuelle forsyningsplan.  
-5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægningskladde**, og vælg derefter det relaterede link.  
+5.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlægningskladde**, og vælg derefter det relaterede link.  
 6.  Vælg handlingen **Beregn nettoplan**.  
 7.  På siden **Beregn plan - planlægningskld.** skal du udfylde felterne som beskrevet i følgende tabel.  
 

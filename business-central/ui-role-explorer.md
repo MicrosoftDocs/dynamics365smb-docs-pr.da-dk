@@ -1,6 +1,6 @@
 ---
-title: Udforske og navigere på sider pr. rolle | Microsoft Docs
-description: ''
+title: Udforske og navigere på sider pr. rolle
+description: Du kan få vist en oversigt over alle de forretningsfunktioner, der er tilgængelige for din rolle, og for andre roller med Rollestifinder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c6acdd0370144c4a49f068a26c5f5f6c6f6a9a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783230"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440023"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Søge efter sider med Rollestifinder
 Du kan få vist en oversigt over alle de forretningsfunktioner, der er tilgængelige for din rolle, og for andre roller, hvis du går et trin videre. I følgende dokumentation henvises der til denne funktionsoversigt som *Rollestifinder*.
@@ -24,7 +24,7 @@ Hvert element i Rollestifinder er en handling, der åbner en side. Derfor kan du
 
 Du kan åbne Rollestifinder fra rollecenteret og alle listesider og fra vinduet **Fortæl mig**.
 
-- Vælg ![Menuknappen](media/ui_menu_button.png "Menuknap") til højre for navigationslinjen i dit rollecenter eller på en listeside, eller tryk på Skift+F12.
+- I dit rolle Center eller på en listeside vælges ![Menuknappen.](media/ui_menu_button.png "Menuknap") til højre for navigationslinjen, eller tryk på Shift + F12.
 - I vinduet **Fortæl mig** skal du vælge handlingen **udforskning** nederst.
 
 Vælg handlingen **Find** øverst i rollestifinderen for hurtigt at finde de funktionsnavne, der indeholder et bestemt udtryk.

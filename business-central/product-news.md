@@ -1,18 +1,18 @@
 ---
 title: Nyt og planlagt i standardversionen
-description: Få mere at vide om, hvordan du finder de seneste nyheder og opdateringer til standardversionen af Business Central.
+description: Få mere at vide om, hvordan du finder de seneste nyheder og opdateringer til nye og eksisterende funktioner i standardversionen af Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 4bfa57850f86c243ddb3c7394f59296aceb90437
-ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
+ms.openlocfilehash: 7d487bdb24284583b2ea11f5f18ae3b9d8b7ab04
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941634"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438723"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Nyt og planlagt for Dynamics 365 Business Central
 
@@ -28,7 +28,7 @@ Følgende liste indeholder oplysninger om de nyeste versioner af [!INCLUDE [prod
 
 Du kan også udforske [Dynamics 365 Business Central Funktioner](https://dynamics.microsoft.com/business-central/capabilities/)-webstedet og [Dynamics 365 Business Central Oversivgt](https://dynamics.microsoft.com/roadmap/business-central/)-webstedet.  
 
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
+<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription."](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 ## <a name="see-also"></a>Se også
 

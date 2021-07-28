@@ -1,6 +1,6 @@
 ---
-title: Sådan opretter du workflows ud fra workflowskabeloner | Microsoft Docs
-description: For at spare tid ved oprettelse af nye workflows kan du oprette workflows ud fra workflowskabeloner.
+title: Sådan oprettes workflows ud fra workflowskabeloner
+description: Hvis du vil spare tid, når du opretter nye arbejdsprocesser, kan du oprette ikke-redigerbare arbejdsprocesser fra de arbejdsprocesskabeloner, der er blevet løst med "MS".
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2540632936a502cd1873c7db34733f5dd83db4b9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4c3c8011802d9deb1b7a3804758333f08fc2403b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775843"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438428"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Oprette workflows ud fra workflowskabeloner
 For at spare tid ved oprettelse af nye workflows kan du oprette workflows ud fra workflowskabeloner.  
@@ -29,7 +29,7 @@ For at spare tid ved oprettelse af nye workflows kan du oprette workflows ud fra
 På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Sådan opretter du fra et workflow ud fra en workflowskabelon  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdsgange**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsflow**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Opret workflow fra skabelon**. Siden **Workflowskabeloner** åbnes.  
 3.  Vælg et workflow, og vælg derefter knappen **OK**.  
 

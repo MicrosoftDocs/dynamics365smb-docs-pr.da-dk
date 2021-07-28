@@ -1,18 +1,18 @@
 ---
-title: Sådan spores pakker | Microsoft Docs
-description: Du kan bruge speditørens sporingsservice til at se status for en levering.
+title: Sådan spores pakker
+description: Brug speditør Sporingstjenesten på internettet til at spore kolli og følge fremdriften for en levering.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fea12afc4c9c1273fe8ba6da563240781fb1bc9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778343"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440199"
 ---
 # <a name="track-packages"></a>Spore pakker
 
@@ -22,7 +22,7 @@ Følgende fremgangsmåde viser, hvordan en pakke spores fra en bogført salgslev
 
 ## <a name="to-track-a-package"></a>Sådan spores en pakke
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsleverancer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogført salgsleverance**, og vælg derefter det relaterede link.
 2. Åbn den relevante leverance.
 3. Vælg handlingen **Opdater bilag**.
 4. I feltet **Pakkesporingsnr.** skal du angive det pakkenummer, du har modtaget fra speditøren. Opdater **Speditør**, hvis det er nødvendigt, og luk siden.

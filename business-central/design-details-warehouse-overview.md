@@ -1,6 +1,6 @@
 ---
-title: Designoplysninger – Oversigt over logistik | Microsoft Docs
-description: Alle oplysninger skal spores for hver transaktion eller bevægelse på lageret for at understøtte den fysiske håndtering af varerne på zone- og placeringsniveauet. Dette administreres i tabellen **Lagerpost**. Hver transaktion gemmes i en lagerjournal.
+title: Designoplysninger - Oversigt over logistik
+description: Alle oplysninger skal spores for hver transaktion eller bevægelse på lageret for at understøtte den fysiske håndtering af varerne på zone- og placeringsniveauet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: f1ecd1324df2433d31ff1480316a9e281ad5c5df
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 586fdc74b174ae24dea6354953899370f076a2da
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215674"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439531"
 ---
 # <a name="design-details-warehouse-overview"></a>Designoplysninger: Oversigt over logistik
 Alle oplysninger skal spores for hver transaktion eller bevægelse på lageret for at understøtte den fysiske håndtering af varerne på zone- og placeringsniveauet. Dette administreres i tabellen **Lagerpost**. Hver transaktion gemmes i en lagerjournal.  
@@ -28,7 +28,7 @@ Når vareposteringer forekommer uden for lagermodulet, bruges der en standardreg
 
 Følgende illustration viser typiske lagerstrømme.  
 
-![Oversigt over lagerstedsprocesser](media/design_details_warehouse_management_overview.png "Oversigt over lagerstedsprocesser")  
+![Oversigt over lagerstedsprocesser.](media/design_details_warehouse_management_overview.png "Oversigt over lagerstedsprocesser")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grundlæggende eller avanceret logistik  
 Lagerfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)] kan implementeres i forskellige kompleksitetsniveauer, afhængig af virksomhedens processer og ordrevolumen. Den væsentligste forskel er, at aktiviteter udføres ordre for ordre i basislogistik, når de er fælles for flere ordrer i avanceret logistik.  
@@ -78,7 +78,7 @@ For at opnå overensstemmelse med økonomiske begreber køb og salg, henviser [!
 |Udgående strøm|Varer, der flyttes ud af lagerlokationen, som salg og udgående overflytninger.|  
 
 ## <a name="see-also"></a>Se også  
- [Designoplysninger: Logistik](design-details-warehouse-management.md)
+ [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

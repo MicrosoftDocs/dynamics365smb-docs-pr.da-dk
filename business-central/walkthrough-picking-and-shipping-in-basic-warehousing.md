@@ -1,6 +1,6 @@
 ---
-title: Pluk og forsendelse i grundlæggende lageropsætninger
-description: I Business Central kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.
+title: Plukning og forsendelse i grundlæggende lageropsætning
+description: I Business Central kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af følgende fire metoder afhængigt af kompleksitetsniveauet på lageret.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214649"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439063"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger
 
@@ -81,7 +81,7 @@ Hvis du vil bruge denne funktion, skal du føje dig selv til lokationen som en l
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Sådan oprettes en lagermedarbejder som en lagermedarbejder
 
-  1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig først](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
+  1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig første.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
   2. Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Lagerstedsansatte**.
   3. Angiv SYD i feltet **Lokationskode**.  
   4. Vælg handlingen **Bogfør**, og vælg derefter knappen **Ja**.  
@@ -90,7 +90,7 @@ Hvis du vil bruge denne funktion, skal du føje dig selv til lokationen som en l
 
 Gør varen 1928-S tilgængelig på SYD-lokationen ved at følge disse trin:  
 
-  1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Vareomposteringskladder**, og vælg derefter det relaterede link.  
+  1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig anden.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekladder**, og vælg derefter det relaterede link.  
   2. Åbn standardkladden, og opret derefter to varekladdelinjer med de følgende oplysninger om arbejdsdatoen (23. januar).  
 
         |Postens type|Varenummer|Lokationskode|Placeringskode|Antal|  
@@ -109,7 +109,7 @@ Salgsordrer er den mest almindelige type udgående kildedokument.
 
 ### <a name="to-create-the-sales-order"></a>Sådan oprettes salgsordren
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig tredje.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Opret en salgsordre for debitor 10000 på arbejdsdatoen (23. januar) med følgende salgsordrelinje.  
 
@@ -129,7 +129,7 @@ På siden **Pluk (lager)** kan du administrere alle udgående lageraktiviteter t
 
 ### <a name="to-pick-and-ship-items"></a>Sådan foretages pluk og levering af varer
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerpluk**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig fjerde.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk fra lager**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 
     Sørg for, at feltet **Nr.** er udfyldt i oversigtspanelet **Generelt**.

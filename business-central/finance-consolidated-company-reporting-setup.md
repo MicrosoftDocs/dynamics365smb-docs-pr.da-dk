@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 861893c2784bc5eed837c26d070fb98c2826772b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786244"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439456"
 ---
 # <a name="set-up-company-consolidation"></a>Konfigurere virksomhedskonsolidering
 
@@ -74,7 +74,7 @@ Følgende liste illustrerer nøgleaspekter i det konsoliderede regnskab.
 [!INCLUDE[prod_short](includes/prod_short.md)] giver dig mulighed for at oprette en liste over de virksomhedsenheder, der skal konsolideres, kontrollere regnskabsdataene, før du konsoliderer dem, importere filer og oprette konsolideringsrapporter.  
 
 1. Log på det konsoliderede regnskab.
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forretningsenheder**, og vælg derefter det relaterede link.  
 3. Vælg **Ny**, og udfyld de påkrævede felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -89,7 +89,7 @@ Kontoplanen for en virksomhed, der skal konsolideres, skal angive konti for kons
 
 Hvis kontoplanen i koncernvirksomheden er anderledes end det konsoliderede regnskab, skal du forberede finanskonti til konsolidering. Du kan angive de konti, hvor debet og kredit skal posteres, og metoden, der skal bruges til at oversætte valutaer i det konsoliderede regnskab. Det er f.eks. nyttigt, hvis du ofte udfører rapporten.
 
-1. I hver virksomhedsenhed [!INCLUDE [prod_short](includes/prod_short.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive **Kontoplan**, og vælg derefter det relaterede link.  
+1. I de enkelte koncernvirksomheder [!INCLUDE [prod_short](includes/prod_short.md)] skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. Åbn kortet for kontoen, og udfyld derefter felterne på oversigtspanelet **Konsolidering**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Angiv kurser for konsolideringer
@@ -109,7 +109,7 @@ I følgende tabel beskrives de valutakursmetoder, du kan bruge til konti.
 
 Gør følgende for at angive valutakurser for koncernvirksomheder:
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernvirksomheder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forretningsenheder**, og vælg derefter det relaterede link.  
 2. Vælg koncernvirksomheden på siden **Koncernvirksomhedsoversigt**, og vælg derefter handlingen **Gennemsnitskurs (manuel)**.  
 3. På siden **Ret valutakurs** er indholdet af feltet **Associeret valutakurs** blevet kopieret fra tabellen **Valutakurs**, men du kan ændre oplysningerne efter behov. Luk siden.  
 4. Vælg handlingen **Ultimokurs**.  

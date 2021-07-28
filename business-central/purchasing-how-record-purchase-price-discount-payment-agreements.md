@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 36fcb415c6d6dbe125570be932f223d4300d518a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 580a2b248b43ccac272b95656207439a8e02cc85
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772700"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438548"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrere særlige købspriser og rabatter
 > [!NOTE]
@@ -40,13 +40,13 @@ Da købslinjerabatter og købspriser er baseret på en kombination af vare og le
 
 #### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Åbn det relevante kreditorkort, og vælg derefter handlingen **Priser**.
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Udfyld en linje for hver kombination, som kreditoren yder dig en købslinjerabat for.
 
 #### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Vælg debitoren, og vælg derefter handlingen **Salgsprislister**. 
 3. Vælg **Ny** for at oprette en ny købsprisliste.
 4. Udfyld felterne efter behov i oversigtspanelerne **Generelt** og **Skat**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,7 +59,7 @@ Da købslinjerabatter og købspriser er baseret på en kombination af vare og le
 ---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Sådan oprettes en linjerabat for en kreditor
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Åbn det relevante kreditorkort, og vælg derefter handlingen **Linjerabatter**.
 
     Feltet **Indkøbstype** er på forhånd udfyldt med **Kreditor**, og feltet **Indkøbskode** er på forhånd udfyldt med kreditornummer.
@@ -69,7 +69,7 @@ Da købslinjerabatter og købspriser er baseret på en kombination af vare og le
 ## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Sådan oprettes en fakturarabat for en kreditor
 Når dine kreditorer har oplyst, hvilke fakturarabatter de yder, skal du angive fakturarabatkoden på kreditorkortene og definere betingelserne for hver kode.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Åbn kreditorkortet for en kreditor, der kan ydes mængderabat til.
 3. Vælg en kode i feltet **Fakturarabatkode** for de fakturarabatbetingelser, som skal bruges til automatisk beregning af fakturarabat til kreditoren.
 
@@ -90,7 +90,7 @@ Når du bogfører en købsfaktura, som der ydes en eller to rabatter på, kan du
 
 Før du kan gøre dette, skal du allerede have oprettet de nødvendige konti til bogføring af rabatbeløb i kontoplanen. Du skal også kontrollere, at du har angivet de korrekte kontonumre i bogføringsopsætning i felterne **Købslinjerabatkonto** og **Købsfakturarabatkonto**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsopsætning**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Købsopsætning** og derefter vælge det relaterede link.
 2. Vælg et af følgende bogføringsmetoder i feltet **Bogføring med rabat**.
 
 |**Metode til bogføring af rabat**|**Fakturarabat**|**Linjerabat**|  

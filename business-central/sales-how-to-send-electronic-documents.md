@@ -1,6 +1,6 @@
 ---
 title: Sende elektroniske dokumenter
-description: Lær, hvordan du sender fakturaer elektronisk.
+description: Få mere at vide om, hvordan du bruger Business central til at sende elektroniske fakturaer og kreditnotaer i PEPPOL.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8056aa66531740634fb155e0b3b4419a7f014ffc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: abfc8b77ed4b6cc748898e8d4af8f68e036b468e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778368"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440274"
 ---
 # <a name="send-electronic-documents"></a>Sende elektroniske dokumenter
 
@@ -27,7 +27,7 @@ Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] underst�
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Sådan sendes en elektronisk salgsfaktura
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 
 2. Opret en ny salgsfaktura.  
 

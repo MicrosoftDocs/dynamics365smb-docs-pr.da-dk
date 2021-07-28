@@ -1,6 +1,6 @@
 ---
-title: Gennemgang - Administration af projekter med sager | Microsoft Docs
-description: Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager. Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer og holde styr på de forskellige omkostninger, der er forbundet med ressourcerne på et bestemt projekt. Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, du ønsker at spore, efterhånden som en sag skrider frem.
+title: Gennemgang - Administration af projekter med sager
+description: Denne gennemgang introducerer funktionerne til projektstyring i opgaver, som giver dig mulighed for at planlægge brugen af virksomhedens ressourcer og meget mere.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0d65485275ce4e7516a0b19aafa609429b8d7616
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 4b4be8dfa382424258100973af0d0e647b21b0f6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214724"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439039"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gennemgang: Administration af projekter med sager
 
@@ -77,7 +77,7 @@ Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designe
 
 ### <a name="to-prepare-the-sample-data"></a>Sådan klargøres eksempeldataene  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ressourcer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.  
 2.  Klik på handlingen **Ny** for at oprette et nyt ressourcekort.  
 3.  Indtast følgende oplysninger i oversigtspanelet **Generelt**:  
 
@@ -100,7 +100,7 @@ I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes
 
 ### <a name="to-create-a-job-journal-batch"></a>Sådan oprettes et sagskladdenavn  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Kladdenavn** på siden **Sagskladde**. Siden **Kladdenavn** åbnes.  
 3.  Vælg handlingen **Ny** for at oprette en ny linje med følgende oplysninger:  
 
@@ -115,7 +115,7 @@ I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes
 
 ### <a name="to-set-up-a-job"></a>Sådan oprettes en sag  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  Klik på handlingen **Ny** for at oprette et nyt kort.  
 3.  Indtast følgende oplysninger i oversigtspanelet **Generelt**:  
 
@@ -208,7 +208,7 @@ I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes
 
 ### <a name="to-calculate-remaining-usage"></a>Sådan beregnes resterede forbrug  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2.  På siden **Sagskladde** og feltet **Kladdenavn**, skal du åbne listen **Job Journals Batch**. Vælg sagskladden **Tina**.  
 3.  Vælg handlingen **Beregn resterende forbrug**.  
 4.  Vælg **Sagsnr.** i oversigtspanelet **Sagsopgaver** på siden **Beregn resterende forbrug for sag**, og vælg det relevante sagsnummer, typisk job J00010.  
@@ -225,7 +225,7 @@ Linjerne er nu bogført.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Sådan oprettes en sagssalgsfaktura  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  Vælg den sag, du oprettede tidligere, og vælg derefter handlingen **Opret salgsfaktura**.  
 3.  Fjern alle filtre på **Sagsopgavenr.** i oversigtspanelet **Sagsopgave** for at fakturere sagen. Vælg det relevante job i feltet **Sagsnr.**.  
 4.  Udfyld bogføringsdatoen, og angiv, om du vil oprette én faktura pr. opgave eller kun én enkelt faktura for alle opgaver, i oversigtspanelet **Indstillinger**.  
@@ -235,7 +235,7 @@ Linjerne er nu bogført.
 
 ### <a name="to-post-a-new-sales-invoice"></a>Sådan bogføres en ny salgsfaktura  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2.  Åbn fakturaen til kunde nr. 01445544. Du kan se de oplysninger, der er indtastet fra planlægningslinjerne.  
 3.  Vælg handlingen **Bogfør**. Vælg **Ja** for at bekræfte bogføringen.  
 
@@ -249,7 +249,7 @@ Linjerne er nu bogført.
 
 ### <a name="to-open-the-statistics-page"></a>Sådan åbner du siden Statistik  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Statistik**. Du kan gennemgå detaljerede oplysninger om sagspriser, omkostninger og avancer i både lokale og udenlandske valutaer.  
 3.  Vælg knappen **Luk** for at lukke siden **Sagsstatistik**.  
 
@@ -258,7 +258,7 @@ Linjerne er nu bogført.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Sådan håndteres faste priser i sager  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2. Vælg sagsnummeret **Svend Hansen Møbler**, og vælg derefter handlingen **Sagsopgavelinjer**.  
 3. Vælg linje 1120, og højreklik på beløbet i feltet **Budget (kostpris)**, og vælg **Specificer**.  
 
@@ -278,7 +278,7 @@ Når Tina har føjet budgettet til denne opgavelinje, arbejder hun 25 timer på 
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Sådan angives timer i sagskladden  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2. Angiv følgende oplysninger på en ny linje:  
 
     - **Linjetype**: **(tom)**  
@@ -339,7 +339,7 @@ På siden **Kopier sag** kan du vælge sagen og de opgavelinjer, du vil kopiere.
 
 ### <a name="to-copy-a-job"></a>Sådan kopieres en sag  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2. Klik på handlingen **Ny** for at oprette en ny sag. Angiv følgende oplysninger:  
 
     - **Beskrivelse**: **Opsætning til 10 konferencerum**  
@@ -365,7 +365,7 @@ CRONUS har lige fået et stort projekt hjem, der vil tage mere end et år at gen
 
 ### <a name="to-set-up-a-new-account"></a>Sådan oprettes et nyt konto  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. På siden **Kontoplan** skal du vælge handlingen **Ny** for at oprette et nyt kort.  
 3. Indtast følgende oplysninger på kortet **Ny finanskonto**:  
 

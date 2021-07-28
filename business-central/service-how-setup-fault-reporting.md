@@ -1,6 +1,6 @@
 ---
-title: Konfigurere fejlrapportering i Service | Microsoft Docs
-description: Få at vide, hvordan du konfigurerer fejlrapporteringsprocesser.
+title: Opsætte fejlrapportering i Service Management
+description: Med Fejlrapportering kan du angive standarder for registrering af oplysninger om fejl på serviceartikler med fejlkoder osv.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: cc4f646e8bd01425be99944ad4b013dfbd570787
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b3563d840976b6a3c586e5a75a2f76379e8c5526
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773726"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440124"
 ---
 # <a name="set-up-fault-reporting"></a>Konfigurere fejlrapportering
 Med Fejlrapportering kan du angive standarder for registrering af oplysninger om fejl på serviceartikler. F.eks. kan du angive, hvad problemet er, de symptomer, du ser, årsagen til problemet, og hvordan det løses.  
 
 Fejlkoder angiver de typiske serviceartikelfejl eller de handlinger, der udføres på serviceartikler. Det afhænger af niveauet for fejlrapporteringen i din virksomhed, om du evt. blive nødt til at definere fejlområdekoder og symptomkoder, inden du definerer fejlkoder. Fejlområder beskriver områder med serviceartikelfejl. Fejlårsagskoder beskriver årsagen til serviceartikelfejl og om nødvendigt, om garanti- og kontraktrabatter skal udelukkes. Hvis kunden f.eks. er ansvarlig for fejlen på serviceartiklen, vil der evt. være behov for at udelukke garanti- og kontraktrabatter. Du tildeler fejlårsagskoder til serviceordrer. Du kan finde flere oplysninger i [Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md).  
 
-## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Sådan angives det generelle fejlrapporteringsniveau, der skal bruges
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceopsætning**, og vælg derefter det relaterede link.
+## <a name="to-specify-the-overall-level-of-fault-reporting"></a>Sådan angives det generelle fejlrapporteringsniveau
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceopsætning** og vælg derefter det relaterede link.
 2. I feltet **Fejlrapporteringsniveau** skal du vælge en af de indstillinger, der er beskrevet i følgende tabel.  
 
     |**Fejlniveau**|**Beskrivelse**|  
@@ -39,7 +39,7 @@ Når du skal færdiggøre opsætningen af fejlrapportering, kan du også angive,
 <!--this needs to go in a working with topic-->
 Du skal samle oplysninger sammen vedr. fejl/løsningskoderelationer, så du kan se de mest almindelige reparationsmetoder for bestemte varefejl, når du reparerer varerne. Brug kørslen **Indsæt fejl/løsningsrelationer** til at finde alle kombinationerne af fejl- og løsningskoder i bogførte serviceordrer, og registrer dem på siden **Fejl/løsn.koderelationer**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indsæt fejl/løsningsrelationer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indsæt fejl/løsningsrelationer**, og vælg derefter det relaterede link.  
 2. Angiv datoer for at definere den periode, du vil have med i kørslen.  
 3. Marker afkrydsningsfeltet **Relation baseret på serviceartikelgrp.**, hvis du vil gruppere relationerne efter serviceartikelgruppe.  
 4. Markér afkrydsningsfeltet **Bevar manuelt indsat post**, hvis du vil bevare de poster, du allerede har indsat manuelt på siden **Fejl/løsn.koderelationer**.  

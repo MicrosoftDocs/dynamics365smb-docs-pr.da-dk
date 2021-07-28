@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 90d04a6f951c3312f88f536bfab680bcd071de63
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781934"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438598"
 ---
 # <a name="create-production-order-headers"></a>Oprette produktionsordrehoveder
 Du kan oprette en produktionsordre manuelt, og det første trin i denne procedure er at oprette et produktionsordrehoved.
@@ -25,7 +25,7 @@ Produktionsordrer oprettes typisk automatisk af en planlægningsfunktion til opf
 I proceduren nedenfor oprettes en fastlagt produktionsordre. Du kan også oprette produktionsordrer med en anden status.  
 
 ## <a name="to-create-a-production-order-header"></a>Sådan oprettes et produktionsordrehovede  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  I feltet **Nummer** skal du indsætte næste nummer i serien.  
 4.  Marker kilden til produktionsordren i feltet **Kildetype**.

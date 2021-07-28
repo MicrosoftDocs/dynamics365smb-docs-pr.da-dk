@@ -1,6 +1,6 @@
 ---
 title: Sådan oprettes en behovsprognose
-description: Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.
+description: Få mere at vide om funktionen forecast i Business central, og hvordan du kan oprette salgs-og produktionsforecasts.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779324"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438683"
 ---
 # <a name="create-a-demand-forecast"></a>Oprette en behovsprognose
 Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.  
@@ -62,7 +62,7 @@ Overvej dette eksempel: Virksomheden køber og sælger varer på to lokationer: 
 Derefter skal du oprette en salgsordre med et antal på 12 på lokationen WEST. Planlægningssystemet vil foreslå, at du gør følgende:
 
 - Genopfyld 10 enheder for lokation EAST, baseret på data fra din forecast.  
-- Genopfyld 12 enheder for lokationen WEST ud fra salgsordren. De 4 stk., der blev angivet i din forecast, forbruges fuldt ud af det faktiske behov fra salgsordren. Hvis du ønsker yderligere oplysninger, kan du se [Forecastbehov reduceres af salgsordrer](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Genopfyld 12 enheder for lokationen WEST baseret på salgsordren. De fire stk., der blev angivet i din forecast, forbruges fuldt ud af det faktiske behov fra salgsordren. Hvis du ønsker yderligere oplysninger, kan du se [Forecastbehov reduceres af salgsordrer](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  Hvis du får vist lokationsbaserede forecasts enkeltvis, skal du være opmærksom på, at det ikke er sikkert, at den overordnede forecast i så fald giver et korrekt billede.
@@ -85,7 +85,7 @@ Derefter skal du oprette en salgsordre med et antal på 12 på lokationen WEST. 
 
 ## <a name="to-create-a-demand-forecast"></a>Sådan oprettes en behovsprognose
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Behovsprognose**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Behovsprognose**, og vælg derefter det relaterede link.  
 2. Vælg på oversigtspanelet **Generelt** en prognose i feltet **Navn på behovsprognose**. Hvis der er flere forecasts i systemet, kan du skelne imellem dem vha. navnet og forecasttypen.  
 3. Vælg i feltet **Lokationsfilter** den lokation, som dette forecast skal gælde for.
 4. I feltet **Vis efter** for at ændre den periode, der vises i hver kolonne. Du kan vælge mellem følgende intervaller: **Dag**, **Uge**, **Måned**, **Kvartal**, **År** eller **Regnskabsperiode**, som opsætning i finansområde.    

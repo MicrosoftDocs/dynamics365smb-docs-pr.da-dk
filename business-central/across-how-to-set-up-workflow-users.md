@@ -1,6 +1,6 @@
 ---
-title: Sådan konfigurerer du brugere til arbejdsgange | Microsoft Docs
-description: Før du kan oprette arbejdsgange, skal du konfigurere de brugere, der indgår i arbejdsgangene. Dette er nødvendigt f.eks. for at angive, hvem der skal modtage en besked om at udføre trin i en arbejdsgang.
+title: 'Fremgangsmåde: Oprette brugere til arbejdsgange'
+description: Før du kan oprette arbejdsgange, skal du konfigurere de brugere, der indgår i arbejdsgangen på siden med brugergruppe.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9c0b7d79f59d2d59d2d382e3dc602769f41ac1f0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774632"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439916"
 ---
 # <a name="set-up-workflow-users"></a>Oprette brugere til arbejdsgange
 
@@ -32,7 +32,7 @@ Workflowbrugere, der fungerer som godkendelsesbrugere, både godkendelsesanmoder
 
 ## <a name="to-set-up-a-workflow-user"></a>Sådan oprettes en arbejdsgangsbruger
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugergrupper for workflow**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsflow brugergrupper**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Siden **Brugergruppe for workflow** åbnes.  
 3. I feltet **Kode** skal du angive op til 20 tegn for at identificere workflowet.  
 4. I feltet **Beskrivelse** skal du beskrive workflowet.  

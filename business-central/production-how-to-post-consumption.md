@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b3ee6ca54e21605b4e9cf340b04656694c9801e
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 2f31c7f48e88a44eb3f437827b6b24f255180d9a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935182"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440424"
 ---
 # <a name="batch-post-production-consumption"></a>Massebogføre produktionsforbrug
 
@@ -28,7 +28,7 @@ Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til auto
 
 ## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Sådan bogføres forbrug for en eller flere produktionsordrelinjer
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forbrugskladde**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forbrugskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne med produktionsordredata og forbrugsdata. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Brug handlingen **Beregn forbrug** til at generere kladdelinjer fra produktionsordrer, der er baseres på den aktuelle afgang (mængden af færdige varer, der er rapporteret), eller den forventede afgang (mængden af færdige varer, du forventer at producere).

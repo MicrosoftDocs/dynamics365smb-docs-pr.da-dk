@@ -1,6 +1,6 @@
 ---
 title: Konfigurere godkendelsesbrugere
-description: Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive workflowbrugere, der er involveret i godkendelsesprocessen. På siden Konfiguration af godkendelsesbruger skal du også angive beløbsgrænser for bestemte typer anmodninger og angive stedfortrædende godkendere, som godkendelsesanmodninger skal uddelegeres til, når den oprindelige godkender er fraværende.
+description: Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive workflowbrugere, der er involveret i godkendelsesprocessen med opsætning af godkendelser.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5eaa2daf8321adf65275bf4e0cd21ee1f4cb29fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fcf106941c59cd4cb510a9443eac1d50612e15b7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787253"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439197"
 ---
 # <a name="set-up-approval-users"></a>Konfigurere godkendelsesbrugere
 
@@ -31,7 +31,7 @@ Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive wor
 
 ## <a name="to-set-up-an-approval-user"></a>Sådan konfigureres en godkendelsesbruger
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Godkendelse af brugerkonfiguration**, og vælg derefter det relaterede link.  
 2. Opret en ny linje på siden **Konfiguration af godkendelsesbruger**, og udfyld felterne som beskrevet i følgende tabel.  
 
     |Felt|Beskrivelse|  

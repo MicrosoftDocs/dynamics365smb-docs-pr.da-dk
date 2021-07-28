@@ -1,6 +1,6 @@
 ---
-title: Sådan oprettes ruter | Microsoft Docs
-description: En rute indeholder stamdata, som beskriver procesbehovene for en bestemt fremstillet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens rute planlægningen af handlinger, som repræsenteret på siden Prod.ordrerute under produktionsordren.
+title: 'Fremgangsmåde: Oprette ruter'
+description: Dette emne indeholder en oversigt over de forskellige måder, du kan oprette ruter på, herunder nødvendige forudsætninger og oprettelse af rutebindinger.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 40c3a8b938e2d4fa07ae0f5794443d659b06e2e2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0ebd8d0c264dde17522eae3c8a6f718b485ec7f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779299"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439841"
 ---
 # <a name="create-routings"></a>Oprette ruter
 
@@ -32,7 +32,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 
 ## <a name="to-create-a-routing"></a>Sådan oprettes en rute
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rute**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg **Seriel** i feltet **Type** for at beregne produktionsruten i henhold til værdien i feltet **Operationsnr.**. .  
@@ -64,7 +64,7 @@ Du kan oprette rutebindinger til at knytte komponenter til bestemte operationer 
 
 En anden vigtig fordel er, at bundne komponenter og operationer vises i en logisk processtruktur, når siden **Produktionskladde** bruges til bogføring af afgang og forbrug.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rute**, og vælg derefter det relaterede link.  
 2. Åbn ruten, der indeholder de handlinger, som du vil tilknytte.  
 
     Kontroller, at rutens status er **Under udvikling**.  
@@ -96,7 +96,7 @@ De valgte komponenter knyttes nu til de valgte operationer, når du opretter ell
 
 Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller særlige tilladelser til en operation, kan du knytte dem til operationen her. Du kan også tildele værktøjer og kvalitetskrav til operationen. Denne procedure beskriver, hvordan du tildeler medarbejdere. Trinene er de samme for andre typer operationsoplysninger.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rute**, og vælg derefter det relaterede link.  
 2. Åbn den relevante rute.  
 3. På oversigtspanelet **Linjer** skal du markere den linje, du vil behandle, vælge **Operationer** og derefter vælge handlingen **Medarbejdere**.  
 4. Udfyld felterne på siden **Rute - Mandskab**.  
@@ -106,7 +106,7 @@ Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller sæ
 
 Versionsprincippet gør det muligt for dig at styre flere versioner af en rute. Ruteversionens struktur svarer til rutens struktur, og den består af ruteversionshovedet og -linjerne. Den egentlige forskel består i startdatoen.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rute**, og vælg derefter det relaterede link.  
 2. Vælg den rute, der skal kopieres, og vælg derefter handlingen **Versioner**.  
 3. På siden **Ruteversioner** skal du vælge handlingen **Ny**.
 4. Udfyld felterne efter behov.

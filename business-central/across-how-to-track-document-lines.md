@@ -1,6 +1,6 @@
 ---
-title: Sådan spores ordrelinjer til relaterede dokumenter | Microsoft Docs
-description: Du kan se dokumenter, der er relateret til salgsordrelinjer og indkøbsordrelinjer, herunder fra arkiverede ordrelinjer. Relaterede dokumenter, som du kan spore omfatter tilbud, leverancer, modtagelser og rammeordrer. Dette hjælper dig med at identificere dokumenter, der bruges til at behandle ordrer.
+title: Sådan spores dokumenter, der er relateret til en salgsordrelinje
+description: Få vist dokumenter med relation til salgs-og indkøbsordrelinjer, f. eks. tilbud, leverancer, modtagelser og rammeordrer for at identificere dokumenter, der bruges til at behandle ordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8f795c5c6d33e6b2609ff91bdf196ad82ba71f9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4c469d3f521e526f3c121da5bf8265fc92f01289
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774582"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439891"
 ---
 # <a name="track-document-lines"></a>Spor dokumentlinjer
 Du kan se dokumenter, der er relateret til salgsordrelinjer og indkøbsordrelinjer, herunder fra arkiverede ordrelinjer. Relaterede dokumenter, som du kan spore omfatter tilbud, leverancer, modtagelser og rammeordrer. Dette hjælper dig med at identificere dokumenter, der bruges til at behandle ordrer.  
@@ -23,7 +23,7 @@ Du kan se dokumenter, der er relateret til salgsordrelinjer og indkøbsordrelinj
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>Sådan spores dokumenter, der er relateret til en salgsordrelinje
 Nedenstående procedure beskriver, hvordan du sporer fra en salgsordrelinje. Trinene er de samme for købsordre- og rammeordrelinjer.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Åbn en salgsordre, som du vil spore fra.  
 3.  Vælg en linjen, og vælg derefter handlingen **Bilagslinjesporing**.
 4. På siden **Bilagslinjesporing** skal du vælge det dokument, du vil have vist, og derefter vælge handlingen **Vis** for at få vist den relaterede linje.

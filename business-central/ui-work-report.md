@@ -1,5 +1,5 @@
 ---
-title: Planlægge en rapport til kørsel på en bestemt dato og et bestemt klokkeslæt | Microsoft Docs
+title: Arbejde med rapporter, kørsler og XMLporte
 description: Få mere at vide om, hvordan du angiver en rapport i en opgavekø og planlægger, at den skal afvikles på en bestemt dato og tidspunkt.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,28 +7,28 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: task, process, report
-ms.date: 04/01/2021
+ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
+ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 81df1625531b3b4c5bf1a55a9e09d37af8b6f7fe
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782980"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439946"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbejde med rapporter, kørsler og XMLporte
 
-En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse, og som du kan udskrive eller gemme som en fil. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
+En rapport indsamler oplysninger baseret på et nærmere angivet sæt kriterier. Den organiserer og præsenterer oplysninger i det læsevenlige format, som du kan udskrive eller gemme som en fil. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
 
-Kørsler og XMLporte udfører mere eller mindre det samme som rapporter, men med henblik på at udføre en proces eller eksportere data. F.eks. opretter kørslen **Opret rykkere** rykkerdokumenter til debitorer med forfaldne betalinger.  
+Kørsler og XMLporte udfører mere eller mindre det samme som rapporter, men som bruges med henblik på at udføre en proces eller eksportere data. F.eks. opretter kørslen **Opret rykkere** rykkerdokumenter til debitorer med forfaldne betalinger.  
 
 > [!NOTE]
 > I dette emne omtales hovedsageligt "rapport", men lignende oplysninger gælder for kørsler og XMLporte.
 
 ## <a name="getting-started"></a>Introduktion
 
-Du kan finde rapporter under fanen **Rapporter** på markerede sider, eller du kan bruge søgefunktionen ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") til at finde rapporter efter navn.
+Du kan finde rapporter under fanen **Rapporter** på markerede sider, eller du kan bruge søgefunktionen ![Elpære, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") for at finde rapporter efter navn.
 
 Når du åbner en rapport, en kørsel eller XMLport, får du typisk vist en anmodningsside, hvor du kan angive forskellige indstillinger og filtre, som bestemmer, hvad der skal med i rapporten. I følgende afsnit forklares det, hvordan du kan bruge anmodningssiden til at oprette, få vist og udskrive en rapport.
 
@@ -43,7 +43,7 @@ feltet **Brug standardværdier fra** giver en hurtig og pålidelig metode til at
 >[!NOTE]
 > De foruddefinerede indstillinger konfigureres typisk og administreres af en administrator. Der er flere oplysninger i [Administrere gemte indstillinger for rapporter og kørsler](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-reports"></a>Angive de data, der skal medtages i rapporter
+## <a name="specifying-the-data-to-include-in-reports"></a>Angive dataene, der skal medtages i rapporter
 
 Brug felterne under **Indstillinger** og **Filtre** til at ændre grænsen for de oplysninger, du vil have i rapporten. Du kan angive filtre i en rapport mere eller mindre på samme måde, som du angiver filtre på lister. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#filtering).
 
@@ -63,7 +63,7 @@ Hvis du vil se et eksempel på en rapport, skal du vælge knappen **Eksempelvisn
 > [!NOTE]
 > Hvis du bruger Business Central 2020 udgivelsesbølge 1 eller ældre, vises kun knappen **Vis udskrift**, som lukker anmodningssiden ved eksempelvisning, som beskrevet for **Vis udskrift og luk**.
 
-### <a name="working-with-the-preview"></a>Arbejde med eksempelvisning
+### <a name="working-with-the-preview"></a>Arbejde med forhåndsversion
 
 Brug menulinjen i rapporteksemplet til at:
 
@@ -72,7 +72,7 @@ Brug menulinjen i rapporteksemplet til at:
 - Tilpasse til siden
 - Vælg tekst
 
-    Du kan kopiere tekst fra en rapport og derefter indsætte den et andet sted, f.eks. som en side i [!INCLUDE[prod_short](includes/prod_short.md)] eller Microsoft Word.  Ved hjælp af musen f.eks., skal du trykke og holde nede på det sted, hvor du vil starte, og derefter bevæge musen for at markere et eller flere ord, sætninger eller afsnit. Tryk på højre museknap, og vælg **Kopiér**. Indsæt den markerede tekst, hvor du ønsker.
+    Du kan kopiere tekst fra en rapport og derefter indsætte den et andet sted, f.eks. som en side i [!INCLUDE[prod_short](includes/prod_short.md)] eller Microsoft Word.  Hvis du bruger en mus, skal du f. eks. trykke på knappen og holde den nede, hvor du vil starte. Flyt derefter musen for at markere et eller flere ord, sætninger eller afsnit. Tryk på højre museknap, og vælg **Kopiér**. Indsæt den markerede tekst, hvor du ønsker.
 - Panorer over dokumentet
 
     Du kan flytte det synlige område af rapporten i en vilkårlig retning, så du kan se andre områder eller rapporten. Panorering er nyttigt, når du har zoomet ind for at få vist detaljer.  Ved hjælp af musen f.eks. skal du trykke på og holde museknappen nede et vilkårligt sted i rapporteksemplet og derefter bevæge musen.
@@ -80,9 +80,65 @@ Brug menulinjen i rapporteksemplet til at:
 - Hent til en PDF-fil på din computer eller netværket.
 - Udskriv
 
-## <a name="saving-a-report"></a>Gemme en rapport
+## <a name="saving-a-report-to-a-file"></a>Gemme en rapport i en fil
 
-Du kan gemme en rapport som et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument ved at vælge knappen **Send til**, og derefter vælge den ønskede indstilling.
+Du kan gemme en rapport som et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-arbejdsark ved at vælge knappen **Send til**, og derefter vælge den ønskede indstilling.
+
+### <a name="send-to-excel"></a>Send til Excel
+
+<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+
+|Option  |Description  |
+|---------|---------|
+|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
+|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
+
+Der er to indstillinger til at gemme rapportresultaterne som et regneark i en Excel-projektmappe: **Microsoft Excel-dokument (data og layout)** og **Microsoft Excel-dokument (kun data)**
+
+#### <a name="microsoft-excel-document-data-and-layout"></a>[Microsoft Excel-dokument (data og layout)](#tab/data-and-layout)
+
+Denne indstilling er kun tilgængelig i rapporter, der bruger et RDLC layout. Den eksporterer rapportresultaterne med det RDLC layout. Brug denne indstilling, hvis du vil eksportere dataene én gang og kun vil foretage mindre ændringer af dens udseende, f. eks. skrifttype og farveskema.
+
+#### <a name="microsoft-excel-document-data-only"></a><a name="exportdataonly"></a>[Microsoft Excel-dokument (kun data)](#tab/data-only)
+
+**Microsoft Excel-dokument (kun data)** eksporterer rapportresultaterne og de kriterier, der blev brugt til at oprette dem, men som ikke omfatter rapportlayoutet. Excel-filen vil indeholde hele datasættet, som rådata, arrangeret i rækker og kolonner. Alle datakolonner i rapportens datasæt medtages, uanset om de bruges i rapportlayoutet.  Brug denne indstilling, når du vil:
+
+- Foretag ad hoc-analyse af dataene. Du kan f. eks. filtrere dataene og bruge Power Pivot til at få dem vist.
+
+  Hver gang du eksporterer resultater, oprettes der et nyt regneark. Når du bruger **Microsoft Excel-dokument (kun data)** kan du udføre samme rapport og genbruge formateringsændringer. F.eks. for Power Pivot kan du køre rapporten igen i en anden tidsperiode, kopiere resultaterne til regnearket og derefter opdatere regnearket. Du kan også finde en app til rapportering på [AppSource](https://appsource.microsoft.com/).
+- Undersøg rapportens datasæt, når du opretter eller ændrer brugerdefinerede rapportlayout.
+
+  Oplysninger om oprettelse af brugerdefinerede rapportlayout finder du under [Oprette eller ændre brugerdefinerede rapport layouts](ui-how-create-custom-report-layout.md)
+- Diagnosticere dataproblemer i rapporter.
+
+##### <a name="for-administrators"></a>Til administratorer
+
+- **Microsoft Excel-dokument (kun data)** blev introduceret som en valgfri funktion i 2021 Release Wave 1, opdatering 18,3. Hvis du vil give brugere adgang til denne funktion, skal du aktivere funktionen **Gem rapportdatasæt i Microsoft Excel-dokument** i **Funktionsstyring**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management). I 2021: version Wave 2 er denne funktion permanent, så du behøver ikke at aktivere den.
+
+- Brugerkonti har brug for **<!--Export Report Dataset To Excel-->Tillad handlingseksport af rapportdatasæt til Excel** tilladelse, som du kan anvende ved hjælp af tilladelsessættet **Fejlfinding** eller **Eksporter rapport til Excel**.  
+
+- Du kan ikke eksportere en rapport, der indeholder mere end 1,048,576 rækker eller 16.384 kolonner.
+
+    > [!NOTE]
+    > Med Business Central lokalt kan det maksimale antal udlæste rækker være endnu mindre. Business central server indeholder en konfigurationsindstilling, der kaldes **Maks. antal tilladte datarækker, der kan sendes til Excel**, med henblik på at reducere grænsen fra maksimumværdien. Du kan finde flere oplysninger i [konfigurere Business central server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) eller ved at kontakte administratoren.
+
+##### <a name="for-developers-and-advanced-users"></a>For udviklere og erfarne brugere
+
+Funktionen **Microsoft Excel-dokument (kun data)** eksporterer alle kolonner, herunder kolonner, der indeholder filtre og oplysninger om formatering af andre værdier. Her er nogle af interessepunkterne:
+
+- Binære data i et felt, f. eks. et billede, eksporteres ikke.
+
+  I kolonner, der indeholder binære data, vil felter indeholde teksten **Binære data ({0} byte)**, hvor **{0}** angiver antallet af byte.
+- Fra og med Business Central 2021 Release Wave 2 indeholder Excel-filen også regnearket **Rapport-metadata**.
+
+  I dette regneark vises de filtre, der anvendes til rapporten, og de generelle rapportegenskaber, f. eks. navn, ID og udvidelsesdetaljer. Filtrene vises i kolonnen **Filter (dataelement::tabel::FilterGroupNo::feltnavn)**. Filtrene i denne kolonne indeholder filtersæt, der er angivet på rapportens anmodningsside. Den indeholder også filtre, der er defineret i AL kode, f. eks. ved at bruge [egenskaben DataItemLink](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) og [egenskaben DataItemTableView](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property).
+
+Du kan finde flere oplysninger om rapportdesign i [rapportoversigt](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
+
+---
+
+> [!NOTE]
+> Nogle rapporter eksporterer tal som tekst, hvilket forhindrer dig i at foretage beregninger eller bruge Power Pivot på celler i Excel-regnearket. Når det er eksporteret, er det en god ide at kontrollere tallene i kladden. Hvis du vil analysere og planlægger tallene, skal du ændre formatet af de relevante celler fra **tekst** til **tal**. Du kan finde flere oplysninger om formatering af tal i celler i denne video [formateringsnumre i celler i Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planlægge kørsel af en rapport
 
@@ -90,7 +146,7 @@ Du kan planlægge kørsel af en rapport på en bestemt dato og et bestemt klokke
 
 Når du planlægger en rapport til kørsel, kan du angive, at den skal køre hver torsdag, ved at angive feltet **Datoformel for næste kørsel** til f.eks. *D4*. Du kan finde flere oplysninger i [Bruge datoformler](ui-enter-date-ranges.md#using-date-formulas).  
 
-Du kan vælge at gemme den behandlede rapport i en fil, f.eks. Excel, Word eller PDF, udskrive den til den ønskede printer eller kun generere rapporten. Hvis du vælger at gemme rapporten i en fil, bliver den behandlede rapport sendt til området **Rapportindbakke** i dit rollecenter, hvor du kan se den.  
+Du kan vælge at gemme den behandlede rapport i en fil (f.eks. Excel, Word eller PDF), udskrive den til den ønskede printer eller kun generere rapporten. Hvis du vælger at gemme rapporten i en fil, bliver den behandlede rapport sendt til området **Rapportindbakke** i dit rollecenter, hvor du kan se den.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Udskrive en rapport
 

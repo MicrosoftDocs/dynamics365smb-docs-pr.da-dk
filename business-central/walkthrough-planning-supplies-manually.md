@@ -1,6 +1,6 @@
 ---
-title: Gennemgang - Manuel planlægning af forsyninger | Microsoft Docs
-description: Denne gennemgang viser processen med at planlægge forsyningsordrer til opfyldning af nye behov. Du kan starte forsyningsplanlægningen med faste intervaller, f.eks. hver morgen eller hver mandag, eller når du får besked om det af salg eller produktion, afhængigt af behovstypen.
+title: Gennemgang - Manuel planlægning af forsyninger
+description: Denne gennemgang viser, hvordan du planlægger forsyningsordrer for at opfylde nyt behov, herunder planlægning af en købs-, overflytnings-og produktionsordre.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: c1ab3c48ae09b75ab9e54e0c9fe9afd49b833f09
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214674"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438989"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gennemgang: Manuel planlægning af forsyninger
 
@@ -67,7 +67,7 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 
 ### <a name="to-use-the-order-planning-page"></a>Sådan bruges siden Ordreplanlægning  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ordreplanlægning**, og vælg derefter det relaterede link.  
 
      Når siden **Ordreplanlægning** først åbnes, skal der beregnes en plan for at få vist det nye behov, siden det sidst blev beregnet.  
 
@@ -225,7 +225,7 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 
      Meddelelsen angiver, at alle påkrævede varer nu er leveret. Kontrollér de fastlagte produktionsordrer, der er oprettet.  
 
-13. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.  
+13. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.  
 
      Se, hvordan start- og sluttiderne for de enkelte ordrer er planlagt i overensstemmelse med produktstrukturen på siden **Fastlagte prod.ordrer**. Komponenterne til de laveste niveauer i strukturen produceres først. Derfor skal du planlægge ordrer med flere niveauer som vist i denne planlægningsprocedure.  
 

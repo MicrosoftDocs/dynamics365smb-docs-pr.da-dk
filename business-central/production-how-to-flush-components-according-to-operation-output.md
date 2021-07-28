@@ -1,6 +1,6 @@
 ---
 title: Udtrække komponenter i henhold til operationsafgang
-description: For varer, der er konfigureret med baglæns trækmetode, er standardfunktionsmåden at beregne og bogføre komponentforbrug, når du ændrer status på en frigivet produktionsordre til Afsluttet.
+description: Dette emne beskriver, hvordan du tømmer komponenter i henhold til operationsafgang samt andre trækmetoder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115861"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439089"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Udtrække komponenter i henhold til operationsafgang
 Du kan definere forskellige trækstrategier for at automatisere registrering af forbruget af komponenter. 
@@ -91,18 +91,18 @@ Hvis f.eks. en produktionsordre om at fremstille 800 meter kræver 8 kg af en ko
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Udtrække komponenter i henhold til operationsafgang
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Rediger**.  
 3.  Vælg **Baglæns** i feltet **Trækmetode** i oversigtspanelet **Genbestilling**.  
 
     > [!NOTE]  
     >  Vælg **Pluk + Baglæns**, hvis komponenten bruges på en lokation, der er sat op til styret læg-på-lager og pluk.  
 
-4.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ruter**, og vælg derefter det relaterede link.  
+4.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rute**, og vælg derefter det relaterede link.  
 5.  Definer rutebindingskoder for hver operation, der bruger komponenten. Du kan finde flere oplysninger i [Oprette ruter](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Brug ikke samme link til rutebinding for forskellige operationer i ruten, da det vil medføre registrering af komponentforbrug for hver tilknyttet operation.  
-6.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionsstykliste**, og vælg derefter det tilknyttede link.  
+6.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Produktionsstykliste**, og vælg derefter det relaterede link.  
 7.  Definer rutebindingskoder fra hver forekomst af komponenten til den operation, hvor den forbruges.
 
 Forbruget bogføres automatisk, når du registrerer afgang. Du kan finde flere oplysninger i [Massebogføre afgang og operationstider](production-how-to-post-output-quantity.md)

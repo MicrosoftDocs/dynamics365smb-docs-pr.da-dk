@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6f519df1cdc04aab1b6b1fa75154aa5b3667d7a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3fbf2905f20f1f19fc3bd6fb315e63f9944528b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783155"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439973"
 ---
 # <a name="manage-notifications"></a>Administrere notifikationer
 
@@ -32,7 +32,7 @@ Desuden kan du ved nogle notifikationer angive, hvilke betingelser de skal sende
 
 Det er kun dig, der kan aktivere eller deaktivere notifikationer og angive betingelser.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter vælge handlingen **Mine indstillinger**.  
+1. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter vælge handlingen **Mine indstillinger**.  
 2. På siden **Mine indstillinger** skal du i feltet **Notifikationer** vælge *Ændr, når jeg modtager notifikationer*. link.  
 3. Aktiver eller fjern markeringen i afkrydsningsfeltet **Aktiveret** på den side, der vises.  
 4. Hvis du vil angive betingelser, der skal udløse en notifikation, skal du vælge linket **Vis filterdetaljer** og derefter udfylde felterne.  

@@ -1,6 +1,6 @@
 ---
-title: SEPA Direct Debit i Business Central | Microsoft Docs
-description: Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet.
+title: SEPA-direkte debitering i Business Central
+description: Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet med kundens samtykke.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f18bc08a6bb0a2581c8e0983ffa029c07a34cb64
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d39b30fbe625cd92b85bf8055673fa651242007e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786344"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439506"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Indhente betalinger med SEPA Direct Debit
 Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet med kundens samtykke.  
@@ -46,12 +46,12 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 * Konfigurer den Direct Debit-betalingsaftale, der afspejler din aftale med kunden om opkrævning af deres betalinger i en bestemt periode i aftalen.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Sådan konfigureres din bankkonto til SEPA-Direct Debit  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.  
 2. Åbn den bankkonto, du vil bruge til Direct Debit.  
 3. I oversigtspanelet **Overfør** i feltet **SEPA Direct Debit-format** skal du vælge indstillingen for SEPA Direct Debit.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Sådan konfigureres kundens betalingsform til SEPA-Direct Debit  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingsformer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsformer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Definer en betalingsform. Udfyld de Direct Debit\-specifikke felter som beskrevet i følgende tabel.  
 
@@ -64,13 +64,13 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
     >  Angiv ikke en værdi i feltet **Kontonr.**.  
 
 4. Vælg knappen **OK** for at lukke siden **Betalingsformer**.  
-5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder**, og vælg derefter det relaterede link.  
+5. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 6. Åbn kortet for den kunde, som du vil konfigurere til SEPA Direct Debit-opkrævning.  
 7. Vælg feltet **Betalingsformskode**, og vælg derefter den betalingsformskode, du har angivet i trin 3.  
 8. Gentag trin 6 og 7 for alle de debitorer, som du vil konfigurere til SEPA Direct Debit-opkrævning.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Sådan konfigureres den Direct Debit-betalingsaftale, der repræsenterer kundeaftalen  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 2. Åbn kortet for den kunde, som du vil konfigurere til SEPA Direct Debit.  
 3. Vælg handlingen **Bankkonti**.  
 4. På siden **Debitors bankkontooversigt** skal du vælge den debitorbankkonto, som skal bruge Direct Debiter, og derefter vælge handlingen **Direct Debit-betalingsaftaler** under fanen Startside i gruppen Proces.  
@@ -99,7 +99,7 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 
 ### <a name="to-create-a-direct-debit-collection"></a>Sådan oprettes en direkte debiteringsopkrævning  
 
- 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Direct Debit-opkrævninger**, og vælg derefter det relaterede link.  
+ 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Direct Debit-opkrævninger**, og vælg derefter det relaterede link.  
  2. På siden **Direct Debit-opkrævninger** skal du vælge handlingen **Opret Direct Debit-opkrævning**.  
  3. På siden **Opret Direct Debit-opkrævning** skal du udfylde felterne som beskrevet i følgende tabel.  
 
@@ -145,7 +145,7 @@ Der føjes en Direct Debit-opkrævning til siden **Direct Debit-opkrævninger**,
  Du kan bogføre betalingskvitteringen direkte fra siden **Direct Debit-opkrævninger** eller siden **Poster i Direct Debit-opkrævning**. Alternativt kan du overføre arbejdet til en anden bruger ved at udarbejde de relaterede kladdelinjer.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Sådan bogføres en betalingskvittering i Direct Debit fra siden Direct Debit-opkrævninger  
- 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Direct Debit-opkrævninger**, og vælg derefter det relaterede link.  
+ 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Direct Debit-opkrævninger**, og vælg derefter det relaterede link.  
  2. Vælg en linje for en Direct Debit-opkrævning, der er eksporteret til en bankfil og er blevet behandlet af banken.
  3. Vælg handlingen **Bogfør betalingskvitteringer**.  
  4. På siden **Bogfør Direct Debit-opkrævning** skal du udfylde felterne som beskrevet i følgende tabel.  

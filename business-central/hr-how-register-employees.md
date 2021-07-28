@@ -1,6 +1,6 @@
 ---
-title: Konfigurere medarbejdere og redigere oplysninger | Microsoft Docs
-description: Beskriver, hvordan du registrerer nyt personale eller redigerer oplysninger om eksisterende personale.
+title: Konfigurere medarbejdere og redigere oplysninger
+description: Beskriver, hvordan du bruger funktionen personale til at registrere nye medarbejdere eller redigere medarbejderoplysninger for eksisterende medarbejdere.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 30196087931f522be57cc920cd1f41d96d795399
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773810"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440545"
 ---
 # <a name="register-employees"></a>Registrere medarbejdere
 For at kunne bruge funktionaliteten Personale, skal du registrere de enkelte medarbejdere ved at oprette et kort med de grundlæggende og relaterede oplysninger.
@@ -30,14 +30,14 @@ Følgende procedurer beskriver, hvordan du opretter et indledende medarbejderkor
 > Du kan refundere medarbejdere for deres udgifter under forretningsaktiviteter. Til dette formål skal du udfylde felterne i oversigtspanelet **Betalinger** på siden **Medarbejderkort**. Du kan finde flere oplysninger i [Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Sådan oprettes en medarbejder
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Medarbejdere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. På siden **Medarbejderkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Sådan indsætte et billede af en medarbejder
 Hvis du har et billede af en medarbejder i .bmp-format, kan du indsætte det på medarbejderkortet.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Medarbejdere**, og vælg derefter det relaterede link.
 2. Åbn kortet for den relevante medarbejder.
 3. I faktaboksen **Medarbejderbillede** skal du klikke på rullelisten og derefter vælge **Indlæs**.
 4. På siden **Vælg et billede til overførsel** skal du vælge knappen **Vælg**.
@@ -50,7 +50,7 @@ På medarbejderkortet kan du angive oplysninger, som f.eks. medlemskab af fagfor
 
 Du kan bruge alternative adresser til at holde styr på medarbejdernes opholdssteder, f.eks. hvis medarbejderen er udstationeret i udlandet, er på en lang forretningsrejse eller bor på sin sommeradresse.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Medarbejdere**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Medarbejdere**, og vælg derefter det relaterede link.
 2. Åbn kortet for den relevante medarbejder.
 3. Vælg handlingen **Alternative adresser**.
 4. **På siden Alternativ adresseliste** skal du udfylde felterne efter behov.

@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 857f2f913ab2a2026df5997ac16bd59593a3d925
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96fe7c7c1f955d3c489429bf3ee64f9f3f925de7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784981"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439230"
 ---
 # <a name="using-pre-closing-reports"></a>Bruge rapporter før afslutning
 Der findes mange standardrapporter, som du kan bruge til at bekræfte nøjagtigheden af kontiene, inden du afslutter regnskaberne i slutningen af et år eller en periode. Du kan f.eks. bruge rapporten **Debitor - balance** til at bekræfte, at balancen for en debitorbogføringsgruppe er lig med balancen for den tilsvarende finanskonto på en bestemt dato.
@@ -35,7 +35,7 @@ Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne pro
 | Udskrive en råbalancerapport med saldi og bevægelser for finanskonti. |Balance |
 | Udskrive en råbalance for et konsolideret regnskab. |Konsolideret råbalance |
 
-Klik for at se en rapport, vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), skriv navnet, som det vises i tabellen, og vælg derefter det relaterede link.
+Få vist en rapport ved at vælge ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv navnet, som det vises i tabellen, og vælg derefter det relaterede link.
 
 ## <a name="see-also"></a>Se også
 [Afslutning af år og perioder](year-close-years-periods.md)  

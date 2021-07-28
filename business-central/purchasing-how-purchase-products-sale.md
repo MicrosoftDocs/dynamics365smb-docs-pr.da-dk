@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2d956b7e22e4fe079c47ca8693d717a2b451f146
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 157be841019a9b1a44f45f19fc0708ce7645d716
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772725"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440495"
 ---
 # <a name="purchase-items-for-a-sale"></a>Købe varer til et salg
 Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.
@@ -31,7 +31,7 @@ Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse 
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Sådan oprettes en eller flere købsordrer fra en salgsordre
 Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt på salgsordren, skal du bruge funktionen **Opret købsordrer**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn en salgsordre, som du vil købe varer til.
 3. Vælg handlingen **Opret købsordrer**.
 
@@ -54,7 +54,7 @@ Når du vil oprette en enkelt købsfaktura for en eller flere linjer i et salgsd
 > [!NOTE]  
 >   Denne funktion opretter en købsfaktura for det nøjagtige vareantal i det valgte salgsdokument. Hvis du vil ændre købsantallet, skal du redigere købsfakturaen, når den er oprettet.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn en salgsfaktura, som du vil købe varer til.
 3. Marker en eller flere fakturalinjer, som du vil bruge på købsfakturaen. Hvis du vil bruge alle salgsfakturalinjer, skal du enten vælge dem alle eller ikke vælge nogen linjer.
 4. Vælg handlingen **Opret købsfaktura**.

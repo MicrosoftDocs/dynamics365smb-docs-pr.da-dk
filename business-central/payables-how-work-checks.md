@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2f204daefe5ed9473d64592d67e3c4cf026bce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3f0a848e1a7011b163a92fbf5a58f4cd761ef95
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775086"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438773"
 ---
 # <a name="make-check-payments"></a>Foretage betalinger med check
 
@@ -39,7 +39,7 @@ Du kan udskrive op til 10 fakturaer på en side til en checktalon. Hvis en check
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Sådan betales en kreditorfaktura med en computercheck
 I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Fremgangsmåden er den samme, hvis du vil refundere en debitor med check.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. Udfyld betalingskladdelinjerne. Du kan finde flere oplysninger i [Registrere betalinger og refusioner](payables-how-post-payments-refunds.md).
 3. I feltet **Betalingsformkode** skal du vælge **Check**.
 4. I feltet **Bankbetalingstype** skal du vælge **Computercheck**.
@@ -67,7 +67,7 @@ Når checkbetalingen er blevet bogført, kan du kun annullere checks fra de resu
 > [!IMPORTANT]
 > Hvis checken er udlignet med en faktura, skal du fjerne markeringen først, så fakturaen kan tilbagebetales, og checken kan annulleres. Hvis checken er udskrevet og ikke har betalt en faktura, så vælg **Kun annulleringskontrol** som beskrevet i dette afsnit.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den relevante bankkonto, vælg handlingen **Rediger**, og vælg derefter handlingen **Checkposter**.
 3. På siden **Checkposter** skal du vælge handlingen **Annuller check**.
 4. Markér afkrydsningsfeltet **Kun annulleringskontrol**.
@@ -75,7 +75,7 @@ Når checkbetalingen er blevet bogført, kan du kun annullere checks fra de resu
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Sådan får du vist en oversigt over bogførte checks
 Hvis du vil gennemse bogførte checks, for eksempel for at kontrollere flere checks, der er betalt til én kreditor, kan du bruge rapporten **Bankkonto - checkoplysninger**.
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonto - checkoplysninger**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonto - checkoplysninger**, og vælg derefter det relaterede link.
 2. Angiv filtre som relevante, og vælg derefter knappen **Eksempel**.
 
 ## <a name="see-also"></a>Se også
