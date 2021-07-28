@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72fbc9b893a87107937aa27018e4f8640f6e6ecf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3bbea3277e6c0d9730c9e1925becc3cc9f27aa42
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787648"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442031"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Vise belastningen på arbejdscentre og produktionsressourcer
 På siderne **Arbejdscenterkort** og **Prod.ress.kort** kan du få vist arbejdspladsbelastningen som følge af planlagte og frigivne produktionsordrer.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Sådan vises belastningen af arbejdscentre  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdscentre**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **arbejdscentre**, og vælg derefter det relaterede link.  
 2.  Åbn det relevante **arbejdscenterkort** på listen, og vælg derefter handlingen **Belastning**.  
 
 Brug felterne **Vis efter** og **Vis som** i oversigtspanelet **Indstillinger** til at vælge den ønskede periode.  

@@ -1,6 +1,6 @@
 ---
-title: Sådan planlægges pluk i kladder | Microsoft Docs
-description: Hvis dit lagersted er sat op til at kræve både pluk- og leveringsbehandling, kan lagerstedet vælge at køre, så linjerne på forsendelsesdokumenterne ikke automatisk overføres til plukinstruktioner, men i stedet bliver tilgængelige i et arbejdsark.
+title: 'Fremgangsmåde: Planlægge pluk i kladder'
+description: Lære, hvordan lagerstedet kan vælge at køre, så linjerne på leverance dokumenterne gøres tilgængelige i plukkladden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 55ac86ff992709bb454eaadfa65d8d5eed98732e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782580"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441831"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planlægge pluk i kladder
 
@@ -39,11 +39,11 @@ Hvis du sorterer efter forfaldsdato, kan du vælge at slette alle linjer fra reg
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Sådan planlægges pluk i plukkladden
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Plukkladde**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Plukkladde**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Hent lagerdokumenter**.  
 3. Vælg de leverancer, som du vil forberede en plukliste til. Du kan nu sortere linjerne til en vis grad, men den sortering, du foretager her, videreføres ikke til plukinstruktionerne. Du kan også slette nogle af linjerne og derved oprette en mere effektiv plukliste. Hvis der f.eks. er en række linjer med varer i direkte afsendelsesplaceringer, kan du vælge at oprette pluklister til alle de linjer, der er relateret til disse linjer. Varerne i de direkte afsendelsesplaceringer forsendes sammen med de andre varer i forsendelsen, og de direkte afsendelsesplaceringer har plads til flere indkommende varer.  
 4. Vælg handlingen **Opret pluk**, og udfyld anmodningssiden **Opret pluk**. Den sortering, du anmoder om her, sorterer de pluklinjer, du opretter. Du kan f.eks. oprette en linje for hver zone og sortere linjerne efter placeringsorden inden for hvert pluk.  
-5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk (logistik)**, og vælg derefter det relaterede link. Siden **Pluk (logistik)** åbnes.  
+5. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk (logistik)**, og vælg derefter det relaterede link. Siden **Pluk (logistik)** åbnes.  
 6. Du kan nu se de pluktildelinger, du har oprettet, ved at vælge det pluk, der har det højeste nummer.  
 7. Hvis det er nødvendigt, kan du stadig ændre det tildelte bruger-id i plukket og den måde, som linjerne sorteres på..  
 8. Hvis du vil udskrive plukvejledningen, skal du vælge handlingen **Udskriv**.  
@@ -59,9 +59,9 @@ I plukkladden kan du også sortere efter leveringsadresse og derved samle og lev
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

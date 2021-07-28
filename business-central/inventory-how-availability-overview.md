@@ -1,6 +1,6 @@
 ---
-title: Få en oversigt over disponering | Microsoft Docs
-description: Du kan få vist oplysninger om varedisponeringen eller -beholdningen på tværs af lokationer pr. salg eller købshændelser, efter en periode eller efter varens placering på en montage- eller produktionsstykliste.
+title: Hent en disponeringsoversigt
+description: Du kan få vist oplysninger om varedisponeringen eller -beholdningen på tværs af lokationer pr. salg eller købshændelser, efter en periode eller lignende.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e5be238c74496ca92c0f26ef0c2a1377a6c93466
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786064"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441189"
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
 
-Du kan få vist disponeringen for alle varer pr. lokation, og du kan få vist disponeringen for hver enkelt vare ud fra hændelse, periode eller lokation. En hændelse er enhver planlagt varetransaktion, f.eks en salgsleverance eller modtagelse af en indgående overflytning.
+Du kan få vist disponeringen for alle varer pr. lokation, og du kan få vist disponeringen for hver enkelt vare ud fra hændelse eller periode. En hændelse er enhver planlagt varetransaktion, f.eks en salgsleverance eller modtagelse af en indgående overflytning.
 
 > [!NOTE]  
 >   Visninger af tilgængelighed pr. lokation kræver, at du har lager på mere end én lokation. Der er flere oplysninger i [Opsætte lokationer](inventory-how-setup-locations.md).
@@ -42,7 +42,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] bliver tilgængelighedstal typi
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Sådan får du vist tilgængeligheden for en vare, ud fra hvornår den er modtages eller leveres
 Du får vist tilgængeligheden for en vare i overensstemmelse med planlagte varetransaktioner på siden **Disponering pr. hændelse**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Hændelse**.
 
@@ -52,7 +52,7 @@ Du får vist tilgængeligheden for en vare i overensstemmelse med planlagte vare
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Sådan får du vist disponeringen for en vare i forskellige perioder
 Du får vist disponeringen for en vare over tid for angivne perioder på siden **Varedisponering pr. periode**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Periode**.
 
@@ -62,7 +62,7 @@ Du får vist disponeringen for en vare over tid for angivne perioder på siden *
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Sådan får du vist disponeringen for en vare på de lokationer, hvor den opbevares
 På siden **Varedisponering pr. lokation** får du vist disponeringen for en vare på de forskellige steder, hvor den opbevares.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Lokation**.
 
@@ -73,7 +73,7 @@ På siden **Varedisponering pr. lokation** får du vist disponeringen for en var
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Sådan får du vist disponeringen for alle varer ud fra den lokation, hvor de opbevares
 Du får vist disponeringen for alle dine varer på tværs af alle dine lokationer på siden **Varer pr. lokation**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Varer pr. lokation**.
 
     Siden **Varer pr. lokation** viser for alle varer, hvor mange er tilgængelige på hver enkelt lokation.

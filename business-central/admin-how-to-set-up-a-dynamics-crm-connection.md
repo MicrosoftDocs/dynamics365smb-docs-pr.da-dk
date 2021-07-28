@@ -1,6 +1,6 @@
 ---
 title: Opret forbindelse til Microsoft Dataverse
-description: Du kan integrere andre programmer med Business Central via Microsoft Dataverse. Denne artikel indeholder tips og tricks til oprettelse af forbindelser.
+description: Oprette forbindelse mellem Business Central og Dataverse. Virksomheder opretter typisk forbindelsen for at integrere og synkronisere data med en anden Dynamics 365-forretningsapp.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/26/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ebe708efacbaa03d5f10deb7b21b090222f28818
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: a29fb1e0a8e10e91a811914a9188548149d5125a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063473"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441339"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Opret forbindelse til Microsoft Dataverse
 
@@ -64,7 +64,7 @@ Dataverse-forbindelsesopsætningsvejledning kan gøre det nemmere at oprette for
 > [!IMPORTANT]
 > Du bruger som regel kun fuld synkronisering, når du integrerer programmerne første gang, og kun ét program indeholder data. Fuld synkronisering kan være nyttig i et demonstrationsmiljø, da det automatisk opretter og forbinder poster i hvert program, hvilket gør det hurtigere at starte med at arbejde med synkroniserede data. Men du bør kun udføre en fuldstændig synkronisering, hvis du ønsker en række i [!INCLUDE[prod_short](includes/prod_short.md)] for hver række i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] for de givne tabeltilknytninger. Ellers kan resultatet være duplikerede poster.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Assisteret opsætning**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Assisteret opsætning** og vælg derefter det relaterede link.
 2. Vælg **Konfigurer en forbindelse til Microsoft Dataverse** for at starte den assisterede opsætningsvejledning.
 3. Udfyld felterne efter behov.
 
@@ -75,7 +75,7 @@ Dataverse-forbindelsesopsætningsvejledning kan gøre det nemmere at oprette for
 
 Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på siden **Dataverse-forbindelsesopsætning**. Det er også den side, hvor du administrerer indstillingerne til integration.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af Dataverse-forbindelse**, og vælg derefter det tilknyttede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataverse-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 2. Indtast følgende oplysninger vedrørende forbindelsen fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
     |Felt|Beskrivelse|
@@ -106,6 +106,28 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
+
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
+> [!NOTE]
+> Dette afsnit er kun relevant for Business Central online-lejere, der er hosted af Microsoft. Online-arkitekturer, der er hosted af ISV'er og lokale installationer, påvirkes ikke.
+
+I april 2022 frarådes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-godkendelsestypen (username/password). Du kan finde flere oplysninger i [Frarådelse af Office365-godkendelsestype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Derudover i marts 2021 fraråder [!INCLUDE[prod_short](includes/prod_short.md)] brugen af klienthemmelig-baseret service-to-service-godkendelse til online lejer, og det kræver, at der bruges certifikatbaseret service til service-godkendelse for forbindelser til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] online-arkitekturer, der er hosted af ISV'er og lokale installationer, kan fortsætte med at bruge den Office365-godkendelse, der er oprettet af sin Microsoft-partner.
+
+Hvis du vil undgå at afbryde integration, _skal du opgradere_ forbindelsen til at bruge certifikatbaseret godkendelse. Selvom der er planlagt ændringer for marts 2022, anbefaler vi på det kraftigste, at du opgraderer så hurtigt som muligt. Følgende fremgangsmåde beskriver, hvordan du opgraderer til certifikatbaseret godkendelse. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
+> [!NOTE]
+> Certifikatbaseret godkendelse er tilgængelig i Business central 2021 Release Wave 1 og nyere versioner. Hvis du bruger en tidligere version, skal du planlægge en opdatering til Business central 2021 Release Wave 1 før marts, 2022. Yderligere oplysninger finder du i [Planlagte opdateringer](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Hvis der opstår problemer, skal du kontakte din partner eller support.
+
+1. I afsnittet [Business central administration]/dynamics365/Business-central/dev-ITpro/administration/Tenant-Admin-Center) skal du kontrollere, at du bruger Business central 2021 Release Wave 1 eller nyere (version 18 eller nyere).
+2. Afhængigt af om du integrerer med Dynamics 365 Sales, skal du benytte en af følgende fremgangsmåder:
+   * Hvis du gør det, skal du åbne siden **Microsoft Dynamics 365-forbindelseskonfiguration**.
+   * Hvis du ikke gør det, skal du åbne siden **Dataverse-forbindelseskonfiguration**.
+3. Vælg **Forbind**, og derefter **Brug certifikatgodkendelse** til at opgradere forbindelsen til at bruge certifikatbaseret godkendelse.
+4. Log ind med administratorrettigheder til Dataverse. Log på skal være mindre end et minut.
+
+> [!NOTE]
+> Du skal gentage disse trin i hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø, herunder både produktions-og sandkasse miljøer, og i hvert regnskab, du har forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ## <a name="connecting-on-premises-versions"></a>Tilslutning af lokale versioner
 
@@ -149,7 +171,7 @@ I følgende trin antages det, at du bruger Azure AD til at administrere identite
 
 ### <a name="to-disconnect-from-cds_long_md"></a>Sådan afbrydes forbindelsen fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af Dataverse-forbindelse**, og vælg derefter det tilknyttede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataverse-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 2. På siden **Dataverse-forbindelsesopsætning** skal du slå **Aktiveret** fra.  
 
 ## <a name="see-also"></a>Se også

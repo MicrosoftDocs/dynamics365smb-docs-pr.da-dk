@@ -1,6 +1,6 @@
 ---
-title: Regulere varepriser manuelt | Microsoft Docs
-description: Du kan regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner.
+title: Regulere varepriser manuelt
+description: Du kan manuelt regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 43a99fb56bd2d941faca34f72f9100b3cc9fd0fb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7ed2e9ebad96d29c9fc2d73e426b6e37f577f9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786089"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441214"
 ---
 # <a name="adjust-item-costs"></a>Regulere varepriser
 Kostprisen for en vare (lagerværdi), du køber og senere sælger, kan ændres i varens levetid, fordi f.eks. en fragtomkostning føjes til købsprisen, når du har solgt varen. Omkostningsregulering er især relevant i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Hvis du altid vil kende den korrekte lagerværdi, skal varepriser regelmæssigt reguleres. Dette sikrer, at salgs- og indtjeningsstatistikkerne er opdateret, og at finansielle nøgletal er korrekte. Du kan finde flere oplysninger i [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md).
@@ -37,7 +37,7 @@ Hvis du bruger kostmetoden Gennemsnit, beregnes en vares kostpris som den gennem
 Funktionen til regulering af kostpriser behandler kun de værdiposter, der endnu ikke er reguleret. Hvis der opstår en situation, hvor funktionen skal overføre ændrede indgående omkostninger til tilknyttede udgående poster, oprettes nye justeringsværdiposter, som er baseret på oplysningerne i de oprindelige værdiposter, men som indeholder justeringsbeløbet. Omkostningsreguleringsfunktionen bruger bogføringsdatoen for den oprindelige værdipost i justeringsposten, medmindre den dato er inden for en lukket lagerperiode. Hvis det er tilfældet, bruges startdatoen for den næste åbne lagerperiode. Hvis der ikke anvendes lagerperioder, er det datoen i feltet **Bogf. tilladt fra** på siden **Regnskabsopsætning**, der definerer, hvornår reguleringsposten bogføres.
 
 ## <a name="to-adjust-item-costs-manually"></a>Sådan reguleres varekostpriser manuelt
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Juster kostpris - vareposter**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **uster kostpris – Vareposter**, og vælg derefter det relaterede link.
 2. På siden **Reguler kostværdi - vareposter** skal du angive de varer, hvis omkostninger skal reguleres.
 3. Vælg knappen **OK**.
 
@@ -46,7 +46,7 @@ Hvis du skal rette købsprisen for en række varer, kan du bruge kørslen **Regu
 
  Kørslen bruges til at rette oplysningerne i feltet **Købspris** på varekortet. Felterne ændres på samme måde for alle varer eller for de valgte varer. Det sker, ved at værdien i feltet ganges med en reguleringsfaktor, som du angiver.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Reguler varepriser**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Reguler varepriser**, og vælg derefter det relaterede link.  
 2. Angiv, hvilket vare- eller lagervarekortfelt, du vil justere, i feltet **Reguler felt**.  
 3. Angiv den faktor, som værdien skal reguleres med i feltet **Ganges med**. Skriv for eksempel **1,5** for at forøge værdien med 50 %.  
 4. Angiv f.eks. filtre for at specificere, hvilke varer der skal behandles med kørslen i oversigtspanelet **Vare**.  

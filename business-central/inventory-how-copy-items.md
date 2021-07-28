@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785994"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441114"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopiere eksisterende varer for at oprette nye varer
 
@@ -23,7 +23,7 @@ Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen **Kopiér
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Sådan kopieres en eksisterende vare til en ny vare
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg den vare, du vil kopiere, og vælg derefter handlingen **Kopiér vare**.  
 
     Hvis du ikke kan finde handlingen **Kopiér vare**, skal du vælge at få vist flere indstillinger og derefter finde den under **Handlinger**, **Funktioner**.  

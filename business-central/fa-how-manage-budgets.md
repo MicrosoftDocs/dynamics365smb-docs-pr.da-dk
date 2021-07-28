@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: forecast
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b435d1e9edae7a13514786f2de51e32237aaf94
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f3654610847a4110517e88f98205da780bafdf21
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783555"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441643"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Administrere budgetter for anlægsaktiver
 Du kan konfigurere budgetterede anlægsaktiver. Du kan f.eks. inkludere forventede anskaffelser og salg i rapporterne.  
@@ -29,7 +29,7 @@ Når du skal forberede et budget, skal du oprette anlægskort for de anlægsakti
 
 Når du bogfører anskaffelsesprisen, skal du angive nummeret på det budgetterede anlægsaktiv i feltet **Budgetanlægsnr.** Dermed bogføres automatisk en anskaffelsespris med modsat fortegn for budgetanlægget. Det betyder, at de samlede anskaffelsesomkostninger for budgetanlægget er forskellen mellem den budgetterede og den faktiske anskaffelsesomkostning.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny** for at oprette et nyt anlægskort for det budgetterede anlægsaktiv.
 3. Markér afkrydsningsfeltet **Budgetanlæg** for at forhindre bogføring i finansregnskabet.
 4. Udfyld resten af felterne, tildel en afskrivningsprofil, og bogfør derefter den første anskaffelsespris for det budgetterede anlægsaktiv, der er angivet i feltet **Budgetanlægsnr.** på kladdelinjen Du kan finde flere oplysninger i [Anskaffe anlægsaktiver](fa-how-acquire.md).
@@ -37,21 +37,21 @@ Når du bogfører anskaffelsesprisen, skal du angive nummeret på det budgettere
 ## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>Sådan budgetteres salget af et anlægsaktiv
 Hvis du planlægger at sælge anlæg inden for budgetperioden, kan du angive oplysninger om salgspris og -dato.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.
 2. Vælg det anlægsaktiv, der skal sælges, og vælg derefter handlingen **Afskrivningsprofiler**.
 3. På siden **Anlægsafskrivningsprofiler** skal du udfylde felterne **Forventet salgsdato** og **Forventet salgspris**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-projected-disposal-values"></a>Sådan vises forventede salgsværdier
 Hvis du vil have vist de forventede salgsværdier og beregne gevinst eller tab, kan du bruge rapporten **Anlæg - forventet værdi**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg - forventet værdi**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlæg - forventet værdi**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
 ## <a name="to-budget-depreciation"></a>Sådan budgetteres afskrivning
 Du kan bruge rapporten **Anlæg - forventet værdi** til at beregne den fremtidige afskrivning. I rapporten vises bogført værdi og akkumuleret afskrivning i starten af den valgte periode og ved ændringer i løbet af perioden, og den bogførte værdi og den akkumulerede afskrivning vises ved slutningen af den valgte periode.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg - forventet værdi**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlæg - forventet værdi**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 3. Hvis du vil have vist de samlede værdier for alle aktiver, skal du rydde afkrydsningsfeltet **Udskrift pr. anlæg**.
 4. Lad oversigtspanelet **Anlæg** stå tomt, hvis alle anlægsaktiver skal inkluderes. I feltet **Budgetanlæg** skal du angive **Nej** for at udelukke budgetanlæg eller **Ja** for kun at få vist budgetanlæg.
@@ -59,9 +59,9 @@ Du kan bruge rapporten **Anlæg - forventet værdi** til at beregne den fremtidi
 
 ## <a name="see-also"></a>Se også
 [Anlægsaktiver](fa-manage.md)  
-[Opsætning af Anlægsaktiver](fa-setup.md)  
+[Opsætning af anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
-[Blive klar til at handle](ui-get-ready-business.md)  
+[Blive køreklar](ui-get-ready-business.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

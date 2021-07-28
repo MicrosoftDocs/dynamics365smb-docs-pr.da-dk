@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 019767f671f48f7ae5bb1c0d795c8085d8a97472
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7d946020bb6f9a1eabf5ab68d3dd64a9af344993
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786408"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442056"
 ---
 # <a name="work-with-inventory-periods"></a>Arbejde med lagerperioder
 Lagerperioder definerer en tidsperiode, hvor du kan bogføre ændringer i lageret. En lagerperiode er defineret af periodens slutdato. Når du lukker en lagerperiode kan du ikke bogføre ændringer af lageret, hverken forventede eller fakturerede, før denne slutdato. Desuden kan du ikke bogføre nye værdier til lageret før denne slutdato. Hvis der er åbne poster i den lukkede periode, dvs. positive antal, der endnu ikke er blevet udlignet med udgående transaktioner, kan du stadig udligne udgående antal med disse poster, selvom perioden er lukket.  
@@ -27,7 +27,7 @@ Følgende afsnit beskriver, hvordan du kan:
 * Genåbn lagerperioder.  
 
 ## <a name="to-create-an-inventory-period"></a>Sådan oprettes en lagerperiode  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerperioder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerperioder**, og vælg derefter det relaterede link.  
 2. Opret en ny linje.  
 3. I feltet **Slutdato** skal du angive den sidste dato i den lagerperiode, du vil oprette. Når perioden lukkes, vil du ikke kunne bogføre ændringer til lagerbeholdningen før denne dato.  
 4. Indtast et beskrivende navn i feltet **Navn**. Vælg knappen **OK**.  
@@ -59,7 +59,7 @@ Det betyder, at alle udgående transaktionsantal, f.eks. dem fra salgsordrer, ud
 Når du har lukket lagerperioden, kan du ikke slette den. Du kan dog genåbne den, hvis du vil tillade bogføring før lagerperiodens slutdato. Hvis du genåbner en periode, genåbnes også alle de lagerperioder med slutdatoer, som er efter den periode, du genåbnede.  
 
 ### <a name="to-reopen-an-inventory-period"></a>Sådan genåbnes en lagerperiode  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerperioder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerperioder**, og vælg derefter det relaterede link.  
 2. Vælg den lagerperiode, du vil åbne igen.  
 3. Vælg handlingen **Åbn periode igen**. Bekræft, at du vil genåbne perioden.  
 4. Alle lagerperioder med slutdatoer efter den periode, du valgte, genåbnes.  

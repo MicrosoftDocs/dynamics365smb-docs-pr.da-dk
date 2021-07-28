@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d9dd61f073567dd38c4f80e77bb4ecd0584f558f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7988d7f1b40fed65078032d05c8b12d8e174bc90
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787228"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440820"
 ---
 # <a name="set-up-prices-and-discounts"></a>Konfigurere priser og rabatter
 > [!NOTE]
@@ -47,7 +47,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 #### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Vælg debitor, og vælg derefter handlingen **Priser**.
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Udfyld en linje for hver kombination, som yder en særlig salgspris til kunden.
 
@@ -58,7 +58,7 @@ Som standard er status for nye prislister **Kladde**. Når du er klar til at beg
 
 Hvis du vil have vist prislister og priser, der gælder for bestemte debitorer eller kreditorer, skal du på siderne **Kunde** eller **Kreditor** enten vælge **Salgsprislister** eller **Købsprislister**. Du kan få vist prislistelinjer for varer og ressourcer ved at vælge **Salgspriser** eller **Købspriser** på siderne **Vare** og **Ressource**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Vælg debitor, og vælg derefter handlingen **Salgsprislister**. 
 3. Vælg **Ny** for at oprette en ny salgsprisliste.
 4. Udfyld felterne efter behov i oversigtspanelerne **Generelt** og **Skat**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +75,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 #### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience/)  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Åbn det relevante debitorkort, og vælg derefter handlingen **Linjerabatter**.
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Udfyld en linje for hver kombination, som yder en salgslinjerabat til kunden.
 
@@ -86,7 +86,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 #### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Vælg debitor, og vælg derefter handlingen **Salgsprislister**.
 3. Åbn den prisliste, som du vil angive linjerabat for.
 4. Slå linjen **Tillad linjerabat** til/fra.
@@ -118,7 +118,7 @@ Du kan også knytte et servicegebyr til et bestemt fakturabeløb i tillæg til e
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Sådan oprettes en fakturarabat for en debitor
 Når du har besluttet, hvilke kunder der skal have fakturarabatter, skal du angive fakturarabatkoden på debitorkortene og definere betingelserne for hver kode.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Åbn debitorkortsiden for en debitor, der kan ydes fakturarabat til.
 3. Vælg en kode i feltet **Fakturarabatkode** for de fakturarabatbetingelser, som skal bruges til automatisk beregning af fakturarabat til debitoren. <!--Looks like I can only choose customers in this list-->
 
@@ -142,7 +142,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til brug for en debitorprisgruppe, skal du køre **Forslå salgspris på kladde.** batch-jobbet på siden **Salgspriskladde**.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgspriskladde**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgspriskladdeside**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Foreslå salgspris på kld.** .  
 3. Udfyld felterne **Salgstype** og **Salgskode** i oversigtspanelet **Salgspriser** med de oprindelige salgspriser, du vil kopiere.  
 4. Udfyld felterne **Salgstype** og **Salgskode** i den øverste del af siden med den type og det navn, du vil have salgspriserne kopieret til.  
@@ -156,7 +156,7 @@ Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til br
 
 Status for prislistelinjen skal være **Kladde**. 
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsprislister**, og vælg derefter det relaterede link. 
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsprislister**, og vælg derefter det relaterede link. 
 2. Vælg den prisliste, du vil kopiere, og vælg derefter **Kopier linjer**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -172,7 +172,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 Hvis du vil masseopdatere varepriser, f.eks. forøge alle varepriser med en procentsats, skal du køre **Foreslå varepris på kladde.** kørsel. Du kan finde et link til kørslen på siden **Salgspriskladde**.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgspriskladde**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgspriskladdeside**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Foreslå varepris på kladde** .  
 3. I oversigtspanelet **Vare** skal du udfylde **Nummer**. eller **Varebogføringsgruppe** eller andre felter med de oprindelige varepriser, du vil opdatere.  
 4. Udfyld felterne **Salgstype** og **Salgskode** i den øverste del af siden med den type og det navn, du vil have salgspriserne kopieret til.

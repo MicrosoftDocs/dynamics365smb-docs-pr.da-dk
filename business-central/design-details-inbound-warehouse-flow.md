@@ -1,6 +1,6 @@
 ---
-title: Designoplysninger – Indgående lagerflow | Microsoft Docs
-description: Den indgående strøm i et lager begynder, når der ankommer varer på lageret i virksomheden, som enten er modtaget fra eksterne kilder eller fra et andet sted i firmaet. En medarbejder registrerer varerne, typisk ved at scanne en stregkode. Fra modtagelsesområdet udføres lageraktiviteterne på forskellige kompleksitetsniveauer for at bringe varerne ind i lagerområdet.
+title: Designoplysninger - Indgående lagerflow
+description: Indgående lagerflow starter, når der ankommer varer til lagerstedet. Varer registreres og matches til indgående kildedokumenter til sidst.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215174"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441768"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designoplysninger: Indgående lagerflow
 Den indgående strøm i et lager begynder, når der ankommer varer på lageret i virksomheden, som enten er modtaget fra eksterne kilder eller fra et andet sted i firmaet. En medarbejder registrerer varerne, typisk ved at scanne en stregkode. Fra modtagelsesområdet udføres lageraktiviteterne på forskellige kompleksitetsniveauer for at bringe varerne ind i lagerområdet.  
@@ -51,7 +51,7 @@ Handlinger, der modtager og lægger væk, kombineres i metoderne A, B og C i ét
 ## <a name="basic-warehouse-configurations"></a>Grundlæggende lageropsætninger  
 I følgende diagram illustreres de indgående lagerstrømme af dokumenttype i grundlæggende lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
-![Indgående flow i grundlæggende lageropsætninger](media/design_details_warehouse_management_inbound_basic_flow.png "Indgående flow i grundlæggende lageropsætninger")  
+![Indgående flow i grundlæggende lageropsætninger.](media/design_details_warehouse_management_inbound_basic_flow.png "Indgående flow i grundlæggende lageropsætninger")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Frigiv kildedokument / Opret læg-på-lager  
 Når varerne modtages på lageret, frigiver den bruger, der er ansvarlig for modtagelse, kildedokumentet, f.eks. en indkøbsordre eller en indgående overflytningsordre ordre, for at signalere til lagermedarbejdere, at de modtagne varer kan lægges på lager. Alternativt kan brugeren oprette læg-på-lager-dokumenter for de enkelte ordrelinjer på en push-måde, baseret på angivne placeringer og antal, der skal håndteres.  
@@ -70,7 +70,7 @@ Der oprettes positive vareposter og lagerposter, og læg-på-lager-anmodningen s
 ## <a name="advanced-warehouse-configurations"></a>Avancerede lageropsætninger  
 I følgende diagram illustreres den indgående lagerstrøm af dokumenttype i avancerede lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
-![Indgående flow i avancerede lageropsætninger](media/design_details_warehouse_management_inbound_advanced_flow.png "Indgående flow i avancerede lageropsætninger")  
+![Indgående flow i avancerede lageropsætninger.](media/design_details_warehouse_management_inbound_advanced_flow.png "Indgående flow i avancerede lageropsætninger")  
 
 ### <a name="1-release-source-document"></a>1: Frigiv kildedokument  
 Når varerne modtages på lageret, frigiver den bruger, der er ansvarlig for modtagelse, kildedokumentet, f.eks. en indkøbsordre eller en indgående overflytningsordre ordre, for at signalere til lagermedarbejdere, at de modtagne varer kan lægges på lager.  
@@ -109,7 +109,7 @@ På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder la
 Lagerposter oprettes og læg-på-lager-linjerne slettes, hvis de er fuldt håndteret. Læg-på-lager-dokumentet forbliver åbent, indtil det fulde antal af den relaterede bogførte lagermodtagelse er registreret. Feltet **Antal lagt\-på\-lager** på lagermodtagelsens ordrelinjer opdateres.  
 
 ## <a name="see-also"></a>Se også  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

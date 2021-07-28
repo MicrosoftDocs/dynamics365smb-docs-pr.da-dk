@@ -1,6 +1,6 @@
 ---
-title: Sådan oprettes serviceordrer | Microsoft Docs
-description: Du kan bruge siden **Serviceordre** til at oprette dokumenter, hvor du indtaster oplysninger om en serviceydelse, f.eks. reparation og vedligeholdelse, for serviceartikler efter kundeforespørgsel.
+title: 'Fremgangsmåde: Oprette serviceordrer'
+description: Få mere at vide om de forskellige opgaver, der er involveret i oprettelse af serviceordrer i Business central, f. eks. oprettelse af en ny serviceordre eller ordre på basis af en servicekontrakt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fe6d0d5d4e56eac907e6b29f7958cd690ebaced7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: adac8451aadd5aa5d6c772b16baefe60dea317b1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781481"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441931"
 ---
 # <a name="create-service-orders"></a>Oprette serviceordrer
 Du kan bruge siden **Serviceordre** til at oprette dokumenter, hvor du indtaster oplysninger om en serviceydelse, f.eks. reparation og vedligeholdelse, for serviceartikler efter kundeforespørgsel.  
@@ -23,7 +23,7 @@ Du kan bruge siden **Serviceordre** til at oprette dokumenter, hvor du indtaster
 Når du opretter en serviceordre, behøver du kun at udfylde nogle få felter. Nogle felter er valgfri, og mange udfyldes automatisk, når du udfylder relaterede felter.  
 
 ## <a name="to-create-a-service-order"></a>Sådan oprettes en serviceordre    
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
 2. Opret en ny serviceordre.  
 3. I feltet **Nummer** skal du indtaste nummeret på serviceordren.  
 
@@ -38,7 +38,7 @@ Når du opretter en serviceordre, behøver du kun at udfylde nogle få felter. N
 ## <a name="to-create-a-service-order-from-a-contract"></a>Sådan oprettes serviceordrer fra kontrakter  
 Du kan automatisk oprette serviceordrer til reparation af serviceartikler baseret på servicekontrakter.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret kontraktserviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret kontraktserviceordrer**, og vælg derefter det relaterede link.  
 2. Angiv de ønskede filtre i oversigtspanelet **Servicekontrakthoved**.  
 3. Gå til oversigtspanelet **Indstillinger**, og udfyld felterne **Startdato** og **Slutdato** med start- og slutdatoen for den periode, du vil oprette kontraktserviceordrer for. Ved kørslen oprettes serviceordrer, som omfatter serviceartikler i servicekontrakter, med de næste planlagte servicedatoer inden for denne periode.  
 
@@ -54,14 +54,14 @@ Når en kunde har accepteret et servicekontrakttilbud, skal du konvertere det ti
 
 [!INCLUDE[prod_short](includes/prod_short.md)] søger allokeringsposter for alle de serviceartikler i servicetilbuddet, der har status **Aktiv**. Hvis der bliver fundet sådanne allokeringsposter, opdateres deres allokeringsstatus til **Genallokering nødvendig**. Når du genallokerer artiklerne i serviceordren, opdateres status for de allokeringsposter, der er registreret for tilbuddet, til **Udført.**   
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontrakttilbud**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekontrakttilbud**, og vælg derefter det relaterede link.  
 2. Vælg det servicetilbud, der skal konverteres til en serviceordre.  
 3. Vælg handlingen **Lav ordre**.  
 
 ## <a name="to-check-item-availability-for-one-or-more-orders"></a>Sådan kontrolleres varetilgængelighed for en eller flere ordrer  
 Du kan kontrollere og se, hvis en vare, som du skal udføre en ordre for, er på lager, og hvis ikke, når varen er på lager. Hvis en vare kan reserveres, kan du reservere den for at sikre, at den er tilgængelig til brug. Du kan kontrollere tilgængeligheden for en bestemt ordre eller for alle ordrer.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreoversigt**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ordreoversigt**, og vælg derefter det relaterede link.  
 2. Gør ét af følgende:  
 
     * Hvis det drejer sig om en bestemt ordre, skal du vælge ordren og derefter vælge handlingen **Behovsoversigt**.  
@@ -81,7 +81,7 @@ Hvis du har brug at sikre, at en vare er disponibel for en serviceordre, kan du 
 ## <a name="to-insert-lines-based-on-standard-service-codes"></a>Sådan indsættes linjer baseret på standardservicekoder  
 Hvis du har defineret standardservicekoder og tildelt dem til serviceartikelgrupper, kan du indsætte de standardlinjer, der er knyttet til standardservicekoderne i servicedokumenter. Du kan finde flere oplysninger i [Definere standardservicekoder](service-how-setup-service-coding.md).   
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
 2. Opret en ny serviceordre.  
 3. Udfyld felterne efter behov.  
 4. Udfyld serviceartikellinjerne med de ønskede oplysninger.  
@@ -99,7 +99,7 @@ Ordrer slettes som regel automatisk, når de er faktureret fuldt ud. Når en fak
 
 Serviceordrer slettes ikke automatisk i programmet, men hvis det samlede antal i ordren er bogført, ikke fra selve serviceordren, men fra siden **Servicefaktura**. Det kan i så fald være nødvendigt at slette fakturerede ordrer, der ikke er slettet. Det kan du gøre ved at aktivere kørslen **Slet fakturerede serviceordrer**.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet bogførte kontraktserviceordrer**, og vælg derefter det relaterede link. Kørselsanmodningssiden **Slet fakturerede serviceordrer** åbner.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet fakturerede serviceordrer**, og vælg derefter det relaterede link. Kørselsanmodningssiden **Slet fakturerede serviceordrer** åbner.  
 2. Når du skal vælge de ordrer, der skal slettes, kan du angive filtre i felterne **Nummer**, **Debitornr.** og **Faktureres til kundenr.** .  
 3. Vælg **OK**.  
 

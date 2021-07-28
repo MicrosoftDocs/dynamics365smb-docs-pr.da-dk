@@ -1,6 +1,6 @@
 ---
-title: Registrere forbrug og afgang for én produktionsordre | Microsoft Docs
-description: Denne udførelsesopgave udføres fra siden **Produktionskladde**. Kladden kombinerer funktionaliteten ved forbrugskladden og afgangskladden til én kladde. Der er direkte adgang til den kombinerede kladde fra en frigivet produktionsordre. Dens vigtigste formål er manuelt at bogføre forbruget af komponenter, antallet af producerede færdige varer og den tid, der bruges på operationerne.
+title: Registrere forbrugsoutput for produktionsordre
+description: Dette emne beskriver, hvordan du registrerer forbrug og afgang for en frigivet produktionsordrelinje, der vises på produktionskladdesiden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f2ecf59472adb8b153b2b6feeea62591e0565085
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787823"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441543"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbrug og afgang for én frigivet produktionsordrelinje
 Denne udførelsesopgave udføres fra siden **Produktionskladde**. Kladden kombinerer funktionaliteten ved forbrugskladden og afgangskladden til én kladde. Der er direkte adgang til den kombinerede kladde fra en frigivet produktionsordre. Dens vigtigste formål er manuelt at bogføre forbruget af komponenter, antallet af producerede færdige varer og den tid, der bruges på operationerne. Værdierne bogføres til poster under den frigivne produktionsordre. Forbrugsantallene bogføres som negative vareposter, afgangsantal bogføres som positive poster, og den forbrugte tid bogføres som kapacitetsposter. Disse bogførte værdier vises også nederst i kladden som faktiske mængder.  
@@ -27,7 +27,7 @@ Denne udførelsesopgave udføres fra siden **Produktionskladde**. Kladden kombin
 >  Komponenter uden rutebindingskoder angives først i kladden.  
 
 ## <a name="to-register-consumption-and-output"></a>Sådan registreres forbrug og afgang  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
 2.  Åbn den frigivne produktionsordrelinje, der er klar til registrering. I oversigtspanelet **Linjer** skal du derefter vælge handlingen **Linje** og derefter handlingen **Produktionskladde**.  
 
     Siden **Produktionskladde** åbnes med kladdelinjer for produktionsordrelinjen i henhold til siderne **Produktionsordrekomponent** og **Prod.ordrerute**. Disse linjer, der stammer fra den produktionsstykliste og rute, der er tildelt den vare, der produceres. Du kan finde flere oplysninger i [Oprette produktionsstyklister](production-how-to-create-routings.md).  

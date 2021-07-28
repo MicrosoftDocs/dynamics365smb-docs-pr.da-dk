@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 92965b353dadb78e50b11138a832115885518f4f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19cfc6b241e72d63a0f2c00ee43b32682cdeefae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780703"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441089"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Oprette interaktioner for kontakter og målgrupper
 Du kan oprette interaktioner for at registrere al interaktion og kommunikation, som du har med kontakter og målgrupper, f.eks. direct mail.
@@ -38,7 +38,7 @@ Du kan først oprette interaktioner, når du har defineret interaktionsskabelone
 3. Marker den interaktion, som du vil afslutte, og klik derefter på handlingen **Fortsæt**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Sådan oprettes en interaktion for en målgruppe
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Målgrupper**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Segmenter**, og vælg derefter det relaterede link.
 2. Udfyld felterne i sektionen **Interaktion** på siden **Målgruppe** for at angive, hvilken interaktion du vil knytte til målgruppen.
 
     Når du har tildelt en interaktion til målgruppe, kan du tilpasse interaktionen til hver kontakt i målgruppen. Du kan f.eks. vælge en anden interaktionsskabelon på linjerne på siden **Målgruppe**.  

@@ -11,18 +11,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 5f2ba1b65f92e2415ae67a3ee4b4c48bebbde9be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc137cb8c45d935be28d5ededc435d2d4648f8bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772300"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441040"
 ---
 # <a name="preview-posting-results"></a>Vise bogføringsresultater
 På hvert dokument og kladde, som kan bogføres, kan du vælge knappen **Vis bogføring** for at se de forskellige typer poster, der oprettes, når du bogfører dokumentet eller kladden.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Sådan vises finansposter, der stammer fra bogføring af en købsfaktura
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Opret en købsfaktura. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 3. Vælg **Vis bogføring**.
 4. På siden **Vis bogføring** skal du markere **Finanspost** og derefter vælge **Vis relaterede poster**.  

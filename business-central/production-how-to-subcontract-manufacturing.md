@@ -1,6 +1,6 @@
 ---
-title: Sådan produktion hos underleverandør | Microsoft Docs
-description: Når købsordren er oprettet fra underleverandørkladden, kan den bogføres.
+title: 'Fremgangsmåde: Produktion hos underleverandør'
+description: Dette emne giver en udvidet oversigt over den udvidede funtionality af underleverandørarbejde i Business Central inkl. arbejdscenterfelter og -rute.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b717e5674130661e12b48e6c0f37473098b892
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787698"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441518"
 ---
 # <a name="subcontract-manufacturing"></a>Produktion hos underleverandør
 Det er almindeligt for mange produktionsvirksomheder at placere udvalgte operationer hos underleverandører. Det er normal procedure i mange produktionsvirksomheder, selvom det hos nogle virksomheder måske kun sker engang imellem, mens det hos andre er en integreret del af produktionsprocessen.
@@ -52,7 +52,7 @@ Siden **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved at
 >  Det er kun produktionsordrer med **Frigivet** som status, der kan åbnes og bruges fra en underleverandørkladde.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Sådan beregnes underleverandørkladden  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Underleverandørkladde**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Underleverandørkladde**, og vælg derefter det relaterede link.  
 2.  Hvis du vil beregne kladden, skal du vælge handlingen **Beregn underleverancer**.  
 3.  Sæt filtre på underleverandøroperationer eller arbejdscentre, hvor de udføres, for kun at beregne de relevante produktionsordrer på siden **Beregn underleverancer**.  
 4.  Vælg knappen **OK**.  
@@ -60,7 +60,7 @@ Siden **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved at
     Gennemgå linjerne på siden **Underleverandørkladde**. Oplysningerne i kladden hentes fra produktionsordren og produktionsordrens rutelinjer og overføres til købsordren, når det dokument oprettes. Du kan slette en række, uden at det påvirker de oprindelige oplysninger, som du kan med andre kladder. Oplysningerne vises igen, næste gang du kører funktionen **Beregn underleverancer**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Sådan oprettes købsordre på underleverance  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Underleverandørkladde**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Underleverandørkladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Udfør aktionsmeddelelse**.  
 3.  Vælg feltet **Udskriv ordrer**, hvis du vil udskrive købsordren, når den oprettes.  
 4.  Vælg knappen **OK**.  
@@ -73,7 +73,7 @@ Den kladde, der nu udgør købsordren, slettes i kladden. Når en købsordre er 
 Når der er oprettet en købsordre på en underleverance, kan den bogføres. Når ordren modtages, bogføres en kapacitetspost på produktionsordren, og ved fakturering af ordren bogføres de direkte omkostninger, der er forbundet med købsordren, på produktionsordren.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Sådan bogføres en købsordre på en underleverance  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 2.  Åbn den købsordre, der er oprettet på basis af underleverandørkladden.  
 
     På købsordrelinjerne kan du se de samme oplysninger som i regnearket. Felterne **Prod.ordrenr.**, **Prod.ordrelinjenr.**, **Operationsnr.** og **Arbejdscenternr.** udfyldes med oplysningerne fra kildeproduktionsordren.  

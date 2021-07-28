@@ -1,6 +1,6 @@
 ---
-title: Se status på synkroniseringsjob | Microsoft Docs
-description: Få mere at vide om, hvordan du får vist status, når du har synkroniseret sammenkædede poster.
+title: Se status på synkroniseringsjob
+description: Du kan bruge siden Fejl ved sammenkædet datasynkronisering til at få vist status for de synkroniseringsjob, der er blevet udført for sammenkædede poster i integrationer.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b87bd1061adbcaae3a5497fa1af020cfaa412593
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781257"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441314"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Se status på synkroniseringsjob
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -35,7 +35,7 @@ Du kan bruge siden **Fejl ved sammenkædet datasynkronisering** til at se status
 -->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Sådan vises og løses synkroniseringsfejl for sammenkædede poster
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Synkroniseringsfejl for sammenkædede data**, og vælg det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Fejl ved sammenkædet datasynkronisering**, og vælg derefter det relaterede link.
 2. På siden **Fejl ved sammenkædet datasynkronisering** vises problemer, der opstod, da du synkroniserede sammenkoblede poster. Følgende tabel indeholder handlinger, som du kan bruge til at løse problemer et efter et:
 
 |Handling|Beskrivelse|

@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c17aec818a65aef9e298b40301142cbb40715306
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2e178778e51d63c3398fd4a870bf41fa8b1a086f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782326"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442206"
 ---
 # <a name="revalue-fixed-assets"></a>Omvurdere anlægsaktiver
 Regulering af anlægsaktiver kan bestå af opskrivninger, nedskrivninger eller generelle værdireguleringer.
@@ -28,7 +28,7 @@ Når værdien af et anlægsaktiv er faldet, skal du bogføre en kladdelinje med 
 Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge generelle prisændringer. Kørslen **Indeksér anlæg** kan bruges til at ændre forskellige beløb, f.eks. nedskrivnings- og opskrivningsbeløb.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Sådan bogføres en opskrivning fra anlægskassekladden
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Regulering**.
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af opskrivning.
@@ -38,7 +38,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Sådan bogføres en nedskrivning fra anlægskassekladden
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Nedskrivning**.
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af nedskrivning.
@@ -50,12 +50,12 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Sådan udføres generel værdiregulering af anlægsaktiver
 Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge generelle prisændringer. Kørslen **Indeksér anlæg** kan bruges til at ændre forskellige beløb, f.eks. nedskrivnings- og opskrivningsbeløb. Afkrydsningsfeltet **Tillad indeksering** på siden **Afskrivningsprofil** skal være markeret.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indeksér anlæg**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indeksér anlæg**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 3. Vælg knappen **OK**.
 
     Der oprettes værdireguleringslinjer ud fra dine indstillinger i trin 2. Linjerne er oprettet i anlægskladden eller anlægskassekladden, afhængigt af skabelonen og kørselsopsætningen på siden **Anlægskladdeopsætning**. Du kan finde flere oplysninger i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
-4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
+4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 5. Vælg kladden med de anlægsaktiver, du vil regulere værdien for, og vælg derefter handlingen **Poster**.  
 6. Kontroller de oprettede poster, og vælg derefter handlingen **Bogfør** for at bogføre kladden.
 

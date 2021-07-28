@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784661"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441064"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importere og eksportere brugerdefinerede rapportlayouts
 Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som en fil til og fra en placering på din computer og netværket. For eksempel kan du eksportere et rapportlayout og derefter sende filen til en anden person for redigering. Denne person kan derefter foretage ændringer af layoutet og returnere filen til dig, så du kan importere det tilbage.  
@@ -25,7 +25,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Sådan eksporterer du et rapportlayout til en fil  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
 
 2.  Vælg rækken med den rapport, der indeholder det brugerdefinerede rapportlayout, du vil eksportere, og vælg derefter handlingen **Brugerdefinerede layout**.  
 
@@ -39,7 +39,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
      En Word-layoutfil skal have filtypenavnet .docx . En RDLC-rapportlayoutfil skal have filtypenavnet .rdlc eller .rdl.  
 
-2.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
+2.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
 
 3.  Vælg rækken med den rapport, du vil importere rapportlayoutet i, og vælg derefter handlingen **Brugerdefinerede layout**.  
 

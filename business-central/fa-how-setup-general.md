@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 877891affde9b1719c30bc265cd0c08bf14824b0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8fed97e698cf5613700b53db3aa5a4292d12f554
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770512"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440670"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Angive generelle oplysninger om anlægsaktiver
 Før du kan administrere anlægsaktiver, skal du oprette standardfinanskonti, allokeringsnøgler, kladdetyper og -navne for bogføring og ompostering af anlægsaktiver, og du kan klassificere anlægsaktiver i arter, f.eks materielle og immaterielle.
@@ -22,13 +22,13 @@ Før du kan administrere anlægsaktiver, skal du oprette standardfinanskonti, al
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Sådan defineres generelle standardværdier for anlæg
 Du definere den generelle funktionsmåde eller anlægsaktivets funktion og oprette dokumentnummerserier på siden **Anlægsopsætning**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Anlæg**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsopsætning**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Sådan oprettes anlægsbogføringsgrupper
 Bogføringsgrupper bruges til at definere grupper af anlægsaktiver. Disse bogføringsgruppers poster bogføres på samme finanskonti.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsbogføringsgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsbogføringsgrupper**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov på siden **Anlægsbogføringsgruppekort**.
 
@@ -43,7 +43,7 @@ Transaktioner kan allokeres på forskellige afdelinger eller projekter ud fra br
 
 Allokeringsnøgler gælder for anlægsarter og ikke for de enkelte anlægsaktiver.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsbogføringsgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsbogføringsgrupper**, og vælg derefter det relaterede link.  
 2. På siden **Anlægsbogføringsgrupper** skal du vælge handlingen **Allokeringer** og derefter vælge en bogføringstype.
 3. På siden **Anlægsallokeringer** skal du udfylde felterne efter behov.
 4. Gentag trin 2 og 3 for hver bogføringstype, du vil definere allokeringsnøgler for.
@@ -53,45 +53,45 @@ En type er et foruddefineret format for en kladde. Typen indeholder oplysninger 
 
 [!INCLUDE[prod_short](includes/prod_short.md)] opretter automatisk en anlægskladdetype, første gang du åbner siden **Anlægskladde**, men du kan definere flere kladdetyper.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskladdetyper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Sådan defineres anlægskladdenavne
 Du kan angive flere kladdenavne, som er individuelle kladder for hver kladdetype. En medarbejder kan f.eks. have sin egen kladde, hvor medarbejderens initialer anvendes som kladdenavn. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskladdetyper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskladdetyper**, og vælg derefter det relaterede link.  
 2. Markér den relevante kladdetype, og vælg derefter handlingen **Navne**.
 3. På siden **Anlægskladdenavne** skal du udfylde felterne efter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Sådan defineres anlægsomposteringskladdetyper
 Du kan bruge dedikerede omposteringskladder, når du skal overføre, opdele eller kombinere anlægsaktiver. [!INCLUDE[prod_short](includes/prod_short.md)] opretter automatisk en anlægsomposteringskladdetype, første gang du åbner siden **Anlægsompost.kladde**, men du kan definere flere omposteringskladdetyper. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsompost.kladdetyper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsompost.kladdetype**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Sådan defineres anlægsomposteringskladdenavne
 Du kan angive flere kladdenavne, som er individuelle kladder for hver omposteringskladdetype. En medarbejder kan f.eks. have sin egen omposteringskladde, hvor medarbejderens initialer anvendes som omposteringskladdenavn. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsompost.kladdetyper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsompost.kladdetype**, og vælg derefter det relaterede link.  
 2. Markér den relevante kladdetype, og vælg derefter handlingen **Navne**.
 3. På siden **Anlægsompost.kld.navne** skal du udfylde felterne efter behov.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Sådan angives anlægsartskoder
 Anlægsartskoder kan bruges til at gruppere anlægsaktiver, f.eks. materielle og immaterielle aktiver.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsarter**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsarter**, og vælg derefter det relaterede link.
 2. Angiv koder og navne for de arter, du vil oprette.
 
 ## <a name="to-set-up-fixed-asset-subclass-codes"></a>Sådan angives anlægsgruppekoder
 Du kan bruge anlægsgruppekoder til at gruppere anlægsaktiver i kategorier, f.eks. bygninger, køretøjer, møbler eller maskiner.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsgrupper**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsgrupper**, og vælg derefter det relaterede link.
 2. Angiv koder og navne for de arter, du vil oprette.
 
 ## <a name="to-set-up-fixed-asset-location-codes"></a>Sådan angives anlægslokationskoder
 Du kan bruge anlægslokationskoder til at registrere anlæggets lokation, f.eks. salgsafdelingen, receptionen, administrationen, produktionen eller lagerstedet. Disse oplysninger er nyttige i forbindelse med forsikring og lagerstedet.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægslokationer**, og vælg derefter det tilknyttede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægslokationer**, og vælg derefter det relaterede link.
 2. Angiv koder og navne for de anlægslokationer, du vil oprette.
 
 ## <a name="to-register-opening-entries"></a>Sådan registreres åbningsposter
@@ -104,7 +104,7 @@ Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[prod_short](inclu
 3. Oprette en anlægsafskrivningsprofil til hvert afskrivningsformål, (f.eks. skatteregnskaber eller årsregnskaber). Du skal selv definere betingelserne for hver afskrivningsprofil som f.eks. integration med finansbogholderiet.  
 
     Aktivér finansintegration ved hjælp af de næste trin. Først skal sikre dig, at finansintegration er deaktiveret for alle afskrivningsprofiler, og derefter skal du bogføre åbningsposter og endelig aktivere finansintegration.  
-4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningsprofiler**, og vælg derefter det relaterede link.  
+4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.  
 5. Vælg det relevante afskrivningsprofilkort, og vælg derefter handlingen **Rediger** for at åbne siden **Afskrivningsprofilkort**.
 6. På oversiftspanelet **Integration** skal du sørge for, at alle felter er tomme, ved at fjerne alle markeringer. Hvis du har mere end én afskrivningsprofil, skal du deaktivere finansintegration for hver enkelt.  
 7. Skriv følgende linjer for hvert aktiv i anlægskladden:

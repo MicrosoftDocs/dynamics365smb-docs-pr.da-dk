@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9d0b27a1bdcc2aa544c50cf9993d46405f519b0c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7c5c924d8755884d022657abda48298b846cc7e8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787598"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442006"
 ---
 # <a name="work-with-production-families"></a>Arbejde med produktionsfamilier
 En produktfamilie er en gruppe individuelle varer, hvis slægtskab er baseret på lighedspunkter i fremstillingsprocesserne. Ved hjælp af produktionsfamilier kan visse varer forarbejdes to eller flere gange i samme proces, hvilket optimerer materialeforbruget.
@@ -28,11 +28,11 @@ Ved en udstansning kan fire stk. af samme vare produceres fra et emne og ti stk.
 Ved at oprette produktionsfamilier reduceres spildantallet, fordi det, der normalt ville være tilovers som spild ved produktion af store stykker, i stedet kan benyttes til at producere små stykker.
 
 ## <a name="to-set-up-a-production-family"></a>Sådan oprettes en produktionsfamilie
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Familier**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **familier**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-family"></a>Sådan produceres på basis af en produktionsfamilie
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.
 2. Opret et ny produktionsordre. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).
 3. Vælg **Familie** i feltet **Kildetype**.  
 4. Vælg den relevante produktionsfamilie i feltet **Kildenr.**.

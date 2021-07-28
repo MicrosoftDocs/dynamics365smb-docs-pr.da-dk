@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 777de65d2cda454491b6c3ea82ebb99d4839dce4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb1469242408164f73296f27f5cadd432b15fa2e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780378"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441468"
 ---
 # <a name="use-resources-for-jobs"></a>Bruge ressourcer til sager
 Du registrerer forbruget af ressourcer i jobkladden, for at holde styr på omkostninger, priser og de arbejdstyper, der er knyttet til sagerne. Du kan finde flere oplysninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).
@@ -31,14 +31,14 @@ Du kan også bogføre forbruget af en ressource i en ressourcekladde. Posteringe
 Du kan tildele ressourcer til sager ved at oprette sagsplanlægningslinjer for sagen. Du kan finde flere oplysninger i [Oprette sager](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Sådan registreres ressourceforbrug for en sag
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagskladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.
 2. Åbn en relevante sagskladde, og udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Når kladden er fuldført, skal du vælge handlingen **Bogfør**.
 
 ## <a name="to-adjust-resource-prices"></a>Sådan reguleres ressourcepriser
 Hvis du vil ændre kost- eller salgspriser for et større antal ressourcer, kan du anvende en kørsel.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Reguler ressourcepriser**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Reguler ressourcepriser**, og vælg derefter det relaterede link.
 2. Udfyld felterne på linjen efter behov, og vælg derefter knappen **OK**.
 
 > [!NOTE]  
@@ -47,7 +47,7 @@ Hvis du vil ændre kost- eller salgspriser for et større antal ressourcer, kan 
 ## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Sådan hentes forslag til ændring af ressourcepriser ud fra eksisterende alternative priser
 Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, kan du bruge en kørsel til at angive flere alternative ressourcepriser.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ressourceprisforslag**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourceprisforslag**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Foreslå ress.salgspris (pris)**, og udfyld derefter felterne efter behov.
 3. Vælg knappen **OK**.  
 4. Siden **Ressourceprisforslag** viser resultatet af kørslen, når den er færdig.
@@ -55,7 +55,7 @@ Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, k
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
 Hvis du vil angive flere alternative ressourcepriser ud fra standardpriserne på ressourcekortet, kan du anvende en kørsel.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ressourceprisforslag**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourceprisforslag**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Foreslå ress.salgspris (ress.)**, og udfyld derefter felterne efter behov.  
 3. Vælg knappen **OK**.  
 4. Åbn siden **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.
@@ -63,7 +63,7 @@ Hvis du vil angive flere alternative ressourcepriser ud fra standardpriserne på
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
 Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, kan du bruge en kørsel til at angive flere alternative ressourcepriser.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Foreslå ress.salgspris (pris)**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Foreslå ress.salgspris (pris)**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 3. Vælg knappen **OK**.  
 4. Åbn siden **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.

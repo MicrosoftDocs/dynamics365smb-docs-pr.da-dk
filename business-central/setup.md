@@ -1,6 +1,6 @@
 ---
 title: Oversigt over opgaver til opsætning af Business Central
-description: Beskriver opgaver, som du kan udføre for at oprette, initialisere og konfigurere Business Central efter dine behov.
+description: Oversigt over de opgaver, som du kan udføre for at oprette, initialisere og konfigurere Business Central efter dine behov.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781452"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441418"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversigt over opgaver til opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781452"
 
 F.eks er din kontoplan på forhånd udfyldt med en række bogføringskonti, der er klar til brug. Du kan også ændre kontoplanen efter dine behov. Du kan finde flere oplysninger i [Finans](finance.md).
 
-Ved at klikke på ![Tandhjulsikonet, som bruges til at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png), kan du få adgang til vejledninger med assisteret opsætning, som kan hjælpe dig med at konfigurere visse scenarier og tilføje funktione i [!INCLUDE[prod_short](includes/prod_short.md)]l. Du kan finde flere oplysninger om, hvordan du får adgang til alle assisterede og manuelle opsætningssider, i [Bliv klar til at handle](ui-get-ready-business.md).  
+Fra ![ikonet Tandhjul for at åbne menuen Indstillinger.](media/ui-experience/settings_icon_small.png) menu, du kan åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om, hvordan du får adgang til alle assisterede og manuelle opsætningssider, i [Bliv klar til at handle](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
@@ -40,7 +40,7 @@ Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan k
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 | Konfigurere ressourcer, timesedler og sager for at administrere projekter. |[Konfigurere projektstyring](projects-setup-projects.md) |
 | Konfigurere, hvordan du vil forsikre, vedligeholde og afskrive anlægsaktiver, og hvordan du vil registrere udgifterne til anlægsaktiver i dine virksomhedsregnskaber. |[Opsætning af anlægsaktiver](fa-setup.md) |
-|Definere de generelle regler og værdier for lagerprocesser og den specifikke håndtering på hver enkelt lokation.|[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)|
+|Definere de generelle regler og værdier for lagerprocesser og den specifikke håndtering på hver enkelt lokation.|[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)|
 |Forberede produktionsstyklister og ruter for at definere, hvordan færdigvarer produceres, og forberede produktionsressourcer eller arbejdscentre, der skal udføre de krævede operationer.|[Konfigurere produktion](production-configure-production-processes.md)|
 |Fastsætte standardservice, symptomer og fejlkoder og oprette serviceartikler, ressourcer og dokumentation, der skal bruges til at levere service til kunderne.|[Konfigurere Service](service-setup-service.md)|
 |Læs om bedste fremgangsmåder for at angive varer til lagerkostprisberegning og forsyningsplanlægning.|[Konfigurere komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)|

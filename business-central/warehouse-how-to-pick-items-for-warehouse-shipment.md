@@ -1,6 +1,6 @@
 ---
-title: 'Fremgangsmåde: Plukke varer til lagerleverance | Microsoft Docs'
-description: Når lokationen kræver lagerpluk og lagerleverance, skal du bruge lagerplukdokumenterne til at oprette og behandle plukoplysningerne, inden du bogfører den pågældende lagerleverance.
+title: Plukke varer til lagerleverance
+description: Få mere at vide om, hvordan du bruger lagerplukdokumenterne til at oprette og behandle plukoplysninger, inden lagerleverancen bogføres.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f9cc098fc414afcf015821dadbfbe438ca157ef
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b5b92c04fea101959c32775c768bbbaab22a7c3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771750"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441856"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plukke varer til lagerleverance
 Når lokationen kræver lagerpluk og lagerleverance, skal du bruge lagerplukdokumenterne til at oprette og behandle plukoplysningerne, inden du bogfører den pågældende lagerleverance.  
@@ -38,7 +38,7 @@ Du kan også oprette lagerplukdokumenter på en push-måde fra siden **Lagerleve
 >  Se [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md) for at få oplysninger om pluk af komponenter til montageordrer generelt, herunder situationer, hvor montageelementet ikke er forfaldent på en salgsleverance.  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Sådan plukkes varer til lagerleverance  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk**, og vælg derefter det relaterede link.  
 
     Hvis du skal arbejde med et bestemt pluk, skal du vælge plukket på listen eller filtrere oversigten for at finde de pluk, der er blevet tildelt specielt til dig. Åbn plukkortet.  
 2.  Hvis feltet **Tildelt bruger-ID** er tomt, skal du skrive dit id for at identificere dig selv, hvis det er nødvendigt.  
@@ -76,9 +76,9 @@ Når lagerleverance bogføres, opdateres forskellige felter på salgsordrelinjen
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

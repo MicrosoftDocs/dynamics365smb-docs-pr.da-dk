@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6533bc4d141bd13772cad62f8a8574681bb60846
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774507"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440995"
 ---
 # <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
 Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en person i organisationen, sendes en godkendelsesanmodning som en del af en arbejdsgang. Afhængigt af hvordan arbejdsgangen er konfigureret, får den relevante godkender derefter besked om, at posten kræver godkendelse.
@@ -31,7 +31,7 @@ Grundlæggende godkendelsesworkflows for købsdokumenter, salgsdokumenter, udbet
 Følgende opgave udføres af en godkendelsesbruger.
 
 1. På siden, hvor posten vises, kan du vælge handlingen **Send godkendelsesanmodning**.
-2. For at få vist alle dine godkendelsesanmodninger skal du vælge ![ikonet Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Godkendelsesanmodningsposter** og derefter vælge det relaterede link.  
+2. Hvis du vil se alle dine godkendelsesanmodninger, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Godkendelsesanmodningsindgange**, og vælg derefter det relaterede link.  
 
 Godkendelsespostens status opdateres fra **Oprettet** til **Åben**. Postens status, f.eks. en købsfaktura, opdateres fra **Åben** til **Afventer godkendelse** og forbliver låst mod behandling, indtil alle godkendere har godkendt posten.
 
@@ -51,7 +51,7 @@ Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
 Du kan behandle godkendelsesanmodninger på siden **Anmodninger til godkendelse** for eksempel for at godkende flere anmodninger ad gangen. Alternativt kan du behandle hver anmodning i den relaterede post, f.eks siden **Købsfaktura**, ved at klikke på linket i meddelelsen, som du modtager.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anmodninger til godkendelse**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Anmodninger til godkendelse**, og vælg derefter det relaterede link.
 2. Vælg en eller flere linjer for den eller de poster, du vil godkende eller afvise.
 3. Vælg handlingerne **Godkend**, **Afvis** eller **Uddeleger**.
 
@@ -66,7 +66,7 @@ Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
 For at forhindre, at dokumenter hober sig op eller på anden måde blokerer arbejdsgangen, kan godkenderen og godkendelsesaministratoren uddelegere en godkendelsesanmodning til en stedfortrædende godkender. Stedfortræderen kan enten være en angivet stedfortræder, den direkte godkender eller godkendelsesadministratoren, i nævnte rækkefølge. Du bruger typisk denne funktion, hvis en godkender ikke til stede og ikke kan godkende anmodninger inden forfaldsdatoen.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anmodninger til godkendelse**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Anmodninger til godkendelse**, og vælg derefter det relaterede link.
 2. Vælg en eller flere linjer for de godkendelsesanmodninger, som du vil uddelegere til en stedfortrædende godkender, og vælg derefter handlingen **Uddeleger**.
 
 En notifikation til at godkende anmodningen sendes til en anden foruddefineret stedfortrædende godkender.
@@ -78,7 +78,7 @@ Med jævne mellemrum skal du minde brugerne i en godkendelsesarbejdsgang om forf
 
 Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle åbne anmodninger, der aktuelt er forfaldne. Hver godkender, der har mindst én forfalden godkendelsespost, modtager en notifikation med listen over deres forfaldne godkendelsesanmodninger. Notifikationen sendes også til deres godkender og alle anmodere om de forfaldne godkendelser. Det kan være en hjælp, hvis den forfaldne godkendelsespost skal uddelegeres til en anden godkender.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forfaldne godkendelsesanmodninger**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Overskredne anmodninger om godkendelsesfrist**, og vælg derefter det relaterede link.
 2. På siden **Forfaldne godkendelsesanmodninger** skal du vælge handlingen **Send notifikationer om forfaldne godkendelser**.
 
 ## <a name="see-also"></a>Se også

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4b7da11bb8ec1198be9f1a86fccc29a62125d281
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: f83186ec6f8c278bf0d0f8c83f74af70f78baaa6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935307"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440870"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-apps i Power BI
 
@@ -63,7 +63,7 @@ Tilmeld dig Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du 
 1. Åbn browseren, gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com), og log på din konto.
 2. Vælg **Hent data** nederst i venstre navigationsrude.  
 
-    ![Navigere til Hent data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Navigere til Hent data.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     Du kan også komme i gang inde fra [!INCLUDE [prod_short](includes/prod_short.md)]. Naviger til **Rapportvalg** i afsnittet Power BI fra startsiden. Vælg enten **Service** eller **Min virksomhed** på båndet. Enten er organisationsgalleriet i Power BI eller Microsoft AppSource åbnet, filtreret til kun at vise apps, der relaterer til [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -89,9 +89,9 @@ Tilmeld dig Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du 
 5. Skriv brugernavnet og adgangskoden for at logge på [!INCLUDE[prod_short](includes/prod_short.md)], når du bliver bedt om det .
 6. Når forbindelsen er oprettet, føjes der et dashboard og rapporter til dit Power BI-arbejdsområde. Når dette er fuldført, viser felterne data fra din [!INCLUDE[prod_short](includes/prod_short.md)]-virksomhed.
 
-    ![Vælg Dynamics 365 Business Central, og vælg Hent nu](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Vælg Dynamics 365 Business Central, og vælg Hent nu.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## <a name="fixing-problems"></a>Løse problemer
+## <a name="fixing-problems"></a>Løsning af problemer
 
 Power BI-dashboardet er baseret på de udgivne webtjenester, der er angivet ovenfor. Det viser data fra demoregnskabet eller din egen virksomhed, hvis du importerer data fra den aktuelle økonomiløsning. Men hvis noget går galt indeholder dette afsnit en løsning til de mest almindelige problemer.  
 

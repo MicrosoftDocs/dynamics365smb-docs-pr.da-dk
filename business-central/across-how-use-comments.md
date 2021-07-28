@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6d7a5882829bb12620337c5985c31f85d69c5c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787203"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440970"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Føje bemærkninger til kort og dokumenter
 Du kan føje ekstra oplysninger til finanskonti, debitorkort eller salgsordrer for at kommunikere forventninger eller særaftaler til andre brugere.
@@ -31,7 +31,7 @@ Desuden kan du angive, om bemærkninger skal overføres fra én type dokument ti
 Nedenfor beskrives, hvordan du føjer en bemærkning til et varekort. Trinene er de samme for alle andre kort og dokumenter, undtagen på dokumentlinjer, hvor **Bemærkninger**-handlingen er placeret i en menu for linjehandlinger.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Sådan føjes en bemærkning til et varekort
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn det relevante varekort.
 3. Vælg handlingen **Bemærkninger**.
 4. Skriv din tekst på siden **Bemærkning**, og vælg derefter knappen **OK**.

@@ -1,6 +1,6 @@
 ---
-title: Sådan opretter du forudbetalingsfakturaer | Microsoft Docs
-description: Få at vide, hvordan du håndterer situationer, hvor du eller din leverandør kræver forudbetaling.
+title: Sådan oprettes forudbetalingsfakturarer
+description: Få at vide, hvordan du håndterer situationer, hvor du eller din leverandør kræver forudbetaling. Du kan bruge standardprocenterne til hver enkelt salgs- eller købslinje, eller du kan regulere beløbet efter behov.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 72a073fcde9ddf20df7c138ab544afb6719b93ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782159"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442181"
 ---
 # <a name="create-prepayment-invoices"></a>Oprette forudbetalingsfakturaer
 
@@ -29,7 +29,7 @@ Følgende procedure beskriver, hvordan du fakturerer en forudbetaling for en sal
 
 ## <a name="to-create-a-prepayment-invoice"></a>Sådan oprettes en forudbetalingsfaktura
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Opret en ny salgsordre for den ønskede kunde. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
 
     I oversigtspanelet **Forudbetaling** angiver feltet **Forudbetaling i %** den procentsats, der skal bruges til at beregne forudbetalingsbeløbet. Feltet udfyldes automatisk, hvis der er angivet en standardforudbetalingsprocent på debitorkortet. Du kan ændre procentsatsen. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  

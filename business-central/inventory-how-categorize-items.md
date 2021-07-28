@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 55196b8026e5efc5a79ce1a547e2ff594fae231c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b831443bd9e068b4c20f583cc8e0e7132d75ac5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786019"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441139"
 ---
 # <a name="categorize-items"></a>Kategorisere varer
 
@@ -27,7 +27,7 @@ Hvis du vil kunne finde varer ud fra egenskaber, kan du tildele vareattributter 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
 ## <a name="to-create-an-item-category"></a>Sådan oprettes en varekategori
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekategorier**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekategorier**, og vælg derefter det relaterede link.
 2. På siden **Varekategorier** skal du vælge handlingen **Ny**.
 3. Udfyld felterne efter behov på siden **Varekategorikort** i oversigtspanelet **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. I oversigtspanelet **Attributter** skal du angive eventuelle vareattributter for varekategorien. Du kan finde flere oplysninger i [Sådan tildeles vareattributter til varekategorier](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
@@ -42,7 +42,7 @@ Hvis du ændrer mening om en varekategori, kan du slette den. Hvis den allerede 
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Sådan tildeles en varekategori til en vare
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for den vare, du vil tildele til en varekategori.
 3. Vælg opslagsknappen i feltet **Kategorikode**, og vælg en eksisterende varekategori. Du kan også vælge handlingen **Ny** for først at oprette en ny varekategori som beskrevet i [Sådan oprettes en varekategori](inventory-how-categorize-items.md#to-create-an-item-category).
 

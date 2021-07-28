@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79c204a6c8a173985a5d3558d5ce1af5a2d8fc39
-ms.sourcegitcommit: 6add995f289c56e5497409308825c73eeaa4f62f
+ms.openlocfilehash: 9f43141d4280fcadedc8072194f0d4d52e50cdf2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941513"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441264"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Konfigurere bogføring af koncernintern transaktion
 
@@ -28,11 +28,11 @@ Hvis du vil oprette eller modtage koncerninterne linjer med varer, kan du enten 
 Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du udfylde feltet **Finanskt.nr. for IC-partnerkøb** på ressourcekortet til hver relevant ressource. Det er nummeret på den IC-finanskonto, som prisen på denne ressource bogføres på i din partners virksomhed. Der er flere oplysninger i [Konfigurere ressourcer](projects-how-setup-resources.md).
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Sådan konfigureres virksomheder til koncerninterne transaktioner
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomhedsoplysninger**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Virksomhedsoplysninger**, og vælg derefter det relaterede link.  
 2. På siden **Virksomhedsoplysninger** skal du udfylde felterne **Koncernintern partnerkode**, **Koncernintern indbakketype**. og **Koncerninterne indbakkeoplysninger**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Sådan konfigureres koncerninterne partnere
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncerninterne partnere**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne partnere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. På siden **Intercompany Partner** skal du udfylde felterne efter behov.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -40,7 +40,7 @@ Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du ud
 > I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du ikke bruge filplaceringer til at overføre transaktioner til partnerne, fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har adgang til dit lokale netværk. Hvis du vælger **Filplacering** i feltet **Overførselstype**, er feltet **Mappesti** ikke tilgængeligt. I stedet bliver filen downloadet til mappen Overførsler på din computer. Derefter kan du sende filen til en person i partnervirksomheden, f.eks. via mail. Hvis du vil have en mere direkte proces, anbefales du at vælge **Mail** i stedet.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Sådan konfigureres koncerninterne kreditorer og koncerninterne debitorer
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Du kan også få adgang til kreditoren fra feltet **Kreditornummer** på siden **Koncernintern partner**.
 3. Åbn kortet for den kreditor, der er en koncernintern partner. Du kan finde flere oplysninger i [Registrere nye kreditorer](purchasing-how-register-new-vendors.md).
 4. I feltet **Koncernintern partnerkode** skal du vælge den relevante koncerninterne partnerkode.
@@ -54,19 +54,19 @@ Hvis din virksomhed er moderselskabet og har den definerende koncerninterne kont
 Hvis din virksomhed er et datterselskab, og du modtager en XML-fil med den fælles koncerninterne kontoplan, skal du følge proceduren: [Sådan indlæses den koncerninterne kontoplan](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Sådan konfigureres den definerende koncerninterne kontoplan
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernintern kontoplan**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern kontoplan**, og vælg derefter det relaterede link.
 2. På siden **Koncernintern kontoplan** skal du angive hver konto på en linje på siden.  
 3. Hvis den koncerninterne kontoplan skal være identisk med eller ligge tæt opad din almindelige kontoplan, kan du få udfyldt siden automatisk ved at vælge handlingen **Kopier fra kontoplan**. Du kan redigere nye linjer efter behov.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Sådan udlæses den koncerninterne kontoplan
 Hvis dine koncerninterne partnere skal kunne indlæse den definerende kontoplan, skal du udlæse den til en fil.      
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernintern kontoplan**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern kontoplan**, og vælg derefter det relaterede link.
 2. På siden **Koncernintern kontoplan** skal du vælge handlingen **Udlæs** og derefter vælge knappen **Gem**.
 3. Angiv filnavnet og den placering, hvor du vil gemme XML-filen, og vælg derefter knappen **Gem**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Sådan indlæses IC-kontoplanen  
 Når der findes en fil til den definerende koncerninterne kontoplan (IC-kontoplan), kan koncerninterne partnere indlæse den for at sikre, at de har de samme konti.  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernintern kontoplan**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern kontoplan**, og vælg derefter det relaterede link.  
 2. På siden **Koncernintern kontoplan** skal du vælge handlingen **Indlæs**.  
 3. Vælg XML-filens navn og placering, og vælg derefter knappen **Åbn**.  
 
@@ -77,7 +77,7 @@ Når du har defineret eller indlæst den koncerninterne kontoplan, som du og din
 
 Hvis kontiene i den koncerninterne kontoplan har samme nummer som de tilsvarende konti i kontoplanen, kan du tildele kontiene automatisk.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncernintern kontoplan**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern kontoplan**, og vælg derefter det relaterede link.  
 2. Marker de linjer, som du vil tilknytte automatisk, og væg derefter handlingen **Knyt til konto med samme nr.**.  
 3. For hver IC-finanskonto, der ikke blev tilknyttet automatisk, skal du udfylde feltet **Finanskontonr. for tilknytning**.  
 
@@ -86,7 +86,7 @@ Når du opretter en salgs- eller købslinje, der skal sendes som udgående IC-tr
 
 Når du derefter angiver en finanskonto i feltet **Modkontonr.** på en koncernintern linje, hvor der står **Koncernintern partner** i feltet **Kontotype**, udfyldes feltet **Finanskonto for koncernintern partner** automatisk.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. På linjen for en finanskonto, der bruges til koncerninterne transaktioner, skal du i feltet **Standardfinanskonto for koncernintern partner** angive den IC-finanskonto, som partneren bogfører på, når du bogfører til finanskontoen på linjen.  
 3. Gentag trin 2 for hver konto, som du ofte angiver i feltet **Modkontonr.** på en linje i en IC-kladde eller et IC-dokument.
 
@@ -102,7 +102,7 @@ Hvis din virksomhed er moderselskabet og har det definerende sæt koncerninterne
 Hvis din virksomhed er et datterselskab, og du modtager en XML-fil med koncerninterne dimensioner, som skal bruges som fælles reference i koncernen, skal du følge proceduren: [Sådan indlæses koncerninterne dimensioner](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Sådan defineres koncerninterne dimensioner
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.  
 2. Angiv hver dimension på en linje på siden **Koncerninterne dimensioner**.
 
     Hvis dine koncerninterne dimensioner skal være identiske med eller ligge tæt opad de eksisterende dimensioner i dit regnskab, kan du få udfyldt siden automatisk ved at klikke på **Kopier fra dimensioner**, hvorefter du kan redigere de indsatte linjer.  
@@ -111,7 +111,7 @@ Hvis din virksomhed er et datterselskab, og du modtager en XML-fil med koncernin
 
 ### <a name="to-import-the-intercompany-dimensions"></a>Sådan indlæses koncerninterne dimensioner  
 Når der findes en fil til de definerende koncerninterne dimensioner, kan koncerninterne partnere indlæse den for at sikre, at de har de samme dimensioner.  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.  
 2. På siden **Koncerninterne dimensioner** skal du vælge handlingen **Indlæs**.  
 3. Angiv XML-filens navn og placering, og vælg derefter knappen **Åbn**.  
 
@@ -124,7 +124,7 @@ Hvis nogle af de koncerninterne dimensioner har samme kode som de tilsvarende di
 
 I følgende trin skal du først knytte IC-dimensionerne til dimensioner for indgående dokumenter på siden **IC-dimensioner**. Derefter knytter du dimensioner til IC-dimensioner for udgående dokumenter på siden **Dimensioner**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.
 2. På siden **Koncerninterne dimensioner** skal du markere de linjer, som du vil tilknytte automatisk, og derefter vælge handlingen **Knyt til dim. med samme kode**.
 3. Udfyld feltet **Dim.kode for tilknytning** for hver IC-dimension, der ikke tilknyttes automatisk.
 
@@ -133,7 +133,7 @@ I følgende trin skal du først knytte IC-dimensionerne til dimensioner for indg
 5. Udfyld feltet **Dim.værdikode for tilknytning** på siden **Koncerninterne dimensionsværdier**.
 
     Fortsæt med at knytte dimensionerne til koncerninterne dimensioner ved at udføre lignende trin.
-6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensioner**, og vælg derefter det tilknyttede link.
+6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dimensioner**, og vælg derefter det relaterede link.
 7. På siden **Koncerninterne dimensioner** skal du markere de linjer, som du vil tilknytte automatisk, og derefter vælge handlingen **Knyt til IC-dim. med samme kode**.
 8. Udfyld feltet **IC-dim.værdikode for tilknytn.** for hver koncerninterne dimension, der ikke tilknyttes automatisk.
 9. Vælg handlingen **Koncerninterne dimensionsværdier**.

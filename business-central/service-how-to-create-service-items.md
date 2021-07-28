@@ -1,6 +1,6 @@
 ---
-title: Sådan oprettes serviceartikler | Microsoft Docs
-description: Når du modtager en ikke-registreret vare til reparation, kan du registrere den som en serviceartikel.
+title: 'Fremgangsmåde: Oprette serviceartikler'
+description: Læse om de forskellige måder, du kan oprette serviceartikler på i Business central, f. eks. i en serviceordre eller ved levering af varer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4e6568a02c6a1aca524cb1a3f3a6cbd4798d6d3b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8803883e69678ee636c26b66bd34d38cfabe0042
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770709"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441956"
 ---
 # <a name="create-service-items"></a>Oprette serviceartikler
 I [!INCLUDE[prod_short](includes/prod_short.md)] refererer termen "serviceartikel" til udstyr eller varer, der kræver service. Når du opretter en serviceordre, kan du angive de varer, der har brug for service. I ordren kan du knytte en serviceartikel til en vare på lageret eller en serviceartikelgruppe.    
@@ -23,13 +23,13 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] refererer termen "serviceartike
 Når du modtager en vare, der kræver service, kan du registrere den som en serviceartikel. Dette kan gøres på flere måder. Du kan f.eks. oprette en serviceartikel på siden **Serviceartikler** eller som en del af en anden proces, f.eks. når du arbejder med en serviceordre.   
 
 ## <a name="to-create-a-service-item"></a>Oprette en serviceartikel  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceartikler**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceartikler** og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Sådan oprettes serviceartikler fra serviceordrer  
 Når du modtager artikler, som du vil registrere som serviceartikler, kan du oprette dem som serviceartikler på siderne **Serviceordre** eller **Servicetilbud**.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Vælg handlingen **Opret serviceartikel**.  
 
@@ -40,7 +40,7 @@ Når du leverer varer enten ved at bogføre salgsordrer eller salgsfakturaer, re
 
 Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når du leverer varer i salgsordrer.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Åbn den relevante Salgsordre.  
 3. Vælg handlingen **Bogfør** eller **Bogfør og udskriv**.  
 4. Vælg handlingen **Lever** eller **Lever og fakturer**.  
@@ -52,7 +52,7 @@ Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når
 >  Hvis varen er en stykliste, og du ikke har udfoldet styklisten, oprettes der en serviceartikel til den på de samme betingelser for serviceartikelgruppen og eventuelt betingelsen for serienumre.  
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Sådan indsættes startgebyrer for serviceartikler
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceopgaver**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceopgaver** og vælg derefter det relaterede link.
 2. Vælg handlingen **Varekladde**.
 3. Vælg servicelinjen, og vælg derefter **Handlinger**, vælg **Funktioner**, og vælg derefter handlingen **Indsæt startgebyr**.  
 

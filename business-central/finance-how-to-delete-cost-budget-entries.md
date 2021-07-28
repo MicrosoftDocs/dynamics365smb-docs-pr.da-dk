@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e2f05388149e9e6587f916db79b652e64ad5d02e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d506a6f1a5aa40a7dcc77bab66d5a13085d364c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774835"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442156"
 ---
 # <a name="delete-cost-budget-entries"></a>Slet omkostningsbudgetposter
 Du kan bruge kørslen **Slet omkostningsbudgetposter** til at annullere omkostningsbudgetposter fra omkostningsbudgetregistret.  
@@ -24,7 +24,7 @@ Du kan ikke slette en enkelt post eller flere poster i midten af listen over jou
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Sådan slettes en omkostningsbudgetpost  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet omkostningsbudgetposter**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet omkostningsbudgetposter**, og vælg derefter det relaterede link.  
 
     Feltet **Til-journalnr.** indeholder nummeret på den sidste journalpost og kan ikke ændres.  
 

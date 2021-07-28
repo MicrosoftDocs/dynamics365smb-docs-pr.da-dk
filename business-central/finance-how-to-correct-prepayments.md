@@ -1,6 +1,6 @@
 ---
-title: Sådan rettes forudbetalinger | Microsoft Docs
-description: Du kan foretage en rettelse af en ordre, efter at du har bogført en forudbetalingsfaktura for den. Du kan indsætte nye linjer i ordren, efter at der er udstedt en forudbetaling, og derefter kan du bogføre en anden forudbetalingsfaktura, men du kan ikke slette en linje fra en ordre, hvis der allerede er faktureret en forudbetaling for linjen.
+title: 'Fremgangsmåde: Rette forudbetalinger'
+description: Du kan foretage rettelser i en ordre, efter at du har bogført en forudbetalingsfaktura for ordren, og føje nye linjer til ordren, efter at der er udstedt en forudbetaling.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0ed9bed71ca73e25197869f1f670251ae523648c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5163602f3a311598e992b24a55b7a5542bcaad2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783530"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442230"
 ---
 # <a name="correct-prepayments"></a>Rette forudbetalinger
 
@@ -28,7 +28,7 @@ Du kan foretage en rettelse af en ordre, efter at du har bogført en forudbetali
 
 Følgende procedure viser, hvordan du kan udstede en forudbetalingskreditnota for at annullere alle fakturerede forudbetalinger for en salgsordre.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Åbn den relevante Salgsordre.
 3. Vælg handlingen **Forudbetaling**, og vælg derefter handlingen **Forudbetalingskreditnota** eller handlingen **Bogfør og udskriv forudbetalingskreditnota**.  
 4. På siden **Salgskreditnota** skal du fortsætte med at løse de relevante poster som for en salgskreditnota. Du kan finde flere oplysninger i [Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md).  

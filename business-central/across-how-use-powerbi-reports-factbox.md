@@ -1,6 +1,6 @@
 ---
-title: Vise brugerdefinerede Power BI-rapporter for Business Central-data
-description: Du kan bruge Power BI-rapporter til at få ekstra indsigt i data på lister.
+title: Vis brugerdefinerede Power BI-rapporter
+description: Du kan bruge Power BI-faktaboksen til at vise Power BI-rapporter og få ekstra indblik i data i nøgle lister.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/26/2021
+ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: d2ce2588604ae676ba8b2cb73878a2d8dfd32b63
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: b5858d3852eddc19501f0b3dc1c5f4071b07baee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087690"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440920"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Oprettelse af Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -53,7 +53,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
     2. Træk feltet til ruden **Filter**, og slip den i boksen **Filtrer på alle sider**.
     3. Indstil **Filtertype** til **Grundlæggende filtrering**. Det kan ikke være sidefilter, visuelt eller avanceret filter.
 
-    ![Indstilling af rapportfilteret for rapporten Salgsfakturaaktivitet](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
+    ![Indstilling af rapportfilteret for rapporten Salgsfakturaaktivitet.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-filter-v3.png)
 4. Design rapportlayoutet.
 
     Opret layoutet ved at trække felter og tilføje visuelle effekter. Du kan finde flere oplysninger i [Arbejde med rapportvisning i Power BI Desktop](/power-bi/create-reports/desktop-report-view) i dokumentationen til Power BI.
@@ -86,7 +86,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 Størrelsen på rapporten skal angives til 325 x 310 pixel. Denne størrelse angiver rapportens korrekte skalering på den ledige plads i Power BI-faktaboksens kontrolelementet i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil angive størrelsen på rapporten, skal du placere fokus uden for rapportens layoutområde og derefter vælge malerulleikonet.
 
-![Angive rapportbredde og højde for rapporten Salgsfakturaaktivitet](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
+![Angive rapportbredde og højde for rapporten Salgsfakturaaktivitet.](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
 Du kan ændre bredden og højden for rapporten ved at vælge **Brugerdefineret** i feltet **Type**.
 

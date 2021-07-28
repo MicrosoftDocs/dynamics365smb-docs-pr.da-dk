@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba15a65317ebf52579c285c93dd59eba1b65ae1b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 848b2ddc00f5006f31a0b2cff0a07d51ec305921
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787103"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440795"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportvalg i Business Central
 
@@ -32,7 +32,7 @@ På **Rapportvalg**-siderne kan du angive, hvilken rapport der skal udskrives i 
 |Definere rapporter for momsrapportering (Tyskland)|[Konfigurere rapporter til moms og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Din [!INCLUDE [prod_short](includes/prod_short.md)] kan f.eks. omfatte yderligere **Rapportvalg**-sider, afhængigt af f.eks. og branche. Du kan altid kontrollere opsætningen ved at vælge den ![Elpære, der åbner Fortæl mig-funktionsikonet](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og skrive **Rapportvalg** og derefter vælge det relevante link.
+> Din [!INCLUDE [prod_short](includes/prod_short.md)] kan f.eks. omfatte yderligere **Rapportvalg**-sider, afhængigt af f.eks. og branche. Du kan altid kontrollere din opsætning ved at vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Ikon, skriv **Rapportvalg** og vælg derefter det relevante link.
 
 Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer følgende **Rapportsektion**-sider:
 

@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 709269be891e2e14c362ce3dba0685a67021ab81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e45777c8de2dec6a4a968ba8062843f4c92ffa2c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781477"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441881"
 ---
 # <a name="lend-and-receive-loaners"></a>Udlåne og modtage udlånsvarer
 Du kan låne varer til kunderne for midlertidigt at erstatte de serviceartikler, du har modtaget til reparation.  
   
 ## <a name="to-lend-a-loaner-item"></a>Sådan udlånes en lånevare    
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
 2. Åbn det relevante serviceordrekort.  
 3. Vælg serviceartikellinjen med den serviceartikel, du vil erstatte med en udlånt vare.  
 4. I feltet **Udlånsvarenr.** skal du vælge den relevante udlånsvare.  
@@ -30,7 +30,7 @@ Du kan låne varer til kunderne for midlertidigt at erstatte de serviceartikler,
 ## <a name="to-receive-a-loaner"></a>Sådan modtages udlånte varer  
 Når du modtager en udlånt vare fra en kunde, skal du registrere modtagelsen. Det gør du på siderne **Serviceordre**, **Bogført serviceleverance** og **Udlånsvarekort**. Nedenfor vises, hvordan udlånte varer modtages på siden **Serviceordre**.  
   
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
 2. Åbn den relevante serviceordre.  
 3. Vælg serviceartikellinjen med den udlånsvare, du vil modtage.  
 4. Vælg **Handlinger**, vælg **Funktioner**, og vælg derefter **Modtag udlånsvare**.  
@@ -38,7 +38,7 @@ Når du modtager en udlånt vare fra en kunde, skal du registrere modtagelsen. D
 ## <a name="to-register-loaner-comments"></a>Sådan registreres bemærkninger til udlånte varer  
 Du kan bruge siden **Generelt Servicebemærkninger** til at registrere bemærkninger til registrerede udlånte varer.  
   
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udlånsvarer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udlånsvarer**, og vælg derefter det relaterede link.  
 2. Åbn det relevante udlånsvarekort.  
 3. Vælg handlingen **Bemærkninger**. Siden **Generelt Servicebemærkninger** åbnes.  
 4. Angiv en dato i feltet **Dato**.  

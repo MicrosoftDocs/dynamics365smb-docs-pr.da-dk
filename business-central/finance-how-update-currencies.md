@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184445"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441618"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 
@@ -23,7 +23,10 @@ Derefter skal du oprette valutakoder for hver valuta, du bruger, hvis du køber 
 > [!Important]
 > Du skal ikke oprette den lokale valutakode både i **regnskabsopsætningen** og på **valuta**-siden. Dette vil skabe forvirring mellem den tomme valuta og koden for RV i valutatabellen, og bankkonti, debitorer og kreditorer kan ved et uheld blive oprettet, nogle med den tomme valuta og nogle med RV-koden.
 
-Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md). Den ekstra rapporteringsvaluta bruges ofte til at lette finansiel rapportering til ejere, som er placeret i lande/områder, som bruger forskellige valutaer end den lokale valuta (RV).
+Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md). Den ekstra rapporteringsvaluta bruges ofte til at lette finansiel rapportering til ejere, som er placeret i lande/områder, som bruger forskellige valutaer end den lokale valuta (RV).  
+
+> [!IMPORTANT]
+> Hvis du vil bruge en ekstra rapporteringsvaluta til finansiel rapportering, skal du have kendskab til begrænsningerne. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valutaer
 
@@ -66,7 +69,9 @@ Du kan angive valutakoder i **valutaerne**, herunder yderligere oplysninger og i
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en valutapostering for tilgodehavender
 
-I følgende eksempel modtages en faktura den 1. januar med Valutabeløbet på 1000. På det tidspunkt er valutakursen 1,123.
+Når du modtager en faktura fra en virksomhed i en udenlandsk valuta, er det forholdsvis nemt at beregne fakturaens lokale valuta (RV) på basis af den aktuelle valutakurs. Fakturaen leveres imidlertid ofte med betalingsbetingelser, så du kan udskyde betalingen til en senere dato, hvilket indebærer en anden valutakurs. Dette problem kombineret med, at valutakurser altid er forskellige fra de officielle valutakurser gør, at det ikke er muligt at forudsige det nøjagtige beløb i den lokale valuta (RV), der er nødvendig for at dække fakturaen. Hvis fakturaens forfaldsdato går til næste måned, skal du muligvis også revaluate det lokale valuta beløb i slutningen af måneden. Kursreguleringen er nødvendig, fordi den nye RV-værdi, der skal dække fakturabeløbet, kan være anderledes, og firmaets gæld til leverandøren er potentielt ændret. Det nye RV-beløb kan være højere eller lavere end det forrige beløb og vil derfor være et tab eller et tab. Men da fakturaen endnu ikke er betalt, anses gevinsten eller tabet for at være *Urealiseret*. Senere betales fakturaen, og banken har returneret den faktiske valutakurs for betalingen. Det antages ikke, at det *realiserede* gevinst-eller tabsbeløb beregnes. Denne urealiserede gevinst eller gevinst tilbageføres derefter, og realiseringen af gevinsten eller tabet bogføres i stedet.
+
+I følgende eksempel modtages en faktura den 1. januar med Valutabeløbet på 1000. På det tidspunkt er valutakursen 1.123.
 
 |Dato|Handling|Valutabeløb|Bilagskurs|RV-beløb på dokument|Justeringskurs|Ikke-realiseret finansgevinstbeløb|Betalingssats|Realiseret finansbeløb|  
 |-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
@@ -117,14 +122,14 @@ Generelt bruges værdierne i felterne **Valutakursbeløb** og **Associeret valut
 
 > [!Note]
 > Den faktiske valutakurs beregnes vha. følgende formel:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
 Reguleringsvalutakursbeløbet for reguleringsvalutakursen eller relations-reguleringen bruges til at opdatere alle åbne bank-, debitor-eller købstransaktioner.  
 
 > [!Note]
 > Den faktiske valutakurs beregnes vha. følgende formel:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Regulering af valutakurser
@@ -143,12 +148,15 @@ Det gælder for debitor- og kreditorkonti, at kørslen regulerer valutaen vha. d
 Kørslen gennemgår alle åbne debitor- og kreditorposter. Hvis der er en kursdifference for en post, oprettes der en ny detaljeret debitor- eller leverandørpost, der viser det justerede beløb i debitor- eller leverandørposten.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensioner for debitor- og kreditorposter
+
 Reguleringsposterne tildeles dimensionerne fra debitor-/kreditorposter, og reguleringerne bogføres pr. kombination af dimensionsværdier.
 
 ### <a name="effect-on-bank-accounts"></a>Indflydelse på bankkonti
+
 Det gælder for bankkonti, at kørslen regulerer valutaen vha. den valutakurs, der er gældende på den bogføringsdato, der er angivet i kørslen. Kørslen beregner forskellene for hver bankkonto, der er blevet tildelt en valutakode, og bogfører beløbene på den finanskonto, der er angivet i feltet **Realiseret gevinstkonto** eller i feltet **Realiseret tabskonto** på siden **Valutaer**. Modposter bogføres automatisk på de finansbankkonti, der er angivet i bankbogføringsgrupperne. Kørslen beregner én post pr. valuta pr. bogføringsgruppe.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Dimensioner for bankkontoposter
+
 Reguleringsposterne for bankkontoens finanskonto og for gevinst-/tabskontoen tildeles bankkontoens standarddimensioner.
 
 ### <a name="effect-on-gl-accounts"></a>Indflydelse på finanskonti
@@ -165,20 +173,20 @@ Reguleringsposterne tildeles standarddimensionerne fra de konti, de bogføres p�
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Sådan konfigureres en valutakurstjeneste
 Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks. FloatRates.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valutakurstjenester**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valutakurstjenester**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. På siden **Valutakurstjenester** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Aktiver tjenesten til ved at slå **Aktiveret** til.
 
 > [!NOTE]
-> Følgende video viser et eksempel på, hvordan du kan oprette forbindelse til en valutakursservice med brug af den europæiske Central Bank. I den målgruppe, der beskriver, hvordan du opretter felttilknytninger, returnerer indstillingen i kolonnen til den **Overordnede node for Valutakode** kun den første valuta, der er fundet i kolonnen **Kilde**. Indstillingen skal være **/gesmes:Envelope/Code/Code/Code**.
+> Følgende video viser et eksempel på, hvordan du kan oprette forbindelse til en valutakursservice med brug af den europæiske Central Bank. I den målgruppe, der beskriver, hvordan du opretter felttilknytninger, returnerer indstillingen i kolonnen til den **Overordnede node for Valutakode** kun den første valuta, der er fundet i kolonnen **Kilde**. Indstillingen skal være `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Sådan opdateres valutakurser fra en tjeneste
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valutaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **valutaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Opdater valutakurser**.
 
 Værdien i feltet **Valutakurs** på siden **Valutaer** opdateres med den seneste valutakurs.

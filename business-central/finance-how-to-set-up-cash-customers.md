@@ -1,6 +1,6 @@
 ---
-title: Sådan angives kontantkunder | Microsoft Docs
-description: Dette emne beskriver trinnene i opsætning af debitor, som betaler kontant.
+title: Sådan angives kontantkunder
+description: I dette emne beskrives de trin, der er nødvendige for at oprette fakturaen med et debitornummer for debitorer, der betaler kontant.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f047876678d26e7e53bf304433f38a410ba7d7fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9462b7bb887b5c4d2dcc0f602d5cd0fe57ccc1fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770387"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442081"
 ---
 # <a name="set-up-cash-customers"></a>Konfigurere kontantkunder
 Du kan ikke oprette en faktura uden et debitornummer. Det gælder også, hvis du sælger kontant og ikke har noget at registrere i en kundekonto.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Definere en kontantkunde  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunde**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor**, og vælg derefter det relaterede link.  
 2.  Opret et nyt kort for en **Kunde**. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
 3.  I feltet **Nummer** skal du f.eks. angive **Kontant**.  
 4.  Angiv f.eks. **Kontantsalg** i feltet **Navn**.  
