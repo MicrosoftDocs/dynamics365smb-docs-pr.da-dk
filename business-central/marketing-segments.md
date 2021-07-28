@@ -1,6 +1,6 @@
 ---
-title: Administrere målgrupper og vælge kontakter, der skal medtages | Microsoft Docs
-description: Beskriver de opgaver, du skal udføre for at oprette en målgruppe og vælge en gruppe kontaktpersoner ud fra bestemte kriterier, f.eks. kontaktpersoner i en bestemt branche, du vil målrette din henvendelse til.
+title: Administrere målgrupper og vælge kontakter
+description: I dette emne beskrives det, hvordan du kan oprette en målgruppe ved at vælge en gruppe kontakter i overensstemmelse med bestemte kriterier, der er nyere, så de kan knyttes til en kampagne.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 04034f51379874f9d8755b229ef4b251af0be37e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784413"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323589"
 ---
 # <a name="managing-segments"></a>Administrere målgrupper
 Du opretter målgrupper for at vælge en gruppe kontaktpersoner i overensstemmelse med bestemte kriterier. F.eks. kan en målgruppe være den branche, som kontaktpersonerne arbejder i, eller dine forretningsmæssige relationer med kontaktpersonerne. Du kan oprette en målgruppe for at vælge de kontaktpersoner, som er målet med en kampagne.

@@ -1,6 +1,6 @@
 ---
-title: Administrere lageromkostninger | Microsoft Docs
-description: Omkostningsadministration, også kendt som "costing", vedrører registrering og rapportering af virksomhedens driftsomkostninger. Den omfatter rapportering af produktionsomkostninger og lageromkostninger, dvs. værdien af varer.
+title: Administrere lageromkostninger
+description: Omkostningsadministration handler om registrering og rapportering af virksomhedens driftsomkostninger, herunder rapportering af produktionsomkostninger og lageromkostninger.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1dc6cade08a3aab9c5d1cda4b6a2c64995988df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a0b466979f749e2d42afac06899a9c079f23ff56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780828"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321883"
 ---
 # <a name="managing-inventory-costs"></a>Administrere lageromkostninger
 Omkostningsadministration, også kendt som "costing", vedrører registrering og rapportering af virksomhedens driftsomkostninger. Den omfatter rapportering af produktionsomkostninger og lageromkostninger, dvs. værdien af varer.   

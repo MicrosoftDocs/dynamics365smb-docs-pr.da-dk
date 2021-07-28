@@ -1,19 +1,19 @@
 ---
 title: Håndtering af manglende indstillingsværdier
-description: Få mere at vide om, hvordan du forhindrer, at fuld synkronisering mislykkes, fordi indstillingerne er forskellige i tilknyttede felter.
+description: Få mere at vide om, hvordan du forhindrer, at fuld synkronisering mislykkes, fordi indstillingerne er forskellige i tilknyttede felter. Disse processer, der beskrives, kræver hjælp af en udvikler.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: cd2ed879c6ef6022431e273fa9953110ce482567
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: 894414ca22ec960c228f9519cb54d9044790a87b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773200"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324071"
 ---
 # <a name="handling-missing-option-values"></a>Håndtering af manglende indstillingsværdier
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]

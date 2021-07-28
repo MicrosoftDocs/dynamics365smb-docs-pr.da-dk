@@ -1,6 +1,6 @@
 ---
-title: WorldPay Payments Standard| Microsoft Docs
-description: Indeholder oplysninger om WorldPay Payments Standard-udvidelsen
+title: WorldPay Payments Standard
+description: Med udvidelsen WorldPay Payments Standard kan du tilbyde kunder et praktisk alternativ til betalinger via bankoverførsler eller kreditkort.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: a5e9d7d5c03ddb71283f82e5096cebc7f9da9690
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7a5d492ec273bfccd016e8216510f3301234d931
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771256"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322640"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Udvidelsen WorldPay Payments Standard
 Med udvidelsen WorldPay Payments Standard kan du tilbyde kunder et praktisk alternativ til betalinger via bankoverførsler eller kreditkort. Ikke nok med det, betalinger foretaget via betalingstjenester står typisk hurtigere på bankkontoen.

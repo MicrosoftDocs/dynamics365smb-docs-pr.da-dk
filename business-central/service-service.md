@@ -1,6 +1,6 @@
 ---
-title: Service | Microsoft Docs
-description: Lær at bruge funktioner, der er udviklet til at understøtte reparations- og teknisk service-handlinger.
+title: Servicestyring
+description: Lære, hvordan du bruger funktioner i Business Central designet til at administrere og spore services til understøttelse af reparationsservice og servicehandlinger.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 44167244c872ae5235d0f8443df826a45aafd253
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776688"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320077"
 ---
-# <a name="service-management"></a>Service Management
+# <a name="service-management"></a>Servicestyring
 > [!NOTE]
 > Funktioner, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 

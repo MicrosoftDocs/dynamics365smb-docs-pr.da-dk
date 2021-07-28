@@ -1,6 +1,6 @@
 ---
-title: Lokal funktionalitet for Danmark | Microsoft Docs
-description: I dette afsnit beskrives lokale funktioner i Danmark.
+title: Lokal funktionalitet for Danmark
+description: I følgende emne kan du læse sammenkædede oplysninger om lokal funktionalitet i Danmark.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: fbe34bca5fb732e4899ff347cf1991b042105c8b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4f179f48f800da4df3718d61d9cab3a6837ecd53
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780222"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318806"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 

@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: Ofte stillede spørgsmål om listevisninger
-  description: Detaljerede oplysninger om lagring af filtre som listevisninger.
+  description: Denne artikel besvarer dine ofte stillede spørgsmål om listevisninger og indeholder detaljerede oplysninger om at gemme og arbejde med filtre som listevisninger.
   author: mikebcMSFT
   ms.service: dynamics365-business-central
   ms.topic: conceptual
@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 04/01/2021
+  ms.date: 06/24/2021
   ms.author: mikebc
-  ms.openlocfilehash: 4406c6a87826dcbc4626bc48db86d1f9d3635ccf
-  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.openlocfilehash: 8c046697ce13b6079c54fa6d569cb4a40e1a4cc0
+  ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
   ms.translationtype: HT
   ms.contentlocale: da-DK
-  ms.lasthandoff: 05/11/2021
-  ms.locfileid: "6017298"
+  ms.lasthandoff: 06/30/2021
+  ms.locfileid: "6322218"
 title: Ofte stillede spørgsmål om listevisninger
 summary: I dette emne besvares spørgsmål, som vores erfarne brugere ofte stiller om, hvordan de kan arbejde med listevisninger og gemme filtre.
 sections:

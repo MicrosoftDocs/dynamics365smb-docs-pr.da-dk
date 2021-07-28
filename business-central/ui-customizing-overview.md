@@ -1,6 +1,6 @@
 ---
-title: Tilpasse Business Central | Microsoft Docs
-description: Få mere at vide om tilpasning af Business Central og tilføjelse af funktioner.
+title: Tilpasse Business Central
+description: Læs om de forskellige måder at tilpasse Business central på, så du får bedre adgang til funktioner og funktioner, du har brug for, som i dit daglige arbejde.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a2f4ed751ae630db7cc7f2eb12046492a5c56664
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5060e9982131f23f3a91e07af52aad4e74b48aa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773576"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319852"
 ---
 # <a name="customize-business-central"></a>Tilpasse Business Central
 Der er forskellige måder at tilpasse programmet på, der giver dig og dine kolleger adgang til de funktioner, den funktionalitet og de data, I har mest brug for, og på en måde, der passer bedst til det daglige arbejde. Hvem der ser ændringerne, afhænger af hvad du gør, som beskrevet i denne tabel.

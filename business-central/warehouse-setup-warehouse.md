@@ -1,6 +1,6 @@
 ---
-title: Konfigurere lagerprocesser | Microsoft Docs
-description: En virksomheds distributionsstrategi afspejles i konfigurationen af virksomhedens lagerprocesser. Dette omfatter bl.a. angivelse af, hvordan forskellige varer håndteres på forskellige lagerlokationer, f.eks. graden af placeringsstyring, og hvilket omfang af arbejdsgange der kræves mellem lageraktiviteterne.
+title: Konfigurere lagerprocesser.
+description: En virksomheds distributionsstrategi afspejles i konfigurationen af virksomhedens lagerprocesser, f.eks. lagerstedslokationer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6730e88bff36347a387bbbbb05b82ec67bac8cac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b4578a02405b2aa972dac81a1d8d8e30ad713f3c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777993"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324710"
 ---
-# <a name="setting-up-warehouse-management"></a>Sådan konfigureres logistikfunktioner
+# <a name="setting-up-warehouse-management"></a>Sådan konfigureres Warehouse Management
 En virksomheds distributionsstrategi afspejles i konfigurationen af virksomhedens lagerprocesser. Dette omfatter bl.a. angivelse af, hvordan forskellige varer håndteres på forskellige lagerlokationer, f.eks. graden af placeringsstyring, og hvilket omfang af arbejdsgange der kræves mellem lageraktiviteterne.  
 
  Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
@@ -46,7 +46,7 @@ En virksomheds distributionsstrategi afspejles i konfigurationen af virksomheden
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -1,6 +1,6 @@
 ---
-title: Business Intelligence| Microsoft Docs
-description: Du kan registrere og analysere forretningsdata, som f.eks. salgstal, køb, driftsudgifter, medarbejderlønninger og budgetter, som kan være værdifulde oplysninger for business intelligence eller beslutningstagere.
+title: Business Intelligence
+description: Business Central indeholder en række funktioner, som kan hjælpe dig med at indsamle, analysere og dele værdifulde virksomhedsdata til Business Intelligence og beslutningstagning.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 6a3d3e9aec61b3dab7673c7b99b482f80501a919
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786558"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323739"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
 Firmaer opfanger en stor mængde data under de daglige aktiviteter. Disse data, som f.eks. afspejler organisationens salgstal, køb, driftsudgifter, medarbejderlønninger og budgetter, kan for beslutningstagere blive værdifulde oplysninger eller "business intelligence", dvs. forretningsindsigt. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en række funktioner, som kan være nyttige, når du skal indsamle, analysere og dele virksomhedens data.

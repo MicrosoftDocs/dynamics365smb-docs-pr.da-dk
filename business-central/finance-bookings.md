@@ -1,6 +1,6 @@
 ---
-title: Fakturere dine reservationer i Business Central | Microsoft Docs
-description: Få mere at vide, hvordan du kan udstede flere fakturaer ad gangen fra Microsoft Bookings i Business Central.
+title: Fakturere dine reservationer i Business Central
+description: Dette emne indeholder en beskrivelse af, hvordan du kan udføre masse fakturering fra Microsoft Bookings Business central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 06095fdb0fac291490eeef5a085264ea75581283
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 236e1732f3bd7100f00f39a41cbec169b6cbd70f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780853"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324021"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
 Hvis dit firma bruger Bookings-appen i Microsoft 365, kan du udstede flere fakturaer ad gangen for aftaler. Siden **Ikke-fakturerede Bookings** i [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en oversigt over virksomhedens udførte reservationer. På denne side kan du hurtigt vælge de aftaler, som du vil fakturere, og oprette udkast til fakturaer for de ydede services.  

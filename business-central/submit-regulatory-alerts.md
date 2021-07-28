@@ -1,19 +1,19 @@
 ---
-title: Sende lovgivningsmæssige påmindelser | Microsoft Docs
+title: Sende lovgivningsmæssige påmindelser
 description: Hvis du kender til ny lovgivning, som du mener kræver understøttelse af funktioner i Business Central, kan du følge denne vejledning for at sende en lovgivningsmæssig påmindelse til produktgruppen.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784836"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319977"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende påmindelser om lande-/områdespecifikke lovgivningsmæssige funktioner
 

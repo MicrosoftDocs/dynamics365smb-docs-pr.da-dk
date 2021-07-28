@@ -1,6 +1,6 @@
 ---
-title: Oversigt over opgaver til administration af salg | Microsoft Docs
-description: Beskriver, hvordan du administrerer salgsaktiviteter.
+title: Oversigt over opgaver til administration af salg
+description: Læs alt om, hvordan du bruger Business Central's services til at styre salgsaktiviteter med kunder med salgsfakturaer, ordrer, tilbud og meget mere.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8c80cbbc4ed4feb088116577157407dd8fb98aaf
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 376e2af791a8e9e37b72b27d7f4fcfbe8d9a654b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935007"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321987"
 ---
 # <a name="sales"></a>Salg
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.

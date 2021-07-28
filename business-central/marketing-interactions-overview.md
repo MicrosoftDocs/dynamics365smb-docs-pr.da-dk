@@ -1,6 +1,6 @@
 ---
-title: Oprettre og administrere interaktioner med kontakter | Microsoft Docs
-description: I Business Central er interaktioner alle typer af kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, mail, telefon, møder osv.
+title: Oprettre og administrere interaktioner med kontakter
+description: I Business Central er interaktioner alle typer af kommunikation mellem din virksomhed og dine kontakter. Læs om de måder, du kan oprette og administrere kontaktpersoner på.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a7e8a009b4d1702689ac61b2874d8970c9c629d2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1876b5f94aa99d032f12c25f81d371af5f44a7c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780628"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321858"
 ---
-# <a name="managing-interactions"></a>Administrere interaktioner
+# <a name="managing-interactions-with-your-contacts"></a>Administrere interaktioner med dine kontakter
 I [!INCLUDE[prod_short](includes/prod_short.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, mail, telefon, møder osv.
 
 Du kan registrere alle de interaktioner, du har med kontakter. Det sætter dig i stand til at holde styr på de salgs- og marketingtiltag, du har iværksat over for kontakterne, og til at forbedre de fremtidige forretningsinteraktioner med dem.

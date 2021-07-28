@@ -1,6 +1,6 @@
 ---
-title: Fakturere forudbetalinger | Microsoft Docs
-description: Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kræver måske et depositum, inden du producerer varerne efter ordre, eller du kræver måske betaling, før du leverer varer til en kunde. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.
+title: Fakturere forudbetaling
+description: Lær, hvordan du bruger forudbetalingsfunktionen til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 511b506d75ad735d5b3b713cd24c802c7cb6d274
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770337"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322525"
 ---
 # <a name="invoicing-prepayments"></a>Fakturere forudbetalinger
 

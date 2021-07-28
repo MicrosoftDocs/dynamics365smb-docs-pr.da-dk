@@ -1,6 +1,6 @@
 ---
-title: Få mere at vide om Finans og kontoplan | Microsoft Docs
-description: Beskriver finans, kontoplanen og kontokategorier.
+title: Om Finans og kontoplanen
+description: Beskriver finans, kontoplanen og kontokategorier. Brug siden Opsætning af Finans til at angive, hvordan du vil behandle bestemte regnskabsopgaver i virksomheden.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f242bce26f55fe446ac8dc96335a8da835dd259c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774001"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321110"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Om Finans og kontoplanen
 
@@ -58,19 +58,29 @@ Du kan oprette en kategorigruppe ved at indrykke andre underkategorier under en 
 
 Du kan angive, om kontiene i hver underkategori skal medtages i bestemte typer rapporter. Kontokategorier hjælper med at definere layoutet af regnskabet.  
 
-F.eks. har standardsaldoopgørelsen en underkategori for Kassebeholdning under Omsætningsaktiver. Hvis du vil have, at kontantbeholdning og checks skal indgå i saldoopgørelsen, kan du:  
+### <a name="example"></a>Eksempel
 
-1. Tilføje to nye underkategorier. Én for kontantbeholdning og én for din checkkonto.  
+F.eks. har standardsaldoopgørelsen en underkategori for *Kassebeholdning* under *Omsætningsaktiver*. Hvis du vil have, at kontantbeholdning og checks skal indgå i saldoopgørelsen, kan du gør følgende:  
+
+1. Tilføje to nye underkategorier:
+
+    * En til kontantbeholdning  
+    * En til din checkkonto  
 2. Angive den ekstra rapportdefinition **Saldo for kassekonti** for disse underkategorier.  
 3. Indrykke dem under underkategorien **Kassebeholdning**.  
 
 Næste gang du genererer kontoskemaer viser din kontoopgørelse den samlede saldo for kontant og to linjer med saldi for kontantbeholdning og checkkontoen.  
+
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Adgang til at oprette og redigere konti og kontokategorier
+
+I en mindre organisation, f. eks. CRONUS-demonstrationsregnskabet, kan de fleste brugere redigere kontoplanen, undtagen brugere med en licens til teammedlemmer. I større organisationer er adgangen til at redigere kontoplanen imidlertid begrænset af roller og tilladelser. Hvis du er administrator, eller du har rollen *forretningschef* eller *bogholder*, kan du kontrollere tilladelserne for alle brugere for at sikre, at de rette personer har adgang til de relevante tabeller. Du kan finde flere oplysninger i [Sådan får du vist en oversigt over en brugers rettigheder](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Konfigurere eller ændre kontoplanen](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
+[Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

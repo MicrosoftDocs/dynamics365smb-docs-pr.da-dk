@@ -1,21 +1,21 @@
 ---
 title: Svare på anmodninger om personlige oplysninger
-description: Du skal besvare anmodninger fra dataemner.
+description: Dette emne viser, hvordan du kan svare på anmodninger om personoplysninger. Dette kaldes en dataemneanmodning.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: b7762f9da2a6e3acfbd57a4b5af4806ead710c9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777377"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321958"
 ---
-# <a name="responding-to-requests-about-personal-data"></a>Svare på anmodninger om personlige oplysninger  
+# <a name="responding-to-requests-about-users-personal-data"></a>Svare på anmodninger om brugerens personlige oplysninger  
 Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til den generelle forordning om databeskyttelse (GDPR) f.eks. har indbyggere i EU-lande ret til at anmode om eksport, sletning og ændring af deres personlige data. Dette kaldes en *Dataemneanmodning*. Hvis du har klassificeret følsomheden af dine data og er sikker på, at de er korrekte, kan en administrator reagere på anmodninger ved hjælp af indstillingerne under fanen **Beskyttelse af personlige oplysninger** i rollecenteret **It-chef**. Du kan finde flere oplysninger om at klassificere data og klassificere datafølsomheden i [!INCLUDE[prod_long](includes/prod_long.md)] under [Klassificering af data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Typer af anmodninger

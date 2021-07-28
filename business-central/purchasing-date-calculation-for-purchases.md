@@ -1,6 +1,6 @@
 ---
-title: Datoberegning for køb | Microsoft Docs
-description: Programmet beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato. Dette er den dato, du kan forvente, at varer, der er bestilt på en bestemt dato, er disponible til pluk.
+title: Beregning af forfaldsdato for køb
+description: Programmet beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b65e082355623f422cfb03698f6413fdb04f0daf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6758c631fcddf157894ed06a483b811342a44e0d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780253"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321035"
 ---
 # <a name="date-calculation-for-purchases"></a>Beregning af forfaldsdato for køb
 

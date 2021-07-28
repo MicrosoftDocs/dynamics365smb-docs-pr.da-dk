@@ -1,6 +1,6 @@
 ---
-title: Konfigurere ressourcer, timesedler og sager | Microsoft Docs
-description: Beskriver, hvordan du konfigurerer ressourcer, timesedler og sager til at administrere projekter.
+title: Konfigurere ressourcer, timesedler og sager
+description: Beskriver, hvordan du konfigurerer ressourcer, timesedler og sager til at administrere projekter og deres budgetter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7d2751a75de909e0c2d0e5d081d33a16b8d578ba
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 468c3a9e526d5d512419242a9fbcd0271d6e2a6d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780303"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321060"
 ---
 # <a name="setting-up-project-management"></a>Konfigurere projektstyring
 Før du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager.
